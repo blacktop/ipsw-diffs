@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 259DF14B-4BCC-3B9B-93AB-637899CDF96D
 -  Functions: 26089
 -  Symbols:   969
--  CStrings:  4077
+-  CStrings:  4090
++  UUID: 3DCAD0BC-6A19-3FF9-A3FD-77D7DDC631D4
 +  Functions: 26080
 +  Symbols:   970
-+  CStrings:  4081
++  CStrings:  4094
  
 Symbols:
 + _UIApplicationProtectedDataDidBecomeAvailable

@@ -10,8 +10,8 @@
    __TEXT.__auth_stubs: 0x970
    __TEXT.__objc_methlist: 0x27c
 
+   __AUTH_CONST.__const: 0xa58
    __AUTH_CONST.__objc_const: 0x198
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x4c8
 -  __AUTH.__objc_data: 0x228
 -  __AUTH.__data: 0x58
@@ -29,5 +29,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AXIDSServices.framework/AXIDSServices
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F68B5937-7A08-3973-BA30-213D3B5CABA3
++  UUID: C618AB89-3C86-318E-9F82-8FB6A6B011F2
+   Functions: 466
+   Symbols:   475
+   CStrings:  269
 
 ```

@@ -46,9 +46,9 @@
    __AUTH_CONST.__objc_const: 0x158
    __AUTH_CONST.__cfstring: 0x6ec0
 
+   __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__const: 0x2030
    __AUTH_CONST.__objc_dictobj: 0x190
-   __AUTH_CONST.__auth_ptr: 0x100
 -  __AUTH_CONST.__auth_got: 0x1450
 +  __AUTH_CONST.__auth_got: 0x1448
    __AUTH.__objc_data: 0x2c0
@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C75CFC39-B9CE-36DA-8029-44B182EDB4C7
 -  Functions: 6440
++  UUID: 16D2D054-5267-3C47-A04B-07480B7E10B6
 +  Functions: 6441
    Symbols:   1117
--  CStrings:  4214
-+  CStrings:  4216
+-  CStrings:  5100
++  CStrings:  5102
  
 CStrings:
 + "Could not produce SayAs element from SSML markup = '%@'"

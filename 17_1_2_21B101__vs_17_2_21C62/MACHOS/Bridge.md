@@ -56,11 +56,13 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E653830A-E155-3873-96DE-DD5490049337
 -  Functions: 7487
++  UUID: 6F4A4374-C2DA-3E94-9E32-724D24734439
 +  Functions: 7485
    Symbols:   1564
--  CStrings:  13825
-+  CStrings:  13823
+-  CStrings:  16019
++  CStrings:  16016
  
 CStrings:
 - "Bridge.appList"

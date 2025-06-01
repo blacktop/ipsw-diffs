@@ -34,11 +34,13 @@
    - /System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 389DE36B-3E00-31D8-B2CE-38C565E227C9
 -  Functions: 154
++  UUID: FD186895-DB6A-3C8A-B1DA-781A470A5EE4
 +  Functions: 155
    Symbols:   123
--  CStrings:  443
-+  CStrings:  445
+-  CStrings:  460
++  CStrings:  462
  
 CStrings:
 + "_addStickerToStoreWithRepresentations:sourceRect:effect:completion:"

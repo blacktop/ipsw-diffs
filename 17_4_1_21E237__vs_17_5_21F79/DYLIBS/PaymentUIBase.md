@@ -27,8 +27,11 @@
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CD6239D6-4CA3-35B6-92BF-932DB7C35CEF
++  UUID: D9D9619B-609C-3393-A19A-44A056BE5A1F
    Functions: 1733
 -  Symbols:   618
 +  Symbols:   620

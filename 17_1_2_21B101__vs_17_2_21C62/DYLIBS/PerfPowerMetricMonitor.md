@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE1452EF-6D15-31E8-B144-DEEFF313CFA3
 -  Functions: 261
 -  Symbols:   970
--  CStrings:  536
+-  CStrings:  597
++  UUID: B5FDC3F1-C707-32BC-96AF-8F6800BCF75F
 +  Functions: 263
 +  Symbols:   976
-+  CStrings:  541
++  CStrings:  603
  
 Symbols:
 + -[PPSMetricCollection displayFPS]

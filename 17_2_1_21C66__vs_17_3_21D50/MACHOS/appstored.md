@@ -61,11 +61,15 @@
    __DATA.__data: 0x6bf8
    __DATA.__bss: 0x5890
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 57FEED5E-9E6B-3C76-9792-60015F79B38B
++  UUID: 46742520-8391-38C7-A0DC-B3F2A879036E
    Functions: 11119
    Symbols:   1686
--  CStrings:  14363
-+  CStrings:  14367
+-  CStrings:  17744
++  CStrings:  17750
  
 CStrings:
 + "23:50:30"

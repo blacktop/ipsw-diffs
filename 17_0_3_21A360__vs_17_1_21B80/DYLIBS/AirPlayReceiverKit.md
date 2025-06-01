@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30283530-54FE-30EA-97E4-0AFB6B226B01
 -  Functions: 536
 -  Symbols:   2237
--  CStrings:  1576
+-  CStrings:  1749
++  UUID: D27204BB-DF76-35D8-8698-9470F81A5CCF
 +  Functions: 537
 +  Symbols:   2248
-+  CStrings:  1582
++  CStrings:  1757
  
 Symbols:
 + GCC_except_table3

@@ -15,6 +15,15 @@
    __TEXT.__unwind_info: 0x510
    __DATA_CONST.__auth_ptr: 0x88
    __DATA_CONST.__const: 0x45c0
+
+   __DATA_DIRTY.__data: 0x5c
+   __DATA_DIRTY.__common: 0x1120
+   __DATA_DIRTY.__bss: 0x1bc0
+-  UUID: A795AD37-6266-385E-95E6-C1CA804C926E
++  UUID: 630C2209-DFD7-3C72-B0A9-E856C560F123
+   Functions: 2838
+   Symbols:   3257
+   CStrings:  1634
 Symbols:
 + _ZN3lsl9UniquePtrIKcEC2IS1_EEPT_.cold.1
 + __ZN3lsl9UniquePtrIKcEC2IS1_EEPT_

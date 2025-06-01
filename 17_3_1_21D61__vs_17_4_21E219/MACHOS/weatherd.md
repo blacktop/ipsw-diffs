@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3CB45AD0-C735-3AE0-8F1C-EBE8EA83293C
 -  Functions: 1548
 -  Symbols:   1036
--  CStrings:  418
+-  CStrings:  419
++  UUID: F5CF5E4E-F6D3-3C43-ADCD-89BF8D37D038
 +  Functions: 1554
 +  Symbols:   1042
-+  CStrings:  438
++  CStrings:  439
  
 Symbols:
 + _$s11WeatherCore23LocationManagerObserverP07reducedC7UpdatesSbvgTq

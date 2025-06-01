@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32DE7ABD-CA70-3D62-ABD6-09B9A0C9FA40
 -  Functions: 1284
 -  Symbols:   4055
--  CStrings:  2095
+-  CStrings:  2671
++  UUID: 7C8E7128-5237-3970-8693-43576ED9C46E
 +  Functions: 1275
 +  Symbols:   4041
-+  CStrings:  2103
++  CStrings:  2679
  
 Symbols:
 + -[ADCoreDefaults _defaultValueForKey:valueClass:]

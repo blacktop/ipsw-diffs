@@ -41,9 +41,9 @@
    __AUTH_CONST.__objc_const: 0x3750
    __AUTH_CONST.__objc_doubleobj: 0xc0
 
+   __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2f8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x2738
 +  __AUTH_CONST.__auth_got: 0x2730
    __AUTH.__objc_data: 0x10b8
@@ -66,12 +66,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 34F10408-72FA-3400-AC16-95A5B83EB74E
 -  Functions: 10978
 -  Symbols:   28512
--  CStrings:  10982
+-  CStrings:  13571
++  UUID: 32B5A8E6-AC13-3BE9-A6B4-AF6309173F95
 +  Functions: 10981
 +  Symbols:   28523
-+  CStrings:  10984
++  CStrings:  13573
  
 Symbols:
 + +[CATransaction(CATransactionPrivate) batch]

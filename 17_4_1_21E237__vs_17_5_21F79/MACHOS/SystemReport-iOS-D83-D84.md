@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyBasebandDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7FB8FEB8-9AA2-3A43-BB5C-C0FD52646935
 -  Functions: 633
 -  Symbols:   338
--  CStrings:  8310
+-  CStrings:  13564
++  UUID: DB3B49B1-3C21-34D5-896A-82A7B66953F2
 +  Functions: 634
 +  Symbols:   339
-+  CStrings:  8314
++  CStrings:  13570
  
 Symbols:
 + _MGGetSInt32Answer

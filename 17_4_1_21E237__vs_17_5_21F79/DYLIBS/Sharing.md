@@ -69,7 +69,6 @@
 -  __AUTH_CONST.__const: 0xfd58
 +  __AUTH_CONST.__const: 0xfe48
    __AUTH_CONST.__objc_dictobj: 0x5c8
-   __AUTH_CONST.__auth_ptr: 0x1d8
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__auth_got: 0x1f08
    __AUTH.__objc_data: 0x1968
@@ -112,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94CF90DC-F6FA-303C-B3F7-E1256B2CD4EC
 -  Functions: 20067
 -  Symbols:   30396
--  CStrings:  16016
+-  CStrings:  18292
++  UUID: 1BFD8B1B-5AA0-3EF2-89F6-8437DDB17E88
 +  Functions: 20102
 +  Symbols:   30426
-+  CStrings:  16039
++  CStrings:  18330
  
 Symbols:
 + +[SFHeadphoneProduct b463]

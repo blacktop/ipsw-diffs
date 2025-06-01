@@ -27,12 +27,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
+-  UUID: 7A3C1771-EB70-350C-A319-127E678862FA
 -  Functions: 41
 -  Symbols:   85
--  CStrings:  73
+-  CStrings:  74
++  UUID: 4EF51F17-9358-3C63-8920-8E85FF425AA4
 +  Functions: 43
 +  Symbols:   87
-+  CStrings:  82
++  CStrings:  83
  
 Symbols:
 + _csr_check

@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 767DD3C9-F6AC-3A96-8453-5FF21D5C909B
 -  Functions: 1815
 -  Symbols:   6475
--  CStrings:  3814
+-  CStrings:  4452
++  UUID: 09557A9F-FCEE-3247-9E4B-64721887ED10
 +  Functions: 1820
 +  Symbols:   6496
-+  CStrings:  3829
++  CStrings:  4473
  
 Symbols:
 + +[CSUtils supportsSCDAFramework]

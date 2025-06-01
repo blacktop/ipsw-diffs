@@ -58,10 +58,12 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3BCE9251-250E-3292-AA28-7D83CD6C1E2A
 -  Functions: 12285
++  UUID: 5B7DFA1B-23E8-3B28-BD1D-58DAA2BF97B9
 +  Functions: 12275
    Symbols:   1223
-   CStrings:  3395
+   CStrings:  3426
  
 CStrings:
 + "### No device found for identity: "

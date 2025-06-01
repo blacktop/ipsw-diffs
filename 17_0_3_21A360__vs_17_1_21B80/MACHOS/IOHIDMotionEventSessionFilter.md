@@ -25,11 +25,15 @@
    __DATA.__objc_classrefs: 0x10
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 712E2AE4-C0C9-3E13-9D62-BD273A6751BB
++  UUID: 83220AD8-936B-31AD-86CA-FEBDED52E7C3
    Functions: 15
    Symbols:   36
--  CStrings:  95
-+  CStrings:  96
+-  CStrings:  102
++  CStrings:  103
  
 CStrings:
 + "cancel"

@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4E735CA4-322E-3F83-9282-29D71A6025D0
++  UUID: 0D9E2A46-D8B6-3C83-A397-55A05D54AB76
+   Functions: 3
+   Symbols:   262
+   CStrings:  212
+
 ```

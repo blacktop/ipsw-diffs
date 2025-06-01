@@ -34,7 +34,6 @@
    __AUTH_CONST.__objc_const: 0x3e10
    __AUTH_CONST.__cfstring: 0x4a80
    __AUTH_CONST.__const: 0x608
-
    __AUTH_CONST.__auth_got: 0xb58
    __AUTH.__objc_data: 0x3750
    __AUTH.__data: 0x28
@@ -48,11 +47,13 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0558E994-43F8-374A-A539-A98724744591
 -  Functions: 2146
++  UUID: 7A392485-4688-373D-A42F-218645163AFE
 +  Functions: 2145
    Symbols:   531
--  CStrings:  4041
-+  CStrings:  4042
+-  CStrings:  4637
++  CStrings:  4638
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -48,12 +48,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 4F4CB8F4-9BF4-32D6-B4CE-90AE31817A0E
 -  Functions: 446
 -  Symbols:   348
--  CStrings:  1498
+-  CStrings:  2050
++  UUID: E2C85F14-B240-3690-9164-167CE75B6A91
 +  Functions: 449
 +  Symbols:   350
-+  CStrings:  1511
++  CStrings:  2067
  
 Symbols:
 + _NSStringFromClass

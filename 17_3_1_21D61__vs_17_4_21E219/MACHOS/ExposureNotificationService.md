@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /System/Library/PrivateFrameworks/ExposureNotificationDaemon.framework/ExposureNotificationDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DAF05571-BB0E-3383-A60D-874B4382B103
++  UUID: E0E4142C-85AA-3885-ACE3-B512C751F0BB
+   Functions: 1
+   Symbols:   6
+   CStrings:  2
 
 ```

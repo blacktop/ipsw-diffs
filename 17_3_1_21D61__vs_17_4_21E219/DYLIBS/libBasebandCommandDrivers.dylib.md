@@ -30,12 +30,15 @@
    __DATA.__data: 0x28
    __DATA_DIRTY.__bss: 0x10
 
+   - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 54A20F17-8D8A-3792-8257-60FE98E3C729
++  UUID: B65A1D91-0F3C-37F3-9AF1-CD24D7D80C4A
    Functions: 612
 -  Symbols:   2075
 +  Symbols:   2074
-   CStrings:  480
+   CStrings:  699
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

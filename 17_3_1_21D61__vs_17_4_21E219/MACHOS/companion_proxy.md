@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x180
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8E0C7E0-7A1D-360A-A736-D5A7CFC8A0F8
++  UUID: 4B949302-11A0-3293-BE52-FDE180E4CEE0
    Functions: 173
    Symbols:   181
--  CStrings:  572
-+  CStrings:  573
+-  CStrings:  653
++  CStrings:  654
  
 CStrings:
 + "21:09:17"

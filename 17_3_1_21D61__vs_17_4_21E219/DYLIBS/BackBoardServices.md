@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x6f0
 -  __AUTH.__objc_data: 0x1a90
 -  __DATA.__objc_protorefs: 0x80
@@ -83,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B1895D8-478A-34A7-A594-34FBB8565B8C
 -  Functions: 2417
 -  Symbols:   7555
--  CStrings:  3781
+-  CStrings:  4820
++  UUID: 35BD168E-B794-3577-9927-1AA1389CBD51
 +  Functions: 2492
 +  Symbols:   7821
-+  CStrings:  3868
++  CStrings:  4922
  
 Symbols:
 + +[BKSHIDEventKeyCommand _descriptionForKeyCommandCollection:]

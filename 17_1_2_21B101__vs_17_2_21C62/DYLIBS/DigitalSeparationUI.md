@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0E9C72F-5D3B-3E0A-BAD9-C969064B2866
 -  Functions: 1106
 -  Symbols:   4428
--  CStrings:  2420
+-  CStrings:  2838
++  UUID: A25B7D53-E11E-3977-B9F0-820E820DB689
 +  Functions: 1108
 +  Symbols:   4433
-+  CStrings:  2422
++  CStrings:  2840
  
 Symbols:
 + +[DSSafetyCheck startWithPresentingViewController:withURL:]

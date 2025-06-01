@@ -15,10 +15,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A4F6CBDB-C6CD-3DC3-97A2-B9D3E4788404
 -  Functions: 1963
++  UUID: A6940C87-1DE9-3423-A4C6-64B827928D0D
 +  Functions: 1966
    Symbols:   528
-   CStrings:  3989
+   CStrings:  4696
  
 
 ```

@@ -76,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90AE62DE-7945-3C4A-BB49-6A8FD228F4DF
 -  Functions: 5896
 -  Symbols:   21501
--  CStrings:  8054
+-  CStrings:  8561
++  UUID: 88122FEA-96A3-3DC1-A5CA-756C607623C3
 +  Functions: 5994
 +  Symbols:   21801
-+  CStrings:  8134
++  CStrings:  8645
  
 Symbols:
 + -[AVTAnimojiPoseSelectionHeaderViewController avtCaptureBackgroundColor]

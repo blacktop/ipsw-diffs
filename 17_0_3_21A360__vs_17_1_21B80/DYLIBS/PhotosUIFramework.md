@@ -56,12 +56,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 234F6616-BDE0-3B53-BB53-FE4F3BBD8B45
 -  Functions: 685
 -  Symbols:   2621
--  CStrings:  1361
+-  CStrings:  1989
++  UUID: E76E0717-E6CE-3B38-A458-152FEBDC530A
 +  Functions: 694
 +  Symbols:   2651
-+  CStrings:  1370
++  CStrings:  2003
  
 Symbols:
 + +[PUOneUpDetailsBarButtonControllerAccessibility _accessibilityPerformValidations:]

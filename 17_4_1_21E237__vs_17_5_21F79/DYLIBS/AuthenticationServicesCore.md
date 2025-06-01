@@ -61,7 +61,6 @@
 -  __AUTH_CONST.__const: 0x1c68
 +  __AUTH_CONST.__const: 0x1c48
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__auth_got: 0x1028
    __AUTH.__objc_data: 0x158
    __AUTH.__data: 0x138
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 57993D25-79C8-3231-921B-10EE9E7B06DC
 -  Functions: 3575
 -  Symbols:   4060
--  CStrings:  2044
+-  CStrings:  2256
++  UUID: 71D793BF-2375-3EF8-AD8C-44D98236165A
 +  Functions: 3583
 +  Symbols:   4083
-+  CStrings:  2057
++  CStrings:  2270
  
 Symbols:
 + -[ASCAgent test_addCredentialProviderExtensionLoginChoiceWithName:extensionBundleID:containingAppBundleID:]

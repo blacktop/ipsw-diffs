@@ -49,12 +49,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C8F7351C-7C63-3DF8-8546-882607D4C61C
 -  Functions: 1640
 -  Symbols:   6414
--  CStrings:  3358
+-  CStrings:  4085
++  UUID: 1812C10F-4543-315D-B1EC-7ACF4E24D7A7
 +  Functions: 1641
 +  Symbols:   6418
-+  CStrings:  3360
++  CStrings:  4087
  
 Symbols:
 + -[CardDAVFolderSyncTaskGroup applyAdditionalPropertiesFromPutTask:]

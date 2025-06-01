@@ -42,11 +42,14 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31DCA170-3200-3902-984A-7B00587F2EBF
++  UUID: 607E821A-DECF-35F6-A1D1-C3D6EB6C2EC7
    Functions: 29
 -  Symbols:   63
--  CStrings:  155
+-  CStrings:  158
 +  Symbols:   60
 +  CStrings:  153
  

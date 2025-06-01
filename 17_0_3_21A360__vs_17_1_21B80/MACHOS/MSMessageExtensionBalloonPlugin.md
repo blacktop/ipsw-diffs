@@ -40,11 +40,13 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 85BF3AE1-B9DE-38DB-90E9-BBE5E9B6F7B3
 -  Functions: 905
++  UUID: 6D762FF1-F238-359B-BFE4-86CC66E42D1E
 +  Functions: 906
    Symbols:   322
--  CStrings:  1618
-+  CStrings:  1621
+-  CStrings:  1703
++  CStrings:  1706
  
 CStrings:
 + "_presentAlertSheetWithTitle:message:buttonTitles:styles:completion:"

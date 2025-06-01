@@ -60,11 +60,13 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A038B9C1-5CF7-3DFF-A01A-4C73A28A0D87
 -  Functions: 359
++  UUID: 37DEEE0D-4F22-333B-841C-090642B75390
 +  Functions: 370
    Symbols:   280
--  CStrings:  1318
-+  CStrings:  1341
+-  CStrings:  1554
++  CStrings:  1583
  
 CStrings:
 + "@48@0:8@16q24Q32Q40"

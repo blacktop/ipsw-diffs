@@ -43,10 +43,12 @@
 -  - /System/Library/PrivateFrameworks/Translation.framework/Translation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0890B766-591C-3807-9F38-7156D494EF06
++  UUID: 92B43A16-C086-3E1E-AAD7-30D2B09D1B37
    Functions: 125
    Symbols:   602
--  CStrings:  331
-+  CStrings:  332
+-  CStrings:  348
++  CStrings:  349
  
 Symbols:
 + ___block_literal_global.45

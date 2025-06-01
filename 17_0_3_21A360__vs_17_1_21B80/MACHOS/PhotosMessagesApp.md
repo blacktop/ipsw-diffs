@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A85DF1D3-843E-3D70-9A4E-198E0C77E451
 -  Functions: 104
 -  Symbols:   142
--  CStrings:  475
+-  CStrings:  496
++  UUID: AEDBDCE0-1F05-363A-AD91-2BBEC4776130
 +  Functions: 99
 +  Symbols:   137
-+  CStrings:  452
++  CStrings:  473
  
 Symbols:
 - _CGRectGetMidX

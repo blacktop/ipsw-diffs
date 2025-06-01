@@ -27,11 +27,15 @@
    __DATA.__objc_data: 0x4b0
    __DATA.__data: 0x600
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34D6D302-73AF-3C59-87C9-D8853267DBC0
++  UUID: FADCF348-6FA8-3B6D-9EAC-4257FD8E0A87
    Functions: 350
    Symbols:   153
--  CStrings:  863
-+  CStrings:  864
+-  CStrings:  887
++  CStrings:  888
  
 CStrings:
 + "MagicSwitchEnabler --- Launching; \"MagicSwitch-37\" \"7892\""

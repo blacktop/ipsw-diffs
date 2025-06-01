@@ -22,6 +22,15 @@
    __DATA_CONST.__auth_got: 0xbb0
    __DATA_CONST.__got: 0x278
    __DATA_CONST.__const: 0x1ab0
+
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BA2E001B-B21B-309E-8139-303139CE959D
++  UUID: 53AD9096-989E-3C5C-9D6C-007B3A5603A5
+   Functions: 1949
+   Symbols:   586
+   CStrings:  6387
 CStrings:
 + "-[NSPPrivacyProxyMultiHopFallbackNetworkRegistration setProxyAgentConfiguration:secondProxyHopURL:firstProxyHopKeyArray:secondProxyHopKeyArray:firstProxyHopVersion:secondProxyHopVersion:firstProxyHopNextHopsArray:secondProxyHopNextHopsArray:firstProxyHopSupportsResumption:secondProxyHopSupportsResumption:firstProxyHopUsesX25519:secondProxyHopUsesX25519:ingressTokenAgentUUID:egressTokenAgentUUID:firstProxyHopUsesStandardToken:secondProxyHopUsesStandardToken:shouldFailOpen:allowGeohash:geohashOverride:enableDNSFilteringHint:configEpoch:]"
 + "-[NSPPrivacyProxyMultiHopNetworkRegistration setProxyAgentConfiguration:secondProxyHopURL:firstProxyHopKeyArray:secondProxyHopKeyArray:firstProxyHopVersion:secondProxyHopVersion:firstProxyHopNextHopsArray:secondProxyHopNextHopsArray:firstProxyHopSupportsResumption:secondProxyHopSupportsResumption:firstProxyHopUsesX25519:secondProxyHopUsesX25519:ingressTokenAgentUUID:egressTokenAgentUUID:firstProxyHopUsesStandardToken:secondProxyHopUsesStandardToken:fallbackAgentUUID:shouldFailOpen:allowGeohash:geohashOverride:enableDNSFilteringHint:fallbackProxyConfigHash:configEpoch:]"

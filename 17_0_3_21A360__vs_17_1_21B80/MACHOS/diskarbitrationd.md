@@ -29,11 +29,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 850CE7FF-199B-3CDE-9BAE-20EEBFAC5426
 -  Functions: 454
++  UUID: BD6A2DD6-8B20-36C8-9C25-111636CF6934
 +  Functions: 455
    Symbols:   373
--  CStrings:  583
-+  CStrings:  584
+-  CStrings:  787
++  CStrings:  788
  
 CStrings:
 + "gDAMountPointList"

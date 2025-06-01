@@ -23,6 +23,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F8CE94DE-CF75-32DD-8327-27C60984C879
++  UUID: 88521E80-05EA-3E57-A35D-0BF140D893C6
+   Functions: 12
+   Symbols:   79
+   CStrings:  25
 Symbols:
 + ___33+[AXWebProcessLoader _axUpdated:]_block_invoke.239
 + ___33+[AXWebProcessLoader _axUpdated:]_block_invoke.239.cold.1

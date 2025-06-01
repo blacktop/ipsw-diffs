@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 910D82D4-9EDC-326C-A000-730DFF604FD4
 -  Functions: 1781
++  UUID: FEF188A5-663E-35D1-8A07-5A9B24C7C606
 +  Functions: 1782
    Symbols:   307
--  CStrings:  1023
-+  CStrings:  1031
+-  CStrings:  1094
++  CStrings:  1103
  
 CStrings:
 + "GeneralMapsStateCollector: collectMapsActivityCamera camera (%{private}@) invalid coordinate"

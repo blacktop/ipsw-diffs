@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc48
 
+   - /System/Library/PrivateFrameworks/BrailleTranslation.framework/BrailleTranslation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D783F038-8E25-326D-89BC-06C8C7076621
++  UUID: 365D7574-CF32-3C49-BA43-1686B80A38B8
    Functions: 150
    Symbols:   254
--  CStrings:  5008
-+  CStrings:  5009
+-  CStrings:  5021
++  CStrings:  5022
  
 CStrings:
 + "T@\"NSString\",?,R,C"

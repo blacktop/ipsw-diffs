@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x1960
    __TEXT.__objc_methlist: 0xa6a8
    __TEXT.__const: 0x162c
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 872D05B3-3EC0-3BEC-9BCA-B497A45EEC1F
++  UUID: C723ADF2-3A14-3A00-AAFC-E7F69A1B4D0B
+   Functions: 5164
+   Symbols:   17537
+   CStrings:  10897
 Symbols:
 + _AVFoundationLibrary.10073
 + _AVFoundationLibrary.14293

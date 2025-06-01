@@ -64,7 +64,6 @@
 -  __DATA_CONST.__objc_selrefs: 0xa748
 -  __DATA_CONST.__objc_arraydata: 0x530
 -  __AUTH_CONST.__const: 0x3758
--  __AUTH_CONST.__auth_ptr: 0x1d0
 -  __AUTH_CONST.__cfstring: 0x7a20
 -  __AUTH_CONST.__objc_const: 0x6080
 -  __AUTH_CONST.__objc_arrayobj: 0x2b8
@@ -76,7 +75,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x608
 +  __DATA_CONST.__objc_arraydata: 0x520
 +  __AUTH_CONST.__const: 0x37d0
-+  __AUTH_CONST.__auth_ptr: 0x1c8
 +  __AUTH_CONST.__cfstring: 0x7aa0
 +  __AUTH_CONST.__objc_const: 0x6268
 +  __AUTH_CONST.__objc_arrayobj: 0x2a0
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F6904B2-148F-34BD-9278-4D78F8BC3501
 -  Functions: 8105
 -  Symbols:   25418
--  CStrings:  11846
+-  CStrings:  12823
++  UUID: 8F23F482-5747-3DDB-ABD2-9481608D3A69
 +  Functions: 8174
 +  Symbols:   25643
-+  CStrings:  11917
++  CStrings:  12898
  
 Symbols:
 + +[AVMediaTimelineControlConfiguration defaultConfiguration]

@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 530365D9-29B4-3952-B172-25AA20EE947D
++  UUID: 26614219-C730-3294-AAFE-1CFF93204509
    Functions: 146
    Symbols:   119
--  CStrings:  372
-+  CStrings:  373
+-  CStrings:  403
++  CStrings:  404
  
 CStrings:
 + "T@\"NSString\",?,R,C"

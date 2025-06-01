@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 21A40967-EDE3-3A52-BB2B-EE03506F67CA
 -  Functions: 928
 -  Symbols:   280
--  CStrings:  2353
+-  CStrings:  2948
++  UUID: 00E68850-E4C9-3A53-B191-FE4D2BD57B6E
 +  Functions: 931
 +  Symbols:   282
-+  CStrings:  2381
++  CStrings:  2994
  
 Symbols:
 + _OBJC_CLASS_$_NSDecimalNumber

@@ -44,7 +44,6 @@
    __AUTH_CONST.__const: 0x4b0
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__objc_const: 0x438
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x310
 -  __AUTH.__objc_data: 0xaf8
 +  __AUTH_CONST.__auth_got: 0x318
@@ -69,11 +68,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 80B4674F-2493-3FB7-83E2-054311D56CF7
 -  Functions: 412
 -  Symbols:   415
++  UUID: 9FA74B56-D9CD-3B29-8144-AB119F714906
 +  Functions: 411
 +  Symbols:   416
-   CStrings:  163
+   CStrings:  169
  
 Symbols:
 + __PROTOCOLS__GamePolicyAssertion_Attribute.13

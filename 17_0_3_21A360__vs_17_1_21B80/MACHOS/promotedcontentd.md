@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A7B7CA0F-5569-38C2-99F0-6C73C7C0D4FC
 -  Functions: 6678
 -  Symbols:   1968
--  CStrings:  9849
+-  CStrings:  11563
++  UUID: 6DFD69CF-3940-34DD-AC5F-25C499DF8190
 +  Functions: 6674
 +  Symbols:   1967
-+  CStrings:  9836
++  CStrings:  11550
  
 Symbols:
 + _kAPDeviceInfoOperatingSystemvisionOS

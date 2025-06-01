@@ -13,4 +13,13 @@
    __TEXT.__objc_stubs: 0x140
    __DATA_CONST.__got: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: B94FFDA7-CE6C-36F9-8A9A-208F1C7AEF45
++  UUID: 33721431-865F-3D6A-B91D-2BE020DADAC5
+   Functions: 182
+   Symbols:   187
+   CStrings:  134
+
 ```

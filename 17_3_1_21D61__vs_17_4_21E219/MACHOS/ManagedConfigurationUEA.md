@@ -18,11 +18,15 @@
    __TEXT.__objc_classname: 0x87
    __TEXT.__objc_methtype: 0x581
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B75FCCD6-B612-33CC-B871-4A7DA02D526D
++  UUID: 4C410C24-2BDB-3C60-AC9B-1F6A7D6885BD
    Functions: 17
    Symbols:   63
--  CStrings:  165
-+  CStrings:  166
+-  CStrings:  174
++  CStrings:  175
  
 CStrings:
 + "T@\"NSString\",?,R,C"

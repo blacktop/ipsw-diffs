@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x224
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 554DE949-26D0-383C-87D3-7D1496BECB32
++  UUID: A5E37C5A-47E0-39FB-ACC0-FD6058D6A5F5
    Functions: 185
    Symbols:   203
--  CStrings:  707
-+  CStrings:  708
+-  CStrings:  870
++  CStrings:  871
  
 CStrings:
 + "61123.100.169"

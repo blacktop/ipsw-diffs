@@ -32,9 +32,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x20
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x400
-+  __AUTH_CONST.__const: 0x43a0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__const: 0x4a10
++  __AUTH_CONST.__const: 0x43a0
    __AUTH_CONST.__auth_got: 0x2b0
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0xb0
@@ -51,11 +50,15 @@
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FD1EB905-1636-3659-8DE5-A110117A9809
++  UUID: D64D226D-B194-3CFD-9479-74249B071CAB
    Functions: 171
    Symbols:   764
--  CStrings:  374
-+  CStrings:  375
+-  CStrings:  406
++  CStrings:  407
  
 Symbols:
 + ___69-[AIDAServiceOwnersManager signInToServices:usingContext:completion:]_block_invoke.101

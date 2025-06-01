@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D4983048-B47A-350C-881F-81938F928D69
++  UUID: 2E96E2E2-965F-32F5-B429-D98749A83FFB
+   Functions: 15
+   Symbols:   48
+   CStrings:  80
+
 ```

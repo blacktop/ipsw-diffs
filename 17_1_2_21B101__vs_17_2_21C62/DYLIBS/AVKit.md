@@ -69,7 +69,6 @@
 -  __DATA_CONST.__objc_selrefs: 0xa4f8
 -  __DATA_CONST.__objc_arraydata: 0x518
 -  __AUTH_CONST.__const: 0x3228
--  __AUTH_CONST.__auth_ptr: 0x170
 -  __AUTH_CONST.__cfstring: 0x75a0
 -  __AUTH_CONST.__objc_const: 0x5cd8
 -  __AUTH_CONST.__objc_arrayobj: 0x288
@@ -79,7 +78,6 @@
 +  __DATA_CONST.__objc_selrefs: 0xa748
 +  __DATA_CONST.__objc_arraydata: 0x530
 +  __AUTH_CONST.__const: 0x3758
-+  __AUTH_CONST.__auth_ptr: 0x1d0
 +  __AUTH_CONST.__cfstring: 0x7a20
 +  __AUTH_CONST.__objc_const: 0x6080
 +  __AUTH_CONST.__objc_arrayobj: 0x2b8
@@ -122,12 +120,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EAD76DD0-36B4-374C-A2AA-1AF16DCB9D3A
 -  Functions: 7869
 -  Symbols:   24743
--  CStrings:  11626
+-  CStrings:  12567
++  UUID: 8928DC9B-AF0F-3D48-82BD-8835E451A233
 +  Functions: 8105
 +  Symbols:   25418
-+  CStrings:  11846
++  CStrings:  12823
  
 Symbols:
 + +[AVAction actionWithHandler:]

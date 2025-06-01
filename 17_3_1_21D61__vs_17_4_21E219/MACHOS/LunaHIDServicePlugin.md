@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 833D82C4-D0C2-3FBE-83B2-EE6AD31FE3BF
 -  Functions: 210
 -  Symbols:   117
--  CStrings:  588
+-  CStrings:  634
++  UUID: E2680615-5E99-3235-89BA-5E35A699E046
 +  Functions: 214
 +  Symbols:   121
-+  CStrings:  594
++  CStrings:  641
  
 Symbols:
 + _dispatch_after

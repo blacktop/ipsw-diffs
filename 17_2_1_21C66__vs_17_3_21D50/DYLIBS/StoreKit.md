@@ -50,10 +50,9 @@
    __DATA_CONST.__objc_arraydata: 0x60
    __AUTH_CONST.__const: 0x94c8
    __AUTH_CONST.__objc_const: 0x2798
-
+   __AUTH_CONST.__cfstring: 0x3720
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x190
 -  __AUTH_CONST.__auth_got: 0x18a0
 +  __AUTH_CONST.__auth_got: 0x1898
    __AUTH.__objc_data: 0x2488
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EFDF6838-6D43-3E69-906B-5238AB709FDC
 -  Functions: 11107
 -  Symbols:   14041
--  CStrings:  3713
+-  CStrings:  4154
++  UUID: FFF11BF0-9DAA-3187-8A3F-EF7C1D0676D9
 +  Functions: 11117
 +  Symbols:   14062
-+  CStrings:  3719
++  CStrings:  4160
  
 Symbols:
 + -[SKProductRemoteViewTask _dismissProductViewControllerWithResult:]

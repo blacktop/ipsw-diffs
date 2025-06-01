@@ -42,9 +42,9 @@
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x4a50
 +  __AUTH_CONST.__const: 0x4ad0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_dictobj: 0x11a8
    __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_intobj: 0x90
 
    __DATA.__data: 0x10a8
    __DATA.__bss: 0x80
@@ -58,11 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A4B12F17-723B-3121-8B41-7767F01E76B8
 -  Functions: 1721
 -  Symbols:   6002
+-  CStrings:  5520
++  UUID: 479B839C-1A01-3B69-B9AD-254D55F18284
 +  Functions: 1723
 +  Symbols:   6008
-   CStrings:  4039
++  CStrings:  5518
  
 Symbols:
 + -[MIBundle _filterExtensionBundles:forValidationFlags:]

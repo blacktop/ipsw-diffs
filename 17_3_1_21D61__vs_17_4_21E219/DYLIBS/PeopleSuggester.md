@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_const: 0x350
 -  __AUTH_CONST.__const: 0x780
 +  __AUTH_CONST.__const: 0x7e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0xe0
    __AUTH_CONST.__objc_dictobj: 0xc8
 -  __AUTH_CONST.__auth_got: 0x6d8
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5527424-40FF-3A16-85F8-4065A93A565B
 -  Functions: 4449
 -  Symbols:   15101
--  CStrings:  7089
+-  CStrings:  8188
++  UUID: 25A14742-2896-30F7-8289-469FED7FA515
 +  Functions: 4452
 +  Symbols:   15112
-+  CStrings:  7099
++  CStrings:  8200
  
 Symbols:
 + -[_PSFamilyMLModel initializeModels].cold.1

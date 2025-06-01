@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B4FBB916-E343-37A0-97B6-9B43455DD99E
 -  Functions: 16040
 -  Symbols:   2076
--  CStrings:  5401
+-  CStrings:  5408
++  UUID: E125D094-E349-320C-90D2-9771AD7D9D51
 +  Functions: 16160
 +  Symbols:   2074
-+  CStrings:  5444
++  CStrings:  5451
  
 Symbols:
 - _$sSS9hasSuffixySbSSF

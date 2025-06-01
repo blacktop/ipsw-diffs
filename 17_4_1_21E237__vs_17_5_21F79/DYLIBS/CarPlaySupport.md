@@ -32,11 +32,15 @@
    __DATA_CONST.__objc_protorefs: 0x68
    __DATA_CONST.__objc_classrefs: 0x898
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E9F09CB0-7798-37EC-98B0-ECE36EB3DC68
++  UUID: 9A41B934-7A1B-3F83-856F-92160F0EC52D
    Functions: 3009
    Symbols:   11913
--  CStrings:  5279
-+  CStrings:  5282
+-  CStrings:  5441
++  CStrings:  5444
  
 CStrings:
 + "@\"NSSet\"16@0:8"

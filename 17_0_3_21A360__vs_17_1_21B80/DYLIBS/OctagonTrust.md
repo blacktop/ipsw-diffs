@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31141E87-6C0F-3ABD-955A-798A8573411D
 -  Functions: 571
 -  Symbols:   1895
--  CStrings:  1029
+-  CStrings:  1167
++  UUID: B1EFB60A-4F01-3C17-815B-882B0A7A83F1
 +  Functions: 578
 +  Symbols:   1919
-+  CStrings:  1061
++  CStrings:  1206
  
 Symbols:
 + +[OTClique(Framework) areRecoveryKeysDistrusted:error:]

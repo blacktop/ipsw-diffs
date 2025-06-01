@@ -40,12 +40,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 914B6CDD-506F-38E4-BC09-F7424BC9DB4F
 -  Functions: 515
 -  Symbols:   2206
--  CStrings:  1168
+-  CStrings:  1722
++  UUID: 8D4E6D36-FFEB-36AF-B412-159A3D075C52
 +  Functions: 516
 +  Symbols:   2212
-+  CStrings:  1170
++  CStrings:  1724
  
 Symbols:
 + ___87-[MFConversationItemFooterViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke

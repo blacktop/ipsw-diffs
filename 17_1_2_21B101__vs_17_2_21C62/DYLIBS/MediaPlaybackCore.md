@@ -70,10 +70,8 @@
 +  __DATA_CONST.__objc_arraydata: 0x180
 +  __AUTH_CONST.__const: 0xb9b0
    __AUTH_CONST.__objc_const: 0x7ce8
--  __AUTH_CONST.__auth_ptr: 0x110
 -  __AUTH_CONST.__cfstring: 0x191a0
 -  __AUTH_CONST.__objc_intobj: 0x798
-+  __AUTH_CONST.__auth_ptr: 0x108
 +  __AUTH_CONST.__cfstring: 0x19880
 +  __AUTH_CONST.__objc_intobj: 0x7b0
    __AUTH_CONST.__objc_dictobj: 0xc8
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0CC8B211-AB93-3443-8775-AB3F4AB0667B
 -  Functions: 14641
 -  Symbols:   30674
--  CStrings:  15994
+-  CStrings:  19207
++  UUID: 94086456-A22B-3A88-BAD1-F239CB666C46
 +  Functions: 14774
 +  Symbols:   30833
-+  CStrings:  16104
++  CStrings:  19372
  
 Symbols:
 + +[MPCVocalAttenuationModel _filePathsForModelAtURL:]

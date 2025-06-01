@@ -62,12 +62,11 @@
 -  __DATA_CONST.__objc_selrefs: 0x114b8
 -  __DATA_CONST.__objc_arraydata: 0x348
 -  __AUTH_CONST.__const: 0xcaf0
+-  __AUTH_CONST.__objc_const: 0x142a8
 +  __DATA_CONST.__objc_const: 0x390e8
 +  __DATA_CONST.__objc_selrefs: 0x114f8
 +  __DATA_CONST.__objc_arraydata: 0x340
 +  __AUTH_CONST.__const: 0xca90
-   __AUTH_CONST.__auth_ptr: 0xa0
--  __AUTH_CONST.__objc_const: 0x142a8
 +  __AUTH_CONST.__objc_const: 0x142f0
    __AUTH_CONST.__cfstring: 0x255a0
    __AUTH_CONST.__objc_intobj: 0x2070
@@ -115,12 +114,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4B3DF18B-1D27-3662-87FC-40F808B6C8A5
 -  Functions: 18177
 -  Symbols:   54606
--  CStrings:  22510
+-  CStrings:  27291
++  UUID: F0A72700-9D93-3CE4-BDFE-9CEBD0A76297
 +  Functions: 18180
 +  Symbols:   54670
-+  CStrings:  22525
++  CStrings:  27306
  
 Symbols:
 + -[HFHomePropertyCacheManager _clearRoomOrderValues]

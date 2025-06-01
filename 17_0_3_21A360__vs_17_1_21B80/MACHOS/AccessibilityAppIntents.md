@@ -20,6 +20,15 @@
    __TEXT.__objc_methname: 0x4a
    __TEXT.__swift5_builtin: 0x14
    __TEXT.__swift5_proto: 0x50
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85FEC00C-34BF-30B3-8BCC-EAE41219B68B
++  UUID: F6128843-A920-307A-9B6D-A36066ED5653
+   Functions: 119
+   Symbols:   69
+   CStrings:  43
 CStrings:
 + "arrowtriangles.up.right.down.left.magnifyingglass"
 - "dot.arrowtriangles.up.right.down.left.circle"

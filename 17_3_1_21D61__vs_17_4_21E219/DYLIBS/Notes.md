@@ -39,11 +39,15 @@
    __DATA.__data: 0x258
    __DATA.__common: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5F188B9E-DBCB-3DBF-87DD-1AFF5282E5EC
++  UUID: 811B9636-2599-3F23-BB81-4DC1914763F0
    Functions: 485
    Symbols:   1983
--  CStrings:  1129
-+  CStrings:  1131
+-  CStrings:  1297
++  CStrings:  1299
  
 CStrings:
 + "T@\"CSSearchableItemAttributeSet\",?,R"

@@ -43,11 +43,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4E84AE8-51C4-3467-9C7C-90F66DBED029
++  UUID: 91BA681C-BCCD-3C2E-860D-E64EC0D1978E
    Functions: 407
    Symbols:   167
--  CStrings:  1579
-+  CStrings:  1580
+-  CStrings:  1781
++  CStrings:  1782
  
 CStrings:
 + "T@\"NSString\",?,R,C"

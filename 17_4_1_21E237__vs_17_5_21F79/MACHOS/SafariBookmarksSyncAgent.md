@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x478
    __DATA_CONST.__const: 0x5f50
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 9216126F-EF6D-3C6E-B136-02591C3833D1
++  UUID: 5F97C4EB-3D38-3384-955B-A0FD05010A8E
+   Functions: 3772
+   Symbols:   434
+   CStrings:  5948
+
 ```

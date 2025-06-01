@@ -52,13 +52,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6EE9C9E-A3CC-3696-93FD-4A509CF0FAF8
++  UUID: CBFD7863-7C70-352A-9B8D-68DE2779092D
    Functions: 8935
 -  Symbols:   26746
--  CStrings:  12305
+-  CStrings:  14450
 +  Symbols:   26747
-+  CStrings:  12306
++  CStrings:  14451
  
 Symbols:
 + _CoreSuggestionsLibraryCore.frameworkLibrary.26145

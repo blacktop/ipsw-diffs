@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x60
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A86F665B-C60E-3FC4-8647-97F0DB80D0C8
++  UUID: D9A3957E-03E7-3995-97A3-81D5DD5C3F7C
    Functions: 37
 -  Symbols:   82
--  CStrings:  121
+-  CStrings:  131
 +  Symbols:   88
-+  CStrings:  126
++  CStrings:  139
  
 Symbols:
 + _NTKCarbonaraWidgetIntent

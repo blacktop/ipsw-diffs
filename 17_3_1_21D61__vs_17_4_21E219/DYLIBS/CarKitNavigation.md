@@ -38,11 +38,15 @@
    __DATA.__data: 0x300
    __DATA_DIRTY.__objc_data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/AccessoryNavigation.framework/AccessoryNavigation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DFB2755A-715C-3358-ADF8-6A4DA03AA359
++  UUID: EBAC72FD-3099-3221-BC73-6CDE4FF6C665
    Functions: 128
    Symbols:   608
--  CStrings:  358
-+  CStrings:  359
+-  CStrings:  366
++  CStrings:  367
  
 Symbols:
 + ___block_literal_global.68

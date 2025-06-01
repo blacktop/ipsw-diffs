@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/CloudSettings.framework/CloudSettings
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 274B9561-3F2E-36EC-B1F6-22C5C03CFC8C
++  UUID: 1F228B54-3899-3A81-8008-3717805E8D8C
    Functions: 32
    Symbols:   78
--  CStrings:  181
-+  CStrings:  182
+-  CStrings:  213
++  CStrings:  214
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x414
    __TEXT.__objc_stubs: 0xc40
    __DATA_CONST.__got: 0xc8
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F67B02F1-9DF2-36EF-B7BE-AA5CE4C06E33
++  UUID: 7EF7A305-32B8-3682-ABE5-9990F13FA985
+   Functions: 229
+   Symbols:   715
+   CStrings:  373
 CStrings:
 + "initWithConfiguration:"
 - "initWithHomeMangerConfiguration:"

@@ -22,12 +22,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28D95C5B-D7D7-3351-ADBD-F1E4E25A180E
 -  Functions: 1171
 -  Symbols:   4579
--  CStrings:  2108
+-  CStrings:  2547
++  UUID: 5CB0CEBB-76C0-3DC4-9C30-FFCAE7696EFE
 +  Functions: 1172
 +  Symbols:   4581
-+  CStrings:  2109
++  CStrings:  2548
  
 Symbols:
 + __MFCreateStringWithBytesViaICU.cold.1

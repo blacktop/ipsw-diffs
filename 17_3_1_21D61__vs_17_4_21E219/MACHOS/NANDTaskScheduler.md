@@ -15,11 +15,15 @@
    __TEXT.__oslogstring: 0x191
    __TEXT.__unwind_info: 0xe0
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
+-  UUID: C1C8EA93-2A95-3C9D-9302-DD33C9D825B6
++  UUID: 5F45114A-97F9-3DD9-95A5-91ABD9BCC3EB
    Functions: 79
    Symbols:   47
--  CStrings:  2684
-+  CStrings:  2716
+-  CStrings:  2686
++  CStrings:  2718
  
 CStrings:
 + "ASPFTLParseBufferToCxt: GCReadSequential(1106): (#14) cfg elements != (%d) buffer elements"

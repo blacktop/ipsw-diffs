@@ -47,9 +47,7 @@
 +  __DATA_CONST.__objc_superrefs: 0xa8
    __DATA_CONST.__objc_arraydata: 0x40
 -  __AUTH_CONST.__const: 0x1ea0
--  __AUTH_CONST.__auth_ptr: 0x330
 +  __AUTH_CONST.__const: 0x33d8
-+  __AUTH_CONST.__auth_ptr: 0x368
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x320
 +  __AUTH_CONST.__cfstring: 0x3a0
@@ -87,12 +85,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF88EEE1-AAA4-3AD8-842F-1741E2EDD8BD
 -  Functions: 18522
 -  Symbols:   43618
--  CStrings:  9248
+-  CStrings:  9273
++  UUID: 6AE2484F-2346-34AE-BFC6-606265812002
 +  Functions: 19029
 +  Symbols:   44855
-+  CStrings:  9482
++  CStrings:  9511
  
 Symbols:
 + -[RTCCodecSpecificInfoH265 nativeCodecSpecificInfo]

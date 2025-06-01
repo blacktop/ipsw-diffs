@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xe0
    __AUTH_CONST.__objc_arrayobj: 0xd8
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xa60
 -  __AUTH.__objc_data: 0x2170
 +  __AUTH_CONST.__auth_got: 0xa68
@@ -80,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E54548E4-49B4-3501-84A3-0F7FE1F2D54F
 -  Functions: 5873
 -  Symbols:   19467
--  CStrings:  8454
+-  CStrings:  9252
++  UUID: F0FFEE37-8C1A-3F37-AB4F-18BADC776D8F
 +  Functions: 5893
 +  Symbols:   19526
-+  CStrings:  8464
++  CStrings:  9262
  
 Symbols:
 + +[VKCPreDeclare cropRectForMatteResult:]

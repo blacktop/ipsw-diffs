@@ -37,12 +37,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F8B58967-3ADA-3BF7-924D-EC25A23168A5
 -  Functions: 2302
 -  Symbols:   8229
--  CStrings:  4537
+-  CStrings:  5230
++  UUID: 63FE11E3-1FC0-3D46-B0D0-A0B17D39CB6C
 +  Functions: 2303
 +  Symbols:   8235
-+  CStrings:  4538
++  CStrings:  5231
  
 Symbols:
 + -[PSUICoreTelephonyDataCache simStatusDidChange:status:]

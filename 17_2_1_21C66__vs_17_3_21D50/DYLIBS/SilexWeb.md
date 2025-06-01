@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B4F3230-CAC6-3799-AED7-BB6F6B83DCD2
 -  Functions: 781
 -  Symbols:   3534
--  CStrings:  1510
+-  CStrings:  1680
++  UUID: 5B61B330-06A9-38EB-8444-E9BB70ECC0C9
 +  Functions: 783
 +  Symbols:   3539
-+  CStrings:  1512
++  CStrings:  1682
  
 Symbols:
 + -[SWContainerViewController loadURL:cachePolicy:]

@@ -27,13 +27,16 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x40
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 004D66C5-0653-3D81-B2D9-977A9B80025E
++  UUID: F6F43B7D-4695-3D1E-8BCE-9097B52D66F8
    Functions: 340
 -  Symbols:   536
--  CStrings:  1625
+-  CStrings:  2313
 +  Symbols:   543
-+  CStrings:  1632
++  CStrings:  2327
  
 Symbols:
 + _kHWRevisionKey

@@ -36,7 +36,6 @@
 +  __AUTH_CONST.__const: 0x4640
    __AUTH_CONST.__objc_arrayobj: 0xc0
 -  __AUTH_CONST.__const: 0x4a30
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x930
 -  __DATA.__objc_classrefs: 0x560
 -  __DATA.__objc_superrefs: 0x220
@@ -60,11 +59,15 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F4AD072D-7173-329D-99C1-D1CE88C37AEF
++  UUID: D9F5C0AE-4EAF-3316-B94C-F1039C952D58
    Functions: 1832
    Symbols:   7116
--  CStrings:  4038
-+  CStrings:  4041
+-  CStrings:  4747
++  CStrings:  4750
  
 CStrings:
 + "T@\"AMSProcessInfo\",?,R,C,N"

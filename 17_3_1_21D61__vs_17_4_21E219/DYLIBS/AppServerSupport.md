@@ -50,12 +50,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B534ACBA-14F3-3ED3-85DF-ED6A7A7F5D5D
 -  Functions: 170
 -  Symbols:   582
--  CStrings:  337
+-  CStrings:  345
++  UUID: B8DFEA94-C68B-3B32-A187-2C757F666587
 +  Functions: 173
 +  Symbols:   592
-+  CStrings:  348
++  CStrings:  356
  
 Symbols:
 + -[LASSProperties4RB hostPID]

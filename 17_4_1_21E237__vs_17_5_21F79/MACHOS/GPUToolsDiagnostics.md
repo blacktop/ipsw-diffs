@@ -45,13 +45,16 @@
    __DATA.__objc_data: 0x4b0
    __DATA.__data: 0x328
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F4FC37B-BFB5-35C2-847C-C20BE26700A3
++  UUID: 332171F1-1C0C-3449-8C44-3BFF0E93E482
    Functions: 421
 -  Symbols:   1302
--  CStrings:  956
+-  CStrings:  1135
 +  Symbols:   1298
-+  CStrings:  955
++  CStrings:  1134
  
 Symbols:
 + _GTTransportServiceDaemonConnectionNew

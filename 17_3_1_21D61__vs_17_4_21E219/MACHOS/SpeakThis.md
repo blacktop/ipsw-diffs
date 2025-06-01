@@ -54,12 +54,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F06B885-26BC-3680-A0B4-93A677120778
 -  Functions: 478
 -  Symbols:   230
--  CStrings:  1155
+-  CStrings:  1209
++  UUID: 3E8154C3-BF52-3C94-9D87-635B8D24E39A
 +  Functions: 481
 +  Symbols:   231
-+  CStrings:  1166
++  CStrings:  1222
  
 Symbols:
 + _OBJC_CLASS_$_NSSet

@@ -30,8 +30,7 @@
    __DATA_CONST.__objc_arraydata: 0x198
    __AUTH_CONST.__cfstring: 0x2700
    __AUTH_CONST.__objc_intobj: 0x228
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__auth_got: 0x6b0
 -  __DATA.__objc_protorefs: 0x18
@@ -41,11 +40,15 @@
    __DATA.__data: 0x7a0
    __DATA.__bss: 0x40
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4B45C74-1225-3BEC-AB76-07E074A7A0D0
++  UUID: 89807B52-4771-39F8-990B-62C917735151
    Functions: 1343
    Symbols:   4335
--  CStrings:  2924
-+  CStrings:  2925
+-  CStrings:  3236
++  CStrings:  3237
  
 CStrings:
 + "T@\"NSString\",?,R,C"

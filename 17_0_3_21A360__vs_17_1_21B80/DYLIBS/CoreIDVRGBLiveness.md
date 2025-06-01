@@ -34,13 +34,16 @@
    __AUTH_CONST.__const: 0x160
    __AUTH_CONST.__objc_intobj: 0x240
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75487096-5FC9-3EE4-9192-D7D2535D4C44
++  UUID: AB30282E-CF93-3354-A65F-595EAF7303C9
    Functions: 946
 -  Symbols:   3541
--  CStrings:  1744
+-  CStrings:  1896
 +  Symbols:   3542
-+  CStrings:  1745
++  CStrings:  1898
  
 Symbols:
 + _CIDVRGBCaptureImageQualityOptionBlockLiveness

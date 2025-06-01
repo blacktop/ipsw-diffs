@@ -29,11 +29,15 @@
    __DATA.__objc_classrefs: 0x88
    __DATA.__objc_superrefs: 0x10
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpmsample.dylib
    - /usr/lib/libsysmon.dylib
+-  UUID: F1DAE17B-5C56-3BED-880B-A04F52128EB6
++  UUID: 2C399282-5C7C-3546-B935-EE589768ABB1
    Functions: 71
    Symbols:   127
--  CStrings:  241
-+  CStrings:  240
+-  CStrings:  251
++  CStrings:  250
  
 CStrings:
 - "setTraceDurationSecs:"

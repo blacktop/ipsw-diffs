@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0xc7
    __TEXT.__objc_classname: 0x13
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BB571835-87A0-389A-86BF-1772A442885E
++  UUID: BAF983BC-5D71-34DB-A78E-141F2412082A
+   Functions: 5
+   Symbols:   26
+   CStrings:  66
+
 ```

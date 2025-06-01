@@ -27,4 +27,13 @@
    __DATA.__data: 0x60
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8DED22A-806F-3B36-B807-164CB6E66D26
++  UUID: 21C1F6C3-F206-3A63-8B4F-913041CA5F6A
+   Functions: 37
+   Symbols:   238
+   CStrings:  112
+
 ```

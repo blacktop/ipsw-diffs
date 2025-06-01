@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4C5DCAC2-71A2-3562-9B4F-A4143F246C9A
 -  Functions: 26568
 -  Symbols:   1643
--  CStrings:  2522
+-  CStrings:  2523
++  UUID: 096F3CF4-9FE5-3ECA-949F-F1D60CB7D056
 +  Functions: 26603
 +  Symbols:   1649
-+  CStrings:  2525
++  CStrings:  2526
  
 Symbols:
 + _$s3XPC0A12_TYPE_UINT64s13OpaquePointerVvg

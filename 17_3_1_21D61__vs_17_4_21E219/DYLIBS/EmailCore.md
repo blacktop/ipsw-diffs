@@ -49,11 +49,15 @@
    __DATA_DIRTY.__data: 0x10
    __DATA_DIRTY.__bss: 0x228
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5BC8B012-B79A-38C4-A8DC-614F36FC9282
++  UUID: 5EFCB742-4940-39BA-AAD8-1E90DF29A03D
    Functions: 1830
    Symbols:   7326
--  CStrings:  3784
-+  CStrings:  3786
+-  CStrings:  4430
++  CStrings:  4432
  
 Symbols:
 + __OBJC_$_PROP_LIST_ECFlagChangeMessageActionResultsBuilder.64

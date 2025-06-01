@@ -69,12 +69,15 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDataDetection.dylib
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05EB65B5-24D5-3355-BBDB-65F2E8912C92
++  UUID: 85A0E5A8-8227-338F-B8CC-2D3E620F3647
    Functions: 4370
 -  Symbols:   1301
 +  Symbols:   1302
-   CStrings:  2021
+   CStrings:  2230
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCoreML

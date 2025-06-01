@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4D7AAA4F-BD20-37F9-B787-B0EC21D53780
 -  Functions: 2330
 -  Symbols:   8609
--  CStrings:  4168
+-  CStrings:  4622
++  UUID: FD35866F-E0A2-3456-B486-BC84847FEA65
 +  Functions: 2319
 +  Symbols:   8563
-+  CStrings:  4164
++  CStrings:  4616
  
 Symbols:
 - -[TSCellularPlanCrossPlatformViewController .cxx_destruct]

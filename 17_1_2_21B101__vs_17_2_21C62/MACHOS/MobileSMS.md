@@ -33,13 +33,16 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43DC426D-AE75-3D40-B51A-CCA4A740490D
++  UUID: 4D32F390-4088-3E3E-8204-CB805CBEED65
    Functions: 533
 -  Symbols:   329
--  CStrings:  1494
+-  CStrings:  1968
 +  Symbols:   327
-+  CStrings:  1453
++  CStrings:  1882
  
 Symbols:
 - _MarcoLogMadridLevel

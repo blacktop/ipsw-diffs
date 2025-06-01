@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/EmailCore.framework/EmailCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 075C969D-1F8E-3760-84E4-C621B85B0DB2
++  UUID: C620E25E-552A-3A0C-9F68-99993BF2FA9F
    Functions: 86
    Symbols:   97
--  CStrings:  248
-+  CStrings:  250
+-  CStrings:  265
++  CStrings:  267
  
 CStrings:
 + "T@\"NSArray\",?,R,C,N"

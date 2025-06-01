@@ -18,6 +18,15 @@
    __TEXT.__oslogstring: 0x153
    __TEXT.__objc_classname: 0x4c
    __TEXT.__objc_methtype: 0x1c9
+
+   - /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D424B07-4634-3E45-8C76-1FAF212A2207
++  UUID: 412D2D1A-6D75-3669-B5AE-1AB4180E1FCD
+   Functions: 14
+   Symbols:   125
+   CStrings:  113
 Symbols:
 + _objc_msgSend$initWithPerformTrialTaskStatus:error:usePrivateUpload:
 - _objc_msgSend$initWithPerformTrialTaskStatus:error:

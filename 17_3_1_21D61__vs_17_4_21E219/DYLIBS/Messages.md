@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F94723C-F133-3EC8-AC09-0D41FCE7A55F
 -  Functions: 1291
 -  Symbols:   4478
--  CStrings:  2145
+-  CStrings:  2311
++  UUID: B00A85A9-9495-3851-B7F7-39B4A7CA94AA
 +  Functions: 1308
 +  Symbols:   4542
-+  CStrings:  2183
++  CStrings:  2358
  
 Symbols:
 + +[MSStickerUsageEvent autoSourceType]

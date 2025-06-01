@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 56C8D8A1-C8B4-347B-A2EA-52EA9B71789D
 -  Functions: 26750
 -  Symbols:   1639
++  UUID: 85B2E74C-05DA-3959-8D3C-10493DDB33A9
 +  Functions: 26775
 +  Symbols:   1638
-   CStrings:  2501
+   CStrings:  2502
  
 Symbols:
 + __NETRBClientSetHostCount

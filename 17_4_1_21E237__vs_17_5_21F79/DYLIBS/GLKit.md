@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/TextureIO.framework/TextureIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 874ADDD4-C642-3C90-8167-AE5D0230240E
 -  Functions: 998
 -  Symbols:   3251
++  UUID: C314E96C-8B09-3336-8F75-7E1622188169
 +  Functions: 991
 +  Symbols:   3261
-   CStrings:  1944
+   CStrings:  2202
  
 Symbols:
 + _OBJC_IVAR_$_GLKDisplayLinkMessenger._target

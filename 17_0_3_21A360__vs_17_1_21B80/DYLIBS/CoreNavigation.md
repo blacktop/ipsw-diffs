@@ -26,8 +26,10 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
-
+   - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: DEFC0504-8BED-3CFE-A8D7-9C0770AFC0BC
++  UUID: 7C7E0500-BC0B-3FBC-915E-4A0669DC8F2C
    Functions: 13743
    Symbols:   10169
 -  CStrings:  3387

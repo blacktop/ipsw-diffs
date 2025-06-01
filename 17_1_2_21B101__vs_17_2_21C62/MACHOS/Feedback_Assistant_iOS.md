@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0789D9A8-3D54-3D35-BCC4-BB993C99CF78
 -  Functions: 3956
 -  Symbols:   1111
--  CStrings:  5380
+-  CStrings:  5814
++  UUID: 0B86B60A-4F1C-36BF-AE24-668F642D2C02
 +  Functions: 3954
 +  Symbols:   1102
-+  CStrings:  5379
++  CStrings:  5811
  
 Symbols:
 - _CFNotificationCenterGetDarwinNotifyCenter

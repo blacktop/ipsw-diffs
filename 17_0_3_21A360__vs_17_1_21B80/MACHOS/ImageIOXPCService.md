@@ -57,12 +57,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 829A1455-3E2C-35A1-A5CD-C0D2A9AA29FF
 -  Functions: 16081
 -  Symbols:   10731
--  CStrings:  12446
+-  CStrings:  13970
++  UUID: 1480CFA5-720C-3879-BEFE-862DCA4C4E5A
 +  Functions: 16073
 +  Symbols:   10704
-+  CStrings:  12486
++  CStrings:  14011
  
 Symbols:
 + _CFBundleGetValueForInfoDictionaryKey

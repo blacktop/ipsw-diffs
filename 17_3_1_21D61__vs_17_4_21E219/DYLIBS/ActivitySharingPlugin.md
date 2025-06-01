@@ -34,11 +34,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 441AE209-323C-36F5-B1EA-E1CFC0E18021
++  UUID: FB7CE29C-DE60-362D-86E7-EEDE60A7EE2F
    Functions: 19
    Symbols:   62
--  CStrings:  96
-+  CStrings:  97
+-  CStrings:  104
++  CStrings:  105
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -54,13 +54,11 @@
 -  __DATA_CONST.__objc_const: 0x6a28
 -  __DATA_CONST.__objc_selrefs: 0x1d38
 -  __AUTH_CONST.__const: 0x11ec0
--  __AUTH_CONST.__auth_ptr: 0x430
 +  __DATA_CONST.__objc_const: 0x6c40
 +  __DATA_CONST.__objc_selrefs: 0x1c88
 +  __DATA_CONST.__objc_protorefs: 0x90
 +  __DATA_CONST.__objc_classrefs: 0x5e8
 +  __AUTH_CONST.__const: 0x12c88
-+  __AUTH_CONST.__auth_ptr: 0x470
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x680
 -  __AUTH_CONST.__auth_got: 0x1640
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4ADD7830-37EC-3A74-BB87-2F1EC3D9CD8C
 -  Functions: 8939
 -  Symbols:   2945
--  CStrings:  3810
+-  CStrings:  3862
++  UUID: 5C737375-C4F6-3B1B-A059-C0DDE85ED58D
 +  Functions: 9366
 +  Symbols:   2979
-+  CStrings:  3823
++  CStrings:  3875
  
 Symbols:
 + _OBJC_CLASS_$_SSRVoiceProfile

@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__objc_dictobj: 0x3b60
    __AUTH_CONST.__objc_floatobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xc40
 -  __AUTH.__objc_data: 0x3390
 -  __DATA.__objc_classrefs: 0xda8
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B24CF09-4242-32C3-8D78-BA64C96F21AD
 -  Functions: 4996
 -  Symbols:   19076
--  CStrings:  9175
+-  CStrings:  11332
++  UUID: 42E18ABF-3ED4-396F-BDD2-220901E35C60
 +  Functions: 5033
 +  Symbols:   19206
-+  CStrings:  9234
++  CStrings:  11401
  
 Symbols:
 + +[PIHeadroomSettings sharedInstance]

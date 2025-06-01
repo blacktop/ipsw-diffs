@@ -38,7 +38,6 @@
    __DATA_CONST.__objc_arraydata: 0x58
    __AUTH_CONST.__const: 0x4af0
    __AUTH_CONST.__cfstring: 0x32a0
-
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x78
@@ -64,12 +63,14 @@
    - /usr/lib/liblangid.dylib
    - /usr/lib/libmecab.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CCF8484-5312-349F-B5AE-644B21A28F00
 -  Functions: 4296
 -  Symbols:   12002
--  CStrings:  1533
+-  CStrings:  1938
++  UUID: 15C6A9C2-079B-3817-9EEB-8C5DDADC7170
 +  Functions: 4426
 +  Symbols:   11972
-+  CStrings:  1534
++  CStrings:  1939
  
 Symbols:
 + GCC_except_table108

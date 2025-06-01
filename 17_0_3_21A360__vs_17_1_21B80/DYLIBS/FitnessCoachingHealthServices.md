@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B7D0777-2CF6-347F-BE1D-51AAB5C9C4B8
 -  Functions: 265
 -  Symbols:   1306
--  CStrings:  701
+-  CStrings:  728
++  UUID: AEF74C63-A427-327B-A750-E8A633331D98
 +  Functions: 275
 +  Symbols:   1336
-+  CStrings:  719
++  CStrings:  747
  
 Symbols:
 + -[FCGoalProgressCoordinator _onqueue_unscheduleEventIdentifiers:]

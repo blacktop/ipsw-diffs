@@ -19,11 +19,15 @@
    __TEXT.__objc_methname: 0x575c
    __TEXT.__objc_classname: 0x1c5
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: AB1B67D3-C289-38E9-8C98-922FC564CD2A
++  UUID: 0EF938EE-74F6-35DA-8265-C4B050218C9B
    Functions: 1163
    Symbols:   315
--  CStrings:  1815
-+  CStrings:  1816
+-  CStrings:  2064
++  CStrings:  2065
  
 CStrings:
 + "Excluding key from cloud storage due to key length of more than 255 UTF-16 code units in store (%@)"

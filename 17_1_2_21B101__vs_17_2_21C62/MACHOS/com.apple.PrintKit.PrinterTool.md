@@ -45,11 +45,15 @@
    __DATA.__data: 0x2db0
    __DATA.__bss: 0x150
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 11CD1C9F-5360-3D82-81B8-1F136A08E46B
++  UUID: E8DE1E57-4EBF-3B7F-AD03-159F581C9367
    Functions: 1312
    Symbols:   1012
--  CStrings:  3342
-+  CStrings:  3344
+-  CStrings:  4916
++  CStrings:  4918
  
 CStrings:
 + "\x04\x11\x11"

@@ -49,13 +49,16 @@
    __DATA.__bss: 0x30
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 57DF6772-879B-316C-BFCE-66CC3E543322
++  UUID: 13679A6B-98F5-339D-AA63-070EF501548C
    Functions: 234
 -  Symbols:   1234
--  CStrings:  591
+-  CStrings:  633
 +  Symbols:   1237
-+  CStrings:  593
++  CStrings:  635
  
 Symbols:
 + _OBJC_IVAR_$_FLPreferencesController._generatedSpecifiersByIdentifier

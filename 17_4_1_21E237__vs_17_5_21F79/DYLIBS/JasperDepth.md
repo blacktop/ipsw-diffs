@@ -14,7 +14,6 @@
 +  __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xb68
 -  __AUTH.__data: 0x8
 -  __AUTH.__const_weak: 0x100
@@ -32,5 +31,14 @@
    __DATA_DIRTY.__bss: 0x8c8
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 02A1864F-D8EC-3DE0-81FB-3E3F4663EFA7
++  UUID: 68DB26AB-3D1D-339B-98C5-5A282D69AC4B
+   Functions: 1775
+   Symbols:   4194
+   CStrings:  2288
 
 ```

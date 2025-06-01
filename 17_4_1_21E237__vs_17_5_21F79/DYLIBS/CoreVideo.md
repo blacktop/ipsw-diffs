@@ -22,4 +22,13 @@
    __DATA_DIRTY.__common: 0x3c
    - /System/Library/Frameworks/ColorSync.framework/ColorSync
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A048833-C2B1-3D7E-B6E1-EF3302E282BD
++  UUID: 4A510F7F-18BD-33D7-B505-D9C3A5C18CFC
+   Functions: 1340
+   Symbols:   4246
+   CStrings:  1194
+
 ```

@@ -60,9 +60,7 @@
    __DATA_CONST.__objc_superrefs: 0x8
    __AUTH_CONST.__objc_const: 0x828
 -  __AUTH_CONST.__const: 0x13190
--  __AUTH_CONST.__auth_ptr: 0x560
 +  __AUTH_CONST.__const: 0x13518
-+  __AUTH_CONST.__auth_ptr: 0x568
    __AUTH_CONST.__cfstring: 0x14e0
 -  __AUTH_CONST.__auth_got: 0x3a78
 +  __AUTH_CONST.__auth_got: 0x3cf0
@@ -83,12 +81,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15449FBE-35C0-31DC-962B-331A03A7B28A
 -  Functions: 17845
 -  Symbols:   42836
--  CStrings:  4334
+-  CStrings:  4501
++  UUID: 4B49A8F5-D4FC-3D6C-99BC-C1901CE4247C
 +  Functions: 17954
 +  Symbols:   43130
-+  CStrings:  4377
++  CStrings:  4544
  
 Symbols:
 + _$s11SiriKitFlow0aB12EventPayloadO20locationAccessPromptyACSo022FLOWSchemaFLOWLocationg10PermissionH7ContextCcACmFWC

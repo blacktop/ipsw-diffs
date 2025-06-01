@@ -30,7 +30,11 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20EA410E-33D8-348D-ABB9-FC6D6845E22F
++  UUID: D1D215DC-F418-3C94-8D2C-FA1765A1051F
    Functions: 13
    Symbols:   34
 -  CStrings:  60

@@ -69,7 +69,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__auth_got: 0x1138
 -  __AUTH.__objc_data: 0x2568
 +  __AUTH.__objc_data: 0x24c8
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B7171C7-538D-300C-BAED-382745910EC0
 -  Functions: 9396
 -  Symbols:   21007
--  CStrings:  9981
+-  CStrings:  12675
++  UUID: D3498549-9DD7-38E3-B09C-9F8C35B16692
 +  Functions: 9451
 +  Symbols:   21102
-+  CStrings:  10006
++  CStrings:  12715
  
 Symbols:
 + +[GKGameDescriptor stringForPlatform:]

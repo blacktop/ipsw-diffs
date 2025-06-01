@@ -25,6 +25,15 @@
    __DATA.__objc_ivar: 0x10
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 936E5E4B-CF5B-3F49-9879-3445F380DB65
++  UUID: 7F3C47C8-BE40-3DEE-88A0-0689F890D20A
+   Functions: 146
+   Symbols:   685
+   CStrings:  431
 Symbols:
 + ___52-[SVSBaseViewControllerAccessibility viewDidAppear:]_block_invoke.300
 + ___52-[SVSBaseViewControllerAccessibility viewDidAppear:]_block_invoke_2.305

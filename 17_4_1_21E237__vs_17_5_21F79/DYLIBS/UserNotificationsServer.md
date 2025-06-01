@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/UserNotificationsSettings.framework/UserNotificationsSettings
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CA65AC92-ACB6-33E8-9166-6461C973280A
++  UUID: F7DD633E-09E9-37E5-BB77-58173406842A
+   Functions: 1994
+   Symbols:   7510
+   CStrings:  4538
+
 ```

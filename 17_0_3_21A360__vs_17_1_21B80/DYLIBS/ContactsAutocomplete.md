@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D7EC1F1-2E0E-3CC7-A647-5A87B275F45D
 -  Functions: 1530
 -  Symbols:   5947
--  CStrings:  2509
+-  CStrings:  2750
++  UUID: 118D3ED5-7220-3951-964C-41C4E69C92C8
 +  Functions: 1532
 +  Symbols:   5953
-+  CStrings:  2511
++  CStrings:  2752
  
 Symbols:
 + -[CNACTStewieFacadeTestDouble avocetTerms]

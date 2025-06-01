@@ -71,7 +71,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x538
 -  __AUTH_CONST.__const: 0xd318
 -  __AUTH_CONST.__objc_const: 0x4a40
--  __AUTH_CONST.__auth_ptr: 0x1b0
 -  __AUTH_CONST.__cfstring: 0x33e0
 -  __AUTH_CONST.__objc_dictobj: 0x1e0
 -  __AUTH_CONST.__objc_arrayobj: 0x5b8
@@ -84,7 +83,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xa8
 +  __AUTH_CONST.__const: 0x28540
 +  __AUTH_CONST.__objc_const: 0x2168
-+  __AUTH_CONST.__auth_ptr: 0x528
 +  __AUTH_CONST.__cfstring: 0xf60
 +  __AUTH_CONST.__objc_intobj: 0x48
 +  __AUTH_CONST.__objc_arrayobj: 0x108
@@ -144,12 +142,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA049163-5B67-3E99-A3A5-AAA3B065A7A3
 -  Functions: 12390
 -  Symbols:   13842
--  CStrings:  3776
+-  CStrings:  4191
++  UUID: DAB2ACEA-B014-3593-90C7-17EE5A1E7EA0
 +  Functions: 31100
 +  Symbols:   17642
-+  CStrings:  3230
++  CStrings:  3353
  
 Symbols:
 + +[SNAudioBufferList unownedViewOfRecentFramesWithSourceBuffer:destinationBuffer:numberOfRecentFrames:]
@@ -11703,6 +11703,7 @@ CStrings:
 + "{shared_ptr<SoundAnalysis::ProcessingContext>=^{ProcessingContext}^{__shared_weak_count}}16@0:8"
 + "{shared_ptr<SoundAnalysis::ProcessingTree>=\"__ptr_\"^{ProcessingTree}\"__cntrl_\"^{__shared_weak_count}}"
 + "{shared_ptr<SoundAnalysis::ProcessingTree>=^{ProcessingTree}^{__shared_weak_count}}16@0:8"
+- ""
 - "\x01\x12"
 - "\x01!"
 - "\x01#"

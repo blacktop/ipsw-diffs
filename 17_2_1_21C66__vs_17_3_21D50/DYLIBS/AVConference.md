@@ -68,12 +68,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A3577B55-B808-3AF6-A9BB-09DD969DD974
 -  Functions: 28077
 -  Symbols:   78915
--  CStrings:  43877
+-  CStrings:  47930
++  UUID: B1749EBD-DAB4-3FAC-8025-6720B1B12FAA
 +  Functions: 28107
 +  Symbols:   78993
-+  CStrings:  43936
++  CStrings:  48013
  
 Symbols:
 + +[LogDumpUtility fileCleanupDispatchQueuePriority]

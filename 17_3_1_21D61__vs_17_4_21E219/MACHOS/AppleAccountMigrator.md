@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E7D7D837-9069-35FC-81C1-11D9DB9FA5DE
++  UUID: B31E8251-431C-301E-B758-1F609BC229C1
+   Functions: 23
+   Symbols:   53
+   CStrings:  106
+
 ```

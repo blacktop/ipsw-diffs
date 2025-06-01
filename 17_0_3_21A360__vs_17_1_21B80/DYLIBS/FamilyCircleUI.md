@@ -72,8 +72,6 @@
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x3a8
-+  __AUTH_CONST.__auth_ptr: 0x3c0
    __AUTH_CONST.__auth_got: 0x1c90
 -  __AUTH.__objc_data: 0x41b8
 -  __AUTH.__data: 0x4ae8
@@ -117,12 +115,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D2134241-C6A3-3DC0-AE9D-FAFAE34F909F
 -  Functions: 10631
 -  Symbols:   10390
--  CStrings:  4681
+-  CStrings:  5050
++  UUID: FE80AA31-2C2B-31DC-A178-75634BB74250
 +  Functions: 10729
 +  Symbols:   10464
-+  CStrings:  4719
++  CStrings:  5087
  
 Symbols:
 + -[FACirclePresenter cancel]

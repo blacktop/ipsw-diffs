@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/MobileTimerUI.framework/MobileTimerUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FBC68DE0-13DC-3397-BE49-4CED3F4F4ADB
++  UUID: 9B235EB2-2E18-3BFA-92B9-2122C331A91B
    Functions: 31
    Symbols:   65
--  CStrings:  171
-+  CStrings:  172
+-  CStrings:  176
++  CStrings:  177
  
 CStrings:
 + "T@\"NSString\",?,R,C"

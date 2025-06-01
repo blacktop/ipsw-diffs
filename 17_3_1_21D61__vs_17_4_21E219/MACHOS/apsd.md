@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1346649E-EA0D-310B-84E7-7E5FCA729823
 -  Functions: 4603
 -  Symbols:   751
--  CStrings:  7053
+-  CStrings:  8053
++  UUID: D5A3599D-ACA9-3688-9CF7-C42E198917C5
 +  Functions: 4604
 +  Symbols:   752
-+  CStrings:  7057
++  CStrings:  8058
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__cfstring: 0x3180
 +  __AUTH_CONST.__objc_const: 0x3538
 +  __AUTH_CONST.__const: 0x6760
-   __AUTH_CONST.__auth_ptr: 0xe0
    __AUTH_CONST.__auth_got: 0x1750
 -  __AUTH.__objc_data: 0x1468
 +  __AUTH.__objc_data: 0x14b8
@@ -73,13 +72,16 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 783B0F44-8265-3963-941C-CD266CD70608
++  UUID: F3692DA9-3F45-3A67-87A3-0A9B291AF78B
    Functions: 6799
 -  Symbols:   817
--  CStrings:  4304
+-  CStrings:  4701
 +  Symbols:   819
-+  CStrings:  4301
++  CStrings:  4697
  
 Symbols:
 + _OBJC_CLASS_$_BDSReadingHistoryCommandLineServiceClient

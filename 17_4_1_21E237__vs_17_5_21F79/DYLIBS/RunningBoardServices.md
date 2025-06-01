@@ -27,14 +27,18 @@
 -  __AUTH_CONST.__cfstring: 0x5a60
 +  __AUTH_CONST.__cfstring: 0x5aa0
    __AUTH_CONST.__const: 0x660
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__auth_got: 0x700
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F9C1B1C-540D-346B-B741-020D7034E4BF
++  UUID: 03D1B7EB-1F38-3722-BF99-BEE6D411D810
    Functions: 2057
    Symbols:   6554
--  CStrings:  2823
-+  CStrings:  2825
+-  CStrings:  3546
++  CStrings:  3550
  
 CStrings:
 + "%@<%@(%@)(%d)>{vt hash: %lu}"

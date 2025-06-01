@@ -36,13 +36,16 @@
    __AUTH_CONST.__objc_const: 0x470
    __AUTH_CONST.__const: 0x60
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67DDF90B-78EA-3009-A1C2-349AD380679C
++  UUID: 0241B2E9-D933-3026-B274-96E481D9A718
    Functions: 281
 -  Symbols:   1090
--  CStrings:  657
+-  CStrings:  715
 +  Symbols:   1093
-+  CStrings:  660
++  CStrings:  718
  
 Symbols:
 + _objc_msgSend$aboveThreshold

@@ -39,11 +39,15 @@
    __DATA.__objc_const_ax: 0x0
    __DATA.__data: 0x20a8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88A6C03C-C3FB-3F86-B23D-81DE1843EDDD
++  UUID: 466F568C-7107-3C77-87C2-E05D43EDAE46
    Functions: 5276
    Symbols:   19879
--  CStrings:  8671
-+  CStrings:  8675
+-  CStrings:  9748
++  CStrings:  9752
  
 Symbols:
 + __OBJC_$_PROP_LIST__TVMLKitApplication.572

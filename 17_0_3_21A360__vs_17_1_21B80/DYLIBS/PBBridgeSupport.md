@@ -29,11 +29,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8EC0922B-F9CD-3C4E-9B01-B21C0728DB4A
 -  Functions: 1776
 -  Symbols:   5502
++  UUID: E9289097-6983-35F1-9B1D-5081728271C8
 +  Functions: 1777
 +  Symbols:   5504
-   CStrings:  2843
+   CStrings:  3499
  
 Symbols:
 + -[PBBridgeCompanionController _dumpActivationRequests]

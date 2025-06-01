@@ -41,7 +41,6 @@
    __AUTH_CONST.__objc_const: 0x4138
    __AUTH_CONST.__const: 0x2470
    __AUTH_CONST.__objc_intobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x7b8
    __AUTH.__objc_data: 0x1fe0
 -  __DATA.__objc_ivar: 0x5f8
@@ -53,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD895D62-0BC9-3FF8-A7C9-CAFD09FE6AC7
 -  Functions: 3174
 -  Symbols:   10845
--  CStrings:  4191
+-  CStrings:  5307
++  UUID: E805EB8B-5123-37A1-A7BA-BF28D6A6F29B
 +  Functions: 3176
 +  Symbols:   10850
-+  CStrings:  4196
++  CStrings:  5313
  
 Symbols:
 + -[SBSInCallPresentationConfiguration requiresDismissedPresentationmode]

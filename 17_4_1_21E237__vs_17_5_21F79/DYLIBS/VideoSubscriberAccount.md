@@ -77,11 +77,9 @@
 +  __AUTH_CONST.__objc_const: 0x2d0
 +  __AUTH_CONST.__const: 0x5858
    __AUTH_CONST.__objc_arrayobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x788
 -  __AUTH.__objc_data: 0x140
 -  __AUTH.__data: 0x98
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x8f0
 +  __AUTH.__objc_data: 0x268
 +  __AUTH.__data: 0xc0
@@ -116,14 +114,16 @@
 +  - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: F7983E1C-FB6A-32D7-82A8-8553371B8E1E
 -  Functions: 3823
 -  Symbols:   11957
--  CStrings:  5325
+-  CStrings:  6372
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: DD6D8902-90AC-3771-8C34-1823861CC3C2
 +  Functions: 3939
 +  Symbols:   11934
-+  CStrings:  5301
++  CStrings:  6369
  
 Symbols:
 + -[VSBundleRecord .cxx_destruct]

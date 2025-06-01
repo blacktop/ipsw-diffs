@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF7E15EB-88C4-30B1-902C-8BB28CFE1071
 -  Functions: 52
 -  Symbols:   211
--  CStrings:  255
+-  CStrings:  366
++  UUID: 67A513F8-6488-3FFF-AD63-8D1969C4EC65
 +  Functions: 62
 +  Symbols:   233
-+  CStrings:  304
++  CStrings:  444
  
 Symbols:
 + OBJC_IVAR_$_PSSpecifier.setter

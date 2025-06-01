@@ -15,4 +15,13 @@
    __DATA.__bss: 0x40
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 87BC5A6A-6001-3CB2-916D-3963446A6BB9
++  UUID: 68D1999F-B954-332D-922A-61E9AF0054C1
+   Functions: 18
+   Symbols:   61
+   CStrings:  45
+
 ```

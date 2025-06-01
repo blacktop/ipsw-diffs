@@ -37,12 +37,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E4791EE7-96DD-3F0A-8B6A-3157792A9697
 -  Functions: 174
 -  Symbols:   751
--  CStrings:  382
+-  CStrings:  565
++  UUID: 36B2B3BD-41E3-3E1F-B2DD-BB9FAED28795
 +  Functions: 175
 +  Symbols:   756
-+  CStrings:  384
++  CStrings:  568
  
 Symbols:
 + _AXLogCommon

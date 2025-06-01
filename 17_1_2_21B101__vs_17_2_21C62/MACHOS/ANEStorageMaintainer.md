@@ -20,4 +20,13 @@
    __DATA_CONST.__objc_classlist: 0x68
    __DATA_CONST.__objc_protolist: 0x18
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 111BA993-D344-3E83-B6AA-D2DCFBFCC3EC
++  UUID: C2E43451-FF30-3558-8EC8-9CC3BFEED588
+   Functions: 566
+   Symbols:   236
+   CStrings:  1356
+
 ```

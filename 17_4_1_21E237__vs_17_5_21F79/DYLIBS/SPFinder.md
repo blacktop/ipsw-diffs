@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__cfstring: 0x820
 +  __AUTH_CONST.__objc_const: 0x828
    __AUTH_CONST.__const: 0x1e8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x380
 -  __AUTH.__objc_data: 0x1f0
 +  __AUTH.__objc_data: 0x240
@@ -64,12 +63,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 05013DB1-1990-30F3-ACAD-B336C28EBD79
 -  Functions: 338
 -  Symbols:   1146
--  CStrings:  531
+-  CStrings:  593
++  UUID: 24E1215B-AF06-3660-9027-4A7FEF8D0E84
 +  Functions: 349
 +  Symbols:   1183
-+  CStrings:  549
++  CStrings:  614
  
 Symbols:
 + +[SPPublishResult supportsSecureCoding]

@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67EB0B60-1070-3334-861F-9EED4B67A6A6
 -  Functions: 1064
 -  Symbols:   4020
--  CStrings:  2301
+-  CStrings:  2728
++  UUID: B6F7EA09-91CF-313A-9B68-C7600C6BBB03
 +  Functions: 1067
 +  Symbols:   4031
-+  CStrings:  2308
++  CStrings:  2737
  
 Symbols:
 + +[DMCHTTPRequestor _parseWellKnownFailedErrorWithMessage:details:outError:]

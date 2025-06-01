@@ -45,9 +45,9 @@
    __AUTH_CONST.__cfstring: 0x1a00
    __AUTH_CONST.__objc_const: 0x5e8
 
+   __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_dictobj: 0x2a8
    __AUTH_CONST.__objc_doubleobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0xb00
 +  __AUTH_CONST.__auth_got: 0xb18
    __AUTH.__objc_data: 0xa10
@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E9AFD5DD-C755-30F7-939A-BDCE278F5754
 -  Functions: 1244
 -  Symbols:   2946
--  CStrings:  1675
+-  CStrings:  1883
++  UUID: BFC735F8-4189-33F9-9C43-BDD08A618EBF
 +  Functions: 1252
 +  Symbols:   2948
-+  CStrings:  1692
++  CStrings:  1900
  
 Symbols:
 + ___37-[AAUIAchievementsDataProvider query]_block_invoke.385

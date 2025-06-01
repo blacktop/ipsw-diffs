@@ -41,13 +41,16 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x2a0
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C94EE0A6-9D9C-3295-87B2-00DC1DB91D0D
++  UUID: 4DAEF990-E07F-3000-B746-A11CF20C9A8F
    Functions: 116
 -  Symbols:   100
--  CStrings:  366
+-  CStrings:  377
 +  Symbols:   102
-+  CStrings:  368
++  CStrings:  379
  
 Symbols:
 + _HMHomeManagerDataSyncStateToString

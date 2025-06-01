@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x3a38
 +  __AUTH_CONST.__objc_arrayobj: 0x1548
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0xe0
    __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x150
 -  __AUTH_CONST.__const: 0x358
@@ -81,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B1749EBD-DAB4-3FAC-8025-6720B1B12FAA
 -  Functions: 28107
 -  Symbols:   78993
--  CStrings:  43936
+-  CStrings:  48013
++  UUID: F4FCC166-532C-387F-83E0-02A388BF76ED
 +  Functions: 28122
 +  Symbols:   79033
-+  CStrings:  43964
++  CStrings:  48045
  
 Symbols:
 + -[AVAudioClient shouldSetUpXPCConnection]

@@ -13,4 +13,13 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    - /System/Library/Frameworks/ARKit.framework/ARKit
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 025A4AE5-2478-367F-BC23-6DB7E496E462
++  UUID: E2A91B69-2CA7-353B-AEB7-F265F009A04E
+   Functions: 0
+   Symbols:   3
+   CStrings:  0
+
 ```

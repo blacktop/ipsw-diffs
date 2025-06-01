@@ -23,11 +23,15 @@
    __DATA_CONST.__auth_got: 0x288
    __DATA_CONST.__got: 0x68
 
+   - /System/Library/PrivateFrameworks/SpringBoardUI.framework/SpringBoardUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 312C9F82-94F1-368E-A55D-462B1920EC65
++  UUID: 19DB793D-A6EF-3B2E-AB7B-926DCC84BDE6
    Functions: 129
    Symbols:   138
--  CStrings:  546
-+  CStrings:  548
+-  CStrings:  553
++  CStrings:  555
  
 CStrings:
 + "passLibrary:receivedUpdatedCatalog:passes:states:"

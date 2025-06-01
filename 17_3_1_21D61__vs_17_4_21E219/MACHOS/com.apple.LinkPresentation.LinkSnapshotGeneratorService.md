@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
    - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F7744D97-8ACA-3D88-B9E4-3C606A7072E6
++  UUID: 8E982B2D-9EDE-3796-BC78-33ACEFFFF1AE
+   Functions: 1
+   Symbols:   9
+   CStrings:  3
 
 ```

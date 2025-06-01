@@ -63,12 +63,11 @@
 -  __DATA_CONST.__objc_const: 0x1f780
 -  __DATA_CONST.__objc_selrefs: 0x3778
 -  __AUTH_CONST.__const: 0x8d68
+-  __AUTH_CONST.__cfstring: 0x7540
+-  __AUTH_CONST.__objc_const: 0x45f8
 +  __DATA_CONST.__objc_const: 0x1f870
 +  __DATA_CONST.__objc_selrefs: 0x3790
 +  __AUTH_CONST.__const: 0x8e08
-   __AUTH_CONST.__auth_ptr: 0xa8
--  __AUTH_CONST.__cfstring: 0x7540
--  __AUTH_CONST.__objc_const: 0x45f8
 +  __AUTH_CONST.__cfstring: 0x7580
 +  __AUTH_CONST.__objc_const: 0x4640
    __AUTH_CONST.__objc_intobj: 0x60
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: FEA84175-E98E-3156-BB1D-E670F2A0D000
 -  Functions: 17562
 -  Symbols:   43250
--  CStrings:  27441
+-  CStrings:  28379
++  UUID: 95F61053-D76D-3530-919D-316D4B349BD6
 +  Functions: 17646
 +  Symbols:   43441
-+  CStrings:  27576
++  CStrings:  28516
  
 Symbols:
 + -[NWCandidate .cxx_destruct]

@@ -48,11 +48,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CF8A00F-C5A4-30C9-97F8-21B3B6E59C06
 -  Functions: 631
++  UUID: 705E5BD9-07AB-36E0-8C52-696F71F2D959
 +  Functions: 634
    Symbols:   363
--  CStrings:  2332
-+  CStrings:  2340
+-  CStrings:  2642
++  CStrings:  2651
  
 CStrings:
 + "%s Overriding and cooling down for reason: %@"

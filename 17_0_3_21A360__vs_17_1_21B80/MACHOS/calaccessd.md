@@ -29,12 +29,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/CalendarFoundation.framework/CalendarFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69E6E728-13C4-3E12-BD5F-FC223009D3C8
++  UUID: 86300011-174E-3E70-BB20-A4EF82B93D15
    Functions: 4
 -  Symbols:   30
 +  Symbols:   32
-   CStrings:  13
+   CStrings:  14
  
 Symbols:
 + _OBJC_CLASS_$_CADStateDumpModule

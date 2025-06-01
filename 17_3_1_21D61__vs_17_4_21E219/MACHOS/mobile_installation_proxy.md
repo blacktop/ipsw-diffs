@@ -21,4 +21,13 @@
    __DATA.__common: 0x8
    __DATA.__bss: 0x58
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 13A8A906-38E4-31FD-8915-2DB2DABDDDF2
++  UUID: A57F2A7B-BE11-3923-AAF2-35795176610B
+   Functions: 45
+   Symbols:   136
+   CStrings:  472
+
 ```

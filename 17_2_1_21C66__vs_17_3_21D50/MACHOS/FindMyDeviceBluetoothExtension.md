@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E111257E-2517-3DCB-9A09-A42AD53F0638
 -  Functions: 433
++  UUID: D85337D8-D11F-324B-B2F0-D5C521BFA49A
 +  Functions: 439
    Symbols:   163
--  CStrings:  1296
-+  CStrings:  1299
+-  CStrings:  1681
++  CStrings:  1684
  
 CStrings:
 + "accountRatchet"

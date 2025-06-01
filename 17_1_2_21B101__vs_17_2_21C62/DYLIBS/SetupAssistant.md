@@ -79,12 +79,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DDF15089-ADE6-3213-8467-9A59EF4B666C
 -  Functions: 1464
 -  Symbols:   5316
--  CStrings:  2584
+-  CStrings:  2915
++  UUID: 1431E602-BF2D-31FF-8492-61AD3D94A7AA
 +  Functions: 1511
 +  Symbols:   5457
-+  CStrings:  2652
++  CStrings:  2988
  
 Symbols:
 + -[BYAnalyticsEventAppearance _analyticsManagerDidProduceLazyEvents]

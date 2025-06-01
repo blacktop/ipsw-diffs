@@ -36,11 +36,15 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D5DD93D-C712-39EA-9DC3-7388627E3946
++  UUID: 528D9621-DB85-304E-B472-579C15DDC875
    Functions: 20
    Symbols:   76
--  CStrings:  256
-+  CStrings:  263
+-  CStrings:  275
++  CStrings:  282
  
 CStrings:
 + "findMyAccessoryManager:didFetchAISAccessoryCapabilities:fromDevice:error:"

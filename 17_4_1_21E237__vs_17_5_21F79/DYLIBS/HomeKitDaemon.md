@@ -73,12 +73,10 @@
 +  __DATA_CONST.__objc_superrefs: 0x3448
    __DATA_CONST.__objc_arraydata: 0x32c0
 -  __AUTH_CONST.__const: 0x13828
--  __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__objc_const: 0x39cb0
 -  __AUTH_CONST.__cfstring: 0x585c0
 -  __AUTH_CONST.__objc_intobj: 0x3150
 +  __AUTH_CONST.__const: 0x13ed8
-+  __AUTH_CONST.__auth_ptr: 0x40
 +  __AUTH_CONST.__objc_const: 0x39f80
 +  __AUTH_CONST.__cfstring: 0x59120
 +  __AUTH_CONST.__objc_intobj: 0x3168
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 52DE6FFA-12F4-3BBE-8FB5-F820D3DD0214
 -  Functions: 49869
 -  Symbols:   164941
--  CStrings:  76925
+-  CStrings:  88235
++  UUID: AA497E92-6D19-3AB6-975F-3BDB7755C00D
 +  Functions: 50312
 +  Symbols:   165767
-+  CStrings:  77414
++  CStrings:  88815
  
 Symbols:
 + +[HMCContext(MKFResidentSelection) findResidentSelectionWithDatabaseID:]

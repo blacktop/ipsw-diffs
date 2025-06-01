@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x3de
    __TEXT.__objc_methname: 0x192e
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0B896E12-2576-3F23-A67C-5675453F6CDA
++  UUID: C40E8284-10E7-3EF8-AA52-AD2CE1CF9FB1
+   Functions: 195
+   Symbols:   144
+   CStrings:  473
+
 ```

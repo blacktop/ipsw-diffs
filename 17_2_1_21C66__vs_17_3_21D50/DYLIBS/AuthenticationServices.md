@@ -54,8 +54,7 @@
 +  __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x18
-
+   __AUTH_CONST.__auth_got: 0x7c8
    __AUTH.__objc_data: 0x23f0
    __AUTH.__data: 0x98
    __DATA.__objc_protorefs: 0x30
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22057062-B708-37B1-8A3C-47A201B1975F
 -  Functions: 2489
 -  Symbols:   8727
--  CStrings:  3978
+-  CStrings:  4491
++  UUID: 9A723BF8-F383-3BD2-A8D2-C9726FB5A497
 +  Functions: 2496
 +  Symbols:   8752
-+  CStrings:  3991
++  CStrings:  4511
  
 Symbols:
 + -[ASCredentialPickerPaneViewController _messageOfAlertForFailedBiometryAttemptWhenPasscodeFallbackIsNotAllowed]

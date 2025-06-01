@@ -39,13 +39,16 @@
    __DATA.__objc_ivar: 0x34
    __DATA.__objc_data: 0x140
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 999CBAEC-93DB-341A-87F1-31008C631BD5
++  UUID: D3EEABF4-86AA-361D-95DF-025F08263608
    Functions: 141
 -  Symbols:   127
--  CStrings:  598
+-  CStrings:  629
 +  Symbols:   128
-+  CStrings:  602
++  CStrings:  634
  
 Symbols:
 + _OBJC_CLASS_$_NSSortDescriptor

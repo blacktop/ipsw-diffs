@@ -25,4 +25,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B4CCA47A-6258-3239-9999-FA3B34BEE0F0
++  UUID: BE632782-A9B9-37A5-B3C6-DB7539428450
+   Functions: 8
+   Symbols:   41
+   CStrings:  62
+
 ```

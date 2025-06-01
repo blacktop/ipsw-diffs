@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7F3491C-138C-3340-BAA3-29682FCF1182
 -  Functions: 828
 -  Symbols:   404
--  CStrings:  1301
+-  CStrings:  1465
++  UUID: 63A36868-AC9F-3543-B3C4-D48CCC6AAB97
 +  Functions: 829
 +  Symbols:   406
-+  CStrings:  1304
++  CStrings:  1468
  
 Symbols:
 + __shapeNoirAlphaTransition

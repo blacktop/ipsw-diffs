@@ -68,7 +68,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x5b8
    __AUTH_CONST.__objc_doubleobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1218
 -  __AUTH.__objc_data: 0x54b0
 +  __AUTH_CONST.__auth_got: 0x1210
@@ -96,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E081E029-3A8F-383B-8ED0-D873F90A2290
 -  Functions: 10577
 -  Symbols:   35333
--  CStrings:  18426
+-  CStrings:  22307
++  UUID: 9CAB7388-7C79-384E-94C8-B943C91C5F48
 +  Functions: 10653
 +  Symbols:   35608
-+  CStrings:  18573
++  CStrings:  22478
  
 Symbols:
 + +[PHImageManager(VideoUtilities) exportVideoFileForTimeRange:fromVideoMediaItemMakerData:forAssetUuid:toOutputFileURL:fingerPrint:signpostId:completion:]

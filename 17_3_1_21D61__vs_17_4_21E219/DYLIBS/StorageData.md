@@ -44,11 +44,15 @@
    __DATA.__data: 0x378
    __DATA.__bss: 0x230
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90243FAA-3BFB-3B08-8C39-C58A391EAD9D
++  UUID: 502E4765-2D2B-37E0-99FC-4925BA947B8B
    Functions: 723
    Symbols:   2929
--  CStrings:  1652
-+  CStrings:  1651
+-  CStrings:  2012
++  CStrings:  2011
  
 Symbols:
 + __OBJC_$_PROP_LIST_STContainer.80

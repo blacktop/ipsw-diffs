@@ -40,7 +40,6 @@
 -  __AUTH_CONST.__cfstring: 0x4ca0
 +  __AUTH_CONST.__cfstring: 0x4ce0
    __AUTH_CONST.__objc_const: 0xd38
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__objc_intobj: 0x1608
 +  __AUTH_CONST.__objc_intobj: 0x1620
    __AUTH_CONST.__objc_arrayobj: 0x90
@@ -66,12 +65,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22A53799-99EE-3CD4-AFEF-4CC9B2DC01E2
 -  Functions: 1698
 -  Symbols:   5473
--  CStrings:  2481
+-  CStrings:  3094
++  UUID: 3560E64C-AB6C-3509-B68C-E26FF5B6FCA8
 +  Functions: 1699
 +  Symbols:   5477
-+  CStrings:  2486
++  CStrings:  3101
  
 Symbols:
 + +[AXElement registerNotifications:withIdentifier:withHandler:].cold.4

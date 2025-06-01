@@ -59,7 +59,6 @@
    __AUTH_CONST.__cfstring: 0x220
 -  __AUTH_CONST.__const: 0xea8
 +  __AUTH_CONST.__const: 0xeb0
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__auth_got: 0x750
 -  __AUTH.__objc_data: 0xa90
 +  __AUTH.__objc_data: 0x9f8
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84506D8A-DA34-3CA0-B3FA-393E39286651
 -  Functions: 1007
 -  Symbols:   1222
--  CStrings:  746
+-  CStrings:  763
++  UUID: C9FC5394-13B4-3E53-9A43-7E7D8CB3A5F4
 +  Functions: 1011
 +  Symbols:   1241
-+  CStrings:  759
++  CStrings:  776
  
 Symbols:
 + -[BEWebAppManifest .cxx_destruct]

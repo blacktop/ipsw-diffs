@@ -49,14 +49,19 @@
    - /System/Library/PrivateFrameworks/BookUtility.framework/BookUtility
    - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2565E40-10F7-362B-88AD-F45E14546B13
++  UUID: EC80FD55-8815-3D1D-90CE-672D076C1BF1
    Functions: 213
    Symbols:   232
--  CStrings:  739
-+  CStrings:  740
+-  CStrings:  909
++  CStrings:  910
  
 CStrings:
 + "Home"
++ "T"
 + "T@\"NSString\",?,R,C"
 + "When Home is enabled, your Continue and Previous lists will start syncing to iCloud the next time you open a book."
 - "Read Now"

@@ -64,9 +64,6 @@
 +  __AUTH_CONST.__objc_const: 0x82d8
 +  __AUTH_CONST.__objc_arrayobj: 0x360
    __AUTH_CONST.__objc_dictobj: 0xc8
-+  __AUTH_CONST.__objc_intobj: 0x468
-+  __AUTH_CONST.__objc_doubleobj: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xd90
 -  __AUTH.__objc_data: 0x32f0
 -  __DATA.__objc_protorefs: 0x80
@@ -75,6 +72,8 @@
 -  __DATA.__objc_ivar: 0x1298
 -  __DATA.__data: 0x2c20
 -  __DATA.__bss: 0x720
++  __AUTH_CONST.__objc_intobj: 0x468
++  __AUTH_CONST.__objc_doubleobj: 0xa0
 +  __AUTH_CONST.__auth_got: 0xdb8
 +  __AUTH.__objc_data: 0x37a0
 +  __DATA.__got_weak: 0x8
@@ -93,12 +92,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: EDDCFDED-2498-3911-B7D2-605FAFFB54A9
 -  Functions: 8479
 -  Symbols:   29023
--  CStrings:  11608
+-  CStrings:  14452
++  UUID: C7C618AD-BD2C-3A3E-AFAA-8A862A2BF453
 +  Functions: 8792
 +  Symbols:   30014
-+  CStrings:  12090
++  CStrings:  15044
  
 Symbols:
 + +[NSBundle(SafariSharedExtras) safari_bundlesFromDirectory:bundleType:]
@@ -1457,18 +1458,23 @@ Symbols:
 - _write
 CStrings:
 + "\t"
++ "\tg\xb9R\x1fgP\x96"
 + "\x0f\x04"
 + "\x11\x13"
 + "\x112"
 + "\x18"
++ "\x1c\x0e9\x0eI\x0e\x16\x0e7\x0e-\x0e\x1a\x0e1\x0e\x15\x0e#\x0e"
 + " * %@"
++ "#\x0e+\x0e1\x0e*\x0e#\x0e1\x0e\x01\x0e)\x0e2\x0e\x04\x0e'\x0e2\x0e!\x0e\x1b\x0e%\x0e-\x0e\x14\x0e \x0e1\x0e\"\x0e\x1a\x0e1\x0e\x15\x0e#\x0e"
 + "%@\n"
 + "%@ %@"
 + "%@_%@.plist"
 + "%s:%d: assertion %s failed: %s\n"
++ "'\x0e1\x0e\x19\x0e+\x0e!\x0e\x14\x0e-\x0e2\x0e\"\x0e8\x0e"
 + "(?=\"flags\"{?=\"disallowsAutocomplete\"b1\"claimsToBeCurrentPasswordViaAutocompleteAttribute\"b1\"claimsToBeNewPasswordViaAutocompleteAttribute\"b1\"claimsToBeUsernameViaAutocompleteAttribute\"b1\"looksLikeCreditCardCardholderField\"b1\"looksLikeCreditCardCompositeExpirationDateField\"b1\"looksLikeCreditCardNumberField\"b1\"looksLikeCreditCardSecurityCodeField\"b1\"looksLikeCreditCardTypeField\"b1\"looksLikeEIDField\"b1\"looksLikeIMEIField\"b1\"looksLikeDayField\"b1\"looksLikeMonthField\"b1\"looksLikeYearField\"b1\"looksLikeIgnoredDataTypeField\"b1\"looksLikePasswordCredentialField\"b1\"looksLikeOneTimeCodeField\"b1\"oneTimeCodeIsEligibleForAutomaticLogin\"b1\"visible\"b1\"active\"b1\"disabled\"b1\"readOnly\"b1\"textField\"b1\"secureTextField\"b1\"autoFilledTextField\"b1\"userEditedTextField\"b1\"labeledUsernameField\"b1\"verticalWritingMode\"b1}\"asInteger\"q)"
 + "(New Bugs)"
 + "(__end - __begin) >= 0"
++ "+\x0e!\x0e2\x0e\"\x0e@\x0e%\x0e\x02\x0e\x1a\x0e1\x0e\x15\x0e#\x0e@\x0e\x04\x0e#\x0e\x14\x0e4\x0e\x15\x0e"
 + "-expected"
 + "/AppleInternal/Library/BuildRoots/b96130be-d2c4-11ee-8194-22c3409c8aad/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/include/c++/v1/__algorithm/pop_heap.h"
 + "/AppleInternal/Library/BuildRoots/b96130be-d2c4-11ee-8194-22c3409c8aad/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/include/c++/v1/__algorithm/sift_down.h"
@@ -1496,6 +1502,7 @@ CStrings:
 + "5"
 + "567407"
 + "6"
++ "=\x04>\x04<\x045\x04@\x04 "
 + "@\"<WBSCompletionListVendorForHistoryServiceDataSource>\""
 + "@\"<WBSPageTestDelegate>\""
 + "@\"<WBSTestBundle>\"16@?0@\"NSBundle\"8"
@@ -1515,6 +1522,7 @@ CStrings:
 + "@44@0:8d16B24@28@?36"
 + "@52@0:8d16d24B32@36@?44"
 + "@72@0:8@16@24@32@40@48@56@64"
++ "A\x04@\x04>\x04:\x04 "
 + "AllowUnsignedExtensionsTimeoutNotification"
 + "Apple will store and use this feedback including the URL and optionally the contents of this webpage, to improve AutoFill."
 + "Attachments"
@@ -2083,9 +2091,23 @@ CStrings:
 + "zero"
 + "{CGSize=\"width\"d\"height\"d}"
 + "{CGSize=dd}16@0:8"
++ "\xab0\xfc0\xc90\rT\xa9\x7f\xbaN"
++ "\xab0\xfc0\xc90ju\xf7S"
++ "\xaf0\xec0\xb80\xc30\xc80\xab0\xfc0\xc90\rT\xa9\x7f\xbaN"
++ "\xbb0\xad0\xe50\xea0\xc60\xa30\xb30\xfc0\xc90"
++ "̸̹ "
++ "̸̹|\xc7"
++ "\xf4\xbcH\xc5 "
 - "\x011"
 - "\x06\x13"
 - "\x0f\x03"
+- "\x1a\x04>\x044\x04 "
+- "!h\x8c\x9a\x01x"
+- "#\x0e+\x0e1\x0e*\x0e\x01\x0e2\x0e#\x0e\x15\x0e#\x0e'\x0e\b\x0e*\x0e-\x0e\x1a\x0e\"\x0e7\x0e\x19\x0e\"\x0e1\x0e\x19\x0e"
+- "#\x0e+\x0e1\x0e*\x0e\x01\x0e2\x0e#\x0e\"\x0e7\x0e\x19\x0e\"\x0e1\x0e\x19\x0e"
+- "#\x0e+\x0e1\x0e*\x0e\x04\x0e'\x0e2\x0e!\x0e\x1b\x0e%\x0e-\x0e\x14\x0e \x0e1\x0e\"\x0e"
+- "#\x0e+\x0e1\x0e*\x0e\"\x0e7\x0e\x19\x0e\"\x0e1\x0e\x19\x0e"
+- "#\x0e+\x0e1\x0e*\x0eO"
 - "%s:%d: assertion %s failed: %s"
 - "(?=\"flags\"{?=\"disallowsAutocomplete\"b1\"claimsToBeCurrentPasswordViaAutocompleteAttribute\"b1\"claimsToBeNewPasswordViaAutocompleteAttribute\"b1\"claimsToBeUsernameViaAutocompleteAttribute\"b1\"looksLikeCreditCardCardholderField\"b1\"looksLikeCreditCardCompositeExpirationDateField\"b1\"looksLikeCreditCardNumberField\"b1\"looksLikeCreditCardSecurityCodeField\"b1\"looksLikeCreditCardTypeField\"b1\"looksLikeDayField\"b1\"looksLikeMonthField\"b1\"looksLikeYearField\"b1\"looksLikeIgnoredDataTypeField\"b1\"looksLikePasswordCredentialField\"b1\"looksLikeOneTimeCodeField\"b1\"oneTimeCodeIsEligibleForAutomaticLogin\"b1\"visible\"b1\"active\"b1\"disabled\"b1\"readOnly\"b1\"textField\"b1\"secureTextField\"b1\"autoFilledTextField\"b1\"userEditedTextField\"b1\"labeledUsernameField\"b1}\"asInteger\"q)"
 - "/AppleInternal/Library/BuildRoots/7df5dd62-b1e4-11ee-ad34-d64f9dd5e0b3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.3.Internal.sdk/usr/include/c++/v1/__algorithm/pop_heap.h"
@@ -2097,6 +2119,9 @@ CStrings:
 - "/AppleInternal/Library/BuildRoots/7df5dd62-b1e4-11ee-ad34-d64f9dd5e0b3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.3.Internal.sdk/usr/include/c++/v1/vector"
 - "2fa"
 - "6-digit authentication code"
+- "8\t$\tM\t/\t>\t*\t(\t "
+- ":\x04>\x044\x04"
+- ":\x04>\x044\x04 "
 - "@\"NSData\"24@0:8Q16"
 - "@\"NSNumber\"24@?0@\"NSObject\"8Q16"
 - "@\"WBSRemotePlistController\""
@@ -2145,12 +2170,16 @@ CStrings:
 - "Task"
 - "The password for one of your accounts has appeared in a data leak, putting it at high risk of compromise. iPod can help you re-secure your account."
 - "Tq,N,V_classification"
+- "T\xcfܴ"
 - "UniqueDeviceID"
+- "U\xd6x\xc7T\xcfܴ"
 - "Verifizierungscode"
 - "WBSRadarNewProblemURLBuilder"
 - "WBSRecentlyBreachedSavedPasswordProvider"
 - "WBSRemotePlistControllerDelegate"
 - "WBSRemotePlistSnapshot"
+- "W\x9a<\x8a\xbcx"
+- "W\x9aI\x8b\xbcx"
 - "_attachmentURLs"
 - "_componentName"
 - "_componentVersion"
@@ -2236,5 +2265,13 @@ CStrings:
 - "v64@0:8@16@24@32B40B44B48i52q56"
 - "verification code"
 - "verificationCode"
+- "xǝɈ\xbc8\xd6"
+- "\x8c\x9a\xc1\x8b\x01x"
+- "\x8d\x8a<\x8a\xb30\xfc0\xc90"
+- "\x8d\x8aI\x8b\xbcx"
+- "\xb30\xfc0\xc90"
+- "\xbax\x8d\x8a\xb30\xfc0\xc90"
+- "\xbax\x8d\x8a\xbcx"
+- "\xdc"
 
 ```

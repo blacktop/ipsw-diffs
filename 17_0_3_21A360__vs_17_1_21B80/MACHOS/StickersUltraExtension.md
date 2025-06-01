@@ -75,11 +75,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32C1EFF6-353B-3D7C-956D-B08664443518
 -  Functions: 3149
++  UUID: 7D74033C-66EF-3EDB-A684-9D56AACDFDE5
 +  Functions: 3159
    Symbols:   380
--  CStrings:  1425
-+  CStrings:  1426
+-  CStrings:  1442
++  CStrings:  1443
  
 CStrings:
 + "analyticsCancelState"

@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_intobj: 0x1f8
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x9a8
 -  __AUTH.__objc_data: 0x230
    __DATA.__got_weak: 0x60
@@ -76,12 +75,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7D732540-A1CF-3384-B54A-310AE1196981
 -  Functions: 2049
 -  Symbols:   7377
--  CStrings:  3670
+-  CStrings:  4202
++  UUID: 88881BE9-5F7C-3B54-A7F0-580F607D9525
 +  Functions: 2054
 +  Symbols:   7397
-+  CStrings:  3684
++  CStrings:  4222
  
 Symbols:
 + -[ADEspressoPearlColorInFieldCalibrationBackendInferenceDescriptor pearlMaskInput]

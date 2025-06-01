@@ -38,12 +38,14 @@
    - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
    - /System/Library/PrivateFrameworks/ManagedConfigurationUI.framework/ManagedConfigurationUI
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
-
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1291C62C-AD81-3810-ADA9-5C56527C26B5
++  UUID: B6D8C9D8-CF64-33E9-AE1E-82BB17547A35
    Functions: 7
    Symbols:   48
--  CStrings:  38
-+  CStrings:  39
+-  CStrings:  40
++  CStrings:  41
  
 CStrings:
 + "thisDeviceType"

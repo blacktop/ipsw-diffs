@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/ClockComplications.framework/ClockComplications
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7DB3E1D9-15B8-3AE0-B4CE-24F965490F31
 -  Functions: 196
 -  Symbols:   143
--  CStrings:  146
+-  CStrings:  156
++  UUID: D9866DC5-668A-3D7D-B1F8-96EC207E30FF
 +  Functions: 200
 +  Symbols:   145
-+  CStrings:  148
++  CStrings:  158
  
 Symbols:
 + _MAPSGetCustomPOIsControllerLog

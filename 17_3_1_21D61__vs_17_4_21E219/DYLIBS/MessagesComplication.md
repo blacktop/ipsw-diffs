@@ -36,11 +36,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A61AB07-8C1D-3578-98AA-C2713E73E1F4
++  UUID: 6B3BBC55-A79F-3570-AEAF-A89D35710F79
    Functions: 150
    Symbols:   136
--  CStrings:  383
-+  CStrings:  384
+-  CStrings:  393
++  CStrings:  394
  
 CStrings:
 + "T@\"NSString\",?,R,C"

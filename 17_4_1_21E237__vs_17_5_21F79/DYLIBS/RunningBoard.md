@@ -60,13 +60,16 @@
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
 
+   - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 5F7346E7-22D1-39CC-B4D1-7DEDE3254020
++  UUID: 917F7390-CFD9-303C-A99A-BB053516077D
    Functions: 2549
 -  Symbols:   8863
--  CStrings:  4246
+-  CStrings:  4941
 +  Symbols:   8866
-+  CStrings:  4253
++  CStrings:  4949
  
 Symbols:
 + _OBJC_IVAR_$_RBProcessIndex._remainingStackshotsCount

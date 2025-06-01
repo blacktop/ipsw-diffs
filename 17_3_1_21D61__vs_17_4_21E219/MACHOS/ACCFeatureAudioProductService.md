@@ -41,13 +41,16 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x150
 
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B11D7FA-EF7D-3571-870B-053E56BC94DD
++  UUID: E798203E-A607-3EE9-97BB-805867EC1B4A
    Functions: 59
 -  Symbols:   815
--  CStrings:  219
+-  CStrings:  292
 +  Symbols:   851
-+  CStrings:  229
++  CStrings:  311
  
 Symbols:
 + _ACCUserDefaultsKey_ForceAccInfoUpdateRelaySupport

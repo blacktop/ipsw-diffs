@@ -18,6 +18,15 @@
    __TEXT.__oslogstring: 0x7581
    __TEXT.__unwind_info: 0x930
    __DATA_CONST.__auth_got: 0xe20
+
+   - /usr/lib/libimage4.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: AC6F4CE6-5878-3038-AE80-E51C656579E3
++  UUID: 4F1633E2-6271-3D22-923C-ED10E87882C6
+   Functions: 909
+   Symbols:   536
+   CStrings:  1549
 CStrings:
 + "369.140.2"
 + "@(#)VERSION:Darwin Cryptex Manager Version 2.0.0: Sun Jun 30 11:53:49 PDT 2024; root:libcryptex_executables-369.140.2~150/cryptexd/RELEASE_ARM64E"

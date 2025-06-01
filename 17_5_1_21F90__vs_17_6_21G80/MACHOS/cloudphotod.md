@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91D319B7-2972-39D2-A83A-C122944B21BF
 -  Functions: 10155
 -  Symbols:   905
--  CStrings:  10200
+-  CStrings:  12136
++  UUID: A8B86A42-696D-3F17-9673-B53F3EAB5B79
 +  Functions: 10367
 +  Symbols:   913
-+  CStrings:  10501
++  CStrings:  12494
  
 Symbols:
 + _NSLocalizedRecoverySuggestionErrorKey

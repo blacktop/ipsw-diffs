@@ -74,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0ECDC8E-623A-3349-8310-F9A4A2E57C85
 -  Functions: 441
 -  Symbols:   318
--  CStrings:  1214
+-  CStrings:  1683
++  UUID: 918715A4-D222-39B3-8F21-3DD4D2033A3B
 +  Functions: 341
 +  Symbols:   278
-+  CStrings:  942
++  CStrings:  1243
  
 Symbols:
 + _fpfs_enable_fts_thread_fchdir
@@ -153,7 +155,20 @@ CStrings:
 - "'.' is an alias for the current collection's identifier\n"
 - "(failed)"
 - ".."
+- "< \x0f\xfe "
 - "<action> <itemID ...>\n"
+- "<\xd8G\xdf"
+- "<\xd8I\xdf"
+- "<\xd8J\xdf"
+- "<\xd8K\xdf"
+- "<\xd8L\xdf"
+- "<\xd8N\xdf"
+- "<\xd8P\xdf"
+- "<\xd8\xc1\xdf "
+- "=\xd8"
+- "=\xd8\x04\xdd "
+- "=\xd8h\xdc\r =\xd8f\xdc\r =\xd8f\xdc "
+- ">\xd8Q\xdd"
 - "@\"FPCTLTermDumper\""
 - "@\"FPItem\""
 - "@\"FPItemCollection\""
@@ -170,6 +185,7 @@ CStrings:
 - "FPMaterializedSetEnumerator"
 - "FPPendingSetEnumerator"
 - "File Provider control utility.\n%s <command> <options>\n\nCommands:\n  listproviders                                                  - Show registered providers\n  enumerate|ls <provider|collection>                             - enumerate a container\n      -v,--verbose                                                      verbose output\n      -i,--item <item id>                                               monitor a container other than root\n      -w,--workingset                                                   monitor the working set (equiv. to -i <working set identifier>)\n      -d,--sort-by-date                                                 sort by date instead of name\n      -t,--type <UTI>                                                   item type displayed in the enumeration (default: public.item)\n      -u,--thumbnail                                                    output thumbnails via 1337 escape code\n      -e,--no-cache                                                     don't use the cache on disk\n  thumbnail [<provider> <domain> <itemid>]|[<url>]               - dump thumbnail for an item\n  attributes <item> [--direct]                                   - get attributes for a url [from fpd]\n  dump [<domain|provider>]                                       - dump state of fileprovider's daemon\n      --limit-dump-size                                                 limit the number of items dumped\n  signal <provider> [<item id>]                                  - signal a provider on the given item (defaults to working set)\n  materialize <item>                                             - materialize the path on disk\n  evict <item>...                                                - make the paths on disk dataless\n      -n,--namespace                                                    attempt to evict directories\n  coordinate                                                     - perform a coordination on a given path\n      -R, --recursive <path>                                            perform a recursive read\n      -r, --read <path>                                                 perform a single item read\n      -w, --write <path>                                                perform a coordinated write\n      -d, --delete <path>                                               perform a coordinated delete\n      -t, --time <seconds>                                              hold coordination for this long (default: inf)\n      -e, --debug                                                       dump file coordination info\n  stabilize [<domain>...]                                        - wait for the domain to stabilize\n      -B, --barrier <item id>                                           apply a barrier on the specified item instead of a full stabilization\n  evaluate <item>                                                - evaluate finder actions and decorations on item\n  evaluate <action> [<item>] <target item>                       - evaluate finder interactions\n  domain <action> [<domainid>]                                   - modify domains properties\n  interactive-scheduling <domain>                                - interactive scheduling session\n  check | repair                                                 - run FPCK\n      -f                                                                perform a full dump (all items)\n      -a <path>                                                         perform check under path\n      -b <path>                                                         operate on an already created DB backup. If this is set you need to set -a to point to the domain root\n      -o <path>                                                         write output into file at path\n      -P                                                                no-pager output\n      -d                                                                dimisss low-importance invariants\n      -v                                                                print out files with broken invariants\n      -m [<providerDomainID>]                                           perform check on the d2d migration backup\n  obfuscate [<filename>/<path>...]                               - return the obfuscated form of the filename\n"
+- "G'\x0f\xfe "
 - "HIGH "
 - "Item %@ not found"
 - "Item is not a folder: %s\n"
@@ -393,5 +409,6 @@ CStrings:
 - "wantsDirectExtensionEnumeration"
 - "workingQueue"
 - "workingset"
+- "{&\x0f\xfe "
 
 ```

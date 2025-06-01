@@ -26,4 +26,13 @@
    __DATA_DIRTY.__objc_data: 0x320
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B4282750-4D2E-3EC9-8DCA-1BA845F3C390
++  UUID: A51CCBB9-9475-3622-8848-3B206DB93E6C
+   Functions: 296
+   Symbols:   1245
+   CStrings:  599
+
 ```

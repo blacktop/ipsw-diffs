@@ -60,13 +60,16 @@
    __DATA_DIRTY.__objc_data: 0x9b0
    __DATA_DIRTY.__bss: 0x38
 
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8965359D-B88D-38B4-8D42-124E40B537F3
++  UUID: 54F5677F-5C6D-34F0-B051-67C8747BD405
    Functions: 653
 -  Symbols:   2644
--  CStrings:  1359
+-  CStrings:  1482
 +  Symbols:   2648
-+  CStrings:  1365
++  CStrings:  1489
  
 Symbols:
 + _OBJC_CLASS_$_MSVTaskAssertion

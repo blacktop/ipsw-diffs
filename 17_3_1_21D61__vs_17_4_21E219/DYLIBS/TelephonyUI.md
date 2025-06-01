@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x988
 -  __AUTH.__objc_data: 0x1048
 +  __AUTH_CONST.__auth_got: 0x990
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4CF3237-F30A-33B7-866E-9E06351E4D5A
 -  Functions: 1988
 -  Symbols:   5027
--  CStrings:  2475
+-  CStrings:  2730
++  UUID: E4AE4838-BB1A-3867-8175-2FFE5381FBCF
 +  Functions: 1987
 +  Symbols:   5061
-+  CStrings:  2497
++  CStrings:  2753
  
 Symbols:
 + +[TPAudioRouting deviceSupportsContinuityCamera]

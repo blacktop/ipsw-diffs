@@ -19,4 +19,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/WebContentAnalysis.framework/WebContentAnalysis
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 36E72647-9C3A-3207-B226-1286AFF24592
++  UUID: 477D361A-763D-3F8A-9584-F5204B7D553F
+   Functions: 39
+   Symbols:   53
+   CStrings:  114
+
 ```

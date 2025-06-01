@@ -43,12 +43,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0E3B51B2-BC62-3639-B4A0-887211C2AAE0
 -  Functions: 568
 -  Symbols:   2056
--  CStrings:  1268
+-  CStrings:  1589
++  UUID: 9FD4F940-00E0-395A-85CA-FD032D18EA66
 +  Functions: 573
 +  Symbols:   2068
-+  CStrings:  1274
++  CStrings:  1595
  
 Symbols:
 + -[ACXDeviceConnection applicationRemovabilityForPairedDevice:error:]

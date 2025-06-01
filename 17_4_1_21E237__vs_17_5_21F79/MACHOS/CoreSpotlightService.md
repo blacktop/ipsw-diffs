@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x50
    __DATA_CONST.__const: 0xc8
 
+   - /System/Library/PrivateFrameworks/SpotlightDaemon.framework/SpotlightDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FEDD3A27-0780-34C1-A8FC-83B81CB4F265
++  UUID: 64FBF55F-6AB3-3CAF-A60B-86745C4494ED
+   Functions: 62
+   Symbols:   108
+   CStrings:  207
+
 ```

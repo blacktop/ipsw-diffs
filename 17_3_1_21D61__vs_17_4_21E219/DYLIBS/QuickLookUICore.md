@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FFB24C9F-F310-3BE8-854B-B831908845C4
 -  Functions: 1001
 -  Symbols:   3914
--  CStrings:  2045
+-  CStrings:  2293
++  UUID: B2E2E2A7-F492-394B-903D-86B2D67EE5D7
 +  Functions: 1003
 +  Symbols:   3919
-+  CStrings:  2048
++  CStrings:  2296
  
 Symbols:
 + -[QLItemFetcher urlForThumbnail]

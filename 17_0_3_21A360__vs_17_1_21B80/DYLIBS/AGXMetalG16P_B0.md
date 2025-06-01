@@ -50,12 +50,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EEE40FCA-CE97-34D2-B311-4F54E3E8785C
 -  Functions: 6298
 -  Symbols:   14456
--  CStrings:  3908
+-  CStrings:  4289
++  UUID: 88396ACD-1452-34F3-82AA-1873AC40CA26
 +  Functions: 6299
 +  Symbols:   14457
-+  CStrings:  3909
++  CStrings:  4290
  
 Symbols:
 + -[AGXG16PFamilyDevice supportsPartialRenderMemoryBarrier]

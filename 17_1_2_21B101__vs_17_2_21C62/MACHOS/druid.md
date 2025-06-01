@@ -41,11 +41,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 86680C8C-26E4-3AB0-9A95-99AA55777684
 -  Functions: 1194
++  UUID: 854BE9DF-341F-33B2-B745-A9CC001D3359
 +  Functions: 1196
    Symbols:   382
--  CStrings:  2553
-+  CStrings:  2557
+-  CStrings:  2671
++  CStrings:  2675
  
 CStrings:
 + "TB,N,V_animatesFlockItemSizeAlongsidePreviewTransition"

@@ -55,12 +55,14 @@
    - /usr/lib/libobjc.A.dylib
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
+-  UUID: 3613C1A6-2BA1-3E66-817B-8099E4B1BE8A
 -  Functions: 2314
 -  Symbols:   506
--  CStrings:  4246
+-  CStrings:  4908
++  UUID: 632E072B-5518-34E0-9567-4A0191D4EDDA
 +  Functions: 2315
 +  Symbols:   507
-+  CStrings:  4255
++  CStrings:  4917
  
 Symbols:
 + _BUStoreIdStringFromObject

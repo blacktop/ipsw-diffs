@@ -26,4 +26,13 @@
    __DATA_DIRTY.__data: 0x120
    __DATA_DIRTY.__bss: 0x250
 
+   - /usr/lib/liblangid.dylib
+   - /usr/lib/libmecab.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 10E3B96F-2BDE-310D-B360-3177409E52C6
++  UUID: 56CA6356-C4EA-37B0-BC42-1C4B3BC2635A
+   Functions: 4426
+   Symbols:   11972
+   CStrings:  1939
+
 ```

@@ -21,12 +21,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FBB098D7-C3C2-372F-B30D-BB76389E754D
 -  Functions: 950
 -  Symbols:   3277
--  CStrings:  1513
+-  CStrings:  1666
++  UUID: 604BDDF3-3166-3534-8E52-67F037880159
 +  Functions: 951
 +  Symbols:   3279
-+  CStrings:  1514
++  CStrings:  1667
  
 Symbols:
 + -[AXSDListenEngine _startListeningWithError:].cold.7

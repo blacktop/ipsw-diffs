@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x600
 
+   - /System/Library/PrivateFrameworks/AppSSO.framework/AppSSO
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7303359C-4248-3ADC-A473-F93197616670
++  UUID: 4BDA1597-4E84-38E8-9A08-06058D1F5A44
    Functions: 86
    Symbols:   96
--  CStrings:  336
-+  CStrings:  337
+-  CStrings:  348
++  CStrings:  349
  
 CStrings:
 + "T@\"NSString\",?,R,C"

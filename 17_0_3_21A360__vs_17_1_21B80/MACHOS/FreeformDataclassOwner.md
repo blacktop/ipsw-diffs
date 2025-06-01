@@ -36,13 +36,16 @@
    __DATA_CONST.__objc_catlist: 0x18
    __DATA_CONST.__objc_protolist: 0x28
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BDE55220-1A2A-3711-9115-D37A2AB02CC7
++  UUID: 930E9421-FF76-3D66-9C64-F65FF77D5F39
    Functions: 738
 -  Symbols:   5764
--  CStrings:  830
+-  CStrings:  1027
 +  Symbols:   5766
-+  CStrings:  831
++  CStrings:  1029
  
 Symbols:
 + _$s22FreeformDataclassOwner14SQLTransactionC5beginyyKF

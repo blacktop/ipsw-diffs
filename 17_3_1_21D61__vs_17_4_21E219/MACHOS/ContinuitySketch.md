@@ -31,7 +31,11 @@
    __DATA.__data: 0x208
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7F9E0280-75CF-3E40-84EE-07963CE06B9B
++  UUID: 7A4435EB-2CDA-3887-A6C9-EEE19BA6F627
    Functions: 76
    Symbols:   96
 -  CStrings:  152

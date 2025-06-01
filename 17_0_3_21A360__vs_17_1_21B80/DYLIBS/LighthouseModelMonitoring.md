@@ -36,12 +36,14 @@
    - /System/Library/PrivateFrameworks/LighthouseCoreMLModelStore.framework/LighthouseCoreMLModelStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1CCF4E72-23AC-3FE9-A364-0E1E36ECBCB6
 -  Functions: 39
 -  Symbols:   282
--  CStrings:  162
+-  CStrings:  166
++  UUID: 621F290B-9FE8-3288-B473-FAE27ACD7057
 +  Functions: 40
 +  Symbols:   286
-+  CStrings:  165
++  CStrings:  169
  
 Symbols:
 + -[LCFShadowEvaluation evaluateModels:].cold.2

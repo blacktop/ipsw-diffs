@@ -76,11 +76,9 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_dictobj: 0x488
--  __AUTH_CONST.__auth_ptr: 0x200
 -  __AUTH_CONST.__auth_got: 0x1d20
 -  __AUTH.__objc_data: 0x41b0
 -  __AUTH.__data: 0x2538
-+  __AUTH_CONST.__auth_ptr: 0x210
 +  __AUTH_CONST.__auth_got: 0x1d48
 +  __AUTH.__objc_data: 0x42c8
 +  __AUTH.__data: 0x2808
@@ -103,12 +101,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D951662-E05C-3ED4-B737-DEECD4D95E41
 -  Functions: 9626
 -  Symbols:   15034
--  CStrings:  7647
+-  CStrings:  8584
++  UUID: BBF4C01D-4190-389D-98FE-C5D361DAB94B
 +  Functions: 9924
 +  Symbols:   15202
-+  CStrings:  7725
++  CStrings:  8641
  
 Symbols:
 + +[ICQLocalBackupController currentDeviceBackupWithMBManager:filtering:error:].cold.1

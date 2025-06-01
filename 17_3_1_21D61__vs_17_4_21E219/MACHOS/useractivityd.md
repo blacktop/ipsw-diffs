@@ -58,11 +58,13 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05084DCC-7061-3A07-8C7B-AFB57394146E
 -  Functions: 2319
++  UUID: AB1A0089-2407-3814-AF49-5D32FDCBE56D
 +  Functions: 2321
    Symbols:   413
--  CStrings:  4860
-+  CStrings:  4866
+-  CStrings:  5564
++  CStrings:  5570
  
 CStrings:
 + "\x17\x11\"O\x03\x15"

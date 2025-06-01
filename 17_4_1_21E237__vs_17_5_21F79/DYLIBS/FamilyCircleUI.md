@@ -76,11 +76,9 @@
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x3d8
 -  __AUTH_CONST.__auth_got: 0x1d30
 -  __AUTH.__objc_data: 0x44f8
 -  __AUTH.__data: 0x4c60
-+  __AUTH_CONST.__auth_ptr: 0x3e0
 +  __AUTH_CONST.__auth_got: 0x1d78
 +  __AUTH.__objc_data: 0x4530
 +  __AUTH.__data: 0x4850
@@ -116,12 +114,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 004AEBE6-0D91-3246-920C-F0D406F3E552
 -  Functions: 10944
 -  Symbols:   10517
--  CStrings:  4775
+-  CStrings:  5144
++  UUID: 5BDA5CE7-421D-394D-A5FF-54FDD1E78BCF
 +  Functions: 11161
 +  Symbols:   10619
-+  CStrings:  4824
++  CStrings:  5195
  
 Symbols:
 + _FACircleEventTypeFamilyPrivacyDisclosureUI

@@ -48,7 +48,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xf10
 +  __AUTH_CONST.__const: 0x11ff8
    __AUTH_CONST.__objc_const: 0x5560
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__cfstring: 0x23b40
 -  __AUTH_CONST.__objc_arrayobj: 0x1f68
 -  __AUTH_CONST.__objc_intobj: 0x1ae8
@@ -71,12 +70,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5F2DE2B3-4499-3468-A60A-0F8B69B719EE
 -  Functions: 7883
 -  Symbols:   24342
--  CStrings:  12066
+-  CStrings:  16636
++  UUID: D85793CD-923C-3C0A-9D9E-262A01265DAC
 +  Functions: 7990
 +  Symbols:   24555
-+  CStrings:  12125
++  CStrings:  16746
  
 Symbols:
 + -[MIPTVShow genre]

@@ -49,11 +49,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x1
 
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47C8BC75-1BAC-395A-B609-AE74BC871981
++  UUID: 32A99D06-6D1C-32B0-8785-86C103610C4A
    Functions: 25
    Symbols:   72
--  CStrings:  153
-+  CStrings:  158
+-  CStrings:  167
++  CStrings:  174
  
 CStrings:
 + "AdEmptyDomainErrors"

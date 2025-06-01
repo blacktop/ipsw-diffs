@@ -39,7 +39,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x218
 +  __DATA_CONST.__objc_superrefs: 0xd8
    __DATA_CONST.__objc_arraydata: 0x30
-   __AUTH_CONST.__auth_ptr: 0x110
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x2780
 +  __AUTH_CONST.__cfstring: 0x2760
@@ -72,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE9099C1-B594-384C-AEFF-3E3576004948
 -  Functions: 5647
 -  Symbols:   13792
--  CStrings:  2592
+-  CStrings:  2908
++  UUID: D285A691-F042-36EC-8DA2-7F4653740344
 +  Functions: 5661
 +  Symbols:   13823
-+  CStrings:  2603
++  CStrings:  2918
  
 Symbols:
 + -[RBImageQueueLayer renderInContext:]

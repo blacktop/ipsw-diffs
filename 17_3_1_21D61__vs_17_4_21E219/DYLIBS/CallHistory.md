@@ -36,8 +36,7 @@
    __AUTH_CONST.__objc_const: 0x1348
    __AUTH_CONST.__const: 0x2e0
    __AUTH_CONST.__cfstring: 0x2520
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x3f0
    __AUTH.__objc_data: 0x280
 -  __DATA.__objc_protorefs: 0x18
@@ -50,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BB3DD3D-B4D4-3AA1-BFA6-A13BAF751A79
 -  Functions: 1203
 -  Symbols:   4426
--  CStrings:  2156
+-  CStrings:  2453
++  UUID: 2D78EBCE-94B4-34A8-BAB8-479DE3355895
 +  Functions: 1204
 +  Symbols:   4428
-+  CStrings:  2158
++  CStrings:  2455
  
 Symbols:
 + -[CHManager latestCallMatchingPredicate:]

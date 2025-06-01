@@ -24,11 +24,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: AC7D03E3-706E-3FE6-AFB1-C5FBE903C0A9
 -  Functions: 815
++  UUID: C5ACF350-265E-3824-B69F-01DB62893A75
 +  Functions: 818
    Symbols:   244
--  CStrings:  1224
-+  CStrings:  1226
+-  CStrings:  1283
++  CStrings:  1285
  
 CStrings:
 + "*** Unable to get LIGetRootFileHandle, server returned no error and no filehandle"

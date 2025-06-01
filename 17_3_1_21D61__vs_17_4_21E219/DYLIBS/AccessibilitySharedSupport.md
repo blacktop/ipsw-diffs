@@ -38,7 +38,7 @@
    __AUTH_CONST.__const: 0x580
    __AUTH_CONST.__objc_arrayobj: 0x150
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_floatobj: 0xe0
    __AUTH_CONST.__auth_got: 0x518
    __AUTH.__objc_data: 0x10e0
 -  __DATA.__objc_protorefs: 0x10
@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38388567-288A-3234-86EE-961CAB71BEA9
 -  Functions: 1803
 -  Symbols:   6073
--  CStrings:  3155
+-  CStrings:  3730
++  UUID: EB613981-B73F-3E88-94A9-ADF211E9D5A4
 +  Functions: 1804
 +  Symbols:   6074
-+  CStrings:  3157
++  CStrings:  3733
  
 Symbols:
 + _AXSSDeviceFrontCameraPhysicallyMountedUpsideDown

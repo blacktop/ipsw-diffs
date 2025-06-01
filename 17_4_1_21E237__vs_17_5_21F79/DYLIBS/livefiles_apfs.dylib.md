@@ -22,12 +22,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 9770F2A9-F71F-3E93-A3F7-EA491001906D
 -  Functions: 2579
 -  Symbols:   5280
--  CStrings:  1989
+-  CStrings:  1998
++  UUID: 75B9900C-A18E-3EAD-828A-C766362456F6
 +  Functions: 2578
 +  Symbols:   5278
-+  CStrings:  1991
++  CStrings:  2000
  
 Symbols:
 + _OUTLINED_FUNCTION_52

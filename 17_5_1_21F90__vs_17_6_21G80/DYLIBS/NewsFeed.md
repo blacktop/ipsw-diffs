@@ -59,10 +59,9 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x1910
 -  __AUTH_CONST.__const: 0xdab28
-+  __AUTH_CONST.__const: 0xdabb0
-   __AUTH_CONST.__auth_ptr: 0x25a0
 -  __AUTH_CONST.__auth_got: 0x63c0
 -  __AUTH.__objc_data: 0x9a70
++  __AUTH_CONST.__const: 0xdabb0
 +  __AUTH_CONST.__auth_got: 0x63c8
 +  __AUTH.__objc_data: 0x9a78
    __AUTH.__data: 0xe3e0
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BE92A9D5-4FCA-386C-8FF6-BC7F2309E9F4
 -  Functions: 131865
 -  Symbols:   19178
--  CStrings:  11769
+-  CStrings:  11773
++  UUID: FA9C1BE6-CDAA-31EB-B59A-C51293F21751
 +  Functions: 131885
 +  Symbols:   19179
-+  CStrings:  11784
++  CStrings:  11788
  
 Symbols:
 + __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed23PuzzleGameCenterService(NewsFeed|NewsFeed1)

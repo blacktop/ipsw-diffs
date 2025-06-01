@@ -47,8 +47,8 @@
    __AUTH_CONST.__const: 0xdb0
    __AUTH_CONST.__objc_intobj: 0x3f0
 
+   __AUTH_CONST.__objc_arrayobj: 0xd8
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa68
 -  __AUTH.__objc_data: 0x20d0
 +  __AUTH.__objc_data: 0x1f90
@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 203789C7-C04C-3717-A8A5-8A00DB709358
 -  Functions: 5900
 -  Symbols:   19539
--  CStrings:  8486
+-  CStrings:  9285
++  UUID: 01BBE6B7-CDD8-3685-BDF2-7F72D9A2B129
 +  Functions: 5903
 +  Symbols:   19548
-+  CStrings:  8492
++  CStrings:  9294
  
 Symbols:
 + -[VKAnalyticsEvent bundleIdentifierCleansingIfNecessaryWithCustomIdentifier:]

@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3DF5577-140F-3D6F-A326-291D3C5A6B24
 -  Functions: 13202
 -  Symbols:   40325
--  CStrings:  9198
+-  CStrings:  10469
++  UUID: 0E16EC36-0569-35DA-8332-F2AA89A7DFCB
 +  Functions: 14179
 +  Symbols:   43265
-+  CStrings:  9681
++  CStrings:  11005
  
 Symbols:
 + +[RFFactItemDetailedNumberCardSection supportsSecureCoding]

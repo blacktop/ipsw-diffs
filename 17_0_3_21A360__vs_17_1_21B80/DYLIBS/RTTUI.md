@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x1afe
    __TEXT.__objc_stubs: 0x49c0
    __DATA_CONST.__got: 0x158
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D9A4EBA7-5DFB-3B02-A97B-1F26B4EFFE6E
++  UUID: 531C0035-291D-3E08-A4CE-2E594E7A0EDA
+   Functions: 437
+   Symbols:   2113
+   CStrings:  1518
 Symbols:
 + ___39-[RTTUIConversationViewController init]_block_invoke.249
 + ___46-[RTTUIConversationViewController toggleMute:]_block_invoke.350

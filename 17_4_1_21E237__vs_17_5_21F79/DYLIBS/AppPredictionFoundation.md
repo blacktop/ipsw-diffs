@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 489E1D4C-8BC3-3B1F-A06D-A32BA4891E7F
++  UUID: 80D089CA-5200-39CC-8FCF-550DF7C4A6D7
+   Functions: 389
+   Symbols:   1471
+   CStrings:  946
+
 ```

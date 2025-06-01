@@ -21,7 +21,9 @@
    - /System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: E452493B-90B1-3597-B21C-9A04EB1B13B8
 -  Functions: 815
++  UUID: 8D3F0F4F-6947-3689-98C1-093AD6FC9688
 +  Functions: 811
    Symbols:   65
    CStrings:  397

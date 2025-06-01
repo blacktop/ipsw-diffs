@@ -24,4 +24,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1128D1A4-78F5-39E9-B5A7-C14B437605ED
++  UUID: CB0633D4-684A-35BD-A5DC-2A9704A5346D
+   Functions: 12
+   Symbols:   89
+   CStrings:  32
+
 ```

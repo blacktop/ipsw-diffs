@@ -53,12 +53,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26E5E082-F510-38F0-BDD2-24ACB735D93F
 -  Functions: 3436
 -  Symbols:   12255
--  CStrings:  5454
+-  CStrings:  5904
++  UUID: 6EF0472E-A4E1-3D3E-8333-4CBAB094797D
 +  Functions: 3438
 +  Symbols:   12259
-+  CStrings:  5458
++  CStrings:  5911
  
 Symbols:
 + -[VNDocumentCameraViewController_InProcess preferredContainerBackgroundStyle]

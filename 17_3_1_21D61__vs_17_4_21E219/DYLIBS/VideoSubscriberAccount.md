@@ -72,11 +72,10 @@
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x4bd0
 -  __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x7b8
 +  __AUTH_CONST.__objc_const: 0x240
 +  __AUTH_CONST.__const: 0x5618
 +  __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x18
--  __AUTH_CONST.__auth_got: 0x7b8
 +  __AUTH_CONST.__auth_got: 0x788
 +  __AUTH.__objc_data: 0x140
    __AUTH.__data: 0x98
@@ -105,12 +104,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 7A23D748-BD88-3769-AF15-9B7B5F69BA43
 -  Functions: 3704
 -  Symbols:   11818
--  CStrings:  5265
+-  CStrings:  6296
++  UUID: 55868778-0FA2-3AEF-9DCE-2226B6E35448
 +  Functions: 3823
 +  Symbols:   11957
-+  CStrings:  5325
++  CStrings:  6372
  
 Symbols:
 + +[VSAppleSubscription new]

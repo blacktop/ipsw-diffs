@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBA42475-A38C-36D4-A69D-8B48A4147143
 -  Functions: 7213
 -  Symbols:   25183
--  CStrings:  11172
+-  CStrings:  11992
++  UUID: 0E7C30BF-EE37-34FC-8750-F340DF15B666
 +  Functions: 7215
 +  Symbols:   25188
-+  CStrings:  11173
++  CStrings:  11993
  
 Symbols:
 + -[CFXCaptureViewController(EffectEditingAdditions) removeButtonRelativeBoundsIsViewSpace]

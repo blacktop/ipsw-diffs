@@ -18,6 +18,15 @@
    __TEXT.__unwind_info: 0x6c
    __DATA_CONST.__auth_got: 0xb8
    __DATA_CONST.__got: 0x30
+
+   - /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 322C936C-3A0E-35CF-9CE5-09BF3BF11B5E
++  UUID: 55ED51B4-717A-3073-BCF1-69045012BCAD
+   Functions: 12
+   Symbols:   44
+   CStrings:  192
 CStrings:
 + "prefs:root=General&path=COVERAGE/"
 - "prefs:root=General&path=About/WARRANTY_COVERAGE/"

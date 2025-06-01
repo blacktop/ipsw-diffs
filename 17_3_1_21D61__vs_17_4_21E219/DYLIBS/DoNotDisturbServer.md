@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8220C924-D245-354E-8345-DB9D40C54EB5
++  UUID: 9A604F05-52CE-337A-B8E7-556EE8D267E3
    Functions: 3675
    Symbols:   13936
--  CStrings:  6458
-+  CStrings:  6459
+-  CStrings:  7387
++  CStrings:  7388
  
 Symbols:
 + ___18-[DNDSServer init]_block_invoke.123

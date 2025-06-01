@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACFA39BA-75B1-3EDC-BDA8-E726757C7BFD
 -  Functions: 720
 -  Symbols:   172
--  CStrings:  1156
+-  CStrings:  1386
++  UUID: 363D3F46-2A26-3DF2-B096-6FE37D120C2D
 +  Functions: 762
 +  Symbols:   176
-+  CStrings:  1223
++  CStrings:  1469
  
 Symbols:
 + _OBJC_CLASS_$_MAAutoAssetNotifications

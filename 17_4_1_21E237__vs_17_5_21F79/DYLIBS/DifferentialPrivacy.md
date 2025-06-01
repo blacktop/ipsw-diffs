@@ -25,6 +25,15 @@
    __TEXT.__eh_frame: 0x2f8
    __TEXT.__objc_classname: 0xc50
    __TEXT.__objc_methname: 0x9559
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1F4E2C18-6771-3F11-B1DA-3B83AD7A291E
++  UUID: A275E77F-0C60-3EF0-BD6D-8A92A95C22C9
+   Functions: 2352
+   Symbols:   7485
+   CStrings:  42775
 CStrings:
 + "Skipping donation to Bitacora; malformed Trial deployment ID %@ for collection ID %@. Deployment ID must be an integer"
 - "Skipping donation to Bitacora; malformed Trial deployment ID %@ for colletion ID %@. Deployment ID must be an integer"

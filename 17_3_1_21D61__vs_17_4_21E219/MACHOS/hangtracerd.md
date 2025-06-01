@@ -67,12 +67,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 4E21471F-2030-386D-9029-AC48DF68A752
 -  Functions: 618
 -  Symbols:   342
--  CStrings:  2033
+-  CStrings:  2532
++  UUID: 0B2AE5A8-948A-3050-BC41-2DB5108598F7
 +  Functions: 681
 +  Symbols:   350
-+  CStrings:  2133
++  CStrings:  2632
  
 Symbols:
 + _CACurrentMediaTime

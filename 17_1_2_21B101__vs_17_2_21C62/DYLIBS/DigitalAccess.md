@@ -54,11 +54,15 @@
    __DATA.__bss: 0x62
    __DATA_DIRTY.__const: 0x280
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C993181-E124-3525-925C-3D814AB75A00
++  UUID: 6A27C07C-5FB6-3D36-A143-9734E51DD79A
    Functions: 491
    Symbols:   1824
--  CStrings:  1171
-+  CStrings:  1173
+-  CStrings:  1385
++  CStrings:  1383
  
 Symbols:
 + +[DAUtils decryptVehicleMobilizationData:forKeyWithIdentifier:]

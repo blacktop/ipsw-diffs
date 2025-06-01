@@ -45,7 +45,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x50
 +  __AUTH_CONST.__objc_const: 0x668
 +  __AUTH_CONST.__cfstring: 0x1120
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__auth_got: 0x188
 -  __AUTH.__objc_data: 0x410
@@ -64,12 +63,14 @@
    - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DF3BDC5-D404-3B9D-8BE6-5BF44078B606
 -  Functions: 211
 -  Symbols:   1343
--  CStrings:  543
+-  CStrings:  669
++  UUID: 91A00BEC-3BB4-3929-86C4-DA05FC78D75B
 +  Functions: 213
 +  Symbols:   1691
-+  CStrings:  563
++  CStrings:  700
  
 Symbols:
 + -[SUSUICommandLineToolClient getAlertStatus:]

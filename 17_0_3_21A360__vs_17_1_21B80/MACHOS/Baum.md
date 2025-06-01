@@ -17,4 +17,13 @@
    __TEXT.__cstring: 0x747
    __TEXT.__oslogstring: 0xc0
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C60772A-9333-3CBE-A25C-2AC2B8223846
++  UUID: B3F64CE7-3BA3-31C4-8507-DF92C2F0A649
+   Functions: 25
+   Symbols:   149
+   CStrings:  234
+
 ```

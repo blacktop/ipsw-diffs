@@ -61,7 +61,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x48
 +  __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xa9a8
 -  __AUTH.__objc_data: 0x3ca0
 -  __AUTH.__data: 0x190
@@ -109,12 +108,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E8F662D3-C8F5-31FA-9406-D24AA8EA6243
 -  Functions: 55701
 -  Symbols:   139932
--  CStrings:  21131
+-  CStrings:  22462
++  UUID: 83B99481-3EA7-3037-A07F-03D9DCF3A12A
 +  Functions: 57465
 +  Symbols:   144121
-+  CStrings:  21746
++  CStrings:  23235
  
 Symbols:
 + +[WKTouchEventsGestureRecognizer initialize]

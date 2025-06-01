@@ -37,11 +37,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3ED0A08-EFEA-3BE9-B93C-61ACCF84B502
++  UUID: D724F01F-D2F4-3C23-AA78-381F33E51FD0
    Functions: 107
    Symbols:   593
--  CStrings:  396
-+  CStrings:  397
+-  CStrings:  470
++  CStrings:  471
  
 CStrings:
 + "T@\"NSString\",?,R,C"

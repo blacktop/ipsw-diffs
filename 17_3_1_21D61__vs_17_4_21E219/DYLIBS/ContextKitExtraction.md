@@ -31,11 +31,15 @@
    __DATA.__data: 0x278
    __DATA.__bss: 0x28
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 504ABEA7-C917-3D9B-9428-7C5B346100DE
++  UUID: 153A8504-E2C5-3C8D-A6C9-E2891CA50E6D
    Functions: 277
    Symbols:   1309
--  CStrings:  724
-+  CStrings:  725
+-  CStrings:  839
++  CStrings:  840
  
 Symbols:
 + __unnamed_array_storage.259

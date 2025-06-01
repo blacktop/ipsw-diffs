@@ -40,11 +40,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
 
+   - /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2E79733-8513-3699-92F2-D69E04F4925B
++  UUID: 4134D5CC-63F6-3E21-ABF2-774FC18CBEA7
    Functions: 44
    Symbols:   63
--  CStrings:  184
-+  CStrings:  185
+-  CStrings:  190
++  CStrings:  191
  
 CStrings:
 + "T@\"NSString\",?,R,C"

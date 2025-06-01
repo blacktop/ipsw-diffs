@@ -28,7 +28,6 @@
 -  __AUTH_CONST.__const: 0x678
 +  __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x39e0
-   __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__const: 0x220
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_dictobj: 0xf0
@@ -55,11 +54,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E2D9B8D6-E2A1-3B71-B636-F96F51FCE09C
 -  Functions: 929
 -  Symbols:   2462
++  UUID: 46B7FE2A-31FC-38E3-9A16-4DBDF033C535
 +  Functions: 930
 +  Symbols:   2465
-   CStrings:  1163
+   CStrings:  1626
  
 Symbols:
 + ____MDPlistBytesCopyDispatchData_block_invoke

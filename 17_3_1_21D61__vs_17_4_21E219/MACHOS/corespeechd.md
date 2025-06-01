@@ -111,12 +111,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E03EB7C-03B5-31E7-A303-784D77A5E569
 -  Functions: 11292
 -  Symbols:   960
--  CStrings:  17977
+-  CStrings:  19352
++  UUID: 5468FA06-9D23-3D15-ADE4-2B8C9FF8CBD7
 +  Functions: 10252
 +  Symbols:   886
-+  CStrings:  16451
++  CStrings:  17736
  
 Symbols:
 + _AVAudioSessionCategoryPlayAndRecord

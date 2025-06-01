@@ -51,12 +51,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 4756F4C4-6C14-3E15-9055-5DE8289F424A
 -  Functions: 5240
 -  Symbols:   1278
--  CStrings:  14779
+-  CStrings:  18318
++  UUID: 7A9763FB-A954-332C-AB04-F40DD6557E56
 +  Functions: 5253
 +  Symbols:   1279
-+  CStrings:  14841
++  CStrings:  18383
  
 Symbols:
 + _getprogname

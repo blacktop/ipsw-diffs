@@ -91,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1F9F915E-B306-339D-A675-51EAC363D095
 -  Functions: 84777
 -  Symbols:   30304
--  CStrings:  16848
+-  CStrings:  17143
++  UUID: 0642F66D-7C41-310F-A0EC-656123956302
 +  Functions: 85057
 +  Symbols:   30356
-+  CStrings:  16882
++  CStrings:  17177
  
 Symbols:
 + _MPModelPropertySocialPersonHasLightweightProfile

@@ -73,11 +73,9 @@
 -  __AUTH_CONST.__const: 0x1e0b0
 +  __AUTH_CONST.__const: 0x21c98
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x878
 -  __AUTH_CONST.__auth_got: 0x3df0
 -  __AUTH.__objc_data: 0x7e0
 -  __AUTH.__data: 0x6258
-+  __AUTH_CONST.__auth_ptr: 0x948
 +  __AUTH_CONST.__auth_got: 0x40f8
 +  __AUTH.__objc_data: 0xa60
 +  __AUTH.__data: 0x71d0
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E2831C5-D273-3A82-8985-342182FB1975
 -  Functions: 35482
 -  Symbols:   24287
--  CStrings:  2207
+-  CStrings:  2220
++  UUID: F2C3EC95-A675-349C-A777-A21EB919EBB4
 +  Functions: 39868
 +  Symbols:   26796
-+  CStrings:  2375
++  CStrings:  2388
  
 Symbols:
 + +[MusicKit_SoftLinking_MPModelPlaylistAuthor authorRoleForRawValue:]

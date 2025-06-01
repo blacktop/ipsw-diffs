@@ -18,11 +18,15 @@
    __TEXT.__objc_methname: 0xeb02
    __TEXT.__objc_classname: 0x911
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A73C11A6-90E9-345B-9429-6FF6B793A235
++  UUID: 76715F01-66D9-3849-92D3-E7AE72C74D37
    Functions: 1386
    Symbols:   599
--  CStrings:  3088
-+  CStrings:  3089
+-  CStrings:  3278
++  CStrings:  3279
  
 CStrings:
 + "02:27:15"

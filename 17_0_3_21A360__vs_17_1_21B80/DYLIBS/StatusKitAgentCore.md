@@ -40,9 +40,9 @@
    __DATA_CONST.__objc_catlist: 0x28
    __DATA_CONST.__objc_protolist: 0x158
 
+   __AUTH_CONST.__objc_const: 0x1f58
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xaa0
 +  __AUTH_CONST.__auth_got: 0xab0
    __AUTH.__objc_data: 0xae8
@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DE3B81C-A321-31C9-9E98-A1BC308C52D8
 -  Functions: 3303
 -  Symbols:   8726
--  CStrings:  3733
+-  CStrings:  3991
++  UUID: 3D70533D-4FDD-3D7F-B2C7-8131AF96ABB8
 +  Functions: 3304
 +  Symbols:   8730
-+  CStrings:  3739
++  CStrings:  3997
  
 Symbols:
 + -[SKAChannelManager pushManager:didReceiveData:onChannel:identifier:dateReceived:dateExpired:]

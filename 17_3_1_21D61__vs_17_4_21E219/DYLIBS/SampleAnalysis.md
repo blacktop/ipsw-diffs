@@ -88,12 +88,14 @@
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EDD82772-4B57-316E-90A5-693159537065
 -  Functions: 2381
 -  Symbols:   8056
--  CStrings:  5584
+-  CStrings:  6812
++  UUID: E1B312DE-A63D-360A-8CEA-00842FE09EC2
 +  Functions: 2468
 +  Symbols:   8335
-+  CStrings:  5794
++  CStrings:  7103
  
 Symbols:
 + +[SACallTreeState treeCountedStateWithWaitInfo:turnstileInfo:state:microstackshotState:pid:threadId:threadPriority:timeRange:originPid:proximatePid:startSampleIndex:sampleCount:]

@@ -74,9 +74,10 @@
    - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60D6189D-3DE1-3958-80CB-AD0F4E53219C
 -  Functions: 26
 -  Symbols:   73
--  CStrings:  168
+-  CStrings:  182
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -90,9 +91,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: E2B661ED-80AD-3F33-8FF2-5C3C6DBB9EF4
 +  Functions: 438
 +  Symbols:   145
-+  CStrings:  244
++  CStrings:  258
  
 Symbols:
 + _AMSSetLogKeyIfNeeded

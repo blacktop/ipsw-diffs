@@ -54,12 +54,10 @@
 +  __DATA_CONST.__objc_superrefs: 0x168
 +  __DATA_CONST.__objc_arraydata: 0x898
 +  __AUTH_CONST.__const: 0x4df98
-+  __AUTH_CONST.__auth_ptr: 0x58
 +  __AUTH_CONST.__cfstring: 0xa8c0
 +  __AUTH_CONST.__objc_const: 0x42a8
    __AUTH_CONST.__objc_intobj: 0x4c8
 -  __AUTH_CONST.__objc_arrayobj: 0xe40
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__objc_dictobj: 0xa0
 -  __AUTH_CONST.__auth_got: 0x1220
 -  __AUTH.__objc_data: 0x4060
@@ -96,12 +94,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ECEB8E93-1710-35FF-AB8F-49D2E0C479E3
 -  Functions: 57166
 -  Symbols:   843
--  CStrings:  29754
+-  CStrings:  31025
++  UUID: 66A7D32D-C1D4-3FB9-A4DC-764C4417AAD0
 +  Functions: 58087
 +  Symbols:   871
-+  CStrings:  32258
++  CStrings:  33608
  
 Symbols:
 + OBJC_IVAR_$_MPSNDArrayDescriptor._preferPackedRows

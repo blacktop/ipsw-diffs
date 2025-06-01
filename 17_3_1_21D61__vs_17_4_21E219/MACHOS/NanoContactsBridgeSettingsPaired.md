@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A032ABD6-04B3-338F-8DCE-7A7327778717
++  UUID: BA226687-2562-30A0-9860-403E01E2E76E
+   Functions: 39
+   Symbols:   91
+   CStrings:  166
+
 ```

@@ -70,12 +70,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F6B13FA-BE10-3FDB-90E3-E2008FA4B1F7
 -  Functions: 1519
 -  Symbols:   5068
--  CStrings:  4852
+-  CStrings:  7646
++  UUID: C7296AB9-E7A9-3155-8E8A-6067EFA0867B
 +  Functions: 1571
 +  Symbols:   5265
-+  CStrings:  4923
++  CStrings:  7753
  
 Symbols:
 + +[SignpostAggregation sumOfAggregation0:aggregation1:errorOut:]

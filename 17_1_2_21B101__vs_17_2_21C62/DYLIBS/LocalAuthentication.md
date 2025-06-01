@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92AC2AB7-0659-399D-9F34-CC6BD6C9173B
 -  Functions: 1167
 -  Symbols:   4151
--  CStrings:  1717
+-  CStrings:  1890
++  UUID: ABA0699B-1A59-3D63-8A25-540363AC099C
 +  Functions: 1170
 +  Symbols:   4156
-+  CStrings:  1730
++  CStrings:  1904
  
 Symbols:
 + +[LAStorage checkKey:supportsOperation:]

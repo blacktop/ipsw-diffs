@@ -116,12 +116,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 453A53B7-2068-3D7D-89E9-B393A869DE7D
 -  Functions: 2264
 -  Symbols:   568
--  CStrings:  2628
+-  CStrings:  3453
++  UUID: 132691E9-E0BD-3D51-9C38-042DCC4EB520
 +  Functions: 2728
 +  Symbols:   603
-+  CStrings:  2806
++  CStrings:  3675
  
 Symbols:
 + _CGRectGetWidth

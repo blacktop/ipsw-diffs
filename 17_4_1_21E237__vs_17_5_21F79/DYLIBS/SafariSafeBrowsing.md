@@ -26,8 +26,7 @@
 +  __AUTH_CONST.__const: 0xf78
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
-
+   __AUTH_CONST.__auth_got: 0x7a8
    __DATA.__objc_ivar: 0x80
    __DATA.__data: 0x328
    __DATA.__bss: 0x20
@@ -36,6 +35,15 @@
    __DATA_DIRTY.__objc_const: 0x5d0
    __DATA_DIRTY.__objc_data: 0x410
    __DATA_DIRTY.__bss: 0x380
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5BBE8A45-AB80-3848-A229-83C55F9573C0
++  UUID: A988F52D-61E6-32B1-BE80-404A07E25891
+   Functions: 2299
+   Symbols:   6026
+   CStrings:  1054
 CStrings:
 + "/AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/include/c++/v1/__algorithm/sift_down.h"
 + "/AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h"

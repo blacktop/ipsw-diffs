@@ -15,4 +15,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 749CE9A8-25AA-3F2A-BCE8-30B617F2D97C
++  UUID: 48FBC6ED-2F62-353B-843F-6169A273132A
+   Functions: 3
+   Symbols:   36
+   CStrings:  31
+
 ```

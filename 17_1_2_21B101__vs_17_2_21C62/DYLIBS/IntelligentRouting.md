@@ -61,12 +61,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7F309F5-EB70-3DE4-953E-48F7FDEEA474
 -  Functions: 249
 -  Symbols:   897
--  CStrings:  468
+-  CStrings:  551
++  UUID: 127AC880-49EC-32DA-821E-4A63DAC330CF
 +  Functions: 266
 +  Symbols:   948
-+  CStrings:  497
++  CStrings:  588
  
 Symbols:
 + +[IRSessionSpotOnLocationParameters supportsSecureCoding]

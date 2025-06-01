@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x1a90
    __DATA.__data: 0x6c0
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FE81B019-43DE-30FB-B05B-3A49B96373FF
++  UUID: 93746FF6-DC03-3849-BB64-A3EF1F1B744A
    Functions: 2595
    Symbols:   334
--  CStrings:  4320
-+  CStrings:  4321
+-  CStrings:  4810
++  CStrings:  4811
  
 CStrings:
 + "== Started EventKitSync-399.1"

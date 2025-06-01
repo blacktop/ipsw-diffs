@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6FA78688-DD75-34A2-A333-40B38E691C60
 -  Functions: 1096
 -  Symbols:   4564
--  CStrings:  2442
+-  CStrings:  2600
++  UUID: 6699F7E2-A3A5-3675-B732-396E2AF62A5E
 +  Functions: 1100
 +  Symbols:   4581
-+  CStrings:  2453
++  CStrings:  2613
  
 Symbols:
 + +[SPUITextField removeDictationCharacterInString:]
@@ -105,6 +107,7 @@ CStrings:
 + "stringByReplacingOccurrencesOfString:withString:"
 + "updateWithPrimaryColor:secondaryColor:isOnDarkBackground:appearance:"
 + "wantsGo"
++ "\xfc\xff"
 - "isCommandEntitySearch"
 - "updateWithPrimaryColor:secondaryColor:isOnDarkBackground:"
 

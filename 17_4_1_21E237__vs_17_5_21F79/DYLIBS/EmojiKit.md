@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EDE10ADF-10CC-399E-9F18-D93770019F8E
++  UUID: 9CF9C541-3DF8-36C1-819E-F1F24AF4CDAB
+   Functions: 275
+   Symbols:   1291
+   CStrings:  672
+
 ```

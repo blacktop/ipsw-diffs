@@ -47,9 +47,8 @@
 -  __AUTH_CONST.__cfstring: 0x20a60
 +  __AUTH_CONST.__cfstring: 0x20aa0
    __AUTH_CONST.__objc_const: 0x62f0
-   __AUTH_CONST.__auth_ptr: 0x150
    __AUTH_CONST.__objc_intobj: 0x558
-
+   __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0xf0
    __AUTH_CONST.__objc_floatobj: 0x10
@@ -72,12 +71,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6D0212D4-6541-31DC-83AB-204B5C56D0FA
 -  Functions: 22170
 -  Symbols:   55683
--  CStrings:  16029
+-  CStrings:  20208
++  UUID: 275DDA37-6A23-3A35-8862-BADDF68D43C1
 +  Functions: 22169
 +  Symbols:   55679
-+  CStrings:  16024
++  CStrings:  20205
  
 Symbols:
 + -[SCNNode _appendFocusableNodesInRect:ofView:toFocusItems:]

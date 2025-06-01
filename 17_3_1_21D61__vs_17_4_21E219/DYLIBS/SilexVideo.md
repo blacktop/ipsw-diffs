@@ -44,11 +44,15 @@
    __DATA.__data: 0x848
    __DATA_DIRTY.__objc_data: 0x438
 
+   - /System/Library/PrivateFrameworks/NewsFoundation.framework/NewsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A5B48CD-2A4F-3880-8A97-D4CFDB17A7D5
++  UUID: 6D72A85D-75E3-3CB4-9582-4A74FF859C81
    Functions: 509
    Symbols:   2227
--  CStrings:  1225
-+  CStrings:  1230
+-  CStrings:  1259
++  CStrings:  1264
  
 Symbols:
 + __unnamed_array_storage.186

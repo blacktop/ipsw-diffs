@@ -45,9 +45,11 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftVision.dylib
    - /usr/lib/swift/libswiftWebKit.dylib
-
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5C97A591-5336-3B01-AC97-82B582B4033E
++  UUID: EC9E6A74-A7B6-3B7E-B67F-C045485E0252
    Functions: 49
 -  Symbols:   92
 +  Symbols:   96

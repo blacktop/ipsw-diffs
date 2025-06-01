@@ -14,4 +14,13 @@
    __TEXT.__oslogstring: 0x55b
    __TEXT.__unwind_info: 0x1a8
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 702D1274-4759-30A9-9F80-31EE47548A55
++  UUID: 7FCD02C8-CEDB-3B1F-AFEC-6733FCBDB5FA
+   Functions: 100
+   Symbols:   126
+   CStrings:  223
+
 ```

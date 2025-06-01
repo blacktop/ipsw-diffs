@@ -57,11 +57,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BD7BD7A-76DB-30F8-98DB-6DD36037A67C
 -  Functions: 2272
++  UUID: 2D8EC9CD-9CE5-3781-BB2A-EA5A42131F06
 +  Functions: 2270
    Symbols:   464
--  CStrings:  4624
-+  CStrings:  4626
+-  CStrings:  5074
++  CStrings:  5076
  
 CStrings:
 + "(%@ : %s) %@ skipping %@ because hasWalletKeyCompatibleDevice is %{BOOL}d."

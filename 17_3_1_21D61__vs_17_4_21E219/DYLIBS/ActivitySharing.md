@@ -39,11 +39,15 @@
    __DATA.__data: 0x410
    __DATA.__bss: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54E69865-ABBF-321B-95BD-F8DADD30E9C4
++  UUID: 9406E5C0-08C9-3024-BDD2-CBFBE6983934
    Functions: 1707
    Symbols:   5255
--  CStrings:  2268
-+  CStrings:  2269
+-  CStrings:  2599
++  CStrings:  2600
  
 Symbols:
 + ___74-[ASActivityDataNotificationRulesEngine _filterNotificationGroup:ruleset:]_block_invoke.244

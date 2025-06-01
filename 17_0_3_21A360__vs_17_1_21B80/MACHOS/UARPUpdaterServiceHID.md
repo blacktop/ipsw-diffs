@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 62B1A4D5-9CDC-30CE-8D59-F61BFBAB4B75
 -  Functions: 627
 -  Symbols:   442
--  CStrings:  866
+-  CStrings:  898
++  UUID: 51002879-26B2-383D-9ADA-255BAEED99B9
 +  Functions: 639
 +  Symbols:   445
-+  CStrings:  878
++  CStrings:  911
  
 Symbols:
 + _UARPAccessoryTransportToString

@@ -53,11 +53,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 979D0FAA-BF7B-3C5C-B664-B2A82413BE9B
 -  Functions: 62
++  UUID: FE29CF13-6E49-3D0E-9613-2902B631CDF5
 +  Functions: 68
    Symbols:   106
--  CStrings:  264
-+  CStrings:  280
+-  CStrings:  275
++  CStrings:  291
  
 Symbols:
 + _OBJC_CLASS_$_UPQuiltConfigurationPhone

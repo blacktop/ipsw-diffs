@@ -83,9 +83,10 @@
    - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C582479-22FA-3115-9778-715C58A5003C
 -  Functions: 23
 -  Symbols:   74
--  CStrings:  161
+-  CStrings:  168
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreAudio.dylib
@@ -103,9 +104,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 9E6EFC0A-E78A-306A-96A9-176DF99A1008
 +  Functions: 297
 +  Symbols:   325
-+  CStrings:  270
++  CStrings:  271
  
 Symbols:
 + _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc

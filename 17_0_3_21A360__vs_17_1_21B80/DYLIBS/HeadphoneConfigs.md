@@ -71,7 +71,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x528
 -  __AUTH.__objc_data: 0xc50
 -  __AUTH.__data: 0xe8
@@ -80,7 +79,6 @@
 -  __DATA.__objc_ivar: 0x530
 -  __DATA.__data: 0x3d8
 +  __AUTH_CONST.__objc_arrayobj: 0x30
-+  __AUTH_CONST.__auth_ptr: 0x18
 +  __AUTH_CONST.__auth_got: 0x700
 +  __AUTH.__objc_data: 0x12e8
 +  __AUTH.__data: 0x188
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 098826E9-D852-37AB-A50A-BF41F26C4A40
 -  Functions: 1936
 -  Symbols:   4240
--  CStrings:  3302
+-  CStrings:  4232
++  UUID: 59A107F8-4FFA-3974-8A47-E7CEB9FCE7A5
 +  Functions: 2428
 +  Symbols:   5238
-+  CStrings:  3603
++  CStrings:  4586
  
 Symbols:
 + +[HPSProductUtils isAirPods:]

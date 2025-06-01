@@ -65,12 +65,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C77FF0D-C5EB-3BF7-A094-89063B27D0BD
 -  Functions: 471
 -  Symbols:   2029
--  CStrings:  825
+-  CStrings:  1244
++  UUID: 52FD5B2D-01A4-30B5-80A2-0852E8877716
 +  Functions: 570
 +  Symbols:   2388
-+  CStrings:  941
++  CStrings:  1422
  
 Symbols:
 + +[FeaturedLockupCellAccessibility _accessibilityPerformValidations:]

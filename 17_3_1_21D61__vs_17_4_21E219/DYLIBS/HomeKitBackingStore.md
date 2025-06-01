@@ -72,12 +72,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 54A0E1CE-08DD-335F-BA1C-DD72936D2359
 -  Functions: 2071
 -  Symbols:   7658
--  CStrings:  4194
+-  CStrings:  4767
++  UUID: A4A492AB-874C-32BC-9AEA-A314CE006B94
 +  Functions: 2077
 +  Symbols:   7680
-+  CStrings:  4201
++  CStrings:  4779
  
 Symbols:
 + +[HMBLocalSQLContext openWithURL:error:]

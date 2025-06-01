@@ -30,13 +30,16 @@
    __DATA_CONST.__objc_protolist: 0x90
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BFBE0A61-D435-3F79-9184-5EA6E84B63D9
++  UUID: 83E6B494-20A5-3D7E-88FF-F75E90933B5F
    Functions: 420
 -  Symbols:   320
--  CStrings:  1257
+-  CStrings:  1337
 +  Symbols:   316
-+  CStrings:  1235
++  CStrings:  1292
  
 Symbols:
 - _MarcoLogMadridLevel

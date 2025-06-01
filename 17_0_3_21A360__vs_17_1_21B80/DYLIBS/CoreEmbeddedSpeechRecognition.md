@@ -61,10 +61,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x1a30
    __DATA_CONST.__objc_arraydata: 0x170
 -  __AUTH_CONST.__const: 0x2340
-+  __AUTH_CONST.__const: 0x21c8
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__cfstring: 0x2a80
 -  __AUTH_CONST.__objc_const: 0xc98
++  __AUTH_CONST.__const: 0x21c8
 +  __AUTH_CONST.__objc_const: 0xce0
 +  __AUTH_CONST.__cfstring: 0x2aa0
    __AUTH_CONST.__objc_intobj: 0x4e0
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3A335F2-E802-329F-B27C-DEE760A882CE
 -  Functions: 2232
 -  Symbols:   3511
--  CStrings:  2164
+-  CStrings:  2504
++  UUID: 450041E2-F434-33B7-9299-648E381D13E7
 +  Functions: 2162
 +  Symbols:   3504
-+  CStrings:  2171
++  CStrings:  2512
  
 Symbols:
 + -[CESRFidesASRRecord recognizedNbest]

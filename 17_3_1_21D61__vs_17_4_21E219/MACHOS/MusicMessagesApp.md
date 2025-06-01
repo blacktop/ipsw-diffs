@@ -96,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EEBD5614-1857-3167-978F-A8159AFF408E
 -  Functions: 25428
 -  Symbols:   1042
--  CStrings:  4676
+-  CStrings:  4683
++  UUID: 61AAB594-D888-3DC1-98FD-3045BDBACBCA
 +  Functions: 24613
 +  Symbols:   1044
-+  CStrings:  4340
++  CStrings:  4347
  
 Symbols:
 + _MCFeatureMusicVideosAllowed

@@ -25,13 +25,16 @@
    __DATA.__bss: 0x328
    __DATA.__common: 0xa8
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1C66B473-797F-35A3-87A1-8A31C0DBB276
++  UUID: DBF6B548-C153-3486-8F76-459973B34CE9
    Functions: 11041
 -  Symbols:   35721
--  CStrings:  22126
+-  CStrings:  25691
 +  Symbols:   35722
-+  CStrings:  22127
++  CStrings:  25692
  
 Symbols:
 + _SFTargetQueueNAE

@@ -19,12 +19,15 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9AA1A4E5-E59A-3AE5-AF07-01A4F2091030
++  UUID: 36558AF3-A9C4-3597-8B7E-0D7C3EB2C02B
    Functions: 76
 -  Symbols:   506
 +  Symbols:   508
-   CStrings:  679
+   CStrings:  1244
  
 Symbols:
 + _logObject_PencilFusion_Default

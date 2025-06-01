@@ -38,7 +38,6 @@
    __DATA_CONST.__objc_superrefs: 0x28
    __AUTH_CONST.__cfstring: 0xdbe0
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x1c8
    __AUTH_CONST.__auth_got: 0xe00
 -  __DATA.__objc_ivar: 0xa0
@@ -50,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CBA126C5-2465-3206-96D8-27FD6C553E98
 -  Functions: 2312
 -  Symbols:   5979
--  CStrings:  3397
+-  CStrings:  5156
++  UUID: 2C901C6A-9B86-3ACF-96AE-498464E415EF
 +  Functions: 2314
 +  Symbols:   5987
-+  CStrings:  3403
++  CStrings:  5162
  
 Symbols:
 + -[MMCSHTTPContext containerType]

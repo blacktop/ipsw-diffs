@@ -35,11 +35,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05B57FB9-DF73-3295-B25D-EDF7659A90A4
 -  Functions: 127
 -  Symbols:   395
++  UUID: F81CB99A-DA15-3BD2-92D0-9E890CEE5F62
 +  Functions: 131
 +  Symbols:   407
-   CStrings:  344
+   CStrings:  409
  
 Symbols:
 + __ZN13AGXGRC_HAL200L13HasMagicTokenEy

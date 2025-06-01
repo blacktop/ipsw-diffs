@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 656BBC34-04C4-3B89-90C2-C615D580F937
++  UUID: CBF18097-40FF-3573-A261-AFD9049F87B3
+   Functions: 13132
+   Symbols:   261
+   CStrings:  579
+
 ```

@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__cfstring: 0x5280
 +  __AUTH_CONST.__const: 0x2a0
    __AUTH_CONST.__objc_intobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x4c0
 -  __AUTH.__objc_data: 0xde8
@@ -98,12 +97,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FAB7012E-A7C5-3B3B-8E51-0CAFB8949573
 -  Functions: 2047
 -  Symbols:   7285
--  CStrings:  3559
+-  CStrings:  4199
++  UUID: D49B178B-0762-377C-9B6C-D5EA3748EE8A
 +  Functions: 2188
 +  Symbols:   7777
-+  CStrings:  3786
++  CStrings:  4446
  
 Symbols:
 + +[BCSBlastDoorHelper defaultHelper]

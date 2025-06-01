@@ -56,12 +56,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: DFF5B2A9-37BF-32AA-BB3E-B05AE5676795
 -  Functions: 298
 -  Symbols:   234
--  CStrings:  1138
+-  CStrings:  1484
++  UUID: 8A7B6A74-89E9-32ED-9DE2-9FC692014945
 +  Functions: 301
 +  Symbols:   235
-+  CStrings:  1143
++  CStrings:  1489
  
 Symbols:
 + OBJC_IVAR_$_GEOAPQueueElem._dirty

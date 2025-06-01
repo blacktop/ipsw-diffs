@@ -46,12 +46,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D06679F7-4883-3D5A-AD82-8A75270DAE51
 -  Functions: 118
 -  Symbols:   454
--  CStrings:  273
+-  CStrings:  275
++  UUID: C7E84B78-2A2F-302D-99C9-56BB4044770F
 +  Functions: 120
 +  Symbols:   461
-+  CStrings:  276
++  CStrings:  279
  
 Symbols:
 + -[UPQuiltView description]

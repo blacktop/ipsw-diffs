@@ -20,11 +20,15 @@
    __TEXT.__objc_methname: 0x2aaa
    __TEXT.__objc_classname: 0x268
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 25B36DD9-71EC-31AF-8172-9DB5F1EE676D
++  UUID: EB68A2AB-2AB1-3AEA-811F-10165E556FF8
    Functions: 4705
    Symbols:   703
--  CStrings:  2163
-+  CStrings:  2165
+-  CStrings:  2268
++  CStrings:  2270
  
 CStrings:
 + "32"

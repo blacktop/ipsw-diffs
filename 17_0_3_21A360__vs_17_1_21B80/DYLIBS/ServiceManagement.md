@@ -12,4 +12,13 @@
    __TEXT.__const: 0x68
    __TEXT.__cstring: 0x42e
 
+   - /usr/lib/libCoreEntitlements.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5A505AB7-9616-3ECA-8BA3-087290DD4BD2
++  UUID: 4BE500F7-0CB3-3F54-A631-0A52148C9A3A
+   Functions: 73
+   Symbols:   279
+   CStrings:  60
+
 ```

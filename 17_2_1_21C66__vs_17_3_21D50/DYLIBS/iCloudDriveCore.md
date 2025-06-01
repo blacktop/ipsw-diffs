@@ -56,12 +56,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F01C3051-562C-3D3E-AB2F-9A0A4B9F4C76
 -  Functions: 12920
 -  Symbols:   38687
--  CStrings:  20782
+-  CStrings:  24824
++  UUID: 4D459B72-5BC1-33FD-B24E-95188CE601F9
 +  Functions: 12932
 +  Symbols:   38716
-+  CStrings:  20798
++  CStrings:  24842
  
 Symbols:
 + -[AppTelemetryFPFSMigrationInvestigation hasItemsNotMigratedDelta]

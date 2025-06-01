@@ -36,7 +36,6 @@
 -  __AUTH_CONST.__const: 0x110
 +  __AUTH_CONST.__const: 0x1b0
    __AUTH_CONST.__objc_doubleobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x428
 +  __AUTH_CONST.__auth_got: 0x430
    __AUTH.__objc_data: 0x0
@@ -59,13 +58,16 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8240710D-79C0-3813-ADC2-27EB85DB2452
++  UUID: B8DDD7F8-2B74-3033-801C-89E43B147A71
    Functions: 1176
 -  Symbols:   4498
--  CStrings:  2108
+-  CStrings:  2527
 +  Symbols:   4499
-+  CStrings:  2109
++  CStrings:  2528
  
 Symbols:
 + __OBJC_$_PROP_LIST_CNVCardPerson.343

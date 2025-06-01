@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76A7EEA0-B12C-34A0-BCD2-E5B58F3BAA29
 -  Functions: 888
 -  Symbols:   2654
--  CStrings:  1968
+-  CStrings:  2436
++  UUID: 9D200B31-1860-3396-9BE4-820B5F6403EE
 +  Functions: 887
 +  Symbols:   2653
-+  CStrings:  1967
++  CStrings:  2435
  
 Symbols:
 + _OBJC_CLASS_$_TVAppBag

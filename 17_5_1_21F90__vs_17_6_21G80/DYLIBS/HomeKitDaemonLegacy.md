@@ -74,9 +74,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x2d60
    __DATA_CONST.__objc_arraydata: 0x2830
 -  __AUTH_CONST.__const: 0x11808
--  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__const: 0x123e8
-+  __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_const: 0x300c8
 -  __AUTH_CONST.__cfstring: 0x4f220
 +  __AUTH_CONST.__cfstring: 0x4f500
@@ -113,12 +111,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E491DF3-994E-3382-9D0C-70A3C98C90DB
 -  Functions: 43923
 -  Symbols:   144728
--  CStrings:  68612
+-  CStrings:  78741
++  UUID: 4BB3FE02-A3D7-3C20-8495-BB6F969D48CB
 +  Functions: 44365
 +  Symbols:   145082
-+  CStrings:  68848
++  CStrings:  79000
  
 Symbols:
 + +[HMDMainDriver mainDriver]

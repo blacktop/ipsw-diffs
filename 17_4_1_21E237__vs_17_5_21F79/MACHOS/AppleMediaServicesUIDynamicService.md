@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8D987FD-0BD3-3CA0-BA2B-23D0798F391B
 -  Functions: 1634
 -  Symbols:   214
--  CStrings:  551
+-  CStrings:  559
++  UUID: D9EBF599-E89D-34D0-B30D-87D31EB162A5
 +  Functions: 1730
 +  Symbols:   219
-+  CStrings:  570
++  CStrings:  578
  
 Symbols:
 + _ACAccountTypeIdentifierAppleAccount

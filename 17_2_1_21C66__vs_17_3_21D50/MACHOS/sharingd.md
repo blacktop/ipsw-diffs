@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 54F9B125-44A3-3410-B3C4-101F867E9373
 -  Functions: 24280
++  UUID: 9E50EE8D-6169-3ACB-97BB-C0759721A79F
 +  Functions: 24281
    Symbols:   3970
--  CStrings:  26362
-+  CStrings:  26365
+-  CStrings:  29561
++  CStrings:  29565
  
 CStrings:
 + "AirDropContactHashManager"

@@ -47,11 +47,15 @@
    __DATA_DIRTY.__objc_data: 0xf0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MailSupport.framework/MailSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5508572-5FAD-37FE-87A9-C9CB18E539E5
++  UUID: 672CC420-170E-31CB-B3F0-DAE404A0BC58
    Functions: 63
    Symbols:   455
--  CStrings:  333
-+  CStrings:  334
+-  CStrings:  376
++  CStrings:  377
  
 Symbols:
 + ___block_literal_global.138

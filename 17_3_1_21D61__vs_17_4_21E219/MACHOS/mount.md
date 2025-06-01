@@ -22,11 +22,15 @@
    __DATA.__data: 0x4
    __DATA.__common: 0x54
 
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /System/Library/PrivateFrameworks/UserManagementLayout.framework/UserManagementLayout
    - /usr/lib/libSystem.B.dylib
+-  UUID: A16FEF70-DC12-3BFD-A787-B9180F6AB8C5
++  UUID: 4F5DF328-0B13-3A44-BE92-882A04A0D43E
    Functions: 36
    Symbols:   97
--  CStrings:  172
-+  CStrings:  174
+-  CStrings:  177
++  CStrings:  179
  
 CStrings:
 + "fskit"

@@ -30,11 +30,15 @@
    __AUTH_CONST.__cfstring: 0xb60
    __AUTH_CONST.__objc_const: 0xdf8
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E40DCD99-7B28-3630-AACD-388A09BA9B08
++  UUID: 0EC96E36-3AC9-38E7-814A-8F0E50E5C8EF
    Functions: 408
    Symbols:   1971
--  CStrings:  1060
-+  CStrings:  1062
+-  CStrings:  1151
++  CStrings:  1153
  
 Symbols:
 + ___block_literal_global.1144

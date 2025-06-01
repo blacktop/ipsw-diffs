@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85928FF7-4CF5-3834-8227-0EB5DD325021
 -  Functions: 14507
 -  Symbols:   21919
--  CStrings:  12563
+-  CStrings:  12607
++  UUID: E713BA81-8653-3CFA-B127-38879B40C93B
 +  Functions: 14508
 +  Symbols:   21924
-+  CStrings:  12566
++  CStrings:  12610
  
 Symbols:
 + -[TTSMauiSpeechEngine _nextBuffer]

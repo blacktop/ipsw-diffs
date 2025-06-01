@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CB7833DA-0782-3B66-B1A8-329B0151E060
 -  Functions: 346
 -  Symbols:   1350
--  CStrings:  652
+-  CStrings:  768
++  UUID: 8FD559BC-403C-304F-B5F7-0C3EFCD8522D
 +  Functions: 355
 +  Symbols:   1372
-+  CStrings:  666
++  CStrings:  783
  
 Symbols:
 + -[ACSURLSession _cancelDownloadTask:byProducingResumeData:].cold.2

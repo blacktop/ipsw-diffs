@@ -65,7 +65,6 @@
 +  __AUTH_CONST.__const: 0x39d8
    __AUTH_CONST.__objc_dictobj: 0x410
    __AUTH_CONST.__objc_arrayobj: 0x2148
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1688
 -  __AUTH.__objc_data: 0xe260
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDDBDF97-B57C-3C73-AD1C-AFD3DD16EEDA
 -  Functions: 17455
 -  Symbols:   60733
--  CStrings:  22878
+-  CStrings:  26882
++  UUID: 711ECB5D-46D1-334E-96D4-18A698014555
 +  Functions: 17499
 +  Symbols:   60872
-+  CStrings:  22922
++  CStrings:  26942
  
 Symbols:
 + +[NTKLuxViewerComplicationDataSource acceptsComplicationFamily:forDevice:]

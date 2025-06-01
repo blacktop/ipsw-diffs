@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F3822D57-4928-33D3-A261-720A8FB1B4B9
++  UUID: 70FD249A-3708-3F16-BAD3-7F0C9FE5AA09
    Functions: 16496
    Symbols:   36327
--  CStrings:  27917
-+  CStrings:  27918
+-  CStrings:  28130
++  CStrings:  28131
  
 Symbols:
 + __ZL22file_default_instances.23536

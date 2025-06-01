@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0x318
    __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1328
 -  __AUTH.__objc_data: 0x2990
@@ -78,12 +77,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4ABF2F15-02C8-38C8-A311-C01563651EBE
 -  Functions: 3348
 -  Symbols:   12832
--  CStrings:  6051
+-  CStrings:  6992
++  UUID: 22F34B3E-702A-3D79-AC91-8C0B7DCEC477
 +  Functions: 3362
 +  Symbols:   12860
-+  CStrings:  6072
++  CStrings:  7019
  
 Symbols:
 + +[PDFAnnotation createDetectedTextFieldWithBounds:font:textContentType:page:]

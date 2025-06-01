@@ -26,11 +26,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ScreenTimeUI.framework/ScreenTimeUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DDCB886-1BE8-32E0-9D44-2BB5687AD94D
++  UUID: 9580D087-1669-391F-A06D-79814BCD1255
    Functions: 5
    Symbols:   54
--  CStrings:  66
-+  CStrings:  67
+-  CStrings:  69
++  CStrings:  70
  
 CStrings:
 + "T@\"NSString\",?,R,C"

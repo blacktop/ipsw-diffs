@@ -51,12 +51,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60832AAF-9557-3CB0-A986-C2EDA2BD1AFF
 -  Functions: 1457
 -  Symbols:   5744
--  CStrings:  2636
+-  CStrings:  3985
++  UUID: C5B0612A-C790-3E0C-A771-4B37C35A355B
 +  Functions: 1458
 +  Symbols:   5748
-+  CStrings:  2639
++  CStrings:  3989
  
 Symbols:
 + ___76-[CKEntryViewButtonAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke

@@ -37,11 +37,15 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x90
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 5EABB882-28F0-3B7F-9808-0EF45185DAA7
++  UUID: D4581626-1FC9-3170-98C0-3B328E016F70
    Functions: 521
    Symbols:   2131
--  CStrings:  944
-+  CStrings:  945
+-  CStrings:  989
++  CStrings:  990
  
 Symbols:
 + ___68-[AXPISystemActionHelper performSysdiagnoseWithStatusUpdateHandler:]_block_invoke.332

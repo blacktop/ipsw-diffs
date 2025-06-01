@@ -17,11 +17,15 @@
    __TEXT.__ustring: 0x60
    __TEXT.__unwind_info: 0x9de0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9EAD2D30-132A-391A-9EAD-2AF8EB77C49F
++  UUID: FAA81502-CC8A-3B40-BD03-778186938926
    Functions: 10028
    Symbols:   26144
--  CStrings:  2947
-+  CStrings:  2948
+-  CStrings:  3471
++  CStrings:  3472
  
 Symbols:
 + _E_GAIN_closed_loop_search.10469

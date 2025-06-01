@@ -54,7 +54,6 @@
 -  __AUTH_CONST.__objc_const: 0x3a88
 +  __AUTH_CONST.__cfstring: 0x140da0
 +  __AUTH_CONST.__objc_const: 0x3a40
-   __AUTH_CONST.__auth_ptr: 0x1f0
    __AUTH_CONST.__objc_dictobj: 0x7f8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0x18e8
@@ -88,12 +87,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A6C1F41-BF70-32F6-A1D6-5B894DD21362
 -  Functions: 7594
 -  Symbols:   19129
--  CStrings:  55628
+-  CStrings:  96695
++  UUID: 7A70D5D4-0550-38DC-AB33-71B72AFF1F5F
 +  Functions: 7597
 +  Symbols:   19127
-+  CStrings:  55629
++  CStrings:  96698
  
 Symbols:
 + _OBJC_CLASS_$_NSThread

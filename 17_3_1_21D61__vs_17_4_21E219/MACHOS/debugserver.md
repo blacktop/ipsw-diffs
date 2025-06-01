@@ -39,11 +39,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpmenergy.dylib
    - /usr/lib/libpmsample.dylib
+-  UUID: 55E56B01-CB7B-3775-BB25-A2834A450D5C
 -  Functions: 907
 -  Symbols:   5831
++  UUID: 0F6F2A65-13E6-3896-9E12-020382CA81A0
 +  Functions: 935
 +  Symbols:   5964
-   CStrings:  1666
+   CStrings:  1674
  
 Symbols:
 + GCC_except_table100

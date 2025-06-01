@@ -34,13 +34,16 @@
    __AUTH_CONST.__const: 0x2a0
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 85C4043D-1031-3EA0-899A-378BD123CA6B
++  UUID: 3D9442AB-3235-35E2-AAD5-4D2E93823C02
    Functions: 1741
 -  Symbols:   5871
--  CStrings:  2462
+-  CStrings:  2979
 +  Symbols:   5872
-+  CStrings:  2463
++  CStrings:  2981
  
 Symbols:
 + _HKMedicalDownloadableAttachmentMetadataNeedsReIndexingKey

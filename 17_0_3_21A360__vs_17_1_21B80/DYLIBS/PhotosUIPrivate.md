@@ -69,10 +69,9 @@
    __DATA_CONST.__objc_arraydata: 0x1878
 -  __AUTH_CONST.__objc_const: 0x17008
 -  __AUTH_CONST.__const: 0xe010
+-  __AUTH_CONST.__cfstring: 0x2c5e0
 +  __AUTH_CONST.__objc_const: 0x170e0
 +  __AUTH_CONST.__const: 0xe270
-   __AUTH_CONST.__auth_ptr: 0x160
--  __AUTH_CONST.__cfstring: 0x2c5e0
 +  __AUTH_CONST.__cfstring: 0x2c5c0
    __AUTH_CONST.__objc_arrayobj: 0xee8
    __AUTH_CONST.__objc_dictobj: 0x140
@@ -107,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 125D47F2-6B0E-3DE0-8686-F5EA991E9435
 -  Functions: 36423
 -  Symbols:   104394
--  CStrings:  47335
+-  CStrings:  53014
++  UUID: 174567F1-4E47-3088-A3C1-085DA8E2532D
 +  Functions: 36667
 +  Symbols:   104782
-+  CStrings:  47545
++  CStrings:  53223
  
 Symbols:
 + +[PUAlbumListViewControllerSpec visionOSSpec]

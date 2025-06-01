@@ -16,4 +16,13 @@
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0xc8
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/PrivateFrameworks/kperf.framework/kperf
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F9FD23EC-3A20-300C-BF26-AE9234EC5B02
++  UUID: CDA4BAF8-493A-3799-90A4-0836A583E1BA
+   Functions: 136
+   Symbols:   270
+   CStrings:  82
+
 ```

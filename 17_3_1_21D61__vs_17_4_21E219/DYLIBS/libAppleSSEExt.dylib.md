@@ -26,4 +26,13 @@
    __DATA.__bss: 0x18
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/MobileActivation.framework/MobileActivation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 88E54EE3-988F-3AE8-A4E2-ECAD7B54BD83
++  UUID: 857F1310-42AC-3EA6-852D-B6F890DE2129
+   Functions: 43
+   Symbols:   272
+   CStrings:  95
+
 ```

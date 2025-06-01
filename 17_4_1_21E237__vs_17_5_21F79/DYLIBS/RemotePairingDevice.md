@@ -27,4 +27,13 @@
    __DATA_DIRTY.__common: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 56F9EE54-83CB-36C0-9FDC-468CABDEFA13
++  UUID: 81EE7C60-75CB-3ED6-8ABF-9311279F45D2
+   Functions: 8299
+   Symbols:   4340
+   CStrings:  959
+
 ```

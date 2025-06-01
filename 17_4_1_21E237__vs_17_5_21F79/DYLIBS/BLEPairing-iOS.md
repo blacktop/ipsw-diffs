@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_classrefs: 0x60
    __DATA_CONST.__objc_superrefs: 0x10
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A96013A-9075-3408-A713-4976C42C0529
++  UUID: FB503A4C-5A32-3E6C-B948-29AE7F99B331
    Functions: 141
    Symbols:   566
--  CStrings:  295
-+  CStrings:  297
+-  CStrings:  306
++  CStrings:  308
  
 CStrings:
 + "blePairingNoAccessories:"

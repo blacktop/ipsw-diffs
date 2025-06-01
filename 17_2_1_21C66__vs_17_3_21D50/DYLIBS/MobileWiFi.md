@@ -14,6 +14,15 @@
    __TEXT.__const: 0x640
    __TEXT.__oslogstring: 0x703
    __TEXT.__gcc_except_tab: 0xdc
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 888A6474-1446-385D-9E44-66565B881522
++  UUID: 1A4972DB-11B6-3DC4-9772-C226E2C3D213
+   Functions: 939
+   Symbols:   2034
+   CStrings:  1666
 CStrings:
 + "Preferences SpringBoard Carousel WiFiPickerExtens Setup budd sharingd demod BundledIntentHandler SiriViewService assistantd assistant_service Siri SettingsIntentExtension NanoSettings PineBoard TVSettings SoundBoard RealityControlCenter mobilewifitool WirelessStress coreautomationd wifiutil NanoWiFiViewService ATKWiFiFramework WiFiViewService hQT XCTestInternalAngel HPSetup"
 - "Preferences SpringBoard Carousel WiFiPickerExtens Setup budd sharingd demod BundledIntentHandler SiriViewService assistantd assistant_service Siri SettingsIntentExtension NanoSettings PineBoard TVSettings SoundBoard RealityControlCenter mobilewifitool WirelessStress coreautomationd wifiutil NanoWiFiViewService ATKWiFiFramework WiFiViewService hQT XCTestInternalAngel"

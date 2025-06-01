@@ -69,12 +69,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 79C581FC-4D7C-34F7-8274-7857D55EAC85
 -  Functions: 926
 -  Symbols:   4211
--  CStrings:  2664
+-  CStrings:  3233
++  UUID: 4508CEA2-FE24-352D-BE13-AAAAFA802AA6
 +  Functions: 924
 +  Symbols:   4210
-+  CStrings:  2668
++  CStrings:  3237
  
 Symbols:
 + -[PSGMousePointerController _shouldDisableMouse]

@@ -42,7 +42,6 @@
 +  __AUTH_CONST.__cfstring: 0xf60
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x220
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x6d0
 +  __AUTH_CONST.__objc_intobj: 0x30
 +  __AUTH_CONST.__auth_got: 0x6e0
@@ -57,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F89F53CC-0FA8-3FFF-902E-1190EAD545F8
 -  Functions: 610
 -  Symbols:   1294
--  CStrings:  447
+-  CStrings:  569
++  UUID: 6B0C14AE-47E9-3B35-9417-31F738A499C0
 +  Functions: 625
 +  Symbols:   1326
-+  CStrings:  465
++  CStrings:  588
  
 Symbols:
 + _MTActuatorChangeHostClickControl

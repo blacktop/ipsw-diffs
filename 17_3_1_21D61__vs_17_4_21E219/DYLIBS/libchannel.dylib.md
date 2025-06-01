@@ -18,5 +18,12 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/librealtime_safety.dylib
+-  UUID: 11EBBFB3-12EA-33BA-BC51-4E173AAC02F0
++  UUID: 3769FCE5-2987-39E3-A8D8-B8518291F678
+   Functions: 149
+   Symbols:   380
+   CStrings:  25
 
 ```

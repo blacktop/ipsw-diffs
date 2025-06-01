@@ -24,4 +24,13 @@
    __DATA_DIRTY.__objc_data: 0x640
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F55AE7D4-1612-397E-9D23-80E3232E020E
++  UUID: E132271E-3E39-3F9D-95EC-BA75B95157CF
+   Functions: 365
+   Symbols:   174
+   CStrings:  700
+
 ```

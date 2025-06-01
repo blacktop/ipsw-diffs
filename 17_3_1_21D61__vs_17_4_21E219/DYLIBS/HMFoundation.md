@@ -55,10 +55,8 @@
 +  __DATA_CONST.__objc_classrefs: 0x560
 +  __DATA_CONST.__objc_superrefs: 0x378
 +  __AUTH_CONST.__const: 0xb68
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__cfstring: 0x4be0
    __AUTH_CONST.__objc_const: 0x3f88
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x9d0
 +  __AUTH_CONST.__auth_got: 0xca0
    __AUTH.__objc_data: 0x1040
@@ -80,9 +78,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05188BCA-FE43-319E-8BA1-D2E6EFCFEF4B
 -  Functions: 2445
 -  Symbols:   8514
--  CStrings:  3829
+-  CStrings:  4435
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -91,9 +90,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 28CAAE6B-22C5-328D-A277-DD43BCCAA78B
 +  Functions: 2620
 +  Symbols:   8639
-+  CStrings:  3865
++  CStrings:  4472
  
 Symbols:
 + -[HMFLocationAuthorization _mark]

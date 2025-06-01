@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A8B250E2-B363-3E6E-9209-31457EA7EDED
 -  Functions: 4266
++  UUID: 2E4DB371-1706-355D-8958-964B4426BA83
 +  Functions: 4260
    Symbols:   947
--  CStrings:  3732
-+  CStrings:  3730
+-  CStrings:  3957
++  CStrings:  3955
  
 CStrings:
 - "Inactivity timer timed out after 8 minutes"

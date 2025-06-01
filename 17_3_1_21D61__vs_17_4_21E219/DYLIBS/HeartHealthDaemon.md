@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C8F44A68-81F7-34A5-BBF7-3E2BC60512B3
 -  Functions: 1359
 -  Symbols:   5409
--  CStrings:  2700
+-  CStrings:  3028
++  UUID: 8F8088FA-19B8-30E5-97D7-837FE5861238
 +  Functions: 1363
 +  Symbols:   5433
-+  CStrings:  2711
++  CStrings:  3040
  
 Symbols:
 + -[HDHRAFibBurdenRescindedNotificationManager initWithProfile:featureStatusProvider:keyValueDomain:queue:]

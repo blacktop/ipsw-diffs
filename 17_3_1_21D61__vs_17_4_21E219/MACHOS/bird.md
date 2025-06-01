@@ -33,8 +33,11 @@
    __DATA.__bss: 0x20
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 12B56E3F-AD19-3F72-9CF5-BD0A853B654D
++  UUID: 2DB223DD-ECB8-3FFF-BC09-8E7D3DADBE68
    Functions: 12
 -  Symbols:   35
 -  CStrings:  33

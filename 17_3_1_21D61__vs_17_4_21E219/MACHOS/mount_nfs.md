@@ -25,12 +25,15 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
-
+   - /System/Library/PrivateFrameworks/oncrpc.framework/oncrpc
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: AB630EDD-E096-3B18-8409-46B86B610640
++  UUID: D3C8B188-BA00-3E78-BEF0-DFFAB224FE4F
    Functions: 31
    Symbols:   85
--  CStrings:  342
-+  CStrings:  350
+-  CStrings:  345
++  CStrings:  353
  
 CStrings:
 + ",%sskip_renew"

@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35F52253-9CD0-35E6-9635-DE6B3EFCB205
 -  Functions: 1301
 -  Symbols:   4593
--  CStrings:  1894
+-  CStrings:  2090
++  UUID: B8FC90A9-B796-3655-ABE2-66FC73EFA26D
 +  Functions: 1288
 +  Symbols:   4569
-+  CStrings:  1865
++  CStrings:  2059
  
 Symbols:
 + +[LARatchetErrorBuilder deviceTypeNotSupportedWithUserInfo:]

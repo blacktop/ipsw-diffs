@@ -41,7 +41,6 @@
 +  __AUTH_CONST.__const: 0xa98
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__cfstring: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH_CONST.__auth_got: 0x620
@@ -79,12 +78,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4596A40-C0A0-37F5-BC60-ECFB52567311
 -  Functions: 473
 -  Symbols:   241
--  CStrings:  326
+-  CStrings:  331
++  UUID: 85767685-F23C-3F9E-94F2-0CC8E0526AC0
 +  Functions: 501
 +  Symbols:   268
-+  CStrings:  342
++  CStrings:  347
  
 Symbols:
 + _VisionHWServerStart

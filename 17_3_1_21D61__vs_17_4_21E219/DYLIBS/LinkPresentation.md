@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_intobj: 0x288
    __AUTH_CONST.__objc_arrayobj: 0x438
    __AUTH_CONST.__objc_dictobj: 0xc8
-
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__auth_got: 0x7d8
    __AUTH.__objc_data: 0x2a58
@@ -80,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B84D295B-DD3B-3839-AC6E-BA88637E8F61
 -  Functions: 5313
 -  Symbols:   20793
--  CStrings:  7823
+-  CStrings:  9481
++  UUID: 188495D1-15FB-3FC9-AE58-2C8F3EF85597
 +  Functions: 5319
 +  Symbols:   20821
-+  CStrings:  7849
++  CStrings:  9512
  
 Symbols:
 + +[LPButtonStyle systemPillButtonStyleForPlatform:sizeClass:]

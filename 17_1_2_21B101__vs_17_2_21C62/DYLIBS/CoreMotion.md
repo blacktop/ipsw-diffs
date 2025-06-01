@@ -49,9 +49,8 @@
 +  __DATA_CONST.__objc_selrefs: 0x41b8
    __DATA_CONST.__objc_arraydata: 0x220
 -  __AUTH_CONST.__const: 0x12598
-+  __AUTH_CONST.__const: 0x12608
-   __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0xe4e0
++  __AUTH_CONST.__const: 0x12608
 +  __AUTH_CONST.__cfstring: 0xe520
    __AUTH_CONST.__objc_const: 0x6588
    __AUTH_CONST.__objc_arrayobj: 0x90
@@ -81,12 +80,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0A31C907-AA9A-3411-A8FD-B8FCA31E8BAC
 -  Functions: 16319
 -  Symbols:   1511
--  CStrings:  13237
+-  CStrings:  15068
++  UUID: 0202E420-5004-3A2F-BFC5-AE48EF76C999
 +  Functions: 16341
 +  Symbols:   1515
-+  CStrings:  13248
++  CStrings:  15081
  
 Symbols:
 + _CMPerceivedExertionData

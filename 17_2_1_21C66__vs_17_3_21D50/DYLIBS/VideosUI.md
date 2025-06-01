@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4E8F49DE-7B23-3394-8DE1-DC16D32D1EBC
 -  Functions: 76588
 -  Symbols:   105008
--  CStrings:  32227
+-  CStrings:  35853
++  UUID: 1D536706-582E-3AB5-8CEA-7252297C98EB
 +  Functions: 76616
 +  Symbols:   105041
-+  CStrings:  32257
++  CStrings:  35884
  
 Symbols:
 + +[VUIAuthenticationManager lightWeightUserHasActiveAccount]

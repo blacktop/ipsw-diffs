@@ -92,12 +92,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5B907FC1-7755-3326-B621-E49A93E4F52A
 -  Functions: 2120
 -  Symbols:   549
--  CStrings:  7000
+-  CStrings:  8302
++  UUID: 3CC124A3-54DF-372C-ADDB-8C712B96466F
 +  Functions: 2244
 +  Symbols:   568
-+  CStrings:  7319
++  CStrings:  8619
  
 Symbols:
 + _LSUserApplicationType

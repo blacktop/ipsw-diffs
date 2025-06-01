@@ -28,4 +28,13 @@
    __DATA.__data: 0x128
    __DATA.__bss: 0x240
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DAE9ED38-92ED-3495-9EB8-EEF9A347E067
++  UUID: 0B26107F-49AE-37B1-938A-47E1D43B824A
+   Functions: 182
+   Symbols:   690
+   CStrings:  388
+
 ```

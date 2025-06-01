@@ -59,9 +59,7 @@
 +  __DATA_CONST.__objc_const: 0x29280
    __DATA_CONST.__objc_selrefs: 0x1c48
 -  __AUTH_CONST.__const: 0x3b638
--  __AUTH_CONST.__auth_ptr: 0x1090
 +  __AUTH_CONST.__const: 0x3b960
-+  __AUTH_CONST.__auth_ptr: 0x10a0
    __AUTH_CONST.__objc_const: 0x10d0
    __AUTH_CONST.__cfstring: 0x320
 -  __AUTH_CONST.__auth_got: 0x47e0
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F42FE58-6F7A-3BD1-B20D-FEFE1BB33786
 -  Functions: 69900
 -  Symbols:   755
--  CStrings:  8629
+-  CStrings:  8654
++  UUID: FE25F867-8F63-3099-846C-67F2AA5E0733
 +  Functions: 70441
 +  Symbols:   757
-+  CStrings:  8682
++  CStrings:  8707
  
 Symbols:
 + _PPSCreateTelemetryIdentifier

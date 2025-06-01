@@ -83,12 +83,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F43BF8F-9C34-3B81-8502-8A74EC9647A8
 -  Functions: 4634
 -  Symbols:   16863
--  CStrings:  7473
+-  CStrings:  9409
++  UUID: 86041496-AB5E-3852-BD13-FF79DDF7875C
 +  Functions: 4667
 +  Symbols:   16970
-+  CStrings:  7568
++  CStrings:  9521
  
 Symbols:
 + +[AVCaptureDevice _checkEligiblityForEffect:]

@@ -72,12 +72,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 366E67F8-A366-3AB3-AE87-D724A21E4080
 -  Functions: 780
 -  Symbols:   2948
--  CStrings:  1621
+-  CStrings:  1794
++  UUID: 1E8C4AA9-2E7A-344E-962B-EA1B3F2D76E4
 +  Functions: 793
 +  Symbols:   3003
-+  CStrings:  1693
++  CStrings:  1901
  
 Symbols:
 + -[AWAttentionAwareService addClient:clientConfig:clientIndex:clientId:unitTestMode:reply:subscribeForStreamingEvents:]

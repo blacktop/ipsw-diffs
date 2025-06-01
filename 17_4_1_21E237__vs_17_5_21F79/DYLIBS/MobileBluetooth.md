@@ -17,4 +17,13 @@
    __DATA_CONST.__const: 0x2090
    __AUTH_CONST.__cfstring: 0x40
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: EA04F679-756E-3DDC-B270-BD3003CA270D
++  UUID: 6A462AFE-3FD2-3E3B-A6D4-0ECAD865E5FF
+   Functions: 1205
+   Symbols:   2452
+   CStrings:  902
+
 ```

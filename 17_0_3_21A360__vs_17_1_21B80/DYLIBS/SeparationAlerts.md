@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B6991EB-FF18-35BB-94CE-A2378A9A28DD
 -  Functions: 975
 -  Symbols:   3568
--  CStrings:  2099
+-  CStrings:  2344
++  UUID: 630F3881-4F21-3687-A930-9BD46CBEA13F
 +  Functions: 980
 +  Symbols:   3585
-+  CStrings:  2114
++  CStrings:  2363
  
 Symbols:
 + -[SADevice isAirPodsCase]

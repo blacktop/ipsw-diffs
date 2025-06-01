@@ -65,11 +65,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B675AB68-2EF4-3E6A-B2FC-1417EC076407
 -  Functions: 18350
 -  Symbols:   5338
++  UUID: D8686528-C48F-3647-B57D-3AF6F7CD0F8A
 +  Functions: 18351
 +  Symbols:   5339
-   CStrings:  3175
+   CStrings:  3223
  
 Symbols:
 + _symbolic ______p 10PodcastsUI14SettingsBridgeP

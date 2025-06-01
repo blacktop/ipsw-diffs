@@ -41,12 +41,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32928FCE-202C-3BDD-B18B-D03BE74ECF99
 -  Functions: 1258
 -  Symbols:   4584
--  CStrings:  2121
+-  CStrings:  2246
++  UUID: C915D906-676D-3FD2-8823-2A378F2ECBBC
 +  Functions: 1259
 +  Symbols:   4587
-+  CStrings:  2122
++  CStrings:  2247
  
 Symbols:
 + -[CLKUITimeLabel blinkingSeparatorEnabled]

@@ -38,11 +38,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x360
 
+   - /System/Library/PrivateFrameworks/TipsUI.framework/TipsUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7FCC071-2B06-3709-9D75-7950BD158028
++  UUID: 80B48BF9-F4F7-3F47-886F-701DBF500A9A
    Functions: 71
    Symbols:   110
--  CStrings:  397
-+  CStrings:  401
+-  CStrings:  400
++  CStrings:  404
  
 CStrings:
 + "T@\"NSString\",?,R,C"

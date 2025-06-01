@@ -37,11 +37,15 @@
    __DATA.__data: 0x300
    __DATA_DIRTY.__objc_data: 0x230
 
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B1BB4F6-93E4-34F4-903C-4A5B2627258C
++  UUID: 8FFF2163-2536-30BC-82DE-9DFC18E9BE7F
    Functions: 162
    Symbols:   698
--  CStrings:  338
-+  CStrings:  339
+-  CStrings:  375
++  CStrings:  376
  
 Symbols:
 + ___block_literal_global.52

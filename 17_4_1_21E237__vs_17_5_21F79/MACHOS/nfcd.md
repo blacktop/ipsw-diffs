@@ -58,12 +58,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32C525B8-F37F-3C20-B779-A151B298FE11
 -  Functions: 4329
 -  Symbols:   512
--  CStrings:  12000
+-  CStrings:  14000
++  UUID: 7B994C3F-15AC-3B6C-9F9E-067558CD7CEA
 +  Functions: 4334
 +  Symbols:   513
-+  CStrings:  11998
++  CStrings:  13997
  
 Symbols:
 + _NFIsDarwinOS

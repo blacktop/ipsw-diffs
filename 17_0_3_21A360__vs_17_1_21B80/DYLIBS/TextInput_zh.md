@@ -36,12 +36,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B29DD5C3-D785-333B-BBA0-DC9F5924D514
 -  Functions: 408
 -  Symbols:   1587
--  CStrings:  606
+-  CStrings:  717
++  UUID: 303F9194-B080-3E30-A832-D8B977B672D2
 +  Functions: 409
 +  Symbols:   1591
-+  CStrings:  607
++  CStrings:  718
  
 Symbols:
 + ___81-[TIKeyboardInputManager_zh_Candidates _notifyWholePhraseCandidate:forOperation:]_block_invoke_2

@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67D76399-4A55-3392-8F67-882D0756404A
 -  Functions: 1460
 -  Symbols:   5600
--  CStrings:  2534
+-  CStrings:  2655
++  UUID: 59044000-1ADB-352F-A85E-DB32CB08A458
 +  Functions: 1461
 +  Symbols:   5603
-+  CStrings:  2536
++  CStrings:  2657
  
 Symbols:
 + _CCUIStatusBarForStatusBar

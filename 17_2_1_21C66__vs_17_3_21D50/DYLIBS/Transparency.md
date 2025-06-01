@@ -23,9 +23,9 @@
    __AUTH_CONST.__objc_const: 0x670
 -  __AUTH_CONST.__const: 0xce0
 +  __AUTH_CONST.__const: 0xd20
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__auth_got: 0x338
+   __AUTH.__objc_data: 0x370
 
    __DATA.__objc_classrefs: 0x238
    __DATA.__objc_superrefs: 0x108
@@ -40,13 +40,16 @@
    __DATA_DIRTY.__objc_data: 0xbe0
    __DATA_DIRTY.__bss: 0x198
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA760187-73BB-3B85-B23C-FFA9EA196CC7
++  UUID: 5265D03E-9FCC-3AEF-B9F5-9568277E6BB5
    Functions: 1417
 -  Symbols:   4873
--  CStrings:  1890
+-  CStrings:  2266
 +  Symbols:   4874
-+  CStrings:  1891
++  CStrings:  2268
  
 Symbols:
 + ___125-[TransparencyDaemon replaySelfValidate:application:pcsAccountKey:queryRequest:queryResponse:responseTime:completionHandler:]_block_invoke.321

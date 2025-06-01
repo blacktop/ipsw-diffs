@@ -30,4 +30,13 @@
    __DATA_CONST.__objc_classlist: 0xe0
    __DATA_CONST.__objc_protolist: 0x30
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3DB4B780-87AB-3578-8ACE-AE49C766244A
++  UUID: A954BDF4-29A5-3FD2-BFBF-307F55D54FC2
+   Functions: 5770
+   Symbols:   229
+   CStrings:  947
+
 ```

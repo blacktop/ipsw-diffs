@@ -19,11 +19,15 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__auth_got: 0x428
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 5D7C8C98-A6EE-31FC-A80D-13AAA968EB11
++  UUID: 847FEC09-2316-3417-9518-C358118C1F4D
    Functions: 616
    Symbols:   169
--  CStrings:  379
-+  CStrings:  381
+-  CStrings:  410
++  CStrings:  412
  
 CStrings:
 + "%25s:%-5d      existing device found"

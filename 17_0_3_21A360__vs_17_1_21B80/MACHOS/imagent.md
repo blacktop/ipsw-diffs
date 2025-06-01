@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48CBAE59-29BA-31F8-8255-D26BAE0AAF96
 -  Functions: 1374
 -  Symbols:   574
--  CStrings:  3411
+-  CStrings:  4038
++  UUID: A9786D5F-E1F9-3630-8FF9-A64AE29EF513
 +  Functions: 1375
 +  Symbols:   575
-+  CStrings:  3417
++  CStrings:  4044
  
 Symbols:
 + _IMDCKLocalDBStatsKey

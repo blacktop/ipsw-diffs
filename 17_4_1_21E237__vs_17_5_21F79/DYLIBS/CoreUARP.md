@@ -40,8 +40,8 @@
    __DATA_CONST.__objc_classrefs: 0x3b8
    __DATA_CONST.__objc_superrefs: 0x350
 
+   __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__objc_intobj: 0xbe8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x448
 -  __AUTH.__objc_data: 0x19f0
 +  __AUTH.__objc_data: 0x1950
@@ -57,12 +57,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: B3FF580D-8758-312F-8E8B-B97AD2CB7BE0
 -  Functions: 3022
 -  Symbols:   9115
--  CStrings:  3818
+-  CStrings:  4460
++  UUID: 96B6ABA8-2E1D-3365-878E-0880DB01F9C7
 +  Functions: 3027
 +  Symbols:   9126
-+  CStrings:  3826
++  CStrings:  4468
  
 Symbols:
 + -[UARPController getBatchedSupportedAccessories:assetLocationType:]

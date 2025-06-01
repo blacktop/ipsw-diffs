@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0B6AAFD4-0394-37B0-BC66-49B28CD88BCF
 -  Functions: 15875
 -  Symbols:   52968
--  CStrings:  22339
+-  CStrings:  24797
++  UUID: 79DC6E6C-964D-3AE2-ADE4-AC180C5230FC
 +  Functions: 15896
 +  Symbols:   53031
-+  CStrings:  22382
++  CStrings:  24847
  
 Symbols:
 + -[SBHHomePullToSearchSettings searchAffordanceBackgroundMaterialFadeEndThreshold]

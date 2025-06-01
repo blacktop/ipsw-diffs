@@ -21,12 +21,15 @@
    __DATA_CONST.__cfstring: 0x20
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0980DFAA-EBCB-30E8-8248-F23DE034B50F
++  UUID: 03F26D89-B332-37AC-9448-E98BE580727A
    Functions: 5
 -  Symbols:   44
 +  Symbols:   45
-   CStrings:  86
+   CStrings:  87
  
 Symbols:
 + _ACAccountDataclassMoments

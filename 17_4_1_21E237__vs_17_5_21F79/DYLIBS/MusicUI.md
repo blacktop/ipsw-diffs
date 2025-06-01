@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C9DFF5B6-DF20-3A9D-BE2B-EF9AA9F20C2D
++  UUID: D7641900-B8B8-3967-A6B9-9569A578BAA6
+   Functions: 28711
+   Symbols:   15247
+   CStrings:  1983
+
 ```

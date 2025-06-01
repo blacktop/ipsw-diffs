@@ -42,7 +42,6 @@
 +  __AUTH_CONST.__cfstring: 0x6e80
    __AUTH_CONST.__objc_arrayobj: 0x810
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__objc_intobj: 0xcc0
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xe38
@@ -63,12 +62,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4C28791B-D444-391D-812F-9E6DC04A9C7A
 -  Functions: 3650
 -  Symbols:   785
--  CStrings:  4914
+-  CStrings:  5797
++  UUID: 3D0097C6-034E-35C1-8DB9-F6E910221346
 +  Functions: 3645
 +  Symbols:   784
-+  CStrings:  4910
++  CStrings:  5794
  
 Symbols:
 + _CVNLPLogGeneralFault

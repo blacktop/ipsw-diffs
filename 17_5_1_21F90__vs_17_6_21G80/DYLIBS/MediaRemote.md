@@ -39,17 +39,19 @@
 +  __AUTH_CONST.__cfstring: 0x1e4a0
    __AUTH_CONST.__objc_const: 0xb988
    __AUTH_CONST.__const: 0x3000
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0x438
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3CA1FF3D-A0E9-38CE-84D1-AEB9C2304660
 -  Functions: 18090
 -  Symbols:   49228
--  CStrings:  17929
+-  CStrings:  21808
++  UUID: 9BCE873F-5E60-3691-97C9-997823F5B75C
 +  Functions: 18088
 +  Symbols:   49224
-+  CStrings:  17926
++  CStrings:  21803
  
 Symbols:
 - -[MRAVDistantEndpoint _handleActiveGroupSessionDidChangeNotification:]

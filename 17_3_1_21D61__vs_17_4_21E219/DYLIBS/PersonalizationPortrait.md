@@ -31,7 +31,7 @@
    __AUTH_CONST.__cfstring: 0x7dc0
    __AUTH_CONST.__objc_const: 0x3910
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__auth_got: 0x498
    __AUTH.__objc_data: 0x960
 -  __DATA.__objc_protorefs: 0xb8
@@ -46,11 +46,15 @@
    __DATA_DIRTY.__data: 0x40
    __DATA_DIRTY.__bss: 0x188
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 856B60F2-FE87-3745-8196-2592A511F04C
++  UUID: 82BC9402-E185-3C2F-A13F-D738E28E49C2
    Functions: 2518
    Symbols:   8605
--  CStrings:  4012
-+  CStrings:  4013
+-  CStrings:  5018
++  CStrings:  5019
  
 Symbols:
 + ___Block_byref_object_copy_.3716

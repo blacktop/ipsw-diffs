@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0xd71fb
    __TEXT.__mpsgraph_init_: 0x64
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C661D8E6-D2C3-3D31-9DD9-05C6EFF6FC6A
++  UUID: 7EDABF0B-3F68-3A48-BD6B-B4BF0AE0CAC0
+   Functions: 57157
+   Symbols:   843
+   CStrings:  31020
+
 ```

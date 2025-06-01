@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D30EF16A-73E2-3C40-9F20-0325FA17CE69
++  UUID: 587185C6-9A83-31B9-8013-AA9165E932C9
+   Functions: 2
+   Symbols:   17
+   CStrings:  15
+
 ```

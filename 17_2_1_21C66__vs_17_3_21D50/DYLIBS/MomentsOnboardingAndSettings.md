@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D3D53BEB-657C-3B31-8EF9-1F44BC320B8A
 -  Functions: 608
 -  Symbols:   2105
--  CStrings:  964
+-  CStrings:  1086
++  UUID: A646E9C3-6778-3649-8519-FF13DDFD9C1F
 +  Functions: 610
 +  Symbols:   2113
-+  CStrings:  972
++  CStrings:  1094
  
 Symbols:
 + -[MOSuggestionSheetSettingsController init]

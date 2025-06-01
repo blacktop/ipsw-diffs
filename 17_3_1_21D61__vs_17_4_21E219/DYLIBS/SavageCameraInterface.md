@@ -21,19 +21,20 @@
    __DATA_CONST.__const: 0x70
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__cfstring: 0x20
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x100
 +  __AUTH_CONST.__auth_got: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 6A2F7D3D-6EE3-3E7F-9E7B-3831E526FBC7
 -  Functions: 15
 -  Symbols:   70
--  CStrings:  47
+-  CStrings:  48
++  UUID: 3CA92BE6-847C-3FCA-B85B-4F0BDDC832D4
 +  Functions: 17
 +  Symbols:   75
-+  CStrings:  50
++  CStrings:  51
  
 Symbols:
 + _CFDataGetBytePtr

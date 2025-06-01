@@ -85,12 +85,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6402E488-9DC5-3E1F-BAA2-4619ECE20E29
 -  Functions: 13012
 -  Symbols:   39019
--  CStrings:  14285
+-  CStrings:  16092
++  UUID: 2B808CF3-2ADD-37E2-9B56-1903DB1DBE87
 +  Functions: 13014
 +  Symbols:   39003
-+  CStrings:  14277
++  CStrings:  16080
  
 Symbols:
 + -[NPKCommutePlanField availableFrom]

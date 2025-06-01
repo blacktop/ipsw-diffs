@@ -56,11 +56,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 6475F0B9-0154-37A0-AB0A-31E8C418A940
 -  Functions: 299
++  UUID: 3DDE5EBC-AC08-386A-A5DA-35C6C3098EA9
 +  Functions: 301
    Symbols:   207
--  CStrings:  603
-+  CStrings:  610
+-  CStrings:  755
++  CStrings:  764
  
 CStrings:
 + "SwiftUI"

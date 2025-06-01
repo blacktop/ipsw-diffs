@@ -75,12 +75,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C235071E-D28D-3C4F-B157-A0DE8083DBCA
 -  Functions: 1599
 -  Symbols:   5130
--  CStrings:  2355
+-  CStrings:  2770
++  UUID: F2E53409-AC63-3D42-9C25-E8CDAEFCFB2E
 +  Functions: 1623
 +  Symbols:   5200
-+  CStrings:  2404
++  CStrings:  2843
  
 Symbols:
 + +[RTAddress _decodeGeoAddressObjectFromData:decompress:]

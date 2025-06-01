@@ -20,4 +20,13 @@
    __DATA.__bss: 0x64
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libIOAccessoryManager.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8C7D884F-493F-32D4-9376-2FC07A1F58BF
++  UUID: 8969B6E9-C079-3AB8-9752-40B8F56525D1
+   Functions: 88
+   Symbols:   161
+   CStrings:  182
+
 ```

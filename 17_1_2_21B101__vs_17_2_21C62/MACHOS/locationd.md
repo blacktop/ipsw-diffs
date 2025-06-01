@@ -100,12 +100,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A3D877B0-8709-31AA-A5B5-286662C1F46F
 -  Functions: 85251
 -  Symbols:   3154
--  CStrings:  75718
+-  CStrings:  82444
++  UUID: 7421E670-4C0F-3FB4-8856-989A6F905BDB
 +  Functions: 86417
 +  Symbols:   3160
-+  CStrings:  76744
++  CStrings:  83614
  
 Symbols:
 + _CLLocationManagerGatheringBufferedDevicesReceived

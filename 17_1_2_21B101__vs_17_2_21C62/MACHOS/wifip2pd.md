@@ -24,6 +24,15 @@
    __TEXT.__eh_frame: 0x14478
    __DATA_CONST.__auth_got: 0x1a80
    __DATA_CONST.__got: 0xa18
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85B2E74C-05DA-3959-8D3C-10493DDB33A9
++  UUID: 35B30297-E8ED-3632-AC5B-5EF89F7F50F5
+   Functions: 26775
+   Symbols:   1638
+   CStrings:  2502
 CStrings:
 + "WiFiP2P-561.47.9 Nov 12 2023 08:11:16"
 - "WiFiP2P-561.47.7 Sep 30 2023 15:09:57"

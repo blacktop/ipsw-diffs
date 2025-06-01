@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyBasebandDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D05C31C5-F173-313E-803A-A70443326B0D
 -  Functions: 615
 -  Symbols:   326
--  CStrings:  7935
+-  CStrings:  12887
++  UUID: CFDCDF97-401A-3D30-AA07-B93196718948
 +  Functions: 624
 +  Symbols:   329
-+  CStrings:  7966
++  CStrings:  12933
  
 Symbols:
 + _OBJC_CLASS_$_ComponentBatteryBase

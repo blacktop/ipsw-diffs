@@ -22,4 +22,13 @@
    __DATA.__data: 0x60
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/IOKitten.framework/IOKitten
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 81B46396-F187-3BFE-87A2-50B40A105A10
++  UUID: 24A59CB4-1B7A-3A3B-B462-1A91AFB17AC7
+   Functions: 63
+   Symbols:   298
+   CStrings:  239
+
 ```

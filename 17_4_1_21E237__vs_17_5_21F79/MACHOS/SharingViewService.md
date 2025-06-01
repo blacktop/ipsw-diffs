@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1672126-92A0-3FA9-8F07-4FB8AA380E37
 -  Functions: 8055
 -  Symbols:   1535
--  CStrings:  7598
+-  CStrings:  8320
++  UUID: 99981948-8B6B-33D8-A6D4-4223E92EAC32
 +  Functions: 8061
 +  Symbols:   1536
-+  CStrings:  7612
++  CStrings:  8335
  
 Symbols:
 + _$s10ProductKit27PersonalizationAssetManagerC9container16manateeContainer14cacheDirectoryACSo11CKContainerC_AH10Foundation3URLVtcfC

@@ -21,8 +21,8 @@
    __TEXT.__objc_methname: 0x17072
    __TEXT.__objc_methtype: 0x3599
 
+   __AUTH_CONST.__objc_intobj: 0xca8
    __AUTH_CONST.__objc_doubleobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x760
 -  __AUTH.__objc_data: 0x2440
 +  __AUTH.__objc_data: 0x2300
@@ -37,5 +37,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: D944AB06-2842-39B8-AC6C-5276736F43A4
++  UUID: B1493858-D08F-3617-A4F6-3A283308A7CE
+   Functions: 3637
+   Symbols:   12504
+   CStrings:  16188
 
 ```

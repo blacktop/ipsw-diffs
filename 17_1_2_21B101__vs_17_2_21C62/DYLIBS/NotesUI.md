@@ -63,9 +63,9 @@
 -  __AUTH_CONST.__cfstring: 0xa760
 +  __AUTH_CONST.__const: 0x8670
 +  __AUTH_CONST.__cfstring: 0xa780
-   __AUTH_CONST.__auth_ptr: 0x208
    __AUTH_CONST.__objc_intobj: 0x510
    __AUTH_CONST.__objc_arrayobj: 0x138
+   __AUTH_CONST.__objc_doubleobj: 0x50
 
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x2530
@@ -93,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E9420E3E-B095-3E9D-9228-9CDD5E3048E6
 -  Functions: 12362
 -  Symbols:   27951
--  CStrings:  13388
+-  CStrings:  14727
++  UUID: 53A6184D-8A08-3180-9221-3CA3EF5E7553
 +  Functions: 12381
 +  Symbols:   27966
-+  CStrings:  13394
++  CStrings:  14734
  
 Symbols:
 + -[ICInlineAttachmentView contextMenuInteraction:willPerformPreviewActionForMenuWithConfiguration:animator:]

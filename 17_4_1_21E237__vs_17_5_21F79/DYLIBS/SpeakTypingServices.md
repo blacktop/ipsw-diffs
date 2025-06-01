@@ -18,4 +18,13 @@
    __TEXT.__objc_methname: 0x7c7
    __TEXT.__objc_methtype: 0x25f
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 38C6BBD5-1B97-355D-A9F9-55FB583F6098
++  UUID: 4226C1DD-ECEE-3F1F-A594-CA4A447510C7
+   Functions: 26
+   Symbols:   150
+   CStrings:  129
+
 ```

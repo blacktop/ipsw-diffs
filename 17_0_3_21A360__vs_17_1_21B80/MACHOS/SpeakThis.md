@@ -27,11 +27,15 @@
    __DATA.__objc_superrefs: 0x40
    __DATA.__objc_ivar: 0x190
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 760EB66B-D284-3DCA-A2B6-A8DDADE241E5
++  UUID: 4A09ABFD-C493-3403-AA10-D374F7D77067
    Functions: 478
    Symbols:   230
--  CStrings:  1156
-+  CStrings:  1155
+-  CStrings:  1210
++  CStrings:  1209
  
 CStrings:
 - "remoteParent"

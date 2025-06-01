@@ -4,8 +4,8 @@
 
 ```diff
 
+   __DATA_CONST.__objc_classrefs: 0x40
    __AUTH_CONST.__const: 0xa00
-   __AUTH_CONST.__auth_ptr: 0x80
    __AUTH_CONST.__auth_got: 0x9d8
 -  __AUTH.__data: 0xb58
 -  __AUTH.__objc_data: 0x140
@@ -22,5 +22,14 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C9F3A124-3B3B-38CB-930D-EE1ADE088EC6
++  UUID: 8A21C435-F77B-3594-843B-05DF402A6262
+   Functions: 780
+   Symbols:   600
+   CStrings:  191
 
 ```

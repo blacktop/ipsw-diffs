@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x38
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 21AC22F7-8A2C-3A42-8861-0C0CD9C8F38F
++  UUID: 5DB063AA-9E5F-3449-9B3E-A40D202DE207
    Functions: 459
    Symbols:   290
--  CStrings:  1263
-+  CStrings:  1267
+-  CStrings:  1626
++  CStrings:  1634
  
 CStrings:
 + "dyldPlatform"

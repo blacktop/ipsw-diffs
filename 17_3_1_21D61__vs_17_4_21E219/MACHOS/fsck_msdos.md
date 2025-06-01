@@ -12,4 +12,13 @@
    __TEXT.__cstring: 0x117a
    __TEXT.__unwind_info: 0x110
 
+   __DATA.__common: 0x68
+   __DATA.__bss: 0x568
+   - /usr/lib/libSystem.B.dylib
+-  UUID: B8006C12-0822-3D8E-99E6-1CEFCDBBCCA1
++  UUID: F0BAB611-4035-3E1C-9F04-C3283080CD66
+   Functions: 67
+   Symbols:   43
+   CStrings:  137
+
 ```

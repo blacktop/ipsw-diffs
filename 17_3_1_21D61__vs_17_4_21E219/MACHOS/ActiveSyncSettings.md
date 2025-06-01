@@ -42,11 +42,15 @@
    __DATA.__objc_data: 0x640
    __DATA.__data: 0x5a0
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3322654-7B85-307A-A073-6A524C02B789
++  UUID: 06472E3C-3FD4-3D27-B903-C0F08FBC960A
    Functions: 489
    Symbols:   311
--  CStrings:  1408
-+  CStrings:  1411
+-  CStrings:  1600
++  CStrings:  1603
  
 CStrings:
 + "Received an SSL Error during auto discover. Canceling"

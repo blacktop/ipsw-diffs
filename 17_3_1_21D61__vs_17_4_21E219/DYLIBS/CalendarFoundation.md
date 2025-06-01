@@ -50,13 +50,16 @@
    __DATA_DIRTY.__objc_data: 0xff0
    __DATA_DIRTY.__data: 0xc0
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E59B26AE-DD5C-3D28-9158-7F6143446318
++  UUID: 963B47F3-0797-362A-8949-78A9DEA20F00
    Functions: 2393
 -  Symbols:   8203
--  CStrings:  4242
+-  CStrings:  5383
 +  Symbols:   8204
-+  CStrings:  4244
++  CStrings:  5386
  
 Symbols:
 + _CalRouteType_Bicycle

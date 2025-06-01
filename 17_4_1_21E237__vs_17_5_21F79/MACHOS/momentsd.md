@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5DB4B1A7-82E2-347B-BD02-BB98DF64FF6D
 -  Functions: 6199
 -  Symbols:   44046
--  CStrings:  11836
+-  CStrings:  15581
++  UUID: 4F56066F-B8F1-3EA8-A41B-14C4A4B395FC
 +  Functions: 6242
 +  Symbols:   44323
-+  CStrings:  11884
++  CStrings:  15637
  
 Symbols:
 + -[MODaemonClient _getClientsWithDataAccess:]

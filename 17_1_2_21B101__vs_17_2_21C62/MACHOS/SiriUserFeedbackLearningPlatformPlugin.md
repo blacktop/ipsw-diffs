@@ -18,4 +18,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 437D161D-EB9F-3DCC-A26B-EC14C38C5D67
++  UUID: 74081BAB-9A3E-3D82-BD79-2FD29B1B14A2
+   Functions: 28
+   Symbols:   65
+   CStrings:  55
+
 ```

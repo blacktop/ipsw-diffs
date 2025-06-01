@@ -34,11 +34,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32FE0827-192B-3C7E-ADA6-EBB81A0DD6F4
 -  Functions: 663
++  UUID: EB179AF0-6FD6-34D9-89A8-954EC4145A6B
 +  Functions: 664
    Symbols:   301
--  CStrings:  1761
-+  CStrings:  1769
+-  CStrings:  2051
++  CStrings:  2064
  
 CStrings:
 + "-[MapsConnectionBrokerServer listener:shouldAcceptNewConnection:]"

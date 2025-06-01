@@ -55,13 +55,16 @@
    __DATA.__common: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 463E665D-5EAB-3480-9859-273F1AC602DE
++  UUID: DC465B23-E69C-3FCC-8217-F2297435C5AD
    Functions: 546
 -  Symbols:   256
--  CStrings:  1286
+-  CStrings:  1634
 +  Symbols:   257
-+  CStrings:  1293
++  CStrings:  1641
  
 Symbols:
 + _clock_gettime_nsec_np

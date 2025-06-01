@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24D30F0D-29D0-330F-8FCF-2F59A9354ECF
 -  Functions: 623
 -  Symbols:   2484
--  CStrings:  1286
+-  CStrings:  1569
++  UUID: B266AC44-0C82-334D-8E09-2A71674C5B48
 +  Functions: 614
 +  Symbols:   2449
-+  CStrings:  1275
++  CStrings:  1550
  
 Symbols:
 + -[MSServiceAppInfo initWithServiceName:serviceBundleID:useInHome:subscriptionStatus:]

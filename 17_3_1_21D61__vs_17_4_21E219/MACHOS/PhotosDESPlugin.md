@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 648522DD-CBA9-37D8-96BE-B13AF0A8EC75
++  UUID: 2B59C2A7-574F-321F-8577-503B7DE5EEFB
    Functions: 9
    Symbols:   49
--  CStrings:  86
-+  CStrings:  87
+-  CStrings:  93
++  CStrings:  94
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -62,7 +62,6 @@
    __AUTH_CONST.__objc_dictobj: 0x1b8
    __AUTH_CONST.__objc_intobj: 0x468
    __AUTH_CONST.__objc_doubleobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xaef8
 -  __AUTH.__objc_data: 0x4920
 -  __AUTH.__data: 0x270
@@ -112,12 +111,14 @@
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 88612A15-F057-343D-B209-D7E518E3C90E
 -  Functions: 63987
 -  Symbols:   160737
--  CStrings:  24648
+-  CStrings:  26869
++  UUID: 2070C7A2-6AAF-39F1-B5C7-ABC26FBCAEB7
 +  Functions: 64561
 +  Symbols:   161987
-+  CStrings:  24778
++  CStrings:  27001
  
 Symbols:
 + +[WKProcessPool(WKPrivate) _gpuProcessInfo]

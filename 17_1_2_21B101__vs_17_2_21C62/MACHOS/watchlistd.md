@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69679E25-2B50-37FE-99FC-1EE2E4013B26
 -  Functions: 883
 -  Symbols:   2649
--  CStrings:  1963
+-  CStrings:  2427
++  UUID: 49FFAA71-632F-3A8A-A08B-28C84081F786
 +  Functions: 888
 +  Symbols:   2654
-+  CStrings:  1968
++  CStrings:  2436
  
 Symbols:
 + -[WLDPlaybackManager _promptForBundleID:completionHandler:]

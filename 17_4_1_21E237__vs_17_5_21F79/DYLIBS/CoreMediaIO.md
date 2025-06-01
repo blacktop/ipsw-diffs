@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4387962A-288B-3E08-A08B-A4360236C23C
++  UUID: 1B74C05F-8700-33DC-BEDB-373B8F41BA99
+   Functions: 1345
+   Symbols:   4107
+   CStrings:  2148
+
 ```

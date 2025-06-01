@@ -41,11 +41,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22BDBBA5-8419-3CB0-A095-DA6F74019D97
 -  Functions: 1102
++  UUID: 1FE5E685-8774-3989-9212-78A2C04CE5B2
 +  Functions: 1105
    Symbols:   530
--  CStrings:  2514
-+  CStrings:  2521
+-  CStrings:  2824
++  CStrings:  2831
  
 CStrings:
 + "[%{public}@][%{public}@]: Invalid SKProductPageExtensionInteractionType: %lu"

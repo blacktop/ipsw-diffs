@@ -51,12 +51,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3A03BB6C-3F05-3CE3-9478-BFF69D75A397
 -  Functions: 524
 -  Symbols:   320
--  CStrings:  4277
+-  CStrings:  4782
++  UUID: 0BA9A546-DC7C-3F06-823F-E15F617BB21A
 +  Functions: 525
 +  Symbols:   319
-+  CStrings:  4320
++  CStrings:  4826
  
 Symbols:
 + _CFBundleCopyBundleURL

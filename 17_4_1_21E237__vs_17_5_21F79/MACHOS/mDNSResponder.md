@@ -17,11 +17,15 @@
    __TEXT.__gcc_except_tab: 0xe4
    __TEXT.__oslogstring: 0x1a3e7
 
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 0FB88CA5-BA2C-32DB-8D28-CE9E4A9CF985
++  UUID: 60EDC8E9-5150-3AA5-91C5-28C9DEA26548
    Functions: 1758
    Symbols:   4140
--  CStrings:  4582
-+  CStrings:  4583
+-  CStrings:  4716
++  CStrings:  4717
  
 Symbols:
 + FreeARElemCallback.2846

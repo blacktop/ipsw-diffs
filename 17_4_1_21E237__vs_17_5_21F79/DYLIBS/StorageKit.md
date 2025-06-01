@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: F9DB96DE-5875-3F9A-BCB1-9CE851DE3DE7
 -  Functions: 1033
 -  Symbols:   3959
--  CStrings:  2016
+-  CStrings:  2383
++  UUID: 43135DA0-B3B0-3A30-BE30-311D8D0C5C9E
 +  Functions: 1036
 +  Symbols:   3966
-+  CStrings:  2018
++  CStrings:  2385
  
 Symbols:
 + -[SKDisk isRemovable]

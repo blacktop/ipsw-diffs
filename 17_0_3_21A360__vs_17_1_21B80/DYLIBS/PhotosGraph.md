@@ -54,7 +54,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x141e0
 +  __DATA_CONST.__objc_arraydata: 0x3a60
    __AUTH_CONST.__const: 0x1b7d0
-   __AUTH_CONST.__auth_ptr: 0x3e8
    __AUTH_CONST.__objc_const: 0x1b728
 -  __AUTH_CONST.__cfstring: 0x2a160
 -  __AUTH_CONST.__objc_intobj: 0x31f8
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0AF104CB-21AB-3534-93F6-EC8B1720F4E7
 -  Functions: 30034
 -  Symbols:   59240
--  CStrings:  27360
+-  CStrings:  32747
++  UUID: 1C943E04-D729-3592-9F48-DFCF37C8FC04
 +  Functions: 30110
 +  Symbols:   59454
-+  CStrings:  27520
++  CStrings:  32936
  
 Symbols:
 + +[PGManager(Consistency) _totalNumberOfIdenticalNodesFromNode1ByNode2:withNumberOfIdenticalNodesByDomain:loggingConnection:progressBlock:]

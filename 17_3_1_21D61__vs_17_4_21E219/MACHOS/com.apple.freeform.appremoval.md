@@ -32,11 +32,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E30C28EF-770C-3DC8-B9A5-5ED613A877B3
++  UUID: E5CF36CC-8BD6-305C-87AF-9C61E85A37BD
    Functions: 10
    Symbols:   192
--  CStrings:  76
-+  CStrings:  77
+-  CStrings:  79
++  CStrings:  80
  
 Symbols:
 + /Library/Caches/com.apple.xbs/Sources/Freeform/Source/AppRemoval/

@@ -26,9 +26,8 @@
 +  __DATA_CONST.__objc_classrefs: 0xf0
 +  __DATA_CONST.__objc_superrefs: 0x28
    __AUTH_CONST.__const: 0x430
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x1b0
-
+   __AUTH_CONST.__cfstring: 0x2a0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x2c8
    __AUTH.__objc_data: 0x190
@@ -38,11 +37,15 @@
    __DATA.__data: 0x2f0
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14BF3824-2B94-3489-A817-D7FF5BDD018B
++  UUID: D1EFF032-9983-3B0E-8713-40AD7F389715
    Functions: 270
    Symbols:   991
--  CStrings:  479
-+  CStrings:  480
+-  CStrings:  500
++  CStrings:  501
  
 CStrings:
 + "T@\"NSString\",?,R,C"

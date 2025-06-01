@@ -36,11 +36,15 @@
    __DATA.__objc_ivar: 0x10
    __DATA.__objc_data: 0xf0
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB3A2988-8B13-30C1-89E6-991DAD3E5A68
++  UUID: 9543649B-FE14-3B3C-A32D-C328A1BBF0A6
    Functions: 25
    Symbols:   57
--  CStrings:  263
-+  CStrings:  265
+-  CStrings:  266
++  CStrings:  269
  
 CStrings:
 + "boolValue"

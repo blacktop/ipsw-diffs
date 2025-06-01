@@ -47,8 +47,8 @@
    __AUTH_CONST.__cfstring: 0x2ea0
    __AUTH_CONST.__objc_const: 0x1800
 
+   __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x708
 -  __AUTH.__objc_data: 0x1060
 +  __AUTH.__objc_data: 0x1010
@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A826C0FA-DD04-33C3-A5D1-55F3BC3A8116
 -  Functions: 2413
 -  Symbols:   8359
--  CStrings:  4378
+-  CStrings:  4751
++  UUID: 4E98A5CE-7784-3218-8932-4F3D88A9FB7D
 +  Functions: 2418
 +  Symbols:   8375
-+  CStrings:  4410
++  CStrings:  4783
  
 Symbols:
 + -[BKUIFaceIDEnrollOperationsHandler needsCancellationForState:]

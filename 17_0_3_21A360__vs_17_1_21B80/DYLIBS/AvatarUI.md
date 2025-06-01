@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13E43946-D3F0-30CD-98DF-15655F77DF21
 -  Functions: 5902
 -  Symbols:   21514
--  CStrings:  8064
+-  CStrings:  8571
++  UUID: 90AE62DE-7945-3C4A-BB49-6A8FD228F4DF
 +  Functions: 5896
 +  Symbols:   21501
-+  CStrings:  8054
++  CStrings:  8561
  
 Symbols:
 + -[AVTPaddleView attachVideoController:]

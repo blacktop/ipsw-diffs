@@ -52,7 +52,6 @@
 -  __AUTH_CONST.__const: 0xcc0
 +  __AUTH_CONST.__const: 0xc00
    __AUTH_CONST.__objc_doubleobj: 0x4d0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xc10
 -  __AUTH.__objc_data: 0x38e0
 +  __AUTH.__objc_data: 0x34d0
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A6C633A-3109-30ED-8EB6-DE47AB2F0500
 -  Functions: 3250
 -  Symbols:   11695
--  CStrings:  6590
+-  CStrings:  7894
++  UUID: 1E3DA519-CDDD-3EE9-A880-7DEE72489CEC
 +  Functions: 3141
 +  Symbols:   11244
-+  CStrings:  6483
++  CStrings:  7781
  
 Symbols:
 - +[SBFCancelationToken tokenWithCancelationBlock:]

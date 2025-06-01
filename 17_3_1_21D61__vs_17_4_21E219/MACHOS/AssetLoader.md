@@ -30,11 +30,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/usd/libusd_ms.dylib
+-  UUID: BA375900-34C6-399F-AFC8-1668C2B6653A
++  UUID: EFD3C773-EC0D-321C-B910-63C9CDF56BEC
    Functions: 3
    Symbols:   29
--  CStrings:  61
-+  CStrings:  62
+-  CStrings:  63
++  CStrings:  64
  
 CStrings:
 + "T@\"NSString\",?,R,C"

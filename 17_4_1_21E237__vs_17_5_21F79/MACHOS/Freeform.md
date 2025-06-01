@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EF5F9885-92ED-344E-A005-9D0A1C6798BE
 -  Functions: 87107
 -  Symbols:   5537
--  CStrings:  47169
+-  CStrings:  50653
++  UUID: 48CF3904-11B8-30AF-8FCB-D81E3CE96238
 +  Functions: 87125
 +  Symbols:   5540
-+  CStrings:  47198
++  CStrings:  50682
  
 Symbols:
 + _OBJC_CLASS_$_PKHoverSettings

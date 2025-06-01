@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17EF3176-E77B-3EDF-B808-620D1C91094A
 -  Functions: 2090
 -  Symbols:   833
--  CStrings:  3643
+-  CStrings:  3900
++  UUID: C690D4F8-13A1-34FF-A343-E41C16FA5245
 +  Functions: 2092
 +  Symbols:   834
-+  CStrings:  3646
++  CStrings:  3903
  
 Symbols:
 + _$s15ConversationKit15RecentsCallItemV07recentsD8Metadata8contacts5title8subtitle14forcedSubtitle14senderIdentity15occurrenceCount15applicationIcon4typeACSgAA06RecentdteG0V_SaySo9CNContactCGSSSgA4SSo7UIImageCSgAA0cdE4TypeOSgtcfC

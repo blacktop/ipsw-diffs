@@ -33,13 +33,16 @@
    __AUTH_CONST.__auth_got: 0x210
    __DATA.__objc_protorefs: 0x8
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 193AE7F8-A272-39B8-959E-091F23290C87
++  UUID: F910BD08-5D3B-392D-A9A4-22DBCC5BB2B4
    Functions: 164
 -  Symbols:   702
--  CStrings:  406
+-  CStrings:  577
 +  Symbols:   703
-+  CStrings:  407
++  CStrings:  579
  
 Symbols:
 + _kDiagnosticCaseSummaryKeyCaseStatusDPSubmissionState

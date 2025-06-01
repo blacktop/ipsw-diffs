@@ -64,10 +64,8 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x80988
--  __AUTH_CONST.__auth_ptr: 0x1918
 -  __AUTH_CONST.__auth_got: 0x5f38
 +  __AUTH_CONST.__const: 0x809e0
-+  __AUTH_CONST.__auth_ptr: 0x1908
 +  __AUTH_CONST.__auth_got: 0x5f88
    __AUTH.__objc_data: 0x28540
 -  __AUTH.__data: 0x26370
@@ -89,12 +87,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1BAA8632-B6D0-30D6-8557-F322EFDC010A
 -  Functions: 57508
 -  Symbols:   16645
--  CStrings:  9491
+-  CStrings:  9517
++  UUID: 8E24C381-41E5-3CEE-A8B9-ACF2A53AECA0
 +  Functions: 57303
 +  Symbols:   16637
-+  CStrings:  9540
++  CStrings:  9566
  
 Symbols:
 + __OBJC_$_PROP_LIST_SMUFocusedSheetPresentationController.76

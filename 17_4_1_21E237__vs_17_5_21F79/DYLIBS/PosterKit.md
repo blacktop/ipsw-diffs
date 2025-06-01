@@ -40,8 +40,8 @@
    __DATA_CONST.__objc_classrefs: 0x1058
    __DATA_CONST.__objc_superrefs: 0x728
 
+   __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0xf40
 -  __AUTH.__objc_data: 0x2ec8
@@ -68,11 +68,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47AFAD5F-3B71-3DF7-B87C-EFFB3E6E3553
 -  Functions: 7576
 -  Symbols:   24381
++  UUID: 47A2D051-46EC-3F85-9504-CFB78860E95F
 +  Functions: 7579
 +  Symbols:   24383
-   CStrings:  10444
+   CStrings:  11503
  
 Symbols:
 + -[PRSceneViewController _depthEffectDisallowed]

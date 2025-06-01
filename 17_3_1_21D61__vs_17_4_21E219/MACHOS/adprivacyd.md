@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AdCore.framework/AdCore
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 985253C7-0D28-3FEF-9A7F-9F8CCF88E940
++  UUID: 65ACC837-161F-32E4-AA93-AD3A38505770
+   Functions: 3
+   Symbols:   37
+   CStrings:  42
+
 ```

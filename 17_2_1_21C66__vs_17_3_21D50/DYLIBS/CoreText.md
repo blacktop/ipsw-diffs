@@ -28,7 +28,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xc878
    __AUTH_CONST.__const: 0x51e0
    __AUTH_CONST.__cfstring: 0x18940
-   __AUTH_CONST.__auth_ptr: 0x88
    __AUTH_CONST.__objc_const: 0x4c8
 -  __AUTH_CONST.__objc_dictobj: 0x29e0
 +  __AUTH_CONST.__objc_dictobj: 0x2a30
@@ -63,10 +62,12 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 269A9E12-DA5B-3414-9214-EDCF2A7AD4BC
 -  Functions: 4964
++  UUID: 825EBDCE-9F51-3E0F-AB56-A785F622030D
 +  Functions: 4960
    Symbols:   11728
-   CStrings:  3310
+   CStrings:  6456
  
 Symbols:
 + __MergedGlobals.158

@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5A7BE5A1-9A4B-38AB-A2B1-056D6EA45D6B
 -  Functions: 2004
 -  Symbols:   461
--  CStrings:  2740
+-  CStrings:  2838
++  UUID: B1DB5A01-E78B-3D63-A8B6-E0D51091200C
 +  Functions: 2013
 +  Symbols:   460
-+  CStrings:  2744
++  CStrings:  2844
  
 Symbols:
 + _dispatch_group_notify

@@ -12,7 +12,7 @@
    __TEXT.__objc_methlist: 0x40474
    __TEXT.__const: 0x1c1f5
 
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__objc_doubleobj: 0x3c0
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__auth_got: 0x1800
 -  __AUTH.__objc_data: 0xc350
@@ -33,6 +33,15 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
    - /System/Library/Frameworks/AddressBook.framework/AddressBook
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 91E30367-41C8-354D-A1BF-A1A9042F6F2F
++  UUID: 06ACD69B-3997-3B3A-BA1E-D01E410F7056
+   Functions: 36749
+   Symbols:   111101
+   CStrings:  45843
 Symbols:
 + ___block_descriptor_64_e8_32s40r_e47_B104?0q8q16[16C]24d32d40q48q56d64d72d80q88^96ls32l8r40l8
 - ___block_descriptor_56_e8_32s40r_e47_B104?0q8q16[16C]24d32d40q48q56d64d72d80q88^96ls32l8r40l8

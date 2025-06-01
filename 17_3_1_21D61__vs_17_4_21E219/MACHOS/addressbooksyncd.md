@@ -54,10 +54,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A8A3E39E-DBE9-313F-AE27-CD643AF050C3
 -  Functions: 1505
++  UUID: 66974B38-3F46-38D2-A376-EFABF043CCBC
 +  Functions: 1506
    Symbols:   401
-   CStrings:  2667
+   CStrings:  3070
  
 CStrings:
 + "== Started AddressBookSync-278.4.2"

@@ -26,11 +26,15 @@
    __DATA_CONST.__objc_catlist: 0x28
    __DATA_CONST.__objc_protolist: 0x10
 
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 44F0B1CF-B509-3330-9BB7-71A426614FC3
++  UUID: 359AB422-57CE-337D-BE8F-D4C3128C9A78
    Functions: 1034
    Symbols:   357
--  CStrings:  1968
-+  CStrings:  1971
+-  CStrings:  2498
++  CStrings:  2504
  
 CStrings:
 + "/var/MobileAsset"

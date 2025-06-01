@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F7013EB5-D05F-38C4-8A95-E32B0555B780
 -  Functions: 298
 -  Symbols:   1072
--  CStrings:  604
+-  CStrings:  676
++  UUID: C9FB49AE-D24E-3CD7-9389-E16568C84693
 +  Functions: 344
 +  Symbols:   1261
-+  CStrings:  679
++  CStrings:  753
  
 Symbols:
 + -[PPSClient metricCollection]

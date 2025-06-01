@@ -42,11 +42,15 @@
    __DATA.__data: 0x1980
    __DATA.__bss: 0x70
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0A8A5A9-E3F1-3C5D-8C95-C8BF46DF1236
++  UUID: 376DBAB1-597C-3188-9463-AE484B68C5CB
    Functions: 4167
    Symbols:   13485
--  CStrings:  5083
-+  CStrings:  5084
+-  CStrings:  5382
++  CStrings:  5383
  
 Symbols:
 + ___101-[COMessagingService sendRequestWithPayload:payloadType:requestType:requestID:members:activityToken:]_block_invoke.102

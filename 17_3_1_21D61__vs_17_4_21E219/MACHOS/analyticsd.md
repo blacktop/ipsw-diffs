@@ -67,12 +67,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CCEC19FE-AF2A-358B-BF11-106EBE5A798A
 -  Functions: 5343
 -  Symbols:   612
--  CStrings:  2887
+-  CStrings:  2956
++  UUID: 58DF378B-EB5E-35CF-82FA-2A4842EB58FC
 +  Functions: 5091
 +  Symbols:   592
-+  CStrings:  2810
++  CStrings:  2885
  
 Symbols:
 + __ZNSt3__15mutex4lockEv

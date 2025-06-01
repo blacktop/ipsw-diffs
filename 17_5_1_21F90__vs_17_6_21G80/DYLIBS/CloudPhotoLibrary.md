@@ -85,12 +85,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E4E1F5C-D5AA-3576-858D-5BB3E0616525
 -  Functions: 7415
 -  Symbols:   22973
--  CStrings:  11001
+-  CStrings:  13433
++  UUID: 2BCAA4F0-5B13-3B94-B14C-F7DF762131F3
 +  Functions: 7602
 +  Symbols:   23542
-+  CStrings:  11214
++  CStrings:  13694
  
 Symbols:
 + +[CPLAssetChange(DefaultsSupport) serverSupportsComputeState]

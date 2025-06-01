@@ -83,7 +83,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x258
--  __AUTH_CONST.__auth_ptr: 0x70
 -  __AUTH_CONST.__auth_got: 0xe08
 -  __AUTH.__objc_data: 0x3600
 -  __AUTH.__data: 0x2a0
@@ -96,7 +95,6 @@
 -  __DATA.__bss: 0xac0
 -  __DATA.__common: 0x18
 -  __DATA_DIRTY.__objc_data: 0x960
-+  __AUTH_CONST.__auth_ptr: 0x90
 +  __AUTH_CONST.__auth_got: 0x1128
 +  __AUTH.__objc_data: 0x3bc8
 +  __AUTH.__data: 0x3f0
@@ -137,12 +135,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14100B9B-8956-3BC1-816A-3FAC380B97DD
 -  Functions: 4556
 -  Symbols:   13627
--  CStrings:  6797
+-  CStrings:  8049
++  UUID: 7D4A6814-F205-3B93-9363-5122F9400EC8
 +  Functions: 4886
 +  Symbols:   14085
-+  CStrings:  7012
++  CStrings:  8275
  
 Symbols:
 + +[PSListController(PIN) st_sharedPINSpecifier]

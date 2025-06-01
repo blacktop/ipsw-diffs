@@ -45,11 +45,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 527033A9-6B70-3D50-B700-4E61DEDA4DDD
 -  Functions: 2590
++  UUID: 369A24BC-94E7-3C76-B30C-2121322AA173
 +  Functions: 2592
    Symbols:   556
--  CStrings:  4962
-+  CStrings:  4963
+-  CStrings:  5617
++  CStrings:  5618
  
 CStrings:
 + "bl_securelyCodableError"

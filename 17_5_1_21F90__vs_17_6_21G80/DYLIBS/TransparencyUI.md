@@ -39,13 +39,16 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x320
 
+   - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27069BF1-E1BE-3143-9333-3A1D383CC5EC
++  UUID: DE5BD1F1-6728-3F65-BC67-B58894CC12A7
    Functions: 1511
 -  Symbols:   5425
--  CStrings:  2207
+-  CStrings:  2425
 +  Symbols:   5427
-+  CStrings:  2208
++  CStrings:  2427
  
 Symbols:
 + GCC_except_table74

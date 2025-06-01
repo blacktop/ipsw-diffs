@@ -52,11 +52,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BFD91C85-4FEB-3A5A-BF30-BAB61E4CD5D7
 -  Functions: 3984
++  UUID: 3367164A-EF73-36B8-ADF8-7AA9C63E32BA
 +  Functions: 3985
    Symbols:   499
--  CStrings:  11293
-+  CStrings:  11299
+-  CStrings:  13246
++  CStrings:  13256
  
 CStrings:
 + "%du"

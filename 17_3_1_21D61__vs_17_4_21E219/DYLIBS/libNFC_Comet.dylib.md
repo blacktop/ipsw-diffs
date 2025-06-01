@@ -18,7 +18,6 @@
    __DATA_CONST.__got: 0x8
    __DATA_CONST.__const: 0x1f0
    __AUTH_CONST.__const: 0x440
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x170
 -  __AUTH.__data: 0x3bc8
 +  __AUTH.__data: 0x3bd8
@@ -29,9 +28,11 @@
    __DATA_DIRTY.__bss: 0x4f
    - /usr/lib/libNFC_HAL.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: C58CC0A2-7C4A-3ACF-BEB9-D20695B43F9B
 -  Functions: 1976
 -  Symbols:   136
 -  CStrings:  5695
++  UUID: 80E81562-12D8-340E-82D9-6F66ED0AFB64
 +  Functions: 1998
 +  Symbols:   144
 +  CStrings:  5742

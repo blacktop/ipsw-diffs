@@ -29,7 +29,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/BrailleTranslation.framework/BrailleTranslation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB828A77-D453-3D68-A9C7-3F25F99117F4
++  UUID: D9D4A818-7450-39E2-B886-832F00B9B8EE
    Functions: 3
    Symbols:   24
 -  CStrings:  54

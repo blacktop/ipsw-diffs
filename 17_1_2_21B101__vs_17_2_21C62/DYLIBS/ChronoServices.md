@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5F1C645A-FE65-3749-B1B8-A6276B645669
 -  Functions: 2709
 -  Symbols:   7127
--  CStrings:  2579
+-  CStrings:  3008
++  UUID: B815CEFF-9DF5-3BFF-8880-4A6A8D1FF43E
 +  Functions: 2710
 +  Symbols:   7130
-+  CStrings:  2583
++  CStrings:  3013
  
 Symbols:
 + -[CHSBaseDescriptor preferredBackgroundStyle]

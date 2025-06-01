@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CA71372-F849-3F7A-8E64-CC7039AA6AC3
++  UUID: 1CFD2D18-CFE0-3C9C-80F7-CBD7B7EBA106
    Functions: 3
    Symbols:   26
--  CStrings:  13
-+  CStrings:  14
+-  CStrings:  15
++  CStrings:  16
  
 CStrings:
 + "blockUntilConnected"

@@ -32,12 +32,14 @@
    - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 7B251F8F-CEA9-308A-AD9B-F2A7A0D5AF85
 -  Functions: 13812
 -  Symbols:   37140
--  CStrings:  3919
+-  CStrings:  3935
++  UUID: 571C9998-EE7C-3D9E-946F-779AEE761332
 +  Functions: 13772
 +  Symbols:   37048
-+  CStrings:  3916
++  CStrings:  3932
  
 Symbols:
 + __ZN17cast_message_typeIRKN3dsd18RegisterIndication8ResponseEE4castERK13QMIServiceMsg

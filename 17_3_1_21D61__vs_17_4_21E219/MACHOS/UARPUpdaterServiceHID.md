@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0B2C8C82-602E-301D-9CA3-99B4C2536740
 -  Functions: 639
 -  Symbols:   445
--  CStrings:  878
+-  CStrings:  911
++  UUID: 3B277014-5E69-380E-BDDF-AC0C6E376B31
 +  Functions: 695
 +  Symbols:   497
-+  CStrings:  880
++  CStrings:  913
  
 Symbols:
 + _UARPLayer2ActiveFirmwareVersion2

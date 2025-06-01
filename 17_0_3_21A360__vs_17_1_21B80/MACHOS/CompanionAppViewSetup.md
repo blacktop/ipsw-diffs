@@ -65,12 +65,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41A47752-E837-38F7-8424-E4C86827B6E6
 -  Functions: 282
 -  Symbols:   219
--  CStrings:  465
+-  CStrings:  487
++  UUID: 1269EE8D-2BEA-36E7-A27C-12E3844022A7
 +  Functions: 33
 +  Symbols:   66
-+  CStrings:  168
++  CStrings:  176
  
 Symbols:
 - _BPSGetActiveSetupCompletedDevice

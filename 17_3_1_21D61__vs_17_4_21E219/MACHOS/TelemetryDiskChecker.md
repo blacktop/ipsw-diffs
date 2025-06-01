@@ -70,12 +70,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 90051C46-B842-353B-A591-03B26E1B0A5D
 -  Functions: 211
 -  Symbols:   168
--  CStrings:  630
+-  CStrings:  674
++  UUID: 88FAB3AF-3EB0-3BE9-90C2-59399BFA59BF
 +  Functions: 128
 +  Symbols:   139
-+  CStrings:  442
++  CStrings:  467
  
 Symbols:
 + _OBJC_CLASS_$_BRCPQLConnection
@@ -121,6 +123,7 @@ CStrings:
 + "T@\"NSString\",?,R,C"
 + "[DEBUG] Skipping checksumming package at %@%@"
 + "packageItemsForFileObjectID:order:db:"
+- ""
 - "\x01a"
 - "    %@\n"
 - " (for statement %@)"

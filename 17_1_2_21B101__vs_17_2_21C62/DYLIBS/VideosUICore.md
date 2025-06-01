@@ -76,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 238AAD69-254A-321A-B0D0-2A0DD8594070
 -  Functions: 1523
 -  Symbols:   5758
--  CStrings:  3345
+-  CStrings:  3991
++  UUID: 0439C1D8-3B63-335B-8D87-1F4E5108CB29
 +  Functions: 1555
 +  Symbols:   5856
-+  CStrings:  3383
++  CStrings:  4033
  
 Symbols:
 + +[UIImage(VideosUICore) vuiImageNamed:]

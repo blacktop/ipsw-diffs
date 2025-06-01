@@ -14,10 +14,12 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9A16DAE5-31B6-3DA0-A860-7E9092D6E8F5
 -  Functions: 626
++  UUID: 80B4F058-8CFD-3D67-B93B-5D9A79229F06
 +  Functions: 628
    Symbols:   1869
-   CStrings:  463
+   CStrings:  588
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006Emc

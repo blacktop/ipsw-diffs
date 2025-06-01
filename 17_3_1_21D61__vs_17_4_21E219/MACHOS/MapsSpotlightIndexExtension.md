@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /System/Library/PrivateFrameworks/MapsSupport.framework/MapsSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AAF69D63-D1FB-3340-A038-445F0A570445
++  UUID: 2AF4F599-506B-312E-B1E1-0AA6103807A9
+   Functions: 2
+   Symbols:   25
+   CStrings:  21
+
 ```

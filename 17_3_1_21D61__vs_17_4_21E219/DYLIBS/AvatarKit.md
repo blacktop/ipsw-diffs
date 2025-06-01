@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__objc_dictobj: 0x4eca0
 +  __AUTH_CONST.__objc_dictobj: 0x4ecc8
    __AUTH_CONST.__objc_doubleobj: 0x710
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x6e8
 -  __AUTH.__objc_data: 0x15b8
 -  __DATA.__objc_protorefs: 0x8
@@ -85,12 +84,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6ABA1B13-5DA7-3DC0-9DA3-C7A8F8DFE754
 -  Functions: 2326
 -  Symbols:   25627
--  CStrings:  7713
+-  CStrings:  11860
++  UUID: 14E64B6C-9CE3-3001-9A83-B9A921288285
 +  Functions: 2336
 +  Symbols:   25667
-+  CStrings:  7728
++  CStrings:  11875
  
 Symbols:
 + -[AVTAvatar addDidUpdateAfterAnimationsEvaluatedAtTimeCallbackForKey:block:]

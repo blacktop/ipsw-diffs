@@ -53,11 +53,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A0403C28-D3A2-3CE8-AF55-182676BF88A6
 -  Functions: 293
++  UUID: 4241D526-2D4F-319B-8A81-4D077F88C23A
 +  Functions: 295
    Symbols:   169
--  CStrings:  900
-+  CStrings:  905
+-  CStrings:  1078
++  CStrings:  1084
  
 CStrings:
 + "%{public}@ retries evaluation for error: %@ lockoutRecovery:%@ nonInteractive:%@"

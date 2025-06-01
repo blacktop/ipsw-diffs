@@ -43,13 +43,16 @@
    - /System/Library/Frameworks/ColorSync.framework/ColorSync
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EF5F8DB5-4C61-32B2-A65C-43AC0469DA0C
++  UUID: 5A4A07D6-4599-315B-89CF-681752E53544
    Functions: 12983
 -  Symbols:   32571
--  CStrings:  11323
+-  CStrings:  12806
 +  Symbols:   32572
-+  CStrings:  11327
++  CStrings:  12810
  
 Symbols:
 + __ZN10IIOScanner8getVal24Ev

@@ -71,10 +71,8 @@
 +  __DATA_CONST.__objc_selrefs: 0x7508
    __DATA_CONST.__objc_arraydata: 0x268
 -  __AUTH_CONST.__const: 0x15450
--  __AUTH_CONST.__auth_ptr: 0x348
 -  __AUTH_CONST.__objc_const: 0x4528
 +  __AUTH_CONST.__const: 0x16418
-+  __AUTH_CONST.__auth_ptr: 0x398
 +  __AUTH_CONST.__objc_const: 0x4568
    __AUTH_CONST.__cfstring: 0x4f40
    __AUTH_CONST.__objc_intobj: 0x5b8
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F951B5B-92C1-309B-B9C4-D350D23C533B
 -  Functions: 17402
 -  Symbols:   18896
--  CStrings:  8547
+-  CStrings:  9181
++  UUID: 56775345-9EFD-34F0-B8ED-3C92DCA65051
 +  Functions: 18085
 +  Symbols:   19173
-+  CStrings:  8624
++  CStrings:  9258
  
 Symbols:
 + -[WFAppSearchViewController searchBarTextDidEndEditing:]

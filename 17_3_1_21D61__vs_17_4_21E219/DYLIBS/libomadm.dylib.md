@@ -19,7 +19,6 @@
    __DATA_CONST.__got: 0xd0
    __DATA_CONST.__const: 0x17d8
    __AUTH_CONST.__const: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__cfstring: 0xc0
 -  __AUTH_CONST.__auth_got: 0x520
 +  __AUTH_CONST.__auth_got: 0x518
@@ -30,11 +29,13 @@
    - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: E25E1321-9834-360D-8A12-0A05553757F9
 -  Functions: 1652
 -  Symbols:   2265
++  UUID: 45D7ED0F-8E26-3B9F-829A-A73A25E580BE
 +  Functions: 1653
 +  Symbols:   2266
-   CStrings:  1874
+   CStrings:  1880
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

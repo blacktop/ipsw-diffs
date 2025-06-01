@@ -36,4 +36,13 @@
    - /usr/lib/system/libcompiler_rt.dylib
    - /usr/lib/system/libcorecrypto.dylib
 
+   - /usr/lib/system/libsystem_symptoms.dylib
+   - /usr/lib/system/libunwind.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 3E2E092B-B432-3E40-AAB0-47E2431E03CF
++  UUID: 430AB6ED-EC60-3054-9D48-9C2E916433F6
+   Functions: 307
+   Symbols:   929
+   CStrings:  412
+
 ```

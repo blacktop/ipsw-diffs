@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_dictobj: 0x848
    __AUTH_CONST.__objc_arrayobj: 0x540
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x670
 -  __AUTH.__objc_data: 0x7bc0
 -  __DATA.__objc_protorefs: 0x98
@@ -82,12 +81,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 57031298-2262-31F1-87F1-285D547D6ABA
 -  Functions: 12575
 -  Symbols:   40259
--  CStrings:  18579
+-  CStrings:  23099
++  UUID: 2047827E-DD0A-3983-8F91-5338CA92D234
 +  Functions: 12547
 +  Symbols:   40214
-+  CStrings:  18631
++  CStrings:  23176
  
 Symbols:
 + +[HMAccessory(NetworkRouter) networkRouterStatusFromRouterStatus:wanStatusListData:]

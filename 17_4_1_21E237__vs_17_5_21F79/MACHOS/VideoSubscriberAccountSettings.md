@@ -30,11 +30,15 @@
    __DATA.__objc_ivar: 0x68
    __DATA.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/VideosUI.framework/VideosUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 517D4E0E-92B8-399B-B086-B13BAFA617D7
++  UUID: B290D2E6-9549-3AE2-B2D2-8506B87C9904
    Functions: 206
    Symbols:   176
--  CStrings:  579
-+  CStrings:  581
+-  CStrings:  620
++  CStrings:  622
  
 CStrings:
 + "identityProviderRequestManager:didUpdateLogoViewModel:"

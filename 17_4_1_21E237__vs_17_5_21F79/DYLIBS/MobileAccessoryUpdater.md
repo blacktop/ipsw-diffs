@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1892
    __TEXT.__objc_methtype: 0x86b
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0EA9C29C-3805-3285-8CC9-2D46CEA342F4
++  UUID: 430CC06C-D3D8-3A9F-B987-DD47279340FE
+   Functions: 228
+   Symbols:   972
+   CStrings:  880
+
 ```

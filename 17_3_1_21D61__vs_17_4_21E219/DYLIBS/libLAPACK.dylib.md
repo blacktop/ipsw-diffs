@@ -20,7 +20,6 @@
    __TEXT.__eh_frame: 0xcb8
    __DATA_CONST.__got: 0x40
    __DATA_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x670
    __AUTH_CONST.__auth_got: 0x1058
    __DATA.__data: 0x33b0
 -  __DATA.__bss: 0xc60
@@ -31,7 +30,9 @@
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 3EFED75F-54B0-388B-92A6-36030446FA4A
 -  Functions: 12891
++  UUID: 1011BFF0-4D7D-3017-9C7D-A76D58C8EEA4
 +  Functions: 12938
    Symbols:   6004
 -  CStrings:  1668

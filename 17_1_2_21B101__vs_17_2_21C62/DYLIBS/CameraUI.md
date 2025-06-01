@@ -57,7 +57,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0xaf8
 +  __AUTH_CONST.__objc_arrayobj: 0xb28
    __AUTH_CONST.__const: 0xa80
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x1060
 -  __AUTH.__objc_data: 0x29b8
@@ -94,12 +93,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 045B87CE-52F5-39A0-BC95-FEF52D5DC036
 -  Functions: 13676
 -  Symbols:   46656
--  CStrings:  22268
+-  CStrings:  24633
++  UUID: 15D0EC3D-A23E-322A-A53A-B708C21F393C
 +  Functions: 13806
 +  Symbols:   47094
-+  CStrings:  22477
++  CStrings:  24865
  
 Symbols:
 + +[CAMAccountController _isRealityDevice:]

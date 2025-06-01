@@ -23,7 +23,9 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 2B91817E-C089-3D38-9938-7BC6157CAAE4
 -  Functions: 416
++  UUID: 5090B1E6-730A-3E1E-8DA6-E4EECC8C1D7D
 +  Functions: 417
    Symbols:   977
    CStrings:  513

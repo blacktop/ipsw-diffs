@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03E232C9-EAAC-307C-B681-FEC8847264A7
 -  Functions: 234
 -  Symbols:   336
--  CStrings:  257
+-  CStrings:  259
++  UUID: 0CDD1B5F-6F15-39C0-8B0A-A6DD2963C5EC
 +  Functions: 434
 +  Symbols:   610
-+  CStrings:  445
++  CStrings:  456
  
 Symbols:
 + _GEOConfigGetDouble

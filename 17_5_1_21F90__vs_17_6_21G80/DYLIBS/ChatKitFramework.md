@@ -34,13 +34,16 @@
    __DATA_CONST.__objc_superrefs: 0x3f0
    __AUTH_CONST.__cfstring: 0xa8c0
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5B0612A-C790-3E0C-A771-4B37C35A355B
++  UUID: C25ACC8E-801D-3BE3-93D7-CEFA773D6C62
    Functions: 1458
 -  Symbols:   5748
--  CStrings:  2639
+-  CStrings:  3989
 +  Symbols:   5750
-+  CStrings:  2640
++  CStrings:  3990
  
 Symbols:
 + _UIAccessibilityTokenSystemNotificationAlert

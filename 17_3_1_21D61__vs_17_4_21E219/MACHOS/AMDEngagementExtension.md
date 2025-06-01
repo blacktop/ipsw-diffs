@@ -32,11 +32,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C9315F6-0F82-3FA9-A1FF-49EA56B2F1C3
++  UUID: CD021115-26AB-3E5A-BFD5-178449DA5042
    Functions: 5
    Symbols:   27
--  CStrings:  61
-+  CStrings:  62
+-  CStrings:  65
++  CStrings:  66
  
 CStrings:
 + "T@\"NSString\",?,R,C"

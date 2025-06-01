@@ -28,10 +28,8 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x20
 -  __AUTH_CONST.__const: 0x360
--  __AUTH_CONST.__auth_ptr: 0x60
 +  __DATA_CONST.__objc_classrefs: 0x18
 +  __AUTH_CONST.__const: 0x1448
-+  __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__cfstring: 0x280
 -  __AUTH_CONST.__auth_got: 0xdc8
 +  __AUTH_CONST.__auth_got: 0xdc0
@@ -57,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 42EA1A3C-3842-3D51-BEA7-2774653CF007
 -  Functions: 6486
 -  Symbols:   585
--  CStrings:  1110
+-  CStrings:  1130
++  UUID: 930F1CD0-4712-3236-93FB-694524C9802E
 +  Functions: 6601
 +  Symbols:   582
-+  CStrings:  1204
++  CStrings:  1224
  
 Symbols:
 + __ZNSt13runtime_errorC1ERKS_

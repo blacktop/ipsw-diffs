@@ -55,7 +55,6 @@
 +  __DATA_CONST.__objc_const: 0x6900
 +  __DATA_CONST.__objc_selrefs: 0x1c38
 +  __AUTH_CONST.__const: 0x11c40
-   __AUTH_CONST.__auth_ptr: 0x428
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x620
 -  __AUTH_CONST.__auth_got: 0x14c0
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DDC0B5A-0B43-3E4E-9A7A-76AE6B0497EF
 -  Functions: 8761
 -  Symbols:   2893
--  CStrings:  3701
+-  CStrings:  3750
++  UUID: 2ED0B5AC-393E-355E-86E2-3545F92D2F52
 +  Functions: 8814
 +  Symbols:   2904
-+  CStrings:  3730
++  CStrings:  3779
  
 Symbols:
 + _OBJC_CLASS_$_MPModelLibraryFavoriteEntityChangeRequest

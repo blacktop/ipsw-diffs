@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x708
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xcc0
 -  __AUTH.__objc_data: 0x960
 +  __AUTH_CONST.__auth_got: 0xcb8
@@ -68,12 +67,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 956A30EE-74EA-3AD4-9B6B-6519EFB73962
 -  Functions: 4289
 -  Symbols:   13365
--  CStrings:  7516
+-  CStrings:  9213
++  UUID: 6C96A9CF-F497-377A-9BA5-FEACF68AC41E
 +  Functions: 4294
 +  Symbols:   13359
-+  CStrings:  7509
++  CStrings:  9207
  
 Symbols:
 + +[CSTopHitQuery sortSearchableItems:]

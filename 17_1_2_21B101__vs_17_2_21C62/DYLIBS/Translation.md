@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE7565FB-D1F1-39D0-B2F2-F1B388FEF4B9
 -  Functions: 1375
 -  Symbols:   4491
--  CStrings:  2076
+-  CStrings:  2354
++  UUID: CDC0F4EA-28B1-34D0-8E9A-31AE91AFC9EA
 +  Functions: 1379
 +  Symbols:   4503
-+  CStrings:  2082
++  CStrings:  2362
  
 Symbols:
 + -[_LTSpeakRequest muteTTSBasedOnRingerSwitchIfPossible]

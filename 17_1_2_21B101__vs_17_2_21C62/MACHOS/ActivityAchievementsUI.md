@@ -56,12 +56,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0277AD3A-D689-3690-B41C-DA06662C6863
 -  Functions: 11
 -  Symbols:   72
--  CStrings:  42
+-  CStrings:  52
++  UUID: F941CA9B-0A8F-3880-A3DC-82E5EF8EDA4B
 +  Functions: 17
 +  Symbols:   100
-+  CStrings:  67
++  CStrings:  85
  
 Symbols:
 + +[AAUIBadgeViewAccessibility _accessibilityPerformValidations:]

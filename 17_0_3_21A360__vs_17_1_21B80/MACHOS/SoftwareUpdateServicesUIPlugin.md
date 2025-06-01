@@ -58,11 +58,13 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C572AD5-1A37-3178-B4A2-7FDF9CBF9A6C
 -  Functions: 988
++  UUID: F56F755D-DDB0-3A8F-93E1-F17D123010AE
 +  Functions: 982
    Symbols:   321
--  CStrings:  1866
-+  CStrings:  1880
+-  CStrings:  2218
++  CStrings:  2235
  
 CStrings:
 + "%s: [DDM] Directly install the update on a shared iPad"

@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x4b0
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/iCalendar.framework/iCalendar
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FABE21BE-9E1E-360E-88ED-D9A75B592668
++  UUID: 37283C9A-930C-366F-9257-A5717ADD216F
    Functions: 311
    Symbols:   284
--  CStrings:  1140
-+  CStrings:  1141
+-  CStrings:  1211
++  CStrings:  1212
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -40,13 +40,16 @@
    __DATA.__data: 0x4e0
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A75BF38F-6033-3432-816F-EE3804565804
++  UUID: 65AFE07D-9010-3326-AEDD-E0C4038585FE
    Functions: 369
 -  Symbols:   1552
--  CStrings:  793
+-  CStrings:  901
 +  Symbols:   1485
-+  CStrings:  794
++  CStrings:  902
  
 Symbols:
 + ___78+[MLROnDemandPlugin _performTask:forPluginID:isSynchronous:completionHandler:]_block_invoke.57

@@ -24,11 +24,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4025DA1A-DE75-3F26-8421-8F56F2D4F336
 -  Functions: 2240
 -  Symbols:   7920
++  UUID: 047F82E0-0CC8-32AA-B8D5-6D1EE1BB6842
 +  Functions: 2243
 +  Symbols:   7926
-   CStrings:  4126
+   CStrings:  4841
  
 Symbols:
 + __ZN2KB22LanguageModelContainer6createERKNSt3__16vectorINS1_10shared_ptrINS_13LanguageModelEEENS1_9allocatorIS5_EEEERKNS2_IfNS6_IfEEEE

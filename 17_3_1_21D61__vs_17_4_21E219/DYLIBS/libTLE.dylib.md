@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A41FF3E-08DA-3E48-B56D-5558B58FB4F5
 -  Functions: 129
 -  Symbols:   488
--  CStrings:  133
+-  CStrings:  138
++  UUID: 8511480E-C160-37B3-8978-9F4A6B6FAD22
 +  Functions: 134
 +  Symbols:   504
-+  CStrings:  136
++  CStrings:  141
  
 Symbols:
 + +[LWCRFact boolFact:]

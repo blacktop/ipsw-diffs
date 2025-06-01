@@ -68,7 +68,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__auth_got: 0x1558
 -  __AUTH.__objc_data: 0x3390
 -  __AUTH.__data: 0x7d8
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ADD6DB42-9712-3266-99D2-C2D8DC5C8958
 -  Functions: 7830
 -  Symbols:   20054
--  CStrings:  10028
+-  CStrings:  11379
++  UUID: 6FD12013-2E26-32E5-B1D2-2E5ADE8621C2
 +  Functions: 7856
 +  Symbols:   20124
-+  CStrings:  10081
++  CStrings:  11433
  
 Symbols:
 + -[PBFComplicationSnapshotService _lock_trimCachedSnapshotsToRequests:]

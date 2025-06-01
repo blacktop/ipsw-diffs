@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7105ADE2-DFA6-3695-A9DD-DA58DC7FF4DC
 -  Functions: 1829
 -  Symbols:   6551
--  CStrings:  3867
+-  CStrings:  4514
++  UUID: 767DD3C9-F6AC-3A96-8453-5FF21D5C909B
 +  Functions: 1815
 +  Symbols:   6475
-+  CStrings:  3814
++  CStrings:  4452
  
 Symbols:
 + +[CSUtils isM9Device]

@@ -19,4 +19,13 @@
    __AUTH_CONST.__auth_got: 0x760
    __AUTH.__const_weak: 0x78
 
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 6E976FC3-8AA7-3BEE-930F-23C3AD77E551
++  UUID: B86D7F89-B536-303D-A330-372E2F83C5F3
+   Functions: 1373
+   Symbols:   3445
+   CStrings:  369
+
 ```

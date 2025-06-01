@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreSuggestionsInternals.framework/CoreSuggestionsInternals
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B961A26D-B965-3863-91CB-0C70E7C7AC00
++  UUID: EC04C488-967C-3A16-BCFB-4E0B007C9B68
+   Functions: 819
+   Symbols:   2634
+   CStrings:  1217
+
 ```

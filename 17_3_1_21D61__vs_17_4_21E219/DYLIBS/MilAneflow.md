@@ -34,6 +34,8 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: B440863A-4EEE-3065-8BF8-BEEE8D1EAD00
++  UUID: DCEC2053-584E-3FB5-91D0-BF22C82A966B
    Functions: 3610
 -  Symbols:   9125
 +  Symbols:   9117

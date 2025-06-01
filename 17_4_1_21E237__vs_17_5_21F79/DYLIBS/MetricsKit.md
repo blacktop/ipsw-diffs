@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libresolv.9.dylib
+-  UUID: 9005A9E7-C649-3FFB-BF90-AEEF2A53908F
++  UUID: 3D8B97E4-7526-3831-A8DA-769A804B42E5
+   Functions: 1679
+   Symbols:   6758
+   CStrings:  3578
+
 ```

@@ -34,11 +34,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3B0AAF2-F62F-3ED2-B57A-05818494E7F2
++  UUID: 0205DB29-3A60-30B2-9884-29B82D7B4850
    Functions: 26
    Symbols:   53
--  CStrings:  112
-+  CStrings:  113
+-  CStrings:  114
++  CStrings:  115
  
 CStrings:
 + "T@\"NSString\",?,R,C"

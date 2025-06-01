@@ -37,4 +37,13 @@
    - /System/Library/Frameworks/CoreML.framework/CoreML
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 33963FAB-F094-3FB6-80AD-8841AAF58834
++  UUID: 2B1CC453-FF9B-3100-8B62-6CB72469E858
+   Functions: 34
+   Symbols:   230
+   CStrings:  164
+
 ```

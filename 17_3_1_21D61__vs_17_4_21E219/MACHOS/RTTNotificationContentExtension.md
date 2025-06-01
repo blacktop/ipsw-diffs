@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F49437B1-CF23-35E9-B9CB-46919DEE572E
++  UUID: B82FBB4B-047C-34BB-9B76-91072F4FC9EC
    Functions: 9
    Symbols:   43
--  CStrings:  95
-+  CStrings:  96
+-  CStrings:  96
++  CStrings:  97
  
 CStrings:
 + "T@\"NSString\",?,R,C"

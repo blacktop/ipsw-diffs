@@ -32,11 +32,15 @@
    __DATA.__bss: 0xc0
    __DATA.__common: 0x8
 
+   - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49A4313C-BE44-324E-B27E-19A9D5A95611
++  UUID: 7D731938-7C4F-3259-8DD6-82CA839F2754
    Functions: 35
    Symbols:   52
--  CStrings:  452
-+  CStrings:  453
+-  CStrings:  789
++  CStrings:  790
  
 CStrings:
 + "T@\"NSString\",?,R,C"

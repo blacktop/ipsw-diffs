@@ -38,11 +38,15 @@
    __DATA.__bss: 0x60
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B13E80FC-E053-3CF2-A428-919A6A659C6F
++  UUID: 612F6D68-2283-32E0-974D-40783BEFB69A
    Functions: 37
    Symbols:   88
--  CStrings:  126
-+  CStrings:  128
+-  CStrings:  139
++  CStrings:  141
  
 CStrings:
 + "nrDevice"

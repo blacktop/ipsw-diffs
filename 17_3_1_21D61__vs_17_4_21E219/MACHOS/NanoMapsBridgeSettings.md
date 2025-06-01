@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F96C9C7D-38DB-3941-8BAC-D95A31322C23
 -  Functions: 216
 -  Symbols:   171
--  CStrings:  209
+-  CStrings:  239
++  UUID: 0CD19238-33ED-3F04-9E6C-EB4CC7403D8D
 +  Functions: 220
 +  Symbols:   173
-+  CStrings:  211
++  CStrings:  241
  
 Symbols:
 + _MAPSGetCustomPOIsControllerLog

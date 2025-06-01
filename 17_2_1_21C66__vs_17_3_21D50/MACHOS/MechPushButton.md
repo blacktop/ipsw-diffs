@@ -36,13 +36,16 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x20
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0695713D-CDAC-3CFC-A9CB-288DBD8CB664
++  UUID: 80AA2FBA-BBD2-3635-AA6E-B8E9E947A282
    Functions: 21
 -  Symbols:   49
--  CStrings:  147
+-  CStrings:  158
 +  Symbols:   50
-+  CStrings:  148
++  CStrings:  159
  
 Symbols:
 + _objc_retain_x22

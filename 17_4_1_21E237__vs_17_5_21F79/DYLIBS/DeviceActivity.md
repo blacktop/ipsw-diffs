@@ -33,7 +33,7 @@
    __TEXT.__objc_methname: 0x1147
    __TEXT.__objc_methtype: 0x51d
 
-   __AUTH_CONST.__auth_ptr: 0xa0
+   __AUTH_CONST.__const: 0x15b0
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x40
 -  __AUTH_CONST.__auth_got: 0xaf8
@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B3A0D7D-5FF2-3CEC-9F38-BFC6C1406613
 -  Functions: 2508
++  UUID: CF8E8390-33E4-33D4-BF7B-74EFD542803B
 +  Functions: 2521
    Symbols:   740
--  CStrings:  373
-+  CStrings:  374
+-  CStrings:  375
++  CStrings:  376
  
 CStrings:
 + "Not writing local start date: %{public}s because the current start date is earlier: %{public}s"

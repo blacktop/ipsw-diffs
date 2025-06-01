@@ -12,6 +12,15 @@
    __TEXT.__eh_frame: 0x1eb0
    __DATA_CONST.__auth_got: 0x1208
    __DATA_CONST.__got: 0x1518
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 5D167C64-E3D7-3531-820D-57AC2B382626
++  UUID: 913838AD-405D-3FD6-AD83-2C0E3724AA0E
+   Functions: 6922
+   Symbols:   1619
+   CStrings:  13886
 CStrings:
 + "21:47:59"
 + "Apr 17 2024"

@@ -44,8 +44,8 @@
    __DATA_CONST.__objc_classrefs: 0x428
    __DATA_CONST.__objc_superrefs: 0x248
 
+   __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_intobj: 0x450
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x9d8
 +  __AUTH_CONST.__auth_got: 0x9e0
@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9E6E6DDB-FB87-35BA-B5ED-14B5B0B982CA
 -  Functions: 3197
 -  Symbols:   10671
--  CStrings:  5471
+-  CStrings:  6185
++  UUID: A0C5E757-5014-378D-94F7-15ED409949EC
 +  Functions: 3203
 +  Symbols:   10690
-+  CStrings:  5482
++  CStrings:  6196
  
 Symbols:
 + +[NSString(BRPathAdditions) _br_containerPathForDataSeparatedPersona]

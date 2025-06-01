@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0x5104
    __TEXT.__objc_classname: 0x16f1
    __TEXT.__objc_methname: 0x1dc26
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F36F2042-05DF-3A16-9530-F66BDA1C728A
++  UUID: F32B3505-FA82-3E57-B70E-4B16C79CF213
+   Functions: 16810
+   Symbols:   15169
+   CStrings:  7076
 Symbols:
 + _HUShortcutsTriggerViewUtilitiesFunction.6298
 + _HomeUILibrary.sLib.6302

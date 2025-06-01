@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6885765A-B139-3F68-BECC-8A5E953D4135
 -  Functions: 16088
 -  Symbols:   2201
--  CStrings:  3023
+-  CStrings:  3109
++  UUID: 63CDB1EA-1985-3FB3-A9DB-B70621B6F4C4
 +  Functions: 16750
 +  Symbols:   2240
-+  CStrings:  3181
++  CStrings:  3267
  
 Symbols:
 + _$s10Foundation10CocoaErrorV14fileNoSuchFileAC4CodeVvgZ

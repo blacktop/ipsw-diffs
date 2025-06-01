@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 57493CCA-695D-3DB0-A0FF-ABE0BA0B9356
 -  Functions: 116
 -  Symbols:   603
--  CStrings:  390
+-  CStrings:  476
++  UUID: 8A91BEA5-E732-31D2-939C-DDEC3C4FA3D3
 +  Functions: 124
 +  Symbols:   638
-+  CStrings:  415
++  CStrings:  505
  
 Symbols:
 + -[SettingsController beginEnablementFlow:]

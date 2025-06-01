@@ -74,10 +74,12 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28808239-DCEA-3214-9040-3B6E8A8F5778
 -  Functions: 14812
++  UUID: 8B94ED94-9030-3504-863C-F07FEBE1CCBF
 +  Functions: 14819
    Symbols:   1388
-   CStrings:  5606
+   CStrings:  6248
  
 CStrings:
 + "_baxIsSettingSelectionTimer"

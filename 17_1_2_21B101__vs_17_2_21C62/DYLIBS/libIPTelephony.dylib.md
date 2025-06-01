@@ -20,11 +20,15 @@
    __TEXT.__unwind_info: 0x1306c
    __TEXT.__eh_frame: 0x38
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 7975B2ED-03C8-3445-97BC-887D08B02895
++  UUID: D4FBB63C-82F2-3528-AE2D-02D333F87A49
    Functions: 12923
    Symbols:   37427
--  CStrings:  8317
-+  CStrings:  8320
+-  CStrings:  8611
++  CStrings:  8614
  
 Symbols:
 + ___block_descriptor_tmp.388

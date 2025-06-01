@@ -38,9 +38,9 @@
    __AUTH_CONST.__objc_const: 0x12d8
 -  __AUTH_CONST.__const: 0x31160
 +  __AUTH_CONST.__const: 0x311c0
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__auth_got: 0x5850
 
    __DATA.__objc_ivar: 0x2a8
    __DATA.__data: 0x1f150
@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F3523BE-E638-32D5-954B-9D7D25CFF76E
 -  Functions: 20849
 -  Symbols:   56443
--  CStrings:  17541
+-  CStrings:  26419
++  UUID: 3297B987-25FC-3084-B5B1-CC75E106406D
 +  Functions: 20852
 +  Symbols:   56452
-+  CStrings:  17544
++  CStrings:  26422
  
 Symbols:
 + _FigClusterSynchronizationManagerBonjourQueryGetTypeID.sOnce

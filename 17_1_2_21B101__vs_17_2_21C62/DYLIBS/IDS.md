@@ -46,7 +46,6 @@
 +  __AUTH_CONST.__cfstring: 0x6240
    __AUTH_CONST.__const: 0x1220
    __AUTH_CONST.__objc_intobj: 0x3d8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xd60
    __AUTH.__objc_data: 0x1630
    __DATA.__objc_protorefs: 0xa8
@@ -62,12 +61,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 435AD4E3-52ED-304F-9AC8-F7AE213B792C
 -  Functions: 5454
 -  Symbols:   1361
--  CStrings:  7779
+-  CStrings:  8563
++  UUID: 6E18509F-961F-321D-B9D9-04C7AC298E52
 +  Functions: 5483
 +  Symbols:   1365
-+  CStrings:  7820
++  CStrings:  8606
  
 Symbols:
 + _IDSSendMessageOptionForceQuery

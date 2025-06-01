@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C93A09FB-73A3-3CB5-B06A-94B326E0108A
 -  Functions: 18
 -  Symbols:   153
--  CStrings:  116
+-  CStrings:  130
++  UUID: E93CE3FC-03F9-3FCD-849D-B2334DC263D7
 +  Functions: 24
 +  Symbols:   194
-+  CStrings:  138
++  CStrings:  152
  
 Symbols:
 + -[ViewServiceHelper connections]
@@ -109,6 +111,7 @@ Symbols:
 - ___block_literal_global.100
 - ___block_literal_global.103
 CStrings:
++ ""
 + "\x12"
 + "@\"NSMutableArray\""
 + "NSXPCConnection"

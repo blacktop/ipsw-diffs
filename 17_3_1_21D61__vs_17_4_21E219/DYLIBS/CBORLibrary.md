@@ -57,14 +57,12 @@
 -  __DATA_CONST.__objc_const: 0x1038
 -  __DATA_CONST.__objc_selrefs: 0x4f0
 -  __AUTH_CONST.__const: 0x8e0
--  __AUTH_CONST.__auth_ptr: 0x18
 +  __DATA_CONST.__objc_const: 0x1068
 +  __DATA_CONST.__objc_selrefs: 0x538
 +  __DATA_CONST.__objc_protorefs: 0x8
 +  __DATA_CONST.__objc_classrefs: 0x98
 +  __DATA_CONST.__objc_superrefs: 0x28
 +  __AUTH_CONST.__const: 0x968
-+  __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x210
    __AUTH_CONST.__cfstring: 0x840
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B2BC3965-E043-324F-A1E8-BC5EB82A22D6
 -  Functions: 908
 -  Symbols:   721
--  CStrings:  395
+-  CStrings:  461
++  UUID: 3C113E19-7F60-363D-98BC-8795B9D19F19
 +  Functions: 936
 +  Symbols:   745
-+  CStrings:  427
++  CStrings:  493
  
 Symbols:
 + +[CBOR cborWithEmbeddedCBORData:]

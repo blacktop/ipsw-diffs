@@ -65,12 +65,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32874C8E-A76B-3943-8F6A-5BF7A87FE328
 -  Functions: 1100
 -  Symbols:   542
--  CStrings:  1474
+-  CStrings:  1531
++  UUID: 98BA4F44-84DC-309A-B1C8-3AF8C8E80E69
 +  Functions: 1156
 +  Symbols:   589
-+  CStrings:  1494
++  CStrings:  1551
  
 Symbols:
 + _NSFilePosixPermissions

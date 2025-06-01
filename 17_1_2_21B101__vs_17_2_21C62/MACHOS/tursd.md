@@ -58,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77883E9B-821E-374F-8E00-B0EA9D9388B3
 -  Functions: 265
 -  Symbols:   146
--  CStrings:  704
+-  CStrings:  775
++  UUID: B3196921-EA15-353F-9F9C-D45A58FCD41E
 +  Functions: 262
 +  Symbols:   143
-+  CStrings:  706
++  CStrings:  776
  
 Symbols:
 + __os_feature_enabled_impl

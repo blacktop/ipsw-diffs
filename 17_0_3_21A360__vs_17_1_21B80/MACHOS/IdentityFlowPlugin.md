@@ -12,4 +12,13 @@
    __TEXT.__const: 0xa6
    __TEXT.__cstring: 0x188
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A90F936D-EFF5-3341-BEB4-0322F22C5390
++  UUID: 82C585C1-4D81-39D9-9DB2-233217517A63
+   Functions: 32
+   Symbols:   63
+   CStrings:  10
+
 ```

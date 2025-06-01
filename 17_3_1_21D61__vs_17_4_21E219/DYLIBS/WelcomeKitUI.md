@@ -37,11 +37,15 @@
    __DATA.__data: 0x420
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/WelcomeKit.framework/WelcomeKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C89D3CB2-3D90-37B8-84F3-D4A3FBBB4CA6
++  UUID: F5CD9CE5-5ED8-3C19-BB0C-384A2FE58A42
    Functions: 379
    Symbols:   1634
--  CStrings:  1053
-+  CStrings:  1054
+-  CStrings:  1250
++  CStrings:  1251
  
 CStrings:
 + "T@\"NSString\",?,R,C"

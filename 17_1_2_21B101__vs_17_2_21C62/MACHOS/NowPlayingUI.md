@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 65CB580C-2994-3A25-B840-0B5B9C97DF05
 -  Functions: 6991
 -  Symbols:   3780
--  CStrings:  3454
+-  CStrings:  3469
++  UUID: EB8106FD-18F8-3C79-8830-02D43B758718
 +  Functions: 7035
 +  Symbols:   3789
-+  CStrings:  3459
++  CStrings:  3474
  
 Symbols:
 + _OBJC_CLASS_$_IMAVPlayer

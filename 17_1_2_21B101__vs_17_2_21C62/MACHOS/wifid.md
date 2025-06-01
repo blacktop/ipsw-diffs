@@ -86,12 +86,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 77BA596B-B9F1-392B-9974-F3809DD1E681
 -  Functions: 5237
 -  Symbols:   1275
--  CStrings:  14712
+-  CStrings:  18202
++  UUID: D828C527-93DB-3948-8344-85EA8808240E
 +  Functions: 5248
 +  Symbols:   1280
-+  CStrings:  14776
++  CStrings:  18311
  
 Symbols:
 + _AnalyticsSendEventLazy

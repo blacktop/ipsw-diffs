@@ -74,12 +74,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B62FB9BD-8BF8-3CCE-B7E3-C22AC4678683
 -  Functions: 6925
 -  Symbols:   1625
--  CStrings:  12026
+-  CStrings:  13928
++  UUID: E4092121-3C3E-3E4D-9237-FF610300A6CD
 +  Functions: 6922
 +  Symbols:   1619
-+  CStrings:  11993
++  CStrings:  13886
  
 Symbols:
 + _memcpy

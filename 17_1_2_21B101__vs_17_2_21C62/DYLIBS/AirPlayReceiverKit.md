@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D27204BB-DF76-35D8-8698-9470F81A5CCF
 -  Functions: 537
 -  Symbols:   2248
--  CStrings:  1582
+-  CStrings:  1757
++  UUID: 04AE307C-EF80-350E-91FC-583DA89ECF81
 +  Functions: 538
 +  Symbols:   2251
-+  CStrings:  1588
++  CStrings:  1764
  
 Symbols:
 + -[APRKStreamRenderingManager setForcePermissionDialog:]

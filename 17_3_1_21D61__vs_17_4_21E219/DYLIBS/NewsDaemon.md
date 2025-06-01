@@ -37,11 +37,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x28
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CA4F4B1D-1C6A-32D0-8288-2037F02186F3
++  UUID: E57B3C16-43DB-3406-ABAF-43FBDC5088B0
    Functions: 107
    Symbols:   484
--  CStrings:  243
-+  CStrings:  244
+-  CStrings:  259
++  CStrings:  260
  
 Symbols:
 + ___64-[NDNewsServiceConnection fetchModuleDescriptorsWithCompletion:]_block_invoke.61

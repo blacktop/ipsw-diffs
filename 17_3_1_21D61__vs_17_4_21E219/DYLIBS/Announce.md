@@ -40,10 +40,9 @@
    __AUTH_CONST.__cfstring: 0x2d00
    __AUTH_CONST.__objc_const: 0x11c8
    __AUTH_CONST.__const: 0x508
-
+   __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_doubleobj: 0x110
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x570
 +  __AUTH_CONST.__auth_got: 0x590
    __AUTH.__objc_data: 0x7d0
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2CA7387F-AC7C-326A-A7A2-277C96FD8E68
 -  Functions: 796
 -  Symbols:   2893
--  CStrings:  1559
+-  CStrings:  1919
++  UUID: BA092409-F46E-380D-9CF1-31480683D970
 +  Functions: 799
 +  Symbols:   2894
-+  CStrings:  1577
++  CStrings:  1937
  
 Symbols:
 + ___27-[ANTonePlayerService init]_block_invoke.47

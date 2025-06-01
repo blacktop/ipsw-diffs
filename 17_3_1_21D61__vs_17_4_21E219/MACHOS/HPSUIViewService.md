@@ -70,9 +70,11 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppleConnectClient.framework/AppleConnectClient
+-  UUID: 4ED6C94F-FD36-3DFD-AD8A-FA17824C6E11
 -  Functions: 3042
 -  Symbols:   218
 -  CStrings:  383
++  UUID: D66188BE-D5DD-382B-8F22-D37B3FD22C4F
 +  Functions: 3050
 +  Symbols:   219
 +  CStrings:  389

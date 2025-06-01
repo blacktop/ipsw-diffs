@@ -44,7 +44,6 @@
 +  __AUTH_CONST.__cfstring: 0x7980
 +  __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x338
 -  __DATA.__objc_classrefs: 0x1e0
 -  __DATA.__objc_superrefs: 0xc0
@@ -60,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B660F18E-49DD-3D8E-895B-39B830D5B931
 -  Functions: 1192
 -  Symbols:   4177
--  CStrings:  3046
+-  CStrings:  4011
++  UUID: 5F965926-E2FC-337E-B786-8B7D6EEFE508
 +  Functions: 1193
 +  Symbols:   4193
-+  CStrings:  3061
++  CStrings:  4033
  
 Symbols:
 + +[SUCoreEvent isSharediPad]

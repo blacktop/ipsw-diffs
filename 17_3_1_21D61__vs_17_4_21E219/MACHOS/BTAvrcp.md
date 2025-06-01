@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x7d0
    __DATA.__data: 0x140
 
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 105E0ACF-8699-3C04-B991-AC2922CA6A17
++  UUID: 26FA81F2-E9DD-3B2D-AC89-76346060F1BB
    Functions: 434
    Symbols:   241
--  CStrings:  698
-+  CStrings:  699
+-  CStrings:  790
++  CStrings:  791
  
 CStrings:
 + "T@\"NSString\",?,R,C"

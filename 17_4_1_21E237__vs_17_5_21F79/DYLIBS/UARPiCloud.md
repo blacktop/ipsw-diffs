@@ -41,10 +41,9 @@
    __DATA_CONST.__objc_classrefs: 0x150
    __DATA_CONST.__objc_superrefs: 0x48
    __AUTH_CONST.__cfstring: 0xd80
-
+   __AUTH_CONST.__objc_const: 0x3e0
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__objc_intobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x358
 +  __AUTH_CONST.__auth_got: 0x360
    __AUTH.__objc_data: 0x140
@@ -57,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C6A036D-89E8-3146-B984-C684963D320D
 -  Functions: 636
 -  Symbols:   1947
--  CStrings:  889
+-  CStrings:  997
++  UUID: 6E415144-529A-394F-B786-EC03264D5B0C
 +  Functions: 637
 +  Symbols:   1957
-+  CStrings:  902
++  CStrings:  1010
  
 Symbols:
 + -[UARPiCloudAssetManager getSupportedAccessories:batchRequest:inContainer:]

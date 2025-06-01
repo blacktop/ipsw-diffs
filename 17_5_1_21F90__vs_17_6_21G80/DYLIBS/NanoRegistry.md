@@ -30,16 +30,19 @@
 -  __AUTH_CONST.__cfstring: 0x44e0
 +  __AUTH_CONST.__cfstring: 0x4500
    __AUTH_CONST.__objc_const: 0x240
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x540
+   __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE8BBD8B-DD33-3FDB-BF45-3CA9EC6EA290
++  UUID: B4F1706E-9D3B-353C-9038-01B3CD36C44A
    Functions: 2062
 -  Symbols:   6424
--  CStrings:  2349
+-  CStrings:  2900
 +  Symbols:   6425
-+  CStrings:  2350
++  CStrings:  2902
  
 Symbols:
 + _NRDevicePropertyMedicationScheduleCompatibilityVersion

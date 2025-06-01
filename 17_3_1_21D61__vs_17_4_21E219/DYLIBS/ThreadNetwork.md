@@ -28,4 +28,13 @@
    __DATA.__data: 0x130
    __DATA.__bss: 0x28
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E13380D2-C0E2-39AB-A1B8-48887C7034EA
++  UUID: 314B3C84-D9D9-3224-8F3B-C012EC497504
+   Functions: 283
+   Symbols:   986
+   CStrings:  443
+
 ```

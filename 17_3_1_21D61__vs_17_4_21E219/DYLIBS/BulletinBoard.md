@@ -46,11 +46,15 @@
    __DATA_DIRTY.__bss: 0x1b8
    __DATA_DIRTY.__common: 0x70
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6BBDD45-AE63-3E0E-82AC-67C1BBE29A29
++  UUID: 43ED2D5E-462C-36EF-B7D6-CD20F2CC61DD
    Functions: 3386
    Symbols:   10898
--  CStrings:  4662
-+  CStrings:  4663
+-  CStrings:  5462
++  CStrings:  5463
  
 Symbols:
 + ___23-[BBServerConduit init]_block_invoke.59

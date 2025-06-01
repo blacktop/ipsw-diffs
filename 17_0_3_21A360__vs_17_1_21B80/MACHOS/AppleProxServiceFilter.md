@@ -33,11 +33,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 946A8800-F8FF-3D8C-B359-4C3DC93D88A7
++  UUID: 2DBCFC80-D26B-3C2C-95F5-BA2ADAD324C5
    Functions: 115
    Symbols:   79
--  CStrings:  373
-+  CStrings:  384
+-  CStrings:  445
++  CStrings:  466
  
 CStrings:
 + "handleCallPacket: call duration %f release_comdition=%u"

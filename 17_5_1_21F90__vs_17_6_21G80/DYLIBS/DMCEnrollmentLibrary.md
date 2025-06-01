@@ -47,13 +47,16 @@
    __AUTH_CONST.__auth_got: 0x2a0
    __DATA.__objc_ivar: 0xe8
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B8C3698-9D0E-312B-A130-064F996EAE2E
++  UUID: 5E2E16E1-8D71-30A3-BEC2-D32946B0E40A
    Functions: 435
 -  Symbols:   1827
--  CStrings:  1087
+-  CStrings:  1206
 +  Symbols:   1833
-+  CStrings:  1091
++  CStrings:  1212
  
 Symbols:
 + _OBJC_CLASS_$_DMCSynchronous

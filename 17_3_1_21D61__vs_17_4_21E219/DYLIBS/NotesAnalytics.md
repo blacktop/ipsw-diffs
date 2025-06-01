@@ -61,11 +61,13 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF37FB6E-6CAF-3E38-9FA3-5BCB3CB60291
 -  Functions: 2725
++  UUID: 2C730639-A5A7-3DA4-B8B2-F135341806E1
 +  Functions: 2724
    Symbols:   11381
--  CStrings:  5066
-+  CStrings:  5069
+-  CStrings:  6266
++  CStrings:  6269
  
 Symbols:
 + -[ICNAViewController viewForEventReporterIfLoaded]

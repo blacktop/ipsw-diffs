@@ -50,11 +50,15 @@
    __DATA_DIRTY.__objc_data: 0x550
    __DATA_DIRTY.__data: 0x18
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E663BB43-C68E-3595-9AD5-A4B4F704A3BB
++  UUID: 6D6CC467-51B2-37AC-9306-A364FA270B95
    Functions: 706
    Symbols:   2767
--  CStrings:  1532
-+  CStrings:  1534
+-  CStrings:  1710
++  CStrings:  1712
  
 Symbols:
 + ___27-[RTTRemoteCall addDevice:]_block_invoke.516

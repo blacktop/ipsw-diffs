@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x2c0
    __AUTH_CONST.__objc_arrayobj: 0x240
    __AUTH_CONST.__objc_dictobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xf58
 +  __AUTH_CONST.__auth_got: 0xf60
    __AUTH.__objc_data: 0x3d10
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B09AC823-3F83-360B-A7BD-EC42B14F0840
 -  Functions: 5234
 -  Symbols:   16368
--  CStrings:  7713
+-  CStrings:  9325
++  UUID: BB7EBACD-3D42-3763-93A4-2889488B01AC
 +  Functions: 5221
 +  Symbols:   16364
-+  CStrings:  7715
++  CStrings:  9328
  
 Symbols:
 + __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ue170006IPU8__strongKP8NSStringS7_PU8__strongS5_EENS_4pairIT_T1_EESB_T0_SC_

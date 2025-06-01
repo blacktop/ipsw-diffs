@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91AD1C30-7378-3316-9ADA-F114C9706D31
++  UUID: AC53AC56-39E7-3C1C-99FA-0867C57F030A
    Functions: 84
 -  Symbols:   160
--  CStrings:  419
+-  CStrings:  585
 +  Symbols:   159
-+  CStrings:  424
++  CStrings:  590
  
 Symbols:
 - _AKIconDefaultSize

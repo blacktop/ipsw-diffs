@@ -41,7 +41,6 @@
    __DATA_CONST.__objc_arraydata: 0x40
 -  __AUTH_CONST.__const: 0x33d8
 +  __AUTH_CONST.__const: 0x3950
-   __AUTH_CONST.__auth_ptr: 0x368
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x3a0
    __AUTH_CONST.__objc_intobj: 0x78
@@ -70,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27BCD469-AC4C-32DA-A435-1E00C2328402
 -  Functions: 19029
 -  Symbols:   44855
--  CStrings:  9482
+-  CStrings:  9511
++  UUID: 73393DC7-2311-3CD5-BD0D-660C87BB2BF4
 +  Functions: 19030
 +  Symbols:   44862
-+  CStrings:  9488
++  CStrings:  9517
  
 Symbols:
 + -[RTCVideoDecoderVTBVP9 colorSpace]

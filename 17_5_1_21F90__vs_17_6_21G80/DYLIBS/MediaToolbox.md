@@ -33,7 +33,7 @@
    __DATA_CONST.__objc_catlist: 0x0
    __DATA_CONST.__objc_protolist: 0x58
 
-   __AUTH_CONST.__auth_ptr: 0x50
+   __AUTH_CONST.__const: 0x34208
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x58a8
@@ -50,12 +50,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A6D9F5E1-43E5-3DCA-8703-D6400E52DBF0
 -  Functions: 20948
 -  Symbols:   56679
--  CStrings:  17646
+-  CStrings:  26562
++  UUID: 9A11034D-9D6D-349D-9E43-AFF4CADCB2FE
 +  Functions: 20946
 +  Symbols:   56674
-+  CStrings:  17642
++  CStrings:  26558
  
 Symbols:
 + _fpfs_CheckCanContinueWithoutGap

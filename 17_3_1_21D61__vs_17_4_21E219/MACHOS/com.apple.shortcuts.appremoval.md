@@ -32,7 +32,11 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D137E55-93A9-3667-B39F-79E347A4D170
++  UUID: 91B5F7C6-B4CC-3C10-B88D-37006D9DAD66
    Functions: 8
    Symbols:   41
 -  CStrings:  71

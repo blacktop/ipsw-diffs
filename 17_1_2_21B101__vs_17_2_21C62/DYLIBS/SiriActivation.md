@@ -82,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C8BF04E-E3BC-344F-898B-91120AF6CBB0
 -  Functions: 1709
 -  Symbols:   6074
--  CStrings:  3339
+-  CStrings:  3815
++  UUID: 6A1C4BE7-6992-3DE0-9927-FE6B9B869146
 +  Functions: 1724
 +  Symbols:   6142
-+  CStrings:  3415
++  CStrings:  3904
  
 Symbols:
 + -[SASMyriadController _cacheFactors]

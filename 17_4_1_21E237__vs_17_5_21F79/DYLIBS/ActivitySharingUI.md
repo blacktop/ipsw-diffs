@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x487a
    __TEXT.__objc_methtype: 0x4fc
 
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1B1670B1-E030-3D65-9F41-9ED9C76B7861
++  UUID: D96B9BDD-CFC3-34AA-BA6C-E0241269ACB6
+   Functions: 436
+   Symbols:   1852
+   CStrings:  1130
+
 ```

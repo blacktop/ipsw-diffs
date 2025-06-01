@@ -50,12 +50,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8003D2D1-83BB-33D6-AA95-12C7EA4BD62E
 -  Functions: 2211
 -  Symbols:   546
--  CStrings:  3874
+-  CStrings:  4364
++  UUID: 9F722CE4-4352-3F06-A033-CAFA9A44334E
 +  Functions: 2212
 +  Symbols:   548
-+  CStrings:  3879
++  CStrings:  4369
  
 Symbols:
 + _pthread_mutex_destroy

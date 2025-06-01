@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F88BDAB-83EA-3F1A-A136-6E922D3E7E52
 -  Functions: 3594
 -  Symbols:   11775
--  CStrings:  4816
+-  CStrings:  5280
++  UUID: FDC13B38-014E-3767-BBD6-56D954AFD505
 +  Functions: 3598
 +  Symbols:   11786
-+  CStrings:  4823
++  CStrings:  5288
  
 Symbols:
 + -[BLTPBBulletin hasHasSubordinateIcon]

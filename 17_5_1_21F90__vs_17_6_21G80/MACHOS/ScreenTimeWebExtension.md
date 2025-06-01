@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x7e0
    __TEXT.__cstring: 0x6e
 
+   - /System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AEAFCCDA-9B82-36CF-9CC6-34D4C74D2236
++  UUID: DDBF0123-E1CE-35D8-A1A5-A8F1D1B5D34F
+   Functions: 29
+   Symbols:   61
+   CStrings:  127
+
 ```

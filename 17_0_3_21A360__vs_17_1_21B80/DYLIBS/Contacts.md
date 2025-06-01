@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__objc_const: 0xbcc8
    __AUTH_CONST.__objc_intobj: 0x528
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x88
 -  __AUTH_CONST.__auth_got: 0x1690
 +  __AUTH_CONST.__auth_got: 0x1748
    __AUTH.__data: 0x5e8
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D7F2AF39-DC8A-3AF5-8F16-DDDD35EF76C6
 -  Functions: 10586
 -  Symbols:   30441
--  CStrings:  9424
+-  CStrings:  11029
++  UUID: 8353DE1F-75BC-389C-9982-834183AA7BA0
 +  Functions: 10663
 +  Symbols:   30707
-+  CStrings:  9519
++  CStrings:  11134
  
 Symbols:
 + +[CNContact(Predicates_Private) predicateForContactsWithWallpaperMetadata]

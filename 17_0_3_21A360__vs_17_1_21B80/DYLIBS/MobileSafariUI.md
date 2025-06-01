@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x288
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xd60
 -  __AUTH.__objc_data: 0x2120
 +  __AUTH_CONST.__auth_got: 0xd68
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC55237E-1532-372C-AB66-C1E0CD7B7461
 -  Functions: 10832
 -  Symbols:   40929
--  CStrings:  18594
+-  CStrings:  20061
++  UUID: E1C62D41-D554-3D70-B143-A24A4B71CF07
 +  Functions: 10864
 +  Symbols:   41031
-+  CStrings:  18635
++  CStrings:  20104
  
 Symbols:
 + -[BrowserController actionPanelAddTabDocumentToReadingList:activityDidFinish:]

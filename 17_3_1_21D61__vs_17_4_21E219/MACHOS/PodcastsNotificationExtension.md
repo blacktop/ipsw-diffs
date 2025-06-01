@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C15D8D3-50FD-3EA3-A5ED-A0CD383043DF
 -  Functions: 709
 -  Symbols:   336
--  CStrings:  1586
+-  CStrings:  1670
++  UUID: 32149BF9-B650-3C46-9159-EE7D177C18B4
 +  Functions: 710
 +  Symbols:   337
-+  CStrings:  1591
++  CStrings:  1676
  
 Symbols:
 + _kLastUnfollowedDate

@@ -108,12 +108,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 399DBF41-655E-31DC-A86B-C17414C9EE20
 -  Functions: 13329
 -  Symbols:   2172
--  CStrings:  2418
+-  CStrings:  2488
++  UUID: 0D59EBB1-D6DF-3E0B-B9E2-A64A09DB2F2E
 +  Functions: 13234
 +  Symbols:   2197
-+  CStrings:  2457
++  CStrings:  2527
  
 Symbols:
 + _$s10Foundation4DataV5bytes5countACSV_SitcfC

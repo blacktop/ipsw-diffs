@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__objc_const: 0x2c78
 +  __AUTH_CONST.__const: 0x58e8
 +  __AUTH_CONST.__objc_const: 0x2cb8
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x4c8
    __AUTH_CONST.__cfstring: 0x3b20
 -  __AUTH_CONST.__auth_got: 0xaa8
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8A32866-7F37-3AAB-BFD4-114AD717D45F
 -  Functions: 5897
 -  Symbols:   6558
--  CStrings:  2097
+-  CStrings:  2570
++  UUID: 9BFDDC61-BCDC-31DD-8E2D-FFC260B630B3
 +  Functions: 5900
 +  Symbols:   6563
-+  CStrings:  2098
++  CStrings:  2571
  
 Symbols:
 + -[LSApplicationExtensionRecord(LNAdditions) ln_isAppIntentsEnabled]

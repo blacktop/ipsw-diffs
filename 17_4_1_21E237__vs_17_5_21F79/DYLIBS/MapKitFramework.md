@@ -48,12 +48,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7207D182-371E-370D-88BE-B48B61F953A3
 -  Functions: 357
 -  Symbols:   1589
--  CStrings:  728
+-  CStrings:  1060
++  UUID: CF89B5C5-1336-3F72-AF40-D7AAF33FA585
 +  Functions: 356
 +  Symbols:   1586
-+  CStrings:  726
++  CStrings:  1059
  
 Symbols:
 + _AXRequestingClient

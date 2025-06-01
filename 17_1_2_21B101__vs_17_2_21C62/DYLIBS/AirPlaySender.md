@@ -41,13 +41,12 @@
 -  __AUTH_CONST.__cfstring: 0xf9a0
 -  __AUTH_CONST.__const: 0x7260
 -  __AUTH_CONST.__objc_const: 0x168
+-  __AUTH_CONST.__auth_got: 0x24a8
+-  __AUTH.__data: 0x570
 +  __DATA_CONST.__objc_selrefs: 0x638
 +  __AUTH_CONST.__cfstring: 0xfd00
 +  __AUTH_CONST.__const: 0x7220
 +  __AUTH_CONST.__objc_const: 0x1e8
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x24a8
--  __AUTH.__data: 0x570
 +  __AUTH_CONST.__auth_got: 0x25a0
 +  __AUTH.__data: 0x588
    __AUTH.__objc_data: 0xf0
@@ -66,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DFF4B5B3-6BA3-3A50-8566-F01A8E742504
 -  Functions: 3003
 -  Symbols:   9837
--  CStrings:  8766
+-  CStrings:  10763
++  UUID: 04FBC1F6-24D9-3B35-ACA2-D67AC02DFE8F
 +  Functions: 3039
 +  Symbols:   9975
-+  CStrings:  8919
++  CStrings:  10943
  
 Symbols:
 + -[CUPairedPeer(APPairingClientCoreUtils) patchedPairedPeerWithPeerInfo:]

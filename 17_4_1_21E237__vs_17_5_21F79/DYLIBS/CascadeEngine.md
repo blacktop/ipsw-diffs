@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47200775-E440-328D-91F4-2A4B0CFF28E2
 -  Functions: 458
 -  Symbols:   1869
--  CStrings:  935
+-  CStrings:  976
++  UUID: A1F41E65-00F1-3013-9DA9-4A0F13404CD2
 +  Functions: 460
 +  Symbols:   1883
-+  CStrings:  947
++  CStrings:  988
  
 Symbols:
 + _OBJC_CLASS_$_BMDeviceMetadataUtils

@@ -62,12 +62,10 @@
 -  __DATA_CONST.__objc_const: 0x49d0
 -  __DATA_CONST.__objc_selrefs: 0x10c0
 -  __AUTH_CONST.__const: 0x1c38
--  __AUTH_CONST.__auth_ptr: 0x180
 -  __AUTH_CONST.__objc_const: 0x0
 +  __DATA_CONST.__objc_const: 0x4c40
 +  __DATA_CONST.__objc_selrefs: 0x1198
 +  __AUTH_CONST.__const: 0x1db0
-+  __AUTH_CONST.__auth_ptr: 0x190
 +  __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0xae0
 -  __AUTH_CONST.__auth_got: 0xe40
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0C0A3A12-23A8-302E-AF01-351F03048888
 -  Functions: 4145
 -  Symbols:   4875
--  CStrings:  1733
+-  CStrings:  1820
++  UUID: 1D39288E-3975-3FE6-A7AF-BBF05331D4B9
 +  Functions: 4344
 +  Symbols:   4997
-+  CStrings:  1812
++  CStrings:  1899
  
 Symbols:
 + -[AssistantSiriAnalyticsService handler:vendResource:readonly:completion:]

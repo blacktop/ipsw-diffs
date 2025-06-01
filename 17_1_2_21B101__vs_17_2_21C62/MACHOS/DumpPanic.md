@@ -32,10 +32,12 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 25E9A2FB-382A-3440-AF1C-5AC70A079B30
 -  Functions: 472
++  UUID: 640579C4-8DDE-38D7-88C7-45602C8026AD
 +  Functions: 473
    Symbols:   278
-   CStrings:  1071
+   CStrings:  1361
  
 
 ```

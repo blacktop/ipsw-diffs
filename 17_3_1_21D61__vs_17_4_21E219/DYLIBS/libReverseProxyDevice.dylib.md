@@ -27,12 +27,15 @@
    __DATA.__data: 0x4
    __DATA.__bss: 0x68
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CBAB5D2-131D-35C6-86E7-2551AFEC243C
++  UUID: E64F3BA3-6E76-3531-BBE5-283D1391F5A4
    Functions: 69
 -  Symbols:   284
 +  Symbols:   285
-   CStrings:  133
+   CStrings:  205
  
 Symbols:
 + _fdopen

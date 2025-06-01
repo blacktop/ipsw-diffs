@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F6C41D3-7FCD-3F3D-BAB8-0CB023EC718C
 -  Functions: 1441
 -  Symbols:   4980
--  CStrings:  2016
+-  CStrings:  2166
++  UUID: AC8DF0C7-2A69-3DC7-8066-66C77003CF5A
 +  Functions: 1444
 +  Symbols:   4986
-+  CStrings:  2019
++  CStrings:  2169
  
 Symbols:
 + +[AVTCoreDataStoreBackend cdFetchRequestWithPredicate:fetchLimit:ascending:]

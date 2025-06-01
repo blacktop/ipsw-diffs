@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 332F3007-3276-3020-A209-4A9951E2884B
 -  Functions: 21186
 -  Symbols:   2548
--  CStrings:  29259
+-  CStrings:  34550
++  UUID: 6D270401-2EC0-30EA-81FC-161B573F7ABE
 +  Functions: 21472
 +  Symbols:   2568
-+  CStrings:  29616
++  CStrings:  35028
  
 Symbols:
 + _OBJC_CLASS_$_PKCloudStoreRecordFetchTask

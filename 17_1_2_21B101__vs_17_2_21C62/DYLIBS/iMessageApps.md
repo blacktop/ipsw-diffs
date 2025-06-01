@@ -22,6 +22,15 @@
    __TEXT.__objc_stubs: 0x1a60
    __DATA_CONST.__got: 0x30
    __DATA_CONST.__const: 0x230
+
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 190BBFD2-26C3-32C9-A817-8FFC521901DF
++  UUID: C907A884-20D9-30BB-B2B8-148BDA6DDFEE
+   Functions: 183
+   Symbols:   832
+   CStrings:  615
 Symbols:
 + -[IMAAppPresenter presentSendMenuForAppCardOverseerWithAppCardViewController:presentationStyle:]
 - -[IMAAppPresenter appCardOverseerDidRequestPresentationSendMenuWithCompletion:]

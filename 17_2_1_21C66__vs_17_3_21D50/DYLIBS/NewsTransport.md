@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64221FA3-04BB-36B0-B5AB-53FB6E53BFD8
 -  Functions: 17339
 -  Symbols:   41542
--  CStrings:  15801
+-  CStrings:  18425
++  UUID: E33F5D62-4C6F-35BF-BA61-CF15B9AAC516
 +  Functions: 17343
 +  Symbols:   41551
-+  CStrings:  15808
++  CStrings:  18433
  
 Symbols:
 + -[NTPBTodayWidgetConfig hasWidgetBackgroundInteractionEnabled]

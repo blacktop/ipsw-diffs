@@ -31,13 +31,16 @@
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0x48
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9EB8E40F-5459-38CD-AC0C-FE369D479811
++  UUID: 9E47DE6A-B110-3558-B1A1-D2E68B97E1A3
    Functions: 1308
 -  Symbols:   2961
--  CStrings:  109
+-  CStrings:  110
 +  Symbols:   2962
-+  CStrings:  110
++  CStrings:  111
  
 Symbols:
 + _objc_msgSend$setDeleteOnAttach:

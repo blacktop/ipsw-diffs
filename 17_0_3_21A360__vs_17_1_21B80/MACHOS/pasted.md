@@ -70,12 +70,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AC7175A-B970-3F63-BF10-EC0D2C670E9F
 -  Functions: 475
 -  Symbols:   352
--  CStrings:  1270
+-  CStrings:  1460
++  UUID: D040C853-2F55-378D-860D-DE71EA6B4F4B
 +  Functions: 487
 +  Symbols:   356
-+  CStrings:  1292
++  CStrings:  1482
  
 Symbols:
 + __dispatch_main_q

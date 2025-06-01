@@ -39,13 +39,16 @@
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 97290699-75DF-3435-9A69-B2BB5E42845E
++  UUID: A2E8E49B-889E-3524-8FCB-A966C6C5F864
    Functions: 270
 -  Symbols:   1437
--  CStrings:  1000
+-  CStrings:  1179
 +  Symbols:   1441
-+  CStrings:  999
++  CStrings:  1177
  
 Symbols:
 + _AATermsEntryDevice

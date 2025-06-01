@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89D56787-290F-32E4-8199-C043BFA28086
 -  Functions: 2081
 -  Symbols:   7790
--  CStrings:  3161
+-  CStrings:  3581
++  UUID: 08D70EFE-6735-395E-8C29-1FE319470771
 +  Functions: 2085
 +  Symbols:   7804
-+  CStrings:  3165
++  CStrings:  3585
  
 Symbols:
 + -[CPLane angleHighlight]

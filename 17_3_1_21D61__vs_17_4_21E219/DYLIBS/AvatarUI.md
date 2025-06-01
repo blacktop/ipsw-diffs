@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A66A7E0-AF5C-3148-9B80-04B432E06AA7
 -  Functions: 5995
 -  Symbols:   21804
--  CStrings:  8135
+-  CStrings:  8646
++  UUID: 79D93C36-37AE-3AB9-AA82-558072B4153F
 +  Functions: 5996
 +  Symbols:   21808
-+  CStrings:  8138
++  CStrings:  8649
  
 Symbols:
 + -[AVTCombinedPickerViewController defaultAvatar]

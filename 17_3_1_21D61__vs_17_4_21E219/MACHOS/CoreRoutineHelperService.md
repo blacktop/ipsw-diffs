@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 796DD08A-5B15-3544-9A5D-FB07E952A6BF
 -  Functions: 232
 -  Symbols:   203
--  CStrings:  1150
+-  CStrings:  1241
++  UUID: C2AB8BEF-365B-3170-8B2E-4B564B37A29B
 +  Functions: 238
 +  Symbols:   206
-+  CStrings:  1183
++  CStrings:  1274
  
 Symbols:
 + _OBJC_CLASS_$_GEOSpatialLookupParameters

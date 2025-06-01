@@ -45,13 +45,16 @@
    __DATA.__data: 0x420
    __DATA.__bss: 0xd0
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 97B6EC16-DA95-33CF-B154-6ACEAEDDE102
++  UUID: 26212BF7-E7C1-3CD0-A6C2-7FF71944AF51
    Functions: 236
 -  Symbols:   1056
--  CStrings:  594
+-  CStrings:  639
 +  Symbols:   1055
-+  CStrings:  602
++  CStrings:  647
  
 Symbols:
 + ___66-[WatchQuickActionsServices _handleAppDidBecomeActiveNotification]_block_invoke.352

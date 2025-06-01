@@ -46,8 +46,8 @@
 +  __DATA_CONST.__objc_const: 0xae38
 +  __DATA_CONST.__objc_selrefs: 0x1348
    __AUTH_CONST.__const: 0x8170
-   __AUTH_CONST.__auth_ptr: 0x178
    __AUTH_CONST.__objc_const: 0x258
+   __AUTH_CONST.__auth_got: 0xef0
 
    __DATA.__objc_protorefs: 0xa8
    __DATA.__objc_classrefs: 0x388
@@ -58,7 +58,11 @@
    __DATA.__common: 0x698
    - /System/Library/Frameworks/ARKit.framework/ARKit
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03AEC731-F2AF-32D4-AC52-B550D69AECEA
++  UUID: 7208136B-B657-34F5-9892-8EA8BFECB4CC
    Functions: 4342
    Symbols:   422
 -  CStrings:  2398

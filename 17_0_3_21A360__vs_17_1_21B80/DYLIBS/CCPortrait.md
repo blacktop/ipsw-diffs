@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6ADF2E83-27B7-3FD7-B656-EA4674BAC23B
 -  Functions: 1205
 -  Symbols:   358
--  CStrings:  2751
+-  CStrings:  3404
++  UUID: 3B642E02-7E69-3EDD-A289-7685F5057310
 +  Functions: 1209
 +  Symbols:   359
-+  CStrings:  2758
++  CStrings:  3413
  
 Symbols:
 + _OBJC_CLASS_$_NSError

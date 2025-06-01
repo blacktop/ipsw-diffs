@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BCD634E-6602-34A2-AF21-1C4BABB10ECC
 -  Functions: 28
 -  Symbols:   131
--  CStrings:  98
+-  CStrings:  141
++  UUID: 271E41A1-67B2-3AC0-8A0E-FD7A106433D0
 +  Functions: 32
 +  Symbols:   145
-+  CStrings:  104
++  CStrings:  148
  
 Symbols:
 + -[CSSecureSiriAudioProvidingProxy configAOPVoiceTrigger]

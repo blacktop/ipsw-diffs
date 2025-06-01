@@ -35,6 +35,17 @@
    __DATA.__objc_classrefs: 0xb8
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x40
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EE9DC6A3-5D1C-33DD-9DCB-A39A00025E9C
++  UUID: B4C21025-00C4-3242-884E-199803D5441F
+   Functions: 82
+   Symbols:   113
+-  CStrings:  361
++  CStrings:  359
+ 
 CStrings:
 + "aboutBloodOxygenFooter"
 + "backgroundMeasurementsTitle"

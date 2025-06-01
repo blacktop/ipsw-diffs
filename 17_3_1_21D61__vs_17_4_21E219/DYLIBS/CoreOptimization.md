@@ -10,6 +10,15 @@
    __TEXT.__auth_stubs: 0x230
    __TEXT.__const: 0xa0
    __TEXT.__gcc_except_tab: 0x3d0
+
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 17A09CAF-918D-370F-9761-E3975F570003
++  UUID: 603F2285-A46E-37DD-A2DE-D13E996D26C5
+   Functions: 30
+   Symbols:   108
+   CStrings:  45
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

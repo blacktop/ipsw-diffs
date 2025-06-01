@@ -65,7 +65,6 @@
    __AUTH_CONST.__objc_dictobj: 0x8c0
 -  __AUTH_CONST.__objc_intobj: 0x660
 +  __AUTH_CONST.__objc_intobj: 0x648
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_floatobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x1330
@@ -95,12 +94,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E6674959-8326-3D15-B6B0-1E462A5F341F
 -  Functions: 10940
 -  Symbols:   35451
--  CStrings:  21902
+-  CStrings:  25428
++  UUID: 3C5384AC-5401-3270-AA72-375B57098A45
 +  Functions: 11041
 +  Symbols:   35720
-+  CStrings:  22119
++  CStrings:  25681
  
 Symbols:
 + -[CAUsageDeltaTracker dealloc]

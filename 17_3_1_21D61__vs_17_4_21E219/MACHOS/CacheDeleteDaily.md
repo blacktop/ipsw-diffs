@@ -27,4 +27,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x90
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 29CBEEC3-CA61-3DBA-9FC0-5E3F98AB8043
++  UUID: 683BEE69-AD17-3CFF-8B91-2B24A06CA964
+   Functions: 158
+   Symbols:   153
+   CStrings:  549
+
 ```

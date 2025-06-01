@@ -39,11 +39,15 @@
    __DATA.__data: 0x18c0
    __DATA.__bss: 0xd0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F9FF3C5F-5670-3CE2-BC99-D8DA47D50192
++  UUID: 55B26983-6627-33EA-A30C-586831600B0D
    Functions: 2075
    Symbols:   8136
--  CStrings:  4251
-+  CStrings:  4255
+-  CStrings:  4508
++  CStrings:  4512
  
 CStrings:
 + "T@\"<CRKCardViewControllerDelegate>\",?,R,N"

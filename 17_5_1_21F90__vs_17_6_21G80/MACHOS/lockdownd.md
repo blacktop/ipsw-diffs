@@ -51,12 +51,14 @@
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4068B16A-4853-3646-BA33-B577DD0439AF
 -  Functions: 2829
 -  Symbols:   879
--  CStrings:  8821
+-  CStrings:  11753
++  UUID: 0E46563E-9F7E-325F-8EE0-525AE31F6413
 +  Functions: 2830
 +  Symbols:   882
-+  CStrings:  8847
++  CStrings:  11790
  
 Symbols:
 + _CFUUIDGetConstantUUIDWithBytes

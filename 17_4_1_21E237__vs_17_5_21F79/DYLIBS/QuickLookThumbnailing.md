@@ -40,4 +40,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: B3F4C555-62A4-3AB5-9364-6100C5F6A085
++  UUID: 7B4738C0-2175-3A5F-83A6-ED1A2ED89676
+   Functions: 1372
+   Symbols:   4726
+   CStrings:  2281
+
 ```

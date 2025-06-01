@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38C25EAE-6BD3-33ED-ABE0-40F643410E8D
++  UUID: B6CBA6EB-7EF5-3CDF-B66E-8ECC4FDA736D
    Functions: 105
    Symbols:   1238
--  CStrings:  678
-+  CStrings:  679
+-  CStrings:  889
++  CStrings:  890
  
 Symbols:
 + __108-[LighthouseDictationPlugin _redecodeWithRecipe:selectedRecordInfos:selectedRecordDatas:optIn:result:error:]_block_invoke.334

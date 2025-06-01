@@ -63,12 +63,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D818E107-AE1D-317E-A999-9739DF615D4A
 -  Functions: 1696
 -  Symbols:   331
--  CStrings:  2299
+-  CStrings:  2770
++  UUID: E142EA2A-65FF-3CBC-A900-CF6F5B58FBE4
 +  Functions: 1961
 +  Symbols:   336
-+  CStrings:  2606
++  CStrings:  3127
  
 Symbols:
 + _OBJC_CLASS_$_CBAdvertiser

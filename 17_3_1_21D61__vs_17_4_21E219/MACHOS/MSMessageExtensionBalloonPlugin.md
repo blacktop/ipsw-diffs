@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: F350DCD3-4D77-35C8-BCFF-9EBB02F65B7E
 -  Functions: 713
 -  Symbols:   339
--  CStrings:  1574
+-  CStrings:  1638
++  UUID: 0D5DA6D6-BC0D-37F4-AD49-C2D4E6787DFF
 +  Functions: 744
 +  Symbols:   359
-+  CStrings:  1599
++  CStrings:  1664
  
 Symbols:
 + _CKIsRunningInMessages

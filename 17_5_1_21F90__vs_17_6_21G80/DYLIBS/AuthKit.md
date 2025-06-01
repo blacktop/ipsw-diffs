@@ -34,13 +34,16 @@
    __AUTH_CONST.__const: 0xf50
    __AUTH_CONST.__objc_intobj: 0x210
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 624C1B70-0368-3106-AB17-A65404FCE7D6
++  UUID: 20B6CA80-0D9F-3415-9704-D45B2484DA26
    Functions: 5319
 -  Symbols:   17256
--  CStrings:  7732
+-  CStrings:  9313
 +  Symbols:   17257
-+  CStrings:  7733
++  CStrings:  9315
  
 Symbols:
 + _AKMDMInfoRequiredHeaderKey

@@ -32,11 +32,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F5C4877-F85E-3CA7-ADDC-D9F132867E1F
 -  Functions: 719
++  UUID: 14FC388C-D589-3A6F-ACD3-3B6750FD160B
 +  Functions: 720
    Symbols:   274
--  CStrings:  1038
-+  CStrings:  1039
+-  CStrings:  1125
++  CStrings:  1126
  
 CStrings:
 + "_evaluatePolicy:options:originator:preflightKey:uiDelegate:reply:"

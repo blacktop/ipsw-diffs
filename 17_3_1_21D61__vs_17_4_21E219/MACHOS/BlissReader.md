@@ -71,13 +71,16 @@
    __DATA.__common: 0x34c
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: 62692D15-AE79-33DB-9308-E4EE3B5CDA75
++  UUID: B3E64F2E-BA20-38BA-BE1C-806F4326EBCF
    Functions: 22795
 -  Symbols:   7503
--  CStrings:  33893
+-  CStrings:  38889
 +  Symbols:   7492
-+  CStrings:  33858
++  CStrings:  38838
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc

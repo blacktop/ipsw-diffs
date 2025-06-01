@@ -74,10 +74,8 @@
    __DATA_CONST.__objc_arraydata: 0x4f0
 -  __AUTH_CONST.__const: 0x9120
 -  __AUTH_CONST.__objc_const: 0x10de0
--  __AUTH_CONST.__auth_ptr: 0x158
 -  __AUTH_CONST.__cfstring: 0xa760
 +  __AUTH_CONST.__const: 0x9508
-+  __AUTH_CONST.__auth_ptr: 0x168
 +  __AUTH_CONST.__objc_const: 0x10eb8
 +  __AUTH_CONST.__cfstring: 0xa6e0
    __AUTH_CONST.__objc_doubleobj: 0xc0
@@ -136,12 +134,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D871FD7-1F43-32AA-B0CA-F41CCD2CE07D
 -  Functions: 21484
 -  Symbols:   59392
--  CStrings:  21414
+-  CStrings:  22753
++  UUID: 30F94633-B250-30D4-8FF6-F8AABAF6C627
 +  Functions: 21785
 +  Symbols:   59666
-+  CStrings:  21542
++  CStrings:  22877
  
 Symbols:
 + +[CNAvatarPosterCarouselPendingPosterEdit pendingEditFromContactPoster:]

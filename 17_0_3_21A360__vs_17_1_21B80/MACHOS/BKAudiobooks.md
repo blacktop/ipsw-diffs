@@ -52,11 +52,13 @@
    - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24C88F16-F932-3B0F-9131-176A4267A0F4
 -  Functions: 911
++  UUID: 5B290D46-B88D-307A-A851-C0CB96E54D87
 +  Functions: 919
    Symbols:   294
--  CStrings:  1871
-+  CStrings:  1878
+-  CStrings:  1951
++  CStrings:  1958
  
 CStrings:
 + "\x11\x11"

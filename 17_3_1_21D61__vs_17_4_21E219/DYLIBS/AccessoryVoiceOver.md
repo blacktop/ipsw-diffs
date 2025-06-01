@@ -37,11 +37,15 @@
    __DATA.__data: 0x218
    __DATA.__common: 0x1c
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB0DE995-F90F-3681-BCBD-EF2EA9E69E51
++  UUID: A3FF6845-DC83-3885-942A-8E0693CF74E5
    Functions: 138
    Symbols:   469
--  CStrings:  257
-+  CStrings:  258
+-  CStrings:  277
++  CStrings:  278
  
 Symbols:
 + ___39-[ACCVoiceOverProvider connectToServer]_block_invoke.100

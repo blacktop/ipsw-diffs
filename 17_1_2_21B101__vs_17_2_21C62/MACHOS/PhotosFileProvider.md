@@ -31,13 +31,16 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_intobj: 0x18
 
+   - /System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C648ACE8-7CBB-3F1D-83DE-3722D6DACF1D
++  UUID: F305DF87-E326-3CDE-9B3B-EDC61F9D9840
    Functions: 41
 -  Symbols:   116
--  CStrings:  226
+-  CStrings:  249
 +  Symbols:   115
-+  CStrings:  228
++  CStrings:  252
  
 Symbols:
 - _NSLocalizedDescriptionKey

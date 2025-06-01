@@ -19,7 +19,7 @@
    __TEXT.__objc_classname: 0x17
    __TEXT.__objc_methname: 0x21e
 
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__const: 0xd98
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0x770
 -  __AUTH.__data: 0x6a0
@@ -37,5 +37,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: B96F2012-DE5A-3555-AA44-8A000736C00F
++  UUID: AA0D8DE5-13DA-3C3B-B682-932BA2C596EC
+   Functions: 641
+   Symbols:   450
+   CStrings:  145
 
 ```

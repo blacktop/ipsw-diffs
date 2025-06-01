@@ -20,12 +20,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 0B234D44-B23D-308C-B0EB-5012AD642D60
 -  Functions: 2029
 -  Symbols:   681
--  CStrings:  4149
+-  CStrings:  5130
++  UUID: 9D3D434D-EF12-33B8-B5A9-A2C809E1E346
 +  Functions: 2028
 +  Symbols:   680
-+  CStrings:  4148
++  CStrings:  5129
  
 Symbols:
 - _BLAudiobookBookletAutoMigrationEnabled

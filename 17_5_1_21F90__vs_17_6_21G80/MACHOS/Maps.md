@@ -41,11 +41,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AD7568BC-4913-3F76-B57E-AC3E59CAC774
 -  Functions: 70423
++  UUID: 21E78D87-7F1F-3781-AE68-B6A64F2CA360
 +  Functions: 70424
    Symbols:   4571
--  CStrings:  87652
-+  CStrings:  87653
+-  CStrings:  101777
++  CStrings:  101778
  
 CStrings:
 + "_mapkit_resolvedFlatPhotoList"

@@ -65,11 +65,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1D9D71FA-A256-302D-9A07-797209D7B515
 -  Functions: 1988
++  UUID: 24751202-74BF-3260-B793-EE14A7CA237F
 +  Functions: 1987
    Symbols:   446
--  CStrings:  3433
-+  CStrings:  3449
+-  CStrings:  4033
++  CStrings:  4043
  
 Symbols:
 + _calloc

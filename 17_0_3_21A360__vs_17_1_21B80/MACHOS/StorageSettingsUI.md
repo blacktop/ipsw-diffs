@@ -65,11 +65,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28256B35-EE97-3847-BCE8-7193405FE9C8
 -  Functions: 1840
++  UUID: A9500429-16C9-3146-8142-96595482F8BC
 +  Functions: 1843
    Symbols:   452
--  CStrings:  1360
-+  CStrings:  1362
+-  CStrings:  1578
++  CStrings:  1580
  
 CStrings:
 + "Media content synchronized from your computer."

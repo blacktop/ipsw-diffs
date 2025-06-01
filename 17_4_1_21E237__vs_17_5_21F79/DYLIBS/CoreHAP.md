@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xab8
 -  __AUTH.__objc_data: 0x5230
 -  __DATA.__objc_ivar: 0x14dc
@@ -80,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77F617C9-0FAA-331B-9360-18E06A508018
 -  Functions: 7474
 -  Symbols:   24174
--  CStrings:  11047
+-  CStrings:  12742
++  UUID: C52341E6-B8D8-344C-8E87-D94067822571
 +  Functions: 7414
 +  Symbols:   23995
-+  CStrings:  10952
++  CStrings:  12641
  
 Symbols:
 + -[HAPAccessoryServerIP pendingConnectionSocketInfo]

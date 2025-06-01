@@ -68,11 +68,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 14EAA862-C9C0-3F0F-AAD1-95B28E74B644
 -  Functions: 5077
++  UUID: 88B5CBB1-9A8D-31CB-B367-4CA949924008
 +  Functions: 5111
    Symbols:   605
--  CStrings:  8303
-+  CStrings:  8335
+-  CStrings:  9687
++  CStrings:  9734
  
 CStrings:
 + "BARMetricDict"

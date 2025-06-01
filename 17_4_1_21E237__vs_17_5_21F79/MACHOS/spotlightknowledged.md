@@ -41,12 +41,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60B0FC38-2162-33ED-915D-B4B20D81F5E7
++  UUID: 127F7539-5891-39CC-8CD6-9F84AD9B188B
    Functions: 2131
 -  Symbols:   437
 +  Symbols:   438
-   CStrings:  2354
+   CStrings:  2854
  
 Symbols:
 + ___stdoutp

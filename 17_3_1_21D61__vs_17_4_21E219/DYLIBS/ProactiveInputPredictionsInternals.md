@@ -39,11 +39,15 @@
    __DATA.__data: 0x3c0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C2139738-8973-322E-BE29-BDC785098982
++  UUID: 61776FCF-E5FB-3425-8CF0-2A65C694CC73
    Functions: 819
    Symbols:   2634
--  CStrings:  1076
-+  CStrings:  1077
+-  CStrings:  1216
++  CStrings:  1217
  
 Symbols:
 + ___block_literal_global.103

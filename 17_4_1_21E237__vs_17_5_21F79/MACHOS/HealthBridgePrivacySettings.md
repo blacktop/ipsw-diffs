@@ -17,6 +17,15 @@
    __TEXT.__objc_methtype: 0x208
    __TEXT.__cstring: 0x606
    __TEXT.__unwind_info: 0xf8
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 85281394-E3E9-38D5-9EDE-348335A0AF5D
++  UUID: AC6F7CEC-7309-3CB7-B9AA-52ECF25229F7
+   Functions: 82
+   Symbols:   113
+   CStrings:  360
 CStrings:
 + "backgroundRecordingsTitle"
 + "setBackgroundRecordingsEnabled:"

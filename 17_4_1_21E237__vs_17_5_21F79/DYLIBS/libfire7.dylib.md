@@ -26,7 +26,11 @@
 +  __DATA_DIRTY.__bss: 0x329
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9A1FA718-67CF-36FA-B447-02B5B513BEA1
++  UUID: AAA484CD-6424-392B-A9F5-56D311C38A8C
    Functions: 8158
+   Symbols:   19567
+   CStrings:  6217
 CStrings:
 + "Apr 13 2024, 05:18:34"
 - "Mar  8 2024, 23:58:46"

@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8A8E7149-EF59-3E8E-9501-22D28B9A610F
 -  Functions: 5858
 -  Symbols:   1178
--  CStrings:  7825
+-  CStrings:  9866
++  UUID: 7D348ACF-5535-38E9-BC58-6E16C9D6B97E
 +  Functions: 6262
 +  Symbols:   1182
-+  CStrings:  8380
++  CStrings:  10544
  
 Symbols:
 + _ccaes_gcm_decrypt_mode

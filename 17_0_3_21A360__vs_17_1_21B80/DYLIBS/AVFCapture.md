@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7FA8A32A-6190-30EE-9D26-02469D5EB3DE
 -  Functions: 4621
 -  Symbols:   16803
--  CStrings:  7449
+-  CStrings:  9395
++  UUID: 94F3BD54-88EA-3668-B287-705F2074997E
 +  Functions: 4613
 +  Symbols:   16796
-+  CStrings:  7448
++  CStrings:  9382
  
 Symbols:
 + -[AVControlCenterModuleState invalidateDeviceBasedModuleStatesIfNeeded]

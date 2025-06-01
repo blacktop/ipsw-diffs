@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02245E48-3728-3BDC-9EFF-1608DD8B92C9
 -  Functions: 5768
 -  Symbols:   564
--  CStrings:  8227
+-  CStrings:  9531
++  UUID: 68644166-AF9D-35C4-B182-3387A9364001
 +  Functions: 5873
 +  Symbols:   568
-+  CStrings:  8346
++  CStrings:  9668
  
 Symbols:
 + _LARatchetErrorUserInfoKeyState

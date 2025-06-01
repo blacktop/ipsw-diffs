@@ -17,11 +17,15 @@
    __TEXT.__oslogstring: 0x3df
    __TEXT.__objc_classname: 0x85
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BCAD95C0-AC74-3E57-AC05-385E59544ECA
++  UUID: E7A0460C-1CBB-3320-BA07-FE28BE2D54B0
    Functions: 691
    Symbols:   4834
--  CStrings:  445
-+  CStrings:  446
+-  CStrings:  457
++  CStrings:  458
  
 CStrings:
 + "this is an international valid sms. so, do not classify"

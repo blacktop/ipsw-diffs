@@ -58,7 +58,6 @@
 -  __AUTH_CONST.__const: 0x6258
 +  __AUTH_CONST.__const: 0x62a0
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x130
 -  __AUTH_CONST.__auth_got: 0x1330
 +  __AUTH_CONST.__auth_got: 0x1340
    __AUTH.__objc_data: 0x21f0
@@ -79,13 +78,16 @@
    __DATA_DIRTY.__common: 0xc0
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F1940E37-F6F2-303C-BDFA-E588D43FB6A2
++  UUID: 1F3771EF-7E6D-30AB-A10E-A5FA7949850B
    Functions: 4569
 -  Symbols:   4633
--  CStrings:  2694
+-  CStrings:  2807
 +  Symbols:   4639
-+  CStrings:  2693
++  CStrings:  2806
  
 Symbols:
 + _os_unfair_lock_lock

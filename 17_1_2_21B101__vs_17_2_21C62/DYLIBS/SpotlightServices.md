@@ -53,9 +53,8 @@
    __AUTH_CONST.__objc_doubleobj: 0x1c0
    __AUTH_CONST.__objc_arrayobj: 0x498
 -  __AUTH_CONST.__objc_dictobj: 0xf0
-+  __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x9c8
++  __AUTH_CONST.__objc_dictobj: 0x140
 +  __AUTH_CONST.__auth_got: 0x9d0
    __AUTH.__objc_data: 0x5a0
    __AUTH.__data: 0x28
@@ -73,13 +72,16 @@
    __DATA_DIRTY.__objc_data: 0x23a0
    __DATA_DIRTY.__data: 0x2a8
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B76EEE7-46D5-3D78-BAE7-AE36B7B06197
++  UUID: 0C1A2FB4-F3EE-3C5D-AC85-F01612B27F2D
    Functions: 4037
 -  Symbols:   14696
--  CStrings:  10402
+-  CStrings:  15041
 +  Symbols:   14722
-+  CStrings:  10430
++  CStrings:  15090
  
 Symbols:
 + +[SSWorldClockUtilities capitalCityInMultiTimeZoneCountryWithCountryCode:]

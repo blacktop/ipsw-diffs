@@ -23,21 +23,24 @@
    __TEXT.__objc_classname: 0x3d
    __TEXT.__objc_methname: 0xd3b
 
+   __AUTH_CONST.__cfstring: 0x320
    __AUTH_CONST.__objc_const: 0x2c8
    __AUTH_CONST.__const: 0xfe0
-   __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__auth_got: 0x950
 +  __AUTH_CONST.__auth_got: 0x958
    __AUTH.__objc_data: 0x10f8
    __AUTH.__data: 0x2488
    __DATA.__objc_protorefs: 0x18
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1EDB44B1-0A1B-33C7-9856-52E84A602CD1
++  UUID: 10C4976D-3A8E-3A71-BCB3-A5C00D4FD529
    Functions: 939
 -  Symbols:   237
 +  Symbols:   238
-   CStrings:  337
+   CStrings:  362
  
 Symbols:
 + _NWKUILocalizedString

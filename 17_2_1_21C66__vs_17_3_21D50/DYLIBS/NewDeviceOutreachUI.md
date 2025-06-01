@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D315C5D-B8DF-39D0-9B44-49E7053FACFB
 -  Functions: 565
 -  Symbols:   2293
--  CStrings:  1368
+-  CStrings:  1510
++  UUID: E179B5B0-4CE8-3BEA-B5D1-6997524D5950
 +  Functions: 557
 +  Symbols:   2282
-+  CStrings:  1370
++  CStrings:  1511
  
 Symbols:
 + -[NDOAppleCareAMSUIViewController initWithWarranty:serialNumber:source:url:purchaseBody:deeplinkParams:]

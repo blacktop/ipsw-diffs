@@ -37,13 +37,16 @@
    __AUTH_CONST.__const: 0x98f8
    __AUTH_CONST.__cfstring: 0x4480
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 5F3F2909-DF53-399B-8C65-85DD07FE3BEF
++  UUID: D6A83485-7ABD-3225-A728-44ECFE755073
    Functions: 8133
 -  Symbols:   21710
--  CStrings:  5701
+-  CStrings:  6249
 +  Symbols:   21707
-+  CStrings:  5699
++  CStrings:  6247
  
 Symbols:
 - _AVAudioSessionCategoryPlayAndRecord

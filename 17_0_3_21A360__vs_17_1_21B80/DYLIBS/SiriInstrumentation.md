@@ -52,13 +52,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x245d8
 -  __AUTH_CONST.__const: 0x588
 -  __AUTH_CONST.__cfstring: 0x485c0
+-  __AUTH_CONST.__objc_const: 0x558
+-  __AUTH_CONST.__objc_intobj: 0xa20
 +  __DATA_CONST.__objc_const: 0x99a68
 +  __DATA_CONST.__objc_selrefs: 0x256c8
 +  __AUTH_CONST.__const: 0x628
 +  __AUTH_CONST.__cfstring: 0x49aa0
-   __AUTH_CONST.__auth_ptr: 0x50
--  __AUTH_CONST.__objc_const: 0x558
--  __AUTH_CONST.__objc_intobj: 0xa20
 +  __AUTH_CONST.__objc_const: 0x1128
 +  __AUTH_CONST.__objc_intobj: 0xa38
    __AUTH_CONST.__auth_got: 0x738
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: AB0FACA8-548B-3B24-B6D4-AD88CF38D35D
 -  Functions: 47535
 -  Symbols:   118606
--  CStrings:  42336
+-  CStrings:  51598
++  UUID: 724295FA-E3DF-3989-ADFB-F1785132284D
 +  Functions: 48750
 +  Symbols:   121657
-+  CStrings:  43424
++  CStrings:  52853
  
 Symbols:
 + +[ACTVSchemaACTVClientEvent(InnerEventContainer) getInnerTypeStringByTag:]

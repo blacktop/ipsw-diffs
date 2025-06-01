@@ -63,12 +63,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A49E57B5-D84F-3108-9DD6-58F7553716F7
 -  Functions: 1184
 -  Symbols:   4132
--  CStrings:  1187
+-  CStrings:  1400
++  UUID: AE09F0C0-DCEB-3C88-AA3A-BFB553F61A38
 +  Functions: 1192
 +  Symbols:   4184
-+  CStrings:  1198
++  CStrings:  1411
  
 Symbols:
 + -[AVAudioSession privateHandleBadgeTypeChange:]

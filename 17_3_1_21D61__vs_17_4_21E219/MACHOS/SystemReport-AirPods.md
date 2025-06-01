@@ -45,11 +45,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C31EA62-0749-3C7F-8F08-0B9A5208984D
++  UUID: 923C4CF8-76D4-32F6-98AC-F7E138E0EF6E
    Functions: 123
    Symbols:   127
--  CStrings:  510
-+  CStrings:  515
+-  CStrings:  666
++  CStrings:  674
  
 CStrings:
 + "Length of AHPS Microphone Calibration Data is not as expected: %lu!"

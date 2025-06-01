@@ -114,12 +114,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: 261D8612-E8D3-3CB1-92C5-5752441109B9
 -  Functions: 25486
 -  Symbols:   65683
--  CStrings:  37507
+-  CStrings:  42504
++  UUID: E262A1FE-AECB-3894-8F2F-693F8CC43D6E
 +  Functions: 22795
 +  Symbols:   7503
-+  CStrings:  33893
++  CStrings:  38889
  
 Symbols:
 + __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
@@ -52143,7 +52145,6 @@ CStrings:
 - "KatakanaPhoneticExtensions"
 - "Khmer"
 - "KhmerSymbols"
-- "L"
 - "LETTER "
 - "LETTER_LOWERCASE "
 - "LETTER_MODIFIER "

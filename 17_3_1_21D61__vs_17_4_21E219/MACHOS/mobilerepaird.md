@@ -57,12 +57,14 @@
 -  - /usr/lib/libimg4.dylib
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5FA3A51A-260B-3501-AA42-44D01A916445
 -  Functions: 208
 -  Symbols:   191
--  CStrings:  608
+-  CStrings:  803
++  UUID: 2D981287-BDB2-3FCC-A1AF-57036022492E
 +  Functions: 210
 +  Symbols:   192
-+  CStrings:  631
++  CStrings:  844
  
 Symbols:
 + _notify_post

@@ -40,12 +40,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D554B4B6-03A6-3435-8441-97B103AF5575
 -  Functions: 8745
 -  Symbols:   302
--  CStrings:  1394
+-  CStrings:  1397
++  UUID: 0BCE7EF4-4933-3640-A521-86427087F44F
 +  Functions: 8746
 +  Symbols:   308
-+  CStrings:  1396
++  CStrings:  1399
  
 Symbols:
 + _OBJC_CLASS_$__TtC29CarCommandsFlowDelegatePlugin27SetTrunkStatusIntentHandler

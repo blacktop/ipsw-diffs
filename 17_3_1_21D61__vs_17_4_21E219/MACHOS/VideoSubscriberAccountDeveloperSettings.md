@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/VideoSubscriberAccountUI.framework/VideoSubscriberAccountUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 171317DA-76BB-325C-A773-CAAA1B4BC49A
++  UUID: DC932DB0-98BB-38D8-8060-2EF41EA5CD58
    Functions: 174
    Symbols:   112
--  CStrings:  418
-+  CStrings:  419
+-  CStrings:  461
++  CStrings:  462
  
 CStrings:
 + "T@\"NSString\",?,R,C"

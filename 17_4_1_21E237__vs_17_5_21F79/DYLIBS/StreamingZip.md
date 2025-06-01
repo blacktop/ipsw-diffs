@@ -42,7 +42,6 @@
 -  __AUTH_CONST.__objc_const: 0x1b0
 +  __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x1d60
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x738
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_ivar: 0x15c
@@ -62,12 +61,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 04EE4701-A1F3-31AB-A940-5B1C1E9DC87B
 -  Functions: 358
 -  Symbols:   1617
--  CStrings:  1501
+-  CStrings:  1736
++  UUID: 6A7E6AB0-BF2B-3212-82FC-53324F69249B
 +  Functions: 360
 +  Symbols:   1624
-+  CStrings:  1507
++  CStrings:  1742
  
 Symbols:
 + -[AsyncStreamingFileWriter accessTime]

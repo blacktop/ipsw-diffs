@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 27B872CA-FE28-3B45-BF26-10A9384643C0
 -  Functions: 11827
 -  Symbols:   3315
--  CStrings:  13175
+-  CStrings:  14559
++  UUID: 2726A874-0274-37ED-B79E-EDB1AE7B4692
 +  Functions: 11830
 +  Symbols:   3316
-+  CStrings:  13180
++  CStrings:  14566
  
 Symbols:
 + _TUIBinaryPackageDomain

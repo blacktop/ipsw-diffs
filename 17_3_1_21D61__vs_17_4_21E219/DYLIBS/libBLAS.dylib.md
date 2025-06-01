@@ -22,12 +22,14 @@
 +  __TEXT.__eh_frame: 0x1388
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x818
-   __AUTH_CONST.__auth_ptr: 0x398
+   __AUTH_CONST.__const: 0x1e0
 
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 5121A619-B170-326A-893F-A559BA34F3B8
 -  Functions: 5213
++  UUID: 5BD97544-DE72-353D-9A6A-F161060E46EA
 +  Functions: 5307
    Symbols:   1041
 -  CStrings:  324

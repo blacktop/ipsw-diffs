@@ -44,9 +44,8 @@
    __DATA_CONST.__objc_arraydata: 0xdb0
    __AUTH_CONST.__objc_floatobj: 0x1c0
 -  __AUTH_CONST.__objc_const: 0x240
-+  __AUTH_CONST.__objc_const: 0x1b0
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__cfstring: 0x105c0
++  __AUTH_CONST.__objc_const: 0x1b0
 +  __AUTH_CONST.__cfstring: 0x106e0
    __AUTH_CONST.__objc_doubleobj: 0x3c0
    __AUTH_CONST.__objc_intobj: 0x2448
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2D2EB577-6B9B-332D-A382-1815255F1F9A
 -  Functions: 9756
 -  Symbols:   35871
--  CStrings:  13882
+-  CStrings:  15976
++  UUID: 282F6EDD-F83D-306F-B948-FDFB640DD1CC
 +  Functions: 9758
 +  Symbols:   35875
-+  CStrings:  13891
++  CStrings:  15994
  
 Symbols:
 + _MajorOSVersionNumberKey

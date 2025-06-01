@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 649C7A17-A459-3403-A370-F668EFC66D5B
 -  Functions: 4037
 -  Symbols:   14722
--  CStrings:  10430
+-  CStrings:  15090
++  UUID: 819E3E97-258B-309A-9E09-7EED083A1DCE
 +  Functions: 4042
 +  Symbols:   14738
-+  CStrings:  10440
++  CStrings:  15101
  
 Symbols:
 + -[SFSearchResult_SpotlightExtras urlValueForAttribute:]

@@ -23,4 +23,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C907BFAA-57A3-3186-B812-A3E1208230D7
++  UUID: 9F82B86C-D43A-3577-BBD9-2BD818A092B9
+   Functions: 4
+   Symbols:   45
+   CStrings:  38
+
 ```

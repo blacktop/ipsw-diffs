@@ -57,12 +57,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4014AAA4-DF90-39F7-A0E2-24BD629C0914
 -  Functions: 680
 -  Symbols:   2087
--  CStrings:  949
+-  CStrings:  1152
++  UUID: AD17D221-12E9-305B-942F-AE21272361AE
 +  Functions: 681
 +  Symbols:   2090
-+  CStrings:  954
++  CStrings:  1158
  
 Symbols:
 + -[CTCellularPlanCarrierItem initWithName:plan:url:applePaySupported:responseType:warningText:purchaseOption:]

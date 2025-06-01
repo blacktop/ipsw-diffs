@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5112E1E4-963B-3F88-B204-FAA4B2B274DA
 -  Functions: 1103
 -  Symbols:   3913
--  CStrings:  1483
+-  CStrings:  1782
++  UUID: 886734A5-A8DE-32E9-81DB-B97B5D7A05FD
 +  Functions: 1114
 +  Symbols:   3933
-+  CStrings:  1484
++  CStrings:  1783
  
 Symbols:
 + GCC_except_table47

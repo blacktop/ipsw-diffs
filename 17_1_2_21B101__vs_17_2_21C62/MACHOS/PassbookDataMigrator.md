@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8EAFB146-21D9-30C6-90DF-4F3F9F7B3DC8
++  UUID: 67392DF7-38BE-3D5B-96C0-4FC3B009B57B
    Functions: 2
    Symbols:   17
--  CStrings:  15
-+  CStrings:  12
+-  CStrings:  18
++  CStrings:  15
  
 Symbols:
 + _objc_release_x20

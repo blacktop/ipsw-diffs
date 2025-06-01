@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0x288
    __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x480
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xb30
 +  __AUTH_CONST.__auth_got: 0xb40
    __AUTH.__objc_data: 0x1788
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1256305-21DB-359F-8025-6B7A676BF53D
 -  Functions: 4078
 -  Symbols:   13507
--  CStrings:  7450
+-  CStrings:  10132
++  UUID: 52B8F899-9109-37DE-AE5D-415D77A9B38C
 +  Functions: 4085
 +  Symbols:   13529
-+  CStrings:  7456
++  CStrings:  10140
  
 Symbols:
 + -[NSBundle(SafariCoreExtras) safari_isInSyncAgent]

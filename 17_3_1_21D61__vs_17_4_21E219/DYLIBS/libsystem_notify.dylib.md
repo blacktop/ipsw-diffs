@@ -20,7 +20,9 @@
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: F6FCC3CB-492B-3293-954C-7474044623E1
 -  Functions: 75
++  UUID: DD3CD465-F9EB-33D1-B6A1-29BE7D40ADEB
 +  Functions: 77
    Symbols:   118
 -  CStrings:  63

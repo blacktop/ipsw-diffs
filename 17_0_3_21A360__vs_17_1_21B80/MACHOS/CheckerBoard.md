@@ -35,11 +35,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F064CD7-753B-318B-A5E9-46A2572437EF
 -  Functions: 1236
++  UUID: 36B33B93-A15A-390D-8ED9-DDB840401230
 +  Functions: 1238
    Symbols:   373
--  CStrings:  3100
-+  CStrings:  3101
+-  CStrings:  3282
++  CStrings:  3284
  
 CStrings:
 + "SystemWillReboot"

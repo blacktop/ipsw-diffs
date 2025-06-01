@@ -67,12 +67,14 @@
    - /usr/lib/libobjc.A.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftDarwin.dylib
+-  UUID: 828AC623-AE21-3000-A75A-A0BF579B826E
 -  Functions: 38
 -  Symbols:   79
--  CStrings:  262
+-  CStrings:  281
++  UUID: F4E8F217-EF05-34D5-B172-132707B592D6
 +  Functions: 64
 +  Symbols:   95
-+  CStrings:  265
++  CStrings:  284
  
 Symbols:
 + _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF

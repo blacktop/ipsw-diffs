@@ -80,7 +80,6 @@
 +  __AUTH_CONST.__const: 0x2680
 +  __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x60
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0xe08
 -  __AUTH.__objc_data: 0x36c8
 -  __AUTH.__data: 0x220
@@ -92,7 +91,6 @@
 -  __DATA.__bss: 0x11f0
 -  __DATA.__common: 0x280
 +  __AUTH_CONST.__objc_doubleobj: 0x20
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__auth_got: 0xfd0
 +  __AUTH.__objc_data: 0x3998
 +  __AUTH.__data: 0x630
@@ -149,13 +147,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A8016E81-FF78-36CF-8BF7-64C4F4BF6FCC
 -  Functions: 4366
 -  Symbols:   12686
--  CStrings:  5592
+-  CStrings:  6100
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BE91C515-F5E8-3704-93F9-CEFCB71F35DF
 +  Functions: 4984
 +  Symbols:   13080
-+  CStrings:  5704
++  CStrings:  6223
  
 Symbols:
 + +[AAUIFeatureFlags isAccountDataclassListRedesignEnabled]

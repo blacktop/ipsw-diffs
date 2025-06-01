@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_const: 0x55c0
 -  __AUTH_CONST.__const: 0xe50
 +  __AUTH_CONST.__const: 0xe90
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0x528
    __AUTH_CONST.__objc_arrayobj: 0x78
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5CE85F5D-E18B-3B6F-AC52-8BE6254AC016
 -  Functions: 5435
 -  Symbols:   22851
--  CStrings:  10692
+-  CStrings:  11808
++  UUID: 15F5229B-E9E8-3549-BED9-7CB424E86FE7
 +  Functions: 5444
 +  Symbols:   22905
-+  CStrings:  10725
++  CStrings:  11843
  
 Symbols:
 + -[MFCaptionLabel _attributedStringForImage:]

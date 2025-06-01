@@ -39,12 +39,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A116079-3738-3FCB-B70B-F53E151381E9
 -  Functions: 167
 -  Symbols:   592
--  CStrings:  350
+-  CStrings:  378
++  UUID: 493B9280-11BC-312B-A9FC-F9B6234BBBE1
 +  Functions: 171
 +  Symbols:   601
-+  CStrings:  356
++  CStrings:  384
  
 Symbols:
 + -[ACCBLEPairingProviderInternal accessoryBLEPairingNoAccessories]

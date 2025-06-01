@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6403C4CE-EA26-37BC-A849-BA33CF16988F
 -  Functions: 173
 -  Symbols:   155
--  CStrings:  768
+-  CStrings:  838
++  UUID: FF26A023-FBE1-396A-88D2-0CF5B37772BA
 +  Functions: 192
 +  Symbols:   163
-+  CStrings:  856
++  CStrings:  935
  
 Symbols:
 + _NSErrorToOSStatus

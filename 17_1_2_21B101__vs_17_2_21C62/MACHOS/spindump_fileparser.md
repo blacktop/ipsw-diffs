@@ -46,12 +46,14 @@
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B5288EA9-A42D-3E9B-8C2B-58C0268F7E5F
 -  Functions: 1679
 -  Symbols:   376
--  CStrings:  3920
+-  CStrings:  4964
++  UUID: E94DABD0-D2A3-3B8A-9AC4-1438D7E7A115
 +  Functions: 1685
 +  Symbols:   377
-+  CStrings:  3927
++  CStrings:  4974
  
 Symbols:
 + _objc_release_x28

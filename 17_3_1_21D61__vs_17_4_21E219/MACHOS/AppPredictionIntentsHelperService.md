@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17B5AEB8-3EDF-335A-9DCF-BCD93C6BE74A
++  UUID: 2B62FDC9-9CB1-3EDC-B157-9C44DA6CE81C
    Functions: 97
    Symbols:   46
 -  CStrings:  135

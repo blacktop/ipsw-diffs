@@ -39,11 +39,15 @@
    __DATA.__data: 0x8b8
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 84C68442-765C-3ACB-9611-AA091E6079D9
++  UUID: 1CFC0C36-363B-3C67-9850-68D92574B89A
    Functions: 249
    Symbols:   1581
--  CStrings:  745
-+  CStrings:  747
+-  CStrings:  871
++  CStrings:  873
  
 CStrings:
 + "T@\"<SFCardSection>\",?,R,N"

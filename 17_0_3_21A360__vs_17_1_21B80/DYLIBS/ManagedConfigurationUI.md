@@ -40,19 +40,21 @@
    __AUTH_CONST.__objc_const: 0x1408
 -  __AUTH_CONST.__cfstring: 0x2420
 +  __AUTH_CONST.__cfstring: 0x2440
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x1a0
    __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x40
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B528112E-1C15-364A-8167-DBCF7CA491C4
 -  Functions: 1090
 -  Symbols:   4358
--  CStrings:  2265
+-  CStrings:  2554
++  UUID: 367DB4D0-96A1-38E4-95B0-27D9C730AFC0
 +  Functions: 1095
 +  Symbols:   4371
-+  CStrings:  2269
++  CStrings:  2559
  
 Symbols:
 + -[MCInstallProfileViewController _removeProfileWithIdentifier:completionHandler:]
@@ -78,5 +80,6 @@ CStrings:
 + "Unenrolled from DEP. Removing existing MDM profile..."
 + "_removeProfileWithIdentifier:completionHandler:"
 + "setCellLayoutMarginsFollowReadableWidth:"
+- "U"
 
 ```

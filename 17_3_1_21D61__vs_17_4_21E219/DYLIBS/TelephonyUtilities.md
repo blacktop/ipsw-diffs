@@ -76,7 +76,6 @@
 -  __DATA.__objc_superrefs: 0x580
 -  __DATA.__objc_ivar: 0x132c
 -  __DATA.__data: 0x2fa8
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0xbd8
 +  __AUTH.__objc_data: 0x1d10
 +  __AUTH.__data: 0x2d0
@@ -110,9 +109,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FCAA70AD-655E-38C4-92C2-F35D44718893
 -  Functions: 7610
 -  Symbols:   24071
--  CStrings:  11322
+-  CStrings:  13095
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreAudio.dylib
@@ -131,9 +131,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BED7410B-76D3-3C4E-8348-66B0707EB6D2
 +  Functions: 7773
 +  Symbols:   24332
-+  CStrings:  11502
++  CStrings:  13317
  
 Symbols:
 + +[TUBusinessServicesMetadataDataProvider sharedInstance]

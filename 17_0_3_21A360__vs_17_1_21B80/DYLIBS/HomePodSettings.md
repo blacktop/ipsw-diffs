@@ -73,11 +73,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0xe20
 -  __AUTH.__objc_data: 0x2328
 -  __AUTH.__data: 0xf20
-+  __AUTH_CONST.__auth_ptr: 0x1a8
 +  __AUTH_CONST.__auth_got: 0x11f0
 +  __AUTH.__objc_data: 0x2748
 +  __AUTH.__data: 0x1b30
@@ -111,12 +109,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 56ABB247-90D0-3641-8CD3-9EB64E011427
 -  Functions: 4845
 -  Symbols:   4470
--  CStrings:  1172
+-  CStrings:  1309
++  UUID: 2E9F628B-CD9E-3A0D-B25B-DC17A1D94E9B
 +  Functions: 9159
 +  Symbols:   6347
-+  CStrings:  1306
++  CStrings:  1443
  
 Symbols:
 + +[HPSFeatureStatus isOpalEnabled]

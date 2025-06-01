@@ -110,12 +110,14 @@
 -  - /usr/lib/swift/libswift_Concurrency.dylib
 -  - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EA24A710-7042-30B0-84A5-0CB25DE1BB7D
 -  Functions: 430
 -  Symbols:   278
--  CStrings:  448
+-  CStrings:  471
++  UUID: 91EC56A0-8843-3523-83E5-65545E711292
 +  Functions: 145
 +  Symbols:   134
-+  CStrings:  413
++  CStrings:  436
  
 Symbols:
 - _$s10AppIntents09_SupportsA12DependenciesMp

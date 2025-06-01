@@ -12,4 +12,13 @@
    __TEXT.__const: 0x4ae0
    __TEXT.__oslogstring: 0x483c
 
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A1B6498-60A5-3946-925F-203C359963D2
++  UUID: 5FB3D395-F376-3C58-B90B-A5980404D772
+   Functions: 170
+   Symbols:   329
+   CStrings:  434
+
 ```

@@ -21,5 +21,12 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2C441A56-B9CE-39C0-8760-7C63DFD74D2F
++  UUID: 554FB5C2-04D4-34FA-9995-55AE2D7ACBD9
+   Functions: 3
+   Symbols:   32
+   CStrings:  4
 
 ```

@@ -25,13 +25,16 @@
    __DATA_CONST.__const: 0x780
    __DATA_CONST.__cfstring: 0x140
 
+   - /usr/lib/libipconfig.dylib
    - /usr/lib/libmdns.dylib
    - /usr/lib/libmrc.dylib
+-  UUID: 4189B94C-47AE-3E4A-879B-C567E42D58AF
++  UUID: 7D1346ED-EAE8-3064-AEBD-256B9C243B9A
    Functions: 359
 -  Symbols:   878
--  CStrings:  1822
+-  CStrings:  1832
 +  Symbols:   876
-+  CStrings:  1829
++  CStrings:  1839
  
 Symbols:
 + ___ioloop_listener_create_block_invoke_2

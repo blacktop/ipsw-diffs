@@ -43,9 +43,8 @@
 +  __AUTH_CONST.__objc_intobj: 0xab0
    __AUTH_CONST.__objc_floatobj: 0x1f0
 -  __AUTH_CONST.__objc_doubleobj: 0x4b0
-+  __AUTH_CONST.__objc_doubleobj: 0x4c0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x5c8
++  __AUTH_CONST.__objc_doubleobj: 0x4c0
 +  __AUTH_CONST.__auth_got: 0x5c0
    __AUTH.__objc_data: 0xd20
 -  __DATA.__objc_protorefs: 0x8
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C85FEB3D-01C7-333C-B54B-556B13D36DDA
 -  Functions: 895
 -  Symbols:   327
--  CStrings:  2790
+-  CStrings:  3518
++  UUID: 807E9DEB-13BE-3F41-8655-33579C412C58
 +  Functions: 894
 +  Symbols:   326
-+  CStrings:  2791
++  CStrings:  3519
  
 Symbols:
 - __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_

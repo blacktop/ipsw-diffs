@@ -36,13 +36,16 @@
    __DATA_DIRTY.__data: 0x3
    __DATA_DIRTY.__bss: 0xb40
 
+   - /System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CFB6361D-A508-32EF-851A-FA1E19883017
++  UUID: 3EC7D16A-12B5-379F-BB5A-52246F1C7159
    Functions: 1745
 -  Symbols:   5343
--  CStrings:  5970
+-  CStrings:  7188
 +  Symbols:   5344
-+  CStrings:  5972
++  CStrings:  7191
  
 Symbols:
 + ___PRLogContainer

@@ -33,8 +33,10 @@
    - /usr/lib/ACIPCBTLib.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: A5DB51B8-34E3-3B34-97D7-B279C82E4CDE
 -  Functions: 320
 -  Symbols:   872
++  UUID: 3B5C0CF3-8044-3845-82FB-E75AEDF71E3B
 +  Functions: 332
 +  Symbols:   873
    CStrings:  141

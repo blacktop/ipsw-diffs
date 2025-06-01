@@ -43,12 +43,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3C5D5C8-FF19-3172-8A1E-0070906752E3
 -  Functions: 124
 -  Symbols:   227
--  CStrings:  377
+-  CStrings:  419
++  UUID: B736378B-07AA-343F-AA6C-879DDA2F4CBA
 +  Functions: 125
 +  Symbols:   229
-+  CStrings:  380
++  CStrings:  422
  
 Symbols:
 + _AXAuditCurrentApplications

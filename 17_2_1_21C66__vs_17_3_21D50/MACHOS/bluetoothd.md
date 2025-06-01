@@ -38,11 +38,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4EC0E852-3956-36B7-AAE6-17E8445414E2
 -  Functions: 32391
++  UUID: 1CDFDD79-D4E0-31C2-8D6C-118B78995074
 +  Functions: 32397
    Symbols:   1423
--  CStrings:  31213
-+  CStrings:  31215
+-  CStrings:  34555
++  CStrings:  34557
  
 CStrings:
 + "00:16:08"

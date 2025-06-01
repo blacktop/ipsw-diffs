@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 210F6036-734F-3DB8-B1CB-E808314AD354
 -  Functions: 2871
 -  Symbols:   229
--  CStrings:  2754
+-  CStrings:  3123
++  UUID: 498290D5-114D-3D5F-AFF8-0A0C14E6CD26
 +  Functions: 2886
 +  Symbols:   232
-+  CStrings:  2781
++  CStrings:  3151
  
 Symbols:
 + _OBJC_CLASS_$_IDSServerBag

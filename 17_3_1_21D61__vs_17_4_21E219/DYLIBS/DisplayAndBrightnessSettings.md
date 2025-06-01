@@ -82,13 +82,15 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B3DCE0BF-84B2-32CE-844B-37424724AAD6
 -  Functions: 786
 -  Symbols:   3362
--  CStrings:  1877
+-  CStrings:  2199
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 9CE39C3E-D457-3113-B894-E8581CA8B476
 +  Functions: 795
 +  Symbols:   3404
-+  CStrings:  1906
++  CStrings:  2243
  
 Symbols:
 + -[DBSFineTuneController addOrRemoveTargetFooter]

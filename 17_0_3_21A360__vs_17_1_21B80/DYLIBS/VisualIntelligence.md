@@ -54,11 +54,9 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x4f10
--  __AUTH_CONST.__auth_ptr: 0x4b0
 -  __AUTH_CONST.__auth_got: 0x20a8
 -  __AUTH.__objc_data: 0x0
 +  __AUTH_CONST.__const: 0x4f18
-+  __AUTH_CONST.__auth_ptr: 0x4b8
 +  __AUTH_CONST.__auth_got: 0x20b0
 +  __AUTH.__objc_data: 0xa0
    __AUTH.__data: 0x58
@@ -88,12 +86,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1AC128E9-9412-308E-914E-0FB041391136
 -  Functions: 13381
 -  Symbols:   8564
--  CStrings:  3893
+-  CStrings:  4106
++  UUID: B3F21B69-2480-32F7-97EA-F2EE48F0D770
 +  Functions: 13397
 +  Symbols:   8561
-+  CStrings:  3891
++  CStrings:  4104
  
 Symbols:
 + +[VICloudKitHandler uploadUserFeedbackToEnvironment:container:request:sfReport:intermediateResults:deviceInfo:nsfwConfidence:imageData:reportIdentifier:completionHandler:]

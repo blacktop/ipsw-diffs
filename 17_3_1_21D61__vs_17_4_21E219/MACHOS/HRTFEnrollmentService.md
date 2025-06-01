@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x248
 
+   - /System/Library/PrivateFrameworks/VisageHRTF.framework/VisageHRTF
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5EA880AC-57BF-324D-AC4B-BC4834D52FAD
++  UUID: A3EC51EF-A886-3C06-B0C4-0B25A07BE5A2
    Functions: 143
    Symbols:   170
--  CStrings:  420
-+  CStrings:  421
+-  CStrings:  465
++  CStrings:  466
  
 CStrings:
 + "T@\"NSString\",?,R,C"

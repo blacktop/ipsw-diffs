@@ -39,11 +39,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 87763354-4045-3300-A909-464D063C563A
 -  Functions: 4095
 -  Symbols:   12595
++  UUID: 6D5E8B79-AFE4-3D26-ACF6-369617AC2B38
 +  Functions: 4097
 +  Symbols:   12599
-   CStrings:  5278
+   CStrings:  6081
  
 Symbols:
 + -[ASDPurgeAppsRequestOptions setSkipLaunchCheck:]

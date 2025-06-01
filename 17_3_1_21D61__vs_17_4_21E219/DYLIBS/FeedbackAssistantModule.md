@@ -22,5 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 18315C25-D51B-3E84-BCAB-50D30D1B93D6
++  UUID: E40F6DBB-4EDA-3299-B43B-9FE249B772F4
+   Functions: 2
+   Symbols:   26
+   CStrings:  27
 
 ```

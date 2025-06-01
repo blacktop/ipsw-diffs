@@ -74,11 +74,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x148
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x3c18
--  __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__cfstring: 0x2cc0
 -  __AUTH_CONST.__objc_const: 0x120
 +  __AUTH_CONST.__const: 0x4468
-+  __AUTH_CONST.__auth_ptr: 0xe8
 +  __AUTH_CONST.__cfstring: 0x2ec0
 +  __AUTH_CONST.__objc_const: 0x1f0
    __AUTH_CONST.__objc_dictobj: 0x28
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1957B5FE-A403-3468-B102-03DB66841117
 -  Functions: 7785
 -  Symbols:   8187
--  CStrings:  2774
+-  CStrings:  3132
++  UUID: 24CB8ADD-5547-36B0-99D4-6114439466F4
 +  Functions: 8589
 +  Symbols:   8886
-+  CStrings:  2964
++  CStrings:  3338
  
 Symbols:
 + +[EARLatticeMitigatorResult supportsSecureCoding]

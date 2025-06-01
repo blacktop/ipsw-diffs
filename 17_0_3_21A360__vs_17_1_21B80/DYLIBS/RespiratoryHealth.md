@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF334AD7-E7F9-36E9-A9A5-C8D45637F5DB
 -  Functions: 187
 -  Symbols:   837
--  CStrings:  470
+-  CStrings:  522
++  UUID: 43CC0F3E-7191-3640-93D6-92FC686FB0EA
 +  Functions: 194
 +  Symbols:   851
-+  CStrings:  483
++  CStrings:  540
  
 Symbols:
 + -[HKRPOxygenSaturationSettings(Localization) aboutBloodOxygenFooterWithLearnMore]

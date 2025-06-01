@@ -23,4 +23,13 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/EnhancedLoggingState.framework/EnhancedLoggingState
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8F1C4FDA-4DBE-3DA3-882A-6729018F07AC
++  UUID: 5BF6257B-6125-32E0-BA4C-2F8D4FBCDE0A
+   Functions: 17
+   Symbols:   56
+   CStrings:  127
+
 ```

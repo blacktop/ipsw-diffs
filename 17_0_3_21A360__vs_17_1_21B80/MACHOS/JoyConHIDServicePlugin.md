@@ -34,13 +34,16 @@
    __DATA_CONST.__objc_catlist: 0x0
    __DATA_CONST.__objc_protolist: 0xa8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 864B71A6-D5DE-3FA6-BB57-2506AB988746
++  UUID: F1AD18F5-C008-3368-91B1-D0FDC5EB7E3D
    Functions: 411
 -  Symbols:   150
--  CStrings:  859
+-  CStrings:  995
 +  Symbols:   151
-+  CStrings:  860
++  CStrings:  997
  
 Symbols:
 + _BTSessionDetachWithQueue

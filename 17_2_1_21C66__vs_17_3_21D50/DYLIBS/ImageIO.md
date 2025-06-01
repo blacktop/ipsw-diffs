@@ -38,7 +38,6 @@
 -  __AUTH_CONST.__const: 0x3d328
 +  __AUTH_CONST.__const: 0x3d348
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x1e00
 +  __AUTH_CONST.__auth_got: 0x1e38
    __AUTH.__objc_data: 0xa0
@@ -56,12 +55,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 804378B1-31EB-3938-85C1-EECD09038AA0
 -  Functions: 12991
 -  Symbols:   32598
--  CStrings:  11216
+-  CStrings:  12723
++  UUID: 77170A5B-C819-3417-84AA-BEBB608905F1
 +  Functions: 12992
 +  Symbols:   32611
-+  CStrings:  11223
++  CStrings:  12730
  
 Symbols:
 + __ZZN13IIOReadPlugin19saveDataToXPCObjectEPvE3tok

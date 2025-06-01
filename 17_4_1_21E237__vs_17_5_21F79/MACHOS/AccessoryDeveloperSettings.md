@@ -53,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
 +  - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C543A740-76E3-397D-93B6-B324616A870F
++  UUID: 39349D44-EC2C-303B-B4F0-B75C0284FDF4
    Functions: 41
 -  Symbols:   67
--  CStrings:  211
+-  CStrings:  269
 +  Symbols:   109
-+  CStrings:  256
++  CStrings:  323
  
 Symbols:
 + _NSCocoaErrorDomain

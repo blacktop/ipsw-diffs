@@ -34,13 +34,16 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0x80
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E8A63769-33E6-3662-9591-65CDE82EAB08
++  UUID: 0048113A-314C-3955-907A-2E4E3637995B
    Functions: 1516
 -  Symbols:   936
--  CStrings:  3861
+-  CStrings:  4528
 +  Symbols:   937
-+  CStrings:  3866
++  CStrings:  4536
  
 Symbols:
 + _unsetenv

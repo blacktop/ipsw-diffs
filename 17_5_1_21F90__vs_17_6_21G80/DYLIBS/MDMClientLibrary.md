@@ -32,12 +32,15 @@
    __DATA.__data: 0x480
    __DATA.__bss: 0x100
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49D7E7D8-13FD-3349-A29D-708641ABD752
++  UUID: 73BEECF3-DC1D-3B2E-8469-A4D484F5E9AA
    Functions: 432
 -  Symbols:   2113
 +  Symbols:   2115
-   CStrings:  1220
+   CStrings:  1568
  
 Symbols:
 + _DMCIsSetupBuddyDone

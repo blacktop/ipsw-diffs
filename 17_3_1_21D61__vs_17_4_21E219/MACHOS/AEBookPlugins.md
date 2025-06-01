@@ -70,12 +70,14 @@
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: CDE505CD-67A0-3699-A353-C3B8B59E6829
 -  Functions: 9734
 -  Symbols:   2447
--  CStrings:  14040
+-  CStrings:  15350
++  UUID: D13B793B-7E9F-351B-ADA3-FB25DF706DBA
 +  Functions: 9728
 +  Symbols:   2442
-+  CStrings:  14045
++  CStrings:  15355
  
 Symbols:
 - _OBJC_CLASS_$_NonArcHelpers

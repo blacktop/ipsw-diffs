@@ -63,14 +63,12 @@
    __AUTH_CONST.__objc_const: 0x300
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__const: 0x14508
--  __AUTH_CONST.__auth_ptr: 0x750
 -  __AUTH_CONST.__auth_got: 0x37f8
 -  __AUTH.__objc_data: 0xe58
 -  __AUTH.__data: 0x5e78
 -  __DATA.__objc_protorefs: 0x60
 -  __DATA.__objc_classrefs: 0x2d8
 +  __AUTH_CONST.__const: 0x14e08
-+  __AUTH_CONST.__auth_ptr: 0x770
 +  __AUTH_CONST.__auth_got: 0x3968
 +  __AUTH.__objc_data: 0xf98
 +  __AUTH.__data: 0x6050
@@ -95,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0E201A18-6327-3B29-B377-086DA72E5E3E
 -  Functions: 19010
 -  Symbols:   10852
--  CStrings:  1210
+-  CStrings:  1211
++  UUID: AFEC665E-C2E0-3DF7-95F9-839FCDD1ADE6
 +  Functions: 19599
 +  Symbols:   11173
-+  CStrings:  1264
++  CStrings:  1265
  
 Symbols:
 + _CGRectEqualToRect

@@ -68,9 +68,7 @@
    __DATA_CONST.__objc_superrefs: 0x1dd0
    __DATA_CONST.__objc_arraydata: 0x520
 -  __AUTH_CONST.__const: 0xdee0
--  __AUTH_CONST.__auth_ptr: 0x270
 +  __AUTH_CONST.__const: 0xe070
-+  __AUTH_CONST.__auth_ptr: 0x280
    __AUTH_CONST.__objc_const: 0x190c0
 -  __AUTH_CONST.__cfstring: 0x1ea60
 +  __AUTH_CONST.__cfstring: 0x1eaa0
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15450C24-DD4B-3017-A432-517B8C5BD48D
 -  Functions: 32509
 -  Symbols:   82565
--  CStrings:  35185
+-  CStrings:  39108
++  UUID: DAD16076-65E6-340E-A7C4-D9226064C5C2
 +  Functions: 32565
 +  Symbols:   82594
-+  CStrings:  35197
++  CStrings:  39122
  
 Symbols:
 + -[HUServiceDetailsItemManager _resetAccessory]

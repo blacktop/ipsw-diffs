@@ -65,12 +65,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BAC43C76-8386-3062-B867-B9752F17C991
 -  Functions: 1343
 -  Symbols:   4097
--  CStrings:  1880
+-  CStrings:  2118
++  UUID: 525D59C2-610D-3D40-A63D-229F3F569AEF
 +  Functions: 1345
 +  Symbols:   4107
-+  CStrings:  1908
++  CStrings:  2148
  
 Symbols:
 + +[CMIOExtensionProvider stopServiceWithProvider:]

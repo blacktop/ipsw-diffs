@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E50E57C-F4B1-3AEF-96C4-0FC632CBD40A
++  UUID: 93EAC8B3-6C7A-3629-BE2C-9130DE7FA114
    Functions: 37
    Symbols:   97
--  CStrings:  167
-+  CStrings:  168
+-  CStrings:  180
++  CStrings:  181
  
 CStrings:
 + "T@\"NSString\",?,R,C"

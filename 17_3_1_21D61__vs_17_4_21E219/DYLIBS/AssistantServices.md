@@ -55,7 +55,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x5a0
 +  __AUTH_CONST.__objc_arrayobj: 0x588
    __AUTH_CONST.__objc_doubleobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab0
 -  __AUTH.__objc_data: 0x7080
 +  __AUTH.__objc_data: 0x7120
@@ -78,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28E6C766-DDE1-34E6-8B48-01B389CAFD88
 -  Functions: 11172
 -  Symbols:   35830
--  CStrings:  18213
+-  CStrings:  23002
++  UUID: A7BF05F4-70D8-3B0B-B680-B7CA1DDBF6CD
 +  Functions: 11255
 +  Symbols:   36062
-+  CStrings:  18293
++  CStrings:  23082
  
 Symbols:
 + +[AFFeatureFlags(SWEFeatureFlags) isASRSpeechProfileMigrationEnabled]

@@ -14,6 +14,15 @@
    __TEXT.__oslogstring: 0x1f0
    __TEXT.__const: 0x18
    __TEXT.__gcc_except_tab: 0x19c
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8E7E034E-206A-36A0-BD57-8B42BB903852
++  UUID: D903C835-DDC6-3B08-AF1B-76C55F0DEA75
+   Functions: 124
+   Symbols:   727
+   CStrings:  468
 CStrings:
 + "NAME_AND_PHOTO_SHARING_OFF"
 - "Off"

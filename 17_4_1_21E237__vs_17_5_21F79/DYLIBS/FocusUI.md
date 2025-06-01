@@ -30,8 +30,8 @@
    __DATA_CONST.__objc_protorefs: 0x20
    __DATA_CONST.__objc_classrefs: 0x318
 
+   __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x568
 -  __AUTH.__objc_data: 0x598
 +  __AUTH.__objc_data: 0x4f8
@@ -47,11 +47,15 @@
    __DATA_DIRTY.__common: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 016F1E4D-C15B-3FEC-B7AC-8580B2801230
++  UUID: B397FFE4-A6CD-3ABC-872D-8F416D0AFF9A
    Functions: 956
    Symbols:   3728
--  CStrings:  1620
-+  CStrings:  1623
+-  CStrings:  1722
++  CStrings:  1725
  
 CStrings:
 + "@\"NSSet\"16@0:8"

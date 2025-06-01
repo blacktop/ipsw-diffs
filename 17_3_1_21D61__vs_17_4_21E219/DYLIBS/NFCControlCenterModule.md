@@ -25,6 +25,15 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42F64170-F9C2-3179-BA29-BEAA4B11E1EE
++  UUID: 8DAA6CC5-4E33-3227-966D-F4D610454C16
+   Functions: 21
+   Symbols:   134
+   CStrings:  98
 Symbols:
 + ___block_literal_global.238
 + ___block_literal_global.240

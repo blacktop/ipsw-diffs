@@ -23,7 +23,9 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 129C2ED9-DBEA-382C-B9E2-41F5E6E4911E
 -  Functions: 13204
++  UUID: 150D290F-00A8-32F1-895C-8FFC6344CAF1
 +  Functions: 13206
    Symbols:   260
    CStrings:  579

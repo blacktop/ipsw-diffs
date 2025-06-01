@@ -23,19 +23,21 @@
    __AUTH_CONST.__const: 0x6b60
 -  __AUTH_CONST.__cfstring: 0x3ae0
 +  __AUTH_CONST.__cfstring: 0x3b00
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x5b0
    __DATA.__data: 0xa58
+   __DATA.__bss: 0xc58
 
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 181438FE-CD51-3B77-BE13-A9FFA0FC111F
 -  Functions: 1523
 -  Symbols:   4416
--  CStrings:  675
+-  CStrings:  1146
++  UUID: C66FD311-FC68-369C-940E-79844814FACA
 +  Functions: 1525
 +  Symbols:   4418
-+  CStrings:  676
++  CStrings:  1148
  
 Symbols:
 + _ColorSyncAPIVersion

@@ -34,4 +34,13 @@
    __DATA.__bss: 0x6740
    __DATA.__common: 0x148
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A454589-55C9-308B-A345-78D9501216B3
++  UUID: B7728358-4A8A-395B-B82B-AC43F4D31DCA
+   Functions: 9167
+   Symbols:   615
+   CStrings:  3900
+
 ```

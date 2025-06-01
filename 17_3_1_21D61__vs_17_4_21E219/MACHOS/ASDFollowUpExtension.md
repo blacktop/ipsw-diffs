@@ -23,4 +23,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2EB2503F-583A-3C30-9E93-EC2FABC1086F
++  UUID: 37219062-AA65-3270-B8C5-5917ACF65139
+   Functions: 9
+   Symbols:   52
+   CStrings:  47
+
 ```

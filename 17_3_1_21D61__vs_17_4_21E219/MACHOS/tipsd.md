@@ -53,11 +53,13 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: DA1CFAEE-590B-3310-B530-CB16BC371BBA
 -  Functions: 206
++  UUID: A4BC637C-0348-32B6-A913-E430010E35F2
 +  Functions: 211
    Symbols:   221
--  CStrings:  761
-+  CStrings:  766
+-  CStrings:  823
++  CStrings:  831
  
 CStrings:
 + "Downloaded remote tip %@"

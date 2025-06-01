@@ -15,10 +15,12 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1F16C7CD-5C24-34CF-A1D5-554C6B893C6A
 -  Functions: 2578
++  UUID: 3F544918-97D2-3D53-82D3-300754FD75D4
 +  Functions: 2580
    Symbols:   2416
-   CStrings:  1246
+   CStrings:  1268
  
 
 ```

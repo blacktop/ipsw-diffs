@@ -23,11 +23,15 @@
    __TEXT.__objc_methname: 0x16831
    __TEXT.__objc_methtype: 0x310d
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E3DA519-CDDD-3EE9-A880-7DEE72489CEC
++  UUID: CF494299-60BF-3D7E-97E2-83A994F86C96
    Functions: 3141
    Symbols:   11244
--  CStrings:  6483
-+  CStrings:  6484
+-  CStrings:  7781
++  CStrings:  7782
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

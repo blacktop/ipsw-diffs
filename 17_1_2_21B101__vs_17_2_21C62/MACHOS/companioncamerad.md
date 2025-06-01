@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90830CD8-2E7E-341E-B6E3-2139F072A20D
 -  Functions: 972
 -  Symbols:   164
--  CStrings:  1020
+-  CStrings:  1118
++  UUID: 982BA4C7-C68F-312D-9664-FE8953B4685D
 +  Functions: 977
 +  Symbols:   162
-+  CStrings:  1028
++  CStrings:  1127
  
 Symbols:
 - _objc_retain_x27

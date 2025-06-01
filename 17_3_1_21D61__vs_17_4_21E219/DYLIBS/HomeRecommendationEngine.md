@@ -41,13 +41,16 @@
    __DATA.__data: 0x9c0
    __DATA.__bss: 0x2d0
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 038D4A9F-0A14-3DDB-9676-8CC58701A941
++  UUID: 7A5D1EBA-7A90-3ABC-8D7E-C8E54CA51717
    Functions: 894
 -  Symbols:   3636
--  CStrings:  1350
+-  CStrings:  1422
 +  Symbols:   3634
-+  CStrings:  1351
++  CStrings:  1423
  
 Symbols:
 + -[HRETemplateRecommendationGenerator _filterTemplates:options:]

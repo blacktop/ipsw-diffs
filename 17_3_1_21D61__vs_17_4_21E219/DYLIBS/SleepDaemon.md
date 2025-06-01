@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BFEC54CA-5C37-3B67-8DFC-706716FD548F
 -  Functions: 3066
 -  Symbols:   10779
--  CStrings:  4491
+-  CStrings:  4747
++  UUID: C39077C4-996C-3B94-9092-90C535942DCE
 +  Functions: 3069
 +  Symbols:   10784
-+  CStrings:  4497
++  CStrings:  4756
  
 Symbols:
 + -[HDSPCFUserNotificationCenter publishNotificationForEvent:]

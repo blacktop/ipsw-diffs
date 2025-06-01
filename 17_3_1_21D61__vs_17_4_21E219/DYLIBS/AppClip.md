@@ -25,4 +25,13 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0C2D7299-4BA7-31AA-8A78-B9B9630B331D
++  UUID: 27E6402A-4E7C-3DC2-ADAA-8ED55511D75F
+   Functions: 15
+   Symbols:   105
+   CStrings:  51
+
 ```

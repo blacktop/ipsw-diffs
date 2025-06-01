@@ -37,18 +37,20 @@
 -  __AUTH_CONST.__cfstring: 0x600
 +  __AUTH_CONST.__cfstring: 0x5e0
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x390
+   __AUTH.__objc_data: 0xa0
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E635911-9A25-3E4B-8C3F-3AAD28CCCEA7
 -  Functions: 356
 -  Symbols:   1280
--  CStrings:  302
+-  CStrings:  350
++  UUID: A7EDE80F-50BF-39BC-AFB5-28CD46F16B47
 +  Functions: 352
 +  Symbols:   1270
-+  CStrings:  297
++  CStrings:  344
  
 Symbols:
 - -[ACCHWComponentAuthService _verifyModuleCertificate:forModuleType:].cold.11

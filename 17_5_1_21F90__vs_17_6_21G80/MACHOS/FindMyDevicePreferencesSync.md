@@ -28,11 +28,13 @@
    - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E30AA799-279E-31DB-BF1D-8FDEDAB87BD0
 -  Functions: 26
++  UUID: F3F4DBAB-3E80-312F-BDAD-C216D854D8A8
 +  Functions: 28
    Symbols:   9
--  CStrings:  18
-+  CStrings:  19
+-  CStrings:  20
++  CStrings:  21
  
 CStrings:
 + "repairDevice"

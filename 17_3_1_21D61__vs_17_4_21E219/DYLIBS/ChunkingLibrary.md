@@ -19,11 +19,10 @@
    __DATA_CONST.__got: 0x88
 -  __DATA_CONST.__const: 0x7e38
 -  __AUTH_CONST.__cfstring: 0x4080
+-  __AUTH_CONST.__const: 0xe0
 +  __DATA_CONST.__const: 0x7f20
 +  __AUTH_CONST.__cfstring: 0x40e0
 +  __AUTH_CONST.__const: 0x31c0
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__const: 0xe0
    __AUTH_CONST.__auth_got: 0x738
    __DATA.__bss: 0x9a
 -  __DATA_DIRTY.__const: 0x8320
@@ -35,12 +34,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9A7E220D-8357-36C3-8C8B-573FA31D6B95
 -  Functions: 1808
 -  Symbols:   5771
--  CStrings:  1007
+-  CStrings:  1523
++  UUID: B0CCEC76-F730-3349-BCDC-5D83B53EA7DC
 +  Functions: 1830
 +  Symbols:   5825
-+  CStrings:  1026
++  CStrings:  1545
  
 Symbols:
 + _CKCreateRegisteredChunkWithSubchunkBlob

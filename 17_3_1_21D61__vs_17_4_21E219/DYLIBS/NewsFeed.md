@@ -61,7 +61,6 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x1708
 -  __AUTH_CONST.__const: 0xce170
--  __AUTH_CONST.__auth_ptr: 0x2410
 -  __AUTH_CONST.__auth_got: 0x5dc8
 -  __AUTH.__objc_data: 0x8f58
 -  __AUTH.__data: 0xe238
@@ -69,7 +68,6 @@
 -  __DATA.__objc_classrefs: 0x7e0
 -  __DATA.__objc_superrefs: 0x50
 +  __AUTH_CONST.__const: 0xce680
-+  __AUTH_CONST.__auth_ptr: 0x23f8
 +  __AUTH_CONST.__auth_got: 0x5d88
 +  __AUTH.__objc_data: 0x8a80
 +  __AUTH.__data: 0xbc60
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F0B62664-A2B5-3BE9-97D0-114D5EAB45E1
 -  Functions: 123567
 -  Symbols:   18345
--  CStrings:  11037
+-  CStrings:  11041
++  UUID: F45CC256-96C3-3D46-A4F9-B0AF4B11FCF9
 +  Functions: 124438
 +  Symbols:   18315
-+  CStrings:  11095
++  CStrings:  11099
  
 Symbols:
 + __PROTOCOLS__TtC8NewsFeed26WebEmbedURLHandlerDelegate.13

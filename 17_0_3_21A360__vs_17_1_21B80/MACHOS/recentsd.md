@@ -39,11 +39,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 67824223-427B-3039-ADC9-4B17498F88AC
 -  Functions: 554
++  UUID: 0A7EE891-1A67-3DB7-A6F6-64DC416198AF
 +  Functions: 555
    Symbols:   326
--  CStrings:  1317
-+  CStrings:  1318
+-  CStrings:  1552
++  CStrings:  1553
  
 CStrings:
 + "Acting on change %{public}@: %{private}@"

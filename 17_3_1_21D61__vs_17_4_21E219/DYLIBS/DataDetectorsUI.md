@@ -36,16 +36,15 @@
 -  __DATA_CONST.__objc_const: 0x50b8
 -  __DATA_CONST.__objc_selrefs: 0x2ec0
 -  __DATA_CONST.__objc_arraydata: 0x14b8
+-  __AUTH_CONST.__const: 0x520
+-  __AUTH_CONST.__cfstring: 0x61e0
+-  __AUTH_CONST.__objc_const: 0x28b8
 +  __DATA_CONST.__objc_const: 0x5120
 +  __DATA_CONST.__objc_selrefs: 0x2f08
 +  __DATA_CONST.__objc_protorefs: 0x38
 +  __DATA_CONST.__objc_classrefs: 0x630
 +  __DATA_CONST.__objc_superrefs: 0x190
 +  __DATA_CONST.__objc_arraydata: 0x14c8
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__const: 0x520
--  __AUTH_CONST.__cfstring: 0x61e0
--  __AUTH_CONST.__objc_const: 0x28b8
 +  __AUTH_CONST.__const: 0x540
 +  __AUTH_CONST.__cfstring: 0x6340
 +  __AUTH_CONST.__objc_const: 0x2900
@@ -82,12 +81,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2CB2C7EF-3E3C-3CFA-A33F-6FA6362A7B3A
 -  Functions: 1684
 -  Symbols:   6590
--  CStrings:  3314
+-  CStrings:  4097
++  UUID: 92B654BA-B423-3B69-A5DA-A6E60D02ED54
 +  Functions: 1688
 +  Symbols:   6619
-+  CStrings:  3336
++  CStrings:  4130
  
 Symbols:
 + +[DDContextMenuAction identificationStringsForMenuElement:useDefault:]

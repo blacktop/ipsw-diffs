@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F9912E38-B511-3292-A624-3CC837603FB1
 -  Functions: 9021
 -  Symbols:   35007
--  CStrings:  16563
+-  CStrings:  18241
++  UUID: 708D368D-1962-3C2C-A16A-944443E9B183
 +  Functions: 9049
 +  Symbols:   35101
-+  CStrings:  16601
++  CStrings:  18280
  
 Symbols:
 + -[SFBrowserASCLockupViewGenerator generateLockupViewsWithDelegate:completionHandler:]

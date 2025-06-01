@@ -17,4 +17,13 @@
    __TEXT.__constg_swiftt: 0xa58
    __TEXT.__swift5_typeref: 0x6176
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2046D2D2-BF10-333E-9EC7-B54AF21A974F
++  UUID: AE685B74-D5C7-3E70-91C5-90230A439C5C
+   Functions: 1634
+   Symbols:   242
+   CStrings:  745
+
 ```

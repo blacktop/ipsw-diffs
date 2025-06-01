@@ -62,13 +62,16 @@
    __DATA_DIRTY.__bss: 0x38
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: FFB464D6-CE45-369B-BF4E-02B6804C0B25
++  UUID: 5DF17B9D-3DA0-3340-94AC-9578B33F2D28
    Functions: 2010
 -  Symbols:   6098
--  CStrings:  2930
+-  CStrings:  3552
 +  Symbols:   6097
-+  CStrings:  2931
++  CStrings:  3553
  
 Symbols:
 + __ZNKSt3__16vectorIDv8_fN12_GLOBAL__N_120SimdAlignedAllocatorIS1_EEE20__throw_length_errorB8ue170006Ev

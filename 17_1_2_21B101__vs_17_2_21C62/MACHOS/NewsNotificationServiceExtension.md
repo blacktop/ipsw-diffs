@@ -26,11 +26,15 @@
    __DATA.__objc_protorefs: 0x38
    __DATA.__objc_classrefs: 0x190
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A72EA88E-5BC3-380A-AE38-4F4FD6C0244E
++  UUID: DE0CF87B-9909-3B59-AAA1-A027BB35BB9C
    Functions: 695
    Symbols:   282
--  CStrings:  624
-+  CStrings:  625
+-  CStrings:  634
++  CStrings:  635
  
 CStrings:
 + "reduceVisibilityForNonFollowers"

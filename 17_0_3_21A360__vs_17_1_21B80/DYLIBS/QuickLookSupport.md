@@ -23,11 +23,13 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E939B70-51BA-3479-A923-88A3C050E964
 -  Functions: 651
 -  Symbols:   2456
++  UUID: 62C5E804-C850-382F-BB66-7866AE33B385
 +  Functions: 652
 +  Symbols:   2457
-   CStrings:  1100
+   CStrings:  1228
  
 Symbols:
 + _QLScaledPlatformImageFromImageSourceWithOptions

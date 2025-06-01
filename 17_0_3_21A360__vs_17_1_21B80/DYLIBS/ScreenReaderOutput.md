@@ -43,7 +43,6 @@
 +  __AUTH_CONST.__cfstring: 0x3560
    __AUTH_CONST.__objc_intobj: 0x8e8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x758
 +  __AUTH_CONST.__auth_got: 0x768
@@ -58,13 +57,16 @@
    __DATA.__bss: 0x280
    __DATA_DIRTY.__const: 0x388
 
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 84B52A42-4B4B-3356-A0EC-5E5FB3BFDEC1
++  UUID: 4F883111-E6A1-382F-98A6-D3013FA085D7
    Functions: 1484
 -  Symbols:   5559
--  CStrings:  2584
+-  CStrings:  3010
 +  Symbols:   5557
-+  CStrings:  2590
++  CStrings:  3017
  
 Symbols:
 + _CFNotificationCenterGetDarwinNotifyCenter

@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E1B5FF82-62C0-3DCD-B62E-CE0C0994456A
 -  Functions: 10147
 -  Symbols:   907
--  CStrings:  10210
+-  CStrings:  12148
++  UUID: 0D9D578B-D835-3984-9827-F85B0EE253AA
 +  Functions: 10155
 +  Symbols:   905
-+  CStrings:  10201
++  CStrings:  12138
  
 Symbols:
 + _swift_initStaticObject

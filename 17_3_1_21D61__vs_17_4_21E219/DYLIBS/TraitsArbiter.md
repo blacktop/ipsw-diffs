@@ -31,11 +31,15 @@
    __DATA.__data: 0x6c8
    __DATA_DIRTY.__objc_data: 0xa00
 
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C21A253-123D-303C-9A9C-23B2EA928B9C
++  UUID: 973051E1-F3F9-3840-A0B1-304BD2194019
    Functions: 558
    Symbols:   2011
--  CStrings:  965
-+  CStrings:  966
+-  CStrings:  1127
++  CStrings:  1128
  
 Symbols:
 + __OBJC_$_PROP_LIST_TRAPreferencesTree.190

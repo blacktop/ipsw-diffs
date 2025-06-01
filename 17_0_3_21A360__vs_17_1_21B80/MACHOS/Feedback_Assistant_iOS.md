@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38B5961E-C538-3032-8FE6-4937563062C8
 -  Functions: 3974
 -  Symbols:   1112
--  CStrings:  5437
+-  CStrings:  5886
++  UUID: 0789D9A8-3D54-3D35-BCC4-BB993C99CF78
 +  Functions: 3956
 +  Symbols:   1111
-+  CStrings:  5380
++  CStrings:  5814
  
 Symbols:
 + _FBKSSeedPortalRequestDetailMessage

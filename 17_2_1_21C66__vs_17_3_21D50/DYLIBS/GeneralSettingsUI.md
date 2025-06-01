@@ -56,12 +56,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 2693C565-6BCD-362E-A1BB-81F39C314AE2
 -  Functions: 920
 -  Symbols:   4186
--  CStrings:  2644
+-  CStrings:  3207
++  UUID: 79C581FC-4D7C-34F7-8274-7857D55EAC85
 +  Functions: 926
 +  Symbols:   4211
-+  CStrings:  2664
++  CStrings:  3233
  
 Symbols:
 + -[PSGResetOrEraseListController isRatchetFeatureAvailableAndEnabled]

@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B08A815F-06F1-3039-9DDD-DCB2333EE57A
 -  Functions: 17745
 -  Symbols:   578
--  CStrings:  2951
+-  CStrings:  3285
++  UUID: 2C970E73-A86C-3E22-B76A-71C08897BE83
 +  Functions: 17803
 +  Symbols:   579
-+  CStrings:  2962
++  CStrings:  3297
  
 Symbols:
 + _NSDecimalRound

@@ -45,12 +45,15 @@
    __DATA_CONST.__objc_classlist: 0xa0
    __DATA_CONST.__objc_protolist: 0x90
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1F71D3B3-AC68-3921-A6A8-9B99237CDA55
++  UUID: 470481D6-8F10-39C2-BBF2-92F7343AB1BC
    Functions: 1757
 -  Symbols:   1011
 +  Symbols:   1008
-   CStrings:  602
+   CStrings:  604
  
 Symbols:
 + _$s19RemotePairingDevice0B19DataStorageProviderP14numPairedPeersSiyKFTq

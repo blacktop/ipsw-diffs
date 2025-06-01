@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9C48E7AF-AF16-3536-97CA-700895C8632E
 -  Functions: 28405
 -  Symbols:   843
--  CStrings:  6757
+-  CStrings:  6925
++  UUID: E25DC160-D06B-33DA-8C51-DE8D87DC25A9
 +  Functions: 30038
 +  Symbols:   851
-+  CStrings:  6900
++  CStrings:  7068
  
 Symbols:
 + _CGAffineTransformScale

@@ -21,12 +21,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1D7C87A-6C97-39BA-8C37-E398A359761C
 -  Functions: 907
 -  Symbols:   3561
--  CStrings:  1998
+-  CStrings:  2278
++  UUID: 99BBDF9C-3B6A-33F9-B9B5-B58C1F9A91C9
 +  Functions: 908
 +  Symbols:   3563
-+  CStrings:  1999
++  CStrings:  2279
  
 Symbols:
 + -[SBSceneHandle _noteSceneDestroyed:].cold.1

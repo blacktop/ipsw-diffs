@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_classlist: 0x400
    __DATA_CONST.__objc_catlist: 0x30
 
+   - @rpath/LLDB.framework/LLDB
+   - @rpath/MTLReplayController.framework/MTLReplayController
    - @rpath/libGTLLVMShaderProfilerHelper.dylib
+-  UUID: 38D77CDF-CE3A-3A11-87EA-820278197911
++  UUID: 2A82E10A-0BE1-386D-83B6-0889CAB1250F
    Functions: 5038
    Symbols:   839
--  CStrings:  16212
-+  CStrings:  16209
+-  CStrings:  17944
++  CStrings:  17941
  
 CStrings:
 - "_0965349a7930ddeeae0312bca50ac5672d7ecdb1e38a915536c0e7b8a1a3c321"

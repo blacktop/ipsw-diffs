@@ -20,7 +20,6 @@
 +  __DATA_CONST.__const: 0x15a0
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x30
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__const: 0x34c8
 +  __AUTH_CONST.__const: 0x3370
    __AUTH_CONST.__cfstring: 0x400
@@ -32,11 +31,15 @@
    __DATA.__common: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 68C203F0-A6ED-3B9D-8B35-FF70FAC740DC
++  UUID: B1ADD606-08C6-3671-AD8F-9EBEC95BCCE1
    Functions: 451
    Symbols:   158
--  CStrings:  232
-+  CStrings:  230
+-  CStrings:  264
++  CStrings:  262
  
 CStrings:
 - "/Library/Assets"

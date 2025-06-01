@@ -32,12 +32,14 @@
    - /System/Library/PrivateFrameworks/MediaPlatform.framework/MediaPlatform
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 2A5C16AE-80FA-307B-8397-3F1C16C20A04
 -  Functions: 7274
 -  Symbols:   17551
--  CStrings:  1413
+-  CStrings:  1529
++  UUID: DC5BE653-554E-3F86-8A16-C36D2EE01F9E
 +  Functions: 7293
 +  Symbols:   17596
-+  CStrings:  1419
++  CStrings:  1535
  
 Symbols:
 + GCC_except_table1046

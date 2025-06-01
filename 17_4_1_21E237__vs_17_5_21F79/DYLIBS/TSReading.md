@@ -21,6 +21,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: F0A21D73-4738-3C75-A9EB-08989C4AABB1
++  UUID: 637F9A39-53BD-3E69-A11B-4965D85CB6B5
+   Functions: 20904
+   Symbols:   62523
+   CStrings:  31377
 CStrings:
 + "Apr 13 2024"
 - "Mar  9 2024"

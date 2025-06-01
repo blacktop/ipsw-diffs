@@ -56,7 +56,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x11a8
    __DATA_CONST.__objc_arraydata: 0x12c8
    __AUTH_CONST.__const: 0x6b70
-   __AUTH_CONST.__auth_ptr: 0xc8
 -  __AUTH_CONST.__objc_const: 0x19158
 -  __AUTH_CONST.__cfstring: 0x27360
 -  __AUTH_CONST.__objc_intobj: 0x12d8
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B5578FF8-FF54-3AB4-A237-3758EED5E70E
 -  Functions: 18127
 -  Symbols:   51818
--  CStrings:  21648
+-  CStrings:  26667
++  UUID: 3D33D079-57C8-3F59-AB78-D2B318082880
 +  Functions: 18160
 +  Symbols:   51921
-+  CStrings:  21695
++  CStrings:  26722
  
 Symbols:
 + +[WFAssessmentModeManager isAssessmentModeSupportedOnCurrentDevice]

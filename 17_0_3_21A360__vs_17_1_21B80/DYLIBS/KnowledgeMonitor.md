@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E569606-B4FC-3157-97CA-4F0C06A7DCFD
 -  Functions: 1206
 -  Symbols:   4480
--  CStrings:  2222
+-  CStrings:  2469
++  UUID: 8858DEF4-108B-3C9A-99A5-B1D3EB44058F
 +  Functions: 1227
 +  Symbols:   4542
-+  CStrings:  2244
++  CStrings:  2491
  
 Symbols:
 + +[_DKNotificationKeybagLockMonitor getCurrentLockState].cold.1

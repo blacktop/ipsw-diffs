@@ -28,9 +28,7 @@
    __DATA_CONST.__objc_selrefs: 0x48
    __DATA_CONST.__objc_classrefs: 0x18
 -  __AUTH_CONST.__const: 0x7878
--  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__const: 0x7890
-+  __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__cfstring: 0x3140
 -  __AUTH_CONST.__auth_got: 0x1a00
 +  __AUTH_CONST.__auth_got: 0x1a10
@@ -41,12 +39,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A43790F1-3F8B-3062-8C42-96E83FA30031
 -  Functions: 3179
 -  Symbols:   10147
--  CStrings:  3672
+-  CStrings:  4066
++  UUID: 14F7D50B-7554-3DBA-9B67-31654EA0333F
 +  Functions: 3190
 +  Symbols:   10178
-+  CStrings:  3689
++  CStrings:  4083
  
 Symbols:
 + _CFDataCreateMutableCopy

@@ -52,12 +52,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: C229F03B-D818-359A-8840-A913CEB4FD01
 -  Functions: 5001
 -  Symbols:   17508
--  CStrings:  8371
+-  CStrings:  10027
++  UUID: 2F895CBE-A582-30F8-9B6A-8360B766F025
 +  Functions: 5002
 +  Symbols:   17507
-+  CStrings:  8372
++  CStrings:  10029
  
 Symbols:
 + _PS_LocalizedStringForProblemReportingVisionOS

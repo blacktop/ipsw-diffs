@@ -19,7 +19,11 @@
    __TEXT.__objc_stubs: 0x80
    __DATA_CONST.__got: 0x20
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7423E98B-8EF3-3268-8F51-C841895B3059
++  UUID: 531ADBBC-D40A-35EB-8CB2-6DFA76989687
    Functions: 2
    Symbols:   26
 -  CStrings:  68

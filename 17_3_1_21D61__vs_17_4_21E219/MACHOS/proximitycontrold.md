@@ -105,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B7DFA1B-23E8-3B28-BD1D-58DAA2BF97B9
 -  Functions: 12275
 -  Symbols:   1223
--  CStrings:  3395
+-  CStrings:  3426
++  UUID: D2D836CE-093D-3F72-9D08-C35A9C8C3CB8
 +  Functions: 11642
 +  Symbols:   1226
-+  CStrings:  3389
++  CStrings:  3420
  
 Symbols:
 + _$s7Combine19CurrentValueSubjectC5valuexvg

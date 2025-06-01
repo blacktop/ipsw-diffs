@@ -19,4 +19,13 @@
    __DATA.__common: 0x628
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 00C5FE65-BB71-3904-A7CC-95FEE02D5D4A
++  UUID: 02AAF96F-1EAB-312D-BC61-4F800036390B
+   Functions: 159
+   Symbols:   77
+   CStrings:  51
+
 ```

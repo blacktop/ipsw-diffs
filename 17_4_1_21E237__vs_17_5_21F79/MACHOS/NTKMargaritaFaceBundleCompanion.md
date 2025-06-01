@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x88
    __DATA_CONST.__const: 0x568
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 97853C5A-5D46-38A6-881D-5A12B81A2B5E
++  UUID: BB3E8C2A-970C-32D4-B947-A19AAECA8E0C
+   Functions: 215
+   Symbols:   172
+   CStrings:  804
+
 ```

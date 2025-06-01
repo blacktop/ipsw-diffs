@@ -17,6 +17,15 @@
    __TEXT.__objc_methtype: 0x4cc
    __TEXT.__cstring: 0x183d
    __TEXT.__oslogstring: 0x1146
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 1C31275D-54F5-34E8-8C19-4986E16890C1
++  UUID: F9DC6CC9-FC46-3884-BA51-E8FA929BE04E
+   Functions: 211
+   Symbols:   168
+   CStrings:  674
 CStrings:
 + "scheduleFlushWithCheckpoint:whenFlushed:"
 - "flushWithCheckPoint:completionBlock:"

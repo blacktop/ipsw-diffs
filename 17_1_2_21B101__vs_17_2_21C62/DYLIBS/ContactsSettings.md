@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D3C91CA-11A2-36C5-B012-2E9C4358A691
 -  Functions: 116
 -  Symbols:   695
--  CStrings:  389
+-  CStrings:  434
++  UUID: 8E7E034E-206A-36A0-BD57-8B42BB903852
 +  Functions: 124
 +  Symbols:   727
-+  CStrings:  417
++  CStrings:  468
  
 Symbols:
 + -[ContactsSettingsPlugin onboardingControllerDidDismissSettings:]

@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_arraydata: 0xf58
    __AUTH_CONST.__objc_const: 0x20d0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1225BD3D-19D1-3B2D-A800-6429F51B3C26
++  UUID: CE9BB465-7C13-3052-B31A-2C43273D0539
    Functions: 14979
    Symbols:   7327
--  CStrings:  4507
-+  CStrings:  4508
+-  CStrings:  4678
++  CStrings:  4679
  
 CStrings:
 + "widgetBackgroundInteractionEnabled"

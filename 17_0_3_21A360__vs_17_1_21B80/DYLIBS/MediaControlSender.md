@@ -19,7 +19,7 @@
 +  __AUTH_CONST.__const: 0x34a0
    __AUTH_CONST.__cfstring: 0x1020
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__auth_got: 0x6b8
 
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x1c
@@ -33,10 +33,12 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 333ACD6F-8234-33BC-BF32-2444D90E78A7
 -  Functions: 268
++  UUID: 53ED2AF1-5E10-3FF4-9C7F-D7E561DFD30A
 +  Functions: 267
    Symbols:   760
-   CStrings:  620
+   CStrings:  749
  
 CStrings:
 + "AirPlay/745.13.4"

@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x108
 +  __AUTH_CONST.__objc_doubleobj: 0x90
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xad0
    __AUTH.__objc_data: 0x11260
    __DATA.__objc_protorefs: 0x100
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C2D5673-8A18-343D-B5D1-F06946A9BBD9
 -  Functions: 20432
 -  Symbols:   68420
--  CStrings:  23507
+-  CStrings:  26212
++  UUID: 536CE781-523D-3818-BFDF-8EC7564225D1
 +  Functions: 20438
 +  Symbols:   68449
-+  CStrings:  23522
++  CStrings:  26226
  
 Symbols:
 + -[SKUIReviewInAppConfiguration isNativeVisionApp]

@@ -51,9 +51,11 @@
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libunwind.dylib
+-  UUID: C49A5FC2-C873-3913-9603-004F5D0175E7
 -  Functions: 1588
 -  Symbols:   3645
 -  CStrings:  610
++  UUID: 7835E829-0652-3CB5-99D8-2CE521476DC0
 +  Functions: 1603
 +  Symbols:   3679
 +  CStrings:  614

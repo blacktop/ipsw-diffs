@@ -62,11 +62,9 @@
 -  __AUTH_CONST.__const: 0xe578
 +  __AUTH_CONST.__const: 0xe770
    __AUTH_CONST.__cfstring: 0x60
--  __AUTH_CONST.__auth_ptr: 0x370
 -  __AUTH_CONST.__auth_got: 0x30a0
 -  __AUTH.__data: 0x17e8
 -  __AUTH.__objc_data: 0x2188
-+  __AUTH_CONST.__auth_ptr: 0x378
 +  __AUTH_CONST.__auth_got: 0x30e0
 +  __AUTH.__data: 0x1888
 +  __AUTH.__objc_data: 0x21c0
@@ -94,12 +92,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D856551-D713-3973-A9F2-52C5A745A291
 -  Functions: 7640
 -  Symbols:   3851
--  CStrings:  2763
+-  CStrings:  2766
++  UUID: B33DDEC5-1466-3841-B3C9-18500AA395C5
 +  Functions: 7734
 +  Symbols:   3875
-+  CStrings:  2765
++  CStrings:  2768
  
 Symbols:
 + __DATA__TtC10ChronoCore31DefaultCarouselSessionInterface

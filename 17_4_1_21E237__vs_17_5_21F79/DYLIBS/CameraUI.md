@@ -64,7 +64,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xb28
 -  __AUTH_CONST.__const: 0xaa0
 +  __AUTH_CONST.__const: 0xac0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1060
 -  __AUTH.__objc_data: 0x2648
@@ -86,12 +85,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A5F084BE-8005-3798-838E-59CEDFE72A29
 -  Functions: 13834
 -  Symbols:   47162
--  CStrings:  22500
+-  CStrings:  24893
++  UUID: 9EC81E9A-C189-394F-82DA-A36F1F2A7FC5
 +  Functions: 13892
 +  Symbols:   47407
-+  CStrings:  22654
++  CStrings:  25073
  
 Symbols:
 + +[CAMDocumentScanFlowController isSupported]

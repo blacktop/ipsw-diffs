@@ -38,11 +38,15 @@
    __DATA.__objc_classrefs: 0x1e0
    __DATA.__objc_superrefs: 0x30
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B18C7AD0-EABB-3F66-A0BA-929228ABF41A
++  UUID: E8822E51-6B9E-3377-884B-527E422BACAD
    Functions: 256
    Symbols:   260
--  CStrings:  848
-+  CStrings:  850
+-  CStrings:  910
++  CStrings:  913
  
 CStrings:
 + "Fitness.ActivitySetupMetrics.ConfirmButton"

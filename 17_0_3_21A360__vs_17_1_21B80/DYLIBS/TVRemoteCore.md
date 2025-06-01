@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B6D72E8-731E-3217-95CD-7C801A31D476
 -  Functions: 2813
 -  Symbols:   9114
--  CStrings:  4830
+-  CStrings:  5633
++  UUID: AAFE6E66-342A-3BA5-A13C-802F5546E727
 +  Functions: 2823
 +  Symbols:   9138
-+  CStrings:  4834
++  CStrings:  5641
  
 Symbols:
 + -[TVRCRapportDeviceQuery _disconnectAndRemoveDevice:]

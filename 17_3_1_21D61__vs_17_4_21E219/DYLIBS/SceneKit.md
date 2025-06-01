@@ -70,12 +70,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 87B276D3-3C9A-356B-B77F-6FB352FC28C3
 -  Functions: 22169
 -  Symbols:   55679
--  CStrings:  16024
+-  CStrings:  20205
++  UUID: 505E76E7-3001-336A-8B65-C651AB85FC7F
 +  Functions: 22195
 +  Symbols:   55720
-+  CStrings:  16033
++  CStrings:  20214
  
 Symbols:
 + GCC_except_table104

@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ABA0699B-1A59-3D63-8A25-540363AC099C
 -  Functions: 1170
 -  Symbols:   4156
--  CStrings:  1730
+-  CStrings:  1904
++  UUID: 35F52253-9CD0-35E6-9635-DE6B3EFCB205
 +  Functions: 1301
 +  Symbols:   4593
-+  CStrings:  1894
++  CStrings:  2090
  
 Symbols:
 + +[LARatchetErrorBuilder _errorWithCode:debugDescription:]

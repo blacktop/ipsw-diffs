@@ -63,7 +63,6 @@
 +  __AUTH_CONST.__objc_intobj: 0xa08
 +  __AUTH_CONST.__objc_arrayobj: 0x1b0
 +  __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x60
 -  __AUTH_CONST.__auth_got: 0xda0
 -  __AUTH.__objc_data: 0x2760
@@ -99,12 +98,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4D459B72-5BC1-33FD-B24E-95188CE601F9
 -  Functions: 12932
 -  Symbols:   38716
--  CStrings:  20798
+-  CStrings:  24842
++  UUID: EC074E1F-E895-30E5-83B8-8544FB4FAD84
 +  Functions: 12904
 +  Symbols:   38855
-+  CStrings:  20831
++  CStrings:  24868
  
 Symbols:
 + +[AppTelemetryTimeSeriesEvent(BRCAdditions) newBasehashSaltingProblemCountWithProblemCount:mangledID:itemIDString:]
@@ -4546,6 +4547,7 @@ CStrings:
 - "\x01\x19\x12\x12"
 - "\x01'\x18\x11#"
 - "\x03\x1a\x11\x11\x16"
+- "\x05' "
 - "\x06\x11"
 - "\b\x11\"\x11\x1c\x12\x14\x1d\x12$"
 - "\n======================================\n\n"
@@ -4731,6 +4733,7 @@ CStrings:
 - "INSERT INTO telemetry_events (payload, priority) VALUES (%@, %d)"
 - "INSERT OR REPLACE INTO ciconia_migration_info values (%@, %d)"
 - "INSERT OR REPLACE INTO ciconia_migration_info values (%@, %lld)"
+- "L' "
 - "Lnk"
 - "No DSID"
 - "OverBounce"

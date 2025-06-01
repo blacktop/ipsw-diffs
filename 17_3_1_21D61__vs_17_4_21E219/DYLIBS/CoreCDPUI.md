@@ -67,10 +67,8 @@
 +  __AUTH_CONST.__cfstring: 0x2420
    __AUTH_CONST.__objc_const: 0x1390
 -  __AUTH_CONST.__const: 0x11b0
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0x9e8
 +  __AUTH_CONST.__const: 0x12b0
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__auth_got: 0xa88
    __AUTH.__objc_data: 0x1a50
 -  __AUTH.__data: 0x5b0
@@ -95,11 +93,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE9F2529-F2FD-3352-A8F5-27287E45C91C
 -  Functions: 1815
 -  Symbols:   5455
+-  CStrings:  2983
++  UUID: 50EE9632-0007-3400-A44D-0A757EB825D5
 +  Functions: 1840
 +  Symbols:   5425
-   CStrings:  2683
++  CStrings:  2972
  
 Symbols:
 + -[CDPQuotaStorageAppListRequest initWithAccount:isWalrusEnabled:]

@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB6FDFE6-5388-3523-AFD7-1D9B7AD66938
 -  Functions: 9
 -  Symbols:   38
--  CStrings:  47
+-  CStrings:  57
++  UUID: FA289579-B460-32E5-8C62-107EED75C075
 +  Functions: 12
 +  Symbols:   45
-+  CStrings:  57
++  CStrings:  68
  
 Symbols:
 + _ATSSymbolicationProviderAmendMethodDownload

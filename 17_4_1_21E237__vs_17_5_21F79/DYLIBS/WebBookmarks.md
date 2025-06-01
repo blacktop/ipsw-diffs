@@ -71,12 +71,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 252D2D85-CB2B-3A88-95BB-E006C168B400
 -  Functions: 3357
 -  Symbols:   11390
--  CStrings:  5205
+-  CStrings:  5909
++  UUID: C4E39E2B-3479-34CC-9DC3-AE2B38913FA7
 +  Functions: 3365
 +  Symbols:   11414
-+  CStrings:  5214
++  CStrings:  5920
  
 Symbols:
 + -[WBTabGroupManager _allSyncedTabGroupsExceptRemoteUnnamedTabGroups]

@@ -37,7 +37,6 @@
 +  __AUTH_CONST.__cfstring: 0x3f60
    __AUTH_CONST.__objc_const: 0x1b0
    __AUTH_CONST.__const: 0x78
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x408
 +  __AUTH_CONST.__auth_got: 0x410
    __AUTH.__objc_data: 0x140
@@ -54,13 +53,16 @@
    __DATA_DIRTY.__objc_data: 0x4c40
    __DATA_DIRTY.__data: 0x8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F2FA910-2DD8-3593-A54F-AD1815C9BACF
++  UUID: BE52459E-1E98-3FD0-80B6-17138EFB0112
    Functions: 1989
 -  Symbols:   707
--  CStrings:  2044
+-  CStrings:  2552
 +  Symbols:   708
-+  CStrings:  2042
++  CStrings:  2549
  
 Symbols:
 + _MPSIsReducedPrecision

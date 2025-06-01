@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_classrefs: 0x860
    __DATA_CONST.__objc_superrefs: 0x2a8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29124295-6485-3B6A-8A19-08152760EC1C
++  UUID: CA15FB40-B777-3D1C-9EBF-A225F216E064
    Functions: 3450
    Symbols:   12251
--  CStrings:  6189
-+  CStrings:  6202
+-  CStrings:  7126
++  CStrings:  7139
  
 CStrings:
 + "@\"NSDictionary\"16@0:8"

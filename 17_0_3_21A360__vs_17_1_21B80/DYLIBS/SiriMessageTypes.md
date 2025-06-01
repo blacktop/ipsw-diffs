@@ -53,9 +53,7 @@
    __DATA_CONST.__objc_selrefs: 0x430
    __DATA_CONST.__objc_arraydata: 0x60
 -  __AUTH_CONST.__const: 0x74e8
--  __AUTH_CONST.__auth_ptr: 0x210
 +  __AUTH_CONST.__const: 0x7640
-+  __AUTH_CONST.__auth_ptr: 0x218
    __AUTH_CONST.__objc_const: 0x480
    __AUTH_CONST.__cfstring: 0x840
    __AUTH_CONST.__objc_intobj: 0x90
@@ -84,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D106403-A429-3526-A294-193D2FC29CAB
 -  Functions: 8051
 -  Symbols:   3443
--  CStrings:  797
+-  CStrings:  863
++  UUID: 7767C117-2726-3F11-9393-65F88FE378C7
 +  Functions: 8194
 +  Symbols:   3504
-+  CStrings:  800
++  CStrings:  866
  
 Symbols:
 + _OBJC_CLASS_$__TtC16SiriMessageTypes29MUXFlowOutputCandidateMessage

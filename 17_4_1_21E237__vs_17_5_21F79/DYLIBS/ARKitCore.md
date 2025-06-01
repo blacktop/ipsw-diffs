@@ -42,4 +42,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/librealtime_safety.dylib
+-  UUID: F0271512-8F53-3E91-8AE3-A6C6AD3CBF74
++  UUID: B69535E8-565B-3A3D-9DD6-B6B5C82572DB
+   Functions: 8215
+   Symbols:   29099
+   CStrings:  13931
+
 ```

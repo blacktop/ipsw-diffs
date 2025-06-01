@@ -31,5 +31,13 @@
    __DATA_DIRTY.__common: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9FAFF702-493E-3F5E-AF08-A5F1A7FE287C
++  UUID: 31DD2C51-DA48-33D1-B38D-66BC140BD208
+   Functions: 564
+   Symbols:   1623
+   CStrings:  925
 
 ```

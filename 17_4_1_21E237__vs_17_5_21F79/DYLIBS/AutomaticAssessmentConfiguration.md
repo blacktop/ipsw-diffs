@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/AACCore.framework/AACCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22AC38B9-DEA9-3410-9B16-9F1E097381A5
 -  Functions: 110
 -  Symbols:   433
--  CStrings:  209
+-  CStrings:  218
++  UUID: 43F172C6-43D8-32B6-ABEE-2B5F87D7921B
 +  Functions: 113
 +  Symbols:   440
-+  CStrings:  215
++  CStrings:  226
  
 Symbols:
 + +[AEAssessmentSession supportsConfigurationUpdates]

@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2BA6CF81-DC55-3FB5-9A50-0134ABA977FD
 -  Functions: 625
 -  Symbols:   359
--  CStrings:  1602
+-  CStrings:  1776
++  UUID: 3CA334CD-4079-3A0B-9961-465DC64BE328
 +  Functions: 624
 +  Symbols:   362
-+  CStrings:  1600
++  CStrings:  1773
  
 Symbols:
 + _CFErrorGetDomain

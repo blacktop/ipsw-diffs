@@ -42,9 +42,9 @@
    __DATA_CONST.__objc_classrefs: 0x140
    __DATA_CONST.__objc_superrefs: 0xc8
 
+   __AUTH_CONST.__objc_intobj: 0x1f8
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x660
 +  __AUTH_CONST.__auth_got: 0x670
    __AUTH.__objc_data: 0x460
@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2595270B-5362-34BE-AE60-944565FECEC5
 -  Functions: 662
 -  Symbols:   2411
--  CStrings:  1742
+-  CStrings:  2168
++  UUID: 764D7FF9-53EB-3072-B24A-55DB05FB18A4
 +  Functions: 664
 +  Symbols:   2421
-+  CStrings:  1752
++  CStrings:  2178
  
 Symbols:
 + -[NFSecureXPCEventPublisher initWithMachPort:qosPropagation:qos:xpcConnectionQueue:eventSendQueue:]

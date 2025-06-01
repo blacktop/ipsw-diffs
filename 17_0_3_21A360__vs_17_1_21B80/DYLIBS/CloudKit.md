@@ -45,7 +45,6 @@
    __DATA_CONST.__objc_arraydata: 0x5f0
    __AUTH_CONST.__objc_const: 0xbe68
    __AUTH_CONST.__const: 0x8668
-   __AUTH_CONST.__auth_ptr: 0x110
 -  __AUTH_CONST.__cfstring: 0x1ab40
 +  __AUTH_CONST.__cfstring: 0x1ab80
    __AUTH_CONST.__objc_arrayobj: 0x3d8
@@ -64,11 +63,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C883C141-C9B9-387C-992F-E950F16D582B
 -  Functions: 15567
++  UUID: CB8D7EE9-B43B-3BA3-9CE7-E4D17CB92502
 +  Functions: 15569
    Symbols:   3751
--  CStrings:  15535
-+  CStrings:  15545
+-  CStrings:  18953
++  CStrings:  18965
  
 CStrings:
 + ".xctrunner"

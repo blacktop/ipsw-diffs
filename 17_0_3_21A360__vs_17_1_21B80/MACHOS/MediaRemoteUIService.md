@@ -34,12 +34,15 @@
    - /usr/lib/swift/libswiftDataDetection.dylib
    - /usr/lib/swift/libswiftDispatch.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C19E877-15F3-30FF-82D7-97039C5B86A7
++  UUID: D9DB3F72-6602-3A30-BF1B-FA761EDC325A
    Functions: 220
 -  Symbols:   368
 +  Symbols:   370
-   CStrings:  353
+   CStrings:  355
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

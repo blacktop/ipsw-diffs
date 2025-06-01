@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/GridDataServices.framework/GridDataServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2EC90753-9524-39D3-9990-126413B3A70B
++  UUID: B814C07F-A847-32E6-B234-083D771B9C5C
    Functions: 66
    Symbols:   105
--  CStrings:  271
-+  CStrings:  272
+-  CStrings:  296
++  CStrings:  297
  
 CStrings:
 + "Coordinate (%{private}f,%{private}f) inside %@ %@"

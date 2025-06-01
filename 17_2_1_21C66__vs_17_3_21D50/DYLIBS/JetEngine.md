@@ -34,9 +34,9 @@
    __TEXT.__objc_methname: 0x4290
    __TEXT.__objc_methtype: 0xa21
 
+   __DATA_CONST.__objc_selrefs: 0x1528
    __AUTH_CONST.__objc_const: 0x980
    __AUTH_CONST.__cfstring: 0x10e0
-   __AUTH_CONST.__auth_ptr: 0x940
 -  __AUTH_CONST.__const: 0x24f88
 +  __AUTH_CONST.__const: 0x24f90
    __AUTH_CONST.__objc_intobj: 0x30
@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EFBE623C-1A71-3475-95FC-44C3E8866432
 -  Functions: 22403
 -  Symbols:   7083
--  CStrings:  2577
+-  CStrings:  2712
++  UUID: CB66E242-5B31-3943-B7D8-1342E50363CD
 +  Functions: 22405
 +  Symbols:   7084
-+  CStrings:  2580
++  CStrings:  2715
  
 Symbols:
 + _symbolic _____y_SayypGG 9JetEngine3BagV5ValueV

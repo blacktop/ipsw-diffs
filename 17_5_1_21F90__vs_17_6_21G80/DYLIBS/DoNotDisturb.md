@@ -42,12 +42,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FFE61A12-C4E1-3601-95FD-DEED1080A4DA
 -  Functions: 1606
 -  Symbols:   5650
--  CStrings:  2334
++  UUID: D3C0C8F6-1851-376C-BE2A-4B31850ECEFB
 +  Functions: 1607
 +  Symbols:   5654
-+  CStrings:  2333
+   CStrings:  2762
  
 Symbols:
 + _DNDCompatibilityVersionCurrent

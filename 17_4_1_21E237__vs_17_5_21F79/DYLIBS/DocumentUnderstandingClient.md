@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 5D87EF42-2089-3A9D-8E43-8F309BE90D22
++  UUID: 65FD9641-FFD5-3B6E-B56B-6C5A33458A59
+   Functions: 203
+   Symbols:   783
+   CStrings:  381
+
 ```

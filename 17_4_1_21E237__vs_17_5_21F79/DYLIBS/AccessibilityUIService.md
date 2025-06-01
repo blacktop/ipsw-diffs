@@ -42,12 +42,16 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_dictobj: 0x28
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4300788B-B4D2-3B50-A27B-83B194BBDA5F
++  UUID: 2ED17F37-3613-3645-B50F-EE06E7A40224
    Functions: 521
 -  Symbols:   2305
+-  CStrings:  1338
 +  Symbols:   2304
-   CStrings:  1261
++  CStrings:  1339
  
 Symbols:
 + ___44-[AXUIDisplayManager _showAlertWithContext:]_block_invoke.433

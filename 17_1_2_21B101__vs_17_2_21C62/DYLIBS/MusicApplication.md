@@ -50,12 +50,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F1821F8-7E08-3718-8293-774A2F13877C
 -  Functions: 745
 -  Symbols:   2905
--  CStrings:  1138
+-  CStrings:  1743
++  UUID: 40F049EE-96CD-3C8F-92F0-355E9BC31BED
 +  Functions: 753
 +  Symbols:   2942
-+  CStrings:  1178
++  CStrings:  1805
  
 Symbols:
 + -[DetailHeaderAccessibility _axCuratorNameForPlaylist:]

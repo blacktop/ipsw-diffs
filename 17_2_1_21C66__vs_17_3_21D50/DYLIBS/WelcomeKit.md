@@ -33,12 +33,15 @@
    __DATA.__objc_protorefs: 0x18
    __DATA.__objc_classrefs: 0xc8
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60278781-1BE3-3CB2-BCB8-26BDF5F0E8E2
++  UUID: 0A412A54-3FAE-3B7E-B221-C00B7AE116B9
    Functions: 315
 -  Symbols:   1197
 +  Symbols:   1198
-   CStrings:  765
+   CStrings:  936
  
 Symbols:
 + ___block_descriptor_48_e8_32s40bs_e62_v52?0B8"NSString"12"NSString"20"NSString"28q36"NSError"44ls40l8s32l8

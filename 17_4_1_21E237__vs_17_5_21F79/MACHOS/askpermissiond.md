@@ -53,11 +53,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20590138-5BE4-3C8F-8205-51B41803058B
 -  Functions: 539
++  UUID: B241C928-095C-32B6-A106-79448052ED45
 +  Functions: 542
    Symbols:   194
--  CStrings:  1324
-+  CStrings:  1329
+-  CStrings:  1523
++  CStrings:  1528
  
 CStrings:
 + "%{public}@: Failed To Parse Created Date. String Value: \"%@\""

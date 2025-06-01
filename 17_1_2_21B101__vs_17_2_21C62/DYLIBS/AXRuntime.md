@@ -42,8 +42,8 @@
 +  __AUTH_CONST.__const: 0xba8
 +  __AUTH_CONST.__cfstring: 0x4ca0
    __AUTH_CONST.__objc_const: 0xd38
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0x1608
+   __AUTH_CONST.__objc_arrayobj: 0x90
 
    __DATA.__objc_classrefs: 0x1d0
    __DATA.__objc_superrefs: 0x90
@@ -59,12 +59,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5322070-7F44-3B8D-B486-083E6FBA25DA
 -  Functions: 1695
 -  Symbols:   5462
--  CStrings:  2477
+-  CStrings:  3088
++  UUID: 2F6011F1-40C1-3A49-921D-01525A4BD6C0
 +  Functions: 1698
 +  Symbols:   5473
-+  CStrings:  2481
++  CStrings:  3094
  
 Symbols:
 + -[AXAttributedString addAttribute:forKey:withRange:]

@@ -47,9 +47,7 @@
    __AUTH_CONST.__const: 0x1ff8
    __AUTH_CONST.__objc_const: 0x25f8
    __AUTH_CONST.__objc_intobj: 0x300
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x1748
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x1798
    __AUTH.__objc_data: 0x21c0
    __AUTH.__data: 0xbb0
@@ -77,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 50C84CB5-8F0C-3EE6-AD93-02E1401E8B4E
 -  Functions: 6087
 -  Symbols:   17381
--  CStrings:  10083
+-  CStrings:  10649
++  UUID: D7D6E02E-975B-3A07-8847-0C1E53C39E50
 +  Functions: 6102
 +  Symbols:   17434
-+  CStrings:  10119
++  CStrings:  10689
  
 Symbols:
 + -[CUNetInterfaceMonitor _ensureStartedNW]

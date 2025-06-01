@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5403A074-613F-3132-BB82-52A278BF23AE
++  UUID: 6C16BDE4-EB70-3B31-BDB4-869EBD93F689
+   Functions: 6
+   Symbols:   35
+   CStrings:  32
+
 ```

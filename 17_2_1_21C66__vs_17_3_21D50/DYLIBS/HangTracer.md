@@ -15,4 +15,13 @@
    __TEXT.__gcc_except_tab: 0x18
    __TEXT.__oslogstring: 0x1d4b
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libapp_launch_measurement.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CF72DD8A-EE98-3854-9CCA-2A57E2DE23BB
++  UUID: 61D1BA06-3882-3076-B62B-310F79CD16EA
+   Functions: 331
+   Symbols:   1307
+   CStrings:  1535
+
 ```

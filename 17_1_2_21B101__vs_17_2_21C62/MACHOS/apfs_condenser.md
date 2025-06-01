@@ -13,6 +13,15 @@
    __TEXT.__const: 0xf8
    __TEXT.__unwind_info: 0x81c
    __DATA_CONST.__auth_got: 0x390
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 1F589CE3-2DE5-31AE-9C4B-E5D94ED5D3A1
++  UUID: 4399DB47-6CFC-354F-9F84-96ACE5346CD7
+   Functions: 658
+   Symbols:   128
+   CStrings:  1256
 CStrings:
 + "2235.60.6"
 - "2235.40.9.0.1"

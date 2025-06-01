@@ -39,4 +39,13 @@
    - /System/Library/Frameworks/AppIntents.framework/AppIntents
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 73615513-A0E2-3DC2-867A-CB6123DCCDDA
++  UUID: D1BFA2BA-055A-3014-AED9-6BE37B3A2E30
+   Functions: 9102
+   Symbols:   2928
+   CStrings:  939
+
 ```

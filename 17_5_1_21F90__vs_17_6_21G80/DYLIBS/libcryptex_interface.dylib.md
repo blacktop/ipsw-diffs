@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0x908
    __TEXT.__gcc_except_tab: 0x180
    __TEXT.__unwind_info: 0x244
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EDF1BB24-C67A-3A7A-8073-4DCD6858F16B
++  UUID: 61645339-877D-3792-8E1B-A8C684B08CF8
+   Functions: 166
+   Symbols:   520
+   CStrings:  207
 CStrings:
 + "369.140.2"
 + "@(#)VERSION:Cryptex IPC Interface Version 2.0.0: Sun Jun 30 11:36:13 PDT 2024; root:libcryptex-369.140.2~150/libcryptex_interface/RELEASE_ARM64E"

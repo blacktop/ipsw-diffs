@@ -24,6 +24,15 @@
    __TEXT.__objc_methtype: 0x316
    __TEXT.__objc_stubs: 0x20
    __DATA_CONST.__got: 0x180
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B861CEB8-878E-30E8-BC1D-F2E1A0FF3141
++  UUID: A489D5D3-D784-37D9-85EA-89408E8402C5
+   Functions: 2258
+   Symbols:   801
+   CStrings:  219
 CStrings:
 + "shutdownService"
 - "stop"

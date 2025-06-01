@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0BCFF2B-C036-31B0-8E60-7D8441B12A8D
 -  Functions: 5309
 -  Symbols:   20778
--  CStrings:  7815
+-  CStrings:  9473
++  UUID: B84D295B-DD3B-3839-AC6E-BA88637E8F61
 +  Functions: 5313
 +  Symbols:   20793
-+  CStrings:  7823
++  CStrings:  9481
  
 Symbols:
 + -[LPCollaborationFooterStyle setUseSafeAreaInsetWithPadding:]

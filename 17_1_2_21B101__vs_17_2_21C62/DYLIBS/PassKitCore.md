@@ -60,13 +60,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x1e358
 -  __DATA_CONST.__objc_arraydata: 0x2fc8
 -  __AUTH_CONST.__const: 0xefd0
+-  __AUTH_CONST.__objc_const: 0x2a038
+-  __AUTH_CONST.__cfstring: 0x5fc60
 +  __DATA_CONST.__objc_const: 0x88a20
 +  __DATA_CONST.__objc_selrefs: 0x1e4e0
 +  __DATA_CONST.__objc_arraydata: 0x2fe8
 +  __AUTH_CONST.__const: 0xf0f0
-   __AUTH_CONST.__auth_ptr: 0xc0
--  __AUTH_CONST.__objc_const: 0x2a038
--  __AUTH_CONST.__cfstring: 0x5fc60
 +  __AUTH_CONST.__objc_const: 0x2a470
 +  __AUTH_CONST.__cfstring: 0x60680
    __AUTH_CONST.__objc_arrayobj: 0xa08
@@ -105,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6D00DDFF-5766-3A5B-8D4A-3FB9EA61D347
 -  Functions: 39146
 -  Symbols:   109116
--  CStrings:  45564
+-  CStrings:  57823
++  UUID: 14EE39D8-4A1C-3DA0-9ED8-A34F2D783D24
 +  Functions: 39329
 +  Symbols:   109560
-+  CStrings:  45726
++  CStrings:  58066
  
 Symbols:
 + +[NSMapTable(PKAdditions) pk_createStrongPointerPersonalityToStrongObjects]

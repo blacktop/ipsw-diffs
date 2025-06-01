@@ -79,9 +79,10 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 041557CE-41AC-38BE-8577-A3DA10CD3205
 -  Functions: 269
 -  Symbols:   248
--  CStrings:  803
+-  CStrings:  944
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -100,9 +101,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 7AF0C6E5-9BE4-34C7-9902-FF77F7AD47CA
 +  Functions: 312
 +  Symbols:   303
-+  CStrings:  829
++  CStrings:  970
  
 Symbols:
 + _OBJC_CLASS_$_AAPCommandSearchMarketplace

@@ -32,11 +32,15 @@
    __DATA.__data: 0x240
    __DATA_DIRTY.__objc_data: 0xaa0
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F7555025-546E-37B1-8486-22B37252DA46
++  UUID: C890BA19-8A5A-3AD5-A3FE-EBA9671FAF5E
    Functions: 625
    Symbols:   2245
--  CStrings:  816
-+  CStrings:  817
+-  CStrings:  955
++  CStrings:  956
  
 Symbols:
 + ___35-[FCCXPCClient _setupXPCConnection]_block_invoke.247

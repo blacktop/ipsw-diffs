@@ -34,9 +34,8 @@
    __AUTH_CONST.__const: 0x1bb8
    __AUTH_CONST.__objc_const: 0x1f8
 -  __AUTH_CONST.__cfstring: 0x6f00
-+  __AUTH_CONST.__cfstring: 0x6fa0
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xfe0
++  __AUTH_CONST.__cfstring: 0x6fa0
 +  __AUTH_CONST.__auth_got: 0x1018
    __AUTH.__objc_data: 0x190
    __AUTH.__data: 0xa0
@@ -57,12 +56,14 @@
    - /usr/lib/libenergytrace.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A79B64F0-59CB-375F-BED7-440A8437A163
 -  Functions: 3613
 -  Symbols:   6049
--  CStrings:  2416
+-  CStrings:  3304
++  UUID: 24BAA742-D8D6-33A3-8761-3CA1A7565C3F
 +  Functions: 3621
 +  Symbols:   6063
-+  CStrings:  2433
++  CStrings:  3326
  
 Symbols:
 + _CFBundleGetMainBundle

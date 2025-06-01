@@ -25,11 +25,15 @@
    __AUTH_CONST.__const: 0x320
    __AUTH_CONST.__objc_doubleobj: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E564565-425B-3A1A-9326-253E493F6122
++  UUID: B0AD36A7-4FF1-353E-A181-F7E2C2C1297C
    Functions: 1413
    Symbols:   4848
--  CStrings:  2216
-+  CStrings:  2217
+-  CStrings:  2605
++  CStrings:  2607
  
 Symbols:
 + ___50-[BCSURLAction performDefaultActionWithFBOptions:]_block_invoke.101

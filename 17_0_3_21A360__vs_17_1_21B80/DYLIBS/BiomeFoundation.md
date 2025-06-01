@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBE07A79-9060-35CD-B0A8-930C39FD4192
 -  Functions: 808
 -  Symbols:   2919
--  CStrings:  1656
+-  CStrings:  2221
++  UUID: 20C6387A-6C59-3E86-AF6C-B7FA67440BE9
 +  Functions: 809
 +  Symbols:   2921
-+  CStrings:  1660
++  CStrings:  2228
  
 Symbols:
 + -[_BMXPCFileManager _newConnectionForDomain:].cold.2

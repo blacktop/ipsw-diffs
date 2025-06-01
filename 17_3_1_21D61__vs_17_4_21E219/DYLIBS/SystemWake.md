@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DAE4857-1394-32D5-BA29-21CE627B4A23
 -  Functions: 140
 -  Symbols:   778
--  CStrings:  443
+-  CStrings:  516
++  UUID: A37C961B-0F04-3BF0-AFA8-766742817042
 +  Functions: 137
 +  Symbols:   769
-+  CStrings:  441
++  CStrings:  514
  
 Symbols:
 + GCC_except_table22

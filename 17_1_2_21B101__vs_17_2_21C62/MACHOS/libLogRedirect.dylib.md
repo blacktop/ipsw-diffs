@@ -17,7 +17,11 @@
    __TEXT.__unwind_info: 0xac
    __DATA_CONST.__auth_got: 0x118
 
+   __DATA.__common: 0xc
+   __DATA.__bss: 0x218c
    - /usr/lib/libSystem.B.dylib
+-  UUID: 0FE137EF-08EB-3BF5-85D1-EBF2B4FAF874
++  UUID: D120C2EE-BCE5-3715-88A9-7A3538DC3E5C
    Functions: 22
    Symbols:   105
 -  CStrings:  58

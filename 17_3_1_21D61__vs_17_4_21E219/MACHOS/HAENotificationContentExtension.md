@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 33C51EFD-DB4C-350F-AC14-A5C58F089E1E
++  UUID: 3C3DA932-4D6F-3A6E-8469-50D0A63F7A5D
    Functions: 12
    Symbols:   41
--  CStrings:  110
-+  CStrings:  111
+-  CStrings:  115
++  CStrings:  116
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE636B6D-DF11-393A-AE3C-90C25E342D61
 -  Functions: 1288
 -  Symbols:   4468
--  CStrings:  2128
+-  CStrings:  2295
++  UUID: CA007AC4-1348-384A-A872-BD6A0149F895
 +  Functions: 1292
 +  Symbols:   4474
-+  CStrings:  2127
++  CStrings:  2294
  
 Symbols:
 + -[MSMessagesAppViewController _presentAlertSheetWithTitle:message:buttonTitles:styles:completion:]

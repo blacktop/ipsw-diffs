@@ -33,11 +33,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A12EE60-BAE7-36EB-AE6E-FA39505A885B
 -  Functions: 2123
 -  Symbols:   5886
+-  CStrings:  2369
++  UUID: 112DD933-B8ED-36F4-B0BA-A0E94DA3B9BA
 +  Functions: 2130
 +  Symbols:   5900
-   CStrings:  2081
++  CStrings:  2363
  
 Symbols:
 + -[ASDDSPStream addClientDSP:withKey:].cold.1

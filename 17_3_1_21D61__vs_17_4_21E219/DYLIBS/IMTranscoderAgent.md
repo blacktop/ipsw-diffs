@@ -47,13 +47,16 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x78
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 006A8822-6DD8-34B9-8FC1-8CCFE86252C0
++  UUID: 4EE5332C-D775-30A4-8427-CA59512AD1B3
    Functions: 309
 -  Symbols:   379
--  CStrings:  1055
+-  CStrings:  1137
 +  Symbols:   380
-+  CStrings:  1057
++  CStrings:  1139
  
 Symbols:
 + _IMImageSourceHasStereoPair

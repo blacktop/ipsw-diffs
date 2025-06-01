@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9963CA19-1A35-3754-B3EA-084793FBD344
++  UUID: ECDB154C-2CD6-3D57-9245-0DDA9D76FD54
+   Functions: 6
+   Symbols:   12
+   CStrings:  18
+
 ```

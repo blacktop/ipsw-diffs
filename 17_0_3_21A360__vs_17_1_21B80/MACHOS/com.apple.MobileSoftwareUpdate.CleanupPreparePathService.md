@@ -46,12 +46,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 23F1114F-AEDF-3068-A0CE-04D5DDF41A56
 -  Functions: 616
 -  Symbols:   4764
--  CStrings:  2451
+-  CStrings:  3596
++  UUID: 68302120-E3FC-3BB1-BF5C-A61A8FEAC8B5
 +  Functions: 619
 +  Symbols:   4782
-+  CStrings:  2459
++  CStrings:  3609
  
 Symbols:
 + +[MSUAssetStager restoreVersionFromAttributes:]

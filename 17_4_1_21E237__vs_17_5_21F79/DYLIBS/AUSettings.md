@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/CoreUARP.framework/CoreUARP
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A57D066-60E0-3110-A47E-D4D5D9593839
 -  Functions: 61
 -  Symbols:   659
--  CStrings:  508
+-  CStrings:  866
++  UUID: CC0349BA-A916-3D1E-AC49-415E49EFBFC0
 +  Functions: 62
 +  Symbols:   664
-+  CStrings:  513
++  CStrings:  872
  
 Symbols:
 + _getAccessoryDatabaseKeyForAccessoryID

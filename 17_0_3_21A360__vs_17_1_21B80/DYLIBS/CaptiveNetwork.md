@@ -22,7 +22,6 @@
    __DATA_CONST.__objc_selrefs: 0x10
 -  __AUTH_CONST.__cfstring: 0x7e0
 +  __AUTH_CONST.__cfstring: 0x800
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__auth_got: 0x408
 -  __DATA.__data: 0x138
@@ -31,13 +30,16 @@
    __DATA_DIRTY.__const: 0x340
    __DATA_DIRTY.__objc_const: 0x40
 
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 61F77669-56D5-3684-A1A1-10489B2AFD80
++  UUID: 0705BCD4-E653-3414-A29A-A9BD6AB01626
    Functions: 205
 -  Symbols:   603
--  CStrings:  166
+-  CStrings:  229
 +  Symbols:   604
-+  CStrings:  167
++  CStrings:  231
  
 Symbols:
 + _kCNStateTokenAuthResult

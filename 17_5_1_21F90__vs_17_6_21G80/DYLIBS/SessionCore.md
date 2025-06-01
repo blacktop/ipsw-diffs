@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__const: 0x66b0
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__objc_const: 0x200
-   __AUTH_CONST.__auth_ptr: 0x200
    __AUTH_CONST.__auth_got: 0x1900
 -  __AUTH.__objc_data: 0x8c0
 -  __AUTH.__data: 0x538
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 77EC3039-219C-3A69-824A-3ABE71C46D1D
 -  Functions: 3305
 -  Symbols:   2124
--  CStrings:  1292
+-  CStrings:  1294
++  UUID: FE9538E5-F747-36FB-985C-543A1B7D7E11
 +  Functions: 3378
 +  Symbols:   2147
-+  CStrings:  1302
++  CStrings:  1304
  
 Symbols:
 + _OBJC_METACLASS_$__TtC11SessionCoreP33_03222CA904BB2C7146C40B12EAF3EEE332ManagedConfigRestrictionProvider

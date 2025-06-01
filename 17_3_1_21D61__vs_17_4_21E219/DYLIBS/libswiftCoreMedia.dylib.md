@@ -30,10 +30,8 @@
    __DATA_CONST.__objc_selrefs: 0x10
 +  __DATA_CONST.__objc_classrefs: 0x10
    __AUTH_CONST.__const: 0x12f8
--  __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0xc88
 -  __DATA.__objc_classrefs: 0x10
-+  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__auth_got: 0xc58
    __DATA.__data: 0x14c0
    __DATA.__bss: 0x5400
@@ -42,8 +40,10 @@
    - /usr/lib/swift/libswiftMetal.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: E9A28354-BB6F-3A0C-9FF7-A83E48EE8793
 -  Functions: 2614
 -  Symbols:   6875
++  UUID: 053D0C16-002F-3D06-A47F-96BFD19A7969
 +  Functions: 2603
 +  Symbols:   6847
    CStrings:  32

@@ -36,7 +36,6 @@
 -  __AUTH_CONST.__cfstring: 0x9640
 +  __AUTH_CONST.__cfstring: 0x9620
    __AUTH_CONST.__objc_const: 0xc10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0xd8
 -  __AUTH_CONST.__objc_arrayobj: 0x90
 +  __AUTH_CONST.__objc_arrayobj: 0x78
@@ -49,12 +48,16 @@
    __DATA.__data: 0x360
    __DATA.__common: 0x10
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 81EEE6B9-6129-323A-A0A7-8ED440AA3058
++  UUID: B315E5C9-E92E-3B82-A361-4DCEFCC381BC
    Functions: 899
 -  Symbols:   2944
+-  CStrings:  3527
 +  Symbols:   2943
-   CStrings:  2325
++  CStrings:  3526
  
 Symbols:
 + ___51-[W5Client collectLogs:configuration:update:reply:]_block_invoke.171

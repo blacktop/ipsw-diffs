@@ -13,7 +13,7 @@
    __TEXT.__objc_methname: 0x120
    __DATA_CONST.__got: 0x358
 
-   __AUTH_CONST.__auth_ptr: 0x130
+   __AUTH_CONST.__const: 0x4ac0
    __AUTH_CONST.__auth_got: 0x9e0
    __AUTH.__data: 0xd70
 -  __DATA.__data: 0x1508
@@ -26,5 +26,14 @@
    __DATA_DIRTY.__bss: 0x1300
    __DATA_DIRTY.__common: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 99AA159D-FA7C-3C54-966A-AE0BE76DF91C
++  UUID: 4920E1FF-F9FC-38B3-A989-48BDC4D078AE
+   Functions: 2775
+   Symbols:   799
+   CStrings:  55
 
 ```

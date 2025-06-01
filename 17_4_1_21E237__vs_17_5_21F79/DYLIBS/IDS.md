@@ -41,9 +41,8 @@
    __DATA_CONST.__objc_superrefs: 0x380
    __AUTH_CONST.__objc_const: 0x3490
    __AUTH_CONST.__cfstring: 0x62a0
-
+   __AUTH_CONST.__const: 0x1220
    __AUTH_CONST.__objc_intobj: 0x3d8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xd60
 -  __AUTH.__objc_data: 0x1810
 +  __AUTH.__objc_data: 0x16a8
@@ -63,12 +62,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 081B9022-C860-31AE-BB3B-C171D350DE2D
 -  Functions: 5577
 -  Symbols:   1382
--  CStrings:  7901
+-  CStrings:  8690
++  UUID: E6F4052B-D9BD-3CE2-9D7E-DBDF96E71E86
 +  Functions: 5578
 +  Symbols:   1384
-+  CStrings:  7902
++  CStrings:  8691
  
 Symbols:
 + _kIDSGeneralReportingMessageTypeKey

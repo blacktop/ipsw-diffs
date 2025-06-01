@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/CoreBluetoothUI.framework/CoreBluetoothUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88C6FAAC-8B60-3912-ABEE-E7B63F0A022F
++  UUID: BD37FA79-EEA2-3FA0-956B-E0C978F3096E
    Functions: 43
    Symbols:   69
--  CStrings:  386
-+  CStrings:  387
+-  CStrings:  418
++  CStrings:  419
  
 CStrings:
 + "T@\"NSString\",?,R,C"

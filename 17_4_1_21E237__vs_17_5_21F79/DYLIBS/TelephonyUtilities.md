@@ -59,7 +59,6 @@
 -  __AUTH_CONST.__const: 0x1e18
 +  __AUTH_CONST.__const: 0x1e58
    __AUTH_CONST.__objc_doubleobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xbd8
 +  __AUTH_CONST.__auth_got: 0xbe8
    __AUTH.__objc_data: 0x1d10
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E622A865-C63B-3EEB-A847-98882930D98F
 -  Functions: 7773
 -  Symbols:   24332
--  CStrings:  11502
+-  CStrings:  13317
++  UUID: 16AE4ED7-EDAC-3DAA-BB36-E5060EB38DD7
 +  Functions: 7791
 +  Symbols:   24399
-+  CStrings:  11525
++  CStrings:  13342
  
 Symbols:
 + +[TUCallCapabilities isSimultaneousVoiceAndDataSupportedForSIMWithUUID:]

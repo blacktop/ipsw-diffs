@@ -41,7 +41,7 @@
 +  __DATA_CONST.__objc_selrefs: 0x2dc8
    __DATA_CONST.__objc_arraydata: 0xb0
    __AUTH_CONST.__const: 0x588
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__cfstring: 0x4560
 
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x480
@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8FB22E8-4494-3E76-AB1C-5AB3A0B692DA
 -  Functions: 2005
 -  Symbols:   6167
--  CStrings:  4322
+-  CStrings:  4877
++  UUID: 48EB9C84-413A-35E4-90C2-1FA5E40266B7
 +  Functions: 2006
 +  Symbols:   6173
-+  CStrings:  4325
++  CStrings:  4880
  
 Symbols:
 + -[CSVTUISelfLoggingDigitalZeroReporter _getStageStatusFromTrainingManagerSessionStatus:]

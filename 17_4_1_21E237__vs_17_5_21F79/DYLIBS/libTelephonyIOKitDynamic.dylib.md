@@ -19,4 +19,13 @@
    __TEXT.__objc_classname: 0x1
    __DATA_CONST.__got: 0xb8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 6D05DAEA-4FDD-32D8-81AC-69E6034AD59F
++  UUID: 2F88215A-4397-3E6F-A6F8-9781D9C085F1
+   Functions: 423
+   Symbols:   1127
+   CStrings:  372
+
 ```

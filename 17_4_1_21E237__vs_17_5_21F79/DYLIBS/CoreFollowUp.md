@@ -30,4 +30,13 @@
    __DATA_DIRTY.__const: 0x758
    __DATA_DIRTY.__objc_const: 0xa60
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 31B0480B-2010-3B04-98B7-52EB0FD4295F
++  UUID: 044E0936-4E3F-3A27-A793-F928DE6DD5C5
+   Functions: 1061
+   Symbols:   2178
+   CStrings:  1375
+
 ```

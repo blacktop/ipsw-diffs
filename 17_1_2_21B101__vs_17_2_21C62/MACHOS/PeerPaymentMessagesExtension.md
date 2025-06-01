@@ -41,13 +41,16 @@
    __DATA.__objc_superrefs: 0x90
    __DATA.__objc_ivar: 0xbc
 
+   - /System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9541EA48-18B9-3314-A907-DE6BFDC404C0
++  UUID: 27B8AC5B-49FD-31D3-A634-B0245F7006D5
    Functions: 321
 -  Symbols:   288
--  CStrings:  937
+-  CStrings:  1047
 +  Symbols:   290
-+  CStrings:  939
++  CStrings:  1049
  
 Symbols:
 + _PKErrorRecoveryActionTypeKey

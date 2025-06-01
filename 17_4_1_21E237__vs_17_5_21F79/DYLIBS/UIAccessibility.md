@@ -38,12 +38,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7EE8610-F465-359A-92DB-D554ED491BC2
 -  Functions: 2690
 -  Symbols:   9270
--  CStrings:  4342
+-  CStrings:  5070
++  UUID: 557FE2E8-5246-3BED-B4E9-3544BE35DD3A
 +  Functions: 2691
 +  Symbols:   9272
-+  CStrings:  4343
++  CStrings:  5071
  
 Symbols:
 + -[NSObject(AXPrivCategory) _accessibilityActivateTextViewLink:]

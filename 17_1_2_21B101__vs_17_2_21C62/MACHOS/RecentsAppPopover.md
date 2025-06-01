@@ -75,11 +75,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 72CFE6A8-B495-3575-87E9-BF5C4024A090
 -  Functions: 20609
++  UUID: 0D2871F8-78B2-309A-AF9E-A157560F5BC8
 +  Functions: 20618
    Symbols:   1180
--  CStrings:  9110
-+  CStrings:  9114
+-  CStrings:  9229
++  CStrings:  9233
  
 CStrings:
 + "_TtCC17RecentsAppPopover31DOCItemCollectionViewController29StringWidthCalculationContext"

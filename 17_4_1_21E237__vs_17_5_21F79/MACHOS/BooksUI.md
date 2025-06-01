@@ -91,9 +91,11 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BookAnalytics.framework/BookAnalytics
+-  UUID: 5A6684E5-6D3A-3899-B7CF-E42AC1AA9DA7
 -  Functions: 8352
 -  Symbols:   247
 -  CStrings:  658
++  UUID: DFFBD22A-1F07-39A2-BCDE-317B3DDB4B25
 +  Functions: 11062
 +  Symbols:   250
 +  CStrings:  704

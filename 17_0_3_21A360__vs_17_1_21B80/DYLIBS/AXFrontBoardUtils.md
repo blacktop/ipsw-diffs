@@ -35,13 +35,16 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__auth_got: 0x278
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 55C5416B-E2A8-322F-8BFC-9DDF4A6AE188
++  UUID: 521DC7FF-F63F-3BF4-8E3E-6441335368BC
    Functions: 107
 -  Symbols:   545
--  CStrings:  389
+-  CStrings:  456
 +  Symbols:   544
-+  CStrings:  388
++  CStrings:  455
  
 Symbols:
 + ____AXFrontBoardGetFrontmostAppProcessesAndScenes_block_invoke.372

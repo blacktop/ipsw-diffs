@@ -64,7 +64,6 @@
    __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x498
-   __AUTH_CONST.__auth_ptr: 0xe8
 -  __AUTH_CONST.__auth_got: 0x1350
 +  __AUTH_CONST.__auth_got: 0x1378
    __AUTH.__objc_data: 0x4320
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1073A38A-4EF0-3C0B-822F-9646EDFCEB52
 -  Functions: 6826
 -  Symbols:   14492
--  CStrings:  7754
+-  CStrings:  8865
++  UUID: 06990C6E-4231-3F5C-B448-289E2FEEF864
 +  Functions: 6887
 +  Symbols:   14504
-+  CStrings:  7789
++  CStrings:  8900
  
 Symbols:
 + +[FBKSharedConstants portalURL]
@@ -266,7 +267,6 @@ CStrings:
 + "setAnswerTextViewLeadingConstraint:"
 + "setAnswerTextViewTrailingConstraint:"
 - "\x11T"
-- "%"
 - "T@\"NSHTTPCookie\",R"
 - "publicBetaURL"
 - "publicPortalURL"

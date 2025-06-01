@@ -21,11 +21,15 @@
    __TEXT.__ustring: 0x4
    __TEXT.__unwind_info: 0x247c
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A6741FF-DA78-3D07-8600-71AC0BF30926
++  UUID: 71111087-9163-3B02-87D1-A2B8D92EDC00
    Functions: 2382
    Symbols:   8539
--  CStrings:  3841
-+  CStrings:  3843
+-  CStrings:  4644
++  CStrings:  4646
  
 CStrings:
 + "Failed to find factor pack identifier in TRIFBFastFactorLevels object for path: %@"

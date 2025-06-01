@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__cfstring: 0x1d5e0
 +  __AUTH_CONST.__objc_const: 0xb6b8
 +  __AUTH_CONST.__const: 0x3040
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x390
    __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_dictobj: 0x50
@@ -77,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E101B0B-EA53-3B4A-B311-B02D67CD4B10
 -  Functions: 17745
 -  Symbols:   48253
--  CStrings:  17384
+-  CStrings:  21015
++  UUID: 9AE0A774-1911-389E-8845-644295614FB3
 +  Functions: 17929
 +  Symbols:   48737
-+  CStrings:  17674
++  CStrings:  21433
  
 Symbols:
 + +[MRAVEndpoint _notifyGroupSessionInfoDidChange:endpoint:]

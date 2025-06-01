@@ -15,6 +15,15 @@
    __TEXT.__oslogstring: 0x1ff9
    __TEXT.__gcc_except_tab: 0x14c
    __TEXT.__unwind_info: 0x42c
+
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libimage4.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 70F74B3A-9EE1-3FF6-B80D-5C4382AFF438
++  UUID: A3A3F59B-58F9-3BE9-B8FE-D3561CEF1285
+   Functions: 442
+   Symbols:   1304
+   CStrings:  684
 CStrings:
 + "369.140.2"
 + "@(#)VERSION:Darwin Cryptex Core Interface Version 2.0.0: Sun Jun 30 11:36:27 PDT 2024; root:libcryptex-369.140.2~150/libcryptex_core/RELEASE_ARM64E"

@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 31D669F4-5C9D-3AD2-AD80-7CED2E014566
 -  Functions: 11678
 -  Symbols:   6609
--  CStrings:  9206
+-  CStrings:  10007
++  UUID: A32B5237-9638-3B77-9B2B-4DCD34BA4B62
 +  Functions: 11670
 +  Symbols:   6605
-+  CStrings:  9198
++  CStrings:  9999
  
 Symbols:
 + _TSUImageTypeJPEG2000

@@ -71,11 +71,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B315F98-50AC-37CB-ACA2-A36F856CF1F2
 -  Functions: 9703
++  UUID: 4CA120B2-3D0B-38B9-AB2D-640AC0F64666
 +  Functions: 9713
    Symbols:   1979
--  CStrings:  11150
-+  CStrings:  11173
+-  CStrings:  12479
++  CStrings:  12512
  
 Symbols:
 + _OBJC_CLASS_$_MRPersistentTimer

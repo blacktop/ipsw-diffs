@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2ACEEFB-4276-3421-B6FE-16F600AFD17F
 -  Functions: 4313
 -  Symbols:   14899
--  CStrings:  5096
+-  CStrings:  6245
++  UUID: 17C0751B-0569-3ABE-899D-2A5E44DF5950
 +  Functions: 4319
 +  Symbols:   14915
-+  CStrings:  5107
++  CStrings:  6256
  
 Symbols:
 + -[CAFCarManager _closeConnection]

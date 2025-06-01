@@ -48,8 +48,8 @@
    __DATA_CONST.__objc_arraydata: 0xd0
    __AUTH_CONST.__cfstring: 0xa900
 
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0xc0
    __AUTH_CONST.__auth_got: 0x1568
 -  __AUTH.__objc_data: 0x2408
 +  __AUTH.__objc_data: 0x23b8
@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2AF128C8-F625-3784-85B6-0AD0548D58F7
 -  Functions: 7856
 -  Symbols:   20124
--  CStrings:  10081
+-  CStrings:  11433
++  UUID: E3B5CF12-8690-3FBE-BC5F-F56CEA1015FF
 +  Functions: 7859
 +  Symbols:   20132
-+  CStrings:  10085
++  CStrings:  11437
  
 Symbols:
 + _OBJC_CLASS_$_MCProfileConnection

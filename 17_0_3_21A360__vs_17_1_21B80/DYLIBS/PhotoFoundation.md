@@ -38,12 +38,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3B85F72-68E2-3540-AA71-DC2617D13957
 -  Functions: 215
 -  Symbols:   970
--  CStrings:  477
+-  CStrings:  519
++  UUID: 98523AA1-9812-3894-98A7-3105F058E1DC
 +  Functions: 216
 +  Symbols:   973
-+  CStrings:  478
++  CStrings:  520
  
 Symbols:
 + -[PFStateCaptureHandler initWithProvider:]

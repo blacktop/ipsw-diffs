@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A72F7AD-EE9D-35F2-9807-AA973E22E521
++  UUID: 1C95230F-DCD9-33B6-A7EE-B9F49910590A
+   Functions: 1688
+   Symbols:   6619
+   CStrings:  4130
+
 ```

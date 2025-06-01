@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04DE48E6-2543-388A-9C96-3D1CFF43BD78
 -  Functions: 2552
 -  Symbols:   8666
--  CStrings:  5609
+-  CStrings:  7671
++  UUID: 23093930-C1D4-33A0-813B-B97A37907D1B
 +  Functions: 2554
 +  Symbols:   8672
-+  CStrings:  5611
++  CStrings:  7670
  
 Symbols:
 + -[SUCoreDDMDeclaration device]

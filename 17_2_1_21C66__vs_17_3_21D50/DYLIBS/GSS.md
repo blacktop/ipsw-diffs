@@ -18,20 +18,22 @@
    __DATA_CONST.__got: 0x158
    __DATA_CONST.__const: 0x1378
    __AUTH_CONST.__cfstring: 0x8a0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xf50
 +  __AUTH_CONST.__auth_got: 0xf68
    __DATA.__data: 0xd10
    __DATA.__bss: 0x28c
    __DATA.__common: 0x94
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libheimdal-asn1.dylib
    - /usr/lib/libresolv.9.dylib
+-  UUID: E7619897-9748-3DFE-8A5E-8B40083B3380
++  UUID: D0C7DD78-B79E-3FF2-A56E-CA3EC057F0C6
    Functions: 642
 -  Symbols:   2069
--  CStrings:  675
+-  CStrings:  744
 +  Symbols:   2072
-+  CStrings:  674
++  CStrings:  743
  
 Symbols:
 + _CFStringGetLength

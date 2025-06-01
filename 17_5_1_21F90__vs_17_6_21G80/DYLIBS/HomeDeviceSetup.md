@@ -52,13 +52,16 @@
    __DATA.__common: 0x10
    __DATA.__bss: 0x510
 
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 86A1EC66-166F-3426-96BF-371225574450
++  UUID: B3C0C410-7FC8-3F03-A782-3EC494588BCC
    Functions: 1278
 -  Symbols:   4800
--  CStrings:  4528
+-  CStrings:  5045
 +  Symbols:   4806
-+  CStrings:  4573
++  CStrings:  5123
  
 Symbols:
 + -[HDSDeviceOperationHomeKitSetup _completeWithError:errorLabel:]

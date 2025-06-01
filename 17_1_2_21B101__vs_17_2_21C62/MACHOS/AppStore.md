@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ACC5BDB0-7A29-380D-8C75-A2F25854550C
 -  Functions: 29202
 -  Symbols:   7882
--  CStrings:  7169
+-  CStrings:  7337
++  UUID: 137CE30E-7AFE-3E0F-9403-C7CE3AA1DDB0
 +  Functions: 30832
 +  Symbols:   8006
-+  CStrings:  7311
++  CStrings:  7479
  
 Symbols:
 + _$s11AppStoreKit16DynamicTypeLabelC24directionalTextAlignmentAA011DirectionalhI0OvgTj

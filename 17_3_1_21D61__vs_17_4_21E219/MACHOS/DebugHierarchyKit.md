@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/DebugHierarchyFoundation.framework/DebugHierarchyFoundation
    - /System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/RemoteServiceDiscovery
    - /System/Library/PrivateFrameworks/RemoteXPC.framework/RemoteXPC
-
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A604F06-2410-32B5-8FEE-C36F228AE358
++  UUID: 840D1CF2-80B3-38E7-A5BD-A675172EEEDE
    Functions: 611
    Symbols:   1853
--  CStrings:  1174
-+  CStrings:  1175
+-  CStrings:  1410
++  CStrings:  1411
  
 Symbols:
 + _UTTypeJPEG

@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BED41EB1-FFE4-3B55-8B79-DA3240BE0A75
++  UUID: 8D05E9C2-293D-3F21-853B-44AB38899785
+   Functions: 64
+   Symbols:   491
+   CStrings:  546
+
 ```

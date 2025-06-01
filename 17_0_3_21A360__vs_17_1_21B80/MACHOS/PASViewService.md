@@ -21,8 +21,11 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDataDetection.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6CD45E0E-0E06-3901-9D8F-D544241FCF2C
++  UUID: 2ABD912C-D477-3DD2-B402-5CE51BB1C24E
    Functions: 347
 -  Symbols:   364
 +  Symbols:   365

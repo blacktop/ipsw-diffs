@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0x6d8
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1a58
 -  __AUTH.__objc_data: 0x1fe0
 -  __AUTH.__const_weak: 0x278
@@ -89,12 +88,14 @@
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C2565B5F-0B95-3D0B-80A8-AC3B9C2F0F88
 -  Functions: 10901
 -  Symbols:   30662
--  CStrings:  11228
+-  CStrings:  13327
++  UUID: 78C3547B-1E1E-34A0-B91C-254D1319F742
 +  Functions: 10940
 +  Symbols:   30796
-+  CStrings:  11262
++  CStrings:  13364
  
 Symbols:
 + +[TIStickerCandidateGenerator sharedInstance]

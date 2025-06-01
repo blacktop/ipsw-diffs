@@ -67,7 +67,6 @@
 -  __AUTH.__objc_data: 0x2580
 -  __DATA.__objc_ivar: 0x99c
 -  __DATA.__data: 0x17c0
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x5b8
 +  __AUTH.__objc_data: 0x2530
 +  __DATA.__objc_ivar: 0x97c
@@ -79,9 +78,10 @@
    - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9AB744F2-9D25-3226-8677-9660500EC791
 -  Functions: 2695
 -  Symbols:   10031
--  CStrings:  4924
+-  CStrings:  5472
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -89,9 +89,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 9F058FB0-A09E-3624-8B8A-0A6458CD08E0
 +  Functions: 2698
 +  Symbols:   10061
-+  CStrings:  4950
++  CStrings:  5495
  
 Symbols:
 + -[UIViewController(VSAdditions) vs_updateViewModel:withUserInterfaceStyle:andPreferredLogoSize:]

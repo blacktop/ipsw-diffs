@@ -24,13 +24,17 @@
 +  __AUTH_CONST.__cfstring: 0x1f80
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__const: 0x560
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9795B853-FC3E-3EB9-8DB3-2ED362C040EB
++  UUID: 762BB27B-43BE-3711-89DB-C81E6671004D
    Functions: 1062
    Symbols:   2177
--  CStrings:  1119
-+  CStrings:  1120
+-  CStrings:  1370
++  CStrings:  1372
  
 CStrings:
 + "com.apple.safetyalerts.enhancedDelivery.onboardPrompt"

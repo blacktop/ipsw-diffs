@@ -83,7 +83,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_intobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x298
 -  __AUTH_CONST.__auth_got: 0x26c8
 -  __AUTH.__objc_data: 0x12e0
 -  __AUTH.__data: 0xb00
@@ -93,7 +92,6 @@
 -  __DATA.__objc_ivar: 0x460
 -  __DATA.__objc_data: 0x3f0
 -  __DATA.__data: 0x2640
-+  __AUTH_CONST.__auth_ptr: 0x3b8
 +  __AUTH_CONST.__auth_got: 0x2e60
 +  __AUTH.__objc_data: 0x1a28
 +  __AUTH.__data: 0x1610
@@ -155,12 +153,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32F646D7-458A-39D2-8C2E-FC4F45590073
 -  Functions: 8415
 -  Symbols:   8880
--  CStrings:  4720
+-  CStrings:  5085
++  UUID: 5F3DD0F8-9C84-337D-95E5-B20C5A5E4B9B
 +  Functions: 10890
 +  Symbols:   9681
-+  CStrings:  5118
++  CStrings:  5485
  
 Symbols:
 + +[IMAVPlayer playerID]

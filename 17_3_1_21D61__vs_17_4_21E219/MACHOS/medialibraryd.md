@@ -63,12 +63,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6DD8DB3E-0066-3148-A3FD-F7A85CCC9761
 -  Functions: 367
 -  Symbols:   222
--  CStrings:  1046
+-  CStrings:  1182
++  UUID: 03E59653-6E5C-3D78-8F06-4A870C16F938
 +  Functions: 384
 +  Symbols:   228
-+  CStrings:  1100
++  CStrings:  1242
  
 Symbols:
 + _CacheDeleteEnumerateRemovedFilesInDirectories

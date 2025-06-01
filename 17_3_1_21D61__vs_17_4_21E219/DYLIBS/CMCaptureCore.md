@@ -28,14 +28,16 @@
    __DATA.__data: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
-
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F50B04C5-EE92-309D-BCED-790B89479508
++  UUID: CFA37F5C-524F-3AA3-9A42-CA28BD22B114
    Functions: 6
 -  Symbols:   2237
--  CStrings:  2015
+-  CStrings:  4025
 +  Symbols:   2257
-+  CStrings:  2035
++  CStrings:  4065
  
 Symbols:
 + _kFigBarcodeScannerSampleBufferProcessorProperty_Prepare

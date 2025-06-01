@@ -33,11 +33,15 @@
    __DATA.__data: 0x2020
    __DATA.__bss: 0x80
 
+   - /System/Library/PrivateFrameworks/SlideshowKit.framework/Frameworks/OpusFoundation.framework/OpusFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0B53BAFE-7D5E-3EDB-96EC-74A253C6AF80
++  UUID: 3178C090-62E3-30F4-A300-E29A7FAFF209
    Functions: 5011
    Symbols:   17566
--  CStrings:  7296
-+  CStrings:  7298
+-  CStrings:  8638
++  CStrings:  8640
  
 Symbols:
 + ___44+[OKWidgetViewProxy setupJavascriptContext:]_block_invoke.566

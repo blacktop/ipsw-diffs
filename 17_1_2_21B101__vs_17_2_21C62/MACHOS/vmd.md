@@ -38,11 +38,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 65A624F6-2BEC-3217-B260-E67EA90C26FA
 -  Functions: 2210
++  UUID: 8003D2D1-83BB-33D6-AA95-12C7EA4BD62E
 +  Functions: 2211
    Symbols:   546
--  CStrings:  3870
-+  CStrings:  3874
+-  CStrings:  4360
++  CStrings:  4364
  
 CStrings:
 + "Could not find valid context for subscription %@"

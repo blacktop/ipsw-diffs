@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4E5280B-5202-3A57-93F5-B49E4DC8BF7E
 -  Functions: 1921
 -  Symbols:   392
--  CStrings:  3604
+-  CStrings:  4173
++  UUID: 99DC98AD-EA03-32DB-ACC3-2DB06A29900C
 +  Functions: 1948
 +  Symbols:   393
-+  CStrings:  3639
++  CStrings:  4215
  
 Symbols:
 + _OBJC_CLASS_$_NSIndexSet

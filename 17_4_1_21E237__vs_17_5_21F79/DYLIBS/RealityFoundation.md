@@ -13,4 +13,13 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7BEFF111-43E0-317E-B8C2-083E9C198D83
++  UUID: 02D7ED55-BE77-3E63-B45E-D73A28335C80
+   Functions: 26696
+   Symbols:   65808
+   CStrings:  2171
+
 ```

@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A7BDA6D-DDDD-3F39-950A-5BA661C221DD
++  UUID: 0DB38C5D-569B-39A1-A88D-F44C3599C306
    Functions: 472
    Symbols:   1832
--  CStrings:  925
-+  CStrings:  926
+-  CStrings:  1021
++  CStrings:  1022
  
 Symbols:
 + ___83-[DEExtensionHostContext attachmentsForParameters:withProgressHandler:withHandler:]_block_invoke.133

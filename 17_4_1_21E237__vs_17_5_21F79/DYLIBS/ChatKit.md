@@ -75,7 +75,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x900
    __AUTH_CONST.__objc_floatobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x238
 -  __AUTH_CONST.__auth_got: 0x32a8
 -  __AUTH.__objc_data: 0x11428
 -  __AUTH.__data: 0x3208
@@ -104,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1FFF16FD-EFB6-38BF-939D-3B38E3C96000
 -  Functions: 40900
 -  Symbols:   117518
--  CStrings:  45471
+-  CStrings:  49843
++  UUID: FAC5C237-9A36-3295-8BB2-C522DA2A4799
 +  Functions: 40907
 +  Symbols:   117559
-+  CStrings:  45497
++  CStrings:  49871
  
 Symbols:
 + +[IMBalloonPlugin(ImageLoading) __ck_appIconFromPayloadDictionary:pluginBundleID:withCompletionBlock:]

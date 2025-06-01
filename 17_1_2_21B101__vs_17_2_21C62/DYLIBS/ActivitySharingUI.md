@@ -22,13 +22,16 @@
    __TEXT.__objc_methname: 0x487a
    __TEXT.__objc_methtype: 0x4fc
 
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A272ED99-C7DC-3E42-AF83-51C65553A9EE
++  UUID: 544B9E4A-B2B1-35F2-B994-A2E55019BEEA
    Functions: 436
 -  Symbols:   1851
--  CStrings:  1010
+-  CStrings:  1123
 +  Symbols:   1852
-+  CStrings:  1017
++  CStrings:  1130
  
 Symbols:
 + GCC_except_table29

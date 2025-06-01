@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0xd86
    __TEXT.__objc_classname: 0x84
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DB541808-0B43-30CF-86F7-C23562B79919
++  UUID: DDA4850B-9DEF-3A05-9D32-2A7206551AA3
+   Functions: 86
+   Symbols:   132
+   CStrings:  440
+
 ```

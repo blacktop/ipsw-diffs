@@ -26,9 +26,9 @@
    __TEXT.__objc_classname: 0x9a1
    __TEXT.__objc_methname: 0xa5b9
 
+   __DATA_CONST.__objc_superrefs: 0x258
    __DATA_CONST.__objc_arraydata: 0xe8
    __AUTH_CONST.__const: 0x4338
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x13e40
 +  __AUTH_CONST.__cfstring: 0x13e20
    __AUTH_CONST.__objc_arrayobj: 0x108
@@ -56,12 +56,14 @@
    - /usr/lib/libcoretls_cfhelpers.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 941BE749-DFFC-3D64-B72D-041855A29866
 -  Functions: 6508
 -  Symbols:   18885
--  CStrings:  7580
+-  CStrings:  10126
++  UUID: 44EC7F82-1241-3F8A-8182-EA5DBA0C2086
 +  Functions: 6509
 +  Symbols:   18887
-+  CStrings:  7579
++  CStrings:  10124
  
 Symbols:
 + _CTAmfiVerifyCertificateChain

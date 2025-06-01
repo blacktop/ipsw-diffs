@@ -73,7 +73,6 @@
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__objc_const: 0x2998
 -  __AUTH_CONST.__const: 0x9c6f8
--  __AUTH_CONST.__auth_ptr: 0x39f0
 -  __AUTH_CONST.__auth_got: 0xc060
 -  __AUTH.__objc_data: 0x85b0
 -  __AUTH.__data: 0x197f8
@@ -81,7 +80,6 @@
 -  __DATA.__data: 0x1e528
 +  __AUTH_CONST.__objc_const: 0x2b98
 +  __AUTH_CONST.__const: 0xa66d0
-+  __AUTH_CONST.__auth_ptr: 0x3c78
 +  __AUTH_CONST.__auth_got: 0xcb60
 +  __AUTH.__objc_data: 0x90f8
 +  __AUTH.__data: 0x1c9e8
@@ -129,12 +127,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C836BFB3-E298-3121-A11D-EDC101BA3983
 -  Functions: 94486
 -  Symbols:   23165
--  CStrings:  13620
+-  CStrings:  13624
++  UUID: DBBB2B78-6C52-39BE-AB81-F74935290188
 +  Functions: 100730
 +  Symbols:   24239
-+  CStrings:  14447
++  CStrings:  14451
  
 Symbols:
 + _FCArticleIDPrefix

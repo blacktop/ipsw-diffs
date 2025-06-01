@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC997E8D-CC80-38A0-9A94-4DEC20A685BB
 -  Functions: 328
 -  Symbols:   1518
--  CStrings:  905
+-  CStrings:  961
++  UUID: F3456F4A-450D-3C26-8531-477C14CA5AAA
 +  Functions: 329
 +  Symbols:   1520
-+  CStrings:  907
++  CStrings:  963
  
 Symbols:
 + -[_UIKeyboardArbiter updateKeyboardStatus:fromHandler:fromFocus:]

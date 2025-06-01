@@ -40,12 +40,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FC94EB40-F084-3E8F-9DD2-0646BFAA8288
 -  Functions: 260
 -  Symbols:   1061
--  CStrings:  642
+-  CStrings:  676
++  UUID: E17A2777-2593-3877-B898-99CDE100ECE6
 +  Functions: 262
 +  Symbols:   1068
-+  CStrings:  646
++  CStrings:  680
  
 Symbols:
 + -[NFMPlayCommands _playSoundAtPath:].cold.2

@@ -37,11 +37,13 @@
    - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7975CFC6-A3B1-32BB-A20E-735B6F48A052
 -  Functions: 59
++  UUID: 81A4DF4B-D944-378A-A61F-CC00E4E9BC2B
 +  Functions: 65
    Symbols:   78
--  CStrings:  494
-+  CStrings:  497
+-  CStrings:  807
++  CStrings:  810
  
 CStrings:
 + "accountRatchet"

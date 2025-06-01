@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26C4C4CB-D120-3D14-A717-7FC33E18B0CF
 -  Functions: 482
 -  Symbols:   1887
--  CStrings:  925
+-  CStrings:  1047
++  UUID: EFDD13AF-16AC-3BF3-8CBD-86895D95C49E
 +  Functions: 483
 +  Symbols:   1892
-+  CStrings:  930
++  CStrings:  1052
  
 Symbols:
 + +[DSUtilities shouldShowBioRatchetFlow]

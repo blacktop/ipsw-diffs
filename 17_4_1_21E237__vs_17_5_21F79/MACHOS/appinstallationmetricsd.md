@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x98
    __TEXT.__const: 0x1850
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7876DD82-951C-3E0A-967D-AAFA76037C9B
++  UUID: ADF8BE0B-806C-39DB-BDC7-0778FEB07093
+   Functions: 1059
+   Symbols:   677
+   CStrings:  338
+
 ```

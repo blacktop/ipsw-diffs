@@ -45,11 +45,13 @@
    - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB12D5D0-79A3-3E83-997C-DE7C64FD0E4A
 -  Functions: 32
++  UUID: DD02D8D1-86B6-304D-B015-DE277C61A293
 +  Functions: 33
    Symbols:   97
--  CStrings:  260
-+  CStrings:  269
+-  CStrings:  262
++  CStrings:  272
  
 CStrings:
 + "@\"NSDictionary\"52@0:8@\"NSDictionary\"16Q24@\"NSString\"32i40^@44"

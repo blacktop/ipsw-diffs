@@ -36,13 +36,16 @@
    __AUTH_CONST.__cfstring: 0x50c0
    __AUTH_CONST.__objc_const: 0x2680
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64C6998F-8476-3073-A8FA-A662200704D3
++  UUID: 14B3A2F4-3E47-3DE7-A575-86C12803CB5D
    Functions: 1830
 -  Symbols:   7325
--  CStrings:  3783
+-  CStrings:  4429
 +  Symbols:   7326
-+  CStrings:  3784
++  CStrings:  4430
  
 Symbols:
 + _objc_msgSend$defaultStore

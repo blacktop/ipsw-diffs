@@ -48,8 +48,7 @@
 +  __AUTH_CONST.__objc_intobj: 0x3a20
    __AUTH_CONST.__objc_arrayobj: 0x14e8
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0xe0
-
+   __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x150
    __AUTH_CONST.__const: 0x358
    __AUTH_CONST.__objc_dictobj: 0x2a8
@@ -67,12 +66,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BBC1FF10-7831-31CA-8C11-2242EC92F2F8
 -  Functions: 28027
 -  Symbols:   78794
--  CStrings:  43788
+-  CStrings:  47805
++  UUID: A3577B55-B808-3AF6-A9BB-09DD969DD974
 +  Functions: 28077
 +  Symbols:   78915
-+  CStrings:  43877
++  CStrings:  47930
  
 Symbols:
 + +[GKSConnectivitySettings readStorebagValueForStorebagKey:userDefaultKey:defaultValue:isDoubleType:]

@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4D2DAF5D-1A7F-3E19-B097-01A1B90CE554
 -  Functions: 1511
 -  Symbols:   5203
--  CStrings:  2848
+-  CStrings:  3392
++  UUID: BA978DC7-935F-3239-9946-64AF6FF96704
 +  Functions: 1529
 +  Symbols:   5261
-+  CStrings:  2903
++  CStrings:  3457
  
 Symbols:
 + -[TAAccessoryInformation initWithDeviceUUID:deviceType:productData:manufacturerName:modelName:firmwareVersion:accessoryCategory:accessoryCapabilities:serialNumber:productName:protocolImplementation:]

@@ -31,11 +31,15 @@
    __DATA.__data: 0xe0
    __DATA.__common: 0x10
 
+   - /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E47B6EF2-753E-33BA-BED0-8854B7F3B1D8
++  UUID: 7BA425FA-59DA-3D96-8A4F-59092FA43572
    Functions: 14
    Symbols:   125
--  CStrings:  106
-+  CStrings:  107
+-  CStrings:  113
++  CStrings:  114
  
 CStrings:
 + "T@\"NSString\",?,R,C"

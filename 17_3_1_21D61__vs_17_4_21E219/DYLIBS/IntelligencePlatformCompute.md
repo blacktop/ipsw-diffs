@@ -56,14 +56,13 @@
 +  __AUTH_CONST.__objc_const: 0x120
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__const: 0x80
-+  __AUTH_CONST.__const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x318
 -  __AUTH.__data: 0x210
 -  __AUTH.__objc_data: 0xf8
 -  __DATA.__objc_protorefs: 0x10
 -  __DATA.__objc_classrefs: 0x60
 -  __DATA.__objc_superrefs: 0x8
++  __AUTH_CONST.__const: 0x90
 +  __AUTH_CONST.__auth_got: 0x350
 +  __AUTH.__data: 0x2b0
 +  __AUTH.__objc_data: 0x148
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B50D43E3-C4C6-320A-A55F-0B423D82F8AF
 -  Functions: 107
 -  Symbols:   546
--  CStrings:  84
+-  CStrings:  85
++  UUID: 61CC1ED4-7E7E-3B5B-8838-E4ABD4E5A72E
 +  Functions: 116
 +  Symbols:   584
-+  CStrings:  99
++  CStrings:  100
  
 Symbols:
 + _$s24IntelligencePlatformCore13ConfigurationVMa

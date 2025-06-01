@@ -43,9 +43,8 @@
    __AUTH_CONST.__const: 0x8e0
    __AUTH_CONST.__objc_const: 0x4f8
    __AUTH_CONST.__objc_arrayobj: 0xa8
-+  __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xa30
++  __AUTH_CONST.__objc_intobj: 0x18
 +  __AUTH_CONST.__auth_got: 0xa38
    __AUTH.__data: 0x10
 -  __DATA.__objc_protorefs: 0x10
@@ -58,12 +57,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 690E1653-D4BE-3B9C-BFA6-EA8E6D02731B
 -  Functions: 673
 -  Symbols:   2285
--  CStrings:  1464
+-  CStrings:  2217
++  UUID: 9CD619BA-9E4F-3B47-9A57-669185A1A5E3
 +  Functions: 676
 +  Symbols:   2300
-+  CStrings:  1475
++  CStrings:  2228
  
 Symbols:
 + -[DDScannerResult _initWithPlist:]

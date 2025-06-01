@@ -30,12 +30,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8D823020-08E4-3CFC-B2EC-318CC5E6BA2D
 -  Functions: 913
 -  Symbols:   3073
--  CStrings:  1399
+-  CStrings:  1537
++  UUID: 5D430C11-56A4-39A9-BD7F-19850E9BA0C4
 +  Functions: 914
 +  Symbols:   3076
-+  CStrings:  1400
++  CStrings:  1538
  
 Symbols:
 + GCC_except_table42

@@ -40,17 +40,20 @@
 +  __AUTH_CONST.__cfstring: 0x1000
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x220
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x6e0
    __AUTH.__objc_data: 0x50
    __DATA.__objc_ivar: 0x24
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 08B050A1-DBF4-3D81-A84E-75DC8F654ED1
++  UUID: BA55A6AA-6AA2-3B78-BDB1-CABDD1B9B35C
    Functions: 625
    Symbols:   1326
--  CStrings:  465
-+  CStrings:  468
+-  CStrings:  588
++  CStrings:  596
  
 Symbols:
 + _MTActuatorHandoffHostClickControl

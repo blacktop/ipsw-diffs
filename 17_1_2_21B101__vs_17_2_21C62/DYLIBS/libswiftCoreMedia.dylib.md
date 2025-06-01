@@ -33,15 +33,17 @@
    __DATA_CONST.__objc_selrefs: 0x10
 -  __AUTH_CONST.__const: 0x12f0
 +  __AUTH_CONST.__const: 0x12f8
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0xc88
    __DATA.__objc_classrefs: 0x10
+   __DATA.__data: 0x14c0
 
    - /usr/lib/swift/libswiftMetal.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: C0D4D7BC-5A5B-3DC1-8606-89D3FF69E5AF
 -  Functions: 2612
 -  Symbols:   6872
++  UUID: 2550BF72-2BCC-3058-9FEF-1FCAD8367873
 +  Functions: 2614
 +  Symbols:   6875
    CStrings:  32

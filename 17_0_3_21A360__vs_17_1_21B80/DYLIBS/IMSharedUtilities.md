@@ -62,7 +62,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x480
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x1220
 -  __AUTH.__objc_data: 0x32c0
 +  __AUTH_CONST.__auth_got: 0x1218
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 19A74CA5-C1CB-381F-89F1-34EDC87CDD42
 -  Functions: 6128
 -  Symbols:   2518
--  CStrings:  11905
+-  CStrings:  15422
++  UUID: 9D17D3C6-041D-3BB0-8F92-3D46B82BD8C0
 +  Functions: 6164
 +  Symbols:   2536
-+  CStrings:  11961
++  CStrings:  15489
  
 Symbols:
 + _CKErrorRetryAfterKey

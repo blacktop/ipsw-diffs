@@ -39,7 +39,6 @@
    __AUTH_CONST.__objc_const: 0x12b8
    __AUTH_CONST.__const: 0x3e0
    __AUTH_CONST.__cfstring: 0xb60
-
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x3a8
    __AUTH.__objc_data: 0x690
@@ -53,12 +52,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 083F67D5-152F-3293-8FB3-D8B70F90394B
 -  Functions: 751
 -  Symbols:   2797
--  CStrings:  1182
+-  CStrings:  1273
++  UUID: 186071A3-8699-3711-8A70-79C56472C2A9
 +  Functions: 752
 +  Symbols:   2800
-+  CStrings:  1186
++  CStrings:  1277
  
 Symbols:
 + -[NSArray(NAAdditions) na_safeSubarrayWithRange:]

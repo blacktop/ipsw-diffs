@@ -47,7 +47,6 @@
 -  __AUTH_CONST.__objc_dictobj: 0x910
 +  __AUTH_CONST.__objc_dictobj: 0x938
    __AUTH_CONST.__objc_arrayobj: 0x750
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x490
 +  __AUTH_CONST.__auth_got: 0x4b0
    __AUTH.__objc_data: 0x230
@@ -71,12 +70,14 @@
    - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libVinylNonUpdater.dylib
+-  UUID: 6C289BA4-8C2D-38E2-BB54-2A79840C12B9
 -  Functions: 219
 -  Symbols:   1272
--  CStrings:  1480
+-  CStrings:  2435
++  UUID: A0422056-C166-378C-A473-2CC6D317EE7F
 +  Functions: 246
 +  Symbols:   1349
-+  CStrings:  1511
++  CStrings:  2492
  
 Symbols:
 + +[ZhuGeKeysActionArmory queryFactoryShippingSettingTimeWithError:]

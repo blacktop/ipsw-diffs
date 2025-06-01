@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F5742AB8-BA27-37C0-AC0F-7167025748DE
++  UUID: F06DAB27-3690-3104-A8F2-BB096EBCED1B
    Functions: 641
    Symbols:   2137
--  CStrings:  877
-+  CStrings:  878
+-  CStrings:  932
++  CStrings:  933
  
 CStrings:
 + "T@\"NSString\",?,R,C"

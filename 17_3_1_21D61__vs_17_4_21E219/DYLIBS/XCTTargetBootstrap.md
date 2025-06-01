@@ -36,11 +36,15 @@
    __DATA.__data: 0x360
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79CDE372-21C6-30EC-9CBA-089926C1E484
++  UUID: B4B833AF-C7CC-3C5E-BC38-E2A672C9DAAA
    Functions: 55
    Symbols:   331
--  CStrings:  190
-+  CStrings:  191
+-  CStrings:  206
++  CStrings:  207
  
 Symbols:
 + ___37-[XCTTargetSession _on_queue_connect]_block_invoke.253

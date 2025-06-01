@@ -64,7 +64,6 @@
 +  __DATA_CONST.__objc_protorefs: 0xb8
 +  __DATA_CONST.__objc_classrefs: 0x7e8
 +  __AUTH_CONST.__const: 0x2ef80
-   __AUTH_CONST.__auth_ptr: 0x980
    __AUTH_CONST.__cfstring: 0x2a00
    __AUTH_CONST.__objc_const: 0xd8
 -  __AUTH_CONST.__auth_got: 0x2698
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA1AF8B3-7F4C-3B62-9068-D7DF69B1E2C5
 -  Functions: 46310
 -  Symbols:   23372
--  CStrings:  4960
+-  CStrings:  5296
++  UUID: 1AD0BD1D-28BB-3E89-B75A-1932CD51BE33
 +  Functions: 46305
 +  Symbols:   23668
-+  CStrings:  5048
++  CStrings:  5384
  
 Symbols:
 + _OBJC_CLASS_$_RFSchemaRFClientEvent

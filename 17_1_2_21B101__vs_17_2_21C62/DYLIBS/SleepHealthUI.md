@@ -84,13 +84,16 @@
    - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 272236B8-CA8D-3FE9-B6CF-6FD62DEAB096
++  UUID: 65D20033-A756-35AF-A080-9F91DEB64900
    Functions: 13086
 -  Symbols:   32173
--  CStrings:  2427
+-  CStrings:  2441
 +  Symbols:   32196
-+  CStrings:  2439
++  CStrings:  2453
  
 Symbols:
 + _$s13SleepHealthUI0A21AccessibilityCategoryO8settingsyA2CmFWC

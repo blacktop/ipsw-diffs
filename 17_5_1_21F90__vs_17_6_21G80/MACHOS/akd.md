@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8E0D3D2-AF59-3407-A798-89E85FEB4E5A
 -  Functions: 5618
 -  Symbols:   1080
--  CStrings:  8170
+-  CStrings:  8947
++  UUID: 1A9D81BC-C603-3DC4-859F-913708BF9F07
 +  Functions: 5627
 +  Symbols:   1082
-+  CStrings:  8178
++  CStrings:  8955
  
 Symbols:
 + _AKMDMInfoRequiredHeaderKey

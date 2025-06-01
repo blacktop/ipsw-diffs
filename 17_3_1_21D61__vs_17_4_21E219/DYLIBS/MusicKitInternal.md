@@ -76,7 +76,6 @@
 +  __AUTH_CONST.__cfstring: 0x1e0
 +  __AUTH_CONST.__const: 0x24808
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x960
 -  __AUTH_CONST.__auth_got: 0x41b8
 -  __AUTH.__objc_data: 0xb50
 -  __AUTH.__data: 0x7948
@@ -87,7 +86,6 @@
 -  __DATA.__data: 0x11d90
 -  __DATA.__bss: 0x62520
 -  __DATA.__common: 0xb68
-+  __AUTH_CONST.__auth_ptr: 0x9d8
 +  __AUTH_CONST.__auth_got: 0x42c8
 +  __AUTH.__objc_data: 0xc40
 +  __AUTH.__data: 0x8000
@@ -116,12 +114,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 071208AE-19CC-3CC8-A137-C7BF99EA80DE
 -  Functions: 41456
 -  Symbols:   27665
--  CStrings:  2438
+-  CStrings:  2451
++  UUID: FC10B7C9-E66F-3B78-B6B0-877EB142F9D8
 +  Functions: 43034
 +  Symbols:   28448
-+  CStrings:  2543
++  CStrings:  2558
  
 Symbols:
 + +[MusicKit_SoftLinking_MPRestrictionsMonitor allowsMusicVideosDidChangeNotification]

@@ -69,7 +69,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x100
 -  __AUTH_CONST.__objc_arrayobj: 0x600
 +  __AUTH_CONST.__objc_arrayobj: 0x678
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__auth_got: 0x1280
 -  __AUTH.__objc_data: 0xcc28
 +  __AUTH.__objc_data: 0xcdb8
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 94D9F2DB-6E38-3206-A392-2F0857896DA9
 -  Functions: 18427
 -  Symbols:   52786
--  CStrings:  21104
+-  CStrings:  26918
++  UUID: 2A1F5F16-4F6C-3293-976E-CFAA5C298953
 +  Functions: 18494
 +  Symbols:   53008
-+  CStrings:  96443
++  CStrings:  177550
  
 Symbols:
 + +[HKFeatureAvailabilityRequirementActiveWatchIsNotUnderInternalDevelopmentImportExclusion requirementIdentifier]

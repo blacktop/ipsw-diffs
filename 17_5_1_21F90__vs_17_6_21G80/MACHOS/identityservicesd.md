@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14E68C5C-AF30-357A-9B49-E0EC2D6858CB
 -  Functions: 17175
 -  Symbols:   2493
--  CStrings:  31662
+-  CStrings:  38038
++  UUID: 7559F763-8EE9-3D69-8619-42370624C458
 +  Functions: 17208
 +  Symbols:   2494
-+  CStrings:  31717
++  CStrings:  38103
  
 Symbols:
 + _kIDSQRAllocateKey_IPDiscoveryDisabled

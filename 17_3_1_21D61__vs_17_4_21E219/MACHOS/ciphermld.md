@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 01E57C8F-1261-3582-BBA3-E90871888858
++  UUID: B785E370-ACDD-3F29-8649-7433A284D0F0
+   Functions: 1
+   Symbols:   38
+   CStrings:  8
+
 ```

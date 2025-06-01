@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15CCF4C5-85FA-3492-B7A5-B7600974D5D2
 -  Functions: 944
 -  Symbols:   3043
--  CStrings:  1286
+-  CStrings:  1388
++  UUID: 5BCF2931-CC66-300D-ABD8-DBC9CA8D3019
 +  Functions: 945
 +  Symbols:   3048
-+  CStrings:  1291
++  CStrings:  1393
  
 Symbols:
 + -[RMBaseStore isManagedStore]

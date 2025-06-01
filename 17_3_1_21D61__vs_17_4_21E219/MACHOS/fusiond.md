@@ -47,11 +47,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54A0D533-9D74-38F1-828B-FABCF6EABB22
 -  Functions: 100
++  UUID: CAC1297E-0FAF-3C81-9A77-A98B39E2F291
 +  Functions: 99
    Symbols:   189
--  CStrings:  397
-+  CStrings:  396
+-  CStrings:  571
++  CStrings:  570
  
 CStrings:
 - "base64EncodedStringWithOptions:"

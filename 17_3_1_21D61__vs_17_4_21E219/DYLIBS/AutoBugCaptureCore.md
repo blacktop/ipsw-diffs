@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5D2E47A-95F8-3884-BF39-193CAF4930C6
 -  Functions: 2119
 -  Symbols:   7803
--  CStrings:  4891
+-  CStrings:  5713
++  UUID: 630EB113-9253-372C-A83E-80AFBBF5C78D
 +  Functions: 2125
 +  Symbols:   7830
-+  CStrings:  4907
++  CStrings:  5734
  
 Symbols:
 + -[DiagnosticCaseManager _predicatesForCasesMatchingDomain:type:subtype:process:withinLast:]

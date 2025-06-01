@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xd0
    __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1f98
 -  __AUTH.__objc_data: 0xe010
 -  __DATA.__objc_protorefs: 0x98
@@ -86,12 +85,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 505D13B0-A445-33DA-8E4E-39FD07A97307
 -  Functions: 22442
 -  Symbols:   76593
--  CStrings:  42077
+-  CStrings:  50863
++  UUID: F47361A1-FC5A-3E30-B0C3-AF180D43C091
 +  Functions: 22466
 +  Symbols:   76679
-+  CStrings:  42127
++  CStrings:  50916
  
 Symbols:
 + -[PLAdditionalAssetAttributes setMontage:]

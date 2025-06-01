@@ -52,9 +52,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x4e80
    __AUTH_CONST.__const: 0xb70
 -  __AUTH_CONST.__cfstring: 0x4dc40
-+  __AUTH_CONST.__cfstring: 0x4dd00
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__objc_const: 0x2b48
++  __AUTH_CONST.__cfstring: 0x4dd00
 +  __AUTH_CONST.__objc_const: 0x2c20
    __AUTH_CONST.__objc_intobj: 0xa38
    __AUTH_CONST.__auth_got: 0x7e8
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 794C9A8C-9F3C-3089-BC7A-1E0D4330AD73
 -  Functions: 51987
 -  Symbols:   129507
--  CStrings:  46101
+-  CStrings:  56055
++  UUID: 6A2B4E86-B1BA-3A31-B190-412759BB32EA
 +  Functions: 52092
 +  Symbols:   129774
-+  CStrings:  46158
++  CStrings:  56118
  
 Symbols:
 + -[DIMSchemaDIMExperimentContext deleteExperimentalBucketId]

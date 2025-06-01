@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 516F1AEA-C341-394C-B131-38F8FE42EEC3
 -  Functions: 41
 -  Symbols:   128
--  CStrings:  324
+-  CStrings:  376
++  UUID: C03A708D-12E9-38C5-B8A6-2E61B0C97E6E
 +  Functions: 37
 +  Symbols:   123
-+  CStrings:  283
++  CStrings:  328
  
 Symbols:
 + _OBJC_CLASS_$_NSError

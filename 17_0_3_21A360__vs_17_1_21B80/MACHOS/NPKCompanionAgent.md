@@ -40,11 +40,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A81F5CC-FC92-3931-8C6C-495C21952844
 -  Functions: 1066
++  UUID: E0C89A5E-3E1F-3D57-837E-980EF2FE6A7F
 +  Functions: 1067
    Symbols:   432
--  CStrings:  2491
-+  CStrings:  2497
+-  CStrings:  2628
++  CStrings:  2634
  
 CStrings:
 + "-[NPDCompanionPassLibrary prepareForBackupRestoreWithRequiredFileURLs:destinationFileHandles:handler:]"

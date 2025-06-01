@@ -30,11 +30,15 @@
    __DATA.__objc_classrefs: 0x30
    __DATA.__objc_data: 0x50
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94677234-98EB-38DE-8254-7AEF06A62626
++  UUID: 574048B8-D919-3997-A06A-CD030234AECB
    Functions: 27
    Symbols:   62
--  CStrings:  133
-+  CStrings:  137
+-  CStrings:  135
++  CStrings:  139
  
 CStrings:
 + "@\"PREditorContentStylePickerConfiguration\"24@0:8@\"PREditor\"16"

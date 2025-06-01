@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EB6EB2E-6E77-3B63-9DA1-1D9F1F496951
 -  Functions: 329
 -  Symbols:   1634
--  CStrings:  1026
+-  CStrings:  1112
++  UUID: 4A82530E-F520-319C-8FA1-C6E77B70F501
 +  Functions: 331
 +  Symbols:   1640
-+  CStrings:  1033
++  CStrings:  1119
  
 Symbols:
 + -[WBUFormDataController previouslyFilledVirtualCardNumbers]

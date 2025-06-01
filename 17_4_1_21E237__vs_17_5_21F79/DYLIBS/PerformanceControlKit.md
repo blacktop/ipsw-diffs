@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5EB5DAE8-1222-3F56-9327-11BB66C6EA8E
 -  Functions: 222
 -  Symbols:   835
--  CStrings:  211
+-  CStrings:  251
++  UUID: C6AF466B-B836-318F-A2BB-EB621A7F70C6
 +  Functions: 224
 +  Symbols:   841
-+  CStrings:  215
++  CStrings:  257
  
 Symbols:
 + -[CLPCUserClient isInDockMode:]

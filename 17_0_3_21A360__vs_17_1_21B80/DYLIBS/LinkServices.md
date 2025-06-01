@@ -53,7 +53,6 @@
 +  __DATA_CONST.__objc_const: 0xa268
 +  __DATA_CONST.__objc_selrefs: 0x2418
    __AUTH_CONST.__const: 0x2598
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__objc_const: 0x3b88
 -  __AUTH_CONST.__cfstring: 0x4ce0
 +  __AUTH_CONST.__cfstring: 0x4da0
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A813EFB3-AA0D-37AD-A67C-AE8E553AE515
 -  Functions: 4646
 -  Symbols:   9001
--  CStrings:  3448
+-  CStrings:  4063
++  UUID: 8B63F7C3-13F5-32AD-B574-F3549B4F4AAF
 +  Functions: 4658
 +  Symbols:   9048
-+  CStrings:  3489
++  CStrings:  4110
  
 Symbols:
 + -[LNConnection isDaemon]

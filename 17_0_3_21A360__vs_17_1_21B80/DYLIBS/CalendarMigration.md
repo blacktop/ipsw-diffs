@@ -28,11 +28,15 @@
    __AUTH_CONST.__const: 0xe0
    __AUTH_CONST.__cfstring: 0xe00
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3D3CF221-E681-3051-AA51-9C75A3C66D5A
++  UUID: D50C9EF0-20D4-3340-9C4C-98D8731E8624
    Functions: 496
    Symbols:   2160
--  CStrings:  1072
-+  CStrings:  1073
+-  CStrings:  1184
++  CStrings:  1185
  
 CStrings:
 + "addressURLIsAccountOwner:"

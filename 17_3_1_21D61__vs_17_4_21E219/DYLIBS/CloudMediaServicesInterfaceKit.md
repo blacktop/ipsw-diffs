@@ -39,11 +39,15 @@
    __DATA.__data: 0x308
    __DATA.__bss: 0x80
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53FC7C48-33B2-3CE7-8E8B-E8E74EA788C3
++  UUID: 0006C885-12AC-3D7B-9EFB-B836E2531F13
    Functions: 599
    Symbols:   2738
--  CStrings:  1479
-+  CStrings:  1480
+-  CStrings:  1912
++  CStrings:  1913
  
 Symbols:
 + ___41-[CloudMediaServicesPlayerInterface init]_block_invoke.72

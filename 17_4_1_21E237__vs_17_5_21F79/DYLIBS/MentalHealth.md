@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1F96B51F-78C0-3887-AF86-E585D1810A75
++  UUID: 09ECF6DB-5416-3D12-8383-84680D8ECB52
+   Functions: 292
+   Symbols:   1171
+   CStrings:  557
+
 ```

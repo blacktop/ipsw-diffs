@@ -89,12 +89,14 @@
 -  - @rpath/AEBookPlugins.framework/AEBookPlugins
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
+-  UUID: 607F9C25-81C2-3C76-B14C-91E793B4A08D
 -  Functions: 2395
 -  Symbols:   513
--  CStrings:  4389
+-  CStrings:  5062
++  UUID: AA331E9D-FA73-3260-A7AE-D07D933BEED8
 +  Functions: 2314
 +  Symbols:   506
-+  CStrings:  4246
++  CStrings:  4908
  
 Symbols:
 + _OBJC_CLASS_$_BCPPTConfig

@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x280
    __AUTH_CONST.__objc_arrayobj: 0x30
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C8038057-CFD9-358A-8704-1E06206853C2
++  UUID: C7B286FA-C817-3ED7-9749-89D8EE3F45FE
    Functions: 844
    Symbols:   3228
--  CStrings:  1687
-+  CStrings:  1692
+-  CStrings:  1947
++  CStrings:  1957
  
 Symbols:
 + ___block_literal_global.68

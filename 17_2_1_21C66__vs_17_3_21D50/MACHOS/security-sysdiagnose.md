@@ -16,4 +16,13 @@
    __TEXT.__objc_classname: 0x2f
    __TEXT.__objc_methname: 0x2b6
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 86DEA602-1ED3-3980-960F-A08CE06A99C7
++  UUID: E3E72EE3-76A2-3447-B9EE-B60E2B687443
+   Functions: 32
+   Symbols:   154
+   CStrings:  208
+
 ```

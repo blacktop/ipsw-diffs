@@ -36,12 +36,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F6F43B7D-4695-3D1E-8BCE-9097B52D66F8
 -  Functions: 340
 -  Symbols:   543
--  CStrings:  1632
+-  CStrings:  2327
++  UUID: C79E26F6-D149-3732-B185-30BE511AD8AA
 +  Functions: 341
 +  Symbols:   548
-+  CStrings:  1636
++  CStrings:  2335
  
 Symbols:
 + _cleanupPersonalizedUpdateAvailable

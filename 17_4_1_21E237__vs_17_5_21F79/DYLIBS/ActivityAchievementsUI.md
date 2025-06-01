@@ -13,4 +13,13 @@
    __TEXT.__objc_classname: 0x248
    __TEXT.__objc_methname: 0x711e
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DCE5CB7C-6233-314D-815E-09AF6EAB46CE
++  UUID: DFDA7A13-2E49-33FB-B7AF-6B8D59BBC78A
+   Functions: 1252
+   Symbols:   2948
+   CStrings:  1900
+
 ```

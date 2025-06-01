@@ -29,12 +29,14 @@
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 60EDC8E9-5150-3AA5-91C5-28C9DEA26548
 -  Functions: 1758
 -  Symbols:   4140
--  CStrings:  4583
+-  CStrings:  4717
++  UUID: CF460C33-386A-31D9-A228-0C956BF88F00
 +  Functions: 1746
 +  Symbols:   4128
-+  CStrings:  4563
++  CStrings:  4697
  
 Symbols:
 + GCC_except_table1051

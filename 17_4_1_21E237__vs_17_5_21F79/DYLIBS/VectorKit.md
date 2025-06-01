@@ -37,6 +37,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 307713C6-05FF-3814-B426-73F2346B0779
++  UUID: 632E5CD2-250B-371D-A5B4-D29E04865344
+   Functions: 52144
+   Symbols:   130995
+   CStrings:  29487
 CStrings:
 + "/AppleInternal/Library/BuildRoots/940d59b9-fda0-11ee-bdca-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/GeoStdLib/Optional.hpp"
 - "/AppleInternal/Library/BuildRoots/2d3303f9-dd50-11ee-ac91-22c3409c8aad/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/local/include/GeoStdLib/Optional.hpp"

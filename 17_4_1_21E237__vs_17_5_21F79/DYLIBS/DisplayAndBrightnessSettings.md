@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E17C676D-16F3-371E-87FE-9EDEC7295F18
 -  Functions: 795
 -  Symbols:   3404
--  CStrings:  1906
+-  CStrings:  2243
++  UUID: 2BAD4127-B4EF-397E-836C-CC4A709A0151
 +  Functions: 800
 +  Symbols:   3426
-+  CStrings:  1920
++  CStrings:  2263
  
 Symbols:
 + -[DBSAutoLockViewController _specifierWithName:]

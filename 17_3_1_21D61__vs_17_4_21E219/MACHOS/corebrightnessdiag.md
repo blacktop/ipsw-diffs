@@ -19,5 +19,13 @@
    __DATA.__common: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 61992DFE-8D31-39EB-B551-7FC823E9B92D
++  UUID: 4C964D76-D621-371D-8F42-8A0D9F61202E
+   Functions: 7
+   Symbols:   39
+   CStrings:  35
 
 ```

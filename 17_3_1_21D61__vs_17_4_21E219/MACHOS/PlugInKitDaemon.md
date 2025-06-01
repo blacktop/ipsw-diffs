@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39A019F4-8AD9-3DE5-9F44-676CC2A964B4
 -  Functions: 434
 -  Symbols:   1477
--  CStrings:  1083
+-  CStrings:  1212
++  UUID: FFEC2791-6E37-3965-8093-D9106FEC392A
 +  Functions: 412
 +  Symbols:   1434
-+  CStrings:  1065
++  CStrings:  1194
  
 Symbols:
 + -[PKDAnnotationStore external]

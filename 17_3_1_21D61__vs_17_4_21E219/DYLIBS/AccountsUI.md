@@ -75,12 +75,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70D930A8-3A2B-350A-BDB9-0F8BAE60A46A
 -  Functions: 591
 -  Symbols:   2778
--  CStrings:  1625
+-  CStrings:  1885
++  UUID: 3E19CFEE-8C05-3B7E-BEEF-C3DA946F70F0
 +  Functions: 610
 +  Symbols:   2860
-+  CStrings:  1695
++  CStrings:  1961
  
 Symbols:
 + -[ACUIAddAccountViewController _allowedToAddAccountTypeID:fromSpecifier:]

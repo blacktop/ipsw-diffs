@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/SafetyAlerts.framework/SafetyAlerts
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EB6DA36D-01EC-36B8-BC88-24BDD004B047
++  UUID: 40E34565-FF7A-3F49-BF44-EC6FA867F3FD
+   Functions: 32
+   Symbols:   65
+   CStrings:  129
+
 ```

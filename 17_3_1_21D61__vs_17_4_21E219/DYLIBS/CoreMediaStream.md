@@ -49,11 +49,15 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 29436FA5-1C11-3C16-8B1F-EED1C9DBE7FD
++  UUID: 9D2C74EB-BD8B-3A83-95FD-B33A6A5ADA08
    Functions: 3249
    Symbols:   10193
--  CStrings:  5178
-+  CStrings:  5179
+-  CStrings:  6182
++  CStrings:  6183
  
 Symbols:
 + __OBJC_$_PROP_LIST_MSDeleter.131

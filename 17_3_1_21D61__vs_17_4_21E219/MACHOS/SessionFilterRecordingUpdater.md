@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x120
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80512059-1B20-3B9C-AEB4-DB56D322A646
++  UUID: 97C67C80-C3D3-39F9-9DD0-77DC10899208
    Functions: 37
    Symbols:   224
--  CStrings:  155
-+  CStrings:  156
+-  CStrings:  157
++  CStrings:  158
  
 CStrings:
 + "T@\"NSString\",?,R,C"

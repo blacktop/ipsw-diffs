@@ -32,13 +32,16 @@
    __DATA.__data: 0x278
    __DATA.__bss: 0x38
 
+   - /System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E38491D-18C2-36FD-A5D4-63B737EE76AB
++  UUID: 2D8A4D5F-B593-3C30-9808-BD1B6EE94388
    Functions: 613
 -  Symbols:   2004
--  CStrings:  1109
+-  CStrings:  1425
 +  Symbols:   2005
-+  CStrings:  1112
++  CStrings:  1431
  
 Symbols:
 + -[MIPlaceholderConstructor _loadInfoPlistContentWithError:]

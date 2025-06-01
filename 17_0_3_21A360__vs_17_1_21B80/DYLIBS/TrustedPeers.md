@@ -35,12 +35,14 @@
    - /System/Library/PrivateFrameworks/SecurityFoundation.framework/SecurityFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7552B104-AD2A-37C7-BEEC-AFE48FDDB8BC
 -  Functions: 1070
 -  Symbols:   3367
--  CStrings:  1515
+-  CStrings:  1707
++  UUID: B9E22748-9138-3898-B190-7F39D1AA56CE
 +  Functions: 1071
 +  Symbols:   3369
-+  CStrings:  1516
++  CStrings:  1708
  
 Symbols:
 + -[TPModel doesOctagonContainsDistrustedRecoveryKeys]

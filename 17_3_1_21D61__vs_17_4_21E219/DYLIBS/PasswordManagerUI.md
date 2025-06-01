@@ -66,7 +66,6 @@
 -  __DATA_CONST.__objc_selrefs: 0xe10
 -  __AUTH_CONST.__objc_const: 0x120
 -  __AUTH_CONST.__const: 0xb4e0
--  __AUTH_CONST.__auth_ptr: 0x3c8
 -  __AUTH_CONST.__auth_got: 0x1a50
 -  __AUTH.__objc_data: 0x568
 -  __AUTH.__data: 0x950
@@ -82,7 +81,6 @@
 +  __AUTH_CONST.__const: 0xe1c0
 +  __AUTH_CONST.__cfstring: 0x2e0
 +  __AUTH_CONST.__objc_const: 0x1b0
-+  __AUTH_CONST.__auth_ptr: 0x480
 +  __AUTH_CONST.__auth_got: 0x1e20
 +  __AUTH.__objc_data: 0x9c8
 +  __AUTH.__data: 0x14d8
@@ -155,12 +153,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F67E80DC-B35D-3C59-A135-68DDF439A867
 -  Functions: 9059
 -  Symbols:   3383
 -  CStrings:  1558
++  UUID: 5561D418-1D95-3807-A859-1E572E51B62C
 +  Functions: 10634
 +  Symbols:   4438
-+  CStrings:  2130
++  CStrings:  2153
  
 Symbols:
 + -[PMAuthorizationViewController .cxx_destruct]
@@ -2699,6 +2699,7 @@ Symbols:
 - _symbolic ySSc
 - _symbolic ySbcSg
 CStrings:
++ ""
 + "\x04"
 + "\n"
 + "$__lazy_storage_$_accountsState"
@@ -2760,6 +2761,7 @@ CStrings:
 + "B40@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24@?<v@?@\"NSData\">32"
 + "B40@0:8@16@24@?32"
 + "Button label for presenting a sheet to create a new password."
++ "C"
 + "CNAutocompleteResultsTableViewControllerDelegate"
 + "CNAutocompleteSearchConsumer"
 + "CNComposeHeaderViewDelegate"
@@ -2825,6 +2827,7 @@ CStrings:
 + "Markdown-formatted information about password breach monitoring with an external link. (iPhone)"
 + "Menu item to select passwords from password list"
 + "Must take zero or more splits"
++ "N"
 + "Navigation bar title for picker view when adding a verification code"
 + "Navigation bar title for viewing a shared passwords group member detail view"
 + "No Credentials Found"
@@ -2901,6 +2904,7 @@ CStrings:
 + "Title of alert explaining QR code image import error when there was no valid QR code in the image"
 + "To:"
 + "Touch ID to View Saved Passwords"
++ "U"
 + "Unable to invite %@"
 + "Unable to invite contacts from this group."
 + "Unable to sign in"

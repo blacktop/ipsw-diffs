@@ -15,7 +15,6 @@
    __DATA_CONST.__objc_selrefs: 0x318
 -  __AUTH_CONST.__const: 0x17f0
 +  __AUTH_CONST.__const: 0x1900
-   __AUTH_CONST.__auth_ptr: 0x180
    __AUTH_CONST.__objc_const: 0x40
    __AUTH_CONST.__auth_got: 0x10b8
 -  __AUTH.__data: 0x178
@@ -41,6 +40,15 @@
    __DATA_DIRTY.__common: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 55E85DD1-43BB-3A18-8FDB-074A6CF0665B
++  UUID: 5576D172-8218-3DE0-9805-96E3C2E845CC
+   Functions: 2532
+   Symbols:   195
+   CStrings:  255
 CStrings:
 + "TipsNext/MiniTipHostingView+Deprecated (iOS, visionOS).swift"
 + "TipsNext/MiniTipUIView (iOS, visionOS).swift"

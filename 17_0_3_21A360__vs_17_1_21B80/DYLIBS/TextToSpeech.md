@@ -67,7 +67,6 @@
 -  __AUTH_CONST.__const: 0x1370
 +  __AUTH_CONST.__const: 0x1708
    __AUTH_CONST.__objc_dictobj: 0x190
-   __AUTH_CONST.__auth_ptr: 0xf8
 -  __AUTH_CONST.__auth_got: 0x1340
 +  __AUTH_CONST.__auth_got: 0x1370
    __AUTH.__objc_data: 0x50
@@ -105,12 +104,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE86D740-ECC5-35E6-91E4-A6E2FA18D3A5
 -  Functions: 5848
 -  Symbols:   1102
--  CStrings:  4130
+-  CStrings:  5011
++  UUID: 041DEB90-06E5-354C-81EF-F0C6DE88AD69
 +  Functions: 5877
 +  Symbols:   1107
-+  CStrings:  4155
++  CStrings:  5038
  
 Symbols:
 + _OBJC_CLASS_$_RBSAssertion

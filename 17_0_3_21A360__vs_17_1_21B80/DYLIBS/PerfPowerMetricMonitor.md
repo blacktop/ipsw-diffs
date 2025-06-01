@@ -71,12 +71,14 @@
 +  - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 445C8B04-7FF6-309E-8D0B-07AC70580917
 -  Functions: 148
 -  Symbols:   594
--  CStrings:  305
+-  CStrings:  317
++  UUID: DE1452EF-6D15-31E8-B144-DEEFF313CFA3
 +  Functions: 261
 +  Symbols:   970
-+  CStrings:  536
++  CStrings:  597
  
 Symbols:
 + +[PPSMetricCollection _metricSamplePropertyKeys]
@@ -382,6 +384,7 @@ CStrings:
 + "\x1d#"
 + "%d"
 + "%s called by client: %d interval: %@"
++ "-"
 + "-[PPSMetricMonitorService setUpdateInterval:completion:]"
 + "-[PPSMetricMonitorService updateWithMetricCollection:]"
 + "@\"NSDate\""

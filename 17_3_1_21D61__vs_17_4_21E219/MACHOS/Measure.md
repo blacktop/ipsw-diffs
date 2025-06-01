@@ -111,12 +111,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 748C6B61-CB9D-300A-8B49-16151B20D73F
 -  Functions: 13113
 -  Symbols:   1890
--  CStrings:  6184
+-  CStrings:  6188
++  UUID: B3FCB751-8879-38F8-8125-CF94D41F6F52
 +  Functions: 13109
 +  Symbols:   1903
-+  CStrings:  6185
++  CStrings:  6189
  
 Symbols:
 + _$s17MeasureFoundation0A11ObjectStateO7defaultACvpZ

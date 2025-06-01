@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A707DEC-6066-3912-B84D-9E699E2BB03E
 -  Functions: 5116
 -  Symbols:   18630
--  CStrings:  8204
+-  CStrings:  8802
++  UUID: 611930DD-9CB0-32E2-BC29-9DE171429E0E
 +  Functions: 5118
 +  Symbols:   18637
-+  CStrings:  8207
++  CStrings:  8805
  
 Symbols:
 + +[UISUISecurityScopedResource sandboxingURLWrapperWithFileURL:allowedAccess:]

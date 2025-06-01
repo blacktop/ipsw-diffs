@@ -25,4 +25,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
 
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E2F757DD-847F-3CD5-A39B-56C0181E52F2
++  UUID: E8A9A99E-4588-302A-B36A-74D7FF53FD04
+   Functions: 378
+   Symbols:   1182
+   CStrings:  893
+
 ```

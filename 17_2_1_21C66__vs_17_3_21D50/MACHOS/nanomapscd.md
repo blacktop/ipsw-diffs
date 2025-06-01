@@ -34,11 +34,13 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 99DC98AD-EA03-32DB-ACC3-2DB06A29900C
 -  Functions: 1948
++  UUID: 11A8CDC6-B3CA-32E0-9C38-2B25D7E70446
 +  Functions: 1947
    Symbols:   393
--  CStrings:  3639
-+  CStrings:  3638
+-  CStrings:  4215
++  CStrings:  4213
  
 CStrings:
 - "MapsIPCInterface Pinging connection to connection broker %@"

@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91763A2A-30CD-38D1-A84F-2AECCDA227F0
 -  Functions: 1288
 -  Symbols:   4569
--  CStrings:  1865
+-  CStrings:  2059
++  UUID: A8996B4E-2A6F-3AF0-BBDC-F48638FEC486
 +  Functions: 1301
 +  Symbols:   4605
-+  CStrings:  1880
++  CStrings:  2076
  
 Symbols:
 + -[LAClient _synchronousRemoteObjectProxy:performCall:].cold.1

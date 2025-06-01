@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0xa50
    __DATA.__data: 0x2a0
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E49FE629-85F1-3E05-AAE3-D6FDB3CEDAAA
++  UUID: 461F5A26-B168-3A6E-947E-28448D8C3C9F
    Functions: 270
    Symbols:   373
--  CStrings:  944
-+  CStrings:  943
+-  CStrings:  1014
++  CStrings:  1013
  
 Symbols:
 + _PLIsErrorSQLiteDiskFull

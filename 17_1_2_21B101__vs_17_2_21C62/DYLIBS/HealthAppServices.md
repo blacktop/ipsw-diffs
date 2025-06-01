@@ -43,12 +43,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AAFCCE43-EF1F-33B8-8BC8-F93A4EC3840A
 -  Functions: 670
 -  Symbols:   526
--  CStrings:  294
+-  CStrings:  344
++  UUID: B393B64E-D259-3292-8259-26C071AA2720
 +  Functions: 673
 +  Symbols:   533
-+  CStrings:  297
++  CStrings:  347
  
 Symbols:
 + -[HealthAppDataTypeDetailLinkBuilder standardBaseURLForObjectType:]

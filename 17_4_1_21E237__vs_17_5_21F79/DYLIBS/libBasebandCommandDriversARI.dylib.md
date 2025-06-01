@@ -20,6 +20,15 @@
    __DATA_DIRTY.__bss: 0xf0
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4F94D19A-85A1-3B11-9CC0-37AE7C845D55
++  UUID: BF90ABE3-A5E0-3A89-B73C-3E05710FBA04
+   Functions: 2136
+   Symbols:   6877
+   CStrings:  704
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
 + "AppleBasebandManager-AppleBasebandServices_Manager-1053"

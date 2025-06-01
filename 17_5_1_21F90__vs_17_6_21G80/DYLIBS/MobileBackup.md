@@ -43,12 +43,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F00404D0-5872-3864-8EA0-C320A6F73EAC
 -  Functions: 1886
 -  Symbols:   5922
--  CStrings:  4039
+-  CStrings:  4880
++  UUID: 8A3BFA1B-A265-3C50-A869-31E84C4531F8
 +  Functions: 1891
 +  Symbols:   5932
-+  CStrings:  4049
++  CStrings:  4895
  
 Symbols:
 + -[MBBehaviorOptions d2dTransferLargeFileBufferKilobytes]

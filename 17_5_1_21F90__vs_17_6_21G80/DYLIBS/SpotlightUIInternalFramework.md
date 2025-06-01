@@ -47,12 +47,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E3CAFCC-096C-38D3-A229-5E71DD660033
 -  Functions: 62
 -  Symbols:   339
--  CStrings:  198
+-  CStrings:  291
++  UUID: 13F403F7-272C-31C7-BF2E-9B601BC2A962
 +  Functions: 65
 +  Symbols:   348
-+  CStrings:  199
++  CStrings:  293
  
 Symbols:
 + GCC_except_table9

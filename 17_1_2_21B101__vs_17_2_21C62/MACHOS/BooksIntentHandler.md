@@ -18,5 +18,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
+-  UUID: 1BC88206-2317-3831-A201-D7EC3CCDE8B9
++  UUID: 5B15BC8A-3895-3159-8107-DAD6BDBE1741
+   Functions: 24
+   Symbols:   76
+   CStrings:  144
 
 ```

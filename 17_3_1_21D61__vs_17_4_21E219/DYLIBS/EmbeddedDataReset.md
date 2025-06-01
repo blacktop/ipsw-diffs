@@ -31,11 +31,15 @@
    __DATA.__data: 0x2a0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1B664AD-98DB-3258-B274-D35AAB6F000E
++  UUID: 7ABD8F57-249F-3690-8B5D-C70ADDADEE8D
    Functions: 62
    Symbols:   349
--  CStrings:  228
-+  CStrings:  229
+-  CStrings:  238
++  CStrings:  239
  
 Symbols:
 + ___41-[DDRResetService dataResetXPCConnection]_block_invoke.72

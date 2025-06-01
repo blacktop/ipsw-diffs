@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 16AE4ED7-EDAC-3DAA-BB36-E5060EB38DD7
 -  Functions: 7791
 -  Symbols:   24399
--  CStrings:  11525
+-  CStrings:  13342
++  UUID: 814A0509-67F5-3D28-9FC5-926C3D8D2A4E
 +  Functions: 7798
 +  Symbols:   24422
-+  CStrings:  11541
++  CStrings:  13362
  
 Symbols:
 + +[TUCallCenter isSimultaneousVoiceAndDataSupportedForDialRequest:]

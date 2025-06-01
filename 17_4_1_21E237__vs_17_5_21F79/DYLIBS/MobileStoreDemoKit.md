@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2CF9FFDE-873C-3E17-B50A-FE6B1D8FCA15
 -  Functions: 1028
 -  Symbols:   3491
--  CStrings:  2232
+-  CStrings:  2786
++  UUID: 4AD76695-6B5C-39EE-AAFD-394A32B534C0
 +  Functions: 1032
 +  Symbols:   3506
-+  CStrings:  2240
++  CStrings:  2795
  
 Symbols:
 + -[MSDKPeerDemoDevice buddyInProgress]

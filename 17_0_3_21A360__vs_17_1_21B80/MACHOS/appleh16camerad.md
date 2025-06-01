@@ -50,12 +50,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 792B6A02-E5E2-3B5E-877D-5A56D073D44E
 -  Functions: 1555
 -  Symbols:   797
--  CStrings:  1655
+-  CStrings:  2004
++  UUID: 12E8C103-6578-3B0B-B166-CCD183A30F2D
 +  Functions: 1564
 +  Symbols:   800
-+  CStrings:  1671
++  CStrings:  2020
  
 Symbols:
 + _OBJC_CLASS_$_ADFigCameraCalibrationSource

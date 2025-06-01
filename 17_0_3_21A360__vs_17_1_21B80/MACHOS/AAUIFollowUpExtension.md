@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E902C399-2B52-35F7-930D-22A0B1119373
 -  Functions: 120
 -  Symbols:   122
--  CStrings:  389
+-  CStrings:  416
++  UUID: 90B2C853-D58C-3097-B7D3-BD5E18FA9E86
 +  Functions: 125
 +  Symbols:   124
-+  CStrings:  375
++  CStrings:  403
  
 Symbols:
 + _AAFollowUpIdentifierRecoveryKeyMismatch

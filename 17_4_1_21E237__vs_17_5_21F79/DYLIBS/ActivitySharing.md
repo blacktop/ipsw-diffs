@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4AAB5F5A-5B26-3A8C-8CEF-67862789EB58
++  UUID: 52E371C8-B7E4-3859-A098-79534006CAEE
+   Functions: 1707
+   Symbols:   5255
+   CStrings:  2600
+
 ```

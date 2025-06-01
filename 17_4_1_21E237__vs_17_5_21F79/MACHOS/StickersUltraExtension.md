@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD8ADB21-FB45-3FCA-9E58-6AFD0EC2BD80
 -  Functions: 3173
++  UUID: B49B9E8B-80DF-3E53-8B39-7A7DDD0E6A48
 +  Functions: 3164
    Symbols:   383
--  CStrings:  1468
-+  CStrings:  1464
+-  CStrings:  1485
++  CStrings:  1481
  
 CStrings:
 - "Must take zero or more splits"

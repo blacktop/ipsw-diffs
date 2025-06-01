@@ -63,12 +63,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6AD1125C-BC68-3CA5-AD7C-BFBAF58BDAD9
 -  Functions: 860
 -  Symbols:   2516
--  CStrings:  1156
+-  CStrings:  1346
++  UUID: D352D8AC-879D-34F1-9D3C-154A3C098F07
 +  Functions: 869
 +  Symbols:   2550
-+  CStrings:  1173
++  CStrings:  1367
  
 Symbols:
 + +[DCPresentmentProposalReaderAnalytics supportsSecureCoding]

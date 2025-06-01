@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F79E2120-A657-31E9-BB15-58742046A8AC
 -  Functions: 624
 -  Symbols:   2697
--  CStrings:  1437
+-  CStrings:  1594
++  UUID: AAEC4CE4-B3AB-3D93-9F06-19525DE6BB8D
 +  Functions: 674
 +  Symbols:   2855
-+  CStrings:  1501
++  CStrings:  1663
  
 Symbols:
 + +[_AFUIQueuedOperations queuedOperationsWithSecureAppID:processID:textOperations:]

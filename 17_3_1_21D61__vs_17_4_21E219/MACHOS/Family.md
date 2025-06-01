@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/SpotlightUIInternal.framework/SpotlightUIInternal
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8B91F22-4E84-358F-9223-475962421299
++  UUID: CE8BC343-BDA7-3089-8CD9-7B7B72AE375A
    Functions: 46
    Symbols:   73
--  CStrings:  295
-+  CStrings:  296
+-  CStrings:  304
++  CStrings:  305
  
 CStrings:
 + "T@\"NSString\",?,R,C"

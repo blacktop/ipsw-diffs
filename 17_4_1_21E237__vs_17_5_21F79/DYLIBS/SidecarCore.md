@@ -1,0 +1,135 @@
+## SidecarCore
+
+> `/System/Library/PrivateFrameworks/SidecarCore.framework/SidecarCore`
+
+```diff
+
+-315.105.0.0.0
++315.201.0.0.0
+   __TEXT.__text: 0x13bd4
+   __TEXT.__auth_stubs: 0x640
+   __TEXT.__objc_methlist: 0x1320
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 13D5FA7F-CC11-37D0-9DF5-6AA2D9D96557
++  UUID: 3A32F684-1BBA-3E39-84B5-A0B8B3BA0FB9
+   Functions: 600
+   Symbols:   2101
+   CStrings:  1112
+Symbols:
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1194
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1319
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.486
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1195
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1320
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.487
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1196
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1321
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.488
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SidecarCore_Interface.756
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SidecarSessionDelegate.297
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1197
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1322
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.489
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1198
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1323
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.490
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SidecarCore_Interface.757
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SidecarSessionDelegate.298
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1199
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1324
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.491
++ ___Block_byref_object_copy_.118
++ ___Block_byref_object_copy_.180
++ ___Block_byref_object_copy_.473
++ ___Block_byref_object_copy_.683
++ ___Block_byref_object_copy_.859
++ ___Block_byref_object_dispose_.119
++ ___Block_byref_object_dispose_.181
++ ___Block_byref_object_dispose_.474
++ ___Block_byref_object_dispose_.684
++ ___Block_byref_object_dispose_.860
++ ___block_literal_global.1004
++ ___block_literal_global.1035
++ ___block_literal_global.120
++ ___block_literal_global.169
++ ___block_literal_global.287
++ ___block_literal_global.319
++ ___block_literal_global.4.479
++ ___block_literal_global.472
++ ___block_literal_global.584
++ ___block_literal_global.593
++ ___block_literal_global.67
++ ___block_literal_global.742
++ ___block_literal_global.762
++ ___block_literal_global.778
++ ___block_literal_global.879
++ ___block_literal_global.930
++ _defaultProxy.once.741
++ _defaultProxy.proxy.743
++ _returnTypes.once.1003
++ _returnTypes.once.318
++ _returnTypes.once.583
++ _returnTypes.types.1005
++ _returnTypes.types.320
++ _returnTypes.types.585
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1193
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1318
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.487
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1194
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1319
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.488
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1195
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1320
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.489
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SidecarCore_Interface.758
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SidecarSessionDelegate.296
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1196
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1321
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.490
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1197
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1322
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.491
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SidecarCore_Interface.759
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SidecarSessionDelegate.297
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1198
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1323
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.492
+- ___Block_byref_object_copy_.120
+- ___Block_byref_object_copy_.185
+- ___Block_byref_object_copy_.474
+- ___Block_byref_object_copy_.685
+- ___Block_byref_object_copy_.860
+- ___Block_byref_object_dispose_.121
+- ___Block_byref_object_dispose_.186
+- ___Block_byref_object_dispose_.475
+- ___Block_byref_object_dispose_.686
+- ___Block_byref_object_dispose_.861
+- ___block_literal_global.1003
+- ___block_literal_global.1034
+- ___block_literal_global.122
+- ___block_literal_global.174
+- ___block_literal_global.286
+- ___block_literal_global.318
+- ___block_literal_global.4.480
+- ___block_literal_global.473
+- ___block_literal_global.585
+- ___block_literal_global.594
+- ___block_literal_global.72
+- ___block_literal_global.744
+- ___block_literal_global.764
+- ___block_literal_global.780
+- ___block_literal_global.880
+- ___block_literal_global.931
+- _defaultProxy.once.743
+- _defaultProxy.proxy.745
+- _returnTypes.once.1002
+- _returnTypes.once.317
+- _returnTypes.once.584
+- _returnTypes.types.1004
+- _returnTypes.types.319
+- _returnTypes.types.586
+
+```

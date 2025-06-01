@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D296992D-2988-3A97-9F8F-59F24DC04958
 -  Functions: 593
 -  Symbols:   2242
--  CStrings:  1157
+-  CStrings:  1330
++  UUID: FF3B3EFB-9291-3D7D-B4E4-86125570888E
 +  Functions: 613
 +  Symbols:   2294
-+  CStrings:  1177
++  CStrings:  1350
  
 Symbols:
 + -[ACAccount(Seeding) fetchCredentialTokenWithCompletion:]

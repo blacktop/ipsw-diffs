@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E87156C7-E792-3341-AE1E-4F16B41F71F2
 -  Functions: 447
 -  Symbols:   272
--  CStrings:  1423
+-  CStrings:  1477
++  UUID: BA835E9A-C9B4-3A77-91D5-ADB955151CBD
 +  Functions: 452
 +  Symbols:   270
-+  CStrings:  1471
++  CStrings:  1525
  
 Symbols:
 + _UIFontWeightBold

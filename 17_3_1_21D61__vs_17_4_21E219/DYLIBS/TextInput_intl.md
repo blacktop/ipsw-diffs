@@ -26,4 +26,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 565E1449-1DB0-356C-9B58-676F666C9EB4
++  UUID: 6CCC0DA7-708D-358D-B963-CA6AEA1156C1
+   Functions: 30
+   Symbols:   170
+   CStrings:  95
+
 ```

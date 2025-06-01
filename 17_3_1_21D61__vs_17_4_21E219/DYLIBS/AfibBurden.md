@@ -45,11 +45,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6DF908A4-9802-3D41-90CE-7D345CF60A9A
 -  Functions: 606
 -  Symbols:   1734
++  UUID: 118D9434-E02D-3D4C-BAAC-7B0A7E2BE6F0
 +  Functions: 609
 +  Symbols:   1735
-   CStrings:  415
+   CStrings:  430
  
 Symbols:
 + GCC_except_table100

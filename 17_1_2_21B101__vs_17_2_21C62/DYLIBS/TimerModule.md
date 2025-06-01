@@ -38,12 +38,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF37612B-33F3-3E0D-A824-EF629675568C
 -  Functions: 169
 -  Symbols:   131
--  CStrings:  487
+-  CStrings:  504
++  UUID: 35F77A93-B554-3609-85EC-05F20A3AA19A
 +  Functions: 170
 +  Symbols:   132
-+  CStrings:  489
++  CStrings:  506
  
 Symbols:
 + _UIFontTextStyleHeadline

@@ -17,4 +17,13 @@
    __DATA_CONST.__const: 0x280
    __AUTH_CONST.__cfstring: 0x340
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+-  UUID: B341C7F4-7168-39C7-800F-8D4C47035166
++  UUID: 466983B2-3917-3DD1-BDF7-9DC64A4BD735
+   Functions: 178
+   Symbols:   270
+   CStrings:  602
+
 ```

@@ -28,7 +28,6 @@
    __DATA_CONST.__objc_selrefs: 0x20
 +  __DATA_CONST.__objc_classrefs: 0x8
    __AUTH_CONST.__const: 0xa00
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x398
 +  __AUTH_CONST.__auth_got: 0x390
    __AUTH.__data: 0x8
@@ -38,8 +37,11 @@
    __DATA.__crash_info: 0x40
    __DATA.__bss: 0x18
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2D342200-E527-3557-B622-51CE5899945C
++  UUID: 2937222B-2B3E-3DEF-BB47-438FFD60C924
    Functions: 364
 -  Symbols:   161
 -  CStrings:  152

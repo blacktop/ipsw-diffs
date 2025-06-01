@@ -25,12 +25,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8E29C4D-422F-3C42-8BC1-E8534F4F84E4
 -  Functions: 194
 -  Symbols:   233
--  CStrings:  124
+-  CStrings:  179
++  UUID: DC8D1009-3E44-3147-BD1C-2E1A04DF0219
 +  Functions: 197
 +  Symbols:   235
-+  CStrings:  125
++  CStrings:  180
  
 Symbols:
 + __ZN19IOHIDKeyboardFilter11canRemapKeyE3KeyPKv

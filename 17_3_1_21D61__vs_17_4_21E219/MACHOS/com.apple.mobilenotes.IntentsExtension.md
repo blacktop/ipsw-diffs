@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x6a0
    __DATA.__data: 0x550
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: C10E207C-5C58-349F-9F90-465AB6F596FE
++  UUID: 5942B232-2DBE-3ED7-8DC4-3D71F4291237
    Functions: 298
    Symbols:   280
--  CStrings:  883
-+  CStrings:  885
+-  CStrings:  933
++  CStrings:  935
  
 CStrings:
 + "T@\"CSSearchableItemAttributeSet\",?,R"

@@ -49,7 +49,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x2e0
    __DATA_CONST.__objc_arraydata: 0x300
    __AUTH_CONST.__const: 0x16b8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__cfstring: 0x37a0
 -  __AUTH_CONST.__objc_const: 0x49f8
 +  __AUTH_CONST.__objc_const: 0x4a88
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C0F11F12-7E83-300F-9AC3-25BBAFD059D2
 -  Functions: 4327
 -  Symbols:   12183
--  CStrings:  4644
+-  CStrings:  5089
++  UUID: 1A3E5C97-8541-3669-AE47-B5B9BC0C4753
 +  Functions: 4332
 +  Symbols:   12194
-+  CStrings:  4647
++  CStrings:  5092
  
 Symbols:
 + +[STUIStatusBarVisualProvider_RoundierPad edgeInsets]

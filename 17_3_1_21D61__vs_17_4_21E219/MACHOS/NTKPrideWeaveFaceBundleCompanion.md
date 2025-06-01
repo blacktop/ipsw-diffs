@@ -28,4 +28,13 @@
    __DATA.__objc_data: 0x960
    __DATA.__data: 0x118
 
+   - /System/Library/PrivateFrameworks/PhysicsKit.framework/PhysicsKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F20D7FB3-538B-3790-83B5-C8C72FEA584B
++  UUID: 74E889D7-0D11-3495-B61A-C8ECA81F4B53
+   Functions: 618
+   Symbols:   281
+   CStrings:  1063
+
 ```

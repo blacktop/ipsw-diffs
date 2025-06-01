@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0x1100
    __AUTH_CONST.__objc_dictobj: 0x4d58
-   __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__const: 0xfc8
    __AUTH_CONST.__objc_floatobj: 0xc0
 -  __AUTH_CONST.__auth_got: 0xbe8
@@ -67,12 +66,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A8B763D3-9039-3221-A032-C0FA225BD8B9
 -  Functions: 6155
 -  Symbols:   764
--  CStrings:  4431
+-  CStrings:  7503
++  UUID: 638BE874-1690-3F2F-9AB7-9E750F924459
 +  Functions: 6539
 +  Symbols:   773
-+  CStrings:  4415
++  CStrings:  7488
  
 Symbols:
 + _CFDataCreate

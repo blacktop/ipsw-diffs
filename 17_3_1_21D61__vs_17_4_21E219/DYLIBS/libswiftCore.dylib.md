@@ -60,10 +60,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x40
 +  __AUTH_CONST.__const: 0x146d8
    __AUTH_CONST.__objc_const: 0x14f0
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__auth_got: 0x5a0
 -  __AUTH.__data: 0xdb70
-+  __AUTH_CONST.__auth_ptr: 0x40
 +  __AUTH_CONST.__auth_got: 0x5e8
 +  __AUTH.__data: 0xdbf0
    __AUTH.__objc_data: 0x2d0
@@ -90,9 +88,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 496D989C-D1D9-3DB8-BA7C-8F2D16215C1D
 -  Functions: 25029
 -  Symbols:   52407
 -  CStrings:  2587
++  UUID: EA723E3D-1906-3DAC-A7E9-E108052DFCAA
 +  Functions: 24759
 +  Symbols:   52093
 +  CStrings:  2599

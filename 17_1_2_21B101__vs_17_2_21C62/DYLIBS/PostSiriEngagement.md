@@ -55,10 +55,8 @@
 +  __AUTH_CONST.__const: 0x1bc0
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_const: 0x90
--  __AUTH_CONST.__auth_ptr: 0xf0
 -  __AUTH_CONST.__auth_got: 0xc40
 -  __AUTH.__data: 0x1a98
-+  __AUTH_CONST.__auth_ptr: 0xf8
 +  __AUTH_CONST.__auth_got: 0xc48
 +  __AUTH.__data: 0x1b88
    __AUTH.__objc_data: 0x1e0
@@ -79,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B95F38F9-8AC9-3BA6-9BF1-32BF96E346ED
 -  Functions: 2332
 -  Symbols:   5804
--  CStrings:  513
+-  CStrings:  517
++  UUID: C1864A73-9742-3F3B-80B9-306BACFC9549
 +  Functions: 2365
 +  Symbols:   5866
-+  CStrings:  523
++  CStrings:  527
  
 Symbols:
 + _$s18PostSiriEngagement0abC16MetricsCollectorC10identifierACSS_tcfcTf4gn_n

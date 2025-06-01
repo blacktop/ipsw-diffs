@@ -63,7 +63,6 @@
 -  __DATA_CONST.__objc_selrefs: 0xc98
 -  __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0x17a0
--  __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__objc_intobj: 0xc0
 -  __AUTH_CONST.__const: 0x418
 -  __AUTH_CONST.__auth_got: 0xb88
@@ -87,7 +86,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x128
 +  __AUTH_CONST.__objc_const: 0x120
 +  __AUTH_CONST.__cfstring: 0x1880
-+  __AUTH_CONST.__auth_ptr: 0xf8
 +  __AUTH_CONST.__objc_intobj: 0xd8
 +  __AUTH_CONST.__const: 0x16c8
 +  __AUTH_CONST.__auth_got: 0x1020
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2CB72890-1153-3BBB-BB19-79D4CA1B758E
 -  Functions: 1351
 -  Symbols:   4470
--  CStrings:  1147
+-  CStrings:  1336
++  UUID: 3BA54D19-3740-32E7-BB7D-C6A040979B19
 +  Functions: 2796
 +  Symbols:   8721
-+  CStrings:  1421
++  CStrings:  1617
  
 Symbols:
 + +[NGMFullPrekey hasSEP]

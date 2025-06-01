@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A5B84E6-281F-3E34-AAE3-15D9010BE1B0
 -  Functions: 1621
 -  Symbols:   5791
--  CStrings:  2294
+-  CStrings:  2629
++  UUID: 9D0A8971-EF11-3CB1-87EE-59252AE700ED
 +  Functions: 1656
 +  Symbols:   5903
-+  CStrings:  2365
++  CStrings:  2736
  
 Symbols:
 + -[GTBulkDataServiceXPCProxy respondsToSelector:]

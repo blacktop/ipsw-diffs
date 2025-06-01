@@ -20,11 +20,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53299020-9AD9-3148-AECE-8CF37EF41D7B
 -  Functions: 53
++  UUID: C59941BE-74D7-33EA-AEE9-8D2D2B543B80
 +  Functions: 54
    Symbols:   58
--  CStrings:  121
-+  CStrings:  123
+-  CStrings:  141
++  CStrings:  143
  
 CStrings:
 + "writing key %s to sz %d value %x %x\n"

@@ -31,6 +31,15 @@
    __DATA.__bss: 0x280
    __DATA.__common: 0x30
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6ED7D4CB-88E6-3520-9E98-364756FD0524
++  UUID: 64AFDC64-D9E4-3949-9303-9DE4788BC2F9
+   Functions: 60
+   Symbols:   64
+   CStrings:  20
 Symbols:
 + _objc_release_x28
 - _objc_release_x25

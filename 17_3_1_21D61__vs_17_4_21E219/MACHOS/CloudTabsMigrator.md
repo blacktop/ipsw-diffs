@@ -33,13 +33,16 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 461085CB-5E70-3810-9A5C-F6ECF81EC9B1
++  UUID: 006DAF5B-301E-30E9-A912-71F5744123FB
    Functions: 3
 -  Symbols:   25
--  CStrings:  21
+-  CStrings:  25
 +  Symbols:   77
-+  CStrings:  71
++  CStrings:  125
  
 Symbols:
 + _SafariStorageSettingsControllerDataSourceClassName

@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 19E681F0-6CD0-3FFC-9486-2FF2DFD95933
 -  Functions: 2327
 -  Symbols:   4429
--  CStrings:  1406
+-  CStrings:  1842
++  UUID: 6CF2670E-3142-3ECA-814D-12F63DAB5CE0
 +  Functions: 2326
 +  Symbols:   4426
-+  CStrings:  1402
++  CStrings:  1838
  
 Symbols:
 + __PROTOCOLS__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit.15

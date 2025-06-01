@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05A6D599-F037-3042-8513-EA2F2DAC3DEE
 -  Functions: 390
 -  Symbols:   1538
--  CStrings:  1123
+-  CStrings:  1397
++  UUID: 63B482C8-4688-3286-B5A3-6FEBCD5597A5
 +  Functions: 391
 +  Symbols:   1541
-+  CStrings:  1125
++  CStrings:  1400
  
 Symbols:
 + -[SUControllerManager _connectToServer]

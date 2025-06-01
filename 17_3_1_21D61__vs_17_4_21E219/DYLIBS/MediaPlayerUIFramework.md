@@ -25,6 +25,15 @@
    __DATA_DIRTY.__objc_data: 0x2d0
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9C8E8A82-2F20-3918-A29C-4B99ACA02532
++  UUID: F288D4F2-762D-363D-9D36-5FB9CE9371F4
+   Functions: 31
+   Symbols:   172
+   CStrings:  102
 Symbols:
 + ___block_literal_global.238
 + ___block_literal_global.240

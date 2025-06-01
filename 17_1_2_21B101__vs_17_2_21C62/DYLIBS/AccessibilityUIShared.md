@@ -21,12 +21,15 @@
    __DATA_CONST.__const: 0x210
    __DATA_CONST.__objc_classlist: 0x20
 
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3F30196-507A-3260-9804-CEE421C16C2B
++  UUID: 157DB1E1-146F-38C7-A655-6447F240D626
    Functions: 64
 -  Symbols:   360
 +  Symbols:   361
-   CStrings:  207
+   CStrings:  225
  
 Symbols:
 + _objc_msgSend$isEqual:

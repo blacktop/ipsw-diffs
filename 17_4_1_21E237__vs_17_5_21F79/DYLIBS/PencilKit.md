@@ -60,14 +60,13 @@
 -  __DATA_CONST.__objc_superrefs: 0xa20
 -  __DATA_CONST.__objc_arraydata: 0x790
 -  __AUTH_CONST.__const: 0x4c90
+-  __AUTH_CONST.__objc_const: 0x8b50
+-  __AUTH_CONST.__cfstring: 0xbbc0
+-  __AUTH_CONST.__objc_intobj: 0x750
 +  __DATA_CONST.__objc_classrefs: 0x13f8
 +  __DATA_CONST.__objc_superrefs: 0xb60
 +  __DATA_CONST.__objc_arraydata: 0x7a0
 +  __AUTH_CONST.__const: 0x5080
-   __AUTH_CONST.__auth_ptr: 0x18
--  __AUTH_CONST.__objc_const: 0x8b50
--  __AUTH_CONST.__cfstring: 0xbbc0
--  __AUTH_CONST.__objc_intobj: 0x750
 +  __AUTH_CONST.__objc_const: 0x9768
 +  __AUTH_CONST.__cfstring: 0xc700
 +  __AUTH_CONST.__objc_intobj: 0x888
@@ -108,12 +107,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D546EBC9-08F2-3979-BA7E-E2D2E2C198AF
 -  Functions: 13931
 -  Symbols:   44054
--  CStrings:  16919
+-  CStrings:  18421
++  UUID: 2E7A2B9C-AD01-3268-9CDC-298D6C2AFE18
 +  Functions: 14717
 +  Symbols:   46748
-+  CStrings:  17953
++  CStrings:  19545
  
 Symbols:
 + +[PKAngularOpacitySlider _layoutGradientMaskLayer:frame:isReversed:]

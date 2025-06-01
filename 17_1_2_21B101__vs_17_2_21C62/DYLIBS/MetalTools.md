@@ -51,12 +51,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9964138B-1236-344D-9A39-A7CB0EB4687E
 -  Functions: 4792
 -  Symbols:   14967
--  CStrings:  6797
+-  CStrings:  8151
++  UUID: 46953174-01B7-37B1-A0B0-C6404691DD6E
 +  Functions: 4805
 +  Symbols:   14999
-+  CStrings:  6804
++  CStrings:  8158
  
 Symbols:
 + -[MTLCountersDevice areWritableHeapsEnabled]

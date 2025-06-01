@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8D8FE06F-B332-3D31-B98A-09C588C40D59
++  UUID: 4AF24D32-923F-3EE3-82A6-72A234B3F099
    Functions: 23
    Symbols:   109
--  CStrings:  113
-+  CStrings:  114
+-  CStrings:  131
++  CStrings:  132
  
 CStrings:
 + "setNeedsDeferredReindexingForGUIDs:"

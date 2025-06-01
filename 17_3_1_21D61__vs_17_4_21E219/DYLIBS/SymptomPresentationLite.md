@@ -26,5 +26,13 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__data: 0x60
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CC4B87D5-1485-3BC4-A7E3-5D8B0798771A
++  UUID: FB13082B-024B-34DD-A8E1-1892CDFD455C
+   Functions: 9
+   Symbols:   258
+   CStrings:  448
 
 ```

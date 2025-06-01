@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96DABC84-4B11-3B03-BE17-A6F964851EC9
 -  Functions: 33
 -  Symbols:   93
--  CStrings:  192
+-  CStrings:  205
++  UUID: A4B8D9C7-28B6-36E2-A33E-F18048B254B3
 +  Functions: 32
 +  Symbols:   82
-+  CStrings:  181
++  CStrings:  186
  
 Symbols:
 + _objc_retain_x24

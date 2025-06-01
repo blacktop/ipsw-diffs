@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/iTunesStoreUI.framework/iTunesStoreUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A1E1422-7888-3B6E-BF51-A8AEA56DF927
++  UUID: 0CDB04CD-C33D-3183-B67F-24F8B86E48A9
    Functions: 92
    Symbols:   144
--  CStrings:  541
-+  CStrings:  542
+-  CStrings:  612
++  CStrings:  613
  
 CStrings:
 + "T@\"NSString\",?,R,C"

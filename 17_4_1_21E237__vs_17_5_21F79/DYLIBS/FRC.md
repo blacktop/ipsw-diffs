@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8754FDAF-625C-33E2-8B5D-3C2F1442E22F
++  UUID: 11E0FDF4-D7C4-3C2A-8832-75644A585D66
+   Functions: 910
+   Symbols:   3485
+   CStrings:  2657
+
 ```

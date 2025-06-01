@@ -75,12 +75,14 @@
 +  - /usr/lib/libmrc.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B770DD3-8180-32F5-8EDB-95144C823039
 -  Functions: 2283
 -  Symbols:   743
--  CStrings:  7926
+-  CStrings:  9234
++  UUID: DB2809CB-A7E8-352E-9086-3DB5A5C554E6
 +  Functions: 2433
 +  Symbols:   758
-+  CStrings:  8009
++  CStrings:  9320
  
 Symbols:
 + _NEVirtualInterfaceGetIndex

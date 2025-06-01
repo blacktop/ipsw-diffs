@@ -60,13 +60,16 @@
    __DATA.__thread_bss: 0x1050
    __DATA.__common: 0x2d
 
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 96B7B48B-7630-35E3-8B5D-E44273075269
++  UUID: FD6FD753-E124-3447-B5E1-7C06DB482FC1
    Functions: 5616
 -  Symbols:   33874
--  CStrings:  6767
+-  CStrings:  7167
 +  Symbols:   33855
-+  CStrings:  6752
++  CStrings:  7152
  
 Symbols:
 + DEVICEOBJECT.10187

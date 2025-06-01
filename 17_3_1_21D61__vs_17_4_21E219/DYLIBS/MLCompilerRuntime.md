@@ -22,7 +22,6 @@
    __DATA_CONST.__got: 0x88
    __DATA_CONST.__const: 0x148
    __AUTH_CONST.__const: 0x1310
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x3e8
 +  __AUTH_CONST.__auth_got: 0x3d8
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
@@ -31,9 +30,11 @@
    - /System/Library/PrivateFrameworks/MLCompilerRuntime.framework/Libraries/libmlc_rt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: F24DDAE3-4A6D-33CB-9626-442C804BE0D9
 -  Functions: 959
 -  Symbols:   199
 -  CStrings:  273
++  UUID: A3059263-EF4D-395A-B861-7DBD0DDC5489
 +  Functions: 957
 +  Symbols:   197
 +  CStrings:  271

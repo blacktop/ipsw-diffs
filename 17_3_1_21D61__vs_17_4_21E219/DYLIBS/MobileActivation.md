@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 473F5E08-3608-3D88-A2F6-4AAA13B3BC3B
 -  Functions: 225
 -  Symbols:   739
--  CStrings:  481
+-  CStrings:  719
++  UUID: DB81779D-EE9B-3B2C-B0A8-551E9B2DB6ED
 +  Functions: 226
 +  Symbols:   744
-+  CStrings:  491
++  CStrings:  737
  
 Symbols:
 + _X509ExtensionParseCertifiedChipIntermediate

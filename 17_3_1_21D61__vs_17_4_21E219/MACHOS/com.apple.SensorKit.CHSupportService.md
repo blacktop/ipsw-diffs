@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/CognitiveHealth.framework/CognitiveHealth
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 62EF7F3A-EB59-3885-9807-956819A7C7C1
++  UUID: B29C7833-AD79-3B2C-80C7-E918AC454056
    Functions: 36
    Symbols:   48
--  CStrings:  162
-+  CStrings:  163
+-  CStrings:  195
++  CStrings:  196
  
 CStrings:
 + "T@\"NSString\",?,R,C"

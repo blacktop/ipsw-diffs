@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D59FEAEC-749D-334E-8EEB-D2E772BF8D14
 -  Functions: 8516
++  UUID: B6A1BC28-7BC5-3ADB-822B-E0895FA6758A
 +  Functions: 8517
    Symbols:   1560
--  CStrings:  10289
-+  CStrings:  10295
+-  CStrings:  11917
++  CStrings:  11925
  
 CStrings:
 + "GKAccountService _fetchLoginDisabledWithHandler: Suppressing full screen sign in sheet"

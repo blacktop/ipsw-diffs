@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 85F287D2-72F7-3A97-B9FE-7BC0B3616049
++  UUID: E635BAC3-34DA-32C4-A475-F88729ACC394
+   Functions: 12
+   Symbols:   55
+   CStrings:  38
+
 ```

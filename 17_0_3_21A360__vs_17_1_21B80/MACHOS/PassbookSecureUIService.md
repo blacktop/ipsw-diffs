@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0x2d0
    __DATA_CONST.__cfstring: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SEService.framework/SEService
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4C739EA9-E192-3C40-B9C9-7002E4F43F8E
++  UUID: 27F561B4-18E5-3021-BB9A-4EC89A8D5ABE
    Functions: 73
 -  Symbols:   127
 +  Symbols:   128
-   CStrings:  494
+   CStrings:  509
  
 Symbols:
 + _PKApplyDefaultIconToAlertController

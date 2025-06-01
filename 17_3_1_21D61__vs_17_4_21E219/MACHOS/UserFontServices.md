@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/FontServices.framework/libGSFont.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 963A025A-91C1-3787-B0DD-8ECAD63E05ED
++  UUID: 82BE43A0-CFCB-3183-B8E9-AC0E798BC83B
    Functions: 12
    Symbols:   62
--  CStrings:  82
-+  CStrings:  83
+-  CStrings:  87
++  CStrings:  88
  
 CStrings:
 + "T@\"NSString\",?,R,C"

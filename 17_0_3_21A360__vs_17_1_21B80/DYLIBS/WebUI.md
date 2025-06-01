@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A6B4EC59-0CA1-3A95-92D2-B5059DD0B94F
 -  Functions: 341
 -  Symbols:   1683
--  CStrings:  1047
+-  CStrings:  1133
++  UUID: AA57DE83-9897-3D09-B9A4-97D8D36E706C
 +  Functions: 329
 +  Symbols:   1634
-+  CStrings:  1026
++  CStrings:  1112
  
 Symbols:
 + -[WBUFeatureManager _primaryAppleAccountChanged]

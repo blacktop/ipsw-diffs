@@ -30,11 +30,15 @@
    __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__objc_arrayobj: 0x888
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DC2C21D9-CDA7-3723-8FFF-794A5EBD6CA9
++  UUID: 3FE69483-EE4A-3288-89BB-0D145910344A
    Functions: 161
    Symbols:   829
--  CStrings:  678
-+  CStrings:  680
+-  CStrings:  1072
++  CStrings:  1076
  
 CStrings:
 + "com.apple.Memoji"

@@ -10,8 +10,8 @@
    __TEXT.__auth_stubs: 0xe40
    __TEXT.__objc_methlist: 0x35c8
 
+   __AUTH_CONST.__const: 0x4650
    __AUTH_CONST.__objc_const: 0x1300
-   __AUTH_CONST.__auth_ptr: 0x288
    __AUTH_CONST.__auth_got: 0x720
 -  __AUTH.__data: 0x2740
 -  __AUTH.__objc_data: 0xd1a8
@@ -28,5 +28,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CarAccessoryFramework.framework/CarAccessoryFramework
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BBC4353B-02B2-3C12-9981-7FF336B48771
++  UUID: 6C19CC77-7D68-3764-BDA3-C52D8DE00928
+   Functions: 16113
+   Symbols:   34698
+   CStrings:  1837
 
 ```

@@ -34,11 +34,15 @@
    __DATA.__bss: 0x38
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F89D22FA-DF76-31CF-B176-EAAB35576A9D
++  UUID: A9ADBDFF-B2E6-39AD-A08F-AA5A50B1FBCE
    Functions: 55
    Symbols:   458
--  CStrings:  256
-+  CStrings:  257
+-  CStrings:  284
++  CStrings:  285
  
 CStrings:
 + "T@\"NSString\",?,R,C"

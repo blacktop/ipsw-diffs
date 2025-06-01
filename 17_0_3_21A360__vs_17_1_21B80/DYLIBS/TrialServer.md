@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9AC78B4D-DCE6-39E1-BAB7-3C023616B50D
 -  Functions: 4657
 -  Symbols:   16547
--  CStrings:  8315
+-  CStrings:  9987
++  UUID: A6AB02AB-6240-34B3-876D-6D655886D99B
 +  Functions: 4661
 +  Symbols:   16564
-+  CStrings:  8332
++  CStrings:  10005
  
 Symbols:
 + +[TRISQLiteMAAutoAsset setPaths:]

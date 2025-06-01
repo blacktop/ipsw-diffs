@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_dictobj: 0x488
    __AUTH_CONST.__objc_doubleobj: 0x100
    __AUTH_CONST.__objc_arrayobj: 0x600
-   __AUTH_CONST.__auth_ptr: 0x70
 -  __AUTH_CONST.__auth_got: 0x1298
 +  __AUTH_CONST.__auth_got: 0x1280
    __AUTH.__objc_data: 0xcc78
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: CF75BA87-7DDC-3166-8F41-996ED911E23B
 -  Functions: 18429
 -  Symbols:   52783
--  CStrings:  21084
+-  CStrings:  26894
++  UUID: 4E3341E7-72B1-366C-A3B6-567D441A80F3
 +  Functions: 18427
 +  Symbols:   52784
-+  CStrings:  21102
++  CStrings:  26914
  
 Symbols:
 + -[HKPersistentTimer elapsedMilliSeconds]

@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4E86309D-1549-3D7B-87C8-58681090D77F
 -  Functions: 3579
++  UUID: 06080419-002A-397E-A4D9-F318B3CA1A86
 +  Functions: 3584
    Symbols:   489
--  CStrings:  3134
-+  CStrings:  3144
+-  CStrings:  3356
++  CStrings:  3367
  
 CStrings:
 + "-[ICSharingExtensionItemExtractor extractMediaFileURLWithProvider:contentType:completion:]_block_invoke_2"

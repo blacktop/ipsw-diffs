@@ -41,15 +41,18 @@
 +  __AUTH_CONST.__cfstring: 0x1f60
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__const: 0x560
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 202E1A34-19A9-32AA-91B2-D83151D0A95A
++  UUID: 9795B853-FC3E-3EB9-8DB3-2ED362C040EB
    Functions: 1062
 -  Symbols:   2175
--  CStrings:  1117
+-  CStrings:  1366
 +  Symbols:   2177
-+  CStrings:  1119
++  CStrings:  1370
  
 Symbols:
 + _FLUserInfoPropertyCoalescedGroupFooterText

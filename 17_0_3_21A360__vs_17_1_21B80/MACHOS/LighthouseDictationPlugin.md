@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0x48
    __DATA.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6DA7F6CB-EF85-3D35-B016-660F42C50F2B
++  UUID: 20BCDEF8-3CBE-3BDB-BE7C-E8137EFE8962
    Functions: 105
 -  Symbols:   1240
--  CStrings:  679
+-  CStrings:  891
 +  Symbols:   1238
-+  CStrings:  678
++  CStrings:  889
  
 Symbols:
 + __78-[LighthouseDictationPlugin performSystematicErrorEvaluation:recordSet:error:]_block_invoke.208

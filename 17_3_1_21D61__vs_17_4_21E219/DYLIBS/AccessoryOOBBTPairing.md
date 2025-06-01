@@ -37,11 +37,15 @@
    __DATA.__data: 0x218
    __DATA.__common: 0x1c
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 156D088D-2A58-3B74-AF38-044F99271C63
++  UUID: 04D1F27B-B35F-36BF-A3DD-3CEEA806C7B1
    Functions: 104
    Symbols:   401
--  CStrings:  223
-+  CStrings:  224
+-  CStrings:  246
++  CStrings:  247
  
 Symbols:
 + ___42-[ACCOOBBTPairingProvider connectToServer]_block_invoke.95

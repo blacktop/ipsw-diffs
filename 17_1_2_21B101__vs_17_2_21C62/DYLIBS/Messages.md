@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CA007AC4-1348-384A-A872-BD6A0149F895
 -  Functions: 1292
 -  Symbols:   4474
--  CStrings:  2127
+-  CStrings:  2294
++  UUID: DF58B049-1794-3BC7-B20A-92F405877738
 +  Functions: 1291
 +  Symbols:   4478
-+  CStrings:  2145
++  CStrings:  2311
  
 Symbols:
 + -[MSConversation _insertSticker:skipShelf:frameInWindowCoordinates:completionHandler:]

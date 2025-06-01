@@ -82,12 +82,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEB56BD4-5737-34ED-A0E7-D3B06F7B15A0
 -  Functions: 11921
 -  Symbols:   40352
--  CStrings:  20504
+-  CStrings:  23744
++  UUID: 22B190D4-8BD3-3754-9246-36A1128679C8
 +  Functions: 11926
 +  Symbols:   40371
-+  CStrings:  20539
++  CStrings:  23782
  
 Symbols:
 + +[MKIncidentDetailCell lastUpdateDisplayString:]

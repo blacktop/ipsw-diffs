@@ -91,9 +91,10 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35D6FA78-2FA6-3AD4-B74A-F9A91FE6A41E
 -  Functions: 370
 -  Symbols:   280
--  CStrings:  1344
+-  CStrings:  1586
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -111,9 +112,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 1B850674-A4CF-31F7-A2AB-310A5E07D089
 +  Functions: 378
 +  Symbols:   311
-+  CStrings:  1304
++  CStrings:  1546
  
 Symbols:
 + _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF

@@ -70,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 40CD30C9-440C-3CED-9A31-724756D39E85
 -  Functions: 2171
 -  Symbols:   442
--  CStrings:  3947
+-  CStrings:  4224
++  UUID: 0784E289-FFE9-3B23-ACA2-9D97DDDE9AC8
 +  Functions: 2193
 +  Symbols:   444
-+  CStrings:  3993
++  CStrings:  4268
  
 Symbols:
 + _OBJC_CLASS_$_DefaultDateProvider

@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x1b0
    __DATA_CONST.__got: 0x18
 
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 29B4EE81-797E-3538-9AA1-67B90DE587C7
++  UUID: 31CB68A7-3C2E-32DE-BFF8-56D0F39BF2B9
+   Functions: 93
+   Symbols:   200
+   CStrings:  133
+
 ```

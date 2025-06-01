@@ -58,11 +58,9 @@
    __AUTH_CONST.__objc_const: 0x390
    __AUTH_CONST.__cfstring: 0xa0
 -  __AUTH_CONST.__const: 0xf370
--  __AUTH_CONST.__auth_ptr: 0x338
 -  __AUTH_CONST.__auth_got: 0x1db8
 -  __AUTH.__data: 0x2e98
 +  __AUTH_CONST.__const: 0xf480
-+  __AUTH_CONST.__auth_ptr: 0x340
 +  __AUTH_CONST.__auth_got: 0x1de0
 +  __AUTH.__data: 0x2eb8
    __AUTH.__objc_data: 0x480
@@ -97,12 +95,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5743D861-BB77-3DB0-A1E1-8B8A0FB56D8B
 -  Functions: 9066
 -  Symbols:   2926
--  CStrings:  906
+-  CStrings:  911
++  UUID: 6BFCD2A1-A224-3045-A983-BD2D24786C8E
 +  Functions: 9102
 +  Symbols:   2928
-+  CStrings:  934
++  CStrings:  939
  
 Symbols:
 + __PROTOCOLS__TtC9WidgetKit23_WidgetExtensionSession.42

@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C970E73-A86C-3E22-B76A-71C08897BE83
 -  Functions: 17803
++  UUID: 8F2346A7-429C-3772-BBD5-EBF6CB68DA92
 +  Functions: 17804
    Symbols:   579
--  CStrings:  2962
-+  CStrings:  2961
+-  CStrings:  3297
++  CStrings:  3296
  
 CStrings:
 - "unsignedIntValue"

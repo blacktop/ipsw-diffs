@@ -79,13 +79,16 @@
    - /System/Library/Frameworks/AppIntents.framework/AppIntents
    - /System/Library/Frameworks/Charts.framework/Charts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A226C3F0-4FF7-3EA9-997C-523252DB980E
++  UUID: 351518F9-513E-3277-9F27-3EA09BCDC52F
    Functions: 17612
 -  Symbols:   3235
--  CStrings:  19542
+-  CStrings:  21340
 +  Symbols:   3233
-+  CStrings:  19603
++  CStrings:  21404
  
 Symbols:
 + _$s10AppIntents11MailAccountPAAE21displayRepresentationAA07DisplayF0Vvg

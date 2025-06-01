@@ -25,9 +25,8 @@
    __DATA_CONST.__const: 0x900
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x8
-+  __DATA_CONST.__objc_classrefs: 0x8
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x480
++  __DATA_CONST.__objc_classrefs: 0x8
 +  __AUTH_CONST.__auth_got: 0x478
    __AUTH.__got_weak: 0x28
    __DATA.__got_weak: 0x18
@@ -44,8 +43,10 @@
    - /usr/lib/libmarisa.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CBF6674-DDB6-3AE4-BE92-ACB29FC784F7
 -  Functions: 521
 -  Symbols:   1140
++  UUID: 1B2D31B2-74A8-3583-AE29-5B750942763D
 +  Functions: 526
 +  Symbols:   1135
    CStrings:  168

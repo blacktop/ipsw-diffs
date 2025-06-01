@@ -21,11 +21,13 @@
    - /System/Library/PrivateFrameworks/AppleFSCompression.framework/AppleFSCompression
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 35209B1B-8871-3AA4-B739-DA87C627F777
 -  Functions: 715
++  UUID: 272ECE20-CC1E-3650-9E54-F7FE78A94766
 +  Functions: 719
    Symbols:   125
--  CStrings:  1273
-+  CStrings:  1275
+-  CStrings:  1284
++  CStrings:  1286
  
 CStrings:
 + "%s:%d: %s %lld blocks free in %lld extents, avg %lld.%02lld\n"

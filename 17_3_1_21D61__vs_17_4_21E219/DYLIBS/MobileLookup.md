@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 822B76F3-34E9-3075-8027-6C44871BD024
++  UUID: 443B46A0-8422-3A39-8FFF-731281B87BF3
+   Functions: 72
+   Symbols:   400
+   CStrings:  220
+
 ```

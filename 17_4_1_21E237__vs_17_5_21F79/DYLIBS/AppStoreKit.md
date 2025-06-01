@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__cfstring: 0x7c0
    __AUTH_CONST.__const: 0x26b8
    __AUTH_CONST.__objc_const: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xbd8
 -  __AUTH.__objc_data: 0x7e8
 -  __AUTH.__data: 0x110
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3F5595E6-B328-3F1A-83A3-55FB77783086
 -  Functions: 2573
 -  Symbols:   1963
--  CStrings:  1223
+-  CStrings:  1283
++  UUID: A766322E-2418-3EB3-A882-0EEE591DAC48
 +  Functions: 2574
 +  Symbols:   1966
-+  CStrings:  1227
++  CStrings:  1289
  
 Symbols:
 + +[ASKMobileGestalt isChinaSKUDevice]

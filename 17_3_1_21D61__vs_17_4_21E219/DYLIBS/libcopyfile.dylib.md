@@ -16,7 +16,11 @@
    __DATA_CONST.__got: 0x28
    __DATA_CONST.__const: 0x3b0
 
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: DA0A7A4A-1988-3941-8A48-A2BFAF666ED1
++  UUID: 3D5BC3D1-800D-3DD6-B568-86C5D2364940
    Functions: 35
    Symbols:   180
 -  CStrings:  172

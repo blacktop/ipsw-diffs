@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A215A179-CDCA-3949-B33D-2A427D24851F
 -  Functions: 21476
 -  Symbols:   59933
--  CStrings:  24356
+-  CStrings:  27820
++  UUID: A1A13544-61D3-3761-91B3-B9BFD9852884
 +  Functions: 21480
 +  Symbols:   59942
-+  CStrings:  24363
++  CStrings:  27829
  
 Symbols:
 + -[HKObjectType(Logging) isAbleToWriteHealthSensitiveLogs]

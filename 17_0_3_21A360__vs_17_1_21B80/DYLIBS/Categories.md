@@ -33,13 +33,16 @@
    __AUTH_CONST.__auth_got: 0x230
    __AUTH.__objc_data: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 374FAF3D-F053-3B0B-A056-71878DB388CA
++  UUID: 5FF242F0-BAB8-380F-8C02-79D156D411F7
    Functions: 161
 -  Symbols:   828
--  CStrings:  676
+-  CStrings:  1068
 +  Symbols:   829
-+  CStrings:  678
++  CStrings:  1072
  
 Symbols:
 + __unnamed_array_storage.1154

@@ -88,12 +88,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02147708-AC81-3AB4-9C1E-9B883E8670BD
 -  Functions: 6107
 -  Symbols:   17461
--  CStrings:  7024
+-  CStrings:  8429
++  UUID: B19A07A6-E4BE-3C83-81C1-30FF8EF1CF3F
 +  Functions: 6156
 +  Symbols:   17604
-+  CStrings:  7089
++  CStrings:  8510
  
 Symbols:
 + +[PowerUIInCarSignalMonitor monitorWithDelegate:]

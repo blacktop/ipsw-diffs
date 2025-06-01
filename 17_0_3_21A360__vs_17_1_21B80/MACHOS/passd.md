@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F55EE6CE-489E-38D8-A6C6-54405AA8D3B5
 -  Functions: 21025
 -  Symbols:   2547
--  CStrings:  29010
+-  CStrings:  34204
++  UUID: 332F3007-3276-3020-A209-4A9951E2884B
 +  Functions: 21186
 +  Symbols:   2548
-+  CStrings:  29259
++  CStrings:  34550
  
 Symbols:
 + _$s11PassKitCore36LocalProvisioningRequirementsCheckerC5meets11requirement3sid10completionyAA0E11RequirementO_SSySbctFTj

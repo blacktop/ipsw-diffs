@@ -50,13 +50,16 @@
    __DATA.__objc_data: 0x870
    __DATA.__data: 0x888
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D584A9CF-3513-301D-A4A0-1328300C0096
++  UUID: 9DE98319-2956-37E0-AF7F-6CDD2C532FC8
    Functions: 1601
 -  Symbols:   3826
--  CStrings:  4342
+-  CStrings:  4676
 +  Symbols:   3829
-+  CStrings:  4354
++  CStrings:  4688
  
 Symbols:
 + -[ProgramAddressTableCollector addOtherEncoderFunctionIndex:forEncoder:atEncoderIndex:forType:]

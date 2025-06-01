@@ -59,10 +59,8 @@
 +  __AUTH_CONST.__const: 0x10828
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__objc_const: 0x190
--  __AUTH_CONST.__auth_ptr: 0x6c0
 -  __AUTH_CONST.__auth_got: 0x2e68
 -  __AUTH.__data: 0x3df0
-+  __AUTH_CONST.__auth_ptr: 0x6d0
 +  __AUTH_CONST.__auth_got: 0x2ec8
 +  __AUTH.__data: 0x3808
    __AUTH.__objc_data: 0x3a0
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 788A023C-0B52-3DD8-BD82-4CCA5BC8178B
 -  Functions: 25419
 -  Symbols:   24271
--  CStrings:  2793
+-  CStrings:  2807
++  UUID: E8B03F41-159C-3839-81F9-C06C54F0CBA9
 +  Functions: 24803
 +  Symbols:   22979
-+  CStrings:  2821
++  CStrings:  2835
  
 Symbols:
 + _DeviceSupportsMapsControlEffects

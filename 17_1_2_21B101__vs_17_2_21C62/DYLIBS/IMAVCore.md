@@ -35,11 +35,15 @@
    __DATA_DIRTY.__objc_data: 0x280
    __DATA_DIRTY.__bss: 0x218
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25E76E5B-3CE9-34EE-9864-10E5B04CB20A
++  UUID: 47E37B4E-EB16-3941-A5D7-0E33C05C34F2
    Functions: 1024
    Symbols:   327
--  CStrings:  2949
-+  CStrings:  2953
+-  CStrings:  3403
++  CStrings:  3407
  
 CStrings:
 + "IMDaemonListenerKeyTransparencyProtocol"

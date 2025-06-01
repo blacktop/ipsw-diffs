@@ -9,7 +9,6 @@
    __DATA_CONST.__objc_classrefs: 0x18
 -  __AUTH_CONST.__const: 0x1d58
 +  __AUTH_CONST.__const: 0x1bb0
-   __AUTH_CONST.__auth_ptr: 0x48
    __AUTH_CONST.__auth_got: 0x580
 -  __AUTH.__data: 0x2f8
 +  __AUTH.__data: 0x228
@@ -28,5 +27,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
    - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 259D784C-C4E4-3188-9766-E6F72679A67F
++  UUID: 87929853-6B43-325A-AFE0-F920E1EE49B3
+   Functions: 1672
+   Symbols:   727
+   CStrings:  116
 
 ```

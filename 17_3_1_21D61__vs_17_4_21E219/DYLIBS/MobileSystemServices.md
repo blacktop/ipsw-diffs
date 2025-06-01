@@ -26,7 +26,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x8
    __AUTH_CONST.__cfstring: 0x6a0
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x468
 -  __DATA.__objc_classrefs: 0x60
 -  __DATA.__objc_superrefs: 0x8
@@ -34,11 +33,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__const: 0x20
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D6F4048-3D5A-3263-BBB1-E95C47149CF0
++  UUID: 97E681FA-6F10-3ED2-A822-7624D6E2E487
    Functions: 65
    Symbols:   381
--  CStrings:  241
-+  CStrings:  242
+-  CStrings:  294
++  CStrings:  295
  
 CStrings:
 + "T@\"NSString\",?,R,C"

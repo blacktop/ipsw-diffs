@@ -55,9 +55,9 @@
 +  __AUTH_CONST.__objc_dictobj: 0x46a0
 +  __AUTH_CONST.__objc_arrayobj: 0x28b0
 +  __AUTH_CONST.__objc_doubleobj: 0x1380
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x12b0
    __AUTH.__objc_data: 0x1270
+   __AUTH.__data: 0x8e8
 
    __DATA.__data: 0xcb8
    __DATA.__common: 0x148
@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1DCDC25-7654-39FB-9BC6-C4F972F90F4C
 -  Functions: 15447
 -  Symbols:   44785
--  CStrings:  32340
+-  CStrings:  45184
++  UUID: 24D37E97-95CD-3A3A-97EB-8B83AD882930
 +  Functions: 15489
 +  Symbols:   44927
-+  CStrings:  32510
++  CStrings:  45465
  
 Symbols:
 + +[PLApplicationAgent entryEventForwardDefinitionMotionToWake]

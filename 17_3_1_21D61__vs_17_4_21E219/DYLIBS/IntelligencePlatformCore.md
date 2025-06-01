@@ -67,7 +67,6 @@
 -  __DATA_CONST.__objc_const: 0x29310
 -  __DATA_CONST.__objc_selrefs: 0x1c50
 -  __AUTH_CONST.__const: 0x3b960
--  __AUTH_CONST.__auth_ptr: 0x10a0
 -  __AUTH_CONST.__objc_const: 0x10d0
 -  __AUTH_CONST.__cfstring: 0x320
 -  __AUTH_CONST.__auth_got: 0x47e8
@@ -82,7 +81,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x780
 +  __DATA_CONST.__objc_superrefs: 0x80
 +  __AUTH_CONST.__const: 0x3c550
-+  __AUTH_CONST.__auth_ptr: 0x1098
 +  __AUTH_CONST.__objc_const: 0x10d8
 +  __AUTH_CONST.__cfstring: 0x360
 +  __AUTH_CONST.__auth_got: 0x48d8
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8574B5DF-314F-3152-ABCF-DBCF75482773
 -  Functions: 70485
 -  Symbols:   757
--  CStrings:  8697
+-  CStrings:  8722
++  UUID: 158F4640-5949-302F-9878-0AA3FE85E2E6
 +  Functions: 71502
 +  Symbols:   772
-+  CStrings:  8759
++  CStrings:  8786
  
 Symbols:
 + _BMUseCaseLegacy

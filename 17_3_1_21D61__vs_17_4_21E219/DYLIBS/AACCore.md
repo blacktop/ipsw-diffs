@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 331110CE-D8D6-3145-8D6A-5C6DAAD64ACE
 -  Functions: 392
 -  Symbols:   1624
--  CStrings:  601
+-  CStrings:  674
++  UUID: 090D26D3-0B13-3C0C-95BD-B99B8A302B72
 +  Functions: 412
 +  Symbols:   1692
-+  CStrings:  652
++  CStrings:  734
  
 Symbols:
 + -[AEAssessmentState allowsAccessibilitySpeech]

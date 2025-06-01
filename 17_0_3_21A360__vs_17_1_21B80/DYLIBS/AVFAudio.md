@@ -43,7 +43,6 @@
 -  __AUTH_CONST.__cfstring: 0x2f40
 +  __AUTH_CONST.__cfstring: 0x2f60
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xee8
    __DATA.__objc_protorefs: 0x28
    __DATA.__objc_classrefs: 0x318
@@ -57,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CEB89EBE-7901-37B9-BD3C-4C1BC0F33008
 -  Functions: 3640
 -  Symbols:   11629
--  CStrings:  5324
+-  CStrings:  5702
++  UUID: 13A8D7A8-2400-3DC4-ABC5-824652BDBB4A
 +  Functions: 3643
 +  Symbols:   11638
-+  CStrings:  5342
++  CStrings:  5721
  
 Symbols:
 + -[AVAudioDeviceTestSequenceTone setStartDelay:]

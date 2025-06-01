@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41800E61-86A5-3826-A890-CAFC1C394D94
++  UUID: 77CCDD73-D921-3725-98B2-A7C4F4D2EBC1
    Functions: 50
    Symbols:   95
--  CStrings:  242
-+  CStrings:  243
+-  CStrings:  252
++  CStrings:  253
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 871B0C13-2428-3C92-984D-C800CD68952B
 -  Functions: 1817
 -  Symbols:   7268
--  CStrings:  3840
+-  CStrings:  4179
++  UUID: 669C3F88-6046-3C3F-AE7A-009C5C0E0E4C
 +  Functions: 1824
 +  Symbols:   7291
-+  CStrings:  3855
++  CStrings:  4194
  
 Symbols:
 + -[DMCEnrollmentInterface delegate]

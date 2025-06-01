@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F6A3A94F-728D-330F-BCD4-46D100FFFE92
 -  Functions: 224
 -  Symbols:   1437
--  CStrings:  889
+-  CStrings:  1245
++  UUID: 26A23522-8B48-3BB9-84C5-73862F395104
 +  Functions: 233
 +  Symbols:   1482
-+  CStrings:  919
++  CStrings:  1288
  
 Symbols:
 + -[AUDeveloperSettingsAboutListController confirmUpdateNow]

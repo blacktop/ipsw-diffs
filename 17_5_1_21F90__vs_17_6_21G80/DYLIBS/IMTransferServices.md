@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A09A1BBD-B1ED-3102-9621-6675FCAAACB1
 -  Functions: 47
++  UUID: 7DB642E4-3734-3845-87D1-1DA7DEE618BB
 +  Functions: 48
    Symbols:   79
--  CStrings:  168
-+  CStrings:  171
+-  CStrings:  178
++  CStrings:  181
  
 CStrings:
 + "getNicknameWithRecordID:decryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:isKnownSender:shouldDecodeImageFields:completionBlock:"

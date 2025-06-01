@@ -32,13 +32,16 @@
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /System/Library/PrivateFrameworks/AccessibilityUI.framework/AccessibilityUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA24EDB6-478F-3134-A02F-7E663AB408D4
++  UUID: EDCA2197-59AC-3476-9422-7CE3D81EDC83
    Functions: 48
 -  Symbols:   273
--  CStrings:  215
+-  CStrings:  237
 +  Symbols:   274
-+  CStrings:  216
++  CStrings:  239
  
 Symbols:
 + _AXIDSServiceIDSTimeoutKey

@@ -39,13 +39,16 @@
    __AUTH_CONST.__objc_floatobj: 0x40
    __AUTH_CONST.__const: 0x240
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D820F4D1-F76D-3B3E-8537-18BA8255F4AB
++  UUID: 1753FEBE-4F6E-36FC-AD0E-6D3DE3DBD36A
    Functions: 585
 -  Symbols:   2727
--  CStrings:  1590
+-  CStrings:  1843
 +  Symbols:   2728
-+  CStrings:  1586
++  CStrings:  1838
  
 Symbols:
 + _PKStocksIconKey

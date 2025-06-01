@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8906ABB-9AFF-3FA6-B335-FFEF996CD4CB
 -  Functions: 1927
 -  Symbols:   7149
--  CStrings:  3857
+-  CStrings:  4182
++  UUID: 0732B28D-2245-3A5E-8D9D-6F8FDE509FD9
 +  Functions: 1933
 +  Symbols:   7160
-+  CStrings:  3865
++  CStrings:  4192
  
 Symbols:
 + -[TVRUICoreDevice hash]

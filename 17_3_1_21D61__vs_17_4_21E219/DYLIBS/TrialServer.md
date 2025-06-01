@@ -77,12 +77,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F285B274-6264-31A4-BB1E-7C60B5D7B68C
 -  Functions: 4661
 -  Symbols:   16564
--  CStrings:  8335
+-  CStrings:  10009
++  UUID: 7B90B562-29B4-3062-9561-3760D8AE9136
 +  Functions: 4666
 +  Symbols:   16554
-+  CStrings:  8339
++  CStrings:  10017
  
 Symbols:
 + +[TRITaskUtils updateExperimentHistoryDatabaseWithAllocationStatus:forExperiment:treatment:deployment:experimentRecord:isBecomingObsolete:categoricalMetric:context:]

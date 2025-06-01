@@ -55,7 +55,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x888
 +  __AUTH_CONST.__objc_const: 0x350
    __AUTH_CONST.__const: 0x6e0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_doubleobj: 0xb0
 -  __AUTH_CONST.__objc_dictobj: 0x78
 -  __AUTH_CONST.__auth_got: 0x660
@@ -83,12 +82,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0634D3B1-E416-3F1D-A2C5-EEB9288131F0
 -  Functions: 4390
 -  Symbols:   14900
--  CStrings:  7031
+-  CStrings:  8121
++  UUID: 30C7A65B-0D68-3417-A6F8-665DB474D9EC
 +  Functions: 4434
 +  Symbols:   15063
-+  CStrings:  7062
++  CStrings:  8154
  
 Symbols:
 + +[_PSConfig _configs]

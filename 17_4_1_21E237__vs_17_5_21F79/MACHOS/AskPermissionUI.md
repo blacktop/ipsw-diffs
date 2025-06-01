@@ -34,11 +34,15 @@
    __DATA.__objc_ivar: 0x130
    __DATA.__objc_data: 0x410
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E0EC2F5-D5E6-362E-8767-BF79CE733CF7
++  UUID: 0B0027A8-832D-3385-A576-304ADBC0486C
    Functions: 198
    Symbols:   148
--  CStrings:  803
-+  CStrings:  808
+-  CStrings:  921
++  CStrings:  926
  
 CStrings:
 + "%{public}@: Failed To Parse Created Date. String Value: \"%@\""

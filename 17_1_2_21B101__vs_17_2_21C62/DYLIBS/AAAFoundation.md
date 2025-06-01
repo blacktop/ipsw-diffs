@@ -40,13 +40,12 @@
 -  __DATA_CONST.__objc_const: 0x2478
 -  __DATA_CONST.__objc_selrefs: 0xd70
 -  __AUTH_CONST.__objc_const: 0x40
-+  __DATA_CONST.__objc_const: 0x24a0
-+  __DATA_CONST.__objc_selrefs: 0xd78
-+  __AUTH_CONST.__objc_const: 0xd0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0xaa0
 -  __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x458
++  __DATA_CONST.__objc_const: 0x24a0
++  __DATA_CONST.__objc_selrefs: 0xd78
++  __AUTH_CONST.__objc_const: 0xd0
 +  __AUTH_CONST.__cfstring: 0xb00
 +  __AUTH_CONST.__objc_intobj: 0x30
 +  __AUTH_CONST.__auth_got: 0x470
@@ -68,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0FC22025-1A56-35A6-AE82-6CE90B91CB02
 -  Functions: 487
 -  Symbols:   1936
--  CStrings:  913
+-  CStrings:  998
++  UUID: 58FA9A2B-24C1-39F7-AD00-0F194EC7DA04
 +  Functions: 496
 +  Symbols:   1969
-+  CStrings:  927
++  CStrings:  1015
  
 Symbols:
 + +[AAFKeybagLockAssertion lockWithError:]

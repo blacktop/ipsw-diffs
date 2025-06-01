@@ -21,4 +21,13 @@
    __DATA_CONST.__got: 0x8f8
    __DATA_CONST.__auth_ptr: 0x20
 
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: FC8D1242-5FF9-3E81-A8C5-564777AFDCE3
++  UUID: 4864A068-787B-3DD4-98F2-F32D2C94F719
+   Functions: 9249
+   Symbols:   1370
+   CStrings:  18846
+
 ```

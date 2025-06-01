@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CEB709B1-042C-3DCB-A734-E0F1871DFAA4
 -  Functions: 459
 -  Symbols:   1982
--  CStrings:  1244
+-  CStrings:  1650
++  UUID: 2FA01059-2E18-317A-B038-61D2583A09CC
 +  Functions: 460
 +  Symbols:   1987
-+  CStrings:  1251
++  CStrings:  1660
  
 Symbols:
 + -[EAAccessoryManager sendWiredCarPlayAvailable:usbIdentifier:wirelessCarPlayAvailable:bluetoothIdentifier:themeAssetsAvailable:forUUID:]

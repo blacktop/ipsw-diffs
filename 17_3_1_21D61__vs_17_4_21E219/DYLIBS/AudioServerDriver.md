@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 112DD933-B8ED-36F4-B0BA-A0E94DA3B9BA
 -  Functions: 2130
 -  Symbols:   5900
--  CStrings:  2081
+-  CStrings:  2363
++  UUID: 8EF865AA-38AC-352F-ABBA-1249B7C54559
 +  Functions: 2142
 +  Symbols:   5916
-+  CStrings:  2101
++  CStrings:  2383
  
 Symbols:
 + -[ASDAudioDevice setupIsolatedIOForStream:frameSize:useCase:]

@@ -46,8 +46,8 @@
    __DATA_CONST.__objc_protorefs: 0x168
    __DATA_CONST.__objc_classrefs: 0xce8
 
+   __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_intobj: 0x180
-   __AUTH_CONST.__auth_ptr: 0x8f8
    __AUTH_CONST.__auth_got: 0x2b58
 -  __AUTH.__objc_data: 0xfd68
 -  __AUTH.__data: 0xb0e0
@@ -73,11 +73,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 16C655A4-1CEA-3273-ADC7-DBC72CED23C9
 -  Functions: 22802
 -  Symbols:   13675
++  UUID: 014A92A6-D859-3DD1-A996-5A82A95FC417
 +  Functions: 22805
 +  Symbols:   13684
-   CStrings:  7635
+   CStrings:  7919
  
 Symbols:
 + -[HRAccountsTableViewController clinicalAccountStore:accountDidChange:changeType:]

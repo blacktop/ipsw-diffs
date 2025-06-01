@@ -61,12 +61,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A6A3480-4199-344E-AB28-6F0AFE8A2841
 -  Functions: 8825
 -  Symbols:   27152
--  CStrings:  11765
+-  CStrings:  14189
++  UUID: ABEB46AC-7135-3D08-84DA-A9FFF9E71CCB
 +  Functions: 8769
 +  Symbols:   27033
-+  CStrings:  11711
++  CStrings:  14135
  
 Symbols:
 + -[_CDInteractionCache _handleInteractionRemoval:]

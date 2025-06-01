@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9ED08BBB-E6CA-3D2B-8405-14F0B5E8138D
 -  Functions: 1100
 -  Symbols:   4581
--  CStrings:  2453
+-  CStrings:  2613
++  UUID: 161234DE-B5E6-34A3-97B0-BE213A993112
 +  Functions: 1097
 +  Symbols:   4573
-+  CStrings:  2451
++  CStrings:  2611
  
 Symbols:
 + ___50-[SPUISearchViewController spotlightDidBackground]_block_invoke.351

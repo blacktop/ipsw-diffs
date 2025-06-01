@@ -33,11 +33,15 @@
    __DATA.__data: 0x5a0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCF34243-36EE-3DFF-9615-842A0320BD60
++  UUID: 1B7ABA1F-13D1-3FF1-ADE7-8EA3C541F797
    Functions: 275
    Symbols:   1336
--  CStrings:  719
-+  CStrings:  720
+-  CStrings:  747
++  CStrings:  748
  
 Symbols:
 + ___54-[FCGoalProgressCoordinator _onqueue_rescheduleEvents]_block_invoke.256

@@ -25,5 +25,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8026AA70-1C8B-3B41-B041-B27AD47AEAD6
++  UUID: AFB03704-7A52-3A20-9C77-F762E1790FCB
+   Functions: 234
+   Symbols:   909
+   CStrings:  562
 
 ```

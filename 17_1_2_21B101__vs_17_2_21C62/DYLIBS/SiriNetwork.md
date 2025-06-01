@@ -26,9 +26,9 @@
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x4878
 +  __AUTH_CONST.__const: 0x4880
-   __AUTH_CONST.__auth_ptr: 0xf0
    __AUTH_CONST.__auth_got: 0xe20
    __AUTH.__objc_data: 0x1740
+   __AUTH.__data: 0x1c50
 
    - /System/Library/Frameworks/Network.framework/Network
    - /System/Library/Frameworks/Security.framework/Security
@@ -41,11 +41,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5759735-E4F0-3E77-99BF-0863CA3CCD19
 -  Functions: 3894
 -  Symbols:   10110
++  UUID: AF0DEC58-A205-32F5-A284-D31AB3FAA0AE
 +  Functions: 3893
 +  Symbols:   10108
-   CStrings:  1392
+   CStrings:  1395
  
 Symbols:
 + ___swift_memcpy352_4

@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91EE6515-B536-3AC8-A024-437E4B5AAFD6
 -  Functions: 9811
 -  Symbols:   676
--  CStrings:  10281
+-  CStrings:  10735
++  UUID: 136CF51A-9360-30E8-B2ED-A48FC1B5E4D4
 +  Functions: 10008
 +  Symbols:   679
-+  CStrings:  10350
++  CStrings:  10807
  
 Symbols:
 + __os_signpost_emit_with_name_impl

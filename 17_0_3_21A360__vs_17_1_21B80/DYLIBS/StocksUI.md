@@ -59,12 +59,10 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
 -  __AUTH_CONST.__const: 0x21ea0
--  __AUTH_CONST.__auth_ptr: 0x1110
 -  __AUTH_CONST.__auth_got: 0x6e80
 -  __AUTH.__objc_data: 0x2f48
 -  __AUTH.__data: 0x3b20
 +  __AUTH_CONST.__const: 0x21e00
-+  __AUTH_CONST.__auth_ptr: 0x1108
 +  __AUTH_CONST.__auth_got: 0x6e78
 +  __AUTH.__objc_data: 0x3010
 +  __AUTH.__data: 0x3b40
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3BCE927A-7DF2-38C5-8690-8E0694CE4212
 -  Functions: 21524
 -  Symbols:   7103
--  CStrings:  4312
+-  CStrings:  4320
++  UUID: 48D71FFD-936D-37BF-B2AA-995120E55F86
 +  Functions: 21545
 +  Symbols:   7108
-+  CStrings:  4318
++  CStrings:  4326
  
 Symbols:
 + _OBJC_CLASS_$__TtC8StocksUI24HiddenCardViewController

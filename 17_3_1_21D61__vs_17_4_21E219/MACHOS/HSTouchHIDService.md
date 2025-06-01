@@ -87,12 +87,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4263D8C3-8189-3414-A55A-BA571161C552
 -  Functions: 12799
 -  Symbols:   50685
--  CStrings:  2680
+-  CStrings:  3361
++  UUID: 57BB759B-C424-339C-80F9-35AC1572EDE8
 +  Functions: 13143
 +  Symbols:   53067
-+  CStrings:  2971
++  CStrings:  3723
  
 Symbols:
 + +[HSTCREventGenerator continousRecordingIDsFomService:]
@@ -15597,6 +15599,7 @@ Symbols:
 - _unnamed_array_storage.96
 - _unnamed_array_storage.97
 CStrings:
++ ""
 + "\x01\x11\x11"
 + "\x01'\x16"
 + "\x01Q"

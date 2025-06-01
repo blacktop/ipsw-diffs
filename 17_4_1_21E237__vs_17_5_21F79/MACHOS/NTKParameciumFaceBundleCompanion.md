@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x78
    __DATA_CONST.__const: 0x250
 
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 13195E3C-914C-3A8A-B63B-1470D7BF49E4
++  UUID: DF96516E-9DD2-3EDB-A8D9-6BD3907842F9
+   Functions: 157
+   Symbols:   199
+   CStrings:  642
+
 ```

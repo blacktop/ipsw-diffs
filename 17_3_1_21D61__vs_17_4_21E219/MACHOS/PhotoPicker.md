@@ -14,5 +14,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
    - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EDC02B78-38DB-3AD2-AA73-0E15FDCA5A8A
++  UUID: 3FFF0FCA-2386-3C30-926A-7895D7F22BF5
+   Functions: 0
+   Symbols:   5
+   CStrings:  0
 
 ```

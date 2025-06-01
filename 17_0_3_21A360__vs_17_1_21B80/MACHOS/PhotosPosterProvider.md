@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D8B5D4B-658F-385F-8568-EF1437BE191A
 -  Functions: 884
 -  Symbols:   261
--  CStrings:  794
+-  CStrings:  808
++  UUID: 326BDD5E-4B46-371B-B5CB-594148F8A1C9
 +  Functions: 907
 +  Symbols:   260
-+  CStrings:  797
++  CStrings:  811
  
 Symbols:
 + _OBJC_CLASS_$_ITIdleTimerState

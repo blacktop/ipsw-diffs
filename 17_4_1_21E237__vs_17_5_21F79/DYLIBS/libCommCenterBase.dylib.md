@@ -40,7 +40,6 @@
 +  __AUTH_CONST.__const: 0x12bb8
    __AUTH_CONST.__cfstring: 0x2b40
    __AUTH_CONST.__objc_const: 0x108
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xb30
 +  __AUTH_CONST.__auth_got: 0xb40
    __DATA.__got_weak: 0x30
@@ -50,12 +49,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B0C47F18-A97B-3561-8A3F-692377EB2FF2
 -  Functions: 5438
 -  Symbols:   12187
--  CStrings:  3848
+-  CStrings:  4194
++  UUID: 82976129-62EF-3564-9E6B-76E8000D1DC2
 +  Functions: 5447
 +  Symbols:   12202
-+  CStrings:  3859
++  CStrings:  4205
  
 Symbols:
 + GCC_except_table116

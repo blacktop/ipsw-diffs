@@ -46,11 +46,13 @@
    - /usr/lib/libCTGreenTeaLogger.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D9F1F18-5A3C-3B19-B487-1E0652D81E79
 -  Functions: 552
++  UUID: 6E91D69A-C35E-3CB8-8E34-54D5EEF190BD
 +  Functions: 556
    Symbols:   368
--  CStrings:  1532
-+  CStrings:  1541
+-  CStrings:  1614
++  CStrings:  1623
  
 CStrings:
 + "\r"

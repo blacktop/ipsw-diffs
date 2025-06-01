@@ -31,11 +31,15 @@
    __DATA.__objc_classrefs: 0x58
    __DATA.__objc_superrefs: 0x8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AC19D048-8DAD-30A7-A928-285D05589D1E
++  UUID: 5BCCBFF1-DCD4-34E7-B762-B77A7D40A434
    Functions: 48
    Symbols:   97
--  CStrings:  217
-+  CStrings:  212
+-  CStrings:  225
++  CStrings:  220
  
 CStrings:
 - "@\"UIAction\"24@0:8@\"PREditor\"16"

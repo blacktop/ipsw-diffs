@@ -36,13 +36,16 @@
    __DATA.__objc_classrefs: 0x28
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0E134C72-5FF6-3E13-84DA-07C82C068C52
++  UUID: 9D707FF3-2350-3812-809C-53772E608B1B
    Functions: 32
 -  Symbols:   60
--  CStrings:  235
+-  CStrings:  240
 +  Symbols:   63
-+  CStrings:  236
++  CStrings:  241
  
 Symbols:
 + _CFNotificationCenterGetDarwinNotifyCenter

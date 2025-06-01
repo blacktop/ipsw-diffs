@@ -35,18 +35,20 @@
 +  __DATA_CONST.__objc_const: 0x5b58
 +  __DATA_CONST.__objc_selrefs: 0x16a8
    __DATA_CONST.__objc_arraydata: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x120
+   __AUTH_CONST.__cfstring: 0xde0
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14A7C56B-68E0-396B-963E-C89AD6F798FB
 -  Functions: 610
 -  Symbols:   2583
--  CStrings:  1620
+-  CStrings:  1731
++  UUID: 92677E28-3BDA-3E9B-A4F2-03449D43BC1E
 +  Functions: 611
 +  Symbols:   2589
-+  CStrings:  1625
++  CStrings:  1736
  
 Symbols:
 + -[_MCDNowPlayingContentManager nowPlayingViewControllerShouldHideBackButton:]

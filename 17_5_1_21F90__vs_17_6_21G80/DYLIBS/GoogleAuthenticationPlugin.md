@@ -33,13 +33,16 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x90
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 749E3B4C-D903-396D-BC05-D5A5965FF3CB
++  UUID: E8AED1E9-5C15-3FB3-AEC8-62A25C3CBDB2
    Functions: 29
 -  Symbols:   82
--  CStrings:  166
+-  CStrings:  176
 +  Symbols:   83
-+  CStrings:  168
++  CStrings:  178
  
 Symbols:
 + _ACAccountPropertyGrantedDataclasses

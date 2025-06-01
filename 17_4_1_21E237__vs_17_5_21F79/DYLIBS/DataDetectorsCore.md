@@ -13,8 +13,8 @@
    __TEXT.__objc_methname: 0x1b6a
    __TEXT.__objc_methtype: 0x861
 
+   __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa38
 +  __AUTH.__objc_data: 0x50
    __AUTH.__data: 0x10
@@ -30,5 +30,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: BDAAE3C1-9B0C-3D32-A8F1-FAE110ECE4D3
++  UUID: 209D66AB-D032-36BE-A1B5-EFCD0501834F
+   Functions: 676
+   Symbols:   2300
+   CStrings:  2228
 
 ```

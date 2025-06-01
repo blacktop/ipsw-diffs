@@ -44,7 +44,6 @@
 +  __AUTH_CONST.__const: 0x98f8
 +  __AUTH_CONST.__cfstring: 0x4480
    __AUTH_CONST.__objc_const: 0x3918
-   __AUTH_CONST.__auth_ptr: 0xb0
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xc40
 +  __AUTH_CONST.__auth_got: 0xc68
@@ -55,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: B54256F3-5298-3E5B-93E1-32ED1027AFE2
 -  Functions: 8128
 -  Symbols:   21690
--  CStrings:  5679
+-  CStrings:  6226
++  UUID: 5F3F2909-DF53-399B-8C65-85DD07FE3BEF
 +  Functions: 8133
 +  Symbols:   21710
-+  CStrings:  5701
++  CStrings:  6249
  
 Symbols:
 + GCC_except_table164

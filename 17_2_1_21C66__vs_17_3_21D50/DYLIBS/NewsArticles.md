@@ -43,9 +43,9 @@
    __DATA_CONST.__objc_arraydata: 0x58
    __AUTH_CONST.__objc_const: 0x1390
 
+   __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__const: 0x1e400
-   __AUTH_CONST.__auth_ptr: 0xb70
 -  __AUTH_CONST.__auth_got: 0x43c8
 +  __AUTH_CONST.__auth_got: 0x43d8
    __AUTH.__objc_data: 0x37d8
@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2356D2D1-771D-36C4-BEBC-60ADC6C794DE
 -  Functions: 20039
 -  Symbols:   8255
--  CStrings:  5784
+-  CStrings:  5863
++  UUID: 1C9FD263-07FF-3392-A580-D82820C720FE
 +  Functions: 20035
 +  Symbols:   8254
-+  CStrings:  5786
++  CStrings:  5865
  
 Symbols:
 + _symbolic SS9articleID_SaySSG0A3IDs_____0A16NavigationAction_____Sg12referringURLt 12NewsArticles23ArticleNavigationActionO 10Foundation3URLV

@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8A0E696-816C-315A-BB0C-C97F54A7E64A
 -  Functions: 53
 -  Symbols:   97
--  CStrings:  197
+-  CStrings:  209
++  UUID: 5399FD9C-19AE-3BC2-AB17-64724F0E63DA
 +  Functions: 49
 +  Symbols:   92
-+  CStrings:  195
++  CStrings:  198
  
 Symbols:
 + _GKOSLoggers

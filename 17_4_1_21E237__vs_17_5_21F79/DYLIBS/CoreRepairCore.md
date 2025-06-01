@@ -54,11 +54,10 @@
    __AUTH_CONST.__const: 0x280
    __AUTH_CONST.__objc_intobj: 0xd8
 -  __AUTH_CONST.__objc_arrayobj: 0x240
-+  __AUTH_CONST.__objc_arrayobj: 0x2a0
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__objc_dictobj: 0xa0
 -  __AUTH_CONST.__auth_got: 0x978
 -  __AUTH.__objc_data: 0x10e0
++  __AUTH_CONST.__objc_arrayobj: 0x2a0
 +  __AUTH_CONST.__objc_dictobj: 0xf0
 +  __AUTH_CONST.__auth_got: 0x9a0
 +  __AUTH.__objc_data: 0x1090
@@ -83,12 +82,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/updaters/libSavageRestoreInfo_iOS.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 7A097CBB-A6FE-3E7C-823B-3AB76481070B
 -  Functions: 1537
 -  Symbols:   436
--  CStrings:  2359
+-  CStrings:  2869
++  UUID: 83185E93-2DC8-3332-9567-BB57B1638327
 +  Functions: 1557
 +  Symbols:   442
-+  CStrings:  2388
++  CStrings:  2908
  
 Symbols:
 + _AMFDRSealingMapCreateLocalMultiDataBlobForClass

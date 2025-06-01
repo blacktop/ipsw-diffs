@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SyncedDefaults.framework/SyncedDefaults
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1216A998-BB7D-31BA-8DD9-F1F848E8FAF4
++  UUID: A4791BEA-F59C-3508-8769-8E41F995843B
    Functions: 6
    Symbols:   35
 -  CStrings:  72

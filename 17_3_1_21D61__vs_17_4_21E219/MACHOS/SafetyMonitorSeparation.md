@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SafetyMonitor.framework/SafetyMonitor
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A7D1BA2-5C09-3AAD-9541-1B75B16D53F7
++  UUID: 34F11A3F-57BF-3D66-87B6-9E0DE707CCAA
    Functions: 34
    Symbols:   58
 -  CStrings:  171

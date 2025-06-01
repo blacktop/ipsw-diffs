@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08259FB3-500A-3274-8CD3-62FC72067C16
 -  Functions: 874
 -  Symbols:   330
--  CStrings:  558
+-  CStrings:  602
++  UUID: 841BF564-322E-321B-8938-0FFDCFCA2EFA
 +  Functions: 860
 +  Symbols:   327
-+  CStrings:  550
++  CStrings:  594
  
 Symbols:
 - _CGImageSourceGetCount

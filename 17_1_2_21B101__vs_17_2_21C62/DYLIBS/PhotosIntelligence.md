@@ -67,11 +67,10 @@
 +  __DATA_CONST.__objc_selrefs: 0x2f00
    __DATA_CONST.__objc_arraydata: 0x150
 -  __AUTH_CONST.__const: 0xc88
-+  __AUTH_CONST.__const: 0xf38
-+  __AUTH_CONST.__objc_const: 0x228
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__objc_const: 0x118
 -  __AUTH_CONST.__cfstring: 0x4a20
++  __AUTH_CONST.__const: 0xf38
++  __AUTH_CONST.__objc_const: 0x228
 +  __AUTH_CONST.__cfstring: 0x49e0
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x2a0
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E1E1374B-FFA6-3A33-9674-C4B0774A1BB1
 -  Functions: 2961
 -  Symbols:   6650
--  CStrings:  3667
+-  CStrings:  4260
++  UUID: A22674C5-439F-3596-A02E-5985AAD9078E
 +  Functions: 3273
 +  Symbols:   6837
-+  CStrings:  3757
++  CStrings:  4348
  
 Symbols:
 + +[PNAssetFetcherWrapper fetchAssetsWithOptions:]

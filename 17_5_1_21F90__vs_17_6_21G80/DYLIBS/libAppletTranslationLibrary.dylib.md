@@ -45,13 +45,16 @@
    __DATA_CONST.__objc_classrefs: 0x240
    __DATA_CONST.__objc_superrefs: 0x58
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0558AB87-578A-30AB-9285-B2DDC2A72CC6
++  UUID: 47CABDFF-EDDD-3F70-9195-10F634559535
    Functions: 1661
 -  Symbols:   3851
--  CStrings:  2789
+-  CStrings:  3874
 +  Symbols:   3852
-+  CStrings:  2790
++  CStrings:  3875
  
 Symbols:
 + +[AtlasDecoder getUnvalidatableContracts:]

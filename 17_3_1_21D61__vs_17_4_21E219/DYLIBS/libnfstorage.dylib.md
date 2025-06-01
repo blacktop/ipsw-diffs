@@ -23,6 +23,15 @@
    __DATA.__objc_ivar: 0xc
    __DATA.__data: 0x60
    __DATA_DIRTY.__objc_data: 0x1e0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9731BC37-D9C1-3DAB-B423-CEC6E7ACCBFB
++  UUID: D42A322F-E277-3559-8DFB-E4869D25B7D7
+   Functions: 39
+   Symbols:   318
+   CStrings:  259
 Symbols:
 + ___60-[NFStorageControllerApplet updateAppletEntitiesWithConfig:]_block_invoke.144
 + ___60-[NFStorageControllerApplet updateAppletEntitiesWithConfig:]_block_invoke.157

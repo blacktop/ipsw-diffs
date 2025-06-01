@@ -34,12 +34,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5A4A07D6-4599-315B-89CF-681752E53544
 -  Functions: 12983
 -  Symbols:   32572
--  CStrings:  11327
+-  CStrings:  12810
++  UUID: 72F33C19-66E0-3BB2-921F-20E53728BDC9
 +  Functions: 12994
 +  Symbols:   32594
-+  CStrings:  11299
++  CStrings:  12782
  
 Symbols:
 + _CalcFinalIFDdatasizeReading

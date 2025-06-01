@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A52DB55-13CB-3624-8823-484A0C7E99DC
 -  Functions: 687
 -  Symbols:   2786
--  CStrings:  1641
+-  CStrings:  2009
++  UUID: CD7FE2CE-B156-3CC3-8534-4E5B1DCEB733
 +  Functions: 690
 +  Symbols:   2808
-+  CStrings:  1648
++  CStrings:  2017
  
 Symbols:
 + +[PAMediaConversionServiceImagingUtilities imageDataByAddingMissingPrimaryImageProperties:toImageDataSource:primaryImageIndex:inputImagePropertiesByIndex:]

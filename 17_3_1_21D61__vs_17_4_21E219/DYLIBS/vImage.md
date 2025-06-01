@@ -23,8 +23,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
+-  UUID: 37B321A9-61FC-304F-9C33-6A7241FE924A
 -  Functions: 3629
 -  Symbols:   7305
++  UUID: 266CD1BB-F874-3509-A97E-6A8056C0ACDD
 +  Functions: 3635
 +  Symbols:   7317
    CStrings:  445

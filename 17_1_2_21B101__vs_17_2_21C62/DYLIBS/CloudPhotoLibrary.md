@@ -65,12 +65,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E8A76A60-524D-36F4-B4BC-672C102E2C79
 -  Functions: 7392
 -  Symbols:   22909
--  CStrings:  10950
+-  CStrings:  13360
++  UUID: A1BDEB44-09B8-395E-AA08-C6642BCE9377
 +  Functions: 7412
 +  Symbols:   22968
-+  CStrings:  10993
++  CStrings:  13424
  
 Symbols:
 + +[CPLEngineStoreTransaction currentTransaction]

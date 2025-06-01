@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A5BF8956-1518-3055-BEEF-154469BAD9FA
++  UUID: EBFCDF4F-10D3-316C-BDDA-6734CA07B855
+   Functions: 22
+   Symbols:   53
+   CStrings:  73
+
 ```

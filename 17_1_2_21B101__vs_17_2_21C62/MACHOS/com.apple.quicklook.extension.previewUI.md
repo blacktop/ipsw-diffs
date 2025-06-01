@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D0F2129-69DE-39F0-B591-AAE832A9B134
 -  Functions: 402
 -  Symbols:   256
--  CStrings:  1152
+-  CStrings:  1262
++  UUID: B3A6835A-8D04-3C6F-B857-15F95C81A0EF
 +  Functions: 404
 +  Symbols:   257
-+  CStrings:  1154
++  CStrings:  1264
  
 Symbols:
 + _objc_retain_x25

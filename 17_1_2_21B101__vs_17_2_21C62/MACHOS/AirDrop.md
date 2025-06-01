@@ -72,11 +72,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F43E24F1-2774-3EAF-B74C-71636B026CC0
 -  Functions: 548
++  UUID: 2A978D8F-B9BD-31FE-8409-A7499A9B0A69
 +  Functions: 488
    Symbols:   344
--  CStrings:  923
-+  CStrings:  909
+-  CStrings:  986
++  CStrings:  972
  
 CStrings:
 - "Boop2AirDrop: Nearby sharing interactions changed: %s"

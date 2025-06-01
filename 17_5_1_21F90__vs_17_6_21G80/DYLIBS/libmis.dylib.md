@@ -19,4 +19,13 @@
    __DATA.__bss: 0xae8
    __DATA_DIRTY.__const: 0x60
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6F9DD27D-FD8C-386A-AF77-808AA198854B
++  UUID: 2A67EA47-CE49-3226-8C9F-E9CC7244DC3D
+   Functions: 579
+   Symbols:   510
+   CStrings:  763
+
 ```

@@ -43,4 +43,13 @@
    __DATA_DIRTY.__bss: 0x1e8
    __DATA_DIRTY.__common: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A3E87CA-2B65-329E-AF41-A007C511CD81
++  UUID: FFE61A12-C4E1-3601-95FD-DEED1080A4DA
+   Functions: 1606
+   Symbols:   5650
+   CStrings:  2762
+
 ```

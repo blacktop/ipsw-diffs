@@ -40,7 +40,7 @@
 +  __AUTH_CONST.__cfstring: 0x7360
    __AUTH_CONST.__objc_const: 0x1ea8
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0x78
 
    __DATA.__data: 0x408
    __DATA.__common: 0x24
@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5441CC54-1314-32EA-85F0-661D6939573E
 -  Functions: 2920
 -  Symbols:   9258
--  CStrings:  5395
+-  CStrings:  6316
++  UUID: F1288A54-79A9-38B6-A11A-D0CC7A253AEE
 +  Functions: 2924
 +  Symbols:   9267
-+  CStrings:  5403
++  CStrings:  6326
  
 Symbols:
 + -[NSPPrivacyProxyProxiedContentMap hasMatchExactHostnames]

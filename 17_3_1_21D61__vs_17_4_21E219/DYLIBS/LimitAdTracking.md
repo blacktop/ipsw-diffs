@@ -26,4 +26,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB394298-BCDA-3FCB-AB63-7BA203564309
++  UUID: 6B056930-010C-398D-B486-928FBD05DA42
+   Functions: 69
+   Symbols:   306
+   CStrings:  195
+
 ```

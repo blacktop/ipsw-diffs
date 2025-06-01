@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AFE46F02-6700-33F5-A00B-7888A010222E
 -  Functions: 58
 -  Symbols:   106
--  CStrings:  254
+-  CStrings:  389
++  UUID: 3FD10C18-CA65-3296-8097-C1F16F1F7E00
 +  Functions: 63
 +  Symbols:   108
-+  CStrings:  255
++  CStrings:  390
  
 Symbols:
 + _dispatch_queue_create

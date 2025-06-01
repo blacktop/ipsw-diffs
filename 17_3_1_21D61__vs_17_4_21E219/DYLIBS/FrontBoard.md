@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1DBA1513-C659-3BED-A16F-15791D9D31A0
 -  Functions: 2913
 -  Symbols:   9982
--  CStrings:  4528
+-  CStrings:  5513
++  UUID: FF4EDBAD-0D23-3FA0-9215-215EA03280BF
 +  Functions: 2916
 +  Symbols:   9989
-+  CStrings:  4535
++  CStrings:  5525
  
 Symbols:
 + -[FBDisplayManager initWithInitializationCompletion:]

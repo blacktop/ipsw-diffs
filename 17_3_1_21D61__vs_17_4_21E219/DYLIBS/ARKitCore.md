@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__const: 0x3958
 +  __AUTH_CONST.__cfstring: 0xfe20
    __AUTH_CONST.__objc_arrayobj: 0xdb0
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0x3120
    __AUTH_CONST.__objc_doubleobj: 0x380
    __AUTH_CONST.__objc_floatobj: 0x10
@@ -83,12 +82,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: 531C4275-B554-3D3A-88B7-3C9CE4D952C3
 -  Functions: 8204
 -  Symbols:   29134
--  CStrings:  11883
+-  CStrings:  13914
++  UUID: F6232F28-D343-3EA1-9AB7-6440CC6E972C
 +  Functions: 8215
 +  Symbols:   29099
-+  CStrings:  11898
++  CStrings:  13931
  
 Symbols:
 + -[ARPersonSegmentationTechnique _createCopyWithCVPixelBufferPoolForBuffer:]

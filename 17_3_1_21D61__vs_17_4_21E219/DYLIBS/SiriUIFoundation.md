@@ -79,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7E678438-1F3E-3EB7-B7FC-DA5B9FCB699D
 -  Functions: 998
 -  Symbols:   3871
--  CStrings:  2126
+-  CStrings:  2336
++  UUID: 8289A103-90E6-3F35-9F08-2E1B3981B36F
 +  Functions: 1128
 +  Symbols:   4328
-+  CStrings:  2390
++  CStrings:  2607
  
 Symbols:
 + -[SRUIFSpeechSynthesisRequest .cxx_destruct]

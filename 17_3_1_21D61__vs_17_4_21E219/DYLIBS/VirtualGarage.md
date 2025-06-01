@@ -53,13 +53,16 @@
    __DATA.__data: 0x7e0
    __DATA.__common: 0x40
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FED12B3D-B627-3D60-AFEA-3AF6C03D6A88
++  UUID: F7C6D7FB-432A-309A-8C05-B1257D751D64
    Functions: 703
 -  Symbols:   2674
--  CStrings:  1535
+-  CStrings:  1690
 +  Symbols:   2676
-+  CStrings:  1537
++  CStrings:  1693
  
 Symbols:
 + _EAVehicleInfoPowerForConnectorTypeNACS_ACKey

@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC1D3443-3A29-348E-9AC1-7868BF20DCCC
 -  Functions: 361
 -  Symbols:   2208
--  CStrings:  405
+-  CStrings:  512
++  UUID: D4D4004E-177E-3791-9C8D-492A0B4D8948
 +  Functions: 364
 +  Symbols:   2266
-+  CStrings:  433
++  CStrings:  556
  
 Symbols:
 + -[ACCHWComponentAuthService _verifyModuleCertificate:forModuleType:].cold.12

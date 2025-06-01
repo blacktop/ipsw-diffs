@@ -35,7 +35,7 @@
    __AUTH_CONST.__objc_intobj: 0x210
    __AUTH_CONST.__const: 0x4a8
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x758
    __AUTH.__objc_data: 0x1950
 -  __AUTH.__data: 0xd40
@@ -44,13 +44,16 @@
    __DATA.__objc_classrefs: 0x378
    __DATA.__objc_superrefs: 0x340
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4E8C071-954B-3E1E-B172-43C0E0559445
++  UUID: FB0CC2E8-EE34-3875-A2B9-D6F0DE4381E4
    Functions: 1812
 -  Symbols:   6791
--  CStrings:  2632
+-  CStrings:  3376
 +  Symbols:   6801
-+  CStrings:  2637
++  CStrings:  3386
  
 Symbols:
 + _.compoundliteral.103

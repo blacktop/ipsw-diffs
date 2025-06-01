@@ -22,11 +22,15 @@
    __DATA_CONST.__objc_protorefs: 0x18
    __DATA_CONST.__objc_classrefs: 0x1e8
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75A6F8FD-FDA2-3BEA-99E7-95DEEBDBD92B
++  UUID: D35B5576-1F33-341C-AC74-B9B36FDBE87E
    Functions: 1024
    Symbols:   327
--  CStrings:  2954
-+  CStrings:  2956
+-  CStrings:  3408
++  CStrings:  3410
  
 CStrings:
 + "chat:lastAddressedHandleUpdated:lastAddressedSIMIDUpdated:"

@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA26BB9E-FCDB-3658-942B-A15A526DCA34
 -  Functions: 86722
 -  Symbols:   5520
--  CStrings:  46932
+-  CStrings:  50400
++  UUID: 33B54E11-213E-3496-9FB4-2BD1396FC7B7
 +  Functions: 86724
 +  Symbols:   5519
-+  CStrings:  46938
++  CStrings:  50407
  
 Symbols:
 + _$s8TipsNext30MiniTipUIPopoverViewControllerC3tip20presentationDelegateACx_So0e12PresentationgJ0_pSgtcAA0D0RzlufC

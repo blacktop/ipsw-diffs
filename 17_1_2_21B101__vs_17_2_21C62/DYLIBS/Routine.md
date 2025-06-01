@@ -32,11 +32,15 @@
    __AUTH_CONST.__objc_const: 0x1a8
    __AUTH_CONST.__auth_got: 0x1a8
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE96A548-6BD5-3087-B806-E22715EADC3B
++  UUID: B98BFB24-D953-3121-923F-31D5CBA56E93
    Functions: 39
    Symbols:   90
--  CStrings:  107
-+  CStrings:  106
+-  CStrings:  111
++  CStrings:  110
  
 CStrings:
 + "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp:referenceFrame:"

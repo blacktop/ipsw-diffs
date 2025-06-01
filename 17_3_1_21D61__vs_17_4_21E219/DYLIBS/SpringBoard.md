@@ -68,7 +68,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x24f0
    __AUTH_CONST.__objc_doubleobj: 0x530
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x2798
 -  __AUTH.__objc_data: 0xf460
 -  __DATA.__objc_protorefs: 0xa8
@@ -112,12 +111,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 7346EBA7-83F7-30E7-9D81-18C47EA290EF
 -  Functions: 56332
 -  Symbols:   191864
--  CStrings:  76545
+-  CStrings:  88915
++  UUID: CEA7C829-DF18-3F1C-A8E9-C2934A95371F
 +  Functions: 56311
 +  Symbols:   191845
-+  CStrings:  76539
++  CStrings:  88868
  
 Symbols:
 + +[SBApplication(Classic_Internal) _defaultLaunchingSizeForClassicMode:]

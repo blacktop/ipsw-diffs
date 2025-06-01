@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CalendarFoundation.framework/CalendarFoundation
 
+   - /System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6082B2A8-07FB-3E4A-9F8A-7896303459F5
++  UUID: E256DB19-6D22-340E-A496-17C0D9E5CC0A
+   Functions: 2
+   Symbols:   27
+   CStrings:  11
+
 ```

@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x700
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79B1C513-DB41-3A8D-9CC2-EDBEE4F9F835
++  UUID: 78F3AC59-DA20-36CA-BC76-6BD5B16412B3
    Functions: 534
    Symbols:   270
--  CStrings:  1590
-+  CStrings:  1594
+-  CStrings:  1705
++  CStrings:  1709
  
 CStrings:
 + "T@\"<CKTranscriptPluginViewDelegate>\",?,W,N"

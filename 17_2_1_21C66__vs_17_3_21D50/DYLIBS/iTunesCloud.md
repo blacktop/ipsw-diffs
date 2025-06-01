@@ -40,7 +40,6 @@
 +  __DATA_CONST.__objc_const: 0x27438
 +  __DATA_CONST.__objc_selrefs: 0x9348
 +  __DATA_CONST.__objc_arraydata: 0x5a8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x10580
 -  __AUTH_CONST.__cfstring: 0x172c0
 -  __AUTH_CONST.__objc_intobj: 0x408
@@ -58,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 960FDEF9-B47F-3877-8CEE-A4485D85E146
 -  Functions: 9589
 -  Symbols:   29938
--  CStrings:  13829
+-  CStrings:  16795
++  UUID: 6A0DA99E-3366-3948-A603-165424721151
 +  Functions: 9590
 +  Symbols:   29981
-+  CStrings:  13853
++  CStrings:  16841
  
 Symbols:
 + -[ICDefaults shouldForceWatchInitialSyncCompletion]

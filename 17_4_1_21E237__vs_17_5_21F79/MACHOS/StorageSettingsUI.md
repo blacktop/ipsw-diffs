@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAA7D185-20DF-34EF-A150-49D410F026CF
 -  Functions: 1925
++  UUID: 22D0447D-AFFF-3387-A60F-744BD825C8E6
 +  Functions: 1943
    Symbols:   458
--  CStrings:  1397
-+  CStrings:  1405
+-  CStrings:  1616
++  CStrings:  1624
  
 CStrings:
 + "Delete App Marketplace"

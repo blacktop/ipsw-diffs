@@ -42,11 +42,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 255F9B6D-2898-3C2F-85F7-49876246E608
++  UUID: B65A9908-3A01-3C18-9ED1-A27E929EA9EA
    Functions: 429
    Symbols:   1861
--  CStrings:  858
-+  CStrings:  859
+-  CStrings:  924
++  CStrings:  925
  
 Symbols:
 + ___block_literal_global.208

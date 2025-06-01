@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 361894C7-3E1A-3AB5-A5F3-4408D7CE4D06
 -  Functions: 2117
 -  Symbols:   7768
--  CStrings:  4861
+-  CStrings:  5657
++  UUID: 79889EFA-90C8-395E-97F5-6EEF0EBA0455
 +  Functions: 2119
 +  Symbols:   7798
-+  CStrings:  4888
++  CStrings:  5707
  
 Symbols:
 + -[DiagnosticCase dpSubmissionState]

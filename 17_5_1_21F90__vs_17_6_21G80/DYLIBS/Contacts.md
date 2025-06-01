@@ -32,12 +32,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 74C0B85C-06AB-3337-8608-26E4B15389AC
 -  Functions: 10831
 -  Symbols:   31174
--  CStrings:  9712
+-  CStrings:  11349
++  UUID: DF861A6B-299E-3200-B67B-361145847691
 +  Functions: 10830
 +  Symbols:   31172
-+  CStrings:  9711
++  CStrings:  11348
  
 Symbols:
 - -[CNContactMatchSummarizer summaryForContact:matchInfo:].cold.1

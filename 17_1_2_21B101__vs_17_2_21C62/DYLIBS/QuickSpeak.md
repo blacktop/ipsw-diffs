@@ -22,6 +22,15 @@
    __TEXT.__objc_methtype: 0xabb
    __TEXT.__objc_stubs: 0x2380
    __DATA_CONST.__got: 0x78
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A700C501-DA8F-34E0-AD19-E4D0688CFF1F
++  UUID: 4AEF60C7-A4F3-3A3F-A52B-31F089311868
+   Functions: 247
+   Symbols:   221
+   CStrings:  947
 CStrings:
 + "_menuForChatItem:withParentChatItem:"
 - "_menuForChatItem:"

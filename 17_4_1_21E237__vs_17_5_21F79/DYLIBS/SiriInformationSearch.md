@@ -23,9 +23,9 @@
    __TEXT.__objc_classname: 0xf0
    __TEXT.__objc_methname: 0x2cc5
 
+   __DATA_CONST.__objc_superrefs: 0x8
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x7788
-   __AUTH_CONST.__auth_ptr: 0x348
 -  __AUTH_CONST.__auth_got: 0x3a18
 -  __AUTH.__data: 0x29c8
 -  __AUTH.__objc_data: 0x9a0
@@ -57,8 +57,10 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B1C24FF-2A6C-30A7-A875-BC48B67FA9A2
 -  Functions: 7195
 -  Symbols:   19393
++  UUID: FFB7BDEA-50D5-33D2-A81B-3628D1A13A7F
 +  Functions: 7193
 +  Symbols:   19390
    CStrings:  2378

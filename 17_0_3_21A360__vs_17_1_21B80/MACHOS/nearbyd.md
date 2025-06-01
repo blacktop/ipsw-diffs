@@ -75,12 +75,14 @@
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 390B2A07-6B6A-3B12-AC4A-31C4968D47FD
 -  Functions: 20827
 -  Symbols:   876
--  CStrings:  14947
+-  CStrings:  16688
++  UUID: DD1285BF-4F9F-35CA-A9D9-190093CA2A4E
 +  Functions: 20885
 +  Symbols:   880
-+  CStrings:  15028
++  CStrings:  16775
  
 Symbols:
 + _XPC_ACTIVITY_CHECK_IN

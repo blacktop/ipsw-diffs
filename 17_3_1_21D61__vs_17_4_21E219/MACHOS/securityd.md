@@ -77,12 +77,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 45E28C5C-96AA-346A-B3AF-47F4F86F55BD
 -  Functions: 9182
 -  Symbols:   1368
--  CStrings:  15247
+-  CStrings:  18677
++  UUID: 3A88B79D-B2E9-3877-B18C-7160F8126E7E
 +  Functions: 9245
 +  Symbols:   1370
-+  CStrings:  15365
++  CStrings:  18825
  
 Symbols:
 + _CKUnderlyingErrorDomain

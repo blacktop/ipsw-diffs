@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47762007-3A3F-3A55-8E68-54728914501E
 -  Functions: 59
 -  Symbols:   215
--  CStrings:  19
+-  CStrings:  22
++  UUID: C7BAEA46-51CA-3170-93BE-2464F222F4CC
 +  Functions: 414
 +  Symbols:   1402
-+  CStrings:  245
++  CStrings:  259
  
 Symbols:
 + +[IOThreadXPCMappedMemoryTransporter memory:]

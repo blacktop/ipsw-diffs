@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SiriTasksEvaluation.framework/SiriTasksEvaluation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 81BCFB70-337E-3D74-B6D5-729B7962127A
++  UUID: BD3F3050-4BB1-3A10-AEC3-DC3DBFE221ED
    Functions: 2
    Symbols:   31
--  CStrings:  60
-+  CStrings:  61
+-  CStrings:  65
++  CStrings:  66
  
 CStrings:
 + "T@\"NSString\",?,R,C"

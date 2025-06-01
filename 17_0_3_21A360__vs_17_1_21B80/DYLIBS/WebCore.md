@@ -49,7 +49,6 @@
 -  __AUTH_CONST.__cfstring: 0x64e0
 +  __AUTH_CONST.__const: 0x2320c8
 +  __AUTH_CONST.__cfstring: 0x6540
-   __AUTH_CONST.__auth_ptr: 0x1b0
    __AUTH_CONST.__objc_arrayobj: 0x90
 -  __AUTH_CONST.__objc_const: 0x1e48
 +  __AUTH_CONST.__objc_const: 0x1e00
@@ -99,12 +98,14 @@
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libxslt.1.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AE3E36E0-2B48-3B5D-A509-25C031D428CB
 -  Functions: 106973
 -  Symbols:   234375
--  CStrings:  30129
+-  CStrings:  30936
++  UUID: A623F32A-073A-3033-A084-24A8932685F7
 +  Functions: 106865
 +  Symbols:   234149
-+  CStrings:  30146
++  CStrings:  30956
  
 Symbols:
 + -[WebAVMediaSelectionOption displayName]

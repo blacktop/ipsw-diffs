@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8661A3A7-3038-3210-A432-59A1D69EB51F
 -  Functions: 12904
 -  Symbols:   37752
--  CStrings:  14304
+-  CStrings:  17912
++  UUID: 5A0231B8-907E-390A-9D45-B7B9BF7C37CE
 +  Functions: 12917
 +  Symbols:   37790
-+  CStrings:  14320
++  CStrings:  17924
  
 Symbols:
 + +[CIContext loadArchive:].cold.1

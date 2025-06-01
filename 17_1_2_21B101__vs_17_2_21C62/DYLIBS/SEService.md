@@ -52,7 +52,6 @@
    __AUTH_CONST.__const: 0x11b0
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x9e0
 +  __AUTH_CONST.__auth_got: 0x9e8
    __AUTH.__objc_data: 0x0
@@ -68,12 +67,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: C1E0F278-B473-3D70-9533-B36BEB7FE960
 -  Functions: 2117
 -  Symbols:   3504
--  CStrings:  1778
+-  CStrings:  2130
++  UUID: 3F59E93E-B80E-3140-9732-D4B62AA11392
 +  Functions: 2125
 +  Symbols:   3527
-+  CStrings:  1801
++  CStrings:  2162
  
 Symbols:
 + -[SEEndPoint additionalAttestationsDict]

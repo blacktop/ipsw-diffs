@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/Accessibility.framework/Accessibility
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3F27D1A5-007E-3A02-89C3-27170B97EFA1
++  UUID: DC40A37F-F752-3B49-8C88-623EF4D517C0
+   Functions: 2148
+   Symbols:   6335
+   CStrings:  996
+
 ```

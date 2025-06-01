@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x184
 
+   - /usr/lib/libamsupport.dylib
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38B82EB6-16ED-3173-9FD9-F297A7C3EB9C
++  UUID: EFC3CAD8-C261-3A5F-A6B2-A1FC5B776342
    Functions: 85
 -  Symbols:   159
--  CStrings:  354
+-  CStrings:  442
 +  Symbols:   161
-+  CStrings:  359
++  CStrings:  450
  
 Symbols:
 + _calloc

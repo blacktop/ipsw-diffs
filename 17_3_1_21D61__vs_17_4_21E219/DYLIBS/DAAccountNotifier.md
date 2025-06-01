@@ -34,11 +34,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/Message.framework/Message
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A7128F4-C910-36A9-B60F-427A6376A1E4
++  UUID: E5B915BB-EB2A-3723-B986-501BA1F1507F
    Functions: 34
    Symbols:   89
--  CStrings:  281
-+  CStrings:  282
+-  CStrings:  367
++  CStrings:  368
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -85,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7BB6E130-9BB2-3911-A45A-92F38794DA7F
 -  Functions: 338
 -  Symbols:   1284
--  CStrings:  663
+-  CStrings:  710
++  UUID: 960B628B-EC9F-3A35-A46F-9F186387E0CF
 +  Functions: 335
 +  Symbols:   1278
-+  CStrings:  664
++  CStrings:  711
  
 Symbols:
 - __swift_FORCE_LOAD_$_swiftCoreML

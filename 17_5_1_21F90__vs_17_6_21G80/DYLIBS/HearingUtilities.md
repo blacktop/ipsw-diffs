@@ -58,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1118A8C1-7174-3F85-B837-2D70559CB5FD
 -  Functions: 2680
 -  Symbols:   8932
--  CStrings:  4399
+-  CStrings:  5353
++  UUID: EC53420F-2EEE-32DF-B6B2-6F709FB6B2BA
 +  Functions: 2682
 +  Symbols:   8938
-+  CStrings:  4407
++  CStrings:  5364
  
 Symbols:
 + -[HURoutesManager setSubscribeTimer:]

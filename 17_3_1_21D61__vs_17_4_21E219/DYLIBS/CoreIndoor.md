@@ -52,12 +52,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: CF4CEBBC-2BC0-3913-BC88-813E472EA60F
 -  Functions: 1692
 -  Symbols:   354
--  CStrings:  1146
+-  CStrings:  1297
++  UUID: 2A22B051-7BB2-3574-940D-2CFEC19C5639
 +  Functions: 1688
 +  Symbols:   351
-+  CStrings:  1147
++  CStrings:  1298
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm

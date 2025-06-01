@@ -52,7 +52,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x210
 +  __DATA_CONST.__objc_superrefs: 0x190
    __AUTH_CONST.__const: 0x300
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0x2800
 +  __AUTH_CONST.__cfstring: 0x2880
    __AUTH_CONST.__objc_intobj: 0xe58
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 7BF46EB6-A228-3AAF-8795-3224406E528E
 -  Functions: 856
 -  Symbols:   255
--  CStrings:  1819
+-  CStrings:  2139
++  UUID: 09D57626-ED49-3720-B6AF-392C03AE8EBF
 +  Functions: 871
 +  Symbols:   259
-+  CStrings:  1840
++  CStrings:  2164
  
 Symbols:
 + _OBJC_CLASS_$_STS18013ReaderAnalyticsData

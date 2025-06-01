@@ -37,12 +37,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5DE5D6B6-2D8F-3F0F-BA8E-F680DC1A4F72
 -  Functions: 1075
 -  Symbols:   3695
--  CStrings:  1910
+-  CStrings:  2199
++  UUID: 2F035433-4F83-3745-9701-FAF9188B45A3
 +  Functions: 1078
 +  Symbols:   3702
-+  CStrings:  1911
++  CStrings:  2200
  
 Symbols:
 + -[DYCaptureArchive markMetadataModified]

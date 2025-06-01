@@ -75,11 +75,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3A709FE-958A-3424-B0AA-E14E3A3A15DB
++  UUID: 6FCAB29F-EC46-37CB-9627-9085042C9C60
    Functions: 985
 -  Symbols:   4168
--  CStrings:  2156
+-  CStrings:  2314
 +  Symbols:   4163
-+  CStrings:  2154
++  CStrings:  2311
  
 Symbols:
 + -[SUICDefaultVoicePreviewer audioPowerUpdaterDidFire:]

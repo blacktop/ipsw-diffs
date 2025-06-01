@@ -57,14 +57,12 @@
 -  __AUTH_CONST.__cfstring: 0x40
 -  __AUTH_CONST.__objc_const: 0x120
 -  __AUTH_CONST.__const: 0x4e18
--  __AUTH_CONST.__auth_ptr: 0x110
 -  __AUTH_CONST.__auth_got: 0xe58
 +  __DATA_CONST.__objc_selrefs: 0x1f8
 +  __AUTH_CONST.__cfstring: 0x100
 +  __AUTH_CONST.__const: 0x4ea8
 +  __AUTH_CONST.__objc_intobj: 0x18
 +  __AUTH_CONST.__objc_const: 0x1b0
-+  __AUTH_CONST.__auth_ptr: 0x118
 +  __AUTH_CONST.__auth_got: 0xed0
 +  __AUTH.__objc_data: 0x158
    __AUTH.__data: 0x740
@@ -105,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4B2214AF-E7EA-3AE1-8AC9-692DF7E92F87
 -  Functions: 4454
 -  Symbols:   10717
--  CStrings:  357
+-  CStrings:  359
++  UUID: FB565C4A-58E4-3F84-82FF-8834A983874C
 +  Functions: 4485
 +  Symbols:   10842
-+  CStrings:  402
++  CStrings:  410
  
 Symbols:
 + +[TailSpinHelper getLastSuccessfulTailSpinDate:]

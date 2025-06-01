@@ -44,12 +44,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13674FCD-285E-3241-B933-FDF02316FC9E
 -  Functions: 1025
 -  Symbols:   3890
--  CStrings:  2182
+-  CStrings:  2583
++  UUID: 208A5F56-2FF8-3CCD-A37A-778D317C00E8
 +  Functions: 1026
 +  Symbols:   3895
-+  CStrings:  2186
++  CStrings:  2589
  
 Symbols:
 + +[DMCFeatureOverrides mdmAppInstallationSourceIdentifierWithDefaultValue:]

@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8329E815-18C4-3769-BA89-9096B0D08DDA
 -  Functions: 162
 -  Symbols:   288
--  CStrings:  721
+-  CStrings:  777
++  UUID: BFCD1363-0F37-3CD7-A8D8-F3EEC2AAED3A
 +  Functions: 167
 +  Symbols:   290
-+  CStrings:  744
++  CStrings:  800
  
 Symbols:
 + _OBJC_CLASS_$_UIApplication

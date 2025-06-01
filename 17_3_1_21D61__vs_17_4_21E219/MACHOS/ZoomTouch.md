@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0xe0
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 041D49FB-7DD8-3C53-8373-65FD0D70F124
++  UUID: 5D3C4C12-4122-38FA-A1A8-138D1D8FED46
    Functions: 108
    Symbols:   424
--  CStrings:  290
-+  CStrings:  291
+-  CStrings:  333
++  CStrings:  334
  
 Symbols:
 + __block_literal_global.253

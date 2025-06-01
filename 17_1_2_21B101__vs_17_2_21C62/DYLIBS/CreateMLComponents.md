@@ -26,8 +26,10 @@
    - /usr/lib/swift/libswift_Differentiation.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 065A73C2-D51B-3377-A187-C3A0A6BD95C5
 -  Functions: 21774
 -  Symbols:   12765
++  UUID: 655EF60E-7D76-3F59-BF3C-634B41A79788
 +  Functions: 21794
 +  Symbols:   12805
    CStrings:  864

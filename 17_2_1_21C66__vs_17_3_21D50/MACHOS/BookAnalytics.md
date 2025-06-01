@@ -40,13 +40,16 @@
    __DATA.__objc_ivar: 0x8
    __DATA.__objc_data: 0x2788
 
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/JSApp.framework/JSApp
+-  UUID: A28DCAD2-60BE-38D5-B535-5357A297BFB9
++  UUID: 317AFEED-CC6B-3F31-8316-ADC59D57128F
    Functions: 23475
 -  Symbols:   349
--  CStrings:  1276
+-  CStrings:  1307
 +  Symbols:   348
-+  CStrings:  1274
++  CStrings:  1305
  
 Symbols:
 - _OBJC_CLASS_$_BUAccountsProvider

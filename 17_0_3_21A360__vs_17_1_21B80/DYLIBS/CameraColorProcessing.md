@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E59ED2E0-3C15-3EE0-A399-31CAAB722BB0
 -  Functions: 511
 -  Symbols:   1943
--  CStrings:  1754
+-  CStrings:  2073
++  UUID: 5F140483-F05B-3CE1-AC4A-F642E5352D04
 +  Functions: 509
 +  Symbols:   1939
-+  CStrings:  1752
++  CStrings:  2070
  
 Symbols:
 + ___block_literal_global.618

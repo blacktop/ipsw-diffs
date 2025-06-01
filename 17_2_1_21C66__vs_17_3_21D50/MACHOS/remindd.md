@@ -50,11 +50,15 @@
    __DATA.__objc_classrefs: 0xdc0
    __DATA.__objc_superrefs: 0x138
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3A3203F-E73D-3B94-9339-3C10AA4D3552
++  UUID: E4B6C6D1-3317-32DF-ADAA-5EC7324008F6
    Functions: 26765
    Symbols:   2806
--  CStrings:  11547
-+  CStrings:  11548
+-  CStrings:  12157
++  CStrings:  12158
  
 CStrings:
 + "numToken"

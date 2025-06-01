@@ -52,7 +52,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x80968
    __DATA_CONST.__objc_arraydata: 0x3570
    __AUTH_CONST.__const: 0x1e3c0
-   __AUTH_CONST.__auth_ptr: 0x1c8
    __AUTH_CONST.__objc_const: 0x69ea8
 -  __AUTH_CONST.__cfstring: 0x9c440
 +  __AUTH_CONST.__cfstring: 0x9c300
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 99AD2A31-9360-369F-9C0B-A7A0AF33E2E7
 -  Functions: 130962
 -  Symbols:   373195
--  CStrings:  137299
+-  CStrings:  157301
++  UUID: 6398DDD4-EA36-31CD-B849-2F6217205BED
 +  Functions: 130969
 +  Symbols:   373213
-+  CStrings:  137293
++  CStrings:  157285
  
 Symbols:
 + -[UIControl _safeHoverStyle]

@@ -21,9 +21,7 @@
    __DATA_CONST.__objc_const: 0x330
    __DATA_CONST.__objc_selrefs: 0x2a8
 -  __AUTH_CONST.__cfstring: 0x8c0
--  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__cfstring: 0x960
-+  __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__const: 0x40
    __AUTH_CONST.__auth_got: 0x328
@@ -37,13 +35,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29CF6047-D1F1-3715-972E-5700A632B92A
++  UUID: DED53311-0F91-32AD-B5D0-DE882E82FE1A
    Functions: 210
 -  Symbols:   565
--  CStrings:  238
+-  CStrings:  308
 +  Symbols:   570
-+  CStrings:  243
++  CStrings:  318
  
 Symbols:
 + _kSCRODBaumVario424DeviceIdentifier

@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1303
    __TEXT.__objc_methtype: 0x45c
 
+   - /System/Library/PrivateFrameworks/SleepHealth.framework/SleepHealth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D622A255-0615-3033-A65B-F7E81A714D74
++  UUID: 16646AFB-78AF-3B22-A42C-69E15E992C0C
+   Functions: 71
+   Symbols:   512
+   CStrings:  340
+
 ```

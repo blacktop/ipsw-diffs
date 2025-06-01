@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C0457DD-F0A5-3315-B0E2-2A44E39CA5F1
 -  Functions: 2091
 -  Symbols:   414
--  CStrings:  3622
+-  CStrings:  4399
++  UUID: FDE10C66-0B8F-329F-BF6C-C29469ECAFEE
 +  Functions: 2107
 +  Symbols:   418
-+  CStrings:  3643
++  CStrings:  4422
  
 Symbols:
 + _IOHIDEventCreateKeyboardEvent

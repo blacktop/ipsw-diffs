@@ -41,11 +41,15 @@
    __DATA.__data: 0x770
    __DATA.__bss: 0x118
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 939BC043-CDCF-33FD-BE2A-66D3B52049EE
++  UUID: F18EDC1F-E370-37A9-B2F6-1CC1A4BE2608
    Functions: 1260
    Symbols:   4664
--  CStrings:  2260
-+  CStrings:  2261
+-  CStrings:  2553
++  CStrings:  2554
  
 Symbols:
 + ___44-[UASharedPasteboardManager fetchRemoteName]_block_invoke.217

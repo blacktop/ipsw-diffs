@@ -84,12 +84,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5CF790D8-2BB4-369F-81DB-D27871F7096D
 -  Functions: 3375
 -  Symbols:   11417
--  CStrings:  5167
+-  CStrings:  5860
++  UUID: C2C7231A-0F03-3388-B306-6EEC9E2F3AFF
 +  Functions: 3357
 +  Symbols:   11390
-+  CStrings:  5205
++  CStrings:  5909
  
 Symbols:
 + +[WBCollectionConfiguration sharedInMemoryTabCollectionConfigurationWithIdentifier:]

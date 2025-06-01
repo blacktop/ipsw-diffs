@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 087902F2-AB52-3CB9-A0C5-E93F2B9295CF
 -  Functions: 18
 -  Symbols:   50
--  CStrings:  193
+-  CStrings:  197
++  UUID: 7681557D-6B4B-36B1-8E13-CDD0C2CF9A7D
 +  Functions: 19
 +  Symbols:   52
-+  CStrings:  198
++  CStrings:  202
  
 Symbols:
 + _TUBundleIdentifierFaceTimeApplication

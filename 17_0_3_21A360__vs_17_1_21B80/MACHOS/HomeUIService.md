@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCC420AF-5FA4-39BA-A9D2-F5FD89A9F44B
 -  Functions: 2223
 -  Symbols:   473
--  CStrings:  4531
+-  CStrings:  4974
++  UUID: 6401EB6F-3257-3E50-8691-5958D0F0E256
 +  Functions: 2264
 +  Symbols:   475
-+  CStrings:  4613
++  CStrings:  5061
  
 Symbols:
 + _HMSetupAccessoryProgressAsString

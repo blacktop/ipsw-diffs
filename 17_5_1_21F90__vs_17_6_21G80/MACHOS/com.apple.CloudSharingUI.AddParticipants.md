@@ -31,11 +31,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FE59747B-83FA-3734-96EB-70517F020AD3
 -  Functions: 1724
++  UUID: 3A99793B-C245-3BFA-8272-72CB285B47E1
 +  Functions: 1726
    Symbols:   240
--  CStrings:  526
-+  CStrings:  527
+-  CStrings:  527
++  CStrings:  528
  
 CStrings:
 + "executionMode is set. appIsOKForCoOwners: %{bool}d, R/O: %{bool}d, private: %{bool}d, isPreShare: %{bool}d, allowCoOwnersEditing: %{bool}d"

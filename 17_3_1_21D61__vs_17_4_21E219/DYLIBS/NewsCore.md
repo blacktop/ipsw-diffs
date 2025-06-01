@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6DA41D97-C138-3547-9AF1-F49332578A45
 -  Functions: 17810
 -  Symbols:   57917
--  CStrings:  27678
+-  CStrings:  33000
++  UUID: 767D5630-8ED7-330D-BD3B-ED0F1ACB4D33
 +  Functions: 17828
 +  Symbols:   57975
-+  CStrings:  27727
++  CStrings:  33054
  
 Symbols:
 + -[FCAppleAccount dynamicPrimaryLanguageCode]

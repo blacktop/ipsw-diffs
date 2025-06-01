@@ -25,12 +25,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: F25C536C-4075-313E-87CC-2AAD6C5129FA
 -  Functions: 23021
 -  Symbols:   56077
--  CStrings:  17184
+-  CStrings:  17195
++  UUID: ADA7EAE5-DB36-3A0A-BEB2-758E8A4051A4
 +  Functions: 23019
 +  Symbols:   56073
-+  CStrings:  17185
++  CStrings:  17196
  
 Symbols:
 - _compstats_InsertNewAt

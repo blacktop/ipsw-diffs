@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__data: 0x10
    __DATA.__bss: 0x10
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 30D2FA92-488D-37BE-A515-5F32AF72CB47
++  UUID: 306DE6B1-1289-3203-BA87-4A6F33412610
+   Functions: 589
+   Symbols:   1504
+   CStrings:  810
 Symbols:
 + __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIP17GLRBufferResourceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
 + __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m

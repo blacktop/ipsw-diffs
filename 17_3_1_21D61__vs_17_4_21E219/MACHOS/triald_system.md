@@ -21,5 +21,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/TrialServer.framework/TrialServer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6EC9D641-22AE-3B0E-965A-018ABE9DEE6E
++  UUID: FF993934-75E5-3EF4-9C0B-A2E47074FF5C
+   Functions: 1
+   Symbols:   22
+   CStrings:  3
 
 ```

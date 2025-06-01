@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CA120B2-3D0B-38B9-AB2D-640AC0F64666
 -  Functions: 9713
 -  Symbols:   1979
--  CStrings:  11173
+-  CStrings:  12512
++  UUID: 55901042-49F8-3DA2-A242-0D7886D7A223
 +  Functions: 10347
 +  Symbols:   1999
-+  CStrings:  11771
++  CStrings:  13317
  
 Symbols:
 + _$s11ActivityKit0A19PresentationOptionsV0aC11DestinationO6banneryA2EmFWC

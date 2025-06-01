@@ -69,7 +69,6 @@
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__objc_const: 0x1640
 -  __AUTH_CONST.__const: 0xc23e0
--  __AUTH_CONST.__auth_ptr: 0x21e0
 -  __AUTH_CONST.__auth_got: 0x58a0
 -  __AUTH.__objc_data: 0x84f8
 -  __AUTH.__data: 0xc840
@@ -77,7 +76,6 @@
 -  __DATA.__objc_classrefs: 0x798
 +  __AUTH_CONST.__objc_const: 0x1748
 +  __AUTH_CONST.__const: 0xce260
-+  __AUTH_CONST.__auth_ptr: 0x2410
 +  __AUTH_CONST.__auth_got: 0x5dc8
 +  __AUTH.__objc_data: 0x8ed8
 +  __AUTH.__data: 0xe390
@@ -135,12 +133,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C0174238-54CB-392A-8264-8119C8DB2073
 -  Functions: 118164
 -  Symbols:   17356
--  CStrings:  10524
+-  CStrings:  10528
++  UUID: 5D820C0D-2B1D-376A-9B33-C30E6C4897F4
 +  Functions: 123664
 +  Symbols:   18360
-+  CStrings:  11041
++  CStrings:  11045
  
 Symbols:
 + -[UIControl(AXPriv) _feldsparAccessibilityPresentMenu]

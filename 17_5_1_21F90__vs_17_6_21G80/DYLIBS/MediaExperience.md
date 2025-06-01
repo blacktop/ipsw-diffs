@@ -39,11 +39,15 @@
    __AUTH_CONST.__const: 0x3468
    __AUTH_CONST.__objc_arrayobj: 0x30
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15D3CDE6-51DE-3F6E-9CCD-17C2F058C888
++  UUID: C7AD02B7-3B84-395B-9774-E5D3D425C093
    Functions: 4996
    Symbols:   16202
--  CStrings:  9008
-+  CStrings:  9010
+-  CStrings:  11758
++  CStrings:  11761
  
 CStrings:
 + "-MXSessionManagerInterruptionActionMapper- %s: Session has set client priority to PhoneCall. Upgrading sessionPriority to kMXCoreSessionPriority_Critical501"

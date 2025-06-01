@@ -24,12 +24,15 @@
    __TEXT.__objc_classname: 0x21f9
    __TEXT.__objc_methname: 0x17b3f
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F254BF8B-9924-334A-B5F7-8829C1B1BC16
++  UUID: 2C864F4E-E017-374E-B65D-57790C589A37
    Functions: 6113
 -  Symbols:   20328
 +  Symbols:   20327
-   CStrings:  11278
+   CStrings:  14018
  
 Symbols:
 + ___block_descriptor_41_e8_32s_e39_B32?0"NEIKEv2ChildSAProposal"8Q16^B24ls32l8

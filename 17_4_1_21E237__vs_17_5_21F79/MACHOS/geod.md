@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x378
    __DATA_CONST.__const: 0x2198
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: B4F04789-BBA4-33F8-A61D-BA58B7606BD1
++  UUID: 81D6EAE6-71E7-34C9-A7CE-4984EC4D3CDB
+   Functions: 1214
+   Symbols:   617
+   CStrings:  2903
+
 ```

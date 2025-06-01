@@ -37,13 +37,16 @@
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x118
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9804EDCD-BBE8-3998-B1C0-A31BFB876DD0
++  UUID: 25CE3ADD-0033-3C48-9FC6-C1803A903814
    Functions: 472
 -  Symbols:   1828
--  CStrings:  924
+-  CStrings:  1020
 +  Symbols:   1832
-+  CStrings:  925
++  CStrings:  1021
  
 Symbols:
 + _OBJC_EHTYPE_$_NSException

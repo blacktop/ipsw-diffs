@@ -22,7 +22,7 @@
    __TEXT.__objc_classname: 0x387
    __TEXT.__objc_methname: 0x4458
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x10c0
    __AUTH.__objc_data: 0x5f0
 -  __AUTH.__data: 0x30
@@ -45,5 +45,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F1384EB5-BD15-3CA3-A812-78800B1BB92B
++  UUID: 2C4CC014-3509-3042-8425-0ABA059A1161
+   Functions: 5380
+   Symbols:   13242
+   CStrings:  1980
 
 ```

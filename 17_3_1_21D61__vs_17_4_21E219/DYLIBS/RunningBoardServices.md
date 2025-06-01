@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__objc_const: 0x3d20
 +  __AUTH_CONST.__cfstring: 0x5a60
    __AUTH_CONST.__const: 0x660
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x6d0
 -  __AUTH.__objc_data: 0x1630
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6075CF31-AC5B-39CA-ABF6-26CCBBDEE5CD
 -  Functions: 1978
 -  Symbols:   6300
--  CStrings:  2707
+-  CStrings:  3400
++  UUID: AAAE5D0C-5BAA-3AC5-9E84-E043232865CF
 +  Functions: 2057
 +  Symbols:   6554
-+  CStrings:  2823
++  CStrings:  3546
  
 Symbols:
 + +[RBSMachEndpoint supportsRBSXPCSecureCoding]

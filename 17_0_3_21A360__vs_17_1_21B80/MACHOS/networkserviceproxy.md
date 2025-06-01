@@ -63,12 +63,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8EE2162-BECA-30DD-85FD-164F9FB8EEE2
 -  Functions: 1914
 -  Symbols:   583
--  CStrings:  5425
+-  CStrings:  6305
++  UUID: D1E8D36E-8316-393E-9346-82EE69122967
 +  Functions: 1940
 +  Symbols:   584
-+  CStrings:  5439
++  CStrings:  6326
  
 Symbols:
 + _OBJC_CLASS_$_NSPPrivacyProxyObliviousTargetInfo

@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7949CBC8-10D5-32A1-8299-FF48A6019541
 -  Functions: 2378
 -  Symbols:   8526
--  CStrings:  3834
+-  CStrings:  4635
++  UUID: 7EF99949-1FB4-30F3-B0F4-EF8564A43BBA
 +  Functions: 2382
 +  Symbols:   8539
-+  CStrings:  3841
++  CStrings:  4644
  
 Symbols:
 + +[TRISystemInfo _isVirtualMachine]

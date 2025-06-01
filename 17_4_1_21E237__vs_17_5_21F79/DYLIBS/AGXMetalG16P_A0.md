@@ -22,11 +22,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 027FA550-ECEE-3916-AF4B-D508ED13942A
 -  Functions: 6307
++  UUID: 88E3C06A-7206-31F2-BA44-9EA3F81A653F
 +  Functions: 6328
    Symbols:   14519
--  CStrings:  3909
-+  CStrings:  3911
+-  CStrings:  4290
++  CStrings:  4292
  
 Symbols:
 + __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5085

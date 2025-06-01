@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 61AC26F9-9E5B-3EAD-8E83-B23769EE5C0C
 -  Functions: 1574
 -  Symbols:   6136
--  CStrings:  2601
+-  CStrings:  2972
++  UUID: 4FCF07C5-CED8-38FC-A288-87844519B1C1
 +  Functions: 1584
 +  Symbols:   6177
-+  CStrings:  2624
++  CStrings:  2999
  
 Symbols:
 + -[ISDefaults enableBadgeOverhange]

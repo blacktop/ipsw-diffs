@@ -75,11 +75,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03968D2A-C0EE-3BCE-BAF5-C1D4235FB45A
 -  Functions: 269
 -  Symbols:   219
++  UUID: B2D9D3CE-1FAB-3135-8969-68223EE2DAE4
 +  Functions: 270
 +  Symbols:   216
-   CStrings:  841
+   CStrings:  896
  
 Symbols:
 + _swift_getWitnessTable

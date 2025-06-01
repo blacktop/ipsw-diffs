@@ -32,11 +32,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/DiskSpaceDiagnostics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0E66185-8092-3653-81DA-71751F114AAB
++  UUID: 10078EB2-623D-367B-BEBD-97CBEC9FF882
    Functions: 10
    Symbols:   186
--  CStrings:  76
-+  CStrings:  77
+-  CStrings:  78
++  CStrings:  79
  
 CStrings:
 + "T@\"NSString\",?,R,C"

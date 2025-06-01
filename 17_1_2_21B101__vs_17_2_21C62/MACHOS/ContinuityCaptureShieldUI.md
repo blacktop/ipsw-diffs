@@ -25,11 +25,15 @@
    __DATA_CONST.__auth_got: 0x268
    __DATA_CONST.__got: 0x88
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C80E11CC-C85A-3E67-99EF-6F45AE6CC9DD
++  UUID: B7B10901-1CFF-3B41-8970-867A5DF94E80
    Functions: 201
    Symbols:   156
--  CStrings:  853
-+  CStrings:  856
+-  CStrings:  930
++  CStrings:  933
  
 CStrings:
 + "%s: %@ pull conversation back to phone"

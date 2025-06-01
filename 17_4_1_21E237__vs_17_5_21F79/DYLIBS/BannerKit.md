@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14C4364B-B575-399A-B776-FA46FEB43F98
 -  Functions: 977
 -  Symbols:   4204
--  CStrings:  2127
+-  CStrings:  2365
++  UUID: 36AE3FB6-885A-3D72-A5AB-7CB2C3A59A54
 +  Functions: 982
 +  Symbols:   4216
-+  CStrings:  2132
++  CStrings:  2371
  
 Symbols:
 + -[BNBannerSourceListenerHostedPresentableViewController preferredBackgroundActivitiesToSuppress]

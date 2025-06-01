@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43007E9B-F33E-3CC8-B601-3357E3B87690
 -  Functions: 14673
 -  Symbols:   22181
--  CStrings:  12573
+-  CStrings:  12617
++  UUID: 35571BE6-7BC7-32F6-9E4D-B785E13046D3
 +  Functions: 14668
 +  Symbols:   22149
-+  CStrings:  12574
++  CStrings:  12618
  
 Symbols:
 + GCC_except_table108

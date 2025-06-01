@@ -31,7 +31,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x8
    __AUTH_CONST.__cfstring: 0x53a0
    __AUTH_CONST.__const: 0x430
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_intobj: 0x4b0
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0x6a0
@@ -44,11 +43,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A4972DB-11B6-3DC4-9772-C226E2C3D213
 -  Functions: 939
 -  Symbols:   2034
++  UUID: E96DD990-38D5-376A-AB1D-C37CE593F8A8
 +  Functions: 940
 +  Symbols:   2036
-   CStrings:  997
+   CStrings:  1666
  
 Symbols:
 + _CWFNetworkProfilePropertyDisable6EModeKey

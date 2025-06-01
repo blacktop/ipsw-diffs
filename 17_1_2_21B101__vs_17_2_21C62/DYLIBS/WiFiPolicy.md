@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 03EBFEE9-1657-37D8-9D84-CEE27031C96B
 -  Functions: 5429
 -  Symbols:   17886
--  CStrings:  12058
+-  CStrings:  15004
++  UUID: B3CC26F3-D5E5-3715-B1D8-E4C9DA7B5C92
 +  Functions: 5431
 +  Symbols:   17891
-+  CStrings:  12059
++  CStrings:  15006
  
 Symbols:
 + -[WFMeasureResult options]

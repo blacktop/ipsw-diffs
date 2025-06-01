@@ -23,13 +23,16 @@
    __AUTH_CONST.__const: 0x1a80
    __AUTH_CONST.__cfstring: 0x40
 
+   - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 91BF1A1A-628D-398C-949F-59712A2E22DE
++  UUID: 8D1D0886-8A48-3F5A-ACCA-08BA12CBEE8F
    Functions: 602
 -  Symbols:   2574
--  CStrings:  904
+-  CStrings:  906
 +  Symbols:   2573
-+  CStrings:  903
++  CStrings:  905
  
 Symbols:
 + _.str.24

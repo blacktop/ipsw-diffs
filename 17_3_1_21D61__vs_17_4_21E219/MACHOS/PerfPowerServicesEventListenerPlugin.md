@@ -19,11 +19,15 @@
    __TEXT.__objc_methtype: 0x50b
    __TEXT.__unwind_info: 0x1ac
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B913B50F-96EF-3E67-A5C2-3C0CA975EB0D
++  UUID: 0CAD334E-8AFB-345A-B14C-446CDEE626A5
    Functions: 218
    Symbols:   171
--  CStrings:  587
-+  CStrings:  588
+-  CStrings:  806
++  CStrings:  807
  
 CStrings:
 + "T@\"NSString\",?,R,C"

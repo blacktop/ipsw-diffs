@@ -49,12 +49,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5914B2AA-A036-31C1-B801-C47BB9DC9F63
 -  Functions: 877
 -  Symbols:   1028
--  CStrings:  2205
+-  CStrings:  3008
++  UUID: A595682F-383A-3375-9306-62437AAED34A
 +  Functions: 879
 +  Symbols:   1036
-+  CStrings:  2213
++  CStrings:  3021
  
 Symbols:
 + _UARPAccessoryHardwareFusingToString

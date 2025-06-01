@@ -27,4 +27,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/MessageSupport.framework/MessageSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42F7D44C-3A32-3037-8985-B228BA6AA7F0
++  UUID: E5EEB76B-C966-313C-9757-6E6EC58B6811
+   Functions: 36
+   Symbols:   68
+   CStrings:  125
+
 ```

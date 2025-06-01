@@ -24,4 +24,13 @@
    __DATA_DIRTY.__objc_const: 0x90
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/Frameworks/VideoSubscriberAccount.framework/VideoSubscriberAccount
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9AF6BC15-2FA9-34FA-81ED-EFF3AFCCEA68
++  UUID: 9687B301-8B0E-3FD7-8DEC-E4CC5FA9E5E8
+   Functions: 19
+   Symbols:   128
+   CStrings:  53
+
 ```

@@ -49,9 +49,9 @@
    __AUTH_CONST.__objc_const: 0x20d0
    __AUTH_CONST.__cfstring: 0x1560
 
+   __AUTH_CONST.__objc_arrayobj: 0x618
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x548
 -  __AUTH_CONST.__auth_got: 0x1b98
 +  __AUTH_CONST.__auth_got: 0x1ba0
    __AUTH.__objc_data: 0x7c0
@@ -90,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE9BB465-7C13-3052-B31A-2C43273D0539
 -  Functions: 14979
 -  Symbols:   7327
--  CStrings:  4508
+-  CStrings:  4679
++  UUID: B39DDFD0-D134-359B-87D5-9C9AD743EC50
 +  Functions: 15006
 +  Symbols:   7331
-+  CStrings:  4557
++  CStrings:  4728
  
 Symbols:
 + __PROTOCOLS__TtC10StocksCoreP33_1AA7A43BAA2C0E513A932E8BAE86137720UserInfoMergeHandler.11

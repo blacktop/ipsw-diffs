@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C63B9D2-4386-379D-9F5E-DD37BA238B18
 -  Functions: 4951
 -  Symbols:   736
--  CStrings:  8966
+-  CStrings:  10498
++  UUID: 89A6529D-7D05-348E-9B92-D1CEC063F153
 +  Functions: 4964
 +  Symbols:   738
-+  CStrings:  8988
++  CStrings:  10530
  
 Symbols:
 + _OBJC_CLASS_$_MSDKPeerDemoAXSettings

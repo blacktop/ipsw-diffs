@@ -86,12 +86,14 @@
 +  - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE0FC2D4-9107-308D-A741-CB2DED30802D
 -  Functions: 898
 -  Symbols:   3683
--  CStrings:  1863
+-  CStrings:  2023
++  UUID: E8E66C3D-0DE4-378F-B2DF-97EC45499080
 +  Functions: 1026
 +  Symbols:   4183
-+  CStrings:  2013
++  CStrings:  2203
  
 Symbols:
 + +[BundleControllerHelper sharedInstance]

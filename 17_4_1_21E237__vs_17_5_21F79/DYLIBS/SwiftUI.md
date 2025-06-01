@@ -76,11 +76,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x1f40
 -  __AUTH_CONST.__auth_got: 0x4750
 -  __AUTH.__objc_data: 0x7f80
 -  __AUTH.__data: 0x33c20
-+  __AUTH_CONST.__auth_ptr: 0x1f60
 +  __AUTH_CONST.__auth_got: 0x4760
 +  __AUTH.__objc_data: 0x7ea8
 +  __AUTH.__data: 0x33e50
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 052E3831-5D20-3D88-9666-B92EBE26278D
 -  Functions: 217990
 -  Symbols:   81105
--  CStrings:  7801
+-  CStrings:  7883
++  UUID: C1325FDA-9DA2-39D2-AB83-A338B4D8A884
 +  Functions: 218730
 +  Symbols:   81406
-+  CStrings:  7848
++  CStrings:  7930
  
 Symbols:
 + _OBJC_CLASS_$_UICanvasFeedbackGenerator

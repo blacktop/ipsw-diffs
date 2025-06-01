@@ -29,11 +29,15 @@
    __DATA.__objc_superrefs: 0x58
    __DATA.__objc_ivar: 0xfc
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 450DFCB8-7320-361A-9234-FBEF3D6D62F9
++  UUID: 0E076A27-5CC4-3C20-B932-96D8CF5B8A17
    Functions: 356
    Symbols:   307
--  CStrings:  1284
-+  CStrings:  1285
+-  CStrings:  1372
++  CStrings:  1373
  
 CStrings:
 + "synchronize"

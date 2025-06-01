@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0BCE7EF4-4933-3640-A521-86427087F44F
 -  Functions: 8746
 -  Symbols:   308
--  CStrings:  1396
+-  CStrings:  1399
++  UUID: 92314AA9-EE80-304E-B0E1-B32A4D9C9E58
 +  Functions: 8727
 +  Symbols:   309
-+  CStrings:  1401
++  CStrings:  1404
  
 Symbols:
 + _OBJC_CLASS_$_SRUIFInstrumentationManager

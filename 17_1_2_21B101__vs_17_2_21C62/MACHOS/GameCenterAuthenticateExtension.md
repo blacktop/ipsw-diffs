@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5FBCC550-BA0B-3EA7-A461-C376903DDE40
 -  Functions: 49
 -  Symbols:   93
--  CStrings:  194
+-  CStrings:  205
++  UUID: 933F43E4-0362-38A3-B282-7633E93809E0
 +  Functions: 53
 +  Symbols:   97
-+  CStrings:  197
++  CStrings:  209
  
 Symbols:
 + _GKExtensionMessageParamKey

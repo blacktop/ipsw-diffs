@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0x1c2
    __TEXT.__objc_methname: 0x4a6a
 
+   __AUTH_CONST.__const: 0x1aff8
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x430
    __AUTH_CONST.__auth_got: 0x1d70
 -  __AUTH.__objc_data: 0x2a70
 -  __AUTH.__data: 0x3ed0
@@ -43,5 +43,14 @@
    __DATA_DIRTY.__common: 0x1e8
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 62DD783A-B2D6-38CF-895F-5CC35EA5070A
++  UUID: 68CC3728-D96D-37B6-AE7F-6F22B5E35429
+   Functions: 19955
+   Symbols:   5839
+   CStrings:  2133
 
 ```

@@ -66,11 +66,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x80
    __DATA_CONST.__objc_arraydata: 0x10
 -  __AUTH_CONST.__const: 0xc610
--  __AUTH_CONST.__auth_ptr: 0x250
 -  __AUTH_CONST.__objc_const: 0xca0
 -  __AUTH_CONST.__cfstring: 0x400
 +  __AUTH_CONST.__const: 0xc658
-+  __AUTH_CONST.__auth_ptr: 0x258
 +  __AUTH_CONST.__objc_const: 0xc58
 +  __AUTH_CONST.__cfstring: 0x2c0
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -99,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 69CAB6AF-9F16-33A1-8B74-4EF30513B69B
 -  Functions: 7515
 -  Symbols:   4981
--  CStrings:  2026
+-  CStrings:  2058
++  UUID: B26D9FA3-EFCF-3E34-B74F-3963E1D4C0B5
 +  Functions: 7538
 +  Symbols:   4942
-+  CStrings:  2009
++  CStrings:  2031
  
 Symbols:
 + +[WFVariablePillDrawer drawVariableForAppIconNamed:icon:font:tint:size:state:isAvailable:completion:]

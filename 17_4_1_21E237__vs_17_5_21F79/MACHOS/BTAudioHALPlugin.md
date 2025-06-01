@@ -39,11 +39,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: D4569364-F5F9-373D-8537-A349F7B99E2D
 -  Functions: 2218
++  UUID: 9C5AFD0E-16EE-3395-A253-6CC5EDB07570
 +  Functions: 2219
    Symbols:   430
--  CStrings:  1966
-+  CStrings:  1969
+-  CStrings:  2073
++  CStrings:  2077
  
 CStrings:
 + "Accessory mSpatialAudioSupported Overwritten %d for mAudioObjectID %d"

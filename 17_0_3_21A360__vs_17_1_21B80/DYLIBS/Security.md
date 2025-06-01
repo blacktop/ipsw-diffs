@@ -43,17 +43,19 @@
 +  __DATA_CONST.__objc_selrefs: 0x29d0
    __DATA_CONST.__objc_arraydata: 0xe8
    __AUTH_CONST.__const: 0x3c98
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__cfstring: 0x13c00
 
    - /usr/lib/libcoretls_cfhelpers.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F26E6746-906F-37B4-8DEA-BFBE5A8E991F
 -  Functions: 6308
 -  Symbols:   18268
--  CStrings:  7396
+-  CStrings:  9924
++  UUID: 33822475-2F15-3614-B6C5-AFCFB3F58740
 +  Functions: 6315
 +  Symbols:   18281
-+  CStrings:  7404
++  CStrings:  9932
  
 Symbols:
 + -[OTControl areRecoveryKeysDistrusted:reply:]

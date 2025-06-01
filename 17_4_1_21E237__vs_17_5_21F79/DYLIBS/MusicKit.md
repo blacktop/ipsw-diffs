@@ -21,8 +21,8 @@
    __TEXT.__objc_classname: 0xa3a
    __TEXT.__objc_methname: 0x55a0
 
+   __AUTH_CONST.__const: 0x277f0
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x6b0
    __AUTH_CONST.__auth_got: 0x1510
 -  __AUTH.__objc_data: 0xaa8
 -  __AUTH.__data: 0x4d38
@@ -47,12 +47,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA447A1D-7659-394A-8B4F-14D32956AF90
++  UUID: E8E553AE-DF0E-386F-BC93-6075981E179B
    Functions: 46449
 -  Symbols:   30026
 +  Symbols:   30024
-   CStrings:  2601
+   CStrings:  2671
  
 
 ```

@@ -27,4 +27,13 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x140
 
+   - /System/Library/PrivateFrameworks/AdCore.framework/AdCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E92935EE-EDA3-3D11-811A-6284A7E8F839
++  UUID: 26652D5A-3848-3631-8E32-95D3653763D4
+   Functions: 46
+   Symbols:   263
+   CStrings:  145
+
 ```

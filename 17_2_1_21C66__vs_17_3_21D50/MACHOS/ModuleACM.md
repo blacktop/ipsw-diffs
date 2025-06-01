@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47F3F3C3-04C8-3FC6-ABF4-BC9A7A50D0C6
 -  Functions: 300
 -  Symbols:   170
--  CStrings:  927
+-  CStrings:  1110
++  UUID: 12968DC9-9A26-382B-95F5-053931552BD1
 +  Functions: 349
 +  Symbols:   178
-+  CStrings:  1032
++  CStrings:  1224
  
 Symbols:
 + _CFStringCompare

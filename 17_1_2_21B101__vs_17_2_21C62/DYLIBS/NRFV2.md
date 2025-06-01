@@ -20,6 +20,15 @@
    __TEXT.__objc_stubs: 0x7060
    __DATA_CONST.__got: 0x390
    __DATA_CONST.__const: 0x6d8
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8BCFB833-FCCA-37D1-B054-144C4228B797
++  UUID: A6107CD8-AAE9-35D6-8303-3862C5323CF8
+   Functions: 1526
+   Symbols:   345
+   CStrings:  6965
 CStrings:
 + "i324@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120{CGRect={CGPoint=dd}{CGSize=dd}}128f160f164i168Q172[10{?={CGRect={CGPoint=dd}{CGSize=dd}}SSS}]180B188B192f196{?=fffffffffBffffffffffffB}200@292@300@308@316"
 - "i320@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120{CGRect={CGPoint=dd}{CGSize=dd}}128f160f164i168Q172[10{?={CGRect={CGPoint=dd}{CGSize=dd}}SSS}]180B188B192f196{?=fffffffffBffffffffffff}200@288@296@304@312"

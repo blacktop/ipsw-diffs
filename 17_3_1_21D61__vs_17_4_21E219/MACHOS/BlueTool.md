@@ -21,6 +21,15 @@
    __DATA.__data: 0x990
    __DATA.__bss: 0x1551
    __DATA.__common: 0x4c2
+
+   - /usr/lib/libedit.3.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 60735F22-2430-30D8-B7CF-D474C548386B
++  UUID: 74D8EC05-D444-3D80-AEFC-550EB0FBB342
+   Functions: 2043
+   Symbols:   217
+   CStrings:  1766
 CStrings:
 + "0076f9ebd4110ee190ab0f4333d72c2b5c2da886990e4b2d4699e3bf9a0a83bb"
 + "00ec734dbca8781f57f4139b8b7c0996807d3ee4afdffe3daf493ebd666a8501"

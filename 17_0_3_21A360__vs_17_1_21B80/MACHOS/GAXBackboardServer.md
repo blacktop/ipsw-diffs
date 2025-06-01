@@ -34,12 +34,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 72020DFE-CD13-33F5-8790-9A396FB15D79
 -  Functions: 1044
 -  Symbols:   560
--  CStrings:  2168
+-  CStrings:  2595
++  UUID: F386CEB0-59A9-36EF-A3B3-E2AAC199F1F5
 +  Functions: 1045
 +  Symbols:   561
-+  CStrings:  2171
++  CStrings:  2599
  
 Symbols:
 + ___NSDictionary0__struct

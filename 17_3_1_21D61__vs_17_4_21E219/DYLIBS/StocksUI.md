@@ -62,10 +62,8 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
 -  __AUTH_CONST.__const: 0x21de0
--  __AUTH_CONST.__auth_ptr: 0x1118
 -  __AUTH_CONST.__auth_got: 0x6f80
 +  __AUTH_CONST.__const: 0x21e40
-+  __AUTH_CONST.__auth_ptr: 0x1110
 +  __AUTH_CONST.__auth_got: 0x6fa0
    __AUTH.__objc_data: 0x3010
 -  __AUTH.__data: 0x3c70
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C155425-7545-31E3-8E89-3B976A572EE5
 -  Functions: 21594
 -  Symbols:   7099
--  CStrings:  4327
+-  CStrings:  4335
++  UUID: 473E4790-A8FC-32CA-94EF-3B1F28F8A47E
 +  Functions: 21734
 +  Symbols:   7103
-+  CStrings:  4363
++  CStrings:  4371
  
 Symbols:
 + __PROTOCOLS__TtCC8StocksUI24StockChartViewControllerP33_E483C2B618A7CE6B48867B145DEE9A5212ErrorContext.16

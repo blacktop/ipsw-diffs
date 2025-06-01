@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7849E625-0E84-3E71-A5C7-CEAC7BA48EC6
++  UUID: 61770AAF-0715-3544-91ED-94CCB2FEBB83
+   Functions: 4142
+   Symbols:   393
+   CStrings:  742
+
 ```

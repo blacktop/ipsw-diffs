@@ -48,13 +48,16 @@
    - /System/Library/PrivateFrameworks/MobileStoreUI.framework/MobileStoreUI
    - /System/Library/PrivateFrameworks/MusicStoreUI.framework/MusicStoreUI
 
+   - /System/Library/PrivateFrameworks/iTunesStoreUI.framework/iTunesStoreUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 40A24C08-E268-3F48-A4FA-7945EF9646DD
++  UUID: 8512CEC4-8159-3C41-9F07-F1747AB4FC25
    Functions: 92
 -  Symbols:   141
--  CStrings:  536
+-  CStrings:  607
 +  Symbols:   144
-+  CStrings:  541
++  CStrings:  612
  
 Symbols:
 + _SUUIConfigurationKeyStopPages

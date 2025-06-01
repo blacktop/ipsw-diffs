@@ -73,12 +73,10 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x4f18
--  __AUTH_CONST.__auth_ptr: 0x4b8
 -  __AUTH_CONST.__auth_got: 0x20b0
 -  __AUTH.__objc_data: 0xa0
 -  __AUTH.__data: 0x58
 +  __AUTH_CONST.__const: 0x5468
-+  __AUTH_CONST.__auth_ptr: 0x510
 +  __AUTH_CONST.__auth_got: 0x2150
 +  __AUTH.__objc_data: 0x1f0
 +  __AUTH.__data: 0x80
@@ -115,12 +113,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3F21B69-2480-32F7-97EA-F2EE48F0D770
 -  Functions: 13397
 -  Symbols:   8561
--  CStrings:  3891
+-  CStrings:  4104
++  UUID: 4A8764E8-C049-31EA-94BD-E3F9F9876388
 +  Functions: 13252
 +  Symbols:   8685
-+  CStrings:  3850
++  CStrings:  4010
  
 Symbols:
 + -[SFSuggestionEngagementFeedback(VisualIntelligence) VI_searchSuggestionFactory]

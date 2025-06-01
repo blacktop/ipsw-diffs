@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E68599E9-3D9E-3E8B-AD60-8AD75DA5851E
++  UUID: 2DD8DE08-5B56-34ED-932A-97F84F60AA57
+   Functions: 4
+   Symbols:   22
+   CStrings:  11
+
 ```

@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 035726E1-C50B-3901-AE16-24034EBDF5AB
 -  Functions: 373
 -  Symbols:   318
--  CStrings:  1180
+-  CStrings:  1264
++  UUID: 78C8FC3B-F9A5-322D-B6A7-2D6E669C0863
 +  Functions: 383
 +  Symbols:   325
-+  CStrings:  1192
++  CStrings:  1278
  
 Symbols:
 + _NSCocoaErrorDomain

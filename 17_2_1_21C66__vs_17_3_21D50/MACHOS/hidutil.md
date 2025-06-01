@@ -41,12 +41,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B157F5E-6BE8-3D0C-8183-522C7E49232C
 -  Functions: 30
 -  Symbols:   90
--  CStrings:  126
+-  CStrings:  175
++  UUID: AA0C1577-5F6D-343C-998D-B693CD3ACB5D
 +  Functions: 32
 +  Symbols:   93
-+  CStrings:  130
++  CStrings:  181
  
 Symbols:
 + _geteuid

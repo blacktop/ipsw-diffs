@@ -16,15 +16,16 @@
 -  __TEXT.__unwind_info: 0x1b0
 +  __TEXT.__unwind_info: 0x1ac
    __DATA_CONST.__got: 0x8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x170
 +  __AUTH_CONST.__auth_got: 0x178
    __DATA.__data: 0x294
    __DATA.__bss: 0x760
    __DATA_DIRTY.__const: 0x20
-
+   __DATA_DIRTY.__data: 0x58
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcharset.1.dylib
+-  UUID: DF28F9EE-AB38-3EBC-8DF4-6230A8AF78AF
++  UUID: D9E3080A-E226-3729-8EC2-A2CAE525100C
    Functions: 131
 -  Symbols:   231
 +  Symbols:   232

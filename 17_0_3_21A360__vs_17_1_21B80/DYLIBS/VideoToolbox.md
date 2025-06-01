@@ -31,10 +31,9 @@
    __DATA_CONST.__objc_selrefs: 0x230
 -  __AUTH_CONST.__cfstring: 0x7f40
 -  __AUTH_CONST.__const: 0x40c98
+-  __AUTH_CONST.__auth_got: 0x18d0
 +  __AUTH_CONST.__cfstring: 0x7fe0
 +  __AUTH_CONST.__const: 0x40cb0
-   __AUTH_CONST.__auth_ptr: 0x68
--  __AUTH_CONST.__auth_got: 0x18d0
 +  __AUTH_CONST.__auth_got: 0x1900
    __AUTH.__data: 0x38
    __DATA.__objc_classrefs: 0x40
@@ -43,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C68953F2-151B-3FBB-87C1-B9490CD4AA0C
 -  Functions: 5951
 -  Symbols:   14272
--  CStrings:  1418
+-  CStrings:  2436
++  UUID: 7D08D77B-F052-3AF0-9E77-229AD2D6669C
 +  Functions: 5955
 +  Symbols:   14294
-+  CStrings:  1430
++  CStrings:  2453
  
 Symbols:
 + _CMTaggedBufferGroupGetCount

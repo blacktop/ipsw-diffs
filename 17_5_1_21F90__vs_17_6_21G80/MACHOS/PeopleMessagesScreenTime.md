@@ -40,7 +40,11 @@
    __DATA.__common: 0x158
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7F3F6DC-E126-3B8A-B5F6-32E49E2F09CE
++  UUID: D9B6252F-1CC7-3AAE-8011-8C33CC64A08E
    Functions: 585
    Symbols:   175
 -  CStrings:  297

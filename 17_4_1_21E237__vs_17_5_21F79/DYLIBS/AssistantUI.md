@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x13697
    __TEXT.__objc_methtype: 0x4090
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E96D9253-ECDE-3CA9-B39C-9ED04CB8DDB7
++  UUID: 3C5B9BAF-0829-33D9-B262-F8A82FF91E83
+   Functions: 1896
+   Symbols:   7383
+   CStrings:  4409
+
 ```

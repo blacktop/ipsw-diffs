@@ -60,7 +60,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x1f8
 +  __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x988
 -  __AUTH.__objc_data: 0x320
 -  __DATA.__got_weak: 0x58
@@ -86,12 +85,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AD81CE9C-8867-3247-8822-FFAF8DA07EE7
 -  Functions: 2019
 -  Symbols:   7288
--  CStrings:  3662
+-  CStrings:  4226
++  UUID: C119B108-01A6-39C6-92D7-E18229F7AFE0
 +  Functions: 2049
 +  Symbols:   7377
-+  CStrings:  3670
++  CStrings:  4202
  
 Symbols:
 + +[ADNetworkProvider getAlternativePathForNetwork:]

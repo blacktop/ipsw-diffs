@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46A86714-F86F-3A6E-9201-038FD6C08CCC
 -  Functions: 1113
 -  Symbols:   580
--  CStrings:  1156
+-  CStrings:  1160
++  UUID: 3DC41DA6-F77A-32B2-A8E8-52EF5239C7A9
 +  Functions: 1124
 +  Symbols:   581
-+  CStrings:  1159
++  CStrings:  1163
  
 Symbols:
 + _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC

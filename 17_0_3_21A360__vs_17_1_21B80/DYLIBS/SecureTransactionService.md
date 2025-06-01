@@ -41,7 +41,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x12d0
 +  __DATA_CONST.__objc_selrefs: 0x12c8
    __AUTH_CONST.__const: 0x300
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0x2800
 -  __AUTH_CONST.__objc_intobj: 0xe40
 +  __AUTH_CONST.__cfstring: 0x27a0
@@ -50,11 +49,15 @@
    __AUTH_CONST.__auth_got: 0x438
    __AUTH.__objc_data: 0x1130
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 8A23E330-1919-3FB6-842B-893D8ECBAE5E
++  UUID: CDC7A153-433A-35A3-9A3B-AD01A5BA2236
    Functions: 856
    Symbols:   255
--  CStrings:  1816
-+  CStrings:  1813
+-  CStrings:  2136
++  CStrings:  2130
  
 CStrings:
 + "-[STSSession(Identity) _activateSendRequestCompletion:error:]"

@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78AAE3FD-C057-3DAF-BCE4-0348ABA8865F
 -  Functions: 1509
 -  Symbols:   5197
--  CStrings:  2842
+-  CStrings:  3383
++  UUID: 8F57822A-8EE8-368D-8617-913CFC0442F3
 +  Functions: 1511
 +  Symbols:   5203
-+  CStrings:  2848
++  CStrings:  3392
  
 Symbols:
 + +[TASPAdvertisement TASPAdvertisementBatteryStateToString:]

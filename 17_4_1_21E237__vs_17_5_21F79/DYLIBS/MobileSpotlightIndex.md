@@ -52,12 +52,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AE82E959-FF3A-33F5-8493-85E591181BC5
 -  Functions: 6931
 -  Symbols:   20405
--  CStrings:  5567
+-  CStrings:  6041
++  UUID: 53F33309-3A12-36BE-8242-FA010FEBE73A
 +  Functions: 6933
 +  Symbols:   20411
-+  CStrings:  5576
++  CStrings:  6050
  
 Symbols:
 + _MurmurHash3_x86_32.9580

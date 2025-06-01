@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x198
    __AUTH_CONST.__objc_dictobj: 0x8c0
    __AUTH_CONST.__objc_intobj: 0x660
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_floatobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x1320
@@ -61,12 +60,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 56742706-7080-3F44-B4FA-8D022888D3D7
 -  Functions: 10938
 -  Symbols:   35442
--  CStrings:  21900
+-  CStrings:  25426
++  UUID: E6674959-8326-3D15-B6B0-1E462A5F341F
 +  Functions: 10940
 +  Symbols:   35451
-+  CStrings:  21902
++  CStrings:  25428
  
 Symbols:
 + _SFGetStandardQueue

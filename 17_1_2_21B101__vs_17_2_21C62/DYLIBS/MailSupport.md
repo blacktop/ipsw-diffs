@@ -28,13 +28,16 @@
    __DATA.__objc_superrefs: 0x178
    __DATA.__objc_ivar: 0x2dc
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 965C8D58-6F24-3E4F-A7C5-1AD16B9350F2
++  UUID: 1A2A9A6E-C345-3130-9524-98C438657BDD
    Functions: 1004
 -  Symbols:   4163
--  CStrings:  2246
+-  CStrings:  2929
 +  Symbols:   4162
-+  CStrings:  2244
++  CStrings:  2927
  
 Symbols:
 - __os_feature_enabled_impl

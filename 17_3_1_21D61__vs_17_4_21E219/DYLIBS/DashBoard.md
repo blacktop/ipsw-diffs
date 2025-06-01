@@ -83,7 +83,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x228
 -  __AUTH_CONST.__objc_doubleobj: 0x110
 -  __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x958
 -  __AUTH.__objc_data: 0x3b08
 -  __AUTH.__data: 0xe8
@@ -95,7 +94,6 @@
 -  __DATA.__bss: 0x318
 -  __DATA.__common: 0x58
 +  __AUTH_CONST.__objc_dictobj: 0xc8
-+  __AUTH_CONST.__auth_ptr: 0xd0
 +  __AUTH_CONST.__auth_got: 0x1d88
 +  __AUTH.__objc_data: 0x5d48
 +  __AUTH.__data: 0x10a0
@@ -171,12 +169,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E6C3D4E5-4241-303D-A6CD-3491598AE1A7
 -  Functions: 4948
 -  Symbols:   18091
--  CStrings:  9190
+-  CStrings:  10061
++  UUID: 8ECDA56A-1BF1-3A8E-958D-4FF402DFA71C
 +  Functions: 7899
 +  Symbols:   21500
-+  CStrings:  10740
++  CStrings:  11677
  
 Symbols:
 + +[DBDashboardOEMPunchthroughEntity oemPunchthroughEntityForIdentifier:]

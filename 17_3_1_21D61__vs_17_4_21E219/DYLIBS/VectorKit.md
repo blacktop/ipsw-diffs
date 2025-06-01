@@ -50,8 +50,7 @@
 +  __AUTH_CONST.__const: 0x61860
    __AUTH_CONST.__cfstring: 0x7ca0
    __AUTH_CONST.__objc_const: 0x3bb8
-   __AUTH_CONST.__auth_ptr: 0x78
-
+   __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_doubleobj: 0x170
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x78
@@ -95,12 +94,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DCF955FE-1534-3C88-9E95-7A2E06C64A11
 -  Functions: 52011
 -  Symbols:   130817
--  CStrings:  28476
+-  CStrings:  29473
++  UUID: 75195D59-5670-3494-8B35-3F99E78BB358
 +  Functions: 52144
 +  Symbols:   130995
-+  CStrings:  28490
++  CStrings:  29487
  
 Symbols:
 + -[VKMapView initWithLayer:]

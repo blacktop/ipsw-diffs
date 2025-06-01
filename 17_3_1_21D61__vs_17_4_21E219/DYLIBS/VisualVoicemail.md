@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F4570D2-7FB7-3ED7-9C77-8FD8F7116FB1
 -  Functions: 676
 -  Symbols:   2441
--  CStrings:  1170
+-  CStrings:  1295
++  UUID: 8B390330-EF6B-302F-A992-343B66212116
 +  Functions: 677
 +  Symbols:   2444
-+  CStrings:  1179
++  CStrings:  1304
  
 Symbols:
 + -[VMVoicemailManager _fetchInitialStateIfNecessaryWithForce:waitStates:waitMails:waitAccounts:session:]

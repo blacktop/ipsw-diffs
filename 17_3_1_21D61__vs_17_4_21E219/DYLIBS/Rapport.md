@@ -74,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 99AD67E8-63EF-3842-B6CA-6EBADDE81109
 -  Functions: 2961
 -  Symbols:   9321
--  CStrings:  5634
+-  CStrings:  6191
++  UUID: B37A8868-7104-3214-A4BF-E8AEBD583606
 +  Functions: 3142
 +  Symbols:   9843
-+  CStrings:  5837
++  CStrings:  6407
  
 Symbols:
 + +[RPNearbyInvitationDevice supportsSecureCoding]

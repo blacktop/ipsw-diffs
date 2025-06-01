@@ -1,0 +1,22 @@
+## libDECHanyu.dylib
+
+> `/usr/lib/i18n/libDECHanyu.dylib`
+
+```diff
+
+-92.80.2.0.0
++99.0.0.0.0
+   __TEXT.__text: 0x5e0
+   __TEXT.__auth_stubs: 0x40
+   __TEXT.__const: 0x10
+
+   __AUTH.__data: 0x58
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+-  UUID: B60C1B84-69BD-3388-9509-2D69B5D7BB06
++  UUID: E485FA0A-3A4C-32CE-B625-208F77F9B8FD
+   Functions: 11
+   Symbols:   26
+   CStrings:  0
+
+```

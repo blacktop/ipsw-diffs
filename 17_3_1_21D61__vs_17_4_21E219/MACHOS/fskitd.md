@@ -45,12 +45,15 @@
    __DATA.__objc_data: 0x3c0
    __DATA.__data: 0x2b0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 529CE7C9-7836-3BD9-BD74-92C7DA11E0A9
++  UUID: 5A00FDDA-4058-3377-BF07-E01F0FB1E7D4
    Functions: 815
 -  Symbols:   246
 +  Symbols:   244
-   CStrings:  1224
+   CStrings:  1283
  
 Symbols:
 - _kill

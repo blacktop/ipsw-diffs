@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__auth_got: 0xef8
 -  __AUTH.__objc_data: 0xc10
 +  __AUTH_CONST.__auth_got: 0xeb8
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C98039EA-B144-33FE-A25E-1AAA24248FF9
 -  Functions: 4637
 -  Symbols:   6842
--  CStrings:  3786
+-  CStrings:  4057
++  UUID: E4609425-E9C6-36AE-B0B3-1BE2A1028E56
 +  Functions: 4630
 +  Symbols:   6871
-+  CStrings:  3772
++  CStrings:  4044
  
 Symbols:
 + -[MessageListCellHelper isLocalMailboxSearchScope]

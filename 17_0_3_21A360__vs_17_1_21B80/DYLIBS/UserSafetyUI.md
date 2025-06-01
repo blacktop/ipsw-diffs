@@ -35,7 +35,6 @@
    __AUTH_CONST.__objc_const: 0x398
    __AUTH_CONST.__cfstring: 0x7c0
    __AUTH_CONST.__const: 0x1e0
-
    __AUTH_CONST.__auth_got: 0x258
    __AUTH.__objc_data: 0x230
    __AUTH.__data: 0x98
@@ -48,12 +47,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E90A6CC8-6FD7-3821-B2BA-604E2463AEBF
 -  Functions: 137
 -  Symbols:   447
--  CStrings:  199
+-  CStrings:  261
++  UUID: C7AB88EB-4D6B-3AA1-B92B-E441A6277222
 +  Functions: 135
 +  Symbols:   439
-+  CStrings:  195
++  CStrings:  257
  
 Symbols:
 - _MOUserSafetyInterventionTypeTeen

@@ -42,12 +42,16 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 260E899D-0107-3059-8625-B13693821B4B
++  UUID: A05E77A7-2EE9-34B0-A2C7-BD0C032C3374
    Functions: 404
 -  Symbols:   1903
+-  CStrings:  1883
 +  Symbols:   1902
-   CStrings:  1368
++  CStrings:  1884
  
 Symbols:
 - _objc_msgSend$isRestrictedByEU_GDPR

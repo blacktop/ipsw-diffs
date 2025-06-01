@@ -48,13 +48,16 @@
    __DATA.__objc_classrefs: 0x128
    __DATA.__objc_superrefs: 0x28
 
+   - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7C26087-23C7-38C3-8225-D5F6B7A1930B
++  UUID: E3D24788-8790-35C8-86B6-ACDDBA045E3E
    Functions: 142
 -  Symbols:   135
--  CStrings:  423
+-  CStrings:  444
 +  Symbols:   136
-+  CStrings:  422
++  CStrings:  443
  
 Symbols:
 + _CLKInterpolateBetweenColors

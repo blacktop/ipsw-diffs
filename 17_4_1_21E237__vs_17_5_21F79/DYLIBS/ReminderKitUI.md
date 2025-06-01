@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7B9786EE-2E26-3ED2-B660-15B84F8BC30B
++  UUID: D2CEA24E-024A-38AF-97DC-779065FA6994
+   Functions: 71
+   Symbols:   378
+   CStrings:  217
+
 ```

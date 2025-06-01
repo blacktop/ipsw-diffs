@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B6D5EF4-A700-38AB-B961-33483AE3551F
++  UUID: 5290B18A-BBB8-32D8-B218-A3F18C387366
    Functions: 2
    Symbols:   33
 -  CStrings:  66

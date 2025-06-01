@@ -54,11 +54,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1CE9DC04-B26B-3C22-9599-C2E339D8D594
 -  Functions: 1040
++  UUID: 11B22C6A-20B7-3BBE-A23A-357676C4411A
 +  Functions: 1049
    Symbols:   253
--  CStrings:  2435
-+  CStrings:  2457
+-  CStrings:  3375
++  CStrings:  3403
  
 CStrings:
 + "%@: 0x%08X"

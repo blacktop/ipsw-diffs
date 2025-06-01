@@ -101,12 +101,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 27A2E5E8-2AF5-3D10-9CC3-9454655AF314
 -  Functions: 15231
 -  Symbols:   49776
--  CStrings:  26589
+-  CStrings:  30656
++  UUID: E6DCD95B-3088-3E74-BB5C-137DC1FC0CC4
 +  Functions: 15443
 +  Symbols:   50439
-+  CStrings:  26963
++  CStrings:  31072
  
 Symbols:
 + +[RTAuthorizedLocationManager _locationAvailabilityFromCLLocation:]

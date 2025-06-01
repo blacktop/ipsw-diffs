@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 885E353C-3643-325A-8AF6-50D6CC9D90D7
 -  Functions: 10377
 -  Symbols:   1103
--  CStrings:  10433
+-  CStrings:  12137
++  UUID: E2CFF0A5-11BB-3770-8EE8-0E0426A6F1DA
 +  Functions: 10383
 +  Symbols:   1105
-+  CStrings:  10447
++  CStrings:  12152
  
 Symbols:
 + _kKTStatusIDSAccount

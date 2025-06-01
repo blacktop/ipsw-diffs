@@ -44,17 +44,16 @@
 -  __DATA_CONST.__objc_const: 0x3fa0
 -  __DATA_CONST.__objc_selrefs: 0x1210
 -  __AUTH_CONST.__const: 0x4980
-+  __DATA_CONST.__objc_const: 0x3fe8
-+  __DATA_CONST.__objc_selrefs: 0x1230
-+  __DATA_CONST.__objc_classrefs: 0x3e0
-+  __DATA_CONST.__objc_superrefs: 0x180
-+  __AUTH_CONST.__const: 0x49b0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__cfstring: 0x1d20
 -  __AUTH_CONST.__objc_const: 0x15a8
 -  __AUTH_CONST.__auth_got: 0x1660
 -  __AUTH.__const_weak: 0x3670
 -  __AUTH.__objc_data: 0xeb0
++  __DATA_CONST.__objc_const: 0x3fe8
++  __DATA_CONST.__objc_selrefs: 0x1230
++  __DATA_CONST.__objc_classrefs: 0x3e0
++  __DATA_CONST.__objc_superrefs: 0x180
++  __AUTH_CONST.__const: 0x49b0
 +  __AUTH_CONST.__cfstring: 0x1dc0
 +  __AUTH_CONST.__objc_const: 0x15f0
 +  __AUTH_CONST.__auth_got: 0x1650
@@ -78,12 +77,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C9B4E1A-43B1-39E1-A744-0D81886E4265
 -  Functions: 7780
 -  Symbols:   21634
--  CStrings:  3579
+-  CStrings:  3812
++  UUID: 01BC1963-F9F1-3653-BB5B-24232B71F216
 +  Functions: 7797
 +  Symbols:   21428
-+  CStrings:  3601
++  CStrings:  3839
  
 Symbols:
 + +[SNLPAssetVersionChecker loadNSNumberListFromPlistURL:]

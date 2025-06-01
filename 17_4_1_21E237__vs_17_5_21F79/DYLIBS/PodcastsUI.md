@@ -78,11 +78,9 @@
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_intobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x3b8
 -  __AUTH_CONST.__auth_got: 0x2e60
 -  __AUTH.__objc_data: 0x1a28
 -  __AUTH.__data: 0x1610
-+  __AUTH_CONST.__auth_ptr: 0x3e0
 +  __AUTH_CONST.__auth_got: 0x30f0
 +  __AUTH.__objc_data: 0x19d8
 +  __AUTH.__data: 0x1840
@@ -119,12 +117,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 755A9549-0EC0-3D47-A5AA-BBE66091B06E
 -  Functions: 10890
 -  Symbols:   9681
--  CStrings:  5118
+-  CStrings:  5485
++  UUID: F5138DFE-B713-36B9-9093-729808928062
 +  Functions: 11409
 +  Symbols:   9776
-+  CStrings:  5177
++  CStrings:  5544
  
 Symbols:
 + -[IMPlayerItem updateTranscriptInformation:transcriptSource:]

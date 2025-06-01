@@ -43,7 +43,6 @@
    __AUTH_CONST.__objc_const: 0xae8
 -  __AUTH_CONST.__cfstring: 0x1080
 +  __AUTH_CONST.__cfstring: 0x10a0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x3d0
 -  __AUTH_CONST.__auth_got: 0x650
 -  __AUTH.__objc_data: 0x5a0
@@ -64,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16FE1BBD-51C8-3A9D-9F6F-AA9E7D17BD45
 -  Functions: 1032
 -  Symbols:   3187
--  CStrings:  2316
+-  CStrings:  2448
++  UUID: F9723CFF-68E0-3119-A2F3-2A0E15E37D2D
 +  Functions: 1033
 +  Symbols:   3190
-+  CStrings:  2328
++  CStrings:  2461
  
 Symbols:
 + -[IOGPUMetalCommandBuffer setResponsibleTaskIDs:count:]

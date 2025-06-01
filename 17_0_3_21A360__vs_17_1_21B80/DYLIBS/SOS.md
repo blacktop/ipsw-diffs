@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0x4c10
    __TEXT.__dlopen_cstrs: 0x403
    __TEXT.__unwind_info: 0xd58
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C6C0BD45-052B-3005-BFBA-7E80A56EB743
++  UUID: B64EDBC3-77B7-34F8-851F-2E37FFF98477
+   Functions: 1234
+   Symbols:   4266
+   CStrings:  2888
 Symbols:
 + ___18-[SOSManager init]_block_invoke.296
 + ___18-[SOSManager init]_block_invoke.300

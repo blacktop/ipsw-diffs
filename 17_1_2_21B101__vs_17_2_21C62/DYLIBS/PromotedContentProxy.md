@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AdPlatformsCommon.framework/AdPlatformsCommon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5F8CACC4-1E23-3895-8B7F-C4F6327A28CA
++  UUID: 0D43FFA6-0F5A-3332-87A6-9A4E2E8B412C
+   Functions: 165
+   Symbols:   118
+   CStrings:  596
+
 ```

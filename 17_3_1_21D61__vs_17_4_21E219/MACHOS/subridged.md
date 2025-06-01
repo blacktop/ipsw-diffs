@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x460
    __DATA.__data: 0x428
 
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C8731341-5843-3AFC-ABE3-447B6D1022E8
++  UUID: EA6FE6CA-24B8-3B65-BEAD-FA5A0D450DD9
    Functions: 467
    Symbols:   226
--  CStrings:  1166
-+  CStrings:  1167
+-  CStrings:  1354
++  CStrings:  1355
  
 CStrings:
 + "T@\"NSString\",?,R,C"

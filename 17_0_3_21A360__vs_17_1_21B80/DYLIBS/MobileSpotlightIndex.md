@@ -39,16 +39,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __DATA_CONST.__objc_selrefs: 0xf8
 -  __AUTH_CONST.__const: 0x15f70
-+  __DATA_CONST.__objc_const: 0xf0
-+  __DATA_CONST.__objc_selrefs: 0x110
-+  __AUTH_CONST.__const: 0x160f0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x3b20
 -  __AUTH_CONST.__auth_got: 0x1828
 -  __AUTH.__data: 0x16e8
 -  __DATA.__objc_classrefs: 0x28
 -  __DATA.__data: 0x1068
 -  __DATA.__bss: 0x8f8
++  __DATA_CONST.__objc_const: 0xf0
++  __DATA_CONST.__objc_selrefs: 0x110
++  __AUTH_CONST.__const: 0x160f0
 +  __AUTH_CONST.__cfstring: 0x3b40
 +  __AUTH_CONST.__objc_const: 0x48
 +  __AUTH_CONST.__auth_got: 0x1830
@@ -70,12 +69,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 58B1A9FD-1F08-3477-8A04-75B7A9ECBCB6
 -  Functions: 6872
 -  Symbols:   20264
--  CStrings:  5519
+-  CStrings:  5992
++  UUID: 790D59B2-27AB-3869-B188-40AB0F8D85CE
 +  Functions: 6902
 +  Symbols:   20357
-+  CStrings:  5549
++  CStrings:  6023
  
 Symbols:
 + -[SRQueryNumberFormatters dealloc]

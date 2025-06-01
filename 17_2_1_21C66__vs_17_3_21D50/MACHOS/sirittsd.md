@@ -18,6 +18,15 @@
    __TEXT.__swift5_entry: 0x8
    __TEXT.__constg_swiftt: 0x4c4
    __TEXT.__swift5_reflstr: 0x1d4
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A955F213-BE32-3A5A-826C-B6210B1674D1
++  UUID: 74A6F973-F991-3792-BECE-01F9D30E8B85
+   Functions: 444
+   Symbols:   576
+   CStrings:  279
 CStrings:
 + "Received #VoiceSubscription %{public}s for clientId: %{public}s"
 + "Remove not-in-use resource of language %{public}s"

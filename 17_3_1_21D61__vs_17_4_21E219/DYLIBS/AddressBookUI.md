@@ -35,11 +35,15 @@
    __DATA.__data: 0x208
    __DATA.__bss: 0x48
 
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16A5CC9E-8BD8-3248-8DFE-AB5D859CAC67
++  UUID: 7DA5CDF8-0340-3EF2-A333-AE9247F16FC5
    Functions: 165
    Symbols:   696
--  CStrings:  436
-+  CStrings:  437
+-  CStrings:  499
++  CStrings:  500
  
 CStrings:
 + "T@\"NSString\",?,R,C"

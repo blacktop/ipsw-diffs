@@ -64,15 +64,14 @@
    __AUTH_CONST.__cfstring: 0xa0
 -  __AUTH_CONST.__const: 0xc300
 -  __AUTH_CONST.__objc_const: 0x788
-+  __AUTH_CONST.__const: 0xc608
-+  __AUTH_CONST.__objc_const: 0x7d0
-   __AUTH_CONST.__auth_ptr: 0xe8
 -  __AUTH_CONST.__auth_got: 0xec8
 -  __AUTH.__objc_data: 0x62d8
 -  __AUTH.__data: 0x3d40
 -  __DATA.__objc_protorefs: 0x100
 -  __DATA.__objc_classrefs: 0x178
 -  __DATA.__objc_superrefs: 0x20
++  __AUTH_CONST.__const: 0xc608
++  __AUTH_CONST.__objc_const: 0x7d0
 +  __AUTH_CONST.__auth_got: 0xf18
 +  __AUTH.__objc_data: 0x5cd0
 +  __AUTH.__data: 0x3c18
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 19667959-0544-3303-8098-6A9B255F3D72
 -  Functions: 8399
 -  Symbols:   3225
--  CStrings:  2042
+-  CStrings:  2047
++  UUID: 0D0CF4FD-2734-311C-B8B0-D649FB0E596A
 +  Functions: 8496
 +  Symbols:   3283
-+  CStrings:  2080
++  CStrings:  2085
  
 Symbols:
 + _MobileGestalt_copy_productType_obj

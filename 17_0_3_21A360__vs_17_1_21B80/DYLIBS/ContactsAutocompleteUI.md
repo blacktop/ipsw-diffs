@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BB1ED2A-54EB-3688-A92A-8A5B4761E4FD
 -  Functions: 1841
 -  Symbols:   6997
--  CStrings:  3877
+-  CStrings:  4011
++  UUID: 18D3F774-1565-32D3-B184-2533CF200440
 +  Functions: 1849
 +  Symbols:   7035
-+  CStrings:  3883
++  CStrings:  4017
  
 Symbols:
 + +[CNAutocompleteAvatarUtilities os_log]

@@ -52,11 +52,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x1e0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BBDF1A3-076A-3794-A101-A4321F17817B
++  UUID: 10BD2FC8-690A-3D97-A492-2DC580832E1D
    Functions: 475
    Symbols:   198
--  CStrings:  905
-+  CStrings:  909
+-  CStrings:  1165
++  CStrings:  1169
  
 CStrings:
 + "InfoHeuristic: scheduleRefreshAfterDarwinNotification %@; coalescing interval: %f"

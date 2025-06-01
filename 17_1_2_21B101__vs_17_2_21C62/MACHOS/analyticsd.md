@@ -63,11 +63,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C212C7BD-8631-323F-9572-266D6F3BB392
 -  Functions: 5357
++  UUID: 0DAE10F5-88DF-3888-8E7D-ABAA83F05898
 +  Functions: 5343
    Symbols:   612
--  CStrings:  2884
-+  CStrings:  2887
+-  CStrings:  2954
++  CStrings:  2956
  
 CStrings:
 + "@24@0:8^{TelephonyStateDelegate=^^?}16"

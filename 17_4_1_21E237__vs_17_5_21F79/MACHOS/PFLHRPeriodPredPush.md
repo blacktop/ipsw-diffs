@@ -23,4 +23,13 @@
    __DATA_CONST.__const: 0x1b0
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E41D1DA-1FF3-3538-9DCA-96D3D8227763
++  UUID: ABB12185-A2ED-3AC2-87D7-F792A168BDFD
+   Functions: 40
+   Symbols:   63
+   CStrings:  11
+
 ```

@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2F50D778-7EF9-3F58-B8CA-61CE548E9711
++  UUID: 6BD57888-43AB-3CD8-A1CC-4BFBA3F75FFB
+   Functions: 213
+   Symbols:   943
+   CStrings:  626
+
 ```

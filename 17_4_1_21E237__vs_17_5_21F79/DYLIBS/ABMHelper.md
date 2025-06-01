@@ -25,11 +25,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 365CD07C-BCF4-3527-936D-87C099AAC98C
 -  Functions: 3519
 -  Symbols:   9462
++  UUID: 2FFCA4E0-9EA6-3971-9B16-9FF89A406BD1
 +  Functions: 3520
 +  Symbols:   9464
-   CStrings:  1906
+   CStrings:  1965
  
 Symbols:
 + __ZN6config2hw4iPadEv

@@ -56,8 +56,8 @@
 -  __AUTH_CONST.__objc_const: 0xbb38
 +  __AUTH_CONST.__objc_const: 0xbb80
    __AUTH_CONST.__const: 0x1560
-   __AUTH_CONST.__auth_ptr: 0x120
    __AUTH_CONST.__cfstring: 0x2d980
+   __AUTH_CONST.__objc_dictobj: 0x1dd8
 
    __AUTH_CONST.__objc_arrayobj: 0x6f00
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 774A031C-839C-39ED-A1C7-60D3BB55717E
 -  Functions: 8961
 -  Symbols:   29945
--  CStrings:  13877
+-  CStrings:  19713
++  UUID: 9ABF1B44-5342-3A79-97A4-463B6DC9047C
 +  Functions: 8964
 +  Symbols:   29960
-+  CStrings:  13883
++  CStrings:  19719
  
 Symbols:
 + +[_PFRoutines sensitiveIntegerValueForOverride:]

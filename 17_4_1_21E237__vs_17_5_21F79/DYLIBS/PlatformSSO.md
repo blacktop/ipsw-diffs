@@ -46,7 +46,7 @@
 +  __AUTH_CONST.__cfstring: 0x9040
    __AUTH_CONST.__const: 0xb60
    __AUTH_CONST.__objc_intobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_doubleobj: 0x30
 
    __AUTH.__objc_data: 0x2e40
    __DATA.__objc_ivar: 0x6fc
@@ -60,12 +60,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: A3CC1284-27A6-3F2D-B012-4AA0DBBBD273
 -  Functions: 4707
 -  Symbols:   14032
--  CStrings:  4820
+-  CStrings:  5975
++  UUID: 132C947E-00E2-3A01-ACF0-DAACB27F8EE0
 +  Functions: 4716
 +  Symbols:   14058
-+  CStrings:  4829
++  CStrings:  5983
  
 Symbols:
 + -[POAgentAuthenticationProcess handleKeyUpdatesWithPasswordContext:]

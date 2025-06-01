@@ -64,10 +64,8 @@
    __DATA_CONST.__objc_superrefs: 0xa8
    __AUTH_CONST.__objc_const: 0xa10
 -  __AUTH_CONST.__cfstring: 0x1180
--  __AUTH_CONST.__auth_ptr: 0x950
 -  __AUTH_CONST.__const: 0x25720
 +  __AUTH_CONST.__cfstring: 0x1240
-+  __AUTH_CONST.__auth_ptr: 0x958
 +  __AUTH_CONST.__const: 0x258c8
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x2458
@@ -86,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B95470B-8C56-3AF4-8FB9-D322382AC854
 -  Functions: 22934
 -  Symbols:   7222
--  CStrings:  2703
+-  CStrings:  2843
++  UUID: 89F2DFB9-52FF-3734-A0B2-6F8CB37C42BB
 +  Functions: 23037
 +  Symbols:   7260
-+  CStrings:  2728
++  CStrings:  2874
  
 Symbols:
 + _JEMediaActivityAssetPlacementCatchUpToLive

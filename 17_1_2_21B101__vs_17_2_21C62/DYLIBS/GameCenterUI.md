@@ -79,13 +79,11 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0xc48
 -  __AUTH_CONST.__auth_got: 0x3240
 -  __AUTH.__objc_data: 0x15bf8
 -  __AUTH.__data: 0xd258
 -  __DATA.__objc_protorefs: 0x208
 -  __DATA.__objc_classrefs: 0x1040
-+  __AUTH_CONST.__auth_ptr: 0xc90
 +  __AUTH_CONST.__auth_got: 0x3320
 +  __AUTH.__objc_data: 0x15d00
 +  __AUTH.__data: 0xd568
@@ -127,12 +125,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 264656DA-BA54-3FF0-8417-94BE7F143665
 -  Functions: 35427
 -  Symbols:   42050
--  CStrings:  15367
+-  CStrings:  16977
++  UUID: 2E02ECB7-78FF-3078-B45E-B9B1074B649B
 +  Functions: 35968
 +  Symbols:   42380
-+  CStrings:  15422
++  CStrings:  17034
  
 Symbols:
 + +[GKNotificationBanner showBannerWithTitle:message:touchHandler:completionHandler:]

@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_classlist: 0x488
    __DATA_CONST.__objc_catlist: 0x0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49A580BD-0EEF-3A5A-B0B5-53A9087E78AD
++  UUID: 2D7A64CC-02D6-3BA8-B33E-ED449EA137D0
    Functions: 2264
 -  Symbols:   9066
--  CStrings:  3923
+-  CStrings:  4293
 +  Symbols:   9065
-+  CStrings:  3922
++  CStrings:  4292
  
 Symbols:
 + +[CALNDefaultTriggeredEventNotificationMapItemURLProvider _mapItemURLForEventLocation:hypothesis:]

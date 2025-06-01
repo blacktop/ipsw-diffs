@@ -38,12 +38,16 @@
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x160
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A2112F2-4831-3114-B285-D4B67F58346F
++  UUID: E44164A2-A09A-33E6-8127-7D5EEA04C434
    Functions: 124
 -  Symbols:   605
+-  CStrings:  404
 +  Symbols:   607
-   CStrings:  385
++  CStrings:  403
  
 Symbols:
 + _objc_msgSend$addTarget:action:forControlEvents:

@@ -49,7 +49,6 @@
 -  __AUTH_CONST.__cfstring: 0xfca0
 +  __AUTH_CONST.__cfstring: 0xfdc0
    __AUTH_CONST.__const: 0x1960
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x108
    __AUTH_CONST.__objc_arrayobj: 0x150
    __AUTH_CONST.__auth_got: 0xd08
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B431A72-F554-39EB-A6EF-4A519AC6C233
 -  Functions: 6798
 -  Symbols:   21656
--  CStrings:  9533
+-  CStrings:  11554
++  UUID: 9C546859-51BC-3285-899B-A7AFF716128C
 +  Functions: 6811
 +  Symbols:   21690
-+  CStrings:  9563
++  CStrings:  11593
  
 Symbols:
 + +[FPFrameworkOverridesIterator newIteratorForURL:withNotFoundHandler:]

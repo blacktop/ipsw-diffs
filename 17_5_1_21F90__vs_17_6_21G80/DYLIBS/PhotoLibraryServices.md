@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xd0
    __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1f98
 -  __AUTH.__objc_data: 0xe290
 -  __DATA.__objc_ivar: 0x3488
@@ -87,12 +86,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5AC4FC90-B74D-38EE-B0AA-130FA7D53355
 -  Functions: 22532
 -  Symbols:   76884
--  CStrings:  42170
+-  CStrings:  50961
++  UUID: B57B9EF7-E73F-3FEF-81BA-EF262D98B5E5
 +  Functions: 22722
 +  Symbols:   77492
-+  CStrings:  42556
++  CStrings:  51492
  
 Symbols:
 + +[PLAssetComputeSyncJournalEntryPayload detectedFacePropertiesDescription]

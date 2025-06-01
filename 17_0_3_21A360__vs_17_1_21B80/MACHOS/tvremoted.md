@@ -46,12 +46,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5CEBE977-CEA0-3D53-B22F-0649340DCA01
 -  Functions: 266
 -  Symbols:   2122
--  CStrings:  761
+-  CStrings:  803
++  UUID: 3EA59327-BC42-3DED-A0DF-B990DF11B746
 +  Functions: 272
 +  Symbols:   2159
-+  CStrings:  774
++  CStrings:  817
  
 Symbols:
 + -[TVRDServer _updateDevicesWithRecommendations:]

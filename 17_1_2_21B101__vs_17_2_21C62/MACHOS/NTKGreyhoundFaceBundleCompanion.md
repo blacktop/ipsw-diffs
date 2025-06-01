@@ -41,11 +41,15 @@
    __DATA.__objc_superrefs: 0x20
    __DATA.__objc_ivar: 0x44
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E203A488-7D8B-3600-B014-399BF9DE3247
++  UUID: 28F5AA61-F545-3A87-B744-520E6B3656AE
    Functions: 157
    Symbols:   144
--  CStrings:  375
-+  CStrings:  377
+-  CStrings:  497
++  CStrings:  500
  
 CStrings:
 + "%lu"

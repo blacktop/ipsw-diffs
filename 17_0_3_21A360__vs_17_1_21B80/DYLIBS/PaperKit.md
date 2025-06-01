@@ -64,11 +64,9 @@
 -  __AUTH_CONST.__const: 0x16468
 +  __AUTH_CONST.__const: 0x166d0
    __AUTH_CONST.__objc_intobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x450
 -  __AUTH_CONST.__auth_got: 0x2f60
 -  __AUTH.__objc_data: 0x6ac8
 -  __AUTH.__data: 0x5c10
-+  __AUTH_CONST.__auth_ptr: 0x460
 +  __AUTH_CONST.__auth_got: 0x2f80
 +  __AUTH.__objc_data: 0x6bd8
 +  __AUTH.__data: 0x5c50
@@ -94,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3659B1F3-9811-3535-9D13-AE2B0551EB48
 -  Functions: 19484
 -  Symbols:   51324
--  CStrings:  4856
+-  CStrings:  4898
++  UUID: 14F08263-82C6-3189-ADFB-CE256A6E4193
 +  Functions: 19596
 +  Symbols:   51578
-+  CStrings:  4877
++  CStrings:  4919
  
 Symbols:
 + -[PPKQuickLookBannerView showWithAnimations:]

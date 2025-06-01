@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F78D59A3-AF86-3E6A-B85F-3847870F49CE
 -  Functions: 17596
 -  Symbols:   3236
--  CStrings:  19567
+-  CStrings:  21372
++  UUID: FD771A94-B142-3987-B1C2-FC9F8F3B1BB4
 +  Functions: 17587
 +  Symbols:   3237
-+  CStrings:  19578
++  CStrings:  21384
  
 Symbols:
 + _EMLogCategoryMessageLoading

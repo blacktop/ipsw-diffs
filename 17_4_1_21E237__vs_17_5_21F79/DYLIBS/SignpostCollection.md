@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1b72
    __TEXT.__objc_methtype: 0x21a
 
+   - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C583F702-216A-38B2-ACBD-FFF81B1FD5E4
++  UUID: 3C57A3EB-B213-38C0-9AE8-DAB9B8DD72EF
+   Functions: 122
+   Symbols:   683
+   CStrings:  455
+
 ```

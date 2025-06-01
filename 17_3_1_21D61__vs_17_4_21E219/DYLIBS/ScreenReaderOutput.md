@@ -31,7 +31,7 @@
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x3560
 
-   __AUTH_CONST.__auth_ptr: 0x38
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x770
 -  __DATA.__objc_protorefs: 0x20
@@ -41,11 +41,15 @@
    __DATA.__data: 0xb08
    __DATA.__common: 0x10
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FAD901D7-209F-3B3C-91D0-593B45375353
++  UUID: 21634940-787D-3C9F-91AF-9328923AD252
    Functions: 1492
    Symbols:   5582
--  CStrings:  2599
-+  CStrings:  2600
+-  CStrings:  3026
++  CStrings:  3027
  
 Symbols:
 + ____appendBrailleKeysToArray_block_invoke.837

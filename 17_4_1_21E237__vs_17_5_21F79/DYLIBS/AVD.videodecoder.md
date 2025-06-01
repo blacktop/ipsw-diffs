@@ -21,10 +21,9 @@
    __TEXT.__eh_frame: 0x2b8
    __DATA_CONST.__got: 0x2d0
    __DATA_CONST.__const: 0x38
-
+   __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__const: 0x710
    __AUTH_CONST.__cfstring: 0x560
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x718
 -  __DATA.__bss: 0x11
 +  __AUTH_CONST.__auth_got: 0x720
@@ -41,12 +40,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 7FE68A8C-647A-3B58-BB24-98092A8BC4D4
 -  Functions: 1894
 -  Symbols:   4400
--  CStrings:  1691
+-  CStrings:  1734
++  UUID: F72B7142-9412-3638-B6A1-44606C5AF01A
 +  Functions: 1895
 +  Symbols:   4403
-+  CStrings:  1693
++  CStrings:  1736
  
 Symbols:
 + _IOSurfaceGetCacheMode

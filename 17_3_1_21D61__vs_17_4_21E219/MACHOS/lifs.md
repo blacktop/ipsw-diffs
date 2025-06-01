@@ -27,9 +27,11 @@
    __DATA_CONST.__mod_term_func: 0x18
    __DATA_CONST.__const: 0x1688
    __DATA_CONST.__kalloc_type: 0xb40
+-  UUID: C229A0F6-8610-3976-ACDD-97B3D9C8C72D
 -  Functions: 302
 -  Symbols:   2784
 -  CStrings:  352
++  UUID: 9F4277E2-0B8B-35A7-BAD1-5B1BC46DC9C8
 +  Functions: 304
 +  Symbols:   2852
 +  CStrings:  355

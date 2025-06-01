@@ -9,7 +9,6 @@
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x3d00
 +  __AUTH_CONST.__const: 0x3d10
-   __AUTH_CONST.__auth_ptr: 0x160
    __AUTH_CONST.__auth_got: 0x1420
 -  __AUTH.__objc_data: 0x0
 +  __AUTH.__objc_data: 0x50
@@ -35,5 +34,14 @@
    SMOOTH.SMOOTH: 0xc
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F01380C-F0DB-396D-8645-D2261B750103
++  UUID: 72824086-A223-3830-8A33-FC4B87225EF8
+   Functions: 7671
+   Symbols:   2537
+   CStrings:  1909
 
 ```

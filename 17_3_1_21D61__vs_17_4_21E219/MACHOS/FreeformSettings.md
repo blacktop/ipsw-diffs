@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AF175338-6D3A-3EFE-863E-A141AF0D69CF
 -  Functions: 24
 -  Symbols:   391
--  CStrings:  151
+-  CStrings:  202
++  UUID: C5626F14-EB8A-3EE8-ABBB-7490477ADC1C
 +  Functions: 16
 +  Symbols:   317
-+  CStrings:  140
++  CStrings:  189
  
 Symbols:
 + _CRLForceEnableRealTimeCommands
@@ -96,6 +98,7 @@ Symbols:
 CStrings:
 + "CRLForceEnableRealTimeCommands"
 + "T@\"NSString\",?,R,C"
+- ""
 - "Acknowledgments"
 - "CRLSettingsAcknowledgmentsController"
 - "CRLSettingsStringsController"

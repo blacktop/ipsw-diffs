@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x6e0
 -  __AUTH.__objc_data: 0x1040
 +  __AUTH.__objc_data: 0x1090
@@ -63,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5F1377B-E126-3788-ACB4-0DD880666D76
 -  Functions: 2487
 -  Symbols:   9573
--  CStrings:  4834
+-  CStrings:  5110
++  UUID: B70E1D4B-A17D-38A0-B7DD-3454350C5480
 +  Functions: 2520
 +  Symbols:   9686
-+  CStrings:  4893
++  CStrings:  5178
  
 Symbols:
 + -[TUIInputAccessoryViewInvisibleTraits inputAccessoryViewBackdropColor]

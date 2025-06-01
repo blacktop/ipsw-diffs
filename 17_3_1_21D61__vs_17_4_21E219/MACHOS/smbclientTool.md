@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x260
 
+   - /System/Library/PrivateFrameworks/SMBClientProvider.framework/SMBClientProvider
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 065FA4B6-09F4-33BF-A31D-A71B7854E2F1
++  UUID: BB46D016-067E-3EFC-9CE9-B580230A4068
+   Functions: 80
+   Symbols:   119
+   CStrings:  296
+
 ```

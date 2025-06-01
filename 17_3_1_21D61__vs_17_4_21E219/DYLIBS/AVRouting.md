@@ -38,6 +38,15 @@
    __DATA.__objc_ivar: 0x50
    __DATA.__bss: 0x38
    __DATA_DIRTY.__const: 0x20
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4B968652-86E4-3AEA-B363-A2F594B34482
++  UUID: 7451C1B7-CC55-3F03-A6FB-D9F239F34926
+   Functions: 89
+   Symbols:   383
+   CStrings:  253
 Symbols:
 + ___getDADaemonSessionClass_block_invoke
 + ___getDADaemonSessionClass_block_invoke.cold.1

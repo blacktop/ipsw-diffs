@@ -60,12 +60,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: E8FB8877-6B38-3D32-8AB4-B7945CD4FADA
 -  Functions: 952
 -  Symbols:   4369
--  CStrings:  2597
+-  CStrings:  3128
++  UUID: DDBD61F8-E2F4-3775-9419-01D031EAF8F3
 +  Functions: 955
 +  Symbols:   4386
-+  CStrings:  2608
++  CStrings:  3142
  
 Symbols:
 + -[MDMServerCore _memberQueueLogLatestPushTokenIfNeeded:]

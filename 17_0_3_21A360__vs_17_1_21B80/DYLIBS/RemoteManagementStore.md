@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB8520EE-B1C1-3B39-BA88-84E026319A10
 -  Functions: 933
 -  Symbols:   3014
--  CStrings:  1274
+-  CStrings:  1376
++  UUID: CF3DF5AC-730E-3436-A5DE-8972553837C6
 +  Functions: 944
 +  Symbols:   3043
-+  CStrings:  1286
++  CStrings:  1388
  
 Symbols:
 + -[RMConfigurationCombineApplicator _beginProcessingWithScope:error:]

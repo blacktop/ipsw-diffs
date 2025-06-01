@@ -30,8 +30,8 @@
 -  __AUTH_CONST.__cfstring: 0x480
 +  __AUTH_CONST.__cfstring: 0x4c0
    __AUTH_CONST.__objc_const: 0x1f0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__const: 0x3f8
+   __AUTH_CONST.__auth_got: 0x580
 
    - /usr/lib/swift/libswiftCoreImage.dylib
    - /usr/lib/swift/libswiftCoreLocation.dylib
@@ -41,13 +41,16 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDataDetection.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 88221EE7-0A18-322B-ADCF-E8865B7857D4
++  UUID: D91C5569-70E3-3F64-98A7-8970A0F5711E
    Functions: 248
 -  Symbols:   401
--  CStrings:  201
+-  CStrings:  237
 +  Symbols:   405
-+  CStrings:  203
++  CStrings:  241
  
 Symbols:
 + _STScreenTimeReportDidTapShowThisWeekButton

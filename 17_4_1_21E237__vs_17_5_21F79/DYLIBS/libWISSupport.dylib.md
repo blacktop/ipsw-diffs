@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0xa8
    __DATA_CONST.__const: 0xe8
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+-  UUID: 1E95AEA7-0505-3F5E-B450-A9C1C94DD6A5
++  UUID: DEAFA85B-3B78-3783-A224-B78C92DD5F70
+   Functions: 921
+   Symbols:   302
+   CStrings:  133
+
 ```

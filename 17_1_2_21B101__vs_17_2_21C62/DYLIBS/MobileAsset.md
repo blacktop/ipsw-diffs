@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43C65C21-6D09-342E-9556-301FD130852E
 -  Functions: 2589
 -  Symbols:   7582
--  CStrings:  4436
+-  CStrings:  6148
++  UUID: 26EF245E-7FA8-3AAB-9BAB-1F9F55E8F56A
 +  Functions: 2595
 +  Symbols:   7596
-+  CStrings:  4441
++  CStrings:  6155
  
 Symbols:
 + -[MAXpcManager progressCallbacksForAssetType:assetId:withPurpose:]

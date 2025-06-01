@@ -26,4 +26,13 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: EC830C4F-5D52-36E0-ACEF-1275B5FCE409
++  UUID: DD82E8D3-28BD-31BE-8A2D-F9286AAF6704
+   Functions: 46
+   Symbols:   287
+   CStrings:  117
+
 ```

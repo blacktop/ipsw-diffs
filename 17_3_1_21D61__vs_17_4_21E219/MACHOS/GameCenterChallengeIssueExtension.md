@@ -45,13 +45,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 66CB03A0-95E9-3CFE-AFCA-6D65434EC10A
++  UUID: 441E0A25-4350-3DAD-A5F1-6F7BA3C49F95
    Functions: 26
 -  Symbols:   66
--  CStrings:  136
+-  CStrings:  139
 +  Symbols:   64
-+  CStrings:  134
++  CStrings:  136
  
 Symbols:
 + _GKOSLoggers

@@ -39,11 +39,15 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73F18EA6-4549-33BF-BB29-7448FA881FF7
++  UUID: DF95FD30-D25F-3C5B-B34F-66AF0382CFAC
    Functions: 294
    Symbols:   187
--  CStrings:  704
-+  CStrings:  726
+-  CStrings:  938
++  CStrings:  980
  
 CStrings:
 + "BASEBAND_DESC_IPAD"

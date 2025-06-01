@@ -60,11 +60,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E867128F-5F33-3740-9552-500E82367CE2
 -  Functions: 7682
 -  Symbols:   28944
++  UUID: C6042A7A-1EC8-32B2-8FD3-E8CFCE3309FE
 +  Functions: 7681
 +  Symbols:   28942
-   CStrings:  11851
+   CStrings:  13697
  
 Symbols:
 - -[EDRemindMeNotificationController persistenceDidDeleteMessages:generationWindow:]

@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/ClassKit.framework/ClassKit
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 54F0E09E-4921-396E-8527-4AA0A449E793
++  UUID: EE146183-E21B-3635-BD8A-E1083D11A566
+   Functions: 31
+   Symbols:   51
+   CStrings:  95
+
 ```

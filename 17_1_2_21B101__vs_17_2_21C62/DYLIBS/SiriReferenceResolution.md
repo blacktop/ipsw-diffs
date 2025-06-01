@@ -39,12 +39,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E06F5928-ED97-395A-94F2-3A3CF444E49E
 -  Functions: 5054
 -  Symbols:   4748
--  CStrings:  1070
+-  CStrings:  1121
++  UUID: ED3A70B2-D758-35B9-AE6A-EB46FCCA3AB9
 +  Functions: 5055
 +  Symbols:   4753
-+  CStrings:  1069
++  CStrings:  1120
  
 Symbols:
 - _swift_unexpectedError

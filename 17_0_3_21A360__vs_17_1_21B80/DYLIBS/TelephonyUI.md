@@ -69,7 +69,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x950
 +  __AUTH_CONST.__auth_got: 0x988
    __AUTH.__objc_data: 0x1048
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46FCC941-5D8C-3BDC-85FF-59E78F8B4676
 -  Functions: 1896
 -  Symbols:   4910
--  CStrings:  2421
+-  CStrings:  2676
++  UUID: FDC41D46-74BB-3BDC-A2E1-524DF94C332F
 +  Functions: 1988
 +  Symbols:   5022
-+  CStrings:  2469
++  CStrings:  2724
  
 Symbols:
 + +[TPIncomingCallMetricsProvider callDetailsButtonMaxSize]

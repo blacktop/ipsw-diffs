@@ -43,9 +43,9 @@
    __DATA_CONST.__objc_arraydata: 0x268
 -  __AUTH_CONST.__const: 0x16418
 +  __AUTH_CONST.__const: 0x16440
-   __AUTH_CONST.__auth_ptr: 0x398
    __AUTH_CONST.__objc_const: 0x4568
    __AUTH_CONST.__cfstring: 0x4f40
+   __AUTH_CONST.__objc_intobj: 0x5b8
 
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__auth_got: 0x2d68
@@ -59,11 +59,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 56775345-9EFD-34F0-B8ED-3C92DCA65051
 -  Functions: 18085
 -  Symbols:   19173
++  UUID: F36E29F5-30AB-3220-ABE7-1ED07A8AA6A7
 +  Functions: 18099
 +  Symbols:   19174
-   CStrings:  8624
+   CStrings:  9258
  
 Symbols:
 + _symbolic _____y_____G s11_SetStorageC 10WorkflowUI24SmartShortcutPickerEntryV

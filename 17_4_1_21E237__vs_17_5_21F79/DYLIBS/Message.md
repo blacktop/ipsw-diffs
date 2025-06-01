@@ -47,7 +47,7 @@
    __DATA_CONST.__objc_classrefs: 0x1230
    __DATA_CONST.__objc_superrefs: 0x690
 
-   __AUTH_CONST.__auth_ptr: 0x878
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__auth_got: 0x38d8
    __AUTH.__objc_data: 0x4e40
 -  __AUTH.__data: 0x6368
@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8D30297-B0E0-39FF-AD9F-C877C8CE8CD6
 -  Functions: 63718
 -  Symbols:   42087
--  CStrings:  16151
+-  CStrings:  19216
++  UUID: DEBA4BFB-8246-3D53-A9EC-F639B7DBB602
 +  Functions: 63719
 +  Symbols:   42090
-+  CStrings:  16154
++  CStrings:  19219
  
 Symbols:
 + -[IMAPAccount _hasCachedSeparatorChar]

@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB8F1D52-203C-3F25-B7A6-E8C67D358044
 -  Functions: 10038
 -  Symbols:   35193
--  CStrings:  12473
+-  CStrings:  15320
++  UUID: 2036458E-FCA7-397A-9412-DD47E307CC8F
 +  Functions: 10039
 +  Symbols:   35196
-+  CStrings:  12474
++  CStrings:  15321
  
 Symbols:
 + -[AVPlayerItemErrorLogEvent allHTTPResponseHeaderFields]

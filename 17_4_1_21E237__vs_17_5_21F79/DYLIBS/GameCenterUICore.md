@@ -54,19 +54,22 @@
 +  __AUTH_CONST.__cfstring: 0x1160
    __AUTH_CONST.__objc_const: 0x12e8
    __AUTH_CONST.__const: 0x570
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x688
 +  __AUTH_CONST.__auth_got: 0x678
    __AUTH.__objc_data: 0xce0
    __AUTH.__data: 0xc0
    __DATA.__objc_ivar: 0x160
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 531D2EC3-036E-30AC-89C9-B2B756ECCCD2
++  UUID: C9AAF4C5-2AE5-3797-93FE-9DAE3D60B794
    Functions: 1055
 -  Symbols:   3459
+-  CStrings:  1969
 +  Symbols:   3464
-   CStrings:  1825
++  CStrings:  1964
  
 Symbols:
 + +[UIImage(GKAdditions) _gkImageWithCheckedData:]

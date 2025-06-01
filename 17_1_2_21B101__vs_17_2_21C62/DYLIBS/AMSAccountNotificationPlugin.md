@@ -49,12 +49,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A99CD41-9A92-3659-86B1-FAA9BAA2C432
 -  Functions: 211
 -  Symbols:   192
--  CStrings:  572
+-  CStrings:  630
++  UUID: 9B27CA76-0AD7-3890-A47B-F8904276F973
 +  Functions: 212
 +  Symbols:   195
-+  CStrings:  574
++  CStrings:  632
  
 Symbols:
 + _AMSEngagementSyncRequestOriginStorefrontChange

@@ -65,12 +65,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80C9CD15-8892-3355-8108-8FD6AE251095
 -  Functions: 714
 -  Symbols:   2891
--  CStrings:  1509
+-  CStrings:  1903
++  UUID: E0BEB281-CCBB-394D-8522-DDA8E880D17D
 +  Functions: 729
 +  Symbols:   2942
-+  CStrings:  1533
++  CStrings:  1932
  
 Symbols:
 + -[LiveSpeechController .cxx_destruct]

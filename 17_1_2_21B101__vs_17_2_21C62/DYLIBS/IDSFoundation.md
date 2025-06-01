@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__objc_const: 0x9a68
 +  __AUTH_CONST.__const: 0x1720
 +  __AUTH_CONST.__cfstring: 0x25440
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0xa98
    __AUTH_CONST.__objc_arrayobj: 0x1e18
    __AUTH_CONST.__objc_doubleobj: 0x20
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D6F6D466-03A9-381D-9AD2-AD5ADB5F1CAF
 -  Functions: 8349
 -  Symbols:   4161
--  CStrings:  16335
+-  CStrings:  21091
++  UUID: 6C5B64B4-728B-3559-813C-FB2CA69F14DA
 +  Functions: 8376
 +  Symbols:   4173
-+  CStrings:  16384
++  CStrings:  21154
  
 Symbols:
 + OBJC_IVAR_$_IDSInterfaceAddress._clat46

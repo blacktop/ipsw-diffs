@@ -69,12 +69,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85430D16-CAF7-3EEE-BAD5-8B452A574D70
 -  Functions: 8771
 -  Symbols:   27039
--  CStrings:  11712
+-  CStrings:  14136
++  UUID: 36255D1F-D3F6-345D-9BDF-AFA0D3F30F0C
 +  Functions: 8777
 +  Symbols:   27058
-+  CStrings:  11727
++  CStrings:  14157
  
 Symbols:
 + +[_CDContact(Predicates) predicateForContactWithContactIdType:]

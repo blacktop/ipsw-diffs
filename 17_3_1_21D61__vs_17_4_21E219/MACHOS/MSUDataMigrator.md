@@ -21,4 +21,13 @@
    __DATA.__bss: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2912E05C-7702-329C-8991-76BCC73C92F0
++  UUID: 29B93F7E-4DC8-3704-BEA9-2A25026CAC33
+   Functions: 13
+   Symbols:   171
+   CStrings:  99
+
 ```

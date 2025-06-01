@@ -77,13 +77,16 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4E11CDF6-F6D7-3AC0-BF20-8EA40142883B
++  UUID: 978C75E2-1C64-3E70-A129-4B368B375CB7
    Functions: 372
 -  Symbols:   432
--  CStrings:  408
+-  CStrings:  409
 +  Symbols:   437
-+  CStrings:  423
++  CStrings:  424
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

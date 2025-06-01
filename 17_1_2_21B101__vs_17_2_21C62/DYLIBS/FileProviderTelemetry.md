@@ -60,12 +60,14 @@
 -  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 092E4F74-EB08-3A97-9695-C79689741796
 -  Functions: 34
 -  Symbols:   232
--  CStrings:  106
+-  CStrings:  123
++  UUID: AACB300A-1ADD-3504-9D54-F402B49E522C
 +  Functions: 36
 +  Symbols:   231
-+  CStrings:  99
++  CStrings:  111
  
 Symbols:
 + +[FPRTCReportingSessionManager sessionInfo]

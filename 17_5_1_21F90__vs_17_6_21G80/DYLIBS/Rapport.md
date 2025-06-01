@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 531581D8-37EB-30B7-89B0-2630B89FD60B
 -  Functions: 3146
 -  Symbols:   9856
--  CStrings:  5848
+-  CStrings:  6418
++  UUID: DF480F7C-114B-3F30-BCC3-A9D2F4B18842
 +  Functions: 3158
 +  Symbols:   9893
-+  CStrings:  5887
++  CStrings:  6463
  
 Symbols:
 + -[RPEndpoint updateTrustStatusFlagsWithIdentity:]

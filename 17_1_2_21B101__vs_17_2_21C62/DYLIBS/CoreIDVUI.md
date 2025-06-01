@@ -52,7 +52,6 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x3d0
    __AUTH_CONST.__const: 0x6058
-   __AUTH_CONST.__auth_ptr: 0x240
    __AUTH_CONST.__auth_got: 0x17a8
 -  __AUTH.__objc_data: 0x6270
 +  __AUTH.__objc_data: 0x62b8
@@ -72,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EA31BBFE-3AB8-35D9-B152-71F65FA3E369
 -  Functions: 3469
 -  Symbols:   2464
--  CStrings:  1917
+-  CStrings:  1927
++  UUID: 264ED737-463B-3169-B791-48DD1225172F
 +  Functions: 3477
 +  Symbols:   2467
-+  CStrings:  1924
++  CStrings:  1934
  
 Symbols:
 + _OBJC_CLASS_$_DIPAXHapticManager

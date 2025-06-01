@@ -74,7 +74,6 @@
 -  __AUTH_CONST.__objc_intobj: 0xa8
 +  __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x868
 -  __AUTH.__objc_data: 0x730
 -  __DATA.__objc_protorefs: 0x38
@@ -84,7 +83,6 @@
 -  __DATA.__data: 0xc80
 -  __DATA.__bss: 0xc8
 -  __DATA_DIRTY.__objc_data: 0xcd0
-+  __AUTH_CONST.__auth_ptr: 0x438
 +  __AUTH_CONST.__auth_got: 0x2a18
 +  __AUTH.__objc_data: 0x3188
 +  __AUTH.__data: 0x59e0
@@ -134,9 +132,10 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
+-  UUID: 4010A1A3-DD2C-336B-9970-87A0D1F35591
 -  Functions: 3815
 -  Symbols:   12079
--  CStrings:  5240
+-  CStrings:  5849
 +  - /usr/lib/libsqlite3.dylib
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -157,9 +156,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 410E9D59-4545-3502-9DC6-6661C347DFB2
 +  Functions: 31930
 +  Symbols:   22139
-+  CStrings:  10259
++  CStrings:  10958
  
 Symbols:
 + +[FPCKTask buildPauseResult:semaphore:]
@@ -8597,7 +8597,8 @@ CStrings:
 + "\nWHERE metadata_closest_syncroot = "
 + "\nWHERE new_file_id IS NULL"
 + "\nWHERE relative_path = "
-+ " "
++ "\x0f%%"
++ "\x17%%"
 + "  + active enumerators:\n"
 + "  - import:disk: "
 + "  - import:provider: "
@@ -8776,6 +8777,7 @@ CStrings:
 + " ✍️  reconciliation update: %{public}s"
 + " 🔏"
 + "!subscription.isActivated"
++ "#%%"
 + "$__lazy_storage_$__cachedRTCReporter"
 + "$__lazy_storage_$_importIsRunning"
 + "$__lazy_storage_$_itemCount"
@@ -9146,6 +9148,7 @@ CStrings:
 + "1 ORDER BY item_id, kind, job_type"
 + "1 ORDER BY scheduling_priority DESC, scheduling_timestamp"
 + "1A"
++ "3%%"
 + ": domain-fpfsbackend"
 + ": errorGenerationPropertyQueue"
 + ": item contains diffs for still pending fields"

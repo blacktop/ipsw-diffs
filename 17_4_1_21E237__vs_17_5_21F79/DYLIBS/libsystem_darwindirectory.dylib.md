@@ -13,4 +13,13 @@
    __DATA_CONST.__const: 0x1b8
    __AUTH_CONST.__const: 0x140
 
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 1DA51D32-00AE-3A28-B748-313934EB28F4
++  UUID: F1E91BD9-5C14-377F-BC74-42EE58B8F12E
+   Functions: 56
+   Symbols:   194
+   CStrings:  69
+
 ```

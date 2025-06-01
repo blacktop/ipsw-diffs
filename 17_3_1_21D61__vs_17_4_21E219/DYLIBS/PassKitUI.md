@@ -74,11 +74,9 @@
    __DATA_CONST.__objc_arraydata: 0x540
 -  __AUTH_CONST.__const: 0x35ea0
 -  __AUTH_CONST.__objc_const: 0x1c9c8
--  __AUTH_CONST.__auth_ptr: 0xc00
 -  __AUTH_CONST.__cfstring: 0x32840
 +  __AUTH_CONST.__const: 0x33198
 +  __AUTH_CONST.__objc_const: 0x1ca50
-+  __AUTH_CONST.__auth_ptr: 0xc30
 +  __AUTH_CONST.__cfstring: 0x32780
    __AUTH_CONST.__objc_doubleobj: 0x1c0
 -  __AUTH_CONST.__objc_intobj: 0x13e0
@@ -138,12 +136,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C777C2EA-3D3B-36C9-9505-6D1A77A2CE55
 -  Functions: 55928
 -  Symbols:   108609
--  CStrings:  42465
+-  CStrings:  48931
++  UUID: C84EE8C4-B60A-3392-88EE-659E2A86984D
 +  Functions: 56942
 +  Symbols:   109622
-+  CStrings:  42752
++  CStrings:  49212
  
 Symbols:
 + +[PKCardNumbersAuthentication rateLimitDisplayableVirtualCardError]

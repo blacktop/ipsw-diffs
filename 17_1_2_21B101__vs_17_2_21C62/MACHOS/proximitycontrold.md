@@ -30,4 +30,13 @@
    __DATA.__common: 0x548
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8D219179-AE13-3845-BC56-55C474D81BCD
++  UUID: 3BCE9251-250E-3292-AA28-7D83CD6C1E2A
+   Functions: 12285
+   Symbols:   1223
+   CStrings:  3426
+
 ```

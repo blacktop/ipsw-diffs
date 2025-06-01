@@ -23,6 +23,15 @@
    __TEXT.__swift5_assocty: 0x640
    __TEXT.__swift5_protos: 0x24
    __TEXT.__swift5_proto: 0x5f0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D23E2C83-92EE-3843-91E5-579051BDB086
++  UUID: C0563F29-5C83-385D-B9EA-A8D591E3B7DF
+   Functions: 3481
+   Symbols:   242
+   CStrings:  455
 Symbols:
 + _AVAudioSessionCategoryPlayback
 - _AVAudioSessionCategoryPlayAndRecord

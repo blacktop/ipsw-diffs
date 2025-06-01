@@ -21,5 +21,13 @@
    __DATA_DIRTY.__bss: 0x40
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1BD41FA3-1C41-3F46-B8D5-E2BC24E8AE34
++  UUID: 61FCDA9C-13E9-383E-AFD0-AFE93E092DF7
+   Functions: 19
+   Symbols:   107
+   CStrings:  42
 
 ```

@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0xe0
    __DATA_CONST.__objc_protolist: 0xe8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 598D7BFC-E185-39D6-AC9F-583AB44156DA
++  UUID: 78BE8B79-DC0F-3616-9E6A-BBDCBB499F02
    Functions: 588
 -  Symbols:   2468
 +  Symbols:   2469
-   CStrings:  1210
+   CStrings:  1378
  
 Symbols:
 + ___NSArray0__struct

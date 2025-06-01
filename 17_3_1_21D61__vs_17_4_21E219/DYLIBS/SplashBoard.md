@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7DAC6CCF-1D23-327B-B6D2-A7E92635881C
++  UUID: FFD2C872-9E3C-3E71-8ECD-E068D8F7C938
    Functions: 998
    Symbols:   3733
--  CStrings:  1829
-+  CStrings:  1830
+-  CStrings:  2186
++  CStrings:  2187
  
 Symbols:
 + ___133-[XBApplicationController _captureOrUpdateLaunchImagesForApplications:firstImageIsReady:createCaptureInfo:completionWithCaptureInfo:]_block_invoke.88

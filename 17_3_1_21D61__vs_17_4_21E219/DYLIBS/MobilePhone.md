@@ -66,12 +66,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AC23625-9B43-355C-AC7D-FECDAF9CECD0
 -  Functions: 191
 -  Symbols:   914
--  CStrings:  523
+-  CStrings:  744
++  UUID: 54477CCA-9004-3227-8B1C-6D422541FD3F
 +  Functions: 204
 +  Symbols:   978
-+  CStrings:  552
++  CStrings:  785
  
 Symbols:
 + +[MPVoicemailMessageViewModelAccessibility _accessibilityPerformValidations:]

@@ -69,14 +69,13 @@
    __AUTH_CONST.__objc_intobj: 0x108
    __AUTH_CONST.__objc_arrayobj: 0x180
 -  __AUTH_CONST.__objc_dictobj: 0xc8
-+  __AUTH_CONST.__objc_dictobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x678
 -  __AUTH.__objc_data: 0x1df8
 -  __DATA.__objc_protorefs: 0x88
 -  __DATA.__objc_classrefs: 0x6c8
 -  __DATA.__objc_superrefs: 0x320
 -  __DATA.__objc_ivar: 0x4cc
++  __AUTH_CONST.__objc_dictobj: 0xf0
 +  __AUTH_CONST.__auth_got: 0x6d0
 +  __AUTH.__objc_data: 0x2028
 +  __DATA.__objc_ivar: 0x4f8
@@ -95,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46055161-9BA3-3589-9B84-60AF2386D32E
 -  Functions: 2518
 -  Symbols:   8698
--  CStrings:  4382
+-  CStrings:  5244
++  UUID: 0747FE5A-EEAF-3827-8D8C-31ACDCF6D2D9
 +  Functions: 2611
 +  Symbols:   8966
-+  CStrings:  4529
++  CStrings:  5433
  
 Symbols:
 + +[STAMSClient handleLoadMediaTaskForResult:error:withCompletionHandler:]

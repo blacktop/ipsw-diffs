@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A585A1BE-B4FE-398D-8A67-A7C0B705AEDF
 -  Functions: 721
 -  Symbols:   2331
--  CStrings:  980
+-  CStrings:  1213
++  UUID: 26EFCA97-011F-36D8-BA07-C39FBE606E7B
 +  Functions: 724
 +  Symbols:   2338
-+  CStrings:  986
++  CStrings:  1224
  
 Symbols:
 + +[PPSBatteryMetrics batteryConfigMetrics]

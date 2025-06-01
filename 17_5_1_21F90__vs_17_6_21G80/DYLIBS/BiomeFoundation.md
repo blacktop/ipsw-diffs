@@ -49,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 23627506-1ED1-32C0-8792-5EB391D3674B
 -  Functions: 877
 -  Symbols:   3122
--  CStrings:  1748
+-  CStrings:  2340
++  UUID: DE18CC92-3867-382A-BE9D-1B1CC04B7A56
 +  Functions: 878
 +  Symbols:   3126
-+  CStrings:  1752
++  CStrings:  2347
  
 Symbols:
 + -[BMFileServer isBiomeSyncDaemon]

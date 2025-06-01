@@ -29,11 +29,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/BridgeCommons.framework/BridgeCommons
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F6654027-A1C2-3126-A676-2AE700B90088
++  UUID: E1AA6438-2D86-38F5-BAAC-703F6104E4FC
    Functions: 8
    Symbols:   21
--  CStrings:  66
-+  CStrings:  67
+-  CStrings:  72
++  CStrings:  73
  
 CStrings:
 + "T@\"NSString\",?,R,C"

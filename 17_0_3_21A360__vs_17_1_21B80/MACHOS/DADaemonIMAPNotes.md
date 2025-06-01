@@ -31,11 +31,15 @@
    __DATA_CONST.__objc_protolist: 0x30
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4568A66A-8E84-3EA5-BF71-D21533808965
++  UUID: 3221AEE8-7855-35B7-9541-2E18501AEE89
    Functions: 181
    Symbols:   202
--  CStrings:  750
-+  CStrings:  752
+-  CStrings:  802
++  CStrings:  805
  
 CStrings:
 + "<HTML><BODY></BODY></HTML>"

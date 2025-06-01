@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7E0D75D-7895-34A6-A7B4-F20AE3EE18F9
 -  Functions: 61
 -  Symbols:   435
--  CStrings:  390
+-  CStrings:  404
++  UUID: BEFD1343-4C34-33E5-9551-747E11F3903E
 +  Functions: 70
 +  Symbols:   490
-+  CStrings:  418
++  CStrings:  432
  
 Symbols:
 + -[WebAppEligibilityViewController .cxx_destruct]

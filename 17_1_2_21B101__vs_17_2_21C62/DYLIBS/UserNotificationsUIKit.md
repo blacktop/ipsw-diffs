@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2CB209FE-F9CE-3649-AFBE-83DEC6E5B1CE
 -  Functions: 6867
 -  Symbols:   24384
--  CStrings:  10111
+-  CStrings:  10924
++  UUID: 47F76D69-275F-3889-B9D2-5058B08ACC3C
 +  Functions: 6876
 +  Symbols:   24412
-+  CStrings:  10121
++  CStrings:  10934
  
 Symbols:
 + -[NCAuxiliaryOptionsView auxiliaryOptionsBackgroundColor]

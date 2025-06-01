@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8DCC29BE-4F0B-30E8-9407-18951CC76CC3
 -  Functions: 222
++  UUID: 587925EC-459F-3039-9DFB-F060E638C99B
 +  Functions: 225
    Symbols:   236
--  CStrings:  665
-+  CStrings:  667
+-  CStrings:  724
++  CStrings:  726
  
 CStrings:
 + "secondarySystemGroupedBackgroundColor"

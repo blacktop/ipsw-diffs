@@ -61,11 +61,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: EAC0F65D-C567-38C5-803C-7FA315E17CA8
 -  Functions: 32293
++  UUID: 15C2B107-68CE-3355-8091-E59C694B7662
 +  Functions: 32316
    Symbols:   1423
--  CStrings:  31031
-+  CStrings:  31054
+-  CStrings:  34358
++  CStrings:  34389
  
 CStrings:
 + "/Library/Application Support/BTServer/countryCodes5Mac.plist"

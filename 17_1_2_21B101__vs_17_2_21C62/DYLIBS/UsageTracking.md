@@ -38,12 +38,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 853004E5-0333-34D5-8B52-23AECDD42460
 -  Functions: 411
 -  Symbols:   1738
--  CStrings:  880
+-  CStrings:  979
++  UUID: DBF3331E-5F5D-3ADB-BAA1-5AC8C6E2D25D
 +  Functions: 412
 +  Symbols:   1741
-+  CStrings:  882
++  CStrings:  981
  
 Symbols:
 + -[USDomainNormalization normalizeURL:].cold.1

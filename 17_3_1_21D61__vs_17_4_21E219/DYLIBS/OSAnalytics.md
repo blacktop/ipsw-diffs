@@ -30,7 +30,7 @@
    __AUTH_CONST.__objc_const: 0x9f0
    __AUTH_CONST.__cfstring: 0x8300
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_arrayobj: 0xd8
    __AUTH_CONST.__auth_got: 0x9a8
    __AUTH.__objc_data: 0x50
 -  __DATA.__objc_classrefs: 0x1b0
@@ -44,11 +44,15 @@
    __DATA_DIRTY.__bss: 0x2b8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8BD2A424-1A6B-3491-AF00-5E32E4BF5045
++  UUID: D0CA2734-7694-3D49-8D9F-4AAFD77D0E40
    Functions: 830
    Symbols:   3209
--  CStrings:  2555
-+  CStrings:  2556
+-  CStrings:  3603
++  CStrings:  3604
  
 CStrings:
 + "T@\"NSString\",?,R,C"

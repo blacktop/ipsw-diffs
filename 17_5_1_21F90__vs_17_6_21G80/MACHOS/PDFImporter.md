@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9FB06C55-48AD-3DD2-87FC-FAA302D7D439
 -  Functions: 13
 -  Symbols:   91
--  CStrings:  62
+-  CStrings:  66
++  UUID: BB103D38-78CF-3957-8035-A17BBD1DDF80
 +  Functions: 8
 +  Symbols:   76
-+  CStrings:  58
++  CStrings:  62
  
 Symbols:
 + _OBJC_CLASS_$_NSData

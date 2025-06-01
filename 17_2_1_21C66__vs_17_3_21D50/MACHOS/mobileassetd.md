@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7731499A-32A8-33A0-8DED-E65A73C60B2E
 -  Functions: 63
++  UUID: 530CB69C-E94C-30B5-9E19-8E321BC4D890
 +  Functions: 65
    Symbols:   109
--  CStrings:  259
-+  CStrings:  271
+-  CStrings:  398
++  CStrings:  419
  
 CStrings:
 + "$RC_RELEASE"

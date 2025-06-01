@@ -56,11 +56,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A4FE5638-B05D-39DE-A170-E89638331575
 -  Functions: 622
++  UUID: B157FAFC-579D-35BA-BD76-868070E46321
 +  Functions: 626
    Symbols:   306
--  CStrings:  1711
-+  CStrings:  1715
+-  CStrings:  1894
++  CStrings:  1898
  
 Symbols:
 + __CDInteractionUserMachServiceName

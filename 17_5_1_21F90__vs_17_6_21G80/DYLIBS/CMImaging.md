@@ -26,11 +26,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 921417BB-A041-30B2-B082-19CED6B719FA
 -  Functions: 2395
 -  Symbols:   7497
++  UUID: C2D4ABB3-5470-34A1-B75F-9E7188A61CB9
 +  Functions: 2403
 +  Symbols:   7513
-   CStrings:  5314
+   CStrings:  5540
  
 Symbols:
 + __ZN11accelerate210production11gemm_fma_b0IfLb1ELb1ELb0ELb1ELb1ELb0EEEvlllPKT_lS4_lPS2_l

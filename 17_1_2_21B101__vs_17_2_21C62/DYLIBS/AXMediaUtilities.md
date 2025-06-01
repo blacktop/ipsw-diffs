@@ -22,12 +22,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3F2648A6-5E81-3AAD-9937-E98BBCA193F5
 -  Functions: 5232
 -  Symbols:   16364
--  CStrings:  7710
+-  CStrings:  9322
++  UUID: B479CD11-9EEC-3AEE-BDEB-79B373AB326E
 +  Functions: 5234
 +  Symbols:   16368
-+  CStrings:  7713
++  CStrings:  9325
  
 Symbols:
 + ___43-[AXMCaptionDetectorNode evaluate:metrics:]_block_invoke.cold.9

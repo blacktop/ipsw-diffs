@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A9597DEF-6A5E-3C4D-93F3-033E338CB79D
++  UUID: 2F585403-20A1-3070-BB9E-2007FD2A62C2
    Functions: 114
    Symbols:   139
--  CStrings:  336
-+  CStrings:  337
+-  CStrings:  363
++  CStrings:  364
  
 CStrings:
 + "T@\"NSString\",?,R,C"

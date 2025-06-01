@@ -73,12 +73,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02D9B792-1CAB-3AA1-BAE5-A69B54FAABFC
 -  Functions: 4027
 -  Symbols:   14651
--  CStrings:  10381
+-  CStrings:  15013
++  UUID: 8B76EEE7-46D5-3D78-BAE7-AE36B7B06197
 +  Functions: 4037
 +  Symbols:   14696
-+  CStrings:  10402
++  CStrings:  15041
  
 Symbols:
 + +[PRSRankingItemRanker shouldFilterResult:currentTime:isScopedSearch:]

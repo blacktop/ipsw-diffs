@@ -26,7 +26,6 @@
    __DATA_CONST.__objc_selrefs: 0x278
 +  __DATA_CONST.__objc_classrefs: 0x80
 +  __DATA_CONST.__objc_superrefs: 0x10
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__cfstring: 0xf80
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__const: 0x448
@@ -37,13 +36,16 @@
    __DATA.__data: 0x1b8
    __DATA.__bss: 0x58
 
+   - /usr/lib/libReverseProxyDevice.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A59AD5D9-CB79-37EA-BD37-A54ECA1C6F9A
++  UUID: 245E53C4-3472-3D98-A62F-E4AB74B729D1
    Functions: 383
 -  Symbols:   1210
--  CStrings:  647
+-  CStrings:  771
 +  Symbols:   1211
-+  CStrings:  648
++  CStrings:  772
  
 Symbols:
 + _kImg4TagStr_arex

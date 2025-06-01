@@ -50,12 +50,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2D893A9A-92D5-34CA-9CD8-27EE66CFBD57
 -  Functions: 330
 -  Symbols:   366
--  CStrings:  347
+-  CStrings:  348
++  UUID: 5E130893-8143-3FFA-8E9E-FB336E01FA81
 +  Functions: 333
 +  Symbols:   369
-+  CStrings:  369
++  CStrings:  370
  
 Symbols:
 + _$s28HealthExposureNotificationUI010ENUIPublicA11AgencyModelC12activeRegionACSgvpZ

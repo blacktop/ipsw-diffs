@@ -24,4 +24,13 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2BF40CA3-5F36-3CA8-A2E0-A3C53F2EDFDA
++  UUID: 21115E1B-6351-35F0-B49C-B7ACA5115DC3
+   Functions: 3
+   Symbols:   34
+   CStrings:  10
+
 ```

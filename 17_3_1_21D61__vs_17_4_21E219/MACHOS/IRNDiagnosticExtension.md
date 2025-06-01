@@ -39,10 +39,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 764B8559-3046-3712-81E2-B790023BF9B1
 -  Functions: 232
++  UUID: 9F482013-59B3-3787-BD57-E7B54FE9F0D2
 +  Functions: 230
    Symbols:   135
-   CStrings:  166
+   CStrings:  167
  
 Symbols:
 + _objc_retain_x19

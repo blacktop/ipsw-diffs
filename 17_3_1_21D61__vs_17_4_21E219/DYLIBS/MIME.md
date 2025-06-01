@@ -39,7 +39,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x130
    __DATA_CONST.__objc_arraydata: 0xa8
    __AUTH_CONST.__objc_const: 0x1548
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__cfstring: 0x36e0
    __AUTH_CONST.__const: 0x508
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -58,13 +57,16 @@
    __DATA_DIRTY.__data: 0x138
    __DATA_DIRTY.__common: 0x18
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C215764-131D-3099-A23D-7D5186EFAC7C
++  UUID: 19E05EAD-8354-3C8D-86AD-65FADA2523D7
    Functions: 1171
 -  Symbols:   4580
--  CStrings:  2107
+-  CStrings:  2546
 +  Symbols:   4579
-+  CStrings:  2108
++  CStrings:  2547
  
 Symbols:
 + __ZNKSt9type_infoeqB8un170006ERKS_

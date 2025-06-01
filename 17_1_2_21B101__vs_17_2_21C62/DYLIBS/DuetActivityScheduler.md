@@ -44,12 +44,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A8BA962-BE7F-3FA5-A8F6-A22707F9987E
 -  Functions: 911
 -  Symbols:   3316
--  CStrings:  1898
+-  CStrings:  2208
++  UUID: EC82153B-F482-3B74-AB0D-7D09092712A8
 +  Functions: 915
 +  Symbols:   3327
-+  CStrings:  1904
++  CStrings:  2214
  
 Symbols:
 + -[_DASScheduler enableTaskRegistryMode:]

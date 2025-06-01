@@ -50,13 +50,16 @@
    __DATA.__objc_const_ax: 0x0
    __DATA.__data: 0xd80
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B29B6AC4-3C11-3C68-BBB1-BFDD64045100
++  UUID: 2F395A40-956E-3E78-BEA1-B64B298B1816
    Functions: 1870
 -  Symbols:   7082
--  CStrings:  3902
+-  CStrings:  4036
 +  Symbols:   7083
-+  CStrings:  3919
++  CStrings:  4053
  
 Symbols:
 + ___block_literal_global.695

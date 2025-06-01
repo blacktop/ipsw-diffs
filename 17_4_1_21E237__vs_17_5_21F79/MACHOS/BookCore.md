@@ -100,12 +100,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: E37E9368-FC15-3FC6-ADD2-93A5EA6A452C
 -  Functions: 14268
 -  Symbols:   3464
--  CStrings:  17619
+-  CStrings:  19873
++  UUID: CA1CA96D-EC4E-3A43-AD16-D639277FFD3E
 +  Functions: 13248
 +  Symbols:   3222
-+  CStrings:  16382
++  CStrings:  18503
  
 Symbols:
 + _BRCBooksDefaultsKeyPersonalizationScorersBookHistoryAcquiredExternallyUnknownFinishedInterval

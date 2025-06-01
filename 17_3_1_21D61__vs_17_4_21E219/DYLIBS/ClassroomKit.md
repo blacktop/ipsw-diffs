@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8833378F-74BD-301C-B682-649BDDBDCFBF
 -  Functions: 5905
 -  Symbols:   21646
--  CStrings:  8415
+-  CStrings:  9559
++  UUID: F000AA78-4848-3391-B290-2D0D0C3FD866
 +  Functions: 5987
 +  Symbols:   21932
-+  CStrings:  8503
++  CStrings:  9654
  
 Symbols:
 + +[CRKASMClassicAdHocSwitchReadingRosterProvider currentUserProviderObservedKeyPaths]

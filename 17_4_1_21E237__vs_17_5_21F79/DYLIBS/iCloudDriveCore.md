@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0xa08
    __AUTH_CONST.__objc_arrayobj: 0x1b0
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__auth_got: 0xdb8
 -  __AUTH.__objc_data: 0x2940
@@ -76,12 +75,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E64AA843-AD48-3D38-9488-03779E2E8D09
 -  Functions: 12904
 -  Symbols:   38855
--  CStrings:  20831
+-  CStrings:  24868
++  UUID: 1E1EE402-F0C2-30C6-95E6-7839CED7F349
 +  Functions: 12907
 +  Symbols:   38871
-+  CStrings:  20873
++  CStrings:  24930
  
 Symbols:
 + +[AppTelemetryTimeSeriesEvent(BRCAdditions) newAggregatedEventWithIdentifier:recordID:zoneMangledID:error:count:]

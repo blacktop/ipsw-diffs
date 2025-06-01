@@ -33,12 +33,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 98D78DC4-193D-35A7-966F-E8E77654998A
 -  Functions: 328
 -  Symbols:   269
--  CStrings:  491
+-  CStrings:  631
++  UUID: 9797A8FF-A468-3E84-BBDE-D006761EA43E
 +  Functions: 332
 +  Symbols:   273
-+  CStrings:  496
++  CStrings:  636
  
 Symbols:
 + __xpc_type_string

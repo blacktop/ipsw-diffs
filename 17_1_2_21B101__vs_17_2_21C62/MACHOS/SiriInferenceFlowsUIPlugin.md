@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9ED9E96F-BBDE-330E-9C27-F35A7E707567
++  UUID: 2706D6C0-C567-39C2-A2CA-460CAAFED8E0
+   Functions: 116
+   Symbols:   47
+   CStrings:  3
+
 ```

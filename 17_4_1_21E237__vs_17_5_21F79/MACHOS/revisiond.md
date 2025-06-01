@@ -12,6 +12,15 @@
    __DATA_CONST.__auth_got: 0x7a0
    __DATA_CONST.__got: 0x150
    __DATA_CONST.__const: 0xf60
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 16E00EFA-B544-3FC4-A771-EA57460D9EE6
++  UUID: 86154150-E206-3218-A8FC-DDA89ED53990
+   Functions: 1017
+   Symbols:   335
+   CStrings:  1819
 CStrings:
 + "06:15:50"
 + "Apr 13 2024"

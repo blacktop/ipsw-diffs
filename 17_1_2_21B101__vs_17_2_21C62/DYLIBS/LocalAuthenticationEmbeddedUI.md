@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 56A004D9-2D57-3771-9B9F-E065870CB28D
 -  Functions: 1016
 -  Symbols:   4029
--  CStrings:  1687
+-  CStrings:  1811
++  UUID: 03743BF8-7E6A-392D-9637-0B328887C7A2
 +  Functions: 1022
 +  Symbols:   4033
-+  CStrings:  1697
++  CStrings:  1824
  
 Symbols:
 + +[LALocalizedString _localizedStringWithKey:tableSuffix:]

@@ -39,11 +39,15 @@
    __DATA.__data: 0xa58
    __DATA.__bss: 0xc0
 
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B6A3BDD9-D7EC-38ED-8792-29C25926B3E6
++  UUID: E4B7A500-4D3E-38A6-8C2F-258765E71C1D
    Functions: 998
    Symbols:   4244
--  CStrings:  2550
-+  CStrings:  2554
+-  CStrings:  2855
++  CStrings:  2859
  
 Symbols:
 + ___block_literal_global.197

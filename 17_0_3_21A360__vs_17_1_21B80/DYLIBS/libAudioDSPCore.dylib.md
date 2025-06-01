@@ -18,11 +18,15 @@
    __TEXT.__oslogstring: 0x2f88
    __TEXT.__dlopen_cstrs: 0x5a
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79C6313A-408F-392A-B940-7E21E75D2585
++  UUID: ABE9EE6A-8FD1-354C-B055-4DF48CECA42A
    Functions: 1745
    Symbols:   4305
--  CStrings:  714
-+  CStrings:  718
+-  CStrings:  740
++  CStrings:  744
  
 CStrings:
 + "SourceDirectivity_06_Acoustic_Guitar.ir"

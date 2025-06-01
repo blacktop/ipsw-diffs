@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FD86387-530B-3A59-BD4C-1545C955A7FB
 -  Functions: 168
 -  Symbols:   215
--  CStrings:  554
+-  CStrings:  632
++  UUID: 1D3A2588-4E30-35E7-9E7A-9898A0F69923
 +  Functions: 170
 +  Symbols:   220
-+  CStrings:  562
++  CStrings:  640
  
 Symbols:
 + _BYAssistantScreenShouldRunForVTConfirmation

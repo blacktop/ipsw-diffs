@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Intents.framework/Intents
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E93E9E73-DE26-3ED4-A986-12DD542357D3
++  UUID: 0E15D68C-CD6A-3BA8-A13C-220F2C282DC0
+   Functions: 3182
+   Symbols:   10032
+   CStrings:  4184
+
 ```

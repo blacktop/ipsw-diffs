@@ -37,12 +37,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E7EC406-FAF8-3A64-9AC7-20F284AAB436
 -  Functions: 323
 -  Symbols:   1266
--  CStrings:  649
+-  CStrings:  756
++  UUID: 997DE53F-CE08-3A0B-8784-655D4E598A90
 +  Functions: 325
 +  Symbols:   1272
-+  CStrings:  650
++  CStrings:  757
  
 Symbols:
 + _PSLogClipping

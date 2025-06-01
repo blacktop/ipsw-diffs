@@ -29,11 +29,15 @@
    __DATA.__data: 0x3c8
    __DATA_DIRTY.__const: 0x40
 
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A9AA29A9-2D89-3BA5-9139-FC555D3EB162
++  UUID: 55A1067B-AC6C-39FE-9C6C-8DF6D0F65E57
    Functions: 112
    Symbols:   612
--  CStrings:  320
-+  CStrings:  321
+-  CStrings:  345
++  CStrings:  346
  
 Symbols:
 + ___43-[ITIdleTimerStateClient initWithDelegate:]_block_invoke.56

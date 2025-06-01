@@ -35,4 +35,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B429FA0D-79A9-32D5-9840-44E161ECE0E5
++  UUID: 40570208-792C-3C9C-AC28-5897104B0CBA
+   Functions: 506
+   Symbols:   381
+   CStrings:  915
+
 ```

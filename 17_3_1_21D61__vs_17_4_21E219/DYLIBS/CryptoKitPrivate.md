@@ -58,10 +58,8 @@
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x1070
--  __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0xd20
 +  __AUTH_CONST.__const: 0x17d0
-+  __AUTH_CONST.__auth_ptr: 0x78
 +  __AUTH_CONST.__auth_got: 0xd90
 +  __AUTH.__data: 0x310
    __AUTH.__objc_data: 0x0
@@ -90,12 +88,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D495AD6A-3E24-38AC-84FE-A28B943650A1
 -  Functions: 1982
 -  Symbols:   948
--  CStrings:  354
+-  CStrings:  356
++  UUID: 1C0A76E6-6886-39B2-9DC2-C88C123B44EA
 +  Functions: 2201
 +  Symbols:   1011
-+  CStrings:  373
++  CStrings:  375
  
 Symbols:
 + __DATA__TtCO16CryptoKitPrivate2HE12ParamContext

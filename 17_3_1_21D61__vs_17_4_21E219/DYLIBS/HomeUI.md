@@ -69,12 +69,10 @@
 +  __DATA_CONST.__objc_superrefs: 0x1dd0
    __DATA_CONST.__objc_arraydata: 0x520
 -  __AUTH_CONST.__const: 0xdc58
--  __AUTH_CONST.__auth_ptr: 0x248
 -  __AUTH_CONST.__objc_const: 0x19150
 -  __AUTH_CONST.__cfstring: 0x1e300
 -  __AUTH_CONST.__objc_intobj: 0x1ab8
 +  __AUTH_CONST.__const: 0xdee0
-+  __AUTH_CONST.__auth_ptr: 0x270
 +  __AUTH_CONST.__objc_const: 0x190c0
 +  __AUTH_CONST.__cfstring: 0x1ea60
 +  __AUTH_CONST.__objc_intobj: 0x1aa0
@@ -153,12 +151,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 427D37EE-BBA8-3BAE-AE0D-7A0B16CBF88C
 -  Functions: 31846
 -  Symbols:   82584
--  CStrings:  35103
+-  CStrings:  38967
++  UUID: D887D089-4BA3-3F0B-ACCB-EB67D748A53E
 +  Functions: 32509
 +  Symbols:   82565
-+  CStrings:  35184
++  CStrings:  39107
  
 Symbols:
 + +[HUHomeEnergyWrapper setupGridForecastSnapshotsFor:]

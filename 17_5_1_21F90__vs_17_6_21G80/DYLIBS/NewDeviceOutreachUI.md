@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7520E130-FBA7-361F-B3EA-554A6558CA5A
 -  Functions: 552
 -  Symbols:   2250
--  CStrings:  1354
+-  CStrings:  1488
++  UUID: B11FC579-6156-3285-B45E-AB8FA8D6AB9B
 +  Functions: 559
 +  Symbols:   2271
-+  CStrings:  1359
++  CStrings:  1495
  
 Symbols:
 + -[NDOCoverageCentralViewController fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]

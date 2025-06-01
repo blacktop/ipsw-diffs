@@ -71,12 +71,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 33D482EE-2944-3136-93FB-BEDF216627B9
 -  Functions: 2030
 -  Symbols:   7944
--  CStrings:  4517
+-  CStrings:  5305
++  UUID: 9E4BD471-870B-3C04-9CC6-00CEE2B2FDB1
 +  Functions: 2036
 +  Symbols:   7981
-+  CStrings:  4543
++  CStrings:  5337
  
 Symbols:
 + -[AXCLFCommunicationLimitController incomingEveryoneSpecifier]

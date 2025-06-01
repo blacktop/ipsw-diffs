@@ -61,12 +61,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E98F2D1A-B53C-333A-AA0C-0957E034657D
 -  Functions: 13435
 -  Symbols:   2763
--  CStrings:  24963
+-  CStrings:  27091
++  UUID: B84B8E5C-870C-3345-B116-98E3D8414319
 +  Functions: 13430
 +  Symbols:   2764
-+  CStrings:  24946
++  CStrings:  27072
  
 Symbols:
 + _OBJC_CLASS_$_HomeKitSchemaHKAudioTopologyReported

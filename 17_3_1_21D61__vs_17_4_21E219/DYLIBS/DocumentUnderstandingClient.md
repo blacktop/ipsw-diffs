@@ -33,7 +33,6 @@
    __AUTH_CONST.__objc_const: 0x360
    __AUTH_CONST.__const: 0x198
    __AUTH_CONST.__cfstring: 0x340
-
    __AUTH_CONST.__auth_got: 0x3f8
    __AUTH.__objc_data: 0x238
    __AUTH.__data: 0x28
@@ -47,11 +46,15 @@
    __DATA.__bss: 0x100
    __DATA_DIRTY.__objc_data: 0x1a8
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 8AC3C9FB-EACA-3A1E-BEC7-C62A92A3B161
++  UUID: 7C0C50AD-41D8-36D6-B059-E3E0B87C76AB
    Functions: 203
    Symbols:   783
--  CStrings:  354
-+  CStrings:  355
+-  CStrings:  380
++  CStrings:  381
  
 CStrings:
 + "T@\"NSString\",?,R,C"

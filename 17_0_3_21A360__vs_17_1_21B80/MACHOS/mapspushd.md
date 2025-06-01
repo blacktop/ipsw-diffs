@@ -43,11 +43,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 188730CA-95A6-38E3-B190-EEB8E7BE5070
 -  Functions: 661
++  UUID: 32FE0827-192B-3C7E-ADA6-EBB81A0DD6F4
 +  Functions: 663
    Symbols:   301
--  CStrings:  1760
-+  CStrings:  1761
+-  CStrings:  2049
++  CStrings:  2051
  
 CStrings:
 + "HelpImproveMapsAddressCorrectionAuthStatus"

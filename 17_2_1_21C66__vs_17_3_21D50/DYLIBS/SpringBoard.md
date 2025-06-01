@@ -60,7 +60,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x2490
    __AUTH_CONST.__objc_doubleobj: 0x530
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x2750
 -  __AUTH.__objc_data: 0xf410
 +  __AUTH_CONST.__auth_got: 0x2798
@@ -81,12 +80,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: CE56F561-F801-3A36-888C-D72B1C38B4B7
 -  Functions: 56295
 -  Symbols:   191703
--  CStrings:  76482
+-  CStrings:  88846
++  UUID: 7346EBA7-83F7-30E7-9D81-18C47EA290EF
 +  Functions: 56332
 +  Symbols:   191864
-+  CStrings:  76545
++  CStrings:  88915
  
 Symbols:
 + -[SBDisplayProfileRegistry _modifyParameters:orientation:interfaceOrientationMode:chamoisEnabled:]

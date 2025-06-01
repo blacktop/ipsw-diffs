@@ -39,9 +39,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B03BB9A3-A85D-37BE-B282-C70B48DE026A
 -  Functions: 25026
 -  Symbols:   52402
 -  CStrings:  2584
++  UUID: 27D61AAD-68B0-3DF0-925D-F1590BAE4AC9
 +  Functions: 25029
 +  Symbols:   52407
 +  CStrings:  2587

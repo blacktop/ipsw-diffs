@@ -61,13 +61,16 @@
    __DATA_DIRTY.__bss: 0xb0
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C752A9EE-DEA9-3E22-B729-03BF863E385A
++  UUID: 218FA9A6-DAD4-3529-A9FD-F1EED74F8AAB
    Functions: 762
 -  Symbols:   3199
--  CStrings:  1456
+-  CStrings:  1592
 +  Symbols:   3201
-+  CStrings:  1464
++  CStrings:  1600
  
 Symbols:
 + _CACurrentMediaTime

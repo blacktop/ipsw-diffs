@@ -50,7 +50,6 @@
 +  __DATA_CONST.__objc_const: 0x1f8f0
    __DATA_CONST.__objc_selrefs: 0x3790
    __AUTH_CONST.__const: 0x8e08
-   __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__cfstring: 0x7580
 +  __AUTH_CONST.__cfstring: 0x7640
    __AUTH_CONST.__objc_const: 0x4640
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 95F61053-D76D-3530-919D-316D4B349BD6
 -  Functions: 17646
 -  Symbols:   43441
--  CStrings:  27576
+-  CStrings:  28516
++  UUID: A713FC22-668B-3C58-920A-7F94C9245F2B
 +  Functions: 17656
 +  Symbols:   43461
-+  CStrings:  27627
++  CStrings:  28573
  
 Symbols:
 + GCC_except_table100

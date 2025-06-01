@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AF7AC227-54B2-3B59-9E96-D543031FC046
 -  Functions: 359
 -  Symbols:   326
--  CStrings:  604
+-  CStrings:  702
++  UUID: 021C212C-0019-3610-99D5-1A83375C80B5
 +  Functions: 364
 +  Symbols:   329
-+  CStrings:  609
++  CStrings:  707
  
 Symbols:
 + _OBJC_CLASS_$_PBUIWallpaperConfigurationManager

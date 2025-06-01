@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/DocumentCamera.framework/DocumentCamera
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D4865D7-18A9-3386-9D5C-351C422F9209
++  UUID: C81E3DC9-2D7C-3007-9672-579DF71AFDAA
    Functions: 32
    Symbols:   46
 -  CStrings:  151

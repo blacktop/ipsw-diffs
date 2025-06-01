@@ -46,13 +46,16 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 958F27BF-1940-330A-866F-27356C9B54AB
++  UUID: 9F7FF661-405A-31D2-8DE5-B4B3310C78D1
    Functions: 2008
 -  Symbols:   867
--  CStrings:  3647
+-  CStrings:  4373
 +  Symbols:   862
-+  CStrings:  3655
++  CStrings:  4381
  
 Symbols:
 - __accountStore

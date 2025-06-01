@@ -29,6 +29,15 @@
    __DATA_CONST.__objc_selrefs: 0x7b8
    __DATA_CONST.__objc_protorefs: 0x28
    __DATA_CONST.__objc_classrefs: 0x160
+
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 87E08064-286B-3B1F-AD91-AFECAAA5D33B
++  UUID: 860480FD-1A14-3BDB-99BD-85F3C2A200C3
+   Functions: 405
+   Symbols:   1602
+   CStrings:  872
 Symbols:
 + -[CPSAppSignInRequest initWithAppleIDRequest:passwordRequest:platformKeyCredentialAssertionOptions:platformKeyCredentialRegistrationOptions:]
 + GCC_except_table30

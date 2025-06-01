@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x5b9
    __TEXT.__objc_classname: 0x24
 
+   - /System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 999279A1-954A-37B1-AF4F-0214ED1AA659
++  UUID: 99D95A11-3B54-3ADC-B905-D52E67B9AEAE
+   Functions: 14
+   Symbols:   57
+   CStrings:  104
+
 ```

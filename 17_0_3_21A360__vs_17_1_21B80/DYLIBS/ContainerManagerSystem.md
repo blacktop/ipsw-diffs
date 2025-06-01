@@ -11,6 +11,10 @@
 +  __TEXT.__const: 0x60
    - /System/Library/PrivateFrameworks/ContainerManagerCommon.framework/ContainerManagerCommon
    - /usr/lib/libSystem.B.dylib
+-  UUID: E9A13254-2816-3E2A-977F-3E0E3F96CDE6
++  UUID: 9D69E6CB-C4C7-3A74-B30D-79178C96BD56
    Functions: 0
+   Symbols:   2
+   CStrings:  0
 
 ```

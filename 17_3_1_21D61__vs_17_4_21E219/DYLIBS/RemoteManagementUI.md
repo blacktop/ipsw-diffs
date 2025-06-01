@@ -46,13 +46,16 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96341DD9-2A7B-3B7A-99D3-7660D48EE5DA
++  UUID: DAA54F69-3361-3063-97D9-CDE80C05E105
    Functions: 300
 -  Symbols:   1179
--  CStrings:  534
+-  CStrings:  623
 +  Symbols:   1183
-+  CStrings:  537
++  CStrings:  626
  
 Symbols:
 + _OBJC_CLASS_$_NSURLComponents

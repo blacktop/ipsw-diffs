@@ -17,11 +17,15 @@
    __TEXT.__objc_classname: 0x4f
    __TEXT.__objc_methtype: 0x141
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 253DCBEC-4BAC-33A3-BD9B-6320EF29D93F
++  UUID: 9DDDCBFA-76B3-390F-80B3-61F709DE6D89
    Functions: 21
    Symbols:   55
--  CStrings:  111
-+  CStrings:  112
+-  CStrings:  119
++  CStrings:  120
  
 CStrings:
 + "T@\"NSString\",?,R,C"

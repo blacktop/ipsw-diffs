@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A5A49BDF-2FE0-38C6-B8A9-9F9D24813306
 -  Functions: 859
 -  Symbols:   294
--  CStrings:  1542
+-  CStrings:  1638
++  UUID: F8AEB51D-3F1F-305F-B32E-C5878C4491F0
 +  Functions: 862
 +  Symbols:   296
-+  CStrings:  1548
++  CStrings:  1645
  
 Symbols:
 + OBJC_IVAR_$_userFSVolume.blockSize

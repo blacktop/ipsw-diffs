@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB87EA06-99D7-37B1-9018-A2EAE4B9CF5C
 -  Functions: 783
 -  Symbols:   3539
--  CStrings:  1513
+-  CStrings:  1683
++  UUID: E8D5B9A3-3C85-31B8-9BFA-2C44C7A73473
 +  Functions: 792
 +  Symbols:   3568
-+  CStrings:  1530
++  CStrings:  1703
  
 Symbols:
 + -[SWConfiguration initWithStoreFront:locale:contentEnvironment:contentSizeCategory:canvasSize:contentFrame:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:keyboardConfiguration:networkStatus:isTransitioning:]

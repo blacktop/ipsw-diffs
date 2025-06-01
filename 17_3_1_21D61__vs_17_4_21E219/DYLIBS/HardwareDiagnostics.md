@@ -44,12 +44,16 @@
    __DATA.__data: 0x240
    __DATA.__bss: 0x28
 
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B65E2553-2E2C-33CD-A410-76B59C5C7AFB
++  UUID: 57FFF316-6C73-3013-A14A-4865552F6A15
    Functions: 183
 -  Symbols:   840
+-  CStrings:  491
 +  Symbols:   839
-   CStrings:  409
++  CStrings:  490
  
 Symbols:
 - _HDLunaImageExperimentErrorDomain

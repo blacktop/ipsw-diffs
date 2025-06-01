@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__cfstring: 0x13a0
    __AUTH_CONST.__const: 0x638
 +  __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x520
    __AUTH.__objc_data: 0x5a0
    __AUTH.__data: 0x140
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 291DBC2B-25DA-3A4E-A5B2-73685794797C
 -  Functions: 1056
 -  Symbols:   2971
--  CStrings:  1336
+-  CStrings:  1491
++  UUID: 4B501432-369B-3DD7-ADC3-0A9C65C0162D
 +  Functions: 1060
 +  Symbols:   2991
-+  CStrings:  1348
++  CStrings:  1505
  
 Symbols:
 + -[CHUISPreferences observeValueForKeyPath:ofObject:change:context:]

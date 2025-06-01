@@ -38,8 +38,7 @@
    __AUTH_CONST.__cfstring: 0x89e0
    __AUTH_CONST.__objc_const: 0x3cb8
    __AUTH_CONST.__const: 0x23f0
-
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__auth_got: 0x7b8
    __AUTH.__objc_data: 0x1fe0
 -  __DATA.__objc_protorefs: 0x138
@@ -58,12 +57,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5619B8C-1C60-3143-85CA-938AA492A488
++  UUID: A9CB67D3-5612-33AA-A254-40812EBB1D73
    Functions: 3070
 -  Symbols:   10436
 +  Symbols:   10433
-   CStrings:  4117
+   CStrings:  5220
  
 Symbols:
 + __OBJC_$_PROP_LIST_SBSDisplayLayoutElement.167

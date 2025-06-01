@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D1112BC-F4B8-388F-9DC8-64B0E765B3D3
 -  Functions: 116
 -  Symbols:   84
--  CStrings:  388
+-  CStrings:  471
++  UUID: CAD5D0DF-9715-3826-B6C0-9CA516C51C1F
 +  Functions: 123
 +  Symbols:   86
-+  CStrings:  418
++  CStrings:  508
  
 Symbols:
 + _OBJC_CLASS_$_NSDate

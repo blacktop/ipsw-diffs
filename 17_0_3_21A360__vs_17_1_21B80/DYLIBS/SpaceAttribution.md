@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AEA2AEF3-F333-3EFA-BC0F-96A965FDC5E9
 -  Functions: 401
 -  Symbols:   1381
--  CStrings:  689
+-  CStrings:  797
++  UUID: EFC5CA46-F035-3340-9E1A-783BE7B7645C
 +  Functions: 410
 +  Symbols:   1400
-+  CStrings:  708
++  CStrings:  820
  
 Symbols:
 + +[SASupport getPathOfNodeID:FSid:]

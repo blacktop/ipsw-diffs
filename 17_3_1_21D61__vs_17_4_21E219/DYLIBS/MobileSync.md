@@ -19,4 +19,13 @@
    __DATA.__bss: 0x3d0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 073093B7-3F69-3096-9DD0-ED21E1733510
++  UUID: 30B73FA2-B2EB-3AE5-823C-5F2172EAA067
+   Functions: 188
+   Symbols:   984
+   CStrings:  1605
+
 ```

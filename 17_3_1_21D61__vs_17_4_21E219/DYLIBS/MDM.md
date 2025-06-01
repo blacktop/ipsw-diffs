@@ -104,12 +104,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 05975CDB-3CAF-3A5D-9A72-04A48B7C3C0F
 -  Functions: 956
 -  Symbols:   4397
--  CStrings:  2618
+-  CStrings:  3155
++  UUID: 97F0FC1C-9255-38F4-9CDA-4E5FD3C4F893
 +  Functions: 1148
 +  Symbols:   5074
-+  CStrings:  2880
++  CStrings:  3453
  
 Symbols:
 + +[MDMDeclarativeManagementCommand _isSupervised]

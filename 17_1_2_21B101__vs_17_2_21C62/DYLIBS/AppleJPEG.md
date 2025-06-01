@@ -15,6 +15,15 @@
    __TEXT.__oslogstring: 0x19b
    __TEXT.__unwind_info: 0x7b0
    __TEXT.__eh_frame: 0x50
+
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 1DA978FD-5FD6-3E02-9CAC-3130101DABF0
++  UUID: 1856DFE0-1A5C-3FE2-8D76-5AB7D4F620C4
+   Functions: 671
+   Symbols:   1301
+   CStrings:  539
 CStrings:
 + "EmbeddedAppleJPEG-210.1"
 + "Mon Oct 30 14:36:45 2023"

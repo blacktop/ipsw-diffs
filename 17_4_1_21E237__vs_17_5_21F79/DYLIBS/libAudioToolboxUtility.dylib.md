@@ -19,7 +19,7 @@
    __TEXT.__objc_methname: 0xe5
    __TEXT.__objc_stubs: 0x100
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__cfstring: 0x7a0
    __AUTH_CONST.__auth_got: 0xbc0
    __DATA.__got_weak: 0x98
 -  __DATA.__data: 0xc0
@@ -33,6 +33,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C7FB07D0-7CC5-3DA2-992D-E7F49077FF6B
++  UUID: 069F7760-6427-3FDF-B848-41C60E3BAAB4
+   Functions: 1100
+   Symbols:   2278
+   CStrings:  450
 CStrings:
 + "@@ Strips Apr 15 2024 19:53:17"
 - "@@ Strips Mar  9 2024 00:27:48"

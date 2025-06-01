@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E16A1449-1D22-319A-9157-37DC641FA8FB
 -  Functions: 6868
 -  Symbols:   24386
--  CStrings:  10107
+-  CStrings:  10920
++  UUID: 2CB209FE-F9CE-3649-AFBE-83DEC6E5B1CE
 +  Functions: 6867
 +  Symbols:   24384
-+  CStrings:  10111
++  CStrings:  10924
  
 Symbols:
 + -[NCAvatarImageRenderer _queue_imageForContacts:compatibleWithTraitCollection:circular:]

@@ -83,12 +83,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED2853E5-296E-3630-A7B7-9462CFA8FA25
 -  Functions: 1511
 -  Symbols:   5457
--  CStrings:  2653
+-  CStrings:  2990
++  UUID: 7D0EDAFE-A353-39B7-AC4C-4D2BB2518965
 +  Functions: 1555
 +  Symbols:   5632
-+  CStrings:  2762
++  CStrings:  3125
  
 Symbols:
 + +[BYPaneFeatureAnalyticsManager _featuresForPane:]

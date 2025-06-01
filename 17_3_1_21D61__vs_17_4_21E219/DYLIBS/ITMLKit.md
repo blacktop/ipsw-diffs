@@ -39,11 +39,15 @@
    __DATA.__data: 0x3708
    __DATA.__bss: 0x190
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libxslt.1.dylib
+-  UUID: 44AF0189-4DF1-3B39-A804-072F565FAB99
++  UUID: A6731799-8F40-3EC8-B647-43654F783901
    Functions: 4469
    Symbols:   17032
--  CStrings:  7699
-+  CStrings:  7703
+-  CStrings:  9065
++  CStrings:  9069
  
 Symbols:
 + __OBJC_$_PROP_LIST_IKJSApplication.102

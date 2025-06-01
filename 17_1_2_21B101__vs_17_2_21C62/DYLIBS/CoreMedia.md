@@ -35,9 +35,9 @@
 -  __AUTH_CONST.__cfstring: 0x138a0
 +  __AUTH_CONST.__const: 0x4180
 +  __AUTH_CONST.__cfstring: 0x13980
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_const: 0x48
+   __AUTH_CONST.__auth_got: 0x1800
 
    __DATA.__objc_classrefs: 0x78
    __DATA.__objc_superrefs: 0x8
@@ -54,12 +54,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 61376BCD-9D46-35A2-A377-379569CEDB2D
 -  Functions: 5078
 -  Symbols:   12198
--  CStrings:  4349
+-  CStrings:  6850
++  UUID: 196713DD-884E-34DE-8761-8D84A646F868
 +  Functions: 5083
 +  Symbols:   12228
-+  CStrings:  4372
++  CStrings:  6880
  
 Symbols:
 + _FigBufferedAirPlayClientRoutingRegistryCreate.onceToken

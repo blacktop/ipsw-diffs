@@ -26,11 +26,15 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 831ACDEC-3B44-3E0C-A875-A6FE789ECC62
++  UUID: FEB42851-8E7F-3079-88C3-4536B4844556
    Functions: 2530
    Symbols:   8305
--  CStrings:  3800
-+  CStrings:  3801
+-  CStrings:  4387
++  CStrings:  4389
  
 CStrings:
 + ".quickExit"

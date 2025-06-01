@@ -43,7 +43,7 @@
 +  __AUTH_CONST.__const: 0x2200
    __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__auth_got: 0xb28
 
    __DATA.__objc_superrefs: 0x2e0
    __DATA.__objc_ivar: 0x950
@@ -57,12 +57,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4424A4B4-7184-3B1F-906B-9FB344A4DA95
 -  Functions: 4646
 -  Symbols:   15307
--  CStrings:  8206
+-  CStrings:  11257
++  UUID: EE815368-DB2C-3485-87F6-35B8DFF43AD8
 +  Functions: 4648
 +  Symbols:   15315
-+  CStrings:  8209
++  CStrings:  11262
  
 Symbols:
 + +[MCPayload(Private) unavailablePayloadsWithStolenDeviceProtection]

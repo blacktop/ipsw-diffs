@@ -68,6 +68,9 @@
 -  __DATA_CONST.__objc_superrefs: 0x6878
 -  __DATA_CONST.__objc_arraydata: 0x3578
 -  __AUTH_CONST.__const: 0x1ebb0
+-  __AUTH_CONST.__objc_const: 0x6a688
+-  __AUTH_CONST.__cfstring: 0x9d140
+-  __AUTH_CONST.__objc_arrayobj: 0x2598
 +  __DATA_CONST.__objc_const: 0x1c7820
 +  __DATA_CONST.__objc_selrefs: 0x81800
 +  __DATA_CONST.__objc_protorefs: 0x738
@@ -75,10 +78,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x68a0
 +  __DATA_CONST.__objc_arraydata: 0x3670
 +  __AUTH_CONST.__const: 0x1ec98
-   __AUTH_CONST.__auth_ptr: 0x1f0
--  __AUTH_CONST.__objc_const: 0x6a688
--  __AUTH_CONST.__cfstring: 0x9d140
--  __AUTH_CONST.__objc_arrayobj: 0x2598
 +  __AUTH_CONST.__objc_const: 0x6ab50
 +  __AUTH_CONST.__cfstring: 0x9d980
 +  __AUTH_CONST.__objc_arrayobj: 0x2610
@@ -125,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7BF01CFC-23F1-326A-AFD8-AD967FFECE28
 -  Functions: 131963
 -  Symbols:   375498
--  CStrings:  138218
+-  CStrings:  158324
++  UUID: 63F83251-1F7C-3042-B4FB-AD6C587028CE
 +  Functions: 132306
 +  Symbols:   376329
-+  CStrings:  138559
++  CStrings:  158731
  
 Symbols:
 + +[UIFeedbackGenerator feedbackGeneratorForView:]

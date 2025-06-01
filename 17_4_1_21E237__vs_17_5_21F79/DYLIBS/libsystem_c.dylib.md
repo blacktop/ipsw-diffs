@@ -11,7 +11,7 @@
 +  __TEXT.__unwind_info: 0x1374
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x1910
-   __AUTH_CONST.__auth_ptr: 0x80
+   __AUTH_CONST.__const: 0x100
 
    __AUTH.__data: 0x30
    __AUTH.__constrw: 0xcf0
@@ -27,5 +27,14 @@
    __DATA_DIRTY.__bss: 0x2f0
    __DATA_DIRTY.__common: 0x90
    - /usr/lib/system/libcompiler_rt.dylib
+
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 3B5201C5-15D0-335F-A91D-0C63E1F6C6DC
++  UUID: B122F07F-A156-37F3-A22D-64627C0C4B24
+   Functions: 1874
+   Symbols:   2981
+   CStrings:  874
 
 ```

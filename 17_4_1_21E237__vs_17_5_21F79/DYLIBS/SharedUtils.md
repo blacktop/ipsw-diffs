@@ -25,9 +25,18 @@
    __AUTH_CONST.__const: 0x180
 -  __AUTH_CONST.__objc_intobj: 0x8b8
 +  __AUTH_CONST.__objc_intobj: 0x8e8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x350
    __AUTH.__objc_data: 0xa0
+   __DATA.__objc_ivar: 0xb8
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1D13CF0A-093C-3167-8720-1AB0C1E291CC
++  UUID: 94986C5A-8F51-37D3-BDE8-71B2C1AF33FD
+   Functions: 632
+   Symbols:   1875
+   CStrings:  1210
 Symbols:
 + ___31+[LAParamChecker checkOptions:]_block_invoke.159
 + ___block_literal_global.162

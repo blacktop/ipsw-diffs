@@ -35,11 +35,15 @@
    __DATA.__data: 0x1e0
    __DATA_DIRTY.__objc_data: 0xf0
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2BDF176-ACBE-3E52-B311-B22FBBE48DBA
++  UUID: 4191FEAF-3150-3388-A5DA-46501A77D931
    Functions: 95
    Symbols:   100
--  CStrings:  349
-+  CStrings:  352
+-  CStrings:  388
++  CStrings:  391
  
 CStrings:
 + "T@\"NSArray\",?,R,N"

@@ -22,6 +22,15 @@
    __DATA_CONST.__auth_got: 0x610
    __DATA_CONST.__got: 0xc0
    __DATA_CONST.__const: 0x71e8
+
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 06960DDF-E522-30D4-BAB6-7E8B2F055268
++  UUID: F9556F9D-D14B-3260-8879-C3734BA9D7EC
+   Functions: 512
+   Symbols:   229
+   CStrings:  574
 CStrings:
 + "/Savage/SavagePatch.DAT"
 + "/Yonkers/YonkersPatch.DAT"

@@ -51,12 +51,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 30ADCF41-12F6-35D2-8CF4-FE030A37B262
 -  Functions: 1540
 -  Symbols:   6389
--  CStrings:  3713
+-  CStrings:  4609
++  UUID: 1F000119-B026-3A57-8D7D-3DF9A3BB9D12
 +  Functions: 1547
 +  Symbols:   6410
-+  CStrings:  3723
++  CStrings:  4619
  
 Symbols:
 + -[SL_OOPAWebViewController _updateNavBarTitle]

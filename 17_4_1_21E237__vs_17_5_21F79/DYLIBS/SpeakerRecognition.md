@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4A8C056A-7FFF-3A8C-A8CE-B9757A3D2518
 -  Functions: 1721
 -  Symbols:   6564
--  CStrings:  4504
+-  CStrings:  5075
++  UUID: 9DDD57C2-EBB5-35B8-8ACE-F051FF9FC6EA
 +  Functions: 2005
 +  Symbols:   7457
-+  CStrings:  4929
++  CStrings:  5556
  
 Symbols:
 + +[CoreSpeechExclaveAssetController sharedInstance]

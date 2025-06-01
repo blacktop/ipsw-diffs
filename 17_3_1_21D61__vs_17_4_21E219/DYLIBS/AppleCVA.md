@@ -44,7 +44,6 @@
    __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0xce0
 -  __DATA.__objc_classrefs: 0xb8
 +  __AUTH_CONST.__auth_got: 0xd00
@@ -62,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CAF73957-32D6-3A8F-B2F0-A5904903DE1A
 -  Functions: 1116
 -  Symbols:   905
--  CStrings:  1705
+-  CStrings:  2133
++  UUID: 62843C1D-591A-332F-829A-9B8562F51815
 +  Functions: 1238
 +  Symbols:   901
-+  CStrings:  1729
++  CStrings:  2149
  
 Symbols:
 + _CFDataGetBytePtr

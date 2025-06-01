@@ -61,12 +61,10 @@
 -  __DATA_CONST.__objc_selrefs: 0x1a90
 -  __AUTH_CONST.__const: 0x56e0
 -  __AUTH_CONST.__objc_const: 0x2b58
--  __AUTH_CONST.__auth_ptr: 0x28
 +  __DATA_CONST.__objc_const: 0x4f88
 +  __DATA_CONST.__objc_selrefs: 0x1ad0
 +  __AUTH_CONST.__const: 0x58b8
 +  __AUTH_CONST.__objc_const: 0x2c78
-+  __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x4c8
 -  __AUTH_CONST.__cfstring: 0x3a20
 -  __AUTH_CONST.__auth_got: 0xa50
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F2C72E77-6947-3CEE-A819-442CD941E065
 -  Functions: 5728
 -  Symbols:   6401
--  CStrings:  2042
+-  CStrings:  2507
++  UUID: 7F97BE53-4580-3E4A-A4F9-E900FA42D26A
 +  Functions: 5861
 +  Symbols:   6515
-+  CStrings:  2069
++  CStrings:  2541
  
 Symbols:
 + +[LNPlayVideoSystemProtocolMetadata supportsSecureCoding]

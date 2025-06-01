@@ -22,11 +22,15 @@
    __DATA.__objc_classrefs: 0x190
    __DATA.__objc_superrefs: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43399837-29D0-376A-ACA1-37ABF178F5A2
++  UUID: 01DB0598-4607-3960-A684-4ED4F2A9C486
    Functions: 449
    Symbols:   150
--  CStrings:  1044
-+  CStrings:  1045
+-  CStrings:  1104
++  CStrings:  1105
  
 CStrings:
 + "onboardingControllerDidDismissSettings:"

@@ -59,9 +59,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86CCDAFC-8F0C-3AF3-A4A6-E2E261C1C49A
 -  Functions: 2
 -  Symbols:   28
--  CStrings:  18
+-  CStrings:  23
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -70,9 +71,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 13E730ED-BCDC-3D94-9F2B-E0EBA77D0815
 +  Functions: 132
 +  Symbols:   226
-+  CStrings:  95
++  CStrings:  100
  
 Symbols:
 + _$s10Foundation11JSONEncoderC20DateEncodingStrategyO7iso8601yA2EmFWC

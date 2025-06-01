@@ -21,7 +21,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x20
    __AUTH_CONST.__const: 0x16618
    __AUTH_CONST.__cfstring: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xd50
 -  __DATA.__objc_classrefs: 0x20
 +  __AUTH_CONST.__auth_got: 0xd48
@@ -32,11 +31,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FAA89836-A034-3ED3-9C3C-86820C6195DA
 -  Functions: 2027
 -  Symbols:   480
++  UUID: 0E8AD5C6-B517-3EFB-BB01-565438D6B160
 +  Functions: 2028
 +  Symbols:   479
-   CStrings:  1665
+   CStrings:  1671
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_

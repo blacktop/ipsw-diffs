@@ -25,11 +25,15 @@
    __AUTH_CONST.__const: 0x298
    __AUTH_CONST.__auth_got: 0x528
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F8D338ED-ADE1-3B04-85B2-714E3C8D157E
++  UUID: CD81ADF7-2359-3024-A163-4D1FB33C3B4E
    Functions: 432
    Symbols:   1270
--  CStrings:  481
-+  CStrings:  482
+-  CStrings:  618
++  CStrings:  620
  
 CStrings:
 + "Session pid version: %llu, "

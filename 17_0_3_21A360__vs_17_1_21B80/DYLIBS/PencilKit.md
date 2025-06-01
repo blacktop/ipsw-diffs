@@ -52,7 +52,6 @@
    __DATA_CONST.__objc_arraydata: 0x768
 -  __AUTH_CONST.__const: 0x4b08
 +  __AUTH_CONST.__const: 0x4b28
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x8a78
 -  __AUTH_CONST.__cfstring: 0xbb20
 +  __AUTH_CONST.__cfstring: 0xbbc0
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4245E10E-894F-3F7C-AB14-1C2E91EF00C9
 -  Functions: 13802
 -  Symbols:   43648
--  CStrings:  16711
+-  CStrings:  18208
++  UUID: CC8698A1-B859-3D03-BDD7-435B1E8F6BD5
 +  Functions: 13822
 +  Symbols:   43709
-+  CStrings:  16748
++  CStrings:  18250
  
 Symbols:
 + +[PKToolPicker _toolPickersForWindow:]

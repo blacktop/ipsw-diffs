@@ -51,11 +51,15 @@
    __DATA.__objc_data: 0xf78
    __DATA.__data: 0xd10
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 00E0F55E-08A6-3EA3-A030-158496E7BAE6
++  UUID: 52FDEF23-2B08-3EE1-88CA-BB88309C3A55
    Functions: 1196
    Symbols:   382
--  CStrings:  2557
-+  CStrings:  2561
+-  CStrings:  2675
++  CStrings:  2679
  
 CStrings:
 + "T@\"<BNPresentableContext>\",?,W,N"

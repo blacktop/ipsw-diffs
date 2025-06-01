@@ -28,4 +28,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F0A42692-69BD-3C68-A525-5579595B0CD2
++  UUID: 4AB18EB7-87B8-3394-B1B6-458FB81A706E
+   Functions: 101
+   Symbols:   591
+   CStrings:  372
+
 ```

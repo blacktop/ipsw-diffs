@@ -40,13 +40,16 @@
    __DATA.__objc_superrefs: 0x48
    __DATA.__objc_ivar: 0xc
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D002D14E-C26A-38E7-8A8D-5243D290880C
++  UUID: FFC34C35-30BE-3104-9F36-CDC5DC59973B
    Functions: 145
 -  Symbols:   175
--  CStrings:  666
+-  CStrings:  1002
 +  Symbols:   177
-+  CStrings:  667
++  CStrings:  1003
  
 Symbols:
 + _CAMUserPreferenceEnableSpatialVideoCaptureControl

@@ -47,11 +47,13 @@
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B804D2A5-DA6C-3BB5-A387-EA791D162C76
 -  Functions: 586
++  UUID: 1FA72129-430E-3247-AB0A-9C551E68E858
 +  Functions: 587
    Symbols:   367
--  CStrings:  1634
-+  CStrings:  1637
+-  CStrings:  2029
++  CStrings:  2034
  
 CStrings:
 + "CheckForObjectsSettings"

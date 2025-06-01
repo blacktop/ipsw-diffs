@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x1c0
    __AUTH_CONST.__objc_arrayobj: 0x498
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x9d0
 -  __AUTH.__objc_data: 0x5a0
 -  __AUTH.__data: 0x28
@@ -97,9 +96,10 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 819E3E97-258B-309A-9E09-7EED083A1DCE
 -  Functions: 4042
 -  Symbols:   14738
--  CStrings:  10440
+-  CStrings:  15101
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -111,9 +111,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 56511E44-2460-30AA-AE82-46636494135C
 +  Functions: 4068
 +  Symbols:   14829
-+  CStrings:  10470
++  CStrings:  15134
  
 Symbols:
 + +[SSRankingManager fillRankingPosition:]

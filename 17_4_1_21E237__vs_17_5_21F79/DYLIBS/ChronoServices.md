@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0xc40
    __TEXT.__objc_methname: 0x8d4f
 
+   __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__auth_got: 0xbe0
 -  __AUTH.__objc_data: 0x11f8
 +  __AUTH.__objc_data: 0x1298
@@ -36,5 +36,14 @@
    __DATA_DIRTY.__data: 0x170
    __DATA_DIRTY.__bss: 0x998
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AB88AC5C-F16C-35EA-BDA9-1FFBDFB9F969
++  UUID: 1A62D95E-9725-3753-BB41-1582036CB66C
+   Functions: 2722
+   Symbols:   7131
+   CStrings:  3034
 
 ```

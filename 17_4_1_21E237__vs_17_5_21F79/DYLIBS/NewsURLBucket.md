@@ -26,7 +26,6 @@
 -  __AUTH_CONST.__const: 0x1c0
 +  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0xd0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x360
 -  __AUTH.__objc_data: 0x1e8
 -  __AUTH.__data: 0x130
@@ -43,5 +42,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: A914F5BC-78EA-3A29-9C16-088C161E9012
++  UUID: 652FCD19-0F5E-375C-B57D-FB4AD5A5A929
+   Functions: 169
+   Symbols:   218
+   CStrings:  67
 
 ```

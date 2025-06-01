@@ -59,13 +59,12 @@
 -  __DATA_CONST.__objc_arraydata: 0x1878
 -  __AUTH_CONST.__objc_const: 0x170e0
 -  __AUTH_CONST.__const: 0xe270
+-  __AUTH_CONST.__cfstring: 0x2c5c0
 +  __DATA_CONST.__objc_const: 0x8edd0
 +  __DATA_CONST.__objc_selrefs: 0x2bc68
 +  __DATA_CONST.__objc_arraydata: 0x1868
 +  __AUTH_CONST.__objc_const: 0x17128
 +  __AUTH_CONST.__const: 0xe4f0
-   __AUTH_CONST.__auth_ptr: 0x160
--  __AUTH_CONST.__cfstring: 0x2c5c0
 +  __AUTH_CONST.__cfstring: 0x2c5e0
    __AUTH_CONST.__objc_arrayobj: 0xee8
    __AUTH_CONST.__objc_dictobj: 0x140
@@ -101,12 +100,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 174567F1-4E47-3088-A3C1-085DA8E2532D
 -  Functions: 36667
 -  Symbols:   104782
--  CStrings:  47545
+-  CStrings:  53223
++  UUID: 985D5383-8126-3540-A490-37E7C2166651
 +  Functions: 36707
 +  Symbols:   104794
-+  CStrings:  47550
++  CStrings:  53229
  
 Symbols:
 + +[PUUserTransformView doubleTapZoomScaleForContentSize:inBoundsSize:defaultScale:]

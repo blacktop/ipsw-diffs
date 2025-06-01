@@ -34,11 +34,13 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A787F3E7-5CA1-3193-873D-2E62D345BD60
 -  Functions: 119
++  UUID: FCD4757E-FAC9-379F-A8CF-5BCBC495103B
 +  Functions: 120
    Symbols:   141
--  CStrings:  405
-+  CStrings:  406
+-  CStrings:  415
++  CStrings:  416
  
 CStrings:
 + "settingsController:requestsForcedPresentViewController:animated:completion:"

@@ -68,12 +68,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 493FD432-0DC6-37AF-9410-F8E234787DDA
 -  Functions: 150
 -  Symbols:   598
--  CStrings:  308
+-  CStrings:  378
++  UUID: 1C288B59-936B-3508-897B-9B0D7F61AA6E
 +  Functions: 160
 +  Symbols:   672
-+  CStrings:  339
++  CStrings:  410
  
 Symbols:
 + +[CLFCameraSettings_GeneratedCode allPreferenceSelectorsAsStrings]

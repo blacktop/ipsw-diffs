@@ -27,11 +27,15 @@
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__const: 0x2a0
 
+   - /usr/lib/libcupolicy.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BE428D71-8695-3065-9CE8-0C88C60DA8F2
++  UUID: 1B0C15CD-A333-34BF-B616-A3915500D652
    Functions: 1054
    Symbols:   434
--  CStrings:  2568
-+  CStrings:  2569
+-  CStrings:  3057
++  CStrings:  3059
  
 CStrings:
 + "Vision"

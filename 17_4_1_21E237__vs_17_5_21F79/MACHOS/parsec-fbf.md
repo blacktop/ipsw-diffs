@@ -60,13 +60,16 @@
    __DATA.__bss: 0xe1b0
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A7E1DB55-4AF3-3AE4-9DF4-990555022251
++  UUID: 99FFFD1C-6973-31B8-B438-842735EE1A40
    Functions: 11092
 -  Symbols:   1445
--  CStrings:  2063
+-  CStrings:  2259
 +  Symbols:   1444
-+  CStrings:  2061
++  CStrings:  2257
  
 Symbols:
 + _$sSy10FoundationE7cString5usingSays4Int8VGSgSSAAE8EncodingV_tF

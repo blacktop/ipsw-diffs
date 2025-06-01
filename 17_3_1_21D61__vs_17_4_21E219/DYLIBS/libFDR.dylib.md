@@ -26,12 +26,11 @@
 -  __DATA_CONST.__objc_selrefs: 0x8
 -  __AUTH_CONST.__const: 0x920
 -  __AUTH_CONST.__cfstring: 0xd7a0
+-  __AUTH_CONST.__auth_got: 0x970
+-  __DATA.__objc_classrefs: 0x8
 +  __DATA_CONST.__objc_classrefs: 0x8
 +  __AUTH_CONST.__const: 0x8f8
 +  __AUTH_CONST.__cfstring: 0xd900
-   __AUTH_CONST.__auth_ptr: 0x38
--  __AUTH_CONST.__auth_got: 0x970
--  __DATA.__objc_classrefs: 0x8
 +  __AUTH_CONST.__auth_got: 0x950
    __DATA.__data: 0x158
 -  __DATA.__bss: 0xe8
@@ -43,13 +42,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3ADD6823-9106-3773-BDA4-714169D0B8C7
++  UUID: 5722BC7A-4BD1-3073-9FDB-31C9AE086782
    Functions: 802
 -  Symbols:   2052
--  CStrings:  3628
+-  CStrings:  5353
 +  Symbols:   2045
-+  CStrings:  3653
++  CStrings:  5389
  
 Symbols:
 + _AMFDRDataCreateMultiDataAsMultiResponse

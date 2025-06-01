@@ -19,7 +19,11 @@
    __DATA_CONST.__got: 0x70
    __DATA_CONST.__const: 0x620
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E126E089-CD57-355F-B917-2FE977BD2C7A
++  UUID: C7CA42FD-33C2-3ED1-950F-F1CB3729357A
    Functions: 159
    Symbols:   451
 -  CStrings:  251

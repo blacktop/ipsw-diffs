@@ -61,7 +61,6 @@
    __AUTH_CONST.__cfstring: 0x39a0
 -  __AUTH_CONST.__const: 0x1080
 +  __AUTH_CONST.__const: 0x1198
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x5a0
    __AUTH_CONST.__objc_arrayobj: 0x60
 -  __AUTH_CONST.__auth_got: 0xf78
@@ -106,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 90FAC927-0633-319D-9D19-AB3B1D2B38EB
 -  Functions: 1289
 -  Symbols:   3662
--  CStrings:  1882
+-  CStrings:  2343
++  UUID: 0C1FC4AF-465F-3157-A8C5-2EF353535790
 +  Functions: 1337
 +  Symbols:   3704
-+  CStrings:  1902
++  CStrings:  2363
  
 Symbols:
 + -[TTSSiriSynthWrapper _setProsodyParameters]

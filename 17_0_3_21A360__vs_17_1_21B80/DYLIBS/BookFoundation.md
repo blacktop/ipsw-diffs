@@ -61,12 +61,10 @@
    __AUTH_CONST.__objc_const: 0x458
    __AUTH_CONST.__cfstring: 0x1e0
 -  __AUTH_CONST.__const: 0x30f8
--  __AUTH_CONST.__auth_ptr: 0x110
 -  __AUTH_CONST.__auth_got: 0xb90
 -  __AUTH.__objc_data: 0x11c8
 -  __AUTH.__data: 0xb78
 +  __AUTH_CONST.__const: 0x3608
-+  __AUTH_CONST.__auth_ptr: 0x128
 +  __AUTH_CONST.__auth_got: 0xc40
 +  __AUTH.__objc_data: 0x1170
 +  __AUTH.__data: 0xb68
@@ -91,11 +89,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B17631E-C067-3751-AE73-AD5CB3A3A62A
 -  Functions: 3106
++  UUID: 7A8292D8-1018-3D1C-B0B9-C2E11A2F6E74
 +  Functions: 3224
    Symbols:   238
--  CStrings:  476
-+  CStrings:  488
+-  CStrings:  491
++  CStrings:  503
  
 Symbols:
 + _OBJC_CLASS_$_BFMRequestMetadata

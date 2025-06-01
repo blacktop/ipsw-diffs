@@ -27,7 +27,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x30
    __AUTH_CONST.__cfstring: 0x420
    __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x1f8
    __AUTH_CONST.__auth_got: 0x410
    __AUTH.__objc_data: 0x1e0
@@ -40,11 +39,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C4B8CCC-4569-3C98-A17A-E5B594FA9112
 -  Functions: 162
 -  Symbols:   802
++  UUID: F11A17F9-6E4C-312C-B406-831177B94B73
 +  Functions: 161
 +  Symbols:   799
-   CStrings:  360
+   CStrings:  393
  
 Symbols:
 + GCC_except_table40

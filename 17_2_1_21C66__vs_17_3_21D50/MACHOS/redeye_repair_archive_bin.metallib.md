@@ -10,6 +10,11 @@
    __TEXT.__descriptor: 0xc40
    __TEXT.__compute: 0x11a10
    __TEXT.__reflection: 0x3b30
+-  UUID: 121B496B-14DB-31DB-854C-36DAF1EBC81D
++  UUID: 8C9E16E6-F891-30B2-9616-D106A5F7E06B
+   Functions: 0
+   Symbols:   282
+   CStrings:  0
 Symbols:
 + _air-lipo-9076b9.out_10_descriptor_begin
 + _air-lipo-9076b9.out_10_descriptor_end

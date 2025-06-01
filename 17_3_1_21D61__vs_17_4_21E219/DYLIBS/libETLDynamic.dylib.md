@@ -21,10 +21,9 @@
    __DATA_CONST.__got: 0x48
    __DATA_CONST.__const: 0xf8
 -  __AUTH_CONST.__const: 0x100
-+  __AUTH_CONST.__const: 0x218
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x298
 -  __AUTH.__const_weak: 0x118
++  __AUTH_CONST.__const: 0x218
 +  __AUTH_CONST.__auth_got: 0x290
    __DATA.__got_weak: 0x28
    __DATA.__data: 0x2c
@@ -33,9 +32,11 @@
    - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 32A72A80-659D-3B52-A424-5BFE667438AB
 -  Functions: 688
 -  Symbols:   951
 -  CStrings:  619
++  UUID: 97ED231E-F6B2-33FF-B9F7-1D54F538DA28
 +  Functions: 696
 +  Symbols:   950
 +  CStrings:  615

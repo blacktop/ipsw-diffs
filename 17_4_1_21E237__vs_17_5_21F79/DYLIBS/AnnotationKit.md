@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_protorefs: 0x60
    __DATA_CONST.__objc_classrefs: 0xab8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 1A174590-D139-3848-BC12-2417707FE13F
++  UUID: 706141EB-A645-32CA-A4DA-F04688B8C537
    Functions: 4960
    Symbols:   820
--  CStrings:  7325
-+  CStrings:  7329
+-  CStrings:  8113
++  CStrings:  8117
  
 CStrings:
 + "B24@0:8@\"PKToolPicker\"16"

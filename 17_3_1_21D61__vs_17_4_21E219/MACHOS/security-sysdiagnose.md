@@ -33,6 +33,15 @@
    __DATA.__data: 0x60
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 25AB77D2-BF15-3A19-83A3-7C4A6526228F
++  UUID: 3DE67C49-5A60-39D2-99AB-5D30227A87FE
+   Functions: 32
+   Symbols:   154
+   CStrings:  208
 CStrings:
 + "isEqual:"
 - "isEqualToString:"

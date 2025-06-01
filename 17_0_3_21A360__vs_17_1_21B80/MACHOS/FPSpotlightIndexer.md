@@ -29,12 +29,15 @@
    __DATA_CONST.__const: 0x28
    __DATA_CONST.__cfstring: 0x40
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2E28005C-F5C2-3DB0-BDE4-B482FF417CD2
++  UUID: E5D46595-1563-36F2-8248-0A1A8DA7D8F1
    Functions: 22
 -  Symbols:   64
 +  Symbols:   65
-   CStrings:  73
+   CStrings:  75
  
 Symbols:
 + _objc_retain_x25

@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/APFoundation.framework/APFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA693038-43A7-37C7-9C4F-A03AB034EDB5
 -  Functions: 79
 -  Symbols:   98
--  CStrings:  171
+-  CStrings:  186
++  UUID: CA3DBA88-C6B1-3643-B1A3-7A39882A33CD
 +  Functions: 82
 +  Symbols:   102
-+  CStrings:  176
++  CStrings:  191
  
 Symbols:
 + _OBJC_CLASS_$_APSystemInternal

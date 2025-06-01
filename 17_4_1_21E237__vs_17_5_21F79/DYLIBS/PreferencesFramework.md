@@ -50,12 +50,14 @@
    - /usr/lib/libMobileCheckpoint.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5DD602B-B31A-36A7-95D3-10802263971C
 -  Functions: 240
 -  Symbols:   1113
--  CStrings:  542
+-  CStrings:  775
++  UUID: 9EF9070A-87C7-3133-B325-2BF3CCAD7E93
 +  Functions: 245
 +  Symbols:   1134
-+  CStrings:  546
++  CStrings:  781
  
 Symbols:
 + +[PSReversedSubtitleDisclosureTableCellAccessibility _accessibilityPerformValidations:]

@@ -26,6 +26,15 @@
    __TEXT.__objc_methtype: 0x488
    __TEXT.__objc_stubs: 0x11e0
    __DATA_CONST.__got: 0x148
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2393D635-0899-39DD-937A-CC96FE2857D7
++  UUID: 576DA185-3CCE-310D-928E-6F5F37FF1823
+   Functions: 976
+   Symbols:   1585
+   CStrings:  822
 Symbols:
 + _objc_msgSend$di_synchronize:
 - _objc_msgSend$synchronize:

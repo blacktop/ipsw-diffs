@@ -77,12 +77,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9E740CCD-1622-393D-A279-EF98B1552904
 -  Functions: 4308
 -  Symbols:   800
--  CStrings:  8206
+-  CStrings:  9579
++  UUID: 3838C088-7BAF-3300-B36F-B4FBF631A75D
 +  Functions: 4338
 +  Symbols:   803
-+  CStrings:  8269
++  CStrings:  9657
  
 Symbols:
 + _ICCloudClientCloudFavoriteSongAddToLibraryBehaviorDidChangeNotification

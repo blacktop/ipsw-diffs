@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 56D6B0D8-BABD-3DB5-969D-3403EE33AF93
 -  Functions: 751
 -  Symbols:   3332
--  CStrings:  1293
+-  CStrings:  1416
++  UUID: 50BE69BE-B5AF-30D7-8D88-ED9F5D2E3DF8
 +  Functions: 762
 +  Symbols:   3369
-+  CStrings:  1301
++  CStrings:  1424
  
 Symbols:
 + -[CRSUIDashboardWidgetWindow exportedObject]

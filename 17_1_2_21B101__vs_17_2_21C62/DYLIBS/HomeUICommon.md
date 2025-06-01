@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/Home.framework/Home
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE5C2D05-9FC7-3A62-B60A-3D583624D1AE
++  UUID: F7B42FCE-033C-3C1C-86C1-AE6431AAD75B
+   Functions: 338
+   Symbols:   1284
+   CStrings:  710
+
 ```

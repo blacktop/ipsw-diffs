@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8186220C-AC3E-372D-AB89-C3321E6376B6
++  UUID: C584ED28-FAC3-3944-8E9A-59F304CFF780
    Functions: 11
    Symbols:   51
--  CStrings:  163
-+  CStrings:  164
+-  CStrings:  168
++  CStrings:  169
  
 CStrings:
 + "T@\"NSString\",?,R,C"

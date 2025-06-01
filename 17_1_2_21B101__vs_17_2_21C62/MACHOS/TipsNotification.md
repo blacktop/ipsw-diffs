@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x1b81
    __TEXT.__cstring: 0x59
 
+   - /System/Library/PrivateFrameworks/TipsUI.framework/TipsUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EAE97176-C296-3CD3-A72C-BCF02F650E20
++  UUID: AA4CACD3-E546-3748-A9CC-45AC11701764
+   Functions: 71
+   Symbols:   110
+   CStrings:  400
+
 ```

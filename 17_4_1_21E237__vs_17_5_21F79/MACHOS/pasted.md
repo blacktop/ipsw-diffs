@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0x1e8
    __DATA_CONST.__const: 0x1338
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 271D5109-8048-37B4-9627-61A7490F936D
++  UUID: DFAE931D-75F9-3EF7-AC55-FB46B13B035E
+   Functions: 487
+   Symbols:   356
+   CStrings:  1483
+
 ```

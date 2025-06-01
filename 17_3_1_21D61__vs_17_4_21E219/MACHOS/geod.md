@@ -68,12 +68,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 995554E8-7056-3FD4-A876-6EAC327EBD0F
 -  Functions: 1200
 -  Symbols:   602
--  CStrings:  2482
+-  CStrings:  2888
++  UUID: 8C98F3A8-2ECA-3833-B956-93BD457EBAED
 +  Functions: 1214
 +  Symbols:   617
-+  CStrings:  2501
++  CStrings:  2903
  
 Symbols:
 + _GEOBackgroundTaskReportReportTaskInitiated

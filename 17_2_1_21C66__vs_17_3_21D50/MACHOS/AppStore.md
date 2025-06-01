@@ -71,11 +71,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 137CE30E-7AFE-3E0F-9403-C7CE3AA1DDB0
 -  Functions: 30832
 -  Symbols:   8006
++  UUID: 1527AA6C-4AEF-3BD2-99BD-C0DE038AE48E
 +  Functions: 30844
 +  Symbols:   8007
-   CStrings:  7311
+   CStrings:  7479
  
 Symbols:
 + _$sSo24UIPresentationControllerC5UIKitE23registerForTraitChanges_7handlerSo25UITraitChangeRegistration_pSayAC0I10Definition_pXpG_yx_So0I10CollectionCtctSo0I11EnvironmentRzlF

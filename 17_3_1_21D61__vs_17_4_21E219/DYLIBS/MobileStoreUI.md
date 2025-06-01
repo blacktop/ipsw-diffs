@@ -46,12 +46,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ABF49303-6209-36C8-9C9A-A4BDAC67B7C2
 -  Functions: 17846
 -  Symbols:   62632
--  CStrings:  21346
+-  CStrings:  24088
++  UUID: 0EEFB59B-8366-3C88-AE8E-64582A2F0879
 +  Functions: 17852
 +  Symbols:   62644
-+  CStrings:  21353
++  CStrings:  24095
  
 Symbols:
 + __OBJC_$_PROP_LIST_SUUIDynamicShelfViewElement.60

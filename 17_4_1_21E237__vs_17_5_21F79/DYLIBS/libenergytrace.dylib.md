@@ -13,4 +13,13 @@
    __DATA_CONST.__const: 0x20
    __AUTH_CONST.__const: 0x20
 
+   __DATA.__data: 0x8
+   __DATA_DIRTY.__bss: 0x48
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 773B72EF-5997-3208-9CEC-399D589F6E84
++  UUID: A7A5151A-2848-3BC4-A871-6EC9737B2094
+   Functions: 10
+   Symbols:   26
+   CStrings:  12
+
 ```

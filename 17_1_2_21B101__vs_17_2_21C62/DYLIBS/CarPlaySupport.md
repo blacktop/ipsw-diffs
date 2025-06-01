@@ -40,12 +40,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DCE65F7A-8C80-3704-BD5D-C9EA7D72AC71
 -  Functions: 2948
 -  Symbols:   11713
--  CStrings:  5177
+-  CStrings:  5334
++  UUID: 667616EF-853D-310B-8954-597382988CE7
 +  Functions: 2952
 +  Symbols:   11723
-+  CStrings:  5179
++  CStrings:  5336
  
 Symbols:
 + -[CPSTabBarViewController _isEligibleForNowPlayingButton]

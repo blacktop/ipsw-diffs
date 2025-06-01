@@ -26,7 +26,6 @@
    __DATA_CONST.__objc_selrefs: 0x370
 +  __DATA_CONST.__objc_classrefs: 0x30
 +  __DATA_CONST.__objc_superrefs: 0x20
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_const: 0x1b0
 -  __AUTH_CONST.__const: 0x550
 +  __AUTH_CONST.__const: 0x6d8
@@ -50,10 +49,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8FE26026-798E-3FE9-A0AC-907A2262776A
 -  Functions: 607
++  UUID: A45529D0-5A35-3B8D-B54C-3852975C617B
 +  Functions: 616
    Symbols:   1810
-   CStrings:  808
+   CStrings:  848
  
 Symbols:
 + GCC_except_table12

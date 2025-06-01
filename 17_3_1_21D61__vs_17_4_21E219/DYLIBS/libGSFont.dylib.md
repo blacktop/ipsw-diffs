@@ -17,12 +17,20 @@
 +  __DATA_CONST.__objc_classrefs: 0x68
    __AUTH_CONST.__const: 0x180
    __AUTH_CONST.__cfstring: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x558
 -  __DATA.__objc_classrefs: 0x68
    __DATA.__bss: 0x70
    __DATA_DIRTY.__bss: 0x90
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5D940FE0-43AF-3070-A708-1EFD33F1F140
++  UUID: 6517E854-F94D-3D32-A05A-EC449E3229A6
+   Functions: 114
+   Symbols:   516
+   CStrings:  240
 Symbols:
 + ___block_literal_global.258
 + ___block_literal_global.261

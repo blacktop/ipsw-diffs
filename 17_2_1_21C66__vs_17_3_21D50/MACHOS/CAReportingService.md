@@ -19,4 +19,13 @@
    __TEXT.__oslogstring: 0x6590
    __TEXT.__objc_classname: 0x795
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 5FBB1F8A-92B6-3D31-BA70-FCF744341CE3
++  UUID: 52F28EFC-E049-3E1F-91B1-65FD2C16226C
+   Functions: 1159
+   Symbols:   675
+   CStrings:  3195
+
 ```

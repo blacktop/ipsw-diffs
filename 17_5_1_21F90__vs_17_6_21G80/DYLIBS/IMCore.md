@@ -64,7 +64,6 @@
 -  __AUTH_CONST.__objc_const: 0x4cf8
 +  __AUTH_CONST.__objc_const: 0x4d40
    __AUTH_CONST.__objc_arrayobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x70
 -  __AUTH_CONST.__auth_got: 0x1208
 -  __AUTH.__objc_data: 0x2610
 +  __AUTH_CONST.__auth_got: 0x1210
@@ -81,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74416117-EDEB-33E2-8549-49C4EF6C9D7A
 -  Functions: 8264
 -  Symbols:   2112
--  CStrings:  13392
+-  CStrings:  14822
++  UUID: 0B45BB6F-B5BE-382D-9C50-92E72F950C2C
 +  Functions: 8280
 +  Symbols:   2120
-+  CStrings:  13418
++  CStrings:  14849
  
 Symbols:
 + _IMChatPropertyRequestedDowngradeExpirationDate

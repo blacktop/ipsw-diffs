@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43276DD0-056D-375A-81B8-7311727750E1
 -  Functions: 457
 -  Symbols:   327
--  CStrings:  3532
+-  CStrings:  3680
++  UUID: 90269E5C-C61D-3220-95DE-A58B23922A95
 +  Functions: 495
 +  Symbols:   330
-+  CStrings:  3616
++  CStrings:  3770
  
 Symbols:
 + _kVolumeDirStatsDataListFilenameKey

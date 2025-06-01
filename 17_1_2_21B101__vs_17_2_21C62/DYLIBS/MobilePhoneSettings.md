@@ -19,4 +19,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
 
+   - /System/Library/PrivateFrameworks/VisualVoicemail.framework/VisualVoicemail
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 19BE41F0-B859-3618-B3F5-8ED795797AC3
++  UUID: EDA60117-DA80-3334-ABB8-CB7DF048ADE0
+   Functions: 134
+   Symbols:   720
+   CStrings:  493
+
 ```

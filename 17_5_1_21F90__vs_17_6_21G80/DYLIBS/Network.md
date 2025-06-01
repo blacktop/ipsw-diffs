@@ -37,11 +37,15 @@
    __DATA_CONST.__got: 0x768
    __DATA_CONST.__const: 0x11240
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3B346129-AB2A-364A-8109-B53646EB1F80
++  UUID: CC56FF24-F15F-3C87-9E9A-D46F8727441E
    Functions: 18449
    Symbols:   45703
--  CStrings:  28447
-+  CStrings:  28450
+-  CStrings:  29440
++  CStrings:  29443
  
 Symbols:
 + __ZL13send_callbackP15nghttp2_sessionPKhmiPv.68474

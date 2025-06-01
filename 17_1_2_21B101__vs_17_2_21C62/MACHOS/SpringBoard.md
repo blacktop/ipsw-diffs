@@ -38,12 +38,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 021C212C-0019-3610-99D5-1A83375C80B5
 -  Functions: 364
 -  Symbols:   329
--  CStrings:  609
+-  CStrings:  707
++  UUID: D152EC03-538A-3F2D-9194-4CFC6C087677
 +  Functions: 368
 +  Symbols:   331
-+  CStrings:  611
++  CStrings:  709
  
 Symbols:
 + _SBLogSystemApertureLockElement

@@ -71,7 +71,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__auth_got: 0x14f8
 -  __AUTH.__objc_data: 0x3368
 -  __AUTH.__data: 0x830
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AC5796DF-07CC-31B2-A919-7C4AD48C776D
 -  Functions: 7856
 -  Symbols:   20058
--  CStrings:  10025
+-  CStrings:  11374
++  UUID: 628E308A-FC84-3CD4-95B4-F576E739A4F7
 +  Functions: 7830
 +  Symbols:   20054
-+  CStrings:  10028
++  CStrings:  11379
  
 Symbols:
 + -[PBFPosterExtensionDataStoreXPCServiceGlue _baseDataStoreURL:]

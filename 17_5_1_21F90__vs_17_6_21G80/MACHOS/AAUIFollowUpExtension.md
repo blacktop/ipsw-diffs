@@ -45,11 +45,13 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2B9997B4-F04C-3345-B4CB-607081AB9A19
 -  Functions: 156
++  UUID: C02F546E-CDF8-3816-BD71-CB878AFBCD62
 +  Functions: 159
    Symbols:   129
--  CStrings:  433
-+  CStrings:  437
+-  CStrings:  464
++  CStrings:  469
  
 CStrings:
 + "LCInvite: Attempting to show Beneficiary Invitation from follow up"

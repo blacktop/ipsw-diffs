@@ -59,9 +59,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x15b8
    __DATA_CONST.__objc_arraydata: 0x3a60
 -  __AUTH_CONST.__const: 0x1b818
--  __AUTH_CONST.__auth_ptr: 0x3e8
 +  __AUTH_CONST.__const: 0x22840
-+  __AUTH_CONST.__auth_ptr: 0x3f0
    __AUTH_CONST.__objc_const: 0x1b728
    __AUTH_CONST.__cfstring: 0x2a500
    __AUTH_CONST.__objc_intobj: 0x32b8
@@ -103,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4A5F71F6-DB86-3AF6-AE8E-226D30AF8CB6
 -  Functions: 30124
 -  Symbols:   59465
--  CStrings:  27529
+-  CStrings:  32945
++  UUID: A506F453-105B-3638-BF33-D75A87E9B392
 +  Functions: 31758
 +  Symbols:   59504
-+  CStrings:  27560
++  CStrings:  32976
  
 Symbols:
 + -[PGAbstractMetricEvent shouldReportMetrics]

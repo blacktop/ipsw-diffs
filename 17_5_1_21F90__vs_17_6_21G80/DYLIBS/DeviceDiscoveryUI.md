@@ -36,9 +36,9 @@
    __DATA_CONST.__objc_classlist: 0x128
    __DATA_CONST.__objc_catlist: 0x10
 
+   __AUTH_CONST.__objc_const: 0x6f8
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__const: 0x3df8
-   __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__auth_got: 0x14a8
 +  __AUTH_CONST.__auth_got: 0x14c8
    __AUTH.__objc_data: 0xff0
@@ -53,13 +53,16 @@
    - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
    - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6978DD26-6ED8-324F-AF05-866095A9E4A7
++  UUID: AF6DBF3A-E9F9-3994-AAC1-680B981F791D
    Functions: 2454
 -  Symbols:   1725
--  CStrings:  770
+-  CStrings:  776
 +  Symbols:   1727
-+  CStrings:  771
++  CStrings:  777
  
 Symbols:
 + _CUNormalizeEmailAddress

@@ -47,11 +47,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B91877A1-5E39-359E-913A-A88217632C68
 -  Functions: 1517
++  UUID: 6B99D02E-AF96-32BD-A159-BC7F38E3316A
 +  Functions: 1519
    Symbols:   606
--  CStrings:  3306
-+  CStrings:  3319
+-  CStrings:  3570
++  CStrings:  3585
  
 CStrings:
 + "%s: DeviceCommunication exception %s %s"

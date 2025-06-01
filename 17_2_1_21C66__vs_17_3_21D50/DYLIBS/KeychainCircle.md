@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D885DF0-DFF8-33BB-945E-CD04042F70A4
 -  Functions: 558
 -  Symbols:   2085
--  CStrings:  1187
+-  CStrings:  1407
++  UUID: 8BFE5F05-25E0-31DE-BDBC-8F7E33F225FC
 +  Functions: 562
 +  Symbols:   2102
-+  CStrings:  1219
++  CStrings:  1454
  
 Symbols:
 + -[AAFAnalyticsEventSecurity canSendMetrics]

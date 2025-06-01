@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0FDDB5EF-C469-3C9D-8C35-6B8C14521D55
 -  Functions: 14152
 -  Symbols:   2870
--  CStrings:  3518
+-  CStrings:  3520
++  UUID: 1A4F9E4E-0D37-3C72-B1B4-184ADE919678
 +  Functions: 14185
 +  Symbols:   2857
-+  CStrings:  3546
++  CStrings:  3547
  
 Symbols:
 + _$s5UIKit17UIApplicationMainys5Int32VAD_SpySpys4Int8VGGSgSSSgAJtF
@@ -184,6 +186,7 @@ CStrings:
 + "lt_errorWithCode:description:userInfo:"
 + "sourceInputTextField"
 + "targetInputTextField"
+- ""
 - "NO_INTERNET_CONNECTION_MESSAGE_WIFI"
 - "T@\"<SBUISystemApertureElement>\",R,W,N"
 - "T@\"BSAction\",R,N"

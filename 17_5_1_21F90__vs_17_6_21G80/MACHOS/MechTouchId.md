@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0xdc
    __TEXT.__objc_methname: 0xc62
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AEE82164-0D0F-3E42-AB82-C8BFEB12BB61
++  UUID: CA925B05-87FC-31D8-A099-A8D9E1179470
+   Functions: 45
+   Symbols:   63
+   CStrings:  248
+
 ```

@@ -31,11 +31,15 @@
    __DATA_CONST.__objc_protolist: 0x60
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12F296BA-7662-32E5-A658-FEEA74B27784
++  UUID: 20D5B709-1F7F-3CC6-B984-F959778DCECB
    Functions: 244
    Symbols:   142
--  CStrings:  756
-+  CStrings:  758
+-  CStrings:  805
++  CStrings:  808
  
 CStrings:
 + " [INFO] %{public}s:%d hideStatusBar=%d"

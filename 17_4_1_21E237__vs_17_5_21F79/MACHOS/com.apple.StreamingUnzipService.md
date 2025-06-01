@@ -45,11 +45,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9CF7F324-E9FD-34B2-BE77-EFBE2ACAF51B
 -  Functions: 311
++  UUID: 74F81497-005A-3E2C-A2E7-A2386086187E
 +  Functions: 313
    Symbols:   222
--  CStrings:  1192
-+  CStrings:  1198
+-  CStrings:  1370
++  CStrings:  1376
  
 CStrings:
 + "05:56:55"

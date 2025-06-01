@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0x3c00
    __TEXT.__objc_methlist: 0x1250
 
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: 81410823-6BAF-3199-91C5-628A7ED88A5E
++  UUID: 9049C497-56A8-3611-8582-6D44EA838FF1
+   Functions: 618
+   Symbols:   342
+   CStrings:  2532
+
 ```

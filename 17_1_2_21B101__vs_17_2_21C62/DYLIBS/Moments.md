@@ -58,12 +58,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF8B606A-0D53-3A7D-9443-EA0BEAB26E45
 -  Functions: 72
 -  Symbols:   333
--  CStrings:  115
+-  CStrings:  156
++  UUID: E78049D4-F345-3B80-970F-040D63E297FA
 +  Functions: 90
 +  Symbols:   417
-+  CStrings:  142
++  CStrings:  194
  
 Symbols:
 + +[MOSuggestionActivityIconAssetViewAccessibility _accessibilityPerformValidations:]
@@ -133,6 +135,7 @@ Symbols:
 + _objc_opt_isKindOfClass
 + _objc_retain_x22
 CStrings:
++ " "
 + " , "
 + "B16@?0@\"UIAccessibilityCustomAction\"8"
 + "B32@?0@8Q16^B24"

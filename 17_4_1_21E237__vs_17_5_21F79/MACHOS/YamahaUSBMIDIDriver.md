@@ -18,11 +18,15 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__auth_got: 0x420
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 842DC427-B933-3BE1-8426-B5B4F43BF8AF
++  UUID: 0AE735A5-BB35-3F61-82F3-4C9E2000CB65
    Functions: 592
    Symbols:   167
--  CStrings:  346
-+  CStrings:  347
+-  CStrings:  373
++  CStrings:  374
  
 CStrings:
 + "%25s:%-5d replacing bad cable number %d with entity (cable) number %d"

@@ -33,7 +33,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x90
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x2e8
 +  __AUTH_CONST.__auth_got: 0x2f0
    __AUTH.__data: 0xc0
@@ -46,8 +45,11 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D046595-EBC4-36B3-A6C6-E321D9284CA1
++  UUID: E1AE4476-53F0-33D2-848A-871336E08A35
    Functions: 67
 -  Symbols:   120
 -  CStrings:  72

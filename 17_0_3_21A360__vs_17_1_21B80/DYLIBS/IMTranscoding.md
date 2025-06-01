@@ -23,12 +23,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x8
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24C34C8F-50BC-30A1-BC10-F0603D3B49EE
++  UUID: A9D02EC6-188D-3B81-883E-FACAF3FAA8A6
    Functions: 51
 -  Symbols:   124
 +  Symbols:   125
-   CStrings:  229
+   CStrings:  277
  
 Symbols:
 + _im_primary_queue

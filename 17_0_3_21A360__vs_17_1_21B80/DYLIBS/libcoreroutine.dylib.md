@@ -95,12 +95,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F0B1705E-E62D-331B-8765-9DCBC7F0C5CA
 -  Functions: 14415
 -  Symbols:   47252
--  CStrings:  25230
+-  CStrings:  29079
++  UUID: 7374E541-81AF-3C0E-96FF-B853CAD5BB13
 +  Functions: 14524
 +  Symbols:   47603
-+  CStrings:  25433
++  CStrings:  29307
  
 Symbols:
 + +[NSPersonNameComponents(SMExtensions) sharedNameComponents]

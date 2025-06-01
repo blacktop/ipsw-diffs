@@ -23,4 +23,13 @@
    __DATA_CONST.__got: 0xf0
    __DATA_CONST.__const: 0x738
 
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 92AF3119-09A0-3075-8F0A-6850D40215B8
++  UUID: A5A49BDF-2FE0-38C6-B8A9-9F9D24813306
+   Functions: 859
+   Symbols:   294
+   CStrings:  1638
+
 ```

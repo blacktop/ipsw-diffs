@@ -10,6 +10,13 @@
    __TEXT.__descriptor: 0x9b0
    __TEXT.__vertex: 0x8d50
    __TEXT.__fragment: 0x5a80
+   __TEXT.__compute: 0xc470
+   __TEXT.__reflection: 0x6ea0
+-  UUID: A417F9DA-1C69-3AC9-8185-6C2009C636EC
++  UUID: 955FE4E9-1F76-3C9A-ABD6-9286DD3F4EF7
+   Functions: 0
+   Symbols:   328
+   CStrings:  0
 Symbols:
 + _air-lipo-d2bd31.out_10_descriptor_begin
 + _air-lipo-d2bd31.out_10_descriptor_end

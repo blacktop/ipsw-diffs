@@ -21,11 +21,15 @@
    __TEXT.__objc_stubs: 0xcd40
    __DATA_CONST.__got: 0x448
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29280048-0F88-34C2-92D6-897CB55F9A9E
++  UUID: EA0C1BD5-7F48-3B33-8C35-FEFB18B61943
    Functions: 2577
    Symbols:   8749
--  CStrings:  5687
-+  CStrings:  5691
+-  CStrings:  7761
++  CStrings:  7765
  
 CStrings:
 + "T@\"NSData\",&,V_licenseAgreement"

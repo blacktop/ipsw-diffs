@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ADE52220-305B-3B1D-8504-C8E20C8EC040
 -  Functions: 695
 -  Symbols:   282
--  CStrings:  625
+-  CStrings:  635
++  UUID: 208C3C0E-E09A-3636-BFEF-A1E48600EE7A
 +  Functions: 710
 +  Symbols:   285
-+  CStrings:  646
++  CStrings:  656
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftShazamKit

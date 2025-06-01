@@ -4,7 +4,7 @@
 
 ```diff
 
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__auth_got: 0x688
    __AUTH.__objc_data: 0xa0
 -  __AUTH.__data: 0x3a8
@@ -21,5 +21,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 90970BDE-6CE0-377E-AB84-BB91EF1A7E76
++  UUID: 2A5147E6-9C82-3571-8623-9017E01768D1
+   Functions: 1396
+   Symbols:   3178
+   CStrings:  142
 
 ```

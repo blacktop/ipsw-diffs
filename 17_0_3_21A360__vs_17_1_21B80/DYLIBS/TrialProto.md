@@ -16,4 +16,13 @@
    __TEXT.__gcc_except_tab: 0x38c
    __TEXT.__unwind_info: 0x1fb4
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A86F8E04-EA63-31C6-835A-463BC9040CFC
++  UUID: 2CD5828E-7BF9-3A3D-95BC-A6540BC8AFB7
+   Functions: 2919
+   Symbols:   8412
+   CStrings:  3388
+
 ```

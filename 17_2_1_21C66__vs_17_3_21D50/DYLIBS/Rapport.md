@@ -15,6 +15,15 @@
    __TEXT.__gcc_except_tab: 0xf58
    __TEXT.__oslogstring: 0x588
    __TEXT.__unwind_info: 0x17d8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0ED50A4A-5B6F-317A-BF1A-A400D6378689
++  UUID: 99AD67E8-63EF-3842-B6CA-6EBADDE81109
+   Functions: 2961
+   Symbols:   9321
+   CStrings:  6191
 CStrings:
 + "530.1.1"
 - "522.2"

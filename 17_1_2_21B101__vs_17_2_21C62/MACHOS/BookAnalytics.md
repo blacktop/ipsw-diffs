@@ -91,11 +91,13 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/JSApp.framework/JSApp
+-  UUID: 40D77E22-E91E-3E4A-A4D1-C436792B83FB
 -  Functions: 23233
++  UUID: A28DCAD2-60BE-38D5-B535-5357A297BFB9
 +  Functions: 23475
    Symbols:   349
--  CStrings:  1272
-+  CStrings:  1276
+-  CStrings:  1303
++  CStrings:  1307
  
 Symbols:
 + _swift_checkMetadataState

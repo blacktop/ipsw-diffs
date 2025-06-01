@@ -63,12 +63,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71466921-19CF-336A-B61E-749420727A13
 -  Functions: 879
 -  Symbols:   1036
--  CStrings:  2213
+-  CStrings:  3021
++  UUID: FB5DEB12-DCB1-3ABE-8244-384FA8B0D9F5
 +  Functions: 949
 +  Symbols:   1132
-+  CStrings:  2254
++  CStrings:  3093
  
 Symbols:
 + _NSFilePosixPermissions

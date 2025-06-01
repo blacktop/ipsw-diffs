@@ -51,12 +51,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 72B9C6B4-F537-35B9-94B4-703E03FA3B3B
 -  Functions: 4590
 -  Symbols:   837
--  CStrings:  8775
+-  CStrings:  10233
++  UUID: 4D2FC730-C86C-39C0-BDA8-AC017D75C158
 +  Functions: 4591
 +  Symbols:   839
-+  CStrings:  8779
++  CStrings:  10239
  
 Symbols:
 + _MSVArchivedDataWithRootObject

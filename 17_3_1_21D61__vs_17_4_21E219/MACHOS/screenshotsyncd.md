@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24527D87-655F-3985-B1F9-8D7E64D53FCE
++  UUID: 05D5C72A-E3F2-3CE8-A309-8D8BCA5A3D54
    Functions: 17
    Symbols:   66
--  CStrings:  173
-+  CStrings:  174
+-  CStrings:  180
++  CStrings:  181
  
 CStrings:
 + "T@\"NSString\",?,R,C"

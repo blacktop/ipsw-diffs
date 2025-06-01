@@ -37,11 +37,15 @@
    __DATA.__data: 0x540
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35743643-969B-34F0-A803-C82041422CE7
++  UUID: 5551D7FD-FB76-33EC-B946-8EC836AFA19A
    Functions: 474
    Symbols:   1825
--  CStrings:  856
-+  CStrings:  857
+-  CStrings:  1018
++  CStrings:  1019
  
 Symbols:
 + _BPSPubSubErrorDomain

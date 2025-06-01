@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__const: 0x2f18
 +  __AUTH_CONST.__cfstring: 0x14640
    __AUTH_CONST.__objc_const: 0x4250
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x1098
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__objc_dictobj: 0x258
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66E854A4-ABFE-3D89-A429-AA8DD0DB22F3
 -  Functions: 6524
 -  Symbols:   18971
--  CStrings:  9795
+-  CStrings:  12387
++  UUID: 6DF4D47F-46C4-30A0-B055-05437C42A492
 +  Functions: 6547
 +  Symbols:   19054
-+  CStrings:  9829
++  CStrings:  12439
  
 Symbols:
 + -[AXSettings securePayAssertionActive]

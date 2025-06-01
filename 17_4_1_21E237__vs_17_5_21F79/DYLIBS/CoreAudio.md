@@ -47,11 +47,10 @@
 -  __AUTH_CONST.__const: 0x2e80
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x3740
+-  __AUTH_CONST.__auth_got: 0x1558
 +  __AUTH_CONST.__const: 0xde58
 +  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__cfstring: 0x3780
-   __AUTH_CONST.__auth_ptr: 0x58
--  __AUTH_CONST.__auth_got: 0x1558
 +  __AUTH_CONST.__auth_got: 0x1580
 +  __AUTH.__objc_data: 0xa0
    __DATA.__got_weak: 0x88
@@ -76,12 +75,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 849387B4-B2FF-3D05-950F-ADA86FBC8837
 -  Functions: 18878
 -  Symbols:   51891
--  CStrings:  6941
+-  CStrings:  7383
++  UUID: 6D9F0C30-D10D-3F95-BE42-51E859EB1196
 +  Functions: 18972
 +  Symbols:   52176
-+  CStrings:  6968
++  CStrings:  7412
  
 Symbols:
 + -[CATapDescription initExcludingProcesses:andDeviceUID:withStream:]

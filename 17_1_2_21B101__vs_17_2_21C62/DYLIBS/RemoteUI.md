@@ -65,7 +65,6 @@
 +  __AUTH_CONST.__const: 0x2b30
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xf80
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD3EDEC3-65C8-354B-9C86-05D62D13C573
 -  Functions: 3705
 -  Symbols:   7983
--  CStrings:  4394
+-  CStrings:  4918
++  UUID: 73FA6968-5923-3985-9AD0-F8A3A9DA8B01
 +  Functions: 3725
 +  Symbols:   7997
-+  CStrings:  4398
++  CStrings:  4925
  
 Symbols:
 + -[RUIParser _isParsingTable]

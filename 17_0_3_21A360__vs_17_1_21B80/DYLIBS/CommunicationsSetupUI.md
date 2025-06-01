@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__cfstring: 0xa4e0
    __AUTH_CONST.__objc_const: 0x2010
    __AUTH_CONST.__const: 0xa48
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_intobj: 0xf0
 -  __AUTH_CONST.__auth_got: 0x8e8
@@ -63,12 +62,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8585CE6-B9F4-33C6-AB60-5EA68FBF5678
 -  Functions: 2761
 -  Symbols:   9781
--  CStrings:  5578
+-  CStrings:  6891
++  UUID: 98BB7072-D5EC-3528-A041-CC3205C5EF32
 +  Functions: 2777
 +  Symbols:   9824
-+  CStrings:  5600
++  CStrings:  6919
  
 Symbols:
 + -[CKSettingsMessagesController _debugFailureReason]

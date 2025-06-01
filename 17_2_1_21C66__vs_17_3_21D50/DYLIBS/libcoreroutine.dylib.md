@@ -87,12 +87,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A933A4A7-09E9-3980-B0B8-5F0895E111C8
 -  Functions: 14939
 -  Symbols:   48925
--  CStrings:  26118
+-  CStrings:  30089
++  UUID: 0B04E158-6B46-378B-9FAF-1CE62751EA39
 +  Functions: 14974
 +  Symbols:   49034
-+  CStrings:  26196
++  CStrings:  30170
  
 Symbols:
 + -[NSArray(RTExtensions) shuffle]

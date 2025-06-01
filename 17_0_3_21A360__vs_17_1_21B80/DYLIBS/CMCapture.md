@@ -56,7 +56,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x2298
 +  __AUTH_CONST.__objc_arrayobj: 0x22b0
    __AUTH_CONST.__const: 0x1170
-   __AUTH_CONST.__auth_ptr: 0xc0
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_dictobj: 0x1798
    __AUTH_CONST.__objc_doubleobj: 0x960
@@ -91,12 +90,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: AF80521A-CB09-3318-821E-9B4C2EC39213
 -  Functions: 18089
 -  Symbols:   64825
--  CStrings:  31276
+-  CStrings:  37358
++  UUID: 536BDEA8-9D99-3F7D-8FBD-B4F7F37D5E1B
 +  Functions: 18155
 +  Symbols:   65107
-+  CStrings:  31457
++  CStrings:  37566
  
 Symbols:
 + -[BWBackgroundBlurNode reactionCount]

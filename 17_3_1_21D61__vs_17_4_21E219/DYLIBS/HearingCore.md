@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7EAC9B0C-3C91-326F-B5BD-3A6D9A7EB473
++  UUID: 6C7B3AB5-9F0E-3DDB-BF7A-19C4B16A5281
    Functions: 219
    Symbols:   969
--  CStrings:  445
-+  CStrings:  446
+-  CStrings:  538
++  CStrings:  540
  
 CStrings:
 + "MessagesPriority"

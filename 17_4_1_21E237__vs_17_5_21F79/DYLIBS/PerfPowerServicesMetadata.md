@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CACC0194-AEE0-35A8-BDAE-38E878867D07
 -  Functions: 752
 -  Symbols:   2431
--  CStrings:  1064
+-  CStrings:  1345
++  UUID: C9CAB27D-4FC2-33B3-972F-8A398C976828
 +  Functions: 756
 +  Symbols:   2450
-+  CStrings:  1068
++  CStrings:  1351
  
 Symbols:
 + +[PPSPerformanceMetrics allDeclMetrics]

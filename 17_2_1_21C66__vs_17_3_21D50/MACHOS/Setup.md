@@ -97,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E71A343-7847-3C32-B1B7-83245A737415
 -  Functions: 9995
 -  Symbols:   1350
--  CStrings:  12352
+-  CStrings:  13707
++  UUID: 9DB985F5-1B38-3412-B668-B61DAE449BC4
 +  Functions: 10159
 +  Symbols:   1358
-+  CStrings:  12393
++  CStrings:  13748
  
 Symbols:
 + _$ss27_allocateUninitializedArrayySayxG_BptBwlFyp_Tg5

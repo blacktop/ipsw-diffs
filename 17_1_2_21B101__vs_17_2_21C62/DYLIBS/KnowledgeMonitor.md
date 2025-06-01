@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8858DEF4-108B-3C9A-99A5-B1D3EB44058F
 -  Functions: 1227
 -  Symbols:   4542
--  CStrings:  2244
+-  CStrings:  2491
++  UUID: 3EF634E4-6751-3E23-8FCD-DA5A38B72F80
 +  Functions: 1221
 +  Symbols:   4536
-+  CStrings:  2241
++  CStrings:  2492
  
 Symbols:
 + +[_DKNowPlayingMonitor _bmEventWithDKEvent:outputDevices:biomeEventMetadata:]

@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x49d
    __TEXT.__oslogstring: 0x1cc
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DB36665C-0216-36F9-AAAB-B8308D000FE4
++  UUID: 203F3324-70CA-3EA2-9264-0506AC6455F0
+   Functions: 107
+   Symbols:   546
+   CStrings:  85
+
 ```

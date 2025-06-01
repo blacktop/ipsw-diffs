@@ -21,12 +21,20 @@
    __AUTH_CONST.__cfstring: 0x520
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x2d8
 -  __DATA.__objc_classrefs: 0x60
 -  __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x38
    __DATA.__data: 0x28
    __DATA.__bss: 0x14
+
+   - /usr/lib/libFDR.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2681CBA7-ED8D-325C-B0B5-99D8FC821E61
++  UUID: 9FDB5F4B-106C-3912-9AFB-F672D6648AD5
+   Functions: 222
+   Symbols:   1113
+   CStrings:  249
 
 ```

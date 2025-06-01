@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F723B7A5-DD64-3FE9-A6D8-D6404FA7E033
++  UUID: 0248DD78-8551-350C-95ED-4BCD8ABC129F
+   Functions: 780
+   Symbols:   3208
+   CStrings:  1772
+
 ```

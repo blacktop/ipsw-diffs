@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AppPredictionClient.framework/AppPredictionClient
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A08D2116-74E4-306B-9DD2-8859C1CAE47D
++  UUID: A473349B-83B2-3792-9FE1-BE788B4529FA
+   Functions: 109
+   Symbols:   484
+   CStrings:  187
+
 ```

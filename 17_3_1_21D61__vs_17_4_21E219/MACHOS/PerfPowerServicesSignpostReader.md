@@ -62,12 +62,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 76197367-F686-3581-89E0-80EED3663CCF
 -  Functions: 146
 -  Symbols:   151
--  CStrings:  558
+-  CStrings:  707
++  UUID: E8FB8655-9B78-30FB-A148-5412E06E8059
 +  Functions: 148
 +  Symbols:   154
-+  CStrings:  565
++  CStrings:  717
  
 Symbols:
 + __os_assumes_log

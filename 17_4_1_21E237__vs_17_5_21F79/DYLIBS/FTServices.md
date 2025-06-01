@@ -30,4 +30,13 @@
    __DATA_DIRTY.__objc_const: 0xc88
    __DATA_DIRTY.__objc_data: 0x870
 
+   - /usr/lib/libcupolicy.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 9A669343-E12B-3815-B3F2-0AEC1691E54F
++  UUID: 4C68DB89-3063-37FC-981A-A08A707CF364
+   Functions: 1053
+   Symbols:   434
+   CStrings:  3059
+
 ```

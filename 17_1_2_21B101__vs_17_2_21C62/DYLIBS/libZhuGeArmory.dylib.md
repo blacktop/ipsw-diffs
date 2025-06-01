@@ -51,12 +51,14 @@
    - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libVinylNonUpdater.dylib
+-  UUID: 9ADE11EB-4B8D-3EC3-9CE6-9EDD71516B4B
 -  Functions: 212
 -  Symbols:   1247
--  CStrings:  1437
+-  CStrings:  2366
++  UUID: 2E03DE40-2493-37CE-B81F-BB500E796E64
 +  Functions: 213
 +  Symbols:   1250
-+  CStrings:  1442
++  CStrings:  2374
  
 Symbols:
 + -[NSString(ZhuGe) ccccValue]

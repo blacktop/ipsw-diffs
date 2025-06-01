@@ -39,7 +39,6 @@
 +  __AUTH_CONST.__const: 0x930
    __AUTH_CONST.__cfstring: 0x500
    __AUTH_CONST.__objc_const: 0xe08
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x748
@@ -51,11 +50,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 23BAF1E2-2578-39C5-8284-6656259D0D1E
 -  Functions: 707
 -  Symbols:   456
++  UUID: 25420020-AAFE-31EF-B1B7-5B62FC67B42C
 +  Functions: 714
 +  Symbols:   457
-   CStrings:  1160
+   CStrings:  1200
  
 Symbols:
 + _CFRetain

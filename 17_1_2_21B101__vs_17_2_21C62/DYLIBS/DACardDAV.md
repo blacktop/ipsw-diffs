@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 6C0789D5-E6E4-3FC7-BA53-9C0496B7EC6E
 -  Functions: 285
 -  Symbols:   1370
--  CStrings:  725
+-  CStrings:  765
++  UUID: 6F2891F3-CC3F-3179-B97F-58DE8A01B593
 +  Functions: 287
 +  Symbols:   1379
-+  CStrings:  731
++  CStrings:  772
  
 Symbols:
 + -[CardDAVAccount setSupportsWallpaperSync:]

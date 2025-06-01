@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 08231BB6-BA55-3F24-B9F8-6F7AF6B6B445
 -  Functions: 144
 -  Symbols:   175
--  CStrings:  622
+-  CStrings:  670
++  UUID: AE5CAFC6-D057-3CF3-9D18-F6DD9262C69C
 +  Functions: 149
 +  Symbols:   178
-+  CStrings:  630
++  CStrings:  677
  
 Symbols:
 + _NSFontAttributeName

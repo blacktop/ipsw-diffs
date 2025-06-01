@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1362DCB5-FA00-3F8F-8D2A-D13E5EB4E1BE
 -  Functions: 557
 -  Symbols:   2518
--  CStrings:  1095
+-  CStrings:  1233
++  UUID: 355FB6C7-B12B-3DC6-9811-B73D269321C7
 +  Functions: 565
 +  Symbols:   2544
-+  CStrings:  1111
++  CStrings:  1250
  
 Symbols:
 + -[MEAppExtensionsController hasSecurityExtensionsEnabled]

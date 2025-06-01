@@ -16,4 +16,13 @@
    __TEXT.__oslogstring: 0x27d
    __TEXT.__objc_methname: 0xdb6
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5222B15C-043D-3FC4-A230-8647929DC4D5
++  UUID: 52C04E44-50BC-35A6-9F65-E2518E0EED87
+   Functions: 45
+   Symbols:   70
+   CStrings:  268
+
 ```

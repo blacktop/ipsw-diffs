@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/Trial.framework/Trial
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AC5C7B8D-4C85-3F0F-943B-D7A8E36DE075
 -  Functions: 185
 -  Symbols:   2462
--  CStrings:  724
+-  CStrings:  961
++  UUID: 087D7294-F5DD-3020-8B07-FBE948724FE4
 +  Functions: 178
 +  Symbols:   2328
-+  CStrings:  689
++  CStrings:  902
  
 Symbols:
 + -[AMDLighthouseODMLPlugin init]

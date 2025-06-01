@@ -81,12 +81,10 @@
 +  __AUTH_CONST.__const: 0x1d20
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0xa60
 -  __AUTH.__objc_data: 0x128
 -  __AUTH.__data: 0x28
 -  __DATA.__objc_ivar: 0x2ac
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__auth_got: 0xb58
 +  __AUTH.__objc_data: 0x3e8
 +  __AUTH.__data: 0xa0
@@ -116,12 +114,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 74004E0B-44D0-355A-AB1C-07989B82D2CA
 -  Functions: 2587
 -  Symbols:   3629
--  CStrings:  1840
+-  CStrings:  2206
++  UUID: 920BDC51-0E7A-353A-A4AC-B6309C05068E
 +  Functions: 2733
 +  Symbols:   3856
-+  CStrings:  1973
++  CStrings:  2352
  
 Symbols:
 + +[SESNFCAppSettingsContext contextWithBundleId:onChange:]

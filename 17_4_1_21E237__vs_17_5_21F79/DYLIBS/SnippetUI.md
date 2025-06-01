@@ -4,8 +4,8 @@
 
 ```diff
 
+   __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__const: 0x15968
-   __AUTH_CONST.__auth_ptr: 0x760
    __AUTH_CONST.__auth_got: 0x39f0
 -  __AUTH.__objc_data: 0xec0
 -  __AUTH.__data: 0x5b18
@@ -30,5 +30,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D4EC43E7-21C6-3013-9FBC-F162A5CABFDE
++  UUID: 4CEE0621-54B9-39CB-A61E-95B0B1D54432
+   Functions: 19603
+   Symbols:   11195
+   CStrings:  1329
 
 ```

@@ -68,7 +68,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x5b8
 +  __AUTH_CONST.__objc_doubleobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1218
 -  __AUTH.__objc_data: 0x5550
 +  __AUTH.__objc_data: 0x54b0
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 98DE7C60-A169-383D-846D-104DDE07D15E
 -  Functions: 10569
 -  Symbols:   35347
--  CStrings:  18437
+-  CStrings:  22322
++  UUID: 05BD9FCE-17C3-3387-B2D9-D2B445BF9B45
 +  Functions: 10576
 +  Symbols:   35329
-+  CStrings:  18422
++  CStrings:  22304
  
 Symbols:
 + +[PHContentEditingInputRequestContext contentEditingInputRequestContextForAsset:requestID:managerID:networkAccessAllowed:downloadIntent:progressHandler:resultHandler:]

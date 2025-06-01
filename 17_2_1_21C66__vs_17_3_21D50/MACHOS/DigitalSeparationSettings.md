@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DAD7194D-767F-3221-9202-78209AA7CDA0
 -  Functions: 36
 -  Symbols:   88
--  CStrings:  260
+-  CStrings:  278
++  UUID: 3F9DB13A-D01E-3B33-A863-34139EA18A92
 +  Functions: 47
 +  Symbols:   92
-+  CStrings:  297
++  CStrings:  316
  
 Symbols:
 + _OBJC_CLASS_$_DSPlatterTableView

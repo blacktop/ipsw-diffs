@@ -51,7 +51,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x150
 +  __AUTH_CONST.__cfstring: 0x14be0
 +  __AUTH_CONST.__const: 0x2c30
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__objc_intobj: 0x750
    __AUTH_CONST.__objc_const: 0x5150
 -  __AUTH_CONST.__objc_arrayobj: 0x60
@@ -83,12 +82,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4C728505-67EC-384B-9B20-35BD409E3B59
 -  Functions: 7533
 -  Symbols:   24173
--  CStrings:  9602
+-  CStrings:  12243
++  UUID: 129B757F-71E6-3B8D-93C7-DD143E208D21
 +  Functions: 7605
 +  Symbols:   24340
-+  CStrings:  9671
++  CStrings:  12326
  
 Symbols:
 + +[LSApplicationExtensionRecord(Redaction) redactedAppexRecordWithUUID:node:bundleIdentifier:platform:error:]

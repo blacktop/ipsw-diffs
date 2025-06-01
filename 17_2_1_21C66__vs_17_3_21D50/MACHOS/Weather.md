@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 355C21D4-76BC-33EE-8184-955244D1B848
 -  Functions: 61488
 -  Symbols:   7333
--  CStrings:  8515
+-  CStrings:  8613
++  UUID: 14B85594-3232-35CD-8724-7F0580E61B74
 +  Functions: 61464
 +  Symbols:   7338
-+  CStrings:  8513
++  CStrings:  8611
  
 Symbols:
 + _$s10WeatherKit9MoonPhaseO0A2UIE10HemisphereO2eeoiySbAF_AFtFZ

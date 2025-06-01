@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38D61109-4FFD-3A78-A945-B84D1A9AD65C
 -  Functions: 17789
 -  Symbols:   42713
++  UUID: 5595840F-BF14-3047-B544-20F718C493E0
 +  Functions: 17790
 +  Symbols:   42718
-   CStrings:  4256
+   CStrings:  4423
  
 Symbols:
 + _$s20SiriInformationTypes18PommesSearchReasonO22personalDomainFallbackyA2CmFWC

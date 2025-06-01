@@ -49,7 +49,7 @@
    __AUTH_CONST.__objc_intobj: 0x828
    __AUTH_CONST.__objc_arrayobj: 0x300
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x1e0
    __AUTH_CONST.__auth_got: 0xed0
    __DATA.__got_weak: 0xe0
 -  __DATA.__objc_ivar: 0xb34
@@ -61,12 +61,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 589498F7-8CB8-31A5-9FCB-2492475BC028
 -  Functions: 4131
 -  Symbols:   14231
--  CStrings:  6931
+-  CStrings:  8307
++  UUID: D56D702F-0B66-32E0-B627-98D7076895D7
 +  Functions: 4133
 +  Symbols:   14237
-+  CStrings:  6939
++  CStrings:  8317
  
 Symbols:
 + -[PFClientSideEncryptionManager _getKeyData]

@@ -75,11 +75,15 @@
    - /System/Library/Frameworks/BackgroundAssets.framework/BackgroundAssets
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FF575A1A-F739-35F6-8D44-D156A4E0346C
++  UUID: C2738F35-DAC4-3ADE-8DA5-DD34764BE281
    Functions: 11055
    Symbols:   1640
--  CStrings:  14289
-+  CStrings:  14302
+-  CStrings:  17637
++  CStrings:  17658
  
 CStrings:
 + "'\x13\x11"

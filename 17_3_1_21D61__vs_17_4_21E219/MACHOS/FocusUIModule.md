@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x360
 
+   - /System/Library/PrivateFrameworks/FocusUI.framework/FocusUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1949DB5-AC30-3506-A178-9AEA0D98DCAC
++  UUID: 325D7176-C245-31FD-A5AF-D4C9A0D9D984
    Functions: 116
    Symbols:   151
--  CStrings:  435
-+  CStrings:  437
+-  CStrings:  452
++  CStrings:  454
  
 CStrings:
 + "T@\"NSString\",?,C,N"

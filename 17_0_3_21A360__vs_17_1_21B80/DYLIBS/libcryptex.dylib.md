@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0x36c2
    __TEXT.__cstring: 0x179f
    __TEXT.__unwind_info: 0x538
+
+   - /usr/lib/libcryptex_interface.dylib
+   - /usr/lib/libimg4.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2F927321-4480-3CC1-B3AE-38540EA5EAA7
++  UUID: 9985D2E5-CFF5-3635-8D21-C27FDB377244
+   Functions: 549
+   Symbols:   1638
+   CStrings:  773
 Symbols:
 + _objc_retain_x26
 - _objc_retain_x24

@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 559A2699-4021-313D-907C-F6EF7D5BB788
++  UUID: BBBF6E83-2D70-3DEF-AC9E-3254DFBB1552
+   Functions: 1510
+   Symbols:   5472
+   CStrings:  3349
+
 ```

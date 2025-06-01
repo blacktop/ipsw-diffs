@@ -49,13 +49,16 @@
    __DATA.__objc_data: 0x3bb0
    __DATA.__data: 0x2422
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: A88873B5-9A1B-3DBB-B93A-442EB7C35090
++  UUID: B016F302-2689-3D15-AF7C-59284309481A
    Functions: 6280
 -  Symbols:   1017
--  CStrings:  9956
+-  CStrings:  11187
 +  Symbols:   1018
-+  CStrings:  9957
++  CStrings:  11188
  
 Symbols:
 + _AXDeviceHasFrontCameraPhysicallyMountedUpsideDown

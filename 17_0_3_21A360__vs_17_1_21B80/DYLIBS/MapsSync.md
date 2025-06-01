@@ -50,9 +50,7 @@
 +  __AUTH_CONST.__const: 0x13130
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_const: 0x1900
--  __AUTH_CONST.__auth_ptr: 0x338
 -  __AUTH_CONST.__auth_got: 0xb30
-+  __AUTH_CONST.__auth_ptr: 0x340
 +  __AUTH_CONST.__auth_got: 0xb80
    __AUTH.__data: 0x1000
 -  __AUTH.__objc_data: 0xd150
@@ -75,13 +73,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5396F8D6-A318-3D62-A1E0-0CE9A48AB2F7
++  UUID: 1E855498-C815-325E-B2E8-CF4D6BA2B7D9
    Functions: 12483
 -  Symbols:   3639
--  CStrings:  1726
+-  CStrings:  1734
 +  Symbols:   3656
-+  CStrings:  1729
++  CStrings:  1737
  
 Symbols:
 + __PROTOCOLS__TtC8MapsSync17MapsSyncBaseQuery.49

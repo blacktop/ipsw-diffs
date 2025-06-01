@@ -99,12 +99,14 @@
    - @rpath/IMDebug.framework/IMDebug
    - @rpath/NowPlayingUI.framework/NowPlayingUI
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 908AC761-1278-3B51-8A62-5704BE04C372
 -  Functions: 20269
 -  Symbols:   3976
--  CStrings:  15402
+-  CStrings:  17012
++  UUID: 6C2E1172-C93D-35BE-8666-220CDD66E4DC
 +  Functions: 20349
 +  Symbols:   4001
-+  CStrings:  15470
++  CStrings:  17087
  
 Symbols:
 + _$s10Foundation4DateV13ISO8601FormatySSAC0cD5StyleVF

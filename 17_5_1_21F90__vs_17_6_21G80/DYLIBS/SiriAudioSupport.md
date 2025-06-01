@@ -41,7 +41,6 @@
 -  __DATA_CONST.__objc_classrefs: 0x5e8
 +  __DATA_CONST.__objc_classrefs: 0x5f0
    __AUTH_CONST.__const: 0x13030
-   __AUTH_CONST.__auth_ptr: 0x478
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x680
 -  __AUTH_CONST.__auth_got: 0x17d0
@@ -59,12 +58,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DCC6D73B-89CB-3171-ACEB-917AB7DECA4C
 -  Functions: 9471
 -  Symbols:   2976
--  CStrings:  3874
+-  CStrings:  3926
++  UUID: DEA282DC-74F4-3170-A5B2-8FC95D6FCBF6
 +  Functions: 9475
 +  Symbols:   2977
-+  CStrings:  3880
++  CStrings:  3932
  
 Symbols:
 + _OBJC_CLASS_$_MRDeviceInfoRequest

@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/SystemAperture.framework/SystemAperture
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0841F4D-887B-32FF-A513-6584F82F8976
 -  Functions: 431
 -  Symbols:   1874
--  CStrings:  932
+-  CStrings:  1002
++  UUID: 940C9A17-CDA8-3B56-B5F2-B827D3E67AB2
 +  Functions: 439
 +  Symbols:   1899
-+  CStrings:  954
++  CStrings:  1031
  
 Symbols:
 + -[SAUIElementViewController handleElementTap:]

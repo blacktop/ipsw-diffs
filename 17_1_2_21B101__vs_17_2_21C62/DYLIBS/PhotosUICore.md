@@ -56,16 +56,15 @@
 -  __DATA_CONST.__objc_arraydata: 0x45e0
 -  __AUTH_CONST.__const: 0x1cd10
 -  __AUTH_CONST.__objc_const: 0x41e98
+-  __AUTH_CONST.__cfstring: 0x7c9e0
+-  __AUTH_CONST.__objc_doubleobj: 0x730
+-  __AUTH_CONST.__objc_arrayobj: 0x25c8
+-  __AUTH_CONST.__objc_intobj: 0x45c0
 +  __DATA_CONST.__objc_const: 0x155660
 +  __DATA_CONST.__objc_selrefs: 0x47038
 +  __DATA_CONST.__objc_arraydata: 0x45a0
 +  __AUTH_CONST.__const: 0x1cd70
 +  __AUTH_CONST.__objc_const: 0x41d30
-   __AUTH_CONST.__auth_ptr: 0x368
--  __AUTH_CONST.__cfstring: 0x7c9e0
--  __AUTH_CONST.__objc_doubleobj: 0x730
--  __AUTH_CONST.__objc_arrayobj: 0x25c8
--  __AUTH_CONST.__objc_intobj: 0x45c0
 +  __AUTH_CONST.__cfstring: 0x7c7c0
 +  __AUTH_CONST.__objc_doubleobj: 0x740
 +  __AUTH_CONST.__objc_arrayobj: 0x2598
@@ -105,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 033E5BA0-A65C-3EC4-963A-1E16E5CEE508
 -  Functions: 79701
 -  Symbols:   225281
--  CStrings:  94190
+-  CStrings:  110141
++  UUID: 966B245C-5469-37F9-82C6-FC88F058C16D
 +  Functions: 79620
 +  Symbols:   225025
-+  CStrings:  94076
++  CStrings:  110010
  
 Symbols:
 + +[PXImageUtilities symbolIsEmbeddedGlyph:]
@@ -8996,7 +8997,6 @@ CStrings:
 - "v44@0:8@16q24@32B40"
 - "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"PXContextualNotification\"16@\"<UICoordinateSpace>\"24"
 - "{enabled=1; upload=25; progress=50; cloud-quota=1; offer=1; offer-counts=1}"
-- "\x91!"
 - "\xf0\xf0\xf0\xf0\xf0\x91"
 
 ```

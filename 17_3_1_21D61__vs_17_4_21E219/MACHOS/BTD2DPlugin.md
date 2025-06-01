@@ -24,7 +24,9 @@
    - /usr/lib/libFDR.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 0AEA9811-1FAC-37E8-A870-C4C093C4813C
 -  Functions: 206
++  UUID: 8F4A3C9D-66C0-30F0-9A9A-FFD5C1F3B6FC
 +  Functions: 214
    Symbols:   172
    CStrings:  53

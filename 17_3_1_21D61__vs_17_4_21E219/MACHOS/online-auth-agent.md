@@ -93,9 +93,10 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E01F7578-8E6B-3FAB-8DC6-5DA11522451E
 -  Functions: 295
 -  Symbols:   275
--  CStrings:  504
+-  CStrings:  591
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -113,9 +114,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 870D7714-49BD-3432-BA72-4E265F8629C3
 +  Functions: 1396
 +  Symbols:   418
-+  CStrings:  832
++  CStrings:  935
  
 Symbols:
 + _AnalyticsSendEventLazy

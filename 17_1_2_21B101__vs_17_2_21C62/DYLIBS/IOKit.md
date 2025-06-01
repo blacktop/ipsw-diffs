@@ -30,9 +30,8 @@
    __AUTH_CONST.__const: 0x1bb8
    __AUTH_CONST.__objc_const: 0x1f8
 -  __AUTH_CONST.__cfstring: 0x6e80
-+  __AUTH_CONST.__cfstring: 0x6f00
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xfc8
++  __AUTH_CONST.__cfstring: 0x6f00
 +  __AUTH_CONST.__auth_got: 0xfd0
    __AUTH.__objc_data: 0x190
    __AUTH.__data: 0xa0
@@ -41,12 +40,14 @@
    - /usr/lib/libenergytrace.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5024BA32-7E79-3587-8C48-7149C0C4BBA6
 -  Functions: 3607
 -  Symbols:   6036
--  CStrings:  2406
+-  CStrings:  3290
++  UUID: F5369613-C587-3FC1-B85B-023931EC8DB6
 +  Functions: 3612
 +  Symbols:   6044
-+  CStrings:  2413
++  CStrings:  3301
  
 Symbols:
 + _EntitlementCheckApplier

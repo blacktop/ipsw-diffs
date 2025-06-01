@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B8B7253-2BFF-3FA2-8B49-E5D0EAA72208
 -  Functions: 138
 -  Symbols:   163
--  CStrings:  659
+-  CStrings:  994
++  UUID: 7016ACB9-6008-330D-A043-E3FDA145EA64
 +  Functions: 149
 +  Symbols:   168
-+  CStrings:  704
++  CStrings:  1064
  
 Symbols:
 + OBJC_IVAR_$_ZhuGeService._domainString

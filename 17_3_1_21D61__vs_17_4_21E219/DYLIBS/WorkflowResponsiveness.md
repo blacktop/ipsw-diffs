@@ -58,7 +58,6 @@
 +  __AUTH_CONST.__const: 0x200
 +  __AUTH_CONST.__objc_const: 0x3f0
 +  __AUTH_CONST.__objc_intobj: 0x30
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x390
 +  __AUTH.__objc_data: 0xf0
 +  __DATA.__objc_ivar: 0x128
@@ -75,14 +74,16 @@
 +  - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A94F0C1B-3C15-3D71-B2D1-949CB8D4F484
 -  Functions: 175
 -  Symbols:   689
--  CStrings:  348
+-  CStrings:  399
 +  - /usr/lib/libspindump.dylib
 +  - /usr/lib/libtailspin.dylib
++  UUID: ECCBF567-0BF0-3501-A506-14BAB2A86969
 +  Functions: 439
 +  Symbols:   1547
-+  CStrings:  896
++  CStrings:  1127
  
 Symbols:
 + +[WRDiagnostic diagnosticsForWorkflowName:signpostName:diagnosticDicts:diagnosticsEnabled:checkForOverrides:error:]
@@ -818,6 +819,7 @@ Symbols:
 - _objc_msgSend$reset
 - _objc_msgSend$totalDurationNanoseconds
 CStrings:
++ ""
 + "\a7"
 + "\x11"
 + "\x16"

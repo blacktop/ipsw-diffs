@@ -51,11 +51,13 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07F3F93A-20CB-321F-BDA4-DE150B3A7839
 -  Functions: 86
++  UUID: BA08E692-F885-31C4-B69E-43447CBE709E
 +  Functions: 87
    Symbols:   91
--  CStrings:  246
-+  CStrings:  252
+-  CStrings:  278
++  CStrings:  287
  
 CStrings:
 + "KTDisabled"

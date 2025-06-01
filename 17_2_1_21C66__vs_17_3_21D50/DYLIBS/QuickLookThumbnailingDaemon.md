@@ -24,6 +24,15 @@
    __TEXT.__objc_methtype: 0x1a40
    __TEXT.__objc_stubs: 0x7220
    __DATA_CONST.__got: 0x250
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 493AA14B-5759-3F99-95F6-8EF828EAE485
++  UUID: 2D59955F-671F-373D-9C5B-40E72F4C1A8E
+   Functions: 1641
+   Symbols:   5404
+   CStrings:  2798
 Symbols:
 + ___block_descriptor_64_e8_32s40s48s56bs_e46_v24?0"CGRemotePDFDocumentProxy"8"NSError"16ls32l8s40l8s56l8s48l8
 + _objc_msgSend$newRemotePDFDocumentWithData:completion:

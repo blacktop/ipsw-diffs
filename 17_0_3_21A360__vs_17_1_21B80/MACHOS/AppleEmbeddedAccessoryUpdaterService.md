@@ -47,13 +47,16 @@
    __DATA.__data: 0xa10
    __DATA.__bss: 0x918
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E9A8BF84-8F78-3C5F-B6A3-B5E7A0212828
++  UUID: B4F595E5-AA11-343B-97F7-01F9256A51AA
    Functions: 1341
 -  Symbols:   1560
--  CStrings:  3820
+-  CStrings:  5662
 +  Symbols:   1561
-+  CStrings:  3823
++  CStrings:  5667
  
 Symbols:
 + _kATCRTHardwareIDKeyDemote

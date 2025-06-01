@@ -63,7 +63,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x2418
 +  __AUTH_CONST.__objc_doubleobj: 0x530
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x2718
 -  __AUTH.__objc_data: 0xf000
 +  __AUTH_CONST.__auth_got: 0x2750
@@ -90,12 +89,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 08F086A2-FB24-3D29-AEF5-C344B7CB5A3E
 -  Functions: 55923
 -  Symbols:   190534
--  CStrings:  75930
+-  CStrings:  88184
++  UUID: 0999BB61-D20B-3B37-9CD8-90A29A4E3B49
 +  Functions: 56059
 +  Symbols:   190992
-+  CStrings:  76158
++  CStrings:  88452
  
 Symbols:
 + +[SBAmbientTelemetryEmitter _ambientCoreAnalyticsActiveFaceDescription:screenOffDuration:sessionIdString:]

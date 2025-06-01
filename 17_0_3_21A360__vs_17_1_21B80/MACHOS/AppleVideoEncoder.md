@@ -33,11 +33,13 @@
    - /System/Library/PrivateFrameworks/OpticalFlowFramework.framework/OpticalFlowFramework
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: AFC0EB17-D94F-3F41-9B65-FF512E7E94B5
 -  Functions: 585
++  UUID: 2AFAFCC1-2A32-38F5-A08F-1767B967A465
 +  Functions: 595
    Symbols:   555
--  CStrings:  6036
-+  CStrings:  6100
+-  CStrings:  6315
++  CStrings:  6380
  
 CStrings:
 + "%lld %d AVE %s: %s Enter %d"

@@ -36,11 +36,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DA823363-FE62-35DA-AF0C-C24C4E961F8E
 -  Functions: 57146
++  UUID: C661D8E6-D2C3-3D31-9DD9-05C6EFF6FC6A
 +  Functions: 57157
    Symbols:   843
--  CStrings:  29791
-+  CStrings:  29748
+-  CStrings:  31063
++  CStrings:  31020
  
 CStrings:
 + "4.1.1"

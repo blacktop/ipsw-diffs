@@ -31,11 +31,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88458F44-979E-30B0-9589-60981CF84549
 -  Functions: 302
++  UUID: B0BB9FDB-50C5-3140-9191-BF75DA65A948
 +  Functions: 303
    Symbols:   302
--  CStrings:  1081
-+  CStrings:  1084
+-  CStrings:  1315
++  CStrings:  1318
  
 CStrings:
 + "<%{public}@:%p> ICQUICloudStorageOffersManager failed with error: %@"

@@ -63,10 +63,8 @@
 +  __AUTH_CONST.__const: 0x10b00
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__objc_const: 0x190
--  __AUTH_CONST.__auth_ptr: 0x6d0
 -  __AUTH_CONST.__auth_got: 0x2ec8
 -  __AUTH.__data: 0x3808
-+  __AUTH_CONST.__auth_ptr: 0x6e0
 +  __AUTH_CONST.__auth_got: 0x3028
 +  __AUTH.__data: 0x38d0
    __AUTH.__objc_data: 0x3a0
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDB2802B-16C8-364A-9864-54B515959BEC
 -  Functions: 24803
 -  Symbols:   22979
--  CStrings:  2821
+-  CStrings:  2835
++  UUID: EE8EFBE1-7241-3E7E-9441-D00C35D1B2F7
 +  Functions: 25235
 +  Symbols:   23224
-+  CStrings:  2847
++  CStrings:  2861
  
 Symbols:
 + _OBJC_CLASS_$_NSCachedURLResponse

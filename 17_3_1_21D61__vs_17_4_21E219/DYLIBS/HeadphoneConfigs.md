@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 055247AE-2BEB-3259-8B18-5854616FA5A0
 -  Functions: 2448
 -  Symbols:   5296
--  CStrings:  3639
+-  CStrings:  4637
++  UUID: 7E744AEF-AB0A-3D42-AC1F-9B5278FEF9B3
 +  Functions: 2474
 +  Symbols:   5333
-+  CStrings:  3654
++  CStrings:  4656
  
 Symbols:
 + +[HPSSpatialProfileEnrollmentController _isSecureForRemoteViewService]

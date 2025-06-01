@@ -32,7 +32,6 @@
    __AUTH_CONST.__objc_const: 0x1f8
 -  __AUTH_CONST.__cfstring: 0x6fa0
 +  __AUTH_CONST.__cfstring: 0x6fc0
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__auth_got: 0x1018
    __AUTH.__objc_data: 0x190
    __AUTH.__data: 0xa0
@@ -51,11 +50,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/libenergytrace.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E7C54E3B-6172-3C98-8427-2EE9A8830A7C
++  UUID: DD788FDF-AEEC-34C3-A9DD-443811626EAC
    Functions: 3621
    Symbols:   6063
--  CStrings:  2433
-+  CStrings:  2434
+-  CStrings:  3326
++  CStrings:  3328
  
 Symbols:
 + ____IOHIDServiceUnscheduleAsync_block_invoke.90

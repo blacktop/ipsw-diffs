@@ -30,6 +30,15 @@
    __DATA.__objc_ivar: 0x84
    __DATA.__data: 0x1e0
    __DATA.__thread_vars: 0x18
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F35C0979-AEFF-38D1-8F2B-69A297A33A7F
++  UUID: EDAEE2AB-EAE8-3A1B-B825-E38E686D6583
+   Functions: 397
+   Symbols:   1622
+   CStrings:  1030
 Symbols:
 + __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE4findB8un170006EPKcm
 + __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8un170006EPKvm

@@ -64,10 +64,8 @@
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x940
 -  __AUTH_CONST.__const: 0x9b18
--  __AUTH_CONST.__auth_ptr: 0x2b0
 -  __AUTH_CONST.__auth_got: 0x1ab0
 +  __AUTH_CONST.__const: 0xa178
-+  __AUTH_CONST.__auth_ptr: 0x2b8
 +  __AUTH_CONST.__auth_got: 0x1ac8
    __AUTH.__objc_data: 0xb8
 -  __AUTH.__data: 0x340
@@ -101,12 +99,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 02335D2F-82C5-31D8-8FAC-CCFA8A14140D
 -  Functions: 18790
 -  Symbols:   42547
--  CStrings:  3312
+-  CStrings:  3386
++  UUID: F526153F-5ECE-3A35-BC52-A50190AF5E3A
 +  Functions: 18899
 +  Symbols:   42812
-+  CStrings:  3322
++  CStrings:  3396
  
 Symbols:
 + -[CPFeatureFlags wranglerHomePodBoopEnabled]

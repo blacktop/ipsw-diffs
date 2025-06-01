@@ -64,12 +64,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DEADDD3A-5CC3-3A23-B8FA-9C888EE1CA4F
 -  Functions: 1447
 -  Symbols:   5708
--  CStrings:  2620
+-  CStrings:  3963
++  UUID: 5897DD7E-813E-39C8-812A-AFA6E417808F
 +  Functions: 1457
 +  Symbols:   5744
-+  CStrings:  2636
++  CStrings:  3985
  
 Symbols:
 + +[NavbarConversationTitleAccessibility _accessibilityPerformValidations:]

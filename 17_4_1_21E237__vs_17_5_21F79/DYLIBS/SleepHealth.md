@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0180A62C-1808-3A5B-9C2A-133492CADC91
++  UUID: 7199F4BE-D059-3D02-A254-6D89D9EDA21A
+   Functions: 66
+   Symbols:   366
+   CStrings:  254
+
 ```

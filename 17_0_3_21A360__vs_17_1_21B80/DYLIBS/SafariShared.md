@@ -83,12 +83,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4478CA14-B0FE-386C-BF8B-2BE609D3B5AD
 -  Functions: 8459
 -  Symbols:   28961
--  CStrings:  12519
+-  CStrings:  16299
++  UUID: 18A613E1-71BA-3CDB-A0F8-D44895B6209D
 +  Functions: 8435
 +  Symbols:   28881
-+  CStrings:  12489
++  CStrings:  16265
  
 Symbols:
 + +[NSString(SafariSharedExtras) safari_detailStringWithTitleString:prompt:]

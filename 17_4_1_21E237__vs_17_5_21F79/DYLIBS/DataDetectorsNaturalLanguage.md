@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7479950F-C897-340D-84C1-D3F554BE65D2
++  UUID: 26036CCD-151E-3E40-B1DB-38BD88844D13
+   Functions: 624
+   Symbols:   2599
+   CStrings:  11487
+
 ```

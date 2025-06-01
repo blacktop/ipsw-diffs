@@ -52,11 +52,15 @@
    __DATA.__common: 0x2f0
    __DATA_DIRTY.__objc_ivar: 0x1668
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 83AFDBB9-96E8-369C-A835-A54AA2659138
++  UUID: A47BC2AD-C3D8-3CA0-8DC5-4FE82BB736FC
    Functions: 17067
    Symbols:   2609
--  CStrings:  20724
-+  CStrings:  20722
+-  CStrings:  24466
++  CStrings:  24464
  
 CStrings:
 + "Tue Sep 19 16:01:53 2023"

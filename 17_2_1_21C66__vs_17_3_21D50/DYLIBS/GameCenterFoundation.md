@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_catlist: 0xe8
    __DATA_CONST.__objc_protolist: 0x1e0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAF530D8-E51D-3AAA-994D-7F500F486B4B
++  UUID: BE6FA13C-925A-3A40-9862-7F85D8F9D0EF
    Functions: 9647
 -  Symbols:   21536
 +  Symbols:   21537
-   CStrings:  10212
+   CStrings:  12947
  
 Symbols:
 + ___block_descriptor_48_e8_32s40bs_e44_v36?0I8"GKMatch"12"NSArray"20"NSError"28ls40l8s32l8

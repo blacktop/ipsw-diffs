@@ -33,11 +33,15 @@
    __DATA.__data: 0x119
    __DATA.__bss: 0x70
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 956AB753-3C80-3EB9-BE00-279A8A01BCFB
++  UUID: 3740350F-662D-35C7-90F1-D7BE496549A1
    Functions: 119
    Symbols:   615
--  CStrings:  403
-+  CStrings:  404
+-  CStrings:  550
++  CStrings:  551
  
 Symbols:
 + ___31-[OTATaskingAgentClient awdKey]_block_invoke.66

@@ -16,6 +16,15 @@
    __TEXT.__swift5_typeref: 0x10fa
    __TEXT.__constg_swiftt: 0x155c
    __TEXT.__swift5_reflstr: 0x51d
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7B981505-0AA1-397E-9F8D-EDFEF0F19FD0
++  UUID: 2A77E552-2CFB-34AA-BD50-10A23C5082F3
+   Functions: 3770
+   Symbols:   5070
+   CStrings:  2193
 CStrings:
 + "GraphDB-3306.3.1"
 - "GraphDB-3304.40.1"

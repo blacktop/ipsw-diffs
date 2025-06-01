@@ -15,4 +15,13 @@
    __TEXT.__gcc_except_tab: 0x14
    __TEXT.__oslogstring: 0x2d6
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CDB61E75-E864-34A1-AFBD-D2A06B7A35DF
++  UUID: 200E04C1-2915-355F-98B9-9DFDB05DE767
+   Functions: 107
+   Symbols:   527
+   CStrings:  477
+
 ```

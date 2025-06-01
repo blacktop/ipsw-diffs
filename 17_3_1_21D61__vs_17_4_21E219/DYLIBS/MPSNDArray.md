@@ -43,7 +43,6 @@
 -  __AUTH_CONST.__cfstring: 0x3f60
 -  __AUTH_CONST.__objc_const: 0x1b0
 -  __AUTH_CONST.__const: 0x78
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x410
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_protorefs: 0x8
@@ -61,7 +60,6 @@
 +  __AUTH_CONST.__const: 0xb20
 +  __AUTH_CONST.__cfstring: 0x4e40
 +  __AUTH_CONST.__objc_const: 0x630
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__auth_got: 0x4d8
 +  __AUTH.__objc_data: 0x460
 +  __DATA.__objc_ivar: 0x610
@@ -80,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B96A820-B042-315A-83C0-7C5097057409
 -  Functions: 1989
 -  Symbols:   708
--  CStrings:  2042
+-  CStrings:  2549
++  UUID: 995068FC-D895-3EC5-BE21-BE863717B6B4
 +  Functions: 2066
 +  Symbols:   760
-+  CStrings:  2282
++  CStrings:  2908
  
 Symbols:
 + OBJC_IVAR_$_MPSNDArray._rowElements

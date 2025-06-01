@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x2a0
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A11CE6E-3BF6-322D-8D52-DCD93998E705
++  UUID: 8A060FF8-2222-3D58-8796-0284C5B33F8E
    Functions: 64
    Symbols:   90
--  CStrings:  373
-+  CStrings:  374
+-  CStrings:  377
++  CStrings:  378
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -25,21 +25,21 @@
 +  __DATA_CONST.__const: 0x248
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__cfstring: 0x60
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x110
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x128
 +  __DATA.__bss: 0x4
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: CF556D1A-87B8-3555-8F37-137A00C8FE87
 -  Functions: 15
 -  Symbols:   83
--  CStrings:  49
+-  CStrings:  52
++  UUID: 805EDDE3-4467-3DD9-899E-FED79E346AFD
 +  Functions: 31
 +  Symbols:   123
-+  CStrings:  65
++  CStrings:  68
  
 Symbols:
 + GCC_except_table12

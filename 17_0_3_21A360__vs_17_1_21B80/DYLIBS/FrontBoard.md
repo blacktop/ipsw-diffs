@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6350B962-CC87-3D02-A3AF-F6842DAFEF4F
 -  Functions: 2896
 -  Symbols:   9937
--  CStrings:  4514
+-  CStrings:  5497
++  UUID: A92E46EF-7FE2-3880-B3CA-8BF87FF827CA
 +  Functions: 2913
 +  Symbols:   9982
-+  CStrings:  4528
++  CStrings:  5513
  
 Symbols:
 + -[FBLocalSynchronousSceneClientProvider dealloc]

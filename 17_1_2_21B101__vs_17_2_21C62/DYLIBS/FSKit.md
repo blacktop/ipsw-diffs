@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__cfstring: 0xe40
 +  __AUTH_CONST.__cfstring: 0xf20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x460
 -  __AUTH.__objc_data: 0xa18
 +  __AUTH_CONST.__auth_got: 0x478
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 80B489E6-D290-31B2-AB34-D6B7394198BF
 -  Functions: 807
 -  Symbols:   2678
--  CStrings:  1317
+-  CStrings:  1431
++  UUID: 990D5152-D6E1-3D40-AF2C-053B3242BD60
 +  Functions: 819
 +  Symbols:   2734
-+  CStrings:  1351
++  CStrings:  1472
  
 Symbols:
 + +[FSKitDiskArbHelper DAMountUserFSVolume:deviceName:mountPoint:volumeName:mountOptions:]

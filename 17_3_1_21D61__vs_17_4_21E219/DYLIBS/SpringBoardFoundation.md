@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__const: 0xc00
 +  __AUTH_CONST.__const: 0xbe0
    __AUTH_CONST.__objc_doubleobj: 0x4d0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xc10
 -  __AUTH.__objc_data: 0x34d0
 -  __DATA.__objc_protorefs: 0x10
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF494299-60BF-3D7E-97E2-83A994F86C96
 -  Functions: 3141
 -  Symbols:   11244
--  CStrings:  6484
+-  CStrings:  7782
++  UUID: BD84A16F-D9AE-32B3-95CB-4C6D0A30E68F
 +  Functions: 3140
 +  Symbols:   11228
-+  CStrings:  6494
++  CStrings:  7798
  
 Symbols:
 + -[SBFDeviceLockOutController isProximityReaderBlocked]

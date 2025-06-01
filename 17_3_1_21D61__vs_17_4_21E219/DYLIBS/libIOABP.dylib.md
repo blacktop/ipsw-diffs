@@ -28,11 +28,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: E40F0601-DFEC-33C6-B243-00FC678AE4A4
 -  Functions: 140
 -  Symbols:   314
++  UUID: 636F63E5-E78F-39D6-B8D5-E6EB85E6178E
 +  Functions: 142
 +  Symbols:   318
-   CStrings:  176
+   CStrings:  183
  
 Symbols:
 + GCC_except_table40

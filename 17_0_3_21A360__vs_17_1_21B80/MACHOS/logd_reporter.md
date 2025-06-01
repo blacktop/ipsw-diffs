@@ -37,11 +37,13 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C3FA634-E5FF-3920-9D50-1F55830B8A5A
 -  Functions: 28
 -  Symbols:   69
++  UUID: F29F5C8D-EEB7-36B8-9EF4-8CA3E682CE75
 +  Functions: 29
 +  Symbols:   73
-   CStrings:  157
+   CStrings:  186
  
 Symbols:
 + _OBJC_CLASS_$_NSArray

@@ -33,8 +33,8 @@
 -  __AUTH_CONST.__const: 0x23d0
 +  __AUTH_CONST.__const: 0x23f0
    __AUTH_CONST.__objc_intobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x7b8
+   __AUTH.__objc_data: 0x1fe0
 
    __DATA.__objc_superrefs: 0x308
    __DATA.__objc_ivar: 0x5c4
@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D69E4C44-AFA9-3DBC-8AB6-15D2B4CBF7EF
 -  Functions: 3068
 -  Symbols:   10430
--  CStrings:  4111
+-  CStrings:  5209
++  UUID: B8DC5053-1376-3CAD-9EA2-24D681B6E586
 +  Functions: 3070
 +  Symbols:   10436
-+  CStrings:  4114
++  CStrings:  5214
  
 Symbols:
 + _SBLogHangTracer

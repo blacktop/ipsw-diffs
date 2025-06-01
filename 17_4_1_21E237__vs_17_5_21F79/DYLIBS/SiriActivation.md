@@ -83,12 +83,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3BEDABB1-9CA4-3EFC-A0B2-2EE681AAD53E
 -  Functions: 1742
 -  Symbols:   6176
--  CStrings:  3427
+-  CStrings:  3916
++  UUID: 867BDCC3-12D4-39EF-A105-1488A9BE9C25
 +  Functions: 1759
 +  Symbols:   6237
-+  CStrings:  3462
++  CStrings:  3954
  
 Symbols:
 + -[SASSystemState gestalt]

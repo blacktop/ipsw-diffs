@@ -43,13 +43,15 @@
    - /System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: 4D5496A3-E192-318E-8DCF-6E8728C284D5
 -  Functions: 85
 -  Symbols:   189
--  CStrings:  72
+-  CStrings:  84
 +  - /usr/lib/libobjc.A.dylib
++  UUID: DBEB90CF-18C3-34ED-941B-FDA02547FD71
 +  Functions: 82
 +  Symbols:   187
-+  CStrings:  79
++  CStrings:  91
  
 Symbols:
 + _EAPWiFiMonitorPowerStatus

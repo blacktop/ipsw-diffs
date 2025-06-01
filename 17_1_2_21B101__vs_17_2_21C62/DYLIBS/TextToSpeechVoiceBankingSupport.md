@@ -55,7 +55,6 @@
 +  __AUTH_CONST.__const: 0x7c00
    __AUTH_CONST.__objc_const: 0x2c0
    __AUTH_CONST.__cfstring: 0x3a0
-   __AUTH_CONST.__auth_ptr: 0x100
 -  __AUTH_CONST.__auth_got: 0xff0
 +  __AUTH_CONST.__auth_got: 0x1000
    __AUTH.__objc_data: 0xb60
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 87ADF628-7E78-3E2A-9F46-FDAECC890553
 -  Functions: 6066
 -  Symbols:   2699
--  CStrings:  1375
+-  CStrings:  1404
++  UUID: D8CA262A-8A7C-30D3-9C10-A92C03336B12
 +  Functions: 6113
 +  Symbols:   2716
-+  CStrings:  1384
++  CStrings:  1413
  
 Symbols:
 + _associated conformance 31TextToSpeechVoiceBankingSupport10TTSVBErrorV6ReasonO27InputNotAvailableCodingKeys33_D0558B068A0569EC3E228788C938EB93LLOs0L3KeyAAs23CustomStringConvertible

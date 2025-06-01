@@ -36,11 +36,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD69CB39-F097-3933-AC10-9F0AAFC3D2E0
++  UUID: 853E5B7B-805B-3611-88E9-8AF45839A6CE
    Functions: 71
    Symbols:   292
--  CStrings:  181
-+  CStrings:  182
+-  CStrings:  186
++  CStrings:  187
  
 Symbols:
 + ___block_literal_global.120

@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__cfstring: 0x2f00
 +  __AUTH_CONST.__objc_const: 0x670
 +  __AUTH_CONST.__const: 0xce0
-+  __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x150
 -  __AUTH_CONST.__auth_got: 0x2d8
 -  __AUTH.__objc_data: 0x50
@@ -84,12 +83,14 @@
 +  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A272775-84A1-3053-B7C7-DFBC761108BB
 -  Functions: 1099
 -  Symbols:   3832
--  CStrings:  1509
+-  CStrings:  1830
++  UUID: BA760187-73BB-3B85-B23C-FFA9EA196CC7
 +  Functions: 1417
 +  Symbols:   4873
-+  CStrings:  1890
++  CStrings:  2266
  
 Symbols:
 + +[KTIDSSession supportsSecureCoding]

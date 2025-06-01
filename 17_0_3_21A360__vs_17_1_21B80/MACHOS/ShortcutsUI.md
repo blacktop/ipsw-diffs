@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28D12B62-F814-3187-AF31-0E3981353571
 -  Functions: 712
 -  Symbols:   241
--  CStrings:  1811
+-  CStrings:  2002
++  UUID: 72EB3628-332B-3675-8340-EA5AB0224CBC
 +  Functions: 730
 +  Symbols:   238
-+  CStrings:  1852
++  CStrings:  2056
  
 Symbols:
 + _OBJC_CLASS_$_PTDrillDownRow

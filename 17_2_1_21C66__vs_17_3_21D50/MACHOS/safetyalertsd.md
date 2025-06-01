@@ -48,11 +48,13 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 209DDD26-775B-3E7F-A530-CB6F56F8E3C0
 -  Functions: 1695
++  UUID: D818E107-AE1D-317E-A999-9739DF615D4A
 +  Functions: 1696
    Symbols:   331
--  CStrings:  2291
-+  CStrings:  2299
+-  CStrings:  2761
++  CStrings:  2770
  
 CStrings:
 + "efficacyManifestFileName"

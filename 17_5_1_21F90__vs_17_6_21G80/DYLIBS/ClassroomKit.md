@@ -27,12 +27,15 @@
    __DATA_CONST.__objc_classlist: 0xf20
    __DATA_CONST.__objc_catlist: 0xd0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B4D94C2-C838-3AF9-921D-DF70A24D8670
++  UUID: 91ACF4FB-7B81-3C90-BD1D-61972DA47BB0
    Functions: 5987
 -  Symbols:   21932
 +  Symbols:   21933
-   CStrings:  8503
+   CStrings:  9654
  
 Symbols:
 + _NSURLContentTypeKey

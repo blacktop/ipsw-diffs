@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x9b0
    __DATA.__data: 0xae0
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C813135-D011-3466-8678-E50C91F57C58
++  UUID: E488DF88-DA0B-311C-AA25-4A0C19D6A934
    Functions: 1083
    Symbols:   355
--  CStrings:  1740
-+  CStrings:  1745
+-  CStrings:  1856
++  CStrings:  1861
  
 CStrings:
 + "T@\"NSString\",?,C,N"

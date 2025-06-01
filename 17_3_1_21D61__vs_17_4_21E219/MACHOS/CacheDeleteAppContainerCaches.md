@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9DF41238-AA9D-3329-9FA0-AAC07DD068E3
 -  Functions: 262
 -  Symbols:   175
--  CStrings:  469
+-  CStrings:  574
++  UUID: 09D0A133-2008-304B-93E8-DE9392A645AA
 +  Functions: 264
 +  Symbols:   176
-+  CStrings:  473
++  CStrings:  579
  
 Symbols:
 + _OBJC_CLASS_$_NSUserDefaults

@@ -33,13 +33,16 @@
    __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__auth_got: 0x200
 
+   - /System/Library/PrivateFrameworks/WebUI.framework/WebUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A922D9CA-11D5-37F8-901F-FDBFE0FFAA8A
++  UUID: 2C06BC15-CC12-388A-981A-7AA5E44F4BAF
    Functions: 149
 -  Symbols:   825
--  CStrings:  699
+-  CStrings:  773
 +  Symbols:   826
-+  CStrings:  701
++  CStrings:  776
  
 Symbols:
 + _OBJC_CLASS_$_LSApplicationRecord

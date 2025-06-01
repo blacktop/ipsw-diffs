@@ -31,11 +31,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90254071-6D93-3C2B-8BBA-C430C95E5EBE
++  UUID: 24B03A73-F3B6-38A3-87D0-B3DF18990960
    Functions: 17
    Symbols:   51
--  CStrings:  128
-+  CStrings:  129
+-  CStrings:  130
++  CStrings:  131
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -22,11 +22,13 @@
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libxslt.1.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7513F298-A288-3593-BFFC-892A0458FA57
 -  Functions: 1198
 -  Symbols:   3084
++  UUID: BFADCF06-33D9-3946-BB2A-6694C5FA67BC
 +  Functions: 1201
 +  Symbols:   3090
-   CStrings:  759
+   CStrings:  1238
  
 Symbols:
 + GCC_except_table171

@@ -27,11 +27,15 @@
    __AUTH_CONST.__objc_const: 0x240
    __AUTH_CONST.__const: 0x140
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2F0AF29D-DC52-3C13-A264-B3D4847BCE36
++  UUID: C407D164-2238-3B63-B399-C13C22CBA3B4
    Functions: 1055
    Symbols:   3968
--  CStrings:  2694
-+  CStrings:  2695
+-  CStrings:  3063
++  CStrings:  3065
  
 CStrings:
 + "validating instance"

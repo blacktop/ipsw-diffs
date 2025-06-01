@@ -46,10 +46,9 @@
    __DATA_CONST.__objc_arraydata: 0x38
    __AUTH_CONST.__cfstring: 0x4560
    __AUTH_CONST.__objc_const: 0x1388
-
+   __AUTH_CONST.__const: 0x3a0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_intobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x620
 -  __AUTH.__objc_data: 0x960
 -  __DATA.__objc_protorefs: 0x20
@@ -70,11 +69,13 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C07B9B9-D8B8-3113-B41A-1380B9CE5F18
 -  Functions: 1875
 -  Symbols:   6258
++  UUID: A0F9CB60-1D2F-3AF3-B898-0E8B4E82F80F
 +  Functions: 1862
 +  Symbols:   6241
-   CStrings:  2741
+   CStrings:  3296
  
 Symbols:
 + -[ACMonitoredAccountStore _registerNotifyReaders]

@@ -110,12 +110,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 140A6EEA-D7BD-34F0-AF71-7046DC680389
 -  Functions: 2933
 -  Symbols:   566
--  CStrings:  1835
+-  CStrings:  1927
++  UUID: 7CA9A874-7FE4-31FC-BD3A-2CD0DD8ECEB4
 +  Functions: 2953
 +  Symbols:   584
-+  CStrings:  1872
++  CStrings:  1964
  
 Symbols:
 + _CCBigNumCompare

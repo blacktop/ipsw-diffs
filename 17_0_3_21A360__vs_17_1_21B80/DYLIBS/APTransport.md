@@ -49,12 +49,14 @@
    - /usr/lib/libIOReport.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B9E36BA-37C7-351D-BD6C-B254AE544310
 -  Functions: 1646
 -  Symbols:   5229
--  CStrings:  4123
+-  CStrings:  4758
++  UUID: FE9EABC3-416C-389F-8522-31D183AC8E45
 +  Functions: 1650
 +  Symbols:   5247
-+  CStrings:  4141
++  CStrings:  4776
  
 Symbols:
 + _APBrokeredReceiverGetDeviceID

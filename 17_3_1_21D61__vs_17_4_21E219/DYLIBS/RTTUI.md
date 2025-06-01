@@ -37,11 +37,15 @@
    __DATA.__data: 0x480
    __DATA.__bss: 0x110
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C8E2DDEB-143E-3446-B790-217F599D751E
++  UUID: 830E6DAF-D87B-3108-ACB5-472D7EE39063
    Functions: 437
    Symbols:   2114
--  CStrings:  1419
-+  CStrings:  1420
+-  CStrings:  1519
++  CStrings:  1520
  
 Symbols:
 + ___39-[RTTUIConversationViewController init]_block_invoke.273

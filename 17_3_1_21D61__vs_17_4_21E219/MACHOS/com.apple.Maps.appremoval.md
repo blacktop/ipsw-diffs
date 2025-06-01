@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/MapsSupport.framework/MapsSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D0D84B3-AD5D-33A2-A518-32F2CD686186
++  UUID: 3273A832-0D7A-39EE-8B82-F50A3D8FF993
    Functions: 21
    Symbols:   54
 -  CStrings:  100

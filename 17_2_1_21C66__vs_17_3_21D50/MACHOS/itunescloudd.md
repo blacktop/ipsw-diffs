@@ -59,12 +59,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3838C088-7BAF-3300-B36F-B4FBF631A75D
 -  Functions: 4338
 -  Symbols:   803
--  CStrings:  8269
+-  CStrings:  9657
++  UUID: 728FEF2E-5E56-3704-817B-F70077EB5018
 +  Functions: 4336
 +  Symbols:   802
-+  CStrings:  8268
++  CStrings:  9656
  
 Symbols:
 - _OBJC_CLASS_$_NLTokenizer

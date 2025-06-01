@@ -34,11 +34,15 @@
    __DATA.__data: 0x1b0
    __DATA.__common: 0xf8
 
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 238AE044-20FB-3A56-8CB1-5AD4BF4661B1
++  UUID: 1D24D836-DB43-3752-B7DF-41C5611C7D77
    Functions: 24
    Symbols:   135
--  CStrings:  158
-+  CStrings:  159
+-  CStrings:  171
++  CStrings:  172
  
 CStrings:
 + "T@\"NSString\",?,R,C"

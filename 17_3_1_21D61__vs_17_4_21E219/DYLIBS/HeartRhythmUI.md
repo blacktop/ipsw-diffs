@@ -41,7 +41,6 @@
 -  __AUTH_CONST.__objc_intobj: 0xf0
 +  __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x440
    __AUTH.__objc_data: 0xb40
 -  __DATA.__objc_classrefs: 0x448
@@ -50,12 +49,15 @@
    __DATA.__data: 0x548
    __DATA.__bss: 0x48
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9DC4E8D2-8B04-34BD-862A-92893AF5F1AB
++  UUID: C540316B-AC70-3C8A-BFA9-27C0641D6D5B
    Functions: 1584
 -  Symbols:   5559
 +  Symbols:   5558
-   CStrings:  2640
+   CStrings:  3017
  
 Symbols:
 + ___103-[HROnboardingElectrocardiogramUpdateAvailabilityViewController continueAndCheckForUpdateAvailability:]_block_invoke.264

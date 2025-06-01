@@ -76,11 +76,9 @@
    __AUTH_CONST.__objc_arrayobj: 0xb58
    __AUTH_CONST.__objc_intobj: 0x9d8
    __AUTH_CONST.__objc_dictobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x860
 -  __AUTH_CONST.__auth_got: 0x3840
 -  __AUTH.__objc_data: 0x4cc0
 -  __AUTH.__data: 0x5f98
-+  __AUTH_CONST.__auth_ptr: 0x878
 +  __AUTH_CONST.__auth_got: 0x3870
 +  __AUTH.__objc_data: 0x4d10
 +  __AUTH.__data: 0x6008
@@ -116,12 +114,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C15F701E-FDAD-3FDE-8192-3B48011DAE7F
 -  Functions: 62327
 -  Symbols:   41639
--  CStrings:  15976
+-  CStrings:  19027
++  UUID: 001A0FF9-66CD-3141-993E-8036F2DF6457
 +  Functions: 62534
 +  Symbols:   41801
-+  CStrings:  16084
++  CStrings:  19138
  
 Symbols:
 + +[MFMailboxFrecencyController sharedInstance]

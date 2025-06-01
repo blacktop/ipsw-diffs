@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
    - /System/Library/PrivateFrameworks/InstallCoordination.framework/InstallCoordination
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 57541169-9FC4-33BD-A431-E68BF78CB3CC
++  UUID: 26C4C4CB-D120-3D14-A717-7FC33E18B0CF
+   Functions: 482
+   Symbols:   1887
+   CStrings:  1047
+
 ```

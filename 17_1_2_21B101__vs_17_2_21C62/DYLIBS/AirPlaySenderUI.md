@@ -26,11 +26,15 @@
    __AUTH_CONST.__auth_got: 0xb8
    __AUTH.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 97833468-E02F-35DA-BDB7-6DEA21A385B3
++  UUID: AE05A223-9368-3319-AFFF-C3DDA2A40B3E
    Functions: 37
    Symbols:   194
--  CStrings:  114
-+  CStrings:  115
+-  CStrings:  131
++  CStrings:  133
  
 CStrings:
 + "ca"

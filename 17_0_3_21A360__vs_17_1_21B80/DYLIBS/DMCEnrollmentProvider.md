@@ -42,12 +42,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F6E902F3-2734-3107-9A91-66C88E2FBE2F
 -  Functions: 1718
 -  Symbols:   6828
--  CStrings:  3512
+-  CStrings:  3831
++  UUID: 7D5DC978-3886-3D12-BC18-139320126C99
 +  Functions: 1721
 +  Symbols:   6835
-+  CStrings:  3514
++  CStrings:  3833
  
 Symbols:
 + -[DMCProfileAbstractViewController init]

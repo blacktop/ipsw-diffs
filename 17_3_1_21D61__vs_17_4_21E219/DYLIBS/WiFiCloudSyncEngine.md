@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x1c
    __DATA.__data: 0x8
    __DATA_DIRTY.__objc_data: 0x50
+
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F98DC81C-76E7-3AA7-BE42-CDC84430CA0B
++  UUID: 37547FA6-2F0C-3792-BB5B-AE468A870B27
+   Functions: 112
+   Symbols:   458
+   CStrings:  711
 CStrings:
 + "21:01:21"
 + "Feb 16 2024"

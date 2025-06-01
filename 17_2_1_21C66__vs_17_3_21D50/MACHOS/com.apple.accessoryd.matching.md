@@ -25,11 +25,15 @@
    __DATA.__got: 0x140
    __DATA.__auth_ptr: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CF9DBF89-56E5-3465-A4C3-A8A73C98353B
++  UUID: 2050FFBF-2B88-3C33-A9B1-01E2170ADBAC
    Functions: 1261
    Symbols:   7627
--  CStrings:  2205
-+  CStrings:  2206
+-  CStrings:  2579
++  CStrings:  2580
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

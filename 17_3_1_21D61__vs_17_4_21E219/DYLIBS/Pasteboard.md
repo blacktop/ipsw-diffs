@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D89C83F-0AC8-3226-9542-5B8EEADAEFBF
 -  Functions: 994
 -  Symbols:   3227
--  CStrings:  1360
+-  CStrings:  1495
++  UUID: 5927C151-5327-36CD-AF00-F8F55C48EB67
 +  Functions: 1028
 +  Symbols:   3329
-+  CStrings:  1407
++  CStrings:  1543
  
 Symbols:
 + -[PBCoercionRegistry _member_registerCoercionFromRepresentationConformingToType:toRepresentationOfType:coercionBlock:]

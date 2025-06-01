@@ -39,13 +39,16 @@
    __DATA_DIRTY.__objc_data: 0xa0
    __DATA_DIRTY.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/TimeSync.framework/TimeSync
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A03224C-9D18-380D-89A8-8BA12E0AF691
++  UUID: E693AA6B-7FBC-37DE-94C4-0737360EA91C
    Functions: 269
 -  Symbols:   825
--  CStrings:  334
+-  CStrings:  351
 +  Symbols:   826
-+  CStrings:  336
++  CStrings:  353
  
 Symbols:
 + _OBJC_IVAR_$_HIDRemoteDeviceAACPServer._me

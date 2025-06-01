@@ -37,13 +37,16 @@
    __DATA.__objc_data: 0x1590
    __DATA.__data: 0xba0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20D5D625-8812-335B-88ED-8CD94D79ECFB
++  UUID: 699DB430-D324-303B-94F9-5C04CD66B423
    Functions: 1143
 -  Symbols:   4226
--  CStrings:  2979
+-  CStrings:  3490
 +  Symbols:   4225
-+  CStrings:  2978
++  CStrings:  3489
  
 Symbols:
 + _DOCLocalizedDisplayName

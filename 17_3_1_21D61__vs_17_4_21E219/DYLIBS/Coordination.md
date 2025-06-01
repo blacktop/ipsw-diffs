@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E3D34E99-4990-3E84-A6DB-8DA7E7344AAD
 -  Functions: 1096
 -  Symbols:   3827
--  CStrings:  1527
+-  CStrings:  1692
++  UUID: 827CC003-1DC6-315D-BC8E-E73435FF8A27
 +  Functions: 1117
 +  Symbols:   3881
-+  CStrings:  1549
++  CStrings:  1714
  
 Symbols:
 + +[COFeatureStatus isNoDaemonMessageChannelEnabled]

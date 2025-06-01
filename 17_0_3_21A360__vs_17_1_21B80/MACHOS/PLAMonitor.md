@@ -11,6 +11,10 @@
 +  __TEXT.__const: 0x48
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
+-  UUID: A70D3607-94E6-3D85-987B-8739E825C207
++  UUID: 6CDE8F5E-FCFA-38DA-8A73-6F62B237B4B9
    Functions: 0
+   Symbols:   2
+   CStrings:  0
 
 ```

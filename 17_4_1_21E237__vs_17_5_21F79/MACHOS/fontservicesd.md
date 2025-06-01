@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0xd8
    __DATA_CONST.__const: 0xa60
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3830954E-5260-38E3-90F8-3C95ECBEB7F9
++  UUID: 57154AEA-0F4B-3AA5-8780-A01964C951C2
+   Functions: 212
+   Symbols:   199
+   CStrings:  719
+
 ```

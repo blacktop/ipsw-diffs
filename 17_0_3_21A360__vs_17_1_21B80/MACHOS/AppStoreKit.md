@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 133D8F43-DB06-3024-8AD7-8C73F007E981
 -  Functions: 15384
 -  Symbols:   4867
--  CStrings:  2976
+-  CStrings:  3036
++  UUID: 6B339C95-2BE4-3F70-8899-98770FD244E5
 +  Functions: 15435
 +  Symbols:   4881
-+  CStrings:  2983
++  CStrings:  3043
  
 Symbols:
 + _symbolic $s11AppStoreKit28NavigationHandlingControllerP

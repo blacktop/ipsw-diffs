@@ -22,11 +22,15 @@
    __TEXT.__objc_methtype: 0xc6e
    __TEXT.__unwind_info: 0xa50
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A37EC8F6-7BEE-3928-B636-9657D79C2E7F
++  UUID: E37A5BF7-E0B9-31C0-A5FF-834585E6B75D
    Functions: 889
    Symbols:   2491
--  CStrings:  2128
-+  CStrings:  2132
+-  CStrings:  2477
++  CStrings:  2481
  
 CStrings:
 + "Periodic Operation: Info %@ "

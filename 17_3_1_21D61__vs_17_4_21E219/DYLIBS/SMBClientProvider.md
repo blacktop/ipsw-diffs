@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/FileProvider.framework/FileProvider
 
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 88615583-F235-391B-8552-E97BEBD0E8ED
++  UUID: 5AF427E0-5D9F-3C40-A3C2-0E05188FA8E4
+   Functions: 50
+   Symbols:   210
+   CStrings:  99
+
 ```

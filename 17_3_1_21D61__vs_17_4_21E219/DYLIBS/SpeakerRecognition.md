@@ -62,7 +62,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x180
    __DATA_CONST.__objc_arraydata: 0xb0
 -  __AUTH_CONST.__const: 0x588
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__cfstring: 0x4560
 -  __AUTH_CONST.__objc_const: 0x1720
 +  __AUTH_CONST.__cfstring: 0x4760
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E17728DB-B130-34B3-B182-57AA86C930E9
 -  Functions: 2006
 -  Symbols:   6175
--  CStrings:  4327
+-  CStrings:  4882
++  UUID: 451270F9-AFF0-35C1-8769-792F04CCF40F
 +  Functions: 1721
 +  Symbols:   6564
-+  CStrings:  4504
++  CStrings:  5075
  
 Symbols:
 + +[BloomFilter supportsSecureCoding]

@@ -104,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08186018-1062-3DCD-AF0B-5C17AE9A6D54
 -  Functions: 693
 -  Symbols:   286
--  CStrings:  1428
+-  CStrings:  1463
++  UUID: 3ACE7933-E962-3B43-9487-1CA0FA9C175F
 +  Functions: 1516
 +  Symbols:   359
-+  CStrings:  1725
++  CStrings:  1770
  
 Symbols:
 + _CNContactEmailAddressesKey

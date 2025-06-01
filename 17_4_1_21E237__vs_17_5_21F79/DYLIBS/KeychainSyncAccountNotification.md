@@ -49,13 +49,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD8A9280-1A26-39D5-9DBA-8A96BD59C8F1
++  UUID: B6CB2BA7-1337-3878-AAA8-D43AC4142DDA
    Functions: 49
 -  Symbols:   198
--  CStrings:  296
+-  CStrings:  415
 +  Symbols:   204
-+  CStrings:  302
++  CStrings:  427
  
 Symbols:
 + _kSecurityRTCEventNameAllowedMIDHashMismatch

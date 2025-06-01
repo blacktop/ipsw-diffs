@@ -44,7 +44,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xc0
 +  __AUTH_CONST.__const: 0x110
    __AUTH_CONST.__objc_doubleobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__const: 0x10
    __AUTH_CONST.__auth_got: 0x428
    __AUTH.__objc_data: 0x0
@@ -65,12 +64,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: AEE76806-4EDF-3F2C-B1CC-9E9AAF579CC9
 -  Functions: 1171
 -  Symbols:   4484
--  CStrings:  2100
+-  CStrings:  2517
++  UUID: 88A5189F-C890-36DC-A94A-D70B27DD1E7C
 +  Functions: 1176
 +  Symbols:   4498
-+  CStrings:  2108
++  CStrings:  2527
  
 Symbols:
 + -[CNVCard30CardBuilder addSensitiveContentConfiguration]

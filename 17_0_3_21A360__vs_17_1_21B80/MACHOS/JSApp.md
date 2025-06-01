@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2CA82E81-2EEF-36BC-A961-50061A69A5F2
 -  Functions: 3143
 -  Symbols:   683
--  CStrings:  2927
+-  CStrings:  3280
++  UUID: 17625279-18D5-3409-ABF2-439D0E2B1C33
 +  Functions: 3179
 +  Symbols:   686
-+  CStrings:  2959
++  CStrings:  3314
  
 Symbols:
 + _OBJC_CLASS_$_JSARequestEncoder

@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2E56E4B1-36A9-38A9-98D1-D5C81A52B465
++  UUID: EE570B7B-24EE-3934-98CF-4907E87A9970
    Functions: 9
    Symbols:   34
 -  CStrings:  82

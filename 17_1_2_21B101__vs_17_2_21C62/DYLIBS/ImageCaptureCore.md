@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 505AE9F2-77F5-3CD2-953B-82B3C9E06888
 -  Functions: 1466
 -  Symbols:   5115
--  CStrings:  2956
+-  CStrings:  4012
++  UUID: 540EE9E1-496D-33DC-AFB1-481697B73729
 +  Functions: 1470
 +  Symbols:   5128
-+  CStrings:  2963
++  CStrings:  4020
  
 Symbols:
 + -[ICCameraDevice notifyDelegateRestrictionChanged]
@@ -96,6 +98,7 @@ Symbols:
 - ___block_literal_global.337
 - __unnamed_array_storage.264
 CStrings:
++ "=\xd8\xe1\xdf "
 + "TB,N,V_notifyDelegateRestrictionChanged"
 + "_notifyDelegateRestrictionChanged"
 + "notifyDelegateRestrictionChanged"

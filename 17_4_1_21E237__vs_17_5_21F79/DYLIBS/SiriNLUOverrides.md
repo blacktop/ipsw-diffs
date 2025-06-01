@@ -34,4 +34,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: DC439CAC-2E6C-35E0-BEFF-C9375A967730
++  UUID: 2940B003-4036-301B-8050-739F43E0B972
+   Functions: 1129
+   Symbols:   1206
+   CStrings:  315
+
 ```

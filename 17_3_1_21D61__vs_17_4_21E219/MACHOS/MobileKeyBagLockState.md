@@ -21,8 +21,11 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
+-  UUID: 36CE8EC0-4E47-36D3-B7F4-3AB31CA06F03
++  UUID: B22C742B-6F03-387E-8791-E242AA3C75EE
    Functions: 3
 -  Symbols:   24
 -  CStrings:  13

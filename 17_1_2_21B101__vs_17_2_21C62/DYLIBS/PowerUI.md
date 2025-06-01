@@ -20,11 +20,15 @@
    __TEXT.__unwind_info: 0x1830
    __TEXT.__objc_classname: 0x8de
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1932B2A0-DFF4-38E0-AFFD-3FB004D7AF89
++  UUID: 0CD9791F-9A0C-399F-90EC-09A859B7899D
    Functions: 6107
    Symbols:   17461
--  CStrings:  7022
-+  CStrings:  7024
+-  CStrings:  8427
++  CStrings:  8429
  
 Symbols:
 + ___44-[PowerUISmartChargeManager handleCallback:]_block_invoke.896

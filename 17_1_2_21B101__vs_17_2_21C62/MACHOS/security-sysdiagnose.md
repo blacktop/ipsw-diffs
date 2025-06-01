@@ -44,13 +44,16 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 01E46DAC-A12E-3CD4-97A2-6E1F4104074A
++  UUID: 86DEA602-1ED3-3980-960F-A08CE06A99C7
    Functions: 32
 -  Symbols:   147
--  CStrings:  138
+-  CStrings:  193
 +  Symbols:   154
-+  CStrings:  148
++  CStrings:  208
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

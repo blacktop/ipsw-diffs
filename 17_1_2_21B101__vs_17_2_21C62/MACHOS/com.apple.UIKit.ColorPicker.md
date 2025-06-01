@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0xe00
    __TEXT.__init_offsets: 0x4
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 70D80A57-731A-3651-9FC9-14B51FA25E00
++  UUID: 19CDFDA9-90F5-3CC7-9627-B2EFA6D0B1E3
+   Functions: 1947
+   Symbols:   270
+   CStrings:  795
+
 ```

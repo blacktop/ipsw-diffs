@@ -21,11 +21,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9DE00B1E-1B6B-3A31-A7CF-FD2262A00877
 -  Functions: 1362
++  UUID: 3012E3A1-8664-35C4-AF16-BFF6A4CC3C05
 +  Functions: 1361
    Symbols:   389
--  CStrings:  1456
-+  CStrings:  1455
+-  CStrings:  1533
++  CStrings:  1532
  
 CStrings:
 - "assertion failure: \"sa->sin6_scope_id\" -> %lld"

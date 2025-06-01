@@ -56,13 +56,12 @@
 -  __DATA_CONST.__objc_selrefs: 0xf8a0
 -  __DATA_CONST.__objc_arraydata: 0x12e8
 -  __AUTH_CONST.__const: 0x5f30
+-  __AUTH_CONST.__objc_const: 0x19508
+-  __AUTH_CONST.__cfstring: 0x272a0
 +  __DATA_CONST.__objc_const: 0x36f88
 +  __DATA_CONST.__objc_selrefs: 0xf840
 +  __DATA_CONST.__objc_arraydata: 0x12c8
 +  __AUTH_CONST.__const: 0x5ed0
-   __AUTH_CONST.__auth_ptr: 0xb8
--  __AUTH_CONST.__objc_const: 0x19508
--  __AUTH_CONST.__cfstring: 0x272a0
 +  __AUTH_CONST.__objc_const: 0x19280
 +  __AUTH_CONST.__cfstring: 0x27160
    __AUTH_CONST.__objc_intobj: 0x12a8
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1643E13C-4A1C-3DD5-B981-553E56053228
 -  Functions: 17885
 -  Symbols:   51858
--  CStrings:  21607
+-  CStrings:  26620
++  UUID: 9B76B24B-1E66-32FC-BF48-366708306BC3
 +  Functions: 17828
 +  Symbols:   51659
-+  CStrings:  21555
++  CStrings:  26558
  
 Symbols:
 + +[WFAppInFocusTrigger isSupportedOnThisDevice]

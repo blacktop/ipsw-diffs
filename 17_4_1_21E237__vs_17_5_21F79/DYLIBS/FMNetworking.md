@@ -31,7 +31,11 @@
    __TEXT.__objc_classname: 0x34
    __TEXT.__objc_methname: 0x8aa
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4E06D755-ED38-3029-BA97-8C12FC466752
++  UUID: 8DE08E16-9ED1-3E50-B7A1-FE13EF945B6E
    Functions: 1897
    Symbols:   730
 -  CStrings:  331

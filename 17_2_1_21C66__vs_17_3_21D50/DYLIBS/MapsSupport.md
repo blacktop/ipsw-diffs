@@ -41,12 +41,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B86AE0D-9524-315F-8365-0317084FC793
 -  Functions: 2550
 -  Symbols:   8667
--  CStrings:  4418
+-  CStrings:  4906
++  UUID: D0998174-AE2B-30E3-B1E8-D63FF89276B4
 +  Functions: 2551
 +  Symbols:   8672
-+  CStrings:  4422
++  CStrings:  4910
  
 Symbols:
 + -[MSPSenderMessageStrategy removeParticipant:]

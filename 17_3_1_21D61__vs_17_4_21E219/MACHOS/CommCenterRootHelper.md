@@ -32,7 +32,9 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A07F7A48-0D99-369A-A007-B55BB6ED2438
 -  Functions: 46
++  UUID: 73E6FACC-A3D1-36A3-BDD5-39EB8E2F29E2
 +  Functions: 45
    Symbols:   89
    CStrings:  15

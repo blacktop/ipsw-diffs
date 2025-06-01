@@ -65,12 +65,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 67E1F6DF-7F56-30DF-9489-CB11268A2518
 -  Functions: 1285
 -  Symbols:   5610
--  CStrings:  4222
++  UUID: 5B221BD6-A2C6-36A0-AB8B-6DD7FBAA7430
 +  Functions: 1283
 +  Symbols:   5602
-+  CStrings:  4220
+   CStrings:  5977
  
 Symbols:
 + _AMD_JS_EVENT_RUN_SYNC_SERVER_TP_ARRAY

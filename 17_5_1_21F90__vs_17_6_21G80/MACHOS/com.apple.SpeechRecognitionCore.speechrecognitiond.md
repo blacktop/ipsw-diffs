@@ -67,12 +67,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CC684C7-CB05-3964-851A-C4501D12E1EE
 -  Functions: 3258
 -  Symbols:   1116
--  CStrings:  1768
+-  CStrings:  1986
++  UUID: 6F3FFC5C-5A73-3561-82DA-40D7146872B1
 +  Functions: 3263
 +  Symbols:   1121
-+  CStrings:  1773
++  CStrings:  1991
  
 Symbols:
 + _OBJC_CLASS_$_STActivityAttribution

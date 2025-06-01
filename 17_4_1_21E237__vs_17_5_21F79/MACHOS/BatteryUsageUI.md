@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D694183A-F875-3D98-8DBB-394D4DC59B1D
 -  Functions: 2728
++  UUID: 8126D58D-B307-32E5-83ED-87C8E87ACF3D
 +  Functions: 2766
    Symbols:   603
--  CStrings:  2806
-+  CStrings:  2846
+-  CStrings:  3675
++  CStrings:  3722
  
 CStrings:
 + "BUI_DEMO_SVC_FLAG"

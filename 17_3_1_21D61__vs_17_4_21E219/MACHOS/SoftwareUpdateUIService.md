@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x370
    __DATA.__data: 0x500
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9B74AD0-3858-35E3-90F3-17288FFBD1F2
++  UUID: 210923B4-6627-3E43-ABB7-0A91C028F95A
    Functions: 174
    Symbols:   88
--  CStrings:  722
-+  CStrings:  731
+-  CStrings:  827
++  CStrings:  844
  
 CStrings:
 + "/private/var/MobileAsset/AssetsV2/locks"

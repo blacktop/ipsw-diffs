@@ -19,11 +19,15 @@
    __TEXT.__objc_classname: 0x581
    __TEXT.__objc_methtype: 0x2073
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 370FC91E-1C9F-3A97-9920-A59538344198
++  UUID: 0BB99A17-06D9-3170-B503-0D9F5C6D5136
    Functions: 5116
    Symbols:   1033
--  CStrings:  7311
-+  CStrings:  7312
+-  CStrings:  8093
++  CStrings:  8094
  
 CStrings:
 + "Remove Wx from manual disconnect list"

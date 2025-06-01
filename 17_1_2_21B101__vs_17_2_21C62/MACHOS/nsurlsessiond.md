@@ -52,12 +52,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4E9CFA0F-CD4A-3669-8272-D0E2A9BFE002
 -  Functions: 1805
 -  Symbols:   482
--  CStrings:  3468
+-  CStrings:  3707
++  UUID: F0B6CFFC-C9A8-3F41-9C42-B5818715A8D1
 +  Functions: 1806
 +  Symbols:   483
-+  CStrings:  3475
++  CStrings:  3715
  
 Symbols:
 + _estimatedPropertyListSize

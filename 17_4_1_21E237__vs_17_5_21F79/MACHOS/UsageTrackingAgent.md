@@ -27,12 +27,15 @@
    __DATA_CONST.__auth_ptr: 0x48
    __DATA_CONST.__const: 0x27c8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7C8703CF-E83E-3336-AD06-6B4FAB2CD79F
++  UUID: 37C483F6-9B45-38E5-9EC8-C017BAC037E3
    Functions: 1277
 -  Symbols:   820
 +  Symbols:   821
-   CStrings:  1257
+   CStrings:  1343
  
 Symbols:
 + _$s14DeviceActivity0aB11DataStoringP011deleteLocalC00eA10IdentifierySb_tKFTj

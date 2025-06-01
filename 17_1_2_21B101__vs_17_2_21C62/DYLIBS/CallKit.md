@@ -27,13 +27,16 @@
    __DATA_CONST.__objc_catlist: 0x30
    __DATA_CONST.__objc_protolist: 0x1f0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: BDBAA7CE-97DE-397D-9C4C-DC20628FAE75
++  UUID: C05D0927-DAC2-325D-BEDF-63E2C073FB53
    Functions: 3008
 -  Symbols:   9560
--  CStrings:  3781
+-  CStrings:  4234
 +  Symbols:   9561
-+  CStrings:  3783
++  CStrings:  4236
  
 Symbols:
 + -[CXChannelProvider _didReceivePushPayload:channelUUID:reply:isServiceUpdateMessage:isHighPriority:remainingHighPriorityBudget:]

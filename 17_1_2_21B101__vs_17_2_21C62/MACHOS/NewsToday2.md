@@ -79,11 +79,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03D3D725-4A39-3DC9-A27A-B2CDD2FC7942
 -  Functions: 3011
 -  Symbols:   581
++  UUID: 23174B09-F6B1-38FF-90F5-977DA2FEBAD7
 +  Functions: 3026
 +  Symbols:   582
-   CStrings:  1868
+   CStrings:  1959
  
 Symbols:
 + _swift_getAssociatedConformanceWitness

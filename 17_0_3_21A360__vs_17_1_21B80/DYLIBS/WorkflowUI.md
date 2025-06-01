@@ -65,7 +65,6 @@
    __DATA_CONST.__objc_arraydata: 0x268
 -  __AUTH_CONST.__const: 0x15400
 +  __AUTH_CONST.__const: 0x15450
-   __AUTH_CONST.__auth_ptr: 0x348
    __AUTH_CONST.__objc_const: 0x4528
 -  __AUTH_CONST.__cfstring: 0x5020
 -  __AUTH_CONST.__objc_intobj: 0x588
@@ -100,11 +99,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE882573-3B27-30FC-9785-4D1EFBE8BA34
 -  Functions: 17365
 -  Symbols:   18879
+-  CStrings:  9188
++  UUID: 0F951B5B-92C1-309B-B9C4-D350D23C533B
 +  Functions: 17402
 +  Symbols:   18896
-   CStrings:  8547
++  CStrings:  9181
  
 Symbols:
 + -[WFCompactActionGroupView tintColorDidChange]

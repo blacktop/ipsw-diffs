@@ -60,10 +60,12 @@
 +  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 63B94E49-A7A1-3683-8DC5-1074ABA4E8AB
 -  Functions: 58
 -  Symbols:   124
 -  CStrings:  208
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: D6CBF648-4FE2-3124-BD9C-4308E25AA0FC
 +  Functions: 59
 +  Symbols:   130
 +  CStrings:  223

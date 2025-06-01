@@ -43,12 +43,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: 127D645B-CECC-3EFE-AF31-72385A015CD2
 -  Functions: 25488
 -  Symbols:   65685
--  CStrings:  37508
+-  CStrings:  42505
++  UUID: 261D8612-E8D3-3CB1-92C5-5752441109B9
 +  Functions: 25486
 +  Symbols:   65683
-+  CStrings:  37507
++  CStrings:  42504
  
 Symbols:
 + __block_literal_global.450

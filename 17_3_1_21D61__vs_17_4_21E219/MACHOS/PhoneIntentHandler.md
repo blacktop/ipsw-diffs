@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6E0A9323-36CC-317C-8C2E-4E085CC9A2B0
 -  Functions: 775
 -  Symbols:   397
--  CStrings:  1788
+-  CStrings:  1909
++  UUID: 5495FCD9-D8E8-366E-82A6-0B96EDFC66EB
 +  Functions: 792
 +  Symbols:   403
-+  CStrings:  1842
++  CStrings:  1964
  
 Symbols:
 + _OBJC_CLASS_$_EmergencyServicesOverrideProvider

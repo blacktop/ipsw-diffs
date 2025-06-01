@@ -79,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 920E32EF-9D53-3024-8ABF-67F24DE255AF
 -  Functions: 455
 -  Symbols:   289
--  CStrings:  1260
+-  CStrings:  1626
++  UUID: 6560A77E-1640-3F3E-9D31-C9D2C3B9F848
 +  Functions: 475
 +  Symbols:   311
-+  CStrings:  1329
++  CStrings:  1720
  
 Symbols:
 + _INExtensionAttributesIntentsSupportedKey

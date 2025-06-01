@@ -24,11 +24,15 @@
    __DATA_CONST.__auth_got: 0xc58
    __DATA_CONST.__got: 0xf0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 5DF70854-B8D4-3EA5-A3FF-7D7054AEAA83
++  UUID: 8AD7FFD8-7B65-3D35-B4F7-3485D1DDB3E8
    Functions: 1673
    Symbols:   462
--  CStrings:  3017
-+  CStrings:  3026
+-  CStrings:  3239
++  CStrings:  3248
  
 CStrings:
 + "501 user Identity is loaded"

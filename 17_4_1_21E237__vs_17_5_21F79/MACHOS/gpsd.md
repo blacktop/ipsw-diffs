@@ -12,6 +12,15 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__auth_got: 0xb70
    __DATA_CONST.__got: 0x1f8
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: 13D1D804-273F-309E-A1A0-461F49E5B2F0
++  UUID: 915CA287-B745-3E44-97B0-6829609E0182
+   Functions: 6042
+   Symbols:   454
+   CStrings:  5710
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
 + "06:19:26"

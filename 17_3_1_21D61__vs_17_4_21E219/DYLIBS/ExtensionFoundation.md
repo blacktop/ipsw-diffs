@@ -84,7 +84,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0x3e8
 +  __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0xa8
--  __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0xc98
 -  __AUTH.__objc_data: 0xcf8
 -  __AUTH.__data: 0x2f8
@@ -93,7 +92,6 @@
 -  __DATA.__objc_superrefs: 0x1f0
 -  __DATA.__objc_ivar: 0x444
 -  __DATA.__data: 0x1970
-+  __AUTH_CONST.__auth_ptr: 0xa0
 +  __AUTH_CONST.__auth_got: 0xf80
 +  __AUTH.__objc_data: 0x1a58
 +  __AUTH.__data: 0x8f8
@@ -127,12 +125,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F20112E5-92AC-3ED8-8037-0176F22806E7
 -  Functions: 2828
 -  Symbols:   7595
--  CStrings:  3215
+-  CStrings:  3557
++  UUID: F7E41427-69C7-3041-B6B2-7413B5E3764D
 +  Functions: 3528
 +  Symbols:   6785
-+  CStrings:  3127
++  CStrings:  3453
  
 Symbols:
 + +[EXAuditToken auditTokenForCurrentProcess]

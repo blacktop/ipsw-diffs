@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4FE8F86A-ED64-3F7C-BAB5-C71C2FD7F6A4
 -  Functions: 274
 -  Symbols:   1285
--  CStrings:  652
+-  CStrings:  668
++  UUID: CE9F0DC1-CB2D-30A5-A112-DACC965AC5E6
 +  Functions: 275
 +  Symbols:   1291
-+  CStrings:  656
++  CStrings:  672
  
 Symbols:
 + -[EMKTextEnumerator initWithEmojiPreferences:]

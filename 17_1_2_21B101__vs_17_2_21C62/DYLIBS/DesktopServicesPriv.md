@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x10c0
 -  __AUTH.__objc_data: 0x5a0
 +  __AUTH.__objc_data: 0x5f0
@@ -71,12 +70,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE03C0D0-49EB-336B-B2C7-8CD7EF26F9A5
 -  Functions: 5323
 -  Symbols:   13210
--  CStrings:  1804
+-  CStrings:  1967
++  UUID: 74257A84-A068-3A34-AAC4-6F71853BA7B3
 +  Functions: 5328
 +  Symbols:   13235
-+  CStrings:  1814
++  CStrings:  1977
  
 Symbols:
 + -[_FINullObserver childNodePropertyChanged:forProperty:]

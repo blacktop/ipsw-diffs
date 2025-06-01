@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DDB73929-7002-3535-B883-70223851F59C
 -  Functions: 3899
 -  Symbols:   13100
--  CStrings:  7178
+-  CStrings:  9734
++  UUID: AD20D532-CB4A-3963-91F9-4117614A0A1F
 +  Functions: 3900
 +  Symbols:   13105
-+  CStrings:  7182
++  CStrings:  9738
  
 Symbols:
 + +[WBSFeatureAvailability isDTOMitigationEnabled]

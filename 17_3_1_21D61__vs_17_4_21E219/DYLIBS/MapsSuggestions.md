@@ -69,12 +69,10 @@
    __DATA_CONST.__objc_arraydata: 0x78
 -  __AUTH_CONST.__const: 0x6c68
 -  __AUTH_CONST.__cfstring: 0xc900
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__objc_const: 0x5048
 -  __AUTH_CONST.__objc_intobj: 0x6a8
 +  __AUTH_CONST.__const: 0x72f0
 +  __AUTH_CONST.__cfstring: 0xcd80
-+  __AUTH_CONST.__auth_ptr: 0x48
 +  __AUTH_CONST.__objc_const: 0x5240
 +  __AUTH_CONST.__objc_intobj: 0x6c0
    __AUTH_CONST.__objc_dictobj: 0x50
@@ -122,12 +120,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F6A7106-6643-328C-9ACE-B8BCCEC53974
 -  Functions: 4321
 -  Symbols:   14734
--  CStrings:  8414
+-  CStrings:  10022
++  UUID: 827ECE18-A8C5-3E13-BBD2-9381B2D638E9
 +  Functions: 4639
 +  Symbols:   15337
-+  CStrings:  8692
++  CStrings:  10336
  
 Symbols:
 + +[MapsSuggestionsRealWalletConnector isAvailable]

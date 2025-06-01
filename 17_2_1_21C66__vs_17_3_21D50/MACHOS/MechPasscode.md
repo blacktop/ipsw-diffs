@@ -46,11 +46,13 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C031203-CA1F-3790-95C2-DFF1A42CD387
 -  Functions: 294
++  UUID: A43AE88B-0E6B-3553-BCFE-B453A8491974
 +  Functions: 295
    Symbols:   303
--  CStrings:  403
-+  CStrings:  415
+-  CStrings:  423
++  CStrings:  437
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

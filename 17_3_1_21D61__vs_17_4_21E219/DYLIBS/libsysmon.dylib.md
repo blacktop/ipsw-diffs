@@ -26,6 +26,8 @@
    __DATA.__data: 0x218
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B12E40F1-7A65-34F0-9B78-64B093E04FF2
++  UUID: AE4DEE98-DF69-3F57-B5D3-4E90C2705B2D
    Functions: 46
    Symbols:   202
 -  CStrings:  63

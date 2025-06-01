@@ -35,10 +35,9 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x34b8
 -  __DATA_CONST.__objc_selrefs: 0x348
-+  __DATA_CONST.__objc_selrefs: 0x380
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x2a0
 -  __AUTH_CONST.__cfstring: 0x560
++  __DATA_CONST.__objc_selrefs: 0x380
 +  __AUTH_CONST.__const: 0x3c0
 +  __AUTH_CONST.__cfstring: 0x520
 +  __AUTH_CONST.__objc_intobj: 0x48
@@ -72,12 +71,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 519BAFC6-DEA6-39E2-B999-F5C95624401F
 -  Functions: 792
 -  Symbols:   2903
--  CStrings:  1114
+-  CStrings:  1157
++  UUID: 76B256F2-10B1-3D29-88C2-5EA1D138EAC3
 +  Functions: 793
 +  Symbols:   2909
-+  CStrings:  1120
++  CStrings:  1161
  
 Symbols:
 + +[DNSHeuristics clearNetworkAsFiltered:]

@@ -18,7 +18,9 @@
    __DATA_CONST.__const: 0x5f0
    __DATA_CONST.__kalloc_type: 0x300
 -  __DATA_CONST.__kalloc_var: 0x1360
+-  UUID: 32506FA1-73CD-399A-8B9E-D1C38DCAFF4A
 +  __DATA_CONST.__kalloc_var: 0x1400
++  UUID: 2264196E-722D-359C-B516-C5C190E183BB
    Functions: 168
 -  Symbols:   604
 -  CStrings:  462

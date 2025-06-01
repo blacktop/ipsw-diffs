@@ -37,13 +37,16 @@
    __AUTH_CONST.__const: 0x300
    __AUTH_CONST.__objc_intobj: 0x168
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F4537F3D-2E4C-3467-A0A1-1ACE38D9078A
++  UUID: E57C70EA-3FF3-30E6-9CB8-6F5464B3430B
    Functions: 678
 -  Symbols:   2819
--  CStrings:  1597
+-  CStrings:  2106
 +  Symbols:   2821
-+  CStrings:  1598
++  CStrings:  2108
  
 Symbols:
 + _FHDeleteFeaturesPredictedRealTimeForIDInValueRange

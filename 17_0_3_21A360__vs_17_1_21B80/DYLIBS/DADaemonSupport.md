@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C843574-F77B-35CD-84E4-29C74D50E140
 -  Functions: 900
 -  Symbols:   3922
--  CStrings:  2020
+-  CStrings:  2136
++  UUID: D030B0C8-4C37-32B1-A0C3-C503D0E7EC08
 +  Functions: 899
 +  Symbols:   3919
-+  CStrings:  2014
++  CStrings:  2126
  
 Symbols:
 + -[DADAgentManager releaseAgents]

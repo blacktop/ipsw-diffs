@@ -18,11 +18,15 @@
    __TEXT.__unwind_info: 0x228
    __TEXT.__objc_classname: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14FCAAAD-23D6-3E0C-AEB8-018F1B8D5FD4
++  UUID: 65D26C92-10C7-3821-83EB-B00E2493C6CE
    Functions: 169
    Symbols:   748
--  CStrings:  499
-+  CStrings:  502
+-  CStrings:  576
++  CStrings:  579
  
 CStrings:
 + "cannot play chime output"

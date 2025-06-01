@@ -11,4 +11,13 @@
    __TEXT.__const: 0xa980
    __TEXT.__cstring: 0x8876
 
+   - /usr/lib/swift/libswift_Differentiation.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 904EFFA9-B530-30B2-B513-1E53EC06E826
++  UUID: 117F1338-054E-3FC1-A68D-1C9C6D5BDD91
+   Functions: 16935
+   Symbols:   39096
+   CStrings:  970
+
 ```

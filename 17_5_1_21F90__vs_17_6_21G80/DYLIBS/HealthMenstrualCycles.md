@@ -44,11 +44,15 @@
    __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__objc_intobj: 0x2b8
 
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B75B343-0D93-39CA-8388-C9793E8413D2
++  UUID: 709EE949-8D5A-3870-8613-8221BB3EEC43
    Functions: 1013
    Symbols:   3666
--  CStrings:  2013
-+  CStrings:  2015
+-  CStrings:  2375
++  CStrings:  2376
  
 Symbols:
 + __OBJC_$_PROP_LIST_HKMCViewModelProviderDataSource.352

@@ -45,13 +45,16 @@
    __DATA_DIRTY.__objc_data: 0x16d0
    __DATA_DIRTY.__common: 0x8
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02DEE3FF-AF1D-3207-9AB3-EF0FAA5C0A9A
++  UUID: 242F57DC-5102-36CA-A2A1-B46772199F3C
    Functions: 273
 -  Symbols:   1218
--  CStrings:  577
+-  CStrings:  850
 +  Symbols:   1221
-+  CStrings:  581
++  CStrings:  855
  
 Symbols:
 + ___67-[MFComposeImageSizeViewAccessibility setSizeDescription:forScale:]_block_invoke.263

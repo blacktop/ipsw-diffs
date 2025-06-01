@@ -39,13 +39,16 @@
    __DATA.__bss: 0xa0
    __DATA_DIRTY.__objc_data: 0x370
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: EF1B5D16-8611-3D1A-9633-5A9E781BEC57
++  UUID: 191F3F33-9ED5-3599-9BA2-C9A2FB5CB91A
    Functions: 2153
 -  Symbols:   6556
--  CStrings:  3820
+-  CStrings:  4457
 +  Symbols:   6557
-+  CStrings:  3821
++  CStrings:  4458
  
 Symbols:
 + _OBJC_IVAR_$_BioLog._retentionRunOnce

@@ -30,11 +30,13 @@
    - /System/Library/PrivateFrameworks/OpticalFlowFramework.framework/OpticalFlowFramework
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: C2B7FFB5-4A5E-3332-9601-6C0998ECA08E
 -  Functions: 602
++  UUID: 3F30D515-D217-399B-8FB2-B683375FDAD1
 +  Functions: 609
    Symbols:   555
--  CStrings:  6153
-+  CStrings:  6175
+-  CStrings:  6438
++  CStrings:  6462
  
 CStrings:
 + "%lld %d AVE %s: AVE FIG WARNING: MCTF mode = %d is set."

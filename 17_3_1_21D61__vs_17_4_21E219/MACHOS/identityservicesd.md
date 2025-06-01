@@ -87,11 +87,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4084C99D-68C1-39D4-B02F-75662E9B65C9
 -  Functions: 17205
++  UUID: 3BEBCD91-CA76-3C65-9E43-290454CC0E0C
 +  Functions: 17154
    Symbols:   2487
--  CStrings:  31681
-+  CStrings:  31634
+-  CStrings:  38052
++  CStrings:  38003
  
 Symbols:
 + _IDSDataChannelLastPacketReceivedTimeKey

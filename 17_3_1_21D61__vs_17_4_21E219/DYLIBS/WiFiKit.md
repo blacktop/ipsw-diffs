@@ -42,7 +42,7 @@
    __AUTH_CONST.__objc_const: 0x2598
    __AUTH_CONST.__cfstring: 0x69e0
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__const: 0x3a0
    __AUTH_CONST.__auth_got: 0xa70
    __AUTH.__objc_data: 0x15e0
 -  __DATA.__objc_protorefs: 0x18
@@ -57,12 +57,14 @@
    - /usr/lib/libSystemHealth.dylib
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18AF7C5F-DFA1-328F-949A-A1D597F4705C
 -  Functions: 3119
 -  Symbols:   11120
--  CStrings:  6382
+-  CStrings:  7229
++  UUID: 2CF56623-3380-3935-8E12-B5600378F623
 +  Functions: 3121
 +  Symbols:   11125
-+  CStrings:  6401
++  CStrings:  7248
  
 Symbols:
 + -[WFClient setStateMonitorQueue:]

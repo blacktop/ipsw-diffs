@@ -25,7 +25,6 @@
    __DATA_CONST.__got: 0x130
    __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__const: 0xb8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x220
 -  __DATA.__data: 0x40
 +  __DATA.__data: 0x38
@@ -33,8 +32,11 @@
    __DATA_DIRTY.__const: 0x680
    __DATA_DIRTY.__data: 0xa0
 
+   - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswift_RegexParser.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
+-  UUID: 31DF94A4-AA9B-3EC1-B73E-FD1505CFE2E4
++  UUID: CA374AAA-2594-3B0F-9888-901780F2CA5A
    Functions: 385
 -  Symbols:   972
 +  Symbols:   970

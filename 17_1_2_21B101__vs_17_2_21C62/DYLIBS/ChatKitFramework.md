@@ -54,12 +54,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8603BDE-C353-3FD8-8858-F4FD25D82D02
 -  Functions: 1445
 -  Symbols:   5706
--  CStrings:  2623
+-  CStrings:  3966
++  UUID: 16FAE596-40AD-300D-BA42-65BB01989BD4
 +  Functions: 1447
 +  Symbols:   5708
-+  CStrings:  2620
++  CStrings:  3963
  
 Symbols:
 + +[CKRichLinkReplyPreviewBalloonViewAccessibility(SafeCategory) safeCategoryBaseClass]

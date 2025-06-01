@@ -16,6 +16,15 @@
    __TEXT.__unwind_info: 0x4c8
    __TEXT.__objc_classname: 0x3af
    __TEXT.__objc_methname: 0x3ad4
+
+   - /System/Library/PrivateFrameworks/WelcomeKit.framework/WelcomeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 259BFDC9-8178-329E-AA3E-10498E8A3079
++  UUID: C89D3CB2-3D90-37B8-84F3-D4A3FBBB4CA6
+   Functions: 379
+   Symbols:   1634
+   CStrings:  1250
 Symbols:
 + ___block_descriptor_48_e8_32s40s_e62_v52?0B8"NSString"12"NSString"20"NSString"28q36"NSError"44ls32l8s40l8
 - ___block_descriptor_48_e8_32s40s_e59_v44?0B8"NSString"12"NSString"20"NSString"28"NSError"36ls32l8s40l8

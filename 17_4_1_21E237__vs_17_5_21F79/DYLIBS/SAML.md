@@ -28,11 +28,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: BC526735-791A-3DD7-95CD-1991281FA4F0
 -  Functions: 424
 -  Symbols:   1679
++  UUID: BC320781-694A-338C-BA3A-72D1EF34F056
 +  Functions: 425
 +  Symbols:   1682
-   CStrings:  710
+   CStrings:  919
  
 Symbols:
 + _XMLWExternalEntityLoaderInputDeallocator

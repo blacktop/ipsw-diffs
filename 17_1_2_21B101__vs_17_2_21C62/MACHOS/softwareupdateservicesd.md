@@ -51,12 +51,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53FFE40E-2CB0-3BAF-B06B-67F457A0030C
 -  Functions: 2031
 -  Symbols:   435
--  CStrings:  3730
+-  CStrings:  4693
++  UUID: C6E5695A-22ED-38C1-A49F-B7D1032EC820
 +  Functions: 2036
 +  Symbols:   437
-+  CStrings:  3747
++  CStrings:  4716
  
 Symbols:
 + _XPC_ACTIVITY_REQUIRE_NETWORK_CONNECTIVITY

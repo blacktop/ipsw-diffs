@@ -22,6 +22,15 @@
    __DATA.__objc_ivar: 0x8
    __DATA.__objc_data: 0x140
    __DATA.__bss: 0xb
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CFDD46BB-A140-3071-B378-7C8F8A4964D2
++  UUID: 4A99D726-166D-386A-A3B3-B8B3885E1164
+   Functions: 28
+   Symbols:   132
+   CStrings:  96
 Symbols:
 + __block_literal_global.238
 + __block_literal_global.240

@@ -44,7 +44,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x120
    __AUTH_CONST.__objc_const: 0x40
    __AUTH_CONST.__const: 0x12b8
-   __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__auth_got: 0x7e0
 +  __AUTH_CONST.__auth_got: 0x7f8
    __AUTH.__data: 0x2e0
@@ -57,8 +56,11 @@
    __DATA.__common: 0x20
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 00235AC9-A6CC-3A8D-97DA-EDC37E508F5E
++  UUID: 131400AB-CB86-31ED-AA16-6146D0617138
    Functions: 656
 -  Symbols:   2094
 -  CStrings:  394

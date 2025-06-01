@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25832662-C439-3B8A-9B8D-BC5AB6165F6A
 -  Functions: 6305
 -  Symbols:   21881
--  CStrings:  9216
+-  CStrings:  9808
++  UUID: 00E5C448-CBE3-3436-A6AB-82322437C255
 +  Functions: 6330
 +  Symbols:   21955
-+  CStrings:  9259
++  CStrings:  9852
  
 Symbols:
 + -[MRUActivityNowPlayingViewController artworkTransitionDirection]

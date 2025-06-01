@@ -44,12 +44,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43F3B3C2-A1C8-393F-8821-5DF89D4899AC
 -  Functions: 9968
 -  Symbols:   34953
--  CStrings:  12363
+-  CStrings:  15183
++  UUID: 2479DEF7-6AA7-3726-8D9B-6BB05F11A2BB
 +  Functions: 9969
 +  Symbols:   34958
-+  CStrings:  12373
++  CStrings:  15203
  
 Symbols:
 + -[AVFigEndpointUIAgentOutputContextManagerImpl _showErrorPromptForRouteDescriptor:reason:didFailToConnectToOutputDeviceDictionary:]

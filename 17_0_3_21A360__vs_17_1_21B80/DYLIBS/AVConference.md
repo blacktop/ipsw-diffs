@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_intobj: 0x39d8
    __AUTH_CONST.__objc_arrayobj: 0x14e8
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0xe0
    __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x150
 -  __AUTH_CONST.__const: 0x2f8
@@ -73,12 +72,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 33E45071-6B56-31D0-A1B7-0D6748F7240E
 -  Functions: 28009
 -  Symbols:   78746
--  CStrings:  43758
+-  CStrings:  47770
++  UUID: BBC1FF10-7831-31CA-8C11-2242EC92F2F8
 +  Functions: 28027
 +  Symbols:   78794
-+  CStrings:  43788
++  CStrings:  47805
  
 Symbols:
 + +[LogDumpUtility setFileOwnership:owner:]

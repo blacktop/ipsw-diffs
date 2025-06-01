@@ -71,7 +71,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x180
 -  __AUTH_CONST.__const: 0xb9b0
 -  __AUTH_CONST.__objc_const: 0x7ce8
--  __AUTH_CONST.__auth_ptr: 0x108
 -  __AUTH_CONST.__cfstring: 0x19880
 +  __DATA_CONST.__objc_const: 0x29110
 +  __DATA_CONST.__objc_selrefs: 0xb050
@@ -81,7 +80,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x190
 +  __AUTH_CONST.__const: 0xc348
 +  __AUTH_CONST.__objc_const: 0x7ed0
-+  __AUTH_CONST.__auth_ptr: 0x128
 +  __AUTH_CONST.__cfstring: 0x1a2c0
    __AUTH_CONST.__objc_intobj: 0x7b0
 -  __AUTH_CONST.__objc_dictobj: 0xc8
@@ -155,12 +153,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EAE8F308-0FE6-3A53-99F6-8236FC71C213
 -  Functions: 14774
 -  Symbols:   30834
--  CStrings:  16105
+-  CStrings:  19373
++  UUID: E84458AB-7EBE-30DC-B070-5C6515FF2117
 +  Functions: 15718
 +  Symbols:   31520
-+  CStrings:  16542
++  CStrings:  19892
  
 Symbols:
 + -[MPCMediaRemoteMiddleware(MPCPlayerResponseBuilder) playerSleepTimerFireDate:chain:]

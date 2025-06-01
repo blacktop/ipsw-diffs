@@ -19,5 +19,13 @@
    __DATA.__bss: 0xd0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F465EBA6-0829-3A6E-871B-E623460B3175
++  UUID: 0A8AE0E5-8AE6-36F0-8A60-696A66C523B7
+   Functions: 26
+   Symbols:   9
+   CStrings:  20
 
 ```

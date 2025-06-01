@@ -14,4 +14,13 @@
    __DATA.__data: 0xd8
    __DATA.__common: 0x60
 
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+   __DATA_CONST.__const: 0x2f78
+-  UUID: D72E1810-1EBE-3732-8C96-4DFC59200864
++  UUID: B4F62919-92A6-39CB-9DC8-A7B9E934EEBF
+   Functions: 44
+   Symbols:   599
+   CStrings:  12
+
 ```

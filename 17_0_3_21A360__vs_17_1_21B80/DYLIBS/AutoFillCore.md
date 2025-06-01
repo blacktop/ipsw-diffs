@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D40DC9E-AE9A-372B-B6F5-ED6B81E6CC6B
 -  Functions: 201
 -  Symbols:   903
--  CStrings:  483
+-  CStrings:  614
++  UUID: 795C8C81-8A61-3434-9941-B2A9580E4D20
 +  Functions: 203
 +  Symbols:   915
-+  CStrings:  485
++  CStrings:  616
  
 Symbols:
 + +[AFInsertionManager preferredInsertionOrder]

@@ -17,4 +17,13 @@
    __DATA.__objc_data: 0x320
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04833CB7-6FA6-3605-ABF0-2C14B812AC4A
++  UUID: B87C8F62-37B0-3A8F-95CE-4302BEC83FC7
+   Functions: 121
+   Symbols:   110
+   CStrings:  367
+
 ```

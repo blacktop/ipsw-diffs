@@ -33,11 +33,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 844D2ECC-9173-33F3-B71D-308BBCC48B85
 -  Functions: 633
++  UUID: 53E13C8C-1F51-38ED-ACE3-30DD82FBA21D
 +  Functions: 634
    Symbols:   359
--  CStrings:  1799
-+  CStrings:  1798
+-  CStrings:  2159
++  CStrings:  2158
  
 CStrings:
 - "addTarget:action:forEvents:"

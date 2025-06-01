@@ -65,10 +65,6 @@
 -  __AUTH_CONST.__objc_dictobj: 0x410
 -  __AUTH_CONST.__objc_floatobj: 0x530
 -  __AUTH_CONST.__objc_arrayobj: 0x120
-+  __AUTH_CONST.__objc_dictobj: 0x3c0
-+  __AUTH_CONST.__objc_floatobj: 0x500
-+  __AUTH_CONST.__objc_arrayobj: 0x198
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xf88
 -  __AUTH.__objc_data: 0x5140
 -  __DATA.__objc_protorefs: 0xa8
@@ -76,6 +72,9 @@
 -  __DATA.__objc_superrefs: 0x8a0
 -  __DATA.__objc_ivar: 0x1eb0
 -  __DATA.__data: 0x3de0
++  __AUTH_CONST.__objc_dictobj: 0x3c0
++  __AUTH_CONST.__objc_floatobj: 0x500
++  __AUTH_CONST.__objc_arrayobj: 0x198
 +  __AUTH_CONST.__auth_got: 0xeb8
 +  __AUTH.__objc_data: 0x4880
 +  __DATA.__objc_ivar: 0x1bfc
@@ -103,12 +102,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AAED9E5A-781D-3A91-B2F8-F878C79F4685
 -  Functions: 9964
 -  Symbols:   32944
--  CStrings:  17082
+-  CStrings:  18558
++  UUID: 9F8BDF8E-6FCD-3A95-9494-66F361E314BB
 +  Functions: 8849
 +  Symbols:   29501
-+  CStrings:  15462
++  CStrings:  16831
  
 Symbols:
 + +[CSAsset(RTModel) supportsMultiPhraseVoiceTriggerForEngineVersion:engineMinorVersion:accessoryRTModelType:]

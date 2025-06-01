@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 72654C0E-6CBF-3747-A5A7-AE48D5CC52C1
 -  Functions: 988
 -  Symbols:   3752
--  CStrings:  2002
+-  CStrings:  2452
++  UUID: EC9BE225-2F8F-3935-BDE1-DE66E8F507AA
 +  Functions: 993
 +  Symbols:   3766
-+  CStrings:  2005
++  CStrings:  2456
  
 Symbols:
 + +[NIPlatformInfo supportsARKit]

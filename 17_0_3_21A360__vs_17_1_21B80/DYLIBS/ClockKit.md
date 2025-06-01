@@ -55,9 +55,8 @@
    __AUTH_CONST.__const: 0x1090
    __AUTH_CONST.__objc_intobj: 0x9c0
    __AUTH_CONST.__objc_doubleobj: 0x230
-
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x7a8
 -  __AUTH.__objc_data: 0x3738
 +  __AUTH.__objc_data: 0x3788
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2F51CA86-A236-32AE-A944-B246377E3AE2
 -  Functions: 3727
 -  Symbols:   11556
--  CStrings:  3725
+-  CStrings:  4341
++  UUID: 0D318CBF-8C11-3F75-BD12-7EB9786280F5
 +  Functions: 3752
 +  Symbols:   11641
-+  CStrings:  3752
++  CStrings:  4371
  
 Symbols:
 + +[CLKIntentReference supportsSecureCoding]

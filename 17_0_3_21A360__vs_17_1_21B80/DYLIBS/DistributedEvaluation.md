@@ -33,13 +33,16 @@
    __AUTH_CONST.__const: 0x310
    __AUTH_CONST.__objc_intobj: 0x78
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C167650-AACB-381C-AD0C-AEDAF788CA6B
++  UUID: 6C1E765E-EE41-33A6-B291-587053B0EB45
    Functions: 1140
 -  Symbols:   4096
--  CStrings:  2192
+-  CStrings:  2696
 +  Symbols:   4095
-+  CStrings:  2191
++  CStrings:  2694
  
 Symbols:
 - _MLRuntimePluginID_ProactiveShareSheetLighthousePFLPlugin

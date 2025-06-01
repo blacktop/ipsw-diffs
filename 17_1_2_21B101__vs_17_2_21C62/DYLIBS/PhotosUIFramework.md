@@ -65,12 +65,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E76E0717-E6CE-3B38-A458-152FEBDC530A
 -  Functions: 694
 -  Symbols:   2651
--  CStrings:  1370
+-  CStrings:  2003
++  UUID: 30267E7A-8641-3C1C-B988-D4E43AA1D23B
 +  Functions: 699
 +  Symbols:   2675
-+  CStrings:  1381
++  CStrings:  2020
  
 Symbols:
 + +[PUWallpaperPosterEditorControllerAccessibility _accessibilityPerformValidations:]

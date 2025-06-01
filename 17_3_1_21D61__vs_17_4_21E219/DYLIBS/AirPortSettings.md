@@ -25,4 +25,13 @@
    __DATA.__data: 0x4
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1C56A3D3-165D-374D-940C-AD16D2961D1F
++  UUID: A4967A58-8E16-31CD-9BAC-3328E8EE01A0
+   Functions: 20
+   Symbols:   124
+   CStrings:  112
+
 ```

@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 818100AE-79E1-33F1-AAAB-2AA924780ECE
 -  Functions: 1446
 -  Symbols:   5326
--  CStrings:  2212
+-  CStrings:  2497
++  UUID: 03BDF0BD-55F7-3C4D-9A35-6D171B2DBAFB
 +  Functions: 1447
 +  Symbols:   5332
-+  CStrings:  2217
++  CStrings:  2503
  
 Symbols:
 + -[SYDocumentSenderAvatar _documentSenderHandle]

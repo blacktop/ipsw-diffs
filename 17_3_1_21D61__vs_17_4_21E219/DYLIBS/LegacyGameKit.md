@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/GameKitServices.framework/GameKitServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36A5BC2D-A1D2-30A8-BFFB-60ECC17C5A7C
 -  Functions: 182
 -  Symbols:   787
--  CStrings:  554
+-  CStrings:  669
++  UUID: E97FC443-E0E0-37D8-A3E1-3F759F1AC41F
 +  Functions: 75
 +  Symbols:   222
-+  CStrings:  149
++  CStrings:  150
  
 Symbols:
 + _OBJC_IVAR_$_GKContentView._activityIndicator
@@ -572,6 +574,9 @@ Symbols:
 CStrings:
 + "\x01"
 + "TQ,N,V_connectionTypesMask"
+- ""
+- "\x0e '"
+- "\x0e W"
 - "%@"
 - "%C"
 - "%{public}@"
@@ -621,6 +626,7 @@ CStrings:
 - "GKSessionInProgressError -- we had an invitation collision and have or will receive an invite."
 - "Got a session from delegate: %@"
 - "Invalid GKPeerPickerState"
+- "L"
 - "NO"
 - "Nearby"
 - "Not supported on this\n%@"
@@ -649,6 +655,7 @@ CStrings:
 - "Ti,N,V_state"
 - "Turn On"
 - "UITableView"
+- "W"
 - "WARNING: %s is obsoleted. Game Center doesn't invoke this obsoleted method from iOS/tvOS %@ and macOS %@ onwards"
 - "Would you like to turn on Bluetooth for '%@'"
 - "YES"

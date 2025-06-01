@@ -77,7 +77,6 @@
    __AUTH_CONST.__objc_intobj: 0xa68
    __AUTH_CONST.__objc_dictobj: 0x1478
    __AUTH_CONST.__objc_arrayobj: 0x528
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x8d0
 -  __AUTH.__objc_data: 0x15c8
 -  __AUTH.__data: 0x688
@@ -86,7 +85,6 @@
 -  __DATA.__objc_ivar: 0x628
 -  __DATA.__data: 0x530
 -  __DATA.__bss: 0xb60
-+  __AUTH_CONST.__auth_ptr: 0x60
 +  __AUTH_CONST.__auth_got: 0xb48
 +  __AUTH.__objc_data: 0x1840
 +  __AUTH.__data: 0x780
@@ -123,13 +121,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8FE99402-14B6-3561-A348-D732DDE40668
 -  Functions: 2877
 -  Symbols:   7862
--  CStrings:  3977
+-  CStrings:  4857
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 3BE016BB-71F1-3ACC-AB6D-CBB51C106AE1
 +  Functions: 3259
 +  Symbols:   8170
-+  CStrings:  4166
++  CStrings:  5056
  
 Symbols:
 + +[_ICQAppLaunchLink supportsSecureCoding]

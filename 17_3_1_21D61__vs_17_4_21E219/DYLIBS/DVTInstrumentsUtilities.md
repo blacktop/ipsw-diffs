@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: CB239FCA-4C5A-35D4-A3FA-A8ED13AC1E21
 -  Functions: 1146
++  UUID: 042D20EA-3E85-3063-95A8-9D186C3D0606
 +  Functions: 1142
    Symbols:   542
--  CStrings:  2542
-+  CStrings:  2543
+-  CStrings:  3557
++  CStrings:  3558
  
 CStrings:
 + "T@\"NSString\",?,R,C"

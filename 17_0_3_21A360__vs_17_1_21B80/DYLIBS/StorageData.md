@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39E36C5D-6CBA-37F7-BB3E-9EA090AAE8A9
 -  Functions: 722
 -  Symbols:   2925
--  CStrings:  1649
+-  CStrings:  2009
++  UUID: AB3B4AF5-8671-38C9-99D6-72FA2EFA0E94
 +  Functions: 723
 +  Symbols:   2929
-+  CStrings:  1652
++  CStrings:  2012
  
 Symbols:
 + -[STAppOverrides unInstalledName]

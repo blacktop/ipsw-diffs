@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_dictobj: 0x848
    __AUTH_CONST.__objc_arrayobj: 0x540
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x6a0
 -  __AUTH.__objc_data: 0x7c10
 -  __DATA.__objc_ivar: 0x2180
@@ -81,12 +80,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 899E46A0-7E6E-3E36-B18D-AF88FFDABBA2
 -  Functions: 12547
 -  Symbols:   40214
--  CStrings:  18631
+-  CStrings:  23176
++  UUID: BC973D4E-950D-3EB2-BCC9-101AC305F278
 +  Functions: 12840
 +  Symbols:   40968
-+  CStrings:  18956
++  CStrings:  23548
  
 Symbols:
 + +[HMAccessory(HMDoorbellChimeProfile) _doorbellProfilesForAccessoryProfiles:]

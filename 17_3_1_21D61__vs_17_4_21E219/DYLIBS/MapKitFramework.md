@@ -25,6 +25,15 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__bss: 0x51
    __DATA_DIRTY.__objc_data: 0x1a90
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B962186D-265D-3958-9622-6EEBA741F480
++  UUID: E411F88E-0840-3081-AEAA-DF4B87A4BF85
+   Functions: 357
+   Symbols:   1589
+   CStrings:  1060
 Symbols:
 + ___block_literal_global.241
 + ___block_literal_global.246

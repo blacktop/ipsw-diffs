@@ -28,11 +28,15 @@
    __DATA.__objc_ivar: 0x80
    __DATA.__objc_data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1154B3B-14F5-3293-8E20-195501C7C0EF
++  UUID: C88C24C0-874E-3553-9736-79ED8C7CD64A
    Functions: 162
    Symbols:   126
--  CStrings:  652
-+  CStrings:  653
+-  CStrings:  670
++  CStrings:  671
  
 CStrings:
 + "preferredBackgroundActivitiesToSuppress"

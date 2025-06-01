@@ -76,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 21792B61-BAD0-38E7-9CA9-F779AE72B2A9
 -  Functions: 337
 -  Symbols:   171
--  CStrings:  846
+-  CStrings:  943
++  UUID: 5BFD77DA-28B3-31C2-A893-80FCD7DE46E4
 +  Functions: 322
 +  Symbols:   155
-+  CStrings:  785
++  CStrings:  860
  
 Symbols:
 + _OBJC_CLASS_$_NDOAppleSupportManager
@@ -131,6 +133,7 @@ CStrings:
 - "Apple"
 - "Apple Support"
 - "DOWNLOAD"
+- "F"
 - "INSTALLED"
 - "Localizable"
 - "Lookup for %@ in the App Store failed with error %@"

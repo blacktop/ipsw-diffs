@@ -21,4 +21,13 @@
    __DATA.__bss: 0x8
    __DATA.__common: 0x8
 
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2B2EAEBB-1465-3199-BB3E-3DF781C6104C
++  UUID: 79424005-16A7-34B4-92C7-EE4C00CE2D57
+   Functions: 5
+   Symbols:   83
+   CStrings:  29
+
 ```

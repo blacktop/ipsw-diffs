@@ -38,13 +38,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A0283484-6ECB-3A63-828D-7EC3AB16B7BE
++  UUID: 5E988465-1487-3F67-A133-85DB9851BD11
    Functions: 53
 -  Symbols:   64
--  CStrings:  245
+-  CStrings:  274
 +  Symbols:   66
-+  CStrings:  246
++  CStrings:  275
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

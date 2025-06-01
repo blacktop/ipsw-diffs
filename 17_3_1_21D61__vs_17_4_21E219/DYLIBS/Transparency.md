@@ -46,7 +46,6 @@
 +  __AUTH_CONST.__cfstring: 0x2fe0
 +  __AUTH_CONST.__objc_const: 0x280
 +  __AUTH_CONST.__const: 0xb80
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__auth_got: 0x338
 -  __AUTH.__objc_data: 0x370
@@ -74,12 +73,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18DF6BE8-25C0-3B6B-9E74-57CC55482024
 -  Functions: 1417
 -  Symbols:   4874
--  CStrings:  1891
+-  CStrings:  2268
++  UUID: 67517D74-1A9B-3D66-A37B-F1589E372952
 +  Functions: 1420
 +  Symbols:   4894
-+  CStrings:  1908
++  CStrings:  2291
  
 Symbols:
 + -[KTIDStaticKeyStore updateContact:]

@@ -38,11 +38,15 @@
    __DATA.__objc_classrefs: 0x6a0
    __DATA.__objc_superrefs: 0x128
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B36C242B-4305-3640-AEE3-EB0D761C6792
++  UUID: 733DE2A3-3DD5-3CE1-AF15-205043D61C4D
    Functions: 1514
    Symbols:   936
--  CStrings:  3856
-+  CStrings:  3854
+-  CStrings:  4522
++  CStrings:  4520
  
 CStrings:
 + "\nApp Genre Cache:\n%@\n\nSearch Continuation Compatibility Cache:\n%@\n\nHidden Apps:\n%@\n\n"

@@ -46,11 +46,13 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B720E06-55D9-375B-8EC1-4C2E265384DA
 -  Functions: 150
++  UUID: CA6723AB-AD7B-3253-9FE5-1220F532D5DE
 +  Functions: 151
    Symbols:   126
--  CStrings:  393
-+  CStrings:  398
+-  CStrings:  421
++  CStrings:  427
  
 CStrings:
 + "Attempting to open Recovery Contact Review sheet from follow up"

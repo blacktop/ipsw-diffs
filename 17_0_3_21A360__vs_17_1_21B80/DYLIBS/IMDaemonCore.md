@@ -74,7 +74,6 @@
 +  __AUTH_CONST.__const: 0x41d0
    __AUTH_CONST.__objc_intobj: 0x678
    __AUTH_CONST.__objc_arrayobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1a58
 -  __AUTH.__objc_data: 0x1a08
@@ -102,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BF6B930A-D9F9-3B3F-9121-EA355AB5C49A
 -  Functions: 7414
 -  Symbols:   1997
--  CStrings:  15758
+-  CStrings:  19701
++  UUID: E766221D-74DF-3538-A8C0-B765FC6846E9
 +  Functions: 7452
 +  Symbols:   2029
-+  CStrings:  15871
++  CStrings:  19865
  
 Symbols:
 + _IMCloudKitDefinesSyncAfterAccountUpdateKey

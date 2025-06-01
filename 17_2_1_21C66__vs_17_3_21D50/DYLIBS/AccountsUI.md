@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 99B4EEEC-4062-38D0-A707-8AB57B12DD37
 -  Functions: 586
 -  Symbols:   2738
--  CStrings:  1592
+-  CStrings:  1845
++  UUID: 70D930A8-3A2B-350A-BDB9-0F8BAE60A46A
 +  Functions: 591
 +  Symbols:   2778
-+  CStrings:  1625
++  CStrings:  1885
  
 Symbols:
 + +[ACUIViewController guestUserModeContentUnavailableConfiguration:]

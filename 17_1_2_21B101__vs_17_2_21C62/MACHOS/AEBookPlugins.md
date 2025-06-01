@@ -123,12 +123,14 @@
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: DFD6B268-1841-3603-8DFB-66394DEA4EFE
 -  Functions: 9975
 -  Symbols:   22179
--  CStrings:  14157
+-  CStrings:  15534
++  UUID: 45FD67F4-D3C6-3878-B040-C4D8863269EE
 +  Functions: 9734
 +  Symbols:   2447
-+  CStrings:  14040
++  CStrings:  15350
  
 Symbols:
 + _BERestorationAssetAppearanceKey

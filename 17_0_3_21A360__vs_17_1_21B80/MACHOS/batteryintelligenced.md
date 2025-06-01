@@ -31,11 +31,13 @@
    - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD0D0494-D11A-3B09-B277-742ADCB12587
 -  Functions: 533
++  UUID: E22CB7FD-9F7F-39EE-BE7E-ACCB146EEB2F
 +  Functions: 531
    Symbols:   141
--  CStrings:  738
-+  CStrings:  739
+-  CStrings:  855
++  CStrings:  856
  
 CStrings:
 + "Computing the median values over the follow arrays NCCp:%@ WRa:%@ QMaxp%@"

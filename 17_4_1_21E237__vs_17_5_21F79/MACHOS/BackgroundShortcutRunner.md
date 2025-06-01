@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1F4290E9-65E3-364D-84F2-D4A7D35A2CF1
 -  Functions: 371
 -  Symbols:   317
--  CStrings:  1184
+-  CStrings:  1269
++  UUID: 78EE9D1C-75D1-36B6-80A4-E05A1D59E068
 +  Functions: 374
 +  Symbols:   319
-+  CStrings:  1201
++  CStrings:  1287
  
 Symbols:
 + _NSPOSIXErrorDomain

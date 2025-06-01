@@ -49,12 +49,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CDF2669B-41D0-3FEA-A5B0-BEA99666863D
 -  Functions: 4554
 -  Symbols:   13622
--  CStrings:  6793
+-  CStrings:  8045
++  UUID: 916839B9-09ED-3CE0-94C6-09DFB8F29B8B
 +  Functions: 4556
 +  Symbols:   13627
-+  CStrings:  6797
++  CStrings:  8049
  
 Symbols:
 + -[STSetUpForFamilyGroupSpecifierProvider controller]

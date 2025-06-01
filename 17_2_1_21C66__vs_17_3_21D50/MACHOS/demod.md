@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89A6529D-7D05-348E-9B92-D1CEC063F153
 -  Functions: 4964
 -  Symbols:   738
--  CStrings:  8988
+-  CStrings:  10530
++  UUID: E6E7B7B3-C6CE-3DEA-BB92-E0C3023E8388
 +  Functions: 4973
 +  Symbols:   740
-+  CStrings:  9012
++  CStrings:  10559
  
 Symbols:
 + _IOPMAssertionRelease

@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x500
    __DATA_CONST.__objc_catlist: 0x10
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A5124019-E235-3716-86C7-E75CF0163945
++  UUID: 371394CD-79F2-3216-ACB0-A159C09C668D
    Functions: 13529
 -  Symbols:   2553
 +  Symbols:   2554
-   CStrings:  9826
+   CStrings:  11840
  
 Symbols:
 + _SANDBOX_CHECK_POSIX_WRITEABLE

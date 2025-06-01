@@ -31,11 +31,15 @@
    __DATA.__objc_ivar: 0x228
    __DATA.__objc_data: 0x3c0
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07789417-33D2-3B31-A6E0-232B932C5AC4
++  UUID: E7FC8FC2-BB60-3BC9-B033-C38F4C7F3AF3
    Functions: 1156
    Symbols:   589
--  CStrings:  1494
-+  CStrings:  1497
+-  CStrings:  1551
++  CStrings:  1554
  
 CStrings:
 + "supportedAccessories:forProductGroup:isComplete:"

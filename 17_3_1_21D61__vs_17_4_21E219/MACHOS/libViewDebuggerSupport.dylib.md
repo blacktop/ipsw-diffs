@@ -36,8 +36,7 @@
    __AUTH_CONST.__objc_const: 0x1198
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x210
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x2d0
    __AUTH.__objc_data: 0xf0
 -  __DATA.__objc_classrefs: 0xf0
@@ -50,13 +49,16 @@
    - /System/Library/Frameworks/GLKit.framework/GLKit
    - /System/Library/Frameworks/ImageIO.framework/ImageIO
 
+   - /System/Library/PrivateFrameworks/DebugHierarchyFoundation.framework/DebugHierarchyFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 900D5CE3-1FBE-3762-9DE6-B90A44789625
++  UUID: EDCB687C-85B9-3951-A52A-9C9E8C650492
    Functions: 268
 -  Symbols:   1784
--  CStrings:  1175
+-  CStrings:  1906
 +  Symbols:   1783
-+  CStrings:  1177
++  CStrings:  1909
  
 Symbols:
 - _kUTTypePNG

@@ -24,6 +24,15 @@
    __TEXT.__eh_frame: 0x7c
    __DATA_CONST.__auth_got: 0x16c8
    __DATA_CONST.__got: 0x300
+
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 6B6CAF25-7359-36C1-9DEF-5EC13CF9736D
++  UUID: 4A27D5EE-03FB-38B7-92CF-F0D212C3FB56
+   Functions: 1737
+   Symbols:   4100
+   CStrings:  4664
 CStrings:
 + "mDNSResponder-2200.62.1"
 - "mDNSResponder-2200.40.37.0.1"

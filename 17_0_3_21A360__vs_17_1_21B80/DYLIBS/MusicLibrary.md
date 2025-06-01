@@ -49,7 +49,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xee0
 +  __AUTH_CONST.__const: 0x12030
    __AUTH_CONST.__objc_const: 0x5560
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__cfstring: 0x23860
 -  __AUTH_CONST.__objc_arrayobj: 0x1f50
 +  __AUTH_CONST.__cfstring: 0x23b40
@@ -83,12 +82,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BAC68FB8-FADE-3651-824E-3442C4C9F42F
 -  Functions: 7863
 -  Symbols:   24288
--  CStrings:  12008
+-  CStrings:  16555
++  UUID: 5F2DE2B3-4499-3468-A60A-0F8B69B719EE
 +  Functions: 7883
 +  Symbols:   24342
-+  CStrings:  12066
++  CStrings:  16636
  
 Symbols:
 + +[ML3ContainerItemDiffMetadata diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:uuid:positionUUD:]

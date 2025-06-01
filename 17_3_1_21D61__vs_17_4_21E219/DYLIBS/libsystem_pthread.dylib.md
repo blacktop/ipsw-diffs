@@ -32,9 +32,11 @@
 +  - /usr/lib/system/libmacho.dylib
    - /usr/lib/system/libsystem_kernel.dylib
    - /usr/lib/system/libsystem_platform.dylib
+-  UUID: 8F9C865B-29F5-346B-ADD5-FDE40E008C66
 -  Functions: 325
 -  Symbols:   567
 -  CStrings:  56
++  UUID: 524D87C4-EA5D-38A0-9E9A-17369B9B8724
 +  Functions: 339
 +  Symbols:   594
 +  CStrings:  65

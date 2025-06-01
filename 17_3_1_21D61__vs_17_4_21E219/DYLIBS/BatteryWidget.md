@@ -25,6 +25,15 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CACAF985-50D1-35F0-87A3-9655DB2FDA67
++  UUID: 92F6ED87-C9AD-3D1B-AC6C-4CC9F0746C29
+   Functions: 16
+   Symbols:   112
+   CStrings:  78
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.243

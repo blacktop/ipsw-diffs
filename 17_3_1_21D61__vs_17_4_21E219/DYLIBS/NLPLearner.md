@@ -50,12 +50,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BD84616-B7CD-383E-BCB4-A6FEA48E7EED
 -  Functions: 331
 -  Symbols:   1464
--  CStrings:  687
+-  CStrings:  786
++  UUID: 37173442-3591-3F7B-8CC8-4F324F6C62B1
 +  Functions: 333
 +  Symbols:   1471
-+  CStrings:  688
++  CStrings:  787
  
 Symbols:
 + GCC_except_table50

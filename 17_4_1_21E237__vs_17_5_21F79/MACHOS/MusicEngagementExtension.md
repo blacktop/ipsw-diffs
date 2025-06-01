@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 63B0AA52-5338-39DB-B48C-A45EF362C698
 -  Functions: 23943
 -  Symbols:   150560
--  CStrings:  3919
+-  CStrings:  3925
++  UUID: B8315502-FD16-3BDB-89EF-692ED0480EF6
 +  Functions: 23975
 +  Symbols:   150727
-+  CStrings:  3925
++  CStrings:  3931
  
 Symbols:
 + $s9MusicCore6PlayerC14CommandOptionsV14extendedStatusSbvM.resume.0

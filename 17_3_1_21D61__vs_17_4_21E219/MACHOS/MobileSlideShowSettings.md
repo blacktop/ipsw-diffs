@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E6E94A4-D3AD-3B88-8241-8B55DAF164C4
 -  Functions: 303
 -  Symbols:   302
--  CStrings:  1084
+-  CStrings:  1318
++  UUID: 8BBBA143-47A9-3260-B851-4D99EC2E39F9
 +  Functions: 305
 +  Symbols:   303
-+  CStrings:  1093
++  CStrings:  1331
  
 Symbols:
 + _PLPreferencesGetLog

@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7E3E3C4E-8132-3715-8672-7B7ABB620193
 -  Functions: 1695
 -  Symbols:   219
--  CStrings:  338
+-  CStrings:  342
++  UUID: 642B3D0F-570B-33E7-A4CD-5E7BAE9FBFD2
 +  Functions: 1703
 +  Symbols:   220
-+  CStrings:  340
++  CStrings:  344
  
 Symbols:
 + _OBJC_CLASS_$__TtC18PodcastsFoundation18SyncKeysRepository

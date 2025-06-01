@@ -17,7 +17,11 @@
    __TEXT.__objc_stubs: 0x40
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4135956F-6967-3279-8F32-F87015BD6A49
++  UUID: 73020BDF-5386-3BCF-BE4B-204D160EBE1E
    Functions: 1
    Symbols:   8
 -  CStrings:  60

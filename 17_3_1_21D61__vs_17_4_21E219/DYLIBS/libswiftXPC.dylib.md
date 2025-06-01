@@ -41,9 +41,6 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x1220
 -  __AUTH_CONST.__const: 0x18c0
-+  __DATA_CONST.__objc_protorefs: 0x10
-+  __AUTH_CONST.__const: 0x1960
-   __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0x788
 -  __DATA.__objc_protorefs: 0x10
 -  __DATA.__data: 0x520
@@ -51,6 +48,8 @@
 -  __DATA.__bss: 0x1980
 -  __DATA_DIRTY.__const: 0x12e0
 -  __DATA_DIRTY.__data: 0x1060
++  __DATA_CONST.__objc_protorefs: 0x10
++  __AUTH_CONST.__const: 0x1960
 +  __AUTH_CONST.__auth_got: 0x808
 +  __DATA.__data: 0x2f0
 +  __DATA.__bss: 0x1680
@@ -64,9 +63,11 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: FFC3F798-5D82-36C6-9A0C-3BC1FCE2408F
 -  Functions: 1548
 -  Symbols:   4393
 -  CStrings:  118
++  UUID: FCF9590E-3E71-332E-ACB3-870F6FAE3D18
 +  Functions: 1551
 +  Symbols:   4364
 +  CStrings:  135

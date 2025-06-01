@@ -1,0 +1,22 @@
+## StickyKeys
+
+> `/System/Library/AccessibilityBundles/StickyKeys.axuiservice/StickyKeys`
+
+```diff
+
+-3093.23.0.0.0
++3093.32.1.2.0
+   __TEXT.__text: 0x1e74
+   __TEXT.__auth_stubs: 0x260
+   __TEXT.__objc_stubs: 0xaa0
+
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0C5AC395-7C80-34C8-8FB3-696F936F8331
++  UUID: 8E7B35B8-5C51-325E-90AE-3DC96E9F76C4
+   Functions: 42
+   Symbols:   75
+   CStrings:  205
+
+```

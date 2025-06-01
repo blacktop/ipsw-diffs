@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: EDAB2DFE-0826-3DD2-80B4-5681D1AC303B
 -  Functions: 1617
 -  Symbols:   5909
--  CStrings:  2777
+-  CStrings:  3138
++  UUID: 9961C106-C467-34B1-AB91-8B6D0E1B753B
 +  Functions: 1604
 +  Symbols:   5894
-+  CStrings:  2788
++  CStrings:  3149
  
 Symbols:
 + +[HKNotificationInstruction(Medications) instructionExpirationDateForDate:]

@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6596E518-C309-3A14-BC7E-55AF72774FDF
 -  Functions: 39
++  UUID: 5D885CF2-3BAC-3010-836B-9BA74BD1E309
 +  Functions: 41
    Symbols:   76
--  CStrings:  431
-+  CStrings:  433
+-  CStrings:  746
++  CStrings:  749
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

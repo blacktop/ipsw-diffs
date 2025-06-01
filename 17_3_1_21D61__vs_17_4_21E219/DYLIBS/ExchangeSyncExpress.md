@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0765961E-748B-3C8B-99CB-9E5BF94897D0
 -  Functions: 188
 -  Symbols:   887
--  CStrings:  391
+-  CStrings:  412
++  UUID: 181F7A00-9648-3C29-BFDA-8CAA8C988944
 +  Functions: 190
 +  Symbols:   893
-+  CStrings:  392
++  CStrings:  413
  
 Symbols:
 + -[ESDConnection _hasConnectionForExchange]

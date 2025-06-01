@@ -35,20 +35,22 @@
    __AUTH_CONST.__objc_intobj: 0x2b8
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x4580
 +  __AUTH_CONST.__auth_got: 0x4590
    __AUTH.__objc_data: 0x2490
    __AUTH.__data: 0xe8
    __DATA.__objc_ivar: 0x498
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 632D34F6-A6AB-342F-A5AE-D7068136AA62
++  UUID: B7D094A1-13B0-3ED5-8D3F-90DDFA2C4B37
    Functions: 7096
 -  Symbols:   22677
--  CStrings:  7379
+-  CStrings:  9074
 +  Symbols:   22679
-+  CStrings:  7391
++  CStrings:  9098
  
 Symbols:
 + __ZN15WebBlobRegistry8blobTypeERKN3WTF3URLE

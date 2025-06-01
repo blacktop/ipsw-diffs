@@ -47,12 +47,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB5CF01E-2212-36DB-998B-CBCEA4403E35
 -  Functions: 7607
 -  Symbols:   24063
--  CStrings:  11320
+-  CStrings:  13092
++  UUID: FCAA70AD-655E-38C4-92C2-F35D44718893
 +  Functions: 7610
 +  Symbols:   24071
-+  CStrings:  11322
++  CStrings:  13095
  
 Symbols:
 + +[TUCaption combinedStringFromCaptions:]
@@ -63,7 +65,6 @@ Symbols:
 + _objc_msgSend$displayNameUsingContactsDataSource:
 - GCC_except_table170
 CStrings:
-+ " "
 + "Invalidate link: %@"
 + "combinedStringFromCaptions:"
 + "displayNameUsingContactsDataSource:"

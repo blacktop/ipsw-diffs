@@ -69,12 +69,10 @@
    __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x1ec48
--  __AUTH_CONST.__auth_ptr: 0xb38
 -  __AUTH_CONST.__auth_got: 0x4298
 -  __AUTH.__objc_data: 0x3540
 -  __AUTH.__data: 0x7650
 +  __AUTH_CONST.__const: 0x1e400
-+  __AUTH_CONST.__auth_ptr: 0xb70
 +  __AUTH_CONST.__auth_got: 0x43c8
 +  __AUTH.__objc_data: 0x37d8
 +  __AUTH.__data: 0x7b70
@@ -112,11 +110,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F7B60AC8-D051-36F8-BD30-AE11A13A2509
 -  Functions: 20058
++  UUID: 2356D2D1-771D-36C4-BEBC-60ADC6C794DE
 +  Functions: 20039
    Symbols:   8255
--  CStrings:  5721
-+  CStrings:  5784
+-  CStrings:  5800
++  CStrings:  5863
  
 Symbols:
 + _OBJC_CLASS_$_FCChannelPaywallConfig

@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A9AA54D-608F-3A5D-AC92-CD2010179A9B
 -  Functions: 325
 -  Symbols:   1504
--  CStrings:  895
+-  CStrings:  951
++  UUID: A447B764-80C9-3F83-8BBA-553C17D9F98A
 +  Functions: 328
 +  Symbols:   1518
-+  CStrings:  904
++  CStrings:  960
  
 Symbols:
 + -[_UIKeyboardArbiterClientHandle activeProcessResign]

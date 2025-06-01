@@ -41,6 +41,7 @@
 +  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F141E69B-FBC3-3D37-8879-C5798E0555A8
 -  Functions: 1
 -  Symbols:   5
 -  CStrings:  0
@@ -56,6 +57,7 @@
 +  - /usr/lib/swift/libswiftQuartzCore.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: BC06D45F-5DAD-3DB4-8A46-F8690A162B2E
 +  Functions: 22
 +  Symbols:   58
 +  CStrings:  61

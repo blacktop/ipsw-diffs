@@ -48,9 +48,8 @@
    __AUTH_CONST.__objc_intobj: 0x210
    __AUTH_CONST.__objc_const: 0x438
 -  __AUTH_CONST.__const: 0x16d0
-+  __AUTH_CONST.__const: 0x16b0
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__objc_dictobj: 0x78
++  __AUTH_CONST.__const: 0x16b0
 +  __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x1c8
    __AUTH_CONST.__auth_got: 0xb58
@@ -66,12 +65,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ADBF19AC-0B69-308B-A532-CEF2E378C9C0
 -  Functions: 1633
 -  Symbols:   5260
--  CStrings:  1685
+-  CStrings:  2740
++  UUID: 1DD73451-84F0-3FB1-8DBE-BE30C5634F41
 +  Functions: 1643
 +  Symbols:   5294
-+  CStrings:  1692
++  CStrings:  2748
  
 Symbols:
 + -[SystemListener currentFirstWeekDay]

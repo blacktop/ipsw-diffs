@@ -50,12 +50,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 209F6727-4779-3EC0-8104-AA7544AA0F8B
 -  Functions: 738
 -  Symbols:   319
--  CStrings:  1359
+-  CStrings:  1661
++  UUID: AFD65258-4E37-3FF1-A275-DE424CC878FB
 +  Functions: 739
 +  Symbols:   322
-+  CStrings:  1364
++  CStrings:  1670
  
 Symbols:
 + _kANEFCompilationInitiatedByE5MLKey

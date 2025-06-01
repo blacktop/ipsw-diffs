@@ -31,12 +31,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 4DD6C09D-5B52-30D6-A281-513D86514DD4
 -  Functions: 52
 -  Symbols:   82
 -  CStrings:  29
++  UUID: 5BED3BCE-3173-3919-A990-9A419765FFF4
 +  Functions: 60
 +  Symbols:   90
-+  CStrings:  53
++  CStrings:  54
  
 Symbols:
 + _CFDataGetBytes

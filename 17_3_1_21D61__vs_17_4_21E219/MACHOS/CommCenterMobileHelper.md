@@ -69,12 +69,14 @@
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AD9B39E6-2D5F-3E8C-BB26-EC3A43DADF86
 -  Functions: 1957
 -  Symbols:   513
--  CStrings:  1330
+-  CStrings:  1798
++  UUID: 335DFABD-3818-3937-A6BD-D72B0CF86F7B
 +  Functions: 1966
 +  Symbols:   532
-+  CStrings:  1360
++  CStrings:  1830
  
 Symbols:
 + __Z8asStringP8NSObject

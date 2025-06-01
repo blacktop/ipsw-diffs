@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2D0DDC3-DB2B-37FC-ADD0-F3FC423E1709
 -  Functions: 1101
 -  Symbols:   4401
--  CStrings:  2287
+-  CStrings:  2580
++  UUID: 926A5D2B-F3D2-39A6-8834-2C247BB2BADC
 +  Functions: 1106
 +  Symbols:   4417
-+  CStrings:  2294
++  CStrings:  2587
  
 Symbols:
 + -[MCUIListController _mainQueue_setManagedSignInButtonEnabled:]

@@ -46,12 +46,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32A63736-6425-3CB7-86C3-3BFB34355A62
 -  Functions: 364
 -  Symbols:   2266
--  CStrings:  433
+-  CStrings:  556
++  UUID: FAF4FC1B-20B3-3059-8721-8E52E773465A
 +  Functions: 360
 +  Symbols:   2252
-+  CStrings:  430
++  CStrings:  554
  
 Symbols:
 + _ACCUserDefaultsKey_DisableAuthTimeoutTTRForXR

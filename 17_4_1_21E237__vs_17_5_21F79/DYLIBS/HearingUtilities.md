@@ -32,6 +32,15 @@
    __DATA_DIRTY.__objc_data: 0x230
    __DATA_DIRTY.__bss: 0x130
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DB4FDB47-9AE4-3B30-BC1E-6B946C8F49E5
++  UUID: 1118A8C1-7174-3F85-B837-2D70559CB5FD
+   Functions: 2680
+   Symbols:   8932
+   CStrings:  5353
 CStrings:
 + "Update state to Transitioning, BT is Off"
 - "Update state to Searching, BT is Off"

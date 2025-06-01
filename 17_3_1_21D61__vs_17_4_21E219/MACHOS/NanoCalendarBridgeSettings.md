@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x180
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 9D0F9805-43A4-380C-A93A-25DE0898E045
++  UUID: EA5A93C4-4E23-3788-8D08-3AB701DA892B
    Functions: 155
    Symbols:   183
--  CStrings:  477
-+  CStrings:  478
+-  CStrings:  545
++  CStrings:  546
  
 CStrings:
 + "==> alerts_ttl [Feb 16 2024 23:43:03]"

@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 841BF564-322E-321B-8938-0FFDCFCA2EFA
 -  Functions: 860
 -  Symbols:   327
--  CStrings:  550
+-  CStrings:  594
++  UUID: 6EEA93BD-AD70-3BDC-9335-24ACD9392D7A
 +  Functions: 863
 +  Symbols:   328
-+  CStrings:  556
++  CStrings:  600
  
 Symbols:
 + _CMTimeMapTimeFromRangeToRange

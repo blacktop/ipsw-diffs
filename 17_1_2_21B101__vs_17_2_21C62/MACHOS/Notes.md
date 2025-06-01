@@ -25,11 +25,15 @@
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x188
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A38E191-07A9-3C06-B9A6-84C47F0B9562
++  UUID: 97F2651C-6B3A-379E-925D-C0AA477879E8
    Functions: 292
    Symbols:   150
--  CStrings:  1037
-+  CStrings:  1039
+-  CStrings:  1084
++  CStrings:  1086
  
 CStrings:
 + "T@\"NSString\",R,N"

@@ -60,12 +60,10 @@
    __AUTH_CONST.__objc_intobj: 0xc48
 -  __AUTH_CONST.__objc_arrayobj: 0x888
    __AUTH_CONST.__objc_doubleobj: 0x50
--  __AUTH_CONST.__objc_dictobj: 0x370
 +  __AUTH_CONST.__objc_arrayobj: 0x888
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x370
 -  __AUTH_CONST.__auth_got: 0xa38
 -  __AUTH.__objc_data: 0x48d0
-+  __AUTH_CONST.__objc_dictobj: 0x370
 +  __AUTH_CONST.__auth_got: 0xa40
 +  __AUTH.__objc_data: 0x4920
    __AUTH.__data: 0x70
@@ -98,12 +96,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5A9C15A5-CBCF-3E95-BACD-F4B6C9B2AB86
 -  Functions: 7533
 -  Symbols:   27010
--  CStrings:  11762
+-  CStrings:  14750
++  UUID: 72C43668-A876-348A-910F-3194B3C9F4B3
 +  Functions: 7534
 +  Symbols:   27025
-+  CStrings:  11760
++  CStrings:  14712
  
 Symbols:
 + +[WBSSchemaDataExtractor fetchDataFromWebView:completion:]

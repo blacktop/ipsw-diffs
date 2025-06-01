@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 55039FAE-315A-3980-B75A-5BFFB34634CA
 -  Functions: 2519
 -  Symbols:   8577
--  CStrings:  4358
+-  CStrings:  4842
++  UUID: 4F61F86C-B19D-3339-B09F-5470322C0EFD
 +  Functions: 2527
 +  Symbols:   8599
-+  CStrings:  4378
++  CStrings:  4862
  
 Symbols:
 + -[MSPSharedTripCapabilityLevelFetcher _fetchQueuesDidUpdate]

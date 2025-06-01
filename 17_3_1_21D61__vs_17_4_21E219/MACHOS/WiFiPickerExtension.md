@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26E7455A-93ED-3561-84B7-39B49D5D385D
++  UUID: E7DB9027-4917-369C-9BE5-6DC85762AB3F
    Functions: 22
    Symbols:   58
--  CStrings:  144
-+  CStrings:  145
+-  CStrings:  145
++  CStrings:  146
  
 CStrings:
 + "T@\"NSString\",?,R,C"

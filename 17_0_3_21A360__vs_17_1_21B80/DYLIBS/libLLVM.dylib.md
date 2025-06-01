@@ -23,10 +23,8 @@
    __DATA_CONST.__got: 0x148
 -  __DATA_CONST.__const: 0x19e6b8
 -  __AUTH_CONST.__const: 0x61ad0
--  __AUTH_CONST.__auth_ptr: 0x228
 +  __DATA_CONST.__const: 0x1a1ed0
 +  __AUTH_CONST.__const: 0x629b0
-+  __AUTH_CONST.__auth_ptr: 0x218
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__auth_got: 0x9c8
 +  __AUTH_CONST.__auth_got: 0x9d8
@@ -54,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
+-  UUID: 798E729A-2A1C-3FCC-976C-E4B2A86723CB
 -  Functions: 80345
 -  Symbols:   21527
--  CStrings:  42733
+-  CStrings:  42734
++  UUID: 7C84BED3-B513-3944-90BA-BDFDED340357
 +  Functions: 82300
 +  Symbols:   21521
-+  CStrings:  42429
++  CStrings:  42430
  
 Symbols:
 + __ZN4llvm5MachO25getImplementationsForArchENS0_12ArchitectureE

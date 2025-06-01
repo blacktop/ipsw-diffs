@@ -74,11 +74,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x130
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xcf0
 -  __AUTH.__objc_data: 0x29a8
 -  __AUTH.__data: 0x1e0
-+  __AUTH_CONST.__auth_ptr: 0x58
 +  __AUTH_CONST.__auth_got: 0xd88
 +  __AUTH.__objc_data: 0x2b60
 +  __AUTH.__data: 0x208
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24FFB8DD-4BEF-387B-94ED-2C6DF3D8DAC9
 -  Functions: 5643
 -  Symbols:   20489
--  CStrings:  8442
+-  CStrings:  8823
++  UUID: 73CC1693-1ABE-3B86-BE51-D3F371971020
 +  Functions: 5711
 +  Symbols:   20522
-+  CStrings:  8419
++  CStrings:  8809
  
 Symbols:
 + +[SearchUI rowViewsForResults:feedbackDelegate:].cold.1

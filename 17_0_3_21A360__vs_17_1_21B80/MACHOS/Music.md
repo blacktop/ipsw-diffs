@@ -41,8 +41,10 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MusicApplication.framework/MusicApplication
+-  UUID: 544A62F7-E69D-3E4B-9BAC-BCD85AFB8A2B
 -  Functions: 152
 -  Symbols:   270
++  UUID: C4FE95E3-AAD5-3E94-8450-62379DB07CCF
 +  Functions: 153
 +  Symbols:   272
    CStrings:  182

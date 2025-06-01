@@ -32,11 +32,15 @@
    __DATA.__objc_classrefs: 0x60
    __DATA.__objc_superrefs: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 783E2A20-3E44-3356-BA48-34B2A8E807EA
++  UUID: ED6A24C1-31B6-3788-930A-E9BA5B23D975
    Functions: 170
    Symbols:   1496
--  CStrings:  401
-+  CStrings:  402
+-  CStrings:  547
++  CStrings:  548
  
 Symbols:
 + __23-[IOAnalytics lazyInit]_block_invoke.11

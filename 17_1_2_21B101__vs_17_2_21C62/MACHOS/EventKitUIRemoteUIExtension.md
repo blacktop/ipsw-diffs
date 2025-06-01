@@ -30,7 +30,11 @@
    __DATA.__objc_classrefs: 0xe8
    __DATA.__objc_data: 0x7f8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6554CFB0-FCBB-3134-8347-1DDFCF47883F
++  UUID: 0C2BD310-077F-30A0-B9EA-8E3841D4A19F
    Functions: 751
    Symbols:   155
 -  CStrings:  581

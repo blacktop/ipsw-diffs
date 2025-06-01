@@ -20,11 +20,15 @@
    __TEXT.__ustring: 0x512
    __TEXT.__unwind_info: 0x11080
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A231474D-6A7B-3AAD-9F14-FFCE0C3C793F
++  UUID: D9CF602F-A4D3-3763-8B33-07FE75745BD5
    Functions: 30767
    Symbols:   87787
--  CStrings:  28487
-+  CStrings:  28489
+-  CStrings:  36913
++  CStrings:  36915
  
 CStrings:
 + "%s Failed to retrieve file path for image: %@"

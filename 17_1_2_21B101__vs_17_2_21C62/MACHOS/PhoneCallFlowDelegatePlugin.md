@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BF3BE6F6-431E-3436-92D9-F57A4E7952DE
 -  Functions: 40260
 -  Symbols:   240117
++  UUID: 39704317-DE4C-31EA-9E83-D01E5BA5B53C
 +  Functions: 40286
 +  Symbols:   240203
-   CStrings:  3751
+   CStrings:  3802
  
 Symbols:
 + $s27PhoneCallFlowDelegatePlugin05StartB39UnsupportedDeviceFaceTimeLinkParametersV30launchAppPunchOutLocalizedText16SiriDialogEngine15SpeakableStringVSgvM.resume.0

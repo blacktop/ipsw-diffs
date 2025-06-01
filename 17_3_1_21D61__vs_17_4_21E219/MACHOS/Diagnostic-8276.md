@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ADD2199C-F840-3A11-885F-31931E819C47
 -  Functions: 359
 -  Symbols:   450
--  CStrings:  1162
+-  CStrings:  1538
++  UUID: 77186352-8BF2-349A-9190-5D5A0BC91487
 +  Functions: 361
 +  Symbols:   448
-+  CStrings:  1166
++  CStrings:  1542
  
 Symbols:
 - _OBJC_CLASS_$_NSConstantArray

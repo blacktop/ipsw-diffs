@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DFC8743-7B41-360E-B94D-B21ABB09A705
 -  Functions: 905
 -  Symbols:   3476
--  CStrings:  1812
+-  CStrings:  1866
++  UUID: B3C671AD-1574-32D2-BCD2-54FB6DEEE3A0
 +  Functions: 907
 +  Symbols:   3481
-+  CStrings:  1814
++  CStrings:  1868
  
 Symbols:
 + -[SiriSharedUIContentPlatterScrollView isInAmbientInteractivity]

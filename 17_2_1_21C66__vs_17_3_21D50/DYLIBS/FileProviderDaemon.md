@@ -40,13 +40,16 @@
    __AUTH_CONST.__cfstring: 0x4c20
    __AUTH_CONST.__const: 0x9a0
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
+-  UUID: DCD8C7D4-EC87-3E80-808A-076E9089EF63
++  UUID: 4010A1A3-DD2C-336B-9970-87A0D1F35591
    Functions: 3815
 -  Symbols:   12077
--  CStrings:  5238
+-  CStrings:  5847
 +  Symbols:   12079
-+  CStrings:  5240
++  CStrings:  5849
  
 Symbols:
 + -[FPDExtensionManager domainFromItemID:checkInvalidation:reason:]

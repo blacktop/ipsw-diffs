@@ -30,11 +30,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9027686E-8143-304F-B787-FF1892DE72BA
 -  Functions: 348
++  UUID: DE61EF78-C260-3946-99D7-FC555FF424AD
 +  Functions: 346
    Symbols:   271
--  CStrings:  1052
-+  CStrings:  1054
+-  CStrings:  1204
++  CStrings:  1206
  
 CStrings:
 + "=pc= +canOpenWhenLocked: Invalid protection class: %d"

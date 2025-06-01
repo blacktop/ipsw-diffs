@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 801C1374-1988-389E-9CD7-6AD3FA86532B
 -  Functions: 5108
 -  Symbols:   1032
--  CStrings:  7287
+-  CStrings:  8070
++  UUID: 370FC91E-1C9F-3A97-9920-A59538344198
 +  Functions: 5116
 +  Symbols:   1033
-+  CStrings:  7311
++  CStrings:  8093
  
 Symbols:
 + _OBJC_CLASS_$_TUCall

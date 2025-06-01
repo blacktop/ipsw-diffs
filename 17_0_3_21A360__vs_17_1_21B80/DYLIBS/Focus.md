@@ -21,12 +21,15 @@
    __TEXT.__objc_methname: 0x1dae
    __TEXT.__objc_methtype: 0x511
 
+   - /System/Library/PrivateFrameworks/DoNotDisturbKit.framework/DoNotDisturbKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91A62574-637F-34AF-BB5C-2036E3AD7BF8
++  UUID: 0D7574BB-3BAB-3B1C-B9BA-2112BD7EE717
    Functions: 188
 -  Symbols:   802
 +  Symbols:   803
-   CStrings:  443
+   CStrings:  475
  
 Symbols:
 + GCC_except_table37

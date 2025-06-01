@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MomentsUIServiceCore.framework/MomentsUIServiceCore
+-  UUID: E0B8DBF7-7DDD-3D2C-AF71-7EFB5B0BAD4F
 -  Functions: 9207
 -  Symbols:   56561
--  CStrings:  3490
+-  CStrings:  3588
++  UUID: 902EB182-FDDB-3111-A87A-2B6DD15C27E5
 +  Functions: 9292
 +  Symbols:   57210
-+  CStrings:  3549
++  CStrings:  3675
  
 Symbols:
 + $s16MomentsUIService23MONotificationAnalyticsC27NotificationEngagementEventV18notificationBundleSo07MOEventI0CSgvM.resume.0

@@ -49,10 +49,8 @@
 +  __AUTH_CONST.__objc_const: 0x4f8
    __AUTH_CONST.__const: 0x280
    __AUTH_CONST.__objc_intobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__auth_got: 0x9c0
 -  __AUTH.__objc_data: 0x190
-+  __AUTH_CONST.__auth_ptr: 0xe8
 +  __AUTH_CONST.__auth_got: 0x998
 +  __AUTH.__objc_data: 0x1e0
    __AUTH.__data: 0x10
@@ -78,12 +76,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A4F17824-B311-3C5E-93DD-22DEE8100A28
 -  Functions: 1416
 -  Symbols:   3856
--  CStrings:  1632
+-  CStrings:  1763
++  UUID: 5173D757-FABC-32DE-A05F-01FED0507911
 +  Functions: 1514
 +  Symbols:   4120
-+  CStrings:  1834
++  CStrings:  1967
  
 Symbols:
 + +[GEOVLFCrowdsourcingDetails(VisualLocalizationExtras) _vl_createWithVLCrowdsourcingDetails:]

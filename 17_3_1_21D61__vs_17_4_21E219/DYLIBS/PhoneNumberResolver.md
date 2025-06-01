@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x40
    __DATA.__data: 0x8
    __DATA_DIRTY.__objc_data: 0x1e0
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D02078E1-6695-31EE-B05A-6B9B6196568F
++  UUID: 8D803682-6BDE-3A49-B79B-9A1143F62850
+   Functions: 115
+   Symbols:   591
+   CStrings:  399
 Symbols:
 + __unnamed_array_storage.260
 + __unnamed_array_storage.363

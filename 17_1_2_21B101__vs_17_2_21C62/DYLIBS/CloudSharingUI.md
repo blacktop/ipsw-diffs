@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x788
    __TEXT.__objc_stubs: 0xbe0
    __DATA_CONST.__got: 0x390
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 53BF60F9-4DE3-3693-B26B-39AE9FA49027
++  UUID: CFC73DDC-30BF-31D5-B500-A449A22831BF
+   Functions: 1273
+   Symbols:   959
+   CStrings:  457
 CStrings:
 + "normalizedAddress"
 - "address"

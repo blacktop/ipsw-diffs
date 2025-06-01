@@ -39,13 +39,16 @@
    __DATA.__objc_data: 0x4b0
    __DATA.__data: 0x3c0
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 42BBE460-76E3-3FE2-BF5E-8F8608980556
++  UUID: 371EBE3F-7DDE-39DE-8D76-62240CB33DD6
    Functions: 384
 -  Symbols:   228
--  CStrings:  1100
+-  CStrings:  1242
 +  Symbols:   229
-+  CStrings:  1102
++  CStrings:  1244
  
 Symbols:
 + _ML3ProcessHandleFromPID

@@ -42,8 +42,8 @@
 -  __AUTH_CONST.__const: 0x43688
 +  __AUTH_CONST.__const: 0x437c0
    __AUTH_CONST.__cfstring: 0x34e0
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_intobj: 0x150
+   __AUTH_CONST.__objc_arrayobj: 0x78
 
    __AUTH_CONST.__auth_got: 0x1988
    __AUTH.__objc_data: 0x2440
@@ -65,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7EA6C33F-DF85-38A2-A26B-AA44FB6AFC83
 -  Functions: 39687
 -  Symbols:   106330
--  CStrings:  20844
+-  CStrings:  21267
++  UUID: 19E57FA3-0715-3BDE-9C6E-19CFFFA6547B
 +  Functions: 39697
 +  Symbols:   106362
-+  CStrings:  20860
++  CStrings:  21283
  
 Symbols:
 + -[_EARNLTokenizer replacePunctuation]

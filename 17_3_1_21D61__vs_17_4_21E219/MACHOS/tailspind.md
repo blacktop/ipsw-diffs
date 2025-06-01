@@ -46,12 +46,14 @@
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 62CE5F80-92B7-321F-8EBF-4F78D2A3FA48
 -  Functions: 168
 -  Symbols:   251
--  CStrings:  283
+-  CStrings:  308
++  UUID: 5E3E1B1A-36E4-3233-BF92-C3D33EAE20B1
 +  Functions: 176
 +  Symbols:   259
-+  CStrings:  305
++  CStrings:  339
  
 Symbols:
 + _TSPDumpOptions_CollectTrials

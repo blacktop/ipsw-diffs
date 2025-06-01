@@ -22,9 +22,9 @@
    __TEXT.__objc_classname: 0x8bc
    __TEXT.__objc_methname: 0xa436
 
+   __DATA_CONST.__objc_classrefs: 0x518
    __DATA_CONST.__objc_superrefs: 0x188
    __DATA_CONST.__objc_arraydata: 0xe8
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0xcf08
 +  __AUTH_CONST.__const: 0xcaa8
    __AUTH_CONST.__cfstring: 0x2e40
@@ -49,11 +49,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C606B3D2-D66E-3347-9B89-6C28A9152F1A
++  UUID: A7682326-01DF-3FB7-AD4C-6F7158EEE15E
    Functions: 1627
    Symbols:   5737
--  CStrings:  3087
-+  CStrings:  3090
+-  CStrings:  3457
++  CStrings:  3460
  
 Symbols:
 + ___34-[ATIDSService _scheduleReconnect]_block_invoke.66

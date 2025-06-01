@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9535046B-45CC-33A9-A501-860FC5F1CFE0
 -  Functions: 26010
 -  Symbols:   2815
--  CStrings:  11572
+-  CStrings:  12183
++  UUID: 3A283415-2D9D-31E6-824C-F279BCC6F22A
 +  Functions: 26012
 +  Symbols:   2816
-+  CStrings:  11577
++  CStrings:  12188
  
 Symbols:
 + _MGCopyAnswer

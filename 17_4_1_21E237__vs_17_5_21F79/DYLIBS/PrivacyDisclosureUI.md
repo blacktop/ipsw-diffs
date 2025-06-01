@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 81DC4AEA-E2A3-30FE-8DB4-C03E59CCD7CA
 -  Functions: 93
 -  Symbols:   573
--  CStrings:  495
+-  CStrings:  558
++  UUID: 3D71A49C-4EFB-389D-BEB4-8A23E80624E1
 +  Functions: 100
 +  Symbols:   613
-+  CStrings:  520
++  CStrings:  583
  
 Symbols:
 + -[PDUWelcomeViewController_iOS _updateContinueButtonConfiguration]

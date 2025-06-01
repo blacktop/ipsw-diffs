@@ -37,11 +37,15 @@
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AACDF9FA-02CA-39E4-BDA3-737DBAF1FF41
++  UUID: DCE8E2ED-ECDA-3BA5-ABDA-EAA4620F8F1D
    Functions: 74
    Symbols:   317
--  CStrings:  172
-+  CStrings:  173
+-  CStrings:  181
++  CStrings:  182
  
 Symbols:
 + ___37-[AccessoryHIDClient connectToServer]_block_invoke.76

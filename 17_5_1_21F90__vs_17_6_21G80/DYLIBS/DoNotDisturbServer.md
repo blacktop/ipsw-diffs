@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B125E9D-B9AC-3D95-ACDB-A4A62D303247
 -  Functions: 3675
 -  Symbols:   13936
++  UUID: 1C54DE1D-338D-3F83-8A5C-CF7628AA9857
 +  Functions: 3676
 +  Symbols:   13939
-   CStrings:  6461
+   CStrings:  7390
  
 Symbols:
 + _DNDCompatibilityVersionCurrent

@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DDA0B085-1F1D-3775-A909-A0A530E9F603
++  UUID: 0DD60DE5-201F-3869-A043-B8A5E7ED032D
+   Functions: 8
+   Symbols:   48
+   CStrings:  35
+
 ```

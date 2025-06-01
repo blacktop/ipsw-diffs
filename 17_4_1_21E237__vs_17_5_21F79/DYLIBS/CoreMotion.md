@@ -52,10 +52,9 @@
    __DATA_CONST.__objc_superrefs: 0x6b0
    __DATA_CONST.__objc_arraydata: 0x220
 -  __AUTH_CONST.__const: 0x12a98
-+  __AUTH_CONST.__const: 0x12b40
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__cfstring: 0x10c80
 -  __AUTH_CONST.__objc_const: 0x6f60
++  __AUTH_CONST.__const: 0x12b40
 +  __AUTH_CONST.__cfstring: 0x10ce0
 +  __AUTH_CONST.__objc_const: 0x6fa8
    __AUTH_CONST.__objc_arrayobj: 0x90
@@ -76,11 +75,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1E51658A-881B-3BBB-95C2-6C7C9701E878
 -  Functions: 16934
++  UUID: E4A6F107-B302-327C-A121-C9BEBACCA8F4
 +  Functions: 16995
    Symbols:   1553
--  CStrings:  14036
-+  CStrings:  14071
+-  CStrings:  16184
++  CStrings:  16222
  
 CStrings:
 + "%@, <recordId, %lu, startDate, %@, grade, %f>"

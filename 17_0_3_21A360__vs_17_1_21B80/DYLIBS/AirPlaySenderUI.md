@@ -39,13 +39,16 @@
    __DATA.__data: 0x70
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A839016-2091-32F8-8116-757CDE2D82FF
++  UUID: 97833468-E02F-35DA-BDB7-6DEA21A385B3
    Functions: 37
 -  Symbols:   187
--  CStrings:  109
+-  CStrings:  125
 +  Symbols:   194
-+  CStrings:  114
++  CStrings:  131
  
 Symbols:
 + _OBJC_CLASS_$_NSURLComponents

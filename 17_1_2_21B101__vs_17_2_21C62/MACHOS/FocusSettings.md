@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D316EA99-8A47-3319-9066-6ECCDC03C0F2
 -  Functions: 415
++  UUID: 5B092FDB-624A-3361-B7CA-2A70CC57262A
 +  Functions: 417
    Symbols:   255
--  CStrings:  541
-+  CStrings:  542
+-  CStrings:  575
++  CStrings:  576
  
 CStrings:
 + "_saveButtonPressed:"

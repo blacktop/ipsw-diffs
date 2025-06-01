@@ -97,9 +97,10 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E4367A2B-348A-3104-A366-0424AC6305AE
 -  Functions: 7492
 -  Symbols:   28217
--  CStrings:  11322
+-  CStrings:  13116
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -115,9 +116,10 @@
 +  - /usr/lib/swift/libswiftWebKit.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 44BA7254-C3A4-3032-82CE-146FA89C217A
 +  Functions: 7561
 +  Symbols:   28536
-+  CStrings:  11759
++  CStrings:  13562
  
 Symbols:
 + +[EDDataDetectionUtilities _isRealWord:locale:]

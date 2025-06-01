@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92590ED1-DC7A-32CC-B254-638AD505E6C0
 -  Functions: 78
 -  Symbols:   150
--  CStrings:  400
+-  CStrings:  563
++  UUID: CFD941DA-F134-3C2C-9F26-CD7F31A7219E
 +  Functions: 84
 +  Symbols:   159
-+  CStrings:  419
++  CStrings:  585
  
 Symbols:
 + _CFBooleanGetTypeID

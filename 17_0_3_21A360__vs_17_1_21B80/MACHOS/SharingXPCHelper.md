@@ -32,12 +32,14 @@
    - /System/Library/PrivateFrameworks/SharingUI.framework/SharingUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39B005BF-9AA0-384E-83A3-D17D048551EB
 -  Functions: 96
 -  Symbols:   114
--  CStrings:  309
+-  CStrings:  327
++  UUID: 0287D1D4-DB2C-3DE0-B822-7C2B2F4C566A
 +  Functions: 97
 +  Symbols:   115
-+  CStrings:  312
++  CStrings:  330
  
 Symbols:
 + _objc_retain_x5

@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BF01370-3BBD-3804-A88D-22406DA01049
++  UUID: 57A52CF1-E5BC-3B3F-9E0B-A38345339258
    Functions: 3
    Symbols:   20
 -  CStrings:  63

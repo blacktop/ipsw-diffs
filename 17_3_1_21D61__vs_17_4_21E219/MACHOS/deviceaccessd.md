@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x288
 
+   - /System/Library/PrivateFrameworks/DeviceAccess.framework/DeviceAccess
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E6DC4924-B9EF-33BB-B85C-E707C362FBEB
++  UUID: E5CB0CB0-1B86-3D26-A64E-73B2825E0B8A
+   Functions: 150
+   Symbols:   218
+   CStrings:  661
+
 ```

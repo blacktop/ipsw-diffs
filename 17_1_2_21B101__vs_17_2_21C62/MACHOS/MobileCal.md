@@ -47,11 +47,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 422A5FF1-826B-31D9-9C4A-1CE113B59A05
 -  Functions: 6490
++  UUID: 39AEE0CC-EC43-30A0-A471-3DEB2DCAC415
 +  Functions: 6492
    Symbols:   867
--  CStrings:  8861
-+  CStrings:  8866
+-  CStrings:  9378
++  CStrings:  9383
  
 CStrings:
 + "Fixing mismatched timezone on date for reloading infinite scroll view (received %@, UI showing %@)."

@@ -26,6 +26,15 @@
    __DATA.__objc_ivar: 0x1c0
    __DATA.__bss: 0x58
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 91067F0E-B836-3FFA-A2D8-D1A15A531AA0
++  UUID: 82DE33FF-8716-38E8-882E-892B11C40701
+   Functions: 436
+   Symbols:   1852
+   CStrings:  1130
 Symbols:
 + ___49-[ASFriendListSectionManager _queue_startMeQuery]_block_invoke.341
 + ___49-[ASFriendListSectionManager _queue_startMeQuery]_block_invoke.342

@@ -15,7 +15,11 @@
    __TEXT.__unwind_info: 0x48
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3B2E870-57A6-376C-8186-B47E20735E86
++  UUID: 912ECB84-5149-3DC6-AE45-C82FE64295B4
    Functions: 1
    Symbols:   5
 -  CStrings:  58

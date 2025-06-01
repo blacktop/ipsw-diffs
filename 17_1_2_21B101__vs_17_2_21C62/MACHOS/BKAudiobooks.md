@@ -45,11 +45,13 @@
    - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B290D46-B88D-307A-A851-C0CB96E54D87
 -  Functions: 919
++  UUID: E03BA6ED-1783-376D-901E-9FADF2A1333A
 +  Functions: 920
    Symbols:   294
--  CStrings:  1878
-+  CStrings:  1879
+-  CStrings:  1958
++  CStrings:  1959
  
 CStrings:
 + "bk_mostRecentListeningProgress"

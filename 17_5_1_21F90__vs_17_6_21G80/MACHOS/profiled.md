@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x1bd0
    __DATA.__data: 0x4ea
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C91217B-FD6B-39ED-A06E-FEF1B5594E99
++  UUID: 5BB4635D-D82A-38DB-B448-273756240152
    Functions: 1902
    Symbols:   1440
--  CStrings:  4809
-+  CStrings:  4812
+-  CStrings:  5867
++  CStrings:  5870
  
 CStrings:
 + "Ignoring request for attestation on unsupported device. Continuing without attestation."

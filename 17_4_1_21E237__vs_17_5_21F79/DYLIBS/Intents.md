@@ -48,9 +48,8 @@
    __AUTH_CONST.__const: 0x16e0
    __AUTH_CONST.__objc_intobj: 0x828
    __AUTH_CONST.__objc_doubleobj: 0x20
-
+   __AUTH_CONST.__objc_arrayobj: 0x4cf8
    __AUTH_CONST.__objc_dictobj: 0x3a48
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x818
 -  __AUTH.__objc_data: 0x143e8
 -  __DATA.__objc_ivar: 0x3c98
@@ -74,12 +73,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B9269871-211A-3E53-A572-D69B95D0A0A2
 -  Functions: 30879
 -  Symbols:   88121
--  CStrings:  28496
+-  CStrings:  36926
++  UUID: B1C39D52-2541-369A-946B-61D23D70AC00
 +  Functions: 30905
 +  Symbols:   88184
-+  CStrings:  28508
++  CStrings:  36939
  
 Symbols:
 + -[INPrivateAddMediaIntentData initWithPrivateMediaIntentData:audioSearchResults:internalSignals:pegasusMetaData:]

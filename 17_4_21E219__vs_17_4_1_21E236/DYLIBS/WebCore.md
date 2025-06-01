@@ -20,6 +20,15 @@
    __TEXT.__eh_frame: 0x4e0
    __TEXT.__objc_classname: 0xec1
    __TEXT.__objc_methname: 0x11977
+
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libxslt.1.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 72307628-3BC2-3448-9CC6-8B35F0728014
++  UUID: BA9E2E14-EF62-345F-A9B0-56D21B62E8B3
+   Functions: 113024
+   Symbols:   247324
+   CStrings:  32298
 Symbols:
 + __ZN7WebCore29InbandTextTrackPrivateAVFObjCC1EPNS_20AVFInbandTrackParentEP21AVMediaSelectionGroupP22AVMediaSelectionOptionyNS_22InbandTextTrackPrivate9CueFormatE
 + __ZNK7WebCore25InbandTextTrackPrivateAVF2idEv

@@ -38,11 +38,15 @@
    __DATA.__objc_ivar: 0x148
    __DATA.__objc_data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 08132A63-2AC9-356E-AC36-1F5EA763501A
++  UUID: F35A40D3-8519-300F-8D66-D359D143D791
    Functions: 167
    Symbols:   162
--  CStrings:  831
-+  CStrings:  834
+-  CStrings:  908
++  CStrings:  913
  
 CStrings:
 + "8218"

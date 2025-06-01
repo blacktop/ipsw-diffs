@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CAD56C3-6146-3A56-B359-FA5DE495EAD1
 -  Functions: 653
 -  Symbols:   2609
--  CStrings:  1455
+-  CStrings:  1592
++  UUID: 199011E4-3FBB-3611-A88F-16A55AA81D92
 +  Functions: 650
 +  Symbols:   2601
-+  CStrings:  1453
++  CStrings:  1590
  
 Symbols:
 + _objc_msgSend$setShouldAdjustScrollViewInsetForKeyboard:

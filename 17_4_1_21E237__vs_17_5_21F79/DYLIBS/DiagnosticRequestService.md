@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 26B67319-504B-3EB4-916E-F62A43EC7C83
 -  Functions: 2356
 -  Symbols:   6554
--  CStrings:  3733
+-  CStrings:  4355
++  UUID: 221B8571-3A8C-3203-A334-37EC49074BF0
 +  Functions: 2358
 +  Symbols:   6558
-+  CStrings:  3743
++  CStrings:  4371
  
 Symbols:
 + _DRValidateCKRecordDictionary

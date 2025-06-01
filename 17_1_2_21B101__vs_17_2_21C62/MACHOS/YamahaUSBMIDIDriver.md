@@ -24,13 +24,16 @@
    __DATA_CONST.__cfstring: 0x360
    __DATA.__data: 0xa8
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 20E327BB-1121-3A4B-AE3A-B8BBAA1A2569
++  UUID: 633234E0-3700-34B5-8770-9B20283E468B
    Functions: 596
 -  Symbols:   166
--  CStrings:  344
+-  CStrings:  371
 +  Symbols:   167
-+  CStrings:  346
++  CStrings:  373
  
 Symbols:
 + _kMIDIPropertyUMPActiveGroupBitmap

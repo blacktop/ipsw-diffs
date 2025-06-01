@@ -24,11 +24,15 @@
    __DATA.__objc_superrefs: 0xa0
    __DATA.__objc_ivar: 0x1fc
 
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCBD0BB4-98AE-3916-B7F8-8E99B7969373
++  UUID: 6F00AA25-2F4E-34BD-91E6-DCBC7742514D
    Functions: 709
    Symbols:   336
--  CStrings:  1585
-+  CStrings:  1586
+-  CStrings:  1669
++  CStrings:  1670
  
 Symbols:
 + _OBJC_CLASS_$__TtC18PodcastsFoundation18SyncKeysRepository

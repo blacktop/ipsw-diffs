@@ -37,4 +37,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5C69B3B2-7668-305C-984A-8407C4C62C50
++  UUID: 7F1E4F48-50D1-307B-BA43-D229FC8CC5A0
+   Functions: 1202
+   Symbols:   3964
+   CStrings:  2991
+
 ```

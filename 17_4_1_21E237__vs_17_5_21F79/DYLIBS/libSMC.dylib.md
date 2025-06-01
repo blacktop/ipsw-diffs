@@ -12,7 +12,6 @@
    __DATA_CONST.__got: 0x40
    __DATA_CONST.__const: 0xb30
    __AUTH_CONST.__cfstring: 0x40
-
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__auth_got: 0x1e8
    __DATA.__data: 0x1260
@@ -23,5 +22,10 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
+-  UUID: F96E34C7-9D81-399F-9402-B940CA24EAA1
++  UUID: E718BD63-6FC6-3C96-B59E-656F96F9CE54
+   Functions: 95
+   Symbols:   318
+   CStrings:  42
 
 ```

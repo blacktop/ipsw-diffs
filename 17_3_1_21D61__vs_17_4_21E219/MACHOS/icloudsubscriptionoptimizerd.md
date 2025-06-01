@@ -36,11 +36,13 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 55D92A9A-BE5B-3D3D-BB0C-4600A9E07E95
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 19165D87-D575-3A17-BD8B-D67BBAFFF495
    Functions: 5
 -  Symbols:   76
 +  Symbols:   78
-   CStrings:  13
+   CStrings:  15
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

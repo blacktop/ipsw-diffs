@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x2a0
 
+   - /System/Library/PrivateFrameworks/SearchToShareCore.framework/SearchToShareCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8910EE3F-8A8C-3CA6-B2FD-6A4AF2879EE8
++  UUID: 7F95606C-2EC7-35A7-9A07-00A887D001A8
    Functions: 61
    Symbols:   84
--  CStrings:  391
-+  CStrings:  392
+-  CStrings:  408
++  CStrings:  409
  
 CStrings:
 + "T@\"NSString\",?,R,C"

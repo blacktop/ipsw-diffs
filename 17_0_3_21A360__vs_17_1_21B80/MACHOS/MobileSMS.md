@@ -21,12 +21,15 @@
    __DATA_CONST.__cfstring: 0x3b40
    __DATA_CONST.__objc_classlist: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C3B92B6-A8DA-3891-A467-BFDD33379C48
++  UUID: 43DC426D-AE75-3D40-B51A-CCA4A740490D
    Functions: 533
 -  Symbols:   328
 +  Symbols:   329
-   CStrings:  1494
+   CStrings:  1968
  
 Symbols:
 + _IMChatRegistryMessageSendIsReplicatingKey

@@ -22,4 +22,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 946B5EEB-6AE8-3842-89AF-CB3555F96244
++  UUID: 5D87CF9C-50A1-3046-B8AF-1F300C97BD7C
+   Functions: 41
+   Symbols:   112
+   CStrings:  311
+
 ```

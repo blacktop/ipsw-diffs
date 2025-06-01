@@ -28,14 +28,18 @@
 -  __AUTH_CONST.__cfstring: 0x3fc0
 +  __AUTH_CONST.__cfstring: 0x4000
    __AUTH_CONST.__const: 0x3e8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x2d8
+   __DATA.__objc_classrefs: 0x230
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC950757-3D30-3893-9C95-57C92AEB176D
++  UUID: EA5859CB-AED6-332B-9C30-FB910938C4F6
    Functions: 1226
    Symbols:   3820
--  CStrings:  1752
-+  CStrings:  1754
+-  CStrings:  2262
++  CStrings:  2266
  
 CStrings:
 + "Memory exhaustion. Attempted to allocate storage for %zu bits."

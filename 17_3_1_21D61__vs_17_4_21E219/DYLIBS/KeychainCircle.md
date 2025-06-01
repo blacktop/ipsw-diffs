@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 524B63CA-8527-3AB7-9C8F-FAB084C572DF
 -  Functions: 562
 -  Symbols:   2102
--  CStrings:  1219
+-  CStrings:  1454
++  UUID: 42B188D1-62CF-361F-A6B6-32F84A570E1E
 +  Functions: 570
 +  Symbols:   2134
-+  CStrings:  1225
++  CStrings:  1456
  
 Symbols:
 + GCC_except_table486

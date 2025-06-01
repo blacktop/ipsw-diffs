@@ -35,4 +35,13 @@
    - /System/Library/Frameworks/CoreML.framework/CoreML
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 080453F4-0C28-38EE-B69A-8B1092C6588B
++  UUID: C8B548AA-F00E-345B-B350-3FBE1BCA3528
+   Functions: 4452
+   Symbols:   15112
+   CStrings:  8200
+
 ```

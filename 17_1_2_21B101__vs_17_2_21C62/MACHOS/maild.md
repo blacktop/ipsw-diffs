@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB45DBED-6AF5-30EC-AC87-4AA2725F5253
 -  Functions: 4073
 -  Symbols:   877
--  CStrings:  7226
+-  CStrings:  8102
++  UUID: 31DDE246-A8B1-3C55-AF15-2510A30A18F5
 +  Functions: 4067
 +  Symbols:   878
-+  CStrings:  7205
++  CStrings:  8081
  
 Symbols:
 + _EFContentProtectionGetObservedState

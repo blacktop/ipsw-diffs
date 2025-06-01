@@ -15,11 +15,13 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: 6DAF9049-13D9-3D6C-84D5-6353770757A1
 -  Functions: 708
 -  Symbols:   2012
++  UUID: 12386CBA-D977-3CBE-9950-609B8A1CE155
 +  Functions: 709
 +  Symbols:   2013
-   CStrings:  370
+   CStrings:  399
  
 Symbols:
 + _aks_get_seconds_since_passcode_change

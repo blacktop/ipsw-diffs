@@ -10,4 +10,13 @@
    __TEXT.__auth_stubs: 0xde0
    __TEXT.__const: 0xaa6
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B347DF32-881C-3E82-AACD-F85925126006
++  UUID: B27B6B26-4DE3-34B2-B5F9-2AC5F6AF910A
+   Functions: 599
+   Symbols:   511
+   CStrings:  18
+
 ```

@@ -51,12 +51,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3147A63-7CBB-30F5-9E27-228E3DBF3277
 -  Functions: 163
 -  Symbols:   626
--  CStrings:  448
+-  CStrings:  546
++  UUID: E585B6A8-7B2F-3C14-BD19-022DE7FCED53
 +  Functions: 173
 +  Symbols:   661
-+  CStrings:  468
++  CStrings:  572
  
 Symbols:
 + -[WRM_UCMInterface getInstantLoad]

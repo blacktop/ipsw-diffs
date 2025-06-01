@@ -32,11 +32,15 @@
    __DATA.__data: 0x720
    __DATA.__bss: 0x88
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F61362AE-9B5E-3434-8478-30E3321E1033
++  UUID: 0C63055A-E33D-395B-BCDD-6A465F58777C
    Functions: 429
    Symbols:   1723
--  CStrings:  684
-+  CStrings:  685
+-  CStrings:  705
++  CStrings:  706
  
 Symbols:
 + ___block_literal_global.102

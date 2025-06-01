@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7687CDAF-8F26-3AF6-905C-B667F6D8E5A5
++  UUID: 3A4CE5D3-3E0C-32F1-9FFB-433F4F9FBB98
+   Functions: 371
+   Symbols:   1478
+   CStrings:  946
+
 ```

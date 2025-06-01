@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5312FF9-86B7-3523-B162-E0BFC02E9593
++  UUID: CBA153C7-86C1-36C1-A06F-913FB275EB5A
    Functions: 148
    Symbols:   127
--  CStrings:  347
-+  CStrings:  348
+-  CStrings:  408
++  CStrings:  409
  
 CStrings:
 + "T@\"NSString\",?,R,C"

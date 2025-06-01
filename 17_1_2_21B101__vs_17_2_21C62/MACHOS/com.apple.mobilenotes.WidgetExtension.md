@@ -26,11 +26,15 @@
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x128
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B5DFB597-8166-33B7-88E6-554B9DC3D296
++  UUID: D6751F49-4F00-3951-B1D3-405F0BD25432
    Functions: 932
    Symbols:   214
--  CStrings:  437
-+  CStrings:  438
+-  CStrings:  442
++  CStrings:  443
  
 CStrings:
 + "folderManagedIdentifier"

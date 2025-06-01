@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF0CE668-BE46-3262-B088-29B00BD0997F
 -  Functions: 696
 -  Symbols:   2951
--  CStrings:  1570
+-  CStrings:  1733
++  UUID: 2D7CC898-8E17-343F-A806-8EA0CC01825C
 +  Functions: 713
 +  Symbols:   3045
-+  CStrings:  1824
++  CStrings:  1991
  
 Symbols:
 + -[AFUIExplicitAutoFillController contactsUIDidEndForSessionUUID:completion:]

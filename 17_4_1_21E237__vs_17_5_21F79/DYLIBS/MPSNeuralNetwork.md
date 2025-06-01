@@ -25,7 +25,6 @@
 +  __AUTH_CONST.__const: 0x9b0
    __AUTH_CONST.__cfstring: 0x132e0
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x488
 -  __DATA.__objc_ivar: 0xe2c
 +  __DATA.__objc_ivar: 0x460
@@ -42,5 +41,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D7BA23EA-DAF0-3496-B64C-CC59ACD84899
++  UUID: C69D6D20-6D76-35E8-B3CD-D041E52EF36A
+   Functions: 4918
+   Symbols:   801
+   CStrings:  7694
 
 ```

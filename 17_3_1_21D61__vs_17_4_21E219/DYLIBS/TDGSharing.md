@@ -55,9 +55,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x18
    __AUTH_CONST.__objc_const: 0x280
 -  __AUTH_CONST.__const: 0x2660
--  __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__const: 0x2650
-+  __AUTH_CONST.__auth_ptr: 0x48
    __AUTH_CONST.__cfstring: 0x300
 -  __AUTH_CONST.__auth_got: 0x680
 -  __AUTH.__objc_data: 0xd60
@@ -81,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 611E0A4C-B093-3BF7-B883-EDDB09487A27
 -  Functions: 1524
 -  Symbols:   1152
--  CStrings:  827
+-  CStrings:  851
++  UUID: 2A309B87-DFCB-3B69-884A-064B849CDD3A
 +  Functions: 1502
 +  Symbols:   1147
-+  CStrings:  837
++  CStrings:  861
  
 Symbols:
 + __PROTOCOLS_WFAnisetteRequest.43

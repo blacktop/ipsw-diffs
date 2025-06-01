@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x310
    __DATA.__objc_superrefs: 0x68
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2E634738-4EED-3F7D-8C01-0B64911BB0E2
++  UUID: 98B5C01C-5D0B-32A5-A15E-C75245818B21
    Functions: 485
    Symbols:   284
--  CStrings:  1379
-+  CStrings:  1380
+-  CStrings:  1467
++  CStrings:  1468
  
 CStrings:
 + "setPriority:"

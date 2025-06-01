@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3BEA75F-0FAE-3FC9-B546-9CA20CB273F8
 -  Functions: 17449
 -  Symbols:   60720
--  CStrings:  22871
+-  CStrings:  26874
++  UUID: EDDBDF97-B57C-3C73-AD1C-AFD3DD16EEDA
 +  Functions: 17455
 +  Symbols:   60733
-+  CStrings:  22878
++  CStrings:  26882
  
 Symbols:
 + -[NTKComplicationSampleData copyEncodedToDirectoryPath:]

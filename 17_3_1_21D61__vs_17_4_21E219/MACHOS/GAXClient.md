@@ -42,13 +42,16 @@
    __DATA.__objc_data: 0x11d0
    __DATA.__data: 0x8
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BCCB44D-A399-3333-AA4B-EADD1D45C926
++  UUID: D02A0D60-3C18-3E55-BBF3-34B57D9A67A2
    Functions: 279
 -  Symbols:   455
--  CStrings:  784
+-  CStrings:  1111
 +  Symbols:   457
-+  CStrings:  785
++  CStrings:  1113
  
 Symbols:
 + _GAXProfileShowsUserConfirmationPromptsAndBanners

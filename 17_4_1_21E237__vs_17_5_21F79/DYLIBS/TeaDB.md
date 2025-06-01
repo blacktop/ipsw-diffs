@@ -19,7 +19,7 @@
    __TEXT.__objc_classname: 0x3e
    __TEXT.__objc_methname: 0x1e7
 
-   __AUTH_CONST.__auth_ptr: 0xd8
+   __AUTH_CONST.__const: 0x4098
    __AUTH_CONST.__auth_got: 0x998
    __AUTH.__data: 0x28
 -  __DATA.__data: 0xa68
@@ -36,5 +36,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8C84C65-EEC0-3F50-A62C-6294C3096ABC
++  UUID: A10183FD-8542-383E-9C53-284B368BEE8F
+   Functions: 2561
+   Symbols:   1098
+   CStrings:  171
 
 ```

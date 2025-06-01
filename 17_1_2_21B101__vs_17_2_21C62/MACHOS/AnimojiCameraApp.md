@@ -34,11 +34,13 @@
    - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F190BF91-6038-3B99-B6F2-E6F8914CE09B
 -  Functions: 148
++  UUID: 14B0D8A0-7CC8-3A70-935F-50207C08AD8A
 +  Functions: 149
    Symbols:   123
--  CStrings:  416
-+  CStrings:  418
+-  CStrings:  433
++  CStrings:  435
  
 CStrings:
 + "_addStickerToStoreWithRepresentations:sourceRect:effect:completion:"

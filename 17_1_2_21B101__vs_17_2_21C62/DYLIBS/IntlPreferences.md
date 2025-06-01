@@ -42,12 +42,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: F051B18C-2824-3F7B-9B55-4D8CC258003F
 -  Functions: 404
 -  Symbols:   1769
--  CStrings:  973
+-  CStrings:  1181
++  UUID: 68EF92B6-AE30-3DE0-A467-32AEEA07B74D
 +  Functions: 406
 +  Symbols:   1775
-+  CStrings:  975
++  CStrings:  1183
  
 Symbols:
 + +[NSLocale(IntlPreferencesAdditions) _defaultUsesTwelveHourClockForLocaleIdentifier:]

@@ -91,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 251D6AC1-40B0-38FE-97E6-7A2EDA14AFF5
 -  Functions: 1709
 -  Symbols:   462
--  CStrings:  1166
+-  CStrings:  1258
++  UUID: F4BECE2D-65A7-31AD-876F-8CCA667B7E58
 +  Functions: 1723
 +  Symbols:   470
-+  CStrings:  1186
++  CStrings:  1281
  
 Symbols:
 + _CRLMiniFormatterCat_init_token

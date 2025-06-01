@@ -47,20 +47,21 @@
    __DATA_CONST.__objc_arraydata: 0x58
    __AUTH_CONST.__const: 0x15f0
    __AUTH_CONST.__objc_const: 0x52f0
-   __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__cfstring: 0x7ae0
 +  __AUTH_CONST.__cfstring: 0x7b00
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_floatobj: 0x20
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 16B27647-0BBB-31C1-A866-AF42B194798A
++  UUID: 7485452D-B1AE-37D7-8584-0261E2423BC9
    Functions: 4038
 -  Symbols:   12006
--  CStrings:  6926
 +  Symbols:   12005
-+  CStrings:  6925
+   CStrings:  7909
  
 Symbols:
 + _SNLPLanguageVariantClassifierErrorDomain

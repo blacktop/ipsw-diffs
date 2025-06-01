@@ -29,7 +29,6 @@
    __DATA_CONST.__objc_selrefs: 0x88
 -  __AUTH_CONST.__const: 0x41910
 +  __AUTH_CONST.__const: 0x41950
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__objc_intobj: 0x1f8
    __AUTH_CONST.__cfstring: 0x40
 -  __AUTH_CONST.__auth_got: 0xc58
@@ -52,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 138A0C2B-4AF9-3E40-B3C3-B9B4F6CC73CA
 -  Functions: 55257
 -  Symbols:   20475
--  CStrings:  12262
+-  CStrings:  12264
++  UUID: D4109189-358B-35A5-9BDC-7BF10A27F32B
 +  Functions: 55261
 +  Symbols:   20477
-+  CStrings:  12269
++  CStrings:  12271
  
 Symbols:
 + __ZN38pxrInternal_v0_22__aapl__pxrReserved__19__usdlibInitFailureE

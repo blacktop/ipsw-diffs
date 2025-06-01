@@ -64,10 +64,8 @@
 +  __AUTH_CONST.__const: 0x10648
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__objc_const: 0x190
--  __AUTH_CONST.__auth_ptr: 0x658
 -  __AUTH_CONST.__auth_got: 0x2db8
 -  __AUTH.__data: 0x3768
-+  __AUTH_CONST.__auth_ptr: 0x6c0
 +  __AUTH_CONST.__auth_got: 0x2e68
 +  __AUTH.__data: 0x3df0
    __AUTH.__objc_data: 0x3a0
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D572ABD7-53C4-31B6-9B9B-5BC037F57295
 -  Functions: 24288
 -  Symbols:   23539
--  CStrings:  2713
+-  CStrings:  2727
++  UUID: 4E270750-C103-365E-A484-1AC8D45660F0
 +  Functions: 25357
 +  Symbols:   24235
-+  CStrings:  2793
++  CStrings:  2807
  
 Symbols:
 + -[UIFont(WeatherUI) wu_exuberatedLineHeightAmount]

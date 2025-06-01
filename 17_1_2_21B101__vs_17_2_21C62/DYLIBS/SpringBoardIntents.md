@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__objc_const: 0x1b0
 +  __AUTH_CONST.__objc_const: 0x1f8
    __AUTH_CONST.__const: 0x8b0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x480
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_classrefs: 0x50
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 744E72BC-08F0-38A0-84E4-D4E9603C79BB
 -  Functions: 322
 -  Symbols:   433
--  CStrings:  159
+-  CStrings:  183
++  UUID: 8F28E8AE-038A-345A-ADF3-BDA6DB36A3E1
 +  Functions: 323
 +  Symbols:   473
-+  CStrings:  193
++  CStrings:  217
  
 Symbols:
 + +[SBIN_FCActivityManager sharedActivityManager]

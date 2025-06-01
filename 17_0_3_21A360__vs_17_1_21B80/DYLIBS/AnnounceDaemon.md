@@ -47,9 +47,7 @@
    __AUTH_CONST.__objc_const: 0x12e8
    __AUTH_CONST.__cfstring: 0x13a0
    __AUTH_CONST.__objc_intobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x7c0
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__auth_got: 0x7d0
    __AUTH.__objc_data: 0x598
    __AUTH.__data: 0x68
@@ -67,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 674E09AD-390F-39D6-8C29-09D166569EBB
 -  Functions: 1453
 -  Symbols:   5411
--  CStrings:  2952
+-  CStrings:  3109
++  UUID: 42037284-EEB1-3487-94A5-8330CEDC5177
 +  Functions: 1460
 +  Symbols:   5413
-+  CStrings:  2954
++  CStrings:  3111
  
 Symbols:
 + __OBJC_$_CLASS_METHODS_HMRoom(Announce|AnnounceDaemon)

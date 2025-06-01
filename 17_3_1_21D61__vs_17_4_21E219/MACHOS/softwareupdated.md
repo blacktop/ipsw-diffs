@@ -53,12 +53,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F27241D4-D660-3639-90D2-C7BA58465777
 -  Functions: 570
 -  Symbols:   4554
--  CStrings:  2119
+-  CStrings:  3129
++  UUID: E32578B2-139E-368E-A2E5-B0AB2A9065BA
 +  Functions: 571
 +  Symbols:   4560
-+  CStrings:  2127
++  CStrings:  3135
  
 Symbols:
 + -[MSUAnalytics addTargetVolumeDriveInfoToDictionary:]

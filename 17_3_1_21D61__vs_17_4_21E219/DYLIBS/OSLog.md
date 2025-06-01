@@ -33,6 +33,15 @@
    __DATA.__objc_ivar: 0xcc
    __DATA.__data: 0x1f8
    __DATA.__crash_info: 0x40
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 440982DF-849B-3A75-A903-DB80A942DCFF
++  UUID: AB402833-7351-3122-9412-8A3B51CFC333
+   Functions: 233
+   Symbols:   889
+   CStrings:  418
 Symbols:
 + __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8un170006EPKvm
 + __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8un170006ERKS6_S9_

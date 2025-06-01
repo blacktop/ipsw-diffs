@@ -77,12 +77,10 @@
 +  __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_dictobj: 0xa0
 -  __AUTH_CONST.__objc_arrayobj: 0x480
--  __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__auth_got: 0x11e0
 -  __AUTH.__objc_data: 0x40b8
 -  __AUTH.__data: 0x600
 +  __AUTH_CONST.__objc_arrayobj: 0x498
-+  __AUTH_CONST.__auth_ptr: 0xe8
 +  __AUTH_CONST.__auth_got: 0x1350
 +  __AUTH.__objc_data: 0x42e0
 +  __AUTH.__data: 0x790
@@ -112,12 +110,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB31B94C-21B2-3E9A-9613-39E72B8C8BBE
 -  Functions: 6507
 -  Symbols:   14154
--  CStrings:  7607
+-  CStrings:  8708
++  UUID: 4B5E4CDC-4ED7-3E28-8E21-F80D80757F15
 +  Functions: 6785
 +  Symbols:   14458
-+  CStrings:  7733
++  CStrings:  8841
  
 Symbols:
 + +[FBKAttachmentViewingControllerSelector imageControllerForAttachment:]
@@ -475,7 +475,6 @@ CStrings:
 + "\x111\""
 + "\x11T"
 + "!"
-+ "%"
 + "81$\x14\x14\x12"
 + "@\"UIScrollView\""
 + "@44@0:8B16B20B24B28B32B36B40"

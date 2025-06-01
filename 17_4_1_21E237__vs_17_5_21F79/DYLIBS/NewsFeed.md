@@ -76,7 +76,6 @@
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__objc_const: 0x1708
 -  __AUTH_CONST.__const: 0xce680
--  __AUTH_CONST.__auth_ptr: 0x23f8
 -  __AUTH_CONST.__auth_got: 0x5d88
 -  __AUTH.__objc_data: 0x8a80
 -  __AUTH.__data: 0xbc60
@@ -89,7 +88,6 @@
 -  __DATA_DIRTY.__const: 0x1058
 +  __AUTH_CONST.__objc_const: 0x1910
 +  __AUTH_CONST.__const: 0xdab28
-+  __AUTH_CONST.__auth_ptr: 0x25a0
 +  __AUTH_CONST.__auth_got: 0x63c0
 +  __AUTH.__objc_data: 0x9a70
 +  __AUTH.__data: 0xe3e0
@@ -154,12 +152,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24A90FE8-F5BD-306D-9AC7-F9363B565C0E
 -  Functions: 124438
 -  Symbols:   18315
--  CStrings:  11095
+-  CStrings:  11099
++  UUID: BE92A9D5-4FCA-386C-8FF6-BC7F2309E9F4
 +  Functions: 131865
 +  Symbols:   19178
-+  CStrings:  11769
++  CStrings:  11773
  
 Symbols:
 + _FCCachedThumbnailForHeadline

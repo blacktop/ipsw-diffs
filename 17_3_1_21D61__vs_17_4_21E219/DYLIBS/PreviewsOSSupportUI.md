@@ -59,14 +59,13 @@
    __AUTH_CONST.__objc_const: 0x1a8
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__const: 0xf80
-+  __AUTH_CONST.__const: 0x14e0
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x598
 -  __AUTH.__objc_data: 0x4d8
 -  __AUTH.__data: 0x3d8
 -  __DATA.__objc_protorefs: 0x10
 -  __DATA.__objc_classrefs: 0x98
 -  __DATA.__objc_superrefs: 0x18
++  __AUTH_CONST.__const: 0x14e0
 +  __AUTH_CONST.__auth_got: 0x650
 +  __AUTH.__objc_data: 0x4e8
 +  __AUTH.__data: 0x518
@@ -103,12 +102,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0D11A288-2849-30B2-8600-C5568CED3FF1
 -  Functions: 687
 -  Symbols:   501
--  CStrings:  257
+-  CStrings:  261
++  UUID: 9FB51408-0B46-32C5-974A-59D6D85A8BD2
 +  Functions: 1047
 +  Symbols:   575
-+  CStrings:  279
++  CStrings:  283
  
 Symbols:
 + __IVARS__TtC19PreviewsOSSupportUI20UVAgentSceneRegistry

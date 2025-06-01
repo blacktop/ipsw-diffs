@@ -10,7 +10,10 @@
 -  __TEXT.__const: 0x48
 +  __TEXT.__const: 0x50
    - /usr/lib/libSystem.B.dylib
+-  UUID: 839FB8D4-AA14-36BC-BAA4-521F0F25184D
++  UUID: 74D83D13-86A1-39D7-863C-286F651C5F6D
    Functions: 0
    Symbols:   2
+   CStrings:  0
 
 ```

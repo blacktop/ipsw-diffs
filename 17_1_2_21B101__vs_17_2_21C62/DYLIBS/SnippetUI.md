@@ -62,13 +62,12 @@
    __AUTH_CONST.__objc_const: 0x300
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__const: 0x14e08
-+  __AUTH_CONST.__const: 0x154a8
-   __AUTH_CONST.__auth_ptr: 0x770
 -  __AUTH_CONST.__auth_got: 0x3968
 -  __AUTH.__objc_data: 0xf98
 -  __AUTH.__data: 0x6050
 -  __DATA.__objc_protorefs: 0x70
 -  __DATA.__objc_classrefs: 0x2f0
++  __AUTH_CONST.__const: 0x154a8
 +  __AUTH_CONST.__auth_got: 0x39e8
 +  __AUTH.__objc_data: 0x1018
 +  __AUTH.__data: 0x61a8
@@ -104,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AFEC665E-C2E0-3DF7-95F9-839FCDD1ADE6
 -  Functions: 19599
 -  Symbols:   11173
--  CStrings:  1264
+-  CStrings:  1265
++  UUID: D79F7446-BF76-31BF-9535-446C3E19D6FB
 +  Functions: 19887
 +  Symbols:   11299
-+  CStrings:  1309
++  CStrings:  1310
  
 Symbols:
 + _CGRectGetMidX

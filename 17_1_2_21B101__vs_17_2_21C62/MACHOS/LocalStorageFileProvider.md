@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FE294191-3281-31B6-B2BB-917FFAFF86A4
 -  Functions: 28510
 -  Symbols:   862
--  CStrings:  5839
+-  CStrings:  5905
++  UUID: 15470434-054E-3548-997C-CAC289AE7001
 +  Functions: 28762
 +  Symbols:   866
-+  CStrings:  5951
++  CStrings:  6017
  
 Symbols:
 + _FPWriteImportCookieForDomainURL

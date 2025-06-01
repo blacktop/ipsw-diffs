@@ -12,4 +12,13 @@
    __TEXT.__gcc_except_tab: 0x20
    __TEXT.__const: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: EE9BEC80-89CD-3D01-A50A-546ECCFDAB8F
++  UUID: 924ECDB1-7082-3696-A209-B418FDD71DF9
+   Functions: 30
+   Symbols:   57
+   CStrings:  7
+
 ```

@@ -48,11 +48,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB56FBFA-7364-37D4-989E-8C2293663184
 -  Functions: 20
++  UUID: 3D191CF9-2722-3CC5-8698-39FFB48B643E
 +  Functions: 22
    Symbols:   81
--  CStrings:  141
-+  CStrings:  151
+-  CStrings:  163
++  CStrings:  175
  
 Symbols:
 + _objc_retain_x23

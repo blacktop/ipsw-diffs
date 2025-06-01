@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 299E778A-020A-3AC1-BDBE-9D0C608A418C
 -  Functions: 241
 -  Symbols:   155
--  CStrings:  557
+-  CStrings:  609
++  UUID: 85549EA0-8270-3FC8-B45C-7E0EA07E5EEF
 +  Functions: 242
 +  Symbols:   158
-+  CStrings:  564
++  CStrings:  619
  
 Symbols:
 + _ACAccountPropertyGrantedDataclasses

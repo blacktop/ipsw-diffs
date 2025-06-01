@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x10
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6987300D-35F8-3259-8A47-6149E8877468
++  UUID: DB44C3A2-06F7-3F89-9394-E5BF466E3E2D
    Functions: 4
    Symbols:   25
--  CStrings:  108
-+  CStrings:  116
+-  CStrings:  196
++  CStrings:  212
  
 CStrings:
 + "/private/var/MobileAsset/AssetsV2/locks"

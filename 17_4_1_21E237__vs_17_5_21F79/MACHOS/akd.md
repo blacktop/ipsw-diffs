@@ -60,12 +60,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EF3894C0-D801-3399-8CD7-EACA9427A5DB
 -  Functions: 5608
 -  Symbols:   1077
--  CStrings:  8154
+-  CStrings:  8928
++  UUID: B8E0D3D2-AF59-3407-A798-89E85FEB4E5A
 +  Functions: 5618
 +  Symbols:   1080
-+  CStrings:  8170
++  CStrings:  8947
  
 Symbols:
 + _AKADPCohortHeaderKey

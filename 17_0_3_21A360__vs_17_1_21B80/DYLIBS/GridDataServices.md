@@ -58,12 +58,14 @@
 +  - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59BC543D-F93C-323E-B356-DD1FDFA0331B
 -  Functions: 168
 -  Symbols:   750
--  CStrings:  496
+-  CStrings:  595
++  UUID: 02FBC4CE-4F8F-3C4B-BCAF-C255C2BD7D0A
 +  Functions: 170
 +  Symbols:   761
-+  CStrings:  501
++  CStrings:  602
  
 Symbols:
 + +[_GDSServerConnection fetchEstimatedCountryCode]

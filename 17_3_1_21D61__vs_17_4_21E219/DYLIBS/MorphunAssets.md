@@ -60,12 +60,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D5F0668-3DCF-349B-8E7D-2402A190A4D1
 -  Functions: 143
 -  Symbols:   630
--  CStrings:  330
+-  CStrings:  382
++  UUID: F6B13E31-3955-3518-83DE-D1D906B2D2BD
 +  Functions: 144
 +  Symbols:   633
-+  CStrings:  332
++  CStrings:  384
  
 Symbols:
 + +[MorphunAssets(MorphunAssetsPrivate) updateUAFAssetSetForUsageValue:]

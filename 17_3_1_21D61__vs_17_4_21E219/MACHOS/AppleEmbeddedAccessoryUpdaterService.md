@@ -79,12 +79,14 @@
 +  - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BF824AE6-4826-3D32-AFD4-42C69C098AE8
 -  Functions: 1342
 -  Symbols:   1567
--  CStrings:  3827
+-  CStrings:  5675
++  UUID: 6FCD6504-75AE-3651-9A44-9E6E21595DA7
 +  Functions: 1951
 +  Symbols:   1719
-+  CStrings:  4347
++  CStrings:  6273
  
 Symbols:
 + _IONotificationPortSetDispatchQueue

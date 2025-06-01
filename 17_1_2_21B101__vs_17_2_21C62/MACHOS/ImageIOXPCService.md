@@ -61,12 +61,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1480CFA5-720C-3879-BEFE-862DCA4C4E5A
 -  Functions: 16073
 -  Symbols:   10704
--  CStrings:  12486
+-  CStrings:  14011
++  UUID: 26399B1B-E4D7-3146-9367-59D031B4DC42
 +  Functions: 16105
 +  Symbols:   10761
-+  CStrings:  12562
++  CStrings:  14092
  
 Symbols:
 + _CFBundleCreate

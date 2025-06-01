@@ -71,9 +71,7 @@
 -  __AUTH_CONST.__const: 0x228b8
 +  __AUTH_CONST.__const: 0x23950
    __AUTH_CONST.__objc_const: 0x2318
--  __AUTH_CONST.__auth_ptr: 0x208
 -  __AUTH_CONST.__auth_got: 0x1600
-+  __AUTH_CONST.__auth_ptr: 0x220
 +  __AUTH_CONST.__auth_got: 0x1630
    __AUTH.__objc_data: 0x6af8
 -  __AUTH.__data: 0x3218
@@ -96,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B020DA4C-05E2-3194-9659-80EB417F9A03
 -  Functions: 30887
 -  Symbols:   9180
--  CStrings:  4172
+-  CStrings:  4432
++  UUID: 87BCE316-F9C1-39DE-8FB6-8A84A815E762
 +  Functions: 31270
 +  Symbols:   9223
-+  CStrings:  4205
++  CStrings:  4465
  
 Symbols:
 + _OBJC_CLASS_$_NSFileHandle

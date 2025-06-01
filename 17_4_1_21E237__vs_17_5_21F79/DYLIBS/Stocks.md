@@ -28,4 +28,13 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 91537DC8-C454-316D-9EAC-9A92CD1A1B5D
++  UUID: 56A3D8AE-F5FA-34C3-8AE3-905D3A0007BD
+   Functions: 1854
+   Symbols:   7150
+   CStrings:  4279
+
 ```

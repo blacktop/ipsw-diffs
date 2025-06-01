@@ -35,12 +35,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BC97AE74-1CFA-3846-9812-392BDB7EE909
 -  Functions: 8964
 -  Symbols:   9849
--  CStrings:  3216
+-  CStrings:  3225
++  UUID: 680CD60C-A359-3283-9B52-A0A9CBA29D9F
 +  Functions: 9002
 +  Symbols:   9891
-+  CStrings:  3227
++  CStrings:  3236
  
 Symbols:
 + __ZN5CMMsl32PencilFusionDMYawAlignmentUpdate8readFromERN2PB6ReaderE

@@ -37,13 +37,16 @@
    __DATA.__objc_superrefs: 0x50
    __DATA.__objc_ivar: 0x94
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BF287DA4-DD2D-3720-92B3-536189BC8ED4
++  UUID: 041557CE-41AC-38BE-8577-A3DA10CD3205
    Functions: 269
 -  Symbols:   247
--  CStrings:  802
+-  CStrings:  943
 +  Symbols:   248
-+  CStrings:  803
++  CStrings:  944
  
 Symbols:
 + _RBSRequestErrorDomain

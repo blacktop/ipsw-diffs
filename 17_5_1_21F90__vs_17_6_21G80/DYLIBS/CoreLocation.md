@@ -45,11 +45,13 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 20ECFD5B-0007-3995-BE05-90B8B1F3E3B3
 -  Functions: 4083
++  UUID: 077E1D91-F0DC-3C4C-8C12-975CE2785A7F
 +  Functions: 4093
    Symbols:   915
--  CStrings:  7707
-+  CStrings:  7721
+-  CStrings:  8839
++  CStrings:  8853
  
 CStrings:
 + "19:17:23"

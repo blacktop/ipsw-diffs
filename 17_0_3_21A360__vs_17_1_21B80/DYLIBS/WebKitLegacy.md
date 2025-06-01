@@ -28,11 +28,15 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AF99296E-D764-3F3A-AAF8-D814C3074E70
++  UUID: 54B10CDD-7F20-3166-90FC-608F2842A7BF
    Functions: 7078
    Symbols:   22771
--  CStrings:  7307
-+  CStrings:  7310
+-  CStrings:  8938
++  CStrings:  8944
  
 Symbols:
 + __ZN3PAL24deviceClassIsSmallScreenEv

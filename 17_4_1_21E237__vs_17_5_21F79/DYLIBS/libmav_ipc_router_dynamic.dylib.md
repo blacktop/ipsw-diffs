@@ -18,4 +18,13 @@
    __DATA_CONST.__got: 0x78
    __DATA_CONST.__const: 0x140
 
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 648E5DAD-F046-3B4E-AE4B-FAF4F63E8A2C
++  UUID: DBDAF0F6-70C1-3AB0-9FF5-BAA6D2146FD1
+   Functions: 215
+   Symbols:   575
+   CStrings:  78
+
 ```

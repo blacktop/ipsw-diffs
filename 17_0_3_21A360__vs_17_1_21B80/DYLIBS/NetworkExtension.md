@@ -45,7 +45,6 @@
    __DATA_CONST.__objc_selrefs: 0x47b0
    __DATA_CONST.__objc_arraydata: 0x100
    __AUTH_CONST.__const: 0xd18
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x15440
@@ -64,12 +63,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8DB6B8D0-FB09-3046-8BF9-FD7480D8F378
 -  Functions: 6020
 -  Symbols:   20230
--  CStrings:  11240
+-  CStrings:  13962
++  UUID: E735C0B2-6E19-3928-8BBB-AFAC3180084C
 +  Functions: 6019
 +  Symbols:   20224
-+  CStrings:  11238
++  CStrings:  13960
  
 Symbols:
 + -[NERelay clearKeychainItemsInDomain:removeItems:]

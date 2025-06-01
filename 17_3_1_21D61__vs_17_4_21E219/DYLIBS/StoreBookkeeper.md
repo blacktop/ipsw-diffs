@@ -37,11 +37,15 @@
    __DATA.__data: 0x420
    __DATA.__bss: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A66F975A-2659-3BE1-A346-BF32571A459A
++  UUID: A307B334-F083-39EE-821B-996CAEFA42D9
    Functions: 880
    Symbols:   3166
--  CStrings:  1662
-+  CStrings:  1663
+-  CStrings:  1895
++  CStrings:  1896
  
 Symbols:
 + _ErrorInfoWithUnderlyingError.925

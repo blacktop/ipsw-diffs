@@ -74,14 +74,12 @@
 +  __AUTH_CONST.__objc_const: 0x1ed0
 +  __AUTH_CONST.__const: 0x2b070
    __AUTH_CONST.__cfstring: 0x6c0
--  __AUTH_CONST.__auth_ptr: 0x7b0
 -  __AUTH_CONST.__auth_got: 0x2a50
 -  __AUTH.__objc_data: 0x4a30
 -  __AUTH.__data: 0x2920
 -  __DATA.__objc_ivar: 0x194
 -  __DATA.__objc_data: 0x5f8
 -  __DATA.__data: 0x6748
-+  __AUTH_CONST.__auth_ptr: 0x7d8
 +  __AUTH_CONST.__auth_got: 0x2ad8
 +  __AUTH.__objc_data: 0x4a90
 +  __AUTH.__data: 0x2a00
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7E2D212C-218D-3E6D-B4B7-6548CF67CB54
 -  Functions: 34250
 -  Symbols:   18710
--  CStrings:  5145
+-  CStrings:  5199
++  UUID: 364BDE82-329D-3ECD-B235-330D3906F543
 +  Functions: 34945
 +  Symbols:   19090
-+  CStrings:  5190
++  CStrings:  5244
  
 Symbols:
 + -[TUNavigationBarCompressibleBarButtonItemView setVerticalOffset:]

@@ -62,7 +62,6 @@
 -  __AUTH_CONST.__const: 0x2f820
 +  __AUTH_CONST.__const: 0x2f5f8
    __AUTH_CONST.__cfstring: 0x180
-   __AUTH_CONST.__auth_ptr: 0x8b8
 -  __AUTH_CONST.__auth_got: 0x3180
 -  __AUTH.__objc_data: 0x34f8
 -  __AUTH.__data: 0x9f00
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F9373270-BFAF-3477-9149-FD270D364443
 -  Functions: 33594
 -  Symbols:   10741
--  CStrings:  5589
+-  CStrings:  5601
++  UUID: 605F5424-7A8F-32EF-B977-A2EC1281705F
 +  Functions: 33655
 +  Symbols:   10727
-+  CStrings:  5623
++  CStrings:  5635
  
 Symbols:
 + __PROTOCOLS__TtCC15RemindersUICore25TTREditSectionsChangeItem7Storage.7

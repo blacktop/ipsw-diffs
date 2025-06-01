@@ -21,4 +21,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FB9880E6-ED30-30B6-ABF8-8013DF1CDED0
++  UUID: 84EF5725-B2E9-335D-8D37-3EECA46FEFD4
+   Functions: 7
+   Symbols:   45
+   CStrings:  40
+
 ```

@@ -102,12 +102,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1B566A6F-F1D3-3038-8657-2CE4FA470077
 -  Functions: 84690
 -  Symbols:   30130
--  CStrings:  16761
+-  CStrings:  17057
++  UUID: 1F9F915E-B306-339D-A675-51EAC363D095
 +  Functions: 84777
 +  Symbols:   30304
-+  CStrings:  16848
++  CStrings:  17143
  
 Symbols:
 + +[MusicObjectPair pairWithFirst:andSecond:]
@@ -1929,6 +1931,7 @@ CStrings:
 + "Unable to Request Access"
 + "Unknown support "
 + "Using placeholder item progress. isLiveContent: %{bool,public}d"
++ "W"
 + "WidgetArtworkLoading"
 + "Will perform Attribution metadata"
 + "Would you like to delete this song from your library, or only remove it as favorite?"

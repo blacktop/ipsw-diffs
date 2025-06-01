@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F31AF49-7EAB-3EA2-878C-C7C3FDA2850C
 -  Functions: 4086
 -  Symbols:   881
--  CStrings:  7240
+-  CStrings:  8119
++  UUID: FB45DBED-6AF5-30EC-AC87-4AA2725F5253
 +  Functions: 4073
 +  Symbols:   877
-+  CStrings:  7226
++  CStrings:  8102
  
 Symbols:
 + _OBJC_CLASS_$_MFMailboxFrecencyController

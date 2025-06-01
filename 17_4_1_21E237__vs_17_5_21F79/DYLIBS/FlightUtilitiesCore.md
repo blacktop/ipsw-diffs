@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6A7848A5-D342-314F-8267-FB8254F3FE75
++  UUID: A1A18C17-3314-35AB-9512-282F5C06C3F9
+   Functions: 180
+   Symbols:   797
+   CStrings:  538
+
 ```

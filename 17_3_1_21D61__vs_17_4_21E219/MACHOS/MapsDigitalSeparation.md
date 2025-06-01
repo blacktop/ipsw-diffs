@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/MapsSync.framework/MapsSync
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 490E9710-20DA-3C8E-8726-248D21BAFDA5
 -  Functions: 230
 -  Symbols:   165
--  CStrings:  286
+-  CStrings:  297
++  UUID: 74A1A605-4B04-39F2-B273-BE42CB8A5FDB
 +  Functions: 235
 +  Symbols:   167
-+  CStrings:  294
++  CStrings:  305
  
 Symbols:
 + _MAPSGetCustomPOIsControllerLog

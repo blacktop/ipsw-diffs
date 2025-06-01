@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x64
    __DATA.__auth_got: 0xe0
 
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 914C5492-9CD0-383F-8901-854883D74726
++  UUID: 38575859-D811-331D-B37E-4D892B040D24
+   Functions: 7
+   Symbols:   38
+   CStrings:  11
+
 ```

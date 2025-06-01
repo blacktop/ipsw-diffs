@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_protolist: 0x18
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CEE452F9-CED6-3517-9A98-3454F6B115EA
++  UUID: 1BD0A827-0F9A-3BC9-B777-02048501F947
    Functions: 269
    Symbols:   323
--  CStrings:  520
-+  CStrings:  521
+-  CStrings:  633
++  CStrings:  635
  
 CStrings:
 + "kHEIMAttrLabelValue"

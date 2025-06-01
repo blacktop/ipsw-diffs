@@ -15,4 +15,13 @@
    __TEXT.__objc_classname: 0x9
    __TEXT.__objc_methname: 0x5c6
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 25660738-95D4-36DA-88F3-177EF30E2BF5
++  UUID: D7D673E3-CBD0-3D68-BB99-9B97A900BF45
+   Functions: 75
+   Symbols:   175
+   CStrings:  98
+
 ```

@@ -28,12 +28,15 @@
    __TEXT.__objc_classname: 0xa40
    __TEXT.__objc_methname: 0xcf32
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E2F015A-8C36-3C28-B8FF-C3EE9FD0C5A1
++  UUID: 357FB1EE-C36D-3BB0-B996-67DBCA55FDAA
    Functions: 3268
 -  Symbols:   8208
 +  Symbols:   8210
-   CStrings:  4182
+   CStrings:  5074
  
 Symbols:
 + GCC_except_table71

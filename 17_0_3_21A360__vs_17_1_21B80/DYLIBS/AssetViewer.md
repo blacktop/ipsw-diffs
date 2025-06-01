@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_arraydata: 0x70
    __AUTH_CONST.__objc_const: 0x17f8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5D75C079-2073-36D7-BA06-0BC72B21861C
++  UUID: 5F228999-1846-33D4-99A1-3452594E58E1
    Functions: 5145
    Symbols:   6403
--  CStrings:  4230
-+  CStrings:  4232
+-  CStrings:  4523
++  CStrings:  4525
  
 CStrings:
 + "hostViewControllerBackgroundColorChanged:"

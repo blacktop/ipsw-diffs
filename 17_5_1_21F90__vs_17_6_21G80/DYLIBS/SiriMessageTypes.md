@@ -60,9 +60,7 @@
    __DATA_CONST.__objc_superrefs: 0x60
    __DATA_CONST.__objc_arraydata: 0x60
 -  __AUTH_CONST.__const: 0x7988
--  __AUTH_CONST.__auth_ptr: 0x230
 +  __AUTH_CONST.__const: 0x7b70
-+  __AUTH_CONST.__auth_ptr: 0x238
    __AUTH_CONST.__objc_const: 0x558
    __AUTH_CONST.__cfstring: 0x920
    __AUTH_CONST.__objc_intobj: 0x90
@@ -87,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E2A3E5E-FD47-37E6-AF13-355ED6F9B35E
 -  Functions: 8506
 -  Symbols:   3687
--  CStrings:  878
+-  CStrings:  951
++  UUID: 1E740EA1-275B-3652-B328-AE60761041EB
 +  Functions: 8662
 +  Symbols:   3754
-+  CStrings:  883
++  CStrings:  956
  
 Symbols:
 + _OBJC_CLASS_$__TtC16SiriMessageTypes24RunPommesResponseMessage

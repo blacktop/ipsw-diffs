@@ -56,7 +56,6 @@
 -  __AUTH_CONST.__const: 0x1770
 +  __AUTH_CONST.__const: 0x1710
    __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__auth_got: 0x1028
 +  __AUTH_CONST.__auth_got: 0x1090
    __AUTH.__objc_data: 0x140
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1FC808B2-1D6D-352E-A9E4-3B62E1F2B8E4
 -  Functions: 1339
 -  Symbols:   838
--  CStrings:  608
+-  CStrings:  628
++  UUID: 762B625E-4C74-37B9-AE1B-860B7D0B3686
 +  Functions: 1281
 +  Symbols:   832
-+  CStrings:  636
++  CStrings:  656
  
 Symbols:
 + __DATA__TtC22AudioAnalyticsExternal15VerboseTailspin

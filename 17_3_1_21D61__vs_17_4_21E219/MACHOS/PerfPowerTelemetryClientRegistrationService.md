@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/PerfPowerServicesMetadata.framework/PerfPowerServicesMetadata
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F52AF09-02DC-3247-A470-46911261FDEA
 -  Functions: 14
 -  Symbols:   54
--  CStrings:  103
+-  CStrings:  126
++  UUID: 9C520331-AA05-3638-8A5B-F4E36E0E1439
 +  Functions: 15
 +  Symbols:   56
-+  CStrings:  114
++  CStrings:  142
  
 Symbols:
 + _OBJC_CLASS_$_NSString

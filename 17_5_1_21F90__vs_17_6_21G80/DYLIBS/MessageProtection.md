@@ -44,8 +44,8 @@
    __DATA_CONST.__const: 0x328
    __DATA_CONST.__objc_classlist: 0x258
 
+   __AUTH_CONST.__objc_const: 0x120
    __AUTH_CONST.__cfstring: 0x18a0
-   __AUTH_CONST.__auth_ptr: 0x100
    __AUTH_CONST.__objc_intobj: 0xd8
 -  __AUTH_CONST.__const: 0x1a70
 -  __AUTH_CONST.__auth_got: 0x1048
@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: FEA810E9-443A-3149-A3D6-842BF7AD6C41
 -  Functions: 2929
 -  Symbols:   9081
--  CStrings:  1423
+-  CStrings:  1620
++  UUID: 317DA593-C9D3-336F-B176-F82EB99685F8
 +  Functions: 2928
 +  Symbols:   9085
-+  CStrings:  1425
++  CStrings:  1622
  
 Symbols:
 + -[NGMPublicDeviceIdentity markForStateResetWithOurURI:ourPushToken:ourSigningIdentity:theirURI:theirPushToken:].cold.1

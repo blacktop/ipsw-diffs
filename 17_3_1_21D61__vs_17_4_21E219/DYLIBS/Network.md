@@ -68,7 +68,6 @@
 -  __DATA_CONST.__objc_const: 0x1f8f0
 -  __DATA_CONST.__objc_selrefs: 0x3790
 -  __AUTH_CONST.__const: 0x8e08
--  __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__cfstring: 0x7620
 -  __AUTH_CONST.__objc_const: 0x4640
 -  __AUTH_CONST.__objc_intobj: 0x60
@@ -86,7 +85,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x880
 +  __DATA_CONST.__objc_superrefs: 0x680
 +  __AUTH_CONST.__const: 0x9c08
-+  __AUTH_CONST.__auth_ptr: 0xc0
 +  __AUTH_CONST.__cfstring: 0x7c20
 +  __AUTH_CONST.__objc_const: 0x47a8
 +  __AUTH_CONST.__objc_intobj: 0x78
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1121F216-8B4D-3A4C-ABD1-1B9BB8E79666
 -  Functions: 17656
 -  Symbols:   43461
--  CStrings:  27627
+-  CStrings:  28572
++  UUID: F7ED9CDE-906B-3A17-AA88-606E763505EA
 +  Functions: 18450
 +  Symbols:   45701
-+  CStrings:  28440
++  CStrings:  29433
  
 Symbols:
 + +[NWURLSessionDownloadResumeInfo infoWithResumeData:]

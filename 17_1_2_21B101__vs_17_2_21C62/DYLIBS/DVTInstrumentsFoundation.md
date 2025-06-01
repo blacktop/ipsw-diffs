@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 69D2A1AD-EC77-3A33-B04C-FAA026F1901F
 -  Functions: 3906
 -  Symbols:   1699
--  CStrings:  6391
+-  CStrings:  7722
++  UUID: DFF378FD-8D69-3C87-98B3-7112135AC130
 +  Functions: 3908
 +  Symbols:   1701
-+  CStrings:  6397
++  CStrings:  7730
  
 Symbols:
 + _DTStoreKitServiceCapabilityVersionDawnburst

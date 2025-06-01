@@ -38,13 +38,16 @@
    __DATA_CONST.__objc_superrefs: 0x170
    __DATA_CONST.__objc_arraydata: 0x178
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4901FB8-B006-3D27-A0D9-87AEB5F79476
++  UUID: 6A9E4303-8321-39E2-BD9C-98ADEBEAD02B
    Functions: 1373
 -  Symbols:   5289
--  CStrings:  2848
+-  CStrings:  3493
 +  Symbols:   5290
-+  CStrings:  2851
++  CStrings:  3496
  
 Symbols:
 + ___block_literal_global.92

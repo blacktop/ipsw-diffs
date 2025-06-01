@@ -66,7 +66,6 @@
 -  __AUTH_CONST.__objc_const: 0x288
 -  __AUTH_CONST.__cfstring: 0xa0
 -  __AUTH_CONST.__const: 0x3740
--  __AUTH_CONST.__auth_ptr: 0x98
 -  __AUTH_CONST.__auth_got: 0xc48
 -  __AUTH.__objc_data: 0x200
 -  __AUTH.__data: 0x140
@@ -88,7 +87,6 @@
 +  __AUTH_CONST.__objc_const: 0x508
 +  __AUTH_CONST.__cfstring: 0x180
 +  __AUTH_CONST.__const: 0x4ac0
-+  __AUTH_CONST.__auth_ptr: 0xb8
 +  __AUTH_CONST.__auth_got: 0xd68
 +  __AUTH.__objc_data: 0x888
 +  __AUTH.__data: 0x608
@@ -114,12 +112,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 35A118EB-A842-38C0-A2DE-4EFC7F94B47F
 -  Functions: 2066
 -  Symbols:   1279
--  CStrings:  383
+-  CStrings:  388
++  UUID: 0C4AD72C-4A27-3B85-B1BB-33EB13102D8E
 +  Functions: 2985
 +  Symbols:   1800
-+  CStrings:  685
++  CStrings:  697
  
 Symbols:
 + +[MTStopwatchUtilities _timeAdjustedFor30fpsDisplay:]

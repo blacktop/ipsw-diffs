@@ -30,4 +30,13 @@
    __DATA_DIRTY.__objc_data: 0x7d0
    __DATA_DIRTY.__bss: 0xc8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A719C323-FA37-38E6-963A-9CC66D020B56
++  UUID: 033B85A8-345B-3014-A9A7-089602068CCA
+   Functions: 4821
+   Symbols:   14547
+   CStrings:  4712
+
 ```

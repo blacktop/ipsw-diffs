@@ -41,11 +41,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 24EA70C2-F562-3499-A64B-C6224E10A606
 -  Functions: 635
++  UUID: 6EF30B73-FAB2-3208-AECA-87672B56780B
 +  Functions: 636
    Symbols:   307
--  CStrings:  1727
-+  CStrings:  1728
+-  CStrings:  1909
++  CStrings:  1911
  
 CStrings:
 + "mediaremoted"

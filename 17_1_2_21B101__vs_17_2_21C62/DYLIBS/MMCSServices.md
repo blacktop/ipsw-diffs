@@ -39,13 +39,16 @@
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2D83D24-9B81-3645-BE34-70EF3D5A0C93
++  UUID: EC73CC7B-60FB-38B5-9938-F816CB6B5D52
    Functions: 149
 -  Symbols:   152
--  CStrings:  475
+-  CStrings:  564
 +  Symbols:   149
-+  CStrings:  417
++  CStrings:  447
  
 Symbols:
 - _MarcoLogMadridLevel

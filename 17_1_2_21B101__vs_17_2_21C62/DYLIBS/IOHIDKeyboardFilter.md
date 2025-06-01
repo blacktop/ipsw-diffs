@@ -37,12 +37,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A524995B-CB72-3C01-86B8-5FF2F404B456
 -  Functions: 187
 -  Symbols:   229
--  CStrings:  122
+-  CStrings:  176
++  UUID: 7765543F-35D0-3A07-A140-3DD4C2147094
 +  Functions: 188
 +  Symbols:   231
-+  CStrings:  124
++  CStrings:  179
  
 Symbols:
 + _IOHIDEventSystemConnectionGetUUID

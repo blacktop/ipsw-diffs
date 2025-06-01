@@ -29,11 +29,15 @@
    __DATA.__objc_classrefs: 0x490
    __DATA.__objc_superrefs: 0x90
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E392E63E-B012-3252-9980-A6CD5308CC9E
++  UUID: 4BE2AF85-9180-3E6B-8131-9D349DBF5F7E
    Functions: 2288
    Symbols:   745
--  CStrings:  3001
-+  CStrings:  3002
+-  CStrings:  3125
++  CStrings:  3126
  
 CStrings:
 + "setEnableSmartRouting:"

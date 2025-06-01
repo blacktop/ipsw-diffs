@@ -27,13 +27,16 @@
    __DATA_CONST.__const: 0x6f0
    __DATA_CONST.__cfstring: 0xa40
 
+   - /usr/lib/libCTGreenTeaLogger.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E91D69A-C35E-3CB8-8E34-54D5EEF190BD
++  UUID: 80A8DA07-5FED-32A4-93C0-9BFB1003E0D3
    Functions: 556
 -  Symbols:   368
--  CStrings:  1541
+-  CStrings:  1623
 +  Symbols:   367
-+  CStrings:  1540
++  CStrings:  1622
  
 Symbols:
 - _DAGreenTeaLog

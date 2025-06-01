@@ -26,4 +26,13 @@
    __DATA.__bss: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE3DE665-D8F9-3835-B0A5-D392ACD7B359
++  UUID: E5284E8A-FBB0-30DA-B55F-9C3934D07ACD
+   Functions: 28
+   Symbols:   201
+   CStrings:  176
+
 ```

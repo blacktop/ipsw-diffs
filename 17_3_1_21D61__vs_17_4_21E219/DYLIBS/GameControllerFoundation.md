@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__const: 0x4c8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x758
 -  __AUTH.__objc_data: 0x1b30
 -  __AUTH.__data: 0xdb8
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5484CEE-90D9-35DB-AD32-4BCEC6D13D05
 -  Functions: 1893
 -  Symbols:   7055
--  CStrings:  2672
+-  CStrings:  3437
++  UUID: F1189908-3BBC-3D67-8D06-839A416E7F6A
 +  Functions: 1916
 +  Symbols:   7147
-+  CStrings:  2695
++  CStrings:  3467
  
 Symbols:
 + +[GCDevicePhysicalInputCapacitiveButtonElementDescription supportsSecureCoding]

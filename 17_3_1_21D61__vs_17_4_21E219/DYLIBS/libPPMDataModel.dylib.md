@@ -25,4 +25,13 @@
    __DATA.__data: 0x60
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B72FA6F3-E531-3AA8-9CD8-C61FC2F0408D
++  UUID: 153F5CF7-0AEF-3E6A-BEF6-6C02731EF303
+   Functions: 336
+   Symbols:   963
+   CStrings:  600
+
 ```

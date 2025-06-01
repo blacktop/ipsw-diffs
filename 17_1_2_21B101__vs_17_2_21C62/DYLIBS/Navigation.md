@@ -47,9 +47,8 @@
 +  __DATA_CONST.__objc_selrefs: 0x7eb8
    __DATA_CONST.__objc_arraydata: 0xa0
 -  __AUTH_CONST.__cfstring: 0xbce0
-+  __AUTH_CONST.__cfstring: 0xbe60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_const: 0x5808
++  __AUTH_CONST.__cfstring: 0xbe60
 +  __AUTH_CONST.__objc_const: 0x5850
    __AUTH_CONST.__const: 0x22a0
    __AUTH_CONST.__objc_intobj: 0x7f8
@@ -73,12 +72,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 091AB155-BB1D-3D39-A331-4725EC1AB516
 -  Functions: 5470
 -  Symbols:   19471
--  CStrings:  9812
+-  CStrings:  11323
++  UUID: FBD9EE5D-05EA-3453-B3F7-A28D136D0BBA
 +  Functions: 5506
 +  Symbols:   19588
-+  CStrings:  9879
++  CStrings:  11402
  
 Symbols:
 + +[MNFilePaths _validFilenameForTraceName:]

@@ -21,12 +21,15 @@
    __DATA_CONST.__const: 0x280
    __DATA_CONST.__objc_classlist: 0x18
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8770B44A-94D2-34A3-A569-AA145ADD6566
++  UUID: 9CAC54E9-BAE7-3F0A-AE2B-5607B64DFF60
    Functions: 182
 -  Symbols:   691
 +  Symbols:   690
-   CStrings:  310
+   CStrings:  388
  
 Symbols:
 - _objc_msgSend$logRealTimeTuningOutcome:withBundleId:

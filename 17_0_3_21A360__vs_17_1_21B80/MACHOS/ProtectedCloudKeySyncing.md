@@ -18,4 +18,13 @@
    __TEXT.__objc_methname: 0x4c0e
    __TEXT.__oslogstring: 0x286b
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 7C5F30A6-740A-371A-87A5-8CB861CBE297
++  UUID: 8BA57C3F-6341-3B11-BC18-E7BD1F09DA57
+   Functions: 625
+   Symbols:   359
+   CStrings:  1776
+
 ```

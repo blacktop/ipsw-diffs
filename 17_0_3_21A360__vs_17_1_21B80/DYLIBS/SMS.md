@@ -42,11 +42,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 805EAF43-56E3-330C-8B3E-3714931F644E
 -  Functions: 660
++  UUID: C065BB13-4986-30E8-9EFE-7971AD78DB6F
 +  Functions: 661
    Symbols:   425
--  CStrings:  3240
-+  CStrings:  3243
+-  CStrings:  4274
++  CStrings:  4277
  
 CStrings:
 + "IMMMSGroupTextReplicationSupportsSMILContentLocationForPhoneNumber:simID:"

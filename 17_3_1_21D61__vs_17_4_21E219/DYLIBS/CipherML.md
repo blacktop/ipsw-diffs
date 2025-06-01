@@ -69,7 +69,6 @@
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x6e0
 -  __AUTH_CONST.__const: 0x24c0
--  __AUTH_CONST.__auth_ptr: 0x118
 -  __AUTH_CONST.__auth_got: 0x1058
 -  __AUTH.__data: 0x28
 -  __AUTH.__objc_data: 0xd8
@@ -85,7 +84,6 @@
 +  __AUTH_CONST.__cfstring: 0x920
 +  __AUTH_CONST.__objc_const: 0x3a8
 +  __AUTH_CONST.__const: 0x38e8
-+  __AUTH_CONST.__auth_ptr: 0x168
 +  __AUTH_CONST.__auth_got: 0x11b8
 +  __AUTH.__objc_data: 0x358
 +  __AUTH.__data: 0xb28
@@ -117,12 +115,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D5A5D853-AC0D-3C15-8F8E-4366241A4116
 -  Functions: 7782
 -  Symbols:   18023
--  CStrings:  937
+-  CStrings:  992
++  UUID: B0931FA9-3E05-3949-A5FD-3A76B569AF33
 +  Functions: 9558
 +  Symbols:   22295
-+  CStrings:  1186
++  CStrings:  1259
  
 Symbols:
 + +[CMLClientConfig supportsSecureCoding]

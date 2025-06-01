@@ -58,11 +58,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF7C2DE6-E6C5-3D1B-A9B6-80B5FAA8E46A
 -  Functions: 848
++  UUID: B0A2E31D-79BF-366A-BCDB-1C9B64B2C5AE
 +  Functions: 853
    Symbols:   4425
--  CStrings:  648
-+  CStrings:  649
+-  CStrings:  790
++  CStrings:  791
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/ce7a2ab7-ccb4-11ee-8860-1e1d6dc629d0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/local/lib/security_libDER/libDER.a(DER_Decode.o)

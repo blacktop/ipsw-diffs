@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C5FD0FF-8D2A-3F12-AC4C-1D1DE8FCE43D
 -  Functions: 2119
 -  Symbols:   5877
--  CStrings:  2077
+-  CStrings:  2365
++  UUID: 315BB40A-6DF4-380B-8F57-1CF88B5C7DFC
 +  Functions: 2123
 +  Symbols:   5886
-+  CStrings:  2081
++  CStrings:  2369
  
 Symbols:
 + -[ASDDSPStream bypassMode]

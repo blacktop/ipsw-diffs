@@ -35,7 +35,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x88
    __AUTH_CONST.__cfstring: 0x3360
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x320
 -  __DATA.__objc_classrefs: 0xb0
 -  __DATA.__objc_superrefs: 0x88
@@ -51,11 +50,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8591F44B-C57B-3F3A-8AB6-0949D82CB793
 -  Functions: 819
++  UUID: BCAEBECC-1A44-3292-80C1-40A003D7D1E0
 +  Functions: 825
    Symbols:   202
--  CStrings:  1170
-+  CStrings:  1171
+-  CStrings:  1581
++  CStrings:  1582
  
 Symbols:
 + __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptionsP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_E

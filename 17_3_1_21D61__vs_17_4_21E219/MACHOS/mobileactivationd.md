@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F58509F7-D0CE-32CE-9F39-B4CB9FCFCF36
 -  Functions: 1226
 -  Symbols:   8795
--  CStrings:  2716
+-  CStrings:  4208
++  UUID: F996D97A-A6F8-3275-AF0C-0BA1B3258929
 +  Functions: 1249
 +  Symbols:   8895
-+  CStrings:  2740
++  CStrings:  4253
  
 Symbols:
 + -[DeviceType device_supports_mfi_certificates]

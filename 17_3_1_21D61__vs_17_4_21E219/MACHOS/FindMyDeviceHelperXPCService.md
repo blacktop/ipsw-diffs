@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x410
    __DATA.__data: 0x448
 
+   - /System/Library/PrivateFrameworks/NearField.framework/NearField
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82ADE475-7374-389A-94F6-D4C151E632BB
++  UUID: C1220D9D-7871-35FF-88EF-D2C993421B9C
    Functions: 327
    Symbols:   177
--  CStrings:  1104
-+  CStrings:  1105
+-  CStrings:  1461
++  CStrings:  1462
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/ScreenTimeUICore.framework/ScreenTimeUICore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B42E59B8-28C6-3231-AC4F-29CBF377FFB4
 -  Functions: 7
 -  Symbols:   46
--  CStrings:  103
+-  CStrings:  109
++  UUID: 8BCC14F8-7AB7-3224-BADF-535BF0917870
 +  Functions: 5
 +  Symbols:   44
-+  CStrings:  98
++  CStrings:  104
  
 Symbols:
 - _OBJC_CLASS_$_STScreenTimeReportViewControllerFactory

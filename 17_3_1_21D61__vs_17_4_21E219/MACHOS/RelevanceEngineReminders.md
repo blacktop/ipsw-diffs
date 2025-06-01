@@ -29,4 +29,13 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 373EA430-EC23-3D69-8AC8-8E1D0830C08B
++  UUID: A544BE5E-1572-33AF-B5B5-C53F47774AFA
+   Functions: 18
+   Symbols:   108
+   CStrings:  83
+
 ```

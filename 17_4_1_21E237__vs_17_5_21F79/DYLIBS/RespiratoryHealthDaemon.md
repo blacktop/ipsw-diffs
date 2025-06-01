@@ -21,6 +21,15 @@
    __TEXT.__objc_methtype: 0x678
    __TEXT.__objc_stubs: 0x1540
    __DATA_CONST.__got: 0xb0
+
+   - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 692559F3-17C6-3A57-A376-6742CB3968B5
++  UUID: AABE5A44-1D95-3E30-9FF3-3F2E4BF2F025
+   Functions: 159
+   Symbols:   787
+   CStrings:  544
 Symbols:
 + -[HDRespiratoryProfileExtension _updateBackgroundRecordingSettings]
 + -[HDRespiratoryProfileExtension _updateBackgroundRecordingSettings].cold.1

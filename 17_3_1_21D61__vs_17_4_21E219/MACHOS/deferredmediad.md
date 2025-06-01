@@ -26,6 +26,8 @@
    - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8BDA8213-F649-3892-AEDE-A11BA5AA0138
++  UUID: 9F8A9998-DF34-385A-BCFC-06BA709DC6DD
    Functions: 2
 -  Symbols:   18
 +  Symbols:   19

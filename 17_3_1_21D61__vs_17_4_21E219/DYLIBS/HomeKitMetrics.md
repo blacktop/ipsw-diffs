@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x280
 -  __AUTH.__objc_data: 0x5f0
 -  __DATA.__objc_protorefs: 0x8
@@ -79,12 +78,14 @@
    - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BFB8E5A-20C8-3861-B1DA-3FBF578FD87D
 -  Functions: 528
 -  Symbols:   2325
--  CStrings:  1099
+-  CStrings:  1179
++  UUID: 0C6D22A8-5506-30E3-BDE9-EDAE1740FFA7
 +  Functions: 561
 +  Symbols:   2472
-+  CStrings:  1158
++  CStrings:  1238
  
 Symbols:
 + +[HMMDateProvider startOfDayForDate:]

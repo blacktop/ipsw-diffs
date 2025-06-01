@@ -42,4 +42,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E286A7E5-92DC-3397-B6A5-7122231AEF7B
++  UUID: 03F8586D-9664-32AA-B485-95177D5C091D
+   Functions: 187
+   Symbols:   146
+   CStrings:  287
+
 ```

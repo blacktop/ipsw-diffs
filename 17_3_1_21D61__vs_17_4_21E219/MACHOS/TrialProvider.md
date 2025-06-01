@@ -21,4 +21,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libktrace.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F945001B-6BBD-3C56-85A7-203E8BDFF120
++  UUID: 79A94D86-5F3A-3E0B-B627-75D0D11EFF0C
+   Functions: 7
+   Symbols:   40
+   CStrings:  73
+
 ```

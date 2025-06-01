@@ -43,11 +43,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F045EE0F-0FB5-3AB6-9FFD-95BD0134800F
 -  Functions: 194
++  UUID: F1DA9B67-C1E8-3058-88E3-F04F383564A7
 +  Functions: 195
    Symbols:   404
--  CStrings:  446
-+  CStrings:  447
+-  CStrings:  574
++  CStrings:  576
  
 CStrings:
 + "visionOS"

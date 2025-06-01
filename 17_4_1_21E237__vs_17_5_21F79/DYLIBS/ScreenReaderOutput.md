@@ -28,7 +28,6 @@
 +  __AUTH_CONST.__cfstring: 0x3580
    __AUTH_CONST.__objc_intobj: 0x8e8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x770
@@ -44,11 +43,15 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9682F0A-DA5F-3B81-85BF-4FBD766C5703
++  UUID: 2C3093FB-41F2-3E87-8993-D04C5E3DE057
    Functions: 1492
    Symbols:   5582
--  CStrings:  2600
-+  CStrings:  2602
+-  CStrings:  3027
++  CStrings:  3030
  
 CStrings:
 + "DotMini"

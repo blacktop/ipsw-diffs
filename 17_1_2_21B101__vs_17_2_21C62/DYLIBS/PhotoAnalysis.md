@@ -44,11 +44,15 @@
    __DATA_DIRTY.__bss: 0x1f30
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 718A2CD8-B7A3-34F8-807A-E5CBEA197A76
++  UUID: 18EFB534-C7C9-338E-9259-2ADF2F6AD77D
    Functions: 7410
    Symbols:   11912
--  CStrings:  6539
-+  CStrings:  6540
+-  CStrings:  7689
++  CStrings:  7690
  
 CStrings:
 + "enable59520148"

@@ -64,7 +64,7 @@
    __AUTH_CONST.__objc_arrayobj: 0xe40
    __AUTH_CONST.__objc_intobj: 0xf30
 
-   __AUTH_CONST.__auth_ptr: 0x1f0
+   __AUTH_CONST.__objc_dictobj: 0x2f8
    __AUTH_CONST.__auth_got: 0x30d8
    __AUTH.__objc_data: 0x10be0
 -  __AUTH.__data: 0x3020
@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AEA10B1C-9498-367D-B310-5E69D409CE87
 -  Functions: 40090
 -  Symbols:   117191
--  CStrings:  45267
+-  CStrings:  49683
++  UUID: 12784B19-CC95-30CE-B8DD-3FFC5C258AC5
 +  Functions: 40129
 +  Symbols:   117255
-+  CStrings:  45297
++  CStrings:  49715
  
 Symbols:
 + +[CKChatItem unloadSizesOfChatItems:]

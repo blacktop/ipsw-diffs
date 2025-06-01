@@ -34,7 +34,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96BC8F96-61F6-30C4-A0CE-1D44BE43BA64
++  UUID: 31EDAC7B-A2FB-310A-A721-D80A5E37163C
    Functions: 52
    Symbols:   260
 -  CStrings:  156

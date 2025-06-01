@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DF383E6-156E-3AC6-B7AC-3CB7B331ECB1
 -  Functions: 211
 -  Symbols:   958
--  CStrings:  633
+-  CStrings:  792
++  UUID: 8373E790-7273-3DB4-9A18-26217C6444A0
 +  Functions: 218
 +  Symbols:   979
-+  CStrings:  646
++  CStrings:  807
  
 Symbols:
 + -[BRRTCMigrationMetric lastActiveDate]

@@ -21,12 +21,15 @@
    __TEXT.__objc_methname: 0x3e59
    __TEXT.__objc_methtype: 0x99b
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30C4C29C-A8BC-3CB6-8106-5471B6F007E4
++  UUID: 5D20097E-E37B-3BAC-9B15-4C131B9DC27B
    Functions: 677
 -  Symbols:   2444
 +  Symbols:   2446
-   CStrings:  1179
+   CStrings:  1304
  
 Symbols:
 + GCC_except_table12

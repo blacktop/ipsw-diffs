@@ -24,8 +24,10 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: AD31260A-DF06-381F-B51C-C16DAAF56E97
 -  Functions: 44
 -  Symbols:   372
++  UUID: 60AF3151-AF74-3D7C-A59C-2B8DC4A123ED
 +  Functions: 43
 +  Symbols:   365
    CStrings:  41

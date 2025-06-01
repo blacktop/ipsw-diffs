@@ -12,4 +12,13 @@
    __TEXT.__const: 0xc0
    __TEXT.__cstring: 0xbc0
 
+   __DATA_DIRTY.__bss: 0x1c
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: E6BB7C50-28D0-3222-A434-FA87B7E2ED71
++  UUID: AE1DC92C-7E21-3A9C-9A2B-22C752C52870
+   Functions: 201
+   Symbols:   514
+   CStrings:  174
+
 ```

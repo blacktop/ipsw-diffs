@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ED9FB7E0-14FE-342E-9DFB-B53F77503A97
 -  Functions: 7188
 -  Symbols:   17705
--  CStrings:  11807
+-  CStrings:  14801
++  UUID: E80030D7-2AFC-3279-AE71-99BC5735BD51
 +  Functions: 7206
 +  Symbols:   17765
-+  CStrings:  11905
++  CStrings:  14953
  
 Symbols:
 + +[SecureIntentViewController authStorageKeyForRequestSource:]

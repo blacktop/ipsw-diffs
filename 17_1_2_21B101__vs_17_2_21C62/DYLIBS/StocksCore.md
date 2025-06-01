@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x618
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x548
 -  __AUTH_CONST.__auth_got: 0x1b80
 +  __AUTH_CONST.__auth_got: 0x1b98
    __AUTH.__objc_data: 0x7c0
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32B5D913-E140-30B1-B853-382F2B69B3BE
 -  Functions: 14947
 -  Symbols:   7321
--  CStrings:  4473
+-  CStrings:  4644
++  UUID: 1225BD3D-19D1-3B2D-A800-6429F51B3C26
 +  Functions: 14979
 +  Symbols:   7327
-+  CStrings:  4507
++  CStrings:  4678
  
 Symbols:
 + __DATA__TtC10StocksCore37PaidBundleViaOfferFeatureAvailability

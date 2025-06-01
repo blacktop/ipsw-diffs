@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F9C2506-EE3E-3A89-A6F3-EFE68DF3AF80
 -  Functions: 226
 -  Symbols:   744
--  CStrings:  491
+-  CStrings:  737
++  UUID: 9CCAB38A-F51E-3031-96B3-5DD391B5F5D1
 +  Functions: 232
 +  Symbols:   760
-+  CStrings:  492
++  CStrings:  738
  
 Symbols:
 + GCC_except_table67

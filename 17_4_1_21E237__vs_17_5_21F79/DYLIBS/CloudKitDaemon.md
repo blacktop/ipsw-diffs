@@ -56,9 +56,8 @@
    __DATA_CONST.__objc_arraydata: 0x13e0
    __AUTH_CONST.__const: 0x3a10
 -  __AUTH_CONST.__objc_const: 0xe4e8
-+  __AUTH_CONST.__objc_const: 0xe530
-   __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__cfstring: 0x1da40
++  __AUTH_CONST.__objc_const: 0xe530
 +  __AUTH_CONST.__cfstring: 0x1dbe0
    __AUTH_CONST.__objc_arrayobj: 0x3a8
    __AUTH_CONST.__objc_dictobj: 0xaa0
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4419E7B4-0D4A-3568-956C-4BCC7018B671
 -  Functions: 17552
 -  Symbols:   2649
--  CStrings:  21108
+-  CStrings:  24902
++  UUID: B9D5CC75-5DE8-34DE-B9FC-9F00E5DF2D88
 +  Functions: 17569
 +  Symbols:   2652
-+  CStrings:  21129
++  CStrings:  24936
  
 Symbols:
 + _CKAddResponseHeaderValuesToUserInfoDictionary

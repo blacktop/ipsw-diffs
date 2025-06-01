@@ -32,9 +32,11 @@
    - /System/Library/PrivateFrameworks/AppleCVHWA.framework/AppleCVHWA
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 2AE98425-8A4B-3FCA-9ED7-6544ABDA1822
 -  Functions: 86
 -  Symbols:   203
 -  CStrings:  11
++  UUID: DD9D85EA-DE7A-3A68-8BA7-6B281AE533B8
 +  Functions: 90
 +  Symbols:   205
 +  CStrings:  12

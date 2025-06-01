@@ -45,7 +45,7 @@
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__const: 0x180
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__auth_got: 0x5c8
 -  __AUTH.__objc_data: 0x1ae0
@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF3587F6-45CA-35AD-966B-EB34C22BB9AB
 -  Functions: 2453
 -  Symbols:   9253
--  CStrings:  4692
+-  CStrings:  5150
++  UUID: FD3A5301-8EC6-3935-A7F6-56D19291F56D
 +  Functions: 2454
 +  Symbols:   9259
-+  CStrings:  4697
++  CStrings:  5155
  
 Symbols:
 + +[AKAlertImageURLProvider url]

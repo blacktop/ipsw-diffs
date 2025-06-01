@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF5AC572-4757-389F-8214-DD22958C706C
 -  Functions: 205
 -  Symbols:   917
--  CStrings:  477
+-  CStrings:  504
++  UUID: 00DFBA80-1907-3EC7-85C0-5A50EDD7FAE0
 +  Functions: 210
 +  Symbols:   939
-+  CStrings:  492
++  CStrings:  522
  
 Symbols:
 + -[ASOOverlayTransitionContext addAnimationBlockInternal:]

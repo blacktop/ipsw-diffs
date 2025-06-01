@@ -33,11 +33,15 @@
    __AUTH_CONST.__const: 0x220
    __AUTH_CONST.__objc_intobj: 0xa8
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F4A6EF4-090B-3C09-9BC8-CAF72CD3FBDB
++  UUID: 97A6F117-0870-393B-BAE6-4346BE82E000
    Functions: 528
    Symbols:   2325
--  CStrings:  1102
-+  CStrings:  1099
+-  CStrings:  1185
++  CStrings:  1179
  
 Symbols:
 + +[HMMAccessoryGroupSpecifier type]

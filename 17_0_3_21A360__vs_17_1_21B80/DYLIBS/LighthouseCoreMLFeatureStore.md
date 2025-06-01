@@ -56,11 +56,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D3661404-CF1B-348B-95ED-40A89F2E1029
 -  Functions: 236
 -  Symbols:   1062
++  UUID: D2F7F9EC-CF9F-39F5-9658-00BA6FC0CC92
 +  Functions: 238
 +  Symbols:   1066
-   CStrings:  537
+   CStrings:  599
  
 Symbols:
 + -[LCFELShadowEvaluationPrediction init:predictedFeatureSet:outputLabelFeatureName:]

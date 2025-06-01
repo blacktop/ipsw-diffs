@@ -28,11 +28,15 @@
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x338
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8608926-5590-3334-9C34-B86683036E3E
++  UUID: 30B66EAF-A9A6-3155-BC5D-EED60B26AE86
    Functions: 522
    Symbols:   320
--  CStrings:  1497
-+  CStrings:  1498
+-  CStrings:  1644
++  CStrings:  1645
  
 CStrings:
 + "Launching; \"NanoSystemSettingsDaemon-336\" \"293\""

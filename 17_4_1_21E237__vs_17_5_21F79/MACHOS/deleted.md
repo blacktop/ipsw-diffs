@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0xb8
    __DATA_CONST.__const: 0x16f8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9BBE11C6-B231-3739-9ECF-B0A7BE9C4E5E
++  UUID: 834CD357-9B46-3C7F-8378-A5686EDDBBA9
+   Functions: 889
+   Symbols:   2489
+   CStrings:  2477
+
 ```

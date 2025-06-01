@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x110
    __DATA.__objc_superrefs: 0x88
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6150BF29-A576-3026-A9E9-926D7D861412
++  UUID: 29E512EB-1B05-302B-AE5F-C871D645BCEE
    Functions: 559
    Symbols:   176
--  CStrings:  908
-+  CStrings:  909
+-  CStrings:  1025
++  CStrings:  1026
  
 CStrings:
 + "cancel"

@@ -18,4 +18,13 @@
    __DATA_DIRTY.__objc_const: 0x510
    __DATA_DIRTY.__objc_data: 0x460
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1E30B66B-7A89-3E90-B6B5-3983C4295ADA
++  UUID: E171F173-E54B-31F7-B6AC-E96CB0D9DA6A
+   Functions: 207
+   Symbols:   750
+   CStrings:  301
+
 ```

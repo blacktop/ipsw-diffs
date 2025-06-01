@@ -33,13 +33,16 @@
    __DATA_CONST.__objc_classrefs: 0x280
    __DATA_CONST.__objc_superrefs: 0xf0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 772210F1-67E5-37BF-850A-5F79DB21F606
++  UUID: ACC378B9-41C6-3E26-B795-F79EBC0CE407
    Functions: 1373
 -  Symbols:   4820
--  CStrings:  2805
+-  CStrings:  3443
 +  Symbols:   4821
-+  CStrings:  2806
++  CStrings:  3444
  
 Symbols:
 + _objc_msgSend$setPollingFilter:

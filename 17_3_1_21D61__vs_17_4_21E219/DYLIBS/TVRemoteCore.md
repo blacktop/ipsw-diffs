@@ -74,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B9F7346E-29A1-330E-BE6A-E011D1047FB2
 -  Functions: 2823
 -  Symbols:   9138
--  CStrings:  4834
+-  CStrings:  5641
++  UUID: C0CFE489-75A2-3A69-AAF6-B589EB23ED9C
 +  Functions: 2834
 +  Symbols:   9144
-+  CStrings:  4838
++  CStrings:  5646
  
 Symbols:
 + _OBJC_CLASS_$_AVAudioSession

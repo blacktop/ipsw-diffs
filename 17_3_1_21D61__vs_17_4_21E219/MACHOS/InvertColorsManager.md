@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FFC4B47A-708A-30CC-A005-54A9C6846DAE
 -  Functions: 1945
 -  Symbols:   1902
--  CStrings:  2570
+-  CStrings:  3688
++  UUID: C0A0A2A9-0B4B-35F8-A5D2-41E911727755
 +  Functions: 1937
 +  Symbols:   1894
-+  CStrings:  2563
++  CStrings:  3677
  
 Symbols:
 - _OBJC_CLASS_$_DigitalClockFaceViewControllerInvertColorsAccessibility

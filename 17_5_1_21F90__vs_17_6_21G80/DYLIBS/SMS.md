@@ -33,11 +33,15 @@
    __DATA_CONST.__objc_superrefs: 0x58
    __DATA_CONST.__objc_arraydata: 0x30
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D7014DC7-D7BF-3E5F-94D7-6FAADBCC16BD
++  UUID: 4AC473CA-96DC-3CE0-94FF-9006E4B208F2
    Functions: 632
    Symbols:   423
--  CStrings:  2552
-+  CStrings:  2553
+-  CStrings:  2853
++  CStrings:  2854
  
 CStrings:
 + "setOriginalUnformattedID:"

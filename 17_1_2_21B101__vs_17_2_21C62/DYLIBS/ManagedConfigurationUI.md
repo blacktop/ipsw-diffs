@@ -42,7 +42,6 @@
 -  __AUTH_CONST.__cfstring: 0x2440
 +  __AUTH_CONST.__objc_const: 0x1450
 +  __AUTH_CONST.__cfstring: 0x24a0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x1a0
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x40
@@ -63,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 367DB4D0-96A1-38E4-95B0-27D9C730AFC0
 -  Functions: 1095
 -  Symbols:   4371
--  CStrings:  2269
+-  CStrings:  2559
++  UUID: 3F1E67C1-0DF2-33A9-B0B5-77DFB0AFE41C
 +  Functions: 1100
 +  Symbols:   4399
-+  CStrings:  2285
++  CStrings:  2578
  
 Symbols:
 + +[MCUISettingsWatchManager _isWatchYorktownEnrolled:]

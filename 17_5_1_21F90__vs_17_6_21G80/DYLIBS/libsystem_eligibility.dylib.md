@@ -16,7 +16,11 @@
    __TEXT.__unwind_info: 0x98
    __DATA_CONST.__got: 0x28
 
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 1A2BCBB2-500F-395F-8B03-324DAD0ED77D
++  UUID: E6CA626F-8FC5-3D96-A81D-B9F3EC523970
    Functions: 19
    Symbols:   74
 -  CStrings:  79

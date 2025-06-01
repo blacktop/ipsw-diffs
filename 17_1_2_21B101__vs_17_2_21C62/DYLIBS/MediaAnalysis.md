@@ -47,7 +47,6 @@
    __DATA_CONST.__objc_arraydata: 0xd98
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_const: 0x240
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__cfstring: 0x105c0
 +  __AUTH_CONST.__cfstring: 0x105e0
    __AUTH_CONST.__objc_doubleobj: 0x3c0
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 75D696A1-21B8-316F-AA14-0A3BFA0ECD7D
 -  Functions: 9736
 -  Symbols:   35855
--  CStrings:  13849
+-  CStrings:  15943
++  UUID: 92027F46-3764-3074-A917-551371E67BA4
 +  Functions: 9737
 +  Symbols:   35859
-+  CStrings:  13852
++  CStrings:  15947
  
 Symbols:
 + +[VCPFaceUtils isBestResourceForFaceProcessing:fromResources:]

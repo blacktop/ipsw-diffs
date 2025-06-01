@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/SensorKit.framework/SensorKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 43372063-8E6C-36AC-8165-9AEA4DFD1D55
++  UUID: 5063244C-115E-34BF-9AF6-B60B9027B5AC
+   Functions: 9
+   Symbols:   22
+   CStrings:  64
 
 ```

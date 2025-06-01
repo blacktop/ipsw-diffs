@@ -46,6 +46,12 @@
 -  __AUTH_CONST.__objc_const: 0x2d78
 -  __AUTH_CONST.__const: 0x100
 -  __AUTH_CONST.__objc_intobj: 0xac8
+-  __AUTH_CONST.__auth_got: 0x440
+-  __AUTH.__objc_data: 0x1810
+-  __DATA.__objc_protorefs: 0x8
+-  __DATA.__objc_classrefs: 0x388
+-  __DATA.__objc_superrefs: 0x310
+-  __DATA.__objc_ivar: 0x7c0
 +  __DATA_CONST.__objc_const: 0x8d60
 +  __DATA_CONST.__objc_selrefs: 0x28f0
 +  __DATA_CONST.__objc_protorefs: 0x8
@@ -55,13 +61,6 @@
 +  __AUTH_CONST.__objc_const: 0x3168
 +  __AUTH_CONST.__const: 0x120
 +  __AUTH_CONST.__objc_intobj: 0xbe8
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x440
--  __AUTH.__objc_data: 0x1810
--  __DATA.__objc_protorefs: 0x8
--  __DATA.__objc_classrefs: 0x388
--  __DATA.__objc_superrefs: 0x310
--  __DATA.__objc_ivar: 0x7c0
 +  __AUTH_CONST.__auth_got: 0x448
 +  __AUTH.__objc_data: 0x19f0
 +  __DATA.__objc_ivar: 0x8cc
@@ -79,12 +78,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 1E6C18FB-9F5C-31E7-B412-5A2DE6216F16
 -  Functions: 2732
 -  Symbols:   8321
--  CStrings:  3601
+-  CStrings:  4203
++  UUID: 0C100F48-4BF0-3E88-BE90-C069F37A3573
 +  Functions: 3022
 +  Symbols:   9115
-+  CStrings:  3818
++  CStrings:  4460
  
 Symbols:
 + +[UARPTLVPersonalizationECIDData metaDataTableEntry]

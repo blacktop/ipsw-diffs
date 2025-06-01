@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 8AD7AA2C-A0CB-3017-9181-F8FA14A2DCD9
++  UUID: 4C118D0D-3EBC-3378-AEBD-61D7F1FAD5FA
    Functions: 33
    Symbols:   90
--  CStrings:  172
-+  CStrings:  173
+-  CStrings:  197
++  CStrings:  198
  
 CStrings:
 + "T@\"NSString\",?,R,C"

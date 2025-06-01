@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 84DCDF43-18C3-3D22-9D14-F092E72AAED5
 -  Functions: 233
 -  Symbols:   1482
--  CStrings:  919
+-  CStrings:  1288
++  UUID: D6B72141-5C88-353E-8C0B-AFB2B9F07BFD
 +  Functions: 246
 +  Symbols:   1558
-+  CStrings:  970
++  CStrings:  1373
  
 Symbols:
 + -[AUDeveloperSettingsAboutListController getDropboxVersion:]

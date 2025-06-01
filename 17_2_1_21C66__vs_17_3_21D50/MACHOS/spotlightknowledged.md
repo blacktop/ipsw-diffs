@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 573004F4-88F4-375F-9E22-6B4D21D09B66
 -  Functions: 2106
 -  Symbols:   440
--  CStrings:  2325
+-  CStrings:  2818
++  UUID: 7754D2B9-2263-3428-A80E-24E0DB820D49
 +  Functions: 2118
 +  Symbols:   442
-+  CStrings:  2339
++  CStrings:  2835
  
 Symbols:
 + _SILanguageModelPreheat

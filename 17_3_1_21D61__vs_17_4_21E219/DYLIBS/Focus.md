@@ -43,11 +43,15 @@
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DoNotDisturbKit.framework/DoNotDisturbKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3BF6B66-A2B3-3BE6-8503-8EB6D5516405
++  UUID: BCBE54AD-4E8B-31AE-9F80-CE5BB72DA463
    Functions: 188
    Symbols:   803
--  CStrings:  443
-+  CStrings:  444
+-  CStrings:  475
++  CStrings:  476
  
 CStrings:
 + "T@\"NSString\",?,R,C"

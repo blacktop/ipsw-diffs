@@ -66,12 +66,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E0F38F51-ED01-3EF4-A75A-C275871D8E13
 -  Functions: 699
 -  Symbols:   2750
--  CStrings:  1267
+-  CStrings:  1441
++  UUID: 1A37F19A-E9CC-3A0E-B9CD-3DB77C7F834B
 +  Functions: 717
 +  Symbols:   2798
-+  CStrings:  1283
++  CStrings:  1457
  
 Symbols:
 + -[SFAppAutoFillOneTimeCodeProvider _consumeOneTimeCode:]

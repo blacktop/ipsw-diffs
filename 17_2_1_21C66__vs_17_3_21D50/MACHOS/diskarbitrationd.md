@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protolist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 608F0759-530D-30E3-93DB-642B983CD668
++  UUID: BC82F7C9-364C-31BE-9419-0E19E06B0222
    Functions: 455
    Symbols:   369
--  CStrings:  563
-+  CStrings:  565
+-  CStrings:  763
++  CStrings:  766
  
 CStrings:
 + " Mount options %@"

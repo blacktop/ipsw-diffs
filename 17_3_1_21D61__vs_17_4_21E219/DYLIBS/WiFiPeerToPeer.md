@@ -51,13 +51,16 @@
    __DATA_DIRTY.__objc_data: 0xa00
    __DATA_DIRTY.__bss: 0x50
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD58CCDB-73E5-3B3E-BB6D-0EEF62358376
++  UUID: F22EAB06-4819-30C9-B8F3-F1A5B49C551A
    Functions: 732
 -  Symbols:   2718
--  CStrings:  1451
+-  CStrings:  1752
 +  Symbols:   2720
-+  CStrings:  1456
++  CStrings:  1757
  
 Symbols:
 + _OBJC_IVAR_$_WiFiAwarePublisher._dataSessionHandles

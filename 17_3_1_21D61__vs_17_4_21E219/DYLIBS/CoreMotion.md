@@ -56,11 +56,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x6b0
    __DATA_CONST.__objc_arraydata: 0x220
 -  __AUTH_CONST.__const: 0x12608
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0xe5a0
 -  __AUTH_CONST.__objc_const: 0x6588
 +  __AUTH_CONST.__const: 0x12a98
-+  __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__cfstring: 0x10c80
 +  __AUTH_CONST.__objc_const: 0x6f60
    __AUTH_CONST.__objc_arrayobj: 0x90
@@ -97,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BE7671F8-BDB7-30F5-9957-10EA2E0FE9D7
 -  Functions: 16345
 -  Symbols:   1515
--  CStrings:  13266
+-  CStrings:  15103
++  UUID: 52751417-3085-3307-A50F-C251FB8762BC
 +  Functions: 16934
 +  Symbols:   1553
-+  CStrings:  14036
++  CStrings:  16184
  
 Symbols:
 + _CMColdStorageCardioTableNames

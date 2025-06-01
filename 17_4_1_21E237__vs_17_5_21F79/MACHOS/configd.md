@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x5c8
    __DATA_CONST.__auth_ptr: 0xf8
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 475DBCD8-AED7-3DA0-82C2-E66FA3B897F7
++  UUID: C7B00796-C1BB-3FA0-B3FF-BB26C32E1C2D
+   Functions: 886
+   Symbols:   788
+   CStrings:  1875
+
 ```

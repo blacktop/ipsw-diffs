@@ -27,6 +27,15 @@
    __DATA_CONST.__objc_classlist: 0x10
    __DATA_CONST.__objc_protolist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B3BAD16F-D8BF-3E2F-9941-7691730ABD0C
++  UUID: F4F59CE6-FF19-3C62-B9BA-3E3F6BC32AFB
+   Functions: 1597
+   Symbols:   2819
+   CStrings:  2115
 Symbols:
 + __ZN17MTForceManagement10clearStateEb
 - GCC_except_table25

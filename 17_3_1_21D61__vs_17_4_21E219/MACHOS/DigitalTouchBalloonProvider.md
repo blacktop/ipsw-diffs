@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x6c0
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B1D6477-5739-370C-871D-E92C49F71B60
++  UUID: 24BDB8C7-1990-3250-908F-30D4874252B4
    Functions: 420
    Symbols:   316
--  CStrings:  1235
-+  CStrings:  1237
+-  CStrings:  1292
++  CStrings:  1294
  
 CStrings:
 + "T@\"<CKTranscriptPluginViewDelegate>\",?,W,N"

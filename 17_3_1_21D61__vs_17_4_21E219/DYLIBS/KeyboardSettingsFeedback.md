@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__cfstring: 0x3a0
 -  __AUTH_CONST.__const: 0x120
 -  __AUTH_CONST.__objc_intobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x310
 -  __AUTH.__objc_data: 0x270
 -  __AUTH.__data: 0x178
@@ -108,12 +107,14 @@
 -  - /usr/lib/swift/libswiftXPC.dylib
 -  - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D063A34-4E17-3922-AA5C-C9C22011D019
 -  Functions: 121
 -  Symbols:   394
--  CStrings:  187
+-  CStrings:  216
++  UUID: 2178264B-0F96-3D2A-9EBA-275D9F1B7275
 +  Functions: 72
 +  Symbols:   354
-+  CStrings:  200
++  CStrings:  240
  
 Symbols:
 + +[TUIFeedbackController getFormIdentifier]

@@ -27,7 +27,6 @@
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x18
-
    __AUTH_CONST.__auth_got: 0x580
    __AUTH.__objc_data: 0x50
    __DATA.__objc_ivar: 0x510
@@ -43,5 +42,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6A90AED0-95E7-3DD3-8648-BC62693F51B4
++  UUID: F9DAE08B-AF27-3017-9C2E-46F28E0A0107
+   Functions: 1765
+   Symbols:   6310
+   CStrings:  2849
 
 ```

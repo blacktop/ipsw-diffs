@@ -33,13 +33,16 @@
    __AUTH_CONST.__objc_const: 0x288
    __AUTH_CONST.__cfstring: 0x620
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 716685CF-1C71-36D4-8105-728C61BDAB3C
++  UUID: 512BA9D1-F835-3B83-9A22-1FC06BA5C3B5
    Functions: 478
 -  Symbols:   2068
--  CStrings:  1390
+-  CStrings:  1439
 +  Symbols:   2069
-+  CStrings:  1391
++  CStrings:  1440
  
 Symbols:
 + _objc_msgSend$siriWillBePresented:

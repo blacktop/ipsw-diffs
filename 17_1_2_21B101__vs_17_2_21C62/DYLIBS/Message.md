@@ -79,7 +79,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xb58
    __AUTH_CONST.__objc_intobj: 0x9d8
    __AUTH_CONST.__objc_dictobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x878
 -  __AUTH_CONST.__auth_got: 0x3870
 -  __AUTH.__objc_data: 0x4d10
 -  __AUTH.__data: 0x6008
@@ -88,7 +87,6 @@
 -  __DATA.__objc_superrefs: 0x688
 -  __DATA.__objc_ivar: 0x1310
 -  __DATA.__data: 0x1c770
-+  __AUTH_CONST.__auth_ptr: 0x8a0
 +  __AUTH_CONST.__auth_got: 0x3968
 +  __AUTH.__objc_data: 0x4e90
 +  __AUTH.__data: 0x6408
@@ -117,12 +115,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 001A0FF9-66CD-3141-993E-8036F2DF6457
 -  Functions: 62534
 -  Symbols:   41801
--  CStrings:  16084
+-  CStrings:  19138
++  UUID: 5DFE228A-84DF-38FB-8289-12B2150785AD
 +  Functions: 63998
 +  Symbols:   42154
-+  CStrings:  16175
++  CStrings:  19240
  
 Symbols:
 + +[CRRecentContactsLibrary mf_recentEventForMailboxObjectID:]

@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 29AC7AF0-D141-351B-81A2-6B35107FD3C6
 -  Functions: 8479
 -  Symbols:   2032
--  CStrings:  10508
+-  CStrings:  12332
++  UUID: 8FA3A480-E738-30AE-84BB-806B8B307A59
 +  Functions: 8572
 +  Symbols:   2042
-+  CStrings:  10611
++  CStrings:  12443
  
 Symbols:
 + OBJC_IVAR_$_APPBLogMetaData._duration

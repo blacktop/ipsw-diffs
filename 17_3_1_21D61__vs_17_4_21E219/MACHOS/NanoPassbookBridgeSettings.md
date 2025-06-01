@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x660
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E8CA62AE-2957-3DD7-8E37-B09673759922
++  UUID: A7CB640E-B9E7-3A6A-BA28-8362D96B7218
    Functions: 479
    Symbols:   249
--  CStrings:  1306
-+  CStrings:  1307
+-  CStrings:  1395
++  CStrings:  1396
  
 Symbols:
 + _PKEnableDynamicSEAllocation

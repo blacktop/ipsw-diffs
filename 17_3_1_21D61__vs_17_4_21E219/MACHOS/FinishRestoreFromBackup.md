@@ -27,12 +27,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
+-  UUID: 5629220A-9406-31E5-89DC-2C236AEAF150
 -  Functions: 41
 -  Symbols:   90
--  CStrings:  262
+-  CStrings:  263
++  UUID: AE8231F8-0763-370C-8E42-CBD781CAA9A2
 +  Functions: 42
 +  Symbols:   94
-+  CStrings:  271
++  CStrings:  275
  
 Symbols:
 + _IOMainPort

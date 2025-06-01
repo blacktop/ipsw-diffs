@@ -78,12 +78,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CB839E1-94DD-301C-810D-E37DAA36C7D6
 -  Functions: 982
 -  Symbols:   321
--  CStrings:  1880
+-  CStrings:  2235
++  UUID: EA698D0E-084F-3C82-BC2D-5F4988BAB127
 +  Functions: 1005
 +  Symbols:   328
-+  CStrings:  1979
++  CStrings:  2356
  
 Symbols:
 + _NSLog

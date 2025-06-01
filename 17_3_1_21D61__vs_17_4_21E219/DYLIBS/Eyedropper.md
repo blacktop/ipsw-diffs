@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 10C8901B-29A5-37E6-B95D-3E0C1560DC00
 -  Functions: 139
 -  Symbols:   781
--  CStrings:  586
+-  CStrings:  591
++  UUID: D0172180-C543-3454-B882-E8EF9EDF5C0A
 +  Functions: 137
 +  Symbols:   773
-+  CStrings:  585
++  CStrings:  590
  
 Symbols:
 + ___block_literal_global.71

@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x1f8
    __DATA.__data: 0x1f8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA933408-832C-3034-94A8-3553F5265E00
++  UUID: C06AF6DF-8D5F-3AF8-8EE5-AA660C078EC1
    Functions: 101
    Symbols:   143
--  CStrings:  238
-+  CStrings:  239
+-  CStrings:  268
++  CStrings:  269
  
 CStrings:
 + "T@\"NSString\",?,R,C"

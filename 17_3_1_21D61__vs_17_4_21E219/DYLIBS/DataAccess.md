@@ -39,11 +39,15 @@
    __DATA.__data: 0x420
    __DATA.__bss: 0x190
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D33B018-A399-3358-8C58-4352AC915F54
++  UUID: 3C476B1B-27C0-3AA7-8F69-2A5DF45B858B
    Functions: 1510
    Symbols:   5472
--  CStrings:  2954
-+  CStrings:  2955
+-  CStrings:  3348
++  CStrings:  3349
  
 Symbols:
 + ___102+[DAAccountChangeHandler _sanityCheckChildAccountOfType:withParent:accountChangeInfo:inStore:updater:]_block_invoke.142

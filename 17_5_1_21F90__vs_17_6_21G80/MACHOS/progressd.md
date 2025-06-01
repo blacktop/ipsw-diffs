@@ -41,11 +41,15 @@
    __DATA_CONST.__objc_catlist: 0x1f0
    __DATA_CONST.__objc_protolist: 0xf0
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 39DC8FB9-8CD3-3F44-A2D9-F5FCF964C241
++  UUID: E13704DC-02F1-3364-93FA-874DB0A299D4
    Functions: 8198
    Symbols:   813
--  CStrings:  9484
-+  CStrings:  9488
+-  CStrings:  11959
++  CStrings:  11965
  
 CStrings:
 + "Database truncate %@"

@@ -18,11 +18,15 @@
    __TEXT.__dlopen_cstrs: 0x58
    __TEXT.__unwind_info: 0x6b0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B73D52B7-2806-3978-83F6-BCDA5D64D0A4
++  UUID: 28CECE70-8189-3A4F-A602-ACA84158713C
    Functions: 613
    Symbols:   2254
--  CStrings:  1668
-+  CStrings:  1669
+-  CStrings:  2074
++  CStrings:  2075
  
 Symbols:
 + ___block_descriptor_tmp.107

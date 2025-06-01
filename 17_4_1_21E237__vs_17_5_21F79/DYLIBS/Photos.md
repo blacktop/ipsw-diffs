@@ -52,8 +52,8 @@
    __AUTH_CONST.__objc_const: 0x96a8
    __AUTH_CONST.__objc_intobj: 0x1bf0
 
+   __AUTH_CONST.__objc_doubleobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1210
 -  __AUTH.__objc_data: 0x5550
 +  __AUTH.__objc_data: 0x54b0
@@ -77,11 +77,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 72B67AD1-90CA-3201-A098-8F925C71C3B9
 -  Functions: 10653
 -  Symbols:   35608
++  UUID: EE818C7F-839E-30AF-8346-5DE6E8746043
 +  Functions: 10655
 +  Symbols:   35615
-   CStrings:  18573
+   CStrings:  22478
  
 Symbols:
 + +[PHCloudSharedAssetExportRequest _resourceRetrievingQueue]

@@ -43,11 +43,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8885C969-AA3F-3E29-9D72-4D8D45D15B43
 -  Functions: 25
++  UUID: 5C59010B-8888-3120-98AF-241CFF7735F3
 +  Functions: 26
    Symbols:   100
--  CStrings:  159
-+  CStrings:  165
+-  CStrings:  162
++  CStrings:  168
  
 CStrings:
 + "%s Loading image file path for %@ with portable image loader %@"

@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 76B13103-6850-3610-ACA1-B6E0A012E6F0
 -  Functions: 7409
 -  Symbols:   23971
--  CStrings:  10262
+-  CStrings:  11311
++  UUID: 66C43764-3217-317F-BE42-612A266C65AD
 +  Functions: 7406
 +  Symbols:   23954
-+  CStrings:  10236
++  CStrings:  11283
  
 Symbols:
 + +[UIFont(PRTimeFont) pr_clearCachesForInvalidation]

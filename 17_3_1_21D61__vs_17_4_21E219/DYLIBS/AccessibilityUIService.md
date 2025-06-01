@@ -66,12 +66,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32B74D81-0F01-338C-BBF5-E0B17AAC88DF
 -  Functions: 506
 -  Symbols:   2259
--  CStrings:  1235
+-  CStrings:  1311
++  UUID: 78874282-27E1-32B8-A89D-1CE7E45A70A6
 +  Functions: 521
 +  Symbols:   2305
-+  CStrings:  1261
++  CStrings:  1338
  
 Symbols:
 + -[AXUIAssertionManager setTimerBackground:]

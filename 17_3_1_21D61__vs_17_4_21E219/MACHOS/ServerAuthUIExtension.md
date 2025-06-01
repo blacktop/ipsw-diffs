@@ -27,11 +27,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SMBClientProvider.framework/SMBClientProvider
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04BC6A5A-B25A-3FBB-9DB6-439CA46D9D1F
++  UUID: 79E678C2-4A4D-3028-8E67-8653346A1CE7
    Functions: 60
    Symbols:   124
--  CStrings:  238
-+  CStrings:  239
+-  CStrings:  249
++  CStrings:  250
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 678491E7-E025-36D1-A6C6-CFEBA3D1940E
 -  Functions: 28
 -  Symbols:   195
--  CStrings:  88
+-  CStrings:  99
++  UUID: 8AEA89C9-F272-3066-ABEC-8D9194AC7BA5
 +  Functions: 33
 +  Symbols:   223
-+  CStrings:  95
++  CStrings:  106
  
 Symbols:
 + +[ATTrackingManager _TCCServer]

@@ -22,7 +22,6 @@
    __DATA_CONST.__const: 0x2d0
    __AUTH_CONST.__const: 0x2f0
    __AUTH_CONST.__cfstring: 0x120
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x450
 +  __AUTH_CONST.__auth_got: 0x458
    __AUTH.__data: 0x238
@@ -32,12 +31,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 586DC172-A677-39F8-B72E-9BFF8C015492
 -  Functions: 2570
 -  Symbols:   5261
--  CStrings:  1969
+-  CStrings:  1978
++  UUID: 6EA67ABF-7D8B-317F-979B-A7CC16706896
 +  Functions: 2579
 +  Symbols:   5280
-+  CStrings:  1989
++  CStrings:  1998
  
 Symbols:
 + _OUTLINED_FUNCTION_55

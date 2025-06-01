@@ -86,12 +86,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F42BF39E-EBB2-333B-A652-4941332EF67B
 -  Functions: 2066
 -  Symbols:   7471
--  CStrings:  4194
+-  CStrings:  5435
++  UUID: 8684138D-A720-33C7-9E0A-5FDBB61FA3EF
 +  Functions: 2188
 +  Symbols:   7846
-+  CStrings:  4401
++  CStrings:  5702
  
 Symbols:
 + +[SUAlertPresentationManager sharedInstance]

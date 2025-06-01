@@ -72,11 +72,9 @@
 -  __AUTH_CONST.__const: 0x21c98
 +  __AUTH_CONST.__const: 0x22dc8
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x948
 -  __AUTH_CONST.__auth_got: 0x40f8
 -  __AUTH.__objc_data: 0xa60
 -  __AUTH.__data: 0x71d0
-+  __AUTH_CONST.__auth_ptr: 0x960
 +  __AUTH_CONST.__auth_got: 0x41a0
 +  __AUTH.__objc_data: 0xb50
 +  __AUTH.__data: 0x7698
@@ -105,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F2C3EC95-A675-349C-A777-A21EB919EBB4
 -  Functions: 39868
 -  Symbols:   26796
--  CStrings:  2375
+-  CStrings:  2388
++  UUID: 006DFF87-82C8-37DE-8154-DEC653F98D96
 +  Functions: 41138
 +  Symbols:   27475
-+  CStrings:  2413
++  CStrings:  2426
  
 Symbols:
 + -[MusicKitInternal_SoftLinking_MPModelLibraryPlaylistChangeRequest performWithCompletionPolicy:completionHandler:]

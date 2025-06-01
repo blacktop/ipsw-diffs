@@ -59,12 +59,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 86D56A32-A3F1-3A92-A18E-E3701FCD9424
 -  Functions: 1025
 -  Symbols:   4000
--  CStrings:  2289
+-  CStrings:  2690
++  UUID: CE9314D8-BB97-3697-8C63-52D28481253A
 +  Functions: 1026
 +  Symbols:   4011
-+  CStrings:  2301
++  CStrings:  2706
  
 Symbols:
 + GCC_except_table17

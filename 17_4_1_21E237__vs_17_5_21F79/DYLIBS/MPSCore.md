@@ -43,16 +43,15 @@
 -  __AUTH_CONST.__const: 0xb08
 -  __AUTH_CONST.__objc_const: 0x168
 -  __AUTH_CONST.__cfstring: 0x3620
+-  __AUTH_CONST.__auth_got: 0x508
+-  __AUTH.__objc_data: 0x190
+-  __DATA.__objc_ivar: 0x304
+-  __DATA.__data: 0x958
 +  __DATA_CONST.__objc_classrefs: 0x188
 +  __DATA_CONST.__objc_superrefs: 0x178
 +  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__cfstring: 0x35e0
 +  __AUTH_CONST.__const: 0x6b8
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x508
--  __AUTH.__objc_data: 0x190
--  __DATA.__objc_ivar: 0x304
--  __DATA.__data: 0x958
 +  __AUTH_CONST.__auth_got: 0x500
 +  __DATA.__objc_ivar: 0x300
 +  __DATA.__data: 0x968
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D194AE20-17B8-3B0C-B750-551D12AD5120
 -  Functions: 1674
 -  Symbols:   760
--  CStrings:  2019
+-  CStrings:  2452
++  UUID: 4C0DF0A7-2641-32A7-A76B-3AD8193538A0
 +  Functions: 1677
 +  Symbols:   759
-+  CStrings:  2012
++  CStrings:  2443
  
 Symbols:
 - _NSSelectorFromString

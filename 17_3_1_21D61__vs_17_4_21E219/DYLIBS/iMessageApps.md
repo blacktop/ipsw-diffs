@@ -37,11 +37,15 @@
    __DATA.__data: 0x300
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 950D0A51-B703-34F0-9554-187EBAC60472
++  UUID: 2D939F59-0390-36FD-8400-5ED2E524FA69
    Functions: 184
    Symbols:   834
--  CStrings:  607
-+  CStrings:  608
+-  CStrings:  615
++  CStrings:  616
  
 Symbols:
 + _objc_msgSend$containerViewController

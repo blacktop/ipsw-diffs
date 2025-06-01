@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__objc_intobj: 0x438
 +  __AUTH_CONST.__objc_intobj: 0x450
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x9d8
 -  __AUTH.__objc_data: 0x11d0
@@ -94,12 +93,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F73312CB-CD2F-3B71-8973-2227458C6507
 -  Functions: 3128
 -  Symbols:   10432
--  CStrings:  5379
+-  CStrings:  6099
++  UUID: CFC472A2-D018-3418-A935-C03E83373C28
 +  Functions: 3190
 +  Symbols:   10649
-+  CStrings:  5468
++  CStrings:  6182
  
 Symbols:
 + +[BRFileProviderServicesFactory clientSideServiceSyncProxyForURL:]

@@ -42,11 +42,15 @@
    __DATA.__data: 0x240
    __DATA.__bss: 0x50
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D903C835-DDC6-3B08-AF1B-76C55F0DEA75
++  UUID: BDF4896A-92BB-3333-8A60-DED631F4309E
    Functions: 124
    Symbols:   727
--  CStrings:  417
-+  CStrings:  418
+-  CStrings:  468
++  CStrings:  469
  
 Symbols:
 + -[ContactProviderController .cxx_destruct]

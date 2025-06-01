@@ -68,8 +68,7 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x8d0
    __AUTH_CONST.__objc_doubleobj: 0x110
    __AUTH_CONST.__objc_floatobj: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x18
-
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x1c18
    __AUTH.__objc_data: 0x3ca0
    __AUTH.__data: 0x1cb0
@@ -112,12 +111,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AF3A652E-0D05-39F4-A4D0-FAF436EE2B19
 -  Functions: 13388
 -  Symbols:   7929
--  CStrings:  9477
+-  CStrings:  10427
++  UUID: 06D0859D-C42A-377E-9219-452D95796EBB
 +  Functions: 13466
 +  Symbols:   7937
-+  CStrings:  9584
++  CStrings:  10536
  
 Symbols:
 + _OBJC_CLASS_$_NSIndexSet
@@ -642,6 +643,7 @@ CStrings:
 - "@84@0:8q16{_NSRange=QQ}24q40q48{_NSRange=QQ}56B72@76"
 - "@84@0:8q16{_NSRange=QQ}24q40q48{_NSRange=QQ}56B72Q76"
 - "@96@0:8q16@24B32q36q44{_NSRange=QQ}52B68Q72Q80Q88"
+- "A "
 - "Bad line end"
 - "Bad par index range %{public}@ (%lu)"
 - "Bad par index range."

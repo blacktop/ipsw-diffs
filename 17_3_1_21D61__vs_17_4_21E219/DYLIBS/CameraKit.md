@@ -25,4 +25,13 @@
    __DATA.__objc_const_ax: 0x0
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 72997A88-F920-3892-B459-E3ADF719E31C
++  UUID: 16F3C63A-CA6A-37A9-B534-64E88DEE7F9F
+   Functions: 47
+   Symbols:   230
+   CStrings:  160
+
 ```

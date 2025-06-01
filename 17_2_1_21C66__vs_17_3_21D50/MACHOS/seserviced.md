@@ -20,11 +20,15 @@
    __TEXT.__objc_classname: 0x1360
    __TEXT.__objc_methtype: 0x5f6d
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7D348ACF-5535-38E9-BC58-6E16C9D6B97E
++  UUID: F54B9647-5807-3035-B4F3-E75C0C22D4EF
    Functions: 6262
    Symbols:   1182
--  CStrings:  8380
-+  CStrings:  8381
+-  CStrings:  10544
++  CStrings:  10545
  
 CStrings:
 + "iOS (17.3) - SecureElementService-43.2"

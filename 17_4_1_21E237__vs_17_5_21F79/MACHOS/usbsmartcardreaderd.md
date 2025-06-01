@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/IOUSBHost.framework/IOUSBHost
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D9890DD-A09F-31E5-B581-B52756040AD3
 -  Functions: 648
 -  Symbols:   143
--  CStrings:  1140
+-  CStrings:  1431
++  UUID: BE1E39F3-9ACF-3ABE-A7CF-1A7A4BAFE9DA
 +  Functions: 664
 +  Symbols:   144
-+  CStrings:  1123
++  CStrings:  1386
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantDictionary

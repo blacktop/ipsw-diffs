@@ -24,10 +24,12 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 89C404C3-0C49-38A2-821D-73DA8C447565
 -  Functions: 596
++  UUID: 5681EA3E-28E2-33F5-B39C-236873D61180
 +  Functions: 592
    Symbols:   167
-   CStrings:  346
+   CStrings:  373
  
 
 ```

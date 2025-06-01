@@ -42,13 +42,16 @@
    __DATA.__data: 0x3c0
    __DATA_DIRTY.__objc_data: 0x140
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CC7DFA3-9297-38CA-A55D-B65EFBECBBE4
++  UUID: D00D1E24-39BD-37EE-8F21-A3BCBC21CF3C
    Functions: 159
 -  Symbols:   788
--  CStrings:  500
+-  CStrings:  543
 +  Symbols:   787
-+  CStrings:  501
++  CStrings:  544
  
 Symbols:
 + _OBJC_CLASS_$_HDAllowedCountriesDataSourceWithLocalCountrySetFallback

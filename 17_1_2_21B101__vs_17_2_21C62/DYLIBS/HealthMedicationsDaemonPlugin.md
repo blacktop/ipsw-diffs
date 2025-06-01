@@ -52,13 +52,16 @@
    - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
    - /System/Library/PrivateFrameworks/HealthMedications.framework/HealthMedications
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8CCCFC1F-CA7D-3CD1-95FC-0C8C18EB62BF
++  UUID: 6DE330A9-6D51-3C71-A50D-20DC0963F525
    Functions: 1617
 -  Symbols:   5907
--  CStrings:  2776
+-  CStrings:  3137
 +  Symbols:   5909
-+  CStrings:  2777
++  CStrings:  3138
  
 Symbols:
 + _AFDeviceSupportsSiriUOD

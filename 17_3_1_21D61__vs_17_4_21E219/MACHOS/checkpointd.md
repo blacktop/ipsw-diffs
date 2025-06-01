@@ -40,11 +40,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2111E296-58CA-31A8-ABCF-7E724C7EFB09
 -  Functions: 112
 -  Symbols:   86
++  UUID: A575E2B9-A42C-36ED-B929-301FF08BE6E9
 +  Functions: 117
 +  Symbols:   87
-   CStrings:  110
+   CStrings:  186
  
 Symbols:
 + _malloc

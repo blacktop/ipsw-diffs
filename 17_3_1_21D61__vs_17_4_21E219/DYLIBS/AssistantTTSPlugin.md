@@ -33,7 +33,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/VoiceServices.framework/VoiceServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71129C84-C7CF-320B-A236-9FB3A6036966
++  UUID: AD973165-05E0-3981-8B44-25C878414A70
    Functions: 11
    Symbols:   60
 -  CStrings:  103

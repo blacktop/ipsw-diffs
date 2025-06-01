@@ -29,7 +29,6 @@
    __AUTH_CONST.__cfstring: 0x2340
    __AUTH_CONST.__objc_const: 0x1a98
    __AUTH_CONST.__const: 0x4c0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x820
    __AUTH.__objc_data: 0xbe0
 -  __DATA.__objc_protorefs: 0x10
@@ -39,11 +38,15 @@
    __DATA.__data: 0x5c8
    __DATA.__bss: 0x78
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 489E7A68-4531-3047-89DE-2CFB77937771
++  UUID: 8E2674E7-805E-3C51-A27B-76F72CE37296
    Functions: 1318
    Symbols:   5163
--  CStrings:  2696
-+  CStrings:  2697
+-  CStrings:  2978
++  CStrings:  2979
  
 Symbols:
 + __OBJC_$_PROP_LIST_OFRescalableSegment.82

@@ -60,10 +60,8 @@
 -  __AUTH_CONST.__const: 0x21268
 +  __AUTH_CONST.__const: 0x20f30
    __AUTH_CONST.__objc_const: 0x2318
--  __AUTH_CONST.__auth_ptr: 0x210
 -  __AUTH_CONST.__auth_got: 0x1570
 -  __AUTH.__objc_data: 0x6b70
-+  __AUTH_CONST.__auth_ptr: 0x200
 +  __AUTH_CONST.__auth_got: 0x1550
 +  __AUTH.__objc_data: 0x6b68
    __AUTH.__data: 0x32c8
@@ -89,11 +87,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 35522EB6-04F9-3B3F-8624-3223882C6171
 -  Functions: 29793
 -  Symbols:   9004
++  UUID: 9D31CB0D-30BE-30F4-B4FC-A2EA6C3FC481
 +  Functions: 29686
 +  Symbols:   8995
-   CStrings:  4044
+   CStrings:  4303
  
 Symbols:
 - _associated conformance 9BlastDoor11TextMessageV14EncryptionTypeOSHAASQ

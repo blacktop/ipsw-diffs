@@ -35,8 +35,11 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5360F6D5-0330-3F5C-B5B6-2F9D41443B98
++  UUID: 2EC41C08-9571-33E4-95A1-DDB3E5FD0B26
    Functions: 284
 -  Symbols:   108
 +  Symbols:   107

@@ -31,11 +31,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E96FEC15-FDB1-3908-852D-77E015338D81
++  UUID: 1365AF6B-8BF5-3983-BAFC-981E381A3A39
    Functions: 227
    Symbols:   775
--  CStrings:  404
-+  CStrings:  405
+-  CStrings:  437
++  CStrings:  438
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -37,8 +37,11 @@
    - /usr/lib/swift/libswiftMetalKit.dylib
    - /usr/lib/swift/libswiftModelIO.dylib
 
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MusicApplication.framework/MusicApplication
+-  UUID: DA700C89-30C6-3CA6-85A2-717643B28824
++  UUID: 758B5735-EC91-317B-8C38-52268E6E84D3
    Functions: 43
 -  Symbols:   116
 +  Symbols:   117

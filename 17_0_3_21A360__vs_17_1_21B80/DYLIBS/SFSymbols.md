@@ -37,11 +37,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreText.framework/CoreText
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: EDA1B0AC-8692-364F-98CF-1D656E422D41
++  UUID: 5905F7FC-5BB2-3931-B220-1A6D3EF74065
    Functions: 1032
    Symbols:   1039
--  CStrings:  7380
-+  CStrings:  7407
+-  CStrings:  14640
++  CStrings:  14694
  
 Symbols:
 + __unnamed_array_storage.12160

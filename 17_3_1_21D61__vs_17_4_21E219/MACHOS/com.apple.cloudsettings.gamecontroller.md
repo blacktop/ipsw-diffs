@@ -28,11 +28,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/GameControllerSettings.framework/GameControllerSettings
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26168A7F-FE62-3778-ADB0-447FC0448C5B
++  UUID: B543A129-BE0D-3FA5-BBA9-4CE4CD523F65
    Functions: 22
    Symbols:   56
--  CStrings:  162
-+  CStrings:  163
+-  CStrings:  171
++  CStrings:  172
  
 CStrings:
 + "T@\"NSString\",?,R,C"

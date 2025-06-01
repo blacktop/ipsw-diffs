@@ -40,13 +40,16 @@
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A536D61B-1370-31EC-8414-9076EF96B30B
++  UUID: F91B9652-62F2-3078-9E2D-E0AF1B7781B6
    Functions: 270
 -  Symbols:   1449
--  CStrings:  1008
+-  CStrings:  1194
 +  Symbols:   1452
-+  CStrings:  1012
++  CStrings:  1199
  
 Symbols:
 + ___61-[SUSSoftwareUpdateTermsManager _handleAgreeFromObjectModel:]_block_invoke.500

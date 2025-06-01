@@ -19,4 +19,13 @@
    __DATA_CONST.__objc_classlist: 0x58
    __DATA_CONST.__objc_protolist: 0x68
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0E99FBB5-F18B-3D05-A29B-B89DC680838D
++  UUID: 3A3A305D-145F-3178-8325-C89D0895FC2D
+   Functions: 174
+   Symbols:   88
+   CStrings:  827
+
 ```

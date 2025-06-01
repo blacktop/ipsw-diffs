@@ -29,6 +29,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A316A55-8C18-36B5-8253-29D2B32D4A89
++  UUID: 42862DD6-F042-38A9-8E86-B3C4832248EC
+   Functions: 204
+   Symbols:   947
+   CStrings:  645
 Symbols:
 + ___block_literal_global.270
 + ___block_literal_global.279

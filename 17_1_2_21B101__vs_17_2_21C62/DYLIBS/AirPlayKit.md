@@ -38,12 +38,15 @@
    __DATA.__common: 0xa0
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A25C1535-2FCE-30E9-9B4B-A01304F8AB7C
++  UUID: 5A44FEF3-BC76-38C8-8A06-AE8B73A465F5
    Functions: 3700
 -  Symbols:   1551
 +  Symbols:   1552
-   CStrings:  840
+   CStrings:  851
  
 Symbols:
 + _symbolic SS_SSt

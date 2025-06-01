@@ -76,12 +76,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsp.dylib
+-  UUID: D479D5BB-1F9F-3405-BFAA-254435395FF3
 -  Functions: 3035
 -  Symbols:   752
--  CStrings:  6130
+-  CStrings:  7158
++  UUID: 53FD0335-077D-312D-81B6-5397BA6762D8
 +  Functions: 3046
 +  Symbols:   743
-+  CStrings:  6142
++  CStrings:  7167
  
 Symbols:
 + _BKSHIDEventSetSmartCoverInfo

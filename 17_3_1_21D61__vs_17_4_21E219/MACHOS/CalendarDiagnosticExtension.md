@@ -32,7 +32,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1CC8F464-DD50-3370-8E17-249EC0936513
++  UUID: A735537C-AF8C-3F98-BE54-A138CCEE1B36
    Functions: 15
    Symbols:   53
 -  CStrings:  92

@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85A0E5A8-8227-338F-B8CC-2D3E620F3647
 -  Functions: 4370
 -  Symbols:   1302
--  CStrings:  2021
+-  CStrings:  2230
++  UUID: 6B9B954A-6F8A-3465-A81D-391A84C1390E
 +  Functions: 4380
 +  Symbols:   1304
-+  CStrings:  2030
++  CStrings:  2244
  
 Symbols:
 + _OBJC_CLASS_$_PKLocation

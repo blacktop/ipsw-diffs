@@ -28,6 +28,15 @@
    __TEXT.__objc_stubs: 0x22ea0
    __DATA_CONST.__got: 0xa20
    __DATA_CONST.__const: 0x2848
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8928DC9B-AF0F-3D48-82BD-8835E451A233
++  UUID: 2F6904B2-148F-34BD-9278-4D78F8BC3501
+   Functions: 8105
+   Symbols:   25418
+   CStrings:  12823
 Symbols:
 + -[AVMobileChromelessContentTabsView _updateContentTabsUserInteractionEnabledStateIfNeeded]
 + -[AVMobileChromelessControlsViewController _transitionContentTabIfNeccesary:]

@@ -78,9 +78,8 @@
 +  __AUTH_CONST.__objc_const: 0x7060
 +  __AUTH_CONST.__const: 0x8700
    __AUTH_CONST.__cfstring: 0xa780
-   __AUTH_CONST.__auth_ptr: 0x208
    __AUTH_CONST.__objc_intobj: 0x510
-
+   __AUTH_CONST.__objc_arrayobj: 0x138
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_floatobj: 0x10
@@ -117,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 06BE2FA8-E82A-32BC-BBAA-F89BFE3285DC
 -  Functions: 12381
 -  Symbols:   27966
--  CStrings:  13394
+-  CStrings:  14734
++  UUID: 8D098BCA-7FF8-3877-BEEB-300E05613AC4
 +  Functions: 12450
 +  Symbols:   28035
-+  CStrings:  13442
++  CStrings:  14782
  
 Symbols:
 + +[ICAuthenticationAlert keychainItemMissingInfoAlert]

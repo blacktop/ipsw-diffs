@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x848
 +  __AUTH_CONST.__auth_got: 0x858
    __AUTH.__objc_data: 0x730
@@ -60,12 +59,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
+-  UUID: 0D741EAC-3E19-387F-8AB1-5EFAA8B7C249
 -  Functions: 3780
 -  Symbols:   11966
--  CStrings:  5195
+-  CStrings:  5805
++  UUID: 783DE8E7-CF31-3A72-86F9-BF3D29FF7358
 +  Functions: 3788
 +  Symbols:   11988
-+  CStrings:  5203
++  CStrings:  5811
  
 Symbols:
 + +[FPDFilePresenter presenter:withItemID:auditToken:urlHint:domain:]

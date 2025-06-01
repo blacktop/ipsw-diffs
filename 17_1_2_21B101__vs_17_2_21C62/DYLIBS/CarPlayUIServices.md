@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75232A9D-DA08-39C9-995A-9FCF984FAEA0
 -  Functions: 350
 -  Symbols:   1736
--  CStrings:  738
+-  CStrings:  808
++  UUID: 6F11279C-5C3D-327A-8265-584BC69F87DF
 +  Functions: 355
 +  Symbols:   1752
-+  CStrings:  752
++  CStrings:  822
  
 Symbols:
 + -[CRSUIDashboardWidgetWindow _lock_invalidateConnection]

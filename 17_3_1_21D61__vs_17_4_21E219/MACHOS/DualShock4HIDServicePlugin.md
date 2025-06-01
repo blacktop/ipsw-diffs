@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1FCFC51B-FB54-30F4-B15B-3C3757C1A13C
 -  Functions: 252
 -  Symbols:   127
--  CStrings:  718
+-  CStrings:  805
++  UUID: 86D6D9FE-0D31-3C4B-A1FD-33AAF04802F8
 +  Functions: 256
 +  Symbols:   128
-+  CStrings:  724
++  CStrings:  812
  
 Symbols:
 + _objc_opt_isKindOfClass

@@ -48,11 +48,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0C46030-E726-3A7F-92DE-4DFD426AD277
 -  Functions: 567
++  UUID: F8463335-C092-366D-BA57-36B27FB09194
 +  Functions: 573
    Symbols:   358
--  CStrings:  1001
-+  CStrings:  1003
+-  CStrings:  1243
++  CStrings:  1245
  
 CStrings:
 + "PretendAuthFailure"

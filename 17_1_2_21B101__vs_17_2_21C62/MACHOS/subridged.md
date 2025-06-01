@@ -25,11 +25,15 @@
    __DATA_CONST.__got: 0x138
    __DATA_CONST.__const: 0x1010
 
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B864AE38-8C66-35CA-AE54-B521745C94EE
++  UUID: 1B12AAB4-D08D-3C5D-86CB-BD0A339A54F6
    Functions: 467
    Symbols:   226
--  CStrings:  1162
-+  CStrings:  1166
+-  CStrings:  1350
++  CStrings:  1354
  
 CStrings:
 + "[GizmoOSVersionDidChange]: Failed to remove install marker at %@: %@"

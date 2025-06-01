@@ -40,13 +40,16 @@
    __DATA.__data: 0xae0
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6458C8A6-579A-392D-B641-6BF8C168B0C0
++  UUID: 0440D2C6-81D8-3D31-A4D4-2E131FB25981
    Functions: 1083
 -  Symbols:   356
--  CStrings:  1742
+-  CStrings:  1858
 +  Symbols:   355
-+  CStrings:  1740
++  CStrings:  1856
  
 Symbols:
 - OBJC_IVAR_$__RPCCUIAddActivityControl._backgroundMaterialView

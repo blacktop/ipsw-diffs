@@ -31,11 +31,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 94D623E1-019A-3FA4-BF64-7DD9F9585F13
++  UUID: 63F50453-8CB4-3FE3-BFFF-4C7FD161D06E
    Functions: 5
    Symbols:   36
--  CStrings:  94
-+  CStrings:  95
+-  CStrings:  96
++  CStrings:  97
  
 CStrings:
 + "T@\"NSString\",?,R,C"

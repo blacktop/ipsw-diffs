@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F08ED65C-348C-3AA1-A57A-51E7B365586F
 -  Functions: 224
 -  Symbols:   881
--  CStrings:  510
+-  CStrings:  578
++  UUID: 155473B9-C590-3A23-9E8F-B7D7FDEAAFB8
 +  Functions: 232
 +  Symbols:   903
-+  CStrings:  525
++  CStrings:  594
  
 Symbols:
 + -[SUCoreConnectMessage clientConnectionAuditToken]

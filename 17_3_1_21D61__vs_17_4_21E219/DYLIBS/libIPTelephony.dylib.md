@@ -42,7 +42,6 @@
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__cfstring: 0x24c0
    __AUTH_CONST.__objc_const: 0x1b0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x13c8
 -  __AUTH.__objc_data: 0x190
 +  __AUTH_CONST.__auth_got: 0x13c0
@@ -71,12 +70,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: DB26292B-5258-372E-AC02-08CD75D2FFE4
 -  Functions: 12923
 -  Symbols:   37427
--  CStrings:  8320
+-  CStrings:  8614
++  UUID: 27CA9896-3053-39B5-B359-8C33EBD0D899
 +  Functions: 12931
 +  Symbols:   37338
-+  CStrings:  8272
++  CStrings:  8566
  
 Symbols:
 + GCC_except_table770

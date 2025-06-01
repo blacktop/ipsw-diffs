@@ -26,11 +26,15 @@
    __DATA_CONST.__objc_selrefs: 0x10
    __AUTH_CONST.__cfstring: 0xc40
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CC40492E-A88C-3600-9B55-1D7F77B6A8D6
++  UUID: 54CABE4A-BDAC-3AA8-83E5-C6442B337A9E
    Functions: 651
    Symbols:   2041
--  CStrings:  841
-+  CStrings:  845
+-  CStrings:  939
++  CStrings:  943
  
 CStrings:
 + "/AppleInternal/Library/BuildRoots/ce4161a3-3a02-11ef-92ee-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.6.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"

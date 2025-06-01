@@ -26,6 +26,17 @@
    __DATA_CONST.__objc_classlist: 0x70
    __DATA_CONST.__objc_protolist: 0x40
    __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 42CCA968-3DC9-37EF-A647-17445776C2F8
++  UUID: 05FCA195-2BCE-3966-99E5-88DD91BF2B9D
+   Functions: 626
+   Symbols:   306
+-  CStrings:  1898
++  CStrings:  1899
+ 
 CStrings:
 + "/Library/Caches/com.apple.xbs/Sources/CoreDuet/CoreDuetDaemon/CoreDuetDaemon/Knowledge/CDKnowledgeDaemon.m:581"
 - "/Library/Caches/com.apple.xbs/Sources/CoreDuet/CoreDuetDaemon/CoreDuetDaemon/Knowledge/CDKnowledgeDaemon.m:582"

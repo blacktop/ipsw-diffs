@@ -43,11 +43,15 @@
    __DATA.__objc_data: 0xa00
    __DATA.__data: 0x10d0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 0F67D047-77AF-39B3-8737-35297634F49E
++  UUID: F789A70C-255D-3733-80BC-E692ACE9AB6F
    Functions: 1658
    Symbols:   460
--  CStrings:  3040
-+  CStrings:  3046
+-  CStrings:  3262
++  CStrings:  3269
  
 CStrings:
 + "/private/var/mobile/Library"

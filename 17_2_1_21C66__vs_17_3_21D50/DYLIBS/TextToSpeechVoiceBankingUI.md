@@ -54,11 +54,10 @@
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0x1f0
 -  __AUTH_CONST.__const: 0x6120
-+  __AUTH_CONST.__const: 0x61c8
-   __AUTH_CONST.__auth_ptr: 0x158
 -  __AUTH_CONST.__auth_got: 0x1930
 -  __AUTH.__objc_data: 0x938
 -  __AUTH.__data: 0x14f8
++  __AUTH_CONST.__const: 0x61c8
 +  __AUTH_CONST.__auth_got: 0x1960
 +  __AUTH.__objc_data: 0x948
 +  __AUTH.__data: 0x14e8
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E427392F-CA5F-3657-8E26-990FBFAB8285
 -  Functions: 3849
 -  Symbols:   1784
--  CStrings:  539
+-  CStrings:  540
++  UUID: 118B1A1E-71E5-3768-B432-5472AD5CB7BA
 +  Functions: 3866
 +  Symbols:   1798
-+  CStrings:  548
++  CStrings:  549
  
 Symbols:
 + _OBJC_CLASS_$_AXDispatchTimer

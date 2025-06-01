@@ -45,7 +45,6 @@
 +  __AUTH_CONST.__const: 0x40
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x310
@@ -70,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBB4FA5A-DF13-3C61-854C-03C784F64863
 -  Functions: 509
 -  Symbols:   1939
--  CStrings:  1752
+-  CStrings:  2070
++  UUID: 0810D17D-05B5-3322-A0E4-89361205B09F
 +  Functions: 510
 +  Symbols:   1942
-+  CStrings:  1757
++  CStrings:  2078
  
 Symbols:
 + __OBJC_$_PROP_LIST_AWBIBPParams.162

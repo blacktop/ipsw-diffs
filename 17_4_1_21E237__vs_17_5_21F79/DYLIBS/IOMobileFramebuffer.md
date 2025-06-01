@@ -17,7 +17,6 @@
    __DATA_CONST.__got: 0x80
    __DATA_CONST.__const: 0xd0
    __AUTH_CONST.__cfstring: 0x7e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x3b0
    __DATA.__data: 0x7c
 -  __DATA.__bss: 0x4
@@ -30,12 +29,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
    - /usr/lib/libSystem.B.dylib
+-  UUID: AB27F564-C6CA-36E3-AD27-F2A63A646097
 -  Functions: 369
 -  Symbols:   743
--  CStrings:  184
+-  CStrings:  247
++  UUID: 1532935B-B294-38A6-BB26-F3A9C267EA91
 +  Functions: 376
 +  Symbols:   753
-+  CStrings:  185
++  CStrings:  248
  
 Symbols:
 + _IOMobileFramebufferSwapSetIndicatorBrightness

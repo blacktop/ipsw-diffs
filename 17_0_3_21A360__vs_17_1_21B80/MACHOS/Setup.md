@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2CE3B81B-C039-39F1-A0E7-3A2A7A4C5C36
 -  Functions: 9734
 -  Symbols:   1324
--  CStrings:  12272
+-  CStrings:  13625
++  UUID: 864DE579-7E6A-386C-A1AC-D8065BF3ABB0
 +  Functions: 9781
 +  Symbols:   1326
-+  CStrings:  12320
++  CStrings:  13676
  
 Symbols:
 + _$s2os6LoggerV16SetupAssistantUIE18purpleBuddyGeneralACvau

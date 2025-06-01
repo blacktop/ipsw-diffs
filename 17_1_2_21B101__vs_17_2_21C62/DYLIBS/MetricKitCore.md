@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/MetricKitSource.framework/MetricKitSource
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 635DD82C-DB9A-33D9-9B39-99BEE5D29FC3
 -  Functions: 657
 -  Symbols:   2313
--  CStrings:  1002
+-  CStrings:  1060
++  UUID: 2A2E8208-B09F-3F6A-B14A-53F95E2CFA96
 +  Functions: 660
 +  Symbols:   2324
-+  CStrings:  1006
++  CStrings:  1064
  
 Symbols:
 + -[MXStorageUtil saveData:withFilePath:].cold.2

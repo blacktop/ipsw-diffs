@@ -26,11 +26,15 @@
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x290
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B90716C1-05B8-3EEB-B95F-B1AAD703DD59
++  UUID: 9032917C-0B12-3482-8B40-95E9ADE6B19E
    Functions: 355
    Symbols:   1581
--  CStrings:  1058
-+  CStrings:  1059
+-  CStrings:  1203
++  CStrings:  1205
  
 CStrings:
 + "A3085"

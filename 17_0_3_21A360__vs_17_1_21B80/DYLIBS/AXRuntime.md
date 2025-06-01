@@ -41,18 +41,20 @@
 -  __AUTH_CONST.__cfstring: 0x4cc0
 +  __AUTH_CONST.__cfstring: 0x4c60
    __AUTH_CONST.__objc_const: 0xd38
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0x1608
+   __AUTH_CONST.__objc_arrayobj: 0x90
 
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 704D7474-5FB9-35E8-BF22-552A2D60F5EE
 -  Functions: 1693
 -  Symbols:   5461
--  CStrings:  2479
+-  CStrings:  3093
++  UUID: C5322070-7F44-3B8D-B486-083E6FBA25DA
 +  Functions: 1695
 +  Symbols:   5462
-+  CStrings:  2477
++  CStrings:  3088
  
 Symbols:
 + -[AXElement scrollViewsForAutoScroll]

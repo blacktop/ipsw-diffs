@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CA573786-5972-35E5-997C-BE63110A2270
 -  Functions: 101
 -  Symbols:   124
--  CStrings:  478
+-  CStrings:  631
++  UUID: A7E79E35-ED5D-348B-A27C-52422D0C8A64
 +  Functions: 102
 +  Symbols:   127
-+  CStrings:  490
++  CStrings:  651
  
 Symbols:
 + _dispatch_async

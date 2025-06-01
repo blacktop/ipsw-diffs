@@ -36,12 +36,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46B76DB4-F3D8-3D3D-8DE6-2C20C299E293
 -  Functions: 7297
 -  Symbols:   3249
--  CStrings:  2457
+-  CStrings:  2966
++  UUID: AA9900B7-94DD-342B-958A-CA9713F257D9
 +  Functions: 7299
 +  Symbols:   3252
-+  CStrings:  2458
++  CStrings:  2967
  
 Symbols:
 + _HKMedicalDownloadableAttachmentMetadataOriginalCreationDateKey

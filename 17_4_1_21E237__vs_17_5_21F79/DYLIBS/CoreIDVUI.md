@@ -39,7 +39,6 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x3d0
    __AUTH_CONST.__const: 0x6048
-   __AUTH_CONST.__auth_ptr: 0x238
 -  __AUTH_CONST.__auth_got: 0x1868
 +  __AUTH_CONST.__auth_got: 0x1870
    __AUTH.__objc_data: 0x62b0
@@ -55,13 +54,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14144378-9C2B-31C8-BA7F-0C47EA3E89BA
++  UUID: 6EC69D85-DF15-3EAD-876C-BD5E0EC60F21
    Functions: 3505
 -  Symbols:   2486
--  CStrings:  1947
+-  CStrings:  1957
 +  Symbols:   2487
-+  CStrings:  1950
++  CStrings:  1960
  
 Symbols:
 + _OBJC_CLASS_$_UIGraphicsImageRendererFormat

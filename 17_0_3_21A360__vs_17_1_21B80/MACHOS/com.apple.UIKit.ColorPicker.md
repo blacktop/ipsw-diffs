@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6C93BFF3-1D1E-3F64-AC38-9B05D20487EE
 -  Functions: 1868
 -  Symbols:   265
--  CStrings:  784
+-  CStrings:  791
++  UUID: 62A169F1-B39C-3521-9E31-FD65090CBF33
 +  Functions: 1947
 +  Symbols:   270
-+  CStrings:  788
++  CStrings:  795
  
 Symbols:
 + _UIFontTextStyleCallout

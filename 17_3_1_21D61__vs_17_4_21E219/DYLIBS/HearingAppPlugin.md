@@ -52,9 +52,8 @@
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0x40
 -  __AUTH_CONST.__const: 0x1ab0
-+  __AUTH_CONST.__const: 0x1a80
-   __AUTH_CONST.__auth_ptr: 0xf8
 -  __AUTH_CONST.__auth_got: 0xcd0
++  __AUTH_CONST.__const: 0x1a80
 +  __AUTH_CONST.__auth_got: 0xcf0
    __AUTH.__data: 0x940
    __AUTH.__objc_data: 0xc90
@@ -76,11 +75,15 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1402F4B1-C9AC-3ED8-8E54-CD7479C306D7
++  UUID: CA77F73C-3234-3ABF-B093-F3678B5E42CF
    Functions: 1262
    Symbols:   244
--  CStrings:  521
-+  CStrings:  540
+-  CStrings:  522
++  CStrings:  541
  
 CStrings:
 + "Division by zero"

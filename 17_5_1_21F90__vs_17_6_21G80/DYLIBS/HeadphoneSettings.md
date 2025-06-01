@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__auth_got: 0x178
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A4DB552D-E283-3D11-A1F9-1496D92D2EEB
++  UUID: 6F7A0800-CFB8-3BF9-A21C-6FA6A23E38C6
    Functions: 129
    Symbols:   467
--  CStrings:  236
-+  CStrings:  237
+-  CStrings:  288
++  CStrings:  290
  
 CStrings:
 + "beats.pill"

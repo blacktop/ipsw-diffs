@@ -74,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DFF9DBC4-7119-3A55-A14C-57E4B6053971
 -  Functions: 138
 -  Symbols:   695
--  CStrings:  669
+-  CStrings:  1054
++  UUID: B036C1FC-3ADE-3A43-A0F1-516520432AB5
 +  Functions: 152
 +  Symbols:   738
-+  CStrings:  727
++  CStrings:  1149
  
 Symbols:
 + -[ZhuGeLocker .cxx_destruct]

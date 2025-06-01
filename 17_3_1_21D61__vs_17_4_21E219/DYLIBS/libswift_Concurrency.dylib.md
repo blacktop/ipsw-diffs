@@ -46,10 +46,8 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x2e0
 -  __AUTH_CONST.__const: 0x22f8
--  __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x658
 +  __AUTH_CONST.__const: 0x2670
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x808
    __AUTH.__data: 0x5b0
 -  __DATA.__data: 0x4b8
@@ -67,9 +65,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 51D41F8A-CF11-3AF6-89EF-C1ACCE7C833B
 -  Functions: 2454
 -  Symbols:   5768
 -  CStrings:  177
++  UUID: 27226804-072D-3D77-B745-79C5C446369F
 +  Functions: 2670
 +  Symbols:   6472
 +  CStrings:  199

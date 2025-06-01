@@ -63,10 +63,9 @@
 +  __AUTH_CONST.__objc_intobj: 0x270
    __AUTH_CONST.__objc_dictobj: 0x168
 -  __AUTH_CONST.__objc_arrayobj: 0x468
-+  __AUTH_CONST.__objc_arrayobj: 0x480
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x970
 -  __AUTH.__objc_data: 0x1770
++  __AUTH_CONST.__objc_arrayobj: 0x480
 +  __AUTH_CONST.__auth_got: 0x9f8
 +  __AUTH.__objc_data: 0x18c8
 +  __AUTH.__data: 0x28
@@ -88,9 +87,10 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2F2980D4-9897-3B1C-BA72-AD6815FD1BF4
 -  Functions: 3816
 -  Symbols:   12818
--  CStrings:  6043
+-  CStrings:  7563
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreAudio.dylib
@@ -107,9 +107,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: DDB73929-7002-3535-B883-70223851F59C
 +  Functions: 3899
 +  Symbols:   13100
-+  CStrings:  7178
++  CStrings:  9734
  
 Symbols:
 + +[NSUserDefaults(SafariCoreExtras) safari_canonicalApplicationDefaults]

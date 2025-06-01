@@ -19,4 +19,13 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 033D4202-8038-32B1-942E-39AECF508664
++  UUID: E31FA5A3-EFBE-336C-9D74-BDCD15250B5B
+   Functions: 55
+   Symbols:   362
+   CStrings:  250
+
 ```

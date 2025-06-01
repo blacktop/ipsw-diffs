@@ -98,12 +98,14 @@
    - /usr/lib/swift/libswiftWebKit.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 44BA7254-C3A4-3032-82CE-146FA89C217A
 -  Functions: 7561
 -  Symbols:   28536
--  CStrings:  11759
+-  CStrings:  13562
++  UUID: B1AC902A-EF83-3FA7-A56B-F68B22C2C121
 +  Functions: 7660
 +  Symbols:   28861
-+  CStrings:  11814
++  CStrings:  13650
  
 Symbols:
 + +[EDMailboxPersistence log]

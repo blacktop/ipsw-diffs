@@ -41,10 +41,12 @@
    - /System/Library/PrivateFrameworks/SMBSearch.framework/SMBSearch
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C07F3F96-74C6-38AF-8A5B-02AF364A025A
 -  Functions: 2320
++  UUID: 8BA52F7E-8A7E-35CE-9ADD-9B3D89A23CB0
 +  Functions: 2321
    Symbols:   229
-   CStrings:  2529
+   CStrings:  2616
  
 
 ```

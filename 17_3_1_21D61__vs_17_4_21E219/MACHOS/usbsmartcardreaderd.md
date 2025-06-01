@@ -58,11 +58,13 @@
    - /System/Library/PrivateFrameworks/IOUSBHost.framework/IOUSBHost
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5656818B-A454-30FA-953B-6FEF37729A20
 -  Functions: 639
++  UUID: B23B38D3-249E-3E79-AECC-7AA46ADB64E2
 +  Functions: 648
    Symbols:   143
--  CStrings:  1132
-+  CStrings:  1140
+-  CStrings:  1423
++  CStrings:  1431
  
 CStrings:
 + "\"\x11"

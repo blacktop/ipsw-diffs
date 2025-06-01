@@ -24,4 +24,13 @@
    __DATA.__data: 0x60
    __DATA_DIRTY.__const: 0x40
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CA0233C4-9202-3288-B989-75887AB35732
++  UUID: D06228BB-3E34-383A-9DD5-D8D562DBB7A4
+   Functions: 72
+   Symbols:   388
+   CStrings:  240
+
 ```

@@ -16,4 +16,13 @@
    __TEXT.__const: 0x1420
    __TEXT.__lcxx_override: 0x18
 
+   __DATA_DIRTY.__data: 0x98
+   __DATA_DIRTY.__bss: 0x18
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 36326474-E3B5-3240-8985-F554CAA59001
++  UUID: F77D672F-8D08-3DE4-B878-122BE53FCF99
+   Functions: 649
+   Symbols:   1731
+   CStrings:  256
+
 ```

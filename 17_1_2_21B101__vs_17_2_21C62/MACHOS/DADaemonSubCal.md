@@ -43,11 +43,13 @@
    - /System/Library/PrivateFrameworks/iCalendar.framework/iCalendar
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2B5CD7D1-2E67-3374-AA37-3837B269BF6A
 -  Functions: 242
++  UUID: ADCFC52F-D0AC-3ADF-94AF-71CB029B27AB
 +  Functions: 245
    Symbols:   168
--  CStrings:  856
-+  CStrings:  861
+-  CStrings:  877
++  CStrings:  883
  
 CStrings:
 + "HolidayCalURLVersion"

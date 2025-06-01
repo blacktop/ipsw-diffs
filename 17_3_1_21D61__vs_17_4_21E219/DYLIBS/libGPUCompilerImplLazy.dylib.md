@@ -20,7 +20,6 @@
    __DATA_CONST.__got: 0x200
    __DATA_CONST.__const: 0x190bb0
    __AUTH_CONST.__const: 0xed400
-   __AUTH_CONST.__auth_ptr: 0x190
 -  __AUTH_CONST.__auth_got: 0x35b8
 +  __AUTH_CONST.__auth_got: 0x35b0
    __AUTH.__data: 0x49c0
@@ -30,9 +29,11 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
+-  UUID: 9B01EC28-A3AC-31E1-8B72-1D6C878DA1B3
 -  Functions: 51814
 -  Symbols:   1821
 -  CStrings:  56129
++  UUID: 0BA6EC63-7776-3B2E-9C8A-EB571A367C8C
 +  Functions: 51916
 +  Symbols:   1820
 +  CStrings:  56131

@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7AA4AF17-3090-3AF4-99C2-6B28899B9FF5
++  UUID: 652DCE4F-E40E-36F2-AFC1-DD726B220F84
    Functions: 39
    Symbols:   58
--  CStrings:  180
-+  CStrings:  181
+-  CStrings:  201
++  CStrings:  202
  
 CStrings:
 + "T@\"NSString\",?,R,C"

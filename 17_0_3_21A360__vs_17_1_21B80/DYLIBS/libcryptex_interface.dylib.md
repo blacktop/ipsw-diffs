@@ -27,13 +27,16 @@
    __DATA.__objc_classrefs: 0x18
    __DATA.__objc_superrefs: 0x10
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2DCEC254-69CE-31CB-8BBD-BC6CC21E0C5E
++  UUID: B9B53E6A-B7AC-3119-BACF-A73BC00A98EB
    Functions: 162
 -  Symbols:   514
--  CStrings:  196
+-  CStrings:  201
 +  Symbols:   516
-+  CStrings:  197
++  CStrings:  202
  
 Symbols:
 + ___block_literal_global.12

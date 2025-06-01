@@ -70,7 +70,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__auth_got: 0x14f0
 -  __AUTH.__objc_data: 0x3318
 +  __AUTH_CONST.__auth_got: 0x14f8
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8029B1BC-F197-36DC-A95D-DEB75384498D
 -  Functions: 7956
 -  Symbols:   20325
--  CStrings:  9974
+-  CStrings:  11317
++  UUID: AC5796DF-07CC-31B2-A919-7C4AD48C776D
 +  Functions: 7856
 +  Symbols:   20058
-+  CStrings:  10025
++  CStrings:  11374
  
 Symbols:
 + -[PBFDataStoreArchiveAdjudicator removeArchives:]

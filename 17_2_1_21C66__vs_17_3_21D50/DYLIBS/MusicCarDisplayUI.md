@@ -50,10 +50,8 @@
 +  __DATA_CONST.__objc_const: 0x5cb8
 +  __DATA_CONST.__objc_selrefs: 0x17c0
    __DATA_CONST.__objc_arraydata: 0x28
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x120
 -  __AUTH_CONST.__cfstring: 0xde0
-+  __AUTH_CONST.__auth_ptr: 0x18
 +  __AUTH_CONST.__const: 0x170
 +  __AUTH_CONST.__cfstring: 0xe20
    __AUTH_CONST.__objc_const: 0x6f8
@@ -97,9 +95,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 855EDF01-0754-3090-9998-DBA59EF0B9F9
 -  Functions: 616
 -  Symbols:   2607
--  CStrings:  1632
+-  CStrings:  1743
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCompression.dylib
@@ -123,9 +122,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 320479E3-EC66-3678-9CE4-1AA4E1DD3453
 +  Functions: 645
 +  Symbols:   2726
-+  CStrings:  1682
++  CStrings:  1795
  
 Symbols:
 + -[MCDNowPlayingViewController backdropView]

@@ -25,6 +25,15 @@
    __DATA_DIRTY.__objc_const: 0x90
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__data: 0x8
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 391EF4E3-5D82-35DB-8AD4-A0A69D01D4E8
++  UUID: 82D37A12-5651-3CD5-9F54-A80E444CE01B
+   Functions: 45
+   Symbols:   227
+   CStrings:  207
 Symbols:
 + ___block_literal_global.256
 - ___block_literal_global.262

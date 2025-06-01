@@ -35,11 +35,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A45B62C-9E5B-30A9-8917-71941E0AFA26
 -  Functions: 288
++  UUID: 611D6C1B-9249-3D17-8E71-0C0840F33DB2
 +  Functions: 291
    Symbols:   186
--  CStrings:  773
-+  CStrings:  775
+-  CStrings:  797
++  CStrings:  799
  
 CStrings:
 + " [ERROR] %{public}s:%d RPStoreManager::AMSLookupItemArtwork::URLWithHeight could not find artwork with specified parameters"

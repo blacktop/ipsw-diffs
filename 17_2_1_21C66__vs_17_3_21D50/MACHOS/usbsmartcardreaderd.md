@@ -49,16 +49,21 @@
    __DATA.__objc_superrefs: 0xc0
    __DATA.__objc_ivar: 0xd8
 
+   - /System/Library/PrivateFrameworks/IOUSBHost.framework/IOUSBHost
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F2061E3-40B1-316B-988B-3F44758FECEC
++  UUID: 5656818B-A454-30FA-953B-6FEF37729A20
    Functions: 639
    Symbols:   143
--  CStrings:  1108
-+  CStrings:  1132
+-  CStrings:  1379
++  CStrings:  1423
  
 Symbols:
 + _OBJC_CLASS_$_TKSlotParameters
 - _OBJC_CLASS_$_NSLocale
 CStrings:
++ ""
 + "I24@0:8Q16"
 + "PINBlockString"
 + "PINByteOffset"

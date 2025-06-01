@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 88A7B101-2DD7-38EC-ADE5-0047338C439A
 -  Functions: 4948
 -  Symbols:   1058
--  CStrings:  6545
+-  CStrings:  7111
++  UUID: E811164F-B246-39CE-BD7E-2C9B1B13F0B8
 +  Functions: 4970
 +  Symbols:   1059
-+  CStrings:  6599
++  CStrings:  7172
  
 Symbols:
 + _$s5AskTo14ATAnswerChoiceC2id5title21completedRequestTitleACSS_S2SSgtcfc

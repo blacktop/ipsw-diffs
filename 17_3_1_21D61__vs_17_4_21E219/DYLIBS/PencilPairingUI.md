@@ -80,12 +80,14 @@
    - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D683063E-7256-3255-B2EE-4719833E5A49
 -  Functions: 851
 -  Symbols:   3526
--  CStrings:  1702
+-  CStrings:  1851
++  UUID: 5E371AA9-C90C-3C4B-8954-E2CB5038B9AF
 +  Functions: 898
 +  Symbols:   3683
-+  CStrings:  1863
++  CStrings:  2023
  
 Symbols:
 + +[PNPFindMyController _controllerWithType:buttonType:deviceType:delegate:]

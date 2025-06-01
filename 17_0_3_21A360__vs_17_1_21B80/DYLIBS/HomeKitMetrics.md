@@ -55,10 +55,9 @@
 +  __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__objc_arrayobj: 0x18
-+  __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x270
 -  __AUTH.__objc_data: 0x1e0
++  __AUTH_CONST.__objc_arrayobj: 0x30
 +  __AUTH_CONST.__auth_got: 0x280
 +  __AUTH.__objc_data: 0x5f0
    __DATA.__objc_protorefs: 0x8
@@ -80,12 +79,14 @@
    - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 329EA291-4A5F-370F-ACDB-FB67999ADB77
 -  Functions: 415
 -  Symbols:   1915
--  CStrings:  970
+-  CStrings:  1036
++  UUID: 8F4A6EF4-090B-3C09-9BC8-CAF72CD3FBDB
 +  Functions: 528
 +  Symbols:   2325
-+  CStrings:  1102
++  CStrings:  1185
  
 Symbols:
 + +[HMMAccessoryGroupSpecifier descriptorTypeNamePrefix]

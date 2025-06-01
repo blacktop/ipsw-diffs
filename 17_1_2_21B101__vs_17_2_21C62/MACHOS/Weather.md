@@ -115,12 +115,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C9E1EEDF-0DE8-3238-9DCC-657C39870054
 -  Functions: 59668
 -  Symbols:   6995
--  CStrings:  8311
+-  CStrings:  8409
++  UUID: 355C21D4-76BC-33EE-8184-955244D1B848
 +  Functions: 61488
 +  Symbols:   7333
-+  CStrings:  8515
++  CStrings:  8613
  
 Symbols:
 + _$s10Foundation11MeasurementV9WeatherUISo12NSUnitLengthCRszrlE13maxVisibility3forACyAFGAF_tFZ

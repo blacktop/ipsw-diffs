@@ -25,12 +25,15 @@
    __DATA_CONST.__cfstring: 0x100
    __DATA_CONST.__objc_classlist: 0x18
 
+   - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1F5A6202-024D-3105-B74A-B47C201AD371
++  UUID: 8EFD37AD-F34A-36CB-9A40-53E234B8D895
    Functions: 39
 -  Symbols:   66
 +  Symbols:   68
-   CStrings:  259
+   CStrings:  267
  
 Symbols:
 + _ICQActionParameterServerLinkIdentifierKey

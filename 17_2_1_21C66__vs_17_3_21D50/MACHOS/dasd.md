@@ -53,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 83A4C60B-3713-3E82-A8AB-7A1CFD0F5BFA
 -  Functions: 5037
++  UUID: 71353222-181C-34FF-8691-9BB3DCAD9F4C
 +  Functions: 5030
    Symbols:   607
--  CStrings:  8261
-+  CStrings:  8247
+-  CStrings:  9632
++  CStrings:  9617
  
 CStrings:
 + "\a"

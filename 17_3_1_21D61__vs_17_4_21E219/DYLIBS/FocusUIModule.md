@@ -43,13 +43,16 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 68DF251B-CB61-39B4-8F81-577EC5CA99F5
++  UUID: 25A800D5-3EF2-3500-AB2E-9852D2FBE1AA
    Functions: 24
 -  Symbols:   158
--  CStrings:  83
+-  CStrings:  106
 +  Symbols:   159
-+  CStrings:  86
++  CStrings:  111
  
 Symbols:
 + ___block_literal_global.237

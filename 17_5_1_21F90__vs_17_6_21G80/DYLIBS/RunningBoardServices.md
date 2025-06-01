@@ -28,12 +28,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 03D1B7EB-1F38-3722-BF99-BEE6D411D810
 -  Functions: 2057
 -  Symbols:   6554
--  CStrings:  2825
+-  CStrings:  3550
++  UUID: 26D3A64B-CAEE-39CD-BE69-4816308DED43
 +  Functions: 2061
 +  Symbols:   6562
-+  CStrings:  2829
++  CStrings:  3554
  
 Symbols:
 + +[RBSProcessIdentity decodeFromJob:uuid:]

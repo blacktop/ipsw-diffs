@@ -68,12 +68,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF1C2EA1-E6F9-31FA-85A6-9D3A7A8A647D
 -  Functions: 85
 -  Symbols:   358
--  CStrings:  281
+-  CStrings:  336
++  UUID: 68433434-3840-3FFC-9998-84DEF06F127B
 +  Functions: 89
 +  Symbols:   420
-+  CStrings:  293
++  CStrings:  349
  
 Symbols:
 + -[SAEDFollowUpManager .cxx_destruct]

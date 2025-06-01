@@ -62,7 +62,6 @@
 +  __AUTH_CONST.__const: 0x1778
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x88
 -  __AUTH_CONST.__auth_got: 0xb08
 -  __AUTH.__objc_data: 0x7e0
 -  __AUTH.__data: 0x8a8
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 18B44A60-6F58-3873-89A8-87474CBDE1C9
 -  Functions: 1324
 -  Symbols:   4115
--  CStrings:  565
+-  CStrings:  618
++  UUID: 582517A0-684A-3AF1-9E3B-2EA58B3716E2
 +  Functions: 1338
 +  Symbols:   4157
-+  CStrings:  574
++  CStrings:  627
  
 Symbols:
 + _$s25LocalAuthenticationCoreUI16LocalizedStringsO23ratchetGracePeriodTitleSSvgZ

@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8541479-E033-30EC-A03F-E53E5791ADEC
 -  Functions: 443
 -  Symbols:   1915
--  CStrings:  1088
+-  CStrings:  1310
++  UUID: 921010DE-53A4-3E48-A3E0-9B2E01AB5265
 +  Functions: 447
 +  Symbols:   1923
-+  CStrings:  1095
++  CStrings:  1317
  
 Symbols:
 + -[CRXFAppClipCodeTranscoder decodeCalibrationRXID:calibrationSphere:calibrationCylinder:calibrationAxis:addVR:displaySphere:displayCylinder:displayAxis:fromRXID:RXOffsetID:cylinderSignFlipped:axisID:allowUnsupportedRX:].cold.1

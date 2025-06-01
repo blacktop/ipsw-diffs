@@ -58,7 +58,6 @@
    __AUTH_CONST.__const: 0xa0
 -  __AUTH_CONST.__objc_const: 0xc8
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x218
 -  __DATA.__objc_classrefs: 0x70
 -  __DATA.__bss: 0x58
@@ -76,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D240E2CB-0C74-3677-8313-95E836C8020F
 -  Functions: 62
 -  Symbols:   391
--  CStrings:  1331
+-  CStrings:  3090
++  UUID: C521E5EE-2C9D-36D4-9D4F-C6927E46631E
 +  Functions: 151
 +  Symbols:   732
-+  CStrings:  1491
++  CStrings:  3284
  
 Symbols:
 + +[ISLanguageCarousel guessedRegion]
@@ -355,7 +356,6 @@ CStrings:
 + "@24@0:8B16B20"
 + "@48@0:8@16@24@32@40"
 + "@52@0:8@16q24@32Q40B48"
-+ "B"
 + "B16@0:8"
 + "B32@?0@\"ISLanguageCarouselItem\"8Q16^B24"
 + "BYCountryScanCompletedNotification"
@@ -480,6 +480,7 @@ CStrings:
 + "replaceObjectsInRange:withObjectsFromArray:"
 + "reset"
 + "reverseObjectEnumerator"
++ "s"
 + "setCycle:"
 + "setData:"
 + "setFakeMode:"
@@ -512,6 +513,9 @@ CStrings:
 + "valueForKey:"
 + "weightedRepetition"
 + "wirelessScanStartDate"
++ "\x8eN؞\xa9\x85s|\x87e"
++ "\xaevyr\xa9\x85s|\x87e"
++ "\xfaW>r\x01N\xa9\x85s|\x87e"
 - "Kildin Sami"
 - "Kildin sami"
 - "Pite Sami"
@@ -525,5 +529,8 @@ CStrings:
 - "sami kildin"
 - "sami pite"
 - "sami ume"
+- "\x8eN؞\xa9\x85s|\x9e\x8a"
+- "\xaevyr\xa9\x85s|\x9e\x8a"
+- "\xfaW>r\x01N\xa9\x85s|\x9e\x8a"
 
 ```

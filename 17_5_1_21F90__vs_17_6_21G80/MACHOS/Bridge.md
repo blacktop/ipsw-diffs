@@ -28,11 +28,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08B65784-1888-39B0-8681-4CE4823E5BED
 -  Functions: 7514
++  UUID: B846FEDE-8129-3AAD-819A-F22DDB7B4105
 +  Functions: 7516
    Symbols:   1567
--  CStrings:  13841
-+  CStrings:  13843
+-  CStrings:  16035
++  CStrings:  16037
  
 CStrings:
 + "Error parsing object model: %@"

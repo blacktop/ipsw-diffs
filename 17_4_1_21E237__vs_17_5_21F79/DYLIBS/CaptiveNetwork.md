@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x70b
    __TEXT.__unwind_info: 0x2b0
 
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB5D7761-926A-37DB-B7E0-12EB3AB8DEEB
++  UUID: 7F3B048E-4CD7-394C-8FB4-7A28512F0268
+   Functions: 205
+   Symbols:   604
+   CStrings:  231
+
 ```

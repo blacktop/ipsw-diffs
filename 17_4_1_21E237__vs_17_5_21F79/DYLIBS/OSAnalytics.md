@@ -58,7 +58,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_dictobj: 0x488
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x9a8
 -  __AUTH.__objc_data: 0x50
 -  __DATA.__objc_ivar: 0x220
@@ -74,12 +73,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FAAA956E-1920-31B2-A440-14C64EA33A64
 -  Functions: 830
 -  Symbols:   3209
--  CStrings:  2556
+-  CStrings:  3604
++  UUID: 83C4B13B-59F9-3FB1-937C-15162A770FD0
 +  Functions: 902
 +  Symbols:   3432
-+  CStrings:  2654
++  CStrings:  3725
  
 Symbols:
 + -[ExclaveAddressSpace .cxx_destruct]

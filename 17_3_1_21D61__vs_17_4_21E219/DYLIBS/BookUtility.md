@@ -40,11 +40,15 @@
    __DATA.__data: 0x6d8
    __DATA.__bss: 0xd8
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 61D37668-8159-3BE6-ABB6-B8873F211BAC
++  UUID: D0F731BF-5FE9-3AA0-B247-DD73B8F38FCB
    Functions: 1328
    Symbols:   508
--  CStrings:  2096
-+  CStrings:  2097
+-  CStrings:  2359
++  CStrings:  2360
  
 CStrings:
 + "T@\"AMSProcessInfo\",?,R,C,N"

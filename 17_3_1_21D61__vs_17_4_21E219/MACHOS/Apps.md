@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/StoreServices.framework/StoreServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A886CCF-3613-35FF-9B83-2794C33F7E47
++  UUID: B977CF66-D411-33B8-9E67-DE103DDCF3A6
    Functions: 99
    Symbols:   151
--  CStrings:  753
-+  CStrings:  754
+-  CStrings:  871
++  CStrings:  872
  
 CStrings:
 + "T@\"NSString\",?,R,C"

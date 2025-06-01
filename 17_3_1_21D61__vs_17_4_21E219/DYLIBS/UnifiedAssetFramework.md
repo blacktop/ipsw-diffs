@@ -87,12 +87,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: FD6B6729-AD57-365C-B975-D1334D28658C
 -  Functions: 1055
 -  Symbols:   3968
--  CStrings:  2695
+-  CStrings:  3065
++  UUID: 6A07A6D2-178F-3BA5-AC68-9D757782D90F
 +  Functions: 1173
 +  Symbols:   4391
-+  CStrings:  2959
++  CStrings:  3371
  
 Symbols:
 + +[UAFAssetSet autoAssetSet:usages:uuid:]

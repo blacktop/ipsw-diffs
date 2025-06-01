@@ -47,12 +47,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: C5A55E91-4FF1-38D3-9378-6CDF2A8451A0
 -  Functions: 811
 -  Symbols:   3084
--  CStrings:  1542
+-  CStrings:  1689
++  UUID: 721BD478-335D-3662-BF79-D3DE6678060C
 +  Functions: 812
 +  Symbols:   3086
-+  CStrings:  1544
++  CStrings:  1691
  
 Symbols:
 + GCC_except_table24

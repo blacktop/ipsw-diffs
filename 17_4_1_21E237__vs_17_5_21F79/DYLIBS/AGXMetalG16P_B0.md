@@ -22,7 +22,7 @@
    __TEXT.__objc_classname: 0xb6a
    __TEXT.__objc_methname: 0x1158d
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x828
    __AUTH.__data: 0x28
 -  __AUTH.__objc_data: 0x1130
@@ -42,11 +42,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 496903D1-F2FB-338C-8D04-E81FB82FAFCB
 -  Functions: 6307
++  UUID: 88DDB574-C8E6-3A9F-B2A7-59F5C5F397E0
 +  Functions: 6328
    Symbols:   14519
--  CStrings:  3909
-+  CStrings:  3911
+-  CStrings:  4290
++  CStrings:  4292
  
 Symbols:
 + __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5085

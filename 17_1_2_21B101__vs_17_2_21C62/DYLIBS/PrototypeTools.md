@@ -71,12 +71,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0AE50FDF-65D1-3323-A6A7-15BA3FB04E22
 -  Functions: 741
 -  Symbols:   2799
--  CStrings:  1311
+-  CStrings:  1498
++  UUID: 0E5F159C-D1B8-38FA-93E3-79E05D86B39A
 +  Functions: 755
 +  Symbols:   2854
-+  CStrings:  1333
++  CStrings:  1522
  
 Symbols:
 + +[_PTPredicateValidator validatorWithPredicate:]

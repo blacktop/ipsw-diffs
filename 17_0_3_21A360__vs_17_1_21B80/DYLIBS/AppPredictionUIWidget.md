@@ -28,11 +28,15 @@
    __AUTH_CONST.__const: 0x500
    __AUTH_CONST.__cfstring: 0x420
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86783614-1A66-3B73-8EC0-6C805EA9480F
++  UUID: BC2DA20C-2B7A-38AF-AAD5-B6EEECFB4842
    Functions: 482
    Symbols:   2069
--  CStrings:  1292
-+  CStrings:  1293
+-  CStrings:  1325
++  CStrings:  1326
  
 CStrings:
 + "verticalMarginPercentageForConfigurationOfIconView:"

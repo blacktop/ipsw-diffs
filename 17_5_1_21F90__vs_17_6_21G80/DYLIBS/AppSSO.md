@@ -25,11 +25,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA31B3F4-454F-3315-B467-B174551E2C46
 -  Functions: 922
 -  Symbols:   3156
++  UUID: 2F5B8B05-9B63-35C0-8739-9C9B472692FE
 +  Functions: 919
 +  Symbols:   3150
-   CStrings:  1377
+   CStrings:  1490
  
 Symbols:
 - _OUTLINED_FUNCTION_12

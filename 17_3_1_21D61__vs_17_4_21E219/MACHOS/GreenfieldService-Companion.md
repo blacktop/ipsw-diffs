@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D841F20B-9D13-3E7B-B666-E87AD54EDAD3
++  UUID: 9D3E7E9C-5C56-3455-AFC3-AC14971A35C7
+   Functions: 1
+   Symbols:   19
+   CStrings:  8
 
 ```

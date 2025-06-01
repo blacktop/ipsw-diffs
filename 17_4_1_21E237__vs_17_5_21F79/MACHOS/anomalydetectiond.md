@@ -64,12 +64,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4C24AB9D-531B-37CB-9FE5-3A8D3DFA494D
 -  Functions: 14317
 -  Symbols:   509
--  CStrings:  7844
+-  CStrings:  8494
++  UUID: DBBE21FA-2F56-367F-B5A5-1BF90153FC05
 +  Functions: 14392
 +  Symbols:   512
-+  CStrings:  7884
++  CStrings:  8540
  
 Symbols:
 + __ZNKSt9exception4whatEv

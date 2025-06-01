@@ -77,9 +77,10 @@
    - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4336D17D-1EA9-3942-8B22-5CB229A65962
 -  Functions: 200
 -  Symbols:   161
--  CStrings:  535
+-  CStrings:  570
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -92,9 +93,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 9C74A0B5-668A-3FD9-A3A1-B2E5412121F6
 +  Functions: 314
 +  Symbols:   222
-+  CStrings:  712
++  CStrings:  745
  
 Symbols:
 + _$s22VideoSubscriberAccount18VSAMSMetricsCenterC06recordC6Update_6source10updateType10completionySo06VSUserC0C_S2SySDys11AnyHashableVypGcSgtFTj

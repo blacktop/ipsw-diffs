@@ -41,11 +41,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F7AE01F-92A0-3FD3-962C-52DEB85CAEB3
 -  Functions: 3717
++  UUID: 23233D05-A833-3C9C-AD25-B451A65F9A20
 +  Functions: 3718
    Symbols:   13829
--  CStrings:  6906
-+  CStrings:  6904
+-  CStrings:  7998
++  CStrings:  7996
  
 Symbols:
 + -[SBUIProudLockContainerViewController overrideProudLockIconViewLayoutWithSize:offset:extent:]

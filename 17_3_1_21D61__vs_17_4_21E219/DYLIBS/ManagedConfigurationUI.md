@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3DB3483F-A281-33D7-BD5F-45431D4EEDF1
 -  Functions: 1100
 -  Symbols:   4399
--  CStrings:  2285
+-  CStrings:  2578
++  UUID: 638156D6-F817-3214-9DCE-8EB70ED8FA54
 +  Functions: 1101
 +  Symbols:   4401
-+  CStrings:  2287
++  CStrings:  2580
  
 Symbols:
 + -[MCUIMCSpecifierProvider _selectInstalledProfileIdentifier:]

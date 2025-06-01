@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/EmailFoundation.framework/EmailFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B8EE5A2-F7AB-3A2A-9BA1-ED26DD757053
++  UUID: 540FD86D-FA88-3D91-B996-E2417542C8FF
    Functions: 17
    Symbols:   41
--  CStrings:  155
-+  CStrings:  156
+-  CStrings:  158
++  CStrings:  159
  
 CStrings:
 + "T@\"NSString\",?,R,C"

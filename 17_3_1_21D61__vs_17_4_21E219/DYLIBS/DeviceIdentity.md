@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__cfstring: 0x3920
 +  __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0x390
 -  __DATA.__objc_protorefs: 0x8
@@ -68,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39CDE03E-1246-3731-AE09-8CE65A267120
 -  Functions: 181
 -  Symbols:   876
--  CStrings:  787
+-  CStrings:  1235
++  UUID: EF67697F-35C2-302E-BBFA-B952387CE6D8
 +  Functions: 184
 +  Symbols:   888
-+  CStrings:  801
++  CStrings:  1258
  
 Symbols:
 + -[DeviceTypeDeviceIdentity device_supports_mfi_certificates]

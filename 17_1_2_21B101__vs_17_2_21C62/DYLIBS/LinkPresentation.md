@@ -57,7 +57,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x420
 +  __AUTH_CONST.__objc_arrayobj: 0x438
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x60
 -  __AUTH_CONST.__auth_got: 0x7c0
 +  __AUTH_CONST.__auth_got: 0x7d8
@@ -79,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2EE806B2-4932-34D1-9F83-CDEBBA49132A
 -  Functions: 5279
 -  Symbols:   20659
--  CStrings:  7767
+-  CStrings:  9419
++  UUID: F0BCFF2B-C036-31B0-8E60-7D8441B12A8D
 +  Functions: 5309
 +  Symbols:   20778
-+  CStrings:  7815
++  CStrings:  9473
  
 Symbols:
 + +[LPApplicationIdentification isFreeform]

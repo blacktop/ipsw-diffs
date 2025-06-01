@@ -45,7 +45,6 @@
 -  __AUTH_CONST.__cfstring: 0x10a0
 +  __AUTH_CONST.__cfstring: 0x10c0
    __AUTH_CONST.__objc_const: 0x9d0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x1e0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x4a8
@@ -59,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7C8B766E-4661-3E69-A046-66C5370D5569
 -  Functions: 969
 -  Symbols:   3183
--  CStrings:  1474
+-  CStrings:  1607
++  UUID: 1AB4DDD6-9238-3965-B744-819F2916C8CC
 +  Functions: 971
 +  Symbols:   3191
-+  CStrings:  1484
++  CStrings:  1618
  
 Symbols:
 + -[WCSessionFile fileDescriptor]

@@ -37,4 +37,13 @@
    - /System/Library/Frameworks/CoreData.framework/CoreData
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E650D67B-05D9-3920-8DDA-3BCCE559ECDA
++  UUID: 3F286A69-DC86-33E5-9F67-E85CB076CC51
+   Functions: 1283
+   Symbols:   5602
+   CStrings:  5977
+
 ```

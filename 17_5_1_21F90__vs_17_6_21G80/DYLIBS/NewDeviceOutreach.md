@@ -84,12 +84,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F77B4DCE-AE56-3E7C-A70F-552CF3536F66
 -  Functions: 556
 -  Symbols:   2030
--  CStrings:  1324
+-  CStrings:  1567
++  UUID: CB4E7AA5-01FE-317E-8A3C-2CF5AAE8F12A
 +  Functions: 591
 +  Symbols:   2171
-+  CStrings:  1408
++  CStrings:  1667
  
 Symbols:
 + +[NDOFollowUpDismissalTracker _dismissedSerialNumberHashes]
@@ -258,6 +260,7 @@ CStrings:
 + "Apple Support"
 + "Checking for %@ in the App Store"
 + "DOWNLOAD"
++ "F"
 + "INSTALLED"
 + "Lookup for %@ in the App Store failed with error %@"
 + "NDOAppleSupportManager"

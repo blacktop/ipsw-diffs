@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x20
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17C1A795-7C45-304D-AE04-CF640A2F5226
++  UUID: CF314534-BC5A-3051-8E66-6F47A79A9809
    Functions: 29
    Symbols:   62
--  CStrings:  160
-+  CStrings:  161
+-  CStrings:  164
++  CStrings:  165
  
 CStrings:
 + "markupViewController:enablingFormFilling:"

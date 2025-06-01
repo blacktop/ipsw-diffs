@@ -40,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A5598DD5-8E83-309A-92C5-779C0FE24D17
 -  Functions: 997
 -  Symbols:   3868
--  CStrings:  2124
+-  CStrings:  2334
++  UUID: 8C4B027E-B714-3024-B9A5-CF7BAFEBDA92
 +  Functions: 998
 +  Symbols:   3871
-+  CStrings:  2126
++  CStrings:  2336
  
 Symbols:
 + -[SRUIFInstrumentationManager emitUUFRSpokenForAceObject:presentationType:dialogPhase:mode:speakableText:dialogIdentifierOverride:]

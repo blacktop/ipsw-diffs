@@ -69,12 +69,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AAC704CA-DC04-3E9E-BF10-8424F80BB98C
 -  Functions: 2829
 -  Symbols:   711
--  CStrings:  5871
+-  CStrings:  6613
++  UUID: 3EBBA31E-5EFA-34CD-9FFA-B39E241DEAEB
 +  Functions: 2840
 +  Symbols:   738
-+  CStrings:  5886
++  CStrings:  6628
  
 Symbols:
 + _BiomeLibrary

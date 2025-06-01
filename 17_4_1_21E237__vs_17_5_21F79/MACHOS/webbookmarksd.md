@@ -36,13 +36,16 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x188
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AED98526-3A56-37E9-A3D1-9F3BC255E65E
++  UUID: 383EA2F9-1B4E-3028-8ECF-3241C9EA366B
    Functions: 355
 -  Symbols:   272
--  CStrings:  699
+-  CStrings:  749
 +  Symbols:   273
-+  CStrings:  698
++  CStrings:  748
  
 Symbols:
 + _WBSIsEqual

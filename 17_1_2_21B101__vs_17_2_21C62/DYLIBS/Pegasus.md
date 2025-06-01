@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 93B4D6F6-E585-3AF6-9801-C679BA79B11E
 -  Functions: 1750
 -  Symbols:   6022
--  CStrings:  2786
+-  CStrings:  3149
++  UUID: 731AE79E-ACE5-3DEC-86F0-5E0B19AA706E
 +  Functions: 1756
 +  Symbols:   6038
-+  CStrings:  2794
++  CStrings:  3158
  
 Symbols:
 + -[PGButtonView pointerInteraction:willEnterRegion:animator:]

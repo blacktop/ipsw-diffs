@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26414A47-83CE-3031-9934-22334ED77D7D
 -  Functions: 1496
 -  Symbols:   363
--  CStrings:  3146
+-  CStrings:  3379
++  UUID: 32AF3B69-D071-3DB1-BDA3-1B7589096D24
 +  Functions: 1499
 +  Symbols:   368
-+  CStrings:  3168
++  CStrings:  3405
  
 Symbols:
 + _OBJC_CLASS_$_SHLocalization

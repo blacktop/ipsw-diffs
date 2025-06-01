@@ -59,10 +59,8 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __DATA_CONST.__objc_const: 0x8430
 -  __DATA_CONST.__objc_selrefs: 0x14e0
--  __AUTH_CONST.__auth_ptr: 0x958
 +  __DATA_CONST.__objc_const: 0x8458
 +  __DATA_CONST.__objc_selrefs: 0x1520
-+  __AUTH_CONST.__auth_ptr: 0x968
    __AUTH_CONST.__objc_const: 0x980
 -  __AUTH_CONST.__cfstring: 0x10c0
 -  __AUTH_CONST.__const: 0x28208
@@ -99,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B01A7CC0-C93E-3296-A148-90771B0D2C1C
 -  Functions: 22818
 -  Symbols:   6994
--  CStrings:  2524
+-  CStrings:  2658
++  UUID: 93E8153B-77E5-33F1-B5F6-821E7B104ADF
 +  Functions: 22304
 +  Symbols:   7044
-+  CStrings:  2565
++  CStrings:  2700
  
 Symbols:
 + _JEGestaltGetMarketingDeviceFamilyName

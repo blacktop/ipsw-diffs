@@ -46,7 +46,7 @@
    __AUTH_CONST.__const: 0x1928
    __AUTH_CONST.__cfstring: 0x2400
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_intobj: 0x288
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x50
 -  __AUTH_CONST.__auth_got: 0x818
@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4550DEC1-CC39-354E-93CB-573E8F8FB7E5
 -  Functions: 2816
 -  Symbols:   10226
--  CStrings:  3792
+-  CStrings:  4080
++  UUID: 3A1E739A-EB0D-33CE-B055-BBACB37951AD
 +  Functions: 2825
 +  Symbols:   10229
-+  CStrings:  3809
++  CStrings:  4097
  
 Symbols:
 + +[CNUICoreImageDerivedColorGenerator defaultDarkGrayColors]

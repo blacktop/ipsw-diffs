@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B74BDF0-E465-3EB3-9F68-F73A213E72D6
 -  Functions: 1193
 -  Symbols:   4753
--  CStrings:  2118
+-  CStrings:  2191
++  UUID: D8E08408-118C-39DC-940F-89F1E3893026
 +  Functions: 1080
 +  Symbols:   4392
-+  CStrings:  2003
++  CStrings:  2069
  
 Symbols:
 + _OBJC_CLASS_$_UITraitPreferredContentSizeCategory

@@ -64,7 +64,6 @@
 -  __AUTH_CONST.__const: 0x16c68
 +  __AUTH_CONST.__const: 0x16c80
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x468
    __AUTH_CONST.__auth_got: 0x2fc8
 -  __AUTH.__objc_data: 0x6bb8
 -  __AUTH.__data: 0x62c0
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D137E3BB-8522-35D1-83AB-547E60336E7E
 -  Functions: 19988
 -  Symbols:   52836
--  CStrings:  5026
+-  CStrings:  5068
++  UUID: 7E613C0E-D281-37C8-A6DE-1DB3542342BA
 +  Functions: 20021
 +  Symbols:   52907
-+  CStrings:  5037
++  CStrings:  5079
  
 Symbols:
 + _$s8PaperKit0A12DocumentViewC0acD23ToolPickerObserverProxy33_8424FDA94F5165E454D761243B26314ALLC23_supportsCanvasElementsySbSo06PKToolF0CFTo

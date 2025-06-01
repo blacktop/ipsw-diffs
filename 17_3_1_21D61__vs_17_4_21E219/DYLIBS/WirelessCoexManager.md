@@ -46,12 +46,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A50AE34F-82F2-383A-ABAE-41CF3A0E289B
 -  Functions: 164
 -  Symbols:   632
--  CStrings:  447
+-  CStrings:  545
++  UUID: 7C79C756-4AAB-365A-95AE-60D4AF46DFCD
 +  Functions: 163
 +  Symbols:   626
-+  CStrings:  448
++  CStrings:  546
  
 Symbols:
 + -[WRM_UCMInterface .cxx_destruct]

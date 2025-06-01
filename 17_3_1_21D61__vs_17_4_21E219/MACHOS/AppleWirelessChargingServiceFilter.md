@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18FB19CB-529E-355C-95C4-372AF04F9039
++  UUID: 096EDD1B-6EDF-373A-A0C6-93ABF7D65942
    Functions: 52
    Symbols:   83
--  CStrings:  255
-+  CStrings:  256
+-  CStrings:  293
++  CStrings:  294
  
 CStrings:
 + "T@\"NSString\",?,R,C"

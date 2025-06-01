@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x70
    __DATA_CONST.__const: 0x60
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1BD2C7EB-F8EC-376A-845E-D545467660EE
++  UUID: F6A5FC6A-852E-3E4D-A327-1437DCDF351C
+   Functions: 68
+   Symbols:   94
+   CStrings:  5
+
 ```

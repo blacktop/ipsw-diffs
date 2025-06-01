@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A771E50B-D6D4-33DF-8FEC-74CF1996CA62
 -  Functions: 367
 -  Symbols:   219
--  CStrings:  1045
+-  CStrings:  1180
++  UUID: F2080AB8-E958-307E-9A91-620C0EEEF39D
 +  Functions: 368
 +  Symbols:   222
-+  CStrings:  1047
++  CStrings:  1183
  
 Symbols:
 + _MLMusicLibraryErrorDomain

@@ -31,11 +31,13 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
+-  UUID: EC96AB72-28D3-35B4-BD03-036C5E5C6CDB
 -  Functions: 18289
++  UUID: 0AB1AC5F-17C4-3FF3-9A8B-84592D7AB600
 +  Functions: 18290
    Symbols:   7741
--  CStrings:  4703
-+  CStrings:  4706
+-  CStrings:  4740
++  CStrings:  4743
  
 CStrings:
 + "Could not provide a UIWindow for OAuth. Unable to present the ASWebAuthenticationSession web view."

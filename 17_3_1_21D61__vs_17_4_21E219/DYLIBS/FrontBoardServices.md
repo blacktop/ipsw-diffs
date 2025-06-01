@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_const: 0x36f0
    __AUTH_CONST.__const: 0x660
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__auth_got: 0x860
 -  __AUTH.__objc_data: 0xf50
@@ -70,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BCC46DA-A060-3DDE-8D57-DEFEF66D6D60
 -  Functions: 3873
 -  Symbols:   12509
--  CStrings:  4891
+-  CStrings:  5959
++  UUID: DBC719DE-6596-32B2-AF30-EA08435C53A9
 +  Functions: 3903
 +  Symbols:   12572
-+  CStrings:  4910
++  CStrings:  5986
  
 Symbols:
 + +[FBSSceneIdentityToken tokenWithHostEndpoint:workspace:identifier:]

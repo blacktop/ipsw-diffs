@@ -43,11 +43,15 @@
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B61B330-06A9-38EB-8444-E9BB70ECC0C9
++  UUID: E0D45018-0093-3662-9F9F-B1BE692F4C5A
    Functions: 783
    Symbols:   3539
--  CStrings:  1512
-+  CStrings:  1513
+-  CStrings:  1682
++  CStrings:  1683
  
 Symbols:
 + __OBJC_$_PROP_LIST_SWActionProvider.91

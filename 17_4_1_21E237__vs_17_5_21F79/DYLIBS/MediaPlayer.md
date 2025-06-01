@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8A6EDF34-838D-3F42-B7B5-70E91229DE0A
 -  Functions: 16363
 -  Symbols:   54178
--  CStrings:  22492
+-  CStrings:  27097
++  UUID: 64ED6882-4A07-3A1C-AF8C-257F7F764851
 +  Functions: 16360
 +  Symbols:   54164
-+  CStrings:  22494
++  CStrings:  27099
  
 Symbols:
 + -[MPCloudController _updateSagaEnabled]

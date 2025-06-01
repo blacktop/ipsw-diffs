@@ -68,7 +68,6 @@
    __AUTH_CONST.__objc_intobj: 0x24f0
    __AUTH_CONST.__objc_doubleobj: 0x530
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x27b0
 -  __AUTH.__objc_data: 0xc530
 -  __DATA.__objc_ivar: 0xc7e4
@@ -93,12 +92,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: D138ADA5-2CD1-3B9F-AB21-5AFA9D93DDF4
 -  Functions: 56306
 -  Symbols:   191833
--  CStrings:  76537
+-  CStrings:  88866
++  UUID: 2641B910-A30A-3EC9-8918-14BA9119E023
 +  Functions: 56649
 +  Symbols:   192951
-+  CStrings:  76944
++  CStrings:  89362
  
 Symbols:
 + +[SBApplication(Classic) restrictedClassicModeDisplayConfigurationForDisplayConfiguration:classicMode:].cold.1

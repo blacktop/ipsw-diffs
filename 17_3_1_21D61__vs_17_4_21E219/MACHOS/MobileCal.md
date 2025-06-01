@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0BDF5610-EC7F-34FC-AB2D-6826195FC5C0
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: B27C95D9-AB2A-35B8-873C-B6E038FF6744
    Functions: 6492
 -  Symbols:   867
--  CStrings:  8866
+-  CStrings:  9383
 +  Symbols:   897
-+  CStrings:  8875
++  CStrings:  9394
  
 Symbols:
 + _$s10Foundation20PredicateExpressionsO11build_Equal3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ

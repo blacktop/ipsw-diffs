@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 359A8025-904F-31FC-945A-70D524F1315B
 -  Functions: 17
 -  Symbols:   73
--  CStrings:  120
+-  CStrings:  123
++  UUID: 58841226-58F3-3DB6-8894-F9085E234C39
 +  Functions: 24
 +  Symbols:   81
-+  CStrings:  127
++  CStrings:  130
  
 Symbols:
 + _dispatch_assert_queue$V2

@@ -51,10 +51,9 @@
    __DATA_CONST.__objc_protorefs: 0x108
    __DATA_CONST.__objc_classrefs: 0xe10
    __DATA_CONST.__objc_superrefs: 0xc90
-
+   __DATA_CONST.__objc_arraydata: 0x5f0
    __AUTH_CONST.__objc_const: 0xbf40
    __AUTH_CONST.__const: 0x8df0
-   __AUTH_CONST.__auth_ptr: 0x138
 -  __AUTH_CONST.__cfstring: 0x1ae40
 +  __AUTH_CONST.__cfstring: 0x1aea0
    __AUTH_CONST.__objc_arrayobj: 0x3d8
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A157C3A-4817-3B31-A53D-3A7DFC345C4E
 -  Functions: 15837
 -  Symbols:   3856
--  CStrings:  15683
+-  CStrings:  19125
++  UUID: E40F620F-F987-37F6-B355-8D9468BF33C1
 +  Functions: 15851
 +  Symbols:   3859
-+  CStrings:  15692
++  CStrings:  19137
  
 Symbols:
 + _ACAccountDataclassPhoneFaceTime

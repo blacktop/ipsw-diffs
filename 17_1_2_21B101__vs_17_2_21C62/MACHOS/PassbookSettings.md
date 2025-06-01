@@ -29,11 +29,15 @@
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x40
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 52220D5C-F43E-32BE-B290-7216FF5FD3A9
++  UUID: AD1BFCCB-A1DA-3F52-B690-3A00DC953DFA
    Functions: 119
    Symbols:   144
--  CStrings:  407
-+  CStrings:  408
+-  CStrings:  417
++  CStrings:  418
  
 CStrings:
 + "presentReplacePhysicalCard"

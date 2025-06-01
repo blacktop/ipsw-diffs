@@ -63,9 +63,7 @@
 -  __AUTH_CONST.__const: 0x3728
 +  __AUTH_CONST.__const: 0x3780
    __AUTH_CONST.__objc_const: 0x6910
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__cfstring: 0x13c60
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__cfstring: 0x13ca0
    __AUTH_CONST.__objc_intobj: 0x7b0
    __AUTH_CONST.__objc_dictobj: 0x28
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FCE012F9-E5B0-389B-90A2-710F5697208F
 -  Functions: 7252
 -  Symbols:   19226
--  CStrings:  10794
+-  CStrings:  13325
++  UUID: AB4ED8B6-6B9C-3F81-8BF2-65829CAAB123
 +  Functions: 7406
 +  Symbols:   19269
-+  CStrings:  10833
++  CStrings:  13366
  
 Symbols:
 + -[MUExpandableHoursView intrinsicContentSize]

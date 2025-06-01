@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__cfstring: 0xa060
    __AUTH_CONST.__objc_const: 0x2010
    __AUTH_CONST.__const: 0xa48
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_intobj: 0xf0
 -  __AUTH_CONST.__auth_got: 0x8f0
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 98BB7072-D5EC-3528-A041-CC3205C5EF32
 -  Functions: 2777
 -  Symbols:   9824
--  CStrings:  5600
+-  CStrings:  6919
++  UUID: 5661870A-D1E6-3529-AD3C-B18CAA431F28
 +  Functions: 2784
 +  Symbols:   9848
-+  CStrings:  5583
++  CStrings:  6866
  
 Symbols:
 + +[CNFInternalSettingsUtilities killCallservicesd]
@@ -200,5 +201,6 @@ CStrings:
 + "showSharedNameAndPhotoSettings:animated:"
 - "\x0f\x03!"
 - "IMFoundation"
+- "s"
 
 ```

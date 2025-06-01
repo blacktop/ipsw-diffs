@@ -35,11 +35,15 @@
    __DATA.__data: 0x188
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C05A74B-73A4-3828-91E7-876C02BF4EF6
++  UUID: F21FB482-9418-30C6-9175-96AA4D38F023
    Functions: 107
    Symbols:   544
--  CStrings:  388
-+  CStrings:  389
+-  CStrings:  455
++  CStrings:  456
  
 Symbols:
 + ____AXFrontBoardGetFrontmostAppProcessesAndScenes_block_invoke.396

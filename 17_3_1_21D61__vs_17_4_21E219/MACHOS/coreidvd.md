@@ -119,12 +119,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C62BA6E5-8D8E-3833-A303-8F711B2D4A93
 -  Functions: 14285
 -  Symbols:   3615
--  CStrings:  6958
+-  CStrings:  6967
++  UUID: 5EA7C205-97AF-36AD-A756-C2E4F0F94DE1
 +  Functions: 14337
 +  Symbols:   3613
-+  CStrings:  6910
++  CStrings:  6919
  
 Symbols:
 + _$s10Foundation4UUIDVSEAAMc

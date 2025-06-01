@@ -10,6 +10,11 @@
    __TEXT.__descriptor: 0x1e30
    __TEXT.__compute: 0x3fbc0
    __TEXT.__reflection: 0x9dc0
+-  UUID: 2E84F39D-F4E6-386B-A0C9-3D574E086958
++  UUID: 526AF981-B31E-3736-8AEB-078EAA8732A2
+   Functions: 0
+   Symbols:   692
+   CStrings:  0
 Symbols:
 + __ci_0010A1E4ABE76224_begin
 + __ci_0010A1E4ABE76224_driver_reflection_begin

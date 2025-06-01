@@ -33,13 +33,16 @@
    __AUTH_CONST.__const: 0xb9b0
    __AUTH_CONST.__objc_const: 0x7ce8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94086456-A22B-3A88-BAD1-F239CB666C46
++  UUID: EAE8F308-0FE6-3A53-99F6-8236FC71C213
    Functions: 14774
 -  Symbols:   30833
--  CStrings:  16104
+-  CStrings:  19372
 +  Symbols:   30834
-+  CStrings:  16105
++  CStrings:  19373
  
 Symbols:
 + _objc_msgSend$setLegacyMediaQuery:forTransport:

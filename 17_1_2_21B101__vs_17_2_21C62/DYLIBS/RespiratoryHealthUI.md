@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x50c
    __TEXT.__const: 0x90
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5D34116E-8503-3E39-984C-4DCDF445F5D5
++  UUID: 1FF23C37-CF5C-3B05-9994-5897EE29A695
+   Functions: 124
+   Symbols:   605
+   CStrings:  403
+
 ```

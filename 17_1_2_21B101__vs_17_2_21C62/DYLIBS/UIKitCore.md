@@ -62,10 +62,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x80950
    __DATA_CONST.__objc_arraydata: 0x3570
 -  __AUTH_CONST.__const: 0x1e2f0
-+  __AUTH_CONST.__const: 0x1e3c0
-   __AUTH_CONST.__auth_ptr: 0x1c8
 -  __AUTH_CONST.__objc_const: 0x69c28
 -  __AUTH_CONST.__cfstring: 0x9c060
++  __AUTH_CONST.__const: 0x1e3c0
 +  __AUTH_CONST.__objc_const: 0x69ea8
 +  __AUTH_CONST.__cfstring: 0x9c440
    __AUTH_CONST.__objc_arrayobj: 0x2580
@@ -112,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F1A8BD61-9CF2-3054-B622-CB63D6CEB4CB
 -  Functions: 130828
 -  Symbols:   372789
--  CStrings:  137111
+-  CStrings:  157082
++  UUID: 99AD2A31-9360-369F-9C0B-A7A0AF33E2E7
 +  Functions: 130962
 +  Symbols:   373195
-+  CStrings:  137299
++  CStrings:  157301
  
 Symbols:
 + +[UIKeyboardImpl _applicationClientComponent]

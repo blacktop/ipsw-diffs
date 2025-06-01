@@ -48,7 +48,6 @@
    __AUTH_CONST.__const: 0x1ff8
    __AUTH_CONST.__objc_const: 0x25f8
    __AUTH_CONST.__objc_intobj: 0x300
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x17a0
 +  __AUTH_CONST.__auth_got: 0x17a8
    __AUTH.__objc_data: 0x21c0
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 357D8E25-477A-3777-90A2-DD00E090F278
 -  Functions: 6108
 -  Symbols:   17447
--  CStrings:  10127
+-  CStrings:  10697
++  UUID: 1A195D28-4DFD-378C-B263-80E8FBE9B466
 +  Functions: 6120
 +  Symbols:   17488
-+  CStrings:  10159
++  CStrings:  10731
  
 Symbols:
 + -[CUAudioPlayer _applyChannelAssignments:]

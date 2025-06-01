@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9424DDE6-8BA9-3A5D-AB8F-A05A7D560D89
 -  Functions: 84984
 -  Symbols:   3145
--  CStrings:  75229
+-  CStrings:  81862
++  UUID: A3D877B0-8709-31AA-A5B5-286662C1F46F
 +  Functions: 85251
 +  Symbols:   3154
-+  CStrings:  75718
++  CStrings:  82444
  
 Symbols:
 + _CWFEventLinkChangeStatusKey

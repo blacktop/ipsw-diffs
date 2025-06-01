@@ -62,13 +62,16 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2EED31E6-7840-3B3B-887F-69F3698196D2
++  UUID: CFA92F68-0B26-3CF6-B1AF-2A16E04242A8
    Functions: 18391
 -  Symbols:   52669
--  CStrings:  21051
+-  CStrings:  26854
 +  Symbols:   52671
-+  CStrings:  21054
++  CStrings:  26858
  
 Symbols:
 + +[HKAudiogramSample randomAudiogramSampleWithLeftEarClassification:rightEarClassification:startDate:endDate:device:metadata:]

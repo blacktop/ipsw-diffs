@@ -31,6 +31,15 @@
    __DATA.__data: 0x138
    __DATA.__bss: 0x500
    __DATA.__common: 0x1
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  UUID: D121E76A-BD6B-32C4-8F02-9EFA475BA6D2
++  UUID: 4690E08A-237C-399D-8039-CE23C4D7A63D
+   Functions: 120
+   Symbols:   463
+   CStrings:  8
 Symbols:
 + _$s10ObjectiveC13ObjCClassListV8IteratorC9fromImage18matchingNamePrefix12conformingTo11subclassingAeA0b12CEnumerationG0O_SSSgSo8ProtocolCSgyXlXpSgtcfcTf4nngnn_n
 - _$s10ObjectiveC13ObjCClassListV8IteratorC9fromImage18matchingNamePrefix12conformingTo11subclassingAeA0b12CEnumerationG0O_SSSgSo8ProtocolCSgyXlXpSgtcfcTf4nggnn_n

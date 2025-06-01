@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 984A5076-6749-372B-AEDC-943204797914
 -  Functions: 7532
 -  Symbols:   2065
--  CStrings:  13499
+-  CStrings:  14805
++  UUID: EA424873-B24F-3C8B-BC77-ADEAC2A103B6
 +  Functions: 7535
 +  Symbols:   2066
-+  CStrings:  13507
++  CStrings:  14813
  
 Symbols:
 + _IMCloudKitTotalDatabaseCount

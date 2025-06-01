@@ -135,12 +135,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C4A119F9-D433-3F3F-95AE-1C1FEB38641A
 -  Functions: 6745
 -  Symbols:   1464
 -  CStrings:  1262
++  UUID: 100DEB8B-B9AF-3392-931B-B5000E48CD7B
 +  Functions: 16088
 +  Symbols:   2201
-+  CStrings:  3023
++  CStrings:  3109
  
 Symbols:
 + _$s10Foundation10URLRequestV10httpMethodSSSgvg
@@ -1023,6 +1025,7 @@ Symbols:
 - _swift_weakAssign
 - _time
 CStrings:
++ ""
 + "\x01"
 + "\x01\x11"
 + "\x01!\""

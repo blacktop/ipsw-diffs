@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 442539BD-C60C-3ABF-8FF2-881EFA95849F
++  UUID: CC73D24E-23A4-3AB9-B1F1-89A7C2B9C764
    Functions: 112
    Symbols:   95
--  CStrings:  456
-+  CStrings:  457
+-  CStrings:  476
++  CStrings:  477
  
 CStrings:
 + "T@\"NSString\",?,R,C"

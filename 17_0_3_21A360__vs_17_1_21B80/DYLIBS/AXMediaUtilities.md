@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 42B02447-C6A1-3805-B6CC-313FA5CBDF8F
 -  Functions: 5230
 -  Symbols:   16355
--  CStrings:  7706
+-  CStrings:  9318
++  UUID: 3F2648A6-5E81-3AAD-9937-E98BBCA193F5
 +  Functions: 5232
 +  Symbols:   16364
-+  CStrings:  7710
++  CStrings:  9322
  
 Symbols:
 + -[AXMCaptionDetectorNode _withLock_cloneCaptionModelIfNeeded:].cold.4

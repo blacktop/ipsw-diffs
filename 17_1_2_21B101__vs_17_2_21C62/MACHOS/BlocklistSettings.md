@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13D86A1B-32BC-3993-9FD0-471BDD2B1934
 -  Functions: 65
++  UUID: 1E4FEF13-0A15-32B0-B844-309F215DA0C6
 +  Functions: 66
    Symbols:   111
--  CStrings:  244
-+  CStrings:  250
+-  CStrings:  257
++  CStrings:  263
  
 CStrings:
 + "TB,R,N"

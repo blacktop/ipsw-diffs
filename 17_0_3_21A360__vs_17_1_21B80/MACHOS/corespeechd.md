@@ -64,12 +64,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F27A3EBA-D4BB-3776-9379-F6C2EBFF522F
 -  Functions: 11292
 -  Symbols:   948
--  CStrings:  17944
+-  CStrings:  19322
++  UUID: 93861CB0-630E-3287-85AE-A2085AA1D486
 +  Functions: 11311
 +  Symbols:   951
-+  CStrings:  17986
++  CStrings:  19365
  
 Symbols:
 + _kCSDiagnosticReporterEndpointDelayNegative

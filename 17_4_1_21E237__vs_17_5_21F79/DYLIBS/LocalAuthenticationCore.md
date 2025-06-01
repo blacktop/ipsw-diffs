@@ -72,7 +72,6 @@
 +  __AUTH_CONST.__const: 0xfb0
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x7b0
 -  __AUTH.__objc_data: 0xbf8
 -  __AUTH.__data: 0x180
@@ -102,12 +101,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A190FD88-0B31-340D-A702-8F69EE9E5F65
 -  Functions: 1305
 -  Symbols:   4859
--  CStrings:  1310
+-  CStrings:  1414
++  UUID: 3EEE03D3-0287-384B-9319-0FBB176A18E1
 +  Functions: 1374
 +  Symbols:   5154
-+  CStrings:  1399
++  CStrings:  1529
  
 Symbols:
 + +[LACDTOBiometryWatchdog nullInstance]
@@ -566,6 +567,7 @@ Symbols:
 - _objc_msgSend$stateInContext:completion:
 - _objectdestroy.22Tm
 CStrings:
++ ""
 + "\x16"
 + "-[LACDTORatchetManager stateCompositeInContext:completion:]"
 + "-[LACDTORatchetManager stateCompositeInContext:completion:]_block_invoke"

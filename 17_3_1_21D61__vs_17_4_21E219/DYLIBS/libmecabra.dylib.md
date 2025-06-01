@@ -45,7 +45,6 @@
 -  __AUTH_CONST.__cfstring: 0x8cc0
 +  __AUTH_CONST.__const: 0x40380
 +  __AUTH_CONST.__cfstring: 0x8d60
-   __AUTH_CONST.__auth_ptr: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__objc_const: 0x1f0
 -  __AUTH_CONST.__auth_got: 0x13e8
@@ -69,12 +68,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 098B5301-EC56-3AD3-B91A-9A6481B5FA0E
 -  Functions: 10188
 -  Symbols:   1070
--  CStrings:  3927
+-  CStrings:  5053
++  UUID: E902030C-6728-35CF-94D2-9F30A175DE9F
 +  Functions: 10277
 +  Symbols:   1069
-+  CStrings:  3955
++  CStrings:  5086
  
 Symbols:
 + _kMecabraCreationUseMontrealLanguageModelKey

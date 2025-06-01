@@ -33,13 +33,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C83F73D9-1829-3DE2-9614-209E8F14C5EC
++  UUID: 520B25BF-44C0-3937-AF4B-0B227B3B7063
    Functions: 36
 -  Symbols:   86
--  CStrings:  114
+-  CStrings:  123
 +  Symbols:   84
-+  CStrings:  115
++  CStrings:  124
  
 Symbols:
 - _free

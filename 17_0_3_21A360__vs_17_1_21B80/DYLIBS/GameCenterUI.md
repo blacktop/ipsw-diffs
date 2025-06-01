@@ -79,11 +79,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0xf48
 -  __AUTH_CONST.__auth_got: 0x3558
 -  __AUTH.__objc_data: 0x15950
 -  __AUTH.__data: 0xe538
-+  __AUTH_CONST.__auth_ptr: 0xc48
 +  __AUTH_CONST.__auth_got: 0x3240
 +  __AUTH.__objc_data: 0x15bf8
 +  __AUTH.__data: 0xd258
@@ -133,12 +131,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7248434B-328D-338D-AE17-0B8DD2BF60B0
 -  Functions: 42392
 -  Symbols:   44549
--  CStrings:  15349
+-  CStrings:  16950
++  UUID: 264656DA-BA54-3FF0-8417-94BE7F143665
 +  Functions: 35427
 +  Symbols:   42050
-+  CStrings:  15367
++  CStrings:  16977
  
 Symbols:
 + -[GKChallengeDetailViewController adjustFontSizeForLabel:withTextStyle:]

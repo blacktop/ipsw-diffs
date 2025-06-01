@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x4ce0
 +  __AUTH_CONST.__objc_arrayobj: 0x4cf8
    __AUTH_CONST.__objc_dictobj: 0x3a48
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x818
 -  __AUTH.__objc_data: 0x144b0
 -  __DATA.__objc_protorefs: 0x88
@@ -76,12 +75,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9CF602F-A4D3-3763-8B33-07FE75745BD5
 -  Functions: 30767
 -  Symbols:   87787
--  CStrings:  28489
+-  CStrings:  36915
++  UUID: 3E6D6B5D-798C-3750-904C-D8597F954FC8
 +  Functions: 30879
 +  Symbols:   88121
-+  CStrings:  28496
++  CStrings:  36926
  
 Symbols:
 + +[INActivateCarSignalIntent supportsSecureCoding]

@@ -58,7 +58,6 @@
    __DATA_CONST.__objc_arraydata: 0x10
 -  __AUTH_CONST.__const: 0xc490
 +  __AUTH_CONST.__const: 0xc500
-   __AUTH_CONST.__auth_ptr: 0x250
    __AUTH_CONST.__objc_const: 0xc58
 -  __AUTH_CONST.__cfstring: 0x3a0
 +  __AUTH_CONST.__cfstring: 0x400
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F26FA56D-3D23-3509-9313-02A06A322E71
 -  Functions: 7467
 -  Symbols:   4940
--  CStrings:  2013
+-  CStrings:  2042
++  UUID: 572DA623-C578-3CE5-9068-1A4905DFB8F9
 +  Functions: 7464
 +  Symbols:   4956
-+  CStrings:  2017
++  CStrings:  2049
  
 Symbols:
 + _OBJC_CLASS_$_WFAppIcon

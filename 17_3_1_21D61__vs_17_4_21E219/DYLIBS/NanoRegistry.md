@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__cfstring: 0x44e0
 +  __AUTH_CONST.__objc_const: 0x2420
    __AUTH_CONST.__const: 0xac0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x4b8
    __AUTH.__data: 0x18
@@ -65,12 +64,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 87A4D8D5-4584-3B21-AD74-500CCAC109B2
 -  Functions: 2043
 -  Symbols:   6356
--  CStrings:  2299
+-  CStrings:  2848
++  UUID: 7039AF59-4EBD-3D8D-86DE-CF9E3375B215
 +  Functions: 2062
 +  Symbols:   6424
-+  CStrings:  2349
++  CStrings:  2900
  
 Symbols:
 + +[WatchSetupAdvertisementIdentifier _consistencyCheckForAdvertisingIdentifier:pairingStrategy:deviceSize:enclosureMaterial:]

@@ -19,11 +19,15 @@
    __TEXT.__unwind_info: 0x52c
    __TEXT.__objc_classname: 0x293
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05652C11-6EC2-34EA-B04D-075A6E37E51B
++  UUID: BF1FFC21-879B-30E4-B08C-764A6E6B5EF1
    Functions: 328
    Symbols:   1518
--  CStrings:  904
-+  CStrings:  905
+-  CStrings:  960
++  CStrings:  961
  
 CStrings:
 + "[%{public}@] Ignore InputUIHost handler requested focus: %{public}@; steal keyboard: %{public}@"

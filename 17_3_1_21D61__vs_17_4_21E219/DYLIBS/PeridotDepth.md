@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_const: 0x798
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xbd8
 +  __AUTH_CONST.__auth_got: 0xbc8
    __AUTH.__objc_data: 0x6e0
@@ -69,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7096E93-9294-3F6D-8D05-DC39EAA74E2E
 -  Functions: 1501
 -  Symbols:   3861
--  CStrings:  1710
+-  CStrings:  2068
++  UUID: 697016BC-6D48-3C5D-9FF2-E382B58F5C26
 +  Functions: 1500
 +  Symbols:   3846
-+  CStrings:  1733
++  CStrings:  2092
  
 Symbols:
 + -[PDUserDefaults doubleBounceFlagOnly]

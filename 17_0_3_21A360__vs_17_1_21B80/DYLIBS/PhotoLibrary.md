@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0B458C01-A9AC-37A3-AD7C-2B3F05FEB241
 -  Functions: 1868
 -  Symbols:   7343
--  CStrings:  3908
+-  CStrings:  4179
++  UUID: 84E4AAA1-BF22-3E5B-BC8A-7982081615B8
 +  Functions: 1866
 +  Symbols:   7334
-+  CStrings:  3899
++  CStrings:  4164
  
 Symbols:
 + -[PLUIEditVideoViewController setupNavigationItem]

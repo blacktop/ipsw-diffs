@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0xc8
 
+   - /System/Library/PrivateFrameworks/AirTraffic.framework/AirTraffic
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1BCE80B-EA55-3728-8498-2870374B8ABD
++  UUID: FDD5BBE8-5592-3012-85C2-DF7115006C32
    Functions: 99
    Symbols:   80
--  CStrings:  383
-+  CStrings:  384
+-  CStrings:  459
++  CStrings:  460
  
 CStrings:
 + "23:14:38"

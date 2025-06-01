@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 62B56963-4BAD-3D91-9C38-028EDF73DA24
 -  Functions: 2037
 -  Symbols:   7987
--  CStrings:  4547
+-  CStrings:  5343
++  UUID: 63B18063-93A6-3AFA-B185-FDCE94A8CD64
 +  Functions: 2043
 +  Symbols:   8016
-+  CStrings:  4567
++  CStrings:  5363
  
 Symbols:
 + -[AXElementAction dropDescriptor]

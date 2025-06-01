@@ -13,11 +13,15 @@
    __TEXT.__unwind_info: 0x1164
    __DATA_CONST.__auth_got: 0x9a8
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C05C5B6A-BF37-3E9A-B2F1-55DE652C9403
++  UUID: 83B835EB-C422-372D-BD0F-395B58052398
    Functions: 2150
    Symbols:   414
--  CStrings:  4125
-+  CStrings:  4126
+-  CStrings:  4851
++  CStrings:  4852
  
 CStrings:
 + "v32@0:8@\"NSDictionary\"16@\"NSUUID\"24"

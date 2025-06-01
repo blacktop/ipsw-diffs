@@ -30,7 +30,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DAAF26DD-4384-3DF5-83AA-BD5379391066
++  UUID: 63DF6555-8600-36A5-A02F-3BB0D03EACF8
    Functions: 38
    Symbols:   55
 -  CStrings:  131

@@ -63,7 +63,6 @@
    __DATA_CONST.__objc_arraydata: 0xff0
 -  __AUTH_CONST.__const: 0x3b00
 +  __AUTH_CONST.__const: 0x3a58
-   __AUTH_CONST.__auth_ptr: 0x48
    __AUTH_CONST.__cfstring: 0x11d40
    __AUTH_CONST.__objc_const: 0x69c8
 -  __AUTH_CONST.__objc_intobj: 0x2c10
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0FA16BF8-4649-30B8-8384-E987C9E4E11E
 -  Functions: 5113
 -  Symbols:   13883
--  CStrings:  7346
+-  CStrings:  9628
++  UUID: 0CDA53BB-5132-350D-8234-595CF1268DB6
 +  Functions: 5095
 +  Symbols:   13885
-+  CStrings:  7349
++  CStrings:  9631
  
 Symbols:
 + +[WFAppIcon(AssociatedLogo) localAssetForBundleIdentifier:]

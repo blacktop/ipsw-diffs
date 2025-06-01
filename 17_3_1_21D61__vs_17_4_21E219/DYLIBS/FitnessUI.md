@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_intobj: 0xb28
    __AUTH_CONST.__const: 0xdc8
    __AUTH_CONST.__objc_doubleobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0xc30
 -  __AUTH.__objc_data: 0x1948
 -  __AUTH.__data: 0x1b8
@@ -89,13 +88,16 @@
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6628931-147F-3E2C-AE93-C0A106F77F06
++  UUID: 5BA58521-4BFE-33E5-9CA8-66AA0FA1D116
    Functions: 4833
 -  Symbols:   8715
--  CStrings:  4966
+-  CStrings:  5615
 +  Symbols:   8724
-+  CStrings:  4989
++  CStrings:  5640
  
 Symbols:
 + -[FIUIBluetoothSensorLookup hideBluetoothPowerAlert]
@@ -246,6 +248,7 @@ Symbols:
 - __unnamed_array_storage.859
 - _swift_setDeallocating
 CStrings:
++ "/ %"
 + "CyclingHideBluetoothPowerAlert"
 + "Insufficient space allocated to copy string contents"
 + "Swift/ContiguousArrayBuffer.swift"

@@ -62,7 +62,6 @@
 +  __AUTH_CONST.__const: 0xa28
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x660
 -  __AUTH.__data: 0x238
 -  __AUTH.__objc_data: 0x50
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74E9B26E-BBF6-3ACA-97FC-4663CDD258DD
 -  Functions: 1308
 -  Symbols:   2962
--  CStrings:  110
+-  CStrings:  111
++  UUID: 08D5C3C4-BE44-3F75-A7FF-E7ACC73B75E3
 +  Functions: 1396
 +  Symbols:   3178
-+  CStrings:  141
++  CStrings:  142
  
 Symbols:
 + -[HomeKitHelper areAnyAccessoriesConfigured]

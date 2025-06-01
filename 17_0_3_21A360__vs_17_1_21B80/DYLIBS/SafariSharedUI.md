@@ -66,12 +66,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 922B6596-F178-3D15-8F35-DFE11D4CCA87
 -  Functions: 7506
 -  Symbols:   26928
--  CStrings:  11721
+-  CStrings:  14710
++  UUID: 263EAC79-3338-367D-8714-B8350BF84C27
 +  Functions: 7535
 +  Symbols:   27015
-+  CStrings:  11746
++  CStrings:  14745
  
 Symbols:
 + -[WBSStartPageBackgroundManager _isGeneratedBackgroundImageInImageSource:]

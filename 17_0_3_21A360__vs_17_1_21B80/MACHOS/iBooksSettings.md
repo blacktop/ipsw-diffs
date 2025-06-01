@@ -25,11 +25,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4C104AC-8AEA-31DF-9D15-599E15E2F02D
++  UUID: 10EB5E11-F6C3-30B3-B0EC-906103E4E4C3
    Functions: 213
    Symbols:   232
--  CStrings:  736
-+  CStrings:  734
+-  CStrings:  903
++  CStrings:  899
  
 CStrings:
 + "Audiobooks"

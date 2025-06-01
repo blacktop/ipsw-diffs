@@ -19,4 +19,13 @@
    __DATA_CONST.__auth_got: 0x17d8
    __DATA_CONST.__got: 0xa48
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BA316EC1-D582-319E-B4BF-39D93A5F5729
++  UUID: 69BEA7A7-160C-3D87-BBC5-D21E17188348
+   Functions: 4515
+   Symbols:   1471
+   CStrings:  2155
+
 ```

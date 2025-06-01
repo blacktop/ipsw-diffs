@@ -40,11 +40,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1BEC707E-F5CF-390A-AB1D-5D89F7ED075F
 -  Functions: 1326
++  UUID: 41BB5BE6-34EE-3B61-A5CA-A148B5F6B6C3
 +  Functions: 1328
    Symbols:   508
--  CStrings:  2092
-+  CStrings:  2096
+-  CStrings:  2353
++  CStrings:  2359
  
 CStrings:
 + "display-seller-label-for-country"

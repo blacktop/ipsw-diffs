@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/CloudKitDaemon.framework/CloudKitDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1AC137FE-A6A2-3E58-A83F-63FE605A486A
++  UUID: 0E6157AF-635D-3B74-B92D-E2DE8C7BEA94
    Functions: 8
    Symbols:   54
 -  CStrings:  106

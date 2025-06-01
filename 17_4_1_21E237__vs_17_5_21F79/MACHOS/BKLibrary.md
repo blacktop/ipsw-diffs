@@ -93,12 +93,14 @@
 +  - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
+-  UUID: 6992A5E9-BEA8-30DC-84E8-B60D08289F07
 -  Functions: 2315
 -  Symbols:   507
--  CStrings:  4255
+-  CStrings:  4917
++  UUID: 583329A4-AB44-39A0-AA53-26107239C901
 +  Functions: 2322
 +  Symbols:   534
-+  CStrings:  4270
++  CStrings:  4936
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

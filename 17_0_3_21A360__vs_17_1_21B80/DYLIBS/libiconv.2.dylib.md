@@ -19,8 +19,10 @@
 +  __DATA_DIRTY.__data: 0x58
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcharset.1.dylib
+-  UUID: 54C52B24-7D04-397C-935A-B7897B44BB55
 -  Functions: 131
 -  Symbols:   231
++  UUID: B3FFB7C4-A2D4-39EA-963A-0C2E65F12304
 +  Functions: 130
 +  Symbols:   229
    CStrings:  49

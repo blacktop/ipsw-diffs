@@ -39,9 +39,9 @@
    __DATA_CONST.__objc_arraydata: 0x188
    __AUTH_CONST.__const: 0x11388
 
+   __AUTH_CONST.__objc_arrayobj: 0x1f8
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xf28
 +  __AUTH_CONST.__auth_got: 0xf30
    __AUTH.__data: 0x888
@@ -60,12 +60,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 14D4465A-8137-3C2B-BBB3-CD09CA1B28F3
 -  Functions: 16256
 -  Symbols:   36315
--  CStrings:  27815
+-  CStrings:  28024
++  UUID: A3F8FAA1-5072-3D47-9A52-B9A2C3D81E15
 +  Functions: 16259
 +  Symbols:   36321
-+  CStrings:  27822
++  CStrings:  28031
  
 Symbols:
 + -[DEEvaluator setUserSettings:]

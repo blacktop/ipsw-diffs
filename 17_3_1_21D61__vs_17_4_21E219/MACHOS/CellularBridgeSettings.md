@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0x538
    __DATA.__data: 0x328
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 77DBAF09-B53C-30EF-989F-B0F05E970531
++  UUID: CCB803DE-23BC-33EC-A029-61BC518EE1DC
    Functions: 339
 -  Symbols:   239
--  CStrings:  887
+-  CStrings:  1010
 +  Symbols:   238
-+  CStrings:  889
++  CStrings:  1012
  
 Symbols:
 - _swift_bridgeObjectRetain

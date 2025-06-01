@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A9C614C4-5DA0-3493-B8A4-D6D887503950
 -  Functions: 1098
 -  Symbols:   541
--  CStrings:  1802
+-  CStrings:  2014
++  UUID: 29E486BB-2D1C-3B4D-9C86-0F269C42FB04
 +  Functions: 786
 +  Symbols:   365
-+  CStrings:  1404
++  CStrings:  1522
  
 Symbols:
 + _CSLPRFEqual

@@ -58,9 +58,8 @@
 -  __AUTH_CONST.__const: 0x17c88
 +  __AUTH_CONST.__const: 0x17c48
    __AUTH_CONST.__objc_const: 0x2fa0
-   __AUTH_CONST.__auth_ptr: 0x388
    __AUTH_CONST.__cfstring: 0x1fc0
-
+   __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_floatobj: 0x20
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3F2FFE9A-A09E-3677-A004-D8D47566447F
 -  Functions: 16618
 -  Symbols:   15098
--  CStrings:  6749
+-  CStrings:  7003
++  UUID: CE04A4D4-8FFF-3B82-9E6B-3B064C55252F
 +  Functions: 16639
 +  Symbols:   15107
-+  CStrings:  6751
++  CStrings:  7005
  
 Symbols:
 + _WFExecutionPlatformForDeviceIdiom

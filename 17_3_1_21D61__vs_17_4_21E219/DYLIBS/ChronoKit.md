@@ -59,13 +59,12 @@
    __AUTH_CONST.__objc_const: 0x1a8
    __AUTH_CONST.__cfstring: 0x180
 -  __AUTH_CONST.__const: 0xa558
-+  __AUTH_CONST.__const: 0xa5f0
-   __AUTH_CONST.__auth_ptr: 0x2f8
 -  __AUTH_CONST.__auth_got: 0x2500
 -  __AUTH.__objc_data: 0xc50
 -  __AUTH.__data: 0x1700
 -  __DATA.__objc_protorefs: 0x48
 -  __DATA.__objc_classrefs: 0x290
++  __AUTH_CONST.__const: 0xa5f0
 +  __AUTH_CONST.__auth_got: 0x2528
 +  __AUTH.__objc_data: 0xca0
 +  __AUTH.__data: 0x1380
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5907AAEB-201A-34F7-9E94-8758C376F3B3
 -  Functions: 9314
 -  Symbols:   2816
--  CStrings:  1795
+-  CStrings:  1807
++  UUID: 53B66D74-CB9D-3451-9F33-233611B4FEE3
 +  Functions: 9381
 +  Symbols:   2828
-+  CStrings:  1831
++  CStrings:  1843
  
 Symbols:
 + __DATA__TtC9ChronoKit27FixedDataProtectionProvider

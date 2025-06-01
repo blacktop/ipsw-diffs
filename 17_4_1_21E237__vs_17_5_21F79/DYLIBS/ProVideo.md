@@ -21,6 +21,15 @@
    __DATA_DIRTY.__common: 0x10f0
    - /System/Library/Frameworks/ARKit.framework/ARKit
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 9CA436E3-76DD-37AC-89F1-4EE3C3BA91E0
++  UUID: 76CF8C3A-B0FB-3BF4-BBD4-EF0CFB3EE181
+   Functions: 50707
+   Symbols:   131712
+   CStrings:  26564
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/ProCore/PCMatrix44.h"
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/ProCore/PCMod.h"

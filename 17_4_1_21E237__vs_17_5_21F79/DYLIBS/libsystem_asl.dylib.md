@@ -13,4 +13,13 @@
    __DATA_CONST.__const: 0x610
    __AUTH_CONST.__const: 0x500
 
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libunwind.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: D058D50F-1EB9-3E2C-B567-B661F12DA43F
++  UUID: F47677E4-8769-3BC7-88B3-3973C9E0296D
+   Functions: 380
+   Symbols:   752
+   CStrings:  323
+
 ```

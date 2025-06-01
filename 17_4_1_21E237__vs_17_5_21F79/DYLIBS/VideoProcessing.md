@@ -31,7 +31,6 @@
 +  __AUTH_CONST.__cfstring: 0x3f60
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xf78
 -  __AUTH.__data: 0x150
 +  __AUTH.__data: 0x160
@@ -45,11 +44,15 @@
    __DATA_DIRTY.__bss: 0xa0
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E1567979-0FEC-3C36-9A3F-488DAD32DE21
++  UUID: E26354ED-4DD9-3850-8258-0B342C11F170
    Functions: 3018
    Symbols:   1261
--  CStrings:  2034
-+  CStrings:  2036
+-  CStrings:  2539
++  CStrings:  2543
  
 CStrings:
 + "paravirtualized:com.apple.videotoolbox.videoencoder.ave.avc"

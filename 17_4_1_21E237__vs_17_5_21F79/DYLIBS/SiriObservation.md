@@ -27,5 +27,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5F038BBC-213C-341B-86FF-DDE8E6C17EBD
++  UUID: CD41C6B8-8E4E-3A22-8FC4-CA230592481D
+   Functions: 598
+   Symbols:   2108
+   CStrings:  893
 
 ```

@@ -29,13 +29,16 @@
    __DATA_CONST.__const: 0xed8
    __DATA_CONST.__cfstring: 0x16e0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36B33B93-A15A-390D-8ED9-DDB840401230
++  UUID: 11DD1E62-492C-3F55-87F6-34552643323D
    Functions: 1238
 -  Symbols:   373
--  CStrings:  3101
+-  CStrings:  3284
 +  Symbols:   374
-+  CStrings:  3102
++  CStrings:  3285
  
 Symbols:
 + _AVResetMediaServices

@@ -31,14 +31,18 @@
 -  __AUTH_CONST.__cfstring: 0xa40
 +  __AUTH_CONST.__cfstring: 0xaa0
    __AUTH_CONST.__const: 0x5e0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x4f0
+   __AUTH.__objc_data: 0x560
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: CF60FFF0-8D81-30E7-9B18-D66F34C56F08
++  UUID: 0170CECA-52F7-34CC-81AA-B79EEB32B442
    Functions: 271
    Symbols:   386
--  CStrings:  261
-+  CStrings:  264
+-  CStrings:  343
++  CStrings:  349
  
 CStrings:
 + "ODD_SIRI_CLIENT_EVENT"

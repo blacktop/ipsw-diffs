@@ -39,11 +39,15 @@
    __DATA.__data: 0x660
    __DATA.__bss: 0x38
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 06558A3F-4174-3548-ABB1-74AAD40BB6F1
++  UUID: 9E5C7ACA-825C-37B6-9271-9939D7DA682F
    Functions: 190
    Symbols:   187
--  CStrings:  864
-+  CStrings:  866
+-  CStrings:  920
++  CStrings:  922
  
 CStrings:
 + "\x18"

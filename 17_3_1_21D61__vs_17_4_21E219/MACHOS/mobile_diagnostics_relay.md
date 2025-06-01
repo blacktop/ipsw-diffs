@@ -25,14 +25,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /System/Library/PrivateFrameworks/MobileObliteration.framework/MobileObliteration
-
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
+-  UUID: CD90923D-DBF6-378C-8B46-D689E586FDD6
++  UUID: 139125CE-74B2-3A17-9290-401CBC61ED27
    Functions: 33
 -  Symbols:   126
--  CStrings:  183
+-  CStrings:  308
 +  Symbols:   121
-+  CStrings:  178
++  CStrings:  302
  
 Symbols:
 + _IOObjectConformsTo

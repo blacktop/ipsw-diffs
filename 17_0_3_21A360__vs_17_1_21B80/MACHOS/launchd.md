@@ -24,7 +24,9 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 3FE42DB5-40F8-3872-AC95-49897234EEF7
 -  Functions: 3168
++  UUID: 702941C5-2643-3BC5-9884-60278363E589
 +  Functions: 3167
    Symbols:   553
    CStrings:  2378

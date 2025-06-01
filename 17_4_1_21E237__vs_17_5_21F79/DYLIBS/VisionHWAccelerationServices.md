@@ -23,8 +23,8 @@
    __TEXT.__eh_frame: 0x38
    __TEXT.__objc_classname: 0x34
 
+   __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__cfstring: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x620
 +  __AUTH_CONST.__auth_got: 0x628
@@ -35,12 +35,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AE6E02F-5332-3551-8AD9-B91EFE1EB509
 -  Functions: 501
 -  Symbols:   268
--  CStrings:  342
+-  CStrings:  347
++  UUID: 679104DD-E746-3D82-9720-D57C2D2158E9
 +  Functions: 509
 +  Symbols:   269
-+  CStrings:  346
++  CStrings:  351
  
 Symbols:
 + __os_log_fault_impl

@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/PromotedContentPrediction.framework/PromotedContentPrediction
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 500C79F9-F7E6-3AFF-870E-0D9F8BC57838
++  UUID: B638371D-F31F-3902-B08A-B9601FFF3647
    Functions: 9
    Symbols:   58
--  CStrings:  111
-+  CStrings:  112
+-  CStrings:  112
++  CStrings:  113
  
 CStrings:
 + "T@\"NSString\",?,R,C"

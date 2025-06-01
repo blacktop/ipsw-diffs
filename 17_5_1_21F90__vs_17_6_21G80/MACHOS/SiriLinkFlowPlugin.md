@@ -49,12 +49,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0746E901-3677-3155-8D87-A3BCBCB552C7
 -  Functions: 13836
 -  Symbols:   85852
--  CStrings:  2547
+-  CStrings:  2595
++  UUID: 3C2ECBAE-E1AC-30DE-A9F1-2CEFA63C7CEA
 +  Functions: 13844
 +  Symbols:   85900
-+  CStrings:  2548
++  CStrings:  2596
  
 Symbols:
 + _$s18SiriLinkFlowPlugin6LoggerO9siriKitUI2osABVvau

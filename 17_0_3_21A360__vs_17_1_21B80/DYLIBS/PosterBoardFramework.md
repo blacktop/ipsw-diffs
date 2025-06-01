@@ -53,13 +53,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85A5F760-D18F-3915-9601-8C6BDE0E74A4
++  UUID: 282C75F9-942A-331A-8593-C69EA5345D26
    Functions: 174
 -  Symbols:   754
--  CStrings:  371
+-  CStrings:  545
 +  Symbols:   751
-+  CStrings:  377
++  CStrings:  555
  
 Symbols:
 + GCC_except_table11

@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D2F0C58-C0E7-3B11-BD6B-C4D149789810
 -  Functions: 1345
 -  Symbols:   5465
--  CStrings:  3146
+-  CStrings:  3375
++  UUID: B2EE3F84-E0A0-3973-8ADF-303C4B5D3F86
 +  Functions: 1348
 +  Symbols:   5472
-+  CStrings:  3152
++  CStrings:  3381
  
 Symbols:
 + -[AMUIAmbientViewController posterSwitcherViewController:requestsLastSelectedConfigurationUUIDForProviderBundleIdentifier:]

@@ -43,8 +43,7 @@
 +  __AUTH_CONST.__const: 0x9990
    __AUTH_CONST.__cfstring: 0x4480
    __AUTH_CONST.__objc_const: 0x3918
-   __AUTH_CONST.__auth_ptr: 0xb0
-
+   __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0xc68
    __AUTH.__objc_data: 0x2670
    __DATA.__got_weak: 0x8
@@ -68,12 +67,14 @@
 +  - /usr/lib/libchannel.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: B662529A-2621-3C83-BC90-6A0B901407E6
 -  Functions: 8133
 -  Symbols:   21707
--  CStrings:  5699
+-  CStrings:  6247
++  UUID: C14BB797-F62D-3236-9407-4AFEF75E15DA
 +  Functions: 8089
 +  Symbols:   21555
-+  CStrings:  5713
++  CStrings:  6261
  
 Symbols:
 + GCC_except_table138

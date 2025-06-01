@@ -18,6 +18,15 @@
    __TEXT.__objc_classname: 0x211
    __TEXT.__objc_methtype: 0x927
    __TEXT.__gcc_except_tab: 0xd4
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D520F5ED-4EB4-3ACD-AB53-7E6F999F7530
++  UUID: C3E1C48E-B3B7-3F20-AE4F-B69CB8217851
+   Functions: 246
+   Symbols:   142
+   CStrings:  823
 CStrings:
 + "Essonite"
 - "EasyScreenSharing"

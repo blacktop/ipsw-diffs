@@ -69,7 +69,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x538
 -  __AUTH.__objc_data: 0x958
 -  __AUTH.__data: 0x250
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2AB4B282-0568-3F39-94BA-D3FE58F76EFC
 -  Functions: 483
 -  Symbols:   1736
--  CStrings:  835
+-  CStrings:  971
++  UUID: D3D53BEB-657C-3B31-8EF9-1F44BC320B8A
 +  Functions: 608
 +  Symbols:   2105
-+  CStrings:  964
++  CStrings:  1086
  
 Symbols:
 + +[MOApprovedApplicationsManager sharedInstance]
@@ -580,8 +581,10 @@ Symbols:
 - _symbolic _____ySSG s23_ContiguousArrayStorageC
 - _symbolic _____y_____ypG s18_DictionaryStorageC So21NSAttributedStringKeya
 CStrings:
++ ""
 + "\r"
 + "\x11"
++ "\x1c %"
 + "$__lazy_storage_$_privacyAboutButton"
 + "@\"<MOOnboardingManagerDelegate>\""
 + "@\"<MOSettingsManagerDelegate>\""

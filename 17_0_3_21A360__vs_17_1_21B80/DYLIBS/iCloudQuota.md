@@ -74,10 +74,8 @@
 +  __AUTH_CONST.__objc_intobj: 0xa68
    __AUTH_CONST.__objc_dictobj: 0x1478
    __AUTH_CONST.__objc_arrayobj: 0x528
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__auth_got: 0x8c8
 -  __AUTH.__objc_data: 0x1548
-+  __AUTH_CONST.__auth_ptr: 0x40
 +  __AUTH_CONST.__auth_got: 0x8d0
 +  __AUTH.__objc_data: 0x1578
    __AUTH.__data: 0x688
@@ -96,12 +94,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A787CE43-5EAE-3C9B-A934-D33236790B10
 -  Functions: 2758
 -  Symbols:   7616
--  CStrings:  3827
+-  CStrings:  4680
++  UUID: 5497773F-3DCA-3C96-A842-CF4904507712
 +  Functions: 2836
 +  Symbols:   7777
-+  CStrings:  3931
++  CStrings:  4800
  
 Symbols:
 + +[FLFollowUpController(ICQUI) icq_dismissFollowUpWithIdentifier:]

@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4F20B0FD-CC42-3872-BF15-171BB0E22D85
 -  Functions: 1141
++  UUID: AB8B7902-2499-3913-8B18-B5AE2EA82BBD
 +  Functions: 1148
    Symbols:   748
--  CStrings:  439
-+  CStrings:  442
+-  CStrings:  440
++  CStrings:  443
  
 Symbols:
 + _$s6People12LocateFriendO17statusFromFMCache3for4with06friendB8ProviderSDySSSayAA12PersonStatus_pGGSaySSG_AA22ContactFetcherProtocol_pAA0ab14FriendsSessionJ0_ptYaFZ

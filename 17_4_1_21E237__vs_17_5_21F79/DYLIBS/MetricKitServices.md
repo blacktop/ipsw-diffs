@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0xcf4
    __TEXT.__objc_methtype: 0xb2
 
+   - /System/Library/PrivateFrameworks/MetricKitSource.framework/MetricKitSource
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6AC154CB-5DC7-3BC3-80CB-9D25081085D7
++  UUID: 38B4BCDA-1873-3745-AA30-E0702CA6E6C9
+   Functions: 117
+   Symbols:   476
+   CStrings:  247
+
 ```

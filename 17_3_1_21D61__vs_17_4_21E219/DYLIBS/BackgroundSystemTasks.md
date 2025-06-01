@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3433BCEB-367F-3D6F-BB44-949F01917A46
 -  Functions: 222
 -  Symbols:   856
--  CStrings:  475
+-  CStrings:  538
++  UUID: 4616CE73-4C8A-3011-AA1C-A99B572E126B
 +  Functions: 234
 +  Symbols:   909
-+  CStrings:  499
++  CStrings:  562
  
 Symbols:
 + +[BGSystemTask logger]

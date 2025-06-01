@@ -35,8 +35,11 @@
    __DATA.__bss: 0x30b8
    __DATA.__common: 0x4f8
 
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppleConnectClient.framework/AppleConnectClient
+-  UUID: CAACC72F-1928-3211-89FB-B8BD622A55D4
++  UUID: E4CE75A2-BEB5-3DBF-8134-83792E2161F4
    Functions: 3042
 -  Symbols:   219
 +  Symbols:   218

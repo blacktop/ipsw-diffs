@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9F687721-092F-3419-8E22-0CE8D3D51A66
 -  Functions: 4284
 -  Symbols:   13347
--  CStrings:  7491
+-  CStrings:  9176
++  UUID: 956A30EE-74EA-3AD4-9B6B-6519EFB73962
 +  Functions: 4289
 +  Symbols:   13365
-+  CStrings:  7516
++  CStrings:  9213
  
 Symbols:
 + +[CSInstantAnswers instantAnswersFallbackQueries:queryComponents:searchString:isShortQuery:]

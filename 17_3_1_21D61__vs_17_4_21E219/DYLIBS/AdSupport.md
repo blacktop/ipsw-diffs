@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 18AAC6AD-1139-3EC7-B81F-9DE283DCFCC5
++  UUID: 74DD48AC-5178-3F8E-AD5B-53D33FE24BC3
+   Functions: 6
+   Symbols:   66
+   CStrings:  37
+
 ```

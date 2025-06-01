@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x638
    __TEXT.__cstring: 0x294
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B7CF5A37-6A85-3814-B554-D528953754B4
++  UUID: AFA0A8EB-D148-3A59-BD3D-7487D0329904
+   Functions: 65
+   Symbols:   97
+   CStrings:  193
+
 ```

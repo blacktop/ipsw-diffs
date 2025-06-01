@@ -41,8 +41,11 @@
    - /usr/lib/swift/libswiftCoreAudio.dylib
    - /usr/lib/swift/libswiftCoreFoundation.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05B2B37D-3301-3D8E-8942-53A26AD0B3C3
++  UUID: 5B22327C-D307-3D57-A2AD-E57631290617
    Functions: 901
 -  Symbols:   622
 +  Symbols:   624

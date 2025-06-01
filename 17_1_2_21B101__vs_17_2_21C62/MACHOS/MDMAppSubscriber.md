@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4E6EABD-DC24-3E3F-AF46-17B3FFC9768C
 -  Functions: 10
 -  Symbols:   72
 -  CStrings:  85
++  UUID: E594004E-BBEC-32F8-BA04-56E94F7CB8D8
 +  Functions: 11
 +  Symbols:   74
-+  CStrings:  95
++  CStrings:  102
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantArray

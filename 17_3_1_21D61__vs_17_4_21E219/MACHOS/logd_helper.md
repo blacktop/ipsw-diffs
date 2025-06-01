@@ -28,11 +28,15 @@
    __DATA.__data: 0x79
    __DATA.__os_assumes_log: 0x8
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D7AAE098-FC36-35D9-9EEF-3F6263DD8665
++  UUID: D92AAFC1-BCF8-3E5A-9A9A-825E2007EC21
    Functions: 58
    Symbols:   176
--  CStrings:  126
-+  CStrings:  129
+-  CStrings:  139
++  CStrings:  142
  
 CStrings:
 + "IOP connect to coproc %s\n"

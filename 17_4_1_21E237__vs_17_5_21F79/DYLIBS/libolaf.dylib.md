@@ -20,6 +20,11 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 07491D51-88FD-367F-862E-A584703D8934
++  UUID: 4BB41417-D3C7-3A40-821F-F1790F1997A9
+   Functions: 3645
+   Symbols:   18252
+   CStrings:  10743
 CStrings:
 + "Apr 13 2024"
 - "Mar  8 2024"

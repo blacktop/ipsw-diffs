@@ -16,5 +16,10 @@
    __DATA_DIRTY.__bss: 0x60
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
+-  UUID: 12FB7897-0928-368A-A5A5-8F38FB609A18
++  UUID: 8AAA1888-90CE-3920-BA3A-B3FFED389FDF
+   Functions: 83
+   Symbols:   330
+   CStrings:  189
 
 ```

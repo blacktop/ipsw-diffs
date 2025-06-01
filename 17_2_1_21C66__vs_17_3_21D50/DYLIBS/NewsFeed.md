@@ -65,7 +65,6 @@
 -  __AUTH_CONST.__const: 0xce260
 +  __AUTH_CONST.__objc_const: 0x1708
 +  __AUTH_CONST.__const: 0xce170
-   __AUTH_CONST.__auth_ptr: 0x2410
    __AUTH_CONST.__auth_got: 0x5dc8
 -  __AUTH.__objc_data: 0x8ed8
 -  __AUTH.__data: 0xe390
@@ -95,12 +94,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5D820C0D-2B1D-376A-9B33-C30E6C4897F4
 -  Functions: 123664
 -  Symbols:   18360
--  CStrings:  11041
+-  CStrings:  11045
++  UUID: F0B62664-A2B5-3BE9-97D0-114D5EAB45E1
 +  Functions: 123567
 +  Symbols:   18345
-+  CStrings:  11037
++  CStrings:  11041
  
 Symbols:
 + _OBJC_METACLASS_$__TtC8NewsFeedP33_DD60186E3570D2ADA3A82D30FAA22DCC32FormatAccessibilityShadowElement

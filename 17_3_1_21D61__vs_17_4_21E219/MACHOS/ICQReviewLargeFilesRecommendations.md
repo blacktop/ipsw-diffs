@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25CCD73A-B26A-3348-A46E-B2943EFB682D
++  UUID: B0DADA81-C93B-3D18-BD4E-B40D85D77009
    Functions: 6
    Symbols:   47
--  CStrings:  74
-+  CStrings:  75
+-  CStrings:  81
++  CStrings:  82
  
 CStrings:
 + "T@\"NSString\",?,R,C"

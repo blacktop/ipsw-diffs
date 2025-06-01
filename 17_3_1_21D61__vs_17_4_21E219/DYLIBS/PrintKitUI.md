@@ -47,11 +47,15 @@
    __DATA.__data: 0xbb8
    __DATA.__bss: 0x370
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1CAEAE9-54CF-3179-AA93-E05790E23349
++  UUID: 783FD780-5093-38D6-BADD-C0C2C96D6055
    Functions: 2332
    Symbols:   8508
--  CStrings:  3953
-+  CStrings:  3955
+-  CStrings:  4369
++  CStrings:  4372
  
 Symbols:
 + ___block_literal_global.551

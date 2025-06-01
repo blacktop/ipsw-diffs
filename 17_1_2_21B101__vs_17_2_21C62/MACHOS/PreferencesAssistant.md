@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x601
    __TEXT.__objc_classname: 0x6bf
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A31EA227-DE89-3031-9CCA-2FC3320C8FEA
++  UUID: B8AF7A7F-A065-36DA-85CF-E5E1E8C14578
+   Functions: 112
+   Symbols:   312
+   CStrings:  421
+
 ```

@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/appleinternal/lib/liblinkguard.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3F3AC2C4-C1D3-3360-BE05-DB495989AB4A
++  UUID: 9ED682E2-72A1-3979-99D2-1C2AB382F7C7
+   Functions: 8
+   Symbols:   45
+   CStrings:  22
+
 ```

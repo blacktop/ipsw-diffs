@@ -51,9 +51,8 @@
    __AUTH_CONST.__const: 0x5e80
    __AUTH_CONST.__objc_intobj: 0x42f0
    __AUTH_CONST.__objc_dictobj: 0x488
-
+   __AUTH_CONST.__objc_doubleobj: 0x100
    __AUTH_CONST.__objc_arrayobj: 0x600
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__auth_got: 0x1298
 -  __AUTH.__objc_data: 0xcbd8
 +  __AUTH.__objc_data: 0xcc78
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: CFA92F68-0B26-3CF6-B1AF-2A16E04242A8
 -  Functions: 18391
 -  Symbols:   52671
--  CStrings:  21054
+-  CStrings:  26858
++  UUID: 63950E10-6E0A-34B2-A2B7-B538ACD1B45D
 +  Functions: 18429
 +  Symbols:   52783
-+  CStrings:  21084
++  CStrings:  26894
  
 Symbols:
 + +[HKMedicalIDSyncRequest supportsSecureCoding]

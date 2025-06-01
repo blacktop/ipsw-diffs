@@ -121,12 +121,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0642F66D-7C41-310F-A0EC-656123956302
 -  Functions: 85057
 -  Symbols:   30356
--  CStrings:  16882
+-  CStrings:  17177
++  UUID: 46A82B50-0DD7-3F28-9A54-08F51E743426
 +  Functions: 86522
 +  Symbols:   31040
-+  CStrings:  17087
++  CStrings:  17393
  
 Symbols:
 + +[MCDPlaylistsViewController madeForYouViewControllerWithIdentifier:limitedUI:showLocalContent:]

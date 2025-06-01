@@ -10,7 +10,7 @@
    __TEXT.__auth_stubs: 0x2350
    __TEXT.__objc_methlist: 0xe20
 
-   __AUTH_CONST.__auth_ptr: 0x168
+   __AUTH_CONST.__const: 0x38e8
    __AUTH_CONST.__auth_got: 0x11b8
    __AUTH.__objc_data: 0x358
 -  __AUTH.__data: 0xb28
@@ -33,5 +33,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E69B624C-EDED-37FE-9E8E-7BDF09BB70C8
++  UUID: AAC89192-97A6-3AC5-B616-8FBA216E6868
+   Functions: 9558
+   Symbols:   22295
+   CStrings:  1259
 
 ```

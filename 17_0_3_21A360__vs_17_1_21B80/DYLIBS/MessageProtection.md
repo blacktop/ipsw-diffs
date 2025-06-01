@@ -50,12 +50,11 @@
 -  __DATA_CONST.__objc_selrefs: 0xc60
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x1720
+-  __AUTH_CONST.__objc_intobj: 0xa8
 +  __DATA_CONST.__objc_const: 0x3d48
 +  __DATA_CONST.__objc_selrefs: 0xc80
 +  __AUTH_CONST.__objc_const: 0x48
 +  __AUTH_CONST.__cfstring: 0x17a0
-   __AUTH_CONST.__auth_ptr: 0x78
--  __AUTH_CONST.__objc_intobj: 0xa8
 +  __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__const: 0x418
 -  __AUTH_CONST.__auth_got: 0xb80
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4B1F11B3-414C-3D02-A58B-7272174B07E9
 -  Functions: 1332
 -  Symbols:   4421
--  CStrings:  1129
+-  CStrings:  1314
++  UUID: BFCABB7A-6D7F-3E68-9F9D-7101ECD2F9F6
 +  Functions: 1345
 +  Symbols:   4456
-+  CStrings:  1142
++  CStrings:  1331
  
 Symbols:
 + -[MPStatusKitIncomingRatchet maxForwardRatchetDelta]

@@ -36,4 +36,13 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0xe0
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DC9F3A6-73B2-3B2E-A0E4-F4F3FEB5BD51
++  UUID: AA0EA5DE-992B-38A6-B9D7-2290F5E4434F
+   Functions: 1329
+   Symbols:   138
+   CStrings:  351
+
 ```

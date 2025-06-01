@@ -49,11 +49,15 @@
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 44C41CA9-A7A7-3738-A320-B84860AD4F84
++  UUID: BA0D4B6B-B51C-35DE-A8B0-6C3E6C87E0E4
    Functions: 804
    Symbols:   2937
--  CStrings:  1607
-+  CStrings:  1608
+-  CStrings:  1843
++  CStrings:  1844
  
 Symbols:
 + __OBJC_$_PROP_LIST_ATMessageLink.77

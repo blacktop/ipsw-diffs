@@ -55,12 +55,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE0BB586-9670-348F-8503-EADFF406BB77
 -  Functions: 14727
 -  Symbols:   48928
--  CStrings:  15277
+-  CStrings:  21082
++  UUID: C6C36AC0-199B-31BA-A1E2-E752EBAE1EC9
 +  Functions: 14740
 +  Symbols:   48966
-+  CStrings:  15295
++  CStrings:  21106
  
 Symbols:
 + -[SAAppsSearchMarketplace encodedClassName]

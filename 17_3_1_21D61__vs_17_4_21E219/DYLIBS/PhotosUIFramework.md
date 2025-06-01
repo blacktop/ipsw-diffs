@@ -63,12 +63,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C28ADDA-BC06-3FCE-8216-8108FD580C72
 -  Functions: 699
 -  Symbols:   2675
--  CStrings:  1381
+-  CStrings:  2020
++  UUID: 227B1339-9E53-3163-819B-C2B73A9E07AF
 +  Functions: 705
 +  Symbols:   2700
-+  CStrings:  1399
++  CStrings:  2045
  
 Symbols:
 + +[AmbientPhotoFrameControllerAccessibility _accessibilityPerformValidations:]

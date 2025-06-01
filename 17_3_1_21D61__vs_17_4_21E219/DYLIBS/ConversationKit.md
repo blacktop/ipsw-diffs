@@ -70,7 +70,6 @@
    __AUTH_CONST.__cfstring: 0x1e0
 -  __AUTH_CONST.__objc_const: 0x14b8
 -  __AUTH_CONST.__const: 0x276c0
--  __AUTH_CONST.__auth_ptr: 0x870
 -  __AUTH_CONST.__auth_got: 0x3160
 -  __AUTH.__objc_data: 0xc240
 -  __AUTH.__data: 0xaa90
@@ -79,7 +78,6 @@
 -  __DATA.__objc_superrefs: 0x10
 +  __AUTH_CONST.__objc_const: 0x1588
 +  __AUTH_CONST.__const: 0x27ba0
-+  __AUTH_CONST.__auth_ptr: 0x860
 +  __AUTH_CONST.__auth_got: 0x31d8
 +  __AUTH.__objc_data: 0xc2a0
 +  __AUTH.__data: 0xa930
@@ -136,12 +134,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 761A65D1-615D-3023-8927-24C298993A1B
 -  Functions: 49576
 -  Symbols:   107029
--  CStrings:  8418
+-  CStrings:  8433
++  UUID: A33B5F23-8BCC-3095-A203-6AD9B0A97E62
 +  Functions: 49886
 +  Symbols:   107637
-+  CStrings:  8571
++  CStrings:  8586
  
 Symbols:
 + +[CNKNameAndPhotoUtilities prewarm]

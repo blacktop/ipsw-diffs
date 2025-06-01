@@ -12,6 +12,15 @@
    __TEXT.__objc_classname: 0x26e
    __TEXT.__objc_methname: 0x62d2
    __TEXT.__objc_methtype: 0x1330
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 30B66EAF-A9A6-3155-BC5D-EED60B26AE86
++  UUID: 55266A20-0AE3-3B8C-A5CD-702DF726E373
+   Functions: 522
+   Symbols:   320
+   CStrings:  1645
 CStrings:
 + "Launching; \"NanoSystemSettingsDaemon-336\" \"1287\""
 - "Launching; \"NanoSystemSettingsDaemon-336\" \"293\""

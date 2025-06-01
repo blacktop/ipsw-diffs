@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x64
    __DATA.__auth_got: 0xe8
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 19032B71-949A-3567-9965-3DC138B30087
++  UUID: 6557D5BA-3EEE-3B40-A37C-212D64ABAF0F
+   Functions: 5
+   Symbols:   34
+   CStrings:  10
+
 ```

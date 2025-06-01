@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_classrefs: 0x68
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 498F0436-5CB0-31F2-829B-DF3D38CBD795
++  UUID: EC9752D8-7F7F-36E7-BD44-F09BEE00C20E
    Functions: 13
    Symbols:   62
--  CStrings:  82
-+  CStrings:  83
+-  CStrings:  106
++  CStrings:  108
  
 CStrings:
 + "prefs:root=MOBILE_DATA_SETTINGS_ID"

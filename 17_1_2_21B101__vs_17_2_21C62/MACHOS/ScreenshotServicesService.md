@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x698
    __DATA.__objc_superrefs: 0x1e8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DB026BE4-134F-3C4C-8F49-2F69B709B33F
++  UUID: 4CBCDCC2-BB14-36CB-B74E-ABE30AC2FB98
    Functions: 2477
    Symbols:   831
--  CStrings:  4249
-+  CStrings:  4250
+-  CStrings:  4512
++  CStrings:  4513
  
 CStrings:
 + "set_wantsFormFieldDetection:"

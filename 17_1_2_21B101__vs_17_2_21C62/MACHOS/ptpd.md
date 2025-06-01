@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2575E043-346E-393C-8C9A-ECA9F99224DD
 -  Functions: 973
 -  Symbols:   217
--  CStrings:  2300
+-  CStrings:  3259
++  UUID: 4A1F3C44-AE93-39C2-B817-63C1206BDDFE
 +  Functions: 979
 +  Symbols:   225
-+  CStrings:  2315
++  CStrings:  3285
  
 Symbols:
 + _NSTemporaryDirectory

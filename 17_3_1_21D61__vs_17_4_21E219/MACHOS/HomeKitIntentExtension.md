@@ -39,13 +39,16 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F345D05B-766C-3BF2-BB45-036D57697E76
++  UUID: CD890319-0C40-364D-9345-6D6A3C2C44F4
    Functions: 23
 -  Symbols:   70
--  CStrings:  125
+-  CStrings:  127
 +  Symbols:   73
-+  CStrings:  126
++  CStrings:  128
  
 Symbols:
 + _objc_autoreleasePoolPop

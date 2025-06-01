@@ -12,7 +12,6 @@
    __AUTH_CONST.__cfstring: 0x5280
 -  __AUTH_CONST.__const: 0x2a0
    __AUTH_CONST.__objc_intobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x4e0
 -  __AUTH.__objc_data: 0xf78
@@ -28,5 +27,14 @@
    __DATA_DIRTY.__bss: 0x188
    __DATA_DIRTY.__common: 0x10
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: B4D40831-EB95-3523-A777-6EB1E159EC81
++  UUID: 0DBF4AE0-7928-365D-8F2B-7EC9644F2DFC
+   Functions: 2188
+   Symbols:   7777
+   CStrings:  4446
 
 ```

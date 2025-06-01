@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64991806-C399-380F-AC2F-EF809DCC12CF
 -  Functions: 31
 -  Symbols:   95
--  CStrings:  235
+-  CStrings:  237
++  UUID: E304502F-5CA3-337D-B53F-5D832F1CA598
 +  Functions: 32
 +  Symbols:   97
-+  CStrings:  260
++  CStrings:  262
  
 Symbols:
 + _AXIDSServiceIDSTimeoutKey

@@ -32,11 +32,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6275EEF2-BFA2-3206-8B59-3F51C688357D
++  UUID: EC5D3870-8AB9-3EF9-B2FF-007C2C8E38AA
    Functions: 96
    Symbols:   426
--  CStrings:  244
-+  CStrings:  245
+-  CStrings:  270
++  CStrings:  271
  
 Symbols:
 + ___54-[NanoResourceGrabber getAppViewListImage:completion:]_block_invoke.77

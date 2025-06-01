@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C6ABE9C8-66B8-35D3-9F07-6ADB4A89FF55
 -  Functions: 213
 -  Symbols:   147
--  CStrings:  543
+-  CStrings:  609
++  UUID: 6EB15C32-C286-3096-B29D-FB304604A3AD
 +  Functions: 234
 +  Symbols:   181
-+  CStrings:  628
++  CStrings:  710
  
 Symbols:
 + _CFNotificationCenterAddObserver

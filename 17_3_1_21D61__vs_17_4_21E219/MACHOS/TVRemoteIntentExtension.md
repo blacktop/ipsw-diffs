@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x540
 
+   - /System/Library/PrivateFrameworks/TVRemoteUI.framework/TVRemoteUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A126ABA0-4AE5-3B6A-A9A9-AB24D2556243
++  UUID: 6F92863B-6198-3A6E-A290-4F9176B0F17B
    Functions: 136
    Symbols:   1195
--  CStrings:  443
-+  CStrings:  444
+-  CStrings:  457
++  CStrings:  458
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0x13e0
    __DATA_CONST.__cfstring: 0x2620
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B29A7B87-452B-3B1C-AB4D-08D7187FF5C4
++  UUID: 6F12F05B-E451-3F4E-ABB8-B383D356411A
    Functions: 342
 -  Symbols:   279
 +  Symbols:   278
-   CStrings:  950
+   CStrings:  1255
  
 Symbols:
 + _fpfs_lp_faccessat

@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D6B85A9C-8431-316C-9A6F-C0A73BE95BF4
++  UUID: 1040079E-C532-374B-9349-D3E8036A04D2
+   Functions: 8
+   Symbols:   51
+   CStrings:  117
+
 ```

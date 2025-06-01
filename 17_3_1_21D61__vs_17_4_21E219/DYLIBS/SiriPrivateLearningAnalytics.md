@@ -58,14 +58,12 @@
    __AUTH_CONST.__cfstring: 0x5a0
    __AUTH_CONST.__objc_const: 0x1f8
 -  __AUTH_CONST.__const: 0x9158
--  __AUTH_CONST.__auth_ptr: 0x288
 -  __AUTH_CONST.__auth_got: 0x1398
 -  __AUTH.__objc_data: 0x1058
 -  __AUTH.__data: 0x7b48
 -  __DATA.__objc_protorefs: 0x80
 -  __DATA.__objc_classrefs: 0x420
 +  __AUTH_CONST.__const: 0x9220
-+  __AUTH_CONST.__auth_ptr: 0x2a8
 +  __AUTH_CONST.__auth_got: 0x13f0
 +  __AUTH.__objc_data: 0x1060
 +  __AUTH.__data: 0x7ea0
@@ -99,12 +97,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D2A5D141-8A3F-30D4-93AE-118EF26CABC7
 -  Functions: 6517
 -  Symbols:   2540
--  CStrings:  1557
+-  CStrings:  1602
++  UUID: B2A33E21-A334-31E8-AE3B-A489C811F2E0
 +  Functions: 6665
 +  Symbols:   2555
-+  CStrings:  1607
++  CStrings:  1652
  
 Symbols:
 + _BiomeLibrary

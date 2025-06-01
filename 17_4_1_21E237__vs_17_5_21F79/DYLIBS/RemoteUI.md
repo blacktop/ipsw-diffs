@@ -70,7 +70,6 @@
 +  __AUTH_CONST.__const: 0x3698
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x1128
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 76816820-5400-3C2D-AC9C-2B49627CB849
 -  Functions: 4329
 -  Symbols:   8220
--  CStrings:  4468
+-  CStrings:  4995
++  UUID: 8755CECF-ED13-3347-9CFA-DFF78C520ED4
 +  Functions: 4357
 +  Symbols:   8234
-+  CStrings:  4467
++  CStrings:  4994
  
 Symbols:
 + -[RUILoader completePendingPageRefresh]

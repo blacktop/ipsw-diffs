@@ -41,11 +41,15 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4061AEE7-FAE3-3D1A-A2CA-96D4CC49278E
++  UUID: BF4DF73A-DC0D-31D9-89EC-1D654DDAC6A6
    Functions: 265
    Symbols:   266
--  CStrings:  913
-+  CStrings:  916
+-  CStrings:  1013
++  CStrings:  1017
  
 CStrings:
 + "blastdoor"

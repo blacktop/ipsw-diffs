@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A471FB30-66C4-389E-B995-EDF896EA57B9
 -  Functions: 1658
 -  Symbols:   3814
--  CStrings:  966
+-  CStrings:  972
++  UUID: 3FB3D92B-FABB-3BDF-8C40-374FAEAAE1AF
 +  Functions: 2235
 +  Symbols:   5013
-+  CStrings:  1778
++  CStrings:  1839
  
 Symbols:
 + -[RenderBundleICBWithResources .cxx_construct]

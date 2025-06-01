@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5FB7BA8-7EB8-3133-AF4F-EBF38DDD820C
 -  Functions: 1115
 -  Symbols:   4330
--  CStrings:  2685
+-  CStrings:  2975
++  UUID: 153F21D7-76C8-34EB-94B0-BE5334198A48
 +  Functions: 1123
 +  Symbols:   4359
-+  CStrings:  2713
++  CStrings:  3003
  
 Symbols:
 + -[VTUIEnrollTrainingViewController scdaCoordinator]

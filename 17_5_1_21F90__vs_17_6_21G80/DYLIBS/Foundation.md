@@ -35,7 +35,6 @@
 -  __DATA_CONST.__objc_arraydata: 0xe370
 +  __DATA_CONST.__objc_arraydata: 0xe388
    __AUTH_CONST.__const: 0x2c1e0
-   __AUTH_CONST.__auth_ptr: 0x6d8
    __AUTH_CONST.__objc_const: 0x10250
 -  __AUTH_CONST.__cfstring: 0x267e0
 +  __AUTH_CONST.__cfstring: 0x26840
@@ -51,12 +50,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3D3A12E3-F5E9-361F-B00A-4A5E8861AA55
 -  Functions: 46635
 -  Symbols:   124193
--  CStrings:  17352
+-  CStrings:  22279
++  UUID: D27A6EC5-943C-3B0E-8D15-8840FD2914F0
 +  Functions: 46634
 +  Symbols:   124194
-+  CStrings:  17355
++  CStrings:  22285
  
 Symbols:
 + _$s10Foundation23_withResizingCharBuffer11initialSize_SSSgs5Int32V_AFSgSpys4Int8VG_AFSo10UErrorCodeVztXEtFADSryAIGXEfU_082$s10Foundation3ICUO7CaseMapC9titlecaseySSSgSsFAGyYbXEfU_AGSRys5UInt8VGXEfU_AGSRys4iy4U_s5h16VSgSpyALG_AOSo10jk3VztV2U_AA3ICUO0oP0CSRyAIGTf1nncn_n

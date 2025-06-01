@@ -57,12 +57,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 59F6B50D-5853-3325-935F-8A0DAE2A0EC2
 -  Functions: 2158
 -  Symbols:   415
--  CStrings:  4158
+-  CStrings:  4894
++  UUID: 7525E658-553F-31B6-8EE2-3D6850D9DB03
 +  Functions: 2155
 +  Symbols:   414
-+  CStrings:  4150
++  CStrings:  4884
  
 Symbols:
 - _objc_retain_x10

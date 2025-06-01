@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 418B5A12-A44B-3115-B683-7721FC09A06A
 -  Functions: 679
 -  Symbols:   3024
--  CStrings:  1813
+-  CStrings:  2157
++  UUID: 48191BEF-C251-39EA-8ED8-B5E8FAC8690D
 +  Functions: 676
 +  Symbols:   3009
-+  CStrings:  1807
++  CStrings:  2151
  
 Symbols:
 + _IXAFeedbackLogFacility

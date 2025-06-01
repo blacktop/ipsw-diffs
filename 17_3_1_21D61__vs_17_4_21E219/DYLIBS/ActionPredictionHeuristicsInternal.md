@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 66393EFD-058B-3BE2-A794-790F6915C886
 -  Functions: 1151
 -  Symbols:   5019
--  CStrings:  2444
+-  CStrings:  2878
++  UUID: A82D701E-4169-3580-9257-DDB84385683C
 +  Functions: 1156
 +  Symbols:   5041
-+  CStrings:  2457
++  CStrings:  2892
  
 Symbols:
 + -[ATXInformationHeuristicRefreshNotitifcationTrigger _createCoalescingTimer]

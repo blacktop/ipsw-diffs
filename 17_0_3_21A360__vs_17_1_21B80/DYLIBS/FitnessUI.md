@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__const: 0xdc0
 +  __AUTH_CONST.__const: 0xdc8
    __AUTH_CONST.__objc_doubleobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0xc18
 +  __AUTH_CONST.__auth_got: 0xc30
    __AUTH.__objc_data: 0x1948
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 00D85B13-E31E-3031-B6DC-DCA832EA46B8
 -  Functions: 4822
 -  Symbols:   8690
--  CStrings:  4951
+-  CStrings:  5597
++  UUID: 5608E22C-525F-3996-BB85-E0B3AFA593A6
 +  Functions: 4832
 +  Symbols:   8713
-+  CStrings:  4965
++  CStrings:  5613
  
 Symbols:
 + -[FIUIFormattingManager finalLocalizedKeyForKey:multiline:]

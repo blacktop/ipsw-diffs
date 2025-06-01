@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__objc_const: 0x2d0
 +  __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__const: 0x52f0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x650
 -  __AUTH.__objc_data: 0x0
 +  __AUTH_CONST.__auth_got: 0x690
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 98790F2A-B0F5-3249-A13D-E49A705EDAAE
 -  Functions: 893
 -  Symbols:   475
--  CStrings:  2022
+-  CStrings:  2301
++  UUID: 0BB256B0-C9C0-384A-801C-BCB723FE9E7C
 +  Functions: 987
 +  Symbols:   500
-+  CStrings:  2223
++  CStrings:  2532
  
 Symbols:
 + _APDatabaseError

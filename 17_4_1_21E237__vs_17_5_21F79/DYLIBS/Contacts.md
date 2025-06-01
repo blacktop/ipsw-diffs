@@ -55,7 +55,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x528
 +  __AUTH_CONST.__objc_intobj: 0x540
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x88
    __AUTH_CONST.__auth_got: 0x1768
 -  __AUTH.__data: 0x5e8
 -  __AUTH.__objc_data: 0x4c70
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8D6C3789-2C96-3BC7-8782-2419532F1286
 -  Functions: 10820
 -  Symbols:   31138
--  CStrings:  9690
+-  CStrings:  11317
++  UUID: 74C0B85C-06AB-3337-8608-26E4B15389AC
 +  Functions: 10831
 +  Symbols:   31174
-+  CStrings:  9712
++  CStrings:  11349
  
 Symbols:
 + +[CNContactImageUpdater descriptorForRequiredKeys]

@@ -34,8 +34,8 @@
    __TEXT.__objc_classname: 0x66
    __TEXT.__objc_methname: 0x8b5
 
+   __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__const: 0x2e88
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xab8
 -  __AUTH.__objc_data: 0x280
 +  __AUTH.__objc_data: 0x230
@@ -56,11 +56,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BC27C1F4-3CD7-3546-A9C8-25CFB072A2C4
++  UUID: 1680B1D6-2E7B-3CB3-9258-F90E4AF85AF0
    Functions: 1960
    Symbols:   947
--  CStrings:  519
-+  CStrings:  523
+-  CStrings:  521
++  CStrings:  525
  
 CStrings:
 + "MXSessionVolumeActiveSessionCategory"

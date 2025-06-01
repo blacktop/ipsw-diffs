@@ -62,11 +62,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9BDCA05D-BF55-3D87-BA79-CBA2D0F68C40
 -  Functions: 2296
++  UUID: E7702590-DAE7-3C2C-8EF9-7A90F21F2EFF
 +  Functions: 2297
    Symbols:   827
--  CStrings:  3337
-+  CStrings:  3344
+-  CStrings:  3444
++  CStrings:  3451
  
 Symbols:
 + _UTTypePDF

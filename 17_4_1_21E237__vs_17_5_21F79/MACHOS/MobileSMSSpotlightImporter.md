@@ -31,11 +31,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_classrefs: 0x68
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27A53576-568F-335A-B3F3-5E9CDA7E800B
++  UUID: BE10E096-A329-3CCD-91E7-E209D4BD2444
    Functions: 23
    Symbols:   109
--  CStrings:  113
-+  CStrings:  112
+-  CStrings:  131
++  CStrings:  129
  
 CStrings:
 + "Timed out while downloading file transfers, error %@"

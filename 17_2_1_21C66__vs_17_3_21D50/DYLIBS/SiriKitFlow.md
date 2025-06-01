@@ -32,9 +32,7 @@
    __DATA_CONST.__objc_const: 0x10768
    __DATA_CONST.__objc_selrefs: 0x1420
 -  __AUTH_CONST.__const: 0x2eb50
--  __AUTH_CONST.__auth_ptr: 0x978
 +  __AUTH_CONST.__const: 0x2eb48
-+  __AUTH_CONST.__auth_ptr: 0x980
    __AUTH_CONST.__cfstring: 0x2a00
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__auth_got: 0x2698
@@ -56,12 +54,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 61B6EF12-3E2D-3386-843A-562A2C35A995
 -  Functions: 46319
 -  Symbols:   23388
--  CStrings:  4958
+-  CStrings:  5294
++  UUID: CA1AF8B3-7F4C-3B62-9068-D7DF69B1E2C5
 +  Functions: 46310
 +  Symbols:   23372
-+  CStrings:  4960
++  CStrings:  5296
  
 CStrings:
 + "hideUnlockPrompt"

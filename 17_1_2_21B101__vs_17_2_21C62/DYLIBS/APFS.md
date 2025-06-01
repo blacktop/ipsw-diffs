@@ -14,6 +14,15 @@
    __TEXT.__oslogstring: 0x911
    __TEXT.__gcc_except_tab: 0x18
    __TEXT.__unwind_info: 0x908
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 18A6211B-763B-368A-8155-E2D79D976F8F
++  UUID: E51F7AC2-5441-356C-914B-09B0891ED0B4
+   Functions: 792
+   Symbols:   1676
+   CStrings:  1414
 CStrings:
 + "2235.60.6"
 - "2235.40.9.0.1"

@@ -47,6 +47,12 @@
 -  __AUTH_CONST.__objc_intobj: 0xf0
 -  __AUTH_CONST.__objc_arrayobj: 0xa8
 -  __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH_CONST.__auth_got: 0x6e0
+-  __AUTH.__objc_data: 0x1090
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x638
+-  __DATA.__objc_superrefs: 0x268
+-  __DATA.__objc_ivar: 0xa4c
 +  __DATA_CONST.__objc_const: 0x10e40
 +  __DATA_CONST.__objc_selrefs: 0x5770
 +  __DATA_CONST.__objc_protorefs: 0x10
@@ -60,13 +66,6 @@
 +  __AUTH_CONST.__objc_doubleobj: 0xb0
 +  __AUTH_CONST.__const: 0x580
 +  __AUTH_CONST.__objc_floatobj: 0xe0
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x6e0
--  __AUTH.__objc_data: 0x1090
--  __DATA.__objc_protorefs: 0x10
--  __DATA.__objc_classrefs: 0x638
--  __DATA.__objc_superrefs: 0x268
--  __DATA.__objc_ivar: 0xa4c
 +  __AUTH_CONST.__auth_got: 0x6f8
 +  __AUTH.__objc_data: 0x1360
 +  __DATA.__objc_ivar: 0xa68
@@ -77,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0D08565-9EE1-3D73-A7C5-1C31B3E9189B
 -  Functions: 2520
 -  Symbols:   9686
--  CStrings:  4893
+-  CStrings:  5178
++  UUID: C43CD0A6-6E53-3AA1-89D5-BE1A0759297D
 +  Functions: 2679
 +  Symbols:   10176
-+  CStrings:  5071
++  CStrings:  5413
  
 Symbols:
 + +[TUIKey layoutTypeForKey:]

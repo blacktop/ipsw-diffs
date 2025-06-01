@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x288c
    __TEXT.__objc_methtype: 0x56d
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5B847C9-664A-3036-A89F-F51A12A58B7B
++  UUID: 746601BB-FF83-3EC2-8FFD-9EF3F61B45E9
+   Functions: 335
+   Symbols:   1278
+   CStrings:  711
+
 ```

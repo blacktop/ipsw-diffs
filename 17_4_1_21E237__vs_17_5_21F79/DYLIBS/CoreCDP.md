@@ -50,7 +50,6 @@
    __AUTH_CONST.__const: 0x3c0
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
-
    __AUTH_CONST.__auth_got: 0x4e0
    __AUTH.__objc_data: 0x780
    __AUTH.__data: 0x8
@@ -67,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 231586C1-3615-3452-8816-BCA10C53E9C4
 -  Functions: 1443
 -  Symbols:   4823
--  CStrings:  2386
+-  CStrings:  2727
++  UUID: F24D9966-A537-3B92-A606-F1D8D2A14E02
 +  Functions: 1451
 +  Symbols:   4856
-+  CStrings:  2414
++  CStrings:  2768
  
 Symbols:
 + +[CDPFollowUpContext contextForADPUpsell]

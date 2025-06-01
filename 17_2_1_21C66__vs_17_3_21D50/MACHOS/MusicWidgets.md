@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 953360DD-BBC1-34BF-B84B-A4004D5BB744
 -  Functions: 26431
 -  Symbols:   957
--  CStrings:  4363
+-  CStrings:  4376
++  UUID: 8D4B4A3D-0565-301F-A318-47632226966A
 +  Functions: 26590
 +  Symbols:   958
-+  CStrings:  4374
++  CStrings:  4387
  
 Symbols:
 + _MSVLogAddStateHandler

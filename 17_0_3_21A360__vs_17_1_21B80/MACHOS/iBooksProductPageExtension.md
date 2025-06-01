@@ -45,11 +45,13 @@
    - @rpath/BookStoreUI.framework/BookStoreUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: C89E78E6-C72D-3606-A3D4-5363E8A27A2A
 -  Functions: 637
++  UUID: 5AF33D03-3FCB-3692-863C-A8CD0A090670
 +  Functions: 638
    Symbols:   329
--  CStrings:  929
-+  CStrings:  932
+-  CStrings:  981
++  CStrings:  984
  
 CStrings:
 + "@\"NSDate\"16@0:8"

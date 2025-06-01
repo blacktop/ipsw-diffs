@@ -34,13 +34,16 @@
    __AUTH_CONST.__objc_const: 0x1a0
    __AUTH_CONST.__const: 0x20
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C441274A-0875-368B-A239-A28727ECBC13
++  UUID: E6EEB845-2840-3E41-9FCE-D6F06EEBEA0A
    Functions: 39
 -  Symbols:   105
--  CStrings:  223
+-  CStrings:  243
 +  Symbols:   106
-+  CStrings:  224
++  CStrings:  244
  
 Symbols:
 + _ACPropertyKeyActive

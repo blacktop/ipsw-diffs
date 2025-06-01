@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CEE83F5-7E65-3742-8BC8-93FA8A10520E
 -  Functions: 262
 -  Symbols:   143
--  CStrings:  706
+-  CStrings:  776
++  UUID: 4D699332-B898-37D9-9370-95D069032238
 +  Functions: 260
 +  Symbols:   142
-+  CStrings:  699
++  CStrings:  769
  
 Symbols:
 - _OBJC_CLASS_$_TUICFInterface

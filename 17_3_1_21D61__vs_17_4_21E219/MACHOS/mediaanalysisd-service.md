@@ -45,6 +45,15 @@
    __DATA.__objc_ivar: 0xd0c
    __DATA.__objc_data: 0x32f0
    __DATA.__data: 0x850
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: E35ED2FC-9CC0-392E-8676-4620B603B0D2
++  UUID: 6451FDFF-446E-3CA4-9966-CFC8DEEDD450
+   Functions: 2839
+   Symbols:   738
+   CStrings:  6628
 CStrings:
 + "%@ Forward-compatible face %@"
 + "MAD database does not exist; skipping backup"

@@ -39,19 +39,21 @@
    __AUTH_CONST.__objc_intobj: 0x35b8
 -  __AUTH_CONST.__objc_arrayobj: 0x1188
 +  __AUTH_CONST.__objc_arrayobj: 0x11a0
-   __AUTH_CONST.__auth_ptr: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_floatobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x30
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C25FC20E-0030-3609-97C8-E3E4F7F9EB39
 -  Functions: 26237
 -  Symbols:   78377
--  CStrings:  35917
+-  CStrings:  43472
++  UUID: 305BA434-E122-37FC-90C5-59B8A60C346A
 +  Functions: 26235
 +  Symbols:   78373
-+  CStrings:  35919
++  CStrings:  43477
  
 Symbols:
 + ___119-[ATXFaceGalleryLayoutGenerator _generateProviderSectionForExtensionBundleIdentifiers:widgetDescriptorsAdditionalData:]_block_invoke.155

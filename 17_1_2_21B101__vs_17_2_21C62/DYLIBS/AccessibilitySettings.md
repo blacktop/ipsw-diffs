@@ -66,12 +66,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0BEB281-CCBB-394D-8522-DDA8E880D17D
 -  Functions: 729
 -  Symbols:   2942
--  CStrings:  1533
+-  CStrings:  1932
++  UUID: 72E6E858-452B-38C3-99DA-65BEF20BB277
 +  Functions: 747
 +  Symbols:   2992
-+  CStrings:  1568
++  CStrings:  1993
  
 Symbols:
 + -[AccessibilityBridgeBaseController(EltonManagement) presentDisableEltonAlert:greyOptional:confirmBlock:disableGreyBlock:]

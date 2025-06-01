@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 493659CC-2BDF-3976-A9CD-0A8EC5037F11
 -  Functions: 688
 -  Symbols:   3061
--  CStrings:  1831
+-  CStrings:  2177
++  UUID: FF979475-993C-336D-AE9A-37F6D25446D3
 +  Functions: 679
 +  Symbols:   3024
-+  CStrings:  1813
++  CStrings:  2157
  
 Symbols:
 + _OBJC_CLASS_$_TIFeedbackUtil

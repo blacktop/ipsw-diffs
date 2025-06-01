@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B39DA8B3-BAF3-32BA-BC3B-D3D43CC32773
 -  Functions: 1377
 -  Symbols:   600
--  CStrings:  3048
+-  CStrings:  3238
++  UUID: A73C11A6-90E9-345B-9429-6FF6B793A235
 +  Functions: 1386
 +  Symbols:   599
-+  CStrings:  3088
++  CStrings:  3278
  
 Symbols:
 + _CSIndexErrorDomain

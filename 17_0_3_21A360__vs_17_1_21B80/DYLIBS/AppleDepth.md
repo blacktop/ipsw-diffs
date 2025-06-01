@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
 -  __AUTH_CONST.__objc_doubleobj: 0x20
 +  __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x988
    __AUTH.__objc_data: 0x320
    __DATA.__got_weak: 0x58
@@ -71,11 +70,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 45DDE755-B663-3BAB-AE8B-A7E534BA5A10
 -  Functions: 2022
++  UUID: B7AAED6E-3554-36BB-9A8E-DD045A05AABA
 +  Functions: 2019
    Symbols:   7288
--  CStrings:  3648
-+  CStrings:  3662
+-  CStrings:  4163
++  CStrings:  4226
  
 Symbols:
 + +[ADJasperColorInFieldCalibrationPipeline isCroppingPointInThresholdRange:distanceFromSymmetricCroppingPoint:normalizedBySensorDimention:andAllowedDriftFromSymmetricCrop:]

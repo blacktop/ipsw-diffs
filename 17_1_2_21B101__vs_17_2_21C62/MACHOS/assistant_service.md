@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/SiriKitRuntime.framework/SiriKitRuntime
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D10952E9-2276-35D8-AED7-B1ED719CD9EA
 -  Functions: 183
 -  Symbols:   131
--  CStrings:  582
+-  CStrings:  608
++  UUID: D58FC8A5-7537-3C60-AF96-DF15BEBA38B2
 +  Functions: 193
 +  Symbols:   139
-+  CStrings:  611
++  CStrings:  637
  
 Symbols:
 + _AFMachAbsoluteTimeGetMilliseconds

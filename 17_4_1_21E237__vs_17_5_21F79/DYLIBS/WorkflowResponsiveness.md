@@ -16,8 +16,8 @@
    __TEXT.__cstring: 0x1e7f
    __TEXT.__oslogstring: 0x39d0
 
+   __AUTH_CONST.__objc_const: 0x3f0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x390
 -  __AUTH.__objc_data: 0xf0
 +  __AUTH.__objc_data: 0xa0
@@ -32,5 +32,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libspindump.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: B5DFD3DD-D168-331D-98FB-9299A5AD31CE
++  UUID: FEF5B5CC-11CB-3C71-AF72-A7BAD7D369C1
+   Functions: 439
+   Symbols:   1547
+   CStrings:  1127
 
 ```

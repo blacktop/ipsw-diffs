@@ -24,5 +24,11 @@
    - /usr/lib/system/libdyld.dylib
    - /usr/lib/system/libmacho.dylib
    - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+-  UUID: A70C0DEF-058C-3CB0-9EC1-453AA7F39DF9
++  UUID: 1196B6C3-333D-3450-818F-F3663484B8EB
+   Functions: 339
+   Symbols:   594
+   CStrings:  65
 
 ```

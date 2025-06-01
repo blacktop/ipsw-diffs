@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 121FE720-F786-33DF-B5FE-B4BEB8094C6C
 -  Functions: 466
 -  Symbols:   400
--  CStrings:  1445
+-  CStrings:  1495
++  UUID: 67758468-2634-3C78-BFE4-D7665133024A
 +  Functions: 469
 +  Symbols:   403
-+  CStrings:  1455
++  CStrings:  1506
  
 Symbols:
 + _kFigVideoStabilizationSampleBufferAttachmentKey_OutputBiasRotationQuaternion

@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1942FABD-8C16-351A-B9C6-760CF880C1C4
 -  Functions: 975
 -  Symbols:   3827
--  CStrings:  1970
+-  CStrings:  2065
++  UUID: 36DBCFB3-65F3-31C4-9644-4CE6B3B90180
 +  Functions: 974
 +  Symbols:   3823
-+  CStrings:  1967
++  CStrings:  2062
  
 Symbols:
 - -[CPUIImageRowCell prepareForReuse]

@@ -76,14 +76,12 @@
 -  __AUTH_CONST.__const: 0x3eb28
 +  __AUTH_CONST.__const: 0x410a0
    __AUTH_CONST.__objc_arrayobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x15a0
 -  __AUTH_CONST.__auth_got: 0x3820
 -  __AUTH.__objc_data: 0x2bf8
 -  __AUTH.__data: 0xe958
 -  __DATA.__objc_protorefs: 0x198
 -  __DATA.__objc_classrefs: 0x7c8
 -  __DATA.__objc_superrefs: 0x88
-+  __AUTH_CONST.__auth_ptr: 0x1638
 +  __AUTH_CONST.__auth_got: 0x3a08
 +  __AUTH.__objc_data: 0x3260
 +  __AUTH.__data: 0x101a0
@@ -124,12 +122,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 39C9F506-0E54-370A-8794-A4E6591BEC92
 -  Functions: 43589
 -  Symbols:   11335
--  CStrings:  6517
+-  CStrings:  6623
++  UUID: 93BF0924-FB6F-3C2A-B1FC-BD3D3A69A180
 +  Functions: 44848
 +  Symbols:   11668
-+  CStrings:  6737
++  CStrings:  6843
  
 Symbols:
 + _ASDInstallAttributionInteractionTypeClick

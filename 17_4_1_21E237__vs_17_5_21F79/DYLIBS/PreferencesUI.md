@@ -42,13 +42,16 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F3A7B723-E430-3431-A377-3188FA199AA9
++  UUID: FD1DA602-CC46-334F-A031-5B7D6B08B023
    Functions: 1550
 -  Symbols:   5859
--  CStrings:  3518
+-  CStrings:  4136
 +  Symbols:   5858
-+  CStrings:  3524
++  CStrings:  4148
  
 Symbols:
 + ___62-[PSUIBiometricController setSafariAutoFillEnabled:specifier:]_block_invoke.177

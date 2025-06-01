@@ -30,7 +30,11 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6F245C1-FC52-30B5-88C2-91568CB73727
++  UUID: 8326B226-1783-3BEA-A46C-D74E929C5A5C
    Functions: 2
    Symbols:   20
 -  CStrings:  64

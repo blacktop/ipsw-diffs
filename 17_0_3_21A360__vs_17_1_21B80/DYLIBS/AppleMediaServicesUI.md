@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_dictobj: 0x208
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x108
 -  __AUTH_CONST.__auth_got: 0x1190
 +  __AUTH_CONST.__auth_got: 0x1198
    __AUTH.__objc_data: 0x47c8
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 23670C25-87BC-3468-9C61-ABF952192B0C
 -  Functions: 8651
 -  Symbols:   18545
--  CStrings:  8503
+-  CStrings:  9730
++  UUID: 182EF989-2C1F-3446-B2ED-9D463CE105F1
 +  Functions: 8659
 +  Symbols:   18610
-+  CStrings:  8572
++  CStrings:  9819
  
 Symbols:
 + +[AMSUIAppearance _defaultButtonBackgroundColorForStyle:withTraitCollection:]

@@ -30,12 +30,15 @@
    __DATA_CONST.__auth_ptr: 0x40
    __DATA_CONST.__const: 0xe00
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AA667DAA-5738-3937-9256-0ECD9B3AF679
++  UUID: 786D1E94-478F-3D69-8B97-E4A4E077F449
    Functions: 441
 -  Symbols:   373
 +  Symbols:   375
-   CStrings:  1299
+   CStrings:  1904
  
 Symbols:
 + _objc_release_x24

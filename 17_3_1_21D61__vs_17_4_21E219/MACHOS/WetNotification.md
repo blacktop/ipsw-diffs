@@ -34,13 +34,16 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BDC07EB-B41A-365A-8482-40E0164FEC9B
++  UUID: 577CD5DD-B5D7-3590-A0B9-795C1731174B
    Functions: 7
 -  Symbols:   38
--  CStrings:  74
+-  CStrings:  104
 +  Symbols:   39
-+  CStrings:  75
++  CStrings:  105
  
 Symbols:
 + _OBJC_CLASS_$_UIDevice

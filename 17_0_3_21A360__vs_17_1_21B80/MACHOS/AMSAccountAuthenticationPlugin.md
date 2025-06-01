@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31B9B2F4-CD81-3033-81F5-201EB6BDC9D6
 -  Functions: 108
 -  Symbols:   145
--  CStrings:  596
+-  CStrings:  679
++  UUID: 0A65A6C3-A021-3017-A16A-CD0DC3F53629
 +  Functions: 109
 +  Symbols:   146
-+  CStrings:  599
++  CStrings:  683
  
 Symbols:
 + _objc_retain_x26

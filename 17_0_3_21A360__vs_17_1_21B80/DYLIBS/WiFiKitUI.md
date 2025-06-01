@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_intobj: 0x690
    __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x710
 -  __AUTH.__objc_data: 0x13a0
 -  __AUTH.__data: 0xc0
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BCE0D961-2E35-394B-9BCB-25C336571A60
 -  Functions: 2056
 -  Symbols:   6938
--  CStrings:  4228
+-  CStrings:  5037
++  UUID: D19072B9-5A6A-3C7F-8149-0D1177607EFC
 +  Functions: 2073
 +  Symbols:   6967
-+  CStrings:  4233
++  CStrings:  5044
  
 Symbols:
 + -[WFNetworkSettingsViewController tableView:heightForRowAtIndexPath:]

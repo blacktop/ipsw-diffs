@@ -31,13 +31,16 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/PromotedContentPrediction.framework/PromotedContentPrediction
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE1169A2-836A-34DA-BCD3-18FBA1707D05
++  UUID: 78CE4BED-19A8-30B9-9210-F19887484961
    Functions: 5
 -  Symbols:   145
--  CStrings:  94
+-  CStrings:  95
 +  Symbols:   143
-+  CStrings:  92
++  CStrings:  93
  
 Symbols:
 - _objc_msgSend$initWithRecipe:

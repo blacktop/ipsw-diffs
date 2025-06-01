@@ -26,11 +26,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 58468C61-FB79-3FC0-9644-60AF3D0C8B23
 -  Functions: 36593
 -  Symbols:   111132
++  UUID: 75FA31A5-7167-34DE-BFC4-49C1C37C7712
 +  Functions: 36596
 +  Symbols:   111139
-   CStrings:  37415
+   CStrings:  45714
  
 Symbols:
 + -[HDCloudSyncSeizeAbandonedStoresOperation anchorMapForTakeoverForTarget:]

@@ -71,8 +71,6 @@
 -  __AUTH_CONST.__const: 0x18228
 +  __AUTH_CONST.__const: 0x18348
    __AUTH_CONST.__objc_const: 0x2fa0
--  __AUTH_CONST.__auth_ptr: 0x390
-+  __AUTH_CONST.__auth_ptr: 0x380
    __AUTH_CONST.__cfstring: 0x1fc0
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FFE97041-6FE3-364D-B81F-D3AD53A6C600
 -  Functions: 16822
 -  Symbols:   15189
--  CStrings:  6762
+-  CStrings:  7016
++  UUID: F677DEA8-DFCC-30AC-8A01-49275AB4E91C
 +  Functions: 16810
 +  Symbols:   15169
-+  CStrings:  6822
++  CStrings:  7076
  
 Symbols:
 + -[WFVariableAttachment fixUpBlock]

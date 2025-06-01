@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 180CE10A-B975-362C-BB02-E01B76801810
 -  Functions: 138
 -  Symbols:   586
--  CStrings:  309
+-  CStrings:  420
++  UUID: A6A7B604-72D0-31B9-A365-AB26E465CBDC
 +  Functions: 139
 +  Symbols:   587
-+  CStrings:  310
++  CStrings:  421
  
 Symbols:
 + GCC_except_table23

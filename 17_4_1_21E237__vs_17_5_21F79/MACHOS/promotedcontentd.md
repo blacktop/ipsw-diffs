@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5584E2EB-6E58-3EF6-8FC2-40C05F5B0CDB
 -  Functions: 8382
 -  Symbols:   2000
--  CStrings:  10357
+-  CStrings:  12154
++  UUID: 29AC7AF0-D141-351B-81A2-6B35107FD3C6
 +  Functions: 8479
 +  Symbols:   2032
-+  CStrings:  10508
++  CStrings:  12332
  
 Symbols:
 + OBJC_IVAR_$_APPBAdData._targetingDimensions

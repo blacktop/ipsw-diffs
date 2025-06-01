@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5FA9A56A-94F2-39B1-8468-DD04574428E3
 -  Functions: 504
 -  Symbols:   1996
--  CStrings:  982
+-  CStrings:  1092
++  UUID: 376E2891-785C-3A46-8619-619B80DA95C0
 +  Functions: 503
 +  Symbols:   1994
-+  CStrings:  983
++  CStrings:  1093
  
 Symbols:
 + __OBJC_$_PROP_LIST_IFResourceMetadata.83

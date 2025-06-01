@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73DF62E6-4DAE-3101-A059-63CA0694F48C
 -  Functions: 1777
 -  Symbols:   5504
--  CStrings:  2843
+-  CStrings:  3499
++  UUID: 7AE74CB1-4080-37F3-B1C1-7B5213317978
 +  Functions: 1785
 +  Symbols:   5529
-+  CStrings:  2868
++  CStrings:  3539
  
 Symbols:
 + +[PBBridgeCAReporter _orientationHumanReadable:]

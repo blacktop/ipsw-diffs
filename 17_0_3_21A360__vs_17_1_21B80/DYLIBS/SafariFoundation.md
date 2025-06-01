@@ -67,12 +67,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0E35D46E-DC83-3B06-BCC7-AC64A8CDF42E
 -  Functions: 702
 -  Symbols:   2743
--  CStrings:  1252
+-  CStrings:  1426
++  UUID: F40E3742-9A1B-3E32-A7D9-91764C6358E0
 +  Functions: 699
 +  Symbols:   2750
-+  CStrings:  1267
++  CStrings:  1441
  
 Symbols:
 + +[SFSafariCredentialStore _getCredentialsForAppWithApprovedAndValidSharedWebCredentialsDatabaseEntries:websiteURL:isEntitledWebBrowser:hasPasskeyRequest:completionHandler:]

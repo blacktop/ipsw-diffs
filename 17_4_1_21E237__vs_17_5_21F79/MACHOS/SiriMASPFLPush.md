@@ -21,8 +21,11 @@
    __TEXT.__swift5_proto: 0x8
    __TEXT.__swift5_types: 0x4
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 320D2A55-97F2-3B70-AEE0-F18B8429FFFF
++  UUID: 6EC13FF4-1F0B-37AD-899C-8A07257B7AA2
    Functions: 47
 -  Symbols:   66
 -  CStrings:  13

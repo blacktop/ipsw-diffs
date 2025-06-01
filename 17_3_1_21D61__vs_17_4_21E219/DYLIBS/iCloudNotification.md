@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85AFD229-3473-3178-B557-2FEED58020C3
 -  Functions: 124
 -  Symbols:   493
--  CStrings:  294
+-  CStrings:  325
++  UUID: 6F8C263A-A3D6-3F30-94BA-66D2FB202761
 +  Functions: 131
 +  Symbols:   516
-+  CStrings:  305
++  CStrings:  336
  
 Symbols:
 + -[INDaemonConnection appLaunchLinkDidPresentForBundleIdentifier:completion:]

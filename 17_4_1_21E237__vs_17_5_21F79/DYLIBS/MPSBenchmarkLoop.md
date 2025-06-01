@@ -19,12 +19,15 @@
    __DATA_CONST.__objc_arraydata: 0x20
    __AUTH_CONST.__cfstring: 0x6c0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8BB988A4-3205-3A22-8FAB-A0ED55BC47C1
++  UUID: D8DD49C2-F510-32A4-A501-4CE1D54497BA
    Functions: 236
 -  Symbols:   153
 +  Symbols:   151
-   CStrings:  1589
+   CStrings:  1643
  
 Symbols:
 - _OBJC_CLASS_$_NSBundle

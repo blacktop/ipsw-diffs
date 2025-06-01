@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7ED32E13-FBEE-392D-8ECC-FD2C15F77AD2
 -  Functions: 357
 -  Symbols:   303
--  CStrings:  1279
+-  CStrings:  1365
++  UUID: 4F4F3B68-2380-37EA-8C0D-D9F2F6D5FAE3
 +  Functions: 356
 +  Symbols:   307
-+  CStrings:  1284
++  CStrings:  1372
  
 Symbols:
 + _CFAbsoluteTimeGetCurrent

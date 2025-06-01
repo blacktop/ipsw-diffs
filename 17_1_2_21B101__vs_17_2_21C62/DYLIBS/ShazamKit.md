@@ -42,7 +42,6 @@
 +  __AUTH_CONST.__cfstring: 0x1d60
    __AUTH_CONST.__const: 0xca8
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH_CONST.__auth_got: 0x570
    __AUTH.__objc_data: 0x1950
@@ -59,12 +58,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 59ECBC81-65F6-3CA6-A930-F8FFF5848D39
 -  Functions: 2043
 -  Symbols:   6693
--  CStrings:  2193
+-  CStrings:  2426
++  UUID: 6CFFCC18-528F-3B5B-8DA7-544D07841AB8
 +  Functions: 2044
 +  Symbols:   6698
-+  CStrings:  2197
++  CStrings:  2432
  
 Symbols:
 + +[_SHMediaLibrary _localizedAttributionForLibraryItem:]

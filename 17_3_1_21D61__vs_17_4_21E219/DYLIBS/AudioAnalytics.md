@@ -42,7 +42,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x8
 +  __AUTH_CONST.__objc_const: 0x118
 +  __AUTH_CONST.__const: 0x1118
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__auth_got: 0x528
 +  __AUTH.__objc_data: 0x4b0
 +  __AUTH.__data: 0x510
@@ -56,6 +55,7 @@
 +  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: C91207A3-FB00-3B4F-83A1-8B9ECEB1D4C2
 -  Functions: 0
 -  Symbols:   2
 -  CStrings:  0
@@ -70,6 +70,7 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 69AC3510-C2A6-3D3D-9885-461B479DBD78
 +  Functions: 578
 +  Symbols:   496
 +  CStrings:  224

@@ -54,11 +54,15 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DCC5C578-137B-3F1B-B43C-706435203ACF
++  UUID: D6C9414D-389F-3418-8B83-AD9937FB1A1B
    Functions: 232
    Symbols:   371
--  CStrings:  1522
-+  CStrings:  1521
+-  CStrings:  2111
++  CStrings:  2112
  
 CStrings:
 + "9CE8B501-90E7-456E-952B-4937ED29C7BD"

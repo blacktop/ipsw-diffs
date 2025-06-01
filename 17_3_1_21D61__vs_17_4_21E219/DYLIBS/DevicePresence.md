@@ -36,11 +36,15 @@
    __DATA.__data: 0x138
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1ACDE6C5-11AC-35C9-B13F-C9057A1C56CF
++  UUID: 2FC661D3-3C43-3376-A5D4-47B6A6D3C57A
    Functions: 36
    Symbols:   195
--  CStrings:  137
-+  CStrings:  138
+-  CStrings:  152
++  CStrings:  153
  
 Symbols:
 + ___32-[DPCManager setupXPCConnection]_block_invoke.61

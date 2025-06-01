@@ -19,11 +19,15 @@
    __TEXT.__ustring: 0xc68
    __TEXT.__unwind_info: 0x23dbc
 
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3CD77D76-2576-3A2C-A2A9-E8D1415F23F3
++  UUID: 88612A15-F057-343D-B209-D7E518E3C90E
    Functions: 63987
    Symbols:   160737
--  CStrings:  24647
-+  CStrings:  24648
+-  CStrings:  26868
++  CStrings:  26869
  
 CStrings:
 + "/AppleInternal/Library/BuildRoots/bf02bd17-e2a8-11ee-bddc-9ab3b1a34a63/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"

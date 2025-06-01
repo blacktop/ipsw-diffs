@@ -16,7 +16,11 @@
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x9a8
 
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 7BC9209C-96FC-3A4C-B6D8-9838317FC65D
++  UUID: 5C264FE8-2EFE-358A-A0BE-E27BB893594D
    Functions: 958
    Symbols:   1964
 -  CStrings:  180

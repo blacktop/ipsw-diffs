@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x198
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5BB0704-69BE-3679-A6B5-A34501A3C16B
++  UUID: AA317489-724A-3F0F-8760-2459776F4661
    Functions: 119
 -  Symbols:   144
--  CStrings:  408
+-  CStrings:  418
 +  Symbols:   141
-+  CStrings:  405
++  CStrings:  415
  
 Symbols:
 - _objc_release_x27

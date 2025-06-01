@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2145FB4D-32CF-3B59-B7C7-16AF04CC96A1
 -  Functions: 137
 -  Symbols:   692
--  CStrings:  664
+-  CStrings:  1046
++  UUID: 0705F668-A0A1-3EC7-A1C8-C16CBB545616
 +  Functions: 138
 +  Symbols:   695
-+  CStrings:  669
++  CStrings:  1054
  
 Symbols:
 + -[NSString(ZhuGe) ccccValue]

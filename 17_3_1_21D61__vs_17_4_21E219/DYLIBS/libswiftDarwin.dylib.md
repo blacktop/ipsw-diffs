@@ -29,8 +29,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 8FBFF15F-1D25-3C0A-B675-2C3A98621D99
 -  Functions: 307
 -  Symbols:   583
++  UUID: F7FB2FD4-D1C2-3B8D-86E2-44FC4FF5FACE
 +  Functions: 303
 +  Symbols:   573
    CStrings:  4

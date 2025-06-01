@@ -33,8 +33,11 @@
    __DATA.__data: 0x58
    __DATA.__common: 0x38
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CBEA4E77-E37F-3FBD-A0EF-FAD279B16415
++  UUID: E2680EA1-7768-35B1-A32D-200E25132B85
    Functions: 18
 -  Symbols:   56
 +  Symbols:   57

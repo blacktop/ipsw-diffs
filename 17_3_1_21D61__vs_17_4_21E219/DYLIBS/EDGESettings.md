@@ -22,7 +22,7 @@
    __AUTH_CONST.__cfstring: 0xa00
    __AUTH_CONST.__objc_arrayobj: 0x60
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__auth_got: 0x150
    __AUTH.__objc_data: 0xa0
 -  __DATA.__objc_classrefs: 0x70
@@ -31,11 +31,15 @@
    __DATA.__data: 0xc8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1FD349D8-3657-363D-B494-E43AF2F14ED2
++  UUID: 5E144939-8AFD-37EA-9A74-04DCE3D80A4D
    Functions: 89
    Symbols:   422
--  CStrings:  301
-+  CStrings:  302
+-  CStrings:  381
++  CStrings:  382
  
 CStrings:
 + "T@\"NSString\",?,R,C"

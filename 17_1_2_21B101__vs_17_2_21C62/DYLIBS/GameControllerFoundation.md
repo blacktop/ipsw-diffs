@@ -49,7 +49,6 @@
    __AUTH_CONST.__const: 0x4a8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x758
 -  __AUTH.__objc_data: 0x1950
 +  __AUTH.__objc_data: 0x1b30
@@ -68,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB0CC2E8-EE34-3875-A2B9-D6F0DE4381E4
 -  Functions: 1812
 -  Symbols:   6801
--  CStrings:  2637
+-  CStrings:  3386
++  UUID: 562872E5-797C-3AF1-BF56-E595D921622F
 +  Functions: 1893
 +  Symbols:   7055
-+  CStrings:  2672
++  CStrings:  3437
  
 Symbols:
 + +[GCGenericDeviceDataElementExistsExpressionModel description]

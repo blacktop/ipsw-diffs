@@ -51,7 +51,6 @@
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab8
 -  __AUTH.__objc_data: 0x50a0
 +  __AUTH.__objc_data: 0x5140
@@ -69,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B16C854-95F1-342D-8390-B1E91162B610
 -  Functions: 7356
 -  Symbols:   23813
--  CStrings:  10831
+-  CStrings:  12505
++  UUID: 89B14CE8-649E-3A24-A887-879180B2D9C8
 +  Functions: 7375
 +  Symbols:   23878
-+  CStrings:  10871
++  CStrings:  12551
  
 Symbols:
 + -[HAPAccessoryServerIP bonjourRemoveEvent]

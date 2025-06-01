@@ -56,12 +56,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32C7A6F0-D5C1-3CD1-9C85-191057978C7C
 -  Functions: 64
 -  Symbols:   348
--  CStrings:  328
+-  CStrings:  515
++  UUID: 511847BD-6FFA-31D4-AE33-C7A0F3A4C61C
 +  Functions: 73
 +  Symbols:   383
-+  CStrings:  242
++  CStrings:  338
  
 Symbols:
 + +[CSLUILayoutCalendarViewAccessibility _accessibilityPerformValidations:]

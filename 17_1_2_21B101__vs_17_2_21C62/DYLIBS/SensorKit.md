@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 931C2499-CC44-35CB-8602-CA93178481FB
 -  Functions: 1282
 -  Symbols:   4744
--  CStrings:  2421
+-  CStrings:  2935
++  UUID: 76443469-68B1-3E97-BB6D-E660E441B7BF
 +  Functions: 1286
 +  Symbols:   4767
-+  CStrings:  2437
++  CStrings:  2953
  
 Symbols:
 + -[SRSpeechMetrics initWithSessionIdentifier:sessionFlags:timestamp:timeSinceAudioStart:audioLevel:speechRecognition:soundClassification:speechExpression:]

@@ -51,12 +51,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DBE9D84B-180D-396A-AB3A-D2E985411E11
 -  Functions: 1937
 -  Symbols:   1894
--  CStrings:  2563
+-  CStrings:  3677
++  UUID: 5CF3AB1C-A2FE-36EC-BA6F-EE9DE62F0F54
 +  Functions: 1940
 +  Symbols:   1898
-+  CStrings:  2567
++  CStrings:  3683
  
 Symbols:
 + _OBJC_CLASS_$_SBFLockScreenDateViewInvertColorsAccessibility

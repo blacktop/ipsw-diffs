@@ -63,14 +63,12 @@
    __AUTH_CONST.__cfstring: 0xac0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x2b80
--  __AUTH_CONST.__auth_ptr: 0xe8
 -  __AUTH_CONST.__auth_got: 0xab8
 -  __AUTH.__objc_data: 0x1338
 -  __AUTH.__data: 0x14f8
 -  __DATA.__objc_protorefs: 0x88
 -  __DATA.__objc_classrefs: 0x1c0
 +  __AUTH_CONST.__const: 0x2900
-+  __AUTH_CONST.__auth_ptr: 0xe0
 +  __AUTH_CONST.__auth_got: 0xad0
 +  __AUTH.__objc_data: 0x1228
 +  __AUTH.__data: 0x15f8
@@ -101,12 +99,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A3322E41-D875-3286-86F6-4BC370B61BA6
 -  Functions: 1787
 -  Symbols:   1255
--  CStrings:  1045
+-  CStrings:  1131
++  UUID: 29FDF961-3638-3247-8D8D-9D3FBBF94A59
 +  Functions: 1786
 +  Symbols:   1253
-+  CStrings:  1065
++  CStrings:  1151
  
 Symbols:
 + _OBJC_CLASS_$_AKNetworkObserver

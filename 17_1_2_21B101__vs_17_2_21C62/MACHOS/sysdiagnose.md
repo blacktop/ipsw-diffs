@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x22ea
    __TEXT.__oslogstring: 0x68d
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: 55C26FB3-F106-3EFE-9C93-AC6DE229882F
++  UUID: 029D911C-4FDA-38F2-A0B9-BEF0F1CD04C1
+   Functions: 67
+   Symbols:   149
+   CStrings:  285
+
 ```

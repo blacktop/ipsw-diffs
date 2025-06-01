@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 288AB41A-63FF-3C1D-BD62-078A83225097
 -  Functions: 549
 -  Symbols:   2265
--  CStrings:  1367
+-  CStrings:  1593
++  UUID: 6AF20200-5980-3892-AC6A-965FD968735F
 +  Functions: 551
 +  Symbols:   2273
-+  CStrings:  1370
++  CStrings:  1596
  
 Symbols:
 + GCC_except_table465

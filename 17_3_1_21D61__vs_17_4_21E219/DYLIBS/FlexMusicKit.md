@@ -38,11 +38,15 @@
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/libAppleArchive.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82142EBF-8F0B-3960-8A61-82C8C137C0A9
++  UUID: 921D31FA-3654-36D5-94E6-C150332B3A48
    Functions: 919
    Symbols:   455
--  CStrings:  2080
-+  CStrings:  2081
+-  CStrings:  2567
++  CStrings:  2568
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 776F8415-929F-3AD6-8972-2EA1CDBA66B0
 -  Functions: 1609
 -  Symbols:   5818
--  CStrings:  3072
+-  CStrings:  3487
++  UUID: 9F983817-C853-3C4F-9769-28F1C0C06BBF
 +  Functions: 1607
 +  Symbols:   5813
-+  CStrings:  3073
++  CStrings:  3489
  
 Symbols:
 + -[CMContinuityCaptureFrameRateManager reportStreamStatus:forConfiguration:forCompanionDeviceType:]

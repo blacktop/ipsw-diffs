@@ -27,6 +27,15 @@
    __DATA_DIRTY.__common: 0x1e8
    - /usr/lib/system/libcompiler_rt.dylib
    - /usr/lib/system/libdyld.dylib
+
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+-  UUID: A4FB6302-B859-3C3D-ABDF-CB9BF836CC1B
++  UUID: 770B91E3-056B-3E7E-B731-234FE649D088
+   Functions: 790
+   Symbols:   1721
+   CStrings:  677
 CStrings:
 + "BUG IN LIBMALLOC: malloc assertion \"(start_address >= left_void.min_address && end_address + XZM_RANGE_SEPARATION <= left_void.max_address) || (start_address >= right_void.min_address + XZM_RANGE_SEPARATION && start_address + XZM_POINTER_RANGE_SIZE <= right_void.max_address)\" failed (/Library/Caches/com.apple.xbs/Sources/libmalloc/src/xzone/xzone_segment.c:569)"
 + "BUG IN LIBMALLOC: malloc assertion \"(uintptr_t)body < XZM_LIMIT_ADDRESS\" failed (/Library/Caches/com.apple.xbs/Sources/libmalloc/src/xzone/xzone_segment.c:1197)"

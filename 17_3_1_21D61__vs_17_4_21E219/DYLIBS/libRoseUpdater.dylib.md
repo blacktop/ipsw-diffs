@@ -20,9 +20,9 @@
    __TEXT.__objc_classname: 0x1
    __DATA_CONST.__got: 0xd0
 
+   __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__cfstring: 0x7c0
    __AUTH_CONST.__const: 0x878
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x528
 +  __AUTH_CONST.__auth_got: 0x520
    __DATA.__bss: 0x48
@@ -32,12 +32,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A17616A-9D28-31C0-989C-1F7C4885FC37
 -  Functions: 344
 -  Symbols:   1066
--  CStrings:  503
+-  CStrings:  565
++  UUID: E01B314B-76EF-3119-AFA8-B2B1F11BACD5
 +  Functions: 341
 +  Symbols:   1055
-+  CStrings:  502
++  CStrings:  564
  
 Symbols:
 + GCC_except_table37

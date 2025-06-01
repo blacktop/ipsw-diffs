@@ -51,9 +51,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x228
    __DATA_CONST.__objc_arraydata: 0xf0
 -  __AUTH_CONST.__const: 0x3d0
-+  __AUTH_CONST.__const: 0x390
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0xab20
++  __AUTH_CONST.__const: 0x390
 +  __AUTH_CONST.__cfstring: 0xab80
    __AUTH_CONST.__objc_const: 0x1e10
    __AUTH_CONST.__objc_intobj: 0x78
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 74D0AEC0-13D5-3ECA-86D3-A394E89DA033
 -  Functions: 4435
 -  Symbols:   12003
--  CStrings:  7779
+-  CStrings:  9148
++  UUID: 69EAA90D-F1C2-3157-8B1C-5314AA923AEB
 +  Functions: 4437
 +  Symbols:   12009
-+  CStrings:  7813
++  CStrings:  9185
  
 Symbols:
 + +[WAUtil initialize]

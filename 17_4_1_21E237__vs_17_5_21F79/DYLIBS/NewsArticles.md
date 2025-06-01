@@ -73,9 +73,8 @@
    __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x1e3d0
-+  __AUTH_CONST.__const: 0x1e5e8
-   __AUTH_CONST.__auth_ptr: 0xb68
 -  __AUTH_CONST.__auth_got: 0x43a8
++  __AUTH_CONST.__const: 0x1e5e8
 +  __AUTH_CONST.__auth_got: 0x4470
    __AUTH.__objc_data: 0x3570
 -  __AUTH.__data: 0x7790
@@ -126,12 +125,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8EFAA6DF-BD92-3FC2-A9BB-45A185C7393A
 -  Functions: 20168
 -  Symbols:   8257
--  CStrings:  5832
+-  CStrings:  5911
++  UUID: 58FDE05E-C66D-3144-9E4E-887891F92726
 +  Functions: 20233
 +  Symbols:   8281
-+  CStrings:  5905
++  CStrings:  5984
  
 Symbols:
 + __DATA__TtC12NewsArticles15OfflineAssembly

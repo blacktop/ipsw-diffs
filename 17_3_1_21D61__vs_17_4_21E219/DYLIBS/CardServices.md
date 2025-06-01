@@ -37,11 +37,15 @@
    __DATA.__data: 0x3c0
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/Cards.framework/Cards
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D9565AE-7957-3DF2-A028-82604D6DFA33
++  UUID: 36BFE656-45DB-3302-AD9B-634384A9448E
    Functions: 65
    Symbols:   428
--  CStrings:  208
-+  CStrings:  209
+-  CStrings:  213
++  CStrings:  214
  
 Symbols:
 + ___33-[CRSCardRequest startWithReply:]_block_invoke.52

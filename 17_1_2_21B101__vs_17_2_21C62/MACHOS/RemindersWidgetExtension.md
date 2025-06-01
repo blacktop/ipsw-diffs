@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7F9B64B2-5F19-3314-8F1F-55A3BC8847DF
++  UUID: A75474D3-16B2-3BB1-A81D-7543166E382F
+   Functions: 2627
+   Symbols:   177
+   CStrings:  152
+
 ```

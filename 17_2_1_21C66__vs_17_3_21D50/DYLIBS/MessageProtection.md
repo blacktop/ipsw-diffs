@@ -43,19 +43,21 @@
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0x17c0
 +  __AUTH_CONST.__cfstring: 0x17a0
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__const: 0x418
+   __AUTH_CONST.__auth_got: 0xb88
 
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A16C1B1B-DA03-3A4E-8901-5EDD1FD636E2
 -  Functions: 1345
 -  Symbols:   4456
--  CStrings:  1143
+-  CStrings:  1333
++  UUID: 2CB72890-1153-3BBB-BB19-79D4CA1B758E
 +  Functions: 1351
 +  Symbols:   4470
-+  CStrings:  1147
++  CStrings:  1336
  
 Symbols:
 + -[NGMFullDeviceIdentity testing_duplicatePrekeyRegistration]

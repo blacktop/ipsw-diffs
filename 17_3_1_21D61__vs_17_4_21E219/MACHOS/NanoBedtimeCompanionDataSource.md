@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6F7B62E1-C871-3125-9115-655F4F191B5C
++  UUID: 564B405C-ED67-3D24-9762-30410E6F7466
+   Functions: 16
+   Symbols:   61
+   CStrings:  72
+
 ```

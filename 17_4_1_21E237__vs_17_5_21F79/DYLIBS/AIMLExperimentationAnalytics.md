@@ -16,4 +16,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 48DAE64E-E16B-35AC-BEAC-71C495863ACE
++  UUID: ABE5E1D6-8D90-390B-A1F0-063AC34CB5CF
+   Functions: 332
+   Symbols:   409
+   CStrings:  226
+
 ```

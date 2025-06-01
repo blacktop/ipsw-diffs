@@ -77,12 +77,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A2BC49EB-4DD5-35FF-A28E-634DA7843C2C
 -  Functions: 562
 -  Symbols:   319
--  CStrings:  2871
+-  CStrings:  3068
++  UUID: FB4D5BEB-6F50-3B72-9681-B932207334D9
 +  Functions: 586
 +  Symbols:   342
-+  CStrings:  2924
++  CStrings:  3121
  
 Symbols:
 + _CFURLCreateWithFileSystemPath

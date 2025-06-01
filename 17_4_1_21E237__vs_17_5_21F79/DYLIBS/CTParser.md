@@ -12,4 +12,13 @@
    __TEXT.__const: 0x4a1
    __TEXT.__gcc_except_tab: 0x5b8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A6D130D9-B82E-33A5-874E-94EFC8BE6885
++  UUID: 361F72C5-A69D-3B24-920B-730B51508CEB
+   Functions: 216
+   Symbols:   575
+   CStrings:  32
+
 ```

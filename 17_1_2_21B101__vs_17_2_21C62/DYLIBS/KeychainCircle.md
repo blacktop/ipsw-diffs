@@ -76,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53E5B4C7-0D78-3002-BD9F-5443BAEB29AB
 -  Functions: 516
 -  Symbols:   1823
--  CStrings:  1013
+-  CStrings:  1126
++  UUID: 3D885DF0-DFF8-33BB-945E-CD04042F70A4
 +  Functions: 558
 +  Symbols:   2085
-+  CStrings:  1187
++  CStrings:  1407
  
 Symbols:
 + +[AAFAnalyticsEventSecurity isAAAFoundationAvailable]

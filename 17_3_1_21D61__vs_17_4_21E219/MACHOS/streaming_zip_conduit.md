@@ -38,12 +38,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 45C632A6-D3EA-35CC-A53D-77FD1D60F2FB
 -  Functions: 58
 -  Symbols:   113
--  CStrings:  101
+-  CStrings:  127
++  UUID: 011FB893-2B9D-3F0D-B3EC-D4AAB311C985
 +  Functions: 17
 +  Symbols:   111
-+  CStrings:  102
++  CStrings:  128
  
 Symbols:
 + _objc_retain_x26

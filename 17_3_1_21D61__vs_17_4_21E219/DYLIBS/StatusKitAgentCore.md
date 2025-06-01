@@ -58,10 +58,9 @@
    __DATA_CONST.__objc_arraydata: 0x10
    __AUTH_CONST.__cfstring: 0x20c0
    __AUTH_CONST.__const: 0x1078
-
+   __AUTH_CONST.__objc_const: 0x1fa0
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xab0
 -  __AUTH.__objc_data: 0xb38
 -  __DATA.__objc_protorefs: 0x30
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2B48CDD1-DF60-311C-A510-0A825547BF76
 -  Functions: 3320
 -  Symbols:   8776
--  CStrings:  3755
+-  CStrings:  4017
++  UUID: 9FA51B4B-6B16-38BA-AC5A-A60B5B78703A
 +  Functions: 3338
 +  Symbols:   8796
-+  CStrings:  3795
++  CStrings:  4057
  
 Symbols:
 + -[SKAPresenceClient lastSelfInviteSentTimestamp]

@@ -47,13 +47,16 @@
    __DATA_DIRTY.__objc_data: 0x2d0
    __DATA_DIRTY.__bss: 0x60
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53BFBDC8-F113-3AA9-8E28-450C6F537B8C
++  UUID: BDA64850-7EAC-3B56-8BE4-A40D48C5CDF0
    Functions: 268
 -  Symbols:   1115
--  CStrings:  657
+-  CStrings:  818
 +  Symbols:   1116
-+  CStrings:  658
++  CStrings:  820
  
 Symbols:
 + _PAAudioRouteBluetoothProductIdentifierB463

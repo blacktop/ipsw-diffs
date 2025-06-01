@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
    - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8F75C2A2-8788-3DD2-A770-9E40B7CD09E7
++  UUID: EE520E9A-1F1F-3E0A-B2F9-84821AE23F86
+   Functions: 46
+   Symbols:   61
+   CStrings:  4
+
 ```

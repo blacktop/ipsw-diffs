@@ -46,10 +46,9 @@
    __AUTH_CONST.__cfstring: 0x41cc0
    __AUTH_CONST.__const: 0x16e0
    __AUTH_CONST.__objc_intobj: 0x828
-
+   __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x4ce0
    __AUTH_CONST.__objc_dictobj: 0x3a48
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x800
 +  __AUTH_CONST.__auth_got: 0x818
    __AUTH.__objc_data: 0x144b0
@@ -69,12 +68,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8F4373C-8EA2-3919-BA66-508EE611919F
 -  Functions: 30751
 -  Symbols:   87736
--  CStrings:  28464
+-  CStrings:  36886
++  UUID: EAD0BA6E-9FED-3C13-BBA4-B26DA2749F07
 +  Functions: 30757
 +  Symbols:   87762
-+  CStrings:  28469
++  CStrings:  36891
  
 Symbols:
 + +[INImageFilePersistence lastEphemeralStorePurgingDate]

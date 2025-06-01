@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0EBF259E-65FE-33A4-8E56-4011366D7A31
 -  Functions: 434
 -  Symbols:   1823
--  CStrings:  1086
+-  CStrings:  1205
++  UUID: 6B8C3698-9D0E-312B-A130-064F996EAE2E
 +  Functions: 435
 +  Symbols:   1827
-+  CStrings:  1087
++  CStrings:  1206
  
 Symbols:
 + -[DMCEnrollmentFlowController _enrollmentTypeAuthorizedBySDP:completion:]

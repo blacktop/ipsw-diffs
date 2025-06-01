@@ -74,12 +74,14 @@
 +  - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDB7059A-8A66-3251-BF37-43D954C20266
 -  Functions: 1117
 -  Symbols:   3881
--  CStrings:  1549
+-  CStrings:  1714
++  UUID: 4CD31A5B-1F35-3E7E-A219-36D2E47633BD
 +  Functions: 1257
 +  Symbols:   4272
-+  CStrings:  1665
++  CStrings:  1833
  
 Symbols:
 + +[COClusterMemberRoleSnapshot snapshotWithParticipantRoleForMember:]

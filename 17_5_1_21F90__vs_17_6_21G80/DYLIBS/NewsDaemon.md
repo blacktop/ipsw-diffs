@@ -64,7 +64,6 @@
 +  __AUTH_CONST.__cfstring: 0x480
 +  __AUTH_CONST.__const: 0x3d0
 +  __AUTH_CONST.__objc_const: 0x310
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x4e8
 +  __AUTH.__objc_data: 0x2b8
 +  __AUTH.__data: 0xd0
@@ -82,9 +81,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47C5A5B2-81D6-3075-B6AD-1BEF6A79BAD1
 -  Functions: 189
 -  Symbols:   796
--  CStrings:  389
+-  CStrings:  420
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -103,9 +103,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 12EFE2DA-2F7A-3921-9B44-610908F795D2
 +  Functions: 358
 +  Symbols:   966
-+  CStrings:  438
++  CStrings:  474
  
 Symbols:
 + +[NSURL(NDAdditions) newsdContentURL]

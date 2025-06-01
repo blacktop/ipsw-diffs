@@ -42,11 +42,15 @@
    __AUTH_CONST.__objc_const: 0x4638
    __AUTH_CONST.__objc_doubleobj: 0x10
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8F8E6D09-47AD-3BF3-81C0-4E2E36426508
++  UUID: A36309E1-D2BB-3ACF-9F47-B41882BD24D5
    Functions: 4047
    Symbols:   914
--  CStrings:  7520
-+  CStrings:  7524
+-  CStrings:  8607
++  CStrings:  8614
  
 CStrings:
 + "19:42:29"

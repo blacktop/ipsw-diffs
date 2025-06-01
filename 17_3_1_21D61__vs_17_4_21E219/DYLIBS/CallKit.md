@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6DBC8CCC-C786-397F-9BB4-9C1D2F28D192
 -  Functions: 3008
 -  Symbols:   9561
--  CStrings:  3783
+-  CStrings:  4236
++  UUID: 4055BA67-162F-3A36-A410-7EC847F8ABAD
 +  Functions: 3013
 +  Symbols:   9576
-+  CStrings:  3798
++  CStrings:  4254
  
 Symbols:
 + -[CXProviderConfiguration setSupportsDynamicSystemUI:]

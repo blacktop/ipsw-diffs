@@ -15,6 +15,15 @@
    __TEXT.__unwind_info: 0x5aa4
    __DATA_CONST.__got: 0x218
    __DATA_CONST.__const: 0x9bd78
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libllvm-flatbuffers.dylib
+   - /usr/lib/libllvm-lmdb.dylib
+-  UUID: 8A002CF0-DBB7-3CE4-946A-B18E941940E8
++  UUID: 0FA6A74A-E71A-3C1E-8EA2-9C40EE05F5C1
+   Functions: 9246
+   Symbols:   2766
+   CStrings:  14757
 CStrings:
 + "32023.116"
 - "32023.98"

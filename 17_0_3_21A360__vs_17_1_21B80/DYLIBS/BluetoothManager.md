@@ -36,12 +36,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7FA06337-AFC7-391E-BE44-761D5EB18D78
 -  Functions: 413
 -  Symbols:   1226
--  CStrings:  745
+-  CStrings:  832
++  UUID: BD91D4AE-3DE3-34A9-B378-1B5B387E629F
 +  Functions: 415
 +  Symbols:   1231
-+  CStrings:  747
++  CStrings:  834
  
 Symbols:
 + -[BluetoothDevice pairedDeviceNameUpdated].cold.1

@@ -34,9 +34,9 @@
    __AUTH_CONST.__cfstring: 0xfa0
    __AUTH_CONST.__objc_const: 0x1000
 
+   __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_doubleobj: 0xb0
    __AUTH_CONST.__objc_arrayobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x730
 +  __AUTH_CONST.__auth_got: 0x738
    __AUTH.__objc_data: 0x730
@@ -46,13 +46,16 @@
    __DATA.__data: 0x550
    __DATA.__bss: 0x3d8
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C915D906-676D-3FD2-8823-2A378F2ECBBC
++  UUID: 6A3FA190-7B1F-320F-9DAA-D05C1C3A8DDC
    Functions: 1259
 -  Symbols:   4587
--  CStrings:  2122
+-  CStrings:  2247
 +  Symbols:   4588
-+  CStrings:  2125
++  CStrings:  2250
  
 Symbols:
 + _NSStringFromCGSize

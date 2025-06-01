@@ -52,7 +52,6 @@
 +  __DATA_CONST.__objc_classrefs: 0xf40
 +  __DATA_CONST.__objc_superrefs: 0xb60
    __DATA_CONST.__objc_arraydata: 0x5a8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x10580
 -  __AUTH_CONST.__cfstring: 0x17580
 -  __AUTH_CONST.__objc_intobj: 0x438
@@ -89,12 +88,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6A0DA99E-3366-3948-A603-165424721151
 -  Functions: 9590
 -  Symbols:   29981
--  CStrings:  13853
+-  CStrings:  16841
++  UUID: 10BA6625-A514-36FC-AE28-84EC31E984D2
 +  Functions: 9711
 +  Symbols:   30268
-+  CStrings:  13999
++  CStrings:  17011
  
 Symbols:
 + +[ICMusicSubscriptionStatus dateFromMilliseconds:]

@@ -65,9 +65,10 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CB4719F-8C3C-3B5E-B07B-5AE056E2875D
 -  Functions: 28
 -  Symbols:   68
--  CStrings:  68
+-  CStrings:  77
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -75,9 +76,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 546D4D3E-0A2E-390A-9629-AE4AF16907D4
 +  Functions: 64
 +  Symbols:   112
-+  CStrings:  98
++  CStrings:  107
  
 Symbols:
 + _AnalyticsSendEventLazy

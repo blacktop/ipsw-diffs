@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/SpotlightUIInternal.framework/SpotlightUIInternal
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CA869916-51CD-3964-868C-19CB97FC0363
 -  Functions: 43
 -  Symbols:   69
--  CStrings:  284
+-  CStrings:  293
++  UUID: 98106E7A-EFFE-3F3E-8779-8A225E4D534E
 +  Functions: 46
 +  Symbols:   73
-+  CStrings:  295
++  CStrings:  304
  
 Symbols:
 + _OBJC_CLASS_$_UIApplication

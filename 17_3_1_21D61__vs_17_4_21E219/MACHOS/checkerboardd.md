@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x460
    __DATA.__data: 0x600
 
+   - /System/Library/PrivateFrameworks/RemoteXPC.framework/RemoteXPC
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 503AC9BF-3869-3EF4-8C40-9683200441B1
++  UUID: EF160FF4-3583-3AE9-A3FA-9A4B7C3D071A
    Functions: 219
    Symbols:   130
--  CStrings:  452
-+  CStrings:  453
+-  CStrings:  474
++  CStrings:  475
  
 CStrings:
 + "T@\"NSString\",?,R,C"

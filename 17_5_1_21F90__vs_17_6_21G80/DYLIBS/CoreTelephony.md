@@ -44,7 +44,6 @@
 -  __AUTH_CONST.__cfstring: 0x158a0
 +  __AUTH_CONST.__cfstring: 0x158c0
    __AUTH_CONST.__const: 0x1a10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0xc30
    __AUTH.__objc_data: 0x1f40
@@ -57,12 +56,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05CFC972-E2A0-31F7-ACDF-9FDAAEEB2E69
 -  Functions: 6774
 -  Symbols:   21461
--  CStrings:  9682
+-  CStrings:  12439
++  UUID: 8BBF70A3-773D-379A-9CB6-6E95FAC5836A
 +  Functions: 6775
 +  Symbols:   21465
-+  CStrings:  9686
++  CStrings:  12444
  
 Symbols:
 + -[CTCarrierSignupPlan identifiers]

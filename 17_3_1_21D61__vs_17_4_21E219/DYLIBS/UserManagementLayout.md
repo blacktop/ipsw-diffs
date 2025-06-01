@@ -35,11 +35,15 @@
    __DATA.__data: 0x128
    __DATA.__bss: 0x68
 
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C8EB710A-A8F1-3DBA-AC8D-96783C71B239
++  UUID: 49008231-9E18-35A8-9318-58AC246F20C2
    Functions: 209
    Symbols:   133
--  CStrings:  608
-+  CStrings:  609
+-  CStrings:  669
++  CStrings:  670
  
 CStrings:
 + "T@\"NSString\",?,R,C"

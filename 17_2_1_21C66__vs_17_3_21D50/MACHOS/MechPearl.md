@@ -33,11 +33,15 @@
    __DATA.__objc_superrefs: 0x18
    __DATA.__objc_ivar: 0xa4
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BDAEA39E-EF64-33BB-AD29-90E4F82A7D1A
++  UUID: 0A01FB55-499F-3424-81E5-97D32DFFB6E1
    Functions: 132
    Symbols:   83
--  CStrings:  436
-+  CStrings:  439
+-  CStrings:  461
++  CStrings:  464
  
 CStrings:
 + "%{public}@ ignoring failure limit: %d for policy %{public}@"

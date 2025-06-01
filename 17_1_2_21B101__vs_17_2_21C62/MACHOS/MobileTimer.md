@@ -48,11 +48,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF7E5857-5A31-3999-8041-095170BA7032
 -  Functions: 2164
++  UUID: D8A8DFA0-AF2F-3B82-B2A3-CDFFD41D3FB1
 +  Functions: 2171
    Symbols:   442
--  CStrings:  3941
-+  CStrings:  3947
+-  CStrings:  4218
++  CStrings:  4224
  
 CStrings:
 + "TB,N,V_usesSmallSize"

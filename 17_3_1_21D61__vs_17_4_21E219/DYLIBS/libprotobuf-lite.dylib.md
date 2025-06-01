@@ -19,7 +19,6 @@
    __DATA_CONST.__got: 0x40
    __DATA_CONST.__const: 0x30
    __AUTH_CONST.__const: 0x7c0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x160
 +  __AUTH_CONST.__auth_got: 0x158
    __AUTH.__data: 0x8
@@ -29,8 +28,10 @@
    __DATA_DIRTY.__common: 0x30
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 94A3B3CA-9D19-3238-ABCE-14EDA7EECE3D
 -  Functions: 453
 -  Symbols:   749
++  UUID: C962EDD4-6191-38ED-B24D-A6BF35A58E72
 +  Functions: 454
 +  Symbols:   750
    CStrings:  82

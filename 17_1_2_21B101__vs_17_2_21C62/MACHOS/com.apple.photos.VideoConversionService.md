@@ -46,12 +46,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 434086FA-E71E-3669-B732-32E80ED65BBC
 -  Functions: 706
 -  Symbols:   424
--  CStrings:  1887
+-  CStrings:  2187
++  UUID: A6F5F524-1DDF-3A32-BEA3-CF5ACA076C35
 +  Functions: 709
 +  Symbols:   432
-+  CStrings:  1894
++  CStrings:  2194
  
 Symbols:
 + _kCGImagePropertyGroupImageDisparityAdjustment

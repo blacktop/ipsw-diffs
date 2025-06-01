@@ -50,12 +50,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6F5CBCF-FB20-3B6C-8452-5B58FAB3A5EE
 -  Functions: 1617
 -  Symbols:   5776
--  CStrings:  2286
+-  CStrings:  2621
++  UUID: F761F4BE-7479-31A0-9EDA-C3A995776142
 +  Functions: 1621
 +  Symbols:   5791
-+  CStrings:  2294
++  CStrings:  2629
  
 Symbols:
 + -[GTBulkDataService initWithDownloadHighWaterMark:]

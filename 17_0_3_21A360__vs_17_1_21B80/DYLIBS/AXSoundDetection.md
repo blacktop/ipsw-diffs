@@ -37,13 +37,16 @@
    __DATA.__data: 0xd8
    __DATA.__bss: 0x10
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A540CEB-FBC2-3B4F-A6A9-E81062CBE252
++  UUID: F91764FE-B461-3BE7-822B-2BD330927BFB
    Functions: 75
 -  Symbols:   372
--  CStrings:  288
+-  CStrings:  433
 +  Symbols:   375
-+  CStrings:  290
++  CStrings:  435
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableSet

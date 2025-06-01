@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1282A0EF-53BF-3343-9D7F-E1DD0AE98EBE
 -  Functions: 1482
 -  Symbols:   3923
--  CStrings:  743
+-  CStrings:  850
++  UUID: 0C60DD03-DCEB-32D5-A571-A460658D46D0
 +  Functions: 1659
 +  Symbols:   4273
-+  CStrings:  959
++  CStrings:  1066
  
 Symbols:
 + -[PKPhysicsBody setDensity:].cold.1

@@ -75,12 +75,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 30C09B56-22DA-3960-97D2-BC6756FCB015
 -  Functions: 237
 -  Symbols:   215
--  CStrings:  3421
+-  CStrings:  3588
++  UUID: AF60ED0C-6F3B-3F57-AB3B-C39EE7EE1670
 +  Functions: 285
 +  Symbols:   232
-+  CStrings:  3558
++  CStrings:  3743
  
 Symbols:
 + _CFNotificationCenterAddObserver

@@ -38,4 +38,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 76568A10-7634-33EB-B02C-01185A83BA9A
++  UUID: 3F2C849E-97D2-3EA8-A8AE-CB3F462DFAB8
+   Functions: 4964
+   Symbols:   11724
+   CStrings:  6456
+
 ```

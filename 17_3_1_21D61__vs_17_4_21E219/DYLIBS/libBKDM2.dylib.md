@@ -47,7 +47,7 @@
    __AUTH_CONST.__objc_const: 0x798
    __AUTH_CONST.__objc_intobj: 0x258
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__auth_got: 0x690
    __AUTH.__objc_data: 0x410
 -  __DATA.__objc_classrefs: 0x1e8
@@ -67,12 +67,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: E106302E-4CF8-3616-9BF2-C278138F1D8E
 -  Functions: 2153
 -  Symbols:   6557
--  CStrings:  3822
+-  CStrings:  4460
++  UUID: 28A7F177-F190-3778-8DFF-95DA79119713
 +  Functions: 2154
 +  Symbols:   6562
-+  CStrings:  3830
++  CStrings:  4471
  
 Symbols:
 + -[BioLog setRetentionPolicyLow:]

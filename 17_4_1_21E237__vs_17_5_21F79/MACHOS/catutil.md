@@ -17,6 +17,15 @@
    __TEXT.__objc_methname: 0xae
    __TEXT.__unwind_info: 0x1b94
    __TEXT.__eh_frame: 0x38
+
+   - /usr/lib/libmorphun.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 6F4FE7DB-7F9A-3A7B-B610-4A8888C01F1A
++  UUID: EA79206C-5B11-332B-8B85-C764DAE28D7A
+   Functions: 1242
+   Symbols:   413
+   CStrings:  997
 CStrings:
 + "3305.3.1"
 + "4.5"

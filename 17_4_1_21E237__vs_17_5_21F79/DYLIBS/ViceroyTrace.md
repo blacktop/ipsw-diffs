@@ -81,12 +81,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9BF0D40F-C43F-33B0-96F3-C5A9BAAE57E4
 -  Functions: 2800
 -  Symbols:   9286
--  CStrings:  5631
+-  CStrings:  7062
++  UUID: 78846F95-9845-33F3-9E60-10DE3C4CF2F0
 +  Functions: 2857
 +  Symbols:   9456
-+  CStrings:  5725
++  CStrings:  7169
  
 Symbols:
 + +[VCAggregator mediaStreamDirectionForSegmentReportDirection:]

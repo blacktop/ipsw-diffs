@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x9b0
    __DATA.__data: 0xb40
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 99A9B783-06D1-3C96-9DD1-07C1C80CD14E
++  UUID: 9498C924-8E76-3272-BFB8-4D51E383695F
    Functions: 708
    Symbols:   206
--  CStrings:  1425
-+  CStrings:  1426
+-  CStrings:  1452
++  CStrings:  1453
  
 CStrings:
 + "br_signalWorkingSetEnumeratorWithCompletionHandler:"

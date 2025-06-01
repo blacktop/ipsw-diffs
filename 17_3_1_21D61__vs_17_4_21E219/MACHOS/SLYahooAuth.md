@@ -28,7 +28,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C49DAB8-7F39-327E-8003-4302F692C678
++  UUID: 041C9A40-A26C-3B25-A8FA-BB321AD12B27
    Functions: 12
    Symbols:   17
 -  CStrings:  160

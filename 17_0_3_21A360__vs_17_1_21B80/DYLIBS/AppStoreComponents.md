@@ -65,7 +65,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__const: 0x980
-   __AUTH_CONST.__auth_ptr: 0x98
    __AUTH_CONST.__auth_got: 0xbc0
 -  __AUTH.__objc_data: 0x0
 -  __AUTH.__data: 0x98
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 51E86E2D-2026-35BC-9B36-1DD253BF12D3
 -  Functions: 3073
 -  Symbols:   8360
--  CStrings:  3475
+-  CStrings:  3932
++  UUID: 4052A2E3-B2F4-3FC6-958F-7082F1DB2F4C
 +  Functions: 3139
 +  Symbols:   8540
-+  CStrings:  3561
++  CStrings:  4030
  
 Symbols:
 + +[ASCEligibility isITunesStoreClient:]

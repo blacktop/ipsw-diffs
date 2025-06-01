@@ -49,12 +49,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71F810C8-6EE0-37D3-B564-0BFD44E58CF7
 -  Functions: 26233
 -  Symbols:   78366
--  CStrings:  35908
+-  CStrings:  43463
++  UUID: C25FC20E-0030-3609-97C8-E3E4F7F9EB39
 +  Functions: 26237
 +  Symbols:   78377
-+  CStrings:  35917
++  CStrings:  43472
  
 Symbols:
 + -[ATXModeEntityScorerServer rankedContactsForDenyListForMode:options:]

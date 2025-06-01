@@ -49,7 +49,6 @@
    __AUTH_CONST.__const: 0x7b0
    __AUTH_CONST.__objc_intobj: 0x3f0
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x848
 +  __AUTH_CONST.__auth_got: 0x850
    __AUTH.__objc_data: 0xc78
@@ -59,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E7E80040-9CFF-3A99-B32E-28004AEB0D7B
 -  Functions: 1192
 -  Symbols:   3948
--  CStrings:  1840
+-  CStrings:  2058
++  UUID: 09729BBA-1B40-3330-9464-6559E3041158
 +  Functions: 1198
 +  Symbols:   3969
-+  CStrings:  1854
++  CStrings:  2079
  
 Symbols:
 + -[HACCContentViewController _contentViewSubscribeListeners]

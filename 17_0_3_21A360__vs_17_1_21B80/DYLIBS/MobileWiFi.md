@@ -29,16 +29,19 @@
 -  __AUTH_CONST.__cfstring: 0x5360
 +  __AUTH_CONST.__cfstring: 0x53a0
    __AUTH_CONST.__const: 0x430
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_intobj: 0x4b0
+   __AUTH_CONST.__objc_const: 0x48
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1012DA12-2927-3290-849D-31F588E4EAA6
++  UUID: 93012460-17E0-3D3A-80A3-E3E22C9D6E27
    Functions: 939
 -  Symbols:   2033
--  CStrings:  995
+-  CStrings:  1662
 +  Symbols:   2034
-+  CStrings:  997
++  CStrings:  1666
  
 Symbols:
 + _kWiFiPrivateMacProfileDefaultFeatureInitialValue

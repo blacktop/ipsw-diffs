@@ -63,12 +63,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 58B260A1-B029-3ED7-835B-91468A846FC6
 -  Functions: 1941
 -  Symbols:   584
--  CStrings:  5440
+-  CStrings:  6328
++  UUID: 12CDD1B3-C081-3537-864F-2F713F6BBF2E
 +  Functions: 1949
 +  Symbols:   586
-+  CStrings:  5490
++  CStrings:  6387
  
 Symbols:
 + _NSPPrivacyProxyConfigurationRawConfig

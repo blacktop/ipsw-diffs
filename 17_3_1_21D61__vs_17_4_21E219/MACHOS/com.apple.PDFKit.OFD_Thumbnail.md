@@ -21,4 +21,13 @@
    __DATA.__common: 0x8
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/QuickLookSupport.framework/QuickLookSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DC335F64-B43F-358F-AF97-D906489C344B
++  UUID: 7614B0F4-AFEC-3E3A-A6CE-BD3C4055F398
+   Functions: 3
+   Symbols:   43
+   CStrings:  11
+
 ```

@@ -27,7 +27,6 @@
 -  __DATA_CONST.__const: 0x440
 +  __DATA_CONST.__const: 0x410
    __AUTH_CONST.__const: 0x3210
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x148
 -  __AUTH.__data: 0x8
 -  __AUTH.__got_weak: 0x40
@@ -43,8 +42,10 @@
    __DATA_DIRTY.__data: 0x98
    __DATA_DIRTY.__bss: 0x18
    - /usr/lib/libSystem.B.dylib
+-  UUID: 86D3DD19-5F9E-3D52-8C65-642B72FE0061
 -  Functions: 649
 -  Symbols:   1731
++  UUID: F731978D-29A9-3098-B84A-1AC028BC779C
 +  Functions: 666
 +  Symbols:   1759
    CStrings:  256

@@ -42,11 +42,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D97CC4A-B962-37B8-93DB-21748A865638
++  UUID: 6F01C4B6-901D-3A3B-96A5-DB6DFC8C6548
    Functions: 35
    Symbols:   80
--  CStrings:  153
-+  CStrings:  152
+-  CStrings:  170
++  CStrings:  169
  
 Symbols:
 + _TUSilenceUnknownFaceTimeCallersDefaultValue

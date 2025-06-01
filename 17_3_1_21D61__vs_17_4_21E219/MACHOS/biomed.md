@@ -55,13 +55,16 @@
    - /System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/IntelligencePlatformCore
    - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 88CE390B-2B3B-3633-BF43-327A5634BF90
++  UUID: FB30F879-88AD-3F09-AAFD-18C41F6BDFFB
    Functions: 18
 -  Symbols:   85
--  CStrings:  34
+-  CStrings:  36
 +  Symbols:   84
-+  CStrings:  35
++  CStrings:  37
  
 Symbols:
 + _OBJC_CLASS_$_CCDaemon

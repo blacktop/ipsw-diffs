@@ -62,10 +62,8 @@
 +  __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x1640
 -  __AUTH_CONST.__const: 0xc2168
--  __AUTH_CONST.__auth_ptr: 0x21d8
 -  __AUTH_CONST.__auth_got: 0x58b0
 +  __AUTH_CONST.__const: 0xc23e0
-+  __AUTH_CONST.__auth_ptr: 0x21e0
 +  __AUTH_CONST.__auth_got: 0x58a0
    __AUTH.__objc_data: 0x84f8
 -  __AUTH.__data: 0xc7a0
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3282A984-1D5F-3C6A-8A51-DD72E2D830E8
 -  Functions: 118067
 -  Symbols:   17370
--  CStrings:  10490
+-  CStrings:  10495
++  UUID: C0174238-54CB-392A-8264-8119C8DB2073
 +  Functions: 118164
 +  Symbols:   17356
-+  CStrings:  10524
++  CStrings:  10528
  
 Symbols:
 + -[NEArticleLinkPresentationSource headline]

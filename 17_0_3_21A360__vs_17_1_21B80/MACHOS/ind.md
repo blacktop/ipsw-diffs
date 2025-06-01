@@ -49,13 +49,16 @@
    __DATA.__data: 0x258
    __DATA.__bss: 0x68
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 774E2A1D-DF64-3B7C-9D3A-D41213542952
++  UUID: 46348319-A9F7-392C-A608-647EB64D7756
    Functions: 777
 -  Symbols:   273
--  CStrings:  1521
+-  CStrings:  1758
 +  Symbols:   274
-+  CStrings:  1527
++  CStrings:  1769
  
 Symbols:
 + _kAccountDataclassBackup

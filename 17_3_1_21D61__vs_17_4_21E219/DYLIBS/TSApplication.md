@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8F968821-C54C-3FD9-A82D-888FF1565D22
 -  Functions: 3253
 -  Symbols:   2272
--  CStrings:  3761
+-  CStrings:  3961
++  UUID: 19A9EC9E-4DC9-3383-9567-29D571965031
 +  Functions: 3276
 +  Symbols:   2279
-+  CStrings:  3807
++  CStrings:  4008
  
 Symbols:
 + _CGContextScaleCTM

@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CB592CE-A340-3D34-9336-F4EDF532C357
 -  Functions: 583
 -  Symbols:   322
--  CStrings:  1420
+-  CStrings:  1731
++  UUID: 8763B0B6-70FA-3B96-88B8-A2C11BEEE8C2
 +  Functions: 592
 +  Symbols:   324
-+  CStrings:  1440
++  CStrings:  1756
  
 Symbols:
 + __CTServerConnectionGetAutoReadOutSetting

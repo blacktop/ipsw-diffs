@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x79c2
    __TEXT.__oslogstring: 0x23dd
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E0A03934-CAAA-3811-9087-8519CEE60489
++  UUID: 312BF0C5-E7A6-3CDA-9057-49837BBBD79E
+   Functions: 1526
+   Symbols:   5233
+   CStrings:  3038
+
 ```

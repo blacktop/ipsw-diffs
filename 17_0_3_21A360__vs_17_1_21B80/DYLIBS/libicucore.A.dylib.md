@@ -25,8 +25,10 @@
    __DATA_DIRTY.__common: 0x30
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 62D5F860-0D20-32B7-B838-3C78899E8225
 -  Functions: 11675
 -  Symbols:   8282
++  UUID: 83488BED-CDE4-3865-AB4F-D5B34DBEE046
 +  Functions: 11676
 +  Symbols:   8283
    CStrings:  3755

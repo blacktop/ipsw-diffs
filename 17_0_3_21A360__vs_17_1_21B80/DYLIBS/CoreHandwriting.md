@@ -45,7 +45,7 @@
 +  __AUTH_CONST.__cfstring: 0x6e60
    __AUTH_CONST.__objc_arrayobj: 0x810
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x68
+   __AUTH_CONST.__objc_intobj: 0xcc0
 
    __DATA.__objc_classrefs: 0x698
    __DATA.__objc_superrefs: 0x460
@@ -61,16 +61,22 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F8A7F5B-F165-3FEE-8415-C94D0DD738DB
 -  Functions: 3649
++  UUID: 617DCC48-385D-3B99-A7F5-BEFF1AFC2D47
 +  Functions: 3650
    Symbols:   785
--  CStrings:  4910
-+  CStrings:  4914
+-  CStrings:  5789
++  CStrings:  5797
  
 CStrings:
 + "CHVisualToLogicalTransformStep resulted in inconsistent token mapping. visualTokensInPath count (%lu) != tokenMapping count (%lu) for visual string %@"
 + "Skipping baseline estimation since substroke count == 0"
 + "^{CGPath=}36@0:8@16@24B32"
++ "`\x06"
++ "`\x06a\x06b\x06c\x06d\x06e\x06f\x06g\x06h\x06i\x06."
 + "newEstimatedBaselineForStrokesWithTokens:tokenStrokeIdentifiers:relaxedChecks:"
++ "\xa0R"
++ "\xe5]"
 
 ```

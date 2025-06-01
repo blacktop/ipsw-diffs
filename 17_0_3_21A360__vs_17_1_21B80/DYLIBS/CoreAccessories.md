@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAE85B4E-6F0A-3BC0-9A09-4846720540E5
 -  Functions: 1130
 -  Symbols:   3691
--  CStrings:  1501
+-  CStrings:  1932
++  UUID: E3EC49A9-17B8-30E6-A643-3D8833CD148D
 +  Functions: 1135
 +  Symbols:   3720
-+  CStrings:  1519
++  CStrings:  1958
  
 Symbols:
 + -[ACCTransportPlugin connectedThroughAdapter:]

@@ -40,9 +40,11 @@
    - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 6D378C87-D923-3105-B07F-3BD6618AA8AF
 -  Functions: 717
 -  Symbols:   1709
 -  CStrings:  50
++  UUID: 5C7DB2A1-38A9-3326-88DB-503123089501
 +  Functions: 814
 +  Symbols:   1816
 +  CStrings:  60

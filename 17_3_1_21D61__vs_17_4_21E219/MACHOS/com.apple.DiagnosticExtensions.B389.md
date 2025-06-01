@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x840
 
+   - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90880622-082C-3EAC-9886-2FEFDC20816E
++  UUID: BF8DA919-0876-3487-A93E-5274E9B70B24
    Functions: 20
    Symbols:   76
--  CStrings:  249
-+  CStrings:  256
+-  CStrings:  268
++  CStrings:  275
  
 CStrings:
 + "T@\"NSString\",?,R,C"

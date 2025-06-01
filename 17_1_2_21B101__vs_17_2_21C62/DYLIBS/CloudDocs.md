@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__objc_const: 0x2720
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_intobj: 0x438
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__auth_got: 0x9d8
 -  __AUTH.__objc_data: 0x1180
@@ -66,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 897C7B4B-F835-3D20-961C-F23587DFEAE6
 -  Functions: 3122
 -  Symbols:   10407
--  CStrings:  5359
+-  CStrings:  6069
++  UUID: 41E9E904-C11E-31B3-A545-C52CBE7C0E09
 +  Functions: 3128
 +  Symbols:   10432
-+  CStrings:  5379
++  CStrings:  6099
  
 Symbols:
 + -[BRDeviceConfiguration .cxx_destruct]

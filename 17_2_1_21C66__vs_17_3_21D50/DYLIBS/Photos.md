@@ -21,11 +21,15 @@
    __TEXT.__dlopen_cstrs: 0x47
    __TEXT.__unwind_info: 0x6c1c
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C93B77C9-E49D-3C7A-914E-34D0127114A1
++  UUID: E081E029-3A8F-383B-8ED0-D873F90A2290
    Functions: 10577
    Symbols:   35333
--  CStrings:  18425
-+  CStrings:  18426
+-  CStrings:  22306
++  CStrings:  22307
  
 Symbols:
 + ___Block_byref_object_copy_.10310

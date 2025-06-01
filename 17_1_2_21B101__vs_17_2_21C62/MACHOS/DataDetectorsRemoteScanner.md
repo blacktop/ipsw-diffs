@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x211
    __TEXT.__objc_methtype: 0x163
 
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F28262A5-D9F1-3D53-841D-418FB16BEF52
++  UUID: 0E47E787-3022-324F-A0B4-B4547F896649
+   Functions: 4
+   Symbols:   20
+   CStrings:  56
+
 ```

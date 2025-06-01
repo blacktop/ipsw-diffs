@@ -12,7 +12,7 @@
    __TEXT.__const: 0x50
    __TEXT.__cstring: 0x440
 
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__const: 0xe8
    __AUTH_CONST.__auth_got: 0x260
    __DATA.__data: 0x10
 -  __DATA.__bss: 0x10
@@ -23,5 +23,10 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
    - /usr/lib/libSystem.B.dylib
+-  UUID: 128FEAA2-FA81-3D90-9A07-021CEC606077
++  UUID: 9B95982E-C3CA-3DE0-A452-ECBE1D6B691F
+   Functions: 63
+   Symbols:   131
+   CStrings:  131
 
 ```

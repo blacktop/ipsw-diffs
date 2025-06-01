@@ -51,12 +51,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78AE7126-6FC5-3336-806F-6B8BA2496684
 -  Functions: 181
 -  Symbols:   873
--  CStrings:  515
+-  CStrings:  733
++  UUID: B4E69EDA-D43A-33DF-AF4C-BEAF05C85E43
 +  Functions: 191
 +  Symbols:   914
-+  CStrings:  523
++  CStrings:  744
  
 Symbols:
 + +[MPLegacyRecentsTableViewCellAccessibility _accessibilityPerformValidations:]

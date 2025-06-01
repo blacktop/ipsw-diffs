@@ -25,7 +25,6 @@
    __DATA_CONST.__objc_selrefs: 0x30
 +  __DATA_CONST.__objc_classrefs: 0x8
 +  __DATA_CONST.__objc_superrefs: 0x8
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__auth_got: 0x158
@@ -35,7 +34,11 @@
    __DATA.__bss: 0x148
    __DATA_DIRTY.__const: 0x308
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B385CCC3-17DB-3196-9F43-6C1AB7D79221
++  UUID: 2EB66487-FB24-3DF3-9736-7E4E4572C5D9
    Functions: 305
    Symbols:   810
 -  CStrings:  179

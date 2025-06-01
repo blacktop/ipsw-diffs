@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3DA8222F-EEF2-30D4-B971-330F0E38438E
 -  Functions: 439
++  UUID: 9CC1F6BA-F64C-3D54-B0B5-AED95FD2D474
 +  Functions: 441
    Symbols:   163
--  CStrings:  1300
-+  CStrings:  1302
+-  CStrings:  1685
++  CStrings:  1688
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

@@ -60,9 +60,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
 -  __AUTH_CONST.__objc_dictobj: 0xf0
 +  __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x6d0
    __AUTH.__objc_data: 0x2028
+   __DATA.__objc_ivar: 0x4f8
 
    - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
    - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1DEE41B2-7CB6-3A94-954E-ED17CEF300F2
 -  Functions: 2611
 -  Symbols:   8966
--  CStrings:  4529
+-  CStrings:  5433
++  UUID: 882CF138-22F4-3DBF-A574-4219ED619EDC
 +  Functions: 2638
 +  Symbols:   9031
-+  CStrings:  4586
++  CStrings:  5499
  
 Symbols:
 + +[STAMSClient _handleLoadMediaTaskForResult:error:withCompletionHandler:]

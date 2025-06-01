@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/AFKUser.framework/AFKUser
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 648955A6-CFDB-31D1-858C-51D6EC18002D
 -  Functions: 23
 -  Symbols:   109
--  CStrings:  22
+-  CStrings:  28
++  UUID: 3A5F88CF-8ACB-36F3-AD99-1E856F2B3017
 +  Functions: 30
 +  Symbols:   130
-+  CStrings:  38
++  CStrings:  45
  
 Symbols:
 + _BIMUpdaterEndUpdate

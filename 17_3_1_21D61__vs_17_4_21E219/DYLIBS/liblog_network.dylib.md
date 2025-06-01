@@ -22,4 +22,13 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/Network.framework/Network
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1F34FA7B-2EEA-3818-9EDD-B136FDEA8BB8
++  UUID: 531585DB-F83E-3887-BB21-6214D31F3A55
+   Functions: 15
+   Symbols:   94
+   CStrings:  104
+
 ```

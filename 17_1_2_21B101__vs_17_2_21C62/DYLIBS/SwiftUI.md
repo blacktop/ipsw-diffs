@@ -70,8 +70,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x1ee8
-+  __AUTH_CONST.__auth_ptr: 0x1ef8
    __AUTH_CONST.__auth_got: 0x4710
 -  __AUTH.__objc_data: 0x8238
 -  __AUTH.__data: 0x33bc0
@@ -105,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3B7187B-DC2C-3C38-9E45-D06362009CB3
 -  Functions: 222157
 -  Symbols:   83008
--  CStrings:  7705
+-  CStrings:  7787
++  UUID: 8152BA98-1FB7-3A7F-8059-BD1AD9B7B7B2
 +  Functions: 222458
 +  Symbols:   83162
-+  CStrings:  7740
++  CStrings:  7822
  
 Symbols:
 + _OBJC_CLASS_$__UIPhysicalButtonAction

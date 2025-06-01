@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 686F8FDA-8F26-3F3E-B947-9FEBD713EFD2
 -  Functions: 429
 -  Symbols:   1435
--  CStrings:  728
+-  CStrings:  834
++  UUID: 4ED6770C-9478-3686-A2D1-8AB00D30E354
 +  Functions: 442
 +  Symbols:   1464
-+  CStrings:  738
++  CStrings:  844
  
 Symbols:
 + +[SAInternalAPI setForceTelemetry:]

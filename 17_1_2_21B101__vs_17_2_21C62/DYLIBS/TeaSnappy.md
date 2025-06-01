@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 909DE9F7-947D-3139-85E1-C35BADB3939B
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 4A2A50E6-94D9-348E-B40A-FFC075E4DEE2
    Functions: 154
 -  Symbols:   649
 +  Symbols:   653
-   CStrings:  279
+   CStrings:  285
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCoreLocation

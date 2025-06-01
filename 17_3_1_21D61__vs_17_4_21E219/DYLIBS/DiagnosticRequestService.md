@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_intobj: 0x108
 -  __AUTH_CONST.__const: 0x1030
 +  __AUTH_CONST.__const: 0x1050
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__auth_got: 0x798
    __AUTH.__objc_data: 0x5e8
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8C288B03-F3EB-3307-BAF6-84D165A4B33F
 -  Functions: 2351
 -  Symbols:   6530
--  CStrings:  3721
+-  CStrings:  4340
++  UUID: 15316B87-0FA3-3C4F-8184-61338ED11F26
 +  Functions: 2356
 +  Symbols:   6554
-+  CStrings:  3733
++  CStrings:  4355
  
 Symbols:
 + +[DRSDampeningConfiguration ppsCEArchiveConfiguration]

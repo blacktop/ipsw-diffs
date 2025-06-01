@@ -97,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 95007E31-174D-3901-94F6-C3A00C17762B
 -  Functions: 4889
 -  Symbols:   887
--  CStrings:  8583
+-  CStrings:  9207
++  UUID: 90791C83-84F9-394B-849F-63C7D8A30218
 +  Functions: 4850
 +  Symbols:   897
-+  CStrings:  8557
++  CStrings:  9170
  
 Symbols:
 + _FCWidgetOnboardingVersionSharedPreferenceKey

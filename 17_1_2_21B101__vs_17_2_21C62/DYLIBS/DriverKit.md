@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0xbc0
    __TEXT.__init_offsets: 0x8
    __TEXT.__const: 0x5d00
+
+   __DATA_DIRTY.__bss: 0x1008
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C1B1DB0B-DE30-336C-AF20-CC70707F19BF
++  UUID: 24106DC7-7B0B-336A-86DB-D54533E78BFA
+   Functions: 1520
+   Symbols:   2906
+   CStrings:  459
 Symbols:
 + __ZL6ServerPvP17mach_msg_header_tS1_
 + __ZL6ServerPvP17mach_msg_header_tS1_.cold.1

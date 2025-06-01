@@ -15,4 +15,13 @@
    __DATA_DIRTY.__objc_data: 0x460
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 355517C5-6CCA-3D17-8FA5-DB8EE68035D8
++  UUID: 78CFF963-E5BA-3A14-88FF-DC8F7B7B46AF
+   Functions: 3595
+   Symbols:   12952
+   CStrings:  6608
+
 ```

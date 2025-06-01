@@ -43,7 +43,6 @@
    __DATA_CONST.__objc_arraydata: 0xa0
 -  __AUTH_CONST.__cfstring: 0xbf80
 +  __AUTH_CONST.__cfstring: 0xbfa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x5850
 -  __AUTH_CONST.__const: 0x22e0
 +  __AUTH_CONST.__const: 0x2300
@@ -69,12 +68,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B4B38FE8-F7C4-3397-9340-FFF740C49A53
 -  Functions: 5544
 -  Symbols:   19699
--  CStrings:  9915
+-  CStrings:  11447
++  UUID: 03EE3B61-75F4-3CC9-A0EF-043C46962203
 +  Functions: 5548
 +  Symbols:   19713
-+  CStrings:  9919
++  CStrings:  11452
  
 Symbols:
 + -[MNAudioHardwareEngine forceStop]

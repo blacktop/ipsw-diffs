@@ -82,12 +82,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96AB2BE3-277A-3DC1-B79E-2D7731454D54
 -  Functions: 1969
 -  Symbols:   7423
--  CStrings:  3030
+-  CStrings:  3438
++  UUID: 889B107E-423D-329A-BB9B-D8B20129DAAD
 +  Functions: 2081
 +  Symbols:   7790
-+  CStrings:  3161
++  CStrings:  3581
  
 Symbols:
 + +[CPRouteInfo supportsSecureCoding]

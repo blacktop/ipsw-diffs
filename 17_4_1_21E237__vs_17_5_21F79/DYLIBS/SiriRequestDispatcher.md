@@ -18,4 +18,13 @@
    __DATA_DIRTY.__bss: 0x180
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 651E4DB0-B037-3AFF-AC78-009565644FCC
++  UUID: E7D9FF73-030C-31C6-AAAD-47BEE9E18E66
+   Functions: 919
+   Symbols:   873
+   CStrings:  405
+
 ```

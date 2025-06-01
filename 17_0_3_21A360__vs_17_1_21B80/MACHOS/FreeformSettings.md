@@ -26,13 +26,16 @@
    __DATA_CONST.__objc_protolist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA56D057-4ECA-36AE-AA20-FC775A355FAA
++  UUID: CDCDAFB0-4D83-3D8E-885A-4F14FE99547F
    Functions: 24
 -  Symbols:   389
--  CStrings:  150
+-  CStrings:  200
 +  Symbols:   391
-+  CStrings:  151
++  CStrings:  202
  
 Symbols:
 + _CRLWPGesturePinPadding

@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F1083DBE-8F97-3BD1-9A7B-540271BE79E1
 -  Functions: 5873
 -  Symbols:   1163
--  CStrings:  7780
+-  CStrings:  9815
++  UUID: 8A8E7149-EF59-3E8E-9501-22D28B9A610F
 +  Functions: 5858
 +  Symbols:   1178
-+  CStrings:  7825
++  CStrings:  9866
  
 Symbols:
 + _$s17_StringProcessing5RegexV06_regexA07versionACyxGSS_SitcfC

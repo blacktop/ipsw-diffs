@@ -47,7 +47,7 @@
 +  __AUTH_CONST.__cfstring: 0xbd00
    __AUTH_CONST.__objc_const: 0x3510
    __AUTH_CONST.__const: 0xf88
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__objc_dictobj: 0xa0
 
    __AUTH_CONST.__auth_got: 0x1268
    __AUTH.__objc_data: 0xc30
@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5ABB482D-3C0A-3832-916C-8D0AC2EAA7CB
 -  Functions: 4389
 -  Symbols:   15124
--  CStrings:  8104
+-  CStrings:  9611
++  UUID: D756CF30-094A-34C1-8854-C62F03F250B2
 +  Functions: 4391
 +  Symbols:   15134
-+  CStrings:  8121
++  CStrings:  9633
  
 Symbols:
 + -[NSTextSelectionNavigation deletionRangesForTextSelection:direction:destination:allowsDecomposition:confined:]

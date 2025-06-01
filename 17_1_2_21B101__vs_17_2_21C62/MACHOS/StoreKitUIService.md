@@ -70,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 690B0738-F2D0-3800-A45B-E8AADF7EB43A
 -  Functions: 1103
 -  Symbols:   528
--  CStrings:  2500
+-  CStrings:  2807
++  UUID: E82BC772-6768-3A7F-94BB-13BF567310F8
 +  Functions: 1099
 +  Symbols:   527
-+  CStrings:  2497
++  CStrings:  2806
  
 Symbols:
 - _SKPurchaseIntentAction

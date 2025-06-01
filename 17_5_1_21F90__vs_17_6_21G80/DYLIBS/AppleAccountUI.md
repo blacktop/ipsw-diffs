@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 432964D6-58D3-3ED1-BF08-526142933DA2
 -  Functions: 4837
 -  Symbols:   13255
--  CStrings:  5794
+-  CStrings:  6323
++  UUID: 9E74FCE8-4B09-3722-AED7-7B608F7048FB
 +  Functions: 4853
 +  Symbols:   13284
-+  CStrings:  5811
++  CStrings:  6342
  
 Symbols:
 + +[AAUIFeatureFlags isLCInviteAcceptanceEnabled]

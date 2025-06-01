@@ -38,6 +38,8 @@
    - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 0036C592-78A6-3C26-807C-5AC50325D8E6
++  UUID: 25E16A81-C3EB-3219-9E3E-298595B14984
    Functions: 8
 -  Symbols:   98
 +  Symbols:   100

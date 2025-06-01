@@ -16,4 +16,13 @@
    __DATA.__bss: 0x68
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
 
+   - /System/Library/PrivateFrameworks/RelevanceEngineUI.framework/RelevanceEngineUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 08867C3B-C6EA-3C6E-9ACA-87D3E19D2EDC
++  UUID: 80294FCE-B7C7-3378-9340-191B69C30F1E
+   Functions: 12
+   Symbols:   81
+   CStrings:  69
+
 ```

@@ -69,12 +69,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libdns_services.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0157C728-C452-3F87-A493-A767E5591301
 -  Functions: 17373
 -  Symbols:   87902
--  CStrings:  11265
+-  CStrings:  11808
++  UUID: BBB9D7F2-92FD-387D-A550-5E025C72F084
 +  Functions: 17415
 +  Symbols:   88089
-+  CStrings:  11234
++  CStrings:  11777
  
 Symbols:
 + /Library/Caches/com.apple.xbs/Binaries/CoreThreadRadio/install/Symbols/BuiltProducts/libBorderAgent_rcp.a(border_agent.o)

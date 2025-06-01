@@ -42,7 +42,6 @@
 +  __DATA_CONST.__objc_const: 0x110c8
 +  __DATA_CONST.__objc_selrefs: 0x3c60
    __DATA_CONST.__objc_arraydata: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_const: 0x5a38
 -  __AUTH_CONST.__cfstring: 0x6280
 -  __AUTH_CONST.__const: 0x6e0
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 88A94A63-9828-35C1-9DA5-61A3E0374D21
 -  Functions: 3902
 -  Symbols:   12205
--  CStrings:  5071
+-  CStrings:  5859
++  UUID: 15D44063-749D-3854-B490-FD19B1F5A5FB
 +  Functions: 3932
 +  Symbols:   12327
-+  CStrings:  5192
++  CStrings:  5983
  
 Symbols:
 + +[StoreKitService _serviceConnectionInvalidated]

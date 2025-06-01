@@ -40,9 +40,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+-  UUID: E13B7FA1-6B5D-35BB-9EB4-2EE617FDC46F
 -  Functions: 2457
 -  Symbols:   5773
 -  CStrings:  179
++  UUID: B533671E-B2F6-3761-A646-E02A996CBCAA
 +  Functions: 2454
 +  Symbols:   5768
 +  CStrings:  177

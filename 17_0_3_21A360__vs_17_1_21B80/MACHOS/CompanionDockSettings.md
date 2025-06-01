@@ -65,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A17D670A-D46F-3041-BD7A-7C54E88C9336
 -  Functions: 292
 -  Symbols:   278
--  CStrings:  500
+-  CStrings:  613
++  UUID: 135C6031-A501-3993-87B0-52843F14ACB0
 +  Functions: 75
 +  Symbols:   71
-+  CStrings:  254
++  CStrings:  271
  
 Symbols:
 + _OBJC_CLASS_$_CSLPRFAppSwitcherEditing

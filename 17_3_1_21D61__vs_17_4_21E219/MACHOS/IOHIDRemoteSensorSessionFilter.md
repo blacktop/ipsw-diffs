@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/RemoteHID.framework/RemoteHID
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF505446-A886-33A0-81AC-4B0C6B29E88D
++  UUID: F2C553B0-1F4A-39F3-9F22-2C4916E14A33
    Functions: 14
    Symbols:   25
--  CStrings:  84
-+  CStrings:  85
+-  CStrings:  87
++  CStrings:  88
  
 CStrings:
 + "T@\"NSString\",?,R,C"

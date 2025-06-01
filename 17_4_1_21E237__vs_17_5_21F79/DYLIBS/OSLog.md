@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1153FC30-B2DB-38EC-9779-3AEC4CA004AF
++  UUID: A4C4EE95-0C85-31D5-885C-D23176BD793B
+   Functions: 233
+   Symbols:   889
+   CStrings:  418
+
 ```

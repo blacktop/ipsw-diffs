@@ -48,9 +48,8 @@
    __AUTH_CONST.__objc_const: 0x10d8
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x14f88
-+  __AUTH_CONST.__const: 0x14f90
-   __AUTH_CONST.__auth_ptr: 0xad0
 -  __AUTH_CONST.__auth_got: 0x3ea0
++  __AUTH_CONST.__const: 0x14f90
 +  __AUTH_CONST.__auth_got: 0x3ea8
    __AUTH.__objc_data: 0xc0b8
    __AUTH.__data: 0x8920
@@ -80,10 +79,12 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3360C786-DB51-3E1A-A815-2F85D352BCD9
 -  Functions: 16108
++  UUID: 47344422-0620-3629-912F-26F7B3B48B34
 +  Functions: 16110
    Symbols:   656
-   CStrings:  4871
+   CStrings:  4874
  
 CStrings:
 + "__periodPredictionsEnabled"

@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16C2D05C-09EB-3489-9F58-58036EEBF1B9
 -  Functions: 12586
 -  Symbols:   39285
--  CStrings:  14437
+-  CStrings:  20625
++  UUID: 6AD611AB-8EAF-3109-9AD5-BCABB138885F
 +  Functions: 13434
 +  Symbols:   41999
-+  CStrings:  15504
++  CStrings:  21992
  
 Symbols:
 + +[BMAppleIDChildSetup columns]

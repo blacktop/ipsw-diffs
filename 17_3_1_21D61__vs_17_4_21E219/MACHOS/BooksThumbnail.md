@@ -21,4 +21,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libobjc.A.dylib
+   - @rpath/BookCore.framework/BookCore
+   - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: 81D51F73-5F46-3177-A52F-A1A8F47269DE
++  UUID: 0C4679C5-6534-3CC5-86D9-98D3814552AD
+   Functions: 15
+   Symbols:   61
+   CStrings:  52
+
 ```

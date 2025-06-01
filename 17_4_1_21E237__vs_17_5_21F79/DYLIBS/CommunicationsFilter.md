@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x6a3
    __TEXT.__objc_methtype: 0x1b8
 
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9550571C-8277-38AA-B055-6370837EA7AD
++  UUID: 5EDE6B8D-5E33-3064-AB2E-DAD54CB9634A
+   Functions: 81
+   Symbols:   385
+   CStrings:  186
+
 ```

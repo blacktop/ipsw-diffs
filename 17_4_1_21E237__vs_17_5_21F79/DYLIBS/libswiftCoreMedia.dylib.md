@@ -19,8 +19,8 @@
    __TEXT.__objc_methname: 0x2b
    __DATA_CONST.__got: 0x738
 
+   __DATA_CONST.__objc_classrefs: 0x10
    __AUTH_CONST.__const: 0x12f8
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__auth_got: 0xc58
 -  __DATA.__data: 0x14c0
 -  __DATA.__bss: 0x5400
@@ -29,5 +29,14 @@
    __DATA.__common: 0x1
    __DATA_DIRTY.__const: 0x1f48
    __DATA_DIRTY.__data: 0x178
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: FE0A7A0E-5347-31E0-AB1B-006681406B16
++  UUID: 356694B6-79EA-34ED-B19C-26CF15022C1A
+   Functions: 2603
+   Symbols:   6847
+   CStrings:  32
 
 ```

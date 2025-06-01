@@ -50,12 +50,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2052B346-4D29-3C0F-8991-6927AD143096
 -  Functions: 3433
 -  Symbols:   741
--  CStrings:  5866
+-  CStrings:  6823
++  UUID: 1E9AEE3F-B4D2-31B7-9B3F-4D6470115FEA
 +  Functions: 3453
 +  Symbols:   742
-+  CStrings:  5885
++  CStrings:  6841
  
 Symbols:
 + _HKMedicalDownloadableAttachmentMetadataNeedsReIndexingKey

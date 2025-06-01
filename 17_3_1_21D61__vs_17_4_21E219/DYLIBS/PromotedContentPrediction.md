@@ -78,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7AEDFF98-914B-3CDA-B783-681BB76C3172
 -  Functions: 888
 -  Symbols:   701
--  CStrings:  2164
+-  CStrings:  2467
++  UUID: D2978EFD-11D7-3239-BA8B-73A1BFE41559
 +  Functions: 885
 +  Symbols:   698
-+  CStrings:  2150
++  CStrings:  2457
  
 Symbols:
 + _OBJC_CLASS_$_APOdmlBiomeSQLQuery

@@ -41,7 +41,6 @@
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_const: 0x240
    __AUTH_CONST.__const: 0x1358
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x830
 +  __AUTH_CONST.__auth_got: 0x840
    __AUTH.__objc_data: 0x98
@@ -54,11 +53,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 35EB5D58-944D-34EE-9B8A-DBC655130FC4
 -  Functions: 833
++  UUID: 34D7BCFE-EC4B-3FE1-9B87-1008C1E03185
 +  Functions: 836
    Symbols:   826
--  CStrings:  392
-+  CStrings:  409
+-  CStrings:  404
++  CStrings:  421
  
 Symbols:
 + _swift_deletedAsyncMethodErrorTu

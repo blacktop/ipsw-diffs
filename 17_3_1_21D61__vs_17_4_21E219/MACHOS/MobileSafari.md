@@ -47,12 +47,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FAF6BF9-8FAE-375F-BC66-DE58BF431A6F
 -  Functions: 109
 -  Symbols:   165
--  CStrings:  386
+-  CStrings:  462
++  UUID: FE8F1165-5927-30FE-851D-A12ECAF93DAD
 +  Functions: 110
 +  Symbols:   218
-+  CStrings:  436
++  CStrings:  560
  
 Symbols:
 + _SafariStorageSettingsControllerDataSourceClassName

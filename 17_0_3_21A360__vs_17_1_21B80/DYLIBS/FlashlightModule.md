@@ -36,11 +36,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardUI.framework/SpringBoardUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D7BD42FF-7CB2-3B91-BD2F-786F6339B018
 -  Functions: 31
++  UUID: 7786EB13-D968-3593-A41B-FD1ACD2EF021
 +  Functions: 34
    Symbols:   45
--  CStrings:  139
-+  CStrings:  143
+-  CStrings:  142
++  CStrings:  146
  
 CStrings:
 + "_updateControls"

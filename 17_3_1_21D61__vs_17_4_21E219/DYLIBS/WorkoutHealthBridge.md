@@ -36,11 +36,15 @@
    __DATA.__data: 0x240
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F6CF086-2119-35DE-A904-360C704228ED
++  UUID: DE38191E-9B1A-3B44-9214-9BE77604D305
    Functions: 218
    Symbols:   792
--  CStrings:  382
-+  CStrings:  383
+-  CStrings:  440
++  CStrings:  441
  
 CStrings:
 + "T@\"NSString\",?,R,C"

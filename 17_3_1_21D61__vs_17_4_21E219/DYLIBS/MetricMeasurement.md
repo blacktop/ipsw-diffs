@@ -32,8 +32,7 @@
    __AUTH_CONST.__cfstring: 0x2220
    __AUTH_CONST.__objc_const: 0x1430
    __AUTH_CONST.__const: 0xe0
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__auth_got: 0x450
    __AUTH.__objc_data: 0xd70
 -  __DATA.__objc_protorefs: 0x8
@@ -43,11 +42,15 @@
    __DATA.__data: 0x6c0
    __DATA.__bss: 0x2c8
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpmsample.dylib
    - /usr/lib/libsysmon.dylib
+-  UUID: 8C9D42E2-810E-3200-B2F7-C1B682E782C0
++  UUID: F1032321-FB7A-3113-8687-B31ED0C4E55A
    Functions: 718
    Symbols:   2811
--  CStrings:  1434
-+  CStrings:  1435
+-  CStrings:  1707
++  CStrings:  1708
  
 CStrings:
 + "T@\"NSString\",?,R,C"

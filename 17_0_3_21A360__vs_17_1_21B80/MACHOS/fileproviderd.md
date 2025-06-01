@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5A7AC3FF-68C4-3BDE-BA5B-F3CF3D927B6C
 -  Functions: 27047
 -  Symbols:   1984
--  CStrings:  5277
+-  CStrings:  5337
++  UUID: 3D62D877-4AD8-3A2B-B5BA-128FB755A7E5
 +  Functions: 27201
 +  Symbols:   1988
-+  CStrings:  5347
++  CStrings:  5412
  
 Symbols:
 + _$s10Foundation10CocoaErrorV20xpcConnectionInvalidAC4CodeVvgZ

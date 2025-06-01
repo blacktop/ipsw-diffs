@@ -28,7 +28,6 @@
    __AUTH_CONST.__const: 0x16b0
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__objc_const: 0x240
-
    __AUTH_CONST.__auth_got: 0xbc8
    __AUTH.__objc_data: 0x140
    __AUTH.__data: 0x28
@@ -38,11 +37,15 @@
    __DATA.__data: 0xb00
    __DATA.__bss: 0xc0
 
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5498C176-12E7-31DF-919A-CAFCEBCA2A15
++  UUID: A2001D07-B2DE-3FE5-8F90-AF2CD9F9468B
    Functions: 3034
    Symbols:   6781
--  CStrings:  3483
-+  CStrings:  3484
+-  CStrings:  3485
++  CStrings:  3486
  
 Symbols:
 + __ZNSt3__110unique_ptrI10buf_mem_stN4bssl8internal7DeleterEE5resetB8ue170006EPS1_

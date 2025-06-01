@@ -20,9 +20,9 @@
    __TEXT.__objc_methname: 0x18
    __TEXT.__objc_stubs: 0x40
 
+   __DATA_CONST.__objc_selrefs: 0x10
    __AUTH_CONST.__cfstring: 0xc40
    __AUTH_CONST.__const: 0x990
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x9e8
 +  __AUTH_CONST.__auth_got: 0x9e0
    __DATA.__data: 0x468
@@ -32,11 +32,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 62B9C864-91B0-3670-A8FE-325DB4DD1555
 -  Functions: 653
 -  Symbols:   2050
++  UUID: C8204808-BD97-33EE-8FA3-407BE23C20A1
 +  Functions: 651
 +  Symbols:   2041
-   CStrings:  841
+   CStrings:  939
  
 Symbols:
 + GCC_except_table23

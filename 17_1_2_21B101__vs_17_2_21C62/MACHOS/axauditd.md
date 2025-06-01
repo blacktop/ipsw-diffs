@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F5733B9-7EFE-35F7-B860-736499DCCCEC
 -  Functions: 257
 -  Symbols:   266
--  CStrings:  638
+-  CStrings:  718
++  UUID: 9B649BEC-29F7-363E-9B52-CEBF4762D3B4
 +  Functions: 284
 +  Symbols:   277
-+  CStrings:  691
++  CStrings:  771
  
 Symbols:
 + _AXAuditCurrentApplications

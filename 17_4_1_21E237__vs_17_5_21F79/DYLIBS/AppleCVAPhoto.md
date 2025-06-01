@@ -32,6 +32,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BA330613-013D-3988-8B4F-0CB74D07A7B9
++  UUID: B23EF7A2-617A-3769-B40B-048018CB820E
+   Functions: 894
+   Symbols:   326
+   CStrings:  3519
 CStrings:
 + "Classic focus dist from black rect p%d%% %f"
 - "Classic focus dist from black rect p%d%%"

@@ -41,11 +41,10 @@
 -  __AUTH_CONST.__const: 0x180
 -  __AUTH_CONST.__cfstring: 0x580
 -  __AUTH_CONST.__objc_const: 0x690
-+  __AUTH_CONST.__cfstring: 0x5c0
-+  __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x358
 -  __DATA.__objc_ivar: 0xc8
++  __AUTH_CONST.__cfstring: 0x5c0
++  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0x20
 +  __AUTH_CONST.__auth_got: 0x368
 +  __DATA.__objc_ivar: 0xcc
@@ -63,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0655656F-EF40-3E5F-AC2A-F24C8220C268
 -  Functions: 330
 -  Symbols:   1213
--  CStrings:  537
+-  CStrings:  581
++  UUID: 52F31410-D61B-3808-8234-7C1C05945168
 +  Functions: 335
 +  Symbols:   1226
-+  CStrings:  543
++  CStrings:  589
  
 Symbols:
 + +[NFReachability _currentNetworkStatus]

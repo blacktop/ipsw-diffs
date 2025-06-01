@@ -54,7 +54,6 @@
 +  __DATA_CONST.__objc_const: 0xa1d0
 +  __DATA_CONST.__objc_selrefs: 0x23f8
    __AUTH_CONST.__const: 0x2598
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__objc_const: 0x3b88
 -  __AUTH_CONST.__cfstring: 0x4da0
 -  __AUTH_CONST.__objc_intobj: 0x18
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B63F7C3-13F5-32AD-B574-F3549B4F4AAF
 -  Functions: 4658
 -  Symbols:   9048
--  CStrings:  3489
+-  CStrings:  4110
++  UUID: 564869E1-65FF-333D-8104-5F36E9E192D0
 +  Functions: 4642
 +  Symbols:   9001
-+  CStrings:  3470
++  CStrings:  4088
  
 Symbols:
 + -[LNAvailabilityChecker availableForCurrentPlatformVersion]

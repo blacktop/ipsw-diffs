@@ -62,12 +62,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 06F37318-8064-353B-AC98-CAF3AE1DF5CC
 -  Functions: 1153
 -  Symbols:   4553
--  CStrings:  2712
+-  CStrings:  3571
++  UUID: 72DB1135-DA6F-3492-AC5A-CF6D677E6D20
 +  Functions: 1147
 +  Symbols:   4523
-+  CStrings:  2709
++  CStrings:  3568
  
 Symbols:
 + _ACAccountTypeIdentifierGmail

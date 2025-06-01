@@ -30,13 +30,16 @@
    __DATA.__objc_catlist: 0x10
    __DATA.__objc_protolist: 0x48
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 719AEE30-37C6-31B8-A04B-BFEEA577D120
++  UUID: 6BDE5F71-0D2E-3134-9E9B-E2D8C641F7EB
    Functions: 1261
 -  Symbols:   7627
--  CStrings:  2206
+-  CStrings:  2580
 +  Symbols:   7663
-+  CStrings:  2217
++  CStrings:  2601
  
 Symbols:
 + _ACCUserDefaultsKey_ForceAccInfoUpdateRelaySupport

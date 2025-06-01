@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E988DAD-5DAA-319D-A040-45BE45FF0E36
 -  Functions: 650
 -  Symbols:   310
--  CStrings:  1405
+-  CStrings:  1500
++  UUID: ADDCB78C-27A7-3743-9F49-0C29B126A3F4
 +  Functions: 647
 +  Symbols:   309
-+  CStrings:  1402
++  CStrings:  1497
  
 Symbols:
 - _RCSSavedRecordingServiceKeyShouldShowEncryptedMessaging

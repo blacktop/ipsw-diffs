@@ -49,7 +49,6 @@
    __AUTH_CONST.__const: 0x80
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xab8
 -  __DATA.__got_weak: 0x20
 -  __DATA.__objc_protorefs: 0x8
@@ -74,11 +73,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 72A9CDCC-7260-3312-856D-E452DB375279
 -  Functions: 1069
++  UUID: 6CC0021F-A948-30D5-BB2E-1CE8DDA92395
 +  Functions: 1073
    Symbols:   3675
--  CStrings:  1633
-+  CStrings:  1646
+-  CStrings:  1898
++  CStrings:  1913
  
 Symbols:
 + +[ADFigCameraCalibrationSource getAngularVelocityFromMetadataDictionary:deviceClock:]

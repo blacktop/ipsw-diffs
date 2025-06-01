@@ -14,6 +14,15 @@
    __TEXT.__oslogstring: 0x819
    __TEXT.__unwind_info: 0x744
    __DATA_CONST.__got: 0x28
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 67E9C04A-7FFF-3C66-925B-6ABFC468C159
++  UUID: 3DD0E729-F6AD-3459-A00B-353F2A59492D
+   Functions: 776
+   Symbols:   2450
+   CStrings:  523
 CStrings:
 + "247"
 + "@(#)VERSION:Darwin Image4 Validator Version 5.0.0: Wed Oct  4 22:10:49 PDT 2023; root:AppleImage4_libraries-247~881/libimg4/RELEASE_ARM64E"

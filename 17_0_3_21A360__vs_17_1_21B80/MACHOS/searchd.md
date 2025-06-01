@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DB18D3D-B50D-32BC-9DB3-9C8E9EE373B4
 -  Functions: 1502
 -  Symbols:   933
--  CStrings:  3831
+-  CStrings:  4491
++  UUID: B36C242B-4305-3640-AEE3-EB0D761C6792
 +  Functions: 1514
 +  Symbols:   936
-+  CStrings:  3856
++  CStrings:  4522
  
 Symbols:
 + _MDItemHasTopHitAppShortcuts

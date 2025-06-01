@@ -21,8 +21,8 @@
    __DATA_CONST.__const: 0x658
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x3c0
 -  __DATA.__data: 0x158
 +  __DATA.__data: 0x122
@@ -33,6 +33,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
    - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: CC91EFD2-35A1-3F25-8801-F25A1D398E51
++  UUID: A3D021BE-7F06-37A6-AB47-40AE529B478E
+   Functions: 726
+   Symbols:   1768
+   CStrings:  94
 Symbols:
 + __ZNKSt3__16vectorI10DecoderJobNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
 + __ZNKSt3__16vectorI13PRRDecoderJobNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev

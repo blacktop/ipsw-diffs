@@ -74,12 +74,14 @@
    - @rpath/IMDebug.framework/IMDebug
    - @rpath/NowPlayingUI.framework/NowPlayingUI
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 6C2E1172-C93D-35BE-8666-220CDD66E4DC
 -  Functions: 20349
 -  Symbols:   4001
--  CStrings:  15470
+-  CStrings:  17087
++  UUID: 8996D988-843B-3613-8E8B-C125181624E7
 +  Functions: 20354
 +  Symbols:   4004
-+  CStrings:  15487
++  CStrings:  17115
  
 Symbols:
 + _PFAnalyticsEventNameMigration

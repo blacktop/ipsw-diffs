@@ -49,11 +49,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 43788942-88DB-3AF3-971D-8CFB5E0183AF
 -  Functions: 1673
++  UUID: D9AA94CF-85C9-39B2-AD68-95E78BCEB4DA
 +  Functions: 1677
    Symbols:   489
--  CStrings:  5064
-+  CStrings:  5068
+-  CStrings:  7113
++  CStrings:  7120
  
 CStrings:
 + "/private/var/db/accessoryupdater/uarp/pcapfiles"

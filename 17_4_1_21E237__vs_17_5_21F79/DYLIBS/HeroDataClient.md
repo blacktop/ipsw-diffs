@@ -27,5 +27,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ClipServices.framework/ClipServices
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3CC77549-6D36-382B-B7EA-9A757663AE68
++  UUID: 2A0F1D42-B766-30D7-937B-17DFC47523DD
+   Functions: 156
+   Symbols:   595
+   CStrings:  312
 
 ```

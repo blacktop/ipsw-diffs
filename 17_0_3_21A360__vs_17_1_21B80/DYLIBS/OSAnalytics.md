@@ -26,12 +26,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 122468E0-A9D4-3085-A0E7-E8D84958F663
 -  Functions: 827
 -  Symbols:   3202
--  CStrings:  2554
+-  CStrings:  3602
++  UUID: FBE17748-AA98-36D2-A13C-F42BDD4AE0CF
 +  Functions: 830
 +  Symbols:   3209
-+  CStrings:  2555
++  CStrings:  3603
  
 Symbols:
 + -[OSASystemConfiguration getPrefsKey:forDomain:withOptions:].cold.5

@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 66A297B0-5BB8-3908-B2C4-3C476C37A38E
 -  Functions: 518
 -  Symbols:   535
++  UUID: 79E87799-5A57-3723-B32C-CF3D3A200ED3
 +  Functions: 519
 +  Symbols:   536
-   CStrings:  121
+   CStrings:  125
  
 Symbols:
 + _objc_retain_x27

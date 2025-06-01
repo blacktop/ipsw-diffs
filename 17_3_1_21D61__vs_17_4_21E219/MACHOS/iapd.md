@@ -43,11 +43,13 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: FA1835D7-8BD4-3DFD-909B-C08038EAB439
 -  Functions: 5023
++  UUID: 5FAE733F-29E8-338C-BB68-A034172157BD
 +  Functions: 5046
    Symbols:   885
--  CStrings:  3242
-+  CStrings:  3243
+-  CStrings:  4186
++  CStrings:  4187
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_

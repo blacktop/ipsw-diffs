@@ -32,8 +32,8 @@
    __AUTH_CONST.__cfstring: 0x30c0
    __AUTH_CONST.__objc_intobj: 0x738
 
+   __AUTH_CONST.__objc_const: 0x1368
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x230
 -  __DATA.__objc_classrefs: 0x1d8
 -  __DATA.__objc_superrefs: 0x1a8
@@ -41,11 +41,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x12e9
 
+   - /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C519E34D-5319-34D4-ABD4-765E80B07761
++  UUID: 6EE2BD72-3B46-30A5-B811-B83B81804E3B
    Functions: 1160
    Symbols:   4005
--  CStrings:  1262
-+  CStrings:  1263
+-  CStrings:  1652
++  CStrings:  1653
  
 Symbols:
 + _PLSubmissionAnalyticsStateSuccess_block_invoke.classDebugEnabled.104

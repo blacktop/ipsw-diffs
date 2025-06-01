@@ -18,4 +18,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 45F88600-90BC-3415-A9AC-0DEC78EF7C06
++  UUID: 296FD84C-7BA9-33DC-83A1-902C3FF6450B
+   Functions: 67
+   Symbols:   463
+   CStrings:  267
+
 ```

@@ -48,7 +48,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x11518
    __DATA_CONST.__objc_arraydata: 0x340
    __AUTH_CONST.__const: 0xca90
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_const: 0x142f0
 -  __AUTH_CONST.__cfstring: 0x255a0
 +  __AUTH_CONST.__cfstring: 0x255e0
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F0A72700-9D93-3CE4-BDFE-9CEBD0A76297
 -  Functions: 18180
 -  Symbols:   54670
--  CStrings:  22525
+-  CStrings:  27306
++  UUID: 449C1DD4-C971-3B98-B2B5-1D81B4665E58
 +  Functions: 18186
 +  Symbols:   54686
-+  CStrings:  22533
++  CStrings:  27316
  
 Symbols:
 + +[HFHomeKitDispatcher setOverrideSynchronizesHomeDataModel:]

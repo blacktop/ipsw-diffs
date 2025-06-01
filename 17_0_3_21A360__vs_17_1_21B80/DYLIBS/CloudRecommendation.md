@@ -41,12 +41,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D60EDC0C-FF85-3835-B2AA-76B3ABE498BC
 -  Functions: 698
 -  Symbols:   1750
--  CStrings:  699
+-  CStrings:  810
++  UUID: 42339E68-8FA4-3A69-8E08-A07466E8A7D5
 +  Functions: 708
 +  Symbols:   1772
-+  CStrings:  711
++  CStrings:  822
  
 Symbols:
 + -[CERecommendationStringTemplate actionTitleTemplateForKey:]

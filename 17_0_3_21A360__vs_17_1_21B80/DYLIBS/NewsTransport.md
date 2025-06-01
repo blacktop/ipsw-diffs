@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17BCD7F0-27EC-3F97-B141-2423553A7C93
 -  Functions: 17220
 -  Symbols:   41260
--  CStrings:  15655
+-  CStrings:  18259
++  UUID: 2DC590BF-48F1-3817-A136-E0D3B6D5A466
 +  Functions: 17306
 +  Symbols:   41464
-+  CStrings:  15749
++  CStrings:  18366
  
 Symbols:
 + -[NTPBCoefficients articleEmbeddingScoreCoefficient]

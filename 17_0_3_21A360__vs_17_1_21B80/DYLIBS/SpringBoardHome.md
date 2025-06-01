@@ -70,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AE0A6FC-A688-34B1-8759-19419CA759C2
 -  Functions: 15834
 -  Symbols:   52847
--  CStrings:  22290
+-  CStrings:  24746
++  UUID: 0B6AAFD4-0394-37B0-BC66-49B28CD88BCF
 +  Functions: 15875
 +  Symbols:   52968
-+  CStrings:  22339
++  CStrings:  24797
  
 Symbols:
 + -[SBFolderController setWasFolderCancelable:]

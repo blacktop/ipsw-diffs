@@ -38,4 +38,13 @@
    __DATA_DIRTY.__bss: 0x40
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E5854A4B-1926-33C4-8957-561646BFD6EA
++  UUID: 4F5AC40F-2F32-32BF-AEC8-FE594FBCB65C
+   Functions: 157
+   Symbols:   634
+   CStrings:  398
+
 ```

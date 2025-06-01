@@ -41,8 +41,11 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 959C5CA4-A93E-333F-8094-3B12D798EA0F
++  UUID: 6BC1EE92-0970-3F79-96F5-CF7C41768D28
    Functions: 30
 -  Symbols:   49
 -  CStrings:  5

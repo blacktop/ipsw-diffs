@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DDBE500E-9B92-3867-AF9D-0FDF259C2CE8
++  UUID: 6D1ABEC0-B50F-31F2-8C91-20D9A05FC987
+   Functions: 41
+   Symbols:   74
+   CStrings:  203
+
 ```

@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7421A192-00C2-3355-8483-C585AE68496A
 -  Functions: 27
 -  Symbols:   58
--  CStrings:  85
+-  CStrings:  116
++  UUID: FDD4889B-882A-3E19-9846-93AD5AECB561
 +  Functions: 37
 +  Symbols:   82
-+  CStrings:  137
++  CStrings:  178
  
 Symbols:
 + _OBJC_CLASS_$_AMAlwaysOnDisplaySettingsViewController

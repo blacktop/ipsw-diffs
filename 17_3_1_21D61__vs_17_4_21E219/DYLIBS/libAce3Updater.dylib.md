@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D54B818C-FF61-3729-A257-9694C1F9BF7B
 -  Functions: 777
 -  Symbols:   1395
--  CStrings:  701
+-  CStrings:  812
++  UUID: E4A5515E-3634-3C63-9822-FAC6919F28AB
 +  Functions: 858
 +  Symbols:   1495
-+  CStrings:  709
++  CStrings:  821
  
 Symbols:
 + _CoreUARPRestoreEndpointPropertyECIDData

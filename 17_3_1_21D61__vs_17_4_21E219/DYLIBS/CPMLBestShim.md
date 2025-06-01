@@ -18,4 +18,13 @@
    __DATA.__common: 0x10
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/CorePrediction.framework/CorePrediction
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6F863B6E-045B-35C3-BF1C-C72D9E5D1FB0
++  UUID: 0E4B2C91-4723-330D-9306-A1F7F861FDC1
+   Functions: 13
+   Symbols:   116
+   CStrings:  93
+
 ```

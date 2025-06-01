@@ -56,12 +56,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 499ECF83-36A2-3476-9E98-55CDCBE2B064
 -  Functions: 10056
 -  Symbols:   56376
--  CStrings:  7825
+-  CStrings:  8639
++  UUID: F9727651-C0B7-3212-9BA9-9441066E5806
 +  Functions: 10057
 +  Symbols:   56392
-+  CStrings:  7835
++  CStrings:  8653
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/lib/libCoreTrust.a(CTCompress.o)

@@ -35,13 +35,16 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14211BF6-043B-31CC-8B4D-8D7AB219C2A8
++  UUID: 215FE753-EF53-309D-906F-D7DB13FBEE5A
    Functions: 62
 -  Symbols:   96
--  CStrings:  228
+-  CStrings:  233
 +  Symbols:   97
-+  CStrings:  229
++  CStrings:  234
  
 Symbols:
 + _OBJC_CLASS_$_FCNetworkReachability

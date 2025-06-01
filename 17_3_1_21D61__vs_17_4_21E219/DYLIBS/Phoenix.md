@@ -39,11 +39,15 @@
    __DATA.__data: 0x510
    __DATA.__bss: 0x80
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 887135F5-B3BE-3480-A4C3-D7DE792C3AF7
++  UUID: A03AE32D-EF68-3580-99F9-ED51D113F321
    Functions: 529
    Symbols:   2223
--  CStrings:  1417
-+  CStrings:  1418
+-  CStrings:  1603
++  CStrings:  1604
  
 Symbols:
 + ___56-[AXPhoenixGestureDetector modelDidUpdate:assetVersion:]_block_invoke.112

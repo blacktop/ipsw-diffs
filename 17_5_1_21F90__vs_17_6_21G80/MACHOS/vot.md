@@ -45,10 +45,12 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D1CDEFB-0949-35F4-B04D-3730349F0371
 -  Functions: 5717
++  UUID: 131B0BF7-1806-3AFD-97E3-B4D4DA7BCAF9
 +  Functions: 5718
    Symbols:   1392
-   CStrings:  10362
+   CStrings:  11966
  
 CStrings:
 + "updateCustomPublicRotors"

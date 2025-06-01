@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7421E670-4C0F-3FB4-8856-989A6F905BDB
 -  Functions: 86417
 -  Symbols:   3160
--  CStrings:  76744
+-  CStrings:  83614
++  UUID: 707715DA-1CB7-398E-BF77-44972B6E21E6
 +  Functions: 86459
 +  Symbols:   3159
-+  CStrings:  76858
++  CStrings:  83738
  
 Symbols:
 - _OBJC_CLASS_$_HKAnchoredObjectQuery

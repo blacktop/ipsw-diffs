@@ -49,9 +49,8 @@
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__objc_const: 0x820
 -  __AUTH_CONST.__const: 0xd610
-+  __AUTH_CONST.__const: 0xd658
-   __AUTH_CONST.__auth_ptr: 0x4b8
 -  __AUTH_CONST.__auth_got: 0x2f40
++  __AUTH_CONST.__const: 0xd658
 +  __AUTH_CONST.__auth_got: 0x2f58
    __AUTH.__objc_data: 0x5168
 -  __AUTH.__data: 0x39f0
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B6F4BE7-A9E2-3641-9BE1-D4F02C129F55
 -  Functions: 8871
 -  Symbols:   3065
--  CStrings:  2551
+-  CStrings:  2557
++  UUID: F8F0704F-5426-357C-BEF0-9F395FE3B7C8
 +  Functions: 8881
 +  Symbols:   3070
-+  CStrings:  2552
++  CStrings:  2558
  
 Symbols:
 + _$s16HealthExperience22MutableArrayDataSourceCAA09SectionedeF15EventPublishingAAWP

@@ -62,7 +62,6 @@
 -  __AUTH_CONST.__objc_const: 0x2d0
 -  __AUTH_CONST.__objc_intobj: 0x30
 -  __AUTH_CONST.__const: 0x52f0
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x690
 -  __AUTH.__objc_data: 0x230
 -  __DATA.__objc_protorefs: 0x40
@@ -89,7 +88,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x90
 +  __AUTH_CONST.__objc_doubleobj: 0xb0
 +  __AUTH_CONST.__objc_arrayobj: 0x30
-+  __AUTH_CONST.__auth_ptr: 0x40
 +  __AUTH_CONST.__auth_got: 0xb00
 +  __AUTH.__objc_data: 0x320
 +  __AUTH.__data: 0xb18
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2E289D4F-BE48-35A1-A5EA-439DF36CC982
 -  Functions: 987
 -  Symbols:   500
--  CStrings:  2223
+-  CStrings:  2532
++  UUID: B29072A9-16DF-32C9-A2A5-37E6A3484A38
 +  Functions: 1686
 +  Symbols:   660
-+  CStrings:  2838
++  CStrings:  3200
  
 Symbols:
 + _APKeychainServicesErrorDomain

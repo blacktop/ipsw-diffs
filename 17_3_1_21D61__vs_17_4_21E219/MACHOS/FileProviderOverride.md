@@ -32,11 +32,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x68
 
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F164EB42-4F0B-3669-9969-56F060167650
++  UUID: EDE3BFAE-0688-3413-9557-29535CCC45E5
    Functions: 68
    Symbols:   107
--  CStrings:  185
-+  CStrings:  186
+-  CStrings:  196
++  CStrings:  197
  
 CStrings:
 + "T@\"NSString\",?,R,C"

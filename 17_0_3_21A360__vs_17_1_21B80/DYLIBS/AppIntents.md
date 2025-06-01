@@ -61,11 +61,9 @@
 -  __DATA_CONST.__objc_const: 0x2d20
 -  __DATA_CONST.__objc_selrefs: 0x14b8
 -  __AUTH_CONST.__const: 0x111e8
--  __AUTH_CONST.__auth_ptr: 0x488
 +  __DATA_CONST.__objc_const: 0x2d38
 +  __DATA_CONST.__objc_selrefs: 0x14f0
 +  __AUTH_CONST.__const: 0x122c0
-+  __AUTH_CONST.__auth_ptr: 0x490
    __AUTH_CONST.__objc_const: 0x310
    __AUTH_CONST.__cfstring: 0x120
    __AUTH_CONST.__auth_got: 0x11f0
@@ -98,12 +96,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE6431C2-D15E-31FD-A371-3B531B79D984
 -  Functions: 17965
 -  Symbols:   11089
--  CStrings:  1428
+-  CStrings:  1437
++  UUID: 076F5661-CF18-3F0A-AAE6-AA1BE6B9C0C2
 +  Functions: 19339
 +  Symbols:   11498
-+  CStrings:  1472
++  CStrings:  1481
  
 Symbols:
 + _LNSystemEntityProtocolIdentifierIntentMessage

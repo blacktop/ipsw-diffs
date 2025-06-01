@@ -38,11 +38,15 @@
    __DATA.__objc_classrefs: 0xe8
    __DATA.__objc_superrefs: 0x18
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 16D80244-9A79-336B-911B-35410E169045
++  UUID: 74D0B5E1-D20E-3CCC-8460-06AA98BEF431
    Functions: 104
    Symbols:   131
--  CStrings:  549
-+  CStrings:  551
+-  CStrings:  666
++  CStrings:  669
  
 CStrings:
 + "timeSinceAudioStart"

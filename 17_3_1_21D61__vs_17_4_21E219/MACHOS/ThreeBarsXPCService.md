@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/WiFiPolicy.framework/WiFiPolicy
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E4519B92-D389-32EF-82E1-64B79F8A1E5C
++  UUID: 1F844069-8162-3248-8834-9AAD36E95049
    Functions: 21
    Symbols:   57
--  CStrings:  138
-+  CStrings:  139
+-  CStrings:  153
++  CStrings:  154
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -26,11 +26,15 @@
    __DATA_CONST.__got: 0x1ec8
    __DATA_CONST.__const: 0x6630
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A5920AF-E765-36AA-B885-DA076E5EE0D7
++  UUID: 068383EE-75C7-350E-8571-0AA37A078CA1
    Functions: 4727
    Symbols:   17175
--  CStrings:  7670
-+  CStrings:  7669
+-  CStrings:  9656
++  CStrings:  9655
  
 Symbols:
 + -[AVCaptureConnection _setVideoRotationAngle:]

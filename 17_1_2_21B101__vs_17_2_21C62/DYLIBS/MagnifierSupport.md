@@ -29,4 +29,13 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 365DF491-394A-311C-B6C5-0F190821C69A
++  UUID: 76C6FB25-88D4-3B58-85DB-99E06B48B38F
+   Functions: 8803
+   Symbols:   4978
+   CStrings:  4133
+
 ```

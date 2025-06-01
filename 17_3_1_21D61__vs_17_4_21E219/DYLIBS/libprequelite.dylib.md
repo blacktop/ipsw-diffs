@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0301D0C7-4EBA-3FE9-AD8F-2A861BDA2D4A
 -  Functions: 305
 -  Symbols:   1258
--  CStrings:  756
+-  CStrings:  854
++  UUID: DD7A51E9-6984-3FDD-844F-AF408BF4942C
 +  Functions: 313
 +  Symbols:   1296
-+  CStrings:  780
++  CStrings:  878
  
 Symbols:
 + -[PQLConnection _executeStmt:mustSucceed:preparationTime:]

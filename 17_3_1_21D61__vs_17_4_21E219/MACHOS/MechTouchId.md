@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x1e0
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4CD0270F-619E-3A77-9E37-B4A2C046E857
++  UUID: 6DD523C4-F0F0-3156-8FC3-A1852557E3B8
    Functions: 45
    Symbols:   63
--  CStrings:  234
-+  CStrings:  235
+-  CStrings:  247
++  CStrings:  248
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -19,4 +19,13 @@
    __TEXT.__oslogstring: 0x926
    __TEXT.__objc_classname: 0xe4
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2B1CA408-B380-308D-9837-AFA4789B01DA
++  UUID: 188DF413-C98B-31DB-ABF7-C820DAA02D66
+   Functions: 1468
+   Symbols:   510
+   CStrings:  649
+
 ```

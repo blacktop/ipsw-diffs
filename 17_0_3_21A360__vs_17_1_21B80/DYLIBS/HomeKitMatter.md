@@ -78,12 +78,14 @@
    - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F7D5B84-ACEF-3C25-ADCC-CA108EF6F1A3
 -  Functions: 2417
 -  Symbols:   8634
--  CStrings:  5172
+-  CStrings:  5684
++  UUID: 12F5E985-4507-38C6-B6B6-FECD8C7E529B
 +  Functions: 2641
 +  Symbols:   9302
-+  CStrings:  5625
++  CStrings:  6174
  
 Symbols:
 + +[HMMTRAttributeTimer logCategory]
@@ -1748,6 +1750,7 @@ CStrings:
 + "%{public}@moveToColorTemperatureWithParams with colorTemperature %@, transitionTime: %@, optionsMask %@"
 + "%{public}@vendorID = %@, productID = %@, category = %@, configNumber = %@, nodeID = %@"
 + "(\x13\x11\x18\x1c"
++ "."
 + "000000C2-0000-1000-8000-0026BB765291"
 + "1&8+\x1f\n\x15"
 + "3#"

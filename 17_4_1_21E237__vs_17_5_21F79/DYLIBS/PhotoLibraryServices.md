@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xd0
    __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1f98
 -  __AUTH.__objc_data: 0xe0b0
 -  __DATA.__objc_ivar: 0x346c
@@ -88,12 +87,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B02E7CFB-9736-3508-9FA6-82AC17574233
 -  Functions: 22466
 -  Symbols:   76679
--  CStrings:  42127
+-  CStrings:  50916
++  UUID: 5D3E3222-57AA-3B00-A1D6-D2E07FDD30E9
 +  Functions: 22532
 +  Symbols:   76884
-+  CStrings:  42170
++  CStrings:  50961
  
 Symbols:
 + +[PLAmbientSuggestionComputeJournalEntryPayload isValidForPersistenceWithObjectDictionary:additionalEntityName:]

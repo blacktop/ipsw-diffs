@@ -35,11 +35,15 @@
    __DATA.__data: 0x330
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/PhotoFoundation.framework/PhotoFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 33970959-072E-35C3-90D1-B71E32338CB8
++  UUID: 4B83B822-1451-3692-B6D0-5A0078A497E4
    Functions: 494
    Symbols:   2080
--  CStrings:  1198
-+  CStrings:  1199
+-  CStrings:  1265
++  CStrings:  1266
  
 Symbols:
 + _NUAssertLogger.317

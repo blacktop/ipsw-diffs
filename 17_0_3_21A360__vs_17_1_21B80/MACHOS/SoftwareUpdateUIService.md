@@ -34,6 +34,15 @@
    __DATA.__objc_classrefs: 0x120
    __DATA.__objc_superrefs: 0x40
    __DATA.__objc_ivar: 0x98
+
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 00424840-002D-3355-AED9-81A6D94F4E61
++  UUID: 0E99FBB5-F18B-3D05-A29B-B89DC680838D
+   Functions: 174
+   Symbols:   88
+   CStrings:  827
 CStrings:
 + "@\"SUAutoInstallForecast\""
 + "_forecast"

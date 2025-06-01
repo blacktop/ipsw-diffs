@@ -20,7 +20,6 @@
    __AUTH_CONST.__cfstring: 0x160
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x2c0
 -  __DATA.__objc_classrefs: 0x98
 -  __DATA.__objc_superrefs: 0x20
@@ -37,5 +36,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: B5080AA5-F75A-3750-A7D3-A5B2A9BC6EAE
++  UUID: F911F569-4FD0-3BB6-8B6C-F82CA669AF1D
+   Functions: 159
+   Symbols:   612
+   CStrings:  246
 
 ```

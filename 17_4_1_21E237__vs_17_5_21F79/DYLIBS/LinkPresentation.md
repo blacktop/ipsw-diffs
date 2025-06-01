@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3A59AC7-2326-3F6D-AA99-FFB9A68A8DA8
 -  Functions: 5319
 -  Symbols:   20821
--  CStrings:  7849
+-  CStrings:  9512
++  UUID: 73E510A9-65B6-34AF-8521-FCD83AA50E58
 +  Functions: 5317
 +  Symbols:   20818
-+  CStrings:  7850
++  CStrings:  9514
  
 Symbols:
 + -[LPAudio data].cold.1

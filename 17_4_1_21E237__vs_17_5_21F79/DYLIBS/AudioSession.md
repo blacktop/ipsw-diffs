@@ -74,12 +74,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D80DF1FC-C9CC-35A9-9EB9-AE59A24B2EFC
 -  Functions: 1211
 -  Symbols:   4249
--  CStrings:  1235
+-  CStrings:  1459
++  UUID: 286892C3-03C1-3C9B-857E-79C7DA884AE0
 +  Functions: 1225
 +  Symbols:   4303
-+  CStrings:  1244
++  CStrings:  1468
  
 Symbols:
 + -[AVAudioSecureSession .cxx_destruct]

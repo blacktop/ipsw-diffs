@@ -45,17 +45,19 @@
 +  __DATA_CONST.__objc_selrefs: 0x4790
    __DATA_CONST.__objc_arraydata: 0x100
    __AUTH_CONST.__const: 0xd18
-   __AUTH_CONST.__auth_ptr: 0x58
+   __AUTH_CONST.__objc_const: 0x48
 
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 48AEED53-C3AF-374E-87E5-731B97220148
 -  Functions: 6026
 -  Symbols:   20241
--  CStrings:  11240
+-  CStrings:  13962
++  UUID: C6C596CF-D9A8-3852-8BD3-3C643F5BC4A3
 +  Functions: 6024
 +  Symbols:   20230
-+  CStrings:  11236
++  CStrings:  13958
  
 Symbols:
 + +[NEIKEv2Packet createPacketFromReceivedData:]

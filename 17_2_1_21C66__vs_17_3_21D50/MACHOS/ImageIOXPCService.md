@@ -47,12 +47,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 26399B1B-E4D7-3146-9367-59D031B4DC42
 -  Functions: 16105
 -  Symbols:   10761
--  CStrings:  12562
+-  CStrings:  14092
++  UUID: 31C654ED-EF6C-329E-B888-8DE05FE208EA
 +  Functions: 16106
 +  Symbols:   10768
-+  CStrings:  12570
++  CStrings:  14100
  
 Symbols:
 + _mach_error_string

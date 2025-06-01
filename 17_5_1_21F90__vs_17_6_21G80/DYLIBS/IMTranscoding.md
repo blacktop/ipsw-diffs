@@ -30,10 +30,12 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86D8D055-4C70-3A54-85D1-C95FDB272013
 -  Functions: 51
++  UUID: 462A17B1-5CA2-3DEC-994F-598EA27F1325
 +  Functions: 50
    Symbols:   122
-   CStrings:  198
+   CStrings:  211
  
 
 ```

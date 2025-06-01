@@ -43,7 +43,6 @@
    __AUTH_CONST.__cfstring: 0xa940
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0x20
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x540
 -  __DATA.__objc_protorefs: 0x78
 -  __DATA.__objc_classrefs: 0x688
@@ -56,12 +55,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD4139E0-A1CC-351C-8581-F18546CF6978
 -  Functions: 4805
 -  Symbols:   14999
--  CStrings:  6804
+-  CStrings:  8158
++  UUID: 39B6FECD-0229-321A-B043-687AB783C03D
 +  Functions: 4809
 +  Symbols:   15001
-+  CStrings:  6814
++  CStrings:  8168
  
 Symbols:
 + -[MTLToolsCommandBuffer setResponsibleTaskIDs:count:]

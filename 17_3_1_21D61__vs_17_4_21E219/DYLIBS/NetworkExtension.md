@@ -54,7 +54,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x6c0
 +  __DATA_CONST.__objc_arraydata: 0x118
 +  __AUTH_CONST.__const: 0xdb8
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0x15440
 +  __AUTH_CONST.__cfstring: 0x15660
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: C6C596CF-D9A8-3852-8BD3-3C643F5BC4A3
 -  Functions: 6024
 -  Symbols:   20230
--  CStrings:  11236
+-  CStrings:  13958
++  UUID: 50AC7979-F3CD-39FE-8064-D79FA198E935
 +  Functions: 6022
 +  Symbols:   20270
-+  CStrings:  11266
++  CStrings:  14005
  
 Symbols:
 + +[NEPolicyCondition scopedInterfaceFlags:eflags:xflags:]

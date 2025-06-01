@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C03CABAC-7AA0-31EF-AB4F-FE3A071B092A
++  UUID: 103E7DE6-C7CB-3C00-A9CF-5B0CCC0AC8A3
    Functions: 69
    Symbols:   109
--  CStrings:  312
-+  CStrings:  313
+-  CStrings:  351
++  CStrings:  352
  
 CStrings:
 + "T@\"NSString\",?,R,C"

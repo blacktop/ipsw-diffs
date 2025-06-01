@@ -33,12 +33,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14006917-ADFF-3B69-8305-12E1BC360D1E
 -  Functions: 1610
 -  Symbols:   3688
--  CStrings:  791
+-  CStrings:  797
++  UUID: D4AD9ADB-8334-3918-BEBA-2C0F52FF7AD7
 +  Functions: 1658
 +  Symbols:   3814
-+  CStrings:  966
++  CStrings:  972
  
 Symbols:
 + __ZN3WTF10makeStringIJPKcN4WGSL3AST10IdentifierES2_S5_S2_EEENS_6StringEDpT_

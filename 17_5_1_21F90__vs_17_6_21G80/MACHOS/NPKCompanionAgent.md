@@ -19,6 +19,15 @@
    __TEXT.__oslogstring: 0x8a8a
    __TEXT.__objc_classname: 0x69a
    __TEXT.__objc_methtype: 0x3125
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7202A314-3CB7-3385-B282-24D60CFCD13F
++  UUID: 483F51FF-AFC0-3D80-9E1B-28DF77668846
+   Functions: 1069
+   Symbols:   432
+   CStrings:  2640
 CStrings:
 + "initWithPasses:annotationsByPassUniqueID:accounts:catalog:"
 - "initWithPasses:annotationsByPassUniqueID:catalog:"

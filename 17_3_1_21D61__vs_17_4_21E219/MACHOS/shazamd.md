@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D61F80A-B79C-3C2B-9B2F-D0FC677BC087
 -  Functions: 1501
 -  Symbols:   368
--  CStrings:  3173
+-  CStrings:  3410
++  UUID: 0A366C15-61A5-3CDC-B9EF-94739EC8E9D9
 +  Functions: 1507
 +  Symbols:   371
-+  CStrings:  3188
++  CStrings:  3426
  
 Symbols:
 + _FBSOpenApplicationServiceErrorDomain

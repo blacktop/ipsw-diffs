@@ -27,11 +27,15 @@
    __AUTH_CONST.__const: 0x80
    __AUTH_CONST.__objc_const: 0x120
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D896F971-73DD-3B8B-A54E-E0DECA9FADA2
++  UUID: 46F8FDE8-0D5A-339A-86D7-D25FE0A93438
    Functions: 112
    Symbols:   192
--  CStrings:  504
-+  CStrings:  505
+-  CStrings:  548
++  CStrings:  550
  
 CStrings:
 + "com.apple.HDSViewService"

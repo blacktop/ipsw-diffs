@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4BB2D63-B658-31A3-A733-1EC6F40ED489
++  UUID: 9B58AD6F-EDEC-33A0-ABC4-B74E67206B20
    Functions: 74
    Symbols:   105
--  CStrings:  270
-+  CStrings:  271
+-  CStrings:  289
++  CStrings:  290
  
 CStrings:
 + "T@\"NSString\",?,R,C"

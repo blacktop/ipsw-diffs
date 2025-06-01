@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5F7DEA75-8405-3D3C-8952-FBAF3E102ECE
 -  Functions: 1301
 -  Symbols:   4840
--  CStrings:  2619
+-  CStrings:  3073
++  UUID: 136EA3ED-EE7D-3086-999A-EDDAF202FEB3
 +  Functions: 1302
 +  Symbols:   4848
-+  CStrings:  2630
++  CStrings:  3084
  
 Symbols:
 + -[DSNavigationController rightNavButtonTapped]

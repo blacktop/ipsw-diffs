@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x274
    __TEXT.__const: 0x360
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D784D6FE-0E5C-31EA-AB99-FC12E9A29E54
++  UUID: 0AE41D7C-18BD-3C39-992E-AE25ADA290A8
+   Functions: 210
+   Symbols:   574
+   CStrings:  326
+
 ```

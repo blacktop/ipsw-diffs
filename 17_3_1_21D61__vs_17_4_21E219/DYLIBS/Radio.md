@@ -39,11 +39,15 @@
    __DATA.__data: 0x300
    __DATA.__bss: 0xa8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 87F36034-0424-3304-A1E5-58AD91618AA8
++  UUID: 64F13A21-5D67-3415-AD60-E3995E3B178C
    Functions: 696
    Symbols:   2672
--  CStrings:  1409
-+  CStrings:  1410
+-  CStrings:  1662
++  CStrings:  1663
  
 Symbols:
 + ___46-[RadioModel _defaultRadioModelInitialization]_block_invoke.295

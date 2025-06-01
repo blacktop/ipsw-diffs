@@ -41,11 +41,15 @@
    __DATA_DIRTY.__objc_data: 0x1e0
    __DATA_DIRTY.__bss: 0x40
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32143AB2-6B42-3C30-84EB-CFA8B4B2D9A7
++  UUID: D2071D9F-66A8-3473-B58E-6D9F2B542550
    Functions: 92
    Symbols:   567
--  CStrings:  283
-+  CStrings:  284
+-  CStrings:  338
++  CStrings:  339
  
 Symbols:
 + ___block_literal_global.116

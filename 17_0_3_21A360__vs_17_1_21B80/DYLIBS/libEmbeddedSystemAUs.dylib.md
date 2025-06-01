@@ -25,11 +25,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7E3AAD17-D954-39EE-917D-8D0A6FEADA41
 -  Functions: 3632
 -  Symbols:   8990
++  UUID: 6FE04926-6A37-33C4-A731-AE8BCD05F4E9
 +  Functions: 3629
 +  Symbols:   8982
-   CStrings:  1623
+   CStrings:  2053
  
 Symbols:
 + GCC_except_table1004

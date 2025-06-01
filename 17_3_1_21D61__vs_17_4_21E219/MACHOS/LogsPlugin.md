@@ -32,11 +32,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AirTrafficDevice.framework/AirTrafficDevice
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A5540DB-41EF-307B-BEEC-8BAD50B571CB
++  UUID: A3FA54BC-00B8-3C4D-B13D-0AB7514BFA12
    Functions: 5
    Symbols:   22
--  CStrings:  132
-+  CStrings:  133
+-  CStrings:  148
++  CStrings:  149
  
 CStrings:
 + "T@\"NSString\",?,R,C"

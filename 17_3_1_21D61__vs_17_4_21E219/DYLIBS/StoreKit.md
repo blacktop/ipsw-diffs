@@ -76,8 +76,6 @@
 +  __AUTH_CONST.__cfstring: 0x3780
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x190
-+  __AUTH_CONST.__auth_ptr: 0x198
    __AUTH_CONST.__auth_got: 0x1898
    __AUTH.__objc_data: 0x2488
 -  __AUTH.__data: 0x27c8
@@ -110,12 +108,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FFF11BF0-9DAA-3187-8A3F-EF7C1D0676D9
 -  Functions: 11117
 -  Symbols:   14062
--  CStrings:  3719
+-  CStrings:  4160
++  UUID: 4FBD81D2-630B-3F24-8189-E4BFA7338369
 +  Functions: 10253
 +  Symbols:   13153
-+  CStrings:  3755
++  CStrings:  4199
  
 Symbols:
 + -[SKCloudServiceSetupViewController viewWillAppear:]

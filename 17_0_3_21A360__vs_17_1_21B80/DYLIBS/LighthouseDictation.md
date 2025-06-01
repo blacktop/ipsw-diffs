@@ -35,13 +35,16 @@
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__objc_intobj: 0x30
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FC5CE9A-C84B-384E-A2E5-2D0CD0DF5FEE
++  UUID: 831E48AB-C83F-38E9-B570-FBFEAF020160
    Functions: 64
 -  Symbols:   492
--  CStrings:  415
+-  CStrings:  549
 +  Symbols:   491
-+  CStrings:  413
++  CStrings:  546
  
 Symbols:
 - _objc_msgSend$removeObjectForKey:

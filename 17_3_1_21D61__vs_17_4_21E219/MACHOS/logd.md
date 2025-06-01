@@ -36,11 +36,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B8FC84A-60E4-30CB-A532-A86420207FBA
 -  Functions: 458
++  UUID: 2BB71620-9656-331E-BEF5-21395106043E
 +  Functions: 459
    Symbols:   410
--  CStrings:  464
-+  CStrings:  466
+-  CStrings:  497
++  CStrings:  499
  
 CStrings:
 + "B16@?0^{firehose_client_context_s={?=^{firehose_client_context_s}^^{firehose_client_context_s}}{?=^{firehose_subsystem_entry_s}^^{firehose_subsystem_entry_s}}[16C][16C]@^{tracev3_buffer_uuidinfo_s}^{os_trace_uuid_set_s}[5{logd_stats_s=Q}]BS{os_unfair_lock_s=I}CB[0c]}8"

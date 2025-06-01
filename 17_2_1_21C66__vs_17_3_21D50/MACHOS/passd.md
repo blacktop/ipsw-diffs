@@ -41,12 +41,14 @@
    __DATA_CONST.__objc_catlist: 0x40
    __DATA_CONST.__objc_protolist: 0x4c8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6D270401-2EC0-30EA-81FC-161B573F7ABE
++  UUID: F4FAAC94-3C0C-35A2-BC8E-D50687E3D82A
    Functions: 21472
    Symbols:   2568
--  CStrings:  29616
-+  CStrings:  29617
- 
+   CStrings:  35028
 CStrings:
 + "discovery:evaluateUserProperty"
 + "discovery:preflightEnvironment"

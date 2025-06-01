@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x1e0
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46D3E9E4-6E23-3804-9A2C-023FB5D7B9EB
++  UUID: 7D3611F4-0C67-345E-BA59-B5CDBC48D5D8
    Functions: 68
    Symbols:   130
--  CStrings:  459
-+  CStrings:  467
+-  CStrings:  493
++  CStrings:  501
  
 CStrings:
 + "@\"NSDictionary\"52@0:8@\"NSDictionary\"16Q24@\"NSString\"32i40^@44"

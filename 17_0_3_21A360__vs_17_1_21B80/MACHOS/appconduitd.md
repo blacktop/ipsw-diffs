@@ -47,11 +47,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C3C0168-2E2F-3B4C-9F57-88BD2399B182
 -  Functions: 1506
++  UUID: 808C811C-B896-3989-880F-F2D3A6A954BC
 +  Functions: 1509
    Symbols:   294
--  CStrings:  3502
-+  CStrings:  3508
+-  CStrings:  4602
++  CStrings:  4610
  
 CStrings:
 + "+[ACXDeviceConnectionClient messageAllObserversForApplicationsRemovabilityChanged:onDeviceWithPairingID:]_block_invoke"

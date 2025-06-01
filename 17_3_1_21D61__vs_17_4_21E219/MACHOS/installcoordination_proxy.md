@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E29693A1-5B1C-39EC-A224-FDAA10FE87A3
 -  Functions: 405
 -  Symbols:   205
--  CStrings:  842
+-  CStrings:  931
++  UUID: 8577D3B9-3E35-3C6E-8451-02C1024AC7EE
 +  Functions: 406
 +  Symbols:   206
-+  CStrings:  846
++  CStrings:  935
  
 Symbols:
 + _OBJC_CLASS_$_IXApplicationIdentity

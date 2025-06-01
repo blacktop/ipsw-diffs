@@ -41,12 +41,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUI.framework/TelephonyUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DA44AB6-77B8-3156-B889-714C0B0FCF8A
 -  Functions: 19
 -  Symbols:   55
--  CStrings:  61
+-  CStrings:  72
++  UUID: D9FA2765-E913-3B28-BE37-9CF2A16A1C80
 +  Functions: 20
 +  Symbols:   59
-+  CStrings:  64
++  CStrings:  75
  
 Symbols:
 + _PSAllowMultilineTitleKey

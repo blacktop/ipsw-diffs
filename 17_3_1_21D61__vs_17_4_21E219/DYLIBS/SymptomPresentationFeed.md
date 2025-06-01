@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/SymptomAnalytics.framework/SymptomAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 52371D3A-14E9-3F61-8DD3-98B1C3DFF56D
 -  Functions: 508
 -  Symbols:   2121
--  CStrings:  1238
+-  CStrings:  1546
++  UUID: 1AC5C0E7-79D9-32DB-85EC-5D3EA15E99C5
 +  Functions: 509
 +  Symbols:   2124
-+  CStrings:  1240
++  CStrings:  1548
  
 Symbols:
 + -[NWNetworkOfInterest _thinCopy]

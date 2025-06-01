@@ -35,13 +35,16 @@
    __DATA.__objc_superrefs: 0x118
    __DATA.__objc_ivar: 0x700
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A5CC66E-F33F-39FB-A72F-13E23E63FAD3
++  UUID: 4856363F-1C7C-39FC-87A8-22E0BF174F64
    Functions: 1645
 -  Symbols:   4564
--  CStrings:  3212
+-  CStrings:  3401
 +  Symbols:   4560
-+  CStrings:  3208
++  CStrings:  3397
  
 Symbols:
 + _objc_msgSend$addContentViewController:withUserInteractionEnabled:forService:context:userInterfaceStyle:forWindowScene:completion:

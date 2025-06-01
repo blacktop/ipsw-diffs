@@ -53,6 +53,8 @@
 -  __AUTH_CONST.__objc_intobj: 0x420
 -  __AUTH_CONST.__objc_doubleobj: 0x90
 -  __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH_CONST.__auth_got: 0xc78
+-  __AUTH.__objc_data: 0x4240
 +  __DATA_CONST.__objc_const: 0x10900
 +  __DATA_CONST.__objc_selrefs: 0x7080
 +  __DATA_CONST.__objc_arraydata: 0x2c0
@@ -62,9 +64,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x90
 +  __AUTH_CONST.__objc_intobj: 0x3f0
 +  __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__auth_got: 0xc78
--  __AUTH.__objc_data: 0x4240
 +  __AUTH_CONST.__auth_got: 0xbc8
 +  __AUTH.__objc_data: 0x3a20
    __DATA.__objc_protorefs: 0x48
@@ -89,12 +88,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: BDD4D008-028F-3590-98DD-A987006A16ED
 -  Functions: 5351
 -  Symbols:   18724
--  CStrings:  8911
+-  CStrings:  10648
++  UUID: 8E1FDD52-BC80-3050-B89C-BCCCAEFB69AD
 +  Functions: 4930
 +  Symbols:   17265
-+  CStrings:  8260
++  CStrings:  9888
  
 Symbols:
 + -[PSCoreSpotlightIndexer fedStatsStringsFromManifestBundlesAtURLs:withCompletion:]

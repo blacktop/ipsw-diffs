@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x1210
 +  __AUTH_CONST.__auth_got: 0x1218
    __AUTH.__objc_data: 0x2ed8
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 287A635C-5271-32F2-93CA-4757642C8CEC
 -  Functions: 10002
 -  Symbols:   22539
--  CStrings:  10586
+-  CStrings:  12654
++  UUID: 1C3F587E-A7D0-3530-AF44-FB909BD9A03C
 +  Functions: 10013
 +  Symbols:   22552
-+  CStrings:  10596
++  CStrings:  12667
  
 Symbols:
 + -[GKAuthenticateResponse setSuppressLoginSheet:]

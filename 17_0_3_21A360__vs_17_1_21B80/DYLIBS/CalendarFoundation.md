@@ -60,12 +60,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E64CF8EA-7ECD-3674-8939-06359EC6A3A8
 -  Functions: 2390
 -  Symbols:   8184
--  CStrings:  4226
+-  CStrings:  5361
++  UUID: 6890216C-3B6E-3C89-AC42-671B53C82968
 +  Functions: 2392
 +  Symbols:   8196
-+  CStrings:  4232
++  CStrings:  5368
  
 Symbols:
 + +[CalChronometry _resetTodayRolloverTimer]

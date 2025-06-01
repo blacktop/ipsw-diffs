@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x2268
    __TEXT.__gcc_except_tab: 0x3a8
 
+   - /System/Library/PrivateFrameworks/UserFS.framework/UserFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B16D700B-8E80-3C7A-AA99-B45253156DF2
++  UUID: BAF3CA36-4DDA-3B32-A27A-F15F6199F065
+   Functions: 894
+   Symbols:   463
+   CStrings:  1418
+
 ```

@@ -68,8 +68,6 @@
 -  __AUTH_CONST.__const: 0x17c48
 +  __AUTH_CONST.__const: 0x18220
    __AUTH_CONST.__objc_const: 0x2fa0
--  __AUTH_CONST.__auth_ptr: 0x388
-+  __AUTH_CONST.__auth_ptr: 0x390
    __AUTH_CONST.__cfstring: 0x1fc0
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -99,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE04A4D4-8FFF-3B82-9E6B-3B064C55252F
 -  Functions: 16639
 -  Symbols:   15107
--  CStrings:  6751
+-  CStrings:  7005
++  UUID: A9FF5AE5-3FAD-34E0-A5AA-8CA7B01B5B5D
 +  Functions: 16820
 +  Symbols:   15189
-+  CStrings:  6762
++  CStrings:  7016
  
 Symbols:
 + -[WFEnumerationParameter(WFVariableMenuProvider) clearButtonMenuItemWithVariable:parameterState:setVariableHandler:]

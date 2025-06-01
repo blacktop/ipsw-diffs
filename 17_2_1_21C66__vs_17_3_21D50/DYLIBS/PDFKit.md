@@ -44,8 +44,7 @@
    __AUTH_CONST.__const: 0x8b8
    __AUTH_CONST.__objc_intobj: 0x318
    __AUTH_CONST.__objc_dictobj: 0x168
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0x1350
 -  __AUTH.__objc_data: 0x2940
@@ -64,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22F34B3E-702A-3D79-AC91-8C0B7DCEC477
 -  Functions: 3362
 -  Symbols:   12860
--  CStrings:  6072
+-  CStrings:  7019
++  UUID: C7730FAF-5A73-3DF0-B159-74E866C9B160
 +  Functions: 3361
 +  Symbols:   12849
-+  CStrings:  6067
++  CStrings:  7014
  
 Symbols:
 + _OBJC_IVAR_$_PDFPageLayer._allowUpdate

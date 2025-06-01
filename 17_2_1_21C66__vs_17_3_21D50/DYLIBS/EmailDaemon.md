@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftWebKit.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B1AC902A-EF83-3FA7-A56B-F68B22C2C121
 -  Functions: 7660
 -  Symbols:   28861
--  CStrings:  11814
+-  CStrings:  13650
++  UUID: 8B70887B-46F6-357B-9E96-9C027FBA102C
 +  Functions: 7668
 +  Symbols:   28885
-+  CStrings:  11820
++  CStrings:  13655
  
 Symbols:
 + -[EDPersistenceDatabase _isIOError:]

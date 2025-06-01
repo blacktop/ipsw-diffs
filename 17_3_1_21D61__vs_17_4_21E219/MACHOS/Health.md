@@ -96,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D88DA48C-6C8A-3755-BA5F-8C8639F45417
 -  Functions: 3439
 -  Symbols:   1781
--  CStrings:  1576
+-  CStrings:  1578
++  UUID: F480B06A-64D5-3D5D-842F-78E66CB6B7FB
 +  Functions: 3613
 +  Symbols:   1802
-+  CStrings:  1612
++  CStrings:  1614
  
 Symbols:
 + _$s14HealthPlatform14PluginFeedItemV14FavoriteStatusO8rawValueSSvg

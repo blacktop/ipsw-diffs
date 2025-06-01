@@ -44,11 +44,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 384025D5-A9BB-3E1E-BF5E-F60803972049
++  UUID: 0954D50F-E4C9-3E08-99C2-187A88E03681
    Functions: 170
 -  Symbols:   133
--  CStrings:  304
+-  CStrings:  336
 +  Symbols:   137
-+  CStrings:  305
++  CStrings:  337
  
 Symbols:
 + _AMFDRSealingMapCreateLocalMultiDataBlobForClass

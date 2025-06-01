@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D703DA2-3AE5-35BA-B6A4-C494A2A6D84E
 -  Functions: 1193
 -  Symbols:   4181
--  CStrings:  2028
+-  CStrings:  2410
++  UUID: F4A4168F-720F-3590-B5CC-1795D857D0E2
 +  Functions: 1197
 +  Symbols:   4190
-+  CStrings:  2035
++  CStrings:  2419
  
 Symbols:
 + +[UNNotificationIcon iconWithData:]

@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B006D257-0CE0-3591-969F-E21FC67E1FC8
 -  Functions: 172
 -  Symbols:   131
--  CStrings:  301
+-  CStrings:  332
++  UUID: D63AE61B-ADDF-30A2-BCAB-516FC1B51209
 +  Functions: 170
 +  Symbols:   133
-+  CStrings:  304
++  CStrings:  336
  
 Symbols:
 + _AMFDRSealingMapCopyPropertyWithTag

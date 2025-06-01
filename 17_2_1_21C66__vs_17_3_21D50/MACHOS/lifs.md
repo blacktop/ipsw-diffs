@@ -14,6 +14,15 @@
    __TEXT_EXEC.__auth_stubs: 0xf10
    __DATA.__data: 0x5d0
    __DATA.__common: 0x138
+
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x1688
+   __DATA_CONST.__kalloc_type: 0xb40
+-  UUID: 26620D80-27B5-309E-86FA-905D94596194
++  UUID: C229A0F6-8610-3976-ACDD-97B3D9C8C72D
+   Functions: 302
+   Symbols:   2784
+   CStrings:  352
 Symbols:
 + lifs_create_endio_context.kalloc_type_view_857
 + lifs_destroy_endio_context.kalloc_type_view_876

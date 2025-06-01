@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ADB20765-837C-30F0-A314-C3BEEB157529
++  UUID: FDD446CA-5A3A-325B-BE16-CD9A6246FF7C
+   Functions: 19
+   Symbols:   55
+   CStrings:  84
+
 ```

@@ -31,5 +31,13 @@
    __DATA_DIRTY.__bss: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E28EE88A-2389-3748-AD84-E510E1A4A372
++  UUID: 03DB4711-0B1C-34A2-A2DA-A8A701D27282
+   Functions: 173
+   Symbols:   795
+   CStrings:  613
 
 ```

@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B6A1BC28-7BC5-3ADB-822B-E0895FA6758A
 -  Functions: 8517
 -  Symbols:   1560
--  CStrings:  10295
+-  CStrings:  11925
++  UUID: 40508EDE-218E-3DAB-AAA8-EC6D180BD3D9
 +  Functions: 8546
 +  Symbols:   1562
-+  CStrings:  10313
++  CStrings:  11941
  
 Symbols:
 + _GKNewsAppIdentifier

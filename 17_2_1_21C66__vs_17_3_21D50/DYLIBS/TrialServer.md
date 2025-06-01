@@ -29,11 +29,15 @@
    __AUTH_CONST.__const: 0xf00
    __AUTH_CONST.__objc_arrayobj: 0x2b8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 59181A9D-DBEB-34D5-9E8C-3DA98957D2E0
++  UUID: F285B274-6264-31A4-BB1E-7C60B5D7B68C
    Functions: 4661
    Symbols:   16564
--  CStrings:  8332
-+  CStrings:  8335
+-  CStrings:  10005
++  CStrings:  10009
  
 Symbols:
 + ___165-[TRIFetchFactorPackSetTask _downloadAndSaveCKAssetsWithMetadata:artifactProvider:options:downloadNotificationKey:context:assetsDownloadSize:errorResult:fetchError:]_block_invoke.295

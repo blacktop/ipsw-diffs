@@ -23,6 +23,15 @@
    __TEXT.__unwind_info: 0x258
    __DATA_CONST.__auth_got: 0x268
    __DATA_CONST.__got: 0xe8
+
+   - /System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3DE0BA8D-9649-38F3-B26D-9E4D73391BAC
++  UUID: A1CDBAA7-7F5A-3202-8E58-41E5B93BCAB7
+   Functions: 144
+   Symbols:   175
+   CStrings:  670
 CStrings:
 + "-[ContinuityCaptureViewController incomingCall:data:shouldDisplayNotification:]"
 + "incomingCall:data:shouldDisplayNotification:"

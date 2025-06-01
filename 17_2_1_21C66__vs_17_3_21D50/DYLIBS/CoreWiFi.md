@@ -37,4 +37,13 @@
    __DATA_DIRTY.__objc_ivar: 0x18
    __DATA_DIRTY.__objc_data: 0x10e0
 
+   - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D56B644-34D1-3032-9723-95DF2844A356
++  UUID: 31FFFE47-BE41-3CFA-B2E7-50C3618C0B37
+   Functions: 3592
+   Symbols:   619
+   CStrings:  7655
+
 ```

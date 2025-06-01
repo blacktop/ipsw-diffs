@@ -65,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2DD64732-A41F-3410-8404-4C7ED7FEEF4B
 -  Functions: 12583
 -  Symbols:   40278
--  CStrings:  18587
+-  CStrings:  23107
++  UUID: 57031298-2262-31F1-87F1-285D547D6ABA
 +  Functions: 12575
 +  Symbols:   40259
-+  CStrings:  18579
++  CStrings:  23099
  
 Symbols:
 + +[HMSymptomsHandler symptomsHandlerUUIDFromAccessoryUUID:]

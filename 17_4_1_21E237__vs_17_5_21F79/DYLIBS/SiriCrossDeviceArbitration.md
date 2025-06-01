@@ -23,7 +23,6 @@
    __AUTH_CONST.__objc_intobj: 0x2b8
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x410
 -  __AUTH.__objc_data: 0xc80
 +  __AUTH.__objc_data: 0xa0
@@ -41,5 +40,14 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 244D33AA-7A48-39A7-87F2-79B65D2FD948
++  UUID: 31016255-6084-301C-964A-F5942D51E9CB
+   Functions: 1140
+   Symbols:   4150
+   CStrings:  2843
 
 ```

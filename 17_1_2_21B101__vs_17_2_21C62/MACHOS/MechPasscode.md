@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ECD040EF-FF44-3FB9-8A59-55931FD7650F
 -  Functions: 293
 -  Symbols:   302
--  CStrings:  401
+-  CStrings:  421
++  UUID: 3C031203-CA1F-3790-95C2-DFF1A42CD387
 +  Functions: 294
 +  Symbols:   303
-+  CStrings:  403
++  CStrings:  423
  
 Symbols:
 + _OBJC_CLASS_$_LAUtils

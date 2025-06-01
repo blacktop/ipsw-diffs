@@ -40,12 +40,15 @@
    __DATA.__data: 0x1e0
    __DATA_DIRTY.__objc_data: 0x5a0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8032D160-0A86-37FA-8FA0-7374A103DE98
++  UUID: E5F453D6-551E-3130-B34E-988EC3C1B99D
    Functions: 311
 -  Symbols:   1452
 +  Symbols:   1453
-   CStrings:  811
+   CStrings:  967
  
 Symbols:
 + __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ue170006Ev

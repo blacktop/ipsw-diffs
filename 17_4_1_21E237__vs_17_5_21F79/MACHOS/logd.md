@@ -22,4 +22,13 @@
    __DATA_CONST.__got: 0xe8
    __DATA_CONST.__auth_ptr: 0x10
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 82D84DEB-05C1-3A52-9975-9AE9144315B8
++  UUID: 5674513D-7522-3271-BE4E-3F53058BDFCB
+   Functions: 459
+   Symbols:   410
+   CStrings:  499
+
 ```

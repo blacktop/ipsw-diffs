@@ -45,12 +45,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8BC32EB7-1D45-32BD-8924-ED32F9001612
 -  Functions: 1198
 -  Symbols:   599
--  CStrings:  2480
+-  CStrings:  2886
++  UUID: D27716AE-639E-3D4E-8EC1-3B95D7614A24
 +  Functions: 1200
 +  Symbols:   602
-+  CStrings:  2482
++  CStrings:  2888
  
 Symbols:
 + _GEOMapDataSubscriptionAutomaticOfflineDataUpdateBackgroundTaskIdentifier

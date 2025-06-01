@@ -51,11 +51,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1C3E884-5EDD-32CF-85D7-CD23F0965561
 -  Functions: 1238
++  UUID: 88FD4461-312B-3EA2-8DAA-4717C63A5565
 +  Functions: 1239
    Symbols:   374
--  CStrings:  3102
-+  CStrings:  3104
+-  CStrings:  3285
++  CStrings:  3287
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -31,13 +31,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x778
 -  __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x25cd0
-+  __DATA_CONST.__objc_selrefs: 0x6f0
-+  __AUTH_CONST.__const: 0x25c88
-   __AUTH_CONST.__auth_ptr: 0x140
 -  __AUTH_CONST.__cfstring: 0x720
 -  __AUTH_CONST.__objc_intobj: 0x90
 -  __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x1598
++  __DATA_CONST.__objc_selrefs: 0x6f0
++  __AUTH_CONST.__const: 0x25c88
 +  __AUTH_CONST.__cfstring: 0x4e0
 +  __AUTH_CONST.__objc_intobj: 0x60
 +  __AUTH_CONST.__auth_got: 0x1588
@@ -59,12 +58,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libgraphcompute-rt.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F57BC3B2-CB0D-3397-A41B-5785EF165F14
 -  Functions: 37143
 -  Symbols:   1129
--  CStrings:  2110
+-  CStrings:  2167
++  UUID: 192FACF3-3F2A-3747-A516-6DB207E222D0
 +  Functions: 37191
 +  Symbols:   1123
-+  CStrings:  2068
++  CStrings:  2107
  
 Symbols:
 + __ZN2gc15vmPageSizeBytesEv

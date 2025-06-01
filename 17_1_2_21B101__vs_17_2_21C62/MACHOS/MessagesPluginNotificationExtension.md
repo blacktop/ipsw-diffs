@@ -36,13 +36,16 @@
    __DATA_CONST.__objc_protolist: 0x28
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9CD58CA2-1C8C-3311-98C6-AFB23C2090E6
++  UUID: B14E21C1-1A04-3D28-A5C5-92C9AEA288D3
    Functions: 67
 -  Symbols:   136
--  CStrings:  136
+-  CStrings:  148
 +  Symbols:   132
-+  CStrings:  128
++  CStrings:  131
  
 Symbols:
 - _MarcoLogMadridLevel

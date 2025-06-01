@@ -49,7 +49,7 @@
    __AUTH_CONST.__objc_intobj: 0x9f0
    __AUTH_CONST.__objc_arrayobj: 0x930
 
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x500
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__auth_got: 0x760
 -  __AUTH.__objc_data: 0x7d50
@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B63B725E-3EB9-3688-9F98-6CB4AB476640
 -  Functions: 4769
 -  Symbols:   18899
--  CStrings:  14403
+-  CStrings:  16611
++  UUID: 258A539D-776E-3D0F-AD20-215AA653DFC1
 +  Functions: 4783
 +  Symbols:   18936
-+  CStrings:  14446
++  CStrings:  16664
  
 Symbols:
 + +[RawDFDetectors srShouldUseMotionScoreBasedOnEvm:andSRTuning:]

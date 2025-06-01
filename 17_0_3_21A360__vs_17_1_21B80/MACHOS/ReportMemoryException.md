@@ -33,11 +33,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x4
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77CCE453-8FCE-306E-B259-53E5478B35D6
++  UUID: D222A4D7-AF71-396A-9BB1-23F97D8D0ABB
    Functions: 56
    Symbols:   156
--  CStrings:  286
-+  CStrings:  294
+-  CStrings:  355
++  CStrings:  363
  
 CStrings:
 + "Attempting to save lite diagnostic before generating a memgraph for process %@ [%d]"

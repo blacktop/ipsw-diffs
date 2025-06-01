@@ -47,12 +47,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7A348A99-4896-39F0-B167-E2CDE5C8FD2B
 -  Functions: 102
 -  Symbols:   122
--  CStrings:  275
+-  CStrings:  284
++  UUID: 376C1FC1-6A6F-3727-A221-BE22E63423BA
 +  Functions: 104
 +  Symbols:   123
-+  CStrings:  281
++  CStrings:  290
  
 Symbols:
 + _OBJC_CLASS_$_FCNetworkReachability

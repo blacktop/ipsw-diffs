@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 26DC1539-3209-3019-9BC4-153AFDF5C334
 -  Functions: 2325
 -  Symbols:   1727
--  CStrings:  1672
+-  CStrings:  1698
++  UUID: 08FD947B-C4AA-3EFB-9B8A-2B7745E0A01B
 +  Functions: 2322
 +  Symbols:   1726
-+  CStrings:  1676
++  CStrings:  1702
  
 Symbols:
 - _$s10WorkflowUI15LibraryDelegateP16navigateToFolderyySo20WFWorkflowCollectionCFTj

@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A546F9C7-B4DF-3048-B1DA-1FCA93ECD47B
 -  Functions: 614
 -  Symbols:   2449
--  CStrings:  1275
+-  CStrings:  1550
++  UUID: 1838BF79-CE00-312B-BD32-751ECE6A11BE
 +  Functions: 631
 +  Symbols:   2528
-+  CStrings:  1295
++  CStrings:  1570
  
 Symbols:
 + -[MSServer initWithMediator:]

@@ -49,13 +49,16 @@
    __DATA.__bss: 0xd60
    __DATA.__common: 0x1010
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: A6B7FC21-EB45-3A87-B1E8-47EB463C56A1
++  UUID: CFBA297F-34F2-34BF-9623-FF91B1C8DC92
    Functions: 1874
 -  Symbols:   5423
--  CStrings:  4375
+-  CStrings:  5928
 +  Symbols:   5425
-+  CStrings:  4378
++  CStrings:  5933
  
 Symbols:
 + _OBJC_IVAR_$_AppleTypeCRetimerFirmwareRequestCreatorOS._demote

@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/WebUI.framework/WebUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA0F3ED4-C369-311D-A0A7-2498968BF3DD
 -  Functions: 146
 -  Symbols:   813
--  CStrings:  688
+-  CStrings:  761
++  UUID: 1B335413-CFE4-3CCB-9C06-AD8E3C17981E
 +  Functions: 148
 +  Symbols:   821
-+  CStrings:  694
++  CStrings:  767
  
 Symbols:
 + -[WSWebSheetView _titleString:]

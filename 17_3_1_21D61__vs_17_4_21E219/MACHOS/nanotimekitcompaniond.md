@@ -47,13 +47,16 @@
    __DATA.__objc_data: 0x8c0
    __DATA.__data: 0xa28
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5545F972-028D-3EAD-B77A-959A5C4E117C
++  UUID: 2FAA922F-708E-3205-9D77-5645C060C9AF
    Functions: 1219
 -  Symbols:   337
--  CStrings:  1912
+-  CStrings:  2089
 +  Symbols:   338
-+  CStrings:  1915
++  CStrings:  2093
  
 Symbols:
 + _OBJC_CLASS_$_NTKFastFaceSwitchingSettings

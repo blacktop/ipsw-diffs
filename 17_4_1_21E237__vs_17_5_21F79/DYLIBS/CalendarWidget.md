@@ -18,7 +18,6 @@
    __DATA_CONST.__objc_classrefs: 0xd0
 -  __AUTH_CONST.__const: 0x6828
 +  __AUTH_CONST.__const: 0x6798
-   __AUTH_CONST.__auth_ptr: 0x208
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__auth_got: 0x1248
    __AUTH.__data: 0x648
@@ -38,5 +37,14 @@
    __DATA_DIRTY.__common: 0x2c8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A56A5466-DC46-3A98-9689-0E7AE6052EDC
++  UUID: 40FF6906-3F06-37F7-80B0-61A02B505ABD
+   Functions: 4094
+   Symbols:   1811
+   CStrings:  564
 
 ```

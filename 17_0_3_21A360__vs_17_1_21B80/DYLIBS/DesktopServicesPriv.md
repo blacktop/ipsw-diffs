@@ -56,12 +56,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5ABB79DB-FC80-3BBB-AAFC-08F629ABB735
 -  Functions: 5305
 -  Symbols:   13164
--  CStrings:  1801
+-  CStrings:  1964
++  UUID: AE03C0D0-49EB-336B-B2C7-8CD7EF26F9A5
 +  Functions: 5323
 +  Symbols:   13210
-+  CStrings:  1804
++  CStrings:  1967
  
 Symbols:
 + GCC_except_table141

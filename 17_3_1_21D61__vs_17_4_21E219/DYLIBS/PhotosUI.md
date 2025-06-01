@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 391EE8F7-20DC-316B-B034-034A11A9548B
 -  Functions: 1515
 -  Symbols:   3343
--  CStrings:  1732
+-  CStrings:  1921
++  UUID: E3016C96-5BC6-3E22-9524-6FD86E2FF441
 +  Functions: 1498
 +  Symbols:   3335
-+  CStrings:  1733
++  CStrings:  1922
  
 Symbols:
 + __PROTOCOLS_PUPickerAssetCollectionSuggestion.18

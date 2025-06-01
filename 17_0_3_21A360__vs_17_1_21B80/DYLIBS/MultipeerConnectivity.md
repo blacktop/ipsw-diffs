@@ -20,12 +20,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FC874381-9339-3198-B56C-9BE6B817FDBF
 -  Functions: 1033
 -  Symbols:   3321
--  CStrings:  2092
+-  CStrings:  2237
++  UUID: 6F6C4A86-A283-3924-B703-16347419F61B
 +  Functions: 1035
 +  Symbols:   3325
-+  CStrings:  2094
++  CStrings:  2239
  
 Symbols:
 + -[MCNearbyDiscoveryPeerConnection syncProcessMessage:data:sequenceNumber:].cold.2

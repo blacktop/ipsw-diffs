@@ -52,11 +52,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: D9AA94CF-85C9-39B2-AD68-95E78BCEB4DA
 -  Functions: 1677
++  UUID: 59712BF3-ECBD-3CB0-97CF-02443F2D1285
 +  Functions: 1678
    Symbols:   489
--  CStrings:  5068
-+  CStrings:  5067
+-  CStrings:  7120
++  CStrings:  7117
  
 CStrings:
 + "getPommesStatusContainer"

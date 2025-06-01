@@ -52,7 +52,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x114b8
    __DATA_CONST.__objc_arraydata: 0x348
    __AUTH_CONST.__const: 0xcaf0
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__objc_const: 0x14260
 +  __AUTH_CONST.__objc_const: 0x142a8
    __AUTH_CONST.__cfstring: 0x255a0
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3E69313A-738C-3097-B299-32367495C30C
 -  Functions: 18148
 -  Symbols:   54520
--  CStrings:  22453
+-  CStrings:  27234
++  UUID: 4B3DF18B-1D27-3662-87FC-40F808B6C8A5
 +  Functions: 18177
 +  Symbols:   54606
-+  CStrings:  22510
++  CStrings:  27291
  
 Symbols:
 + +[HFCameraPlaybackEngineEventCache isDisplayableEvent:]

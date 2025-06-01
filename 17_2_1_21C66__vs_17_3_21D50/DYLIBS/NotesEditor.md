@@ -24,11 +24,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 20AEFC5E-132D-3225-90A2-DED4D2BF2542
 -  Functions: 10953
 -  Symbols:   25638
++  UUID: 5390E54F-542B-3B39-9EE6-4470DA98CF8E
 +  Functions: 10954
 +  Symbols:   25640
-   CStrings:  12843
+   CStrings:  13565
  
 Symbols:
 + GCC_except_table462

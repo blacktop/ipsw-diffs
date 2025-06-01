@@ -20,4 +20,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/LighthouseCoreMLModelStore.framework/LighthouseCoreMLModelStore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7323AC31-8FF5-3466-8E68-AB198F64A400
++  UUID: 44516A14-2082-3674-8893-66E7B734281D
+   Functions: 29
+   Symbols:   185
+   CStrings:  83
+
 ```

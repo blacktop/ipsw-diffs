@@ -68,12 +68,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 3190AAB8-D961-3176-A541-2037A0AA5F10
 -  Functions: 2542
 -  Symbols:   497
--  CStrings:  5154
+-  CStrings:  5845
++  UUID: 1F3EB1A7-DF73-3B48-95E3-8BEB5ADFA294
 +  Functions: 2552
 +  Symbols:   500
-+  CStrings:  5176
++  CStrings:  5871
  
 Symbols:
 + _CRCarPlayFeaturesAsAirPlayFeatures

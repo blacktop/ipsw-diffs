@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0CAA2FDB-8A5C-3195-BA8F-59B21755556D
 -  Functions: 1739
 -  Symbols:   5855
--  CStrings:  2457
+-  CStrings:  2974
++  UUID: 85C4043D-1031-3EA0-899A-378BD123CA6B
 +  Functions: 1741
 +  Symbols:   5871
-+  CStrings:  2462
++  CStrings:  2979
  
 Symbols:
 + +[HKClinicalNoteSorter sortOrderForType:]

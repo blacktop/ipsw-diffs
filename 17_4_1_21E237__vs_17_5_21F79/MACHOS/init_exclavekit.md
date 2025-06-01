@@ -28,8 +28,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 
+   - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 5F4B5308-CAFA-3F2A-8408-DEAAA6730FB2
++  UUID: 9E96DFC5-A18E-3B8D-ABD5-26A3AE820D5E
    Functions: 2
 -  Symbols:   14
 +  Symbols:   16

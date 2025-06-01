@@ -41,12 +41,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 64FA9AEC-5402-3B5B-92F3-BBD6D535121E
 -  Functions: 2064
 -  Symbols:   7467
--  CStrings:  4188
+-  CStrings:  5425
++  UUID: 0B1A31C3-BE41-3899-867F-3D0709A921B4
 +  Functions: 2066
 +  Symbols:   7471
-+  CStrings:  4194
++  CStrings:  5435
  
 Symbols:
 + -[SUPreferences autoInstallRetryDelay]

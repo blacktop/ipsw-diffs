@@ -62,7 +62,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x5b8
    __AUTH_CONST.__objc_doubleobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xc8
-
    __AUTH_CONST.__auth_got: 0x1210
    __AUTH.__objc_data: 0x54b0
    __AUTH.__data: 0xa8
@@ -81,12 +80,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7A9EEB7A-4C02-3F88-9A06-59F40A41A142
 -  Functions: 10655
 -  Symbols:   35615
--  CStrings:  18573
+-  CStrings:  22478
++  UUID: 98F07422-FC62-3D08-BB16-59EA4C0E360B
 +  Functions: 10669
 +  Symbols:   35671
-+  CStrings:  18615
++  CStrings:  22527
  
 Symbols:
 + +[PHAssetChangeRequest recoverAssets:]

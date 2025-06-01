@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E90F6259-1AAA-30DF-9DF3-A7DAB155D982
 -  Functions: 220
 -  Symbols:   327
--  CStrings:  251
+-  CStrings:  253
++  UUID: 03E232C9-EAAC-307C-B681-FEC8847264A7
 +  Functions: 234
 +  Symbols:   336
-+  CStrings:  257
++  CStrings:  259
  
 Symbols:
 + _GEOMapItemEquivalenceDistanceThresholdForPOIDeduplication

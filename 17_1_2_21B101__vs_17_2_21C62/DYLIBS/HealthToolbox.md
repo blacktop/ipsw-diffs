@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 4885F9ED-63D5-3B4E-B1C2-239DB4C7AE9A
 -  Functions: 2590
 -  Symbols:   9592
--  CStrings:  4718
+-  CStrings:  5358
++  UUID: 5326FB0F-9C2E-328B-B472-BE553D6A51DC
 +  Functions: 2588
 +  Symbols:   9590
-+  CStrings:  4722
++  CStrings:  5362
  
 Symbols:
 + -[HKStatistics(WDDataListDataObjectSource) sourceRevision]

@@ -19,4 +19,13 @@
    __DATA.__common: 0xa8
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 393B8067-34C1-3E26-86D2-C746AAB0C722
++  UUID: 3E017AB9-10B4-3405-9E53-AA9F8D135B87
+   Functions: 1400
+   Symbols:   419
+   CStrings:  940
+
 ```

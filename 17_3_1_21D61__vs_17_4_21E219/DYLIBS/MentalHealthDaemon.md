@@ -41,10 +41,9 @@
    __DATA_CONST.__objc_arraydata: 0x78
    __AUTH_CONST.__objc_const: 0x858
    __AUTH_CONST.__cfstring: 0x580
-
+   __AUTH_CONST.__const: 0x180
    __AUTH_CONST.__objc_intobj: 0x108
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x5c8
 +  __AUTH_CONST.__auth_got: 0x5d0
    __AUTH.__objc_data: 0x3a8
@@ -62,12 +61,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 439D4B73-408E-3B84-AAF5-D85435A15F51
 -  Functions: 468
 -  Symbols:   1813
--  CStrings:  879
+-  CStrings:  923
++  UUID: AB739511-8E7C-326B-BDB3-3FF4D768655E
 +  Functions: 470
 +  Symbols:   1811
-+  CStrings:  894
++  CStrings:  938
  
 Symbols:
 + __ZNSt3__119piecewise_constructE

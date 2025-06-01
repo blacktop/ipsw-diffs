@@ -49,12 +49,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E173B9BD-0DBA-3703-AFCC-19AD79029ECD
 -  Functions: 376
 -  Symbols:   1309
--  CStrings:  703
+-  CStrings:  1019
++  UUID: 2F40BF9E-E8E4-3EBA-BD66-FAF5F0701A6A
 +  Functions: 380
 +  Symbols:   1324
-+  CStrings:  709
++  CStrings:  1029
  
 Symbols:
 + +[TrophyCaseAwardDetailBadgeCellAccessibility _accessibilityPerformValidations:]

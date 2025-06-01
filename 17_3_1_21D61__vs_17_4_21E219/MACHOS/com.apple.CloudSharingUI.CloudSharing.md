@@ -57,13 +57,16 @@
    __DATA.__common: 0x80
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D6BBA2B-B6D9-31A5-859C-7233432071EE
++  UUID: 2FCC07C5-883F-33FE-A2B9-7A3F3A33B322
    Functions: 4224
 -  Symbols:   377
--  CStrings:  1703
+-  CStrings:  1717
 +  Symbols:   378
-+  CStrings:  1720
++  CStrings:  1734
  
 Symbols:
 + _free

@@ -38,11 +38,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F02FD1D-BE14-3769-A62F-4D3904D9F8C4
++  UUID: F51E061B-9DF8-3398-BEF0-61AE2610E330
    Functions: 234
    Symbols:   1234
--  CStrings:  590
-+  CStrings:  591
+-  CStrings:  632
++  CStrings:  633
  
 Symbols:
 + ___58-[FLExtensionViewController finishProcessingWithUserInfo:]_block_invoke.52

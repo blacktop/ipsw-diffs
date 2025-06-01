@@ -31,12 +31,15 @@
    __DATA_CONST.__objc_catlist: 0x40
    __DATA_CONST.__objc_protolist: 0x38
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92D69768-B545-3B0C-847F-D4E66199780C
++  UUID: 7E80B211-51CE-360D-86E4-45655CB80A4D
    Functions: 717
 -  Symbols:   3265
 +  Symbols:   3263
-   CStrings:  1974
+   CStrings:  2208
  
 Symbols:
 + +[PESupport repairedAsShotCompositionController:forCurrentCompositionController:isLivePhoto:]

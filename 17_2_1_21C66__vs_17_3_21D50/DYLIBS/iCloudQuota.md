@@ -17,11 +17,15 @@
    __TEXT.__dlopen_cstrs: 0x35f
    __TEXT.__ustring: 0x136
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: DE49338C-9791-3C6B-8C3B-F017A481E46B
++  UUID: 8FE99402-14B6-3561-A348-D732DDE40668
    Functions: 2877
    Symbols:   7862
--  CStrings:  3976
-+  CStrings:  3977
+-  CStrings:  4856
++  CStrings:  4857
  
 CStrings:
 + " enableTelemetry=YES %@"

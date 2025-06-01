@@ -48,9 +48,9 @@
    __DATA_CONST.__objc_protorefs: 0x58
    __DATA_CONST.__objc_classrefs: 0x208
 
+   __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__const: 0x11a60
    __AUTH_CONST.__objc_dictobj: 0x230
-   __AUTH_CONST.__auth_ptr: 0x2a0
 -  __AUTH_CONST.__auth_got: 0x1e48
 -  __AUTH.__objc_data: 0x2970
 -  __AUTH.__data: 0x2428
@@ -77,11 +77,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4F8DA2E-6519-31F8-98CE-91727ABEF93F
 -  Functions: 15313
++  UUID: C95F35D1-8168-31D8-A02C-ECE90F0F1FE6
 +  Functions: 15317
    Symbols:   5061
--  CStrings:  3307
-+  CStrings:  3309
+-  CStrings:  3357
++  CStrings:  3359
  
 CStrings:
 + "CIDVPAD.show-padframe-logging"

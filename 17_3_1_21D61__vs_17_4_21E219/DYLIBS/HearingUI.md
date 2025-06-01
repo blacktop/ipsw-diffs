@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__const: 0x798
    __AUTH_CONST.__objc_intobj: 0x3f0
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x850
 +  __AUTH_CONST.__auth_got: 0x870
    __AUTH.__objc_data: 0xc78
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D828A115-E64E-3181-BB80-99906418D4A7
 -  Functions: 1198
 -  Symbols:   3969
--  CStrings:  1854
+-  CStrings:  2079
++  UUID: 7E1F0B6B-8907-31EB-9632-5B2664A36933
 +  Functions: 1208
 +  Symbols:   4001
-+  CStrings:  1878
++  CStrings:  2104
  
 Symbols:
 + -[HUICCMenuCheckmarkView _menuItemsWithCompletion:]

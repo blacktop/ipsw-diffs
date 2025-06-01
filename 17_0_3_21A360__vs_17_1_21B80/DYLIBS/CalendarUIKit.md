@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3A47213-1122-32ED-956D-37588DDEA2AF
 -  Functions: 2599
 -  Symbols:   9117
--  CStrings:  4713
+-  CStrings:  5636
++  UUID: AD361AB6-4DFF-3E56-BA00-4AC09D7F2A05
 +  Functions: 2598
 +  Symbols:   9113
-+  CStrings:  4712
++  CStrings:  5635
  
 Symbols:
 + -[CUIKCalendarModel _cachedFakeTodayIndexLocked]

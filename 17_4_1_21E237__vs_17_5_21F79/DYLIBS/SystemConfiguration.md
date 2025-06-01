@@ -17,4 +17,13 @@
    __DATA_CONST.__const: 0x2c70
    __AUTH_CONST.__cfstring: 0x6a80
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+-  UUID: ABEC1451-C32B-3A88-8070-6B2E3A96EBAA
++  UUID: 3AEDF5B7-8EA9-3836-B65E-1FD403B4A020
+   Functions: 1262
+   Symbols:   3321
+   CStrings:  2867
+
 ```

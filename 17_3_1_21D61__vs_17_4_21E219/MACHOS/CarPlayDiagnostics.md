@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMemoryResourceException.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 110F8E12-600F-3AE5-B5E9-0A3D6353768C
++  UUID: 4B5A411A-9507-31F7-B9E7-E3340486197A
+   Functions: 5
+   Symbols:   44
+   CStrings:  33
+
 ```

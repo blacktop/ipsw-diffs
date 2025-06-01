@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: C52A9630-60F1-3D48-A6C3-50A20DE78C6A
 -  Functions: 45753
 -  Symbols:   121652
++  UUID: 5623831D-5719-33A9-9691-759F47D714D1
 +  Functions: 45754
 +  Symbols:   121654
-   CStrings:  17187
+   CStrings:  22107
  
 Symbols:
 + -[NSFileAccessClaim _recursive_claimerInvokingIsBlockedByReactorWithID:checkedClaims:]

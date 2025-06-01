@@ -39,12 +39,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78BE8B79-DC0F-3616-9E6A-BBDCBB499F02
 -  Functions: 588
 -  Symbols:   2469
--  CStrings:  1210
+-  CStrings:  1378
++  UUID: 3115A719-70C6-3447-BD14-8458843E012D
 +  Functions: 595
 +  Symbols:   2486
-+  CStrings:  1213
++  CStrings:  1381
  
 Symbols:
 + ___52-[STLocalStatusServer addDataTransformer:forDomain:]_block_invoke_2

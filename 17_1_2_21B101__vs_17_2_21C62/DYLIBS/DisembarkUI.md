@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 199011E4-3FBB-3611-A88F-16A55AA81D92
 -  Functions: 650
 -  Symbols:   2601
--  CStrings:  1453
+-  CStrings:  1590
++  UUID: 0061B94A-3169-3917-A9C7-38D19614183A
 +  Functions: 659
 +  Symbols:   2641
-+  CStrings:  1473
++  CStrings:  1610
  
 Symbols:
 + -[DKEraseFlow eraseDataPlan]

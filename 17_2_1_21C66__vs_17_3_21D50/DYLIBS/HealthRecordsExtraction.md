@@ -52,11 +52,6 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x2b8
-+  __AUTH_CONST.__auth_ptr: 0x2c0
-   __AUTH_CONST.__auth_got: 0x1288
-   __AUTH.__objc_data: 0xf60
-   __AUTH.__data: 0x1c68
 
    __DATA.__objc_classrefs: 0x578
    __DATA.__objc_superrefs: 0x98
@@ -72,12 +67,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA9900B7-94DD-342B-958A-CA9713F257D9
 -  Functions: 7299
 -  Symbols:   3252
--  CStrings:  2458
+-  CStrings:  2967
++  UUID: 9577B19C-9602-38A9-8F42-81CE05A1717D
 +  Functions: 7325
 +  Symbols:   3255
-+  CStrings:  2460
++  CStrings:  2969
  
 Symbols:
 + _symbolic $s23HealthRecordsExtraction17ResourceProxyableP

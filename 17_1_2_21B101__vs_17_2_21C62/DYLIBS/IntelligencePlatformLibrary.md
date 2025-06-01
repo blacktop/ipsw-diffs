@@ -21,11 +21,15 @@
    __TEXT.__swift5_protos: 0x4
    __TEXT.__gcc_except_tab: 0x18
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3A02CBC2-59EE-3B22-BF1F-DFD21B0A017C
++  UUID: 05A6E37F-633F-325B-950C-8509E67636B9
    Functions: 327
    Symbols:   935
--  CStrings:  485
-+  CStrings:  470
+-  CStrings:  531
++  CStrings:  516
  
 CStrings:
 - "__AlarmActivitiesMatView__"

@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
    - /System/Library/PrivateFrameworks/Coherence.framework/Coherence
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E11F1D8E-000D-3C7D-B072-5BA38DF2D5B6
++  UUID: 718DDAF4-590A-3AE2-99F5-5F7811DA9228
+   Functions: 482
+   Symbols:   404
+   CStrings:  121
+
 ```

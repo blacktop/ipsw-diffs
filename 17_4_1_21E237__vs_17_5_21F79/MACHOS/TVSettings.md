@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 357693C4-CA3C-3EAF-A5D2-759452AE232E
 -  Functions: 184
 -  Symbols:   163
--  CStrings:  848
+-  CStrings:  1128
++  UUID: A706C205-D9D5-3140-A775-0162D8F47987
 +  Functions: 192
 +  Symbols:   166
-+  CStrings:  860
++  CStrings:  1140
  
 Symbols:
 + _AnalyticsSendEventLazy

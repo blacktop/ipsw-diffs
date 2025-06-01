@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05D3460D-E996-3181-9275-71AFA791CB1B
 -  Functions: 7669
 -  Symbols:   1408
--  CStrings:  9606
+-  CStrings:  12554
++  UUID: BF4AA6FD-0667-37F7-AAC8-A90A501D6E9B
 +  Functions: 7622
 +  Symbols:   1419
-+  CStrings:  9574
++  CStrings:  12498
  
 Symbols:
 + _GKDashboardLaunchContextAppStore

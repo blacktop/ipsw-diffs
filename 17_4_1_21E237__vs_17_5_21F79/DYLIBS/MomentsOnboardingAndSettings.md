@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BED5D54E-CC19-3674-BA01-1055D7135322
 -  Functions: 606
 -  Symbols:   2108
--  CStrings:  973
+-  CStrings:  1095
++  UUID: AD33C67E-2BFB-3472-AEF5-BD179DAE872E
 +  Functions: 623
 +  Symbols:   2149
-+  CStrings:  987
++  CStrings:  1110
  
 Symbols:
 + -[MOApprovedApplicationsManager _getApprovedApplicationsArrayAndRequireAccess:]

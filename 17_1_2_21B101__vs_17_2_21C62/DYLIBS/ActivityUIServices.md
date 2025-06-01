@@ -66,10 +66,8 @@
 -  __AUTH_CONST.__const: 0x2b50
 +  __AUTH_CONST.__const: 0x28e0
    __AUTH_CONST.__objc_intobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0xb98
 -  __AUTH.__objc_data: 0x2058
-+  __AUTH_CONST.__auth_ptr: 0x70
 +  __AUTH_CONST.__auth_got: 0xa60
 +  __AUTH.__objc_data: 0x2010
    __AUTH.__data: 0x338
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDBE3028-E112-32FF-B2A1-F177DABA12E0
 -  Functions: 2706
 -  Symbols:   2541
--  CStrings:  1308
+-  CStrings:  1330
++  UUID: 1F16C7CD-5C24-34CF-A1D5-554C6B893C6A
 +  Functions: 2578
 +  Symbols:   2416
-+  CStrings:  1246
++  CStrings:  1268
  
 Symbols:
 - +[ACUISActivityController sharedInstance]

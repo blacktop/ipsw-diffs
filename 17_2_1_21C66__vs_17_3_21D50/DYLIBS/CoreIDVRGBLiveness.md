@@ -29,12 +29,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0375ED6-651A-3C7A-9142-CAB066A2F107
 -  Functions: 946
 -  Symbols:   3542
--  CStrings:  1745
+-  CStrings:  1898
++  UUID: 65A82368-6DDF-37E7-A5ED-40447977B622
 +  Functions: 947
 +  Symbols:   3545
-+  CStrings:  1746
++  CStrings:  1899
  
 Symbols:
 + -[_CIDVRGBCaptureSelfieController _reorientImage:].cold.2

@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60B08BE2-2ECA-3A33-82DB-341AE7910E62
 -  Functions: 137
 -  Symbols:   769
--  CStrings:  440
+-  CStrings:  513
++  UUID: 40940AD8-8B90-31FA-97C1-23E414FB8F37
 +  Functions: 140
 +  Symbols:   778
-+  CStrings:  443
++  CStrings:  516
  
 Symbols:
 + -[SWSystemActivityAssertion _queue_declareSystemActivityWithRetryCount:]

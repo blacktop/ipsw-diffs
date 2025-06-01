@@ -92,12 +92,14 @@
 +  - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2F9F06D5-D212-3563-AD0E-057769342759
 -  Functions: 1360
 -  Symbols:   695
--  CStrings:  6445
+-  CStrings:  8669
++  UUID: E47FA6B5-0B86-3358-8427-F1DBA0F62E66
 +  Functions: 2822
 +  Symbols:   879
-+  CStrings:  8819
++  CStrings:  11751
  
 Symbols:
 + _AMSupportCFDictionaryGetBoolean

@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3BADFB34-6522-3F5E-AB26-D8E58897B9BB
 -  Functions: 6173
 -  Symbols:   22782
--  CStrings:  11245
+-  CStrings:  12638
++  UUID: B083C72F-40A3-35E5-A263-3A694722BD55
 +  Functions: 6213
 +  Symbols:   22918
-+  CStrings:  11312
++  CStrings:  12705
  
 Symbols:
 + -[CSActivityItemViewController _backlightLuminanceDidChange]

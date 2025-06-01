@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91B81CB0-233D-3DEC-8B35-002365D0FBFA
 -  Functions: 120
 -  Symbols:   470
--  CStrings:  284
+-  CStrings:  312
++  UUID: 1D392734-F79E-3369-A1FA-9066292E6147
 +  Functions: 124
 +  Symbols:   493
-+  CStrings:  294
++  CStrings:  325
  
 Symbols:
 + GCC_except_table1

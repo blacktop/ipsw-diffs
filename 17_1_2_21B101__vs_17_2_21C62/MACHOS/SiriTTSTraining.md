@@ -50,8 +50,8 @@
 -  __AUTH_CONST.__cfstring: 0x3a0
 +  __AUTH_CONST.__cfstring: 0x3c0
    __AUTH_CONST.__const: 0x4d90
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0xfa0
+   __AUTH.__objc_data: 0x1e0
 
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x88
@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D3C6BE4B-5740-3F0E-AD4C-8400C502291E
 -  Functions: 12295
 -  Symbols:   19896
--  CStrings:  5266
+-  CStrings:  5295
++  UUID: 329DF6AC-7726-3DCF-86F7-34071E12C6C0
 +  Functions: 12300
 +  Symbols:   19903
-+  CStrings:  5274
++  CStrings:  5304
  
 Symbols:
 + -[SiriTTSTrainerSession getCurrentAssetVersion:name:reply:]

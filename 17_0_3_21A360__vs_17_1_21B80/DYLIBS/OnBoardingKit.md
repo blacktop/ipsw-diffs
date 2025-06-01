@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D28C19F7-DD4C-3EED-96E7-DC755AD946B9
 -  Functions: 1415
 -  Symbols:   5419
--  CStrings:  2721
+-  CStrings:  2937
++  UUID: 2D4F1F17-ACC5-303E-B63B-EE4B213A25EE
 +  Functions: 1418
 +  Symbols:   5427
-+  CStrings:  2722
++  CStrings:  2938
  
 Symbols:
 + -[OBBulletedList setTemplateType:]

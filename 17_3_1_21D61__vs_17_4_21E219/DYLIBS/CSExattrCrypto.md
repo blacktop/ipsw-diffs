@@ -40,5 +40,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2EE599AB-AFCC-321E-9F22-2BEA681F4C21
++  UUID: 6CA5CFF0-ECE1-3B54-9396-673E78A85493
+   Functions: 145
+   Symbols:   757
+   CStrings:  375
 
 ```

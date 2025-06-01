@@ -37,11 +37,15 @@
    __DATA.__data: 0x920
    __DATA.__bss: 0xd0
 
+   - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5116A0B9-3F6D-347A-B430-BE08E5FCD6DF
++  UUID: 797A80E7-F86F-3354-A7E7-104187C8FA57
    Functions: 807
    Symbols:   3292
--  CStrings:  1635
-+  CStrings:  1637
+-  CStrings:  2055
++  CStrings:  2057
  
 Symbols:
 + ___46-[FMDFMIPManager pairingCheckWith:completion:]_block_invoke.166

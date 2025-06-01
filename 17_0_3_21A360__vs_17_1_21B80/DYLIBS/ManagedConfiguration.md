@@ -44,12 +44,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 452F99E8-B367-3702-919D-D984618D0294
 -  Functions: 4698
 -  Symbols:   15505
--  CStrings:  8356
+-  CStrings:  11407
++  UUID: 27A40D32-37A9-3761-83D0-9001C8B8B9BE
 +  Functions: 4699
 +  Symbols:   15509
-+  CStrings:  8360
++  CStrings:  11414
  
 Symbols:
 + -[MCProfileConnection(Misc) isPreserveESIMOnEraseEnforced]

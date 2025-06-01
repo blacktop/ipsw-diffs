@@ -47,10 +47,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6D037E1-22E3-3886-873E-1C7B3F203C39
 -  Functions: 2508
++  UUID: 81FBF5C1-B64D-347C-BCF8-CA4557876E5C
 +  Functions: 2507
    Symbols:   435
-   CStrings:  3783
+-  CStrings:  4167
++  CStrings:  4168
  
 CStrings:
 + "Migration failed - process exiting: %{public}@"

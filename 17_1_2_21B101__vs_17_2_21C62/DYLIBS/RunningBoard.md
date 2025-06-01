@@ -29,12 +29,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 25CEA642-6FD6-3CAF-91BC-048D15C33149
 -  Functions: 2512
 -  Symbols:   8730
--  CStrings:  4183
+-  CStrings:  4866
++  UUID: D4D85475-E15C-3532-B1AD-1B3E968B107F
 +  Functions: 2516
 +  Symbols:   8739
-+  CStrings:  4186
++  CStrings:  4869
  
 Symbols:
 + -[RBSSavedEndowmentGrant(RBProcessState) isValidForContext:withError:].cold.1

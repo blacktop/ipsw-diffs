@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32B37BF7-16BC-31A4-9206-34CA9FF430A1
 -  Functions: 3672
 -  Symbols:   12076
--  CStrings:  6785
+-  CStrings:  8130
++  UUID: D845038B-F709-3C72-8DC4-8FF473256878
 +  Functions: 3676
 +  Symbols:   12086
-+  CStrings:  6791
++  CStrings:  8138
  
 Symbols:
 + -[CBAODTransitionController updateAAPFactor:]

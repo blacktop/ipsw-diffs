@@ -41,13 +41,16 @@
    __DATA_DIRTY.__objc_data: 0xa0
    __DATA_DIRTY.__data: 0x4
 
+   - /System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B6E3346-990F-31C2-88A0-CDB29A91D849
++  UUID: 6E34EFA8-FD84-357A-B67A-49B5BD42E3F6
    Functions: 40
 -  Symbols:   247
--  CStrings:  104
+-  CStrings:  116
 +  Symbols:   249
-+  CStrings:  105
++  CStrings:  117
  
 Symbols:
 + ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.18

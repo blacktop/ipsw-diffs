@@ -21,4 +21,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C10FDA2B-F6B1-307A-A683-5D8ADCC9BA82
++  UUID: 4D95DDB1-DDC2-32A3-9AB2-C9900874DA0B
+   Functions: 22
+   Symbols:   80
+   CStrings:  89
+
 ```

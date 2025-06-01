@@ -25,6 +25,15 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BFEECCE4-A600-314D-82A7-C44D7FF4314B
++  UUID: A8F42A14-E3AC-3035-87F8-AEE41582AA30
+   Functions: 10
+   Symbols:   79
+   CStrings:  48
 Symbols:
 + ___block_literal_global.253
 + ___block_literal_global.262

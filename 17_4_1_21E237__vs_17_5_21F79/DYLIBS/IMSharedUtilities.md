@@ -59,9 +59,8 @@
    __AUTH_CONST.__const: 0x3810
    __AUTH_CONST.__objc_intobj: 0x4c8
    __AUTH_CONST.__objc_arrayobj: 0x4c8
-
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0x1260
 -  __AUTH.__objc_data: 0x3450
 -  __AUTH.__data: 0x220
@@ -80,13 +79,16 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1214F40C-0D8B-3B86-AD1A-8835495210BC
++  UUID: AE41F1C3-EC77-394D-B7FE-80D9E2357B08
    Functions: 6341
 -  Symbols:   2736
--  CStrings:  11550
+-  CStrings:  14355
 +  Symbols:   2733
-+  CStrings:  11554
++  CStrings:  14369
  
 Symbols:
 + _IMSanitizedAppIconDataForIMExtensionPayloadAppIconKey

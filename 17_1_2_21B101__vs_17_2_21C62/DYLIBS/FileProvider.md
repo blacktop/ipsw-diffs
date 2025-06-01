@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__cfstring: 0xfa60
 +  __AUTH_CONST.__const: 0x1920
    __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x108
 -  __AUTH_CONST.__auth_got: 0xce8
 -  __AUTH.__objc_data: 0xa0
@@ -76,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D74F6BB-4615-3A58-A4FA-0A5F4B2B567D
 -  Functions: 6661
 -  Symbols:   21204
--  CStrings:  9076
+-  CStrings:  10976
++  UUID: F78080B4-E782-3C6E-8DD9-8DE3FCDFF5FF
 +  Functions: 6815
 +  Symbols:   21634
-+  CStrings:  9408
++  CStrings:  11411
  
 Symbols:
 + +[FPImportItemPendingReconciliation supportsSecureCoding]

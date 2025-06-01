@@ -13,4 +13,13 @@
    __TEXT.__const: 0x47e0
    __TEXT.__unwind_info: 0x10e8
 
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 7B468999-3FA5-3033-9DA7-300E64C34DBB
++  UUID: 5681626C-C523-3AF7-AE63-31753DE6FC1D
+   Functions: 1030
+   Symbols:   510
+   CStrings:  0
+
 ```

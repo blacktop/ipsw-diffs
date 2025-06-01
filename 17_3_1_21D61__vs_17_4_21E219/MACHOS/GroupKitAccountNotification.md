@@ -28,7 +28,11 @@
    __DATA.__data: 0xf0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8F541DA9-B081-3E02-8689-EFA436E1CCDA
++  UUID: F2EA9545-2EBF-3445-ADFE-4B5B1F50076B
    Functions: 4
    Symbols:   16
 -  CStrings:  62

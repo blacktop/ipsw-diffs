@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41A35363-DA7E-3B63-8683-564746FC92BE
 -  Functions: 36
 -  Symbols:   107
--  CStrings:  214
+-  CStrings:  236
++  UUID: C648ACE8-7CBB-3F1D-83DE-3722D6DACF1D
 +  Functions: 41
 +  Symbols:   116
-+  CStrings:  226
++  CStrings:  249
  
 Symbols:
 + _CFRelease

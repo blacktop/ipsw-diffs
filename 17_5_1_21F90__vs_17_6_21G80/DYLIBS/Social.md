@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__objc_const: 0x24d8
 +  __AUTH_CONST.__cfstring: 0x70a0
    __AUTH_CONST.__objc_intobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__objc_arrayobj: 0x90
 +  __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_floatobj: 0x50
@@ -71,12 +70,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 93142A4B-C98C-3058-99C6-BF584159816C
 -  Functions: 1547
 -  Symbols:   6410
--  CStrings:  3724
+-  CStrings:  4620
++  UUID: 01878CEE-81E9-3387-AED1-22A4384366A0
 +  Functions: 1565
 +  Symbols:   6477
-+  CStrings:  3752
++  CStrings:  4653
  
 Symbols:
 + +[SLGoogleWebClient dataclassesForScopes:]

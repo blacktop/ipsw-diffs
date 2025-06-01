@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_const: 0x350
 -  __AUTH_CONST.__const: 0x7a0
 +  __AUTH_CONST.__const: 0x780
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0xe0
    __AUTH_CONST.__objc_dictobj: 0xc8
 -  __AUTH_CONST.__auth_got: 0x6d0
@@ -69,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F1DB6A8-69D7-31D2-91FD-3CB22327119E
 -  Functions: 4442
 -  Symbols:   15082
--  CStrings:  7078
+-  CStrings:  8176
++  UUID: C5527424-40FF-3A16-85F8-4065A93A565B
 +  Functions: 4449
 +  Symbols:   15101
-+  CStrings:  7089
++  CStrings:  8188
  
 Symbols:
 + -[_PSFeatureDictionary addEntriesFromDictionary:overwrite:]

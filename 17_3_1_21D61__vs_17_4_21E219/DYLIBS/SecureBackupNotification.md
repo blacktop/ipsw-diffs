@@ -37,13 +37,16 @@
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A9733CC-4BCD-3BF2-B5B0-9BD78DCE07CE
++  UUID: AA0406E1-AF26-35FC-85C7-3912B9D050B2
    Functions: 16
 -  Symbols:   51
--  CStrings:  114
+-  CStrings:  121
 +  Symbols:   52
-+  CStrings:  115
++  CStrings:  122
  
 Symbols:
 + _objc_release_x25

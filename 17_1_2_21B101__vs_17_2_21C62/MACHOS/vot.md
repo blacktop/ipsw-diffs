@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B1DD0F7-CCE8-3221-AC96-34C7CCACF153
 -  Functions: 5694
 -  Symbols:   1388
--  CStrings:  10320
+-  CStrings:  11919
++  UUID: 109EA56A-8DCB-39C7-9A5E-4588630C9476
 +  Functions: 5704
 +  Symbols:   1391
-+  CStrings:  10342
++  CStrings:  11943
  
 Symbols:
 + _OBJC_CLASS_$_UIKeyboardInputModeController

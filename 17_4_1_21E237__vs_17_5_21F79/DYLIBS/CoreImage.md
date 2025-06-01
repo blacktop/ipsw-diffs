@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/ColorSync.framework/ColorSync
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D2AC243-0880-3BA9-BBF3-A214454875E0
++  UUID: FC80F3B5-E7F3-3689-950F-E0584DB0F5CA
+   Functions: 12922
+   Symbols:   37788
+   CStrings:  17931
+
 ```

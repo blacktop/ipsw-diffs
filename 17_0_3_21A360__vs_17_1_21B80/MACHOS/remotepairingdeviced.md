@@ -44,12 +44,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 69691DB5-DD1D-382F-B2BB-6F1C6705C4BA
 -  Functions: 1744
 -  Symbols:   1009
--  CStrings:  600
+-  CStrings:  602
++  UUID: 1F71D3B3-AC68-3921-A6A8-9B99237CDA55
 +  Functions: 1757
 +  Symbols:   1011
-+  CStrings:  602
++  CStrings:  604
  
 Symbols:
 + _$s19RemotePairingDevice16TunnelConnectionP21physicalInterfaceNameSSSgvgTq

@@ -33,11 +33,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MarkupUI.framework/MarkupUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9340FFB1-33C5-3B17-B6B8-C2AC0CD5CE7D
++  UUID: A723A37B-61AF-32F4-9433-CA25C001B542
    Functions: 34
    Symbols:   108
--  CStrings:  176
-+  CStrings:  177
+-  CStrings:  182
++  CStrings:  183
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -28,19 +28,20 @@
 -  __AUTH_CONST.__cfstring: 0x5a0
 +  __AUTH_CONST.__const: 0x858
 +  __AUTH_CONST.__cfstring: 0x560
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x718
    __DATA.__bss: 0x11
+   __DATA.__common: 0x50
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: FC4626C4-5DA3-35FB-9650-F1FDD2DA8ADA
 -  Functions: 1676
 -  Symbols:   3938
--  CStrings:  1663
++  UUID: 5111F741-7F49-31DF-A1B5-B8D794E4D566
 +  Functions: 1844
 +  Symbols:   4297
-+  CStrings:  1665
+   CStrings:  1708
  
 Symbols:
 + __Z21createDaisyAvcDecoderPv

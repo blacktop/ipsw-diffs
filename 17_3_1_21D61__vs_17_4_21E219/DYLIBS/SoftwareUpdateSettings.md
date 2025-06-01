@@ -48,13 +48,16 @@
    __DATA.__data: 0x278
    __DATA.__bss: 0x70
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26944C60-88EF-3530-8804-D09DC179E4D9
++  UUID: 23E21E47-6402-3EF7-B789-5487C0D9ADF9
    Functions: 270
 -  Symbols:   1441
--  CStrings:  999
+-  CStrings:  1177
 +  Symbols:   1449
-+  CStrings:  1008
++  CStrings:  1194
  
 Symbols:
 + _MA_AUTO_ASSET_SHORT_TERM_LOCK_FILESYSTEM_ATOMIC_INSTANCE

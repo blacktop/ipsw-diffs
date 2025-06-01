@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1AA4AC7A-B195-3CCD-98C4-09C838FBDB91
 -  Functions: 2837
 -  Symbols:   9012
--  CStrings:  3367
+-  CStrings:  4003
++  UUID: 12AA7C36-D751-3CD8-9FD4-472DD561A5D0
 +  Functions: 2845
 +  Symbols:   9033
-+  CStrings:  3383
++  CStrings:  4019
  
 Symbols:
 + -[TSDCKernelClock getUpdateLock]

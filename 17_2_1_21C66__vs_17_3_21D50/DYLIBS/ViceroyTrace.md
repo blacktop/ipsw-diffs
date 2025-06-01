@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E77B4AE-54D9-3976-82D2-4E57340BDC28
 -  Functions: 2682
 -  Symbols:   8877
--  CStrings:  5370
+-  CStrings:  6726
++  UUID: E9CA6E21-04ED-3568-8DD8-00BD2FC5588F
 +  Functions: 2774
 +  Symbols:   9206
-+  CStrings:  5586
++  CStrings:  7006
  
 Symbols:
 + -[DownlinkSegment processVTPEgressIngressTelemetry:]

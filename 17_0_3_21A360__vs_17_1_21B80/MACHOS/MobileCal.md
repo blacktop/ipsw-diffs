@@ -52,11 +52,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9275D386-F952-301F-A517-AE34C5316256
 -  Functions: 6488
++  UUID: 422A5FF1-826B-31D9-9C4A-1CE113B59A05
 +  Functions: 6490
    Symbols:   867
--  CStrings:  8857
-+  CStrings:  8861
+-  CStrings:  9374
++  CStrings:  9378
  
 CStrings:
 + "setContentInsetAdjustmentBehavior:"

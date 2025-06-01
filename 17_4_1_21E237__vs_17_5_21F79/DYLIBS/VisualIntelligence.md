@@ -54,10 +54,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x5498
 +  __AUTH_CONST.__const: 0x54b8
-   __AUTH_CONST.__auth_ptr: 0x510
    __AUTH_CONST.__auth_got: 0x2160
    __AUTH.__objc_data: 0x138
-
+   __AUTH.__data: 0x88
    __AUTH.__got_weak: 0x90
    __DATA.__got_weak: 0x60
    __DATA.__objc_ivar: 0x3ec
@@ -81,11 +80,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 99FF65F4-4279-30BF-9D2E-04751C98C63F
 -  Functions: 13446
++  UUID: 408E0F11-F9D8-333A-99B4-E6C2029B032A
 +  Functions: 13440
    Symbols:   8695
--  CStrings:  3866
-+  CStrings:  3868
+-  CStrings:  4026
++  CStrings:  4028
  
 CStrings:
 + "Overriding query context's application identifier to %s"

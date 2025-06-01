@@ -49,10 +49,9 @@
    __AUTH_CONST.__const: 0x6e0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x828
-
+   __AUTH_CONST.__objc_arrayobj: 0x300
    __AUTH_CONST.__objc_doubleobj: 0x1a0
    __AUTH_CONST.__objc_dictobj: 0x1e0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xec0
 +  __AUTH_CONST.__auth_got: 0xed8
    __DATA.__got_weak: 0xe0
@@ -78,12 +77,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6ADCE418-AAE6-32F9-9EF0-895DEA99C671
 -  Functions: 4108
 -  Symbols:   14161
--  CStrings:  6881
+-  CStrings:  8251
++  UUID: 7E091E70-D463-3DEB-A4C4-CBF3A5A87799
 +  Functions: 4126
 +  Symbols:   14219
-+  CStrings:  6917
++  CStrings:  8292
  
 Symbols:
 + +[PFMediaUtilities(DeprecatedAVFoundationSyncAPIHelpers) copyCGImageFromImageGenerator:atTime:actualTime:error:]

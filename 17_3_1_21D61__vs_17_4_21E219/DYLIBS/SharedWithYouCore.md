@@ -50,12 +50,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 8808F7F8-8A42-36E7-9501-111F1DB94581
 -  Functions: 496
 -  Symbols:   1872
--  CStrings:  779
+-  CStrings:  836
++  UUID: FEE03CEE-7B88-3AA8-9B3D-A3D2987EABE0
 +  Functions: 493
 +  Symbols:   1869
-+  CStrings:  782
++  CStrings:  839
  
 Symbols:
 + ___block_literal_global.129

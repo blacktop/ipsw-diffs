@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7B7DC37-6401-3C5E-BC9E-26FA58A37A09
 -  Functions: 1789
 -  Symbols:   729
--  CStrings:  3834
+-  CStrings:  4288
++  UUID: D03BB1C9-6A90-31B2-964F-96ABBBD3BB8E
 +  Functions: 1794
 +  Symbols:   733
-+  CStrings:  3856
++  CStrings:  4312
  
 Symbols:
 + _ACAccountDataclassPhoneFaceTime

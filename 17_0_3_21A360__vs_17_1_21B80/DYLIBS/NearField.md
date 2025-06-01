@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E943F62C-A27A-3E2C-A88A-E57A8A62CEE1
 -  Functions: 2304
 -  Symbols:   7400
--  CStrings:  3900
+-  CStrings:  4389
++  UUID: FFF7B1AB-3E83-37FF-8632-88C5EEC6F1B1
 +  Functions: 2327
 +  Symbols:   7463
-+  CStrings:  3939
++  CStrings:  4442
  
 Symbols:
 + +[NFReaderSessionPollConfig pollConfigWithTechnology:]

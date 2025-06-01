@@ -23,11 +23,13 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0C23C639-4EEF-32FE-AAAA-DCD887175825
 -  Functions: 3034
 -  Symbols:   6781
++  UUID: 89826636-2199-38F1-A48D-6CD1A6345E8E
 +  Functions: 3035
 +  Symbols:   6783
-   CStrings:  3484
+   CStrings:  3486
  
 Symbols:
 + _boringssl_psk_cache_clear_context

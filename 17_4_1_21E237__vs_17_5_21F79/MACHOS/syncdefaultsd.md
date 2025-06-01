@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x198
    __DATA_CONST.__const: 0xf08
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 90A26F99-C605-3100-B87F-B5C57F5F8FDB
++  UUID: AB1B67D3-C289-38E9-8C98-922FC564CD2A
+   Functions: 1163
+   Symbols:   315
+   CStrings:  2064
+
 ```

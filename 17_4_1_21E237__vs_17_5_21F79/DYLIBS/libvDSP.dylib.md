@@ -16,6 +16,15 @@
 +  __TEXT.__unwind_info: 0x1128
    __TEXT.__eh_frame: 0x13b0
    __DATA_CONST.__got: 0x18
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__const: 0x140
+
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 34744D42-6ED5-3A59-8B2B-489C89E50552
++  UUID: 5FD451F0-080F-37AB-9554-177E4BAD87F8
+   Functions: 1030
+   Symbols:   510
+   CStrings:  0
 
 ```

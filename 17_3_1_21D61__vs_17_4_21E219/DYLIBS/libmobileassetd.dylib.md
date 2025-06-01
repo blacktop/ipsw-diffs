@@ -45,7 +45,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x810
 -  __AUTH_CONST.__cfstring: 0x26960
 -  __AUTH_CONST.__objc_const: 0x3048
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__const: 0xa00
 -  __AUTH_CONST.__objc_intobj: 0x330
 -  __AUTH_CONST.__objc_arrayobj: 0x108
@@ -54,7 +53,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x868
 +  __AUTH_CONST.__cfstring: 0x28500
 +  __AUTH_CONST.__objc_const: 0x3090
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__const: 0xa20
 +  __AUTH_CONST.__objc_intobj: 0x390
 +  __AUTH_CONST.__objc_arrayobj: 0x168
@@ -81,12 +79,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libimg4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2686F731-46F5-32F0-A260-FA824E4BC76A
 -  Functions: 4896
 -  Symbols:   15893
--  CStrings:  12346
+-  CStrings:  17285
++  UUID: 2D9B1ACA-8DBA-3719-87AE-F6D29388D7B0
 +  Functions: 5075
 +  Symbols:   16407
-+  CStrings:  12902
++  CStrings:  18062
  
 Symbols:
 + +[DownloadManager getPallasUrl:assetType:]

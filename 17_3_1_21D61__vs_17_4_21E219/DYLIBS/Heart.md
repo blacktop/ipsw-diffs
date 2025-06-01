@@ -49,7 +49,6 @@
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__objc_const: 0x820
    __AUTH_CONST.__const: 0xd680
-   __AUTH_CONST.__auth_ptr: 0x4b8
 -  __AUTH_CONST.__auth_got: 0x2f58
 +  __AUTH_CONST.__auth_got: 0x2f68
    __AUTH.__objc_data: 0x5168
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5AA4A95F-0833-3E05-8DD7-EEFFF9F23596
 -  Functions: 8882
 -  Symbols:   3070
--  CStrings:  2555
+-  CStrings:  2561
++  UUID: BD79CDB5-0E55-3706-B0A2-CF62F487E173
 +  Functions: 8912
 +  Symbols:   3067
-+  CStrings:  2574
++  CStrings:  2580
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

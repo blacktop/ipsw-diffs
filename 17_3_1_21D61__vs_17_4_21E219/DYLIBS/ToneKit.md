@@ -75,12 +75,14 @@
    - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 932542EF-5162-3615-B652-E226F86631F9
 -  Functions: 1003
 -  Symbols:   3887
--  CStrings:  2012
+-  CStrings:  2141
++  UUID: 3606B92C-9D7D-3039-B3F9-DFBEA915F159
 +  Functions: 1013
 +  Symbols:   3927
-+  CStrings:  2034
++  CStrings:  2164
  
 Symbols:
 + -[TKTonePickerViewController _isAllowedToPresentMediaPicker]

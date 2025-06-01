@@ -47,7 +47,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x8a0
 +  __AUTH_CONST.__const: 0x180
 +  __AUTH_CONST.__objc_intobj: 0x8b8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x350
    __AUTH.__objc_data: 0xa0
 -  __DATA.__objc_protorefs: 0x78
@@ -68,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28F0FDFD-5DAD-315F-8E05-EE5D412CDE03
 -  Functions: 629
 -  Symbols:   1861
--  CStrings:  1084
+-  CStrings:  1196
++  UUID: A13A6F24-6AEE-3B3F-9EB3-F35FD6934051
 +  Functions: 632
 +  Symbols:   1875
-+  CStrings:  1095
++  CStrings:  1210
  
 Symbols:
 + -[LAPasscodeHelper dumpStatus]

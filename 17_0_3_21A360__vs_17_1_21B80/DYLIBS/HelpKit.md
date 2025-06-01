@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEE31C4C-63AD-3850-9C4A-0357C562FE70
 -  Functions: 1035
 -  Symbols:   4064
--  CStrings:  2234
+-  CStrings:  2558
++  UUID: 94B2D17E-B6E0-3787-B9EF-0BE30EF63FD4
 +  Functions: 1049
 +  Symbols:   4126
-+  CStrings:  2294
++  CStrings:  2624
  
 Symbols:
 + +[HLPCommonDefines isVisionOS]

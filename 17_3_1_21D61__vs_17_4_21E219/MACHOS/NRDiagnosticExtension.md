@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DBE772EF-D0DD-3599-B61B-634AF2BF13D2
++  UUID: 57A202C2-DB4D-3D46-8E60-F7220652666A
+   Functions: 3
+   Symbols:   21
+   CStrings:  11
+
 ```

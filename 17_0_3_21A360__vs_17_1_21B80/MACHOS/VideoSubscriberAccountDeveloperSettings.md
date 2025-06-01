@@ -49,11 +49,13 @@
    - /System/Library/PrivateFrameworks/VideoSubscriberAccountUI.framework/VideoSubscriberAccountUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE4E2F1F-53D8-340D-857C-7A1FF03824DF
 -  Functions: 166
++  UUID: 6E4D36E5-8922-335D-B9DA-28F3D8DB2EBA
 +  Functions: 174
    Symbols:   112
--  CStrings:  397
-+  CStrings:  418
+-  CStrings:  437
++  CStrings:  461
  
 CStrings:
 + "\x1f\x04"

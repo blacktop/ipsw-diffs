@@ -46,9 +46,8 @@
    __AUTH_CONST.__cfstring: 0x280
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__const: 0x9a70
-+  __AUTH_CONST.__const: 0x9a88
-   __AUTH_CONST.__auth_ptr: 0x300
 -  __AUTH_CONST.__auth_got: 0x2408
++  __AUTH_CONST.__const: 0x9a88
 +  __AUTH_CONST.__auth_got: 0x2418
    __AUTH.__objc_data: 0x14f8
    __AUTH.__data: 0x1780
@@ -66,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9250AEF2-BF0B-3CA1-9BD9-F0591DBA392F
 -  Functions: 5413
 -  Symbols:   2551
--  CStrings:  985
+-  CStrings:  1005
++  UUID: FC1EE3D4-17BD-3344-ABD9-004312D692F5
 +  Functions: 5419
 +  Symbols:   2553
-+  CStrings:  996
++  CStrings:  1016
  
 Symbols:
 + _NSForegroundColorAttributeName

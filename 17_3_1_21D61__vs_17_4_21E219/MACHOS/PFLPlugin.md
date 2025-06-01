@@ -24,11 +24,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerPFLTraining.framework/iCloudSubscriptionOptimizerPFLTraining
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50BF2721-DC55-3204-8BC6-FA7C7A22EB70
++  UUID: F959834A-10EC-3E9C-AB41-FE5E842F01B1
    Functions: 2
    Symbols:   21
--  CStrings:  60
-+  CStrings:  61
+-  CStrings:  64
++  CStrings:  65
  
 CStrings:
 + "T@\"NSString\",?,R,C"

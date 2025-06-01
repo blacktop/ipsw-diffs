@@ -17,7 +17,6 @@
    __TEXT.__unwind_info: 0x270
    __DATA_CONST.__got: 0xb0
    __DATA_CONST.__const: 0x218
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__cfstring: 0xa80
 +  __AUTH_CONST.__cfstring: 0xaa0
    __AUTH_CONST.__const: 0x120
@@ -27,12 +26,14 @@
    - /usr/lib/libPN548_API.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 691F82A1-1343-3A84-A7C2-D4C2BEC4E36D
 -  Functions: 177
 -  Symbols:   521
--  CStrings:  1113
+-  CStrings:  1197
++  UUID: 07039F7A-593C-3966-8288-5E390ADB25D6
 +  Functions: 178
 +  Symbols:   522
-+  CStrings:  1117
++  CStrings:  1202
  
 Symbols:
 + _NFHardwareHasVirtualGPIO

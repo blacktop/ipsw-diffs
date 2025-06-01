@@ -52,12 +52,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CFB12C20-7DC2-32D3-A38E-EAEA2AC8AB2B
++  UUID: 14D71E97-B384-3D84-BEC4-375A4762BB62
    Functions: 2389
 -  Symbols:   9194
 +  Symbols:   9193
-   CStrings:  4973
+   CStrings:  5756
  
 Symbols:
 + -[MCMClientIdentity isAllowedToLookupGroupContainersOfClass:ownedByIdentifiers:]

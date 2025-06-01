@@ -20,6 +20,14 @@
    __DATA.__got_weak: 0x8
    __DATA.__bss: 0x470
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: FB8977CF-03A1-3DD7-895D-49559CD08F4C
++  UUID: D39EA7EF-AE06-3315-99E8-105712A7EC07
+   Functions: 34
+   Symbols:   138
+   CStrings:  58
 Symbols:
 + __ZNKSt3__16vectorIN8dispatch8callbackIU13block_pointerFvN3sar19AppleSARMessageTypeEPvEEENS_9allocatorIS8_EEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

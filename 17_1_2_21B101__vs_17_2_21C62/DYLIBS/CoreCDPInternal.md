@@ -44,7 +44,7 @@
 +  __AUTH_CONST.__cfstring: 0x3060
    __AUTH_CONST.__const: 0x360
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x30
 
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x488
@@ -58,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F2EE22C-0458-3074-A0DC-57B828E6E67C
 -  Functions: 2279
 -  Symbols:   7791
--  CStrings:  3629
+-  CStrings:  4011
++  UUID: 53ED7CA9-3D0C-3C51-8BE7-BC24939A3332
 +  Functions: 2286
 +  Symbols:   7813
-+  CStrings:  3654
++  CStrings:  4041
  
 Symbols:
 + -[CDPDAnalyticsTransport initWithClientType:clientBundleId:clientName:].cold.1

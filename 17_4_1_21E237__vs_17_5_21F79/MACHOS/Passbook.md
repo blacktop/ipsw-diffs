@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D571A2F9-29ED-3501-A6B4-CBCB73927813
 -  Functions: 125
 -  Symbols:   351
--  CStrings:  600
+-  CStrings:  627
++  UUID: 4939048F-D525-3AFB-8BD1-D82C0B243135
 +  Functions: 126
 +  Symbols:   353
-+  CStrings:  603
++  CStrings:  631
  
 Symbols:
 + _PKURLActionRouteConnectedCards

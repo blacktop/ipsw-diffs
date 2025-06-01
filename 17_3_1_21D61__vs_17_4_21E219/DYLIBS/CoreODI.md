@@ -66,8 +66,6 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0xca0
 -  __AUTH_CONST.__const: 0xc30
-+  __AUTH_CONST.__const: 0xc48
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x860
 -  __AUTH.__data: 0x258
 -  __AUTH.__objc_data: 0x0
@@ -78,6 +76,7 @@
 -  __DATA.__data: 0x810
 -  __DATA.__bss: 0x1220
 -  __DATA.__common: 0x40
++  __AUTH_CONST.__const: 0xc48
 +  __AUTH_CONST.__auth_got: 0x938
 +  __AUTH.__objc_data: 0xf8
 +  __AUTH.__data: 0x2e0
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8EFE4C7F-C366-3C54-A50A-A56A9BBF25C4
 -  Functions: 1307
 -  Symbols:   631
--  CStrings:  551
+-  CStrings:  652
++  UUID: 7F5C46FE-FC52-33CF-A9B5-41218E5D961C
 +  Functions: 1270
 +  Symbols:   680
-+  CStrings:  603
++  CStrings:  704
  
 Symbols:
 + -[ODISession availablePartialAssessment]

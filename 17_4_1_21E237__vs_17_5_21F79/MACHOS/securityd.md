@@ -70,11 +70,13 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C62A772A-2952-3CE0-930E-F5A46A80F413
 -  Functions: 9245
++  UUID: FC8D1242-5FF9-3E81-A8C5-564777AFDCE3
 +  Functions: 9249
    Symbols:   1370
--  CStrings:  15365
-+  CStrings:  15383
+-  CStrings:  18825
++  CStrings:  18846
  
 CStrings:
 + "\x03\x12\x11\x1f\x0f\f"

@@ -29,11 +29,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE19F7DD-BD8C-374C-9061-E6315D108D6B
++  UUID: 89892042-9BC5-3E71-9D6D-BAB7A95193A8
    Functions: 4
    Symbols:   31
--  CStrings:  61
-+  CStrings:  62
+-  CStrings:  64
++  CStrings:  65
  
 CStrings:
 + "T@\"NSString\",?,R,C"

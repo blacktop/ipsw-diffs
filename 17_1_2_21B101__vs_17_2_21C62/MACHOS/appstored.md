@@ -105,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C2738F35-DAC4-3ADE-8DA5-DD34764BE281
 -  Functions: 11055
 -  Symbols:   1640
--  CStrings:  14302
+-  CStrings:  17658
++  UUID: 57FEED5E-9E6B-3C76-9792-60015F79B38B
 +  Functions: 11119
 +  Symbols:   1686
-+  CStrings:  14363
++  CStrings:  17744
  
 Symbols:
 + _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC

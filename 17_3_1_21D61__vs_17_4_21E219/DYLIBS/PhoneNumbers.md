@@ -22,4 +22,13 @@
    __DATA_DIRTY.__const: 0x20
    __DATA_DIRTY.__objc_const: 0xc0
 
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 623D97C3-BEF9-3E65-B7DA-F23C377050B5
++  UUID: 8C9DB1E3-6C68-31DB-A3A5-C923867BAF55
+   Functions: 8
+   Symbols:   49
+   CStrings:  27
+
 ```

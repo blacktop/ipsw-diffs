@@ -40,11 +40,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC37D11E-E447-3CFA-8CCD-B5E5AF081CE4
 -  Functions: 8312
 -  Symbols:   1242
++  UUID: 9433398E-4E49-3478-886E-D18350E21C4D
 +  Functions: 8311
 +  Symbols:   1243
-   CStrings:  21857
+   CStrings:  25302
  
 Symbols:
 + _ACAccountDataclassMoments

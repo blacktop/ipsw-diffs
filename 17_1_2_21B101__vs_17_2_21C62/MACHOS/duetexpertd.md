@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9F77A8FE-641A-3CCC-BD96-14908A679D37
 -  Functions: 2
 -  Symbols:   44
--  CStrings:  31
+-  CStrings:  47
++  UUID: 5DA81B43-58DD-3CE8-921B-139A659761AB
 +  Functions: 3
 +  Symbols:   45
-+  CStrings:  33
++  CStrings:  49
  
 Symbols:
 + _OBJC_CLASS_$__PASDeviceState

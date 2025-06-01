@@ -31,11 +31,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x4
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: A713A268-CDB5-3835-80CF-57228739537D
++  UUID: 55C26FB3-F106-3EFE-9C93-AC6DE229882F
    Functions: 67
    Symbols:   149
--  CStrings:  231
-+  CStrings:  232
+-  CStrings:  284
++  CStrings:  285
  
 CStrings:
 + "URLWithString:"

@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__cfstring: 0x62a0
    __AUTH_CONST.__const: 0x1220
    __AUTH_CONST.__objc_intobj: 0x3d8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xd60
 -  __AUTH.__objc_data: 0x1630
 -  __DATA.__objc_protorefs: 0xa8
@@ -76,12 +75,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B4525511-7042-349D-897F-BBC7B483ECB0
 -  Functions: 5483
 -  Symbols:   1365
--  CStrings:  7820
+-  CStrings:  8606
++  UUID: 6F79A07D-9104-3056-B470-D56D0EABA60A
 +  Functions: 5577
 +  Symbols:   1382
-+  CStrings:  7901
++  CStrings:  8690
  
 Symbols:
 + OBJC_IVAR_$_IDSDaemonListener._serviceToRestrictionReason

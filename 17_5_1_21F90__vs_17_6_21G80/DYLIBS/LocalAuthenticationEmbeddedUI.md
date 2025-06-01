@@ -46,12 +46,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C954E4C5-17AF-31D8-8D02-C6C4CDA8A655
 -  Functions: 1111
 -  Symbols:   4526
--  CStrings:  1724
+-  CStrings:  1825
++  UUID: 95A15796-BDDA-3A44-8DF4-14E10A10AF6D
 +  Functions: 1112
 +  Symbols:   4530
-+  CStrings:  1727
++  CStrings:  1828
  
 Symbols:
 + -[LACapsuleLabel textRectForBounds:limitedToNumberOfLines:]

@@ -15,4 +15,13 @@
    __TEXT.__swift5_typeref: 0x161
    __TEXT.__swift5_fieldmd: 0x264
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: F2BDB708-B4F2-335E-A227-E8E673875DB2
++  UUID: 3C540811-A2E6-3B59-A2EE-BE4BDF56E1BC
+   Functions: 518
+   Symbols:   535
+   CStrings:  125
+
 ```

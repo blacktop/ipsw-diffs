@@ -31,9 +31,11 @@
    - /System/Library/Frameworks/Network.framework/Network
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF7C9FCA-E297-3407-8443-0B407900A0BF
 -  Functions: 313
 -  Symbols:   859
 -  CStrings:  883
++  UUID: 1C285CC8-0DE3-3A07-9507-3E180A11A8BB
 +  Functions: 314
 +  Symbols:   863
 +  CStrings:  884

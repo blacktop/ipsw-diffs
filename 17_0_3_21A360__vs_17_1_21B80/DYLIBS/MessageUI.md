@@ -52,9 +52,9 @@
    __AUTH_CONST.__objc_const: 0x55c0
 -  __AUTH_CONST.__const: 0xe90
 +  __AUTH_CONST.__const: 0xe50
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0x528
+   __AUTH_CONST.__objc_arrayobj: 0x78
 
    __DATA.__objc_protorefs: 0x40
    __DATA.__objc_classrefs: 0xf98
@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB5A6FE4-14E7-3564-AA59-6318EEE0E6DD
 -  Functions: 5431
 -  Symbols:   22838
--  CStrings:  10676
+-  CStrings:  11792
++  UUID: EDC1F029-BFA9-3707-A991-1CEC6B4362C7
 +  Functions: 5435
 +  Symbols:   22850
-+  CStrings:  10680
++  CStrings:  11796
  
 Symbols:
 + +[UIColor(MessageUI) datePickerHeaderColor]

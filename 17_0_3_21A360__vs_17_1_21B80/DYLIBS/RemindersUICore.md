@@ -62,9 +62,7 @@
 -  __AUTH_CONST.__const: 0x2f768
 +  __AUTH_CONST.__const: 0x2f820
    __AUTH_CONST.__cfstring: 0x180
--  __AUTH_CONST.__auth_ptr: 0x8a0
 -  __AUTH_CONST.__auth_got: 0x2f80
-+  __AUTH_CONST.__auth_ptr: 0x8b8
 +  __AUTH_CONST.__auth_got: 0x2ff8
    __AUTH.__objc_data: 0x34f8
 -  __AUTH.__data: 0x9de8
@@ -101,11 +99,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB268FA4-A689-3D9F-9F97-EA5B735D2EDD
 -  Functions: 33297
++  UUID: EE6DDEA0-D1C6-3176-AA8D-4BCC8D210B97
 +  Functions: 33586
    Symbols:   10740
--  CStrings:  5551
-+  CStrings:  5589
+-  CStrings:  5563
++  CStrings:  5601
  
 Symbols:
 + +[UIColor(TTRCompatibility) ttr_tableBackgroundColor]

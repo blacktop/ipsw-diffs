@@ -38,12 +38,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0EB14E6F-DEFF-367B-8E4A-CF12624DF9F3
 -  Functions: 10007
 -  Symbols:   35095
--  CStrings:  12425
+-  CStrings:  15267
++  UUID: A8918968-F4BB-37EE-A142-5C27A8BB8B31
 +  Functions: 10010
 +  Symbols:   35101
-+  CStrings:  12427
++  CStrings:  15269
  
 Symbols:
 + -[AVAssetTrack _figFormatReader]

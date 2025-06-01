@@ -85,11 +85,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E59B7973-C4C4-3D8E-9677-FC22EB5321DA
 -  Functions: 28502
++  UUID: 227B779D-F9BB-35E9-A87F-ED1F65D77E6A
 +  Functions: 28735
    Symbols:   844
--  CStrings:  7060
-+  CStrings:  7086
+-  CStrings:  7228
++  CStrings:  7254
  
 CStrings:
 + "ASMessagesProvider/BaseActionRunner.swift"

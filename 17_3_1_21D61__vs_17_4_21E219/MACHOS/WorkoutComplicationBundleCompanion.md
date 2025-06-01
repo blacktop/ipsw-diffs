@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7CC0801-D27B-3893-827F-709B60A4F111
 -  Functions: 129
 -  Symbols:   166
--  CStrings:  419
+-  CStrings:  459
++  UUID: 88681A79-1AF7-3EC5-B714-B4EC703A8DA1
 +  Functions: 116
 +  Symbols:   157
-+  CStrings:  404
++  CStrings:  444
  
 Symbols:
 - _HKSampleSortIdentifierStartDate

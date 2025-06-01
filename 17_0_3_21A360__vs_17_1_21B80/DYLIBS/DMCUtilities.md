@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF0DCAB3-08C9-38EC-A212-5F5B599AFD9F
 -  Functions: 1001
 -  Symbols:   3804
--  CStrings:  2140
+-  CStrings:  2518
++  UUID: 13674FCD-285E-3241-B933-FDF02316FC9E
 +  Functions: 1025
 +  Symbols:   3890
-+  CStrings:  2182
++  CStrings:  2583
  
 Symbols:
 + +[DMCDateFormatterFactory isoLocalTimeZoneDateFormatter]

@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 510FDCD1-FDD7-366C-8671-D4A88C5BFD58
 -  Functions: 355
 -  Symbols:   1509
--  CStrings:  883
+-  CStrings:  1045
++  UUID: B3A88428-E784-390C-BC09-1282EB5ADBD7
 +  Functions: 359
 +  Symbols:   1522
-+  CStrings:  892
++  CStrings:  1057
  
 Symbols:
 + +[NSURL(NSSAdditions) nss_NewsURLForFullArchivePuzzleTypeID:]

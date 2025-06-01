@@ -48,9 +48,8 @@
    __AUTH_CONST.__cfstring: 0x93c0
    __AUTH_CONST.__objc_intobj: 0x3d8
    __AUTH_CONST.__objc_arrayobj: 0x300
-
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2aa8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x7b8
 -  __AUTH.__objc_data: 0x3660
 -  __DATA.__objc_protorefs: 0x548
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27DDDFD9-DCB0-3048-A401-03522B910031
 -  Functions: 8237
 -  Symbols:   33806
--  CStrings:  12989
+-  CStrings:  14171
++  UUID: E95A31D4-7355-3D96-8750-B35629446AAC
 +  Functions: 8250
 +  Symbols:   33865
-+  CStrings:  13006
++  CStrings:  14188
  
 Symbols:
 + -[SXDocumentSectionManager performAppearanceTransitionForVisibleViewControllers]

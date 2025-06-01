@@ -60,10 +60,8 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x2998
 -  __AUTH_CONST.__const: 0x9c3d0
--  __AUTH_CONST.__auth_ptr: 0x39d0
 -  __AUTH_CONST.__auth_got: 0xc0e8
 +  __AUTH_CONST.__const: 0x9c908
-+  __AUTH_CONST.__auth_ptr: 0x39e0
 +  __AUTH_CONST.__auth_got: 0xc078
    __AUTH.__objc_data: 0x8d68
 -  __AUTH.__data: 0x1b9f8
@@ -91,12 +89,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4A244E9-0029-3BCC-A6C4-584E347E0461
 -  Functions: 93752
 -  Symbols:   23137
--  CStrings:  13557
+-  CStrings:  13561
++  UUID: 8FE7AAF3-DDAF-36D7-ACD9-9B447BDBC918
 +  Functions: 94053
 +  Symbols:   23162
-+  CStrings:  13571
++  CStrings:  13575
  
 Symbols:
 + __DATA__TtC7NewsUI220PuzzleArchiveService

@@ -83,9 +83,11 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C7B99F76-7D1E-3F88-9CF2-844D2B93AFC7
 -  Functions: 7965
 -  Symbols:   1026
 -  CStrings:  2856
++  UUID: 4D09B967-818F-3F75-8837-E55024763E33
 +  Functions: 8177
 +  Symbols:   1066
 +  CStrings:  2976

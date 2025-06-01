@@ -29,11 +29,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6387F854-4CDC-379C-A451-E3B14CA348F8
 -  Functions: 5283
 -  Symbols:   13693
++  UUID: 89602DBC-BF5A-32FF-A0D1-4667D4345EC9
 +  Functions: 5304
 +  Symbols:   13749
-   CStrings:  3564
+   CStrings:  3570
  
 Symbols:
 + __ZL11texFormatA8.10443

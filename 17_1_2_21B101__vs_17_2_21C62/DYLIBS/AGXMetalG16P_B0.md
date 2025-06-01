@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_arraydata: 0x58
    __AUTH_CONST.__const: 0x21c0
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88396ACD-1452-34F3-82AA-1873AC40CA26
++  UUID: 363DB2B9-AE5B-3781-9D8C-EFE78935AED3
    Functions: 6299
    Symbols:   14457
--  CStrings:  3909
-+  CStrings:  3913
+-  CStrings:  4290
++  CStrings:  4294
  
 Symbols:
 + ___Block_byref_object_copy_.1691

@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x19bd
    __TEXT.__dlopen_cstrs: 0x1cd
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A8996B4E-2A6F-3AF0-BBDC-F48638FEC486
++  UUID: F9B1F086-101D-37A1-9254-6C46CE735BE3
+   Functions: 1301
+   Symbols:   4605
+   CStrings:  2076
+
 ```

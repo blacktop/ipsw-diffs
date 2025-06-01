@@ -26,11 +26,15 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E064EFE4-7159-3EF3-BFDF-7CE782583AA7
++  UUID: A2822577-3C38-3ED8-8AF4-BE3ECE6E6A79
    Functions: 1685
    Symbols:   666
--  CStrings:  2852
-+  CStrings:  2853
+-  CStrings:  3216
++  CStrings:  3217
  
 CStrings:
 + "TimeSpentReports"

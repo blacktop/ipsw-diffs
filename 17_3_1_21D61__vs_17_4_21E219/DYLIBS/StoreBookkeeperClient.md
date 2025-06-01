@@ -69,12 +69,14 @@
 +  - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8A4853D-CFD0-3073-9364-C2DD15B71844
 -  Functions: 125
 -  Symbols:   571
--  CStrings:  288
+-  CStrings:  318
++  UUID: BA92E7C4-EE02-394A-9DF5-24110C94A410
 +  Functions: 99
 +  Symbols:   475
-+  CStrings:  290
++  CStrings:  315
  
 Symbols:
 + -[ICPlaybackPositionEntity(SBCPrivate) sbcEntity]

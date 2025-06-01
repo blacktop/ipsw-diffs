@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x18
 
+   - /usr/lib/libAWDSupportFramework.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 41B82F51-77B9-35CB-898E-E1C7184D422B
++  UUID: 692F85FD-0D48-38B6-BC01-4CCE709CBBEA
+   Functions: 114
+   Symbols:   143
+   CStrings:  316
+
 ```

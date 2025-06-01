@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 58B8BA20-5377-379D-8787-AADCD09032E5
 -  Functions: 1529
 -  Symbols:   5261
--  CStrings:  2903
+-  CStrings:  3457
++  UUID: 515D84DE-7C4F-3803-A648-C09C9E0328CD
 +  Functions: 1535
 +  Symbols:   5281
-+  CStrings:  2928
++  CStrings:  3494
  
 Symbols:
 + -[TAAccessoryInformation accessoryTypeNameWithAdvTypeString:]

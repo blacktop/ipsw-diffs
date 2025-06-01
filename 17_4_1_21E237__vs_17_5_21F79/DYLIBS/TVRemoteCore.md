@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_classrefs: 0x590
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A331A91-FCAA-381D-B0B3-8E47EA86953A
++  UUID: EF1C4EB9-080E-3F1C-A32F-918FF2DE985D
    Functions: 2834
    Symbols:   9144
--  CStrings:  4838
-+  CStrings:  4839
+-  CStrings:  5646
++  CStrings:  5647
  
 CStrings:
 + "accessoryDidUpdateSupportsCompanionInitiatedObliterate:"

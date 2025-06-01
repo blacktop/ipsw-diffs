@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 956D49CE-B343-374A-A177-4146FADE293C
 -  Functions: 2692
 -  Symbols:   11259
--  CStrings:  5026
+-  CStrings:  6212
++  UUID: F0AB4189-B8BF-3F10-B4D6-50533AEC5EC1
 +  Functions: 2715
 +  Symbols:   11326
-+  CStrings:  5046
++  CStrings:  6236
  
 Symbols:
 + -[ICNAController endSessionBackgroundTaskIdentifiersByWindowSceneIdentifier]

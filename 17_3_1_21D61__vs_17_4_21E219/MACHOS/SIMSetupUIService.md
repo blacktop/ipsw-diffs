@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D520485-756D-33B6-9073-732C93A35EE3
 -  Functions: 398
 -  Symbols:   212
--  CStrings:  1116
+-  CStrings:  1192
++  UUID: 2B702DCB-31A3-3516-BF85-B05DB38BDF2B
 +  Functions: 393
 +  Symbols:   213
-+  CStrings:  1122
++  CStrings:  1198
  
 Symbols:
 + _OBJC_CLASS_$_NSNull

@@ -52,9 +52,8 @@
    __AUTH_CONST.__objc_const: 0x4468
    __AUTH_CONST.__const: 0xf50
    __AUTH_CONST.__objc_intobj: 0x210
-
+   __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x6a8
 -  __AUTH.__objc_data: 0x1cc0
 -  __DATA.__objc_ivar: 0xd20
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A5AA018-9710-3F00-96F5-A39ECE0B4834
 -  Functions: 5313
 -  Symbols:   17223
--  CStrings:  7682
+-  CStrings:  9242
++  UUID: 624C1B70-0368-3106-AB17-A65404FCE7D6
 +  Functions: 5319
 +  Symbols:   17256
-+  CStrings:  7732
++  CStrings:  9313
  
 Symbols:
 + -[AKAccountManager adpCohortForAccount:]

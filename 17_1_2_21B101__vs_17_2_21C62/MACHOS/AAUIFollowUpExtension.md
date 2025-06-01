@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90B2C853-D58C-3097-B7D3-BD5E18FA9E86
 -  Functions: 125
++  UUID: BEEB1EC2-D4E6-3ECE-9689-A1B46D0D81DF
 +  Functions: 123
    Symbols:   124
--  CStrings:  375
-+  CStrings:  374
+-  CStrings:  403
++  CStrings:  402
  
 CStrings:
 + "_continueRecoveryContactGenerationFlowForWalrusUser:"

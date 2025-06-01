@@ -51,12 +51,11 @@
    __AUTH_CONST.__cfstring: 0x1e0
 -  __AUTH_CONST.__objc_const: 0x1470
 -  __AUTH_CONST.__const: 0x27688
-+  __AUTH_CONST.__objc_const: 0x14b8
-+  __AUTH_CONST.__const: 0x276c0
-   __AUTH_CONST.__auth_ptr: 0x870
 -  __AUTH_CONST.__auth_got: 0x3158
 -  __AUTH.__objc_data: 0xc290
 -  __AUTH.__data: 0xaab0
++  __AUTH_CONST.__objc_const: 0x14b8
++  __AUTH_CONST.__const: 0x276c0
 +  __AUTH_CONST.__auth_got: 0x3160
 +  __AUTH.__objc_data: 0xc240
 +  __AUTH.__data: 0xaa90
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0FC9565-6C74-3A99-BBB7-4543EE1A786F
 -  Functions: 49602
 -  Symbols:   107071
--  CStrings:  8417
+-  CStrings:  8432
++  UUID: 761A65D1-615D-3023-8927-24C298993A1B
 +  Functions: 49576
 +  Symbols:   107029
-+  CStrings:  8418
++  CStrings:  8433
  
 Symbols:
 + _$s15ConversationKit14ReactionsStateO9isVisibleSbvgTm

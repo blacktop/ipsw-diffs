@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13C2D343-4534-3A8A-8D07-A6522BCA5343
++  UUID: 32FC70F4-4B9D-3B1A-8774-E3045EA3EB47
    Functions: 110
    Symbols:   108
--  CStrings:  587
-+  CStrings:  588
+-  CStrings:  610
++  CStrings:  611
  
 CStrings:
 + "T@\"NSString\",?,R,C"

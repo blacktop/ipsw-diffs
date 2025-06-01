@@ -28,4 +28,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4B5D6090-037C-3278-87B2-A69F760139F8
++  UUID: 506A0229-4771-3FA5-A38B-2675C2D824DE
+   Functions: 157
+   Symbols:   914
+   CStrings:  577
+
 ```

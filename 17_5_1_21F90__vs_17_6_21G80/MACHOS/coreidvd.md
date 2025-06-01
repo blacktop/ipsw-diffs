@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AF47332C-9EFE-3508-B160-1FDFEBE097B4
 -  Functions: 14324
 -  Symbols:   3605
--  CStrings:  6904
+-  CStrings:  6913
++  UUID: 0B8C1989-98AB-37A8-A614-112E9F0B4356
 +  Functions: 14332
 +  Symbols:   3606
-+  CStrings:  6914
++  CStrings:  6923
  
 Symbols:
 + _$s13CoreIDVShared28IdentityProofingActionStatusON

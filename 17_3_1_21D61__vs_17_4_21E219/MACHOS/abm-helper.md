@@ -31,8 +31,11 @@
    __DATA.__bss: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 33817636-98AC-3966-9694-F50B9CFB0DE8
++  UUID: 29AD335C-26E6-3349-9FE4-3E2F3AC5A541
    Functions: 46
 -  Symbols:   123
 -  CStrings:  17

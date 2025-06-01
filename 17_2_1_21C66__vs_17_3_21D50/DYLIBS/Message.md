@@ -48,21 +48,24 @@
    __AUTH_CONST.__cfstring: 0x17f20
    __AUTH_CONST.__const: 0x866f0
 
+   __AUTH_CONST.__objc_arrayobj: 0xb58
    __AUTH_CONST.__objc_intobj: 0x9d8
    __AUTH_CONST.__objc_dictobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8a0
 -  __AUTH_CONST.__auth_got: 0x3968
 +  __AUTH_CONST.__auth_got: 0x3970
    __AUTH.__objc_data: 0x4e90
    __AUTH.__data: 0x6408
    __DATA.__objc_protorefs: 0x110
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5DFE228A-84DF-38FB-8289-12B2150785AD
++  UUID: 8EEC9E39-CE49-36D3-AB90-A6BD77D4221A
    Functions: 63998
 -  Symbols:   42154
 +  Symbols:   42158
-   CStrings:  16175
+   CStrings:  19240
  
 Symbols:
 + -[IMAPAccount _fetchAndSetSeparatorChar]

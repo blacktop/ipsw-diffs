@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_const: 0x2e78
 -  __AUTH_CONST.__const: 0x3018
 +  __AUTH_CONST.__const: 0x3020
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0x10a8
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E6F74BC-E965-326B-8AB6-6EAA5669D198
 -  Functions: 4804
 -  Symbols:   14493
--  CStrings:  4316
+-  CStrings:  4689
++  UUID: B31A20E0-5356-3848-88DE-07471F72B403
 +  Functions: 4821
 +  Symbols:   14547
-+  CStrings:  4339
++  CStrings:  4712
  
 Symbols:
 + -[SLHighlightsCache didDeleteHighlightsOrAttributions].cold.2

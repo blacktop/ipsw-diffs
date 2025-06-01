@@ -33,11 +33,15 @@
    __DATA.__data: 0x618
    __DATA.__bss: 0x98
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9EE9A7E0-1C20-31C3-9E60-440D996A1D7E
++  UUID: 952B5B9A-8267-3BD9-8796-52B3CADB961F
    Functions: 326
    Symbols:   1337
--  CStrings:  541
-+  CStrings:  542
+-  CStrings:  627
++  CStrings:  628
  
 Symbols:
 + ___70+[FSUserFontManager registeredFontsInfoForIdentifier:enabled:appInfo:]_block_invoke.164

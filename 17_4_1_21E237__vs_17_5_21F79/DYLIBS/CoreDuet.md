@@ -50,7 +50,7 @@
    __AUTH_CONST.__const: 0x1880
    __AUTH_CONST.__objc_intobj: 0x2298
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_arrayobj: 0x588
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__auth_got: 0xa40
 -  __AUTH.__objc_data: 0x4a10
@@ -75,12 +75,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 452E7CE9-4481-3277-9F1A-7DEBAE73840B
 -  Functions: 8777
 -  Symbols:   27058
--  CStrings:  11727
+-  CStrings:  14157
++  UUID: E67DE52E-784A-3E5E-85E9-A9BAD7F4F0B4
 +  Functions: 8759
 +  Symbols:   26996
-+  CStrings:  11627
++  CStrings:  14014
  
 Symbols:
 + ___51-[_DKSync2Coordinator __performSyncWithCompletion:]_block_invoke.559

@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__const: 0x20f0
    __AUTH_CONST.__objc_dictobj: 0x190
-   __AUTH_CONST.__auth_ptr: 0x100
    __AUTH_CONST.__auth_got: 0x1458
 -  __AUTH.__objc_data: 0x2c0
 -  __AUTH.__data: 0xe0
@@ -74,11 +73,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 428474BC-0631-33FE-BA70-5ADDBE7D266F
 -  Functions: 6468
++  UUID: D61C91B8-7266-3358-8124-E601988F8F7E
 +  Functions: 6469
    Symbols:   1116
--  CStrings:  4235
-+  CStrings:  4236
+-  CStrings:  5121
++  CStrings:  5122
  
 CStrings:
 + "Unable to find primary language for %@"

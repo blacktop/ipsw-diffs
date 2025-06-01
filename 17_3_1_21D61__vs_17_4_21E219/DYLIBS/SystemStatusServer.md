@@ -47,13 +47,16 @@
    __DATA.__data: 0xae0
    __DATA_DIRTY.__objc_ivar: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F5CF82B6-CF18-3348-89F8-F27A9F6F38BE
++  UUID: 008EDA1D-28B9-3F72-8C0F-192D3DEBAFDF
    Functions: 595
 -  Symbols:   2486
--  CStrings:  1213
+-  CStrings:  1381
 +  Symbols:   2491
-+  CStrings:  1218
++  CStrings:  1386
  
 Symbols:
 + _OBJC_CLASS_$_STMediaStatusDomainMicrophoneRecordingAttribution

@@ -28,7 +28,6 @@
    __AUTH_CONST.__objc_const: 0x1320
    __AUTH_CONST.__cfstring: 0x4000
    __AUTH_CONST.__const: 0x3e8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x2d8
 -  __DATA.__objc_classrefs: 0x230
 -  __DATA.__objc_superrefs: 0x118
@@ -36,11 +35,15 @@
    __DATA.__data: 0x398
    __DATA.__bss: 0x58
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 345FBFB5-342B-3F12-A6BA-6765E90B8D24
++  UUID: F453B140-35C5-39D9-9139-8BF794E26DBB
    Functions: 1226
    Symbols:   3820
--  CStrings:  1754
-+  CStrings:  1755
+-  CStrings:  2266
++  CStrings:  2267
  
 Symbols:
 + ___block_literal_global.551

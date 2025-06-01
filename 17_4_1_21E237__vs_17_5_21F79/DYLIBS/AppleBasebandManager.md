@@ -20,6 +20,15 @@
    __DATA_DIRTY.__data: 0xb0
    __DATA_DIRTY.__bss: 0x18
    __DATA_DIRTY.__common: 0x18
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 0109EC3D-D972-32E4-988B-809C827983BA
++  UUID: 122A6B5D-EE84-3E78-A880-1012870C1A92
+   Functions: 600
+   Symbols:   2569
+   CStrings:  901
 CStrings:
 + "AppleBasebandManager-AppleBasebandServices_Manager-1053"
 + "AppleBasebandServices_Manager-1053"

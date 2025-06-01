@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/NearField.framework/NearField
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A15F3C5A-2E63-3CA3-B9D2-7BEE6E2C8CF8
 -  Functions: 327
++  UUID: D13DE3D9-8615-344E-912C-8FF400E09AA0
 +  Functions: 329
    Symbols:   178
--  CStrings:  1108
-+  CStrings:  1110
+-  CStrings:  1465
++  CStrings:  1468
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

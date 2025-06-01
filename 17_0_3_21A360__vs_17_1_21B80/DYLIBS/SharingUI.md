@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AD180490-6D5C-3DF3-BCE3-FC696003314D
 -  Functions: 2085
 -  Symbols:   6038
--  CStrings:  3295
+-  CStrings:  3518
++  UUID: 2FF4A0F3-B0A9-38C0-BA97-8FAB334F12C7
 +  Functions: 2092
 +  Symbols:   6054
-+  CStrings:  3301
++  CStrings:  3524
  
 Symbols:
 + +[SFShareSheetRendering drawingCommandsForMoreListEntryTitle:labelColor:hostConfig:activityCategory:]

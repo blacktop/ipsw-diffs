@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E735C0B2-6E19-3928-8BBB-AFAC3180084C
 -  Functions: 6019
 -  Symbols:   20224
--  CStrings:  11238
+-  CStrings:  13960
++  UUID: 48AEED53-C3AF-374E-87E5-731B97220148
 +  Functions: 6026
 +  Symbols:   20241
-+  CStrings:  11240
++  CStrings:  13962
  
 Symbols:
 + +[NEIKEv2CreateChildPacket createRekeyRequestChildSA:]

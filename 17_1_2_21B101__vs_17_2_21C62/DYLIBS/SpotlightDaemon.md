@@ -50,13 +50,16 @@
    __DATA.__thread_ptrs: 0x8
    __DATA.__bss: 0x1a9
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 744DE98F-F401-3F94-B8FE-D571CA57D416
++  UUID: 5E87A635-5A56-3AAF-8F59-05E0AD99C72D
    Functions: 2036
 -  Symbols:   6961
--  CStrings:  3291
+-  CStrings:  3773
 +  Symbols:   6960
-+  CStrings:  3290
++  CStrings:  3772
  
 Symbols:
 + -[MDSearchableIndexService entitledAttributes]

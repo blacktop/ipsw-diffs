@@ -49,11 +49,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 9A4E0524-9F06-3079-8A41-E8B51F5B55FB
 -  Functions: 6272
++  UUID: C2CBDD01-4206-303D-9259-76872E6B8B2D
 +  Functions: 6280
    Symbols:   1017
--  CStrings:  9946
-+  CStrings:  9956
+-  CStrings:  11176
++  CStrings:  11187
  
 CStrings:
 + "AX Escape"

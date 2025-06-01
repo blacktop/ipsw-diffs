@@ -45,13 +45,16 @@
    __DATA.__data: 0x400
    __DATA.__common: 0x50
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: AE3658F1-D9E2-3104-B612-09E9323F2E24
++  UUID: 87503D9C-BC43-3D0A-93CE-8ACC51521FF9
    Functions: 114
 -  Symbols:   198
--  CStrings:  163
+-  CStrings:  164
 +  Symbols:   202
-+  CStrings:  177
++  CStrings:  178
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

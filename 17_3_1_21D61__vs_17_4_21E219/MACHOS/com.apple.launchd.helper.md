@@ -12,4 +12,13 @@
    __TEXT.__const: 0x58
    __TEXT.__cstring: 0x5f
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/PrivateFrameworks/FSEvents.framework/FSEvents
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 0C3F75C5-46BB-3924-8010-3C115E8F9BD7
++  UUID: 9AD38C6C-908D-3B28-AA20-F4FC93202EBA
+   Functions: 5
+   Symbols:   44
+   CStrings:  12
+
 ```

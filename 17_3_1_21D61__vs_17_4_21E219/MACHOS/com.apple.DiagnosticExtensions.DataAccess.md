@@ -14,5 +14,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB398BDD-FF9E-3DCB-BBA9-AC0887263D55
++  UUID: FB170469-E3CF-3734-B927-932058EF3178
+   Functions: 1
+   Symbols:   17
+   CStrings:  10
 
 ```

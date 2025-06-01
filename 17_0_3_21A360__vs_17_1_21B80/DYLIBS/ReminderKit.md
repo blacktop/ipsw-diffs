@@ -66,12 +66,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0953C136-4417-3CCF-8F4D-47E16D04BFB2
 -  Functions: 8608
 -  Symbols:   26388
--  CStrings:  9092
+-  CStrings:  10801
++  UUID: 5472EF2F-443E-3D62-A949-CAC08DA3F241
 +  Functions: 8613
 +  Symbols:   26405
-+  CStrings:  9101
++  CStrings:  10814
  
 Symbols:
 + -[REMDaemonUserDefaults hideEmptySectionsForGroceryList:]

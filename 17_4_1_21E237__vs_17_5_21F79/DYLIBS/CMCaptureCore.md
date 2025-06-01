@@ -28,13 +28,16 @@
    __DATA.__data: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F22F3005-620C-3099-B73A-EB6EE521BB59
++  UUID: C40141BC-E60D-3218-9653-2535F07ADF1A
    Functions: 6
 -  Symbols:   2257
--  CStrings:  2035
+-  CStrings:  4065
 +  Symbols:   2261
-+  CStrings:  2036
++  CStrings:  4067
  
 Symbols:
 + _kFigCaptureSampleBufferAttachmentKey_EyeReliefResult

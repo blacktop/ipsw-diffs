@@ -39,10 +39,9 @@
    __DATA_CONST.__objc_classlist: 0x28
    __DATA_CONST.__objc_protolist: 0x30
    __DATA_CONST.__objc_imageinfo: 0x8
-
+   __DATA_CONST.__objc_const: 0xc98
    __DATA_CONST.__objc_selrefs: 0x40
    __AUTH_CONST.__const: 0x3fd0
-   __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__auth_got: 0x910
 +  __AUTH_CONST.__auth_got: 0x968
    __AUTH.__data: 0x28
@@ -70,10 +69,12 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4F359E27-A383-3D08-8415-0578DF1AE1B1
 -  Functions: 2475
 -  Symbols:   1051
 -  CStrings:  150
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 53D15B88-DEB1-3F58-9EA2-4A2F1F237CC6
 +  Functions: 2503
 +  Symbols:   1078
 +  CStrings:  151

@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3EA98BC3-BBAB-39B0-AD1B-B6E1956329A8
 -  Functions: 5736
 -  Symbols:   40976
--  CStrings:  11004
+-  CStrings:  14539
++  UUID: 7CC195FB-A5CA-3CEE-B089-6C663C7BA6CB
 +  Functions: 5935
 +  Symbols:   42296
-+  CStrings:  11295
++  CStrings:  14850
  
 Symbols:
 + +[MOContextAnnotationUtilities addPhotoResourcesWithDateArray:universe:handler:]
@@ -2075,6 +2077,7 @@ CStrings:
 + "workoutTypesSet"
 + "\xe2"
 + "\xf0\x922\x12"
+- "\x14  "
 - "\x16!\x1e"
 - "\"%@\" %@ and %@ other moments. Take time to write today."
 - "\"%@\" %@ and 1 other moment. Take time to write today."

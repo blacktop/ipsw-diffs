@@ -24,10 +24,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libgraphcompute-rt.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AC32CD73-4122-3413-936B-0DF615AA8392
 -  Functions: 37233
++  UUID: 3BC3EAF2-3854-3A3B-AA18-A25262E7C34E
 +  Functions: 37234
    Symbols:   1121
-   CStrings:  2067
+   CStrings:  2106
  
 CStrings:
 + "32144cf323ef417c884a8206fe1dc353926f27f0"

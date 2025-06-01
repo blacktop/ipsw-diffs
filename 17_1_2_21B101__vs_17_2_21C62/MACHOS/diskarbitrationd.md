@@ -43,13 +43,16 @@
    __DATA.__objc_ivar: 0x8
    __DATA.__objc_data: 0xa0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BD6A2DD6-8B20-36C8-9C25-111636CF6934
++  UUID: 608F0759-530D-30E3-93DB-642B983CD668
    Functions: 455
 -  Symbols:   373
--  CStrings:  584
+-  CStrings:  788
 +  Symbols:   369
-+  CStrings:  563
++  CStrings:  763
  
 Symbols:
 + _OBJC_CLASS_$_FSKitDiskArbHelper

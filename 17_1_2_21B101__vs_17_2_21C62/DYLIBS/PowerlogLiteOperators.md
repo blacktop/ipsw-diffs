@@ -51,8 +51,8 @@
 +  __AUTH_CONST.__objc_dictobj: 0x46c8
 +  __AUTH_CONST.__objc_arrayobj: 0x28c8
    __AUTH_CONST.__objc_doubleobj: 0x1380
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x12b0
+   __AUTH.__objc_data: 0x1270
 
    __DATA.__data: 0xcb8
    __DATA.__common: 0x148
@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24D37E97-95CD-3A3A-97EB-8B83AD882930
 -  Functions: 15489
 -  Symbols:   44927
--  CStrings:  32510
+-  CStrings:  45465
++  UUID: C84094F2-821C-3CBA-B95A-A6895DE3220F
 +  Functions: 15500
 +  Symbols:   44959
-+  CStrings:  32540
++  CStrings:  45509
  
 Symbols:
 + +[PLDisplayAgent dcpSubFrameMap]

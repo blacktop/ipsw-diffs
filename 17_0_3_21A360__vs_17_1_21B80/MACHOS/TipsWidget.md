@@ -20,6 +20,15 @@
    __TEXT.__swift5_builtin: 0x64
    __TEXT.__swift5_proto: 0xd4
    __TEXT.__swift5_types: 0x88
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E743E58-D3D3-3AA1-91A7-1A622F4CDF73
++  UUID: 88093283-9F91-3870-B68D-75897952686E
+   Functions: 862
+   Symbols:   155
+   CStrings:  123
 CStrings:
 + "v24@?0@\"NSURL\"8@\"NSError\"16"
 - "v16@?0@\"NSURL\"8"

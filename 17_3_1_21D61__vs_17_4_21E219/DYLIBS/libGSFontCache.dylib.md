@@ -25,5 +25,13 @@
    __AUTH_CONST.__objc_dataobj: 0x1d40
    __AUTH_CONST.__auth_got: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 61279F7F-10FB-374F-A86B-5BB4AEACEDFA
++  UUID: 36675062-093A-3F3D-8DC0-8A1372D4D32C
+   Functions: 2
+   Symbols:   537
+   CStrings:  16088
 
 ```

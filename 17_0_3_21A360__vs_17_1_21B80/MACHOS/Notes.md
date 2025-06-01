@@ -28,10 +28,12 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CA9CB1A-EE48-3271-B1EA-9DED2EBED054
 -  Functions: 290
++  UUID: 2A38E191-07A9-3C06-B9A6-84C47F0B9562
 +  Functions: 292
    Symbols:   150
-   CStrings:  1037
+   CStrings:  1084
  
 
 ```

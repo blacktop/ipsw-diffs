@@ -72,7 +72,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x7508
 -  __DATA_CONST.__objc_arraydata: 0x268
 -  __AUTH_CONST.__const: 0x16440
--  __AUTH_CONST.__auth_ptr: 0x398
 -  __AUTH_CONST.__objc_const: 0x4568
 -  __AUTH_CONST.__cfstring: 0x4f40
 +  __DATA_CONST.__objc_const: 0x1a290
@@ -82,7 +81,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x4b8
 +  __DATA_CONST.__objc_arraydata: 0x1d0
 +  __AUTH_CONST.__const: 0x16da8
-+  __AUTH_CONST.__auth_ptr: 0x3c0
 +  __AUTH_CONST.__objc_const: 0x3e78
 +  __AUTH_CONST.__cfstring: 0x42a0
    __AUTH_CONST.__objc_intobj: 0x5b8
@@ -141,12 +139,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94AACC2D-3724-37F2-956E-797DF9AA41BA
 -  Functions: 18099
 -  Symbols:   19174
--  CStrings:  8624
+-  CStrings:  9258
++  UUID: 27A4D02B-7E94-3E65-8672-DD294E73D387
 +  Functions: 18587
 +  Symbols:   18087
-+  CStrings:  8197
++  CStrings:  8730
  
 Symbols:
 + -[WFComposeViewController presentAddToHomeScreen]
@@ -3052,6 +3052,7 @@ CStrings:
 - "@24@?0@\"<VCActionDonation>\"8Q16"
 - "@24@?0@\"ATXAction\"8Q16"
 - "@?24@0:8@?16"
+- "A"
 - "ATXActionPredictionClient"
 - "ATXContext"
 - "Add"

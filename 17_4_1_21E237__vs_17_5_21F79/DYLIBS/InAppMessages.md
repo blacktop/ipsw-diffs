@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x53d7
    __TEXT.__objc_methtype: 0x1270
 
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 149E9579-112C-34CB-A4C0-BC8BE08C0242
++  UUID: 1CA361B2-5FF8-3733-9D48-AE1B2818CD31
+   Functions: 388
+   Symbols:   1832
+   CStrings:  1016
+
 ```

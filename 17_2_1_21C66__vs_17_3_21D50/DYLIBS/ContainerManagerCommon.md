@@ -54,12 +54,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E49A0EB0-3760-30DC-8D73-DF52AF2431E5
 -  Functions: 2392
 -  Symbols:   9213
--  CStrings:  4989
+-  CStrings:  5773
++  UUID: 4E5E5E5A-17CD-3F17-87FA-5827BCF152DB
 +  Functions: 2393
 +  Symbols:   9219
-+  CStrings:  4993
++  CStrings:  5777
  
 Symbols:
 + +[MCMContainerSchema containerSchemaWithMetadata:finalContainerPath:dataProtectionClass:libraryRepair:]

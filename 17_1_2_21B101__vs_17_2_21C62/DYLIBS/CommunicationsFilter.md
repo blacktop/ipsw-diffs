@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0FACDFEE-61C8-392D-8A4A-110CC17A423B
 -  Functions: 66
 -  Symbols:   317
--  CStrings:  147
+-  CStrings:  156
++  UUID: 6AD53DCA-6807-3F09-810D-BB81600C20CF
 +  Functions: 81
 +  Symbols:   385
-+  CStrings:  177
++  CStrings:  186
  
 Symbols:
 + -[CMFNotificationObserver .cxx_destruct]

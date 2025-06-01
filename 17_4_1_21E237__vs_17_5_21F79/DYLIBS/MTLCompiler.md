@@ -34,6 +34,15 @@
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5EBC2CDC-3B62-37DD-BB8D-D6AC0778373D
++  UUID: 41C11F8E-D778-3AAA-A850-F2560FC70813
+   Functions: 2511
+   Symbols:   6150
+   CStrings:  1309
 Symbols:
 + __ZN15MetalModulePass10getMDTupleIJjPKcS2_jiS2_S2_iS2_N4llvm8TypeSizeES2_yS2_S2_S2_S2_EEEPNS3_7MDTupleEDpT_
 - __ZN15MetalModulePass10getMDTupleIJjPKcS2_jiS2_S2_iS2_N4llvm8TypeSizeES2_yS2_S2_EEEPNS3_7MDTupleEDpT_

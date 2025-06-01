@@ -24,14 +24,13 @@
    __DATA_CONST.__const: 0x738
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __AUTH_CONST.__const: 0x1c1b0
-+  __AUTH_CONST.__const: 0x1d748
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x8d0
 -  __AUTH.__const_weak: 0x4f8
 -  __DATA.__got_weak: 0x1198
 -  __DATA.__data: 0xda8
 -  __DATA.__common: 0x328
 -  __DATA.__bss: 0x98
++  __AUTH_CONST.__const: 0x1d748
 +  __AUTH_CONST.__auth_got: 0x8d8
 +  __AUTH.__const_weak: 0xd0
 +  __DATA.__got_weak: 0x11a0
@@ -46,9 +45,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: B520ABFC-63BC-38A2-8989-C10218F4A701
 -  Functions: 13743
 -  Symbols:   10169
 -  CStrings:  3389
++  UUID: 7EDF1213-B5D5-3B8A-8E7F-0019F98D2A80
 +  Functions: 14573
 +  Symbols:   11312
 +  CStrings:  3419

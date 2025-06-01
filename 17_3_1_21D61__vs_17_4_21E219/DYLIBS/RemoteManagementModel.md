@@ -49,13 +49,16 @@
    __DATA_DIRTY.__objc_data: 0x2850
    __DATA_DIRTY.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2591C14-135C-3BBD-8A6F-C688E5ADADBF
++  UUID: 7311E820-84EB-36BF-ADB9-616F93F8A5A3
    Functions: 2051
 -  Symbols:   7277
--  CStrings:  2291
+-  CStrings:  2982
 +  Symbols:   7401
-+  CStrings:  2292
++  CStrings:  2983
  
 Symbols:
 + +[RMModelConfigurationBase combineEnumFirst:other:enums:]

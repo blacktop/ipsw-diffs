@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25976386-C272-323D-BA0E-66BC15F42DE2
 -  Functions: 473
 -  Symbols:   293
--  CStrings:  865
+-  CStrings:  954
++  UUID: 17B22551-1932-351F-8B3F-D0685C7FCEC0
 +  Functions: 481
 +  Symbols:   300
-+  CStrings:  884
++  CStrings:  984
  
 Symbols:
 + _BEAXPostWebProcessNotification

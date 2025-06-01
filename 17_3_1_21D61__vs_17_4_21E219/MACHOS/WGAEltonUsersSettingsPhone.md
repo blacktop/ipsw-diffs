@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/WatchControlSettings.framework/WatchControlSettings
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2EE0A209-B557-37DD-AC9D-DD97374E3F8E
 -  Functions: 39
 -  Symbols:   110
--  CStrings:  134
+-  CStrings:  175
++  UUID: 361E5773-C178-366D-A913-33CD486733C4
 +  Functions: 42
 +  Symbols:   111
-+  CStrings:  144
++  CStrings:  191
  
 Symbols:
 + _WAGSettingsIgnoreGesturesWhileVisionProDonnedKey

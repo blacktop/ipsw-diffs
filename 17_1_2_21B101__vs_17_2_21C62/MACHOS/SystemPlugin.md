@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
    - /System/Library/PrivateFrameworks/MapsUI.framework/MapsUI
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DE3EA617-8239-3460-9594-493614AA8EB7
++  UUID: 7E913087-12FA-3CC5-A0E6-542242B4779E
+   Functions: 1284
+   Symbols:   178
+   CStrings:  228
+
 ```

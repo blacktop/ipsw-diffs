@@ -26,12 +26,15 @@
    __DATA_CONST.__const: 0x2a0
    __DATA_CONST.__objc_classlist: 0xd0
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6F2B0A8F-70CE-3DF8-A1D1-0B7234956C7C
++  UUID: 0FD1A84C-694D-3CF1-9BEA-64E1EAE8EBCF
    Functions: 608
 -  Symbols:   2077
 +  Symbols:   2078
-   CStrings:  1332
+   CStrings:  1525
  
 Symbols:
 + _objc_msgSend$silentModeEnabled:

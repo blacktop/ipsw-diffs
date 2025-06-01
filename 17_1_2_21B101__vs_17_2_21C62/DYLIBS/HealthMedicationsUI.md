@@ -24,6 +24,15 @@
    __TEXT.__objc_methtype: 0x961
    __DATA_CONST.__got: 0xbc8
    __DATA_CONST.__const: 0x9b0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7AE544D1-B505-3FE3-BED8-D431917288AD
++  UUID: 2F3EB9C9-AAA5-3529-9FFE-CCAF361E3D7B
+   Functions: 9862
+   Symbols:   2932
+   CStrings:  2276
 CStrings:
 + "iconForSource:productType:"
 - "iconForSource:"

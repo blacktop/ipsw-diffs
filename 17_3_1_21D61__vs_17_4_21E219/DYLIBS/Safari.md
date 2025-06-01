@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA6BA73D-4E58-3F44-A4B3-E49E64134359
 -  Functions: 77
 -  Symbols:   68
--  CStrings:  273
+-  CStrings:  288
++  UUID: ED2B0DD6-9D99-37B1-8E00-8CF99610EC4F
 +  Functions: 79
 +  Symbols:   120
-+  CStrings:  320
++  CStrings:  379
  
 Symbols:
 + _SafariStorageSettingsControllerDataSourceClassName

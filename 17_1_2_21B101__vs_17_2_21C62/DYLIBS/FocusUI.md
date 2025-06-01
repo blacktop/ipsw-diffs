@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ECA18CF7-FD12-3D14-A1EF-3A51D4ED427A
 -  Functions: 953
 -  Symbols:   3717
--  CStrings:  1605
+-  CStrings:  1706
++  UUID: F7F41866-A43E-327A-86C9-D3ED5734AC6E
 +  Functions: 956
 +  Symbols:   3730
-+  CStrings:  1614
++  CStrings:  1716
  
 Symbols:
 + -[FCUIFocusEnablementIndicatorManager postPersistentActivity:enabled:systemApertureElementProvider:pickerPresentation:]

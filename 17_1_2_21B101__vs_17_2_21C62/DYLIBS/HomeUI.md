@@ -57,13 +57,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x1e4c0
 -  __DATA_CONST.__objc_arraydata: 0x528
 -  __AUTH_CONST.__const: 0xdb58
+-  __AUTH_CONST.__objc_const: 0x19150
+-  __AUTH_CONST.__cfstring: 0x1e2e0
 +  __DATA_CONST.__objc_const: 0x778d0
 +  __DATA_CONST.__objc_selrefs: 0x1e4e8
 +  __DATA_CONST.__objc_arraydata: 0x520
 +  __AUTH_CONST.__const: 0xdc20
-   __AUTH_CONST.__auth_ptr: 0x248
--  __AUTH_CONST.__objc_const: 0x19150
--  __AUTH_CONST.__cfstring: 0x1e2e0
 +  __AUTH_CONST.__objc_const: 0x19198
 +  __AUTH_CONST.__cfstring: 0x1e300
    __AUTH_CONST.__objc_intobj: 0x1ab8
@@ -111,12 +110,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CDACB215-D317-36F7-8933-058F27748983
 -  Functions: 31814
 -  Symbols:   82534
--  CStrings:  35096
+-  CStrings:  38959
++  UUID: A9523315-6E7E-302C-9F28-5FB162D7F946
 +  Functions: 31833
 +  Symbols:   82568
-+  CStrings:  35100
++  CStrings:  38964
  
 Symbols:
 + -[HUAddPeopleViewController rightBarButtonTitle]

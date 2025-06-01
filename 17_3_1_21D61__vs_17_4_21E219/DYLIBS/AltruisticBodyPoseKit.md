@@ -37,7 +37,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x1e0
    __AUTH_CONST.__objc_const: 0x1440
    __AUTH_CONST.__cfstring: 0x18c0
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_intobj: 0x48
 
    __AUTH_CONST.__auth_got: 0x728
    __AUTH.__objc_data: 0x1598
@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E46EC01F-C6E0-3066-A4BF-D8883F318245
 -  Functions: 1431
 -  Symbols:   4838
--  CStrings:  2192
+-  CStrings:  2390
++  UUID: 7DDBEF61-C12C-3479-A9C7-D4B8C357359F
 +  Functions: 1433
 +  Symbols:   4831
-+  CStrings:  2193
++  CStrings:  2391
  
 Symbols:
 + GCC_except_table57

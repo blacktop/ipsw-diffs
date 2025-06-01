@@ -30,11 +30,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 009421FF-185F-3BF4-BBB7-DBFC1877C5FB
 -  Functions: 728
++  UUID: E53EBB7E-EE89-362C-B930-4B2C223091DE
 +  Functions: 745
    Symbols:   59
--  CStrings:  100
-+  CStrings:  93
+-  CStrings:  101
++  CStrings:  94
  
 Symbols:
 + __os_log_debug_impl

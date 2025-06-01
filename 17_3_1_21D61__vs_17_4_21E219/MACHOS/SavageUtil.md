@@ -19,6 +19,15 @@
    __DATA_CONST.__cfstring: 0xec0
    __DATA.__data: 0x60
    __DATA.__common: 0x100c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 19E547AD-CC9D-3DAB-ADBD-BDCA7456799C
++  UUID: 351EB3FA-DD9E-34D3-9E73-0F4CD1758509
+   Functions: 46
+   Symbols:   97
+   CStrings:  311
 Symbols:
 + _calloc
 + _malloc

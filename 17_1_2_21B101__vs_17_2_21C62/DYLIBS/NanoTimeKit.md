@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__const: 0x39b8
    __AUTH_CONST.__objc_dictobj: 0x410
    __AUTH_CONST.__objc_arrayobj: 0x2148
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x1688
 -  __AUTH.__objc_data: 0xe210
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2D4D5A5B-1BE2-35E8-949D-A246DBAB7388
 -  Functions: 17420
 -  Symbols:   60636
--  CStrings:  22804
+-  CStrings:  26767
++  UUID: B3BEA75F-0FAE-3FC9-B546-9CA20CB273F8
 +  Functions: 17449
 +  Symbols:   60720
-+  CStrings:  22871
++  CStrings:  26874
  
 Symbols:
 + +[NTKFastFaceSwitchingSettings sharedInstance]

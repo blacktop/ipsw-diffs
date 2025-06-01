@@ -53,11 +53,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 009D709B-6F1A-36AE-ADC4-A2C309EA82C1
 -  Functions: 820
++  UUID: 9D2CB568-747D-33E6-9C9C-49AD42944FE7
 +  Functions: 821
    Symbols:   311
--  CStrings:  1341
-+  CStrings:  1344
+-  CStrings:  1451
++  CStrings:  1454
  
 Symbols:
 + _OBJC_CLASS_$_LACDTOGracePeriodState

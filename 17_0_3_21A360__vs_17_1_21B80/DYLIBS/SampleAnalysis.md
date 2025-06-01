@@ -57,12 +57,14 @@
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7EDBCE30-A373-3741-9744-5FDB199AD203
 -  Functions: 2375
 -  Symbols:   8039
--  CStrings:  5578
+-  CStrings:  6806
++  UUID: F019454A-04BF-34BC-A3F2-6C7485AE8E60
 +  Functions: 2381
 +  Symbols:   8056
-+  CStrings:  5584
++  CStrings:  6812
  
 Symbols:
 + -[SASampleStore enumerateTasksWithLiveness:]

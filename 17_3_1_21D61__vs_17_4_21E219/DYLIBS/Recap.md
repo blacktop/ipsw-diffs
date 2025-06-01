@@ -36,8 +36,8 @@
    __AUTH_CONST.__cfstring: 0x1d80
    __AUTH_CONST.__objc_const: 0x1090
 
+   __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x230
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x700
 -  __AUTH.__objc_data: 0x910
 -  __DATA.__objc_classrefs: 0x278
@@ -53,11 +53,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC86E7FA-12D3-3B16-8B10-45AE19DA4EB7
++  UUID: 357E1F65-2FEE-3DCF-9F14-C7AFE1244977
    Functions: 919
    Symbols:   3635
--  CStrings:  1928
-+  CStrings:  1929
+-  CStrings:  2164
++  CStrings:  2165
  
 Symbols:
 + -[RCPSyntheticEventStream _hoverAtPoints:touchCount:pressure:radius:edgeMaskOptions:withEventType:withZPosition:withAzimuthAngle:withRollAngle:withAltitudeAngle:]

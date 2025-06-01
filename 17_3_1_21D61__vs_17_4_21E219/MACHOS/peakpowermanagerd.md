@@ -28,6 +28,15 @@
    __DATA.__objc_ivar: 0x114
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x60
+
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5029BE92-8D9A-3F1A-B3FA-65B342ADD962
++  UUID: C86F87B5-2C1C-3A70-92BE-8DC300F0D4AB
+   Functions: 401
+   Symbols:   101
+   CStrings:  712
 CStrings:
 + "dataWithLength:"
 - "dataWithCapacity:"

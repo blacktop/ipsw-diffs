@@ -39,9 +39,8 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
 -  __AUTH_CONST.__const: 0x220a8
-+  __AUTH_CONST.__const: 0x220f0
-   __AUTH_CONST.__auth_ptr: 0x1120
 -  __AUTH_CONST.__auth_got: 0x7020
++  __AUTH_CONST.__const: 0x220f0
 +  __AUTH_CONST.__auth_got: 0x7028
    __AUTH.__objc_data: 0x2fd0
    __AUTH.__data: 0x3d30
@@ -60,11 +59,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F724B54E-3DC6-36E4-AAEE-1C72DA2B12F4
 -  Functions: 21854
++  UUID: A769A585-FBFC-3C29-8976-6E1E57D709D2
 +  Functions: 21869
    Symbols:   7133
--  CStrings:  4398
-+  CStrings:  4404
+-  CStrings:  4406
++  CStrings:  4412
  
 CStrings:
 + "Failed to decode Presentation Operation Manager Data Store `retryCount`!"

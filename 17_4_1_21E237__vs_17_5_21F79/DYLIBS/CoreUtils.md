@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__const: 0x2018
 +  __AUTH_CONST.__objc_const: 0x2640
    __AUTH_CONST.__objc_intobj: 0x300
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x17a8
 +  __AUTH_CONST.__auth_got: 0x17d0
    __AUTH.__objc_data: 0x21c0
@@ -66,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 130E10AB-D7BF-35B4-B77B-1C2F85F3CF68
 -  Functions: 6120
 -  Symbols:   17488
--  CStrings:  10159
+-  CStrings:  10731
++  UUID: 842DBAAE-68C6-328E-89F5-2DED895FFA72
 +  Functions: 6126
 +  Symbols:   17509
-+  CStrings:  10184
++  CStrings:  10764
  
 Symbols:
 + +[CUPairingManager copySystemPairingIdentifierAndReturnError:]

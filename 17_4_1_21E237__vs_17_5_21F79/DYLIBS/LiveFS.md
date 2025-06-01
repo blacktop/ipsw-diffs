@@ -20,11 +20,15 @@
    __TEXT.__objc_classname: 0x324
    __TEXT.__objc_methname: 0x40ac
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 06114852-91BE-3F13-AF31-CBCE287ACCDD
++  UUID: A377910F-007E-3611-9593-36EDB873EE9B
    Functions: 780
    Symbols:   2646
--  CStrings:  1268
-+  CStrings:  1269
+-  CStrings:  1335
++  CStrings:  1336
  
 CStrings:
 + "LFSAD: loadADHeader: FinderInfo[%d] is not well formed: %u@%u"

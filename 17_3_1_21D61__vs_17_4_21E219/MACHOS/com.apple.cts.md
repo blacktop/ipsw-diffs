@@ -33,11 +33,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x100
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9895544A-1A8B-3D1D-A7AF-821E31CC75C8
++  UUID: 931D1679-9968-366B-ABF3-0AFEAE6B435F
    Functions: 195
    Symbols:   260
--  CStrings:  553
-+  CStrings:  551
+-  CStrings:  572
++  CStrings:  570
  
 CStrings:
 + "Activity %{public}@ does not match activity with name %{public}@"

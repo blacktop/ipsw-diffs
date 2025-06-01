@@ -27,13 +27,16 @@
    __DATA.__bss: 0x1bd0a
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9FDFD83F-5748-3335-98B7-ECDF8606430F
++  UUID: CDDCF3FE-A413-3441-BC1C-4A00A29EE45B
    Functions: 336
 -  Symbols:   122
--  CStrings:  631
+-  CStrings:  657
 +  Symbols:   123
-+  CStrings:  641
++  CStrings:  667
  
 Symbols:
 + _os_transaction_create

@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 383E914E-E213-3069-BFF1-98DD4888083D
++  UUID: 4EF4F494-223A-311E-8470-3DAD78D369F5
    Functions: 17
    Symbols:   62
 -  CStrings:  74

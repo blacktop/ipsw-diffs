@@ -40,10 +40,12 @@
    - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B3B58BC-ABE8-316F-9410-10E31E0E2F07
 -  Functions: 829
++  UUID: 2BF4545B-D1FA-3312-AC7F-FDEDAA52F7EF
 +  Functions: 828
    Symbols:   404
-   CStrings:  1301
+   CStrings:  1465
  
 
 ```

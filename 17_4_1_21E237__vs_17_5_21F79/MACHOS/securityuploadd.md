@@ -39,6 +39,15 @@
    __DATA.__objc_ivar: 0x68
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x224
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 72D285FE-488E-3BE5-8C9D-EBEDF3C460DE
++  UUID: F53F0654-06EA-31A3-A0DD-7DBBC50AD5C2
+   Functions: 185
+   Symbols:   203
+   CStrings:  871
 CStrings:
 + "61123.120.34"
 + "@56@0:8@16@24@32@40@48"

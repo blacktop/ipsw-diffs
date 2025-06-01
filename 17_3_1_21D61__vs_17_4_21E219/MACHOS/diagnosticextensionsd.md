@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D89672D9-F1DF-3634-867E-EBA603931997
++  UUID: 1575206E-6C64-3CF9-B533-D5467A44A8EE
+   Functions: 17
+   Symbols:   32
+   CStrings:  21
+
 ```

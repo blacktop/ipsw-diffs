@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E83389AC-6837-3205-871A-6AFF0E3D6AD1
++  UUID: 78C6F7B4-A4EF-3955-8F1D-1B7696F17F81
+   Functions: 8496
+   Symbols:   3283
+   CStrings:  2085
+
 ```

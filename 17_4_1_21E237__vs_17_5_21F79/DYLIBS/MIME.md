@@ -24,7 +24,6 @@
    __DATA_CONST.__objc_arraydata: 0xa8
 -  __AUTH_CONST.__objc_const: 0x1548
 +  __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__cfstring: 0x36e0
 -  __AUTH_CONST.__const: 0x508
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -48,5 +47,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3FF0CEF0-FD16-368B-A51E-1B0DD4E66FCA
++  UUID: 28D95C5B-D7D7-3351-ADBD-F1E4E25A180E
+   Functions: 1171
+   Symbols:   4579
+   CStrings:  2547
 
 ```

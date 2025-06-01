@@ -26,12 +26,15 @@
    __DATA_CONST.__auth_ptr: 0x8
    __DATA_CONST.__const: 0x6b8
 
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FAA51743-327C-3D25-A130-6D87FFAA7F32
++  UUID: 39E795CC-86FE-3AB9-A4A4-DA9C885DBA42
    Functions: 503
 -  Symbols:   330
 +  Symbols:   331
-   CStrings:  1134
+   CStrings:  1422
  
 Symbols:
 + _dispatch_queue_attr_make_with_autorelease_frequency

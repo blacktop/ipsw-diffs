@@ -56,12 +56,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE1042F8-680A-3142-AD35-9B58A733078D
 -  Functions: 1879
 -  Symbols:   1423
--  CStrings:  4767
+-  CStrings:  5817
++  UUID: F5037A0D-85A7-3507-B5C1-BB5012D8AAF8
 +  Functions: 1900
 +  Symbols:   1424
-+  CStrings:  4773
++  CStrings:  5823
  
 Symbols:
 + _MCFeatureCrossSiteTrackingPreventionRelaxedApps

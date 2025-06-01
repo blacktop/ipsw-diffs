@@ -28,11 +28,15 @@
    __AUTH_CONST.__cfstring: 0x7e0
    __AUTH_CONST.__objc_const: 0x168
 
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 19C909C5-CA37-35FB-9C81-B42CA83EC49E
++  UUID: FE6F9E67-1AB8-3D07-8277-A4DAFEEC27FB
    Functions: 165
    Symbols:   696
--  CStrings:  435
-+  CStrings:  436
+-  CStrings:  498
++  CStrings:  499
  
 CStrings:
 + "contactViewController:didExecuteBlockAndReportContactAction:"

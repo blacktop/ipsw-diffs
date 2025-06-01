@@ -17,5 +17,10 @@
    - /System/Library/PrivateFrameworks/BookLibrary.framework/BookLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF6789F1-7C7F-3F40-896B-546F2A174049
++  UUID: A7B0B9A9-2BD3-37B7-B3CD-866228D4ED12
+   Functions: 6
+   Symbols:   45
+   CStrings:  82
 
 ```

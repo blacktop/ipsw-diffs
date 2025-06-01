@@ -34,20 +34,22 @@
    __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__objc_const: 0x158
    __AUTH_CONST.__const: 0x808
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x7f0
 +  __AUTH_CONST.__auth_got: 0x7f8
    __AUTH.__objc_data: 0xcd0
    __AUTH.__data: 0x1b8
    __DATA.__objc_protorefs: 0x38
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8D67436-8FB8-3631-958A-1ED2DA95AD33
++  UUID: 0F866318-5F9A-32EC-81B0-2AEB7707E10A
    Functions: 677
 -  Symbols:   655
--  CStrings:  581
+-  CStrings:  584
 +  Symbols:   658
-+  CStrings:  583
++  CStrings:  586
  
 Symbols:
 + _objc_msgSend$setEnableMixingMediaAudio:

@@ -37,7 +37,6 @@
    __AUTH_CONST.__objc_const: 0x1060
    __AUTH_CONST.__const: 0x2f5f8
    __AUTH_CONST.__cfstring: 0x180
-   __AUTH_CONST.__auth_ptr: 0x8b8
 -  __AUTH_CONST.__auth_got: 0x3190
 +  __AUTH_CONST.__auth_got: 0x3098
    __AUTH.__objc_data: 0x34a8
@@ -60,11 +59,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 605F5424-7A8F-32EF-B977-A2EC1281705F
 -  Functions: 33655
 -  Symbols:   10727
++  UUID: 864D257D-7D47-37BF-8A80-1C6C9C60EBF4
 +  Functions: 33647
 +  Symbols:   10726
-   CStrings:  5623
+   CStrings:  5635
  
 Symbols:
 + _OBJC_CLASS_$_CLRegion

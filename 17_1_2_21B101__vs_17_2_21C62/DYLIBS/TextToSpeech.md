@@ -75,10 +75,8 @@
 -  __AUTH_CONST.__const: 0x1708
 +  __AUTH_CONST.__const: 0x2030
    __AUTH_CONST.__objc_dictobj: 0x190
--  __AUTH_CONST.__auth_ptr: 0xf8
 -  __AUTH_CONST.__auth_got: 0x1370
 -  __AUTH.__objc_data: 0x50
-+  __AUTH_CONST.__auth_ptr: 0x100
 +  __AUTH_CONST.__auth_got: 0x1450
 +  __AUTH.__objc_data: 0x2c0
 +  __AUTH.__data: 0xe0
@@ -112,12 +110,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 041DEB90-06E5-354C-81EF-F0C6DE88AD69
 -  Functions: 5877
 -  Symbols:   1107
--  CStrings:  4155
+-  CStrings:  5038
++  UUID: C75CFC39-B9CE-36DA-8029-44B182EDB4C7
 +  Functions: 6440
 +  Symbols:   1117
-+  CStrings:  4214
++  CStrings:  5100
  
 Symbols:
 + _KickAudioComponentRegistry

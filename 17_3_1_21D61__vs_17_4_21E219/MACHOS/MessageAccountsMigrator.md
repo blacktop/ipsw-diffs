@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EAE4B4F9-02A5-3F64-B5AF-A530DAE9E020
++  UUID: 5BFC3B5A-43A7-35E3-ACED-698129E99063
+   Functions: 20
+   Symbols:   82
+   CStrings:  83
+
 ```

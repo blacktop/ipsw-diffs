@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__objc_intobj: 0xb70
    __AUTH_CONST.__objc_arrayobj: 0x210
    __AUTH_CONST.__objc_dictobj: 0x190
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__auth_got: 0xda0
 -  __AUTH.__objc_data: 0x2710
@@ -76,12 +75,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 476BC9D6-F3B1-3EDD-851F-4DD77F814F75
 -  Functions: 12717
 -  Symbols:   38129
--  CStrings:  20467
+-  CStrings:  24461
++  UUID: F01C3051-562C-3D3E-AB2F-9A0A4B9F4C76
 +  Functions: 12920
 +  Symbols:   38687
-+  CStrings:  20782
++  CStrings:  24824
  
 Symbols:
 + +[AppTelemetryTimeSeriesEvent(BRCAdditions) newContentPolicyProblemCountWithProblemCount:]

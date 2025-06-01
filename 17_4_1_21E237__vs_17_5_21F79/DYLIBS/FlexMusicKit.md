@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/libAppleArchive.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 38A1B933-35F5-3CEB-A90C-94BADD6BF861
++  UUID: A79D91B3-A1F2-3A0A-9A34-361DC95FEB00
+   Functions: 919
+   Symbols:   455
+   CStrings:  2568
+
 ```

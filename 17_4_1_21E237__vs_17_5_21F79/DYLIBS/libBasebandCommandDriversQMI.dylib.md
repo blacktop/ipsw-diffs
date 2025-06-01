@@ -29,6 +29,15 @@
    __DATA_DIRTY.__bss: 0x120
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 449E50DB-243F-3EB5-AC27-00222A368C36
++  UUID: BAD60F68-98FB-3339-9B23-BCEB0CE0592D
+   Functions: 5650
+   Symbols:   13306
+   CStrings:  1035
 CStrings:
 + "AppleBasebandManager-AppleBasebandServices_Manager-1053"
 - "AppleBasebandManager-AppleBasebandServices_Manager-1006"

@@ -38,12 +38,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2FC93B7-D910-351D-BAD9-FE95C63AF65F
 -  Functions: 5652
 -  Symbols:   13315
--  CStrings:  1040
+-  CStrings:  1041
++  UUID: B396C547-F1F5-3135-AF2D-E4FC5B18E6B5
 +  Functions: 5650
 +  Symbols:   13306
-+  CStrings:  1034
++  CStrings:  1035
  
 Symbols:
 + GCC_except_table307

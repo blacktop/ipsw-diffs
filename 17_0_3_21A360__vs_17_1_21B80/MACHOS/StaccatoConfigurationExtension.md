@@ -38,7 +38,11 @@
    __DATA.__objc_classrefs: 0x88
    __DATA.__objc_data: 0x1b0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 10FD18C5-AC41-3090-A6EC-0F22033F4575
++  UUID: D3ECAE3A-3B65-3679-9C49-74C21FE1A008
    Functions: 236
    Symbols:   155
 -  CStrings:  108

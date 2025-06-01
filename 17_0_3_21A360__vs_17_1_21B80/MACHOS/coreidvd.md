@@ -91,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B02D3857-4B17-36D1-AA6F-F027E414FD31
 -  Functions: 13924
 -  Symbols:   3442
--  CStrings:  6775
+-  CStrings:  6784
++  UUID: DBAFB99B-F7B5-3A2D-BB97-AAB2E524E29C
 +  Functions: 14216
 +  Symbols:   3585
-+  CStrings:  6943
++  CStrings:  6952
  
 Symbols:
 + _$s10Foundation11JSONEncoderCMn

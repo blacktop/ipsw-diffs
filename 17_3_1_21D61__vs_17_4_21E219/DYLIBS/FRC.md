@@ -79,12 +79,14 @@
    - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 575A8978-5B67-359C-9201-2E789F66C060
 -  Functions: 865
 -  Symbols:   3306
--  CStrings:  2170
+-  CStrings:  2502
++  UUID: 265B17B2-8D65-34C8-8F66-F7B9507B8C3D
 +  Functions: 910
 +  Symbols:   3485
-+  CStrings:  2298
++  CStrings:  2657
  
 Symbols:
 + +[OpticalFlow use4xDownScale:]

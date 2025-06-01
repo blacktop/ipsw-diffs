@@ -46,11 +46,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6DDDCB09-2E26-38B9-9FF0-A7166CB66FE7
++  UUID: 5AB2FEEB-AC4D-3CFC-994A-5E90FF056786
    Functions: 207
    Symbols:   699
--  CStrings:  384
-+  CStrings:  386
+-  CStrings:  472
++  CStrings:  476
  
 Symbols:
 + __unnamed_array_storage.261

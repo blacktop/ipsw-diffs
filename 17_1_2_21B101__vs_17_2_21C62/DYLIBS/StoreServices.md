@@ -44,7 +44,7 @@
 +  __AUTH_CONST.__const: 0x142a0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_doubleobj: 0x10
 
    __AUTH.__objc_data: 0x4dd0
    __AUTH.__data: 0x48
@@ -63,13 +63,16 @@
    __DATA_DIRTY.__data: 0x390
    __DATA_DIRTY.__bss: 0x3b8
 
+   - /usr/lib/libresolv.9.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2BCD6027-30FC-34A3-8C39-C6B001CF3EAB
++  UUID: E187D9DD-9D17-3212-947A-D181B34C90A5
    Functions: 9423
 -  Symbols:   29282
--  CStrings:  12762
+-  CStrings:  15955
 +  Symbols:   29293
-+  CStrings:  12770
++  CStrings:  15963
  
 Symbols:
 + _OBJC_CLASS_$_AMSEngagement

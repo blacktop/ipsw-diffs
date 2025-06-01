@@ -47,12 +47,14 @@
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 78C3547B-1E1E-34A0-B91C-254D1319F742
 -  Functions: 10940
 -  Symbols:   30796
--  CStrings:  11262
+-  CStrings:  13364
++  UUID: 7D568699-D2BE-35A6-8436-AE18756D7DC6
 +  Functions: 10959
 +  Symbols:   30832
-+  CStrings:  11261
++  CStrings:  13363
  
 Symbols:
 + -[TIKeyboardInputManagerLoader releaseAllLanguageModelBuffers]

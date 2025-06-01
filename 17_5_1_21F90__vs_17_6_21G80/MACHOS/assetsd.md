@@ -53,11 +53,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C79D6AE2-DE73-3634-AD2E-BF6DACEA7FF1
 -  Functions: 270
++  UUID: E8287B06-A8EA-3AA0-BA98-12ACC86C0137
 +  Functions: 271
    Symbols:   373
--  CStrings:  943
-+  CStrings:  946
+-  CStrings:  1013
++  CStrings:  1016
  
 CStrings:
 + "PLComputeSyncAssetBackfillTask"

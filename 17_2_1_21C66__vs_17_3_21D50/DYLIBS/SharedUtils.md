@@ -41,19 +41,21 @@
    __AUTH_CONST.__const: 0x120
 -  __AUTH_CONST.__objc_intobj: 0x768
 +  __AUTH_CONST.__objc_intobj: 0x8a0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x350
    __AUTH.__objc_data: 0xa0
+   __DATA.__objc_protorefs: 0x78
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A63A432-C598-3D2B-A380-1C881216531F
 -  Functions: 623
 -  Symbols:   1846
--  CStrings:  1070
+-  CStrings:  1178
++  UUID: 28F0FDFD-5DAD-315F-8E05-EE5D412CDE03
 +  Functions: 629
 +  Symbols:   1861
-+  CStrings:  1084
++  CStrings:  1196
  
 Symbols:
 + +[LAACMHelper _errorFromACMStatus:]

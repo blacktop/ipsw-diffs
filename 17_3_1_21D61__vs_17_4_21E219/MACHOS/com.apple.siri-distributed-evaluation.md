@@ -32,13 +32,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 94E489C6-B55D-3ACE-9E2D-93A9052AF6CD
++  UUID: FCC65F32-F63B-3CDF-9789-AAC0ECC7B7AC
    Functions: 40
 -  Symbols:   71
--  CStrings:  113
+-  CStrings:  116
 +  Symbols:   69
-+  CStrings:  114
++  CStrings:  117
  
 Symbols:
 - _com_apple_siri_distributed_evaluationVersionNumber

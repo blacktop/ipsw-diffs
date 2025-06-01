@@ -57,11 +57,10 @@
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_const: 0x778
 -  __AUTH_CONST.__const: 0x7f80
-+  __AUTH_CONST.__const: 0x7fa0
-   __AUTH_CONST.__auth_ptr: 0x1a8
 -  __AUTH_CONST.__auth_got: 0xe50
 -  __AUTH.__objc_data: 0xcc0
 -  __AUTH.__data: 0x640
++  __AUTH_CONST.__const: 0x7fa0
 +  __AUTH_CONST.__auth_got: 0xe58
 +  __AUTH.__objc_data: 0xc48
 +  __AUTH.__data: 0x580
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4AE3A611-C6CB-3322-BD27-8C9C3D30346B
 -  Functions: 5333
 -  Symbols:   1760
--  CStrings:  1089
+-  CStrings:  1101
++  UUID: 605B88D7-13B9-3B35-BCF5-B7E8F980490B
 +  Functions: 5352
 +  Symbols:   1766
-+  CStrings:  1094
++  CStrings:  1106
  
 Symbols:
 + _NSURLErrorBackgroundTaskCancelledReasonKey

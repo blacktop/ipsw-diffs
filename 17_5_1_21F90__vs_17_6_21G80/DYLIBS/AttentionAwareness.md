@@ -76,12 +76,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C791E64-4BEC-3897-B35F-C65A1D6D8F79
 -  Functions: 883
 -  Symbols:   3392
--  CStrings:  1872
+-  CStrings:  2091
++  UUID: 1EBBD2EE-15C0-3534-BBA9-77C55C0C77A8
 +  Functions: 909
 +  Symbols:   3502
-+  CStrings:  1927
++  CStrings:  2147
  
 Symbols:
 + -[AWAttentionAwareService LockScreenStateChanging:]

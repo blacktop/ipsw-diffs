@@ -86,12 +86,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38FCA051-0B25-378C-BF24-C83B8B547A63
 -  Functions: 1927
 -  Symbols:   1404
--  CStrings:  3049
+-  CStrings:  4050
++  UUID: D8560FE6-E15D-3EAC-B422-5262CAACFA02
 +  Functions: 2031
 +  Symbols:   1462
-+  CStrings:  3279
++  CStrings:  4308
  
 Symbols:
 + _CFDictionaryGetValue

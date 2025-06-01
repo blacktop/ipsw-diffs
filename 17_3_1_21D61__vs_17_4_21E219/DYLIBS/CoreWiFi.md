@@ -54,11 +54,13 @@
    - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31FFFE47-BE41-3CFA-B2E7-50C3618C0B37
 -  Functions: 3592
++  UUID: 21F866E6-31AD-3097-A78B-2A1C56620522
 +  Functions: 3591
    Symbols:   619
--  CStrings:  5544
-+  CStrings:  5547
+-  CStrings:  7655
++  CStrings:  7660
  
 CStrings:
 + "T@\"NSString\",?,R,C"

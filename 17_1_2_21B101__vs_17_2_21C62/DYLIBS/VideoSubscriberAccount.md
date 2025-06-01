@@ -30,12 +30,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 1A86193D-220D-3CF2-B508-465CD65E4CAD
 -  Functions: 3703
 -  Symbols:   11816
--  CStrings:  5264
+-  CStrings:  6295
++  UUID: 9570F5C6-173C-3AF9-960F-A9B6582DA350
 +  Functions: 3704
 +  Symbols:   11818
-+  CStrings:  5265
++  CStrings:  6296
  
 Symbols:
 + +[VSPersistentStorage defaultStorageDirectoryURL].cold.1

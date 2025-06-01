@@ -37,11 +37,15 @@
    __DATA.__data: 0x2b0
    __DATA.__bss: 0x100
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D6829868-6DCB-33F2-A4E4-B8D83DEE7FEC
++  UUID: 648A3CA3-11F1-3C47-965B-1B45E4E979FA
    Functions: 947
    Symbols:   3776
--  CStrings:  2210
-+  CStrings:  2211
+-  CStrings:  2594
++  CStrings:  2595
  
 Symbols:
 + _CoreSuggestionsInternalsLibraryCore.frameworkLibrary.436

@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 631A9119-2720-3034-9B7E-41DB434E4EF4
 -  Functions: 17116
 -  Symbols:   2479
--  CStrings:  31478
+-  CStrings:  37787
++  UUID: D92DEA01-5B9C-399B-ACA6-62B4A88F0FC0
 +  Functions: 17158
 +  Symbols:   2482
-+  CStrings:  31590
++  CStrings:  37948
  
 Symbols:
 + _IDSGlobalLinkOptionForceIPv6Key

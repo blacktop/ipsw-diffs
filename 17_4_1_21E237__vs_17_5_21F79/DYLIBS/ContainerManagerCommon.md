@@ -63,12 +63,16 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: ABAA603C-AE5B-3172-8C1F-EB948380326A
++  UUID: FB030B7B-D6E8-3625-8DC2-4285ABA6DF4E
    Functions: 2399
 -  Symbols:   9241
+-  CStrings:  5790
 +  Symbols:   9237
-   CStrings:  5005
++  CStrings:  5791
  
 Symbols:
 + __OBJC_$_PROP_LIST_MCMFileHandle.200

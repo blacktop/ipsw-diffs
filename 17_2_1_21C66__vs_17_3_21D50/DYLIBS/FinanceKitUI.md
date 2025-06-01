@@ -32,4 +32,13 @@
    __DATA.__objc_catlist2: 0x48
    __DATA.__bss: 0xfe50
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91142573-9140-34B9-9F9D-421437AD24A0
++  UUID: D734745C-9DD5-3786-B356-DCE37DCD222F
+   Functions: 11988
+   Symbols:   4513
+   CStrings:  1355
+
 ```

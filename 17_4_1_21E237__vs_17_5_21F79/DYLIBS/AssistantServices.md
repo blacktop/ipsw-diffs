@@ -71,12 +71,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 485029E8-5AF0-31E9-8E29-534A73C188FE
 -  Functions: 11255
 -  Symbols:   36062
--  CStrings:  18293
+-  CStrings:  23082
++  UUID: 4B66766C-0D4E-3670-9853-1F0AEFDF7DA9
 +  Functions: 11265
 +  Symbols:   36086
-+  CStrings:  18302
++  CStrings:  23092
  
 Symbols:
 + +[AFMultiUserConnection sharedInstance]

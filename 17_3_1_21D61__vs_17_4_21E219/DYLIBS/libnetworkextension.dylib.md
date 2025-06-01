@@ -35,7 +35,6 @@
 +  __AUTH_CONST.__cfstring: 0x5c0
 +  __AUTH_CONST.__const: 0x1e0
    __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xbb0
 +  __AUTH_CONST.__auth_got: 0xbd0
    __AUTH.__objc_data: 0x50
@@ -59,12 +58,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 706ECC20-44E4-3F8A-B45C-A1182E5AC57E
 -  Functions: 511
 -  Symbols:   1415
--  CStrings:  836
+-  CStrings:  863
++  UUID: 7A1C7D2E-5D23-3AC4-8A08-4ECFC466ACE8
 +  Functions: 517
 +  Symbols:   1434
-+  CStrings:  863
++  CStrings:  909
  
 Symbols:
 + _CFDictionaryCreate

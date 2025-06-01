@@ -19,6 +19,15 @@
    __TEXT.__objc_classname: 0xa4
    __TEXT.__objc_methtype: 0x889
    __TEXT.__ustring: 0x2c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+-  UUID: 2CC79E57-0D38-329D-9880-FD66BF1439AB
++  UUID: 5EA6F3F0-4DCA-392B-B130-ABBBA0DA8C49
+   Functions: 312
+   Symbols:   222
+   CStrings:  1318
 CStrings:
 + "shouldFileIDBeIgnoredAsNonMigrated:docID:deviceID:isRegFile:rowid:outItemURL:isBusyDate:isIgnoredFromSync:"
 - "shouldFileIDBeIgnoredAsNonMigrated:deviceID:isRegFile:rowid:isBusyDate:isIgnoredFromSync:"

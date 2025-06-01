@@ -57,7 +57,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x12b8
    __DATA_CONST.__objc_arraydata: 0x338
    __AUTH_CONST.__const: 0xc7a8
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__objc_const: 0x141d0
 -  __AUTH_CONST.__cfstring: 0x24da0
 +  __AUTH_CONST.__objc_const: 0x14218
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6910B722-4B1C-3A2E-ABF8-DE423DBE3377
 -  Functions: 18260
 -  Symbols:   54461
--  CStrings:  22247
+-  CStrings:  26964
++  UUID: 0155B397-DE2D-3E96-A23A-FBE0252CB0A8
 +  Functions: 18270
 +  Symbols:   54505
-+  CStrings:  22266
++  CStrings:  26986
  
 Symbols:
 + -[HFAccessorySettingDeviceOptionsAdapter resetAccessory]

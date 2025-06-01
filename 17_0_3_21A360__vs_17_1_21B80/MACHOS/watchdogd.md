@@ -16,11 +16,15 @@
    __TEXT.__objc_classname: 0x1
    __TEXT.__oslogstring: 0x76
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 0A5E554E-4AA0-3471-8255-8F8908258B4D
++  UUID: D74E703C-3922-3E71-B881-E4B141E9BA6E
    Functions: 188
    Symbols:   246
--  CStrings:  452
-+  CStrings:  449
+-  CStrings:  508
++  CStrings:  505
  
 CStrings:
 - "detected boot-arg (%s) to use customer service monitoring config"

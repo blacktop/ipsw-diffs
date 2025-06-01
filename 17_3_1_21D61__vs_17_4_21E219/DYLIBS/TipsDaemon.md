@@ -64,7 +64,6 @@
 +  __AUTH_CONST.__const: 0x1b98
    __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_arrayobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xcb0
 -  __AUTH.__objc_data: 0x778
 +  __AUTH.__objc_data: 0x6d8
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 31885B79-D382-3F80-86EA-C0362DB96C6D
 -  Functions: 2874
 -  Symbols:   6197
--  CStrings:  2548
+-  CStrings:  2893
++  UUID: 2ADF212D-ED00-31D0-A6C0-96AB24BFA620
 +  Functions: 2834
 +  Symbols:   6070
-+  CStrings:  2494
++  CStrings:  2830
  
 Symbols:
 + -[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]

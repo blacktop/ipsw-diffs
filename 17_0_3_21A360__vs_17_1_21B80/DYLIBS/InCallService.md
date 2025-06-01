@@ -39,12 +39,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 909E5E32-2AAB-336A-AEC6-61C7BAFD3EBF
 -  Functions: 201
 -  Symbols:   936
--  CStrings:  458
+-  CStrings:  639
++  UUID: 31628441-F39A-3620-864D-A1D3ADC9C66F
 +  Functions: 204
 +  Symbols:   947
-+  CStrings:  464
++  CStrings:  645
  
 Symbols:
 + -[PHHandsetDialerDeleteButtonAccessibility _axDeleteButtonWasHidden]

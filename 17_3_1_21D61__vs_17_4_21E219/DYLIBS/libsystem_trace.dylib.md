@@ -30,7 +30,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x10
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x318
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x810
 +  __AUTH_CONST.__auth_got: 0x808
    __AUTH.__data: 0x168
@@ -49,7 +48,9 @@
    - /usr/lib/system/libsystem_symptoms.dylib
    - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 4408AD69-B633-3A3F-954D-9904E7D26B88
 -  Functions: 306
++  UUID: 96EDACA8-BD74-340E-A5E4-F196588B0902
 +  Functions: 307
    Symbols:   929
 -  CStrings:  410

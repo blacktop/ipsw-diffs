@@ -36,11 +36,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x230
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76CA57DD-208A-3107-9756-81419FF95DB2
++  UUID: F19DC94D-BB86-36E4-AB7D-7D26CAF45884
    Functions: 144
    Symbols:   713
--  CStrings:  292
-+  CStrings:  293
+-  CStrings:  305
++  CStrings:  306
  
 CStrings:
 + "T@\"NSString\",?,R,C"

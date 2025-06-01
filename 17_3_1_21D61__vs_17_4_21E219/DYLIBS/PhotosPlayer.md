@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F72A574-2BC2-3EF3-A5C4-39C7D530245B
++  UUID: 7FED028B-687D-38DB-8C09-B5B7E350D58F
    Functions: 1548
    Symbols:   5469
--  CStrings:  2389
-+  CStrings:  2392
+-  CStrings:  2552
++  CStrings:  2555
  
 Symbols:
 + _QueueIdentifierContext.3932

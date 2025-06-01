@@ -55,12 +55,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9EF8E59D-02EB-3286-9C15-80E429B92B9F
 -  Functions: 1082
 -  Symbols:   536
--  CStrings:  1443
+-  CStrings:  1497
++  UUID: C1B138E1-B03F-3995-9788-CD630C0DEFAE
 +  Functions: 1099
 +  Symbols:   540
-+  CStrings:  1468
++  CStrings:  1524
  
 Symbols:
 + _IOPMAssertionCreateWithName

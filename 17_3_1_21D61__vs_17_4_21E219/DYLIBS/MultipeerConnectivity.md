@@ -28,7 +28,6 @@
    __AUTH_CONST.__cfstring: 0x1220
    __AUTH_CONST.__const: 0x2a8
    __AUTH_CONST.__objc_const: 0x628
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x750
    __AUTH.__objc_data: 0x5a0
 -  __DATA.__objc_classrefs: 0x1c8
@@ -37,11 +36,15 @@
    __DATA.__data: 0x710
    __DATA.__bss: 0xf0
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E6CBD8EA-8DCD-3E45-B5FA-F98861246DC8
++  UUID: 407EF39F-1049-328C-A6F5-5C618E6847BE
    Functions: 1035
    Symbols:   3325
--  CStrings:  2094
-+  CStrings:  2095
+-  CStrings:  2239
++  CStrings:  2240
  
 Symbols:
 + ___45-[MCSession sendData:toPeers:withMode:error:]_block_invoke.479

@@ -44,11 +44,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9ED28960-F713-34B1-9E98-CC3B6770F597
 -  Functions: 158
++  UUID: DD800866-8210-3385-9183-3EF8D32C0C68
 +  Functions: 160
    Symbols:   226
--  CStrings:  518
-+  CStrings:  522
+-  CStrings:  531
++  CStrings:  535
  
 CStrings:
 + "-- Braille configs: %@"

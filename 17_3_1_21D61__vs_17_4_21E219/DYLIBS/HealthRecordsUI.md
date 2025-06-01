@@ -77,7 +77,6 @@
 +  __AUTH_CONST.__const: 0x16978
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_intobj: 0x180
--  __AUTH_CONST.__auth_ptr: 0x908
 -  __AUTH_CONST.__auth_got: 0x2b08
 -  __AUTH.__objc_data: 0x10190
 -  __AUTH.__data: 0xb2f0
@@ -85,7 +84,6 @@
 -  __DATA.__objc_classrefs: 0xcd0
 -  __DATA.__objc_superrefs: 0x248
 -  __DATA.__objc_ivar: 0x708
-+  __AUTH_CONST.__auth_ptr: 0x8f8
 +  __AUTH_CONST.__auth_got: 0x2b58
 +  __AUTH.__objc_data: 0xfd68
 +  __AUTH.__data: 0xb0e0
@@ -117,12 +115,14 @@
 -  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D68A9D01-3462-3DFF-82A0-798A264536A1
 -  Functions: 22876
 -  Symbols:   13925
--  CStrings:  7698
+-  CStrings:  7990
++  UUID: 7B236777-A638-309B-A985-BABFFE355228
 +  Functions: 22802
 +  Symbols:   13675
-+  CStrings:  7635
++  CStrings:  7919
  
 Symbols:
 + -[HKDiagnosticTestResult(Displayable) _displayItemsForCodedValueCollection:healthRecordsStore:preferredStyle:signedClinicalDataRecord:completion:]
@@ -522,7 +522,6 @@ Symbols:
 - _symbolic _____SgXwz_Xx 15HealthRecordsUI52ClinicalSharingOnboardingInformationalViewControllerC
 CStrings:
 + "\x02\x16"
-+ "%"
 + "%s was asked to present %s, however a modal is already being presented and the modal presentation should not be dismissed"
 + "%{public}@ failed to fetch SCD record with error: %{public}@"
 + "%{public}@: accountStateDidChange change: %{public}@)"

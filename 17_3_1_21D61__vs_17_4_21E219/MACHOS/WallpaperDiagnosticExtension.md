@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/PosterBoardServices.framework/PosterBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3CBA0AA3-EB2D-3B1D-B91C-D87BF8D21F15
++  UUID: 0CB87584-D14B-328C-BCE7-6F55AA59A95F
+   Functions: 5
+   Symbols:   52
+   CStrings:  41
+
 ```

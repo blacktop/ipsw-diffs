@@ -42,12 +42,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3DBE09EC-45B4-392C-B51E-CFC14D37F293
 -  Functions: 391
 -  Symbols:   210
--  CStrings:  268
+-  CStrings:  271
++  UUID: EA5CF97A-6837-3D63-9D01-C78322AF3D9E
 +  Functions: 427
 +  Symbols:   217
-+  CStrings:  308
++  CStrings:  311
  
 Symbols:
 + ___cxa_atexit

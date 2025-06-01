@@ -63,10 +63,8 @@
    __AUTH_CONST.__cfstring: 0x2a0
    __AUTH_CONST.__objc_const: 0x388
 -  __AUTH_CONST.__const: 0x60ce0
--  __AUTH_CONST.__auth_ptr: 0x938
 -  __AUTH_CONST.__auth_got: 0x2940
 +  __AUTH_CONST.__const: 0x610b8
-+  __AUTH_CONST.__auth_ptr: 0x940
 +  __AUTH_CONST.__auth_got: 0x2950
    __AUTH.__data: 0xe18
 -  __AUTH.__objc_data: 0x258
@@ -98,11 +96,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EB449F36-745A-311D-970D-99B4FED5ABD2
 -  Functions: 69123
++  UUID: B4760CAB-B579-372D-9C96-C8EA630AD435
 +  Functions: 69325
    Symbols:   791
--  CStrings:  8302
-+  CStrings:  8327
+-  CStrings:  8323
++  CStrings:  8348
  
 CStrings:
 + "' is not a valid address mode"

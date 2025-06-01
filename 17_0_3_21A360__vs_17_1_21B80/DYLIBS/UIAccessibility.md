@@ -57,11 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A58D0B7-812D-322C-9AEA-32E4481965C1
 -  Functions: 2677
 -  Symbols:   9224
+-  CStrings:  5048
++  UUID: C0C13570-58A1-3098-B055-E2D96887078B
 +  Functions: 2682
 +  Symbols:   9237
-   CStrings:  4320
++  CStrings:  5047
  
 Symbols:
 + -[NSObject(AXAutoscrolling) _accessibilityGetAllScrollViews]
@@ -351,6 +354,7 @@ CStrings:
 + "Received visible point %@ for %@{private}"
 + "_accessibilityGetAllScrollViews"
 + "accessibilityCustomAttribute:"
++ "\xc8\x02l"
 - "\x1b\\toi=lhp\\la&Iv\x1b\\toi=orth\\"
 - "-[UIView(UIAccessibilityElementTraversal) _accessibilityShouldBeAddedToViewChildrenWithOptions:]"
 - "-[UIView(UIAccessibilityElementTraversal) _addAccessibilityElementsAndOrderedContainersWithOptions:toCollection:]"

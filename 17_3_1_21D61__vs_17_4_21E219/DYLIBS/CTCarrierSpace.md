@@ -35,11 +35,15 @@
    __DATA.__data: 0x2a0
    __DATA_DIRTY.__const: 0x40
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2DBCCBFF-9B53-3F4B-8AE9-A126ABCA97F6
++  UUID: 0948A2DC-FB80-3186-A86B-DE06EC7D3DCC
    Functions: 345
    Symbols:   1279
--  CStrings:  718
-+  CStrings:  719
+-  CStrings:  891
++  CStrings:  892
  
 Symbols:
 + ___37-[CTCarrierSpaceClient _connect_sync]_block_invoke.60

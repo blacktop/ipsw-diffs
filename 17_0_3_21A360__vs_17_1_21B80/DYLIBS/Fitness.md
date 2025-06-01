@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC18D80B-88BC-3E64-98E1-6E621B83037A
 -  Functions: 826
 -  Symbols:   3053
--  CStrings:  1581
+-  CStrings:  1912
++  UUID: FFA3C3CE-E090-3F3A-B44B-A0DE8D83614C
 +  Functions: 832
 +  Symbols:   3074
-+  CStrings:  1591
++  CStrings:  1923
  
 Symbols:
 + -[FIWorkoutActivityType initWithActivityTypeIdentifier:location:isPartOfMultiSport:metadata:]

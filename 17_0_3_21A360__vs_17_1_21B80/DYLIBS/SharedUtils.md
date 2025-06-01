@@ -39,10 +39,9 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x750
 +  __AUTH_CONST.__const: 0x40
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x358
    __DATA.__objc_protorefs: 0x78
-
+   __DATA.__objc_classrefs: 0x158
    __DATA.__objc_superrefs: 0x68
    __DATA.__objc_ivar: 0xac
    __DATA.__data: 0x9e1
@@ -58,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E79C5C6D-0386-3CD2-B185-87A4D7F30FE5
 -  Functions: 610
 -  Symbols:   1825
--  CStrings:  1057
+-  CStrings:  1168
++  UUID: 8AE54CBB-5587-3390-A13F-9C7F4B8F14BF
 +  Functions: 618
 +  Symbols:   1824
-+  CStrings:  1065
++  CStrings:  1177
  
 Symbols:
 + -[LAACMHelper clear]

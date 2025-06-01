@@ -48,11 +48,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 425C4C3F-21D9-3ADE-9795-319DFAF2DD35
 -  Functions: 10008
++  UUID: 114B6FAA-01CB-32CA-8D04-B757FE1C17C9
 +  Functions: 9995
    Symbols:   679
--  CStrings:  10351
-+  CStrings:  10349
+-  CStrings:  10808
++  CStrings:  10806
  
 CStrings:
 + "@@ Strips Dec 20 2023 19:47:54"

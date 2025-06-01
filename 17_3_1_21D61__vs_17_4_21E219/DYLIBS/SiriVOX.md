@@ -87,12 +87,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DFB024E-B37E-3B73-8FF8-6BF19B6A9CDD
 -  Functions: 2723
 -  Symbols:   10334
--  CStrings:  5033
+-  CStrings:  5775
++  UUID: 1DC52BC9-CB21-360C-887A-6E0757DF3203
 +  Functions: 2822
 +  Symbols:   10854
-+  CStrings:  5271
++  CStrings:  6021
  
 Symbols:
 + +[SVXTapToRadarManager sharedInstanceWithRadarFiler:]

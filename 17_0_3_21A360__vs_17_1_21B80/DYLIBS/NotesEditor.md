@@ -75,7 +75,6 @@
    __AUTH_CONST.__objc_intobj: 0x408
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x128
 -  __AUTH_CONST.__auth_got: 0x1e50
 -  __AUTH.__objc_data: 0x3958
 -  __AUTH.__data: 0xa60
@@ -119,12 +118,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F9124226-E3D1-31B5-BA56-BD253F18985D
 -  Functions: 10757
 -  Symbols:   25422
--  CStrings:  12746
+-  CStrings:  13458
++  UUID: 25F77238-33C0-3590-831D-270D8EEC0E06
 +  Functions: 10858
 +  Symbols:   25568
-+  CStrings:  12804
++  CStrings:  13525
  
 Symbols:
 + +[ICAttributionLayoutManager initialize]

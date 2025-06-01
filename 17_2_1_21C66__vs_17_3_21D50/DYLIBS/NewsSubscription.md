@@ -51,7 +51,6 @@
    __AUTH_CONST.__objc_const: 0x5f8
 -  __AUTH_CONST.__const: 0x10de8
 +  __AUTH_CONST.__const: 0x10e10
-   __AUTH_CONST.__auth_ptr: 0x3a0
    __AUTH_CONST.__auth_got: 0x1fc0
    __AUTH.__objc_data: 0x1468
    __AUTH.__data: 0x1b48
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2327A0CD-5130-3809-8AE3-02FBF43CDA46
 -  Functions: 9875
 -  Symbols:   3863
--  CStrings:  3623
+-  CStrings:  3631
++  UUID: 94EA2E14-3168-3226-89B8-8049714ADFD8
 +  Functions: 9879
 +  Symbols:   3866
-+  CStrings:  3626
++  CStrings:  3634
  
 Symbols:
 + _OBJC_CLASS_$_AMSCarrierLinkResult

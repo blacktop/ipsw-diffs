@@ -65,7 +65,6 @@
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_const: 0x778
 -  __AUTH_CONST.__const: 0x7a50
--  __AUTH_CONST.__auth_ptr: 0x198
 -  __AUTH_CONST.__auth_got: 0xe10
 -  __AUTH.__objc_data: 0xd00
 -  __AUTH.__data: 0x700
@@ -73,7 +72,6 @@
 -  __DATA.__objc_classrefs: 0xd0
 -  __DATA.__objc_superrefs: 0x8
 +  __AUTH_CONST.__const: 0x7f80
-+  __AUTH_CONST.__auth_ptr: 0x1a8
 +  __AUTH_CONST.__auth_got: 0xe50
 +  __AUTH.__objc_data: 0xcc0
 +  __AUTH.__data: 0x640
@@ -99,12 +97,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 01B984D8-15E0-32CA-BD5F-3F096D7DB4B7
 -  Functions: 5025
 -  Symbols:   1709
--  CStrings:  990
+-  CStrings:  1002
++  UUID: 73108BC6-B3F1-33F0-B23C-9B99E592AC6B
 +  Functions: 5333
 +  Symbols:   1760
-+  CStrings:  1089
++  CStrings:  1101
  
 Symbols:
 + _OBJC_CLASS_$_NSOperationQueue

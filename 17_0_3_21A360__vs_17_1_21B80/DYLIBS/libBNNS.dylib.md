@@ -22,8 +22,6 @@
    __DATA_CONST.__got: 0xf0
    __DATA_CONST.__const: 0x2ee8
    __AUTH_CONST.__const: 0xa778
--  __AUTH_CONST.__auth_ptr: 0x260
-+  __AUTH_CONST.__auth_ptr: 0x268
    __AUTH_CONST.__cfstring: 0x200
 -  __AUTH_CONST.__auth_got: 0x670
 +  __AUTH_CONST.__auth_got: 0x688
@@ -34,12 +32,14 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: B39E637E-F466-323A-B81E-09C1DBF6A5E1
 -  Functions: 9234
 -  Symbols:   507
--  CStrings:  3043
+-  CStrings:  3059
++  UUID: 61691D5E-0F49-3902-A613-4C699F13DF50
 +  Functions: 9243
 +  Symbols:   514
-+  CStrings:  3055
++  CStrings:  3071
  
 Symbols:
 + _BNNSGraphCompileOptionsGetFileWriteFSyncBarrier

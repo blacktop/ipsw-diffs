@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/PhotoAnalysis.framework/PhotoAnalysis
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25A99690-87A4-3D5B-B050-D888ABAFA527
++  UUID: E19C599A-D697-3CD4-A696-1558A447F152
    Functions: 19
    Symbols:   73
--  CStrings:  149
-+  CStrings:  150
+-  CStrings:  161
++  CStrings:  162
  
 CStrings:
 + "T@\"NSString\",?,R,C"

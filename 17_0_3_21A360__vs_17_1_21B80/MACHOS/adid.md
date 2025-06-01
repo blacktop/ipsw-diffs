@@ -24,13 +24,16 @@
    __DATA.__data: 0x1770
    __DATA.__common: 0x141
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: D90547DD-5FCF-3D81-95D1-748563D46839
++  UUID: FBBFAF50-D626-34C1-B2EF-327F121DD0F6
    Functions: 134
 -  Symbols:   117
--  CStrings:  5
+-  CStrings:  6
 +  Symbols:   120
-+  CStrings:  6
++  CStrings:  7
  
 Symbols:
 + _os_release

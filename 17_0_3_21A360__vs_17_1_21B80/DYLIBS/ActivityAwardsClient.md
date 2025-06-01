@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/ActivityAchievements.framework/ActivityAchievements
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6FCBCDE8-68AC-35FB-88B9-A19B6364CAFC
 -  Functions: 106
 -  Symbols:   402
--  CStrings:  161
+-  CStrings:  167
++  UUID: 51190D98-19DD-35B4-9208-4527B63E37D2
 +  Functions: 114
 +  Symbols:   420
-+  CStrings:  164
++  CStrings:  170
  
 Symbols:
 + -[AACAwardsClient dealloc]

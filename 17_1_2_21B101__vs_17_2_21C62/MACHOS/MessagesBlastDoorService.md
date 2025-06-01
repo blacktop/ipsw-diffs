@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09568FD8-788E-3CA4-8F89-C6BDB9D4310F
 -  Functions: 2476
 -  Symbols:   495
--  CStrings:  1063
+-  CStrings:  1126
++  UUID: EA0AD94F-AEE3-383F-8825-910D124A8117
 +  Functions: 2590
 +  Symbols:   497
-+  CStrings:  1071
++  CStrings:  1136
  
 Symbols:
 + _MBDIMStickerUserInfoIsReactionKey

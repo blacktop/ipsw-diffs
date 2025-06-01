@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x120
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 999A32AD-9652-3A6E-B725-4F1CACA6187B
++  UUID: 6B1DE5A1-486D-332E-A87C-6DDB3E032E5F
+   Functions: 26
+   Symbols:   100
+   CStrings:  169
+
 ```

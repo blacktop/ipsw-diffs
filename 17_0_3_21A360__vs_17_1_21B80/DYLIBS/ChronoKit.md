@@ -59,12 +59,10 @@
    __AUTH_CONST.__objc_const: 0x1a8
    __AUTH_CONST.__cfstring: 0x180
 -  __AUTH_CONST.__const: 0xa678
--  __AUTH_CONST.__auth_ptr: 0x300
 -  __AUTH_CONST.__auth_got: 0x24f0
 -  __AUTH.__objc_data: 0xc48
 -  __AUTH.__data: 0x1590
 +  __AUTH_CONST.__const: 0xa530
-+  __AUTH_CONST.__auth_ptr: 0x2f8
 +  __AUTH_CONST.__auth_got: 0x2508
 +  __AUTH.__objc_data: 0xc98
 +  __AUTH.__data: 0x1660
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B26CDFF-589C-3107-AE5E-03F4F9DD017E
 -  Functions: 9296
 -  Symbols:   2811
--  CStrings:  1781
+-  CStrings:  1793
++  UUID: 18C34287-8A35-3086-8C9A-943971B4808F
 +  Functions: 9253
 +  Symbols:   2812
-+  CStrings:  1788
++  CStrings:  1800
  
 Symbols:
 + __DATA__TtC9ChronoKitP33_51468F6A8FEA01A6828210744DB7754E20DebugOverlayObserver

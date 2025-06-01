@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ARKitUI.framework/ARKitUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8EFF6421-B829-3B9F-8A34-12164DE55991
++  UUID: E2F021E2-DBE6-330F-B6CC-BE20DEB1CD00
+   Functions: 19
+   Symbols:   87
+   CStrings:  57
+
 ```

@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4DFD47D5-C8A9-3B77-B4D1-1729668D9C38
 -  Functions: 4582
 -  Symbols:   750
--  CStrings:  7016
+-  CStrings:  8013
++  UUID: 82C6B18A-CCEE-3A31-9766-7FBB4C936FB5
 +  Functions: 4596
 +  Symbols:   751
-+  CStrings:  7038
++  CStrings:  8037
  
 Symbols:
 + _APSPrintInternalMessageAppContentsKey

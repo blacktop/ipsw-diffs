@@ -38,11 +38,15 @@
    __DATA.__data: 0x258
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D52A823F-6DB1-3948-A67C-35B60BB7C28B
++  UUID: C1100CCC-D45B-32DE-87A2-0BA733EFDCF6
    Functions: 193
    Symbols:   871
--  CStrings:  524
-+  CStrings:  525
+-  CStrings:  610
++  CStrings:  611
  
 CStrings:
 + "T@\"NSString\",?,R,C"

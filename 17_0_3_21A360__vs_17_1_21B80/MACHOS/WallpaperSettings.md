@@ -56,11 +56,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1598BDF-21FC-3A77-8EEB-2910BB394CB8
 -  Functions: 1371
++  UUID: 579BF7DA-7CAE-3BC6-B4A3-9DADF9A7182D
 +  Functions: 1385
    Symbols:   214
--  CStrings:  272
-+  CStrings:  273
+-  CStrings:  273
++  CStrings:  274
  
 CStrings:
 + "handleHostSceneTransitionedFromActiveState"

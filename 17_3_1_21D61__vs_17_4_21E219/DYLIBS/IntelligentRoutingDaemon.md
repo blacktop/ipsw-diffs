@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E06B43D-51B0-3DA5-A764-AAFE2B16617B
 -  Functions: 2437
 -  Symbols:   8858
--  CStrings:  4623
+-  CStrings:  5500
++  UUID: 70E84E2F-2117-3121-BA8B-5F51947FD00C
 +  Functions: 2450
 +  Symbols:   8899
-+  CStrings:  4642
++  CStrings:  5523
  
 Symbols:
 + +[IRAnalyticsUtilities _temporaryListOfAllowedApps]

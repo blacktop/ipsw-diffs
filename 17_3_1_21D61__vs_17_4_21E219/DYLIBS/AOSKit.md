@@ -29,11 +29,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AAEB3680-1D2E-327F-A322-8C1A21B91916
++  UUID: 21AE8CD3-57E9-37B0-BA1B-8B8A058C806A
    Functions: 56
    Symbols:   299
--  CStrings:  223
-+  CStrings:  224
+-  CStrings:  314
++  CStrings:  315
  
 CStrings:
 + "T@\"NSString\",?,R,C"

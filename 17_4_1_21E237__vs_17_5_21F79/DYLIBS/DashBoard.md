@@ -43,8 +43,8 @@
    __DATA_CONST.__objc_classrefs: 0x10d8
    __DATA_CONST.__objc_superrefs: 0x4e0
 
+   __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0xd0
    __AUTH_CONST.__auth_got: 0x1d88
 -  __AUTH.__objc_data: 0x5d48
 +  __AUTH.__objc_data: 0x57a8
@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5F872FE7-C033-3AF9-B51F-63EC8ACBA985
 -  Functions: 7899
 -  Symbols:   21500
--  CStrings:  10740
+-  CStrings:  11677
++  UUID: 0A0C1D40-9AC5-3370-9308-6C5215A479AB
 +  Functions: 7906
 +  Symbols:   21520
-+  CStrings:  10750
++  CStrings:  11687
  
 Symbols:
 + -[DBInstrumentClusterAppSceneViewController sceneIsForeground]

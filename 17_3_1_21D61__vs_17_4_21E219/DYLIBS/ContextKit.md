@@ -22,4 +22,13 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x0
 
+   - /System/Library/PrivateFrameworks/ContextKitCore.framework/ContextKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0958D5BC-C2E5-3AEA-884E-9348ABA14A07
++  UUID: C35734AA-AC41-3380-A3C0-1BA96B06E70F
+   Functions: 454
+   Symbols:   1726
+   CStrings:  1014
+
 ```

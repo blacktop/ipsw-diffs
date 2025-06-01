@@ -18,4 +18,13 @@
    __DATA_CONST.__got: 0x10
    __DATA_CONST.__const: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: EEBFF8F3-F1AA-38AC-8A9C-C47B61A999F7
++  UUID: 0C01B661-7344-3D6E-8648-E7C3F05D06ED
+   Functions: 32
+   Symbols:   130
+   CStrings:  14
+
 ```

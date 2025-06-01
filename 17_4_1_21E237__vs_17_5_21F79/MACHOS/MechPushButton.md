@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x758
    __TEXT.__oslogstring: 0x133
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5E4771B5-D1D2-32D5-AA10-F3F79C07FF59
++  UUID: 944DBB31-0452-3D95-89D7-0CE282C6A5D2
+   Functions: 21
+   Symbols:   50
+   CStrings:  160
+
 ```

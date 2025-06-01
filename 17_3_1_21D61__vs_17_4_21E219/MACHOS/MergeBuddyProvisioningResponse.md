@@ -21,4 +21,13 @@
    __DATA.__bss: 0x28
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 62CEF0EC-A52A-3A17-BF2E-B6D97A32B762
++  UUID: 31CB9E7A-1DA8-3908-94BE-C9988612BDE1
+   Functions: 50
+   Symbols:   81
+   CStrings:  163
+
 ```

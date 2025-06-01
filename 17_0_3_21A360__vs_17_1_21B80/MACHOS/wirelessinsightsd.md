@@ -71,12 +71,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4C7B47DA-2BE8-37F7-B101-B14B688EF6AE
 -  Functions: 4591
 -  Symbols:   692
--  CStrings:  2032
+-  CStrings:  2112
++  UUID: 25B36DD9-71EC-31AF-8172-9DB5F1EE676D
 +  Functions: 4705
 +  Symbols:   703
-+  CStrings:  2163
++  CStrings:  2268
  
 Symbols:
 + _OBJC_CLASS_$_NSIndexSet

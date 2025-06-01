@@ -28,4 +28,13 @@
    __DATA.__data: 0x58
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C294EFBA-F7FF-3D98-ADD7-261988E0B09F
++  UUID: 4407C643-10C0-3DBA-AB07-2BB2FA24E2EA
+   Functions: 186
+   Symbols:   607
+   CStrings:  271
+
 ```

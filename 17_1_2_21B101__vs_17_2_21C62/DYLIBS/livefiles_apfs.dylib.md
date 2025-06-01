@@ -22,11 +22,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: C1F522EF-1186-3327-8525-B8A7E4CF909F
 -  Functions: 2563
 -  Symbols:   5247
++  UUID: 474F4F30-AA98-38E4-9486-05323D73AC1A
 +  Functions: 2566
 +  Symbols:   5253
-   CStrings:  1969
+   CStrings:  1978
  
 Symbols:
 + _ino_poison_vnode

@@ -37,7 +37,6 @@
 +  __AUTH_CONST.__const: 0x1cc0
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x70
 -  __AUTH_CONST.__auth_got: 0xdc0
 +  __AUTH_CONST.__auth_got: 0xdc8
    __AUTH.__objc_data: 0x458
@@ -55,11 +54,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A14ADB37-5C88-397D-976A-E622BA053CEE
 -  Functions: 2061
 -  Symbols:   2038
++  UUID: 689D9362-EB65-3173-893B-534F0E84BD68
 +  Functions: 2064
 +  Symbols:   2042
-   CStrings:  708
+   CStrings:  759
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyACyAA6VStackVyACyAGyAEyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGALGGAA06_FrameJ0VGGAWGAA07_HiddenN0VGAZGAA023AccessibilityAttachmentN0VGAA4ViewHPA2_AAA6_HPA1_AAA6_HPAzAA6_HPAyAA6_HPyHC_AwA0tN0HPyHCHC_A0_AAA7_HPyHCHC_AzAA6_HPAyAA6_HPyHC_AwAA7_HPyHCHCHC_A4_AAA7_HPyHCHC.49

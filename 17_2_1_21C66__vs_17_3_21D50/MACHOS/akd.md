@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 16EA5569-E9A3-3804-BA9E-8F77B2C9DB98
 -  Functions: 5443
 -  Symbols:   1050
--  CStrings:  7942
+-  CStrings:  8687
++  UUID: DFC07B8F-3A06-3EE4-BD79-07335849A4CD
 +  Functions: 5458
 +  Symbols:   1056
-+  CStrings:  7970
++  CStrings:  8720
  
 Symbols:
 + _AKBiometricRatchetStateDidChangeNotification

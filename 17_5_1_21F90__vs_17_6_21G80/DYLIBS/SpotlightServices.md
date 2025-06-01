@@ -35,13 +35,16 @@
    __AUTH_CONST.__const: 0x1ad0
    __AUTH_CONST.__objc_floatobj: 0x10
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0ED6E17A-9EF2-3CED-A6FA-DA4A6873F63F
++  UUID: 9E48F8EB-824F-3E86-AB1B-E48733EB3C91
    Functions: 4068
 -  Symbols:   14829
--  CStrings:  10470
+-  CStrings:  15134
 +  Symbols:   14830
-+  CStrings:  10468
++  CStrings:  15130
  
 Symbols:
 + _FINANCE_TRANSACTION

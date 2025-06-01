@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/SafetyAlerts.framework/SafetyAlerts
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CBD38FD6-A25C-3AAD-BFE2-A4BA855EFBD5
 -  Functions: 25
 -  Symbols:   63
--  CStrings:  89
+-  CStrings:  104
++  UUID: 087E3D5E-8C6A-3851-A36D-A8188E4CCEDD
 +  Functions: 32
 +  Symbols:   65
-+  CStrings:  107
++  CStrings:  129
  
 Symbols:
 + _OBJC_CLASS_$_SafetyAlerts

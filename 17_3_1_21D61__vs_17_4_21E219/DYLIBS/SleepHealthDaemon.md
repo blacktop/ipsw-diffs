@@ -35,11 +35,15 @@
    __DATA.__data: 0x420
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/SleepHealth.framework/SleepHealth
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6ACDCEC-3CC5-3B5E-9D84-13168BDDA713
++  UUID: 58ADD972-1ADE-33E0-85B3-13749EED3271
    Functions: 71
    Symbols:   512
--  CStrings:  330
-+  CStrings:  331
+-  CStrings:  339
++  CStrings:  340
  
 Symbols:
 + ___36-[HDSHPluginServer _cloudSyncFuture]_block_invoke.278

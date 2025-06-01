@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00E68850-E4C9-3A53-B191-FE4D2BD57B6E
++  UUID: 32DFAA5F-5019-3B2D-9A8F-E73036C509CD
    Functions: 931
    Symbols:   282
--  CStrings:  2381
-+  CStrings:  2383
+-  CStrings:  2994
++  CStrings:  2998
  
 CStrings:
 + "Encryption not enabled data: %@"

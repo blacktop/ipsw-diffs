@@ -57,7 +57,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_dictobj: 0x1b8
-   __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__auth_got: 0x1898
 -  __AUTH.__objc_data: 0x38c0
 -  __AUTH.__const_weak: 0x28
@@ -83,11 +82,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 07941FFB-B4D3-32CE-9BCC-DE1AB45B812A
 -  Functions: 3908
 -  Symbols:   1701
+-  CStrings:  7730
++  UUID: 4FB36F9E-D5C9-3573-B53B-A11150635CCC
 +  Functions: 3924
 +  Symbols:   1714
-   CStrings:  6397
++  CStrings:  7728
  
 Symbols:
 + _DTGPUCountersCapabilityName

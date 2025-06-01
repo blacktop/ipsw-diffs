@@ -24,5 +24,12 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 67519837-81CA-3227-B413-C8232855C40F
++  UUID: 5A3EE817-92C3-3B8A-A902-BF9C0F28A259
+   Functions: 473
+   Symbols:   293
+   CStrings:  954
 
 ```

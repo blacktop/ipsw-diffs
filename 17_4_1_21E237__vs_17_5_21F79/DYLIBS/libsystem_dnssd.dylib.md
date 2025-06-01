@@ -15,6 +15,15 @@
 +  __TEXT.__unwind_info: 0x1b8
    __DATA_CONST.__got: 0x18
    __DATA_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__auth_got: 0x1c0
+
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 937503B9-A8A5-37C3-B9B0-05EAF11262F0
++  UUID: DC608147-7766-3E94-ABE7-ADAF895B73D4
+   Functions: 93
+   Symbols:   200
+   CStrings:  133
 
 ```

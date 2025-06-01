@@ -18,8 +18,10 @@
    - /System/DriverKit/usr/lib/system/libdyld.dylib
    - /System/DriverKit/usr/lib/system/libsystem_kernel.dylib
    - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
+-  UUID: 5A89B4FD-3804-34D4-9B6E-78D3514B2183
 -  Functions: 310
 -  Symbols:   425
++  UUID: 197A6B59-C462-354F-A31F-1EBB28BB6841
 +  Functions: 312
 +  Symbols:   427
    CStrings:  56

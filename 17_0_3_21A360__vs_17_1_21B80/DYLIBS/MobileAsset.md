@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DC979217-85EE-3360-9E9B-EFEFF80B6B75
 -  Functions: 2555
 -  Symbols:   7505
--  CStrings:  4400
+-  CStrings:  6095
++  UUID: 43C65C21-6D09-342E-9556-301FD130852E
 +  Functions: 2589
 +  Symbols:   7582
-+  CStrings:  4436
++  CStrings:  6148
  
 Symbols:
 + +[MAAutoAsset cancelActivityForSelector:completion:]

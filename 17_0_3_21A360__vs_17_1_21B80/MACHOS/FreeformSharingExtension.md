@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 21CCFA09-650F-3BE1-A661-D43C5943C15A
 -  Functions: 1703
 -  Symbols:   453
--  CStrings:  1156
+-  CStrings:  1248
++  UUID: 8EAE0355-B779-3C7B-B0D5-8D2D19A62A18
 +  Functions: 1709
 +  Symbols:   462
-+  CStrings:  1168
++  CStrings:  1260
  
 Symbols:
 + _CGImageGetAlphaInfo

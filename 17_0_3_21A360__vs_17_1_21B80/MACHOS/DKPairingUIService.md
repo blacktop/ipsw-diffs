@@ -19,6 +19,15 @@
    __TEXT.__objc_methname: 0x153f
    __TEXT.__swift5_reflstr: 0x104
    __TEXT.__swift5_capture: 0x1d0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FBCFB6FC-E8D1-3487-A29B-0ED18A5FA59B
++  UUID: 3B95E93A-A79C-30B1-8446-B648125B7BAA
+   Functions: 284
+   Symbols:   239
+   CStrings:  405
 CStrings:
 + "To add an accessory, you’ll need to turn on WLAN and Bluetooth"
 + "To add an accessory, you’ll need to turn on Wi-Fi and Bluetooth"

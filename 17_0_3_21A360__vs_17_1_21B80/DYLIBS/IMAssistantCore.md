@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F404D482-375C-32DF-918E-205FDAB7BA64
 -  Functions: 464
 -  Symbols:   332
--  CStrings:  1850
+-  CStrings:  2308
++  UUID: 9A203173-6F44-3EAF-950E-32D278DCAB17
 +  Functions: 461
 +  Symbols:   329
-+  CStrings:  1852
++  CStrings:  2309
  
 Symbols:
 - _NSInternalInconsistencyException

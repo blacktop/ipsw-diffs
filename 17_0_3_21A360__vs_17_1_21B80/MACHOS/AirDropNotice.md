@@ -34,4 +34,13 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3A087455-FCB9-3E8C-AAE3-63F2D8E3C4CD
++  UUID: E4BE95A8-180A-30F0-AFCB-EF3CE4FCBC2D
+   Functions: 162
+   Symbols:   122
+   CStrings:  148
+
 ```

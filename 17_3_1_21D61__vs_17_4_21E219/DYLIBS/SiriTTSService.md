@@ -62,13 +62,6 @@
 -  __DATA_CONST.__objc_const: 0xd358
 -  __DATA_CONST.__objc_selrefs: 0x1e48
 -  __AUTH_CONST.__const: 0x35c0
-+  __DATA_CONST.__objc_const: 0xd5a8
-+  __DATA_CONST.__objc_selrefs: 0x1e90
-+  __DATA_CONST.__objc_protorefs: 0x68
-+  __DATA_CONST.__objc_classrefs: 0x4a8
-+  __DATA_CONST.__objc_superrefs: 0x248
-+  __AUTH_CONST.__const: 0x3be0
-   __AUTH_CONST.__auth_ptr: 0x1e0
 -  __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0xf80
 -  __AUTH_CONST.__auth_got: 0x1620
@@ -77,6 +70,12 @@
 -  __DATA.__objc_protorefs: 0x68
 -  __DATA.__objc_classrefs: 0x4a0
 -  __DATA.__objc_superrefs: 0x248
++  __DATA_CONST.__objc_const: 0xd5a8
++  __DATA_CONST.__objc_selrefs: 0x1e90
++  __DATA_CONST.__objc_protorefs: 0x68
++  __DATA_CONST.__objc_classrefs: 0x4a8
++  __DATA_CONST.__objc_superrefs: 0x248
++  __AUTH_CONST.__const: 0x3be0
 +  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__cfstring: 0xfa0
 +  __AUTH_CONST.__auth_got: 0x1660
@@ -113,12 +112,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4DD9C8E-00DC-3616-86A3-E1E02825FE70
 -  Functions: 10256
 -  Symbols:   9711
--  CStrings:  3737
+-  CStrings:  3861
++  UUID: 7FF3B144-427B-3BBB-A603-EADDAF710312
 +  Functions: 10381
 +  Symbols:   9890
-+  CStrings:  3809
++  CStrings:  3934
  
 Symbols:
 + +[SiriTTSServiceAudioAnalytics reportAnalytics:tailspin:]

@@ -79,12 +79,14 @@
    - @rpath/IMDebug.framework/IMDebug
    - @rpath/NowPlayingUI.framework/NowPlayingUI
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 4F0413A0-5BD8-33D4-9E97-4EEAEF516376
 -  Functions: 20455
 -  Symbols:   4185
--  CStrings:  15678
+-  CStrings:  17304
++  UUID: F6D91DFF-BD9F-3855-9A79-8E72DF3D3DEE
 +  Functions: 20466
 +  Symbols:   4188
-+  CStrings:  15692
++  CStrings:  17327
  
 Symbols:
 + _$s10PodcastsUI14SettingsBridgeMp

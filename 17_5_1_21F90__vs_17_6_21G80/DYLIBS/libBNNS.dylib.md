@@ -15,6 +15,15 @@
    __TEXT.__oslogstring: 0x1b7
    __TEXT.__unwind_info: 0xa2a8
    __TEXT.__eh_frame: 0x82a0
+
+   - /System/Library/PrivateFrameworks/MIL.framework/MIL
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: B232083B-E3DC-3AA2-BACE-3265FEA2D7CB
++  UUID: 294624F4-AB77-389E-A350-EDB6BDFF783E
+   Functions: 10950
+   Symbols:   594
+   CStrings:  3601
 CStrings:
 + "BasicNeuralNetworkSubroutines-830.120.10~498"
 - "BasicNeuralNetworkSubroutines-830.120.9.0.1~38"

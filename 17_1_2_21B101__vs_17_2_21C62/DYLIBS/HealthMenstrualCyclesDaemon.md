@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0553195-5169-32BB-810E-5721E0F733F9
 -  Functions: 1140
 -  Symbols:   4785
--  CStrings:  2542
+-  CStrings:  2804
++  UUID: 7EB314FE-2514-37E9-923B-A0CBFDF5F7A8
 +  Functions: 1155
 +  Symbols:   4836
-+  CStrings:  2567
++  CStrings:  2829
  
 Symbols:
 + -[HDMCDailyAnalytics _collectSensitiveFieldsForMetric:settingsManager:menstrualCyclesSettings:heartRateInputFeatureStatus:deviationDetectionSettings:wristTemperatureInputFeatureStatus:gregorianCalendar:error:].cold.18

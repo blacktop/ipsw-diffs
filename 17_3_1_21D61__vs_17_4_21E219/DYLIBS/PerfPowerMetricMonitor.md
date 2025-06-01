@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 42257A74-8533-3BB6-A3F9-D9409BD52C57
 -  Functions: 294
 -  Symbols:   1062
--  CStrings:  593
+-  CStrings:  663
++  UUID: 8F8D477E-7F5C-3AD0-AEF1-66762CB76BEB
 +  Functions: 298
 +  Symbols:   1072
-+  CStrings:  604
++  CStrings:  676
  
 Symbols:
 + -[PPSProcessMetricCollection cpuPInstructions]

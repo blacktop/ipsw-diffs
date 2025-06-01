@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91706D8A-CA8E-3998-B369-93D04130588C
 -  Functions: 3147
 -  Symbols:   686
--  CStrings:  2963
+-  CStrings:  3318
++  UUID: 65B5B654-2D5D-34D0-B212-03A6F378A65A
 +  Functions: 3135
 +  Symbols:   685
-+  CStrings:  2986
++  CStrings:  3341
  
 Symbols:
 - _swift_setDeallocating

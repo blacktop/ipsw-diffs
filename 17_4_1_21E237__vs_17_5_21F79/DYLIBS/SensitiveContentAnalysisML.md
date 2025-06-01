@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+-  UUID: 3014D8A3-5E84-33AD-B097-2F397E520282
++  UUID: 2915124A-45F4-337D-A987-37B2575DAD3B
+   Functions: 398
+   Symbols:   1773
+   CStrings:  921
+
 ```

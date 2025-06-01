@@ -29,7 +29,6 @@
    __DATA_CONST.__objc_classrefs: 0x78
 -  __AUTH_CONST.__const: 0x17a8
 +  __AUTH_CONST.__const: 0x17d0
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__auth_got: 0xe80
    __AUTH.__objc_data: 0x0
    __DATA.__objc_data: 0x178
@@ -46,5 +45,14 @@
    __DATA_DIRTY.__common: 0xb0
    __DATA_DIRTY.__bss: 0xb00
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1AF94CFF-4D76-3CFB-8ADD-2CEBBFDF741D
++  UUID: B71AB44B-7961-37D8-9E96-497532A78981
+   Functions: 1913
+   Symbols:   1493
+   CStrings:  455
 
 ```

@@ -43,13 +43,16 @@
    __DATA.__objc_ivar: 0x13c
    __DATA.__objc_data: 0xa00
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3EE5A54B-58E9-357D-996D-97FF7A8E8F8B
++  UUID: 30B170AF-2BA5-3F88-B4A4-6753F7313F6B
    Functions: 757
 -  Symbols:   221
--  CStrings:  1504
+-  CStrings:  1539
 +  Symbols:   222
-+  CStrings:  1511
++  CStrings:  1547
  
 Symbols:
 + _OBJC_CLASS_$_BRDeviceConfiguration

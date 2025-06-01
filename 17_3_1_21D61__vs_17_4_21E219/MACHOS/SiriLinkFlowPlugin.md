@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8CD1F575-10EA-3FB4-AE26-59C624CA5EFD
 -  Functions: 13047
 -  Symbols:   80935
--  CStrings:  2508
+-  CStrings:  2556
++  UUID: DE22D3C6-9090-3388-9175-1E6FA0FC3BCB
 +  Functions: 13831
 +  Symbols:   85828
-+  CStrings:  2544
++  CStrings:  2592
  
 Symbols:
 + $s18SiriLinkFlowPlugin18WorkflowDataModelsO10WatchModelV11appPunchout10SnippetKit16CodableAceObjectVySo32SAIntentGroupLaunchAppWithIntentCGSgvM.resume.0

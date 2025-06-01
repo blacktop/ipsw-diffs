@@ -33,7 +33,6 @@
    __AUTH_CONST.__objc_intobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x2b18
 +  __AUTH_CONST.__auth_got: 0x2b20
    __AUTH.__objc_data: 0x17c0
@@ -52,11 +51,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 707E82B7-49FC-31AA-A493-F47AAC5C7C41
 -  Functions: 13521
 -  Symbols:   2550
++  UUID: 650B083C-E640-3F12-A267-32148F1EB6B8
 +  Functions: 13522
 +  Symbols:   2551
-   CStrings:  9824
+   CStrings:  11840
  
 Symbols:
 + _CFPreferencesAppValueIsForced

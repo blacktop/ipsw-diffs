@@ -36,9 +36,7 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_classrefs: 0x70
 -  __AUTH_CONST.__const: 0xf1f0
--  __AUTH_CONST.__auth_ptr: 0x3b0
 +  __AUTH_CONST.__const: 0xf140
-+  __AUTH_CONST.__auth_ptr: 0x3b8
    __AUTH_CONST.__objc_const: 0x40
 -  __AUTH_CONST.__auth_got: 0x1dc8
 +  __AUTH_CONST.__auth_got: 0x1dd0
@@ -50,8 +48,11 @@
    __DATA.__bss: 0xb050
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 54492808-90BE-3D10-BBFF-C7195A05A916
++  UUID: 1FDAAE99-C075-345D-A09D-4596ADCB0E0E
    Functions: 8954
 -  Symbols:   2535
 +  Symbols:   2539

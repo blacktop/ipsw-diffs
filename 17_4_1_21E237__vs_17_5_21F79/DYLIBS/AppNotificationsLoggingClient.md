@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0xa41
    __TEXT.__objc_methtype: 0x343
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4E11FD20-2957-3BD4-819E-E6C49BBA7E33
++  UUID: 83B1DFA7-6595-3906-ADDE-112A87BC8C1F
+   Functions: 182
+   Symbols:   690
+   CStrings:  388
+
 ```

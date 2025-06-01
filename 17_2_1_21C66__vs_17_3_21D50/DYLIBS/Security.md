@@ -39,7 +39,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x2a20
    __DATA_CONST.__objc_arraydata: 0xe8
    __AUTH_CONST.__const: 0x3c98
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x13c40
 +  __AUTH_CONST.__cfstring: 0x13c60
    __AUTH_CONST.__objc_arrayobj: 0x108
@@ -58,12 +57,14 @@
    - /usr/lib/libcoretls_cfhelpers.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F514644B-2306-3A6A-BA95-51377355AC14
 -  Functions: 6325
 -  Symbols:   18311
--  CStrings:  7423
+-  CStrings:  9953
++  UUID: 85E60746-BBA0-3670-9003-313241CAE0BA
 +  Functions: 6328
 +  Symbols:   18319
-+  CStrings:  7431
++  CStrings:  9962
  
 Symbols:
 + -[OTJoiningConfiguration enableForTests]

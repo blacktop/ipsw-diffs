@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x10
    __DATA_CONST.__const: 0xc0
 
+   - /System/Library/PrivateFrameworks/WiFiPolicy.framework/WiFiPolicy
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4CD1C788-26A8-3527-918C-1D6E558376AA
++  UUID: 5960834A-F004-3DE3-8B6D-F951FB3409EF
+   Functions: 21
+   Symbols:   57
+   CStrings:  154
+
 ```

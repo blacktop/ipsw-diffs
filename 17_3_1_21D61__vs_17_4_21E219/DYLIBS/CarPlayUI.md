@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36DBCFB3-65F3-31C4-9644-4CE6B3B90180
 -  Functions: 974
 -  Symbols:   3823
--  CStrings:  1967
+-  CStrings:  2062
++  UUID: A9A86926-BEEB-338E-B774-BFA905C84D8B
 +  Functions: 976
 +  Symbols:   3830
-+  CStrings:  1997
++  CStrings:  2121
  
 Symbols:
 + -[CPUINowPlayingView _updateAudioSessionRenderingMode]

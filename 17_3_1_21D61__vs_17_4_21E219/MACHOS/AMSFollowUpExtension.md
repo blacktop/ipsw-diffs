@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e8
 
+   - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79047DF5-8D3E-3667-BB2B-E589B64CFAFB
++  UUID: 795EB1B6-959C-38A2-ACA9-D4F64D7C5237
    Functions: 64
    Symbols:   83
--  CStrings:  231
-+  CStrings:  233
+-  CStrings:  245
++  CStrings:  247
  
 CStrings:
 + "T@\"<AMSMescalBagContract>\",?,R,N"

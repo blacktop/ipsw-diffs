@@ -81,12 +81,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CA416C2C-F87F-34D2-9D68-2BC8A0470F9E
 -  Functions: 13277
 -  Symbols:   2746
--  CStrings:  24648
+-  CStrings:  26745
++  UUID: 6428C0DA-8EC1-3425-BE00-18D6E2E3594E
 +  Functions: 13288
 +  Symbols:   2747
-+  CStrings:  24708
++  CStrings:  26813
  
 Symbols:
 + _OBJC_CLASS_$_ORCHSchemaORCHAssistantDaemonLaunchMetadataReported

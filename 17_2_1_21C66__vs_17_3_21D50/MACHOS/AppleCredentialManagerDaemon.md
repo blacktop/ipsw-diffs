@@ -24,11 +24,15 @@
    __DATA_CONST.__got: 0x48
    __DATA_CONST.__auth_ptr: 0x10
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 93C5D1CE-0EF3-3A28-9979-D51A35F45999
++  UUID: 8E430634-C8B2-3158-A5B1-E0994FF281BD
    Functions: 274
    Symbols:   88
--  CStrings:  342
-+  CStrings:  343
+-  CStrings:  351
++  CStrings:  352
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

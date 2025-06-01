@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x2fd2
    __TEXT.__objc_methtype: 0x84b
 
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42994B8A-4FB7-338F-8E99-4C860C0E13BC
++  UUID: 5B2B401C-E80C-3B51-BB93-3F933E273A20
+   Functions: 432
+   Symbols:   1677
+   CStrings:  1100
+
 ```

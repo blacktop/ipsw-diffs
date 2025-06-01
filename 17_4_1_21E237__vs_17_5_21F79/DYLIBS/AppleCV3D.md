@@ -33,11 +33,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: 624A8799-75F0-327A-A6AC-646C4CB67AAA
 -  Functions: 48994
++  UUID: 7B9DD6A3-50EA-3E67-8CA4-2DAB23862EE8
 +  Functions: 49002
    Symbols:   1787
--  CStrings:  10848
-+  CStrings:  10862
+-  CStrings:  11014
++  CStrings:  11028
  
 CStrings:
 + " has a calibration for "

@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F23A1362-E4AB-31BC-97A1-98D92E1EBE7E
++  UUID: D21DBBFC-32AA-313A-9436-78BE1A5AA493
    Functions: 511
 -  Symbols:   1416
 +  Symbols:   1415
-   CStrings:  836
+   CStrings:  863
  
 Symbols:
 - _SANDBOX_CHECK_NO_REPORT

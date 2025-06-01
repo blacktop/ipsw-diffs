@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 153A0C4C-A2FE-38B3-A292-5CAC21B5AB41
 -  Functions: 170
 -  Symbols:   220
--  CStrings:  562
+-  CStrings:  640
++  UUID: 6B7B579C-F5E3-3B9A-9696-3A6021B39AA0
 +  Functions: 203
 +  Symbols:   234
-+  CStrings:  637
++  CStrings:  728
  
 Symbols:
 + _BuddySetupAnalyticsActiveDurationKey

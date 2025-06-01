@@ -53,10 +53,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x4bd0
    __DATA_CONST.__objc_arraydata: 0x300
 -  __AUTH_CONST.__const: 0x16d8
-+  __AUTH_CONST.__const: 0x16b8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x34e0
 -  __AUTH_CONST.__objc_const: 0x48d8
++  __AUTH_CONST.__const: 0x16b8
 +  __AUTH_CONST.__cfstring: 0x3720
 +  __AUTH_CONST.__objc_const: 0x49f8
    __AUTH_CONST.__objc_arrayobj: 0x300
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 614520B6-A81A-3CD6-9550-3E63F81F9661
 -  Functions: 4276
 -  Symbols:   12018
--  CStrings:  4596
+-  CStrings:  5019
++  UUID: 87209790-DD9C-3215-9895-33F9E72BC625
 +  Functions: 4311
 +  Symbols:   12128
-+  CStrings:  4627
++  CStrings:  5068
  
 Symbols:
 + +[STUIStatusBarVisualProvider_CarPlayDualDriver intrinsicContentSizeForOrientation:]

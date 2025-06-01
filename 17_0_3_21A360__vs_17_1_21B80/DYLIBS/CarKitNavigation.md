@@ -29,13 +29,16 @@
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0xb8
 
+   - /System/Library/PrivateFrameworks/AccessoryNavigation.framework/AccessoryNavigation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5D9125B-6D3E-3803-89BB-4D66542E66B9
++  UUID: 81DFA1F3-AFA1-39CB-BE43-F8D45ED3C865
    Functions: 128
 -  Symbols:   609
--  CStrings:  357
+-  CStrings:  365
 +  Symbols:   608
-+  CStrings:  358
++  CStrings:  366
  
 Symbols:
 - _objc_retain_x23

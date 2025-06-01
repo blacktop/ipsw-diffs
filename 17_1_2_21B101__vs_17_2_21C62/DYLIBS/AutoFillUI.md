@@ -78,12 +78,14 @@
    - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AAEC4CE4-B3AB-3D93-9F06-19525DE6BB8D
 -  Functions: 674
 -  Symbols:   2855
--  CStrings:  1501
+-  CStrings:  1663
++  UUID: D633C6E0-3235-3BF3-9CC4-E47A4BFFE3F9
 +  Functions: 696
 +  Symbols:   2951
-+  CStrings:  1570
++  CStrings:  1733
  
 Symbols:
 + +[AFUIAutoFillCreditCardController dateStringTextContentType:date:placeholderHint:]

@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 628118E5-767A-3DA8-BF75-7BB02B8F9702
 -  Functions: 1559
 -  Symbols:   5867
--  CStrings:  3402
+-  CStrings:  4061
++  UUID: FC78E08C-6079-3796-88B9-69EA7A5E810E
 +  Functions: 1560
 +  Symbols:   5874
-+  CStrings:  3405
++  CStrings:  4066
  
 Symbols:
 + -[UIColor(VideosUICore) colorByRemovingTransparency]

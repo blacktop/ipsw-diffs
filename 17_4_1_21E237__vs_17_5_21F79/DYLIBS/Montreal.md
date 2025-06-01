@@ -27,4 +27,13 @@
    __DATA_DIRTY.__data: 0x240
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3AC26F7B-72C8-330A-9E7C-8543CFA0F162
++  UUID: 489254B1-AF72-38A9-B96E-64D8054A5248
+   Functions: 4459
+   Symbols:   757
+   CStrings:  2190
+
 ```

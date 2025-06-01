@@ -18,4 +18,13 @@
    __DATA_CONST.__got: 0xe8
    __DATA_CONST.__const: 0x80
 
+   __DATA_DIRTY.__bss: 0x308
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 09EFD7DB-A1F3-3545-AF22-85C1C5CDD781
++  UUID: 48B14E55-65EF-36E3-88E8-2B1230DFF32F
+   Functions: 535
+   Symbols:   1188
+   CStrings:  404
+
 ```

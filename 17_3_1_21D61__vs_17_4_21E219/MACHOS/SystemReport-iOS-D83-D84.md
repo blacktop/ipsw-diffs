@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyBasebandDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 333A20BE-47F3-3900-AC31-C695B67D1F1A
 -  Functions: 625
 -  Symbols:   330
--  CStrings:  8059
+-  CStrings:  13113
++  UUID: 4CE7C7F7-4244-34D1-8F73-B332B45E7E58
 +  Functions: 633
 +  Symbols:   338
-+  CStrings:  8310
++  CStrings:  13564
  
 Symbols:
 + _CFRunLoopGetCurrent

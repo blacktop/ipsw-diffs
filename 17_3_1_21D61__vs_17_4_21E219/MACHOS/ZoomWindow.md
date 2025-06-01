@@ -59,12 +59,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 61E9045D-A2EA-34F5-A93A-9A608BFF0840
 -  Functions: 1645
 -  Symbols:   4560
--  CStrings:  3208
+-  CStrings:  3397
++  UUID: F7DC75D8-178E-3001-B6C0-39B1A9D1670D
 +  Functions: 1648
 +  Symbols:   4564
-+  CStrings:  3224
++  CStrings:  3419
  
 Symbols:
 + +[ZWUIServer isSafeToProcessMessageFromUnentitledProcessWithIdentifier:]

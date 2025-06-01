@@ -83,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A25B7D53-E11E-3977-B9F0-820E820DB689
 -  Functions: 1108
 -  Symbols:   4433
--  CStrings:  2422
+-  CStrings:  2840
++  UUID: 13FFBE62-E4AB-3057-BE90-472C00BCF45C
 +  Functions: 1176
 +  Symbols:   4699
-+  CStrings:  2567
++  CStrings:  3016
  
 Symbols:
 + +[DSDTOManager isRatchetActiveWithCompletion:]

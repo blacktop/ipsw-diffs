@@ -17,4 +17,13 @@
    __DATA_CONST.__const: 0x1a8
    __AUTH_CONST.__const: 0x160
 
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 645151C6-258F-39A1-8D0B-B2557058382F
++  UUID: B8137ECF-806D-34C3-B9EF-FDE455BF0E5E
+   Functions: 60
+   Symbols:   189
+   CStrings:  45
+
 ```

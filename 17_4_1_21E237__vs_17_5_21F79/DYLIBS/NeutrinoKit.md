@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PhotoFoundation.framework/PhotoFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3609BCE8-ED2A-39E7-95E0-17ADAEED074D
++  UUID: 3758ADB3-65B1-3267-8806-ABB8C27C48DB
+   Functions: 494
+   Symbols:   2080
+   CStrings:  1266
+
 ```

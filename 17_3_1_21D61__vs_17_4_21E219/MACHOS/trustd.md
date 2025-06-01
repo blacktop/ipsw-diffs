@@ -46,11 +46,15 @@
    __DATA.__objc_data: 0x3c0
    __DATA.__data: 0x388
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F6A7F13B-5F85-3E9D-AFCF-BF897BD8A51D
++  UUID: DE900A44-0063-32EF-93C9-679A640EFF97
    Functions: 1143
    Symbols:   3118
--  CStrings:  1927
-+  CStrings:  1929
+-  CStrings:  2623
++  CStrings:  2626
  
 Symbols:
 + TrustdVariantAllowsMobileAsset.onceToken.238

@@ -96,12 +96,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 2185F8B7-5B9F-3263-87E9-52A54C6656DD
 -  Functions: 14144
 -  Symbols:   3457
--  CStrings:  17525
+-  CStrings:  19776
++  UUID: 3F134058-0544-38B5-B320-4139E9987A8F
 +  Functions: 14194
 +  Symbols:   3461
-+  CStrings:  17542
++  CStrings:  19795
  
 Symbols:
 + _BCInvalidationWindowForSamplesOverride

@@ -19,11 +19,15 @@
    __TEXT.__objc_classname: 0x551
    __TEXT.__objc_methname: 0x2a60
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DD0F7640-0C0B-3450-BC52-667BD411BD96
++  UUID: DD26B70D-257B-35D5-9A17-225E4E8A8CAC
    Functions: 355
    Symbols:   183
--  CStrings:  883
-+  CStrings:  884
+-  CStrings:  1097
++  CStrings:  1098
  
 CStrings:
 + "Unable to build URL request"

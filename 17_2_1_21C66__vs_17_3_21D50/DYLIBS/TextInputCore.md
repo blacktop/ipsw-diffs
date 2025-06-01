@@ -59,12 +59,14 @@
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 7D568699-D2BE-35A6-8436-AE18756D7DC6
 -  Functions: 10959
 -  Symbols:   30832
--  CStrings:  11261
+-  CStrings:  13363
++  UUID: 7F60045D-FCE7-3410-BD38-E70F8A90DC88
 +  Functions: 10961
 +  Symbols:   30838
-+  CStrings:  11265
++  CStrings:  13367
  
 Symbols:
 + _CoreServicesLibraryCore.frameworkLibrary.8552

@@ -32,7 +32,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__const: 0x1588
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x1e0
 -  __AUTH.__objc_data: 0x50
 -  __DATA.__objc_classrefs: 0x38
@@ -47,11 +46,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47B20518-BBC1-380F-B3B1-E5F423F427EC
++  UUID: 709F70BD-BFFD-3D87-B896-048539D1C9C8
    Functions: 626
    Symbols:   1834
--  CStrings:  378
-+  CStrings:  380
+-  CStrings:  401
++  CStrings:  403
  
 CStrings:
 + "15.0.0 (clang-1500.3.9.1) [+internal-os]"

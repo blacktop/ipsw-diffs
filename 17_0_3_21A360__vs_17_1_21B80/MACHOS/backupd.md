@@ -70,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B774173-CFEE-3B29-BA6B-61FD2635816E
 -  Functions: 8308
 -  Symbols:   1241
--  CStrings:  21845
+-  CStrings:  25289
++  UUID: EC37D11E-E447-3CFA-8CCD-B5E5AF081CE4
 +  Functions: 8312
 +  Symbols:   1242
-+  CStrings:  21857
++  CStrings:  25302
  
 Symbols:
 + _OBJC_CLASS_$_ICQOfferManager

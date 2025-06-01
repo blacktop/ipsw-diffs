@@ -22,4 +22,13 @@
    __DATA_DIRTY.__bss: 0xe00
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: C9B23D31-0F6F-3486-B068-4AEF810F293D
++  UUID: 27BCD639-A538-335B-A5F8-81D920237040
+   Functions: 2715
+   Symbols:   1166
+   CStrings:  300
+
 ```

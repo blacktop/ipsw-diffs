@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17123150-68C3-383D-A887-51A157692BAB
++  UUID: 6DED18EE-C4AE-3922-923F-EC5CB6155F4A
+   Functions: 20856
+   Symbols:   238
+   CStrings:  497
+
 ```

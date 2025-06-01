@@ -44,17 +44,19 @@
 +  __AUTH_CONST.__objc_intobj: 0x618
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3a0
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__auth_got: 0xa70
 
    - /usr/lib/libSystemHealth.dylib
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 137CF252-EAB5-304E-9D97-C2D00BD06ABF
 -  Functions: 3121
 -  Symbols:   11126
--  CStrings:  6403
+-  CStrings:  7250
++  UUID: 4C5ECEB3-4526-3863-AC1E-C46C77963466
 +  Functions: 3122
 +  Symbols:   11131
-+  CStrings:  6406
++  CStrings:  7253
  
 Symbols:
 + -[CWFInterface(WiFiKit) deviceSupports6E]

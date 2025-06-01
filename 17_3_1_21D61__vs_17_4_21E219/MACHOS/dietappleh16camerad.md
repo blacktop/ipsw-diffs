@@ -47,12 +47,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3562B61B-47F2-3AFC-B667-F334BEADAA8A
 -  Functions: 332
 -  Symbols:   273
--  CStrings:  496
+-  CStrings:  636
++  UUID: 73175C6E-DB8E-3D78-82D1-A266D33625C8
 +  Functions: 335
 +  Symbols:   277
-+  CStrings:  538
++  CStrings:  693
  
 Symbols:
 + _AMFDRCreateInstanceString

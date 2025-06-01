@@ -26,12 +26,15 @@
    __DATA_CONST.__const: 0xe0
    __DATA_CONST.__cfstring: 0x60
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0712225D-6DE6-3436-B49A-646BB730DAEB
++  UUID: 4B3331F0-EC9E-32DB-9CE2-A456C9CB8118
    Functions: 13
 -  Symbols:   50
 +  Symbols:   51
-   CStrings:  145
+   CStrings:  148
  
 Symbols:
 + _objc_retainAutorelease

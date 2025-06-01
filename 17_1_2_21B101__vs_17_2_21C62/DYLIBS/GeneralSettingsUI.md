@@ -82,12 +82,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 6BA1E3F3-62E7-36B0-BE35-6A9A5F495534
 -  Functions: 933
 -  Symbols:   4223
--  CStrings:  2657
+-  CStrings:  3223
++  UUID: 2693C565-6BCD-362E-A1BB-81F39C314AE2
 +  Functions: 920
 +  Symbols:   4186
-+  CStrings:  2644
++  CStrings:  3207
  
 Symbols:
 + _OBJC_CLASS_$_NDOACController

@@ -14,9 +14,8 @@
    __DATA_CONST.__objc_protorefs: 0x20
    __DATA_CONST.__objc_classrefs: 0x78
 -  __AUTH_CONST.__const: 0xac0
-+  __AUTH_CONST.__const: 0x718
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__objc_const: 0x40
++  __AUTH_CONST.__const: 0x718
    __AUTH_CONST.__auth_got: 0x668
 -  __AUTH.__data: 0x608
 -  __AUTH.__objc_data: 0x318
@@ -31,5 +30,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/MusicKit.framework/MusicKit
    - /System/Library/Frameworks/ShazamKit.framework/ShazamKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0EF15182-10B2-31CC-B741-B6FAB0FA8342
++  UUID: 53C0AB7E-9ECD-3B9C-9DA3-3222A54376AA
+   Functions: 664
+   Symbols:   2166
+   CStrings:  165
 
 ```

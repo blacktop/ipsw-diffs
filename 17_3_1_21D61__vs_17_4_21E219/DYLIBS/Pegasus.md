@@ -56,13 +56,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE36FE06-EACF-3578-B3C5-C8194AB7E426
++  UUID: 711DFED6-5400-37B2-BD02-8667B4EED501
    Functions: 1756
 -  Symbols:   6038
--  CStrings:  2794
+-  CStrings:  3158
 +  Symbols:   6039
-+  CStrings:  2795
++  CStrings:  3159
  
 Symbols:
 + ___block_descriptor_56_e8_32s40s48bs_e20_v20?0B8"NSError"12ls32l8s48l8s40l8

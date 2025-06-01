@@ -38,4 +38,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9EB15562-AD87-3095-8164-D710379398AE
++  UUID: C35B5EF2-40F6-3D78-956B-410421BC2E94
+   Functions: 4027
+   Symbols:   13075
+   CStrings:  6759
+
 ```

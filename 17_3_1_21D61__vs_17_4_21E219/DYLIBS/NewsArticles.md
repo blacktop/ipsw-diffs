@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x1e400
--  __AUTH_CONST.__auth_ptr: 0xb70
 -  __AUTH_CONST.__auth_got: 0x43d8
 -  __AUTH.__objc_data: 0x37d8
 -  __AUTH.__data: 0x7b70
@@ -71,7 +70,6 @@
 -  __DATA.__objc_classrefs: 0x6a0
 -  __DATA.__objc_superrefs: 0x58
 +  __AUTH_CONST.__const: 0x1e3d0
-+  __AUTH_CONST.__auth_ptr: 0xb68
 +  __AUTH_CONST.__auth_got: 0x43a8
 +  __AUTH.__objc_data: 0x3570
 +  __AUTH.__data: 0x7790
@@ -105,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C9FD263-07FF-3392-A580-D82820C720FE
 -  Functions: 20035
 -  Symbols:   8254
--  CStrings:  5786
+-  CStrings:  5865
++  UUID: 76513E62-BDCD-3644-A1F5-A468B536A2EF
 +  Functions: 20168
 +  Symbols:   8257
-+  CStrings:  5832
++  CStrings:  5911
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftShazamKit

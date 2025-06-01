@@ -71,7 +71,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x7fe28
 -  __DATA_CONST.__objc_arraydata: 0x3528
 -  __AUTH_CONST.__const: 0x1dc88
--  __AUTH_CONST.__auth_ptr: 0x1b8
 -  __AUTH_CONST.__objc_const: 0x695f8
 -  __AUTH_CONST.__cfstring: 0x9ba20
 -  __AUTH_CONST.__objc_arrayobj: 0x2550
@@ -81,7 +80,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x806a0
 +  __DATA_CONST.__objc_arraydata: 0x3570
 +  __AUTH_CONST.__const: 0x1e2f0
-+  __AUTH_CONST.__auth_ptr: 0x1c8
 +  __AUTH_CONST.__objc_const: 0x69c28
 +  __AUTH_CONST.__cfstring: 0x9c060
 +  __AUTH_CONST.__objc_arrayobj: 0x2580
@@ -128,12 +126,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC1206D7-B4C9-3257-BB63-08E26A802416
 -  Functions: 130159
 -  Symbols:   371273
--  CStrings:  136562
+-  CStrings:  156483
++  UUID: 21555085-B1BB-327D-B244-471F789327C4
 +  Functions: 130828
 +  Symbols:   372789
-+  CStrings:  137111
++  CStrings:  157082
  
 Symbols:
 + +[NSValue(UISize3D) valueWithUISize3D:]

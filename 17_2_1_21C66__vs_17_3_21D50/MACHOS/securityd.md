@@ -62,12 +62,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 73F32207-8A8D-3CA5-9AA3-C3927D4A02C3
 -  Functions: 9146
 -  Symbols:   1367
--  CStrings:  15176
+-  CStrings:  18593
++  UUID: 5A55498A-C62A-3E4F-A07A-E46EBA59FADF
 +  Functions: 9182
 +  Symbols:   1368
-+  CStrings:  15247
++  CStrings:  18677
  
 Symbols:
 + _kSecAttrViewHintManatee

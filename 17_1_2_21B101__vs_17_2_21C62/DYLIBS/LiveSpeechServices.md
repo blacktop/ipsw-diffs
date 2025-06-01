@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/TextToSpeechVoiceBankingSupport
    - /usr/lib/libAccessibility.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A3B062A4-DACC-314D-9CB4-10B818FB375A
++  UUID: 9C999459-32BA-3966-8BDD-45CDC1BC91C2
+   Functions: 205
+   Symbols:   253
+   CStrings:  126
+
 ```

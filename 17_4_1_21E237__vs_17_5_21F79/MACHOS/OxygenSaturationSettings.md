@@ -16,6 +16,15 @@
    __TEXT.__constg_swiftt: 0x208
    __TEXT.__swift5_typeref: 0xd6
    __TEXT.__swift5_reflstr: 0xb2
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 698214E6-F77F-32E3-92FF-D407B28509A9
++  UUID: D02B00F2-1FEE-3942-BD4D-F95FFF018A98
+   Functions: 84
+   Symbols:   144
+   CStrings:  223
 CStrings:
 + "BACKGROUND_RECORDINGS_OPTION_SECTION"
 + "BACKGROUND_RECORDING_DISABLED"

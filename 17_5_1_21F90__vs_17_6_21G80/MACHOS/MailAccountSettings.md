@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE38D51E-D020-35DE-BB4F-964817E7B266
 -  Functions: 2008
 -  Symbols:   863
--  CStrings:  3660
+-  CStrings:  4386
++  UUID: 0EF0F917-AF95-3970-8C13-0D37494C8765
 +  Functions: 2012
 +  Symbols:   864
-+  CStrings:  3664
++  CStrings:  4390
  
 Symbols:
 + _ACAccountPropertyGrantedDataclasses

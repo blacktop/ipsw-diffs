@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x33cb
    __TEXT.__gcc_except_tab: 0x994
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 867A6165-2EB4-30EA-ACDF-94767FBFAEBF
++  UUID: A421522B-F397-375C-9F09-EF35754BF312
+   Functions: 3180
+   Symbols:   754
+   CStrings:  5634
+
 ```

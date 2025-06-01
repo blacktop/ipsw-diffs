@@ -27,12 +27,15 @@
    __DATA_DIRTY.__bss: 0x108
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 771C2439-ACD3-3508-A48B-4F3650E416CC
++  UUID: D6335E58-F1B9-3A01-9D34-724DF93F61BE
    Functions: 611
 -  Symbols:   1725
 +  Symbols:   1722
-   CStrings:  397
+   CStrings:  416
  
 Symbols:
 + GCC_except_table210

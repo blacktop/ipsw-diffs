@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__auth_got: 0xe08
 -  __AUTH.__objc_data: 0x35b0
 +  __AUTH.__objc_data: 0x3600
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F345DD20-1489-3FC4-ACC9-F8CF2F046EFC
 -  Functions: 4553
 -  Symbols:   13602
--  CStrings:  6785
+-  CStrings:  8037
++  UUID: CDF2669B-41D0-3FEA-A5B0-BEA99666863D
 +  Functions: 4554
 +  Symbols:   13622
-+  CStrings:  6793
++  CStrings:  8045
  
 Symbols:
 + -[STContentPrivacyAllowedAppsDetailController defaultSwitchSpecifierWithConfiguration:key:fallbackLabel:]

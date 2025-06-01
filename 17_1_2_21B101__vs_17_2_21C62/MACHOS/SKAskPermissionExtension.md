@@ -56,11 +56,13 @@
    - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BDB0CA1-C960-39FF-98B2-8619F76579E0
 -  Functions: 108
++  UUID: 12FE7A3C-2F9E-3994-9A8B-0AAC6A7544AA
 +  Functions: 104
    Symbols:   162
--  CStrings:  543
-+  CStrings:  539
+-  CStrings:  749
++  CStrings:  746
  
 CStrings:
 + "OverrideService"

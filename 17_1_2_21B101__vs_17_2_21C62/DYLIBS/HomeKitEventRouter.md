@@ -19,11 +19,15 @@
    __TEXT.__objc_classname: 0x2ac
    __TEXT.__objc_methname: 0x3193
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9EEB3226-BAA2-3D25-908D-0850ED886FA0
++  UUID: DA4AD7F2-E987-31CB-AC43-8B1982C982BD
    Functions: 452
    Symbols:   1677
--  CStrings:  894
-+  CStrings:  895
+-  CStrings:  951
++  CStrings:  952
  
 CStrings:
 + "Client is not enabled disconnect silently."

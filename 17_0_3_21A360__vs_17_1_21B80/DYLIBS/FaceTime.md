@@ -20,6 +20,15 @@
    __TEXT.__objc_stubs: 0x2620
    __DATA_CONST.__got: 0x1c0
    __DATA_CONST.__const: 0x158
+
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E2416A53-D512-355A-AD31-C1F9F8CB4D2E
++  UUID: 96AD8391-DA77-3C9B-8B2C-2DF265527EA6
+   Functions: 438
+   Symbols:   182
+   CStrings:  1827
 CStrings:
 + "account:chat:style:chatProperties:notifySentMessage:sendTime:isReplicating:"
 + "v64@0:8@\"NSString\"16@\"NSString\"24C32@\"NSDictionary\"36@\"IMMessageItem\"44@\"NSNumber\"52B60"

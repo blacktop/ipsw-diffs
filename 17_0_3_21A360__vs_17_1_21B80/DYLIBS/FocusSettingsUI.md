@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__const: 0xf640
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x268
 -  __AUTH_CONST.__auth_got: 0x1b80
 -  __AUTH.__objc_data: 0x1ae8
 -  __AUTH.__data: 0x5270
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C402FAA-0D82-3B8F-A641-05F62178B2AB
 -  Functions: 9643
 -  Symbols:   4726
--  CStrings:  1776
+-  CStrings:  1777
++  UUID: EBD6EE15-F96E-3B3F-9743-0280BEA13A6A
 +  Functions: 9649
 +  Symbols:   4733
-+  CStrings:  1781
++  CStrings:  1782
  
 Symbols:
 + _associated conformance 15FocusSettingsUI30NotificationExceptionsItemViewV022ContactImageBackgroundG033_752C28854C4C700EA21471BDD9E3BB93LLV05SwiftC00G0AA4BodyAgHP_AgH

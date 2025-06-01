@@ -58,12 +58,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 90E727A9-0988-38A9-BE29-DCBC74C64418
 -  Functions: 98
 -  Symbols:   486
--  CStrings:  241
+-  CStrings:  347
++  UUID: 4ABFB892-2064-33F2-A097-F528446C0540
 +  Functions: 104
 +  Symbols:   519
-+  CStrings:  263
++  CStrings:  381
  
 Symbols:
 + +[MessageIndicatorViewAccessibility _accessibilityPerformValidations:]

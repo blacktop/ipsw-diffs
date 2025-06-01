@@ -42,11 +42,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78570358-501E-3A66-8250-4524B8C8C6CE
 -  Functions: 622
++  UUID: 5659FC10-C737-3474-92F6-ADA0EF7F85E4
 +  Functions: 624
    Symbols:   216
--  CStrings:  1894
-+  CStrings:  1896
+-  CStrings:  2361
++  CStrings:  2364
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

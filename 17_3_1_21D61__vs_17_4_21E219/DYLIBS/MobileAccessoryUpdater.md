@@ -37,11 +37,15 @@
    __DATA.__data: 0x4e0
    __DATA.__bss: 0x4
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E9DD83E-8054-37AD-BF84-D514716CA3D8
++  UUID: 2C42231E-1F0D-38A4-B286-888D7A173AB7
    Functions: 228
    Symbols:   972
--  CStrings:  694
-+  CStrings:  695
+-  CStrings:  879
++  CStrings:  880
  
 Symbols:
 + ___block_literal_global.170

@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A21E2D4-4DB1-3A2F-BCC3-5DF6FF741B50
 -  Functions: 262
 -  Symbols:   1068
--  CStrings:  646
+-  CStrings:  680
++  UUID: CA318F81-7A79-3B6B-B150-3EA319D0A583
 +  Functions: 261
 +  Symbols:   1066
-+  CStrings:  647
++  CStrings:  681
  
 Symbols:
 + -[NFMPlayCommands _isInPhoneOrFaceTimeCall]

@@ -78,11 +78,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FE141E4-B166-3810-856B-A86FD25E4776
 -  Functions: 13234
++  UUID: A1415229-AC35-3359-9C9C-D1B6C3B4B492
 +  Functions: 13272
    Symbols:   2143
--  CStrings:  2390
-+  CStrings:  2393
+-  CStrings:  2458
++  CStrings:  2462
  
 CStrings:
 + "_TtC7parsecd19NotificationBarrier"

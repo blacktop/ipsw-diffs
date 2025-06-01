@@ -87,7 +87,6 @@
 +  __AUTH_CONST.__objc_const: 0x11430
    __AUTH_CONST.__objc_doubleobj: 0x220
    __AUTH_CONST.__objc_dictobj: 0x578
--  __AUTH_CONST.__auth_ptr: 0xe48
 -  __AUTH_CONST.__auth_got: 0x47c0
 -  __AUTH.__objc_data: 0x12bd8
 -  __AUTH.__data: 0x27de8
@@ -100,7 +99,6 @@
 -  __DATA.__objc_stublist: 0x8
 -  __DATA.__bss: 0x25040
 -  __DATA.__common: 0x125c
-+  __AUTH_CONST.__auth_ptr: 0x1130
 +  __AUTH_CONST.__auth_got: 0x4aa0
 +  __AUTH.__objc_data: 0x14650
 +  __AUTH.__data: 0x2ebf0
@@ -142,12 +140,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D536706-582E-3AB5-8CEA-7252297C98EB
 -  Functions: 76616
 -  Symbols:   105041
--  CStrings:  32257
+-  CStrings:  35884
++  UUID: C1E8AA0E-E016-30B4-B045-E4515F817C4E
 +  Functions: 84845
 +  Symbols:   113990
-+  CStrings:  33197
++  CStrings:  36904
  
 Symbols:
 + +[VUIActionUpdateSportsFavorite performFavoritesOperation:teamId:teamName:confirmRemoval:fireBackgroundEvent:requestExecutionHandler:]
@@ -7255,6 +7255,7 @@ CStrings:
 + "getFavoritesWithCompletionHandler:"
 + "getJetPackURL"
 + "getTrailerPlayableForCanonicalID"
++ "h "
 + "handleDeeplink:"
 + "handleErrorCase()"
 + "handleIsPlaybackUIBeingShownDidChange"

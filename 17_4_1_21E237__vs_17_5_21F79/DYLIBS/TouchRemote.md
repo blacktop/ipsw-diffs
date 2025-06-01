@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__const: 0x140
 +  __AUTH_CONST.__objc_intobj: 0x1b0
    __AUTH_CONST.__objc_arrayobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x420
 -  __AUTH.__objc_data: 0x19a0
 -  __AUTH.__data: 0x10
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D1C660E4-B149-3012-8DF4-3F6EF9C2A7DE
 -  Functions: 964
 -  Symbols:   3675
--  CStrings:  1662
+-  CStrings:  1909
++  UUID: AA32FDF8-38E6-3D3D-902E-EB173B04599A
 +  Functions: 1031
 +  Symbols:   3909
-+  CStrings:  1780
++  CStrings:  2032
  
 Symbols:
 + +[TRDefaults forceProxyAuth]

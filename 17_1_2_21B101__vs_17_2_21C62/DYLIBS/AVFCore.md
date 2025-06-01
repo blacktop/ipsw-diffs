@@ -51,7 +51,6 @@
    __AUTH_CONST.__const: 0xc38
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x1900
 -  __AUTH.__objc_data: 0x61d0
 +  __AUTH_CONST.__auth_got: 0x1910
@@ -71,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2479DEF7-6AA7-3726-8D9B-6BB05F11A2BB
 -  Functions: 9969
 -  Symbols:   34958
--  CStrings:  12373
+-  CStrings:  15203
++  UUID: 0EB14E6F-DEFF-367B-8E4A-CF12624DF9F3
 +  Functions: 10007
 +  Symbols:   35095
-+  CStrings:  12425
++  CStrings:  15267
  
 Symbols:
 + +[AVPlayerTaggedBufferOutput taggedBufferOutputWithVideoOutput:]

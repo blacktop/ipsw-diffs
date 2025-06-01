@@ -23,13 +23,16 @@
    __DATA_CONST.__const: 0x2300
    __DATA_CONST.__cfstring: 0x23e0
 
+   - /System/Library/PrivateFrameworks/OpticalFlowFramework.framework/OpticalFlowFramework
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 64CDC7D0-762A-3357-8426-BE0FAD6DE3D8
++  UUID: AEFA6154-E695-3A45-BD3E-42B71CB53371
    Functions: 629
 -  Symbols:   562
--  CStrings:  6295
+-  CStrings:  6582
 +  Symbols:   563
-+  CStrings:  6320
++  CStrings:  6607
  
 Symbols:
 + _kVTCompressionPropertyKey_AllowOpenGOP

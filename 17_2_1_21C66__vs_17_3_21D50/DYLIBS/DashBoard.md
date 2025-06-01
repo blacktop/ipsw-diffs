@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__objc_doubleobj: 0x110
 +  __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x958
    __AUTH.__objc_data: 0x3b08
    __AUTH.__data: 0xe8
@@ -66,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A3B01558-8F17-38E5-AD13-0E3D26BC84CB
 -  Functions: 4945
 -  Symbols:   18073
--  CStrings:  9170
+-  CStrings:  10034
++  UUID: E6C3D4E5-4241-303D-A6CD-3491598AE1A7
 +  Functions: 4948
 +  Symbols:   18091
-+  CStrings:  9190
++  CStrings:  10061
  
 Symbols:
 + -[DBDisplayManager _enableMapsProbabilisticGuardMalloc]

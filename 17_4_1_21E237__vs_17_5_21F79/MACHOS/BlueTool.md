@@ -26,11 +26,13 @@
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 69417779-23D7-3E11-A556-30F0D88A323A
 -  Functions: 2043
++  UUID: 0D37A5F8-013E-3EE4-8C57-48624F8AB5AD
 +  Functions: 2123
    Symbols:   217
--  CStrings:  1726
-+  CStrings:  1814
+-  CStrings:  1766
++  CStrings:  1854
  
 CStrings:
 + "03a5d88c5d44fc06299a3bcf1fe7b7caaa1325941d1943c65ffc9593ef71d434"

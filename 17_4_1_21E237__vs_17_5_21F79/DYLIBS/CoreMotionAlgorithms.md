@@ -47,6 +47,8 @@
 -  __AUTH_CONST.__const: 0x9970
 -  __AUTH_CONST.__cfstring: 0x3a0
 -  __AUTH_CONST.__objc_const: 0x2d0
+-  __AUTH_CONST.__auth_got: 0x680
+-  __AUTH.__objc_data: 0x320
 +  __DATA_CONST.__objc_const: 0x1450
 +  __DATA_CONST.__objc_selrefs: 0x7e0
 +  __DATA_CONST.__objc_classrefs: 0x88
@@ -54,9 +56,6 @@
 +  __AUTH_CONST.__const: 0x9cc0
 +  __AUTH_CONST.__cfstring: 0xa20
 +  __AUTH_CONST.__objc_const: 0x360
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__auth_got: 0x680
--  __AUTH.__objc_data: 0x320
 +  __AUTH_CONST.__auth_got: 0x6e8
 +  __AUTH.__objc_data: 0x3c0
    __AUTH.__data: 0x8
@@ -79,12 +78,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F90294E1-8AC5-3B22-86D6-B32DACCB83D1
 -  Functions: 9590
 -  Symbols:   268
--  CStrings:  3671
+-  CStrings:  3700
++  UUID: 206842CE-04CF-3AAA-8F3F-9D65DC2B00F9
 +  Functions: 9933
 +  Symbols:   288
-+  CStrings:  3966
++  CStrings:  4047
  
 Symbols:
 + _AnalyticsSendEventLazy
@@ -136,6 +137,7 @@ CStrings:
 + "ContactCondition"
 + "D(%zu) <= 0 non-positive definite matrix!"
 + "D[%zu] <= 0, matrix ! positive definite"
++ "F"
 + "Flushing MSL"
 + "MSLEnabled"
 + "MaxAuxToRingSensorLatency"

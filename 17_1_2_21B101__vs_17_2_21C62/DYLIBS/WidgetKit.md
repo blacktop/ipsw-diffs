@@ -51,9 +51,7 @@
    __AUTH_CONST.__objc_const: 0x390
    __AUTH_CONST.__cfstring: 0xa0
    __AUTH_CONST.__const: 0xf370
--  __AUTH_CONST.__auth_ptr: 0x330
 -  __AUTH_CONST.__auth_got: 0x1da0
-+  __AUTH_CONST.__auth_ptr: 0x338
 +  __AUTH_CONST.__auth_got: 0x1db8
    __AUTH.__data: 0x2e98
    __AUTH.__objc_data: 0x480
@@ -75,10 +73,12 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05732BAF-E3F5-37B7-8DCB-8B30686AF4F2
 -  Functions: 9063
++  UUID: FB9B75BA-4D2A-3CDC-AC14-C9386297253A
 +  Functions: 9064
    Symbols:   2926
-   CStrings:  906
+   CStrings:  911
  
 CStrings:
 + "%s - remoteObjectProxy error: %@"

@@ -51,12 +51,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACAD5113-FE24-35E4-A76E-4A0D8CF92053
 -  Functions: 3898
 -  Symbols:   13774
--  CStrings:  6398
+-  CStrings:  7785
++  UUID: E71432B2-367F-32E2-B4B7-DBD0276903C0
 +  Functions: 3901
 +  Symbols:   13787
-+  CStrings:  6414
++  CStrings:  7809
  
 Symbols:
 + +[AAUrlBagHelper isLCInviteAcceptanceEnabled]

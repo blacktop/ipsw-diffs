@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02C0EE2F-ACDF-377F-B83E-78817ADFAC47
 -  Functions: 750
 -  Symbols:   239
--  CStrings:  1899
+-  CStrings:  2114
++  UUID: B6926BCD-57C1-3435-9587-40C65094AE44
 +  Functions: 759
 +  Symbols:   240
-+  CStrings:  1923
++  CStrings:  2142
  
 Symbols:
 + _OBJC_CLASS_$_WFSmartPromptDialogViewController

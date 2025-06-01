@@ -25,6 +25,15 @@
    __DATA_CONST.__auth_got: 0x908
    __DATA_CONST.__got: 0x9f8
    __DATA_CONST.__const: 0x47b8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7DC31C4C-E8F8-3AE2-A4D9-8E721BC95904
++  UUID: 2C01D13C-E133-3364-B92D-7507DD1D830E
+   Functions: 4055
+   Symbols:   864
+   CStrings:  8061
 CStrings:
 + "initWithState:encryptionState:signatureState:subject:recipients:from:dataSent:dateReceived:headers:rawData:senderMetadata:"
 - "initWithState:encryptionState:subject:recipients:from:dataSent:dateReceived:headers:rawData:senderMetadata:"

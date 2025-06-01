@@ -21,11 +21,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 70533EDF-66D5-36B9-BE62-B315D2164489
 -  Functions: 22339
++  UUID: 62C11565-2E5F-316B-811B-AE979A1D590E
 +  Functions: 22337
    Symbols:   15767
--  CStrings:  8077
-+  CStrings:  8078
+-  CStrings:  9320
++  CStrings:  9321
  
 CStrings:
 + "Skipping updating retention policy history for equivilent change: %s -> %s"

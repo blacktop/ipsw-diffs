@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 4C1EC8CA-7E31-3CD6-8F9A-41E4FDCD042F
 -  Functions: 2901
 -  Symbols:   9943
--  CStrings:  4473
+-  CStrings:  5180
++  UUID: F3DBDA60-391E-3C5C-A897-55BB2614574E
 +  Functions: 2907
 +  Symbols:   9962
-+  CStrings:  4496
++  CStrings:  5203
  
 Symbols:
 + -[BLSHBacklightDisplayStateMachine acquireDisplayPowerAssertionForReason:]

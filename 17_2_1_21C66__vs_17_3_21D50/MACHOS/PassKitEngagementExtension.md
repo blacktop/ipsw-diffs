@@ -42,13 +42,16 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x128
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18F143A3-6C57-3570-BC0E-5441E29C6B0A
++  UUID: DD130C69-F8DC-35D1-A4FF-0CEE0EF2B35A
    Functions: 27
 -  Symbols:   72
--  CStrings:  99
+-  CStrings:  109
 +  Symbols:   77
-+  CStrings:  103
++  CStrings:  114
  
 Symbols:
 + __os_signpost_emit_with_name_impl

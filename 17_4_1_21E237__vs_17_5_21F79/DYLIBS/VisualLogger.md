@@ -15,7 +15,6 @@
    __DATA_CONST.__objc_classrefs: 0x8
 -  __AUTH_CONST.__const: 0x95c0
 +  __AUTH_CONST.__const: 0x3060
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0x240
    __AUTH_CONST.__auth_got: 0xd40
 -  __AUTH.__data: 0x30
@@ -32,5 +31,14 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BD23FB39-0FAF-32D4-9703-DC98CE1069AA
++  UUID: 1DC8A7DF-7ED5-30A2-8DCF-C29FCA5328A7
+   Functions: 17022
+   Symbols:   1020
+   CStrings:  2000
 
 ```

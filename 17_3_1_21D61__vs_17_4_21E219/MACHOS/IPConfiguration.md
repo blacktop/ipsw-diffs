@@ -43,12 +43,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9DC6E136-0782-3EAE-880D-76D55A509A1B
 -  Functions: 1095
 -  Symbols:   529
--  CStrings:  1841
+-  CStrings:  2177
++  UUID: 1902C659-CF3E-36A5-B35C-CDD203965113
 +  Functions: 1097
 +  Symbols:   528
-+  CStrings:  1847
++  CStrings:  2183
  
 Symbols:
 + __SCNetworkInterfaceIsTetheredHotspot

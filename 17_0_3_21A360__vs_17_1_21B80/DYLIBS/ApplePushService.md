@@ -40,12 +40,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4EBDC348-D2D0-3D14-AC9F-3C54F2890E02
 -  Functions: 739
 -  Symbols:   2518
--  CStrings:  1235
+-  CStrings:  1472
++  UUID: 0E0E976A-0D00-3945-962A-5AD8D4B811F5
 +  Functions: 740
 +  Symbols:   2521
-+  CStrings:  1237
++  CStrings:  1476
  
 Symbols:
 + _APSPrintInternalMessageAppContentsKey

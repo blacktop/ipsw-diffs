@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04A83363-D6E7-341C-A4C5-07C6FF0C44AF
 -  Functions: 228
 -  Symbols:   220
--  CStrings:  756
+-  CStrings:  938
++  UUID: 28CDE6FB-2706-3D4C-B9FF-106EA1B768A4
 +  Functions: 245
 +  Symbols:   225
-+  CStrings:  821
++  CStrings:  1030
  
 Symbols:
 + _ICURLBagKeyMusicSubscription

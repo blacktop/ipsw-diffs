@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E179B5B0-4CE8-3BEA-B5D1-6997524D5950
 -  Functions: 557
 -  Symbols:   2282
--  CStrings:  1370
+-  CStrings:  1511
++  UUID: 64062F3D-CF17-388F-8ECB-891529C402B5
 +  Functions: 556
 +  Symbols:   2279
-+  CStrings:  1362
++  CStrings:  1496
  
 Symbols:
 + -[NDOCoverageCentralViewController expectingLink]

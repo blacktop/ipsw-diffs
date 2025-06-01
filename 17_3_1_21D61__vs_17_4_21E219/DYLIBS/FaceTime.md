@@ -38,11 +38,15 @@
    __DATA.__data: 0x780
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F525D866-57B0-38F5-88E1-E26EB1DA9271
++  UUID: B8CAD972-164D-38EF-801B-FC902E964AE6
    Functions: 438
    Symbols:   180
--  CStrings:  1416
-+  CStrings:  1417
+-  CStrings:  1808
++  CStrings:  1809
  
 CStrings:
 + "T@\"NSString\",?,R,C"

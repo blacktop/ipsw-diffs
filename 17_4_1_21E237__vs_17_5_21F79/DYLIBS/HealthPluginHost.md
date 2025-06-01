@@ -25,4 +25,13 @@
    __DATA_DIRTY.__common: 0x90
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7117EEE7-769A-3982-90F2-11F9D31FBB16
++  UUID: DA1F818F-C3BC-370F-9FA7-2A3D79B49EF3
+   Functions: 1167
+   Symbols:   623
+   CStrings:  310
+
 ```

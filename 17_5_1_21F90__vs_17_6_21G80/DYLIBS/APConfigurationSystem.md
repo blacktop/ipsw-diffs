@@ -50,12 +50,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F9C2391A-2E22-3200-B3CC-9925DFCD3ABB
 -  Functions: 110
 -  Symbols:   177
--  CStrings:  434
+-  CStrings:  496
++  UUID: D5AB09CE-C2D2-3C30-BF5A-1DE58C2BCA60
 +  Functions: 111
 +  Symbols:   179
-+  CStrings:  438
++  CStrings:  501
  
 Symbols:
 + _OBJC_CLASS_$_APSponsorshipPlacementConfig

@@ -51,7 +51,6 @@
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xab8
 -  __AUTH.__objc_data: 0x5140
 +  __AUTH_CONST.__auth_got: 0xac0
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89B14CE8-649E-3A24-A887-879180B2D9C8
 -  Functions: 7375
 -  Symbols:   23878
--  CStrings:  10871
+-  CStrings:  12551
++  UUID: 4E75B652-DD2D-3C54-9F54-6AFDDAF0BCD9
 +  Functions: 7412
 +  Symbols:   23991
-+  CStrings:  10948
++  CStrings:  12639
  
 Symbols:
 + -[HAPAccessory linkLayerType]

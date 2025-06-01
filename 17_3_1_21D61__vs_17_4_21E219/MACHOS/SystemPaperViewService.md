@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SystemPaperPresentation.framework/SystemPaperPresentation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EE7F484-E601-3864-9C21-58DF192569C8
++  UUID: 9694D2CE-26E8-35F7-8D99-AB7D3898F5B6
    Functions: 39
    Symbols:   53
--  CStrings:  296
-+  CStrings:  297
+-  CStrings:  301
++  CStrings:  302
  
 CStrings:
 + "T@\"NSString\",?,R,C"

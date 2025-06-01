@@ -33,14 +33,25 @@
    __TEXT.__objc_classname: 0x210d
    __TEXT.__objc_methname: 0x13bd3
 
+   __DATA_CONST.__objc_const: 0x1f8f0
    __DATA_CONST.__objc_selrefs: 0x3790
    __AUTH_CONST.__const: 0x8e08
-   __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__cfstring: 0x7640
 +  __AUTH_CONST.__cfstring: 0x7620
    __AUTH_CONST.__objc_const: 0x4640
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__auth_got: 0x25b0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A713FC22-668B-3C58-920A-7F94C9245F2B
++  UUID: 1121F216-8B4D-3A4C-ABD1-1B9BB8E79666
+   Functions: 17656
+   Symbols:   43461
+-  CStrings:  28573
++  CStrings:  28572
+ 
 Symbols:
 + GCC_except_table1810
 + GCC_except_table1815

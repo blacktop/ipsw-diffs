@@ -21,4 +21,13 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 34A30E51-48BB-3ADF-AAD2-6FE775FDFEF7
++  UUID: 6BA1A799-9077-3848-8221-DB0ED615294E
+   Functions: 2
+   Symbols:   22
+   CStrings:  23
+
 ```

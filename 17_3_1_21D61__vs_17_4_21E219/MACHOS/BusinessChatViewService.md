@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4E2421D-34D8-396E-9A1A-FA41254D3D3E
++  UUID: 90F18195-0D76-35B4-A5D8-9EFA91A1A3F8
    Functions: 174
    Symbols:   122
--  CStrings:  629
-+  CStrings:  630
+-  CStrings:  656
++  CStrings:  657
  
 CStrings:
 + "T@\"NSString\",?,R,C"

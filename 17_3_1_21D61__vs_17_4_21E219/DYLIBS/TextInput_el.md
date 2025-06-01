@@ -26,6 +26,15 @@
    __DATA.__data: 0x18
    __DATA.__bss: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C938E9A5-9817-3E6C-90A0-C914FDF802E8
++  UUID: CDD78C11-E486-340D-9B1E-193C7713ECF7
+   Functions: 46
+   Symbols:   170
+   CStrings:  25
 Symbols:
 + __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc

@@ -45,9 +45,11 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 51B63062-BB4A-39A3-A4F1-8ECAC410F773
 -  Functions: 21108
 -  Symbols:   260
 -  CStrings:  2421
++  UUID: A72CC400-ED46-32EB-BCC4-8EBC96E2BE04
 +  Functions: 21115
 +  Symbols:   261
 +  CStrings:  2423

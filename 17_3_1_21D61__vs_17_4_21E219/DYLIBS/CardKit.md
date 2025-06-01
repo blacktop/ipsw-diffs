@@ -39,11 +39,15 @@
    __DATA.__data: 0xea0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6C7670C-75AA-3FC1-9D42-600215CA23EE
++  UUID: CCEC0C52-B0F2-3D58-995A-70825AB54A20
    Functions: 479
    Symbols:   2270
--  CStrings:  1143
-+  CStrings:  1144
+-  CStrings:  1175
++  CStrings:  1176
  
 Symbols:
 + ___60-[CRKCardPresentation setConfiguration:animated:completion:]_block_invoke.134

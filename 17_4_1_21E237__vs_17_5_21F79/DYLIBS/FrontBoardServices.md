@@ -46,7 +46,6 @@
 -  __AUTH_CONST.__const: 0x660
 +  __AUTH_CONST.__const: 0x640
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x860
 +  __AUTH_CONST.__auth_got: 0x838
@@ -66,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 543CF531-604F-3A1C-ACEA-46C89702F8C1
 -  Functions: 3903
 -  Symbols:   12572
--  CStrings:  4910
+-  CStrings:  5986
++  UUID: D57CCA9A-E582-306B-8C86-687F65CD6E51
 +  Functions: 3885
 +  Symbols:   12538
-+  CStrings:  4905
++  CStrings:  5981
  
 Symbols:
 + -[FBSSignatureValidationService _validateAppStoreApp:]

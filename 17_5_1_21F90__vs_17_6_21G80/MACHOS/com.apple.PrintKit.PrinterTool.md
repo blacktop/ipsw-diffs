@@ -26,12 +26,15 @@
    __DATA_CONST.__auth_got: 0xb58
    __DATA_CONST.__got: 0x380
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3E0452D7-7C3C-3A4E-91B5-C68D10F8DEDB
++  UUID: C047A7FE-63F2-3636-9773-14EA0CA1AA4D
    Functions: 1295
 -  Symbols:   1013
 +  Symbols:   1012
-   CStrings:  3378
+   CStrings:  4956
  
 Symbols:
 - __Z13liteCheckJobsv

@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__const: 0xc8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x588
 +  __AUTH_CONST.__auth_got: 0x5a0
    __AUTH.__objc_data: 0x50
@@ -66,12 +65,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 279F6A4E-BCAF-30BF-ACD1-C01EF4D5B694
 -  Functions: 406
 -  Symbols:   1775
--  CStrings:  975
+-  CStrings:  1183
++  UUID: 2487F7EB-8AD8-3F93-A572-15DE0FFD3EC4
 +  Functions: 407
 +  Symbols:   1781
-+  CStrings:  978
++  CStrings:  1186
  
 Symbols:
 + +[IPSettingsUtilities runPostLanguageChangeOperationsWithNotifications:].cold.1

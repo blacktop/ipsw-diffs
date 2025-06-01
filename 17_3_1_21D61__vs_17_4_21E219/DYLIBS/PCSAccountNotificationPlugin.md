@@ -31,11 +31,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/ProtectedCloudStorage
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 787C4CDE-0959-376B-90D9-3A8E99E6C412
++  UUID: F736929B-5BFB-37A7-A0A3-07DAE827B1E2
    Functions: 10
    Symbols:   30
--  CStrings:  108
-+  CStrings:  109
+-  CStrings:  118
++  CStrings:  119
  
 CStrings:
 + "T@\"NSString\",?,R,C"

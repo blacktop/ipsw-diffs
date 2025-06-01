@@ -79,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1088838A-3CE3-380C-B14D-7FDBC4F00CA4
 -  Functions: 2303
 -  Symbols:   8235
--  CStrings:  4538
+-  CStrings:  5231
++  UUID: 4880103C-1443-3626-9C06-9450D56ED5EC
 +  Functions: 2455
 +  Symbols:   8723
-+  CStrings:  4723
++  CStrings:  5447
  
 Symbols:
 + +[PSUICarrierItemTableCell cellStyle]

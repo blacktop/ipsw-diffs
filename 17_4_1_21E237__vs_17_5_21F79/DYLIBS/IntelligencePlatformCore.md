@@ -61,7 +61,6 @@
    __DATA_CONST.__objc_superrefs: 0x80
 -  __AUTH_CONST.__const: 0x3c550
 +  __AUTH_CONST.__const: 0x3c388
-   __AUTH_CONST.__auth_ptr: 0x1098
    __AUTH_CONST.__objc_const: 0x10d8
    __AUTH_CONST.__cfstring: 0x360
 -  __AUTH_CONST.__auth_got: 0x48d8
@@ -95,12 +94,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E0729A4E-99AF-307C-A247-D48844718B9B
 -  Functions: 71484
 -  Symbols:   772
--  CStrings:  8759
+-  CStrings:  8786
++  UUID: FE12B79D-75BB-33EB-8D7B-E2F98E6DBD71
 +  Functions: 71464
 +  Symbols:   771
-+  CStrings:  8750
++  CStrings:  8777
  
 Symbols:
 - _sleep

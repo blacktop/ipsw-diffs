@@ -42,11 +42,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37DDD41E-AFB9-3EDF-85DA-7CF890D1465F
 -  Functions: 1226
++  UUID: 9B9F07E5-4942-3978-ADD3-F055D92982F2
 +  Functions: 1227
    Symbols:   429
--  CStrings:  3078
-+  CStrings:  3079
+-  CStrings:  3461
++  CStrings:  3463
  
 CStrings:
 + "HelpImproveMapsAddressCorrectionAuthStatus"

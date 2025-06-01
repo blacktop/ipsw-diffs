@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 99C92ED5-ADA9-35C2-A3FA-ACDF82BB49CB
 -  Functions: 1752
 -  Symbols:   725
--  CStrings:  3776
+-  CStrings:  4223
++  UUID: 3590F842-FC8E-33DD-A0D3-126F2C33040E
 +  Functions: 1766
 +  Symbols:   730
-+  CStrings:  3796
++  CStrings:  4243
  
 Symbols:
 + _CGAffineTransformIdentity

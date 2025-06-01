@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 55E1CD4E-1064-375E-9EB5-EA4A06707B8A
++  UUID: 30F66AC3-CCD3-32BE-81D9-9AC6A787F6DD
    Functions: 1663
    Symbols:   5462
--  CStrings:  2308
-+  CStrings:  2309
+-  CStrings:  2798
++  CStrings:  2799
  
 Symbols:
 - ___block_literal_global.60

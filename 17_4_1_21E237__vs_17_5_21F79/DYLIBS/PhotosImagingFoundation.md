@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BA8FB951-F0B2-3AE1-B9AF-D6358FF80B49
++  UUID: D7D30361-D0DF-3AA7-9601-ED59B73181F4
+   Functions: 940
+   Symbols:   3218
+   CStrings:  1989
+
 ```

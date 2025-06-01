@@ -29,10 +29,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 +  - /System/Library/Frameworks/Network.framework/Network
    - /usr/lib/libSystem.B.dylib
+-  UUID: 075C2C41-D54B-3F48-84E7-7AE2F856AA0A
 -  Functions: 44
 -  Symbols:   110
 -  CStrings:  41
 +  - /usr/lib/libnetwork.dylib
++  UUID: 1570C80B-EF47-3242-AF7C-6D2F66638BEA
 +  Functions: 48
 +  Symbols:   130
 +  CStrings:  44

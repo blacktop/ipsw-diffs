@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xc48
 +  __AUTH_CONST.__auth_got: 0xc58
    __AUTH.__data: 0xa8
@@ -63,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 973F87D7-4A83-3D3D-9046-43CC2D4B2A9A
 -  Functions: 8329
 -  Symbols:   27510
--  CStrings:  12278
+-  CStrings:  14957
++  UUID: 02AE110A-B90C-3CF3-A263-404245209C45
 +  Functions: 8330
 +  Symbols:   27525
-+  CStrings:  12290
++  CStrings:  14972
  
 Symbols:
 + -[SUStorePageViewController _logInternalEventWithOperation:]

@@ -63,11 +63,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 82C6B18A-CCEE-3A31-9766-7FBB4C936FB5
 -  Functions: 4596
++  UUID: 7CD6B639-AEF8-3891-99F8-23EBEF147B8F
 +  Functions: 4602
    Symbols:   751
--  CStrings:  7038
-+  CStrings:  7051
+-  CStrings:  8037
++  CStrings:  8051
  
 CStrings:
 + "%@: Migrating tokens to the keychain"

@@ -15,7 +15,6 @@
    __DATA_CONST.__objc_classrefs: 0x10
 -  __AUTH_CONST.__const: 0x2010
 +  __AUTH_CONST.__const: 0x16b0
-   __AUTH_CONST.__auth_ptr: 0xc0
    __AUTH_CONST.__auth_got: 0x7e8
 -  __AUTH.__data: 0x528
 -  __AUTH.__objc_data: 0x50
@@ -31,5 +30,14 @@
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 16594AE9-4FEF-33F8-834F-28B0AF06015F
++  UUID: 40E23D78-6CF6-3DE5-8713-A1B8775D28C5
+   Functions: 3431
+   Symbols:   993
+   CStrings:  124
 
 ```

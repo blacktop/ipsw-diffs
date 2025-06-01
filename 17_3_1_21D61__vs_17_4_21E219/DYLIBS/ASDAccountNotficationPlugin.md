@@ -33,11 +33,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C64330F-AE49-3E30-B577-9E9A663A8EE1
++  UUID: 25FD9E37-0D6E-3C38-9E39-90CF1B62474D
    Functions: 4
    Symbols:   49
--  CStrings:  94
-+  CStrings:  95
+-  CStrings:  101
++  CStrings:  102
  
 CStrings:
 + "T@\"NSString\",?,R,C"

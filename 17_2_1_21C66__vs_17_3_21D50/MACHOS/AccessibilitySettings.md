@@ -36,11 +36,15 @@
    __DATA_CONST.__objc_catlist: 0x40
    __DATA_CONST.__objc_protolist: 0x268
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E434BCD3-0127-3044-89DF-69CF6F5E879D
++  UUID: ED9FB7E0-14FE-342E-9DFB-B53F77503A97
    Functions: 7188
    Symbols:   17705
--  CStrings:  11804
-+  CStrings:  11807
+-  CStrings:  14796
++  CStrings:  14801
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

@@ -35,11 +35,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/DTXConnectionServices.framework/DTXConnectionServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D411A26-B27C-31EA-8024-373B480B8762
++  UUID: 95F01469-703D-32DC-BE8B-AC234B21D846
    Functions: 37
    Symbols:   80
--  CStrings:  148
-+  CStrings:  149
+-  CStrings:  180
++  CStrings:  181
  
 CStrings:
 + "T@\"NSString\",?,R,C"

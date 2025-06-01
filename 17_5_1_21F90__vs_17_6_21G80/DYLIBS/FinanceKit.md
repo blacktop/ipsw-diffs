@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x27a10
 +  __AUTH_CONST.__const: 0x27950
-   __AUTH_CONST.__auth_ptr: 0xac8
    __AUTH_CONST.__auth_got: 0x2560
    __AUTH.__objc_data: 0x6008
 -  __AUTH.__data: 0x9c40
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 72CDABBB-EDFB-3945-92CA-2AC25F78C573
 -  Functions: 36635
 -  Symbols:   9869
--  CStrings:  4884
+-  CStrings:  4925
++  UUID: 2D41F2D8-4442-3DAF-9A17-040366AD5C0C
 +  Functions: 36625
 +  Symbols:   9871
-+  CStrings:  4892
++  CStrings:  4933
  
 Symbols:
 + -[FKBankConnectTermsAndConditions shouldNotifyAboutChanges]

@@ -57,13 +57,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7E16627E-C1A9-359D-8684-E6CF7A9B30CD
++  UUID: EDE64508-C185-387F-8E47-728A3D49FDCE
    Functions: 8611
 -  Symbols:   26396
--  CStrings:  9104
+-  CStrings:  10817
 +  Symbols:   26398
-+  CStrings:  9106
++  CStrings:  10819
  
 Symbols:
 + _OBJC_CLASS_$_CKContainerOptions

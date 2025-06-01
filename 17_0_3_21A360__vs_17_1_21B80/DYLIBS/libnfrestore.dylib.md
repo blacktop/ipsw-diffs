@@ -17,8 +17,7 @@
    __TEXT.__const: 0x90
    __TEXT.__unwind_info: 0x268
    __DATA_CONST.__got: 0xa8
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__const: 0x218
    __AUTH_CONST.__cfstring: 0xaa0
    __AUTH_CONST.__const: 0x120
 -  __AUTH_CONST.__auth_got: 0x6e0
@@ -27,13 +26,16 @@
    __DATA.__common: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libPN548_API.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 7F14930D-94BE-318E-B292-4E8A5EC5F8A3
++  UUID: 2E2FD002-1836-3882-907B-84980E47FA4F
    Functions: 177
 -  Symbols:   519
--  CStrings:  1107
+-  CStrings:  1192
 +  Symbols:   520
-+  CStrings:  1109
++  CStrings:  1194
  
 Symbols:
 + _NFDriverDisableLPCDAssist

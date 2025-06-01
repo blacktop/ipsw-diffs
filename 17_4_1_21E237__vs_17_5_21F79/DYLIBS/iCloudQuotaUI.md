@@ -76,12 +76,10 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_dictobj: 0x488
--  __AUTH_CONST.__auth_ptr: 0x220
 -  __AUTH_CONST.__auth_got: 0x1f10
 -  __AUTH.__objc_data: 0x43b8
 -  __AUTH.__data: 0x2af8
 -  __DATA.__objc_ivar: 0xba0
-+  __AUTH_CONST.__auth_ptr: 0x298
 +  __AUTH_CONST.__auth_got: 0x2300
 +  __AUTH.__objc_data: 0x4458
 +  __AUTH.__data: 0x2de8
@@ -129,12 +127,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 407423AB-1C1C-3C56-866C-00395A5C8F41
 -  Functions: 10720
 -  Symbols:   15694
--  CStrings:  7910
+-  CStrings:  8836
++  UUID: 58171B1F-3FD0-37B2-AD8A-38F8D628A966
 +  Functions: 11437
 +  Symbols:   15856
-+  CStrings:  7952
++  CStrings:  8880
  
 Symbols:
 + -[ICQLinkInAppAction linkURL]

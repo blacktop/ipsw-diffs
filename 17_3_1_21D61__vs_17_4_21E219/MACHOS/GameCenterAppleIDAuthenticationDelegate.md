@@ -41,13 +41,16 @@
    __DATA.__data: 0x60
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F576DC58-EEEA-378F-A6A6-E0534E5D6B8D
++  UUID: 79876B79-AA29-32E6-B247-7345E6350E6D
    Functions: 15
 -  Symbols:   71
--  CStrings:  111
+-  CStrings:  156
 +  Symbols:   74
-+  CStrings:  109
++  CStrings:  133
  
 Symbols:
 + _GKOSLoggers

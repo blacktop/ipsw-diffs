@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AC6ED7DA-8F43-3965-A678-9D93A6AA1107
 -  Functions: 373
 -  Symbols:   440
--  CStrings:  414
+-  CStrings:  415
++  UUID: E9DB3374-B8E1-36E5-9A73-41D86DE1758E
 +  Functions: 372
 +  Symbols:   432
-+  CStrings:  408
++  CStrings:  409
  
 Symbols:
 + _OBJC_CLASS_$_AAFPromise

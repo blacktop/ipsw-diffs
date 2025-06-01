@@ -50,7 +50,6 @@
    __DATA_CONST.__objc_arraydata: 0xa0
 -  __AUTH_CONST.__cfstring: 0xbe60
 +  __AUTH_CONST.__cfstring: 0xbf80
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x5850
 -  __AUTH_CONST.__const: 0x22a0
 +  __AUTH_CONST.__const: 0x22e0
@@ -84,12 +83,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0144BF93-BA7F-3E6E-9140-D77F187DA4ED
 -  Functions: 5506
 -  Symbols:   19588
--  CStrings:  9879
+-  CStrings:  11402
++  UUID: 516AE97D-AFD5-3523-A0B8-DCFFCD489E76
 +  Functions: 5544
 +  Symbols:   19699
-+  CStrings:  9915
++  CStrings:  11447
  
 Symbols:
 + -[MNArrivalUpdater parkedVehicleDetectorDidDetectResumeDriving:]

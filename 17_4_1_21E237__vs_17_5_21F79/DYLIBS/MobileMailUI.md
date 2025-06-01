@@ -54,13 +54,16 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E4BBE28E-4DD7-3346-927B-25966DB8DDC2
++  UUID: DC47C69D-8D2C-3A52-81F6-716F0A755377
    Functions: 1331
 -  Symbols:   6377
--  CStrings:  3571
+-  CStrings:  3938
 +  Symbols:   6379
-+  CStrings:  3573
++  CStrings:  3940
  
 Symbols:
 + +[MFMessageHeaderView log]

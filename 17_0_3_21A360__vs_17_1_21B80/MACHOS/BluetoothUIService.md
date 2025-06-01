@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protolist: 0x38
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 66D06E23-D8FA-3B31-A797-46CB2024221B
++  UUID: 34599328-4CFD-3952-8334-5CBCC19A2D34
    Functions: 159
    Symbols:   158
--  CStrings:  803
-+  CStrings:  802
+-  CStrings:  876
++  CStrings:  874
  
 CStrings:
 + "REJECTED_WITH_DEVICE_FORMAT"

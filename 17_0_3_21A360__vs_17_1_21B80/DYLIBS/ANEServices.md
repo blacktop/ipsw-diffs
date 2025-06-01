@@ -22,11 +22,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2327F632-EFBE-32EC-8808-F30F1509AC77
 -  Functions: 635
 -  Symbols:   1299
++  UUID: 071BD4CE-78B4-350C-9997-09AF114FBA19
 +  Functions: 637
 +  Symbols:   1301
-   CStrings:  335
+   CStrings:  340
  
 Symbols:
 + __ZN6H11ANE12H11ANEDevice28ANE_ExclaveReadPropertyValueEjPj

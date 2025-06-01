@@ -47,4 +47,13 @@
    __DATA_DIRTY.__bss: 0x1a0
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2D70333B-D9E7-3D83-A2DE-E2A0D8885AEC
++  UUID: 17ED6C1B-1CFD-30DD-B2E0-B827014C4E09
+   Functions: 5815
+   Symbols:   19413
+   CStrings:  10359
+
 ```

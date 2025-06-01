@@ -43,12 +43,11 @@
 +  __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__objc_intobj: 0x60
 -  __AUTH_CONST.__const: 0x90
-+  __AUTH_CONST.__const: 0xb8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x658
 -  __DATA.__objc_protorefs: 0x28
 -  __DATA.__objc_classrefs: 0x190
 -  __DATA.__objc_superrefs: 0x88
++  __AUTH_CONST.__const: 0xb8
 +  __AUTH_CONST.__auth_got: 0x660
 +  __AUTH.__objc_data: 0x50
    __DATA.__objc_ivar: 0x210
@@ -64,12 +63,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: FF46D878-08CB-38F4-A2B0-F48F58133496
 -  Functions: 589
 -  Symbols:   2023
--  CStrings:  1188
+-  CStrings:  1310
++  UUID: 13BFDB2F-EDBA-3DC2-8A9C-21A9624E2C68
 +  Functions: 590
 +  Symbols:   2030
-+  CStrings:  1189
++  CStrings:  1311
  
 Symbols:
 + -[DADaemonSession init]

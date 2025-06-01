@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8DD80909-111D-33B3-BEE5-6ADB15C49CCC
++  UUID: 2E09B679-6E09-3840-B5BD-CF62A693DD4C
+   Functions: 6
+   Symbols:   20
+   CStrings:  14
+
 ```

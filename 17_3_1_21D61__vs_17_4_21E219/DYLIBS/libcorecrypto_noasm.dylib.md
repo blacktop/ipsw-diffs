@@ -20,15 +20,17 @@
    __DATA_CONST.__got: 0x10
 -  __DATA_CONST.__const: 0xf00
 +  __DATA_CONST.__const: 0xf90
-   __AUTH_CONST.__auth_ptr: 0x1c8
    __AUTH_CONST.__const: 0x1400
    __AUTH_CONST.__auth_got: 0x110
+   __AUTH.__data: 0xa0
 
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_trace.dylib
+-  UUID: F124E205-51DC-3F89-9D70-7C7A1D8698E9
 -  Functions: 1854
 -  Symbols:   3160
++  UUID: E9F05658-D7E9-3C1C-AEB5-79A04BCCDE6F
 +  Functions: 2001
 +  Symbols:   3398
    CStrings:  618

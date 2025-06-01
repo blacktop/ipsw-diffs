@@ -48,9 +48,8 @@
    __AUTH_CONST.__cfstring: 0x93c0
    __AUTH_CONST.__objc_intobj: 0x3d8
    __AUTH_CONST.__objc_arrayobj: 0x300
-
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2aa8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x7b8
 -  __AUTH.__objc_data: 0x3700
 -  __DATA.__objc_protorefs: 0x550
@@ -70,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E95A31D4-7355-3D96-8750-B35629446AAC
 -  Functions: 8250
 -  Symbols:   33865
--  CStrings:  13006
+-  CStrings:  14188
++  UUID: 2E70BC8E-E2FE-306B-BA42-09D834577B33
 +  Functions: 8253
 +  Symbols:   33892
-+  CStrings:  13016
++  CStrings:  14198
  
 Symbols:
 + -[SXFallbackLiveActivityAttributesProvider supportsLiveActivities]

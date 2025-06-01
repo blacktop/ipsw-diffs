@@ -66,7 +66,6 @@
 +  __DATA_CONST.__objc_classrefs: 0xb0
 +  __DATA_CONST.__objc_superrefs: 0x18
 +  __AUTH_CONST.__const: 0xa98
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__cfstring: 0x12a0
 +  __AUTH_CONST.__objc_const: 0x120
 +  __AUTH_CONST.__auth_got: 0xb60
@@ -87,9 +86,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7563714-21E8-322D-A81F-1FB140B8F33B
 -  Functions: 195
 -  Symbols:   404
--  CStrings:  447
+-  CStrings:  576
 +  - /usr/lib/libsqlite3.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -98,9 +98,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 85421233-CD72-37E6-96D0-C3C3C58E9029
 +  Functions: 578
 +  Symbols:   510
-+  CStrings:  613
++  CStrings:  762
  
 Symbols:
 + _OBJC_CLASS_$_MISLaunchWarningDatabase

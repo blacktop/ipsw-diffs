@@ -40,7 +40,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x58
    __AUTH_CONST.__cfstring: 0x4a0
    __AUTH_CONST.__const: 0x278
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_const: 0x360
    __AUTH_CONST.__auth_got: 0x6d0
    __AUTH.__objc_data: 0xf0
@@ -58,12 +57,14 @@
 -  - /usr/lib/libimg4.dylib
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 58ED54CC-2ABA-3E45-ADAC-3BED2E1F19C3
 -  Functions: 446
 -  Symbols:   1317
--  CStrings:  651
+-  CStrings:  688
++  UUID: 8FE5B6DB-D2C4-3993-BB3D-AA24822417D3
 +  Functions: 442
 +  Symbols:   1304
-+  CStrings:  647
++  CStrings:  684
  
 Symbols:
 + _cryptex_core_image_authapfs_enabled

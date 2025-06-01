@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1101D0B8-BA3A-3365-8548-99167B19EC64
 -  Functions: 510
 -  Symbols:   278
--  CStrings:  830
+-  CStrings:  858
++  UUID: ECFF6E3A-C9A2-3175-B9F4-1158643E76DA
 +  Functions: 526
 +  Symbols:   281
-+  CStrings:  845
++  CStrings:  873
  
 Symbols:
 + _ASDInstallAttributionInteractionTypeClick

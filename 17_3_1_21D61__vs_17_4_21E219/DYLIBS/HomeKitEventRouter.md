@@ -42,11 +42,15 @@
    __DATA.__data: 0x4e0
    __DATA_DIRTY.__objc_data: 0x320
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D0AEB5C0-09CA-3E2B-A7DC-D664F83EEE4F
++  UUID: ADE7191D-4642-332A-AC80-FEF4B9A1F034
    Functions: 452
    Symbols:   1677
--  CStrings:  895
-+  CStrings:  899
+-  CStrings:  952
++  CStrings:  956
  
 Symbols:
 + GCC_except_table237

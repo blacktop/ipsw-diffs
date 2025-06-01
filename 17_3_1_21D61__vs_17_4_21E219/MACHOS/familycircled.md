@@ -108,14 +108,16 @@
 +  - /usr/lib/swift/libswiftQuartzCore.dylib
 +  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: BC06A920-AEF0-388E-AC85-75774DDAB51E
 -  Functions: 745
 -  Symbols:   210
--  CStrings:  1415
+-  CStrings:  1568
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 98E250B0-A9B0-35CC-AFA3-0792783E4C48
 +  Functions: 913
 +  Symbols:   380
-+  CStrings:  1485
++  CStrings:  1644
  
 Symbols:
 + _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj

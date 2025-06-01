@@ -13,8 +13,8 @@
    __TEXT.__objc_classname: 0xe2
    __TEXT.__objc_methname: 0x3f22
 
+   __AUTH_CONST.__objc_const: 0x450
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__auth_got: 0xdd0
 -  __AUTH.__objc_data: 0x1c0
 -  __AUTH.__data: 0x800
@@ -35,5 +35,14 @@
    __DATA_DIRTY.__common: 0xb0
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DC1A7C8A-C2C1-34EC-A02D-F6EC3DDA97B5
++  UUID: E2B82E29-4128-347B-9543-DBD0AD484333
+   Functions: 2261
+   Symbols:   1980
+   CStrings:  1056
 
 ```

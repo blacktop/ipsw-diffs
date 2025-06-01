@@ -46,12 +46,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A941F54C-05AC-3BC0-8DF8-4D6017A81DEF
 -  Functions: 1296
 -  Symbols:   4676
--  CStrings:  2143
+-  CStrings:  2324
++  UUID: C2482AFB-EBE0-3CFE-97AE-E6D0FBB7E3AD
 +  Functions: 1295
 +  Symbols:   4673
-+  CStrings:  2144
++  CStrings:  2325
  
 Symbols:
 + GCC_except_table72

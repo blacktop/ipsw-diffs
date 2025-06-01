@@ -51,11 +51,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8AE93477-C184-33B0-9DF2-F10B879B4458
 -  Functions: 5096
 -  Symbols:   17507
+-  CStrings:  10916
++  UUID: FF0C0453-4C2B-3E1E-897E-676C7552E1AD
 +  Functions: 5098
 +  Symbols:   17513
-   CStrings:  8742
++  CStrings:  10915
  
 Symbols:
 + +[WFRichTextContentItem isMissingHTMLHeaderInString:]

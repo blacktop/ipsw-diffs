@@ -39,17 +39,19 @@
 +  __DATA_CONST.__objc_selrefs: 0x2d38
    __DATA_CONST.__objc_arraydata: 0x18
    __AUTH_CONST.__const: 0x2200
-   __AUTH_CONST.__auth_ptr: 0x50
+   __AUTH_CONST.__objc_const: 0x17b0
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B6363D40-E8CF-3C5F-B19D-99ED021E7109
 -  Functions: 2390
 -  Symbols:   6388
--  CStrings:  3369
+-  CStrings:  3637
++  UUID: 1EEC040C-8F09-33A1-BF2E-5422E3894876
 +  Functions: 2391
 +  Symbols:   6393
-+  CStrings:  3372
++  CStrings:  3640
  
 Symbols:
 + -[WFAudioRecorderViewController _canShowWhileLocked]

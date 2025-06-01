@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4536E51A-532A-3D7B-8D5A-20A2F434EFE2
 -  Functions: 2474
 -  Symbols:   828
--  CStrings:  4244
+-  CStrings:  4507
++  UUID: DB026BE4-134F-3C4C-8F49-2F69B709B33F
 +  Functions: 2477
 +  Symbols:   831
-+  CStrings:  4249
++  CStrings:  4512
  
 Symbols:
 + _$s8PaperKit0A17RenderableOptionsVMa

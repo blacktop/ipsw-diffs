@@ -67,7 +67,6 @@
 -  __AUTH_CONST.__cfstring: 0x980
 -  __AUTH_CONST.__objc_const: 0xae8
 -  __AUTH_CONST.__const: 0xf18
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0x7a0
 -  __AUTH.__objc_data: 0x800
 -  __AUTH.__data: 0xb8
@@ -78,7 +77,6 @@
 +  __AUTH_CONST.__cfstring: 0x9a0
 +  __AUTH_CONST.__objc_const: 0xb30
 +  __AUTH_CONST.__const: 0x1310
-+  __AUTH_CONST.__auth_ptr: 0x90
 +  __AUTH_CONST.__auth_got: 0x9a8
 +  __AUTH.__objc_data: 0x9e0
 +  __AUTH.__data: 0x200
@@ -103,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7446079F-C86B-3F98-BD2B-BFD01C1307E8
 -  Functions: 660
 -  Symbols:   2503
--  CStrings:  451
+-  CStrings:  527
++  UUID: 135766B4-1B4C-3155-AA08-D996EA93CE64
 +  Functions: 1035
 +  Symbols:   3527
-+  CStrings:  526
++  CStrings:  603
  
 Symbols:
 + +[FSFUtils(Biome) biomeMaxStreamSizeInBytes]

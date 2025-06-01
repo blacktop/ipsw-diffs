@@ -49,7 +49,6 @@
    __AUTH_CONST.__const: 0x5f0
 -  __AUTH_CONST.__objc_const: 0xf58
 +  __AUTH_CONST.__objc_const: 0xfa0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__cfstring: 0x900
 -  __AUTH_CONST.__auth_got: 0x7a8
 -  __AUTH.__objc_data: 0x1c8
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA2A8A36-5300-3FEA-B33A-F74157D295BD
 -  Functions: 595
 -  Symbols:   2562
--  CStrings:  795
+-  CStrings:  867
++  UUID: 747C4516-F528-329A-86F4-5A69BA8FCF49
 +  Functions: 596
 +  Symbols:   2569
-+  CStrings:  797
++  CStrings:  869
  
 Symbols:
 + -[KM_HMFLocationAuthorization isAuthorized]

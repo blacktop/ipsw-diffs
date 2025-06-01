@@ -56,9 +56,8 @@
 +  __AUTH_CONST.__objc_const: 0x7020
 +  __AUTH_CONST.__const: 0x86f8
    __AUTH_CONST.__cfstring: 0xa760
-   __AUTH_CONST.__auth_ptr: 0x208
    __AUTH_CONST.__objc_intobj: 0x510
-
+   __AUTH_CONST.__objc_arrayobj: 0x138
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_floatobj: 0x10
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7175E91D-8990-3BCB-9BCB-5EB7679A4A3C
 -  Functions: 12345
 -  Symbols:   27896
--  CStrings:  13369
+-  CStrings:  14708
++  UUID: E9420E3E-B095-3E9D-9228-9CDD5E3048E6
 +  Functions: 12362
 +  Symbols:   27951
-+  CStrings:  13388
++  CStrings:  14727
  
 Symbols:
 + +[ICHintViewController initialize]

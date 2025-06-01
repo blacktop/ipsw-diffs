@@ -16,4 +16,13 @@
    __DATA_CONST.__got: 0x48
    __DATA_CONST.__const: 0x590
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/liblzma.5.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: C27120A8-68ED-3D29-A3D5-711B3C5990E3
++  UUID: 9A3321B7-68E7-3DBA-BDA4-56AE7352BA42
+   Functions: 428
+   Symbols:   192
+   CStrings:  354
+
 ```

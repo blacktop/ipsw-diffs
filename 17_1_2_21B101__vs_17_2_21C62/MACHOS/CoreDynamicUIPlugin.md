@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6DEB10A-5FE7-3FFD-93BB-BAFBEAED1631
 -  Functions: 3400
 -  Symbols:   306
--  CStrings:  819
+-  CStrings:  827
++  UUID: 2F52C07B-84C5-3846-88A8-67FB0E0AE2BB
 +  Functions: 3796
 +  Symbols:   330
-+  CStrings:  978
++  CStrings:  986
  
 Symbols:
 + _ASCAppStateOpenable

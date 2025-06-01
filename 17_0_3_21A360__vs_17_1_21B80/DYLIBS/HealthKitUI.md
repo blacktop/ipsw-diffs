@@ -39,7 +39,6 @@
    __AUTH_CONST.__objc_const: 0x228
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__const: 0x248
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x328
 +  __AUTH_CONST.__auth_got: 0x330
    __DATA.__objc_classrefs: 0x88
@@ -49,12 +48,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8914FF65-BCE4-325E-80CF-6125337EE323
 -  Functions: 166
 -  Symbols:   444
--  CStrings:  183
+-  CStrings:  197
++  UUID: BB0FB5FB-2786-36D6-B65F-291B2EF89504
 +  Functions: 168
 +  Symbols:   450
-+  CStrings:  185
++  CStrings:  199
  
 Symbols:
 + -[ARUIRingGroup(HKActivitySummary) hk_configureWithActivitySummary:isStandaloneFallback:animated:completion:]

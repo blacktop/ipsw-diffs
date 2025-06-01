@@ -58,12 +58,11 @@
 -  __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__objc_arrayobj: 0x90
 -  __AUTH_CONST.__const: 0x360
+-  __AUTH_CONST.__auth_got: 0x500
 +  __AUTH_CONST.__objc_dictobj: 0x578
 +  __AUTH_CONST.__objc_arrayobj: 0x378
 +  __AUTH_CONST.__objc_doubleobj: 0xf0
 +  __AUTH_CONST.__const: 0x340
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__auth_got: 0x500
 +  __AUTH_CONST.__auth_got: 0x518
    __AUTH.__objc_data: 0x188
    __AUTH.__data: 0xa90
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 605473A1-992E-3CBB-9D35-A68A534EBB65
 -  Functions: 1406
 -  Symbols:   344
--  CStrings:  1554
+-  CStrings:  1819
++  UUID: 7FFB22AC-1E3F-340E-8F93-232174FE3C15
 +  Functions: 1427
 +  Symbols:   349
-+  CStrings:  1592
++  CStrings:  1870
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantDoubleNumber

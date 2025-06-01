@@ -57,12 +57,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 72DB1135-DA6F-3492-AC5A-CF6D677E6D20
 -  Functions: 1147
 -  Symbols:   4523
--  CStrings:  2709
+-  CStrings:  3568
++  UUID: D7F289EE-195C-318C-AD23-3EC9BBACD68A
 +  Functions: 1160
 +  Symbols:   4573
-+  CStrings:  2744
++  CStrings:  3622
  
 Symbols:
 + -[WLDeviceDiscoveryController _enableSoftAPWithSSID:password:channels:secret:srp:completion:enabled:error:channel:]

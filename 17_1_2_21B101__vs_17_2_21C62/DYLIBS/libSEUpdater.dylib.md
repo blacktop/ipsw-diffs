@@ -22,11 +22,15 @@
    __TEXT.__unwind_info: 0x1680
    __TEXT.__eh_frame: 0x38
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E0C6E12-1717-381B-9597-867E9040B6D9
++  UUID: DC7FE662-5EDC-3148-950B-91D7B073A611
    Functions: 1154
    Symbols:   3728
--  CStrings:  1401
-+  CStrings:  1406
+-  CStrings:  1662
++  CStrings:  1667
  
 Symbols:
 + ___block_descriptor_tmp.242

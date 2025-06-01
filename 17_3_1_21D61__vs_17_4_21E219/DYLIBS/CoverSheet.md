@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C3C65E5-0622-3032-857D-77DB01B49E4D
 -  Functions: 6213
 -  Symbols:   22919
--  CStrings:  11313
+-  CStrings:  12706
++  UUID: CB97D573-B458-3C97-B1B2-EC48695D8466
 +  Functions: 6214
 +  Symbols:   22923
-+  CStrings:  11323
++  CStrings:  12717
  
 Symbols:
 + __OBJC_$_PROP_LIST_CSDeviceUnblockPolicyEnvironmentBuilder.100

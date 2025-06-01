@@ -38,11 +38,15 @@
    __DATA.__data: 0x6e0
    __DATA.__bss: 0x274
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2C070E32-D4A1-330E-8FB7-3FA5E95B6FC1
++  UUID: D459AEE1-450F-33D0-921A-44ABC445E85B
    Functions: 3247
    Symbols:   11299
--  CStrings:  5629
-+  CStrings:  5630
+-  CStrings:  6802
++  CStrings:  6803
  
 Symbols:
 + ___block_literal_global.180

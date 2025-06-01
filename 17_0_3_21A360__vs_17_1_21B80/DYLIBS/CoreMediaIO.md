@@ -41,13 +41,16 @@
    __DATA_DIRTY.__objc_const: 0xdc8
    __DATA_DIRTY.__objc_data: 0x820
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4484946-8592-3DD4-9495-0B363557FC9D
++  UUID: 193174F4-2C11-341C-8398-CDE058EC04F9
    Functions: 1343
 -  Symbols:   4094
--  CStrings:  1876
+-  CStrings:  2113
 +  Symbols:   4097
-+  CStrings:  1880
++  CStrings:  2118
  
 Symbols:
 + _FigGetUpTimeNanoseconds

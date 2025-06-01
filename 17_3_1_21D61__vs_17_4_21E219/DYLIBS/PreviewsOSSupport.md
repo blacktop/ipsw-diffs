@@ -63,7 +63,6 @@
 -  __AUTH_CONST.__cfstring: 0x3c0
 -  __AUTH_CONST.__const: 0x18a0
 -  __AUTH_CONST.__objc_const: 0x6c0
--  __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0x650
 -  __AUTH.__objc_data: 0x810
 -  __AUTH.__data: 0x318
@@ -81,7 +80,6 @@
 +  __AUTH_CONST.__objc_const: 0x120
 +  __AUTH_CONST.__cfstring: 0x80
 +  __AUTH_CONST.__const: 0x2860
-+  __AUTH_CONST.__auth_ptr: 0x78
 +  __AUTH_CONST.__auth_got: 0x9b8
 +  __AUTH.__objc_data: 0x478
 +  __AUTH.__data: 0x530
@@ -109,12 +107,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C75492C-9D12-3D51-994A-11B2BF9F3061
 -  Functions: 769
 -  Symbols:   1013
--  CStrings:  364
+-  CStrings:  394
++  UUID: EE02414D-0F6E-375D-8C2B-D3392CD8A88D
 +  Functions: 1476
 +  Symbols:   743
-+  CStrings:  329
++  CStrings:  333
  
 Symbols:
 + -[UVShellConnectionInterfaceTarget .cxx_destruct]
@@ -1012,6 +1012,7 @@ CStrings:
 + "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSDictionary\"40@\"NSError\"48"
 + "v56@0:8@16@24@32@40@48"
 + "willWriteDiagnosticLog:logId:logInfo:"
+- ""
 - "\x01"
 - " expected nonnull argument of type "
 - "%@ deallocated without being invalidated: %@"

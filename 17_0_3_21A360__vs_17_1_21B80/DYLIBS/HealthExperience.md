@@ -56,7 +56,6 @@
 -  __AUTH_CONST.__const: 0xc240
 +  __AUTH_CONST.__const: 0xc528
    __AUTH_CONST.__objc_const: 0x230
-   __AUTH_CONST.__auth_ptr: 0x3b0
 -  __AUTH_CONST.__auth_got: 0x1ed8
 +  __AUTH_CONST.__auth_got: 0x1f70
    __AUTH.__objc_data: 0x378
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B84A126-E7E6-3560-BF82-3D47BA731D80
 -  Functions: 9205
 -  Symbols:   2262
--  CStrings:  1310
+-  CStrings:  1320
++  UUID: 5230B86C-0EB0-343F-A447-13A402A609CB
 +  Functions: 9329
 +  Symbols:   2279
-+  CStrings:  1328
++  CStrings:  1338
  
 Symbols:
 + _OBJC_CLASS_$_HKCodableSummaryData

@@ -39,13 +39,16 @@
    __AUTH_CONST.__cfstring: 0x7780
    __AUTH_CONST.__objc_const: 0x5c18
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1991C548-38FD-36B2-AF52-2B009F6ABE72
++  UUID: F49B312F-5B95-37A1-8E90-F0B50A8395CC
    Functions: 5871
 -  Symbols:   21798
--  CStrings:  10275
+-  CStrings:  11231
 +  Symbols:   21799
-+  CStrings:  10276
++  CStrings:  11232
  
 Symbols:
 + _objc_msgSend$loadViewIfNeeded

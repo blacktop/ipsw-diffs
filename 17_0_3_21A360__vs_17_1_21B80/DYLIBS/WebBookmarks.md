@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C293D929-68A4-38B7-8272-13593E895336
 -  Functions: 3349
 -  Symbols:   11322
--  CStrings:  5119
+-  CStrings:  5792
++  UUID: C98C1287-0916-3EEF-8EF6-5974DD260C38
 +  Functions: 3358
 +  Symbols:   11350
-+  CStrings:  5126
++  CStrings:  5799
  
 Symbols:
 + -[WBSettingsSyncEngineAccess _attemptUpdatingSavingPerSiteSettingsWithRecord:]

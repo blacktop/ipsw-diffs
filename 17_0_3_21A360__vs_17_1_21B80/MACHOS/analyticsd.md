@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: ED3AB88D-0C99-3C9A-A05A-27184D54BC9F
 -  Functions: 5337
 -  Symbols:   613
--  CStrings:  2870
+-  CStrings:  2940
++  UUID: C212C7BD-8631-323F-9572-266D6F3BB392
 +  Functions: 5357
 +  Symbols:   612
-+  CStrings:  2884
++  CStrings:  2954
  
 Symbols:
 - __ZN10applesauce3xpc19dyn_cast_or_defaultERKNS0_6objectEx

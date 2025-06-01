@@ -27,12 +27,15 @@
    __DATA_DIRTY.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C1E61B92-EA62-36B2-AF96-423ECB274B82
++  UUID: 57B5F060-5D6E-3308-AAE1-E64A745A4287
    Functions: 182
 -  Symbols:   186
 +  Symbols:   187
-   CStrings:  127
+   CStrings:  134
  
 Symbols:
 + _dispatch_queue_attr_make_with_autorelease_frequency

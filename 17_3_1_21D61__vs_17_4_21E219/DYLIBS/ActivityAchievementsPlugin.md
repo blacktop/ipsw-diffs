@@ -36,11 +36,15 @@
    __DATA.__data: 0x480
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0AB7162F-970D-3C6E-8B87-E211517F6C19
++  UUID: FD1F9C0E-634B-3DBA-9E18-5E9B9F8E0D89
    Functions: 145
    Symbols:   130
--  CStrings:  466
-+  CStrings:  467
+-  CStrings:  469
++  CStrings:  470
  
 CStrings:
 + "T@\"NSString\",?,R,C"

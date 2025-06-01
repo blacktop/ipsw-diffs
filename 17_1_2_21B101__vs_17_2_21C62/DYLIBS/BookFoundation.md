@@ -44,9 +44,8 @@
    __AUTH_CONST.__objc_const: 0x458
    __AUTH_CONST.__cfstring: 0x1e0
 -  __AUTH_CONST.__const: 0x3608
-+  __AUTH_CONST.__const: 0x36b8
-   __AUTH_CONST.__auth_ptr: 0x128
 -  __AUTH_CONST.__auth_got: 0xc40
++  __AUTH_CONST.__const: 0x36b8
 +  __AUTH_CONST.__auth_got: 0xc78
    __AUTH.__objc_data: 0x1170
    __AUTH.__data: 0xb68
@@ -63,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7A8292D8-1018-3D1C-B0B9-C2E11A2F6E74
 -  Functions: 3224
++  UUID: 5BE4053C-7C11-3602-A5C2-5DFEAFDB6F5C
 +  Functions: 3281
    Symbols:   238
--  CStrings:  488
-+  CStrings:  490
+-  CStrings:  503
++  CStrings:  505
  
 CStrings:
 + "Failed to get assets in SeriesInfo: %@."

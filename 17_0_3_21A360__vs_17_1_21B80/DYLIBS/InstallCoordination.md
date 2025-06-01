@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78FF38EC-90B0-391E-9EF1-2245CEDB1EB3
 -  Functions: 1748
 -  Symbols:   5695
--  CStrings:  3032
+-  CStrings:  3668
++  UUID: 14F18E05-4C0D-3639-B1CF-076D13E661D9
 +  Functions: 1752
 +  Symbols:   5705
-+  CStrings:  3036
++  CStrings:  3672
  
 Symbols:
 + _IXFilterArrayForClass

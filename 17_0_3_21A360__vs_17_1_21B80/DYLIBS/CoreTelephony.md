@@ -36,12 +36,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F658909E-BB81-3BDE-9EB6-F51DB7B1BD0A
 -  Functions: 6661
 -  Symbols:   21114
--  CStrings:  9536
+-  CStrings:  12258
++  UUID: E6B983E9-5144-3DA6-9FD0-4797C31DD2A8
 +  Functions: 6662
 +  Symbols:   21115
-+  CStrings:  9538
++  CStrings:  12260
  
 Symbols:
 + __CTServerConnectionGetCellBroadcastConfig

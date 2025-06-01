@@ -40,12 +40,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FEC78CE2-4D63-3C0D-9EA0-97E305456D89
 -  Functions: 14721
 -  Symbols:   48911
--  CStrings:  15269
+-  CStrings:  21070
++  UUID: 0B80D24B-1E3F-36C7-981C-26786F922604
 +  Functions: 14727
 +  Symbols:   48928
-+  CStrings:  15277
++  CStrings:  21082
  
 Symbols:
 + -[SAAceView preferredSpeakableTextVoice]

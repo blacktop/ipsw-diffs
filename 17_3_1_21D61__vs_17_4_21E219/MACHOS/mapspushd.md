@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD7DD5A2-079D-3B50-BAA1-3A950B003DF7
 -  Functions: 663
 -  Symbols:   301
--  CStrings:  1768
+-  CStrings:  2062
++  UUID: 35D5DDA6-2D35-39E9-B201-BA230E9B4DAB
 +  Functions: 670
 +  Symbols:   302
-+  CStrings:  1775
++  CStrings:  2071
  
 Symbols:
 + _GeoOfflineConfig_HasNotifiedForIncompatibleVersions

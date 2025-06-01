@@ -29,11 +29,15 @@
    __DATA.__data: 0x300
    __DATA.__bss: 0x18
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0D4675E-8A26-3229-B874-C6F022FEDA87
++  UUID: D186A51E-A2E9-33BB-8BBD-68AF040CE1C4
    Functions: 194
    Symbols:   792
--  CStrings:  316
-+  CStrings:  317
+-  CStrings:  334
++  CStrings:  335
  
 Symbols:
 + ___42-[SLGLogXPCClient _connectWithCompletion:]_block_invoke.67.cold.1

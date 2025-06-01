@@ -70,14 +70,12 @@
 -  __DATA_CONST.__objc_arraydata: 0x510
 -  __AUTH_CONST.__const: 0x343d0
 -  __AUTH_CONST.__objc_const: 0x1c010
--  __AUTH_CONST.__auth_ptr: 0xb90
 -  __AUTH_CONST.__cfstring: 0x31620
 +  __DATA_CONST.__objc_const: 0x9f838
 +  __DATA_CONST.__objc_selrefs: 0x230d8
 +  __DATA_CONST.__objc_arraydata: 0x538
 +  __AUTH_CONST.__const: 0x35a30
 +  __AUTH_CONST.__objc_const: 0x1c5d8
-+  __AUTH_CONST.__auth_ptr: 0xbe0
 +  __AUTH_CONST.__cfstring: 0x321c0
    __AUTH_CONST.__objc_doubleobj: 0x1c0
 -  __AUTH_CONST.__objc_intobj: 0x12a8
@@ -139,12 +137,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7C00A3E6-5D09-347C-AA3D-7A61CDABE551
 -  Functions: 54212
 -  Symbols:   105930
--  CStrings:  41317
+-  CStrings:  47638
++  UUID: 84A35FB7-4347-3588-9FBA-D02CE098913E
 +  Functions: 55533
 +  Symbols:   107740
-+  CStrings:  42167
++  CStrings:  48581
  
 Symbols:
 + +[CollectionViewItemsDiffCalculator calculateDiffBetweenOldItems:andNewItems:inSection:]

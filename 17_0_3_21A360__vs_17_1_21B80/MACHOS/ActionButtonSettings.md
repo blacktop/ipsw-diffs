@@ -42,8 +42,11 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9467714D-1963-3228-823F-4072CBCBFB4C
++  UUID: C009C313-AA23-37C8-B1A3-EA2355F178A3
    Functions: 36
 -  Symbols:   64
 -  CStrings:  37

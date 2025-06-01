@@ -24,4 +24,13 @@
    __DATA_DIRTY.__const: 0xc0
    __DATA_DIRTY.__objc_const: 0x168
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpartition2_dynamic.dylib
+-  UUID: 5D8A2D13-28BC-34AE-8001-CEF7A920240C
++  UUID: 3AB40457-6DDF-344F-96CA-3FFD7F7FB5AA
+   Functions: 60
+   Symbols:   295
+   CStrings:  309
+
 ```

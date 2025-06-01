@@ -24,4 +24,13 @@
    __DATA_DIRTY.__const: 0x40
    __DATA_DIRTY.__objc_const: 0xb40
 
+   - /System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4CABDC88-9B3E-3E56-9D86-150FDB837874
++  UUID: 93EFB254-76AD-3F5A-91FD-1C7E0385D44F
+   Functions: 234
+   Symbols:   883
+   CStrings:  493
+
 ```

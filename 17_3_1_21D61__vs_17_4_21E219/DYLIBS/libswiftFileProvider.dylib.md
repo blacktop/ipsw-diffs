@@ -21,4 +21,13 @@
    __DATA.__bss: 0x80
    __DATA.__common: 0x1
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 99E482F8-04A9-314C-B722-9C50DD06364B
++  UUID: 0CBB2234-6D3C-36E0-A29E-F0D0556B73A5
+   Functions: 19
+   Symbols:   95
+   CStrings:  3
+
 ```

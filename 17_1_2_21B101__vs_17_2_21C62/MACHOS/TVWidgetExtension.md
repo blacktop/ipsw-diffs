@@ -94,12 +94,14 @@
 -  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 719A2AE9-7DF3-3AE6-8921-9CE193A597C6
 -  Functions: 2337
 -  Symbols:   279
--  CStrings:  487
+-  CStrings:  533
++  UUID: 3433CF29-0A61-373A-9875-CDD9D2B12B83
 +  Functions: 2178
 +  Symbols:   271
-+  CStrings:  484
++  CStrings:  530
  
 Symbols:
 - _OBJC_CLASS_$_VUITVAppLauncher

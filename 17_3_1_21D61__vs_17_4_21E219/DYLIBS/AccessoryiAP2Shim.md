@@ -42,13 +42,16 @@
    __DATA.__data: 0x80
    __DATA.__bss: 0xd0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91E78F8A-B528-30F1-84FE-44C5BE86C771
++  UUID: C80ACDBE-514D-3B32-9928-F82D79BAA700
    Functions: 382
 -  Symbols:   1401
--  CStrings:  639
+-  CStrings:  783
 +  Symbols:   1419
-+  CStrings:  648
++  CStrings:  801
  
 Symbols:
 + _ACCUserDefaultsKey_ForceAccInfoUpdateRelaySupport

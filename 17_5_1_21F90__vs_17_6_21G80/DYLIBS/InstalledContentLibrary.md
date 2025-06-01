@@ -25,13 +25,17 @@
 +  __AUTH_CONST.__cfstring: 0xbec0
    __AUTH_CONST.__objc_const: 0x1c88
    __AUTH_CONST.__const: 0x56e8
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__objc_dictobj: 0x11a8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 012B6BD0-CE72-3DD0-9BB8-7B9AC83D01C5
++  UUID: 810562AD-D834-31C2-9090-F33A1F2ED6E6
    Functions: 1812
    Symbols:   6250
--  CStrings:  4189
-+  CStrings:  4190
+-  CStrings:  5714
++  CStrings:  5716
  
 CStrings:
 + "Failed to find associated persona for %@ using bundle container %@ : %@. Falling back to UM for persona resolution"

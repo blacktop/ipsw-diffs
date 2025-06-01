@@ -64,7 +64,6 @@
    __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x498
-   __AUTH_CONST.__auth_ptr: 0xe8
    __AUTH_CONST.__auth_got: 0x1350
 -  __AUTH.__objc_data: 0x42e0
 +  __AUTH.__objc_data: 0x4320
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4B5E4CDC-4ED7-3E28-8E21-F80D80757F15
 -  Functions: 6785
 -  Symbols:   14458
--  CStrings:  7733
+-  CStrings:  8841
++  UUID: 2FC371A6-30AD-3E3D-A412-72C32A6BCD39
 +  Functions: 6826
 +  Symbols:   14492
-+  CStrings:  7754
++  CStrings:  8865
  
 Symbols:
 + +[FBKSharedConstants isFormItemsDisabled]

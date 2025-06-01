@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x10d0
 +  __AUTH_CONST.__auth_got: 0x10e8
    __AUTH.__objc_data: 0x71c8
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8288D136-2154-3392-B522-F4FFB87BD09A
 -  Functions: 11575
 -  Symbols:   32423
--  CStrings:  13980
+-  CStrings:  15331
++  UUID: DFEED5E7-3D27-3665-A3BB-51B88FFF7CC0
 +  Functions: 11536
 +  Symbols:   32415
-+  CStrings:  13991
++  CStrings:  15340
  
 Symbols:
 + +[EKUIAvailabilityViewController presentAvailabilityViewControllerForEvent:fromViewController:]

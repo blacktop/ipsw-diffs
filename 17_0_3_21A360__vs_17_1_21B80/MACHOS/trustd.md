@@ -47,12 +47,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B3DE6045-9EF3-389E-8C4E-88FAFD1750B5
 -  Functions: 1141
 -  Symbols:   3116
--  CStrings:  1928
+-  CStrings:  2624
++  UUID: 3FF23802-3D3D-387F-B494-328CDF1C1EC7
 +  Functions: 1143
 +  Symbols:   3118
-+  CStrings:  1927
++  CStrings:  2623
  
 Symbols:
 + GCC_except_table903

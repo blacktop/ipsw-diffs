@@ -28,12 +28,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 98A79CBF-29DB-3367-BCDC-F3D1BD2888BC
 -  Functions: 1247
 -  Symbols:   7613
--  CStrings:  2200
+-  CStrings:  2574
++  UUID: 3505EB69-55A9-3DEF-8293-12EBCB79D9F2
 +  Functions: 1261
 +  Symbols:   7627
-+  CStrings:  2206
++  CStrings:  2580
  
 Symbols:
 + Util_getSubrequirement.cold.1

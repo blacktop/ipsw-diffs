@@ -38,12 +38,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 921A19BE-AF74-358C-8C32-58884F596F7C
 -  Functions: 818
 -  Symbols:   170
--  CStrings:  1454
+-  CStrings:  1535
++  UUID: 1A678F17-3075-349C-B970-2D7E13B073AC
 +  Functions: 828
 +  Symbols:   174
-+  CStrings:  1550
++  CStrings:  1638
  
 Symbols:
 + _CFNumberGetTypeID

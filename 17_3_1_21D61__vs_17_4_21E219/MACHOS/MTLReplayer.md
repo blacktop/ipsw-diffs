@@ -83,11 +83,13 @@
    - @rpath/LLDB.framework/LLDB
    - @rpath/MTLReplayController.framework/MTLReplayController
    - @rpath/libGTLLVMShaderProfilerHelper.dylib
+-  UUID: BBE04046-C93B-3DD7-A34C-2B29AFE93DAD
 -  Functions: 5038
++  UUID: FCE5051F-1F51-3468-A4BF-09014670EE9A
 +  Functions: 5095
    Symbols:   839
--  CStrings:  16209
-+  CStrings:  16290
+-  CStrings:  17941
++  CStrings:  18062
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_

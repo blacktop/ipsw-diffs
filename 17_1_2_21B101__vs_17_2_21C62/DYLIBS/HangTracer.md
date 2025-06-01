@@ -35,13 +35,16 @@
    __DATA.__common: 0x0
    __DATA_DIRTY.__objc_data: 0xf0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libapp_launch_measurement.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A4163CF-32BC-32A9-A1F5-B3049C22D295
++  UUID: CF72DD8A-EE98-3854-9CCA-2A57E2DE23BB
    Functions: 331
 -  Symbols:   1306
--  CStrings:  1090
+-  CStrings:  1533
 +  Symbols:   1307
-+  CStrings:  1091
++  CStrings:  1535
  
 Symbols:
 + _kHTCoreAnalyticsReportGenerated

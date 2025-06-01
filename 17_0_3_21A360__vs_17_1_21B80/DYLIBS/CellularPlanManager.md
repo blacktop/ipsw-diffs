@@ -17,5 +17,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8658E1F5-072D-3363-9B23-D5B5B57F44BB
++  UUID: BA2D4F73-3F1D-3778-9E7C-BD7B79B00C18
+   Functions: 680
+   Symbols:   2087
+   CStrings:  1152
 
 ```

@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 6D762FF1-F238-359B-BFE4-86CC66E42D1E
 -  Functions: 906
 -  Symbols:   322
--  CStrings:  1621
+-  CStrings:  1706
++  UUID: B046109F-651B-3257-BA88-690512A4812D
 +  Functions: 713
 +  Symbols:   339
-+  CStrings:  1574
++  CStrings:  1638
  
 Symbols:
 + _CKApplicationStateResumeFromInActiveNotification

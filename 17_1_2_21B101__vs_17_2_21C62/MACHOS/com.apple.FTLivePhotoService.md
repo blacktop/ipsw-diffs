@@ -56,11 +56,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 644E829A-6DD4-3D1A-A22A-7EC889ED93E0
 -  Functions: 1265
++  UUID: 1F2FCD56-B06B-3FBB-8C19-793CF3907A41
 +  Functions: 1188
    Symbols:   278
--  CStrings:  922
-+  CStrings:  921
+-  CStrings:  944
++  CStrings:  943
  
 CStrings:
 + "Error discarding video message uuid %s error %@"

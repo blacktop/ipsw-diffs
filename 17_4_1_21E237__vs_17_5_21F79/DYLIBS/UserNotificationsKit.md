@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x7af8
    __TEXT.__objc_methtype: 0xe94
 
+   - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 03AAE9F6-458F-3BB7-963B-86A261D62557
++  UUID: D84082E3-DCA2-32F8-88D6-CAE02B470914
+   Functions: 774
+   Symbols:   2809
+   CStrings:  1773
+
 ```

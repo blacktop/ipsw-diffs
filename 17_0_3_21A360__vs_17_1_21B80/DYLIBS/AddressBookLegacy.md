@@ -43,12 +43,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2B18BFAB-A403-3DA4-91CD-19ED1D412702
 -  Functions: 2307
 -  Symbols:   6609
--  CStrings:  4066
+-  CStrings:  5710
++  UUID: 90493ABA-E2DB-3E8D-B34D-0061FCF4FE2F
 +  Functions: 2308
 +  Symbols:   6611
-+  CStrings:  4075
++  CStrings:  5720
  
 Symbols:
 + +[ABSQLPredicate predicateForContactsWithWallpaperMetadata]

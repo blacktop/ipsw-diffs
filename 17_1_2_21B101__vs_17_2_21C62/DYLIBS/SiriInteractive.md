@@ -39,11 +39,15 @@
    - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
    - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32D2B31C-F936-33E2-88D0-3814F4CE966F
++  UUID: 5C794038-4FD4-35BE-AB4F-A1F2637E664B
    Functions: 1755
    Symbols:   1195
--  CStrings:  646
-+  CStrings:  649
+-  CStrings:  648
++  CStrings:  651
  
 CStrings:
 + "reportSFFeedback:"

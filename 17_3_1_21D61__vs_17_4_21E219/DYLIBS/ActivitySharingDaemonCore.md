@@ -65,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B9FC95B-ADAB-38DA-A892-812649B59F91
 -  Functions: 2104
 -  Symbols:   7872
--  CStrings:  3599
+-  CStrings:  3810
++  UUID: A13AC673-F9EB-3F32-9271-D9A67871EC12
 +  Functions: 2121
 +  Symbols:   7930
-+  CStrings:  3615
++  CStrings:  3833
  
 Symbols:
 + -[ASActivityDataManager loadLocalActivityDataIfNeeded]

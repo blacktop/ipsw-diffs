@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: DDC70A02-8F85-350F-8C1C-D2DD87953A5F
 -  Functions: 266
 -  Symbols:   1111
--  CStrings:  480
+-  CStrings:  589
++  UUID: 78CBF68B-84AA-3069-9FB0-F374BBB40B98
 +  Functions: 269
 +  Symbols:   1118
-+  CStrings:  487
++  CStrings:  601
  
 Symbols:
 + -[CAReportingClient sendClientAction:reporterID:]

@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__const: 0x20
 +  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__cfstring: 0x12120
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x338
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0D68B77-4286-3437-9F73-5D4C61F74987
 -  Functions: 890
 -  Symbols:   289
--  CStrings:  3244
+-  CStrings:  5549
++  UUID: 1ED671C6-D114-3E59-BAB7-CF6BC621D28A
 +  Functions: 879
 +  Symbols:   288
-+  CStrings:  3270
++  CStrings:  5583
  
 Symbols:
 + _OBJC_CLASS_$_MPSImageStatisticsMinMaxMean

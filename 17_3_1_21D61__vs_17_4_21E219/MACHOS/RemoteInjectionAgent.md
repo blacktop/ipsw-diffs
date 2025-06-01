@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/libRemoteInjectionPayload.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FAAF6039-A57E-3420-964C-4AEF7730598C
++  UUID: A30473E6-EFDB-3AD9-B999-DF72AB368182
    Functions: 18
    Symbols:   108
--  CStrings:  101
-+  CStrings:  102
+-  CStrings:  107
++  CStrings:  108
  
 CStrings:
 + "T@\"NSString\",?,R,C"

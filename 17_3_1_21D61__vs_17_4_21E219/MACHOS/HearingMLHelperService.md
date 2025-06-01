@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/HearingMLHelper.framework/HearingMLHelper
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D78DF36-779C-3F2A-B3A5-37128B3128FD
++  UUID: 7FD06593-B422-3EB8-9CA7-00B6389BBFFE
    Functions: 28
    Symbols:   75
--  CStrings:  115
-+  CStrings:  116
+-  CStrings:  119
++  CStrings:  120
  
 CStrings:
 + "T@\"NSString\",?,R,C"

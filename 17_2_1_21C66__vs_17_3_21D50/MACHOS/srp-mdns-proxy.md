@@ -27,12 +27,14 @@
    - /usr/lib/libipconfig.dylib
    - /usr/lib/libmdns.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAB06C23-60FB-3773-872F-32FB1515B7B3
 -  Functions: 349
 -  Symbols:   861
--  CStrings:  1753
+-  CStrings:  1763
++  UUID: A693B924-9786-39D6-A10E-DC36E45DDD19
 +  Functions: 350
 +  Symbols:   863
-+  CStrings:  1760
++  CStrings:  1770
  
 Symbols:
 + __block_descriptor_tmp.17.1072

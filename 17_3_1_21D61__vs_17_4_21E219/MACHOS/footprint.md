@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 7250D206-4F22-3BCA-A63F-FC61BD1820C2
 -  Functions: 386
 -  Symbols:   262
--  CStrings:  1044
+-  CStrings:  1277
++  UUID: A3AD4AFF-71C7-3CAE-BB86-082839770D96
 +  Functions: 399
 +  Symbols:   265
-+  CStrings:  1082
++  CStrings:  1322
  
 Symbols:
 + _OBJC_CLASS_$_IOSurfaceDebugDescription

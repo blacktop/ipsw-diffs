@@ -30,13 +30,16 @@
    __AUTH_CONST.__cfstring: 0xae0
    __AUTH_CONST.__objc_intobj: 0xc0
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1741B850-4D8D-3265-B65D-7E8A09BF41C6
++  UUID: CA7DD5C9-9489-3456-8535-EB5A0D1C1CC3
    Functions: 596
 -  Symbols:   2349
--  CStrings:  1364
+-  CStrings:  1451
 +  Symbols:   2348
-+  CStrings:  1363
++  CStrings:  1450
  
 Symbols:
 - _objc_msgSend$addTarget:action:forEvents:

@@ -29,7 +29,6 @@
    __DATA_CONST.__objc_selrefs: 0x6f0
 +  __DATA_CONST.__objc_classrefs: 0x1a0
    __AUTH_CONST.__const: 0x25c88
-   __AUTH_CONST.__auth_ptr: 0x140
    __AUTH_CONST.__cfstring: 0x4e0
    __AUTH_CONST.__objc_intobj: 0x60
 -  __AUTH_CONST.__auth_got: 0x1588
@@ -54,12 +53,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libgraphcompute-rt.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 844690E7-B26F-33AE-9801-881D53627764
 -  Functions: 37191
 -  Symbols:   1123
--  CStrings:  2068
+-  CStrings:  2107
++  UUID: AC32CD73-4122-3413-936B-0DF615AA8392
 +  Functions: 37233
 +  Symbols:   1121
-+  CStrings:  2067
++  CStrings:  2106
  
 Symbols:
 - __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm

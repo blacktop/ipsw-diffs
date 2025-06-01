@@ -27,4 +27,13 @@
    __DATA_DIRTY.__objc_data: 0x640
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ABB74F5A-A6CD-375A-8750-12C31D57409F
++  UUID: 54EBB0F1-2E43-3BCF-9E42-D5453CDDFEFC
+   Functions: 336
+   Symbols:   137
+   CStrings:  984
+
 ```

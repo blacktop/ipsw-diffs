@@ -27,7 +27,11 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/MobileSync.framework/MobileSync
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF96BBA5-2388-328D-B370-807395438285
++  UUID: 2A36E4E3-E094-38A5-9D62-D3BFFA3EE69F
    Functions: 5
    Symbols:   53
 -  CStrings:  75

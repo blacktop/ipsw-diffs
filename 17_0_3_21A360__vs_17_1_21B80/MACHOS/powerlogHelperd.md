@@ -15,4 +15,13 @@
    __TEXT.__objc_methname: 0x5f
    __TEXT.__unwind_info: 0x50
 
+   - /System/Library/PrivateFrameworks/PowerlogHelperdOperators.framework/PowerlogHelperdOperators
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7E6E2731-6FDD-38BA-96C8-34464418E658
++  UUID: F5CC0E9A-11A6-38F7-9E71-34F16ABA1648
+   Functions: 2
+   Symbols:   18
+   CStrings:  15
+
 ```

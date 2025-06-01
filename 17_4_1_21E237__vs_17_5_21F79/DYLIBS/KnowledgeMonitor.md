@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 747E7BE6-29F4-3CDC-9759-689E6956528C
 -  Functions: 1221
 -  Symbols:   4536
--  CStrings:  2242
+-  CStrings:  2493
++  UUID: A61DEFA4-8833-305F-A399-0C607125022C
 +  Functions: 1223
 +  Symbols:   4546
-+  CStrings:  2250
++  CStrings:  2501
  
 Symbols:
 + -[_DKApplicationUsageMonitor appUsageSource]

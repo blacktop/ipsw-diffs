@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6C73E321-2F3D-35DA-B01F-6D2F81DFE79D
 -  Functions: 1275
 -  Symbols:   5131
--  CStrings:  3097
+-  CStrings:  3605
++  UUID: 465109CA-B57F-35FE-B35F-376C1E539DE9
 +  Functions: 1283
 +  Symbols:   5155
-+  CStrings:  3117
++  CStrings:  3624
  
 Symbols:
 + -[PSUIFingerprintController proceedWithDeleteFingerprintFor:]

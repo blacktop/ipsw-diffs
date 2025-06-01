@@ -36,11 +36,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DD354C7-DA0A-3679-9C76-3FD934159EAD
 -  Functions: 497
 -  Symbols:   4113
++  UUID: FA21E904-B161-3004-9916-F15E33F9D1C0
 +  Functions: 494
 +  Symbols:   4086
-   CStrings:  608
+   CStrings:  669
  
 Symbols:
 - _$s15JournalSettings13JurassicThemeC7StringsV04goToB11ButtonTitleSSvpZ

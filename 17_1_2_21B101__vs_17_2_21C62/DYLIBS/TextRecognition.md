@@ -61,7 +61,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x2a60
 +  __AUTH_CONST.__objc_dictobj: 0x4fb0
    __AUTH_CONST.__objc_doubleobj: 0xe30
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_floatobj: 0x220
 -  __AUTH_CONST.__auth_got: 0xf60
 -  __AUTH.__objc_data: 0xa0
@@ -97,12 +96,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 978848B7-18C8-3E97-BC24-5E0F8B7EA0C4
 -  Functions: 5584
 -  Symbols:   18397
--  CStrings:  11959
+-  CStrings:  17622
++  UUID: BE5756C0-D113-32A1-9820-F8D3A94D726E
 +  Functions: 5675
 +  Symbols:   18759
-+  CStrings:  15485
++  CStrings:  21261
  
 Symbols:
 + +[CRFormAnalyzer _saveAllDebugImagesForRegions:image:afterPostProcessing:]
@@ -644,8 +645,12 @@ Symbols:
 - _objc_msgSend$predictContentTypeForField:labelRegions:locale:keyword:matchedResult:
 - _objc_msgSend$stringWithCString:encoding:
 CStrings:
++ "\x02^"
 + "\x03\x12"
++ "\x06\x04<\x04\xbc\x02O\x04 "
 + "\a"
++ "\bg"
++ "\x120-"
 + "\x1c\x11"
 + " 1 "
 + " 2 "
@@ -928,6 +933,7 @@ CStrings:
 + "AddressCity"
 + "AddressCityAndState"
 + "AddressState"
++ "B\x045\x04;\x045\x04D\x04>\x04=\x04y"
 + "B24@?0@\"CRFormField\"8@\"NSDictionary\"16"
 + "B24@?0@8@\"NSDictionary\"16"
 + "B32@0:8r^v16@24"
@@ -1321,7 +1327,6 @@ CStrings:
 + "ayant"
 + "ayuntamiento"
 + "años"
-+ "b"
 + "b."
 + "b_after_pp"
 + "background"
@@ -2017,7 +2022,6 @@ CStrings:
 + "está"
 + "eta"
 + "etc."
-+ "eu"
 + "euro"
 + "european"
 + "europeo"
@@ -2259,7 +2263,6 @@ CStrings:
 + "générale"
 + "générales"
 + "gültig"
-+ "h"
 + "h."
 + "habe"
 + "haben"
@@ -2437,7 +2440,6 @@ CStrings:
 + "its"
 + "iv"
 + "iv."
-+ "j"
 + "j'accepte"
 + "j'ai"
 + "j'autorise"
@@ -2473,7 +2475,6 @@ CStrings:
 + "jurídica"
 + "justificatif"
 + "jährlich"
-+ "k"
 + "kann"
 + "kann."
 + "kauf"
@@ -2944,7 +2945,6 @@ CStrings:
 + "owner"
 + "ownership"
 + "où"
-+ "p"
 + "p."
 + "p.o."
 + "pacemaker"
@@ -3400,7 +3400,6 @@ CStrings:
 + "rõ"
 + "rückfragen"
 + "rückseite"
-+ "s"
 + "s'il"
 + "s."
 + "s.a."
@@ -3694,6 +3693,8 @@ CStrings:
 + "số"
 + "sở"
 + "t."
++ "t^"
++ "t^\bg\xe5e"
 + "table"
 + "tag"
 + "tage"
@@ -3895,7 +3896,6 @@ CStrings:
 + "uso"
 + "usted"
 + "utiliser"
-+ "v"
 + "v."
 + "v24@0:8^{ContentTypeRefinementContext=@^v}16"
 + "v28@0:8^{ContentTypeRefinementContext=@^v}16B24"
@@ -4050,7 +4050,6 @@ CStrings:
 + "youth"
 + "yy"
 + "yyyy"
-+ "z"
 + "z."
 + "z.b."
 + "zahlung"
@@ -4072,6 +4071,10 @@ CStrings:
 + "{CGRect={CGPoint=dd}{CGSize=dd}}"
 + "{map<std::string, float, std::less<std::string>, std::allocator<std::pair<const std::string, float>>>=\"__tree_\"{__tree<std::__value_type<std::string, float>, std::__map_value_compare<std::string, std::__value_type<std::string, float>, std::less<std::string>>, std::allocator<std::__value_type<std::string, float>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<std::string, float>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<std::string, std::__value_type<std::string, float>, std::less<std::string>>>=\"__value_\"Q}}}"
 + "~"
++ "\x89[hQ\x01x"
++ "\x89[hQ\xbcx"
++ "\xab0\xfc0\xc90\tg\xb9R\x1fgP\x96"
++ "\xab0\xfc0\xc90\x1fgP\x96"
 + "§"
 + "©"
 + "«"
@@ -4494,6 +4497,7 @@ CStrings:
 + "便"
 + "係"
 + "信用"
++ "\xe5e"
 + "們"
 + "借"
 + "值"
@@ -5546,6 +5550,8 @@ CStrings:
 + "휴대"
 + "희"
 + "히"
++ "\xf5\x90?e\xe8}\xbcx"
++ "\xf5\x90\xe8}"
 - "\x02\x12"
 - "\x1a\x11"
 - "    ALIGNMENT: %ld L inconsistent"
@@ -6950,5 +6956,6 @@ CStrings:
 - "서명 또는 인"
 - "ｅメール"
 - "ｕｒｌ"
+- "\xfd\x90S\x90\x9c^\fw\x1a\xff"
 
 ```

@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0x1856b
    __TEXT.__gcc_except_tab: 0x1e50
    __TEXT.__dlopen_cstrs: 0x53f
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: C5B4C6F0-2695-3DE8-A37C-C781494B4214
++  UUID: 25E93EC6-8196-34B9-96EE-7C497B1EC804
+   Functions: 18309
+   Symbols:   65640
+   CStrings:  37940
 Symbols:
 + _.compoundliteral.30
 + _.compoundliteral.31

@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05BD9FCE-17C3-3387-B2D9-D2B445BF9B45
 -  Functions: 10576
 -  Symbols:   35329
--  CStrings:  18422
+-  CStrings:  22304
++  UUID: C93B77C9-E49D-3C7A-914E-34D0127114A1
 +  Functions: 10577
 +  Symbols:   35333
-+  CStrings:  18425
++  CStrings:  22306
  
 Symbols:
 + +[PHAssetCreationRequest _originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:sourceAssetIsVideo:]

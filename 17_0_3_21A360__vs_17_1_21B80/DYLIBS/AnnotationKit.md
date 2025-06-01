@@ -19,11 +19,15 @@
    __DATA_CONST.__got: 0x478
    __DATA_CONST.__const: 0xef8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 919CC4A7-42A0-3DE2-B28F-CA8B0678F78B
++  UUID: 890B62F9-8C97-3401-BA13-9620D17160DE
    Functions: 4960
    Symbols:   820
--  CStrings:  7321
-+  CStrings:  7322
+-  CStrings:  8109
++  CStrings:  8110
  
 CStrings:
 + "paletteView:didChangeTraitCollection:"

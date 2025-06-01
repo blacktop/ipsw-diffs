@@ -63,11 +63,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50B755DB-D315-3960-99A9-014260239F5F
 -  Functions: 2153
++  UUID: 3084FE75-08B1-3B92-800F-76DBE111C7AD
 +  Functions: 2168
    Symbols:   483
--  CStrings:  3678
-+  CStrings:  3693
+-  CStrings:  4110
++  CStrings:  4126
  
 CStrings:
 + "%@ _authStatus = %u, _accdPairingFinished = %u"

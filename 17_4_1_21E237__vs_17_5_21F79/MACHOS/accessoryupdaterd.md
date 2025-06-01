@@ -55,11 +55,13 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F693AAB1-EC4D-34A9-B6EA-C746C9CDCA12
 -  Functions: 1868
++  UUID: 432D6409-F21B-36CF-A92B-33F7F4754B84
 +  Functions: 1869
    Symbols:   412
--  CStrings:  3664
-+  CStrings:  3672
+-  CStrings:  4693
++  CStrings:  4702
  
 CStrings:
 + "%s: Not adding empty serial number with info = %@"

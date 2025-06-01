@@ -112,12 +112,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ECC66487-E902-3496-BF78-95905DC3216F
 -  Functions: 1826
 -  Symbols:   295
--  CStrings:  1009
+-  CStrings:  1203
++  UUID: 63D39BD4-423F-3426-BDA5-309ACC12C0CB
 +  Functions: 3042
 +  Symbols:   332
-+  CStrings:  1275
++  CStrings:  1504
  
 Symbols:
 + _DiagnosticLogSubmissionEnabled

@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A414A42-FD89-36CB-84DC-F137D234B229
 -  Functions: 187
++  UUID: D9CABACE-9BD2-3575-B212-DB853EF3BD2B
 +  Functions: 188
    Symbols:   169
--  CStrings:  667
-+  CStrings:  669
+-  CStrings:  755
++  CStrings:  757
  
 CStrings:
 + "_complicationContainerViewForSlot:"

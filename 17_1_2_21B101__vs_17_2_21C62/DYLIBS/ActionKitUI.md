@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_arraydata: 0x18
    __AUTH_CONST.__const: 0x2200
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1EEC040C-8F09-33A1-BF2E-5422E3894876
++  UUID: 3BE66CAB-69B9-375E-A8F0-6EB10C0B3F6D
    Functions: 2391
    Symbols:   6393
--  CStrings:  3372
-+  CStrings:  3374
+-  CStrings:  3640
++  CStrings:  3642
  
 Symbols:
 + _AVFoundationLibrary.2666

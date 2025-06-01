@@ -19,11 +19,15 @@
    __TEXT.__constg_swiftt: 0x8e4
    __TEXT.__swift5_typeref: 0x7c6
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3CA393B5-FE7D-34B6-B06F-6AF100CC81A6
++  UUID: 72FDEE3F-55CC-3F01-8A52-3C57D5DB4CD0
    Functions: 1379
    Symbols:   1516
--  CStrings:  823
-+  CStrings:  824
+-  CStrings:  931
++  CStrings:  932
  
 CStrings:
 + "Feedback URL [%{public}@]"

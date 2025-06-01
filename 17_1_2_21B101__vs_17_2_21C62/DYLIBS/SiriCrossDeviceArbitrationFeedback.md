@@ -55,10 +55,8 @@
    __DATA_CONST.__objc_const: 0x1b18
 -  __DATA_CONST.__objc_selrefs: 0x748
 -  __AUTH_CONST.__const: 0x1678
--  __AUTH_CONST.__auth_ptr: 0xc0
 +  __DATA_CONST.__objc_selrefs: 0x750
 +  __AUTH_CONST.__const: 0x1948
-+  __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__cfstring: 0x660
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0xad8
@@ -97,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF35D734-4EAB-34E1-90B0-29C46FDBCFEF
 -  Functions: 3777
 -  Symbols:   2520
--  CStrings:  664
+-  CStrings:  715
++  UUID: 90752924-E88E-3B4D-98BD-D72979030E51
 +  Functions: 3893
 +  Symbols:   2450
-+  CStrings:  666
++  CStrings:  717
  
 Symbols:
 + __PROTOCOLS__TtC34SiriCrossDeviceArbitrationFeedback11GlobalsImpl.4

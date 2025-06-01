@@ -20,5 +20,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ED60FA58-94DD-3C4B-8629-824AA01D0835
++  UUID: 2D5AB7A1-9BCD-3EA3-A320-150220079A3D
+   Functions: 5
+   Symbols:   54
+   CStrings:  28
 
 ```

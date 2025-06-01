@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C77BB11B-FA46-3357-9BDC-A33853AAEF3E
 -  Functions: 685
 -  Symbols:   2553
--  CStrings:  1391
+-  CStrings:  1753
++  UUID: AEA9F4E5-62EF-3566-A86C-6F5731831229
 +  Functions: 688
 +  Symbols:   2562
-+  CStrings:  1399
++  CStrings:  1762
  
 Symbols:
 + +[HKMedicationScheduleItem _makeStableIdentifierFromScheduledDateTime:]

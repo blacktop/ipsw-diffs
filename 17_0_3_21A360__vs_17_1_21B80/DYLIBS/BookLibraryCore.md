@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__const: 0x820
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x4f8
 -  __AUTH.__objc_data: 0x960
@@ -73,12 +72,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 56E07312-F5C1-3DEC-B981-B88F849F2272
 -  Functions: 2010
 -  Symbols:   678
--  CStrings:  4128
+-  CStrings:  5108
++  UUID: 0B234D44-B23D-308C-B0EB-5012AD642D60
 +  Functions: 2029
 +  Symbols:   681
-+  CStrings:  4149
++  CStrings:  5130
  
 Symbols:
 + _BUIsGDPRAcknowledgementNeededForBooks

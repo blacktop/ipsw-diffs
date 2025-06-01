@@ -84,7 +84,6 @@
 -  __DATA.__objc_ivar: 0x1720
 -  __DATA.__data: 0x2448
 -  __DATA.__bss: 0x708
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0xb68
 +  __AUTH.__objc_data: 0x3aa0
 +  __AUTH.__data: 0x480
@@ -111,12 +110,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D404750-D9F5-3C93-9DA9-0AA55A697939
 -  Functions: 5871
 -  Symbols:   21799
--  CStrings:  10276
+-  CStrings:  11232
++  UUID: E92B1F77-B698-324F-AEAE-E7AF23E138C3
 +  Functions: 5963
 +  Symbols:   21218
-+  CStrings:  10121
++  CStrings:  11098
  
 Symbols:
 + +[NSAttributedString(MobileSafariFrameworkExtras) safari_listOfLinksForTabs:]

@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/NotesSupport.framework/NotesSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F6CE587-E582-3E74-B11E-9C371FF16AFB
++  UUID: 9F5FB693-09B6-34A6-8AC0-4D51B3455340
    Functions: 15
    Symbols:   32
 -  CStrings:  88

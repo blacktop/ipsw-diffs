@@ -17,14 +17,13 @@
 -  __DATA_CONST.__got: 0x208
 -  __DATA_CONST.__const: 0x9bdb0
 -  __AUTH_CONST.__const: 0x79c8
+-  __AUTH_CONST.__auth_got: 0x2448
 +  __TEXT.__const: 0x167174
 +  __TEXT.__cstring: 0x28c906
 +  __TEXT.__unwind_info: 0x5aa4
 +  __DATA_CONST.__got: 0x218
 +  __DATA_CONST.__const: 0x9bd78
 +  __AUTH_CONST.__const: 0x8bc8
-   __AUTH_CONST.__auth_ptr: 0x38
--  __AUTH_CONST.__auth_got: 0x2448
 +  __AUTH_CONST.__auth_got: 0x2460
    __AUTH.__const_weak: 0x858
    __AUTH.__got_weak: 0x18
@@ -47,9 +46,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libllvm-lmdb.dylib
+-  UUID: 04EFE76D-424E-3F36-8444-8F15BB68B989
 -  Functions: 7581
 -  Symbols:   2748
 -  CStrings:  14695
++  UUID: 8A002CF0-DBB7-3CE4-946A-B18E941940E8
 +  Functions: 9246
 +  Symbols:   2766
 +  CStrings:  14757

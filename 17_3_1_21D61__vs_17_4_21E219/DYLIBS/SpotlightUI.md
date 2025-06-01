@@ -35,11 +35,15 @@
    __DATA.__data: 0x420
    __DATA_DIRTY.__objc_data: 0x690
 
+   - /System/Library/PrivateFrameworks/SpringBoardUI.framework/SpringBoardUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89175085-C0A2-3D6B-9757-F2C38F355142
++  UUID: C5F68F90-8D82-3535-96EF-849F75B33A58
    Functions: 328
    Symbols:   1439
--  CStrings:  726
-+  CStrings:  727
+-  CStrings:  785
++  CStrings:  786
  
 Symbols:
 + __OBJC_$_PROP_LIST_SPUILegibilitySceneSettings.50

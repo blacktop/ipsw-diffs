@@ -29,12 +29,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C834988-8A67-3C0A-A9C9-C6C60758047F
 -  Functions: 6006
 -  Symbols:   2627
--  CStrings:  493
+-  CStrings:  499
++  UUID: 307C469C-EAAF-3FD0-9AF9-9327055FBA20
 +  Functions: 6010
 +  Symbols:   2629
-+  CStrings:  496
++  CStrings:  502
  
 CStrings:
 + "Using nil for spoken version of '%s'"

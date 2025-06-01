@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5562EC53-89FA-3BCD-B139-81FBBF9398D3
 -  Functions: 88
 -  Symbols:   85
--  CStrings:  178
+-  CStrings:  181
++  UUID: 2D12374D-026C-3F12-96C1-BA3BCEE1C75E
 +  Functions: 92
 +  Symbols:   95
-+  CStrings:  183
++  CStrings:  186
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

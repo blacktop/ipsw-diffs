@@ -35,7 +35,6 @@
 -  __AUTH_CONST.__cfstring: 0x1de0
 +  __AUTH_CONST.__cfstring: 0x1e60
    __AUTH_CONST.__const: 0x6e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa58
    __DATA.__objc_classrefs: 0x80
    __DATA.__objc_superrefs: 0x8
@@ -46,13 +45,16 @@
    __DATA.__common: 0x8
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CC5FBFEA-449D-38FB-99F8-C08929D2AB76
++  UUID: 15118010-B2E9-3076-9662-C1B427324264
    Functions: 690
 -  Symbols:   2074
--  CStrings:  1147
+-  CStrings:  1386
 +  Symbols:   2080
-+  CStrings:  1154
++  CStrings:  1397
  
 Symbols:
 + _kCNStateTokenAuthResult

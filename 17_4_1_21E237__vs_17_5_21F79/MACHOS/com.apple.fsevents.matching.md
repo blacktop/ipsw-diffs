@@ -13,4 +13,13 @@
    __DATA.__got: 0x48
    __DATA.__const: 0x490
 
+   - /System/Library/PrivateFrameworks/FSEvents.framework/FSEvents
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6B41DEA2-5249-3F78-B85A-46B0D4E778A6
++  UUID: 19DB5DB0-73CE-3C9B-9827-A5490EA3DA35
+   Functions: 59
+   Symbols:   123
+   CStrings:  208
+
 ```

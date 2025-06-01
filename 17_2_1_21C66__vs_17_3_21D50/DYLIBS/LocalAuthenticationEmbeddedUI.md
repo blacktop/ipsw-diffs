@@ -76,7 +76,6 @@
 -  __DATA.__objc_ivar: 0x318
 -  __DATA.__data: 0xa20
 -  __DATA.__bss: 0xd8
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x7f8
 +  __AUTH.__objc_data: 0x18c0
 +  __AUTH.__data: 0xc8
@@ -97,9 +96,10 @@
 +  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 03743BF8-7E6A-392D-9637-0B328887C7A2
 -  Functions: 1022
 -  Symbols:   4033
--  CStrings:  1697
+-  CStrings:  1824
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftCoreImage.dylib
@@ -116,9 +116,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 6318736A-9B24-3CF3-A1EE-8B30769D1B53
 +  Functions: 1399
 +  Symbols:   5330
-+  CStrings:  1850
++  CStrings:  1987
  
 Symbols:
 + +[LALocalizedString passcodeChangeNotFamiliarLocation]

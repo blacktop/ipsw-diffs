@@ -21,4 +21,13 @@
    __DATA.__common: 0x898
    __DATA_DIRTY.__data: 0x718
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 49685CE5-5A7A-3FEF-B77D-E8A0A7A9F278
++  UUID: 96DFBADC-C546-3BB9-9F30-DF0691A2086F
+   Functions: 7678
+   Symbols:   5433
+   CStrings:  1708
+
 ```

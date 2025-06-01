@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A3E53F11-1289-3B12-99EF-8218EA1A4141
 -  Functions: 547
 -  Symbols:   350
--  CStrings:  1526
+-  CStrings:  1716
++  UUID: C29AE2EE-B249-3E92-A5E2-6CAFA204FA65
 +  Functions: 551
 +  Symbols:   352
-+  CStrings:  1535
++  CStrings:  1728
  
 Symbols:
 + _ML3TrackPropertyIsPlayable

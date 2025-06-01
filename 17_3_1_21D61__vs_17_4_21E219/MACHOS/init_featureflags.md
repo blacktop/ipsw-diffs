@@ -22,4 +22,13 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/FeatureFlagsSupport.framework/FeatureFlagsSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 886FEF82-0110-3C2F-BB58-83C909560734
++  UUID: 6733835E-0E02-3D50-9867-1991E256F18E
+   Functions: 8
+   Symbols:   57
+   CStrings:  72
+
 ```

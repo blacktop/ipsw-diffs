@@ -19,7 +19,11 @@
    __DATA_CONST.__got: 0x88
    __DATA_CONST.__const: 0x1958
 
+   - /usr/lib/system/libsystem_sandbox.dylib
+   - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 86789984-48C1-3977-9322-5E2C0220AC76
++  UUID: 2D6D63CA-ABE2-3E9C-AACD-1C1EFA7BFD2A
    Functions: 460
    Symbols:   1026
 -  CStrings:  707

@@ -51,11 +51,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B53FF296-D8D8-327C-8BC9-588127E04C4E
 -  Functions: 234
++  UUID: 0CC4BEAD-4B24-36EC-971F-727EF80BCB9C
 +  Functions: 236
    Symbols:   248
--  CStrings:  597
-+  CStrings:  610
+-  CStrings:  646
++  CStrings:  662
  
 CStrings:
 + "AssetQualityVersion"

@@ -55,7 +55,6 @@
 -  __AUTH_CONST.__const: 0x1710
 +  __AUTH_CONST.__const: 0x1698
    __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__auth_got: 0x1090
 +  __AUTH_CONST.__auth_got: 0x10a0
    __AUTH.__objc_data: 0x140
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 35539BF0-ECC8-3CEB-9C25-BDC7C8A98B37
 -  Functions: 1281
 -  Symbols:   832
--  CStrings:  636
+-  CStrings:  656
++  UUID: 461F6827-1569-3F07-AB86-A880FDF19BF5
 +  Functions: 1292
 +  Symbols:   839
-+  CStrings:  637
++  CStrings:  657
  
 Symbols:
 + _DRSubmitLog

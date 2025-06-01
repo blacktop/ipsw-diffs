@@ -21,4 +21,13 @@
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x228
 
+   - /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 31DAECA1-DC3C-3FCA-A246-AED0E95566DF
++  UUID: 712BDC2C-AD34-3EF3-B3D1-5050E7CEA79E
+   Functions: 17
+   Symbols:   143
+   CStrings:  117
+
 ```

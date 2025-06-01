@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x500
    __AUTH_CONST.__objc_arrayobj: 0x198
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xeb8
 +  __AUTH_CONST.__auth_got: 0xec0
    __AUTH.__objc_data: 0x4880
@@ -81,12 +80,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BF601F47-A919-3345-91D5-87EDD31273CA
 -  Functions: 8849
 -  Symbols:   29501
--  CStrings:  15462
+-  CStrings:  16831
++  UUID: 7A3A4960-9FDE-3034-AA32-BD7F5864282D
 +  Functions: 8946
 +  Symbols:   29801
-+  CStrings:  15662
++  CStrings:  17055
  
 Symbols:
 + +[CSAudioInjectionProviderExclave sharedInstance]

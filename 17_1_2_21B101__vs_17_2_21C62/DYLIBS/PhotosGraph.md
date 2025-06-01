@@ -61,9 +61,9 @@
    __DATA_CONST.__objc_arraydata: 0x3a60
 -  __AUTH_CONST.__const: 0x1b7d0
 +  __AUTH_CONST.__const: 0x1b818
-   __AUTH_CONST.__auth_ptr: 0x3e8
    __AUTH_CONST.__objc_const: 0x1b728
    __AUTH_CONST.__cfstring: 0x2a500
+   __AUTH_CONST.__objc_intobj: 0x32b8
 
    __AUTH_CONST.__objc_doubleobj: 0x3b0
    __AUTH_CONST.__objc_dictobj: 0xa0
@@ -96,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C943E04-D729-3592-9F48-DFCF37C8FC04
 -  Functions: 30110
 -  Symbols:   59454
--  CStrings:  27520
+-  CStrings:  32936
++  UUID: 22E89EA7-53AB-3CE7-8CFD-7FBCF089B03A
 +  Functions: 30124
 +  Symbols:   59465
-+  CStrings:  27529
++  CStrings:  32945
  
 Symbols:
 + +[PGMusicCatalogMonitor canAccessMediaLibrary]

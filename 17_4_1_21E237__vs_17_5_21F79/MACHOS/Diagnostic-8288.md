@@ -37,13 +37,16 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_classrefs: 0x38
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA58B653-FD27-38F5-801B-1F3E42410244
++  UUID: D6D85D09-71FD-3D29-8C75-F0B6D3A110BC
    Functions: 148
 -  Symbols:   311
--  CStrings:  348
+-  CStrings:  593
 +  Symbols:   313
-+  CStrings:  355
++  CStrings:  607
  
 Symbols:
 + __ZN17DeviceCMInterface23requestControlOfStreamsEbj

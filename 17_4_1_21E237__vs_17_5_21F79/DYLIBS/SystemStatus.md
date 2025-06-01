@@ -45,4 +45,13 @@
    __DATA_DIRTY.__common: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 18510A36-BBCE-3D45-AE41-77FDC7463B1E
++  UUID: 3CE861C2-5B63-3191-9010-394AC895495A
+   Functions: 2766
+   Symbols:   9785
+   CStrings:  2988
+
 ```

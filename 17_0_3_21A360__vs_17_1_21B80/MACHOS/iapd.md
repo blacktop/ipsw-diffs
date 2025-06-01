@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0x4d80
    __TEXT.__init_offsets: 0x1c
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: E2E43583-63C1-3A83-A4E5-C4822C81FD08
++  UUID: 98B7506D-C65A-3410-BE2C-6A8871A36DA6
+   Functions: 5023
+   Symbols:   885
+   CStrings:  4186
+
 ```

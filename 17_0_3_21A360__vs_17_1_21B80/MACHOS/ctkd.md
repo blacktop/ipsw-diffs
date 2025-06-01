@@ -40,11 +40,15 @@
    __DATA.__data: 0x540
    __DATA.__bss: 0xa0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ECF25F29-47C8-37AA-80BF-8DCB24F1A04D
++  UUID: 63CE88B9-479A-34E9-9F6A-F016C26D5F48
    Functions: 403
    Symbols:   185
--  CStrings:  851
-+  CStrings:  850
+-  CStrings:  907
++  CStrings:  906
  
 CStrings:
 + "\x02\x11"

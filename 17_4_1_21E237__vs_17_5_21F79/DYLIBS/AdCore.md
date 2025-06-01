@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7FABA90-97DD-3B33-A9BB-010A2DD40E37
 -  Functions: 1278
 -  Symbols:   4054
--  CStrings:  2109
+-  CStrings:  2686
++  UUID: BED46B93-F6A6-30E2-8FAA-6E120C1DF076
 +  Functions: 1277
 +  Symbols:   4051
-+  CStrings:  2106
++  CStrings:  2683
  
 Symbols:
 - -[DSIDRecord isRestrictedByEU_GDPR]

@@ -80,12 +80,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 017EE570-B24D-3530-B043-7EB15EA088A2
 -  Functions: 1714
 -  Symbols:   6628
--  CStrings:  3114
+-  CStrings:  3642
++  UUID: 55FA9A8C-A741-3172-9F17-FDAC0F6C1650
 +  Functions: 1758
 +  Symbols:   6792
-+  CStrings:  3208
++  CStrings:  3768
  
 Symbols:
 + +[AVMetadataItem(MIOExtensions) trackMetadataItemWithStereoViewEncoding:]

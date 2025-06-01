@@ -28,4 +28,13 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38202ED7-8646-392A-A46A-C3EF34CB59EE
++  UUID: A0E88521-F834-3943-968D-96ECE6AF11AA
+   Functions: 1287
+   Symbols:   3319
+   CStrings:  2168
+
 ```

@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_catlist: 0x28
    __DATA_CONST.__objc_protolist: 0x218
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1B93844-BCBD-305F-9B0E-FAC613B3CC9F
++  UUID: E9E07A5B-C975-3D49-BC88-18DD21A78123
    Functions: 5493
    Symbols:   652
--  CStrings:  8073
-+  CStrings:  8075
+-  CStrings:  9490
++  CStrings:  9493
  
 CStrings:
 + "44"

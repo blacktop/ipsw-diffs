@@ -52,7 +52,6 @@
    __AUTH_CONST.__const: 0x15e0
    __AUTH_CONST.__objc_doubleobj: 0xac0
    __AUTH_CONST.__objc_arrayobj: 0x2880
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xe78
 -  __AUTH.__objc_data: 0x820
 +  __AUTH.__objc_data: 0x870
@@ -70,12 +69,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0F474EAB-B51C-346E-8F24-12EC15BA2796
 -  Functions: 7905
 -  Symbols:   25967
--  CStrings:  14699
+-  CStrings:  20559
++  UUID: 4DCF736F-E1CA-3DE7-A99A-7103E5ADF281
 +  Functions: 7921
 +  Symbols:   26035
-+  CStrings:  14751
++  CStrings:  20630
  
 Symbols:
 + +[PLLocationAgent entryEventPointDefinitionMotionPacket]

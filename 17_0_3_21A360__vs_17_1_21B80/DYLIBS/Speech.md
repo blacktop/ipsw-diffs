@@ -69,11 +69,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x1eb8
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x3f20
--  __AUTH_CONST.__auth_ptr: 0xe8
 -  __AUTH_CONST.__cfstring: 0x2a80
 -  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0x3508
-+  __AUTH_CONST.__auth_ptr: 0xd8
 +  __AUTH_CONST.__cfstring: 0x2b60
 +  __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__objc_dictobj: 0x28
@@ -115,12 +113,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C4BA22F3-2838-38C6-B9F0-6DA34D76C5B0
 -  Functions: 8231
 -  Symbols:   8838
--  CStrings:  2916
+-  CStrings:  3256
++  UUID: 02A0E93B-A13B-3121-83F6-307FE59A04FA
 +  Functions: 7509
 +  Symbols:   7959
-+  CStrings:  2704
++  CStrings:  3051
  
 Symbols:
 + +[SFEntitledAssetManager _assetPathWithStatus:]

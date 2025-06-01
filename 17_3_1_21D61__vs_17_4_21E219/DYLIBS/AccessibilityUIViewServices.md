@@ -22,5 +22,13 @@
    __DATA.__bss: 0x70
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 34031ECB-BB95-38A1-BF24-7D16B1EE8B42
++  UUID: 372798B4-949F-3060-849C-4A74DB8047DB
+   Functions: 25
+   Symbols:   134
+   CStrings:  32
 
 ```

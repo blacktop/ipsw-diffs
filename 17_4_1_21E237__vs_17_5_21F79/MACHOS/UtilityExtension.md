@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9606BFA6-CAFE-34A9-8537-00560636819F
 -  Functions: 1627
 -  Symbols:   11316
--  CStrings:  548
+-  CStrings:  556
++  UUID: 3760DFB6-8ADB-368B-9696-A3C4FB274ED4
 +  Functions: 1723
 +  Symbols:   11887
-+  CStrings:  567
++  CStrings:  575
  
 Symbols:
 + /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AccountFinder.o

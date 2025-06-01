@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x390
 -  __AUTH_CONST.__const: 0x260
 +  __AUTH_CONST.__const: 0x320
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x20
 -  __AUTH_CONST.__auth_got: 0x958
@@ -92,12 +91,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8F48FC9-5A92-3E92-8BFC-0B5938B3A2CA
 -  Functions: 5383
 -  Symbols:   17907
--  CStrings:  11599
+-  CStrings:  14183
++  UUID: 03EBFEE9-1657-37D8-9D84-CEE27031C96B
 +  Functions: 5429
 +  Symbols:   17886
-+  CStrings:  12058
++  CStrings:  15004
  
 Symbols:
 + +[WiFiPolicyNetworkActivityTracing sharedNetworkActivityTracing]

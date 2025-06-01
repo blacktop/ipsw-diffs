@@ -38,13 +38,16 @@
    __DATA.__objc_classrefs: 0x3b8
    __DATA.__objc_superrefs: 0x188
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A0203918-EB77-3336-B7D7-604FB3641CAE
++  UUID: EDB91C13-068A-3974-9656-DBB7D0386D5F
    Functions: 1424
 -  Symbols:   326
--  CStrings:  2694
+-  CStrings:  3147
 +  Symbols:   327
-+  CStrings:  2698
++  CStrings:  3151
  
 Symbols:
 + _BMStorageErrorGetErrno

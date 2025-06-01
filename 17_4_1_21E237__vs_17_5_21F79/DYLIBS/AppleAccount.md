@@ -56,7 +56,6 @@
 -  __AUTH_CONST.__const: 0x48d0
 +  __AUTH_CONST.__const: 0x48f0
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x570
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_ivar: 0xac4
@@ -76,12 +75,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C3CF8AE-0099-3B5E-88D0-CF4229146FD8
 -  Functions: 3868
 -  Symbols:   13687
--  CStrings:  6376
+-  CStrings:  7759
++  UUID: ACAD5113-FE24-35E4-A76E-4A0D8CF92053
 +  Functions: 3898
 +  Symbols:   13774
-+  CStrings:  6398
++  CStrings:  7785
  
 Symbols:
 + +[AAiCloudTermsDisagreeRequest responseClass]

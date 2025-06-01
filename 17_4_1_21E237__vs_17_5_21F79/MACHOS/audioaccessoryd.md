@@ -19,11 +19,15 @@
    __TEXT.__objc_classname: 0x59b
    __TEXT.__objc_methtype: 0x2098
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9C302F5F-853C-3480-9503-B7966C3D8606
++  UUID: 4DD64EA1-A938-3557-A804-5A56B754CCEC
    Functions: 5195
    Symbols:   1041
--  CStrings:  7592
-+  CStrings:  7594
+-  CStrings:  8395
++  CStrings:  8397
  
 CStrings:
 + "Device1,8218"

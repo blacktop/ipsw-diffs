@@ -41,18 +41,20 @@
 -  __AUTH_CONST.__cfstring: 0x3760
 +  __AUTH_CONST.__cfstring: 0x3780
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0xc8
+   __AUTH_CONST.__auth_got: 0x1480
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 15227439-315D-3A6B-9977-F51180C96DCC
 -  Functions: 5310
 -  Symbols:   1016
--  CStrings:  2876
+-  CStrings:  3319
++  UUID: 578760A4-D910-388D-8C6D-DD0136EBCFAF
 +  Functions: 5314
 +  Symbols:   1017
-+  CStrings:  2880
++  CStrings:  3324
  
 Symbols:
 + _MDLAssetLoadingOptionDefaultUSDColorSpace

@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__objc_const: 0x1f28
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x610
 -  __AUTH.__objc_data: 0x1f40
@@ -76,12 +75,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6D22C982-D38D-3866-8D46-E72790F2C1CA
 -  Functions: 1332
 -  Symbols:   5181
--  CStrings:  2641
+-  CStrings:  3194
++  UUID: 8DD764E7-0162-31FA-A54F-BAF10832EBB5
 +  Functions: 1343
 +  Symbols:   5221
-+  CStrings:  2658
++  CStrings:  3214
  
 Symbols:
 + +[MKAPIServer clean]

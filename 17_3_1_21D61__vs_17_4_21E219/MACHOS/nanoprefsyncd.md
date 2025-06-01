@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x7d0
    __DATA.__data: 0x3c0
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 72FA1577-E982-31DB-BE88-BF969B4C201F
++  UUID: 4E2F184C-73A4-3251-882C-7C0E23221247
    Functions: 720
    Symbols:   344
--  CStrings:  1618
-+  CStrings:  1619
+-  CStrings:  1772
++  CStrings:  1773
  
 CStrings:
 + "Launching; \"NanoPreferencesSyncDaemon-311\" \"4589\""

@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D236FC6F-90C7-3E9F-80C4-54172D131011
 -  Functions: 291
++  UUID: F1D5FC57-4FE5-330F-ACCA-C810FF798702
 +  Functions: 290
    Symbols:   164
--  CStrings:  933
-+  CStrings:  932
+-  CStrings:  1149
++  CStrings:  1148
  
 CStrings:
 - "isDataSeparatedStoreForManagementSource:"

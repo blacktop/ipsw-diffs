@@ -16,7 +16,11 @@
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x13a0
 
+   - /System/DriverKit/usr/lib/system/libsystem_malloc.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
    - /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+-  UUID: 15D9E865-717F-3C7F-803A-D65862068354
++  UUID: D9930A8E-FE08-351B-86FF-4F90BE61E02A
    Functions: 1760
    Symbols:   2215
 -  CStrings:  800

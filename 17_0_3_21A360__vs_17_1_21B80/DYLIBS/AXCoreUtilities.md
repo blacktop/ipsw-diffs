@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 30AF5133-9F0E-3823-9E50-A3C66CB5EC6D
 -  Functions: 732
 -  Symbols:   2416
--  CStrings:  825
+-  CStrings:  947
++  UUID: 809D33D6-802D-3B65-8C70-F12001BFB69F
 +  Functions: 735
 +  Symbols:   2424
-+  CStrings:  828
++  CStrings:  950
  
 Symbols:
 + _AXLogMuseAccessibility

@@ -47,19 +47,21 @@
    __AUTH_CONST.__objc_arrayobj: 0x258
 -  __AUTH_CONST.__const: 0x7a0
 +  __AUTH_CONST.__const: 0x7c0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xbf0
    __AUTH.__objc_data: 0xa0
+   __DATA.__objc_ivar: 0x368
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85D462BC-6BB8-3922-BA28-7D1CB3EC9823
 -  Functions: 2046
 -  Symbols:   6992
--  CStrings:  3306
+-  CStrings:  3789
++  UUID: FA8733C9-DCE5-359C-A481-E508FB1C8745
 +  Functions: 2054
 +  Symbols:   7013
-+  CStrings:  3318
++  CStrings:  3804
  
 Symbols:
 + -[SPConcreteCoreSpotlightIndexer updateCalendar:]

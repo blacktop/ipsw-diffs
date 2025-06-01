@@ -41,11 +41,15 @@
    __DATA.__data: 0x960
    __DATA_DIRTY.__objc_data: 0x410
 
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A0FC6E63-7F83-399F-9A75-FDA84ACCA35C
++  UUID: 18E86AF3-24CA-36B1-8BC8-B2D108339E98
    Functions: 183
    Symbols:   1052
--  CStrings:  614
-+  CStrings:  616
+-  CStrings:  620
++  CStrings:  622
  
 CStrings:
 + "\x04"

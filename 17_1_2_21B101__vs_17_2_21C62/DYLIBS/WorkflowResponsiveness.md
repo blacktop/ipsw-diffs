@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x64f
    __TEXT.__oslogstring: 0x1074
 
+   - /System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D4A56D01-BBAB-3606-841F-F931982B67C1
++  UUID: 8CBE60BE-3B76-3738-9E82-50108134DBA8
+   Functions: 175
+   Symbols:   689
+   CStrings:  399
+
 ```

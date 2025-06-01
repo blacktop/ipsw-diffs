@@ -140,12 +140,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C4BAC9D9-27B7-35CF-A377-50562D09CAF2
 -  Functions: 15615
 -  Symbols:   4979
--  CStrings:  3046
+-  CStrings:  3106
++  UUID: DBF8254C-6DAF-316B-BF2E-CA3D00473E88
 +  Functions: 18119
 +  Symbols:   5225
-+  CStrings:  3087
++  CStrings:  3135
  
 Symbols:
 + _OBJC_CLASS_$_NSManagedObject

@@ -13,4 +13,13 @@
    __TEXT.__objc_classname: 0xad
    __TEXT.__objc_methname: 0xe57
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 09444C2A-B406-3789-812B-3D1ED43247EE
++  UUID: D673C598-B218-3570-A27B-A25BA3305758
+   Functions: 159
+   Symbols:   612
+   CStrings:  246
+
 ```

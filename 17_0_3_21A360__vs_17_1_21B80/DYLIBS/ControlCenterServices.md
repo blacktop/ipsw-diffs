@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B960112-B734-3EBD-8B0B-64046F743DD1
 -  Functions: 281
 -  Symbols:   1181
--  CStrings:  595
+-  CStrings:  698
++  UUID: 4609F968-B526-393C-A6E1-04BB81EAD8A0
 +  Functions: 284
 +  Symbols:   1191
-+  CStrings:  603
++  CStrings:  708
  
 Symbols:
 + +[CCSModuleMetadata _requiredIncapabilitiesForInfoDictionary:]

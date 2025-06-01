@@ -35,12 +35,15 @@
    __AUTH_CONST.__objc_const: 0xcf0
    __AUTH_CONST.__const: 0x8e0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70CC59D0-1F07-3749-8637-D1CDB23F771F
++  UUID: D79F8371-18EF-3DF5-8C0D-B5DFEE063301
    Functions: 1260
 -  Symbols:   4785
 +  Symbols:   4787
-   CStrings:  3025
+   CStrings:  4513
  
 Symbols:
 + _OBJC_IVAR_$_PKPrintSettings._paper_ivar

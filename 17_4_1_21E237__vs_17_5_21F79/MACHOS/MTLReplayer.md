@@ -38,11 +38,13 @@
    - @rpath/LLDB.framework/LLDB
    - @rpath/MTLReplayController.framework/MTLReplayController
    - @rpath/libGTLLVMShaderProfilerHelper.dylib
+-  UUID: 9996E78E-B9C9-306C-8B06-11F5B1F6A7DB
 -  Functions: 5095
++  UUID: 98508672-7861-3A89-ADCA-67AB40D676BA
 +  Functions: 5081
    Symbols:   839
--  CStrings:  16290
-+  CStrings:  16283
+-  CStrings:  18062
++  CStrings:  18055
  
 CStrings:
 - "ConnectionVersioning"

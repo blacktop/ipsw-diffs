@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B71982F-BAC5-3693-9791-D62475C03823
 -  Functions: 172
 -  Symbols:   802
--  CStrings:  483
+-  CStrings:  534
++  UUID: BF99FBD6-9B58-3C60-8763-9E008051A23E
 +  Functions: 200
 +  Symbols:   893
-+  CStrings:  543
++  CStrings:  599
  
 Symbols:
 + +[AMAllowAmbientIdleTimerAttribute allowAmbientIdleTimerForSleepFocus]

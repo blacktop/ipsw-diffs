@@ -49,7 +49,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x430
    __DATA_CONST.__objc_arraydata: 0x13f8
    __AUTH_CONST.__const: 0x2918
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_const: 0x6210
 -  __AUTH_CONST.__cfstring: 0x10f20
 +  __AUTH_CONST.__cfstring: 0x10f60
@@ -90,12 +89,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9E8B2FF4-EEE8-32A7-9C88-A2EFBB1860FB
 -  Functions: 5164
 -  Symbols:   17537
--  CStrings:  8728
+-  CStrings:  10897
++  UUID: 707469F6-5CDA-3C93-AF5D-3942B149D098
 +  Functions: 5177
 +  Symbols:   17551
-+  CStrings:  8740
++  CStrings:  10911
  
 Symbols:
 + +[WFContentLocation(Static) controlOtherAppsLocation]

@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0C0AA95D-AF81-3077-9BD0-F80B8EADE601
 -  Functions: 4292
 -  Symbols:   3991
--  CStrings:  1616
+-  CStrings:  1813
++  UUID: 8B798C09-FBD9-3437-B8E5-4637D3EED982
 +  Functions: 4051
 +  Symbols:   3992
-+  CStrings:  1620
++  CStrings:  1818
  
 Symbols:
 + _WKWallpaperRepresentingCollectionOptionSupportedDeviceClasses

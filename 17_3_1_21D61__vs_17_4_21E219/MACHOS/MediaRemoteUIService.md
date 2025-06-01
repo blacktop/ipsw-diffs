@@ -44,11 +44,15 @@
    __DATA.__objc_data: 0x438
    __DATA.__data: 0x4e8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3822C009-C7A8-3CDE-8E30-F18153B9A761
++  UUID: 4E5A9687-30CB-3B8C-A221-07A9CE41D2EA
    Functions: 152
    Symbols:   316
--  CStrings:  279
-+  CStrings:  280
+-  CStrings:  281
++  CStrings:  282
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

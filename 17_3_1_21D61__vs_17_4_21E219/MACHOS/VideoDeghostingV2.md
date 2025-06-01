@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x240
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CB71DB9D-9C56-3585-97B0-AE962D4BE96B
++  UUID: 09B96756-5E80-3771-8200-C81F8BEADD8D
    Functions: 598
    Symbols:   191
--  CStrings:  1656
-+  CStrings:  1657
+-  CStrings:  1739
++  CStrings:  1740
  
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"

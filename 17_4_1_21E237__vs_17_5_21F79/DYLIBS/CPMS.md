@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x94c
    __TEXT.__objc_methtype: 0x3d4
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A16A65BF-8E9D-3C5B-B5BE-C643838657B9
++  UUID: D2B117EB-440A-33A5-ACC7-5ED217FF90AB
+   Functions: 127
+   Symbols:   489
+   CStrings:  503
+
 ```

@@ -33,11 +33,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 71690F91-CA64-35EE-9210-2F1D3F38DD03
 -  Functions: 7069
 -  Symbols:   22748
++  UUID: 008EBAE8-2061-3829-BF51-E7F411C8D7DE
 +  Functions: 7066
 +  Symbols:   22741
-   CStrings:  7344
+   CStrings:  9023
  
 Symbols:
 + __ZN7WebCore21MediaKeySystemRequest5allowEv

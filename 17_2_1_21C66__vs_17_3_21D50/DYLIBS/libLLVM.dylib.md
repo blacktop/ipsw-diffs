@@ -20,11 +20,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
+-  UUID: 6F3CE219-65E4-3B54-904C-A52F3D048F5D
 -  Functions: 81063
++  UUID: 7EB2228D-711E-3A8D-B5B4-D18F3FE4E66A
 +  Functions: 81064
    Symbols:   21523
--  CStrings:  42827
-+  CStrings:  42828
+-  CStrings:  42828
++  CStrings:  42829
  
 CStrings:
 + "32023.116"

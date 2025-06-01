@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x1f8
 +  __AUTH_CONST.__objc_dictobj: 0x910
    __AUTH_CONST.__objc_arrayobj: 0x738
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x468
 -  __AUTH.__objc_data: 0x460
 -  __DATA.__objc_classrefs: 0x120
@@ -72,12 +71,14 @@
    - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libVinylNonUpdater.dylib
+-  UUID: A2493F86-23BD-37F8-83EC-BBE74DA1EDD7
 -  Functions: 213
 -  Symbols:   1250
--  CStrings:  1442
+-  CStrings:  2374
++  UUID: 98BFCD19-2C59-327C-ADE3-B1D52C116D69
 +  Functions: 219
 +  Symbols:   1271
-+  CStrings:  1476
++  CStrings:  2427
  
 Symbols:
 + +[ZhuGeKeysActionArmory isProtoDeviceWithError:]

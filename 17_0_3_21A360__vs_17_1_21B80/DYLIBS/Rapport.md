@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70D40A45-BA20-356B-808A-68B2F403578C
 -  Functions: 2945
 -  Symbols:   9272
--  CStrings:  5576
+-  CStrings:  6106
++  UUID: 3F467AE9-9014-3083-A2F5-AB65472104AA
 +  Functions: 2954
 +  Symbols:   9299
-+  CStrings:  5611
++  CStrings:  6162
  
 Symbols:
 + -[RPCompanionLinkDevice isEqualToDeviceBasic:]

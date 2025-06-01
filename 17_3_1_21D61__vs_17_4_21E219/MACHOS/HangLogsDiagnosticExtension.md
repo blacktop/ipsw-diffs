@@ -55,12 +55,14 @@
    - /usr/lib/libapp_launch_measurement.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D306D62-CBC3-3BF4-A6DB-4E3A08BC4167
 -  Functions: 221
 -  Symbols:   298
--  CStrings:  761
+-  CStrings:  939
++  UUID: 4C4EC4F7-3342-30E7-81E6-C302D72203DC
 +  Functions: 225
 +  Symbols:   306
-+  CStrings:  768
++  CStrings:  948
  
 Symbols:
 + _HTCAQueue

@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0x38
    __TEXT.__objc_classname: 0x43f
    __TEXT.__objc_methname: 0x6bfe
+
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 9E8822C2-CEBA-34D2-9207-2E37959BA6C4
++  UUID: 653282A2-AF21-3B23-97A1-69A9DB36FC72
+   Functions: 1638
+   Symbols:   5066
+   CStrings:  3729
 CStrings:
 + "20:05:38"
 + "Apr 15 2024"

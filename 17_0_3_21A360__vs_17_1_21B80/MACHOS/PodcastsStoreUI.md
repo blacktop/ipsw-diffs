@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
+-  UUID: 59F83F8A-08E3-3FE8-9BEC-F416A47471B5
 -  Functions: 18237
 -  Symbols:   7732
--  CStrings:  4700
+-  CStrings:  4737
++  UUID: 3837C7A8-690F-316D-9F4C-7C91639F8BFD
 +  Functions: 18285
 +  Symbols:   7742
-+  CStrings:  4703
++  CStrings:  4740
  
 Symbols:
 + _OBJC_METACLASS_$__TtC15PodcastsStoreUIP33_B2423E61D19A372EB9587168FEE5C08E26UpsellTitleBarGradientView

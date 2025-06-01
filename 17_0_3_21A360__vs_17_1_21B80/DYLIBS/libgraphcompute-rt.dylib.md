@@ -26,7 +26,6 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x8
    __AUTH_CONST.__const: 0x14bd0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x5a8
 +  __AUTH_CONST.__auth_got: 0x598
    __AUTH.__data: 0x198
@@ -41,8 +40,11 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE83421A-7F63-30AE-97DB-0B9A422A193E
++  UUID: 65C20832-6415-3248-BE42-783471F444F3
    Functions: 15796
 -  Symbols:   42841
 +  Symbols:   3885

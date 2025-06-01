@@ -38,7 +38,11 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F6128843-A920-307A-9B6D-A36066ED5653
++  UUID: 0F6D8BA4-5368-339C-8C5C-B507CAC55C52
    Functions: 119
    Symbols:   69
 -  CStrings:  43

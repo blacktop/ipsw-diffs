@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F492273-DFB1-30D7-91BC-9EE6724DF140
 -  Functions: 560
 -  Symbols:   2114
--  CStrings:  1265
+-  CStrings:  1547
++  UUID: CD8EA4A8-4B63-3B8F-B736-BA08016A77BE
 +  Functions: 563
 +  Symbols:   2126
-+  CStrings:  1273
++  CStrings:  1556
  
 Symbols:
 + -[SPApplication isPlaceholder]

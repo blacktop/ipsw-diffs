@@ -27,12 +27,15 @@
    __DATA_CONST.__const: 0x1d8
    __DATA_CONST.__cfstring: 0x980
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12E70A40-93CF-3552-93F5-90933FBE6ABD
++  UUID: 384208BB-0F4F-3E12-9AC2-2D201019C800
    Functions: 109
 -  Symbols:   164
 +  Symbols:   165
-   CStrings:  386
+   CStrings:  462
  
 Symbols:
 + __SFSafeBrowsingPreferencesPlistPath

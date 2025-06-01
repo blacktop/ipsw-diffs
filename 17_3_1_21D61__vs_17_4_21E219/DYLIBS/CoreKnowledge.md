@@ -71,7 +71,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x88
 -  __AUTH_CONST.__const: 0x4900
 -  __AUTH_CONST.__objc_const: 0x3ad0
--  __AUTH_CONST.__auth_ptr: 0xd0
 -  __AUTH_CONST.__cfstring: 0x4a20
 -  __AUTH_CONST.__objc_intobj: 0x3a8
 -  __AUTH_CONST.__objc_arrayobj: 0x90
@@ -83,7 +82,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x78
 +  __AUTH_CONST.__const: 0x4578
 +  __AUTH_CONST.__objc_const: 0x1548
-+  __AUTH_CONST.__auth_ptr: 0xc8
 +  __AUTH_CONST.__cfstring: 0x1440
    __AUTH_CONST.__objc_doubleobj: 0x20
 -  __AUTH_CONST.__auth_got: 0x1098
@@ -156,12 +154,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 86D1CB87-0632-3552-8A39-9B1606D209EC
 -  Functions: 5458
 -  Symbols:   10265
--  CStrings:  4697
+-  CStrings:  5290
++  UUID: 02269047-9E67-385A-B1DE-7CDDFB96D888
 +  Functions: 3770
 +  Symbols:   5070
-+  CStrings:  2031
++  CStrings:  2193
  
 Symbols:
 + +[CKVAssistantSettingsBridge buildVersion]

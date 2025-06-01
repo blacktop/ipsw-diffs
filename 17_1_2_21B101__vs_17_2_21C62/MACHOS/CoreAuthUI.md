@@ -104,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DE85971-8797-3130-8289-AC6623619DB6
 -  Functions: 2428
 -  Symbols:   875
--  CStrings:  2019
+-  CStrings:  2170
++  UUID: F954EDD7-36AD-355B-82E5-0216E24337AD
 +  Functions: 2459
 +  Symbols:   887
-+  CStrings:  2080
++  CStrings:  2233
  
 Symbols:
 + _CFNotificationCenterAddObserver

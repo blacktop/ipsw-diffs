@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E59D48A-6981-3D3B-9E9B-96A0C1036DED
 -  Functions: 326
++  UUID: CDB33D79-1F5E-3311-BF9C-0869397914A9
 +  Functions: 320
    Symbols:   161
--  CStrings:  1313
-+  CStrings:  1305
+-  CStrings:  1330
++  CStrings:  1322
  
 CStrings:
 - "Autofill angel is resumed"

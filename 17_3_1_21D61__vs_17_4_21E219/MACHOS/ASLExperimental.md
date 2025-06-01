@@ -42,12 +42,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreML.framework/CoreML
 
+   - /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 351D5BCC-CB95-3614-A3D2-ABC282AC227D
++  UUID: E819C9F5-99E6-3504-8851-DF1A1BAD21E5
    Functions: 138
 -  Symbols:   397
 +  Symbols:   395
-   CStrings:  559
+   CStrings:  733
  
 Symbols:
 - _OBJC_CLASS_$_AMDDODMLConstants

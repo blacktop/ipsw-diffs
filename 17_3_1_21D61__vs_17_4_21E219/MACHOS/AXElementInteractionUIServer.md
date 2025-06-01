@@ -44,11 +44,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7B99019-4C8D-3E41-8E4D-74B221245FA1
 -  Functions: 37
++  UUID: 5A4D4B9F-F6C5-3035-A8E1-A0412FC41C1E
 +  Functions: 38
    Symbols:   60
--  CStrings:  170
-+  CStrings:  179
+-  CStrings:  173
++  CStrings:  183
  
 CStrings:
 + "@\"NSDictionary\"52@0:8@\"NSDictionary\"16Q24@\"NSString\"32i40^@44"

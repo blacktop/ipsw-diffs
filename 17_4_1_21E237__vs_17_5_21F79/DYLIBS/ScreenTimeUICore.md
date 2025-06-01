@@ -51,9 +51,8 @@
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x500
 -  __AUTH_CONST.__const: 0x3f48
-+  __AUTH_CONST.__const: 0x3f68
-   __AUTH_CONST.__auth_ptr: 0x170
 -  __AUTH_CONST.__auth_got: 0x1010
++  __AUTH_CONST.__const: 0x3f68
 +  __AUTH_CONST.__auth_got: 0x1018
    __AUTH.__objc_data: 0x438
 -  __AUTH.__data: 0x2880
@@ -68,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4B4F009-5D07-3C13-842B-3B050687EE1B
 -  Functions: 3023
 -  Symbols:   1194
--  CStrings:  323
+-  CStrings:  363
++  UUID: D6F063B8-CD8E-36C2-B066-BBD334CBC89D
 +  Functions: 3044
 +  Symbols:   1196
-+  CStrings:  329
++  CStrings:  369
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP6ChartsE11chartLegendyQrAA10VisibilityOFQOyAeFE0G5XAxis7contentQrqd__yXE_tAF04AxisD0Rd__lFQOyAeFE0G5YAxisAKQrqd__yXE_tAfLRd__lFQOyAeFE0G6XScale6domain4typeQrqd___AF9ScaleTypeVSgtAF0Q6DomainRd__lFQOyAeFE0G6YScaleAoPQrqd___AStAfTRd__lFQOyAF5ChartVyAA7ForEachVySay16ScreenTimeUICore011UsageDetailU0V11HourlyUsageVG10Foundation12DateIntervalVAYySaySi6offset_A0_5ModelV16TopCategoryRatioV7elementtGSiAF0uD0PAFE18accessibilityLabelyQrqd__SyRd__lFQOyA15_AFE15foregroundStyleyQrqd__AA10ShapeStyleRd__lFQOyAF7BarMarkV_AA5ColorVQo__SSQo_GGG_SaySdGQo__SayA4_4DateVGQo__AF0L5MarksVyAF11BuilderPairVyAF0L4MarkPAFEA17_yQrqd__AAA18_Rd__lFQOyAF0L8GridLineV_A22_Qo_AF0L10ValueLabelVyACyACyACyACyAA4TextVAA12_FrameLayoutVGAA31AccessibilityAttachmentModifierVGAA30_EnvironmentKeyWritingModifierVySbGGA54_y12CoreGraphics7CGFloatVGGGSgGGQo__A35_yA37_yA37_yA42_A39_AFEA17_yQrqd__AAA18_Rd__lFQOyA39_AFE4fontyQrAA4FontVSgFQOyA44_ys5NeverOG_Qo__A22_Qo_GA39_AFEA17_yQrqd__AAA18_Rd__lFQOyAF0L4TickV_A22_Qo_GGQo__Qo_A54_yAA0D10TransitionVGGAaDHPqd__AaDHD2_A83_HO_A86_AA0E8ModifierHPyHCHC.16

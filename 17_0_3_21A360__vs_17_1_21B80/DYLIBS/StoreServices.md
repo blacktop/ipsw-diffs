@@ -30,7 +30,7 @@
 +  __AUTH_CONST.__const: 0x14330
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_doubleobj: 0x10
 
    __DATA.__objc_classrefs: 0xad8
    __DATA.__objc_superrefs: 0x940
@@ -43,5 +43,14 @@
    __DATA_DIRTY.__objc_data: 0x2760
    __DATA_DIRTY.__data: 0x390
    __DATA_DIRTY.__bss: 0x3b8
+
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: CA9A4C51-CD3A-3349-8159-90224B7B0FDC
++  UUID: 2BCD6027-30FC-34A3-8C39-C6B001CF3EAB
+   Functions: 9423
+   Symbols:   29282
+   CStrings:  15955
 
 ```

@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__const: 0x437c0
 -  __AUTH_CONST.__cfstring: 0x34e0
 +  __AUTH_CONST.__cfstring: 0x3500
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_dictobj: 0x50
@@ -77,12 +76,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 760C4DB9-B13A-3DB5-9AF6-5AA2BC2BD90D
 -  Functions: 39697
 -  Symbols:   106362
--  CStrings:  20860
+-  CStrings:  21283
++  UUID: 92F67ACA-D78B-3E44-9CF7-99F76DAC9A87
 +  Functions: 40646
 +  Symbols:   106409
-+  CStrings:  20948
++  CStrings:  21372
  
 Symbols:
 + -[_EARFormatter setItnMetricsWithCompletion:]

@@ -35,7 +35,7 @@
    __AUTH_CONST.__cfstring: 0x15200
    __AUTH_CONST.__objc_const: 0x154a8
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__auth_got: 0xad0
    __AUTH.__objc_data: 0x11260
 -  __DATA.__objc_protorefs: 0x100
@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 124202E7-C532-3D5A-A086-F9A2B194076E
 -  Functions: 20438
 -  Symbols:   68449
--  CStrings:  23522
+-  CStrings:  26226
++  UUID: 19D597BE-1412-3EBE-92D8-BC7596B4A1CF
 +  Functions: 20444
 +  Symbols:   68461
-+  CStrings:  23529
++  CStrings:  26233
  
 Symbols:
 + __OBJC_$_PROP_LIST_SKUIDynamicShelfViewElement.63

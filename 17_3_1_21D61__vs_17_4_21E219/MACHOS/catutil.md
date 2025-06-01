@@ -43,9 +43,11 @@
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 38917EDC-5CE2-30DD-BCC8-08AED3BE9EA1
 -  Functions: 1206
 -  Symbols:   414
 -  CStrings:  948
++  UUID: 1A8548C4-3AC2-343D-BD46-044923F69810
 +  Functions: 1242
 +  Symbols:   413
 +  CStrings:  997

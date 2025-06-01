@@ -33,4 +33,13 @@
    __DATA_DIRTY.__objc_data: 0x140
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E9A1D28C-D465-3DE5-8ED0-8D4A31FEC649
++  UUID: 562F3C7C-F1D9-3A5B-A93D-EB0B9CB08DC7
+   Functions: 135
+   Symbols:   528
+   CStrings:  298
+
 ```

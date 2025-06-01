@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F41EBE6-10E1-3F00-BE7B-4E295B7B49C1
 -  Functions: 221
 -  Symbols:   148
--  CStrings:  680
+-  CStrings:  844
++  UUID: A359F43E-6570-3D2D-AEA7-801C63FA7BDD
 +  Functions: 222
 +  Symbols:   150
-+  CStrings:  682
++  CStrings:  846
  
 Symbols:
 + _CMErrorDomain

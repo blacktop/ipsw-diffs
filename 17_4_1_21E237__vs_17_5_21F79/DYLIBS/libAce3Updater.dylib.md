@@ -15,11 +15,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2ED2BFBC-106E-35D1-BF6B-BC068A324E0A
 -  Functions: 858
 -  Symbols:   1495
++  UUID: 8737C832-071E-342A-A25D-B5E0F75FFF7F
 +  Functions: 859
 +  Symbols:   1497
-   CStrings:  709
+   CStrings:  821
  
 Symbols:
 + _DynamicAssetUARPReleased

@@ -22,12 +22,15 @@
    __DATA_CONST.__const: 0x458
    __DATA_CONST.__cfstring: 0xd60
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 51A941D9-3AE0-3562-BB1A-E7E0BCA28E76
++  UUID: FD03CCA4-CC96-3A4B-AE47-951028CC23A2
    Functions: 95
 -  Symbols:   142
 +  Symbols:   143
-   CStrings:  186
+   CStrings:  293
  
 Symbols:
 + _fdopen

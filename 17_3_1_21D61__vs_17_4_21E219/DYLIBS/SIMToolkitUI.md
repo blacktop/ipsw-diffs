@@ -33,11 +33,15 @@
    __DATA.__data: 0x600
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47CF92DD-FD39-311A-AAAB-316B81AC201B
++  UUID: C802BB5C-5C6B-3725-BED9-8FEADEAC142F
    Functions: 463
    Symbols:   2187
--  CStrings:  1047
-+  CStrings:  1048
+-  CStrings:  1149
++  CStrings:  1150
  
 CStrings:
 + "T@\"NSString\",?,R,C"

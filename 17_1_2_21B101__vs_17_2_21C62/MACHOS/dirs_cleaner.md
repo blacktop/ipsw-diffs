@@ -15,6 +15,8 @@
    __DATA_CONST.__auth_got: 0x118
    __DATA_CONST.__got: 0x10
    - /usr/lib/libSystem.B.dylib
+-  UUID: 31A73160-6065-306A-8C59-E948A6F0A26F
++  UUID: 2835EDFB-FBDE-374F-99F8-132E2C4563F4
    Functions: 6
    Symbols:   39
 -  CStrings:  41

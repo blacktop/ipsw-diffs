@@ -12,6 +12,12 @@
    __DATA.__data: 0x8
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 5A74DE67-B0EF-321A-8349-A873C18B0BC4
++  UUID: CC365A23-B20D-38B8-BD14-D7A1944943D4
+   Functions: 0
+   Symbols:   1
+   CStrings:  1
 CStrings:
 + "description=NanoTimeKitCompanion-2398.45.4"
 - "description=NanoTimeKitCompanion-2398.27"

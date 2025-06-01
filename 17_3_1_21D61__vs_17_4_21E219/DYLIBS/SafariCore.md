@@ -72,10 +72,8 @@
 +  __AUTH_CONST.__objc_intobj: 0x288
    __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x480
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x9f8
 -  __AUTH.__objc_data: 0x18c8
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0xb30
 +  __AUTH.__objc_data: 0x1788
    __AUTH.__data: 0x28
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5EBBF1DB-792E-3EF0-8756-7C359AA08DDD
 -  Functions: 3900
 -  Symbols:   13105
--  CStrings:  7182
+-  CStrings:  9738
++  UUID: 15C489D2-BDAD-38FE-B137-BC63E347F3DA
 +  Functions: 4078
 +  Symbols:   13507
-+  CStrings:  7450
++  CStrings:  10132
  
 Symbols:
 + +[NSURLCredentialStorage(SafariCoreExtras) safari_customTitleForPasskeyWithUserHandle:relyingPartyID:groupID:]

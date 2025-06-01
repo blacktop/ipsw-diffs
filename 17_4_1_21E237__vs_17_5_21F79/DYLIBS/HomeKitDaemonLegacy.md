@@ -61,12 +61,10 @@
 +  __DATA_CONST.__objc_classrefs: 0x4798
 +  __DATA_CONST.__objc_superrefs: 0x2d58
    __DATA_CONST.__objc_arraydata: 0x2830
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x111a8
 -  __AUTH_CONST.__objc_const: 0x2ff60
 -  __AUTH_CONST.__cfstring: 0x4e820
 +  __AUTH_CONST.__const: 0x11808
-+  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__objc_const: 0x300c8
 +  __AUTH_CONST.__cfstring: 0x4f220
    __AUTH_CONST.__objc_arrayobj: 0x858
@@ -147,13 +145,15 @@
 +  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 200679FC-2B37-3252-9D7A-6C5DDDCD2629
 -  Functions: 43542
 -  Symbols:   144018
--  CStrings:  68221
+-  CStrings:  78270
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 8E491DF3-994E-3382-9D0C-70A3C98C90DB
 +  Functions: 43923
 +  Symbols:   144728
-+  CStrings:  68612
++  CStrings:  78741
  
 Symbols:
 + +[HMDAccessoryPairingEvent logCategory]

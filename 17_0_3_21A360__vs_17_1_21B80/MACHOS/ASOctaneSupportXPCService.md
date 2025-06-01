@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4A00F8C2-9DEC-3242-B2CA-13704A134F9A
 -  Functions: 17700
 -  Symbols:   577
--  CStrings:  2953
+-  CStrings:  3287
++  UUID: B08A815F-06F1-3039-9DDD-DCB2333EE57A
 +  Functions: 17745
 +  Symbols:   578
-+  CStrings:  2951
++  CStrings:  3285
  
 Symbols:
 + _CGSVGAttributeCreateWithFloat

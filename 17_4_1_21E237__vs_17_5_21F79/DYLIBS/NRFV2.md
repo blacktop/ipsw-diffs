@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ABE335E4-2F13-3152-8A92-EF63E36BD102
 -  Functions: 1526
 -  Symbols:   345
--  CStrings:  6029
+-  CStrings:  6976
++  UUID: F6B957FC-05D7-32AF-8BA1-1B3BF0453A77
 +  Functions: 1528
 +  Symbols:   346
-+  CStrings:  6044
++  CStrings:  6995
  
 Symbols:
 + _FigCaptureGetModelSpecificName

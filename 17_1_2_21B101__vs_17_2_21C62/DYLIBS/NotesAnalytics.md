@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0AB4189-B8BF-3F10-B4D6-50533AEC5EC1
 -  Functions: 2715
 -  Symbols:   11326
--  CStrings:  5046
+-  CStrings:  6236
++  UUID: 40F83E41-1B6E-30ED-8B0D-42CBD22FCB49
 +  Functions: 2725
 +  Symbols:   11381
-+  CStrings:  5066
++  CStrings:  6266
  
 Symbols:
 + +[ICASShareFlowData dataName]

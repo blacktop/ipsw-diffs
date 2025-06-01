@@ -46,11 +46,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9BB703FC-B053-3021-B65B-57815A2FE81D
 -  Functions: 1394
++  UUID: 21FB1E4C-0AE7-35DA-994B-3DB0AE9E4975
 +  Functions: 1396
    Symbols:   633
--  CStrings:  2436
-+  CStrings:  2441
+-  CStrings:  2773
++  CStrings:  2778
  
 CStrings:
 + "Idealized data setting is enabled (presumably by a PPT test). Compass app will be displaying idealized data on the UI. Most complications will not be available."

@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3607632-3173-37F8-B086-C8D47E6C9FA3
++  UUID: 15A8658F-B7BD-3D84-B09B-24FF65672139
    Functions: 9
    Symbols:   44
--  CStrings:  78
-+  CStrings:  79
+-  CStrings:  80
++  CStrings:  81
  
 CStrings:
 + "T@\"NSString\",?,R,C"

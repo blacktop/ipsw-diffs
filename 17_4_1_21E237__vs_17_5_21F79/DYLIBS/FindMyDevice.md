@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4AAF5C19-17AC-335D-A8FF-CA5227EB02BE
 -  Functions: 807
 -  Symbols:   3292
--  CStrings:  1637
+-  CStrings:  2057
++  UUID: 8F3DBD8A-0ECC-3FC3-B3FC-EAF72586EC0F
 +  Functions: 841
 +  Symbols:   3415
-+  CStrings:  1694
++  CStrings:  2121
  
 Symbols:
 + +[FMDLocalFindableAccessory supportsSecureCoding]

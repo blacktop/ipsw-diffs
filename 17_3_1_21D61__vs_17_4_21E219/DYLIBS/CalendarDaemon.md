@@ -46,7 +46,6 @@
    __AUTH_CONST.__const: 0x6e0
    __AUTH_CONST.__objc_intobj: 0x378
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x1a38
 +  __AUTH_CONST.__auth_got: 0x1a30
    __AUTH.__objc_data: 0xcd0
@@ -66,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 77C23713-470E-3805-A9B0-799958766C81
 -  Functions: 1788
 -  Symbols:   7910
--  CStrings:  4099
+-  CStrings:  5005
++  UUID: 2353B491-8E72-3AF8-8147-49F309773965
 +  Functions: 1792
 +  Symbols:   7919
-+  CStrings:  4107
++  CStrings:  5017
  
 Symbols:
 + _EKParticipantProperty_proposedStartDate

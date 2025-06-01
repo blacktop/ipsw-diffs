@@ -22,7 +22,11 @@
    __DATA_CONST.__objc_protorefs: 0x60
    __DATA_CONST.__objc_classrefs: 0xf8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EAA6F6D7-1FD9-374D-AEA7-F4745B405556
++  UUID: D58C27C4-5B08-36DF-B2DB-E81E21B72303
    Functions: 1335
    Symbols:   1212
 -  CStrings:  388

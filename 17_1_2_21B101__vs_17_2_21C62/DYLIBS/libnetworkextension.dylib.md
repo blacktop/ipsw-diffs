@@ -17,6 +17,15 @@
    __TEXT.__unwind_info: 0x638
    __TEXT.__objc_classname: 0x13
    __TEXT.__objc_methname: 0x11b
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D21DBBFC-32AA-313A-9436-78BE1A5AA493
++  UUID: A6A26F1C-A058-35BC-8CFC-C572F434F141
+   Functions: 511
+   Symbols:   1415
+   CStrings:  863
 CStrings:
 + "(%u): Closing reads (sending SHUT_WR), closed by plugin (flow error: %d)"
 - "(%u): Closing reads (sending SHUT_WR), closed by plugin"

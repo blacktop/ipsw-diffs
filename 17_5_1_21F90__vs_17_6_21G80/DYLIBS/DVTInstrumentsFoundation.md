@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_intobj: 0x420
 -  __AUTH_CONST.__objc_dictobj: 0x1b8
 +  __AUTH_CONST.__objc_dictobj: 0x1e0
-   __AUTH_CONST.__auth_ptr: 0x48
    __AUTH_CONST.__auth_got: 0x18d8
 -  __AUTH.__objc_data: 0x3870
 +  __AUTH.__objc_data: 0x38c0
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6A68DBE1-7CDF-34BE-AD17-DE6714082289
 -  Functions: 3924
 -  Symbols:   1714
--  CStrings:  6397
+-  CStrings:  7728
++  UUID: B26AB62B-E7C7-35E9-BA5C-833E0BD1CCCF
 +  Functions: 3921
 +  Symbols:   1716
-+  CStrings:  6395
++  CStrings:  7724
  
 Symbols:
 + _DTStoreKitServiceCapabilityVersion_14_0

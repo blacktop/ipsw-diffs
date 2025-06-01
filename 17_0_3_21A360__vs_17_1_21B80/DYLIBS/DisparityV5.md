@@ -25,13 +25,16 @@
    __DATA_CONST.__objc_classlist: 0x60
    __DATA_CONST.__objc_protolist: 0x10
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91D0C1C1-64AE-3C2A-AC26-6B158B5A7399
++  UUID: 8F599301-10B5-33AD-9510-7E901FA5C669
    Functions: 407
 -  Symbols:   168
--  CStrings:  1571
+-  CStrings:  1773
 +  Symbols:   167
-+  CStrings:  1579
++  CStrings:  1781
  
 Symbols:
 - _kFigCaptureStreamProperty_ZoomFactor

@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A5856EE5-143D-37BE-8B7D-8967A3339EAA
 -  Functions: 449
 -  Symbols:   376
--  CStrings:  1325
+-  CStrings:  1930
++  UUID: 3AFED5E5-C689-3E0E-8003-36BE1A04AFAD
 +  Functions: 459
 +  Symbols:   377
-+  CStrings:  1340
++  CStrings:  1951
  
 Symbols:
 + _aks_get_seconds_since_passcode_change

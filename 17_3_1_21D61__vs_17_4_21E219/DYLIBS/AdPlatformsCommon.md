@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 98A3CC68-8D54-3E85-B1A6-59A335B89B71
 -  Functions: 593
 -  Symbols:   167
--  CStrings:  1224
+-  CStrings:  1404
++  UUID: 6AA5649A-2F3C-33F1-923A-AB2C7E3E3721
 +  Functions: 594
 +  Symbols:   168
-+  CStrings:  1228
++  CStrings:  1408
  
 Symbols:
 + _objc_opt_isKindOfClass

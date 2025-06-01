@@ -4,7 +4,7 @@
 
 ```diff
 
-   __AUTH_CONST.__auth_ptr: 0x128
+   __AUTH_CONST.__const: 0x8170
    __AUTH_CONST.__objc_const: 0x40
    __AUTH_CONST.__auth_got: 0xfc0
 -  __AUTH.__data: 0xd18
@@ -26,5 +26,14 @@
    __DATA_DIRTY.__common: 0x100
    - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F07ED990-0F02-3F1D-A090-48FCD4050712
++  UUID: 9C393861-4CDB-3381-9301-59FD05EE8C27
+   Functions: 8487
+   Symbols:   3987
+   CStrings:  739
 
 ```

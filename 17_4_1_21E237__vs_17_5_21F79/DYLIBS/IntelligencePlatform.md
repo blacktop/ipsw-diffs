@@ -49,4 +49,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3D7BD74A-08DA-35EF-8738-EAB47E10466F
++  UUID: 4902EB68-AB1C-3DDE-B2C8-AAC48DE97338
+   Functions: 42143
+   Symbols:   1017
+   CStrings:  6702
+
 ```

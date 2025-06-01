@@ -69,7 +69,6 @@
 -  __DATA.__objc_ivar: 0x74
 -  __DATA.__data: 0x4e0
 -  __DATA.__bss: 0x10
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x6a8
 +  __AUTH.__data: 0x2c0
 +  __AUTH.__objc_data: 0x178
@@ -93,9 +92,10 @@
 +  - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A0D1EB98-7D55-3C2F-9DFA-FF6BD3B2B32F
 -  Functions: 342
 -  Symbols:   1293
--  CStrings:  674
+-  CStrings:  719
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftCompression.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -114,9 +114,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 0212FCC8-F69C-3347-85D6-384DA67D1BD4
 +  Functions: 963
 +  Symbols:   1597
-+  CStrings:  855
++  CStrings:  900
  
 Symbols:
 + -[NDAnalyticsEnvelopeManager URLSessionQueue]

@@ -21,6 +21,15 @@
    __TEXT.__objc_classname: 0x256
    __TEXT.__objc_methname: 0x51ce
    __TEXT.__objc_methtype: 0x833
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 77192914-953B-3371-87ED-E4D4676A47D0
++  UUID: 487E7212-6B1B-3691-B804-236EB2858C4F
+   Functions: 706
+   Symbols:   2767
+   CStrings:  1712
 CStrings:
 + "Handling database request: %{private}@"
 - "Handling database request: %@"

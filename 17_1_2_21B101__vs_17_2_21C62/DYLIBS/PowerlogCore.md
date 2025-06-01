@@ -84,12 +84,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 654C5AB1-8C32-3D8A-9068-B64263E828F6
 -  Functions: 4473
 -  Symbols:   14552
--  CStrings:  14532
+-  CStrings:  24495
++  UUID: E7620AF9-DE61-3D0B-9BFE-A69038910662
 +  Functions: 4438
 +  Symbols:   14422
-+  CStrings:  14480
++  CStrings:  24464
  
 Symbols:
 - +[uarpRbdcClient sharedInstance]

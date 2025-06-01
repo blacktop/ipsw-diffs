@@ -45,11 +45,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 67EE0F2D-DE81-3F62-BC35-4E0F881F8D13
 -  Functions: 9604
++  UUID: A0B9A7E8-8F6C-3378-A1A1-7928FA91F234
 +  Functions: 9605
    Symbols:   2062
--  CStrings:  12294
-+  CStrings:  12296
+-  CStrings:  13194
++  CStrings:  13196
  
 CStrings:
 + "Screen entered into reduced luminance. Prepare for device lock"

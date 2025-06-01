@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x1f0
    __DATA_CONST.__auth_ptr: 0x8
 
+   - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 95E245DB-9A21-37F7-8D3B-ECBDBA759E55
++  UUID: 2E2031CD-56CC-34E7-B630-A53D13AE26A0
+   Functions: 829
+   Symbols:   406
+   CStrings:  1468
+
 ```

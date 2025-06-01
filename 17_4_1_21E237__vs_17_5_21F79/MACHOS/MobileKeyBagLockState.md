@@ -16,4 +16,13 @@
    __DATA.__got: 0x28
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+-  UUID: CE554366-2D5C-3C43-9A9B-447BEE8BC390
++  UUID: 5DFAD75E-2C9A-34F0-8F0E-387C7F6CF94F
+   Functions: 3
+   Symbols:   27
+   CStrings:  14
+
 ```

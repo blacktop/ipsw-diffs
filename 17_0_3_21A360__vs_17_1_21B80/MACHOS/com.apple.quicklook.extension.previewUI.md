@@ -46,11 +46,13 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88AA7AE6-4604-3038-AEF4-8EBE18D19E55
 -  Functions: 395
++  UUID: 3D0F2129-69DE-39F0-B591-AAE832A9B134
 +  Functions: 402
    Symbols:   256
--  CStrings:  1137
-+  CStrings:  1152
+-  CStrings:  1247
++  CStrings:  1262
  
 CStrings:
 + "DoubleTapAnywhereForFormField"

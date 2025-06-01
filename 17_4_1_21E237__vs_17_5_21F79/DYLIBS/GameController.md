@@ -48,17 +48,19 @@
 -  __AUTH_CONST.__objc_intobj: 0x13b0
 +  __AUTH_CONST.__objc_intobj: 0x13e0
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x1f8
+   __AUTH_CONST.__objc_doubleobj: 0x70
 
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24EC173C-1A3D-367D-A7BD-A9A72B478600
 -  Functions: 5916
 -  Symbols:   22192
++  UUID: 2EA0B677-D18D-3042-9351-475E3C7757AC
 +  Functions: 5915
 +  Symbols:   22184
-   CStrings:  7910
+   CStrings:  9210
  
 Symbols:
 - ___51-[GCKeyboardAndMouseManagerImpl _onqueue_addMouse:]_block_invoke

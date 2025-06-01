@@ -77,8 +77,6 @@
 +  __AUTH_CONST.__const: 0x3678
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0xc8
--  __AUTH_CONST.__auth_ptr: 0x90
-+  __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xf88
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F780F553-44EE-3455-B061-780DA463EC88
 -  Functions: 3725
 -  Symbols:   7997
--  CStrings:  4398
+-  CStrings:  4925
++  UUID: 0C20984D-0921-335C-9F54-F6F925416226
 +  Functions: 4329
 +  Symbols:   8220
-+  CStrings:  4468
++  CStrings:  4995
  
 Symbols:
 + -[RUILoader _showPrimaryAlertForObjectModel:completion:]

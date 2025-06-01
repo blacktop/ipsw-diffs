@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/GameCenterUICore.framework/GameCenterUICore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DFE97A9-FF06-3367-9775-AF8AF331D997
 -  Functions: 24
 -  Symbols:   62
--  CStrings:  129
+-  CStrings:  134
++  UUID: AD7A25B0-A11C-355B-A5A0-123907579F07
 +  Functions: 25
 +  Symbols:   66
-+  CStrings:  138
++  CStrings:  147
  
 Symbols:
 + _OBJC_CLASS_$_NSDictionary

@@ -20,12 +20,11 @@
    __DATA_CONST.__got: 0x68
 -  __DATA_CONST.__const: 0x1c38
 -  __AUTH_CONST.__const: 0x1100
-+  __DATA_CONST.__const: 0x1ce0
-+  __AUTH_CONST.__const: 0x1118
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x508
 -  __AUTH.__data: 0x930
 -  __DATA.__data: 0x170
++  __DATA_CONST.__const: 0x1ce0
++  __AUTH_CONST.__const: 0x1118
 +  __AUTH_CONST.__auth_got: 0x520
 +  __AUTH.__data: 0x908
 +  __DATA.__data: 0x188
@@ -38,9 +37,11 @@
 +  __DATA_DIRTY.__data: 0x3808
 +  __DATA_DIRTY.__bss: 0x2b0
    - /usr/lib/libSystem.B.dylib
+-  UUID: 48C19B53-12D5-3A2E-B452-7505022C1B29
 -  Functions: 2443
 -  Symbols:   541
 -  CStrings:  2129
++  UUID: 9275A6EC-A2AD-33A7-A94F-6D528FD9F9FB
 +  Functions: 2515
 +  Symbols:   566
 +  CStrings:  2223

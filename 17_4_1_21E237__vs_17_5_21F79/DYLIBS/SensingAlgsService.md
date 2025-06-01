@@ -17,6 +17,15 @@
    __TEXT.__objc_classname: 0x33
    __TEXT.__objc_methname: 0x1077
    __TEXT.__objc_methtype: 0x685
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FEDF2BCC-DEFF-34F4-8245-73241E71026B
++  UUID: EE797E64-6153-301A-BEB2-A36246DCA82D
+   Functions: 626
+   Symbols:   1834
+   CStrings:  403
 CStrings:
 + "21F62"
 + "SensingAlgsService-48~3006"

@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C718F9E9-FDFC-31E8-99AC-E5B6FB737021
 -  Functions: 738
 -  Symbols:   3082
--  CStrings:  1806
+-  CStrings:  2191
++  UUID: 725927D8-733D-36FC-BE0C-3313F209C98F
 +  Functions: 739
 +  Symbols:   3085
-+  CStrings:  1813
++  CStrings:  2200
  
 Symbols:
 + -[AssistantController _updateSiriFooterGroup:forceReload:].cold.2

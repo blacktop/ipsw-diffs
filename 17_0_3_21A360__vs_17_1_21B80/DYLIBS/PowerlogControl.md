@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x68
    __TEXT.__objc_methname: 0xe2
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 61F25355-3761-3A8F-9333-3850FFB7361A
++  UUID: 257DE4BA-D68C-3450-BF49-9B61153C3759
+   Functions: 7
+   Symbols:   61
+   CStrings:  33
+
 ```

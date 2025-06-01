@@ -72,12 +72,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AAAA4B1-1618-3266-A850-B81FF8398885
 -  Functions: 2356
 -  Symbols:   8594
--  CStrings:  4334
+-  CStrings:  5057
++  UUID: E9BC5D7E-888E-31D7-8032-64D6E8AC37ED
 +  Functions: 2422
 +  Symbols:   8801
-+  CStrings:  4485
++  CStrings:  5244
  
 Symbols:
 + +[IRAVOutputDeviceDO aVOutputDeviceDOWithDeviceID:modelID:deviceName:hasAirplayProperties:discoveredOverInfra:discoveredWithBroker:deviceType:deviceSubType:]

@@ -49,12 +49,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBCCAB23-FCA5-3306-AF35-6ECA40965896
 -  Functions: 606
 -  Symbols:   2419
--  CStrings:  811
+-  CStrings:  1221
++  UUID: 8AD668A0-4136-3631-B067-E2AD04517C8B
 +  Functions: 623
 +  Symbols:   2483
-+  CStrings:  828
++  CStrings:  1248
  
 Symbols:
 + +[ScrollablePillViewAccessibility _accessibilityPerformValidations:]

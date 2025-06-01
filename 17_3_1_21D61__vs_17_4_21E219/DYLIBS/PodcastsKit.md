@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_const: 0x1100
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x980
 +  __AUTH_CONST.__auth_got: 0x990
    __AUTH.__objc_data: 0x1820
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4B7EA164-1358-3BF6-BD99-0ABB53E86DAF
 -  Functions: 1453
 -  Symbols:   3842
--  CStrings:  1995
+-  CStrings:  2144
++  UUID: 1ED1CA04-E79C-369E-A272-EA7D7DDE9A34
 +  Functions: 1452
 +  Symbols:   3845
-+  CStrings:  2014
++  CStrings:  2164
  
 Symbols:
 + +[MTPodcast(NSSortDescriptor) sortDescriptorsForRecentlyUnfollowed]

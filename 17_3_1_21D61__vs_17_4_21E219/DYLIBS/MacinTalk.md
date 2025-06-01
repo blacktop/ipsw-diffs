@@ -55,11 +55,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0BFF0B5E-EAB4-300B-896D-3CA5DB573ED6
 -  Functions: 2326
 -  Symbols:   4426
++  UUID: 0B663BFC-39AA-3A71-B4BC-74D1E611A3BB
 +  Functions: 2338
 +  Symbols:   4442
-   CStrings:  1402
+   CStrings:  1838
  
 Symbols:
 + GCC_except_table1

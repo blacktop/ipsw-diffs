@@ -35,11 +35,15 @@
    __DATA.__bss: 0x780
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C31F5D8C-6E59-31BF-B3EA-2A275C39E0A5
++  UUID: 8B62A90A-7108-3F18-8AAA-2C304641EBC5
    Functions: 402
    Symbols:   189
--  CStrings:  740
-+  CStrings:  742
+-  CStrings:  763
++  CStrings:  765
  
 CStrings:
 + "hasEvergreenArticleList"

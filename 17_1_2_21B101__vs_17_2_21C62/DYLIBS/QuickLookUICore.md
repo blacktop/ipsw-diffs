@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 865D315D-7918-35B8-902D-866C0E84BACE
 -  Functions: 997
 -  Symbols:   3901
--  CStrings:  2039
+-  CStrings:  2286
++  UUID: D11E7182-6680-3EE8-809A-64D0434F4736
 +  Functions: 1001
 +  Symbols:   3914
-+  CStrings:  2045
++  CStrings:  2293
  
 Symbols:
 + -[QLItem setShouldPreventMachineReadableCodeDetection:]

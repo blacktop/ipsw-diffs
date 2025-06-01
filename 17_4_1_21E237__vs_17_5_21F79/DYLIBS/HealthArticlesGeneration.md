@@ -32,4 +32,13 @@
    __DATA_DIRTY.__bss: 0x100
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9DDC539A-995B-3C64-AF8B-361F6A15DAD7
++  UUID: 68DF158E-9ABF-352C-9981-006A357E900C
+   Functions: 336
+   Symbols:   254
+   CStrings:  79
+
 ```

@@ -33,12 +33,14 @@
    - /usr/appleinternal/lib/liblinkguard.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 08D54E77-A2D9-33B1-B2B1-2F41E69B2B62
 -  Functions: 40
 -  Symbols:   99
--  CStrings:  191
+-  CStrings:  196
++  UUID: 7BBA68D9-5718-3723-8042-C6A306A2CAC2
 +  Functions: 39
 +  Symbols:   102
-+  CStrings:  190
++  CStrings:  195
  
 Symbols:
 + _objc_retain

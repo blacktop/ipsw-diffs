@@ -15,8 +15,8 @@
    __TEXT.__oslogstring: 0x19f
    __TEXT.__gcc_except_tab: 0xf0
 
+   __AUTH_CONST.__cfstring: 0x880
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x18
@@ -34,5 +34,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 134F52B5-B67C-3850-96AA-4C4EE490B29B
++  UUID: CB31ED89-C1C3-3F4C-9A85-ED2EF9C1CEEC
+   Functions: 145
+   Symbols:   757
+   CStrings:  375
 
 ```

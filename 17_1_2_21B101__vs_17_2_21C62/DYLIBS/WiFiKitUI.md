@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_intobj: 0x690
    __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x6e8
 +  __AUTH_CONST.__auth_got: 0x6f0
    __AUTH.__objc_data: 0x13f0
@@ -60,12 +59,15 @@
    __DATA_DIRTY.__objc_data: 0xf0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D19072B9-5A6A-3C7F-8149-0D1177607EFC
++  UUID: 65E7CCFA-674E-3579-9BB2-242F63E6FC20
    Functions: 2073
 -  Symbols:   6967
 +  Symbols:   6966
-   CStrings:  4233
+   CStrings:  5044
  
 Symbols:
 + GCC_except_table82

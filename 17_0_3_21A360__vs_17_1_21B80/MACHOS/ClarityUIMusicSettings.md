@@ -23,12 +23,15 @@
    __DATA_CONST.__auth_ptr: 0x10
    __DATA_CONST.__const: 0x508
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4347F77-A77F-3795-8B02-0C80996AB2D8
++  UUID: 303C4F55-7A08-30BD-9D5E-C6F8A72DDC7F
    Functions: 182
 -  Symbols:   149
 +  Symbols:   150
-   CStrings:  138
+   CStrings:  153
  
 Symbols:
 + _objc_unsafeClaimAutoreleasedReturnValue

@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1BD78CBF-A27D-3E92-AF69-2358A5559B34
 -  Functions: 1684
 -  Symbols:   220
--  CStrings:  340
+-  CStrings:  344
++  UUID: EBF7096D-900F-334F-980E-81085D00092F
 +  Functions: 1381
 +  Symbols:   223
-+  CStrings:  352
++  CStrings:  356
  
 Symbols:
 + __swiftEmptySetSingleton

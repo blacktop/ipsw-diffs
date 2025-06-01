@@ -29,12 +29,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9859A17B-340A-3E4F-B378-B83B85ECCA5E
 -  Functions: 779
 -  Symbols:   2645
--  CStrings:  1266
+-  CStrings:  1333
++  UUID: 44849E52-18C5-34E1-A355-EF4C96135D80
 +  Functions: 780
 +  Symbols:   2647
-+  CStrings:  1270
++  CStrings:  1337
  
 Symbols:
 + -[LiveFSMountClient dealloc]

@@ -61,13 +61,16 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 83A72DFB-00DA-33F2-BD45-B7D3AB9D815A
++  UUID: 778A9C47-ADA6-34BF-BE60-10B0B825B639
    Functions: 336
 -  Symbols:   134
--  CStrings:  705
+-  CStrings:  990
 +  Symbols:   137
-+  CStrings:  701
++  CStrings:  984
  
 Symbols:
 + OBJC_IVAR_$_MPSNDArray._offset

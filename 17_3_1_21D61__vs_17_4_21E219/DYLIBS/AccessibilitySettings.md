@@ -69,12 +69,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6056BB24-EFD0-3F49-91BD-B1925FDC9D19
 -  Functions: 747
 -  Symbols:   2992
--  CStrings:  1568
+-  CStrings:  1993
++  UUID: 1A361C33-BF02-3997-8AE1-E6C0F8A00F11
 +  Functions: 757
 +  Symbols:   3020
-+  CStrings:  1584
++  CStrings:  2019
  
 Symbols:
 + -[AccessibilityBridgeSettingsController isIncreaseBrightnessFloorEnabled:]

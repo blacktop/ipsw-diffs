@@ -62,12 +62,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0D2D21DB-4845-315A-B850-8F781E820BCA
 -  Functions: 13014
 -  Symbols:   39003
--  CStrings:  14277
+-  CStrings:  16080
++  UUID: 14857387-A830-38AE-B6F7-48DA96FA67EA
 +  Functions: 13029
 +  Symbols:   39045
-+  CStrings:  14294
++  CStrings:  16097
  
 Symbols:
 + -[NPKAuthIntentListener _handleButtonEvent:]

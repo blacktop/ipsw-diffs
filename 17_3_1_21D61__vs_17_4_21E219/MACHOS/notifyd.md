@@ -20,7 +20,9 @@
    __DATA.__bss: 0x2c8
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: B189B10A-0895-3400-BAA2-EC1E1F883F45
 -  Functions: 130
++  UUID: 44C0BFFB-B481-320D-9004-CD5ECFFD5D64
 +  Functions: 135
    Symbols:   163
 -  CStrings:  274

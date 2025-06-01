@@ -79,12 +79,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34607313-1A9B-3DC0-B1DC-AE2023532D8A
 -  Functions: 7412
 -  Symbols:   22968
--  CStrings:  10993
+-  CStrings:  13424
++  UUID: 0E5CE569-7159-3F02-B21F-DF1B65B06ED2
 +  Functions: 7415
 +  Symbols:   22973
-+  CStrings:  11001
++  CStrings:  13433
  
 Symbols:
 + -[CPLConfiguration disableConfigurationFetching]

@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FFE98471-9540-312D-A505-9918D823831B
 -  Functions: 13
 -  Symbols:   58
 -  CStrings:  80
++  UUID: 05864EDF-E2A9-3C8B-9DD4-E88C565E3888
 +  Functions: 18
 +  Symbols:   78
-+  CStrings:  108
++  CStrings:  113
  
 Symbols:
 + _CFArrayContainsValue

@@ -32,7 +32,6 @@
 +  __AUTH_CONST.__const: 0x9970
    __AUTH_CONST.__cfstring: 0x3a0
    __AUTH_CONST.__objc_const: 0x2d0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x680
    __AUTH.__objc_data: 0x320
    __AUTH.__data: 0x8
@@ -45,11 +44,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BBECED93-080E-31C5-9838-8777C5C7AF8C
 -  Functions: 9446
++  UUID: 930C8551-449C-3279-8594-59D88A5C87AE
 +  Functions: 9590
    Symbols:   268
--  CStrings:  3637
-+  CStrings:  3671
+-  CStrings:  3666
++  CStrings:  3700
  
 Symbols:
 + _memchr

@@ -32,13 +32,16 @@
    __AUTH_CONST.__cfstring: 0xc80
    __AUTH_CONST.__objc_const: 0x630
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 531C0035-291D-3E08-A4CE-2E594E7A0EDA
++  UUID: FF42429B-0904-3D97-B02A-0D097EC1079E
    Functions: 437
 -  Symbols:   2113
--  CStrings:  1418
+-  CStrings:  1518
 +  Symbols:   2114
-+  CStrings:  1419
++  CStrings:  1519
  
 Symbols:
 + _objc_msgSend$setInlinePredictionType:

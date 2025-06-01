@@ -47,7 +47,6 @@
 +  __DATA_CONST.__objc_protorefs: 0x30
 +  __DATA_CONST.__objc_classrefs: 0x188
 +  __AUTH_CONST.__const: 0x2778
-   __AUTH_CONST.__auth_ptr: 0x80
    __AUTH_CONST.__cfstring: 0x140
 -  __AUTH_CONST.__auth_got: 0xd00
 +  __AUTH_CONST.__auth_got: 0xd28
@@ -64,12 +63,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E9732798-66C2-3D41-9FA1-2FB5258F3220
 -  Functions: 1335
 -  Symbols:   912
--  CStrings:  519
+-  CStrings:  529
++  UUID: 02793E4A-1D9B-36FF-82F7-F6E042D7063C
 +  Functions: 1362
 +  Symbols:   913
-+  CStrings:  536
++  CStrings:  546
  
 Symbols:
 + _OBJC_CLASS_$_WFActionButtonConfigurationViewController

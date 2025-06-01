@@ -66,7 +66,6 @@
    __DATA_CONST.__objc_arraydata: 0x1d0
 -  __AUTH_CONST.__const: 0x16da8
 +  __AUTH_CONST.__const: 0x16f28
-   __AUTH_CONST.__auth_ptr: 0x3c0
    __AUTH_CONST.__objc_const: 0x3e78
 -  __AUTH_CONST.__cfstring: 0x42a0
 +  __AUTH_CONST.__cfstring: 0x42c0
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 424C8782-DDA9-3ED5-95D6-94063E9D491B
 -  Functions: 18587
 -  Symbols:   18087
--  CStrings:  8197
+-  CStrings:  8730
++  UUID: 90D11620-A34D-3E46-82AF-903D09FEB518
 +  Functions: 18655
 +  Symbols:   18115
-+  CStrings:  8211
++  CStrings:  8745
  
 Symbols:
 + _HFTriggerIconFactoryFunction.4980

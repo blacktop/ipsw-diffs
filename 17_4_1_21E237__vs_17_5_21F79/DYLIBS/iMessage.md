@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EDE71E39-7B6D-3558-82C1-44E71A893E1A
++  UUID: 156C0263-F8A4-3134-B6CC-7D9F682DF1BD
    Functions: 1107
    Symbols:   669
--  CStrings:  3938
-+  CStrings:  3940
+-  CStrings:  4333
++  CStrings:  4336
  
 CStrings:
 + "\""

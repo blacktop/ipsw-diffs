@@ -33,11 +33,15 @@
    __DATA_CONST.__objc_intobj: 0x18
    __DATA_CONST.__objc_dictobj: 0x78
 
+   - /usr/lib/libprotobuf.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EBC0706A-7EAC-33AB-A4A0-3B425F038177
++  UUID: 5CB62098-C621-3451-A1EF-1FB73B542F71
    Functions: 1957
    Symbols:   513
--  CStrings:  1327
-+  CStrings:  1329
+-  CStrings:  1792
++  CStrings:  1796
  
 CStrings:
 + "com.apple.ClockPoster.ClockPosterExtension"

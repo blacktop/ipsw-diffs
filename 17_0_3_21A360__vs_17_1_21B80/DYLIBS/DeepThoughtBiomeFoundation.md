@@ -55,7 +55,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x680
 +  __AUTH_CONST.__const: 0x28e0
 +  __AUTH_CONST.__cfstring: 0x26e0
-   __AUTH_CONST.__auth_ptr: 0xb0
    __AUTH_CONST.__objc_const: 0x120
 -  __AUTH_CONST.__auth_got: 0xa20
 -  __AUTH.__data: 0x4270
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17CE1D83-4233-390D-9103-7537116F48C0
 -  Functions: 2925
 -  Symbols:   1561
--  CStrings:  1179
+-  CStrings:  1469
++  UUID: 49995AB6-06A4-32D0-873C-E1B239CCCBD8
 +  Functions: 2973
 +  Symbols:   1570
-+  CStrings:  1210
++  CStrings:  1521
  
 Symbols:
 + _BMSiriPrivateLearningSELFEventIdentifier

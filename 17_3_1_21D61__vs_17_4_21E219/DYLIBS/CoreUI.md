@@ -53,12 +53,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1A9DE8FB-48FA-303C-8E30-061C40FEFE0E
 -  Functions: 4087
 -  Symbols:   12646
--  CStrings:  8808
+-  CStrings:  11016
++  UUID: AC1DD222-EC7A-33BD-A574-D76506FE1D06
 +  Functions: 4078
 +  Symbols:   12619
-+  CStrings:  8811
++  CStrings:  11019
  
 Symbols:
 + GCC_except_table666

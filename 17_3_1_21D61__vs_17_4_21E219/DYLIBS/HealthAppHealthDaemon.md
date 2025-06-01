@@ -72,7 +72,6 @@
 -  __AUTH_CONST.__const: 0x408
 +  __AUTH_CONST.__const: 0x418
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x718
 -  __AUTH.__objc_data: 0x2a0
 -  __AUTH.__data: 0x50
@@ -120,12 +119,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FE12E23D-F4DE-3876-98CC-513C31249A01
 -  Functions: 605
 -  Symbols:   1574
--  CStrings:  1022
+-  CStrings:  1062
++  UUID: 52491016-8295-37F7-9150-1C38C68B8765
 +  Functions: 717
 +  Symbols:   1825
-+  CStrings:  1151
++  CStrings:  1213
  
 Symbols:
 + +[HDAppAnalyticsAcceptanceEntity acceptanceForAgreement:version:transaction:error:]

@@ -27,11 +27,15 @@
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x38
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34888A3B-536D-346A-9EE6-B2CF8D4117FC
++  UUID: 0BE9C719-B30F-324F-AC56-10D60395EA28
    Functions: 33
    Symbols:   78
--  CStrings:  153
-+  CStrings:  154
+-  CStrings:  160
++  CStrings:  161
  
 CStrings:
 + "shouldUseMinimumSafeAreas"

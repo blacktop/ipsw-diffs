@@ -24,6 +24,15 @@
    __TEXT.__objc_methtype: 0xa0e
    __TEXT.__objc_stubs: 0x3760
    __DATA_CONST.__got: 0x70
+
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F65484BC-3EB0-32D9-B6AA-A5BF0D61B656
++  UUID: 87229A4D-3D7A-30BE-A0AF-AEDC21427B22
+   Functions: 740
+   Symbols:   2595
+   CStrings:  1937
 Symbols:
 + -[CDRecentServiceInfo amountAtUrgency:checkTimestamp:]
 + _objc_msgSend$amountAtUrgency:checkTimestamp:

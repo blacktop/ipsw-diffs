@@ -60,9 +60,11 @@
    - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD088AD8-D6A1-3E6E-BEE1-CE943F20A17A
 -  Functions: 26
 -  Symbols:   57
--  CStrings:  146
+-  CStrings:  148
++  UUID: 0620620A-0A36-3ECD-8646-04F189EB1AEC
 +  Functions: 14
 +  Symbols:   41
 +  CStrings:  103

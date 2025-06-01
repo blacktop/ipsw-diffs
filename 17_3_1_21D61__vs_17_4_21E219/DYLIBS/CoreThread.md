@@ -26,4 +26,13 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x18
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7EFCCA68-EDD5-37EB-B49D-EF8476E07934
++  UUID: D41FE736-396D-3DE0-B60E-27C5DCAF6032
+   Functions: 103
+   Symbols:   484
+   CStrings:  216
+
 ```

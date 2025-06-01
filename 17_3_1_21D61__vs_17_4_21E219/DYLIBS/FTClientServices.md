@@ -24,4 +24,13 @@
    __DATA.__bss: 0x8
    __DATA_DIRTY.__const: 0x20
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F9916787-9E1B-39D5-B9D4-2A1B99F99278
++  UUID: 4EF8D6FA-9327-3964-AA46-C7A1869D734F
+   Functions: 36
+   Symbols:   58
+   CStrings:  144
+
 ```

@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA1AD240-23E1-3415-8E6F-CACAC020CC5F
 -  Functions: 26
 -  Symbols:   41
--  CStrings:  220
+-  CStrings:  221
++  UUID: 49C2729F-EDAE-37F1-80BC-660DE0E26EFD
 +  Functions: 149
 +  Symbols:   94
-+  CStrings:  443
++  CStrings:  449
  
 Symbols:
 + _OBJC_CLASS_$_CARSetupPrompts

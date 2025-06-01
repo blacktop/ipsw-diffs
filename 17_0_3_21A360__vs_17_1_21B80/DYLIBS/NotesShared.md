@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x240
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x278
 -  __AUTH_CONST.__auth_got: 0x2090
 +  __AUTH_CONST.__auth_got: 0x20b0
    __AUTH.__objc_data: 0x29f0
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3BBCAFC0-FE65-3FFC-B253-BE07FC5EC5BB
 -  Functions: 17245
 -  Symbols:   35073
--  CStrings:  13238
+-  CStrings:  15043
++  UUID: 48ADADD5-B637-3F87-A607-01E9624C0993
 +  Functions: 17263
 +  Symbols:   35120
-+  CStrings:  13262
++  CStrings:  15068
  
 Symbols:
 + +[ICAccount(Management) defaultAccountInContext:].cold.3

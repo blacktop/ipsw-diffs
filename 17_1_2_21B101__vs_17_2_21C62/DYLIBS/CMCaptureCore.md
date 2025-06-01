@@ -27,13 +27,16 @@
    __DATA.__objc_classrefs: 0x8
    __DATA.__data: 0x8
 
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B2D9C8F-F975-329A-967F-9D6981F1F804
++  UUID: 6C055B75-DF9A-3848-AE07-B3D2A28B7685
    Functions: 6
 -  Symbols:   2224
--  CStrings:  2003
+-  CStrings:  4001
 +  Symbols:   2237
-+  CStrings:  2015
++  CStrings:  4025
  
 Symbols:
 + _kFigAppleMakerNote_FusionMode

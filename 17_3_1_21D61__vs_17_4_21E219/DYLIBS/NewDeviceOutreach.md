@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A69CF8BD-E09C-3D4E-AB17-AFB36B0BB2A5
++  UUID: 1D274BD6-7105-3A31-B527-E7D926621B6D
    Functions: 545
    Symbols:   1984
--  CStrings:  1303
-+  CStrings:  1305
+-  CStrings:  1544
++  CStrings:  1546
  
 Symbols:
 + ___58-[NDOFollowUp _postFollowUpWithDevicesInfo:repostAllowed:]_block_invoke.62

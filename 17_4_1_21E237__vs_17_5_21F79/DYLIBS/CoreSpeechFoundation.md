@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8264FD18-4F6B-37B5-9C8C-0DB1FB33CDAB
 -  Functions: 3138
 -  Symbols:   11010
--  CStrings:  6302
+-  CStrings:  7099
++  UUID: 9BB25532-10A2-3300-8F68-65A6042733C7
 +  Functions: 3154
 +  Symbols:   11054
-+  CStrings:  6338
++  CStrings:  7142
  
 Symbols:
 + +[CSConfig exclaveHALInputNumChannelsWithDSP]

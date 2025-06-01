@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 112938AF-4A4C-357F-B1C0-D13B919A90C5
 -  Functions: 219
 -  Symbols:   823
--  CStrings:  413
+-  CStrings:  508
++  UUID: ACC515C5-AADD-39AF-9978-9FFB5CA518D2
 +  Functions: 227
 +  Symbols:   840
-+  CStrings:  416
++  CStrings:  511
  
 Symbols:
 + -[BRInterfaceLegacy serviceRemovedHandler:]

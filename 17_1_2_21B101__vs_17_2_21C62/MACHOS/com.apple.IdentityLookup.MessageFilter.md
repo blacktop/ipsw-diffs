@@ -21,4 +21,13 @@
    __DATA_CONST.__auth_got: 0x4a8
    __DATA_CONST.__got: 0xe8
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: AEC8B175-A8BD-3CF6-A6A8-4C97F6DE13E1
++  UUID: 31A9AE31-F620-356D-BFCF-27D627C1427C
+   Functions: 610
+   Symbols:   130
+   CStrings:  193
+
 ```

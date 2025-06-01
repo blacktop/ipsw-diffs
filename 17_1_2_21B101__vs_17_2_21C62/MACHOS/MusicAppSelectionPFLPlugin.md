@@ -75,10 +75,12 @@
 +  - /usr/lib/swift/libswiftMetal.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 1949441F-AFFD-3BAA-A19B-15F699316452
 -  Functions: 10
 -  Symbols:   33
 -  CStrings:  57
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: BE62B5DD-773C-332D-A83E-1C749054F72F
 +  Functions: 413
 +  Symbols:   110
 +  CStrings:  183

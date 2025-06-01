@@ -27,7 +27,11 @@
    - /usr/lib/system/libsystem_blocks.dylib
    - /usr/lib/system/libsystem_c.dylib
 
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: FE25EABC-58A7-39A6-B28E-ABA01D5F2074
++  UUID: 1A2BCBB2-500F-395F-8B03-324DAD0ED77D
    Functions: 19
    Symbols:   74
 -  CStrings:  77

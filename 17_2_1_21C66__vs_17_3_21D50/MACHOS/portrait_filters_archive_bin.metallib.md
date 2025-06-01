@@ -10,6 +10,11 @@
    __TEXT.__descriptor: 0x1e30
    __TEXT.__compute: 0x3fbc0
    __TEXT.__reflection: 0x9dc0
+-  UUID: BA460AE0-892E-3739-9A8F-8A8E2C078338
++  UUID: 4BE04F97-831C-3E0D-8DED-89006A13F05E
+   Functions: 0
+   Symbols:   692
+   CStrings:  0
 Symbols:
 + _air-lipo-be1673.out_10_descriptor_begin
 + _air-lipo-be1673.out_10_descriptor_end

@@ -35,11 +35,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/VisualVoicemail.framework/VisualVoicemail
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36C1D012-2B3F-3737-BCF8-7FA06A5F8FD8
++  UUID: 208878CE-89C3-3355-B493-3C2D3F379712
    Functions: 86
    Symbols:   142
--  CStrings:  390
-+  CStrings:  391
+-  CStrings:  412
++  CStrings:  413
  
 CStrings:
 + "T@\"NSString\",?,R,C"

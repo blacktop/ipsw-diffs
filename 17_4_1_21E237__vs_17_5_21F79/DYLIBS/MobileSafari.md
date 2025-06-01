@@ -50,7 +50,7 @@
 +  __AUTH_CONST.__const: 0xff8
    __AUTH_CONST.__objc_doubleobj: 0x130
    __AUTH_CONST.__objc_arrayobj: 0x1e0
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__auth_got: 0xb68
 
    __DATA.__data: 0x2320
    __DATA.__bss: 0xda0
@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F40A0FD9-ABBB-3620-9F29-69CF641BF260
 -  Functions: 5963
 -  Symbols:   21218
--  CStrings:  10121
+-  CStrings:  11098
++  UUID: 348EBC7B-1330-31FF-9368-33F8A9C02E37
 +  Functions: 5964
 +  Symbols:   21225
-+  CStrings:  10124
++  CStrings:  11101
  
 Symbols:
 + ___58-[SFNavigationBarToggleButton initWithImage:forInputMode:]_block_invoke

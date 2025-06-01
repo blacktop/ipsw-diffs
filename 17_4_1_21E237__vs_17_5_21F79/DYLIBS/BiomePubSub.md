@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x553a
    __TEXT.__objc_methtype: 0xd0d
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: BBE4582B-63ED-3FB5-8DD4-08FE855FD851
++  UUID: B74B40C3-55F8-3373-B426-1C577F5BB851
+   Functions: 2413
+   Symbols:   7846
+   CStrings:  1804
+
 ```

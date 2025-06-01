@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x390
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x230
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x700
 -  __AUTH.__objc_data: 0x8e8
 +  __AUTH.__objc_data: 0x8c0
@@ -66,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B69B5868-16A3-3CB3-A48D-630E810EEB58
 -  Functions: 919
 -  Symbols:   3635
--  CStrings:  1929
+-  CStrings:  2165
++  UUID: B001A8D0-6DB2-3CF6-A01E-DE9873CBFBD0
 +  Functions: 925
 +  Symbols:   3650
-+  CStrings:  1946
++  CStrings:  2184
  
 Symbols:
 + -[RCPSyntheticEventStream _squeezeWithPhase:withPage:withUsage:withVersion:withStage:withTransition:withNextThreshold:withPressedThreshold:withReleasedThreshold:withNormalizedForce:withNormalizedForceVelocity:]

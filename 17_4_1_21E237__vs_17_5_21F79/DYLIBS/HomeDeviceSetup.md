@@ -78,12 +78,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: E80F9C5A-0D36-340E-8C5C-DC34E1FE283D
 -  Functions: 1248
 -  Symbols:   4706
--  CStrings:  4431
+-  CStrings:  4928
++  UUID: 86A1EC66-166F-3426-96BF-371225574450
 +  Functions: 1278
 +  Symbols:   4800
-+  CStrings:  4528
++  CStrings:  5045
  
 Symbols:
 + +[HDSDefaults disableNeedsSetup]

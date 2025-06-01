@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_protolist: 0x18
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C614193-1778-3388-8EE0-6CD8DA119494
++  UUID: 0B7A6F4D-56B0-392E-BC8D-BA033CA84F4F
    Functions: 52
    Symbols:   83
--  CStrings:  256
-+  CStrings:  258
+-  CStrings:  294
++  CStrings:  298
  
 CStrings:
 + "DiagnosticLog"

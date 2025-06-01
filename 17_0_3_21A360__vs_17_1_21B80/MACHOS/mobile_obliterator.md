@@ -25,11 +25,15 @@
    __DATA.__objc_selrefs: 0x48
    __DATA.__objc_classrefs: 0x10
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libutil.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A17689CF-C618-34C7-B4BC-6A9B3BF25625
++  UUID: E777CFA8-C78E-3CAF-8BBC-5F9029D6366E
    Functions: 209
    Symbols:   352
--  CStrings:  947
-+  CStrings:  950
+-  CStrings:  1051
++  CStrings:  1055
  
 CStrings:
 + "%s: Unloaded wakeboardd"

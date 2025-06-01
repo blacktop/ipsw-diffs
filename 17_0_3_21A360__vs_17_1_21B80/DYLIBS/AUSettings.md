@@ -33,13 +33,16 @@
    __AUTH_CONST.__objc_const: 0x160
    __AUTH_CONST.__auth_got: 0x160
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 697451C9-B0E8-3589-BFD2-499D6C80C4D0
++  UUID: C14A1425-6A8F-31CF-ABD9-A14DB5EB5FBE
    Functions: 52
 -  Symbols:   564
--  CStrings:  433
+-  CStrings:  731
 +  Symbols:   582
-+  CStrings:  451
++  CStrings:  767
  
 Symbols:
 + ___block_literal_global.636

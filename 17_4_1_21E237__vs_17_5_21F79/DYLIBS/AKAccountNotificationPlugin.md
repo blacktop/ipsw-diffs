@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DCB96C3-8F95-3B97-BB26-D4AC54CBFAFE
 -  Functions: 57
++  UUID: CEC3FC80-A795-3FD8-B64A-35C16C7EF944
 +  Functions: 59
    Symbols:   79
--  CStrings:  206
-+  CStrings:  211
+-  CStrings:  211
++  CStrings:  216
  
 CStrings:
 + "AKFollowUpSynchronizer: Client provided nil account, defaulting to the primary iCloud account"

@@ -25,11 +25,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D97FEB48-64AD-33B9-9491-4DBD625EF7A3
 -  Functions: 9000
++  UUID: DA9EB2BF-5A60-35CD-B8A9-D83B3F04B86B
 +  Functions: 9001
    Symbols:   2694
--  CStrings:  1322
-+  CStrings:  1325
+-  CStrings:  1381
++  CStrings:  1384
  
 CStrings:
 + "%s Circular in app follow up detected, skipping."

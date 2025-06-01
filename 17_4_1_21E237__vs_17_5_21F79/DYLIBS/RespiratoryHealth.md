@@ -47,12 +47,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4205B9B1-0B70-3AEE-8DF3-63179B49F36E
 -  Functions: 193
 -  Symbols:   845
--  CStrings:  476
+-  CStrings:  531
++  UUID: 8D7FEC36-44E3-313B-9825-479C1A7B6731
 +  Functions: 194
 +  Symbols:   847
-+  CStrings:  478
++  CStrings:  534
  
 Symbols:
 + -[HKRPOxygenSaturationSettings _setBackgroundRecordingsDuringSleepMode:]

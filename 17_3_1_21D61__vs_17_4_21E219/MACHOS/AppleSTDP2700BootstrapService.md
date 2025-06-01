@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x130
 
+   - /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/MobileAccessoryUpdater
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67ED5508-2732-3A43-8951-0DDDCF0C3697
++  UUID: 223BF8AE-F0EF-331D-8EB6-193819F78937
    Functions: 44
    Symbols:   346
--  CStrings:  154
-+  CStrings:  155
+-  CStrings:  166
++  CStrings:  167
  
 CStrings:
 + "T@\"NSString\",?,R,C"

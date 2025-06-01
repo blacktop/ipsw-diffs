@@ -63,12 +63,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DA82A769-240E-3916-99D8-95B48279FCD9
 -  Functions: 148
 -  Symbols:   154
--  CStrings:  565
+-  CStrings:  717
++  UUID: 9A72CEC1-774C-31C2-9C5D-54D1BC6F460A
 +  Functions: 159
 +  Symbols:   158
-+  CStrings:  615
++  CStrings:  775
  
 Symbols:
 + _OBJC_CLASS_$_WRWorkflow

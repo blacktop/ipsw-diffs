@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82A7605D-A0F6-37D1-A849-117E5DF1FE75
 -  Functions: 246
 -  Symbols:   849
--  CStrings:  655
+-  CStrings:  912
++  UUID: 08945FF8-3AF3-3FE6-91A0-E041308EAC56
 +  Functions: 258
 +  Symbols:   873
-+  CStrings:  663
++  CStrings:  919
  
 Symbols:
 + -[WatchControlSettings accessibilityDomainBoolForKey:]

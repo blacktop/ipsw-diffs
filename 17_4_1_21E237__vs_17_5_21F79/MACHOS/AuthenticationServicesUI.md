@@ -17,6 +17,15 @@
    __TEXT.__cstring: 0x638
    __TEXT.__const: 0x94
    __TEXT.__gcc_except_tab: 0x58
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 603650C2-E16A-37FB-BE3A-92BE93A8CD54
++  UUID: 8DCA84DA-8BE8-3057-91FF-C98BE1B31E69
+   Functions: 104
+   Symbols:   201
+   CStrings:  355
 CStrings:
 + "ASAuthorizationViewControllerDelegate"
 + "v24@0:8@\"UIViewController\"16"

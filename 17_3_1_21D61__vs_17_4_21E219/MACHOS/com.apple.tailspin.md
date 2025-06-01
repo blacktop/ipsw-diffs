@@ -40,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: B1A506AC-0449-3A96-ABE5-3DA6E1B4DE88
 -  Functions: 7
 -  Symbols:   55
--  CStrings:  31
+-  CStrings:  40
++  UUID: 7D2F52B6-78ED-3DDB-BDCB-11071C3AAD84
 +  Functions: 8
 +  Symbols:   45
-+  CStrings:  13
++  CStrings:  15
  
 Symbols:
 + _tailspin_request_unique_id

@@ -77,7 +77,6 @@
 -  __DATA.__objc_ivar: 0x284
 -  __DATA.__data: 0xdf0
 -  __DATA.__bss: 0x130
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x7e0
 +  __AUTH.__objc_data: 0x678
 +  __AUTH.__data: 0xe8
@@ -109,12 +108,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 95D68CBF-E9B7-3314-90DC-09FFCA7A17D1
 -  Functions: 1415
 -  Symbols:   5526
--  CStrings:  3300
+-  CStrings:  3863
++  UUID: 8CC896D1-7F17-3FBE-9A8D-C5637C05E403
 +  Functions: 1550
 +  Symbols:   5859
-+  CStrings:  3518
++  CStrings:  4136
  
 Symbols:
 + +[PSUIPrefsListController isFaceTimeRestricted:]

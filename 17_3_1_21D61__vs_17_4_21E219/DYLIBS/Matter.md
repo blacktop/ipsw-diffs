@@ -46,7 +46,6 @@
 -  __AUTH_CONST.__objc_const: 0xeb20
 -  __AUTH_CONST.__cfstring: 0x3500
 -  __AUTH_CONST.__objc_intobj: 0x47a0
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x880
 -  __AUTH.__objc_data: 0xfcd0
 +  __DATA_CONST.__objc_const: 0x33f68
@@ -58,7 +57,6 @@
 +  __AUTH_CONST.__objc_const: 0x11b80
 +  __AUTH_CONST.__cfstring: 0x4000
 +  __AUTH_CONST.__objc_intobj: 0x4b48
-+  __AUTH_CONST.__auth_ptr: 0x18
 +  __AUTH_CONST.__auth_got: 0x868
 +  __AUTH.__objc_data: 0x12e30
    __AUTH.__data: 0x370
@@ -82,12 +80,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88847EEA-DF1F-3B5F-BEFD-7E88ECD87E98
 -  Functions: 38235
 -  Symbols:   1670
--  CStrings:  18208
+-  CStrings:  18632
++  UUID: 72389CD6-E8E5-3F25-A70F-E5D152AFC23E
 +  Functions: 41781
 +  Symbols:   2261
-+  CStrings:  19946
++  CStrings:  20458
  
 Symbols:
 + _OBJC_CLASS_$_MTRAccountLoginClusterLoggedOutEvent

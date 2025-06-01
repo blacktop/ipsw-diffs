@@ -58,7 +58,6 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x3d0
 -  __AUTH_CONST.__const: 0x6058
--  __AUTH_CONST.__auth_ptr: 0x240
 -  __AUTH_CONST.__auth_got: 0x17a8
 -  __AUTH.__objc_data: 0x62b8
 -  __AUTH.__data: 0x33e8
@@ -66,7 +65,6 @@
 -  __DATA.__objc_classrefs: 0x238
 -  __DATA.__objc_superrefs: 0x38
 +  __AUTH_CONST.__const: 0x6048
-+  __AUTH_CONST.__auth_ptr: 0x238
 +  __AUTH_CONST.__auth_got: 0x1868
 +  __AUTH.__objc_data: 0x62b0
 +  __AUTH.__data: 0x34c0
@@ -112,12 +110,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AF527AAE-4138-392B-A403-8C563083F3A0
 -  Functions: 3477
 -  Symbols:   2467
--  CStrings:  1924
+-  CStrings:  1934
++  UUID: B19DD37D-D994-3801-923A-9AC7A6B015F6
 +  Functions: 3505
 +  Symbols:   2486
-+  CStrings:  1947
++  CStrings:  1957
  
 Symbols:
 + _OBJC_CLASS_$_AXHapticFeedbackManager

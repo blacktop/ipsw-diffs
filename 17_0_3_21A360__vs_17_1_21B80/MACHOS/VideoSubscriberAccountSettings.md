@@ -40,13 +40,16 @@
    __DATA.__objc_superrefs: 0x18
    __DATA.__objc_ivar: 0x68
 
+   - /System/Library/PrivateFrameworks/VideosUI.framework/VideosUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 280B5513-D216-3DAB-82B5-4099AD3C4CAB
++  UUID: 25D9C6E5-A258-3BFB-90A4-F5DA973C8D2E
    Functions: 206
 -  Symbols:   175
--  CStrings:  581
+-  CStrings:  623
 +  Symbols:   174
-+  CStrings:  578
++  CStrings:  619
  
 Symbols:
 - _ASCLockupContextTVProvider

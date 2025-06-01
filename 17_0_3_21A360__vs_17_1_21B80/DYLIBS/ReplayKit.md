@@ -34,12 +34,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7661D7BD-9F72-37EC-ADE2-72653A645616
 -  Functions: 914
 -  Symbols:   3347
--  CStrings:  1884
+-  CStrings:  2034
++  UUID: 29A7D312-912A-3404-B571-CCE13C41C9BE
 +  Functions: 917
 +  Symbols:   3356
-+  CStrings:  1886
++  CStrings:  2036
  
 Symbols:
 + ___71-[RPStoreManager loadItemDetailsForBundleIdentifier:completionHandler:]_block_invoke.55

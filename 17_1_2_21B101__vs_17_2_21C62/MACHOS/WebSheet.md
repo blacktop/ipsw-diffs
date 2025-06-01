@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/WebUI.framework/WebUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E1969C8-E423-3362-BB7B-A7649A4F02B1
 +  - /usr/lib/swift/libswiftDarwin.dylib
++  UUID: 766C60DD-F8A6-32C2-95E1-18AAB3FE2819
    Functions: 38
 -  Symbols:   78
 +  Symbols:   79
-   CStrings:  262
+   CStrings:  281
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftDarwin

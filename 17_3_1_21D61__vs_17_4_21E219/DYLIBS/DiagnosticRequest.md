@@ -53,12 +53,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B696785-34AA-3214-ABA1-FCE5D55400FD
 -  Functions: 298
 -  Symbols:   1208
--  CStrings:  628
+-  CStrings:  702
++  UUID: 4D703DD7-145F-348F-8D85-28DEC1E6C1EB
 +  Functions: 301
 +  Symbols:   1219
-+  CStrings:  634
++  CStrings:  708
  
 Symbols:
 + -[_DRCConnectionState hasConnection]

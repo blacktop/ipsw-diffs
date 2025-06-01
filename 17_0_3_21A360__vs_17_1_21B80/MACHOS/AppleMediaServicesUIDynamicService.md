@@ -54,11 +54,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DA5BC1A-97DF-3BD4-80D2-59E0B662421F
 -  Functions: 1475
++  UUID: 5F2989C6-5893-3ACA-A0A5-ADF3DE2F1613
 +  Functions: 1490
    Symbols:   205
--  CStrings:  496
-+  CStrings:  497
+-  CStrings:  504
++  CStrings:  505
  
 CStrings:
 + "ams_sanitizedForSecureCoding"

@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyBasebandDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CFDCDF97-401A-3D30-AA07-B93196718948
 -  Functions: 624
 -  Symbols:   329
--  CStrings:  7966
+-  CStrings:  12933
++  UUID: AF52422E-D348-3709-97CA-74D684006C66
 +  Functions: 625
 +  Symbols:   330
-+  CStrings:  8059
++  CStrings:  13113
  
 Symbols:
 + _OBJC_CLASS_$_HUAccessoryHearingSettings

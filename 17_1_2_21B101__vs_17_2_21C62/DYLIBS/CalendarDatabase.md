@@ -41,7 +41,6 @@
    __AUTH_CONST.__objc_const: 0x1000
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xfd0
 +  __AUTH_CONST.__auth_got: 0xfe0
    __AUTH.__objc_data: 0x910
@@ -51,12 +50,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1B77F7D0-6668-3722-BEB6-8C9F102671A7
 -  Functions: 4062
 -  Symbols:   9237
--  CStrings:  4448
+-  CStrings:  5959
++  UUID: 7299EEC5-B4F0-3E07-AA95-0DA48A9FFC9E
 +  Functions: 4071
 +  Symbols:   9253
-+  CStrings:  4458
++  CStrings:  5975
  
 Symbols:
 + GCC_except_table138

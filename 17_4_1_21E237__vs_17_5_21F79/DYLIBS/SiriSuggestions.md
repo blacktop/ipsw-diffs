@@ -10,8 +10,8 @@
    __TEXT.__auth_stubs: 0x3450
    __TEXT.__const: 0x7ab0
 
+   __DATA_CONST.__objc_classrefs: 0x78
    __AUTH_CONST.__const: 0x5948
-   __AUTH_CONST.__auth_ptr: 0x1f8
    __AUTH_CONST.__auth_got: 0x1a28
 -  __AUTH.__data: 0x1c68
 -  __AUTH.__objc_data: 0x1e0
@@ -34,5 +34,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Intents.framework/Intents
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 93A9FB29-20CC-3164-958B-AA2828F6E7E5
++  UUID: BC869EF4-0E3E-3F8C-80D4-8D6D224063AE
+   Functions: 6923
+   Symbols:   5326
+   CStrings:  872
 
 ```

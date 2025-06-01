@@ -33,13 +33,16 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x1500
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 453EA817-FB32-3DB2-AD3C-0C979F5A72BC
++  UUID: CFA3B19C-F218-345A-A4AD-C355381024B2
    Functions: 484
 -  Symbols:   1982
--  CStrings:  1129
+-  CStrings:  1297
 +  Symbols:   1981
-+  CStrings:  1128
++  CStrings:  1296
  
 Symbols:
 + _objc_msgSend$aa_isNotesMigrated

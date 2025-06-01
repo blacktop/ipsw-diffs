@@ -49,9 +49,8 @@
    __AUTH_CONST.__cfstring: 0x16380
    __AUTH_CONST.__objc_arrayobj: 0x3a8
    __AUTH_CONST.__objc_intobj: 0x4c8
-
+   __AUTH_CONST.__objc_doubleobj: 0xa0
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0xd90
 -  __AUTH.__objc_data: 0x32a0
 +  __AUTH.__objc_data: 0x32f0
@@ -71,12 +70,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D7FAF284-E4D2-374F-8787-42F2B3348995
 -  Functions: 8464
 -  Symbols:   28979
--  CStrings:  11598
+-  CStrings:  14442
++  UUID: ACFC9109-23E8-3301-9BE4-17368D89FE7B
 +  Functions: 8479
 +  Symbols:   29023
-+  CStrings:  11608
++  CStrings:  14452
  
 Symbols:
 + -[WBSProfileDataManager .cxx_destruct]

@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B2FB8387-453E-3680-A0D4-2D00512C880C
 -  Functions: 14
 -  Symbols:   72
--  CStrings:  115
+-  CStrings:  118
++  UUID: 359A8025-904F-31FC-945A-70D524F1315B
 +  Functions: 17
 +  Symbols:   73
-+  CStrings:  120
++  CStrings:  123
  
 Symbols:
 + _objc_msgSendSuper2

@@ -41,7 +41,7 @@
    __DATA_CONST.__objc_classrefs: 0x180
    __DATA_CONST.__objc_superrefs: 0x118
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0x1d8
    __AUTH_CONST.__auth_got: 0x758
    __AUTH.__objc_data: 0x640
 -  __DATA.__objc_ivar: 0x25c
@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EDAB85A6-A665-3285-83FD-75A0825D14DF
 -  Functions: 1560
 -  Symbols:   4822
--  CStrings:  1802
+-  CStrings:  1979
++  UUID: 3675E22C-71D0-37C2-A8BC-811929980011
 +  Functions: 1563
 +  Symbols:   4830
-+  CStrings:  1806
++  CStrings:  1983
  
 Symbols:
 + -[ASDTAudioDevice setTerminated:]

@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/IntelligentRoutingDaemon.framework/IntelligentRoutingDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6662D8B6-4569-398C-9389-8B832F57D22D
++  UUID: D0166AC6-009E-3FAA-8D63-75870EB239F9
+   Functions: 4
+   Symbols:   51
+   CStrings:  35
+
 ```

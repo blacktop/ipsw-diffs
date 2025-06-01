@@ -56,8 +56,6 @@
 -  __AUTH_CONST.__objc_const: 0x3c78
 +  __AUTH_CONST.__objc_const: 0x3d08
    __AUTH_CONST.__objc_intobj: 0x288
--  __AUTH_CONST.__auth_ptr: 0x8
-+  __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x50
 -  __AUTH_CONST.__auth_got: 0x5e8
@@ -90,9 +88,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63D92C29-07E2-31BD-AC3D-009964B6CBEF
 -  Functions: 2726
 -  Symbols:   10003
--  CStrings:  3679
+-  CStrings:  3967
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftCoreLocation.dylib
@@ -102,9 +101,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 3A77EF2C-244A-3F50-A1AA-26D7D64C3483
 +  Functions: 2816
 +  Symbols:   10226
-+  CStrings:  3792
++  CStrings:  4080
  
 Symbols:
 + +[CNUIMeContactMonitor log]

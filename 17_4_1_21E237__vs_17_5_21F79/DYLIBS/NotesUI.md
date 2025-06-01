@@ -61,11 +61,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6EE519A8-8CC5-3E83-83D8-2DC6EC324151
++  UUID: 4F715579-8BBE-3C67-A313-9B63CCC154C9
    Functions: 12450
    Symbols:   28035
--  CStrings:  13442
-+  CStrings:  13446
+-  CStrings:  14782
++  CStrings:  14786
  
 Symbols:
 + ___214-[ICAttachmentImageModel(PreviewGeneration) generateFullSizePreviewWithAttachmentIdentifier:existingPreviewImage:markupModelData:imageOrientation:imageFilterType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad:]_block_invoke.59

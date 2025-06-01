@@ -21,7 +21,9 @@
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libSparseBLAS.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: AD7B7978-3A2B-3E81-B3A0-38D29595482E
 -  Functions: 1058
++  UUID: 9FA9B9D2-B730-307E-BA20-6599471DCCEE
 +  Functions: 1055
    Symbols:   300
    CStrings:  441

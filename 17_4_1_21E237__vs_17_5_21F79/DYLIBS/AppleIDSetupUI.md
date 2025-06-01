@@ -61,9 +61,8 @@
    __AUTH_CONST.__cfstring: 0xac0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x29a0
-+  __AUTH_CONST.__const: 0x28e8
-   __AUTH_CONST.__auth_ptr: 0xe0
 -  __AUTH_CONST.__auth_got: 0xb78
++  __AUTH_CONST.__const: 0x28e8
 +  __AUTH_CONST.__auth_got: 0xb20
    __AUTH.__objc_data: 0x1240
    __AUTH.__data: 0x1608
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 68AB68D6-AB99-3ABE-BD4A-DE2169303DCC
 -  Functions: 1802
 -  Symbols:   1260
--  CStrings:  1091
+-  CStrings:  1177
++  UUID: 42C77874-BB4E-3B5E-99C7-103C372271BC
 +  Functions: 1782
 +  Symbols:   1247
-+  CStrings:  1082
++  CStrings:  1168
  
 Symbols:
 - _OBJC_CLASS_$_STManagementState

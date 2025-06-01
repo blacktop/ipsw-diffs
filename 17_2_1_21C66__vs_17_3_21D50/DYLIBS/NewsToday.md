@@ -33,13 +33,16 @@
    __AUTH_CONST.__cfstring: 0x1e40
    __AUTH_CONST.__objc_const: 0x1910
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 464824C0-3378-3D3C-96C1-48455240DB3E
++  UUID: 206A6971-247D-3032-A2BF-C28DC1BA69CD
    Functions: 1978
 -  Symbols:   6798
--  CStrings:  3007
+-  CStrings:  3249
 +  Symbols:   6800
-+  CStrings:  3009
++  CStrings:  3251
  
 Symbols:
 + _objc_msgSend$setWidgetBackgroundInteractionEnabled:

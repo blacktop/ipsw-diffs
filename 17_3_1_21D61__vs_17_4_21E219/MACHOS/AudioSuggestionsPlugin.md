@@ -42,7 +42,9 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC1AC92E-7DBD-3A2E-84E5-4F8B7C6F116F
 -  Functions: 156
++  UUID: 72255E7C-8B62-3827-AF08-C12023F6B9D6
 +  Functions: 159
    Symbols:   77
 -  CStrings:  35

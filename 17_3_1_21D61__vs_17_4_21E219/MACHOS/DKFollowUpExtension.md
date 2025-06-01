@@ -15,4 +15,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A2802F68-B26A-3CB4-9787-CBB26CDCB880
++  UUID: B6E069CE-8702-3AA8-8205-24FE9D23B016
+   Functions: 4
+   Symbols:   43
+   CStrings:  18
+
 ```

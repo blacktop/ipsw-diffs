@@ -31,12 +31,15 @@
    __DATA.__got_weak: 0xa0
    __DATA.__data: 0x98
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: D67B40D4-6518-392F-8516-91FA4D20FE65
++  UUID: 2A506E34-C898-3955-9F40-DE20BB2C0A42
    Functions: 201
 -  Symbols:   227
 +  Symbols:   231
-   CStrings:  124
+   CStrings:  201
  
 Symbols:
 + __ZN24IOHIDPointerScrollFilter18statsTimerCallbackEPv

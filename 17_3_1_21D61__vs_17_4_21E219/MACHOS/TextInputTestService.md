@@ -29,7 +29,11 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D9277AE-6D50-3A97-9985-A7DA77767A9F
++  UUID: 460BFF2F-119E-3110-876A-9470B8F125A8
    Functions: 3
    Symbols:   19
 -  CStrings:  54

@@ -21,6 +21,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A7AD5160-1DA6-34DA-A4C0-EF593EC88DC8
++  UUID: 75D1697B-5A3D-35E8-AB47-EF4813555F21
+   Functions: 152
+   Symbols:   738
+   CStrings:  1149
 CStrings:
 + "ZhuGe-280.120.2"
 - "ZhuGe-280.100.9"

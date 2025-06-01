@@ -23,11 +23,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB784A01-6688-3254-98F6-0B024882F9BC
 -  Functions: 1193
 -  Symbols:   3192
++  UUID: 8F5A8540-6096-31DD-80B6-7753EC573E83
 +  Functions: 1213
 +  Symbols:   3218
-   CStrings:  1650
+   CStrings:  1785
  
 Symbols:
 + __ZN11accelerate210production15extracty_storeyIfLy0EEEvlPT_l

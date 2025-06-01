@@ -26,11 +26,15 @@
    __AUTH_CONST.__objc_intobj: 0x108
    __AUTH_CONST.__objc_arrayobj: 0x30
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 48B0F1C8-4B60-3EAD-97D7-15184031B2A5
++  UUID: 2477D8E3-D00F-3D56-9556-FE2A71672832
    Functions: 972
    Symbols:   3565
--  CStrings:  1698
-+  CStrings:  1707
+-  CStrings:  2052
++  CStrings:  2070
  
 Symbols:
 + _sharedInstance.onceToken.178

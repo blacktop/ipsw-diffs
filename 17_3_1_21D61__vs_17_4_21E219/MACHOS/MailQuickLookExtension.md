@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 869E371C-C2AA-3315-8372-C25CCAEAECC9
 -  Functions: 452
 -  Symbols:   270
--  CStrings:  1471
+-  CStrings:  1525
++  UUID: 1E307321-BBD3-333E-998B-D79EFC2380E4
 +  Functions: 453
 +  Symbols:   271
-+  CStrings:  1481
++  CStrings:  1538
  
 Symbols:
 + _OBJC_CLASS_$_MFAddressAtomStatusManager

@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 661B6382-79C4-317B-BB2A-C7E11A9F16B4
 -  Functions: 1360
 -  Symbols:   5413
--  CStrings:  2706
+-  CStrings:  3035
++  UUID: 371BF6B5-2C95-3644-9A50-AF0277335BD0
 +  Functions: 1359
 +  Symbols:   5409
-+  CStrings:  2700
++  CStrings:  3028
  
 Symbols:
 + +[HKCountrySet(HKFeatureIdentifierElectrocardiogramRecordingV2) localAvailabilityForHKFeatureIdentifierElectrocardiogramRecordingV2]

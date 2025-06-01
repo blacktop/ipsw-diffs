@@ -33,6 +33,15 @@
    __DATA_DIRTY.__bss: 0x1500
    __DATA_DIRTY.__common: 0x10
    - /System/Library/Frameworks/Charts.framework/Charts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 708146DE-0B80-3627-9B75-C26CFEE3A236
++  UUID: 70DADA96-A849-3B20-92DC-5F2A6EBBEE26
+   Functions: 13075
+   Symbols:   32167
+   CStrings:  2499
 Symbols:
 + _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo26UIFontDescriptorFeatureKeya_Tg5
 + _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo29UIFontDescriptorAttributeNamea_Tg5Tm

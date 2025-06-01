@@ -49,11 +49,13 @@
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6AD5E90C-5491-3B1E-82B8-8010EB9EE72A
 -  Functions: 1690
++  UUID: B092A056-20B4-3324-A0BF-3BE8096384D5
 +  Functions: 1723
    Symbols:   361
--  CStrings:  3984
-+  CStrings:  4044
+-  CStrings:  5000
++  CStrings:  5075
  
 Symbols:
 + _qsort_b

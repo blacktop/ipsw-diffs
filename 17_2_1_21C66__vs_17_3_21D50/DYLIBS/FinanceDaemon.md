@@ -28,9 +28,13 @@
 +  __DATA_CONST.__objc_selrefs: 0xb30
    __AUTH_CONST.__objc_const: 0x230
    __AUTH_CONST.__const: 0x60e8
-   __AUTH_CONST.__auth_ptr: 0x2a8
+   __AUTH_CONST.__auth_got: 0x23c0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BE46DE17-BD85-329C-95DF-9FA92936609C
++  UUID: E8F0D423-3552-36F7-801B-D46461FE3478
    Functions: 4942
    Symbols:   1539
 -  CStrings:  1333

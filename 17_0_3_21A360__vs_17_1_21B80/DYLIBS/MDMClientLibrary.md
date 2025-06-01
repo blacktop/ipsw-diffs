@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6204A86E-8C3D-3DA2-A5AC-E03F89838328
 -  Functions: 421
 -  Symbols:   2074
--  CStrings:  1196
+-  CStrings:  1537
++  UUID: 744A9700-C7E7-39E2-B8C6-1571FBD7E6B4
 +  Functions: 422
 +  Symbols:   2081
-+  CStrings:  1202
++  CStrings:  1547
  
 Symbols:
 + _DMCEventsTopicOrgToken

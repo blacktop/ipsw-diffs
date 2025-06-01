@@ -45,10 +45,9 @@
    __DATA_CONST.__objc_arraydata: 0x180
    __AUTH_CONST.__cfstring: 0xfe20
    __AUTH_CONST.__objc_const: 0x48
-
+   __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__const: 0xb80
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x11f0
 +  __AUTH_CONST.__auth_got: 0x11f8
    __AUTH.__objc_data: 0xc0
@@ -58,11 +57,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 90740673-8AE0-3973-8000-B3DC0B69DFEF
 -  Functions: 4151
++  UUID: CAA8A8FC-7B8A-3053-880F-F625BA9DA9AC
 +  Functions: 4153
    Symbols:   2158
--  CStrings:  6675
-+  CStrings:  6677
+-  CStrings:  8708
++  CStrings:  8710
  
 CStrings:
 + "copyChatsWithUnreadMessagesWithLimit:"

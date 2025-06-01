@@ -40,12 +40,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0D79726-0C99-3600-9CD7-CA7523B8137F
 -  Functions: 8184
 -  Symbols:   25681
--  CStrings:  11927
+-  CStrings:  12908
++  UUID: 160D8323-B6EA-3B59-8263-06CFF51C8F4F
 +  Functions: 8189
 +  Symbols:   25692
-+  CStrings:  11928
++  CStrings:  12909
  
 Symbols:
 + -[AVMobileChromelessControlsViewController displayModeControlsViewDidDismissContextMenu:]

@@ -22,7 +22,6 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x10
    __DATA_CONST.__objc_classrefs: 0x8
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x2a750
 +  __AUTH_CONST.__const: 0x2a5c0
    __AUTH_CONST.__auth_got: 0x58
@@ -37,7 +36,9 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69F6DBC3-1B43-3821-80F9-B6307F46EA10
 -  Functions: 176
++  UUID: D7F607E0-65D4-3FAA-AC6B-FA29EA45B4EE
 +  Functions: 177
    Symbols:   134
    CStrings:  6

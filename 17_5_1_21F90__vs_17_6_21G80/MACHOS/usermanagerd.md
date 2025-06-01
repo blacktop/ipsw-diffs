@@ -26,11 +26,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: F789A70C-255D-3733-80BC-E692ACE9AB6F
 -  Functions: 1658
 -  Symbols:   460
++  UUID: 22E3A4D5-C109-30D7-A078-FC2820BA82C6
 +  Functions: 1659
 +  Symbols:   461
-   CStrings:  3046
+   CStrings:  3269
  
 Symbols:
 + _time

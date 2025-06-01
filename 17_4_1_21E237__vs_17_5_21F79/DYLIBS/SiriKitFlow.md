@@ -50,7 +50,6 @@
    __DATA_CONST.__objc_classrefs: 0x7e8
 -  __AUTH_CONST.__const: 0x2ef80
 +  __AUTH_CONST.__const: 0x2ef88
-   __AUTH_CONST.__auth_ptr: 0x980
    __AUTH_CONST.__cfstring: 0x2a00
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__auth_got: 0x26a0
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 991E98B3-8D69-33A5-838F-560646C03348
 -  Functions: 46305
 -  Symbols:   23668
--  CStrings:  5048
+-  CStrings:  5384
++  UUID: 5CCA6202-56C4-3885-AD05-B86067536A51
 +  Functions: 46312
 +  Symbols:   23671
-+  CStrings:  5051
++  CStrings:  5387
  
 Symbols:
 + _symbolic _____Sg 19SiriFlowEnvironment14CurrentRequestC

@@ -18,4 +18,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Intents.framework/Intents
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08033EC8-09B5-3C4E-94FE-EC88741F9D19
++  UUID: 5F9B21E0-501C-3B7F-89F3-B62ED6652CA0
+   Functions: 78
+   Symbols:   123
+   CStrings:  141
+
 ```

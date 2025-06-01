@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/RelevanceEngineUI.framework/RelevanceEngineUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4E819443-59F9-3BDA-AF89-7202CFD0512A
++  UUID: 64C40295-B19C-3429-B773-1F573BFEACB1
+   Functions: 43
+   Symbols:   108
+   CStrings:  182
+
 ```

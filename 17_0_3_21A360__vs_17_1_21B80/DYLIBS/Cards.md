@@ -22,11 +22,15 @@
    __DATA_CONST.__objc_arraydata: 0xa0
    __AUTH_CONST.__objc_const: 0xd80
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 369F292C-4FE2-30CD-B969-7DB006057150
++  UUID: 29FC505B-6FEC-3463-8939-F24E7B243B4A
    Functions: 249
    Symbols:   1581
--  CStrings:  741
-+  CStrings:  745
+-  CStrings:  867
++  CStrings:  871
  
 CStrings:
 + "forceEnable3DTouch"

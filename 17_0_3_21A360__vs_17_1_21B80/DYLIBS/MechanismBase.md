@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D2B14B9-23C6-3107-9B5F-4E2A850C7BE7
 -  Functions: 283
 -  Symbols:   1132
--  CStrings:  701
+-  CStrings:  750
++  UUID: 50A48D07-DE2E-3D57-ADE9-5656BF7E7ADA
 +  Functions: 301
 +  Symbols:   1192
-+  CStrings:  734
++  CStrings:  788
  
 Symbols:
 + -[MechanismAssertion .cxx_destruct]

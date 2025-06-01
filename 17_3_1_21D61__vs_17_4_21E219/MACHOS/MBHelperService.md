@@ -69,12 +69,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 55307FD7-F088-36D8-9F74-CC1C073E55A7
 -  Functions: 312
 -  Symbols:   266
--  CStrings:  986
+-  CStrings:  1135
++  UUID: 5AF04A2C-D61A-3A5B-9216-7EDB22E5C889
 +  Functions: 348
 +  Symbols:   271
-+  CStrings:  1052
++  CStrings:  1204
  
 Symbols:
 + _OBJC_CLASS_$_MBTemporaryDirectory

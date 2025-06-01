@@ -19,7 +19,9 @@
    __DATA_CONST.__mod_init_func: 0x10
    __DATA_CONST.__mod_term_func: 0x10
 -  __DATA_CONST.__const: 0x2f78
+-  UUID: B4F62919-92A6-39CB-9DC8-A7B9E934EEBF
 +  __DATA_CONST.__const: 0x31d8
++  UUID: C4731BB6-19CD-3CC5-98F2-B632C016AF0B
    Functions: 44
    Symbols:   599
    CStrings:  12

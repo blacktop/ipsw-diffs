@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x4e8
    __TEXT.__gcc_except_tab: 0x80
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: D3DDD6CE-5B36-31E6-A6DC-A66779E029BA
++  UUID: DCA92121-B57E-35A6-B4C7-5B8243D3C662
+   Functions: 220
+   Symbols:   1022
+   CStrings:  1341
+
 ```

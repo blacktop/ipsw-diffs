@@ -18,8 +18,8 @@
    __TEXT.__swift5_reflstr: 0x1ea
    __TEXT.__swift5_assocty: 0x168
 
+   __DATA_CONST.__objc_selrefs: 0xb0
    __AUTH_CONST.__const: 0xd70
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_const: 0x90
 -  __AUTH_CONST.__auth_got: 0x528
 +  __AUTH_CONST.__auth_got: 0x530
@@ -33,8 +33,11 @@
    __DATA.__common: 0x30
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E314F950-4B9F-312D-A362-B03B96CC1E92
++  UUID: 42E01459-461D-3283-8910-C870EB5CC681
    Functions: 617
 -  Symbols:   293
 +  Symbols:   296

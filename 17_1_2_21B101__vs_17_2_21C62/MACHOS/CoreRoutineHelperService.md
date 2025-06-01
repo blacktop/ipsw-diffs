@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7AA467FC-69F6-33A9-A704-7606198443B8
 -  Functions: 211
 -  Symbols:   199
--  CStrings:  1120
+-  CStrings:  1206
++  UUID: 9B2E5478-FCF1-3AF0-965E-9AC648AD006E
 +  Functions: 231
 +  Symbols:   202
-+  CStrings:  1147
++  CStrings:  1238
  
 Symbols:
 + _OBJC_CLASS_$_GEOMapItemIdentifier

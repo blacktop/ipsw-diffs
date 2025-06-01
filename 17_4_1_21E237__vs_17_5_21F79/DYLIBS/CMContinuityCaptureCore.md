@@ -26,12 +26,15 @@
    __DATA_CONST.__const: 0x1548
    __DATA_CONST.__objc_classlist: 0x168
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34F709E1-2C8C-3602-872E-2BEE840F8B74
++  UUID: F6481262-CD9C-31A0-B958-01927BFDA898
    Functions: 1607
 -  Symbols:   5813
 +  Symbols:   5812
-   CStrings:  3075
+   CStrings:  3491
  
 Symbols:
 - _objc_msgSend$throttled

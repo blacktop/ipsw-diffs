@@ -37,7 +37,6 @@
 +  __AUTH_CONST.__cfstring: 0x10160
    __AUTH_CONST.__const: 0x7980
    __AUTH_CONST.__objc_const: 0x1e8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x2608
 -  __AUTH.__data: 0x598
 +  __AUTH.__data: 0x590
@@ -60,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E9F4300E-5B8F-3248-BAFC-065BDA449C34
 -  Functions: 3072
 -  Symbols:   10055
--  CStrings:  8989
+-  CStrings:  11041
++  UUID: 39464388-A683-3DA5-9FC2-4BC074E3E781
 +  Functions: 3071
 +  Symbols:   10054
-+  CStrings:  9001
++  CStrings:  11060
  
 Symbols:
 + _APCarPlayAVVCServerStatesIncompatibleWithAuxIn

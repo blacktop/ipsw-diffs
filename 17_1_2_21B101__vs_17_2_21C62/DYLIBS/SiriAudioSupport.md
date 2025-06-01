@@ -54,11 +54,9 @@
 -  __DATA_CONST.__objc_const: 0x6900
 -  __DATA_CONST.__objc_selrefs: 0x1c38
 -  __AUTH_CONST.__const: 0x11c40
--  __AUTH_CONST.__auth_ptr: 0x428
 +  __DATA_CONST.__objc_const: 0x6a28
 +  __DATA_CONST.__objc_selrefs: 0x1d38
 +  __AUTH_CONST.__const: 0x11f30
-+  __AUTH_CONST.__auth_ptr: 0x430
    __AUTH_CONST.__objc_const: 0x168
 -  __AUTH_CONST.__cfstring: 0x620
 -  __AUTH_CONST.__auth_got: 0x14d0
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2ED0B5AC-393E-355E-86E2-3545F92D2F52
 -  Functions: 8814
 -  Symbols:   2904
--  CStrings:  3730
+-  CStrings:  3779
++  UUID: 9437C2E1-3C0D-33D4-985E-A2949AB05C00
 +  Functions: 8942
 +  Symbols:   2952
-+  CStrings:  3814
++  CStrings:  3866
  
 Symbols:
 + _OBJC_CLASS_$_BMSiriRecognizedUser

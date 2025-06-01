@@ -43,12 +43,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AB96721B-1EB1-33E0-9C53-FEF962583E66
 -  Functions: 2212
 -  Symbols:   548
--  CStrings:  3882
+-  CStrings:  4372
++  UUID: 0DA5E9E7-8E1D-3741-9319-7672A2B55115
 +  Functions: 2216
 +  Symbols:   552
-+  CStrings:  3885
++  CStrings:  4375
  
 Symbols:
 + __ZN3ctu18XpcJetsamAssertion14createActivityENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE

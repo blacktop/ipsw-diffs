@@ -56,7 +56,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x65f8
 +  __AUTH_CONST.__objc_const: 0xbb38
    __AUTH_CONST.__const: 0x1560
-   __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__cfstring: 0x2d280
 -  __AUTH_CONST.__objc_dictobj: 0x1d38
 +  __AUTH_CONST.__cfstring: 0x2d820
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: FEA5F37D-37AD-36BD-9516-7EC534BAD3DE
 -  Functions: 8929
 -  Symbols:   29842
--  CStrings:  13727
+-  CStrings:  19507
++  UUID: 906D68F4-4D51-3C8D-8ED3-20C2086555F3
 +  Functions: 8972
 +  Symbols:   29997
-+  CStrings:  13844
++  CStrings:  19669
  
 Symbols:
 + +[NSPersistentCloudKitContainerActivityVoucher describeConfiguration:]

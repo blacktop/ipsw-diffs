@@ -50,11 +50,13 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B040C33-5869-3136-B719-89A3EA13A442
 -  Functions: 187
++  UUID: 681C02B7-4187-3673-9262-DC7D78F1CF31
 +  Functions: 188
    Symbols:   149
--  CStrings:  525
-+  CStrings:  534
+-  CStrings:  551
++  CStrings:  561
  
 CStrings:
 + "@\"NSDictionary\"52@0:8@\"NSDictionary\"16Q24@\"NSString\"32i40^@44"

@@ -31,11 +31,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0E065675-3544-3C5D-AEAB-4DAF628900E4
++  UUID: 41011577-01E0-3944-A860-28ACE86BECDD
    Functions: 57
    Symbols:   318
--  CStrings:  155
-+  CStrings:  156
+-  CStrings:  163
++  CStrings:  164
  
 CStrings:
 + "T@\"NSString\",?,R,C"

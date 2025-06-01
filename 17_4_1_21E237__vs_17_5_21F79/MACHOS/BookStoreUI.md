@@ -114,12 +114,14 @@
    - @rpath/BooksUI.framework/BooksUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: F1FDCC77-1B88-3DC7-8778-D389164F5BEA
 -  Functions: 10645
 -  Symbols:   1206
--  CStrings:  6084
+-  CStrings:  6632
++  UUID: 0C927E36-60DC-3D0E-A9AC-B6CA8DA1B4DC
 +  Functions: 11703
 +  Symbols:   1212
-+  CStrings:  6148
++  CStrings:  6693
  
 Symbols:
 + _BSUIDataNameStreakDailyTimeTextStyle

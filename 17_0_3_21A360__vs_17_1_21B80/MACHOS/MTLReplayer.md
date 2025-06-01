@@ -74,12 +74,14 @@
    - @rpath/LLDB.framework/LLDB
    - @rpath/MTLReplayController.framework/MTLReplayController
    - @rpath/libGTLLVMShaderProfilerHelper.dylib
+-  UUID: BED1F3F9-72C4-35DC-AAE5-7356859FC7C3
 -  Functions: 5027
 -  Symbols:   836
--  CStrings:  16187
+-  CStrings:  17912
++  UUID: 38D77CDF-CE3A-3A11-87EA-820278197911
 +  Functions: 5038
 +  Symbols:   839
-+  CStrings:  16212
++  CStrings:  17944
  
 Symbols:
 + _MTLDevice_newLibraryWithFile

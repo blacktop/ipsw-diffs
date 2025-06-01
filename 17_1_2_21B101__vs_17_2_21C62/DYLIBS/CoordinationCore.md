@@ -77,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69E5BB40-9122-3826-A068-050C91246696
 -  Functions: 4083
 -  Symbols:   13214
--  CStrings:  4939
+-  CStrings:  5228
++  UUID: 2FA26329-AE02-30EB-95C1-5B7763EC4ABE
 +  Functions: 4167
 +  Symbols:   13485
-+  CStrings:  5083
++  CStrings:  5382
  
 Symbols:
 + -[COAlarmReadRequest eTag]
@@ -633,6 +635,7 @@ Symbols:
 - _objc_msgSend$generationAndLeaderNotEqualTo:
 - _objc_msgSend$initWithPresenceIdentifier:
 CStrings:
++ ""
 + "\x11%\x11M5"
 + "\x12\x13\x11"
 + "#\"'"

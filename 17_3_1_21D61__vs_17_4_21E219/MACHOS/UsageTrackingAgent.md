@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4A5FE1E-A46A-3209-8630-B3E3EF0A00B7
 -  Functions: 1068
 -  Symbols:   663
--  CStrings:  1238
+-  CStrings:  1324
++  UUID: 407E01CA-F03A-3AD9-9491-3AD2C6453450
 +  Functions: 1277
 +  Symbols:   820
-+  CStrings:  1257
++  CStrings:  1343
  
 Symbols:
 + _$s10Foundation12DateIntervalV19_bridgeToObjectiveCSo06NSDateC0CyF

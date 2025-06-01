@@ -29,7 +29,6 @@
    __AUTH_CONST.__const: 0x180
    __AUTH_CONST.__cfstring: 0x580
    __AUTH_CONST.__objc_const: 0x690
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x358
 -  __DATA.__objc_classrefs: 0xe8
 -  __DATA.__objc_superrefs: 0x70
@@ -37,11 +36,15 @@
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A1372C22-EAE9-323E-AED3-1DDAFEAC8679
++  UUID: 352F84EF-DE27-3511-B3CE-3859960FD03D
    Functions: 330
    Symbols:   1213
--  CStrings:  536
-+  CStrings:  537
+-  CStrings:  580
++  CStrings:  581
  
 CStrings:
 + "T@\"NSString\",?,R,C"

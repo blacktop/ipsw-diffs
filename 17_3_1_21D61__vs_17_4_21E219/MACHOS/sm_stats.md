@@ -21,11 +21,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 1799B1EF-9D34-370A-AF44-F129BF806705
 -  Functions: 557
++  UUID: 052C2CEF-6A9A-3796-AFAA-C022B3CBCF4D
 +  Functions: 560
    Symbols:   116
--  CStrings:  1034
-+  CStrings:  1035
+-  CStrings:  1043
++  CStrings:  1044
  
 CStrings:
 + "%s:%d: %s %lld blocks free in %lld extents, avg %lld.%02lld\n"

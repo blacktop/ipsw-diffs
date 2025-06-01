@@ -45,7 +45,6 @@
 +  __AUTH_CONST.__const: 0x2e80
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x3740
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0x1560
 +  __AUTH_CONST.__auth_got: 0x1558
    __DATA.__got_weak: 0x88
@@ -70,12 +69,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17A0319C-38C4-3370-BEA1-58A130140B49
 -  Functions: 18674
 -  Symbols:   51355
--  CStrings:  6783
+-  CStrings:  7225
++  UUID: 788AC340-3B2D-3CF0-854A-014B931A69CB
 +  Functions: 18878
 +  Symbols:   51891
-+  CStrings:  6941
++  CStrings:  7383
  
 Symbols:
 + -[Core_Audio_Driver_Host dealloc]

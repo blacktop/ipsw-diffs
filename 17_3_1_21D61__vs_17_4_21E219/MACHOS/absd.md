@@ -30,11 +30,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: 3F918538-749F-3A54-B046-4B0FA50D22E0
 -  Functions: 197
 -  Symbols:   86
++  UUID: 3E83A94F-5932-35E0-B88D-689A6816085A
 +  Functions: 219
 +  Symbols:   90
-   CStrings:  4
+   CStrings:  6
  
 Symbols:
 + _getpid

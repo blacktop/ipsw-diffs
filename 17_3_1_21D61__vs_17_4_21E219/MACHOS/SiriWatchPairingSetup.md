@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x120
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A7EB830-6134-36BE-A064-CBAA900F50CD
++  UUID: 7FC4D42C-F109-3C37-BF1A-339D436AE41D
    Functions: 92
    Symbols:   90
--  CStrings:  178
-+  CStrings:  179
+-  CStrings:  201
++  CStrings:  202
  
 CStrings:
 + "T@\"NSString\",?,R,C"

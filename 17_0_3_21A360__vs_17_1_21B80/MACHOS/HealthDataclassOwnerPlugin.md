@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x78
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1684FC2F-95AB-3533-AA4D-61414C580936
++  UUID: E4CE4699-3131-3C5A-A8A4-3FAC8683EB2A
    Functions: 32
    Symbols:   84
--  CStrings:  159
-+  CStrings:  160
+-  CStrings:  175
++  CStrings:  176
  
 CStrings:
 + "setADPState:"

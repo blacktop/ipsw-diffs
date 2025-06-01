@@ -35,11 +35,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AA3E98DE-453E-385C-8C06-439BCF994061
++  UUID: A6ADC82B-9F7A-3693-8292-46E6BEB177A3
    Functions: 149
    Symbols:   168
--  CStrings:  704
-+  CStrings:  706
+-  CStrings:  1064
++  CStrings:  1068
  
 CStrings:
 + "Get failure when calling API of SecCertificate"

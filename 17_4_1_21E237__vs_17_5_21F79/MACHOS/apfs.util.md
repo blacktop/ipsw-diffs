@@ -18,11 +18,13 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 7C78E634-7200-39C8-B1FB-57FB20B1BA3C
 -  Functions: 20
++  UUID: 3399FD8A-C857-3AFF-9777-95CF47EE00E1
 +  Functions: 21
    Symbols:   56
--  CStrings:  160
-+  CStrings:  169
+-  CStrings:  161
++  CStrings:  170
  
 CStrings:
 + "-ext"

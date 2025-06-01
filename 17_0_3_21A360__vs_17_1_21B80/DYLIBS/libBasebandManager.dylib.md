@@ -54,12 +54,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: 65AB4F24-2528-3ADE-8A33-6B93C7D8884C
 -  Functions: 5676
 -  Symbols:   16126
--  CStrings:  2225
+-  CStrings:  2268
++  UUID: E5DD239D-CC31-3C1B-8B2B-9E50E757DF09
 +  Functions: 5683
 +  Symbols:   16144
-+  CStrings:  2242
++  CStrings:  2285
  
 Symbols:
 + GCC_except_table166

@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B41A35E5-666A-33BA-85E1-413E20FCBE32
 -  Functions: 183
 -  Symbols:   949
--  CStrings:  549
+-  CStrings:  627
++  UUID: AD3672D8-0479-3024-A8C7-54119360EFCC
 +  Functions: 188
 +  Symbols:   969
-+  CStrings:  560
++  CStrings:  639
  
 Symbols:
 + -[CKCloudSettingsViewController syncButtonPressed:]

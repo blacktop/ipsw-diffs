@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_intobj: 0x468
    __AUTH_CONST.__objc_doubleobj: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xdb8
 +  __AUTH_CONST.__auth_got: 0xd60
    __AUTH.__objc_data: 0x37a0
@@ -73,12 +72,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4357964E-C408-38E6-B7D3-C9F64457E0D6
 -  Functions: 8792
 -  Symbols:   30014
--  CStrings:  12090
+-  CStrings:  15044
++  UUID: 54E0DF18-6A23-3DCB-BA8D-A9DFDE909225
 +  Functions: 8766
 +  Symbols:   29921
-+  CStrings:  12073
++  CStrings:  15033
  
 Symbols:
 + +[WBSAutoFillInternalFeedbackController isRegressionOptionText]

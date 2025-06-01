@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8A5348BE-C51F-3B93-B401-2D48A2F72D31
 -  Functions: 515
 -  Symbols:   532
--  CStrings:  1560
+-  CStrings:  2135
++  UUID: E7234059-97CD-3377-A371-BE61CEAAB868
 +  Functions: 529
 +  Symbols:   540
-+  CStrings:  1575
++  CStrings:  2158
  
 Symbols:
 + _OBJC_CLASS_$_GAXAFUISiriSession

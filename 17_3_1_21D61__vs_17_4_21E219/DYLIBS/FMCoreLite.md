@@ -29,7 +29,6 @@
    __AUTH_CONST.__cfstring: 0x660
    __AUTH_CONST.__objc_const: 0xf10
    __AUTH_CONST.__const: 0x240
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x4a0
    __AUTH.__objc_data: 0x780
 -  __DATA.__objc_classrefs: 0x178
@@ -45,10 +44,12 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0B5A928-A46F-35E9-A6D8-4F7064190A15
++  UUID: 46B10125-EF3B-3F41-AB01-5EA2657761D2
    Functions: 725
    Symbols:   2661
--  CStrings:  1085
-+  CStrings:  1086
+-  CStrings:  1136
++  CStrings:  1137
  
 CStrings:
 + "T@\"NSString\",?,R,C"

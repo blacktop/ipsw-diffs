@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 506C9E83-147E-3D67-9A7D-F581D1678131
 -  Functions: 6750
 -  Symbols:   1162
++  UUID: 5B107574-DB64-341B-9C37-97EB15D61B7A
 +  Functions: 6727
 +  Symbols:   1160
-   CStrings:  6861
+   CStrings:  7616
  
 Symbols:
 - _$s11DockKitCore24CameraSessionInformationC7azimuthSdvsTj

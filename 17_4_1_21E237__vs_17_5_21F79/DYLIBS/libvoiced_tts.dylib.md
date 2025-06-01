@@ -13,4 +13,13 @@
    __TEXT.__objc_classname: 0xa6a
    __TEXT.__objc_methname: 0x8d86
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: 9B01481C-DD95-354B-91E2-A43B55BD1EF5
++  UUID: CFFE6BD5-1350-34B8-A335-9F3037052DE8
+   Functions: 1641
+   Symbols:   6109
+   CStrings:  2907
+
 ```

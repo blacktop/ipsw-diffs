@@ -23,6 +23,15 @@
    __DATA.__objc_ivar: 0x70
    __DATA_DIRTY.__const: 0x20
    __DATA_DIRTY.__objc_const: 0x1b0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C1E773F6-688B-34B5-B4E8-7D74F63F5734
++  UUID: F5F363FA-AAAF-392E-8E04-68494F41F526
+   Functions: 134
+   Symbols:   521
+   CStrings:  356
 Symbols:
 + __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
 + _kIOMainPortDefault

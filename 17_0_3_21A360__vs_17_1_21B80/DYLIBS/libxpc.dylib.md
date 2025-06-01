@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x1040
    __TEXT.__objc_methlist: 0x1fc
    __TEXT.__const: 0x590
+
+   - /usr/lib/system/libsystem_sandbox.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libunwind.dylib
+-  UUID: 8E13493A-AC3E-3EEF-8B3E-102A3D715B23
++  UUID: 2DF145F1-C121-3393-9E43-389C72ED7CFE
+   Functions: 1761
+   Symbols:   3858
+   CStrings:  1143
 Symbols:
 + ____create_with_format_and_arguments_block_invoke.8
 + ____create_with_format_and_arguments_block_invoke.8.cold.1

@@ -32,12 +32,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C405D99B-D351-3569-9B6F-C13CD106D099
 -  Functions: 16122
 -  Symbols:   10803
--  CStrings:  12681
+-  CStrings:  14208
++  UUID: C963CC61-1FEF-3CFD-A2A2-59B7134D8EEC
 +  Functions: 16132
 +  Symbols:   10804
-+  CStrings:  12658
++  CStrings:  14185
  
 Symbols:
 + _TIFFOpenOptionsSetMaxCumulatedMemAlloc

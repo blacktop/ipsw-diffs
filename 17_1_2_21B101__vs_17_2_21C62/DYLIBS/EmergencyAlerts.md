@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4D52545D-D672-39F7-BD24-CA4115B9A5ED
 -  Functions: 63
 -  Symbols:   380
--  CStrings:  227
+-  CStrings:  286
++  UUID: 67E2BC42-B35E-37EC-BF0D-32DD9DFF2BB7
 +  Functions: 64
 +  Symbols:   385
-+  CStrings:  233
++  CStrings:  294
  
 Symbols:
 + -[UNMutableNotificationContent(EmergencyAlerts) ea_setAlertCategory:].cold.1

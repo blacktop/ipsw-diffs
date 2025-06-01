@@ -12,4 +12,13 @@
    __TEXT.__cstring: 0x11d6
    __TEXT.__unwind_info: 0x94
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 60B0C4DE-775C-3A7B-AABC-B883419BFAD5
++  UUID: A9010F20-B655-347B-B3E1-BF6846D80B12
+   Functions: 19
+   Symbols:   79
+   CStrings:  133
+
 ```

@@ -28,7 +28,6 @@
    __AUTH_CONST.__cfstring: 0x26c0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x30
 -  __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -47,5 +46,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: 7A5A59FE-13B5-31AB-B69D-6BB75B5B7CC8
++  UUID: 61068BCE-151B-3A8D-BAB6-46B6ADE2BFCE
+   Functions: 1084
+   Symbols:   3396
+   CStrings:  1923
 
 ```

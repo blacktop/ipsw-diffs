@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0xa28
    __TEXT.__objc_classname: 0x308
    __TEXT.__objc_methname: 0x772a
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 65D20033-A756-35AF-A080-9F91DEB64900
++  UUID: 510C42F2-62A2-3A6E-B10F-424020ECA254
+   Functions: 13086
+   Symbols:   32196
+   CStrings:  2453
 Symbols:
 + _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo26UIFontDescriptorFeatureKeya_Tg5
 + _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo29UIFontDescriptorAttributeNamea_Tg5Tm

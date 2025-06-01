@@ -55,7 +55,6 @@
    __AUTH_CONST.__const: 0xe30
    __AUTH_CONST.__objc_doubleobj: 0x80
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__auth_got: 0xc48
 -  __AUTH.__objc_data: 0x5f0
 +  __AUTH.__objc_data: 0x640
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1690817-AEC7-3D92-93A1-4644F323B7EE
 -  Functions: 3588
 -  Symbols:   9822
--  CStrings:  4121
+-  CStrings:  4638
++  UUID: 25CC6665-B414-3DBC-AF87-4BA7A16D6758
 +  Functions: 3591
 +  Symbols:   9831
-+  CStrings:  4128
++  CStrings:  4647
  
 Symbols:
 + -[ASCLockupProductDetails productViewController:userDidInteractWithProduct:]

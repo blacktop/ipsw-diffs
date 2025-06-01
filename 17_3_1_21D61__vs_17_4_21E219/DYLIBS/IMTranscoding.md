@@ -39,13 +39,16 @@
    __DATA_DIRTY.__const: 0x20
    __DATA_DIRTY.__objc_const: 0x90
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3696766D-8A8A-39BB-8894-DE413DE940A6
++  UUID: 61A98C54-CE90-37A3-8C67-2139916E7505
    Functions: 51
 -  Symbols:   121
--  CStrings:  197
+-  CStrings:  210
 +  Symbols:   122
-+  CStrings:  198
++  CStrings:  211
  
 Symbols:
 + _OBJC_CLASS_$_IMLockdownManager

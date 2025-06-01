@@ -71,11 +71,13 @@
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DD1285BF-4F9F-35CA-A9D9-190093CA2A4E
 -  Functions: 20885
++  UUID: 80C6C275-A20F-3200-9F16-DED6D5D9F76C
 +  Functions: 20909
    Symbols:   880
--  CStrings:  15028
-+  CStrings:  15085
+-  CStrings:  16775
++  CStrings:  16852
  
 CStrings:
 + "\x06)%\x11a\x11"

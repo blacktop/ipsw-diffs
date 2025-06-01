@@ -16,6 +16,15 @@
    __TEXT.__cstring: 0x2f52
    __TEXT.__unwind_info: 0xbcc
    __TEXT.__eh_frame: 0x38
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C6A7CE0F-B3FF-3C1F-9267-249810E4D1F3
++  UUID: F74368B7-615D-36B2-86D1-5E0652633181
+   Functions: 436
+   Symbols:   1352
+   CStrings:  385
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

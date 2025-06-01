@@ -45,9 +45,8 @@
    __AUTH_CONST.__cfstring: 0x3d80
    __AUTH_CONST.__const: 0x920
 -  __AUTH_CONST.__objc_const: 0xaa8
-+  __AUTH_CONST.__objc_const: 0xb38
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH_CONST.__objc_const: 0xb38
 +  __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0x10b0
 -  __AUTH.__objc_data: 0x438
@@ -66,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 91EB22B4-467A-3B6C-96BA-921D029516CC
 -  Functions: 1150
 -  Symbols:   3623
--  CStrings:  1618
+-  CStrings:  2110
++  UUID: EB47BB50-A5BF-3141-9A7A-3EE97A7414BA
 +  Functions: 1159
 +  Symbols:   3667
-+  CStrings:  1628
++  CStrings:  2120
  
 Symbols:
 + +[ALSCTrivialGreenClient _skuRegionCode]

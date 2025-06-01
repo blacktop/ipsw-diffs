@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DD7AEC78-4F1A-34F7-A846-13A41D2C0E7E
++  UUID: F7B4F2A1-72A3-32C5-BF33-77FC75D3FBF0
    Functions: 29
    Symbols:   61
--  CStrings:  123
-+  CStrings:  124
+-  CStrings:  126
++  CStrings:  127
  
 CStrings:
 + "T@\"NSString\",?,R,C"

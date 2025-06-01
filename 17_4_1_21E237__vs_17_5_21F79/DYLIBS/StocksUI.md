@@ -66,12 +66,10 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
 -  __AUTH_CONST.__const: 0x21e40
--  __AUTH_CONST.__auth_ptr: 0x1110
 -  __AUTH_CONST.__auth_got: 0x6fa0
 -  __AUTH.__objc_data: 0x3010
 -  __AUTH.__data: 0x3b40
 +  __AUTH_CONST.__const: 0x220a8
-+  __AUTH_CONST.__auth_ptr: 0x1120
 +  __AUTH_CONST.__auth_got: 0x7020
 +  __AUTH.__objc_data: 0x2fd0
 +  __AUTH.__data: 0x3d30
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7C712579-9556-32B6-96E7-843932D01CAB
 -  Functions: 21734
 -  Symbols:   7103
--  CStrings:  4363
+-  CStrings:  4371
++  UUID: F724B54E-3DC6-36E4-AAEE-1C72DA2B12F4
 +  Functions: 21854
 +  Symbols:   7133
-+  CStrings:  4398
++  CStrings:  4406
  
 Symbols:
 + __DATA__TtC8StocksUI14WelcomeTracker

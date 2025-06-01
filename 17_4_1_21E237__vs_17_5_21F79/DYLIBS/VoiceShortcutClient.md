@@ -71,12 +71,10 @@
 +  __DATA_CONST.__objc_superrefs: 0x650
    __DATA_CONST.__objc_arraydata: 0xfc0
 -  __AUTH_CONST.__const: 0x3af8
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0x12060
 -  __AUTH_CONST.__objc_const: 0x6cd8
 -  __AUTH_CONST.__objc_intobj: 0x2c28
 +  __AUTH_CONST.__const: 0x3c78
-+  __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__cfstring: 0x12140
 +  __AUTH_CONST.__objc_const: 0x6d68
 +  __AUTH_CONST.__objc_intobj: 0x2c40
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 766A5A8C-7FC7-3049-A451-DDAE0631CA69
 -  Functions: 5145
 -  Symbols:   14154
--  CStrings:  7441
+-  CStrings:  9748
++  UUID: 022713CF-9D62-3B59-8ACD-2F8C23348071
 +  Functions: 5243
 +  Symbols:   14212
-+  CStrings:  7461
++  CStrings:  9775
  
 Symbols:
 + +[WFPencilSqueezeWorkflowRunnerClient defaultContextualActionContext]

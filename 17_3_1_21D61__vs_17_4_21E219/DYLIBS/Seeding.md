@@ -82,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A5FF478-DCF9-3504-A02E-0F82E544EB83
 -  Functions: 613
 -  Symbols:   2294
--  CStrings:  1177
+-  CStrings:  1350
++  UUID: 9A81D93E-BAB8-3A5D-939A-1EBE7B4EA070
 +  Functions: 640
 +  Symbols:   2376
-+  CStrings:  1237
++  CStrings:  1429
  
 Symbols:
 + +[SDBetaProgram betaProgramWithID:title:program:catalog:assetUpdate:assetBrain:assetAudience:legalDocs:platform:buildPrefix:accountID:betaEnrollmentToken:]

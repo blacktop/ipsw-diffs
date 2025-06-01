@@ -37,11 +37,15 @@
    __DATA.__bss: 0x1c0
    __DATA.__common: 0x20
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 787D6E9A-BEFE-3154-B100-CBB8087A5DF3
++  UUID: D84DDC61-BA70-35CF-B5EF-D25E55B0305B
    Functions: 121
    Symbols:   394
--  CStrings:  186
-+  CStrings:  187
+-  CStrings:  215
++  CStrings:  216
  
 CStrings:
 + "feedbackDraftViewControllerDidLoadForm:"

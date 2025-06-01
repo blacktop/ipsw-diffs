@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5842FE57-114A-338E-8DA2-F7A29FFB9566
 -  Functions: 64
 -  Symbols:   362
--  CStrings:  209
+-  CStrings:  228
++  UUID: E783FAFB-CA6E-37BF-897E-46AB570E6FA6
 +  Functions: 68
 +  Symbols:   378
-+  CStrings:  216
++  CStrings:  235
  
 Symbols:
 + -[AXUIMessageSender delegateAccessLock]

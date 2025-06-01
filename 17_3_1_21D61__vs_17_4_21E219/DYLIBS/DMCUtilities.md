@@ -76,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46F11250-A8F6-355C-AF91-C81A1BE80B92
 -  Functions: 1026
 -  Symbols:   3895
--  CStrings:  2186
+-  CStrings:  2589
++  UUID: 3C41FAFC-2592-381C-BDF4-7101A6B102C1
 +  Functions: 1064
 +  Symbols:   4020
-+  CStrings:  2301
++  CStrings:  2728
  
 Symbols:
 + +[DMCDateFormatterFactory isoDateFormatter]

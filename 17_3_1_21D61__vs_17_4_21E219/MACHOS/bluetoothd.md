@@ -75,12 +75,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1CDFDD79-D4E0-31C2-8D6C-118B78995074
 -  Functions: 32397
 -  Symbols:   1423
--  CStrings:  31215
+-  CStrings:  34557
++  UUID: C7FA8DB6-98DA-357E-A2D0-890667EDD038
 +  Functions: 32659
 +  Symbols:   1425
-+  CStrings:  31608
++  CStrings:  35118
  
 Symbols:
 + _CBDiscoveryFlagsToString

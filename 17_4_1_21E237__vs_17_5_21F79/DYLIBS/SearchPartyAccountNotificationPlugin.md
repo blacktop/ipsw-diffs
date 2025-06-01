@@ -50,11 +50,13 @@
    - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4396DA26-A964-38C3-8318-A0E5D5C1392E
 -  Functions: 33
++  UUID: 5EBAD0D0-4B04-3072-A506-A6DE4320C36B
 +  Functions: 31
    Symbols:   69
--  CStrings:  237
-+  CStrings:  240
+-  CStrings:  242
++  CStrings:  245
  
 CStrings:
 + "proxy"

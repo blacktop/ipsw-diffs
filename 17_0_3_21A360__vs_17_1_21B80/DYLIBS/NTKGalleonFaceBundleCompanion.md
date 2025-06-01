@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D26E14B0-E481-3F9A-9146-4A47A991D35A
 -  Functions: 426
++  UUID: 83951D8B-61EA-3DAD-8BF3-8C39BCAAF202
 +  Functions: 428
    Symbols:   261
--  CStrings:  1125
-+  CStrings:  1128
+-  CStrings:  1253
++  CStrings:  1256
  
 CStrings:
 + "analyticsKey"

@@ -49,11 +49,13 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EBA757D7-F524-3353-A0A3-F383C5CBF708
 -  Functions: 124
 -  Symbols:   146
++  UUID: 58038FC3-B523-3AD8-B266-15848CA4ADC6
 +  Functions: 122
 +  Symbols:   141
-   CStrings:  38
+   CStrings:  45
  
 Symbols:
 + _CFDataGetBytePtr

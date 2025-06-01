@@ -46,12 +46,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CAA415BE-6BED-3B04-8536-8A2654E0CA5D
 -  Functions: 267
 -  Symbols:   228
--  CStrings:  971
+-  CStrings:  1008
++  UUID: 08C7C328-AD00-3490-A1EA-5A3841A34A65
 +  Functions: 266
 +  Symbols:   227
-+  CStrings:  974
++  CStrings:  1011
  
 Symbols:
 + _OBJC_CLASS_$_WBSScopeExitHandler

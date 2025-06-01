@@ -62,7 +62,6 @@
 +  __AUTH_CONST.__cfstring: 0x540
 +  __AUTH_CONST.__const: 0x2b0
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x3b0
 +  __AUTH_CONST.__auth_got: 0x568
    __AUTH.__objc_data: 0xf0
@@ -98,12 +97,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD7674BA-0290-32C2-882D-81B212810374
 -  Functions: 147
 -  Symbols:   305
--  CStrings:  86
+-  CStrings:  99
++  UUID: B7C7F52C-E4CB-32CD-919A-88CAD67B6B03
 +  Functions: 260
 +  Symbols:   396
-+  CStrings:  140
++  CStrings:  182
  
 Symbols:
 + -[CLBMobileKeybagManager _lockStateFromDictionary:]

@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/VideoSubscriberAccountUI.framework/VideoSubscriberAccountUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 575B022F-7985-3AD6-A8A0-00FC01542C69
++  UUID: 823ADB06-680B-3998-B8BC-A23F7C05A5DE
    Functions: 76
    Symbols:   82
--  CStrings:  230
-+  CStrings:  231
+-  CStrings:  260
++  CStrings:  261
  
 CStrings:
 + "Device Genre"

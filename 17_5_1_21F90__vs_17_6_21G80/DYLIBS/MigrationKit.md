@@ -30,8 +30,8 @@
    __DATA_CONST.__objc_catlist: 0x18
    __DATA_CONST.__objc_protolist: 0x70
 
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x630
 +  __AUTH_CONST.__auth_got: 0x638
@@ -42,12 +42,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1C4AB2D6-3425-331C-BDDC-BF269B4BAE3D
 -  Functions: 1364
 -  Symbols:   5285
--  CStrings:  2690
+-  CStrings:  3251
++  UUID: 0F8AE984-E889-3F27-9239-A1AAB4D576B9
 +  Functions: 1365
 +  Symbols:   5289
-+  CStrings:  2691
++  CStrings:  3252
  
 Symbols:
 + ___20+[MKAPIServer clean]_block_invoke

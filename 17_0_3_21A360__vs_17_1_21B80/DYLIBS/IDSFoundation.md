@@ -46,11 +46,10 @@
    __AUTH_CONST.__objc_const: 0x9948
 -  __AUTH_CONST.__const: 0x16c0
 -  __AUTH_CONST.__cfstring: 0x24e20
-+  __AUTH_CONST.__const: 0x1700
-+  __AUTH_CONST.__cfstring: 0x25280
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__objc_intobj: 0xab0
 -  __AUTH_CONST.__objc_arrayobj: 0x1e00
++  __AUTH_CONST.__const: 0x1700
++  __AUTH_CONST.__cfstring: 0x25280
 +  __AUTH_CONST.__objc_intobj: 0xa98
 +  __AUTH_CONST.__objc_arrayobj: 0x1e18
    __AUTH_CONST.__objc_doubleobj: 0x20
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54DAA978-E99A-32E6-8793-5A9352ADDCA4
 -  Functions: 8325
 -  Symbols:   4143
--  CStrings:  16273
+-  CStrings:  20994
++  UUID: D6F6D466-03A9-381D-9AD2-AD5ADB5F1CAF
 +  Functions: 8349
 +  Symbols:   4161
-+  CStrings:  16335
++  CStrings:  21091
  
 Symbols:
 + OBJC_IVAR_$_IDSGlobalLink._forceIPv6

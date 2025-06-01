@@ -67,14 +67,12 @@
 -  __AUTH_CONST.__const: 0x27e30
 +  __AUTH_CONST.__const: 0x2a580
    __AUTH_CONST.__cfstring: 0x6c0
--  __AUTH_CONST.__auth_ptr: 0x768
 -  __AUTH_CONST.__auth_got: 0x2488
 -  __AUTH.__objc_data: 0x49b8
 -  __AUTH.__data: 0x1fb0
 -  __DATA.__objc_protorefs: 0x240
 -  __DATA.__objc_classrefs: 0x560
 -  __DATA.__objc_superrefs: 0xb0
-+  __AUTH_CONST.__auth_ptr: 0x7b0
 +  __AUTH_CONST.__auth_got: 0x2a50
 +  __AUTH.__objc_data: 0x4a30
 +  __AUTH.__data: 0x2920
@@ -119,12 +117,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4781EFDF-EA99-3981-BA7A-2247757F735D
 -  Functions: 32123
 -  Symbols:   17859
--  CStrings:  5014
+-  CStrings:  5068
++  UUID: 2B1CF4DF-5FDE-3514-9384-81DF2B985A39
 +  Functions: 34250
 +  Symbols:   18710
-+  CStrings:  5145
++  CStrings:  5199
  
 Symbols:
 + _NSCocoaErrorDomain

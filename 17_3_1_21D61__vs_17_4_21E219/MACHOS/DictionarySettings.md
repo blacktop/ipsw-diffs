@@ -19,4 +19,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0D7350F7-53AA-3F1E-AF81-83BF7B764580
++  UUID: 10FEAB6F-4A16-3753-A986-51A764FDEEC8
+   Functions: 92
+   Symbols:   144
+   CStrings:  366
+
 ```

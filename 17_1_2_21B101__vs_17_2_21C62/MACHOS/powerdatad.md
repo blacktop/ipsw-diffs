@@ -50,11 +50,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EA78F549-6446-3A30-99CD-8F5413C2C10A
 -  Functions: 160
++  UUID: 152E0C4E-A7C3-38B9-AEEE-551659263B5D
 +  Functions: 162
    Symbols:   152
--  CStrings:  380
-+  CStrings:  418
+-  CStrings:  436
++  CStrings:  510
  
 CStrings:
 + "E0CPU"

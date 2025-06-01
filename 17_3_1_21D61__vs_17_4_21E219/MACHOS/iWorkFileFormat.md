@@ -78,12 +78,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FC8E04F9-EE71-3D73-A449-781C69838E28
 -  Functions: 8153
 -  Symbols:   4278
--  CStrings:  4808
+-  CStrings:  5184
++  UUID: AFB32174-2BB1-39B1-8083-EE6C54FF80FA
 +  Functions: 8249
 +  Symbols:   4317
-+  CStrings:  4826
++  CStrings:  5202
  
 Symbols:
 + _CGImageSourceCreateWithURL

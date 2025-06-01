@@ -24,11 +24,9 @@
    __DATA_CONST.__objc_selrefs: 0x8
 -  __AUTH_CONST.__const: 0x900
 -  __AUTH_CONST.__cfstring: 0xd6c0
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x968
 +  __AUTH_CONST.__const: 0x920
 +  __AUTH_CONST.__cfstring: 0xd7a0
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__auth_got: 0x970
    __DATA.__objc_classrefs: 0x8
 -  __DATA.__data: 0x150
@@ -42,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1A6FF24-F788-37FD-B356-B3880A187396
 -  Functions: 800
 -  Symbols:   2042
--  CStrings:  3617
+-  CStrings:  5335
++  UUID: AD1FCCB6-C5D6-3420-B7B4-64601FC12D20
 +  Functions: 802
 +  Symbols:   2052
-+  CStrings:  3628
++  CStrings:  5353
  
 Symbols:
 + _AMFDRSealingMapCopyDataInstanceForSealingMapEntry

@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18663E20-0751-3656-8FEB-81F0BD21C1D9
 -  Functions: 2043
 -  Symbols:   8016
--  CStrings:  4567
+-  CStrings:  5363
++  UUID: 16C8D53A-5593-3E68-97C0-C9F759ED0F06
 +  Functions: 2045
 +  Symbols:   8024
-+  CStrings:  4575
++  CStrings:  5374
  
 Symbols:
 + -[AccessibilityAirPodSettingsController caseTonesEnabled]

@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65544497-5CCA-39FF-8BCE-37BD290ED5D3
++  UUID: 9AD4ED14-2A6F-3F85-B18C-6729F1E93FE6
    Functions: 19
    Symbols:   59
 -  CStrings:  170

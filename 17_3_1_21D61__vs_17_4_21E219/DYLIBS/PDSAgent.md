@@ -37,11 +37,15 @@
    __DATA.__data: 0x600
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 06B4A2A3-1474-33AA-AB0D-A7C70AB3FAC5
++  UUID: 22FB9EF3-9224-329B-87E6-2913BFEBEBFE
    Functions: 682
    Symbols:   2557
--  CStrings:  1350
-+  CStrings:  1351
+-  CStrings:  1513
++  CStrings:  1514
  
 CStrings:
 + "T@\"NSString\",?,R,C"

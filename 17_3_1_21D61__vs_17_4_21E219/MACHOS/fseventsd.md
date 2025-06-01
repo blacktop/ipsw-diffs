@@ -21,11 +21,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 733E3594-9B9A-3E49-95FB-4F18D284096F
 -  Functions: 344
++  UUID: C7C84391-A6E4-3789-AC5A-ED72149AE537
 +  Functions: 345
    Symbols:   210
--  CStrings:  364
-+  CStrings:  371
+-  CStrings:  401
++  CStrings:  408
  
 CStrings:
 + "%s: path for pseudo path  device(%d)  is not available"

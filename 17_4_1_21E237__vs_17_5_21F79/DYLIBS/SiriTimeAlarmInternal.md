@@ -13,7 +13,7 @@
    __TEXT.__objc_classname: 0x9
    __TEXT.__objc_methname: 0x1371
 
-   __AUTH_CONST.__auth_ptr: 0x80
+   __AUTH_CONST.__const: 0x2108
    __AUTH_CONST.__objc_const: 0x798
    __AUTH_CONST.__auth_got: 0x830
 -  __AUTH.__data: 0x8b8
@@ -29,5 +29,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6BBB7E65-B77A-32BB-99BC-8328A75A44D2
++  UUID: 3614D0C8-A3EC-3C57-A9B3-5C74E2C73BD0
+   Functions: 1614
+   Symbols:   895
+   CStrings:  575
 
 ```

@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_protorefs: 0x140
    __DATA_CONST.__objc_classrefs: 0x3a10
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0A964F38-E154-3D91-A7A9-48226474EF39
++  UUID: 91E30367-41C8-354D-A1BF-A1A9042F6F2F
    Functions: 36749
    Symbols:   111101
--  CStrings:  37522
-+  CStrings:  37520
+-  CStrings:  45845
++  CStrings:  45843
  
 CStrings:
 - "v32@0:8@\"CMWorkoutManager\"16@\"NSUUID\"24"

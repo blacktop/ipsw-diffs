@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DAB16FC4-BF01-38C6-9EFB-304B54C836D3
 -  Functions: 864
++  UUID: 9EF38286-B874-3E05-A94F-309497B2F7F8
 +  Functions: 871
    Symbols:   296
--  CStrings:  1553
-+  CStrings:  1560
+-  CStrings:  1651
++  CStrings:  1658
  
 CStrings:
 + "%s: called with invalid name:%@"

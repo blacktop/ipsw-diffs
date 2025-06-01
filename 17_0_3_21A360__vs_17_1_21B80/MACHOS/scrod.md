@@ -44,12 +44,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37578599-14AC-38C7-9D41-ED04CE2F9A02
 -  Functions: 157
 -  Symbols:   225
--  CStrings:  487
+-  CStrings:  500
++  UUID: 9ED28960-F713-34B1-9E98-CC3B6770F597
 +  Functions: 158
 +  Symbols:   226
-+  CStrings:  518
++  CStrings:  531
  
 Symbols:
 + _objc_retain_x28

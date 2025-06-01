@@ -22,7 +22,7 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_classrefs: 0xaf8
 
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0xf20
 -  __AUTH.__objc_data: 0x4dd0
@@ -44,5 +44,14 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: B943646B-16FB-3A35-87E4-27802BE49BA9
++  UUID: BEDDCAC4-14BA-3F74-8438-03284B757F27
+   Functions: 9438
+   Symbols:   29304
+   CStrings:  15967
 
 ```

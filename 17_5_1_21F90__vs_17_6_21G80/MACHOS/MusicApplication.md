@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C78081C9-7674-3488-88BF-138FC2D55A13
 -  Functions: 86584
 -  Symbols:   31047
--  CStrings:  17102
+-  CStrings:  17408
++  UUID: 9EAF6E75-4C22-38C1-BD18-1699F2B66909
 +  Functions: 86572
 +  Symbols:   31046
-+  CStrings:  17106
++  CStrings:  17412
  
 Symbols:
 + _UIApplicationProtectedDataDidBecomeAvailable

@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__cfstring: 0x1e4e0
    __AUTH_CONST.__objc_const: 0xb988
    __AUTH_CONST.__const: 0x3000
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_intobj: 0x3c0
 +  __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0x138
@@ -76,12 +75,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AA9A235-5633-3573-A334-C2EB6C413D53
 -  Functions: 18079
 -  Symbols:   49158
--  CStrings:  17882
+-  CStrings:  21727
++  UUID: 3CA1FF3D-A0E9-38CE-84D1-AEB9C2304660
 +  Functions: 18090
 +  Symbols:   49228
-+  CStrings:  17929
++  CStrings:  21808
  
 Symbols:
 + -[MRAVDistantRoutingDiscoverySession configurationWithCompletion:]

@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0x640
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1BD9891-A91F-3E68-B615-63888A4DD280
++  UUID: D885481B-A8C9-3659-88E0-E8098DD84A9C
    Functions: 282
    Symbols:   292
--  CStrings:  538
-+  CStrings:  540
+-  CStrings:  633
++  CStrings:  635
  
 Symbols:
 + _OBJC_CLASS_$_RMManagedDevice

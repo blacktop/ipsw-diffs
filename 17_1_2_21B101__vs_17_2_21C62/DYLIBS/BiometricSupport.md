@@ -17,11 +17,15 @@
    __TEXT.__gcc_except_tab: 0x9e8
    __TEXT.__unwind_info: 0xbe4
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1A063F8-8CAF-3E21-8956-C969381BAE48
++  UUID: CDAEFD7A-3946-32A6-ADC1-8258630552AC
    Functions: 1027
    Symbols:   3802
--  CStrings:  2117
-+  CStrings:  2118
+-  CStrings:  2321
++  CStrings:  2322
  
 CStrings:
 + "com.apple.BiometricKit.matchOperationStartAttempted"

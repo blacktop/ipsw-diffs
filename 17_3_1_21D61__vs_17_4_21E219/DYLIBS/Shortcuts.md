@@ -30,6 +30,15 @@
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E8E0A304-C2AE-3CD5-9028-22A3E710E650
++  UUID: 2B721255-3174-3E5F-B8FF-1D5DFC6A4BA7
+   Functions: 23
+   Symbols:   139
+   CStrings:  106
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.246

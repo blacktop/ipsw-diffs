@@ -32,11 +32,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 359EED48-316C-3AF5-8FDC-DD5A7BD40BA4
++  UUID: 3BDD4490-CF48-3CB2-A2A5-A008F7910365
    Functions: 9
    Symbols:   45
--  CStrings:  97
-+  CStrings:  98
+-  CStrings:  98
++  CStrings:  99
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x2800
    __AUTH_CONST.__objc_intobj: 0xd08
    __AUTH_CONST.__objc_dictobj: 0x460
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__objc_arrayobj: 0x198
    __AUTH_CONST.__objc_floatobj: 0x2c0
 -  __AUTH_CONST.__auth_got: 0x1708
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A0231B8-907E-390A-9D45-B7B9BF7C37CE
 -  Functions: 12917
 -  Symbols:   37790
--  CStrings:  14320
+-  CStrings:  17924
++  UUID: F673745F-586F-363A-9DB7-E6A13C554D02
 +  Functions: 12919
 +  Symbols:   37794
-+  CStrings:  14325
++  CStrings:  17933
  
 Symbols:
 + +[CIRAWFilter filterWithImageURL:options:]

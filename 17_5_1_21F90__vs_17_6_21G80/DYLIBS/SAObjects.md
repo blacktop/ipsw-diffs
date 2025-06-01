@@ -52,12 +52,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FC16C4D-9687-3074-9254-752D88BD0F2D
 -  Functions: 14740
 -  Symbols:   48966
--  CStrings:  15295
+-  CStrings:  21106
++  UUID: 409B22F0-A31F-3605-8352-EE11E04D94A8
 +  Functions: 14757
 +  Symbols:   49014
-+  CStrings:  15306
++  CStrings:  21121
  
 Symbols:
 + -[SARDRunPOMMESRequest encodedClassName]

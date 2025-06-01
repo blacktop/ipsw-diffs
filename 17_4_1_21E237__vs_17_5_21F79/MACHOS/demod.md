@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92DD946B-7A0E-3541-B805-BB28776A71C6
 -  Functions: 4984
 -  Symbols:   744
--  CStrings:  9044
+-  CStrings:  10600
++  UUID: 0ED0B24E-6B42-375B-95A9-6AFD96CF7C0A
 +  Functions: 4994
 +  Symbols:   745
-+  CStrings:  9052
++  CStrings:  10610
  
 Symbols:
 + _kMSDKPeerDemoDevicePropertyBuddyInProgress

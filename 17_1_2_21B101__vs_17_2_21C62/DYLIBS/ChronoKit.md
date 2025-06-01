@@ -56,11 +56,10 @@
    __AUTH_CONST.__objc_const: 0x1a8
    __AUTH_CONST.__cfstring: 0x180
 -  __AUTH_CONST.__const: 0xa530
-+  __AUTH_CONST.__const: 0xa558
-   __AUTH_CONST.__auth_ptr: 0x2f8
 -  __AUTH_CONST.__auth_got: 0x2508
 -  __AUTH.__objc_data: 0xc98
 -  __AUTH.__data: 0x1660
++  __AUTH_CONST.__const: 0xa558
 +  __AUTH_CONST.__auth_got: 0x2500
 +  __AUTH.__objc_data: 0xc50
 +  __AUTH.__data: 0x1700
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 18C34287-8A35-3086-8C9A-943971B4808F
 -  Functions: 9253
 -  Symbols:   2812
--  CStrings:  1788
+-  CStrings:  1800
++  UUID: F5BEC61B-A19E-3445-9283-43F357AB0127
 +  Functions: 9314
 +  Symbols:   2816
-+  CStrings:  1795
++  CStrings:  1807
  
 Symbols:
 + _CFNotificationCenterAddObserver

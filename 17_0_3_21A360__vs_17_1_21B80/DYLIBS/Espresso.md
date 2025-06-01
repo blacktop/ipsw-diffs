@@ -37,7 +37,7 @@
 +  __AUTH_CONST.__const: 0x97700
    __AUTH_CONST.__objc_intobj: 0x2b8
    __AUTH_CONST.__cfstring: 0x9840
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__objc_const: 0x27a8
 
    __DATA.__data: 0x4b8
    __DATA.__thread_vars: 0x18
@@ -51,12 +51,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28BB1B7E-5AF3-384A-B897-522F01DEF029
 -  Functions: 35226
 -  Symbols:   83117
--  CStrings:  11685
+-  CStrings:  12903
++  UUID: B7B22F45-1469-3383-A0F9-4964FFCF345C
 +  Functions: 35229
 +  Symbols:   83131
-+  CStrings:  11688
++  CStrings:  12906
  
 Symbols:
 + GCC_except_table15928

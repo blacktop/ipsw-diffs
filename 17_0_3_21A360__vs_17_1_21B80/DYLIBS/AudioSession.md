@@ -69,12 +69,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0DC4821-7235-3676-8DB2-E9FD2C0CA323
 -  Functions: 1192
 -  Symbols:   4155
--  CStrings:  1191
+-  CStrings:  1406
++  UUID: A49E57B5-D84F-3108-9DD6-58F7553716F7
 +  Functions: 1184
 +  Symbols:   4132
-+  CStrings:  1187
++  CStrings:  1400
  
 Symbols:
 + +[AVAudioApplication(SPI) allowAppToInitiatePlaybackTemporarily:error:]

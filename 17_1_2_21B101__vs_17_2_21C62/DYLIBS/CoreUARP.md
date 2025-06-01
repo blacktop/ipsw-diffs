@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_const: 0x2d78
    __AUTH_CONST.__const: 0x100
    __AUTH_CONST.__objc_intobj: 0xac8
-
    __AUTH_CONST.__auth_got: 0x440
    __AUTH.__objc_data: 0x1810
    __DATA.__objc_protorefs: 0x8
@@ -53,12 +52,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 5C5A96F7-25D2-39C8-B7DF-1152AC6ADF1C
 -  Functions: 2730
 -  Symbols:   8317
--  CStrings:  3595
+-  CStrings:  4195
++  UUID: 09701B87-5CEE-37AC-893E-0F99281BD1A7
 +  Functions: 2732
 +  Symbols:   8321
-+  CStrings:  3601
++  CStrings:  4203
  
 Symbols:
 + -[UARPAccessoryHardwareIIC description]

@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_protolist: 0x18
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60D88911-24AD-3E58-B9EA-0B6F51010055
++  UUID: 529B0C63-14DD-39C1-9AC8-0F17C61E2D2F
    Functions: 212
    Symbols:   167
--  CStrings:  843
-+  CStrings:  845
+-  CStrings:  1094
++  CStrings:  1098
  
 CStrings:
 + "APP_LINKS_EXPLANATION_VISION"

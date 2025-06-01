@@ -65,7 +65,6 @@
 -  __AUTH_CONST.__const: 0x11a70
 +  __AUTH_CONST.__const: 0x11ab0
    __AUTH_CONST.__objc_dictobj: 0x230
-   __AUTH_CONST.__auth_ptr: 0x2a0
 -  __AUTH_CONST.__auth_got: 0x1e50
 -  __AUTH.__objc_data: 0x2970
 +  __AUTH_CONST.__auth_got: 0x1e48
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AEBB827E-4399-3222-98FC-C864F65C7CF4
 -  Functions: 15340
 -  Symbols:   5089
--  CStrings:  3281
+-  CStrings:  3332
++  UUID: 8854CDA8-588A-3108-BF48-11AA87580156
 +  Functions: 15381
 +  Symbols:   5118
-+  CStrings:  3297
++  CStrings:  3348
  
 Symbols:
 + -[DIPAXHapticManager playHapticForType:]

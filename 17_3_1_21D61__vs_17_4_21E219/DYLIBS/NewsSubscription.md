@@ -48,14 +48,12 @@
    __AUTH_CONST.__cfstring: 0x100
    __AUTH_CONST.__objc_const: 0x5f8
    __AUTH_CONST.__const: 0x10e10
--  __AUTH_CONST.__auth_ptr: 0x3a0
 -  __AUTH_CONST.__auth_got: 0x1fc0
 -  __AUTH.__objc_data: 0x1468
 -  __AUTH.__data: 0x1b48
 -  __DATA.__objc_protorefs: 0x190
 -  __DATA.__objc_classrefs: 0x4a0
 -  __DATA.__objc_superrefs: 0x10
-+  __AUTH_CONST.__auth_ptr: 0x398
 +  __AUTH_CONST.__auth_got: 0x1fb0
 +  __AUTH.__objc_data: 0x1298
 +  __AUTH.__data: 0x1758
@@ -90,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94EA2E14-3168-3226-89B8-8049714ADFD8
 -  Functions: 9879
 -  Symbols:   3866
--  CStrings:  3626
+-  CStrings:  3634
++  UUID: 8348D03A-544E-3671-B997-88A8D1AD3569
 +  Functions: 9908
 +  Symbols:   3859
-+  CStrings:  3665
++  CStrings:  3673
  
 Symbols:
 + __PROTOCOLS__TtC16NewsSubscription22ErrorTransitionContext.13

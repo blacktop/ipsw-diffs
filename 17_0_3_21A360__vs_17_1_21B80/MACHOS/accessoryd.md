@@ -61,12 +61,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4E6B9343-8EB4-3CE7-8F65-F71D4786035A
 -  Functions: 9846
 -  Symbols:   55279
--  CStrings:  7691
+-  CStrings:  8482
++  UUID: 40B4C24E-F13A-3EE8-861A-AD3AE3ADA20F
 +  Functions: 9875
 +  Symbols:   55445
-+  CStrings:  7725
++  CStrings:  8523
  
 Symbols:
 + -[ACCExternalAccessory EAProductID]

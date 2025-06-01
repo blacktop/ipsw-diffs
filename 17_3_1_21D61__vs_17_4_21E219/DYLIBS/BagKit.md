@@ -37,11 +37,15 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F75239C9-3F39-34BC-934D-BCCCE699B6C8
++  UUID: 48B56A3A-5602-30D0-BA44-F600E814C753
    Functions: 172
    Symbols:   683
--  CStrings:  336
-+  CStrings:  337
+-  CStrings:  378
++  CStrings:  379
  
 CStrings:
 + "T@\"NSString\",?,R,C"

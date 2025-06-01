@@ -31,11 +31,15 @@
    __DATA.__objc_classrefs: 0x120
    __DATA.__objc_superrefs: 0x40
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15A97506-D7D4-3335-ADC3-B78F02128D64
++  UUID: 5ADA51E7-0E91-3326-8E28-05B2D992C220
    Functions: 212
    Symbols:   151
--  CStrings:  745
-+  CStrings:  746
+-  CStrings:  759
++  CStrings:  760
  
 CStrings:
 + "setIsCharging:"

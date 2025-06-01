@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9396B18E-1A9A-3CED-9EC1-39585D9FC566
 -  Functions: 759
 -  Symbols:   392
--  CStrings:  1757
+-  CStrings:  1878
++  UUID: A69C6055-778A-3CB9-B91D-C780AA67BB24
 +  Functions: 775
 +  Symbols:   397
-+  CStrings:  1788
++  CStrings:  1909
  
 Symbols:
 + _IDSServiceNameFaceTime

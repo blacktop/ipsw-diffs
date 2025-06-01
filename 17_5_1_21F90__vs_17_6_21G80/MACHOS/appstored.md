@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4456052F-37E4-3730-9F1C-C11E318DD4B1
 -  Functions: 11319
 -  Symbols:   1767
--  CStrings:  14569
+-  CStrings:  17964
++  UUID: 7C34BF2B-DAA4-3388-AA8B-53DBFDFFD241
 +  Functions: 11331
 +  Symbols:   1769
-+  CStrings:  14585
++  CStrings:  17988
  
 Symbols:
 + _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF

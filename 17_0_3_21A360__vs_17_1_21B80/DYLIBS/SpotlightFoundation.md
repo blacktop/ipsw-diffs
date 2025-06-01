@@ -17,4 +17,13 @@
    __TEXT.__oslogstring: 0x7f1
    __TEXT.__unwind_info: 0x1f4
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 889D5112-6E30-367F-80C8-D3DA78FDD446
++  UUID: 665C04A1-9EE1-3072-A15D-9585F5615EDD
+   Functions: 157
+   Symbols:   634
+   CStrings:  398
+
 ```

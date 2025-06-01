@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/DigitalSeparation.framework/DigitalSeparation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B44C803F-2E51-36C3-96F2-729B98B1D625
++  UUID: FADC4B59-B9C8-38A3-B39A-F60CF12A3BC6
    Functions: 38
    Symbols:   55
--  CStrings:  144
-+  CStrings:  146
+-  CStrings:  146
++  CStrings:  148
  
 CStrings:
 + "T@\"NSArray\",?,R,C,N"

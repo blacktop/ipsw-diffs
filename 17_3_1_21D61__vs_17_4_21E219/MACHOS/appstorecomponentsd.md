@@ -120,12 +120,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC8171BB-C4D1-3C81-BE5D-9FD0DAA595FF
 -  Functions: 5162
 -  Symbols:   1662
--  CStrings:  2590
+-  CStrings:  2899
++  UUID: 2ADFFE7B-A039-3F76-A268-822AD73C09E6
 +  Functions: 5613
 +  Symbols:   1698
-+  CStrings:  2770
++  CStrings:  3100
  
 Symbols:
 + _$s10Foundation21_BridgedStoredNSErrorPAAE8userInfoSDySSypGvg

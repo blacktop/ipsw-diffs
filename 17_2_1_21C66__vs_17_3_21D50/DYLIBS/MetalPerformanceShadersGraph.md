@@ -44,7 +44,7 @@
 +  __AUTH_CONST.__cfstring: 0x9ee0
    __AUTH_CONST.__objc_intobj: 0x4c8
    __AUTH_CONST.__objc_arrayobj: 0xe40
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__objc_dictobj: 0xa0
 
    __AUTH.__data: 0x3590
    __DATA.__objc_classrefs: 0x870
@@ -65,11 +65,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7EDABF0B-3F68-3A48-BD6B-B4BF0AE0CAC0
 -  Functions: 57157
++  UUID: ECEB8E93-1710-35FF-AB8F-49D2E0C479E3
 +  Functions: 57166
    Symbols:   843
--  CStrings:  29748
-+  CStrings:  29754
+-  CStrings:  31020
++  CStrings:  31025
  
 CStrings:
 + "4.3"

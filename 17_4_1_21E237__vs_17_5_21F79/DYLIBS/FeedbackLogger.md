@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 24F0C28F-F4D1-312A-A5A5-60D4715DECDF
 -  Functions: 971
 -  Symbols:   1605
--  CStrings:  938
+-  CStrings:  1005
++  UUID: DA7DEA3D-CB44-32EA-998A-518154F6BA21
 +  Functions: 975
 +  Symbols:   1616
-+  CStrings:  947
++  CStrings:  1014
  
 Symbols:
 + -[FLLoggingContext initWithFileManager:userDefaults:autoBugCapture:containerStorePathManager:]

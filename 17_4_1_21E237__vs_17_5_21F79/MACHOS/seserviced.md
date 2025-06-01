@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2EBE21E9-BDFF-3527-A5F5-F40260971881
 -  Functions: 6371
 -  Symbols:   1207
--  CStrings:  8545
+-  CStrings:  10740
++  UUID: BEFEB733-67C5-30ED-8B9E-484B8EEDB370
 +  Functions: 6559
 +  Symbols:   1226
-+  CStrings:  8596
++  CStrings:  10792
  
 Symbols:
 + _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC

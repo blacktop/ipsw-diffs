@@ -27,7 +27,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4610791-4E4D-39BA-8151-000FB59F5DC3
++  UUID: 2A227AC9-F305-36E1-AD6C-CC1E6EF3B05D
    Functions: 5
    Symbols:   21
 -  CStrings:  61

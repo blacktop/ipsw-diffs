@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__const: 0x21e0
    __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xb60
 -  __AUTH.__objc_data: 0x12c0
 +  __AUTH_CONST.__auth_got: 0xb28
@@ -76,12 +75,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27A40D32-37A9-3761-83D0-9001C8B8B9BE
 -  Functions: 4699
 -  Symbols:   15509
--  CStrings:  8360
+-  CStrings:  11414
++  UUID: 4424A4B4-7184-3B1F-906B-9FB344A4DA95
 +  Functions: 4646
 +  Symbols:   15307
-+  CStrings:  8206
++  CStrings:  11257
  
 Symbols:
 + +[MCDomainsPayload tooManyAppsErrorWithMaxCount:field:]

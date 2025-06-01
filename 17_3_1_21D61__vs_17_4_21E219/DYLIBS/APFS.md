@@ -29,12 +29,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libutil.dylib
+-  UUID: E00BE5E5-3507-3B40-8345-C25F3EDB4619
 -  Functions: 792
 -  Symbols:   1676
--  CStrings:  1275
+-  CStrings:  1414
++  UUID: 4E024DCF-647E-3A7C-8A61-41FD7D80C8C4
 +  Functions: 796
 +  Symbols:   1685
-+  CStrings:  1277
++  CStrings:  1417
  
 Symbols:
 + _io_next_child

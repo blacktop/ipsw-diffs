@@ -51,13 +51,16 @@
    __DATA.__objc_ivar: 0x760
    __DATA.__data: 0x9e0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7E8C7194-F6C6-3285-9020-9BA4D1DF25CB
++  UUID: A43B16FE-7F8A-3CEB-B990-49745A2E3B8F
    Functions: 2620
 -  Symbols:   8767
--  CStrings:  4303
+-  CStrings:  5238
 +  Symbols:   8770
-+  CStrings:  4306
++  CStrings:  5241
  
 Symbols:
 + _OBJC_CLASS_$_CBDiscovery

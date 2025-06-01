@@ -62,10 +62,8 @@
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_const: 0x3b8
 -  __AUTH_CONST.__const: 0x5548
--  __AUTH_CONST.__auth_ptr: 0x158
 -  __AUTH_CONST.__auth_got: 0xe48
 +  __AUTH_CONST.__const: 0x5320
-+  __AUTH_CONST.__auth_ptr: 0x150
 +  __AUTH_CONST.__auth_got: 0xe38
    __AUTH.__objc_data: 0xa68
    __AUTH.__data: 0x1718
@@ -82,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D9A99985-46FA-3517-9090-BA633216AD39
 -  Functions: 2573
 -  Symbols:   1676
--  CStrings:  978
+-  CStrings:  1064
++  UUID: A8803CDE-3B61-3CF2-92A3-46E9E386693E
 +  Functions: 2521
 +  Symbols:   1664
-+  CStrings:  965
++  CStrings:  1051
  
 Symbols:
 - _OBJC_CLASS_$_OBBoldTrayButton

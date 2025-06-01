@@ -12,4 +12,13 @@
    __TEXT.__cstring: 0x7ba
    __TEXT.__const: 0x10
 
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 0B774ACC-8DCD-3EBC-8A64-4D4AD530B494
++  UUID: F4C772DA-A16B-36F7-819B-991AA4A32581
+   Functions: 31
+   Symbols:   79
+   CStrings:  119
+
 ```

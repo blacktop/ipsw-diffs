@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 269707A6-FCA2-30C1-84D1-D65A7BCE5EC8
 -  Functions: 537
 -  Symbols:   2147
--  CStrings:  1077
+-  CStrings:  1202
++  UUID: 8C9210DA-82C2-3CC4-93EE-F9EBCA87D227
 +  Functions: 544
 +  Symbols:   2163
-+  CStrings:  1087
++  CStrings:  1213
  
 Symbols:
 + -[SASExpressSettings hasProductVersion]

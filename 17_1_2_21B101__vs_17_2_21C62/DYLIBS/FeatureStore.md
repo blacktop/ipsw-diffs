@@ -55,10 +55,8 @@
    __AUTH_CONST.__cfstring: 0x9a0
    __AUTH_CONST.__objc_const: 0xb30
 -  __AUTH_CONST.__const: 0x1310
--  __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0x9a8
 +  __AUTH_CONST.__const: 0x1328
-+  __AUTH_CONST.__auth_ptr: 0x98
 +  __AUTH_CONST.__auth_got: 0x9c0
    __AUTH.__objc_data: 0x9e0
 -  __AUTH.__data: 0x200
@@ -80,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 135766B4-1B4C-3155-AA08-D996EA93CE64
 -  Functions: 1035
 -  Symbols:   3527
--  CStrings:  526
+-  CStrings:  603
++  UUID: B11B28D4-31A2-35CE-B420-3252CF76806F
 +  Functions: 1061
 +  Symbols:   3594
-+  CStrings:  530
++  CStrings:  607
  
 Symbols:
 + _$s12FeatureStore0aB7ServiceC10signposter_Wz

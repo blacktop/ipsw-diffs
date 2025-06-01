@@ -29,6 +29,15 @@
    __TEXT.__eh_frame: 0x1890
    __DATA_CONST.__auth_got: 0xd90
    __DATA_CONST.__got: 0x4b0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FCFA2D6D-8A0E-3E27-9806-78DD236248E8
++  UUID: E1B5FF82-62C0-3DCD-B62E-CE0C0994456A
+   Functions: 10147
+   Symbols:   907
+   CStrings:  12148
 CStrings:
 + "cplCopyCleanAsset"
 - "_copiedCKAsset:"

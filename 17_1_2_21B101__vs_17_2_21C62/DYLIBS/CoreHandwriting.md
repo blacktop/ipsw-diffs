@@ -17,4 +17,13 @@
    __TEXT.__ustring: 0xe44
    __TEXT.__oslogstring: 0x74d2
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 617DCC48-385D-3B99-A7F5-BEFF1AFC2D47
++  UUID: 5F5F0E04-45A7-3525-9403-8C068473A212
+   Functions: 3650
+   Symbols:   785
+   CStrings:  5797
+
 ```

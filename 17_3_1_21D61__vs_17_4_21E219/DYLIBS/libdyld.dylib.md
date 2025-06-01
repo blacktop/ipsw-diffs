@@ -19,8 +19,10 @@
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: D32ECB5B-4114-3869-82ED-29FE3D46A05E
 -  Functions: 955
 -  Symbols:   1960
++  UUID: 1E315870-40BA-3AEC-8069-421EE6971A13
 +  Functions: 958
 +  Symbols:   1964
    CStrings:  180

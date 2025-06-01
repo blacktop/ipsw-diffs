@@ -41,11 +41,15 @@
    __DATA.__data: 0x6d0
    __DATA.__bss: 0x150
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A1692EDD-2975-347D-A46C-C7E099459AF3
++  UUID: CAB7AA0D-853D-309A-8532-B7E20239AA03
    Functions: 844
    Symbols:   3231
--  CStrings:  1702
-+  CStrings:  1703
+-  CStrings:  1967
++  CStrings:  1968
  
 Symbols:
 + ___31-[ASTSession _sendTestResults:]_block_invoke.148

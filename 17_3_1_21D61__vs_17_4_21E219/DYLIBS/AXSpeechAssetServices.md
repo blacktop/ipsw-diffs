@@ -35,11 +35,15 @@
    __DATA.__data: 0x1f0
    __DATA.__bss: 0x2a
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B82DB36-AA96-3836-9B21-269EE195160E
++  UUID: 3CEE7173-3482-3793-BF4B-BA3741D16D8A
    Functions: 68
    Symbols:   410
--  CStrings:  246
-+  CStrings:  247
+-  CStrings:  270
++  CStrings:  271
  
 Symbols:
 + ___58-[AXSpeechAssetMonitorHelper startMigrationOnDeviceUnlock]_block_invoke.250

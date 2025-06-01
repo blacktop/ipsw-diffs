@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/MenstrualAlgorithmsInternal.framework/MenstrualAlgorithmsInternal
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 51420D6A-FB5E-3633-BF8C-A2723926C443
++  UUID: BE6E8CBE-DFEF-3168-8495-8EC8F025830C
    Functions: 24
    Symbols:   61
--  CStrings:  115
-+  CStrings:  116
+-  CStrings:  123
++  CStrings:  124
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -44,12 +44,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43B8D2DA-590E-364D-8A57-FB56AD58FDD1
 -  Functions: 34
 -  Symbols:   204
--  CStrings:  109
+-  CStrings:  136
++  UUID: 53751B1C-F608-3335-AF3E-86D649853581
 +  Functions: 37
 +  Symbols:   210
-+  CStrings:  113
++  CStrings:  140
  
 Symbols:
 + +[DRPasteAnnouncement _canCoalesceEndpoint:withEndpoint:]

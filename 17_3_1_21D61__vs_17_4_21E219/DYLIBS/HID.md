@@ -50,12 +50,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E94C6B41-270B-3487-8E94-D62DA1A08728
 -  Functions: 571
 -  Symbols:   1592
--  CStrings:  954
+-  CStrings:  1015
++  UUID: C3C175E2-5987-3783-B812-BEBE5072FCCE
 +  Functions: 575
 +  Symbols:   1600
-+  CStrings:  960
++  CStrings:  1021
  
 Symbols:
 + -[HIDEvent(HIDGameControllerEventPrivate) gameControllerButtonM1]

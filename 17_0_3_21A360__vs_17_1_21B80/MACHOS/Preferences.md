@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 769503F8-620C-312C-B2A6-C02968F39776
 -  Functions: 4488
++  UUID: 534C69EC-2500-3541-938D-E2CB82997B65
 +  Functions: 4506
    Symbols:   1467
--  CStrings:  1976
-+  CStrings:  1981
+-  CStrings:  2103
++  CStrings:  2108
  
 CStrings:
 + "MomentsTesting"

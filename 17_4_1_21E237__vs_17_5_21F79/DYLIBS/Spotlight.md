@@ -18,6 +18,15 @@
    __TEXT.__objc_classname: 0xcc
    __TEXT.__objc_methname: 0x21fd
    __TEXT.__objc_methtype: 0x3fe
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4159C311-4B4E-33B6-8690-1FA25685DC3B
++  UUID: F66EF27E-157A-36CA-AD46-AA161D439064
+   Functions: 192
+   Symbols:   1056
+   CStrings:  627
 CStrings:
 + "MergeSections2023"
 - "DawnMergeSections"

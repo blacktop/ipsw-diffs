@@ -21,4 +21,13 @@
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x30
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 0B2840E5-DC07-3350-B528-9998945B75B3
++  UUID: 973F87D7-4A83-3D3D-9046-43CC2D4B2A9A
+   Functions: 8329
+   Symbols:   27510
+   CStrings:  14957
+
 ```

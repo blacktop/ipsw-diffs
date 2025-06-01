@@ -32,7 +32,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x30
 +  __DATA_CONST.__objc_superrefs: 0x8
    __AUTH_CONST.__const: 0x16130
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__cfstring: 0x3b40
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x1838
@@ -57,12 +56,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BAA2BB0B-40C0-3D20-BCA6-3A6BF6AB9920
 -  Functions: 6911
 -  Symbols:   20380
--  CStrings:  5560
+-  CStrings:  6034
++  UUID: D9EE3661-DF11-30E3-9DE6-A278722DB756
 +  Functions: 6931
 +  Symbols:   20405
-+  CStrings:  5567
++  CStrings:  6041
  
 Symbols:
 + GCC_except_table133

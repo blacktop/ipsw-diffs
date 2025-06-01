@@ -45,13 +45,16 @@
    __DATA.__data: 0x730
    __DATA.__bss: 0x130
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 930A85AC-FE99-3F50-8D70-5D5B6436CDF8
++  UUID: DA81B7B8-2F21-374A-B021-6D533F02C967
    Functions: 1435
 -  Symbols:   5074
--  CStrings:  2563
+-  CStrings:  2965
 +  Symbols:   5075
-+  CStrings:  2564
++  CStrings:  2966
  
 Symbols:
 + ___44-[CPSDaemonConnection registerSessionProxy:]_block_invoke.127

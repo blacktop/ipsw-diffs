@@ -36,12 +36,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0F038A6-02D5-3D54-961D-541340F8BC18
 -  Functions: 349
 -  Symbols:   587
--  CStrings:  1676
+-  CStrings:  2407
++  UUID: C2D8EA8A-F23A-3F5B-BBE9-F48F02A38D0B
 +  Functions: 350
 +  Symbols:   589
-+  CStrings:  1679
++  CStrings:  2411
  
 Symbols:
 + _getAccessoryDatabaseKeyForAccessoryID

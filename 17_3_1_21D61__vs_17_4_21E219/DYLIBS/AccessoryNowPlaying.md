@@ -37,11 +37,15 @@
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBDEF953-639B-3F93-B45C-9843977FF089
++  UUID: 6B7CEC70-65C9-305F-9917-201A7211C1D7
    Functions: 95
    Symbols:   462
--  CStrings:  226
-+  CStrings:  227
+-  CStrings:  275
++  CStrings:  276
  
 Symbols:
 + ___44-[AccessoryNowPlayingClient connectToServer]_block_invoke.78

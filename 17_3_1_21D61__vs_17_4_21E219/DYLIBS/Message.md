@@ -75,14 +75,12 @@
    __AUTH_CONST.__objc_arrayobj: 0xb58
    __AUTH_CONST.__objc_intobj: 0x9d8
    __AUTH_CONST.__objc_dictobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x8a0
 -  __AUTH_CONST.__auth_got: 0x3970
 -  __AUTH.__objc_data: 0x4e90
 -  __AUTH.__data: 0x6408
 -  __DATA.__objc_protorefs: 0x110
 -  __DATA.__objc_classrefs: 0x1240
 -  __DATA.__objc_superrefs: 0x690
-+  __AUTH_CONST.__auth_ptr: 0x878
 +  __AUTH_CONST.__auth_got: 0x38d8
 +  __AUTH.__objc_data: 0x4e40
 +  __AUTH.__data: 0x6368
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8EEC9E39-CE49-36D3-AB90-A6BD77D4221A
 -  Functions: 63998
 -  Symbols:   42158
--  CStrings:  16175
+-  CStrings:  19240
++  UUID: EF037060-8F61-3124-9E46-2EB0F2C53C7E
 +  Functions: 63718
 +  Symbols:   42087
-+  CStrings:  16151
++  CStrings:  19216
  
 Symbols:
 + +[MFOutgoingMessageDelivery log]

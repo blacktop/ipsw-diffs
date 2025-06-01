@@ -44,13 +44,15 @@
    - /usr/lib/libipconfig.dylib
    - /usr/lib/libmdns.dylib
 -  - /usr/lib/libobjc.A.dylib
+-  UUID: A693B924-9786-39D6-A10E-DC36E45DDD19
 -  Functions: 350
 -  Symbols:   863
--  CStrings:  1760
+-  CStrings:  1770
 +  - /usr/lib/libmrc.dylib
++  UUID: 801A3D5F-32A0-3CC4-82D3-9C230AC8104D
 +  Functions: 359
 +  Symbols:   878
-+  CStrings:  1822
++  CStrings:  1832
  
 Symbols:
 + _CFArrayContainsValue

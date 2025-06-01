@@ -29,11 +29,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/GSS.framework/GSS
 
+   - /usr/lib/libheimdal-asn1.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C5301FA-9A67-3D96-A85C-F33F91227F8C
++  UUID: D8A84A69-960F-380A-8A37-51852C69BA82
    Functions: 197
    Symbols:   790
--  CStrings:  184
-+  CStrings:  185
+-  CStrings:  200
++  CStrings:  201
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -40,13 +40,16 @@
    __DATA.__objc_data: 0x670
    __DATA.__data: 0x378
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDB331D1-43EA-3E6A-ACBA-F1B3ECF0AE44
++  UUID: 41B2F5D1-EDB6-3419-8631-1BE5CEF5EAC3
    Functions: 312
 -  Symbols:   303
--  CStrings:  829
+-  CStrings:  970
 +  Symbols:   304
-+  CStrings:  830
++  CStrings:  971
  
 Symbols:
 + _RBSRequestErrorDomain

@@ -52,9 +52,9 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_intobj: 0x258
 
+   __AUTH_CONST.__objc_doubleobj: 0x3e10
    __AUTH_CONST.__objc_arrayobj: 0x9d8
    __AUTH_CONST.__const: 0x128
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x4c8
 +  __AUTH_CONST.__auth_got: 0x4b0
    __AUTH.__objc_data: 0x0
@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4217137F-8226-39EB-9AC4-4BA005FB2FCF
 -  Functions: 227
 -  Symbols:   731
--  CStrings:  1387
+-  CStrings:  1397
++  UUID: B17B30CB-EBFD-35A7-B4D1-2664BD43D1E6
 +  Functions: 229
 +  Symbols:   738
-+  CStrings:  1397
++  CStrings:  1407
  
 Symbols:
 + +[PSEVideoProcessor needsProcessing].cold.2

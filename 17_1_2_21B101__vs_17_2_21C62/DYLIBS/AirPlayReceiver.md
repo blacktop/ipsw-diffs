@@ -29,8 +29,8 @@
    __DATA_CONST.__objc_protolist: 0x18
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   __DATA_CONST.__objc_selrefs: 0xab0
    __DATA_CONST.__objc_arraydata: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0xa110
 -  __AUTH_CONST.__cfstring: 0xa200
 +  __AUTH_CONST.__cfstring: 0xa220
@@ -41,12 +41,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED4590B1-2EA7-3436-B46F-880F1ADD1555
 -  Functions: 1539
 -  Symbols:   4889
--  CStrings:  5114
+-  CStrings:  6410
++  UUID: BE933CD7-EB68-3AD7-A508-C7F20056E5D9
 +  Functions: 1540
 +  Symbols:   4891
-+  CStrings:  5127
++  CStrings:  6424
  
 Symbols:
 + GCC_except_table1012

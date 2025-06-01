@@ -37,11 +37,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B4400E1-2EDC-357E-A7A0-C280B6DF3093
 -  Functions: 455
++  UUID: 2CB5EE20-E02D-3DBD-BA4B-BDE358D51423
 +  Functions: 461
    Symbols:   161
--  CStrings:  1288
-+  CStrings:  1291
+-  CStrings:  1677
++  CStrings:  1680
  
 CStrings:
 + "accountRatchet"

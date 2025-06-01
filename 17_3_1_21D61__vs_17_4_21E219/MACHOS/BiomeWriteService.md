@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/BiomeFoundation.framework/BiomeFoundation
 
+   - /usr/appleinternal/lib/liblinkguard.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 73BB1C02-A52C-360E-A51F-5490AFDE2CEB
++  UUID: 60583DD2-F5E2-3176-B789-C0FCCE873015
+   Functions: 6
+   Symbols:   28
+   CStrings:  8
+
 ```

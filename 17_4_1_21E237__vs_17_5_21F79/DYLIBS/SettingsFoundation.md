@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACFEAF10-4986-3A5B-85B5-D539A50D0A9F
 -  Functions: 275
 -  Symbols:   1119
--  CStrings:  694
+-  CStrings:  943
++  UUID: 3696BFC0-91FA-3C18-8010-617BCEFB7FC0
 +  Functions: 277
 +  Symbols:   1124
-+  CStrings:  701
++  CStrings:  955
  
 Symbols:
 + _SFBuiltInRegulatoryImageForApplePencilModel

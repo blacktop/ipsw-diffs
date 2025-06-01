@@ -60,7 +60,6 @@
 +  __AUTH_CONST.__const: 0x4420
 +  __AUTH_CONST.__objc_intobj: 0x6f0
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1ae8
 -  __AUTH.__objc_data: 0x1878
@@ -89,12 +88,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FEEBBB88-F9B6-3FC4-8970-EA680B3CDEEA
 -  Functions: 7612
 -  Symbols:   2075
--  CStrings:  13621
++  UUID: 3F826E1D-46EF-30DA-9422-8732CC2DC478
 +  Functions: 7626
 +  Symbols:   2074
-+  CStrings:  13623
+   CStrings:  14944
  
 Symbols:
 + _IMCloudKitDefinesEnableMiCByDefaultBagKeyV2

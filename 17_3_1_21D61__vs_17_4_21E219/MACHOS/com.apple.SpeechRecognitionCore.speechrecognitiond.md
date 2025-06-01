@@ -79,12 +79,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2AC5BA09-3134-342B-8298-FC645F04ACC4
 -  Functions: 3203
 -  Symbols:   1110
--  CStrings:  1721
+-  CStrings:  1936
++  UUID: 8B7ED7BD-FB5E-356B-9096-A686D4136725
 +  Functions: 3258
 +  Symbols:   1116
-+  CStrings:  1768
++  CStrings:  1986
  
 Symbols:
 + _AVAudioSessionCategoryRecord

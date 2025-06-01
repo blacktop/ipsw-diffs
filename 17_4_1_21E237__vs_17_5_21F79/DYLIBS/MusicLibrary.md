@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__const: 0x13370
 +  __AUTH_CONST.__const: 0x13378
    __AUTH_CONST.__objc_const: 0x5560
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__cfstring: 0x24380
 +  __AUTH_CONST.__cfstring: 0x245c0
    __AUTH_CONST.__objc_arrayobj: 0x1ff8
@@ -79,12 +78,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 65A23C92-9BD1-390D-BEFA-D4C8AB4DEF2B
 -  Functions: 8025
 -  Symbols:   24587
--  CStrings:  12162
+-  CStrings:  16798
++  UUID: 1FAA5163-16F0-391C-9229-796B322428BD
 +  Functions: 8064
 +  Symbols:   24707
-+  CStrings:  12238
++  CStrings:  16892
  
 Symbols:
 + -[MIPPlaylist collaborationInvitationURLExpirationDate]

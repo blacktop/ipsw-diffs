@@ -25,12 +25,15 @@
    __DATA.__data: 0x10
    __DATA.__common: 0x145
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F02BC3D1-6C82-3110-A2B4-D406D6B97994
++  UUID: 62947851-1144-3158-8015-7C5B9E88D726
    Functions: 84
    Symbols:   76
--  CStrings:  326
-+  CStrings:  329
+-  CStrings:  332
++  CStrings:  335
  
 CStrings:
 + "acrootdirmax="

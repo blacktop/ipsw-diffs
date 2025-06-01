@@ -20,4 +20,13 @@
    __DATA.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/AppleNeuralEngine
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8BB75EA-5A22-3B83-9464-AD3C509D66E6
++  UUID: 6A9BD560-86A2-30D9-A541-6DBF1FEF5B05
+   Functions: 282
+   Symbols:   812
+   CStrings:  506
+
 ```

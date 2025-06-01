@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1753FEBE-4F6E-36FC-AD0E-6D3DE3DBD36A
 -  Functions: 585
 -  Symbols:   2728
--  CStrings:  1586
+-  CStrings:  1838
++  UUID: 99B4EEEC-4062-38D0-A707-8AB57B12DD37
 +  Functions: 586
 +  Symbols:   2738
-+  CStrings:  1592
++  CStrings:  1845
  
 Symbols:
 + +[PSSpecifier(AccountsUI) imageForApplicationBundleIdentifier:]

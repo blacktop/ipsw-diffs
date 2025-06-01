@@ -32,12 +32,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9E873AC4-0772-336B-8841-ECD149B08925
 -  Functions: 288
 -  Symbols:   121
--  CStrings:  609
+-  CStrings:  637
++  UUID: 7FD508F5-31B4-3853-BB63-5EB80BDC631C
 +  Functions: 336
 +  Symbols:   122
-+  CStrings:  631
++  CStrings:  657
  
 Symbols:
 + _AMFDRSealingMapCopyInstanceForClass

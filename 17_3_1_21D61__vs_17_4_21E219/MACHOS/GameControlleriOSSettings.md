@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C0D486B-2577-3C71-A2D5-EBFD882ACD01
 -  Functions: 5020
 -  Symbols:   314
--  CStrings:  1244
+-  CStrings:  1370
++  UUID: D884819D-CC43-3BE8-A672-B73D02C830D9
 +  Functions: 5042
 +  Symbols:   317
-+  CStrings:  1273
++  CStrings:  1400
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

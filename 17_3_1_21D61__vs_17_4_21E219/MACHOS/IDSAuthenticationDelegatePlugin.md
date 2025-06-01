@@ -29,6 +29,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
    - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A4DFF2D8-A8FE-394A-B810-2E9CEFDE48F1
++  UUID: 39CADCAA-3951-3EA3-A544-5877F1908CF9
+   Functions: 9
+   Symbols:   63
+   CStrings:  82
 CStrings:
 + "T@\"NSString\",?,R"
 - "T@\"NSString\",R"

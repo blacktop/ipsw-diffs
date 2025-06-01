@@ -68,13 +68,11 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x7cbc8
--  __AUTH_CONST.__auth_ptr: 0x18b0
 -  __AUTH_CONST.__auth_got: 0x5dc0
 -  __AUTH.__objc_data: 0x278a0
 -  __AUTH.__data: 0x257e8
 -  __DATA.__objc_protorefs: 0x1f0
 +  __AUTH_CONST.__const: 0x7fb00
-+  __AUTH_CONST.__auth_ptr: 0x18c0
 +  __AUTH_CONST.__auth_got: 0x5de0
 +  __AUTH.__objc_data: 0x279b0
 +  __AUTH.__data: 0x25d20
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 00FE4CBA-A899-3572-B4CB-9930040A4DE8
 -  Functions: 55312
 -  Symbols:   16263
--  CStrings:  9322
+-  CStrings:  9346
++  UUID: 2C66EEDE-094C-35C1-B7D1-81384E9E3FEB
 +  Functions: 56649
 +  Symbols:   16456
-+  CStrings:  9405
++  CStrings:  9429
  
 Symbols:
 + __DATA__TtC9SeymourUI25ContentAvailabilityFilter

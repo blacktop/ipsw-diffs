@@ -24,6 +24,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9EA281B6-4D27-39C4-B8A9-BAAAF73BF7C7
++  UUID: 8B356DBE-957B-311A-9575-5589C0E37D78
+   Functions: 777
+   Symbols:   2937
+   CStrings:  1785
 Symbols:
 + __OBJC_$_PROP_LIST_NSObject.1229
 + __OBJC_$_PROP_LIST_NSObject.1600

@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__const: 0x9a0
 +  __AUTH_CONST.__const: 0xa80
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x1038
 -  __AUTH.__objc_data: 0x1270
 -  __DATA.__objc_protorefs: 0x10
@@ -83,12 +82,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 250D0C3E-C00F-36A9-9C07-BFE22E78B504
 -  Functions: 2780
 -  Symbols:   9996
--  CStrings:  4053
+-  CStrings:  5018
++  UUID: 92218324-64F6-3920-997F-053F08482085
 +  Functions: 2872
 +  Symbols:   10241
-+  CStrings:  4165
++  CStrings:  5165
  
 Symbols:
 + +[BSAuditToken invalidToken]
@@ -290,6 +291,7 @@ Symbols:
 - _objc_msgSend$sameLine:
 CStrings:
 + "\x01\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xb1"
++ "& "
 + "+[BSDescriptionStyle new]"
 + "-[BSDescriptionStyle init]"
 + "<invalid:%X>"

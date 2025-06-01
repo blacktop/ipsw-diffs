@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59A52451-169E-39E4-ABFA-B6FACFB1E10F
 -  Functions: 469
 -  Symbols:   403
--  CStrings:  1455
+-  CStrings:  1506
++  UUID: 6E201589-D9D1-3C16-AB5C-4382B6C03A77
 +  Functions: 471
 +  Symbols:   404
-+  CStrings:  1457
++  CStrings:  1508
  
 Symbols:
 + _kFigCaptureSampleBufferProcessorOption_MetalCommandQueue

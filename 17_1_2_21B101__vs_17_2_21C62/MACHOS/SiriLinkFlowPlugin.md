@@ -20,12 +20,15 @@
    __DATA_CONST.__const: 0xa098
    __DATA_CONST.__cfstring: 0x600
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5CABA722-6C23-3D59-8EB6-08416EC6E58E
++  UUID: 1E3971FD-A5CC-387A-92DD-3E7718639C59
    Functions: 13047
 -  Symbols:   80937
 +  Symbols:   80935
-   CStrings:  2508
+   CStrings:  2556
  
 Symbols:
 - _$sSuN

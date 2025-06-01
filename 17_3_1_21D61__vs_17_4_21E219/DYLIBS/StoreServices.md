@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__const: 0x15bf0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xf18
 +  __AUTH_CONST.__auth_got: 0xf20
@@ -70,12 +69,14 @@
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 50B0F791-E0FA-3C48-9507-52E526278917
 -  Functions: 9423
 -  Symbols:   29293
--  CStrings:  12770
+-  CStrings:  15963
++  UUID: FAF850B3-DD9E-300A-A7B4-C4387271CA6A
 +  Functions: 9438
 +  Symbols:   29304
-+  CStrings:  12774
++  CStrings:  15967
  
 Symbols:
 + _Ejwmn62s

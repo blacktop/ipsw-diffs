@@ -83,13 +83,15 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCA412FB-C7E4-332D-8375-1191458F5F2C
 -  Functions: 895
 -  Symbols:   8548
--  CStrings:  1454
+-  CStrings:  3644
 +  - /usr/lib/libsqlite3.dylib
++  UUID: 23FDEC7A-7D8A-3B1F-9BCD-A02962D1856B
 +  Functions: 1160
 +  Symbols:   9317
-+  CStrings:  1535
++  CStrings:  3765
  
 Symbols:
 + -[EMFEmojiPreferences .cxx_construct]
@@ -670,6 +672,7 @@ Symbols:
 - _sharedServiceWithMachName:._services
 - _sharedServiceWithMachName:.onceToken
 CStrings:
++ "\r \xa1'\x0f\xfe"
 + "(rows.size() == 1) && \"createEmojiId: Database inconsistency: exactly 1 ID has not been assigned to this emoji; cannot continue.\""
 + "(rows.size() == 1) && \"createStringId: Database inconsistency: exactly 1 ID has been not assigned to this string; cannot continue.\""
 + "(rows.size() > 0) && \"createEmojiId: Database inconsistency: ID insertion failed; cannot continue.\""
@@ -681,6 +684,33 @@ CStrings:
 + "/System/Library/PrivateFrameworks/CoreEmoji.framework"
 + "/tmp/emoji_adaptation.db"
 + "/usr/lib/libMobileGestalt.dylib"
++ "<\xd8D\xdf\r =\xd8\xeb\xdf"
++ "<\xd8K\xdf\r =\xd8\xe9\xdf"
++ "<\xd8\xc3\xdf\r @&\x0f\xfe\r \xa1'\x0f\xfe"
++ "<\xd8\xc3\xdf\r B&\x0f\xfe\r \xa1'\x0f\xfe"
++ "<\xd8\xc3\xdf\r \xa1'\x0f\xfe"
++ "=\xd8&\xdc\r =\xd8%\xdd"
++ "=\xd8B\xde\r \x94!\x0f\xfe"
++ "=\xd8B\xde\r \x95!\x0f\xfe"
++ "=\xd8h\xdc\r >د\xdd\r \xa1'\x0f\xfe"
++ "=\xd8h\xdc\r >ؼ\xdd\r \xa1'\x0f\xfe"
++ "=\xd8h\xdc\r >ؽ\xdd\r \xa1'\x0f\xfe"
++ "=\xd8i\xdc\r >د\xdd\r \xa1'\x0f\xfe"
++ "=\xd8i\xdc\r >ؼ\xdd\r \xa1'\x0f\xfe"
++ "=\xd8i\xdc\r >ؽ\xdd\r \xa1'\x0f\xfe"
++ "=ض\xde\r @&\x0f\xfe\r \xa1'\x0f\xfe"
++ "=ض\xde\r B&\x0f\xfe\r \xa1'\x0f\xfe"
++ "=ض\xde\r \xa1'\x0f\xfe"
++ ">\xd8\xce\xdd\r @&\x0f\xfe\r \xa1'\x0f\xfe"
++ ">\xd8\xce\xdd\r B&\x0f\xfe\r \xa1'\x0f\xfe"
++ ">\xd8\xce\xdd\r \xa1'\x0f\xfe"
++ ">\xd8\xd1\xdd\r >د\xdd\r \xa1'\x0f\xfe"
++ ">\xd8\xd1\xdd\r >ؼ\xdd\r \xa1'\x0f\xfe"
++ ">\xd8\xd1\xdd\r >ؽ\xdd\r \xa1'\x0f\xfe"
++ ">\xd8\xd1\xdd\r >\xd8\xd1\xdd\r >\xd8\xd2\xdd"
++ ">\xd8\xd1\xdd\r >\xd8\xd1\xdd\r >\xd8\xd2\xdd\r >\xd8\xd2\xdd"
++ ">\xd8\xd1\xdd\r >\xd8\xd2\xdd"
++ ">\xd8\xd1\xdd\r >\xd8\xd2\xdd\r >\xd8\xd2\xdd"
 + "AdaptationDatabaseController.cpp"
 + "AdaptationLogger"
 + "B40@0:8@16@24@32"
@@ -749,5 +779,6 @@ CStrings:
 + "zh_HK"
 + "{unique_ptr<CEM::AdaptationDatabaseController, std::default_delete<CEM::AdaptationDatabaseController>>=\"__ptr_\"{__compressed_pair<CEM::AdaptationDatabaseController *, std::default_delete<CEM::AdaptationDatabaseController>>=\"__value_\"^{AdaptationDatabaseController}}}"
 + "{}"
++ "\xd3&\x0f\xfe\r =إ\xdc"
 
 ```

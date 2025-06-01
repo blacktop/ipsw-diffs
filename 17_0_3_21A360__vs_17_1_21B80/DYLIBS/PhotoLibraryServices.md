@@ -59,7 +59,6 @@
 -  __AUTH_CONST.__objc_dictobj: 0x3e8
 +  __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1fa8
 +  __AUTH_CONST.__auth_got: 0x1f98
    __AUTH.__objc_data: 0xdf70
@@ -84,12 +83,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7C68AE8E-97E2-32F6-BF2F-90477C1EF01D
 -  Functions: 22551
 -  Symbols:   76961
--  CStrings:  42342
+-  CStrings:  51147
++  UUID: C4931DA3-EFE2-3441-B9BD-C78F741ABF66
 +  Functions: 22427
 +  Symbols:   76537
-+  CStrings:  42049
++  CStrings:  50832
  
 Symbols:
 + +[PLCaptureDeferredPhotoProcessor sharedAsyncQueue]

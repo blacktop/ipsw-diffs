@@ -41,11 +41,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: DB45FC26-1E4E-3C75-A363-9873392BEBA6
 -  Functions: 5638
 -  Symbols:   16003
++  UUID: B275AE94-2653-3832-97EE-55C5BA9C0BE2
 +  Functions: 5634
 +  Symbols:   15988
-   CStrings:  2186
+   CStrings:  2233
  
 Symbols:
 + GCC_except_table165

@@ -19,5 +19,11 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2AC0EBC1-F329-30D3-B016-91FBF7A27587
++  UUID: F9996317-EEB2-30F0-A5F0-40B0547325A8
+   Functions: 1
+   Symbols:   6
+   CStrings:  1
 
 ```

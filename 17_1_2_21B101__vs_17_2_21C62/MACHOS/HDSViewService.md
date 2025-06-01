@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB931E58-AFC8-38D6-B799-6CD29A0AB9DF
 -  Functions: 2287
++  UUID: E392E63E-B012-3252-9980-A6CD5308CC9E
 +  Functions: 2288
    Symbols:   745
--  CStrings:  2994
-+  CStrings:  3001
+-  CStrings:  3118
++  CStrings:  3125
  
 CStrings:
 + "HomePodSetupIconContent: opening kbartible for %s"

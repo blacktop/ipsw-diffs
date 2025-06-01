@@ -44,12 +44,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 46F538F8-71DD-3BA2-BBA4-01FD7232D06B
 -  Functions: 300
 -  Symbols:   283
--  CStrings:  891
+-  CStrings:  941
++  UUID: 0BCC3A78-7C3D-32A7-9276-E38D100C5262
 +  Functions: 298
 +  Symbols:   280
-+  CStrings:  882
++  CStrings:  932
  
 Symbols:
 - _ICAttachmentDeletedNotification

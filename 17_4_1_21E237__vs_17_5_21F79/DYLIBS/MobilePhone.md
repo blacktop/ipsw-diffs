@@ -61,12 +61,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05B02B5E-690F-38BB-8139-BA9ABEAD9EAA
 -  Functions: 204
 -  Symbols:   978
--  CStrings:  552
+-  CStrings:  785
++  UUID: CEA935C9-2E18-36DD-87D8-9B2AADF06FB9
 +  Functions: 213
 +  Symbols:   1024
-+  CStrings:  570
++  CStrings:  810
  
 Symbols:
 + +[UITextViewAccessibility__MobilePhone__UIKit _accessibilityPerformValidations:]

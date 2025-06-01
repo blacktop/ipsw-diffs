@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24B068A2-ED73-3DA2-A90B-CF6F6715A875
 -  Functions: 863
 -  Symbols:   331
--  CStrings:  537
+-  CStrings:  581
++  UUID: 8A7F38EF-0AEA-35AE-B7A6-7648E9871515
 +  Functions: 874
 +  Symbols:   330
-+  CStrings:  558
++  CStrings:  602
  
 Symbols:
 - _objc_retain_x28

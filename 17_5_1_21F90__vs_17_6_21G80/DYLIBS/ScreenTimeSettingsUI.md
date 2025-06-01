@@ -79,11 +79,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x258
--  __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0x1138
 -  __AUTH.__objc_data: 0x3bd8
 -  __AUTH.__data: 0x3f0
-+  __AUTH_CONST.__auth_ptr: 0x98
 +  __AUTH_CONST.__auth_got: 0x1170
 +  __AUTH.__objc_data: 0x3df0
 +  __AUTH.__data: 0x438
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4EE8D076-8DBF-327A-8A57-9440E1011C95
 -  Functions: 4946
 -  Symbols:   14180
--  CStrings:  7074
+-  CStrings:  8363
++  UUID: 98ECA64B-4A05-3FDF-B794-2B4CA280596D
 +  Functions: 5038
 +  Symbols:   14264
-+  CStrings:  7118
++  CStrings:  8403
  
 Symbols:
 + +[STDistributionEligibility evaluateEligibilityForAppDistribution]

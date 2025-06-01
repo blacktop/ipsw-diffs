@@ -80,7 +80,6 @@
 +  __AUTH_CONST.__const: 0x4418
 +  __AUTH_CONST.__objc_intobj: 0x6d8
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1a98
 -  __AUTH.__objc_data: 0x1bb8
@@ -115,12 +114,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EA424873-B24F-3C8B-BC77-ADEAC2A103B6
 -  Functions: 7535
 -  Symbols:   2066
--  CStrings:  13507
+-  CStrings:  14813
++  UUID: 2E26F519-BAD3-3F36-A40F-98ED2F2BAF18
 +  Functions: 7612
 +  Symbols:   2075
-+  CStrings:  13621
++  CStrings:  14944
  
 Symbols:
 + _IMBagBoolValueWithDefault

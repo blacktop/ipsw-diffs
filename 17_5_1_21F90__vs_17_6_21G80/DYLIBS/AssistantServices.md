@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_dictobj: 0xaa0
    __AUTH_CONST.__objc_arrayobj: 0x588
    __AUTH_CONST.__objc_doubleobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab0
 -  __AUTH.__objc_data: 0x7120
 +  __AUTH.__objc_data: 0x7170
@@ -72,12 +71,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B66766C-0D4E-3670-9853-1F0AEFDF7DA9
 -  Functions: 11265
 -  Symbols:   36086
--  CStrings:  18302
+-  CStrings:  23092
++  UUID: D06476B9-EBD4-3F34-B555-37B9AF1437C8
 +  Functions: 11289
 +  Symbols:   36159
-+  CStrings:  18323
++  CStrings:  23112
  
 Symbols:
 + +[AFFeatureFlags(SWEFeatureFlags) isSiriLocationServicesPromptingEnabled]

@@ -76,12 +76,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C774927A-85B9-3DFB-9577-9460E2A0CEB7
 -  Functions: 2042
 -  Symbols:   7369
--  CStrings:  4140
+-  CStrings:  5364
++  UUID: 64FA9AEC-5402-3B5B-92F3-BBD6D535121E
 +  Functions: 2064
 +  Symbols:   7467
-+  CStrings:  4188
++  CStrings:  5425
  
 Symbols:
 + -[SUAutoInstallFailureNotification .cxx_destruct]

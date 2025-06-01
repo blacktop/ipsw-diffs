@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 79695CEC-913F-317F-A8EF-5DC6EDA9DA11
++  UUID: 5903A279-6722-3893-AE32-87D063954C28
+   Functions: 43
+   Symbols:   98
+   CStrings:  142
+
 ```

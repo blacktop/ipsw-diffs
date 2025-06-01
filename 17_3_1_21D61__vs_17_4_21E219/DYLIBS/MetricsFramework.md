@@ -49,7 +49,6 @@
 -  __DATA_CONST.__objc_const: 0xe08
 -  __DATA_CONST.__objc_selrefs: 0x2c0
 -  __AUTH_CONST.__const: 0xe80
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0x1900
 -  __AUTH_CONST.__auth_got: 0x6b0
 -  __AUTH.__data: 0x1260
@@ -62,7 +61,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x3a0
 +  __DATA_CONST.__objc_classrefs: 0x1d8
 +  __AUTH_CONST.__const: 0x17f8
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__cfstring: 0x1980
 +  __AUTH_CONST.__auth_got: 0x7b8
 +  __AUTH.__data: 0x1c70
@@ -110,12 +108,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BA1019CC-EA07-3DAB-A546-7E08AE667EED
 -  Functions: 687
 -  Symbols:   409
--  CStrings:  435
+-  CStrings:  635
++  UUID: 4D8E40A2-FE38-3FBA-9BD1-D18780EBA138
 +  Functions: 1063
 +  Symbols:   564
-+  CStrings:  538
++  CStrings:  742
  
 Symbols:
 + _CFPreferencesGetAppBooleanValue

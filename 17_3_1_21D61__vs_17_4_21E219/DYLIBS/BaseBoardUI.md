@@ -37,11 +37,15 @@
    __DATA.__data: 0x600
    __DATA_DIRTY.__objc_ivar: 0xf4
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F1F1862-4857-3463-86EE-35AE9D67FB9A
++  UUID: 0AFED593-E34C-30F6-BA74-80DA4C697D4F
    Functions: 537
    Symbols:   2563
--  CStrings:  1304
-+  CStrings:  1305
+-  CStrings:  1422
++  CStrings:  1423
  
 Symbols:
 + ____workBlockGenerator_block_invoke.237

@@ -43,7 +43,6 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
    __AUTH_CONST.__const: 0x21de0
-   __AUTH_CONST.__auth_ptr: 0x1118
 -  __AUTH_CONST.__auth_got: 0x6f70
 +  __AUTH_CONST.__auth_got: 0x6f80
    __AUTH.__objc_data: 0x3010
@@ -62,11 +61,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E6FBDA38-92D8-3489-AB1F-165B7C8A72E7
 -  Functions: 21589
++  UUID: 2C155425-7545-31E3-8E89-3B976A572EE5
 +  Functions: 21594
    Symbols:   7099
--  CStrings:  4328
-+  CStrings:  4327
+-  CStrings:  4336
++  CStrings:  4335
  
 CStrings:
 + "articleID articleIDs articleNavigationAction referringURL "

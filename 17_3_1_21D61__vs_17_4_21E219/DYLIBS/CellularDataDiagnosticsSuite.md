@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/NPTKit.framework/NPTKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 23001573-82D0-30BF-A540-7C72AB5303A1
++  UUID: 99585168-89E5-302F-A95E-835D2C4734EE
+   Functions: 13
+   Symbols:   120
+   CStrings:  87
+
 ```

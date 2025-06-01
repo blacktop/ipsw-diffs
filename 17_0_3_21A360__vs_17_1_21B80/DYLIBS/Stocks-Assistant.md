@@ -1,0 +1,27 @@
+## Stocks-Assistant
+
+> `/System/Library/AccessibilityBundles/Stocks-Assistant.axbundle/Stocks-Assistant`
+
+```diff
+
+-2905.4.0.0.0
++2909.1.4.3.0
+   __TEXT.__text: 0x904
+   __TEXT.__auth_stubs: 0x180
+   __TEXT.__objc_methlist: 0xc4
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6192D915-40B1-3E24-8A70-139355B52569
++  UUID: EAC9D4D9-DEB8-37BD-B634-00A4AA0ACB31
+   Functions: 20
+   Symbols:   130
+   CStrings:  95
+Symbols:
++ ___block_literal_global.252
++ ___block_literal_global.261
+- ___block_literal_global.258
+- ___block_literal_global.267
+
+```

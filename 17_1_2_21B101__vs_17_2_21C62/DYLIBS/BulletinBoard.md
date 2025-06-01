@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CE77D1BB-29D4-3784-BE5E-BF28632A1D06
 -  Functions: 3384
 -  Symbols:   10891
--  CStrings:  4657
+-  CStrings:  5456
++  UUID: 578F7EDA-6A4B-3738-BD56-92BE4A8C52E7
 +  Functions: 3386
 +  Symbols:   10898
-+  CStrings:  4662
++  CStrings:  5462
  
 Symbols:
 + -[BBBulletin setSpeechLanguage:]

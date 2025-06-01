@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 66DDBA59-215E-3485-BBC1-CD86DC666835
 -  Functions: 292
 -  Symbols:   1129
--  CStrings:  760
+-  CStrings:  808
++  UUID: 2751323D-9541-3EF0-A457-DA1D7F60B518
 +  Functions: 311
 +  Symbols:   1200
-+  CStrings:  799
++  CStrings:  850
  
 Symbols:
 + +[FLLogger isManagedProcess]

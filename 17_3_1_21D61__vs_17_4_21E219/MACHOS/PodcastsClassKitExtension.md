@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B1F7C563-33D0-31FD-B1FB-5FC0E7F0F567
 -  Functions: 326
 -  Symbols:   173
--  CStrings:  324
+-  CStrings:  328
++  UUID: E463A28B-00D9-3ECF-A08D-146516C33CC0
 +  Functions: 345
 +  Symbols:   176
-+  CStrings:  345
++  CStrings:  349
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftMetalKit

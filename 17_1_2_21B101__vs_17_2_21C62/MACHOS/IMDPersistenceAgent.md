@@ -28,13 +28,16 @@
    __DATA.__objc_selrefs: 0x30
    __DATA.__objc_classrefs: 0x20
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4096AB96-A4BB-3188-A5DD-D5B1773E96A5
++  UUID: C44A4B27-2E79-3FFA-A62A-AEE9DA55032C
    Functions: 8
 -  Symbols:   62
--  CStrings:  27
+-  CStrings:  33
 +  Symbols:   58
-+  CStrings:  25
++  CStrings:  26
  
 Symbols:
 - _MarcoLogMadridLevel

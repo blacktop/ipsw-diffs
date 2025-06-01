@@ -55,12 +55,14 @@
    - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8D62B1A-6D4D-3576-A9DE-9111669BDE58
 -  Functions: 161
 -  Symbols:   692
--  CStrings:  334
+-  CStrings:  370
++  UUID: 6681C0E7-0BA7-3E4A-BC96-1406AE2A6A02
 +  Functions: 162
 +  Symbols:   698
-+  CStrings:  338
++  CStrings:  375
  
 Symbols:
 + -[UNNotificationSource bundlePath]

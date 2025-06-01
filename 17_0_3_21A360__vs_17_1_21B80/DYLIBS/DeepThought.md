@@ -42,7 +42,6 @@
    __DATA_CONST.__objc_selrefs: 0x1e0
 -  __AUTH_CONST.__const: 0x1a70
 +  __AUTH_CONST.__const: 0x1a78
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__cfstring: 0x19e0
 -  __AUTH_CONST.__auth_got: 0x8d8
 -  __AUTH.__data: 0xce8
@@ -60,12 +59,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E0DE574C-94DC-3D01-9443-492C49FB1698
 -  Functions: 1204
 -  Symbols:   514
--  CStrings:  386
+-  CStrings:  593
++  UUID: E1C1A2B1-8AFD-3A91-875F-8275D2E0CE98
 +  Functions: 1215
 +  Symbols:   535
-+  CStrings:  385
++  CStrings:  592
  
 Symbols:
 + _OBJC_CLASS_$_BMAppInFocus

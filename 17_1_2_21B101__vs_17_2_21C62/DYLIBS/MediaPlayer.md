@@ -51,12 +51,11 @@
 -  __DATA_CONST.__objc_selrefs: 0x11ac8
 -  __DATA_CONST.__objc_arraydata: 0x7d8
 -  __AUTH_CONST.__const: 0xded8
+-  __AUTH_CONST.__cfstring: 0x23ae0
 +  __DATA_CONST.__objc_const: 0x37538
 +  __DATA_CONST.__objc_selrefs: 0x11bb0
 +  __DATA_CONST.__objc_arraydata: 0x7f0
 +  __AUTH_CONST.__const: 0xdf38
-   __AUTH_CONST.__auth_ptr: 0x20
--  __AUTH_CONST.__cfstring: 0x23ae0
 +  __AUTH_CONST.__cfstring: 0x23e40
    __AUTH_CONST.__objc_const: 0x10b90
    __AUTH_CONST.__objc_intobj: 0x858
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 553A8998-D650-3269-9E23-155471A2EB38
 -  Functions: 16301
 -  Symbols:   53997
--  CStrings:  22339
+-  CStrings:  26906
++  UUID: AB768828-5E04-3FE8-86EE-84CFF2CE6091
 +  Functions: 16333
 +  Symbols:   54106
-+  CStrings:  22417
++  CStrings:  27011
  
 Symbols:
 + +[MPMediaQuery(MPMediaQueryAdditions) favoriteSongsPlaylist]

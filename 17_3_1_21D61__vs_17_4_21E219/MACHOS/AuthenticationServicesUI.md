@@ -62,8 +62,11 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BA23A8BA-9FA5-3954-8835-9627BBFAC19A
++  UUID: 5FD8B3A6-D339-3E95-97C9-34E9E2ADE6E9
    Functions: 104
 -  Symbols:   193
 -  CStrings:  342

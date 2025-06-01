@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x128
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC05D1DA-E47F-3BFA-86AF-E1D775F81236
++  UUID: FB77AE76-3728-31B6-824D-4B8F485E35AA
    Functions: 32
    Symbols:   68
--  CStrings:  134
-+  CStrings:  135
+-  CStrings:  153
++  CStrings:  154
  
 CStrings:
 + "T@\"NSString\",?,R,C"

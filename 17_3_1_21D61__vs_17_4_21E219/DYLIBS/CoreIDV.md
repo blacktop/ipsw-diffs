@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__const: 0x27d0
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x2770
-   __AUTH_CONST.__auth_ptr: 0xc8
 -  __AUTH_CONST.__auth_got: 0x8e8
 +  __AUTH_CONST.__auth_got: 0x8f8
    __AUTH.__data: 0x158
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6D19E773-5B8E-3DAD-9CCC-4BD36F9EC137
 -  Functions: 4913
 -  Symbols:   3201
--  CStrings:  1270
+-  CStrings:  1472
++  UUID: 3894C1FF-092A-3BBF-8969-01BDE90A8F4D
 +  Functions: 4867
 +  Symbols:   3205
-+  CStrings:  1289
++  CStrings:  1491
  
 Symbols:
 + -[DIIdentityRequest merchantNameOverride]

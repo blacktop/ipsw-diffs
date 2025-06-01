@@ -35,6 +35,15 @@
    __DATA.__objc_ivar: 0x2c
    __DATA.__data: 0x60
    __DATA_DIRTY.__objc_data: 0x1e0
+
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 10FFCF17-6EA8-3E5C-B426-DFB0A58ED6D2
++  UUID: F8FC15FC-1CDC-3761-A161-BF04FE979339
+   Functions: 157
+   Symbols:   634
+   CStrings:  398
 CStrings:
 + "T@\"NSData\",?,C,N"
 - "T@\"NSData\",C,N"

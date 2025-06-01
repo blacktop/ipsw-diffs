@@ -54,9 +54,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x258
    __DATA_CONST.__objc_arraydata: 0xe8
 -  __AUTH_CONST.__const: 0x3c98
-+  __AUTH_CONST.__const: 0x4338
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x13c60
++  __AUTH_CONST.__const: 0x4338
 +  __AUTH_CONST.__cfstring: 0x13e40
    __AUTH_CONST.__objc_arrayobj: 0x108
 -  __AUTH_CONST.__objc_const: 0x2040
@@ -86,12 +85,14 @@
    - /usr/lib/libcoretls_cfhelpers.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: DB1CD53E-F5ED-37C0-8A1D-76263999D02E
 -  Functions: 6328
 -  Symbols:   18320
--  CStrings:  7431
+-  CStrings:  9962
++  UUID: F3D3BDE2-0068-3ECF-80A9-4E081B19601B
 +  Functions: 6508
 +  Symbols:   18885
-+  CStrings:  7580
++  CStrings:  10126
  
 Symbols:
 + +[sec_LWCR withData:withError:]

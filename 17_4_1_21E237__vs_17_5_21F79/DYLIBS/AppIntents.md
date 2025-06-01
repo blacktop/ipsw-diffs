@@ -51,7 +51,6 @@
    __DATA_CONST.__objc_superrefs: 0x28
 -  __AUTH_CONST.__const: 0x12598
 +  __AUTH_CONST.__const: 0x12460
-   __AUTH_CONST.__auth_ptr: 0x488
    __AUTH_CONST.__objc_const: 0x310
    __AUTH_CONST.__cfstring: 0x120
    __AUTH_CONST.__auth_got: 0x1208
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7ED381C-EC17-332D-AF43-EDD6F0BD4219
 -  Functions: 19656
 -  Symbols:   11739
--  CStrings:  1523
+-  CStrings:  1532
++  UUID: 27B55DDF-4A01-3368-B353-62532A43064D
 +  Functions: 19646
 +  Symbols:   11735
-+  CStrings:  1525
++  CStrings:  1534
  
 CStrings:
 + "executorWillLaunchApplicationInForeground:"

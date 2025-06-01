@@ -34,11 +34,15 @@
    __DATA_CONST.__objc_protorefs: 0x30
    __DATA_CONST.__objc_classrefs: 0x1240
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B0EF0752-F7D0-3C27-B2A0-764C325BC838
++  UUID: BA2BD030-7762-3A37-AAFF-542C008A9D12
    Functions: 8335
    Symbols:   27526
--  CStrings:  12292
-+  CStrings:  12294
+-  CStrings:  14974
++  CStrings:  14976
  
 CStrings:
 + "productViewController:userDidInteractWithProduct:"

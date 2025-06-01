@@ -47,12 +47,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
-
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E419CCC-AEE2-39A3-B00A-908FA6C8503C
++  UUID: 79DD1CE8-1AF1-38B1-9644-2E6FC23B4971
    Functions: 598
    Symbols:   2108
--  CStrings:  811
-+  CStrings:  812
+-  CStrings:  892
++  CStrings:  893
  
 Symbols:
 + _MTAlarmManagerAlarmFiredFunction.173

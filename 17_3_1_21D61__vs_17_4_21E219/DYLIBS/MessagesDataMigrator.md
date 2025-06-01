@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E4B10590-B47D-3B75-BB13-B9758433E013
++  UUID: A7F02BB9-7671-3284-B957-7AEEC59ED275
+   Functions: 11
+   Symbols:   67
+   CStrings:  41
+
 ```

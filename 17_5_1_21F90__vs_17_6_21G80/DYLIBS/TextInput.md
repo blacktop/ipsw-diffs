@@ -45,13 +45,16 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B1493858-D08F-3617-A4F6-3A283308A7CE
++  UUID: E60D50E5-1FC7-38CB-B710-D5F792438432
    Functions: 3637
 -  Symbols:   12504
--  CStrings:  9032
+-  CStrings:  16188
 +  Symbols:   12507
-+  CStrings:  9035
++  CStrings:  16191
  
 Symbols:
 + __OBJC_$_PROP_LIST_NSObject.10722

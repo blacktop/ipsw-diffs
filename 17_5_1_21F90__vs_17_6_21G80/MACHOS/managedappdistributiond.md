@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 63CDB1EA-1985-3FB3-A9DB-B70621B6F4C4
 -  Functions: 16750
 -  Symbols:   2240
--  CStrings:  3181
+-  CStrings:  3267
++  UUID: 27B54294-D47C-3D8F-8420-445388438ABE
 +  Functions: 16885
 +  Symbols:   2248
-+  CStrings:  3204
++  CStrings:  3290
  
 Symbols:
 + _$s14MarketplaceKit24LicenseResolutionContextV6logKey3urlACSS_10Foundation3URLVtcfC

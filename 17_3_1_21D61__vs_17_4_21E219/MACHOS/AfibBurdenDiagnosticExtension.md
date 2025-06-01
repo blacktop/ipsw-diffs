@@ -17,4 +17,13 @@
    __DATA.__objc_data: 0x190
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/HeartHealth.framework/HeartHealth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0B021C18-42C6-3349-A480-92E14855C0F6
++  UUID: ED5BFEAC-4603-3EB8-A3E1-4B0A3F2C59BF
+   Functions: 35
+   Symbols:   103
+   CStrings:  167
+
 ```

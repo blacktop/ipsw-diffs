@@ -13,7 +13,7 @@
    __DATA_CONST.__got: 0xe8
    __DATA_CONST.__const: 0x10c60
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__auth_got: 0x758
    __DATA.__got_weak: 0x10
 -  __DATA.__data: 0x270
@@ -26,5 +26,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition
    - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/libgermantok.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecab.dylib
+-  UUID: C7442CD9-54DB-3EC5-9A88-266647E6BCA9
++  UUID: 27BC2C83-32C5-3ECA-BF5D-98A71CA45F7C
+   Functions: 4074
+   Symbols:   11659
+   CStrings:  244
 
 ```

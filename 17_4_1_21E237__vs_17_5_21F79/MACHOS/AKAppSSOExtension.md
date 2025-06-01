@@ -53,11 +53,13 @@
    - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2BDCD0C9-FB2E-3ED6-80D3-40C7167FFDBD
 -  Functions: 84
++  UUID: 0A354AC7-00D3-3969-B6DD-C276BB525CEE
 +  Functions: 86
    Symbols:   159
--  CStrings:  424
-+  CStrings:  428
+-  CStrings:  590
++  CStrings:  595
  
 CStrings:
 + "Account manager doesn't contain an active store account"

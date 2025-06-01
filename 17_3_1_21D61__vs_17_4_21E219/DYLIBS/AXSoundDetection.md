@@ -47,12 +47,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F10F6D5-F70E-3423-80E9-CF4FC4C0D24F
 -  Functions: 75
 -  Symbols:   375
--  CStrings:  290
+-  CStrings:  435
++  UUID: CDFD062F-DD16-304C-B635-B9E489758838
 +  Functions: 76
 +  Symbols:   384
-+  CStrings:  296
++  CStrings:  446
  
 Symbols:
 + _AXSDKShotGeneralApplianceFileName

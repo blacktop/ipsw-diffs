@@ -41,12 +41,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DB88551-511B-3CE5-B0EE-BB8F424089AB
 -  Functions: 1704
 -  Symbols:   5248
--  CStrings:  2267
+-  CStrings:  2597
++  UUID: 54E69865-ABBF-321B-95BD-F8DADD30E9C4
 +  Functions: 1707
 +  Symbols:   5255
-+  CStrings:  2268
++  CStrings:  2599
  
 Symbols:
 + _ASIsM9Device

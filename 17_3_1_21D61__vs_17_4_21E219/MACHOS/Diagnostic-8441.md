@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/DiagnosticsSupport.framework/DiagnosticsSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 70C0F976-3537-3CC4-8310-8E88AC562831
++  UUID: F810B601-6952-31D6-991F-FD71F7FE353D
+   Functions: 4
+   Symbols:   35
+   CStrings:  24
+
 ```

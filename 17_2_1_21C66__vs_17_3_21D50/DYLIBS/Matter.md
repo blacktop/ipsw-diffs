@@ -44,8 +44,8 @@
 -  __AUTH_CONST.__cfstring: 0x34e0
 +  __AUTH_CONST.__cfstring: 0x3500
    __AUTH_CONST.__objc_intobj: 0x47a0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x880
+   __AUTH.__objc_data: 0xfcd0
 
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x1090
@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E6CBBD7-62BD-3C28-8C18-51C68A1E5121
 -  Functions: 38230
 -  Symbols:   1668
--  CStrings:  18200
+-  CStrings:  18623
++  UUID: 88847EEA-DF1F-3B5F-BEFD-7E88ECD87E98
 +  Functions: 38235
 +  Symbols:   1670
-+  CStrings:  18208
++  CStrings:  18632
  
 Symbols:
 + _MTREventIsHistoricalKey

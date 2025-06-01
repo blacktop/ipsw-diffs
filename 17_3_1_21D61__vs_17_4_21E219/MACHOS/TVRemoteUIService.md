@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 080F4F3C-2C3C-3147-BEAD-4E021B38AF7C
 -  Functions: 1554
 -  Symbols:   12824
--  CStrings:  1535
+-  CStrings:  1538
++  UUID: B0A1CE87-5083-3A6D-A09C-905C2D10EE59
 +  Functions: 1562
 +  Symbols:   12849
-+  CStrings:  1554
++  CStrings:  1557
  
 Symbols:
 + $sSayxGSlsSly7ElementQz5IndexQzcirTW17TVRemoteUIService25FMPFSKPatternFragmentNodeC_Tg5.resume.0

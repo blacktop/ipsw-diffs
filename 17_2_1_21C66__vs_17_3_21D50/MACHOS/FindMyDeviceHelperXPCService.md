@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/NearField.framework/NearField
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26494730-2A2F-3C75-B09C-D67185322A44
 -  Functions: 321
++  UUID: 82ADE475-7374-389A-94F6-D4C151E632BB
 +  Functions: 327
    Symbols:   177
--  CStrings:  1101
-+  CStrings:  1104
+-  CStrings:  1458
++  CStrings:  1461
  
 CStrings:
 + "accountRatchet"

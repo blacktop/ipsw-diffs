@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F65949B-D485-38EB-93E6-00C6DEF41DA6
 -  Functions: 5101
 -  Symbols:   18581
--  CStrings:  8180
+-  CStrings:  8778
++  UUID: 3591AC60-948C-3C55-818F-F24D0CB8CA43
 +  Functions: 5110
 +  Symbols:   18612
-+  CStrings:  8198
++  CStrings:  8796
  
 Symbols:
 + -[NSDictionary(ShareSheet) sh_removingUnsupportedTypes]

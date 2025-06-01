@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F51DBAD4-1E1B-3A4E-9EA5-DA79D853827F
++  UUID: F8F9A39A-CAE7-36C9-B745-04F4FF079AF4
    Functions: 36
    Symbols:   84
--  CStrings:  154
-+  CStrings:  156
+-  CStrings:  157
++  CStrings:  159
  
 Symbols:
 + _OBJC_CLASS_$_RMManagedDevice

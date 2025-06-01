@@ -54,12 +54,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AEBE33FD-2B09-382C-8E9F-3F0645DE817B
 -  Functions: 3388
 -  Symbols:   11674
--  CStrings:  6578
+-  CStrings:  8586
++  UUID: 61BBEE16-5B3F-3612-AC1D-0FAECF0EFE14
 +  Functions: 3406
 +  Symbols:   11730
-+  CStrings:  6609
++  CStrings:  8630
  
 Symbols:
 + +[PLValidatedSavedAssetType _maskForCMMMutatingFrom]

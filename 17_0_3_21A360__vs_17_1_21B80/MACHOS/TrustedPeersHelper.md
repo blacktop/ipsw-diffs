@@ -93,11 +93,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF020A5C-4615-3E3A-8926-A5AB36E762E7
 -  Functions: 9791
++  UUID: 603B6648-7316-37A6-8E97-D7067A9FBB04
 +  Functions: 9657
    Symbols:   447
--  CStrings:  2874
-+  CStrings:  3006
+-  CStrings:  3089
++  CStrings:  3242
  
 Symbols:
 + _OBJC_CLASS_$_TrustedPeersHelperHealthCheckResult

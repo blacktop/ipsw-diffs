@@ -28,7 +28,11 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealthDaemon.framework/RespiratoryHealthDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34B65D83-F205-386B-851F-BBEA572C51B4
++  UUID: 00117F91-CAB0-3AB0-8103-EFD5535FCB0C
    Functions: 5
    Symbols:   22
 -  CStrings:  58

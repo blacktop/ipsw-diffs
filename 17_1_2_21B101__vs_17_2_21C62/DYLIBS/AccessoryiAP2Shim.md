@@ -27,12 +27,15 @@
    __DATA.__objc_classrefs: 0xb0
    __DATA.__objc_superrefs: 0x28
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73E3987E-C339-3336-B9A0-03D57DBC746E
++  UUID: B86C9B5D-5667-383C-904A-A2E24049C276
    Functions: 382
 -  Symbols:   1400
 +  Symbols:   1401
-   CStrings:  639
+   CStrings:  783
  
 Symbols:
 + _ACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR

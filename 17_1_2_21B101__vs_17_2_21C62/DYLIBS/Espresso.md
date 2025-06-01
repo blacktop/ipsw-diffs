@@ -32,17 +32,20 @@
    __AUTH_CONST.__objc_intobj: 0x2b8
 -  __AUTH_CONST.__cfstring: 0x9840
 +  __AUTH_CONST.__cfstring: 0x9860
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_const: 0x27a8
    __AUTH_CONST.__objc_arrayobj: 0x1f8
+   __AUTH_CONST.__objc_dictobj: 0x28
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7B22F45-1469-3383-A0F9-4964FFCF345C
++  UUID: 1611E584-BCF9-38CC-93B3-F6F152C8B3FC
    Functions: 35229
 -  Symbols:   83131
--  CStrings:  11688
+-  CStrings:  12906
 +  Symbols:   83132
-+  CStrings:  11694
++  CStrings:  12913
  
 Symbols:
 + __ZL21getkCVANetFormatUInt8.21058

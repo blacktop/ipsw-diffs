@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FC78E08C-6079-3796-88B9-69EA7A5E810E
 -  Functions: 1560
 -  Symbols:   5874
--  CStrings:  3405
+-  CStrings:  4066
++  UUID: 00E777CE-A496-3869-9199-8300EC9E66C3
 +  Functions: 1564
 +  Symbols:   5886
-+  CStrings:  3413
++  CStrings:  4074
  
 Symbols:
 + -[VUIImageProxy dynamicProxyRequestedSize]

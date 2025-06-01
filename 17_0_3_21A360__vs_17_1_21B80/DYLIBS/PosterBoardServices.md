@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 74AA9074-84A9-3B18-AEAC-171F01C93BC3
 -  Functions: 1627
 -  Symbols:   5334
--  CStrings:  2253
+-  CStrings:  2736
++  UUID: D4FE2CC5-7675-378D-B9A7-72758766D55F
 +  Functions: 1636
 +  Symbols:   5368
-+  CStrings:  2275
++  CStrings:  2762
  
 Symbols:
 + +[PRSPosterArchiver markURLPurgableAfterOneHour:error:]

@@ -83,11 +83,9 @@
 +  __DATA_CONST.__got: 0x1e58
    __DATA_CONST.__objc_arraydata: 0xe370
 -  __AUTH_CONST.__const: 0x2a958
--  __AUTH_CONST.__auth_ptr: 0x698
 -  __AUTH_CONST.__objc_const: 0x101c0
 -  __AUTH_CONST.__cfstring: 0x26700
 +  __AUTH_CONST.__const: 0x2c1e0
-+  __AUTH_CONST.__auth_ptr: 0x6d0
 +  __AUTH_CONST.__objc_const: 0x10250
 +  __AUTH_CONST.__cfstring: 0x267e0
    __AUTH_CONST.__objc_intobj: 0x1380
@@ -127,12 +125,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5623831D-5719-33A9-9691-759F47D714D1
 -  Functions: 45754
 -  Symbols:   121654
--  CStrings:  17187
+-  CStrings:  22107
++  UUID: 31D526A2-AB5C-3B1D-BCA5-B1E082D94712
 +  Functions: 46646
 +  Symbols:   124230
-+  CStrings:  17352
++  CStrings:  22279
  
 Symbols:
 + +[NSFileAccessProcessMonitor sharedInstance]

@@ -63,11 +63,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 591E6FA9-7964-381C-9FC0-612C2CC4A27F
 -  Functions: 1843
++  UUID: 144D8420-38DE-35ED-A1A4-8E048B825A00
 +  Functions: 1901
    Symbols:   261
--  CStrings:  1674
-+  CStrings:  1713
+-  CStrings:  1880
++  CStrings:  1923
  
 CStrings:
 + "\x17!"

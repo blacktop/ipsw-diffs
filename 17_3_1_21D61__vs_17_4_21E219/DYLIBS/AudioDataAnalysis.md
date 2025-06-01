@@ -42,11 +42,15 @@
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A524C80-2DD7-3325-801A-0B0C3DDA309B
++  UUID: 81D9E91E-78C2-31D9-BB5F-3EFF7ED75FEC
    Functions: 176
    Symbols:   772
--  CStrings:  433
-+  CStrings:  434
+-  CStrings:  509
++  CStrings:  510
  
 Symbols:
 + ___34-[ADAMAudioDataReceiver reconnect]_block_invoke.101

@@ -26,6 +26,15 @@
    __DATA_DIRTY.__objc_data: 0x370
    __DATA_DIRTY.__common: 0x8
    __DATA_DIRTY.__bss: 0x8
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 939B4C15-91D8-320A-B6B7-DB117303D3B0
++  UUID: D17E92CA-6681-371D-A202-F45C927BDA83
+   Functions: 33
+   Symbols:   224
+   CStrings:  186
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.246

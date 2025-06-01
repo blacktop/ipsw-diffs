@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__const: 0x100
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7b0
 +  __AUTH_CONST.__auth_got: 0x7a8
    __DATA.__objc_ivar: 0x400
@@ -62,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9E8FC25-55E9-36F8-8B09-60880A08AF1C
 -  Functions: 1891
 -  Symbols:   5933
--  CStrings:  4034
+-  CStrings:  4874
++  UUID: F00404D0-5872-3864-8EA0-C320A6F73EAC
 +  Functions: 1886
 +  Symbols:   5922
-+  CStrings:  4039
++  CStrings:  4880
  
 Symbols:
 + +[MBFileInfo fileInfoWithAbsolutePath:mode:priority:]

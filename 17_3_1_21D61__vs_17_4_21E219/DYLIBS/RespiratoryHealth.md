@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4755F71B-9C0B-3B04-8A56-81289F6AAA96
 -  Functions: 194
 -  Symbols:   851
--  CStrings:  483
+-  CStrings:  540
++  UUID: 96F54CDD-A59D-3587-8D67-8544A7693AD2
 +  Functions: 193
 +  Symbols:   845
-+  CStrings:  476
++  CStrings:  531
  
 Symbols:
 + +[HKCountrySet(HKFeatureIdentifierOxygenSaturationRecording) localAvailabilityForHKFeatureIdentifierOxygenSaturationRecording]

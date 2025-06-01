@@ -64,14 +64,12 @@
 -  __DATA_CONST.__objc_arraydata: 0x1b8
 -  __AUTH_CONST.__const: 0x8d90
 -  __AUTH_CONST.__objc_const: 0x7b30
--  __AUTH_CONST.__auth_ptr: 0x148
 -  __AUTH_CONST.__cfstring: 0x18a00
 +  __DATA_CONST.__objc_const: 0x28160
 +  __DATA_CONST.__objc_selrefs: 0xad78
 +  __DATA_CONST.__objc_arraydata: 0x1a8
 +  __AUTH_CONST.__const: 0xb868
 +  __AUTH_CONST.__objc_const: 0x7ce8
-+  __AUTH_CONST.__auth_ptr: 0x110
 +  __AUTH_CONST.__cfstring: 0x191a0
    __AUTH_CONST.__objc_intobj: 0x798
 -  __AUTH_CONST.__objc_dictobj: 0xf0
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E880EA33-0DAA-378B-92E1-0A7930DD22A2
 -  Functions: 13962
 -  Symbols:   30350
--  CStrings:  15830
+-  CStrings:  18982
++  UUID: 0CC8B211-AB93-3443-8775-AB3F4AB0667B
 +  Functions: 14641
 +  Symbols:   30674
-+  CStrings:  15994
++  CStrings:  19207
  
 Symbols:
 + +[MPCAutoBugCaptureEventConsumer identifier]

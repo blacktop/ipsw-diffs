@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92AF9921-BE23-3C21-B31A-2BA318F5E9F2
 -  Functions: 2578
 -  Symbols:   8543
--  CStrings:  5101
+-  CStrings:  6390
++  UUID: 8E77B4AE-54D9-3976-82D2-4E57340BDC28
 +  Functions: 2682
 +  Symbols:   8877
-+  CStrings:  5370
++  CStrings:  6726
  
 Symbols:
 + -[DownlinkSegment JBSpikeSizeDeltaHistogram]

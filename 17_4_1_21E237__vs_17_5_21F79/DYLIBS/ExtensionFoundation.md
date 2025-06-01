@@ -68,7 +68,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0x370
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0xa8
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__auth_got: 0xf80
 -  __AUTH.__objc_data: 0x1a58
 -  __AUTH.__data: 0x8f8
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6A8C5849-CC04-3D5C-B72A-5CD62C9A625D
 -  Functions: 3528
 -  Symbols:   6785
--  CStrings:  3127
+-  CStrings:  3453
++  UUID: 930D7740-71BF-33EA-AA0E-A20B793720D3
 +  Functions: 3573
 +  Symbols:   6786
-+  CStrings:  3137
++  CStrings:  3464
  
 Symbols:
 + -[_EXExtensionIdentity(Configuration) requiresNetworkAttribution]

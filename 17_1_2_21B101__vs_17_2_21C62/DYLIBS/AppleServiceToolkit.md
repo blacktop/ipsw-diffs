@@ -47,11 +47,15 @@
    __DATA_DIRTY.__bss: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C7B286FA-C817-3ED7-9749-89D8EE3F45FE
++  UUID: D281C02B-2C0D-35A2-BD9A-0CF077872BDB
    Functions: 844
    Symbols:   3228
--  CStrings:  1692
-+  CStrings:  1702
+-  CStrings:  1957
++  CStrings:  1967
  
 Symbols:
 + _ASTCurrentDiagsChannel

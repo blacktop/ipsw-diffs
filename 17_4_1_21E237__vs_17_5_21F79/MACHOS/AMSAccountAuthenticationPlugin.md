@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47FCB4D3-2A73-393D-B84F-A96E9E73D058
 -  Functions: 100
 -  Symbols:   142
--  CStrings:  576
+-  CStrings:  652
++  UUID: 2DD7DC0E-9837-3A10-9401-FCD91264C582
 +  Functions: 102
 +  Symbols:   146
-+  CStrings:  582
++  CStrings:  660
  
 Symbols:
 + _AMSCustomError

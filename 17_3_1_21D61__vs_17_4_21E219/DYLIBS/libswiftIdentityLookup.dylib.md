@@ -23,4 +23,13 @@
    __DATA.__common: 0x1
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 22895BCC-0A3F-3949-A8E7-35FA090EBBD4
++  UUID: A0ABD81C-48BA-3CE2-AAC5-115A6A8D6DF9
+   Functions: 21
+   Symbols:   92
+   CStrings:  5
+
 ```

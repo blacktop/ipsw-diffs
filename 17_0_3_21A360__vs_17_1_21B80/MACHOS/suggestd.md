@@ -31,11 +31,15 @@
    __DATA.__objc_protorefs: 0x50
    __DATA.__objc_classrefs: 0x130
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3B99555E-02E5-361A-A285-662FF317FB2B
++  UUID: 7EC9919A-9BA7-3297-AEA8-82B0B31E750C
    Functions: 48
    Symbols:   151
--  CStrings:  492
-+  CStrings:  495
+-  CStrings:  528
++  CStrings:  531
  
 CStrings:
 + "suggestionsFromSearchableItem:options:processingType:withCompletion:"

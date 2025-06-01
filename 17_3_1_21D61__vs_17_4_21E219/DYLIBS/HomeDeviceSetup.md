@@ -78,12 +78,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: A85A4245-371F-3E58-A1AC-C5DDE56002E1
 -  Functions: 1116
 -  Symbols:   4295
--  CStrings:  4183
+-  CStrings:  4643
++  UUID: EE1F1D53-A128-3F3E-A8AA-1B465595E566
 +  Functions: 1248
 +  Symbols:   4706
-+  CStrings:  4431
++  CStrings:  4928
  
 Symbols:
 + +[HDSDefaults getBoolForKey:defaultValue:]

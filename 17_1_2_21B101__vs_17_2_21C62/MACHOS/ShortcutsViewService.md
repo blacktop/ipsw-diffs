@@ -35,11 +35,15 @@
    __DATA.__objc_superrefs: 0x20
    __DATA.__objc_ivar: 0x80
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 027E4BB1-D383-3339-8D88-C88A3281CB81
++  UUID: 8C3E26C0-F7C9-3A10-B778-D0C5D3A9E90C
    Functions: 162
    Symbols:   126
--  CStrings:  648
-+  CStrings:  647
+-  CStrings:  666
++  CStrings:  665
  
 CStrings:
 - "performWithoutAnimation:"

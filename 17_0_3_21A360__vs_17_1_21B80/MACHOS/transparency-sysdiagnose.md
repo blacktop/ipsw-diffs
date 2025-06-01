@@ -35,12 +35,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D8A51EF-BDC4-3B2A-B19F-EC525D2EE9E2
 -  Functions: 12
 -  Symbols:   63
--  CStrings:  72
+-  CStrings:  94
++  UUID: C0634105-B0C0-3849-A6A8-ACD373BE233A
 +  Functions: 8
 +  Symbols:   62
-+  CStrings:  62
++  CStrings:  83
  
 Symbols:
 + _OBJC_CLASS_$_KTOptInManager

@@ -26,9 +26,11 @@
    - /usr/lib/libcryptex_trampoline.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 7CDAACCE-2BB2-36FA-B703-67CD3541C52F
 -  Functions: 118
 -  Symbols:   193
 -  CStrings:  144
++  UUID: C977F471-9DDB-3ED7-BDD4-9D66886BFFB4
 +  Functions: 119
 +  Symbols:   196
 +  CStrings:  143

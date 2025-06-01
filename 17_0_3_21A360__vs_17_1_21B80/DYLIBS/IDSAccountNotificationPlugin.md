@@ -1,0 +1,22 @@
+## IDSAccountNotificationPlugin
+
+> `/System/Library/Accounts/Notification/IDSAccountNotificationPlugin.bundle/IDSAccountNotificationPlugin`
+
+```diff
+
+-1814.100.1.2.2
++1814.200.71.2.7
+   __TEXT.__text: 0x1a5c
+   __TEXT.__auth_stubs: 0x2a0
+   __TEXT.__objc_methlist: 0xb0
+
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8C8E1D6-F732-3266-B142-DB4E34EC8F12
++  UUID: 93F18CF5-9D7C-38C1-A476-7F4652A2DB83
+   Functions: 25
+   Symbols:   59
+   CStrings:  139
+
+```

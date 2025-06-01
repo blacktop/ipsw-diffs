@@ -32,11 +32,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x28
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E35D7D8B-307F-3528-8E7C-0FC536465D28
++  UUID: BE97C532-3DE4-3F97-8869-3DE3C3B45EB0
    Functions: 21
    Symbols:   92
--  CStrings:  144
-+  CStrings:  145
+-  CStrings:  164
++  CStrings:  165
  
 CStrings:
 + "T@\"AMSBagKeySet\",?,R,N"

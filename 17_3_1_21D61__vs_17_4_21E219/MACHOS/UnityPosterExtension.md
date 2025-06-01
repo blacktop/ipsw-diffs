@@ -42,11 +42,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1695677D-C067-3B4F-A88F-D9D7CE56E1E8
 -  Functions: 68
++  UUID: 866AAD46-430F-3C43-B4CD-F614252910CC
 +  Functions: 67
    Symbols:   106
--  CStrings:  280
-+  CStrings:  281
+-  CStrings:  291
++  CStrings:  292
  
 CStrings:
 + "T@\"NSString\",?,R,C"

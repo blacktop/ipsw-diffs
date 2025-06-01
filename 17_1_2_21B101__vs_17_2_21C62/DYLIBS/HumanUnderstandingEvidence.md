@@ -15,4 +15,13 @@
    __TEXT.__swift5_typeref: 0xd9
    __TEXT.__swift5_builtin: 0x3c
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 01CBC77B-D3CF-3FC5-BE6D-427D17985EA3
++  UUID: 043E8913-2BF1-303E-B45B-D2CE361074F8
+   Functions: 167
+   Symbols:   127
+   CStrings:  150
+
 ```

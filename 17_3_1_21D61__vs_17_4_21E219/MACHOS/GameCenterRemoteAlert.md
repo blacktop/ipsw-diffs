@@ -45,11 +45,14 @@
    - /System/Library/Frameworks/UIKit.framework/UIKit
    - /System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DD01D61E-6B02-3FA1-8511-BD3B5A91CFA4
++  UUID: 24166C5E-84B9-3913-9901-25CEE66FAB21
    Functions: 29
 -  Symbols:   76
--  CStrings:  239
+-  CStrings:  248
 +  Symbols:   72
 +  CStrings:  237
  

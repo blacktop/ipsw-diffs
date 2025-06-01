@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DBAF2FE-0E7D-39D7-B9BA-0733A0A56057
 -  Functions: 2
 -  Symbols:   32
--  CStrings:  24
+-  CStrings:  25
++  UUID: 4CFC1EFF-54A2-37F7-B937-30167C233433
 +  Functions: 4
 +  Symbols:   36
-+  CStrings:  33
++  CStrings:  34
  
 Symbols:
 + _OBJC_CLASS_$_ASDCheckQueueRequest

@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32C7DDF1-1756-3E8D-9551-8723D82820ED
 -  Functions: 213
 -  Symbols:   346
--  CStrings:  673
+-  CStrings:  1090
++  UUID: E44DD54F-D502-33F0-ABEF-1BFF99031F76
 +  Functions: 223
 +  Symbols:   348
-+  CStrings:  720
++  CStrings:  1163
  
 Symbols:
 + __AXSAttentionAwarenessFeaturesEnabled

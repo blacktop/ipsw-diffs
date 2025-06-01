@@ -28,4 +28,13 @@
    __DATA.__data: 0x60
    __DATA.__bss: 0x30
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D89667D4-EBB9-3D69-9528-676DEDB74570
++  UUID: 1256C580-F72B-3148-95E4-2BDD5F095005
+   Functions: 368
+   Symbols:   1098
+   CStrings:  959
+
 ```

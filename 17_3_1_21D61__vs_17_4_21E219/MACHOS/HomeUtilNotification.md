@@ -32,7 +32,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilitiesUI.framework/NetAppsUtilitiesUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AD4456C-4CE7-39BA-A744-F1A112EA2F59
++  UUID: 7B99BE66-AAAA-33D9-B432-F136B040092B
    Functions: 15
    Symbols:   60
 -  CStrings:  119

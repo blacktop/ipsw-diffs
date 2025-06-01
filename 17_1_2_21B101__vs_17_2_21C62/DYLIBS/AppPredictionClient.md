@@ -42,9 +42,9 @@
    __AUTH_CONST.__cfstring: 0x12fa0
    __AUTH_CONST.__objc_const: 0xa5f8
 
+   __AUTH_CONST.__objc_arrayobj: 0x6c0
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x730
 +  __AUTH_CONST.__auth_got: 0x738
    __AUTH.__objc_data: 0x3318
@@ -66,12 +66,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8943AF31-16B8-3408-8BF8-9893D403E42E
 -  Functions: 9796
 -  Symbols:   31028
--  CStrings:  11846
+-  CStrings:  14275
++  UUID: 19A0FB82-CBF7-33E8-A024-B7DB0D2BD99C
 +  Functions: 9803
 +  Symbols:   31053
-+  CStrings:  11859
++  CStrings:  14288
  
 Symbols:
 + +[ATXSpotlightClient _imageCornerRoundingStyleForIconDisplayStyle:]

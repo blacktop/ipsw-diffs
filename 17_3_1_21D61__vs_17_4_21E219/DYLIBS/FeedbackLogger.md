@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__cfstring: 0x660
 -  __AUTH_CONST.__const: 0x80
 +  __AUTH_CONST.__const: 0x5d0
-+  __AUTH_CONST.__auth_ptr: 0x18
 +  __AUTH_CONST.__objc_const: 0x1b0
 +  __AUTH_CONST.__cfstring: 0x860
    __AUTH_CONST.__objc_intobj: 0x48
@@ -97,9 +96,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2751323D-9541-3EF0-A457-DA1D7F60B518
 -  Functions: 311
 -  Symbols:   1200
--  CStrings:  799
+-  CStrings:  850
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -107,9 +107,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 4C0B5783-DA28-33AB-AAD7-86C1785F8A94
 +  Functions: 971
 +  Symbols:   1605
-+  CStrings:  938
++  CStrings:  1005
  
 Symbols:
 + +[FLLoggingContext isInternalBuild]

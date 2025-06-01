@@ -37,13 +37,16 @@
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0x1a8
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B6087F4D-A755-3232-BA61-42B55CF3A816
++  UUID: 61ABEE69-D054-372A-882B-81965B7DB20F
    Functions: 22
 -  Symbols:   145
--  CStrings:  54
+-  CStrings:  66
 +  Symbols:   150
-+  CStrings:  60
++  CStrings:  76
  
 Symbols:
 + +[UIAccessibilitySafeCategory _addCategoryMethods:count:excluding:toClass:isClass:]

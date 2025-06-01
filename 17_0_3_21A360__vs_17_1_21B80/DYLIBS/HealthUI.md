@@ -60,9 +60,7 @@
    __AUTH_CONST.__objc_intobj: 0x2760
    __AUTH_CONST.__objc_doubleobj: 0x280
    __AUTH_CONST.__objc_dictobj: 0xc8
--  __AUTH_CONST.__auth_ptr: 0x190
 -  __AUTH_CONST.__auth_got: 0x20a8
-+  __AUTH_CONST.__auth_ptr: 0x198
 +  __AUTH_CONST.__auth_got: 0x20c8
    __AUTH.__objc_data: 0xd7a0
    __AUTH.__data: 0x11b0
@@ -82,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E64083C9-D51C-3C4E-9910-57C6E2738E93
 -  Functions: 21423
 -  Symbols:   59863
--  CStrings:  24293
+-  CStrings:  27751
++  UUID: B9378540-1677-3E4D-B3D2-9BC5A500549A
 +  Functions: 21442
 +  Symbols:   59886
-+  CStrings:  24307
++  CStrings:  27768
  
 Symbols:
 + -[HKDataMetadataDetailSection initWithMetadataObject:metadataDataSource:displayTypeController:unitController:]

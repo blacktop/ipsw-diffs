@@ -40,7 +40,6 @@
 +  __DATA_CONST.__objc_selrefs: 0xe8
    __AUTH_CONST.__objc_const: 0xd0
    __AUTH_CONST.__const: 0x5b8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x330
 +  __AUTH_CONST.__auth_got: 0x338
    __AUTH.__objc_data: 0x48
@@ -50,9 +49,11 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ED57BABA-7D26-3747-BC33-40CD85480FB7
 -  Functions: 202
 -  Symbols:   250
 -  CStrings:  124
++  UUID: A3B062A4-DACC-314D-9CB4-10B818FB375A
 +  Functions: 205
 +  Symbols:   253
 +  CStrings:  126

@@ -18,4 +18,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NPTKit.framework/NPTKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 06766821-D613-3494-B465-2AF2A3DA635A
++  UUID: 3F3594F7-BC4A-37F7-83C1-7AB6E3A8ADDB
+   Functions: 13
+   Symbols:   53
+   CStrings:  87
+
 ```

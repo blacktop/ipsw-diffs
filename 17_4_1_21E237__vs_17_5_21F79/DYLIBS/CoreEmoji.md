@@ -33,6 +33,15 @@
    __DATA_DIRTY.__data: 0x138
    __DATA_DIRTY.__bss: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 7760F64D-F089-3120-9B23-A2AA3A84B45F
++  UUID: 1F931519-B1EE-3922-9BFF-340E3CD18768
+   Functions: 796
+   Symbols:   2192
+   CStrings:  304
 CStrings:
 + "/AppleInternal/Library/BuildRoots/940d59b9-fda0-11ee-bdca-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/trie/cedarpp.h"
 - "/AppleInternal/Library/BuildRoots/2d3303f9-dd50-11ee-ac91-22c3409c8aad/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/local/include/trie/cedarpp.h"

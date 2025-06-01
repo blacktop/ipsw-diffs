@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FFFEF4C6-F2EE-3E15-9BA0-2AE81F069EB5
 -  Functions: 534
 -  Symbols:   193
--  CStrings:  1320
+-  CStrings:  1519
++  UUID: AF3DC72A-5F39-3A82-90B1-B1DED8B72FE8
 +  Functions: 539
 +  Symbols:   194
-+  CStrings:  1321
++  CStrings:  1520
  
 Symbols:
 + _dispatch_assert_queue_not$V2

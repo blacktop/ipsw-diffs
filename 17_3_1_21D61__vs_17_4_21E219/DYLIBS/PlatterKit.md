@@ -44,11 +44,15 @@
    __DATA.__objc_const_ax: 0x0
    __DATA.__data: 0xaf8
 
+   - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FC7F1563-A475-332F-B353-D99E18E88BA2
++  UUID: 8481E9CB-E279-3D5E-93BB-8758A977FD18
    Functions: 1080
    Symbols:   4392
--  CStrings:  2003
-+  CStrings:  2007
+-  CStrings:  2069
++  CStrings:  2073
  
 CStrings:
 + "T@\"NSString\",?,C,N"

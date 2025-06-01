@@ -62,12 +62,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15A86A45-5821-393E-B19C-086FEE7861E0
 -  Functions: 71
 -  Symbols:   322
--  CStrings:  133
+-  CStrings:  139
++  UUID: 5471B80F-84A5-3CE4-93CB-14038AF0CCFE
 +  Functions: 73
 +  Symbols:   339
-+  CStrings:  149
++  CStrings:  159
  
 Symbols:
 + +[FOLocations familyControlsAuthorization]

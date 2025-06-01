@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA931451-31F3-3F3B-8905-F2B3B06D5535
 -  Functions: 2115
 -  Symbols:   7761
--  CStrings:  4849
+-  CStrings:  5639
++  UUID: 361894C7-3E1A-3AB5-A5F3-4408D7CE4D06
 +  Functions: 2117
 +  Symbols:   7768
-+  CStrings:  4861
++  CStrings:  5657
  
 Symbols:
 + -[DiagnosticPipelineOutlet logRequiresUploadConsent:]

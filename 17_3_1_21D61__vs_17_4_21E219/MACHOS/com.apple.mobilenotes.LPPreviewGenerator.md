@@ -30,7 +30,11 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29CD3CA1-401A-311F-8EC9-6B47117691CB
++  UUID: 7FF6697C-C89E-388B-8148-FC307D7E0CE4
    Functions: 5
    Symbols:   40
 -  CStrings:  72

@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/Quagga.framework/Quagga
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 89B4AF0D-6ABF-31FB-8F4C-96A2A0471E44
++  UUID: 1373BD6F-8A0F-3298-957B-9737E17B9DDC
+   Functions: 3
+   Symbols:   41
+   CStrings:  13
 
 ```

@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE384F09-ED1F-3D57-B0AC-478E3172DAE7
 -  Functions: 2348
 -  Symbols:   6518
--  CStrings:  3716
+-  CStrings:  4333
++  UUID: 4813CA0A-5F47-317C-82EB-AF79D638CF66
 +  Functions: 2351
 +  Symbols:   6530
-+  CStrings:  3721
++  CStrings:  4340
  
 Symbols:
 + +[DRSDampeningConfiguration skylightHitchesConfiguration]

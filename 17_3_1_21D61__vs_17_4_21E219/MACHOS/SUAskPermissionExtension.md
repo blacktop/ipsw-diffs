@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/StoreServices.framework/StoreServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D1B5A438-9F76-39DB-BDB5-75FF66B65AE5
++  UUID: E2B924B3-4478-30BC-B67C-EA46BFB4E9C0
+   Functions: 2
+   Symbols:   42
+   CStrings:  27
+
 ```

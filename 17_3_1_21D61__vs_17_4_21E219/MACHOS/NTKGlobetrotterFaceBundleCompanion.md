@@ -27,4 +27,13 @@
    __DATA.__objc_data: 0x280
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8A2152AC-29AD-34F7-903B-66F36D02F6E4
++  UUID: 4B2B13FA-A7E1-3C7D-9800-D9CF939493B3
+   Functions: 167
+   Symbols:   154
+   CStrings:  521
+
 ```

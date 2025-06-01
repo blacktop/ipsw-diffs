@@ -72,7 +72,6 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x7fb00
--  __AUTH_CONST.__auth_ptr: 0x18c0
 -  __AUTH_CONST.__auth_got: 0x5de0
 -  __AUTH.__objc_data: 0x279b0
 -  __AUTH.__data: 0x25d20
@@ -80,7 +79,6 @@
 -  __DATA.__objc_classrefs: 0x948
 -  __DATA.__objc_superrefs: 0x80
 +  __AUTH_CONST.__const: 0x80988
-+  __AUTH_CONST.__auth_ptr: 0x1918
 +  __AUTH_CONST.__auth_got: 0x5f38
 +  __AUTH.__objc_data: 0x28540
 +  __AUTH.__data: 0x26370
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C66EEDE-094C-35C1-B7D1-81384E9E3FEB
 -  Functions: 56649
 -  Symbols:   16456
--  CStrings:  9405
+-  CStrings:  9429
++  UUID: 82346906-911C-3567-9A95-CBC7C3A28DC5
 +  Functions: 57508
 +  Symbols:   16645
-+  CStrings:  9491
++  CStrings:  9517
  
 Symbols:
 + +[UIView(TVHandoffAnimationView) smu_tvHandoffAnimationViewWithState:]

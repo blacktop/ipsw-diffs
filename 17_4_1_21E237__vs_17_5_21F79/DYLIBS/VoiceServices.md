@@ -31,4 +31,13 @@
    __DATA_DIRTY.__objc_data: 0x1130
    __DATA_DIRTY.__data: 0xa0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F808E434-50EF-312B-8F86-01D8EEF37BF7
++  UUID: 53DE60D1-6294-3766-9A07-C22705EE2B26
+   Functions: 1716
+   Symbols:   5923
+   CStrings:  3586
+
 ```

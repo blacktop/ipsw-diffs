@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0xe8
    __DATA_CONST.__const: 0x30
 
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: 6A09A2A1-E4A4-30F9-9866-9B4D07643427
++  UUID: 4A9B82D4-BB10-342B-9990-E67F73DE02E6
+   Functions: 306
+   Symbols:   880
+   CStrings:  7
+
 ```

@@ -27,11 +27,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DD156691-F27A-31E6-A08D-B2842A7DF751
 -  Functions: 849
 -  Symbols:   3342
++  UUID: E6E152F2-E5F8-3950-8D13-8BDC212F5498
 +  Functions: 850
 +  Symbols:   3344
-   CStrings:  2001
+   CStrings:  2060
  
 Symbols:
 + -[BFFFaceIDViewController controllerWasPopped]

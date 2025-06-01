@@ -20,4 +20,13 @@
    __TEXT.__unwind_info: 0x10f8
    __TEXT.__objc_classname: 0x26c
 
+   - /usr/lib/libheimdal-asn1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: DD72548B-0335-331D-B2B3-27CB07622190
++  UUID: A4D80B9E-5E43-31D0-8A96-19BA125CD6C7
+   Functions: 1423
+   Symbols:   4358
+   CStrings:  2984
+
 ```

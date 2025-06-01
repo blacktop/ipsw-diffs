@@ -17,6 +17,15 @@
    __TEXT.__oslogstring: 0x1ca27
    __TEXT.__dlopen_cstrs: 0x74
    __TEXT.__unwind_info: 0x42ac
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: A6AB02AB-6240-34B3-876D-6D655886D99B
++  UUID: 59181A9D-DBEB-34D5-9E8C-3DA98957D2E0
+   Functions: 4661
+   Symbols:   16564
+   CStrings:  10005
 CStrings:
 + "Nov 12 2023"
 + "TrialXP-396.4"

@@ -43,7 +43,6 @@
    __AUTH_CONST.__objc_const: 0x240
    __AUTH_CONST.__const: 0x420
    __AUTH_CONST.__objc_intobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x528
 +  __AUTH_CONST.__auth_got: 0x530
    __AUTH.__objc_data: 0x2c0
@@ -53,12 +52,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: AEE74661-2C4E-3FD2-A9B2-ACA2CEA7FEBA
 -  Functions: 246
 -  Symbols:   1023
--  CStrings:  287
+-  CStrings:  354
++  UUID: 83374AF4-FA14-3BF7-9387-D4E6253C33C2
 +  Functions: 247
 +  Symbols:   1026
-+  CStrings:  288
++  CStrings:  357
  
 Symbols:
 + ___37+[WCRCipherMLClient activateCipherML]_block_invoke_2

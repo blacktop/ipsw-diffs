@@ -33,4 +33,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42D6EB10-E179-3DD0-9630-0CF47C79FE95
++  UUID: 47400C4D-D1F0-308B-9194-F0C83BDE2393
+   Functions: 2724
+   Symbols:   11381
+   CStrings:  6269
+
 ```

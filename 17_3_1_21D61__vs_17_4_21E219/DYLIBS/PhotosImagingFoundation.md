@@ -48,11 +48,15 @@
    __DATA_DIRTY.__objc_data: 0x14f0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B2FB818-EB60-389D-9DDF-0D405AE48F1E
++  UUID: 6F25A537-0AA1-3586-B98A-05A88CD026D6
    Functions: 940
    Symbols:   3218
--  CStrings:  1549
-+  CStrings:  1550
+-  CStrings:  1988
++  CStrings:  1989
  
 Symbols:
 + __OBJC_$_PROP_LIST_IPAAutoSettings.131

@@ -68,7 +68,6 @@
 -  __AUTH_CONST.__cfstring: 0x2a0
 -  __AUTH_CONST.__objc_const: 0x738
 -  __AUTH_CONST.__const: 0x15eb0
--  __AUTH_CONST.__auth_ptr: 0x320
 -  __AUTH_CONST.__auth_got: 0x1d28
 +  __DATA_CONST.__objc_const: 0xc200
 +  __DATA_CONST.__objc_selrefs: 0xce8
@@ -78,7 +77,6 @@
 +  __AUTH_CONST.__cfstring: 0x300
 +  __AUTH_CONST.__objc_const: 0x7c0
 +  __AUTH_CONST.__const: 0x17438
-+  __AUTH_CONST.__auth_ptr: 0x3a8
 +  __AUTH_CONST.__auth_got: 0x1f78
    __AUTH.__objc_data: 0x730
 -  __AUTH.__const_weak: 0x1f8
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8D1B2D34-1F4F-3539-9A37-623682F11C95
 -  Functions: 19315
 -  Symbols:   12526
--  CStrings:  2153
+-  CStrings:  2174
++  UUID: 054C3E6E-40A9-314F-9939-09DD5604500D
 +  Functions: 21075
 +  Symbols:   13597
-+  CStrings:  2325
++  CStrings:  2349
  
 Symbols:
 + +[SNNMILProgram loadContentsOfURL:withContext:completion:]

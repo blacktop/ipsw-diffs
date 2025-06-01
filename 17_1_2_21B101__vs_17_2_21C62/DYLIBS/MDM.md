@@ -47,12 +47,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: DDBD61F8-E2F4-3775-9419-01D031EAF8F3
 -  Functions: 955
 -  Symbols:   4386
--  CStrings:  2608
+-  CStrings:  3142
++  UUID: DE077199-AA6F-34E8-8529-94E1197E887C
 +  Functions: 956
 +  Symbols:   4397
-+  CStrings:  2618
++  CStrings:  3155
  
 Symbols:
 + -[MDMParser _installApplicationCouldNotModifyDDMAppsError]

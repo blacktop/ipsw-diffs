@@ -41,11 +41,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C74D25F-BD29-3A3D-845B-2080D2DA7CF3
 -  Functions: 349
++  UUID: CB57B946-7A5C-3543-A6AD-B0ED892FA3EA
 +  Functions: 353
    Symbols:   272
--  CStrings:  697
-+  CStrings:  700
+-  CStrings:  747
++  CStrings:  750
  
 CStrings:
 + "Website Data was cleared for all profiles"

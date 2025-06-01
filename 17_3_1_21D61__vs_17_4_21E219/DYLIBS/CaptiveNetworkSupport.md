@@ -33,7 +33,6 @@
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x1e60
    __AUTH_CONST.__const: 0x6e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa58
 -  __DATA.__objc_classrefs: 0x80
 -  __DATA.__objc_superrefs: 0x8
@@ -44,11 +43,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 11C375CB-832F-346F-905B-92B99921E7AF
 -  Functions: 690
++  UUID: 517E94BC-B465-37D8-8A3F-463C543F7B02
 +  Functions: 691
    Symbols:   2080
--  CStrings:  1153
-+  CStrings:  1155
+-  CStrings:  1396
++  CStrings:  1398
  
 CStrings:
 + "%@: received too big html document on '%@'"

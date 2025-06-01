@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__objc_const: 0x2d78
    __AUTH_CONST.__const: 0x100
    __AUTH_CONST.__objc_intobj: 0xac8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x430
 -  __AUTH.__objc_data: 0x17c0
 +  __AUTH_CONST.__auth_got: 0x440
@@ -73,12 +72,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 0E66EDCD-6CF4-35BE-8955-4FA86D1A7645
 -  Functions: 2711
 -  Symbols:   8257
--  CStrings:  3568
+-  CStrings:  4162
++  UUID: 5C5A96F7-25D2-39C8-B7DF-1152AC6ADF1C
 +  Functions: 2730
 +  Symbols:   8317
-+  CStrings:  3595
++  CStrings:  4195
  
 Symbols:
 + -[UARPAccessoryHIDPersonality getHash]

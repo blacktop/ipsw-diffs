@@ -24,11 +24,13 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 348E6CD8-17D3-3287-B16A-C646D18A8733
 -  Functions: 2135
 -  Symbols:   6874
++  UUID: 81EE59B8-D544-3258-9D6E-FA29B6C84FBE
 +  Functions: 2137
 +  Symbols:   6879
-   CStrings:  702
+   CStrings:  707
  
 Symbols:
 + __ZNSt3__110shared_ptrI10SharedDataEC2IS1_vEEPT_

@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2DA6EF3A-963B-3BEE-9214-F016AC1D0370
 -  Functions: 594
 -  Symbols:   168
--  CStrings:  1228
+-  CStrings:  1408
++  UUID: 684DFD31-17CD-3567-B156-9CD290033661
 +  Functions: 626
 +  Symbols:   175
-+  CStrings:  1280
++  CStrings:  1468
  
 Symbols:
 + _OBJC_CLASS_$_APLocationManager

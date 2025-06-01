@@ -52,12 +52,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D0728CB-7A14-3C0B-BBAA-3E8B8F4EBC11
 -  Functions: 178
 -  Symbols:   858
--  CStrings:  509
+-  CStrings:  727
++  UUID: 78AE7126-6FC5-3336-806F-6B8BA2496684
 +  Functions: 181
 +  Symbols:   873
-+  CStrings:  515
++  CStrings:  733
  
 Symbols:
 + -[PHHandsetDialerDeleteButtonAccessibility _axDeleteButtonWasHidden]

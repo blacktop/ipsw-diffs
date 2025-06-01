@@ -45,11 +45,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AC225F28-BDB0-3847-96EE-DBBE61DDCE00
 -  Functions: 2145
 -  Symbols:   6353
++  UUID: B4B8A9D3-7315-3DFB-A644-AA57DB6BDDC0
 +  Functions: 2144
 +  Symbols:   6348
-   CStrings:  1138
+   CStrings:  1740
  
 Symbols:
 - _CMPhotoDecompressionContainerParseOptions.onceToken

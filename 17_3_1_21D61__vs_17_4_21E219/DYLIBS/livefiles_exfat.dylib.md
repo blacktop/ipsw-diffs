@@ -21,4 +21,13 @@
    __DATA.__common: 0x18
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E637D395-0C29-3529-A8F8-AE19E1DFE02B
++  UUID: 86379ED5-DB90-3E4F-83B8-777531B303AF
+   Functions: 170
+   Symbols:   329
+   CStrings:  434
+
 ```

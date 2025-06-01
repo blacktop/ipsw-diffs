@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x188
 
+   - /System/Library/PrivateFrameworks/SchoolTimeSettingsUI.framework/SchoolTimeSettingsUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4FDBDF94-595C-3A58-A372-94AF65D1C737
++  UUID: B616E1AE-A27A-3885-8C01-98088BA94644
    Functions: 83
    Symbols:   102
--  CStrings:  240
-+  CStrings:  241
+-  CStrings:  249
++  CStrings:  250
  
 CStrings:
 + "T@\"NSString\",?,R,C"

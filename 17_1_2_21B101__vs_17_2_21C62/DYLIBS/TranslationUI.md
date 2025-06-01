@@ -57,9 +57,7 @@
 +  __AUTH_CONST.__const: 0x7d18
    __AUTH_CONST.__cfstring: 0x220
    __AUTH_CONST.__objc_const: 0x410
--  __AUTH_CONST.__auth_ptr: 0x210
 -  __AUTH_CONST.__auth_got: 0x1bf8
-+  __AUTH_CONST.__auth_ptr: 0x218
 +  __AUTH_CONST.__auth_got: 0x1c30
    __AUTH.__objc_data: 0x888
    __AUTH.__data: 0x1370
@@ -89,12 +87,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FD4D632-7F85-3ED1-852E-40702A954F83
 -  Functions: 5452
 -  Symbols:   2190
--  CStrings:  1009
+-  CStrings:  1026
++  UUID: 7D2C79D9-F605-3C92-9EE2-510D7B80FC91
 +  Functions: 5470
 +  Symbols:   2192
-+  CStrings:  1015
++  CStrings:  1032
  
 Symbols:
 + _symbolic _____ 13TranslationUI25UnlockAndOpenURLActionKeyV

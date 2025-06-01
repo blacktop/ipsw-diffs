@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2FDD9349-FD71-37C7-B70E-5C3556BE76B9
++  UUID: 51257A12-38DC-3079-8950-268D0E8AE30D
+   Functions: 3
+   Symbols:   12
+   CStrings:  10
+
 ```

@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_doubleobj: 0x110
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x590
 +  __AUTH_CONST.__auth_got: 0x570
    __AUTH.__objc_data: 0x7d0
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03AF921E-0DC8-3BA3-BF9C-E58A93F38B90
 -  Functions: 817
 -  Symbols:   2997
--  CStrings:  1651
+-  CStrings:  2015
++  UUID: F81EFA95-7DC0-3829-9AEC-7A30782BA6B4
 +  Functions: 796
 +  Symbols:   2893
-+  CStrings:  1559
++  CStrings:  1919
  
 Symbols:
 - +[ANSpeechUtil _pcmAudioDataFromOpusAudio:]

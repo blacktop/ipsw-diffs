@@ -19,11 +19,15 @@
    __TEXT.__objc_methtype: 0x6329
    __TEXT.__gcc_except_tab: 0x1d4
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C68CEF89-0C44-3496-9327-0C5200BDED10
++  UUID: 15FA009B-8787-3868-8429-51503C0FF864
    Functions: 21000
    Symbols:   1177
--  CStrings:  9249
-+  CStrings:  9250
+-  CStrings:  9368
++  CStrings:  9369
  
 CStrings:
 + "Error fetching the url for item: %@ but also did not get an error"

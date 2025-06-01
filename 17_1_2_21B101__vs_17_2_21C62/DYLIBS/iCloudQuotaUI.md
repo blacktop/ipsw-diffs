@@ -77,7 +77,6 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_dictobj: 0x488
--  __AUTH_CONST.__auth_ptr: 0x210
 -  __AUTH_CONST.__auth_got: 0x1d48
 -  __AUTH.__objc_data: 0x42c8
 -  __AUTH.__data: 0x2808
@@ -89,7 +88,6 @@
 -  __DATA.__data: 0x5920
 -  __DATA.__bss: 0xc608
 -  __DATA.__common: 0x268
-+  __AUTH_CONST.__auth_ptr: 0x228
 +  __AUTH_CONST.__auth_got: 0x1ea0
 +  __AUTH.__objc_data: 0x4458
 +  __AUTH.__data: 0x2a58
@@ -125,12 +123,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BBF4C01D-4190-389D-98FE-C5D361DAB94B
 -  Functions: 9924
 -  Symbols:   15202
--  CStrings:  7725
+-  CStrings:  8641
++  UUID: 75794394-D1F3-3955-81D0-DF980987C74A
 +  Functions: 10527
 +  Symbols:   15612
-+  CStrings:  7858
++  CStrings:  8779
  
 Symbols:
 + +[ICQCloudStorageInfo backupInfoHeadersForAccount:].cold.1

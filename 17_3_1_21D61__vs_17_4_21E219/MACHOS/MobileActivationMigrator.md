@@ -43,13 +43,16 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x5c
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F9A22A52-FD40-31A3-9720-F0B30B0E36A4
++  UUID: 02DCAA87-8F9F-3473-904A-B14C53419989
    Functions: 56
 -  Symbols:   1420
--  CStrings:  729
+-  CStrings:  1288
 +  Symbols:   1422
-+  CStrings:  739
++  CStrings:  1307
  
 Symbols:
 + __44-[MobileActivationMigrator performMigration]_block_invoke.91

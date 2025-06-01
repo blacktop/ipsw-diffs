@@ -22,6 +22,15 @@
    __DATA.__objc_ivar: 0x14
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x60
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6889CC5B-2A81-38EC-829D-765457A17844
++  UUID: 63889A2A-3BC2-38DF-9CB4-E84CE49CF6E8
+   Functions: 120
+   Symbols:   136
+   CStrings:  299
 CStrings:
 + "==> alerts_ttl [Feb 16 2024 23:44:24]"
 + "==> always_on_display [Feb 16 2024 23:44:24]"

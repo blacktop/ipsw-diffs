@@ -17,4 +17,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x130
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BC82F7C9-364C-31BE-9419-0E19E06B0222
++  UUID: 77F9DFF6-2A1B-371B-A3BA-44BF2597A342
+   Functions: 455
+   Symbols:   369
+   CStrings:  766
+
 ```

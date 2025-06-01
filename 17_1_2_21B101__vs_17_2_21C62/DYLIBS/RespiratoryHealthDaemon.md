@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A5A35B0-E386-393E-BBC8-1D2AED9F0F17
 -  Functions: 155
 -  Symbols:   770
--  CStrings:  490
+-  CStrings:  533
++  UUID: CFA78FDC-4F93-312A-B80E-2FF64B599EB5
 +  Functions: 159
 +  Symbols:   788
-+  CStrings:  500
++  CStrings:  543
  
 Symbols:
 + -[HDRespiratoryProfileExtension dealloc]

@@ -17,7 +17,6 @@
    __TEXT.__eh_frame: 0x100
    __DATA_CONST.__got: 0x80
    __AUTH_CONST.__const: 0x12b0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0x240
 -  __AUTH_CONST.__auth_got: 0x4c8
 +  __AUTH_CONST.__auth_got: 0x4d0
@@ -28,11 +27,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
+-  UUID: 2AA514B4-DBC6-3713-9D08-B49173B645C1
 -  Functions: 599
 -  Symbols:   1632
++  UUID: 6D9692F4-52CA-34E9-BDA8-03AEAF554AFF
 +  Functions: 600
 +  Symbols:   1635
-   CStrings:  82
+   CStrings:  100
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

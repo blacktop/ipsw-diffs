@@ -42,11 +42,13 @@
    - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38595FCA-8EA8-32AB-AB8A-14AD28A52E24
 -  Functions: 563
++  UUID: C6ED860D-7663-346E-A8E3-8B8A0FC28F3B
 +  Functions: 565
    Symbols:   234
--  CStrings:  970
-+  CStrings:  973
+-  CStrings:  1052
++  CStrings:  1056
  
 CStrings:
 + "Federated Buffer staleness is too large"

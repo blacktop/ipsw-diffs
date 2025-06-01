@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x3e0
 -  __AUTH_CONST.__auth_got: 0x1d78
 +  __AUTH_CONST.__auth_got: 0x1d80
    __AUTH.__objc_data: 0x4530
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5BDA5CE7-421D-394D-A5FF-54FDD1E78BCF
 -  Functions: 11161
 -  Symbols:   10619
--  CStrings:  4824
+-  CStrings:  5195
++  UUID: 3FB79C6B-0242-3A92-9D88-67899C741577
 +  Functions: 11163
 +  Symbols:   10620
-+  CStrings:  4825
++  CStrings:  5196
  
 Symbols:
 + _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAJyAJyAJyAA6VStackVyAA012_ConditionalJ0VyAJyALyAA05TupleD0VyAA6SpacerV_AA6HStackVyAPyAR_AA08ProgressD0VyAA05EmptyD0VAXGARtGGARtGGAA24_BackgroundStyleModifierVyAA5ColorVGG012FamilyCircleB00V33DisclosureControllerRepresentable33_894AE38325ED3BE878E6154E185909E0LLVGGAA14_PaddingLayoutVGAA16_FlexFrameLayoutVGAA30_SafeAreaRegionsIgnoringLayoutVGAA017_AppearanceActionT0VGGAA0D0HPyHC.62

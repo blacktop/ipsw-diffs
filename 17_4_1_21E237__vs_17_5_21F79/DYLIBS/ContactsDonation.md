@@ -21,4 +21,13 @@
    __DATA_DIRTY.__objc_data: 0x960
    __DATA_DIRTY.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AE585CA3-9F1C-36C5-83C5-7AAD14539C42
++  UUID: 9237627B-53CB-378F-B95D-2DC10EE68E79
+   Functions: 499
+   Symbols:   1909
+   CStrings:  966
+
 ```

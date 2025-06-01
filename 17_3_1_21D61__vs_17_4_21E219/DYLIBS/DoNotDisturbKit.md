@@ -36,11 +36,15 @@
    __DATA.__data: 0x2a0
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C11BC23-2BB6-3D6F-AB2E-B9FD1722FE45
++  UUID: E16C8867-532D-304C-B5B1-EB76EC14D5A2
    Functions: 122
    Symbols:   702
--  CStrings:  471
-+  CStrings:  472
+-  CStrings:  517
++  CStrings:  518
  
 CStrings:
 + "T@\"NSString\",?,R,C"

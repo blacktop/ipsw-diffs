@@ -34,12 +34,15 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
-
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F9C9087D-E5ED-33BA-B316-93D8DC2D6CBB
++  UUID: 23B07C52-BA79-3A82-9576-863AE0A22A58
    Functions: 118
    Symbols:   660
--  CStrings:  422
-+  CStrings:  424
+-  CStrings:  481
++  CStrings:  483
  
 CStrings:
 + "T@\"NSDictionary\",?,R,C,N"

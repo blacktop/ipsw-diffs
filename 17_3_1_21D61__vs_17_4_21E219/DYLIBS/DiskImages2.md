@@ -48,7 +48,6 @@
    __AUTH_CONST.__cfstring: 0x3040
 -  __AUTH_CONST.__const: 0x23c20
 +  __AUTH_CONST.__const: 0x23a78
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0xb08
@@ -68,12 +67,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4D2A2644-057E-302C-BD86-88C7CE0B877A
 -  Functions: 6622
 -  Symbols:   18901
--  CStrings:  2468
+-  CStrings:  2854
++  UUID: 0AFF477C-5C83-3B51-9347-AFDB5B1A6DED
 +  Functions: 6613
 +  Symbols:   18862
-+  CStrings:  2467
++  CStrings:  2853
  
 Symbols:
 + +[DICommonAttach DI1_attachWithDictionary:BSDName:error:]

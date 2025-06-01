@@ -27,11 +27,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D69D236-748B-3553-9290-202A44BF3162
 -  Functions: 260
++  UUID: B8400344-525C-39B5-91DA-705648EA5281
 +  Functions: 274
    Symbols:   88
--  CStrings:  337
-+  CStrings:  343
+-  CStrings:  346
++  CStrings:  352
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

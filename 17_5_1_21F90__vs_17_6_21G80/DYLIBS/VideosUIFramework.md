@@ -62,12 +62,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CA16E0F-5D0F-3A8B-B405-80EF1C356039
 -  Functions: 610
 -  Symbols:   2527
--  CStrings:  1007
+-  CStrings:  1528
++  UUID: 1AEACC7C-AD05-3826-8234-02D317BE6F41
 +  Functions: 615
 +  Symbols:   2554
-+  CStrings:  1016
++  CStrings:  1538
  
 Symbols:
 + +[MediaShowcasingTemplateControllerTVAccessibility _accessibilityPerformValidations:]

@@ -55,12 +55,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF04ADED-90AD-3B85-B124-8A366865B5CF
 -  Functions: 2416
 -  Symbols:   7145
--  CStrings:  2530
+-  CStrings:  2970
++  UUID: 46502F93-A3E3-3271-9367-17E07726C6A6
 +  Functions: 2420
 +  Symbols:   7152
-+  CStrings:  2540
++  CStrings:  2980
  
 Symbols:
 + -[RWIProtocolCSSPseudoIdMatches pseudoId].cold.1

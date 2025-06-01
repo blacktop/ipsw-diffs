@@ -22,10 +22,12 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 9655C755-600B-3B0A-9DCE-585FFF2A28F0
 -  Functions: 326
++  UUID: FD39C5DE-0E1B-3C10-B84E-44F49CC32926
 +  Functions: 328
    Symbols:   202
-   CStrings:  111
+   CStrings:  139
  
 CStrings:
 + "GSL: Precondition failure at /Library/Caches/com.apple.xbs/Sources/CoreMIDI_Drivers/Source/MIDI/CppSPI/EventConversion.h: 658"

@@ -36,12 +36,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C413CE0F-4774-391C-B466-48D4A8BFEE3E
 -  Functions: 217
 -  Symbols:   188
--  CStrings:  613
+-  CStrings:  939
++  UUID: C101A67B-CE74-34B0-9A02-BDE3A6B13E37
 +  Functions: 218
 +  Symbols:   189
-+  CStrings:  615
++  CStrings:  943
  
 Symbols:
 + __AXSAccessibilitySecureIntentProvider

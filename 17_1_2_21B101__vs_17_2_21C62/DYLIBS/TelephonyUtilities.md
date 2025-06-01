@@ -79,12 +79,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAF4A032-94A1-3B43-B838-FA81076974E9
 -  Functions: 7533
 -  Symbols:   23834
--  CStrings:  11205
+-  CStrings:  12952
++  UUID: DB5CF01E-2212-36DB-998B-CBCEA4403E35
 +  Functions: 7607
 +  Symbols:   24063
-+  CStrings:  11320
++  CStrings:  13092
  
 Symbols:
 + +[TUCallHistoryController callHistoryControllerWithCoalescingStrategy:options:shouldUpdateMetadataCache:]

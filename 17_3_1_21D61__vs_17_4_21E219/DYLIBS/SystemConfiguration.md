@@ -20,17 +20,19 @@
 +  __DATA_CONST.__const: 0x2c70
    __AUTH_CONST.__cfstring: 0x6a80
    __AUTH_CONST.__const: 0xbf0
-   __AUTH_CONST.__auth_ptr: 0x130
+   __AUTH_CONST.__auth_got: 0xfc0
 
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: 47DAF931-3B6E-3CA7-B73F-1863B0FDDB5F
 -  Functions: 1259
 -  Symbols:   3316
--  CStrings:  2014
+-  CStrings:  2866
++  UUID: EAD78EAE-2D05-3908-B7EA-2126E7923886
 +  Functions: 1262
 +  Symbols:   3321
-+  CStrings:  2015
++  CStrings:  2867
  
 Symbols:
 + __SCNetworkInterfaceIsTetheredHotspot

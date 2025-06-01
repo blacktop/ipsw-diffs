@@ -83,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F6E008E-2C7D-3F3C-A839-2822C88981CB
 -  Functions: 809
 -  Symbols:   2921
--  CStrings:  1660
+-  CStrings:  2228
++  UUID: FC373A97-31BC-33DF-876D-A7673A94A548
 +  Functions: 875
 +  Symbols:   3116
-+  CStrings:  1746
++  CStrings:  2338
  
 Symbols:
 + +[BMAccount _hashOfString:]

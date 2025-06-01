@@ -40,12 +40,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 3C4D6AA4-8B4D-3148-B099-9B16776123EA
 -  Functions: 4643
 -  Symbols:   13831
--  CStrings:  4712
+-  CStrings:  5842
++  UUID: 5593EB24-7EC7-3081-B094-F10369C9D7AD
 +  Functions: 4645
 +  Symbols:   13836
-+  CStrings:  4714
++  CStrings:  5844
  
 Symbols:
 + -[POExtension _unload]

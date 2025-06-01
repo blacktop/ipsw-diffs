@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__const: 0xe3c8
 +  __AUTH_CONST.__const: 0xe578
    __AUTH_CONST.__cfstring: 0x60
-   __AUTH_CONST.__auth_ptr: 0x370
 -  __AUTH_CONST.__auth_got: 0x3078
 +  __AUTH_CONST.__auth_got: 0x30a0
    __AUTH.__data: 0x17e8
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 01C26974-C832-3F91-8D6E-3C49881B9528
 -  Functions: 7595
 -  Symbols:   3829
--  CStrings:  2754
+-  CStrings:  2757
++  UUID: 7D856551-D713-3973-A9F2-52C5A745A291
 +  Functions: 7640
 +  Symbols:   3851
-+  CStrings:  2763
++  CStrings:  2766
  
 Symbols:
 + _OBJC_CLASS_$_PDCPreflightManager

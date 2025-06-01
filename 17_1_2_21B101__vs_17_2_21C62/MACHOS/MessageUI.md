@@ -39,13 +39,16 @@
    __DATA.__objc_classrefs: 0xc8
    __DATA.__objc_superrefs: 0x20
 
+   - /System/Library/PrivateFrameworks/MessageSupport.framework/MessageSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E22B7A0-9891-34B2-886B-BB604137BDE0
++  UUID: D96E2954-6AC2-3A07-8F73-65D4A1B3FC79
    Functions: 111
 -  Symbols:   102
--  CStrings:  519
+-  CStrings:  588
 +  Symbols:   103
-+  CStrings:  521
++  CStrings:  590
  
 Symbols:
 + __os_log_impl

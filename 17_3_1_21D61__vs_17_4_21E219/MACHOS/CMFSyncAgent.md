@@ -25,4 +25,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9F29F04F-F2C5-3698-929D-732D608EB5D6
++  UUID: D542E9FC-766E-3AC0-985E-10190F139742
+   Functions: 43
+   Symbols:   88
+   CStrings:  148
+
 ```

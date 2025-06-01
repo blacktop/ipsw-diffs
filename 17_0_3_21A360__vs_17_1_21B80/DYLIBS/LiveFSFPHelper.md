@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0x1b0
    __DATA.__data: 0x540
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AC3D21D3-42A9-35CC-9EFC-E31A8FD77C7E
++  UUID: 6E7FDEDD-1342-3478-9136-4436ED7EE44A
    Functions: 616
 -  Symbols:   2218
--  CStrings:  1246
+-  CStrings:  1282
 +  Symbols:   2216
-+  CStrings:  1245
++  CStrings:  1281
  
 Symbols:
 + ___63-[LiveFSFPItemHelper _fetchXattrNamed:proxy:completionHandler:]_block_invoke.47

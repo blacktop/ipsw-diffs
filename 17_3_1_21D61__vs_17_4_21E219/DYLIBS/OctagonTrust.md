@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A91D3E85-FB89-3D9E-8272-B09FACA70188
 -  Functions: 578
 -  Symbols:   1919
--  CStrings:  1061
+-  CStrings:  1206
++  UUID: 2BB40AC4-FB39-3456-835B-2A08DE795C34
 +  Functions: 586
 +  Symbols:   1943
-+  CStrings:  1067
++  CStrings:  1212
  
 Symbols:
 + +[OTClique(Framework) ensureBackupKeyExistsinSOS:]

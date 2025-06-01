@@ -61,9 +61,7 @@
    __DATA_CONST.__objc_superrefs: 0x128
    __AUTH_CONST.__objc_const: 0x120
 -  __AUTH_CONST.__cfstring: 0x1880
--  __AUTH_CONST.__auth_ptr: 0xf8
 +  __AUTH_CONST.__cfstring: 0x18a0
-+  __AUTH_CONST.__auth_ptr: 0x100
    __AUTH_CONST.__objc_intobj: 0xd8
 -  __AUTH_CONST.__const: 0x16c8
 -  __AUTH_CONST.__auth_got: 0x1020
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A8D62C3D-329A-399E-8233-E757D325B6CF
 -  Functions: 2796
 -  Symbols:   8721
--  CStrings:  1421
+-  CStrings:  1617
++  UUID: FEA810E9-443A-3149-A3D6-842BF7AD6C41
 +  Functions: 2929
 +  Symbols:   9081
-+  CStrings:  1423
++  CStrings:  1620
  
 Symbols:
 + +[NGMFullPrekey newCompactPrivateKey]

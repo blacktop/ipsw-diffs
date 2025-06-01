@@ -39,4 +39,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Intents.framework/Intents
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 92CCDC2C-8ACA-3EEA-82D7-EFBC8A966DF7
++  UUID: 7B981505-0AA1-397E-9F8D-EDFEF0F19FD0
+   Functions: 3770
+   Symbols:   5070
+   CStrings:  2193
+
 ```

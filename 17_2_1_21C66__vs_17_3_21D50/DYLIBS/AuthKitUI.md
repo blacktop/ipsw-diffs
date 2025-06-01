@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x5c8
 -  __AUTH.__objc_data: 0x1b30
@@ -78,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FD3A5301-8EC6-3935-A7F6-56D19291F56D
 -  Functions: 2454
 -  Symbols:   9259
--  CStrings:  4697
+-  CStrings:  5155
++  UUID: 874365AD-EAD7-3909-B3C8-D171B52A770D
 +  Functions: 2554
 +  Symbols:   9611
-+  CStrings:  4834
++  CStrings:  5328
  
 Symbols:
 + +[AKBiometricRatchetUtility armingMethodFromRatchetResult:]

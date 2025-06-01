@@ -35,4 +35,13 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4EB48D3C-19A3-3EC2-88B7-8A6074E092DC
++  UUID: FBBAC46D-5032-3314-A682-9C6593D2BCBD
+   Functions: 3139
+   Symbols:   1201
+   CStrings:  455
+
 ```

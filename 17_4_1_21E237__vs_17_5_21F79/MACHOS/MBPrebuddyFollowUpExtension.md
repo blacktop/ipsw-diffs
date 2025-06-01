@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_protolist: 0x40
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E9D0AFBC-F388-3AD0-A7E5-75228826DD41
++  UUID: F0FE487D-BCA3-35B4-9015-1342298F0821
    Functions: 283
    Symbols:   223
--  CStrings:  954
-+  CStrings:  955
+-  CStrings:  1062
++  CStrings:  1064
  
 CStrings:
 + "/private/var/mobile"

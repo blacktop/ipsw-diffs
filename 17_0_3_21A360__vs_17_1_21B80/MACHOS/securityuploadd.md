@@ -44,11 +44,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F9AC354F-36A7-3044-9D16-4B52D093C2FC
 -  Functions: 185
++  UUID: E77D9202-BCBD-33BD-B8D4-B4F1BFF2DA16
 +  Functions: 183
    Symbols:   203
--  CStrings:  702
-+  CStrings:  699
+-  CStrings:  861
++  CStrings:  858
  
 CStrings:
 + "61040.42.1"

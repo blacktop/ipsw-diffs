@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x160
    __AUTH_CONST.__objc_intobj: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F0E8ADA-C7DC-39B1-8F45-2FA112DB96F8
++  UUID: A3689898-9A71-39BB-82E5-DB29D47009BA
    Functions: 194
    Symbols:   915
--  CStrings:  624
-+  CStrings:  627
+-  CStrings:  789
++  CStrings:  795
  
 CStrings:
 + "ENHANCED_LOGGING_GEDIAGNOSE"

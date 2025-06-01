@@ -34,11 +34,15 @@
    __DATA_CONST.__objc_catlist: 0x20
    __DATA_CONST.__objc_protolist: 0x58
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67443D45-CC68-3433-BAD8-7FBAF88F0472
++  UUID: B37EAE73-19ED-3384-A736-400B29BD707B
    Functions: 658
    Symbols:   254
--  CStrings:  1659
-+  CStrings:  1663
+-  CStrings:  1784
++  CStrings:  1791
  
 CStrings:
 + "Detected update (%@) or delete (%@) transaction"

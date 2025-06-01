@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C28F9E7-FF07-39D8-A7EF-62025EEA431F
 -  Functions: 423
 -  Symbols:   1423
--  CStrings:  719
+-  CStrings:  825
++  UUID: 686F8FDA-8F26-3F3E-B947-9FEBD713EFD2
 +  Functions: 429
 +  Symbols:   1435
-+  CStrings:  728
++  CStrings:  834
  
 Symbols:
 + +[SASupport getDirStatKeyForOriginID:ofMount:]

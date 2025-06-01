@@ -37,11 +37,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/PerformanceTrace.framework/PerformanceTrace
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B61B96F4-C540-33C2-8FFE-24B6748FF433
++  UUID: 70AB332B-6904-3122-B6E5-42FE9EC28228
    Functions: 32
    Symbols:   69
--  CStrings:  144
-+  CStrings:  145
+-  CStrings:  150
++  CStrings:  151
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -38,11 +38,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F2080AB8-E958-307E-9A91-620C0EEEF39D
 -  Functions: 368
++  UUID: 6DD8DB3E-0066-3148-A3FD-F7A85CCC9761
 +  Functions: 367
    Symbols:   222
--  CStrings:  1047
-+  CStrings:  1046
+-  CStrings:  1183
++  CStrings:  1182
  
 CStrings:
 + "cancelActiveTransationAndDatabaseOperationsForClient:"

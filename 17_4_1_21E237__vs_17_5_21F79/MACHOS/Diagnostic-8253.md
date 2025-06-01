@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12FD8216-2126-345C-B871-452D028D4952
 -  Functions: 205
 -  Symbols:   338
--  CStrings:  505
+-  CStrings:  861
++  UUID: B614BD05-4BF3-3E4F-838A-5020628DF9FA
 +  Functions: 208
 +  Symbols:   340
-+  CStrings:  524
++  CStrings:  892
  
 Symbols:
 + __ZN17DeviceCMInterface23requestControlOfStreamsEbj

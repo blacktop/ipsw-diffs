@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x640
    __DATA.__data: 0x420
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CAC12F09-880B-3D6A-877C-9C5F1A26602B
++  UUID: C16F266F-90BB-3F5B-9333-A4A9A5395C3C
    Functions: 647
    Symbols:   309
--  CStrings:  1403
-+  CStrings:  1405
+-  CStrings:  1498
++  CStrings:  1500
  
 CStrings:
 + "T@\"NSString\",?,R,C"

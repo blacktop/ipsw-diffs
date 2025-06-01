@@ -31,5 +31,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 121F46F0-D68B-3BFC-BDDF-310129920A6C
++  UUID: 64234487-782E-38A9-9C5E-E1166652CA9A
+   Functions: 2051
+   Symbols:   7401
+   CStrings:  2983
 
 ```

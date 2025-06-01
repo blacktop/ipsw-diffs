@@ -70,12 +70,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: F8063060-A07C-3FEB-8F54-530577026AED
 -  Functions: 926
 -  Symbols:   4192
--  CStrings:  2624
+-  CStrings:  3178
++  UUID: 6BA1E3F3-62E7-36B0-BE35-6A9A5F495534
 +  Functions: 933
 +  Symbols:   4223
-+  CStrings:  2657
++  CStrings:  3223
  
 Symbols:
 + -[PSGAirDropController _presentPrivacyFlow]

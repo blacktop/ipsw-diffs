@@ -64,11 +64,13 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6944091A-7DB5-3176-B55A-17F37FF224B7
 -  Functions: 4019
++  UUID: 4EA0816B-36B8-3713-8C85-58F5068E5D80
 +  Functions: 4020
    Symbols:   911
--  CStrings:  7458
-+  CStrings:  7464
+-  CStrings:  8535
++  CStrings:  8543
  
 CStrings:
 + "02:21:57"

@@ -52,11 +52,13 @@
    - /System/Library/PrivateFrameworks/Symbolication.framework/Symbolication
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4376F8F2-7F4C-3D1B-8699-F33E7FDCAA7E
 -  Functions: 438
++  UUID: 10163ACB-BCC6-3FEE-A7D9-731E15BF3C67
 +  Functions: 441
    Symbols:   305
--  CStrings:  1243
-+  CStrings:  1250
+-  CStrings:  1542
++  CStrings:  1549
  
 CStrings:
 + "-[MemoryResourceException _generateMemgraphWithContentLevel:timeoutSecs:memgraphFailedReasonOut:]"

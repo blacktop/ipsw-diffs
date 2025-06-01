@@ -27,11 +27,13 @@
    - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12ABCD52-FA87-3858-BEF9-805534E065E4
 -  Functions: 20
++  UUID: F465EBA6-0829-3A6E-871B-E623460B3175
 +  Functions: 26
    Symbols:   9
--  CStrings:  15
-+  CStrings:  18
+-  CStrings:  17
++  CStrings:  20
  
 CStrings:
 + "accountRatchet"

@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x98
    __DATA_CONST.__const: 0x108
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B2CAB6C0-ECE5-3488-AFD0-781852892CD6
++  UUID: D4F61C4A-507C-3D7B-90D4-E7F84608A50E
+   Functions: 175
+   Symbols:   147
+   CStrings:  759
+
 ```

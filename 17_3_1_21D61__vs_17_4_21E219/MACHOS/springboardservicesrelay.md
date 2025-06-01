@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A802AC5F-2CB2-360F-96C5-A187798646C1
++  UUID: 8BCDC803-F069-3071-B052-C139E7AFDFF5
+   Functions: 2
+   Symbols:   56
+   CStrings:  114
+
 ```

@@ -34,7 +34,6 @@
 +  __AUTH_CONST.__cfstring: 0xbea0
    __AUTH_CONST.__objc_const: 0x1c88
    __AUTH_CONST.__const: 0x56e8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_dictobj: 0x11a8
    __AUTH_CONST.__objc_arrayobj: 0x78
 -  __AUTH_CONST.__objc_intobj: 0x90
@@ -48,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8016B7B-B0A0-3BC0-92B2-027D79AC62B0
 -  Functions: 1809
 -  Symbols:   6245
--  CStrings:  4185
+-  CStrings:  5707
++  UUID: 012B6BD0-CE72-3DD0-9BB8-7B9AC83D01C5
 +  Functions: 1812
 +  Symbols:   6250
-+  CStrings:  4189
++  CStrings:  5714
  
 Symbols:
 + _MILoadInfoPlistWithError

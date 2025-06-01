@@ -38,7 +38,6 @@
 +  __DATA_CONST.__objc_const: 0x1330
 +  __DATA_CONST.__objc_selrefs: 0xab0
    __DATA_CONST.__objc_arraydata: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0xa050
 -  __AUTH_CONST.__cfstring: 0xa260
 +  __AUTH_CONST.__const: 0xa110
@@ -70,12 +69,16 @@
    - /System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport
    - /System/Library/PrivateFrameworks/Celestial.framework/Celestial
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE338CEC-DBC1-34C4-85EF-C2541BCA9877
++  UUID: ED4590B1-2EA7-3436-B46F-880F1ADD1555
    Functions: 1539
 -  Symbols:   4888
+-  CStrings:  6413
 +  Symbols:   4889
-   CStrings:  5114
++  CStrings:  6410
  
 Symbols:
 + -[APAdvertiserBTLEManager handlePrimaryIPChanged]

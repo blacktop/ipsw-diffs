@@ -17,7 +17,7 @@
 +  __AUTH_CONST.__const: 0x678
    __AUTH_CONST.__cfstring: 0x1860
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__auth_got: 0xb70
 
    __DATA.__data: 0x218
    __DATA.__common: 0x180
@@ -27,5 +27,14 @@
    __DATA_DIRTY.__objc_const: 0x5e8
    __DATA_DIRTY.__objc_data: 0x370
    __DATA_DIRTY.__data: 0x68
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EFC5B88C-9E01-3C51-937A-2535309AD9F3
++  UUID: 646D5EFF-1CC9-3B9E-83F2-19690E7773CC
+   Functions: 2121
+   Symbols:   5868
+   CStrings:  1486
 
 ```

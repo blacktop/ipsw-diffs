@@ -37,11 +37,15 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4896D7E-167E-3B0C-9B4D-BF4E156E4DFF
++  UUID: 32D2B31C-F936-33E2-88D0-3814F4CE966F
    Functions: 1755
    Symbols:   1195
--  CStrings:  644
-+  CStrings:  646
+-  CStrings:  646
++  CStrings:  648
  
 CStrings:
 + "@\"UIViewController\"16@0:8"

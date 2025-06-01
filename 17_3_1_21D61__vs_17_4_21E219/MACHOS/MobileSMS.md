@@ -47,13 +47,16 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x240
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49ACFEFC-04F1-3386-8C26-B25E804D6D8B
++  UUID: 1A6CCE1F-3FD3-392E-B9CD-8DE9AE360892
    Functions: 533
 -  Symbols:   327
--  CStrings:  1453
+-  CStrings:  1882
 +  Symbols:   328
-+  CStrings:  1456
++  CStrings:  1886
  
 Symbols:
 + _ShowMessageInspectorActivity

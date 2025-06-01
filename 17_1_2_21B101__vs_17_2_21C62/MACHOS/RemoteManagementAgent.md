@@ -46,12 +46,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EBB68B13-09EA-3E47-B352-464B09C496DB
 -  Functions: 2508
 -  Symbols:   435
--  CStrings:  3783
+-  CStrings:  4167
++  UUID: 03CE1BEE-9E77-3908-BD58-FBF0AD5B5A63
 +  Functions: 2509
 +  Symbols:   436
-+  CStrings:  3785
++  CStrings:  4170
  
 Symbols:
 + _OBJC_CLASS_$_DMCMultiUserModeUtilities

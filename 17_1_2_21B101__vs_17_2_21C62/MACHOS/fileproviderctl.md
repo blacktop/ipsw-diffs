@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 918715A4-D222-39B3-8F21-3DD4D2033A3B
 -  Functions: 341
 -  Symbols:   278
--  CStrings:  942
+-  CStrings:  1243
++  UUID: B29A7B87-452B-3B1C-AB4D-08D7187FF5C4
 +  Functions: 342
 +  Symbols:   279
-+  CStrings:  950
++  CStrings:  1255
  
 Symbols:
 + _FPGetImportCookieForURL

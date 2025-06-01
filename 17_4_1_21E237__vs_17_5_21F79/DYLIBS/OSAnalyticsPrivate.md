@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0x4e8
 +  __AUTH_CONST.__auth_got: 0x4e0
    __DATA.__objc_ivar: 0x184
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 67A2D312-5138-33CC-A4BE-A5492FC171ED
 -  Functions: 295
 -  Symbols:   1387
--  CStrings:  1155
+-  CStrings:  1427
++  UUID: 8BE0A25B-E351-3BD3-A733-B7F2AB2F08E0
 +  Functions: 292
 +  Symbols:   1372
-+  CStrings:  1146
++  CStrings:  1416
  
 Symbols:
 - +[OSADailyTelemetryMonitor collectDeveloperOptIn]

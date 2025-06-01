@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x198
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xe10
 -  __AUTH.__objc_data: 0x13b0
 -  __DATA.__objc_protorefs: 0x18
@@ -81,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8C001FE7-DDE0-3C48-9102-6C3A558B17EF
 -  Functions: 1937
 -  Symbols:   6803
--  CStrings:  3485
+-  CStrings:  4160
++  UUID: 7A46FB77-8F57-3801-87CD-39820A4C68EB
 +  Functions: 1967
 +  Symbols:   6917
-+  CStrings:  3535
++  CStrings:  4218
  
 Symbols:
 + +[MSVSonicAssertion hasEntitlement]

@@ -1,19 +1,22 @@
 ## Calendar
 
-> `/System/Library/Accounts/DataclassOwners/Calendar.bundle/Calendar`
+> `/System/Library/Assistant/UIPlugins/Calendar.siriUIBundle/Calendar`
 
 ```diff
 
-   __TEXT.__oslogstring: 0x12b
-   __TEXT.__objc_classname: 0x40
-   __TEXT.__objc_methname: 0x686
--  __TEXT.__objc_methtype: 0x363
-+  __TEXT.__objc_methtype: 0x364
-   __TEXT.__unwind_info: 0x98
-   __DATA_CONST.__auth_got: 0x128
-   __DATA_CONST.__got: 0x48
-CStrings:
-+ "^{CalDatabase={__CFRuntimeBase=QAQ}i^{CPRecordStore}^{CalEventOccurrenceCache}^{CalScheduledTaskCache}^v^v^{__CFDictionary}^{__CFDictionary}{os_unfair_lock_s=I}II^{__CFArray}^{__CFString}^{__CFArray}ii^{__CFString}^{__CFURL}^{__CFString}^{__CFString}Qiii@?{_opaque_pthread_mutex_t=q[56c]}B^{__CFArray}B^{__CFSet}@@@i@@@*IIiQBBBBBBB}24@0:8@16"
-- "^{CalDatabase={__CFRuntimeBase=QAQ}i^{CPRecordStore}^{CalEventOccurrenceCache}^{CalScheduledTaskCache}^v^v^{__CFDictionary}^{__CFDictionary}{os_unfair_lock_s=I}II^{__CFArray}^{__CFString}^{__CFArray}ii^{__CFString}^{__CFURL}^{__CFString}^{__CFString}Qiii@?{_opaque_pthread_mutex_t=q[56c]}B^{__CFArray}B^{__CFSet}@@@i@@@*IIiBBBBBBB}24@0:8@16"
+-2936.1.1.4.0
++2936.2.2.0.0
+   __TEXT.__text: 0x3bf0
+   __TEXT.__auth_stubs: 0x2e0
+   __TEXT.__objc_stubs: 0x19e0
+
+   - /System/Library/PrivateFrameworks/SiriUI.framework/SiriUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FD05576D-F439-377A-B7DA-E35180CF2263
++  UUID: 6CA36645-FEB1-32EE-95A3-8FB7C4D5F8BB
+   Functions: 88
+   Symbols:   115
+   CStrings:  594
 
 ```

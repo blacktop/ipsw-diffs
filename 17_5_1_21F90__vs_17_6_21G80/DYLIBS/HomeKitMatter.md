@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 68E297ED-507B-3FBE-853B-A439B09E7503
 -  Functions: 3245
 -  Symbols:   11297
--  CStrings:  6845
+-  CStrings:  7521
++  UUID: 6FBE31C5-ADC7-3A8C-81BD-CF1EAE491C31
 +  Functions: 3250
 +  Symbols:   11311
-+  CStrings:  6851
++  CStrings:  7527
  
 Symbols:
 + -[HMMTRAccessoryServer _controller:commissioningComplete:nodeID:abstractMetrics:]

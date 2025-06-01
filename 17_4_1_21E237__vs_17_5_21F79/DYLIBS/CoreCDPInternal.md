@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__cfstring: 0x3ca0
    __AUTH_CONST.__const: 0x380
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x568
 -  __AUTH.__objc_data: 0x1018
@@ -75,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9F92165-6D5B-3F23-AC8D-06E17BDA5127
 -  Functions: 2374
 -  Symbols:   8052
--  CStrings:  3814
+-  CStrings:  4277
++  UUID: 62BA1309-E1E3-3B7F-BA3B-B51D98F5DEEA
 +  Functions: 2391
 +  Symbols:   8137
-+  CStrings:  3870
++  CStrings:  4355
  
 Symbols:
 + -[CDPDAnalyticsTransport setTtrController:]

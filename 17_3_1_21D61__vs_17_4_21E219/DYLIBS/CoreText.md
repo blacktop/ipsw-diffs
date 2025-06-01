@@ -37,11 +37,9 @@
 -  __AUTH_CONST.__const: 0x51e0
 +  __AUTH_CONST.__const: 0x51b8
    __AUTH_CONST.__cfstring: 0x18940
--  __AUTH_CONST.__auth_ptr: 0x88
-+  __AUTH_CONST.__auth_ptr: 0x98
    __AUTH_CONST.__objc_const: 0x4c8
    __AUTH_CONST.__objc_dictobj: 0x2a30
-   __AUTH_CONST.__objc_dataobj: 0x360
+
    __AUTH_CONST.__objc_intobj: 0xf60
    __AUTH_CONST.__objc_doubleobj: 0x10a0
    __AUTH_CONST.__objc_arrayobj: 0x5fb8
@@ -70,11 +68,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 825EBDCE-9F51-3E0F-AB56-A785F622030D
 -  Functions: 4960
 -  Symbols:   11728
++  UUID: B0B3730B-4CFD-3424-843A-0C059C3FA9DC
 +  Functions: 4964
 +  Symbols:   11724
-   CStrings:  3310
+   CStrings:  6456
  
 Symbols:
 + -[_IndicClassTableCache .cxx_construct]

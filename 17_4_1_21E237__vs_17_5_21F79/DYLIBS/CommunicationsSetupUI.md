@@ -39,13 +39,16 @@
    __DATA_CONST.__objc_arraydata: 0x58
    __AUTH_CONST.__cfstring: 0x97e0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5F20579E-8FB7-34E1-B332-758147158BC3
++  UUID: C681D83B-F97C-33AD-9D0C-EF6CA168D7C9
    Functions: 2642
 -  Symbols:   9325
--  CStrings:  5293
+-  CStrings:  6508
 +  Symbols:   9323
-+  CStrings:  5292
++  CStrings:  6507
  
 Symbols:
 + ___Block_byref_object_copy_.683

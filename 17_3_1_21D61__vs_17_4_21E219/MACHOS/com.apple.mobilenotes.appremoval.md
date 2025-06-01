@@ -30,11 +30,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/NotesSupport.framework/NotesSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 891D6203-931E-3658-8BCD-328DA81C533D
++  UUID: 15CC5C6F-C0B1-3C51-9AB3-B86F73532C59
    Functions: 36
    Symbols:   63
--  CStrings:  125
-+  CStrings:  126
+-  CStrings:  131
++  CStrings:  132
  
 CStrings:
 + "T@\"NSString\",?,R,C"

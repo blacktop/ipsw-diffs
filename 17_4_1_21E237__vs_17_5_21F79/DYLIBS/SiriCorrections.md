@@ -4,7 +4,7 @@
 
 ```diff
 
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__const: 0x860
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__auth_got: 0x658
 -  __AUTH.__data: 0x410
@@ -23,5 +23,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3AC370DF-B445-3D03-A1F4-CC2ED7BDC335
++  UUID: 5A5E43EE-15B5-3D94-AEE2-4151B74669BB
+   Functions: 687
+   Symbols:   1928
+   CStrings:  121
 
 ```

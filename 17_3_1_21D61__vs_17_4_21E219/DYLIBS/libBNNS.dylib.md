@@ -22,13 +22,11 @@
 -  __DATA_CONST.__got: 0xf0
 -  __DATA_CONST.__const: 0x2ee8
 -  __AUTH_CONST.__const: 0xa778
--  __AUTH_CONST.__auth_ptr: 0x268
 +  __TEXT.__unwind_info: 0xa2d8
 +  __TEXT.__eh_frame: 0x82a0
 +  __DATA_CONST.__got: 0xf8
 +  __DATA_CONST.__const: 0x3068
 +  __AUTH_CONST.__const: 0xca60
-+  __AUTH_CONST.__auth_ptr: 0x2b8
    __AUTH_CONST.__cfstring: 0x200
 -  __AUTH_CONST.__auth_got: 0x688
 +  __AUTH_CONST.__auth_got: 0x848
@@ -39,12 +37,14 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: A72EC604-B4C6-3D75-81A4-6849510E9F81
 -  Functions: 9247
 -  Symbols:   514
--  CStrings:  3057
+-  CStrings:  3073
++  UUID: 40EDC6FA-5F12-36EA-8C1C-B2D8F926DF71
 +  Functions: 10948
 +  Symbols:   596
-+  CStrings:  3585
++  CStrings:  3601
  
 Symbols:
 + _BNNSDataLayoutGetRank

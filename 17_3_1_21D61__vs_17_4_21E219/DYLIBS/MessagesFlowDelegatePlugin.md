@@ -25,6 +25,15 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42F22B90-A34F-354B-84FF-7675C7603048
++  UUID: 540921EE-D3BB-369E-8BE1-B7827D9D54A7
+   Functions: 10
+   Symbols:   101
+   CStrings:  50
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.246

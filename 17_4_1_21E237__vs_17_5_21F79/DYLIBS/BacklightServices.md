@@ -33,4 +33,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 886160F2-EF86-3299-9B19-C45FA931F624
++  UUID: E91CEA21-FA66-3BE3-AFD6-6CCEE300E464
+   Functions: 1146
+   Symbols:   4213
+   CStrings:  1996
+
 ```

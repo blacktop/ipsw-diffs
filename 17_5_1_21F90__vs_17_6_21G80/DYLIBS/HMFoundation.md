@@ -41,7 +41,6 @@
    __DATA_CONST.__objc_classrefs: 0x568
    __DATA_CONST.__objc_superrefs: 0x378
    __AUTH_CONST.__const: 0xeb8
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__cfstring: 0x4be0
 -  __AUTH_CONST.__objc_const: 0x3fd0
 +  __AUTH_CONST.__objc_const: 0x4010
@@ -52,12 +51,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3183A3BB-7EE9-3E21-A439-367E4F441D04
 -  Functions: 2703
 -  Symbols:   8677
--  CStrings:  3863
+-  CStrings:  4470
++  UUID: C58819FC-BE53-3B88-8A52-A63387E97F15
 +  Functions: 2704
 +  Symbols:   8682
-+  CStrings:  3865
++  CStrings:  4472
  
 Symbols:
 + -[NSHashTable(HMFoundation) hmf_enumerateWithAutoreleasePoolUsingBlock:]

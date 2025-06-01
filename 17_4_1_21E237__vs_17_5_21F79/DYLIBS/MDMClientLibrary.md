@@ -44,12 +44,15 @@
    __DATA_DIRTY.__bss: 0x40
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53517913-F3AD-3280-A3C4-29F1C9546395
++  UUID: 49D7E7D8-13FD-3349-A29D-708641ABD752
    Functions: 432
 -  Symbols:   2112
 +  Symbols:   2113
-   CStrings:  1220
+   CStrings:  1568
  
 Symbols:
 + _objc_msgSend$caseInsensitiveCompare:

@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/AuthenticationServicesCore
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ACA587F5-3F14-3AAF-8428-FE03C755E21D
++  UUID: CD4DD9E1-9190-36BD-ACA2-F7188F06C7CA
+   Functions: 2
+   Symbols:   28
+   CStrings:  1
+
 ```

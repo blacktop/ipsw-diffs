@@ -44,12 +44,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D496D1F-200C-325F-A17E-40BA6161310E
 -  Functions: 1512
 -  Symbols:   3336
--  CStrings:  1730
+-  CStrings:  1919
++  UUID: E5B682AD-42D3-36AE-A0E1-FC6A05DCC368
 +  Functions: 1515
 +  Symbols:   3343
-+  CStrings:  1732
++  CStrings:  1921
  
 Symbols:
 + -[PHPickerViewController setModalInPresentation:]

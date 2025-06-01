@@ -41,6 +41,15 @@
    __DATA_DIRTY.__bss: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/APFoundation.framework/APFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 328D09E3-56CA-3173-82A1-1377D13F7BE2
++  UUID: 9BF25F2A-3CB3-31BF-87CC-939F98343251
+   Functions: 82
+   Symbols:   102
+   CStrings:  191
 CStrings:
 + "initWithPurpose:metric:contentIdentifier:contextIdentifier:identifier:branch:properties:internalProperties:relayData:environment:order:options:"
 - "initWithPurpose:metric:contentIdentifier:contextIdentifier:identifier:branches:properties:internalProperties:relayData:environment:order:options:"

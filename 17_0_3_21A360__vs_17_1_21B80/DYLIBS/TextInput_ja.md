@@ -37,12 +37,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B9650CE-2E47-3988-A038-B82D6F2F33CC
 -  Functions: 714
 -  Symbols:   2640
--  CStrings:  1280
+-  CStrings:  1441
++  UUID: 3A0EE8E0-EA84-3797-9F50-6E257DB75C59
 +  Functions: 715
 +  Symbols:   2645
-+  CStrings:  1282
++  CStrings:  1443
  
 Symbols:
 + ___66-[TIKeyboardInputManager_ja _notifyUpdateCandidates:forOperation:]_block_invoke_2

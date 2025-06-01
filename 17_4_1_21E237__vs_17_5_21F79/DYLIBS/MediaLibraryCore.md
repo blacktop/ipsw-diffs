@@ -19,7 +19,6 @@
 -  __AUTH_CONST.__const: 0xc0
 +  __AUTH_CONST.__const: 0x320
    __AUTH_CONST.__cfstring: 0xe80
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x9e8
 -  __AUTH.__const_weak: 0x200
 +  __AUTH.__const_weak: 0x80
@@ -34,6 +33,15 @@
    __DATA_DIRTY.__data: 0x1e0
    __DATA_DIRTY.__bss: 0x13c0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/MediaPlatform.framework/MediaPlatform
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A0F3EB8F-EC7F-39BD-B542-96CF7B990E19
++  UUID: 47BDAAB7-A060-37C6-A50F-A32ED6AB7BD6
+   Functions: 7705
+   Symbols:   18477
+   CStrings:  1535
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/System/Library/PrivateFrameworks/MediaPlatform.framework/PrivateHeaders/DatabaseConnection.hpp"
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/System/Library/PrivateFrameworks/MediaPlatform.framework/PrivateHeaders/DatabaseResult.hpp"

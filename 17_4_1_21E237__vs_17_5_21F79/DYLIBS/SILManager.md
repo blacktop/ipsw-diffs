@@ -40,7 +40,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x30
 +  __AUTH_CONST.__cfstring: 0x1e0
 +  __AUTH_CONST.__const: 0x820
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x6e8
 +  __AUTH.__data: 0x120
 +  __DATA.__got_weak: 0x8
@@ -53,6 +52,7 @@
 +  - /System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: CCF719A8-D2BB-3162-8948-920010BCB7CE
 -  Functions: 2
 -  Symbols:   4
 -  CStrings:  0
@@ -66,9 +66,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 1C9E912C-FF15-3A75-817F-351FEBA23DF3
 +  Functions: 511
 +  Symbols:   1701
-+  CStrings:  188
++  CStrings:  203
  
 Symbols:
 + <redacted>

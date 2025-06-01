@@ -21,7 +21,6 @@
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__objc_const: 0x168
 +  __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x438
    __DATA.__objc_ivar: 0x198
 -  __DATA.__data: 0x1d8
@@ -34,5 +33,14 @@
    __DATA_DIRTY.__objc_data: 0xf0
    __DATA_DIRTY.__bss: 0xb8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libapp_launch_measurement.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1C89C372-9C90-3CD3-9E7F-3988FA6D1379
++  UUID: 97889448-5527-3E88-80D4-1D4A43DD672B
+   Functions: 335
+   Symbols:   1332
+   CStrings:  1552
 
 ```

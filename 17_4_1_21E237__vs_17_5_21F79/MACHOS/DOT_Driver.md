@@ -26,11 +26,15 @@
    __DATA_CONST.__objc_protolist: 0x38
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FCF20FBC-46A7-351B-8AA7-8BD4BE3892E7
++  UUID: F771C86D-8317-3233-984D-933CC3776244
    Functions: 70
    Symbols:   69
--  CStrings:  330
-+  CStrings:  332
+-  CStrings:  342
++  CStrings:  346
  
 CStrings:
 + "DotMini12"

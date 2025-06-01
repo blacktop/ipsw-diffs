@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CA56BB9-9483-30B1-B08B-B18155FC66F1
 -  Functions: 2383
 -  Symbols:   8939
--  CStrings:  4507
+-  CStrings:  5560
++  UUID: 0FCE4022-1BEB-387E-A6E1-B4B281E8E786
 +  Functions: 2403
 +  Symbols:   8994
-+  CStrings:  4527
++  CStrings:  5585
  
 Symbols:
 + +[WLKChannelManager defaultChannelManager]

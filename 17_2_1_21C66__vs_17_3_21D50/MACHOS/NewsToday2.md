@@ -70,11 +70,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 23174B09-F6B1-38FF-90F5-977DA2FEBAD7
 -  Functions: 3026
++  UUID: 7897A93E-864F-38CB-A79C-8554B840ABC6
 +  Functions: 3033
    Symbols:   582
--  CStrings:  1868
-+  CStrings:  1873
+-  CStrings:  1959
++  CStrings:  1964
  
 CStrings:
 + "background interaction allowed with appearance type %{public}@, so returning %@ for request %{public}@"

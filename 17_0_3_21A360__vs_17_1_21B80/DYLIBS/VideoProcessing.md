@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_classlist: 0x20
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43048F98-AD29-3D68-B7BB-AC9163C849DF
++  UUID: F4281FCB-4414-356A-BC9F-AB2DD17C62CE
    Functions: 3015
 -  Symbols:   1257
--  CStrings:  2018
+-  CStrings:  2523
 +  Symbols:   1258
-+  CStrings:  2019
++  CStrings:  2524
  
 Symbols:
 + _kVTEncodeFrameOptionKey_RTXNumBitsAdded

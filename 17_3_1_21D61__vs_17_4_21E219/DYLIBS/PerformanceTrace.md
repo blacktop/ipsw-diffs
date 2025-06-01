@@ -54,12 +54,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B5B040D-8AEA-3271-9000-1707F1C0B03D
 -  Functions: 115
 -  Symbols:   502
--  CStrings:  344
+-  CStrings:  397
++  UUID: B3A52EC6-0C3F-3499-95BA-82049F2DA0B1
 +  Functions: 117
 +  Symbols:   509
-+  CStrings:  350
++  CStrings:  404
  
 Symbols:
 + -[PTTraceConfig enableSwiftUITracing]

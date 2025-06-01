@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86521041-3D71-38C0-8A7E-29BB2AA24397
 -  Functions: 220
 -  Symbols:   215
--  CStrings:  742
+-  CStrings:  919
++  UUID: 75206DC4-742E-3EDA-ABDF-58F4AEF2A413
 +  Functions: 228
 +  Symbols:   220
-+  CStrings:  756
++  CStrings:  938
  
 Symbols:
 + _MPPlaybackUserDefaultsPrivateListeningEnabledDidChangeNotification

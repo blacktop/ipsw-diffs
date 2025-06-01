@@ -31,11 +31,15 @@
    __DATA.__data: 0x2d8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SchoolTime.framework/SchoolTime
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 867699F9-C3E4-3A2E-8C61-75B14349F49B
++  UUID: 6834F55E-B82D-383B-A2ED-A01D7BF32039
    Functions: 328
    Symbols:   1556
--  CStrings:  1028
-+  CStrings:  1029
+-  CStrings:  1121
++  CStrings:  1122
  
 CStrings:
 + "T@\"NSString\",?,R,C"

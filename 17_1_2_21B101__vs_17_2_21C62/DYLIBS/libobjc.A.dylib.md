@@ -41,9 +41,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libc++abi.dylib
    - /usr/local/lib/libobjc-env.dylib
+-  UUID: 4AF3B26F-95F5-3A0C-BE43-DDD978E6BC2F
 -  Functions: 895
 -  Symbols:   1946
 -  CStrings:  547
++  UUID: 98C1E5B8-C56E-3B9C-9783-B0FEF8F999EE
 +  Functions: 891
 +  Symbols:   1938
 +  CStrings:  549

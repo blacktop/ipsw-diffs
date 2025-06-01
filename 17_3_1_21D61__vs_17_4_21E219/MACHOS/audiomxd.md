@@ -45,14 +45,16 @@
    - /System/Library/PrivateFrameworks/WatchdogClient.framework/WatchdogClient
    - /usr/lib/libAudioToolboxUtility.dylib
    - /usr/lib/libMobileGestalt.dylib
-
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8FAE0AFE-199C-3980-8247-8E05CEC0D9CE
++  UUID: EB247E94-B0BA-3BCB-A8AF-C777DAD54E15
    Functions: 64
 -  Symbols:   176
--  CStrings:  85
+-  CStrings:  86
 +  Symbols:   179
-+  CStrings:  99
++  CStrings:  101
  
 Symbols:
 + _MGGetBoolAnswer

@@ -64,9 +64,11 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/EngagementCollector.framework/EngagementCollector
+-  UUID: D10F5EA6-6D20-3574-A307-B77FEED1D547
 -  Functions: 259
 -  Symbols:   85
 -  CStrings:  87
++  UUID: D2E1C12B-828B-35D0-AE46-368E108F3488
 +  Functions: 256
 +  Symbols:   86
 +  CStrings:  103

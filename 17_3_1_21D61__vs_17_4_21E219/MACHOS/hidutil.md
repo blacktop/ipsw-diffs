@@ -24,4 +24,13 @@
    __DATA.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AA0C1577-5F6D-343C-998D-B693CD3ACB5D
++  UUID: AC19BC08-7E71-3861-9190-7F75529CCD2B
+   Functions: 32
+   Symbols:   93
+   CStrings:  181
+
 ```

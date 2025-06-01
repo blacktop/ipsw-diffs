@@ -41,11 +41,15 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AEB30F02-0B71-33D1-B2F0-E3CCCCD811B8
++  UUID: 12F20FB7-4263-3A78-B398-99770C76724E
    Functions: 226
    Symbols:   968
--  CStrings:  429
-+  CStrings:  430
+-  CStrings:  445
++  CStrings:  446
  
 CStrings:
 + "T@\"NSString\",?,R,C"

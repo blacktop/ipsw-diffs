@@ -77,11 +77,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x50
--  __AUTH_CONST.__auth_ptr: 0x7d8
 -  __AUTH_CONST.__auth_got: 0x2130
 -  __AUTH.__objc_data: 0x3fe0
 -  __AUTH.__data: 0x2ca0
-+  __AUTH_CONST.__auth_ptr: 0x7e8
 +  __AUTH_CONST.__auth_got: 0x2270
 +  __AUTH.__objc_data: 0x4098
 +  __AUTH.__data: 0x2b40
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22767DB1-6FFB-321B-A57D-088B7F410829
 -  Functions: 22109
 -  Symbols:   15799
--  CStrings:  8107
+-  CStrings:  9344
++  UUID: 70533EDF-66D5-36B9-BE62-B315D2164489
 +  Functions: 22339
 +  Symbols:   15767
-+  CStrings:  8077
++  CStrings:  9320
  
 Symbols:
 + -[MTSiriPlistDumper initWithBackgroundTaskManager:]

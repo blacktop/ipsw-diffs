@@ -27,4 +27,13 @@
    __DATA.__data: 0x1e0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 404EE7C6-E6D0-3B2E-BB9C-7EBA5B47F242
++  UUID: 17E5934E-EC5E-331A-B01E-C2D8F4A193A7
+   Functions: 71
+   Symbols:   378
+   CStrings:  217
+
 ```

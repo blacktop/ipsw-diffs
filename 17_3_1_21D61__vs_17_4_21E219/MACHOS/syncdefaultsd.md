@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 05931018-1B7B-3C2F-A8AF-52C8A6A0F8C8
 -  Functions: 1164
++  UUID: A97B1458-D498-3609-BCF9-50771B412AEF
 +  Functions: 1163
    Symbols:   315
--  CStrings:  1814
-+  CStrings:  1815
+-  CStrings:  2063
++  CStrings:  2064
  
 CStrings:
 + "T@\"NSString\",?,R,C"

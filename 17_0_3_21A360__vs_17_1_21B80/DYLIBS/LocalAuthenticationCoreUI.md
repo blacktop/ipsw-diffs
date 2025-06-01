@@ -61,7 +61,6 @@
 -  __AUTH_CONST.__cfstring: 0x140
 -  __AUTH_CONST.__objc_const: 0x168
 -  __AUTH_CONST.__const: 0x240
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x2e0
 -  __AUTH.__objc_data: 0x1e0
 -  __AUTH.__data: 0x108
@@ -77,7 +76,6 @@
 +  __AUTH_CONST.__const: 0x7f0
 +  __AUTH_CONST.__objc_intobj: 0x18
 +  __AUTH_CONST.__objc_doubleobj: 0x10
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x540
 +  __AUTH.__objc_data: 0x2d0
 +  __AUTH.__data: 0x2a0
@@ -104,12 +102,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DB3C46C2-9BEB-33D7-98E4-DE6E3C3F9098
 -  Functions: 151
 -  Symbols:   680
--  CStrings:  196
+-  CStrings:  206
++  UUID: 8B6A7351-4116-3262-9F67-A723CAAA8061
 +  Functions: 382
 +  Symbols:   1391
-+  CStrings:  247
++  CStrings:  259
  
 Symbols:
 + -[LACUIPackagedView convertPointToSublayerCoordinates:]

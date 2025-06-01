@@ -21,4 +21,13 @@
    __DATA_CONST.__objc_dictobj: 0x78
    __DATA.__objc_const: 0xd9e8
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: B6B31A2A-82F1-38C6-98E0-F8BC6E9B1414
++  UUID: 5937C7C8-A81A-3789-938C-6B5CFF57A43F
+   Functions: 1832
+   Symbols:   448
+   CStrings:  4396
+
 ```

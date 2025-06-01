@@ -4,7 +4,7 @@
 
 ```diff
 
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x198
    __AUTH_CONST.__objc_dictobj: 0x50
 -  __AUTH_CONST.__const: 0x20
@@ -18,5 +18,14 @@
    __DATA_DIRTY.__objc_const: 0x2d0
    __DATA_DIRTY.__objc_data: 0x190
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AA5AC1CF-AF48-3AAF-9DA8-132E7A2EF25B
++  UUID: 8EB126F4-1DAB-3FD5-8745-2B8C9014C724
+   Functions: 119
+   Symbols:   572
+   CStrings:  495
 
 ```

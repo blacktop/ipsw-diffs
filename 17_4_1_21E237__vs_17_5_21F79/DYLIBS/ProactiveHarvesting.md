@@ -34,4 +34,13 @@
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: C78C2E78-328A-30D6-802B-9CEFE4CD0A9F
++  UUID: C248FC77-42BD-3D70-AD57-149F31C34A7F
+   Functions: 2788
+   Symbols:   7303
+   CStrings:  4090
+
 ```

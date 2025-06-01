@@ -47,11 +47,15 @@
    __DATA_DIRTY.__common: 0x160
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 83E68AFA-1C7C-36C0-962F-8F194D555104
++  UUID: 1B125E9D-B9AC-3D95-ACDB-A4A62D303247
    Functions: 3675
    Symbols:   13936
--  CStrings:  6459
-+  CStrings:  6461
+-  CStrings:  7388
++  CStrings:  7390
  
 CStrings:
 + "executorWillLaunchApplicationInForeground:"

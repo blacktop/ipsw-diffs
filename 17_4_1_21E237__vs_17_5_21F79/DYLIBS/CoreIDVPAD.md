@@ -56,10 +56,9 @@
    __AUTH_CONST.__objc_const: 0x630
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x1fe8
-+  __AUTH_CONST.__const: 0x2010
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0xb30
 -  __AUTH.__objc_data: 0xde8
++  __AUTH_CONST.__const: 0x2010
 +  __AUTH_CONST.__auth_got: 0xb50
 +  __AUTH.__objc_data: 0xde0
    __AUTH.__data: 0x1f68
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0000592F-3E6C-3CC7-91FB-8388BC1A8270
 -  Functions: 1554
 -  Symbols:   1793
--  CStrings:  916
+-  CStrings:  981
++  UUID: 00B25CBD-1169-3CF1-A394-6C717A4B5147
 +  Functions: 1568
 +  Symbols:   1797
-+  CStrings:  928
++  CStrings:  993
  
 Symbols:
 + -[_PADClassifier finishLivenessStepUp:]

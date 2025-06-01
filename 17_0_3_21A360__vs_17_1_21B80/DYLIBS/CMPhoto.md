@@ -42,7 +42,6 @@
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__cfstring: 0x49c0
 +  __AUTH_CONST.__cfstring: 0x4b40
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__const: 0x7d8
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -79,12 +78,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0E91229C-F164-3D6C-90F2-FC7E5C9E8AB7
 -  Functions: 2120
 -  Symbols:   6230
--  CStrings:  1048
+-  CStrings:  1638
++  UUID: AC225F28-BDB0-3847-96EE-DBBE61DDCE00
 +  Functions: 2145
 +  Symbols:   6353
-+  CStrings:  1138
++  CStrings:  1740
  
 Symbols:
 + -[CMPhotoInterchangeCompactMetal initWithDevice:encode:bayer:quadra:depth:]

@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DEF08424-98AC-3F29-94D3-ABBAAF4E770B
 -  Functions: 109
 -  Symbols:   175
--  CStrings:  431
+-  CStrings:  492
++  UUID: F9C2391A-2E22-3200-B3CC-9925DFCD3ABB
 +  Functions: 110
 +  Symbols:   177
-+  CStrings:  434
++  CStrings:  496
  
 Symbols:
 + _OBJC_CLASS_$_APSLPPlacementConfig

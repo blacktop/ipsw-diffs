@@ -44,13 +44,16 @@
    __DATA.__data: 0xb08
    __DATA.__bss: 0x270
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 389E0B1F-502C-3C89-8AEA-560533A2704C
++  UUID: DAE9F185-9E42-383B-AF84-618038CF27C3
    Functions: 2008
 -  Symbols:   862
--  CStrings:  3655
+-  CStrings:  4381
 +  Symbols:   863
-+  CStrings:  3659
++  CStrings:  4385
  
 Symbols:
 + OBJC_IVAR_$_AccountPSDetailController._mailAccount

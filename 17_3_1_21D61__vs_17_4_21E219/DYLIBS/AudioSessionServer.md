@@ -54,12 +54,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50B3EB46-8C14-36BF-9A3C-571B7EAC3985
 -  Functions: 1581
 -  Symbols:   4418
--  CStrings:  1132
+-  CStrings:  1204
++  UUID: 9CAC103E-3518-3CA2-B06E-A8239887F0CD
 +  Functions: 1566
 +  Symbols:   4378
-+  CStrings:  1139
++  CStrings:  1211
  
 Symbols:
 + -[AVAudioSessionRemoteXPCClient createSession:sourceAuditToken:sourceSessionID:nameOrDeviceUID:useCaseIdentifier:reply:]

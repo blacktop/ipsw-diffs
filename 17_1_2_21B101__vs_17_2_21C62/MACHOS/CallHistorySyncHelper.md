@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 21B579D4-A765-36D4-A097-1BA11EFE84A5
 -  Functions: 651
 -  Symbols:   249
--  CStrings:  1649
+-  CStrings:  1774
++  UUID: 55D3C241-7B78-310D-B2C7-78B5F5BC43EF
 +  Functions: 658
 +  Symbols:   254
-+  CStrings:  1658
++  CStrings:  1783
  
 Symbols:
 + _NSKeyValueChangeKindKey

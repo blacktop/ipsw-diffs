@@ -16,4 +16,13 @@
    __TEXT.__gcc_except_tab: 0xf0
    __TEXT.__objc_classname: 0x95
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B9A1596A-7C7A-3451-B300-0D04CDFA34EE
++  UUID: 8D7B20D4-E831-3569-9CB3-1620DEAFBF77
+   Functions: 284
+   Symbols:   509
+   CStrings:  427
+
 ```

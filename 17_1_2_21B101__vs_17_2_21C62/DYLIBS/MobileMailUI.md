@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ADDC1953-8311-35E5-8F3D-0BA0851CEE95
 -  Functions: 1313
 -  Symbols:   6314
--  CStrings:  3543
+-  CStrings:  3908
++  UUID: 9B7F0CF0-8D21-3810-A720-897FFC3A086D
 +  Functions: 1321
 +  Symbols:   6342
-+  CStrings:  3554
++  CStrings:  3921
  
 Symbols:
 + -[MFBannerView _readLaterStringForDate:]

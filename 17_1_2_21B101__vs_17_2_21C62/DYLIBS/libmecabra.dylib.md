@@ -36,10 +36,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0E5A7986-FE05-3BBA-BB65-FEA0786B13B4
 -  Functions: 10181
++  UUID: 470743D7-3AF1-3DB8-BA31-A71CCDFDD53E
 +  Functions: 10187
    Symbols:   1069
-   CStrings:  3926
+   CStrings:  5051
  
 
 ```

@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 29D1E5E9-4A76-31C1-B71F-47DD1D7E5D91
 -  Functions: 1456
 -  Symbols:   330
--  CStrings:  2753
+-  CStrings:  3222
++  UUID: 682811A8-9672-394A-A7D5-CA5741DC0DD4
 +  Functions: 1457
 +  Symbols:   331
-+  CStrings:  2761
++  CStrings:  3232
  
 Symbols:
 + _OBJC_CLASS_$__PASSimpleCoalescingTimer

@@ -28,11 +28,15 @@
    __DATA.__objc_ivar: 0xcc
    __DATA.__objc_data: 0x280
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D983B30B-83F8-35C9-A45E-710C78B612F6
++  UUID: 92E78260-84BB-3C7C-8459-3CAEEEBBB93B
    Functions: 270
    Symbols:   216
--  CStrings:  841
-+  CStrings:  842
+-  CStrings:  896
++  CStrings:  897
  
 CStrings:
 + "accessoryDidUpdateSupportsCompanionInitiatedObliterate:"

@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C1147B94-3201-3FFE-AA6E-76FDCA66BF4A
 -  Functions: 118
 -  Symbols:   657
--  CStrings:  386
+-  CStrings:  422
++  UUID: C9EDB8B0-4DE9-3B57-A733-807B39123E34
 +  Functions: 122
 +  Symbols:   683
-+  CStrings:  407
++  CStrings:  455
  
 Symbols:
 + -[SignpostSupportObjectExtractor(TraceReading) _processTraceFileWithPath:startDate:endDate:errorOut:]

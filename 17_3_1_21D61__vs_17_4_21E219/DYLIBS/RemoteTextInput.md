@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 455DF864-A367-3DD8-BB28-65FA7B3D7CCD
 -  Functions: 867
 -  Symbols:   3149
--  CStrings:  1716
+-  CStrings:  2012
++  UUID: F16E4CEB-750D-38C2-882B-2B9BA0006D77
 +  Functions: 870
 +  Symbols:   3155
-+  CStrings:  1723
++  CStrings:  2025
  
 Symbols:
 + __RTI_NSStringFromRTIInputModality

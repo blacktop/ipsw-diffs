@@ -19,4 +19,13 @@
    __DATA.__objc_classrefs: 0x20
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/HIDDisplay.framework/HIDDisplay
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E4478ABD-7AF3-3381-9B53-8E02DA588059
++  UUID: EA5BC1D6-C325-3DC0-A5F0-CB19F2DB8280
+   Functions: 19
+   Symbols:   54
+   CStrings:  117
+
 ```

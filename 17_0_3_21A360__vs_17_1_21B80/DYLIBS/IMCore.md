@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_const: 0x4f80
    __AUTH_CONST.__objc_arrayobj: 0x108
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x1058
 +  __AUTH_CONST.__auth_got: 0x1068
    __AUTH.__objc_data: 0x2768
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E50E67C0-0285-3C16-A9EA-F86F28214930
 -  Functions: 7691
 -  Symbols:   2029
--  CStrings:  14512
+-  CStrings:  17481
++  UUID: 04F26F2D-10A2-300B-99C9-C3512A43A26C
 +  Functions: 7715
 +  Symbols:   2030
-+  CStrings:  14544
++  CStrings:  17526
  
 Symbols:
 + _IMChatRegistryMessageSendIsReplicatingKey

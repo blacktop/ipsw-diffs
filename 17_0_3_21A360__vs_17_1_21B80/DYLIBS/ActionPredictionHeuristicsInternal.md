@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8ADA65A9-EF58-34CB-97C4-C3B195F35A0F
 -  Functions: 1144
 -  Symbols:   5000
--  CStrings:  2436
+-  CStrings:  2870
++  UUID: EAA83A15-8EBA-332F-83E5-497C2208834B
 +  Functions: 1145
 +  Symbols:   5003
-+  CStrings:  2438
++  CStrings:  2872
  
 Symbols:
 + -[ATXContextWeatherSuggestionProducer dummySuggestion]

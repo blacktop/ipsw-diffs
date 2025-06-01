@@ -41,11 +41,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07658742-4DE2-3F64-9FAB-D8C7FDA1047D
 -  Functions: 19
 -  Symbols:   69
++  UUID: 031949AD-FAB6-35B3-9076-638405A02990
 +  Functions: 24
 +  Symbols:   65
-   CStrings:  31
+   CStrings:  37
  
 Symbols:
 + __ZTVN10__cxxabiv117__class_type_infoE

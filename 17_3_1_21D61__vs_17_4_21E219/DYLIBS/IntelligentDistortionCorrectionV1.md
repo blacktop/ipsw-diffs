@@ -25,7 +25,6 @@
    __DATA_CONST.__objc_selrefs: 0x630
 +  __DATA_CONST.__objc_classrefs: 0x78
 +  __DATA_CONST.__objc_superrefs: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0xd40
    __AUTH_CONST.__objc_const: 0x1f8
    __AUTH_CONST.__auth_got: 0x1e0
@@ -35,11 +34,15 @@
    __DATA.__data: 0x180
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3744FE44-9C2F-3189-B0FE-49459AFE5E95
++  UUID: 5B4F4F92-A7AE-3C2E-8D88-B22E6EEE6DCC
    Functions: 180
    Symbols:   118
--  CStrings:  933
-+  CStrings:  935
+-  CStrings:  1039
++  CStrings:  1041
  
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"

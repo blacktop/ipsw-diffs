@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
 
+   - /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 57B39AFC-E050-3693-B3E7-46B030AAA472
++  UUID: B9BED3B4-1C6E-32E7-9F89-0FAB8B88CF4B
+   Functions: 44
+   Symbols:   63
+   CStrings:  191
+
 ```

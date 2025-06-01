@@ -34,9 +34,11 @@
    - /usr/lib/swift/libswiftRemoteMirror.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 878E3EF2-F1FB-31C0-909C-535B8EF71C48
 -  Functions: 3875
 -  Symbols:   745
 -  CStrings:  205
++  UUID: 38251FA6-1ADA-3AD6-BBA5-FB688BF1F80F
 +  Functions: 3874
 +  Symbols:   744
 +  CStrings:  206

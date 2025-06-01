@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x420
    __TEXT.__gcc_except_tab: 0xf88
    __TEXT.__cstring: 0x207
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 040B78DA-0F18-30C6-82E2-17A9C3423A61
++  UUID: 53D689F7-C6E0-32E0-97EA-CA6661F71FE7
+   Functions: 129
+   Symbols:   445
+   CStrings:  34
 Symbols:
 + __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ue170006IN3xpc5array8iteratorES6_NS_15insert_iteratorINS_3setINS4_4dictEN25CellularUsagePolicyClient22policy_cmp_by_bundleIdENS_9allocatorIS9_EEEEEEEENS_4pairIT_T1_EESH_T0_SI_
 + __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ue170006IN3xpc5array8iteratorES6_NS_20back_insert_iteratorIS5_EEEENS_4pairIT_T1_EESA_T0_SB_

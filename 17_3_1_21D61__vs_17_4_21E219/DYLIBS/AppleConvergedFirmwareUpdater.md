@@ -27,12 +27,11 @@
 +  __DATA_CONST.__objc_classrefs: 0x8
    __AUTH_CONST.__cfstring: 0xaa0
 -  __AUTH_CONST.__const: 0xc68
-+  __AUTH_CONST.__const: 0xe90
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x660
 -  __AUTH.__const_weak: 0x228
 -  __DATA.__got_weak: 0x48
 -  __DATA.__objc_classrefs: 0x8
++  __AUTH_CONST.__const: 0xe90
 +  __AUTH_CONST.__auth_got: 0x658
 +  __DATA.__got_weak: 0x50
    __DATA.__data: 0x28
@@ -42,12 +41,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 006D3B3E-3C95-3E77-93B1-D66F1B9FDB88
 -  Functions: 701
 -  Symbols:   1917
--  CStrings:  933
+-  CStrings:  1018
++  UUID: 4C3BAA8D-0B83-30F1-8353-20ECA310E702
 +  Functions: 715
 +  Symbols:   1906
-+  CStrings:  927
++  CStrings:  1012
  
 Symbols:
 + GCC_except_table29

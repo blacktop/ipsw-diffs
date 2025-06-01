@@ -38,7 +38,6 @@
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__const: 0x38
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x218
    __AUTH.__objc_data: 0xa0
 -  __DATA.__objc_protorefs: 0x10
@@ -55,14 +54,16 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftVideoToolbox.dylib
    - /usr/lib/swift/libswiftVision.dylib
-
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 18933C19-3E3E-3BFD-88B7-2C47ACAF2EF7
++  UUID: 1FA1C633-02E7-3713-97C3-0B324ABAC90F
    Functions: 33
 -  Symbols:   220
--  CStrings:  92
+-  CStrings:  93
 +  Symbols:   222
-+  CStrings:  93
++  CStrings:  94
  
 Symbols:
 + ___39-[HearingMLHelperService xpcConnection]_block_invoke.47

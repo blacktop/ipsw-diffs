@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 01512A7D-EE0C-35F2-A750-2B7394BF5DD1
 -  Functions: 262
 -  Symbols:   182
--  CStrings:  339
+-  CStrings:  362
++  UUID: 40A6C2BF-2B6E-3833-972B-04BC01CCDE54
 +  Functions: 21
 +  Symbols:   65
-+  CStrings:  137
++  CStrings:  153
  
 Symbols:
 - _NSStringFromClass

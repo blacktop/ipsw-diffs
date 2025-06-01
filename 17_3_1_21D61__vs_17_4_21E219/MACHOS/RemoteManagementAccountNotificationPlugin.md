@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0xa0
 
+   - /System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CF8E37D-C3ED-3B70-940F-3A9C86608DBD
++  UUID: 3B8B445D-C4A3-32D5-8123-6CFE8420D458
    Functions: 55
    Symbols:   98
--  CStrings:  159
-+  CStrings:  160
+-  CStrings:  168
++  CStrings:  169
  
 CStrings:
 + "T@\"NSString\",?,R,C"

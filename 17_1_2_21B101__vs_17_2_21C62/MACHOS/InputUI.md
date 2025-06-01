@@ -25,11 +25,15 @@
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x168
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDB33D79-1F5E-3311-BF9C-0869397914A9
++  UUID: 3D3B1B20-DF8E-3052-9ACF-0B35E0151F60
    Functions: 320
    Symbols:   161
--  CStrings:  1305
-+  CStrings:  1306
+-  CStrings:  1322
++  CStrings:  1323
  
 CStrings:
 + "autoFillDidInsertWithExplicitInvocationMode:"

@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F107C324-8A7F-3817-B29C-DAE0A3DFD8D0
 -  Functions: 2450
 -  Symbols:   8899
--  CStrings:  4642
+-  CStrings:  5523
++  UUID: 8CFF6853-F291-3E4C-A4C2-64968A2AEB20
 +  Functions: 2507
 +  Symbols:   9101
-+  CStrings:  4744
++  CStrings:  5646
  
 Symbols:
 + +[IRAnalyticsManager sendEventLazyForEventIdentifier:clientIdentifier:analytics:]

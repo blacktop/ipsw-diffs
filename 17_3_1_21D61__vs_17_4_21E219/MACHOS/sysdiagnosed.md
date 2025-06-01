@@ -83,12 +83,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 7311D8F7-4E0F-3B6F-AAE3-859FF2156840
 -  Functions: 1484
 -  Symbols:   491
--  CStrings:  4779
+-  CStrings:  6716
++  UUID: 8C618FF8-6C4E-382F-84DE-C7681003FD4A
 +  Functions: 1673
 +  Symbols:   489
-+  CStrings:  5064
++  CStrings:  7113
  
 Symbols:
 + _dispatch_queue_attr_make_with_autorelease_frequency

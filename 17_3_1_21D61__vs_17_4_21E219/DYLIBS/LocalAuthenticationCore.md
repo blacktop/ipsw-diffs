@@ -79,8 +79,6 @@
 +  __AUTH_CONST.__const: 0xf80
    __AUTH_CONST.__objc_intobj: 0xc0
 -  __AUTH_CONST.__objc_arrayobj: 0x60
-+  __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x748
 -  __AUTH.__objc_data: 0x12f0
 -  __AUTH.__data: 0x170
@@ -88,6 +86,7 @@
 -  __DATA.__objc_classrefs: 0x1c0
 -  __DATA.__objc_superrefs: 0x110
 -  __DATA.__objc_ivar: 0x1cc
++  __AUTH_CONST.__objc_arrayobj: 0x78
 +  __AUTH_CONST.__auth_got: 0x7b0
 +  __AUTH.__objc_data: 0xbf8
 +  __AUTH.__data: 0x180
@@ -121,12 +120,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CACFD424-5F78-388A-A601-FC80F22AF892
 -  Functions: 1148
 -  Symbols:   4212
--  CStrings:  1164
+-  CStrings:  1260
++  UUID: F4B7B999-18D4-3166-969C-D88D93F468D9
 +  Functions: 1305
 +  Symbols:   4859
-+  CStrings:  1310
++  CStrings:  1414
  
 Symbols:
 + +[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]

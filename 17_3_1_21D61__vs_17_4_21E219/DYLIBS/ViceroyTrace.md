@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E9CA6E21-04ED-3568-8DD8-00BD2FC5588F
 -  Functions: 2774
 -  Symbols:   9206
--  CStrings:  5586
+-  CStrings:  7006
++  UUID: 2065CEBB-414C-393A-BE2F-B8585A49D5EE
 +  Functions: 2800
 +  Symbols:   9286
-+  CStrings:  5631
++  CStrings:  7062
  
 Symbols:
 + -[MultiwayCall processKeyFrameReceived:]

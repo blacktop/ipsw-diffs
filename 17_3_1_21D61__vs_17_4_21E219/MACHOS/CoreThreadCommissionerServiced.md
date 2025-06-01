@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x500
    __DATA.__data: 0x430
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71E0A9BB-96F9-392C-B424-D1A63954AA24
++  UUID: E8C09569-EAF0-3F73-96A9-B104DFBB6E22
    Functions: 1264
    Symbols:   262
--  CStrings:  2253
-+  CStrings:  2254
+-  CStrings:  2397
++  CStrings:  2398
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0xab0
    __DATA_CONST.__cfstring: 0x1920
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E80C0AC-2B81-3129-9C69-A3521A14E0E5
++  UUID: BA5E1EDA-4A15-36AF-8BFB-28DBAB6F5774
    Functions: 455
 -  Symbols:   369
 +  Symbols:   371
-   CStrings:  565
+   CStrings:  766
  
 Symbols:
 + _CFStringCreateCopy

@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/MultitouchSupport.framework/MultitouchSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70457A89-39BB-3F3F-B577-0CAF93189BD2
++  UUID: CB8C75F6-D537-3983-92A3-CBDD152212B1
    Functions: 157
    Symbols:   130
--  CStrings:  500
-+  CStrings:  501
+-  CStrings:  536
++  CStrings:  537
  
 CStrings:
 + "T@\"NSString\",?,R,C"

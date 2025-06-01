@@ -37,11 +37,15 @@
    __DATA.__data: 0x4b8
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7C4DA2A-3200-3648-B3F6-D14AEDB299CE
++  UUID: 7E145366-1D67-3B7C-B5A8-56912CE06819
    Functions: 309
    Symbols:   1086
--  CStrings:  484
-+  CStrings:  485
+-  CStrings:  587
++  CStrings:  588
  
 Symbols:
 + ___40-[ACCNavigationProvider connectToServer]_block_invoke.77

@@ -53,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6704DF7F-9832-3A97-A1B3-B002298FC2BF
 -  Functions: 10076
++  UUID: B60F396B-C709-3388-9D67-FAAB01B2BFB2
 +  Functions: 9996
    Symbols:   686
--  CStrings:  10427
-+  CStrings:  10438
+-  CStrings:  10889
++  CStrings:  10899
  
 CStrings:
 + "%25s:%-5d Session info has empty On Demand VAD Specification. Returning redundant route change."

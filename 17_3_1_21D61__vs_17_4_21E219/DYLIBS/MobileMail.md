@@ -56,12 +56,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DCC1B4F0-E41D-39E1-9CB2-F680103CD24F
 -  Functions: 512
 -  Symbols:   2199
--  CStrings:  1166
+-  CStrings:  1718
++  UUID: 1DADBD9E-B85A-3FD8-98AC-C1A1DC2CAADD
 +  Functions: 515
 +  Symbols:   2206
-+  CStrings:  1168
++  CStrings:  1722
  
 Symbols:
 + -[MessageStatusIndicatorManagerAccessibility _accessibilitySetImageNameForImage:options:]

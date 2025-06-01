@@ -47,11 +47,13 @@
    - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 642A45DE-3752-3C27-8317-45EE50ED6966
 -  Functions: 39
++  UUID: 0596DE17-FA53-3FEE-959E-867E6FF0E499
 +  Functions: 45
    Symbols:   63
--  CStrings:  219
-+  CStrings:  230
+-  CStrings:  232
++  CStrings:  243
  
 Symbols:
 + _OBJC_CLASS_$_MechanismBiometry

@@ -23,7 +23,6 @@
 -  __DATA_CONST.__const: 0x458
 +  __DATA_CONST.__const: 0x4b8
    __AUTH_CONST.__cfstring: 0xfa0
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__const: 0x3e8
 -  __AUTH_CONST.__auth_got: 0xa48
 -  __DATA.__data: 0x2d8
@@ -37,12 +36,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: B54DE584-09DE-3A3C-A284-B2FAA7C25F48
 -  Functions: 628
 -  Symbols:   1869
--  CStrings:  463
+-  CStrings:  588
++  UUID: 7E7B66BF-12F7-3B56-9452-F69659AD7D12
 +  Functions: 633
 +  Symbols:   1887
-+  CStrings:  475
++  CStrings:  600
  
 Symbols:
 + _CCHmac

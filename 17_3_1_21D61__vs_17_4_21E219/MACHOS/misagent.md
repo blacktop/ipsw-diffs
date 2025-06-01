@@ -47,11 +47,13 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 61F8B44C-F08A-35EC-A9B2-B45B062A50E7
 -  Functions: 226
++  UUID: 546ED68A-63E8-345C-B0C0-FCD928AAC1C8
 +  Functions: 228
    Symbols:   239
--  CStrings:  354
-+  CStrings:  355
+-  CStrings:  442
++  CStrings:  443
  
 CStrings:
 + "setDatabasePermissionsInternal"

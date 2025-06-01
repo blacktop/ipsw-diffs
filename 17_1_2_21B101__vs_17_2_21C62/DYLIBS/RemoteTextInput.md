@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4709291-283E-36AE-90BB-4A94E2B027D3
 -  Functions: 861
 -  Symbols:   3131
--  CStrings:  1698
+-  CStrings:  1988
++  UUID: 2133AE98-9EDA-32BF-B575-56F0DC1A77A4
 +  Functions: 867
 +  Symbols:   3149
-+  CStrings:  1716
++  CStrings:  2012
  
 Symbols:
 + -[RTIDocumentState scrolling]

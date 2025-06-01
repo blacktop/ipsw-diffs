@@ -39,11 +39,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C4307B2-9F13-37DB-8E2F-B3361DB01750
++  UUID: 36625188-B0E9-37EF-A53D-74532A391BF4
    Functions: 77
    Symbols:   393
--  CStrings:  218
-+  CStrings:  219
+-  CStrings:  231
++  CStrings:  233
  
 CStrings:
 + "UIScrollView"

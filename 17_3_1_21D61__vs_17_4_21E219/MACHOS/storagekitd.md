@@ -61,11 +61,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: B90AE5F8-4AED-3A87-BDB0-461C38344265
 -  Functions: 794
++  UUID: 7929E19D-6E57-3AA8-8BEF-BAC2A8D9C866
 +  Functions: 822
    Symbols:   363
--  CStrings:  1858
-+  CStrings:  1885
+-  CStrings:  2055
++  CStrings:  2097
  
 CStrings:
 + "%s:%d"

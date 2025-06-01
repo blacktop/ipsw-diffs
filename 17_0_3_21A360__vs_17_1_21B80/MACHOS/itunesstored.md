@@ -39,6 +39,15 @@
    SMOOTH.SMOOTH: 0xc
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: D0B621D8-5DAF-3DA5-BAFD-9BA2931B6773
++  UUID: 1B667AB7-C185-336C-A084-52DDC5B20542
+   Functions: 6925
+   Symbols:   1625
+   CStrings:  13928
 CStrings:
 + "21:22:43"
 + "Oct  5 2023"

@@ -18,6 +18,15 @@
    __TEXT.__oslogstring: 0x1a
    __TEXT.__objc_classname: 0x16
    __TEXT.__objc_methtype: 0x13
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6B6906FC-1644-351D-8137-BE739165DA5F
++  UUID: 40A8F0F1-B79C-359A-BD1E-C4D8DC5A96F5
+   Functions: 3
+   Symbols:   36
+   CStrings:  32
 CStrings:
 + "ttr-MobileBackup.logs.tar.gz"
 - "ttr-MobileBackup.logs.aar"

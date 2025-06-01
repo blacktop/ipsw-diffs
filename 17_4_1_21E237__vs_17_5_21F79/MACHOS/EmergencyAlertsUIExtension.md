@@ -28,13 +28,16 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x10
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA1BE944-5352-3DE5-B91B-26224AFE5995
++  UUID: C9581875-4F09-3BAC-A9CC-48D6C0684311
    Functions: 78
 -  Symbols:   124
--  CStrings:  326
+-  CStrings:  369
 +  Symbols:   129
-+  CStrings:  331
++  CStrings:  379
  
 Symbols:
 + _EACategoryIdentifierIgneous

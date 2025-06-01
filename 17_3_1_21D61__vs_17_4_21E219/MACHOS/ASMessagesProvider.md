@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71F8AD5D-3BF3-3A0B-A028-581FA5AA609D
 -  Functions: 30381
 -  Symbols:   851
--  CStrings:  7231
+-  CStrings:  7399
++  UUID: 8907D224-40FE-36CE-9897-FF0653D8D3D5
 +  Functions: 31061
 +  Symbols:   857
-+  CStrings:  7336
++  CStrings:  7504
  
 Symbols:
 + _OBJC_CLASS_$_AMSOpenURL

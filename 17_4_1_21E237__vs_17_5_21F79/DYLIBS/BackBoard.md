@@ -47,13 +47,16 @@
    __DATA.__objc_ivar: 0x12c
    __DATA.__data: 0x2b8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9671772A-7EC1-32FC-B8BC-B66E5A87677A
++  UUID: 4B525E59-5B5C-3660-A3C9-E15179EBCB0E
    Functions: 790
 -  Symbols:   3307
--  CStrings:  1462
+-  CStrings:  1670
 +  Symbols:   3305
-+  CStrings:  1460
++  CStrings:  1668
  
 Symbols:
 - _AXLogAssertions

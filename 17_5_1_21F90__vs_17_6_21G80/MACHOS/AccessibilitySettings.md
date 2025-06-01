@@ -52,13 +52,16 @@
    __DATA.__data: 0x25fa
    __DATA.__bss: 0xf55
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 281FEFD9-B6ED-392F-B758-4887BCDC2F60
++  UUID: 6D7924BC-6A7D-30B7-A3A8-5142E7A8A7C0
    Functions: 7220
 -  Symbols:   17803
--  CStrings:  11944
+-  CStrings:  15005
 +  Symbols:   17798
-+  CStrings:  11942
++  CStrings:  15002
  
 Symbols:
 + -[AccessibilityPencilSettingsController init]

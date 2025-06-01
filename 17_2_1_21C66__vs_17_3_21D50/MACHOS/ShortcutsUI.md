@@ -42,11 +42,13 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30B3919B-381C-3066-92B7-EE199C992351
 -  Functions: 749
++  UUID: FA04E19C-6C8C-3CCE-A163-10246953BE96
 +  Functions: 750
    Symbols:   239
--  CStrings:  1897
-+  CStrings:  1899
+-  CStrings:  2111
++  CStrings:  2114
  
 CStrings:
 + "-[WFBannerManager queue_resetWithReason:]"

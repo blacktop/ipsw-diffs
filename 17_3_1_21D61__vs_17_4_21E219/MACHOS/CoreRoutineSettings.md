@@ -62,13 +62,16 @@
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5E943FF0-C402-3A58-BC96-69DAF133AC7D
++  UUID: A215C23E-171F-3DFA-9655-A4656E918FD7
    Functions: 419
 -  Symbols:   251
--  CStrings:  443
+-  CStrings:  525
 +  Symbols:   250
-+  CStrings:  444
++  CStrings:  526
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

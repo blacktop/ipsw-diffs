@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: FABD46AD-7D2E-3183-8A88-60D39B187067
 -  Functions: 27711
 -  Symbols:   77151
--  CStrings:  15163
+-  CStrings:  16287
++  UUID: CBCFBA34-C7EE-31A4-998D-87BD220CD1CC
 +  Functions: 27717
 +  Symbols:   77171
-+  CStrings:  15174
++  CStrings:  16301
  
 Symbols:
 + -[BMComputeXPCSubscription initWithToken:descriptor:].cold.7

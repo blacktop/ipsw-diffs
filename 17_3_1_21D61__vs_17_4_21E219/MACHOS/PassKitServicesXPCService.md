@@ -30,7 +30,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B904D0F1-92A7-3B23-A4B7-59B7CB5E7EE5
++  UUID: 7FD94607-EFE6-3A90-BA79-58561773B8E5
    Functions: 9
    Symbols:   48
 -  CStrings:  77

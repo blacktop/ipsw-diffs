@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E1D2DFE-C4AF-3380-B091-5A50243868BA
 -  Functions: 2617
 -  Symbols:   8757
--  CStrings:  4301
+-  CStrings:  5234
++  UUID: 7E8C7194-F6C6-3285-9020-9BA4D1DF25CB
 +  Functions: 2620
 +  Symbols:   8767
-+  CStrings:  4303
++  CStrings:  5238
  
 Symbols:
 + ___37-[HUNearbyHearingAidController start]_block_invoke.101

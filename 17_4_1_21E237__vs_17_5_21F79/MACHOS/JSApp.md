@@ -72,11 +72,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5C1E2558-70DE-3C7B-844C-6AA7912CE12B
 -  Functions: 3135
++  UUID: 8AE69423-B470-3665-A485-00A1CF0BF1E9
 +  Functions: 3111
    Symbols:   685
--  CStrings:  2986
-+  CStrings:  2983
+-  CStrings:  3341
++  CStrings:  3337
  
 CStrings:
 + "Using '%{public}s' strings from JetTranslations.json"

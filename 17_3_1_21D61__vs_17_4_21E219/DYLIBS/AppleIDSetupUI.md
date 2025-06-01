@@ -65,14 +65,13 @@
    __AUTH_CONST.__cfstring: 0xac0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x28e8
-+  __AUTH_CONST.__const: 0x29a0
-   __AUTH_CONST.__auth_ptr: 0xe0
 -  __AUTH_CONST.__auth_got: 0xb08
 -  __AUTH.__objc_data: 0x1238
 -  __AUTH.__data: 0x15f8
 -  __DATA.__objc_protorefs: 0x90
 -  __DATA.__objc_classrefs: 0x1c8
 -  __DATA.__objc_superrefs: 0x8
++  __AUTH_CONST.__const: 0x29a0
 +  __AUTH_CONST.__auth_got: 0xb78
 +  __AUTH.__objc_data: 0x1240
 +  __AUTH.__data: 0x1608
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE8FB76B-5877-349B-AF37-FB9F70228112
 -  Functions: 1783
 -  Symbols:   1251
--  CStrings:  1062
+-  CStrings:  1148
++  UUID: 59AE39A2-BB84-3EE8-8415-8AE5A53B0470
 +  Functions: 1802
 +  Symbols:   1260
-+  CStrings:  1091
++  CStrings:  1177
  
 Symbols:
 + _OBJC_CLASS_$_STIntroductionModel

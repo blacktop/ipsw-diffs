@@ -65,12 +65,14 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A882CC5-C8C3-3A70-846C-9E3FA784BB08
 -  Functions: 1118
 -  Symbols:   404
--  CStrings:  3042
+-  CStrings:  4059
++  UUID: 6E48B209-472E-3530-B211-A4CF4507B717
 +  Functions: 1145
 +  Symbols:   407
-+  CStrings:  3185
++  CStrings:  4277
  
 Symbols:
 + _MIDistributorTypeIsThirdParty

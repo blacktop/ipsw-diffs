@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0x60
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 95F36226-78AB-3C3D-A3F4-657A8FCB740D
++  UUID: 8DAA7389-ED49-3A15-8FBF-B7E5C02477DF
    Functions: 419
 -  Symbols:   249
--  CStrings:  441
+-  CStrings:  521
 +  Symbols:   251
-+  CStrings:  443
++  CStrings:  525
  
 Symbols:
 + _RTApplicationManagerBundleIdCoreauthd

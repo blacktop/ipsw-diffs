@@ -74,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCB272C3-A3CB-302A-A07A-EDD98492FB8D
 -  Functions: 1591
 -  Symbols:   5749
--  CStrings:  3010
+-  CStrings:  3405
++  UUID: 776F8415-929F-3AD6-8972-2EA1CDBA66B0
 +  Functions: 1609
 +  Symbols:   5818
-+  CStrings:  3072
++  CStrings:  3487
  
 Symbols:
 + -[CMContinuityCaptureAVCaptureBaseSession dealloc].cold.1

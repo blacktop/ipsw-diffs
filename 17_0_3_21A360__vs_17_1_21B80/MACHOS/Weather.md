@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3FE2F876-31D2-325B-A846-D980CEF5E02D
 -  Functions: 59545
 -  Symbols:   6979
--  CStrings:  8304
+-  CStrings:  8402
++  UUID: D3EA3BAD-BB85-3079-9558-C70811D9ED12
 +  Functions: 59668
 +  Symbols:   6995
-+  CStrings:  8311
++  CStrings:  8409
  
 Symbols:
 + _$s10Foundation11MeasurementV9WeatherUISo17NSUnitTemperatureCRszrlE9converted7roundedACyAFGSb_tF

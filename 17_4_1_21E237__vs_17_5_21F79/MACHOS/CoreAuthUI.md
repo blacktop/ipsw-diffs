@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F3746968-A408-36F0-B734-4A4C0C90D170
 -  Functions: 2511
 -  Symbols:   924
--  CStrings:  2078
+-  CStrings:  2207
++  UUID: 9C4580DF-F27F-3F76-B10E-021DE30FDB50
 +  Functions: 2517
 +  Symbols:   926
-+  CStrings:  2083
++  CStrings:  2212
  
 Symbols:
 + _$s25LocalAuthenticationCoreUI31LACUIAuthCountdownConfigurationV11gracePeriod17customCancelTitleACSSSg_tFZ

@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x160
    __TEXT.__init_offsets: 0x8
    __TEXT.__objc_methlist: 0x14
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 651C2E28-37BD-3562-821D-D22B77781D92
++  UUID: F16FA206-5B5D-3CF8-82D6-7BEAE17482C6
+   Functions: 36
+   Symbols:   120
+   CStrings:  7
 Symbols:
 + __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc

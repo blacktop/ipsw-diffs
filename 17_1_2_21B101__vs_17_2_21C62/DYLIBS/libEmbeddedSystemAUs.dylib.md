@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x2490
    __TEXT.__const: 0x7634
    __TEXT.__gcc_except_tab: 0x5eb4
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6FE04926-6A37-33C4-A731-AE8BCD05F4E9
++  UUID: 97C4C866-B241-3388-8B65-3A92485BEB42
+   Functions: 3629
+   Symbols:   8982
+   CStrings:  2053
 Symbols:
 + GCC_except_table1010
 + GCC_except_table1013

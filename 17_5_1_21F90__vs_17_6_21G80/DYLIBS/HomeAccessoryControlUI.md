@@ -51,7 +51,6 @@
    __DATA_CONST.__objc_superrefs: 0x8
 -  __AUTH_CONST.__const: 0xa678
 +  __AUTH_CONST.__const: 0xa680
-   __AUTH_CONST.__auth_ptr: 0x260
    __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__auth_got: 0x2060
@@ -68,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9E39D3B3-F089-3B04-A561-827D78A25F03
 -  Functions: 7330
 -  Symbols:   2763
--  CStrings:  563
+-  CStrings:  566
++  UUID: 8558DA0C-B812-3ACA-913F-44F0BD561C58
 +  Functions: 7333
 +  Symbols:   2765
-+  CStrings:  565
++  CStrings:  568
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA7DividerV_AA6SpacerVACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0J9AlignmentOGGAkSSgtGGAA16_FixedSizeLayoutVGAA0G0HPAvaZHPyHC_AxA0gN0HPyHCHC.29

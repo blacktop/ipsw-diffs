@@ -56,12 +56,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B272871C-04D0-3A4F-A93C-FB7949B228CF
 -  Functions: 370
 -  Symbols:   317
--  CStrings:  1171
+-  CStrings:  1255
++  UUID: 035726E1-C50B-3901-AE16-24034EBDF5AB
 +  Functions: 373
 +  Symbols:   318
-+  CStrings:  1180
++  CStrings:  1264
  
 Symbols:
 + _OBJC_CLASS_$_WFOutputAction

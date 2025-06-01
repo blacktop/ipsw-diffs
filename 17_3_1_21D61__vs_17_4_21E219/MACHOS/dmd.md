@@ -64,12 +64,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: F359A0E2-BD39-30F5-9266-39993C695437
 -  Functions: 2999
 -  Symbols:   887
--  CStrings:  4474
+-  CStrings:  5163
++  UUID: BFF52D80-2B74-3DA9-AEAA-4D0F594E2D4A
 +  Functions: 3001
 +  Symbols:   890
-+  CStrings:  4485
++  CStrings:  5175
  
 Symbols:
 + _DMFAppRatingAllApps

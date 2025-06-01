@@ -43,12 +43,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 795C8C81-8A61-3434-9941-B2A9580E4D20
 -  Functions: 203
 -  Symbols:   915
--  CStrings:  485
+-  CStrings:  616
++  UUID: 39BD14A9-F105-303D-8989-712859D56513
 +  Functions: 209
 +  Symbols:   931
-+  CStrings:  488
++  CStrings:  619
  
 Symbols:
 + -[AFSuggestionGenerationManager generateCreditCardAutoFillWithCompletionHandler:].cold.3

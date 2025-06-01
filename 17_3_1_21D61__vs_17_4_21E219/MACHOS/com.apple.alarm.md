@@ -15,6 +15,15 @@
    __TEXT.__unwind_info: 0xb0
    __DATA.__auth_got: 0x240
    __DATA.__got: 0x48
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 515774B7-E4FD-376A-9375-0AD3B08E0A86
++  UUID: 3BBF50E6-5952-38EB-91B2-6CD691D959F3
+   Functions: 39
+   Symbols:   92
+   CStrings:  80
 CStrings:
 + "Adding alarm \"%{public}s\""
 + "Alarm event \"%{public}s\" is fired and active."

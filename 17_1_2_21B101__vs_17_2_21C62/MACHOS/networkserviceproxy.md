@@ -42,11 +42,13 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1E8D36E-8316-393E-9346-82EE69122967
 -  Functions: 1940
++  UUID: 284AB426-D604-302C-9485-02A2EC849434
 +  Functions: 1941
    Symbols:   584
--  CStrings:  5439
-+  CStrings:  5440
+-  CStrings:  6326
++  CStrings:  6328
  
 CStrings:
 + "proxyPathResolvedAddresses"

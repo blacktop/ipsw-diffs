@@ -34,8 +34,11 @@
    __DATA.__data: 0x160
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA77B26E-B63E-35E8-AA5B-463418CA5D32
++  UUID: F4C4A8C9-75C8-3B01-A248-F8F1F47B8973
    Functions: 12
 -  Symbols:   43
 -  CStrings:  56

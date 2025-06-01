@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B40B04CD-2024-33D6-A59C-DB9720C28281
 -  Functions: 2720
 -  Symbols:   9985
--  CStrings:  3672
+-  CStrings:  3960
++  UUID: 63D92C29-07E2-31BD-AC3D-009964B6CBEF
 +  Functions: 2726
 +  Symbols:   10003
-+  CStrings:  3679
++  CStrings:  3967
  
 Symbols:
 + +[CNUIPRLikenessLookup contactFuture:contactStore:scheduler:refetchContact:]

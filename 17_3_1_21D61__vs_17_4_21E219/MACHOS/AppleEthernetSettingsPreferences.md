@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x460
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FCCF0873-062C-348C-8692-3346768BE791
++  UUID: 193752F5-0332-3A0A-B729-D6C7D3DCBEE7
    Functions: 171
    Symbols:   181
--  CStrings:  626
-+  CStrings:  629
+-  CStrings:  640
++  CStrings:  643
  
 CStrings:
 + "T@\"NSString\",?,C,N"

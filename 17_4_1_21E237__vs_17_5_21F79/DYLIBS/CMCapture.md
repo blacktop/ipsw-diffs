@@ -61,7 +61,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x4380
 +  __AUTH_CONST.__objc_arrayobj: 0x2358
 +  __AUTH_CONST.__const: 0xfe8
-   __AUTH_CONST.__auth_ptr: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_dictobj: 0x1798
    __AUTH_CONST.__objc_doubleobj: 0x960
@@ -95,12 +94,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: DB0E358C-AA45-34A4-8765-2B536E5CDF99
 -  Functions: 18473
 -  Symbols:   66172
--  CStrings:  32110
+-  CStrings:  38353
++  UUID: A4F448B2-296A-38E9-BA78-14C5B2475BA4
 +  Functions: 18573
 +  Symbols:   66521
-+  CStrings:  32254
++  CStrings:  38540
  
 Symbols:
 + +[BWColorConstancyProcessorController usesCustomProcessingFlow]

@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29C0123F-E944-3E9A-A5BE-FF6B5662D0B8
++  UUID: 5D15E7CC-9F29-3948-9E0C-39D186ECABB3
    Functions: 19
    Symbols:   74
--  CStrings:  126
-+  CStrings:  127
+-  CStrings:  138
++  CStrings:  139
  
 CStrings:
 + "T@\"NSString\",?,R,C"

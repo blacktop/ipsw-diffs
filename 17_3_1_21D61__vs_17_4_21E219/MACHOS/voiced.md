@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x568
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 26B778F8-C152-3268-94D2-424591C18074
++  UUID: F4170ED5-9A09-3888-968F-C504AFEBCEEA
    Functions: 2399
    Symbols:   446
--  CStrings:  873
-+  CStrings:  869
+-  CStrings:  988
++  CStrings:  984
  
 CStrings:
 + "T@\"NSString\",?,R,C"

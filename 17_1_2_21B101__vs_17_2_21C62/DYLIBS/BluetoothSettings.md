@@ -34,13 +34,16 @@
    __AUTH_CONST.__cfstring: 0x1240
    __AUTH_CONST.__const: 0xa0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9032917C-0B12-3482-8B40-95E9ADE6B19E
++  UUID: 810EFBA0-2B94-3636-ADB6-9CE10AA1455F
    Functions: 355
 -  Symbols:   1581
--  CStrings:  1059
+-  CStrings:  1205
 +  Symbols:   1583
-+  CStrings:  1060
++  CStrings:  1206
  
 Symbols:
 + _UIContentSizeCategoryDidChangeNotification

@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__const: 0x48d0
    __AUTH_CONST.__objc_arrayobj: 0xd8
 -  __AUTH_CONST.__const: 0x4e60
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x568
 -  __AUTH.__objc_data: 0xa0
 -  __DATA.__objc_protorefs: 0x38
@@ -85,12 +84,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24C8B4BB-A9DE-327D-AE94-F16EBD70C9AB
 -  Functions: 3814
 -  Symbols:   13511
--  CStrings:  6267
+-  CStrings:  7635
++  UUID: 787C65F0-1ECF-3E50-93E1-4133A5655BCA
 +  Functions: 3868
 +  Symbols:   13687
-+  CStrings:  6376
++  CStrings:  7759
  
 Symbols:
 + +[AAPreferences repairWithoutTransparencyCFU]

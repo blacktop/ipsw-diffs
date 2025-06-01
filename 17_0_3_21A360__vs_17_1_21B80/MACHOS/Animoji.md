@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39B7B960-8DD4-3A59-954A-F1241DC25F15
 -  Functions: 575
 -  Symbols:   268
--  CStrings:  1679
+-  CStrings:  1807
++  UUID: 0597C886-8595-36CE-847A-2334609629A0
 +  Functions: 571
 +  Symbols:   271
-+  CStrings:  1671
++  CStrings:  1799
  
 Symbols:
 + _CMTimeMakeWithSeconds

@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0xaca
    __TEXT.__gcc_except_tab: 0x8c
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 07FB55E3-822C-325E-912A-33D941AA49CF
++  UUID: 28138873-C65F-3D97-AB26-C3ED0B48D4D1
+   Functions: 532
+   Symbols:   1912
+   CStrings:  1205
+
 ```

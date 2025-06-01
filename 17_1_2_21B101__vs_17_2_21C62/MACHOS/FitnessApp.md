@@ -48,12 +48,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F40BF9E-E8E4-3EBA-BD66-FAF5F0701A6A
 -  Functions: 380
 -  Symbols:   1324
--  CStrings:  709
+-  CStrings:  1029
++  UUID: 9B959693-E2E2-30D8-A382-B7A9C110324A
 +  Functions: 394
 +  Symbols:   1368
-+  CStrings:  726
++  CStrings:  1057
  
 Symbols:
 + +[CHWorkoutDetailSummaryTableViewCellAccessibility _accessibilityPerformValidations:]

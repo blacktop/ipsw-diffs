@@ -56,8 +56,11 @@
    - /System/Library/Frameworks/MusicKit.framework/MusicKit
    - /System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI
 
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MusicApplication.framework/MusicApplication
+-  UUID: B105744E-3054-3ED4-9A3F-2C2B0BE66BF4
++  UUID: C9A0AE50-DAF0-360B-BD8B-2C2C2967710A
    Functions: 153
 -  Symbols:   272
 -  CStrings:  183

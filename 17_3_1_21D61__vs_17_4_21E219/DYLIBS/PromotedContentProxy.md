@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/AdPlatformsCommon.framework/AdPlatformsCommon
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71A1F5C3-870E-3279-AAC3-9C80D8CA385F
 -  Functions: 165
 -  Symbols:   118
--  CStrings:  553
+-  CStrings:  596
++  UUID: 24AF77B7-6DD5-3026-9C7C-96D2B1DA0F41
 +  Functions: 164
 +  Symbols:   116
-+  CStrings:  550
++  CStrings:  593
  
 Symbols:
 - _objc_autorelease

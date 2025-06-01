@@ -26,4 +26,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2771BF1E-0454-37B2-95A8-E95318F59687
++  UUID: 67363610-6720-3C35-AE63-5372E06EB1DB
+   Functions: 1053
+   Symbols:   2566
+   CStrings:  455
+
 ```

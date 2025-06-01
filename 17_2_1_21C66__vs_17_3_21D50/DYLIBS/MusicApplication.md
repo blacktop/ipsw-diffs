@@ -52,12 +52,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 40F049EE-96CD-3C8F-92F0-355E9BC31BED
 -  Functions: 753
 -  Symbols:   2942
--  CStrings:  1178
+-  CStrings:  1805
++  UUID: D9EA33E2-D425-36CE-B7D5-114D1FCCC514
 +  Functions: 759
 +  Symbols:   2966
-+  CStrings:  1191
++  CStrings:  1826
  
 Symbols:
 + +[ReactionsButtonAccessibility _accessibilityPerformValidations:]

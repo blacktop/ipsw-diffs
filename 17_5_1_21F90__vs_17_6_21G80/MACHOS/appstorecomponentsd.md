@@ -21,4 +21,13 @@
    __TEXT.__swift5_mpenum: 0x70
    __TEXT.__unwind_info: 0x4470
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 020084D3-3FC4-3151-873D-0D166F3EE3E4
++  UUID: FFCF167F-D103-322B-8E66-07FFF4E4EC02
+   Functions: 5614
+   Symbols:   1699
+   CStrings:  3102
+
 ```

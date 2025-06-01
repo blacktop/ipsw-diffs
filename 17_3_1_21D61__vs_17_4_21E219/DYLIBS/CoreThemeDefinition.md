@@ -41,13 +41,16 @@
    __DATA.__data: 0x160
    __DATA.__bss: 0xd0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7CD71792-580C-39AD-99C5-123E4BD9A4EE
++  UUID: 65476829-4323-3000-8F4B-08F7912BB8EB
    Functions: 1502
 -  Symbols:   6429
--  CStrings:  3577
+-  CStrings:  4344
 +  Symbols:   6431
-+  CStrings:  3578
++  CStrings:  4346
  
 Symbols:
 + _CGGetImageIOVersion

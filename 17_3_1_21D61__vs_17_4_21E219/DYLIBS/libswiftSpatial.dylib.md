@@ -27,7 +27,6 @@
    __DATA_CONST.__const: 0xd0
    __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__const: 0x2498
-   __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0x218
 -  __DATA.__data: 0xb30
 +  __AUTH_CONST.__auth_got: 0x210
@@ -39,8 +38,10 @@
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A06DC0C-4814-3F7E-A997-907267447F4F
 -  Functions: 1757
 -  Symbols:   4072
++  UUID: 3C51FC87-9E3F-372E-862D-A8F5A16CB162
 +  Functions: 1779
 +  Symbols:   4111
    CStrings:  23

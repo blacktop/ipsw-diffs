@@ -52,11 +52,15 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C998DCE1-27FA-3833-B9E6-722F9CC05E48
++  UUID: 32E5109C-1485-3200-BA90-6ED7040DACF5
    Functions: 270
    Symbols:   371
--  CStrings:  949
-+  CStrings:  943
+-  CStrings:  1019
++  CStrings:  1013
  
 Symbols:
 + _PLSyndicationRuntimeEnabled

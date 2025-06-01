@@ -31,8 +31,8 @@
    __DATA_CONST.__objc_classlist: 0x3d8
    __DATA_CONST.__objc_protolist: 0x40
 
+   __AUTH_CONST.__cfstring: 0x4480
    __AUTH_CONST.__objc_const: 0x3918
-   __AUTH_CONST.__auth_ptr: 0xb0
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xc68
 +  __AUTH_CONST.__auth_got: 0xc78
@@ -43,12 +43,14 @@
    - /usr/lib/libchannel.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 5375F679-4356-3AB7-9A83-F6B978C0048A
 -  Functions: 8089
 -  Symbols:   21555
--  CStrings:  5713
+-  CStrings:  6261
++  UUID: ABBAE61C-11BE-3F2E-87BE-C26F6EFC9D50
 +  Functions: 8095
 +  Symbols:   21570
-+  CStrings:  5720
++  CStrings:  6268
  
 Symbols:
 + __ZN5Phase10Controller12VoiceManager14Implementation16AcquireStateLockERNSt3__111unique_lockINS3_12shared_mutexEEENS2_15PendingCommandsEd

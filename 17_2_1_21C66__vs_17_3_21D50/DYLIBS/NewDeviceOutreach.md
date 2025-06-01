@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A52CC0DB-8F38-3F10-89A3-4B025CA7C884
 -  Functions: 526
 -  Symbols:   1909
--  CStrings:  1277
+-  CStrings:  1513
++  UUID: A69CF8BD-E09C-3D4E-AB17-AFB36B0BB2A5
 +  Functions: 545
 +  Symbols:   1984
-+  CStrings:  1303
++  CStrings:  1544
  
 Symbols:
 + +[NDOUtilities dateWithEpochNumber:]

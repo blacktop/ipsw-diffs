@@ -54,9 +54,8 @@
    __AUTH_CONST.__cfstring: 0x540
    __AUTH_CONST.__objc_const: 0x608
 -  __AUTH_CONST.__const: 0x7238
-+  __AUTH_CONST.__const: 0x72c8
-   __AUTH_CONST.__auth_ptr: 0x168
 -  __AUTH_CONST.__auth_got: 0xd58
++  __AUTH_CONST.__const: 0x72c8
 +  __AUTH_CONST.__auth_got: 0xd60
    __AUTH.__objc_data: 0x1310
 -  __AUTH.__data: 0x1db0
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 34B53EEF-E470-3969-A969-18D679B7DAE9
 -  Functions: 5681
 -  Symbols:   1771
--  CStrings:  1097
+-  CStrings:  1139
++  UUID: 64D42851-4A42-3600-880F-C1E4865B55B5
 +  Functions: 5709
 +  Symbols:   1772
-+  CStrings:  1098
++  CStrings:  1140
  
 Symbols:
 + _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs23CustomStringConvertible

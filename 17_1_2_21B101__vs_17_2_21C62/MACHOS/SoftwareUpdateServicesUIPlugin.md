@@ -19,4 +19,13 @@
    __DATA_CONST.__objc_classlist: 0x168
    __DATA_CONST.__objc_catlist: 0x10
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F56F755D-DDB0-3A8F-93E1-F17D123010AE
++  UUID: FF3CE59A-54FA-3C78-A0D0-465649168108
+   Functions: 982
+   Symbols:   321
+   CStrings:  2235
+
 ```

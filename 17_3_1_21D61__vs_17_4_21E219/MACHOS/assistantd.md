@@ -94,12 +94,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B84B8E5C-870C-3345-B116-98E3D8414319
 -  Functions: 13430
 -  Symbols:   2764
--  CStrings:  24946
+-  CStrings:  27072
++  UUID: 70AA3D79-4991-3EB5-BA23-6B18EE033122
 +  Functions: 13618
 +  Symbols:   2785
-+  CStrings:  25406
++  CStrings:  27553
  
 Symbols:
 + _AFDeviceEnclosureRGBColor

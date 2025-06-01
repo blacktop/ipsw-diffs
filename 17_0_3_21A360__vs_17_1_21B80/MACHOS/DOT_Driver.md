@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 52B625E0-FE1B-34BC-8811-9DC4656EA3FE
 -  Functions: 55
 -  Symbols:   64
--  CStrings:  296
+-  CStrings:  308
++  UUID: ACE499C2-EE83-3A36-B50E-5E97C65B4ACD
 +  Functions: 70
 +  Symbols:   69
-+  CStrings:  329
++  CStrings:  341
  
 Symbols:
 + _CFAbsoluteTimeGetCurrent

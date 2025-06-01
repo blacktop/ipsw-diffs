@@ -33,4 +33,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__crash_info: 0x40
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 07E32B31-0B01-3DC5-883D-F70B4DFC7C6C
++  UUID: 859F19C2-52DB-3401-B0A1-A96D84CD475F
+   Functions: 72
+   Symbols:   255
+   CStrings:  302
+
 ```

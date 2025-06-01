@@ -27,10 +27,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D277602C-977F-3984-8175-0A128D6C645D
 -  Functions: 1901
++  UUID: F2108AD0-4CBE-3180-82F4-1B52259F6F35
 +  Functions: 1891
    Symbols:   261
-   CStrings:  1713
+   CStrings:  1923
  
 
 ```

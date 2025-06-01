@@ -36,13 +36,16 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_doubleobj: 0x10
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 968D156F-D558-30BB-BE8C-46BE179FF06B
++  UUID: 72977121-F537-3595-815B-B763E09B10FC
    Functions: 126
 -  Symbols:   488
--  CStrings:  382
+-  CStrings:  504
 +  Symbols:   487
-+  CStrings:  380
++  CStrings:  502
  
 Symbols:
 - _objc_msgSend$removeObject:

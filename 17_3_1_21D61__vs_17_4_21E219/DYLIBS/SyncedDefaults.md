@@ -41,12 +41,15 @@
    __DATA.__data: 0x200
    __DATA.__bss: 0xb0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6BA13952-A799-3862-B234-8FD88D34D8AC
++  UUID: BD0A23AC-5A78-318B-B685-681CE0D04E44
    Functions: 346
 -  Symbols:   1192
 +  Symbols:   1193
-   CStrings:  557
+   CStrings:  632
  
 Symbols:
 + GCC_except_table62

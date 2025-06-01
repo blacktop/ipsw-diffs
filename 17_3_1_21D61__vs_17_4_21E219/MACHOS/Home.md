@@ -118,12 +118,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 218362D4-8828-3E88-A1E0-11108C6C55CA
 -  Functions: 2526
 -  Symbols:   854
--  CStrings:  3804
+-  CStrings:  4146
++  UUID: C4633E0C-5C5C-3ACE-A2FA-C8BD1DC6FA6A
 +  Functions: 2609
 +  Symbols:   956
-+  CStrings:  3833
++  CStrings:  4176
  
 Symbols:
 + _$s13HomeDataModel0bC0C06loadUpA9Snapshots11homeManagerySo06HMHomeH0C_tF

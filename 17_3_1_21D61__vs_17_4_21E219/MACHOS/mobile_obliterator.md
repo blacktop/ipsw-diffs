@@ -25,6 +25,15 @@
    __DATA.__data: 0x510
    __DATA.__common: 0x200
    __DATA.__bss: 0x488
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libutil.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 66EF00E6-A4B1-372D-9B0B-A4A790B8FC42
++  UUID: 490DBC1F-BD7C-359D-B690-C210D8C2AEC5
+   Functions: 209
+   Symbols:   352
+   CStrings:  1055
 CStrings:
 + "%s: Skipping safe attempt, returning 0 to try normal boot (also clearing NVRAM Key indicating obliteration should run)"
 - "%s: Skipping safe attempt, returning ECANCELED to try normal boot (also clearing NVRAM Key indicating obliteration should run)"

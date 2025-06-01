@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8F8B05BE-5261-3046-9ED3-3ACB6BD21029
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BD690CB7-03B5-31B1-B52F-926959365485
    Functions: 507
 -  Symbols:   396
--  CStrings:  1191
+-  CStrings:  1314
 +  Symbols:   398
-+  CStrings:  1192
++  CStrings:  1315
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

@@ -37,11 +37,15 @@
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 752438BC-FB71-363E-BC2A-3EF5951D56E5
++  UUID: 71F849BA-4F0E-3C66-87E2-4786A4722256
    Functions: 11
    Symbols:   70
--  CStrings:  153
-+  CStrings:  155
+-  CStrings:  163
++  CStrings:  165
  
 CStrings:
 + "AppCapabilities"

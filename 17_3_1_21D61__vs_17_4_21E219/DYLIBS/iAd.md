@@ -17,4 +17,13 @@
    __DATA_DIRTY.__objc_data: 0xa0
    - /System/Library/Frameworks/AVKit.framework/AVKit
 
+   - /System/Library/PrivateFrameworks/AdPlatforms.framework/AdPlatforms
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B54CF7BD-58EF-3A2C-B9FA-9DB1CB08702D
++  UUID: 20A7D02B-C07C-355C-96FB-F41097ADFB71
+   Functions: 40
+   Symbols:   177
+   CStrings:  119
+
 ```

@@ -32,11 +32,15 @@
    __DATA.__data: 0x380
    __DATA.__bss: 0x98
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A49BCFD-DD9A-3149-AA1B-4AABF957FBD8
++  UUID: F0DABC52-6D1E-34E1-9B62-C801BBD6BAF2
    Functions: 436
    Symbols:   1817
--  CStrings:  988
-+  CStrings:  989
+-  CStrings:  1141
++  CStrings:  1142
  
 Symbols:
 + ___21-[TCSCallCenter init]_block_invoke.104

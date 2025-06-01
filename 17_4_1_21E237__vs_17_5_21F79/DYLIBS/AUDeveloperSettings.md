@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 58D75411-C0AD-3D26-B1F2-426FDCA123C8
 -  Functions: 246
 -  Symbols:   1558
--  CStrings:  970
+-  CStrings:  1373
++  UUID: B03C7A50-7E9E-3A5E-89E2-9C4F7649F309
 +  Functions: 247
 +  Symbols:   1560
-+  CStrings:  973
++  CStrings:  1377
  
 Symbols:
 + _getAccessoryDatabaseKeyForAccessoryID

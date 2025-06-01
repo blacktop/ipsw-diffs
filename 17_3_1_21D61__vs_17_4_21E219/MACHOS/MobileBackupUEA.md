@@ -34,11 +34,15 @@
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x68
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDB602E9-4000-336A-A3C4-206F25D4B236
++  UUID: C1979ECC-ECED-33EE-9B13-20182C7132BE
    Functions: 86
    Symbols:   132
--  CStrings:  409
-+  CStrings:  414
+-  CStrings:  435
++  CStrings:  440
  
 CStrings:
 + "MBDeviceUnlockedSinceBoot"

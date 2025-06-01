@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/ExchangeSyncExpress.framework/ExchangeSyncExpress
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0AE8B81A-4E1B-3149-B0AF-1CDFDEC0036C
++  UUID: 9BB33573-ED4C-3361-BBD3-77D4DD8FC108
    Functions: 5
    Symbols:   43
--  CStrings:  87
-+  CStrings:  88
+-  CStrings:  94
++  CStrings:  95
  
 CStrings:
 + "T@\"NSString\",?,R,C"

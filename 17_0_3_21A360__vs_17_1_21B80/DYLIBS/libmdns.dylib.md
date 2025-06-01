@@ -28,13 +28,16 @@
    __DATA_CONST.__objc_classlist: 0x180
    __DATA_CONST.__objc_protolist: 0x1a0
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA869A1D-D231-38C7-90D2-239B6082BDD3
++  UUID: 6C3E1BC9-486E-3311-B771-A18885787DB9
    Functions: 790
 -  Symbols:   2900
--  CStrings:  1109
+-  CStrings:  1152
 +  Symbols:   2901
-+  CStrings:  1114
++  CStrings:  1157
  
 Symbols:
 + ____mdns_create_dns_over_bytestream_framer_block_invoke.1136

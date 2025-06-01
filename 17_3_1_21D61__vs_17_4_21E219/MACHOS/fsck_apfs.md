@@ -30,12 +30,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 8CD2003E-CFF9-3C87-BC81-A37A0298A087
 -  Functions: 805
 -  Symbols:   156
--  CStrings:  1788
+-  CStrings:  1804
++  UUID: 60247D92-3D5F-357A-8B55-83DAFB215327
 +  Functions: 815
 +  Symbols:   158
-+  CStrings:  1805
++  CStrings:  1821
  
 Symbols:
 + _random

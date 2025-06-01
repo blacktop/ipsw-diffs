@@ -37,11 +37,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 3B26FA72-FD21-3F28-A0ED-C3E4AF87965A
++  UUID: 995AD4D6-07FD-37F0-9EB7-E58E94A4145F
    Functions: 1477
 -  Symbols:   5935
--  CStrings:  2838
+-  CStrings:  3229
 +  Symbols:   5936
-+  CStrings:  2840
++  CStrings:  3233
  
 Symbols:
 + _MGGetStringAnswer

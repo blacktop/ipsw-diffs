@@ -63,12 +63,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 2331FE90-1826-343F-977B-7D0C1F247E94
 -  Functions: 924
 -  Symbols:   4210
--  CStrings:  2668
+-  CStrings:  3237
++  UUID: 006D2B19-0EE3-3627-A6D3-1E586B551C54
 +  Functions: 927
 +  Symbols:   4223
-+  CStrings:  2678
++  CStrings:  3252
  
 Symbols:
 + -[PSGMousePointerController trackpadSupportsSilentClick]

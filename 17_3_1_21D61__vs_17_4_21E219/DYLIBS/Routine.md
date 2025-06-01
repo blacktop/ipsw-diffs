@@ -25,4 +25,13 @@
    __DATA.__data: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7CC2F1A8-0230-3B9C-A740-76D9603C0380
++  UUID: B4A42549-FCFC-3710-B999-28670E54FAB6
+   Functions: 39
+   Symbols:   90
+   CStrings:  110
+
 ```

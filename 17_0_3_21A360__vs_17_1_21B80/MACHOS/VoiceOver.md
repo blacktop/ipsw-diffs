@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x14e6
    __TEXT.__cstring: 0xbd6
    __TEXT.__gcc_except_tab: 0x194
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 620A4881-04A6-3E8A-9F60-6BA66A8F7E68
++  UUID: E0D9BA49-1B44-314C-A39B-378D51E2A8EE
+   Functions: 434
+   Symbols:   288
+   CStrings:  1347
 CStrings:
 + "addContentViewController:withUserInteractionEnabled:forService:forSceneClientIdentifier:context:userInterfaceStyle:forWindowScene:completion:"
 - "addContentViewController:withUserInteractionEnabled:forService:forSceneClientIdentifier:context:userInterfaceStyle:allowSystemAppHosting:forWindowScene:completion:"

@@ -20,8 +20,10 @@
    __DATA.__common: 0x5a8
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: C4248BE4-DF4D-344D-9E77-FFAF079D380A
 -  Functions: 8136
 -  Symbols:   13304
++  UUID: AB5D8F48-C35F-3CF3-A994-084C4F7A3F9D
 +  Functions: 8135
 +  Symbols:   13302
    CStrings:  657

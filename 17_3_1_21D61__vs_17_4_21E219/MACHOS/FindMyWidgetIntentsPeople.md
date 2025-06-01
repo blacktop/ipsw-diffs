@@ -67,9 +67,11 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CCCC5C5C-4482-3E25-AADE-0D1DD181C63D
 -  Functions: 424
 -  Symbols:   424
 -  CStrings:  212
++  UUID: 28072A65-A9F3-301C-BFA3-1A7BD9B260D0
 +  Functions: 431
 +  Symbols:   429
 +  CStrings:  237

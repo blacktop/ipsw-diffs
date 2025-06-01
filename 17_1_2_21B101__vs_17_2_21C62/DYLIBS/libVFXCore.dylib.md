@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B4760CAB-B579-372D-9C96-C8EA630AD435
 -  Functions: 69325
++  UUID: 0E49356B-AB66-3342-87E7-334311B89119
 +  Functions: 69323
    Symbols:   791
--  CStrings:  8327
-+  CStrings:  8326
+-  CStrings:  8348
++  CStrings:  8347
  
 CStrings:
 + "15.0.0 (clang-1500.1.0.2.2) [+internal-os]"

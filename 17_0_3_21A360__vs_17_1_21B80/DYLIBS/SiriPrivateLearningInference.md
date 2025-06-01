@@ -53,9 +53,7 @@
 +  __DATA_CONST.__objc_const: 0x6478
    __DATA_CONST.__objc_selrefs: 0x9f8
 -  __AUTH_CONST.__const: 0xa0c8
--  __AUTH_CONST.__auth_ptr: 0x490
 +  __AUTH_CONST.__const: 0xa220
-+  __AUTH_CONST.__auth_ptr: 0x4a8
    __AUTH_CONST.__cfstring: 0x760
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0x1480
@@ -79,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 50BD9A13-6BA2-39B0-92AB-25672722DDCD
 -  Functions: 8492
 -  Symbols:   2545
--  CStrings:  1242
+-  CStrings:  1301
++  UUID: 1ED7F9E4-1AD3-301C-8146-4625F8D290B2
 +  Functions: 8553
 +  Symbols:   2578
-+  CStrings:  1261
++  CStrings:  1320
  
 Symbols:
 + __DATA__TtC28SiriPrivateLearningInference33AsyncCoreDuetEventStreamProcessor

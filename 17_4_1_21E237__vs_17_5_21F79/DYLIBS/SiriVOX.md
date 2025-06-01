@@ -51,13 +51,16 @@
    __DATA.__bss: 0x248
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 538DDA78-72A8-36DE-AB5E-565301E8BFF8
++  UUID: 132567F7-4020-3FAF-9E88-18F3460C7C20
    Functions: 2822
 -  Symbols:   10854
--  CStrings:  5271
+-  CStrings:  6021
 +  Symbols:   10855
-+  CStrings:  5272
++  CStrings:  6022
  
 Symbols:
 + _OBJC_IVAR_$_SVXSession._launchSignpostID

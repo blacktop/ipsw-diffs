@@ -33,7 +33,6 @@
 -  __AUTH_CONST.__const: 0x168
 +  __AUTH_CONST.__const: 0x14a8
    __AUTH_CONST.__cfstring: 0x560
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__auth_got: 0xbb8
    __DATA.__got_weak: 0x40
@@ -55,5 +54,14 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: A3725087-9502-3E28-83A2-7D2E606293F2
++  UUID: 2D7CFC04-F6F1-343D-80D3-E5454DA714B8
+   Functions: 2977
+   Symbols:   7069
+   CStrings:  690
 
 ```

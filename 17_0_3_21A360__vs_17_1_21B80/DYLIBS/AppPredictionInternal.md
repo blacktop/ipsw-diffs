@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x35a0
 +  __AUTH_CONST.__objc_intobj: 0x35b8
    __AUTH_CONST.__objc_arrayobj: 0x1188
-   __AUTH_CONST.__auth_ptr: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x30
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 30F10CE0-8DCD-3975-9A91-4595682AF057
 -  Functions: 26281
 -  Symbols:   78565
--  CStrings:  35960
+-  CStrings:  43522
++  UUID: 71F810C8-6EE0-37D3-B564-0BFD44E58CF7
 +  Functions: 26233
 +  Symbols:   78366
-+  CStrings:  35908
++  CStrings:  43463
  
 Symbols:
 + +[ATXComplicationSuggestionHeuristics _numBluetoothConnectionsOverLastWeek]

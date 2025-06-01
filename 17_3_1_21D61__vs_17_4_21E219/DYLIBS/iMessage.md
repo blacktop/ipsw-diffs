@@ -75,12 +75,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A080BC29-C971-304E-AEC8-DC39EA2B667A
 -  Functions: 1085
 -  Symbols:   665
--  CStrings:  3873
+-  CStrings:  4259
++  UUID: D7B21664-4D5D-3373-9BF8-40376E83B6E7
 +  Functions: 1107
 +  Symbols:   669
-+  CStrings:  3938
++  CStrings:  4333
  
 Symbols:
 + _IMCanonicalizeFormattedString

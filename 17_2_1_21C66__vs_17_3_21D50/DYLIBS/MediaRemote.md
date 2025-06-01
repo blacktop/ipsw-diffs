@@ -43,9 +43,8 @@
 -  __AUTH_CONST.__objc_const: 0xb6b8
 +  __AUTH_CONST.__objc_const: 0xb748
    __AUTH_CONST.__const: 0x3040
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x390
-
+   __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0xb18
@@ -66,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9AE0A774-1911-389E-8845-644295614FB3
 -  Functions: 17929
 -  Symbols:   48737
--  CStrings:  17674
+-  CStrings:  21433
++  UUID: 9325669A-60C7-35D7-9F81-95045CDCAD4E
 +  Functions: 17935
 +  Symbols:   48763
-+  CStrings:  17680
++  CStrings:  21439
  
 Symbols:
 + +[MRPersistentTimer usePersistentTimer]

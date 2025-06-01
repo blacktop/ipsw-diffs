@@ -13,8 +13,8 @@
    __TEXT.__objc_methname: 0xcb19
    __TEXT.__objc_methtype: 0x5a82
 
+   __AUTH_CONST.__objc_intobj: 0x378
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x1a30
 -  __AUTH.__objc_data: 0xcd0
 +  __AUTH.__objc_data: 0xc80
@@ -27,5 +27,14 @@
    __DATA_DIRTY.__bss: 0x148
    __DATA_DIRTY.__common: 0x28
    - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 2E31913E-E82F-39E9-B4AB-316EE77CF905
++  UUID: 970993F0-B9E9-3CEE-B9CA-19BA52F320B2
+   Functions: 1792
+   Symbols:   7919
+   CStrings:  5017
 
 ```

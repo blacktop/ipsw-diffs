@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0BC48F80-5835-37BC-8FD8-B35DAA71EC31
 -  Functions: 3358
 -  Symbols:   11350
--  CStrings:  5126
+-  CStrings:  5799
++  UUID: 1EB1496F-22B9-3D9C-9BA0-21185E219B15
 +  Functions: 3379
 +  Symbols:   11422
-+  CStrings:  5167
++  CStrings:  5860
  
 Symbols:
 + -[WBReadonlyTabCollection copyTabsDatabase:hidingSensitiveData:error:]

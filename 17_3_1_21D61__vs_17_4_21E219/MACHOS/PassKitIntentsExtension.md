@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59C0DB34-D4E2-35D8-BD1D-7F8E5454B49A
++  UUID: D063B764-04F3-36CA-876F-8D88562CFAD5
    Functions: 170
    Symbols:   170
--  CStrings:  469
-+  CStrings:  470
+-  CStrings:  478
++  CStrings:  479
  
 CStrings:
 + "T@\"NSString\",?,R,C"

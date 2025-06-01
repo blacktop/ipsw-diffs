@@ -55,12 +55,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7E965C2E-C060-3CFF-9974-48EEE310277A
 -  Functions: 164
 -  Symbols:   681
--  CStrings:  346
+-  CStrings:  420
++  UUID: 8F1AF3C3-F1AB-3BEB-AC11-C2E4B1A9DF59
 +  Functions: 166
 +  Symbols:   689
-+  CStrings:  353
++  CStrings:  431
  
 Symbols:
 + -[CLFSettings_GeneratedCode restartReason]

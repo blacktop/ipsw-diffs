@@ -40,11 +40,15 @@
    __DATA.__data: 0xdc6d
    __DATA.__bss: 0x48
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 47098286-997D-3E6B-8420-E5FA92E02922
++  UUID: 586EC063-78DA-3326-9E3E-A32485A70825
    Functions: 1919
    Symbols:   7385
--  CStrings:  4134
-+  CStrings:  4144
+-  CStrings:  6529
++  CStrings:  6539
  
 Symbols:
 + __OBJC_$_PROP_LIST_ACMAppleConnectImpl.123

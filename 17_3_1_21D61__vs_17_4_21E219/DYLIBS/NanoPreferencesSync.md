@@ -40,11 +40,15 @@
    __DATA_DIRTY.__objc_data: 0x230
    __DATA_DIRTY.__data: 0x4
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E19F743D-2DEC-32D3-852D-7F8C43D61369
++  UUID: DF3AE726-B158-30A8-A379-8FF365F50C97
    Functions: 277
    Symbols:   1056
--  CStrings:  583
-+  CStrings:  586
+-  CStrings:  640
++  CStrings:  643
  
 Symbols:
 + ___24-[NPSManager connection]_block_invoke.72

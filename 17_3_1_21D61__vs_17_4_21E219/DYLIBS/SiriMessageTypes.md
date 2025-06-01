@@ -63,11 +63,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x60
    __DATA_CONST.__objc_arraydata: 0x60
 -  __AUTH_CONST.__const: 0x7640
--  __AUTH_CONST.__auth_ptr: 0x218
 -  __AUTH_CONST.__objc_const: 0x480
 -  __AUTH_CONST.__cfstring: 0x840
 +  __AUTH_CONST.__const: 0x7988
-+  __AUTH_CONST.__auth_ptr: 0x230
 +  __AUTH_CONST.__objc_const: 0x558
 +  __AUTH_CONST.__cfstring: 0x920
    __AUTH_CONST.__objc_intobj: 0x90
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B351D54F-BD1E-3E54-89ED-67F5668C1A01
 -  Functions: 8212
 -  Symbols:   3530
--  CStrings:  802
+-  CStrings:  868
++  UUID: 7235C1AC-F4F8-3149-9F2A-81581884C53A
 +  Functions: 8506
 +  Symbols:   3687
-+  CStrings:  878
++  CStrings:  951
  
 Symbols:
 + +[SMTMultiUserTRPCandidate supportsSecureCoding]

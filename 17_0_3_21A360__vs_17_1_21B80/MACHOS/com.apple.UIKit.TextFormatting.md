@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 020C2C86-8D06-390F-9751-D6E82720E40F
 -  Functions: 1682
 -  Symbols:   242
--  CStrings:  686
+-  CStrings:  714
++  UUID: 730CFAA5-0AD8-3276-8E46-FF7BAE8B7DEA
 +  Functions: 1657
 +  Symbols:   241
-+  CStrings:  700
++  CStrings:  730
  
 Symbols:
 - _swift_allocBox

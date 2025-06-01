@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 719814F6-BC22-3B57-8B1C-AC9C3D466F31
 -  Functions: 3175
 -  Symbols:   753
--  CStrings:  4607
+-  CStrings:  5633
++  UUID: 867A6165-2EB4-30EA-ACDF-94767FBFAEBF
 +  Functions: 3180
 +  Symbols:   754
-+  CStrings:  4608
++  CStrings:  5634
  
 Symbols:
 + _CLSExecutableLinkedOnOrAfter_iOS17_5_macOS_14_5

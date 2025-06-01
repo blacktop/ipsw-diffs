@@ -32,11 +32,15 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B521FC4-9958-3A66-91C8-0F445AF6FEA8
++  UUID: 0CDC7BF5-D4F0-3D11-9F2A-518332B412A6
    Functions: 28
    Symbols:   70
--  CStrings:  146
-+  CStrings:  147
+-  CStrings:  166
++  CStrings:  167
  
 CStrings:
 + "T@\"NSString\",?,R,C"

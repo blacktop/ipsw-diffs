@@ -23,8 +23,11 @@
    __DATA_CONST.__auth_ptr: 0x50
    __DATA_CONST.__const: 0xfd8
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38DF7570-DC29-3963-B893-E94B6D83C2AC
++  UUID: 7D436A64-E182-3A76-837F-EA075DD00ED8
    Functions: 911
 -  Symbols:   511
 +  Symbols:   508

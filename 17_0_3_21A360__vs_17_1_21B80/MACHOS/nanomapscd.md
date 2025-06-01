@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4470185B-920D-39CA-8957-BD5DADE41617
 -  Functions: 1920
++  UUID: B4E5280B-5202-3A57-93F5-B49E4DC8BF7E
 +  Functions: 1921
    Symbols:   392
--  CStrings:  3603
-+  CStrings:  3604
+-  CStrings:  4171
++  CStrings:  4173
  
 CStrings:
 + "%@ signID: [%@] maneuver: [%@] major: [%@] minor: [%@] shield: [%@]"

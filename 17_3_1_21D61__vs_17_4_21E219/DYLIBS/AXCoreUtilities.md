@@ -58,7 +58,6 @@
 -  __AUTH.__objc_data: 0xf0
 -  __DATA.__objc_classrefs: 0x100
 -  __DATA.__objc_superrefs: 0x40
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x4b8
 +  __AUTH.__objc_data: 0x190
 +  __AUTH.__data: 0x180
@@ -76,9 +75,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: B926D6BC-FF17-3E0F-A7BE-B8056A40257B
 -  Functions: 735
 -  Symbols:   2424
--  CStrings:  828
+-  CStrings:  950
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -87,9 +87,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 624762ED-3393-33F6-9738-34C676B339F5
 +  Functions: 812
 +  Symbols:   2497
-+  CStrings:  835
++  CStrings:  957
  
 Symbols:
 + _AXRuntimeCheck_SupportsIncreaseBrightnessFloor

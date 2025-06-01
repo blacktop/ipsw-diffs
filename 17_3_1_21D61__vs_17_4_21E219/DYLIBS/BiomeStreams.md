@@ -75,7 +75,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0x1150
 -  __AUTH.__objc_data: 0x24a0
 -  __AUTH.__data: 0x12e00
@@ -84,7 +83,6 @@
 -  __DATA.__objc_superrefs: 0x9e8
 -  __DATA.__objc_ivar: 0x1810
 -  __DATA.__data: 0xdd28
-+  __AUTH_CONST.__auth_ptr: 0x88
 +  __AUTH_CONST.__auth_got: 0x11c8
 +  __AUTH.__objc_data: 0x2770
 +  __AUTH.__data: 0x12e50
@@ -117,12 +115,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 870E995B-8FC5-35E9-8241-CA5207E59883
 -  Functions: 27717
 -  Symbols:   77167
--  CStrings:  15174
+-  CStrings:  16301
++  UUID: 50573FE4-6FCC-349E-A08D-77D724D0F05C
 +  Functions: 27804
 +  Symbols:   77450
-+  CStrings:  15285
++  CStrings:  16423
  
 Symbols:
 + +[BMDaemon runLaunchTasks]

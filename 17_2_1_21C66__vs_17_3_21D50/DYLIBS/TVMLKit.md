@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 088AE33C-E89B-3A49-89AA-EA9F8E5F9C7E
 -  Functions: 5272
 -  Symbols:   19873
--  CStrings:  8666
+-  CStrings:  9743
++  UUID: 88A6C03C-C3FB-3F86-B23D-81DE1843EDDD
 +  Functions: 5276
 +  Symbols:   19879
-+  CStrings:  8671
++  CStrings:  9748
  
 Symbols:
 + +[TVAppDelegate hideAppLoadingView]

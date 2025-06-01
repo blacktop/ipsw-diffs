@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x230
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x7a8
 +  __AUTH_CONST.__auth_got: 0x7a0
    __AUTH.__objc_data: 0x3788
@@ -82,13 +81,15 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4A398BA3-A77C-3257-8056-29C260DECEEE
 -  Functions: 3752
 -  Symbols:   11641
--  CStrings:  3752
+-  CStrings:  4371
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 4F87BB19-35EF-3457-B94D-6E349B211829
 +  Functions: 3749
 +  Symbols:   11643
-+  CStrings:  3753
++  CStrings:  4372
  
 Symbols:
 + ___42-[CLKComplicationServer _createConnection]_block_invoke.91

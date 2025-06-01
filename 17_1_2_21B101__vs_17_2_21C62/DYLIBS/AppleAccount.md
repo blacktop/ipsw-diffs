@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_arrayobj: 0xd8
    __AUTH_CONST.__const: 0x4e60
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x568
 -  __AUTH.__objc_data: 0x50
 +  __AUTH.__objc_data: 0xa0
@@ -64,12 +63,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6F8F2AE-4794-34AA-983B-2D5B1EF9E085
 -  Functions: 3816
 -  Symbols:   13506
--  CStrings:  6260
+-  CStrings:  7623
++  UUID: 5A2BB667-1AAA-3AF5-B3DC-D5720DBC3594
 +  Functions: 3814
 +  Symbols:   13511
-+  CStrings:  6267
++  CStrings:  7635
  
 Symbols:
 + +[AATermsStringsProvider neediCloudTermsAcceptanceDeviceSpecificMessage]

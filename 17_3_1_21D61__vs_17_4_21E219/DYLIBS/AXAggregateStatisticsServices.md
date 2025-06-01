@@ -22,5 +22,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AccessibilityUI.framework/AccessibilityUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BBB612D3-38C4-3FCE-BE62-FE1ED60F77DE
++  UUID: A6D4FADE-6FD2-34EE-A16F-93BE04D86A38
+   Functions: 1
+   Symbols:   18
+   CStrings:  9
 
 ```

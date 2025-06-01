@@ -20,11 +20,10 @@
    __DATA_CONST.__got: 0x10
 -  __DATA_CONST.__const: 0x908
 -  __AUTH_CONST.__const: 0x60
-+  __DATA_CONST.__const: 0x928
-+  __AUTH_CONST.__const: 0x80
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x140
 -  __DATA.__bss: 0x818
++  __DATA_CONST.__const: 0x928
++  __AUTH_CONST.__const: 0x80
 +  __AUTH_CONST.__auth_got: 0x148
 +  __DATA.__bss: 0x820
    __DATA_DIRTY.__bss: 0x20
@@ -34,9 +33,11 @@
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_sandbox.dylib
    - /usr/lib/system/libsystem_trace.dylib
+-  UUID: 66704D42-86C0-35B8-8CCA-1683E397FC93
 -  Functions: 29
 -  Symbols:   139
 -  CStrings:  55
++  UUID: DA0E1F74-2B70-3877-BAAD-08329CE7017E
 +  Functions: 34
 +  Symbols:   153
 +  CStrings:  59

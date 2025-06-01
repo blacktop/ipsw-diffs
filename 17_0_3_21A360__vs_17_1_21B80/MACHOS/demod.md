@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3188F23-56A0-3005-8600-8BC8C41555EA
 -  Functions: 4909
 -  Symbols:   735
--  CStrings:  8915
+-  CStrings:  10439
++  UUID: 6C63B9D2-4386-379D-9F5E-DD37BA238B18
 +  Functions: 4951
 +  Symbols:   736
-+  CStrings:  8966
++  CStrings:  10498
  
 Symbols:
 + _MCFeaturePasscodeModificationAllowed

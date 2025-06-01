@@ -78,12 +78,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F123BB90-2EA7-3B01-86EE-5183F1199E2A
 -  Functions: 758
 -  Symbols:   279
--  CStrings:  1102
+-  CStrings:  1191
++  UUID: 406ACB2C-7AEB-329C-8374-6197DF1BC7E1
 +  Functions: 834
 +  Symbols:   317
-+  CStrings:  1321
++  CStrings:  1416
  
 Symbols:
 + _CFStringCompare
@@ -125,6 +127,7 @@ Symbols:
 + _geteuid
 + _objc_getClass
 CStrings:
++ ""
 + "\x0f\x01"
 + "%@:%@"
 + "%s"

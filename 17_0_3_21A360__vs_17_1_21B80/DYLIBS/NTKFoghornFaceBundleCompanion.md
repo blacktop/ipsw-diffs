@@ -49,9 +49,9 @@
    __AUTH_CONST.__cfstring: 0xe60
    __AUTH_CONST.__const: 0x190
 
+   __AUTH_CONST.__objc_arrayobj: 0x198
    __AUTH_CONST.__objc_const: 0x700
    __AUTH_CONST.__objc_doubleobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x630
 +  __AUTH_CONST.__auth_got: 0x620
    __AUTH.__objc_data: 0x490
@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3717F978-1BE6-31C1-AD2C-7AFBE86DB122
 -  Functions: 489
 -  Symbols:   391
--  CStrings:  1142
+-  CStrings:  1257
++  UUID: CB914022-3BF0-315B-AE00-7A87BC8DC29D
 +  Functions: 498
 +  Symbols:   393
-+  CStrings:  1162
++  CStrings:  1277
  
 Symbols:
 + _CGAffineTransformDecompose

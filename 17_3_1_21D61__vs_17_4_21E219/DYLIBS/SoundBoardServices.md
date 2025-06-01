@@ -70,12 +70,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 2A641B23-3E5D-3869-804F-D814FAA831A7
 -  Functions: 588
 -  Symbols:   2052
--  CStrings:  842
+-  CStrings:  984
++  UUID: 77F5C1CB-FF2A-3808-82A7-91C795992A2E
 +  Functions: 615
 +  Symbols:   2132
-+  CStrings:  871
++  CStrings:  1014
  
 Symbols:
 + +[SBSUtils connectionWithExportedObject:]

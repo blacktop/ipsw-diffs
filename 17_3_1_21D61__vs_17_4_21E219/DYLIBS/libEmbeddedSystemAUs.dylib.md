@@ -27,7 +27,6 @@
 -  __AUTH_CONST.__const: 0x148
 +  __AUTH_CONST.__const: 0x188
    __AUTH_CONST.__cfstring: 0x35c0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x1250
 +  __AUTH_CONST.__auth_got: 0x1258
    __DATA.__got_weak: 0x10
@@ -42,12 +41,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F4D81B3-B0F8-3193-AF6E-1575F7D1A9A7
 -  Functions: 3629
 -  Symbols:   8982
--  CStrings:  1623
+-  CStrings:  2053
++  UUID: 7C7FD180-FD5D-34F3-88AB-522E278D86F5
 +  Functions: 3630
 +  Symbols:   8979
-+  CStrings:  1622
++  CStrings:  2052
  
 Symbols:
 + GCC_except_table1006

@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 465109CA-B57F-35FE-B35F-376C1E539DE9
 -  Functions: 1283
 -  Symbols:   5155
--  CStrings:  3117
+-  CStrings:  3624
++  UUID: AC547A75-8118-3E49-8587-E34031E4178C
 +  Functions: 1415
 +  Symbols:   5526
-+  CStrings:  3300
++  CStrings:  3863
  
 Symbols:
 + +[PSUIDeviceTakeOverController isRatchetFeatureAvailable]

@@ -27,4 +27,13 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05404AAB-1000-3303-8BE8-342BFE87B879
++  UUID: 0CC18406-AE44-35D0-825F-AA20E30E92A2
+   Functions: 18
+   Symbols:   50
+   CStrings:  6
+
 ```

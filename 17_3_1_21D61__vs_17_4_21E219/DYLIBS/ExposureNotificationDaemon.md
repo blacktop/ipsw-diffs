@@ -39,11 +39,15 @@
    __DATA.__data: 0x16b0
    __DATA.__bss: 0x51
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: EF1164A9-002E-39B1-B1FC-B575E31306FB
++  UUID: B51078BF-9D99-3165-9B3C-BC952ED40E9F
    Functions: 2168
    Symbols:   8223
--  CStrings:  6579
-+  CStrings:  6580
+-  CStrings:  7135
++  CStrings:  7136
  
 Symbols:
 + ___90-[ENDaemon appLaunchWithBundleID:activity:shouldEnterForeground:requiredRuntimeInSeconds:]_block_invoke.540

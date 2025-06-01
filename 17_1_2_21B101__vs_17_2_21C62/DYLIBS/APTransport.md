@@ -45,12 +45,14 @@
    - /usr/lib/libIOReport.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FE9EABC3-416C-389F-8522-31D183AC8E45
 -  Functions: 1650
 -  Symbols:   5247
--  CStrings:  4141
+-  CStrings:  4776
++  UUID: F905FEFA-BFDC-3178-9CA0-3C8D3A4FA360
 +  Functions: 1676
 +  Symbols:   5297
-+  CStrings:  4194
++  CStrings:  4836
  
 Symbols:
 + GCC_except_table44

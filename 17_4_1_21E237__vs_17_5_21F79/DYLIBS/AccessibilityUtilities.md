@@ -54,7 +54,6 @@
 -  __AUTH_CONST.__cfstring: 0x14640
 +  __AUTH_CONST.__cfstring: 0x14700
    __AUTH_CONST.__objc_const: 0x4250
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x1098
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__objc_dictobj: 0x258
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F8EF0B8A-C6DC-3277-9565-2E95D789F582
 -  Functions: 6547
 -  Symbols:   19054
--  CStrings:  9829
+-  CStrings:  12439
++  UUID: 9E091162-FD97-37C2-A3A7-6938D211EAFB
 +  Functions: 6561
 +  Symbols:   19087
-+  CStrings:  9853
++  CStrings:  12469
  
 Symbols:
 + -[AXAirPodSettingsManager _applySettingsForAddress:].cold.5

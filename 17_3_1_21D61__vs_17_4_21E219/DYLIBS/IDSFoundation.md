@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__objc_const: 0x9b40
 +  __AUTH_CONST.__const: 0x1780
 +  __AUTH_CONST.__cfstring: 0x25720
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0xa98
 -  __AUTH_CONST.__objc_arrayobj: 0x1e18
 +  __AUTH_CONST.__objc_arrayobj: 0x1e48
@@ -87,12 +86,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AA7932C-664E-3732-98AC-D08044DDD1FC
 -  Functions: 8376
 -  Symbols:   4173
--  CStrings:  16384
+-  CStrings:  21154
++  UUID: 95AFBA0F-F7CA-3A0E-97D3-33CDEB929E0F
 +  Functions: 8469
 +  Symbols:   4195
-+  CStrings:  16519
++  CStrings:  21312
  
 Symbols:
 + OBJC_IVAR_$_IDSGFTGL._lastP2PPacketReceivedTime

@@ -43,15 +43,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x800
 -  __AUTH_CONST.__cfstring: 0x42c0
 -  __AUTH_CONST.__objc_const: 0x0
-+  __DATA_CONST.__objc_const: 0x1b88
-+  __DATA_CONST.__objc_selrefs: 0x9c8
-+  __DATA_CONST.__objc_protorefs: 0x10
-+  __DATA_CONST.__objc_classrefs: 0xf8
-+  __DATA_CONST.__objc_superrefs: 0x38
-+  __AUTH_CONST.__const: 0x40
-+  __AUTH_CONST.__objc_const: 0x1b0
-+  __AUTH_CONST.__cfstring: 0x1d60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x730
 -  __DATA.__objc_protorefs: 0x10
 -  __DATA.__objc_classrefs: 0xc0
@@ -60,6 +51,14 @@
 -  __DATA.__data: 0x3f0
 -  __DATA.__bss: 0x40
 -  __DATA_DIRTY.__const: 0x60
++  __DATA_CONST.__objc_const: 0x1b88
++  __DATA_CONST.__objc_selrefs: 0x9c8
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0xf8
++  __DATA_CONST.__objc_superrefs: 0x38
++  __AUTH_CONST.__const: 0x40
++  __AUTH_CONST.__objc_const: 0x1b0
++  __AUTH_CONST.__cfstring: 0x1d60
 +  __AUTH_CONST.__auth_got: 0x738
 +  __AUTH.__objc_data: 0x140
 +  __DATA.__objc_ivar: 0x15c
@@ -73,12 +72,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C89AC682-3185-3941-8EFA-6D32035ECF23
 -  Functions: 828
 -  Symbols:   2450
--  CStrings:  1654
+-  CStrings:  2188
++  UUID: A6BEB20D-0DB7-3D1C-A494-508E07D50C84
 +  Functions: 358
 +  Symbols:   1617
-+  CStrings:  1501
++  CStrings:  1736
  
 Symbols:
 + +[StreamingFileWriter fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:]

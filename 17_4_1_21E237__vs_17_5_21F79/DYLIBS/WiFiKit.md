@@ -39,8 +39,8 @@
    __DATA_CONST.__objc_classrefs: 0x658
    __DATA_CONST.__objc_superrefs: 0x288
 
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3a0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xa70
 -  __AUTH.__objc_data: 0x15e0
 +  __AUTH.__objc_data: 0x1590
@@ -53,13 +53,16 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/libSystemHealth.dylib
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B64C1A38-4490-34BB-8D1E-641F6C799D12
++  UUID: 137CF252-EAB5-304E-9D97-C2D00BD06ABF
    Functions: 3121
 -  Symbols:   11125
--  CStrings:  6401
+-  CStrings:  7248
 +  Symbols:   11126
-+  CStrings:  6403
++  CStrings:  7250
  
 Symbols:
 + ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.159

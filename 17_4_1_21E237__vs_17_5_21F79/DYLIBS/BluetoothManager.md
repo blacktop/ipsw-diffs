@@ -23,12 +23,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DDE5379F-A00E-3B9E-85CC-6EB30F796A20
 -  Functions: 415
 -  Symbols:   1231
--  CStrings:  746
+-  CStrings:  833
++  UUID: 45D47565-9289-3314-AF66-CEDCE9E3B583
 +  Functions: 417
 +  Symbols:   1235
-+  CStrings:  747
++  CStrings:  834
  
 Symbols:
 + -[BluetoothDevice isProxCardSupportedForFeature:].cold.3

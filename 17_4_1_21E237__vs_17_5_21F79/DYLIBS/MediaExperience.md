@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__objc_const: 0x1048
 +  __AUTH_CONST.__const: 0x3468
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xf28
@@ -82,12 +81,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D034749-C77C-3F94-82F7-DB5174427439
 -  Functions: 4888
 -  Symbols:   15853
--  CStrings:  8811
+-  CStrings:  11538
++  UUID: 15D3CDE6-51DE-3F6E-9CCD-17C2F058C888
 +  Functions: 4996
 +  Symbols:   16202
-+  CStrings:  9008
++  CStrings:  11758
  
 Symbols:
 + +[MXExclaves sensorStatusToString:]

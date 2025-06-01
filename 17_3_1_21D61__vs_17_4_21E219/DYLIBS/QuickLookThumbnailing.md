@@ -57,12 +57,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 43E7ADB9-2FC3-34E8-92FF-E2261CDB4820
 -  Functions: 1370
 -  Symbols:   4722
--  CStrings:  2082
+-  CStrings:  2277
++  UUID: 2BD60FC5-DDCA-3170-BF0E-5057249B44B3
 +  Functions: 1372
 +  Symbols:   4726
-+  CStrings:  2086
++  CStrings:  2281
  
 Symbols:
 + -[NSURL(_QLUtilities) _QLIsThumbnailable]

@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DD1BBB3B-EC79-3247-8859-336B5C2494F1
 -  Functions: 1555
 -  Symbols:   5856
--  CStrings:  3383
+-  CStrings:  4033
++  UUID: 97A10616-A124-3F53-A592-31BD10DAF257
 +  Functions: 1559
 +  Symbols:   5867
-+  CStrings:  3402
++  CStrings:  4061
  
 Symbols:
 + +[VUIImageFactory makeImageViewWithDescriptor:imageProxy:existingView:]

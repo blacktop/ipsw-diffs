@@ -26,10 +26,12 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A91F7FA4-CFCC-32FA-8175-B190D710CF42
 -  Functions: 304
++  UUID: 978D4BDE-8EC0-300F-9B40-0818CD2676F9
 +  Functions: 305
    Symbols:   201
-   CStrings:  976
+   CStrings:  1080
  
 
 ```

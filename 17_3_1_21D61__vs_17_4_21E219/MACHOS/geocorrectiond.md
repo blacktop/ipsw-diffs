@@ -50,11 +50,13 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E4BD49B-99B1-3498-91B2-42679609AE6C
 -  Functions: 305
++  UUID: B460D6D6-2F52-3BF0-95DD-C376B1E9150F
 +  Functions: 308
    Symbols:   201
--  CStrings:  976
-+  CStrings:  979
+-  CStrings:  1080
++  CStrings:  1083
  
 CStrings:
 + "MCPOIBusynessProcessor noLocationAuth"

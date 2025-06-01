@@ -36,9 +36,9 @@
    __TEXT.__objc_classname: 0xa3a
    __TEXT.__objc_methname: 0x5510
 
+   __AUTH_CONST.__cfstring: 0x8c0
    __AUTH_CONST.__const: 0x27328
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x6b0
 -  __AUTH_CONST.__auth_got: 0x14e8
 +  __AUTH_CONST.__auth_got: 0x1500
    __AUTH.__objc_data: 0xaa8
@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9C6426E1-C36E-34EC-9E2F-D81ADFA3B948
 -  Functions: 46714
 -  Symbols:   30477
++  UUID: 81E7D097-94FF-3EEA-8E9C-588ACE2F5C87
 +  Functions: 46717
 +  Symbols:   30483
-   CStrings:  2560
+   CStrings:  2630
  
 Symbols:
 + _objectdestroy.28Tm

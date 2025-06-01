@@ -72,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F1234BAA-B619-3F31-8D43-EBC2C7DFB257
 -  Functions: 5683
 -  Symbols:   1389
--  CStrings:  10309
+-  CStrings:  11910
++  UUID: 5B1DD0F7-CCE8-3221-AC96-34C7CCACF153
 +  Functions: 5694
 +  Symbols:   1388
-+  CStrings:  10320
++  CStrings:  11919
  
 Symbols:
 + _AXDeviceSupportsSonification

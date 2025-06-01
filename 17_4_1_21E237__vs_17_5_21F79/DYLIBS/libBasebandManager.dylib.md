@@ -45,12 +45,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: E53AA584-7E52-36FC-91B4-44E826E5B86E
 -  Functions: 5730
 -  Symbols:   16083
--  CStrings:  2233
+-  CStrings:  2276
++  UUID: A821289C-7B82-3D08-8CE3-3AC0883F85EC
 +  Functions: 5733
 +  Symbols:   16085
-+  CStrings:  2235
++  CStrings:  2278
  
 Symbols:
 + __ZN10OBDManager14updateOBDStateEv

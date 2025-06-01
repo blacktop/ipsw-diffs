@@ -17,6 +17,15 @@
    __TEXT.__ustring: 0x60
    __TEXT.__unwind_info: 0xa230
    __TEXT.__eh_frame: 0x4a8
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A9F651FA-228C-30C1-8D16-1E892EE7D4E2
++  UUID: 74538BB9-9236-32AE-BEB4-5670D24BCE6D
+   Functions: 9946
+   Symbols:   26086
+   CStrings:  3437
 CStrings:
 + "07:06:44"
 + "Apple LLVM 15.0.0 (clang-1500.1.0.2.2) [+internal-os]"

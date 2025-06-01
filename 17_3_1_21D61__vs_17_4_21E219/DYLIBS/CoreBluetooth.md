@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__const: 0x20
 +  __AUTH_CONST.__const: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x850
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0x200
@@ -78,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 83E1EFAE-43FD-3CB2-9571-FC472794A3AD
 -  Functions: 3184
 -  Symbols:   9769
--  CStrings:  6767
+-  CStrings:  8006
++  UUID: CA860659-C2D5-32D4-B5E4-5E94A2CDA525
 +  Functions: 3232
 +  Symbols:   9909
-+  CStrings:  6884
++  CStrings:  8138
  
 Symbols:
 + -[CBAdvertiser safetyAlertsAlertData]

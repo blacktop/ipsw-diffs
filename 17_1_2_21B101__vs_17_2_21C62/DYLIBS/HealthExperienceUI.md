@@ -60,7 +60,6 @@
 +  __AUTH_CONST.__const: 0x27630
    __AUTH_CONST.__objc_intobj: 0x228
    __AUTH_CONST.__objc_arrayobj: 0x2d0
-   __AUTH_CONST.__auth_ptr: 0xef8
 -  __AUTH_CONST.__auth_got: 0x4260
 -  __AUTH.__objc_data: 0x13438
 +  __AUTH_CONST.__auth_got: 0x4258
@@ -81,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FF33224A-C3E5-3324-9295-A9B326D0A3F5
 -  Functions: 35369
 -  Symbols:   10970
--  CStrings:  7570
+-  CStrings:  7725
++  UUID: BA0E758C-20C9-3E72-AED4-BA59CB1D99CC
 +  Functions: 35373
 +  Symbols:   10975
-+  CStrings:  7576
++  CStrings:  7731
  
 Symbols:
 + __PROPERTIES__TtC18HealthExperienceUI25MessageWithActionTileView

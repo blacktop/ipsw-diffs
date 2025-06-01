@@ -25,4 +25,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D1012599-D791-3B04-83A4-AF39C9DF35B4
++  UUID: E44BBC56-74BD-357A-BF7B-D4BF3A7F80D5
+   Functions: 38
+   Symbols:   71
+   CStrings:  194
+
 ```

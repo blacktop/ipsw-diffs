@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x530
    __TEXT.__objc_methtype: 0x7a
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3DC41868-0F90-3B36-A104-087AC45389A0
++  UUID: 37C607AC-824C-34C2-8C8A-9F9E282C7CA5
+   Functions: 201
+   Symbols:   730
+   CStrings:  806
+
 ```

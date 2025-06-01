@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F7D5DCE-4189-3D26-AC37-05032EDE76BE
 -  Functions: 535
 -  Symbols:   2204
--  CStrings:  1314
+-  CStrings:  1459
++  UUID: 2D315C5D-B8DF-39D0-9B44-49E7053FACFB
 +  Functions: 565
 +  Symbols:   2293
-+  CStrings:  1368
++  CStrings:  1510
  
 Symbols:
 + -[NDOAppleCareViewController viewDidAppear:]

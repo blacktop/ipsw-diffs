@@ -50,9 +50,7 @@
 +  __DATA_CONST.__objc_classrefs: 0x108
 +  __DATA_CONST.__objc_superrefs: 0x28
    __AUTH_CONST.__const: 0xcb8
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__cfstring: 0x3e0
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__cfstring: 0x420
    __AUTH_CONST.__objc_const: 0x238
    __AUTH_CONST.__objc_intobj: 0x18
@@ -75,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F5AED626-C4DD-31A0-83CC-D2AD9C89D0B8
 -  Functions: 513
 -  Symbols:   757
--  CStrings:  361
+-  CStrings:  392
++  UUID: 05462788-9FB9-3A9B-A704-94249B1D9938
 +  Functions: 515
 +  Symbols:   783
-+  CStrings:  392
++  CStrings:  425
  
 Symbols:
 + _NPTOLibraryAssetCollectionSubtypeKey

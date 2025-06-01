@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A01A9B8A-C475-3637-8F99-122B5C4EA0D9
 -  Functions: 3618
 -  Symbols:   5283
--  CStrings:  3245
+-  CStrings:  3757
++  UUID: 9B2AD178-38EB-3D93-9D8B-445375C64C51
 +  Functions: 3621
 +  Symbols:   5281
-+  CStrings:  3247
++  CStrings:  3759
  
 Symbols:
 + -[CESRSpeechProfileAdminServiceConnection _clearAllState]

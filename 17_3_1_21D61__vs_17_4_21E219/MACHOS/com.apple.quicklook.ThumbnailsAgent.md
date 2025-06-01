@@ -49,11 +49,13 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BF1AA57C-FECB-3FA5-AEAB-87DC9851E7E0
 -  Functions: 46
++  UUID: 29148491-9A46-3F64-86D4-5416EF6D5297
 +  Functions: 44
    Symbols:   85
--  CStrings:  182
-+  CStrings:  175
+-  CStrings:  186
++  CStrings:  178
  
 CStrings:
 + "T@\"NSString\",?,R,C"

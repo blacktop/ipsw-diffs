@@ -41,12 +41,14 @@
    __DATA.__objc_data: 0x550
    __DATA.__data: 0x910
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80006792-D3E2-3E73-B630-FA614D26E84E
++  UUID: D62E0968-4471-3B00-A55B-FE33B6F80E48
    Functions: 453
    Symbols:   271
--  CStrings:  1481
-+  CStrings:  1480
- 
+   CStrings:  1538
 CStrings:
 + "Reply To"
 + "v40@0:8@\"MFMessageInfoViewController\"16@\"<ECEmailAddressConvertible>\"24Q32"

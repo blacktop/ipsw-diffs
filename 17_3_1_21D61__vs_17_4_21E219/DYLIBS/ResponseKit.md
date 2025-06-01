@@ -42,11 +42,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D2D28E6-4D2F-341E-9D85-82DB483FF9AC
 -  Functions: 861
 -  Symbols:   3483
++  UUID: ACBD1FF0-EFDB-3E14-BBB8-5F33B8EC3239
 +  Functions: 864
 +  Symbols:   3489
-   CStrings:  6257
+   CStrings:  14573
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

@@ -37,11 +37,15 @@
    __DATA.__data: 0x4e0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/ProactiveEventTracker.framework/ProactiveEventTracker
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07F5FC32-170B-3BBD-A9D5-8B0F01FA8FB4
++  UUID: 9E2CB8F7-B6EF-364E-9AF2-5B57ED3CC9DE
    Functions: 342
    Symbols:   1293
--  CStrings:  673
-+  CStrings:  674
+-  CStrings:  718
++  CStrings:  719
  
 CStrings:
 + "T@\"NSString\",?,R,C"

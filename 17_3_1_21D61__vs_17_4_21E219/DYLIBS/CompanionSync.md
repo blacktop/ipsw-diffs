@@ -42,7 +42,7 @@
    __AUTH_CONST.__cfstring: 0x3520
    __AUTH_CONST.__objc_const: 0x28a0
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x8a0
    __AUTH.__objc_data: 0x1fe0
 -  __DATA.__objc_protorefs: 0x20
@@ -55,12 +55,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: ECF83857-63BB-3C47-A76A-83DFE591CC03
 -  Functions: 3945
 -  Symbols:   12109
--  CStrings:  4565
+-  CStrings:  4990
++  UUID: 9E99DCDB-1BB7-3BBC-80C0-88BF2C34FF11
 +  Functions: 3947
 +  Symbols:   12116
-+  CStrings:  4573
++  CStrings:  4998
  
 Symbols:
 + -[NMSMessageCenter _handleError:context:locked:]

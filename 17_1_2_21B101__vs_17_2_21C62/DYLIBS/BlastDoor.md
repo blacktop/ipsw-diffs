@@ -69,7 +69,6 @@
 -  __AUTH_CONST.__const: 0x20f30
 +  __AUTH_CONST.__const: 0x216d0
    __AUTH_CONST.__objc_const: 0x2318
-   __AUTH_CONST.__auth_ptr: 0x200
 -  __AUTH_CONST.__auth_got: 0x1550
 -  __AUTH.__objc_data: 0x6b68
 -  __AUTH.__data: 0x32c8
@@ -96,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D31CB0D-30BE-30F4-B4FC-A2EA6C3FC481
 -  Functions: 29686
 -  Symbols:   8995
--  CStrings:  4044
+-  CStrings:  4303
++  UUID: FC4552A7-C7C1-34CE-8A84-F9C9A5CF267E
 +  Functions: 30105
 +  Symbols:   9103
-+  CStrings:  4102
++  CStrings:  4361
  
 Symbols:
 + +[PosterKitUtilities discreteColorsContentStyleForColors:vibrant:supportsVariation:variation:]

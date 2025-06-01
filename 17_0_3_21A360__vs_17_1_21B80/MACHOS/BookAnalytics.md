@@ -68,11 +68,13 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/JSApp.framework/JSApp
+-  UUID: E67E851F-63B6-3079-9BFE-38C2B812080C
 -  Functions: 22854
++  UUID: 40D77E22-E91E-3E4A-A4D1-C436792B83FB
 +  Functions: 23233
    Symbols:   349
--  CStrings:  1244
-+  CStrings:  1272
+-  CStrings:  1275
++  CStrings:  1303
  
 CStrings:
 + "booksFinished"

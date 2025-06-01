@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protolist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libnetquality.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1FA72129-430E-3247-AB0A-9C551E68E858
++  UUID: B87F58A8-6F43-3714-AE85-F064C8A82AC5
    Functions: 587
    Symbols:   367
--  CStrings:  1637
-+  CStrings:  1635
+-  CStrings:  2034
++  CStrings:  2030
  
 CStrings:
 - "PersonaSettings"

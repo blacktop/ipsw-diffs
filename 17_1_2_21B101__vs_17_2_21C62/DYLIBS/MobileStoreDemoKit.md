@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76318D80-C5B8-345A-9401-8DAE8542837E
 -  Functions: 985
 -  Symbols:   3329
--  CStrings:  2149
+-  CStrings:  2687
++  UUID: 47AF36FB-6731-3D81-98E2-E639A56CA25F
 +  Functions: 1023
 +  Symbols:   3478
-+  CStrings:  2220
++  CStrings:  2772
  
 Symbols:
 + +[MSDKPeerDemoAXSettings supportsSecureCoding]

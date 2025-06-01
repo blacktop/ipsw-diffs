@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__objc_const: 0xe928
 +  __AUTH_CONST.__cfstring: 0x3420
 +  __AUTH_CONST.__objc_intobj: 0x1b78
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0x8d8
 -  __AUTH.__objc_data: 0xcf80
 +  __AUTH.__objc_data: 0xfaf0
@@ -80,12 +79,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE98C9F4-BB77-3B95-9A69-6C6531BFCE5F
 -  Functions: 68264
 -  Symbols:   1679
--  CStrings:  17967
+-  CStrings:  18334
++  UUID: A3D489C0-7656-3526-B881-731ACE745679
 +  Functions: 83312
 +  Symbols:   1676
-+  CStrings:  18820
++  CStrings:  19237
  
 Symbols:
 + _OBJC_CLASS_$_NSCharacterSet

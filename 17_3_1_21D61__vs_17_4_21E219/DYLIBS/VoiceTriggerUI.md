@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D831822-D5A5-374A-9FFC-F045F75CF38A
 -  Functions: 1123
 -  Symbols:   4359
--  CStrings:  2713
+-  CStrings:  3003
++  UUID: DBD78CF1-75E6-3652-A0C5-6BCD60C5B2CE
 +  Functions: 1136
 +  Symbols:   4406
-+  CStrings:  2754
++  CStrings:  3059
  
 Symbols:
 + -[VTUIAudioHintPlayer updateIfNeededForUsesMultipleTriggers:]

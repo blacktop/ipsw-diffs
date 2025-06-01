@@ -44,11 +44,15 @@
    __DATA_DIRTY.__objc_data: 0x190
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F596782-686A-313A-8B38-A290879906A4
++  UUID: F2E1B223-D8BB-37FF-B817-1AC8EC0CFDA3
    Functions: 369
    Symbols:   1565
--  CStrings:  939
-+  CStrings:  942
+-  CStrings:  1047
++  CStrings:  1049
  
 Symbols:
 + ___115-[DMCEnrollmentFlowController _exchangeMAIDForBearerTokenWithRMAccountIdentifier:authParams:anchorCertificateRefs:]_block_invoke.188

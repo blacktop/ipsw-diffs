@@ -70,7 +70,6 @@
 +  __AUTH_CONST.__cfstring: 0x8780
    __AUTH_CONST.__objc_intobj: 0xaf8
    __AUTH_CONST.__objc_arrayobj: 0x420
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_dictobj: 0x690
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x9a0
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 708FB0D8-9DC7-3B21-8D42-01B5EE37FACA
 -  Functions: 1577
 -  Symbols:   3833
--  CStrings:  2751
+-  CStrings:  3827
++  UUID: DED05B50-90F5-34B8-B5A5-E53629018B92
 +  Functions: 1660
 +  Symbols:   3848
-+  CStrings:  2787
++  CStrings:  3871
  
 Symbols:
 + +[AppletTranslator checkSEExpressAppletCompatibilityWithPassInformation:useLegacyBehavior:error:]

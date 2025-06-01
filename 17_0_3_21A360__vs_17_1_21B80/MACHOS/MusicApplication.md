@@ -159,12 +159,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B751B45A-0D8F-36D6-A28B-1F9EAB7520EE
 -  Functions: 82209
 -  Symbols:   28922
--  CStrings:  16655
+-  CStrings:  16950
++  UUID: 1B566A6F-F1D3-3038-8657-2CE4FA470077
 +  Functions: 84690
 +  Symbols:   30130
-+  CStrings:  16761
++  CStrings:  17057
  
 Symbols:
 + +[NSString(CarPlay) downloadedOnlyMessage]
@@ -3923,6 +3925,7 @@ CStrings:
 + "Join called with url=%{public}s"
 + "Join failed with error=%{public}s"
 + "Keep track of the music you care about by adding to your favorites."
++ "L"
 + "Label when user has connected to a Social Network. SOCIAL_ONBOARDING_CONNECTED_NETWORK_TITLE"
 + "Library"
 + "Library add ineligible content"
@@ -4222,6 +4225,7 @@ CStrings:
 + "Would you like to remove this movie from this playlist or delete it from your library and all playlists?"
 + "Would you like to remove this music video from this playlist or delete it from your library and all playlists?"
 + "Would you like to remove this song from this playlist or delete it from your library and all playlists?"
++ "Y"
 + "You haven’t downloaded any music."
 + "You'll be able to control what's playing in Apple Music from your device."
 + "You'll get better recommendations and hear about new releases."

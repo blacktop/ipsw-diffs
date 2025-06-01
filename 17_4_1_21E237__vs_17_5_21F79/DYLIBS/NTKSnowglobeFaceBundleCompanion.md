@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x35d7
    __TEXT.__objc_methtype: 0x8fa
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E0B42E8E-89EB-3EE5-9F59-670F54CD56E6
++  UUID: FB860720-66E6-387D-B34B-15C8AE78380B
+   Functions: 346
+   Symbols:   226
+   CStrings:  1038
+
 ```

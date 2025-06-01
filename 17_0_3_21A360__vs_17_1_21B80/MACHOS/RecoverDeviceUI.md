@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5333E597-E6CA-3800-B752-F9904D34B970
 -  Functions: 80
 -  Symbols:   767
--  CStrings:  446
+-  CStrings:  485
++  UUID: DEF110D4-92DE-3D7D-8795-395806820A4D
 +  Functions: 79
 +  Symbols:   759
-+  CStrings:  442
++  CStrings:  480
  
 Symbols:
 + -[RecoverDeviceUIExtensionRemoteViewController kLocalizedDeviceType]

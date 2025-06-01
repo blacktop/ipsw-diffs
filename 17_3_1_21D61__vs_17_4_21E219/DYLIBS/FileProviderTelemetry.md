@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41D67E8B-71CD-3354-B152-DE108E0DCE87
 -  Functions: 36
 -  Symbols:   231
--  CStrings:  99
+-  CStrings:  111
++  UUID: 31406C44-6894-371C-BDB2-E8BA1172E589
 +  Functions: 40
 +  Symbols:   247
-+  CStrings:  104
++  CStrings:  116
  
 Symbols:
 + -[FPRTCReportingSession initWithWithCommonProperties:manager:]

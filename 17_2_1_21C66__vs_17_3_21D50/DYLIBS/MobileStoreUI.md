@@ -59,7 +59,6 @@
    __AUTH_CONST.__cfstring: 0x156c0
 -  __AUTH_CONST.__const: 0x1698
 +  __AUTH_CONST.__const: 0x16a0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_intobj: 0x408
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B3EBEC8-9C5A-3492-BB13-06FA61BF42B4
 -  Functions: 17834
 -  Symbols:   62627
--  CStrings:  21339
+-  CStrings:  24081
++  UUID: ABF49303-6209-36C8-9C9A-A4BDAC67B7C2
 +  Functions: 17846
 +  Symbols:   62632
-+  CStrings:  21346
++  CStrings:  24088
  
 Symbols:
 + -[SUUIJSNavigationDocument showStopPageForTab:replacementAppAdamId:title:subtitle:artwork:deeplinkUrl:force:purchasesUrl:wishlistButtonTitle:showWishlistButton:]

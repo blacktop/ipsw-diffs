@@ -62,10 +62,9 @@
    __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__objc_const: 0x268
 -  __AUTH_CONST.__const: 0x1908
-+  __AUTH_CONST.__const: 0x1a48
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x5e8
 -  __AUTH.__objc_data: 0x670
++  __AUTH_CONST.__const: 0x1a48
 +  __AUTH_CONST.__auth_got: 0x5f0
 +  __AUTH.__objc_data: 0x690
    __AUTH.__data: 0x3a0
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6A77718-8CC6-3937-AC3F-FEED7364E77C
 -  Functions: 775
 -  Symbols:   610
--  CStrings:  273
+-  CStrings:  276
++  UUID: 8F2C34CB-062A-3945-9232-5379C4440671
 +  Functions: 837
 +  Symbols:   624
-+  CStrings:  293
++  CStrings:  296
  
 Symbols:
 + +[HPSUIBetaEnrollmentViewController shouldShowBetaEnrollmentButtonForHomeID:homeKitIdentifiers:withCompletion:]

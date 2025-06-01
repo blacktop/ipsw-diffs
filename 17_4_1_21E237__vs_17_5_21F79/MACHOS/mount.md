@@ -20,13 +20,16 @@
    __DATA_CONST.__auth_ptr: 0x8
    __DATA_CONST.__const: 0x288
 
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /System/Library/PrivateFrameworks/UserManagementLayout.framework/UserManagementLayout
    - /usr/lib/libSystem.B.dylib
+-  UUID: 4B2190AE-89BA-378E-9C35-C666C28D7D9E
++  UUID: B2160F40-3459-3EA3-8A2B-07F212C72DD8
    Functions: 36
 -  Symbols:   97
--  CStrings:  174
+-  CStrings:  179
 +  Symbols:   96
-+  CStrings:  173
++  CStrings:  178
  
 Symbols:
 - _os_variant_has_internal_content

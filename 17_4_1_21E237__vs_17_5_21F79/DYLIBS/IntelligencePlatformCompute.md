@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0x6d
    __TEXT.__objc_methname: 0x326
 
+   __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x350
 -  __AUTH.__data: 0x2b0
 -  __AUTH.__objc_data: 0x148
@@ -42,5 +42,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BBD88EC4-164C-3B2D-A99E-A0914019DD1D
++  UUID: 0A43173B-5F49-325A-A088-83DD68CCFB4C
+   Functions: 116
+   Symbols:   584
+   CStrings:  100
 
 ```

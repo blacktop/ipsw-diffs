@@ -18,7 +18,11 @@
    __TEXT.__objc_stubs: 0x40
    __DATA_CONST.__got: 0x8
 
+   - /System/Library/PrivateFrameworks/DeviceManagement.framework/DeviceManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5DCC56C-A5FB-330C-936E-36FAD32BE6F6
++  UUID: 9C0523F5-2092-315E-843B-BFC4A6F2AAD0
    Functions: 1
    Symbols:   14
 -  CStrings:  60

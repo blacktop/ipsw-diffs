@@ -54,9 +54,8 @@
    __DATA_CONST.__objc_arraydata: 0xd80
    __AUTH_CONST.__objc_const: 0x15aa0
 -  __AUTH_CONST.__const: 0xdbe8
-+  __AUTH_CONST.__const: 0xdc08
-   __AUTH_CONST.__auth_ptr: 0x148
 -  __AUTH_CONST.__cfstring: 0x2a6c0
++  __AUTH_CONST.__const: 0xdc08
 +  __AUTH_CONST.__cfstring: 0x2a720
    __AUTH_CONST.__objc_intobj: 0x1b30
    __AUTH_CONST.__objc_arrayobj: 0x480
@@ -65,12 +64,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BAB9EC27-DF6E-306E-B1BF-F3F8C8AFA822
 -  Functions: 19903
 -  Symbols:   50240
--  CStrings:  23910
+-  CStrings:  29340
++  UUID: C8770904-B978-3052-85A2-65D2348C7AB4
 +  Functions: 19918
 +  Symbols:   50281
-+  CStrings:  23917
++  CStrings:  29350
  
 Symbols:
 + -[WFDefaultFileStorageService fileIsInProtectedList:]

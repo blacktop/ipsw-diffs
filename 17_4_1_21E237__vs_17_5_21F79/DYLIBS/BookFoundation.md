@@ -55,11 +55,10 @@
    __AUTH_CONST.__objc_const: 0x458
    __AUTH_CONST.__cfstring: 0x1e0
 -  __AUTH_CONST.__const: 0x3668
-+  __AUTH_CONST.__const: 0x3808
-   __AUTH_CONST.__auth_ptr: 0x118
 -  __AUTH_CONST.__auth_got: 0xc78
 -  __AUTH.__objc_data: 0x1170
 -  __AUTH.__data: 0xb68
++  __AUTH_CONST.__const: 0x3808
 +  __AUTH_CONST.__auth_got: 0xc98
 +  __AUTH.__objc_data: 0x11b8
 +  __AUTH.__data: 0xb78
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E74EB8C3-9C9F-3F82-AE5E-773F00535184
 -  Functions: 3263
 -  Symbols:   237
--  CStrings:  512
+-  CStrings:  527
++  UUID: 52BE4862-F191-3081-9BA2-3247FB2D88FF
 +  Functions: 3325
 +  Symbols:   241
-+  CStrings:  517
++  CStrings:  532
  
 Symbols:
 + _CGRectGetMaxX

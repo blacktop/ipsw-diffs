@@ -29,11 +29,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/iTunesStore.framework/iTunesStore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E01795B-53CA-3EFF-9DFE-E62AEE3EE560
++  UUID: C42BE887-EF04-3B34-A421-FF39905C4246
    Functions: 8
    Symbols:   87
--  CStrings:  116
-+  CStrings:  117
+-  CStrings:  135
++  CStrings:  136
  
 CStrings:
 + "T@\"NSString\",?,R,C"

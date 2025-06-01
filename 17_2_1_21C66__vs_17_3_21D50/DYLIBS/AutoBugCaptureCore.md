@@ -34,13 +34,16 @@
    __AUTH_CONST.__auth_got: 0x790
    __AUTH.__objc_data: 0x12c0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79889EFA-90C8-395E-97F5-6EEF0EBA0455
++  UUID: C5D2E47A-95F8-3884-BF39-193CAF4930C6
    Functions: 2119
 -  Symbols:   7798
--  CStrings:  4888
+-  CStrings:  5707
 +  Symbols:   7803
-+  CStrings:  4891
++  CStrings:  5713
  
 Symbols:
 + ___103-[DiagnosticCaseManager startSessionWithSignature:flags:preferredTimeout:events:payload:actions:reply:]_block_invoke.698

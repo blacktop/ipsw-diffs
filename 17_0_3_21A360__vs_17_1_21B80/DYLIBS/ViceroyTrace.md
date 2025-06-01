@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE869F29-62D4-3A32-82D1-84CD3FCE3D93
 -  Functions: 2576
 -  Symbols:   8536
--  CStrings:  5097
+-  CStrings:  6386
++  UUID: 92AF9921-BE23-3C21-B31A-2BA318F5E9F2
 +  Functions: 2578
 +  Symbols:   8543
-+  CStrings:  5101
++  CStrings:  6390
  
 Symbols:
 + -[StreamGroupStats setTotalVideoFrameIncompleteNextTSRate:]

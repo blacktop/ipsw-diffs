@@ -60,7 +60,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xb28
 -  __AUTH_CONST.__const: 0xa80
 +  __AUTH_CONST.__const: 0xaa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x1060
 -  __AUTH.__objc_data: 0x2af8
@@ -107,12 +106,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F101EBF3-0F7C-3166-8A05-B6E9F560D603
 -  Functions: 13794
 -  Symbols:   47022
--  CStrings:  22441
+-  CStrings:  24832
++  UUID: 944FE7F0-A34B-392F-BEFE-C11B1E0CD732
 +  Functions: 13834
 +  Symbols:   47162
-+  CStrings:  22500
++  CStrings:  24893
  
 Symbols:
 + +[CAMSemanticStyle styleWithDictionary:error:]

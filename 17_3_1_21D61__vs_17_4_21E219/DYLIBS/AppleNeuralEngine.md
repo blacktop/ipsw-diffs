@@ -22,7 +22,6 @@
    __AUTH_CONST.__cfstring: 0x26c0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x30
 +  __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -38,5 +37,14 @@
    __DATA_DIRTY.__objc_const: 0xe98
    __DATA_DIRTY.__objc_data: 0x960
    __DATA_DIRTY.__data: 0x10
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: CAAA6AE4-0408-30B8-9153-4088365C292D
++  UUID: 72FBED5E-BC57-3C83-AA5E-1305D099A58F
+   Functions: 1084
+   Symbols:   3396
+   CStrings:  1923
 
 ```

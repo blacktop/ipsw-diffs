@@ -64,9 +64,8 @@
 +  __AUTH_CONST.__const: 0x1a68
    __AUTH_CONST.__objc_intobj: 0x90
 -  __AUTH_CONST.__objc_arrayobj: 0x48
-+  __AUTH_CONST.__objc_arrayobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0xdf0
++  __AUTH_CONST.__objc_arrayobj: 0x60
 +  __AUTH_CONST.__auth_got: 0xe08
    __AUTH.__objc_data: 0x3678
    __AUTH.__data: 0x220
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: AC530AF4-4DDD-3155-8710-FB4F585E075F
 -  Functions: 4262
 -  Symbols:   12403
--  CStrings:  5474
+-  CStrings:  5962
++  UUID: B00F8E57-5A00-331D-A807-4659895182D8
 +  Functions: 4311
 +  Symbols:   12538
-+  CStrings:  5539
++  CStrings:  6030
  
 Symbols:
 + +[AAUISignInViewController _isRunningInMuseBuddy]

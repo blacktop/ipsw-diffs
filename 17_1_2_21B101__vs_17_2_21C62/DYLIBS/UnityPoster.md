@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7E84B78-2A2F-302D-99C9-56BB4044770F
 -  Functions: 120
 -  Symbols:   461
--  CStrings:  276
+-  CStrings:  279
++  UUID: 6A19DF6A-9F8D-30E3-9B7C-1D239FE2E94F
 +  Functions: 156
 +  Symbols:   585
-+  CStrings:  325
++  CStrings:  328
  
 Symbols:
 + -[UPQuiltConfiguration initRandomizer]

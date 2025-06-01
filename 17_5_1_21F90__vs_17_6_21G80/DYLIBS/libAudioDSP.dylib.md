@@ -27,12 +27,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 49487DE6-01FA-3C60-B120-C72399B58B95
 -  Functions: 27645
 -  Symbols:   69076
--  CStrings:  17909
+-  CStrings:  22261
++  UUID: 8F3085A9-FFCE-3AB8-9FAB-BED5E613478F
 +  Functions: 27648
 +  Symbols:   69079
-+  CStrings:  17921
++  CStrings:  22273
  
 Symbols:
 + GCC_except_table10001

@@ -59,12 +59,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 795288C6-FEA8-3030-9E06-1C7E045D7BAE
 -  Functions: 9797
 -  Symbols:   31025
--  CStrings:  11847
+-  CStrings:  14276
++  UUID: 8943AF31-16B8-3408-8BF8-9893D403E42E
 +  Functions: 9796
 +  Symbols:   31028
-+  CStrings:  11846
++  CStrings:  14275
  
 Symbols:
 + -[ATXFamilyCircleCache .cxx_destruct]

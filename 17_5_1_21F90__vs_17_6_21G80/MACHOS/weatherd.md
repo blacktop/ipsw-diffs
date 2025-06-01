@@ -23,12 +23,15 @@
    __DATA_CONST.__auth_ptr: 0xd0
    __DATA_CONST.__const: 0x2198
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7917C412-1AB3-37F8-927D-70018243918F
++  UUID: 3E81A8E6-1043-3DAA-B841-ED41DC5E4838
    Functions: 1579
 -  Symbols:   1043
 +  Symbols:   1046
-   CStrings:  441
+   CStrings:  442
  
 Symbols:
 + _$s5TeaDB8DatabaseC14ConnectionModeO16defaultTransientAEvgZ

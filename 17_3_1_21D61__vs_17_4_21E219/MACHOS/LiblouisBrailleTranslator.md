@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x290
 
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50FA2093-6A7A-3B75-BAB8-E0B4A56B3160
++  UUID: 999E433B-AE3F-3F83-A703-EAFDB456E72D
    Functions: 245
    Symbols:   168
--  CStrings:  508
-+  CStrings:  509
+-  CStrings:  517
++  CStrings:  518
  
 CStrings:
 + "%s: %d warnings issued"

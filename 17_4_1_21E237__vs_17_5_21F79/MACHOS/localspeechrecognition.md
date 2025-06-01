@@ -85,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BE4153A9-934B-3532-84CA-3C8C51623E5C
 -  Functions: 909
 -  Symbols:   411
--  CStrings:  1245
+-  CStrings:  1304
++  UUID: D3765104-FA79-36FD-B0D1-C7BF942C8E10
 +  Functions: 1007
 +  Symbols:   418
-+  CStrings:  1284
++  CStrings:  1343
  
 Symbols:
 + _OBJC_CLASS_$_ASRSchemaASRAppleNeuralEngineModelInitializationEnded

@@ -24,11 +24,13 @@
    - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D98D9C4-B82F-32FA-869D-A822DB644CFE
 -  Functions: 283
++  UUID: 78F03EB6-9661-3CF0-95DE-07C655D38215
 +  Functions: 284
    Symbols:   509
--  CStrings:  355
-+  CStrings:  356
+-  CStrings:  425
++  CStrings:  426
  
 CStrings:
 + "Connection lacks entitlement"

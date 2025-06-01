@@ -22,4 +22,13 @@
    __DATA.__bss: 0x70
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AD8E269C-0B22-32CB-9A71-12C10A1EA3AF
++  UUID: BD77556C-8464-3176-90F7-9F6E29065D9C
+   Functions: 112
+   Symbols:   177
+   CStrings:  81
+
 ```

@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6438666A-9C1B-35BE-93F2-AC675FC63F78
 -  Functions: 5806
 -  Symbols:   19378
--  CStrings:  8751
+-  CStrings:  10340
++  UUID: 4400F4DB-B82E-3773-9D11-4A99F99CB274
 +  Functions: 5817
 +  Symbols:   19415
-+  CStrings:  8764
++  CStrings:  10354
  
 Symbols:
 + -[NUImageDataJob complete:]

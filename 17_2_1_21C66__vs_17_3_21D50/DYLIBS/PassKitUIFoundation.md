@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_const: 0xc50
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x28
-
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__auth_got: 0x600
    __AUTH.__objc_data: 0x910
@@ -59,12 +58,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14312E2D-BB58-394C-9338-02B80AB9D462
 -  Functions: 824
 -  Symbols:   3519
--  CStrings:  1793
+-  CStrings:  1912
++  UUID: 99872FAB-58A1-3354-BBC2-3233FA961422
 +  Functions: 825
 +  Symbols:   3526
-+  CStrings:  1796
++  CStrings:  1915
  
 Symbols:
 + GCC_except_table166

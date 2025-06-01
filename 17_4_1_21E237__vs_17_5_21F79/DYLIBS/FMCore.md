@@ -51,13 +51,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAA83076-E4FB-30B4-BC8F-561CBCD5153A
++  UUID: 9B495EB5-5D16-3D69-A376-99118C1378C6
    Functions: 712
 -  Symbols:   2788
--  CStrings:  1425
+-  CStrings:  1575
 +  Symbols:   2789
-+  CStrings:  1427
++  CStrings:  1577
  
 Symbols:
 + _objc_msgSend$isEqualToData:

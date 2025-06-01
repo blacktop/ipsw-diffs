@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5D019B09-42A3-39EE-9752-FCA82AE21ED7
++  UUID: F2DDC8F8-73BD-3CA5-9177-2ACBB4097A6D
+   Functions: 82
+   Symbols:   170
+   CStrings:  585
+
 ```

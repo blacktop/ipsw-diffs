@@ -39,11 +39,15 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x60
 
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70DD226B-7372-3E99-908B-8D4CCCA55EFC
++  UUID: 1BCD8B51-6165-34EB-B47B-AB32FA66DAF6
    Functions: 173
    Symbols:   795
--  CStrings:  505
-+  CStrings:  506
+-  CStrings:  612
++  CStrings:  613
  
 Symbols:
 + ___44-[APConnectionNotifier _newRemoteConnection]_block_invoke.78

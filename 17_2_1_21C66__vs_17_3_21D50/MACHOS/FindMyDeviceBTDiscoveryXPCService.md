@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B902140-D014-33E9-BA9B-53AF26F1351E
 -  Functions: 114
++  UUID: 9B6AD3BC-7D93-36E2-A49C-8454CCE6CA7D
 +  Functions: 120
    Symbols:   70
--  CStrings:  632
-+  CStrings:  635
+-  CStrings:  959
++  CStrings:  962
  
 CStrings:
 + "accountRatchet"

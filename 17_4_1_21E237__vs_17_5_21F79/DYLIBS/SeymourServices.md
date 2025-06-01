@@ -42,4 +42,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 37910440-6B50-39D6-B4CA-945061B84C68
++  UUID: DD5F50DD-6730-368C-B137-2ECAF3EE0C63
+   Functions: 32495
+   Symbols:   8752
+   CStrings:  4987
+
 ```

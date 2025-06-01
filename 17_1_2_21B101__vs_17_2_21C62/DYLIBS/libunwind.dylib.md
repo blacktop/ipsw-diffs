@@ -15,8 +15,10 @@
    - /usr/lib/system/libsystem_malloc.dylib
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
+-  UUID: 5F8DB9A7-871A-3732-8919-99B2864CF870
 -  Functions: 81
 -  Symbols:   136
++  UUID: 7515E31D-9809-37BD-B8C9-A382E7A0C072
 +  Functions: 82
 +  Symbols:   138
    CStrings:  123

@@ -65,7 +65,6 @@
 -  __AUTH_CONST.__objc_const: 0x4c0
 -  __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x4880
--  __AUTH_CONST.__auth_ptr: 0xf0
 -  __AUTH_CONST.__auth_got: 0xe20
 -  __AUTH.__objc_data: 0x1740
 -  __AUTH.__data: 0x1c50
@@ -81,7 +80,6 @@
 +  __AUTH_CONST.__const: 0x5ff0
 +  __AUTH_CONST.__objc_const: 0xba8
 +  __AUTH_CONST.__cfstring: 0x1e0
-+  __AUTH_CONST.__auth_ptr: 0x120
 +  __AUTH_CONST.__auth_got: 0x10b8
 +  __AUTH.__objc_data: 0x1bb0
 +  __AUTH.__data: 0x2550
@@ -114,12 +112,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6309BE6-FB16-32EE-87A0-846B623E4E31
 -  Functions: 3893
 -  Symbols:   10108
--  CStrings:  1392
+-  CStrings:  1395
++  UUID: B5451513-F339-3992-9188-357F5F99FBEC
 +  Functions: 5576
 +  Symbols:   14154
-+  CStrings:  1779
++  CStrings:  1794
  
 Symbols:
 + +[SNNetworkActivityTracing sharedInstance]

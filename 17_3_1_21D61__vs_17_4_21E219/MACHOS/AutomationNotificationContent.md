@@ -30,7 +30,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/WorkflowUI.framework/WorkflowUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39532D89-368D-3D39-B7F5-3E5982C71A0E
++  UUID: 5B99DB17-14F1-3A18-AE6F-7CEF7777289E
    Functions: 6
    Symbols:   46
 -  CStrings:  94

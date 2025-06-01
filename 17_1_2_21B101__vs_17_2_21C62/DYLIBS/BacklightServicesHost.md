@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: EAE11F25-CE9B-3178-BF69-98B3899F0061
 -  Functions: 2899
 -  Symbols:   9938
--  CStrings:  4469
+-  CStrings:  5176
++  UUID: 2033835E-82EC-30B5-A4B4-B60742271EA9
 +  Functions: 2901
 +  Symbols:   9943
-+  CStrings:  4473
++  CStrings:  5180
  
 Symbols:
 + -[BLSHBacklightDisplayStateMachine resumeDisplayMode:]

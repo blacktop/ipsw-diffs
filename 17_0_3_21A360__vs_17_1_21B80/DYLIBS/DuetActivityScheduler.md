@@ -24,12 +24,15 @@
    __TEXT.__objc_stubs: 0x4160
    __DATA_CONST.__got: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC880FA7-94D9-3396-AFE2-E9B749AAD003
++  UUID: 7A8BA962-BE7F-3FA5-A8F6-A22707F9987E
    Functions: 911
 -  Symbols:   3315
 +  Symbols:   3316
-   CStrings:  1898
+   CStrings:  2208
  
 Symbols:
 + GCC_except_table79

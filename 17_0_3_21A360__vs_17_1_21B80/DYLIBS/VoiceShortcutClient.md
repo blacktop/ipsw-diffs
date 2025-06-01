@@ -48,15 +48,14 @@
 -  __DATA_CONST.__objc_selrefs: 0x47a8
 -  __DATA_CONST.__objc_arraydata: 0xfd0
 -  __AUTH_CONST.__const: 0x3a80
-+  __DATA_CONST.__objc_const: 0xea30
-+  __DATA_CONST.__objc_selrefs: 0x4860
-+  __DATA_CONST.__objc_arraydata: 0xff0
-+  __AUTH_CONST.__const: 0x3b00
-   __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0x11860
 -  __AUTH_CONST.__objc_const: 0x6980
 -  __AUTH_CONST.__objc_intobj: 0x2bf8
 -  __AUTH_CONST.__objc_arrayobj: 0x1b0
++  __DATA_CONST.__objc_const: 0xea30
++  __DATA_CONST.__objc_selrefs: 0x4860
++  __DATA_CONST.__objc_arraydata: 0xff0
++  __AUTH_CONST.__const: 0x3b00
 +  __AUTH_CONST.__cfstring: 0x11d40
 +  __AUTH_CONST.__objc_const: 0x69c8
 +  __AUTH_CONST.__objc_intobj: 0x2c10
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F96B0710-AB98-3331-97AE-415C7E5F9929
 -  Functions: 5083
 -  Symbols:   13780
--  CStrings:  7272
+-  CStrings:  9515
++  UUID: 0FA16BF8-4649-30B8-8384-E987C9E4E11E
 +  Functions: 5113
 +  Symbols:   13883
-+  CStrings:  7346
++  CStrings:  9628
  
 Symbols:
 + +[WFAppShortcutsDenyList spotlightBonusSPI]

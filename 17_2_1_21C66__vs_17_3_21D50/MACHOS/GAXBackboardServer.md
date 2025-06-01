@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B89ADB94-BEF1-32BF-9539-4CF5D1D52FCE
++  UUID: 048E40D4-F2B5-3786-9739-FE48CC238ECC
    Functions: 1047
    Symbols:   561
--  CStrings:  2178
-+  CStrings:  2174
+-  CStrings:  2607
++  CStrings:  2601
  
 CStrings:
 + "Effective app does not match session apps - terminate"

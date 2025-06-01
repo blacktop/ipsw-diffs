@@ -55,12 +55,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2449BA54-D35F-30BC-AA44-C15924FB944D
 -  Functions: 1566
 -  Symbols:   4378
--  CStrings:  1139
+-  CStrings:  1211
++  UUID: A5678A49-3B12-3C81-87DB-636696F6A97D
 +  Functions: 1567
 +  Symbols:   4385
-+  CStrings:  1141
++  CStrings:  1213
  
 Symbols:
 + _MXSessionCreateWithOptions

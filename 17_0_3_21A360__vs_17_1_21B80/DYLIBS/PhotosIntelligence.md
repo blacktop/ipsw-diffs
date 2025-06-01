@@ -66,11 +66,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x2e30
    __DATA_CONST.__objc_arraydata: 0x150
 -  __AUTH_CONST.__const: 0xb50
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__cfstring: 0x49e0
 -  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__const: 0xc88
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__objc_const: 0x118
 +  __AUTH_CONST.__cfstring: 0x4a20
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BFCB2733-AAEF-36DD-9C01-9D20FB6FE1BF
 -  Functions: 2841
 -  Symbols:   6491
--  CStrings:  3615
+-  CStrings:  4206
++  UUID: E1E1374B-FFA6-3A33-9674-C4B0774A1BB1
 +  Functions: 2961
 +  Symbols:   6650
-+  CStrings:  3667
++  CStrings:  4260
  
 Symbols:
 + +[PNSuggestionWallpaperShuffleUtilities allPotentialSuggestionLocalIdentifierGroupsForPosterConfiguration:fromSuggestionLocalIdentifiersByFeature:withRejectedPersonLocalIdentifiers:]

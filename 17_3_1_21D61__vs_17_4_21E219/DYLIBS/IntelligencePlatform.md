@@ -69,9 +69,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x5a0
    __DATA_CONST.__objc_arraydata: 0xb8
 -  __AUTH_CONST.__const: 0x289f8
--  __AUTH_CONST.__auth_ptr: 0x628
 +  __AUTH_CONST.__const: 0x28bb8
-+  __AUTH_CONST.__auth_ptr: 0x620
    __AUTH_CONST.__objc_const: 0x5710
    __AUTH_CONST.__cfstring: 0x2b80
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -110,12 +108,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA608F98-99C0-3C01-9B4E-1D0D42B09006
 -  Functions: 42539
 -  Symbols:   1011
--  CStrings:  6301
+-  CStrings:  6649
++  UUID: 2B4A9A0F-D55A-3D3D-9B91-ACBB72EB3E65
 +  Functions: 42143
 +  Symbols:   1017
-+  CStrings:  6354
++  CStrings:  6702
  
 Symbols:
 + _BMDeviceMetadataDevicePlatformAsString

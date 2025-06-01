@@ -24,4 +24,13 @@
    __DATA.__data: 0x2a8
    __DATA.__common: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 60D2476F-355A-36CE-9CBE-EB53E3D0575D
++  UUID: 8F94934C-2416-3784-829E-920A6C55E660
+   Functions: 543
+   Symbols:   2029
+   CStrings:  1364
+
 ```

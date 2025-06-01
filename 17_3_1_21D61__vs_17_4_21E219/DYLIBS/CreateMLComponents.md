@@ -51,11 +51,9 @@
    __DATA_CONST.__objc_const: 0x1af0
    __DATA_CONST.__objc_selrefs: 0x658
 -  __AUTH_CONST.__const: 0x15fe8
--  __AUTH_CONST.__auth_ptr: 0x6d0
 +  __DATA_CONST.__objc_protorefs: 0x28
 +  __DATA_CONST.__objc_classrefs: 0x1e8
 +  __AUTH_CONST.__const: 0x14a18
-+  __AUTH_CONST.__auth_ptr: 0x6e8
    __AUTH_CONST.__objc_const: 0x90
 -  __AUTH_CONST.__auth_got: 0x2208
 -  __AUTH.__data: 0x3510
@@ -101,9 +99,11 @@
 -  - /usr/lib/swift/libswift_Differentiation.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6EF156BE-0048-3707-95AF-98301C2FFB72
 -  Functions: 21794
 -  Symbols:   12805
 -  CStrings:  864
++  UUID: 42F5C3F0-41C4-3996-ADC2-54E12F2B9591
 +  Functions: 21473
 +  Symbols:   12912
 +  CStrings:  922

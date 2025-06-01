@@ -60,8 +60,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x618
 +  __AUTH_CONST.__objc_arrayobj: 0x600
    __AUTH_CONST.__objc_intobj: 0xb28
--  __AUTH_CONST.__auth_ptr: 0x60
-+  __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x15d0
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2373CF8B-EF80-373D-8F82-D129E2423798
 -  Functions: 5932
 -  Symbols:   2063
--  CStrings:  7396
+-  CStrings:  8983
++  UUID: A8052AF5-EDDE-3817-8D38-2EE5FBAD89C3
 +  Functions: 5951
 +  Symbols:   2093
-+  CStrings:  7424
++  CStrings:  9019
  
 Symbols:
 + _CGImageSourceCreateWithURL

@@ -28,4 +28,13 @@
    __DATA.__bss: 0x18
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/TimeSync.framework/TimeSync
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3327BAB0-577B-3086-91F2-104DDA73957F
++  UUID: C6C32003-7F51-35B4-B26C-A3ED5F8AB3F4
+   Functions: 269
+   Symbols:   826
+   CStrings:  353
+
 ```

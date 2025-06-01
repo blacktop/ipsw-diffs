@@ -15,4 +15,13 @@
    __TEXT.__unwind_info: 0xa4
    __DATA_CONST.__got: 0x10
 
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+-  UUID: 6E0E7400-8FB3-3892-9D9B-E5C96EB72767
++  UUID: 79ED70D4-4415-3A20-A8E7-9B98AE12E360
+   Functions: 20
+   Symbols:   72
+   CStrings:  6
+
 ```

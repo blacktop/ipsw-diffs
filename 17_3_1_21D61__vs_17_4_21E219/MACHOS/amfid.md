@@ -32,12 +32,15 @@
    __DATA.__bss: 0x2c
    __DATA.__common: 0xa0
 
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41DDA47D-0159-3A3B-82A5-2A449EC5571C
++  UUID: AAE1CBD6-5F55-3B80-A207-14FA4C71D527
    Functions: 233
 -  Symbols:   259
 +  Symbols:   260
-   CStrings:  234
+   CStrings:  258
  
 Symbols:
 + __ZNSt3__119piecewise_constructE

@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 35E44998-CA8F-3D3C-8193-8EC9509C135B
++  UUID: 5654A8A0-8020-33AD-A44F-3109A273A45D
+   Functions: 457
+   Symbols:   1444
+   CStrings:  544
+
 ```

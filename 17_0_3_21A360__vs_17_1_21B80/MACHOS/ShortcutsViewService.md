@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 55EA39E3-89CD-3A4A-AAF3-A65F51A7C5C3
 -  Functions: 206
 -  Symbols:   137
--  CStrings:  708
+-  CStrings:  731
++  UUID: 027E4BB1-D383-3339-8D88-C88A3281CB81
 +  Functions: 162
 +  Symbols:   126
-+  CStrings:  648
++  CStrings:  666
  
 Symbols:
 + _OBJC_CLASS_$_WFApertureIconView

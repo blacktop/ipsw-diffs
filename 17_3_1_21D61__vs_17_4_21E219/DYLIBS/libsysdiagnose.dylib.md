@@ -41,12 +41,14 @@
    - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A1E954E1-702C-3A6B-899A-066E31BB21EF
 -  Functions: 33
 -  Symbols:   270
--  CStrings:  151
+-  CStrings:  186
++  UUID: 8741E450-DB46-3BED-BEF6-C11725913283
 +  Functions: 34
 +  Symbols:   274
-+  CStrings:  153
++  CStrings:  188
  
 Symbols:
 + ___83+[Libsysdiagnose sendSysdiagnoseRequest:withMetrics:withError:withProgressHandler:]_block_invoke.cold.1

@@ -29,20 +29,22 @@
    __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_floatobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x9c8
 +  __AUTH_CONST.__auth_got: 0x9c0
    __AUTH.__objc_data: 0x1bd0
    __DATA.__got_weak: 0x8
    __DATA.__objc_classrefs: 0x328
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C367C2B-E46B-356B-9B03-8D7584B9BACC
++  UUID: 7DE24500-EB04-32C2-AA90-A42C3D92B820
    Functions: 3905
 -  Symbols:   506
--  CStrings:  2005
+-  CStrings:  2336
 +  Symbols:   505
-+  CStrings:  2006
++  CStrings:  2338
  
 Symbols:
 - _objc_retain_x10

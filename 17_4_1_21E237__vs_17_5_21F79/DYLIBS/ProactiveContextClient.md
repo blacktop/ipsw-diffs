@@ -51,4 +51,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1279D22A-BD51-321E-B9AC-62A5C57F17DB
++  UUID: 98C8B12A-873F-3C53-98FF-774EBB6D6B80
+   Functions: 1257
+   Symbols:   4813
+   CStrings:  2242
+
 ```

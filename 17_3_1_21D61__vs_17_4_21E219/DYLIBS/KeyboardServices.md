@@ -41,11 +41,15 @@
    __DATA.__data: 0x618
    __DATA.__bss: 0x58
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F28E9D31-0A57-35B5-A3F8-0EF0A62043E5
++  UUID: A0F60B2D-D8F3-30C1-8AA1-7D7FD8D9223E
    Functions: 989
    Symbols:   3812
--  CStrings:  1925
-+  CStrings:  1926
+-  CStrings:  2267
++  CStrings:  2268
  
 Symbols:
 + ___76-[_KSTextReplacementLegacyStore persistentStoreCoordinatorStoresWillChange:]_block_invoke.371

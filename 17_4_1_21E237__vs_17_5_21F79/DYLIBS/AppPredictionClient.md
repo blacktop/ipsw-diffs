@@ -47,8 +47,8 @@
    __AUTH_CONST.__const: 0x24c0
    __AUTH_CONST.__objc_intobj: 0x9d8
 
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x738
 -  __AUTH.__objc_data: 0x32c8
 -  __DATA.__objc_ivar: 0x18d8
@@ -70,12 +70,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 12B4750A-3BE7-3D71-85BB-98B1FFB208C4
 -  Functions: 9803
 -  Symbols:   31053
--  CStrings:  11861
+-  CStrings:  14290
++  UUID: B043ED79-9D53-3256-952E-DC602A641018
 +  Functions: 9809
 +  Symbols:   31069
-+  CStrings:  11868
++  CStrings:  14298
  
 Symbols:
 + -[ATXPBUserNotification bodyLength]

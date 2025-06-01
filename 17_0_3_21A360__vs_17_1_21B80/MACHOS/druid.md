@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FAB6C74-5A1C-3D27-8DC6-5681F77791A3
 -  Functions: 1189
 -  Symbols:   385
--  CStrings:  2542
+-  CStrings:  2660
++  UUID: 86680C8C-26E4-3AB0-9A95-99AA55777684
 +  Functions: 1194
 +  Symbols:   382
-+  CStrings:  2553
++  CStrings:  2671
  
 Symbols:
 - _CGRectGetMidX

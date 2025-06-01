@@ -29,11 +29,15 @@
    __DATA.__objc_superrefs: 0x30
    __DATA.__objc_ivar: 0x70
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8EBAE8B5-6670-3B4B-B454-A89B78DF4644
++  UUID: 9AE49AA5-F25A-307F-90A8-72EBE4BBFA61
    Functions: 94
    Symbols:   90
--  CStrings:  398
-+  CStrings:  399
+-  CStrings:  411
++  CStrings:  412
  
 CStrings:
 + "setBlocksInput"

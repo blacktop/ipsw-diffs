@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6437349E-5236-397E-9454-4BE569B9608D
 -  Functions: 997
 -  Symbols:   288
--  CStrings:  1939
+-  CStrings:  2054
++  UUID: 4E96E6A6-C748-3F1A-BDE0-1A0DFE1EBBDA
 +  Functions: 999
 +  Symbols:   289
-+  CStrings:  1945
++  CStrings:  2060
  
 Symbols:
 + _OBJC_CLASS_$_MSServerMediator

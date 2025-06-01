@@ -23,10 +23,12 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BCE12B88-2737-35CC-B8A9-0D4216F2D98B
 -  Functions: 19316
++  UUID: 8D1B2D34-1F4F-3539-9A37-623682F11C95
 +  Functions: 19315
    Symbols:   12526
-   CStrings:  2153
+   CStrings:  2174
  
 
 ```

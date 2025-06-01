@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A604B988-CE29-3C53-B634-E25E8287EACB
 -  Functions: 1366
 -  Symbols:   4471
--  CStrings:  2064
+-  CStrings:  2339
++  UUID: BE7565FB-D1F1-39D0-B2F2-F1B388FEF4B9
 +  Functions: 1375
 +  Symbols:   4491
-+  CStrings:  2076
++  CStrings:  2354
  
 Symbols:
 + -[_LTSpeakRequest audioStartHandler]

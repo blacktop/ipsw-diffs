@@ -27,8 +27,10 @@
    __DATA_DIRTY.__const: 0xfc8
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 5FE70365-FB61-30D8-8DA7-86E5737C37CC
 -  Functions: 671
 -  Symbols:   163
++  UUID: 3ACD4653-4082-325C-AAD6-8854B3D6E7CF
 +  Functions: 668
 +  Symbols:   162
    CStrings:  65

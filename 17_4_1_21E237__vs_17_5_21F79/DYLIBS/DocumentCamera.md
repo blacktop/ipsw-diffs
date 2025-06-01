@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa58
 -  __DATA.__objc_ivar: 0x9ec
 +  __DATA.__objc_ivar: 0xa00
@@ -70,12 +69,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B1EE4A0-D84B-3DBA-B387-9F0F122ECF27
 -  Functions: 3441
 -  Symbols:   12266
--  CStrings:  5461
+-  CStrings:  5914
++  UUID: 6750A47E-95EF-37CE-AE13-8FE932D53A81
 +  Functions: 3463
 +  Symbols:   12337
-+  CStrings:  5504
++  CStrings:  5959
  
 Symbols:
 + +[ICDocCamImageFilters colorDocument:orientation:constantColor:]

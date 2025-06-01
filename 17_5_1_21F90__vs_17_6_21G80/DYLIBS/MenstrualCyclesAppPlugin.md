@@ -44,11 +44,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7784FD74-1A2A-3FB6-ABA3-464D4C7B8856
 -  Functions: 16160
++  UUID: 963BD3AC-BE84-3EC5-8ED3-0B1E8C6D603E
 +  Functions: 16164
    Symbols:   660
--  CStrings:  4887
-+  CStrings:  4889
+-  CStrings:  4890
++  CStrings:  4892
  
 CStrings:
 + ", selectedState: "

@@ -30,7 +30,6 @@
    __AUTH_CONST.__cfstring: 0x7a0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x3b8
 -  __DATA.__objc_classrefs: 0xf8
 -  __DATA.__objc_superrefs: 0x38
@@ -38,11 +37,15 @@
    __DATA.__data: 0xc8
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/PersonaKit.framework/PersonaKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2B63F59-6063-3DC6-AC20-45CAF0CBE9DE
++  UUID: 13D83B26-DA11-3EAF-8674-14DB284210F7
    Functions: 219
    Symbols:   997
--  CStrings:  565
-+  CStrings:  566
+-  CStrings:  626
++  CStrings:  627
  
 CStrings:
 + "T@\"NSString\",?,R,C"

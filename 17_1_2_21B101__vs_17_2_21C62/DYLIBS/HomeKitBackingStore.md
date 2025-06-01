@@ -72,12 +72,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4CF81401-EEFA-3902-96AB-E7C052E0B5BE
 -  Functions: 2080
 -  Symbols:   7686
--  CStrings:  4193
+-  CStrings:  4763
++  UUID: 98A89A6D-62B7-3979-8A3F-3F1EC489F503
 +  Functions: 2071
 +  Symbols:   7658
-+  CStrings:  4194
++  CStrings:  4767
  
 Symbols:
 + +[NSError(sqlite3) errorMessageForSQLite3Context:]

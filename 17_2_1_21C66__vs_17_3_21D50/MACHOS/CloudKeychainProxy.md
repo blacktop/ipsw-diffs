@@ -16,4 +16,13 @@
    __TEXT.__gcc_except_tab: 0xe0
    __TEXT.__objc_methname: 0x1cf7
 
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C8CEB4E2-09A2-382C-98EB-351A0AAA26C0
++  UUID: B1CC084E-4D05-3BFE-B340-679A32C28EB6
+   Functions: 310
+   Symbols:   272
+   CStrings:  731
+
 ```

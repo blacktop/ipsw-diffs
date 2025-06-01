@@ -30,4 +30,13 @@
    __DATA_DIRTY.__bss: 0x188
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 81B28180-C7C8-3238-A7E4-BE858C3D1EA6
++  UUID: A490AD48-4BD4-3E8F-85C1-8B68A57600DD
+   Functions: 465
+   Symbols:   1901
+   CStrings:  1056
+
 ```

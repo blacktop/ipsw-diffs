@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 781F1699-600D-3BF3-B3DB-C53D49557710
 -  Functions: 569
 -  Symbols:   345
--  CStrings:  1222
+-  CStrings:  1356
++  UUID: C0EF6073-E9A9-3CF4-8CFA-4686DCFFD6EC
 +  Functions: 568
 +  Symbols:   343
-+  CStrings:  1220
++  CStrings:  1354
  
 Symbols:
 - _OBJC_CLASS_$_UIFontMetrics

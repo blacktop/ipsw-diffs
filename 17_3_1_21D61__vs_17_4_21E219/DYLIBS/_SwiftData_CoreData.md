@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/CoreData.framework/CoreData
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 669570BD-EEF5-39CD-A073-E9DFC17BE893
++  UUID: D7AC0959-B951-38D6-989E-3F002347A193
+   Functions: 7
+   Symbols:   27
+   CStrings:  0
+
 ```

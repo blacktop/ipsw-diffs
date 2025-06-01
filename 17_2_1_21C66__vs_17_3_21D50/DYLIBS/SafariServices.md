@@ -36,11 +36,15 @@
    __AUTH_CONST.__cfstring: 0xd500
    __AUTH_CONST.__const: 0x18e8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A832989B-8CA1-3D4D-9439-EC966EF27DC6
++  UUID: 0285F6CE-EC8C-33EA-9967-55BDB08AE2D6
    Functions: 8958
    Symbols:   34673
--  CStrings:  16491
-+  CStrings:  16493
+-  CStrings:  18195
++  CStrings:  18197
  
 Symbols:
 + -[SFAddSavedAccountViewController setShouldPopulatePasswordFieldWithNewGeneratedStrongPassword:]

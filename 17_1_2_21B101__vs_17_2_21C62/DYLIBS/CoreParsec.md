@@ -55,10 +55,8 @@
    __DATA_CONST.__objc_arraydata: 0x50
 -  __AUTH_CONST.__objc_const: 0x3528
 -  __AUTH_CONST.__const: 0x2978
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__cfstring: 0x76c0
 +  __AUTH_CONST.__const: 0x29b8
-+  __AUTH_CONST.__auth_ptr: 0x78
 +  __AUTH_CONST.__objc_const: 0x3570
 +  __AUTH_CONST.__cfstring: 0x7720
    __AUTH_CONST.__objc_intobj: 0x30
@@ -90,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4E603F76-B25A-39D3-A610-2531187B9C87
 -  Functions: 4368
 -  Symbols:   10779
--  CStrings:  5531
+-  CStrings:  6481
++  UUID: 94EC8659-753A-31BE-9909-8480498C0B1D
 +  Functions: 4455
 +  Symbols:   10867
-+  CStrings:  5547
++  CStrings:  6500
  
 Symbols:
 + +[PAREngagementResponse responseFromReply:]

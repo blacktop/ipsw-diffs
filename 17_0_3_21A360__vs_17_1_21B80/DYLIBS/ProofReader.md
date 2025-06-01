@@ -28,11 +28,15 @@
    __AUTH_CONST.__const: 0x5e0
    __AUTH_CONST.__objc_arrayobj: 0x2d0
 
+   - /System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DCA96A7F-D9DF-3AA4-A816-E3016457CC4B
++  UUID: 1389FE79-8407-3F0D-841C-4D42A4F94A6C
    Functions: 1745
    Symbols:   5343
--  CStrings:  5971
-+  CStrings:  5970
+-  CStrings:  7190
++  CStrings:  7188
  
 Symbols:
 + __unnamed_array_storage.215

@@ -43,14 +43,13 @@
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__objc_intobj: 0x750
 -  __AUTH_CONST.__const: 0x40
+-  __AUTH_CONST.__auth_got: 0x358
 +  __DATA_CONST.__objc_const: 0x1f60
 +  __DATA_CONST.__objc_selrefs: 0x9d8
 +  __AUTH_CONST.__cfstring: 0xd80
 +  __AUTH_CONST.__objc_const: 0x90
 +  __AUTH_CONST.__const: 0x120
 +  __AUTH_CONST.__objc_intobj: 0x768
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__auth_got: 0x358
 +  __AUTH_CONST.__auth_got: 0x350
 +  __AUTH.__objc_data: 0xa0
    __DATA.__objc_protorefs: 0x78
@@ -85,12 +84,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AE54CBB-5587-3390-A13F-9C7F4B8F14BF
 -  Functions: 618
 -  Symbols:   1824
--  CStrings:  1065
+-  CStrings:  1177
++  UUID: 9A63A432-C598-3D2B-A380-1C881216531F
 +  Functions: 623
 +  Symbols:   1846
-+  CStrings:  1070
++  CStrings:  1178
  
 Symbols:
 + +[LAACMHelper notifyBiometricMatchOperationStartAttempted]

@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82D62FE6-1FBA-3AFA-A463-AF3EB354902C
 -  Functions: 41
 -  Symbols:   78
--  CStrings:  162
+-  CStrings:  164
++  UUID: 8D73BB9C-6767-310B-9007-15FEBC967DDD
 +  Functions: 46
 +  Symbols:   85
-+  CStrings:  182
++  CStrings:  186
  
 Symbols:
 + _CFRelease

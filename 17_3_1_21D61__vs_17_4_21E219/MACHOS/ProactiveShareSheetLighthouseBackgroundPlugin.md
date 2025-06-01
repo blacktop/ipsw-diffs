@@ -42,9 +42,11 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 55FECCA9-DF21-363B-9A8F-26BC1B1C3972
 -  Functions: 168
 -  Symbols:   1307
 -  CStrings:  52
++  UUID: DAB306BF-EA78-3C5D-ACCE-9E0BC7E7E28B
 +  Functions: 174
 +  Symbols:   1354
 +  CStrings:  66

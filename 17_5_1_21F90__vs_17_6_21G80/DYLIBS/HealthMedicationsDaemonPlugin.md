@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E972DA15-3E65-3498-8B0A-4F23A32EA52B
 -  Functions: 1604
 -  Symbols:   5894
--  CStrings:  2788
+-  CStrings:  3149
++  UUID: 4DA0284A-A0F4-3618-B4D2-B36827ABEE31
 +  Functions: 1627
 +  Symbols:   5987
-+  CStrings:  2837
++  CStrings:  3204
  
 Symbols:
 + +[HKMedicationsDeviceInfo(HealthMedicationsDaemonPlugin) deviceInfoFromStorageGroup:syncIdentityManager:]

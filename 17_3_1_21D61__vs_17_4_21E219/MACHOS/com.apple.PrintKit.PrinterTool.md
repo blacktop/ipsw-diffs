@@ -64,12 +64,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 227756A5-459E-3A3A-9F40-120ECB90645E
 -  Functions: 1312
 -  Symbols:   1012
--  CStrings:  3344
+-  CStrings:  4918
++  UUID: F171EA32-533A-3103-A1C8-5C713EC96963
 +  Functions: 1326
 +  Symbols:   1016
-+  CStrings:  3363
++  CStrings:  4940
  
 Symbols:
 + _OBJC_CLASS_$_PKPaperList

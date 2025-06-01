@@ -39,7 +39,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x2d0
 +  __AUTH_CONST.__const: 0x1c0
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0x6d8
 -  __DATA.__objc_protorefs: 0x10
@@ -55,11 +54,15 @@
    __DATA_DIRTY.__objc_data: 0x31b0
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF7CA78D-0B3F-370D-9B53-BFF8F9F2FBAD
++  UUID: 69D354E2-03FE-3F26-8703-C5613E73C0B1
    Functions: 4747
    Symbols:   13980
--  CStrings:  5902
-+  CStrings:  5905
+-  CStrings:  6438
++  CStrings:  6441
  
 Symbols:
 + ___block_literal_global.189

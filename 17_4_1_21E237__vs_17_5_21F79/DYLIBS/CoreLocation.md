@@ -67,12 +67,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AF00D7C2-F9E1-32DC-834C-AABA7A471B96
 -  Functions: 4076
 -  Symbols:   914
--  CStrings:  7658
+-  CStrings:  8783
++  UUID: 20ECFD5B-0007-3995-BE05-90B8B1F3E3B3
 +  Functions: 4083
 +  Symbols:   915
-+  CStrings:  7707
++  CStrings:  8839
  
 Symbols:
 + _CLLocationManagerGatheringCameUp

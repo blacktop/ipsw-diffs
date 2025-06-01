@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 752CC604-38BE-3BCE-BCEE-CE096E100132
 -  Functions: 763
 -  Symbols:   395
--  CStrings:  1165
+-  CStrings:  1224
++  UUID: D3E605A1-E891-3B5E-9179-E33ED720FA7B
 +  Functions: 816
 +  Symbols:   394
-+  CStrings:  1198
++  CStrings:  1257
  
 Symbols:
 - _OBJC_CLASS_$__EARSpeechRecognitionAudioBuffer

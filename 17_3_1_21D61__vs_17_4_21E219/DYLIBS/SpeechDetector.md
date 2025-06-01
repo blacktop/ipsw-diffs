@@ -37,11 +37,15 @@
    __DATA.__data: 0x138
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EDECEFF-3E6F-3B12-AEBC-E4C5624C9475
++  UUID: 8ED2D216-8C68-3A07-86CE-EEA1FD99D1D3
    Functions: 54
    Symbols:   335
--  CStrings:  291
-+  CStrings:  292
+-  CStrings:  353
++  CStrings:  354
  
 CStrings:
 + "T@\"NSString\",?,R,C"

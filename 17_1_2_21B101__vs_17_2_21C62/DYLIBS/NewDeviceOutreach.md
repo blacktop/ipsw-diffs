@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86B9B95B-6F63-313A-BB42-A41D92D0A6BA
 -  Functions: 479
 -  Symbols:   1759
--  CStrings:  1161
+-  CStrings:  1363
++  UUID: A52CC0DB-8F38-3F10-89A3-4B025CA7C884
 +  Functions: 526
 +  Symbols:   1909
-+  CStrings:  1277
++  CStrings:  1513
  
 Symbols:
 + +[NDODevice deviceWithCBDevice:]

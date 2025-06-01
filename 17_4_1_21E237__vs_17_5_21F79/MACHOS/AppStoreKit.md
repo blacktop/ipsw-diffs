@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32D7559A-733B-34AE-8447-9852DC59F02A
 -  Functions: 18119
 -  Symbols:   5225
--  CStrings:  3087
+-  CStrings:  3135
++  UUID: B675AB68-2EF4-3E6A-B2FC-1417EC076407
 +  Functions: 18350
 +  Symbols:   5338
-+  CStrings:  3175
++  CStrings:  3223
  
 Symbols:
 + _AMSErrorUserInfoKeyStatusCode

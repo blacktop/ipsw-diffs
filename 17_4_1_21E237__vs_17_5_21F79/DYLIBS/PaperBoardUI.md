@@ -47,9 +47,8 @@
    __AUTH_CONST.__const: 0xc58
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__objc_arrayobj: 0x78
-
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x210
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xaf8
 -  __AUTH.__objc_data: 0x2350
 +  __AUTH.__objc_data: 0x21c0
@@ -66,13 +65,16 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 831E6EDB-37A7-32E1-A5E2-F66533903FD5
++  UUID: 933E93E5-EA04-3419-929B-8CBA796F8E7B
    Functions: 3787
 -  Symbols:   13552
--  CStrings:  5688
+-  CStrings:  6569
 +  Symbols:   13557
-+  CStrings:  5691
++  CStrings:  6573
  
 Symbols:
 + -[PBUIPosterWallpaperViewController _updateStyleForVariant:]

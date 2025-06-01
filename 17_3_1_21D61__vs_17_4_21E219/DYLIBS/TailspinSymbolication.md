@@ -32,11 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F039813-D427-35C9-8161-A6329B18F1E5
 -  Functions: 14
 -  Symbols:   122
++  UUID: 1448FC4B-D29D-3B6C-ADEB-BB16D855DD58
 +  Functions: 15
 +  Symbols:   125
-   CStrings:  58
+   CStrings:  80
  
 Symbols:
 + ___72-[TailspinSymbolicationClient symbolicateUUID:pid:path:offsets:options:]_block_invoke.1.cold.1

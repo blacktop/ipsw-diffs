@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/StoreKitUI.framework/StoreKitUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E8CBC1C0-474A-3777-B94B-076416EE57C6
++  UUID: B95937F6-F3CA-3530-982A-0146C4324A9E
    Functions: 252
    Symbols:   230
--  CStrings:  750
-+  CStrings:  751
+-  CStrings:  818
++  CStrings:  819
  
 CStrings:
 + "T@\"NSString\",?,R,C"

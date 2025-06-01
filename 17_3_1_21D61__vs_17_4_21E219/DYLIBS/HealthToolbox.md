@@ -41,11 +41,15 @@
    __DATA.__data: 0x10e0
    __DATA.__bss: 0x88
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 2B058103-13B0-35E6-8E48-9960947F0E70
++  UUID: 292C1E29-4016-3477-B133-975F34FFDEAC
    Functions: 2588
    Symbols:   9590
--  CStrings:  4722
-+  CStrings:  4723
+-  CStrings:  5362
++  CStrings:  5363
  
 Symbols:
 + ___137-[WDBuddyFlowUserInfo saveChangesToHealthStore:withMedicalIDTemplate:withMedicalIDCompletion:andSaveNameCompletion:andOverallCompletion:]_block_invoke.271

@@ -46,12 +46,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7E091E70-D463-3DEB-A4C4-CBF3A5A87799
 -  Functions: 4126
 -  Symbols:   14219
--  CStrings:  6917
+-  CStrings:  8292
++  UUID: 42612158-BD62-3E5F-B131-DDE401C28ECC
 +  Functions: 4131
 +  Symbols:   14231
-+  CStrings:  6922
++  CStrings:  8297
  
 Symbols:
 + +[PFMetadataIdentifier quicktimeMetadataFullFrameRatePlaybackIntent]

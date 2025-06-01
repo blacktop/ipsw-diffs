@@ -47,7 +47,6 @@
    __AUTH_CONST.__const: 0xcc0
 -  __AUTH_CONST.__objc_doubleobj: 0x4e0
 +  __AUTH_CONST.__objc_doubleobj: 0x4d0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xc10
    __AUTH.__objc_data: 0x38e0
    __DATA.__objc_protorefs: 0x10
@@ -62,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3AE9147-C30C-34F5-BC67-E167D61F2D3A
 -  Functions: 3234
 -  Symbols:   11671
--  CStrings:  6583
+-  CStrings:  7886
++  UUID: 0A6C633A-3109-30ED-8EB6-DE47AB2F0500
 +  Functions: 3250
 +  Symbols:   11695
-+  CStrings:  6590
++  CStrings:  7894
  
 Symbols:
 + -[SBFAuthenticationAssertionManager dealloc]

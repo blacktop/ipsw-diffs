@@ -48,7 +48,6 @@
 -  __DATA_CONST.__objc_selrefs: 0xef8
 -  __AUTH_CONST.__cfstring: 0x1e80
 -  __AUTH_CONST.__objc_const: 0x0
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x6c8
 -  __DATA.__got_weak: 0x20
 -  __DATA.__objc_protorefs: 0x8
@@ -97,12 +96,14 @@
 -  - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
 -  - /usr/lib/libskit.dylib
+-  UUID: 6BB45731-A54D-33B3-B435-B4589127CAB2
 -  Functions: 1029
 -  Symbols:   682
--  CStrings:  1661
+-  CStrings:  1905
++  UUID: 772B1FD1-1BB3-36BA-9F0B-021429762340
 +  Functions: 679
 +  Symbols:   401
-+  CStrings:  1370
++  CStrings:  1589
  
 Symbols:
 + _BMResourceDescriptorErrorDomain

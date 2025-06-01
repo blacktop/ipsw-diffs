@@ -50,12 +50,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9EA33E2-D425-36CE-B7D5-114D1FCCC514
 -  Functions: 759
 -  Symbols:   2966
--  CStrings:  1191
+-  CStrings:  1826
++  UUID: BC98FDDB-9F37-3C56-8C95-DA3529C66A9D
 +  Functions: 764
 +  Symbols:   2986
-+  CStrings:  1196
++  CStrings:  1834
  
 Symbols:
 + +[BottomPlayerViewControllerAccessibility _accessibilityPerformValidations:]

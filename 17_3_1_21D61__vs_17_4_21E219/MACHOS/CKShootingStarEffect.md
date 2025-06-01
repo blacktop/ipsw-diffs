@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A433DBAF-44C2-3806-9B41-473AA2A86FD1
++  UUID: A895237E-755E-3821-8A11-586EC4615D82
    Functions: 35
    Symbols:   72
--  CStrings:  224
-+  CStrings:  225
+-  CStrings:  253
++  CStrings:  254
  
 CStrings:
 + "T@\"NSString\",?,R,C"

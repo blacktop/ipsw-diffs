@@ -61,12 +61,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 543CF3C0-78BD-36F3-9687-2FE04E6B9566
 -  Functions: 2133
 -  Symbols:   409
--  CStrings:  4093
+-  CStrings:  4816
++  UUID: 6CAB5A72-1E0B-30E1-80CA-663708310568
 +  Functions: 2146
 +  Symbols:   413
-+  CStrings:  4113
++  CStrings:  4836
  
 Symbols:
 + _fcntl

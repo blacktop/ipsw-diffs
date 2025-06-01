@@ -28,11 +28,15 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_const: 0x0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 253E428F-D179-3808-8EBB-C37AB2A0CEE0
++  UUID: 81CE3501-A2FF-3465-A7CE-E9553E26ACF8
    Functions: 1373
    Symbols:   4820
--  CStrings:  2802
-+  CStrings:  2804
+-  CStrings:  3438
++  CStrings:  3442
  
 Symbols:
 + ___32-[TLToneManager _removeAllTones]_block_invoke.253

@@ -80,8 +80,6 @@
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x20
--  __AUTH_CONST.__auth_ptr: 0x68
-+  __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__auth_got: 0xfd0
 -  __AUTH.__objc_data: 0x3998
 -  __AUTH.__data: 0x630
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC3BF7E4-A41D-3A48-9350-4C2F59982A9F
 -  Functions: 4984
 -  Symbols:   13080
--  CStrings:  5704
+-  CStrings:  6223
++  UUID: 432964D6-58D3-3ED1-BF08-526142933DA2
 +  Functions: 4837
 +  Symbols:   13255
-+  CStrings:  5794
++  CStrings:  6323
  
 Symbols:
 + -[AAUIAccountRecoveryViewController _beginObservingReviewCustodianDismissedNotification]

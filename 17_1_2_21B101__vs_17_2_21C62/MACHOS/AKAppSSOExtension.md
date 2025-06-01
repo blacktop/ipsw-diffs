@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0x278
    __DATA_CONST.__cfstring: 0x14c0
 
+   - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CFD941DA-F134-3C2C-9F26-CD7F31A7219E
++  UUID: D5659AB3-74FE-3F31-840A-D885357E4476
    Functions: 84
 -  Symbols:   159
 +  Symbols:   160
-   CStrings:  419
+   CStrings:  585
  
 Symbols:
 + _objc_retain_x26

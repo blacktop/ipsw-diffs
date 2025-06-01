@@ -37,11 +37,15 @@
    __DATA.__data: 0x240
    __DATA.__bss: 0x12
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49767583-F4E7-3A9B-8CA0-44C61917092B
++  UUID: 3274A692-D719-38B9-A6EC-11F26B2B8334
    Functions: 396
    Symbols:   1782
--  CStrings:  967
-+  CStrings:  969
+-  CStrings:  1328
++  CStrings:  1330
  
 Symbols:
 + ___74-[WeekViewControllerAccessibility accessibilityScrollStatusForScrollView:]_block_invoke.277

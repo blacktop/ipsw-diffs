@@ -30,6 +30,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 56968204-69F0-3089-8ADB-1D3BDB77F739
++  UUID: B11F62F3-D036-3169-8DE5-C16A8C4D1D41
+   Functions: 2752
+   Symbols:   8323
+   CStrings:  4514
 Symbols:
 + __OBJC_$_PROP_LIST_NSObject.1068
 + __OBJC_$_PROP_LIST_NSObject.1416

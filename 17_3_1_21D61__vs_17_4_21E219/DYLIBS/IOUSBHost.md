@@ -27,4 +27,13 @@
    __DATA.__data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4B86CBBF-089D-3635-900B-A2346F4E7EAC
++  UUID: 7120A2BA-A3BA-3607-AB6E-A428BDF07091
+   Functions: 550
+   Symbols:   1608
+   CStrings:  1059
+
 ```

@@ -1,19 +1,22 @@
 ## DiagnosticExtension
 
-> `/System/Library/PrivateFrameworks/IntelligencePlatform.framework/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
+> `/private/var/staged_system_apps/MobileMail.app/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
 
 ```diff
 
--75.12.7.1.0
-+75.15.0.0.0
-   __TEXT.__text: 0x206c
-   __TEXT.__auth_stubs: 0x450
-   __TEXT.__objc_stubs: 0x60
-   __TEXT.__objc_methlist: 0x68
--  __TEXT.__const: 0xa8
-+  __TEXT.__const: 0xa0
-   __TEXT.__cstring: 0x5b1
-   __TEXT.__objc_methname: 0x137
-   __TEXT.__constg_swiftt: 0x6c
+-3774.500.171.2.3
++3774.600.62.0.0
+   __TEXT.__text: 0x9cc
+   __TEXT.__auth_stubs: 0x230
+   __TEXT.__objc_stubs: 0x300
+
+   - /System/Library/PrivateFrameworks/EmailFoundation.framework/EmailFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 25137D07-1398-3166-82E1-A80760511DF4
++  UUID: 694BB262-7F1B-307E-8E39-7291BF8037F5
+   Functions: 13
+   Symbols:   55
+   CStrings:  95
 
 ```

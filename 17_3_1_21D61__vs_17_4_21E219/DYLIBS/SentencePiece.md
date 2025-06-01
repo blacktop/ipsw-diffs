@@ -40,8 +40,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F0E2074-AC04-327C-8987-BAE20AE94308
 -  Functions: 745
 -  Symbols:   151
++  UUID: C4C2F91A-21EF-300E-90E6-A0823B0DBD4E
 +  Functions: 742
 +  Symbols:   152
    CStrings:  206

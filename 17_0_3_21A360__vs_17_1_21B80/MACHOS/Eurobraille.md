@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protolist: 0x30
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 232A9414-1B76-3119-9DAD-3CD33529C2E8
++  UUID: 94AADF18-9F5C-32B1-A465-B1134898554C
    Functions: 24
    Symbols:   106
--  CStrings:  180
-+  CStrings:  181
+-  CStrings:  204
++  CStrings:  206
  
 CStrings:
 + "com.apple.scrod.braille.driver.eurobraille.bnote.20"

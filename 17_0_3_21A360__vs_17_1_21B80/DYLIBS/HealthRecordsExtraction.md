@@ -63,9 +63,7 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x2b0
 -  __AUTH_CONST.__auth_got: 0x1258
-+  __AUTH_CONST.__auth_ptr: 0x2b8
 +  __AUTH_CONST.__auth_got: 0x1288
    __AUTH.__objc_data: 0xf60
 -  __AUTH.__data: 0x1a58
@@ -86,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B4460409-533A-3B9C-BFAB-B9CE2BB8AD1E
 -  Functions: 7247
 -  Symbols:   3235
--  CStrings:  2438
+-  CStrings:  2947
++  UUID: 46B76DB4-F3D8-3D3D-8DE6-2C20C299E293
 +  Functions: 7297
 +  Symbols:   3249
-+  CStrings:  2457
++  CStrings:  2966
  
 Symbols:
 + __DATA__TtC23HealthRecordsExtraction11RTFDocument

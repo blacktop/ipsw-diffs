@@ -39,11 +39,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B156DCC7-C685-372F-956E-433767F75773
++  UUID: 8F458788-56E9-33EB-95A7-4261D4748B87
    Functions: 38
    Symbols:   290
--  CStrings:  189
-+  CStrings:  190
+-  CStrings:  193
++  CStrings:  194
  
 Symbols:
 + ___61-[SSUSoundScapesPickerManager hostViewControllerDidActivate:]_block_invoke.121

@@ -33,11 +33,15 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E8791FD-9928-31D3-87C0-7725C74D2AE0
++  UUID: EAC53D58-F05A-39FB-A2E0-FFA73F16753B
    Functions: 174
    Symbols:   751
--  CStrings:  377
-+  CStrings:  382
+-  CStrings:  555
++  CStrings:  565
  
 Symbols:
 + ___84-[AmbientCollectionViewCellAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke.278

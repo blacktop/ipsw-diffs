@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 539C311B-2791-3E3B-9820-86FE52968A3E
 -  Functions: 9129
 -  Symbols:   4423
--  CStrings:  3771
+-  CStrings:  3786
++  UUID: 8AB8A3D0-3744-3DBE-8F32-A3C3EA8896C4
 +  Functions: 9308
 +  Symbols:   4462
-+  CStrings:  3785
++  CStrings:  3800
  
 Symbols:
 + _OBJC_METACLASS_$_UIContextMenuConfiguration

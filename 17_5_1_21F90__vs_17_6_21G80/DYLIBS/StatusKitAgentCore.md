@@ -21,12 +21,15 @@
    __DATA_CONST.__const: 0x17f8
    __DATA_CONST.__objc_classlist: 0x270
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5788E7B2-F81E-3A9B-A162-E4D1BE6FA0E8
++  UUID: 79B00417-C09B-3B12-A2D9-C7CF6401A5A8
    Functions: 3342
 -  Symbols:   8808
 +  Symbols:   8809
-   CStrings:  3804
+   CStrings:  4066
  
 Symbols:
 + _objc_msgSend$cachedJwtTokenMap

@@ -39,10 +39,12 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9439CE11-086C-32EE-933B-DEEC22C3C594
 -  Functions: 688
++  UUID: 32A68B64-B717-3022-B89C-DBAC4F284762
 +  Functions: 689
    Symbols:   286
-   CStrings:  1424
+   CStrings:  1459
  
 CStrings:
 + "withCaseSensitiveAttribute"

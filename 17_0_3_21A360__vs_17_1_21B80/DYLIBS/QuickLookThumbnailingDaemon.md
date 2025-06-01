@@ -51,12 +51,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 87CFB4F4-84E4-3173-AF09-CC54E80EC3BF
 -  Functions: 1635
 -  Symbols:   5387
--  CStrings:  2573
+-  CStrings:  2789
++  UUID: 4F987195-0FF2-3F51-972C-39FB38BB02BD
 +  Functions: 1641
 +  Symbols:   5404
-+  CStrings:  2582
++  CStrings:  2798
  
 Symbols:
 + -[QLPreviewThumbnailGenerator initWithGeneratorRequest:lowQuality:thumbnailItem:]

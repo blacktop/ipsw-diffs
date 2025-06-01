@@ -38,9 +38,8 @@
 +  __DATA_CONST.__objc_superrefs: 0x20
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__cfstring: 0x4b40
-+  __AUTH_CONST.__cfstring: 0x4d80
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__const: 0x7d8
++  __AUTH_CONST.__cfstring: 0x4d80
 +  __AUTH_CONST.__const: 0x7f8
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x30
@@ -69,12 +68,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0D551775-68D4-330B-9737-06627851DA14
 -  Functions: 2144
 -  Symbols:   6348
--  CStrings:  1138
+-  CStrings:  1740
++  UUID: EA7CA3FB-45FC-3BE7-BAE8-2376F457E0EE
 +  Functions: 2163
 +  Symbols:   6402
-+  CStrings:  1165
++  CStrings:  1785
  
 Symbols:
 + GCC_except_table4

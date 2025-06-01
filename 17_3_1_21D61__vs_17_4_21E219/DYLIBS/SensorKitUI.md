@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17270265-7ABF-39D7-89F3-31602BAEDC8D
 -  Functions: 315
 -  Symbols:   1453
--  CStrings:  1174
+-  CStrings:  1392
++  UUID: 9AF72791-3968-3154-B71F-68E2FC77333F
 +  Functions: 326
 +  Symbols:   1488
-+  CStrings:  1208
++  CStrings:  1438
  
 Symbols:
 + +[NSURL sk_PreferencesMotionAndFitness]

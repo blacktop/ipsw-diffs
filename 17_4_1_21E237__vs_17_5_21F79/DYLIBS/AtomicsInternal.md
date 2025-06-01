@@ -9,7 +9,6 @@
    __DATA_CONST.__objc_const: 0x50
 -  __AUTH_CONST.__const: 0xa58
 +  __AUTH_CONST.__const: 0x210
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x150
 -  __AUTH.__data: 0xba0
    __DATA.__data: 0x770
@@ -20,5 +19,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 4D929275-BA4C-3D6B-9137-93C4AF0A1A9E
++  UUID: CD101684-78B4-360F-AF1F-93C81F93CE78
+   Functions: 792
+   Symbols:   179
+   CStrings:  27
 
 ```

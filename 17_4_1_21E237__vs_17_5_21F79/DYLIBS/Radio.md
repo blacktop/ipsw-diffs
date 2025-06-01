@@ -39,4 +39,13 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 75BBA0EE-BF01-33F3-9929-CDD12159C7FB
++  UUID: 85324549-E17F-328E-965C-13A7C406913C
+   Functions: 696
+   Symbols:   2672
+   CStrings:  1663
+
 ```

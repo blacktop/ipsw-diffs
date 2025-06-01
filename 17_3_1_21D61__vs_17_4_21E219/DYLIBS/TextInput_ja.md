@@ -37,6 +37,15 @@
    __DATA.__objc_ivar: 0x1f4
    __DATA.__data: 0x230
    __DATA.__bss: 0x1d8
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9A26CD6C-B9FA-32EF-B0C1-9B617FC06CC1
++  UUID: C7C8D8EB-BC92-3FF7-B0F5-7D5E9F138F3D
+   Functions: 715
+   Symbols:   2645
+   CStrings:  1443
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
 + __ZNSt3__119__shared_weak_count16__release_sharedB8un170006Ev

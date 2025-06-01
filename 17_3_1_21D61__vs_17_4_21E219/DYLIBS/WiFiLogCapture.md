@@ -22,5 +22,13 @@
    __DATA.__objc_ivar: 0xc
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreCaptureControl.framework/CoreCaptureControl
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 405D7F59-E424-3656-A707-2A2DCF7A2742
++  UUID: B189F3AB-815B-3A00-847F-81FF4A31A59B
+   Functions: 13
+   Symbols:   88
+   CStrings:  55
 
 ```

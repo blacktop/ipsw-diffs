@@ -75,12 +75,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DA087088-C90E-3BFB-B314-AD4606A1F567
 -  Functions: 2554
 -  Symbols:   8672
--  CStrings:  5611
+-  CStrings:  7670
++  UUID: DD9DFA0D-CB8B-30E4-A49A-5400D5D9B612
 +  Functions: 2577
 +  Symbols:   8749
-+  CStrings:  5687
++  CStrings:  7761
  
 Symbols:
 + +[SUCoreDDMUtilities _forceSupervision]

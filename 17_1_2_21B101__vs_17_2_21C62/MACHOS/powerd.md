@@ -30,11 +30,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libenergytrace.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E910BE7-49BC-3376-8016-DC447C47050E
 -  Functions: 2075
++  UUID: FA21F47C-95D8-37E0-A9C0-8D5D519C4F4B
 +  Functions: 2076
    Symbols:   524
--  CStrings:  3037
-+  CStrings:  3040
+-  CStrings:  3820
++  CStrings:  3826
  
 CStrings:
 + "2.6"

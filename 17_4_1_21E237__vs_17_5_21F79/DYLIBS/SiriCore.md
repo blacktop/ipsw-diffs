@@ -18,4 +18,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: B512FE95-27ED-3557-9278-FF45B14AACA5
++  UUID: F70526FC-733D-3FBC-8C9E-C93D4E533631
+   Functions: 1242
+   Symbols:   4933
+   CStrings:  3396
+
 ```

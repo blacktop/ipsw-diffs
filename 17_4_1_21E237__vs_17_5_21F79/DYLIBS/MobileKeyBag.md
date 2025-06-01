@@ -43,12 +43,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 29D0287F-09CB-37EA-9CD3-60A9C376593C
 -  Functions: 536
 -  Symbols:   1719
--  CStrings:  1282
+-  CStrings:  1904
++  UUID: 71D69049-16BC-321B-BBDE-940264FE6804
 +  Functions: 538
 +  Symbols:   1724
-+  CStrings:  1305
++  CStrings:  1927
  
 Symbols:
 + ___analytics_send_fv_status_block_invoke

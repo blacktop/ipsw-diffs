@@ -33,11 +33,15 @@
    __DATA.__objc_const: 0x1280
    __DATA.__objc_selrefs: 0xbe0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 10EB5E11-F6C3-30B3-B0EC-906103E4E4C3
++  UUID: E65CFCC1-DB6A-3074-8B7C-B27E3F34E3DC
    Functions: 213
    Symbols:   232
--  CStrings:  734
-+  CStrings:  739
+-  CStrings:  899
++  CStrings:  909
  
 CStrings:
 + "Automatically Invert Images"

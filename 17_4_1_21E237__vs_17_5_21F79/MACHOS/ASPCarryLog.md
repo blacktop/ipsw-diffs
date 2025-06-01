@@ -21,4 +21,13 @@
    __DATA.__common: 0x72
    - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/local/lib/libNVMeCTL.dylib
+-  UUID: F09957EF-EBC1-3697-B8D3-0D8F06CB8651
++  UUID: 55BCAA46-9428-35C1-BB54-D7807111E542
+   Functions: 611
+   Symbols:   267
+   CStrings:  13031
+
 ```

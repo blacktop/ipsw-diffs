@@ -22,6 +22,15 @@
    __DATA.__objc_data: 0xb0
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FC9FDE5-7D94-370C-A6AF-D8E5F7CC76BD
++  UUID: CEAC6076-BB8F-3729-AB49-C4F5F18915CD
+   Functions: 12
+   Symbols:   48
+   CStrings:  18
 Symbols:
 + _objc_release_x21
 - _objc_release_x22

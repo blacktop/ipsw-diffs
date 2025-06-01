@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D9B08C76-74B9-35BD-9652-F015E51FA536
++  UUID: A7B631DF-383E-36A1-B67C-C7D5F1BF0603
+   Functions: 1209
+   Symbols:   359
+   CStrings:  3416
+
 ```

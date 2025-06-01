@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_intobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x2b20
 +  __AUTH_CONST.__auth_got: 0x2b28
    __AUTH.__objc_data: 0x17c0
@@ -79,12 +78,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 650B083C-E640-3F12-A267-32148F1EB6B8
 -  Functions: 13522
 -  Symbols:   2551
--  CStrings:  9824
+-  CStrings:  11840
++  UUID: F4B31341-9625-3D63-AB20-C8E38E67ED46
 +  Functions: 13530
 +  Symbols:   2555
-+  CStrings:  9829
++  CStrings:  11844
  
 Symbols:
 + __CFHTTPAuthenticationCheckOriginAllowedAsThirdParty

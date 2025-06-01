@@ -48,11 +48,13 @@
    - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F0F4344-1FA2-30D0-869A-04A3CE6E84B1
 -  Functions: 862
++  UUID: 33A66FB1-3AE8-3D22-BE53-472E64649175
 +  Functions: 864
    Symbols:   296
--  CStrings:  1548
-+  CStrings:  1553
+-  CStrings:  1645
++  CStrings:  1651
  
 CStrings:
 + "%s: Disk type wasn't found, couldn't find 'Protocol Characteristics' values"

@@ -39,11 +39,15 @@
    __DATA.__data: 0x600
    __DATA.__bss: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39BE3FC5-D751-3A3F-BC9A-028447A2CA06
++  UUID: F257F252-2FE8-3443-AEF5-A45361E0158F
    Functions: 1563
    Symbols:   5550
--  CStrings:  3641
-+  CStrings:  3642
+-  CStrings:  4392
++  CStrings:  4393
  
 Symbols:
 + ___54-[NPTMetadataCollector startCollectingWithCompletion:]_block_invoke.86

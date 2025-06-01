@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 15C01C66-400A-3309-A2FB-EF0E41EB6CE4
++  UUID: 315A0232-EF3D-3CE4-AAAB-DDE608166BCD
+   Functions: 9827
+   Symbols:   33195
+   CStrings:  22539
+
 ```

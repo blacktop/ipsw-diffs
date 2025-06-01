@@ -19,12 +19,15 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7ECD865E-23EF-3172-A0ED-34F129B96870
++  UUID: 3A4DDB5D-ABED-3720-B0FD-A59EE42FA7BB
    Functions: 76
 -  Symbols:   500
 +  Symbols:   504
-   CStrings:  678
+   CStrings:  1242
  
 Symbols:
 + _logObject_DrivingRecorder_Default

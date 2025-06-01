@@ -21,5 +21,11 @@
    __DATA_DIRTY.__data: 0x10
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 69CE002A-9629-355E-BEC1-37315EA224A8
++  UUID: E0969BC3-D9F0-391F-84D6-599744FEE66D
+   Functions: 1831
+   Symbols:   2400
+   CStrings:  37
 
 ```

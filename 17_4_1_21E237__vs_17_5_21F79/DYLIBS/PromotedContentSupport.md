@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x83f
    __TEXT.__objc_methtype: 0x273
 
+   - /System/Library/PrivateFrameworks/APFoundation.framework/APFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6FC5E697-6595-316A-BFF0-7DEC771F095C
++  UUID: 9B452B86-929A-3661-9DC0-A02BECE00FC3
+   Functions: 82
+   Symbols:   102
+   CStrings:  191
+
 ```

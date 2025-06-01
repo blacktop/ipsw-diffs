@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B4A67737-3A89-3F04-9035-2B0A08530DC4
 -  Functions: 81
 -  Symbols:   75
--  CStrings:  342
+-  CStrings:  370
++  UUID: 7AE0081C-D6B2-30D0-8E23-C8F990FCF76A
 +  Functions: 90
 +  Symbols:   76
-+  CStrings:  352
++  CStrings:  380
  
 Symbols:
 + __os_log_error_impl

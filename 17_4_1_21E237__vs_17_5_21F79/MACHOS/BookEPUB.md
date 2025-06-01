@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D14B3E95-6119-381A-8DDB-40BBDD2B29E3
 -  Functions: 13324
 -  Symbols:   1417
--  CStrings:  5631
+-  CStrings:  6299
++  UUID: 11CB874B-19B6-3E4C-8B5E-BA98253BECCF
 +  Functions: 13179
 +  Symbols:   1414
-+  CStrings:  5621
++  CStrings:  6290
  
 Symbols:
 - _UIGraphicsBeginImageContext

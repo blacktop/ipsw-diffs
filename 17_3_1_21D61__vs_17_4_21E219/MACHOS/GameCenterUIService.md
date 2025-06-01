@@ -30,11 +30,15 @@
    __DATA.__data: 0x180
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26CF15EE-17A6-3BD4-B9C0-6E3AD421580D
++  UUID: B478B14B-FF5C-32D8-91A6-A87DEFC8A57D
    Functions: 5
    Symbols:   17
--  CStrings:  184
-+  CStrings:  185
+-  CStrings:  185
++  CStrings:  186
  
 CStrings:
 + "T@\"NSString\",?,R,C"

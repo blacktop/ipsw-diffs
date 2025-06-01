@@ -61,7 +61,6 @@
 +  __DATA_CONST.__objc_selrefs: 0xf878
    __DATA_CONST.__objc_arraydata: 0x12c8
    __AUTH_CONST.__const: 0x5ed0
-   __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__objc_const: 0x19350
 -  __AUTH_CONST.__cfstring: 0x27100
 +  __AUTH_CONST.__objc_const: 0x193e0
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BE965FC5-A3A9-3385-AF65-36711195FB1A
 -  Functions: 17849
 -  Symbols:   51712
--  CStrings:  21560
+-  CStrings:  26560
++  UUID: 4CE445F4-2110-3D2C-BCD7-DEA001E8CD93
 +  Functions: 17859
 +  Symbols:   51727
-+  CStrings:  21570
++  CStrings:  26572
  
 Symbols:
 + +[WFLinkMetadataRegistrationHelper registerWithBundle:forBundleIdentifier:error:]

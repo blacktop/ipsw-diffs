@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x9bf
    __TEXT.__oslogstring: 0x6b7
 
+   - /System/Library/PrivateFrameworks/TVRemoteUI.framework/TVRemoteUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 87C2F94C-CE95-3D32-BA2D-4084578F90D5
++  UUID: A173AAB8-D049-30B7-95E9-D5EB36A7C630
+   Functions: 136
+   Symbols:   1195
+   CStrings:  457
+
 ```

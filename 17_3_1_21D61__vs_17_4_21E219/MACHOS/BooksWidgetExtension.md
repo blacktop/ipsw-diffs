@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
    - @rpath/BookCore.framework/BookCore
+-  UUID: A1F34428-EB94-3026-903A-51E0807039AD
 -  Functions: 2220
++  UUID: 066D4477-287B-3FF8-8DB8-AA10032CCEF9
 +  Functions: 2231
    Symbols:   220
--  CStrings:  243
-+  CStrings:  267
+-  CStrings:  245
++  CStrings:  269
  
 Symbols:
 + _swift_getErrorValue

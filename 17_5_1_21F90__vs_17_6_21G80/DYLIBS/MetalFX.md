@@ -16,4 +16,13 @@
    __TEXT.__const: 0x1e0
    __TEXT.__unwind_info: 0x35c
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E885443B-33D9-3558-B576-22969A399364
++  UUID: 692CBC86-F360-3811-8013-749C37E92854
+   Functions: 349
+   Symbols:   1523
+   CStrings:  1046
+
 ```

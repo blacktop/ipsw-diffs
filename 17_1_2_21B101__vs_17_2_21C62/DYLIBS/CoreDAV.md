@@ -33,13 +33,16 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x538
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1812C10F-4543-315D-B1EC-7ACF4E24D7A7
++  UUID: 553821B9-B62D-3274-AAD8-BCF7BA0D56D5
    Functions: 1641
 -  Symbols:   6418
--  CStrings:  3360
+-  CStrings:  4087
 +  Symbols:   6419
-+  CStrings:  3361
++  CStrings:  4089
  
 Symbols:
 + _cdXMLCardDAVSyncWallpaper

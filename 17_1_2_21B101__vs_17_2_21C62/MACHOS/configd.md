@@ -45,11 +45,13 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 62A89A4D-28B7-34A9-BD2B-099C6DD4EFC3
 -  Functions: 873
++  UUID: 6E50B396-879F-31BA-9C39-A6D6565D56A5
 +  Functions: 886
    Symbols:   788
--  CStrings:  1576
-+  CStrings:  1582
+-  CStrings:  1869
++  CStrings:  1875
  
 CStrings:
 + "%s: %s (%d): effective %s (%d)"

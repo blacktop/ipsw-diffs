@@ -51,9 +51,8 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0xc0
 -  __AUTH_CONST.__const: 0x1748
-+  __AUTH_CONST.__const: 0x1770
-   __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__auth_got: 0xa58
++  __AUTH_CONST.__const: 0x1770
 +  __AUTH_CONST.__auth_got: 0xa50
    __AUTH.__objc_data: 0x0
    __DATA.__objc_protorefs: 0x28
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: DA39266A-7A28-37B6-9B1B-591CFBF0C893
 -  Functions: 1850
 -  Symbols:   899
--  CStrings:  568
+-  CStrings:  574
++  UUID: BD494BA2-1150-327B-B90D-F5C0EFC7F8F6
 +  Functions: 1858
 +  Symbols:   900
-+  CStrings:  573
++  CStrings:  579
  
 Symbols:
 + _symbolic _____ So30ACAccountCredentialRenewResultV

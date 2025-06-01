@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0xc8
    __DATA_CONST.__const: 0x198
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: ECC0191F-AFF7-3F2D-B32A-B9C15FC706FD
++  UUID: 96C30CF5-0BB6-3267-BBCB-1A07254CD64D
+   Functions: 1223
+   Symbols:   368
+   CStrings:  187
+
 ```

@@ -31,7 +31,7 @@
    __AUTH_CONST.__cfstring: 0x1c80
    __AUTH_CONST.__const: 0x260
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__auth_got: 0x528
    __AUTH.__objc_data: 0x960
 -  __DATA.__objc_protorefs: 0x8
@@ -44,12 +44,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B96E79C-80CC-3B4A-BE46-B0E7F2359EC9
 -  Functions: 679
 -  Symbols:   2901
--  CStrings:  1381
+-  CStrings:  1609
++  UUID: 2CE1A56F-991E-345A-A1FA-7B8D1955D406
 +  Functions: 675
 +  Symbols:   2893
-+  CStrings:  1382
++  CStrings:  1610
  
 Symbols:
 + __ZN2KBL26k_invalid_likelihood_valueE.830

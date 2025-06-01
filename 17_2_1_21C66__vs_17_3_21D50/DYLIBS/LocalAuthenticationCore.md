@@ -62,7 +62,6 @@
 -  __AUTH_CONST.__cfstring: 0x280
 -  __AUTH_CONST.__objc_const: 0x3f0
 -  __AUTH_CONST.__const: 0x130
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x370
 -  __AUTH.__objc_data: 0x470
 -  __AUTH.__data: 0xc0
@@ -79,7 +78,6 @@
 +  __AUTH_CONST.__const: 0xe48
 +  __AUTH_CONST.__objc_intobj: 0xc0
 +  __AUTH_CONST.__objc_arrayobj: 0x60
-+  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__auth_got: 0x748
 +  __AUTH.__objc_data: 0x12f0
 +  __AUTH.__data: 0x170
@@ -101,12 +99,14 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4F1EFB7-B61C-3618-8D7D-2240F17F5FE5
 -  Functions: 127
 -  Symbols:   704
--  CStrings:  294
+-  CStrings:  314
++  UUID: CACFD424-5F78-388A-A601-FC80F22AF892
 +  Functions: 1148
 +  Symbols:   4212
-+  CStrings:  1164
++  CStrings:  1260
  
 Symbols:
 + +[LACDTOEnvironmentProviderFactory environmentProviderWithLocationProvider:featureController:ratchetStateProvider:lostModeController:]

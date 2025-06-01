@@ -15,6 +15,15 @@
    __TEXT.__objc_classname: 0x385
    __TEXT.__objc_methtype: 0xe83
    __TEXT.__cstring: 0x2b52
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5E0C898-B894-312A-88EE-66362AF8EE41
++  UUID: 8DF9CA28-BA7A-3CEE-9DD1-049D57F4D19B
+   Functions: 1534
+   Symbols:   360
+   CStrings:  1778
 CStrings:
 + "initWithUnsignedLongLong:"
 - "initWithLongLong:"

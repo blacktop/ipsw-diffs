@@ -46,10 +46,12 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65A82368-6DDF-37E7-A5ED-40447977B622
++  UUID: 1715D565-B4D8-36D8-B32F-7EEA81A5E906
    Functions: 947
    Symbols:   3545
--  CStrings:  1746
-+  CStrings:  1747
+-  CStrings:  1899
++  CStrings:  1900
  
 Symbols:
 + ___59-[CIDVRGBCaptureSelfieVC _cancelFromInvalidFramesWithCode:]_block_invoke.539

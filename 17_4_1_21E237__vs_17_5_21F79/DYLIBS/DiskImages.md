@@ -18,11 +18,15 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__got: 0xe0
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FDAFC47E-DFF3-3517-A87E-D82879A334D3
++  UUID: CD9F305E-D01C-3413-AF98-75CE4128361D
    Functions: 1233
    Symbols:   355
--  CStrings:  681
-+  CStrings:  682
+-  CStrings:  1177
++  CStrings:  1178
  
 CStrings:
 + "Unsupported key encryption algorithm."

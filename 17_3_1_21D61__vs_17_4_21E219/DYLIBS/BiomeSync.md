@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/BiomeStorage.framework/BiomeStorage
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13645CE2-7126-3427-ABFF-1407A2CBCA6E
 -  Functions: 51
 -  Symbols:   253
--  CStrings:  101
+-  CStrings:  109
++  UUID: 91580F21-DCD7-3984-BCAF-33D022EEEF06
 +  Functions: 57
 +  Symbols:   268
-+  CStrings:  105
++  CStrings:  113
  
 Symbols:
 + -[BMSyncService remoteDevicesForAccount:error:]

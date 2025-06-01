@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_floatobj: 0x30
 +  __AUTH_CONST.__const: 0x3c8
    __AUTH_CONST.__objc_dictobj: 0x118
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0xa98
 -  __AUTH.__objc_data: 0x280
 -  __DATA.__objc_ivar: 0x1030
@@ -84,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7201D12-191D-335D-BA86-C3CA9B82B9B1
 -  Functions: 4636
 -  Symbols:   14456
--  CStrings:  7258
+-  CStrings:  8685
++  UUID: D5056909-DACE-3D16-8D83-74158CED5511
 +  Functions: 4687
 +  Symbols:   14638
-+  CStrings:  7377
++  CStrings:  8820
  
 Symbols:
 + -[AABRear started]

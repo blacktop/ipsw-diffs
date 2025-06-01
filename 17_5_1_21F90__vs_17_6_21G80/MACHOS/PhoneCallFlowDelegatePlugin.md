@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 919A6200-1E7D-339C-B8F4-E2A52F8B034B
 -  Functions: 39066
 -  Symbols:   233521
--  CStrings:  3810
+-  CStrings:  3860
++  UUID: E68DE0F4-FC2A-3118-9329-618FAD386CD6
 +  Functions: 39134
 +  Symbols:   233937
-+  CStrings:  3822
++  CStrings:  3872
  
 Symbols:
 + /Library/Caches/com.apple.xbs/Binaries/SiriPhone/install/TempContent/Objects/SiriPhone.build/PhoneCallFlowDelegatePlugin.build/Objects-normal/arm64e/PhoneIntentsRestrictedGuardFlow.o

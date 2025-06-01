@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22AA48BA-6AC8-3974-A59E-C31230F6DF99
 -  Functions: 1132
 -  Symbols:   4118
--  CStrings:  2896
+-  CStrings:  3360
++  UUID: 5347F4DC-365E-31B1-A3DD-6EE7872781E3
 +  Functions: 1133
 +  Symbols:   4137
-+  CStrings:  2903
++  CStrings:  3364
  
 Symbols:
 + -[SafariPasswordManagersController _setDefaultOTPAuthURLHandlersToApplicationWithBundleIdentifier:]

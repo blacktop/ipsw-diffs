@@ -54,7 +54,7 @@
    __AUTH_CONST.__objc_intobj: 0x300
    __AUTH_CONST.__objc_dictobj: 0x208
 
-   __AUTH_CONST.__auth_ptr: 0x1d0
+   __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__auth_got: 0x1808
    __AUTH.__objc_data: 0x51e0
 -  __AUTH.__data: 0x38c0
@@ -73,12 +73,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BDECA011-3A83-375C-9BD4-BBCAC5686144
 -  Functions: 10963
 -  Symbols:   19946
--  CStrings:  8862
++  UUID: 4D78A747-3A2E-3556-ABEE-BC4DA6D7F29F
 +  Functions: 10962
 +  Symbols:   19943
-+  CStrings:  8861
+   CStrings:  10143
  
 Symbols:
 + -[AMSUIOnboardingHeaderView _traitCollectionDidChange:]

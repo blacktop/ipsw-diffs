@@ -80,12 +80,14 @@
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: A99739C7-8E4C-3A01-B028-950629D6838A
 -  Functions: 9728
 -  Symbols:   2442
--  CStrings:  14045
+-  CStrings:  15355
++  UUID: CD8416CC-E166-36C9-A471-936158436155
 +  Functions: 9643
 +  Symbols:   2426
-+  CStrings:  13897
++  CStrings:  15173
  
 Symbols:
 - OBJC_IVAR_$_BKFlowingBookViewController._proofingVeil

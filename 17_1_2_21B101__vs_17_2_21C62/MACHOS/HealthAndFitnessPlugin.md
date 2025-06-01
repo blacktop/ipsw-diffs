@@ -24,12 +24,15 @@
    __DATA_CONST.__cfstring: 0xc0
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/BridgePreferences.framework/BridgePreferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A68ECA91-09EA-38F7-8799-3A0C133D24AE
++  UUID: B4BFF3CF-8E85-36EB-8F87-12D3A39FDB50
    Functions: 8
 -  Symbols:   20
 +  Symbols:   21
-   CStrings:  65
+   CStrings:  71
  
 Symbols:
 + _BPSGetActiveSetupCompletedDevice

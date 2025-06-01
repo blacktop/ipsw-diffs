@@ -69,9 +69,7 @@
    __AUTH_CONST.__objc_intobj: 0x5d0
    __AUTH_CONST.__objc_const: 0x7d8
    __AUTH_CONST.__objc_dictobj: 0x5c8
--  __AUTH_CONST.__auth_ptr: 0x1c0
 -  __AUTH_CONST.__const: 0xdf00
-+  __AUTH_CONST.__auth_ptr: 0x1d0
 +  __AUTH_CONST.__const: 0xe7f0
    __AUTH_CONST.__objc_arrayobj: 0x90
 -  __AUTH_CONST.__auth_got: 0x1ec8
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 691012BD-B390-3481-A208-617B6F08DA3A
 -  Functions: 18723
 -  Symbols:   29524
--  CStrings:  15589
+-  CStrings:  17805
++  UUID: 4E504C65-6BF1-3ADD-B33A-79C6D5171949
 +  Functions: 19181
 +  Symbols:   29641
-+  CStrings:  15629
++  CStrings:  17859
  
 Symbols:
 + +[SFAirDropUserDefaults_objc cellularUsageEnabled]

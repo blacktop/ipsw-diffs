@@ -49,7 +49,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x4350
 -  __AUTH_CONST.__objc_arrayobj: 0x22b0
 -  __AUTH_CONST.__const: 0x1170
--  __AUTH_CONST.__auth_ptr: 0xc0
 +  __DATA_CONST.__objc_const: 0x63cc8
 +  __DATA_CONST.__objc_selrefs: 0xfe20
 +  __DATA_CONST.__objc_arraydata: 0x3218
@@ -58,7 +57,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x4368
 +  __AUTH_CONST.__objc_arrayobj: 0x22c8
 +  __AUTH_CONST.__const: 0x11f0
-+  __AUTH_CONST.__auth_ptr: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_dictobj: 0x1798
    __AUTH_CONST.__objc_doubleobj: 0x960
@@ -86,12 +84,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 536BDEA8-9D99-3F7D-8FBD-B4F7F37D5E1B
 -  Functions: 18155
 -  Symbols:   65107
--  CStrings:  31457
+-  CStrings:  37566
++  UUID: C5B4C6F0-2695-3DE8-A37C-C781494B4214
 +  Functions: 18309
 +  Symbols:   65640
-+  CStrings:  31759
++  CStrings:  37940
  
 Symbols:
 + +[BWMultiCamConfiguration configurationWithUnsynchronizedActiveStreamsPortTypes:synchronizedActiveStreamsGroupsPortTypes:stereoVideoCaptureEnabled:]

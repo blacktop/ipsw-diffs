@@ -16,5 +16,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+   - /System/Library/PrivateFrameworks/SafariShared.framework/SafariShared
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4196B40B-3D95-31D3-80E2-38CFD660AB10
++  UUID: 72209FE5-7251-3A2F-B0A4-CF9B22FB33F5
+   Functions: 1
+   Symbols:   9
+   CStrings:  0
 
 ```

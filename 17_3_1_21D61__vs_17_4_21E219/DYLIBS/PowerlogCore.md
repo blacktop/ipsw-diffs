@@ -86,12 +86,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6A30FE14-8E85-36D9-8C81-2983FCA8405D
 -  Functions: 4439
 -  Symbols:   14424
--  CStrings:  14499
+-  CStrings:  24500
++  UUID: 5E8F95AE-3067-3A78-BAC7-6B0A454EFA2A
 +  Functions: 4563
 +  Symbols:   14776
-+  CStrings:  14824
++  CStrings:  25020
  
 Symbols:
 + +[PLEntry dataFormatForMetric:auxiliaryMetrics:]

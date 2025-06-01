@@ -101,12 +101,14 @@
    - @rpath/BooksUI.framework/BooksUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: DE548253-7DE1-3570-8AF0-B107276BD29C
 -  Functions: 10144
 -  Symbols:   1193
--  CStrings:  5971
+-  CStrings:  6515
++  UUID: 9F0BE1D0-A93E-3C92-BC73-20890B16E91A
 +  Functions: 11428
 +  Symbols:   1205
-+  CStrings:  6067
++  CStrings:  6612
  
 Symbols:
 + _BFMCatalogRequestRelationshipAuthors

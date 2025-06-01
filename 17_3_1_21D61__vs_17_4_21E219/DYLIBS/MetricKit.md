@@ -28,4 +28,13 @@
    __DATA.__data: 0x180
    __DATA_DIRTY.__objc_data: 0xb90
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libapp_launch_measurement.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 267D89DD-EB40-3778-9F78-3614A5C11AF8
++  UUID: 7D070A99-B36F-32A4-A91E-F2E476E72560
+   Functions: 510
+   Symbols:   1862
+   CStrings:  1117
+
 ```

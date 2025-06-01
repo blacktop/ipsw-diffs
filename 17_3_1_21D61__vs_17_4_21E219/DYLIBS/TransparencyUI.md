@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7AC0298D-7B53-3B8F-AC40-D73312B5373C
 -  Functions: 1476
 -  Symbols:   5333
--  CStrings:  2179
+-  CStrings:  2398
++  UUID: 395725A3-5FA7-35CC-90F1-5F29386BC971
 +  Functions: 1501
 +  Symbols:   5400
-+  CStrings:  2200
++  CStrings:  2418
  
 Symbols:
 + +[TUIUtils isHSA2]

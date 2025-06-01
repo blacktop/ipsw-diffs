@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9092F4CA-B141-3C8C-A6F8-4C4EC46F7C2D
 -  Functions: 1500
 -  Symbols:   5137
--  CStrings:  2162
+-  CStrings:  2464
++  UUID: 109775AC-6ABB-3785-BD4D-27531B47E84A
 +  Functions: 1501
 +  Symbols:   5139
-+  CStrings:  2161
++  CStrings:  2461
  
 Symbols:
 + -[CCSettings _isSiriMUXSupported]

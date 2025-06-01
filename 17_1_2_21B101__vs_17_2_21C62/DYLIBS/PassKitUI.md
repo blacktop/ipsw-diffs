@@ -65,14 +65,12 @@
 -  __DATA_CONST.__objc_arraydata: 0x538
 -  __AUTH_CONST.__const: 0x35a30
 -  __AUTH_CONST.__objc_const: 0x1c5d8
--  __AUTH_CONST.__auth_ptr: 0xbe0
 -  __AUTH_CONST.__cfstring: 0x321c0
 +  __DATA_CONST.__objc_const: 0xa0ee8
 +  __DATA_CONST.__objc_selrefs: 0x23388
 +  __DATA_CONST.__objc_arraydata: 0x540
 +  __AUTH_CONST.__const: 0x35ea0
 +  __AUTH_CONST.__objc_const: 0x1c9c8
-+  __AUTH_CONST.__auth_ptr: 0xc00
 +  __AUTH_CONST.__cfstring: 0x32740
    __AUTH_CONST.__objc_doubleobj: 0x1c0
 -  __AUTH_CONST.__objc_intobj: 0x1350
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84A35FB7-4347-3588-9FBA-D02CE098913E
 -  Functions: 55533
 -  Symbols:   107740
--  CStrings:  42167
+-  CStrings:  48581
++  UUID: 3586BC21-DB59-3666-B96C-401773D5C37F
 +  Functions: 55924
 +  Symbols:   108601
-+  CStrings:  42456
++  CStrings:  48914
  
 Symbols:
 + +[PKApplyVerificationTrialDepositAlertController alertControllerWithTitle:message:preferredStyle:]

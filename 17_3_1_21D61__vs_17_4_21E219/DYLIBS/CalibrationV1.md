@@ -28,7 +28,6 @@
    __AUTH_CONST.__cfstring: 0x920
    __AUTH_CONST.__objc_const: 0x2d0
    __AUTH_CONST.__const: 0x100
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x270
    __AUTH.__objc_data: 0x280
 -  __DATA.__objc_classrefs: 0x90
@@ -37,11 +36,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DDF924C6-6CEC-30B5-A9C5-FF96D3D1A604
++  UUID: 706A1A29-B28E-3689-BC5F-54F269902C1E
    Functions: 303
    Symbols:   127
--  CStrings:  987
-+  CStrings:  988
+-  CStrings:  1060
++  CStrings:  1061
  
 CStrings:
 + "T@\"NSString\",?,R,C"

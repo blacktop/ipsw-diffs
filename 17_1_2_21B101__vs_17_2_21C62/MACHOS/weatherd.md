@@ -86,12 +86,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DBC30A03-1AA8-37A7-B877-CA0F4A220FCD
 -  Functions: 1520
 -  Symbols:   1042
--  CStrings:  414
+-  CStrings:  415
++  UUID: A4D09E5E-5D9F-30CA-836E-7DDC535C2E2D
 +  Functions: 1548
 +  Symbols:   1036
-+  CStrings:  418
++  CStrings:  419
  
 Symbols:
 + _$s11WeatherCore27AppConfigurationManagerTypeP03appD0AA0cD0VvgTq

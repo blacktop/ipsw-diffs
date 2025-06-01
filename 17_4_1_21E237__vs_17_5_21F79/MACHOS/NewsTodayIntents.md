@@ -62,14 +62,16 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftVision.dylib
    - /usr/lib/swift/libswiftWebKit.dylib
-
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74774C76-A7E3-3A77-8C01-B59DF04C9064
++  UUID: 59E4E0C3-3DBF-34B5-95CE-CE8372BFA5B9
    Functions: 411
 -  Symbols:   194
--  CStrings:  749
+-  CStrings:  772
 +  Symbols:   198
-+  CStrings:  766
++  CStrings:  789
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftGLKit

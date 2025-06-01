@@ -35,7 +35,6 @@
    __AUTH_CONST.__objc_floatobj: 0xa0
 -  __AUTH_CONST.__objc_arrayobj: 0x18
 +  __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x9c0
    __AUTH.__objc_data: 0x1bd0
    __DATA.__got_weak: 0x8
@@ -50,11 +49,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2BD03FBA-6FD1-341D-97EC-1A12F94BD363
 -  Functions: 3853
++  UUID: 9FDB076D-51A7-3050-A3F9-199556AC91DC
 +  Functions: 3856
    Symbols:   505
--  CStrings:  1995
-+  CStrings:  1999
+-  CStrings:  2327
++  CStrings:  2335
  
 CStrings:
 + "J717"

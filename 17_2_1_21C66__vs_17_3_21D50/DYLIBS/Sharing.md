@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 601C3DE2-30CA-3AD4-9E53-BB1F560E16A3
 -  Functions: 19566
 -  Symbols:   29824
--  CStrings:  15698
+-  CStrings:  17949
++  UUID: 771249B4-15BB-3EFA-B27E-956A51EA032F
 +  Functions: 19571
 +  Symbols:   29840
-+  CStrings:  15716
++  CStrings:  17969
  
 Symbols:
 + -[SFDeviceOperationWiFiSetup retryJoinsCount]

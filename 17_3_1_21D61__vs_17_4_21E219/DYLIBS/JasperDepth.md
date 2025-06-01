@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_const: 0x990
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xb60
 +  __AUTH_CONST.__auth_got: 0xb68
    __AUTH.__data: 0x8
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3595B58E-A956-391B-A7E6-7BBB3EE85A78
 -  Functions: 1770
 -  Symbols:   4200
--  CStrings:  1851
+-  CStrings:  2195
++  UUID: 64B68390-931D-380E-893B-C946399C6DF0
 +  Functions: 1775
 +  Symbols:   4194
-+  CStrings:  1945
++  CStrings:  2288
  
 Symbols:
 + -[JDUserDefaults realTimeEventsToLog]

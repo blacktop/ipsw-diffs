@@ -39,11 +39,15 @@
    __DATA.__data: 0x6c0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E428C05-7BAD-317E-BDAC-CEF42279E0EB
++  UUID: B518671A-1900-3F25-8ABD-44388E65DBF4
    Functions: 112
    Symbols:   696
--  CStrings:  363
-+  CStrings:  366
+-  CStrings:  364
++  CStrings:  367
  
 CStrings:
 + "T@\"<INUICKPViewControllerAllocatingDelegate>\",?,W,N"

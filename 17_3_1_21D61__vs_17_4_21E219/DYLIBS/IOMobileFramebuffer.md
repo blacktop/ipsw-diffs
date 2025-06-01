@@ -18,9 +18,8 @@
    __DATA_CONST.__got: 0x80
    __DATA_CONST.__const: 0xd0
 -  __AUTH_CONST.__cfstring: 0x7c0
-+  __AUTH_CONST.__cfstring: 0x7e0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x3a8
++  __AUTH_CONST.__cfstring: 0x7e0
 +  __AUTH_CONST.__auth_got: 0x3b0
    __DATA.__data: 0x7c
    __DATA.__bss: 0x4
@@ -29,12 +28,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
    - /usr/lib/libSystem.B.dylib
+-  UUID: 57DF5362-5D2D-3B40-9A7B-DB7322D84238
 -  Functions: 363
 -  Symbols:   733
--  CStrings:  181
+-  CStrings:  243
++  UUID: 3A2C5C16-D103-3932-8EC0-C3AE4A128EF5
 +  Functions: 369
 +  Symbols:   743
-+  CStrings:  184
++  CStrings:  247
  
 Symbols:
 + _IOMobileFrameBufferGetAutoLuminanceBoost

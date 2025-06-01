@@ -53,7 +53,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xdb0
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_const: 0x240
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__cfstring: 0x105e0
 +  __AUTH_CONST.__cfstring: 0x105c0
    __AUTH_CONST.__objc_doubleobj: 0x3c0
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 897B9AE7-FADE-3C25-BD0D-2CCFF63F1DE1
 -  Functions: 9737
 -  Symbols:   35859
--  CStrings:  13852
+-  CStrings:  15947
++  UUID: C8E1317F-253F-34C3-B9B0-641E0423496A
 +  Functions: 9756
 +  Symbols:   35871
-+  CStrings:  13882
++  CStrings:  15976
  
 Symbols:
 + -[VCPCNNPetsDetectorV2 dealloc]

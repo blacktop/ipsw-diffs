@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x228
    __AUTH_CONST.__const: 0xbe0
    __AUTH_CONST.__objc_doubleobj: 0x4d0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xc10
 -  __AUTH.__objc_data: 0x3480
 -  __DATA.__objc_ivar: 0x8fc
@@ -76,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B6C95123-34C5-3089-8EF0-F03B9B859257
 -  Functions: 3140
 -  Symbols:   11228
--  CStrings:  6494
+-  CStrings:  7798
++  UUID: 09660E65-2300-36EF-9272-6AF7DECE9F2F
 +  Functions: 3154
 +  Symbols:   11272
-+  CStrings:  6521
++  CStrings:  7832
  
 Symbols:
 + -[SBFWakeAnimationSettings setSpeedMultiplierForMagicKeyboardExtended:]

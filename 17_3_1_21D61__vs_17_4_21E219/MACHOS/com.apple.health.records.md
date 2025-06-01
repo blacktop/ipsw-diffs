@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/HealthRecordsExtraction.framework/HealthRecordsExtraction
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 956DEEDF-5AE6-3706-9770-488BF45E3232
 -  Functions: 53
 -  Symbols:   55
--  CStrings:  159
+-  CStrings:  163
++  UUID: F7697D84-73C6-39CB-97FB-2D5370787604
 +  Functions: 55
 +  Symbols:   56
-+  CStrings:  167
++  CStrings:  171
  
 Symbols:
 + _OBJC_CLASS_$_NSUUID

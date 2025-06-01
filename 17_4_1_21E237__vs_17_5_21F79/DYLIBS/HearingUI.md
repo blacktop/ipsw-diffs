@@ -45,7 +45,6 @@
    __AUTH_CONST.__const: 0x798
    __AUTH_CONST.__objc_intobj: 0x3f0
    __AUTH_CONST.__objc_arrayobj: 0x90
-
    __AUTH_CONST.__auth_got: 0x870
    __AUTH.__objc_data: 0xc78
    __AUTH.__data: 0x348
@@ -58,12 +57,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA4DA6DE-D6B3-3DA7-8017-2822393735A0
 -  Functions: 1208
 -  Symbols:   4001
--  CStrings:  1878
+-  CStrings:  2104
++  UUID: 273253A9-DB42-342E-A667-C6DF5537DCDF
 +  Functions: 1214
 +  Symbols:   4016
-+  CStrings:  1883
++  CStrings:  2112
  
 Symbols:
 + -[HUICCBackgroundSoundsButton isListening]

@@ -13,7 +13,7 @@
    __TEXT.__objc_methname: 0x239e
    __TEXT.__objc_methtype: 0xe92
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__auth_got: 0x4a0
    __DATA.__objc_ivar: 0xe0
 -  __DATA.__data: 0x300
@@ -29,5 +29,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4BB38AAE-6EAF-305B-911A-BA772A474DC8
++  UUID: 4C7A3505-4C1C-3724-ACDA-73578B00D0FF
+   Functions: 525
+   Symbols:   1774
+   CStrings:  865
 
 ```

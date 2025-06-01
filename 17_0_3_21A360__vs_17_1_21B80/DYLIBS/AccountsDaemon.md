@@ -51,10 +51,9 @@
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x420
-+  __AUTH_CONST.__const: 0x440
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x628
 -  __AUTH.__objc_data: 0x370
++  __AUTH_CONST.__const: 0x440
 +  __AUTH_CONST.__auth_got: 0x638
 +  __AUTH.__objc_data: 0x3c0
    __DATA.__objc_protorefs: 0x28
@@ -67,12 +66,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 7F8DF087-C3D0-3BD9-9FC3-58FA29B450B7
 -  Functions: 1932
 -  Symbols:   6544
--  CStrings:  2927
+-  CStrings:  3305
++  UUID: ED58E738-9ACF-3BDB-A18E-E58D2DB44C49
 +  Functions: 1954
 +  Symbols:   6624
-+  CStrings:  2980
++  CStrings:  3379
  
 Symbols:
 + +[ACDPluginAnalyticsSender _selected_PostTapToRadar:description:]

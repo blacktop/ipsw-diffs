@@ -17,11 +17,15 @@
    __TEXT.__oslogstring: 0x1b86
    __TEXT.__unwind_info: 0x6c98
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CFEAABE4-9FE7-3175-AED7-B4A39E33A5AF
++  UUID: BBECED93-080E-31C5-9838-8777C5C7AF8C
    Functions: 9446
    Symbols:   268
--  CStrings:  3631
-+  CStrings:  3637
+-  CStrings:  3660
++  CStrings:  3666
  
 CStrings:
 + "martyIsBicycle"

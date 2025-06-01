@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0x24a0
    __TEXT.__objc_classname: 0x487
    __TEXT.__objc_methname: 0x61ee
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: DC64831E-683E-341E-8AB3-207AA30BF08C
++  UUID: 74004E0B-44D0-355A-AB1C-07989B82D2CA
+   Functions: 2587
+   Symbols:   3629
+   CStrings:  2206
 Symbols:
 + __OBJC_$_PROP_LIST_SESSession.319
 + ___28-[SESSessionManager connect]_block_invoke.287

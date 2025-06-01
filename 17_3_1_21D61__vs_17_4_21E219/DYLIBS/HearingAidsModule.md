@@ -36,11 +36,15 @@
    __DATA.__data: 0x1f8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0FDC328-BE04-3817-9084-1AD3F4358BF0
++  UUID: 75731D91-5B84-39BF-8B0F-DA944E59231B
    Functions: 67
    Symbols:   95
--  CStrings:  279
-+  CStrings:  281
+-  CStrings:  298
++  CStrings:  300
  
 CStrings:
 + "T@\"NSString\",?,R,C"

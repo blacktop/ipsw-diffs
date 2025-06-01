@@ -71,12 +71,14 @@
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 13535557-4EA8-3419-B788-8F7247272723
 -  Functions: 1737
 -  Symbols:   4100
--  CStrings:  4533
+-  CStrings:  4664
++  UUID: 8694DFFC-749F-3F97-864D-01EA6A3A79E1
 +  Functions: 1758
 +  Symbols:   4140
-+  CStrings:  4582
++  CStrings:  4716
  
 Symbols:
 + +[DNSHeuristics clearNetworkAsFiltered:]

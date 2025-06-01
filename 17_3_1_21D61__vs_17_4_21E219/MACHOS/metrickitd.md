@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/MetricKitCore.framework/MetricKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7753B82E-7AD5-35DF-9E95-8650A87E4975
++  UUID: 5949FEE6-A1D6-343B-AEA0-014235C6828A
+   Functions: 2
+   Symbols:   16
+   CStrings:  9
 
 ```

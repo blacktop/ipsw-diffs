@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__cfstring: 0xed80
    __AUTH_CONST.__const: 0x18a0
    __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x108
 -  __AUTH_CONST.__auth_got: 0xcc0
 +  __AUTH_CONST.__auth_got: 0xce8
@@ -59,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EDD60216-CCEA-344E-BDD6-77AD32AD63B4
 -  Functions: 6657
 -  Symbols:   21189
--  CStrings:  9075
+-  CStrings:  10973
++  UUID: 5D74F6BB-4615-3A58-A4FA-0A5F4B2B567D
 +  Functions: 6661
 +  Symbols:   21204
-+  CStrings:  9076
++  CStrings:  10976
  
 Symbols:
 + -[_FPItemDecorationValueResolver _formatNameComponents:]

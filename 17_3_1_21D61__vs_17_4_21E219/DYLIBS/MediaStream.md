@@ -48,11 +48,15 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0E7C362-F11E-37A7-A7C3-48023CEB9339
++  UUID: A558D011-E5B2-33EC-B252-5C9CBD7403CE
    Functions: 585
    Symbols:   2188
--  CStrings:  1056
-+  CStrings:  1057
+-  CStrings:  1179
++  CStrings:  1180
  
 Symbols:
 + ___51-[MSConnection serverSideConfigurationForPersonID:]_block_invoke.78

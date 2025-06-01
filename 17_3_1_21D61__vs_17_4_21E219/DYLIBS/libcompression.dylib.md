@@ -20,8 +20,10 @@
    __DATA_DIRTY.__const: 0x10a0
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblzma.5.dylib
+-  UUID: 1B276E2C-DE2D-3E6A-9CEC-5BB14D4BC468
 -  Functions: 548
 -  Symbols:   1115
++  UUID: D2E872EB-9F38-3D3A-BF4C-25C3972D21F5
 +  Functions: 557
 +  Symbols:   1128
    CStrings:  49

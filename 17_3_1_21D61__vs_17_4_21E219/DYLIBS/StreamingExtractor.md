@@ -39,10 +39,12 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00139926-8057-36EC-AFA6-ACB3A2BDDF5D
++  UUID: 42B43344-CD08-36DC-A1E3-DCB02091CB7C
    Functions: 230
    Symbols:   813
--  CStrings:  466
-+  CStrings:  468
+-  CStrings:  516
++  CStrings:  518
  
 CStrings:
 + "T@\"NSString\",?,R,C"

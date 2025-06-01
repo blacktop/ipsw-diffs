@@ -38,9 +38,9 @@
 +  __AUTH_CONST.__cfstring: 0xa940
    __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0x20
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x540
    __DATA.__objc_protorefs: 0x78
+   __DATA.__objc_classrefs: 0x688
 
    __DATA.__thread_vars: 0x18
    __DATA.__thread_bss: 0x1
@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBC1FBDB-99A7-3229-9F4A-37432501BCD3
 -  Functions: 4790
 -  Symbols:   14962
--  CStrings:  6789
+-  CStrings:  8136
++  UUID: 9964138B-1236-344D-9A39-A7CB0EB4687E
 +  Functions: 4792
 +  Symbols:   14967
-+  CStrings:  6797
++  CStrings:  8151
  
 Symbols:
 + -[MTLToolsDevice supportsPartialRenderMemoryBarrier]

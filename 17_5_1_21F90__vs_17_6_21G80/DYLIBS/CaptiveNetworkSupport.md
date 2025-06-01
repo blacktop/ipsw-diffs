@@ -40,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 42C82C8C-FF24-3AFF-BFC3-61334FA95BFA
 -  Functions: 690
 -  Symbols:   2078
--  CStrings:  1155
+-  CStrings:  1398
++  UUID: 04173745-3CD4-38DB-ABC0-9827611B9087
 +  Functions: 688
 +  Symbols:   2070
-+  CStrings:  1150
++  CStrings:  1393
  
 Symbols:
 - GCC_except_table8

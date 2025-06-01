@@ -61,9 +61,8 @@
    __DATA_CONST.__objc_arraydata: 0x1868
    __AUTH_CONST.__objc_const: 0x17168
 -  __AUTH_CONST.__const: 0xe670
-+  __AUTH_CONST.__const: 0xe6e0
-   __AUTH_CONST.__auth_ptr: 0x160
 -  __AUTH_CONST.__cfstring: 0x2c8a0
++  __AUTH_CONST.__const: 0xe6e0
 +  __AUTH_CONST.__cfstring: 0x2c8c0
    __AUTH_CONST.__objc_arrayobj: 0xee8
    __AUTH_CONST.__objc_dictobj: 0x140
@@ -95,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 970A50E9-33F9-3BB4-ADB6-D97839A64420
 -  Functions: 36860
 -  Symbols:   104894
--  CStrings:  47639
+-  CStrings:  53340
++  UUID: DFEA6668-DAD3-37A7-B021-C50C689315D2
 +  Functions: 36877
 +  Symbols:   104901
-+  CStrings:  47653
++  CStrings:  53355
  
 Symbols:
 + -[PUAssetPickerContainerController _isConfiguredForRetailExperience]

@@ -58,7 +58,6 @@
 -  __AUTH_CONST.__cfstring: 0x540
 -  __AUTH_CONST.__objc_const: 0x608
 -  __AUTH_CONST.__const: 0x77d8
--  __AUTH_CONST.__auth_ptr: 0x170
 -  __AUTH_CONST.__auth_got: 0xd70
 -  __AUTH.__objc_data: 0x1310
 -  __AUTH.__data: 0x1da8
@@ -75,7 +74,6 @@
 +  __AUTH_CONST.__cfstring: 0x520
 +  __AUTH_CONST.__objc_const: 0x5c0
 +  __AUTH_CONST.__const: 0x7858
-+  __AUTH_CONST.__auth_ptr: 0x160
 +  __AUTH_CONST.__auth_got: 0xd80
 +  __AUTH.__objc_data: 0x1240
 +  __AUTH.__data: 0x1ce8
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 004F2B28-6589-390D-A1CE-8EF44C8161BA
 -  Functions: 5957
 -  Symbols:   1841
--  CStrings:  1098
+-  CStrings:  1140
++  UUID: 47E3515E-7666-318B-BC0E-C7658997AD0B
 +  Functions: 5914
 +  Symbols:   1817
-+  CStrings:  1114
++  CStrings:  1155
  
 Symbols:
 + _SecTaskCopyValueForEntitlement

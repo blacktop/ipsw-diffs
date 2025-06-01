@@ -38,6 +38,15 @@
    __DATA.__bss: 0x5270
    __DATA.__common: 0x8c8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84253D62-B63D-38FE-8C4A-240BB5BA76F9
++  UUID: 517A5458-2F16-3633-A7C0-5150FE50D97D
+   Functions: 6653
+   Symbols:   945
+   CStrings:  965
 CStrings:
 + "LinkProgrammaticInterface-146.60.7.1.2"
 + "metadataByAddingEffectiveBundleIdentifiers:mangledTypeNameByBundleIdentifier:"

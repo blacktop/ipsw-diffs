@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8A2FBE4-3288-3078-AF77-E80668D2B33C
 -  Functions: 2382
 -  Symbols:   8933
--  CStrings:  4484
+-  CStrings:  5527
++  UUID: 15E08C5D-C60D-34CA-B8D9-C89C4F5FCD6F
 +  Functions: 2383
 +  Symbols:   8939
-+  CStrings:  4507
++  CStrings:  5560
  
 Symbols:
 + -[WLKAMSMediaProxy .cxx_destruct]

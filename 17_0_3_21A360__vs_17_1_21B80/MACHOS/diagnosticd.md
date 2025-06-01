@@ -45,12 +45,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8CA5FE1-EBCA-393C-977C-F6E38C7071F5
 -  Functions: 63
 -  Symbols:   247
--  CStrings:  221
+-  CStrings:  292
++  UUID: 7DA3943D-40F8-38CD-91EC-4B11458DF341
 +  Functions: 72
 +  Symbols:   255
-+  CStrings:  231
++  CStrings:  302
  
 Symbols:
 + _asprintf

@@ -44,7 +44,6 @@
    __DATA_CONST.__objc_selrefs: 0x710
 -  __AUTH_CONST.__const: 0x2690
 +  __AUTH_CONST.__const: 0x2770
-   __AUTH_CONST.__auth_ptr: 0x80
    __AUTH_CONST.__cfstring: 0x140
 -  __AUTH_CONST.__auth_got: 0xcf8
 +  __AUTH_CONST.__auth_got: 0xd00
@@ -72,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 555F5B94-BED3-3159-AF96-06366D47AD3F
 -  Functions: 1314
 -  Symbols:   910
--  CStrings:  516
+-  CStrings:  526
++  UUID: ACDC095B-E92B-34DB-BDC8-A11393282270
 +  Functions: 1333
 +  Symbols:   912
-+  CStrings:  519
++  CStrings:  529
  
 Symbols:
 + _associated conformance 27ActionButtonConfigurationUI8FeaturesOSHAASQ

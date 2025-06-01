@@ -27,12 +27,14 @@
    __DATA.__bss: 0x4
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
+-  UUID: CDEAA1FE-8C96-3C70-8247-35E557A9BF62
 -  Functions: 21
 -  Symbols:   78
--  CStrings:  60
+-  CStrings:  68
++  UUID: A5CBC0D8-51D7-3E8B-9E69-D91B4319261F
 +  Functions: 22
 +  Symbols:   82
-+  CStrings:  61
++  CStrings:  69
  
 Symbols:
 + __NSConcreteStackBlock

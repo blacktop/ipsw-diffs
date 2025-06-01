@@ -51,9 +51,8 @@
    __AUTH_CONST.__objc_const: 0x2d0
    __AUTH_CONST.__cfstring: 0x3c0
 -  __AUTH_CONST.__const: 0x4d90
-+  __AUTH_CONST.__const: 0x4db0
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0xfa0
++  __AUTH_CONST.__const: 0x4db0
 +  __AUTH_CONST.__auth_got: 0xf80
    __AUTH.__objc_data: 0x1e0
 -  __AUTH.__const_weak: 0x13a78
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 774A72AE-B157-3171-A12D-53EDB81F985B
 -  Functions: 12300
 -  Symbols:   19903
--  CStrings:  5274
+-  CStrings:  5304
++  UUID: EBB47F2E-6D9B-3754-8513-364009FCBC49
 +  Functions: 12480
 +  Symbols:   19887
-+  CStrings:  5277
++  CStrings:  5307
  
 Symbols:
 + -[SiriTTSTrainerSession uninstallTrainingAsset:completion:]

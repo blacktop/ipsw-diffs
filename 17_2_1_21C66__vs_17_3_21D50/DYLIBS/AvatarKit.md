@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1CFD2996-F708-321F-98D5-C26274ABBD23
 -  Functions: 2327
 -  Symbols:   25630
--  CStrings:  7714
+-  CStrings:  11862
++  UUID: 6ABA1B13-5DA7-3DC0-9DA3-C7A8F8DFE754
 +  Functions: 2326
 +  Symbols:   25627
-+  CStrings:  7713
++  CStrings:  11860
  
 Symbols:
 + -[SCNRenderer(AVTSceneRenderer) avt_simdUnprojectPoint:]

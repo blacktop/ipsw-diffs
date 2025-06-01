@@ -64,8 +64,6 @@
 -  __AUTH_CONST.__const: 0x3df00
 +  __AUTH_CONST.__const: 0x3e1f8
    __AUTH_CONST.__objc_arrayobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x1570
-+  __AUTH_CONST.__auth_ptr: 0x1578
    __AUTH_CONST.__auth_got: 0x37f0
 -  __AUTH.__objc_data: 0x2a68
 -  __AUTH.__data: 0xe008
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E86E252B-2090-3B2F-8AA7-8C27A0DB0DD1
 -  Functions: 42926
 -  Symbols:   11266
--  CStrings:  6400
+-  CStrings:  6506
++  UUID: FF928E30-87DE-3A70-B47D-4A3A8EC201D3
 +  Functions: 43036
 +  Symbols:   11279
-+  CStrings:  6443
++  CStrings:  6549
  
 Symbols:
 + __DATA__TtC19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshots

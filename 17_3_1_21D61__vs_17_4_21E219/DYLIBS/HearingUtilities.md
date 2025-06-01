@@ -70,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A43B16FE-7F8A-3CEB-B990-49745A2E3B8F
 -  Functions: 2620
 -  Symbols:   8770
--  CStrings:  4306
+-  CStrings:  5241
++  UUID: A0DBFCC7-EB1D-35D5-94D5-70DCAD37C471
 +  Functions: 2680
 +  Symbols:   8932
-+  CStrings:  4399
++  CStrings:  5353
  
 Symbols:
 + -[AXHAController processPropertyUpdates:isLocal:]

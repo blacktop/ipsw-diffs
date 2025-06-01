@@ -30,7 +30,7 @@
 +  __AUTH_CONST.__const: 0x96f0
    __AUTH_CONST.__cfstring: 0x3a0
    __AUTH_CONST.__objc_const: 0x2d0
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__auth_got: 0x680
 
    __DATA.__objc_classrefs: 0x78
    __DATA.__objc_superrefs: 0x18
@@ -44,11 +44,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E4CD55CD-3534-3366-8351-6AC7D0E60D53
 -  Functions: 9427
++  UUID: CFEAABE4-9FE7-3175-AED7-B4A39E33A5AF
 +  Functions: 9446
    Symbols:   268
--  CStrings:  3627
-+  CStrings:  3631
+-  CStrings:  3656
++  CStrings:  3660
  
 CStrings:
 + "asymmetryProbability"

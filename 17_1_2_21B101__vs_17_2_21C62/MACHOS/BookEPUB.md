@@ -140,12 +140,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B94ED94-9030-3504-863C-F07FEBE1CCBF
 -  Functions: 14819
 -  Symbols:   1388
--  CStrings:  5606
+-  CStrings:  6248
++  UUID: 10DFD0FE-06A1-3E56-9CE2-FCB2228F41AA
 +  Functions: 13294
 +  Symbols:   1416
-+  CStrings:  5596
++  CStrings:  6264
  
 Symbols:
 + OBJC_IVAR_$_BEURLHandler._cacheItem

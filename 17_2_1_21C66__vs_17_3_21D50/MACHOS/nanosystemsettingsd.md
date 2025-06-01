@@ -13,11 +13,15 @@
    __TEXT.__const: 0x28
    __TEXT.__gcc_except_tab: 0xac
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 55266A20-0AE3-3B8C-A5CD-702DF726E373
++  UUID: 4EF234CD-F65A-3995-9645-DE0A374905D3
    Functions: 522
    Symbols:   320
--  CStrings:  1498
-+  CStrings:  1499
+-  CStrings:  1645
++  CStrings:  1646
  
 CStrings:
 + "Launching; \"NanoSystemSettingsDaemon-336\" \"1910\""

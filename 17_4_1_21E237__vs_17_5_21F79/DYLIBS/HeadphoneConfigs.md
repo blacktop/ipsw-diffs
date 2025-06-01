@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7FB4E03-9212-3CFC-8F1A-8DE9AC125D52
 -  Functions: 2474
 -  Symbols:   5333
--  CStrings:  3654
+-  CStrings:  4656
++  UUID: 3D41CB52-A40F-34B9-8E7B-7B18E1262900
 +  Functions: 2515
 +  Symbols:   5362
-+  CStrings:  3674
++  CStrings:  4685
  
 Symbols:
 + -[BTSDeviceConfigController extraUnpairWarningMessage]

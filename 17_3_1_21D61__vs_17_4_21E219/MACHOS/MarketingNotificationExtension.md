@@ -14,7 +14,11 @@
    __DATA_CONST.__auth_got: 0x8
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C61DA0A3-3DFC-3264-B3C1-B909D556FB8E
++  UUID: 4A9DE44E-7786-3D03-A4BB-80536D49F229
    Functions: 0
    Symbols:   9
 -  CStrings:  57

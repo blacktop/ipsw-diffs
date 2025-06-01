@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1247FD3E-95EC-35F7-86F3-727A14628824
 -  Functions: 26754
 -  Symbols:   2804
--  CStrings:  11542
+-  CStrings:  12152
++  UUID: B3A3203F-E73D-3B94-9339-3C10AA4D3552
 +  Functions: 26765
 +  Symbols:   2806
-+  CStrings:  11547
++  CStrings:  12157
  
 Symbols:
 + _$s19ReminderKitInternal16RDIDispatchQueueC07utilityE0So17OS_dispatch_queueCvau

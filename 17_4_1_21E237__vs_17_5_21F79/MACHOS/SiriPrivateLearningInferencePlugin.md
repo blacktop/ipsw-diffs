@@ -39,7 +39,11 @@
    __DATA.__common: 0x68
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 419DB2A1-4A26-330C-A7EB-452EEBD16917
++  UUID: E2B316D4-E302-3626-B67E-83EE29D64A4F
    Functions: 580
    Symbols:   108
 -  CStrings:  131

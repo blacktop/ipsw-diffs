@@ -49,12 +49,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: ED136767-165B-3846-84E1-22617BAB371A
 -  Functions: 2416
 -  Symbols:   8370
--  CStrings:  4377
+-  CStrings:  4750
++  UUID: B785291A-67AC-3F95-89F8-566DAC7E8716
 +  Functions: 2413
 +  Symbols:   8359
-+  CStrings:  4378
++  CStrings:  4751
  
 Symbols:
 + GCC_except_table28

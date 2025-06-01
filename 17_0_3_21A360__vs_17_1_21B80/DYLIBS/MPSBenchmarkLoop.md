@@ -22,11 +22,15 @@
    __DATA_CONST.__objc_arraydata: 0x40
    __AUTH_CONST.__cfstring: 0x7e0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C99DFE50-A6D2-3F25-9B23-A3092BED3B48
++  UUID: 839BB51A-13EA-384D-B614-BAFCC94F5C21
    Functions: 297
    Symbols:   169
--  CStrings:  1679
-+  CStrings:  1680
+-  CStrings:  1742
++  CStrings:  1743
  
 CStrings:
 + "supportsPartialRenderMemoryBarrier"

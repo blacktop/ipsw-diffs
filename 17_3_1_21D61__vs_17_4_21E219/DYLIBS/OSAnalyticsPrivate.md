@@ -29,8 +29,8 @@
    __AUTH_CONST.__cfstring: 0x2200
    __AUTH_CONST.__objc_const: 0x0
 
+   __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0x4e8
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0x128
@@ -39,11 +39,15 @@
    __DATA.__data: 0x1e0
    __DATA_DIRTY.__const: 0x40
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8FAC2B47-F88A-3678-98B4-E6B426F2BFD9
++  UUID: 36D7FCAC-43ED-39CD-85F9-67028836B2CF
    Functions: 295
    Symbols:   1387
--  CStrings:  1154
-+  CStrings:  1155
+-  CStrings:  1426
++  CStrings:  1427
  
 Symbols:
 + ___42-[PCCProxyingDevice finishRequest:result:]_block_invoke.416

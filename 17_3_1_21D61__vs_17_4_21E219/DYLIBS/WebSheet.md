@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/WebUI.framework/WebUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26147A9E-57A9-3A22-9635-8262D2AD794E
 -  Functions: 148
 -  Symbols:   821
--  CStrings:  694
+-  CStrings:  767
++  UUID: 9E8E8EF8-5783-31D0-8ADA-38B7DC4FE462
 +  Functions: 149
 +  Symbols:   825
-+  CStrings:  699
++  CStrings:  773
  
 Symbols:
 + -[WSWebSheetView isSetupAssistantRunning]

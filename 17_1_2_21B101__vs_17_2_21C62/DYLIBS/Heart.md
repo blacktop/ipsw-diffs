@@ -37,9 +37,9 @@
    __AUTH_CONST.__objc_const: 0x820
 -  __AUTH_CONST.__const: 0xd658
 +  __AUTH_CONST.__const: 0xd680
-   __AUTH_CONST.__auth_ptr: 0x4b8
    __AUTH_CONST.__auth_got: 0x2f58
    __AUTH.__objc_data: 0x5168
+   __AUTH.__data: 0x3a00
 
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x8
@@ -53,11 +53,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F8F0704F-5426-357C-BEF0-9F395FE3B7C8
 -  Functions: 8881
++  UUID: 28E9608E-B6C2-317B-B53A-16F1D3EADC72
 +  Functions: 8882
    Symbols:   3070
--  CStrings:  2552
-+  CStrings:  2555
+-  CStrings:  2558
++  CStrings:  2561
  
 CStrings:
 + "[%{public}s] Creating real state publisher for non-internal install"

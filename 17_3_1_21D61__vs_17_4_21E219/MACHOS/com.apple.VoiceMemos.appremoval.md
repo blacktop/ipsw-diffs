@@ -28,11 +28,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F19E720C-E596-32CB-ABB0-B77D9D5AAFE7
++  UUID: D052870C-437F-32F2-851E-DA8F565A8985
    Functions: 15
    Symbols:   42
--  CStrings:  79
-+  CStrings:  80
+-  CStrings:  83
++  CStrings:  84
  
 CStrings:
 + "T@\"NSString\",?,R,C"

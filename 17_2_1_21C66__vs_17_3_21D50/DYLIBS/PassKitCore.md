@@ -45,7 +45,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x1e4d8
    __DATA_CONST.__objc_arraydata: 0x2fe8
    __AUTH_CONST.__const: 0xf0f0
-   __AUTH_CONST.__auth_ptr: 0xc0
    __AUTH_CONST.__objc_const: 0x2a470
 -  __AUTH_CONST.__cfstring: 0x60680
 +  __AUTH_CONST.__cfstring: 0x60640
@@ -56,12 +55,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14EE39D8-4A1C-3DA0-9ED8-A34F2D783D24
 -  Functions: 39329
 -  Symbols:   109560
--  CStrings:  45726
+-  CStrings:  58066
++  UUID: D47DAFEA-8244-37D0-89A3-41EA366FC4F6
 +  Functions: 39328
 +  Symbols:   109558
-+  CStrings:  45723
++  CStrings:  58061
  
 Symbols:
 + _PKServiceProviderOrderDeviceSelectedDPANID

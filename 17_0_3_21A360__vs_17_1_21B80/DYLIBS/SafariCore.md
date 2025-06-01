@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x468
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x950
 -  __AUTH.__objc_data: 0x1720
 +  __AUTH_CONST.__auth_got: 0x970
@@ -85,12 +84,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DA3EE363-7763-32B7-9C7D-6D3D171FB7F2
 -  Functions: 3769
 -  Symbols:   12672
--  CStrings:  5994
+-  CStrings:  7509
++  UUID: 259940F7-EBDA-3554-A4B7-3AC090393CDA
 +  Functions: 3816
 +  Symbols:   12818
-+  CStrings:  6043
++  CStrings:  7563
  
 Symbols:
 + +[WBSFeatureAvailability shouldShowInternalUI]

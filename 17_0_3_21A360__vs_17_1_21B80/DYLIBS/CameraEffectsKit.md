@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F45BE3F-69DA-3D5E-B002-0736EF881C0D
 -  Functions: 7212
 -  Symbols:   25180
--  CStrings:  11171
+-  CStrings:  11991
++  UUID: BBA42475-A38C-36D4-A69D-8B48A4147143
 +  Functions: 7213
 +  Symbols:   25183
-+  CStrings:  11172
++  CStrings:  11992
  
 Symbols:
 + +[JFXOrientationMonitor uninitialize]

@@ -57,11 +57,13 @@
    - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 534C8C69-0CCE-3B6A-A4AD-7FA22E15C20B
 -  Functions: 66
++  UUID: C1FFD617-664D-3B4F-8D34-5F5CC9C9BDAF
 +  Functions: 74
    Symbols:   105
--  CStrings:  238
-+  CStrings:  261
+-  CStrings:  275
++  CStrings:  305
  
 Symbols:
 + _dispatch_queue_create

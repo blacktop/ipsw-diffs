@@ -26,4 +26,13 @@
    __DATA.__bss: 0x40
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/SpotlightServices.framework/SpotlightServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4CF89D5F-7D39-3629-B0AD-638006318E3E
++  UUID: F5C4D676-06D3-3818-B84A-A8ED779160C5
+   Functions: 40
+   Symbols:   331
+   CStrings:  218
+
 ```

@@ -36,12 +36,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2BBF179D-6C0D-3DFA-AEB4-E85855235BE3
 -  Functions: 680
 -  Symbols:   2281
--  CStrings:  1338
+-  CStrings:  1649
++  UUID: 6A7489EB-70C3-31E4-9709-625D38E08273
 +  Functions: 681
 +  Symbols:   2283
-+  CStrings:  1339
++  CStrings:  1650
  
 Symbols:
 + +[PLModelingUtilities isAppleVision]

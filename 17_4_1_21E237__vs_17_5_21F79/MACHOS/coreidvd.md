@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 666E6CE3-BEBE-3E03-9EFE-918F3A874C57
 -  Functions: 14337
 -  Symbols:   3613
--  CStrings:  6910
+-  CStrings:  6919
++  UUID: AF47332C-9EFE-3508-B160-1FDFEBE097B4
 +  Functions: 14324
 +  Symbols:   3605
-+  CStrings:  6904
++  CStrings:  6913
  
 Symbols:
 + _$s13CoreIDVShared22IdentityImageDimensionC6height5width5scaleACSi_SiSdSgtcfc

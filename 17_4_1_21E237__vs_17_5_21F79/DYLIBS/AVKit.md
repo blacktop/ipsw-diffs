@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5A4EF2F2-DD70-358F-B63A-9FD4E560C54C
 -  Functions: 8174
 -  Symbols:   25643
--  CStrings:  11917
+-  CStrings:  12898
++  UUID: A0D79726-0C99-3600-9CD7-CA7523B8137F
 +  Functions: 8184
 +  Symbols:   25681
-+  CStrings:  11927
++  CStrings:  12908
  
 Symbols:
 + -[AVAction contextMenu]

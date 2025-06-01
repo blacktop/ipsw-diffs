@@ -30,4 +30,13 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__bss: 0x68
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 229CB59B-D0B5-3847-B002-D3BFA83D679A
++  UUID: A9860DC8-83FE-3499-8FB9-CFD6E9FE4E9D
+   Functions: 511
+   Symbols:   400
+   CStrings:  3396
+
 ```

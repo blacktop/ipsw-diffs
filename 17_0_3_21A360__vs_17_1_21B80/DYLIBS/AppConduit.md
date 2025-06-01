@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9DA26061-26A6-36D1-A6B3-92BE03675E52
 -  Functions: 565
 -  Symbols:   2047
--  CStrings:  1263
+-  CStrings:  1582
++  UUID: B915DF63-1609-3A28-AC64-22AAAE05573E
 +  Functions: 568
 +  Symbols:   2056
-+  CStrings:  1268
++  CStrings:  1589
  
 Symbols:
 + -[ACXDeviceConnection removabilityDidChangeForApplications:onDeviceWithPairingID:]

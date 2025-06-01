@@ -45,12 +45,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B00F8E57-5A00-331D-A807-4659895182D8
 -  Functions: 4311
 -  Symbols:   12538
--  CStrings:  5539
+-  CStrings:  6030
++  UUID: 6AE377B2-ADB0-3701-82A2-7FE9AC6ACF21
 +  Functions: 4309
 +  Symbols:   12533
-+  CStrings:  5532
++  CStrings:  6019
  
 Symbols:
 + -[AAUIAccountRecoveryViewController _continueShowingAddCustodian]

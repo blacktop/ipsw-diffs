@@ -31,13 +31,16 @@
    __AUTH_CONST.__cfstring: 0x360
    __AUTH_CONST.__objc_const: 0xc8
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37774474-86E7-3053-ADD6-92C7F46BFC4A
++  UUID: 4BCCF3F1-5DEA-3160-A444-51C2B26C9CD7
    Functions: 28
 -  Symbols:   197
--  CStrings:  145
+-  CStrings:  172
 +  Symbols:   201
-+  CStrings:  149
++  CStrings:  176
  
 Symbols:
 + _objc_msgSend$isNativeBooksPath

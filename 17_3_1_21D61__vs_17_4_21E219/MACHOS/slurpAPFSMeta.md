@@ -32,12 +32,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libSystem.B.dylib
+-  UUID: A3736E01-D771-3B2B-BF57-1EB31C2485D1
 -  Functions: 506
 -  Symbols:   129
--  CStrings:  768
+-  CStrings:  777
++  UUID: ADBEA419-027A-3246-9B55-6D9292C2EB5A
 +  Functions: 523
 +  Symbols:   138
-+  CStrings:  770
++  CStrings:  780
  
 Symbols:
 + _APFSVolumeLock

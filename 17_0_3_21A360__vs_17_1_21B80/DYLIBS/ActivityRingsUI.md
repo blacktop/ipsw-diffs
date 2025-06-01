@@ -47,12 +47,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32902077-7732-3D08-82A5-1863FD775208
 -  Functions: 1177
 -  Symbols:   3913
--  CStrings:  1534
+-  CStrings:  1640
++  UUID: D6DD3973-D6F5-304F-A9F2-C1ED9183F8F0
 +  Functions: 1182
 +  Symbols:   3922
-+  CStrings:  1540
++  CStrings:  1646
  
 Symbols:
 + +[ARUIRingGroup(Geometry) preferredActivityRingInterspacingForDiameter:]

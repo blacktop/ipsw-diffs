@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 523B2E3C-18E9-364D-9A7D-10C916B0F13B
 -  Functions: 406
 -  Symbols:   1683
--  CStrings:  1204
+-  CStrings:  1475
++  UUID: F3A5A5A3-4ED3-3E4B-ACEF-039F12E5E848
 +  Functions: 410
 +  Symbols:   1700
-+  CStrings:  1229
++  CStrings:  1514
  
 Symbols:
 + -[ADAppAdvertisement appBinaryTraits]

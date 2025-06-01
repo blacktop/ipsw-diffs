@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9ADD6558-1623-3A87-A40C-1293FD69BB10
 -  Functions: 12695
 -  Symbols:   2490
--  CStrings:  3217
+-  CStrings:  3219
++  UUID: 64C849F5-8143-3EA8-924A-C6F6C09862D6
 +  Functions: 12837
 +  Symbols:   2511
-+  CStrings:  3232
++  CStrings:  3234
  
 Symbols:
 + _$s7SwiftUI10ScenePhaseO10backgroundyA2CmFWC

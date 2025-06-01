@@ -51,11 +51,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0AA46ECB-94E3-3E15-92D4-A0B63944FFFA
 -  Functions: 534
++  UUID: 66907B50-44D1-3325-BEF2-5048B6EB627E
 +  Functions: 533
    Symbols:   195
--  CStrings:  1247
-+  CStrings:  1229
+-  CStrings:  1264
++  CStrings:  1246
  
 Symbols:
 + _OBJC_CLASS_$_BRCDeviceConfiguration

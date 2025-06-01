@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_const: 0x828
    __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_arrayobj: 0x288
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x1bb0
 +  __AUTH_CONST.__auth_got: 0x1bd0
    __AUTH.__objc_data: 0x410
@@ -74,12 +73,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 107D60F4-AE1A-3AD2-BAF6-EE2027DE10BD
 -  Functions: 8728
 -  Symbols:   23126
--  CStrings:  7749
+-  CStrings:  8317
++  UUID: 5EB55D0A-01F0-3898-A25E-528DB692C8D1
 +  Functions: 8749
 +  Symbols:   23168
-+  CStrings:  7779
++  CStrings:  8351
  
 Symbols:
 + -[ATIOBinding initWithUseCaseID:]

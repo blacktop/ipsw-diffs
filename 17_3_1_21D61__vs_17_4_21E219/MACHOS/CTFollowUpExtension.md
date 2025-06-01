@@ -38,11 +38,15 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 534FFB35-7CE1-3DB6-A01C-0BCC1B08C577
++  UUID: CED61040-3625-3616-9353-E450C54079C9
    Functions: 13
    Symbols:   62
--  CStrings:  79
-+  CStrings:  82
+-  CStrings:  101
++  CStrings:  106
  
 CStrings:
 + "IccidHash"

@@ -85,12 +85,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22D09FCE-D514-37F5-AA2E-5E357A2CC4F0
 -  Functions: 1170
 -  Symbols:   4646
--  CStrings:  2312
+-  CStrings:  2723
++  UUID: DEDDC4B8-A462-3201-9EB1-8DA3FFCFCEE8
 +  Functions: 1714
 +  Symbols:   6628
-+  CStrings:  3114
++  CStrings:  3642
  
 Symbols:
 + +[AVMetadataItem(MIOExtensions) attachmentsMIOMetadataItemForDictionary:pts:error:]
@@ -1648,6 +1650,7 @@ CStrings:
 + "Invalid 'exact-bytes-per-row' value type (%@), allowed types: NSNUmber, NSArray<NSNumber*>."
 + "Invalid audioFormat, no format description found."
 + "Invalid time stamp (%f). Time stamp must be higher than %f."
++ "L' "
 + "MIOCompandedRawBayerFrameProcessor"
 + "MIODefaultFrameProcessor"
 + "MIODisableVTPreSetup"

@@ -23,6 +23,13 @@
    __DATA_CONST.__const: 0x138
    __DATA.__bss: 0x8
    - /AppleInternal/Library/Frameworks/MLCompilerOS.framework/MLCompilerOS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 58D7DD6E-3FD1-30CF-9C45-96FDEFFC0158
++  UUID: BC64B4A9-620A-36B9-BA98-3000B52A2839
+   Functions: 37
+   Symbols:   308
+   CStrings:  11
 Symbols:
 + __ZNKSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

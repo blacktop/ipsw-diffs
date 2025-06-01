@@ -45,8 +45,8 @@
    __DATA_CONST.__objc_arraydata: 0x118
    __AUTH_CONST.__cfstring: 0x7aa0
 
+   __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x500
 +  __AUTH_CONST.__auth_got: 0x510
@@ -57,12 +57,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 91AF9D89-900E-34BB-A374-F122A8A1942E
 -  Functions: 2028
 -  Symbols:   680
--  CStrings:  4150
+-  CStrings:  5131
++  UUID: DCD8FD53-EB95-34F4-8091-1A8BA60DFA48
 +  Functions: 2029
 +  Symbols:   682
-+  CStrings:  4153
++  CStrings:  5134
  
 Symbols:
 + _BUClassAndProtocolCast

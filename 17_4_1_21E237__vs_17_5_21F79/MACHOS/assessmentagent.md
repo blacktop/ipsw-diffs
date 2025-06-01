@@ -115,12 +115,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D6D9538-EEE7-3EF3-9A08-E3745CEDE94D
 -  Functions: 1971
 -  Symbols:   14714
--  CStrings:  654
+-  CStrings:  662
++  UUID: 8F7BFC79-0A1B-3A54-BEE4-0E1BF6EBBF98
 +  Functions: 2961
 +  Symbols:   21551
-+  CStrings:  898
++  CStrings:  910
  
 Symbols:
 + $s15assessmentagent12AEATaskQueueC7addTask4task10completionyx_ys6ResultOy0H4TypeQzs5Error_pGcSgtAA0B0RzlFyyYbcfU_AA06AEAAnyE0VyytG_TG5TA.74

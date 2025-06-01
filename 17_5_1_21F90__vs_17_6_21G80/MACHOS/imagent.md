@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8141008F-FE21-3C57-8C8F-8CA971EC74E7
 -  Functions: 1384
 -  Symbols:   598
--  CStrings:  3083
+-  CStrings:  3273
++  UUID: 4F23A785-1AF1-3DC5-BAC6-CEFE0C0D509B
 +  Functions: 1388
 +  Symbols:   597
-+  CStrings:  3087
++  CStrings:  3277
  
 Symbols:
 - _IMDMessageRecordMaxMessageIDFromChatMessageJoin

@@ -28,4 +28,13 @@
    __DATA.__data: 0x5b8
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 424D6AD7-CB83-3A95-AB30-87971CD1DBFF
++  UUID: 56DBE091-9C9D-3BBA-BE5C-18E3050F26EE
+   Functions: 405
+   Symbols:   1617
+   CStrings:  927
+
 ```

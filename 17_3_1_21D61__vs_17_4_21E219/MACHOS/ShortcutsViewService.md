@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x4e8
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 573705C5-7E5C-353F-8BB8-41A1946CB3A6
++  UUID: 8C83D452-F019-3317-B0BD-159735A2547C
    Functions: 162
    Symbols:   126
--  CStrings:  647
-+  CStrings:  652
+-  CStrings:  665
++  CStrings:  670
  
 CStrings:
 + "T@\"<BNPresentableContext>\",?,W,N"

@@ -37,11 +37,10 @@
    __DATA_CONST.__const: 0x28
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __AUTH_CONST.__const: 0x640
-+  __AUTH_CONST.__const: 0x778
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1c8
 -  __DATA.__data: 0x150
 -  __DATA.__bss: 0xa80
++  __AUTH_CONST.__const: 0x778
 +  __AUTH_CONST.__auth_got: 0x208
 +  __DATA.__data: 0x1b8
 +  __DATA.__bss: 0xc80
@@ -52,9 +51,11 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: C7630749-66FB-3E23-8B25-5F928F422FEF
 -  Functions: 332
 -  Symbols:   974
 -  CStrings:  1
++  UUID: E29B96B0-7CF0-35C5-A8F4-98209066432E
 +  Functions: 415
 +  Symbols:   1195
 +  CStrings:  3

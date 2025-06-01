@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F97542B5-F321-3616-8B60-61067A48F1BA
 -  Functions: 18971
 -  Symbols:   4099
--  CStrings:  9724
+-  CStrings:  10170
++  UUID: 6B7A4465-B41A-3743-93BE-2FF7E72CB352
 +  Functions: 18963
 +  Symbols:   4090
-+  CStrings:  9736
++  CStrings:  10184
  
 Symbols:
 + _$s10Foundation8CalendarV8timeZoneAA04TimeD0Vvs

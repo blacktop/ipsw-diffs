@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1dc0
    __TEXT.__objc_methtype: 0x511
 
+   - /System/Library/PrivateFrameworks/DoNotDisturbKit.framework/DoNotDisturbKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7BC072CD-7F3F-3956-BB38-6313943368C3
++  UUID: BE4C9995-D0EA-308E-AE67-831F04786CE6
+   Functions: 188
+   Symbols:   803
+   CStrings:  476
+
 ```

@@ -79,7 +79,6 @@
    __AUTH_CONST.__objc_intobj: 0x408
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x128
 -  __AUTH_CONST.__auth_got: 0x1f48
 -  __AUTH.__objc_data: 0x3be0
 -  __AUTH.__data: 0xa80
@@ -114,12 +113,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5390E54F-542B-3B39-9EE6-4470DA98CF8E
 -  Functions: 10954
 -  Symbols:   25640
--  CStrings:  12843
+-  CStrings:  13565
++  UUID: 927E5067-FDDE-363D-BBC2-DF6187791773
 +  Functions: 11021
 +  Symbols:   25532
-+  CStrings:  12831
++  CStrings:  13553
  
 Symbols:
 + -[ICBaseTextView beginSelectionChange]

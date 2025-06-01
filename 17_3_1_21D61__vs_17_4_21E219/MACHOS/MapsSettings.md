@@ -82,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F611B57-78D4-3482-B42F-2BA660C5884F
 -  Functions: 2032
 -  Symbols:   1463
--  CStrings:  3280
+-  CStrings:  4310
++  UUID: CB8BC8DE-8051-3752-81A8-4FFA05A29283
 +  Functions: 2058
 +  Symbols:   1484
-+  CStrings:  3282
++  CStrings:  4347
  
 Symbols:
 + _MAPSGetCustomPOIsControllerLog
@@ -223,6 +225,7 @@ CStrings:
 + "iOS"
 + "sceneIdentifier"
 + "sceneIdentifierForLogging"
+- ""
 - "%@ - LogDiscard error during BAA authentication: %@"
 - "%@ - LogDiscard for trigger %@"
 - "%@ - LogDiscard succeeded"

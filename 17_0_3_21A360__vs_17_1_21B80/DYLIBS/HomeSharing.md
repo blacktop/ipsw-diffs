@@ -20,9 +20,9 @@
    __TEXT.__objc_classname: 0x530
    __TEXT.__objc_methname: 0x5aac
 
+   __DATA_CONST.__objc_const: 0x2ea8
    __DATA_CONST.__objc_selrefs: 0x12d8
    __DATA_CONST.__objc_arraydata: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x5390
 +  __AUTH_CONST.__const: 0x53a0
    __AUTH_CONST.__cfstring: 0x2f40
@@ -37,5 +37,14 @@
    __DATA.__bss: 0x60
    __DATA_DIRTY.__const: 0x120
    __DATA_DIRTY.__objc_const: 0x14c0
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5DAE7168-F445-35C6-AD7F-1285010E1CF7
++  UUID: 99907CFD-B913-3C29-B0E6-06A55D2B9A50
+   Functions: 880
+   Symbols:   2938
+   CStrings:  2017
 
 ```

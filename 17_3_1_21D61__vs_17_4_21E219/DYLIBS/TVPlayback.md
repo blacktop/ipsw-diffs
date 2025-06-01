@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E7AFBCA-6F02-3E8E-8583-D9B6A343921B
 -  Functions: 2163
 -  Symbols:   7984
--  CStrings:  4539
+-  CStrings:  5362
++  UUID: 5E0CAA7E-D043-35D0-AF49-8F56B0467DDB
 +  Functions: 2166
 +  Symbols:   7992
-+  CStrings:  4551
++  CStrings:  5375
  
 Symbols:
 + -[TVPClipMediaItem clipTimeRange]

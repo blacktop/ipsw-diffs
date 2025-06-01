@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B317FF74-CBDF-3C64-8A73-6C229C074C47
++  UUID: 4FFA6EAF-DFDA-33CD-ADBB-45623E451456
+   Functions: 3
+   Symbols:   26
+   CStrings:  16
+
 ```

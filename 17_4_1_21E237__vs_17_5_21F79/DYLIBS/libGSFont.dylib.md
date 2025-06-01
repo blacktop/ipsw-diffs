@@ -13,8 +13,8 @@
    __TEXT.__objc_methname: 0x610
    __TEXT.__objc_stubs: 0x840
 
+   __AUTH_CONST.__const: 0x180
    __AUTH_CONST.__cfstring: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x558
 -  __DATA.__bss: 0x70
 -  __DATA_DIRTY.__bss: 0x90
@@ -23,5 +23,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6EAAD911-022A-3F90-9E44-7E35656EFEEA
++  UUID: 88A57B5A-D8A0-3721-A893-A7D2CFABF59A
+   Functions: 114
+   Symbols:   516
+   CStrings:  240
 
 ```

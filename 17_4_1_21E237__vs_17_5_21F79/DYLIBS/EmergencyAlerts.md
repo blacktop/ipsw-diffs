@@ -36,13 +36,16 @@
    __AUTH_CONST.__objc_const: 0x118
    __AUTH_CONST.__auth_got: 0x1a8
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63717CE9-3071-38E1-81DF-3F9ECCF69059
++  UUID: FFE4F9F3-4AB7-3ED2-B64A-1C5EDAA774B8
    Functions: 64
 -  Symbols:   389
--  CStrings:  235
+-  CStrings:  298
 +  Symbols:   392
-+  CStrings:  238
++  CStrings:  304
  
 Symbols:
 + _EACategoryIdentifierIgneous

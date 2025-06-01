@@ -38,11 +38,15 @@
    __DATA.__objc_data: 0x460
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C41C4353-80C7-3C94-8E5F-053BD97D15BF
++  UUID: 95EEF41A-45D5-32BA-A1E3-3E129876185A
    Functions: 350
    Symbols:   217
--  CStrings:  886
-+  CStrings:  888
+-  CStrings:  964
++  CStrings:  966
  
 CStrings:
 + "T@\"NSString\",?,R,C"

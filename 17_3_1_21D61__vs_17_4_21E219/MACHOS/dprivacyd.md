@@ -19,5 +19,11 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1260847D-1066-3193-AAD0-F4BCC33043DF
++  UUID: 50577859-C643-3FD7-9D3B-6A6941EFA431
+   Functions: 1
+   Symbols:   8
+   CStrings:  1
 
 ```

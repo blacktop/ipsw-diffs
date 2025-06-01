@@ -46,13 +46,16 @@
    __DATA.__objc_ivar: 0xfdc
    __DATA.__data: 0x2ac0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15698DD3-7DBC-35C3-AED4-921FB5432726
++  UUID: FFD6915F-D74F-3A9F-83F0-63ACA1846589
    Functions: 4945
 -  Symbols:   18077
--  CStrings:  9160
+-  CStrings:  10024
 +  Symbols:   18079
-+  CStrings:  9168
++  CStrings:  10032
  
 Symbols:
 + -[DBRootStatusBarViewController colorVariantOverride]

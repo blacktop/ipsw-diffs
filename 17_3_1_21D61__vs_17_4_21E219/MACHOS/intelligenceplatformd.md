@@ -22,4 +22,13 @@
    __DATA.__bss: 0x80
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9525B158-BD37-3F5D-97B1-50837D140E63
++  UUID: 24B74D68-3038-3D15-936A-A26C8D3AD890
+   Functions: 5
+   Symbols:   43
+   CStrings:  4
+
 ```

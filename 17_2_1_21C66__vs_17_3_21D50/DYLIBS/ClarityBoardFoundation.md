@@ -27,9 +27,9 @@
    __TEXT.__objc_classname: 0x2d
    __TEXT.__objc_methname: 0x3cf
 
+   __AUTH_CONST.__cfstring: 0x540
    __AUTH_CONST.__const: 0x2b0
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x568
 +  __AUTH_CONST.__auth_got: 0x578
    __AUTH.__objc_data: 0xf0
@@ -50,12 +50,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7C7F52C-E4CB-32CD-919A-88CAD67B6B03
 -  Functions: 260
 -  Symbols:   396
--  CStrings:  140
+-  CStrings:  182
++  UUID: B556B2BC-3BA6-34A8-9A02-BD25F3BF5DA5
 +  Functions: 261
 +  Symbols:   398
-+  CStrings:  141
++  CStrings:  183
  
 Symbols:
 + _CFNotificationCenterGetDarwinNotifyCenter

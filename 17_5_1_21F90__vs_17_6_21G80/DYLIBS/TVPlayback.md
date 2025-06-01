@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 820CBC02-3338-36B7-ADCC-55C3B1F88A96
 -  Functions: 2166
 -  Symbols:   7992
--  CStrings:  4551
+-  CStrings:  5375
++  UUID: 55F83F27-85B2-39C1-A411-9DCC87013F20
 +  Functions: 2169
 +  Symbols:   8000
-+  CStrings:  4556
++  CStrings:  5380
  
 Symbols:
 + -[TVPPlayer playWithVolumeRampDuration:]

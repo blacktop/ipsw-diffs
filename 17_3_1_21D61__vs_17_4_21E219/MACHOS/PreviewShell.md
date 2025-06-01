@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91FCC2E0-036C-3A7F-9210-A1220482E49E
 -  Functions: 1531
 -  Symbols:   762
--  CStrings:  886
+-  CStrings:  888
++  UUID: 7EBEFCD2-B53E-3ECC-A89D-0AF117035B67
 +  Functions: 1473
 +  Symbols:   1025
-+  CStrings:  845
++  CStrings:  847
  
 Symbols:
 + _$s12HostedOutput15PreviewShellKit21CanvasContentProviderPTl

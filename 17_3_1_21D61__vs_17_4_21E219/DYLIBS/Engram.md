@@ -41,11 +41,15 @@
    __DATA_DIRTY.__objc_data: 0x640
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A66A23B1-BE73-31CD-9AEA-8640EFCA9BBC
++  UUID: 269BE6DF-8028-3991-9063-65C788E65241
    Functions: 365
    Symbols:   174
--  CStrings:  662
-+  CStrings:  663
+-  CStrings:  699
++  CStrings:  700
  
 CStrings:
 + "T@\"NSString\",?,R,C"

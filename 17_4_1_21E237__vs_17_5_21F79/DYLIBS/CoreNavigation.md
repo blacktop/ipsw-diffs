@@ -23,6 +23,15 @@
    __DATA.__bss: 0x78
    __DATA_DIRTY.__common: 0x660
    __DATA_DIRTY.__bss: 0x1268
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: 30E0414E-E366-3A68-ADB8-D6FBB9FE327F
++  UUID: C60C6D45-A792-34F0-B4A8-039EECD3485C
+   Functions: 14573
+   Symbols:   11312
+   CStrings:  3419
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/boost/geometry/algorithms/centroid.hpp"
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/boost/rational.hpp"

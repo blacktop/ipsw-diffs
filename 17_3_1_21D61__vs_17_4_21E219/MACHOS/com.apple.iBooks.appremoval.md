@@ -32,11 +32,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/BookLibrary.framework/BookLibrary
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4C74A23E-94F3-38A2-A3EE-9C8D2468A49C
++  UUID: B71A85B0-B350-3AB0-97E8-6C86A2BC26F0
    Functions: 6
    Symbols:   45
--  CStrings:  80
-+  CStrings:  81
+-  CStrings:  82
++  CStrings:  83
  
 CStrings:
 + "T@\"NSString\",?,R,C"

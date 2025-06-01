@@ -84,12 +84,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D216FDB3-C157-3501-8946-0BE9465EC54B
 -  Functions: 4367
 -  Symbols:   13055
--  CStrings:  6908
+-  CStrings:  8290
++  UUID: 1932B2A0-DFF4-38E0-AFFD-3FB004D7AF89
 +  Functions: 6107
 +  Symbols:   17461
-+  CStrings:  7022
++  CStrings:  8427
  
 Symbols:
 + +[PowerUISmartChargeUtilities cachedHistorical80ToFullDurationWithStore:]

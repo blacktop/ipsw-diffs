@@ -52,12 +52,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 1173D653-AF13-3FAA-A474-7D483239DB33
 -  Functions: 2291
 -  Symbols:   601
--  CStrings:  906
+-  CStrings:  1070
++  UUID: 462B8792-A4FE-3FD4-BEB7-CF76F7D1DDF4
 +  Functions: 2301
 +  Symbols:   606
-+  CStrings:  909
++  CStrings:  1073
  
 Symbols:
 + __ZN38pxrInternal_v0_22__aapl__pxrReserved__19__usdlibInitFailureE

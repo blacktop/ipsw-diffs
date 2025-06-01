@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/VisualAlert.framework/VisualAlert
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 51BB6C68-669F-3C4F-BBBD-DEF34729338A
++  UUID: 46A4E92F-0E48-30DF-8793-08B8FE796055
    Functions: 6
    Symbols:   78
--  CStrings:  73
-+  CStrings:  74
+-  CStrings:  81
++  CStrings:  82
  
 CStrings:
 + "T@\"NSString\",?,R,C"

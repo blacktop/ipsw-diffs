@@ -25,4 +25,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04D4B7F6-E9AE-33DD-A3CD-139A549A35A1
++  UUID: F3333C82-275F-31EC-BDAC-479B9F9ADD81
+   Functions: 91
+   Symbols:   335
+   CStrings:  262
+
 ```

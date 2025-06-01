@@ -68,11 +68,13 @@
    - @rpath/AEBookPlugins.framework/AEBookPlugins
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
+-  UUID: 475C0A12-5010-3B19-B970-420AA3708DF4
 -  Functions: 2385
++  UUID: 607F9C25-81C2-3C76-B14C-91E793B4A08D
 +  Functions: 2395
    Symbols:   513
--  CStrings:  4319
-+  CStrings:  4389
+-  CStrings:  4939
++  CStrings:  5062
  
 Symbols:
 + _BCFloatAssertUnitIntervalClamp

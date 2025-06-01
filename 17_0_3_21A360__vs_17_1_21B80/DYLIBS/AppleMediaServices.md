@@ -55,7 +55,6 @@
    __DATA_CONST.__objc_arraydata: 0x508
 -  __AUTH_CONST.__const: 0x20628
 +  __AUTH_CONST.__const: 0x21dd0
-   __AUTH_CONST.__auth_ptr: 0x170
    __AUTH_CONST.__objc_const: 0xccb8
 -  __AUTH_CONST.__cfstring: 0x1c840
 -  __AUTH_CONST.__objc_intobj: 0xcf0
@@ -96,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3C4FF7CF-53D0-3B9B-B92C-228F52BD3E5D
 -  Functions: 19419
 -  Symbols:   46260
--  CStrings:  17792
+-  CStrings:  21442
++  UUID: B31EBD84-DF2C-32C7-B981-542932F9C0B8
 +  Functions: 20283
 +  Symbols:   48587
-+  CStrings:  17895
++  CStrings:  21561
  
 Symbols:
 + +[ACAccount(AppleMediaServices) ams_createEphemeralAccount]

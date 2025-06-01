@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F873C90-624E-368B-A710-15DF1F319EE7
 -  Functions: 1554
 -  Symbols:   1042
--  CStrings:  438
+-  CStrings:  439
++  UUID: 7917C412-1AB3-37F8-927D-70018243918F
 +  Functions: 1579
 +  Symbols:   1043
-+  CStrings:  441
++  CStrings:  442
  
 Symbols:
 + _$s13WeatherDaemon18XPCActivityManagerC20onActivityCompletionACyycSg_tcfc

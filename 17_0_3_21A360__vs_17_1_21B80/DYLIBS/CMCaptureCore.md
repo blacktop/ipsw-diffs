@@ -27,13 +27,16 @@
    __DATA.__objc_classrefs: 0x8
    __DATA.__data: 0x8
 
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4CA48FAB-AC36-3CB1-A5C8-6CE7BC16406E
++  UUID: 8B2D9C8F-F975-329A-967F-9D6981F1F804
    Functions: 6
 -  Symbols:   2213
--  CStrings:  1992
+-  CStrings:  3979
 +  Symbols:   2224
-+  CStrings:  2003
++  CStrings:  4001
  
 Symbols:
 + _kFigAppleMakerNote_AFSphereComplianceErrorCounts

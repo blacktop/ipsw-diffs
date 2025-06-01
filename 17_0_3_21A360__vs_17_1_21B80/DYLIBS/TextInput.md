@@ -65,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E89E00DF-30D1-3A0B-876C-0660DEF9AEF4
 -  Functions: 3558
 -  Symbols:   12291
--  CStrings:  8850
+-  CStrings:  15911
++  UUID: E090A29B-0DDD-389D-90A3-036A8AA1ED84
 +  Functions: 3567
 +  Symbols:   12320
-+  CStrings:  8865
++  CStrings:  15930
  
 Symbols:
 + +[TIKeyboardCandidateSingle secureCandidateWithCandidate:forInput:slotID:customInfoType:stickerIdentifier:]

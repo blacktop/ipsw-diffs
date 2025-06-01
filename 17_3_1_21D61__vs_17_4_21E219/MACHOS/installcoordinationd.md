@@ -67,11 +67,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8731930B-A658-3288-BC4F-1BF7F36B5384
 -  Functions: 2788
++  UUID: 745C7212-1788-3D18-9187-AB3224ECEBA7
 +  Functions: 2815
    Symbols:   367
--  CStrings:  4517
-+  CStrings:  4572
+-  CStrings:  5457
++  CStrings:  5534
  
 Symbols:
 + _MobileInstallationUpdateSinfDataForInstallCoordination

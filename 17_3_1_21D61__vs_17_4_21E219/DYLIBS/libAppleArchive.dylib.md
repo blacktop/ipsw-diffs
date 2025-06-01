@@ -20,9 +20,7 @@
    __TEXT.__eh_frame: 0x50
    __DATA_CONST.__got: 0xa0
 -  __DATA_CONST.__const: 0xc0
--  __AUTH_CONST.__auth_ptr: 0x38
 +  __DATA_CONST.__const: 0xd8
-+  __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__const: 0x70
 -  __AUTH_CONST.__auth_got: 0x750
@@ -34,12 +32,14 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblzma.5.dylib
+-  UUID: B647543C-52F9-3255-B563-396C487A1BB6
 -  Functions: 992
 -  Symbols:   1954
--  CStrings:  2581
+-  CStrings:  2583
++  UUID: DCA7BA3A-FF32-3A57-AED8-3FBADDC6AF39
 +  Functions: 1088
 +  Symbols:   2146
-+  CStrings:  2828
++  CStrings:  2830
  
 Symbols:
 + _AAJSONInputStreamClose

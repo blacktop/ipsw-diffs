@@ -61,11 +61,13 @@
    - /System/Library/PrivateFrameworks/WorkflowResponsiveness.framework/WorkflowResponsiveness
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B80CE515-00D9-3E94-8A66-4E638671C7C1
 -  Functions: 233
++  UUID: 21E79230-FE96-375C-B846-CC0B5B3C2FAC
 +  Functions: 228
    Symbols:   131
--  CStrings:  577
-+  CStrings:  561
+-  CStrings:  765
++  CStrings:  739
  
 Symbols:
 + _OBJC_CLASS_$_SignpostAggregationAccumulator

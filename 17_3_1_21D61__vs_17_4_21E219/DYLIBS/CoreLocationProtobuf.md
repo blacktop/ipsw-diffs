@@ -23,5 +23,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B083993A-7F01-322A-B545-0ACD45369EAB
++  UUID: B7F1FD6B-105F-35EE-8748-E69053556127
+   Functions: 3229
+   Symbols:   8062
+   CStrings:  3548
 
 ```

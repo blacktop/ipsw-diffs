@@ -30,11 +30,15 @@
    __TEXT.__objc_classname: 0x96d
    __TEXT.__objc_methname: 0x6bf5
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 408E0F11-F9D8-333A-99B4-E6C2029B032A
++  UUID: BBEF76E0-75A9-3451-A263-8DC45AE28000
    Functions: 13440
    Symbols:   8695
--  CStrings:  3868
-+  CStrings:  3869
+-  CStrings:  4028
++  CStrings:  4029
  
 CStrings:
 + "Invalid box input"

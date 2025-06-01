@@ -33,13 +33,16 @@
    __DATA_CONST.__objc_classrefs: 0x128
    __DATA_CONST.__objc_superrefs: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8D7FEC36-44E3-313B-9825-479C1A7B6731
++  UUID: 622DF685-072B-36B1-A6CC-4DCEA52269F8
    Functions: 194
 -  Symbols:   847
--  CStrings:  478
+-  CStrings:  534
 +  Symbols:   848
-+  CStrings:  479
++  CStrings:  535
  
 Symbols:
 + _objc_msgSend$activeWatchIsNotUnderInternalDevelopmentImportExclusionForFeatureWithIdentifier:

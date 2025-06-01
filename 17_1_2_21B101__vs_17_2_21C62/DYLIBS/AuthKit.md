@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x6a0
 -  __AUTH.__objc_data: 0x1a40
 +  __AUTH.__objc_data: 0x1a90
@@ -69,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3862F148-551B-3E51-ABF9-99FA26526610
 -  Functions: 5085
 -  Symbols:   16534
--  CStrings:  7321
+-  CStrings:  8808
++  UUID: 1AA08F1F-82A7-3859-9EAA-4C5518C3AFAC
 +  Functions: 5134
 +  Symbols:   16680
-+  CStrings:  7413
++  CStrings:  8933
  
 Symbols:
 + +[AKAlertImageURLProvider url]

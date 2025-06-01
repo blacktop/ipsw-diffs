@@ -61,12 +61,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B821EAAF-1895-36CD-BC09-CD24181B5A68
 -  Functions: 9881
 -  Symbols:   55465
--  CStrings:  7731
+-  CStrings:  8533
++  UUID: 30DF7584-2AC1-32F3-90FE-5ADB6E839D43
 +  Functions: 10056
 +  Symbols:   56376
-+  CStrings:  7825
++  CStrings:  8639
  
 Symbols:
 + -[ACCExternalAccessoryServerRemote sendWiredCarPlayAvailable:usbIdentifier:wirelessAvailable:bluetoothIdentifier:themeAssetsAvailable:forUUID:]

@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_dictobj: 0x848
    __AUTH_CONST.__objc_arrayobj: 0x540
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x688
 -  __AUTH.__objc_data: 0x7d00
 +  __AUTH_CONST.__auth_got: 0x670
@@ -80,12 +79,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91181732-E42D-3DFC-B6B7-623908CACFF5
 -  Functions: 12493
 -  Symbols:   40112
--  CStrings:  18415
+-  CStrings:  22917
++  UUID: 2DD64732-A41F-3410-8404-4C7ED7FEEF4B
 +  Functions: 12583
 +  Symbols:   40278
-+  CStrings:  18587
++  CStrings:  23107
  
 Symbols:
 + -[HMAccessory installManagedConfigurationProfileWithData:completionHandler:]

@@ -42,11 +42,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 51D91FB7-EEB5-3526-B258-C25F7299434A
 -  Functions: 81
++  UUID: 8421EB2C-7D30-30B0-A4BA-AB6D79B14C6C
 +  Functions: 82
    Symbols:   130
--  CStrings:  390
-+  CStrings:  398
+-  CStrings:  428
++  CStrings:  436
  
 CStrings:
 + "CoreGraphicsProxying"

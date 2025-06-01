@@ -60,12 +60,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAEDA5C0-D3FB-3501-92DC-426B0880E70E
 -  Functions: 5746
 -  Symbols:   21529
--  CStrings:  7758
+-  CStrings:  9025
++  UUID: 63C7B888-E557-3240-A465-97A2B59C4EB8
 +  Functions: 5750
 +  Symbols:   21542
-+  CStrings:  7761
++  CStrings:  9028
  
 Symbols:
 + -[_GCDevicePhysicalInputBase dealloc].cold.5

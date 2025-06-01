@@ -31,11 +31,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/PerfPowerServicesReader
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 66A9498C-418E-3C65-933A-5FE5A8EE1FA3
++  UUID: 56705D40-2FFF-34A5-8BD0-CAE0D448C997
    Functions: 11
    Symbols:   70
--  CStrings:  80
-+  CStrings:  81
+-  CStrings:  84
++  CStrings:  85
  
 CStrings:
 + "T@\"NSString\",?,R,C"

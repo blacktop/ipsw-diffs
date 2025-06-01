@@ -62,12 +62,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C6A9F357-67EB-3D14-80B4-0EF26AADC17E
 -  Functions: 757
 -  Symbols:   222
--  CStrings:  1511
+-  CStrings:  1547
++  UUID: BA707268-F60E-349D-BE38-D9F31FF7BB53
 +  Functions: 708
 +  Symbols:   206
-+  CStrings:  1425
++  CStrings:  1452
  
 Symbols:
 + _ICDClientSideCollaborationServiceName

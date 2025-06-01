@@ -56,13 +56,16 @@
    __DATA.__data: 0x170
    __DATA.__crash_info: 0x40
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9C2009FF-52F4-34A1-B634-D12C709C4BE9
++  UUID: 1C450980-60E3-3B40-A453-908251AC4710
    Functions: 361
 -  Symbols:   390
--  CStrings:  1762
+-  CStrings:  2635
 +  Symbols:   391
-+  CStrings:  1774
++  CStrings:  2650
  
 Symbols:
 + _OBJC_CLASS_$_OSAExclaveContainer

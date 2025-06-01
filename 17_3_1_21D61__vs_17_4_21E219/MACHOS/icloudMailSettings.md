@@ -85,13 +85,15 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B78B6DCE-F03B-3120-A05A-0B99C2ACF809
 -  Functions: 5799
 -  Symbols:   233
--  CStrings:  927
+-  CStrings:  952
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 9E083819-0F32-3976-9E10-55846DD9A188
 +  Functions: 5822
 +  Symbols:   236
-+  CStrings:  956
++  CStrings:  981
  
 Symbols:
 + _ACAccountTypeIdentifierIMAPMail

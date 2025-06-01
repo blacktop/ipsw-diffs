@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B29E9D8D-44E5-3CC5-B7DE-3B4BB6498689
 -  Functions: 1427
 -  Symbols:   5471
--  CStrings:  2472
+-  CStrings:  2585
++  UUID: F3B6DA71-3980-3D7E-8051-567DF6C6F84E
 +  Functions: 1428
 +  Symbols:   5474
-+  CStrings:  2473
++  CStrings:  2586
  
 Symbols:
 + -[CCUIModularControlCenterOverlayViewController _isRelevantSensorActivityData:forContentModuleContext:]

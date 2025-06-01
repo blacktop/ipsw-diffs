@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__const: 0xfa8
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0xdb8
 -  __AUTH.__objc_data: 0x2b98
 -  __AUTH.__data: 0x2d8
@@ -76,11 +75,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4855E510-9E47-3CB0-83B1-AF69399773B7
 -  Functions: 5761
 -  Symbols:   20612
++  UUID: 5C7DCF94-7685-3172-BABD-81E9ABA1E0C4
 +  Functions: 5762
 +  Symbols:   20613
-   CStrings:  8461
+   CStrings:  8851
  
 Symbols:
 + ___block_descriptor_56_e8_32s40w48w_e35_v24?0"MKMapSnapshot"8"NSError"16lw40l8w48l8s32l8

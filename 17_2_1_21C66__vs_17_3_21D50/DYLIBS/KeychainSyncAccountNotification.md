@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CF5DD65-8EFC-3ABA-83D7-67AAFD0231B5
 -  Functions: 38
 -  Symbols:   186
--  CStrings:  276
+-  CStrings:  390
++  UUID: 6B927D75-9818-35B0-8E5F-C80FBFCDC612
 +  Functions: 41
 +  Symbols:   190
-+  CStrings:  285
++  CStrings:  403
  
 Symbols:
 + _kSecurityRTCFieldAvgCKRecords

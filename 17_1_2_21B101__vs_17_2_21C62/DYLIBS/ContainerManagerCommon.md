@@ -71,12 +71,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 14D71E97-B384-3D84-BEC4-375A4762BB62
 -  Functions: 2389
 -  Symbols:   9193
--  CStrings:  4973
+-  CStrings:  5756
++  UUID: E49A0EB0-3760-30DC-8D73-DF52AF2431E5
 +  Functions: 2392
 +  Symbols:   9213
-+  CStrings:  4989
++  CStrings:  5773
  
 Symbols:
 + -[MCMCommandCreateOrLookupAppGroupByAppGroupIdentifier alwaysReturnPath]
@@ -379,7 +381,6 @@ Symbols:
 - _sharedInstance.onceToken.10340
 - _sharedInstance.onceToken.8408
 CStrings:
-+ " "
 + "07:21:41"
 + "<%@: %p; inode = %llu, device = %d, ctime = %ld, isDirectory = %@, isSymlink = %@>"
 + "@\"NSString\"28@0:8@\"NSString\"16B24"

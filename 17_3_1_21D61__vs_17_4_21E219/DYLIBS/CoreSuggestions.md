@@ -31,8 +31,8 @@
    __AUTH_CONST.__cfstring: 0x9f60
    __AUTH_CONST.__objc_const: 0x0
 
+   __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x6b0
 -  __DATA.__objc_protorefs: 0x68
 -  __DATA.__objc_classrefs: 0x5b0
@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 201C44C0-EDBB-320B-87CD-16AE3AB6531F
++  UUID: 8779A122-115F-38BF-88D2-6AC85EAC5853
    Functions: 3194
    Symbols:   10387
--  CStrings:  4921
-+  CStrings:  4922
+-  CStrings:  6196
++  CStrings:  6197
  
 Symbols:
 + ___Block_byref_object_copy_.3148

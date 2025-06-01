@@ -71,7 +71,6 @@
 +  __AUTH_CONST.__cfstring: 0x31a0
    __AUTH_CONST.__objc_intobj: 0x60
 -  __AUTH_CONST.__const: 0x1408
--  __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0xc98
 -  __AUTH.__objc_data: 0x4c0
 -  __AUTH.__data: 0x2e0
@@ -80,7 +79,6 @@
 -  __DATA.__objc_superrefs: 0x118
 -  __DATA.__objc_ivar: 0x384
 +  __AUTH_CONST.__const: 0x1968
-+  __AUTH_CONST.__auth_ptr: 0x90
 +  __AUTH_CONST.__auth_got: 0xd28
 +  __AUTH.__objc_data: 0x450
 +  __AUTH.__data: 0x308
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE8DBA7E-2DDC-3E0C-B1EB-1FD7A74AD7E7
 -  Functions: 2310
 -  Symbols:   4357
--  CStrings:  2328
+-  CStrings:  2719
++  UUID: 4E8E085B-7ECE-34AC-A232-9A3B0B17BC37
 +  Functions: 2588
 +  Symbols:   4416
-+  CStrings:  2416
++  CStrings:  2813
  
 Symbols:
 + -[FAFamilyCircle profiles]

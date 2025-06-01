@@ -45,9 +45,8 @@
    __AUTH_CONST.__cfstring: 0x100
    __AUTH_CONST.__objc_const: 0x90
 -  __AUTH_CONST.__const: 0x7988
-+  __AUTH_CONST.__const: 0x79c0
-   __AUTH_CONST.__auth_ptr: 0xd0
 -  __AUTH_CONST.__auth_got: 0x10f0
++  __AUTH_CONST.__const: 0x79c0
 +  __AUTH_CONST.__auth_got: 0x1110
    __AUTH.__objc_data: 0x440
 -  __AUTH.__data: 0x11b8
@@ -65,12 +64,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1FD9C413-FD21-3140-A00D-0240EC481A60
 -  Functions: 6541
 -  Symbols:   3252
--  CStrings:  752
+-  CStrings:  760
++  UUID: 61D6EF5A-6272-35E7-91ED-084073259C52
 +  Functions: 6583
 +  Symbols:   3303
-+  CStrings:  759
++  CStrings:  767
  
 Symbols:
 + _NEVirtualInterfaceSetDelegateInterface

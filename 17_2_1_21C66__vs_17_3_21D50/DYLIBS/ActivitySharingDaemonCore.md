@@ -29,11 +29,15 @@
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__objc_const: 0x1398
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C183B70-8046-323D-A6F1-15115F14CFF3
++  UUID: 3B9FC95B-ADAB-38DA-A892-812649B59F91
    Functions: 2104
    Symbols:   7872
--  CStrings:  3598
-+  CStrings:  3599
+-  CStrings:  3808
++  CStrings:  3810
  
 Symbols:
 + _ASShouldReducePeriodUpdateFrequency

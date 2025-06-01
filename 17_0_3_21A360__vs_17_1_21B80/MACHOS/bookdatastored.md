@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 217033DA-69D6-3FB3-8FBF-CF1B5B116087
 -  Functions: 8579
 -  Symbols:   538
--  CStrings:  5562
+-  CStrings:  6034
++  UUID: 2C7E3F16-B886-36ED-AC54-F870AF797339
 +  Functions: 8604
 +  Symbols:   537
-+  CStrings:  5580
++  CStrings:  6053
  
 Symbols:
 - _BUIsGDPRAcknowledgementNeededForBooks

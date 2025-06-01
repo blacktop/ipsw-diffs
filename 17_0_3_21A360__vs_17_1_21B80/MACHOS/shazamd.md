@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 821ABCB2-CE42-38F9-911C-2FB5A6F9B9CC
 -  Functions: 1484
 -  Symbols:   361
--  CStrings:  3140
+-  CStrings:  3376
++  UUID: 26414A47-83CE-3031-9934-22334ED77D7D
 +  Functions: 1496
 +  Symbols:   363
-+  CStrings:  3146
++  CStrings:  3379
  
 Symbols:
 + _SHCampaignTokenDefaultCampaignValue

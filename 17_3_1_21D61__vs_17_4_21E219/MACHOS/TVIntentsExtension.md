@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 11856AFA-4A59-3480-B3D4-49B9539FB3DF
++  UUID: 3192CA7E-A3B8-321F-9843-53404E59DF5B
    Functions: 21
    Symbols:   60
 -  CStrings:  102

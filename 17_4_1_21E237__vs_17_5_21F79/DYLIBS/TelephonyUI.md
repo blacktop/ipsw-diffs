@@ -44,8 +44,8 @@
    __DATA_CONST.__objc_classrefs: 0x428
    __DATA_CONST.__objc_superrefs: 0x118
 
+   __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__auth_got: 0x990
 -  __AUTH.__objc_data: 0x1098
 -  __AUTH.__data: 0x3a0
@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8CC7806E-F75C-307D-9E39-39F4A43F42FA
 -  Functions: 1987
 -  Symbols:   5061
--  CStrings:  2497
+-  CStrings:  2753
++  UUID: 43E49598-3622-37A1-931E-44E3AC71B1FC
 +  Functions: 1988
 +  Symbols:   5062
-+  CStrings:  2498
++  CStrings:  2754
  
 Symbols:
 + _UIAccessibilityReduceTransparencyStatusDidChangeNotification

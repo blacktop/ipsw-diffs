@@ -41,9 +41,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96EE2952-0478-3220-94A9-7731B1960D1A
 -  Functions: 397
 -  Symbols:   151
 -  CStrings:  11
++  UUID: F35910D9-04C9-3818-BC0B-4D90DDBE55EE
 +  Functions: 828
 +  Symbols:   165
 +  CStrings:  12

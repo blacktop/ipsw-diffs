@@ -35,9 +35,9 @@
    __DATA_CONST.__objc_classrefs: 0x538
    __DATA_CONST.__objc_superrefs: 0x2e0
 
+   __AUTH_CONST.__const: 0x2220
    __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xb10
 +  __AUTH_CONST.__auth_got: 0xb20
    __AUTH.__objc_data: 0x1220
@@ -47,12 +47,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2558D545-1A4A-3C24-AF11-884E4516B171
 -  Functions: 4653
 -  Symbols:   15335
--  CStrings:  8243
+-  CStrings:  11319
++  UUID: 82287FC7-30C3-3AA2-BF62-F37E6C96D58E
 +  Functions: 4654
 +  Symbols:   15340
-+  CStrings:  8244
++  CStrings:  11320
  
 Symbols:
 + _MDMSendDevicePostureChangedNotification

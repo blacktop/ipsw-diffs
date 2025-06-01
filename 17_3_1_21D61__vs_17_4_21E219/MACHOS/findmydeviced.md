@@ -74,11 +74,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 68644166-AF9D-35C4-B182-3387A9364001
 -  Functions: 5873
++  UUID: 40A4A3DA-F29A-3A23-8DDD-087FF8641FD7
 +  Functions: 5876
    Symbols:   568
--  CStrings:  8346
-+  CStrings:  8354
+-  CStrings:  9668
++  CStrings:  9677
  
 Symbols:
 + _calloc

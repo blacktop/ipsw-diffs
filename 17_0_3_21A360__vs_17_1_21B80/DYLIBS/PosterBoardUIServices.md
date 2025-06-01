@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5325BF00-BB25-376A-B808-214AC2EC4ACC
 -  Functions: 604
 -  Symbols:   2511
--  CStrings:  1361
+-  CStrings:  1471
++  UUID: 3D3DCCC7-D66E-3187-996C-494EBBD7E836
 +  Functions: 611
 +  Symbols:   2562
-+  CStrings:  1386
++  CStrings:  1501
  
 Symbols:
 + +[PRUISPosterLayoutUtilities titleBoundsForLayout:orientation:role:error:]

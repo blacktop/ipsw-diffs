@@ -52,6 +52,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /usr/lib/libcupolicy.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 312F066E-3391-31DA-AE75-BA0A73A73CC2
++  UUID: 4186BE72-D2FA-3F85-96C6-F69B3B24AE61
+   Functions: 7415
+   Symbols:   22973
+   CStrings:  13433
 CStrings:
 + "CloudPhotoLibrary-652.0.100"
 - "CloudPhotoLibrary-646.1.102"

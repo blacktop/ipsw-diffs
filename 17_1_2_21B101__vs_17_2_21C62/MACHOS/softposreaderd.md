@@ -23,7 +23,9 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: DBD3D554-4C17-3255-ADDC-AC86EE6E5DD6
 -  Functions: 5360
++  UUID: E5A2F0DD-9730-3058-98DE-14AAED6D3F48
 +  Functions: 5362
    Symbols:   1107
    CStrings:  2515

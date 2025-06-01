@@ -43,9 +43,8 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x809e0
-+  __AUTH_CONST.__const: 0x809e8
-   __AUTH_CONST.__auth_ptr: 0x1908
 -  __AUTH_CONST.__auth_got: 0x5f88
++  __AUTH_CONST.__const: 0x809e8
 +  __AUTH_CONST.__auth_got: 0x5f98
    __AUTH.__objc_data: 0x28540
    __AUTH.__data: 0x26390
@@ -60,11 +59,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1CF7B771-D890-30E7-A111-EC30250A2F25
 -  Functions: 57303
++  UUID: B6AEF074-5837-38BF-A2BA-17013A55B92D
 +  Functions: 57317
    Symbols:   16637
--  CStrings:  9540
-+  CStrings:  9547
+-  CStrings:  9566
++  CStrings:  9573
  
 CStrings:
 + "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourUI/Browsing Modules/Workout Plan/Data Providers/WorkoutPlanReviewPageDataProvider.swift"

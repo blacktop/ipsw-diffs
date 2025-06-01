@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /System/Library/PrivateFrameworks/WorkoutCore.framework/WorkoutCore
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 78EE9CD4-9BAC-3D2D-AB54-4E0AF4992534
++  UUID: 44C8344F-F3B9-3A1F-A849-2BD1FABE316D
+   Functions: 294
+   Symbols:   101
+   CStrings:  23
+
 ```

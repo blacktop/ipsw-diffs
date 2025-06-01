@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_const: 0x1fa0
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xae0
 -  __AUTH.__objc_data: 0xae8
 -  __DATA.__objc_ivar: 0x528
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94146A97-DCFE-34AB-80E5-CCF12682778A
 -  Functions: 3338
 -  Symbols:   8796
--  CStrings:  3795
+-  CStrings:  4057
++  UUID: 5788E7B2-F81E-3A9B-A162-E4D1BE6FA0E8
 +  Functions: 3342
 +  Symbols:   8808
-+  CStrings:  3804
++  CStrings:  4066
  
 Symbols:
 + -[SKAAccountProvider cachedJwtTokenMap]

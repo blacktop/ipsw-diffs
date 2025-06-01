@@ -10,8 +10,8 @@
    __TEXT.__auth_stubs: 0x3020
    __TEXT.__objc_methlist: 0xec
 
+   __DATA_CONST.__objc_classrefs: 0x68
    __AUTH_CONST.__const: 0x116b0
-   __AUTH_CONST.__auth_ptr: 0x270
    __AUTH_CONST.__auth_got: 0x1810
 -  __AUTH.__data: 0x1148
 +  __AUTH.__data: 0xe08
@@ -34,5 +34,14 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/Accessibility.framework/Accessibility
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2AD3789D-5F79-355F-834F-0323F903BE95
++  UUID: 34D2D55B-B4AA-379E-9106-226603806C24
+   Functions: 9641
+   Symbols:   218
+   CStrings:  339
 
 ```

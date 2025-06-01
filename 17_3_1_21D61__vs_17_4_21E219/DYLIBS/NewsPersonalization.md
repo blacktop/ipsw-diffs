@@ -69,7 +69,6 @@
 +  __DATA_CONST.__objc_catlist2: 0x8
 +  __AUTH_CONST.__const: 0xb730
    __AUTH_CONST.__cfstring: 0x20
--  __AUTH_CONST.__auth_ptr: 0x500
 -  __AUTH_CONST.__objc_const: 0x290
 -  __AUTH_CONST.__auth_got: 0x2250
 -  __AUTH.__data: 0x930
@@ -79,7 +78,6 @@
 -  __DATA.__objc_data: 0x128
 -  __DATA.__data: 0x4cf0
 -  __DATA.__bss: 0x179b0
-+  __AUTH_CONST.__auth_ptr: 0x4f8
 +  __AUTH_CONST.__objc_const: 0x250
 +  __AUTH_CONST.__auth_got: 0x21c0
 +  __AUTH.__objc_data: 0x378
@@ -127,12 +125,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 414010AE-DA24-3F45-BB32-8D4758C05B13
 -  Functions: 11817
 -  Symbols:   2209
--  CStrings:  3206
+-  CStrings:  3207
++  UUID: 42716630-6143-3984-9D9F-2820BDF2F2A5
 +  Functions: 11235
 +  Symbols:   2127
-+  CStrings:  3058
++  CStrings:  3059
  
 Symbols:
 + _NFInternalBuild

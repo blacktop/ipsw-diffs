@@ -49,7 +49,6 @@
 -  __AUTH_CONST.__cfstring: 0x780
 +  __AUTH_CONST.__cfstring: 0x760
    __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x518
 +  __AUTH_CONST.__auth_got: 0x550
    __AUTH.__objc_data: 0xd98
@@ -75,13 +74,15 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8C24306B-06DA-3C75-936F-DC36414D6B13
 -  Functions: 846
 -  Symbols:   3333
--  CStrings:  1986
+-  CStrings:  2046
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: EDDBD641-5B01-3441-B61B-434DD12AAE75
 +  Functions: 849
 +  Symbols:   3342
-+  CStrings:  2001
++  CStrings:  2060
  
 Symbols:
 + +[BFFViewControllerSpinnerManager startAnimatingSpinnerFor:identifier:].cold.2

@@ -29,11 +29,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD920164-AA88-391C-9F31-85662BF2F924
++  UUID: 23E591BE-B6CF-3D39-A1B7-63AC205A7FAA
    Functions: 9
    Symbols:   43
--  CStrings:  100
-+  CStrings:  101
+-  CStrings:  113
++  CStrings:  114
  
 CStrings:
 + "T@\"NSString\",?,R,C"

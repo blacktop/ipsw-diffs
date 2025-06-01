@@ -27,12 +27,15 @@
    __DATA_CONST.__objc_classlist: 0x198
    __DATA_CONST.__objc_catlist: 0x8
 
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8AEC77BF-C8C8-3FDA-96A3-C2FFC96A1C79
++  UUID: A4EAE957-46B4-3F1A-A9D5-07B441D66344
    Functions: 1958
 -  Symbols:   6637
 +  Symbols:   6638
-   CStrings:  2984
+   CStrings:  3384
  
 Symbols:
 + _ACAccountDataclassPhoneFaceTime

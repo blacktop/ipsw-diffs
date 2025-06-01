@@ -22,12 +22,15 @@
    __TEXT.__objc_classname: 0x11
    __TEXT.__objc_methname: 0xd3
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 271BD750-ED2E-3A05-9044-10BBB9D428A7
++  UUID: E0F5996B-7B85-3942-8A30-9DEABBA6105A
    Functions: 1797
 -  Symbols:   4411
 +  Symbols:   4410
-   CStrings:  762
+   CStrings:  788
  
 Symbols:
 + GCC_except_table127

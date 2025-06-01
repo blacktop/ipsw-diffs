@@ -58,11 +58,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DBB0CFA-3B1B-3891-98A7-7E49B218968F
 -  Functions: 1043
++  UUID: 4DDF8DBB-43B2-37B2-9D3B-C1C8B1E573E6
 +  Functions: 1044
    Symbols:   561
--  CStrings:  1104
-+  CStrings:  1107
+-  CStrings:  1108
++  CStrings:  1111
  
 CStrings:
 + "GROUPSESSION_CONNECT_ACTION"

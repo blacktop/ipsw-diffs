@@ -32,13 +32,16 @@
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x100
 
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 02FBC4CE-4F8F-3C4B-BCAF-C255C2BD7D0A
++  UUID: F9DB6D70-680A-38F9-AEB6-E737BD5F2A8C
    Functions: 170
 -  Symbols:   761
--  CStrings:  501
+-  CStrings:  602
 +  Symbols:   762
-+  CStrings:  502
++  CStrings:  603
  
 Symbols:
 + ___55-[_GDSServerConnection fetchBalancingAuthorityPolygons]_block_invoke.194

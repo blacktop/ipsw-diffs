@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x530e
    __TEXT.__objc_methtype: 0x1558
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE22B4FF-18E5-37EB-8E27-BD027CA77576
++  UUID: 8132A6A7-76AE-3801-BA7B-7C76B30D33DD
+   Functions: 927
+   Symbols:   507
+   CStrings:  1938
+
 ```

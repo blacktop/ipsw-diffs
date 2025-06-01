@@ -113,13 +113,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8B2F920C-8E65-3D5C-BD72-062DF4EF9C1F
 -  Functions: 1689
 -  Symbols:   12741
--  CStrings:  544
+-  CStrings:  545
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 6EC27DDF-4518-3ACC-8BF6-F6341F86336C
 +  Functions: 1971
 +  Symbols:   14714
-+  CStrings:  654
++  CStrings:  662
  
 Symbols:
 + -[AEAConcreteAirPlayPrimitives .cxx_destruct]

@@ -39,11 +39,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EFF92EC1-2C67-3CEC-887D-D90A1E359EC6
 -  Functions: 79
++  UUID: 59A3FC6C-7046-309A-97FC-79B475E4638E
 +  Functions: 85
    Symbols:   95
--  CStrings:  542
-+  CStrings:  545
+-  CStrings:  870
++  CStrings:  873
  
 CStrings:
 + "accountRatchet"

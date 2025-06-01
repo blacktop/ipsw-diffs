@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA65CF47-4B52-3C03-BBB1-310AFB9A4E20
 -  Functions: 1225
 -  Symbols:   8787
--  CStrings:  2709
+-  CStrings:  4196
++  UUID: 54C7CC4D-5C87-3664-AA07-5F4365C85993
 +  Functions: 1226
 +  Symbols:   8795
-+  CStrings:  2716
++  CStrings:  4208
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/529cd1b6-810a-11ee-9ed3-8e1462286c80/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.Internal.sdk/usr/local/lib/amd/libDER.a(DER_Decode.o)

@@ -10,8 +10,11 @@
    __TEXT.__auth_stubs: 0xb0
    __TEXT.__const: 0x42
 
+   - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 6554A3DD-1D64-3E25-A1E3-921B64E0260F
++  UUID: 5F595657-2AFF-3755-A40A-54286BA14C57
    Functions: 7
 -  Symbols:   43
 +  Symbols:   27

@@ -52,10 +52,9 @@
    __AUTH_CONST.__objc_const: 0x4cf8
 -  __AUTH_CONST.__objc_arrayobj: 0x108
 +  __AUTH_CONST.__objc_arrayobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__auth_got: 0x11e8
    __AUTH.__objc_data: 0x26f8
-
+   __AUTH.__data: 0xf8
    __DATA.__objc_protorefs: 0x168
    __DATA.__objc_classrefs: 0xb38
    __DATA.__objc_superrefs: 0x4d0
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 800A967C-8D95-3E9A-85BC-9AD33E82E60E
 -  Functions: 8216
 -  Symbols:   2085
--  CStrings:  13257
+-  CStrings:  14658
++  UUID: 61AE21E6-ED65-348D-B67A-3FD5F0AE3D97
 +  Functions: 8222
 +  Symbols:   2086
-+  CStrings:  13266
++  CStrings:  14671
  
 Symbols:
 + _IMBalloonPluginIdentifierAnimojiStickers

@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
+-  UUID: 7D8DE65F-CE16-312E-9848-616BCD9DC983
++  UUID: C96FEF4D-92D4-3DA3-B5FF-7D6618D02A10
    Functions: 24
    Symbols:   76
--  CStrings:  142
-+  CStrings:  143
+-  CStrings:  144
++  CStrings:  145
  
 CStrings:
 + "T@\"NSString\",?,R,C"

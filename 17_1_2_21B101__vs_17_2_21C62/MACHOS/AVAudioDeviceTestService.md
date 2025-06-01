@@ -21,11 +21,15 @@
    __TEXT.__objc_classname: 0x10f
    __TEXT.__objc_methtype: 0x4ae
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3385D531-4E4A-373D-B64C-D2F43149DC6B
++  UUID: 2D00BAA5-AD84-33CD-93B1-5E6374515524
    Functions: 195
    Symbols:   169
--  CStrings:  619
-+  CStrings:  621
+-  CStrings:  672
++  CStrings:  674
  
 CStrings:
 + "%25s:%-5d Failed to set audio session category. { error=%@ }"

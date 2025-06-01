@@ -43,10 +43,9 @@
    __DATA_CONST.__objc_protorefs: 0x30
    __DATA_CONST.__objc_classrefs: 0x8c0
    __DATA_CONST.__objc_superrefs: 0x508
-
+   __DATA_CONST.__objc_arraydata: 0xf70
    __AUTH_CONST.__const: 0x13378
    __AUTH_CONST.__objc_const: 0x5560
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__cfstring: 0x245c0
 +  __AUTH_CONST.__cfstring: 0x24620
    __AUTH_CONST.__objc_arrayobj: 0x1ff8
@@ -56,12 +55,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1FAA5163-16F0-391C-9229-796B322428BD
 -  Functions: 8064
 -  Symbols:   24707
--  CStrings:  12238
+-  CStrings:  16892
++  UUID: A3683D06-E302-3A43-A968-76AEFAC547DA
 +  Functions: 8070
 +  Symbols:   24725
-+  CStrings:  12248
++  CStrings:  16905
  
 Symbols:
 + -[ML3MusicLibrary(CacheManagement) _clearPurgeableArtworkOfAmount:withUrgency:]

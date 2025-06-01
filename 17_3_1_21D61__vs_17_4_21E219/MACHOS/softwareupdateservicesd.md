@@ -71,12 +71,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4A271070-D0C5-327A-9987-C31A07189330
 -  Functions: 2036
 -  Symbols:   437
--  CStrings:  3747
+-  CStrings:  4716
++  UUID: D82BB883-B3F9-3768-A67D-7D9EF347B359
 +  Functions: 2023
 +  Symbols:   455
-+  CStrings:  3728
++  CStrings:  4705
  
 Symbols:
 + _OBJC_CLASS_$_SBSSoftwareUpdateService

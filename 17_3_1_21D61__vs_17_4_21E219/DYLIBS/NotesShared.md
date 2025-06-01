@@ -71,7 +71,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x240
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x278
 -  __AUTH_CONST.__auth_got: 0x20b0
 -  __AUTH.__objc_data: 0x29f0
 +  __AUTH_CONST.__auth_got: 0x20d0
@@ -101,12 +100,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7619488C-B0BD-33C0-B60B-CAE73CF61813
 -  Functions: 17289
 -  Symbols:   35162
--  CStrings:  13287
+-  CStrings:  15097
++  UUID: 5AA6EA1E-C5B5-3101-A410-F4765E68D4B8
 +  Functions: 17393
 +  Symbols:   35354
-+  CStrings:  13396
++  CStrings:  15214
  
 Symbols:
 + +[ICAttachment(Management) predicateForAllPaperKitBackedAttachments]

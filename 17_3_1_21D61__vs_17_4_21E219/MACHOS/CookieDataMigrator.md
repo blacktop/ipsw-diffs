@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ACD4D027-9DDA-3E04-89B7-3B7A98DDBDFA
++  UUID: 4869467F-E3EA-3DD8-B7A4-CC09DB9F8B8D
+   Functions: 5
+   Symbols:   26
+   CStrings:  66
+
 ```

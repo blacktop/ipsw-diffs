@@ -41,11 +41,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75AB38AE-6D34-3726-9938-21869FCCA5A9
 -  Functions: 354
++  UUID: 96240886-F351-3AB5-95A2-2D91223A6DFD
 +  Functions: 355
    Symbols:   272
--  CStrings:  698
-+  CStrings:  699
+-  CStrings:  748
++  CStrings:  749
  
 Symbols:
 + _OBJC_CLASS_$_WBSDevice

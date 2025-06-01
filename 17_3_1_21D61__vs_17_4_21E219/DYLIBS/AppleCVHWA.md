@@ -32,7 +32,6 @@
 +  __AUTH_CONST.__const: 0xe80
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__cfstring: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x5e0
    __DATA.__got_weak: 0x8
 -  __DATA.__objc_classrefs: 0x8
@@ -54,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E0BE666-A271-3DB6-92F6-642DA0A5503C
 -  Functions: 1728
++  UUID: 7231B417-1C23-3EDC-9DE4-DDCE34525152
 +  Functions: 1748
    Symbols:   404
--  CStrings:  480
-+  CStrings:  482
+-  CStrings:  483
++  CStrings:  485
  
 CStrings:
 + "0 && \"unsupported platform\""

@@ -39,11 +39,15 @@
    __DATA.__data: 0x188
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F56EBE11-6595-33F1-B377-F9AF99987E98
++  UUID: 26E0FA1F-EC99-34A0-BA66-79491367999B
    Functions: 66
    Symbols:   366
--  CStrings:  250
-+  CStrings:  251
+-  CStrings:  253
++  CStrings:  254
  
 Symbols:
 + ___block_literal_global.249

@@ -59,10 +59,8 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x2b98
 -  __AUTH_CONST.__const: 0xa66d0
--  __AUTH_CONST.__auth_ptr: 0x3c78
 -  __AUTH_CONST.__auth_got: 0xcb60
 +  __AUTH_CONST.__const: 0xa67e0
-+  __AUTH_CONST.__auth_ptr: 0x3c70
 +  __AUTH_CONST.__auth_got: 0xcb78
    __AUTH.__objc_data: 0x90f8
    __AUTH.__data: 0x1c9e8
@@ -86,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DBBB2B78-6C52-39BE-AB81-F74935290188
 -  Functions: 100730
 -  Symbols:   24239
--  CStrings:  14447
+-  CStrings:  14451
++  UUID: 8B21F98C-5BFF-3A43-97AD-592AAA3052B1
 +  Functions: 100773
 +  Symbols:   24244
-+  CStrings:  14469
++  CStrings:  14473
  
 Symbols:
 + _keypath_getTm

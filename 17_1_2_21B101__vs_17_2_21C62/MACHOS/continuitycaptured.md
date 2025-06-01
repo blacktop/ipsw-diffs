@@ -25,11 +25,15 @@
    __TEXT.__unwind_info: 0x398
    __DATA_CONST.__auth_got: 0x338
 
+   - /System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F553C0CD-B225-3FE3-A703-3F65EBD546FE
++  UUID: 35BCD034-6C93-3C1E-9711-37CC56609752
    Functions: 171
    Symbols:   209
--  CStrings:  528
-+  CStrings:  530
+-  CStrings:  547
++  CStrings:  549
  
 CStrings:
 + "%{public}@ %s status %d shouldDisplayNotification: %d"

@@ -52,11 +52,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: A4DD60D4-A1AC-388E-9D5A-308FA7367793
 -  Functions: 400
 -  Symbols:   1778
++  UUID: 6C90138B-0504-3C6B-B282-64B911F60843
 +  Functions: 398
 +  Symbols:   1773
-   CStrings:  796
+   CStrings:  921
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

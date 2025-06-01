@@ -68,14 +68,12 @@
 +  __AUTH_CONST.__const: 0x27658
    __AUTH_CONST.__objc_intobj: 0x228
    __AUTH_CONST.__objc_arrayobj: 0x2d0
--  __AUTH_CONST.__auth_ptr: 0xef8
 -  __AUTH_CONST.__auth_got: 0x4258
 -  __AUTH.__objc_data: 0x13430
 -  __AUTH.__data: 0xaf50
 -  __DATA.__objc_protorefs: 0x1d0
 -  __DATA.__objc_classrefs: 0xaf0
 -  __DATA.__objc_superrefs: 0xf8
-+  __AUTH_CONST.__auth_ptr: 0xee8
 +  __AUTH_CONST.__auth_got: 0x42d0
 +  __AUTH.__objc_data: 0x12e18
 +  __AUTH.__data: 0xae80
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0EAD5028-B13E-3CBA-B627-4D902F19BD1D
 -  Functions: 35373
 -  Symbols:   10975
--  CStrings:  7576
+-  CStrings:  7731
++  UUID: 57AB4455-2E48-34EA-8A82-8EAA6A98BCB8
 +  Functions: 35503
 +  Symbols:   10997
-+  CStrings:  7609
++  CStrings:  7764
  
 Symbols:
 + __PROTOCOLS__TtC18HealthExperienceUIP33_32BBCFBB356028961E4520309C3A50C420DataMetadataDelegate.73

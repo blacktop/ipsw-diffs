@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 488CC994-A87D-30DD-83AA-131CBE3B93B7
 -  Functions: 2028
 -  Symbols:   404
--  CStrings:  3523
+-  CStrings:  4292
++  UUID: CB160328-429F-320A-8EA7-3BE29014A251
 +  Functions: 2091
 +  Symbols:   414
-+  CStrings:  3622
++  CStrings:  4399
  
 Symbols:
 + _CFDataCreate

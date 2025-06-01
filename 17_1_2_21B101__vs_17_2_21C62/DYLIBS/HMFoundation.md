@@ -43,8 +43,8 @@
 +  __AUTH_CONST.__const: 0xa78
 +  __AUTH_CONST.__cfstring: 0x4bc0
    __AUTH_CONST.__objc_const: 0x3f88
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x9d0
+   __AUTH.__objc_data: 0x1040
 
    __DATA.__objc_classrefs: 0x560
    __DATA.__objc_superrefs: 0x378
@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 95D042D7-8CBF-3C49-9886-26DD61177FEF
 -  Functions: 2436
 -  Symbols:   8484
--  CStrings:  3818
+-  CStrings:  4421
++  UUID: 1781F215-31D4-3D0A-B50A-A399DCE3C812
 +  Functions: 2445
 +  Symbols:   8514
-+  CStrings:  3829
++  CStrings:  4435
  
 Symbols:
 + +[HMFSoftwareVersion isValidVersionString:]

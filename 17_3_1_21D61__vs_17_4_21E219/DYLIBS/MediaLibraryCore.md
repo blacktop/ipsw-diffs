@@ -21,7 +21,6 @@
    __DATA_CONST.__const: 0x160
    __AUTH_CONST.__const: 0xc0
    __AUTH_CONST.__cfstring: 0xe80
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xa00
 +  __AUTH_CONST.__auth_got: 0x9e8
    __AUTH.__const_weak: 0x200
@@ -40,11 +39,13 @@
    - /System/Library/PrivateFrameworks/MediaPlatform.framework/MediaPlatform
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 3CB75659-156A-3F40-A0A4-C1C58F7A6B0D
 -  Functions: 7293
 -  Symbols:   17596
++  UUID: AFF66436-C421-3095-A3AC-37D329474B23
 +  Functions: 7705
 +  Symbols:   18477
-   CStrings:  1419
+   CStrings:  1535
  
 Symbols:
 + GCC_except_table1001

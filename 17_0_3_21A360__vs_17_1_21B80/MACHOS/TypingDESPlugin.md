@@ -15,10 +15,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6628C6F2-85F7-33C8-9E70-52C8F4350BC2
 -  Functions: 210
++  UUID: AEAE962E-8747-3B47-9876-F5B0125104BB
 +  Functions: 213
    Symbols:   210
-   CStrings:  191
+   CStrings:  224
  
 
 ```

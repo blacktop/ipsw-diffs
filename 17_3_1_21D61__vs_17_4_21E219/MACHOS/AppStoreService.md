@@ -28,11 +28,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/FileProviderDaemon.framework/FileProviderDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E938B843-6E12-38CA-872F-7D04D335FE6B
++  UUID: 864C51D3-D1F1-3315-B3FB-92185D1D6970
    Functions: 18
    Symbols:   70
--  CStrings:  99
-+  CStrings:  100
+-  CStrings:  112
++  CStrings:  113
  
 CStrings:
 + "T@\"NSString\",?,R,C"

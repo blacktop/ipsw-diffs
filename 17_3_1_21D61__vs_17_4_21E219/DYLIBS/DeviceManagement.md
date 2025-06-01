@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 486D44E3-7EC5-3791-89BE-8956C9A1B0BE
 -  Functions: 2224
 -  Symbols:   7830
--  CStrings:  3073
+-  CStrings:  3992
++  UUID: 302E3D2E-5792-38E6-9CB0-E6856F1E0D87
 +  Functions: 2226
 +  Symbols:   7839
-+  CStrings:  3080
++  CStrings:  4001
  
 Symbols:
 + -[DMFApp distributorIdentifier]

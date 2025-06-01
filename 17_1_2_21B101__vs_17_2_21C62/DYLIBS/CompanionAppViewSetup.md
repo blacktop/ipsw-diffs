@@ -66,12 +66,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DC3C2A0-A39E-36ED-AED9-07C9E199D53E
 -  Functions: 12
 -  Symbols:   96
--  CStrings:  48
+-  CStrings:  60
++  UUID: 65A79A7D-C253-3290-9A03-7968652EE244
 +  Functions: 60
 +  Symbols:   330
-+  CStrings:  323
++  CStrings:  507
  
 Symbols:
 + +[CSLUIFieldOfIconsViewAccessibility _accessibilityPerformValidations:]

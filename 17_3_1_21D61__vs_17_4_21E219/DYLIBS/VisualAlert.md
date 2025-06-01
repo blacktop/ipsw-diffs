@@ -35,11 +35,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x68
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6FC76076-2DAC-3411-A8A3-62ACC4B956C9
++  UUID: 545493F9-2E03-330A-9DEA-3E6319DD0D67
    Functions: 199
    Symbols:   877
--  CStrings:  530
-+  CStrings:  531
+-  CStrings:  681
++  CStrings:  682
  
 Symbols:
 + ___57-[AXVisualAlertManager _setTorchDeviceOn:withCompletion:]_block_invoke.462

@@ -19,4 +19,13 @@
    __TEXT.__objc_classname: 0x174
    __TEXT.__objc_methname: 0x264c
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3549AA3C-B4E6-34C1-A4E1-5B5CECB4CD72
++  UUID: B844BCBD-BB35-3973-BC33-ABAFF947BD0A
+   Functions: 399
+   Symbols:   1268
+   CStrings:  847
+
 ```

@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/PhotoFoundation.framework/PhotoFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73BD8E18-3F74-3615-BF3F-D04F68CE9154
 -  Functions: 491
 -  Symbols:   2070
--  CStrings:  1192
+-  CStrings:  1259
++  UUID: 9E5ED8B8-6C63-3A95-A3E0-6B872D293F09
 +  Functions: 494
 +  Symbols:   2080
-+  CStrings:  1198
++  CStrings:  1265
  
 Symbols:
 + -[NUMediaViewRenderer canUpdateDisplayHeadroom]

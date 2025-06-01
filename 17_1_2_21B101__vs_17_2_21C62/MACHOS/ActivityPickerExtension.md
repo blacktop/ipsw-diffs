@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 54C5907E-5E87-3CE2-9252-3CB1FC44F290
 -  Functions: 1147
++  UUID: D1E6D618-8A57-37A5-B765-9814954C1163
 +  Functions: 1145
    Symbols:   166
--  CStrings:  162
-+  CStrings:  161
+-  CStrings:  163
++  CStrings:  162
  
 CStrings:
 - "Unknown application, category, or web domain."

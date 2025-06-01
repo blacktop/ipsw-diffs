@@ -30,11 +30,15 @@
    __AUTH_CONST.__const: 0x500
    __AUTH_CONST.__cfstring: 0x420
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC2DA20C-2B7A-38AF-AAD5-B6EEECFB4842
++  UUID: 688EBF35-DB29-3AB6-8FD9-5F185214FC1A
    Functions: 482
    Symbols:   2069
--  CStrings:  1293
-+  CStrings:  1296
+-  CStrings:  1326
++  CStrings:  1329
  
 CStrings:
 + "iconView:userInterfaceStyleForConfigurationInteraction:"

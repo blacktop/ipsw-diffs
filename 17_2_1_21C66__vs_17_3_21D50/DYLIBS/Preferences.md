@@ -54,12 +54,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 8E1FDD52-BC80-3050-B89C-BCCCAEFB69AD
 -  Functions: 4930
 -  Symbols:   17265
--  CStrings:  8260
+-  CStrings:  9888
++  UUID: FB122D5B-9F56-3533-A225-E4409E311718
 +  Functions: 4934
 +  Symbols:   17277
-+  CStrings:  8263
++  CStrings:  9891
  
 Symbols:
 + GCC_except_table95

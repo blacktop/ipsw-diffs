@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0x17
    __TEXT.__objc_methname: 0x13f
 
+   __DATA_CONST.__objc_protorefs: 0x10
    __AUTH_CONST.__const: 0x1960
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__auth_got: 0x808
 -  __DATA.__data: 0x2f0
 -  __DATA.__bss: 0x1680
@@ -35,5 +35,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: 12881D3A-4D16-3D2C-9100-D2AD7D213AD3
++  UUID: 3AC71960-F2E6-3853-93D1-5F7B5D1AB99B
+   Functions: 1551
+   Symbols:   4364
+   CStrings:  135
 
 ```

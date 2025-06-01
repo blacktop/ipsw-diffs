@@ -37,7 +37,6 @@
 +  __DATA_CONST.__objc_const: 0x2478
 +  __DATA_CONST.__objc_selrefs: 0xd70
    __AUTH_CONST.__objc_const: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0xa40
 +  __AUTH_CONST.__cfstring: 0xaa0
    __AUTH_CONST.__objc_intobj: 0x18
@@ -54,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CA4A3AC-4802-31EB-BCC4-5EA33049269D
 -  Functions: 483
 -  Symbols:   1921
--  CStrings:  901
+-  CStrings:  983
++  UUID: 0FC22025-1A56-35A6-AE82-6CE90B91CB02
 +  Functions: 487
 +  Symbols:   1936
-+  CStrings:  913
++  CStrings:  998
  
 Symbols:
 + -[AAFAnalyticsEvent setTopLevelError:]

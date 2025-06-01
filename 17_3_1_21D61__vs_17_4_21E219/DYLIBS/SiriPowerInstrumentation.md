@@ -21,4 +21,13 @@
    __DATA.__data: 0x8
    __DATA_DIRTY.__objc_const: 0x1f38
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D81A16F-E682-392C-9EDA-4FADC075B23C
++  UUID: F65D5C94-DCF8-33DF-A5B5-980A823C5D58
+   Functions: 221
+   Symbols:   972
+   CStrings:  426
+
 ```

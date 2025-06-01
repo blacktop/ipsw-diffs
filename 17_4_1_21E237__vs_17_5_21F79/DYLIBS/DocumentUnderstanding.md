@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BB50D081-3A62-357B-9D43-0B432AF40287
++  UUID: B750F528-D38C-3E4D-B04E-6C80A62DA3ED
+   Functions: 15713
+   Symbols:   35969
+   CStrings:  4703
+
 ```

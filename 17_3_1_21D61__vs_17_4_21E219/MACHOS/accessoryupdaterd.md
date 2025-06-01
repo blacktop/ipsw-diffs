@@ -68,12 +68,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D65BD361-469F-3F64-B2B5-6E910B7E2C5E
 -  Functions: 1790
 -  Symbols:   407
--  CStrings:  3665
+-  CStrings:  4694
++  UUID: 901BA7F1-1935-3487-9AC1-23FD3BA11A5A
 +  Functions: 1868
 +  Symbols:   412
-+  CStrings:  3664
++  CStrings:  4693
  
 Symbols:
 + _UARPStringPcapFilesFilepath

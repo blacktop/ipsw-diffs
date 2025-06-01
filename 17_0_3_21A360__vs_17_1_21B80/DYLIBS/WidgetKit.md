@@ -55,11 +55,9 @@
    __AUTH_CONST.__objc_const: 0x390
    __AUTH_CONST.__cfstring: 0xa0
 -  __AUTH_CONST.__const: 0xf368
--  __AUTH_CONST.__auth_ptr: 0x328
 -  __AUTH_CONST.__auth_got: 0x1da8
 -  __AUTH.__data: 0x2da0
 +  __AUTH_CONST.__const: 0xf370
-+  __AUTH_CONST.__auth_ptr: 0x330
 +  __AUTH_CONST.__auth_got: 0x1da0
 +  __AUTH.__data: 0x2e98
    __AUTH.__objc_data: 0x480
@@ -77,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 25200D83-3431-3D14-B966-FF6F9FA0D566
 -  Functions: 9053
 -  Symbols:   2921
--  CStrings:  897
+-  CStrings:  902
++  UUID: 05732BAF-E3F5-37B7-8DCB-8B30686AF4F2
 +  Functions: 9063
 +  Symbols:   2926
-+  CStrings:  906
++  CStrings:  911
  
 Symbols:
 + __DATA__TtC9WidgetKit30WidgetExtensionSessionWatchdog

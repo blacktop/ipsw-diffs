@@ -32,6 +32,15 @@
    __DATA_DIRTY.__common: 0x4
    - /System/Library/Frameworks/CoreData.framework/CoreData
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: BC68100A-EABC-3367-B635-8DE7EB32A7CC
++  UUID: DAD7EAFD-112A-3D8A-AEC2-B319C8E2FC78
+   Functions: 4296
+   Symbols:   13365
+   CStrings:  9213
 CStrings:
 + "PommesSuggestions2023"
 - "PommesSuggestionsDawn"

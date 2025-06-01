@@ -14,6 +14,15 @@
    __TEXT.__const: 0x12b0
    __TEXT.__oslogstring: 0x17a1
    __TEXT.__gcc_except_tab: 0x80
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 347562FB-BDC1-3CD6-8C6E-B29A3563A5BB
++  UUID: 142E199E-F58E-3EDE-86E6-61E26532A1F8
+   Functions: 189
+   Symbols:   914
+   CStrings:  551
 Symbols:
 + _ACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR
 + _kCFACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR

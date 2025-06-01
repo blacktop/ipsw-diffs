@@ -15,4 +15,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FBE316E3-5F56-3509-998D-697F2F30C8C9
++  UUID: 4CA77C14-110A-34B7-8F8D-01007A9C3402
+   Functions: 22
+   Symbols:   73
+   CStrings:  226
+
 ```

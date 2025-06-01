@@ -66,7 +66,6 @@
 +  __AUTH_CONST.__const: 0x17a0
    __AUTH_CONST.__objc_intobj: 0x13b0
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x1f8
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_floatobj: 0x20
@@ -101,12 +100,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 76F1B816-2A16-33B6-AF26-9DF0172A76F1
 -  Functions: 5750
 -  Symbols:   21542
--  CStrings:  7761
+-  CStrings:  9028
++  UUID: 80EE252D-3EF8-33B0-A064-B4C322BF5257
 +  Functions: 5916
 +  Symbols:   22192
-+  CStrings:  7910
++  CStrings:  9210
  
 Symbols:
 + +[GCDevicePhysicalInputCapacitiveButtonElementDescription(Client) parametersClass]

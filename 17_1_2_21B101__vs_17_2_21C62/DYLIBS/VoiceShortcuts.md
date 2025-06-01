@@ -55,11 +55,10 @@
 -  __DATA_CONST.__objc_selrefs: 0x47b0
 -  __DATA_CONST.__objc_arraydata: 0x8
 -  __AUTH_CONST.__const: 0x3650
+-  __AUTH_CONST.__objc_const: 0x25c0
 +  __DATA_CONST.__objc_selrefs: 0x47c0
 +  __DATA_CONST.__objc_arraydata: 0x10
 +  __AUTH_CONST.__const: 0x3738
-   __AUTH_CONST.__auth_ptr: 0x98
--  __AUTH_CONST.__objc_const: 0x25c0
 +  __AUTH_CONST.__objc_const: 0x2600
    __AUTH_CONST.__cfstring: 0x4100
    __AUTH_CONST.__objc_intobj: 0x2b8
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0ECAD0D-2234-3C0A-A005-C59E4609529F
 -  Functions: 4336
 -  Symbols:   9210
--  CStrings:  5733
+-  CStrings:  6253
++  UUID: AB839F0A-991A-3494-84E4-38A013FA6861
 +  Functions: 4355
 +  Symbols:   9221
-+  CStrings:  5737
++  CStrings:  6257
  
 Symbols:
 + -[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]

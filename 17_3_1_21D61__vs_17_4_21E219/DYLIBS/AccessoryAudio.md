@@ -36,11 +36,15 @@
    __DATA.__data: 0x180
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5544F49-63AF-344F-B09C-B08D00BB008A
++  UUID: 8E0A9B2E-108A-3D3F-8136-6D84E1AA6CB3
    Functions: 109
    Symbols:   396
--  CStrings:  162
-+  CStrings:  163
+-  CStrings:  168
++  CStrings:  169
  
 Symbols:
 + ___33-[ACCAudioClient connectToServer]_block_invoke.64

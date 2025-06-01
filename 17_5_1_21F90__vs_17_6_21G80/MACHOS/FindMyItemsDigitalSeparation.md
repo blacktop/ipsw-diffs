@@ -25,7 +25,11 @@
    __DATA.__objc_data: 0x2c8
    __DATA.__data: 0x510
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D0A0ADBE-700F-317E-9ABA-917CD68A5737
++  UUID: 484645DF-B889-3AB1-A270-678E896D34D3
    Functions: 198
    Symbols:   112
 -  CStrings:  322

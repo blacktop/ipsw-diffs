@@ -15,6 +15,15 @@
    __TEXT.__ustring: 0x1d6
    __TEXT.__oslogstring: 0x36e
    __TEXT.__gcc_except_tab: 0x164
+
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1FA3209B-3806-3119-8563-FAD46EAE3E4E
++  UUID: 3B957DE9-19F1-37DC-A4EF-47D8FFE6494F
+   Functions: 654
+   Symbols:   2525
+   CStrings:  1190
 CStrings:
 + "ABPersonSortOrdering ABPersonGetSortOrdering(void)"
 + "ABRecordRef ABGroupCreate(void)"

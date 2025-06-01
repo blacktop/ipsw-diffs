@@ -45,11 +45,13 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D58DB68-89BE-3ABD-8985-45562DFC4278
 -  Functions: 3674
 -  Symbols:   13930
++  UUID: C86EAEDC-7814-3049-AEB1-277541702A0C
 +  Functions: 3675
 +  Symbols:   13936
-   CStrings:  6458
+   CStrings:  7387
  
 Symbols:
 + -[DNDSModernAssertionSyncManager initWithClientDetailsProvider:localSyncService:cloudSyncService:keybag:]

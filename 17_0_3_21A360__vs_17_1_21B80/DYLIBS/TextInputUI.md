@@ -47,7 +47,7 @@
 +  __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__auth_got: 0x6e0
 
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x630
@@ -65,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C5B533B5-C248-391D-B8AC-65985C985843
 -  Functions: 2475
 -  Symbols:   9532
--  CStrings:  4812
+-  CStrings:  5086
++  UUID: D5F1377B-E126-3788-ACB4-0DD880666D76
 +  Functions: 2487
 +  Symbols:   9573
-+  CStrings:  4834
++  CStrings:  5110
  
 Symbols:
 + -[TIKeyboardCandidate(UIKeyboardAdditions) isStickerCandidate]

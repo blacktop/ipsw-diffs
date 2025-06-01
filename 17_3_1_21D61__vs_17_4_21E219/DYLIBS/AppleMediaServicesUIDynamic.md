@@ -64,9 +64,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x28
    __DATA_CONST.__objc_arraydata: 0xb0
 -  __AUTH_CONST.__const: 0x8af8
--  __AUTH_CONST.__auth_ptr: 0x2c8
 +  __AUTH_CONST.__const: 0x8e00
-+  __AUTH_CONST.__auth_ptr: 0x2d8
    __AUTH_CONST.__objc_const: 0x4a0
    __AUTH_CONST.__cfstring: 0xce0
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 07942260-6B81-349F-B787-439E4AC072CD
 -  Functions: 6761
 -  Symbols:   4616
--  CStrings:  1848
+-  CStrings:  1951
++  UUID: 1E34D584-0B82-3D42-B427-26FFD325E646
 +  Functions: 6904
 +  Symbols:   4747
-+  CStrings:  1885
++  CStrings:  1988
  
 Symbols:
 + _OBJC_CLASS_$_NSLayoutManager

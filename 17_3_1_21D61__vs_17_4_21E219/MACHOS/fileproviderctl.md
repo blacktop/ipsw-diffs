@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F12F05B-E451-3F4E-ABB8-B383D356411A
 -  Functions: 342
 -  Symbols:   278
--  CStrings:  950
+-  CStrings:  1255
++  UUID: DE8E1660-CB98-32E8-84BA-6E946DC44329
 +  Functions: 163
 +  Symbols:   194
-+  CStrings:  498
++  CStrings:  681
  
 Symbols:
 + _NSFileProviderInternalErrorDomain
@@ -181,9 +183,10 @@ CStrings:
 + "runFPCKForDomainWithID:domainRootURL:databaseBackupPath:options:reason:launchType:completionHandler:"
 + "v84@?0i8r^*12@\"NSFileHandle\"20@\"NSURL\"28@\"NSURL\"36B44B48B52B56@\"NSString\"60Q68@\"NSError\"76"
 + "xpc"
+- "\x01&\x0f\xfe"
 - "\x04"
+- "\x05'"
 - "\t"
-- "\n"
 - "\nResults:\n"
 - "\x11"
 - "  "
@@ -193,6 +196,7 @@ CStrings:
 - "  ingest "
 - "  lookup "
 - "  update "
+- " &\x0f\xfe "
 - " - signalling item %@ on provider %@ failed with error %@"
 - " - signalling item %@ on provider %@ succeeded"
 - " from "
@@ -228,6 +232,9 @@ CStrings:
 - "<dst> <src>"
 - "<path>"
 - "<path> <operations> <duration> <nitems> [seed]"
+- "<\xd81\xdf"
+- "<\xd8@\xdf "
+- "=\xd8h\xdc<\xd8\xfc\xdf\r =ػ\xdc "
 - "> "
 - "@\"<FPCollectionDataSourceDelegate>\""
 - "@\"<FPCollectionDataSourceDelegate>\"16@0:8"
@@ -320,6 +327,8 @@ CStrings:
 - "Signalling item %@ on provider %@"
 - "Simulates the provider signaling that an error is resolved. If no error code is passed, all signalable errors will be signaled."
 - "Specified operation %s is not available and it is ignored"
+- "T'"
+- "T'\t"
 - "T@\"<FPCollectionDataSourceDelegate>\",W,N"
 - "T@\"<FPCollectionDataSourceDelegate>\",W,N,V_delegate"
 - "T@\"FPProviderDomain\",&,N,V_providerDomain"
@@ -334,6 +343,7 @@ CStrings:
 - "The file is fully materialized"
 - "Tq,R,N"
 - "Wrote %zd bytes in file %@"
+- "["
 - "[-PA] <domainid>"
 - "[CRIT] %{public}@"
 - "[ERROR] Invalid number of index paths; from (%lu) and to (%lu) should contain the same number of paths"

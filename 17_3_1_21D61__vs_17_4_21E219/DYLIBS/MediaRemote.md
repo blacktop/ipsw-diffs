@@ -46,6 +46,8 @@
 -  __AUTH_CONST.__cfstring: 0x1d5e0
 -  __AUTH_CONST.__objc_const: 0xb748
 -  __AUTH_CONST.__const: 0x3040
+-  __AUTH_CONST.__objc_intobj: 0x390
+-  __AUTH_CONST.__objc_arrayobj: 0x108
 +  __DATA_CONST.__objc_const: 0x34f88
 +  __DATA_CONST.__objc_selrefs: 0xd0d0
 +  __DATA_CONST.__objc_protorefs: 0x88
@@ -55,9 +57,6 @@
 +  __AUTH_CONST.__cfstring: 0x1e0a0
 +  __AUTH_CONST.__objc_const: 0xb988
 +  __AUTH_CONST.__const: 0x3000
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__objc_intobj: 0x390
--  __AUTH_CONST.__objc_arrayobj: 0x108
 +  __AUTH_CONST.__objc_intobj: 0x3c0
 +  __AUTH_CONST.__objc_arrayobj: 0x138
    __AUTH_CONST.__objc_dictobj: 0x50
@@ -91,12 +90,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9325669A-60C7-35D7-9F81-95045CDCAD4E
 -  Functions: 17935
 -  Symbols:   48763
--  CStrings:  17680
+-  CStrings:  21439
++  UUID: C014EC31-D60C-32F0-9DE7-2F66A62A2F0B
 +  Functions: 18079
 +  Symbols:   49158
-+  CStrings:  17882
++  CStrings:  21727
  
 Symbols:
 + +[MRAVEndpoint pauseOutputDeviceUIDs:details:queue:completion:]

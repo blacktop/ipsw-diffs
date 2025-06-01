@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0xc0
    __TEXT.__const: 0x58
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C44A4B27-2E79-3FFA-A62A-AEE9DA55032C
++  UUID: 083CC787-F48A-3813-AF43-88F90A350E72
+   Functions: 8
+   Symbols:   58
+   CStrings:  26
+
 ```

@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /usr/appleinternal/lib/liblinkguard.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2763949-1F63-36D9-8542-82BD9809E82C
++  UUID: 9A47F17D-928A-3E21-AC6F-7E497145494F
    Functions: 11
    Symbols:   51
--  CStrings:  107
-+  CStrings:  108
+-  CStrings:  117
++  CStrings:  118
  
 CStrings:
 + "T@\"NSString\",?,R,C"

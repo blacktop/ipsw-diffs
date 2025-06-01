@@ -26,12 +26,14 @@
    - /usr/lib/libipconfig.dylib
    - /usr/lib/libmdns.dylib
    - /usr/lib/libmrc.dylib
+-  UUID: 7D1346ED-EAE8-3064-AEBD-256B9C243B9A
 -  Functions: 359
 -  Symbols:   876
--  CStrings:  1829
+-  CStrings:  1839
++  UUID: 8BD2C2BA-4222-3EDD-9DE2-EB3C8F32E6DD
 +  Functions: 361
 +  Symbols:   879
-+  CStrings:  1845
++  CStrings:  1855
  
 Symbols:
 + _arc4random

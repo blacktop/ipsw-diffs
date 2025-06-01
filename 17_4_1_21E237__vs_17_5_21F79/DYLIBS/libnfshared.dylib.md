@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_intobj: 0x1f8
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x650
 +  __AUTH_CONST.__auth_got: 0x660
    __AUTH.__objc_data: 0x460
@@ -59,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DACFB76-12E3-361E-91B0-B28A255CAE60
 -  Functions: 660
 -  Symbols:   2404
--  CStrings:  1739
+-  CStrings:  2162
++  UUID: 2595270B-5362-34BE-AE60-944565FECEC5
 +  Functions: 662
 +  Symbols:   2411
-+  CStrings:  1742
++  CStrings:  2168
  
 Symbols:
 + _CFStringCompare

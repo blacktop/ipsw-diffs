@@ -49,13 +49,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CAB0D7C-B188-3A0E-A4B9-A78AD506CC68
++  UUID: E94738F5-A85B-3399-82EA-C9A05A9689DA
    Functions: 653
 -  Symbols:   2645
--  CStrings:  1358
+-  CStrings:  1480
 +  Symbols:   2644
-+  CStrings:  1359
++  CStrings:  1482
  
 Symbols:
 + -[ATSocket description]

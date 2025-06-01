@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x210
 
+   - /System/Library/PrivateFrameworks/DialogEngine.framework/DialogEngine
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FDD336E-9BD5-3D6E-9C6A-2886AAD616BD
++  UUID: F27B89BE-D3B1-3190-9142-E4470CCD85AD
    Functions: 90
    Symbols:   100
--  CStrings:  280
-+  CStrings:  283
+-  CStrings:  281
++  CStrings:  284
  
 CStrings:
 + "T@\"NSString\",?,R,C"

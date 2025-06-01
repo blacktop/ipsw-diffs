@@ -39,6 +39,15 @@
    __DATA_DIRTY.__objc_data: 0x5a0
    __DATA_DIRTY.__data: 0x8
    __DATA_DIRTY.__bss: 0x30
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DD6C70F0-93DA-326D-B07F-E598447F841D
++  UUID: 6729467E-2C08-3890-B972-87C7AAF05C84
+   Functions: 2106
+   Symbols:   6061
+   CStrings:  3497
 Symbols:
 + -[SFB332SetupObserver updateDeviceInfoWithDeviceType:batteryLevel:batteryLevelKnown:edge:orientation:isCharging:identifier:]
 + _objc_msgSend$updateDeviceInfoWithDeviceType:batteryLevel:batteryLevelKnown:edge:orientation:isCharging:identifier:

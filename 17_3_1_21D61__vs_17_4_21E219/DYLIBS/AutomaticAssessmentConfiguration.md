@@ -26,4 +26,13 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/AACCore.framework/AACCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 72217475-8D24-37D2-89CB-BA7E95530F08
++  UUID: FD37C335-4990-3CED-88E1-A622B61B9D06
+   Functions: 110
+   Symbols:   433
+   CStrings:  218
+
 ```

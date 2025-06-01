@@ -20,6 +20,15 @@
    __TEXT.__ustring: 0x4c2
    __TEXT.__oslogstring: 0x245
    __TEXT.__dlopen_cstrs: 0x1a5
+
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpcap.A.dylib
+-  UUID: D828C527-93DB-3948-8344-85EA8808240E
++  UUID: 1F95B994-F7C5-30AB-9B73-E10C69266E2A
+   Functions: 5248
+   Symbols:   1280
+   CStrings:  18311
 CStrings:
 + "Preferences SpringBoard Carousel WiFiPickerExtens Setup budd sharingd demod BundledIntentHandler SiriViewService assistantd assistant_service Siri SettingsIntentExtension NanoSettings PineBoard TVSettings SoundBoard RealityControlCenter mobilewifitool WirelessStress coreautomationd wifiutil NanoWiFiViewService ATKWiFiFramework WiFiViewService hQT XCTestInternalAngel HPSetup"
 + "WiFiManager-1664.2 Dec 21 2023 00:07:19"

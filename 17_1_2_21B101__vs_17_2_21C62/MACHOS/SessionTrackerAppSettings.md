@@ -47,12 +47,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 120032B4-47E0-31C2-8EC6-C702CE9994E8
 -  Functions: 749
 -  Symbols:   385
--  CStrings:  1226
+-  CStrings:  1521
++  UUID: BD5036F6-C385-31D0-963E-0358638FB096
 +  Functions: 750
 +  Symbols:   386
-+  CStrings:  1229
++  CStrings:  1526
  
 Symbols:
 + _FIUIShouldConfirmEndingWorkout

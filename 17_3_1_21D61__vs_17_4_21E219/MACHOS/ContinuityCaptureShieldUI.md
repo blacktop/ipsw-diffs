@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4749E41D-A16B-35E7-8CD7-52079A815E00
 -  Functions: 201
 -  Symbols:   156
--  CStrings:  856
+-  CStrings:  933
++  UUID: 2E241F1B-48CC-3667-A9E8-3368F122B2A5
 +  Functions: 210
 +  Symbols:   159
-+  CStrings:  963
++  CStrings:  1042
  
 Symbols:
 + _NSFontAttributeName

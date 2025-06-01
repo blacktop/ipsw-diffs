@@ -56,12 +56,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 446AA1F0-64E4-3EFD-976E-86774399B195
 -  Functions: 164
 -  Symbols:   703
--  CStrings:  407
+-  CStrings:  579
++  UUID: AAD963D2-6EFC-3454-98E2-411F1544976A
 +  Functions: 163
 +  Symbols:   706
-+  CStrings:  410
++  CStrings:  583
  
 Symbols:
 + -[SDRDiagnosticReporter checkSignatureValidity:]

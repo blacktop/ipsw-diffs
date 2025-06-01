@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0EDAF4DB-C462-3E34-B945-D07B4FDB1E18
 -  Functions: 712
 -  Symbols:   2773
--  CStrings:  1613
+-  CStrings:  1777
++  UUID: DD0F1920-56D3-36DC-BF3D-D62D7CC4BBB8
 +  Functions: 716
 +  Symbols:   2785
-+  CStrings:  1617
++  CStrings:  1781
  
 Symbols:
 + -[CinematicFramingRenderer frontCameraHas180DegreesRotation]

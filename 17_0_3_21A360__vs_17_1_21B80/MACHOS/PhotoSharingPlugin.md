@@ -10,4 +10,13 @@
    __TEXT.__auth_stubs: 0x290
    __TEXT.__objc_stubs: 0xae0
 
+   - /System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 639C4AA4-ABE1-346B-BB7F-7AADAFB34CCF
++  UUID: 57A5BB83-A7E5-3E1C-A73A-875DF19DA14D
+   Functions: 53
+   Symbols:   75
+   CStrings:  371
+
 ```

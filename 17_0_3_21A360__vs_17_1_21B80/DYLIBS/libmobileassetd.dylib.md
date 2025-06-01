@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__cfstring: 0x26560
    __AUTH_CONST.__objc_const: 0x3000
 -  __AUTH_CONST.__const: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__const: 0xa20
    __AUTH_CONST.__objc_intobj: 0x330
    __AUTH_CONST.__objc_arrayobj: 0x108
@@ -73,12 +72,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libimg4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05E327EC-C887-3B75-8EDF-55425293DE1C
 -  Functions: 4826
 -  Symbols:   15549
--  CStrings:  11750
+-  CStrings:  16493
++  UUID: 729375A4-D568-3566-B882-00456572ADF3
 +  Functions: 4872
 +  Symbols:   15817
-+  CStrings:  12264
++  CStrings:  17171
  
 Symbols:
 + +[MADAutoAssetControlManager autoAssetStagerJobDownloadDone:withDownloadedDescriptor:withDownloadError:]

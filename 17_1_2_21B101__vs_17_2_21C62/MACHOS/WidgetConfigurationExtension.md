@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x70
 
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 484FCC27-9539-340E-8D92-26DC1E1FE4B7
++  UUID: 53A0173C-7842-36DC-8CD6-7FBFA23BCF3B
    Functions: 222
    Symbols:   164
--  CStrings:  853
-+  CStrings:  856
+-  CStrings:  875
++  CStrings:  880
  
 CStrings:
 + "%s Unable to create WFHandleCustomIntentAction because intent is an app intent. Identifier: %{public}@, launchId: %{public}@, remote: %{public}@"

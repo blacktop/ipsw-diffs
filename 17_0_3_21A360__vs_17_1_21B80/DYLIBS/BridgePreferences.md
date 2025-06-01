@@ -35,13 +35,16 @@
    __AUTH_CONST.__objc_const: 0xca8
    __AUTH_CONST.__objc_intobj: 0x78
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3C7ADC6-F9B5-3FAD-84BB-64CC0F081020
++  UUID: D9A7A2BD-C8D6-36D8-809F-95BD261D1B7D
    Functions: 899
 -  Symbols:   3459
--  CStrings:  2165
+-  CStrings:  2626
 +  Symbols:   3460
-+  CStrings:  2167
++  CStrings:  2630
  
 Symbols:
 + _BPSEltonCapabilityKey

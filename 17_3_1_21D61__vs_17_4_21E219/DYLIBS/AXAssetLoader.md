@@ -42,11 +42,15 @@
    __DATA_DIRTY.__objc_data: 0x6e0
    __DATA_DIRTY.__bss: 0xc0
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B0C3A24-50CB-3548-87AE-CB556FAB24B7
++  UUID: 6E128DE3-B4FB-3D06-BEDF-48FE50FE2908
    Functions: 505
    Symbols:   1796
--  CStrings:  819
-+  CStrings:  820
+-  CStrings:  931
++  CStrings:  932
  
 Symbols:
 + ___122-[AXAssetController refreshAssetsByForceUpdatingCatalog:updatingCatalogIfNeeded:catalogRefreshOverrideTimeout:completion:]_block_invoke.250

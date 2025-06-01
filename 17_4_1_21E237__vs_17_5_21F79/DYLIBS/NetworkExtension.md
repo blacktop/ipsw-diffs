@@ -64,11 +64,10 @@
    __DATA_CONST.__objc_superrefs: 0x6c0
    __DATA_CONST.__objc_arraydata: 0x118
 -  __AUTH_CONST.__const: 0xdb8
-+  __AUTH_CONST.__const: 0xde8
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0x15660
 -  __AUTH_CONST.__objc_intobj: 0x3c0
++  __AUTH_CONST.__const: 0xde8
 +  __AUTH_CONST.__objc_const: 0x88
 +  __AUTH_CONST.__cfstring: 0x15680
 +  __AUTH_CONST.__objc_intobj: 0x378
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A74A1A36-20D5-379F-A05C-8C333F55677C
 -  Functions: 6022
 -  Symbols:   20270
--  CStrings:  11266
+-  CStrings:  14005
++  UUID: F254BF8B-9924-334A-B5F7-8829C1B1BC16
 +  Functions: 6113
 +  Symbols:   20328
-+  CStrings:  11278
++  CStrings:  14018
  
 Symbols:
 + -[NEAppPushCallKitXPCClient registerVoIPMessagePayload]

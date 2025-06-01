@@ -65,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B02180DE-6476-356D-89D7-CC896F237025
 -  Functions: 10892
 -  Symbols:   35255
--  CStrings:  21751
+-  CStrings:  25235
++  UUID: D36CDE19-4A77-32B7-8E91-19FF2992E35C
 +  Functions: 10917
 +  Symbols:   35366
-+  CStrings:  21853
++  CStrings:  25364
  
 Symbols:
 + -[CellOutrankMetrics _dailyOutrankMetricDictionary]

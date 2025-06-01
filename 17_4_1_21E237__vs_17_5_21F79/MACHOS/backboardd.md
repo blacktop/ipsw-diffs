@@ -85,12 +85,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsp.dylib
+-  UUID: F5613984-9B67-3FEB-96F3-0A586951BEA5
 -  Functions: 3046
 -  Symbols:   743
--  CStrings:  6142
+-  CStrings:  7167
++  UUID: E2B2EF23-9482-36B4-8387-D2A85DB9C8E2
 +  Functions: 3080
 +  Symbols:   747
-+  CStrings:  6228
++  CStrings:  7265
  
 Symbols:
 + _IOHIDEventGetVendorDefinedData

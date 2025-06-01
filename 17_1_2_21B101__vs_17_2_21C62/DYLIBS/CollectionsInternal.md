@@ -15,7 +15,11 @@
    __TEXT.__swift5_proto: 0x56c
    __TEXT.__swift5_reflstr: 0xf24
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+-  UUID: F18AA920-6DDD-3C7E-BF9C-388D2BEE522E
++  UUID: 1C79DC2F-5119-3725-9A87-30D3CCBD3395
    Functions: 7578
    Symbols:   795
 -  CStrings:  46

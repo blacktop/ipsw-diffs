@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05785CCE-4758-39DC-974C-423B63DDB393
 -  Functions: 47
 -  Symbols:   76
--  CStrings:  192
+-  CStrings:  206
++  UUID: 742A2169-8AF2-3816-B47B-2ED95CA7217A
 +  Functions: 45
 +  Symbols:   81
-+  CStrings:  210
++  CStrings:  224
  
 Symbols:
 + _APLogForCategory

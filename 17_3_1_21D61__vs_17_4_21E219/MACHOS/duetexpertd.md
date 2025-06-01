@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/EventKit.framework/EventKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 5E563B5B-0684-376F-8AEE-CBA039919B8D
++  UUID: 4FB3F59B-EC59-3FE2-8144-4F61D98DEAC7
+   Functions: 3
+   Symbols:   45
+   CStrings:  49
+
 ```

@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6147C90D-8A0A-3C1F-8FF2-0D40C53CF7A3
 -  Functions: 17154
 -  Symbols:   2487
--  CStrings:  31634
+-  CStrings:  38003
++  UUID: 8F990295-1747-311A-97DC-959B1C8B767F
 +  Functions: 17177
 +  Symbols:   2493
-+  CStrings:  31665
++  CStrings:  38042
  
 Symbols:
 + _IDSDailyAccountAddedNotificationMetricDuplicateKey

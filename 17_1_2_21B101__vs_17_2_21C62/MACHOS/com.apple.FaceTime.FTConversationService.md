@@ -45,12 +45,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 1B88B381-88D1-31D0-9B1E-59F835BF55C9
 -  Functions: 262
 -  Symbols:   168
--  CStrings:  506
+-  CStrings:  524
++  UUID: 4DAAB036-7A76-3D35-AEC1-77395688A18F
 +  Functions: 263
 +  Symbols:   169
-+  CStrings:  508
++  CStrings:  526
  
 Symbols:
 + _OBJC_CLASS_$_NSDate

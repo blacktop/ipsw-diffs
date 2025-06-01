@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E18CB4AF-A4C0-351A-A5AF-E152BD0E3531
++  UUID: 0A33E793-5F5B-32F6-9183-C0BC8221D633
    Functions: 11642
    Symbols:   1226
--  CStrings:  3389
-+  CStrings:  3391
+-  CStrings:  3420
++  CStrings:  3422
  
 CStrings:
 + "### No active MRID"

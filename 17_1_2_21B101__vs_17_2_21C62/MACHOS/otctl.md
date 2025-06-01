@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13FC8975-2FD1-3B12-AE2C-7075AAEFAF52
 -  Functions: 259
 -  Symbols:   140
--  CStrings:  940
+-  CStrings:  1048
++  UUID: 6229E6BF-A466-3627-9DA0-1C20591E1CF5
 +  Functions: 261
 +  Symbols:   141
-+  CStrings:  950
++  CStrings:  1060
  
 Symbols:
 + ___NSDictionary0__struct

@@ -44,9 +44,8 @@
 -  __AUTH_CONST.__cfstring: 0x2ea0
 +  __AUTH_CONST.__cfstring: 0x2e60
    __AUTH_CONST.__const: 0x680
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_dictobj: 0x118
-
+   __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__auth_got: 0x600
    __AUTH.__objc_data: 0x960
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2293B80E-14A8-3F8E-8E7D-A7DAF304AD1C
 -  Functions: 1725
 -  Symbols:   5981
--  CStrings:  2772
+-  CStrings:  3145
++  UUID: 1EDCA8BD-9B9A-3203-978F-5C643C22860B
 +  Functions: 1729
 +  Symbols:   5992
-+  CStrings:  2775
++  CStrings:  3146
  
 Symbols:
 + -[RCCloudRecording _audioFutureIsCurrent]

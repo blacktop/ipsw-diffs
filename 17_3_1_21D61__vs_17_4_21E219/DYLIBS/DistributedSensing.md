@@ -40,11 +40,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0xa8
 
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27CA5731-6E6A-30CB-A199-3A25A6566E64
++  UUID: 089FFA9D-E985-3BD5-B0B3-F693719C7590
    Functions: 504
    Symbols:   1905
--  CStrings:  1061
-+  CStrings:  1062
+-  CStrings:  1104
++  CStrings:  1105
  
 CStrings:
 + "T@\"NSString\",?,R,C"

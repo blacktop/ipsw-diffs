@@ -56,11 +56,13 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
+-  UUID: 3837C7A8-690F-316D-9F4C-7C91639F8BFD
 -  Functions: 18285
 -  Symbols:   7742
++  UUID: EC96AB72-28D3-35B4-BD03-036C5E5C6CDB
 +  Functions: 18289
 +  Symbols:   7741
-   CStrings:  4703
+   CStrings:  4740
  
 Symbols:
 + get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA6SpacerVAA16_FlexFrameLayoutVG_AA012_ConditionalD0VyANy013PodcastsStoreB017SearchEpisodeCell33_D74A5E1DE411CFFE0BB6A0EF23049B86LLVAO016TopResultChannelQ0AQLLVGAO013TopResultShowQ0AQLLVGALtGGAA08_PaddingK0VGAA0G0HPAzAA2_HPyHC_A0_AA0G8ModifierHPyHCHC.8

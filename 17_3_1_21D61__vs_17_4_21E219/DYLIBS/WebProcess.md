@@ -24,6 +24,15 @@
    __DATA.__common: 0x8
    __DATA.__bss: 0x8
    __DATA_DIRTY.__objc_data: 0x1e0
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C65DB406-F358-3D4E-B35F-928D1C2D562D
++  UUID: 9A6C8529-A3D5-3942-8D0E-B2BE3FA48922
+   Functions: 59
+   Symbols:   328
+   CStrings:  205
 Symbols:
 + ___40+[AXWebProcessGlue _initializeAXRuntime]_block_invoke.292
 + ___40+[AXWebProcessGlue _initializeAXRuntime]_block_invoke_2.297

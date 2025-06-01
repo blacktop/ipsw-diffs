@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAB94999-0D9E-33FD-A8F6-9FEDBD0CD028
 -  Functions: 473
 -  Symbols:   1965
--  CStrings:  1159
+-  CStrings:  1272
++  UUID: BBBF8C3E-3BDA-30F0-ABEE-08E5ACBEF032
 +  Functions: 476
 +  Symbols:   1974
-+  CStrings:  1160
++  CStrings:  1273
  
 Symbols:
 + ___31-[TVLRGBColorDetector tearDown]_block_invoke

@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/PeopleSuggester.framework/PeopleSuggester
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 42BCC56D-0AC6-3CF1-86B3-FABB0FF1BD9F
++  UUID: 95F5B479-D027-3FFF-B0AB-39B603CA0E92
    Functions: 32
    Symbols:   94
--  CStrings:  168
-+  CStrings:  169
+-  CStrings:  176
++  CStrings:  177
  
 CStrings:
 + "T@\"NSString\",?,R,C"

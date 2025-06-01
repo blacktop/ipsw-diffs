@@ -33,11 +33,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 86EDC07D-C4EC-3A3E-A968-C408A322222F
 -  Functions: 803
 -  Symbols:   1831
++  UUID: AD132907-0891-36E0-93CF-9EE461F2C1AC
 +  Functions: 798
 +  Symbols:   1829
-   CStrings:  506
+   CStrings:  538
  
 Symbols:
 + GCC_except_table35

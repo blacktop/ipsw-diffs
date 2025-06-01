@@ -31,7 +31,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A9D21A9-3BB8-3F00-A333-FA0709BDE297
++  UUID: 2BE132A3-04D0-3763-A40A-66A297BBAC6A
    Functions: 4
    Symbols:   55
 -  CStrings:  83

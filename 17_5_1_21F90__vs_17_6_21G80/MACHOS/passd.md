@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9398BF10-21CD-3E49-8C62-AD6720432FE8
 -  Functions: 21922
 -  Symbols:   2616
--  CStrings:  30303
+-  CStrings:  35888
++  UUID: C562600E-1895-36FB-9157-B2061FC8996F
 +  Functions: 21933
 +  Symbols:   2618
-+  CStrings:  30332
++  CStrings:  35918
  
 Symbols:
 + _PDDatabaseManagerHasPerformedContactlessActivationGroupingTypeRepair

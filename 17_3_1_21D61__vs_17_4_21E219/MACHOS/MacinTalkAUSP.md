@@ -35,8 +35,11 @@
    __DATA.__data: 0x150
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3028ECB8-CC74-3BC5-85AB-17C2EE021655
++  UUID: 86FC02B7-A195-3D32-8F0C-D5DD2A4F5E74
    Functions: 12
 -  Symbols:   48
 -  CStrings:  56

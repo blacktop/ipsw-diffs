@@ -20,11 +20,15 @@
    __TEXT.__const: 0x1b2e
    __TEXT.__gcc_except_tab: 0x1548
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D6454A2-EA93-3401-99DD-1738FECC8BD0
++  UUID: 9688E3A5-830F-33FF-A4EC-7D35DC71B21F
    Functions: 2395
    Symbols:   459
--  CStrings:  7122
-+  CStrings:  7123
+-  CStrings:  7703
++  CStrings:  7704
  
 CStrings:
 + "+[RPNWAgentClient findListenerAgentClientFromApplicationServiceName:]"

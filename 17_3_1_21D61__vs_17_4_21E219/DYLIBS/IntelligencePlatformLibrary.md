@@ -50,7 +50,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x620
 +  __DATA_CONST.__objc_classrefs: 0x328
    __AUTH_CONST.__const: 0x178
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0x5c0
 -  __AUTH_CONST.__objc_const: 0x9d8
 -  __AUTH_CONST.__auth_got: 0x228
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7160EF23-2682-30C1-98EF-41E31E33331A
 -  Functions: 327
 -  Symbols:   935
--  CStrings:  470
+-  CStrings:  516
++  UUID: AEC2376C-14B8-31AF-9DAD-42AD0D5C3CBB
 +  Functions: 1134
 +  Symbols:   3291
-+  CStrings:  907
++  CStrings:  1173
  
 Symbols:
 + +[CCAppCustomCarNameContent contentMessageClass]

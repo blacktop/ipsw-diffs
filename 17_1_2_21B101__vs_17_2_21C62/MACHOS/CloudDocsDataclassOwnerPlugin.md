@@ -16,4 +16,13 @@
    __TEXT.__oslogstring: 0x101
    __TEXT.__objc_classname: 0x42
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 63FE9CB7-3F5C-3683-856C-9D3111B47D45
++  UUID: E0F91EE0-17C2-385C-95C4-235F8F65F7EB
+   Functions: 13
+   Symbols:   42
+   CStrings:  82
+
 ```

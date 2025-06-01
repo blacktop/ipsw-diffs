@@ -23,4 +23,13 @@
    __DATA.__data: 0x60
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/ContentKit.framework/ContentKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9F2FDA72-9525-3269-8DF1-FED511983CA5
++  UUID: 0040CB5A-58E3-396C-B2BE-91249590A6C2
+   Functions: 2
+   Symbols:   26
+   CStrings:  26
+
 ```

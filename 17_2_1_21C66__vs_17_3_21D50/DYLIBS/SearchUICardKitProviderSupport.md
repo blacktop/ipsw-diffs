@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB69F1BA-75FD-3D57-860E-E99EDFAD0776
 -  Functions: 182
 -  Symbols:   1047
--  CStrings:  611
+-  CStrings:  617
++  UUID: A0FC6E63-7F83-399F-9A75-FDA84ACCA35C
 +  Functions: 183
 +  Symbols:   1052
-+  CStrings:  614
++  CStrings:  620
  
 Symbols:
 + _OBJC_IVAR_$_SUICKPFeedbackDelegateDemultiplexer._serialInstrumentationFeedbackQueue

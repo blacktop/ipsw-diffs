@@ -93,12 +93,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1527AA6C-4AEF-3BD2-99BD-C0DE038AE48E
 -  Functions: 30844
 -  Symbols:   8007
--  CStrings:  7311
+-  CStrings:  7479
++  UUID: 1D3B28C2-96C4-3E71-91B7-D3A02EC3C2D9
 +  Functions: 31555
 +  Symbols:   8156
-+  CStrings:  7407
++  CStrings:  7575
  
 Symbols:
 + _$s11AppStoreKit19DynamicTypeTextViewC010attributedf14ShouldOverridefG10AttributesSbvsTj

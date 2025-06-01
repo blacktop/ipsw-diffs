@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46E78718-9EDD-3533-98F8-B23A018A4217
++  UUID: BCB4501A-8602-33B9-A501-8FFE1EBF9E0A
    Functions: 18
    Symbols:   62
--  CStrings:  115
-+  CStrings:  116
+-  CStrings:  116
++  CStrings:  117
  
 CStrings:
 + "T@\"NSString\",?,R,C"

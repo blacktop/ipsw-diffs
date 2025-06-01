@@ -37,11 +37,15 @@
    __DATA.__data: 0x360
    __DATA_DIRTY.__objc_data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1605270-35EA-38C8-AC25-4D25DDD694D0
++  UUID: 0147ACF8-DF12-397B-8402-1784B81AA3E6
    Functions: 133
    Symbols:   796
--  CStrings:  429
-+  CStrings:  430
+-  CStrings:  463
++  CStrings:  464
  
 Symbols:
 + ___56-[CHTrendsNotificationManager sendNotificationIfAllowed]_block_invoke.260

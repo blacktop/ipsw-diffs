@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_dictobj: 0x2a8
    __AUTH_CONST.__objc_doubleobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0xad0
 -  __AUTH.__objc_data: 0x8f0
 +  __AUTH_CONST.__auth_got: 0xb00
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2342A5E8-5EA5-31B5-B784-335D9B80C0BD
 -  Functions: 1184
 -  Symbols:   2862
--  CStrings:  1648
+-  CStrings:  1856
++  UUID: 36CD91F7-AD0A-32C4-A42E-086A78A7647A
 +  Functions: 1244
 +  Symbols:   2946
-+  CStrings:  1675
++  CStrings:  1883
  
 Symbols:
 + +[AAUICommandQueueRegistry sharedRegistry]

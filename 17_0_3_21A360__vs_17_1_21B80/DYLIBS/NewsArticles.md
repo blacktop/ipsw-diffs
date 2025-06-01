@@ -68,12 +68,10 @@
    __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x1f358
--  __AUTH_CONST.__auth_ptr: 0xb50
 -  __AUTH_CONST.__auth_got: 0x4390
 -  __AUTH.__objc_data: 0x3618
 -  __AUTH.__data: 0x7500
 +  __AUTH_CONST.__const: 0x1ec48
-+  __AUTH_CONST.__auth_ptr: 0xb38
 +  __AUTH_CONST.__auth_got: 0x4298
 +  __AUTH.__objc_data: 0x3540
 +  __AUTH.__data: 0x7650
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 947CE3ED-0588-3AA4-9C7E-D2026517807D
 -  Functions: 20285
 -  Symbols:   8359
--  CStrings:  5772
+-  CStrings:  5851
++  UUID: F7B60AC8-D051-36F8-BD30-AE11A13A2509
 +  Functions: 20058
 +  Symbols:   8255
-+  CStrings:  5721
++  CStrings:  5800
  
 Symbols:
 + __DATA__TtC12NewsArticles24EndOfArticleModelFactory

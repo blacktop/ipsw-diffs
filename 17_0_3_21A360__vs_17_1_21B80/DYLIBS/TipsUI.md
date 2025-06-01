@@ -64,11 +64,9 @@
 +  __AUTH_CONST.__const: 0x1ff8
    __AUTH_CONST.__objc_const: 0x450
    __AUTH_CONST.__objc_arrayobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__auth_got: 0xd18
 -  __AUTH.__objc_data: 0x170
 -  __AUTH.__data: 0x600
-+  __AUTH_CONST.__auth_ptr: 0xb0
 +  __AUTH_CONST.__auth_got: 0xd68
 +  __AUTH.__objc_data: 0x1c0
 +  __AUTH.__data: 0x830
@@ -96,12 +94,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 731506B5-AD02-3FBB-B01C-7BB8CA2BB9D4
 -  Functions: 2027
 -  Symbols:   1947
--  CStrings:  1001
+-  CStrings:  1034
++  UUID: E9292CAB-A765-3F97-B981-2EC50E63C177
 +  Functions: 2210
 +  Symbols:   1962
-+  CStrings:  1010
++  CStrings:  1043
  
 Symbols:
 + _TPSAnalyticsLaunchTypeUniversalLink

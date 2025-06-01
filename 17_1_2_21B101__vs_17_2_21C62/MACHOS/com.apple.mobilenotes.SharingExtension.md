@@ -32,10 +32,12 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 57B7AC98-E11F-30AA-A9E7-F5F07B2FB585
 -  Functions: 3533
++  UUID: 66342F2E-1F0F-3541-B468-ADFB42E53AF6
 +  Functions: 3534
    Symbols:   490
-   CStrings:  3113
+   CStrings:  3335
  
 CStrings:
 + "constraintGreaterThanOrEqualToConstant:"

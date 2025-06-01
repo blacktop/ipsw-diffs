@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D20B8CA3-CCE6-3906-BDFB-96577ADB0188
 -  Functions: 138
 -  Symbols:   165
--  CStrings:  464
+-  CStrings:  568
++  UUID: 1F005372-F99E-3644-9925-EF172862A66C
 +  Functions: 121
 +  Symbols:   154
-+  CStrings:  373
++  CStrings:  465
  
 Symbols:
 - _IMAccountControllerAccountAddedNotification

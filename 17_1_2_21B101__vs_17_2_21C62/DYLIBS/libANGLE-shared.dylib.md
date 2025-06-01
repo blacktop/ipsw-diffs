@@ -35,7 +35,6 @@
 -  __AUTH_CONST.__cfstring: 0x9a0
 +  __AUTH_CONST.__const: 0x1970
 +  __AUTH_CONST.__cfstring: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0x778
 +  __AUTH_CONST.__auth_got: 0x770
@@ -63,12 +62,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 322189B7-51F3-3EB2-82EF-9204B9F3EBCF
 -  Functions: 11034
 -  Symbols:   28965
--  CStrings:  8855
+-  CStrings:  8932
++  UUID: 2ABB41DE-0971-3DCC-9B77-F9BB112DB09F
 +  Functions: 11073
 +  Symbols:   29029
-+  CStrings:  8943
++  CStrings:  9021
  
 Symbols:
 + GCC_except_table108
@@ -1974,6 +1975,7 @@ CStrings:
 + "u_transform_linear_to_srgb"
 + "uncurrentEglSurfaceUponSurfaceDestroy"
 + "uniform bool u_transform_linear_to_srgb;\n"
+- ""
 - " bytes )"
 - "!supportsEitherGPUFamily(1, 2)"
 - "(IsLinux() && isVMWare) || (IsAndroid() && isNvidia) || (IsAndroid() && GetAndroidSdkLevel() < 27 && IsAdreno5xxOrOlder(functions)) || (!isMesa && IsMaliT8xxOrOlder(functions)) || (!isMesa && IsMaliG31OrOlder(functions))"

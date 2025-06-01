@@ -26,12 +26,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 47570FDC-9368-3AED-9EA3-EA730F9EBE98
 -  Functions: 12917
 -  Symbols:   37413
--  CStrings:  8315
+-  CStrings:  8609
++  UUID: 7975B2ED-03C8-3445-97BC-887D08B02895
 +  Functions: 12923
 +  Symbols:   37427
-+  CStrings:  8317
++  CStrings:  8611
  
 Symbols:
 + __ZN18IMSNasDeviceClient20setBasebandAvailableEbNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE

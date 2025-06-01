@@ -62,12 +62,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B840EB0-3C51-3398-BB53-71E30E714506
 -  Functions: 268
 -  Symbols:   1016
--  CStrings:  543
+-  CStrings:  616
++  UUID: 98E3E8CE-1259-3CD9-BF33-C0D13181F585
 +  Functions: 283
 +  Symbols:   1067
-+  CStrings:  572
++  CStrings:  646
  
 Symbols:
 + +[FFConfiguration _configurationForTestingWithFileReader:fileWriter:buildVersionGetter:parseErrorReporter:safeModeChecker:]

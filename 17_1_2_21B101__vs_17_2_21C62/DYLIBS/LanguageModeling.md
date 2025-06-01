@@ -17,4 +17,13 @@
    __TEXT.__oslogstring: 0x16bb
    __TEXT.__dlopen_cstrs: 0x27e
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 52226B5D-5F6B-351A-9C40-05BA5AE83CD2
++  UUID: F81DDC5D-31D0-37F1-9B82-156706FBD04B
+   Functions: 6784
+   Symbols:   1099
+   CStrings:  2667
+
 ```

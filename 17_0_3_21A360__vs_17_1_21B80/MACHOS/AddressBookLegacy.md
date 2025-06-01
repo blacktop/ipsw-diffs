@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBCF39C9-9509-35F4-98E3-BDBC4D8B8F8C
 -  Functions: 10
 -  Symbols:   58
--  CStrings:  38
+-  CStrings:  46
++  UUID: C6AF21F1-0ACB-300F-A4A0-7D7BF0BCD34E
 +  Functions: 27
 +  Symbols:   67
-+  CStrings:  76
++  CStrings:  84
  
 Symbols:
 + _ABOSLogGeneral

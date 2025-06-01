@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__objc_const: 0x1000
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xfd0
 -  __AUTH.__objc_data: 0x8c0
 -  __DATA.__objc_classrefs: 0x3d8
@@ -65,12 +64,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 812FA2F3-B0F9-3E94-BBF2-554EB724ECBF
 -  Functions: 4056
 -  Symbols:   9206
--  CStrings:  4439
+-  CStrings:  5948
++  UUID: 1B77F7D0-6668-3722-BEB6-8C9F102671A7
 +  Functions: 4062
 +  Symbols:   9237
-+  CStrings:  4448
++  CStrings:  5959
  
 Symbols:
 + -[CDBDefaultAccountInfo .cxx_destruct]

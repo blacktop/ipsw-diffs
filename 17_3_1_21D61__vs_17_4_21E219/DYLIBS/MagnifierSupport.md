@@ -64,7 +64,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x40
 +  __AUTH_CONST.__const: 0xb550
    __AUTH_CONST.__objc_const: 0xd40
-   __AUTH_CONST.__auth_ptr: 0x2d0
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_doubleobj: 0x50
 -  __AUTH_CONST.__auth_got: 0x15a0
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44B09FDB-77DF-3786-929F-41F60ADD29C3
 -  Functions: 8803
 -  Symbols:   4978
--  CStrings:  4121
+-  CStrings:  4133
++  UUID: 9FFF147F-29C0-3065-8CBC-86A5D1A875DF
 +  Functions: 8710
 +  Symbols:   4959
-+  CStrings:  4117
++  CStrings:  4129
  
 Symbols:
 + _OBJC_CLASS_$_AVCaptureEventInteraction

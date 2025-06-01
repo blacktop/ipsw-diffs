@@ -32,12 +32,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: B52015EE-29A5-33E8-9DFA-1CD350A74598
 -  Functions: 269
 -  Symbols:   101
--  CStrings:  64
+-  CStrings:  66
++  UUID: 1F48FB3B-69EF-3AB6-8414-800FF611B29F
 +  Functions: 279
 +  Symbols:   109
-+  CStrings:  69
++  CStrings:  71
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm

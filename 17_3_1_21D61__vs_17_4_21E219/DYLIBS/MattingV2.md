@@ -37,11 +37,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x2d0
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E9603D0-C695-3F90-8364-3AC3E9C80F02
++  UUID: 7B9A4272-8DC4-32EA-A10C-B57424A0BD97
    Functions: 238
    Symbols:   108
--  CStrings:  857
-+  CStrings:  858
+-  CStrings:  916
++  CStrings:  917
  
 CStrings:
 + "T@\"NSString\",?,R,C"

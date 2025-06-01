@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63AFF104-29EB-3A85-A590-000D20B83E0C
 -  Functions: 366
 -  Symbols:   1554
--  CStrings:  931
+-  CStrings:  1039
++  UUID: 3F596782-686A-313A-8B38-A290879906A4
 +  Functions: 369
 +  Symbols:   1565
-+  CStrings:  939
++  CStrings:  1047
  
 Symbols:
 + +[DMCEnrollmentFlowController _createEnterpriseApplicationExistsErrorWithAppName:]

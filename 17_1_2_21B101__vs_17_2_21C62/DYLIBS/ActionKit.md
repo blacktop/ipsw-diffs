@@ -48,7 +48,6 @@
    __DATA_CONST.__objc_arraydata: 0xd80
    __AUTH_CONST.__objc_const: 0x15aa0
    __AUTH_CONST.__const: 0xd600
-   __AUTH_CONST.__auth_ptr: 0x120
    __AUTH_CONST.__cfstring: 0x2a540
 -  __AUTH_CONST.__objc_intobj: 0x1b00
 +  __AUTH_CONST.__objc_intobj: 0x1b30
@@ -65,12 +64,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D9AC57E3-51CF-350C-82A3-57ECB31116E6
 -  Functions: 19660
 -  Symbols:   50072
--  CStrings:  23788
+-  CStrings:  29206
++  UUID: 332FE815-79CE-3CD6-8412-EC67DAB49F1E
 +  Functions: 19661
 +  Symbols:   50076
-+  CStrings:  23791
++  CStrings:  29209
  
 Symbols:
 + -[WFReturnToHomeScreenAction icon]

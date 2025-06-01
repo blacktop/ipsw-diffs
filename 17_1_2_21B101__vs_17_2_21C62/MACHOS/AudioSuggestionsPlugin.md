@@ -45,8 +45,11 @@
    - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
    - /System/Library/PrivateFrameworks/SiriSuggestionsAPI.framework/SiriSuggestionsAPI
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8BA1F18-707F-3064-8C72-1A7C2DC9A60C
++  UUID: 8537CDF1-0430-379E-A069-EF171B26A5E5
    Functions: 156
 -  Symbols:   76
 +  Symbols:   77

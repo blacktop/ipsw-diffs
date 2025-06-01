@@ -41,4 +41,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Network.framework/Network
 
+   - /System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/SymptomAnalytics.framework/SymptomAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FC7697CC-0AA1-3B57-B745-7E35A0DDE144
++  UUID: 6B8E0FFA-00A7-36B6-9B60-1AA38734A810
+   Functions: 509
+   Symbols:   2124
+   CStrings:  1548
+
 ```

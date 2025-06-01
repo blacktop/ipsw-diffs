@@ -46,11 +46,13 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FBE9D1B1-4863-31CC-A405-9E85D5CD7B9A
 -  Functions: 189
++  UUID: 3D890B24-3867-3CFB-9D06-8B0C9C71FF54
 +  Functions: 193
    Symbols:   167
--  CStrings:  854
-+  CStrings:  867
+-  CStrings:  932
++  CStrings:  946
  
 CStrings:
 + "-[APUIBrokerHelper _sendBrokerRequest:params:timeout:completion:]_block_invoke"

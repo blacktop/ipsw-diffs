@@ -56,11 +56,10 @@
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0xc80
 -  __AUTH_CONST.__const: 0xb08
-+  __AUTH_CONST.__cfstring: 0xca0
-+  __AUTH_CONST.__const: 0xc38
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x830
 -  __AUTH.__data: 0x1c0
++  __AUTH_CONST.__cfstring: 0xca0
++  __AUTH_CONST.__const: 0xc38
 +  __AUTH_CONST.__auth_got: 0x858
 +  __AUTH.__data: 0x258
    __AUTH.__objc_data: 0x0
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CD0C549-8868-3D75-91AA-A23DA611C96E
 -  Functions: 1252
 -  Symbols:   611
--  CStrings:  540
+-  CStrings:  640
++  UUID: ABFA69B0-C5FA-321D-8353-0DF5699EFF04
 +  Functions: 1278
 +  Symbols:   628
-+  CStrings:  551
++  CStrings:  652
  
 Symbols:
 + _ODIServiceProviderIdEnhancedFraudProtectionTopup

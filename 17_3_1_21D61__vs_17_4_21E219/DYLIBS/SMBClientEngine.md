@@ -20,4 +20,13 @@
    __DATA.__data: 0x1a
    __DATA.__common: 0x4
 
+   - /usr/lib/libheimdal-asn1.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8F47FEE1-EFC5-35F1-9D32-C3A468310729
++  UUID: ACE1400D-2C58-38D2-A060-9A35B9E7CA6F
+   Functions: 1424
+   Symbols:   3389
+   CStrings:  1405
+
 ```

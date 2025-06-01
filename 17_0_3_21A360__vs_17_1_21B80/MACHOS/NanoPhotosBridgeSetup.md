@@ -39,13 +39,16 @@
    __DATA.__objc_ivar: 0x24
    __DATA.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F8BA463-4302-3975-994E-088581DDD8E9
++  UUID: 8E514DA2-3A3A-34D7-939F-8A0753B9E5B6
    Functions: 110
 -  Symbols:   106
--  CStrings:  583
+-  CStrings:  605
 +  Symbols:   108
-+  CStrings:  587
++  CStrings:  610
  
 Symbols:
 + _OBJC_CLASS_$_NSArray

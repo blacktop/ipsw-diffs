@@ -17,7 +17,6 @@
    __DATA_CONST.__got: 0x30
    __DATA_CONST.__const: 0x30
    __AUTH_CONST.__const: 0x2b8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x3d8
 +  __AUTH_CONST.__auth_got: 0x3e0
    __DATA.__got_weak: 0x60
@@ -25,8 +24,10 @@
    - /usr/lib/libLLVM.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: A9BF2B24-7922-3D7A-8A91-A1858C362558
 -  Functions: 131
 -  Symbols:   133
++  UUID: 72E025C2-04FE-3B11-AED5-49A3F318D94B
 +  Functions: 149
 +  Symbols:   134
    CStrings:  77

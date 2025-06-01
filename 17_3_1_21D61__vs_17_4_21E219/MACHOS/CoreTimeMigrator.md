@@ -15,4 +15,13 @@
    __TEXT.__objc_classname: 0xf
    __TEXT.__objc_methname: 0x43
 
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 73B41460-F5E6-3FF1-AFCE-F1C6365980AE
++  UUID: DD75D06B-508D-3112-9A91-44558795C6AC
+   Functions: 4
+   Symbols:   11
+   CStrings:  14
+
 ```

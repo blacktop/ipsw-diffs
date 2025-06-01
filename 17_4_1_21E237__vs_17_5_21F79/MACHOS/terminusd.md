@@ -17,6 +17,15 @@
    __TEXT.__objc_classname: 0xadb
    __TEXT.__objc_methname: 0xdd77
    __TEXT.__objc_methtype: 0x2895
+
+   - /usr/lib/libmrc.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2263F5A4-3600-35C0-A2FD-62DDF018E19F
++  UUID: 6DAE2859-2070-3BAD-9E56-C5870A2E405D
+   Functions: 2433
+   Symbols:   758
+   CStrings:  9320
 CStrings:
 + "%s%.30s:%-4d %@: Local identifier has wrong type %zu"
 + "%s%.30s:%-4d %@: Remote identifier has wrong type %zu"

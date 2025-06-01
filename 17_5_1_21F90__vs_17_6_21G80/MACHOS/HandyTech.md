@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_protolist: 0x30
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0330B0D4-DF86-32AE-85EF-D4F9B313AF57
++  UUID: B0F691FC-D930-3472-8131-EC7E48114EEE
    Functions: 27
    Symbols:   103
--  CStrings:  183
-+  CStrings:  185
+-  CStrings:  212
++  CStrings:  216
  
 CStrings:
 + "com.apple.scrod.braille.driver.handytech.activator.pro.64"

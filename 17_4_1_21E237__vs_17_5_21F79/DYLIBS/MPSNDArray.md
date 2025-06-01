@@ -39,7 +39,6 @@
    __AUTH_CONST.__cfstring: 0x4e40
 -  __AUTH_CONST.__objc_const: 0x630
 +  __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__auth_got: 0x4d8
 -  __AUTH.__objc_data: 0x460
 +  __AUTH.__objc_data: 0xa0
@@ -61,11 +60,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A452EBEC-F5B8-3A04-ADA4-D02D4F32FB0E
 -  Functions: 2066
++  UUID: E8D8A197-01FE-35FF-91D9-50F568A44237
 +  Functions: 2067
    Symbols:   760
--  CStrings:  2282
-+  CStrings:  2283
+-  CStrings:  2908
++  CStrings:  2909
  
 CStrings:
 + "subarrayWithRange:"

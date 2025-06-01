@@ -80,12 +80,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2287AC02-825A-3657-95C6-C275F676AA84
 -  Functions: 387
 -  Symbols:   1569
--  CStrings:  866
+-  CStrings:  968
++  UUID: EA08259A-2417-3588-9C91-FDCB97016982
 +  Functions: 444
 +  Symbols:   1789
-+  CStrings:  998
++  CStrings:  1112
  
 Symbols:
 + -[EvaluationRequest _updateDTOStatusWithCompletion:]

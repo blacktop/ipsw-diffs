@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E387B349-3010-3E37-B431-57DD659FC6F8
 -  Functions: 4426
 -  Symbols:   749
--  CStrings:  1872
+-  CStrings:  2201
++  UUID: 436752A9-6A19-3CB6-855E-F95374D6F382
 +  Functions: 4459
 +  Symbols:   757
-+  CStrings:  1861
++  CStrings:  2190
  
 Symbols:
 + _CFURLCopyFragment

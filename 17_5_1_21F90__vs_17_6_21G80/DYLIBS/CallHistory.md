@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0x34f2
    __TEXT.__dlopen_cstrs: 0x95
    __TEXT.__unwind_info: 0xd94
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 962FB91D-AB10-3147-8B5B-A20853FD8164
++  UUID: 00C138FA-FD70-35C9-ADF4-9604681BEE75
+   Functions: 1208
+   Symbols:   4436
+   CStrings:  2458
 CStrings:
 + "1222.700.81"
 + "1222.700.81~27"

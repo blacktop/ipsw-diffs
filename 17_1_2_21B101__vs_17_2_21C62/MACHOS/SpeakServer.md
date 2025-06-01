@@ -46,12 +46,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E50ACA0-D3D4-3C62-BA67-1BB015C96D59
 -  Functions: 43
 -  Symbols:   111
--  CStrings:  259
+-  CStrings:  295
++  UUID: 4286C8EF-E4E2-373F-89BE-BA0EC7398ED5
 +  Functions: 44
 +  Symbols:   112
-+  CStrings:  262
++  CStrings:  298
  
 Symbols:
 + _OBJC_CLASS_$_NSNotificationCenter

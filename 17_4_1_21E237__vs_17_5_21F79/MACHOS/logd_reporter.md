@@ -16,4 +16,13 @@
    __TEXT.__oslogstring: 0x363
    __TEXT.__cstring: 0x2b6
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E24D460D-494A-313D-97B9-41EC1C4ACFC3
++  UUID: 000780BB-C071-312A-A0AC-2500614545C8
+   Functions: 29
+   Symbols:   78
+   CStrings:  198
+
 ```

@@ -24,13 +24,16 @@
    __DATA_DIRTY.__objc_data: 0x4b0
    __DATA_DIRTY.__bss: 0x138
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE1716B6-613F-3679-9590-519A26B4AD39
++  UUID: 8D785400-9EA9-3427-8ED3-7756839700FB
    Functions: 2125
 -  Symbols:   7830
--  CStrings:  4907
+-  CStrings:  5734
 +  Symbols:   7831
-+  CStrings:  4908
++  CStrings:  5735
  
 Symbols:
 + _kNetDiagUDPSockets

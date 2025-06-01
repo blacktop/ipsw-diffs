@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D3DCCC7-D66E-3187-996C-494EBBD7E836
 -  Functions: 611
 -  Symbols:   2562
--  CStrings:  1386
+-  CStrings:  1501
++  UUID: F8EFAF43-A41F-3390-AA89-FFCF37AC85E2
 +  Functions: 627
 +  Symbols:   2634
-+  CStrings:  1424
++  CStrings:  1540
  
 Symbols:
 + -[PRUISPosterAppearanceObservingAttachmentProvider _currentAppearance]

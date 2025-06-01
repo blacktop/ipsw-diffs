@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_const: 0xe80
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x150
 -  __AUTH_CONST.__auth_got: 0xe68
 +  __AUTH_CONST.__auth_got: 0xeb0
    __AUTH.__objc_data: 0x310
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 75FB0C96-21A5-3235-B867-7688BD8A5DD4
 -  Functions: 4265
 -  Symbols:   3981
--  CStrings:  1610
+-  CStrings:  1807
++  UUID: 0C0AA95D-AF81-3077-9BD0-F80B8EADE601
 +  Functions: 4292
 +  Symbols:   3991
-+  CStrings:  1616
++  CStrings:  1813
  
 Symbols:
 + _OBJC_CLASS_$_NSNotificationCenter

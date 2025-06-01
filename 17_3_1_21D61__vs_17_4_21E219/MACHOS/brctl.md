@@ -57,13 +57,16 @@
    __DATA.__data: 0x1a8
    __DATA.__bss: 0x68
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A617AAB1-6191-3B97-8D69-A99271FFB9CE
++  UUID: B3B07609-D418-3BA4-82E7-E3ADF14518D0
    Functions: 285
 -  Symbols:   348
--  CStrings:  1359
+-  CStrings:  1631
 +  Symbols:   350
-+  CStrings:  1361
++  CStrings:  1651
  
 Symbols:
 + _OBJC_CLASS_$_NSJSONSerialization

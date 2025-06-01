@@ -51,10 +51,8 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_const: 0xd0
 -  __AUTH_CONST.__const: 0x8928
--  __AUTH_CONST.__auth_ptr: 0x158
 -  __AUTH_CONST.__auth_got: 0x16d0
 +  __AUTH_CONST.__const: 0x8930
-+  __AUTH_CONST.__auth_ptr: 0x160
 +  __AUTH_CONST.__auth_got: 0x16e0
    __AUTH.__objc_data: 0x1f30
    __AUTH.__data: 0x2fb0
@@ -79,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F8F65D4E-8AAB-3B2C-9384-F9DBDB5B3E20
 -  Functions: 5090
 -  Symbols:   2315
--  CStrings:  851
+-  CStrings:  853
++  UUID: 0114B7AB-B848-3CF2-B250-ABC1B0AFB7ED
 +  Functions: 5089
 +  Symbols:   2311
-+  CStrings:  875
++  CStrings:  877
  
 Symbols:
 + -[AnalogHandsView initWithFixedSize:]

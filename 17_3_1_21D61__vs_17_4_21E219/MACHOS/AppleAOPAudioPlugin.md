@@ -45,10 +45,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AACF4A0B-E266-3DED-881C-698D2FE048A6
 -  Functions: 694
++  UUID: 881EBF22-DC9F-321C-AAD8-84EE66FDFB21
 +  Functions: 693
    Symbols:   698
-   CStrings:  567
+   CStrings:  604
  
 CStrings:
 + "21:08:08"

@@ -44,11 +44,15 @@
    __DATA.__data: 0x480
    __DATA.__common: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 18A64749-C159-3CCC-B989-5A26B621DA52
++  UUID: EBEBADF4-1772-35A5-AF08-60E4BD4C06EC
    Functions: 2788
    Symbols:   7303
--  CStrings:  3782
-+  CStrings:  3785
+-  CStrings:  4087
++  CStrings:  4090
  
 Symbols:
 + ___Block_byref_object_copy_.1065

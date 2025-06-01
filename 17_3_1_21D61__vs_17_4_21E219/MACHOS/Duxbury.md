@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x8c0
    __DATA.__data: 0xd7c
 
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 790AD504-39BB-394B-900B-1E47C8DFEA80
++  UUID: 7D781198-391D-34D5-85C4-A490BCCD9ADF
    Functions: 439
    Symbols:   1098
--  CStrings:  1406
-+  CStrings:  1407
+-  CStrings:  1486
++  CStrings:  1487
  
 CStrings:
 + "T@\"NSString\",?,R,C"

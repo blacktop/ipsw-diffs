@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftDemangle.dylib
+-  UUID: ED85A960-4B34-36D2-AA4D-76431094E96D
 -  Functions: 357
 -  Symbols:   1680
--  CStrings:  954
+-  CStrings:  1195
++  UUID: C55C517C-F550-3EE0-B097-0F3262ACC38A
 +  Functions: 362
 +  Symbols:   1693
-+  CStrings:  959
++  CStrings:  1201
  
 Symbols:
 + +[CPAnalytics updateWithConfiguration:]

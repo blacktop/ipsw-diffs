@@ -91,12 +91,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 707715DA-1CB7-398E-BF77-44972B6E21E6
 -  Functions: 86459
 -  Symbols:   3159
--  CStrings:  76858
+-  CStrings:  83738
++  UUID: 1818FFF8-82DE-3619-85C2-8DE457276E04
 +  Functions: 90919
 +  Symbols:   3166
-+  CStrings:  78419
++  CStrings:  85494
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

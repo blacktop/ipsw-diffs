@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x14e0
    __TEXT.__objc_methlist: 0xf50
    __TEXT.__const: 0xb2e10
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ABE07EBD-918C-37D0-8B56-DA47917213CF
++  UUID: 44B3FF7D-86CB-39F0-A6A5-CE10FF67CCE4
+   Functions: 18522
+   Symbols:   43618
+   CStrings:  9273
 CStrings:
 + "/AppleInternal/Library/BuildRoots/ba7e55b7-afb3-11ee-9468-6ee040a82a90/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.3.Internal.sdk/usr/include/c++/v1/__algorithm/clamp.h"
 + "/AppleInternal/Library/BuildRoots/ba7e55b7-afb3-11ee-9468-6ee040a82a90/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.3.Internal.sdk/usr/include/c++/v1/__algorithm/pop_heap.h"

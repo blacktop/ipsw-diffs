@@ -74,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7B78A7F-14DB-3E81-AC93-1A802022CD9E
 -  Functions: 2081
 -  Symbols:   7264
--  CStrings:  3438
+-  CStrings:  4006
++  UUID: EF83F845-DB12-3780-B8D1-6C9A3FFED7AF
 +  Functions: 2106
 +  Symbols:   7344
-+  CStrings:  3455
++  CStrings:  4025
  
 Symbols:
 + +[CRCertificationOverridesClient _servicePerformBlock:errorHandler:]

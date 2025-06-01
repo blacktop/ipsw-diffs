@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A400D431-4B5E-31B6-B078-3CCE48DBCF41
 -  Functions: 111
 -  Symbols:   196
--  CStrings:  161
+-  CStrings:  162
++  UUID: 814D18C8-0308-3024-AD19-2501ABCAB924
 +  Functions: 114
 +  Symbols:   198
-+  CStrings:  163
++  CStrings:  164
  
 Symbols:
 + _XAMAutomationModeDataVaultPath

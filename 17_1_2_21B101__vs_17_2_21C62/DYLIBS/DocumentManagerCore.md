@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9CB48550-BFEB-3C5F-ABEB-92EE5F14CEDF
 -  Functions: 936
 -  Symbols:   3461
--  CStrings:  1805
+-  CStrings:  2082
++  UUID: B2EA8B68-34CA-37A3-AC95-BA166315068D
 +  Functions: 935
 +  Symbols:   3456
-+  CStrings:  1803
++  CStrings:  2080
  
 Symbols:
 + _objc_msgSend$providerDomainWithID:allowCached:error:

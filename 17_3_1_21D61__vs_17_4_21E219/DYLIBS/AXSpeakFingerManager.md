@@ -39,13 +39,16 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x28
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 480DCD73-C69F-37FF-ADEE-D3D49DF37FFC
++  UUID: DDECB715-7A4C-33D5-9B66-3C4BE4CE3DEB
    Functions: 44
 -  Symbols:   282
--  CStrings:  243
+-  CStrings:  262
 +  Symbols:   281
-+  CStrings:  251
++  CStrings:  270
  
 Symbols:
 - __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXUIService

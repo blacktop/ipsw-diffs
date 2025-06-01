@@ -72,11 +72,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x1c8
    __DATA_CONST.__objc_arraydata: 0x10
 -  __AUTH_CONST.__const: 0x3738
--  __AUTH_CONST.__auth_ptr: 0x98
 -  __AUTH_CONST.__objc_const: 0x2600
 -  __AUTH_CONST.__cfstring: 0x4100
 +  __AUTH_CONST.__const: 0x36e0
-+  __AUTH_CONST.__auth_ptr: 0xa0
 +  __AUTH_CONST.__objc_const: 0x2690
 +  __AUTH_CONST.__cfstring: 0x4060
    __AUTH_CONST.__objc_intobj: 0x2b8
@@ -110,12 +108,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C004675C-25A5-37A6-8A83-715201ADDF53
 -  Functions: 4355
 -  Symbols:   9221
--  CStrings:  5737
+-  CStrings:  6257
++  UUID: 8DC281FF-8FD8-33BC-B856-CAA05BA843F8
 +  Functions: 4400
 +  Symbols:   9435
-+  CStrings:  5915
++  CStrings:  6430
  
 Symbols:
 + +[WFConfiguredSystemActionProvider sharedProvider]

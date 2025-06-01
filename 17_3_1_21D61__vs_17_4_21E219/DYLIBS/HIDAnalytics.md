@@ -35,11 +35,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEAADD36-DA94-37CA-AD13-732D8EF6A00D
++  UUID: 37F7185E-5D52-392E-AF88-4B359C7FD542
    Functions: 72
    Symbols:   357
--  CStrings:  172
-+  CStrings:  173
+-  CStrings:  184
++  CStrings:  185
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -35,11 +35,15 @@
    __DATA.__data: 0x180
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2CB65C6-B7A3-3714-9BD0-B1E368473761
++  UUID: 588F8B79-A3FA-3BD7-87F1-0161F3A6D691
    Functions: 124
    Symbols:   605
--  CStrings:  384
-+  CStrings:  385
+-  CStrings:  403
++  CStrings:  404
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B040E8AB-A136-371D-A6C5-ED8FB0B1747C
 -  Functions: 980
 -  Symbols:   3315
--  CStrings:  2611
+-  CStrings:  3004
++  UUID: EB50C70C-7862-3ACE-87EE-9CC8A85CC8DB
 +  Functions: 1006
 +  Symbols:   3419
-+  CStrings:  2736
++  CStrings:  3160
  
 Symbols:
 + +[HDRProcessor dolbyIOMFBMetadata:withFilteredMinPQ:FilteredMaxPQ:FilteredAvgPQ:EnableLevel4:FilteredAvg:FilteredStdDev:]

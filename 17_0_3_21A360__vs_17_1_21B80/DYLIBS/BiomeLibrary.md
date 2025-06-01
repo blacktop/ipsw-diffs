@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67921FAB-7A69-32D7-AD6D-B74FFE859634
 -  Functions: 12374
 -  Symbols:   38664
--  CStrings:  14225
+-  CStrings:  20336
++  UUID: 16C2D05C-09EB-3489-9F58-58036EEBF1B9
 +  Functions: 12586
 +  Symbols:   39285
-+  CStrings:  14437
++  CStrings:  20625
  
 Symbols:
 + +[BMDeviceBatteryGauging columns]

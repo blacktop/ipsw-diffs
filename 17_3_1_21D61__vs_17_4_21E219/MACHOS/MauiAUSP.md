@@ -35,8 +35,11 @@
    __DATA.__data: 0x160
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E1884D5-5ACA-3289-8CF6-E556F5640B92
++  UUID: F9F781AA-E9B0-3B63-A34F-716ABE7900C8
    Functions: 13
 -  Symbols:   49
 -  CStrings:  60

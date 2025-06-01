@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x2a0
 
+   - /System/Library/PrivateFrameworks/Synapse.framework/Synapse
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7474A6CF-0877-3E8B-B1D8-1DD0947F420D
++  UUID: 1FBC60D0-0001-354E-A392-F79B510941C0
    Functions: 62
    Symbols:   85
--  CStrings:  377
-+  CStrings:  378
+-  CStrings:  384
++  CStrings:  385
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9956EE95-4302-3B7A-B2D3-3DA89E12A597
 -  Functions: 1136
 -  Symbols:   4406
--  CStrings:  2754
+-  CStrings:  3059
++  UUID: C8F4BD1C-3DD8-3FB0-AA27-5CF5657F69B8
 +  Functions: 1138
 +  Symbols:   4412
-+  CStrings:  2758
++  CStrings:  3063
  
 Symbols:
 + -[VTUIEnrollTrainingViewController didShowVoiceTriggerPrompt]

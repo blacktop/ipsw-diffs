@@ -13,7 +13,6 @@
    __AUTH_CONST.__cfstring: 0x2d00
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__auth_got: 0x4f8
 -  __AUTH.__objc_data: 0x9b0
@@ -27,5 +26,14 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1938714F-CB42-38A1-8149-349044C9A879
++  UUID: 52274041-32FE-38F1-88D8-09556E206024
+   Functions: 723
+   Symbols:   2929
+   CStrings:  2011
 
 ```

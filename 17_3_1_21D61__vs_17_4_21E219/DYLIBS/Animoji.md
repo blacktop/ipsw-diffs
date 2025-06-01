@@ -25,6 +25,15 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__bss: 0xc
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 49485D6C-2AD0-38BE-A020-72B8B8FFE831
++  UUID: 2B1F7497-4C7E-3267-894F-C3EF56762EC4
+   Functions: 71
+   Symbols:   358
+   CStrings:  363
 Symbols:
 + ___85-[PuppetCollectionViewControllerAccessibility collectionView:cellForItemAtIndexPath:]_block_invoke.274
 + ___block_literal_global.237

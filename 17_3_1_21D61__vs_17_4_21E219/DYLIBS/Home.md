@@ -65,6 +65,9 @@
 -  __DATA_CONST.__objc_selrefs: 0x11518
 -  __DATA_CONST.__objc_arraydata: 0x340
 -  __AUTH_CONST.__const: 0xca90
+-  __AUTH_CONST.__objc_const: 0x142f0
+-  __AUTH_CONST.__cfstring: 0x255e0
+-  __AUTH_CONST.__objc_intobj: 0x2070
 +  __DATA_CONST.__objc_const: 0x38f00
 +  __DATA_CONST.__objc_selrefs: 0x11458
 +  __DATA_CONST.__objc_protorefs: 0x318
@@ -72,10 +75,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x12b0
 +  __DATA_CONST.__objc_arraydata: 0x338
 +  __AUTH_CONST.__const: 0xc7a8
-   __AUTH_CONST.__auth_ptr: 0xa0
--  __AUTH_CONST.__objc_const: 0x142f0
--  __AUTH_CONST.__cfstring: 0x255e0
--  __AUTH_CONST.__objc_intobj: 0x2070
 +  __AUTH_CONST.__objc_const: 0x141d0
 +  __AUTH_CONST.__cfstring: 0x24da0
 +  __AUTH_CONST.__objc_intobj: 0x1fc8
@@ -145,12 +144,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 449C1DD4-C971-3B98-B2B5-1D81B4665E58
 -  Functions: 18186
 -  Symbols:   54686
--  CStrings:  22533
+-  CStrings:  27316
++  UUID: E46C1A1A-4504-3B0F-BDE6-C38D66390163
 +  Functions: 18260
 +  Symbols:   54461
-+  CStrings:  22242
++  CStrings:  26959
  
 Symbols:
 + +[HFAccessoryInfoItem accessibilityStringForCharacteristic:]

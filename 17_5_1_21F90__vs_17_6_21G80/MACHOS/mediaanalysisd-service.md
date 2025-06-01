@@ -17,11 +17,15 @@
    __TEXT.__const: 0x228
    __TEXT.__oslogstring: 0x139ed
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A5446B15-4965-3A09-8085-00C97A417EF5
++  UUID: AEF97E41-2A25-3D9A-B8AA-57F488D7863A
    Functions: 2841
    Symbols:   745
--  CStrings:  5906
-+  CStrings:  5905
+-  CStrings:  6653
++  CStrings:  6652
  
 CStrings:
 - "v24@?0Q8@\"NSError\"16"

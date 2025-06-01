@@ -29,7 +29,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x20
    __AUTH_CONST.__const: 0x2d90
    __AUTH_CONST.__cfstring: 0x200
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_const: 0x168
 -  __AUTH_CONST.__auth_got: 0x7e8
@@ -45,12 +44,14 @@
    - /usr/lib/libc++abi.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20515839-5504-3825-AEB8-6ACB49C12142
 -  Functions: 2754
 -  Symbols:   6319
--  CStrings:  1344
+-  CStrings:  1360
++  UUID: DC8CFFFD-CE87-35C8-AA60-209B57287B26
 +  Functions: 2761
 +  Symbols:   6328
-+  CStrings:  1345
++  CStrings:  1361
  
 Symbols:
 + __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb

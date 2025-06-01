@@ -29,17 +29,19 @@
 +  __AUTH_CONST.__const: 0x1160
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__objc_const: 0x1ed0
 
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 1BD73143-8DF0-37E5-8194-21207F8B4A23
 -  Functions: 2495
 -  Symbols:   7307
--  CStrings:  4915
+-  CStrings:  6572
++  UUID: F94FBAEB-D236-33B7-BFC5-9C8F9505AEF1
 +  Functions: 2498
 +  Symbols:   7313
-+  CStrings:  4916
++  CStrings:  6574
  
 Symbols:
 + _AppleTconUARPRestoreInfoCopyFirmware

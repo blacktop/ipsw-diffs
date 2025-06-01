@@ -52,11 +52,15 @@
    __DATA.__objc_data: 0x1590
    __DATA.__data: 0xd28
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5C19A141-16DF-35FF-AE18-E856B94360A1
++  UUID: A3BC8EE3-3C83-3F6C-A60F-036114245FAF
    Functions: 1806
    Symbols:   483
--  CStrings:  3475
-+  CStrings:  3482
+-  CStrings:  3715
++  CStrings:  3723
  
 CStrings:
 + "%@%@%@.%@"

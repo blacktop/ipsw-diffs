@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/PerfPowerMetricMonitor.framework/PerfPowerMetricMonitor
 
+   - /System/Library/PrivateFrameworks/PowerlogHelperdOperators.framework/PowerlogHelperdOperators
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 442A1A7D-2A1F-3CE9-AB04-371462162272
++  UUID: DFB48DA5-1DED-337D-80A0-2CABB7FF190A
+   Functions: 2
+   Symbols:   18
+   CStrings:  15
+
 ```

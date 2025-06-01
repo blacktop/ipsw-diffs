@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 604BDDF3-3166-3534-8E52-67F037880159
 -  Functions: 951
 -  Symbols:   3279
--  CStrings:  1514
+-  CStrings:  1667
++  UUID: 9252DF28-AA0F-3D63-9538-5B8C4C8A41B3
 +  Functions: 956
 +  Symbols:   3293
-+  CStrings:  1521
++  CStrings:  1677
  
 Symbols:
 + -[AXSDCustomDetectionController containsCustomDetector:]

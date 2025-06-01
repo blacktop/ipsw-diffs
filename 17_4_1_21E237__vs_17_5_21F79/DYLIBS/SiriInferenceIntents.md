@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Intents.framework/Intents
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 833C3355-0954-3957-9B4C-A01ABD7069D9
++  UUID: AEAC329C-78B0-3149-8F1B-896EADC017CC
+   Functions: 374
+   Symbols:   298
+   CStrings:  162
+
 ```

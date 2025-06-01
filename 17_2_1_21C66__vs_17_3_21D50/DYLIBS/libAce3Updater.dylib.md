@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x384
    __TEXT.__cstring: 0x4391
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8B547065-C395-35DC-A5BE-9E386A7A3CC3
++  UUID: D54B818C-FF61-3729-A257-9694C1F9BF7B
+   Functions: 777
+   Symbols:   1395
+   CStrings:  812
+
 ```

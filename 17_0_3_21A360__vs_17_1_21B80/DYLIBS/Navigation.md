@@ -41,7 +41,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x7dc8
 +  __DATA_CONST.__objc_arraydata: 0xa0
    __AUTH_CONST.__cfstring: 0xbce0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x5808
    __AUTH_CONST.__const: 0x22a0
 -  __AUTH_CONST.__objc_intobj: 0x7b0
@@ -55,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 32AC1C24-0B68-3FFD-8B25-A6DE08215DB1
 -  Functions: 5467
 -  Symbols:   19460
--  CStrings:  9807
+-  CStrings:  11318
++  UUID: 091AB155-BB1D-3D39-A331-4725EC1AB516
 +  Functions: 5470
 +  Symbols:   19471
-+  CStrings:  9812
++  CStrings:  11323
  
 Symbols:
 + -[GEOArrivalParameters(MNExtras) regionContainmentTypeFor:arrivalRegionType:distanceToEndOfLeg:excludeRadius:]

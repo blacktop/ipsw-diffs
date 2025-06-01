@@ -30,8 +30,11 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FE9FF04-BED6-385D-B535-922766070A56
++  UUID: 2E0CDFE1-C09D-3C35-9A43-79D7D0550ED3
    Functions: 260
 -  Symbols:   311
 +  Symbols:   310

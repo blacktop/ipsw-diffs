@@ -41,11 +41,15 @@
    __DATA_DIRTY.__objc_data: 0x2d0
    __DATA_DIRTY.__bss: 0x50
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 031688BF-399D-36B4-8705-7A39D78DB85B
++  UUID: C03951A3-76CB-3F9E-9A44-FC662A4F8E91
    Functions: 130
    Symbols:   617
--  CStrings:  288
-+  CStrings:  289
+-  CStrings:  313
++  CStrings:  314
  
 Symbols:
 + ___27-[OSAServicesClient awdKey]_block_invoke.92

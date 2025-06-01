@@ -65,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F4930B68-8C57-3E70-AFFC-6D15D75EE439
 -  Functions: 4564
 -  Symbols:   834
--  CStrings:  8725
+-  CStrings:  10184
++  UUID: 72B9C6B4-F537-35B9-94B4-703E03FA3B3B
 +  Functions: 4590
 +  Symbols:   837
-+  CStrings:  8775
++  CStrings:  10233
  
 Symbols:
 + _OBJC_CLASS_$_AMSAccountCachedServerData

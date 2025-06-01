@@ -38,4 +38,13 @@
    __DATA_DIRTY.__bss: 0xf8
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6DCB902E-7F8A-3FC7-BC7F-F1D0F721AC3A
++  UUID: 82E824C3-9272-3E9B-A878-46C71E2006A0
+   Functions: 1458
+   Symbols:   5381
+   CStrings:  2524
+
 ```

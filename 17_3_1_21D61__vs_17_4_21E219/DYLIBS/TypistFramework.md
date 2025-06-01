@@ -43,7 +43,7 @@
    __AUTH_CONST.__objc_doubleobj: 0xa0
    __AUTH_CONST.__objc_const: 0xe70
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__auth_got: 0x528
    __AUTH.__objc_data: 0xa50
 -  __DATA.__objc_classrefs: 0x308
@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4F5CABCC-377D-3B87-A45A-9D568D1FAB8A
 -  Functions: 1085
 -  Symbols:   4010
--  CStrings:  2371
+-  CStrings:  3613
++  UUID: 05D157C5-96EF-36E2-9F94-9BEC25587CA9
 +  Functions: 1089
 +  Symbols:   4021
-+  CStrings:  2375
++  CStrings:  3617
  
 Symbols:
 + +[TypistKeyboardDataInProcess getKeyboardPPM]

@@ -80,7 +80,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0xc90
 -  __AUTH_CONST.__auth_got: 0x3320
 -  __AUTH.__objc_data: 0x15d00
 -  __AUTH.__data: 0xd568
@@ -88,7 +87,6 @@
 -  __DATA.__objc_classrefs: 0x1068
 -  __DATA.__objc_superrefs: 0x6a0
 -  __DATA.__objc_ivar: 0x17ec
-+  __AUTH_CONST.__auth_ptr: 0xc78
 +  __AUTH_CONST.__auth_got: 0x3380
 +  __AUTH.__objc_data: 0x15cd8
 +  __AUTH.__data: 0xd5c8
@@ -111,12 +109,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8788FC56-43B4-3C1D-9836-720E0F64709C
 -  Functions: 35968
 -  Symbols:   42380
--  CStrings:  15422
+-  CStrings:  17034
++  UUID: 8FBA3025-FA73-3268-A735-0E5BE308EC90
 +  Functions: 36157
 +  Symbols:   42541
-+  CStrings:  15569
++  CStrings:  16859
  
 Symbols:
 + +[GKNotificationBanner isWelcomeOrSignInBannerEnqueued]

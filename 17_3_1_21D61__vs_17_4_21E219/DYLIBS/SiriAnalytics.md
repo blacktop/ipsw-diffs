@@ -57,14 +57,12 @@
 -  __DATA_CONST.__objc_const: 0x4c40
 -  __DATA_CONST.__objc_selrefs: 0x1198
 -  __AUTH_CONST.__const: 0x1db8
--  __AUTH_CONST.__auth_ptr: 0x190
 +  __DATA_CONST.__objc_const: 0x4e00
 +  __DATA_CONST.__objc_selrefs: 0x11c8
 +  __DATA_CONST.__objc_protorefs: 0x50
 +  __DATA_CONST.__objc_classrefs: 0x3b0
 +  __DATA_CONST.__objc_superrefs: 0xf0
 +  __AUTH_CONST.__const: 0x1dd8
-+  __AUTH_CONST.__auth_ptr: 0x180
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0xae0
 -  __AUTH_CONST.__auth_got: 0xec8
@@ -101,12 +99,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9A4CC662-0639-3D00-BFC7-9DF3DC5372E5
 -  Functions: 4345
 -  Symbols:   4999
--  CStrings:  1812
+-  CStrings:  1899
++  UUID: 62CC8980-EE41-3489-8AAB-DEE8C7E05055
 +  Functions: 4328
 +  Symbols:   5020
-+  CStrings:  1954
++  CStrings:  2135
  
 Symbols:
 + -[SiriAnalyticsInternalTelemetry init]

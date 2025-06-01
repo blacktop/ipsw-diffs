@@ -65,11 +65,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85E41B76-E59C-373E-94E4-48D403DF3739
 -  Functions: 1046
 -  Symbols:   560
++  UUID: 4DBB0CFA-3B1B-3891-98A7-7E49B218968F
 +  Functions: 1043
 +  Symbols:   561
-   CStrings:  1104
+   CStrings:  1108
  
 Symbols:
 + _swift_dynamicCastObjCProtocolConditional

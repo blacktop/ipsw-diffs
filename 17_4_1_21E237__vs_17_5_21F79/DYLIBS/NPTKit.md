@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0xdd9f
    __TEXT.__objc_methtype: 0x1a25
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetquality.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7DB072D4-D0AC-3235-969B-07889DBF0EA9
++  UUID: FDC7CA1A-5342-3749-B54B-49526898C2C6
+   Functions: 1563
+   Symbols:   5550
+   CStrings:  4393
+
 ```

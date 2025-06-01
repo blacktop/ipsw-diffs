@@ -54,8 +54,6 @@
 +  __AUTH_CONST.__objc_const: 0x1b0
 +  __AUTH_CONST.__const: 0x6c0
    __AUTH_CONST.__objc_arrayobj: 0x90
--  __AUTH_CONST.__auth_ptr: 0x30
-+  __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__auth_got: 0xef8
@@ -85,12 +83,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EB42858A-4966-30A8-A9CC-AD59D40D9A9A
 -  Functions: 2631
 -  Symbols:   8925
--  CStrings:  5196
+-  CStrings:  6591
++  UUID: 213319AB-0FBC-3172-870A-18AE795A49C3
 +  Functions: 2673
 +  Symbols:   9076
-+  CStrings:  5291
++  CStrings:  6702
  
 Symbols:
 + -[VMUDirectedGraph plistRepresentationWithOptions:fromOriginalMemgraph:]

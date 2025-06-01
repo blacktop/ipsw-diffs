@@ -44,13 +44,16 @@
    __DATA.__objc_data: 0x280
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/GameControllerFoundation.framework/GameControllerFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46A0ED0C-E2AC-34A7-8771-08B1E1941A63
++  UUID: BE1B4898-82FF-3BB7-89D6-B12F5BA6B970
    Functions: 124
 -  Symbols:   599
--  CStrings:  391
+-  CStrings:  429
 +  Symbols:   617
-+  CStrings:  399
++  CStrings:  437
  
 Symbols:
 + _GCInputBackLeftPrimaryButton

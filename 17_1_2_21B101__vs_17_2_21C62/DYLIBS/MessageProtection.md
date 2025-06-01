@@ -30,15 +30,19 @@
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__cfstring: 0x17a0
 +  __AUTH_CONST.__cfstring: 0x17c0
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__const: 0x418
+   __AUTH_CONST.__auth_got: 0xb88
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BFCABB7A-6D7F-3E68-9F9D-7101ECD2F9F6
++  UUID: A16C1B1B-DA03-3A4E-8901-5EDD1FD636E2
    Functions: 1345
    Symbols:   4456
--  CStrings:  1142
-+  CStrings:  1143
+-  CStrings:  1331
++  CStrings:  1333
  
 Symbols:
 + _objc_msgSend$initWithSuiteName:

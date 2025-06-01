@@ -23,11 +23,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BAC2D426-63D6-3CD8-9330-22FE88769E3C
 -  Functions: 345
++  UUID: 9592313F-78D7-3B1A-887E-564633D764DF
 +  Functions: 359
    Symbols:   210
--  CStrings:  371
-+  CStrings:  389
+-  CStrings:  408
++  CStrings:  426
  
 CStrings:
 + "%s: malformed history archive - header too small - (%s)\n"

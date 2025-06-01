@@ -67,7 +67,6 @@
    __AUTH_CONST.__objc_intobj: 0x2760
    __AUTH_CONST.__objc_doubleobj: 0x280
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x198
 -  __AUTH_CONST.__auth_got: 0x20d0
 -  __AUTH.__objc_data: 0xd7a0
 -  __AUTH.__data: 0x11b0
@@ -108,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FC6F75EF-C776-30A2-AC78-FAF4CC9C3EA0
 -  Functions: 21452
 -  Symbols:   59922
--  CStrings:  24327
+-  CStrings:  27790
++  UUID: DD7CCF2F-7E3C-3DD9-ACA6-6495667730C6
 +  Functions: 21476
 +  Symbols:   59933
-+  CStrings:  24356
++  CStrings:  27820
  
 Symbols:
 + -[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:].cold.1

@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__objc_const: 0x1558
 +  __DATA_CONST.__objc_const: 0x35a0
 +  __DATA_CONST.__objc_selrefs: 0xef8
-   __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__const: 0x93c8
 +  __AUTH_CONST.__cfstring: 0x1400
    __AUTH_CONST.__objc_intobj: 0xc0
@@ -83,12 +82,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A358CD0-3A0B-321E-A676-0FA5B728C538
 -  Functions: 5370
 -  Symbols:   661
--  CStrings:  2138
+-  CStrings:  2324
++  UUID: E7F0E5BB-6305-30B0-969E-2BAEF64D4861
 +  Functions: 4245
 +  Symbols:   643
-+  CStrings:  1942
++  CStrings:  2102
  
 Symbols:
 + _MGGetSInt32Answer

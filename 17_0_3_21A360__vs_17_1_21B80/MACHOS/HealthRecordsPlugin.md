@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_arrayobj: 0x120
    __DATA_CONST.__objc_dictobj: 0xa0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 06EA0B68-87D8-32FA-B46F-91BA7D80229F
++  UUID: 2052B346-4D29-3C0F-8991-6927AD143096
    Functions: 3433
    Symbols:   741
--  CStrings:  5863
-+  CStrings:  5866
+-  CStrings:  6820
++  CStrings:  6823
  
 CStrings:
 + "%{public}@ Failed in _processClinicalNotesType for MedicalRecord with UUID %{public}@ with error: %{private}@"

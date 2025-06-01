@@ -55,13 +55,11 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x1010
--  __AUTH_CONST.__auth_ptr: 0x98
 -  __AUTH_CONST.__auth_got: 0x6a8
 -  __DATA.__objc_classrefs: 0x50
 -  __DATA.__data: 0x538
 -  __DATA.__bss: 0x1c18
 +  __AUTH_CONST.__const: 0x1358
-+  __AUTH_CONST.__auth_ptr: 0xa0
 +  __AUTH_CONST.__auth_got: 0x770
 +  __AUTH.__data: 0x160
 +  __DATA.__objc_classrefs: 0x58
@@ -77,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4619EDB7-5422-39F5-9EC6-0409C17F5C27
 -  Functions: 1152
 -  Symbols:   3015
--  CStrings:  76
+-  CStrings:  79
++  UUID: 12B2FE23-2132-346C-89F7-EF72C6904E7B
 +  Functions: 1171
 +  Symbols:   3172
-+  CStrings:  85
++  CStrings:  88
  
 Symbols:
 + _$s10Foundation4DateV13distantFutureACvgZ

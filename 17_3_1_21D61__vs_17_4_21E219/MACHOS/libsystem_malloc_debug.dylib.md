@@ -45,9 +45,11 @@
    - /System/DriverKit/usr/lib/system/libsystem_kernel.dylib
    - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
    - /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+-  UUID: C531D780-C452-324D-9B84-36988054971D
 -  Functions: 904
 -  Symbols:   1155
 -  CStrings:  660
++  UUID: 686DD919-00B8-3A5C-B734-ECD1879731F5
 +  Functions: 999
 +  Symbols:   1262
 +  CStrings:  862

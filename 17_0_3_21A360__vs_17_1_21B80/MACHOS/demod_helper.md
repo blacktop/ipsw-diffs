@@ -57,12 +57,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1918137E-AA8E-37F6-B3D0-DFF8668FA778
 -  Functions: 1021
 -  Symbols:   355
--  CStrings:  1941
+-  CStrings:  2460
++  UUID: 44F0B1CF-B509-3330-9BB7-71A426614FC3
 +  Functions: 1034
 +  Symbols:   357
-+  CStrings:  1968
++  CStrings:  2498
  
 Symbols:
 + ___kCFBooleanTrue

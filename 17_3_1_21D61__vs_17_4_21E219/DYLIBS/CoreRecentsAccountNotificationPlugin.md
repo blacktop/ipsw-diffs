@@ -34,11 +34,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/MailServices.framework/MailServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 543044BE-8A50-3B3C-B4D8-2F191FE990A2
++  UUID: 7A21A5AD-9A92-3BDF-BA5A-241241453E24
    Functions: 11
    Symbols:   68
--  CStrings:  115
-+  CStrings:  116
+-  CStrings:  121
++  CStrings:  122
  
 CStrings:
 + "T@\"NSString\",?,R,C"

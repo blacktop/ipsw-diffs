@@ -36,11 +36,13 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3439F888-721D-3B44-9837-973D3EF6EF1E
 -  Functions: 55
++  UUID: 3080A703-B7ED-3EBE-841F-8DD6B7FBC9D5
 +  Functions: 58
    Symbols:   176
--  CStrings:  123
-+  CStrings:  126
+-  CStrings:  136
++  CStrings:  139
  
 CStrings:
 + "%s/%s.0.log"

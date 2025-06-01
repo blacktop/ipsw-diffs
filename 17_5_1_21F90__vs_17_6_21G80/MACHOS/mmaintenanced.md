@@ -29,12 +29,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 29F70A00-4547-3898-A237-641096409489
 -  Functions: 447
 -  Symbols:   224
--  CStrings:  326
+-  CStrings:  329
++  UUID: 50C92474-DFFF-37EC-90E1-92CBFDBB74C4
 +  Functions: 455
 +  Symbols:   228
-+  CStrings:  332
++  CStrings:  335
  
 Symbols:
 + _CFDataGetBytePtr

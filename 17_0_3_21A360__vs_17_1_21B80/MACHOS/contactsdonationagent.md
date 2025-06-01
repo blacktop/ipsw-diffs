@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2A6083EC-435D-3E16-8514-FA367E39712D
 -  Functions: 1096
 -  Symbols:   449
--  CStrings:  562
+-  CStrings:  563
++  UUID: 96925713-0D0E-3562-AC76-5159BF0FE211
 +  Functions: 1161
 +  Symbols:   462
-+  CStrings:  588
++  CStrings:  589
  
 Symbols:
 + _$sSo13os_log_type_ta0A0E4infoABvgZ

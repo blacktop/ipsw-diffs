@@ -31,6 +31,14 @@
    __DATA.__bss: 0x80
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 954EA716-34A4-366E-A8A8-D00EA7D8E57B
++  UUID: 2B0AC7F8-B6F3-38B4-97D8-6F809E5E9F0F
+   Functions: 848
+   Symbols:   4424
+   CStrings:  790
 Symbols:
 + /AppleInternal/Library/BuildRoots/7cbd30cc-6919-11ee-a253-0697ca55970a/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.1.Internal.sdk/usr/local/lib/security_libDER/libDER.a(DER_Decode.o)
 - /AppleInternal/Library/BuildRoots/514cd921-593e-11ee-8d01-0697ca55970a/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.Internal.sdk/usr/local/lib/security_libDER/libDER.a(DER_Decode.o)

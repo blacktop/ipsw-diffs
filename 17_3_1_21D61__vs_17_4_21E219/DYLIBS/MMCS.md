@@ -37,7 +37,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x28
    __AUTH_CONST.__cfstring: 0xdbe0
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x1c8
    __AUTH_CONST.__auth_got: 0xe00
 -  __DATA.__objc_classrefs: 0xb8
@@ -46,13 +45,16 @@
    __DATA.__data: 0x468
    __DATA.__bss: 0x68
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EFFD8B4F-D235-33F8-B63C-82FC0FD220C0
++  UUID: 52F91304-EB3E-3A4F-B350-46E922F193CC
    Functions: 2312
 -  Symbols:   5976
--  CStrings:  3392
+-  CStrings:  5151
 +  Symbols:   5979
-+  CStrings:  3397
++  CStrings:  5156
  
 Symbols:
 + __OBJC_$_PROP_LIST_MMCSOperationMetric.169

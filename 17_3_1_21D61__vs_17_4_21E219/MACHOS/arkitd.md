@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/ARKitDaemon.framework/ARKitDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 515EC1E1-53BA-3B72-8AFF-D7364C9972EB
++  UUID: 5B493202-0A3D-3FAF-A43C-E0C4C77B0084
+   Functions: 18
+   Symbols:   68
+   CStrings:  54
+
 ```

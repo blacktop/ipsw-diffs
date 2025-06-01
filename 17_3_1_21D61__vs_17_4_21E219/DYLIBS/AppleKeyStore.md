@@ -20,7 +20,6 @@
 -  __DATA_CONST.__const: 0x30f8
 +  __DATA_CONST.__const: 0x32c8
    __AUTH_CONST.__const: 0x1e0
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__cfstring: 0x3a0
 -  __AUTH_CONST.__auth_got: 0x690
 +  __AUTH_CONST.__auth_got: 0x670
@@ -31,11 +30,13 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: 8140F203-E355-3F5B-A37C-F0F9CE12D6BC
 -  Functions: 728
 -  Symbols:   2044
++  UUID: A36B787A-2D99-386F-9FBA-709A52EC001E
 +  Functions: 718
 +  Symbols:   2032
-   CStrings:  370
+   CStrings:  399
  
 Symbols:
 + _AKS_FV_MDM_RECOVERY_KEY_UUID

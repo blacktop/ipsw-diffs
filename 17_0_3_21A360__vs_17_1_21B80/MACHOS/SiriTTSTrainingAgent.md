@@ -37,11 +37,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 51AA0205-0694-336C-BD24-125199D9C341
 -  Functions: 233
++  UUID: B53FF296-D8D8-327C-8BC9-588127E04C4E
 +  Functions: 234
    Symbols:   248
--  CStrings:  595
-+  CStrings:  597
+-  CStrings:  643
++  CStrings:  646
  
 CStrings:
 + "Recording metadata file doesn't exist."

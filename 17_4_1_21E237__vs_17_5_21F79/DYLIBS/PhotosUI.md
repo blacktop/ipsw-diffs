@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 451F413E-137D-3B3A-9FEF-B764F5886ED0
 -  Functions: 1498
 -  Symbols:   3335
--  CStrings:  1733
+-  CStrings:  1922
++  UUID: F3EF3BC3-73EB-37F4-80DC-8446167CEDA4
 +  Functions: 1537
 +  Symbols:   3363
-+  CStrings:  1736
++  CStrings:  1925
  
 Symbols:
 + +[_PHPickerSuggestionGroup retailExperienceSuggestionGroup]

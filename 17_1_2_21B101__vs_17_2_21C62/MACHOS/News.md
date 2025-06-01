@@ -68,11 +68,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 818F9FF3-B5FE-3B56-AF35-21B6B4C020F0
 -  Functions: 4886
++  UUID: DABF7B48-F644-3834-AE35-79CB65522677
 +  Functions: 4888
    Symbols:   884
--  CStrings:  8582
-+  CStrings:  8580
+-  CStrings:  9208
++  CStrings:  9204
  
 CStrings:
 + "Encountered signal resulting in a nil-domain: %{public}@"

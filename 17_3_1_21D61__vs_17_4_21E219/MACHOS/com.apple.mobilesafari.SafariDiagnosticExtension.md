@@ -48,11 +48,13 @@
    - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FA48333-9D54-307C-8F7C-AB49D9B59E15
 -  Functions: 74
++  UUID: D8A6B958-8529-3A76-9233-5EF7561DB2C9
 +  Functions: 80
    Symbols:   105
--  CStrings:  261
-+  CStrings:  271
+-  CStrings:  305
++  CStrings:  316
  
 CStrings:
 + "CloudKit_data_%@.plist"

@@ -23,12 +23,15 @@
    __DATA.__common: 0x8
    __DATA.__bss: 0x28
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46E8A343-FFC1-3D82-BDC3-D1429309CA74
++  UUID: 30CC9A4A-9F87-3C24-8B8D-E5AFF582B4F9
    Functions: 50
 -  Symbols:   239
 +  Symbols:   240
-   CStrings:  117
+   CStrings:  169
  
 Symbols:
 + _NSClassFromString

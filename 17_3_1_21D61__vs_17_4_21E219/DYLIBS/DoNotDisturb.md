@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E2269F04-3ED3-32DB-BCA1-D31649B9BFFD
++  UUID: A86A1DFE-DDAB-3CF8-8245-9F7DD727E44D
    Functions: 1606
    Symbols:   5650
--  CStrings:  2333
-+  CStrings:  2334
+-  CStrings:  2761
++  CStrings:  2762
  
 Symbols:
 + ___62-[DNDRemoteServiceConnection _connectionLock_createConnection]_block_invoke.264

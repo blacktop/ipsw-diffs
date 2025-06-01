@@ -28,7 +28,7 @@
 +  __AUTH_CONST.__const: 0x25a0
    __AUTH_CONST.__cfstring: 0x1480
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__auth_got: 0xca8
 
    __DATA.__bss: 0x5d8
    __DATA_DIRTY.__objc_data: 0x50
@@ -38,14 +38,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Network.framework/Network
-
+   - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D01117AF-896A-306E-AEF2-7B9705A78399
++  UUID: 04DA7E51-968D-350D-A4C0-468B4D2B43FB
    Functions: 1169
 -  Symbols:   3157
--  CStrings:  2697
+-  CStrings:  2861
 +  Symbols:   3156
-+  CStrings:  2699
++  CStrings:  2863
  
 Symbols:
 + _____quic_signpost_is_enabled_block_invoke.2436

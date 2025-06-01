@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D819E488-0455-3D74-86AC-3B3ACAE7E0D3
 -  Functions: 33
 -  Symbols:   223
--  CStrings:  95
+-  CStrings:  106
++  UUID: 6617F2BD-FB5C-3DD9-87CD-CF85F2FE40C7
 +  Functions: 34
 +  Symbols:   226
-+  CStrings:  96
++  CStrings:  107
  
 Symbols:
 + +[ATTrackingManager _performTCCAccessRequest:]

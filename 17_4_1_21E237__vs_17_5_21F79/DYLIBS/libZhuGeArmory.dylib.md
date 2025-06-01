@@ -29,17 +29,20 @@
    __AUTH_CONST.__objc_dictobj: 0x910
 -  __AUTH_CONST.__objc_arrayobj: 0x738
 +  __AUTH_CONST.__objc_arrayobj: 0x750
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__auth_got: 0x490
    __AUTH.__objc_data: 0x230
+   __DATA.__objc_ivar: 0x5c
 
+   - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libVinylNonUpdater.dylib
+-  UUID: C620777A-D710-358E-B932-E8BDDA628D73
++  UUID: 6C289BA4-8C2D-38E2-BB54-2A79840C12B9
    Functions: 219
 -  Symbols:   1271
--  CStrings:  1476
+-  CStrings:  2427
 +  Symbols:   1272
-+  CStrings:  1480
++  CStrings:  2435
  
 Symbols:
 + __unnamed_array_storage.440

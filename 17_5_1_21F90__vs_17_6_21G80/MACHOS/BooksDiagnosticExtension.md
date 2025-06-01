@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x2cd
    __TEXT.__oslogstring: 0x179
 
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BD3F4718-8DAA-3929-8865-1730115AD7A4
++  UUID: 79EA2C37-0074-3270-9367-3DD6953CDEB0
+   Functions: 29
+   Symbols:   77
+   CStrings:  159
+
 ```

@@ -73,9 +73,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BookAnalytics.framework/BookAnalytics
 -  - @rpath/JSApp.framework/JSApp
+-  UUID: 403FF048-5213-35C9-96FB-7B1193F969BB
 -  Functions: 8165
 -  Symbols:   2578
 -  CStrings:  625
++  UUID: 8F51E7FF-C103-339C-A086-2C2E9670190D
 +  Functions: 8324
 +  Symbols:   246
 +  CStrings:  635

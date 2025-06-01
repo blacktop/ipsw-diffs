@@ -23,10 +23,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3212B1C-44EE-3E37-BE1C-F62C8A793139
 -  Functions: 36457
++  UUID: D619B615-7762-3492-81BA-67CD31828677
 +  Functions: 36465
    Symbols:   1516
-   CStrings:  5981
+   CStrings:  5999
  
 CStrings:
 + "/AppleInternal/Library/BuildRoots/47560734-3548-11ef-bacd-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.6.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/has_self_intersections.hpp"

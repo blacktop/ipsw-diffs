@@ -38,6 +38,15 @@
    __DATA_DIRTY.__common: 0x60
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: C5DFF02D-54B2-36AD-8495-2EB6D5BDDF45
++  UUID: 06400387-ECCB-3804-B8A7-069AFA86F7D0
+   Functions: 1745
+   Symbols:   940
+   CStrings:  322
 Symbols:
 + _symbolic y_____yxGYbKc 8SPShared12SubscriptionV
 - _symbolic y_____yxGKc 8SPShared12SubscriptionV

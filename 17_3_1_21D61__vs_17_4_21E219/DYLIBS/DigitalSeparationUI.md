@@ -70,7 +70,6 @@
 -  __DATA.__objc_ivar: 0x2d4
 -  __DATA.__data: 0x9c0
 -  __DATA.__bss: 0x138
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x400
 +  __AUTH.__objc_data: 0xc98
 +  __AUTH.__data: 0xc0
@@ -116,9 +115,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 13FFBE62-E4AB-3057-BE90-472C00BCF45C
 -  Functions: 1176
 -  Symbols:   4699
--  CStrings:  2567
+-  CStrings:  3016
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -134,9 +134,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 2D039C1E-0CA8-34DA-A544-353741133FF1
 +  Functions: 1301
 +  Symbols:   4840
-+  CStrings:  2619
++  CStrings:  3073
  
 Symbols:
 + -[DSEmergencyResetController emergencyResetSteps]

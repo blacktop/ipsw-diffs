@@ -32,13 +32,16 @@
    __DATA_CONST.__objc_arraydata: 0x20
    __AUTH_CONST.__objc_const: 0x24e0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A095688-23E5-31D1-9D71-F67DE2500D99
++  UUID: C8373990-5A4E-39AF-87E5-AB8989F87E13
    Functions: 1655
 -  Symbols:   7062
--  CStrings:  3458
+-  CStrings:  3603
 +  Symbols:   7063
-+  CStrings:  3463
++  CStrings:  3608
  
 Symbols:
 + __OBJC_$_PROP_LIST_NUArticleViewControllerFactory.519

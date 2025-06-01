@@ -57,13 +57,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SecurityFoundation.framework/SecurityFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 84F92BE2-C270-3059-B133-D764C45FE33C
++  UUID: 20B16022-1C8B-39EB-AABF-559E03BA301A
    Functions: 1173
 -  Symbols:   3666
--  CStrings:  1610
+-  CStrings:  1811
 +  Symbols:   3672
-+  CStrings:  1641
++  CStrings:  1842
  
 Symbols:
 + +[TPPeer calculateHmacWithHmacKey:permanentInfoData:permanentInfoSig:stableInfoData:stableInfoSig:dynamicInfoData:dynamicInfoSig:]

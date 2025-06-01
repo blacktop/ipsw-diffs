@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/VoiceTrigger.framework/VoiceTrigger
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6ABABC1E-53E0-323D-80CC-1545DC2F143C
 -  Functions: 151
 -  Symbols:   154
--  CStrings:  432
+-  CStrings:  518
++  UUID: FE15CB4F-2261-33A6-A724-B41C76821FFF
 +  Functions: 150
 +  Symbols:   153
-+  CStrings:  430
++  CStrings:  516
  
 Symbols:
 - _OBJC_CLASS_$_AFBluetoothDeviceInfo

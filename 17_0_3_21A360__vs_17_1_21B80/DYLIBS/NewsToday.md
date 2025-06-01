@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x1636
    __TEXT.__objc_stubs: 0x9300
    __DATA_CONST.__got: 0x390
+
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EE0403E8-8EEE-3AE9-806C-D11904CB5331
++  UUID: F6638AA6-FFD6-36CB-99AC-8591DE2C2B9F
+   Functions: 1978
+   Symbols:   6798
+   CStrings:  3247
 Symbols:
 + _objc_msgSend$fc_NewsURLForArticleID:hardPaywall:
 - _objc_msgSend$fc_secureNewsURLForArticleID:hardPaywall:

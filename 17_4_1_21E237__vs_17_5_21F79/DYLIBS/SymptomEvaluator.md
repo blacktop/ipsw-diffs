@@ -62,13 +62,16 @@
    - /System/Library/Frameworks/CoreData.framework/CoreData
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8C65E30C-45C2-32AA-AE49-609029D69190
++  UUID: 1C66B473-797F-35A3-87A1-8A31C0DBB276
    Functions: 11041
 -  Symbols:   35720
--  CStrings:  22119
+-  CStrings:  25681
 +  Symbols:   35721
-+  CStrings:  22126
++  CStrings:  25691
  
 Symbols:
 + ___105-[FlowAnalyticsEngine performThresholdingOn:forKey:andValue:connection:createdBlock:hitBlock:errorBlock:]_block_invoke.879

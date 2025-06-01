@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1F91649F-D639-3F12-BC1E-5C34C3B37792
 -  Functions: 378
 -  Symbols:   218
--  CStrings:  848
+-  CStrings:  927
++  UUID: CDB38555-4F2D-306F-B067-1A232DD59828
 +  Functions: 376
 +  Symbols:   217
-+  CStrings:  844
++  CStrings:  925
  
 Symbols:
 + _MSVAutoBugCaptureDomainStoreBookKeeper

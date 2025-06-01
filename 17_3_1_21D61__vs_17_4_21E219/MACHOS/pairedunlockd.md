@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F256C62-A78A-3B5C-AC90-A298AD9490A9
 -  Functions: 330
 -  Symbols:   182
--  CStrings:  629
+-  CStrings:  672
++  UUID: DD9C7CD2-61AF-3F2F-AD57-DABCFF75D912
 +  Functions: 327
 +  Symbols:   178
-+  CStrings:  625
++  CStrings:  668
  
 Symbols:
 - _SecKeyDecrypt

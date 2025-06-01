@@ -50,8 +50,8 @@
    __AUTH_CONST.__const: 0x700
    __AUTH_CONST.__objc_dictobj: 0x78
 
+   __AUTH_CONST.__objc_intobj: 0x138
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x690
 -  __AUTH.__objc_data: 0xa9b0
 -  __DATA.__objc_ivar: 0x10f4
@@ -64,12 +64,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D1B2F57-454E-328B-B69F-28CE8FCFDE79
 -  Functions: 10288
 -  Symbols:   32787
--  CStrings:  7449
+-  CStrings:  8313
++  UUID: 26C25857-B82A-375D-ACE8-FFD8935DD830
 +  Functions: 10296
 +  Symbols:   32816
-+  CStrings:  7457
++  CStrings:  8321
  
 Symbols:
 + -[_LTBatchedParagraphsHolder .cxx_destruct]

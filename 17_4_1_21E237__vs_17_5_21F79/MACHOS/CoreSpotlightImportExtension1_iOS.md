@@ -16,4 +16,13 @@
    __TEXT.__oslogstring: 0x4f
    __TEXT.__cstring: 0x167
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AD612DE9-392B-3EBA-897B-1AA32631957F
++  UUID: 32F76DF5-2847-369E-9573-6ED5F1E460D1
+   Functions: 1
+   Symbols:   80
+   CStrings:  107
+
 ```

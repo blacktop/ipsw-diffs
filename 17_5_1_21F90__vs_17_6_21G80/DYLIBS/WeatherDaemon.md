@@ -44,9 +44,7 @@
 +  __AUTH_CONST.__const: 0x100d8
    __AUTH_CONST.__objc_const: 0x450
    __AUTH_CONST.__cfstring: 0x60
--  __AUTH_CONST.__auth_ptr: 0x460
 -  __AUTH_CONST.__auth_got: 0x15d0
-+  __AUTH_CONST.__auth_ptr: 0x458
 +  __AUTH_CONST.__auth_got: 0x15c0
    __AUTH.__data: 0x1118
    __AUTH.__objc_data: 0x338
@@ -55,11 +53,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2BA9F3CC-A466-360D-9A2C-DAF393F25184
 -  Functions: 13359
 -  Symbols:   6604
++  UUID: 7AACBD96-03E1-35DD-93CA-7605C9BED764
 +  Functions: 13355
 +  Symbols:   6598
-   CStrings:  1261
+   CStrings:  1264
  
 Symbols:
 + _symbolic Say_____G 5TeaDB16AssertionOptionsV

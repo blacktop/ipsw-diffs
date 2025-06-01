@@ -35,11 +35,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 85D3EC1E-0114-30A1-8BF6-2A9EB964C427
++  UUID: 6B6CAF25-7359-36C1-9DEF-5EC13CF9736D
    Functions: 1737
    Symbols:   4100
--  CStrings:  4535
-+  CStrings:  4533
+-  CStrings:  4666
++  CStrings:  4664
  
 Symbols:
 + FreeARElemCallback.2807

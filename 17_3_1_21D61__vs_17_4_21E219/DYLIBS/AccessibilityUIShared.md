@@ -42,13 +42,16 @@
    __DATA.__data: 0x110
    __DATA_DIRTY.__const: 0x40
 
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 403E3DF9-3513-3045-8176-AE6DF3774B93
++  UUID: 2A8C40B6-3A78-3B87-8C94-EC045A86EA30
    Functions: 64
 -  Symbols:   361
--  CStrings:  207
+-  CStrings:  225
 +  Symbols:   362
-+  CStrings:  209
++  CStrings:  228
  
 Symbols:
 + _AXUIErrorDomainServiceNeedsToRequireEntitlements

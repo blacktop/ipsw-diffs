@@ -29,6 +29,15 @@
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4D527607-3B8D-3813-AE03-71DB13C89426
++  UUID: F3E922F2-79E8-3CC4-8C48-4B7FD9A8EBED
+   Functions: 10
+   Symbols:   77
+   CStrings:  38
 Symbols:
 + ___block_literal_global.245
 + ___block_literal_global.251

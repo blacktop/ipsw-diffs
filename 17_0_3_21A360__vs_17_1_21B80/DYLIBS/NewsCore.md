@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 710248B5-A6DE-3154-B36B-BF89E1C295FB
 -  Functions: 17468
 -  Symbols:   56856
--  CStrings:  27129
+-  CStrings:  32321
++  UUID: 62947CD6-44A0-32D9-994D-4C0C24792C8F
 +  Functions: 17525
 +  Symbols:   57037
-+  CStrings:  27286
++  CStrings:  32521
  
 Symbols:
 + +[NSURL(FCAdditions) fc_NewsURLWithPathComponents:]

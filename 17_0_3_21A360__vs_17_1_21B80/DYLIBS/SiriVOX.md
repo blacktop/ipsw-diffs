@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 62AA2D3B-5CE9-39D8-A392-F97947F160B6
 -  Functions: 2718
 -  Symbols:   10315
--  CStrings:  5015
+-  CStrings:  5754
++  UUID: 506451EB-5A21-3BD2-A6BB-38DBD108C20D
 +  Functions: 2722
 +  Symbols:   10332
-+  CStrings:  5033
++  CStrings:  5775
  
 Symbols:
 + -[SVXSession _handleStartListenAfterSpeaking:record:taskTracker:]

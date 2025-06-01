@@ -27,11 +27,15 @@
    __AUTH_CONST.__objc_const: 0x708
    __AUTH_CONST.__objc_intobj: 0x48
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libspindump.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: F9C1EE8E-D367-3976-A2C0-E62C10EC6DF3
++  UUID: 5F9B4FDF-F6F9-30D1-A6A6-4A693EBBEE2F
    Functions: 448
    Symbols:   1698
--  CStrings:  859
-+  CStrings:  860
+-  CStrings:  992
++  CStrings:  994
  
 Symbols:
 + ___61-[STYWorkflowResponsivenessMonitorHelper willStartMonitoring]_block_invoke.413

@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9630D2FD-7245-3C06-B1B3-503378B7DFAD
++  UUID: 68238791-B716-3EBC-AA41-8C2156B654A2
    Functions: 27
    Symbols:   57
--  CStrings:  131
-+  CStrings:  132
+-  CStrings:  133
++  CStrings:  134
  
 CStrings:
 + "T@\"NSString\",?,R,C"

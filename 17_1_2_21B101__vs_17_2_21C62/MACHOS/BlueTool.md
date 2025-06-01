@@ -18,11 +18,15 @@
    __TEXT.__objc_methname: 0x1ca
    __TEXT.__unwind_info: 0xf08
 
+   - /usr/lib/libedit.3.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 67393B25-CED3-3D92-B35A-63EED83AAD87
++  UUID: F2428EA4-83EB-346D-864C-7C22648ADDCD
    Functions: 2043
    Symbols:   217
--  CStrings:  1723
-+  CStrings:  1726
+-  CStrings:  1763
++  CStrings:  1766
  
 CStrings:
 + "07:55:35"

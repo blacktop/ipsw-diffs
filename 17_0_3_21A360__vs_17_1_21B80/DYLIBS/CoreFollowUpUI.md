@@ -34,13 +34,16 @@
    __AUTH_CONST.__objc_const: 0x790
    __AUTH_CONST.__cfstring: 0x540
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A42965E-5A1E-3116-B215-8171D1464469
++  UUID: C52A6454-AF92-3A75-952B-B2AF02EDD982
    Functions: 234
 -  Symbols:   1231
--  CStrings:  589
+-  CStrings:  631
 +  Symbols:   1234
-+  CStrings:  590
++  CStrings:  632
  
 Symbols:
 + _FLGroupIdentifierNewDeviceOutreach

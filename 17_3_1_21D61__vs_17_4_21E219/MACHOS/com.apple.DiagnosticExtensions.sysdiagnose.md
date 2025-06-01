@@ -29,4 +29,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: 45252B9D-BD7A-3511-8CDA-394E39469088
++  UUID: E74C91E6-CF4B-3C8C-AB68-B8A16FC2D401
+   Functions: 19
+   Symbols:   91
+   CStrings:  125
+
 ```

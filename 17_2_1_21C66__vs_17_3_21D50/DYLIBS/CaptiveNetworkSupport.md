@@ -18,11 +18,15 @@
    __TEXT.__unwind_info: 0x868
    __TEXT.__objc_classname: 0x73
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AEC1A75E-0FCF-3A8E-8D89-6D5218716954
++  UUID: 11C375CB-832F-346F-905B-92B99921E7AF
    Functions: 690
    Symbols:   2080
--  CStrings:  1154
-+  CStrings:  1153
+-  CStrings:  1397
++  CStrings:  1396
  
 CStrings:
 + "CaptiveNetworkSupport-461.80.3"

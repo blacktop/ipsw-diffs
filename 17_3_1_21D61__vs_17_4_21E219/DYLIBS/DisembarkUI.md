@@ -29,11 +29,15 @@
    __DATA.__data: 0x8a0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 730A7FAA-946A-33C9-8AD0-8E7D26B7F40B
++  UUID: 19A0ABE7-D24F-3478-AF5B-880E12C46514
    Functions: 659
    Symbols:   2641
--  CStrings:  1473
-+  CStrings:  1474
+-  CStrings:  1610
++  CStrings:  1611
  
 Symbols:
 + __OBJC_$_PROP_LIST_DKAccountProvider.243

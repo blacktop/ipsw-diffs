@@ -39,12 +39,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3D0B5AD-7BCE-347A-811D-8F87444D27DA
 -  Functions: 1101
 -  Symbols:   4574
--  CStrings:  2549
+-  CStrings:  2778
++  UUID: DF87E1D9-7DF9-3614-BA81-92EFE3B34F6A
 +  Functions: 1102
 +  Symbols:   4582
-+  CStrings:  2553
++  CStrings:  2782
  
 Symbols:
 + -[SFSearchResult(SearchToShare) sts_descriptionText]

@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: EC53A890-A286-3563-9943-99E9BF028FFF
 -  Functions: 416
 -  Symbols:   547
--  CStrings:  416
+-  CStrings:  417
++  UUID: E4799B3D-D450-37A6-8E8B-728FF096C4F3
 +  Functions: 415
 +  Symbols:   548
-+  CStrings:  438
++  CStrings:  439
  
 Symbols:
 + _$sSs8UTF8ViewVys5UInt8VSS5IndexVcig

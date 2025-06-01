@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 10109D7D-1372-3B4F-B200-460D3CF29B48
++  UUID: 75FFBE7E-8EEC-3252-A26E-DDD72F6A25CB
+   Functions: 18
+   Symbols:   54
+   CStrings:  57
+
 ```

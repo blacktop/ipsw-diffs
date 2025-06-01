@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9D14717C-7F93-30BC-9EAF-37A60A9D0ACC
++  UUID: 4F26250D-ACB2-3892-AED1-DE9B1FF9E132
+   Functions: 6
+   Symbols:   55
+   CStrings:  54
+
 ```

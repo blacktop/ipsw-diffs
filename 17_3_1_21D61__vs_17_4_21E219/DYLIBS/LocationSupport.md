@@ -36,8 +36,7 @@
    __DATA_CONST.__objc_arraydata: 0x8
    __AUTH_CONST.__const: 0x930
    __AUTH_CONST.__cfstring: 0x500
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_const: 0xe08
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x750
@@ -54,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B78AACC9-E8BE-3098-B3C5-5FAD7D93B027
 -  Functions: 714
 -  Symbols:   457
--  CStrings:  1160
+-  CStrings:  1200
++  UUID: 4F8E88D1-CF0A-3A95-9710-CAEE0BE06C6F
 +  Functions: 716
 +  Symbols:   456
-+  CStrings:  1161
++  CStrings:  1201
  
 Symbols:
 + _proc_pidpath_audittoken

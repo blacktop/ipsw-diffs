@@ -52,11 +52,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 51F680DB-FFCD-33F1-A1A4-0A37C13F8754
 -  Functions: 3905
++  UUID: E13F7BD3-CD01-35F0-8747-AD76468C9AB9
 +  Functions: 3853
    Symbols:   505
--  CStrings:  2006
-+  CStrings:  1995
+-  CStrings:  2338
++  CStrings:  2327
  
 CStrings:
 + "Invalid polygon point in RSRoomType, skipping."

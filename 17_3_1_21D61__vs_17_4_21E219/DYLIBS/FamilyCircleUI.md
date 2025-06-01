@@ -79,14 +79,12 @@
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x3c0
 -  __AUTH_CONST.__auth_got: 0x1c90
 -  __AUTH.__objc_data: 0x4268
 -  __AUTH.__data: 0x4a80
 -  __DATA.__objc_protorefs: 0xe8
 -  __DATA.__objc_classrefs: 0x938
 -  __DATA.__objc_superrefs: 0x200
-+  __AUTH_CONST.__auth_ptr: 0x3d8
 +  __AUTH_CONST.__auth_got: 0x1d30
 +  __AUTH.__objc_data: 0x44f8
 +  __AUTH.__data: 0x4c60
@@ -133,12 +131,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 722FE18F-F55C-3EEE-ABFA-12A2CBC5B66D
 -  Functions: 10731
 -  Symbols:   10464
--  CStrings:  4721
+-  CStrings:  5089
++  UUID: B67C6682-05C7-3435-8445-13AFF08186F4
 +  Functions: 10944
 +  Symbols:   10517
-+  CStrings:  4775
++  CStrings:  5144
  
 Symbols:
 + -[FASettingsSpecifierProvider _presentFlowWithEventType:completion:]

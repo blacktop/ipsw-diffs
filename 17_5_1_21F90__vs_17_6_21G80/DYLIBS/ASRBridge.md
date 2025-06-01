@@ -28,7 +28,11 @@
    __DATA_CONST.__objc_protorefs: 0x30
    __DATA_CONST.__objc_classrefs: 0x170
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D7513302-7B07-3E17-9C1F-1200350FDC42
++  UUID: 4EE12DD8-5730-3029-9CCB-8CD4AA23AA78
    Functions: 1722
    Symbols:   4237
 -  CStrings:  722

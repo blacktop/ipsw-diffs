@@ -1,0 +1,16 @@
+## NLPLearner
+
+> `/System/Library/PrivateFrameworks/NLPLearner.framework/NLPLearner`
+
+```diff
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 336E0383-D259-35E7-BDCD-18A43FC9FD6F
++  UUID: 799A1470-F731-34C5-A808-673E63BD2805
+   Functions: 333
+   Symbols:   1471
+   CStrings:  787
+
+```

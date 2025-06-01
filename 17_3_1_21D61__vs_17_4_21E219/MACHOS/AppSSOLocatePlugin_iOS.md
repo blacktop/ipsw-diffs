@@ -20,4 +20,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Heimdal.framework/Heimdal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 60B1A357-A0ED-3DC3-BAAD-6423321D6E3E
++  UUID: 8A115CBF-3289-37DE-BF69-CC95ADBA327F
+   Functions: 19
+   Symbols:   41
+   CStrings:  29
+
 ```

@@ -23,8 +23,11 @@
    __DATA_CONST.__auth_ptr: 0x18
    __DATA_CONST.__const: 0x6b0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3DCAD71D-9083-3B21-8BE7-6AA9F6437AD5
++  UUID: CCB280B7-093C-342C-8CE9-CEC7D3CA9BFA
    Functions: 310
 -  Symbols:   337
 +  Symbols:   338

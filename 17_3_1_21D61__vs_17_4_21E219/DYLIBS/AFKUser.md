@@ -24,4 +24,13 @@
    __DATA.__data: 0x10
    __DATA.__bss: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A5ACC27B-6584-3139-9260-03D1AC690F24
++  UUID: D9C74AC5-BF90-3DEF-9DAC-B4079991DDEF
+   Functions: 127
+   Symbols:   472
+   CStrings:  189
+
 ```

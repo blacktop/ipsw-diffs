@@ -34,4 +34,13 @@
    __DATA_DIRTY.__bss: 0x18
    __DATA_DIRTY.__common: 0x60
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F0F426F-33D5-3CE6-A8AD-DD809398CFDA
++  UUID: 720E8353-CF00-39AF-8642-AC28BCF238D4
+   Functions: 3651
+   Symbols:   367
+   CStrings:  1727
+
 ```

@@ -21,11 +21,15 @@
    __TEXT.__objc_methname: 0x76a
    __TEXT.__objc_classname: 0x4a
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 136CF51A-9360-30E8-B2ED-A48FC1B5E4D4
++  UUID: 425C4C3F-21D9-3ADE-9795-319DFAF2DD35
    Functions: 10008
    Symbols:   679
--  CStrings:  10350
-+  CStrings:  10351
+-  CStrings:  10807
++  CStrings:  10808
  
 CStrings:
 + "%25s:%-5d Volume was rescaled to match hardware range. mMinimum: %f mMaximum: %f"

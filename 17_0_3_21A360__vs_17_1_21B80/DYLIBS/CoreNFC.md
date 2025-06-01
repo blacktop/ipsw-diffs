@@ -18,6 +18,15 @@
    __TEXT.__objc_stubs: 0x2360
    __DATA_CONST.__got: 0x58
    __DATA_CONST.__const: 0x890
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 76614E4F-4CA5-3AA2-9C4C-A069E30BCE57
++  UUID: CEFCAF52-1A93-3480-A02E-D64886E53B7C
+   Functions: 651
+   Symbols:   2446
+   CStrings:  1268
 Symbols:
 + __OBJC_$_PROP_LIST_NFCFeliCaTag.154
 + __OBJC_$_PROP_LIST_NFCISO15693Tag.202

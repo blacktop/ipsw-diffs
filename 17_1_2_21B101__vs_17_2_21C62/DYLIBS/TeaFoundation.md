@@ -68,14 +68,12 @@
 +  __AUTH_CONST.__const: 0x12408
    __AUTH_CONST.__cfstring: 0x140
 -  __AUTH_CONST.__objc_const: 0x2f0
--  __AUTH_CONST.__auth_ptr: 0x438
 -  __AUTH_CONST.__auth_got: 0x1a48
 -  __AUTH.__objc_data: 0x488
 -  __AUTH.__data: 0x7c0
 -  __DATA.__objc_protorefs: 0x78
 -  __DATA.__objc_classrefs: 0x110
 +  __AUTH_CONST.__objc_const: 0x330
-+  __AUTH_CONST.__auth_ptr: 0x448
 +  __AUTH_CONST.__auth_got: 0x1ae8
 +  __AUTH.__objc_data: 0x4d0
 +  __AUTH.__data: 0x890
@@ -120,13 +118,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 344C47C2-1776-3723-8926-8C706CA35F85
 -  Functions: 11948
 -  Symbols:   5781
--  CStrings:  963
+-  CStrings:  973
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 4B3D1A91-FFB2-388D-B5EE-3D841BDAAA06
 +  Functions: 12353
 +  Symbols:   6035
-+  CStrings:  1056
++  CStrings:  1066
  
 Symbols:
 + _CLLocationCoordinate2DMake

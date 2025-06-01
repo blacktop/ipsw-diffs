@@ -31,11 +31,13 @@
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 57F8F33E-8D58-3A26-ACCF-D586244CDF6D
 -  Functions: 13270
++  UUID: A84308AB-BCEF-3518-B7E9-5CD745DB7E9C
 +  Functions: 13271
    Symbols:   945
--  CStrings:  5747
-+  CStrings:  5752
+-  CStrings:  6088
++  CStrings:  6093
  
 CStrings:
 + "%{public}s failed NaN check: %{public}f, %{public}f, %{public}f"

@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x7d8
 -  __AUTH.__objc_data: 0x2440
 +  __AUTH.__objc_data: 0x2490
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9AA6AEF5-C1BA-3AF2-8D37-906CC46D6B99
 -  Functions: 2518
 -  Symbols:   8786
--  CStrings:  4073
+-  CStrings:  4626
++  UUID: 9A26B263-8BA3-3D54-AA86-9273069E9698
 +  Functions: 2529
 +  Symbols:   8820
-+  CStrings:  4093
++  CStrings:  4653
  
 Symbols:
 + -[ASAuthorizationSecurityKeyPublicKeyCredentialAssertion _initWithBaseCredential:userID:signature:rawAuthenticatorData:appID:]

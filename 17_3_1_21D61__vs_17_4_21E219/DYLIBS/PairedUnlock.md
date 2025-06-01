@@ -37,11 +37,15 @@
    __DATA.__data: 0x1e8
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5200BD6B-4EFB-3A0D-8D11-64D5437A6A77
++  UUID: 236E6282-B738-3781-9FA6-93447271EF9F
    Functions: 102
    Symbols:   480
--  CStrings:  262
-+  CStrings:  263
+-  CStrings:  294
++  CStrings:  295
  
 Symbols:
 + ___block_literal_global.103

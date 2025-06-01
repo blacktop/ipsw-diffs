@@ -42,11 +42,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC9BFB0E-49A2-3CFF-ADDA-3D5B2D62A28B
++  UUID: A4DB552D-E283-3D11-A1F9-1496D92D2EEB
    Functions: 129
    Symbols:   467
--  CStrings:  233
-+  CStrings:  236
+-  CStrings:  282
++  CStrings:  288
  
 CStrings:
 + "A2538"

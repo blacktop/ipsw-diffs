@@ -20,7 +20,6 @@
 +  __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__cfstring: 0x2e60
 -  __AUTH_CONST.__const: 0x680
-   __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__const: 0x2e0
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0xf0
@@ -38,5 +37,14 @@
    __DATA_DIRTY.__bss: 0x120
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 886DDFAE-0155-3A74-8C5E-FA4EC42AEDAF
++  UUID: AF9545E0-03A8-38EE-900C-A3050E233A77
+   Functions: 1729
+   Symbols:   5992
+   CStrings:  3146
 
 ```

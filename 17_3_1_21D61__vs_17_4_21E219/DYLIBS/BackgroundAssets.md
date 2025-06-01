@@ -30,7 +30,6 @@
    __AUTH_CONST.__cfstring: 0xfc0
    __AUTH_CONST.__objc_const: 0x820
    __AUTH_CONST.__const: 0x350
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x3f0
    __AUTH.__objc_data: 0x330
 -  __DATA.__objc_protorefs: 0x40
@@ -40,11 +39,15 @@
    __DATA.__data: 0x710
    __DATA.__crash_info: 0x40
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1A90A2FC-F9BE-3BC1-ABBF-EF6F09A6780D
++  UUID: 6643158C-B25C-3287-AAD1-C4F85C10C4BB
    Functions: 483
    Symbols:   1620
--  CStrings:  781
-+  CStrings:  782
+-  CStrings:  907
++  CStrings:  908
  
 Symbols:
 + ___38-[BAAgentSystemProxy runDebugCommand:]_block_invoke.70

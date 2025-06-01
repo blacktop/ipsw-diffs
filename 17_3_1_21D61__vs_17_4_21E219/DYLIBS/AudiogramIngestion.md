@@ -37,11 +37,15 @@
    __DATA.__data: 0x668
    __DATA.__bss: 0x138
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 859E9485-C77A-302F-9B5B-87F4A3359F0D
++  UUID: A28F45C5-D901-3380-AB3C-F2F13D4B3440
    Functions: 596
    Symbols:   2348
--  CStrings:  1363
-+  CStrings:  1364
+-  CStrings:  1450
++  CStrings:  1451
  
 Symbols:
 + ___57-[AIAudiogramConfirmResultsViewController _saveToHealth:]_block_invoke.257

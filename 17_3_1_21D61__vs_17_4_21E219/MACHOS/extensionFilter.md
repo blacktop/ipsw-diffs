@@ -72,13 +72,15 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 93DC90E1-19DD-3697-BDA2-639EA562405E
 -  Functions: 679
 -  Symbols:   4767
--  CStrings:  424
+-  CStrings:  436
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 1984AA1D-8741-3E16-9BBF-305A41E84D79
 +  Functions: 691
 +  Symbols:   4834
-+  CStrings:  445
++  CStrings:  457
  
 Symbols:
 + _$s15extensionFilter03SmsB0C10SubClassesO10kReminders_WZ

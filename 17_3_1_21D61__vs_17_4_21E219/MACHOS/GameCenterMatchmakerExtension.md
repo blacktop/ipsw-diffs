@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA9EEF79-F213-3F5D-ACCD-5CC91051A8B7
 -  Functions: 592
 -  Symbols:   214
--  CStrings:  737
+-  CStrings:  744
++  UUID: E14D524A-C068-3488-A74F-5AF87EEF6868
 +  Functions: 591
 +  Symbols:   212
-+  CStrings:  735
++  CStrings:  738
  
 Symbols:
 + _GKOSLoggers

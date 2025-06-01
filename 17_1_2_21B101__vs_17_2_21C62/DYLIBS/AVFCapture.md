@@ -71,12 +71,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 94F3BD54-88EA-3668-B287-705F2074997E
 -  Functions: 4613
 -  Symbols:   16796
--  CStrings:  7448
+-  CStrings:  9382
++  UUID: 6D2293D2-056F-3AFF-9812-9E48FEEB6377
 +  Functions: 4634
 +  Symbols:   16863
-+  CStrings:  7473
++  CStrings:  9409
  
 Symbols:
 + -[AVCaptureDevice _setContinuousZoomWithDepthDisallowed:]

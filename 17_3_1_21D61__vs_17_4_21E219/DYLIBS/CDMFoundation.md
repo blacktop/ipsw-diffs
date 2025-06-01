@@ -75,11 +75,9 @@
    __DATA_CONST.__objc_arraydata: 0x58
 -  __AUTH_CONST.__const: 0x15f0
 -  __AUTH_CONST.__objc_const: 0x5350
--  __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__cfstring: 0x7b00
 +  __AUTH_CONST.__const: 0x2d68
 +  __AUTH_CONST.__objc_const: 0x5500
-+  __AUTH_CONST.__auth_ptr: 0xe0
 +  __AUTH_CONST.__cfstring: 0x7b80
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x168
@@ -183,12 +181,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FCD86A7D-C0AD-3559-81C3-0A6F9E477DA2
 -  Functions: 4025
 -  Symbols:   11960
--  CStrings:  6890
+-  CStrings:  7874
++  UUID: 63D773F0-625B-3D54-A076-52815EB64CC2
 +  Functions: 6480
 +  Symbols:   14427
-+  CStrings:  7264
++  CStrings:  8252
  
 Symbols:
 + +[CDMAssetsCache getAssetsFromUAFAssetSet:]

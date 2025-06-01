@@ -32,11 +32,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x20
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A442E87-1B0C-30DC-A73B-0AEF4D643C19
++  UUID: 6C0F0FBA-0085-3269-8334-E7529FEC3228
    Functions: 148
    Symbols:   127
--  CStrings:  282
-+  CStrings:  283
+-  CStrings:  297
++  CStrings:  298
  
 CStrings:
 + "length"

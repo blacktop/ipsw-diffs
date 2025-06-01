@@ -117,12 +117,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6DFD69CF-3940-34DD-AC5F-25C499DF8190
 -  Functions: 6674
 -  Symbols:   1967
--  CStrings:  9836
+-  CStrings:  11550
++  UUID: B9CFC809-6394-31A5-8C59-9926D64C4336
 +  Functions: 8311
 +  Symbols:   2077
-+  CStrings:  10504
++  CStrings:  12287
  
 Symbols:
 + _AP_XPC_ACTIVITY_SCHEDULED_TIME

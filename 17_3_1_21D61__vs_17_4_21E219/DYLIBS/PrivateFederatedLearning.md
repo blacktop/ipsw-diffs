@@ -69,12 +69,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 43E96910-7D23-3EEC-94F7-C5C822DC9AE6
 -  Functions: 965
 -  Symbols:   3533
--  CStrings:  1697
+-  CStrings:  2057
++  UUID: 75D103E4-5E75-36A9-8651-84BFEE58FEA8
 +  Functions: 972
 +  Symbols:   3565
-+  CStrings:  1698
++  CStrings:  2052
  
 Symbols:
 + +[FedStatsCohortQueryDeviceType cohortInstance]

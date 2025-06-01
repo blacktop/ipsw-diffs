@@ -26,15 +26,19 @@
    __AUTH_CONST.__const: 0x2270
 -  __AUTH_CONST.__cfstring: 0xf280
 +  __AUTH_CONST.__cfstring: 0x11400
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x2ef0
    __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_intobj: 0x1f8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BBB83A10-062C-3DF3-80D1-BFB7A9B4C071
++  UUID: 043C6372-A946-3227-9434-7B6F21A05282
    Functions: 4087
    Symbols:   12646
--  CStrings:  8541
-+  CStrings:  8808
+-  CStrings:  10481
++  CStrings:  11016
  
 CStrings:
 + "0.circle"

@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
 -  __AUTH_CONST.__const: 0x40
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7a8
 -  __DATA.__objc_classrefs: 0x2f0
 -  __DATA.__objc_superrefs: 0x170
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D7D1CA2-14E6-39F9-9F08-DD326BE8F0CE
 -  Functions: 1878
 -  Symbols:   5918
--  CStrings:  4037
+-  CStrings:  4861
++  UUID: 17566EA6-B803-3065-8A10-F905813D0FCD
 +  Functions: 1891
 +  Symbols:   5933
-+  CStrings:  4034
++  CStrings:  4874
  
 Symbols:
 + +[MBDomain isAppName:]

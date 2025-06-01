@@ -19,11 +19,15 @@
    __TEXT.__unwind_info: 0x1814
    __TEXT.__objc_classname: 0x157e
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 667616EF-853D-310B-8954-597382988CE7
++  UUID: 10D6EB3B-428F-3A3B-8558-E498E5015890
    Functions: 2952
    Symbols:   11723
--  CStrings:  5179
-+  CStrings:  5180
+-  CStrings:  5336
++  CStrings:  5337
  
 CStrings:
 + "Client app %{public}@ cannot become now playing; not requesting now playing"

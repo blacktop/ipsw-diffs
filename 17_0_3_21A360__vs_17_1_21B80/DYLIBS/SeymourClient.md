@@ -56,9 +56,8 @@
 +  __AUTH_CONST.__objc_const: 0x490
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__const: 0xcf98
-+  __AUTH_CONST.__const: 0xcf80
-   __AUTH_CONST.__auth_ptr: 0x338
 -  __AUTH_CONST.__auth_got: 0x22f0
++  __AUTH_CONST.__const: 0xcf80
 +  __AUTH_CONST.__auth_got: 0x2300
    __AUTH.__objc_data: 0x8c0
 -  __AUTH.__data: 0x39f8
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91364DC8-7264-396F-992F-ACA8FD28B410
 -  Functions: 8407
 -  Symbols:   2551
--  CStrings:  1261
+-  CStrings:  1265
++  UUID: 24F9D511-141B-39F4-897E-076FFBD9C4BE
 +  Functions: 8413
 +  Symbols:   2563
-+  CStrings:  1262
++  CStrings:  1266
  
 Symbols:
 + __DATA__TtC13SeymourClient14XPCExportProxy

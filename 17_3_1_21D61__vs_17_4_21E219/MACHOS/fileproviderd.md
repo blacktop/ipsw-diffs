@@ -121,12 +121,14 @@
 -  - /usr/lib/swift/libswift_Concurrency.dylib
 -  - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08D6249A-A1EA-3C9E-81CE-7732D5BF7A10
 -  Functions: 27477
 -  Symbols:   1993
--  CStrings:  5462
+-  CStrings:  5527
++  UUID: EC56611C-F757-35DA-8991-090EC3FC8208
 +  Functions: 17
 +  Symbols:   65
-+  CStrings:  83
++  CStrings:  88
  
 Symbols:
 + _OBJC_CLASS_$_NSDate
@@ -2340,7 +2342,9 @@ CStrings:
 - "\nWHERE metadata_closest_syncroot = "
 - "\nWHERE new_file_id IS NULL"
 - "\nWHERE relative_path = "
+- "\x0f%%"
 - "\x11"
+- "\x17%%"
 - " "
 - "  + active enumerators:\n"
 - "  SELECT rt.rowID, rt.fs_id\n    FROM reconciliation_table AS rt\n   INNER JOIN fs_snapshot AS item_snap ON (rt.fs_id = item_snap.id)\n   WHERE rt.fs_deletion_status & "
@@ -2509,6 +2513,7 @@ CStrings:
 - " ✍️  reconciliation update: %{public}s"
 - " 🔏"
 - "!subscription.isActivated"
+- "#%%"
 - "$__lazy_storage_$__cachedRTCReporter"
 - "$__lazy_storage_$_importIsRunning"
 - "$__lazy_storage_$_itemCount"
@@ -2819,6 +2824,7 @@ CStrings:
 - "1 ORDER BY item_id, kind, job_type"
 - "1 ORDER BY scheduling_priority DESC, scheduling_timestamp"
 - "1A"
+- "3%%"
 - ": domain-fpfsbackend"
 - ": errorGenerationPropertyQueue"
 - ": item contains diffs for still pending fields"

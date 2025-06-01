@@ -44,7 +44,6 @@
 -  __AUTH_CONST.__const: 0x660
 +  __AUTH_CONST.__cfstring: 0x2ea0
 +  __AUTH_CONST.__const: 0x6a0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__objc_intobj: 0x120
@@ -65,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EACF83B9-18ED-3937-9B2C-06175FBA16AD
 -  Functions: 1727
 -  Symbols:   5987
--  CStrings:  2778
+-  CStrings:  3154
++  UUID: 59EA50FA-0336-3A48-8B90-C6B287FB356D
 +  Functions: 1726
 +  Symbols:   5985
-+  CStrings:  2772
++  CStrings:  3145
  
 Symbols:
 + _CACurrentMediaTime

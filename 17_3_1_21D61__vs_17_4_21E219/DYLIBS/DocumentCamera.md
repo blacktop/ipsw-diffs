@@ -39,8 +39,8 @@
    __AUTH_CONST.__cfstring: 0x38a0
    __AUTH_CONST.__const: 0x60
 
+   __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa58
 -  __DATA.__objc_protorefs: 0x18
 -  __DATA.__objc_classrefs: 0x640
@@ -52,12 +52,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDCD18C2-37BA-3AD9-B122-3A5F0047D158
 -  Functions: 3438
 -  Symbols:   12259
--  CStrings:  5458
+-  CStrings:  5911
++  UUID: A15B9DF7-3A2A-37B4-928A-1F2E82426580
 +  Functions: 3441
 +  Symbols:   12266
-+  CStrings:  5461
++  CStrings:  5914
  
 Symbols:
 + -[DCDocumentCameraRemoteViewController preferredContainerBackgroundStyle]

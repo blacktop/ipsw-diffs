@@ -48,7 +48,6 @@
 -  __AUTH_CONST.__cfstring: 0x15840
 +  __AUTH_CONST.__cfstring: 0x158a0
    __AUTH_CONST.__const: 0x1a10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xc28
 +  __AUTH_CONST.__auth_got: 0xc30
@@ -62,12 +61,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1AEF68E-1E24-3862-90EB-9B1E79C152AC
 -  Functions: 6771
 -  Symbols:   21449
--  CStrings:  9669
+-  CStrings:  12423
++  UUID: 05CFC972-E2A0-31F7-ACDF-9FDAAEEB2E69
 +  Functions: 6774
 +  Symbols:   21461
-+  CStrings:  9682
++  CStrings:  12439
  
 Symbols:
 + -[CTRemotePlan primaryAccount]

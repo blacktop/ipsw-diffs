@@ -32,13 +32,16 @@
    __AUTH_CONST.__objc_const: 0x510
    __AUTH_CONST.__const: 0x190
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0806393-0C97-3200-9D24-17AE1133990C
++  UUID: B390681E-5C02-349B-865D-BCA990B01873
    Functions: 448
 -  Symbols:   1645
--  CStrings:  991
+-  CStrings:  1126
 +  Symbols:   1646
-+  CStrings:  999
++  CStrings:  1134
  
 Symbols:
 + _CNContactWatchWallpaperImageDataKey

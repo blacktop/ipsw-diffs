@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D65FBD58-41F7-327B-81E3-A31FE5CFD3DB
 -  Functions: 2683
 -  Symbols:   9243
--  CStrings:  4323
+-  CStrings:  5050
++  UUID: B67CA843-1B2C-311D-A9D2-B532E42020DD
 +  Functions: 2690
 +  Symbols:   9270
-+  CStrings:  4342
++  CStrings:  5070
  
 Symbols:
 + +[UIAccessibilityLoader _accessibilityUpdateSafeCategoryThread]

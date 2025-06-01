@@ -48,13 +48,16 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FC54D029-6CE7-3E4F-B3BC-8C18AF57AFB3
++  UUID: DDFB835C-19AC-3BBD-9CFF-76F24F3CAF02
    Functions: 60
 -  Symbols:   135
--  CStrings:  196
+-  CStrings:  207
 +  Symbols:   137
-+  CStrings:  203
++  CStrings:  214
  
 Symbols:
 + _CGDataProviderCreateWithCFData

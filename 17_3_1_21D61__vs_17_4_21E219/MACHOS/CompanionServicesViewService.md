@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B2063D57-30D5-3275-A886-25724992B8E4
 -  Functions: 95
 -  Symbols:   105
--  CStrings:  408
+-  CStrings:  440
++  UUID: 7455CD13-BABF-3488-B3E3-F3015A9F730E
 +  Functions: 96
 +  Symbols:   106
-+  CStrings:  416
++  CStrings:  448
  
 Symbols:
 + _objc_opt_respondsToSelector

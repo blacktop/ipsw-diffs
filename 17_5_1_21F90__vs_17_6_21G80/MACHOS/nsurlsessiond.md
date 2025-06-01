@@ -26,12 +26,15 @@
    __DATA_CONST.__const: 0x16b8
    __DATA_CONST.__cfstring: 0x1e20
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 952F84AD-F3A7-3B93-8E11-F03FB186C344
++  UUID: 7CBCB475-DBE0-304C-890C-08391F8DDCC4
    Functions: 1806
 -  Symbols:   483
 +  Symbols:   484
-   CStrings:  3482
+   CStrings:  3723
  
 Symbols:
 + _SANDBOX_CHECK_POSIX_WRITEABLE

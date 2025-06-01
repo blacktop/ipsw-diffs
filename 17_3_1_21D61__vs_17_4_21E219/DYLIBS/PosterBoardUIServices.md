@@ -47,11 +47,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCF01274-BB51-3555-BC80-3E5B3DAEDEB1
++  UUID: 18A920DB-B7C3-306C-8936-5D42C754335C
    Functions: 627
    Symbols:   2634
--  CStrings:  1424
-+  CStrings:  1425
+-  CStrings:  1540
++  CStrings:  1541
  
 Symbols:
 + ___105-[PRUISPosterSnapshotController _snapshotRequestDidFinishWithResult:definition:error:request:completion:]_block_invoke.140

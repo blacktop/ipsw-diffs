@@ -48,7 +48,6 @@
    __AUTH_CONST.__const: 0x6e0
    __AUTH_CONST.__objc_intobj: 0x378
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x1a30
 +  __AUTH_CONST.__auth_got: 0x1a38
    __AUTH.__objc_data: 0xcd0
@@ -65,12 +64,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 353EF639-BF1D-3355-9CF8-D036C477FB30
 -  Functions: 1777
 -  Symbols:   7873
--  CStrings:  4077
+-  CStrings:  4981
++  UUID: 5AE9C8CA-5F0D-3014-A568-9A7A402ED310
 +  Functions: 1788
 +  Symbols:   7910
-+  CStrings:  4099
++  CStrings:  5005
  
 Symbols:
 + +[CADSpotlightIndexer _executeWithNumRetriesOnFailure:block:]

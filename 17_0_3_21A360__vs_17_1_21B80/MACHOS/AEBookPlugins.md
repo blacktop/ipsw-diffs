@@ -63,12 +63,14 @@
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 1D14F5F3-1D28-38C8-B020-96850B7D7BDA
 -  Functions: 9970
 -  Symbols:   22163
--  CStrings:  14149
+-  CStrings:  15526
++  UUID: DFD6B268-1841-3603-8DFB-66394DEA4EFE
 +  Functions: 9975
 +  Symbols:   22179
-+  CStrings:  14157
++  CStrings:  15534
  
 Symbols:
 + +[BEAppearanceViewController canChangeBrightness]

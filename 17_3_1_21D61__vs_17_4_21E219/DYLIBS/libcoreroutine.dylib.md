@@ -106,12 +106,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0B04E158-6B46-378B-9FAF-1CE62751EA39
 -  Functions: 14974
 -  Symbols:   49034
--  CStrings:  26196
+-  CStrings:  30170
++  UUID: 1EC1E131-1CDC-3640-B78D-07947ED0B613
 +  Functions: 15231
 +  Symbols:   49776
-+  CStrings:  26589
++  CStrings:  30656
  
 Symbols:
 + +[RTBiomeManager biomeStreamTypeToBiomeStream:]

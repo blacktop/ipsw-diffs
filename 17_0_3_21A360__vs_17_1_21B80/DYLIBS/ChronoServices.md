@@ -71,9 +71,7 @@
 +  __AUTH_CONST.__const: 0x1b90
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x90
--  __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xab0
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__auth_got: 0xbc8
    __AUTH.__objc_data: 0x11f8
 -  __AUTH.__data: 0x488
@@ -96,12 +94,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 90C8836F-B654-3BF6-AA22-3857E0CF6F2C
 -  Functions: 2530
 -  Symbols:   7071
--  CStrings:  2560
+-  CStrings:  2988
++  UUID: 5F1C645A-FE65-3749-B1B8-A6276B645669
 +  Functions: 2709
 +  Symbols:   7127
-+  CStrings:  2579
++  CStrings:  3008
  
 Symbols:
 + -[CHSChronoServicesConnection retryStuckRemotePairings]

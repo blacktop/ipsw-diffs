@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__cfstring: 0x39e0
 +  __AUTH_CONST.__const: 0x380
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x558
 -  __AUTH.__objc_data: 0x1068
@@ -78,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82C7EFB7-4F71-3B5B-B8F3-B74CFE7EB571
 -  Functions: 2287
 -  Symbols:   7817
--  CStrings:  3657
+-  CStrings:  4045
++  UUID: 67DCFA6D-F14F-32AB-9635-26DC7E80B1E3
 +  Functions: 2374
 +  Symbols:   8052
-+  CStrings:  3814
++  CStrings:  4277
  
 Symbols:
 + +[CDPDAnalyticsTransport flushCaches].cold.1

@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D9FCA45-0AFC-3928-A3C4-4EAB67EEFAD7
 -  Functions: 2095
 -  Symbols:   441
--  CStrings:  2318
+-  CStrings:  2809
++  UUID: DBE122D2-0CBA-36BC-8DA6-BF8125D82066
 +  Functions: 2106
 +  Symbols:   440
-+  CStrings:  2324
++  CStrings:  2816
  
 Symbols:
 - _SIGeneralTrieCreateMutableCopy

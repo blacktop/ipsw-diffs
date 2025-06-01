@@ -13,4 +13,13 @@
    - /System/Library/PrivateFrameworks/Pegasus.framework/Pegasus
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: AA83D466-300F-3409-9A40-AAB3DDB0D59B
++  UUID: 54E2508B-A74F-34D7-99B5-A26A9AE454CA
+   Functions: 0
+   Symbols:   0
+   CStrings:  0
+
 ```

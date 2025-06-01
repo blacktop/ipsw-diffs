@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0B0605C4-B61F-3E7A-AE8F-7F4BAF074309
 -  Functions: 875
 -  Symbols:   3116
--  CStrings:  1746
+-  CStrings:  2338
++  UUID: 23627506-1ED1-32C0-8792-5EB391D3674B
 +  Functions: 877
 +  Symbols:   3122
-+  CStrings:  1748
++  CStrings:  2340
  
 Symbols:
 + +[BMDataProtection isClassCXUnlocked]

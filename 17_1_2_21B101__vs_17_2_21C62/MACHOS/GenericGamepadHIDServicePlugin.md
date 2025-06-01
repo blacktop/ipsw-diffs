@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B02F3EB4-8D4A-3442-9748-5E307EF9175C
 -  Functions: 287
 -  Symbols:   170
--  CStrings:  733
+-  CStrings:  806
++  UUID: 3FB47220-0AE4-3BDB-B751-071FB83CBCBA
 +  Functions: 294
 +  Symbols:   174
-+  CStrings:  747
++  CStrings:  825
  
 Symbols:
 + _OBJC_CLASS_$_GCGenericDeviceDataElementExistsExpressionModel

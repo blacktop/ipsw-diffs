@@ -23,4 +23,13 @@
    __DATA_CONST.__cfstring: 0x60
    __DATA.__data: 0x98
 
+   - /System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 529B2467-CDA5-3E88-94E2-81ED99C0DAB0
++  UUID: 05A843FF-395A-3B73-BC9D-B51C7B4A2A24
+   Functions: 177
+   Symbols:   165
+   CStrings:  94
+
 ```

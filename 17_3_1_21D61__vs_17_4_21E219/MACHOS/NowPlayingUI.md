@@ -110,12 +110,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 600170F6-4E60-32EF-B7FC-744CF0141F2F
 -  Functions: 7035
 -  Symbols:   3789
--  CStrings:  3459
+-  CStrings:  3474
++  UUID: FF6AC591-8194-30F6-958B-0AB35DCE95D1
 +  Functions: 9129
 +  Symbols:   4423
-+  CStrings:  3771
++  CStrings:  3786
  
 Symbols:
 + _MGGetStringAnswer

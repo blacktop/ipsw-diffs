@@ -46,11 +46,15 @@
    - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A1C89324-D8CA-30AC-88B2-3172090C355B
++  UUID: 0888E202-B88A-3F98-83DA-AE2001673D17
    Functions: 832
    Symbols:   3074
--  CStrings:  1591
-+  CStrings:  1592
+-  CStrings:  1923
++  CStrings:  1924
  
 Symbols:
 + ___38-[FIUnitManager _updatePreferredUnits]_block_invoke.294

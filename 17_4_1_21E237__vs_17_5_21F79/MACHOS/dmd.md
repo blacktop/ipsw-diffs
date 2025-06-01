@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x9d8
    __DATA_CONST.__const: 0x26c8
 
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: DEFE0437-825C-370A-A43D-A0D6A6B56BF1
++  UUID: A9B5DC16-C2BC-30C7-8188-478BFF49104D
+   Functions: 3001
+   Symbols:   890
+   CStrings:  5175
+
 ```

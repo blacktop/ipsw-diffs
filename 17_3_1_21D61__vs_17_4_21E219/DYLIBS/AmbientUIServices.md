@@ -36,11 +36,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0950AE2C-4C7C-3437-99BF-9286E830848F
++  UUID: 925DC4BB-E397-331E-9D2E-9EA1FDED3C6A
    Functions: 26
    Symbols:   175
--  CStrings:  109
-+  CStrings:  110
+-  CStrings:  115
++  CStrings:  116
  
 CStrings:
 + "T@\"NSString\",?,R,C"

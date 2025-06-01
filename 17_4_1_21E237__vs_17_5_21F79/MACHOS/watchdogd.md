@@ -27,13 +27,16 @@
    __DATA_CONST.__auth_ptr: 0x30
    __DATA_CONST.__const: 0x4f0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 061F872E-2526-3313-ADCC-64515A9B92A0
++  UUID: 587022D8-A101-3FCA-9D8C-1ADE6A09452B
    Functions: 191
 -  Symbols:   245
--  CStrings:  453
+-  CStrings:  509
 +  Symbols:   246
-+  CStrings:  455
++  CStrings:  511
  
 Symbols:
 + _fsctl

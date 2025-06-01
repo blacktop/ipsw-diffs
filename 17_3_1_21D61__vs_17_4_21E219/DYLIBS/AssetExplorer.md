@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
 
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0922B083-5D16-388B-93B7-DF94D97C4B16
++  UUID: 0B2522FB-CB8E-397F-A42D-3E16FCF30A2C
    Functions: 645
    Symbols:   2875
--  CStrings:  1599
-+  CStrings:  1604
+-  CStrings:  1690
++  CStrings:  1695
  
 Symbols:
 + ___Block_byref_object_copy_.1046

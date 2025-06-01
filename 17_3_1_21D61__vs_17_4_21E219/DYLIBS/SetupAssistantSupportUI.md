@@ -22,5 +22,12 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 36A015A4-93DD-36BC-9648-B0AFB3070387
++  UUID: 6350CA0C-356A-3225-98B2-56D21F9F42C8
+   Functions: 1
+   Symbols:   27
+   CStrings:  12
 
 ```

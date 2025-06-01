@@ -32,10 +32,9 @@
    __DATA_CONST.__objc_classlist: 0x1c0
    __DATA_CONST.__objc_protolist: 0x20
    __DATA_CONST.__objc_imageinfo: 0x8
-
+   __DATA_CONST.__objc_const: 0x3fa0
    __DATA_CONST.__objc_selrefs: 0x1210
    __AUTH_CONST.__const: 0x4980
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__cfstring: 0x1ca0
 +  __AUTH_CONST.__cfstring: 0x1d20
    __AUTH_CONST.__objc_const: 0x15a8
@@ -48,12 +47,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 17740EA2-5C5D-3B9F-B86F-0BCA89876CDF
 -  Functions: 7777
 -  Symbols:   21622
--  CStrings:  3572
+-  CStrings:  3801
++  UUID: B3C8978B-9B3A-3363-A2E3-6732E9DACC8E
 +  Functions: 7780
 +  Symbols:   21634
-+  CStrings:  3579
++  CStrings:  3812
  
 Symbols:
 + GCC_except_table1699

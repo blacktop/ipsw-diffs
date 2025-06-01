@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 061C600D-52D6-3B3A-A221-1134BD66DF15
 -  Functions: 1157
 -  Symbols:   4233
--  CStrings:  2146
+-  CStrings:  2284
++  UUID: 11DCEB41-2CFB-313F-AF0E-DC62AFA925BA
 +  Functions: 1158
 +  Symbols:   4236
-+  CStrings:  2149
++  CStrings:  2287
  
 Symbols:
 + -[CEKExpandingSlider initWithTitle:minimumValue:maximumValue:defaultValue:]

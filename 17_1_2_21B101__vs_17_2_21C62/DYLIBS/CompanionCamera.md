@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0EA75076-3F79-32D1-83BE-7BC368F9CFB5
 -  Functions: 223
 -  Symbols:   763
--  CStrings:  400
+-  CStrings:  433
++  UUID: 05E690A3-BD17-3CE6-9D35-C1528C495907
 +  Functions: 227
 +  Symbols:   775
-+  CStrings:  404
++  CStrings:  437
  
 Symbols:
 + -[CCCameraConnection _isSpatialCapture]

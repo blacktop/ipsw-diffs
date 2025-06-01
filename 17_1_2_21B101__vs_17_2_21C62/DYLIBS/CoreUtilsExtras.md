@@ -17,6 +17,8 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F7DC8D6-1ED6-31CA-9041-1688533FBACE
++  UUID: 1867CB93-A4D2-3E13-B972-01470440AA41
    Functions: 2
    Symbols:   4
 -  CStrings:  3966

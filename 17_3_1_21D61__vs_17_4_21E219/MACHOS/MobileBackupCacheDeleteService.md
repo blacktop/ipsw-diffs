@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2274413B-6C17-30E6-90B4-B572BB213511
 -  Functions: 100
 -  Symbols:   111
--  CStrings:  375
+-  CStrings:  417
++  UUID: ECDE62C9-A156-3142-BC58-DA606E190D6A
 +  Functions: 135
 +  Symbols:   135
-+  CStrings:  562
++  CStrings:  628
  
 Symbols:
 + _MBCreateTemporaryFilePathIn

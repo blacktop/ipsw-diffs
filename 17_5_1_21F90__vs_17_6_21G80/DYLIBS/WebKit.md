@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_dictobj: 0x1b8
    __AUTH_CONST.__objc_intobj: 0x468
    __AUTH_CONST.__objc_doubleobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xaf70
 +  __AUTH_CONST.__auth_got: 0xaf88
    __AUTH.__objc_data: 0x48f8
@@ -87,12 +86,14 @@
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2070C7A2-6AAF-39F1-B5C7-ABC26FBCAEB7
 -  Functions: 64561
 -  Symbols:   161987
--  CStrings:  24778
+-  CStrings:  27001
++  UUID: C91B052C-4258-3771-B54F-68BAE97E992C
 +  Functions: 64566
 +  Symbols:   162004
-+  CStrings:  24788
++  CStrings:  27012
  
 Symbols:
 + -[WKContentView(WKInteraction) _requestDOMPasteAccessForCategory:requiresInteraction:elementRect:originIdentifier:completionHandler:]

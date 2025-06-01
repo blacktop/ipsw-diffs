@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: A7025AB7-91F2-389C-BCBC-0505678A0FE8
 -  Functions: 155
 -  Symbols:   219
--  CStrings:  458
+-  CStrings:  504
++  UUID: 41E37FF1-A5FA-3E95-992A-070803D9C380
 +  Functions: 156
 +  Symbols:   223
-+  CStrings:  463
++  CStrings:  511
  
 Symbols:
 + _NSURLAuthenticationMethodOAuthBearerToken

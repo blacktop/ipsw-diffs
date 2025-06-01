@@ -83,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 357546B5-770F-38C0-9616-567990EC7ED6
 -  Functions: 361
 -  Symbols:   1282
--  CStrings:  796
+-  CStrings:  931
++  UUID: 86B9B95B-6F63-313A-BB42-A41D92D0A6BA
 +  Functions: 479
 +  Symbols:   1759
-+  CStrings:  1161
++  CStrings:  1363
  
 Symbols:
 + +[NDODevice deviceWithName:serialNumber:activationDate:deviceType:productID:productName:]

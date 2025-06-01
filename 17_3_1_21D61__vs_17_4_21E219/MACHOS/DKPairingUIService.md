@@ -50,8 +50,11 @@
    __DATA.__data: 0x6e8
    __DATA.__common: 0x58
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 11735669-5D90-36C8-8B90-2E1E6E597FDE
++  UUID: F86A10AC-1207-3390-B6CA-656EB8F19CA1
    Functions: 285
 -  Symbols:   240
 -  CStrings:  409

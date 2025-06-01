@@ -58,7 +58,6 @@
    __DATA_CONST.__objc_superrefs: 0x378
 -  __AUTH_CONST.__const: 0xb68
 +  __AUTH_CONST.__const: 0xeb8
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__cfstring: 0x4be0
 -  __AUTH_CONST.__objc_const: 0x3f88
 -  __AUTH_CONST.__auth_got: 0xca0
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 29EA90FD-E4CC-3344-A096-C27C2A6B8441
 -  Functions: 2620
 -  Symbols:   8639
--  CStrings:  3865
+-  CStrings:  4472
++  UUID: 3183A3BB-7EE9-3E21-A439-367E4F441D04
 +  Functions: 2703
 +  Symbols:   8677
-+  CStrings:  3863
++  CStrings:  4470
  
 Symbols:
 + +[HMFObjectCacheNSArray hmf_cachedInstanceForNSArray:]

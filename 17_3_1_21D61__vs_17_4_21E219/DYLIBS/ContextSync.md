@@ -39,11 +39,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x80
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D2E64F69-60DD-3AB2-9482-24201FC341AD
++  UUID: D6B1D024-51B8-3CD0-BABE-8600117ABA2A
    Functions: 281
    Symbols:   1093
--  CStrings:  660
-+  CStrings:  661
+-  CStrings:  718
++  CStrings:  719
  
 Symbols:
 + ___102-[ContextSyncClient registerForUpdates:withIdentifier:forUseCase:shouldWake:forDeviceTypes:withError:]_block_invoke.63

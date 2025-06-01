@@ -33,11 +33,15 @@
    __DATA_CONST.__objc_intobj: 0x18
    __DATA_CONST.__objc_dictobj: 0x78
 
+   - /usr/lib/libprotobuf.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5CB62098-C621-3451-A1EF-1FB73B542F71
++  UUID: AD9B39E6-2D5F-3E8C-BB26-EC3A43DADF86
    Functions: 1957
    Symbols:   513
--  CStrings:  1329
-+  CStrings:  1330
+-  CStrings:  1796
++  CStrings:  1798
  
 CStrings:
 + "siriinferenced"

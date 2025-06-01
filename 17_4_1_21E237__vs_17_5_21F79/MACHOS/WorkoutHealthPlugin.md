@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4D462A7D-E01A-377F-82AD-438592E7DBD0
 -  Functions: 234
 -  Symbols:   181
--  CStrings:  628
+-  CStrings:  710
++  UUID: 8A3E1F2B-639B-3A34-B40E-FFAA38C0B2AD
 +  Functions: 216
 +  Symbols:   165
-+  CStrings:  561
++  CStrings:  629
  
 Symbols:
 + _HKProductTypePrefixAppleWatch5SECellularBig

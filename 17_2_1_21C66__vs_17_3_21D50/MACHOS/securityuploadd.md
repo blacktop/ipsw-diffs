@@ -17,6 +17,15 @@
    __TEXT.__oslogstring: 0xe06
    __TEXT.__objc_classname: 0xd7
    __TEXT.__objc_methname: 0x1e7f
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 60C34FFC-5BB5-3106-87EC-39F0831B92D1
++  UUID: 794BD0CC-5EFF-3E05-9B9F-BC75B024CD42
+   Functions: 185
+   Symbols:   203
+   CStrings:  870
 CStrings:
 + "61040.80.10.0.1"
 - "61040.62.1"

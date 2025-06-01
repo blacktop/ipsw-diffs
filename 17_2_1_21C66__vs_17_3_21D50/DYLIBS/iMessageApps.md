@@ -15,11 +15,13 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C907A884-20D9-30BB-B2B8-148BDA6DDFEE
 -  Functions: 183
 -  Symbols:   832
++  UUID: 950D0A51-B703-34F0-9554-187EBAC60472
 +  Functions: 184
 +  Symbols:   834
-   CStrings:  607
+   CStrings:  615
  
 Symbols:
 + ___56-[IMAAppPresenter dismissAndReloadInputViews:forPlugin:]_block_invoke_2

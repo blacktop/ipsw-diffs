@@ -72,11 +72,9 @@
    __AUTH_CONST.__objc_dictobj: 0x208
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0x108
 -  __AUTH_CONST.__auth_got: 0x1198
 -  __AUTH.__objc_data: 0x47c8
 -  __AUTH.__data: 0x2b00
-+  __AUTH_CONST.__auth_ptr: 0x110
 +  __AUTH_CONST.__auth_got: 0x11a0
 +  __AUTH.__objc_data: 0x49b0
 +  __AUTH.__data: 0x2b50
@@ -96,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 182EF989-2C1F-3446-B2ED-9D463CE105F1
 -  Functions: 8659
 -  Symbols:   18610
--  CStrings:  8572
+-  CStrings:  9819
++  UUID: 53355350-3B9D-336B-AA52-CBD3012AA0F4
 +  Functions: 8721
 +  Symbols:   18735
-+  CStrings:  8653
++  CStrings:  9915
  
 Symbols:
 + +[AMSUIParentalVerificationApplePayTask _walletHasValidSetup:paymentRequest:]

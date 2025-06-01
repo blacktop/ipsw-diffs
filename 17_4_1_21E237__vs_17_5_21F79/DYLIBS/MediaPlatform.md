@@ -18,7 +18,6 @@
    __DATA_CONST.__const: 0x1b0
 +  __AUTH_CONST.__const: 0x380
    __AUTH_CONST.__cfstring: 0x260
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab8
    __DATA.__got_weak: 0x1b0
    __DATA.__data: 0x60
@@ -28,5 +27,13 @@
    __DATA_DIRTY.__bss: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: D485F3FC-B45C-3506-8ADA-2FBEDFF92E55
++  UUID: A203C408-D97F-3FA1-AF7C-D63733CC496C
+   Functions: 1761
+   Symbols:   4223
+   CStrings:  330
 
 ```

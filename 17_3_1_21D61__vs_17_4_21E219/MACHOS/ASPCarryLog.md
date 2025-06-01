@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libNVMeCTL.dylib
+-  UUID: DC441C97-C90E-3B4A-A9A3-6DBADC317AC3
 -  Functions: 608
 -  Symbols:   261
--  CStrings:  7774
+-  CStrings:  12519
++  UUID: 4F5663B7-F9B5-3E4B-8FF4-C0FBAD4932AC
 +  Functions: 611
 +  Symbols:   267
-+  CStrings:  8088
++  CStrings:  13031
  
 Symbols:
 + _CFDictionaryGetCount

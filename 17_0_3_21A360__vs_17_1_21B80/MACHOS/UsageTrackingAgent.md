@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9884776E-FEBA-3839-BF6D-F5C9A4FE9AEE
 -  Functions: 1079
 -  Symbols:   658
--  CStrings:  1243
+-  CStrings:  1329
++  UUID: 3064AA06-DEB0-3805-A47B-48197AC599F2
 +  Functions: 1068
 +  Symbols:   663
-+  CStrings:  1238
++  CStrings:  1324
  
 Symbols:
 + _$s14DeviceActivity0aB13AuthorizationC12isAuthorizedSbvgZ

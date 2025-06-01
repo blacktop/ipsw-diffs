@@ -25,7 +25,6 @@
 -  __AUTH_CONST.__objc_const: 0x2420
 -  __AUTH_CONST.__const: 0xac0
 +  __AUTH_CONST.__objc_const: 0x240
-   __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__const: 0x540
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x4b8
@@ -46,5 +45,14 @@
    __DATA_DIRTY.__common: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 84AAD712-9848-3F56-8320-8B6409E5561C
++  UUID: AE8BBD8B-DD33-3FDB-BF45-3CA9EC6EA290
+   Functions: 2062
+   Symbols:   6424
+   CStrings:  2900
 
 ```

@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_arraydata: 0x20
    __AUTH_CONST.__cfstring: 0x1e40
 
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F6638AA6-FFD6-36CB-99AC-8591DE2C2B9F
++  UUID: 464824C0-3378-3D3C-96C1-48455240DB3E
    Functions: 1978
    Symbols:   6798
--  CStrings:  3005
-+  CStrings:  3007
+-  CStrings:  3247
++  CStrings:  3249
  
 CStrings:
 + "T@\"NSURL\",R,N"

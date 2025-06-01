@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B30AA2B5-6A0A-3801-A70D-193BAD1F436F
 -  Functions: 1522
 -  Symbols:   5753
--  CStrings:  3344
+-  CStrings:  3992
++  UUID: 238AAD69-254A-321A-B0D0-2A0DD8594070
 +  Functions: 1523
 +  Symbols:   5758
-+  CStrings:  3345
++  CStrings:  3991
  
 Symbols:
 + +[VUIImageFactory makeImageWithImage:existingView:]

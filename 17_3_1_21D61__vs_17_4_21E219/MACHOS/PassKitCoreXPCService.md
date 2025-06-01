@@ -30,7 +30,11 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/Vision.framework/Vision
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 19AD4ABE-81D2-3A50-88C4-31F98C2685EC
++  UUID: BAB222AC-74AF-39EB-BD6A-FF1E2FC70ACA
    Functions: 4
    Symbols:   45
 -  CStrings:  63

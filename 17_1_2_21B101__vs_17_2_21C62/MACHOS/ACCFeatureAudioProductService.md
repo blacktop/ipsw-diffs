@@ -15,6 +15,15 @@
    __TEXT.__objc_methname: 0x66c
    __TEXT.__objc_classname: 0x92
    __TEXT.__objc_methtype: 0x1aa
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 004AB680-FAD0-3B22-A292-82F83312CB08
++  UUID: 1D3DBF5E-29D8-3961-8931-916340A10B51
+   Functions: 59
+   Symbols:   815
+   CStrings:  292
 Symbols:
 + _ACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR
 + _kCFACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR

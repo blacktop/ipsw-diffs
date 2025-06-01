@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__objc_const: 0xc50
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x78
 -  __AUTH_CONST.__auth_got: 0x5f0
 -  __AUTH.__objc_data: 0x8c0
@@ -64,13 +63,16 @@
    __DATA.__bss: 0x78
    __DATA_DIRTY.__objc_data: 0x1e0
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B4F9E09-437C-348C-AD86-E9C7CD6E0F83
++  UUID: AB7F1811-6119-31FD-8B10-CC2B400EF0E1
    Functions: 821
 -  Symbols:   3497
--  CStrings:  1774
+-  CStrings:  1889
 +  Symbols:   3507
-+  CStrings:  1786
++  CStrings:  1905
  
 Symbols:
 + -[PKSpotlightCardView initWithDiffuse:contentInsets:averageColor:]

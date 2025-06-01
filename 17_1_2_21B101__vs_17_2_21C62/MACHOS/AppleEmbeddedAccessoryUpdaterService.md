@@ -30,13 +30,16 @@
    __DATA_CONST.__objc_catlist: 0x20
    __DATA_CONST.__objc_protolist: 0x50
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B4F595E5-AA11-343B-97F7-01F9256A51AA
++  UUID: BC6B8187-5B60-3712-8DF2-8CEAF37F971C
    Functions: 1341
 -  Symbols:   1561
--  CStrings:  3823
+-  CStrings:  5667
 +  Symbols:   1565
-+  CStrings:  3827
++  CStrings:  5675
  
 Symbols:
 + _kAMAuthInstallTagApProductType

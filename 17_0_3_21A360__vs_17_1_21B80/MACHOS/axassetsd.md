@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0xdc
    __DATA.__objc_data: 0x870
 
+   - /usr/appleinternal/lib/liblinkguard.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F34F58EB-3878-3008-849B-B3B6A257AB83
++  UUID: CE1A4DD6-A367-3C07-B2CA-821FF54F06E8
    Functions: 329
 -  Symbols:   171
--  CStrings:  822
+-  CStrings:  899
 +  Symbols:   173
-+  CStrings:  824
++  CStrings:  902
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantArray

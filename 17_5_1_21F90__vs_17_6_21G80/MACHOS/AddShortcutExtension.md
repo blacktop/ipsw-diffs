@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_protolist: 0x28
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/WorkflowUI.framework/WorkflowUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 352C88EF-6881-3102-8CD9-0A859ECDA412
++  UUID: DF31B0B7-BA73-3E77-8EEC-C762692836DE
    Functions: 41
    Symbols:   78
--  CStrings:  183
-+  CStrings:  185
+-  CStrings:  188
++  CStrings:  191
  
 CStrings:
 + "%s No shortcut provided to shortcut service"

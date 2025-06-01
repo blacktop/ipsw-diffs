@@ -46,12 +46,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35536D59-A668-3A7C-A7FC-54177F2929C0
 -  Functions: 1702
 -  Symbols:   5240
--  CStrings:  2263
+-  CStrings:  2593
++  UUID: C7D1206F-DADC-3F1E-BC05-FA62B5CD03CF
 +  Functions: 1704
 +  Symbols:   5248
-+  CStrings:  2267
++  CStrings:  2597
  
 Symbols:
 + -[ASFriend estimatedIsStandaloneForSnapshotIndex:]

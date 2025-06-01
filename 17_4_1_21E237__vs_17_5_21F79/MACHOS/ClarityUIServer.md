@@ -21,7 +21,11 @@
    __TEXT.__swift5_builtin: 0x50
    __TEXT.__swift5_reflstr: 0x99
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1AFD4186-8210-3B31-B24A-43B666D397AF
++  UUID: 08E1B5F5-0366-3CD1-ABC2-B95A9096E30F
    Functions: 276
    Symbols:   166
 -  CStrings:  241

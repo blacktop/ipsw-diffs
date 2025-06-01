@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7306D6BF-437A-383D-A4FD-B2C63ABD9F19
 -  Functions: 1587
 -  Symbols:   5061
--  CStrings:  2309
+-  CStrings:  2705
++  UUID: C235071E-D28D-3C4F-B157-A0DE8083DBCA
 +  Functions: 1599
 +  Symbols:   5130
-+  CStrings:  2355
++  CStrings:  2770
  
 Symbols:
 + +[RTMotionActivity motionActivityConfidenceFromString:]

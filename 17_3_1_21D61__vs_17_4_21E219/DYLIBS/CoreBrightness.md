@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x118
 -  __AUTH_CONST.__const: 0xe0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xa60
 -  __AUTH.__objc_data: 0x2d0
 -  __DATA.__objc_protorefs: 0x48
@@ -102,12 +101,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7EB228DC-A2F9-3FE6-B3AD-130E4C2A39E2
 -  Functions: 3676
 -  Symbols:   12086
--  CStrings:  6791
+-  CStrings:  8138
++  UUID: 441D12F2-6E8F-30C7-9D3E-0DAC63469F38
 +  Functions: 4636
 +  Symbols:   14456
-+  CStrings:  7258
++  CStrings:  8685
  
 Symbols:
 + +[CBAgregateSettingsProvider sharedInstance]

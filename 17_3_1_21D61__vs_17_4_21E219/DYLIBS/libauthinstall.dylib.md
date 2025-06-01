@@ -54,8 +54,6 @@
 +  __AUTH_CONST.__const: 0x1130
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__objc_intobj: 0x18
-+  __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__objc_const: 0x580
 -  __AUTH_CONST.__auth_got: 0xbc8
 -  __AUTH.__objc_data: 0x4b0
@@ -64,6 +62,7 @@
 -  __DATA.__objc_ivar: 0x15c
 -  __DATA.__data: 0x6c8
 -  __DATA.__bss: 0xd60
++  __AUTH_CONST.__objc_intobj: 0x78
 +  __AUTH_CONST.__objc_const: 0x1ed0
 +  __AUTH_CONST.__auth_got: 0xc28
 +  __AUTH.__objc_data: 0x1400
@@ -85,12 +84,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: BF341001-7D6B-3F2A-84EC-CCB2C9897A8C
 -  Functions: 1874
 -  Symbols:   5433
--  CStrings:  4382
+-  CStrings:  5941
++  UUID: 37FC9B4E-36AB-392D-B1CA-CA477A16F460
 +  Functions: 2495
 +  Symbols:   7307
-+  CStrings:  4915
++  CStrings:  6572
  
 Symbols:
 + +[UARPAssetTagOS supportsSecureCoding]

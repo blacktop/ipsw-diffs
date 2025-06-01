@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28B149F2-AA77-38E1-A6DC-25A230E4DAED
 -  Functions: 3538
++  UUID: 5F0CBEC0-B0FC-3DD7-A05D-FAA5315BEA11
 +  Functions: 3540
    Symbols:   270
--  CStrings:  674
-+  CStrings:  675
+-  CStrings:  699
++  CStrings:  700
  
 CStrings:
 + "holidayseason"

@@ -28,4 +28,13 @@
    __DATA.__common: 0x4
    __DATA.__bss: 0x18
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8B332688-158D-3D6C-ADC3-FE7662D3A596
++  UUID: DA57D658-AF62-304D-A7C3-32E8CBA495C8
+   Functions: 368
+   Symbols:   334
+   CStrings:  709
+
 ```

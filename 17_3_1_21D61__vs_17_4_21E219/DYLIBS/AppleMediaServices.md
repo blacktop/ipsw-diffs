@@ -74,12 +74,10 @@
 +  __DATA_CONST.__objc_superrefs: 0xb38
    __DATA_CONST.__objc_arraydata: 0x508
 -  __AUTH_CONST.__const: 0x22220
--  __AUTH_CONST.__auth_ptr: 0x178
 -  __AUTH_CONST.__objc_const: 0xd058
 -  __AUTH_CONST.__cfstring: 0x1d0a0
 -  __AUTH_CONST.__objc_intobj: 0xd08
 +  __AUTH_CONST.__const: 0x242a8
-+  __AUTH_CONST.__auth_ptr: 0x188
 +  __AUTH_CONST.__objc_const: 0xd2e0
 +  __AUTH_CONST.__cfstring: 0x1da20
 +  __AUTH_CONST.__objc_intobj: 0xcd8
@@ -141,12 +139,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B05B896A-8A86-3446-BA7E-C54F77803943
 -  Functions: 20686
 -  Symbols:   49283
--  CStrings:  18103
+-  CStrings:  21820
++  UUID: 8741736F-49D6-3A47-B8C7-A2E98C3C15E5
 +  Functions: 21069
 +  Symbols:   50132
-+  CStrings:  18445
++  CStrings:  22238
  
 Symbols:
 + +[ACAccount(AppleMediaServices) _ams_storage]

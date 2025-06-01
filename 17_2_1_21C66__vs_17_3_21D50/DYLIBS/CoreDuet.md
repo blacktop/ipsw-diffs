@@ -46,12 +46,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ABEB46AC-7135-3D08-84DA-A9FFF9E71CCB
 -  Functions: 8769
 -  Symbols:   27033
--  CStrings:  11711
+-  CStrings:  14135
++  UUID: 85430D16-CAF7-3EEE-BAD5-8B452A574D70
 +  Functions: 8771
 +  Symbols:   27039
-+  CStrings:  11712
++  CStrings:  14136
  
 Symbols:
 + +[_CDLogging descriptionOfArray:redacted:]

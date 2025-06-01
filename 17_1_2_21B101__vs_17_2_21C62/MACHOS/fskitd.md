@@ -34,12 +34,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: E9C66FFC-1F8B-3ED5-8D01-854D8759C560
 -  Functions: 814
 -  Symbols:   244
--  CStrings:  1221
+-  CStrings:  1280
++  UUID: E0D00FE1-EFE6-3AF4-8EAE-236C805AC947
 +  Functions: 815
 +  Symbols:   246
-+  CStrings:  1224
++  CStrings:  1283
  
 Symbols:
 + _objc_autoreleasePoolPop

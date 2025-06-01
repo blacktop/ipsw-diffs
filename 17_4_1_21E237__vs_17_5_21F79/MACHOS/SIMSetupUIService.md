@@ -38,13 +38,16 @@
    __DATA.__objc_data: 0x7d0
    __DATA.__data: 0x780
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3351AFD-638E-367E-89C7-F9F820F783A4
++  UUID: 249F1CAB-A132-3FF6-A4E0-B1327C5EDB5B
    Functions: 393
 -  Symbols:   213
--  CStrings:  1122
+-  CStrings:  1198
 +  Symbols:   215
-+  CStrings:  1123
++  CStrings:  1199
  
 Symbols:
 + _TSHasLocalPlanKey

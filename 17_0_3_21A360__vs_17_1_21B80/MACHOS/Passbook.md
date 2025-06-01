@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F7779C7-0D2B-3719-BD58-5CEF18E6C1F3
 -  Functions: 122
 -  Symbols:   340
--  CStrings:  610
+-  CStrings:  633
++  UUID: 1D505E09-970A-3923-ACAF-7FE5FA801D48
 +  Functions: 120
 +  Symbols:   343
-+  CStrings:  589
++  CStrings:  616
  
 Symbols:
 + _OBJC_CLASS_$_NSInvocation

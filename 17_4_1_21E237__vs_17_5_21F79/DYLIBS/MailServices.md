@@ -35,4 +35,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 08ADF9B5-0B70-3DC9-A81F-236C0C002E7B
++  UUID: 42414FD8-153C-3D9C-895A-0C564CB717AB
+   Functions: 299
+   Symbols:   1623
+   CStrings:  1023
+
 ```

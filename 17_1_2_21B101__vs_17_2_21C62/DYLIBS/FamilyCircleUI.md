@@ -32,11 +32,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FE80AA31-2C2B-31DC-A178-75634BB74250
 -  Functions: 10729
++  UUID: 0754045F-5CDB-3BD4-91FD-B3B8CEA360B8
 +  Functions: 10731
    Symbols:   10464
--  CStrings:  4719
-+  CStrings:  4721
+-  CStrings:  5087
++  CStrings:  5089
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP8SettingsE22settingsListAppearanceQryFQOyACyAA4FormVyAA05TupleE0VyAeAE15navigationTitleyQrqd__SyRd__lFQOyAA7SectionVyAA05EmptyE0VAKyAA4TextV_012FamilyCircleB012FindMyButtonVSgtGARG_SSQo__ANyAp2RGSgANyArCyACyAA6ToggleVyARGAA32_EnvironmentKeyTransformModifierVySbGGAA14_OpacityEffectVGARGSgtGGAA05_TaskZ0VG_Qo_AA01_i6ActionZ0VGAaDHPqd__AaDHD2_A17_HO_A19_AA0eZ0HPyHCHC.52

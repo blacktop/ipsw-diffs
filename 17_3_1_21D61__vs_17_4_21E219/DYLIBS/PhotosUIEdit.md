@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0756C170-89B5-337F-9A20-44CAD9F0E997
++  UUID: 5A958F5D-7EE1-38CA-BCF3-5917869BBEAA
    Functions: 717
    Symbols:   3263
--  CStrings:  1974
-+  CStrings:  1975
+-  CStrings:  2208
++  CStrings:  2209
  
 Symbols:
 + ___Block_byref_object_copy_.1198

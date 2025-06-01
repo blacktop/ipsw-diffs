@@ -65,7 +65,6 @@
 +  __AUTH_CONST.__const: 0xb70
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x620
 -  __AUTH.__objc_data: 0xe08
 -  __DATA.__objc_ivar: 0xc04
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 141E0E10-04E2-3BC9-93AD-17F59FBBF183
 -  Functions: 3567
 -  Symbols:   11040
--  CStrings:  4577
+-  CStrings:  5221
++  UUID: 6FCDD8E1-A713-343A-AC30-814AEBEDA776
 +  Functions: 3726
 +  Symbols:   11527
-+  CStrings:  4765
++  CStrings:  5432
  
 Symbols:
 + +[SPAttachmentInfo supportsSecureCoding]

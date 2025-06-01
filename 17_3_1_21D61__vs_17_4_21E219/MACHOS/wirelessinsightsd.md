@@ -57,12 +57,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5B73B059-6EB8-3497-82F3-588C3E80A805
 -  Functions: 4705
 -  Symbols:   703
--  CStrings:  2165
+-  CStrings:  2270
++  UUID: CB87B096-018E-31FD-913A-A3CF5D4DDAD4
 +  Functions: 4689
 +  Symbols:   702
-+  CStrings:  2167
++  CStrings:  2272
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_

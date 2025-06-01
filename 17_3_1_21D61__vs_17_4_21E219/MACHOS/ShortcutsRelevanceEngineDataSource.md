@@ -20,5 +20,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C8B05ED-EE66-3DDC-9885-3B3ADD209DEB
++  UUID: A4E6F4DF-F104-3569-BF08-DCFE9ECF5763
+   Functions: 4
+   Symbols:   18
+   CStrings:  10
 
 ```

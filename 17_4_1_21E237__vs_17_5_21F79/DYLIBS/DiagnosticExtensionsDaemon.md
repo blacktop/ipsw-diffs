@@ -28,12 +28,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7B933C5-6578-32DF-B559-CFBBE417D60D
 -  Functions: 2737
 -  Symbols:   9351
--  CStrings:  4463
+-  CStrings:  5067
++  UUID: 5392FE24-1B5F-3867-A375-DA3808D9E7DD
 +  Functions: 2738
 +  Symbols:   9353
-+  CStrings:  4464
++  CStrings:  5068
  
 Symbols:
 + -[DEDCloudKitFinisher performCloudKitOperations]

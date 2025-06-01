@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A78E3DC2-4D65-3B4B-9C8F-2ECCF7FA658C
 -  Functions: 551
++  UUID: 680FDA24-F21A-3514-9E2F-B802A659937B
 +  Functions: 557
    Symbols:   308
--  CStrings:  759
-+  CStrings:  776
+-  CStrings:  800
++  CStrings:  817
  
 CStrings:
 + "Insufficient space allocated to copy string contents"

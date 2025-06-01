@@ -36,10 +36,12 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3244AA37-17F9-38AA-8C4E-3740C67F6496
 -  Functions: 843
++  UUID: A283C437-250B-35FF-9479-08FB604ECBCD
 +  Functions: 846
    Symbols:   3333
-   CStrings:  1986
+   CStrings:  2046
  
 
 ```

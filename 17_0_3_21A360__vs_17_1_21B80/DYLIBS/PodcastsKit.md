@@ -33,17 +33,20 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__objc_intobj: 0xa8
 +  __AUTH_CONST.__objc_intobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0x980
    __AUTH.__objc_data: 0x1820
+   __AUTH.__data: 0x468
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4ADE380A-FB57-3815-986C-8719BA08437F
++  UUID: ED09BE5E-50D4-30F2-8C84-1B470175FABA
    Functions: 1453
 -  Symbols:   3839
--  CStrings:  1994
+-  CStrings:  2144
 +  Symbols:   3840
-+  CStrings:  1995
++  CStrings:  2145
  
 Symbols:
 + _OBJC_CLASS_$__TtC18PodcastsFoundation18SyncKeysRepository

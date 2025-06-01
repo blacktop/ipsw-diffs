@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CBBB3E9-276D-342B-9469-3EEECA583BC3
 -  Functions: 251
 -  Symbols:   1033
--  CStrings:  760
+-  CStrings:  845
++  UUID: 75565F1F-B360-3E6E-B76E-250D621E7FCA
 +  Functions: 203
 +  Symbols:   845
-+  CStrings:  646
++  CStrings:  730
  
 Symbols:
 + -[LBLocalSpeechRecognizerClient connectToServiceIfNeeded]

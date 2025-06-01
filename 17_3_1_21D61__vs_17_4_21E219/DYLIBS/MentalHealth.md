@@ -38,11 +38,15 @@
    __DATA.__data: 0x540
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B45DDF3D-5E3B-3219-8A2B-EF0E6B463D26
++  UUID: 575FE006-3EEC-32E0-8C4A-7063C373FC9D
    Functions: 292
    Symbols:   1171
--  CStrings:  496
-+  CStrings:  497
+-  CStrings:  556
++  CStrings:  557
  
 Symbols:
 + ___118-[HKMHValenceDistributionSummaryQuery client_deliverValenceDistributionSummaries:clearPending:isFinalBatch:queryUUID:]_block_invoke.242

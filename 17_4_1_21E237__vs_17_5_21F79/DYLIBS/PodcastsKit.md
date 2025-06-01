@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_const: 0x1100
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x990
 -  __AUTH.__objc_data: 0x1820
 +  __AUTH_CONST.__auth_got: 0x998
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44522E62-F1AA-3DAB-9B61-1A1A7D2C1999
 -  Functions: 1452
 -  Symbols:   3845
--  CStrings:  2014
+-  CStrings:  2164
++  UUID: 101B40D4-7DD0-3E4F-89ED-B06A6A01E5CE
 +  Functions: 1476
 +  Symbols:   3864
-+  CStrings:  2024
++  CStrings:  2174
  
 Symbols:
 + _MRMediaRemoteSendCommandToPlayerWithResult

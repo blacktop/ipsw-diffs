@@ -23,12 +23,15 @@
    __DATA_CONST.__cfstring: 0x3a0
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F22BAEE-778F-321C-B40F-F6416A0E84F8
++  UUID: 4E7214B5-48E9-32D8-A123-19002CB7DFA1
    Functions: 27
 -  Symbols:   102
 +  Symbols:   103
-   CStrings:  182
+   CStrings:  211
  
 Symbols:
 + _close

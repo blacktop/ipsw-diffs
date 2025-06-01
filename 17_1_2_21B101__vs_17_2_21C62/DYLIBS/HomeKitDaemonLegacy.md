@@ -49,7 +49,6 @@
 +  __DATA_CONST.__objc_const: 0xb2b98
 +  __DATA_CONST.__objc_selrefs: 0x2e7c8
    __DATA_CONST.__objc_arraydata: 0x2878
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x10690
 -  __AUTH_CONST.__objc_const: 0x2f468
 -  __AUTH_CONST.__cfstring: 0x4c4a0
@@ -104,9 +103,10 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 520A58DE-97DD-35BB-9161-A571827B27EA
 -  Functions: 42653
 -  Symbols:   140983
--  CStrings:  66344
+-  CStrings:  76109
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
 +  - /usr/lib/swift/libswiftDispatch.dylib
@@ -114,9 +114,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 4339F294-7580-332E-9F10-F0342B5AA9C9
 +  Functions: 43181
 +  Symbols:   142769
-+  CStrings:  67481
++  CStrings:  77458
  
 Symbols:
 + +[HMDAudioStreamInterfaceDataSource logCategory]

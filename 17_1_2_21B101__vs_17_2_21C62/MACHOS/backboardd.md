@@ -45,12 +45,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsp.dylib
+-  UUID: BF2F1E07-E870-3B42-8E15-9853D15325C7
 -  Functions: 3029
 -  Symbols:   751
--  CStrings:  6126
+-  CStrings:  7153
++  UUID: 9738E85B-98D2-3492-BB4A-E5238C2AAD0D
 +  Functions: 3030
 +  Symbols:   752
-+  CStrings:  6127
++  CStrings:  7154
  
 Symbols:
 + __AXSClarityBoardEnabled

@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0C13570-58A1-3098-B055-E2D96887078B
 -  Functions: 2682
 -  Symbols:   9237
--  CStrings:  4320
+-  CStrings:  5047
++  UUID: 2756EA44-4243-3EDB-8039-CE9F90CBE6F6
 +  Functions: 2683
 +  Symbols:   9243
-+  CStrings:  4323
++  CStrings:  5050
  
 Symbols:
 + -[UIView(UIAccessibilityPrivate) _accessibilityShouldIgnoreSwipeActionCompletionHandler]

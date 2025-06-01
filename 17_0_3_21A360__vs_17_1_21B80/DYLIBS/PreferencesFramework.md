@@ -33,11 +33,15 @@
    __AUTH_CONST.__auth_got: 0x1f0
    __AUTH.__objc_data: 0x1e0
 
+   - /usr/lib/libMobileCheckpoint.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 818A4DA3-C467-3A14-906A-A6A4653D7457
++  UUID: 0910C022-44F2-3D28-A954-33F0671D0B01
    Functions: 258
    Symbols:   1181
--  CStrings:  565
-+  CStrings:  568
+-  CStrings:  807
++  CStrings:  812
  
 Symbols:
 + -[DevicePINPaneAccessibility slideToNewPasscodeField:requiresKeyboard:numericOnly:transition:showsOptionsButton:]

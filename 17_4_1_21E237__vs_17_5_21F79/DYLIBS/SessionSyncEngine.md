@@ -21,7 +21,11 @@
    __TEXT.__swift5_assocty: 0x78
    __TEXT.__swift5_capture: 0x40c
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 356F65C9-57D5-3237-B8FC-DC5DCB06CC16
++  UUID: C227DECD-7AF2-3D95-8A1F-67E66EAAFECD
    Functions: 1392
    Symbols:   580
 -  CStrings:  346

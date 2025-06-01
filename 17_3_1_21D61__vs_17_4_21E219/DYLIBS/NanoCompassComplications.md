@@ -74,7 +74,6 @@
 -  __DATA.__objc_superrefs: 0x190
 -  __DATA.__objc_ivar: 0x488
 -  __DATA.__data: 0x650
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x588
 +  __AUTH.__objc_data: 0x1988
 +  __AUTH.__data: 0x138
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6E16CE1A-5B90-33FC-BD24-1B7EDCAF1312
 -  Functions: 1396
 -  Symbols:   633
--  CStrings:  2441
+-  CStrings:  2778
++  UUID: 37BD5EF7-668D-3E54-9B08-40E10A94495E
 +  Functions: 1395
 +  Symbols:   636
-+  CStrings:  2430
++  CStrings:  2768
  
 Symbols:
 + _OBJC_CLASS_$__TtC24NanoCompassComplications21UnitLengthPreferences

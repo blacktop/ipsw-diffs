@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B52885B0-CE1B-3079-BA08-D67876D5968A
 -  Functions: 6156
 -  Symbols:   43661
--  CStrings:  11698
+-  CStrings:  15381
++  UUID: E6884DFB-5E8A-3D80-B023-97A2CFC966BD
 +  Functions: 6158
 +  Symbols:   43680
-+  CStrings:  11730
++  CStrings:  15421
  
 Symbols:
 + +[MOEventBundleMetaDataUtility setMetaDataForTime:startDate:endDate:metaData:].cold.1

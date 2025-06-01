@@ -30,5 +30,13 @@
    __DATA_DIRTY.__bss: 0x40
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F4C96FA8-2AD9-3E55-89B6-55543909B7F5
++  UUID: F2781D8D-FF39-3A37-A02A-6CCF7B782E8E
+   Functions: 162
+   Symbols:   698
+   CStrings:  376
 
 ```

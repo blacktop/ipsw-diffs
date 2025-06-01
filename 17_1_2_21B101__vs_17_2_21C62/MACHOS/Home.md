@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3A769B01-6E27-38AE-8A7E-B64AFAA53FC1
 -  Functions: 2709
 -  Symbols:   995
--  CStrings:  3865
+-  CStrings:  4198
++  UUID: 83BC3656-E8C7-3762-8040-0C9E83ED4431
 +  Functions: 2663
 +  Symbols:   926
-+  CStrings:  3895
++  CStrings:  4237
  
 Symbols:
 - _$s10AppIntents0A5ValueMp

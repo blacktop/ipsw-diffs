@@ -43,13 +43,16 @@
    __DATA.__bss: 0x10
    __DATA_DIRTY.__objc_data: 0x4b0
 
+   - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54BAFD87-3FF9-3E77-B8E7-8B74B9A683EF
++  UUID: 108C7D87-E988-3C6B-BDDE-8043AB335F95
    Functions: 460
 -  Symbols:   1863
--  CStrings:  1025
+-  CStrings:  1167
 +  Symbols:   1865
-+  CStrings:  1027
++  CStrings:  1169
  
 Symbols:
 + _OBJC_IVAR_$_MTMaterialView._reduceMotionObserverToken

@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 57060301-7042-37F2-B909-B598EFD11FE1
 -  Functions: 189
 -  Symbols:   825
--  CStrings:  538
+-  CStrings:  630
++  UUID: 6EA76264-6032-3640-9A3B-353A33E560F0
 +  Functions: 191
 +  Symbols:   830
-+  CStrings:  544
++  CStrings:  637
  
 Symbols:
 + -[SUBProgress setTaskID:]

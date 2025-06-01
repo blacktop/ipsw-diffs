@@ -34,7 +34,7 @@
    __DATA_CONST.__objc_catlist: 0x48
    __DATA_CONST.__objc_protolist: 0xb0
 
-   __AUTH_CONST.__auth_ptr: 0x90
+   __AUTH_CONST.__const: 0x1968
    __AUTH_CONST.__auth_got: 0xd28
    __AUTH.__objc_data: 0x450
 -  __AUTH.__data: 0x308
@@ -55,12 +55,15 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E2D651F9-7A43-3613-A572-39551B9C0151
++  UUID: 59B2392E-F319-3D4C-AB1D-06506CDC7FB8
    Functions: 2588
 -  Symbols:   4416
 +  Symbols:   4417
-   CStrings:  2416
+   CStrings:  2813
  
 Symbols:
 + _FAURLEndpointFamilyPrivacyDisclosureUI

@@ -22,11 +22,13 @@
    - /usr/lib/libipsec.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libresolv.9.dylib
+-  UUID: 368C697D-013E-3B44-8CD3-DD138ACAA2C1
 -  Functions: 2766
++  UUID: B2845111-2646-35C2-AA83-AB6A2CACB936
 +  Functions: 2768
    Symbols:   302
--  CStrings:  2212
-+  CStrings:  2213
+-  CStrings:  2227
++  CStrings:  2228
  
 CStrings:
 + "remote public key length (%zu) != prime length (%zu)\n"

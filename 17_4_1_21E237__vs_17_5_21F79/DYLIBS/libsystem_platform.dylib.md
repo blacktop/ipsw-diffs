@@ -16,4 +16,13 @@
    __AUTH_CONST.__const: 0x108
    __AUTH_CONST.__auth_got: 0xf8
 
+   __DATA_DIRTY.__common: 0x18
+   - /usr/lib/system/libdyld.dylib
+   - /usr/lib/system/libsystem_kernel.dylib
+-  UUID: E29C0EE4-8118-3A92-BFF8-1C343F8885AD
++  UUID: E99607C1-4F13-30B7-BD15-43C363B459C8
+   Functions: 224
+   Symbols:   343
+   CStrings:  61
+
 ```

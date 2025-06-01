@@ -19,5 +19,11 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D4D5428B-A0CA-3244-A59A-18D9B83FC4B3
++  UUID: 04720059-0B61-318B-BD99-416517B1A825
+   Functions: 71
+   Symbols:   292
+   CStrings:  187
 
 ```

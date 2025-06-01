@@ -82,12 +82,14 @@
    - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3B1E40B-E6F3-3CFA-9D21-2DEE8B01E323
 -  Functions: 3037
 -  Symbols:   10552
--  CStrings:  6305
+-  CStrings:  6885
++  UUID: 6E7177B4-2D44-38B0-A22E-B3C2AE77566F
 +  Functions: 3210
 +  Symbols:   11136
-+  CStrings:  6668
++  CStrings:  7304
  
 Symbols:
 + +[HMMTRControllerData logCategory]

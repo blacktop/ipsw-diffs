@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 513DE847-8D47-3B53-8073-247134EB0116
 -  Functions: 37
 -  Symbols:   65
--  CStrings:  250
+-  CStrings:  258
++  UUID: 1E999B93-AE08-3D5C-B687-E5401E026788
 +  Functions: 39
 +  Symbols:   66
-+  CStrings:  259
++  CStrings:  267
  
 Symbols:
 + __ICQStringForAction

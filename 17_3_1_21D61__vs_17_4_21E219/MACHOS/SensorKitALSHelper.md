@@ -39,13 +39,16 @@
    __DATA.__objc_data: 0x370
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F8CA6DB7-546F-33CE-A041-07B06C2832BF
++  UUID: 3245570F-1CC3-3744-83A8-EB875A677F85
    Functions: 171
 -  Symbols:   248
--  CStrings:  677
+-  CStrings:  824
 +  Symbols:   249
-+  CStrings:  678
++  CStrings:  825
  
 Symbols:
 + _OBJC_CLASS_$_NSData

@@ -27,11 +27,15 @@
    __DATA_CONST.__objc_protolist: 0x20
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAE58665-7920-3136-AB5E-65B0AE5C8DCC
++  UUID: C2A88A94-AAEE-3034-88EF-5648A24A539C
    Functions: 39
    Symbols:   59
--  CStrings:  275
-+  CStrings:  276
+-  CStrings:  293
++  CStrings:  295
  
 CStrings:
 + "PICKER_CONFIGURATION_ALERT_TITLE"

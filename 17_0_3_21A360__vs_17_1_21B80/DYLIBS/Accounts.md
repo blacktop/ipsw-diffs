@@ -21,6 +21,15 @@
    __TEXT.__objc_methtype: 0x1572
    __TEXT.__objc_stubs: 0x5be0
    __DATA_CONST.__got: 0x170
+
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 09CA7B52-0C03-3A5D-945D-92511C3B17C8
++  UUID: AB864E49-F0CF-3DF7-922E-CFE7A6BE1E25
+   Functions: 1875
+   Symbols:   6258
+   CStrings:  3296
 Symbols:
 + -[ACTimedExpirer cancelTimer]
 + ___29-[ACTimedExpirer cancelTimer]_block_invoke

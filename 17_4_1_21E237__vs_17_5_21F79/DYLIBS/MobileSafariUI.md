@@ -52,9 +52,8 @@
    __AUTH_CONST.__objc_const: 0x6808
    __AUTH_CONST.__objc_intobj: 0x4b0
    __AUTH_CONST.__objc_dictobj: 0x78
-
+   __AUTH_CONST.__objc_arrayobj: 0x270
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xd80
 -  __AUTH.__objc_data: 0x1eb0
 +  __AUTH.__objc_data: 0x1e10
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DA18E74F-C4C5-3C76-81DE-13B5A1A1A2C4
 -  Functions: 10846
 -  Symbols:   41044
--  CStrings:  18780
+-  CStrings:  20268
++  UUID: 29826F7F-D386-35EF-A7E2-EC953EC171FD
 +  Functions: 10863
 +  Symbols:   41087
-+  CStrings:  18799
++  CStrings:  20287
  
 Symbols:
 + -[BrowserController supportsSiriReadThis]

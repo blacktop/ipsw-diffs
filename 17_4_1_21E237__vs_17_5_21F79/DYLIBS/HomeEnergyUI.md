@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/Charts.framework/Charts
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E65EB1B-F0AB-3968-B888-682DD9EA0A18
++  UUID: EFD8C150-A39B-34B8-8E5C-A29C9961FD8E
+   Functions: 2675
+   Symbols:   1106
+   CStrings:  601
+
 ```

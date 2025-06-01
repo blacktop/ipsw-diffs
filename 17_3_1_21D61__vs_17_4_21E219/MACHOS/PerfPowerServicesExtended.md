@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
+   - /System/Library/PrivateFrameworks/PowerlogLiteOperators.framework/PowerlogLiteOperators
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9E108B05-3A1D-30DF-BFD3-60B0620C2BA8
++  UUID: C3D57B27-3A63-3893-BBC6-5A30E47BA675
+   Functions: 9
+   Symbols:   36
+   CStrings:  51
 
 ```

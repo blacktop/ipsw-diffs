@@ -18,6 +18,15 @@
    __DATA_CONST.__got: 0x70
    __DATA_CONST.__const: 0x3f0
    __AUTH_CONST.__cfstring: 0x1180
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 3402609D-1741-34C6-AF8E-3790725F71A8
++  UUID: 6050471D-2935-3D59-9243-1768928E223F
+   Functions: 796
+   Symbols:   1685
+   CStrings:  1417
 CStrings:
 + "2236.122.2"
 - "2236.102.1"

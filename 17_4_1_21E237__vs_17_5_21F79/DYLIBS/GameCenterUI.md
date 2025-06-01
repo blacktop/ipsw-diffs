@@ -68,7 +68,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0xc78
 -  __AUTH_CONST.__auth_got: 0x3380
 -  __AUTH.__objc_data: 0x15cd8
 -  __AUTH.__data: 0xd5c8
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B9A753DD-A002-3C6E-B091-DE9743CDEBF6
 -  Functions: 36157
 -  Symbols:   42541
--  CStrings:  15569
+-  CStrings:  16859
++  UUID: 9D069ECA-1B2D-3763-9083-646CACD686CA
 +  Functions: 36202
 +  Symbols:   42619
-+  CStrings:  15614
++  CStrings:  16912
  
 Symbols:
 + -[GKExtensionRootViewController preferredStatusBarStyle]

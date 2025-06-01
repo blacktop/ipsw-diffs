@@ -88,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EF31BAC4-8D00-362F-87C6-4CA4023F6D54
 -  Functions: 537
 -  Symbols:   340
--  CStrings:  1215
+-  CStrings:  1349
++  UUID: 021125C2-4B82-3180-B7AA-B2A54735F8D6
 +  Functions: 569
 +  Symbols:   345
-+  CStrings:  1222
++  CStrings:  1356
  
 Symbols:
 + __Block_copy

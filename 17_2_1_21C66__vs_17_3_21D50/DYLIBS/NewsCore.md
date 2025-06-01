@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E8739C06-43EF-35DF-B1BA-B5E7B9A09C26
 -  Functions: 17808
 -  Symbols:   57910
--  CStrings:  27673
+-  CStrings:  32994
++  UUID: 6DA41D97-C138-3547-9AF1-F49332578A45
 +  Functions: 17810
 +  Symbols:   57917
-+  CStrings:  27678
++  CStrings:  33000
  
 Symbols:
 + -[FCNewsAppConfig widgetBackgroundInteractionEnabled]

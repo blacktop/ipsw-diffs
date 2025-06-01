@@ -47,13 +47,16 @@
    __DATA.__bss: 0x60
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F4BCA14-9BBD-34F6-94FE-7A93A27A6143
++  UUID: D04DE9C3-7ACC-3B46-8B05-FF72C5E7108D
    Functions: 851
 -  Symbols:   3525
--  CStrings:  1699
+-  CStrings:  1847
 +  Symbols:   3526
-+  CStrings:  1702
++  CStrings:  1851
  
 Symbols:
 + -[PNPDeviceState isCharging]

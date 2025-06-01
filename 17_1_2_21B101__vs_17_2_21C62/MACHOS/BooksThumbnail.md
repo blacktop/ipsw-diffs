@@ -18,4 +18,13 @@
    - /System/Library/Frameworks/UIKit.framework/UIKit
    - /System/Library/PrivateFrameworks/BookLibraryCore.framework/BookLibraryCore
 
+   - /usr/lib/libobjc.A.dylib
+   - @rpath/BookCore.framework/BookCore
+   - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: F46C925E-BD60-337B-8243-821D6A000D28
++  UUID: 1154CE57-0879-3560-9D80-17B7C6DC62BC
+   Functions: 15
+   Symbols:   61
+   CStrings:  52
+
 ```

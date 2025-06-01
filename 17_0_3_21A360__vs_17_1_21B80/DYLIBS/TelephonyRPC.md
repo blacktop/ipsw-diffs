@@ -39,7 +39,7 @@
    __AUTH_CONST.__cfstring: 0xb20
    __AUTH_CONST.__objc_const: 0x638
 
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x960
    __AUTH.__objc_data: 0x578
 -  __AUTH.__data: 0x4c8
@@ -54,13 +54,16 @@
    __DATA.__bss: 0xa40
    __DATA.__common: 0xa8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ACBB26F0-B547-314F-83C5-939D7D14C7C2
++  UUID: 917D1875-A83D-3D4C-B825-D9AAB928FBC9
    Functions: 605
 -  Symbols:   1522
--  CStrings:  899
+-  CStrings:  988
 +  Symbols:   1523
-+  CStrings:  902
++  CStrings:  991
  
 Symbols:
 + __PROTOCOL_INSTANCE_METHODS_OPT__FTMSMessageStoreControllerDelegate

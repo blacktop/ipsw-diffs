@@ -76,12 +76,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1D51651F-24F5-3DCC-92E4-8631E5B6A262
 -  Functions: 13464
 -  Symbols:   525
--  CStrings:  7449
+-  CStrings:  8031
++  UUID: E5D994E4-6DC4-3F63-913A-E1993513812F
 +  Functions: 13784
 +  Symbols:   529
-+  CStrings:  7613
++  CStrings:  8213
  
 Symbols:
 + __ZN2PB6ReaderC1EPKhm

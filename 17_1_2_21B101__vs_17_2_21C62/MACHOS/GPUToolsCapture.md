@@ -28,11 +28,15 @@
    __DATA.__objc_protorefs: 0x70
    __DATA.__objc_classrefs: 0x660
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EC5CB367-9190-34C2-AF47-1A9A7BF187AB
++  UUID: BB358E84-7C7B-30C2-BEFA-C597B3595E4C
    Functions: 5610
    Symbols:   33827
--  CStrings:  6742
-+  CStrings:  6746
+-  CStrings:  7143
++  CStrings:  7147
  
 Symbols:
 + DEVICEOBJECT.10134

@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__objc_const: 0x1e98
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x618
 +  __AUTH_CONST.__auth_got: 0x610
@@ -78,12 +77,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A99ED3C7-9B51-3977-9B66-188CDE37C591
 -  Functions: 1335
 -  Symbols:   5201
--  CStrings:  2644
+-  CStrings:  3195
++  UUID: 6D22C982-D38D-3866-8D46-E72790F2C1CA
 +  Functions: 1332
 +  Symbols:   5181
-+  CStrings:  2641
++  CStrings:  3194
  
 Symbols:
 + +[MKSRPServer generateRandomPassword]

@@ -79,12 +79,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0875D4C-D017-3982-8B48-E900B1E180D6
 -  Functions: 438
 -  Symbols:   2118
--  CStrings:  1459
+-  CStrings:  1636
++  UUID: F731DEEE-7EDE-3F5B-9627-4597F8028008
 +  Functions: 498
 +  Symbols:   2332
-+  CStrings:  1547
++  CStrings:  1732
  
 Symbols:
 + +[MSDLanguageAndRegionHelper sharedInstance]

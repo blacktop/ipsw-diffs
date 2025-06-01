@@ -36,11 +36,15 @@
    __DATA.__data: 0x3e8
    __DATA_DIRTY.__objc_data: 0x280
 
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77D15764-5A43-317A-8804-CE432DB812C7
++  UUID: DD3A32E1-AF43-3387-A8CA-4A7E44265F71
    Functions: 173
    Symbols:   715
--  CStrings:  401
-+  CStrings:  402
+-  CStrings:  444
++  CStrings:  445
  
 CStrings:
 + "T@\"NSString\",?,R,C"

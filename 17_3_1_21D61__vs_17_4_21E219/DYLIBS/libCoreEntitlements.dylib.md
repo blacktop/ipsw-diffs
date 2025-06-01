@@ -21,6 +21,15 @@
    __DATA.__data: 0x10
    __DATA_DIRTY.__const: 0x40
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 78B86B88-CEFA-3E74-AF5A-9567B5B70B1D
++  UUID: 272C68E3-D0E1-3983-8E1C-D6AF1AA50C40
+   Functions: 105
+   Symbols:   251
+   CStrings:  155
 Symbols:
 + __ZNKSt3__16vectorI19CESerializedElementNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

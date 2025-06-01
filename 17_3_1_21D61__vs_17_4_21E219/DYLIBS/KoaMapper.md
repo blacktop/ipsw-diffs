@@ -62,7 +62,6 @@
 -  __DATA_CONST.__objc_const: 0x21d8
 -  __DATA_CONST.__objc_selrefs: 0x8f0
 -  __AUTH_CONST.__const: 0x280
--  __AUTH_CONST.__auth_ptr: 0x8
 +  __DATA_CONST.__objc_const: 0x2540
 +  __DATA_CONST.__objc_selrefs: 0x9e8
 +  __DATA_CONST.__objc_protorefs: 0x28
@@ -70,7 +69,6 @@
 +  __DATA_CONST.__objc_superrefs: 0xf8
 +  __AUTH_CONST.__const: 0x5f0
 +  __AUTH_CONST.__objc_const: 0xf58
-+  __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__cfstring: 0x900
 -  __AUTH_CONST.__objc_const: 0xe90
 -  __AUTH_CONST.__auth_got: 0x4d0
@@ -120,12 +118,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C97EDDFE-9495-3CE8-A790-71EC0CFE0E91
 -  Functions: 336
 -  Symbols:   1778
--  CStrings:  701
+-  CStrings:  773
++  UUID: BC310E9B-563F-3655-AE25-E24548340E9B
 +  Functions: 595
 +  Symbols:   2562
-+  CStrings:  795
++  CStrings:  867
  
 Symbols:
 + +[KMMapper_AppGlobalVocabulary externalObjectClass]

@@ -44,12 +44,15 @@
    __DATA.__objc_ivar: 0x1814
    __DATA.__data: 0x4388
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B083C72F-40A3-35E5-A263-3A694722BD55
++  UUID: 8C13B652-D3D3-33C3-87F3-CDC0EF51D206
    Functions: 6213
 -  Symbols:   22918
 +  Symbols:   22919
-   CStrings:  11312
+   CStrings:  12705
  
 Symbols:
 + _OBJC_CLASS_$_PRSBehaviorAggregator

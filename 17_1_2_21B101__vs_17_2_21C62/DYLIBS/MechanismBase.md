@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50A48D07-DE2E-3D57-ADE9-5656BF7E7ADA
 -  Functions: 301
 -  Symbols:   1192
--  CStrings:  734
+-  CStrings:  788
++  UUID: 556B2537-3C18-3FAF-A4B1-A55464C80CC7
 +  Functions: 368
 +  Symbols:   1449
-+  CStrings:  872
++  CStrings:  941
  
 Symbols:
 + -[MechanismAssertion additionalDescription]

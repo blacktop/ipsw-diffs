@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77268F38-C615-3A78-B35D-C2B7FA57362C
 -  Functions: 2721
 -  Symbols:   9642
--  CStrings:  2454
+-  CStrings:  2950
++  UUID: 81926B36-1F8F-3829-A70F-77BAE193710D
 +  Functions: 2766
 +  Symbols:   9785
-+  CStrings:  2488
++  CStrings:  2988
  
 Symbols:
 + +[STMediaStatusDomainMicrophoneRecordingAttribution supportsSecureCoding]

@@ -23,8 +23,10 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 132B7B49-3A41-31C2-B62D-75242FA46A2E
 -  Functions: 612
 -  Symbols:   1660
++  UUID: 7BEE0CAB-F7B4-35B4-8FF7-C8C3853FC991
 +  Functions: 601
 +  Symbols:   1638
    CStrings:  8

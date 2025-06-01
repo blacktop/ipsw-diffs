@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1543C4FB-448A-367F-94D9-C66FDEC264AE
 -  Functions: 5515
 -  Symbols:   18135
--  CStrings:  12193
+-  CStrings:  15138
++  UUID: 6A61F385-F4A4-3349-B39F-69B0CBF087FE
 +  Functions: 5518
 +  Symbols:   18142
-+  CStrings:  12197
++  CStrings:  15142
  
 Symbols:
 + -[WiFiSoftError askToLaunchTapToRadarWithMessage:timeout:]

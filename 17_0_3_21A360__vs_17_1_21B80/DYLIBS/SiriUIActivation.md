@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 738881D1-1F2B-3AA5-BE44-605E81B35871
 -  Functions: 476
 -  Symbols:   2061
--  CStrings:  1386
+-  CStrings:  1435
++  UUID: 716685CF-1C71-36D4-8105-728C61BDAB3C
 +  Functions: 478
 +  Symbols:   2068
-+  CStrings:  1390
++  CStrings:  1439
  
 Symbols:
 + -[SiriPresentationViewController setSiriSetupViewControllerPresented:]

@@ -18,11 +18,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 162FC0BF-5A6C-394C-AA1A-4F2146D923BC
 -  Functions: 2452
 -  Symbols:   9251
++  UUID: CF3587F6-45CA-35AD-966B-EB34C22BB9AB
 +  Functions: 2453
 +  Symbols:   9253
-   CStrings:  4692
+   CStrings:  5150
  
 Symbols:
 + -[AKAccountTelemetryHook initWithAccount:]

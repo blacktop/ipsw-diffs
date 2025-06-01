@@ -46,12 +46,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D43C66FB-A39B-304E-A81B-8ADBFAAE2882
 -  Functions: 3593
 -  Symbols:   12940
--  CStrings:  6213
+-  CStrings:  6596
++  UUID: AD860ED4-568E-373E-9D4C-109954AC8F1A
 +  Functions: 3596
 +  Symbols:   12951
-+  CStrings:  6218
++  CStrings:  6601
  
 Symbols:
 + -[QLImageItemViewController shouldDetectMachineReadableCode]

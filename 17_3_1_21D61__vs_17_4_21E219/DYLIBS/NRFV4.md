@@ -43,8 +43,8 @@
    __AUTH_CONST.__objc_const: 0x8c00
    __AUTH_CONST.__cfstring: 0x11560
 
+   __AUTH_CONST.__const: 0x880
    __AUTH_CONST.__objc_dictobj: 0x500
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_floatobj: 0x20
 -  __AUTH_CONST.__auth_got: 0x760
 +  __AUTH_CONST.__auth_got: 0x758
@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48CA194C-212B-392C-8E00-C71F0F2595BD
 -  Functions: 4783
 -  Symbols:   18937
--  CStrings:  14448
+-  CStrings:  16667
++  UUID: 30624CD4-4797-30B2-B71D-27DB1D8CA431
 +  Functions: 4784
 +  Symbols:   18940
-+  CStrings:  14463
++  CStrings:  16682
  
 Symbols:
 + _flushIOUnifiedAddressTranslatorWithDummyBuffer

@@ -47,12 +47,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AA4C9D1-6136-3D18-848E-A36B6B33D812
 -  Functions: 1600
 -  Symbols:   3825
--  CStrings:  4341
+-  CStrings:  4675
++  UUID: EEBB49A7-72C9-3F38-A189-464C7B59CE89
 +  Functions: 1601
 +  Symbols:   3826
-+  CStrings:  4342
++  CStrings:  4676
  
 Symbols:
 + -[ProgramAddressTableCollector dealloc]

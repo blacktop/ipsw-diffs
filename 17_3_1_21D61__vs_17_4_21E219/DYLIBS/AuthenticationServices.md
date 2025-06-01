@@ -79,11 +79,10 @@
    __AUTH_CONST.__objc_intobj: 0x120
 -  __AUTH_CONST.__objc_arrayobj: 0x60
 -  __AUTH_CONST.__objc_doubleobj: 0x20
-+  __AUTH_CONST.__objc_arrayobj: 0x90
-+  __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x7c8
 -  __AUTH.__objc_data: 0x23f0
++  __AUTH_CONST.__objc_arrayobj: 0x90
++  __AUTH_CONST.__objc_doubleobj: 0x10
 +  __AUTH_CONST.__auth_got: 0x7d8
 +  __AUTH.__objc_data: 0x2440
    __AUTH.__data: 0x98
@@ -117,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BCC9899A-4039-362C-ADB1-9E7FAF2D84CF
 -  Functions: 2496
 -  Symbols:   8752
--  CStrings:  3991
+-  CStrings:  4511
++  UUID: 2C3116F0-8848-3E98-8C92-40F7C1575622
 +  Functions: 2518
 +  Symbols:   8786
-+  CStrings:  4073
++  CStrings:  4626
  
 Symbols:
 + +[ASViewServiceInterfaceUtilities otherAccountsCellIconSize]
@@ -894,6 +895,7 @@ CStrings:
 - "Couldn't update interface because a new request view controller could not be created for the new login choices."
 - "DeviceClassNumber"
 - "Enabling Bluetooth"
+- "N"
 - "No Credentials Found"
 - "No request view controller specified for credential request."
 - "No view controller specified for request."

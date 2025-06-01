@@ -71,7 +71,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x10b8
 -  __AUTH.__objc_data: 0x7140
 -  __AUTH.__data: 0xba0
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46C5AACB-E4DA-30D5-9761-31E61F5BFE5E
 -  Functions: 11466
 -  Symbols:   32225
--  CStrings:  13921
+-  CStrings:  15263
++  UUID: E7801D88-C7ED-3870-8AB9-5881A94B4BBA
 +  Functions: 11548
 +  Symbols:   32403
-+  CStrings:  13972
++  CStrings:  15323
  
 Symbols:
 + +[EKCalendarItemEditItem scaledHeightOfSystemTableViewCell]

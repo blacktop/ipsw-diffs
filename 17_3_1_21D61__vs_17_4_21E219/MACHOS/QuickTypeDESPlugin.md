@@ -45,11 +45,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7FA86A3-72F8-3487-BE9B-0CBE4A7F52F9
 -  Functions: 254
++  UUID: 2D5BA747-5CFD-3A93-8E8E-D3F7982CC0AB
 +  Functions: 256
    Symbols:   254
--  CStrings:  588
-+  CStrings:  589
+-  CStrings:  702
++  CStrings:  703
  
 CStrings:
 + "T@\"NSString\",?,R,C"

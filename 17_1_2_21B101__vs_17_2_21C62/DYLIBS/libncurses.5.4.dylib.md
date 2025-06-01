@@ -16,15 +16,17 @@
    __TEXT.__unwind_info: 0x724
    __DATA_CONST.__got: 0x28
    __DATA_CONST.__const: 0x2f10
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x2f0
 +  __AUTH_CONST.__auth_got: 0x2e8
    __DATA.__data: 0x300
    __DATA.__bss: 0x203
    __DATA.__common: 0x3e4
 
+   __DATA_DIRTY.__data: 0x18
    __DATA_DIRTY.__common: 0x1e8
    - /usr/lib/libSystem.B.dylib
+-  UUID: FD466AB9-10D4-39C3-9EC7-2A4F87B61C30
++  UUID: 849317B6-9CCB-31B3-8FBD-0B2837768D8C
    Functions: 705
 -  Symbols:   734
 -  CStrings:  1685

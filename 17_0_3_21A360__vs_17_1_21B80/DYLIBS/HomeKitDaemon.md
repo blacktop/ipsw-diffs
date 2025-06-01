@@ -48,7 +48,6 @@
 +  __DATA_CONST.__objc_const: 0xdc9a0
 +  __DATA_CONST.__objc_selrefs: 0x33440
    __DATA_CONST.__objc_arraydata: 0x32f8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x12700
 -  __AUTH_CONST.__cfstring: 0x54d00
 -  __AUTH_CONST.__objc_const: 0x38900
@@ -94,18 +93,20 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B0BC3A7C-A59F-346A-B1AD-AC91948B1A00
 -  Functions: 48149
 -  Symbols:   159646
--  CStrings:  73889
+-  CStrings:  84745
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
 +  - /usr/lib/swift/libswiftDispatch.dylib
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: E37134C7-41B7-36F4-9E10-7CE0740EB9AE
 +  Functions: 48351
 +  Symbols:   160337
-+  CStrings:  74335
++  CStrings:  85263
  
 Symbols:
 + +[HMDAccessoryCounterGroupSpecifier specifierWithGroupName:homeUUID:accessoryUUID:date:]

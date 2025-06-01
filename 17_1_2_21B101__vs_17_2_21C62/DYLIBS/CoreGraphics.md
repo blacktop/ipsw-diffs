@@ -40,12 +40,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 13FBF3F6-89E2-3186-B99E-AF817D1CD570
 -  Functions: 11092
 -  Symbols:   25723
--  CStrings:  12257
+-  CStrings:  13293
++  UUID: 185D1FE7-ADD8-3839-B0C8-44D97206C8F3
 +  Functions: 11091
 +  Symbols:   25720
-+  CStrings:  12259
++  CStrings:  13295
  
 Symbols:
 + GCC_except_table10688

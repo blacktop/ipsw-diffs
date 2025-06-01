@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E8A4377-0F64-31E5-B8C3-5590D6A21C76
 -  Functions: 412
 -  Symbols:   1741
--  CStrings:  882
+-  CStrings:  981
++  UUID: 6E9967DF-99F5-3FEE-83CF-0E906062F92D
 +  Functions: 413
 +  Symbols:   1745
-+  CStrings:  886
++  CStrings:  986
  
 Symbols:
 + -[USDeviceActivityEvent includesPastActivity]

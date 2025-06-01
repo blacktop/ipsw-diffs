@@ -36,11 +36,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x28
 
+   - /System/Library/PrivateFrameworks/iCalendar.framework/iCalendar
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4011F026-BFF3-35E4-830B-3BAC8238FDAD
++  UUID: 062580BF-6059-3E2F-9E7D-6A1F70C32AA0
    Functions: 217
    Symbols:   1038
--  CStrings:  748
-+  CStrings:  749
+-  CStrings:  813
++  CStrings:  814
  
 CStrings:
 + "T@\"NSString\",?,R,C"

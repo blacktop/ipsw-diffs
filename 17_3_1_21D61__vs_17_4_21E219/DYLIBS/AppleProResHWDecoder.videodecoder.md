@@ -22,7 +22,6 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__got: 0x1c0
    __DATA_CONST.__const: 0x40
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__const: 0xd8
 -  __AUTH_CONST.__auth_got: 0x4e8
@@ -34,12 +33,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 3C704ADA-19F0-3D3B-8C86-63B0852ADCF9
 -  Functions: 463
 -  Symbols:   1161
--  CStrings:  323
+-  CStrings:  327
++  UUID: B3A918B2-5033-37D6-8C3E-0D3AD2317BBB
 +  Functions: 497
 +  Symbols:   1232
-+  CStrings:  344
++  CStrings:  348
  
 Symbols:
 + _CreateProResFrameReceiver.cold.3

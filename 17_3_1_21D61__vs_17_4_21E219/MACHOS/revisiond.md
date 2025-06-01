@@ -57,12 +57,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A7F0D11B-0051-3AA4-A9B4-5D56024745CD
 -  Functions: 1008
 -  Symbols:   332
--  CStrings:  1511
+-  CStrings:  1807
++  UUID: 7F5E747C-EE8D-3D98-9858-41689CC15CAA
 +  Functions: 1017
 +  Symbols:   335
-+  CStrings:  1522
++  CStrings:  1819
  
 Symbols:
 + _OBJC_CLASS_$_NSDate

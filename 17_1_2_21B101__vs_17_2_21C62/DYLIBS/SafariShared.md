@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_intobj: 0x4c8
    __AUTH_CONST.__objc_doubleobj: 0xa0
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xda8
 -  __AUTH.__objc_data: 0x3200
 +  __AUTH_CONST.__auth_got: 0xd90
@@ -96,12 +95,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A218B3E2-45BE-393D-B9F0-51F02124C9B9
 -  Functions: 8435
 -  Symbols:   28881
--  CStrings:  12489
+-  CStrings:  16265
++  UUID: D7FAF284-E4D2-374F-8787-42F2B3348995
 +  Functions: 8464
 +  Symbols:   28979
-+  CStrings:  11598
++  CStrings:  14442
  
 Symbols:
 + +[WBSCGImage imageByAdoptingCGImage:]
@@ -425,6 +426,7 @@ Symbols:
 - _objc_msgSend$safari_reverseEnumerateComponents:usingBlock:
 CStrings:
 + "\x05\x18"
++ "\v ."
 + "\x0f\x03"
 + "%.2X"
 + "%@"

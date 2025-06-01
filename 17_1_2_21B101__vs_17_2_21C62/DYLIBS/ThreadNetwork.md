@@ -35,13 +35,16 @@
    __AUTH_CONST.__objc_const: 0x480
    __AUTH_CONST.__const: 0x140
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07D997D5-10F2-37AA-B3C1-34FD414B2662
++  UUID: EDD36D26-6BA2-3AE5-BEAF-8F8B9142E8BA
    Functions: 283
 -  Symbols:   985
--  CStrings:  412
+-  CStrings:  441
 +  Symbols:   986
-+  CStrings:  414
++  CStrings:  443
  
 Symbols:
 + ___block_literal_global.55

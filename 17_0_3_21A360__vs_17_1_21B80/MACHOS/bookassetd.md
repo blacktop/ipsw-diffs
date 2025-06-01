@@ -39,4 +39,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C045265C-FD11-34C3-BCC7-5F9DCCA14E41
++  UUID: 35197E3C-2A9F-3AB8-8684-CD0FC4269221
+   Functions: 2575
+   Symbols:   559
+   CStrings:  5588
+
 ```

@@ -19,11 +19,15 @@
    __DATA_CONST.__got: 0xa0
    __DATA_CONST.__const: 0xe8
 
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
    - /usr/lib/libSystem.B.dylib
+-  UUID: 74E0CD04-6F47-3CA1-80AB-96084728C2D5
++  UUID: 584DC280-BC69-3BB4-B7BF-5DF0CB925C26
    Functions: 671
    Symbols:   1301
--  CStrings:  512
-+  CStrings:  514
+-  CStrings:  539
++  CStrings:  541
  
 CStrings:
 + "EmbeddedAppleJPEG-216.2"

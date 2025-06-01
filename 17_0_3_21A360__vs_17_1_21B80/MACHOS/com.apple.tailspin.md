@@ -34,13 +34,16 @@
    __DATA.__crash_info: 0x40
    __DATA.__bss: 0x410
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 335C02A2-7AAD-3F4F-9715-26EE48B6F1C4
++  UUID: 6F746662-C38A-35E6-929B-59A60CD7CAA6
    Functions: 7
 -  Symbols:   44
--  CStrings:  13
+-  CStrings:  15
 +  Symbols:   55
-+  CStrings:  31
++  CStrings:  40
  
 Symbols:
 + _CFDictionaryGetTypeID

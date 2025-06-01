@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x203
    __TEXT.__objc_methname: 0x48b
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AE215BC9-4C59-3350-98BC-0A36F75CC930
++  UUID: 6F5628E0-9830-31E2-84E3-B6F96414251B
+   Functions: 11
+   Symbols:   57
+   CStrings:  158
+
 ```

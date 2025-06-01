@@ -42,4 +42,13 @@
    __DATA_DIRTY.__common: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 83DC87DF-9352-3F04-B848-C8293F36C0DF
++  UUID: 49ED6D66-E3B3-3E4C-AE76-74E84D136C4B
+   Functions: 460
+   Symbols:   1865
+   CStrings:  1170
+
 ```

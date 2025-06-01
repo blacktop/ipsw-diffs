@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__const: 0x32a8
    __AUTH_CONST.__objc_const: 0xca0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xef8
 +  __AUTH_CONST.__auth_got: 0xef0
@@ -70,12 +69,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6F31864-AC72-3138-A981-9F6BCF6D37DD
 -  Functions: 4753
 -  Symbols:   15367
--  CStrings:  8483
+-  CStrings:  11143
++  UUID: 62D13E38-BE48-300F-8961-D678F74CAA02
 +  Functions: 4768
 +  Symbols:   15417
-+  CStrings:  8524
++  CStrings:  11194
  
 Symbols:
 + -[AVSystemController clearUplinkMutedCache]

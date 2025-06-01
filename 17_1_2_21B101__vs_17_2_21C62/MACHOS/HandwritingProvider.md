@@ -28,11 +28,15 @@
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x270
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9002348A-0BBB-3364-8127-D7F7C03768CF
++  UUID: B198B46F-E6B4-3734-AAA6-AD635A744511
    Functions: 534
    Symbols:   270
--  CStrings:  1587
-+  CStrings:  1590
+-  CStrings:  1702
++  CStrings:  1705
  
 CStrings:
 + "_addStickerToStoreWithRepresentations:sourceRect:effect:completion:"

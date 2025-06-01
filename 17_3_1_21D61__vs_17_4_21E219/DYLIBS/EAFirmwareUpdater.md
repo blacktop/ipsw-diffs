@@ -29,8 +29,7 @@
    __AUTH_CONST.__objc_const: 0x1f0
    __AUTH_CONST.__cfstring: 0x2a60
    __AUTH_CONST.__objc_intobj: 0x18
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__auth_got: 0x280
    __AUTH.__objc_data: 0x140
 -  __DATA.__objc_classrefs: 0xe0
@@ -39,11 +38,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5824AAE3-9219-3F08-85F9-82ECBD91E0DD
++  UUID: D1E12800-69F0-312C-8A76-CEE0BA8BA5E1
    Functions: 238
    Symbols:   1033
--  CStrings:  1058
-+  CStrings:  1059
+-  CStrings:  1397
++  CStrings:  1398
  
 Symbols:
 + ___83-[HSModel scheduleCoreSpeechTask:minorVersion:downloadedModels:preinstalledModels:]_block_invoke.48

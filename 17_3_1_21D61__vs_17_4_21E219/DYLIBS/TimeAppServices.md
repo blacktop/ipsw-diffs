@@ -21,5 +21,12 @@
    __DATA.__objc_ivar: 0x4
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Intents.framework/Intents
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8895C06-1DFF-30E9-A345-13B92CEE41EC
++  UUID: 0E6E5A4D-F099-3B6F-B18D-420ADE4679CB
+   Functions: 3
+   Symbols:   32
+   CStrings:  15
 
 ```

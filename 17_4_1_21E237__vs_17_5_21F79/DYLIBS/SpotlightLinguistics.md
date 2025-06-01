@@ -22,7 +22,6 @@
 +  __DATA_CONST.__const: 0xa38
    __AUTH_CONST.__cfstring: 0x1200
 -  __AUTH_CONST.__const: 0x610
-   __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__const: 0xd8
    __AUTH_CONST.__auth_got: 0x640
    __DATA.__data: 0x278
@@ -35,5 +34,14 @@
    __DATA_DIRTY.__common: 0x80
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A654EDFF-1902-3486-8D29-4AAED1B61CE4
++  UUID: F804EE7C-CB1F-35E4-8964-75E1A897EF9A
+   Functions: 420
+   Symbols:   1242
+   CStrings:  380
 
 ```

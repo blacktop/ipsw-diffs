@@ -39,13 +39,16 @@
    __AUTH_CONST.__const: 0x9b8
    __AUTH_CONST.__objc_const: 0x1f8
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F54832DE-F112-36C5-BEFC-3943428CD38B
++  UUID: 17994B6F-D0BF-3167-AA13-6C0DE094FD4B
    Functions: 1581
 -  Symbols:   4416
--  CStrings:  1129
+-  CStrings:  1201
 +  Symbols:   4418
-+  CStrings:  1132
++  CStrings:  1204
  
 Symbols:
 + __ZN2as29GetSpecialMXNotificationNamesEv

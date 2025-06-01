@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 54D1031E-F6E4-384B-A93F-3B850110649E
 -  Functions: 24613
 -  Symbols:   1044
--  CStrings:  4340
+-  CStrings:  4347
++  UUID: 7A8019C3-A695-38A2-88DE-C5ACE7F9DBDC
 +  Functions: 24646
 +  Symbols:   1046
-+  CStrings:  4347
++  CStrings:  4354
  
 Symbols:
 + _kMRMediaRemoteOptionCommandID

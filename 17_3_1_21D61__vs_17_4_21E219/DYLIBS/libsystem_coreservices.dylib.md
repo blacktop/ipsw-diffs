@@ -18,11 +18,14 @@
 -  __DATA_CONST.__const: 0x880
 +  __DATA_CONST.__const: 0x908
    __AUTH_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x140
+   __DATA.__bss: 0x818
 
+   - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_sandbox.dylib
    - /usr/lib/system/libsystem_trace.dylib
+-  UUID: 5549356C-64BA-3860-8F34-475E90B23AA6
++  UUID: 1DF94C07-A199-336A-A626-B6DC38E3DA68
    Functions: 29
 -  Symbols:   137
 -  CStrings:  54

@@ -85,12 +85,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 50329397-2D19-3EC8-872D-9CFCC28BBE8B
 -  Functions: 89604
 -  Symbols:   514
--  CStrings:  11531
+-  CStrings:  11576
++  UUID: BA8568F9-E6F8-34B7-9A6E-528DBF05AF59
 +  Functions: 93152
 +  Symbols:   502
-+  CStrings:  12261
++  CStrings:  12331
  
 Symbols:
 + _CFCalendarGetOrdinalityOfUnit
@@ -244,6 +246,7 @@ CStrings:
 + "/Library/Caches/com.apple.xbs/Sources/MapsOfflineServices/submodules/routing/submodules/path-codec/include/path-codec/PathletDijkstraDecoder.h"
 + "0:"
 + "0_3_3"
++ "1\x01"
 + "1_3_3"
 + "1_4_3"
 + "24.03.85"
@@ -387,6 +390,7 @@ CStrings:
 + "Probelines.NumTotalCheckpointsFound"
 + "Probelines.NumTotalMissingProbelines"
 + "Provided transit incident snapshot with "
++ "R\x01"
 + "ROAD_ACCESS_POINT"
 + "Regional_Advisory_EBike_Restrictions_Offline"
 + "Request denied based on its app id."
@@ -399,6 +403,7 @@ CStrings:
 + "RouteSegmentGeometryPatchAnalyzer"
 + "Runtime[TransitionFromDriving]"
 + "Runtime[TransitionFromDriving].Success"
++ "S\x01"
 + "SERVER_MODE"
 + "SNOW_CHAIN"
 + "SearchAlongRoute"
@@ -1256,10 +1261,18 @@ CStrings:
 + "{NewBatteryPercentage}"
 + "{OriginalBatteryPercentage}"
 + "{ShuttleName}"
++ "\x9e\x1e"
++ "\xc6"
++ "\xd8"
++ "\xde"
++ "\xdf"
 + "从"
 + "位置"
 + "到"
 + "去"
++ "\xe6"
++ "\xf8"
++ "\xfe"
 - " * "
 - " : "
 - " MB."

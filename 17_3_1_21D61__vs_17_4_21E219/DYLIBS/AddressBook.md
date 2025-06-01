@@ -33,11 +33,15 @@
    __DATA.__data: 0x2d0
    __DATA.__bss: 0x188
 
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 686F4324-F544-3CFA-AC2C-340D85614B01
++  UUID: 588A8A5A-8D32-312F-BDF5-BFD23A7F55D8
    Functions: 654
    Symbols:   2525
--  CStrings:  1063
-+  CStrings:  1065
+-  CStrings:  1190
++  CStrings:  1192
  
 Symbols:
 + _objc_msgSend$objectHash:

@@ -44,13 +44,16 @@
    __DATA.__data: 0x1d0
    __DATA.__bss: 0x10
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24173E86-D1E0-35EB-BAE8-E003CEAC1F38
++  UUID: 36A4C495-EF52-3E32-B227-D8088A45BC4A
    Functions: 67
 -  Symbols:   117
--  CStrings:  74
+-  CStrings:  75
 +  Symbols:   118
-+  CStrings:  75
++  CStrings:  76
  
 Symbols:
 + _objc_retain_x2

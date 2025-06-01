@@ -58,7 +58,6 @@
 +  __AUTH_CONST.__objc_const: 0x3668
 +  __AUTH_CONST.__const: 0xef0
 +  __AUTH_CONST.__cfstring: 0x51e0
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
@@ -85,12 +84,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D08D44AE-3312-3619-BC6C-B6363A9719C3
 -  Functions: 2329
 -  Symbols:   9016
--  CStrings:  3374
+-  CStrings:  4024
++  UUID: 608CB9C1-CE22-3439-B1AA-A062DEC9A60A
 +  Functions: 2372
 +  Symbols:   9194
-+  CStrings:  3435
++  CStrings:  4090
  
 Symbols:
 + +[EFPrivacy _roundQueryLogCount:maxCount:queryCount:]

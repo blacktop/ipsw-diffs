@@ -53,12 +53,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14DDA7B9-FB2E-338E-9614-2635C20CA71F
 -  Functions: 734
 -  Symbols:   2866
--  CStrings:  1120
+-  CStrings:  1715
++  UUID: 3F1821F8-7E08-3718-8293-774A2F13877C
 +  Functions: 745
 +  Symbols:   2905
-+  CStrings:  1138
++  CStrings:  1743
  
 Symbols:
 + +[QRCodeOverlayViewControllerAccessibility _accessibilityPerformValidations:]

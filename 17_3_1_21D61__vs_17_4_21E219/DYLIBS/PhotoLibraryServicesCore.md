@@ -52,7 +52,6 @@
    __AUTH_CONST.__objc_const: 0x2f78
 -  __AUTH_CONST.__objc_arrayobj: 0x258
 +  __AUTH_CONST.__objc_arrayobj: 0x270
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xe00
    __AUTH.__objc_data: 0x50
 -  __DATA.__objc_protorefs: 0xb8
@@ -74,12 +73,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 7148686C-DA87-33FD-8241-217323BCBE4D
 -  Functions: 3381
 -  Symbols:   11650
--  CStrings:  6561
+-  CStrings:  8565
++  UUID: 00970214-1E4D-38FD-BD84-78BE45F28423
 +  Functions: 3388
 +  Symbols:   11672
-+  CStrings:  6576
++  CStrings:  8582
  
 Symbols:
 + +[PLPhotoLibraryPathManager libraryURLFromDatabaseURL:]

@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DB758BD6-84C9-3843-A309-1FABCBE1E7F0
 -  Functions: 70019
 -  Symbols:   4532
--  CStrings:  86754
+-  CStrings:  100513
++  UUID: 0A132605-72B6-3073-8660-41EC7BE675E6
 +  Functions: 70072
 +  Symbols:   4534
-+  CStrings:  87022
++  CStrings:  100928
  
 Symbols:
 + _MapKitConfig_RAPFlowReportSomethingMissing

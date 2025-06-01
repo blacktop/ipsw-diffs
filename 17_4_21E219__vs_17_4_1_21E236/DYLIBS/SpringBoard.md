@@ -42,7 +42,7 @@
    __DATA_CONST.__objc_classrefs: 0x63e8
    __DATA_CONST.__objc_superrefs: 0x3558
 
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x2f8
    __AUTH_CONST.__auth_got: 0x27b0
    __AUTH.__objc_data: 0xc530
 -  __DATA.__objc_ivar: 0xc7e8
@@ -54,12 +54,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: CEA7C829-DF18-3F1C-A8E9-C2934A95371F
 -  Functions: 56311
 -  Symbols:   191845
--  CStrings:  76539
+-  CStrings:  88868
++  UUID: D138ADA5-2CD1-3B9F-AB21-5AFA9D93DDF4
 +  Functions: 56306
 +  Symbols:   191833
-+  CStrings:  76537
++  CStrings:  88866
  
 Symbols:
 + -[SpringBoard _updateHardwareKeyboardAttached]

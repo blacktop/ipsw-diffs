@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1251BD85-AE97-3486-9750-351CB799013D
++  UUID: 11BDD47D-8E07-3BD2-8294-4E0736A2A880
    Functions: 43
    Symbols:   113
--  CStrings:  221
-+  CStrings:  222
+-  CStrings:  238
++  CStrings:  239
  
 CStrings:
 + "T@\"NSString\",?,R,C"

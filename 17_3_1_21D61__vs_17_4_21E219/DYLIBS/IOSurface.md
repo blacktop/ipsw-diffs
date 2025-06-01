@@ -39,7 +39,6 @@
 +  __AUTH_CONST.__cfstring: 0x1d80
    __AUTH_CONST.__objc_const: 0x3f0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x198
 -  __AUTH_CONST.__auth_got: 0x670
 -  __AUTH.__objc_data: 0x1e0
@@ -64,12 +63,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D0B3930-7CF8-30A4-A9E5-ECF0D723BE3D
 -  Functions: 561
 -  Symbols:   1622
--  CStrings:  685
+-  CStrings:  920
++  UUID: E5B72162-524E-36CD-9458-7AD0A1923F69
 +  Functions: 564
 +  Symbols:   1623
-+  CStrings:  689
++  CStrings:  925
  
 Symbols:
 + _IOServiceGetMatchingServices

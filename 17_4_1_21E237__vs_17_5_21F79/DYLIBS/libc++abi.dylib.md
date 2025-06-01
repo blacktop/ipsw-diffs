@@ -21,4 +21,13 @@
    __DATA_CONST.__got: 0x18
    __DATA_CONST.__const: 0x410
 
+   __DATA_DIRTY.__data: 0x98
+   __DATA_DIRTY.__bss: 0x18
+   - /usr/lib/libSystem.B.dylib
+-  UUID: E14C4956-9604-3A9F-9EC7-F15A261F9B43
++  UUID: F603D156-E9C5-3563-80A6-D2EBEDC07A02
+   Functions: 666
+   Symbols:   1759
+   CStrings:  256
+
 ```

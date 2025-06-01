@@ -31,13 +31,16 @@
    __AUTH_CONST.__const: 0x1770
    __AUTH_CONST.__objc_const: 0x48
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 243424AA-A7F6-3A4E-BD4F-3B7B3C293FD0
++  UUID: 02E5A9CC-C8D5-3D4D-B5E8-96164B75A9E8
    Functions: 1335
 -  Symbols:   835
--  CStrings:  601
+-  CStrings:  621
 +  Symbols:   837
-+  CStrings:  600
++  CStrings:  620
  
 Symbols:
 + _NSFileGroupOwnerAccountName

@@ -44,11 +44,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 371EBE3F-7DDE-39DE-8D76-62240CB33DD6
 -  Functions: 384
++  UUID: 3D8E3336-D719-3371-AD9F-C528EF767BD9
 +  Functions: 381
    Symbols:   229
--  CStrings:  1102
-+  CStrings:  1098
+-  CStrings:  1244
++  CStrings:  1240
  
 CStrings:
 - "%{public}@ Reconciling all original artwork for library %{public}@."

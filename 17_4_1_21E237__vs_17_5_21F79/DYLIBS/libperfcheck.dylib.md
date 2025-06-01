@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x4cc
    __TEXT.__objc_stubs: 0x7a0
 
+   - /System/Library/PrivateFrameworks/perfdata.framework/perfdata
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 763E2256-8C6E-35AF-B9F8-03ADD17B5433
++  UUID: 285819D9-666D-3999-966E-8BFB599DFC67
+   Functions: 127
+   Symbols:   409
+   CStrings:  309
+
 ```

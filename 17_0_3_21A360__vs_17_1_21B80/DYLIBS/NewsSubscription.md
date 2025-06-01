@@ -28,11 +28,15 @@
    __AUTH_CONST.__cfstring: 0x100
    __AUTH_CONST.__objc_const: 0x5f8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44129DFE-3579-3A29-905C-EA31EE29C922
++  UUID: E395DF34-F57E-3884-80B4-2A673F363E8F
    Functions: 9719
    Symbols:   3848
--  CStrings:  3559
-+  CStrings:  3561
+-  CStrings:  3567
++  CStrings:  3569
  
 CStrings:
 + "shouldShuffleReportedHeadlines"

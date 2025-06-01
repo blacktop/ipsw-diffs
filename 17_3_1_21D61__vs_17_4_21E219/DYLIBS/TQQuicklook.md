@@ -50,11 +50,15 @@
    - /System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/NumbersQuicklook.framework/NumbersQuicklook
    - /System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/PagesQuicklook.framework/PagesQuicklook
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3029CAA3-A1FF-32B0-8784-70BE1A4E1A67
++  UUID: 1E1796DF-64F2-3122-A193-845B8C45B4FD
    Functions: 19
    Symbols:   65
--  CStrings:  185
-+  CStrings:  187
+-  CStrings:  209
++  CStrings:  211
  
 Symbols:
 + _UTTypePDF

@@ -22,6 +22,15 @@
    __DATA.__objc_data: 0x370
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3F350F20-94B7-3340-ACCF-634D11390850
++  UUID: 62AF1A1E-32AD-32D5-B19A-0196AA92EDB3
+   Functions: 65
+   Symbols:   252
+   CStrings:  214
 Symbols:
 + __81-[NPLPeopleViewControllerAccessibility _accessibilitySwapPeopleAtIndex:andIndex:]_block_invoke.306
 + __block_literal_global.238

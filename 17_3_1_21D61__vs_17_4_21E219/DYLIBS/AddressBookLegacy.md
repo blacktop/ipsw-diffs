@@ -45,7 +45,7 @@
    __AUTH_CONST.__objc_const: 0x1338
    __AUTH_CONST.__objc_doubleobj: 0x60
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__auth_got: 0x10d8
    __AUTH.__objc_data: 0xa00
 -  __DATA.__objc_classrefs: 0x3a0
@@ -68,12 +68,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8BECE5B7-9EF3-3A22-A35D-B07A37BAC128
 -  Functions: 2315
 -  Symbols:   6636
--  CStrings:  4095
+-  CStrings:  5750
++  UUID: 1FA5D460-75C8-36F5-BC76-E5ED94B7577D
 +  Functions: 2319
 +  Symbols:   6648
-+  CStrings:  4115
++  CStrings:  5786
  
 Symbols:
 + -[ABVCardParser parseSensitiveContentConfigurationData]

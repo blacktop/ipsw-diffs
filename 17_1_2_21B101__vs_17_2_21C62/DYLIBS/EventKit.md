@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3E5F1020-8E89-3665-ABFB-93470158E847
 -  Functions: 8187
 -  Symbols:   25044
++  UUID: 8F1EF0AC-6445-3FA9-A4AD-DC12E0EF179F
 +  Functions: 8186
 +  Symbols:   25042
-   CStrings:  9388
+   CStrings:  10530
  
 Symbols:
 + ___99-[EKSpotlightSearch initWithSearchWithCSQuery:inStore:inCalendars:resultHandler:completionHandler:]_block_invoke.14

@@ -53,12 +53,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9F32B3F3-2685-3E2F-A850-410EE6F245BE
 -  Functions: 1973
 -  Symbols:   445
--  CStrings:  3415
+-  CStrings:  4014
++  UUID: 7370958F-BE0A-3204-BEF6-88DD0BAD1641
 +  Functions: 1988
 +  Symbols:   446
-+  CStrings:  3433
++  CStrings:  4033
  
 Symbols:
 + _SOSBSKBRemoveRecoveryKey

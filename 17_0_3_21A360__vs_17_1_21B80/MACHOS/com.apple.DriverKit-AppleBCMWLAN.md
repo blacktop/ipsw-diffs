@@ -39,9 +39,11 @@
    - /System/DriverKit/System/Library/PrivateFrameworks/OLYHALDriverKit.framework/OLYHALDriverKit
    - /System/DriverKit/usr/lib/libc++.dylib
    - @rpath/BroadcomWLANDriverKit.framework/BroadcomWLANDriverKit
+-  UUID: D0707D1F-1F56-3EF6-BE4D-0CA064B4CCA7
 -  Functions: 7499
 -  Symbols:   10338
 -  CStrings:  13319
++  UUID: 61F7475D-897D-3B36-BA37-2DA74203D88A
 +  Functions: 7520
 +  Symbols:   10369
 +  CStrings:  13338

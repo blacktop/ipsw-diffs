@@ -38,11 +38,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2CD333B0-5618-3D10-B66F-FE388A910AFA
 -  Functions: 1217
++  UUID: D1BE6F7D-2EB9-3FF4-BBFC-B31ACF438C30
 +  Functions: 1218
    Symbols:   337
--  CStrings:  1904
-+  CStrings:  1908
+-  CStrings:  2080
++  CStrings:  2084
  
 CStrings:
 + "Companion Sync session applying changes with session id: %@"

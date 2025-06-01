@@ -50,12 +50,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D78A747-3A2E-3556-ABEE-BC4DA6D7F29F
 -  Functions: 10962
 -  Symbols:   19943
--  CStrings:  8861
+-  CStrings:  10143
++  UUID: D6DB7E0B-CE5F-3ABF-A86F-065A5D4C0A5B
 +  Functions: 10964
 +  Symbols:   19949
-+  CStrings:  8864
++  CStrings:  10147
  
 Symbols:
 + +[AMSUIWebAppearance defaultPlatformBackgroundColor]

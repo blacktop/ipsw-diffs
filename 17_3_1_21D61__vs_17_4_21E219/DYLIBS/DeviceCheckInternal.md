@@ -30,7 +30,6 @@
    __AUTH_CONST.__cfstring: 0x2a0
    __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__objc_const: 0x430
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x368
 +  __AUTH_CONST.__auth_got: 0x370
    __AUTH.__objc_data: 0x280
@@ -40,13 +39,16 @@
    __DATA.__data: 0x148
    __DATA.__bss: 0x28
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37FC3C56-CC67-3722-9060-9821F6022D3A
++  UUID: 282BA79E-85DE-3870-B021-A1D055AEA2A5
    Functions: 162
 -  Symbols:   720
--  CStrings:  307
+-  CStrings:  328
 +  Symbols:   721
-+  CStrings:  308
++  CStrings:  329
  
 Symbols:
 + _calloc

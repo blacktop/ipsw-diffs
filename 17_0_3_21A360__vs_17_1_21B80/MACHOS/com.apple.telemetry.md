@@ -27,9 +27,11 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libsystemstats.dylib
+-  UUID: E4058346-14C6-3D04-BBA4-181E55E43AFC
 -  Functions: 45
 -  Symbols:   62
 -  CStrings:  47
++  UUID: BEA5B7C5-B168-32CE-8E99-228453F79770
 +  Functions: 46
 +  Symbols:   68
 +  CStrings:  59

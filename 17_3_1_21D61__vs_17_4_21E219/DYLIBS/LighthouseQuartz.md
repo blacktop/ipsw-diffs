@@ -30,7 +30,6 @@
    __DATA_CONST.__objc_selrefs: 0xa8
 +  __DATA_CONST.__objc_classrefs: 0x38
    __AUTH_CONST.__const: 0x3a0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x5b8
 -  __DATA.__objc_classrefs: 0x38
 -  __DATA.__data: 0x5b0
@@ -43,7 +42,9 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D880B7A7-8C26-39E0-904A-0B2ABBA31BAE
 -  Functions: 169
++  UUID: 41CD3B08-5E55-35E8-BEC1-1385C63F1ED3
 +  Functions: 174
    Symbols:   220
 -  CStrings:  70

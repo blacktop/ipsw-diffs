@@ -17,4 +17,13 @@
    __TEXT.__objc_stubs: 0x180
    __DATA_CONST.__got: 0x10
 
+   - /System/Library/Frameworks/Network.framework/Network
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D9AA9B4E-43A0-3E5F-ADE6-65432C3A9641
++  UUID: 47AF5D00-EB5A-3226-89C2-582752BC9A34
+   Functions: 15
+   Symbols:   94
+   CStrings:  104
+
 ```

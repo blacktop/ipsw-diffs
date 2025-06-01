@@ -47,13 +47,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x323b8
 -  __DATA_CONST.__objc_arraydata: 0x3080
 -  __AUTH_CONST.__const: 0x11510
+-  __AUTH_CONST.__objc_const: 0x4aad0
+-  __AUTH_CONST.__cfstring: 0x9f500
 +  __DATA_CONST.__objc_const: 0x117fb0
 +  __DATA_CONST.__objc_selrefs: 0x32840
 +  __DATA_CONST.__objc_arraydata: 0x30a0
 +  __AUTH_CONST.__const: 0x11670
-   __AUTH_CONST.__auth_ptr: 0x58
--  __AUTH_CONST.__objc_const: 0x4aad0
--  __AUTH_CONST.__cfstring: 0x9f500
 +  __AUTH_CONST.__objc_const: 0x4ae30
 +  __AUTH_CONST.__cfstring: 0xa0000
    __AUTH_CONST.__objc_intobj: 0x13c8
@@ -94,12 +93,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A468DA8C-A1F7-3961-A1B0-4C25E78B8A02
 -  Functions: 108164
 -  Symbols:   277232
--  CStrings:  70070
+-  CStrings:  90462
++  UUID: 6A347534-3A8A-3D5E-9992-55CCD93B1684
 +  Functions: 108537
 +  Symbols:   278261
-+  CStrings:  70383
++  CStrings:  90863
  
 Symbols:
 + +[GEOLabelAction isValid:]

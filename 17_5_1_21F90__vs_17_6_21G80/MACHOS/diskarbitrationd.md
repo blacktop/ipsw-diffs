@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protolist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA5E1EDA-4A15-36AF-8BFB-28DBAB6F5774
++  UUID: 8870B714-F943-327C-8408-5D8C7C3CD429
    Functions: 455
    Symbols:   371
--  CStrings:  565
-+  CStrings:  567
+-  CStrings:  766
++  CStrings:  770
  
 CStrings:
 + "-o="

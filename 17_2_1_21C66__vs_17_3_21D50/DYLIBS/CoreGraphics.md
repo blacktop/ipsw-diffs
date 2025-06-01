@@ -50,7 +50,6 @@
    __AUTH_CONST.__cfstring: 0x8180
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x1650
 +  __AUTH_CONST.__auth_got: 0x1658
    __AUTH.__objc_data: 0x1400
@@ -72,12 +71,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 185D1FE7-ADD8-3839-B0C8-44D97206C8F3
 -  Functions: 11091
 -  Symbols:   25720
--  CStrings:  12259
+-  CStrings:  13295
++  UUID: A4F140E0-B011-332C-AE38-8140BC71C06C
 +  Functions: 11103
 +  Symbols:   25753
-+  CStrings:  12274
++  CStrings:  13310
  
 Symbols:
 + -[CGRemotePDFServiceProxy newRemotePDFDocumentWithData:completion:]

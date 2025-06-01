@@ -22,8 +22,11 @@
    __DATA_DIRTY.__const: 0xe0
    __DATA_DIRTY.__data: 0x8
 
+   - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 1384B48C-0425-32F1-9821-CC2117050B25
++  UUID: 135AA105-B4CE-3885-909C-48AB88423091
    Functions: 8
 -  Symbols:   97
 +  Symbols:   98

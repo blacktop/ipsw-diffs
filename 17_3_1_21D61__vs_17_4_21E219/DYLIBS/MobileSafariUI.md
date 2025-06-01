@@ -70,7 +70,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0x78
 +  __AUTH_CONST.__objc_arrayobj: 0x270
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xd68
 -  __AUTH.__objc_data: 0x2210
 -  __DATA.__objc_protorefs: 0x48
@@ -117,9 +116,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 44EFC65A-8D7D-37B4-B887-BC323BCCE0AA
 -  Functions: 10955
 -  Symbols:   41281
--  CStrings:  18737
+-  CStrings:  20213
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftAppleArchive.dylib
@@ -150,9 +150,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: C0480D76-DA19-395E-811D-15F3ED326D3A
 +  Functions: 10846
 +  Symbols:   41044
-+  CStrings:  18780
++  CStrings:  20268
  
 Symbols:
 + +[Application(ApplicationTesting) prepareTestControllerWithType:suiteURL:bundleNames:outputURL:]
@@ -4524,7 +4525,6 @@ CStrings:
 - "B40@0:8@\"BookmarksNavigationController\"16@\"NSObject<WBSTabItemSearchSupport>\"24@\"NSString\"32"
 - "B40@0:8@\"SFFluidCollectionView\"16@\"SFFluidTabOverviewSwipeDeleteInteraction\"24@\"NSIndexPath\"32"
 - "B48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
-- "C"
 - "C:P:T:U:p:u:"
 - "Closing %zu tab documents"
 - "CompletionListVendorForHistoryServiceDataSource"

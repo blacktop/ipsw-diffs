@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__const: 0xe38
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x1288
 -  __AUTH.__objc_data: 0x170
 +  __AUTH_CONST.__auth_got: 0x12a8
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5CCD2E7C-CAFB-3AEE-A68F-48635DDCC257
 -  Functions: 4215
 -  Symbols:   2184
--  CStrings:  6733
+-  CStrings:  8781
++  UUID: 887B503D-0E60-31B1-8BA6-19F9B19BE67A
 +  Functions: 4261
 +  Symbols:   2201
-+  CStrings:  6776
++  CStrings:  8835
  
 Symbols:
 + _IMAttachmentPropertyOriginalGUID

@@ -98,12 +98,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1B07E24F-EEA9-353D-AE1E-C36D993FBCA4
 -  Functions: 10164
 -  Symbols:   462
--  CStrings:  3097
+-  CStrings:  3344
++  UUID: D7D0488F-8AD6-3CDE-9CC5-EB752F5A8F92
 +  Functions: 9061
 +  Symbols:   456
-+  CStrings:  3150
++  CStrings:  3399
  
 Symbols:
 + _CKUnderlyingErrorDomain

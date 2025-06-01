@@ -42,13 +42,16 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB5D9315-CB02-33D6-9D6B-1B64471C3F0E
++  UUID: BBCB77E0-D2F0-3D0A-B82A-E9B4D8714F17
    Functions: 406
 -  Symbols:   1916
--  CStrings:  1369
+-  CStrings:  1885
 +  Symbols:   1915
-+  CStrings:  1367
++  CStrings:  1882
  
 Symbols:
 + GCC_except_table10

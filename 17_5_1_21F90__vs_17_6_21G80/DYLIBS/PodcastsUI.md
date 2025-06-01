@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x3e0
 -  __AUTH_CONST.__auth_got: 0x30f0
 +  __AUTH_CONST.__auth_got: 0x3100
    __AUTH.__objc_data: 0x19d8
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F5138DFE-B713-36B9-9093-729808928062
 -  Functions: 11409
 -  Symbols:   9776
--  CStrings:  5177
+-  CStrings:  5544
++  UUID: 2BEA9FCA-8E54-3A40-8802-317EF0674E42
 +  Functions: 11418
 +  Symbols:   9778
-+  CStrings:  5180
++  CStrings:  5547
  
 Symbols:
 + _get_witness_table SHR_7SwiftUI4ViewR0_r1_lqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA19_ConditionalContentVyAJyAcAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAA6PickerVyAA4TextVq_q0_G_Qo_AWGAJyAcAE11actionSheetAlMQrAP_AA06ActionT0VyXEtFQOyAW_Qo_AWGGG_q_Qo__q_Qo_HO.7

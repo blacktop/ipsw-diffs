@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9FD4F940-00E0-395A-85CA-FD032D18EA66
 -  Functions: 573
 -  Symbols:   2068
--  CStrings:  1274
+-  CStrings:  1595
++  UUID: 41F81C5D-021F-35F3-A413-D5BBF58AC027
 +  Functions: 578
 +  Symbols:   2082
-+  CStrings:  1283
++  CStrings:  1608
  
 Symbols:
 + -[ACXSyncedApplication isEligibleForWatchAppInstall]

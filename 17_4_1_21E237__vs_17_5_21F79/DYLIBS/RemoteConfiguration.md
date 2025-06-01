@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EAEF820E-AD96-39C6-BEC3-D46CA4009074
 -  Functions: 1135
 -  Symbols:   3865
--  CStrings:  1885
+-  CStrings:  2122
++  UUID: 92635275-A2EB-3A16-BFF1-83814913B1F3
 +  Functions: 1154
 +  Symbols:   3928
-+  CStrings:  1906
++  CStrings:  2145
  
 Symbols:
 + +[RCCachePolicy defaultCachePolicy]

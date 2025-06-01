@@ -98,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF0F2ACC-6B40-3695-9B13-1F6DDF50A08F
 -  Functions: 6567
 -  Symbols:   1129
--  CStrings:  6784
+-  CStrings:  7539
++  UUID: 506C9E83-147E-3D67-9A7D-F581D1678131
 +  Functions: 6750
 +  Symbols:   1162
-+  CStrings:  6861
++  CStrings:  7616
  
 Symbols:
 + _$s11DockKitCore6ErrorsO12rateLimitXPCyACSS_tcACmFWC

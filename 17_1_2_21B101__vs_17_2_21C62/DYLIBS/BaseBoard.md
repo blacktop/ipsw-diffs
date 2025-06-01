@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x59fc
    __TEXT.__const: 0x238
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 27BBFFFE-61CE-3C35-A896-942E8C6CD080
++  UUID: 6A4CC2FB-EFB7-3924-93B3-6F0808549BAD
+   Functions: 2780
+   Symbols:   9996
+   CStrings:  5018
+
 ```

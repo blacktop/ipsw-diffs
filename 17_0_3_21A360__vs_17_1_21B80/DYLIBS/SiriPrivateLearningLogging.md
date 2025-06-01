@@ -31,14 +31,18 @@
 -  __AUTH_CONST.__cfstring: 0xa20
 +  __AUTH_CONST.__cfstring: 0xa40
    __AUTH_CONST.__const: 0x5e0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x4f0
+   __AUTH.__objc_data: 0x560
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 530F2497-D47A-346C-9525-ACAA1492C810
++  UUID: CF60FFF0-8D81-30E7-9B18-D66F34C56F08
    Functions: 271
    Symbols:   386
--  CStrings:  260
-+  CStrings:  261
+-  CStrings:  341
++  CStrings:  343
  
 CStrings:
 + "RTS_CLIENT_EVENT"

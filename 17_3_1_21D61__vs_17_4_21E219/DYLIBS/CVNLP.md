@@ -51,12 +51,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 4F700E3E-6FB4-3B6F-A249-11D9DC62EA80
 -  Functions: 3035
 -  Symbols:   608
--  CStrings:  1952
+-  CStrings:  2088
++  UUID: C3125338-8AB0-3ACB-A7FE-BD070EE16F2F
 +  Functions: 3087
 +  Symbols:   609
-+  CStrings:  1954
++  CStrings:  2090
  
 Symbols:
 + _CFBooleanGetTypeID

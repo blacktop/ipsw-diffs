@@ -58,13 +58,16 @@
    __DATA.__common: 0x150
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9710EDD0-7D9D-3905-8797-6ED7D0195998
++  UUID: 847F50BB-73D4-3400-A20A-CECA73AABEF8
    Functions: 3942
 -  Symbols:   211
--  CStrings:  890
+-  CStrings:  1043
 +  Symbols:   212
-+  CStrings:  911
++  CStrings:  1064
  
 Symbols:
 + _objc_retain_x28

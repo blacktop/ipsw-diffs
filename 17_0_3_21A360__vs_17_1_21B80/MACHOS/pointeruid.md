@@ -61,11 +61,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C54DF970-9574-3878-BFCA-4731DE656F56
 -  Functions: 772
++  UUID: 09FBA428-EF28-3B68-91B8-C23486384773
 +  Functions: 782
    Symbols:   332
--  CStrings:  2118
-+  CStrings:  2132
+-  CStrings:  2429
++  CStrings:  2444
  
 CStrings:
 + "\b\"\x14!1"

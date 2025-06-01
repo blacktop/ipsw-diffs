@@ -58,7 +58,6 @@
    __AUTH_CONST.__const: 0xaf0
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x610
 +  __AUTH_CONST.__auth_got: 0x620
    __AUTH.__objc_data: 0xe08
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9C0FDDF2-6CCD-3280-924A-54EFBACC9487
 -  Functions: 3540
 -  Symbols:   10968
--  CStrings:  4551
+-  CStrings:  5194
++  UUID: 1DFF0372-11A2-31A1-B1E0-1097295E4A08
 +  Functions: 3567
 +  Symbols:   11040
-+  CStrings:  4577
++  CStrings:  5221
  
 Symbols:
 + -[SPBeaconSharingManager share:recipients:shareType:completion:]

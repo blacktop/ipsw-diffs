@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D75F6454-2871-30F0-BCAB-8B2F8703BD5F
 -  Functions: 1362
 -  Symbols:   2370
--  CStrings:  370
+-  CStrings:  381
++  UUID: 6D58BD73-170B-3733-BAEB-A7527EB57505
 +  Functions: 1374
 +  Symbols:   2434
-+  CStrings:  421
++  CStrings:  437
  
 Symbols:
 + +[AVAudioApplicationSpecification supportsSecureCoding]

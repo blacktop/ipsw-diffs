@@ -62,7 +62,6 @@
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2f8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x2728
 -  __AUTH.__objc_data: 0x10b8
 +  __AUTH_CONST.__auth_got: 0x2748
@@ -92,12 +91,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 5C3EE3D9-1AAA-3052-A6C7-B957B454AD71
 -  Functions: 10984
 -  Symbols:   28528
--  CStrings:  10988
+-  CStrings:  13577
++  UUID: F6A8231B-CB24-3EAE-BA29-0E9E675213A3
 +  Functions: 10741
 +  Symbols:   28205
-+  CStrings:  11105
++  CStrings:  13717
  
 Symbols:
 + -[CABrightnessRamper indicatorNitsBegin]

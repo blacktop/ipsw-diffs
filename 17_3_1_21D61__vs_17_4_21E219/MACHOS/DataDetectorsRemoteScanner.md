@@ -30,8 +30,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
    - /System/Library/Frameworks/Foundation.framework/Foundation
-
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F695D80-AB81-34D9-971E-07E16DF9DA2B
++  UUID: A194BC2E-5EFA-3B7B-8FD3-3B65A5330D0A
    Functions: 4
    Symbols:   20
 -  CStrings:  56

@@ -101,9 +101,10 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4FA3BFE2-67F2-31F7-8F40-72C673C34153
 -  Functions: 5532
 -  Symbols:   20615
--  CStrings:  9857
+-  CStrings:  10741
 +  - /usr/lib/libsqlite3.dylib
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
@@ -131,9 +132,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 1991C548-38FD-36B2-AF52-2B009F6ABE72
 +  Functions: 5871
 +  Symbols:   21798
-+  CStrings:  10275
++  CStrings:  11231
  
 Symbols:
 + +[NSBundle(MobileSafariFrameworkExtras) safari_isSafariViewServiceBundle]

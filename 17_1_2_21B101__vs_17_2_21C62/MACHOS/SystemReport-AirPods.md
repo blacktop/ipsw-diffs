@@ -47,12 +47,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E4ADE501-B007-38D6-AF50-96943EA6A451
 -  Functions: 122
 -  Symbols:   126
--  CStrings:  496
+-  CStrings:  645
++  UUID: E1ED6975-6A1F-3EDF-B938-06170F723BEA
 +  Functions: 123
 +  Symbols:   127
-+  CStrings:  510
++  CStrings:  666
  
 Symbols:
 + _OBJC_CLASS_$_HUAccessoryHearingSettings

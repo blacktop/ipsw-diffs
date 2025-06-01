@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BC71DFD-0019-3074-B2E2-425F720BC5E1
 -  Functions: 854
 -  Symbols:   193
--  CStrings:  1560
+-  CStrings:  1771
++  UUID: FECC6734-8521-3F5E-B49F-1C508D9F82C9
 +  Functions: 975
 +  Symbols:   207
-+  CStrings:  1784
++  CStrings:  2034
  
 Symbols:
 + _CFArrayCreate

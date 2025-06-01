@@ -39,11 +39,15 @@
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x28
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1BE39FB-9C70-3CA9-AA4E-76B58AE9667B
++  UUID: BB6E2A97-9439-3ECD-8A33-5796F4E94F96
    Functions: 267
    Symbols:   1326
--  CStrings:  939
-+  CStrings:  941
+-  CStrings:  1231
++  CStrings:  1235
  
 Symbols:
 + +[NMUMetricsReporter incrementPlaybackStartCountFromViewType:index:endpointType:playerBundleID:]

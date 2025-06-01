@@ -47,12 +47,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: 22D918EF-8F6E-3C25-80B6-2306D4C12560
 -  Functions: 2191
 -  Symbols:   412
--  CStrings:  1792
+-  CStrings:  1884
++  UUID: B372AA49-1EE5-3768-9517-293B49A66F8B
 +  Functions: 2274
 +  Symbols:   414
-+  CStrings:  1870
++  CStrings:  1962
  
 Symbols:
 + _log10f

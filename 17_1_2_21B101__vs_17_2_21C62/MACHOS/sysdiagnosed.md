@@ -37,11 +37,15 @@
    __DATA_CONST.__objc_intobj: 0x300
    __DATA_CONST.__objc_dictobj: 0x28
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 4A0DE58D-44B0-36AA-BBFC-4C8DAE91E330
++  UUID: 4B64223B-5B66-3E5C-86FC-479B8DE68A68
    Functions: 1484
    Symbols:   491
--  CStrings:  4778
-+  CStrings:  4779
+-  CStrings:  6714
++  CStrings:  6716
  
 CStrings:
 + "/private/var/mobile/Library/Preferences/com.apple.AccessibilityHearingNearby.plist"

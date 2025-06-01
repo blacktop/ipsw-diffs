@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/TextureIO.framework/TextureIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD0C6688-9DC1-3212-A079-EEDA3760BFB9
 -  Functions: 396
 -  Symbols:   1676
--  CStrings:  959
+-  CStrings:  1072
++  UUID: 4AA15121-7684-3E1B-A58C-F82E470B3D47
 +  Functions: 397
 +  Symbols:   1680
-+  CStrings:  966
++  CStrings:  1081
  
 Symbols:
 + -[MTKTextureLoaderPVR3 initWithData:options:error:].cold.1

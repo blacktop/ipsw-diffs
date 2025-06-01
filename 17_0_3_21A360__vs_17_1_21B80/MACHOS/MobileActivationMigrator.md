@@ -32,13 +32,16 @@
    __DATA.__objc_const: 0x818
    __DATA.__objc_selrefs: 0x218
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3CBAF733-9843-301C-BAB9-906BD0806495
++  UUID: 2AC1F272-1077-3B26-87FA-BC4F50EB7EBD
    Functions: 56
 -  Symbols:   1410
--  CStrings:  722
+-  CStrings:  1274
 +  Symbols:   1418
-+  CStrings:  727
++  CStrings:  1284
  
 Symbols:
 + __block_literal_global.275

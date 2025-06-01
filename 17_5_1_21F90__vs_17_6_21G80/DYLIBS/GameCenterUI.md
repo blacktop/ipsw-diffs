@@ -66,7 +66,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0xc78
 -  __AUTH_CONST.__auth_got: 0x3408
 -  __AUTH.__objc_data: 0x15ce0
 +  __AUTH_CONST.__auth_got: 0x3410
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D069ECA-1B2D-3763-9083-646CACD686CA
 -  Functions: 36202
 -  Symbols:   42619
--  CStrings:  15614
+-  CStrings:  16912
++  UUID: 9C098B80-B28B-39DA-8D7A-4994A8D5D719
 +  Functions: 36206
 +  Symbols:   42624
-+  CStrings:  15618
++  CStrings:  16916
  
 Symbols:
 + -[GKPlayer(UIPrivate) stringForMonogram].cold.1

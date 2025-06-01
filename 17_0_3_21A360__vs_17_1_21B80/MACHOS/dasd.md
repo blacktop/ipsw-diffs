@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: F7AFA853-4761-3413-BABA-3E9155479FD4
 -  Functions: 4859
 -  Symbols:   603
--  CStrings:  7979
+-  CStrings:  9287
++  UUID: 9CE91EB5-C747-3887-A797-0F6085217525
 +  Functions: 4908
 +  Symbols:   605
-+  CStrings:  8061
++  CStrings:  9386
  
 Symbols:
 + _clock_gettime_nsec_np

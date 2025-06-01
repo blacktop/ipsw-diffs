@@ -37,11 +37,15 @@
    __DATA.__data: 0x790
    __DATA.__bss: 0x108
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E120449F-9D8E-3A6B-AAD5-62DA26141821
++  UUID: BE9010AE-F7F0-3E44-BB9C-739D89D1F2BB
    Functions: 3329
    Symbols:   10179
--  CStrings:  4439
-+  CStrings:  4441
+-  CStrings:  5246
++  CStrings:  5248
  
 Symbols:
 + __OBJC_$_PROP_LIST_NNMKDirectoryProvider.50

@@ -26,11 +26,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FE78FBC1-F7F6-3AB1-9A84-9FDE56A1031A
++  UUID: 12071D1A-A6E5-30E9-B150-D151808B981C
    Functions: 1
    Symbols:   32
--  CStrings:  67
-+  CStrings:  68
+-  CStrings:  69
++  CStrings:  70
  
 CStrings:
 + "T@\"NSString\",?,R,C"

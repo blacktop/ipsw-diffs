@@ -32,10 +32,9 @@
    __DATA_CONST.__objc_const: 0xf90
    __DATA_CONST.__objc_selrefs: 0x198
 -  __AUTH_CONST.__const: 0x8270
+-  __AUTH_CONST.__auth_got: 0x780
 +  __DATA_CONST.__objc_classrefs: 0x58
 +  __AUTH_CONST.__const: 0x8288
-   __AUTH_CONST.__auth_ptr: 0xd0
--  __AUTH_CONST.__auth_got: 0x780
 +  __AUTH_CONST.__auth_got: 0x778
    __AUTH.__data: 0x1e0
    __AUTH.__objc_data: 0x48
@@ -51,8 +50,11 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreText.framework/CoreText
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5C6F7D60-A700-3632-829D-5385BCF10921
++  UUID: 114AAC3D-E646-3931-B6AB-FDF02814A587
    Functions: 3406
 -  Symbols:   1438
 +  Symbols:   1437

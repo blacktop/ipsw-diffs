@@ -21,12 +21,15 @@
    __DATA_CONST.__const: 0x7b0
    __DATA_CONST.__objc_classlist: 0x168
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D281C02B-2C0D-35A2-BD9A-0CF077872BDB
++  UUID: A1692EDD-2975-347D-A46C-C7E099459AF3
    Functions: 844
 -  Symbols:   3228
 +  Symbols:   3231
-   CStrings:  1702
+   CStrings:  1967
  
 Symbols:
 + _objc_msgSend$setEnvironmentType:

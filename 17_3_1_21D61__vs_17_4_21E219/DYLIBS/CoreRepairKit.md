@@ -44,7 +44,6 @@
 +  __AUTH_CONST.__cfstring: 0xea0
 +  __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_const: 0x678
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x308
 +  __AUTH_CONST.__auth_got: 0x310
@@ -59,12 +58,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 5636A69B-3A6F-310F-812B-17C47F143CFB
 -  Functions: 175
 -  Symbols:   184
--  CStrings:  392
+-  CStrings:  505
++  UUID: 6FA90039-2914-31CA-97BF-68965B9E1460
 +  Functions: 176
 +  Symbols:   188
-+  CStrings:  409
++  CStrings:  526
  
 Symbols:
 + _AMFDRSealingMapCopyMultiInstanceForClass

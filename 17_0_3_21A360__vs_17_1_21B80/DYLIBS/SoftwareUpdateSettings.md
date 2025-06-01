@@ -28,12 +28,15 @@
    __DATA_CONST.__objc_classlist: 0x68
    __DATA_CONST.__objc_protolist: 0x30
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9BECAFA-C574-348E-AB6C-C578B5756760
++  UUID: 97290699-75DF-3435-9A69-B2BB5E42845E
    Functions: 270
 -  Symbols:   1438
 +  Symbols:   1437
-   CStrings:  1000
+   CStrings:  1179
  
 Symbols:
 + _objc_msgSend$_preferredFontForTextStyle:weight:

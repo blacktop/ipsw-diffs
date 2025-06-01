@@ -62,7 +62,6 @@
 -  __AUTH_CONST.__const: 0x3618
 +  __AUTH_CONST.__const: 0x3728
    __AUTH_CONST.__objc_const: 0x68d0
-   __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__cfstring: 0x13c40
 +  __AUTH_CONST.__cfstring: 0x13c60
    __AUTH_CONST.__objc_intobj: 0x7b0
@@ -101,12 +100,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0C12DCD6-0B41-378A-985D-09A023159FAD
 -  Functions: 7214
 -  Symbols:   19178
--  CStrings:  10760
+-  CStrings:  13290
++  UUID: 8895E6A3-25EE-3345-94B3-7D4664EF03FE
 +  Functions: 7253
 +  Symbols:   19224
-+  CStrings:  10791
++  CStrings:  13322
  
 Symbols:
 + +[MapsUILocalizationBridge evChargingOfflineChargers]

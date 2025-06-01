@@ -30,12 +30,15 @@
    __DATA.__thread_bss: 0x9c9
    __DATA.__bss: 0xa739
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F0A65135-689A-37C4-AEB9-8D857E026A33
++  UUID: E6489D98-975C-39F6-A847-32E47C72DF27
    Functions: 15636
 -  Symbols:   35766
 +  Symbols:   35768
-   CStrings:  4668
+   CStrings:  4676
  
 Symbols:
 + _$sSS_SbtMD

@@ -45,14 +45,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
-
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20300F7D-787B-3DE8-B99B-1583019EB219
++  UUID: CD96DB63-E6A9-30BA-A540-6F497E466A8B
    Functions: 505
 -  Symbols:   1796
--  CStrings:  820
+-  CStrings:  932
 +  Symbols:   1797
-+  CStrings:  823
++  CStrings:  938
  
 Symbols:
 + _AXRuntimeCheck_SupportsMedina

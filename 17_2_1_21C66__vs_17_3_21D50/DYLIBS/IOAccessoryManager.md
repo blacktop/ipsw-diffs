@@ -1,34 +1,22 @@
 ## IOAccessoryManager
 
-> `/System/Library/CoreAccessories/PlugIns/Transports/IOAccessoryManager.transport/IOAccessoryManager`
+> `/System/Library/PrivateFrameworks/IOAccessoryManager.framework/IOAccessoryManager`
 
 ```diff
 
--898.62.2.0.0
--  __TEXT.__text: 0x6c38c
-+898.80.3.0.0
-+  __TEXT.__text: 0x6c47c
-   __TEXT.__auth_stubs: 0x1470
-   __TEXT.__objc_methlist: 0x27e4
--  __TEXT.__cstring: 0x4fc7
-+  __TEXT.__cstring: 0x4ff2
-   __TEXT.__oslogstring: 0xb3aa
-   __TEXT.__const: 0x124
-   __TEXT.__gcc_except_tab: 0x504
-   __TEXT.__ustring: 0x146
--  __TEXT.__unwind_info: 0xd58
-+  __TEXT.__unwind_info: 0xd54
-   __TEXT.__objc_classname: 0x471
-   __TEXT.__objc_methname: 0x7de5
-   __TEXT.__objc_methtype: 0xfeb
+-958.62.2.0.0
++958.82.1.0.0
+   __TEXT.__text: 0x24408
+   __TEXT.__auth_stubs: 0xbc0
+   __TEXT.__objc_methlist: 0x2fac
 
-   - /usr/lib/libsysdiagnose.dylib
-   Functions: 2221
-   Symbols:   6082
--  CStrings:  3156
-+  CStrings:  3157
- 
-CStrings:
-+ "ACMRequirement - ACMRequirementDataRatchet"
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BBAC4E0A-FA1D-335B-B601-FECC44861973
++  UUID: 5D571B84-908E-328C-BDD1-1B36D75EB303
+   Functions: 1186
+   Symbols:   3921
+   CStrings:  2955
 
 ```

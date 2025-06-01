@@ -42,7 +42,6 @@
    __AUTH_CONST.__objc_const: 0x15078
    __AUTH_CONST.__cfstring: 0x15680
    __AUTH_CONST.__const: 0x1100
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__objc_doubleobj: 0x70
 +  __AUTH_CONST.__objc_doubleobj: 0x90
 +  __AUTH_CONST.__objc_arrayobj: 0x108
@@ -61,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B90BB01-FF27-3FB9-8670-47D87D7EFA2B
 -  Functions: 17534
 -  Symbols:   62328
--  CStrings:  21245
+-  CStrings:  23985
++  UUID: E6A7F323-90A0-3674-91C4-6EBABE0E1503
 +  Functions: 17535
 +  Symbols:   62339
-+  CStrings:  21251
++  CStrings:  23991
  
 Symbols:
 + _OBJC_CLASS_$_UIGraphicsImageRenderer

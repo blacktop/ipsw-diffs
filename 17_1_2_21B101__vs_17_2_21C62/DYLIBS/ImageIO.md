@@ -44,7 +44,6 @@
 -  __AUTH_CONST.__const: 0x3d2e8
 +  __AUTH_CONST.__const: 0x3d328
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__auth_got: 0x1e00
    __AUTH.__objc_data: 0xa0
    __AUTH.__data: 0x1d0
@@ -64,12 +63,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5665AF38-0322-331D-A2A1-91890C093A62
 -  Functions: 12959
 -  Symbols:   32520
--  CStrings:  11159
+-  CStrings:  12662
++  UUID: 804378B1-31EB-3938-85C1-EECD09038AA0
 +  Functions: 12991
 +  Symbols:   32598
-+  CStrings:  11216
++  CStrings:  12723
  
 Symbols:
 + _CGImageMetadataCreateFromXPCObj

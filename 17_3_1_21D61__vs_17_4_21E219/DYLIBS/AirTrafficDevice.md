@@ -42,7 +42,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x518
 +  __DATA_CONST.__objc_superrefs: 0x188
    __DATA_CONST.__objc_arraydata: 0xe8
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0xaca0
 -  __AUTH_CONST.__cfstring: 0x2da0
 +  __AUTH_CONST.__const: 0xcf08
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7DB13A95-D93E-38AA-A84D-429BABB8A865
 -  Functions: 1610
 -  Symbols:   5720
--  CStrings:  3080
+-  CStrings:  3445
++  UUID: 01536043-1FFF-341B-B476-F54D9523845A
 +  Functions: 1627
 +  Symbols:   5737
-+  CStrings:  3087
++  CStrings:  3457
  
 Symbols:
 + -[ATStoreAssetLink _storeKindForAsset:]

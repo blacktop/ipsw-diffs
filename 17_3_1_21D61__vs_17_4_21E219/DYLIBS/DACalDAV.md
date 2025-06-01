@@ -36,11 +36,15 @@
    __DATA.__data: 0x748
    __DATA.__bss: 0x70
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 4DF1EBA2-F972-39DB-8C83-E615ED41A9FC
++  UUID: F62F2FA6-25F0-320B-BDCD-8C24CA2963C6
    Functions: 989
    Symbols:   4450
--  CStrings:  2552
-+  CStrings:  2559
+-  CStrings:  2836
++  CStrings:  2843
  
 CStrings:
 + "T@\"NSArray\",?,R,N"

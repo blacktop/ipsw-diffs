@@ -16,7 +16,6 @@
 +  __TEXT.__unwind_info: 0x160
    __DATA_CONST.__got: 0x10
    __DATA_CONST.__const: 0x310
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x80
 +  __AUTH_CONST.__auth_got: 0x88
    __DATA.__data: 0x1b0
@@ -29,9 +28,11 @@
    - /usr/lib/system/libsystem_malloc.dylib
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
+-  UUID: 80F72C57-3D1A-3991-9835-DB5BFA94BDDB
 -  Functions: 82
 -  Symbols:   138
 -  CStrings:  123
++  UUID: B4684CB6-4AEC-3BAE-B2C0-7675764F2762
 +  Functions: 83
 +  Symbols:   141
 +  CStrings:  127

@@ -35,11 +35,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0x280
 
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 45F6EF15-271F-3DC5-B84B-9C9235FA398F
++  UUID: 2177383F-43C0-3612-A057-12D89D2DA902
    Functions: 133
    Symbols:   613
--  CStrings:  322
-+  CStrings:  323
+-  CStrings:  355
++  CStrings:  356
  
 CStrings:
 + "T@\"NSString\",?,R,C"

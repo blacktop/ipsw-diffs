@@ -18,7 +18,6 @@
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__const: 0x6b0
 +  __AUTH_CONST.__const: 0x378
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x558
 -  __AUTH.__objc_data: 0x410
 -  __AUTH.__data: 0xf8
@@ -36,5 +35,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3C74CDAC-6217-3B29-8C13-8B52EBD166A3
++  UUID: 5DC70ED6-933A-314A-9789-D4BC611AE1B0
+   Functions: 419
+   Symbols:   567
+   CStrings:  291
 
 ```

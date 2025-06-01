@@ -37,11 +37,15 @@
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D12E625-7492-38B2-9872-E2865828834C
++  UUID: 443E2195-D14E-3027-B686-386D53D49846
    Functions: 93
    Symbols:   344
--  CStrings:  180
-+  CStrings:  181
+-  CStrings:  181
++  CStrings:  182
  
 Symbols:
 + ___44-[ACCAssistiveTouchProvider connectToServer]_block_invoke.87

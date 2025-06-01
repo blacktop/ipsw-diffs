@@ -34,8 +34,8 @@
    __AUTH_CONST.__const: 0x3378
    __AUTH_CONST.__cfstring: 0x10ee0
 
+   __AUTH_CONST.__objc_dictobj: 0x3b60
    __AUTH_CONST.__objc_floatobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xc50
 -  __AUTH.__objc_data: 0x33e0
 -  __DATA.__objc_classrefs: 0xdb0
@@ -50,11 +50,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31F84B6D-811A-34BF-AC08-C925D9BA107A
++  UUID: 91872980-C9DB-3B23-AF60-3EB5B490CE54
    Functions: 5033
    Symbols:   19206
--  CStrings:  9234
-+  CStrings:  9235
+-  CStrings:  11401
++  CStrings:  11402
  
 Symbols:
 + _ImageHarmonizationKitLibraryCore.frameworkLibrary.15505

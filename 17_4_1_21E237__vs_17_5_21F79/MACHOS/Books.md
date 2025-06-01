@@ -128,12 +128,14 @@
    - @rpath/EngagementCollector.framework/EngagementCollector
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 5C915E56-90B3-341D-B72C-C900D1152EA7
 -  Functions: 41675
 -  Symbols:   2029
--  CStrings:  25945
+-  CStrings:  27995
++  UUID: D4A4CC2F-CF12-31CA-9E6A-1D17C923D05F
 +  Functions: 41600
 +  Symbols:   2015
-+  CStrings:  25446
++  CStrings:  27438
  
 Symbols:
 + _BFMCatalogRequestRelationshipAudiobookSeries

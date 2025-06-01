@@ -65,11 +65,15 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DFBCD904-544D-3DCA-BE2E-79C364F0D629
++  UUID: 18804097-4A40-3323-B6AD-E7C7974B0572
    Functions: 1934
    Symbols:   7162
--  CStrings:  3869
-+  CStrings:  3874
+-  CStrings:  4197
++  CStrings:  4203
  
 Symbols:
 + ___block_literal_global.33

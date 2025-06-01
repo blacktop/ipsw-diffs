@@ -37,11 +37,15 @@
    __DATA_CONST.__objc_superrefs: 0x58
    __DATA_CONST.__objc_arraydata: 0x30
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A6DE3A39-160A-35F7-8C0E-39A0448C68B7
++  UUID: D7014DC7-D7BF-3E5F-94D7-6FAADBCC16BD
    Functions: 632
    Symbols:   423
--  CStrings:  2550
-+  CStrings:  2552
+-  CStrings:  2851
++  CStrings:  2853
  
 CStrings:
 + "  ** Updating both caller ID for chat with guid %@ to be: %@ from %@ and sim ID to be: %@"

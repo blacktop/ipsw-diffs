@@ -19,6 +19,15 @@
    __TEXT.__dlopen_cstrs: 0x66
    __TEXT.__objc_classname: 0x16d
    __TEXT.__objc_methname: 0x24a3
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 1424E165-E721-31D7-AEAD-246BF6FEB11D
++  UUID: 81BC4ACE-CAA0-3926-8FCA-BA1E3CFDBF9C
+   Functions: 1143
+   Symbols:   3118
+   CStrings:  2626
 CStrings:
 + "%sev score: %ld %{private}@"
 + "%sev score: %ld lower than %ld %{private}@"

@@ -54,12 +54,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AEB2257E-09F1-34B2-85C5-FB643A0CAD9F
 -  Functions: 287
 -  Symbols:   1234
--  CStrings:  676
+-  CStrings:  773
++  UUID: EB4F4D58-D209-35A6-BEE3-A52657C49AC1
 +  Functions: 288
 +  Symbols:   1238
-+  CStrings:  681
++  CStrings:  782
  
 Symbols:
 + -[CRRecentContact appendSanitizedDescriptionTo:]

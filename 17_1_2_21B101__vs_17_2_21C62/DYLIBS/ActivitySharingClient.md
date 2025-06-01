@@ -39,7 +39,11 @@
    __DATA_DIRTY.__bss: 0x400
    __DATA_DIRTY.__common: 0x18
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8357D638-94CF-3A42-B26A-23138A357AD5
++  UUID: 04A87BD0-A45F-3452-BA4A-6618564FE254
    Functions: 1978
    Symbols:   554
 -  CStrings:  256

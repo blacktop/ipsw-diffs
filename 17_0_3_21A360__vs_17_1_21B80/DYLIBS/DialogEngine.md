@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x1f8
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xf28
    __AUTH.__data: 0x888
 -  __AUTH.__objc_data: 0x1810
@@ -76,12 +75,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0C5FD323-EA76-3B11-8E75-87479CDC6C35
 -  Functions: 16215
 -  Symbols:   36249
--  CStrings:  27783
+-  CStrings:  27991
++  UUID: 14D4465A-8137-3C2B-BBB3-CD09CA1B28F3
 +  Functions: 16256
 +  Symbols:   36315
-+  CStrings:  27815
++  CStrings:  28024
  
 Symbols:
 + +[CATTransform capitalize:forLocale:]

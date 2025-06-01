@@ -15,8 +15,17 @@
 -  __DATA_CONST.__const: 0x348
 +  __DATA_CONST.__const: 0x488
    __AUTH_CONST.__cfstring: 0xda0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x210
+   __DATA.__data: 0x15d
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 6246DFBE-C088-3937-ACF7-0F9A93EB29F1
++  UUID: 71BE555E-6FDA-3AEC-A7EA-FC055BF72A35
+   Functions: 29
+   Symbols:   242
+   CStrings:  291
 Symbols:
 + _calloc
 + _malloc

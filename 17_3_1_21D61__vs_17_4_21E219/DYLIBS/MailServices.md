@@ -38,11 +38,15 @@
    __DATA.__data: 0x480
    __DATA_DIRTY.__const: 0x40
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BADBAF4C-935E-3455-BECC-C613955E6960
++  UUID: DB859455-1AE3-3AA2-BF5D-B6AC88E8FAE7
    Functions: 299
    Symbols:   1623
--  CStrings:  784
-+  CStrings:  785
+-  CStrings:  1022
++  CStrings:  1023
  
 CStrings:
 + "T@\"NSString\",?,R,C"

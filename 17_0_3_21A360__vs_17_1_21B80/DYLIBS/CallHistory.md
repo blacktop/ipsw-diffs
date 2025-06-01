@@ -33,9 +33,8 @@
    __DATA_CONST.__objc_selrefs: 0x1d10
    __AUTH_CONST.__objc_const: 0x1348
    __AUTH_CONST.__const: 0x2e0
-
+   __AUTH_CONST.__cfstring: 0x24c0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x3f0
 -  __AUTH.__objc_data: 0x230
 +  __AUTH.__objc_data: 0x280
@@ -43,13 +42,16 @@
    __DATA.__objc_classrefs: 0x288
    __DATA.__objc_superrefs: 0x128
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 27217264-238F-3531-97C5-8B9408CB62CB
++  UUID: 51E72F8D-BDD4-3969-9BC5-FAD839423FAE
    Functions: 1205
 -  Symbols:   4421
--  CStrings:  2156
+-  CStrings:  2450
 +  Symbols:   4427
-+  CStrings:  2157
++  CStrings:  2451
  
 Symbols:
 + _OBJC_CLASS_$_CHPersistentContainer

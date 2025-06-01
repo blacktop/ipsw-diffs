@@ -16,6 +16,8 @@
 +  __TEXT.__cstring: 0x6
 +  __TEXT.__unwind_info: 0x48
    - /usr/lib/libSystem.B.dylib
+-  UUID: 550E7249-282E-3F30-920D-72C31C546485
++  UUID: 0B7A6688-2762-3418-A824-5AC552FADD4B
    Functions: 2
 -  Symbols:   5
 -  CStrings:  33

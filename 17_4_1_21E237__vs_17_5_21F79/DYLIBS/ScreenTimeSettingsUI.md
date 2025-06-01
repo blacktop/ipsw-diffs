@@ -71,7 +71,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0x1128
 -  __AUTH.__objc_data: 0x3bc8
 +  __AUTH_CONST.__auth_got: 0x1138
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17A53D20-5AC9-3E01-B400-9C9F594F3EB6
 -  Functions: 4886
 -  Symbols:   14085
--  CStrings:  7012
+-  CStrings:  8275
++  UUID: 4EE8D076-8DBF-327A-8A57-9440E1011C95
 +  Functions: 4946
 +  Symbols:   14180
-+  CStrings:  7074
++  CStrings:  8363
  
 Symbols:
 + -[STAllowLocationRestrictionsController devicePINController:didAcceptChangedPIN:]

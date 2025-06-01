@@ -41,11 +41,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 462B8792-A4FE-3FD4-BEB7-CF76F7D1DDF4
 -  Functions: 2301
 -  Symbols:   606
++  UUID: B74B2CA3-18D9-3600-9F20-63B2A2959974
 +  Functions: 2292
 +  Symbols:   605
-   CStrings:  909
+   CStrings:  1073
  
 Symbols:
 - __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_

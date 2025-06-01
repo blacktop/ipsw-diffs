@@ -47,12 +47,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5DFEC53C-C52C-3FBD-972A-B1912ED1A910
 -  Functions: 5607
 -  Symbols:   33810
--  CStrings:  6741
+-  CStrings:  7142
++  UUID: EC5CB367-9190-34C2-AF47-1A9A7BF187AB
 +  Functions: 5610
 +  Symbols:   33827
-+  CStrings:  6742
++  CStrings:  7143
  
 Symbols:
 + CreateCommandBufferEpilogue.onceToken

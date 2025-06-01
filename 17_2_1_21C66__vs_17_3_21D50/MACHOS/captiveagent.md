@@ -33,13 +33,16 @@
    __DATA.__objc_ivar: 0x4c
    __DATA.__objc_data: 0xa0
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: A9C83664-D9C4-3547-BC1F-64F4DDCD7096
++  UUID: 9BB05800-01C3-3820-B96B-026D3FCFD4F0
    Functions: 157
 -  Symbols:   228
--  CStrings:  478
+-  CStrings:  528
 +  Symbols:   227
-+  CStrings:  477
++  CStrings:  527
  
 Symbols:
 - _OBJC_CLASS_$_NSURLRequest

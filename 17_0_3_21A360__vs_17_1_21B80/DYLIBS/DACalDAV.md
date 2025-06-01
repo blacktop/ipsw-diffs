@@ -44,13 +44,16 @@
    __DATA.__objc_classrefs: 0x320
    __DATA.__objc_superrefs: 0x88
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 91630934-0C56-356B-886B-144FAA9E183C
++  UUID: BFCAB7F7-9493-32C6-BF75-D5FBA453E7A2
    Functions: 988
 -  Symbols:   4456
--  CStrings:  2548
+-  CStrings:  2832
 +  Symbols:   4446
-+  CStrings:  2551
++  CStrings:  2835
  
 Symbols:
 + -[MobileCalDAVAccount addressURLIsAccountOwner:]

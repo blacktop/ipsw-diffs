@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54E1BAD0-BA12-359B-A061-FFE8211C3441
 -  Functions: 691
 -  Symbols:   2753
--  CStrings:  1528
+-  CStrings:  1672
++  UUID: 0DC87A94-AD1F-340C-A872-071EA82602C8
 +  Functions: 715
 +  Symbols:   2839
-+  CStrings:  1557
++  CStrings:  1708
  
 Symbols:
 + +[DKInternetWarningViewController advancedDataProtectionConfiguration]

@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__cfstring: 0x1c5e0
 +  __AUTH_CONST.__objc_const: 0xb628
    __AUTH_CONST.__const: 0x3000
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x390
 -  __AUTH_CONST.__objc_arrayobj: 0xf0
 +  __AUTH_CONST.__objc_arrayobj: 0x108
@@ -81,12 +80,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F084C1E0-8AD4-383C-969A-174DB2496527
 -  Functions: 17451
 -  Symbols:   47420
--  CStrings:  17131
+-  CStrings:  20713
++  UUID: 3E101B0B-EA53-3B4A-B311-B02D67CD4B10
 +  Functions: 17745
 +  Symbols:   48253
-+  CStrings:  17384
++  CStrings:  21015
  
 Symbols:
 + +[MRGroupTopologyModificationRequest supportsSecureCoding]

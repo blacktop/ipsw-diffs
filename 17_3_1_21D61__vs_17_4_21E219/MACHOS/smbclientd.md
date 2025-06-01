@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x5a0
    __DATA.__data: 0x234
 
+   - /System/Library/PrivateFrameworks/SMBSearch.framework/SMBSearch
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14BCD87A-91D5-306C-A19A-1EF40B0A3065
++  UUID: AD70B9C0-0ABF-32F4-9D76-49D9D3C453E9
    Functions: 2321
    Symbols:   229
--  CStrings:  2529
-+  CStrings:  2530
+-  CStrings:  2616
++  CStrings:  2617
  
 CStrings:
 + "T@\"NSString\",?,R,C"

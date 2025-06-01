@@ -24,11 +24,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 09F69F24-8788-3447-A3BC-A77617971793
 -  Functions: 703
 -  Symbols:   3194
++  UUID: 151B8819-DB4E-3D26-84EC-C78FF46AB617
 +  Functions: 711
 +  Symbols:   3210
-   CStrings:  1881
+   CStrings:  2063
  
 Symbols:
 + _PPMScaledFloatValue

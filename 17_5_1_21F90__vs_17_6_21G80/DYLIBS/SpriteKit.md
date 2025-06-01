@@ -21,9 +21,9 @@
    __TEXT.__objc_classname: 0x93d
    __TEXT.__objc_methname: 0xdbdb
 
+   __AUTH_CONST.__objc_const: 0x4150
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xc90
 +  __AUTH_CONST.__auth_got: 0xc98
    __AUTH.__objc_data: 0x2440
@@ -33,12 +33,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 156CDD6F-0D44-351C-8735-6D332C0FD264
 -  Functions: 4381
 -  Symbols:   14326
--  CStrings:  4494
+-  CStrings:  5545
++  UUID: B531D77E-684D-32AC-B61F-AB350A4EA067
 +  Functions: 4382
 +  Symbols:   14329
-+  CStrings:  4495
++  CStrings:  5546
  
 Symbols:
 + -[SKTexture loadImageDataFromCGImage:pointsSize:].cold.1

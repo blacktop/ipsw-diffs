@@ -58,13 +58,16 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0396FADC-B8C5-3EFE-89A1-C46229DFFBB5
++  UUID: 9922565E-51B2-39A9-955A-61ADCF8113BA
    Functions: 4684
 -  Symbols:   9015
--  CStrings:  3459
+-  CStrings:  4081
 +  Symbols:   9016
-+  CStrings:  3461
++  CStrings:  4083
  
 Symbols:
 + ___Block_byref_object_copy_.7310

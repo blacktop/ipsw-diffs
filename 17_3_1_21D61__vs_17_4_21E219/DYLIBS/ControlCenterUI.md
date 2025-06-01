@@ -80,12 +80,14 @@
    - /System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F4D085B1-FAEA-33A7-ABCA-F6F40969A25A
 -  Functions: 1428
 -  Symbols:   5476
--  CStrings:  2475
+-  CStrings:  2588
++  UUID: D11DE67F-DC34-3B68-B3BC-A976CC86B48D
 +  Functions: 1460
 +  Symbols:   5600
-+  CStrings:  2534
++  CStrings:  2655
  
 Symbols:
 + -[CCUIAnalyticsEventsController .cxx_destruct]

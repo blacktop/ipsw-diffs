@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 316F9AA2-1486-3A9C-A203-F9BFB72E55BE
 -  Functions: 182
 -  Symbols:   893
--  CStrings:  644
+-  CStrings:  681
++  UUID: 812C7580-BF82-3A63-8EEE-5DC4CE44DB4A
 +  Functions: 181
 +  Symbols:   890
-+  CStrings:  643
++  CStrings:  679
  
 Symbols:
 + ___17-[CBSClient init]_block_invoke.85

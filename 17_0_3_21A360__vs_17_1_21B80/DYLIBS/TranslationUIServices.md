@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/Translation.framework/Translation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32C2B8A4-3A9C-3731-AB9C-423E0E7CD882
 -  Functions: 122
 -  Symbols:   588
--  CStrings:  323
+-  CStrings:  340
++  UUID: 82792871-CEB3-31EF-82FE-0BA6AEFB8F22
 +  Functions: 125
 +  Symbols:   602
-+  CStrings:  331
++  CStrings:  348
  
 Symbols:
 + -[LTUITranslationViewController _cleanUpExtension]

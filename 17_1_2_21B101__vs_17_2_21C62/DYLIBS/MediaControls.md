@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6DB6D1D-A2F9-37C7-A06E-EF86799EC7A2
 -  Functions: 6133
 -  Symbols:   21417
--  CStrings:  9135
+-  CStrings:  9716
++  UUID: 4DFC62EA-FF99-3E86-AED1-3F9A93BEF052
 +  Functions: 6142
 +  Symbols:   21444
-+  CStrings:  9155
++  CStrings:  9742
  
 Symbols:
 + +[MRUStringsProvider audioSessionRenderingModeDolbyAtmos]

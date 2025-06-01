@@ -60,9 +60,8 @@
 +  __DATA_CONST.__objc_selrefs: 0x1c58
    __DATA_CONST.__objc_arraydata: 0x10
 -  __AUTH_CONST.__const: 0xc500
-+  __AUTH_CONST.__const: 0xc610
-   __AUTH_CONST.__auth_ptr: 0x250
 -  __AUTH_CONST.__objc_const: 0xc58
++  __AUTH_CONST.__const: 0xc610
 +  __AUTH_CONST.__objc_const: 0xca0
    __AUTH_CONST.__cfstring: 0x400
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -95,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 572DA623-C578-3CE5-9068-1A4905DFB8F9
 -  Functions: 7464
 -  Symbols:   4956
--  CStrings:  2017
+-  CStrings:  2049
++  UUID: D924B18B-EC3A-38A5-8087-E4A08DD74D6C
 +  Functions: 7515
 +  Symbols:   4981
-+  CStrings:  2026
++  CStrings:  2058
  
 Symbols:
 + +[WFMenuItem(PlatformImage) platformImageForIcon:]

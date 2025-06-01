@@ -80,12 +80,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F602ADA7-9EF1-39A7-BBA0-BE3F89F91291
 -  Functions: 917
 -  Symbols:   3356
--  CStrings:  1886
+-  CStrings:  2036
++  UUID: C397C23C-2F5E-3636-9027-DC3BCD9A9239
 +  Functions: 943
 +  Symbols:   3487
-+  CStrings:  1969
++  CStrings:  2124
  
 Symbols:
 + +[RPControlCenterAngelProxy sharedInstance]

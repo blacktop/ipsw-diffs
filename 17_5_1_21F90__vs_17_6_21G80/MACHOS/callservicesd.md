@@ -91,11 +91,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE7D395C-CCC4-364A-B8F2-531B92ED17DC
 -  Functions: 19222
++  UUID: 2F8EB85F-F323-36BA-A8F5-A141875524EA
 +  Functions: 19247
    Symbols:   2034
--  CStrings:  19498
-+  CStrings:  19522
+-  CStrings:  20722
++  CStrings:  20748
  
 Symbols:
 + _$s10Foundation12NotificationVs23CustomStringConvertibleAAMc

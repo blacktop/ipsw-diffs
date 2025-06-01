@@ -27,7 +27,6 @@
 +  __DATA_CONST.__const: 0x10c60
 +  __AUTH_CONST.__const: 0x160
    __AUTH_CONST.__cfstring: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x760
 +  __AUTH_CONST.__auth_got: 0x758
    __DATA.__got_weak: 0x10
@@ -44,11 +43,13 @@
    - /usr/lib/libgermantok.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmecab.dylib
+-  UUID: 9169B9E4-4025-37D8-A1CC-A54C3EAC04ED
 -  Functions: 4114
 -  Symbols:   11728
++  UUID: 87C48311-DA28-31F6-B10A-FDD5E67F163F
 +  Functions: 4074
 +  Symbols:   11659
-   CStrings:  241
+   CStrings:  244
  
 Symbols:
 + GCC_except_table100

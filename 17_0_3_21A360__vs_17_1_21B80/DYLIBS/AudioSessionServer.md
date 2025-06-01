@@ -75,12 +75,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6695B4E3-DAE0-390F-8AC2-F8CC416EA214
 -  Functions: 1573
 -  Symbols:   4415
--  CStrings:  1153
+-  CStrings:  1229
++  UUID: F54832DE-F112-36C5-BEFC-3943428CD38B
 +  Functions: 1581
 +  Symbols:   4416
-+  CStrings:  1129
++  CStrings:  1201
  
 Symbols:
 + -[AVAudioSessionRemoteXPCClient allowAppToInitiatePlaybackTemporarilyFromBackground:reply:]

@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_intobj: 0x2b8
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x4570
 +  __AUTH_CONST.__auth_got: 0x4580
    __AUTH.__objc_data: 0x2490
@@ -76,12 +75,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 72301FDD-9300-3551-9B37-937406A68D4E
 -  Functions: 7066
 -  Symbols:   22741
--  CStrings:  7344
+-  CStrings:  9023
++  UUID: 233B16A7-0B9C-3BC9-BED3-342804777C35
 +  Functions: 7096
 +  Symbols:   22677
-+  CStrings:  7379
++  CStrings:  9074
  
 Symbols:
 + -[WebFrame(WebPrivate) _createCaptionPreferencesTestingModeToken]

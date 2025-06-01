@@ -46,9 +46,8 @@
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__const: 0x440
-+  __AUTH_CONST.__const: 0x460
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x638
++  __AUTH_CONST.__const: 0x460
 +  __AUTH_CONST.__auth_got: 0x640
    __AUTH.__objc_data: 0x3c0
 -  __DATA.__objc_protorefs: 0x28
@@ -70,12 +69,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E437A9FC-3DE0-316D-8F50-04DB0735D09B
 -  Functions: 1954
 -  Symbols:   6624
--  CStrings:  2980
+-  CStrings:  3379
++  UUID: AA46D54D-551C-357C-80F7-38172CB2AA58
 +  Functions: 1958
 +  Symbols:   6637
-+  CStrings:  2984
++  CStrings:  3384
  
 Symbols:
 + -[ACDServer _handleLanguageChangedDarwinNotification].cold.2

@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_intobj: 0x1b0
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x8
    __AUTH_CONST.__auth_got: 0x970
    __DATA.__got_weak: 0x8
@@ -63,12 +62,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A535292C-6E68-3215-B9E1-E554458C30FB
 -  Functions: 1870
 -  Symbols:   6135
--  CStrings:  2856
+-  CStrings:  3332
++  UUID: 32D4A86B-4446-3041-B186-B25DF801AFB6
 +  Functions: 1877
 +  Symbols:   6142
-+  CStrings:  2857
++  CStrings:  3334
  
 Symbols:
 + -[ACAccount(IC) ic_hasICloudEmailAddress].cold.2

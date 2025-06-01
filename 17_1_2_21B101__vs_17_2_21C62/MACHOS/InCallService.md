@@ -91,12 +91,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4A8ABFD-27A0-3359-A032-D7604279AB56
 -  Functions: 9575
 -  Symbols:   2048
--  CStrings:  12253
+-  CStrings:  13153
++  UUID: 2B0A8E97-2499-39EA-B2CA-03170B67F632
 +  Functions: 9604
 +  Symbols:   2062
-+  CStrings:  12294
++  CStrings:  13194
  
 Symbols:
 + _$s15ConversationKit13ObjectTrackerC0D0V12stopTracking6objectyyXl_tF

@@ -47,11 +47,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C29AE2EE-B249-3E92-A5E2-6CAFA204FA65
 -  Functions: 551
++  UUID: A9E9C762-A75E-3196-905D-17C3DC004F0F
 +  Functions: 550
    Symbols:   352
--  CStrings:  1535
-+  CStrings:  1530
+-  CStrings:  1728
++  CStrings:  1723
  
 CStrings:
 - "[add album] pid=%lld"

@@ -19,12 +19,20 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__cfstring: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x278
 -  __DATA.__objc_classrefs: 0x40
 -  __DATA.__objc_superrefs: 0x18
    __DATA.__objc_ivar: 0x94
    __DATA.__bss: 0x18
    __DATA_DIRTY.__const: 0x40
+
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DFBD9AFE-CEC3-3A8A-A4A7-E9D6687EA37B
++  UUID: 3EE3AEF3-E296-306D-8D20-40AD8C96EDAC
+   Functions: 188
+   Symbols:   605
+   CStrings:  304
 
 ```

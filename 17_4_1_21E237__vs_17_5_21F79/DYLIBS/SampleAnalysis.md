@@ -87,12 +87,14 @@
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 236B250D-2090-3C91-A059-FE29AD02B278
 -  Functions: 2468
 -  Symbols:   8335
--  CStrings:  5794
+-  CStrings:  7103
++  UUID: 79E1B31E-6FB2-321A-A488-E56383C1283C
 +  Functions: 2549
 +  Symbols:   8601
-+  CStrings:  5963
++  CStrings:  7298
  
 Symbols:
 + +[SABinaryLoadInfo binaryLoadInfoWithBinary:loadAddress:isInKernelAddressSpace:exclave:]

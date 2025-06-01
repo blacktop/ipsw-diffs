@@ -35,4 +35,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Network.framework/Network
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9D7AAC10-B52A-3156-B303-2643CF771ABA
++  UUID: ADD6515B-FD9D-3F3C-ACB9-EA1117EAC9FF
+   Functions: 2373
+   Symbols:   9198
+   CStrings:  4095
+
 ```

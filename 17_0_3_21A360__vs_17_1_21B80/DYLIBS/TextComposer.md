@@ -17,11 +17,15 @@
    __TEXT.__oslogstring: 0x81
    __TEXT.__ustring: 0xb0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B533EAD3-41C3-369D-B9B4-B29FA427978B
++  UUID: 71540992-D15C-374E-877D-64396B8183DD
    Functions: 292
    Symbols:   231
--  CStrings:  765
-+  CStrings:  766
+-  CStrings:  971
++  CStrings:  972
  
 CStrings:
 + "com.apple.TextComposer.TCPostEditor"

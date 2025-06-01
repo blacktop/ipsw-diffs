@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_const: 0xef0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x558
 +  __AUTH_CONST.__auth_got: 0x578
    __AUTH.__objc_data: 0x5e8
@@ -65,13 +64,16 @@
    __DATA.__objc_const_ax: 0x0
    __DATA.__data: 0xee0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E1C580A1-1664-33C6-A559-593651F13F53
++  UUID: ECA18CF7-FD12-3D14-A1EF-3A51D4ED427A
    Functions: 953
 -  Symbols:   3704
--  CStrings:  1600
+-  CStrings:  1702
 +  Symbols:   3717
-+  CStrings:  1605
++  CStrings:  1706
  
 Symbols:
 + _BSRectRoundForScale

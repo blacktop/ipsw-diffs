@@ -41,12 +41,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7F6DA114-E1CC-342E-B2FD-51E74D35AF83
 -  Functions: 3590
 -  Symbols:   12929
--  CStrings:  6205
+-  CStrings:  6588
++  UUID: D43C66FB-A39B-304E-A81B-8ADBFAAE2882
 +  Functions: 3593
 +  Symbols:   12940
-+  CStrings:  6213
++  CStrings:  6596
  
 Symbols:
 + -[QLPreviewCollection setTapGesture:]

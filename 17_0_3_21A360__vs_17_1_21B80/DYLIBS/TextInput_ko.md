@@ -19,11 +19,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32FBE92A-6A69-3655-A4A1-111BB4AA95C0
 -  Functions: 158
 -  Symbols:   494
++  UUID: 7BF3D222-03A6-3AD9-9B6D-3257118D3CFF
 +  Functions: 157
 +  Symbols:   492
-   CStrings:  144
+   CStrings:  150
  
 Symbols:
 + __ZNK14TIInputManager44should_accept_candidate_for_mixed_case_inputERKN2KB9CandidateERKNS0_4WordERKNS0_6StringERKNSt3__16vectorIjNSA_9allocatorIjEEEEb

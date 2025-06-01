@@ -41,13 +41,16 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x400
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D368256E-F2FC-3AAF-A93D-A94B02B5E1BB
++  UUID: 49A580BD-0EEF-3A5A-B0B5-53A9087E78AD
    Functions: 2264
 -  Symbols:   9063
--  CStrings:  3921
+-  CStrings:  4290
 +  Symbols:   9066
-+  CStrings:  3923
++  CStrings:  4293
  
 Symbols:
 + _EKPreferences_Notification_AlertInviteeDeclines

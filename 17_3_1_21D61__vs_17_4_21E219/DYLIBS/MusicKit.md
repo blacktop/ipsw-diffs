@@ -66,7 +66,6 @@
 -  __AUTH_CONST.__const: 0x27328
 +  __AUTH_CONST.__const: 0x277f0
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x6b0
 -  __AUTH_CONST.__auth_got: 0x1500
 +  __AUTH_CONST.__auth_got: 0x1510
    __AUTH.__objc_data: 0xaa8
@@ -96,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 81E7D097-94FF-3EEA-8E9C-588ACE2F5C87
 -  Functions: 46717
 -  Symbols:   30483
--  CStrings:  2560
+-  CStrings:  2630
++  UUID: E05FB8C7-558D-33C6-B4CE-C7D0CDB55C1F
 +  Functions: 46449
 +  Symbols:   30026
-+  CStrings:  2601
++  CStrings:  2671
  
 Symbols:
 + +[MusicKit_SoftLinking_MPModelKind _defaultPlaylistFolderItemKind]

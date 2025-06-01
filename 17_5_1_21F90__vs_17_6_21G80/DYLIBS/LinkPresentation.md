@@ -31,11 +31,15 @@
    __AUTH_CONST.__objc_arrayobj: 0x438
    __AUTH_CONST.__objc_dictobj: 0xc8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73E510A9-65B6-34AF-8521-FCD83AA50E58
++  UUID: E07062ED-D71B-305B-B481-8CD52A9DF292
    Functions: 5317
    Symbols:   20818
--  CStrings:  7850
-+  CStrings:  7853
+-  CStrings:  9514
++  CStrings:  9520
  
 Symbols:
 + __unnamed_array_storage.116

@@ -40,13 +40,16 @@
    __DATA.__objc_ivar: 0x24
    __DATA.__objc_data: 0x50
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A02941B-A0EC-3451-ABCF-7E186B82EFE2
++  UUID: A6D11B70-1420-3F1F-893C-3A9A0FD6DCF6
    Functions: 68
 -  Symbols:   129
--  CStrings:  455
+-  CStrings:  488
 +  Symbols:   130
-+  CStrings:  459
++  CStrings:  493
  
 Symbols:
 + _OBJC_CLASS_$_AXUIServiceManager

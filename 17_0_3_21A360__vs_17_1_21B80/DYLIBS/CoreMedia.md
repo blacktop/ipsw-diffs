@@ -37,7 +37,6 @@
 -  __AUTH_CONST.__cfstring: 0x13820
 +  __AUTH_CONST.__const: 0x4120
 +  __AUTH_CONST.__cfstring: 0x138a0
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x17f0
@@ -65,12 +64,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4D1E2610-6378-3DC5-A4E6-42F89467E805
 -  Functions: 5054
 -  Symbols:   12154
--  CStrings:  4320
+-  CStrings:  6817
++  UUID: 61376BCD-9D46-35A2-A377-379569CEDB2D
 +  Functions: 5078
 +  Symbols:   12198
-+  CStrings:  4349
++  CStrings:  6850
  
 Symbols:
 + _APP_SANDBOX_READ_WRITE

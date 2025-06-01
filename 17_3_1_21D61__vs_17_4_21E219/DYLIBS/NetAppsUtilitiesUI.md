@@ -36,4 +36,13 @@
    __DATA.__data: 0x60
    __DATA.__bss: 0xf8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E0D793D9-E956-3D99-8483-6A40FA4BD0A1
++  UUID: D5D15AD0-D156-3B0F-8385-E0CBC2F5BE6C
+   Functions: 231
+   Symbols:   998
+   CStrings:  625
+
 ```

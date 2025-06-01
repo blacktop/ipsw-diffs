@@ -50,10 +50,12 @@
    - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22451413-9B88-376B-B11B-9F437DF58E56
 -  Functions: 106
++  UUID: 7BDB0CA1-C960-39FF-98B2-8619F76579E0
 +  Functions: 108
    Symbols:   162
-   CStrings:  543
+   CStrings:  749
  
 CStrings:
 + "ProductPageLookupService"

@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_classrefs: 0x98
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF37E3F5-73E4-3EB4-B57D-FC6D78A4082E
++  UUID: 9A851E15-B044-399B-A50A-E6BFB1DEF805
    Functions: 50
    Symbols:   72
--  CStrings:  176
-+  CStrings:  177
+-  CStrings:  221
++  CStrings:  223
  
 CStrings:
 + "com.apple.SOSBuddy"

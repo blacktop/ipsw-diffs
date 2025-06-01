@@ -14,8 +14,8 @@
    __TEXT.__const: 0x6e0
    __TEXT.__cstring: 0x6a92
 
+   __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1360
 +  __AUTH_CONST.__auth_got: 0x1358
@@ -23,12 +23,15 @@
    __DATA.__got_weak: 0x8
    __DATA.__objc_ivar: 0xc2c
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 95E7490C-CF6C-358C-9128-DBECA50B8EF9
++  UUID: 7A3ACB86-DFF6-38A0-A331-13BD811686E6
    Functions: 3367
 -  Symbols:   12868
 +  Symbols:   12867
-   CStrings:  6084
+   CStrings:  7031
  
 Symbols:
 + _CGPDFPageCopyBackgroundColorHint

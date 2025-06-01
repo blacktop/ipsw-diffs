@@ -47,4 +47,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 63A0CEAB-E18A-3081-81B9-66416E635053
++  UUID: FA31B3F4-454F-3315-B467-B174551E2C46
+   Functions: 922
+   Symbols:   3156
+   CStrings:  1490
+
 ```

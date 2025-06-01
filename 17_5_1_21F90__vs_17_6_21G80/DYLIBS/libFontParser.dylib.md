@@ -15,11 +15,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 50205366-4B11-3947-B255-F638557598A9
 -  Functions: 3373
 -  Symbols:   8263
++  UUID: 3E6B386D-8231-3993-8CB8-0E83E0404CDB
 +  Functions: 3374
 +  Symbols:   8265
-   CStrings:  5452
+   CStrings:  5566
  
 Symbols:
 + __ZNK26THierVariationsFontHandler18GetVariationValuesEm

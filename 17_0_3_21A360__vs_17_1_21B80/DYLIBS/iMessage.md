@@ -56,12 +56,13 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 704A03E8-EEEF-3696-BB6F-3DDCA0DDC353
 -  Functions: 1143
 -  Symbols:   648
--  CStrings:  4884
++  UUID: 5DB173C2-4733-3A76-BFA8-A582D6C12849
 +  Functions: 1138
 +  Symbols:   665
-+  CStrings:  4885
+   CStrings:  6361
  
 Symbols:
 + _MessageDictionaryArchivedNicknameUpdatesRecordIDsKey

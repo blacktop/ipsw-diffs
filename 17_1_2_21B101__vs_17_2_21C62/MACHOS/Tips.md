@@ -80,11 +80,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EB0CF920-F1E7-3358-8E27-BB62B1A40F0F
 -  Functions: 2878
++  UUID: ACA63008-5DDC-375F-9E05-4C1B5BC8C08E
 +  Functions: 2891
    Symbols:   1396
--  CStrings:  2344
-+  CStrings:  2348
+-  CStrings:  2407
++  CStrings:  2411
  
 Symbols:
 + _TPSCommonDefinesURLSchemeKey

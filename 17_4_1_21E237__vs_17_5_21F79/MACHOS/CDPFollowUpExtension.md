@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7C4D681-3619-33CB-9D57-82A790565B75
 -  Functions: 51
 -  Symbols:   87
--  CStrings:  192
+-  CStrings:  199
++  UUID: 3BB98465-4EB9-3F34-BDBE-D60C462040E7
 +  Functions: 146
 +  Symbols:   147
-+  CStrings:  379
++  CStrings:  398
  
 Symbols:
 + _ADPUpsell_ADPWebViewName
@@ -142,6 +144,7 @@ Symbols:
 + _objc_retain_x23
 + _objc_retain_x9
 CStrings:
++ ""
 + "\x0e"
 + "\"%@ %@ follow up with error: %@\""
 + "\"%@ ADP Upsell follow up with error: %@\""

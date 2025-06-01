@@ -20,12 +20,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: A996BE8B-4838-3A4E-AC6E-6D38ED7E3436
 -  Functions: 611
 -  Symbols:   1722
--  CStrings:  397
+-  CStrings:  416
++  UUID: 36BE9A94-1820-32CF-B596-D1F19883F7C3
 +  Functions: 612
 +  Symbols:   1724
-+  CStrings:  398
++  CStrings:  417
  
 Symbols:
 + __ZN3pci9transport4task8completeEijj.cold.2

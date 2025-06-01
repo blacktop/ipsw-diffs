@@ -32,11 +32,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C2B27303-F7B2-327F-A3DC-1A9182CB382B
++  UUID: 7DC2E2E9-C72D-3F1B-92FA-D5B73B32E117
    Functions: 12
    Symbols:   67
--  CStrings:  83
-+  CStrings:  88
+-  CStrings:  110
++  CStrings:  117
  
 CStrings:
 + "dsid"

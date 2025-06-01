@@ -20,8 +20,11 @@
    __DATA_CONST.__got: 0xa0
    __DATA_CONST.__const: 0x258
 
+   - /usr/lib/libTelephonyIOKitDynamic.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 105BACC3-6553-31BD-AD17-19B161E37CAF
++  UUID: 11F1842B-5084-3E54-9A6A-64CC7BB70B04
    Functions: 197
 -  Symbols:   741
 +  Symbols:   742

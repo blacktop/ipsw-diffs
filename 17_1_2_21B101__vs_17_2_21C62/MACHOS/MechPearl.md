@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8D9752FB-AB1A-392F-B0EB-38DBC60C5BAC
 -  Functions: 130
 -  Symbols:   81
--  CStrings:  433
+-  CStrings:  458
++  UUID: BDAEA39E-EF64-33BB-AD29-90E4F82A7D1A
 +  Functions: 132
 +  Symbols:   83
-+  CStrings:  436
++  CStrings:  461
  
 Symbols:
 + _OBJC_CLASS_$_MechanismBiometry

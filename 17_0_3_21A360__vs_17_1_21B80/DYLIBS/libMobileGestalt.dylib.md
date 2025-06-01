@@ -30,19 +30,21 @@
 -  __AUTH_CONST.__const: 0x63648
 +  __AUTH_CONST.__cfstring: 0x10fe0
 +  __AUTH_CONST.__const: 0x60448
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__auth_got: 0x850
+   __AUTH.__objc_data: 0xa0
 
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE204564-B1F6-3C37-B6C9-D75B8F4BEE1B
 -  Functions: 2941
 -  Symbols:   1330
--  CStrings:  3213
+-  CStrings:  5385
++  UUID: 0619505B-22F9-3A32-9EC9-AEDE15DBBFC7
 +  Functions: 2943
 +  Symbols:   1331
-+  CStrings:  3216
++  CStrings:  5391
  
 Symbols:
 + _MobileGestalt_get_deviceSupportsElton

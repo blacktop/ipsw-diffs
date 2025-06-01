@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DAE5CD3-6A96-3311-AB71-CF82F3AF9F4E
 -  Functions: 363
 -  Symbols:   223
--  CStrings:  550
+-  CStrings:  621
++  UUID: 40FB5CCF-A695-3699-B26C-220F91455633
 +  Functions: 125
 +  Symbols:   106
-+  CStrings:  374
++  CStrings:  440
  
 Symbols:
 + _OBJC_CLASS_$_CSLPRFReturnToAppSettings

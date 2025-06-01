@@ -37,11 +37,15 @@
    __AUTH.__objc_data: 0x7d0
    __DATA.__objc_classrefs: 0xe0
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5FAC2DA2-8827-3B5D-8663-20C204867F51
++  UUID: 5B562F56-7A10-33D8-A349-387B7C4339EF
    Functions: 328
    Symbols:   164
--  CStrings:  557
-+  CStrings:  558
+-  CStrings:  645
++  CStrings:  647
  
 CStrings:
 + "KeyboardInlineCompletion"

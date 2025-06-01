@@ -41,8 +41,11 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0ECECD9B-ED5A-388F-A0B1-E5F1FBB1FBCA
++  UUID: 254D2FC2-E0E6-399B-85BF-7C90C53FF428
    Functions: 22
 -  Symbols:   383
 -  CStrings:  74

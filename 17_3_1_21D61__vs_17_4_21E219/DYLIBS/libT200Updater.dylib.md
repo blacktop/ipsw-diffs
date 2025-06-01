@@ -13,6 +13,15 @@
    __TEXT.__const: 0xf38
    __TEXT.__oslogstring: 0x19e
    __TEXT.__unwind_info: 0x15c
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+-  UUID: A5FF737B-7D22-3700-B565-96A8549567A4
++  UUID: 92F6477E-7CDE-312A-96A1-07F16EC045AE
+   Functions: 108
+   Symbols:   734
+   CStrings:  667
 Symbols:
 + _calloc
 + _malloc

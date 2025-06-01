@@ -49,7 +49,7 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_classrefs: 0x260
 
-   __AUTH_CONST.__auth_ptr: 0xb8
+   __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__auth_got: 0xdd0
    __AUTH.__objc_data: 0x130
 -  __AUTH.__data: 0x7d8
@@ -70,11 +70,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E2B82E29-4128-347B-9543-DBD0AD484333
 -  Functions: 2261
++  UUID: D3FB0AE9-7C03-3D33-925D-F35BD3F331F0
 +  Functions: 2286
    Symbols:   1980
--  CStrings:  1023
-+  CStrings:  1024
+-  CStrings:  1056
++  CStrings:  1057
  
 CStrings:
 + "_shouldDisplaySharedVariant"

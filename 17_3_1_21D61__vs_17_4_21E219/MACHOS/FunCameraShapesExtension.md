@@ -26,7 +26,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/CameraEffectsKit.framework/CameraEffectsKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0934C17-2FD8-32D3-9041-CDE0CADADF78
++  UUID: 64F53BB3-2998-3CA3-BCAD-535A09DBA176
    Functions: 28
    Symbols:   58
 -  CStrings:  145

@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C18A9857-DCDE-37B9-BA40-A20D21E0617B
 -  Functions: 380
 -  Symbols:   1537
--  CStrings:  850
+-  CStrings:  952
++  UUID: 2287AC02-825A-3657-95C6-C275F676AA84
 +  Functions: 387
 +  Symbols:   1569
-+  CStrings:  866
++  CStrings:  968
  
 Symbols:
 + +[DaemonUtils callerIdWithPid:auditToken:]

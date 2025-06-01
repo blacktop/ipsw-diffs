@@ -33,11 +33,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39656408-9236-3B99-A49E-FB06B1E5EAB7
++  UUID: 673E9422-8C77-3E14-A61E-A95D789F3DE0
    Functions: 13
    Symbols:   40
--  CStrings:  99
-+  CStrings:  100
+-  CStrings:  107
++  CStrings:  108
  
 CStrings:
 + "T@\"NSString\",?,R,C"

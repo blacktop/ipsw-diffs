@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3699F830-75A5-31E1-9321-745EE5046969
 -  Functions: 9970
 -  Symbols:   1054
--  CStrings:  10127
+-  CStrings:  11785
++  UUID: 5636C51D-F5B7-38CF-9BB6-F1C528D1BA6D
 +  Functions: 10002
 +  Symbols:   1055
-+  CStrings:  10170
++  CStrings:  11830
  
 Symbols:
 + _kTransparencyTriggerOperationBAACertFetcher

@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/HardwareDiagnostics.framework/HardwareDiagnostics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8605DC24-4F12-3391-854B-4AC36D809F25
++  UUID: A5505090-585F-3279-901F-40C418C0C4F0
    Functions: 23
    Symbols:   61
--  CStrings:  142
-+  CStrings:  143
+-  CStrings:  163
++  CStrings:  164
  
 CStrings:
 + "T@\"NSString\",?,R,C"

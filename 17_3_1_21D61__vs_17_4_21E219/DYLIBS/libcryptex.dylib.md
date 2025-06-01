@@ -42,7 +42,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x78
    __AUTH_CONST.__objc_const: 0x480
    __AUTH_CONST.__const: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_intobj: 0x78
 -  __AUTH_CONST.__auth_got: 0x980
@@ -62,12 +61,14 @@
 -  - /usr/lib/libimg4.dylib
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB5D6066-B3DD-3C84-B214-98950C9C696A
 -  Functions: 549
 -  Symbols:   1638
--  CStrings:  763
+-  CStrings:  773
++  UUID: F87E7DED-09A5-38E9-9719-94AC8B1EAAFA
 +  Functions: 567
 +  Symbols:   1686
-+  CStrings:  813
++  CStrings:  823
  
 Symbols:
 + -[CryptexRemoteService supportsFeature:]

@@ -53,8 +53,11 @@
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftCoreAudio.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 499CA1D1-F1C8-3AB2-A2D2-B2DC325872BD
++  UUID: 823D97BA-20E7-32EA-8327-3DE497C861CE
    Functions: 91
 -  Symbols:   80
 -  CStrings:  57

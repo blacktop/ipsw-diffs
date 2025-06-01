@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x20
    __DATA_CONST.__objc_catlist: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C77130F-6E6E-396C-AE2D-028FDDE50DB2
++  UUID: 7CDF6301-BB6C-3913-BAC5-97B27CED39A8
    Functions: 80
 -  Symbols:   123
 +  Symbols:   124
-   CStrings:  271
+   CStrings:  313
  
 Symbols:
 + _ACAccountDataclassPhoneFaceTime

@@ -35,12 +35,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1561162C-B8D8-33F7-9D65-7966E8DAE5C8
 -  Functions: 84
 -  Symbols:   155
--  CStrings:  351
+-  CStrings:  437
++  UUID: 1F464CDC-09E6-3A0C-9729-5F8214A68A5B
 +  Functions: 85
 +  Symbols:   159
-+  CStrings:  354
++  CStrings:  442
  
 Symbols:
 + _CFDataGetTypeID

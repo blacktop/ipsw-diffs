@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F4EAA870-301C-3EE9-B551-1631353770E9
 -  Functions: 497
 -  Symbols:   1749
--  CStrings:  845
+-  CStrings:  968
++  UUID: 8AA6736F-FF1A-33ED-9B9B-F6BE218CF669
 +  Functions: 499
 +  Symbols:   1760
-+  CStrings:  854
++  CStrings:  977
  
 Symbols:
 + -[SOProfile matchesURL:]

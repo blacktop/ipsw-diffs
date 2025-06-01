@@ -54,7 +54,6 @@
 +  __AUTH_CONST.__objc_const: 0x1328
    __AUTH_CONST.__cfstring: 0x13a0
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0x818
    __AUTH.__objc_data: 0x598
    __AUTH.__data: 0x68
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C358367F-63AE-3FA2-92DB-FDD8B72CA5DE
 -  Functions: 1484
 -  Symbols:   5399
--  CStrings:  2987
+-  CStrings:  3144
++  UUID: 5F87DD36-82D9-3760-B53F-5A1114FA3A3F
 +  Functions: 1506
 +  Symbols:   5405
-+  CStrings:  3008
++  CStrings:  3165
  
 Symbols:
 + -[ANTrackPlayer setSomeOtherSidekickSessionAudioIsPlaying:]

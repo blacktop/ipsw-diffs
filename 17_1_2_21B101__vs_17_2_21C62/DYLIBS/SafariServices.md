@@ -82,12 +82,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D9665CA2-A272-3E94-85A9-3673844E4F55
 -  Functions: 9306
 -  Symbols:   35783
--  CStrings:  16903
+-  CStrings:  18710
++  UUID: A832989B-8CA1-3D4D-9439-EC966EF27DC6
 +  Functions: 8958
 +  Symbols:   34673
-+  CStrings:  16491
++  CStrings:  18195
  
 Symbols:
 + +[SFAccountCellData accountCellDataWithSavedAccount:warning:searchPattern:savedAccountIsOnlySavedAccountForHighLevelDomain:shouldShowReusedPasswordWarning:]
@@ -1507,6 +1509,7 @@ CStrings:
 + "\xf0ѱ"
 + "\xf0\xf0\xf0\xf0A"
 - "\x02\x11\x11"
+- "\v ."
 - "\v3!\x14!\x11\x1a\x17!\x13\x11%C"
 - "\r\x12\x14\x12\x111#%!"
 - "\"A"

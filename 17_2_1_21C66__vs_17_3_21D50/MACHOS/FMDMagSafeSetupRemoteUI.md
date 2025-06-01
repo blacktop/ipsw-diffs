@@ -39,11 +39,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB0AE7E0-C90C-3188-9886-92E30022C3D7
 -  Functions: 616
++  UUID: 272B1232-6242-3640-85C4-E248E48C6D45
 +  Functions: 622
    Symbols:   216
--  CStrings:  1890
-+  CStrings:  1893
+-  CStrings:  2357
++  CStrings:  2360
  
 CStrings:
 + "accountRatchet"

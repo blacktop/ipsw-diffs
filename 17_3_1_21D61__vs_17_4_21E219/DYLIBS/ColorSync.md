@@ -15,8 +15,8 @@
    __TEXT.__oslogstring: 0xb
    __TEXT.__ustring: 0x38
 
+   __AUTH_CONST.__const: 0x6b60
    __AUTH_CONST.__cfstring: 0x3b00
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x5b0
 -  __DATA.__data: 0xa58
 -  __DATA.__bss: 0xc58
@@ -25,6 +25,13 @@
    __DATA_DIRTY.__data: 0x40
    __DATA_DIRTY.__bss: 0x790
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 31657F62-7A4C-37BA-8BE2-823DEF76B5A0
++  UUID: CC25E2AA-E85F-3B6A-8C08-784C2952255A
+   Functions: 1525
+   Symbols:   4418
+   CStrings:  1148
 Symbols:
 + __ZNKSt3__16vectorI10CMMTagInfo10TAllocatorIS1_EE20__throw_length_errorB8ue170006Ev
 + __ZNKSt3__16vectorI10CMMTagInfo10TAllocatorIS1_EE20__throw_out_of_rangeB8ue170006Ev

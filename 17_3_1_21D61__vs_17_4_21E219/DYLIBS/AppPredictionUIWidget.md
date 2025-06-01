@@ -36,11 +36,15 @@
    __DATA.__data: 0x910
    __DATA.__bss: 0x2a8
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BCD53757-73D9-307E-8036-166A7A072B79
++  UUID: 11CAF6F8-9F22-3ED7-87D0-5975A2DE1D74
    Functions: 482
    Symbols:   2069
--  CStrings:  1296
-+  CStrings:  1297
+-  CStrings:  1329
++  CStrings:  1330
  
 CStrings:
 + "T@\"NSString\",?,R,C"

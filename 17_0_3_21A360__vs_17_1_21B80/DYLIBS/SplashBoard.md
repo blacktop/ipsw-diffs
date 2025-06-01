@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCB49E4A-F760-3DFB-B758-107945F83BD3
 -  Functions: 1005
 -  Symbols:   3751
--  CStrings:  1841
+-  CStrings:  2200
++  UUID: DB2645FA-5E7A-3AE4-B8AA-CA3C8B3773B1
 +  Functions: 998
 +  Symbols:   3733
-+  CStrings:  1829
++  CStrings:  2186
  
 Symbols:
 + +[XBVolumeMaintainer configure:]

@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9BB25532-10A2-3300-8F68-65A6042733C7
 -  Functions: 3154
 -  Symbols:   11054
--  CStrings:  6338
+-  CStrings:  7142
++  UUID: C3A9FF5A-13C5-32DD-9194-EA044F98B6C3
 +  Functions: 3162
 +  Symbols:   11089
-+  CStrings:  6362
++  CStrings:  7168
  
 Symbols:
 + +[CSVoiceProfileSELFLogger initialize]

@@ -51,9 +51,8 @@
    __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_arrayobj: 0xd8
 -  __AUTH_CONST.__const: 0x4e00
-+  __AUTH_CONST.__const: 0x4e60
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x570
++  __AUTH_CONST.__const: 0x4e60
 +  __AUTH_CONST.__auth_got: 0x568
    __AUTH.__objc_data: 0x50
    __DATA.__objc_protorefs: 0x38
@@ -80,12 +79,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0D4631D-23F5-3E4F-BE36-B7E0313727AC
 -  Functions: 3851
 -  Symbols:   13632
--  CStrings:  6295
+-  CStrings:  7644
++  UUID: C6F8F2AE-4794-34AA-983B-2D5B1EF9E085
 +  Functions: 3816
 +  Symbols:   13506
-+  CStrings:  6260
++  CStrings:  7623
  
 Symbols:
 + +[AAPreferences customAppleIDAvailabilityHealthCheckIntervalMinutes]

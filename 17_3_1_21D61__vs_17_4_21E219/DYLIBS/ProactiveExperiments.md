@@ -39,11 +39,15 @@
    __DATA.__data: 0x300
    __DATA.__bss: 0xd0
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4B9243E-60E5-32FD-AB00-563B35145B36
++  UUID: 8851504C-4D56-3CA0-862E-B67AA9FE88A5
    Functions: 760
    Symbols:   2536
--  CStrings:  1100
-+  CStrings:  1101
+-  CStrings:  1246
++  CStrings:  1247
  
 Symbols:
 + _ChatKitLibraryCore.frameworkLibrary.1906

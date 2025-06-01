@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04F8D1DE-EFBF-3C9C-BF4F-264E0AF224CB
 -  Functions: 2634
 -  Symbols:   9825
--  CStrings:  4841
+-  CStrings:  5376
++  UUID: AC1ED215-9720-3D0F-A747-445902E82E4A
 +  Functions: 2695
 +  Symbols:   10031
-+  CStrings:  4924
++  CStrings:  5472
  
 Symbols:
 + -[UIViewController(VSAdditions) _forceViewReload]

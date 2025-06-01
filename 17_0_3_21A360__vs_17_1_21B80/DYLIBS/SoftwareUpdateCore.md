@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A1B16017-BDD9-3C18-8B68-0F7F76A895A6
 -  Functions: 2545
 -  Symbols:   8639
--  CStrings:  5583
+-  CStrings:  7643
++  UUID: 04DE48E6-2543-388A-9C96-3D1CFF43BD78
 +  Functions: 2552
 +  Symbols:   8666
-+  CStrings:  5609
++  CStrings:  7671
  
 Symbols:
 + -[SUCoreDDMActivityScheduler pcTimer]

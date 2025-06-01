@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85E99ED5-2B7D-3631-95C8-B202FF23F412
 -  Functions: 428
 -  Symbols:   261
--  CStrings:  1128
+-  CStrings:  1256
++  UUID: 6AA4844A-C4D0-3D21-B4F6-E15A8D9C229A
 +  Functions: 426
 +  Symbols:   262
-+  CStrings:  1126
++  CStrings:  1253
  
 Symbols:
 + _NTKHasRegionalGeoRestrictions

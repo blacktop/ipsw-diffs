@@ -24,10 +24,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53647A33-595F-3C9B-B67B-2AE6AB89A316
 -  Functions: 70
++  UUID: 010CAC51-1001-348A-90CF-4591A806CF06
 +  Functions: 69
    Symbols:   117
-   CStrings:  75
+   CStrings:  80
  
 CStrings:
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Mon Oct  2 22:05:46 PDT 2023; root:libxpc_executables-2679.40.6~92/xpcroleaccountd/RELEASE_ARM64E"

@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D6707F06-A1CB-3D39-B475-EC882FFB3E6B
 -  Functions: 13028
 -  Symbols:   39793
--  CStrings:  8995
+-  CStrings:  10169
++  UUID: A3DF5577-140F-3D6F-A326-291D3C5A6B24
 +  Functions: 13202
 +  Symbols:   40325
-+  CStrings:  9198
++  CStrings:  10469
  
 Symbols:
 + +[RFAttribution supportsSecureCoding]

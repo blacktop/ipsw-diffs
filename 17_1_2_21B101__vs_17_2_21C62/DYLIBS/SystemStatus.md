@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4956C9A7-05BD-316E-8C3B-BDC5D933F83F
 -  Functions: 2690
 -  Symbols:   9554
--  CStrings:  2415
+-  CStrings:  2905
++  UUID: 15F66368-8C1C-38AF-A2FE-9629FD8CC16D
 +  Functions: 2721
 +  Symbols:   9642
-+  CStrings:  2454
++  CStrings:  2950
  
 Symbols:
 + -[STMediaStatusDomainData _initWithMicrophoneRecordingAttributionListData:mutedMicrophoneRecordingAttributionListData:systemAudioRecordingAttributionListData:cameraAttributionListData:]

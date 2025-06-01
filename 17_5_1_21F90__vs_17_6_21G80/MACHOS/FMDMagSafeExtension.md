@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BDFC907E-5F4B-343F-8026-35772CD2BCD3
 -  Functions: 461
++  UUID: 0F387727-BEB6-3141-B2CE-636D31B532E6
 +  Functions: 463
    Symbols:   161
--  CStrings:  1292
-+  CStrings:  1294
+-  CStrings:  1681
++  CStrings:  1684
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

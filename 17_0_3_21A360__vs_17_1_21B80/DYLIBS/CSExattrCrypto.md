@@ -38,12 +38,15 @@
    __DATA_DIRTY.__objc_const: 0x1a8
    __DATA_DIRTY.__objc_data: 0xf0
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DB360EE-76C2-3419-9D15-1FB27DC4AC83
++  UUID: 97FC896E-D2CF-3B6E-AACA-68345CAD6A25
    Functions: 145
 -  Symbols:   737
 +  Symbols:   741
-   CStrings:  307
+   CStrings:  375
  
 Symbols:
 + _CFNumberGetTypeID

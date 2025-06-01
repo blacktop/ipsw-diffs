@@ -45,8 +45,11 @@
    __DATA.__data: 0xd10
    __DATA.__common: 0x18
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7632951B-1568-32FA-A3D2-5553D4871AC4
++  UUID: 9578D18C-548F-39C9-ADBF-41963BB11D49
    Functions: 610
 -  Symbols:   130
 -  CStrings:  193

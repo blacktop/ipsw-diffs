@@ -24,7 +24,7 @@
    __TEXT.__objc_classname: 0x100
    __TEXT.__objc_methname: 0x1f22
 
-   __AUTH_CONST.__auth_ptr: 0x2f8
+   __AUTH_CONST.__const: 0xa5f0
    __AUTH_CONST.__auth_got: 0x2528
    __AUTH.__objc_data: 0xca0
 -  __AUTH.__data: 0x1380
@@ -47,5 +47,14 @@
    __DATA_DIRTY.__common: 0x3a0
    - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C2CE30A9-A1A3-34DD-A48E-CDECED845433
++  UUID: A8AA39A9-B6F1-322D-AA9C-7C382A093603
+   Functions: 9381
+   Symbols:   2828
+   CStrings:  1843
 
 ```

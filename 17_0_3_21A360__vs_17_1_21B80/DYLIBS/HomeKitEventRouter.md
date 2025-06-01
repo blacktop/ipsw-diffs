@@ -35,12 +35,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F2AC5A44-8970-36B0-88AD-518A93F11F3A
 -  Functions: 451
 -  Symbols:   1675
--  CStrings:  883
+-  CStrings:  938
++  UUID: 9EEB3226-BAA2-3D25-908D-0850ED886FA0
 +  Functions: 452
 +  Symbols:   1677
-+  CStrings:  894
++  CStrings:  951
  
 Symbols:
 + -[HMELastEventStore _cleanupResetRecreateAndRestartAfterIntegrityError]

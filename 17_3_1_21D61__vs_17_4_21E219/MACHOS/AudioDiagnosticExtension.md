@@ -40,11 +40,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E90AFEEB-4CB2-3E9C-997E-7C437AC0EB33
 -  Functions: 22
 -  Symbols:   81
++  UUID: 39D5DE05-80DD-3ED6-A88A-2E8B067CEC07
 +  Functions: 21
 +  Symbols:   80
-   CStrings:  151
+   CStrings:  175
  
 Symbols:
 - __Z31AudioDiagnosticExtensionLoggingv

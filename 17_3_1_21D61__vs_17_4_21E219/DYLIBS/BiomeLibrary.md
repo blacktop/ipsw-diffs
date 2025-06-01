@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5D25EE0-CD09-3720-9B83-F98FF933CD8F
 -  Functions: 13434
 -  Symbols:   41999
--  CStrings:  15504
+-  CStrings:  21992
++  UUID: C8187775-7B5C-3F6B-8C12-6085590A9534
 +  Functions: 13851
 +  Symbols:   43068
-+  CStrings:  17473
++  CStrings:  24662
  
 Symbols:
 + +[BMAccessibilityClassicInvert latestDataVersion]

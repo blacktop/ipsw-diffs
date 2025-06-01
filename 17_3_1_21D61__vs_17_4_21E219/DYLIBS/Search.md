@@ -55,13 +55,16 @@
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 323100DB-98EF-3FD7-89A4-27DFD36FDCB7
++  UUID: 11EE46FD-20AD-3F93-92B5-E8FB4CCC7A48
    Functions: 563
 -  Symbols:   2126
--  CStrings:  1273
+-  CStrings:  1556
 +  Symbols:   2127
-+  CStrings:  1269
++  CStrings:  1547
  
 Symbols:
 + _SSGetDisabledBundleSet

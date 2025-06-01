@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6E7B7B3-C6CE-3DEA-BB92-E0C3023E8388
 -  Functions: 4973
 -  Symbols:   740
--  CStrings:  9012
+-  CStrings:  10559
++  UUID: EDFEB65F-84E7-3BE5-BDD6-06F2377F3594
 +  Functions: 4984
 +  Symbols:   744
-+  CStrings:  9044
++  CStrings:  10600
  
 Symbols:
 + _AIDAServiceTypeFaceTime

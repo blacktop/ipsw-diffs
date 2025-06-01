@@ -17,7 +17,11 @@
    __TEXT.__objc_methname: 0xbf2
    __TEXT.__objc_methtype: 0x92c
 
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MusicApplication.framework/MusicApplication
+-  UUID: C4FE95E3-AAD5-3E94-8450-62379DB07CCF
++  UUID: 41CA7185-0C70-329D-A888-BF4A7CF5A5D4
    Functions: 153
    Symbols:   272
 -  CStrings:  182

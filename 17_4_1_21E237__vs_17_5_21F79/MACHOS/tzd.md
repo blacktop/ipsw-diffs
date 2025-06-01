@@ -48,13 +48,16 @@
    __DATA.__common: 0xc8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24637336-C920-369D-955E-C9C4B3BFC895
++  UUID: E8515C64-C175-3E57-8C55-7719CD190E93
    Functions: 479
 -  Symbols:   377
--  CStrings:  376
+-  CStrings:  381
 +  Symbols:   380
-+  CStrings:  378
++  CStrings:  383
  
 Symbols:
 + _$sSS10FoundationE9localized5table6bundle12localization6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAjA6LocaleVs12StaticStringVSgtcfC

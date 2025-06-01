@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FC8F2D09-3E83-3004-86F7-E082DF66A63B
 -  Functions: 2576
 -  Symbols:   9408
--  CStrings:  4472
+-  CStrings:  5001
++  UUID: 2699B56F-8D7B-38EE-A05F-5CC5AEAB23F9
 +  Functions: 2585
 +  Symbols:   9430
-+  CStrings:  4485
++  CStrings:  5016
  
 Symbols:
 + -[TSSinglePlanTransferViewController _userDisagreedTermsAndConditions]

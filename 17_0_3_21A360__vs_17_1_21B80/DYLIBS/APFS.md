@@ -23,11 +23,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libutil.dylib
+-  UUID: F2968782-EF8F-3888-87D6-0DF21E2E1C7E
 -  Functions: 791
 -  Symbols:   1674
++  UUID: 18A6211B-763B-368A-8155-E2D79D976F8F
 +  Functions: 792
 +  Symbols:   1676
-   CStrings:  1275
+   CStrings:  1414
  
 Symbols:
 + GCC_except_table6

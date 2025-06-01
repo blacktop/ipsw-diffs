@@ -62,12 +62,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 11C18A79-A135-3815-8CEC-543BBA1D9AE8
 -  Functions: 41
 -  Symbols:   190
--  CStrings:  285
+-  CStrings:  403
++  UUID: 845980F3-16EF-3FCE-82B4-E49E4559A669
 +  Functions: 49
 +  Symbols:   198
-+  CStrings:  296
++  CStrings:  415
  
 Symbols:
 + _dispatch_queue_attr_make_with_autorelease_frequency
@@ -79,6 +81,7 @@ Symbols:
 + _objc_retain_x24
 + _objc_retain_x25
 CStrings:
++ ""
 + "AAFAnalyticsEvent"
 + "AKAccountManager"
 + "T@\"NSString\",?,R,C"

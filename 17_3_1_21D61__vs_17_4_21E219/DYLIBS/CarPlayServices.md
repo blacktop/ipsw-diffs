@@ -64,11 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 06917DF6-26FA-33AB-8856-BBF2E4FA24C7
 -  Functions: 344
 -  Symbols:   1476
+-  CStrings:  772
++  UUID: BF8A86DA-B668-345A-BAFE-333D83F7BD28
 +  Functions: 347
 +  Symbols:   1481
-   CStrings:  690
++  CStrings:  764
  
 Symbols:
 + -[CRSAppHistoryController fetchDockAppForCategory:completion:]

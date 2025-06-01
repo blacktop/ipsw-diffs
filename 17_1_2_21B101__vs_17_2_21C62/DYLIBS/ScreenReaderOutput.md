@@ -42,9 +42,8 @@
    __DATA_CONST.__objc_arraydata: 0x200
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0x3560
-
+   __AUTH_CONST.__objc_intobj: 0x8e8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__auth_got: 0x768
 +  __AUTH_CONST.__auth_got: 0x770
@@ -64,12 +63,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F883111-E6A1-382F-98A6-D3013FA085D7
 -  Functions: 1484
 -  Symbols:   5557
--  CStrings:  2590
+-  CStrings:  3017
++  UUID: E3C425E7-2E0A-3B63-91D7-3E42D9D1AB99
 +  Functions: 1492
 +  Symbols:   5582
-+  CStrings:  2599
++  CStrings:  3026
  
 Symbols:
 + -[SCROBrailleDisplayAutoDetector _addBLEPeripheral:central:].cold.1

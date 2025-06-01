@@ -23,11 +23,15 @@
    __DATA_CONST.__auth_got: 0xe08
    __DATA_CONST.__got: 0x198
 
+   - /usr/lib/libimg4.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: F3E483C9-B4BD-3139-A6E9-72BD255EB4B8
++  UUID: E780DCDD-A335-33F7-89BE-5BEDAC9C812D
    Functions: 903
    Symbols:   534
--  CStrings:  1448
-+  CStrings:  1450
+-  CStrings:  1467
++  CStrings:  1469
  
 CStrings:
 + "369.40.7"

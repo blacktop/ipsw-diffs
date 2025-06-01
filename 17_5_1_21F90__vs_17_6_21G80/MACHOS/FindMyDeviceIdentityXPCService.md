@@ -42,11 +42,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAA1B0F9-8C74-35F5-BC60-A6B74D014B2C
 -  Functions: 85
++  UUID: B4A1C928-6A98-359D-8436-13D419E80E37
 +  Functions: 87
    Symbols:   95
--  CStrings:  546
-+  CStrings:  548
+-  CStrings:  874
++  CStrings:  877
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

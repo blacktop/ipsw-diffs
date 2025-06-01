@@ -25,13 +25,16 @@
    __DATA_CONST.__objc_classlist: 0x40
    __DATA_CONST.__objc_protolist: 0x10
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C4686A2-8F4D-3161-9140-A1C9ED83EBA9
++  UUID: 06CAFD7F-9A74-36F4-8F3D-6800C5658DD8
    Functions: 303
 -  Symbols:   128
--  CStrings:  979
+-  CStrings:  1052
 +  Symbols:   127
-+  CStrings:  987
++  CStrings:  1060
  
 Symbols:
 - _kFigCaptureStreamProperty_ZoomFactor

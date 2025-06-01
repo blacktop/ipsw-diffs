@@ -37,12 +37,14 @@
    - /usr/lib/libNFC_HAL.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 0252F5A9-C68A-3378-A20A-82740C3AE360
 -  Functions: 406
 -  Symbols:   319
--  CStrings:  1707
+-  CStrings:  1759
++  UUID: 4C4B3A14-F6AF-32BB-A3B5-48C84B7D62F9
 +  Functions: 415
 +  Symbols:   317
-+  CStrings:  1705
++  CStrings:  1757
  
 Symbols:
 + _NFDriverSecureElementGetCometATR

@@ -19,4 +19,13 @@
    __TEXT.__swift5_reflstr: 0x6fb
    __TEXT.__swift5_fieldmd: 0x9c0
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C03A18CA-11C5-305D-A2FB-E143FF686674
++  UUID: A47A6A6D-14E4-3AF8-9DBF-40F9928D0A1A
+   Functions: 1562
+   Symbols:   183
+   CStrings:  188
+
 ```

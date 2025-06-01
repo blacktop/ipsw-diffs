@@ -48,11 +48,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libenergytrace.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3E043852-E92F-3CB0-B35F-E915A5C002D0
 -  Functions: 2097
++  UUID: 89D7520F-F47F-35C8-9C6B-06B462D1274B
 +  Functions: 2119
    Symbols:   541
--  CStrings:  3093
-+  CStrings:  3121
+-  CStrings:  3888
++  CStrings:  3924
  
 CStrings:
 + "Changing NCCP from %d -> %d (freeze), cycle count change(%d->%d). NCC:%d DesignCap:%d\n"

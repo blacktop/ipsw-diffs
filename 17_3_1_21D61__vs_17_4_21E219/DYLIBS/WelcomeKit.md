@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A412A54-3FAE-3B7E-B221-C00B7AE116B9
 -  Functions: 315
 -  Symbols:   1198
--  CStrings:  765
+-  CStrings:  936
++  UUID: E54E57A8-5286-372C-B07A-D47A1A2D825B
 +  Functions: 316
 +  Symbols:   1201
-+  CStrings:  767
++  CStrings:  938
  
 Symbols:
 + -[WLDataMigrationControllerSurrogate _startMigrationUsingRetryPolicies:]

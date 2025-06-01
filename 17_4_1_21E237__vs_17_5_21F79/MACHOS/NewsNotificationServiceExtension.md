@@ -61,13 +61,16 @@
    - /usr/lib/swift/libswiftVision.dylib
    - /usr/lib/swift/libswiftWebKit.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D3B059D-3E2D-34F0-B46E-A7C66CDD47BD
++  UUID: 27EE3878-9676-3FF5-A108-47F26D2BEAF3
    Functions: 710
 -  Symbols:   285
--  CStrings:  646
+-  CStrings:  656
 +  Symbols:   290
-+  CStrings:  654
++  CStrings:  664
  
 Symbols:
 + _OBJC_CLASS_$_FCNetworkReachability

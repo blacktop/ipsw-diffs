@@ -56,11 +56,13 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 81C593F3-B933-39FD-8870-39EA4D09720A
 -  Functions: 5249
++  UUID: 77BA596B-B9F1-392B-9974-F3809DD1E681
 +  Functions: 5237
    Symbols:   1275
--  CStrings:  14698
-+  CStrings:  14712
+-  CStrings:  18182
++  CStrings:  18202
  
 CStrings:
 + "%s: Manager is not enabled"

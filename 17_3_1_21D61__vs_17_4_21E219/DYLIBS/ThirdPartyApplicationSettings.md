@@ -61,7 +61,6 @@
    __AUTH_CONST.__cfstring: 0xa0
    __AUTH_CONST.__objc_const: 0xc0
 -  __AUTH_CONST.__const: 0x1b88
--  __AUTH_CONST.__auth_ptr: 0xf8
 -  __AUTH_CONST.__auth_got: 0xa28
 -  __AUTH.__data: 0xc90
 -  __AUTH.__objc_data: 0x1f8
@@ -71,7 +70,6 @@
 -  __DATA.__bss: 0x2160
 -  __DATA.__common: 0x48
 +  __AUTH_CONST.__const: 0x2658
-+  __AUTH_CONST.__auth_ptr: 0x130
 +  __AUTH_CONST.__auth_got: 0xd38
 +  __AUTH.__data: 0xf20
 +  __AUTH.__objc_data: 0x298
@@ -108,13 +106,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3AEE7A1A-5D30-3071-BD52-D5BE778D9643
 -  Functions: 1330
 -  Symbols:   673
--  CStrings:  220
+-  CStrings:  225
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: A17C0B81-3E99-3D8E-989E-0223EC3601DE
 +  Functions: 1904
 +  Symbols:   824
-+  CStrings:  339
++  CStrings:  344
  
 Symbols:
 + _OBJC_CLASS_$_IXAppInstallCoordinator

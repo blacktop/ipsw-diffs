@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B6C414B-E0A6-3B46-B6FC-8D778993AB83
 -  Functions: 15
 -  Symbols:   35
--  CStrings:  78
+-  CStrings:  105
++  UUID: F8F0D55C-61CB-31F3-9F34-5CE1BC23EF01
 +  Functions: 11
 +  Symbols:   33
-+  CStrings:  57
++  CStrings:  78
  
 Symbols:
 - _notify_post

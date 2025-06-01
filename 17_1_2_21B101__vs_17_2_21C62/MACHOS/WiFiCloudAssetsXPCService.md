@@ -19,4 +19,13 @@
    __DATA_CONST.__objc_classlist: 0x28
    __DATA_CONST.__objc_protolist: 0x18
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 350F33D9-23D2-3E3E-86A0-B7D64DE791D0
++  UUID: 881DB818-7765-3B16-BE90-29A0A20B4896
+   Functions: 101
+   Symbols:   124
+   CStrings:  631
+
 ```

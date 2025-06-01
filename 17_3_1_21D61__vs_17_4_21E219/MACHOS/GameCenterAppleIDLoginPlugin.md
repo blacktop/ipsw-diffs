@@ -32,11 +32,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 283892CE-E9BE-35F3-842F-1460AAD9E1C7
++  UUID: CD6F8C61-70E2-3036-A9D6-DB912ED6ADFB
    Functions: 5
    Symbols:   26
--  CStrings:  66
-+  CStrings:  67
+-  CStrings:  72
++  CStrings:  73
  
 CStrings:
 + "T@\"NSString\",?,R,C"

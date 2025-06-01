@@ -53,12 +53,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B5622B2-5DE2-3895-9C1C-A3081FD34D15
 -  Functions: 14
 -  Symbols:   102
--  CStrings:  52
+-  CStrings:  66
++  UUID: FF1DC502-A365-37B9-90DD-3F5A027E517C
 +  Functions: 23
 +  Symbols:   144
-+  CStrings:  65
++  CStrings:  83
  
 Symbols:
 + +[MFSignatureTextViewAccessibility _accessibilityPerformValidations:]

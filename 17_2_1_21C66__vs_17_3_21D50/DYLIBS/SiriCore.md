@@ -21,4 +21,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 8D33FE1D-38D4-331F-884B-240B412FC19D
++  UUID: F2FD74AA-00E1-3441-AD6D-FE420DBCE8E2
+   Functions: 1237
+   Symbols:   4914
+   CStrings:  3381
+
 ```

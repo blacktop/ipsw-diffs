@@ -49,11 +49,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C32F9B2B-1C06-3C80-BDCC-7BEE00E4387F
++  UUID: 47422E09-609E-3FAC-9380-D1BA839757DC
    Functions: 1373
    Symbols:   4820
--  CStrings:  2804
-+  CStrings:  2805
+-  CStrings:  3442
++  CStrings:  3443
  
 Symbols:
 + ___44-[TLToneManager _tonePreferencesFromService]_block_invoke.729

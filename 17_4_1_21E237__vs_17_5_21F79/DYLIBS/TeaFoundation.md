@@ -69,12 +69,10 @@
 +  __AUTH_CONST.__const: 0x12d18
    __AUTH_CONST.__cfstring: 0x140
 -  __AUTH_CONST.__objc_const: 0x330
--  __AUTH_CONST.__auth_ptr: 0x450
 -  __AUTH_CONST.__auth_got: 0x1b28
 -  __AUTH.__objc_data: 0x4d0
 -  __AUTH.__data: 0x7c0
 +  __AUTH_CONST.__objc_const: 0x378
-+  __AUTH_CONST.__auth_ptr: 0x458
 +  __AUTH_CONST.__auth_got: 0x1c28
 +  __AUTH.__objc_data: 0x5a0
 +  __AUTH.__data: 0x9f0
@@ -111,12 +109,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C1D7C06-A7B0-3AB9-9DEF-9096E0C0B016
 -  Functions: 12386
 -  Symbols:   6020
--  CStrings:  1085
+-  CStrings:  1095
++  UUID: 55508394-2D5E-300C-90E0-301501650BC8
 +  Functions: 12778
 +  Symbols:   6208
-+  CStrings:  1109
++  CStrings:  1119
  
 Symbols:
 + _IOPSDrawingUnlimitedPower

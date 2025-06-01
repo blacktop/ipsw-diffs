@@ -80,12 +80,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 56EA2220-1CFF-3F19-8FCB-0B4F010A0556
 -  Functions: 793
 -  Symbols:   3003
--  CStrings:  1693
+-  CStrings:  1901
++  UUID: 2C791E64-4BEC-3897-B35F-C65A1D6D8F79
 +  Functions: 883
 +  Symbols:   3392
-+  CStrings:  1872
++  CStrings:  2091
  
 Symbols:
 + +[AVFoundationEngine sharedEngine]

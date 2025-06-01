@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEDEDABD-2DF1-324B-B431-16E8C8FFBE93
 -  Functions: 347
 -  Symbols:   1727
--  CStrings:  734
+-  CStrings:  804
++  UUID: 75232A9D-DA08-39C9-995A-9FCF984FAEA0
 +  Functions: 350
 +  Symbols:   1736
-+  CStrings:  738
++  CStrings:  808
  
 Symbols:
 + -[CRSUIStatusBarStyleAssertion _initWithInterfaceStyle:colorVariant:siriPresentation:]

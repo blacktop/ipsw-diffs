@@ -50,7 +50,6 @@
 -  __AUTH_CONST.__const: 0x200
 +  __AUTH_CONST.__const: 0x1e0
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x638
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_protorefs: 0x30
@@ -74,12 +73,14 @@
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 695E2C21-05FC-388A-86FC-B99829381AB0
 -  Functions: 862
 -  Symbols:   475
--  CStrings:  1611
+-  CStrings:  1798
++  UUID: 09A01FD2-D0E4-3B21-9F07-9CFEB000A69D
 +  Functions: 927
 +  Symbols:   507
-+  CStrings:  1751
++  CStrings:  1938
  
 Symbols:
 + _CFRunLoopRun

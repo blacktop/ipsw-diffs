@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 645ABE13-57B9-3A52-9368-A0074FCD6060
 -  Functions: 508
 -  Symbols:   274
--  CStrings:  822
+-  CStrings:  850
++  UUID: C7E12DBE-CCCB-367C-899E-10B4A9EAA68A
 +  Functions: 510
 +  Symbols:   278
-+  CStrings:  830
++  CStrings:  858
  
 Symbols:
 + _ASOOverlayConfigurationParameterHostBundleID

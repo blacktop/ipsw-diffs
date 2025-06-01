@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ARKitCore.framework/ARKitCore
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 76AEC301-4A33-30D6-94E7-C1DAA752E52B
++  UUID: E2A5AA82-BE2D-31EC-AED0-8F79F28166CF
+   Functions: 993
+   Symbols:   3766
+   CStrings:  2456
+
 ```

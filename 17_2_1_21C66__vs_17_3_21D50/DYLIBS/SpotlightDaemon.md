@@ -23,12 +23,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FDC8BF30-B441-3DDF-9878-11005D6606DC
 -  Functions: 2036
 -  Symbols:   6960
--  CStrings:  3290
+-  CStrings:  3772
++  UUID: 6B758CAE-67FA-3A74-9E4F-976B58F86403
 +  Functions: 2040
 +  Symbols:   6968
-+  CStrings:  3294
++  CStrings:  3776
  
 Symbols:
 + ___101-[SPConcreteCoreSpotlightIndexer _deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:]_block_invoke.903

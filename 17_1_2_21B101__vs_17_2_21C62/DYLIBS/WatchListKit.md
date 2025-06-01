@@ -80,12 +80,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7506316-AED3-33FC-AF28-557BF4C83E55
 -  Functions: 2385
 -  Symbols:   8951
--  CStrings:  4489
++  UUID: AE06E5EE-CE55-3020-BB8C-DC5A9B1DB1CC
 +  Functions: 2382
 +  Symbols:   8933
-+  CStrings:  4484
+   CStrings:  5527
  
 Symbols:
 + -[WLKPrewarming _prefetchAppLibrary]

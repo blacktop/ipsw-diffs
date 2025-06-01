@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50BF7E09-27B3-3EF8-A92E-B8C59865BD88
 -  Functions: 180
 -  Symbols:   158
--  CStrings:  537
+-  CStrings:  560
++  UUID: E1DA9C33-4CEE-37D7-A878-14033D4CD852
 +  Functions: 182
 +  Symbols:   165
-+  CStrings:  552
++  CStrings:  579
  
 Symbols:
 + _NTKCarbonaraWidgetIntent

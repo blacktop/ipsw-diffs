@@ -42,13 +42,16 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x4020
 
+   - /usr/lib/libIOReport.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 972906A0-CAE3-3007-A532-702272DC48CA
++  UUID: F76B9627-0F1B-3360-9FC5-70AFC79E85DE
    Functions: 195
 -  Symbols:   820
--  CStrings:  405
+-  CStrings:  460
 +  Symbols:   821
-+  CStrings:  406
++  CStrings:  461
  
 Symbols:
 + _IOObjectRelease

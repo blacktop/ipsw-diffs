@@ -50,11 +50,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C9E3390A-684F-3286-89D3-DF90E61B9FDF
++  UUID: 99AFD219-55FA-3C40-A6B2-FADE64513B8D
    Functions: 591
    Symbols:   376
--  CStrings:  1074
-+  CStrings:  1075
+-  CStrings:  1247
++  CStrings:  1248
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -25,12 +25,11 @@
 -  __DATA_CONST.__got: 0x230
 -  __DATA_CONST.__const: 0xce80
 -  __AUTH_CONST.__const: 0xe3c0
+-  __AUTH_CONST.__cfstring: 0x40e0
+-  __AUTH_CONST.__auth_got: 0xa20
 +  __DATA_CONST.__got: 0x250
 +  __DATA_CONST.__const: 0xced0
 +  __AUTH_CONST.__const: 0xe830
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__cfstring: 0x40e0
--  __AUTH_CONST.__auth_got: 0xa20
 +  __AUTH_CONST.__cfstring: 0x4180
 +  __AUTH_CONST.__auth_got: 0xa98
    __DATA.__data: 0x3ec
@@ -40,12 +39,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: AC18824F-1527-362F-A76A-C7C64CE759A0
 -  Functions: 9946
 -  Symbols:   26086
--  CStrings:  2918
+-  CStrings:  3437
++  UUID: 6752947D-BD7F-35B1-AAEF-D36F095C5AAC
 +  Functions: 10028
 +  Symbols:   26144
-+  CStrings:  2947
++  CStrings:  3471
  
 Symbols:
 + GCC_except_table1005

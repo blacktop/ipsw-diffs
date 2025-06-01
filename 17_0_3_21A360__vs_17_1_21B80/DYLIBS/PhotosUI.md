@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DED9D349-F145-3B0E-A619-0213028E991E
 -  Functions: 1499
 -  Symbols:   3273
--  CStrings:  1686
+-  CStrings:  1868
++  UUID: 7D496D1F-200C-325F-A17E-40BA6161310E
 +  Functions: 1512
 +  Symbols:   3336
-+  CStrings:  1730
++  CStrings:  1919
  
 Symbols:
 + -[PHPickerResult _initWithItemProvider:itemIdentifier:sourceType:userInfo:]

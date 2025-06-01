@@ -129,12 +129,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E9FDC772-8386-3E77-A2A3-AC46131B4079
 -  Functions: 8313
 -  Symbols:   2080
--  CStrings:  10517
+-  CStrings:  12307
++  UUID: 3CDE5B8A-938D-3A39-955B-CAD573D6602B
 +  Functions: 8382
 +  Symbols:   2000
-+  CStrings:  10357
++  CStrings:  12154
  
 Symbols:
 + _APAttributionStorefrontDefault

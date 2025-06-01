@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__objc_const: 0x2888
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_intobj: 0x450
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x9e0
 +  __AUTH_CONST.__auth_got: 0x9d8
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6BE7C638-DC9F-3F33-95C3-85CD41D42DF9
 -  Functions: 3190
 -  Symbols:   10649
--  CStrings:  5468
+-  CStrings:  6182
++  UUID: 9E6E6DDB-FB87-35BA-B5ED-14B5B0B982CA
 +  Functions: 3197
 +  Symbols:   10671
-+  CStrings:  5471
++  CStrings:  6185
  
 Symbols:
 + +[BRPersonaUtils performWithPersonaID:block:]

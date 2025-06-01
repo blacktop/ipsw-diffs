@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__cfstring: 0x2580
 +  __AUTH_CONST.__objc_const: 0x1390
    __AUTH_CONST.__const: 0x11b0
-   __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0xa08
 -  __AUTH.__objc_data: 0x1aa0
 +  __AUTH_CONST.__auth_got: 0x9e8
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 59D9A915-5F32-3989-AAFE-BCBC22CAC512
 -  Functions: 1809
 -  Symbols:   5459
--  CStrings:  2684
+-  CStrings:  2980
++  UUID: 476C6BCD-D33D-316B-B3CB-FD808ABD358A
 +  Functions: 1815
 +  Symbols:   5455
-+  CStrings:  2683
++  CStrings:  2983
  
 Symbols:
 + -[CDPRecoveryKeyEntryViewController keyboardCameraSessionDidDismiss:]

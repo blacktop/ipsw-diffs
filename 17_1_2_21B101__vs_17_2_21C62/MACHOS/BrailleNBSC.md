@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x484
    __TEXT.__oslogstring: 0x192
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8999614E-FC4D-345B-A29F-D11C489A6066
++  UUID: 30C92C9F-ECC5-37C2-B147-5B0563EFE958
+   Functions: 155
+   Symbols:   220
+   CStrings:  133
+
 ```

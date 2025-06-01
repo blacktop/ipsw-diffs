@@ -68,7 +68,6 @@
    __DATA_CONST.__objc_arraydata: 0xd0
 -  __AUTH_CONST.__const: 0x8a80
 +  __AUTH_CONST.__const: 0x8950
-   __AUTH_CONST.__auth_ptr: 0x118
    __AUTH_CONST.__objc_const: 0x3048
 -  __AUTH_CONST.__cfstring: 0x8fc0
 +  __AUTH_CONST.__cfstring: 0x9020
@@ -106,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 512BB033-9B93-3953-935D-F677F6974584
 -  Functions: 7410
 -  Symbols:   11912
--  CStrings:  6540
+-  CStrings:  7690
++  UUID: 5ACD9C86-3C07-3DAB-B0B2-10CD9C2C018E
 +  Functions: 7411
 +  Symbols:   11920
-+  CStrings:  6576
++  CStrings:  7729
  
 Symbols:
 + +[PHAFeaturesUsageReportingTask _reportSettings:]

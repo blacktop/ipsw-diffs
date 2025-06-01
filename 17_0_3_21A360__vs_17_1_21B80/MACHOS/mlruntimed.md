@@ -61,12 +61,14 @@
    - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5538C382-304D-3F70-960D-0CAF829D0496
 -  Functions: 619
 -  Symbols:   238
--  CStrings:  1034
+-  CStrings:  1130
++  UUID: 38595FCA-8EA8-32AB-AB8A-14AD28A52E24
 +  Functions: 563
 +  Symbols:   234
-+  CStrings:  970
++  CStrings:  1052
  
 Symbols:
 - _MLRuntimePluginID_ProactiveShareSheetLighthousePFLPlugin

@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 026765F6-F881-3B6A-966F-F68B3BDF206F
 -  Functions: 156
 -  Symbols:   585
--  CStrings:  325
+-  CStrings:  328
++  UUID: 3936A58F-0A73-302B-A5B7-4B881FAFEBE8
 +  Functions: 158
 +  Symbols:   599
-+  CStrings:  330
++  CStrings:  334
  
 Symbols:
 + _OBJC_CLASS_$_BSUIMappedImageCache

@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA21E904-B161-3004-9916-F15E33F9D1C0
 -  Functions: 494
 -  Symbols:   4086
--  CStrings:  608
+-  CStrings:  669
++  UUID: 732358DE-5766-31E8-B419-A22FAB76F2F9
 +  Functions: 497
 +  Symbols:   4119
-+  CStrings:  612
++  CStrings:  673
  
 Symbols:
 + $s15JournalSettings16DaySelectionViewC06updateD033_002C1D049F1F5EBC24EB9D5C825244B2LL8animatedySb_tFyycfU_TA.36

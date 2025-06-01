@@ -30,11 +30,15 @@
    __DATA.__data: 0x168
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C048D7FE-1F30-37F1-BA19-D410B3812E72
++  UUID: BA9C92D9-3227-3879-BFE0-B7CB6B8E1875
    Functions: 61
    Symbols:   425
--  CStrings:  300
-+  CStrings:  301
+-  CStrings:  342
++  CStrings:  343
  
 Symbols:
 + ___block_literal_global.193

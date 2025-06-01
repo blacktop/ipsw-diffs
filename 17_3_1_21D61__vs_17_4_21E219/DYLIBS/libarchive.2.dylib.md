@@ -16,7 +16,6 @@
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x1bf8
    __AUTH_CONST.__const: 0x18
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x850
 -  __DATA.__data: 0x4
 -  __DATA.__bss: 0x45a
@@ -32,7 +31,9 @@
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 1AA07F2A-1E48-3B85-BB84-DE1CEDD567ED
 -  Functions: 1626
++  UUID: 17369F19-6A09-378A-938E-3F7D5A8FE020
 +  Functions: 1627
    Symbols:   695
    CStrings:  1761

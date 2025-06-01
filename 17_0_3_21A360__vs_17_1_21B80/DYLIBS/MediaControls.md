@@ -82,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 943EAC69-7FC6-35A6-8C8C-7944CDCE7432
 -  Functions: 6127
 -  Symbols:   21410
--  CStrings:  9098
+-  CStrings:  9680
++  UUID: C6DB6D1D-A2F9-37C7-A06E-EF86799EC7A2
 +  Functions: 6133
 +  Symbols:   21417
-+  CStrings:  9135
++  CStrings:  9716
  
 Symbols:
 + +[MRUImageUtilities imageIsEfficientFormat:]

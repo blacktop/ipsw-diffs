@@ -57,10 +57,8 @@
 +  __AUTH_CONST.__objc_const: 0x478
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__const: 0xab0
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x5e0
 -  __AUTH.__objc_data: 0x328
-+  __AUTH_CONST.__auth_ptr: 0x48
 +  __AUTH_CONST.__auth_got: 0x628
 +  __AUTH.__objc_data: 0x3c8
    __AUTH.__data: 0x178
@@ -79,12 +77,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1CA5BAE1-C57D-3EF1-A582-C781BCDC27A3
 -  Functions: 673
 -  Symbols:   533
--  CStrings:  297
+-  CStrings:  347
++  UUID: A01DF85D-FE35-323C-BC37-EED79A71CA6A
 +  Functions: 729
 +  Symbols:   706
-+  CStrings:  435
++  CStrings:  493
  
 Symbols:
 + +[HealthAppAnalyticsAcceptance supportsSecureCoding]

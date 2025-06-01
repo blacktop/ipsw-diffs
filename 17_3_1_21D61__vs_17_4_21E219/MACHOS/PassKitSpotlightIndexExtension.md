@@ -20,5 +20,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 38DF9AAE-CE5E-324E-BCAB-4DBD0763BD68
++  UUID: 6EE2A79D-38EF-367C-B8E7-FE716439988F
+   Functions: 4
+   Symbols:   27
+   CStrings:  10
 
 ```

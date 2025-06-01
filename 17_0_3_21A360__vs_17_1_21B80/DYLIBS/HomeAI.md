@@ -34,7 +34,7 @@
 +  __AUTH_CONST.__cfstring: 0x8ea0
    __AUTH_CONST.__objc_const: 0x66a0
    __AUTH_CONST.__const: 0x4600
-   __AUTH_CONST.__auth_ptr: 0x70
+   __AUTH_CONST.__objc_intobj: 0x5d0
 
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x998
@@ -48,12 +48,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0651F3F-E5F9-333D-AFF1-5F1F8AB5A1E1
 -  Functions: 5380
 -  Symbols:   18097
--  CStrings:  7132
+-  CStrings:  8271
++  UUID: 8A85DCB3-E117-3595-97AA-B79C3F0B8F61
 +  Functions: 5384
 +  Symbols:   18107
-+  CStrings:  7134
++  CStrings:  8275
  
 Symbols:
 + -[HMIPersonsModelManager setTransaction:]

@@ -19,4 +19,13 @@
    - /usr/lib/system/libdispatch.dylib
    - /usr/lib/system/libdyld.dylib
 
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: E4A19347-DFA8-3693-BEDF-E070852F86F0
++  UUID: 95CD7B3C-F063-30EB-9AEF-ABCEC04B8A2F
+   Functions: 56
+   Symbols:   194
+   CStrings:  69
+
 ```

@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35197E3C-2A9F-3AB8-8684-CD0FC4269221
 -  Functions: 2575
 -  Symbols:   559
--  CStrings:  4940
+-  CStrings:  5588
++  UUID: 15C55D22-8B0C-3024-8DCE-348921D1A508
 +  Functions: 2580
 +  Symbols:   558
-+  CStrings:  4960
++  CStrings:  5615
  
 Symbols:
 - _BLAudiobookBookletAutoMigrationEnabled

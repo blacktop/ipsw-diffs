@@ -26,4 +26,13 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x28
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libtailspin.dylib
+-  UUID: CD13FC03-5848-330D-B60D-52D1091F2091
++  UUID: 19B70312-A73D-3090-A4AF-E547282343EB
+   Functions: 285
+   Symbols:   129
+   CStrings:  933
+
 ```

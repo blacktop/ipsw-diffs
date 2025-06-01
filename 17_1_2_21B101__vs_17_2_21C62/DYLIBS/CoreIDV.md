@@ -63,9 +63,8 @@
 +  __AUTH_CONST.__cfstring: 0x1940
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x2410
-+  __AUTH_CONST.__const: 0x2770
-   __AUTH_CONST.__auth_ptr: 0xc8
 -  __AUTH_CONST.__auth_got: 0x8c8
++  __AUTH_CONST.__const: 0x2770
 +  __AUTH_CONST.__auth_got: 0x8e8
 +  __AUTH.__data: 0x158
    __AUTH.__objc_data: 0x180
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4A87067D-236E-3CB0-BE64-99E01778588D
 -  Functions: 4738
 -  Symbols:   3141
--  CStrings:  1255
+-  CStrings:  1458
++  UUID: 8649FEC2-630E-3FA5-9325-9D1E03DE934D
 +  Functions: 4913
 +  Symbols:   3201
-+  CStrings:  1270
++  CStrings:  1472
  
 Symbols:
 + +[DIIdentityElement documentDHSComplianceStatusElement]

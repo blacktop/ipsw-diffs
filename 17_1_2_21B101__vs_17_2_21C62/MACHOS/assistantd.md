@@ -85,12 +85,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6428C0DA-8EC1-3425-BE00-18D6E2E3594E
 -  Functions: 13288
 -  Symbols:   2747
--  CStrings:  24708
+-  CStrings:  26813
++  UUID: E98F2D1A-B53C-333A-AA0C-0957E034657D
 +  Functions: 13435
 +  Symbols:   2763
-+  CStrings:  24963
++  CStrings:  27091
  
 Symbols:
 + _AFSupportsSCDAFramework

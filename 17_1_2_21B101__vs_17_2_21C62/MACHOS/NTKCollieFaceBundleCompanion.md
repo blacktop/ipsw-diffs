@@ -19,4 +19,13 @@
    __TEXT.__oslogstring: 0xb40
    __TEXT.__unwind_info: 0x7e0
 
+   - /System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 375509EF-6768-3C7D-B57F-0E938D870115
++  UUID: A653A3C0-A4CF-34E6-8F61-5460325DD5F4
+   Functions: 607
+   Symbols:   281
+   CStrings:  1332
+
 ```

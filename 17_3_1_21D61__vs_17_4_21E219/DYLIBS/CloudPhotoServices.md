@@ -25,4 +25,13 @@
    __DATA.__bss: 0x70
    __DATA_DIRTY.__const: 0x140
 
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F56A41A7-EA9C-326C-AA2B-1926240BE1D5
++  UUID: E7BE3827-CF2A-3DD3-A886-72CABB143C43
+   Functions: 62
+   Symbols:   521
+   CStrings:  332
+
 ```

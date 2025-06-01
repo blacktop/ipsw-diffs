@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x2e9
    __TEXT.__objc_classname: 0x11
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EC3A2526-A9CD-3F07-8BA8-BCBAFB292665
++  UUID: D9B812D8-CC2C-305C-BCB7-0349E1FA7EE1
+   Functions: 72
+   Symbols:   255
+   CStrings:  302
+
 ```

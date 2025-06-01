@@ -22,4 +22,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 34494F60-6D83-3D39-AB84-89591511154E
++  UUID: 801997EC-9978-3A53-A657-B9E45EB48A51
+   Functions: 3
+   Symbols:   43
+   CStrings:  71
+
 ```

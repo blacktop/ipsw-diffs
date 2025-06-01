@@ -30,11 +30,15 @@
    __DATA.__data: 0x488
    __DATA.__bss: 0x1
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - @rpath/XCTest.framework/XCTest
+-  UUID: 04FC15C7-FE14-32D8-A4C7-7717AA64E243
++  UUID: 69CAFA5B-FF0C-35F7-B2AB-6FC11D7BF457
    Functions: 210
    Symbols:   862
--  CStrings:  470
-+  CStrings:  473
+-  CStrings:  501
++  CStrings:  504
  
 Symbols:
 + _OBJC_$_PROP_LIST_VTKAssertID.59

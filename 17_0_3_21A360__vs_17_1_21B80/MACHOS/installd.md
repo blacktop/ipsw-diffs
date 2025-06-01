@@ -49,11 +49,13 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F26FA3A-FBEB-3A17-9A6B-AD9E9FA20720
 -  Functions: 1117
++  UUID: FC279BBA-C425-3B85-A625-2CEB7872BB33
 +  Functions: 1118
    Symbols:   404
--  CStrings:  3036
-+  CStrings:  3042
+-  CStrings:  4050
++  CStrings:  4059
  
 CStrings:
 + "%@ is a built in app and cannot be uninstalled"

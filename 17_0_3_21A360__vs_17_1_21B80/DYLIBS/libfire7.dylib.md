@@ -25,9 +25,11 @@
    __DATA.__bss: 0x32a
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 7BF0F0D5-2980-38B6-AE12-943669BBB251
 -  Functions: 8162
 -  Symbols:   19582
 -  CStrings:  6203
++  UUID: B96E4DDB-433C-3272-BEEC-B4A356C283E4
 +  Functions: 8161
 +  Symbols:   19579
 +  CStrings:  6211

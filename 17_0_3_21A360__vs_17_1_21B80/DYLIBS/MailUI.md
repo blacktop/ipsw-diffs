@@ -69,11 +69,9 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0xc8
 -  __AUTH_CONST.__auth_got: 0xe68
 -  __AUTH.__objc_data: 0xc18
 -  __AUTH.__data: 0x348
-+  __AUTH_CONST.__auth_ptr: 0xd8
 +  __AUTH_CONST.__auth_got: 0xef0
 +  __AUTH.__objc_data: 0xc10
 +  __AUTH.__data: 0x340
@@ -98,12 +96,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 013F213E-6CC3-35D9-80F1-B7877CAB83F9
 -  Functions: 4578
 -  Symbols:   6830
--  CStrings:  3782
++  UUID: 1E0E0C63-F114-39D5-8229-B391ECF3AE31
 +  Functions: 4629
 +  Symbols:   6829
-+  CStrings:  3781
+   CStrings:  4052
  
 Symbols:
 + +[MUIMessageListPrototypeViewControllerFactory messageListViewControllerWithInterface:mailboxes:]

@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85BB5DBA-B6C6-3059-AA71-BD5ECF79EE66
 -  Functions: 981
 -  Symbols:   313
--  CStrings:  1753
+-  CStrings:  1908
++  UUID: EDD9BED0-0DCC-3BBC-B1ED-9A43F7D8EBEC
 +  Functions: 993
 +  Symbols:   322
-+  CStrings:  1818
++  CStrings:  1979
  
 Symbols:
 + _IDSSendResourceProgressIdentifier

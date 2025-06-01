@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 40F55A89-44AC-3DDF-9FCC-A7AA2D7374C6
 -  Functions: 2361
 -  Symbols:   281
--  CStrings:  486
+-  CStrings:  532
++  UUID: 719A2AE9-7DF3-3AE6-8921-9CE193A597C6
 +  Functions: 2337
 +  Symbols:   279
-+  CStrings:  487
++  CStrings:  533
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCoreML

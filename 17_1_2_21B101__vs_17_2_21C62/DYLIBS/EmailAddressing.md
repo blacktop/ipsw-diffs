@@ -1,0 +1,22 @@
+## EmailAddressing
+
+> `/System/Library/PrivateFrameworks/EmailAddressing.framework/EmailAddressing`
+
+```diff
+
+-3774.200.91.2.1
++3774.300.61.2.4
+   __TEXT.__text: 0x687c
+   __TEXT.__auth_stubs: 0x450
+   __TEXT.__objc_methlist: 0x408
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8B48E90-DA2F-328B-9073-CD42B10C0161
++  UUID: A84D3A8B-E88B-3697-8432-89B9DF596D92
+   Functions: 92
+   Symbols:   567
+   CStrings:  338
+
+```

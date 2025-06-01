@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 079FAA48-59B3-3D11-B5FA-1A91EAF0035E
 -  Functions: 1321
 -  Symbols:   6342
--  CStrings:  3554
+-  CStrings:  3921
++  UUID: 0A5AD19E-A058-3489-A809-80072B634497
 +  Functions: 1331
 +  Symbols:   6377
-+  CStrings:  3571
++  CStrings:  3938
  
 Symbols:
 + +[MFAddressAtomStatusManager shouldDecorateAtomListForSender:replyTo:]

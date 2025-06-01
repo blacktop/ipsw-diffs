@@ -38,11 +38,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x18
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79EE756A-569F-35C5-882D-3BEEFCD4B6D3
++  UUID: FAC6908E-BC07-39C6-835D-BB6ADF2A2E5E
    Functions: 128
    Symbols:   626
--  CStrings:  386
-+  CStrings:  387
+-  CStrings:  472
++  CStrings:  473
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

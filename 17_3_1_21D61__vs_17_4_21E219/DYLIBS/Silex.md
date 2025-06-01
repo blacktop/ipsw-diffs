@@ -38,9 +38,9 @@
    __AUTH_CONST.__objc_const: 0x11b98
    __AUTH_CONST.__const: 0x3b40
 
+   __AUTH_CONST.__objc_arrayobj: 0x300
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2aa8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7b8
 -  __AUTH.__objc_data: 0x3750
 -  __DATA.__objc_protorefs: 0x558
@@ -57,13 +57,16 @@
    __DATA_DIRTY.__common: 0x50
    - /System/Library/Frameworks/ARKit.framework/ARKit
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18B1653E-0ABF-3C67-ADCA-5D0B272F8FF0
++  UUID: B952E4B8-FAB8-34C4-8A1F-330505BE9470
    Functions: 8253
 -  Symbols:   33892
--  CStrings:  13016
+-  CStrings:  14198
 +  Symbols:   33893
-+  CStrings:  13030
++  CStrings:  14212
  
 Symbols:
 + __OBJC_$_PROP_LIST_SXActionActivityGroup.73

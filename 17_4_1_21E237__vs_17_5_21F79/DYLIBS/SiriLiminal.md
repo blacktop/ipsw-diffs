@@ -28,4 +28,13 @@
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EC5E9CAD-9832-3E45-9110-A74C6F7D54DD
++  UUID: A6E86591-0566-3807-84E8-EA63581F78DA
+   Functions: 2930
+   Symbols:   7798
+   CStrings:  1623
+
 ```

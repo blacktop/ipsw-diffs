@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41C8FDA4-5E30-33B0-8F5F-5C2CC335C7D9
 -  Functions: 281
 -  Symbols:   1093
--  CStrings:  661
+-  CStrings:  719
++  UUID: 2A06AB36-6FA5-378A-B072-21D51CBBDC3D
 +  Functions: 282
 +  Symbols:   1096
-+  CStrings:  667
++  CStrings:  729
  
 Symbols:
 + _GetMessageIntentFromDistributedContextClientIdentifier

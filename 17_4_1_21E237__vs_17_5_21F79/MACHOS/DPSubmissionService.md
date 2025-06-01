@@ -32,11 +32,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x40
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3D0C7A00-0509-3EF5-9161-109270009B38
++  UUID: AB7A7251-9E3E-3189-8EE7-DF145646D879
    Functions: 3042
    Symbols:   332
--  CStrings:  1275
-+  CStrings:  1276
+-  CStrings:  1504
++  CStrings:  1507
  
 CStrings:
 + "%@;"

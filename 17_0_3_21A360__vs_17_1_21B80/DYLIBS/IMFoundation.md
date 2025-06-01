@@ -39,8 +39,8 @@
 -  __AUTH_CONST.__const: 0x1fc0
 +  __AUTH_CONST.__const: 0x1fa0
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__auth_got: 0xcb8
 
    __DATA.__objc_classrefs: 0x380
    __DATA.__objc_superrefs: 0x1c0
@@ -51,11 +51,15 @@
    __DATA.__common: 0x338
    __DATA_DIRTY.__objc_data: 0xa50
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 144A74E9-8008-3BA3-8729-95C67BB5938A
++  UUID: 6D44940E-7074-37B3-9002-CA06266D3D1E
    Functions: 2245
    Symbols:   1528
--  CStrings:  4200
-+  CStrings:  4205
+-  CStrings:  5427
++  CStrings:  5436
  
 Symbols:
 + _SecTrustEvaluateAsyncWithError

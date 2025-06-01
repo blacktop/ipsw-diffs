@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__cfstring: 0x9060
 +  __AUTH_CONST.__const: 0xb60
 +  __AUTH_CONST.__objc_intobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
 -  __AUTH_CONST.__objc_arrayobj: 0xa8
 +  __AUTH_CONST.__objc_arrayobj: 0xf0
@@ -78,12 +77,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: F7971CF9-409F-3AA6-A730-5DA2FF499210
 -  Functions: 4645
 -  Symbols:   13836
--  CStrings:  4714
+-  CStrings:  5844
++  UUID: E8B9ED62-5C77-3552-BF07-909C0B5471EA
 +  Functions: 4707
 +  Symbols:   14032
-+  CStrings:  4820
++  CStrings:  5975
  
 Symbols:
 + +[POConstantUtil stringForSEPBiometricPolicy:]

@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C00578F-6F18-38F3-9064-31FF4D9C8DC1
 -  Functions: 92
 -  Symbols:   95
--  CStrings:  183
+-  CStrings:  186
++  UUID: FCCC9181-D698-3350-85DE-5C246E7BEDFA
 +  Functions: 101
 +  Symbols:   104
-+  CStrings:  206
++  CStrings:  209
  
 Symbols:
 + _OBJC_CLASS_$_NSURL

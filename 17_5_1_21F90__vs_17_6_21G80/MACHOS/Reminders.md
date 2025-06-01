@@ -53,11 +53,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 29F0D0AB-1C13-3900-ACE8-8D1857C1958A
 -  Functions: 32946
 -  Symbols:   4960
++  UUID: 9DC220A3-81AD-3F11-B0E3-9AD1A6862A00
 +  Functions: 33009
 +  Symbols:   4985
-   CStrings:  8877
+   CStrings:  8997
  
 Symbols:
 + _$s19ReminderKitInternal10UnfairLockC7OptionsV8rawValueAESi_tcfC

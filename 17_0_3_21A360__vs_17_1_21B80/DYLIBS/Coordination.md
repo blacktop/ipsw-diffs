@@ -37,12 +37,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6AC8EEAF-669F-34E0-B0DF-F34BD6E2F0EC
 -  Functions: 1089
 -  Symbols:   3792
--  CStrings:  1506
+-  CStrings:  1668
++  UUID: 435F2417-50EF-389A-B3B1-27462A8AAE54
 +  Functions: 1090
 +  Symbols:   3794
-+  CStrings:  1508
++  CStrings:  1670
  
 Symbols:
 + +[COFeatureStatus isOpalEnabled]

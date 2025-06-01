@@ -18,4 +18,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libPCITransport.dylib
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EA8EEB0B-28CD-3C83-ADB1-1066EDCDE6E8
++  UUID: 65B66386-0608-37AB-913A-1F85EA247FD3
+   Functions: 14
+   Symbols:   86
+   CStrings:  61
+
 ```

@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4BA55A8-7891-383B-B1DB-E48BF42DC147
 -  Functions: 1509
 -  Symbols:   294
--  CStrings:  3508
+-  CStrings:  4610
++  UUID: 5077E565-58F5-326C-8654-7A7985254239
 +  Functions: 1592
 +  Symbols:   299
-+  CStrings:  3634
++  CStrings:  4775
  
 Symbols:
 + _IXAppRemovabilityChangedNotificationName

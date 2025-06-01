@@ -53,9 +53,9 @@
 -  __AUTH_CONST.__cfstring: 0xc9c0
 +  __AUTH_CONST.__const: 0x6c68
 +  __AUTH_CONST.__cfstring: 0xc900
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_const: 0x5048
    __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_dictobj: 0x50
 
    __AUTH.__objc_data: 0x910
    __AUTH.__data: 0x60
@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC28F77B-98CA-3C61-97BE-61D64B460DCE
 -  Functions: 4320
 -  Symbols:   14742
--  CStrings:  8442
+-  CStrings:  10056
++  UUID: D3FD081F-A3D7-3294-B9C2-B2B5B547634D
 +  Functions: 4321
 +  Symbols:   14734
-+  CStrings:  8414
++  CStrings:  10022
  
 Symbols:
 + _GEOConfigMapsSuggestionsVehicleBluetoothFeelerEnabled

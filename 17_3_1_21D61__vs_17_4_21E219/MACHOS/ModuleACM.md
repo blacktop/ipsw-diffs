@@ -56,11 +56,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12968DC9-9A26-382B-95F5-053931552BD1
 -  Functions: 349
++  UUID: 483E4944-01C5-3673-87DB-EB16FC1875A6
 +  Functions: 347
    Symbols:   178
--  CStrings:  1032
-+  CStrings:  1031
+-  CStrings:  1224
++  CStrings:  1223
  
 Symbols:
 + _LACDarwinNotificationsEqual

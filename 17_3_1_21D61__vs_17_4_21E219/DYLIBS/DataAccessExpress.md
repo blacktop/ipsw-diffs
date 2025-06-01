@@ -41,4 +41,13 @@
    __DATA_DIRTY.__objc_const: 0xe48
    __DATA_DIRTY.__objc_data: 0xaf0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 4712EA43-0CC7-32B4-A2C1-FFFA4CC1C747
++  UUID: EA22BC4D-52D0-37AE-88CA-895E43AE162A
+   Functions: 867
+   Symbols:   3601
+   CStrings:  2454
+
 ```

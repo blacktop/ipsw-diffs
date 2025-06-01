@@ -27,13 +27,16 @@
    __DATA_CONST.__objc_protolist: 0x20
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E4A20629-32C3-3633-B640-68EA95FDBA2F
++  UUID: 3ACB96E4-BE85-338C-8888-D7D455B69BFB
    Functions: 2978
 -  Symbols:   7072
--  CStrings:  649
+-  CStrings:  692
 +  Symbols:   7074
-+  CStrings:  650
++  CStrings:  693
  
 Symbols:
 + __ZN3ctuL35kGsm7ExtendedHindiSingleShiftToUcs2E

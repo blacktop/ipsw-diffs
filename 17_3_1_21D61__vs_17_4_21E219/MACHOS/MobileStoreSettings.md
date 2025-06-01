@@ -81,9 +81,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E88F0977-7DCC-368A-AE93-2F81E26F8A7C
 -  Functions: 170
 -  Symbols:   232
--  CStrings:  619
+-  CStrings:  715
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -96,9 +97,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 53F090D5-C967-32B7-BC6A-B0C0EED50A75
 +  Functions: 235
 +  Symbols:   260
-+  CStrings:  639
++  CStrings:  740
  
 Symbols:
 + _OBJC_CLASS_$_NSObject

@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8D63B61A-C489-3A37-A6E2-E4A02AC6A5E4
 -  Functions: 1053
 -  Symbols:   4149
--  CStrings:  2307
+-  CStrings:  2637
++  UUID: 1C558A49-1828-340E-9342-09DF54C59F67
 +  Functions: 1066
 +  Symbols:   4195
-+  CStrings:  2335
++  CStrings:  2672
  
 Symbols:
 + -[HLPHelpTableOfContentViewController logAnalyticsContentViewedWithHelpTopicItem:sourceType:]

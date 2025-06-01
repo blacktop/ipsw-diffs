@@ -19,4 +19,13 @@
    __DATA_CONST.__const: 0x3428
    __AUTH_CONST.__const: 0xbd88
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+-  UUID: 5DB59970-B9E9-32D1-B02D-BE61096C377F
++  UUID: 0FE9E1EF-2D67-32B6-89B2-B46B6917A149
+   Functions: 3635
+   Symbols:   7317
+   CStrings:  445
+
 ```

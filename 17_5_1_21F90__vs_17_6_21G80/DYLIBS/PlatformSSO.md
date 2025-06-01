@@ -39,19 +39,21 @@
    __AUTH_CONST.__const: 0xb60
 -  __AUTH_CONST.__objc_intobj: 0x168
 +  __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x50
 
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 132C947E-00E2-3A01-ACF0-DAACB27F8EE0
 -  Functions: 4716
 -  Symbols:   14058
--  CStrings:  4829
+-  CStrings:  5983
++  UUID: 180A8E88-E431-3EF9-B2A2-E89A1439A185
 +  Functions: 4723
 +  Symbols:   14071
-+  CStrings:  4835
++  CStrings:  5991
  
 Symbols:
 + +[POSecKeyHelper verifyKey:]

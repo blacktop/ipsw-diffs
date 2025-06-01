@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 052E0B5C-20F0-3AD1-943A-92B28F108885
++  UUID: 5A9365BD-CA9E-38B5-9B7C-D4D4E52A7F35
    Functions: 23
    Symbols:   57
--  CStrings:  123
-+  CStrings:  124
+-  CStrings:  131
++  CStrings:  132
  
 CStrings:
 + "T@\"NSString\",?,R,C"

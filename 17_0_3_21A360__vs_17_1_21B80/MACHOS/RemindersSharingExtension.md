@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7845C48E-93B2-3D20-A598-61BEDC2F8355
 -  Functions: 9190
 -  Symbols:   611
--  CStrings:  3797
+-  CStrings:  3888
++  UUID: 72ED66F3-DBF7-3568-A039-9E3F2C375396
 +  Functions: 9152
 +  Symbols:   615
-+  CStrings:  3792
++  CStrings:  3883
  
 Symbols:
 + _OBJC_CLASS_$_TTRIWorldBoundingMKCircle

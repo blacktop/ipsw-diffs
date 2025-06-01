@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F9DB13A-D01E-3B33-A863-34139EA18A92
 -  Functions: 47
 -  Symbols:   92
--  CStrings:  297
+-  CStrings:  316
++  UUID: 2B89C6B4-36D0-3802-B8CD-EE2FE8B930CB
 +  Functions: 48
 +  Symbols:   93
-+  CStrings:  300
++  CStrings:  319
  
 Symbols:
 + _UILayoutFittingCompressedSize

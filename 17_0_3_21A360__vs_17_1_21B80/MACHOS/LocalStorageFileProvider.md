@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 13138A3A-FAFF-3EA8-914E-E6354232819D
 -  Functions: 28356
 -  Symbols:   857
--  CStrings:  5770
+-  CStrings:  5831
++  UUID: FE294191-3281-31B6-B2BB-917FFAFF86A4
 +  Functions: 28510
 +  Symbols:   862
-+  CStrings:  5839
++  CStrings:  5905
  
 Symbols:
 + _FPDiagnosticAttributeKeyDBFParentItemID

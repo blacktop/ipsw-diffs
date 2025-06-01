@@ -19,10 +19,9 @@
    __DATA_CONST.__got: 0x88
 -  __DATA_CONST.__const: 0x7df8
 -  __AUTH_CONST.__cfstring: 0x4060
+-  __AUTH_CONST.__auth_got: 0x730
 +  __DATA_CONST.__const: 0x7e38
 +  __AUTH_CONST.__cfstring: 0x4080
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x730
 +  __AUTH_CONST.__const: 0xe0
 +  __AUTH_CONST.__auth_got: 0x738
    __DATA.__bss: 0x9a
@@ -35,12 +34,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 06BEC337-0FD8-3413-BF74-661CD7485122
 -  Functions: 1802
 -  Symbols:   5754
--  CStrings:  1005
+-  CStrings:  1520
++  UUID: 766176BE-D67F-319B-A77D-D23A6328C6CC
 +  Functions: 1808
 +  Symbols:   5771
-+  CStrings:  1007
++  CStrings:  1523
  
 Symbols:
 + _OUTLINED_FUNCTION_0

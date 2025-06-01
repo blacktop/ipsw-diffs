@@ -24,11 +24,9 @@
 -  __DATA_CONST.__const: 0x1b60
 -  __AUTH_CONST.__cfstring: 0x78a0
 -  __AUTH_CONST.__const: 0x27a78
--  __AUTH_CONST.__auth_ptr: 0x38
 +  __DATA_CONST.__const: 0x1b70
 +  __AUTH_CONST.__cfstring: 0x79c0
 +  __AUTH_CONST.__const: 0x28ad8
-+  __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0xaa8
 -  __DATA.__data: 0x1604
 -  __DATA.__bss: 0x6d60
@@ -40,12 +38,14 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 070221F4-2769-3198-9B8C-5E53169116FD
 -  Functions: 27882
 -  Symbols:   72965
--  CStrings:  9580
+-  CStrings:  10545
++  UUID: C7AF79FC-F9E2-30BC-A47E-1FF074B6EDA4
 +  Functions: 29194
 +  Symbols:   73622
-+  CStrings:  10042
++  CStrings:  11016
  
 Symbols:
 + GCC_except_table264

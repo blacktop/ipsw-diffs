@@ -51,11 +51,13 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F1501131-B75E-3432-8B48-399EFD2DEAC8
 -  Functions: 1034
++  UUID: 2AE58FF8-6BCA-3BF5-91EE-0E55DFC2BBC8
 +  Functions: 1036
    Symbols:   357
--  CStrings:  1971
-+  CStrings:  1975
+-  CStrings:  2504
++  CStrings:  2508
  
 CStrings:
 + "%s: %{public}@ is a symlink. Skipping."

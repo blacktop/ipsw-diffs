@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C77B945-04BE-3C42-94FB-56497789C636
 -  Functions: 2530
 -  Symbols:   8305
--  CStrings:  3801
+-  CStrings:  4389
++  UUID: 60AF1112-CF15-3EF8-9CDA-AE77ABF5FEDE
 +  Functions: 2534
 +  Symbols:   8317
-+  CStrings:  3810
++  CStrings:  4398
  
 Symbols:
 + +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:context:]

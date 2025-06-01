@@ -35,12 +35,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C6D821E6-B46D-3600-AC03-FD42805C6702
 -  Functions: 8792
 -  Symbols:   9660
--  CStrings:  3173
+-  CStrings:  3182
++  UUID: EB3E388A-3E59-3388-8A2E-04285464C4B7
 +  Functions: 8811
 +  Symbols:   9681
-+  CStrings:  3176
++  CStrings:  3185
  
 Symbols:
 + __ZN5CMMsl27MobilitySmoothedGaitMetrics8readFromERN2PB6ReaderE

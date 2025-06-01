@@ -89,12 +89,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
    - @rpath/BookCore.framework/BookCore
+-  UUID: 876675BE-01F6-36BC-BA45-BF9EC5AD8022
 -  Functions: 2236
 -  Symbols:   225
--  CStrings:  262
+-  CStrings:  264
++  UUID: 7FE17356-E68A-346C-82D1-B76B0204B97F
 +  Functions: 2220
 +  Symbols:   220
-+  CStrings:  243
++  CStrings:  245
  
 Symbols:
 - _BCUCoverEffectsFilterInfoContentRTLKey

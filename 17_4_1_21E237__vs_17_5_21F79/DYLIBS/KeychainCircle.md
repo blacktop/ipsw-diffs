@@ -35,13 +35,16 @@
    __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__objc_dictobj: 0xc8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 41F34E67-EA6E-347F-882A-B72E3694485C
++  UUID: 57841013-3C3A-3C49-951A-8DF2FE876B4D
    Functions: 570
 -  Symbols:   2134
--  CStrings:  1225
+-  CStrings:  1456
 +  Symbols:   2140
-+  CStrings:  1231
++  CStrings:  1468
  
 Symbols:
 + _AAAFoundationLibrary.1075

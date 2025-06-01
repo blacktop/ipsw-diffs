@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0FCE4022-1BEB-387E-A6E1-B4B281E8E786
 -  Functions: 2403
 -  Symbols:   8994
--  CStrings:  4527
+-  CStrings:  5585
++  UUID: FA543549-66D7-3666-AE32-21A7A88CD9C3
 +  Functions: 2405
 +  Symbols:   9001
-+  CStrings:  4533
++  CStrings:  5591
  
 Symbols:
 + -[WLKNotificationsImpl_iOS notificationTopics]

@@ -38,10 +38,9 @@
    __AUTH_CONST.__objc_const: 0x620
 -  __AUTH_CONST.__cfstring: 0xf80
 +  __AUTH_CONST.__cfstring: 0xfc0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__auth_got: 0x188
-
+   __AUTH.__objc_data: 0x410
    __DATA.__objc_protorefs: 0x18
    __DATA.__objc_classrefs: 0x100
    __DATA.__objc_superrefs: 0x40
@@ -54,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15872216-662B-301E-9E9F-53E5F70CE916
 -  Functions: 208
 -  Symbols:   1313
--  CStrings:  533
+-  CStrings:  657
++  UUID: 790DDD09-77B7-3A1F-A350-074A076E4ECD
 +  Functions: 211
 +  Symbols:   1325
-+  CStrings:  543
++  CStrings:  669
  
 Symbols:
 + -[SUSUIAuthenticationAlertAction autoInstallForecast]

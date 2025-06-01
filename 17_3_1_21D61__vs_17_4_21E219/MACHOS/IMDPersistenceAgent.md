@@ -20,4 +20,13 @@
    __DATA.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 083CC787-F48A-3813-AF43-88F90A350E72
++  UUID: C67B22DD-A6A0-3E29-97E5-939625810E11
+   Functions: 8
+   Symbols:   58
+   CStrings:  26
+
 ```

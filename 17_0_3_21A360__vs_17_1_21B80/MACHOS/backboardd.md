@@ -43,11 +43,13 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsp.dylib
+-  UUID: FCC693BF-498B-349B-96C8-E5D27CCCABDB
 -  Functions: 3027
++  UUID: BF2F1E07-E870-3B42-8E15-9853D15325C7
 +  Functions: 3029
    Symbols:   751
--  CStrings:  6121
-+  CStrings:  6126
+-  CStrings:  7148
++  CStrings:  7153
  
 CStrings:
 + "Ignoring request for status event: we're in estimated prox mode"

@@ -93,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5DD7F15C-96F8-3108-AE39-45C246A9A52A
 -  Functions: 2510
 -  Symbols:   435
--  CStrings:  1660
+-  CStrings:  1741
++  UUID: D53CDCFF-1240-3CA7-9ACF-F490BAB536D1
 +  Functions: 2559
 +  Symbols:   429
-+  CStrings:  1690
++  CStrings:  1771
  
 Symbols:
 - _CGColorSpaceCreateDeviceRGB

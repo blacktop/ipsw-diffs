@@ -19,6 +19,15 @@
    __TEXT.__objc_methname: 0x484
    __TEXT.__oslogstring: 0x192
    __TEXT.__ustring: 0x14
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D3449697-9A6C-3260-BCD8-6B79E09AB91E
++  UUID: 8999614E-FC4D-345B-A29F-D11C489A6066
+   Functions: 155
+   Symbols:   220
+   CStrings:  133
 CStrings:
 + "NBSC Braille for text: ReDefaultBlock is not 0. Need to investigate why."
 - "NBSC Braille for text: ReDefaultBlock is not 0. Need to investigage why."

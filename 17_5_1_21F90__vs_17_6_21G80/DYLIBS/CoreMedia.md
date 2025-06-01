@@ -34,19 +34,21 @@
    __AUTH_CONST.__const: 0x4190
 -  __AUTH_CONST.__cfstring: 0x13ac0
 +  __AUTH_CONST.__cfstring: 0x13aa0
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_const: 0x48
+   __AUTH_CONST.__auth_got: 0x1868
 
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0A3DD69D-0E88-386A-AA70-B0F211B3ABB1
 -  Functions: 5103
 -  Symbols:   12290
--  CStrings:  4436
+-  CStrings:  6954
++  UUID: 35B7D26F-99EC-3D5B-819D-1D221DE0ED60
 +  Functions: 5104
 +  Symbols:   12291
-+  CStrings:  4435
++  CStrings:  6952
  
 Symbols:
 + _figXPCCopySanitizedCFDictionary

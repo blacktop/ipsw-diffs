@@ -76,11 +76,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 185AB7C6-8A28-3EEF-A811-9B69792BBDE2
 -  Functions: 20955
++  UUID: 83B58F05-086D-3160-AE7F-E20BBFAA7A80
 +  Functions: 20964
    Symbols:   1203
--  CStrings:  9245
-+  CStrings:  9251
+-  CStrings:  9344
++  CStrings:  9350
  
 CStrings:
 + "B32@0:8@\"<QLPreviewControllerConforming>\"16@\"<QLPreviewItem>\"24"

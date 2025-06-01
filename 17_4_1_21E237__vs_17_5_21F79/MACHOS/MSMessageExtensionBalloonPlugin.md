@@ -45,11 +45,13 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 18D0B2A8-E34E-35FE-9386-F8793734D2E8
 -  Functions: 744
++  UUID: 920EE35D-66BE-30DF-B189-D3955AB302FB
 +  Functions: 746
    Symbols:   359
--  CStrings:  1599
-+  CStrings:  1602
+-  CStrings:  1664
++  CStrings:  1667
  
 CStrings:
 + "LiveBubble. View has not yet been added to a window when trying to set the remote balloon view. messageGUID: %@"

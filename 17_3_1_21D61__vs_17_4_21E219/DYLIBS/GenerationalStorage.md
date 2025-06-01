@@ -28,10 +28,9 @@
    __DATA_CONST.__objc_arraydata: 0x60
    __AUTH_CONST.__cfstring: 0x10c0
    __AUTH_CONST.__objc_intobj: 0x120
-
+   __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0x60
    __AUTH_CONST.__objc_arrayobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x498
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0x120
@@ -48,12 +47,14 @@
    - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B464CAA-6645-3346-955C-7D5DC3045E0C
 -  Functions: 523
 -  Symbols:   1768
--  CStrings:  729
+-  CStrings:  863
++  UUID: 28755145-241A-3F23-ABC1-03DB113EE5A9
 +  Functions: 525
 +  Symbols:   1774
-+  CStrings:  731
++  CStrings:  865
  
 Symbols:
 + _GSLibraryGetMNTInfo.cold.1

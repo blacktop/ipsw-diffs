@@ -78,14 +78,12 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_dictobj: 0x488
--  __AUTH_CONST.__auth_ptr: 0x228
 -  __AUTH_CONST.__auth_got: 0x1ea0
 -  __AUTH.__objc_data: 0x4458
 -  __AUTH.__data: 0x2a58
 -  __DATA.__objc_protorefs: 0x90
 -  __DATA.__objc_classrefs: 0xc28
 -  __DATA.__objc_superrefs: 0x378
-+  __AUTH_CONST.__auth_ptr: 0x220
 +  __AUTH_CONST.__auth_got: 0x1f10
 +  __AUTH.__objc_data: 0x43b8
 +  __AUTH.__data: 0x2af8
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 36D1C4A9-C40F-3B96-B32F-46ED39CAC737
 -  Functions: 10527
 -  Symbols:   15612
--  CStrings:  7858
+-  CStrings:  8779
++  UUID: BAC896DA-D4DE-3DA2-B6E1-9F61A166B0CD
 +  Functions: 10720
 +  Symbols:   15694
-+  CStrings:  7910
++  CStrings:  8836
  
 Symbols:
 + +[ICQUICoreSpotlightQueryHelper fetchTrashedItemsWithResults:minSizeInMegabytes:completion:].cold.1

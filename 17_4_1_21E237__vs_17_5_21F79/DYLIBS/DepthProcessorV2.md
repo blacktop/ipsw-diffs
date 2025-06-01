@@ -17,5 +17,11 @@
    - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5F3353C0-7562-37F9-8869-4B4C9A377F8D
++  UUID: 6BF43E3A-854B-3353-9F5A-64F383414A50
+   Functions: 406
+   Symbols:   140
+   CStrings:  1023
 
 ```

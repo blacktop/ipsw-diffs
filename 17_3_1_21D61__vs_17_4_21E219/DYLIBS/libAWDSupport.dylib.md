@@ -23,7 +23,6 @@
    __DATA_CONST.__const: 0x198
    __AUTH_CONST.__const: 0x1800
    __AUTH_CONST.__cfstring: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x628
 +  __AUTH_CONST.__auth_got: 0x620
    __AUTH.__data: 0x38
@@ -33,11 +32,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: 6B06069A-7656-325B-B48F-6011E462ACB1
 -  Functions: 1236
 -  Symbols:   372
++  UUID: 08118B1D-7EA6-3D4F-94DB-25BC97AB9F09
 +  Functions: 1223
 +  Symbols:   368
-   CStrings:  185
+   CStrings:  187
  
 Symbols:
 - __ZNSt12out_of_rangeD1Ev

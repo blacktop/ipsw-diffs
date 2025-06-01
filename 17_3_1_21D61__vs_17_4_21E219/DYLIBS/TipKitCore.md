@@ -62,7 +62,6 @@
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__objc_const: 0x3a0
 -  __AUTH_CONST.__const: 0x7780
--  __AUTH_CONST.__auth_ptr: 0x380
 -  __AUTH_CONST.__auth_got: 0x11f0
 -  __AUTH.__objc_data: 0x848
 -  __AUTH.__data: 0xeb8
@@ -72,7 +71,6 @@
 -  __DATA.__bss: 0xdc10
 -  __DATA.__common: 0xa8
 +  __AUTH_CONST.__const: 0x79f8
-+  __AUTH_CONST.__auth_ptr: 0x338
 +  __AUTH_CONST.__auth_got: 0x1158
 +  __AUTH.__objc_data: 0x370
 +  __AUTH.__data: 0x3b8
@@ -91,12 +89,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E8EFCA98-838C-37FD-8C44-8F23BF910451
 -  Functions: 7448
 -  Symbols:   260
--  CStrings:  826
+-  CStrings:  828
++  UUID: 39533114-414A-3B6D-991F-A62EB8F35D89
 +  Functions: 7242
 +  Symbols:   261
-+  CStrings:  851
++  CStrings:  853
  
 Symbols:
 + _OBJC_CLASS_$_NSDistributedNotificationCenter

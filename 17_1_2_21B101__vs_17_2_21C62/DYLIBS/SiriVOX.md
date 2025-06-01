@@ -27,11 +27,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 506451EB-5A21-3BD2-A6BB-38DBD108C20D
 -  Functions: 2722
 -  Symbols:   10332
++  UUID: 6116922B-394F-30B4-8E61-D3FD4BFBD1ED
 +  Functions: 2723
 +  Symbols:   10334
-   CStrings:  5033
+   CStrings:  5775
  
 Symbols:
 + -[SVXDaemon dealloc]

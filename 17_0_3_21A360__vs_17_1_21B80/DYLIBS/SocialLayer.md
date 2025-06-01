@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_const: 0x2e78
 -  __AUTH_CONST.__const: 0x2db8
 +  __AUTH_CONST.__const: 0x3018
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x10b8
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C7E76D16-01E4-3EFB-BB05-65CECB0BCF5A
 -  Functions: 4709
 -  Symbols:   14291
--  CStrings:  4297
+-  CStrings:  4670
++  UUID: 72B11597-0626-322B-A314-C4A0AF88AC99
 +  Functions: 4795
 +  Symbols:   14477
-+  CStrings:  4306
++  CStrings:  4679
  
 Symbols:
 + -[SLDCloudDocsService _acquireSandboxHandleData:ForFileProviderDocumentURL:clientConnection:error:].cold.2

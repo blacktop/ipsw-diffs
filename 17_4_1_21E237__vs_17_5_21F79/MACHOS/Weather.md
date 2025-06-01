@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1EF55DBF-55B5-3B80-B940-266CE2CB25AF
 -  Functions: 61460
 -  Symbols:   7388
--  CStrings:  8570
+-  CStrings:  8668
++  UUID: A3204239-3127-3B44-8BA1-E77346AB904B
 +  Functions: 61420
 +  Symbols:   7397
-+  CStrings:  8564
++  CStrings:  8662
  
 Symbols:
 + _$s11TeaSettings0B0C11WeatherMapsE0D0V3cdnAA7SettingCy0C4Core0C20MapOverlayServiceCDNOGvgZ

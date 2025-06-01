@@ -73,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65B126B4-5974-3787-84CC-8E3FC1CCD59D
 -  Functions: 1822
 -  Symbols:   6533
--  CStrings:  3232
+-  CStrings:  3667
++  UUID: 9A201A5A-618C-3BBD-BCD1-0BDE8457F746
 +  Functions: 1735
 +  Symbols:   6198
-+  CStrings:  3106
++  CStrings:  3533
  
 Symbols:
 + -[NMSMusicRecommendationsResponse initWithCachedData:recommendations:]

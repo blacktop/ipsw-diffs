@@ -32,11 +32,15 @@
    __AUTH_CONST.__const: 0x23f0
    __AUTH_CONST.__objc_intobj: 0x90
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8DC5053-1376-3CAD-9EA2-24D681B6E586
++  UUID: 7473B677-82EC-3CF2-B6BF-15E209033B38
    Functions: 3070
    Symbols:   10436
--  CStrings:  4114
-+  CStrings:  4117
+-  CStrings:  5214
++  CStrings:  5220
  
 CStrings:
 + "ActionButtonPocketStateQueried"

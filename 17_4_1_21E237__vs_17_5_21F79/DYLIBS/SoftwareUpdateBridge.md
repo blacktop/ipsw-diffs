@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0xe99
    __TEXT.__oslogstring: 0x7bb
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EC71F9D3-131F-361A-8691-EDE370344E40
++  UUID: 9B6C0322-C59B-3D5C-A977-655C7D8B9CD5
+   Functions: 191
+   Symbols:   830
+   CStrings:  637
+
 ```

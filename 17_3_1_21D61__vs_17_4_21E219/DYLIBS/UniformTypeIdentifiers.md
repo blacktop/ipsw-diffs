@@ -37,11 +37,15 @@
    __DATA.__data: 0x128
    __DATA.__common: 0x2
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E739966-633B-3628-910D-AC7E819EFEA5
++  UUID: 9341EEA7-B20D-313E-A286-661C28547150
    Functions: 221
    Symbols:   1106
--  CStrings:  605
-+  CStrings:  606
+-  CStrings:  844
++  CStrings:  845
  
 Symbols:
 + __ZNKSt3__118__string_view_hashIcEclB8ue170006ENS_17basic_string_viewIcNS_11char_traitsIcEEEE

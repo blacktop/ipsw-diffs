@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 686DCBF3-5B07-3B80-8E86-F080C4922240
 -  Functions: 9221
 -  Symbols:   995
--  CStrings:  9181
+-  CStrings:  10721
++  UUID: 3699F830-75A5-31E1-9321-745EE5046969
 +  Functions: 9970
 +  Symbols:   1054
-+  CStrings:  10127
++  CStrings:  11785
  
 Symbols:
 + _$s8Dispatch0A3QoSV11unspecifiedACvgZ

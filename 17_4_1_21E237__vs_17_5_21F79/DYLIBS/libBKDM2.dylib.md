@@ -45,11 +45,15 @@
    - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: FC576414-90FE-37DA-A520-B90B175E2618
++  UUID: 184BD3DA-0F38-3D7A-9D57-133EF3437547
    Functions: 2154
    Symbols:   6562
--  CStrings:  3830
-+  CStrings:  3831
+-  CStrings:  4471
++  CStrings:  4473
  
 Symbols:
 + __unnamed_array_storage.666

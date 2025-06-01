@@ -18,6 +18,15 @@
    __TEXT.__swift5_builtin: 0x78
    __TEXT.__swift5_reflstr: 0xee8
    __TEXT.__swift5_fieldmd: 0xce8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7F6F7076-FCA2-3C84-8A0D-6C3136929925
++  UUID: 69FF7740-8A6F-3951-BBAB-C055C9076D41
+   Functions: 1104
+   Symbols:   731
+   CStrings:  294
 CStrings:
 + "🥑 MapGenerator%s: could not make %s %s map for {%{private}f°,%{private}f°}, span: %{private}fm"
 + "🥑 MapGenerator%s: failed making %s %s map for {%{private}f°,%{private}f°}, vspan: %{private}fm (%s)"

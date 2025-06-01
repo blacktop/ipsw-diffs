@@ -41,9 +41,9 @@
    __AUTH_CONST.__cfstring: 0x1c80
    __AUTH_CONST.__const: 0x260
 
+   __AUTH_CONST.__objc_arrayobj: 0x330
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x508
 +  __AUTH_CONST.__auth_got: 0x530
    __AUTH.__objc_data: 0x960
@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1EB6C5ED-9667-3016-BFD1-B1D5E9D209DC
 -  Functions: 667
 -  Symbols:   2856
--  CStrings:  1366
+-  CStrings:  1594
++  UUID: E25E77FB-D37C-3924-9BA7-7B85EFAD1246
 +  Functions: 679
 +  Symbols:   2902
-+  CStrings:  1381
++  CStrings:  1609
  
 Symbols:
 + -[GeneratePredictionsOperation stickers]

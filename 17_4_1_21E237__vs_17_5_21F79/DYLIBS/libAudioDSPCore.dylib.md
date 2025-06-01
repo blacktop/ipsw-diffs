@@ -12,9 +12,9 @@
    __TEXT.__objc_methlist: 0x14
    __TEXT.__gcc_except_tab: 0x6df8
 
+   __DATA_CONST.__objc_const: 0x48
    __DATA_CONST.__objc_selrefs: 0x60
    __DATA_CONST.__objc_classrefs: 0x8
-   __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__const: 0x448
    __AUTH_CONST.__cfstring: 0x340
    __AUTH_CONST.__objc_const: 0x0
@@ -34,5 +34,14 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 15C75D34-E45C-3AB1-A3E8-94CE20F4AAAF
++  UUID: 271BD750-ED2E-3A05-9044-10BBB9D428A7
+   Functions: 1797
+   Symbols:   4411
+   CStrings:  788
 
 ```

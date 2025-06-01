@@ -38,4 +38,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/AccessoryNavigation.framework/AccessoryNavigation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 079EC1F4-B340-3CD0-8A68-268D3992CCB5
++  UUID: 26502B37-5011-368B-A721-9A612E930BB8
+   Functions: 128
+   Symbols:   608
+   CStrings:  367
+
 ```

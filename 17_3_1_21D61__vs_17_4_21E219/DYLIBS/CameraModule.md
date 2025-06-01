@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DE8AF249-F76E-3655-A5BF-D6CC8A914F02
++  UUID: EA1A7BB4-9D8D-30F8-B2A0-A654ECAFEC05
+   Functions: 2
+   Symbols:   30
+   CStrings:  10
+
 ```

@@ -16,6 +16,15 @@
    __TEXT.__unwind_info: 0x4e8
    __TEXT.__eh_frame: 0xb28
    __TEXT.__objc_classname: 0x53
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 68B85ACD-6EA6-3E3A-91AE-C11B334E01C8
++  UUID: 4C9D8300-71B4-3DB7-A6A8-23D8717B1D5B
+   Functions: 277
+   Symbols:   761
+   CStrings:  749
 CStrings:
 + "AirPlay/770.8.1"
 - "AirPlay/760.20.1"

@@ -29,11 +29,15 @@
    __AUTH_CONST.__objc_dictobj: 0x1090
    __AUTH_CONST.__objc_arrayobj: 0x3c0
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 377A3EB7-A6B5-39D3-B9F3-1EBD0BA11831
++  UUID: E8EC71DB-60B8-31A5-962A-095E5273B9FF
    Functions: 1285
    Symbols:   5610
--  CStrings:  4221
-+  CStrings:  4222
+-  CStrings:  5975
++  CStrings:  5977
  
 CStrings:
 + "fitness"

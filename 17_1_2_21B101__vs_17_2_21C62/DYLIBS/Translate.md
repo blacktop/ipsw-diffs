@@ -53,12 +53,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 867DEC32-A857-33C9-AB33-D20B65BF2067
 -  Functions: 45
 -  Symbols:   245
--  CStrings:  118
+-  CStrings:  164
++  UUID: C593EBA7-9F2A-3891-860C-427CB515F86E
 +  Functions: 54
 +  Symbols:   291
-+  CStrings:  136
++  CStrings:  189
  
 Symbols:
 + +[LanguageAwareTextViewAccessibility _accessibilityPerformValidations:]

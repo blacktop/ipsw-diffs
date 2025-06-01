@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB9F4E96-9A25-36BC-8CB9-89B88A0EB93D
 -  Functions: 1724
 -  Symbols:   6142
--  CStrings:  3415
+-  CStrings:  3904
++  UUID: 55E0FD9B-4B37-38FD-BD3E-A6F649C3A3D0
 +  Functions: 1742
 +  Symbols:   6176
-+  CStrings:  3427
++  CStrings:  3916
  
 Symbols:
 + -[BluetoothDevice(SiriClientAdditions) ac_isBluetoothVehicle]

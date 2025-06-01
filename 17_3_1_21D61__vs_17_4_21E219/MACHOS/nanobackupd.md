@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x300
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F790744-DD96-3394-ACD4-146A3DEF8B76
++  UUID: 87F9A27E-721C-3DDE-9D4C-5D74B72318DA
    Functions: 598
    Symbols:   246
--  CStrings:  1249
-+  CStrings:  1250
+-  CStrings:  1390
++  CStrings:  1391
  
 CStrings:
 + "Launching; \"NanoBackupDaemon-127\" \"3439\""

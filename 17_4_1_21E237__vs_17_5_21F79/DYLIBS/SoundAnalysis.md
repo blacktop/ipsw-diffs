@@ -66,8 +66,6 @@
 -  __AUTH_CONST.__const: 0x28540
 +  __AUTH_CONST.__const: 0x28ec0
    __AUTH_CONST.__objc_const: 0x2168
--  __AUTH_CONST.__auth_ptr: 0x528
-+  __AUTH_CONST.__auth_ptr: 0x538
    __AUTH_CONST.__cfstring: 0xf60
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x108
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B0EE1487-5B7A-312D-88A5-62A75BE9B4B8
 -  Functions: 31100
 -  Symbols:   17642
--  CStrings:  3230
+-  CStrings:  3353
++  UUID: BAFEE6A6-1965-3B09-AB14-9CED653FB7D3
 +  Functions: 31272
 +  Symbols:   17753
-+  CStrings:  3268
++  CStrings:  3391
  
 Symbols:
 + _AVAudioSessionCategoryRecord

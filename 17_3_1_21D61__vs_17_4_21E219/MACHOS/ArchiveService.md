@@ -53,12 +53,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D735ACB6-FB00-3738-B14C-BB5B981F0428
 -  Functions: 389
 -  Symbols:   495
--  CStrings:  557
+-  CStrings:  616
++  UUID: AE14452A-332B-3951-A928-E6A10EF88726
 +  Functions: 388
 +  Symbols:   498
-+  CStrings:  560
++  CStrings:  620
  
 Symbols:
 + __Z24UseFileProviderFrameworkv

@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 710E13F9-61E0-35E7-B630-F2E3E217CC1D
 -  Functions: 997
 -  Symbols:   4241
--  CStrings:  2549
+-  CStrings:  2854
++  UUID: F2EDCCB3-E045-37CB-8280-B308FA656C56
 +  Functions: 998
 +  Symbols:   4244
-+  CStrings:  2550
++  CStrings:  2855
  
 Symbols:
 + -[MarkupViewController setFormFillingEnabled:didUseBanner:]

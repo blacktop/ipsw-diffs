@@ -32,11 +32,15 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libFDR.dylib
 
+   - /usr/lib/libNFC_HAL.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 051FD0D5-FF64-3C58-B942-CB0F63878CFB
++  UUID: 1796EE17-6095-360B-B936-459A0BAA0A0F
    Functions: 415
    Symbols:   317
--  CStrings:  1705
-+  CStrings:  1707
+-  CStrings:  1757
++  CStrings:  1759
  
 CStrings:
 + "%s:%i Enabling Full HCE Routing"

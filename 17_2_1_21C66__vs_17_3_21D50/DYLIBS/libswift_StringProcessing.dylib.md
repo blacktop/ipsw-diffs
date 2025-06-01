@@ -43,8 +43,10 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswift_RegexParser.dylib
+-  UUID: F29A2377-A42B-3086-B3F7-102A326A2A46
 -  Functions: 2753
 -  Symbols:   7410
++  UUID: 7D9DB54A-E74C-35D7-838F-A84C68A13E22
 +  Functions: 2756
 +  Symbols:   7414
    CStrings:  109

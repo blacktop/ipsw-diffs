@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x1e30
    __AUTH_CONST.__objc_intobj: 0x4908
    __AUTH_CONST.__objc_doubleobj: 0x3c0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_dictobj: 0x118
 -  __AUTH_CONST.__auth_got: 0x17f8
 -  __AUTH.__objc_data: 0xc580
@@ -90,12 +89,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 75FA31A5-7167-34DE-BFC4-49C1C37C7712
 -  Functions: 36596
 -  Symbols:   111139
--  CStrings:  37415
+-  CStrings:  45714
++  UUID: 0A964F38-E154-3D91-A7A9-48226474EF39
 +  Functions: 36749
 +  Symbols:   111101
-+  CStrings:  37522
++  CStrings:  45845
  
 Symbols:
 + -[HDAllowedCountriesDataSourceWithLocalCountrySetFallback .cxx_destruct]

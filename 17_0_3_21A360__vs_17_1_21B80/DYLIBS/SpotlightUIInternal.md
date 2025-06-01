@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A68EF499-9F38-3314-A553-29D36328AA85
 -  Functions: 1093
 -  Symbols:   4555
--  CStrings:  2428
+-  CStrings:  2576
++  UUID: 6FA78688-DD75-34A2-A333-40B38E691C60
 +  Functions: 1096
 +  Symbols:   4564
-+  CStrings:  2442
++  CStrings:  2600
  
 Symbols:
 + +[SPUITextField lineHeightMultiplierForCurrentLanguage]

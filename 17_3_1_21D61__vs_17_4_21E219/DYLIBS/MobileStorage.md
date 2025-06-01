@@ -36,6 +36,15 @@
    __DATA.__objc_ivar: 0x6c
    __DATA.__bss: 0x18
    __DATA_DIRTY.__objc_data: 0x50
+
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libcryptex.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C5E42A92-958C-35B5-99A7-E62ABA39B7B6
++  UUID: BC24800C-86A9-33AC-BAD9-EC434F0DE650
+   Functions: 177
+   Symbols:   891
+   CStrings:  1009
 CStrings:
 + "Failed to query bundle key %@."
 - "Failed to bundle key %@."

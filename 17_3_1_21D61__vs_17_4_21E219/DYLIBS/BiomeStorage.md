@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D1A07B7F-59E6-33E0-8E33-A1240AAFD274
 -  Functions: 917
 -  Symbols:   3082
--  CStrings:  1401
+-  CStrings:  1539
++  UUID: D8A81B16-05F9-32C3-9A5D-CC2F2AB27966
 +  Functions: 914
 +  Symbols:   3065
-+  CStrings:  1403
++  CStrings:  1543
  
 Symbols:
 + +[BMStoreConfig _streamTypeFromStorePath:domain:]

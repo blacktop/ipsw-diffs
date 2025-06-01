@@ -44,10 +44,9 @@
    __AUTH_CONST.__objc_const: 0x6218
    __AUTH_CONST.__const: 0x3748
    __AUTH_CONST.__objc_intobj: 0x4c8
-
+   __AUTH_CONST.__objc_arrayobj: 0x480
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x1210
 +  __AUTH_CONST.__auth_got: 0x1208
    __AUTH.__objc_data: 0x3360
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BEAC96BD-33BB-348C-B961-FC7D9592FE87
 -  Functions: 6240
 -  Symbols:   2667
--  CStrings:  11385
+-  CStrings:  14135
++  UUID: 5AF32AFB-BA35-3B4F-AD02-0D1FA9FFD0B8
 +  Functions: 6244
 +  Symbols:   2668
-+  CStrings:  11393
++  CStrings:  14145
  
 Symbols:
 + _CKUnderlyingErrorDomain

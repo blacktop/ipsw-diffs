@@ -74,7 +74,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x240
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x278
 -  __AUTH_CONST.__auth_got: 0x20d0
 -  __AUTH.__objc_data: 0x2950
 -  __AUTH.__data: 0xca0
@@ -106,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09219ED8-EDA4-370D-8B4B-219102E54D4E
 -  Functions: 17393
 -  Symbols:   35354
--  CStrings:  13396
+-  CStrings:  15214
++  UUID: 02ACE315-2AE5-3D67-8CDC-DA950CCEFB92
 +  Functions: 17450
 +  Symbols:   35398
-+  CStrings:  13406
++  CStrings:  15226
  
 Symbols:
 + -[ICAttachmentPaperBundleModel paperHasNewInksSpring2024]

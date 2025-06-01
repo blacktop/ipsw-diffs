@@ -28,11 +28,13 @@
    - /usr/lib/libmrc.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6DAE2859-2070-3BAD-9E56-C5870A2E405D
 -  Functions: 2433
++  UUID: FB4C5FA0-27DE-3D3F-AB5E-8D56E0C085A8
 +  Functions: 2435
    Symbols:   758
--  CStrings:  8009
-+  CStrings:  8010
+-  CStrings:  9320
++  CStrings:  9321
  
 CStrings:
 + "-[NRLinkManagerBluetooth cleanupPipeStateIfNeededForNRUUID:]"

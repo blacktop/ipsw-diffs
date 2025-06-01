@@ -30,6 +30,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CC8F4E32-1B7A-3F29-B284-C2AA9B247884
++  UUID: D5D16761-E488-39DA-A607-8259B6CE6D26
+   Functions: 142
+   Symbols:   761
+   CStrings:  563
 Symbols:
 + ___block_literal_global.246
 + ___block_literal_global.248

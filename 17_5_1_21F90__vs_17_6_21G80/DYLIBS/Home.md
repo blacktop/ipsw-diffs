@@ -25,12 +25,15 @@
    __DATA_CONST.__objc_catlist: 0x3f0
    __DATA_CONST.__objc_protolist: 0x808
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0155B397-DE2D-3E96-A23A-FBE0252CB0A8
++  UUID: 761A873F-407E-36C5-80CE-22F0E7B9A418
    Functions: 18270
 -  Symbols:   54505
 +  Symbols:   54506
-   CStrings:  22266
+   CStrings:  26986
  
 Symbols:
 + _HFAnalyticsEventFieldNameDirectObliterateErrorDomain

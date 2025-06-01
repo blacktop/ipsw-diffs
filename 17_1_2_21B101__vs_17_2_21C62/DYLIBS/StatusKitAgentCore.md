@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__objc_const: 0x1fa0
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab0
 -  __AUTH.__objc_data: 0xae8
 +  __AUTH.__objc_data: 0xb38
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3D70533D-4FDD-3D7F-B2C7-8131AF96ABB8
 -  Functions: 3304
 -  Symbols:   8730
--  CStrings:  3739
+-  CStrings:  3997
++  UUID: F89615A1-C22F-357A-BEB2-701FBC2B3E88
 +  Functions: 3320
 +  Symbols:   8776
-+  CStrings:  3755
++  CStrings:  4017
  
 Symbols:
 + +[SKAServerBag logger]

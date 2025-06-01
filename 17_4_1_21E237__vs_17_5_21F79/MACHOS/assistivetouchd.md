@@ -64,11 +64,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: F5FCB28C-D567-3CF8-9CB5-B54B3B743765
 -  Functions: 6280
++  UUID: AB644BCF-D393-3F8B-A278-4B8A5E9A37BE
 +  Functions: 6288
    Symbols:   1018
--  CStrings:  9957
-+  CStrings:  9966
+-  CStrings:  11188
++  CStrings:  11198
  
 CStrings:
 + "\x1d\x1f\x15"

@@ -29,8 +29,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libprotobuf-lite.dylib
+-  UUID: E334C878-F79B-38A4-8A32-D9DC97B0F8AB
 -  Functions: 1462
 -  Symbols:   2942
++  UUID: 1F5CFC32-4CA9-3F40-A558-C4A7E082D577
 +  Functions: 1491
 +  Symbols:   2949
    CStrings:  440

@@ -50,7 +50,7 @@
 +  __AUTH_CONST.__cfstring: 0x201e0
    __AUTH_CONST.__objc_intobj: 0xb10
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x50
 
    __AUTH.__objc_data: 0x2260
    __AUTH.__data: 0x18
@@ -70,12 +70,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 606B9FD9-622E-3933-833C-902253CD0F03
 -  Functions: 14174
 -  Symbols:   42241
--  CStrings:  22512
+-  CStrings:  26569
++  UUID: E18DF612-E343-35FE-A6FC-7D0A1A16955F
 +  Functions: 14396
 +  Symbols:   42866
-+  CStrings:  22924
++  CStrings:  27035
  
 Symbols:
 + +[BRCAccountSession(BRCDatabaseManager) _checkIntegrity:serverTruth:session:skipControlFiles:deviceIDChanged:error:]

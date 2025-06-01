@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C1E765E-EE41-33A6-B291-587053B0EB45
 -  Functions: 1140
 -  Symbols:   4095
--  CStrings:  2191
+-  CStrings:  2694
++  UUID: 01D25D0D-2F7F-377E-94BC-897ABC3812E0
 +  Functions: 1167
 +  Symbols:   4174
-+  CStrings:  2225
++  CStrings:  2738
  
 Symbols:
 + +[DESBitacoraEventManager allowEventForBundleID:]

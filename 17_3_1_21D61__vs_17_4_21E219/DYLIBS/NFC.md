@@ -50,13 +50,16 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x90
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D171DC5-F68E-3E66-B0A4-13DD91F10096
++  UUID: 3346623C-44D7-3916-B706-18DD8CF7DFA0
    Functions: 189
 -  Symbols:   914
--  CStrings:  457
+-  CStrings:  551
 +  Symbols:   932
-+  CStrings:  468
++  CStrings:  571
  
 Symbols:
 + -[AccessoryTransportPluginNFC _requiresMfi40Auth:].cold.1

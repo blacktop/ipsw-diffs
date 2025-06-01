@@ -41,4 +41,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EA0AD94F-AEE3-383F-8825-910D124A8117
++  UUID: 3F117268-CEE8-31DC-8BDC-894D91EDABEC
+   Functions: 2590
+   Symbols:   497
+   CStrings:  1136
+
 ```

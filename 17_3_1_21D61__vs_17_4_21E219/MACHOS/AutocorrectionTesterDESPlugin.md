@@ -62,12 +62,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64E0E4FE-4BB8-323F-B468-82AD7F8ED0E7
 -  Functions: 1966
 -  Symbols:   528
--  CStrings:  3989
+-  CStrings:  4696
++  UUID: 306FAB57-0452-3629-9C20-7978759606AA
 +  Functions: 1977
 +  Symbols:   529
-+  CStrings:  4016
++  CStrings:  4726
  
 Symbols:
 + _OBJC_CLASS_$_TIKeyboardInputManagerLogger

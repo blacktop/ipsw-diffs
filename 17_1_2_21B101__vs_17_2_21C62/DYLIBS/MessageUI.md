@@ -47,13 +47,16 @@
    __AUTH_CONST.__cfstring: 0x8b80
    __AUTH_CONST.__objc_const: 0x55c0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDC1F029-BFA9-3707-A991-1CEC6B4362C7
++  UUID: FEA31413-D162-31DA-822D-F93295ABAE40
    Functions: 5435
 -  Symbols:   22850
--  CStrings:  10680
+-  CStrings:  11796
 +  Symbols:   22851
-+  CStrings:  10692
++  CStrings:  11808
  
 Symbols:
 + -[MFMessageComposeViewController setMessage:withExtensionBundleIdentifier:]

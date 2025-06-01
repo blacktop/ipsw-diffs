@@ -37,10 +37,9 @@
    __AUTH_CONST.__cfstring: 0x3460
 -  __AUTH_CONST.__const: 0x1c0
 +  __AUTH_CONST.__const: 0x2a8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x4f8
    __DATA.__objc_protorefs: 0x18
-
+   __DATA.__objc_classrefs: 0x158
    __DATA.__objc_superrefs: 0x158
    __DATA.__objc_ivar: 0x328
    __DATA.__data: 0x960
@@ -55,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 097C9991-8E49-3C51-BF50-E545A7B63F8F
 -  Functions: 1869
 -  Symbols:   696
--  CStrings:  1940
+-  CStrings:  2359
++  UUID: 677139F1-6A46-32E9-ADF3-F9616F59F201
 +  Functions: 1876
 +  Symbols:   697
-+  CStrings:  1941
++  CStrings:  2360
  
 Symbols:
 + _MPSIsReducedPrecision

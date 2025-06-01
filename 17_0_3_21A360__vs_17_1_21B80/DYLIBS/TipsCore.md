@@ -75,11 +75,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_intobj: 0x3f0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0xbf0
 -  __AUTH.__objc_data: 0x1230
 -  __AUTH.__data: 0x408
-+  __AUTH_CONST.__auth_ptr: 0x78
 +  __AUTH_CONST.__auth_got: 0xc60
 +  __AUTH.__objc_data: 0x1318
 +  __AUTH.__data: 0x620
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3B6D18D4-231F-388A-A854-3283B1DFD31E
 -  Functions: 4310
 -  Symbols:   11107
--  CStrings:  4646
+-  CStrings:  5397
++  UUID: 406B982F-00C4-3A84-8CE1-62C2A2C90D25
 +  Functions: 4436
 +  Symbols:   11027
-+  CStrings:  4604
++  CStrings:  5357
  
 Symbols:
 + +[TPSCommonDefines isMacUI]

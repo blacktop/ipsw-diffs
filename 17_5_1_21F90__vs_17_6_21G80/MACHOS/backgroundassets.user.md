@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0x6f80
    __TEXT.__objc_methlist: 0x2b68
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FDE38A89-890C-3AA1-BD1A-DE6A0ED339BA
++  UUID: FF2FD1A0-41E1-3A83-BB43-819AC04457FE
+   Functions: 1337
+   Symbols:   305
+   CStrings:  2626
+
 ```

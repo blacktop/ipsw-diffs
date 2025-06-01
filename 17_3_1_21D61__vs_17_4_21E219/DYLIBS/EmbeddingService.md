@@ -37,11 +37,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 644C4171-BD69-399D-A24D-B82E159E4118
++  UUID: BEBB396F-D420-3CCB-B2FD-C0474AD1216E
    Functions: 34
    Symbols:   230
--  CStrings:  158
-+  CStrings:  159
+-  CStrings:  163
++  CStrings:  164
  
 Symbols:
 + __OBJC_$_PROP_LIST_QUEmbeddingOutput.77

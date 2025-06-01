@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86A6693A-D5E8-38AE-98C4-E77259F734BE
 -  Functions: 980
 -  Symbols:   3585
--  CStrings:  2114
+-  CStrings:  2363
++  UUID: 2E82F1E1-884B-3382-B1FF-0FF45036E7C0
 +  Functions: 983
 +  Symbols:   3593
-+  CStrings:  2137
++  CStrings:  2394
  
 Symbols:
 + -[SAMonitoringSession lastAlertDateInCurrentTravelingSession]

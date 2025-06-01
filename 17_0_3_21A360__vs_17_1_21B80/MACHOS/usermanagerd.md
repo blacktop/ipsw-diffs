@@ -28,11 +28,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: BC4EDEA2-8873-31CD-9518-823DA172857D
 -  Functions: 1659
++  UUID: 5DF70854-B8D4-3EA5-A3FF-7D7054AEAA83
 +  Functions: 1673
    Symbols:   462
--  CStrings:  3011
-+  CStrings:  3017
+-  CStrings:  3233
++  CStrings:  3239
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

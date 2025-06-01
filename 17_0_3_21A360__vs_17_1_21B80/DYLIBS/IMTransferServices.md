@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 154DECB2-BD45-3CBA-B7F8-DC3A9439035A
 -  Functions: 65
 -  Symbols:   86
--  CStrings:  213
+-  CStrings:  264
++  UUID: DE221160-D58C-3775-8199-7747B385CC95
 +  Functions: 47
 +  Symbols:   82
-+  CStrings:  196
++  CStrings:  239
  
 Symbols:
 - _OBJC_CLASS_$_IMMultiQueue

@@ -32,11 +32,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FA28B8B6-4348-3381-9BB9-FEFF3DD9AF02
 -  Functions: 335
++  UUID: DD18A306-EEBF-31E0-92CE-E142CC2E90B8
 +  Functions: 336
    Symbols:   277
--  CStrings:  538
-+  CStrings:  539
+-  CStrings:  693
++  CStrings:  694
  
 CStrings:
 + "%s - maxChannels=%d, timeStampFrequency=%d\n"

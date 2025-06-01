@@ -44,10 +44,8 @@
    __AUTH_CONST.__cfstring: 0x160
    __AUTH_CONST.__objc_const: 0x1a8
 -  __AUTH_CONST.__const: 0x3110
--  __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__auth_got: 0x14f8
 +  __AUTH_CONST.__const: 0x3120
-+  __AUTH_CONST.__auth_ptr: 0xc8
 +  __AUTH_CONST.__auth_got: 0x1500
    __AUTH.__objc_data: 0x378
    __AUTH.__data: 0xa18
@@ -74,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EE8754F0-5BA0-3959-AB26-BFAC7938D6D3
 -  Functions: 1786
 -  Symbols:   1461
--  CStrings:  1087
+-  CStrings:  1098
++  UUID: AFFA09B6-8FB3-334B-BC80-436E3D812DF0
 +  Functions: 1795
 +  Symbols:   1463
-+  CStrings:  1088
++  CStrings:  1099
  
 Symbols:
 + _OBJC_CLASS_$_CHUISMutableWidgetSceneClientSettings

@@ -29,11 +29,15 @@
    __TEXT.__objc_classname: 0x767
    __TEXT.__objc_methname: 0xd92f
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D61C91B8-7266-3358-8124-E601988F8F7E
++  UUID: 60E3EC38-260C-3387-92C5-823172CCD33E
    Functions: 6469
    Symbols:   1116
--  CStrings:  4236
-+  CStrings:  4237
+-  CStrings:  5122
++  CStrings:  5123
  
 CStrings:
 + "Malformed Siri Asset %@"

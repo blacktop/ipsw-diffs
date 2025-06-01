@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
    - /System/Library/PrivateFrameworks/ShazamKitUI.framework/ShazamKitUI
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38362CF5-C812-355A-BB67-17D3FB37B61D
++  UUID: 44CE87A1-E1DF-3E0E-8333-4E1480E00303
+   Functions: 408
+   Symbols:   289
+   CStrings:  86
+
 ```

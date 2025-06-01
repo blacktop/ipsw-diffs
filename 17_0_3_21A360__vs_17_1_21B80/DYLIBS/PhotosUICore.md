@@ -65,10 +65,9 @@
    __DATA_CONST.__objc_arraydata: 0x45e0
 -  __AUTH_CONST.__const: 0x1cb90
 -  __AUTH_CONST.__objc_const: 0x40e48
+-  __AUTH_CONST.__cfstring: 0x7bf60
 +  __AUTH_CONST.__const: 0x1cd10
 +  __AUTH_CONST.__objc_const: 0x41e98
-   __AUTH_CONST.__auth_ptr: 0x368
--  __AUTH_CONST.__cfstring: 0x7bf60
 +  __AUTH_CONST.__cfstring: 0x7c9e0
    __AUTH_CONST.__objc_doubleobj: 0x730
    __AUTH_CONST.__objc_arrayobj: 0x25c8
@@ -109,12 +108,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B2021382-CC71-3E45-8E0F-90758C6768DB
 -  Functions: 79304
 -  Symbols:   223865
--  CStrings:  93663
+-  CStrings:  109530
++  UUID: 033E5BA0-A65C-3EC4-963A-1E16E5CEE508
 +  Functions: 79701
 +  Symbols:   225281
-+  CStrings:  94190
++  CStrings:  110141
  
 Symbols:
 + +[NSAttributedString(PhotosUICore) px_selectionCountAttributedString:layoutDirection:sizeClass:]
@@ -10017,7 +10018,6 @@ CStrings:
 + "{?=CCfqSC}16@0:8"
 + "{?=IB}16@0:8"
 + "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8{CGSize=dd}16q32@40@48"
-+ "\x91!"
 + "\xc8b!"
 + "\xf0\xd1"
 + "\xf0\xf0AA"

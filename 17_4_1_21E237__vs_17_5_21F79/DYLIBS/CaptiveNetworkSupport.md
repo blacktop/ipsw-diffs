@@ -22,11 +22,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A616679D-5872-3391-9249-3B119A349F87
 -  Functions: 691
 -  Symbols:   2080
++  UUID: 42C82C8C-FF24-3AFF-BFC3-61334FA95BFA
 +  Functions: 690
 +  Symbols:   2078
-   CStrings:  1155
+   CStrings:  1398
  
 Symbols:
 - _registerForNewInterfaceNotifications

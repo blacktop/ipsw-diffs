@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B1DB5A01-E78B-3D63-A8B6-E0D51091200C
 -  Functions: 2013
 -  Symbols:   460
--  CStrings:  2744
+-  CStrings:  2844
++  UUID: F45957C2-3421-3064-9BC8-43017D2A35D8
 +  Functions: 2019
 +  Symbols:   462
-+  CStrings:  2761
++  CStrings:  2862
  
 Symbols:
 + _NSSelectorFromString

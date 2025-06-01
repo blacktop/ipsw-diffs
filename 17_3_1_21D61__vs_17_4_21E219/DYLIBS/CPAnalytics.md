@@ -44,11 +44,15 @@
    __DATA_DIRTY.__objc_data: 0x820
    __DATA_DIRTY.__bss: 0x58
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftDemangle.dylib
+-  UUID: E07E3192-A5B2-3DE4-A888-E9B35B09788A
++  UUID: 23270DB1-9A3C-37B9-8667-5CB033D00D18
    Functions: 357
    Symbols:   1680
--  CStrings:  952
-+  CStrings:  954
+-  CStrings:  1193
++  CStrings:  1195
  
 Symbols:
 + ___block_literal_global.284

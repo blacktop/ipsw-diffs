@@ -27,11 +27,15 @@
    __DATA.__data: 0x528
    __DATA.__bss: 0x740
 
+   - /System/Library/PrivateFrameworks/TextureIO.framework/TextureIO
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F93279F-54DE-3E6C-90E2-F7293FBC6DF8
++  UUID: 83D4874E-7063-3F68-A846-E398D2B9F8AE
    Functions: 998
    Symbols:   3251
--  CStrings:  1943
-+  CStrings:  1944
+-  CStrings:  2201
++  CStrings:  2202
  
 CStrings:
 + "T@\"NSString\",?,R,C"

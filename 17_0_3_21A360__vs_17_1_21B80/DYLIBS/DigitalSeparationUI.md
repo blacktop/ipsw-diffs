@@ -53,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4263D1A4-1B65-3571-91BA-D3FDD760B9AC
 -  Functions: 1105
++  UUID: F0E9C72F-5D3B-3E0A-BAD9-C969064B2866
 +  Functions: 1106
    Symbols:   4428
--  CStrings:  2423
-+  CStrings:  2420
+-  CStrings:  2843
++  CStrings:  2838
  
 Symbols:
 + -[DSWifiSyncController viewWillAppear:]

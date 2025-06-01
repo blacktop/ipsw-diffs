@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0634105-B0C0-3849-A6A8-ACD373BE233A
 -  Functions: 8
 -  Symbols:   62
--  CStrings:  62
+-  CStrings:  83
++  UUID: 22A628A6-F683-3A08-92F2-797D6BCA62D6
 +  Functions: 12
 +  Symbols:   67
-+  CStrings:  83
++  CStrings:  110
  
 Symbols:
 + _OBJC_CLASS_$_KTIDStaticKeyStore

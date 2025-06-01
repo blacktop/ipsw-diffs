@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CB5C463A-3A74-3501-BE8E-53547EC86C27
 -  Functions: 109
 -  Symbols:   146
--  CStrings:  600
+-  CStrings:  684
++  UUID: 9F5B2BB4-14D3-3A09-A3E8-457BFFE1CB73
 +  Functions: 100
 +  Symbols:   142
-+  CStrings:  576
++  CStrings:  652
  
 Symbols:
 + _OBJC_CLASS_$_AMSDeviceAccountPrivacyAcknowledgementTask

@@ -26,4 +26,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/StatusKit.framework/StatusKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 34F82733-C47D-319B-ADFB-9B5F43F1C043
++  UUID: 25064496-48F7-313D-AC8D-5EF67DAAD11F
+   Functions: 26
+   Symbols:   166
+   CStrings:  96
+
 ```

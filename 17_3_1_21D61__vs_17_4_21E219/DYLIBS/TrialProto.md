@@ -34,7 +34,6 @@
    __AUTH_CONST.__cfstring: 0x2f80
    __AUTH_CONST.__objc_const: 0x3eb8
    __AUTH_CONST.__const: 0xb0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x3d8
    __AUTH.__objc_data: 0x140
 -  __AUTH.__data: 0x1258
@@ -48,11 +47,15 @@
    __DATA_DIRTY.__objc_data: 0x4470
    __DATA_DIRTY.__data: 0x430
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA429FFA-4E05-3EB1-B562-DC1E83079473
++  UUID: 8D2CD42C-F597-3863-8D79-F21366B4CD5C
    Functions: 2919
    Symbols:   8412
--  CStrings:  3011
-+  CStrings:  3017
+-  CStrings:  3391
++  CStrings:  3397
  
 Symbols:
 + _descriptor.descriptor.60

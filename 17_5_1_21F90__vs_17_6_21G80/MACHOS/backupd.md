@@ -49,11 +49,15 @@
    __DATA.__objc_data: 0x6390
    __DATA.__data: 0x1640
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 81DE115B-2FA0-3209-97A0-FAE36B989906
++  UUID: 427ED950-F4B1-3F1B-AE9D-2F74BDE107C7
    Functions: 8827
    Symbols:   1266
--  CStrings:  23395
-+  CStrings:  23404
+-  CStrings:  27033
++  CStrings:  27042
  
 CStrings:
 + "Not disabling infra WiFi in USB-only mode"

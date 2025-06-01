@@ -87,11 +87,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B299F83E-219A-3CFD-B1DF-7DBF289EA323
 -  Functions: 3081
 -  Symbols:   587
++  UUID: C6C73FC1-C855-36AA-92D3-A3605E29B04A
 +  Functions: 3101
 +  Symbols:   588
-   CStrings:  1923
+   CStrings:  2018
  
 Symbols:
 + _swift_getAssociatedConformanceWitness

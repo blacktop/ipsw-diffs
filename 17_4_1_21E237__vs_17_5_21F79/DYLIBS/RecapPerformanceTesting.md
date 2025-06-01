@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_classrefs: 0x108
    __DATA_CONST.__objc_superrefs: 0xb8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50B266DE-DB98-3103-8861-40E7DAB37C75
++  UUID: 27774D42-43C9-3DF4-B51A-F78EE628FB9D
    Functions: 502
    Symbols:   2002
--  CStrings:  937
-+  CStrings:  944
+-  CStrings:  972
++  CStrings:  979
  
 CStrings:
 + "barrelRollAtLocation:withZPosition:withAltitudeAngle:withAzimuthAngle:withRollAngle:"

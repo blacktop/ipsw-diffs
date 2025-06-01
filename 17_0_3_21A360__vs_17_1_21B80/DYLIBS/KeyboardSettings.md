@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB5E3638-A0CE-3A69-9C9E-F7F2AAE3A853
 -  Functions: 679
 -  Symbols:   3029
--  CStrings:  1814
+-  CStrings:  2156
++  UUID: C1797613-22AF-3CBE-90AD-52108247BB7A
 +  Functions: 683
 +  Symbols:   3043
-+  CStrings:  1818
++  CStrings:  2160
  
 Symbols:
 + +[TIKeyboardListController showAddNewKeyboardButton]

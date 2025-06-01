@@ -21,9 +21,9 @@
    __AUTH_CONST.__objc_const: 0x168
 -  __AUTH_CONST.__cfstring: 0x39e0
 +  __AUTH_CONST.__cfstring: 0x3a00
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__const: 0x220
    __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_dictobj: 0xf0
 
    __AUTH.__objc_data: 0x140
    __DATA.__objc_ivar: 0x13c
@@ -34,11 +34,15 @@
    __DATA.__bss: 0xdb
    __DATA.__common: 0x8
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 46B7FE2A-31FC-38E3-9A16-4DBDF033C535
++  UUID: 49EF5D24-F307-3668-9AE2-5B0B3598815D
    Functions: 930
    Symbols:   2465
--  CStrings:  1163
-+  CStrings:  1164
+-  CStrings:  1626
++  CStrings:  1628
  
 Symbols:
 + __unnamed_array_storage.832

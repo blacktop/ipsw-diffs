@@ -65,12 +65,11 @@
 +  __AUTH_CONST.__objc_const: 0x6f8
    __AUTH_CONST.__cfstring: 0xc0
 -  __AUTH_CONST.__const: 0x3c10
-+  __AUTH_CONST.__const: 0x3df8
-   __AUTH_CONST.__auth_ptr: 0xa8
 -  __AUTH_CONST.__auth_got: 0x1418
 -  __AUTH.__objc_data: 0xeb0
 -  __AUTH.__data: 0xf70
 -  __DATA.__objc_protorefs: 0x50
++  __AUTH_CONST.__const: 0x3df8
 +  __AUTH_CONST.__auth_got: 0x1488
 +  __AUTH.__objc_data: 0xff0
 +  __AUTH.__data: 0x10e8
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C9C80303-32D2-36D6-A0FF-6828714108A1
 -  Functions: 2305
 -  Symbols:   1675
--  CStrings:  734
+-  CStrings:  740
++  UUID: 2E5317AF-D112-3E11-A7EC-64CCF95917D8
 +  Functions: 2437
 +  Symbols:   1729
-+  CStrings:  746
++  CStrings:  752
  
 Symbols:
 + -[_DDUIArtificialPerson accountAltDSID]

@@ -37,12 +37,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 938478C9-099B-3350-9177-369D86A0E948
 -  Functions: 167
 -  Symbols:   344
--  CStrings:  170
+-  CStrings:  225
++  UUID: 863BA834-B1A0-3CE3-B2E1-FF0551F2F763
 +  Functions: 168
 +  Symbols:   345
-+  CStrings:  171
++  CStrings:  227
  
 Symbols:
 + _IOAccessoryOOBPairingInterfaceCopyDevicePlatformID

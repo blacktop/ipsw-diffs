@@ -40,6 +40,15 @@
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7B427BA9-98A1-34D2-8089-1F8B329D23FE
++  UUID: CE78ACE4-0053-3499-B8F4-790AAC2E46C8
+   Functions: 11
+   Symbols:   90
+   CStrings:  9
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate
 + __swift_FORCE_LOAD_$_swiftAccelerate_$_GameplayKit

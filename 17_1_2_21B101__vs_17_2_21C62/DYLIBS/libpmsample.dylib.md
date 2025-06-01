@@ -18,7 +18,6 @@
    __DATA_CONST.__got: 0x60
    __DATA_CONST.__const: 0x168
    __AUTH_CONST.__const: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1d8
 +  __AUTH_CONST.__auth_got: 0x1e0
    __DATA.__crash_info: 0x40
@@ -30,8 +29,10 @@
    - /System/Library/PrivateFrameworks/NetworkStatistics.framework/NetworkStatistics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libpmenergy.dylib
+-  UUID: 974742DF-A93D-3F45-BDAA-425A4A61CBC0
 -  Functions: 35
 -  Symbols:   84
++  UUID: 358A27BD-A8C8-35FF-AEDA-2B0707686E13
 +  Functions: 46
 +  Symbols:   96
    CStrings:  24

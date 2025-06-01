@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_const: 0x3e0
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__objc_intobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x350
 +  __AUTH_CONST.__auth_got: 0x358
    __AUTH.__objc_data: 0x140
@@ -64,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A92D9F4-F283-3110-AB55-DEA8C58FD4C0
 -  Functions: 579
 -  Symbols:   1824
--  CStrings:  883
+-  CStrings:  991
++  UUID: EAF8912D-21D7-3DA0-B26E-9D47B5260267
 +  Functions: 636
 +  Symbols:   1947
-+  CStrings:  889
++  CStrings:  997
  
 Symbols:
 + -[CHIPAccessoryFirmwareRecord calculateDigestFromCKRecord:]

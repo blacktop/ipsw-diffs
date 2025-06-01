@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E29120E-3976-325E-A2DC-4F1E78F4F86C
++  UUID: 3A15D06B-4D0D-35A4-B28D-FD6BFE245FF7
    Functions: 157
    Symbols:   171
--  CStrings:  666
-+  CStrings:  668
+-  CStrings:  854
++  CStrings:  856
  
 CStrings:
 + "Device class %@ is not yet supported by CloudKit Vetting Alerts"

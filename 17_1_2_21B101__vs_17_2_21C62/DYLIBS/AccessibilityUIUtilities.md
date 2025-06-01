@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E4BD471-870B-3C04-9CC6-00CEE2B2FDB1
 -  Functions: 2036
 -  Symbols:   7981
--  CStrings:  4543
+-  CStrings:  5337
++  UUID: 3307C26D-7E5E-3FAF-AA25-B453E9401206
 +  Functions: 2037
 +  Symbols:   7987
-+  CStrings:  4547
++  CStrings:  5343
  
 Symbols:
 + -[AXUIVoiceOverDeviceConfigController axDeviceControllerType]
@@ -70,5 +72,6 @@ CStrings:
 + "axDeviceControllerType"
 + "removeObjectsInRange:"
 + "whitespaceCharacterSet"
++ "\xfc\xff"
 
 ```

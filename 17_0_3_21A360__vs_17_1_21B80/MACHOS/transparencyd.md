@@ -99,12 +99,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC819AC0-30FF-3C1A-9678-E6C366E304ED
 -  Functions: 8793
 -  Symbols:   974
--  CStrings:  8963
+-  CStrings:  10474
++  UUID: 686DCBF3-5B07-3B80-8E86-F080C4922240
 +  Functions: 9221
 +  Symbols:   995
-+  CStrings:  9181
++  CStrings:  10721
  
 Symbols:
 + _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF

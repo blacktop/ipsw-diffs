@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F3DBD8A-0ECC-3FC3-B3FC-EAF72586EC0F
 -  Functions: 841
 -  Symbols:   3415
--  CStrings:  1694
+-  CStrings:  2121
++  UUID: D287115D-62DE-3C96-8F86-2C3E03C5A8D6
 +  Functions: 877
 +  Symbols:   3550
-+  CStrings:  1744
++  CStrings:  2180
  
 Symbols:
 + +[FMDRepairDevice supportsSecureCoding]

@@ -17,7 +17,11 @@
    __TEXT.__unwind_info: 0x48
    __DATA_CONST.__auth_got: 0x18
 
+   - /System/Library/PrivateFrameworks/MFAAuthentication.framework/MFAAuthentication
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0716E91-8ABF-3A65-AA89-FBE719B5D448
++  UUID: C60FFBE8-95E6-3891-90E6-9C057B3E3526
    Functions: 1
    Symbols:   53
 -  CStrings:  59

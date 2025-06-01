@@ -54,19 +54,21 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x228
 +  __AUTH_CONST.__objc_const: 0x2f78
 +  __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xe00
    __AUTH.__objc_data: 0x50
+   __DATA.__objc_protorefs: 0xb8
 
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 610BFA4B-4F9C-3660-9B00-8A862B6D591E
 -  Functions: 3378
 -  Symbols:   11668
--  CStrings:  6571
+-  CStrings:  8589
++  UUID: 66BA70C9-0E50-344D-94AE-4BD4C5BCE42C
 +  Functions: 3381
 +  Symbols:   11654
-+  CStrings:  6559
++  CStrings:  8560
  
 Symbols:
 + +[PLLibraryServicesStateNode removeOperationCountObserver:fromObservedObject:context:]

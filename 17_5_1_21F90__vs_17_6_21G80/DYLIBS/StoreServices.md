@@ -31,12 +31,15 @@
    __DATA_CONST.__objc_catlist: 0x58
    __DATA_CONST.__objc_protolist: 0xf0
 
+   - /usr/lib/libresolv.9.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BEDDCAC4-14BA-3F74-8438-03284B757F27
++  UUID: ED9FDF2A-AE11-3DF0-9133-98F7A5D79557
    Functions: 9438
 -  Symbols:   29304
 +  Symbols:   29305
-   CStrings:  12774
+   CStrings:  15967
  
 Symbols:
 + -[SSXPCConnection .cxx_destruct]

@@ -22,11 +22,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: D13F6D75-1919-32A4-A7E8-D5CC9CD1196D
 -  Functions: 1158
 -  Symbols:   2892
++  UUID: F51FF521-C4A2-3907-9351-273FA3EE8D85
 +  Functions: 1168
 +  Symbols:   2913
-   CStrings:  591
+   CStrings:  628
  
 Symbols:
 + GCC_except_table117

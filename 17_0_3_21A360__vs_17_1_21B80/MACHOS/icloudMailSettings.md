@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D0EBD06A-3A2D-3113-AA80-8ECC85FE2E3E
 -  Functions: 5733
 -  Symbols:   228
--  CStrings:  916
+-  CStrings:  941
++  UUID: 3DB4B780-87AB-3578-8ACE-AE49C766244A
 +  Functions: 5770
 +  Symbols:   229
-+  CStrings:  922
++  CStrings:  947
  
 Symbols:
 + _OBJC_CLASS_$_NSNumberFormatter

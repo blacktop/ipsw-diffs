@@ -19,7 +19,6 @@
    __TEXT.__eh_frame: 0x170
    __DATA_CONST.__got: 0x70
    __DATA_CONST.__const: 0x1010
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__const: 0x16d0
 -  __AUTH_CONST.__auth_got: 0x790
 +  __AUTH_CONST.__auth_got: 0x798
@@ -27,8 +26,11 @@
    __DATA.__bss: 0xc
    __DATA_DIRTY.__common: 0x4c0
 
+   - /System/Library/Frameworks/OpenGLES.framework/libGLProgrammability.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 97F8AA95-3DD6-3DE5-8E71-5C8335A03146
++  UUID: EE6FBEF1-F913-3EAA-A400-6349A4AA7740
    Functions: 2185
 -  Symbols:   3999
 -  CStrings:  298

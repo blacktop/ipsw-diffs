@@ -19,4 +19,13 @@
    __TEXT.__dlopen_cstrs: 0x64
    __TEXT.__unwind_info: 0x3604
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4DFC62EA-FF99-3E86-AED1-3F9A93BEF052
++  UUID: 82100143-97C2-3E2E-A8E4-D33E0746713F
+   Functions: 6142
+   Symbols:   21444
+   CStrings:  9742
+
 ```

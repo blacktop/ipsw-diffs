@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 396C7A93-D390-3E98-BA68-098865CC2353
 -  Functions: 2132
 -  Symbols:   7867
--  CStrings:  4449
+-  CStrings:  5251
++  UUID: 8BE42F53-DF9B-3CB8-9DDE-E9DC00353304
 +  Functions: 2122
 +  Symbols:   7850
-+  CStrings:  4434
++  CStrings:  5241
  
 Symbols:
 + -[NSDateFormatter(TVPlaybackAdditions) tvp_doCurrentSettingsUse24HourFormat]

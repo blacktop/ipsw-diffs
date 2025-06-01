@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4A495F1A-9141-327E-A885-49CA94AF8229
 -  Functions: 2017
 -  Symbols:   433
--  CStrings:  3678
+-  CStrings:  4617
++  UUID: 53FFE40E-2CB0-3BAF-B06B-67F457A0030C
 +  Functions: 2031
 +  Symbols:   435
-+  CStrings:  3730
++  CStrings:  4693
  
 Symbols:
 + _NSLocalizedDescriptionKey

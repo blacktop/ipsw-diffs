@@ -21,5 +21,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 55B283F1-281B-3279-A7A8-E0A09731D2EE
++  UUID: 8EEB7479-1960-33EA-8FF7-D56AEEEB4B04
+   Functions: 12
+   Symbols:   109
+   CStrings:  75
 
 ```

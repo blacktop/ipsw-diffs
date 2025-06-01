@@ -20,12 +20,15 @@
    __DATA_CONST.__cfstring: 0x360
    __DATA_CONST.__objc_classlist: 0x10
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D505E09-970A-3923-ACAF-7FE5FA801D48
++  UUID: 7A148D02-3EED-3D61-BC0C-302451339BBE
    Functions: 120
 -  Symbols:   343
 +  Symbols:   345
-   CStrings:  589
+   CStrings:  616
  
 Symbols:
 + _PKURLActionRouteSavingsFCCStepUp

@@ -15,7 +15,11 @@
    __DATA_CONST.__auth_got: 0x8
    __DATA_CONST.__objc_classlist: 0x8
 
+   - /System/Library/PrivateFrameworks/AMPCoreUI.framework/AMPCoreUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D446A5B3-E395-3B9C-BD69-53FE0B252887
++  UUID: 022AA027-326A-37FC-ADE3-C7FC7B7F3B0D
    Functions: 0
    Symbols:   9
 -  CStrings:  57

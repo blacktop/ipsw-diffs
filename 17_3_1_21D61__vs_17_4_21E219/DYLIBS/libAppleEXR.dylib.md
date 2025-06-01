@@ -28,7 +28,6 @@
    __AUTH_CONST.__cfstring: 0x400
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__const: 0x8b0
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x238
 -  __DATA.__objc_classrefs: 0x38
 -  __DATA.__objc_superrefs: 0x28
@@ -36,11 +35,15 @@
    __DATA.__bss: 0x20
    __DATA.__common: 0xe8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E5024AD9-06F6-302F-B134-285FBAC89DE7
++  UUID: EC26890B-0489-3888-AB1A-CDBAF634714F
    Functions: 803
    Symbols:   1831
--  CStrings:  505
-+  CStrings:  506
+-  CStrings:  537
++  CStrings:  538
  
 CStrings:
 + "T@\"NSString\",?,R,C"

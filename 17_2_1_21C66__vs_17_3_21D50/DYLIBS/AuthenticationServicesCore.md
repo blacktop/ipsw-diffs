@@ -39,12 +39,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E677B92A-8826-36A0-94AD-9A3569C19DB3
 -  Functions: 3423
 -  Symbols:   3899
--  CStrings:  1928
+-  CStrings:  2138
++  UUID: 3651587A-2EF4-36D8-A11A-9D4445E4C006
 +  Functions: 3424
 +  Symbols:   3902
-+  CStrings:  1929
++  CStrings:  2139
  
 Symbols:
 + -[ASCAgent _cableLoginChoiceForRequestContext:]

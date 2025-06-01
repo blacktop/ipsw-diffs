@@ -66,12 +66,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 003B326D-0F34-30B6-B1AB-D6F64ACABA6D
 -  Functions: 1516
 -  Symbols:   604
--  CStrings:  3279
+-  CStrings:  3540
++  UUID: 2CA68CB4-DA70-34EE-8E57-F014D87F2850
 +  Functions: 1517
 +  Symbols:   606
-+  CStrings:  3306
++  CStrings:  3570
  
 Symbols:
 + _NEHelperCachePopulateUUIDsForConfiguration

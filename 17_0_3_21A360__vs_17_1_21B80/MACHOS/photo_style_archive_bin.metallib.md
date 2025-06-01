@@ -9,10 +9,12 @@
 -  __TEXT.__descriptor: 0x540
 -  __TEXT.__compute: 0xcc40
 -  __TEXT.__reflection: 0x1e00
+-  UUID: 91C679E1-AFA0-3784-B3CE-45CFA62FE745
 +  __TEXT.__metallib: 0x33590
 +  __TEXT.__descriptor: 0x9a0
 +  __TEXT.__compute: 0x125c0
 +  __TEXT.__reflection: 0x3110
++  UUID: C9816FD7-FEAC-3A68-8BC0-E6683A491405
    Functions: 0
 -  Symbols:   122
 +  Symbols:   222

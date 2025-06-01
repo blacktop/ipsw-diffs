@@ -38,16 +38,19 @@
 -  __AUTH_CONST.__cfstring: 0xb60
 +  __AUTH_CONST.__cfstring: 0xb80
    __AUTH_CONST.__const: 0x200
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x2e8
+   __AUTH.__objc_data: 0x550
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 757F82AA-836F-3A27-BB27-4171D4DE5B0B
++  UUID: A48A9AB4-9783-3B88-9E04-C6179936D931
    Functions: 247
 -  Symbols:   943
--  CStrings:  466
+-  CStrings:  557
 +  Symbols:   944
-+  CStrings:  468
++  CStrings:  560
  
 Symbols:
 + _objc_msgSend$didHidePhoto:

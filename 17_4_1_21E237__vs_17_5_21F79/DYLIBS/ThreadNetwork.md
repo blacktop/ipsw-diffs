@@ -22,5 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ADFD57E9-13B1-3DF3-A9B2-044CB7EEB2C6
++  UUID: 1E854A71-CC1C-32EE-9DD4-DA1CDA09F13E
+   Functions: 283
+   Symbols:   986
+   CStrings:  443
 
 ```

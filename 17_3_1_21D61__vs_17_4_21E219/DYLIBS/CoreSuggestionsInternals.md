@@ -38,9 +38,9 @@
    __AUTH_CONST.__const: 0x4568
    __AUTH_CONST.__cfstring: 0x25200
 
+   __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0xe28
    __AUTH_CONST.__objc_dictobj: 0x320
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1300
 +  __AUTH_CONST.__auth_got: 0x12f8
    __AUTH.__objc_data: 0x2288
@@ -65,13 +65,16 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B4D76A27-CEAC-3A50-B1B0-7A7EACC3A6F5
++  UUID: 4783E2B5-7432-3FE6-B3B8-5E6BD63B1A8E
    Functions: 9827
 -  Symbols:   33196
--  CStrings:  17786
+-  CStrings:  22538
 +  Symbols:   33195
-+  CStrings:  17787
++  CStrings:  22539
  
 Symbols:
 + GCC_except_table6079

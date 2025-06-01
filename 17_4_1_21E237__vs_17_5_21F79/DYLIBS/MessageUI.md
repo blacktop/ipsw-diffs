@@ -59,10 +59,9 @@
 -  __AUTH_CONST.__const: 0xe90
 +  __AUTH_CONST.__objc_const: 0x5608
 +  __AUTH_CONST.__const: 0xeb0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0x528
-
+   __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0xdb0
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71909426-9153-3911-8D7C-A34858122F57
 -  Functions: 5444
 -  Symbols:   22905
--  CStrings:  10725
+-  CStrings:  11843
++  UUID: B5FBDAEC-4E03-3413-9B34-66DAB11DC13B
 +  Functions: 5445
 +  Symbols:   22919
-+  CStrings:  10728
++  CStrings:  11846
  
 Symbols:
 + +[MFTimezoneHelper cityForTimeZone:]

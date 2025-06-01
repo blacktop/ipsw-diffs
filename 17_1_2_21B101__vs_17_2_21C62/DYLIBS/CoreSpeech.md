@@ -81,12 +81,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16760359-33F6-3D42-B6DE-01CC48E458CC
 -  Functions: 9986
 -  Symbols:   32964
--  CStrings:  17098
+-  CStrings:  18578
++  UUID: AAFB6612-2F24-3143-B521-6584B0B30FF8
 +  Functions: 9964
 +  Symbols:   32944
-+  CStrings:  17082
++  CStrings:  18558
  
 Symbols:
 + +[CSAttSiriMagusSupportedPolicy isCurrentlyInActiveCall]

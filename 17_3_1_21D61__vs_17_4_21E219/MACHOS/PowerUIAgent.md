@@ -41,11 +41,13 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A6DD59CD-E7C2-3EB6-9B1C-2F759B2E47D8
++  UUID: 7874CEEC-0CB1-3DCF-92F8-E833FABE5C63
    Functions: 6
 -  Symbols:   50
 -  CStrings:  28
 +  Symbols:   52
-+  CStrings:  34
++  CStrings:  37
  
 Symbols:
 + _MGGetBoolAnswer

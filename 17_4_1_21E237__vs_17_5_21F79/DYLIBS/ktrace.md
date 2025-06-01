@@ -24,11 +24,13 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0584ED50-3FA1-38A5-846C-4727D50CCEFD
 -  Functions: 4987
 -  Symbols:   6610
++  UUID: 4C12A8E3-8D2B-3F47-B891-1EB09A5CC25C
 +  Functions: 4989
 +  Symbols:   6614
-   CStrings:  1569
+   CStrings:  1717
  
 Symbols:
 + __session_handle_stackshot.cold.2

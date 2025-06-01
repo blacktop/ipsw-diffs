@@ -40,13 +40,16 @@
    __DATA_DIRTY.__objc_data: 0xa0
    __DATA_DIRTY.__data: 0x88
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AD03131D-6F00-3019-B6E1-C173562DDB5F
++  UUID: FD2D0B18-5F72-3E3D-BC12-DC253ECE5BEB
    Functions: 356
 -  Symbols:   433
--  CStrings:  422
+-  CStrings:  566
 +  Symbols:   431
-+  CStrings:  380
++  CStrings:  480
  
 Symbols:
 - _MarcoLogMadridLevel

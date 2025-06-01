@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A41B4586-80E1-38CE-8112-8427F60A2E1C
 -  Functions: 110
 -  Symbols:   534
--  CStrings:  286
+-  CStrings:  297
++  UUID: 3AE847F4-D738-3B03-98BF-4C23FF66E2DD
 +  Functions: 111
 +  Symbols:   539
-+  CStrings:  288
++  CStrings:  299
  
 Symbols:
 + GCC_except_table17

@@ -26,4 +26,13 @@
    __DATA.__objc_data: 0x280
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64160A65-CA32-31B1-897C-9CBC6EED67C5
++  UUID: 765B55DE-AF94-36EC-B242-12B76A1FFF05
+   Functions: 65
+   Symbols:   95
+   CStrings:  219
+
 ```

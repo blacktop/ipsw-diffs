@@ -56,12 +56,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4467D27A-6DBE-3A10-923A-40CE5A4DCE92
 -  Functions: 6978
 -  Symbols:   22552
--  CStrings:  6906
+-  CStrings:  8636
++  UUID: 72106E37-50EA-3D0B-A8FA-FDEDD0AD8C3F
 +  Functions: 6981
 +  Symbols:   22561
-+  CStrings:  6913
++  CStrings:  8644
  
 Symbols:
 + +[CEMApplicationStoreDeclaration buildWithIdentifier:withAllowAppInstallation:withAllowAppClips:withAllowUIAppInstallation:withAllowAutomaticAppDownloads:withAllowSystemAppRemoval:withAllowAppRemoval:withAllowInAppPurchases:withForceITunesStorePasswordEntry:withAllowMarketPlaceAppInstallation:]

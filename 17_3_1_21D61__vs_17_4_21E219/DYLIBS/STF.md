@@ -32,7 +32,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x70
    __AUTH_CONST.__cfstring: 0x10e0
    __AUTH_CONST.__objc_const: 0x5e8
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__const: 0x318
    __AUTH_CONST.__auth_got: 0x380
@@ -51,6 +50,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64F015E3-1BC1-3670-9D46-9832F1CC94A7
++  UUID: 4C208E60-3265-33D2-8C2D-A4CCF8F77726
+   Functions: 1213
+   Symbols:   3218
+   CStrings:  1785
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"
 + "T@\"CMIExternalMemoryResource\",?,&,N,V_externalMemoryResource"

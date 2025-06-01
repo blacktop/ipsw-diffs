@@ -39,9 +39,9 @@
 -  __AUTH_CONST.__const: 0x2b70
 +  __AUTH_CONST.__cfstring: 0x14a60
 +  __AUTH_CONST.__const: 0x2bb0
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__objc_intobj: 0x750
    __AUTH_CONST.__objc_const: 0x5150
+   __AUTH_CONST.__objc_arrayobj: 0x60
 
    __DATA.__objc_superrefs: 0x480
    __DATA.__objc_ivar: 0x96c
@@ -55,12 +55,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D3826783-EB92-38B0-A3DF-0FAE11732D31
 -  Functions: 7530
 -  Symbols:   24162
--  CStrings:  9597
+-  CStrings:  12241
++  UUID: ADE95708-9040-3165-A222-C39B7CF67EAF
 +  Functions: 7532
 +  Symbols:   24170
-+  CStrings:  9601
++  CStrings:  12244
  
 Symbols:
 + __LSOpenLog

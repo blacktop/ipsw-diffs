@@ -33,4 +33,13 @@
    - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 9D19A6E7-2386-3B1F-8DC8-A8A1BBEA8813
++  UUID: A6962F01-4602-36E1-A01F-9EBB377DCFFC
+   Functions: 1363
+   Symbols:   5433
+   CStrings:  3040
+
 ```

@@ -37,13 +37,16 @@
    __AUTH_CONST.__cfstring: 0x1fe0
    __AUTH_CONST.__objc_const: 0x18a0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FDC41D46-74BB-3BDC-A2E1-524DF94C332F
++  UUID: 536BDF09-E5BE-3C4F-9308-882A770216DB
    Functions: 1988
 -  Symbols:   5022
--  CStrings:  2469
+-  CStrings:  2724
 +  Symbols:   5027
-+  CStrings:  2475
++  CStrings:  2730
  
 Symbols:
 + _objc_msgSend$contentViewCoordinator

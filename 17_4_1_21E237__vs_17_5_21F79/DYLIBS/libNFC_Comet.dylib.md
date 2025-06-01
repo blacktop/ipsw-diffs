@@ -18,7 +18,11 @@
    __DATA_CONST.__const: 0x1f0
    __AUTH_CONST.__const: 0x440
 
+   __DATA_DIRTY.__bss: 0x4f
+   - /usr/lib/libNFC_HAL.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: F7D28B95-0251-30EF-B2DD-B71E0DD54F2F
++  UUID: 9E229BA8-4978-32EE-9EF4-07D27585982B
    Functions: 1998
    Symbols:   144
 -  CStrings:  5742

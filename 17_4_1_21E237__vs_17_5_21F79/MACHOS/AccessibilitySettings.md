@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2246B593-900F-3497-82A1-44B0528F8CF6
 -  Functions: 7206
 -  Symbols:   17765
--  CStrings:  11905
+-  CStrings:  14953
++  UUID: 281FEFD9-B6ED-392F-B758-4887BCDC2F60
 +  Functions: 7220
 +  Symbols:   17803
-+  CStrings:  11944
++  CStrings:  15005
  
 Symbols:
 + -[AccessibilityPencilSettingsController dealloc]

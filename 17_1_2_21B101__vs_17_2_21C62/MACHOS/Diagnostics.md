@@ -48,11 +48,15 @@
    - /System/Library/PrivateFrameworks/BridgePreferences.framework/BridgePreferences
    - /System/Library/PrivateFrameworks/CheckerBoardServices.framework/CheckerBoardServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 263BDB47-CB7B-3AC5-A1B7-C9416FBC4EB0
++  UUID: DE6956D7-5CD3-3171-AAD9-F2FBA43BF1B4
    Functions: 4251
    Symbols:   940
--  CStrings:  3709
-+  CStrings:  3707
+-  CStrings:  3934
++  CStrings:  3932
  
 CStrings:
 - "_setPreferredMaxLayoutWidth:"

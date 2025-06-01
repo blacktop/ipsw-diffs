@@ -48,12 +48,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6543B56-1446-3C34-99FD-91CA2969F30A
 -  Functions: 1901
 -  Symbols:   1436
--  CStrings:  4801
+-  CStrings:  5858
++  UUID: 5C91217B-FD6B-39ED-A06E-FEF1B5594E99
 +  Functions: 1902
 +  Symbols:   1440
-+  CStrings:  4809
++  CStrings:  5867
  
 Symbols:
 + _ACAccountTypeIdentifierAol

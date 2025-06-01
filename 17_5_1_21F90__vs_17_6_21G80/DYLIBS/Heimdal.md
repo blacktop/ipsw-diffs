@@ -26,17 +26,20 @@
    __DATA_CONST.__objc_classrefs: 0x40
 -  __AUTH_CONST.__cfstring: 0xc00
 +  __AUTH_CONST.__cfstring: 0xc20
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0xcc8
    __DATA.__data: 0x2c50
+   __DATA.__bss: 0x6f1
 
+   - /usr/lib/libheimdal-asn1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
+-  UUID: 97E2EBD2-3A77-3670-BCF9-28A912C286A4
++  UUID: 3FD147B4-A48D-39A2-96AC-2BF461DBC478
    Functions: 2461
 -  Symbols:   1783
--  CStrings:  2259
+-  CStrings:  2355
 +  Symbols:   1784
-+  CStrings:  2260
++  CStrings:  2357
  
 Symbols:
 + _kHEIMAttrLabelValue

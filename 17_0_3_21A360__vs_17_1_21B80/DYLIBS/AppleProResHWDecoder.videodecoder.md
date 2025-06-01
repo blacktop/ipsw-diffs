@@ -17,11 +17,15 @@
    __TEXT.__unwind_info: 0x390
    __TEXT.__eh_frame: 0x38
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 904B8F13-B0D8-3B4D-A4EE-B2B3E2D468AA
++  UUID: A90E815F-E011-3C52-A07D-E4B489F88312
    Functions: 463
    Symbols:   1161
--  CStrings:  322
-+  CStrings:  323
+-  CStrings:  326
++  CStrings:  327
  
 CStrings:
 + "8"

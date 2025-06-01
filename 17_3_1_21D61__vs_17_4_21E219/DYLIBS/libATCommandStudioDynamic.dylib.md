@@ -23,10 +23,9 @@
    __DATA_CONST.__got: 0x150
    __DATA_CONST.__const: 0xac0
 -  __AUTH_CONST.__const: 0x2788
-+  __AUTH_CONST.__const: 0x28a0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x838
 -  __AUTH.__const_weak: 0x118
++  __AUTH_CONST.__const: 0x28a0
 +  __AUTH_CONST.__auth_got: 0x830
    __DATA.__got_weak: 0x100
    __DATA.__data: 0x50
@@ -35,9 +34,11 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmav_ipc_router_dynamic.dylib
+-  UUID: 3DC27337-2D4A-36FC-B961-C78F55C9105B
 -  Functions: 1442
 -  Symbols:   3448
 -  CStrings:  540
++  UUID: 9678951A-7D9F-3B9E-8A0D-AB92C703A703
 +  Functions: 1452
 +  Symbols:   3453
 +  CStrings:  539

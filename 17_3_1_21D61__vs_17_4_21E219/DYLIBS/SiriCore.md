@@ -65,12 +65,14 @@
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: F2FD74AA-00E1-3441-AD6D-FE420DBCE8E2
 -  Functions: 1237
 -  Symbols:   4914
--  CStrings:  2924
+-  CStrings:  3381
++  UUID: AB786F23-7EBC-3846-8DFA-E5A53170C009
 +  Functions: 1242
 +  Symbols:   4933
-+  CStrings:  2939
++  CStrings:  3396
  
 Symbols:
 + -[SiriCoreNetworkingAnalytics _createSchemaClientEventFromNetId:networkConnectionId:connectionProvider:]

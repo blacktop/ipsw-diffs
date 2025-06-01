@@ -40,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DA4D0024-33CD-3F74-987B-D90D8D5DF491
 -  Functions: 213
 -  Symbols:   210
--  CStrings:  191
+-  CStrings:  224
++  UUID: CA17A080-724F-354D-AE5C-1FD25126B6F7
 +  Functions: 215
 +  Symbols:   211
-+  CStrings:  192
++  CStrings:  225
  
 Symbols:
 + __ZNSt3__119piecewise_constructE

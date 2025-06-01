@@ -21,4 +21,13 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FB6AF043-0E67-3D3C-BA26-E9B7CFB218F5
++  UUID: B18C491B-983B-3FA6-8C45-3712D2903EC5
+   Functions: 13
+   Symbols:   104
+   CStrings:  171
+
 ```

@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x3089
    __TEXT.__objc_methtype: 0xe39
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1B96FA6E-86F2-3F0A-B572-3AD36D956CBA
++  UUID: 98832801-D18C-336A-ABF7-2959BC29D801
+   Functions: 807
+   Symbols:   3283
+   CStrings:  980
+
 ```

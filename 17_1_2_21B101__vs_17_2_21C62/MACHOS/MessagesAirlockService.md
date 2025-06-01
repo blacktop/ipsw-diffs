@@ -65,12 +65,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22A92B70-53FE-3B92-94BD-45C82DABD904
 -  Functions: 857
 -  Symbols:   330
--  CStrings:  532
+-  CStrings:  576
++  UUID: 31C91572-48FE-3691-A355-AA083E4BA9C0
 +  Functions: 863
 +  Symbols:   331
-+  CStrings:  537
++  CStrings:  581
  
 Symbols:
 + _swift_getKeyPath

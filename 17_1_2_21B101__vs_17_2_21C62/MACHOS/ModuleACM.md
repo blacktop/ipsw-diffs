@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4241D526-2D4F-319B-8A81-4D077F88C23A
 -  Functions: 295
 -  Symbols:   169
--  CStrings:  905
+-  CStrings:  1084
++  UUID: 47F3F3C3-04C8-3FC6-ABF4-BC9A7A50D0C6
 +  Functions: 300
 +  Symbols:   170
-+  CStrings:  927
++  CStrings:  1110
  
 Symbols:
 + _NSUnderlyingErrorKey

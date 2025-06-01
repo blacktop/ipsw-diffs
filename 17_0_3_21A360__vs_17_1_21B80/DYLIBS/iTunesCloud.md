@@ -46,7 +46,6 @@
 +  __DATA_CONST.__objc_const: 0x27388
 +  __DATA_CONST.__objc_selrefs: 0x92c8
    __DATA_CONST.__objc_arraydata: 0x2e0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x10580
 -  __AUTH_CONST.__cfstring: 0x16ec0
 -  __AUTH_CONST.__objc_intobj: 0x3d8
@@ -79,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 055ED7EF-0CDD-3B7B-BC58-140946A6165F
 -  Functions: 9518
 -  Symbols:   29709
--  CStrings:  13685
+-  CStrings:  16619
++  UUID: 32837148-96FA-3D72-8886-74A1F98CD2AA
 +  Functions: 9574
 +  Symbols:   29890
-+  CStrings:  13787
++  CStrings:  16744
  
 Symbols:
 + +[ICAuthServiceClientTokenProviderDebugConfiguration supportsSecureCoding]

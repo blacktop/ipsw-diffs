@@ -50,13 +50,16 @@
    __DATA_CONST.__objc_arrayobj: 0x228
    __DATA.__objc_const: 0x212e0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4785E9D1-6487-348E-B72E-61F838A58545
++  UUID: 5CA9E81D-64BD-3F20-BE34-A75C3376377E
    Functions: 7874
 -  Symbols:   1440
--  CStrings:  9654
+-  CStrings:  12586
 +  Symbols:   1441
-+  CStrings:  9652
++  CStrings:  12582
  
 Symbols:
 + _$s13TapToRadarKit0abC7ServiceC13draftObserverAA0abc5DraftG0_pSgvs

@@ -68,10 +68,8 @@
 +  __AUTH_CONST.__const: 0x6470
    __AUTH_CONST.__cfstring: 0x40
 -  __AUTH_CONST.__objc_const: 0x1c0
--  __AUTH_CONST.__auth_ptr: 0x1f0
 -  __AUTH_CONST.__auth_got: 0x1888
 +  __AUTH_CONST.__objc_const: 0x200
-+  __AUTH_CONST.__auth_ptr: 0x200
 +  __AUTH_CONST.__auth_got: 0x1900
    __AUTH.__objc_data: 0x8c0
 -  __AUTH.__data: 0x2a8
@@ -104,12 +102,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D1B5A875-EABE-3B08-9CD4-5B6D1390BD9F
 -  Functions: 3185
 -  Symbols:   2042
--  CStrings:  1244
+-  CStrings:  1246
++  UUID: 77EC3039-219C-3A69-824A-3ABE71C46D1D
 +  Functions: 3305
 +  Symbols:   2124
-+  CStrings:  1292
++  CStrings:  1294
  
 Symbols:
 + _OBJC_CLASS_$_MCProfileConnection

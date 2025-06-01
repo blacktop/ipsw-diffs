@@ -54,7 +54,6 @@
 +  __AUTH_CONST.__const: 0x2220
    __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xb28
 +  __AUTH_CONST.__auth_got: 0xb10
    __AUTH.__objc_data: 0x1220
@@ -74,11 +73,13 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EE815368-DB2C-3485-87F6-35B8DFF43AD8
 -  Functions: 4648
++  UUID: 571FDE67-083F-3D3B-9646-D308EBC5DF24
 +  Functions: 4647
    Symbols:   15315
--  CStrings:  8209
-+  CStrings:  8233
+-  CStrings:  11262
++  CStrings:  11304
  
 Symbols:
 + +[MCPayload(Private) _installableVisionConfigurationPayloadClasses]

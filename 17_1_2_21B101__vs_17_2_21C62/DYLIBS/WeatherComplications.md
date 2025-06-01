@@ -29,12 +29,15 @@
    - /usr/lib/swift/libswiftCompression.dylib
    - /usr/lib/swift/libswiftCore.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 10C4976D-3A8E-3A71-BCB3-A5C00D4FD529
++  UUID: 8F321516-77E2-390B-94D4-B1802E67BEF0
    Functions: 939
 -  Symbols:   238
 +  Symbols:   239
-   CStrings:  337
+   CStrings:  362
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

@@ -43,8 +43,8 @@
 -  __AUTH_CONST.__cfstring: 0x15440
 +  __AUTH_CONST.__cfstring: 0x15540
    __AUTH_CONST.__const: 0x19f0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__auth_got: 0xc38
 
    __DATA.__objc_protorefs: 0x40
    __DATA.__objc_classrefs: 0x420
@@ -65,12 +65,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6B983E9-5144-3DA6-9FD0-4797C31DD2A8
 -  Functions: 6662
 -  Symbols:   21115
--  CStrings:  9538
+-  CStrings:  12260
++  UUID: D5FE7177-7A22-3FE6-84DD-C3D73722934C
 +  Functions: 6668
 +  Symbols:   21137
-+  CStrings:  9557
++  CStrings:  12287
  
 Symbols:
 + -[CTRoadsideProvider associatedPhoneNumbers]

@@ -18,6 +18,15 @@
    __TEXT.__objc_classname: 0xa9b
    __TEXT.__objc_methname: 0xda1b
    __TEXT.__objc_methtype: 0x280f
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 781ED524-C3FC-3257-A3E9-8D6120EDE8AC
++  UUID: 2E386AC6-A1C9-3995-96A4-AEF2B933544C
+   Functions: 2283
+   Symbols:   743
+   CStrings:  9234
 CStrings:
 + "13:51:51"
 + "454.40.3"

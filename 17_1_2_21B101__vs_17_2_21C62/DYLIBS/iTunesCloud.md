@@ -44,7 +44,6 @@
 +  __DATA_CONST.__objc_const: 0x27428
 +  __DATA_CONST.__objc_selrefs: 0x9340
    __DATA_CONST.__objc_arraydata: 0x2e0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x10580
 -  __AUTH_CONST.__cfstring: 0x171a0
 +  __AUTH_CONST.__cfstring: 0x172c0
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 32837148-96FA-3D72-8886-74A1F98CD2AA
 -  Functions: 9574
 -  Symbols:   29890
--  CStrings:  13787
+-  CStrings:  16744
++  UUID: 960FDEF9-B47F-3877-8CEE-A4485D85E146
 +  Functions: 9589
 +  Symbols:   29938
-+  CStrings:  13829
++  CStrings:  16795
  
 Symbols:
 + +[ICCloudClientCollaborationEditParams newIdentifierString]

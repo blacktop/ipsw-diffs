@@ -40,8 +40,8 @@
 -  __AUTH_CONST.__cfstring: 0x26860
 +  __AUTH_CONST.__cfstring: 0x26960
    __AUTH_CONST.__objc_const: 0x3048
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__const: 0xa00
+   __AUTH_CONST.__objc_intobj: 0x330
 
    __AUTH.__objc_data: 0x780
    __DATA.__objc_classrefs: 0x6a0
@@ -55,12 +55,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libimg4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65D72530-E339-3DC0-805B-DBF5DC87CE05
 -  Functions: 4892
 -  Symbols:   15879
--  CStrings:  12329
+-  CStrings:  17260
++  UUID: 2686F731-46F5-32F0-A260-FA824E4BC76A
 +  Functions: 4896
 +  Symbols:   15893
-+  CStrings:  12346
++  CStrings:  17285
  
 Symbols:
 + -[ControlManager allowSTExtractorPluginLoadFromDownloadedMABrain]

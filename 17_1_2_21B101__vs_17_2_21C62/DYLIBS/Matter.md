@@ -48,7 +48,6 @@
 -  __AUTH_CONST.__objc_const: 0xe928
 -  __AUTH_CONST.__cfstring: 0x3420
 -  __AUTH_CONST.__objc_intobj: 0x1b78
--  __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x8d8
 -  __AUTH.__objc_data: 0xfaf0
 -  __AUTH.__data: 0x3f0
@@ -58,7 +57,6 @@
 +  __AUTH_CONST.__objc_const: 0xeb20
 +  __AUTH_CONST.__cfstring: 0x34e0
 +  __AUTH_CONST.__objc_intobj: 0x47a0
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x880
 +  __AUTH.__objc_data: 0xfcd0
 +  __AUTH.__data: 0x370
@@ -87,12 +85,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3D489C0-7656-3526-B881-731ACE745679
 -  Functions: 83312
 -  Symbols:   1676
--  CStrings:  18820
+-  CStrings:  19237
++  UUID: 3E6CBBD7-62BD-3C28-8C18-51C68A1E5121
 +  Functions: 38230
 +  Symbols:   1668
-+  CStrings:  18200
++  CStrings:  18623
  
 Symbols:
 + _OBJC_CLASS_$_MTRTimeSynchronizationClusterSetUTCTimeParams

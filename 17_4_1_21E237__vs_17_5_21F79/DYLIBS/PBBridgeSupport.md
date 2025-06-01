@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x8ee8
    __TEXT.__objc_methtype: 0x14ab
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 00BBFC47-ABDA-36DF-80F6-0CE8D65B73EB
++  UUID: 1A0D05EE-5ED4-3D1E-8E50-A61BC439917B
+   Functions: 1785
+   Symbols:   5529
+   CStrings:  3539
+
 ```

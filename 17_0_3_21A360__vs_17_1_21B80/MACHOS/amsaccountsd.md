@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA411DB6-80E0-396A-8EE2-97C900F2C611
 -  Functions: 3790
 -  Symbols:   878
--  CStrings:  3562
+-  CStrings:  3990
++  UUID: 8375708C-4ED9-310E-A325-93159427E4F5
 +  Functions: 3799
 +  Symbols:   879
-+  CStrings:  3575
++  CStrings:  4005
  
 Symbols:
 + _OBJC_CLASS_$_AMSCookieService

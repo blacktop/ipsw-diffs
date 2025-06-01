@@ -44,11 +44,13 @@
    - /usr/lib/libobjc.A.dylib
 -  - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: 6769EDAC-85F9-3ED6-91A7-7F4B69D2271B
++  UUID: AC7EBAD3-C2FA-3233-A497-069C8F58147F
    Functions: 15
 -  Symbols:   61
--  CStrings:  47
+-  CStrings:  52
 +  Symbols:   60
-+  CStrings:  49
++  CStrings:  54
  
 Symbols:
 + _OBJC_CLASS_$_UIDevice

@@ -28,20 +28,22 @@
    __AUTH_CONST.__objc_intobj: 0x120
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x6d0
 +  __AUTH_CONST.__auth_got: 0x6d8
    __AUTH.__objc_data: 0x2028
    __DATA.__objc_ivar: 0x4f8
    __DATA.__data: 0xeb8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 882CF138-22F4-3DBF-A574-4219ED619EDC
++  UUID: ECC10CF7-3A15-3265-B4E7-AF453CFFC875
    Functions: 2638
 -  Symbols:   9031
--  CStrings:  4586
+-  CStrings:  5499
 +  Symbols:   9032
-+  CStrings:  4590
++  CStrings:  5507
  
 Symbols:
 + ___66-[STAppInfoCache _fetchSyncedInstalledAppInfoForBundleIdentifier:]_block_invoke.226

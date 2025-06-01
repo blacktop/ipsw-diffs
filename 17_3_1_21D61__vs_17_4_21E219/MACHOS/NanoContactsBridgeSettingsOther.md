@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48CC82A8-BED7-3689-9CA6-7C050DBF197F
++  UUID: 05B337C8-21FC-3F43-BE07-21FF8C41D8A2
    Functions: 114
    Symbols:   109
--  CStrings:  367
-+  CStrings:  368
+-  CStrings:  386
++  CStrings:  387
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -13,7 +13,7 @@
    __TEXT.__objc_classname: 0x1fb
    __TEXT.__objc_methname: 0x20a2
 
-   __AUTH_CONST.__auth_ptr: 0x340
+   __AUTH_CONST.__const: 0xcfb8
    __AUTH_CONST.__auth_got: 0x23f0
    __AUTH.__objc_data: 0x8c0
 -  __AUTH.__data: 0x39f8
@@ -34,5 +34,14 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB7A1B2D-FFC4-3122-B888-523FF41D813B
++  UUID: 3642918A-D900-368C-9540-A6650C1D21C0
+   Functions: 8377
+   Symbols:   2557
+   CStrings:  1305
 
 ```

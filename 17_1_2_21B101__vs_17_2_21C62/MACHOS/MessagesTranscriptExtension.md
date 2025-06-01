@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0BE9C719-B30F-324F-AC56-10D60395EA28
 -  Functions: 33
 -  Symbols:   78
--  CStrings:  154
+-  CStrings:  161
++  UUID: 3F977B9E-13F0-33C5-96F9-617D00854709
 +  Functions: 34
 +  Symbols:   74
-+  CStrings:  152
++  CStrings:  155
  
 Symbols:
 - _MarcoLogMadridLevel

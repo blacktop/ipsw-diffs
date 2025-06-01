@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39E6FEB8-9FCE-3C79-B1E3-E95CBA8F5172
 -  Functions: 164
++  UUID: FCD39B91-5963-3DD2-AFD6-0F0DB584EFA7
 +  Functions: 163
    Symbols:   209
--  CStrings:  528
-+  CStrings:  526
+-  CStrings:  605
++  CStrings:  603
  
 CStrings:
 - "ProxAdvertisementOverride"

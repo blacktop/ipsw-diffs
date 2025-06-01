@@ -51,12 +51,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 7B1A86DF-3FDE-312B-8FD4-959736A33FA7
 -  Functions: 209
 -  Symbols:   206
--  CStrings:  3277
+-  CStrings:  3433
++  UUID: E700B22D-6309-3323-8586-8111D4F43659
 +  Functions: 211
 +  Symbols:   207
-+  CStrings:  3281
++  CStrings:  3438
  
 Symbols:
 + _PLSysdiagnoseTimeSensitivePhase

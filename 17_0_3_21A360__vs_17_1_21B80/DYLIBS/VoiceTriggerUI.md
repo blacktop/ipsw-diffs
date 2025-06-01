@@ -49,11 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8A7E05DC-EDD6-391F-9F86-91E0E3288C65
 -  Functions: 1116
 -  Symbols:   4338
+-  CStrings:  2973
++  UUID: C5FB7BA8-7EB8-3133-AF4F-EBF38DDD820C
 +  Functions: 1115
 +  Symbols:   4330
-   CStrings:  2685
++  CStrings:  2975
  
 Symbols:
 + -[MGWrapper isDeviceVision]

@@ -39,11 +39,15 @@
    __DATA.__data: 0x368
    __DATA.__bss: 0x48
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7B0128ED-5471-30BF-9A5E-34871294E4FE
++  UUID: A270A4C0-FC31-3595-BCDA-6FB14F5914C3
    Functions: 964
    Symbols:   3675
--  CStrings:  1661
-+  CStrings:  1662
+-  CStrings:  1908
++  CStrings:  1909
  
 Symbols:
 + ___114-[TRDeviceSetupPeripheral _legacyAuthenticateWithUserAgent:deviceGUID:accountID:password:attemptCount:completion:]_block_invoke.164

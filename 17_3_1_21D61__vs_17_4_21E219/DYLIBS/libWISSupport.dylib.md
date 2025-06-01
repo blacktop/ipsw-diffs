@@ -31,11 +31,13 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libprotobuf-lite.dylib
+-  UUID: B6EE4D11-FCD1-3C61-8D99-EFAE7C909E20
 -  Functions: 928
 -  Symbols:   303
++  UUID: 4FB2B0C6-D65D-355C-86EA-2C4766EF9B1D
 +  Functions: 921
 +  Symbols:   302
-   CStrings:  131
+   CStrings:  133
  
 Symbols:
 - __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_

@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C73CFA40-9F53-3BC9-A7DE-E1FDE979DAB9
 -  Functions: 4245
 -  Symbols:   923
--  CStrings:  3693
+-  CStrings:  3915
++  UUID: 263BDB47-CB7B-3AC5-A1B7-C9416FBC4EB0
 +  Functions: 4251
 +  Symbols:   940
-+  CStrings:  3709
++  CStrings:  3934
  
 Symbols:
 + _$s5UIKit25UIBackgroundConfigurationV12cornerRadius12CoreGraphics7CGFloatVvs

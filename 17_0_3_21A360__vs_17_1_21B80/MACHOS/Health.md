@@ -36,10 +36,12 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 02943C3A-D68C-33CE-B974-84277455ABB5
 -  Functions: 3435
++  UUID: E5284D91-48F7-3ABC-8BC2-E2420C1F4A05
 +  Functions: 3434
    Symbols:   1770
-   CStrings:  1574
+   CStrings:  1576
  
 CStrings:
 + "https://support.apple.com/HT204351"

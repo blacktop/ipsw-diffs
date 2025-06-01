@@ -23,8 +23,11 @@
    __DATA.__common: 0x1
    __DATA_DIRTY.__const: 0x158
 
+   - /usr/lib/swift/libswiftMetal.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 0E9EDE57-5013-3B76-8826-F59BBAD0DF85
++  UUID: 32303149-A06B-3795-8340-4604ABE30896
    Functions: 21
 -  Symbols:   116
 +  Symbols:   115

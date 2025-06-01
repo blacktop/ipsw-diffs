@@ -28,4 +28,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D95DE625-AE79-38CA-A9F4-96CD8DCBDDB9
++  UUID: 6E5279B1-FE8E-38A6-A507-219FAF3F489D
+   Functions: 772
+   Symbols:   2836
+   CStrings:  1576
+
 ```

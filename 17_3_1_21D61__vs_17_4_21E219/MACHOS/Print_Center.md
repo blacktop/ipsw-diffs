@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x218
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 6DF03F1F-A45E-3215-84A2-EB2DEC1D004F
++  UUID: E6434D08-9D32-3409-B8EF-603F33CBCE8E
    Functions: 117
    Symbols:   139
--  CStrings:  488
-+  CStrings:  489
+-  CStrings:  535
++  CStrings:  536
  
 CStrings:
 + "T@\"NSString\",?,R,C"

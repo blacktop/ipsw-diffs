@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7602C7FD-79C6-39D5-9DA8-66A14F2419DD
 -  Functions: 428
 -  Symbols:   2096
--  CStrings:  1210
+-  CStrings:  1557
++  UUID: E7C06618-C627-371E-B4E1-66E7507C8F1C
 +  Functions: 432
 +  Symbols:   2112
-+  CStrings:  1220
++  CStrings:  1568
  
 Symbols:
 + +[MDMConfiguration isDataSeparated]

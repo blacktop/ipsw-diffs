@@ -10,6 +10,15 @@
    __TEXT.__auth_stubs: 0xb30
    __TEXT.__cstring: 0x32b7
    __TEXT.__const: 0x1520
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 36D9EC21-E567-3AC9-87C2-A87255ABFBD6
++  UUID: 5729F720-516D-328D-A487-7FBDC5FC633F
+   Functions: 709
+   Symbols:   1442
+   CStrings:  832
 Symbols:
 + __ZNSt3__110unique_ptrIN4llvm6ModuleENS_14default_deleteIS2_EEE5resetB8un170006EPS2_
 + __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIPN4llvm6MDNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m

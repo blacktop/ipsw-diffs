@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30808893-E04D-3063-9C74-6F28296FB565
 -  Functions: 13851
 -  Symbols:   43068
--  CStrings:  17473
+-  CStrings:  24662
++  UUID: 1EEA2CE2-5B3C-31D9-9DFF-5A048D70A7A7
 +  Functions: 13980
 +  Symbols:   43447
-+  CStrings:  17627
++  CStrings:  24896
  
 Symbols:
 + +[BMCommCenterEmergencyVoiceCall columns]

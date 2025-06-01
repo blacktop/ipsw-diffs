@@ -20,7 +20,6 @@
    __DATA_CONST.__const: 0x17e8
 -  __AUTH_CONST.__const: 0x1260
 +  __AUTH_CONST.__const: 0x1280
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__cfstring: 0x240
    __AUTH_CONST.__auth_got: 0x8d0
    __DATA.__data: 0x28
@@ -31,11 +30,15 @@
    __DATA_DIRTY.__crash_info: 0x40
    __DATA_DIRTY.__common: 0x18
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: C949FD3C-C151-3261-9A52-EAD746917FBB
++  UUID: C0140867-B778-3CF7-B74F-7B664C58EF58
    Functions: 4766
    Symbols:   10853
--  CStrings:  688
-+  CStrings:  689
+-  CStrings:  706
++  CStrings:  707
  
 Symbols:
 + ___Block_byref_object_copy_.484

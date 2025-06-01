@@ -23,11 +23,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C3E1BC9-486E-3311-B771-A18885787DB9
 -  Functions: 790
 -  Symbols:   2901
++  UUID: 0815ECF5-7079-3E62-8D5C-9931188CA40E
 +  Functions: 792
 +  Symbols:   2903
-   CStrings:  1114
+   CStrings:  1157
  
 Symbols:
 + GCC_except_table372

@@ -34,7 +34,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x3918
    __AUTH_CONST.__objc_intobj: 0xba0
    __AUTH_CONST.__objc_doubleobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x750
 +  __AUTH_CONST.__auth_got: 0x760
    __AUTH.__objc_data: 0x23f0
@@ -52,12 +51,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E090A29B-0DDD-389D-90A3-036A8AA1ED84
 -  Functions: 3567
 -  Symbols:   12320
--  CStrings:  8865
+-  CStrings:  15930
++  UUID: 7C75FABC-A26A-317A-9095-4053DD895A18
 +  Functions: 3569
 +  Symbols:   12328
-+  CStrings:  8897
++  CStrings:  15994
  
 Symbols:
 + _MGGetSInt64Answer

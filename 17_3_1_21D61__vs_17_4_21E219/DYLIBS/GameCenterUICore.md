@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__cfstring: 0x1200
    __AUTH_CONST.__objc_const: 0x12e8
    __AUTH_CONST.__const: 0x570
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x698
 +  __AUTH_CONST.__auth_got: 0x688
    __AUTH.__objc_data: 0xce0
@@ -67,12 +66,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71F95358-D9D6-3CC9-B91A-1F6D4F24CDC9
 -  Functions: 1057
 -  Symbols:   3458
--  CStrings:  1811
+-  CStrings:  2053
++  UUID: 4B8DC9E3-01EE-36ED-9398-DD61B4F192AF
 +  Functions: 1055
 +  Symbols:   3459
-+  CStrings:  1825
++  CStrings:  1969
  
 Symbols:
 + -[GKLocalPlayer(AuthenticationPrivate) presentAuthenticationUIForLocalPlayer:]

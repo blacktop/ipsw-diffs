@@ -75,12 +75,14 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C61812DC-E636-3040-98DD-C243BAEDA0C0
 -  Functions: 238
 -  Symbols:   1219
--  CStrings:  656
+-  CStrings:  718
++  UUID: 974104F5-428E-31EA-8F97-7DB93C3DFEF2
 +  Functions: 265
 +  Symbols:   1315
-+  CStrings:  691
++  CStrings:  758
  
 Symbols:
 + +[ABActionSelectorViewController assistantSelectorWithActionItems:selectedIndex:welcomeView:detailsView:]

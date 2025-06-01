@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x187
    __TEXT.__oslogstring: 0x456
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4D91E7FD-B62A-3368-A4E7-9849738256FD
++  UUID: CEB78E93-D93F-3D14-BE12-6917263FFE2C
+   Functions: 26
+   Symbols:   82
+   CStrings:  51
+
 ```

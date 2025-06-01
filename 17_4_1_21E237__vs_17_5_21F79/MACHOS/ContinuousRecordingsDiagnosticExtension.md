@@ -16,4 +16,13 @@
    __TEXT.__oslogstring: 0xc8
    __TEXT.__objc_classname: 0x28
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 801EA6F8-F535-3E22-92D3-A6E0839A61A0
++  UUID: 7F0C5F26-7EA3-30B7-9D68-94D77EC67964
+   Functions: 6
+   Symbols:   90
+   CStrings:  38
+
 ```

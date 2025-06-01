@@ -26,4 +26,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7F895EEE-E4CD-3BC1-A7AF-D7A1806E18F5
++  UUID: 5F87B395-10A1-38D8-94A0-84AF3ED36521
+   Functions: 65
+   Symbols:   97
+   CStrings:  193
+
 ```

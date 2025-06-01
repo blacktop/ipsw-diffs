@@ -60,11 +60,13 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E1C5E1A2-794A-3B06-840E-68C4CCE7DAC1
 -  Functions: 406
++  UUID: 13CD6C3C-2DB4-30FB-9132-422BA2609296
 +  Functions: 404
    Symbols:   286
--  CStrings:  1045
-+  CStrings:  1043
+-  CStrings:  1132
++  CStrings:  1130
  
 CStrings:
 - "q16@0:8"

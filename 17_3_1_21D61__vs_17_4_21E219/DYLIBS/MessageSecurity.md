@@ -53,9 +53,8 @@
    __AUTH_CONST.__cfstring: 0x2420
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x148
-+  __AUTH_CONST.__const: 0x248
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x750
++  __AUTH_CONST.__const: 0x248
 +  __AUTH_CONST.__auth_got: 0x760
    __AUTH.__objc_data: 0x0
 -  __DATA.__objc_protorefs: 0x18
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2EA097B9-2D3F-328F-B0D7-FA20072327DF
 -  Functions: 1680
 -  Symbols:   3831
--  CStrings:  1194
+-  CStrings:  1483
++  UUID: E0CCFE8B-02B7-3039-A190-5BC567A690B2
 +  Functions: 1682
 +  Symbols:   3861
-+  CStrings:  1219
++  CStrings:  1508
  
 Symbols:
 + -[MSCMSSignerInfo initWithCertificate:signatureAlgorithm:useIssuerAndSerialNumber:error:]

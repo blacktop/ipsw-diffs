@@ -28,4 +28,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 22809EA9-BF80-3C36-8D4C-CC6A41B4A9DC
++  UUID: 2FA07019-FE25-35F8-B23B-52BB7A14B602
+   Functions: 32
+   Symbols:   275
+   CStrings:  171
+
 ```

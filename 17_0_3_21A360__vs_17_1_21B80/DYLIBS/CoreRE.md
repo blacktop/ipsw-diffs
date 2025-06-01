@@ -22,11 +22,15 @@
    __DATA_CONST.__objc_arraydata: 0x80
    __AUTH_CONST.__const: 0x5bd70
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FB69B059-52B8-335E-930E-D1923642363A
++  UUID: B3D6D6FA-6DE2-393C-BBE1-C8166AAE643C
    Functions: 59636
    Symbols:   135165
--  CStrings:  15566
-+  CStrings:  15573
+-  CStrings:  16247
++  CStrings:  16254
  
 CStrings:
 + "Tq,N"

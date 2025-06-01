@@ -57,11 +57,10 @@
 -  __DATA_CONST.__objc_const: 0xd248
 -  __DATA_CONST.__objc_selrefs: 0x1df0
 -  __AUTH_CONST.__const: 0x3268
+-  __AUTH_CONST.__objc_const: 0x0
 +  __DATA_CONST.__objc_const: 0xd358
 +  __DATA_CONST.__objc_selrefs: 0x1e48
 +  __AUTH_CONST.__const: 0x35c0
-   __AUTH_CONST.__auth_ptr: 0x1e0
--  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__cfstring: 0xf80
 -  __AUTH_CONST.__auth_got: 0x1618
@@ -102,12 +101,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F90127DB-154B-3FED-B255-4205448FC650
 -  Functions: 10125
 -  Symbols:   9579
--  CStrings:  3695
+-  CStrings:  3819
++  UUID: 0C3E3C78-380D-31EE-A5FD-31AF83710A24
 +  Functions: 10251
 +  Symbols:   9701
-+  CStrings:  3730
++  CStrings:  3854
  
 Symbols:
 + -[SiriTTSSpeechRequest(SwiftProxy) minimizeDeviceUsage]

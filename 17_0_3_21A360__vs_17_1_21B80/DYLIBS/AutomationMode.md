@@ -32,12 +32,14 @@
    - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 444CE3B2-743B-3E4D-9646-442F0681CC5E
 -  Functions: 112
 -  Symbols:   455
--  CStrings:  216
+-  CStrings:  231
++  UUID: 2EBCDB4F-D05E-3C1A-8FC4-690C023FA2A9
 +  Functions: 114
 +  Symbols:   458
-+  CStrings:  220
++  CStrings:  237
  
 Symbols:
 + _XAMAutomationModeDataVaultPath

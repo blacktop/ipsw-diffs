@@ -47,11 +47,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6B026EEE-A839-3D1C-9338-9EFF46F16C5F
 -  Functions: 4604
++  UUID: A3128CFA-2D43-3112-8E85-266F320C7587
 +  Functions: 4606
    Symbols:   752
--  CStrings:  7057
-+  CStrings:  7060
+-  CStrings:  8058
++  CStrings:  8061
  
 CStrings:
 + "%@ Schedule server update with change %@; withTimer %@; shortInterval %@; isPowerEfficientToSendFilter %@"

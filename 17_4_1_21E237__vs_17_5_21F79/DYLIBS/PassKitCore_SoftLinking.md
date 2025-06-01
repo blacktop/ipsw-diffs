@@ -40,7 +40,6 @@
    __DATA_CONST.__objc_classrefs: 0x20
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x5628
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x190
 +  __AUTH_CONST.__cfstring: 0x40
 +  __AUTH_CONST.__auth_got: 0x1c8
@@ -51,12 +50,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 095C7C8A-1C0A-39C4-B4E6-8034B6000757
 -  Functions: 150
 -  Symbols:   144
 -  CStrings:  17
++  UUID: ACA97633-B4E8-3B3E-88A6-6749948824C6
 +  Functions: 152
 +  Symbols:   158
-+  CStrings:  27
++  CStrings:  29
  
 Symbols:
 + ___78+[PKPassbookFairPlayEvaluator getFairPlayInfoWithAuditToken:nonce:completion:]_block_invoke.10

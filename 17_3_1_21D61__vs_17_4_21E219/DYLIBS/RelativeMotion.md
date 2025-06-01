@@ -33,11 +33,15 @@
    __DATA.__data: 0x3a0
    __DATA.__bss: 0x8
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 547111A1-E42B-31F2-A7D7-87217FA0D1E8
++  UUID: 101D3861-EFD2-345B-A3B7-369FEAE91C56
    Functions: 306
    Symbols:   1165
--  CStrings:  515
-+  CStrings:  516
+-  CStrings:  554
++  CStrings:  555
  
 Symbols:
 + ___54-[RMConnectionEndpoint startServingStreamWithHandler:]_block_invoke.80

@@ -32,11 +32,15 @@
    __DATA.__data: 0x480
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F1C91E1D-71A0-391E-B342-AAF300D60F8A
++  UUID: A1E2F3D1-A23C-3CCE-B896-B0917E82FEDD
    Functions: 402
    Symbols:   1706
--  CStrings:  899
-+  CStrings:  900
+-  CStrings:  979
++  CStrings:  980
  
 Symbols:
 + ___63-[FPUIActionRemoteContext _openExtensionURL:completionHandler:]_block_invoke.55

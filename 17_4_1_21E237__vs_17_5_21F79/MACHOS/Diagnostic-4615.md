@@ -23,11 +23,15 @@
    __DATA_CONST.__auth_got: 0x208
    __DATA_CONST.__got: 0x40
 
+   - /usr/lib/libIOAccessoryManager.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AB31DB3-6179-34FC-BF3B-FB873DE77E75
++  UUID: 60D5EC3C-A2F1-31D0-8C1F-D356D9C14152
    Functions: 65
    Symbols:   96
--  CStrings:  166
-+  CStrings:  165
+-  CStrings:  174
++  CStrings:  173
  
 CStrings:
 + "issueMogulChallenge:response:"

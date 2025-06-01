@@ -18,7 +18,6 @@
    __DATA_CONST.__objc_classrefs: 0x18
 -  __AUTH_CONST.__const: 0x23d8
 +  __AUTH_CONST.__const: 0xcb8
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__auth_got: 0x958
 -  __AUTH.__data: 0x578
 -  __AUTH.__objc_data: 0xa0
@@ -32,5 +31,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
    - /System/Library/PrivateFrameworks/PoirotSQLite.framework/PoirotSQLite
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7D070B75-E370-3CB9-A73B-121BD241AF1B
++  UUID: 4CDB64C3-3405-3D3A-8237-DCA833B0DF7B
+   Functions: 1623
+   Symbols:   395
+   CStrings:  165
 
 ```

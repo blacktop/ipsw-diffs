@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1d34
    __TEXT.__objc_methtype: 0x8ad
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3F4CB9C9-E531-3FA4-BB71-1E4B654D604A
++  UUID: 8D396685-F502-39B7-9890-180A674E4244
+   Functions: 122
+   Symbols:   702
+   CStrings:  518
+
 ```

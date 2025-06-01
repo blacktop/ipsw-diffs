@@ -34,12 +34,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 958F46AD-532B-3379-BB20-AB518851CDF4
 -  Functions: 1074
 -  Symbols:   5564
--  CStrings:  2423
+-  CStrings:  2796
++  UUID: 4F4A1CCD-6C75-308C-A267-F2212D4491EC
 +  Functions: 1077
 +  Symbols:   5571
-+  CStrings:  2427
++  CStrings:  2800
  
 Symbols:
 + -[SUSUISoftwareUpdateController(BetaUpdates) setBetaProgramFromUI:forSpecifier:withCompletion:]

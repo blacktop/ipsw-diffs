@@ -60,10 +60,8 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__const: 0x6140
--  __AUTH_CONST.__auth_ptr: 0x1e8
 -  __AUTH_CONST.__auth_got: 0x1ae8
 +  __AUTH_CONST.__const: 0x6610
-+  __AUTH_CONST.__auth_ptr: 0x1f0
 +  __AUTH_CONST.__auth_got: 0x1b70
    __AUTH.__objc_data: 0x0
 -  __DATA.__objc_protorefs: 0x70
@@ -94,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E25B0C1B-7AB4-3AC1-8593-0D3DDB76B9A4
 -  Functions: 9192
 -  Symbols:   21855
--  CStrings:  1208
+-  CStrings:  1212
++  UUID: DB11F312-9EC9-3BD4-B498-57269E7C61A0
 +  Functions: 9166
 +  Symbols:   21783
-+  CStrings:  1249
++  CStrings:  1253
  
 Symbols:
 + _$s10CloudAsset25SimultaneousTransferErrorOMa

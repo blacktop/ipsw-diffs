@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F28D572-E00E-3A53-BC14-AC1584758169
 -  Functions: 290
 -  Symbols:   164
--  CStrings:  932
+-  CStrings:  1148
++  UUID: F0D77E78-1FE3-3A0C-B4A0-5F6A92798E6A
 +  Functions: 298
 +  Symbols:   165
-+  CStrings:  966
++  CStrings:  1197
  
 Symbols:
 + _OBJC_CLASS_$_RMManagedDevice

@@ -39,4 +39,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Network.framework/Network
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F27CF46D-48D9-3FA0-AFE7-06DC2A031333
++  UUID: EB4A3FAE-49C7-355F-B9F1-E732DD3E2095
+   Functions: 2022
+   Symbols:   1323
+   CStrings:  529
+
 ```

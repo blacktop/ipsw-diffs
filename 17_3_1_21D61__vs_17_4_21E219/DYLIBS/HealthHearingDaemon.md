@@ -37,11 +37,15 @@
    __DATA.__data: 0x720
    __DATA_DIRTY.__objc_data: 0x820
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3DED1F43-57BF-3FE8-A94E-922A2A51AF3E
++  UUID: 9BAC587F-7621-3AB0-978A-614EDB2A9EAF
    Functions: 548
    Symbols:   2353
--  CStrings:  1450
-+  CStrings:  1451
+-  CStrings:  1662
++  CStrings:  1663
  
 Symbols:
 + ___87-[HDHeadphoneDoseManager _lock_updateCurrentDoseUsingStatisticsResult:assertion:error:]_block_invoke.334

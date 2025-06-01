@@ -48,11 +48,13 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9FF0D10C-C21D-3C94-A43F-6DA2F18396A1
 -  Functions: 1882
++  UUID: DE1042F8-680A-3142-AD35-9B58A733078D
 +  Functions: 1879
    Symbols:   1423
--  CStrings:  4772
-+  CStrings:  4767
+-  CStrings:  5822
++  CStrings:  5817
  
 Symbols:
 + _MDMSendDevicePostureChangedNotification

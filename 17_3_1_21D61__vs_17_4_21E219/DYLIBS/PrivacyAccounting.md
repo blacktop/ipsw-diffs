@@ -64,7 +64,6 @@
 +  __AUTH_CONST.__cfstring: 0xde0
 +  __AUTH_CONST.__const: 0x690
    __AUTH_CONST.__objc_intobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x400
 -  __AUTH.__objc_data: 0x780
 -  __DATA.__objc_protorefs: 0x18
@@ -73,7 +72,6 @@
 -  __DATA.__objc_ivar: 0x208
 -  __DATA.__data: 0x808
 -  __DATA.__bss: 0x10
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x728
 +  __AUTH.__objc_data: 0x938
 +  __AUTH.__data: 0x180
@@ -90,9 +88,10 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D0F14F14-4749-36C8-921F-F8CD8DBCE044
 -  Functions: 671
 -  Symbols:   2638
--  CStrings:  1006
+-  CStrings:  1115
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -100,9 +99,10 @@
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 9C657CBD-D27F-390A-BE00-8D39A7FBE5CA
 +  Functions: 871
 +  Symbols:   2782
-+  CStrings:  1074
++  CStrings:  1185
  
 Symbols:
 + -[PAAccess accessCount]

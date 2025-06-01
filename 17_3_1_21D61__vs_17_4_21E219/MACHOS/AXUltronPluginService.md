@@ -52,12 +52,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 66BE136C-961F-3119-A727-BA6EA7465398
 -  Functions: 41
 -  Symbols:   66
--  CStrings:  137
+-  CStrings:  139
++  UUID: E52B3F23-D2E4-312E-AED0-982752B6DF60
 +  Functions: 43
 +  Symbols:   72
-+  CStrings:  153
++  CStrings:  156
  
 Symbols:
 + _CFNotificationCenterPostNotification

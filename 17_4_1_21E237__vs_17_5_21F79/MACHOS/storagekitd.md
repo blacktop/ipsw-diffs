@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 436406A5-496D-305C-BBF0-3BAA023A1237
 -  Functions: 822
 -  Symbols:   363
--  CStrings:  1885
+-  CStrings:  2097
++  UUID: 28E02DBC-D6AF-3807-AB31-FD425A350A41
 +  Functions: 824
 +  Symbols:   364
-+  CStrings:  1912
++  CStrings:  2126
  
 Symbols:
 + _kDADiskDescriptionMediaRemovableKey

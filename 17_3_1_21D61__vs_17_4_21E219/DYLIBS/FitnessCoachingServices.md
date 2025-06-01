@@ -57,7 +57,6 @@
    __AUTH_CONST.__objc_const: 0x1d8
    __AUTH_CONST.__cfstring: 0x960
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x178
 -  __AUTH_CONST.__auth_got: 0x1088
 +  __AUTH_CONST.__auth_got: 0x10b8
    __AUTH.__objc_data: 0x1f0
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5C86CDE2-D149-31CA-951D-7F6B7A96FA85
 -  Functions: 3410
 -  Symbols:   1433
--  CStrings:  894
+-  CStrings:  969
++  UUID: DAC581EA-63B1-37B4-8C2E-1D3CA734F18D
 +  Functions: 3408
 +  Symbols:   1437
-+  CStrings:  916
++  CStrings:  991
  
 Symbols:
 + ___137-[FCSFirstGlanceAchievementEvaluator progressAchievementAndMilestoneWithCurrentDate:calendar:experienceType:isStandaloneMode:completion:]_block_invoke.241

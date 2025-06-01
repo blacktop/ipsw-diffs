@@ -49,8 +49,7 @@
    __AUTH_CONST.__objc_const: 0x1430
    __AUTH_CONST.__objc_intobj: 0x2d0
    __AUTH_CONST.__objc_dictobj: 0x50
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__auth_got: 0x5f0
    __AUTH.__objc_data: 0xb40
 -  __DATA.__objc_classrefs: 0x4a8
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F67F134-C747-39BF-AFAD-3FC920220D3E
 -  Functions: 1364
 -  Symbols:   5257
--  CStrings:  2824
+-  CStrings:  3456
++  UUID: 61A6D0BE-C244-394A-A2A2-5A9EF8876C57
 +  Functions: 1373
 +  Symbols:   5289
-+  CStrings:  2848
++  CStrings:  3493
  
 Symbols:
 + GCC_except_table22

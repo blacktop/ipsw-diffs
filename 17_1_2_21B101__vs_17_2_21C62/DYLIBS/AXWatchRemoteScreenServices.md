@@ -44,11 +44,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5FF4B98-AD70-30D4-9D8D-611FD3B68958
 -  Functions: 443
 -  Symbols:   472
++  UUID: 26023B77-0347-3235-B9CF-65A5699B2ECB
 +  Functions: 444
 +  Symbols:   473
-   CStrings:  245
+   CStrings:  252
  
 Symbols:
 + _AXIDSServiceIDSTimeoutKey

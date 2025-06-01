@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x1440
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CD24B12-095C-3681-AB77-99BCA7CD70BD
++  UUID: A293E767-235D-3DE6-94F7-91A8383FB450
    Functions: 284
    Symbols:   509
--  CStrings:  356
-+  CStrings:  357
+-  CStrings:  426
++  CStrings:  427
  
 CStrings:
 + "T@\"NSString\",?,R,C"

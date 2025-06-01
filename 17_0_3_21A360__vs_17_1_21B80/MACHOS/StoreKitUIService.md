@@ -107,12 +107,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24A4AF06-DAF9-3F47-ACF3-F44F97EB1FDB
 -  Functions: 1087
 -  Symbols:   520
--  CStrings:  2488
+-  CStrings:  2795
++  UUID: 690B0738-F2D0-3800-A45B-E8AADF7EB43A
 +  Functions: 1103
 +  Symbols:   528
-+  CStrings:  2500
++  CStrings:  2807
  
 Symbols:
 + _MKBGetDeviceLockState

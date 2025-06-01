@@ -65,7 +65,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x240
 +  __AUTH_CONST.__const: 0x5968
    __AUTH_CONST.__objc_const: 0x2c78
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x4c8
 -  __AUTH_CONST.__cfstring: 0x3b00
 -  __AUTH_CONST.__auth_got: 0xa80
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22F88D61-4F43-3581-B5E4-0D47E008E40A
 -  Functions: 5861
 -  Symbols:   6516
--  CStrings:  2071
+-  CStrings:  2543
++  UUID: 398B67C2-0D8D-3E25-80FC-32F57917F9A3
 +  Functions: 5897
 +  Symbols:   6558
-+  CStrings:  2097
++  CStrings:  2570
  
 Symbols:
 + +[LNSystemProtocol pushToTalkTransmissionProtocol]

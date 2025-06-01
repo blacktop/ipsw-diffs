@@ -28,7 +28,7 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x48
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0xbd0
    __AUTH.__objc_data: 0x50
 -  __DATA.__data: 0x73c
@@ -47,12 +47,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CA01157-397F-334C-9841-4E22DB4FB9F0
 -  Functions: 517
 -  Symbols:   1434
--  CStrings:  863
+-  CStrings:  909
++  UUID: ED9F7148-8BC7-3202-9E55-89F345EFE4AE
 +  Functions: 523
 +  Symbols:   1442
-+  CStrings:  874
++  CStrings:  920
  
 Symbols:
 + _NEHelperTrackerContextCopyDomain

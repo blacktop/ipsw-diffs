@@ -14,11 +14,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 250EAFA7-1F89-3B34-9CDE-F236AE663158
 -  Functions: 12391
 -  Symbols:   13844
++  UUID: 8D378506-DF1C-31C2-B525-1F9A6CD1C80C
 +  Functions: 12390
 +  Symbols:   13842
-   CStrings:  3776
+   CStrings:  4191
  
 CStrings:
 + "/AppleInternal/Library/BuildRoots/529cd1b6-810a-11ee-9ed3-8e1462286c80/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"

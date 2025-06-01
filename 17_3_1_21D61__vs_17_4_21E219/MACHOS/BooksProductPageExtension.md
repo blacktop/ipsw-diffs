@@ -84,11 +84,13 @@
    - @rpath/BookStoreUI.framework/BookStoreUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 8310CDDD-C2E4-390A-BC3F-21CE37F0D9C6
 -  Functions: 712
++  UUID: 867AA8CA-E39C-357B-8CC1-227AF4028245
 +  Functions: 724
    Symbols:   328
--  CStrings:  886
-+  CStrings:  901
+-  CStrings:  926
++  CStrings:  941
  
 Symbols:
 + _swift_release_n

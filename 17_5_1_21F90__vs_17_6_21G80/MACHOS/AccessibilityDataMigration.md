@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBC94741-43B8-3C1A-83A6-416312A75120
 -  Functions: 82
 -  Symbols:   170
--  CStrings:  430
+-  CStrings:  585
++  UUID: F9DFE2E9-7D97-3499-B9DC-E1E037456C84
 +  Functions: 83
 +  Symbols:   172
-+  CStrings:  436
++  CStrings:  593
  
 Symbols:
 + _AX_PreferencesBundleName

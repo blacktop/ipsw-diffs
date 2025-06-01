@@ -54,7 +54,6 @@
    __DATA_CONST.__objc_superrefs: 0x430
    __DATA_CONST.__objc_arraydata: 0x13f8
 -  __AUTH_CONST.__const: 0x2918
--  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__const: 0x2780
    __AUTH_CONST.__objc_const: 0x6210
 -  __AUTH_CONST.__cfstring: 0x10f60
@@ -65,7 +64,6 @@
 -  __AUTH_CONST.__auth_got: 0xcd8
 -  __AUTH.__objc_data: 0x2080
 -  __AUTH.__data: 0x170
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0xb50
 +  __AUTH.__objc_data: 0x1f40
 +  __AUTH.__data: 0xe8
@@ -90,12 +88,14 @@
 -  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 54B0011C-68DA-3E6F-9AC0-EC91E726D1C2
 -  Functions: 5177
 -  Symbols:   17551
--  CStrings:  8740
+-  CStrings:  10911
++  UUID: 8AE93477-C184-33B0-9DF2-F10B879B4458
 +  Functions: 5096
 +  Symbols:   17507
-+  CStrings:  8742
++  CStrings:  10916
  
 Symbols:
 + +[WFContentLocation(Static) javaScript]

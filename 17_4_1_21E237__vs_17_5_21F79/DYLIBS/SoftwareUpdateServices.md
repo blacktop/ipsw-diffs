@@ -61,12 +61,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 72B9A9F6-CAB8-39E8-A6C6-DBB40DED1AA6
 -  Functions: 2188
 -  Symbols:   7846
--  CStrings:  4401
+-  CStrings:  5702
++  UUID: A2803F27-81CC-34A6-BFED-914020229680
 +  Functions: 2189
 +  Symbols:   7850
-+  CStrings:  4405
++  CStrings:  5709
  
 Symbols:
 + -[SUPreferences disableFollowUps]

@@ -31,6 +31,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2EE091FB-3953-3A63-A5C8-3001E562F75A
++  UUID: 638F9E86-AE93-3482-996E-CC2CA9387C76
+   Functions: 1155
+   Symbols:   4837
+   CStrings:  2830
 Symbols:
 + _HKFeatureAvailabilityRequirementIdentifierBloodOxygenRecordingsAreEnabled
 - _HKFeatureAvailabilityRequirementIdentifierBloodOxygenMeasurementsAreEnabled

@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_dictobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xa940
 +  __AUTH_CONST.__auth_got: 0xa9a8
    __AUTH.__objc_data: 0x3ca0
@@ -86,12 +85,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6EFB68DC-E7A1-3A04-9BCB-33AFE518AE63
 -  Functions: 55638
 -  Symbols:   139722
--  CStrings:  21068
+-  CStrings:  22396
++  UUID: 60B800EB-EF9F-3A37-A5F2-FDF0DD3684BE
 +  Functions: 55701
 +  Symbols:   139932
-+  CStrings:  21131
++  CStrings:  22462
  
 Symbols:
 + -[WKContentView createVisibleContentRectUpdateInfoFromVisibleRect:unobscuredRect:contentInsets:unobscuredRectInScrollViewCoordinates:obscuredInsets:unobscuredSafeAreaInsets:inputViewBounds:scale:minimumScale:viewStability:enclosedInScrollableAncestorView:sendEvenIfUnchanged:]

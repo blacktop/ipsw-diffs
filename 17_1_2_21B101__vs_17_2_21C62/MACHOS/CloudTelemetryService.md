@@ -17,4 +17,13 @@
    __TEXT.__cstring: 0x4414
    __TEXT.__objc_classname: 0x6d
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F58BC3F3-7A28-3F97-96FB-F8A9A426995C
++  UUID: E2B038D4-1CD3-3A9C-885E-275CA1CA1747
+   Functions: 2985
+   Symbols:   332
+   CStrings:  540
+
 ```

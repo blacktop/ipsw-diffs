@@ -50,6 +50,7 @@
 -  __AUTH_CONST.__cfstring: 0x20720
 -  __AUTH_CONST.__objc_intobj: 0xaf8
 -  __AUTH_CONST.__objc_arrayobj: 0x1c8
+-  __AUTH_CONST.__objc_dictobj: 0x50
 +  __DATA_CONST.__objc_const: 0x35f00
 +  __DATA_CONST.__objc_selrefs: 0xd560
 +  __DATA_CONST.__objc_protorefs: 0x10
@@ -61,8 +62,6 @@
 +  __AUTH_CONST.__cfstring: 0x20240
 +  __AUTH_CONST.__objc_intobj: 0x9d8
 +  __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__objc_dictobj: 0x50
 +  __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_doubleobj: 0x60
 -  __AUTH_CONST.__auth_got: 0xe98
@@ -90,12 +89,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3A61F826-E2CA-3D42-8B2A-72164529AC53
 -  Functions: 14593
 -  Symbols:   43326
--  CStrings:  23228
+-  CStrings:  27381
++  UUID: 5523DD45-DF0A-33B0-84EE-F98D07E57666
 +  Functions: 14408
 +  Symbols:   42973
-+  CStrings:  23022
++  CStrings:  27136
  
 Symbols:
 + +[AppTelemetryTimeSeriesEvent(BRCAdditions) newBasehashSaltingProblemCountWithProblemCount:mangledID:itemIDString:]

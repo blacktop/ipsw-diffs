@@ -87,12 +87,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: D7AFDACB-5617-3C58-A20C-2F1AF681875C
 -  Functions: 1832
 -  Symbols:   448
--  CStrings:  3824
+-  CStrings:  4396
++  UUID: B3350208-EF11-3237-8E00-9388124AFF22
 +  Functions: 2542
 +  Symbols:   497
-+  CStrings:  5154
++  CStrings:  5845
  
 Symbols:
 + _CARCarKitVehicleInformationEvent

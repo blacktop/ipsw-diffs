@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B854D44B-59DC-32E0-94E6-7F2F44FD387A
 -  Functions: 1358
 -  Symbols:   5407
--  CStrings:  2703
+-  CStrings:  3032
++  UUID: 661B6382-79C4-317B-BB2A-C7E11A9F16B4
 +  Functions: 1360
 +  Symbols:   5413
-+  CStrings:  2706
++  CStrings:  3035
  
 Symbols:
 + -[HDHRElectrocardiogramRecordingV2UpgradeManager initWithProfile:v1FeatureAvailabilityManager:v2FeatureAvailabilityManager:analyticsSubmissionManager:protectedDataOperation:]

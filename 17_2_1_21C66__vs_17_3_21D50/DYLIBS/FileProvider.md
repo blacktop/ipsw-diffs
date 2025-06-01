@@ -26,8 +26,8 @@
    __TEXT.__objc_stubs: 0x129a0
    __DATA_CONST.__got: 0x4b0
 
+   __AUTH_CONST.__const: 0x1920
    __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x108
 -  __AUTH_CONST.__auth_got: 0xcf0
 +  __AUTH_CONST.__auth_got: 0xcf8
@@ -38,11 +38,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F78080B4-E782-3C6E-8DD9-8DE3FCDFF5FF
 -  Functions: 6815
 -  Symbols:   21634
++  UUID: A7810767-2F11-31F0-94E7-44A66C9EEF2E
 +  Functions: 6816
 +  Symbols:   21636
-   CStrings:  9408
+   CStrings:  11411
  
 Symbols:
 + +[FPFileVersion etagForVersion:providerDomainID:]

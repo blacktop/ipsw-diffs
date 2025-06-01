@@ -20,7 +20,6 @@
 +  __AUTH_CONST.__objc_const: 0x160
    __AUTH_CONST.__objc_intobj: 0x30
 +  __AUTH_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x7c0
 +  __AUTH.__objc_data: 0xa0
    __DATA.__objc_ivar: 0x170
@@ -39,5 +38,14 @@
    __DATA_DIRTY.__common: 0x8
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E66A2AD3-39A0-3F5D-808A-5B345C581F8F
++  UUID: 278CC71E-0BF3-3ACB-AC97-F60D4D3C91D1
+   Functions: 653
+   Symbols:   2453
+   CStrings:  1229
 
 ```

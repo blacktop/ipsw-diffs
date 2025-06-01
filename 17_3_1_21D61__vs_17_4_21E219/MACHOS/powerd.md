@@ -87,12 +87,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libenergytrace.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB94C95E-411B-394C-9AD7-B68FB0DA4A75
 -  Functions: 2076
 -  Symbols:   524
--  CStrings:  3040
+-  CStrings:  3826
++  UUID: 3F86E8EC-7EA7-3EE9-8239-50925BE8E359
 +  Functions: 2097
 +  Symbols:   541
-+  CStrings:  3093
++  CStrings:  3888
  
 Symbols:
 + _IOPSGetYearAndWeekOfManufactureFromBatterySerial

@@ -63,12 +63,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28B083B6-1AA1-3838-8CB3-681F2EC7E23B
 -  Functions: 1102
 -  Symbols:   283
--  CStrings:  1880
+-  CStrings:  1938
++  UUID: C20CB45E-4BF4-3F2C-8311-17CA5F362587
 +  Functions: 1107
 +  Symbols:   287
-+  CStrings:  1885
++  CStrings:  1943
  
 Symbols:
 + _AXSSDeviceFrontCameraPhysicallyMountedUpsideDown

@@ -62,15 +62,14 @@
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x920
 -  __AUTH_CONST.__const: 0x9450
+-  __AUTH_CONST.__auth_got: 0x1a78
+-  __AUTH.__objc_data: 0x0
+-  __AUTH.__data: 0x240
 +  __DATA_CONST.__objc_const: 0xab30
 +  __DATA_CONST.__objc_selrefs: 0x1538
 +  __AUTH_CONST.__objc_const: 0x48
 +  __AUTH_CONST.__cfstring: 0x940
 +  __AUTH_CONST.__const: 0x9930
-   __AUTH_CONST.__auth_ptr: 0x2b0
--  __AUTH_CONST.__auth_got: 0x1a78
--  __AUTH.__objc_data: 0x0
--  __AUTH.__data: 0x240
 +  __AUTH_CONST.__auth_got: 0x1aa8
 +  __AUTH.__objc_data: 0xb8
 +  __AUTH.__data: 0x340
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 57017BA2-543C-3C3F-BB2A-E8E64BC53592
 -  Functions: 18534
 -  Symbols:   42033
--  CStrings:  3251
+-  CStrings:  3324
++  UUID: 65B66260-B4DC-3764-AA44-D41C126010D1
 +  Functions: 18767
 +  Symbols:   42517
-+  CStrings:  3303
++  CStrings:  3377
  
 Symbols:
 + -[CPApplicationLauncher launchAppForActivitySession:options:userInfo:completion:]

@@ -22,11 +22,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF2E42C5-5929-32D3-BEDF-15B91F2B6B46
 -  Functions: 18574
 -  Symbols:   43789
++  UUID: F7FD0792-C7A2-31FC-AED1-F070B621433C
 +  Functions: 18575
 +  Symbols:   43791
-   CStrings:  9282
+   CStrings:  9310
  
 Symbols:
 + _alloc_copy_partition_data

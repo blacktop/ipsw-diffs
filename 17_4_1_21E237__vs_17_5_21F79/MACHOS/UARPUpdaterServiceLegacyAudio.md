@@ -36,12 +36,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20900253-7CDE-3767-BDFD-7A40DD7FEC40
 -  Functions: 949
 -  Symbols:   1132
--  CStrings:  2254
+-  CStrings:  3093
++  UUID: 4FEFD981-0C2C-30B4-9AC7-D062F81AC97E
 +  Functions: 950
 +  Symbols:   1134
-+  CStrings:  2257
++  CStrings:  3097
  
 Symbols:
 + _getAccessoryDatabaseKeyForAccessoryID

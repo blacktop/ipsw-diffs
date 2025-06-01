@@ -52,7 +52,6 @@
    __AUTH_CONST.__const: 0x1780
 -  __AUTH_CONST.__cfstring: 0x25720
 +  __AUTH_CONST.__cfstring: 0x25880
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_intobj: 0xa98
 -  __AUTH_CONST.__objc_arrayobj: 0x1e48
 +  __AUTH_CONST.__objc_arrayobj: 0x1e78
@@ -80,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2975D059-92C6-3C28-85BA-3056CA7839B3
 -  Functions: 8469
 -  Symbols:   4195
--  CStrings:  16519
+-  CStrings:  21312
++  UUID: 8287A0D4-4A9A-3068-9F0E-BBDAABCDF987
 +  Functions: 8482
 +  Symbols:   4209
-+  CStrings:  16547
++  CStrings:  21351
  
 Symbols:
 + OBJC_IVAR_$_IDSQuickRelaySessionInfo._callType

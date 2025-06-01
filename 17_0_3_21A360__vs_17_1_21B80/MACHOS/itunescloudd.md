@@ -67,12 +67,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 426DFA06-5227-3FB2-BB26-6C5368658009
 -  Functions: 4263
 -  Symbols:   795
--  CStrings:  8114
+-  CStrings:  9468
++  UUID: 9E740CCD-1622-393D-A279-EF98B1552904
 +  Functions: 4308
 +  Symbols:   800
-+  CStrings:  8206
++  CStrings:  9579
  
 Symbols:
 + _ICStoreHTTPHeaderKeyXDAAPClientDebugFeatures

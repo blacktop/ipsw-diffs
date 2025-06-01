@@ -23,8 +23,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftDarwin.dylib
+-  UUID: 5586D104-55CB-347C-B3DD-ACD5E941DBCE
 -  Functions: 1897
 -  Symbols:   2587
++  UUID: 02779CF6-F926-3187-9DF2-C4C9B7253417
 +  Functions: 1887
 +  Symbols:   2567
    CStrings:  11

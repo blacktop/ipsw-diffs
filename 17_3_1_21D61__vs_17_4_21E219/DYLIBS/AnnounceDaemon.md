@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_const: 0x12e8
    __AUTH_CONST.__cfstring: 0x13a0
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__auth_got: 0x7e8
 +  __AUTH_CONST.__auth_got: 0x818
    __AUTH.__objc_data: 0x598
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0D8265D0-E351-3BDE-9746-AFBD292FDACF
 -  Functions: 1461
 -  Symbols:   5418
--  CStrings:  2958
+-  CStrings:  3115
++  UUID: F06E0F9F-1B75-3C2A-B248-DA656FD3E639
 +  Functions: 1484
 +  Symbols:   5399
-+  CStrings:  2987
++  CStrings:  3144
  
 Symbols:
 + -[ANRapportConnection clientQueue]

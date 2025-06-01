@@ -21,4 +21,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 82E30108-607D-3ED7-A063-81B57BAB1C0E
++  UUID: 3720547E-99FE-3007-B219-C302790C35F3
+   Functions: 3
+   Symbols:   22
+   CStrings:  23
+
 ```

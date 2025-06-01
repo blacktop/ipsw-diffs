@@ -28,7 +28,11 @@
    __DATA.__data: 0x180
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 779E6D88-0F7B-32E9-8C86-51B450544801
++  UUID: 4838AC8A-5137-3D45-9B3B-B78BCE7449B5
    Functions: 15
    Symbols:   16
 -  CStrings:  93

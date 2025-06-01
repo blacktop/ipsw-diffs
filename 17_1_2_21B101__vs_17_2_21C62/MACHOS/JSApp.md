@@ -93,11 +93,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17625279-18D5-3409-ABF2-439D0E2B1C33
 -  Functions: 3179
++  UUID: BA7E0137-6C42-362D-AC07-431E8BC7853F
 +  Functions: 3147
    Symbols:   686
--  CStrings:  2959
-+  CStrings:  2963
+-  CStrings:  3314
++  CStrings:  3318
  
 CStrings:
 + "-[JSAFeedController tearDownWithCompletion:]_block_invoke_2"

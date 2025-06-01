@@ -65,11 +65,9 @@
 -  __AUTH_CONST.__const: 0x113b8
 +  __AUTH_CONST.__const: 0x11a70
    __AUTH_CONST.__objc_dictobj: 0x230
--  __AUTH_CONST.__auth_ptr: 0x290
 -  __AUTH_CONST.__auth_got: 0x1e20
 -  __AUTH.__objc_data: 0x2948
 -  __AUTH.__data: 0x23d8
-+  __AUTH_CONST.__auth_ptr: 0x2a0
 +  __AUTH_CONST.__auth_got: 0x1e50
 +  __AUTH.__objc_data: 0x2970
 +  __AUTH.__data: 0x2518
@@ -95,12 +93,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CD8DAFC4-0119-37AF-A21A-AD014A03FC01
 -  Functions: 14979
 -  Symbols:   5028
--  CStrings:  3215
+-  CStrings:  3266
++  UUID: AEBB827E-4399-3222-98FC-C864F65C7CF4
 +  Functions: 15340
 +  Symbols:   5089
-+  CStrings:  3281
++  CStrings:  3332
  
 Symbols:
 + _OBJC_CLASS_$_VNClassificationObservation

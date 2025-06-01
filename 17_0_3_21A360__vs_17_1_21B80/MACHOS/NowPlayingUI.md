@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: 5D57801F-7C4C-3605-833C-1EAF8B2B6990
 -  Functions: 6964
 -  Symbols:   3758
--  CStrings:  3451
+-  CStrings:  3466
++  UUID: 65CB580C-2994-3A25-B840-0B5B9C97DF05
 +  Functions: 6991
 +  Symbols:   3780
-+  CStrings:  3454
++  CStrings:  3469
  
 Symbols:
 + _OBJC_CLASS_$_AVPlaybackSpeed

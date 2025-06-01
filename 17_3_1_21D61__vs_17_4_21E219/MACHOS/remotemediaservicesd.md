@@ -13,5 +13,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/RemoteMediaServices.framework/RemoteMediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B70B40AA-FD3B-39BC-A0A4-FCBB8DBD6F90
++  UUID: B0A6335B-F07A-3B82-9DF7-C3D04B88B2E5
+   Functions: 2
+   Symbols:   13
+   CStrings:  5
 
 ```

@@ -52,13 +52,16 @@
    __DATA.__data: 0x8e8
    __DATA.__bss: 0xc0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA27B30A-0468-3F61-A8B1-E20565337587
++  UUID: 3C40A7AA-B417-30F2-A455-B7B27974C8C6
    Functions: 1806
 -  Symbols:   6513
--  CStrings:  3855
+-  CStrings:  5207
 +  Symbols:   6520
-+  CStrings:  3861
++  CStrings:  5219
  
 Symbols:
 + _MOSuggestionEngagementEventNotificationDequeued

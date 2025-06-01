@@ -28,17 +28,19 @@
 -  __AUTH_CONST.__const: 0xd558
 +  __AUTH_CONST.__const: 0xd9d8
    __AUTH_CONST.__cfstring: 0xe40
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0x770
+   __DATA.__got_weak: 0x8
 
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: E8BA9C5F-0D3A-3095-A0BC-58C7A7892344
 -  Functions: 3386
 -  Symbols:   8305
++  UUID: 1315940E-AB47-37F2-8579-2CC7FB2A38B8
 +  Functions: 3396
 +  Symbols:   8331
-   CStrings:  5452
+   CStrings:  5566
  
 Symbols:
 + GCC_except_table121

@@ -20,4 +20,13 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DD373CC3-87A2-39EA-80A3-E90ABCB689F0
++  UUID: 17BFE7BC-7267-395B-A2DC-5F60E854FB10
+   Functions: 415
+   Symbols:   187
+   CStrings:  421
+
 ```

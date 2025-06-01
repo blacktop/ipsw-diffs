@@ -14,4 +14,13 @@
    __TEXT.__swift5_reflstr: 0x244
    __TEXT.__swift5_assocty: 0x118
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5F053F6D-93EF-36B8-95E3-87C58679E14E
++  UUID: 83A0F840-8293-3F98-9CED-5A6A2AB36A99
+   Functions: 675
+   Symbols:   524
+   CStrings:  113
+
 ```

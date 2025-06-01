@@ -34,7 +34,7 @@
    __AUTH_CONST.__cfstring: 0x2ea0
    __AUTH_CONST.__objc_const: 0x0
 
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__const: 0x30
    __AUTH_CONST.__auth_got: 0xa30
 -  __DATA.__got_weak: 0x10
@@ -49,11 +49,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 23E0A7A7-434A-3C5B-A6EE-6745E8B319B8
 -  Functions: 1485
++  UUID: B1315BE4-395F-3894-BFC0-AF19BB78AB13
 +  Functions: 1499
    Symbols:   531
--  CStrings:  1312
-+  CStrings:  1313
+-  CStrings:  1685
++  CStrings:  1686
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -40,13 +40,16 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x360
 
+   - /System/Library/PrivateFrameworks/VideosUI.framework/VideosUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96620169-3DA2-3A6B-B6C1-C2D28BDA37F7
++  UUID: 5261F67E-435D-36E2-9195-F079EA8DFE48
    Functions: 206
 -  Symbols:   174
--  CStrings:  578
+-  CStrings:  619
 +  Symbols:   176
-+  CStrings:  579
++  CStrings:  620
  
 Symbols:
 + _VSMetricClickTargetIdentityProvider

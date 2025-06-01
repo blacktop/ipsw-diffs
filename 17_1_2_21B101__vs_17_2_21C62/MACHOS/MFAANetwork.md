@@ -32,12 +32,15 @@
    __DATA_CONST.__objc_classlist: 0x20
    __DATA_CONST.__objc_catlist: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2B0AC7F8-B6F3-38B4-97D8-6F809E5E9F0F
++  UUID: D2037CFC-A883-38AD-90A2-6B2C0988C2C5
    Functions: 848
 -  Symbols:   4424
 +  Symbols:   4425
-   CStrings:  648
+   CStrings:  790
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/4f96e3a2-905b-11ee-9a19-8efc15467d2d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.Internal.sdk/usr/local/lib/security_libDER/libDER.a(DER_Decode.o)

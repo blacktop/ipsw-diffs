@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E19A5FDD-4E2F-3230-BDAB-CFE10D0607F4
 -  Functions: 5
 -  Symbols:   73
--  CStrings:  23
+-  CStrings:  24
++  UUID: 80BAF88B-1D0F-3837-A19C-7EE4CD24B2D7
 +  Functions: 6
 +  Symbols:   82
-+  CStrings:  24
++  CStrings:  25
  
 Symbols:
 + +[QLTextThumbnailRenderer mutableAttributedStringForThumbnailWithURL:documentAttributes:error:]

@@ -33,4 +33,13 @@
    __DATA_DIRTY.__common: 0xc
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C4C2186B-E97A-36AE-B393-BE082D3E0ED7
++  UUID: 14E157B7-66DF-393D-B422-43B3CDBECF4E
+   Functions: 1663
+   Symbols:   5462
+   CStrings:  2799
+
 ```

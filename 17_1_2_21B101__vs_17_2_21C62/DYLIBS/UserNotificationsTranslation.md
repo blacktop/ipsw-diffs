@@ -28,13 +28,16 @@
    __AUTH_CONST.__objc_const: 0x40
    __AUTH_CONST.__auth_got: 0xc0
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69665B01-AACC-3BED-AEA9-E419FC9E5CCB
++  UUID: DAC52D0B-FBA3-385B-97CE-F0B02CADE04F
    Functions: 3
 -  Symbols:   260
--  CStrings:  201
+-  CStrings:  210
 +  Symbols:   262
-+  CStrings:  203
++  CStrings:  212
  
 Symbols:
 + _objc_msgSend$setSpeechLanguage:

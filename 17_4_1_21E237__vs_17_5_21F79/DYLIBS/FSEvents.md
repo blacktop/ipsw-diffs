@@ -17,4 +17,13 @@
    __DATA_CONST.__const: 0xe0
    __AUTH_CONST.__cfstring: 0x80
 
+   __DATA_DIRTY.__bss: 0x1c
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 946E9059-9F4E-36F2-91F2-4D351F987EDF
++  UUID: 4F690040-239D-3D36-AF2F-5BF7CC9E5337
+   Functions: 201
+   Symbols:   514
+   CStrings:  174
+
 ```

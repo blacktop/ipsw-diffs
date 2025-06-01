@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8068DADC-78DB-3333-87A1-FEB2771E67A1
 -  Functions: 570
 -  Symbols:   2566
--  CStrings:  1123
+-  CStrings:  1262
++  UUID: 80F9B7E2-9DC9-3091-ABDD-4DF2908DBFCE
 +  Functions: 572
 +  Symbols:   2576
-+  CStrings:  1129
++  CStrings:  1269
  
 Symbols:
 + -[MEMessage initWithState:encryptionState:signatureState:subject:recipients:from:dataSent:dateReceived:headers:rawData:senderMetadata:]

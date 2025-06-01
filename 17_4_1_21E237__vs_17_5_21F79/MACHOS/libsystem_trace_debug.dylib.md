@@ -15,4 +15,13 @@
    __TEXT.__unwind_info: 0x138
    __DATA_CONST.__got: 0x20
 
+   - /System/DriverKit/usr/lib/system/libsystem_malloc.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+-  UUID: CF43D16B-FB29-386F-BCE6-CFFF701093C3
++  UUID: 93C682E6-D47D-31EC-8B99-D78972C73DB8
+   Functions: 75
+   Symbols:   119
+   CStrings:  106
+
 ```

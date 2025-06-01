@@ -24,11 +24,15 @@
    __TEXT.__unwind_info: 0x39d4
    __DATA_CONST.__auth_got: 0x3a8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 261B0ACC-8DDD-3935-8D58-5A20A807B070
++  UUID: DE38D51E-D020-35DE-BB4F-964817E7B266
    Functions: 2008
    Symbols:   863
--  CStrings:  3659
-+  CStrings:  3660
+-  CStrings:  4385
++  CStrings:  4386
  
 CStrings:
 + "#Warning Reset password because host was changed, account %@ "

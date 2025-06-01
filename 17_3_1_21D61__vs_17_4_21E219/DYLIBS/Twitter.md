@@ -18,5 +18,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Social.framework/Social
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EAA47A49-C231-350D-B93E-89CE17E98175
++  UUID: EB795269-A127-354B-AA78-81EB44DD9094
+   Functions: 23
+   Symbols:   93
+   CStrings:  63
 
 ```

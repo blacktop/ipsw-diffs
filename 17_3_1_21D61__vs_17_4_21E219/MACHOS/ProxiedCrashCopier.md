@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/IDS.framework/IDS
 
+   - /System/Library/PrivateFrameworks/OSAnalyticsPrivate.framework/OSAnalyticsPrivate
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F83FEC5A-FB27-3C30-8797-7E8DEDA71D60
++  UUID: DE856684-C2D9-3F21-9C7E-D300B1DC7836
+   Functions: 2
+   Symbols:   20
+   CStrings:  10
+
 ```

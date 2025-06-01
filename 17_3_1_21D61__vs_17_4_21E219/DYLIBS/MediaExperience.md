@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__const: 0x33c8
 +  __AUTH_CONST.__objc_const: 0xdc0
 +  __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xef0
@@ -84,12 +83,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C09942AF-F575-363E-834C-864D89857E2A
 -  Functions: 4804
 -  Symbols:   15538
--  CStrings:  8611
+-  CStrings:  11308
++  UUID: 07D371D5-6AED-336A-9424-C9958DE34F0A
 +  Functions: 4888
 +  Symbols:   15853
-+  CStrings:  8811
++  CStrings:  11538
  
 Symbols:
 + +[MXAdditiveRoutingManager sharedInstance]

@@ -28,13 +28,16 @@
    __DATA_CONST.__const: 0x848
    __DATA_CONST.__objc_classlist: 0x120
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 33989F86-0FE0-32A6-807A-FFEB77051B82
++  UUID: ECD72036-4C94-3191-9D32-9B188CD46C7F
    Functions: 1802
 -  Symbols:   3860
--  CStrings:  2106
+-  CStrings:  2411
 +  Symbols:   3859
-+  CStrings:  2105
++  CStrings:  2410
  
 Symbols:
 - _objc_msgSend$_canMoveTopic:fromList:toList:connection:

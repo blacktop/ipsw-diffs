@@ -31,12 +31,15 @@
    __DATA.__objc_classrefs: 0x98
    __DATA.__objc_superrefs: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B120F2F-166B-33A6-98F1-E0CF74727A03
++  UUID: 3A20CDE7-BB04-34CE-9E3B-B112EF1F2191
    Functions: 61
 -  Symbols:   437
 +  Symbols:   435
-   CStrings:  390
+   CStrings:  404
  
 Symbols:
 - _objc_autoreleasePoolPop

@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 70EA0879-F444-3D76-BD8E-8F5EF051BBE8
 -  Functions: 5935
 -  Symbols:   568
--  CStrings:  8407
+-  CStrings:  9734
++  UUID: DE8C94BA-8AE3-348E-B79C-A4C0CD7B2B79
 +  Functions: 5969
 +  Symbols:   571
-+  CStrings:  8453
++  CStrings:  9788
  
 Symbols:
 + _FMDRepairDeviceThisDeviceIdentifier

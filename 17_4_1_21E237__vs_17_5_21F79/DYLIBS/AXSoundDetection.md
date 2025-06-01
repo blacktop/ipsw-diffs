@@ -48,12 +48,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 052A8736-AF4F-3398-9139-F8B68EBAD786
 -  Functions: 76
 -  Symbols:   384
--  CStrings:  296
+-  CStrings:  446
++  UUID: DD8C2BDB-5681-321F-8400-69830D957679
 +  Functions: 79
 +  Symbols:   392
-+  CStrings:  299
++  CStrings:  450
  
 Symbols:
 + -[AXSDSettings forceMedinaSupport]

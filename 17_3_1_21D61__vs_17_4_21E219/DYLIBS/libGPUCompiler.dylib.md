@@ -25,8 +25,10 @@
    - /usr/lib/libLLVM.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 81AE8DE0-ED2A-3054-B672-B07AE4A10C1B
 -  Functions: 263
 -  Symbols:   275
++  UUID: D1CA6004-5818-3482-8AFC-27E1F2D27D61
 +  Functions: 266
 +  Symbols:   274
    CStrings:  18

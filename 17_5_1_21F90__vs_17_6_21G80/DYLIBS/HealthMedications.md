@@ -63,12 +63,14 @@
    - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48CA8954-C806-3228-B4C2-93C0C572B775
 -  Functions: 688
 -  Symbols:   2562
--  CStrings:  1399
+-  CStrings:  1762
++  UUID: 60072AC0-9563-3222-801E-55D486FF19D2
 +  Functions: 720
 +  Symbols:   2661
-+  CStrings:  1446
++  CStrings:  1818
  
 Symbols:
 + +[HKMedicationsAccountDevicesInfo supportsSecureCoding]

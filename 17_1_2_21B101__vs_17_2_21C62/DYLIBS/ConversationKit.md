@@ -64,12 +64,10 @@
    __AUTH_CONST.__cfstring: 0x1e0
    __AUTH_CONST.__objc_const: 0x1470
 -  __AUTH_CONST.__const: 0x26bc0
--  __AUTH_CONST.__auth_ptr: 0x860
 -  __AUTH_CONST.__auth_got: 0x30b8
 -  __AUTH.__objc_data: 0xc1b8
 -  __AUTH.__data: 0xa500
 +  __AUTH_CONST.__const: 0x27688
-+  __AUTH_CONST.__auth_ptr: 0x870
 +  __AUTH_CONST.__auth_got: 0x3158
 +  __AUTH.__objc_data: 0xc290
 +  __AUTH.__data: 0xaab0
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 10A95C03-5658-386A-A4FF-ACCC89675B84
 -  Functions: 48860
 -  Symbols:   105323
--  CStrings:  8356
+-  CStrings:  8371
++  UUID: A0FC9565-6C74-3A99-BBB7-4543EE1A786F
 +  Functions: 49602
 +  Symbols:   107071
-+  CStrings:  8417
++  CStrings:  8432
  
 Symbols:
 + _$s10Foundation13URLComponentsV4hostSSSgvs

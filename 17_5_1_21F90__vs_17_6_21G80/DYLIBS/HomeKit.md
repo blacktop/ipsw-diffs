@@ -49,7 +49,7 @@
    __AUTH_CONST.__const: 0x19c0
    __AUTH_CONST.__objc_intobj: 0x798
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__auth_got: 0x6a8
    __AUTH.__objc_data: 0x7df0
 -  __DATA.__objc_ivar: 0x2260
@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC973D4E-950D-3EB2-BCC9-101AC305F278
 -  Functions: 12840
 -  Symbols:   40968
--  CStrings:  18956
+-  CStrings:  23548
++  UUID: 00295FB4-4C8A-33F5-96D5-6957A2A57946
 +  Functions: 12864
 +  Symbols:   41027
-+  CStrings:  18996
++  CStrings:  23595
  
 Symbols:
 + +[HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo nearbyVisibleDeviceInfosType]

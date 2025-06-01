@@ -20,6 +20,15 @@
    __TEXT.__objc_methtype: 0x2b26
    __TEXT.__objc_stubs: 0x7820
    __DATA_CONST.__got: 0x2b8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 564869E1-65FF-333D-8104-5F36E9E192D0
++  UUID: 39E19F96-1217-3489-8072-AB3E1A6AFF08
+   Functions: 4642
+   Symbols:   9001
+   CStrings:  4088
 CStrings:
 + "metadataByAddingEffectiveBundleIdentifiers:mangledTypeNameByBundleIdentifier:"
 - "metadataByAddingEffectiveBundleIdentifiers:mangledTypeName:"

@@ -42,13 +42,16 @@
    __DATA_CONST.__objc_intobj: 0xc0
    __DATA_CONST.__objc_arraydata: 0x48
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D667E2F1-91FE-3469-B75F-BB7C02F12EC6
++  UUID: A6FA1182-B11D-305D-8D90-E779D9FA19EF
    Functions: 2609
 -  Symbols:   956
--  CStrings:  3833
+-  CStrings:  4176
 +  Symbols:   957
-+  CStrings:  3832
++  CStrings:  4175
  
 Symbols:
 + _OBJC_CLASS_$_HUBridgeListViewController

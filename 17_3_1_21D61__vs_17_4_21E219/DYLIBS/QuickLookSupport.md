@@ -35,7 +35,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7e0
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0x198
@@ -57,12 +56,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E1F9A1AC-6A9F-348F-A44F-31287AF21801
 -  Functions: 652
 -  Symbols:   2457
--  CStrings:  1100
+-  CStrings:  1228
++  UUID: EC327BD3-7E9B-3212-AFBE-9F25955E6D47
 +  Functions: 653
 +  Symbols:   2453
-+  CStrings:  1101
++  CStrings:  1229
  
 Symbols:
 + _CGImageCreateWithImageInRect

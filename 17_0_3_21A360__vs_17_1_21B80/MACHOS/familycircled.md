@@ -26,11 +26,15 @@
    __DATA_CONST.__got: 0x100
    __DATA_CONST.__const: 0x1538
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 4A30E11E-8E4A-3864-A25D-C9708E587FC9
++  UUID: CFD0D559-E1C4-397C-9DF0-F28D75071834
    Functions: 745
    Symbols:   210
--  CStrings:  1411
-+  CStrings:  1415
+-  CStrings:  1564
++  CStrings:  1568
  
 CStrings:
 + "FADeleteFamilyOperation deleteFamily complete with: %@"

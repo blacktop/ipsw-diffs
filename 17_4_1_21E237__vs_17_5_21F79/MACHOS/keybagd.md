@@ -32,11 +32,15 @@
    __DATA_CONST.__objc_protolist: 0x20
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 294E3D68-E722-319A-A7C3-79A5DAA8227D
++  UUID: A5856EE5-143D-37BE-8B7D-8967A3339EAA
    Functions: 449
    Symbols:   376
--  CStrings:  1326
-+  CStrings:  1325
+-  CStrings:  1932
++  CStrings:  1930
  
 CStrings:
 - "AnalyticsEvent: status: %llu"

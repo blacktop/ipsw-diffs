@@ -116,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BEFEB733-67C5-30ED-8B9E-484B8EEDB370
 -  Functions: 6559
 -  Symbols:   1226
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 74110049-A984-3C48-934F-31FEFD659BD7
 +  Functions: 6520
 +  Symbols:   1238
-   CStrings:  8596
+   CStrings:  10792
  
 Symbols:
 + _$s9SEService10TCCContextC10TCCServiceO18serviceEntitlementSSvg

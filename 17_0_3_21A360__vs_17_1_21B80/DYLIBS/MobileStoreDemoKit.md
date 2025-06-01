@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3816AB21-AFE8-32C8-A922-BCA5BA2CEA52
 -  Functions: 967
 -  Symbols:   3276
--  CStrings:  2106
+-  CStrings:  2632
++  UUID: 76318D80-C5B8-345A-9401-8DAE8542837E
 +  Functions: 985
 +  Symbols:   3329
-+  CStrings:  2149
++  CStrings:  2687
  
 Symbols:
 + +[MSDDomainsPlistPatcher patchDomainsPlist:].cold.22

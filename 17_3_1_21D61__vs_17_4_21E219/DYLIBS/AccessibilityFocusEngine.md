@@ -36,12 +36,15 @@
    __DATA.__data: 0x60
    __DATA.__bss: 0x1
 
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 50118E31-255D-3917-99C6-A67A19382DD8
++  UUID: 8BCB3973-5918-3C37-B489-94A964E543D5
    Functions: 92
 -  Symbols:   394
 +  Symbols:   395
-   CStrings:  200
+   CStrings:  204
  
 Symbols:
 + _AXSharingUIServiceName

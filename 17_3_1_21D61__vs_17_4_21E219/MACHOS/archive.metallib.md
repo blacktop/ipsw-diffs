@@ -1,0 +1,137 @@
+## archive.metallib
+
+> `/System/Library/PrivateFrameworks/MentalHealthUI.framework/archive.metallib`
+
+```diff
+
+   __TEXT.__fragment: 0x5a80
+   __TEXT.__compute: 0xc470
+   __TEXT.__reflection: 0x6ea0
+-  UUID: C127013A-1C9D-3915-BC20-E9A278F1FED2
++  UUID: 0517CF73-4D5E-3DC2-AA23-5A0010BC9AC4
+   Functions: 0
+   Symbols:   328
+   CStrings:  0
+Symbols:
++ _air-lipo-6541fe.out_10_descriptor_begin
++ _air-lipo-6541fe.out_10_descriptor_end
++ _air-lipo-6541fe.out_11_descriptor_begin
++ _air-lipo-6541fe.out_11_descriptor_end
++ _air-lipo-6541fe.out_12_descriptor_begin
++ _air-lipo-6541fe.out_12_descriptor_end
++ _air-lipo-6541fe.out_13_descriptor_begin
++ _air-lipo-6541fe.out_13_descriptor_end
++ _air-lipo-6541fe.out_14_descriptor_begin
++ _air-lipo-6541fe.out_14_descriptor_end
++ _air-lipo-6541fe.out_15_descriptor_begin
++ _air-lipo-6541fe.out_15_descriptor_end
++ _air-lipo-6541fe.out_16_descriptor_begin
++ _air-lipo-6541fe.out_16_descriptor_end
++ _air-lipo-6541fe.out_17_descriptor_begin
++ _air-lipo-6541fe.out_17_descriptor_end
++ _air-lipo-6541fe.out_18_descriptor_begin
++ _air-lipo-6541fe.out_18_descriptor_end
++ _air-lipo-6541fe.out_19_descriptor_begin
++ _air-lipo-6541fe.out_19_descriptor_end
++ _air-lipo-6541fe.out_1_descriptor_begin
++ _air-lipo-6541fe.out_1_descriptor_end
++ _air-lipo-6541fe.out_1_metallib_begin
++ _air-lipo-6541fe.out_1_metallib_end
++ _air-lipo-6541fe.out_20_descriptor_begin
++ _air-lipo-6541fe.out_20_descriptor_end
++ _air-lipo-6541fe.out_21_descriptor_begin
++ _air-lipo-6541fe.out_21_descriptor_end
++ _air-lipo-6541fe.out_2_descriptor_begin
++ _air-lipo-6541fe.out_2_descriptor_end
++ _air-lipo-6541fe.out_2_metallib_begin
++ _air-lipo-6541fe.out_2_metallib_end
++ _air-lipo-6541fe.out_3_descriptor_begin
++ _air-lipo-6541fe.out_3_descriptor_end
++ _air-lipo-6541fe.out_3_metallib_begin
++ _air-lipo-6541fe.out_3_metallib_end
++ _air-lipo-6541fe.out_4_descriptor_begin
++ _air-lipo-6541fe.out_4_descriptor_end
++ _air-lipo-6541fe.out_4_metallib_begin
++ _air-lipo-6541fe.out_4_metallib_end
++ _air-lipo-6541fe.out_5_descriptor_begin
++ _air-lipo-6541fe.out_5_descriptor_end
++ _air-lipo-6541fe.out_5_metallib_begin
++ _air-lipo-6541fe.out_5_metallib_end
++ _air-lipo-6541fe.out_6_descriptor_begin
++ _air-lipo-6541fe.out_6_descriptor_end
++ _air-lipo-6541fe.out_6_metallib_begin
++ _air-lipo-6541fe.out_6_metallib_end
++ _air-lipo-6541fe.out_7_descriptor_begin
++ _air-lipo-6541fe.out_7_descriptor_end
++ _air-lipo-6541fe.out_7_metallib_begin
++ _air-lipo-6541fe.out_7_metallib_end
++ _air-lipo-6541fe.out_8_descriptor_begin
++ _air-lipo-6541fe.out_8_descriptor_end
++ _air-lipo-6541fe.out_9_descriptor_begin
++ _air-lipo-6541fe.out_9_descriptor_end
++ _air-lipo-6541fe.out_descriptor_begin
++ _air-lipo-6541fe.out_descriptor_end
++ _air-lipo-6541fe.out_metallib_begin
++ _air-lipo-6541fe.out_metallib_end
+- _air-lipo-473410.out_10_descriptor_begin
+- _air-lipo-473410.out_10_descriptor_end
+- _air-lipo-473410.out_11_descriptor_begin
+- _air-lipo-473410.out_11_descriptor_end
+- _air-lipo-473410.out_12_descriptor_begin
+- _air-lipo-473410.out_12_descriptor_end
+- _air-lipo-473410.out_13_descriptor_begin
+- _air-lipo-473410.out_13_descriptor_end
+- _air-lipo-473410.out_14_descriptor_begin
+- _air-lipo-473410.out_14_descriptor_end
+- _air-lipo-473410.out_15_descriptor_begin
+- _air-lipo-473410.out_15_descriptor_end
+- _air-lipo-473410.out_16_descriptor_begin
+- _air-lipo-473410.out_16_descriptor_end
+- _air-lipo-473410.out_17_descriptor_begin
+- _air-lipo-473410.out_17_descriptor_end
+- _air-lipo-473410.out_18_descriptor_begin
+- _air-lipo-473410.out_18_descriptor_end
+- _air-lipo-473410.out_19_descriptor_begin
+- _air-lipo-473410.out_19_descriptor_end
+- _air-lipo-473410.out_1_descriptor_begin
+- _air-lipo-473410.out_1_descriptor_end
+- _air-lipo-473410.out_1_metallib_begin
+- _air-lipo-473410.out_1_metallib_end
+- _air-lipo-473410.out_20_descriptor_begin
+- _air-lipo-473410.out_20_descriptor_end
+- _air-lipo-473410.out_21_descriptor_begin
+- _air-lipo-473410.out_21_descriptor_end
+- _air-lipo-473410.out_2_descriptor_begin
+- _air-lipo-473410.out_2_descriptor_end
+- _air-lipo-473410.out_2_metallib_begin
+- _air-lipo-473410.out_2_metallib_end
+- _air-lipo-473410.out_3_descriptor_begin
+- _air-lipo-473410.out_3_descriptor_end
+- _air-lipo-473410.out_3_metallib_begin
+- _air-lipo-473410.out_3_metallib_end
+- _air-lipo-473410.out_4_descriptor_begin
+- _air-lipo-473410.out_4_descriptor_end
+- _air-lipo-473410.out_4_metallib_begin
+- _air-lipo-473410.out_4_metallib_end
+- _air-lipo-473410.out_5_descriptor_begin
+- _air-lipo-473410.out_5_descriptor_end
+- _air-lipo-473410.out_5_metallib_begin
+- _air-lipo-473410.out_5_metallib_end
+- _air-lipo-473410.out_6_descriptor_begin
+- _air-lipo-473410.out_6_descriptor_end
+- _air-lipo-473410.out_6_metallib_begin
+- _air-lipo-473410.out_6_metallib_end
+- _air-lipo-473410.out_7_descriptor_begin
+- _air-lipo-473410.out_7_descriptor_end
+- _air-lipo-473410.out_7_metallib_begin
+- _air-lipo-473410.out_7_metallib_end
+- _air-lipo-473410.out_8_descriptor_begin
+- _air-lipo-473410.out_8_descriptor_end
+- _air-lipo-473410.out_9_descriptor_begin
+- _air-lipo-473410.out_9_descriptor_end
+- _air-lipo-473410.out_descriptor_begin
+- _air-lipo-473410.out_descriptor_end
+- _air-lipo-473410.out_metallib_begin
+- _air-lipo-473410.out_metallib_end
+
+```

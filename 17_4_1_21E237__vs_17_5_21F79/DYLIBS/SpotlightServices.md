@@ -22,8 +22,8 @@
    __TEXT.__objc_stubs: 0x15220
    __DATA_CONST.__got: 0xb78
 
+   __AUTH_CONST.__objc_arrayobj: 0x498
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__auth_got: 0xa10
 -  __AUTH.__objc_data: 0x610
 +  __AUTH.__objc_data: 0x660
@@ -42,6 +42,15 @@
    __DATA_DIRTY.__bss: 0x4cf0
    __DATA_DIRTY.__common: 0x28
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8204E396-1F5B-3E15-BBF6-F2622B2461D4
++  UUID: 0ED6E17A-9EF2-3CED-A6FA-DA4A6873F63F
+   Functions: 4068
+   Symbols:   14829
+   CStrings:  15134
 Symbols:
 + -[SSBullseyeSuggestionsManager release2022_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
 + -[SSBullseyeSuggestionsManager release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]

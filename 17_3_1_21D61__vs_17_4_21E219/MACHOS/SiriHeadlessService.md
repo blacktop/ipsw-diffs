@@ -36,6 +36,11 @@
    - /System/Library/PrivateFrameworks/SiriVOX.framework/SiriVOX
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CA8215C-98B3-3CEC-A2CD-F29A53D57D32
++  UUID: 3600F590-706B-3CEE-B84D-06FEC002A4B2
+   Functions: 7
+   Symbols:   27
+   CStrings:  26
 CStrings:
 + "386"
 + "SiriVOX-3304.50.1"

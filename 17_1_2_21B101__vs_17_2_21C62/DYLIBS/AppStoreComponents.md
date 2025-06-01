@@ -58,7 +58,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x980
 +  __AUTH_CONST.__const: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x98
    __AUTH_CONST.__auth_got: 0xbc0
 -  __AUTH.__objc_data: 0x150
 +  __AUTH.__objc_data: 0x1f0
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4052A2E3-B2F4-3FC6-958F-7082F1DB2F4C
 -  Functions: 3139
 -  Symbols:   8540
--  CStrings:  3561
+-  CStrings:  4030
++  UUID: B4E4F650-8C9C-30BC-A66E-293763933A8A
 +  Functions: 3187
 +  Symbols:   8688
-+  CStrings:  3621
++  CStrings:  4099
  
 Symbols:
 + +[ASCContingentOffer supportsSecureCoding]

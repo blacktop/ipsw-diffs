@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 500EAFFE-85CE-320D-909C-7D21ACEB67C4
++  UUID: 05B803F3-E03D-3870-80CA-702437BE4CF8
    Functions: 20
    Symbols:   297
--  CStrings:  220
-+  CStrings:  221
+-  CStrings:  277
++  CStrings:  278
  
 CStrings:
 + "T@\"NSString\",?,R,C"

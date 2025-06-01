@@ -20,8 +20,11 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__got: 0x70
 
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 7F2F5C71-A1F8-37D7-AFC9-003955C0C813
++  UUID: 9B02389B-C950-3F31-92BB-D9DA9FABCA81
    Functions: 307
 -  Symbols:   133
 -  CStrings:  15

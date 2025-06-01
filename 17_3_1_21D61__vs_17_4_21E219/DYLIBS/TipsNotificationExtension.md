@@ -25,6 +25,15 @@
    __DATA.__data: 0x8
    __DATA.__common: 0x8
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6898BB3F-E483-3FF6-A0E0-F76BE52E88BA
++  UUID: 4E812B2E-7BF9-3D3D-8CC5-69BD4E56C316
+   Functions: 16
+   Symbols:   132
+   CStrings:  96
 Symbols:
 + ___block_literal_global.240
 + ___block_literal_global.249

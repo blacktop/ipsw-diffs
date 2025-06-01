@@ -36,6 +36,15 @@
    __DATA_DIRTY.__bss: 0xf68
    __DATA_DIRTY.__common: 0x28
    - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7751C606-A2D6-399A-8654-1E3AB8F8C91C
++  UUID: 77BEE200-F351-3D06-B003-654E9E4982F3
+   Functions: 7406
+   Symbols:   19269
+   CStrings:  13366
 Symbols:
 + ___61-[MUPlaceInfoSectionController _loadPlaceInfoContentIfNeeded]_block_invoke_2.45
 + ___block_literal_global.130

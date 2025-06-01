@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A55EBB8A-2D37-365B-A2A2-3689D1757823
 -  Functions: 1423
 -  Symbols:   5186
--  CStrings:  2128
+-  CStrings:  2349
++  UUID: D90A10F5-2E13-3269-B406-208F3C081332
 +  Functions: 1476
 +  Symbols:   5333
-+  CStrings:  2179
++  CStrings:  2398
  
 Symbols:
 + -[TUIAccountKeySpecifierButtonCell refreshCellContentsWithSpecifier:].cold.1

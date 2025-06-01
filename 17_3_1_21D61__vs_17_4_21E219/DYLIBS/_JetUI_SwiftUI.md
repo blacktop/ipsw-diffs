@@ -28,7 +28,6 @@
    __DATA_CONST.__objc_selrefs: 0x10
 +  __DATA_CONST.__objc_classrefs: 0x8
    __AUTH_CONST.__const: 0x9f8
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__auth_got: 0x668
    __AUTH.__data: 0x30
 -  __DATA.__objc_classrefs: 0x8
@@ -44,8 +43,11 @@
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftCoreFoundation.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8BB9EBFB-26AE-3B52-876F-0E84C991B42E
++  UUID: C5386B2B-0EE8-3632-8513-21913EE81C7F
    Functions: 360
 -  Symbols:   263
 +  Symbols:   265

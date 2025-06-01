@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA30C554-43A5-35CC-BE65-ADE2DB3C21C8
 -  Functions: 767
 -  Symbols:   1358
--  CStrings:  591
+-  CStrings:  686
++  UUID: 072274DB-6A53-3B7B-B9B3-55EAC4D5BAB3
 +  Functions: 776
 +  Symbols:   1388
-+  CStrings:  634
++  CStrings:  745
  
 Symbols:
 + -[Ace3UpdaterInstance namePrefix]

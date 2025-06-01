@@ -37,13 +37,16 @@
    __AUTH_CONST.__objc_const: 0x32a8
    __AUTH_CONST.__cfstring: 0x7520
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3DAB195-5E1B-3727-9D81-F185C1E15A5B
++  UUID: 7B66B805-074B-3971-AC01-1E8ECF0C38A6
    Functions: 3446
 -  Symbols:   12236
--  CStrings:  6165
+-  CStrings:  7102
 +  Symbols:   12237
-+  CStrings:  6167
++  CStrings:  7104
  
 Symbols:
 + _objc_msgSend$dismissBuddyIfNecessary

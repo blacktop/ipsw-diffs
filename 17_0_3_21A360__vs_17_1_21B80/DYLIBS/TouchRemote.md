@@ -46,12 +46,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 33A44A6C-CEB3-33F3-BAFA-DFA91ECAD3E5
 -  Functions: 962
 -  Symbols:   3670
--  CStrings:  1657
+-  CStrings:  1904
++  UUID: 5E33A58A-9670-30E7-9941-38B45FA39385
 +  Functions: 964
 +  Symbols:   3675
-+  CStrings:  1661
++  CStrings:  1908
  
 Symbols:
 + -[TRAuthenticationOperation setShouldSetupHomePod:]

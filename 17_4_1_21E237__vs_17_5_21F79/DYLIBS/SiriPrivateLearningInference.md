@@ -52,9 +52,7 @@
    __DATA_CONST.__objc_protorefs: 0x38
    __DATA_CONST.__objc_classrefs: 0x310
 -  __AUTH_CONST.__const: 0xafe8
--  __AUTH_CONST.__auth_ptr: 0x4d0
 +  __AUTH_CONST.__const: 0xb168
-+  __AUTH_CONST.__auth_ptr: 0x4c0
    __AUTH_CONST.__cfstring: 0x760
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0x1508
@@ -78,12 +76,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 731A0CD0-777D-389A-820D-78F56AFDBA91
 -  Functions: 9209
 -  Symbols:   2727
--  CStrings:  1426
+-  CStrings:  1485
++  UUID: 29705D2B-8E78-3CE0-892E-3F723B7FB872
 +  Functions: 9294
 +  Symbols:   2736
-+  CStrings:  1432
++  CStrings:  1491
  
 Symbols:
 + _symbolic $s28SiriPrivateLearningInference27FeaturisedSessionClassifierP

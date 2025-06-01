@@ -76,7 +76,6 @@
 +  __AUTH_CONST.__cfstring: 0x3720
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x160
 -  __AUTH_CONST.__auth_got: 0x1810
 -  __AUTH.__objc_data: 0x24b8
 -  __AUTH.__data: 0x24e0
@@ -87,7 +86,6 @@
 -  __DATA.__data: 0x7fd8
 -  __DATA.__bss: 0xb620
 -  __DATA.__common: 0x60
-+  __AUTH_CONST.__auth_ptr: 0x190
 +  __AUTH_CONST.__auth_got: 0x18a0
 +  __AUTH.__objc_data: 0x2488
 +  __AUTH.__data: 0x27c8
@@ -108,12 +106,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 54F79750-144E-36D9-B3F1-3D606ACAEA13
 -  Functions: 10132
 -  Symbols:   13362
--  CStrings:  3635
+-  CStrings:  4075
++  UUID: EFDF6838-6D43-3E69-906B-5238AB709FDC
 +  Functions: 11107
 +  Symbols:   14041
-+  CStrings:  3713
++  CStrings:  4154
  
 Symbols:
 + -[SKCloudServiceSetupViewController _reportCompletionForInlineOfferUnsupported]

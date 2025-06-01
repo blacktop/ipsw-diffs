@@ -42,13 +42,16 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D1B9C451-4F06-34AF-8725-A46C18A0F3A2
++  UUID: 73B8FE45-131E-3B99-87DE-41AF32989E58
    Functions: 1025
 -  Symbols:   4003
--  CStrings:  2291
+-  CStrings:  2692
 +  Symbols:   4000
-+  CStrings:  2289
++  CStrings:  2690
  
 Symbols:
 + ___86-[UIDocumentBrowserViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.110

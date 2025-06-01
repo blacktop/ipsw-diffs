@@ -18,7 +18,6 @@
    __TEXT.__eh_frame: 0x88
    __DATA_CONST.__got: 0xf0
    __DATA_CONST.__const: 0x7408
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x668
 +  __AUTH_CONST.__auth_got: 0x658
    __DATA.__data: 0x130
@@ -33,8 +32,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E67556E9-89E7-3A51-BDE0-068E4C07DD15
 -  Functions: 9238
 -  Symbols:   23496
++  UUID: DF572B7E-2F1C-341C-9C41-2F34A39CB1AD
 +  Functions: 9323
 +  Symbols:   23596
    CStrings:  3263

@@ -13,4 +13,13 @@
    __TEXT.__objc_classname: 0x6da0
    __TEXT.__objc_methname: 0x55405
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 95CFE77C-7104-32BE-9076-8C9621F2ED40
++  UUID: 57E4131B-C629-3AED-BC6C-ECD3D8F07862
+   Functions: 28283
+   Symbols:   91734
+   CStrings:  32291
+
 ```

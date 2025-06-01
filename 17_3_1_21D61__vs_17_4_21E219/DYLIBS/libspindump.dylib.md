@@ -31,7 +31,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x10
 +  __AUTH_CONST.__const: 0xc0
 +  __AUTH_CONST.__cfstring: 0x40
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x1f0
    __DATA.__crash_info: 0x40
 -  __DATA.__bss: 0x50
@@ -43,13 +42,15 @@
 +  - /System/Library/Frameworks/Foundation.framework/Foundation
 +  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
+-  UUID: 1BFDC2B1-FC20-3A7C-A75F-B7F2C4B3D7A6
 -  Functions: 75
 -  Symbols:   233
--  CStrings:  86
+-  CStrings:  87
 +  - /usr/lib/libobjc.A.dylib
++  UUID: C0660672-A065-3BBF-A85D-F80443DF26A1
 +  Functions: 76
 +  Symbols:   257
-+  CStrings:  97
++  CStrings:  99
  
 Symbols:
 + _OBJC_CLASS_$_NSBundle

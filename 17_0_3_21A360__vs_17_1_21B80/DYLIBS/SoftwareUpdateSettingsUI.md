@@ -51,8 +51,7 @@
 +  __AUTH_CONST.__objc_const: 0x6b0
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
-
+   __AUTH_CONST.__auth_got: 0x288
    __AUTH.__objc_data: 0x550
    __DATA.__objc_classrefs: 0x320
    __DATA.__objc_superrefs: 0x88
@@ -65,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3687754C-4C4C-36F0-A3CB-DB03EAB9A350
 -  Functions: 1060
 -  Symbols:   5305
--  CStrings:  2374
+-  CStrings:  2732
++  UUID: CD423552-6F22-3053-A111-A1C054916D8A
 +  Functions: 1067
 +  Symbols:   5316
-+  CStrings:  2386
++  CStrings:  2742
  
 Symbols:
 + +[SUSUISoftwareUpdateManager timeRemainingForProgress:isValid:]

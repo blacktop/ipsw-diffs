@@ -44,13 +44,16 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x2
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8038D48-3B95-36CA-A051-15CAEDE1A333
++  UUID: AC58C466-9585-37D9-81DB-6B7DAA334E37
    Functions: 167
 -  Symbols:   591
--  CStrings:  348
+-  CStrings:  375
 +  Symbols:   592
-+  CStrings:  350
++  CStrings:  378
  
 Symbols:
 + _ACCBLEPairingAccPlatformID

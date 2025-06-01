@@ -38,11 +38,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0C89A5E-3E1F-3D57-837E-980EF2FE6A7F
 -  Functions: 1067
++  UUID: 20F49E11-79A4-3081-83DA-71AF547FA2FF
 +  Functions: 1069
    Symbols:   432
--  CStrings:  2497
-+  CStrings:  2502
+-  CStrings:  2634
++  CStrings:  2639
  
 CStrings:
 + "-[NPDCompanionPassLibrary usingSynchronousProxy:dynamicStateForPassUniqueID:handler:]"

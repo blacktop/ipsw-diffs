@@ -12,4 +12,13 @@
    - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
    - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3DD9B9F6-F844-3EAD-953A-1F1FCE87CAA4
++  UUID: 4DA6BAF5-1377-389A-87F6-04948C65EE73
+   Functions: 363
+   Symbols:   1234
+   CStrings:  7
+
 ```

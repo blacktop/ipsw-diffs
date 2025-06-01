@@ -107,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 20547D2E-BADC-320C-BB14-7E0A9A654642
 -  Functions: 816
 -  Symbols:   394
--  CStrings:  1198
+-  CStrings:  1257
++  UUID: 2502CD41-B17A-3A63-B664-A136B7948228
 +  Functions: 909
 +  Symbols:   411
-+  CStrings:  1245
++  CStrings:  1304
  
 Symbols:
 + _OBJC_CLASS_$_ASRSchemaASRAudioPacketContainingEndOfFirstWordReadyUpstream

@@ -60,11 +60,10 @@
 +  __DATA_CONST.__objc_superrefs: 0xd60
    __DATA_CONST.__objc_arraydata: 0x7f0
 -  __AUTH_CONST.__const: 0xdf38
-+  __AUTH_CONST.__const: 0xeae0
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__cfstring: 0x23ee0
 -  __AUTH_CONST.__objc_const: 0x10b90
 -  __AUTH_CONST.__objc_intobj: 0x870
++  __AUTH_CONST.__const: 0xeae0
 +  __AUTH_CONST.__cfstring: 0x23fa0
 +  __AUTH_CONST.__objc_const: 0x10c20
 +  __AUTH_CONST.__objc_intobj: 0x888
@@ -104,12 +103,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CBE42EB7-1A74-3CD6-8F3D-0252CED470AB
 -  Functions: 16338
 -  Symbols:   54125
--  CStrings:  22429
+-  CStrings:  27028
++  UUID: 20A79748-3068-3B48-A0BD-6AAF627591AD
 +  Functions: 16363
 +  Symbols:   54178
-+  CStrings:  22492
++  CStrings:  27097
  
 Symbols:
 + +[MPModelPlaylist __MPModelPropertyPlaylistParentPersistentID__MAPPING_MISSING__]

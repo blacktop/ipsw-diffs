@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x573
    __TEXT.__cstring: 0x6a6
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C44F457D-FEF3-366A-B630-85FC3C82EE6F
++  UUID: 7A1585DD-9709-32FD-A42F-CD00E54CA664
+   Functions: 72
+   Symbols:   135
+   CStrings:  226
+
 ```

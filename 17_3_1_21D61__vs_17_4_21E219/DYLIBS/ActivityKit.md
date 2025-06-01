@@ -62,14 +62,13 @@
    __AUTH_CONST.__objc_const: 0x500
    __AUTH_CONST.__cfstring: 0xe0
 -  __AUTH_CONST.__const: 0x9810
-+  __AUTH_CONST.__const: 0x98c0
-   __AUTH_CONST.__auth_ptr: 0x190
 -  __AUTH_CONST.__auth_got: 0xb88
 -  __AUTH.__objc_data: 0xfd0
 -  __AUTH.__data: 0x760
 -  __DATA.__objc_protorefs: 0xd0
 -  __DATA.__objc_classrefs: 0xd0
 -  __DATA.__objc_superrefs: 0x50
++  __AUTH_CONST.__const: 0x98c0
 +  __AUTH_CONST.__auth_got: 0xba0
 +  __AUTH.__objc_data: 0x1008
 +  __AUTH.__data: 0x868
@@ -94,12 +93,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05C14DD0-C18D-3853-8428-F9A4D8BEB540
 -  Functions: 5974
 -  Symbols:   2387
--  CStrings:  754
+-  CStrings:  761
++  UUID: E2A9E0A1-8381-3195-8BEC-3A1ED7299A64
 +  Functions: 6051
 +  Symbols:   2404
-+  CStrings:  786
++  CStrings:  793
  
 Symbols:
 + _associated conformance 11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesVSciAA13AsyncIteratorSci_ScI

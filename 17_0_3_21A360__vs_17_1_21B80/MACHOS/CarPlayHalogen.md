@@ -27,13 +27,16 @@
    __DATA.__common: 0x20
    - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
 
+   - /System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /usr/lib/libSystem.B.dylib
+-  UUID: 3E629862-8C7F-340B-B6BC-CA78592BB333
++  UUID: DBA313D7-BEC5-3A66-B58F-52A38EE5A5E8
    Functions: 42
 -  Symbols:   114
--  CStrings:  97
+-  CStrings:  100
 +  Symbols:   117
-+  CStrings:  98
++  CStrings:  101
  
 Symbols:
 + _APSIsRemoteHALPluginLoadingEnabled

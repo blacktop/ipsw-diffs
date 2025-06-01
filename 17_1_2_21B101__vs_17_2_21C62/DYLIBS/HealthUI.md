@@ -57,7 +57,6 @@
    __AUTH_CONST.__objc_intobj: 0x2760
    __AUTH_CONST.__objc_doubleobj: 0x280
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x198
 -  __AUTH_CONST.__auth_got: 0x20c8
 +  __AUTH_CONST.__auth_got: 0x20d0
    __AUTH.__objc_data: 0xd7a0
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B9378540-1677-3E4D-B3D2-9BC5A500549A
 -  Functions: 21442
 -  Symbols:   59886
--  CStrings:  24307
+-  CStrings:  27768
++  UUID: C60F7AFE-53CF-39BD-B555-3613D2A19ED6
 +  Functions: 21452
 +  Symbols:   59922
-+  CStrings:  24327
++  CStrings:  27790
  
 Symbols:
 + +[_HKQuantityDistributionData(HKCodingSupport) quantityDistributionDataWithCodableQuantityDistributionData:sourceTimeZone:preferredUnit:]

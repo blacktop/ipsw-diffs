@@ -81,12 +81,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F2075AC-3DEC-3BE9-A486-86B37E2C9687
 -  Functions: 2567
 -  Symbols:   8611
--  CStrings:  4188
+-  CStrings:  5090
++  UUID: 1E1D2DFE-C4AF-3380-B091-5A50243868BA
 +  Functions: 2617
 +  Symbols:   8757
-+  CStrings:  4301
++  CStrings:  5234
  
 Symbols:
 + -[AXHALiveListenController _connectUnits]

@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA21D471-47F4-3D45-A806-385E39BDF5B3
 -  Functions: 246
 -  Symbols:   1020
--  CStrings:  754
+-  CStrings:  839
++  UUID: 084A63C6-A84C-328C-BDEB-7223B184B5E3
 +  Functions: 251
 +  Symbols:   1032
-+  CStrings:  759
++  CStrings:  844
  
 Symbols:
 + -[LBAudioCapture _stopStreamOptionWithReason:forRequestId:]

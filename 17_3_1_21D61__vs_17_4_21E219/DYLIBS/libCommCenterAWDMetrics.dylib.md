@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x370
    __TEXT.__init_offsets: 0x44
    __TEXT.__gcc_except_tab: 0x22f4
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: 59416523-15E8-3C43-A017-90B4610A5E80
++  UUID: C57A38B0-8B41-3444-8A12-8650FAB1FDE0
+   Functions: 4046
+   Symbols:   8835
+   CStrings:  407
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

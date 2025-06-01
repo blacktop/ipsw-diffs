@@ -42,7 +42,6 @@
    __AUTH_CONST.__cfstring: 0xce0
    __AUTH_CONST.__objc_const: 0x8a8
    __AUTH_CONST.__const: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x2a0
    __AUTH.__objc_data: 0x7d0
 -  __DATA.__objc_classrefs: 0x188
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 6847CA5B-3C7B-3AD0-903E-1C0DFE839AE9
 -  Functions: 300
 -  Symbols:   1305
--  CStrings:  719
+-  CStrings:  822
++  UUID: D1CD5A49-39EC-3028-B89A-A88F69A4B897
 +  Functions: 293
 +  Symbols:   1278
-+  CStrings:  703
++  CStrings:  806
  
 Symbols:
 + -[SHRemoteConfiguration fetchMusicSubscriptionStatus:]

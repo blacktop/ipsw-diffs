@@ -42,11 +42,15 @@
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B86AC2EA-CDDF-3087-B131-9716F45DB833
++  UUID: 781A73E4-0C8B-3989-8662-CF067BAAE552
    Functions: 124
    Symbols:   663
--  CStrings:  329
-+  CStrings:  330
+-  CStrings:  342
++  CStrings:  343
  
 CStrings:
 + "T@\"NSString\",?,R,C"

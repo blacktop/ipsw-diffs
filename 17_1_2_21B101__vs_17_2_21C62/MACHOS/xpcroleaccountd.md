@@ -15,6 +15,15 @@
    __TEXT.__oslogstring: 0x82b
    __TEXT.__objc_methname: 0x2b
    __TEXT.__unwind_info: 0xd0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 010CAC51-1001-348A-90CF-4591A806CF06
++  UUID: C1CC4B82-CB39-38A1-AFF7-6D94537557D2
+   Functions: 69
+   Symbols:   117
+   CStrings:  80
 CStrings:
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Sun Nov 12 09:09:39 PST 2023; root:libxpc_executables-2679.62.1~2/xpcroleaccountd/RELEASE_ARM64E"
 + "Darwin Role Account Bootstrapper Version 1.0.0: Sun Nov 12 09:09:39 PST 2023; root:libxpc_executables-2679.62.1~2/xpcroleaccountd/RELEASE_ARM64E"

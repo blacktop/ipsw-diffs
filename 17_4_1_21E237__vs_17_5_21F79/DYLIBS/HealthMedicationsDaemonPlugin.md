@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: B92F53AC-E8CA-3BB6-837B-B48CE2F8D714
++  UUID: E972DA15-3E65-3498-8B0A-4F23A32EA52B
+   Functions: 1604
+   Symbols:   5894
+   CStrings:  3149
+
 ```

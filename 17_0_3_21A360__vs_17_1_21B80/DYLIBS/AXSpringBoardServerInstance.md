@@ -39,12 +39,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C566F9B4-64AA-3A95-A7BF-1BFB46DA1084
 -  Functions: 1360
 -  Symbols:   4706
--  CStrings:  2534
+-  CStrings:  3305
++  UUID: BF3B82CA-F0FA-3877-98A9-B97828A9EAD3
 +  Functions: 1361
 +  Symbols:   4708
-+  CStrings:  2533
++  CStrings:  3303
  
 Symbols:
 + -[AXSpringBoardServerHelper _handleConfirmationDialogWithMessage:confirmTitle:]

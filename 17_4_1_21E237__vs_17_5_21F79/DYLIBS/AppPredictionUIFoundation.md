@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
 
+   - /System/Library/PrivateFrameworks/ProactiveSuggestionClientModel.framework/ProactiveSuggestionClientModel
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1740C2EC-D0A2-3CA2-A59C-2A65157BCD26
++  UUID: 9A5D5C66-F53A-3480-98BC-68FF29DA341E
+   Functions: 84
+   Symbols:   374
+   CStrings:  79
+
 ```

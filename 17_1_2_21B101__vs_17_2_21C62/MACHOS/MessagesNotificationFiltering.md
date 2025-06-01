@@ -35,11 +35,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 100C4D57-B4A0-3E7C-8034-F9C433A6B4E2
 -  Functions: 32
++  UUID: 4C4D54FB-CE91-3BAE-A43B-23FC62878FED
 +  Functions: 31
    Symbols:   71
--  CStrings:  113
-+  CStrings:  112
+-  CStrings:  158
++  CStrings:  157
  
 CStrings:
 + "__kIMDBadgeUtilitiesRebuildUnreadMessageCountNotification"

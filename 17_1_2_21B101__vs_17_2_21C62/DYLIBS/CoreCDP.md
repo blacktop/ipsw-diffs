@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 81D2D97F-4C54-313B-A1E7-F11C151373F0
 -  Functions: 1428
 -  Symbols:   4771
--  CStrings:  2351
+-  CStrings:  2682
++  UUID: 9A09C1B6-50EA-3FCF-B357-A29073CEC8A6
 +  Functions: 1432
 +  Symbols:   4789
-+  CStrings:  2366
++  CStrings:  2703
  
 Symbols:
 + +[CDPUtilities isDemoDevice]

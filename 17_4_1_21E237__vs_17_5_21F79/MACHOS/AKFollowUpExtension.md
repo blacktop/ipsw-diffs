@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 123A9B8F-A135-3763-A225-D98032CD2BD2
 -  Functions: 148
++  UUID: FCF893ED-0BC7-3EE7-A96A-EA0D86DC6716
 +  Functions: 150
    Symbols:   127
--  CStrings:  284
-+  CStrings:  287
+-  CStrings:  299
++  CStrings:  302
  
 CStrings:
 + "AKFollowUpSynchronizer: Client provided nil account, defaulting to the primary iCloud account"

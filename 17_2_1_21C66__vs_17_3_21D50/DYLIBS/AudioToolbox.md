@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x1588
    __TEXT.__const: 0x1954
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 234121A0-50DE-3F93-945E-C4AA2994DB00
++  UUID: 107D60F4-AE1A-3AD2-BAF6-EE2027DE10BD
+   Functions: 8728
+   Symbols:   23126
+   CStrings:  8317
+
 ```

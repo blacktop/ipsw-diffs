@@ -71,12 +71,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 582AC198-A4D9-3DE2-AB6E-B04C04777305
 -  Functions: 4129
 -  Symbols:   14225
--  CStrings:  6928
+-  CStrings:  8303
++  UUID: 7EADE73D-39E9-36DE-8279-A1CAF7708A9B
 +  Functions: 4131
 +  Symbols:   14231
-+  CStrings:  6931
++  CStrings:  8307
  
 Symbols:
 + -[PFMediaCapabilities sortSourceEnumerationAscending]

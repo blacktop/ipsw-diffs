@@ -15,4 +15,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /System/Library/PrivateFrameworks/OfficeImport.framework/OfficeImport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6D6A41B1-EE17-3AA6-88D6-B1432BC5093C
++  UUID: 5B4DB54F-DA1A-3273-B6E2-68219A2FE775
+   Functions: 8
+   Symbols:   36
+   CStrings:  17
+
 ```

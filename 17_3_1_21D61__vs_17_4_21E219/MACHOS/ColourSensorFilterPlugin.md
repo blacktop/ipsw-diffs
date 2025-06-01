@@ -34,12 +34,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: AA364980-374A-3919-A2BA-6936C09E4ECB
 -  Functions: 168
 -  Symbols:   193
--  CStrings:  321
+-  CStrings:  366
++  UUID: 8576BB73-9A1D-3100-8C03-773284E4E2A8
 +  Functions: 176
 +  Symbols:   221
-+  CStrings:  324
++  CStrings:  370
  
 Symbols:
 + __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv

@@ -55,9 +55,8 @@
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x20
 -  __AUTH_CONST.__objc_intobj: 0x150
-+  __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x670
++  __AUTH_CONST.__objc_intobj: 0x138
 +  __AUTH_CONST.__auth_got: 0x688
    __AUTH.__objc_data: 0xa960
    __DATA.__objc_classrefs: 0x10f0
@@ -82,12 +81,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0E715300-78A4-3FCD-9A54-7AFB6EF0CA80
 -  Functions: 10225
 -  Symbols:   32573
--  CStrings:  7343
+-  CStrings:  8186
++  UUID: 475C9C43-022B-3452-A335-CDA0383FEBDC
 +  Functions: 10245
 +  Symbols:   32639
-+  CStrings:  7382
++  CStrings:  8228
  
 Symbols:
 + +[_LTDAssetService _installConfigAsset:completion:].cold.3

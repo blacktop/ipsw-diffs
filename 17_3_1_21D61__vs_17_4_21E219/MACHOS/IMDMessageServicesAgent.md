@@ -38,11 +38,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__bss: 0x60
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B97AF68-2FD9-3047-AE6D-AD4B03E1AC1E
++  UUID: DA94EE68-898D-32A7-B809-D33AA591A0B7
    Functions: 103
    Symbols:   148
--  CStrings:  267
-+  CStrings:  268
+-  CStrings:  290
++  CStrings:  291
  
 CStrings:
 + "Ignoring non-expirable message with rowID: %lld, guid: %@, is_expirable: %@, from_me: %@, expire_state: %lld, date: %lld, date_played: %lld"

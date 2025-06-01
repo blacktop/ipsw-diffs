@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 669C3F88-6046-3C3F-AE7A-009C5C0E0E4C
 -  Functions: 1824
 -  Symbols:   7291
--  CStrings:  3855
+-  CStrings:  4194
++  UUID: F589503C-0263-3B06-B8C0-F1CEE98E59FF
 +  Functions: 1821
 +  Symbols:   7275
-+  CStrings:  3840
++  CStrings:  4177
  
 Symbols:
 + +[DMCProfileViewModel trustTextForProfile:]

@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0x298
    __DATA_CONST.__const: 0x11e8
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 38E2F296-EAB9-31B2-9541-8686EE9CF079
++  UUID: 0D5AF789-A042-35CF-9468-91032FC4A1F2
+   Functions: 647
+   Symbols:   309
+   CStrings:  1500
+
 ```

@@ -29,13 +29,16 @@
    __DATA_CONST.__const: 0x458
    __DATA_CONST.__cfstring: 0x6a0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D00BAA5-AD84-33CD-93B1-5E6374515524
++  UUID: 03D37112-F5D2-3DA5-A9A6-66F9CDFFE92C
    Functions: 195
 -  Symbols:   169
--  CStrings:  621
+-  CStrings:  674
 +  Symbols:   168
-+  CStrings:  624
++  CStrings:  677
  
 Symbols:
 - _objc_retain_x27

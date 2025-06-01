@@ -17,4 +17,13 @@
    __DATA.__bss: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EC7D0B85-1355-3AB6-9B16-8893E534CD3D
++  UUID: 1BF63463-1138-3E5D-9000-60E77D9CC0C4
+   Functions: 21
+   Symbols:   110
+   CStrings:  107
+
 ```

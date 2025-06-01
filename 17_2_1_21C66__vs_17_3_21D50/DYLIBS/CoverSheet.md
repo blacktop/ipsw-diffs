@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_arraydata: 0x1018
    __AUTH_CONST.__objc_const: 0x4d20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C13B652-D3D3-33C3-87F3-CDC0EF51D206
++  UUID: 9C3C65E5-0622-3032-857D-77DB01B49E4D
    Functions: 6213
    Symbols:   22919
--  CStrings:  11312
-+  CStrings:  11313
+-  CStrings:  12705
++  CStrings:  12706
  
 CStrings:
 + "notificationStructuredListViewControllerDidUpdateVisibleContentExtent:"

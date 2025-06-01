@@ -63,10 +63,9 @@
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__objc_const: 0x328
 -  __AUTH_CONST.__const: 0x51c8
+-  __AUTH_CONST.__auth_got: 0xdd0
 +  __AUTH_CONST.__objc_const: 0x3b8
 +  __AUTH_CONST.__const: 0x5590
-   __AUTH_CONST.__auth_ptr: 0x158
--  __AUTH_CONST.__auth_got: 0xdd0
 +  __AUTH_CONST.__auth_got: 0xe20
    __AUTH.__objc_data: 0xa68
 -  __AUTH.__data: 0x1668
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 753AC7F8-F96E-370A-9743-D8D1E7BB76EB
 -  Functions: 2469
 -  Symbols:   1593
--  CStrings:  933
+-  CStrings:  1019
++  UUID: 08862249-160D-31CD-8188-78D001B784C3
 +  Functions: 2568
 +  Symbols:   1670
-+  CStrings:  959
++  CStrings:  1045
  
 Symbols:
 + __DATA__TtC23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapter

@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4525CBA7-B158-3235-95A0-810317BF9BC2
++  UUID: 2DEA3413-7755-3A5C-BBC4-B0C04B53CF2A
+   Functions: 760
+   Symbols:   2536
+   CStrings:  1247
+
 ```

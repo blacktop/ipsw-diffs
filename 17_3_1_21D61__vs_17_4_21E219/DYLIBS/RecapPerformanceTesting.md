@@ -28,11 +28,15 @@
    __DATA.__data: 0x668
    __DATA.__bss: 0x81
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 249EE5E4-937F-33C0-A157-63211D821B0F
++  UUID: 05F18629-6222-30F3-B762-4E1AF7EA90A9
    Functions: 502
    Symbols:   2002
--  CStrings:  935
-+  CStrings:  937
+-  CStrings:  970
++  CStrings:  972
  
 Symbols:
 + ___40-[RPTTestRunner _runTestWithParameters:]_block_invoke.80

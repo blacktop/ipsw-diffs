@@ -38,11 +38,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x30
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0596DE17-FA53-3FEE-959E-867E6FF0E499
++  UUID: 4CD0270F-619E-3A77-9E37-B4A2C046E857
    Functions: 45
    Symbols:   63
--  CStrings:  230
-+  CStrings:  234
+-  CStrings:  243
++  CStrings:  247
  
 CStrings:
 + "biolockout"

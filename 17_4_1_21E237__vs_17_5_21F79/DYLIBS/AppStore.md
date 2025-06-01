@@ -49,12 +49,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FD5FC0F5-90FB-3EFC-A400-3E9F6514FD46
 -  Functions: 620
 -  Symbols:   2465
--  CStrings:  829
+-  CStrings:  1250
++  UUID: F2864344-FB75-36BC-A430-BB260F81126E
 +  Functions: 637
 +  Symbols:   2529
-+  CStrings:  846
++  CStrings:  1277
  
 Symbols:
 + +[ScrollablePillViewAccessibility _accessibilityPerformValidations:]

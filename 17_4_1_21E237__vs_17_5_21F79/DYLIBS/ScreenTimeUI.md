@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 074A8225-6ED1-3A0F-A702-7C04706CCD7D
 -  Functions: 645
 -  Symbols:   2354
--  CStrings:  1243
+-  CStrings:  1363
++  UUID: 9F696E3B-1812-3FE0-99E7-14C8E7E52EF0
 +  Functions: 654
 +  Symbols:   2373
-+  CStrings:  1248
++  CStrings:  1368
  
 Symbols:
 + -[STIconCache imageForBundleIdentifier:].cold.1

@@ -27,13 +27,16 @@
    __DATA_CONST.__const: 0x270
    __DATA_CONST.__cfstring: 0x11e0
 
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB18BAD1-BB64-3EC2-A067-2BA992DD72C6
++  UUID: A698C425-5E1D-38D4-972C-DD0443495739
    Functions: 106
 -  Symbols:   214
--  CStrings:  645
+-  CStrings:  788
 +  Symbols:   212
-+  CStrings:  642
++  CStrings:  785
  
 Symbols:
 + _objc_retain_x23

@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F5F09E8F-EBD6-3E5D-898B-62C7A0DF5897
 -  Functions: 984
 -  Symbols:   3741
--  CStrings:  1992
+-  CStrings:  2441
++  UUID: EE0E1F90-8B7B-398C-BA0A-CDE4A291FD12
 +  Functions: 988
 +  Symbols:   3752
-+  CStrings:  2002
++  CStrings:  2452
  
 Symbols:
 + -[NIExportedObjectForwarder exportedObjectClass]

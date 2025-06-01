@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D88A3849-1004-3750-97B1-9044074E55F3
 -  Functions: 509
 -  Symbols:   2088
--  CStrings:  1259
+-  CStrings:  1430
++  UUID: 82CFBD78-2C50-34A2-BDCE-FA94EB46C277
 +  Functions: 512
 +  Symbols:   2099
-+  CStrings:  1263
++  CStrings:  1434
  
 Symbols:
 + -[NetworkQualityHTTPServer HTTP2ParametersForServer]

@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
 
+   - @rpath/BookStoreUI.framework/BookStoreUI
+   - @rpath/JSApp.framework/JSApp
+   - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: A069FE7F-5C67-32BB-B848-ABBA363AA8A0
++  UUID: CAB940F8-9ECD-30E0-93A9-D841B0F45651
+   Functions: 66
+   Symbols:   173
+   CStrings:  292
+
 ```

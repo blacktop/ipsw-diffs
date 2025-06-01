@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/LocalAuthenticationPrivateUI.framework/LocalAuthenticationPrivateUI
    - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 08F0B4C3-68AC-37E7-9A02-1EA4E1168A12
++  UUID: B7212BB2-99B6-3300-B18F-4ED3ADEDB55E
+   Functions: 51
+   Symbols:   109
+   CStrings:  372
+
 ```

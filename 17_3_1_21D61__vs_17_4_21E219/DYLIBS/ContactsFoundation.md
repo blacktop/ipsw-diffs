@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__cfstring: 0xa6e0
 +  __AUTH_CONST.__objc_const: 0x6340
 +  __AUTH_CONST.__const: 0x1f90
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_dictobj: 0x2580
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x60
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4BE74AD2-4494-39CE-A081-7238CF5D38F0
 -  Functions: 4308
 -  Symbols:   14299
--  CStrings:  5577
+-  CStrings:  6910
++  UUID: 5CF330B6-BBA4-3F56-BB5A-B76CA42C1839
 +  Functions: 4341
 +  Symbols:   14403
-+  CStrings:  5625
++  CStrings:  6960
  
 Symbols:
 + +[CNAuditTokenUtilities _bundleIdentifierFromInfoPlistForAuditToken:].cold.2

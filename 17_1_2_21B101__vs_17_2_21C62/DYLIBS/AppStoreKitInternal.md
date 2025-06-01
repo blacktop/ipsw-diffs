@@ -70,11 +70,9 @@
 -  __AUTH_CONST.__const: 0x3e1f8
 +  __AUTH_CONST.__const: 0x3eb28
    __AUTH_CONST.__objc_arrayobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x1578
 -  __AUTH_CONST.__auth_got: 0x37f0
 -  __AUTH.__objc_data: 0x2ab8
 -  __AUTH.__data: 0xe0f8
-+  __AUTH_CONST.__auth_ptr: 0x15a0
 +  __AUTH_CONST.__auth_got: 0x3820
 +  __AUTH.__objc_data: 0x2bf8
 +  __AUTH.__data: 0xe938
@@ -105,12 +103,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FF928E30-87DE-3A70-B47D-4A3A8EC201D3
 -  Functions: 43036
 -  Symbols:   11279
--  CStrings:  6443
+-  CStrings:  6549
++  UUID: 15C4C168-0F7A-361A-ABDA-BE2EAC59EAB8
 +  Functions: 43587
 +  Symbols:   11335
-+  CStrings:  6518
++  CStrings:  6624
  
 Symbols:
 + __DATA__TtC19AppStoreKitInternal12AppPromotion

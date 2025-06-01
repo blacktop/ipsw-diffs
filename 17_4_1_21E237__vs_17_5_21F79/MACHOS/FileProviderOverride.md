@@ -23,12 +23,15 @@
    __DATA_CONST.__auth_ptr: 0x8
    __DATA_CONST.__const: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6C78038A-3AE1-3C80-B8E3-5A57A6F73CC9
++  UUID: 7BE26097-CA98-30CE-8A8A-424BD157DC74
    Functions: 68
 -  Symbols:   107
 +  Symbols:   108
-   CStrings:  186
+   CStrings:  197
  
 Symbols:
 + _objc_retain_x4

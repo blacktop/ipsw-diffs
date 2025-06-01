@@ -25,7 +25,9 @@
 -  __DATA_DIRTY.__bss: 0x2b0
 +  __DATA_DIRTY.__bss: 0x2b8
    - /usr/lib/libSystem.B.dylib
+-  UUID: 5E92BE51-9B6E-3F09-8288-DA19326CE217
 -  Functions: 2515
++  UUID: 7C30DACD-316D-341E-98F0-DD42E019E9D1
 +  Functions: 2530
    Symbols:   566
 -  CStrings:  2223

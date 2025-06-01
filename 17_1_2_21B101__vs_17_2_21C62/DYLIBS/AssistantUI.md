@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CC66AA98-8BFA-3FEB-BCA6-0AF0DD5ED504
 -  Functions: 1911
 -  Symbols:   7441
--  CStrings:  4194
+-  CStrings:  4452
++  UUID: C1043FCA-C2CF-3635-92A1-B2E0B3E2B4C8
 +  Functions: 1916
 +  Symbols:   7454
-+  CStrings:  4197
++  CStrings:  4455
  
 Symbols:
 + -[AFUISiriRemoteSceneViewController siriWillBePresented:]

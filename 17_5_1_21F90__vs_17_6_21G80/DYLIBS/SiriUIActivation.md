@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 970BC234-84C0-3E63-A1E2-725C68136BC0
 -  Functions: 479
 -  Symbols:   2077
--  CStrings:  1397
+-  CStrings:  1446
++  UUID: 5A12C6F9-6CF0-379E-A4BB-1951F24D9C3D
 +  Functions: 487
 +  Symbols:   2108
-+  CStrings:  1420
++  CStrings:  1471
  
 Symbols:
 + -[SiriPresentationViewController _activeTCCHasContentAtPoint:]

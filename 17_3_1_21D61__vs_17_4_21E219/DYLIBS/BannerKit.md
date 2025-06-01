@@ -42,11 +42,15 @@
    __DATA.__data: 0x1850
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0026B291-9916-3F82-BBC6-8B8E31F82D70
++  UUID: 30100121-2617-32A0-A388-084D68552782
    Functions: 977
    Symbols:   4204
--  CStrings:  2117
-+  CStrings:  2127
+-  CStrings:  2355
++  CStrings:  2365
  
 Symbols:
 + ___block_literal_global.304

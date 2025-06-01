@@ -21,8 +21,8 @@
    __TEXT.__objc_classname: 0x37
    __TEXT.__objc_methname: 0x57e
 
+   __DATA_CONST.__objc_classrefs: 0x30
    __AUTH_CONST.__const: 0x3d0
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__auth_got: 0x458
 -  __AUTH.__data: 0x320
 -  __AUTH.__objc_data: 0xc8
@@ -38,5 +38,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
    - /System/Library/PrivateFrameworks/FindMyBase.framework/FindMyBase
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: D7877073-8C6B-3214-B708-E128586135BF
++  UUID: 96DCD87D-452A-3A87-9C6C-4457A39F2A16
+   Functions: 263
+   Symbols:   214
+   CStrings:  128
 
 ```

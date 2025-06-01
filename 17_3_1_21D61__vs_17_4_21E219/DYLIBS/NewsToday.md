@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 206A6971-247D-3032-A2BF-C28DC1BA69CD
 -  Functions: 1978
 -  Symbols:   6800
--  CStrings:  3009
+-  CStrings:  3251
++  UUID: EEAD2681-0164-317B-BD53-BFA69D667EE4
 +  Functions: 1907
 +  Symbols:   6597
-+  CStrings:  2970
++  CStrings:  3212
  
 Symbols:
 + -[NTHeadline setStoryTypeColorDark:]

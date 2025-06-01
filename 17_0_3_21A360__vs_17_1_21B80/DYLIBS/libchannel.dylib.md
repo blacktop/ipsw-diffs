@@ -32,8 +32,11 @@
    __DATA.__objc_classrefs: 0x20
    __DATA.__objc_superrefs: 0x20
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: 11F4C835-C318-3AC8-B2A3-578F6AC3BCB6
++  UUID: 32A42FF3-1689-3059-800A-EF6C5A981DDB
    Functions: 149
 -  Symbols:   386
 -  CStrings:  28

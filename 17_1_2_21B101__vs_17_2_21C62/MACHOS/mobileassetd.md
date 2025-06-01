@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_intobj: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FD10C18-CA65-3296-8097-C1F16F1F7E00
++  UUID: 7731499A-32A8-33A0-8DED-E65A73C60B2E
    Functions: 63
 -  Symbols:   108
--  CStrings:  255
+-  CStrings:  390
 +  Symbols:   109
-+  CStrings:  259
++  CStrings:  398
  
 Symbols:
 + _rename

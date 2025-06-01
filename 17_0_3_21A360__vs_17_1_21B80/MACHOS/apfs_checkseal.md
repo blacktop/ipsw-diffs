@@ -12,4 +12,13 @@
    __TEXT.__const: 0x3c0
    __TEXT.__cstring: 0xfcc2
 
+   - /System/Library/PrivateFrameworks/AppleFSCompression.framework/AppleFSCompression
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 10D2AF50-AAAA-3FB1-BB30-7109405D665E
++  UUID: 5985AFBA-00C2-3317-AA2F-C4D6CD6EE48E
+   Functions: 715
+   Symbols:   125
+   CStrings:  1284
+
 ```

@@ -28,11 +28,13 @@
    - /usr/lib/libIOAccessoryManager.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 71631294-0A5A-3238-9976-A57B55A1E8E9
++  UUID: E46CEA93-E69B-3103-93D2-642F87A1DC06
    Functions: 68
 -  Symbols:   222
--  CStrings:  1402
+-  CStrings:  1410
 +  Symbols:   223
-+  CStrings:  1405
++  CStrings:  1414
  
 Symbols:
 + _CFStringAppendFormat

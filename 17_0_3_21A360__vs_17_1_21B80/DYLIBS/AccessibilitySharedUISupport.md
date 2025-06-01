@@ -55,7 +55,6 @@
 -  __AUTH_CONST.__const: 0x65f8
 +  __AUTH_CONST.__const: 0x65f0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0xb0
 -  __AUTH_CONST.__auth_got: 0x1308
 +  __AUTH_CONST.__auth_got: 0x1320
    __AUTH.__objc_data: 0x12b0
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E703F8E4-6EA8-30AF-A9BB-4B20028FB33C
 -  Functions: 4430
 -  Symbols:   2915
--  CStrings:  1272
+-  CStrings:  1316
++  UUID: FB5A7B5B-CE42-31C8-8F3E-FBE84D70753A
 +  Functions: 4431
 +  Symbols:   2921
-+  CStrings:  1273
++  CStrings:  1317
  
 Symbols:
 + -[AXSSImageDescriptionViewController traitEnvironment:didChangeTraitCollection:]

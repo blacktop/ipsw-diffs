@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 133F0766-2B0D-3C58-830C-1D2000C90CB8
 -  Functions: 40112
 -  Symbols:   239309
--  CStrings:  3730
+-  CStrings:  3781
++  UUID: BF3BE6F6-431E-3436-92D9-F57A4E7952DE
 +  Functions: 40260
 +  Symbols:   240117
-+  CStrings:  3751
++  CStrings:  3802
  
 Symbols:
 + $s27PhoneCallFlowDelegatePlugin011Unsupportedc6SearchB17HistoryParametersV6device16SiriDialogEngine18SirikitDeviceStateCSgvM.resume.0

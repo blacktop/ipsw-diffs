@@ -20,7 +20,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0xc0
 -  __AUTH_CONST.__const: 0x280
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x390
 -  __AUTH.__objc_data: 0x780
 +  __AUTH.__objc_data: 0x50
@@ -34,5 +33,14 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B5ED21CB-D4E5-3A08-9C69-799CA78918A5
++  UUID: 8E375D78-808E-351C-B220-12EC483C7982
+   Functions: 655
+   Symbols:   305
+   CStrings:  1422
 
 ```

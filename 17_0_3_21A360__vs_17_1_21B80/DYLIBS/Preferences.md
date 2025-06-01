@@ -66,12 +66,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 6FA81D56-E990-33D2-BAE3-C1E71CD9F4F4
 -  Functions: 5327
 -  Symbols:   18673
--  CStrings:  8878
+-  CStrings:  10610
++  UUID: BDD4D008-028F-3590-98DD-A987006A16ED
 +  Functions: 5351
 +  Symbols:   18724
-+  CStrings:  8911
++  CStrings:  10648
  
 Symbols:
 + +[PSSystemPolicyManager _journalingSuggestionsSettingsNeededForBundleID:]

@@ -47,15 +47,14 @@
 -  __DATA_CONST.__objc_const: 0xdc9a0
 -  __DATA_CONST.__objc_selrefs: 0x33440
 -  __DATA_CONST.__objc_arraydata: 0x32f8
-+  __DATA_CONST.__objc_const: 0xdfb20
-+  __DATA_CONST.__objc_selrefs: 0x344b8
-+  __DATA_CONST.__objc_arraydata: 0x3318
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x12700
 -  __AUTH_CONST.__cfstring: 0x55600
 -  __AUTH_CONST.__objc_const: 0x38ab0
 -  __AUTH_CONST.__objc_intobj: 0x3168
 -  __AUTH_CONST.__objc_arrayobj: 0x8b8
++  __DATA_CONST.__objc_const: 0xdfb20
++  __DATA_CONST.__objc_selrefs: 0x344b8
++  __DATA_CONST.__objc_arraydata: 0x3318
 +  __AUTH_CONST.__const: 0x12900
 +  __AUTH_CONST.__cfstring: 0x57620
 +  __AUTH_CONST.__objc_const: 0x39128
@@ -111,12 +110,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E37134C7-41B7-36F4-9E10-7CE0740EB9AE
 -  Functions: 48351
 -  Symbols:   160337
--  CStrings:  74335
+-  CStrings:  85263
++  UUID: DE28BB40-FBAA-3B0C-A7F3-057E0AE7EE98
 +  Functions: 49074
 +  Symbols:   162735
-+  CStrings:  75769
++  CStrings:  86954
  
 Symbols:
 + +[HMDAudioStreamInterfaceDataSource logCategory]

@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_catlist: 0x58
    __DATA_CONST.__objc_protolist: 0x88
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 28E02DBC-D6AF-3807-AB31-FD425A350A41
++  UUID: 63A074AD-BDA5-3B01-B064-4DC7B2EAA79F
    Functions: 824
    Symbols:   364
--  CStrings:  1912
-+  CStrings:  1914
+-  CStrings:  2126
++  CStrings:  2130
  
 CStrings:
 + "-o"

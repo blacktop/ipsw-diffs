@@ -27,11 +27,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x360
 
+   - /System/Library/PrivateFrameworks/SpotlightReceiver.framework/SpotlightReceiver
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C6B5172-8D09-304D-A41C-B728B7401D17
++  UUID: A569D99B-F633-38D7-BB2E-4FE4B042AC4F
    Functions: 208
    Symbols:   140
--  CStrings:  461
-+  CStrings:  462
+-  CStrings:  490
++  CStrings:  491
  
 CStrings:
 + "T@\"NSString\",?,R,C"

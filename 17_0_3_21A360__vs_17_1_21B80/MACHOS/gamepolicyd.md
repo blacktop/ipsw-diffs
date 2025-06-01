@@ -62,11 +62,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DEF1B9B-E68B-3C9C-B127-1962ACD15C27
 -  Functions: 378
++  UUID: 7AD8B6BB-71DD-32A7-BF0B-15510B9CCB2B
 +  Functions: 379
    Symbols:   308
--  CStrings:  287
-+  CStrings:  293
+-  CStrings:  288
++  CStrings:  294
  
 Symbols:
 + _OBJC_CLASS_$_RBSProcessHandle

@@ -18,5 +18,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0F16C2C0-4D54-30A8-8751-09B74FDF08FD
++  UUID: B191B894-6DBC-3239-8042-123209193B07
+   Functions: 39
+   Symbols:   148
+   CStrings:  163
 
 ```

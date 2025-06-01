@@ -48,7 +48,6 @@
 -  __AUTH_CONST.__const: 0x518
 +  __DATA_CONST.__objc_selrefs: 0x458
 +  __AUTH_CONST.__const: 0x568
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__cfstring: 0x4c0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_const: 0x1f8
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CFD7E551-9729-3D20-86EF-1DA8888ED23F
 -  Functions: 415
 -  Symbols:   737
--  CStrings:  353
+-  CStrings:  391
++  UUID: 7E861808-D569-3EA6-819A-509FEBCC77AF
 +  Functions: 427
 +  Symbols:   749
-+  CStrings:  356
++  CStrings:  394
  
 Symbols:
 + _OBJC_CLASS_$_TUConversation

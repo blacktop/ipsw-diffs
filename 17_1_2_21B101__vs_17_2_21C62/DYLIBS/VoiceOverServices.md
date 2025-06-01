@@ -70,12 +70,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CBF5C75-F5C2-321F-8C15-52D2C01ED9CC
 -  Functions: 1411
 -  Symbols:   5806
--  CStrings:  2435
+-  CStrings:  3508
++  UUID: 29FC896A-62B0-30E0-81E6-DA8DF5322B91
 +  Functions: 1424
 +  Symbols:   5875
-+  CStrings:  2551
++  CStrings:  3612
  
 Symbols:
 + -[VOSBluetoothManager _removeDeviceFromBrailleCache:]

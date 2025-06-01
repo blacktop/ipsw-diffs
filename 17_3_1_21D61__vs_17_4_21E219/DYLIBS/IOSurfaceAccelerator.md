@@ -30,12 +30,14 @@
    - /System/Library/Frameworks/IOSurface.framework/IOSurface
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 007AAAE6-5817-3A37-BDCC-0A650D29174E
 -  Functions: 57
 -  Symbols:   232
--  CStrings:  149
+-  CStrings:  224
++  UUID: 46EC1E7D-301E-35C1-BD62-1F50C244E63E
 +  Functions: 58
 +  Symbols:   238
-+  CStrings:  156
++  CStrings:  234
  
 Symbols:
 + _IOSurfaceAcceleratorGetTransformEstimation

@@ -60,9 +60,7 @@
 +  __AUTH_CONST.__const: 0x3938
    __AUTH_CONST.__objc_dictobj: 0x410
 -  __AUTH_CONST.__objc_arrayobj: 0x2118
--  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__objc_arrayobj: 0x2148
-+  __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1670
 +  __AUTH_CONST.__auth_got: 0x1688
@@ -90,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0A809D2C-B632-35E4-A623-CB4F9AF922FB
 -  Functions: 17378
 -  Symbols:   60508
--  CStrings:  22725
+-  CStrings:  26666
++  UUID: 2D4D5A5B-1BE2-35E8-949D-A246DBAB7388
 +  Functions: 17420
 +  Symbols:   60636
-+  CStrings:  22804
++  CStrings:  26767
  
 Symbols:
 + +[NTKPeopleComplication complicationForContact:forPromotedSection:]

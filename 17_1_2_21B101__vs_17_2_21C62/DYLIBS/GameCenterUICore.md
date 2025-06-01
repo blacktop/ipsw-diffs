@@ -51,14 +51,13 @@
 -  __AUTH_CONST.__cfstring: 0x1dc0
 -  __AUTH_CONST.__objc_const: 0x1218
 -  __AUTH_CONST.__const: 0x530
+-  __AUTH_CONST.__auth_got: 0x690
+-  __AUTH.__objc_data: 0xc40
 +  __DATA_CONST.__objc_const: 0x33c8
 +  __DATA_CONST.__objc_selrefs: 0x1db8
 +  __AUTH_CONST.__cfstring: 0x1e40
 +  __AUTH_CONST.__objc_const: 0x12e8
 +  __AUTH_CONST.__const: 0x570
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0x690
--  __AUTH.__objc_data: 0xc40
 +  __AUTH_CONST.__auth_got: 0x698
 +  __AUTH.__objc_data: 0xce0
    __AUTH.__data: 0xc0
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0B7711A5-058C-3B10-BEE0-7A9918CF459A
 -  Functions: 959
 -  Symbols:   3295
--  CStrings:  1697
+-  CStrings:  1935
++  UUID: 3C20E128-8532-3C40-AD35-2EDAF6A31304
 +  Functions: 1057
 +  Symbols:   3458
-+  CStrings:  1811
++  CStrings:  2053
  
 Symbols:
 + +[GKAppLevelSignInVisibility didShowBanner]

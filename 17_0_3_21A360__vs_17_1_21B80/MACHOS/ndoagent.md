@@ -95,12 +95,14 @@
    - /usr/lib/libSystem.B.dylib
 -  - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1F61B889-9692-3BE3-9493-A2DAD4619CE6
 -  Functions: 608
 -  Symbols:   223
--  CStrings:  1572
+-  CStrings:  1816
++  UUID: 52B71F46-7B46-3B0B-A8E0-DB51CD903976
 +  Functions: 290
 +  Symbols:   171
-+  CStrings:  788
++  CStrings:  878
  
 Symbols:
 + _NRDevicePropertyMarketingProductName

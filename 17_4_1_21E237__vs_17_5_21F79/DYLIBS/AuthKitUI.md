@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x270
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x48
 -  __AUTH_CONST.__auth_got: 0x5e0
 +  __AUTH_CONST.__auth_got: 0x5f8
@@ -74,12 +73,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1029E6C7-D1F1-3581-A2A7-A23A8898D88C
 -  Functions: 2563
 -  Symbols:   9637
--  CStrings:  4850
+-  CStrings:  5344
++  UUID: 3D35C8B5-7FDF-3FE1-B206-865E0A95EC43
 +  Functions: 2612
 +  Symbols:   9789
-+  CStrings:  4930
++  CStrings:  5429
  
 Symbols:
 + -[AKAppleIDFollowUpServerUIPresenter _fetchCurrentFollowUpItem].cold.2

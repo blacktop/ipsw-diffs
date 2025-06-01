@@ -62,12 +62,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: CF0DED0A-F16D-3DBA-89E5-6B59DEDEA991
 -  Functions: 2068
 -  Symbols:   7651
--  CStrings:  4179
+-  CStrings:  4752
++  UUID: 39AED5B5-9395-3337-8641-CBCFB4AD3D13
 +  Functions: 2066
 +  Symbols:   7646
-+  CStrings:  4177
++  CStrings:  4751
  
 Symbols:
 + -[HMBSQLContext setSchemaVersion:error:]

@@ -19,7 +19,6 @@
    __TEXT.__eh_frame: 0x50
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x108
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__const: 0x70
 -  __AUTH_CONST.__auth_got: 0x6a0
@@ -31,11 +30,13 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblzma.5.dylib
+-  UUID: E182FF7C-DD57-39A5-933E-3433CCBADAF2
 -  Functions: 774
 -  Symbols:   1648
++  UUID: 0CAF0B87-625D-3589-9F0F-A35EC690A394
 +  Functions: 775
 +  Symbols:   1649
-   CStrings:  2237
+   CStrings:  2238
  
 Symbols:
 + _RawImagePatchInternal

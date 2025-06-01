@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A65B0C21-2DB8-3636-8B6E-DAEA2A67DC64
++  UUID: 68F5829F-4B98-3334-BBA1-2DF997B4AA79
    Functions: 52
    Symbols:   81
--  CStrings:  164
-+  CStrings:  165
+-  CStrings:  165
++  CStrings:  166
  
 CStrings:
 + "T@\"NSString\",?,R,C"

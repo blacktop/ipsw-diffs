@@ -49,12 +49,14 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEEB1EC2-D4E6-3ECE-9689-A1B46D0D81DF
 -  Functions: 123
 -  Symbols:   124
--  CStrings:  374
+-  CStrings:  402
++  UUID: 5B720E06-55D9-375B-8EC1-4C2E265384DA
 +  Functions: 150
 +  Symbols:   126
-+  CStrings:  393
++  CStrings:  421
  
 Symbols:
 + _OBJC_CLASS_$_AAUIDTOHelper

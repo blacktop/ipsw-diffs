@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__const: 0x19f0
 +  __AUTH_CONST.__cfstring: 0x15840
 +  __AUTH_CONST.__const: 0x1a10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0xc38
 -  __AUTH.__objc_data: 0x1e50
@@ -80,12 +79,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1E43D32-7A3B-3CE8-9B7C-A00D99C9C32D
 -  Functions: 6668
 -  Symbols:   21138
--  CStrings:  9558
+-  CStrings:  12288
++  UUID: 86747441-9B8C-396E-9D82-EB9A3EFFEA61
 +  Functions: 6771
 +  Symbols:   21449
-+  CStrings:  9669
++  CStrings:  12423
  
 Symbols:
 + +[CTBootstrapState supportsSecureCoding]

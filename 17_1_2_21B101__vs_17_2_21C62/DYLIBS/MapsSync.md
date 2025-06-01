@@ -62,8 +62,7 @@
 +  __AUTH_CONST.__const: 0x12ca8
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_const: 0x1900
-   __AUTH_CONST.__auth_ptr: 0x340
-
+   __AUTH_CONST.__auth_got: 0xb80
    __AUTH.__data: 0x1000
    __AUTH.__objc_data: 0xd070
    __DATA.__objc_protorefs: 0x58
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E855498-C815-325E-B2E8-CF4D6BA2B7D9
 -  Functions: 12483
 -  Symbols:   3656
--  CStrings:  1729
+-  CStrings:  1737
++  UUID: 8938FC41-2EF1-3712-852C-521D239F65D6
 +  Functions: 12370
 +  Symbols:   3651
-+  CStrings:  1724
++  CStrings:  1740
  
 Symbols:
 + _MapsSyncConfig_MapsSyncActivityTimeInterval

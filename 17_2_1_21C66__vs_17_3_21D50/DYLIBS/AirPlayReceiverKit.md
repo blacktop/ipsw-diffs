@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04AE307C-EF80-350E-91FC-583DA89ECF81
 -  Functions: 538
 -  Symbols:   2251
++  UUID: C57D35CF-645F-3FB2-A991-5441D29D78D8
 +  Functions: 540
 +  Symbols:   2261
-   CStrings:  1588
+   CStrings:  1764
  
 Symbols:
 + _CMTimebaseCreateReadOnlyTimebase

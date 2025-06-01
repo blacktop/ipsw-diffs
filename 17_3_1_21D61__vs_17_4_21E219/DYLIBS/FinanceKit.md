@@ -77,7 +77,6 @@
 +  __AUTH_CONST.__cfstring: 0x520
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x21978
--  __AUTH_CONST.__auth_ptr: 0x970
 -  __AUTH_CONST.__auth_got: 0x20e0
 -  __AUTH.__objc_data: 0x62e8
 -  __AUTH.__data: 0x9600
@@ -93,7 +92,6 @@
 -  __DATA_DIRTY.__data: 0x1748
 -  __DATA_DIRTY.__bss: 0x500
 +  __AUTH_CONST.__const: 0x26fa8
-+  __AUTH_CONST.__auth_ptr: 0xa98
 +  __AUTH_CONST.__auth_got: 0x2558
 +  __AUTH.__objc_data: 0x6100
 +  __AUTH.__data: 0xa190
@@ -131,12 +129,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A118A9AD-DBC9-331F-AA3F-312EE0C01886
 -  Functions: 31322
 -  Symbols:   8556
--  CStrings:  4290
+-  CStrings:  4329
++  UUID: A1251259-5C76-3B25-AEDE-B8B46AF7A87D
 +  Functions: 36006
 +  Symbols:   9718
-+  CStrings:  4818
++  CStrings:  4859
  
 Symbols:
 + -[FKAccount consentUUID]

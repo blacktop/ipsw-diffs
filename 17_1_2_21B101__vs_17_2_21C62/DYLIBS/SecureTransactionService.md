@@ -39,18 +39,21 @@
 -  __DATA_CONST.__objc_selrefs: 0x12c8
 +  __DATA_CONST.__objc_selrefs: 0x12d0
    __AUTH_CONST.__const: 0x300
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0x27a0
 +  __AUTH_CONST.__cfstring: 0x2800
    __AUTH_CONST.__objc_intobj: 0xe58
    __AUTH_CONST.__objc_const: 0x1510
    __AUTH_CONST.__auth_got: 0x438
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: CDC7A153-433A-35A3-9A3B-AD01A5BA2236
++  UUID: E31E4C8B-ED14-3B77-BA86-DC265450C1A6
    Functions: 856
    Symbols:   255
--  CStrings:  1813
-+  CStrings:  1819
+-  CStrings:  2130
++  CStrings:  2139
  
 CStrings:
 + "-[STSReader _activateSendRequestCompletion:terminationRequested:error:]_block_invoke"

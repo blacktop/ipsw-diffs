@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2F2CACF2-A3C5-3D9A-9E45-B1ED0C989509
 -  Functions: 2335
 -  Symbols:   8515
--  CStrings:  3939
+-  CStrings:  4342
++  UUID: 8E1DC666-739F-31E2-A86E-03EC6442BF66
 +  Functions: 2332
 +  Symbols:   8508
-+  CStrings:  3953
++  CStrings:  4369
  
 Symbols:
 + -[UIPrintPanelViewController _presentInParentAnimated:hostingScene:]

@@ -46,12 +46,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63B46B7C-BBE8-3479-A670-45ECECCDE5B7
 -  Functions: 416
 -  Symbols:   1586
--  CStrings:  801
+-  CStrings:  819
++  UUID: 59EEEC7E-AAAE-3D2D-AF54-D27A8330B249
 +  Functions: 411
 +  Symbols:   1580
-+  CStrings:  797
++  CStrings:  815
  
 Symbols:
 + +[CSProminentLayoutController _safeAreaTopInset:]

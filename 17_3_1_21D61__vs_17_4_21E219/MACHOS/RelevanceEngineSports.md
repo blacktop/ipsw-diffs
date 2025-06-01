@@ -15,4 +15,13 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 13B61FFB-E53C-39BF-9905-C347651AD6CA
++  UUID: D2329090-AF83-3926-B926-143A184529D3
+   Functions: 17
+   Symbols:   66
+   CStrings:  59
+
 ```

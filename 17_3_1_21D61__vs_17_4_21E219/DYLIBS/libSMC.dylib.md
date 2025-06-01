@@ -20,5 +20,10 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
+-  UUID: E3B4C26C-8B90-3E54-9F23-09B50BB602F7
++  UUID: C94641A8-BD4B-3107-B473-3A6A1834C7D3
+   Functions: 95
+   Symbols:   318
+   CStrings:  42
 
 ```

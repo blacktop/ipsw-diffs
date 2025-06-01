@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D7C8895-FFC2-3468-B85B-E0F6BE6E847B
 -  Functions: 3672
 -  Symbols:   13917
--  CStrings:  6456
+-  CStrings:  7383
++  UUID: 2D58DB68-89BE-3ABD-8985-45562DFC4278
 +  Functions: 3674
 +  Symbols:   13930
-+  CStrings:  6458
++  CStrings:  7387
  
 Symbols:
 + -[DNDSMeDeviceService sysdiagnoseDataForDate:redacted:]

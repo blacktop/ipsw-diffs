@@ -58,7 +58,6 @@
 +  __AUTH_CONST.__objc_const: 0xbe78
    __AUTH_CONST.__objc_intobj: 0x528
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x88
    __AUTH_CONST.__auth_got: 0x1748
    __AUTH.__data: 0x5e8
 -  __AUTH.__objc_data: 0x4a88
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8353DE1F-75BC-389C-9982-834183AA7BA0
 -  Functions: 10663
 -  Symbols:   30707
--  CStrings:  9519
+-  CStrings:  11134
++  UUID: BB6D7DDB-96CC-38DA-89CA-7417FEF3893A
 +  Functions: 10745
 +  Symbols:   30962
-+  CStrings:  9590
++  CStrings:  11212
  
 Symbols:
 + +[CN(MultiValueTransforms) sensitiveContentConfigurationFromDataTransform]

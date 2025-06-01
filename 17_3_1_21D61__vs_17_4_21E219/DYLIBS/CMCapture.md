@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__const: 0x11f0
 +  __AUTH_CONST.__objc_arrayobj: 0x22b0
 +  __AUTH_CONST.__const: 0xfa8
-   __AUTH_CONST.__auth_ptr: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x1c0
    __AUTH_CONST.__objc_dictobj: 0x1798
    __AUTH_CONST.__objc_doubleobj: 0x960
@@ -99,12 +98,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 25E93EC6-8196-34B9-96EE-7C497B1EC804
 -  Functions: 18309
 -  Symbols:   65640
--  CStrings:  31759
+-  CStrings:  37940
++  UUID: A5869713-026C-37D0-8B52-BDB7A59F126C
 +  Functions: 18473
 +  Symbols:   66172
-+  CStrings:  32110
++  CStrings:  38353
  
 Symbols:
 + +[BWTemporalFilterNode initialize]

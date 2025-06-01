@@ -31,8 +31,8 @@
 +  __DATA_CONST.__objc_classrefs: 0xab8
 +  __DATA_CONST.__objc_superrefs: 0x558
    __DATA_CONST.__objc_arraydata: 0x808
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x400
+   __AUTH_CONST.__cfstring: 0x6280
 
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0xb98
@@ -44,11 +44,15 @@
    __DATA.__data: 0x1868
    __DATA.__bss: 0x12c8
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 9DC7099C-1AB0-336D-A5F4-D536908F3945
++  UUID: 1946E131-33D5-3D86-8B9F-5DC075C0AF37
    Functions: 4960
    Symbols:   820
--  CStrings:  7322
-+  CStrings:  7325
+-  CStrings:  8110
++  CStrings:  8113
  
 CStrings:
 + "T@\"IMTheme\",?,&,N"

@@ -62,14 +62,12 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x2998
 -  __AUTH_CONST.__const: 0x9c908
--  __AUTH_CONST.__auth_ptr: 0x39e0
 -  __AUTH_CONST.__auth_got: 0xc078
 -  __AUTH.__objc_data: 0x8d68
 -  __AUTH.__data: 0x1bce8
 -  __DATA.__objc_protorefs: 0x620
 -  __DATA.__objc_classrefs: 0xb28
 +  __AUTH_CONST.__const: 0x9c6f8
-+  __AUTH_CONST.__auth_ptr: 0x39f0
 +  __AUTH_CONST.__auth_got: 0xc060
 +  __AUTH.__objc_data: 0x85b0
 +  __AUTH.__data: 0x197f8
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8FE7AAF3-DDAF-36D7-ACD9-9B447BDBC918
 -  Functions: 94053
 -  Symbols:   23162
--  CStrings:  13571
+-  CStrings:  13575
++  UUID: 6C34DC75-2289-3ECC-A2E0-30E78EAC64A7
 +  Functions: 94486
 +  Symbols:   23165
-+  CStrings:  13620
++  CStrings:  13624
  
 Symbols:
 + _FCNarrativeTrackForSubscription

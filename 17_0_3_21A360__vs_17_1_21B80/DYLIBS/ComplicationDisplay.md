@@ -30,8 +30,8 @@
    __TEXT.__objc_classname: 0x610
    __TEXT.__objc_methname: 0x3c54
 
+   __AUTH_CONST.__const: 0x1e20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__auth_got: 0xa98
 -  __AUTH.__objc_data: 0x1578
 +  __AUTH.__objc_data: 0x1588
@@ -42,10 +42,12 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6AC6D076-DB94-3D45-B990-84E03294919D
 -  Functions: 1860
++  UUID: 827F2419-3B2D-3628-9837-6CCF9FF38033
 +  Functions: 1861
    Symbols:   3013
-   CStrings:  1065
+   CStrings:  1085
  
 Symbols:
 + _block_copy_helper.46

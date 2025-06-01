@@ -22,4 +22,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EF043691-2F8E-3E1D-846E-B427AD62D9E0
++  UUID: E2FDAF9D-E598-3167-BB8C-A18EC19892A0
+   Functions: 29
+   Symbols:   61
+   CStrings:  102
+
 ```

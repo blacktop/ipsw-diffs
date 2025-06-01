@@ -53,11 +53,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03174856-C537-3630-B6C9-236D78F82DB7
 -  Functions: 10322
 -  Symbols:   1326
++  UUID: D84F7F45-2370-3C07-8512-DB4C8B18662E
 +  Functions: 10338
 +  Symbols:   1328
-   CStrings:  2709
+   CStrings:  2774
  
 Symbols:
 + _ASDSubscriptionEntitlementsActivityDidChangeNotification

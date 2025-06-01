@@ -22,4 +22,13 @@
    __DATA.__data: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 758F52DC-5C47-3C29-B32F-68A79DFEAD09
++  UUID: 4CE9C1E5-29F3-3857-B962-A7EE85F53218
+   Functions: 7
+   Symbols:   49
+   CStrings:  25
+
 ```

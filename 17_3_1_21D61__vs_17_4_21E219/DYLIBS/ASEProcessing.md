@@ -25,6 +25,15 @@
    __DATA.__objc_ivar: 0x60
    __DATA.__data: 0x19390
    __DATA.__common: 0x4
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64EC35DE-7120-3C49-B28B-693B25FAF065
++  UUID: D8E778C2-2352-39A7-AE3D-9E66226DFDEC
+   Functions: 36
+   Symbols:   518
+   CStrings:  229
 CStrings:
 + " [1.34.0]     %s : aseProcessingType=%d [%s], width=%d, height=%d, strength=%f\n"
 + " [1.34.0]     %s: src={ %dw x %dh }, dest={ %dw x %dh }, aseFunctionOnYesOffNo=%d\n"

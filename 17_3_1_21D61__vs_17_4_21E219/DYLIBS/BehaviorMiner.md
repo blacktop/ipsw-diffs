@@ -22,4 +22,13 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 37FE6C89-B657-3A6A-AE01-22575352C6C2
++  UUID: 1C1AD12E-EF4D-3E3A-AAAA-9B4383FB1E40
+   Functions: 439
+   Symbols:   1871
+   CStrings:  1204
+
 ```

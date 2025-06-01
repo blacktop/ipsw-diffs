@@ -25,6 +25,15 @@
    __DATA.__common: 0x8
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0D9592BF-DAA5-3A1A-B559-40F924973FE6
++  UUID: 64D5535E-E979-34BD-9977-EDAD1EA9E626
+   Functions: 23
+   Symbols:   136
+   CStrings:  86
 Symbols:
 + ___block_literal_global.245
 + ___block_literal_global.254

@@ -31,8 +31,8 @@
 -  __AUTH_CONST.__const: 0x18220
 +  __AUTH_CONST.__const: 0x18228
    __AUTH_CONST.__objc_const: 0x2fa0
-   __AUTH_CONST.__auth_ptr: 0x390
    __AUTH_CONST.__cfstring: 0x1fc0
+   __AUTH_CONST.__objc_intobj: 0xc0
 
    __DATA.__objc_data: 0x138
    __DATA.__data: 0xce90
@@ -46,10 +46,12 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A9FF5AE5-3FAD-34E0-A5AA-8CA7B01B5B5D
 -  Functions: 16820
++  UUID: 6002B53A-AAFA-34A6-8E7A-D1B0529A788D
 +  Functions: 16822
    Symbols:   15189
-   CStrings:  6762
+   CStrings:  7016
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyACyACy14WorkflowEditor18SummaryHostingView33_060892FA80DB790CDB013ACF6F2F7704LLVAA25_AppearanceActionModifierVGAD014VariableAnchorR0VGAA018_PreferenceWritingR0VyAD0g12CoordinatorsU3KeyVGGAA0I0HPAmaTHPAjaTHPAgaTHPyHC_AiA0iR0HPyHCHC_AlaUHPyHCHC_AraUHPyHCHC.107

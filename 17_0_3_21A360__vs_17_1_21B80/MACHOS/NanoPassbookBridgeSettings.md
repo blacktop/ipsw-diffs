@@ -31,11 +31,15 @@
    __DATA.__objc_classrefs: 0x1f8
    __DATA.__objc_superrefs: 0x38
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B569ACB8-3DC9-3101-A0C4-F2922B2D5C1C
++  UUID: BC4D671D-B6FC-3877-96EB-A7C408B64600
    Functions: 479
    Symbols:   249
--  CStrings:  1304
-+  CStrings:  1306
+-  CStrings:  1393
++  CStrings:  1395
  
 Symbols:
 + _PKEnableDynamicSEAllocationIsWatch

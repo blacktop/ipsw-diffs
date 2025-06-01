@@ -27,13 +27,16 @@
    __DATA.__objc_catlist: 0x10
    __DATA.__objc_protolist: 0x48
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E8AE36B2-2879-334C-A73C-98E1084C02F0
++  UUID: C12DC684-6708-3144-973C-5DFA9E94F48F
    Functions: 1261
 -  Symbols:   7663
--  CStrings:  2217
+-  CStrings:  2601
 +  Symbols:   7671
-+  CStrings:  2219
++  CStrings:  2605
  
 Symbols:
 + _ACCUserDefaultsKey_DisableAuthTimeoutTTRForXR

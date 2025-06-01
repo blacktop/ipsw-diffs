@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
    - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4E9C8D48-B22E-3790-A5EF-E878A169B82D
++  UUID: E5FF4B98-AD70-30D4-9D8D-611FD3B68958
+   Functions: 443
+   Symbols:   472
+   CStrings:  252
+
 ```

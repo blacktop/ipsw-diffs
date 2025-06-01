@@ -20,4 +20,13 @@
    __TEXT.__objc_classname: 0x16b
    __TEXT.__objc_methname: 0x23c1
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 824B4C13-A7BF-3711-B9C5-637049091A35
++  UUID: 446A10A2-FBE9-38F5-98C7-5956144EE6C8
+   Functions: 17496
+   Symbols:   4927
+   CStrings:  1456
+
 ```

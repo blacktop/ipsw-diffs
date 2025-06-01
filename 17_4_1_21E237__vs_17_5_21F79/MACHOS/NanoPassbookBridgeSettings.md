@@ -36,11 +36,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1511DA28-6408-36D6-8F6D-99060D955C6A
 -  Functions: 479
++  UUID: 53875043-934D-334C-AB38-F950FD691476
 +  Functions: 480
    Symbols:   249
--  CStrings:  1307
-+  CStrings:  1309
+-  CStrings:  1396
++  CStrings:  1398
  
 CStrings:
 + "Warning: Completion block has already been called, not calling again"

@@ -50,7 +50,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x130
 +  __DATA_CONST.__objc_superrefs: 0x28
    __AUTH_CONST.__const: 0x1948
-   __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__cfstring: 0x660
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0xac0
@@ -77,12 +76,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 640082A9-A21D-32B7-AFF7-C72C2C487837
 -  Functions: 3893
 -  Symbols:   2450
--  CStrings:  666
+-  CStrings:  717
++  UUID: B598AFDA-56E5-3A8E-AD2A-F5370067C945
 +  Functions: 3939
 +  Symbols:   2462
-+  CStrings:  700
++  CStrings:  751
  
 Symbols:
 + -[SCDAFParticipation initNearMiss]

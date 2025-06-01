@@ -49,7 +49,7 @@
    __AUTH_CONST.__objc_const: 0x9bd0
    __AUTH_CONST.__const: 0x1e8e8
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0x330
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x1b88
@@ -79,14 +79,16 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
-
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4AA132E1-06E9-3401-82CF-7AA2603303A8
++  UUID: 5B3DB4B4-6425-3C54-8771-6F21A06EF0A5
    Functions: 35043
 -  Symbols:   13021
--  CStrings:  22237
+-  CStrings:  24204
 +  Symbols:   13022
-+  CStrings:  22246
++  CStrings:  24213
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc

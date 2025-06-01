@@ -23,12 +23,15 @@
    __DATA.__objc_classrefs: 0x80
    __DATA.__objc_superrefs: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0E32062-4D38-3FC1-8740-2EA0FF81190B
++  UUID: 8FFDA5D8-69E8-3442-B022-8D0BC6BBAC29
    Functions: 80
 -  Symbols:   124
 +  Symbols:   123
-   CStrings:  270
+   CStrings:  312
  
 Symbols:
 - _objc_unsafeClaimAutoreleasedReturnValue

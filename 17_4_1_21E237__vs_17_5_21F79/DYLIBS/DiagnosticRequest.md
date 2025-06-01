@@ -42,12 +42,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C9A0B1F-BF46-3A91-9755-D9CF4A792E4D
 -  Functions: 301
 -  Symbols:   1219
--  CStrings:  634
+-  CStrings:  708
++  UUID: 1A4B96A0-E6DB-3427-B879-81E6785E2ADB
 +  Functions: 303
 +  Symbols:   1223
-+  CStrings:  641
++  CStrings:  720
  
 Symbols:
 + _DRValidateCKRecordDictionary

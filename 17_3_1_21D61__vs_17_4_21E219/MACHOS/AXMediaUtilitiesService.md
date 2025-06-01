@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x240
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E13CAFD-79B8-3D44-AEAB-1A607AAB16E8
++  UUID: F9293B2B-0BB8-3937-8C4B-C5CF98E11C94
    Functions: 58
    Symbols:   266
--  CStrings:  178
-+  CStrings:  179
+-  CStrings:  180
++  CStrings:  181
  
 Symbols:
 + __58-[AXMServiceXPCServer listener:shouldAcceptNewConnection:]_block_invoke.77.cold.1

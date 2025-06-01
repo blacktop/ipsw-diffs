@@ -52,12 +52,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4BD45EB0-CAB8-39CC-A101-C5B20EC671F0
 -  Functions: 615
 -  Symbols:   2445
--  CStrings:  820
+-  CStrings:  1236
++  UUID: F0F1BE30-F1A9-39D5-BEDE-F43039FEDC53
 +  Functions: 620
 +  Symbols:   2465
-+  CStrings:  829
++  CStrings:  1250
  
 Symbols:
 + +[ArcadeHeaderViewAccessibility _accessibilityPerformValidations:]

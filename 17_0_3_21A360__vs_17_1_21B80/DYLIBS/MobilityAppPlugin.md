@@ -16,6 +16,15 @@
    __TEXT.__constg_swiftt: 0xd60
    __TEXT.__swift5_typeref: 0x842
    __TEXT.__swift5_fieldmd: 0x6f4
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F1147B3-D2C5-3B74-8B03-598501476956
++  UUID: 864F9EEA-EA87-3E32-80C7-9E02B4A6D615
+   Functions: 1247
+   Symbols:   211
+   CStrings:  615
 CStrings:
 + "FITNESS_PLUS_CELL_BALANCE_CATEGORY"
 + "FITNESS_PLUS_CELL_BALANCE_DESCRIPTION"

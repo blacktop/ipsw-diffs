@@ -38,12 +38,14 @@
    - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79F982E7-E85B-3488-94A7-2CA8F4F2C0B3
 -  Functions: 498
 -  Symbols:   1907
--  CStrings:  880
+-  CStrings:  963
++  UUID: B648A6A9-5BC6-34A6-A115-4E09B08C500F
 +  Functions: 499
 +  Symbols:   1909
-+  CStrings:  882
++  CStrings:  965
  
 Symbols:
 + -[_CNDonationAnalyticsLogger noAnalysisToSubmitForEvent:]

@@ -55,12 +55,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5284D91-48F7-3ABC-8BC2-E2420C1F4A05
 -  Functions: 3434
 -  Symbols:   1770
--  CStrings:  1574
+-  CStrings:  1576
++  UUID: 296CC4C5-4530-319B-BB4B-1D1CECF51D7A
 +  Functions: 3439
 +  Symbols:   1781
-+  CStrings:  1576
++  CStrings:  1578
  
 Symbols:
 + _$s5UIKit35UICollectionLayoutListConfigurationV10AppearanceO7sidebaryA2EmFWC

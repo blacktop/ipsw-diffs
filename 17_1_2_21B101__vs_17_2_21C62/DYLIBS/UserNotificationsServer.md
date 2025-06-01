@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/UserNotificationsSettings.framework/UserNotificationsSettings
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8A70AACB-4C65-3A5A-9520-599DA10BAA54
 -  Functions: 1990
 -  Symbols:   7490
--  CStrings:  3961
+-  CStrings:  4522
++  UUID: 9DA994DE-0F78-3400-8871-3FDB2418954C
 +  Functions: 1994
 +  Symbols:   7510
-+  CStrings:  3975
++  CStrings:  4537
  
 Symbols:
 + +[UNNotificationAttachment(Staging) stagingActionForFileHandle:fromLocalClientConnection:orFromServiceExtensionOfBundleProxy:servicingBundleIdentifier:error:]

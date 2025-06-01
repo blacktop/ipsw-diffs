@@ -37,11 +37,15 @@
    __DATA_CONST.__objc_intobj: 0x18
    __DATA_CONST.__objc_dictobj: 0x78
 
+   - /usr/lib/libprotobuf.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 39630178-E465-3F90-BF3D-C4FCE040CAA4
++  UUID: 675A538D-04F1-37BF-AB16-D88C9EF8F56B
    Functions: 1966
    Symbols:   532
--  CStrings:  1360
-+  CStrings:  1366
+-  CStrings:  1830
++  CStrings:  1842
  
 CStrings:
 + "appinstallationmetricsd"

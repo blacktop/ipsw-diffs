@@ -46,6 +46,8 @@
 -  __AUTH_CONST.__cfstring: 0x1d60
 -  __AUTH_CONST.__const: 0xca8
 -  __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x570
+-  __AUTH.__objc_data: 0x1950
 +  __DATA_CONST.__objc_const: 0x5c68
 +  __DATA_CONST.__objc_selrefs: 0x1d40
 +  __DATA_CONST.__objc_protorefs: 0x40
@@ -56,9 +58,6 @@
 +  __AUTH_CONST.__const: 0xcb0
 +  __AUTH_CONST.__objc_intobj: 0x18
 +  __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
--  __AUTH_CONST.__auth_got: 0x570
--  __AUTH.__objc_data: 0x1950
 +  __AUTH_CONST.__auth_got: 0x548
 +  __AUTH.__objc_data: 0x1810
    __AUTH.__data: 0x10
@@ -81,12 +80,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3B587403-CEE7-314E-807E-70E5616904B9
 -  Functions: 2044
 -  Symbols:   6698
--  CStrings:  2197
+-  CStrings:  2432
++  UUID: D89F50C5-AEDC-3F57-8CA6-BED37BBF5D40
 +  Functions: 2035
 +  Symbols:   6633
-+  CStrings:  2180
++  CStrings:  2411
  
 Symbols:
 + +[SHContinuityTracker trackQuerySignature:inReferenceSignature:configuration:error:]

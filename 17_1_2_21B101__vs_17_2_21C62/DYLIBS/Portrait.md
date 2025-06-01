@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A47AA56F-C1A5-3A12-B0CB-2F1BC04DC6AF
 -  Functions: 4010
 -  Symbols:   13034
--  CStrings:  6150
+-  CStrings:  6737
++  UUID: 68B896F2-90AC-3C1E-83DC-8E7F3E612F6F
 +  Functions: 4022
 +  Symbols:   13058
-+  CStrings:  6162
++  CStrings:  6749
  
 Symbols:
 + -[PTEffect render:].cold.6

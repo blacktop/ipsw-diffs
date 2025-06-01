@@ -21,4 +21,13 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 84130A11-828C-3986-8309-F0F1CB203BAC
++  UUID: B915A08D-EA0B-35C1-AC89-FBECD05572BE
+   Functions: 13
+   Symbols:   54
+   CStrings:  42
+
 ```

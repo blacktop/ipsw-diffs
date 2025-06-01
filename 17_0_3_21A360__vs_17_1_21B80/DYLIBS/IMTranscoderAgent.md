@@ -32,11 +32,15 @@
    __AUTH_CONST.__cfstring: 0x3680
    __AUTH_CONST.__objc_const: 0x0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12CC6415-FBA8-3FAB-85CE-CCE553106297
++  UUID: D062BF51-0BBD-3BDF-B1C4-0B97288CED31
    Functions: 371
    Symbols:   383
--  CStrings:  1398
-+  CStrings:  1399
+-  CStrings:  1834
++  CStrings:  1835
  
 CStrings:
 + "22:35:39"

@@ -56,11 +56,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B28C7F0D-6463-35C7-AA0A-7898EDA9A633
 -  Functions: 330
++  UUID: 84844678-234D-332C-B961-5A5F4B4D80F8
 +  Functions: 333
    Symbols:   171
--  CStrings:  827
-+  CStrings:  833
+-  CStrings:  923
++  CStrings:  929
  
 CStrings:
 + "-[NDOAgent _getInfosForDevices:usingPolicy:updateFollowUps:withReply:]_block_invoke_4"

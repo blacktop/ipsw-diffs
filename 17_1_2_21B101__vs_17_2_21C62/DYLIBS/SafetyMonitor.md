@@ -50,7 +50,7 @@
 +  __DATA_CONST.__objc_selrefs: 0x1a58
    __AUTH_CONST.__const: 0x7c8
    __AUTH_CONST.__objc_const: 0x1c58
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__cfstring: 0x41c0
 
    __DATA.__data: 0xdc0
    __DATA.__common: 0xf8
@@ -64,12 +64,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E91DB5BC-4EF2-38E1-998E-C82025ADD218
 -  Functions: 1748
 -  Symbols:   4600
--  CStrings:  2577
+-  CStrings:  3103
++  UUID: EF1781CD-10CA-3706-B65B-43CA4C94F524
 +  Functions: 1754
 +  Symbols:   4619
-+  CStrings:  2589
++  CStrings:  3115
  
 Symbols:
 + -[SMReceiverContact firstDetailViewSessionState]

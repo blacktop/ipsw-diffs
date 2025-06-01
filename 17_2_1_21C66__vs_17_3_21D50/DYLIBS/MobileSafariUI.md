@@ -38,13 +38,16 @@
    __AUTH_CONST.__cfstring: 0xb880
    __AUTH_CONST.__const: 0x25c8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E05C441-E69F-360B-B1DA-F971D222E4C4
++  UUID: 516798B1-0915-3C0F-9FF6-8FD0027E559A
    Functions: 10955
 -  Symbols:   41284
--  CStrings:  18740
+-  CStrings:  20216
 +  Symbols:   41281
-+  CStrings:  18737
++  CStrings:  20213
  
 Symbols:
 + ___block_descriptor_56_e8_32s40r48w_e33_v16?0"WBSSiteMetadataResponse"8lw48l8s32l8r40l8

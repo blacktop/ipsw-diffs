@@ -42,7 +42,6 @@
    __AUTH_CONST.__objc_intobj: 0x198
    __AUTH_CONST.__objc_dictobj: 0x938
    __AUTH_CONST.__objc_arrayobj: 0x738
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0x460
 +  __AUTH_CONST.__auth_got: 0x468
    __AUTH.__objc_data: 0x460
@@ -52,12 +51,14 @@
    - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libVinylNonUpdater.dylib
+-  UUID: B99D9CA8-A9C6-3F3E-8F6E-193FC97A6C20
 -  Functions: 211
 -  Symbols:   1241
--  CStrings:  1433
+-  CStrings:  2361
++  UUID: 9ADE11EB-4B8D-3EC3-9CE6-9EDD71516B4B
 +  Functions: 212
 +  Symbols:   1247
-+  CStrings:  1437
++  CStrings:  2366
  
 Symbols:
 + ___56-[ZhuGeArmoryHelperArmory getPropertiesOfKey:withError:]_block_invoke

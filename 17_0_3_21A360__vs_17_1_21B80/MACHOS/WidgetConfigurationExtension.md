@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 022713E4-60CD-3C6B-AA69-14D07D794F5A
 -  Functions: 219
 -  Symbols:   163
--  CStrings:  851
+-  CStrings:  873
++  UUID: 484FCC27-9539-340E-8D92-26DC1E1FE4B7
 +  Functions: 222
 +  Symbols:   164
-+  CStrings:  853
++  CStrings:  875
  
 Symbols:
 + _INIntentWithTypedIntent

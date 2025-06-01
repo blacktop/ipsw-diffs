@@ -16,4 +16,13 @@
    __TEXT.__objc_methname: 0x45d3
    __TEXT.__oslogstring: 0x482
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 127B2659-FDF3-3EC4-978B-905006614726
++  UUID: F6CD655C-6FC3-38AC-92F1-E0B2C52AC0A5
+   Functions: 720
+   Symbols:   228
+   CStrings:  1577
+
 ```

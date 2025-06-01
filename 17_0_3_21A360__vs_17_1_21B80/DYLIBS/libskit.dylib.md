@@ -12,4 +12,13 @@
    __TEXT.__const: 0xbb5
    __TEXT.__gcc_except_tab: 0xe58
 
+   - /usr/lib/libmarisa.dylib
+   - /usr/lib/libmorphun.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F68B0B84-E715-3D24-B845-685431E51236
++  UUID: AC555AD8-0286-398B-B37A-9A7AEAFFB806
+   Functions: 521
+   Symbols:   1140
+   CStrings:  168
+
 ```

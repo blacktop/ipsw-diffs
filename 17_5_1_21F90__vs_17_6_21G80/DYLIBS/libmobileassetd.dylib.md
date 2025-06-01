@@ -42,8 +42,8 @@
 -  __AUTH_CONST.__cfstring: 0x28560
 +  __AUTH_CONST.__cfstring: 0x28600
    __AUTH_CONST.__objc_const: 0x3090
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__const: 0xa20
+   __AUTH_CONST.__objc_intobj: 0x390
 
    __AUTH.__objc_data: 0x758
    __DATA.__objc_classrefs: 0x6b0
@@ -57,12 +57,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libimg4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A08397EC-AA41-35DA-8FA9-A24D664F1BC7
 -  Functions: 5075
 -  Symbols:   16405
--  CStrings:  12904
+-  CStrings:  18067
++  UUID: 85C03610-F75A-3D2A-A5E4-BE5C05188CA6
 +  Functions: 5079
 +  Symbols:   16417
-+  CStrings:  12914
++  CStrings:  18082
  
 Symbols:
 + +[MADAutoAssetControlManager preferenceActivityTickerSecs]

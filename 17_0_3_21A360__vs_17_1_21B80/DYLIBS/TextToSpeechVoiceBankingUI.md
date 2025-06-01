@@ -46,11 +46,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7268849E-3DED-365F-A502-A5A69D81F17C
 -  Functions: 3847
++  UUID: 4CCD86AD-418D-3EE9-AFBA-3660D80CA26C
 +  Functions: 3848
    Symbols:   1784
--  CStrings:  538
-+  CStrings:  540
+-  CStrings:  539
++  CStrings:  541
  
 CStrings:
 + "Error setting up voice banking session: %@"

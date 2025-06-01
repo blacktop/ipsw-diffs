@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 93BE5418-C102-3A7F-B611-D684BAC5A62A
 -  Functions: 1656
 -  Symbols:   5903
--  CStrings:  2365
+-  CStrings:  2736
++  UUID: 8E87F297-47CC-3ACF-A4C5-AD80DEAF813D
 +  Functions: 1653
 +  Symbols:   5897
-+  CStrings:  2364
++  CStrings:  2735
  
 Symbols:
 - _GTTransportServiceDaemonConnectAndConfirm

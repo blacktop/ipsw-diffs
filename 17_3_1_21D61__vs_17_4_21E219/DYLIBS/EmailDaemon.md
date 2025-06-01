@@ -99,13 +99,15 @@
    - /usr/lib/swift/libswiftWebKit.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8B70887B-46F6-357B-9E96-9C027FBA102C
 -  Functions: 7668
 -  Symbols:   28885
--  CStrings:  11820
+-  CStrings:  13655
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 60D7356C-D2C6-37D2-9983-8E96251850B1
 +  Functions: 7682
 +  Symbols:   28944
-+  CStrings:  11851
++  CStrings:  13697
  
 Symbols:
 + +[EDRemindMeNotificationController localizedRemindMeNotificationPlaceholder]

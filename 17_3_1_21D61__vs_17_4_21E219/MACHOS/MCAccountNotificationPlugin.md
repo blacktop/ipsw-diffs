@@ -29,7 +29,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B6F2D55-5B38-3906-B673-2D54EE42377D
++  UUID: C25EE5FA-4585-3C38-AD10-8C089732F36D
    Functions: 3
    Symbols:   29
 -  CStrings:  71

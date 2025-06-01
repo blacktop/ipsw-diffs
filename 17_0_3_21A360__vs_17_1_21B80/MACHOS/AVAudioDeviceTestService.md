@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DDD7CF1-6477-3613-B9BE-D0F2EB0FC338
 -  Functions: 192
 -  Symbols:   164
--  CStrings:  600
+-  CStrings:  649
++  UUID: 3385D531-4E4A-373D-B64C-D2F43149DC6B
 +  Functions: 195
 +  Symbols:   169
-+  CStrings:  619
++  CStrings:  672
  
 Symbols:
 + _AVAudioSessionCategoryPlayback

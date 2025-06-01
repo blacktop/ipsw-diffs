@@ -45,6 +45,15 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E77ECCE5-7479-3278-9D2B-521DD0293E9C
++  UUID: 366D6324-6C59-3B1E-AE8D-08AD0A58FB35
+   Functions: 4639
+   Symbols:   15337
+   CStrings:  10336
 CStrings:
 + "11:27:10"
 + "Apr 14 2024"

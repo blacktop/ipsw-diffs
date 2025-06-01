@@ -69,10 +69,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x188
    __DATA_CONST.__objc_arraydata: 0x18
 -  __AUTH_CONST.__const: 0x2710
-+  __AUTH_CONST.__const: 0x2858
-   __AUTH_CONST.__auth_ptr: 0x98
 -  __AUTH_CONST.__objc_const: 0x14b0
 -  __AUTH_CONST.__cfstring: 0x1140
++  __AUTH_CONST.__const: 0x2858
 +  __AUTH_CONST.__objc_const: 0x16f0
 +  __AUTH_CONST.__cfstring: 0x1260
    __AUTH_CONST.__objc_doubleobj: 0x90
@@ -110,12 +109,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BD056206-CDE3-3BA5-B1F6-5277DCE13D44
 -  Functions: 2421
 -  Symbols:   4664
--  CStrings:  2184
+-  CStrings:  2322
++  UUID: E8C415A5-A748-351F-ACEB-5FE5A4BA56D4
 +  Functions: 2476
 +  Symbols:   4848
-+  CStrings:  2268
++  CStrings:  2415
  
 Symbols:
 + +[WFPencilActionConfigurationMetricsProvider sharedProvider]

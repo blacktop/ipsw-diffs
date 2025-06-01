@@ -111,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 29AC9902-D165-319B-89E3-D5B07F7EA766
 -  Functions: 7115
 -  Symbols:   1647
--  CStrings:  8652
+-  CStrings:  9352
++  UUID: 1D5604FB-0A6F-3237-8DC8-5138961EA7C7
 +  Functions: 7123
 +  Symbols:   1649
-+  CStrings:  8676
++  CStrings:  9377
  
 Symbols:
 + _$s18TelephonyUtilities015VoiceSpamReportA7ManagerC6sharedACvgZ

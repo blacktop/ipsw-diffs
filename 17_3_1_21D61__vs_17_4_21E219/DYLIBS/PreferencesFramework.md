@@ -25,6 +25,15 @@
    __DATA.__bss: 0x8
    __DATA_DIRTY.__objc_data: 0x1450
    __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/libMobileCheckpoint.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4A52053E-9BB0-3009-AF58-B35F948D7389
++  UUID: 0EEFDA0A-B31E-3415-9A92-8E64ABED8128
+   Functions: 240
+   Symbols:   1113
+   CStrings:  775
 Symbols:
 + ___56-[PINKeypadAccessibility _accessibilityInternalChildren]_block_invoke.284
 + ___block_literal_global.330

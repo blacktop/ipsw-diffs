@@ -70,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CC74D6B-9C9B-3FA1-8D1F-0EE0DD32FF22
 -  Functions: 275
 -  Symbols:   185
--  CStrings:  439
+-  CStrings:  450
++  UUID: 63780E30-BEDE-3A0B-933A-B23C66BA48D3
 +  Functions: 271
 +  Symbols:   186
-+  CStrings:  434
++  CStrings:  445
  
 Symbols:
 + _GKExtensionItemDashboardLaunchContext

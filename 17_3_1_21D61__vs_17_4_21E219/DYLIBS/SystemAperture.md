@@ -38,11 +38,15 @@
    __DATA_DIRTY.__common: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C237B6CA-9648-3B4E-9D96-6D576F34BC0F
++  UUID: 527C84B2-7DF0-3F1B-97F2-F4764C484383
    Functions: 38
    Symbols:   239
--  CStrings:  170
-+  CStrings:  171
+-  CStrings:  188
++  CStrings:  189
  
 CStrings:
 + "T@\"NSDate\",?,R,C,N"

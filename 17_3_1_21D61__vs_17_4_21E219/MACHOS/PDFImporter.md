@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 91DF8597-1A0E-32DF-BEEE-8496E01D83DD
++  UUID: 02BA347E-8A33-33FE-AA1D-8A29B1067AF0
+   Functions: 13
+   Symbols:   91
+   CStrings:  66
+
 ```

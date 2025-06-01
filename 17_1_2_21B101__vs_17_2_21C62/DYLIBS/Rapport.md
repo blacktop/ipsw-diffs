@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3F467AE9-9014-3083-A2F5-AB65472104AA
 -  Functions: 2954
 -  Symbols:   9299
--  CStrings:  5611
+-  CStrings:  6162
++  UUID: 0ED50A4A-5B6F-317A-BF1A-A400D6378689
 +  Functions: 2961
 +  Symbols:   9321
-+  CStrings:  5634
++  CStrings:  6191
  
 Symbols:
 + -[RPEndpoint accountAltDSID]

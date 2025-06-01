@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6376DE96-F886-3DB1-8712-F316F7B096FA
 -  Functions: 216
 -  Symbols:   139
--  CStrings:  827
+-  CStrings:  914
++  UUID: 13FC8975-2FD1-3B12-AE2C-7075AAEFAF52
 +  Functions: 259
 +  Symbols:   140
-+  CStrings:  940
++  CStrings:  1048
  
 Symbols:
 + _OBJC_CLASS_$_OTEscrowMoveRequestContext

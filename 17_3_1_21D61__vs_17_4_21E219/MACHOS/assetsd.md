@@ -46,13 +46,16 @@
    __DATA.__objc_data: 0xa50
    __DATA.__data: 0x2a0
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0BF805D7-813E-3272-A1EC-6690E18B0BF3
++  UUID: FA5CC318-D365-3E25-875C-481CE0FD197A
    Functions: 270
 -  Symbols:   371
--  CStrings:  942
+-  CStrings:  1012
 +  Symbols:   373
-+  CStrings:  944
++  CStrings:  1014
  
 Symbols:
 + _NSSQLiteErrorDomain

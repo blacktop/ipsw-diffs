@@ -12,4 +12,13 @@
    __TEXT.__objc_stubs: 0x4700
    __TEXT.__objc_methlist: 0x11dc
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4A09ABFD-C493-3403-AA10-D374F7D77067
++  UUID: A30AF552-72DE-34C0-BD27-FCEC9293B5BE
+   Functions: 478
+   Symbols:   230
+   CStrings:  1209
+
 ```

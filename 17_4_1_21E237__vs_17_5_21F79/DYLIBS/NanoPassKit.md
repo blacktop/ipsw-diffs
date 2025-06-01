@@ -71,12 +71,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CEF46BE6-8418-397C-9CB6-14EA9CDF6F0D
 -  Functions: 13029
 -  Symbols:   39045
--  CStrings:  14294
+-  CStrings:  16097
++  UUID: 43AB4CD3-D415-39F9-92DE-6D5CCD770FAA
 +  Functions: 13045
 +  Symbols:   39088
-+  CStrings:  14319
++  CStrings:  16123
  
 Symbols:
 + +[PKPass(NanoPassKit) npkClearTransitValuePendingStateIfNecessaryForPassWithID:withBalanceFields:commutePlanFields:]

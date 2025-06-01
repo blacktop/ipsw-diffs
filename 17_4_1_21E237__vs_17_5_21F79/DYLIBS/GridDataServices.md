@@ -20,5 +20,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0F549776-A691-3AE1-8DEE-EAFC63551652
++  UUID: 9FE2D5B6-734C-340C-B262-B9A760DA63F0
+   Functions: 170
+   Symbols:   762
+   CStrings:  604
 
 ```

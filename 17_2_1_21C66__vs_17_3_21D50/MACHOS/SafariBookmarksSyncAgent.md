@@ -47,12 +47,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: D540B0D2-B222-30E6-AA7B-F03794E6C492
 -  Functions: 3657
 -  Symbols:   418
--  CStrings:  5019
+-  CStrings:  5464
++  UUID: C0FC5030-B5F5-3994-80CE-1D65A64AA0E4
 +  Functions: 3658
 +  Symbols:   419
-+  CStrings:  5022
++  CStrings:  5467
  
 Symbols:
 + _OBJC_CLASS_$_WBSProfileDataManager

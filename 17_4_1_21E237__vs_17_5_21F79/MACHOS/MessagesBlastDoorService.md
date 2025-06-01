@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A98D29E0-C159-3FF0-BDDD-64C3E557E412
 -  Functions: 2669
 -  Symbols:   495
--  CStrings:  1099
+-  CStrings:  1164
++  UUID: 983C5914-DB1D-3794-B1BC-E96C9C8E424E
 +  Functions: 2671
 +  Symbols:   493
-+  CStrings:  1096
++  CStrings:  1161
  
 Symbols:
 + __swift_stdlib_bridgeErrorToNSError

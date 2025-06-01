@@ -45,11 +45,13 @@
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DEA0FEA0-8E34-3428-B80D-D31972A1598B
 -  Functions: 2822
++  UUID: 4068B16A-4853-3646-BA33-B577DD0439AF
 +  Functions: 2829
    Symbols:   879
--  CStrings:  8819
-+  CStrings:  8821
+-  CStrings:  11751
++  CStrings:  11753
  
 CStrings:
 + "HelsinkiRestore-55.5.2"

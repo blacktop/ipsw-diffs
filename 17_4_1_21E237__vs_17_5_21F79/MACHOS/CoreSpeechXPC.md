@@ -22,11 +22,15 @@
    __TEXT.__objc_methtype: 0x65e
    __TEXT.__unwind_info: 0x458
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB50B453-C006-39AB-B048-1626498670B2
++  UUID: 3BC18E52-CE8F-3459-BAEC-9ABB094566E4
    Functions: 376
    Symbols:   153
--  CStrings:  1067
-+  CStrings:  1065
+-  CStrings:  1250
++  CStrings:  1248
  
 CStrings:
 - "%s progCheckerReocgnizerConfigFiles: %@"

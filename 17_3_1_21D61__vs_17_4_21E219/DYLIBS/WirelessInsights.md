@@ -31,7 +31,6 @@
 -  __AUTH_CONST.__const: 0x1cb8
 +  __AUTH_CONST.__const: 0x1d28
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7e8
 +  __AUTH_CONST.__auth_got: 0x7e0
    __AUTH.__objc_data: 0xf0
@@ -47,10 +46,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
+-  UUID: 30C30AF8-A29F-3020-B018-4B23CDC2D851
 -  Functions: 1650
++  UUID: 5570A0BC-4EC9-3A1A-98BE-2A3FB0987BFD
 +  Functions: 1662
    Symbols:   1477
-   CStrings:  361
+   CStrings:  370
  
 Symbols:
 + __ZNSt3__119piecewise_constructE

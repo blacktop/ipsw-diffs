@@ -37,11 +37,15 @@
    __DATA.__objc_protorefs: 0xa8
    __DATA.__objc_classrefs: 0x60
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C37A636F-A50D-392B-9F12-6B1664E7789F
++  UUID: 02DFF116-4FA0-32C2-A7B4-9C5814576359
    Functions: 471
    Symbols:   154
--  CStrings:  471
-+  CStrings:  475
+-  CStrings:  472
++  CStrings:  476
  
 CStrings:
 + "@\"PREditorContentStylePickerConfiguration\"24@0:8@\"PREditor\"16"

@@ -49,13 +49,16 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftQuartzCore.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FFD6915F-D74F-3A9F-83F0-63ACA1846589
++  UUID: A3B01558-8F17-38E5-AD13-0E3D26BC84CB
    Functions: 4945
 -  Symbols:   18079
--  CStrings:  9168
+-  CStrings:  10032
 +  Symbols:   18073
-+  CStrings:  9170
++  CStrings:  10034
  
 Symbols:
 - __swift_FORCE_LOAD_$_swiftCompression

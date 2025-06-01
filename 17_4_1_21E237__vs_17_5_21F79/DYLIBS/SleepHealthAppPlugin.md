@@ -34,4 +34,13 @@
    __DATA_DIRTY.__common: 0x90
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8785A4D6-76E5-382E-A362-0B67C6292EEE
++  UUID: 0FFC8A8D-E848-30C3-8050-0C95272F4914
+   Functions: 3123
+   Symbols:   298
+   CStrings:  1173
+
 ```

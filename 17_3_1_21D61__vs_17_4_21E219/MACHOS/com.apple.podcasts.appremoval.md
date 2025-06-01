@@ -44,13 +44,16 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CB2264B-BFAC-3AD6-BBFF-2052DAB4848B
++  UUID: 48A1F35C-97EC-3A61-B67A-B56FDF2F0AC5
    Functions: 191
 -  Symbols:   178
--  CStrings:  510
+-  CStrings:  544
 +  Symbols:   179
-+  CStrings:  513
++  CStrings:  547
  
 Symbols:
 + __MTLogCategoryDefault

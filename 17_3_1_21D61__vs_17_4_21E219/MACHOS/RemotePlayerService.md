@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AA99F679-0697-3643-9A5A-DC5DA940A1DB
 -  Functions: 55
 -  Symbols:   82
--  CStrings:  211
+-  CStrings:  227
++  UUID: C7FB3C5E-2AC3-302C-86BA-8E23EA7B7BE9
 +  Functions: 56
 +  Symbols:   80
-+  CStrings:  210
++  CStrings:  224
  
 Symbols:
 + _AVAudioSessionMediaServicesWereResetNotification

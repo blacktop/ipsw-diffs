@@ -23,9 +23,8 @@
 +  __DATA_CONST.__got: 0x90
    __DATA_CONST.__const: 0x28
 -  __AUTH_CONST.__const: 0x798
-+  __AUTH_CONST.__const: 0x858
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x300
++  __AUTH_CONST.__const: 0x858
 +  __AUTH_CONST.__auth_got: 0x3b8
    __DATA.__common: 0x4
 -  __DATA.__bss: 0x158
@@ -35,9 +34,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
+-  UUID: 6E90D478-700C-3115-A905-6B4047CB2532
 -  Functions: 363
 -  Symbols:   214
 -  CStrings:  122
++  UUID: FBE2CDA1-B467-387B-B0EB-C9E1DC070D8C
 +  Functions: 383
 +  Symbols:   245
 +  CStrings:  134

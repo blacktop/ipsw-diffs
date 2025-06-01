@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 57878DEE-8F5B-3CED-866D-24CAA6C91869
 -  Functions: 3259
 -  Symbols:   8170
--  CStrings:  4166
+-  CStrings:  5056
++  UUID: 8E2F015A-8C36-3C28-B8FF-C3EE9FD0C5A1
 +  Functions: 3268
 +  Symbols:   8208
-+  CStrings:  4182
++  CStrings:  5074
  
 Symbols:
 + -[ICQOfferCacheObject .cxx_destruct]

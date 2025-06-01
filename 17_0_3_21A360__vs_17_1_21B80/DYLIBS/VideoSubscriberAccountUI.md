@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3E316A3-522A-35EA-9B16-1C9DC5BBD995
 -  Functions: 2621
 -  Symbols:   9771
--  CStrings:  4809
+-  CStrings:  5340
++  UUID: 91EC2063-AFE6-3B4E-B133-7E2E1800B3BB
 +  Functions: 2634
 +  Symbols:   9825
-+  CStrings:  4841
++  CStrings:  5376
  
 Symbols:
 + +[ASCLockupRequest(VSUIAdditions) tvProviderLockupRequestWithAdamID:]
@@ -174,7 +176,6 @@ Symbols:
 - _objc_msgSend$setTableFooterView:
 - _objc_msgSend$tableFooterView
 CStrings:
-+ " "
 + "!\x1f\x04"
 + "@\"VSCredentialEntryViewController_iOS\""
 + "CREDENTIAL_ENTRY_FOOTER_IOS"

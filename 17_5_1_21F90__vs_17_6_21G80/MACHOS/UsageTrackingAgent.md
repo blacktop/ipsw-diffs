@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 37C483F6-9B45-38E5-9EC8-C017BAC037E3
 -  Functions: 1277
 -  Symbols:   821
--  CStrings:  1257
+-  CStrings:  1343
++  UUID: 77DEB360-02C6-3672-9294-58FD8013F956
 +  Functions: 1302
 +  Symbols:   828
-+  CStrings:  1269
++  CStrings:  1355
  
 Symbols:
 + _$s14DeviceActivity0aB9DataStoreV05localA10IdentifierSSyKF

@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C57D35CF-645F-3FB2-A991-5441D29D78D8
 -  Functions: 540
 -  Symbols:   2261
--  CStrings:  1588
+-  CStrings:  1764
++  UUID: FE740DC0-C73A-3883-857F-B9FB318E89C9
 +  Functions: 542
 +  Symbols:   2267
-+  CStrings:  1599
++  CStrings:  1777
  
 Symbols:
 + -[APRKStreamRenderingManager ensureUniqueClientName:]

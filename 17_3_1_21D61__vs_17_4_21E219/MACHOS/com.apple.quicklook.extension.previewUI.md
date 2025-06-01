@@ -41,11 +41,15 @@
    __DATA.__data: 0x300
    - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
 
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F7FF2ED7-B704-3E3B-B171-A2CF95DDBE4F
++  UUID: 1724ED4D-C263-350A-910D-6BB1B36B7893
    Functions: 404
    Symbols:   257
--  CStrings:  1154
-+  CStrings:  1159
+-  CStrings:  1264
++  CStrings:  1269
  
 CStrings:
 + "@\"EKICSPreviewController\""

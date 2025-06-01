@@ -50,10 +50,8 @@
    __AUTH_CONST.__cfstring: 0x540
    __AUTH_CONST.__objc_const: 0x608
 -  __AUTH_CONST.__const: 0x72c8
--  __AUTH_CONST.__auth_ptr: 0x168
 -  __AUTH_CONST.__auth_got: 0xd60
 +  __AUTH_CONST.__const: 0x77d8
-+  __AUTH_CONST.__auth_ptr: 0x170
 +  __AUTH_CONST.__auth_got: 0xd70
    __AUTH.__objc_data: 0x1310
 -  __AUTH.__data: 0x1da0
@@ -72,11 +70,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 64D42851-4A42-3600-880F-C1E4865B55B5
 -  Functions: 5709
 -  Symbols:   1772
++  UUID: 99E8C072-8382-39BD-834A-EC8926BD45A0
 +  Functions: 5957
 +  Symbols:   1841
-   CStrings:  1098
+   CStrings:  1140
  
 Symbols:
 + _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible

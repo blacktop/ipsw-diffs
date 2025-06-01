@@ -44,11 +44,15 @@
    __DATA.__data: 0x228
    __DATA.__bss: 0x1c8
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A502A202-FB0F-3010-8322-6D0EBCC097A6
++  UUID: F3484C38-2588-3C6E-8ADF-0F56F49F2740
    Functions: 465
    Symbols:   1901
--  CStrings:  891
-+  CStrings:  895
+-  CStrings:  1052
++  CStrings:  1056
  
 Symbols:
 + ___47-[AssistiveTouchHelper installKeyboardListener]_block_invoke.259

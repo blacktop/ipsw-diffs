@@ -31,7 +31,6 @@
 -  __AUTH_CONST.__const: 0x968
 +  __DATA_CONST.__objc_classrefs: 0x8
 +  __AUTH_CONST.__const: 0x95c0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__cfstring: 0x240
 -  __AUTH_CONST.__auth_got: 0xd68
 +  __AUTH_CONST.__auth_got: 0xd40
@@ -54,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B537BAE9-FF6E-381B-9E56-E822E77EBFA7
 -  Functions: 14073
 -  Symbols:   953
--  CStrings:  1900
+-  CStrings:  1918
++  UUID: E4A7CCDC-25D0-3638-9F37-E0C27E34C4AD
 +  Functions: 17022
 +  Symbols:   1020
-+  CStrings:  1982
++  CStrings:  2000
  
 Symbols:
 + _VZDataCreateWithImage

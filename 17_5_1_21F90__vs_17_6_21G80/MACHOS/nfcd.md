@@ -36,11 +36,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B994C3F-15AC-3B6C-9F9E-067558CD7CEA
 -  Functions: 4334
++  UUID: 53717D6F-3A95-3A1F-9CBE-6C81CC70400D
 +  Functions: 4335
    Symbols:   513
--  CStrings:  11998
-+  CStrings:  12001
+-  CStrings:  13997
++  CStrings:  14000
  
 CStrings:
 + "%c[%{public}s %{public}s]:%i pause=%{public}d, suspendFD=%{public}d"

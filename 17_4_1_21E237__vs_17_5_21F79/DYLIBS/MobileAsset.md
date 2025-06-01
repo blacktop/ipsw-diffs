@@ -38,4 +38,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
 
+   - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A26E92DE-824B-31CE-8F4C-AF8647BC8BAA
++  UUID: 4B8372B4-CA39-393D-ABDE-29855D439232
+   Functions: 2665
+   Symbols:   7798
+   CStrings:  6355
+
 ```

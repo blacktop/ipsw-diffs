@@ -46,9 +46,9 @@
    __AUTH_CONST.__const: 0x3728
 -  __AUTH_CONST.__objc_const: 0x68d0
 +  __AUTH_CONST.__objc_const: 0x6910
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__cfstring: 0x13c60
    __AUTH_CONST.__objc_intobj: 0x7b0
+   __AUTH_CONST.__objc_dictobj: 0x28
 
    __AUTH.__objc_data: 0x3a68
    __AUTH.__data: 0x680
@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8895E6A3-25EE-3345-94B3-7D4664EF03FE
 -  Functions: 7253
 -  Symbols:   19224
--  CStrings:  10791
+-  CStrings:  13322
++  UUID: 11A4071D-A1CC-3CD7-BEED-0E5FD40ED0B9
 +  Functions: 7252
 +  Symbols:   19226
-+  CStrings:  10794
++  CStrings:  13325
  
 Symbols:
 + +[UIHoverStyle(MapsUI) _mapsui_textButtonHoverStyle]

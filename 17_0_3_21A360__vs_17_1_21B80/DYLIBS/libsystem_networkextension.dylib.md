@@ -19,8 +19,11 @@
    __AUTH_CONST.__const: 0x1a0
    __AUTH_CONST.__auth_got: 0x468
 
+   - /usr/lib/system/libsystem_sandbox.dylib
    - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: C1B30F0E-A8A2-3A03-A4DE-2ED5A177785D
++  UUID: 9527BA27-F5FA-3E58-B614-13B2A817F38F
    Functions: 258
 -  Symbols:   638
 +  Symbols:   637

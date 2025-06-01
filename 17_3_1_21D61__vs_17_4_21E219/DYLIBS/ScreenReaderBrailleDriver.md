@@ -18,7 +18,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x58
 +  __DATA_CONST.__objc_superrefs: 0x18
    __AUTH_CONST.__cfstring: 0x960
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__const: 0x40
    __AUTH_CONST.__auth_got: 0x330
@@ -28,5 +27,14 @@
    __DATA.__objc_ivar: 0x40
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x10
+
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 90A4B853-A597-330A-ABAC-33D8BFB68D2E
++  UUID: 1CDB8172-7760-3162-8227-66C0E2F6B931
+   Functions: 210
+   Symbols:   574
+   CStrings:  326
 
 ```

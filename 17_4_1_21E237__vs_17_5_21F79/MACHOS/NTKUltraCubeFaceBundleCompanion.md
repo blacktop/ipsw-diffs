@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x258
    __DATA_CONST.__const: 0x998
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7DB73545-1EF7-3C61-B7A5-357BE769C898
++  UUID: 01FA5EE2-1A1F-3697-9DFE-B02DB99FA99D
+   Functions: 1019
+   Symbols:   606
+   CStrings:  2696
+
 ```

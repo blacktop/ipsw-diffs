@@ -25,11 +25,15 @@
    __DATA_CONST.__got: 0xb8
    __DATA_CONST.__const: 0xc00
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E3151D45-2BE4-3CC2-B2B3-944E119AC549
++  UUID: 6AE52464-D7FB-3FF3-9A6F-14F006515795
    Functions: 279
    Symbols:   457
--  CStrings:  785
-+  CStrings:  787
+-  CStrings:  1113
++  CStrings:  1115
  
 CStrings:
 + "Request sent to AXBackboardServer to end session but came back with failure"

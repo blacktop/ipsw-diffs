@@ -34,11 +34,13 @@
    - /System/Library/PrivateFrameworks/OpticalFlowFramework.framework/OpticalFlowFramework
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 2AFAFCC1-2A32-38F5-A08F-1767B967A465
 -  Functions: 595
++  UUID: DF37A1E4-C3F2-3143-AF1C-E34D13A6FD8F
 +  Functions: 602
    Symbols:   555
--  CStrings:  6100
-+  CStrings:  6153
+-  CStrings:  6380
++  CStrings:  6438
  
 CStrings:
 + "%lld %d AVE %s: %s:%d %s | CreateOutputVQMetricsFile Error: *pOutFile != NULL \n"

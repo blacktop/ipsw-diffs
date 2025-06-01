@@ -47,12 +47,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF414DD3-6755-33A2-A1F5-D25F842B001E
 -  Functions: 11
 -  Symbols:   42
--  CStrings:  129
+-  CStrings:  132
++  UUID: FFE29BFA-E4D1-3C99-BD25-4902B34C61EA
 +  Functions: 13
 +  Symbols:   50
-+  CStrings:  145
++  CStrings:  148
  
 Symbols:
 + _NSURLIsUbiquitousItemKey

@@ -30,11 +30,15 @@
    __DATA_CONST.__auth_got: 0xc80
    __DATA_CONST.__got: 0x5c0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2347797D-CE6A-3501-A68D-BF325FF5500A
++  UUID: AABDC1B8-6CF4-3460-9468-7011B81015AE
    Functions: 1851
    Symbols:   453
--  CStrings:  1366
-+  CStrings:  1367
+-  CStrings:  1585
++  CStrings:  1586
  
 CStrings:
 + "Invalid disk capacity or used size from SAAppSizerResults, ignoring volume update"

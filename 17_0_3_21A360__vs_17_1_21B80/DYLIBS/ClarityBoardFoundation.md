@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__cfstring: 0x1a0
 +  __AUTH_CONST.__const: 0x148
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x370
 +  __AUTH_CONST.__auth_got: 0x3b0
    __AUTH.__objc_data: 0xf0
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9ECE45E2-DB02-3EEB-8B78-1CFB6D5A82D5
 -  Functions: 140
 -  Symbols:   297
--  CStrings:  81
+-  CStrings:  93
++  UUID: FD7674BA-0290-32C2-882D-81B212810374
 +  Functions: 147
 +  Symbols:   305
-+  CStrings:  86
++  CStrings:  99
  
 Symbols:
 + _CLBApplicationDidChangeNotification

@@ -24,8 +24,10 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmav_ipc_router_dynamic.dylib
+-  UUID: 750CB6AC-5225-34F1-9098-F59B607B0B0A
 -  Functions: 1452
 -  Symbols:   3453
++  UUID: A53F7C79-D267-370E-BED9-71D978E5F29D
 +  Functions: 1453
 +  Symbols:   3455
    CStrings:  539

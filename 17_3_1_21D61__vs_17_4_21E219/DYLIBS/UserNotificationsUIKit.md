@@ -76,7 +76,6 @@
 -  __DATA.__objc_classrefs: 0xc98
 -  __DATA.__objc_superrefs: 0x4e0
 -  __DATA.__objc_ivar: 0x1300
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x9e0
 +  __AUTH.__objc_data: 0x1c48
 +  __AUTH.__data: 0x2d8
@@ -130,9 +129,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BEAC1698-CD5F-3A6D-8AB9-80FC439A2189
 -  Functions: 6883
 -  Symbols:   24434
--  CStrings:  10129
+-  CStrings:  10942
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -150,9 +150,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 06FBC187-21AC-3486-B811-6363741295C9
 +  Functions: 7292
 +  Symbols:   25189
-+  CStrings:  10537
++  CStrings:  11411
  
 Symbols:
 + +[NCListAnimationSettings moduleWithSectionTitle:]

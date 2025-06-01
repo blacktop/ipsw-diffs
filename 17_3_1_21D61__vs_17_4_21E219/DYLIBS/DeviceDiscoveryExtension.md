@@ -32,7 +32,6 @@
    __AUTH_CONST.__cfstring: 0x7c0
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__const: 0x230
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x3e0
 +  __AUTH_CONST.__auth_got: 0x3e8
    __AUTH.__objc_data: 0x170
@@ -42,6 +41,15 @@
    __DATA.__objc_ivar: 0x4c
    __DATA.__data: 0x390
    __DATA.__bss: 0x100
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: CBDFC659-85BD-39B2-9C44-BF6212911E43
++  UUID: D6EF2824-17E1-31EE-BAFD-2132D7AD0BAF
+   Functions: 149
+   Symbols:   461
+   CStrings:  376
 Symbols:
 + _objc_retain_x9
 - _objc_retain_x25

@@ -52,12 +52,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 801CD01C-E7D1-39ED-B9F3-3AC3199C3D56
 -  Functions: 1491
 -  Symbols:   398
--  CStrings:  2637
+-  CStrings:  3038
++  UUID: A58D6556-B00D-33E2-89B0-0F9131CA9806
 +  Functions: 1496
 +  Symbols:   399
-+  CStrings:  2654
++  CStrings:  3056
  
 Symbols:
 + _OBJC_CLASS_$_CNWallpaper

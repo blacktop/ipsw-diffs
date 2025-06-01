@@ -34,4 +34,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: B04F5E2B-3248-32CD-AD93-7C47776328ED
++  UUID: 2EF4C553-055E-3C8C-97CD-89AF4A63338D
+   Functions: 356
+   Symbols:   431
+   CStrings:  480
+
 ```

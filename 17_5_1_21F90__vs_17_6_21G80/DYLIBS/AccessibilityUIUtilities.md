@@ -27,11 +27,15 @@
    __AUTH_CONST.__objc_const: 0x2070
    __AUTH_CONST.__const: 0x440
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16C8D53A-5593-3E68-97C0-C9F759ED0F06
++  UUID: 4EA9E8E6-0DB6-3A54-8C5A-660289E838A5
    Functions: 2045
    Symbols:   8024
--  CStrings:  4575
-+  CStrings:  4576
+-  CStrings:  5374
++  CStrings:  5376
  
 CStrings:
 + "HoldDurationFooterBeats"

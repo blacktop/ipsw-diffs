@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x2a0
 
+   - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B9EA883A-C6CE-3E7A-8074-7A59A6A5DE52
++  UUID: 55AC6B5E-795A-3B11-BD78-78A0B836F6C2
    Functions: 86
    Symbols:   103
--  CStrings:  402
-+  CStrings:  404
+-  CStrings:  438
++  CStrings:  440
  
 CStrings:
 + "T@\"NSString\",?,R,C"

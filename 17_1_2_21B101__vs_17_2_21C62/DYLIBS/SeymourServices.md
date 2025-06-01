@@ -56,10 +56,8 @@
    __AUTH_CONST.__objc_const: 0x420
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__const: 0x44c90
--  __AUTH_CONST.__auth_ptr: 0xc58
 -  __AUTH_CONST.__auth_got: 0x5750
 +  __AUTH_CONST.__const: 0x45010
-+  __AUTH_CONST.__auth_ptr: 0xc68
 +  __AUTH_CONST.__auth_got: 0x57f0
    __AUTH.__objc_data: 0x2b60
    __AUTH.__data: 0x7260
@@ -89,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5C0FB54A-0E2F-3B39-8EB4-8376507F8E97
 -  Functions: 31975
 -  Symbols:   8704
--  CStrings:  4945
+-  CStrings:  4968
++  UUID: E2175178-E5FC-3A6C-8AFC-B783622E9221
 +  Functions: 32067
 +  Symbols:   8722
-+  CStrings:  4938
++  CStrings:  4961
  
 Symbols:
 + _NSSystemTimeZoneDidChangeNotification

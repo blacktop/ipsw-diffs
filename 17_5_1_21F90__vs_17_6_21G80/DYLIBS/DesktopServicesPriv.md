@@ -35,12 +35,15 @@
    __DATA_DIRTY.__const: 0x8
    __DATA_DIRTY.__objc_data: 0x3c0
 
+   - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C4CC014-3509-3042-8425-0ABA059A1161
++  UUID: 59BC3BF9-1F61-3BDD-BA33-0F8725A1EC8B
    Functions: 5380
 -  Symbols:   13242
 +  Symbols:   13243
-   CStrings:  1817
+   CStrings:  1980
  
 Symbols:
 + GCC_except_table194

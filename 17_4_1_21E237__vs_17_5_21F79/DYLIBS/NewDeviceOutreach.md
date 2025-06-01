@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C0CF43E2-E886-3C59-BA4C-CA7EF4B0B381
 -  Functions: 545
 -  Symbols:   1984
--  CStrings:  1305
+-  CStrings:  1546
++  UUID: F77B4DCE-AE56-3E7C-A70F-552CF3536F66
 +  Functions: 556
 +  Symbols:   2030
-+  CStrings:  1324
++  CStrings:  1567
  
 Symbols:
 + +[NDOServerVersionUtilities clientConfig]

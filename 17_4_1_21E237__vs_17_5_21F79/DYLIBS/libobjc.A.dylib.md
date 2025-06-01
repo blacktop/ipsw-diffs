@@ -26,8 +26,8 @@
 -  __AUTH_CONST.__const: 0x640
 +  __AUTH_CONST.__const: 0x670
    __AUTH_CONST.__objc_const: 0x1b0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x3d0
+   __AUTH.__objc_data: 0x50
 
    __DATA_DIRTY.__objc_data: 0x140
    __DATA_DIRTY.__data: 0x948
@@ -37,5 +37,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libc++abi.dylib
+   - /usr/local/lib/libobjc-env.dylib
+-  UUID: 412FD1F4-4107-3443-88EF-B3760778F6A7
++  UUID: 53115E1F-E353-30D9-9E8A-4E6E73489F05
+   Functions: 890
+   Symbols:   1939
+   CStrings:  555
 
 ```

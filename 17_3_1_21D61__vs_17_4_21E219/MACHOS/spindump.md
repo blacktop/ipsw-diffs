@@ -69,12 +69,14 @@
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FF01B15E-4163-3E60-A86E-EF4F598D0854
 -  Functions: 1684
 -  Symbols:   377
--  CStrings:  3818
+-  CStrings:  4826
++  UUID: 363926B3-64D8-36B8-B7EE-954D58588CEE
 +  Functions: 1690
 +  Symbols:   361
-+  CStrings:  3984
++  CStrings:  5000
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantArray

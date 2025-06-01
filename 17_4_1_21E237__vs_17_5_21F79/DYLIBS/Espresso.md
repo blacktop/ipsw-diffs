@@ -36,8 +36,8 @@
 -  __AUTH_CONST.__cfstring: 0x9d40
 +  __AUTH_CONST.__cfstring: 0x9d80
    __AUTH_CONST.__objc_intobj: 0x318
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_const: 0x27a8
+   __AUTH_CONST.__objc_arrayobj: 0x210
 
    __AUTH.__got_weak: 0x68
    __DATA.__got_weak: 0xb20
@@ -58,13 +58,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C576584B-5370-37C8-B9F2-4D02604F22E0
++  UUID: 1AE1F9F2-2BAA-3BC1-939C-415A5D6DBBC0
    Functions: 37612
 -  Symbols:   87026
--  CStrings:  12210
+-  CStrings:  13468
 +  Symbols:   87027
-+  CStrings:  12215
++  CStrings:  13475
  
 Symbols:
 + __ZL21getkCVANetFormatUInt8.21307

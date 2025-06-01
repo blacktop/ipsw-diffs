@@ -21,7 +21,6 @@
    __DATA_CONST.__got: 0x80
    __DATA_CONST.__const: 0x44bd0
    __AUTH_CONST.__const: 0x3f48
-   __AUTH_CONST.__auth_ptr: 0x118
 -  __AUTH_CONST.__auth_got: 0x440
 +  __AUTH_CONST.__auth_got: 0x438
    __AUTH.__data: 0x158
@@ -36,8 +35,10 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 10F1CF58-1B27-33C6-9410-A088A1812CDA
 -  Functions: 3646
 -  Symbols:   18267
++  UUID: 95A5152A-2F8D-33EB-A718-42CF4A86F31C
 +  Functions: 3645
 +  Symbols:   18252
    CStrings:  10743

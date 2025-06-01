@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7A1252A-40E9-3861-959C-025D54E2B0E3
 -  Functions: 3190
 -  Symbols:   10376
--  CStrings:  4915
+-  CStrings:  6190
++  UUID: 222C2013-5EEB-3F51-B4B7-7DB9F2FDF6AE
 +  Functions: 3194
 +  Symbols:   10387
-+  CStrings:  4921
++  CStrings:  6196
  
 Symbols:
 + -[SGSuggestionsService suggestionsFromSearchableItem:options:processingType:error:]

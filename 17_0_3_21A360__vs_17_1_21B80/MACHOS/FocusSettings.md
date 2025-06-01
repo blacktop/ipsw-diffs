@@ -32,11 +32,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2D0A9447-AC4A-32E9-B7AD-DC6544401182
 -  Functions: 413
++  UUID: D316EA99-8A47-3319-9066-6ECCDC03C0F2
 +  Functions: 415
    Symbols:   255
--  CStrings:  539
-+  CStrings:  541
+-  CStrings:  573
++  CStrings:  575
  
 CStrings:
 + "imageSymbolWeight"

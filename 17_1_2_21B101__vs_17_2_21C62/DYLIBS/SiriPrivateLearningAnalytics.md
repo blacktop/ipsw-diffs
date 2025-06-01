@@ -56,9 +56,8 @@
    __AUTH_CONST.__cfstring: 0x5a0
    __AUTH_CONST.__objc_const: 0x1f8
 -  __AUTH_CONST.__const: 0x8ee0
-+  __AUTH_CONST.__const: 0x9158
-   __AUTH_CONST.__auth_ptr: 0x288
 -  __AUTH_CONST.__auth_got: 0x1378
++  __AUTH_CONST.__const: 0x9158
 +  __AUTH_CONST.__auth_got: 0x1398
    __AUTH.__objc_data: 0x1058
 -  __AUTH.__data: 0x7a30
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6E89F070-7DC9-36CB-9441-BF07FC87C9C0
 -  Functions: 6438
 -  Symbols:   2514
--  CStrings:  1550
+-  CStrings:  1595
++  UUID: 17E17405-D891-3F25-8614-C479447D12A1
 +  Functions: 6517
 +  Symbols:   2540
-+  CStrings:  1557
++  CStrings:  1602
  
 Symbols:
 + _AnalyticsSendEventLazy

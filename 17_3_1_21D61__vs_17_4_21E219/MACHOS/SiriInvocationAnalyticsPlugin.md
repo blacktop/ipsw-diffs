@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6D0DECA-0D07-34A0-BC68-E67BA989BD04
 -  Functions: 345
++  UUID: 5D03D970-BF32-3405-AB3D-772E3B5736B2
 +  Functions: 361
    Symbols:   122
--  CStrings:  220
-+  CStrings:  250
+-  CStrings:  236
++  CStrings:  266
  
 CStrings:
 + "Fatal error"

@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 6EA583DC-33D8-3C64-AFB8-983F177DB7E3
 -  Functions: 78
 -  Symbols:   142
--  CStrings:  371
+-  CStrings:  422
++  UUID: 4B120B4B-8B73-3F76-9D29-CDD09A6C05A8
 +  Functions: 104
 +  Symbols:   165
-+  CStrings:  411
++  CStrings:  467
  
 Symbols:
 + _OBJC_CLASS_$_APCSIntegrityReport

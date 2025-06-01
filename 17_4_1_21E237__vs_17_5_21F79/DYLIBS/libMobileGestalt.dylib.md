@@ -31,7 +31,6 @@
 -  __AUTH_CONST.__const: 0x5b448
 +  __AUTH_CONST.__cfstring: 0x11340
 +  __AUTH_CONST.__const: 0x5ad68
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__auth_got: 0x850
 -  __AUTH.__objc_data: 0xa0
@@ -54,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E1EF22B2-5A56-30FE-9CBD-4D6DDF457F84
 -  Functions: 2965
 -  Symbols:   1341
--  CStrings:  3230
+-  CStrings:  5419
++  UUID: FC9C0605-CE34-3331-9269-9AB798D06B43
 +  Functions: 2973
 +  Symbols:   1344
-+  CStrings:  3244
++  CStrings:  5446
  
 Symbols:
 + _MobileGestalt_get_deviceCoverGlassCoating

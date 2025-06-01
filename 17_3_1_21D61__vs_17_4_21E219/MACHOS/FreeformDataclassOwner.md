@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 51CB53F0-A604-312A-AD44-0BE0586D8C2A
 -  Functions: 738
 -  Symbols:   5766
--  CStrings:  831
+-  CStrings:  1029
++  UUID: B1FF796B-71B8-3FD3-A72D-757AB8CD543F
 +  Functions: 770
 +  Symbols:   6017
-+  CStrings:  749
++  CStrings:  951
  
 Symbols:
 + $sSo9OS_os_logC22FreeformDataclassOwnerE14crlZoneRefetchABvMZ.resume.0

@@ -26,12 +26,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 0D43464C-477A-35D1-9E2B-1C8A171E8CCB
 -  Functions: 3499
 -  Symbols:   9472
--  CStrings:  1938
+-  CStrings:  1997
++  UUID: 8B2ADE30-10B6-367C-BF94-5DCE6F115DE0
 +  Functions: 3502
 +  Symbols:   9478
-+  CStrings:  1939
++  CStrings:  1998
  
 Symbols:
 + _.str.111

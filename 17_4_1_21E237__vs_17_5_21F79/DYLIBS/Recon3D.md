@@ -9,7 +9,6 @@
    __DATA_CONST.__objc_classrefs: 0xd8
 -  __AUTH_CONST.__const: 0x552e8
 +  __AUTH_CONST.__const: 0x6b90
-   __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__cfstring: 0x240
    __AUTH_CONST.__auth_got: 0x11f8
 -  __AUTH.__data: 0x50
@@ -25,6 +24,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E7266B71-3C29-3920-AEE9-56BEB66B4215
++  UUID: C3212B1C-44EE-3E37-BE1C-F62C8A793139
+   Functions: 36457
+   Symbols:   1516
+   CStrings:  5999
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/has_self_intersections.hpp"
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/overlay/add_rings.hpp"

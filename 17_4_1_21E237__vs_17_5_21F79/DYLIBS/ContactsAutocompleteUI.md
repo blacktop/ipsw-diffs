@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CF74C94C-3F18-3D55-8D75-7CE5E0BD0347
++  UUID: 47AAF5FB-EC9C-3705-B651-0BB826DF983D
+   Functions: 1870
+   Symbols:   7083
+   CStrings:  4053
+
 ```

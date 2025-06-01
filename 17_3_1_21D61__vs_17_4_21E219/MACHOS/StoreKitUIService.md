@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47AF85C8-B353-364C-8150-A014F5D837C2
 -  Functions: 1099
 -  Symbols:   527
--  CStrings:  2497
+-  CStrings:  2806
++  UUID: 78D31E03-4766-31E8-8DCA-8C137D5AB566
 +  Functions: 1102
 +  Symbols:   530
-+  CStrings:  2514
++  CStrings:  2824
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

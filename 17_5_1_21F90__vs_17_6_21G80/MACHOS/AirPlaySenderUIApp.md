@@ -18,6 +18,15 @@
    __TEXT.__objc_classname: 0x1a2
    __TEXT.__objc_methtype: 0xe3b
    __TEXT.__unwind_info: 0x2b8
+
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D890B24-3867-3CFB-9D06-8B0C9C71FF54
++  UUID: 9B6636DB-7281-3FBC-BA09-0C723EDA6760
+   Functions: 193
+   Symbols:   167
+   CStrings:  946
 CStrings:
 + "setPublicAirPlayNetwork:"
 - "setBlueAtlasNetwork:"

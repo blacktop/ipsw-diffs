@@ -56,11 +56,13 @@
    - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2BCF925C-05F9-3CCD-916D-043CC9B5CEE0
 -  Functions: 104
++  UUID: D7226278-75EB-31C6-B0AB-788164F8F6C6
 +  Functions: 106
    Symbols:   162
--  CStrings:  539
-+  CStrings:  543
+-  CStrings:  746
++  CStrings:  751
  
 CStrings:
 + "ExternalGatewayService"

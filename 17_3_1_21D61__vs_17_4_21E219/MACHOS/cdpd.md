@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP
+   - /System/Library/PrivateFrameworks/CoreCDPInternal.framework/CoreCDPInternal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E7D6D867-F49F-3C2D-989C-AD4B9BE7363A
++  UUID: CD1E99BA-BD7B-3DAF-93AA-8B3F8153488E
+   Functions: 2
+   Symbols:   21
+   CStrings:  5
 
 ```

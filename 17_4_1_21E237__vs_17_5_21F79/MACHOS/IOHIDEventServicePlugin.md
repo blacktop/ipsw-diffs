@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x28
 
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 06BBB4EB-55CA-319A-A103-F7079FEA7495
++  UUID: 4B0C637B-61DE-319A-B958-8B68CD12F237
+   Functions: 39
+   Symbols:   83
+   CStrings:  219
+
 ```

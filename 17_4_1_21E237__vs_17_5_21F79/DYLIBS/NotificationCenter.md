@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 714DAAFE-76A3-325F-B416-FEBB336CB12C
++  UUID: 2AE89791-D737-303B-BA5A-E67772369FB1
+   Functions: 190
+   Symbols:   968
+   CStrings:  597
+
 ```

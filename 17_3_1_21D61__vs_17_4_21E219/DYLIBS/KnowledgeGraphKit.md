@@ -58,9 +58,7 @@
 +  __DATA_CONST.__objc_superrefs: 0x328
    __DATA_CONST.__objc_arraydata: 0x268
 -  __AUTH_CONST.__const: 0x5c70
--  __AUTH_CONST.__auth_ptr: 0x110
 +  __AUTH_CONST.__const: 0x61a0
-+  __AUTH_CONST.__auth_ptr: 0x118
    __AUTH_CONST.__objc_const: 0x2c78
    __AUTH_CONST.__cfstring: 0x2180
    __AUTH_CONST.__objc_intobj: 0xc0
@@ -98,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA2404FF-42BE-3CCD-A7D6-8B627C89CB47
 -  Functions: 8543
 -  Symbols:   12282
--  CStrings:  3389
+-  CStrings:  3657
++  UUID: 5CBB1570-AE96-37EF-A88D-5384A65CD948
 +  Functions: 8628
 +  Symbols:   12267
-+  CStrings:  3412
++  CStrings:  3680
  
 Symbols:
 + -[KGDatabaseNameCache transactionBegin]

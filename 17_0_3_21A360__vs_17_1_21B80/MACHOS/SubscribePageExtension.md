@@ -85,11 +85,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BAC7CD47-CCED-304A-9DA5-93F36097BCD8
 -  Functions: 28170
++  UUID: 9C48E7AF-AF16-3536-97CA-700895C8632E
 +  Functions: 28405
    Symbols:   843
--  CStrings:  6731
-+  CStrings:  6757
+-  CStrings:  6899
++  CStrings:  6925
  
 CStrings:
 + "Failed to cast to objectGraph (BaseObjectGraph) to ObjectGraph for ActionDispatcher"

@@ -40,11 +40,15 @@
    __DATA.__data: 0x3df8
    __DATA.__bss: 0x42e
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 69ACEE4F-8744-3FC3-ABFC-C2FEE387DDE5
++  UUID: 3EE6535D-9789-36D0-A44D-0540F1B5E34E
    Functions: 3350
    Symbols:   12718
--  CStrings:  5697
-+  CStrings:  5698
+-  CStrings:  6630
++  CStrings:  6631
  
 Symbols:
 + _acceptsTopLevelLeaves.__haveChecked.211

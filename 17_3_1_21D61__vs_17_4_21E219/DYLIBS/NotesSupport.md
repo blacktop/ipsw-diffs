@@ -46,7 +46,7 @@
    __AUTH_CONST.__cfstring: 0x3b80
    __AUTH_CONST.__objc_const: 0x0
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__auth_got: 0x978
    __DATA.__got_weak: 0x8
 -  __DATA.__objc_protorefs: 0x18
@@ -69,12 +69,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E0AB1F6-30CA-3AEB-8690-F5DCA1042E5F
 -  Functions: 1877
 -  Symbols:   6143
--  CStrings:  2856
+-  CStrings:  3332
++  UUID: 040A8663-98B4-3ABD-8D9F-4CE23E9EF8B0
 +  Functions: 1881
 +  Symbols:   6161
-+  CStrings:  2867
++  CStrings:  3343
  
 Symbols:
 + -[ICReachability .cxx_destruct]

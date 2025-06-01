@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x44
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 79D8A266-0595-3807-AAA4-A8C3FABD49BB
++  UUID: 636BBD8F-9F85-333A-AC85-7262D0DC2B7C
+   Functions: 73
+   Symbols:   297
+   CStrings:  132
 Symbols:
 + __ZNSt3__110unique_ptrIN8GPUTools8VMBufferENS_14default_deleteIS2_EEED1B8ue170006Ev
 + __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyNS0_IN8GPUTools8Playback2GL11ContextInfoENS_14default_deleteIS6_EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B8ue170006Ev

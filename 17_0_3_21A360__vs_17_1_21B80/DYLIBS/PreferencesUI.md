@@ -37,13 +37,16 @@
    __AUTH_CONST.__objc_const: 0xbb0
    __AUTH_CONST.__const: 0x5b0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3F38FBD8-045B-37BE-8E71-9A856E85F423
++  UUID: 6C73E321-2F3D-35DA-B01F-6D2F81DFE79D
    Functions: 1275
 -  Symbols:   5133
--  CStrings:  3099
+-  CStrings:  3607
 +  Symbols:   5131
-+  CStrings:  3097
++  CStrings:  3605
  
 Symbols:
 + _objc_msgSend$lowercaseString

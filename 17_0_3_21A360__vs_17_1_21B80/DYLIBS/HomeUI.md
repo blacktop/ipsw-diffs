@@ -70,11 +70,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x1e4c0
    __DATA_CONST.__objc_arraydata: 0x528
 -  __AUTH_CONST.__const: 0xdbb8
--  __AUTH_CONST.__auth_ptr: 0x228
 -  __AUTH_CONST.__objc_const: 0x19348
 -  __AUTH_CONST.__cfstring: 0x1e300
 +  __AUTH_CONST.__const: 0xdb58
-+  __AUTH_CONST.__auth_ptr: 0x248
 +  __AUTH_CONST.__objc_const: 0x19150
 +  __AUTH_CONST.__cfstring: 0x1e2e0
    __AUTH_CONST.__objc_intobj: 0x1ab8
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A27CFD33-9975-365F-9A77-651327AA2857
 -  Functions: 31942
 -  Symbols:   82803
--  CStrings:  35093
+-  CStrings:  38957
++  UUID: CDACB215-D317-36F7-8933-058F27748983
 +  Functions: 31814
 +  Symbols:   82534
-+  CStrings:  35096
++  CStrings:  38959
  
 Symbols:
 + -[HUClipScrubberDataSource isUpdating]

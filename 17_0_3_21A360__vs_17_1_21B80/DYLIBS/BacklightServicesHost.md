@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 1780E59F-0650-3F72-9543-0609D5478B05
 -  Functions: 2897
 -  Symbols:   9930
--  CStrings:  4460
+-  CStrings:  5167
++  UUID: EAE11F25-CE9B-3178-BF69-98B3899F0061
 +  Functions: 2899
 +  Symbols:   9938
-+  CStrings:  4469
++  CStrings:  5176
  
 Symbols:
 + -[BLSHEnvironmentTransitionStateTarget backlightRampBlock]

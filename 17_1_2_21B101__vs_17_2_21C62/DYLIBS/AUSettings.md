@@ -39,12 +39,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C14A1425-6A8F-31CF-ABD9-A14DB5EB5FBE
 -  Functions: 52
 -  Symbols:   582
--  CStrings:  451
+-  CStrings:  767
++  UUID: 79128D20-FFD0-3672-AB00-F2DC346FEB2F
 +  Functions: 53
 +  Symbols:   592
-+  CStrings:  460
++  CStrings:  785
  
 Symbols:
 + ___block_literal_global.639

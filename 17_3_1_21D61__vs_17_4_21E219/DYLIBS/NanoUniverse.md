@@ -46,9 +46,9 @@
    __AUTH_CONST.__cfstring: 0x1e20
    __AUTH_CONST.__objc_const: 0xaf0
 
+   __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__const: 0xd50
    __AUTH_CONST.__objc_doubleobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x980
 +  __AUTH_CONST.__auth_got: 0x990
    __AUTH.__objc_data: 0x280
@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 82C4625F-BDF5-3694-9E15-CA0596C233E0
 -  Functions: 1336
 -  Symbols:   3318
--  CStrings:  1908
+-  CStrings:  2149
++  UUID: 133795BB-555E-349D-9BD2-3D824951D63A
 +  Functions: 1287
 +  Symbols:   3319
-+  CStrings:  1927
++  CStrings:  2168
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

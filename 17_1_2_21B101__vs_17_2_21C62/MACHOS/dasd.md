@@ -83,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 9CE91EB5-C747-3887-A797-0F6085217525
 -  Functions: 4908
 -  Symbols:   605
--  CStrings:  8061
+-  CStrings:  9386
++  UUID: 83A4C60B-3713-3E82-A8AB-7A1CFD0F5BFA
 +  Functions: 5037
 +  Symbols:   607
-+  CStrings:  8261
++  CStrings:  9632
  
 Symbols:
 + _OBJC_CLASS_$_BLSBacklight

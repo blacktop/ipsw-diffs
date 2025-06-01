@@ -36,7 +36,6 @@
 +  __AUTH_CONST.__cfstring: 0x2fa0
    __AUTH_CONST.__objc_const: 0x3eb8
    __AUTH_CONST.__const: 0xb0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x3d8
    __AUTH.__objc_data: 0x140
 -  __AUTH.__data: 0x1278
@@ -56,12 +55,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 681DF4E8-0DB7-3B46-8649-56D2F331148C
 -  Functions: 2919
 -  Symbols:   8412
--  CStrings:  3017
+-  CStrings:  3397
++  UUID: 1C42D107-D7BC-3134-9AE0-B56FB90277BF
 +  Functions: 2921
 +  Symbols:   8416
-+  CStrings:  3021
++  CStrings:  3402
  
 Symbols:
 + _TRIAllocationUnitType_EnumDescriptor

@@ -90,11 +90,13 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 99DD26CA-A66F-3284-94F2-B550D3E91DA3
 -  Functions: 90919
++  UUID: 5F5302D2-FACA-3799-B708-C5F436381DB3
 +  Functions: 91049
    Symbols:   3166
--  CStrings:  78419
-+  CStrings:  78678
+-  CStrings:  85494
++  CStrings:  85800
  
 Symbols:
 + _CLClientGetDistanceCoordinates

@@ -43,7 +43,6 @@
 -  __AUTH_CONST.__objc_const: 0x3fd0
 +  __AUTH_CONST.__cfstring: 0x4b60
 +  __AUTH_CONST.__objc_const: 0x3f88
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x9d0
 -  __AUTH.__objc_data: 0x1090
 +  __AUTH.__objc_data: 0x1040
@@ -66,12 +65,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB21ADF3-E5B5-3397-AEDA-82DA3F1AC9C7
 -  Functions: 2438
 -  Symbols:   8494
--  CStrings:  3817
++  UUID: 95D042D7-8CBF-3C49-9886-26DD61177FEF
 +  Functions: 2436
 +  Symbols:   8484
-+  CStrings:  3818
+   CStrings:  4421
  
 Symbols:
 + -[HMFWiFiNetworkInfo initWithMACAddress:SSID:BSSID:gatewayIPAddress:gatewayMACAddress:]

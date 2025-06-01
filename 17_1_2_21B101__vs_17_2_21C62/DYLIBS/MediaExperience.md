@@ -48,7 +48,7 @@
 +  __AUTH_CONST.__const: 0x32c8
    __AUTH_CONST.__objc_const: 0xca0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_doubleobj: 0x10
 
    __AUTH.__objc_data: 0xa0
    __DATA.__objc_classrefs: 0x210
@@ -67,12 +67,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4237346-F8C0-3642-8B9A-E553BAD2510C
 -  Functions: 4768
 -  Symbols:   15417
--  CStrings:  8526
+-  CStrings:  11198
++  UUID: 94B04641-92FB-3D1C-B99D-D29D26B9F45B
 +  Functions: 4804
 +  Symbols:   15538
-+  CStrings:  8611
++  CStrings:  11308
  
 Symbols:
 + -[MXCoreSession badgeType]

@@ -27,9 +27,8 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__const: 0x338
 -  __AUTH_CONST.__cfstring: 0x5c0
-+  __AUTH_CONST.__cfstring: 0x5a0
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x710
++  __AUTH_CONST.__cfstring: 0x5a0
 +  __AUTH_CONST.__auth_got: 0x718
    __DATA.__bss: 0x11
    __DATA.__common: 0x50
@@ -38,12 +37,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: D2A8CF3D-6ACA-3089-9382-84965DB6E917
 -  Functions: 1673
 -  Symbols:   3930
--  CStrings:  1640
+-  CStrings:  1686
++  UUID: FC4626C4-5DA3-35FB-9650-F1FDD2DA8ADA
 +  Functions: 1676
 +  Symbols:   3938
-+  CStrings:  1663
++  CStrings:  1708
  
 Symbols:
 + _IOSurfaceSetBulkAttachments2

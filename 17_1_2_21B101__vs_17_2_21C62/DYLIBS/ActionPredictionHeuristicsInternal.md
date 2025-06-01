@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAA83A15-8EBA-332F-83E5-497C2208834B
 -  Functions: 1145
 -  Symbols:   5003
--  CStrings:  2438
+-  CStrings:  2872
++  UUID: 26896FD0-A5A2-3AA9-93A8-3F048DC61FEE
 +  Functions: 1151
 +  Symbols:   5019
-+  CStrings:  2444
++  CStrings:  2878
  
 Symbols:
 + -[ATXHeuristicDevice _dictForEvent:contactCache:]

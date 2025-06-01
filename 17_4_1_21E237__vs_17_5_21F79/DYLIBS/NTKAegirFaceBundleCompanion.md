@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x2b2a
    __TEXT.__objc_methtype: 0x7b1
 
+   - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5A7CE311-8086-30BB-A1D8-549063EEDF85
++  UUID: BACC2E96-FF2E-347E-AE11-D9311FEC1177
+   Functions: 188
+   Symbols:   169
+   CStrings:  759
+
 ```

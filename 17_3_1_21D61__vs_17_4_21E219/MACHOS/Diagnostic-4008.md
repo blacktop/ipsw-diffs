@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0x140
    __DATA.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 78FED594-B4E2-3C60-85F2-D9CCDD39606C
++  UUID: DB889CD4-B9B6-34CD-A61F-B88DCB9FE442
+   Functions: 83
+   Symbols:   97
+   CStrings:  186
+
 ```

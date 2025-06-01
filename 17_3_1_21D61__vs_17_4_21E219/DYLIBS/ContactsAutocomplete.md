@@ -56,13 +56,16 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 777358F5-276D-3A49-B144-8B19E300218E
++  UUID: 8850B031-763B-38B1-B718-E820F700C637
    Functions: 1532
 -  Symbols:   5953
--  CStrings:  2511
+-  CStrings:  2752
 +  Symbols:   5954
-+  CStrings:  2513
++  CStrings:  2754
  
 Symbols:
 + __OBJC_$_PROP_LIST_CNACTStewieFacade.108

@@ -60,12 +60,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 42765E46-2F6F-35E4-8CED-67A740334A6D
 -  Functions: 7528
 -  Symbols:   26982
--  CStrings:  11749
+-  CStrings:  14737
++  UUID: 82FD8D5D-E8C6-3B9A-9D3C-ED8134D93C0B
 +  Functions: 7533
 +  Symbols:   27010
-+  CStrings:  11762
++  CStrings:  14750
  
 Symbols:
 + -[WBSParsecDFeedbackDispatcher _postMapsFeedbackForResults:queryString:]

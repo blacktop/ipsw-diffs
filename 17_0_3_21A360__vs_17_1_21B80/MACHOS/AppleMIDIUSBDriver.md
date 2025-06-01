@@ -28,11 +28,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: D7EB7B86-4590-3B28-9C56-FFFAFDC73291
 -  Functions: 607
 -  Symbols:   168
++  UUID: 5D7C8C98-A6EE-31FC-A80D-13AAA968EB11
 +  Functions: 616
 +  Symbols:   169
-   CStrings:  379
+   CStrings:  410
  
 Symbols:
 + _kMIDIPropertyUniqueID

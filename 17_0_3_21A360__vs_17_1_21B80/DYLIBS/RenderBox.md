@@ -34,16 +34,19 @@
 -  __DATA_CONST.__objc_selrefs: 0x18e8
 +  __DATA_CONST.__objc_selrefs: 0x18f0
    __DATA_CONST.__objc_arraydata: 0x30
-   __AUTH_CONST.__auth_ptr: 0x110
    __AUTH_CONST.__objc_const: 0x0
+   __AUTH_CONST.__cfstring: 0x2780
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80F9EDA3-E313-3D90-97D3-A38019224E22
++  UUID: C18063B4-8409-34BD-898E-9574AF0338DC
    Functions: 5647
 -  Symbols:   13791
--  CStrings:  2588
+-  CStrings:  2904
 +  Symbols:   13792
-+  CStrings:  2592
++  CStrings:  2908
  
 Symbols:
 + -[RBSymbolAnimator copyDebugDescriptionForUpdate:]

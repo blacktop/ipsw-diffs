@@ -24,11 +24,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 92AA2C5D-AA5B-3E56-AD84-DC5EC97C5A99
 -  Functions: 483
 -  Symbols:   1620
++  UUID: 42A528FE-A4FF-3909-9A95-5354C7D9BE98
 +  Functions: 484
 +  Symbols:   1622
-   CStrings:  782
+   CStrings:  908
  
 Symbols:
 + -[BAAppStoreProgressConfiguration appBundleIdentifiers]

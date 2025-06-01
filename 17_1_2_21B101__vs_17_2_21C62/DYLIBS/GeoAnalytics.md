@@ -47,12 +47,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60840FB5-B5D7-35D8-B6FF-49B1AC8A799A
 -  Functions: 1364
 -  Symbols:   5952
--  CStrings:  4676
+-  CStrings:  7006
++  UUID: DADA4664-5B10-388D-9568-78361CDBE4CC
 +  Functions: 1365
 +  Symbols:   5958
-+  CStrings:  4677
++  CStrings:  7007
  
 Symbols:
 + +[GEOAPPortal captureVlfUsageWithEntryPoint:sessionTimeMs:timeRoundedToHour:localizationDetails:finalState:postFusionCorrection:initialPositionContextClassification:initialLocation:initializationFailureDetails:arStates:deviceOrientations:crowdsourcingDetails:arFailureTypes:]

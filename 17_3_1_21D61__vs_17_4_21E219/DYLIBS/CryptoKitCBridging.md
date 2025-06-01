@@ -24,7 +24,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x38
 +  __DATA_CONST.__objc_superrefs: 0x20
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__cfstring: 0x120
    __AUTH_CONST.__auth_got: 0x278
 -  __DATA.__objc_classrefs: 0x38
@@ -36,11 +35,13 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7A5CA2B-AB39-3508-8487-D8A1921E76E4
 -  Functions: 84
 -  Symbols:   340
++  UUID: D4E09A36-C2A2-3A0F-A169-B83A1305CAFF
 +  Functions: 85
 +  Symbols:   341
-   CStrings:  155
+   CStrings:  164
  
 Symbols:
 + _ccrng_generate_bridge

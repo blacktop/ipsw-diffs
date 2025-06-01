@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 72EB3628-332B-3675-8340-EA5AB0224CBC
 -  Functions: 730
 -  Symbols:   238
--  CStrings:  1852
+-  CStrings:  2056
++  UUID: 30B3919B-381C-3066-92B7-EE199C992351
 +  Functions: 749
 +  Symbols:   239
-+  CStrings:  1897
++  CStrings:  2111
  
 Symbols:
 + _OBJC_CLASS_$_ITIdleTimerState

@@ -23,4 +23,13 @@
    __DATA_CONST.__got: 0x158
    __DATA_CONST.__auth_ptr: 0x18
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 995AD40C-84EF-3C10-82DF-4DF6F0A6EEE8
++  UUID: 59AA544E-DF92-3D4C-B303-2D3CBF6348F0
+   Functions: 412
+   Symbols:   339
+   CStrings:  322
+
 ```

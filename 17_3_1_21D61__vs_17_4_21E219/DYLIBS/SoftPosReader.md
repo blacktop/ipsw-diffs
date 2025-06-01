@@ -79,7 +79,6 @@
 +  __AUTH_CONST.__objc_const: 0xf08
 +  __AUTH_CONST.__const: 0xb08
 +  __AUTH_CONST.__objc_intobj: 0x198
-+  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__auth_got: 0x950
 +  __AUTH.__objc_data: 0xaa0
 +  __AUTH.__data: 0x1b0
@@ -94,13 +93,15 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 7E218452-B527-3407-A51F-6548D8B37C27
 -  Functions: 1196
 -  Symbols:   3570
--  CStrings:  1375
+-  CStrings:  1570
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: B719BD59-100B-358F-AFDA-09E150156E94
 +  Functions: 1776
 +  Symbols:   3666
-+  CStrings:  1391
++  CStrings:  1583
  
 Symbols:
 + -[SPRAttestationManager requestTokenWithWarningsAndReturnError:]

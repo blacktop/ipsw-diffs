@@ -98,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A91D2B12-E9E5-36B9-ACCC-C96FD30ADE28
 -  Functions: 4766
 -  Symbols:   1605
--  CStrings:  2377
+-  CStrings:  2663
++  UUID: 8BF87A33-DB74-3EC1-B127-5A1D5396530A
 +  Functions: 4896
 +  Symbols:   1615
-+  CStrings:  2447
++  CStrings:  2745
  
 Symbols:
 + _$s8AppState0A12InstallationV5PhaseO10installingyAeC8ProgressV_tcAEmFWC

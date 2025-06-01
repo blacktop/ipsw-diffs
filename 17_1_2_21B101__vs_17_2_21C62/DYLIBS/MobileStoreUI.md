@@ -61,11 +61,9 @@
 -  __AUTH_CONST.__objc_const: 0x15078
 -  __AUTH_CONST.__cfstring: 0x15680
 -  __AUTH_CONST.__const: 0x1100
--  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__objc_const: 0x15148
 +  __AUTH_CONST.__cfstring: 0x156c0
 +  __AUTH_CONST.__const: 0x1698
-+  __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x108
    __AUTH_CONST.__objc_intobj: 0x408
@@ -125,9 +123,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6A7F323-90A0-3674-91C4-6EBABE0E1503
 -  Functions: 17535
 -  Symbols:   62339
--  CStrings:  21251
+-  CStrings:  23991
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCompression.dylib
@@ -151,9 +150,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 8B3EBEC8-9C5A-3492-BB13-06FA61BF42B4
 +  Functions: 17834
 +  Symbols:   62627
-+  CStrings:  21339
++  CStrings:  24081
  
 Symbols:
 + -[ASCLockupView(SwiftCompatibleSize) setLockupSize:]

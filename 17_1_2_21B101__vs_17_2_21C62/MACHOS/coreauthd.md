@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14FC388C-D589-3A6F-ACD3-3B6750FD160B
 -  Functions: 720
 -  Symbols:   274
--  CStrings:  1039
+-  CStrings:  1126
++  UUID: F123BB90-2EA7-3B01-86EE-5183F1199E2A
 +  Functions: 758
 +  Symbols:   279
-+  CStrings:  1102
++  CStrings:  1191
  
 Symbols:
 + _NSStringFromProtocol

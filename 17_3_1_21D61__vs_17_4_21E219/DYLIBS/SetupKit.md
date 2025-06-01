@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1CA0296A-5047-39C4-A5C9-254380C0D4CE
 -  Functions: 904
 -  Symbols:   3042
--  CStrings:  1716
+-  CStrings:  1802
++  UUID: 6D94FD20-CECC-3B78-A5CA-37AA6E2A3345
 +  Functions: 929
 +  Symbols:   3122
-+  CStrings:  1747
++  CStrings:  1834
  
 Symbols:
 + -[SKConnection conditionalPersistent]

@@ -63,12 +63,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 47E999D0-D064-395B-A24E-7FBE8ABE90B0
 -  Functions: 8613
 -  Symbols:   26405
--  CStrings:  9101
+-  CStrings:  10814
++  UUID: B63CB545-4B39-3B37-AF8B-AACC75E562D0
 +  Functions: 8611
 +  Symbols:   26396
-+  CStrings:  9104
++  CStrings:  10817
  
 Symbols:
 + -[REMDaemonUserDefaults deletePreferredDefaultListObjectIDUrl]

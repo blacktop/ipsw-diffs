@@ -52,12 +52,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6321E0C1-4266-336F-8774-48C42A668A19
 -  Functions: 394
 -  Symbols:   1368
--  CStrings:  726
+-  CStrings:  1057
++  UUID: FD8F5A49-B1CE-3D91-A3D1-A36B2D32039E
 +  Functions: 403
 +  Symbols:   1399
-+  CStrings:  735
++  CStrings:  1071
  
 Symbols:
 + +[ActivityTileSectionHeaderAccessibility _accessibilityPerformValidations:]

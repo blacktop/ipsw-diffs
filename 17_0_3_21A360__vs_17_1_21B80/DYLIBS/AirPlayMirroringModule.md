@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EDB4D344-6C54-3968-817C-1223C0985CE0
 -  Functions: 6
 -  Symbols:   11
 -  CStrings:  66
++  UUID: 897D6649-5091-3A9B-8D92-A6C6754D5437
 +  Functions: 44
 +  Symbols:   63
-+  CStrings:  184
++  CStrings:  190
  
 Symbols:
 + _MRUMirroringGlyphStateOff

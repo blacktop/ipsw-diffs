@@ -36,7 +36,6 @@
    __AUTH_CONST.__objc_const: 0x6220
 -  __AUTH_CONST.__const: 0x1f50
 +  __AUTH_CONST.__const: 0x1f70
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_dictobj: 0x2580
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x60
@@ -49,11 +48,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F3F0D3AC-896A-35E8-8A53-B4D971DA74BF
 -  Functions: 4307
 -  Symbols:   14294
++  UUID: 248CFCEF-F06F-3678-A16D-9521EFA9DACE
 +  Functions: 4308
 +  Symbols:   14299
-   CStrings:  5577
+   CStrings:  6910
  
 Symbols:
 + _CNArrayFlatten_block_invoke_3

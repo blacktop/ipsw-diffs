@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3A3D4906-8B35-3694-8338-F859382CD79C
 -  Functions: 5704
 -  Symbols:   1391
--  CStrings:  10342
+-  CStrings:  11943
++  UUID: 4C73DADF-7808-3226-B056-C2040173F34F
 +  Functions: 5716
 +  Symbols:   1392
-+  CStrings:  10362
++  CStrings:  11966
  
 Symbols:
 + _AXLogAssertions

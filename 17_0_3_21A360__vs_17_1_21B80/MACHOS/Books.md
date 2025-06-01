@@ -102,12 +102,14 @@
    - @rpath/EngagementCollector.framework/EngagementCollector
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: EAF4E2D1-7E07-3E61-A8FA-133340AC35D3
 -  Functions: 40287
 -  Symbols:   6956
--  CStrings:  25491
+-  CStrings:  27500
++  UUID: 0E657EB1-1A49-3B2D-8513-7CDA20238032
 +  Functions: 41250
 +  Symbols:   7031
-+  CStrings:  25689
++  CStrings:  27704
  
 Symbols:
 + _$s10Foundation11JSONDecoderC04BookA0E6decode_14withJSONObject7optionsxxm_ypSo20NSJSONWritingOptionsVtKSeRzlF

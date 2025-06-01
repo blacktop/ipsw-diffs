@@ -41,10 +41,12 @@
 +  - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4714864D-0F12-31AF-8461-B6EC775FC12C
++  UUID: 0154FD53-71EE-38E6-B007-5267EEF81C06
    Functions: 774
    Symbols:   2809
--  CStrings:  1593
-+  CStrings:  1594
+-  CStrings:  1772
++  CStrings:  1773
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -46,13 +46,16 @@
    __DATA.__data: 0xba0
    __DATA.__bss: 0x108
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 748ADC91-31F2-3C53-BEFF-F396551EE045
++  UUID: D616B38D-5C11-3391-962E-78FB34231412
    Functions: 1186
 -  Symbols:   4831
--  CStrings:  2482
+-  CStrings:  2733
 +  Symbols:   4832
-+  CStrings:  2485
++  CStrings:  2736
  
 Symbols:
 + ___105-[_UIDocumentPickerViewServiceViewController _didInstantiateThirdPartyPickerWithDescription:placeholder:]_block_invoke.145

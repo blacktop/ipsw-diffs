@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F61F86C-B19D-3339-B09F-5470322C0EFD
 -  Functions: 2527
 -  Symbols:   8599
--  CStrings:  4378
+-  CStrings:  4862
++  UUID: 4B86AE0D-9524-315F-8365-0317084FC793
 +  Functions: 2550
 +  Symbols:   8667
-+  CStrings:  4418
++  CStrings:  4906
  
 Symbols:
 + +[GEOSharedNavState(Testing) _msp_testTripClosedTripInPast]

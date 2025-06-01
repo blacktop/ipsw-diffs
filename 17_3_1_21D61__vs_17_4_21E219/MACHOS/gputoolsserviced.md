@@ -66,12 +66,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B59A6B78-65F8-30B0-B0B3-5F38B3FD3E24
 -  Functions: 720
 -  Symbols:   228
--  CStrings:  1367
+-  CStrings:  1577
++  UUID: 481F6895-2C9F-3E1D-BB94-173E394EC79D
 +  Functions: 760
 +  Symbols:   231
-+  CStrings:  1453
++  CStrings:  1694
  
 Symbols:
 + _FBSOpenApplicationOptionKeyPromptUnlockDevice

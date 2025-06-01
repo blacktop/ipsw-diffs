@@ -44,13 +44,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x32258
 -  __DATA_CONST.__objc_arraydata: 0x30a8
 -  __AUTH_CONST.__const: 0x11470
+-  __AUTH_CONST.__objc_const: 0x4a9f8
+-  __AUTH_CONST.__cfstring: 0x9eec0
 +  __DATA_CONST.__objc_const: 0x116d58
 +  __DATA_CONST.__objc_selrefs: 0x323b8
 +  __DATA_CONST.__objc_arraydata: 0x3080
 +  __AUTH_CONST.__const: 0x11510
-   __AUTH_CONST.__auth_ptr: 0x58
--  __AUTH_CONST.__objc_const: 0x4a9f8
--  __AUTH_CONST.__cfstring: 0x9eec0
 +  __AUTH_CONST.__objc_const: 0x4aad0
 +  __AUTH_CONST.__cfstring: 0x9f500
    __AUTH_CONST.__objc_intobj: 0x13c8
@@ -84,12 +83,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 01CAD8C2-AE0D-3ADB-86E2-CB2153E35F40
 -  Functions: 108021
 -  Symbols:   276849
--  CStrings:  69934
+-  CStrings:  90276
++  UUID: A468DA8C-A1F7-3961-A1B0-4C25E78B8A02
 +  Functions: 108164
 +  Symbols:   277232
-+  CStrings:  70070
++  CStrings:  90462
  
 Symbols:
 + +[GEOPDBankTransactionInformation baaCertificateType]

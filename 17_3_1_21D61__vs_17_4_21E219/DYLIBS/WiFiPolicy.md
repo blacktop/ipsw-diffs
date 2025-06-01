@@ -57,7 +57,6 @@
 -  __AUTH_CONST.__const: 0x320
 +  __AUTH_CONST.__objc_arrayobj: 0x3a8
 +  __AUTH_CONST.__const: 0x380
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x20
 -  __AUTH_CONST.__auth_got: 0xb00
@@ -92,12 +91,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75D3385A-5188-344B-AFDC-2C997D6649D2
 -  Functions: 5431
 -  Symbols:   17891
--  CStrings:  12059
+-  CStrings:  15006
++  UUID: 79ACFDCC-5797-3626-AF4C-4FE4A005FCA1
 +  Functions: 5515
 +  Symbols:   18135
-+  CStrings:  12193
++  CStrings:  15138
  
 Symbols:
 + +[WiFiSoftError _updateHUDWithMessage:].cold.1

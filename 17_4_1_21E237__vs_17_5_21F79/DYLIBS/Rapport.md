@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48C182EE-FDC3-3D0F-AF35-44A1F89F3AF9
 -  Functions: 3142
 -  Symbols:   9843
--  CStrings:  5837
+-  CStrings:  6407
++  UUID: 531581D8-37EB-30B7-89B0-2630B89FD60B
 +  Functions: 3146
 +  Symbols:   9856
-+  CStrings:  5848
++  CStrings:  6418
  
 Symbols:
 + -[RPConnection cloudDaemon]

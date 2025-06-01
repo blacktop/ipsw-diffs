@@ -75,12 +75,10 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_intobj: 0x258
 -  __AUTH_CONST.__objc_dictobj: 0x168
--  __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0x1138
 -  __AUTH.__objc_data: 0x24c8
 -  __AUTH.__data: 0xd60
 +  __AUTH_CONST.__objc_dictobj: 0x140
-+  __AUTH_CONST.__auth_ptr: 0x60
 +  __AUTH_CONST.__auth_got: 0x1150
 +  __AUTH.__objc_data: 0x2830
 +  __AUTH.__data: 0xd88
@@ -125,12 +123,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D3498549-9DD7-38E3-B09C-9F8C35B16692
 -  Functions: 9451
 -  Symbols:   21102
--  CStrings:  10006
+-  CStrings:  12715
++  UUID: DAF530D8-E51D-3AAA-994D-7F500F486B4B
 +  Functions: 9647
 +  Symbols:   21536
-+  CStrings:  10212
++  CStrings:  12947
  
 Symbols:
 + +[GKAchievementThatAFriendHasInternal secureCodedPropertyKeys]

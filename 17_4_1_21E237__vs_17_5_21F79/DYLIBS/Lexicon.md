@@ -13,7 +13,6 @@
    __DATA_CONST.__got: 0x1c8
    __DATA_CONST.__const: 0xfe8
    __AUTH_CONST.__cfstring: 0xb60
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x2078
 +  __AUTH_CONST.__const: 0x2648
    __AUTH_CONST.__auth_got: 0x9c0
@@ -32,6 +31,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 8D643A5B-8970-34E6-A6A8-60B99F6022B1
++  UUID: E4AB110E-76C8-3312-B3D5-5F3251820381
+   Functions: 4306
+   Symbols:   507
+   CStrings:  1206
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/trie/cedarpp.h"
 + "/AppleInternal/Library/BuildRoots/4edb1ca0-f8e5-11ee-a853-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/trie/darts_clone.h:1146: exception: failed to insert key: negative value"

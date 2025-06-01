@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5910CCFC-E6DD-32C5-B37B-EE002CA4BF82
 -  Functions: 5086
 -  Symbols:   18533
--  CStrings:  8156
+-  CStrings:  8748
++  UUID: 5EDA0290-E2A8-35D5-83BB-FF9CC900CFA8
 +  Functions: 5101
 +  Symbols:   18581
-+  CStrings:  8180
++  CStrings:  8778
  
 Symbols:
 + +[SHSheetActivityItemUtilities shouldShowHeaderSpecializationForMetadata:]

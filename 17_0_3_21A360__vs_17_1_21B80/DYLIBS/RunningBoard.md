@@ -32,7 +32,6 @@
    __AUTH_CONST.__const: 0x5a0
    __AUTH_CONST.__objc_const: 0x3150
    __AUTH_CONST.__objc_intobj: 0x210
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_dictobj: 0x348
    __AUTH_CONST.__objc_arrayobj: 0x150
 -  __AUTH_CONST.__auth_got: 0xa10
@@ -44,12 +43,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: F3F6D127-56BF-3FE2-AF23-7E39E9985D63
 -  Functions: 2516
 -  Symbols:   8737
--  CStrings:  4182
+-  CStrings:  4869
++  UUID: 25CEA642-6FD6-3CAF-91BC-048D15C33149
 +  Functions: 2512
 +  Symbols:   8730
-+  CStrings:  4183
++  CStrings:  4866
  
 Symbols:
 + _RBSExtensionPointFromBundleDict

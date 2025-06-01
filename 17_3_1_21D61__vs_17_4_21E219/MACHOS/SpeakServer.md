@@ -62,12 +62,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A65C06E-781C-333B-8102-19DD5372D187
 -  Functions: 44
 -  Symbols:   112
--  CStrings:  262
+-  CStrings:  298
++  UUID: 27AF33B4-574A-3AD5-A0F9-EAC76C2659BE
 +  Functions: 52
 +  Symbols:   111
-+  CStrings:  287
++  CStrings:  323
  
 Symbols:
 + __os_log_error_impl

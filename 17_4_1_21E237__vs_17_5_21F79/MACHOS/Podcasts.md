@@ -91,12 +91,14 @@
    - @rpath/IMDebug.framework/IMDebug
    - @rpath/NowPlayingUI.framework/NowPlayingUI
    - @rpath/PodcastsStoreUI.framework/PodcastsStoreUI
+-  UUID: F2D8D3AC-150C-301B-A344-74826128B398
 -  Functions: 20438
 -  Symbols:   4188
--  CStrings:  15672
+-  CStrings:  17298
++  UUID: 4F0413A0-5BD8-33D4-9E97-4EEAEF516376
 +  Functions: 20455
 +  Symbols:   4185
-+  CStrings:  15678
++  CStrings:  17304
  
 Symbols:
 + _$s11AppStoreKit15OAuthControllerC18endpointSubscriber14hudViewHandlerAcA016AMSOAuthEndpointG0V_AA0d7HUDViewJ0Ctcfc

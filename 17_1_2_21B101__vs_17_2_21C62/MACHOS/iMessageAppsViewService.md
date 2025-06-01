@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/iMessageApps.framework/iMessageApps
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7E33BAC6-462C-32EF-B522-F56D9AEC7ADA
 -  Functions: 184
++  UUID: A4AD2E5A-2563-368B-A173-7D74F721B17B
 +  Functions: 186
    Symbols:   126
--  CStrings:  427
-+  CStrings:  433
+-  CStrings:  434
++  CStrings:  440
  
 CStrings:
 + "_addStickerToStoreWithRepresentations:sourceRect:effect:completion:"

@@ -37,13 +37,16 @@
    __DATA.__objc_ivar: 0x28
    __DATA.__objc_data: 0x1918
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1176C1B6-4A23-3FBE-BA83-D3FB6512872C
++  UUID: 8DD17C47-8DC2-369E-A503-76300EEB5E54
    Functions: 592
 -  Symbols:   215
--  CStrings:  738
+-  CStrings:  745
 +  Symbols:   214
-+  CStrings:  737
++  CStrings:  744
  
 Symbols:
 - _OBJC_CLASS_$_NSArray

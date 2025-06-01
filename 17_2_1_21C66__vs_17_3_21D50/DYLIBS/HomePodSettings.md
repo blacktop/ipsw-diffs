@@ -15,11 +15,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 853FA0E8-C175-3475-B61B-42DF07441D14
 -  Functions: 10385
 -  Symbols:   7212
++  UUID: D17E8397-775C-30E5-BCF6-6AEDF2BE5CB9
 +  Functions: 10387
 +  Symbols:   7216
-   CStrings:  1387
+   CStrings:  1524
  
 Symbols:
 + GCC_except_table21

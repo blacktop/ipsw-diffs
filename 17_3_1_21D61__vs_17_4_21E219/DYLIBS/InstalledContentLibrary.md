@@ -55,7 +55,6 @@
 +  __AUTH_CONST.__cfstring: 0xbe40
 +  __AUTH_CONST.__objc_const: 0x1c88
 +  __AUTH_CONST.__const: 0x56e8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_dictobj: 0x11a8
 -  __AUTH_CONST.__objc_arrayobj: 0x90
 +  __AUTH_CONST.__objc_arrayobj: 0x78
@@ -86,12 +85,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35225D2F-CA1F-32C5-90C7-B9A17864D8B6
 -  Functions: 1723
 -  Symbols:   6008
--  CStrings:  4039
+-  CStrings:  5518
++  UUID: 318857AA-1821-3419-BF4C-03D6D6A4B3C0
 +  Functions: 1809
 +  Symbols:   6245
-+  CStrings:  4185
++  CStrings:  5707
  
 Symbols:
 + +[ICLFeatureFlags systemAppDeletionEnabled]

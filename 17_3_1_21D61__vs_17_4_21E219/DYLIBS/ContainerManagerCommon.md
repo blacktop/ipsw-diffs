@@ -77,12 +77,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4E5E5E5A-17CD-3F17-87FA-5827BCF152DB
 -  Functions: 2393
 -  Symbols:   9219
--  CStrings:  4993
+-  CStrings:  5777
++  UUID: 2BAE8FBA-1639-3554-B222-2C2ED4B36F57
 +  Functions: 2399
 +  Symbols:   9241
-+  CStrings:  5005
++  CStrings:  5790
  
 Symbols:
 + -[MCMCodeSigningMapping _onQueue_iterateGroupIdsWithKey:fallBackKey:noReferenceKey:forAllIdentifiersUsingBlock:]

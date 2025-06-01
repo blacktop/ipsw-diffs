@@ -26,12 +26,15 @@
    __DATA_CONST.__auth_ptr: 0x130
    __DATA_CONST.__const: 0x7430
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF2217ED-F8B7-361D-BAB3-E279DAB53D7E
++  UUID: 5550C51E-F0A5-3E11-9EC4-EFD8DA922C2D
    Functions: 9660
 -  Symbols:   2100
 +  Symbols:   2101
-   CStrings:  12502
+   CStrings:  13415
  
 Symbols:
 + _$s15ConversationKit22MultiwayViewControllerC10isOnScreenSbvs

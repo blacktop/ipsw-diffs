@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ECD10520-22C8-3F24-8F1E-65BB7D477FC1
 -  Functions: 8758
 -  Symbols:   1285
--  CStrings:  23133
+-  CStrings:  26744
++  UUID: 81DE115B-2FA0-3209-97A0-FAE36B989906
 +  Functions: 8827
 +  Symbols:   1266
-+  CStrings:  23395
++  CStrings:  27033
  
 Symbols:
 + _OBJC_CLASS_$_NSByteCountFormatter

@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x90
    __DATA_CONST.__objc_catlist: 0x8
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59EEEC7E-AAAE-3D2D-AF54-D27A8330B249
++  UUID: A54DE124-7E97-3C78-A3EC-5AF814A0C795
    Functions: 411
 -  Symbols:   1580
 +  Symbols:   1581
-   CStrings:  797
+   CStrings:  815
  
 Symbols:
 + _NSSystemTimeZoneDidChangeNotification

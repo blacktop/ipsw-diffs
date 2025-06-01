@@ -81,11 +81,13 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A36309E1-D2BB-3ACF-9F47-B41882BD24D5
 -  Functions: 4047
++  UUID: A848B227-5F79-369A-99D4-EB526D27BC93
 +  Functions: 4076
    Symbols:   914
--  CStrings:  7524
-+  CStrings:  7658
+-  CStrings:  8614
++  CStrings:  8783
  
 Symbols:
 + _GEOResetGeoCodecsAllocator

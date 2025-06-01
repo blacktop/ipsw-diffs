@@ -22,6 +22,15 @@
    __TEXT.__objc_methtype: 0x30f
    __TEXT.__objc_stubs: 0x1540
    __DATA_CONST.__got: 0x60
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6FDC7DDB-2B5E-3B7B-A97E-843823DB10FC
++  UUID: 730CA3A7-8B26-37E8-B1E6-67970ED08D21
+   Functions: 199
+   Symbols:   877
+   CStrings:  681
 Symbols:
 + -[AXVisualAlertSBNCSoundController playSoundAndReadOutForNotificationRequest:presentingDestination:]
 + ___100-[AXVisualAlertSBNCSoundController playSoundAndReadOutForNotificationRequest:presentingDestination:]_block_invoke

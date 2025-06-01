@@ -37,11 +37,15 @@
    __DATA.__data: 0x600
    __DATA.__bss: 0x60
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF79191D-C127-3239-9C96-1883C55AD1B7
++  UUID: FFE57AAD-80C3-328A-9D02-B78D313BB500
    Functions: 179
    Symbols:   998
--  CStrings:  657
-+  CStrings:  658
+-  CStrings:  670
++  CStrings:  671
  
 CStrings:
 + "T@\"NSString\",?,R,C"

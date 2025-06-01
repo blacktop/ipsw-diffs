@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A9E9C762-A75E-3196-905D-17C3DC004F0F
 -  Functions: 550
 -  Symbols:   352
--  CStrings:  1530
+-  CStrings:  1723
++  UUID: 188E912E-EE74-3D3E-A9CE-19E9E34FF714
 +  Functions: 560
 +  Symbols:   355
-+  CStrings:  1533
++  CStrings:  1726
  
 Symbols:
 + _MSVCopySystemBuildVersion

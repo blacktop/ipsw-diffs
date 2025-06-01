@@ -34,11 +34,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x8
 
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D93938A0-AF62-3129-81E2-2881B3377D3A
++  UUID: 9BEF762E-E569-3F62-9D51-3122AC5BB2B6
    Functions: 7
    Symbols:   34
--  CStrings:  86
-+  CStrings:  87
+-  CStrings:  97
++  CStrings:  98
  
 CStrings:
 + "T@\"NSString\",?,R,C"

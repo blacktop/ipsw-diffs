@@ -24,4 +24,13 @@
    __DATA.__data: 0x460
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6B62B355-A87A-31DF-9C09-0E1FC2319A21
++  UUID: B983EEB6-549B-3113-9EF2-E4E79378E373
+   Functions: 45
+   Symbols:   547
+   CStrings:  451
+
 ```

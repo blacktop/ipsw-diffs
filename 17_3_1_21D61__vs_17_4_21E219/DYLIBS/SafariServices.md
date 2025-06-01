@@ -126,9 +126,10 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 387250E2-8C5B-3324-A99D-7C751BDB03E5
 -  Functions: 8958
 -  Symbols:   34673
--  CStrings:  16493
+-  CStrings:  18197
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -143,9 +144,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: F71F55AD-ED42-302B-BC2D-E091A81033BA
 +  Functions: 9021
 +  Symbols:   35007
-+  CStrings:  16563
++  CStrings:  18241
  
 Symbols:
 + +[NSUserDefaults(SafariServicesExtras) _pm_defaults]

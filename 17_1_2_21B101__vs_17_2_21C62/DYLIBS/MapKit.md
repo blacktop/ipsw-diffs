@@ -62,12 +62,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F942A39A-941B-3FDC-AA76-0E8F7F8D9936
 -  Functions: 11917
 -  Symbols:   40336
--  CStrings:  20499
+-  CStrings:  23746
++  UUID: 146A35AD-8818-33A4-9842-27C30D2C8B31
 +  Functions: 11921
 +  Symbols:   40352
-+  CStrings:  20504
++  CStrings:  23744
  
 Symbols:
 + -[MKAnnotationView _featureId]

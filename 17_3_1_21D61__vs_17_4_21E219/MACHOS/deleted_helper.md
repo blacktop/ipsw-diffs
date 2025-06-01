@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E918A5D2-583F-3FD3-95C3-8AEE22BFF20D
++  UUID: 97FA4B31-C81E-3A35-BD76-91D63FC0857B
+   Functions: 17
+   Symbols:   143
+   CStrings:  117
+
 ```

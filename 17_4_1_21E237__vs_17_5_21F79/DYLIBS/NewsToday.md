@@ -75,12 +75,14 @@
    - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91D714FE-60B5-35AA-A3C2-4DFF7DD4F0EC
 -  Functions: 1907
 -  Symbols:   6597
--  CStrings:  2970
+-  CStrings:  3212
++  UUID: 9551E012-C89A-303C-A820-62092CF0B4B7
 +  Functions: 1904
 +  Symbols:   6598
-+  CStrings:  2990
++  CStrings:  3226
  
 Symbols:
 + -[NTCatchUpOperationForYouRequest feedMaxCount]

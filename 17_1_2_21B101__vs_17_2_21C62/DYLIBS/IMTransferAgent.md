@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8D1980D-C0B6-36D3-BE76-E7B2951D2EEB
 -  Functions: 271
 -  Symbols:   267
--  CStrings:  1044
+-  CStrings:  1288
++  UUID: 13D3AFFD-8BCC-3AC7-94E7-E2573B067CE8
 +  Functions: 264
 +  Symbols:   266
-+  CStrings:  911
++  CStrings:  1011
  
 Symbols:
 + _OBJC_CLASS_$_IMFeatureFlags

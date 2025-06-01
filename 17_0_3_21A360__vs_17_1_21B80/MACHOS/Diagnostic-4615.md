@@ -55,12 +55,14 @@
    - /usr/lib/libIOAccessoryManager.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9B64CD1-B7EC-32D6-A358-96ED3525767E
 -  Functions: 47
 -  Symbols:   90
--  CStrings:  139
+-  CStrings:  143
++  UUID: 395355CC-E089-3935-A45D-6B9165EE900D
 +  Functions: 65
 +  Symbols:   96
-+  CStrings:  165
++  CStrings:  173
  
 Symbols:
 + _IOAccessoryManagerChallengeCryptoDock

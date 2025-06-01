@@ -75,11 +75,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x30
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x1eb8
 -  __AUTH_CONST.__auth_got: 0x4678
 -  __AUTH.__objc_data: 0x80b8
 -  __AUTH.__data: 0x33680
-+  __AUTH_CONST.__auth_ptr: 0x1ee8
 +  __AUTH_CONST.__auth_got: 0x4710
 +  __AUTH.__objc_data: 0x8238
 +  __AUTH.__data: 0x33bc0
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7BBAF705-22F7-3EDC-9A76-4C8C1730188C
 -  Functions: 220236
 -  Symbols:   82314
--  CStrings:  7621
+-  CStrings:  7703
++  UUID: B3B7187B-DC2C-3C38-9E45-D06362009CB3
 +  Functions: 222157
 +  Symbols:   83008
-+  CStrings:  7705
++  CStrings:  7787
  
 Symbols:
 + -[UINavigationController(SwiftUI_NavV4) _supportsDataDrivenNavigation]

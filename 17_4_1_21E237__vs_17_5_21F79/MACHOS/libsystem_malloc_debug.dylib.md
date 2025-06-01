@@ -19,7 +19,11 @@
    __DATA_CONST.__got: 0xa8
    __DATA_CONST.__const: 0x118
 
+   - /System/DriverKit/usr/lib/system/libsystem_kernel.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
    - /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+-  UUID: 686DD919-00B8-3A5C-B734-ECD1879731F5
++  UUID: DC734986-A89C-3FBC-91EB-8A7A30E5880D
    Functions: 999
    Symbols:   1262
 -  CStrings:  862

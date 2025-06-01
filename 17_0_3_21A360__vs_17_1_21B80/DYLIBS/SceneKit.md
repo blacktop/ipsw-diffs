@@ -51,7 +51,6 @@
 -  __AUTH_CONST.__objc_const: 0x6458
 +  __AUTH_CONST.__cfstring: 0x20a60
 +  __AUTH_CONST.__objc_const: 0x62f0
-   __AUTH_CONST.__auth_ptr: 0x150
    __AUTH_CONST.__objc_intobj: 0x558
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x20
@@ -87,12 +86,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D133DA8B-2AFD-320E-A988-8D943910EDFE
 -  Functions: 22179
 -  Symbols:   55728
--  CStrings:  16037
+-  CStrings:  20220
++  UUID: 6D0212D4-6541-31DC-83AB-204B5C56D0FA
 +  Functions: 22170
 +  Symbols:   55683
-+  CStrings:  16029
++  CStrings:  20208
  
 Symbols:
 + -[NSCoder(SCNExtensions) scn_decodeArrayOfObjectsOfClass:containingNestedContainersForKey:]

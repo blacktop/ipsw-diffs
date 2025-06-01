@@ -17,6 +17,15 @@
    __TEXT.__oslogstring: 0x6a35
    __TEXT.__ustring: 0x4a0
    __TEXT.__unwind_info: 0x17ab4
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 469A1B47-FC91-385A-B879-5DB1A4294F57
++  UUID: 06529098-D412-3941-8565-310A5FF9E373
+   Functions: 22501
+   Symbols:   55082
+   CStrings:  16715
 Symbols:
 + GCC_except_table4410
 + GCC_except_table4413

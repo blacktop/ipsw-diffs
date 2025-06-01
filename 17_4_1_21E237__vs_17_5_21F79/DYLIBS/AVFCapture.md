@@ -84,12 +84,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7A9D2EB5-0A39-38D2-9FF1-1C8035FA7EBA
 -  Functions: 4667
 -  Symbols:   16970
--  CStrings:  7568
+-  CStrings:  9521
++  UUID: 7A5920AF-E765-36AA-B885-DA076E5EE0D7
 +  Functions: 4727
 +  Symbols:   17175
-+  CStrings:  7670
++  CStrings:  9656
  
 Symbols:
 + +[AVMetadataEyeReliefStatusObject eyeReliefStatusObjectWithEyeReliefStatus:input:time:optionalInfoDict:]

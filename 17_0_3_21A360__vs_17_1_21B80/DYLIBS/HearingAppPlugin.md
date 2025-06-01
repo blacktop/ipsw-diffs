@@ -28,11 +28,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1A9E3B15-8787-306E-8E22-1117A965BAA1
 -  Functions: 1265
++  UUID: 2EA0621F-9086-34ED-99D3-CCC2A0765ADA
 +  Functions: 1262
    Symbols:   244
--  CStrings:  510
-+  CStrings:  521
+-  CStrings:  511
++  CStrings:  522
  
 CStrings:
 + "SECTION2_CHART1_TITLE"

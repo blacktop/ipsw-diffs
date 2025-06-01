@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x4bf
    __TEXT.__objc_methname: 0xc1
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsystemstats.dylib
+-  UUID: 78E218FB-727D-340C-BD33-8375CB434204
++  UUID: E27A9ECB-A709-37F6-902D-24D8917FA074
+   Functions: 36
+   Symbols:   60
+   CStrings:  56
+
 ```

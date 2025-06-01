@@ -41,7 +41,6 @@
    __DATA_CONST.__objc_classrefs: 0x518
    __DATA_CONST.__objc_superrefs: 0x188
    __DATA_CONST.__objc_arraydata: 0xe8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0xcaa8
 -  __AUTH_CONST.__cfstring: 0x2e40
 +  __AUTH_CONST.__cfstring: 0x2e00
@@ -58,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1789BD06-FDA1-3A66-8C0A-71ECB2BC9A37
 -  Functions: 1627
 -  Symbols:   5737
--  CStrings:  3090
+-  CStrings:  3460
++  UUID: DFCBC5BD-AB98-3FCF-94D7-1A56AE040076
 +  Functions: 1630
 +  Symbols:   5749
-+  CStrings:  3095
++  CStrings:  3463
  
 Symbols:
 + -[ATIDSService _handleReconnectEvent:]

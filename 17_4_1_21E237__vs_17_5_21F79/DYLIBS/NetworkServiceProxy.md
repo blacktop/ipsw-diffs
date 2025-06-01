@@ -42,7 +42,7 @@
 +  __AUTH_CONST.__cfstring: 0x74e0
    __AUTH_CONST.__objc_const: 0x1ea8
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0x78
 
    __DATA.__data: 0x408
    __DATA.__common: 0x24
@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28E7C3AA-B360-38DA-94D6-103DD3D6D88A
 -  Functions: 2953
 -  Symbols:   9334
--  CStrings:  5454
+-  CStrings:  6386
++  UUID: 6927237E-FBB2-35E6-868D-4A6466241F05
 +  Functions: 2959
 +  Symbols:   9347
-+  CStrings:  5457
++  CStrings:  6392
  
 Symbols:
 + -[NSPPrivacyProxyProxyInfo StringAsAlgorithm:]

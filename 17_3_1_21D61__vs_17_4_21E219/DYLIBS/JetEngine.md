@@ -66,7 +66,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x1528
 -  __AUTH_CONST.__objc_const: 0x980
 -  __AUTH_CONST.__cfstring: 0x10e0
--  __AUTH_CONST.__auth_ptr: 0x940
 -  __AUTH_CONST.__const: 0x24f90
 +  __DATA_CONST.__objc_const: 0x8990
 +  __DATA_CONST.__objc_selrefs: 0x15d8
@@ -75,7 +74,6 @@
 +  __DATA_CONST.__objc_superrefs: 0xa8
 +  __AUTH_CONST.__objc_const: 0xa10
 +  __AUTH_CONST.__cfstring: 0x1180
-+  __AUTH_CONST.__auth_ptr: 0x950
 +  __AUTH_CONST.__const: 0x25720
    __AUTH_CONST.__objc_intobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x2388
@@ -112,12 +110,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB66E242-5B31-3943-B7D8-1342E50363CD
 -  Functions: 22405
 -  Symbols:   7084
--  CStrings:  2580
+-  CStrings:  2715
++  UUID: F0A921E1-D21F-329D-92D6-4CF921301B96
 +  Functions: 22910
 +  Symbols:   7219
-+  CStrings:  2698
++  CStrings:  2838
  
 Symbols:
 + -[JEImpressionDurationFilteringTreatmentAction .cxx_destruct]

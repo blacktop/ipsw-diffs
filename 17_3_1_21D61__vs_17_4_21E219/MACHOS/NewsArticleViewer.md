@@ -32,7 +32,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 486514A7-46F3-3581-89F3-66EA87D1225A
++  UUID: 541C3E44-544D-3035-8C21-A7DDB3EFF4ED
    Functions: 24
    Symbols:   48
 -  CStrings:  123

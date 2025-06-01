@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C8C11E6-7031-33A9-AA63-9B52F21F7550
 -  Functions: 431
 -  Symbols:   2024
--  CStrings:  1190
+-  CStrings:  1240
++  UUID: 0D057389-FA9A-3735-B95E-6EA3F8A8379C
 +  Functions: 427
 +  Symbols:   2011
-+  CStrings:  1175
++  CStrings:  1223
  
 Symbols:
 + -[INCIntentDefaultValueProvider completionHandlingQueue]

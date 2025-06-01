@@ -68,12 +68,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4FB7117D-E0E5-30B9-AF34-66895F90BE0C
 -  Functions: 291
 -  Symbols:   266
--  CStrings:  1052
+-  CStrings:  1142
++  UUID: 35ED9FAB-39AF-3275-9E98-577869DB46F3
 +  Functions: 296
 +  Symbols:   269
-+  CStrings:  1068
++  CStrings:  1158
  
 Symbols:
 + _objc_opt_respondsToSelector

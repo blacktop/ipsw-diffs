@@ -38,13 +38,16 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3FD12850-E722-3C39-B906-0BF53E0441D3
++  UUID: 6A781D06-995E-3ACF-80B9-25DECE6C927F
    Functions: 41
 -  Symbols:   103
--  CStrings:  188
+-  CStrings:  204
 +  Symbols:   101
-+  CStrings:  189
++  CStrings:  205
  
 Symbols:
 - _kCFUserNotificationKeyboardTypesKey

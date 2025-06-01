@@ -35,11 +35,15 @@
    __DATA.__objc_selrefs: 0x58
    __DATA.__objc_classrefs: 0x30
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 40EBA832-5C8F-3928-9A5F-143D7136749C
++  UUID: BA241E74-859F-34BA-8485-1BA9F003997B
    Functions: 64
    Symbols:   176
--  CStrings:  83
-+  CStrings:  85
+-  CStrings:  85
++  CStrings:  86
  
 Symbols:
 + __dispatch_main_q

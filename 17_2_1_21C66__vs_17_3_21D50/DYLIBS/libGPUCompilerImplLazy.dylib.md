@@ -15,6 +15,15 @@
    __TEXT.__unwind_info: 0x1ce64
    __DATA_CONST.__got: 0x200
    __DATA_CONST.__const: 0x190bb0
+
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libllvm-flatbuffers.dylib
+-  UUID: F19FF373-333D-3F40-96CD-701CA0584708
++  UUID: 9B01EC28-A3AC-31E1-8B72-1D6C878DA1B3
+   Functions: 51814
+   Symbols:   1821
+   CStrings:  56129
 CStrings:
 + " version 32023.116"
 + "\"32023.116 "

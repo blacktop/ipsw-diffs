@@ -20,5 +20,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/DocumentManagerUICore.framework/DocumentManagerUICore
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CCF0AEA5-79CA-3FB5-ACD4-390FF8E53C85
++  UUID: E1124BAB-9FB5-379A-A649-B619919AB1BB
+   Functions: 2
+   Symbols:   10
+   CStrings:  5
 
 ```

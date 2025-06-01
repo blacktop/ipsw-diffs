@@ -64,7 +64,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0x4768
 +  __AUTH_CONST.__objc_arrayobj: 0x29b8
 +  __AUTH_CONST.__objc_doubleobj: 0x1360
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x12b0
 -  __AUTH.__objc_data: 0x1270
 +  __AUTH.__objc_data: 0x11d0
@@ -102,12 +101,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 163E9A14-974E-3406-8F8E-F1FC9E99B302
 -  Functions: 15505
 -  Symbols:   44974
--  CStrings:  32563
+-  CStrings:  45548
++  UUID: 5180CF8A-9D55-3F65-8230-F1F79C3144CA
 +  Functions: 15525
 +  Symbols:   45050
-+  CStrings:  32861
++  CStrings:  45984
  
 Symbols:
 + +[PLBatteryAgent entryEventForwardDefinitionAdapterDetails]

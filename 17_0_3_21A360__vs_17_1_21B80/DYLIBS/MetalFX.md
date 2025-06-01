@@ -26,12 +26,15 @@
    __DATA.__objc_classrefs: 0x100
    __DATA.__objc_superrefs: 0x28
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED57A64E-B5E4-3152-B0BB-ACDACDCD0751
++  UUID: 7A58C894-1D77-3367-9F91-9F3CF85F4877
    Functions: 336
 -  Symbols:   1477
 +  Symbols:   1478
-   CStrings:  785
+   CStrings:  1023
  
 Symbols:
 + _dispatch_queue_attr_make_with_qos_class

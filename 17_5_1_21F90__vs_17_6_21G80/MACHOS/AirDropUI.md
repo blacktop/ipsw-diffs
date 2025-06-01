@@ -61,12 +61,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAF83385-B446-3599-8A2E-AE66A54B80E7
 -  Functions: 4953
 -  Symbols:   1885
--  CStrings:  1719
+-  CStrings:  1774
++  UUID: 42F9B998-3D9D-3A12-B332-05A4A383DCC7
 +  Functions: 4962
 +  Symbols:   1894
-+  CStrings:  1726
++  CStrings:  1781
  
 Symbols:
 + _$s7Sharing9SFAirDropO06NearbyA11InteractionV11FailureTypeO11unsupportedyAGSb_tcAGmFWC

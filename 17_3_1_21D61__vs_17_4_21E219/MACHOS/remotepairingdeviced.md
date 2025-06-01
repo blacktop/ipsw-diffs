@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 40EB89F3-5365-3D4C-AB93-BBB4D1619896
 -  Functions: 1757
 -  Symbols:   1008
--  CStrings:  602
+-  CStrings:  604
++  UUID: E23E3E35-10C7-34CF-A7D5-A25B1C0DF6D5
 +  Functions: 2266
 +  Symbols:   1130
-+  CStrings:  708
++  CStrings:  710
  
 Symbols:
 + _$s10Foundation10POSIXErrorV7MercuryE7current2orACs5Int32V_tFZ

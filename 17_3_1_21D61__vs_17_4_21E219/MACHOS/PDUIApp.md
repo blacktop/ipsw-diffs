@@ -30,7 +30,11 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 05FC5139-3FD7-3C69-BA9E-BED9C3E40ACB
++  UUID: 6E84C791-B18D-3B0F-87B3-AAE6228A7482
    Functions: 16
    Symbols:   52
 -  CStrings:  209

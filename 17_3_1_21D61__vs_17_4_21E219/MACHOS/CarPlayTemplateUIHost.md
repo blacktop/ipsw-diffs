@@ -59,11 +59,13 @@
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B211AE10-357F-3F53-B19C-E0CAA00AC76D
 -  Functions: 370
++  UUID: 03A49192-ED65-3A5B-9F65-B975B96EEA03
 +  Functions: 376
    Symbols:   141
--  CStrings:  910
-+  CStrings:  922
+-  CStrings:  944
++  CStrings:  956
  
 Symbols:
 + _objc_retain_x27

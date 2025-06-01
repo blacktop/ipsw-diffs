@@ -31,11 +31,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0DA01CBA-D859-3611-9319-41CC7CAACA7A
++  UUID: 125EC051-F849-32C6-A6AE-34ABCD1E8CDC
    Functions: 6
    Symbols:   53
--  CStrings:  66
-+  CStrings:  67
+-  CStrings:  69
++  CStrings:  70
  
 CStrings:
 + "T@\"NSString\",?,R,C"

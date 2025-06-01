@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protorefs: 0x168
    __DATA_CONST.__objc_classrefs: 0x1e8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6DBA9A4D-B59E-3523-A4A2-989A271649CC
++  UUID: 7DD55919-C4A2-3142-91D7-6801B32B2D0C
    Functions: 11335
    Symbols:   2147
--  CStrings:  3109
-+  CStrings:  3116
+-  CStrings:  3110
++  CStrings:  3117
  
 CStrings:
 + "liveActivityScheduleDelay"

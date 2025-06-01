@@ -18,7 +18,6 @@
    __AUTH_CONST.__cfstring: 0x1940
    __AUTH_CONST.__const: 0x27d0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0xc8
    __AUTH_CONST.__auth_got: 0x8f8
 +  __AUTH.__objc_data: 0x220
    __AUTH.__data: 0x158
@@ -38,5 +37,14 @@
    __DATA_DIRTY.__bss: 0x40
    __DATA_DIRTY.__common: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1910CF1A-BAB0-3F3A-9982-F0F0C16C735A
++  UUID: 0FA64C52-B4A5-3C17-904A-0344997D79A8
+   Functions: 4867
+   Symbols:   3205
+   CStrings:  1491
 
 ```

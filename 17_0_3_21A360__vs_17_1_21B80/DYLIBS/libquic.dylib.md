@@ -29,9 +29,9 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x68
 
+   __AUTH_CONST.__const: 0x25c0
    __AUTH_CONST.__cfstring: 0x1480
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xca0
 +  __AUTH_CONST.__auth_got: 0xca8
    __AUTH.__data: 0x110
@@ -41,12 +41,14 @@
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B74195CA-F456-310F-9854-A6BAA06C7DFD
 -  Functions: 1168
 -  Symbols:   3153
--  CStrings:  2690
+-  CStrings:  2854
++  UUID: 583EE7D3-2337-30C4-8222-20A65AA20891
 +  Functions: 1171
 +  Symbols:   3161
-+  CStrings:  2698
++  CStrings:  2862
  
 Symbols:
 + _____quic_signpost_is_enabled_block_invoke.2438

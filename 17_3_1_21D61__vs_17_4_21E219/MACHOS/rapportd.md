@@ -70,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9688E3A5-830F-33FF-A4EC-7D35DC71B21F
 -  Functions: 2395
 -  Symbols:   459
--  CStrings:  7123
+-  CStrings:  7704
++  UUID: 8F35235B-4561-3560-840E-0705B74FB79A
 +  Functions: 2849
 +  Symbols:   477
-+  CStrings:  7787
++  CStrings:  8424
  
 Symbols:
 + _CUPrintNSError

@@ -52,11 +52,15 @@
    __DATA_DIRTY.__bss: 0x48
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DB1AF75-B357-3885-9DF3-C6868AFFE39F
++  UUID: 4D4CBE34-05BD-3F19-B0A2-0125A3C396BA
    Functions: 68
    Symbols:   410
--  CStrings:  243
-+  CStrings:  246
+-  CStrings:  267
++  CStrings:  270
  
 Symbols:
 + _AXLogUI

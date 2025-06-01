@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F16641E4-9111-35C0-81AB-FD070BB640F0
 -  Functions: 431
 -  Symbols:   1868
--  CStrings:  1017
+-  CStrings:  1190
++  UUID: 5D297492-2AE2-3A75-957D-640819DF7A35
 +  Functions: 444
 +  Symbols:   1919
-+  CStrings:  1091
++  CStrings:  1311
  
 Symbols:
 + -[CRXFAppClipCode copyWithZone:]

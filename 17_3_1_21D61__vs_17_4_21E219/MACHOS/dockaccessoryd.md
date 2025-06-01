@@ -124,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B107574-DB64-341B-9C37-97EB15D61B7A
 -  Functions: 6727
 -  Symbols:   1160
--  CStrings:  6861
+-  CStrings:  7616
++  UUID: 06F44BAE-12ED-37DC-A2D0-99EDC4D06A28
 +  Functions: 6866
 +  Symbols:   1172
-+  CStrings:  6948
++  CStrings:  7704
  
 Symbols:
 + _$s11DockKitCore014whitelistedForaB0SbyF

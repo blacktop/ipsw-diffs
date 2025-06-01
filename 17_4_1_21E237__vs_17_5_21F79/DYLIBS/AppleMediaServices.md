@@ -67,7 +67,6 @@
    __DATA_CONST.__objc_arraydata: 0x508
 -  __AUTH_CONST.__const: 0x242a8
 +  __AUTH_CONST.__const: 0x24418
-   __AUTH_CONST.__auth_ptr: 0x188
    __AUTH_CONST.__objc_const: 0xd2e0
 -  __AUTH_CONST.__cfstring: 0x1da20
 -  __AUTH_CONST.__objc_intobj: 0xcd8
@@ -110,12 +109,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3CB24D26-30AE-3E37-8489-2CB17B4DE1A2
 -  Functions: 21069
 -  Symbols:   50132
--  CStrings:  18445
+-  CStrings:  22238
++  UUID: 7CF6FCD4-148C-3672-AA6C-A4167BD2BF0D
 +  Functions: 21107
 +  Symbols:   50207
-+  CStrings:  18488
++  CStrings:  22288
  
 Symbols:
 + +[AMSBagNetworkTask _bagDataByApplyingOverridesToBagData:overrides:ignoredKeys:inserts:]

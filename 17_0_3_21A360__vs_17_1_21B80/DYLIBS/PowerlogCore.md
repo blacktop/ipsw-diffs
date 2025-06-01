@@ -60,12 +60,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 90D2F9FD-4156-31C8-AC65-BD7575FFEFA4
 -  Functions: 4448
 -  Symbols:   14488
--  CStrings:  14390
+-  CStrings:  24242
++  UUID: 654C5AB1-8C32-3D8A-9068-B64263E828F6
 +  Functions: 4473
 +  Symbols:   14552
-+  CStrings:  14532
++  CStrings:  24495
  
 Symbols:
 + +[PLModelingUtilities isAppleVision]

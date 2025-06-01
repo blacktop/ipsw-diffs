@@ -37,11 +37,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/SidecarCore.framework/SidecarCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7859F8F1-C633-3919-A52B-65E1B0B28562
++  UUID: 6BB2E7D4-7319-3409-936A-C0BBD9CE3DC1
    Functions: 53
    Symbols:   238
--  CStrings:  163
-+  CStrings:  164
+-  CStrings:  164
++  CStrings:  165
  
 Symbols:
 + ___block_literal_global.157

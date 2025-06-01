@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 072274DB-6A53-3B7B-B9B3-55EAC4D5BAB3
 -  Functions: 776
 -  Symbols:   1388
--  CStrings:  634
+-  CStrings:  745
++  UUID: 8B547065-C395-35DC-A5BE-9E386A7A3CC3
 +  Functions: 777
 +  Symbols:   1395
-+  CStrings:  701
++  CStrings:  812
  
 Symbols:
 + _inRestore

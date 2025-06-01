@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_arrayobj: 0x108
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x568
 +  __AUTH_CONST.__const: 0x60
 +  __AUTH_CONST.__auth_got: 0x578
@@ -77,12 +76,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F92D48FC-1264-30E7-8C6A-E15955818822
 -  Functions: 1752
 -  Symbols:   5705
--  CStrings:  3036
+-  CStrings:  3672
++  UUID: E26678B3-F726-3A3F-8A57-60833B852559
 +  Functions: 1789
 +  Symbols:   5829
-+  CStrings:  3085
++  CStrings:  3728
  
 Symbols:
 + +[IXAppInstallCoordinator removabilityDataWithChangeClock:error:]

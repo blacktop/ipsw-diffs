@@ -28,11 +28,15 @@
    __AUTH_CONST.__cfstring: 0xc60
    __AUTH_CONST.__objc_const: 0x780
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CCD8EE1-6583-34DA-8235-761FFA44AC10
++  UUID: 694467E4-5D18-32DB-9933-A06740E1E363
    Functions: 575
    Symbols:   2518
--  CStrings:  1542
-+  CStrings:  1543
+-  CStrings:  1641
++  CStrings:  1642
  
 CStrings:
 + "setADPState:"

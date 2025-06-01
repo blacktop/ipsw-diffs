@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7351F184-64A2-3CEA-9F4A-8CC075B86A86
 -  Functions: 756
 -  Symbols:   3442
--  CStrings:  1477
+-  CStrings:  1641
++  UUID: 7B4F3230-CAC6-3799-AED7-BB6F6B83DCD2
 +  Functions: 781
 +  Symbols:   3534
-+  CStrings:  1510
++  CStrings:  1680
  
 Symbols:
 + +[SWDatastore emptyDatastore]

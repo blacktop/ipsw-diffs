@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E954FB2-C602-38CA-A3A3-49C7AD3B6449
 -  Functions: 1338
 -  Symbols:   632
--  CStrings:  2748
+-  CStrings:  3099
++  UUID: B8663623-6E15-3ECD-BFA5-20A9BAC1C263
 +  Functions: 1339
 +  Symbols:   633
-+  CStrings:  2758
++  CStrings:  3110
  
 Symbols:
 + _GAXProfileShowsUserConfirmationPromptsAndBanners

@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/ProtectedCloudStorage
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7739EE8D-C3F0-3F17-931E-6DC53CC7B848
 -  Functions: 1063
 -  Symbols:   3710
--  CStrings:  1461
+-  CStrings:  1773
++  UUID: 0A272775-84A1-3053-B7C7-DFBC761108BB
 +  Functions: 1099
 +  Symbols:   3832
-+  CStrings:  1509
++  CStrings:  1830
  
 Symbols:
 + +[TransparencySettings cfPrefsJson]

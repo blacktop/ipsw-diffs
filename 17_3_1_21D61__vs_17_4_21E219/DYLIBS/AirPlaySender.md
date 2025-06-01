@@ -43,7 +43,6 @@
 +  __AUTH_CONST.__cfstring: 0x10080
 +  __AUTH_CONST.__const: 0x7980
    __AUTH_CONST.__objc_const: 0x1e8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x25a0
 -  __AUTH.__data: 0x588
 +  __AUTH_CONST.__auth_got: 0x2608
@@ -65,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69971C6A-814B-33A1-907D-FF3D9F497915
 -  Functions: 3039
 -  Symbols:   9975
--  CStrings:  8919
+-  CStrings:  10943
++  UUID: AD961F52-D8E6-3955-BF47-B2A38F6E56DD
 +  Functions: 3072
 +  Symbols:   10055
-+  CStrings:  8989
++  CStrings:  11041
  
 Symbols:
 + _APCarPlay_FetchSessionFeatureKeysWithIdentifier

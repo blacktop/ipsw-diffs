@@ -37,11 +37,13 @@
    - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32F37754-7A5D-30F0-9F72-B10A6A9191E8
 -  Functions: 33
++  UUID: B7254944-3528-3E61-B532-E8DB4DE31B5F
 +  Functions: 39
    Symbols:   76
--  CStrings:  427
-+  CStrings:  430
+-  CStrings:  742
++  CStrings:  745
  
 CStrings:
 + "accountRatchet"

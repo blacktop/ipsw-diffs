@@ -43,12 +43,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A8B50B61-9CA4-3EAC-95F4-EFE3B8620467
 -  Functions: 911
 -  Symbols:   3068
--  CStrings:  1397
+-  CStrings:  1535
++  UUID: 8D823020-08E4-3CFC-B2EC-318CC5E6BA2D
 +  Functions: 913
 +  Symbols:   3073
-+  CStrings:  1399
++  CStrings:  1537
  
 Symbols:
 + -[BMStreamDatastoreBase newEnumeratorFromBookmark:options:error:]

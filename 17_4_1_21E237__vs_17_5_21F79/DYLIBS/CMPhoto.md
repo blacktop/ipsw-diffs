@@ -30,9 +30,9 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0xaa0
 
+   __DATA_CONST.__objc_superrefs: 0x20
    __DATA_CONST.__objc_arraydata: 0x20
    __AUTH_CONST.__cfstring: 0x4d80
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__const: 0x7f8
 +  __AUTH_CONST.__const: 0x5a0
    __AUTH_CONST.__objc_intobj: 0xf0
@@ -53,12 +53,15 @@
    __DATA_DIRTY.__objc_data: 0xf0
    __DATA_DIRTY.__data: 0x810
 
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0A954E32-E63B-3A7E-923B-E4823740CF37
++  UUID: 038FC8B6-AE3D-3C45-8DA7-6C356E0A1774
    Functions: 2163
 -  Symbols:   6402
 +  Symbols:   6407
-   CStrings:  1165
+   CStrings:  1785
  
 Symbols:
 + _CMPhotoAllowExperimentalCodecsOverride

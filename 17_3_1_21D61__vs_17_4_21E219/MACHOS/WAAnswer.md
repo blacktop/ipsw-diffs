@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x300
 
+   - /System/Library/PrivateFrameworks/SiriUI.framework/SiriUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7AE522A-061C-3928-9D70-B8B3DA5C5C83
++  UUID: D77E4DC5-D638-37D3-8626-B986AEEAF019
    Functions: 49
    Symbols:   110
--  CStrings:  365
-+  CStrings:  366
+-  CStrings:  372
++  CStrings:  373
  
 CStrings:
 + "T@\"NSString\",?,R,C"

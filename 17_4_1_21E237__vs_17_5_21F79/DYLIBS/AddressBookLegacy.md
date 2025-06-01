@@ -43,11 +43,15 @@
    __DATA_DIRTY.__objc_data: 0x4b0
    __DATA_DIRTY.__data: 0x130
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 407EA462-B89E-3B76-802F-50FE3431F5AA
++  UUID: 9177A6DE-1873-3D56-98D7-A098DF85FB67
    Functions: 2319
    Symbols:   6648
--  CStrings:  4115
-+  CStrings:  4117
+-  CStrings:  5786
++  CStrings:  5789
  
 CStrings:
 + "ABCDBContextRef ABCDBContextCreateWithPathAndAddressBook(CFStringRef, ABCAddressBookRef, void *, _Bool)"

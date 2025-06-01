@@ -29,7 +29,11 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 84A3F4D5-4FB3-3726-899B-65783319ED27
++  UUID: B3F63126-198C-389D-BF75-69BF2F21CB5E
    Functions: 1
    Symbols:   25
 -  CStrings:  71

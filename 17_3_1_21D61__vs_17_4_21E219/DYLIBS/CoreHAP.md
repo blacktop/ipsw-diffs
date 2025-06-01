@@ -57,7 +57,6 @@
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x40
    __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xac0
 -  __AUTH.__objc_data: 0x51e0
 -  __DATA.__objc_protorefs: 0xc0
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 93A3DBB6-199A-37F1-AA45-532CDA8F791C
 -  Functions: 7412
 -  Symbols:   23991
--  CStrings:  10948
+-  CStrings:  12639
++  UUID: EE4FB855-4EC7-3B46-BD99-175D25DB4EFE
 +  Functions: 7474
 +  Symbols:   24174
-+  CStrings:  11047
++  CStrings:  12742
  
 Symbols:
 + +[HAPMetadata currentMetadataHook]

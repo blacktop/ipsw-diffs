@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: EBBC42A5-987C-3D7A-9A4B-2C7C10A50725
 -  Functions: 188
 -  Symbols:   246
--  CStrings:  449
+-  CStrings:  505
++  UUID: 0EA0A662-7682-3A0D-B29E-89C659299E8C
 +  Functions: 191
 +  Symbols:   245
-+  CStrings:  453
++  CStrings:  509
  
 Symbols:
 - _strdup

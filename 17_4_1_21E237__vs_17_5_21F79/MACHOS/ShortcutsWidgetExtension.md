@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C2F4A4C3-C33E-35DB-BA2C-F83F4969B84E
++  UUID: 492EE63D-E501-3C43-8252-CE1ABE76656D
+   Functions: 780
+   Symbols:   163
+   CStrings:  137
+
 ```

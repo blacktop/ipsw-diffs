@@ -25,14 +25,18 @@
 -  __AUTH_CONST.__cfstring: 0xfa00
 +  __AUTH_CONST.__cfstring: 0xfa20
    __AUTH_CONST.__objc_dictobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_const: 0x7d8
+   __AUTH_CONST.__objc_arrayobj: 0x1f8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78A14C3C-6BC2-310D-AD00-A4474B8EE231
++  UUID: D47838CF-3DB0-3C5E-8B9D-66A203B4A0EF
    Functions: 983
    Symbols:   4003
--  CStrings:  2627
-+  CStrings:  2628
+-  CStrings:  4627
++  CStrings:  4629
  
 Symbols:
 + ___block_literal_global.513

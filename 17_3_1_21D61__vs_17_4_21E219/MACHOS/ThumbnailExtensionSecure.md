@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/QuickLookThumbnailGeneration.framework/QuickLookThumbnailGeneration
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 92543B53-649A-31A2-923D-4251C6AABAA8
 -  Functions: 29
 -  Symbols:   113
--  CStrings:  89
+-  CStrings:  91
++  UUID: 560289BA-A855-373F-9B3A-0693B88D4D0C
 +  Functions: 42
 +  Symbols:   127
-+  CStrings:  105
++  CStrings:  107
  
 Symbols:
 + _AVMediaTypeVideo

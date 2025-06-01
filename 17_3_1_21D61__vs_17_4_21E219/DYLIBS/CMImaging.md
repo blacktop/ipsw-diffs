@@ -49,7 +49,6 @@
 -  __AUTH_CONST.__cfstring: 0x19a0
 -  __AUTH_CONST.__objc_const: 0x480
 -  __AUTH_CONST.__const: 0xa0
--  __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__objc_intobj: 0x60
 +  __DATA_CONST.__objc_const: 0x138b0
 +  __DATA_CONST.__objc_selrefs: 0x22f8
@@ -62,7 +61,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x90
 +  __AUTH_CONST.__objc_const: 0x4c8
 +  __AUTH_CONST.__const: 0x340
-+  __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x7d8
 +  __AUTH_CONST.__auth_got: 0x8b0
@@ -93,12 +91,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A93CFE2D-7954-3178-A3A1-2DBE37D02F0B
 -  Functions: 1433
 -  Symbols:   5405
--  CStrings:  4932
+-  CStrings:  5137
++  UUID: B58BE7CC-4FE0-32FD-B793-E65A78F4A4C3
 +  Functions: 2395
 +  Symbols:   7493
-+  CStrings:  5314
++  CStrings:  5540
  
 Symbols:
 + +[CMIFFT CMIFFT1DTransform:figMetalContext:width:layout:precision:]

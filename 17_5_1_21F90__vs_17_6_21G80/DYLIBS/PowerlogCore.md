@@ -36,11 +36,15 @@
    __AUTH.__objc_data: 0x410
    __DATA.__objc_ivar: 0x604
 
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 82B2F678-1CF9-36A6-8514-52E5E5101F06
++  UUID: 22131103-314F-3D4E-B811-403235B32B61
    Functions: 4572
    Symbols:   14809
--  CStrings:  14891
-+  CStrings:  14890
+-  CStrings:  25148
++  CStrings:  25146
  
 Symbols:
 + ___27-[PLArchiveManager migrate]_block_invoke.415

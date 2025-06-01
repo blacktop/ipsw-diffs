@@ -57,11 +57,12 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DD3B06B9-6E46-3502-A1CD-31FA4F86EF4A
 -  Functions: 1054
++  UUID: AF4784C0-E964-38D9-ACFB-E170CF4CA106
 +  Functions: 1053
    Symbols:   434
--  CStrings:  2569
-+  CStrings:  2573
+   CStrings:  3059
  
 CStrings:
 + "T@\"IDSBaseMessage\",?,R"

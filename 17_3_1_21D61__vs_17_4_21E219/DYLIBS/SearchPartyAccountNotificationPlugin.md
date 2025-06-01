@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1ADB898E-A302-3C08-B1AB-838D88FC296E
 -  Functions: 32
 -  Symbols:   63
--  CStrings:  236
+-  CStrings:  241
++  UUID: 4CD835EA-597D-387F-843F-CEE25A8435AD
 +  Functions: 33
 +  Symbols:   69
-+  CStrings:  237
++  CStrings:  242
  
 Symbols:
 + _dispatch_group_create

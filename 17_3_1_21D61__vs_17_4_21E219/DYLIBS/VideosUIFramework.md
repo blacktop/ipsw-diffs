@@ -62,12 +62,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 01C8F431-037D-3790-BA31-3506D01D030F
 -  Functions: 570
 -  Symbols:   2388
--  CStrings:  941
+-  CStrings:  1422
++  UUID: CF26435D-0591-3E0E-95F6-931509D24AC9
 +  Functions: 594
 +  Symbols:   2469
-+  CStrings:  995
++  CStrings:  1511
  
 Symbols:
 + +[OrdinalListCellAccessibility _accessibilityPerformValidations:]

@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x2a0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E02E5029-8D3E-35DC-AD99-BA9D106882B9
++  UUID: 63B4762B-D490-3245-A6F6-F4BE5A153FF7
    Functions: 76
    Symbols:   80
--  CStrings:  272
-+  CStrings:  276
+-  CStrings:  290
++  CStrings:  294
  
 CStrings:
 + "@\"NSObject<STRootViewModelCoordinator>\"16@0:8"

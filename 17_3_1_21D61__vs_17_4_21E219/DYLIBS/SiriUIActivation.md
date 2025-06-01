@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4194E069-EB7A-31B6-B395-952F3F0A0F9F
 -  Functions: 478
 -  Symbols:   2069
--  CStrings:  1391
+-  CStrings:  1440
++  UUID: B25DBE73-0C36-344D-9A66-5CA0BE0240A5
 +  Functions: 479
 +  Symbols:   2076
-+  CStrings:  1397
++  CStrings:  1446
  
 Symbols:
 + -[SiriPresentationViewController siriViewControllerDidReactivateFromFlexibleFollowups]

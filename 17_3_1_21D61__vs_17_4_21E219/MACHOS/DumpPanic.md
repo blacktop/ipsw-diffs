@@ -57,12 +57,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 772A25AF-0176-334B-9F28-A9C32C362EF6
 -  Functions: 473
 -  Symbols:   278
--  CStrings:  1071
+-  CStrings:  1361
++  UUID: 9C7BCBF6-1B4E-303F-9FF5-4C8C2B620569
 +  Functions: 477
 +  Symbols:   279
-+  CStrings:  1085
++  CStrings:  1382
  
 Symbols:
 + _malloc

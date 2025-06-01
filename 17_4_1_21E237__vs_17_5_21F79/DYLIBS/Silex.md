@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x300
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2aa8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x7c0
 -  __AUTH.__objc_data: 0x35c0
 +  __AUTH.__objc_data: 0x3160
@@ -65,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 98785BD6-7ECF-368E-80B3-BFD1C6F4390E
 -  Functions: 8253
 -  Symbols:   33893
--  CStrings:  13030
+-  CStrings:  14212
++  UUID: D35446E8-79CC-3BEC-8EFD-25794EFE6F30
 +  Functions: 8257
 +  Symbols:   33904
-+  CStrings:  13036
++  CStrings:  14220
  
 Symbols:
 + -[SXDocumentController allResourcesForImageIdentifier:]

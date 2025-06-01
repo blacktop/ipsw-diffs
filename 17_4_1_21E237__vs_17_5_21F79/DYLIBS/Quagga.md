@@ -33,7 +33,6 @@
 +  __AUTH_CONST.__const: 0x24f8
 +  __AUTH_CONST.__cfstring: 0x3880
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xde8
 +  __AUTH_CONST.__auth_got: 0xdf0
    __DATA.__objc_ivar: 0x20
@@ -45,13 +44,16 @@
    __DATA_DIRTY.__objc_data: 0xf0
    __DATA_DIRTY.__data: 0x2f8
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libiconv.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EBFCB3E2-54BB-323A-BDD4-1239D9B1F111
++  UUID: 501924D1-72B2-3464-8A19-00C8FD905584
    Functions: 2839
 -  Symbols:   803
--  CStrings:  1486
+-  CStrings:  1937
 +  Symbols:   804
-+  CStrings:  1488
++  CStrings:  1940
  
 Symbols:
 + _dispatch_time

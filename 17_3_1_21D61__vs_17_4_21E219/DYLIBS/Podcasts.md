@@ -43,13 +43,16 @@
    __DATA.__data: 0x258
    __DATA.__bss: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 475F4560-C601-3933-8FD2-F1A8E9B86432
++  UUID: D4600FA2-8C05-3E5E-BC62-AA54B72AD450
    Functions: 277
 -  Symbols:   272
--  CStrings:  687
+-  CStrings:  753
 +  Symbols:   273
-+  CStrings:  690
++  CStrings:  756
  
 Symbols:
 + __MTLogCategoryDefault

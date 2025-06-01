@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B002DC9C-8D08-33B3-AE68-5BB9EC3085FF
 -  Functions: 424
 -  Symbols:   1843
--  CStrings:  843
+-  CStrings:  907
++  UUID: CB06C753-A278-3349-A2CF-AEF1E23FBA4E
 +  Functions: 429
 +  Symbols:   1861
-+  CStrings:  858
++  CStrings:  924
  
 Symbols:
 + -[PRUIModalEntryPointAmbientEditingSwitcherWithActiveConfiguration initWithActiveConfiguration:transitionOverlayRenderId:transitionOverlayContextId:]

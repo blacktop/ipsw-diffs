@@ -11,6 +11,15 @@
    __TEXT.__auth_stubs: 0x8c0
    __TEXT.__const: 0x253
    __TEXT.__gcc_except_tab: 0x89c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F07ECFFA-23D1-3CE6-BA6D-E23F0705488D
++  UUID: 43CC969F-0B80-3E75-82F1-F4DE76B0A437
+   Functions: 115
+   Symbols:   462
+   CStrings:  510
 Symbols:
 + __ZNKSt3__16vectorI10ActionItemNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
 + __ZNKSt3__16vectorI11SegmentInfoNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev

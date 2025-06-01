@@ -15,4 +15,13 @@
    __TEXT.__unwind_info: 0x228
    __TEXT.__objc_classname: 0x15f
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C31C150C-FFD7-3E70-9122-0B99F4BB828B
++  UUID: E3CC53F4-5A91-30C5-A3CB-DE9A4CD90C6F
+   Functions: 202
+   Symbols:   747
+   CStrings:  597
+
 ```

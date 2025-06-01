@@ -44,11 +44,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C87E60E-C85A-3078-B03A-88449B55AACA
 -  Functions: 11926
 -  Symbols:   40371
++  UUID: 203FFDD0-FD40-37E9-9FDF-BDC062F009B9
 +  Functions: 11928
 +  Symbols:   40375
-   CStrings:  20539
+   CStrings:  23782
  
 Symbols:
 + -[MKIncidentDetailContentView reset]

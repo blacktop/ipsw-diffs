@@ -22,11 +22,15 @@
    __AUTH_CONST.__objc_const: 0xae8
    __AUTH_CONST.__cfstring: 0x1080
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6914215E-7741-3B7F-ADA8-1B4F2064EB10
++  UUID: 8B9E129A-2610-35A8-9216-D2E223B04C79
    Functions: 1032
    Symbols:   3187
--  CStrings:  2312
-+  CStrings:  2316
+-  CStrings:  2444
++  CStrings:  2448
  
 CStrings:
 + "TB,GareWritableHeapsEnabled,SsetWritableHeapsEnabled:"

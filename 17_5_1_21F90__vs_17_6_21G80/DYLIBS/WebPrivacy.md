@@ -40,13 +40,16 @@
    __AUTH_CONST.__auth_got: 0x430
    __AUTH.__objc_data: 0x190
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28B039CC-5440-330E-AC65-8BBAE7800703
++  UUID: 466FBB68-096A-3CB2-891C-BCAAB68A0839
    Functions: 587
 -  Symbols:   1849
--  CStrings:  337
+-  CStrings:  369
 +  Symbols:   1848
-+  CStrings:  335
++  CStrings:  366
  
 Symbols:
 - _objc_msgSend$stringByAppendingString:

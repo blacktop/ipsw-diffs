@@ -68,7 +68,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x1ac0
 -  __DATA_CONST.__objc_arraydata: 0x170
 -  __AUTH_CONST.__const: 0x3078
--  __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__objc_const: 0xce0
 -  __AUTH_CONST.__cfstring: 0x2ac0
 -  __AUTH_CONST.__objc_intobj: 0x4e0
@@ -79,7 +78,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x1a8
 +  __DATA_CONST.__objc_arraydata: 0x178
 +  __AUTH_CONST.__const: 0x4728
-+  __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__objc_const: 0x19c8
 +  __AUTH_CONST.__cfstring: 0x4000
 +  __AUTH_CONST.__objc_intobj: 0x540
@@ -138,12 +136,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15BA5714-0FFC-3877-9308-541DEDA64352
 -  Functions: 2561
 -  Symbols:   3570
--  CStrings:  2234
+-  CStrings:  2576
++  UUID: 1AB717C7-B5F9-31D3-9C93-C8FCD32E4DA2
 +  Functions: 3618
 +  Symbols:   5283
-+  CStrings:  3245
++  CStrings:  3757
  
 Symbols:
 + +[CESRDictionaryLog initialize]

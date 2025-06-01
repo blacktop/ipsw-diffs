@@ -38,11 +38,13 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB444CF5-1389-3D34-834B-DF24079D49F4
 -  Functions: 47
++  UUID: 475F4BB4-2893-3DF8-B1B0-0DEABF5D3478
 +  Functions: 49
    Symbols:   69
--  CStrings:  142
-+  CStrings:  147
+-  CStrings:  183
++  CStrings:  190
  
 CStrings:
 + "LVMAllowAllLocales"

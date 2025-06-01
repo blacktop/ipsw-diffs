@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78931F4A-389A-3B77-8995-7FF5EB5ABB2F
 -  Functions: 244
++  UUID: E9115137-BCE1-37D5-AD56-DD6747556794
 +  Functions: 246
    Symbols:   142
--  CStrings:  758
-+  CStrings:  773
+-  CStrings:  808
++  CStrings:  823
  
 CStrings:
 + "-[RPControlCenterAngelProxy showReactionsTipForApplication:bundleID:]"

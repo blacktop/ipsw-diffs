@@ -27,12 +27,15 @@
    __DATA.__objc_superrefs: 0x50
    __DATA.__objc_ivar: 0x18c
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F1D9BCF-53CD-3826-8007-7FA7498E23CA
++  UUID: B7924835-0F2A-3F4C-A605-C685E1B349D2
    Functions: 196
 -  Symbols:   118
 +  Symbols:   119
-   CStrings:  971
+   CStrings:  1018
  
 Symbols:
 + _CGRectIsEmpty

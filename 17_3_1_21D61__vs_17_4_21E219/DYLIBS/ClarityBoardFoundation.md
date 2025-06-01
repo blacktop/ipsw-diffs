@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__cfstring: 0x5a0
    __AUTH_CONST.__const: 0x2b0
    __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH_CONST.__auth_got: 0x588
    __AUTH.__objc_data: 0xf0
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B556B2BC-3BA6-34A8-9A02-BD25F3BF5DA5
 -  Functions: 261
 -  Symbols:   398
--  CStrings:  141
+-  CStrings:  183
++  UUID: 4F448D6D-A730-36E3-8F44-C36248675524
 +  Functions: 267
 +  Symbols:   403
-+  CStrings:  144
++  CStrings:  189
  
 Symbols:
 + _CLBDidDisableSecureModeNotification

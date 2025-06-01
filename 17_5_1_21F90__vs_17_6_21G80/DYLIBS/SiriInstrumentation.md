@@ -57,12 +57,11 @@
 -  __DATA_CONST.__objc_superrefs: 0x4e80
 -  __AUTH_CONST.__const: 0xb70
 -  __AUTH_CONST.__cfstring: 0x4dd00
+-  __AUTH_CONST.__objc_const: 0x2c20
 +  __DATA_CONST.__objc_classrefs: 0x3360
 +  __DATA_CONST.__objc_superrefs: 0x4eb0
 +  __AUTH_CONST.__const: 0xc10
 +  __AUTH_CONST.__cfstring: 0x4e1c0
-   __AUTH_CONST.__auth_ptr: 0x58
--  __AUTH_CONST.__objc_const: 0x2c20
 +  __AUTH_CONST.__objc_const: 0x2d88
    __AUTH_CONST.__objc_intobj: 0xa38
    __AUTH_CONST.__auth_got: 0x7e8
@@ -81,12 +80,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6A2B4E86-B1BA-3A31-B190-412759BB32EA
 -  Functions: 52092
 -  Symbols:   129774
--  CStrings:  46158
+-  CStrings:  56118
++  UUID: 762CC9A1-CAC2-3BEE-AB64-92A3402834A6
 +  Functions: 52244
 +  Symbols:   130129
-+  CStrings:  46282
++  CStrings:  56280
  
 Symbols:
 + -[FLOWSchemaFLOWClientEvent deleteLocationAccessPermissionPromptContext]

@@ -47,11 +47,13 @@
    - /System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 336C1876-C09D-39C2-84B8-DFE4F88A06C6
++  UUID: CB3F9F49-8843-3EAB-A71D-974287367743
    Functions: 69
 -  Symbols:   107
--  CStrings:  306
+-  CStrings:  343
 +  Symbols:   109
-+  CStrings:  312
++  CStrings:  351
  
 Symbols:
 + _OBJC_CLASS_$_NRPairedDeviceRegistry

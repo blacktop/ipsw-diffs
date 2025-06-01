@@ -73,7 +73,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_intobj: 0x3f0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0xc98
 -  __AUTH.__objc_data: 0x1320
 -  __AUTH.__data: 0x620
@@ -83,7 +82,6 @@
 -  __DATA.__objc_ivar: 0x8ac
 -  __DATA.__data: 0x1280
 -  __DATA.__bss: 0x13e0
-+  __AUTH_CONST.__auth_ptr: 0x88
 +  __AUTH_CONST.__auth_got: 0xca0
 +  __AUTH.__objc_data: 0x12c8
 +  __AUTH.__data: 0x408
@@ -102,12 +100,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 81862410-9571-3F76-B892-0CE562A9AB4B
 -  Functions: 4461
 -  Symbols:   11035
--  CStrings:  4614
+-  CStrings:  5369
++  UUID: 5CD0B2C3-E203-384E-819F-6A0470D3433E
 +  Functions: 4619
 +  Symbols:   10985
-+  CStrings:  4717
++  CStrings:  5432
  
 Symbols:
 + +[TPSAnalyticsEventSharedTipDisplayed eventWithTipID:correlationID:collectionID:variantID:message:isEligible:]

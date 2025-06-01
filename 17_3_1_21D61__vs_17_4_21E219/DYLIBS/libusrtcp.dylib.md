@@ -36,8 +36,11 @@
    __DATA.__bss: 0x6a0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/Frameworks/Network.framework/Network
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4B37182-1603-3479-9813-477D2F03B9FE
++  UUID: 05D8BD8D-ED03-3FB4-BB8F-D304689ADE43
    Functions: 314
 -  Symbols:   863
 -  CStrings:  884

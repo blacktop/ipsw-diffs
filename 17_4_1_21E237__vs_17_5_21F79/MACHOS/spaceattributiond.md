@@ -58,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA2994EB-01E1-3334-A756-A0918EF6732B
 -  Functions: 975
 -  Symbols:   207
--  CStrings:  1784
+-  CStrings:  2034
++  UUID: 3926927B-0CF1-385C-89C1-9F7259EB9893
 +  Functions: 987
 +  Symbols:   208
-+  CStrings:  1807
++  CStrings:  2066
  
 Symbols:
 + _OBJC_CLASS_$_NSConditionLock

@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AA4FAA27-194D-3289-ADCC-314EB15FF2BF
++  UUID: 56E9FD6E-0CFD-384B-8D8E-940D83198E8F
+   Functions: 4
+   Symbols:   41
+   CStrings:  40
+
 ```

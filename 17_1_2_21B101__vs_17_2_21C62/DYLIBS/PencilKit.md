@@ -46,14 +46,17 @@
 +  __DATA_CONST.__objc_selrefs: 0xf218
    __DATA_CONST.__objc_arraydata: 0x768
    __AUTH_CONST.__const: 0x4b28
-   __AUTH_CONST.__auth_ptr: 0x18
+   __AUTH_CONST.__objc_const: 0x8a78
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CC8698A1-B859-3D03-BDD7-435B1E8F6BD5
++  UUID: 0B2A7A50-F181-3167-913D-183A53DE3153
    Functions: 13822
 -  Symbols:   43709
 +  Symbols:   43707
-   CStrings:  16748
+   CStrings:  18250
  
 Symbols:
 + -[PKTiledView _externalElementsSelectionDidChange]

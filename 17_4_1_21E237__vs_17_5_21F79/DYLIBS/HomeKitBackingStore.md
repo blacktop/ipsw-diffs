@@ -63,12 +63,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C2C4CDBE-676A-3C5E-B215-0706D9550394
 -  Functions: 2077
 -  Symbols:   7680
--  CStrings:  4201
+-  CStrings:  4779
++  UUID: CF0DED0A-F16D-3DBA-89E5-6B59DEDEA991
 +  Functions: 2068
 +  Symbols:   7651
-+  CStrings:  4179
++  CStrings:  4752
  
 Symbols:
 + -[NSError(HMB) hmbIsCKZoneDisabledError]

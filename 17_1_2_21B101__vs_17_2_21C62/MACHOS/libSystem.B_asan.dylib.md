@@ -21,8 +21,11 @@
    __DATA_CONST.__const: 0xe0
    __DATA.__data: 0x8
 
+   - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
    - @rpath/libclang_rt.asan_ios_dynamic.dylib
+-  UUID: EFD91FD9-4D5E-323D-BD91-5CD170B151E6
++  UUID: B7670B89-8EFC-3C7C-9DDB-63F1145D53CC
    Functions: 9
 -  Symbols:   96
 +  Symbols:   97

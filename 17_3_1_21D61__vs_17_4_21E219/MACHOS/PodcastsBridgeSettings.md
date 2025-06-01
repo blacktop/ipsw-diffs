@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1295F01E-26AC-3F0A-B8E6-812BCF67E8A0
 -  Functions: 268
 -  Symbols:   268
--  CStrings:  875
+-  CStrings:  1001
++  UUID: D476AA0F-84B4-35AA-BC56-7AB5F1DE6FDF
 +  Functions: 269
 +  Symbols:   269
-+  CStrings:  878
++  CStrings:  1005
  
 Symbols:
 + _kLastUnfollowedDate

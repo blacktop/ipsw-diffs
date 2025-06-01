@@ -27,11 +27,15 @@
    __DATA.__objc_superrefs: 0x88
    __DATA.__objc_ivar: 0x140
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ADDCB78C-27A7-3743-9F49-0C29B126A3F4
++  UUID: C775E25B-000F-3759-A490-37F0E2E1CD42
    Functions: 647
    Symbols:   309
--  CStrings:  1402
-+  CStrings:  1403
+-  CStrings:  1497
++  CStrings:  1498
  
 CStrings:
 + "rcs_allAssetsAreMissing"

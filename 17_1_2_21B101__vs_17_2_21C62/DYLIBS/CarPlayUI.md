@@ -61,7 +61,6 @@
 +  __AUTH_CONST.__cfstring: 0xbe0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0xa8
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x428
 -  __AUTH.__objc_data: 0x1238
 -  __AUTH.__data: 0xe8
@@ -125,12 +124,14 @@
 -  - /usr/lib/swift/libswiftXPC.dylib
 -  - /usr/lib/swift/libswiftos.dylib
 -  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B354514-764B-3E7A-85FE-A6D1CD944FEC
 -  Functions: 1024
 -  Symbols:   4151
--  CStrings:  1982
+-  CStrings:  2076
++  UUID: 1942FABD-8C16-351A-B9C6-760CF880C1C4
 +  Functions: 975
 +  Symbols:   3827
-+  CStrings:  1970
++  CStrings:  2065
  
 Symbols:
 + -[CPUINowPlayingView audioBadgeConstraints]

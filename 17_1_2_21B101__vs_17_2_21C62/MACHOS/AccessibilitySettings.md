@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 079978C2-ED67-30A3-ACA7-2358F5F2A19B
 -  Functions: 7163
 -  Symbols:   17650
--  CStrings:  11745
+-  CStrings:  14705
++  UUID: E434BCD3-0127-3044-89DF-69CF6F5E879D
 +  Functions: 7188
 +  Symbols:   17705
-+  CStrings:  11804
++  CStrings:  14796
  
 Symbols:
 + -[ASTBluetoothDevicesController axDeviceControllerType]

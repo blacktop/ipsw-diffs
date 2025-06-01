@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F386CEB0-59A9-36EF-A3B3-E2AAC199F1F5
 -  Functions: 1045
++  UUID: B89ADB94-BEF1-32BF-9539-4CF5D1D52FCE
 +  Functions: 1047
    Symbols:   561
--  CStrings:  2171
-+  CStrings:  2178
+-  CStrings:  2599
++  CStrings:  2607
  
 CStrings:
 + "Device was unlocked, and system wants Single App Mode or App self-lock mode. App installation is in progress"

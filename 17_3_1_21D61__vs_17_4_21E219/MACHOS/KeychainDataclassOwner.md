@@ -29,7 +29,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16450BFD-AF29-398F-AEF7-1E90656AA294
++  UUID: C06F8198-389C-395A-BAC6-5D9B433B4B31
    Functions: 6
    Symbols:   33
 -  CStrings:  74

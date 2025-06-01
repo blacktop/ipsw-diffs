@@ -23,11 +23,15 @@
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x110
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 222210FD-EB88-3DE1-A85E-B81FAB7EDECC
++  UUID: A68C06A9-28FA-3D90-9641-68D190C62AC6
    Functions: 58
    Symbols:   87
--  CStrings:  234
-+  CStrings:  235
+-  CStrings:  244
++  CStrings:  245
  
 CStrings:
 + "Loading IO element %@ - transport: %@"

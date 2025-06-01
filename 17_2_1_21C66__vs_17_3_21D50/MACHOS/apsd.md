@@ -54,11 +54,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7CD6B639-AEF8-3891-99F8-23EBEF147B8F
 -  Functions: 4602
++  UUID: 1346649E-EA0D-310B-84E7-7E5FCA729823
 +  Functions: 4603
    Symbols:   751
--  CStrings:  7051
-+  CStrings:  7053
+-  CStrings:  8051
++  CStrings:  8053
  
 CStrings:
 + "Loaded %ld connection servers for user %@ environment %@"

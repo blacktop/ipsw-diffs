@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47F83997-7CF8-3F55-8F9A-AC2BF729EB1F
 -  Functions: 598
 -  Symbols:   1968
--  CStrings:  1077
+-  CStrings:  1371
++  UUID: 4CA86AAE-4440-3F26-9821-4054CB6BCD4C
 +  Functions: 613
 +  Symbols:   2004
-+  CStrings:  1109
++  CStrings:  1425
  
 Symbols:
 + -[MIInstallOptions installIntent]

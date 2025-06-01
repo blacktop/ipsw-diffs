@@ -23,7 +23,11 @@
    __DATA.__bss: 0x1380
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BB9E1789-7753-3EA8-B3F2-741A910A22DE
++  UUID: 13C2AA6E-BC9E-3803-AD37-4731A059BA5D
    Functions: 978
    Symbols:   150
 -  CStrings:  1080

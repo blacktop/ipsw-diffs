@@ -82,7 +82,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x50
--  __AUTH_CONST.__auth_ptr: 0x710
 -  __AUTH_CONST.__auth_got: 0x2048
 -  __AUTH.__objc_data: 0x3d58
 -  __AUTH.__data: 0x2710
@@ -98,7 +97,6 @@
 -  __DATA_DIRTY.__data: 0x9028
 -  __DATA_DIRTY.__bss: 0x7d38
 -  __DATA_DIRTY.__common: 0x80
-+  __AUTH_CONST.__auth_ptr: 0x7d8
 +  __AUTH_CONST.__auth_got: 0x2130
 +  __AUTH.__objc_data: 0x3fe0
 +  __AUTH.__data: 0x2ca0
@@ -121,12 +119,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 30997BC0-6146-38E2-8B2E-A2E6E341D0D3
 -  Functions: 19726
 -  Symbols:   15040
--  CStrings:  7737
+-  CStrings:  8948
++  UUID: A72E6B85-DB09-3569-8CF8-34B8EA420EC9
 +  Functions: 22105
 +  Symbols:   15799
-+  CStrings:  8107
++  CStrings:  9344
  
 Symbols:
 + +[MTConstants alignmentAssetURL]

@@ -37,7 +37,6 @@
    __AUTH_CONST.__cfstring: 0x40
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__const: 0x118
-
    __AUTH_CONST.__auth_got: 0x458
    __AUTH.__objc_data: 0x360
    __AUTH.__data: 0x130
@@ -66,11 +65,13 @@
 -  - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D5AF852D-E3BE-3467-9739-5E66F1E37BE2
++  UUID: D27B20DD-59E5-36C2-A0B0-15CE64C2BDAB
    Functions: 153
 -  Symbols:   401
--  CStrings:  227
+-  CStrings:  229
 +  Symbols:   393
-+  CStrings:  228
++  CStrings:  230
  
 Symbols:
 - __swift_FORCE_LOAD_$_swiftDataDetection

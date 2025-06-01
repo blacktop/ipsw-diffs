@@ -32,8 +32,8 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x1e0
 
+   __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x490
 -  __DATA.__objc_classrefs: 0x188
 -  __DATA.__objc_superrefs: 0x58
@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A9140F9-E943-3E0B-9BAA-26585C5FE9C9
++  UUID: C0E75695-52A9-3467-A8EB-1025AC4EF603
    Functions: 772
    Symbols:   2836
--  CStrings:  1291
-+  CStrings:  1292
+-  CStrings:  1575
++  CStrings:  1576
  
 Symbols:
 + ___Block_byref_object_copy_.557

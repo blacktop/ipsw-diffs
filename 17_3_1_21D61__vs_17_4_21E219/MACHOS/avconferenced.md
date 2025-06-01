@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 72C62800-4C73-31F2-B242-C209B6EEAADF
++  UUID: 73813B32-C84D-3CDC-A464-0E7D77EF21A0
+   Functions: 1
+   Symbols:   15
+   CStrings:  4
 
 ```

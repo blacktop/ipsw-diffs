@@ -65,12 +65,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5A3085D0-43E9-3173-B25E-98A4BE5BCE85
 -  Functions: 675
 -  Symbols:   2815
--  CStrings:  1589
+-  CStrings:  2095
++  UUID: 1C5E9EF2-4E5E-3684-AF0E-DFA70842097F
 +  Functions: 678
 +  Symbols:   2819
-+  CStrings:  1597
++  CStrings:  2106
  
 Symbols:
 + -[NSMutableDictionary(FHDictionarySafeMethods) setOrAddToDecimalValue:forKey:]

@@ -73,7 +73,6 @@
 +  __AUTH_CONST.__objc_const: 0xc10
 +  __AUTH_CONST.__const: 0x1be0
 +  __AUTH_CONST.__objc_intobj: 0x48
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x718
 +  __AUTH.__objc_data: 0xe38
 +  __AUTH.__data: 0x780
@@ -88,9 +87,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0BA36C07-4EDF-3670-8ED9-F18578FAB4B8
 -  Functions: 651
 -  Symbols:   2446
--  CStrings:  1153
+-  CStrings:  1268
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -99,9 +99,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 5B4E444B-F1BB-37D2-9F95-1EB57AE31D3A
 +  Functions: 1631
 +  Symbols:   3258
-+  CStrings:  1392
++  CStrings:  1512
  
 Symbols:
 + +[NFCCardSessionCallbackInterface interface]

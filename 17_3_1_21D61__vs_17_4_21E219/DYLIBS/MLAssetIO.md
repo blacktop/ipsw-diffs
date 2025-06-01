@@ -46,13 +46,16 @@
    __DATA.__data: 0x1f4
    __DATA.__bss: 0x38
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 225B2F4A-D2A7-3D79-B9C5-38E03DE61ED7
++  UUID: AD7697E1-6E5E-3432-83DA-5E6EB508D3EA
    Functions: 8154
 -  Symbols:   20451
--  CStrings:  1797
+-  CStrings:  2094
 +  Symbols:   20445
-+  CStrings:  1798
++  CStrings:  2095
  
 Symbols:
 + GCC_except_table100

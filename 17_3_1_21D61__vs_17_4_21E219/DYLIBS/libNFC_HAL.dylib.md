@@ -32,12 +32,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 85056A65-C8C0-3925-9F42-03F56354193C
 -  Functions: 177
 -  Symbols:   264
--  CStrings:  564
+-  CStrings:  591
++  UUID: E49F2B7A-228A-328A-9140-4D39E1EFDEC5
 +  Functions: 178
 +  Symbols:   270
-+  CStrings:  576
++  CStrings:  602
  
 Symbols:
 + _GetElapsedTimeInMillisecondsFromMachTime

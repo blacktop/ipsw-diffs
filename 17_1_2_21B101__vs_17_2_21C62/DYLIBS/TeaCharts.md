@@ -40,7 +40,9 @@
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E41D6378-2B50-3F2E-A970-8F22001A6BCD
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: F9510D0C-C53C-3C98-AEEB-BB588F928F6B
    Functions: 2158
 -  Symbols:   1267
 +  Symbols:   1271

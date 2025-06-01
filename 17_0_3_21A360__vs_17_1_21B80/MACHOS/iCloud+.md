@@ -60,12 +60,14 @@
    - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F8C29D0F-35D9-39E8-A358-EFF0182C2CAA
 -  Functions: 26
 -  Symbols:   50
--  CStrings:  217
+-  CStrings:  222
++  UUID: E3881F77-FC3C-3805-87A5-3F082866FC33
 +  Functions: 37
 +  Symbols:   65
-+  CStrings:  250
++  CStrings:  258
  
 Symbols:
 + _FBSOpenApplicationOptionKeyPromptUnlockDevice
@@ -86,6 +88,7 @@ Symbols:
 + _objc_storeStrong
 - _OBJC_CLASS_$_ICQUpgradeFlowPresenter
 CStrings:
++ ""
 + "\x01"
 + "-[ICQLinkAppDelegate handleSkipCFUWithURL:]"
 + "-[ICQLinkAppDelegate launchFlowWithContext:]"

@@ -40,11 +40,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 090C42C6-7DB1-3B7A-918C-44A5451E2AB3
 -  Functions: 2019
++  UUID: 30B054A5-2523-31A9-8835-8A42ACAEBF6B
 +  Functions: 2018
    Symbols:   462
--  CStrings:  2761
-+  CStrings:  2762
+-  CStrings:  2862
++  CStrings:  2863
  
 CStrings:
 + "combinedStringFromCaptions:"

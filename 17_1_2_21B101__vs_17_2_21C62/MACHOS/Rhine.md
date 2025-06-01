@@ -59,12 +59,14 @@
    - /System/Library/PrivateFrameworks/BrailleTranslation.framework/BrailleTranslation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1EABB4C1-AA4D-3AD1-AD15-7DC18A52F476
 -  Functions: 147
 -  Symbols:   250
--  CStrings:  5000
+-  CStrings:  5012
++  UUID: D0ECB9D4-1B08-36C7-9D4A-36818C2BAB30
 +  Functions: 150
 +  Symbols:   254
-+  CStrings:  5008
++  CStrings:  5021
  
 Symbols:
 + _OBJC_CLASS_$_BRLRhineInputPreprocessor

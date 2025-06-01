@@ -65,11 +65,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7B820E88-20B4-358D-83D7-CBDC661039B4
 -  Functions: 11944
++  UUID: 46B06D9D-F819-3F68-8826-57F2A65ADE02
 +  Functions: 11961
    Symbols:   1393
--  CStrings:  2933
-+  CStrings:  2936
+-  CStrings:  2998
++  CStrings:  3001
  
 CStrings:
 + "engagement-sync-finished"

@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A84FE0AB-E098-35F1-A8C4-12A7D91D7B80
 -  Functions: 4022
 -  Symbols:   13058
--  CStrings:  6162
+-  CStrings:  6749
++  UUID: 557508F8-5210-3852-B886-6676C462AEBF
 +  Functions: 4027
 +  Symbols:   13075
-+  CStrings:  6174
++  CStrings:  6759
  
 Symbols:
 + +[PTRenderPipeline prewarmForMediaserverd].cold.1

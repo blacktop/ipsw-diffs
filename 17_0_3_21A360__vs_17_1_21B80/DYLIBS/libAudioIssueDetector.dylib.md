@@ -44,7 +44,6 @@
 -  __AUTH_CONST.__cfstring: 0x8a0
 +  __AUTH_CONST.__cfstring: 0x8e0
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7e8
 +  __AUTH_CONST.__auth_got: 0x7f0
    __AUTH.__objc_data: 0x140
@@ -64,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FD467C5B-EA89-32C8-B7EE-BE9566B7DF56
 -  Functions: 782
 -  Symbols:   2732
--  CStrings:  940
+-  CStrings:  1009
++  UUID: E32D809C-5FD9-3533-94DC-DBFE1A28A153
 +  Functions: 783
 +  Symbols:   2761
-+  CStrings:  965
++  CStrings:  1036
  
 Symbols:
 + -[ADAMSRSensorWriter provideSample:error:]

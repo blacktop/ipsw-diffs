@@ -23,11 +23,15 @@
    __TEXT.__unwind_info: 0x1210
    __DATA_CONST.__auth_got: 0xc90
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63AC4D1E-86D6-372F-AC8F-0D99B2978F22
++  UUID: C357A2E9-B50F-335C-8C13-50DF3F3194A5
    Functions: 1516
    Symbols:   604
--  CStrings:  3277
-+  CStrings:  3279
+-  CStrings:  3538
++  CStrings:  3540
  
 CStrings:
 + "%@: Registered fallback relay network agent %{public,uuid_t}.16P"

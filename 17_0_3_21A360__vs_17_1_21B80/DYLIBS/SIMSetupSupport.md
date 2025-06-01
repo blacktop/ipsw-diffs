@@ -20,11 +20,15 @@
    __TEXT.__unwind_info: 0x174c
    __TEXT.__objc_classname: 0xd9f
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F124A214-844A-35A9-A576-E3AAE1C25F2E
++  UUID: 4D7AAA4F-BD20-37F9-B787-B0EC21D53780
    Functions: 2330
    Symbols:   8609
--  CStrings:  4167
-+  CStrings:  4168
+-  CStrings:  4621
++  CStrings:  4622
  
 CStrings:
 + "Skip for greentea ipad in buddy @%s"

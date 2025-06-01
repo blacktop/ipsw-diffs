@@ -64,12 +64,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4E2D1D11-373B-3B13-8E87-F720073C8390
 -  Functions: 5610
 -  Symbols:   33827
--  CStrings:  6746
+-  CStrings:  7147
++  UUID: D2F283E5-3018-36F7-AC3A-49C689443E16
 +  Functions: 5616
 +  Symbols:   33874
-+  CStrings:  6767
++  CStrings:  7167
  
 Symbols:
 + -[CaptureMTLFXTemporalScaler reactiveMaskTexture]

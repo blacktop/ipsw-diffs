@@ -70,11 +70,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FBA8D5DF-8F34-398E-812F-57A6386C6978
 -  Functions: 2507
++  UUID: E9585B37-C555-31DF-AAE0-751125034811
 +  Functions: 2526
    Symbols:   435
--  CStrings:  3783
-+  CStrings:  3818
+-  CStrings:  4168
++  CStrings:  4214
  
 Symbols:
 + _OBJC_CLASS_$_RMManagedDevice

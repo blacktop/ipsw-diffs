@@ -25,12 +25,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5D430C11-56A4-39A9-BD7F-19850E9BA0C4
 -  Functions: 914
 -  Symbols:   3076
--  CStrings:  1400
+-  CStrings:  1538
++  UUID: D1A07B7F-59E6-33E0-8E33-A1240AAFD274
 +  Functions: 917
 +  Symbols:   3082
-+  CStrings:  1401
++  CStrings:  1539
  
 Symbols:
 + -[BMStreamDatastoreBase writeEventBytes:length:dataVersion:timestamp:outBookmark:].cold.2

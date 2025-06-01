@@ -33,11 +33,13 @@
    - /System/Library/PrivateFrameworks/RemoteHID.framework/RemoteHID
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E05D034-7BDE-353E-944E-0E193E6B0F73
 -  Functions: 13
++  UUID: AA67D292-BF26-36CD-884C-AEC8BC6D83EF
 +  Functions: 14
    Symbols:   25
--  CStrings:  83
-+  CStrings:  84
+-  CStrings:  86
++  CStrings:  87
  
 CStrings:
 + "cancel"

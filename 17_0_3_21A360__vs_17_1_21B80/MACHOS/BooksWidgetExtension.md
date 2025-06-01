@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
    - @rpath/BookCore.framework/BookCore
+-  UUID: DCD8FEE2-443B-3E69-BA0B-F9840BE464A1
 -  Functions: 2209
 -  Symbols:   223
--  CStrings:  261
+-  CStrings:  263
++  UUID: 876675BE-01F6-36BC-BA45-BF9EC5AD8022
 +  Functions: 2236
 +  Symbols:   225
-+  CStrings:  262
++  CStrings:  264
  
 Symbols:
 + _BDSCloudAssetTypeStoreAudiobook

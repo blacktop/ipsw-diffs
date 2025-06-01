@@ -61,13 +61,16 @@
    __DATA_DIRTY.__objc_data: 0x2170
    __DATA_DIRTY.__data: 0x8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B774C6D-D367-30BA-B31B-6F7A7344EDFD
++  UUID: 1B0B9A2C-7E29-3860-B7C8-9D6B9D47F5EE
    Functions: 1584
 -  Symbols:   6177
--  CStrings:  2624
+-  CStrings:  2999
 +  Symbols:   6173
-+  CStrings:  2623
++  CStrings:  2998
  
 Symbols:
 + -[ISDefaults enableBadgeOverhang]

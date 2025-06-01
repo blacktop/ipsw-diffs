@@ -62,9 +62,11 @@
    - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F008FCD3-B146-3E1A-9044-8E9EA9DDB6DC
 -  Functions: 39
 -  Symbols:   230
 -  CStrings:  115
++  UUID: 011D94BA-6EBA-361E-A953-7499E9D51BBC
 +  Functions: 62
 +  Symbols:   413
 +  CStrings:  205

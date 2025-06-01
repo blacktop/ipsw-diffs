@@ -27,7 +27,6 @@
 -  __AUTH_CONST.__const: 0x3c8
 +  __AUTH_CONST.__const: 0x3e8
    __AUTH_CONST.__objc_dictobj: 0x118
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0xa98
    __AUTH.__objc_data: 0x230
    __DATA.__objc_ivar: 0x10a0
@@ -42,11 +41,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B5682B7-AD61-3E79-803F-2AE6DBA307CD
 -  Functions: 4687
 -  Symbols:   14638
++  UUID: 4DE80E17-7ECA-366D-8BC9-35E21F052776
 +  Functions: 4689
 +  Symbols:   14646
-   CStrings:  7377
+   CStrings:  8820
  
 Symbols:
 + _CBU_ShouldNotHandleExistingInternalDisplayAttachment

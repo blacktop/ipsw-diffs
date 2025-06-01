@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17B639A1-3894-30A2-933E-5AFAFDA67115
 -  Functions: 1533
 -  Symbols:   12801
--  CStrings:  1523
+-  CStrings:  1526
++  UUID: 1C735820-ACF4-3928-A465-0E13F4728384
 +  Functions: 1554
 +  Symbols:   12824
-+  CStrings:  1535
++  CStrings:  1538
  
 Symbols:
 + _$s17TVRemoteUIService21FindingViewControllerC017setupInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF

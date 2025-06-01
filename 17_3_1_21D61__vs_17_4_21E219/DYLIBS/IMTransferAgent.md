@@ -62,11 +62,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAF77C03-C9A2-3F1C-BF83-7B8F6DDD27B0
 -  Functions: 264
++  UUID: 917979F2-1D03-35C7-A7AC-67A698ACA4B7
 +  Functions: 265
    Symbols:   266
--  CStrings:  911
-+  CStrings:  913
+-  CStrings:  1011
++  CStrings:  1013
  
 CStrings:
 + "Going to delete recordIDs %@, with error"

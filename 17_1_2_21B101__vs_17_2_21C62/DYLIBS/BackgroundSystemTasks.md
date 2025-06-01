@@ -57,12 +57,14 @@
    - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 189DC29C-09C8-31FC-ABB0-87F88E54FD8F
 -  Functions: 209
 -  Symbols:   818
--  CStrings:  459
+-  CStrings:  521
++  UUID: 25A9B874-303F-3FE1-846D-78814526FE2F
 +  Functions: 222
 +  Symbols:   856
-+  CStrings:  475
++  CStrings:  538
  
 Symbols:
 + -[BGSystemTaskRequest networkEndpointPrimitive]

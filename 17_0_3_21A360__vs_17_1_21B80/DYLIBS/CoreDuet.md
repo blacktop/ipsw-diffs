@@ -62,12 +62,14 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD17F681-3436-3183-A792-5E43DD05A0C1
 -  Functions: 8816
 -  Symbols:   27118
--  CStrings:  11749
+-  CStrings:  14170
++  UUID: 9A6A3480-4199-344E-AB28-6F0AFE8A2841
 +  Functions: 8825
 +  Symbols:   27152
-+  CStrings:  11765
++  CStrings:  14189
  
 Symbols:
 + +[_CDInteraction conversationIdPercentEscapes]

@@ -27,12 +27,15 @@
    __DATA_CONST.__const: 0x28
    __DATA_CONST.__cfstring: 0x20
 
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 56E62C31-03CC-3EDA-A1EC-244383C4E921
++  UUID: E49E213A-9EAD-3CB7-A97A-1A3F468FE599
    Functions: 13
 -  Symbols:   80
 +  Symbols:   81
-   CStrings:  135
+   CStrings:  136
  
 Symbols:
 + _CGRectGetWidth

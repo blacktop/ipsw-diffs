@@ -37,11 +37,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x40
 
+   - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35894D39-63C3-37E6-A390-40B1B324C8D2
++  UUID: 99DC7743-5B7D-353F-B09B-02F9285798B7
    Functions: 200
    Symbols:   893
--  CStrings:  543
-+  CStrings:  544
+-  CStrings:  599
++  CStrings:  600
  
 CStrings:
 + "T@\"NSString\",?,R,C"

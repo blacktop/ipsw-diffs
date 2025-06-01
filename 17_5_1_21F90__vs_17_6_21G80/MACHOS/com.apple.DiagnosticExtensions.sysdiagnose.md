@@ -23,5 +23,10 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 33F16C2D-303C-3B10-83AA-4FD93D53DED4
++  UUID: 13775BEE-6F47-3B43-85A6-7F488FD778F9
+   Functions: 19
+   Symbols:   91
+   CStrings:  125
 
 ```

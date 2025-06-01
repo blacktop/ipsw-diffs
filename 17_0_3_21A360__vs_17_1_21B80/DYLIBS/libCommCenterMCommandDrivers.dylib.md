@@ -41,12 +41,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  - /usr/lib/libprotobuf.dylib
+-  UUID: 48F6A24A-E30A-3BBE-979F-EC8A2DE90020
 -  Functions: 13814
 -  Symbols:   37147
--  CStrings:  3921
+-  CStrings:  3938
++  UUID: 7B251F8F-CEA9-308A-AD9B-F2A7A0D5AF85
 +  Functions: 13812
 +  Symbols:   37140
-+  CStrings:  3919
++  CStrings:  3935
  
 Symbols:
 + GCC_except_table215

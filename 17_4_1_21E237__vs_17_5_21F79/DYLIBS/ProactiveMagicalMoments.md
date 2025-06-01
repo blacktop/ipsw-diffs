@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0BB6C193-4645-3A74-9945-342686D4E54C
++  UUID: B3DF3BE4-D1F0-3998-97FB-A6AC47AD880A
+   Functions: 273
+   Symbols:   1150
+   CStrings:  659
+
 ```

@@ -30,11 +30,15 @@
    __DATA.__objc_const: 0x4c8
    __DATA.__objc_selrefs: 0xd0
 
+   - /System/Library/PrivateFrameworks/PerfPowerServicesMetadata.framework/PerfPowerServicesMetadata
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82FC3B2C-960A-3C4C-8596-0ACBD61A589C
++  UUID: E96B1131-1712-3638-9CE3-FDF4C0E7D511
    Functions: 14
    Symbols:   54
--  CStrings:  102
-+  CStrings:  103
+-  CStrings:  124
++  CStrings:  126
  
 CStrings:
 + "BackgroundProcessing"

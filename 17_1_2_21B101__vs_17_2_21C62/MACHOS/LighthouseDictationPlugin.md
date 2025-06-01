@@ -18,4 +18,13 @@
    __TEXT.__oslogstring: 0x33e
    __TEXT.__objc_methname: 0x21f0
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 20BCDEF8-3CBE-3BDB-BE7C-E8137EFE8962
++  UUID: A00882FA-4C3D-36EC-8B0F-D495984D434A
+   Functions: 105
+   Symbols:   1238
+   CStrings:  889
+
 ```

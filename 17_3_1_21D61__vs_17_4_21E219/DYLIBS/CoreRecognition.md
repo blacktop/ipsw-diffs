@@ -48,13 +48,16 @@
    __DATA.__data: 0x240
    __DATA.__bss: 0x98
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CAB7F15-42DD-3E31-B92B-9BC8FA8C0ACA
++  UUID: 8C8EABBD-EDE0-332E-9B9A-EB02D4E3DCAA
    Functions: 983
 -  Symbols:   4010
--  CStrings:  2626
+-  CStrings:  4626
 +  Symbols:   4003
-+  CStrings:  2627
++  CStrings:  4627
  
 Symbols:
 + GCC_except_table109

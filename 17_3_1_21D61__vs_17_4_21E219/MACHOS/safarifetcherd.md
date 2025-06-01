@@ -38,11 +38,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x368
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7AA8E616-F65D-342B-9B62-C74ED32F8C77
++  UUID: A6E20CFE-F1CD-3A53-BC1E-A2DDD0FDEC93
    Functions: 266
    Symbols:   227
--  CStrings:  974
-+  CStrings:  983
+-  CStrings:  1011
++  CStrings:  1020
  
 CStrings:
 + "@\"NSString\"24@0:8@\"WKWebView\"16"

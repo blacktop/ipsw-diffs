@@ -13,4 +13,13 @@
    __DATA_DIRTY.__const: 0x1090
    __DATA_DIRTY.__objc_const: 0x318
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B1315BE4-395F-3894-BFC0-AF19BB78AB13
++  UUID: 2C9CBBBE-041A-3BE4-88EF-3D2ECA192154
+   Functions: 1499
+   Symbols:   531
+   CStrings:  1686
+
 ```

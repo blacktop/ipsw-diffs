@@ -27,11 +27,15 @@
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9D558EBD-9C0A-30F2-877F-AB4B360DAF0D
++  UUID: 6F850EB1-1F1D-3381-97FA-6722CD6B726C
    Functions: 1003
    Symbols:   3887
--  CStrings:  2011
-+  CStrings:  2012
+-  CStrings:  2139
++  CStrings:  2141
  
 Symbols:
 + ___54-[TKTonePickerController toneStoreDownloadsDidFinish:]_block_invoke.148

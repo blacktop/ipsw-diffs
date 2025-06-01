@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4FF64C1A-915E-3D3D-B674-66AA5C1EA3B9
 -  Functions: 382
 -  Symbols:   236
--  CStrings:  961
+-  CStrings:  1057
++  UUID: 3B61E856-DC1F-3923-8140-95DE915E3FD0
 +  Functions: 514
 +  Symbols:   272
-+  CStrings:  1272
++  CStrings:  1398
  
 Symbols:
 + _BluetoothErrorKey

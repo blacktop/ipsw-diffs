@@ -65,12 +65,14 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BAE73BBB-2A86-391B-92D0-F42E884A1B04
 -  Functions: 17
 -  Symbols:   78
--  CStrings:  185
+-  CStrings:  228
++  UUID: 181452F1-55FB-3370-B187-FBD4F2749D80
 +  Functions: 21
 +  Symbols:   71
-+  CStrings:  168
++  CStrings:  178
  
 Symbols:
 + _IMCloudKitHooksValuesChanged

@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8F45BA8D-0B0C-301A-9DF9-6CDF8F1BDE11
 -  Functions: 137
++  UUID: 5DC8304D-9349-3B9D-8124-60A4598A2660
 +  Functions: 138
    Symbols:   163
--  CStrings:  654
-+  CStrings:  659
+-  CStrings:  986
++  CStrings:  994
  
 CStrings:
 + "Get failure when calling API of Img4"

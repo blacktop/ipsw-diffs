@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 417B901F-4FC4-3D97-BDA5-F86FC5328434
 -  Functions: 932
 -  Symbols:   214
--  CStrings:  438
+-  CStrings:  443
++  UUID: 772CA02D-9451-361C-B214-F24CE0CBA010
 +  Functions: 929
 +  Symbols:   212
-+  CStrings:  455
++  CStrings:  460
  
 Symbols:
 - _swift_initStackObject

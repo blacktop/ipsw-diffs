@@ -61,12 +61,14 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E5514CE5-457F-32E6-A987-63D865C127A2
 -  Functions: 244
 -  Symbols:   384
--  CStrings:  894
+-  CStrings:  1258
++  UUID: 59671308-A52E-3CF9-9D9F-53A2B6D66B71
 +  Functions: 259
 +  Symbols:   401
-+  CStrings:  912
++  CStrings:  1290
  
 Symbols:
 + _MIArrayFilteredToContainOnlyClass

@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4E76CCA-C222-3BCA-80EB-BB167C6922F2
 -  Functions: 1782
 -  Symbols:   307
--  CStrings:  1031
+-  CStrings:  1103
++  UUID: 5D606014-F2CA-3F4F-B08D-703042CA856C
 +  Functions: 1805
 +  Symbols:   306
-+  CStrings:  1053
++  CStrings:  1125
  
 Symbols:
 - _swift_setDeallocating

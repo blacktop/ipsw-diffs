@@ -46,12 +46,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C1B138E1-B03F-3995-9788-CD630C0DEFAE
 -  Functions: 1099
 -  Symbols:   540
--  CStrings:  1468
+-  CStrings:  1524
++  UUID: 2E2EBCAA-A4DF-3A5A-A2F3-BE70A13C0184
 +  Functions: 1100
 +  Symbols:   542
-+  CStrings:  1474
++  CStrings:  1531
  
 Symbols:
 + _InternalStorageDirectoryPath

@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 48388A0C-B2AA-32EB-AA8B-51EF44AF6ADF
 -  Functions: 1916
 -  Symbols:   7454
--  CStrings:  4197
+-  CStrings:  4455
++  UUID: 95217BC7-522C-3F7B-9961-CA2DFDCE0647
 +  Functions: 1896
 +  Symbols:   7383
-+  CStrings:  4157
++  CStrings:  4409
  
 Symbols:
 + +[AFUICarPlayUtilities isRequestForAnnounceNotification:]

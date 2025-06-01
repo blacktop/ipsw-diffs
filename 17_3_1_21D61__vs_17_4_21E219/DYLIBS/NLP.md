@@ -34,7 +34,6 @@
 +  __DATA_CONST.__objc_classrefs: 0xd8
 +  __DATA_CONST.__objc_superrefs: 0x20
    __AUTH_CONST.__cfstring: 0x5e80
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0xd00
 -  __DATA.__objc_classrefs: 0xd8
@@ -47,12 +46,14 @@
    - /usr/lib/libcmph.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00232B1D-7D1A-3A62-A201-F9E6D55CC631
 -  Functions: 2747
 -  Symbols:   7715
--  CStrings:  1790
+-  CStrings:  2546
++  UUID: 404BCD7E-A27C-34F9-AF27-FD2D5CB6FFBD
 +  Functions: 2792
 +  Symbols:   7732
-+  CStrings:  1791
++  CStrings:  2547
  
 Symbols:
 + GCC_except_table104

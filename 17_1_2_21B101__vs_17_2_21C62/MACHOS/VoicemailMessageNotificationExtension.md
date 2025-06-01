@@ -35,11 +35,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32A68B64-B717-3022-B89C-DBAC4F284762
 -  Functions: 689
++  UUID: BD140F7E-8A8B-3843-866D-1CB554F50C15
 +  Functions: 693
    Symbols:   286
--  CStrings:  1424
-+  CStrings:  1428
+-  CStrings:  1459
++  CStrings:  1463
  
 CStrings:
 + "%@ is deactivating an audio session."

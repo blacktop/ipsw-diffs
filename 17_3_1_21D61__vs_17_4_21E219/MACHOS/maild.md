@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBE73A92-C642-3A66-8416-43B1710B1A73
 -  Functions: 4067
 -  Symbols:   878
--  CStrings:  7205
+-  CStrings:  8081
++  UUID: 1CE0E1B3-D5EF-38F0-A8DC-E401A2628FA8
 +  Functions: 4055
 +  Symbols:   864
-+  CStrings:  7184
++  CStrings:  8061
  
 Symbols:
 + _EFProtectedDataAvailable

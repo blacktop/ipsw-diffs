@@ -28,7 +28,11 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20D9FC65-9565-3FAF-9C85-C9BD8FD9751D
++  UUID: E94420C7-B054-3A04-BB55-0A31C00CD056
    Functions: 1
    Symbols:   17
 -  CStrings:  64

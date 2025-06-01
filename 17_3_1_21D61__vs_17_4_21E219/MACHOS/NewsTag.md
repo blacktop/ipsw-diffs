@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 044AF33A-5996-321F-BF5A-021B9BEF8FC1
 -  Functions: 3110
 -  Symbols:   588
--  CStrings:  1928
+-  CStrings:  2023
++  UUID: CDEA3F8D-C959-3C35-8AB1-9D8C387131D8
 +  Functions: 2933
 +  Symbols:   566
-+  CStrings:  1835
++  CStrings:  1927
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftShazamKit

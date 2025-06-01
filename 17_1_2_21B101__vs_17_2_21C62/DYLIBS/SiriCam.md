@@ -22,17 +22,20 @@
    __DATA_CONST.__objc_classlist: 0xe0
    __DATA_CONST.__objc_protolist: 0x30
 
+   __DATA_CONST.__objc_const: 0x15e8
    __DATA_CONST.__objc_selrefs: 0x658
    __AUTH_CONST.__const: 0x4248
-   __AUTH_CONST.__auth_ptr: 0x198
 -  __AUTH_CONST.__auth_got: 0xed0
 +  __AUTH_CONST.__auth_got: 0xec8
    __AUTH.__data: 0x16a0
    __AUTH.__objc_data: 0x140
    __DATA.__objc_protorefs: 0x18
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 754460E4-71E7-3916-9EE3-2A1707BF9881
++  UUID: C255B73B-3424-31F0-9791-7E678F8FC4F6
    Functions: 3755
 -  Symbols:   10797
 +  Symbols:   10795

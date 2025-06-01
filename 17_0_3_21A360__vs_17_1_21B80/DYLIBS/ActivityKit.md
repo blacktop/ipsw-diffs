@@ -60,12 +60,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B0F4C50E-7D47-3FB5-A757-C652FADE7B8E
 -  Functions: 5735
 -  Symbols:   2311
--  CStrings:  731
+-  CStrings:  738
++  UUID: 33D83DAF-5067-340C-AFA7-A40D0D8B6610
 +  Functions: 5741
 +  Symbols:   2317
-+  CStrings:  737
++  CStrings:  744
  
 Symbols:
 + -[ACActivityPresentationOptions setShouldSuppressAlertContentOnLockScreen:]

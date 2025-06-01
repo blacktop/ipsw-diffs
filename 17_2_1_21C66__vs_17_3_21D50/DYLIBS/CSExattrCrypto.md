@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x19f
    __TEXT.__gcc_except_tab: 0xf0
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 033B8199-62F0-3F79-BF6E-F6BE297B030D
++  UUID: 2EE599AB-AFCC-321E-9F22-2BEA681F4C21
+   Functions: 145
+   Symbols:   757
+   CStrings:  375
+
 ```

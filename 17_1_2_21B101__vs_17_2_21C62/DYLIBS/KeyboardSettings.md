@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C1797613-22AF-3CBE-90AD-52108247BB7A
 -  Functions: 683
 -  Symbols:   3043
--  CStrings:  1818
+-  CStrings:  2160
++  UUID: 2CF4FE32-C919-3A92-8BF2-0BE3A45F35BC
 +  Functions: 688
 +  Symbols:   3061
-+  CStrings:  1831
++  CStrings:  2177
  
 Symbols:
 + -[KeyboardController inlineCompletionSpecifierIndex]

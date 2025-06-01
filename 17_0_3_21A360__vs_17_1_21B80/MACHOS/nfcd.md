@@ -67,12 +67,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 433C75BF-5FEF-3EF1-835B-B0ABE7F578E7
 -  Functions: 3934
 -  Symbols:   497
--  CStrings:  11143
+-  CStrings:  13078
++  UUID: 520CA98A-2396-3DFB-9EF1-6446BCC1181A
 +  Functions: 3984
 +  Symbols:   499
-+  CStrings:  11293
++  CStrings:  13246
  
 Symbols:
 + _NFDriverEnableReaderModeDynamicBBAControl

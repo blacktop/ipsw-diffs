@@ -43,7 +43,6 @@
 +  __AUTH_CONST.__const: 0x520
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x5b0
 -  __AUTH.__objc_data: 0x5f0
@@ -67,11 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00DD7BA3-A04F-38DB-9A35-A57E0571265B
 -  Functions: 3553
 -  Symbols:   14471
+-  CStrings:  6793
++  UUID: B73A0268-E4AD-3823-9398-0AA43A05909F
 +  Functions: 3552
 +  Symbols:   14467
-   CStrings:  5882
++  CStrings:  6794
  
 Symbols:
 + -[EMMailboxScope _mailboxObjectIDsDescription]

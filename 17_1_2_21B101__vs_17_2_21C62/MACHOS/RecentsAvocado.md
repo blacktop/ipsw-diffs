@@ -75,11 +75,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 316C5E63-72A5-393A-A5AF-D61224CFECD8
 -  Functions: 20800
++  UUID: 48917B26-9996-3F6F-9133-8ECE4ED20021
 +  Functions: 20809
    Symbols:   1186
--  CStrings:  9226
-+  CStrings:  9230
+-  CStrings:  9345
++  CStrings:  9349
  
 CStrings:
 + "_TtCC14RecentsAvocado31DOCItemCollectionViewController29StringWidthCalculationContext"

@@ -15,19 +15,15 @@
    __TEXT.__oslogstring: 0x5c
    __TEXT.__unwind_info: 0x13a4
    __DATA_CONST.__got: 0x38
-   __DATA_CONST.__const: 0x1910
--  __AUTH_CONST.__auth_ptr: 0x78
-+  __AUTH_CONST.__auth_ptr: 0x80
-   __AUTH_CONST.__const: 0x100
-   __AUTH_CONST.__auth_got: 0x7f0
-   __AUTH.__data: 0x30
 
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 22C9AA2E-B4FD-3568-A6D3-E4953C51F6C2
 -  Functions: 1874
 -  Symbols:   2979
 -  CStrings:  873
++  UUID: BDB2E656-DFD8-3F53-8384-D686E76FEDCB
 +  Functions: 1875
 +  Symbols:   2981
 +  CStrings:  874

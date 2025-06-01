@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 03D37112-F5D2-3DA5-A9A6-66F9CDFFE92C
 -  Functions: 195
 -  Symbols:   168
--  CStrings:  624
+-  CStrings:  677
++  UUID: 016D9EB1-CADB-323E-8DA1-0965516214D6
 +  Functions: 199
 +  Symbols:   170
-+  CStrings:  629
++  CStrings:  682
  
 Symbols:
 + __sl_dlopen

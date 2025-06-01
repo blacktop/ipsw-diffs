@@ -51,7 +51,7 @@
 +  __AUTH_CONST.__cfstring: 0x30e0
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__const: 0x1408
-   __AUTH_CONST.__auth_ptr: 0x80
+   __AUTH_CONST.__auth_got: 0xc98
 
    __DATA.__objc_protorefs: 0x30
    __DATA.__objc_classrefs: 0x328
@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6F14F115-46A0-3A38-84F4-2C6DB9C537CD
 -  Functions: 2306
 -  Symbols:   4343
--  CStrings:  2307
+-  CStrings:  2688
++  UUID: 2215B919-C363-390B-858A-918750FB521F
 +  Functions: 2310
 +  Symbols:   4357
-+  CStrings:  2328
++  CStrings:  2719
  
 Symbols:
 + -[FAInviteContext messageBubbleInviteDeclineAlertSheetMessage]

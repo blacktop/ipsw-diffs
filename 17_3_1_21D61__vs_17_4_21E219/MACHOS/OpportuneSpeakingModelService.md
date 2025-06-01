@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2DE5A4F-83A9-30D9-98D6-4441827D40D8
++  UUID: C54BD8FE-ECE3-385E-A220-55EF43D1DF75
    Functions: 89
    Symbols:   132
--  CStrings:  416
-+  CStrings:  417
+-  CStrings:  461
++  CStrings:  462
  
 CStrings:
 + "T@\"NSString\",?,R,C"

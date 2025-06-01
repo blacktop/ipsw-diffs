@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x2c
    __DATA.__data: 0x60
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: E1AD58AE-40D4-3853-80E2-E4BED78149DC
++  UUID: 8A0C8BFD-C7EC-3BC3-9D43-20C796980BEF
+   Functions: 207
+   Symbols:   1109
+   CStrings:  1175
 Symbols:
 + __unnamed_array_storage.465
 + __unnamed_array_storage.512

@@ -18,11 +18,15 @@
    __TEXT.__objc_classname: 0x14
    __TEXT.__objc_methtype: 0x10
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C37ACC53-314C-3C29-8EF7-A62E9041A3FD
++  UUID: 6DC82D2A-50C9-3527-9156-3CBA1C4F971F
    Functions: 458
    Symbols:   410
--  CStrings:  446
-+  CStrings:  464
+-  CStrings:  479
++  CStrings:  497
  
 CStrings:
 + "    - %s/%s: %lld bytes\n"

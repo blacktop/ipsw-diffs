@@ -15,4 +15,13 @@
    __DATA_DIRTY.__objc_data: 0x460
    __DATA_DIRTY.__bss: 0x78
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: ADBCF51B-9B64-3D04-8033-95B027AFE8AC
++  UUID: EF1C2E6D-B480-37FA-8B83-2B7918901C34
+   Functions: 1455
+   Symbols:   2889
+   CStrings:  1846
+
 ```

@@ -73,11 +73,9 @@
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x1a8
 -  __AUTH_CONST.__auth_got: 0x11f0
 -  __AUTH.__objc_data: 0x2748
 -  __AUTH.__data: 0x1b30
-+  __AUTH_CONST.__auth_ptr: 0x1e8
 +  __AUTH_CONST.__auth_got: 0x12e8
 +  __AUTH.__objc_data: 0x2980
 +  __AUTH.__data: 0x1e80
@@ -112,12 +110,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E9F628B-CD9E-3A0D-B25B-DC17A1D94E9B
 -  Functions: 9159
 -  Symbols:   6347
--  CStrings:  1306
+-  CStrings:  1443
++  UUID: 853FA0E8-C175-3475-B61B-42DF07441D14
 +  Functions: 10385
 +  Symbols:   7212
-+  CStrings:  1387
++  CStrings:  1524
  
 Symbols:
 + _OBJC_CLASS_$_RPCompanionLinkClient

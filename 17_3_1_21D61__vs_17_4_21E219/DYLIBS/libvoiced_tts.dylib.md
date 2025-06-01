@@ -75,12 +75,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 77807FC8-573C-3EA6-A580-7474DF14FD82
 -  Functions: 1674
 -  Symbols:   6237
--  CStrings:  2747
+-  CStrings:  2969
++  UUID: 0A5F9780-05F3-3279-95F6-D9B6B0EB9E5F
 +  Functions: 1641
 +  Symbols:   6109
-+  CStrings:  2688
++  CStrings:  2907
  
 Symbols:
 + GCC_except_table1003

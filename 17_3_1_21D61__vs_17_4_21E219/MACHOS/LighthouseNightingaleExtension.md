@@ -37,8 +37,11 @@
    __DATA.__common: 0x18
    - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 91A3D44C-AD52-38F8-8271-E30884215E5C
++  UUID: FCEA4BD5-06E5-3518-86EC-A7F7A9106D3B
    Functions: 73
 -  Symbols:   61
 -  CStrings:  21

@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2E4E901F-D924-3605-8780-E410985EA37E
 -  Functions: 1133
 -  Symbols:   3857
--  CStrings:  1882
+-  CStrings:  2117
++  UUID: E46BF228-4D26-32EB-9021-20B885D5456D
 +  Functions: 1135
 +  Symbols:   3865
-+  CStrings:  1885
++  CStrings:  2122
  
 Symbols:
 + _MGGetBoolAnswer

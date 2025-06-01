@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 406ACB2C-7AEB-329C-8374-6197DF1BC7E1
 -  Functions: 834
 -  Symbols:   317
--  CStrings:  1321
+-  CStrings:  1416
++  UUID: 69E88CF0-DF0E-39E5-AC6B-1C7EDD16CBDF
 +  Functions: 820
 +  Symbols:   311
-+  CStrings:  1341
++  CStrings:  1451
  
 Symbols:
 + _OBJC_CLASS_$_Caller

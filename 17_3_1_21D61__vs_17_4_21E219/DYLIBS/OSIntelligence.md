@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC0FD694-6185-3E93-92F1-A47D8840D5FE
 -  Functions: 298
 -  Symbols:   1061
--  CStrings:  475
+-  CStrings:  530
++  UUID: FB21D3CC-ECD3-3AC2-810B-39A22B0CD116
 +  Functions: 300
 +  Symbols:   1064
-+  CStrings:  476
++  CStrings:  531
  
 Symbols:
 + _OUTLINED_FUNCTION_4

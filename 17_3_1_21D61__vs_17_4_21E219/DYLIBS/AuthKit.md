@@ -55,8 +55,7 @@
    __AUTH_CONST.__const: 0xf50
    __AUTH_CONST.__objc_intobj: 0x210
    __AUTH_CONST.__objc_arrayobj: 0x48
-
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__auth_got: 0x6a8
    __AUTH.__objc_data: 0x1cc0
 -  __DATA.__objc_protorefs: 0xd0
@@ -77,12 +76,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73FB6887-E3C4-3BD9-BABF-C699A0E7EED4
 -  Functions: 5228
 -  Symbols:   16990
--  CStrings:  7578
+-  CStrings:  9119
++  UUID: D0C6A94F-C6C0-3BB8-905D-51988E8A9158
 +  Functions: 5313
 +  Symbols:   17223
-+  CStrings:  7682
++  CStrings:  9242
  
 Symbols:
 + +[AKAuthorizationController shouldProcessURL:].cold.2

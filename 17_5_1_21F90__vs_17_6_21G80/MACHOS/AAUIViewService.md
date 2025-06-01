@@ -51,12 +51,14 @@
    - /usr/lib/libCTGreenTeaLogger.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BE21844-E110-3BEA-95C5-D01F8728FAB6
 -  Functions: 114
 -  Symbols:   116
--  CStrings:  393
+-  CStrings:  408
++  UUID: 9D4D9ABA-1D10-37BF-B4C3-3C526BA13DAF
 +  Functions: 136
 +  Symbols:   114
-+  CStrings:  410
++  CStrings:  426
  
 Symbols:
 - _OBJC_CLASS_$_AAOBModelHelper

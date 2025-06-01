@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED6A24C1-31B6-3788-930A-E9BA5B23D975
 -  Functions: 170
 -  Symbols:   1496
--  CStrings:  402
+-  CStrings:  548
++  UUID: 4D4A8322-47E6-30FC-8E93-583276F226C6
 +  Functions: 203
 +  Symbols:   1786
-+  CStrings:  529
++  CStrings:  733
  
 Symbols:
 + -[AppleUSBCLightningAdapterAnalytics .cxx_destruct]

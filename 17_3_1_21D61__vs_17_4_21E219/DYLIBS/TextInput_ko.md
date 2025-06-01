@@ -20,7 +20,6 @@
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__const: 0xb0
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x268
    __AUTH.__objc_data: 0xf0
 -  __DATA.__objc_classrefs: 0x30
@@ -28,6 +27,15 @@
    __DATA.__objc_ivar: 0x18
    __DATA.__bss: 0x98
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 23E793DC-BAE9-3EFF-8DCF-51319FFA9730
++  UUID: 44C06128-23E6-3CE0-B1A9-A99C852AB459
+   Functions: 157
+   Symbols:   492
+   CStrings:  150
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
 + __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorI9TITokenIDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m

@@ -49,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D324C897-F062-3BDD-8F9D-9351B07FD62A
 -  Functions: 432
 -  Symbols:   1270
--  CStrings:  482
+-  CStrings:  620
++  UUID: 0AC69BD5-DD26-3228-9EBA-C42DF27BFB89
 +  Functions: 434
 +  Symbols:   1278
-+  CStrings:  491
++  CStrings:  636
  
 Symbols:
 + ___TCCAccessCopyBundleIdentifiersDisabledForService_block_invoke.343

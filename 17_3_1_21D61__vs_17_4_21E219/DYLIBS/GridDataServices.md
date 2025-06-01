@@ -42,11 +42,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FB477986-214A-3093-941D-A1372623EB4C
++  UUID: 83D5A382-DBFA-336D-86AD-878E5F9D6F8C
    Functions: 170
    Symbols:   762
--  CStrings:  502
-+  CStrings:  503
+-  CStrings:  603
++  CStrings:  604
  
 Symbols:
 + ___42-[_GDSManager triggerBAUpdateWithHandler:]_block_invoke.62

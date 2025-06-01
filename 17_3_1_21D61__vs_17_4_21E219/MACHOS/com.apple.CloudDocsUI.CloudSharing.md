@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0xdc0
    __DATA.__data: 0xaa0
 
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8902A0B-7846-39B7-A898-D7659012040E
++  UUID: 9FE20365-BB1C-3D50-8384-60A8E1952C8C
    Functions: 1029
    Symbols:   321
--  CStrings:  2533
-+  CStrings:  2534
+-  CStrings:  2922
++  CStrings:  2923
  
 CStrings:
 + "T@\"NSString\",?,R,C"

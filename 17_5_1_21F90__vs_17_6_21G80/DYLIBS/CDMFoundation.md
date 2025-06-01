@@ -24,11 +24,15 @@
    __DATA_CONST.__objc_protorefs: 0x60
    __DATA_CONST.__objc_classrefs: 0xdf8
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D535B452-C4A2-31F1-A729-E3D25451D36E
++  UUID: A57BBADD-C8FD-39EA-AAE9-C642F2547C96
    Functions: 6539
    Symbols:   14479
--  CStrings:  7270
-+  CStrings:  7278
+-  CStrings:  8258
++  CStrings:  8266
  
 CStrings:
 + "currentAuthorizationStyle:"

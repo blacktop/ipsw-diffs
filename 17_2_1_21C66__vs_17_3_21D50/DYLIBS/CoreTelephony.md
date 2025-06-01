@@ -28,13 +28,16 @@
    __DATA_CONST.__objc_catlist: 0x0
    __DATA_CONST.__objc_protolist: 0x220
 
+   - /usr/lib/libcupolicy.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5FE7177-7A22-3FE6-84DD-C3D73722934C
++  UUID: D1E43D32-7A3B-3CE8-9B7C-A00D99C9C32D
    Functions: 6668
 -  Symbols:   21137
--  CStrings:  9557
+-  CStrings:  12287
 +  Symbols:   21138
-+  CStrings:  9558
++  CStrings:  12288
  
 Symbols:
 + _kSuspicious380Redirect

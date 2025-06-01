@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__const: 0x400
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x568
 +  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH.__objc_data: 0x50
@@ -73,12 +72,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DC51B35-DEF5-385A-AA9C-AD7CE0F730E4
 -  Functions: 1716
 -  Symbols:   6155
--  CStrings:  2485
+-  CStrings:  2745
++  UUID: BE7C73BA-705B-395F-A6B5-3206CBAF8A3A
 +  Functions: 1750
 +  Symbols:   6260
-+  CStrings:  2553
++  CStrings:  2825
  
 Symbols:
 + -[TKSlotParameters .cxx_destruct]

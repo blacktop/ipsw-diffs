@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/iTunesStore.framework/iTunesStore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CF93BBDC-3CC1-3859-AAF0-739572A62399
++  UUID: 559CFD6A-AB0B-3A9F-A19A-14BA953F483E
+   Functions: 18
+   Symbols:   61
+   CStrings:  156
+
 ```

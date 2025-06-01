@@ -50,11 +50,15 @@
    __DATA.__data: 0x1ef8
    __DATA.__bss: 0x280
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 87AE1730-F0C0-39FC-84CD-24ED0EB4E48A
++  UUID: BBBFA8F4-DE68-3063-B308-75BFB31659CB
    Functions: 1360
    Symbols:   695
--  CStrings:  6440
-+  CStrings:  6445
+-  CStrings:  8660
++  CStrings:  8669
  
 CStrings:
 + "DPRO"

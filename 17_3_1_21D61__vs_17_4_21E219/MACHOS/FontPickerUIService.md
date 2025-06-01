@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9EAB0F78-5D0F-3B19-83A9-716EC564FEBD
 -  Functions: 1671
 -  Symbols:   828
--  CStrings:  844
+-  CStrings:  871
++  UUID: B9A84D7C-DFF3-34AB-9FFA-33EA6E68393C
 +  Functions: 1648
 +  Symbols:   833
-+  CStrings:  859
++  CStrings:  886
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

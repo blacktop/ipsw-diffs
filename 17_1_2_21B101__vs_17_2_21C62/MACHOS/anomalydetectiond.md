@@ -74,11 +74,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E5D994E4-6DC4-3F63-913A-E1993513812F
 -  Functions: 13784
++  UUID: BF08DCCE-65C6-3F6C-8F38-4F20FD052062
 +  Functions: 14000
    Symbols:   529
--  CStrings:  7613
-+  CStrings:  7747
+-  CStrings:  8213
++  CStrings:  8381
  
 CStrings:
 + "\x01\xf0\xa4\x11"

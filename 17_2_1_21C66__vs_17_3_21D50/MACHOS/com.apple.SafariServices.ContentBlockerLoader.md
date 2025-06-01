@@ -40,13 +40,16 @@
    __DATA.__objc_classrefs: 0xe0
    __DATA.__objc_superrefs: 0x8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35CC0B6B-B9BE-3957-8EFB-3097A4F2449B
++  UUID: 95ADC8C4-FCFD-3DFE-80AA-1E6CAB8356AC
    Functions: 69
 -  Symbols:   111
--  CStrings:  216
+-  CStrings:  223
 +  Symbols:   116
-+  CStrings:  217
++  CStrings:  224
  
 Symbols:
 + _objc_copyWeak

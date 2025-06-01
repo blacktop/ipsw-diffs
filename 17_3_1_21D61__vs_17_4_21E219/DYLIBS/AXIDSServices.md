@@ -41,13 +41,16 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/AccessibilityUI.framework/AccessibilityUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 898BA4BC-BFFC-341C-95AE-852E9D37665E
++  UUID: E90C55AC-42D0-32A1-8F3C-AF85848554BB
    Functions: 48
 -  Symbols:   274
--  CStrings:  216
+-  CStrings:  239
 +  Symbols:   273
-+  CStrings:  224
++  CStrings:  247
  
 Symbols:
 + ___block_literal_global.394

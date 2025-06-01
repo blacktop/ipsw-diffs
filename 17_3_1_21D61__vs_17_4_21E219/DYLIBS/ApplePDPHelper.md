@@ -12,6 +12,15 @@
    __TEXT.__eh_frame: 0x4c
    __DATA_CONST.__got: 0x58
    __DATA_CONST.__const: 0xa0
+
+   - /usr/lib/libIOACIPCBB.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: CD5CC01A-1E5F-36F8-8D6B-0464BA834C3A
++  UUID: 49290791-158A-3F9B-9F00-0A0AF5C60F9C
+   Functions: 109
+   Symbols:   284
+   CStrings:  131
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ue170006Ev

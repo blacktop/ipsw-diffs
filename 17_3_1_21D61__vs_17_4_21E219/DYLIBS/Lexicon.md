@@ -26,12 +26,11 @@
    __DATA_CONST.__got: 0x1c8
 -  __DATA_CONST.__const: 0x1028
 -  __AUTH_CONST.__cfstring: 0xbe0
-+  __DATA_CONST.__const: 0xfe8
-+  __AUTH_CONST.__cfstring: 0xb60
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x1bd8
 -  __AUTH_CONST.__auth_got: 0x9e0
 -  __DATA.__data: 0x148
++  __DATA_CONST.__const: 0xfe8
++  __AUTH_CONST.__cfstring: 0xb60
 +  __AUTH_CONST.__const: 0x2078
 +  __AUTH_CONST.__auth_got: 0x9c0
 +  __DATA.__data: 0x138
@@ -52,12 +51,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3AC6D7F7-47F6-306F-88BA-EA8C589E16C6
 -  Functions: 4254
 -  Symbols:   511
--  CStrings:  1121
+-  CStrings:  1216
++  UUID: DB172686-04C5-3940-B040-9B7337B77DB1
 +  Functions: 4306
 +  Symbols:   507
-+  CStrings:  1115
++  CStrings:  1206
  
 Symbols:
 - _CFURLCreateWithString

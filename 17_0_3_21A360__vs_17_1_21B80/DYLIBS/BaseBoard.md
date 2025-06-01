@@ -49,7 +49,6 @@
    __AUTH_CONST.__const: 0x9a0
 -  __AUTH_CONST.__objc_intobj: 0xa8
 -  __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x1038
    __AUTH.__objc_data: 0x1270
    __DATA.__objc_protorefs: 0x10
@@ -64,12 +63,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C4998868-5F02-3ABE-BCCE-774CB7050487
 -  Functions: 2776
 -  Symbols:   9980
--  CStrings:  4044
+-  CStrings:  5006
++  UUID: 27BBFFFE-61CE-3C35-A896-942E8C6CD080
 +  Functions: 2780
 +  Symbols:   9996
-+  CStrings:  4053
++  CStrings:  5018
  
 Symbols:
 + -[BSCanonicalOrientationMapResolver .cxx_destruct]

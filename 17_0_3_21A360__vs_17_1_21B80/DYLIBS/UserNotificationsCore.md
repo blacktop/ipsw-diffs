@@ -28,12 +28,15 @@
    __DATA_CONST.__objc_classlist: 0x120
    __DATA_CONST.__objc_catlist: 0x50
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5329633D-56F7-3D7B-A7CC-5B40D61C38A6
++  UUID: 33989F86-0FE0-32A6-807A-FFEB77051B82
    Functions: 1802
 -  Symbols:   3861
 +  Symbols:   3860
-   CStrings:  2106
+   CStrings:  2411
  
 Symbols:
 - _IDSSendMessageOptionSendModeKey

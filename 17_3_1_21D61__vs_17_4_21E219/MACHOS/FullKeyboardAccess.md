@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0xa50
    __DATA.__data: 0x4e0
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22F70466-58B0-37BD-B7E0-F69BD0C46E95
++  UUID: D8C8D840-9EDC-3112-8FAC-A4AEA5D2D9DD
    Functions: 533
    Symbols:   233
--  CStrings:  1317
-+  CStrings:  1318
+-  CStrings:  1372
++  CStrings:  1373
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -67,10 +67,8 @@
 +  __AUTH_CONST.__objc_intobj: 0xd8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__objc_arrayobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x700
 +  __AUTH_CONST.__objc_arrayobj: 0xc0
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x6e8
    __AUTH.__objc_data: 0x12e8
    __AUTH.__data: 0x188
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 59A107F8-4FFA-3974-8A47-E7CEB9FCE7A5
 -  Functions: 2428
 -  Symbols:   5238
--  CStrings:  3603
+-  CStrings:  4586
++  UUID: EA089C5A-10AE-3210-8E8F-448951A09D3A
 +  Functions: 2448
 +  Symbols:   5296
-+  CStrings:  3639
++  CStrings:  4637
  
 Symbols:
 + -[HPSSpatialProfileSingeStepEnrollmentController cachedTransitionStates]

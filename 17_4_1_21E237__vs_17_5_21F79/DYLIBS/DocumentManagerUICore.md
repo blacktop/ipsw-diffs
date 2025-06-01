@@ -35,12 +35,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43B1722C-19AE-3E13-99AB-2FC9D30AE054
++  UUID: D7766FAA-C2B1-308D-BD13-6701446C116D
    Functions: 371
 -  Symbols:   1718
 +  Symbols:   1719
-   CStrings:  873
+   CStrings:  940
  
 Symbols:
 + GCC_except_table25

@@ -51,7 +51,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x9a8
 +  __AUTH_CONST.__auth_got: 0x9b0
    __AUTH.__objc_data: 0x20d0
@@ -74,12 +73,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B390B48F-770A-3EE2-AD00-E98D183F25AB
 -  Functions: 2243
 -  Symbols:   7926
--  CStrings:  4126
+-  CStrings:  4841
++  UUID: 91D7654C-C4B1-3F36-9BEA-02117ED55EF4
 +  Functions: 2250
 +  Symbols:   7949
-+  CStrings:  4153
++  CStrings:  4871
  
 Symbols:
 + -[AutocorrectionResult setTypologyLogURL:]

@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1243C020-A0C9-3E06-A569-06303F66D33D
 -  Functions: 1654
 -  Symbols:   5326
--  CStrings:  2460
+-  CStrings:  2916
++  UUID: E2990DFA-7DED-3628-99BF-082A85AC477B
 +  Functions: 1707
 +  Symbols:   5497
-+  CStrings:  2549
++  CStrings:  3024
  
 Symbols:
 + +[RTPeopleDensityCallbackConfiguration supportsSecureCoding]

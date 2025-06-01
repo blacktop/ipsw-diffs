@@ -76,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C430DEF-DE73-30B4-821F-DAF8A9C51BA3
 -  Functions: 2719
 -  Symbols:   9282
--  CStrings:  4421
+-  CStrings:  5018
++  UUID: 1C9B1100-B7CC-3C11-8D6A-AF2CD6A665A7
 +  Functions: 2728
 +  Symbols:   9319
-+  CStrings:  4445
++  CStrings:  5046
  
 Symbols:
 + -[DEDCloudKitClient previousRecordsQueue]

@@ -55,12 +55,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B356DBE-957B-311A-9575-5589C0E37D78
 -  Functions: 777
 -  Symbols:   2937
--  CStrings:  1613
+-  CStrings:  1785
++  UUID: 19B605F4-E620-3371-9521-FE75B057C0B4
 +  Functions: 780
 +  Symbols:   2948
-+  CStrings:  1621
++  CStrings:  1794
  
 Symbols:
 + -[AWAttentionSampler lastIsCameraObstructed]

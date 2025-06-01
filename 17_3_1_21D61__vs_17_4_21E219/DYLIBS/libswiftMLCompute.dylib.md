@@ -32,4 +32,13 @@
    __DATA.__common: 0x1
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 91980933-6233-3664-B44A-B3281EA4F536
++  UUID: 9519CD4E-0431-35F2-A9CF-7AAB1366D9EC
+   Functions: 134
+   Symbols:   349
+   CStrings:  66
+
 ```

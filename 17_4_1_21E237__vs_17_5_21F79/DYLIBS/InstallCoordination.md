@@ -48,7 +48,6 @@
 +  __AUTH_CONST.__objc_const: 0xd0
    __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_arrayobj: 0x108
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0xc0
 -  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH_CONST.__auth_got: 0x588
@@ -68,12 +67,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 124E3514-F37B-3CAC-BC7B-D07A0BEDE4FF
 -  Functions: 1797
 -  Symbols:   5852
--  CStrings:  3104
+-  CStrings:  3750
++  UUID: 1C5CD7D4-087E-30B5-A9FC-9C65776908D2
 +  Functions: 1800
 +  Symbols:   5869
-+  CStrings:  3126
++  CStrings:  3778
  
 Symbols:
 + +[IXPlaceholder _iconDataForBundle:atURL:isFromSerializedPlaceholder:error:]

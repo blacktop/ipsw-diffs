@@ -38,7 +38,7 @@
    __DATA_CONST.__objc_classlist: 0x90
    __DATA_CONST.__objc_protolist: 0xa8
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__auth_got: 0x580
    __AUTH.__objc_data: 0x500
 -  __AUTH.__data: 0xf0
@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DFAD2190-51BC-31C7-8949-619F0C3AAB91
 -  Functions: 448
 -  Symbols:   1646
--  CStrings:  999
+-  CStrings:  1134
++  UUID: 31EE439E-3075-3F9B-87C4-314B092F6107
 +  Functions: 449
 +  Symbols:   1664
-+  CStrings:  1001
++  CStrings:  1136
  
 Symbols:
 + _CNContactAddressingGrammarKey

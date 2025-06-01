@@ -46,11 +46,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F6FA13AC-D3AD-3F05-AC3F-E8E49B5075DB
 -  Functions: 1375
++  UUID: B39DA8B3-BAF3-32BA-BC3B-D3D43CC32773
 +  Functions: 1377
    Symbols:   600
--  CStrings:  3043
-+  CStrings:  3048
+-  CStrings:  3233
++  CStrings:  3238
  
 Symbols:
 + _IMDCoreSpotlightReindexMessages

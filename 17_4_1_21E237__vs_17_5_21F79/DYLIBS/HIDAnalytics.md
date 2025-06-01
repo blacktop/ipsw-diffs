@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x640
    __TEXT.__objc_methtype: 0x30a
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 402088BC-342B-37D1-AE1C-7A6B71CCB3BE
++  UUID: 82A3C781-032E-3A28-A215-F7714C370535
+   Functions: 72
+   Symbols:   357
+   CStrings:  185
+
 ```

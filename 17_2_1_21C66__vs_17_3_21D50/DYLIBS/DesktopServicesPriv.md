@@ -17,4 +17,13 @@
    __TEXT.__oslogstring: 0x1ad7
    __TEXT.__ustring: 0x4
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 74257A84-A068-3A34-AAC4-6F71853BA7B3
++  UUID: 05A2FF31-624D-3BB1-BD2D-C803FFAF3767
+   Functions: 5328
+   Symbols:   13235
+   CStrings:  1977
+
 ```

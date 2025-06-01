@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x80
    __DATA_CONST.__const: 0x350
 
+   - /System/Library/PrivateFrameworks/iTunesStoreUI.framework/iTunesStoreUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B04CC80A-CDB9-328C-9F8F-67C062DEE9F2
++  UUID: 6FAB94E5-F6F9-3AD5-BB2A-218DF515F1B9
+   Functions: 92
+   Symbols:   144
+   CStrings:  613
+
 ```

@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/HID.framework/HID
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AAD13D63-ACE4-3A41-8933-E8334C05014A
 -  Functions: 130
 -  Symbols:   120
--  CStrings:  339
+-  CStrings:  379
++  UUID: 6CAB76E4-C0A1-3048-B65A-D119E3906F5B
 +  Functions: 132
 +  Symbols:   123
-+  CStrings:  351
++  CStrings:  396
  
 Symbols:
 + _CFNotificationCenterGetDarwinNotifyCenter

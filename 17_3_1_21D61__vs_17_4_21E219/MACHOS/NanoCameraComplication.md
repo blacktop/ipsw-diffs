@@ -15,4 +15,13 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ClockComplications.framework/ClockComplications
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 65461676-6444-3275-ACE2-EB8E5AEA9562
++  UUID: BBE5FD8B-871C-30C0-AC0B-B4A7CD48AB9C
+   Functions: 18
+   Symbols:   59
+   CStrings:  92
+
 ```

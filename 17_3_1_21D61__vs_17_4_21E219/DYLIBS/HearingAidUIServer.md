@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C6307C6-2418-31E9-BD8C-321CBFCC76F2
 -  Functions: 41
 -  Symbols:   314
--  CStrings:  236
+-  CStrings:  252
++  UUID: D0F8BEC7-0151-32E7-B317-1169AFA56E87
 +  Functions: 42
 +  Symbols:   316
-+  CStrings:  245
++  CStrings:  262
  
 Symbols:
 + +[HearingAidUIServer requiredEntitlementForProcessingMessageWithIdentifier:]

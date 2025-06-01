@@ -43,7 +43,6 @@
 -  __AUTH_CONST.__const: 0x680
 +  __AUTH_CONST.__cfstring: 0x4e20
 +  __AUTH_CONST.__const: 0x6c0
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__auth_got: 0x9d8
    __AUTH.__objc_data: 0x50
@@ -56,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71D69049-16BC-321B-BBDE-940264FE6804
 -  Functions: 538
 -  Symbols:   1724
--  CStrings:  1305
+-  CStrings:  1927
++  UUID: 8D4D9D88-7226-3FFC-BE0E-9351487D5CEE
 +  Functions: 549
 +  Symbols:   1753
-+  CStrings:  1318
++  CStrings:  1943
  
 Symbols:
 + -[MKBKeyStoreDevice forgottenPasscodeEvent]

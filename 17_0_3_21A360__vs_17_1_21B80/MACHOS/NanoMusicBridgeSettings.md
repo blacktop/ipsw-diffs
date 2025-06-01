@@ -51,11 +51,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4BA4572-24FB-354A-A8EA-33C2F43AE4B0
 -  Functions: 118
++  UUID: 972D4282-784E-3934-A46B-CE34DE08A5BD
 +  Functions: 121
    Symbols:   160
--  CStrings:  487
-+  CStrings:  496
+-  CStrings:  546
++  CStrings:  561
  
 Symbols:
 + _ML3ContainerPropertyDistinguishedKind

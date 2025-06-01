@@ -73,12 +73,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E334C864-4103-3C93-BCDA-369D77D6611F
 -  Functions: 1192
 -  Symbols:   4184
--  CStrings:  1198
+-  CStrings:  1411
++  UUID: 34A0F812-E723-38DB-8629-273C5A712F1B
 +  Functions: 1211
 +  Symbols:   4249
-+  CStrings:  1235
++  CStrings:  1459
  
 Symbols:
 + -[AVAudioSession availableRouteControlOptions:]

@@ -55,13 +55,11 @@
 -  __DATA_CONST.__objc_const: 0x6868
 -  __DATA_CONST.__objc_selrefs: 0xa50
 -  __AUTH_CONST.__const: 0xac70
--  __AUTH_CONST.__auth_ptr: 0x4b8
 +  __DATA_CONST.__objc_const: 0x6bd8
 +  __DATA_CONST.__objc_selrefs: 0xa68
 +  __DATA_CONST.__objc_protorefs: 0x38
 +  __DATA_CONST.__objc_classrefs: 0x310
 +  __AUTH_CONST.__const: 0xafe8
-+  __AUTH_CONST.__auth_ptr: 0x4d0
    __AUTH_CONST.__cfstring: 0x760
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x14c8
@@ -86,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DA9EB2BF-5A60-35CD-B8A9-D83B3F04B86B
 -  Functions: 9001
 -  Symbols:   2694
--  CStrings:  1325
+-  CStrings:  1384
++  UUID: 1504D312-7169-352C-9A0B-42025D8025F9
 +  Functions: 9209
 +  Symbols:   2727
-+  CStrings:  1426
++  CStrings:  1485
  
 Symbols:
 + _OBJC_CLASS_$_INStartCallIntentDonationMetadata

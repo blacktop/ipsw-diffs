@@ -74,12 +74,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C84AC35-8D48-33F7-8579-B01681871249
 -  Functions: 830
 -  Symbols:   3265
--  CStrings:  1442
+-  CStrings:  1588
++  UUID: 2813CE0A-DD3D-3DA0-99F9-D200392165A6
 +  Functions: 886
 +  Symbols:   3434
-+  CStrings:  1549
++  CStrings:  1709
  
 Symbols:
 + +[DDSMAAutoAssetManager isAutoAssetType:]

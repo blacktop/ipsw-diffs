@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x140
    __DATA.__bss: 0x12
 
+   - /System/Library/PrivateFrameworks/HearingUtilities.framework/HearingUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42AC08A9-C6F8-3DD7-BF74-6A6703BCBE63
++  UUID: BC85A909-A84F-3E67-A695-BB0CBBCD334C
+   Functions: 79
+   Symbols:   105
+   CStrings:  227
+
 ```

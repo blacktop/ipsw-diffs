@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 400B33C2-6326-324F-AE68-A29C1FC240F1
++  UUID: B7A1F485-A153-3E9A-AAF8-E7CEEDBBB832
    Functions: 87
    Symbols:   123
--  CStrings:  266
-+  CStrings:  267
+-  CStrings:  310
++  CStrings:  312
  
 CStrings:
 + "ACTIVITY_ASSESSMENT"

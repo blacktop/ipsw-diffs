@@ -57,10 +57,8 @@
    __AUTH_CONST.__cfstring: 0x280
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__const: 0x94e0
--  __AUTH_CONST.__auth_ptr: 0x2f0
 -  __AUTH_CONST.__auth_got: 0x2338
 +  __AUTH_CONST.__const: 0x9a70
-+  __AUTH_CONST.__auth_ptr: 0x300
 +  __AUTH_CONST.__auth_got: 0x2408
    __AUTH.__objc_data: 0x14f8
 -  __AUTH.__data: 0x16f8
@@ -82,12 +80,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F5051A69-1E6E-3AB5-86E7-CCD7DB9781CB
 -  Functions: 5229
 -  Symbols:   2482
--  CStrings:  972
+-  CStrings:  992
++  UUID: 9250AEF2-BF0B-3CA1-9BD9-F0591DBA392F
 +  Functions: 5413
 +  Symbols:   2551
-+  CStrings:  985
++  CStrings:  1005
  
 Symbols:
 + _FIUICurrentLanguageNeedsExtendedLineSpacing

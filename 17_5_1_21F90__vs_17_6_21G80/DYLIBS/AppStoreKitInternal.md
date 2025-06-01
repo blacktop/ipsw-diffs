@@ -69,11 +69,9 @@
 -  __AUTH_CONST.__const: 0x41bb8
 +  __AUTH_CONST.__const: 0x41f28
    __AUTH_CONST.__objc_arrayobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x1658
 -  __AUTH_CONST.__auth_got: 0x3a70
 -  __AUTH.__objc_data: 0x3428
 -  __AUTH.__data: 0x10338
-+  __AUTH_CONST.__auth_ptr: 0x1678
 +  __AUTH_CONST.__auth_got: 0x3ad8
 +  __AUTH.__objc_data: 0x34c8
 +  __AUTH.__data: 0x10888
@@ -95,12 +93,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 63ABA6DB-B9B2-343F-AAF1-0F97DEB6710B
 -  Functions: 45436
 -  Symbols:   11743
--  CStrings:  6628
+-  CStrings:  6736
++  UUID: 18E1346D-9FD3-33AD-9541-7AF682805EC7
 +  Functions: 45653
 +  Symbols:   11774
-+  CStrings:  6651
++  CStrings:  6759
  
 Symbols:
 + __DATA__TtC19AppStoreKitInternal23CrossfireReferralAction

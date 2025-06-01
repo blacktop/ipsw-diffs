@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 25EC2225-AF04-333D-AC81-448A53995184
 -  Functions: 1418
 -  Symbols:   5427
--  CStrings:  2722
+-  CStrings:  2938
++  UUID: 80741EFF-EDE5-308C-B734-2EAECA5F1B72
 +  Functions: 1443
 +  Symbols:   5510
-+  CStrings:  2768
++  CStrings:  2991
  
 Symbols:
 + +[OBBundle bundleAtPath:isLinkBundle:isReplacementBundle:]

@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 682811A8-9672-394A-A7D5-CA5741DC0DD4
 -  Functions: 1457
 -  Symbols:   331
--  CStrings:  2761
+-  CStrings:  3232
++  UUID: F5FD0C52-0AE4-39AC-B2E4-9B915D423132
 +  Functions: 1461
 +  Symbols:   334
-+  CStrings:  2772
++  CStrings:  3246
  
 Symbols:
 + _BMUseCaseNone

@@ -33,4 +33,13 @@
    __DATA_DIRTY.__bss: 0x80
    - /System/Library/Frameworks/AppIntents.framework/AppIntents
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DB1174F3-C07A-37F5-BC1A-A026954F193B
++  UUID: CCF3CC4F-DEC3-3E28-9E9D-93ED0DC22B91
+   Functions: 645
+   Symbols:   586
+   CStrings:  216
+
 ```

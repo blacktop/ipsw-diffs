@@ -88,12 +88,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9AAA9B70-CDD0-3644-A337-EC70241D6063
 -  Functions: 3985
 -  Symbols:   499
--  CStrings:  11300
+-  CStrings:  13257
++  UUID: B9773D4F-AFDE-31B1-8F61-658414356CF3
 +  Functions: 4329
 +  Symbols:   512
-+  CStrings:  12000
++  CStrings:  14000
  
 Symbols:
 + _CFStringGetTypeID

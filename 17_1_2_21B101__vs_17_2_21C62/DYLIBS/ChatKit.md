@@ -85,11 +85,9 @@
 +  __AUTH_CONST.__objc_doubleobj: 0x900
    __AUTH_CONST.__objc_floatobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x2f8
--  __AUTH_CONST.__auth_ptr: 0x1c8
 -  __AUTH_CONST.__auth_got: 0x2f70
 -  __AUTH.__objc_data: 0x101c0
 -  __AUTH.__data: 0x2d00
-+  __AUTH_CONST.__auth_ptr: 0x1f0
 +  __AUTH_CONST.__auth_got: 0x30d8
 +  __AUTH.__objc_data: 0x10be0
 +  __AUTH.__data: 0x3020
@@ -142,12 +140,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A7971C35-998A-3908-8192-E8F6186E54E4
 -  Functions: 39127
 -  Symbols:   115001
--  CStrings:  46320
+-  CStrings:  52865
++  UUID: AEA10B1C-9498-367D-B310-5E69D409CE87
 +  Functions: 40090
 +  Symbols:   117191
-+  CStrings:  45267
++  CStrings:  49683
  
 Symbols:
 + +[CAAnimation(ChatKit) ck_opacityAnimationForRevealingSticker:]
@@ -7123,5 +7123,7 @@ CStrings:
 - "v72@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@?64"
 - "\x92\xf0\xf1\xf0\xf0\x11\xf0\xe1\x91\x11"
 - "\xa1\xc1"
+- "\xb1! "
+- "\xb3! "
 
 ```

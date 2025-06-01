@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C6B69693-6A11-3073-A336-AECDE175009B
++  UUID: 9F07A4B1-CC6F-3EFB-B687-B45A3D3AFEF8
+   Functions: 2336
+   Symbols:   25667
+   CStrings:  11875
+
 ```

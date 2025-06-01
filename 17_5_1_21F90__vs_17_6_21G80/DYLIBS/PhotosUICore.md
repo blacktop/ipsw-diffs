@@ -73,7 +73,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x4660
 -  __AUTH_CONST.__const: 0x1e6a8
 -  __AUTH_CONST.__objc_const: 0x42048
--  __AUTH_CONST.__auth_ptr: 0x380
 -  __AUTH_CONST.__cfstring: 0x7cb80
 +  __DATA_CONST.__objc_const: 0x1567c0
 +  __DATA_CONST.__objc_selrefs: 0x472c8
@@ -83,7 +82,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x4668
 +  __AUTH_CONST.__const: 0x1ea18
 +  __AUTH_CONST.__objc_const: 0x42240
-+  __AUTH_CONST.__auth_ptr: 0x388
 +  __AUTH_CONST.__cfstring: 0x7cf60
    __AUTH_CONST.__objc_doubleobj: 0x750
    __AUTH_CONST.__objc_arrayobj: 0x25f8
@@ -121,12 +119,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E9503F9-E88F-39E0-9C6D-A5513DFCA149
 -  Functions: 80658
 -  Symbols:   225511
--  CStrings:  94382
+-  CStrings:  110346
++  UUID: 629D28CB-E928-3981-8FC6-80CE2976BBD4
 +  Functions: 80832
 +  Symbols:   225785
-+  CStrings:  94505
++  CStrings:  110500
  
 Symbols:
 + +[PXAssetsRecoverySettings settingsControllerModule]

@@ -78,12 +78,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F72ABB00-F346-38DE-9D32-3F113FCDDBB7
 -  Functions: 152
 -  Symbols:   1086
--  CStrings:  710
+-  CStrings:  1036
++  UUID: F6A3A94F-728D-330F-BCD4-46D100FFFE92
 +  Functions: 224
 +  Symbols:   1437
-+  CStrings:  889
++  CStrings:  1245
  
 Symbols:
 + +[AUObserverXPC xpcConnectionToDaemon]

@@ -25,11 +25,15 @@
    __AUTH_CONST.__objc_const: 0x1f20
    __AUTH_CONST.__auth_got: 0x370
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E29F9447-4CCC-37D3-AB11-E34B98336E7C
++  UUID: 47A61D60-EED9-39C6-A730-F3773D4D5995
    Functions: 431
    Symbols:   1920
--  CStrings:  982
-+  CStrings:  980
+-  CStrings:  1407
++  CStrings:  1404
  
 Symbols:
 + ___block_literal_global.239

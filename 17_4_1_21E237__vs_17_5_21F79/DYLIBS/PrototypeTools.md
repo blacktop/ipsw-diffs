@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7704E6E7-3D80-3189-A37E-68CFB0546151
++  UUID: D72109BE-B47E-3264-9910-5C7483F895E6
+   Functions: 755
+   Symbols:   2854
+   CStrings:  1523
+
 ```

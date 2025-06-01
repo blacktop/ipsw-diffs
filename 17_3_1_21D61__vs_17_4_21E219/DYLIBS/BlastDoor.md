@@ -73,7 +73,6 @@
 +  __AUTH_CONST.__cfstring: 0x2080
 +  __AUTH_CONST.__const: 0x228b8
    __AUTH_CONST.__objc_const: 0x2318
--  __AUTH_CONST.__auth_ptr: 0x200
 -  __AUTH_CONST.__auth_got: 0x1580
 -  __AUTH.__objc_data: 0x6c98
 -  __AUTH.__data: 0x3390
@@ -87,7 +86,6 @@
 -  __DATA_DIRTY.__objc_data: 0x2800
 -  __DATA_DIRTY.__data: 0x6190
 -  __DATA_DIRTY.__bss: 0x9ab0
-+  __AUTH_CONST.__auth_ptr: 0x208
 +  __AUTH_CONST.__auth_got: 0x1600
 +  __AUTH.__objc_data: 0x6af8
 +  __AUTH.__data: 0x3218
@@ -136,12 +134,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DABD8BBE-036B-395F-94F0-254B44A5598B
 -  Functions: 30110
 -  Symbols:   9103
--  CStrings:  4104
+-  CStrings:  4363
++  UUID: 3569C7CE-DAD6-35D2-AE71-6F8A0D061326
 +  Functions: 30887
 +  Symbols:   9180
-+  CStrings:  4172
++  CStrings:  4432
  
 Symbols:
 + -[_BlastDoorLPiTunesMediaPlaylistMetadata curatorHandle]

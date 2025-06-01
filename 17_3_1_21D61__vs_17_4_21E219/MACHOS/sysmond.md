@@ -26,11 +26,15 @@
    __DATA.__data: 0x2c8
    __DATA.__bss: 0x80
 
+   - /usr/lib/libpmenergy.dylib
+   - /usr/lib/libpmsample.dylib
    - /usr/lib/libsysmon.dylib
+-  UUID: 8A660676-6FDE-3A67-B1E0-1FA55A363C2C
++  UUID: C4D4DB89-D5DD-31C7-AFF2-71A8CB9DD722
    Functions: 76
    Symbols:   123
--  CStrings:  73
-+  CStrings:  74
+-  CStrings:  78
++  CStrings:  79
  
 CStrings:
 + "T@\"NSString\",?,R,C"

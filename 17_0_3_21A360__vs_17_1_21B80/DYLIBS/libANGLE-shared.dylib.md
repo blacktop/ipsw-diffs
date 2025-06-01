@@ -32,15 +32,18 @@
 +  __DATA_CONST.__objc_selrefs: 0x778
    __AUTH_CONST.__const: 0xe10
    __AUTH_CONST.__cfstring: 0x9a0
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_const: 0x0
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 26249C1C-521F-35FD-B02A-A6A3289E7217
++  UUID: 3A0B9278-5415-376B-AA24-0BCEE0901292
    Functions: 11034
 -  Symbols:   28963
--  CStrings:  8853
+-  CStrings:  8930
 +  Symbols:   28965
-+  CStrings:  8855
++  CStrings:  8932
  
 Symbols:
 + _objc_msgSend$code

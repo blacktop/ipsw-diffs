@@ -54,7 +54,6 @@
    __DATA_CONST.__objc_arraydata: 0x65f8
    __AUTH_CONST.__objc_const: 0xbb38
    __AUTH_CONST.__const: 0x1560
-   __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__cfstring: 0x2d860
 +  __AUTH_CONST.__cfstring: 0x2d980
    __AUTH_CONST.__objc_dictobj: 0x1dd8
@@ -84,12 +83,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: D45D7BD9-3F3B-3FB7-B283-E5A60B0FBAAB
 -  Functions: 8972
 -  Symbols:   29997
--  CStrings:  13846
+-  CStrings:  19673
++  UUID: 383ED744-3910-33E5-A4AB-5C133DD896E5
 +  Functions: 8961
 +  Symbols:   29945
-+  CStrings:  13877
++  CStrings:  19713
  
 Symbols:
 + -[NSCloudKitMirroringDelegate _disableAutomaticExports]

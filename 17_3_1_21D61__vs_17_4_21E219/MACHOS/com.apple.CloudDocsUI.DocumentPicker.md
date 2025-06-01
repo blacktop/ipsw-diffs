@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
 
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7B4BDB38-EF04-3F95-B254-6766CA0BAA52
++  UUID: 557B0999-D913-3901-B980-DA87CBDE9447
+   Functions: 1
+   Symbols:   5
+   CStrings:  1
+
 ```

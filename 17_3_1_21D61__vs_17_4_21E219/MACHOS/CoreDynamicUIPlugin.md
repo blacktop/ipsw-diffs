@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9B2AFF4F-4BD6-3A7B-B77F-B4D985F350A6
 -  Functions: 3796
 -  Symbols:   330
--  CStrings:  978
+-  CStrings:  986
++  UUID: CFB42B4E-1A3F-3CE6-81E0-CE5A5CBC481E
 +  Functions: 3812
 +  Symbols:   327
-+  CStrings:  977
++  CStrings:  985
  
 Symbols:
 + _OBJC_CLASS_$_ASCMetricsActivity

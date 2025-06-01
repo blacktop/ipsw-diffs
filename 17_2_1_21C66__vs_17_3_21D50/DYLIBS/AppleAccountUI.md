@@ -55,7 +55,6 @@
    __AUTH_CONST.__const: 0x1a68
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0xe08
 -  __AUTH.__objc_data: 0x3678
 +  __AUTH.__objc_data: 0x36c8
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6AE377B2-ADB0-3701-82A2-7FE9AC6ACF21
 -  Functions: 4309
 -  Symbols:   12533
--  CStrings:  5532
+-  CStrings:  6019
++  UUID: A8016E81-FF78-36CF-8BF7-64C4F4BF6FCC
 +  Functions: 4366
 +  Symbols:   12686
-+  CStrings:  5592
++  CStrings:  6100
  
 Symbols:
 + +[AAUIDTOHelper _shouldAllowOpForRatchetState:]

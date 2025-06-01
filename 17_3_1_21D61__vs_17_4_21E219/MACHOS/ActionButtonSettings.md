@@ -36,8 +36,11 @@
    __DATA.__data: 0xa0
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E7D4CCBB-32B5-361D-B487-18EDD220AB03
++  UUID: D5A577C0-91AE-347D-9894-2177A5013353
    Functions: 36
 -  Symbols:   68
 +  Symbols:   67

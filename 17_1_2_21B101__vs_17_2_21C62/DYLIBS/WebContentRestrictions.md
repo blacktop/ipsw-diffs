@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x420
    __AUTH_CONST.__objc_intobj: 0x60
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 83374AF4-FA14-3BF7-9387-D4E6253C33C2
++  UUID: 74DF8CBB-D161-3A82-AC40-EE240A705125
    Functions: 247
    Symbols:   1026
--  CStrings:  288
-+  CStrings:  290
+-  CStrings:  357
++  CStrings:  361
  
 CStrings:
 + "http"

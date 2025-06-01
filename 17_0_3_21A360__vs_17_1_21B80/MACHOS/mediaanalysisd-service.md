@@ -56,11 +56,13 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8E6AA749-A845-3A91-9C4C-0BB1A3BF14FC
 -  Functions: 2827
++  UUID: D89C3E67-61A2-307C-8576-877781D927EA
 +  Functions: 2828
    Symbols:   711
--  CStrings:  5851
-+  CStrings:  5871
+-  CStrings:  6590
++  CStrings:  6613
  
 CStrings:
 + "%@ -> %@"

@@ -49,13 +49,16 @@
    __DATA.__data: 0x4e0
    __DATA.__bss: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 168AB084-60A4-3E26-BE31-57AD0F31B5BC
++  UUID: FA45DAD2-0F01-3B01-9E24-17C0A09B5FC3
    Functions: 309
 -  Symbols:   1573
--  CStrings:  1008
+-  CStrings:  1194
 +  Symbols:   1574
-+  CStrings:  1012
++  CStrings:  1200
  
 Symbols:
 + _objc_msgSend$valueForKeyPath:

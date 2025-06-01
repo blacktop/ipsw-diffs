@@ -58,7 +58,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_arrayobj: 0x288
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0xd68
 -  __AUTH.__objc_data: 0x2170
 +  __AUTH.__objc_data: 0x2210
@@ -82,12 +81,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77500502-BD80-3434-B6CB-8E58AE365EE2
 -  Functions: 10864
 -  Symbols:   41031
--  CStrings:  18635
+-  CStrings:  20104
++  UUID: 5E05C441-E69F-360B-B1DA-F971D222E4C4
 +  Functions: 10955
 +  Symbols:   41284
-+  CStrings:  18740
++  CStrings:  20216
  
 Symbols:
 + +[SFFluidTabOverviewItemView contentViewClass]

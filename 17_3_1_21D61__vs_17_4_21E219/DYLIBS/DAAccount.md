@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E00E4C8F-EA14-35B3-A841-8F184D6DCCA2
++  UUID: 08EA1196-1320-36C3-B7B7-FFDB0EE529C7
+   Functions: 4
+   Symbols:   30
+   CStrings:  15
+
 ```

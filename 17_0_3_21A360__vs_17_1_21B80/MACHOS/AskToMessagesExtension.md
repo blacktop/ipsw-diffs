@@ -26,7 +26,11 @@
    __DATA.__common: 0x88
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4BB1EE7D-A3C4-363F-AFB8-EFA3097A1C58
++  UUID: 43590AAE-A3D9-3219-B0D9-F4AD407F88B5
    Functions: 472
    Symbols:   183
 -  CStrings:  264

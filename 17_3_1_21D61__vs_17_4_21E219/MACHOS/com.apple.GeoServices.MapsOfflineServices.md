@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5EAA9ACB-B4E3-3C30-BCDD-A3626B876EBE
++  UUID: 79C46B1B-282B-3B2F-BCA5-F34D68D555A2
    Functions: 32
    Symbols:   72
--  CStrings:  157
-+  CStrings:  158
+-  CStrings:  159
++  CStrings:  160
  
 CStrings:
 + "T@\"NSString\",?,R,C"

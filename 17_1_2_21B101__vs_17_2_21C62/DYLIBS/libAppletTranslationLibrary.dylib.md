@@ -46,17 +46,19 @@
 +  __AUTH_CONST.__cfstring: 0x8680
    __AUTH_CONST.__objc_intobj: 0xaf8
    __AUTH_CONST.__objc_arrayobj: 0x420
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x690
 
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A829A7FB-C1FE-3127-A68A-CAF572D8B227
 -  Functions: 1576
 -  Symbols:   3828
--  CStrings:  2743
+-  CStrings:  3817
++  UUID: 7A83B280-F471-3D46-8EC7-A27B4580BA65
 +  Functions: 1577
 +  Symbols:   3833
-+  CStrings:  2751
++  CStrings:  3827
  
 Symbols:
 + -[AtlasDecoder generateContactEndEvent:withDidError:]

@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__const: 0x7cf0
    __AUTH_CONST.__cfstring: 0x220
    __AUTH_CONST.__objc_const: 0x410
-   __AUTH_CONST.__auth_ptr: 0x218
 -  __AUTH_CONST.__auth_got: 0x1c30
 +  __AUTH_CONST.__auth_got: 0x1bf8
    __AUTH.__objc_data: 0x888
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A8DAA101-B8AC-31FF-9BBD-DF3ED0296B03
 -  Functions: 5470
 -  Symbols:   2192
--  CStrings:  1015
+-  CStrings:  1032
++  UUID: 7A46CC71-A29B-305A-986D-86C2E531397E
 +  Functions: 5487
 +  Symbols:   2190
-+  CStrings:  1039
++  CStrings:  1056
  
 Symbols:
 + ___swift_get_extra_inhabitant_index.5Tm

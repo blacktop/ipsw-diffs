@@ -22,7 +22,6 @@
    __TEXT.__eh_frame: 0x38
    __DATA_CONST.__got: 0x258
    __DATA_CONST.__const: 0x40
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x130
    __AUTH_CONST.__cfstring: 0x1c0
 -  __AUTH_CONST.__auth_got: 0x510
@@ -34,12 +33,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 1F25E185-D655-38CD-AC33-ADE04BA53874
 -  Functions: 420
 -  Symbols:   1101
--  CStrings:  296
+-  CStrings:  310
++  UUID: 65CAF932-A1F3-374B-9954-03FCF9DB21BB
 +  Functions: 461
 +  Symbols:   1187
-+  CStrings:  326
++  CStrings:  340
  
 Symbols:
 + GCC_except_table14

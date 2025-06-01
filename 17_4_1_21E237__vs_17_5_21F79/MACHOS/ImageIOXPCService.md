@@ -28,13 +28,16 @@
    __DATA_CONST.__auth_got: 0x2140
    __DATA_CONST.__got: 0x630
 
+   - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 8C4D75B2-9A77-318F-A6FE-171C4F87CFA9
++  UUID: C405D99B-D351-3569-9B6F-C13CD106D099
    Functions: 16122
 -  Symbols:   10801
--  CStrings:  12677
+-  CStrings:  14204
 +  Symbols:   10803
-+  CStrings:  12681
++  CStrings:  14208
  
 Symbols:
 + __ZN10IIOScanner8getVal24Ev

@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AppPredictionFoundation.framework/AppPredictionFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE63DE75-2A11-34EB-B72F-B1138CE9CCA8
++  UUID: 192E09F5-1E70-3168-945B-42BDD860759A
+   Functions: 491
+   Symbols:   1870
+   CStrings:  762
+
 ```

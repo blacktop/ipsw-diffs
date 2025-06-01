@@ -39,13 +39,16 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D0E6AD9-17A9-3220-AAC3-D936D26CE01F
++  UUID: BE488BA7-BFB9-3E87-8E90-817055E288C2
    Functions: 8
 -  Symbols:   54
--  CStrings:  55
+-  CStrings:  65
 +  Symbols:   53
-+  CStrings:  58
++  CStrings:  69
  
 Symbols:
 - _objc_release_x26

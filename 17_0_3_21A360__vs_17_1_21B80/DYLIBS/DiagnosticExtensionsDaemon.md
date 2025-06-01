@@ -40,12 +40,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DA38281C-2D6F-3BCE-9E38-D5BAED4D34F6
 -  Functions: 2712
 -  Symbols:   9259
--  CStrings:  4407
+-  CStrings:  5003
++  UUID: 5871C5E0-471A-30D9-96DF-31431E5BCDB3
 +  Functions: 2714
 +  Symbols:   9265
-+  CStrings:  4410
++  CStrings:  5006
  
 Symbols:
 + _DEDSessionStateLog

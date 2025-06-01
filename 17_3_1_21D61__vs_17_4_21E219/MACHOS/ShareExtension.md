@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B884E8DD-0AB1-3C6B-B982-4E8B38C38A35
++  UUID: ACF4E151-C4C3-39D7-BA1E-FC4CB84210DA
+   Functions: 61
+   Symbols:   77
+   CStrings:  191
+
 ```

@@ -71,12 +71,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85FA92C8-70F6-30F1-BE37-4D59E63C5DD4
 -  Functions: 1415
 -  Symbols:   4854
--  CStrings:  2218
+-  CStrings:  2608
++  UUID: 3A5553D5-17FC-3DC3-9FD0-08E3CE83AD59
 +  Functions: 1416
 +  Symbols:   4863
-+  CStrings:  2219
++  CStrings:  2609
  
 Symbols:
 + _APSRemoteConfigGetBooleanIfPresent

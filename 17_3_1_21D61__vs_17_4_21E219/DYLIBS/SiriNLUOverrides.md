@@ -55,7 +55,6 @@
 -  __DATA_CONST.__objc_const: 0x6e0
 -  __DATA_CONST.__objc_selrefs: 0x420
 -  __AUTH_CONST.__const: 0x1008
--  __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__objc_const: 0x238
 +  __DATA_CONST.__objc_const: 0x580
 +  __DATA_CONST.__objc_selrefs: 0x308
@@ -63,7 +62,6 @@
 +  __DATA_CONST.__objc_classrefs: 0xc0
 +  __DATA_CONST.__objc_superrefs: 0x10
 +  __AUTH_CONST.__const: 0xa88
-+  __AUTH_CONST.__auth_ptr: 0x88
 +  __AUTH_CONST.__objc_const: 0x1f0
    __AUTH_CONST.__cfstring: 0xe0
 -  __AUTH_CONST.__auth_got: 0x1200
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8ADF0436-2868-3FEC-B72F-C53649E65184
 -  Functions: 1385
 -  Symbols:   1363
--  CStrings:  404
+-  CStrings:  411
++  UUID: 8B8A3715-333C-31A4-9C98-82132CB9CCFD
 +  Functions: 1129
 +  Symbols:   1206
-+  CStrings:  308
++  CStrings:  315
  
 Symbols:
 + _OBJC_CLASS_$_NSFetchRequest

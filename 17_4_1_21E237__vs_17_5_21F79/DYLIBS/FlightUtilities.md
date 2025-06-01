@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DCEF7577-3FB0-38AD-B4D3-884BCE76A3DB
++  UUID: FF963695-6FE4-3FDA-9E4C-AB460F557D6A
+   Functions: 365
+   Symbols:   1623
+   CStrings:  1081
+
 ```

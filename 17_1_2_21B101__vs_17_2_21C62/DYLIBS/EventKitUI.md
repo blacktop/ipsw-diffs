@@ -54,8 +54,8 @@
    __AUTH_CONST.__cfstring: 0xa8e0
    __AUTH_CONST.__const: 0x3088
 
+   __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0x10d0
 -  __AUTH.__objc_data: 0x71a8
 +  __AUTH.__objc_data: 0x71c8
@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E7801D88-C7ED-3870-8AB9-5881A94B4BBA
 -  Functions: 11548
 -  Symbols:   32403
--  CStrings:  13972
+-  CStrings:  15323
++  UUID: 15B3B4C7-250E-3C32-BE08-984DA3C5FA35
 +  Functions: 11575
 +  Symbols:   32423
-+  CStrings:  13980
++  CStrings:  15331
  
 Symbols:
 + -[EKCalendarChooser viewIsAppearing:]

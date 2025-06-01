@@ -27,4 +27,13 @@
    __DATA.__data: 0x188
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 302C2DE0-0874-3F57-A70C-9B3CBCE110E2
++  UUID: B817DB06-ACB1-3BBC-BC09-03D9B15C0FF1
+   Functions: 157
+   Symbols:   695
+   CStrings:  424
+
 ```

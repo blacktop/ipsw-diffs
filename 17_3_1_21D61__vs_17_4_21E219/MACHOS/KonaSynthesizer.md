@@ -45,8 +45,11 @@
    __DATA.__data: 0x360
    __DATA.__objc_stublist: 0x8
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0902B7E3-F3EE-3418-B116-4F01A513F1A0
++  UUID: 4879370B-7777-33A4-8237-C01022B54FBD
    Functions: 156
 -  Symbols:   109
 -  CStrings:  160

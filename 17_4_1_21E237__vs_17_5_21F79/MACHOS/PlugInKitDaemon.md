@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3A7C958-1090-3AA9-B946-F53A27C74E12
 -  Functions: 412
 -  Symbols:   1434
--  CStrings:  1065
+-  CStrings:  1194
++  UUID: AA920456-00A6-3F04-A27C-7A6A1D059107
 +  Functions: 419
 +  Symbols:   1443
-+  CStrings:  1073
++  CStrings:  1203
  
 Symbols:
 + -[PKDExternalProviders initWithUserManagementProvider:]

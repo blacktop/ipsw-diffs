@@ -35,7 +35,7 @@
    __AUTH_CONST.__cfstring: 0x1e80
    __AUTH_CONST.__objc_arrayobj: 0xa8
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0x650
    __AUTH.__objc_data: 0xf0
 -  __DATA.__objc_protorefs: 0x20
@@ -45,11 +45,15 @@
    __DATA.__data: 0x498
    __DATA.__bss: 0x0
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4C52268E-89A9-3E8D-89C8-7E37A06BE3F5
++  UUID: 361CF04A-BA1F-3B50-9CA8-0CA69CF98CD6
    Functions: 740
    Symbols:   2595
--  CStrings:  1696
-+  CStrings:  1693
+-  CStrings:  1940
++  CStrings:  1937
  
 Symbols:
 + ___66-[CacheDeleteRemoteExtensionContext servicePurge:info:replyBlock:]_block_invoke.73

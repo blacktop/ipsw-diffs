@@ -34,13 +34,11 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __DATA_CONST.__objc_selrefs: 0x110
 -  __AUTH_CONST.__const: 0x69c00
--  __AUTH_CONST.__auth_ptr: 0x1f8
 -  __AUTH_CONST.__cfstring: 0x1820
 -  __AUTH_CONST.__auth_got: 0x16d8
 +  __DATA_CONST.__objc_selrefs: 0x128
 +  __DATA_CONST.__objc_classrefs: 0x68
 +  __AUTH_CONST.__const: 0x70430
-+  __AUTH_CONST.__auth_ptr: 0x1f0
 +  __AUTH_CONST.__cfstring: 0x14c0
 +  __AUTH_CONST.__auth_got: 0x1900
    __AUTH.__const_weak: 0x70
@@ -73,12 +71,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: B468482C-F99B-3C6C-95BF-EEB786EB02CC
 -  Functions: 44036
 -  Symbols:   1720
--  CStrings:  7623
+-  CStrings:  7816
++  UUID: 4D45B85A-A456-32D2-880C-A62086229341
 +  Functions: 48994
 +  Symbols:   1787
-+  CStrings:  10848
++  CStrings:  11014
  
 Symbols:
 + _CFCopyTypeIDDescription

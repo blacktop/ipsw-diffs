@@ -41,11 +41,15 @@
    __DATA.__objc_data: 0x690
    __DATA.__data: 0x300
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 336BC38E-58D9-3B61-9E51-00A4F2F4B3D0
++  UUID: 8257027D-5C1D-38B3-B753-C1E8938A1C41
    Functions: 555
    Symbols:   378
--  CStrings:  1596
-+  CStrings:  1597
+-  CStrings:  1846
++  CStrings:  1847
  
 CStrings:
 + "@32@0:8^{CGImageSource=}16@24"

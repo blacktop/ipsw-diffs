@@ -48,13 +48,16 @@
    __DATA.__common: 0x10
    __DATA.__bss: 0x4d8
 
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 51B96753-4033-353F-B4D7-207AC656C50F
++  UUID: 6E6A8C00-89F2-35D6-8B3C-CB03C9E9D5E3
    Functions: 1116
 -  Symbols:   4291
--  CStrings:  4161
+-  CStrings:  4617
 +  Symbols:   4295
-+  CStrings:  4183
++  CStrings:  4643
  
 Symbols:
 + _OBJC_IVAR_$_HDSSetupSession._homePod6GCapable

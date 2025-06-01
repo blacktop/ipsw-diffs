@@ -34,11 +34,15 @@
    __DATA_DIRTY.__objc_data: 0x3a70
    __DATA_DIRTY.__data: 0x10
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79E874C4-FE46-3067-BBD0-96596BD0C16D
++  UUID: C94E5F26-BE9E-3E5A-AA93-0C7BF5065274
    Functions: 9853
    Symbols:   28219
--  CStrings:  10808
-+  CStrings:  10821
+-  CStrings:  12886
++  CStrings:  12899
  
 Symbols:
 + ___block_literal_global.1725

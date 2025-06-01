@@ -21,11 +21,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: FD849891-B6D9-3C13-AF91-606B2522CF04
 -  Functions: 803
++  UUID: E35FCA98-2327-39E2-A2BD-D7900C1FA2D5
 +  Functions: 805
    Symbols:   156
--  CStrings:  1778
-+  CStrings:  1788
+-  CStrings:  1794
++  CStrings:  1804
  
 CStrings:
 + "%s (id %llu): failed to register file info (hash %llu): %d\n"

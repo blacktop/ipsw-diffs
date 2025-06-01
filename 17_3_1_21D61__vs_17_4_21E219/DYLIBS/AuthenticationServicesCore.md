@@ -78,14 +78,12 @@
    __AUTH_CONST.__objc_intobj: 0x60
 +  __AUTH_CONST.__const: 0x1c68
    __AUTH_CONST.__objc_arrayobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0xf98
 -  __AUTH.__objc_data: 0x0
 -  __DATA.__objc_protorefs: 0x90
 -  __DATA.__objc_classrefs: 0x380
 -  __DATA.__objc_superrefs: 0xd0
 -  __DATA.__objc_ivar: 0x364
-+  __AUTH_CONST.__auth_ptr: 0xa0
 +  __AUTH_CONST.__auth_got: 0x1028
 +  __AUTH.__objc_data: 0x158
 +  __AUTH.__data: 0x138
@@ -121,12 +119,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F25EBA4A-4F23-3640-9BB7-4D53D380200B
 -  Functions: 3424
 -  Symbols:   3902
--  CStrings:  1929
+-  CStrings:  2139
++  UUID: B3672F7A-5845-3496-BC6A-B6A600BF3AAF
 +  Functions: 3575
 +  Symbols:   4060
-+  CStrings:  2044
++  CStrings:  2256
  
 Symbols:
 + +[ASCCredentialProviderExtensionLoginChoice supportsSecureCoding]

@@ -32,4 +32,13 @@
    __DATA_DIRTY.__objc_const: 0xa20
    __DATA_DIRTY.__objc_data: 0xa50
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E14A9AD5-EF79-3CF4-8F68-C55BE91859E1
++  UUID: 9A89593B-E7C6-3404-8C86-155398F37CD3
+   Functions: 696
+   Symbols:   2203
+   CStrings:  1075
+
 ```

@@ -54,12 +54,16 @@
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_intobj: 0xc0
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ED09BE5E-50D4-30F2-8C84-1B470175FABA
++  UUID: CD77F00F-716D-389C-B157-E2332B75CC94
    Functions: 1453
 -  Symbols:   3840
+-  CStrings:  2145
 +  Symbols:   3842
-   CStrings:  1995
++  CStrings:  2144
  
 Symbols:
 + +[MTEpisodeUnavailableUtil alertTitleForUnavailableReason:podcastTitle:]

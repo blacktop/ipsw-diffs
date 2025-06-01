@@ -50,9 +50,7 @@
    __AUTH_CONST.__objc_const: 0xed0
    __AUTH_CONST.__const: 0x1580
    __AUTH_CONST.__objc_intobj: 0x78
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0xb50
-+  __AUTH_CONST.__auth_ptr: 0x48
 +  __AUTH_CONST.__auth_got: 0xb58
    __AUTH.__objc_data: 0xa88
    __AUTH.__data: 0x178
@@ -70,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D04FAC5-0D2F-3089-9A53-9C4A00A9A489
 -  Functions: 1493
 -  Symbols:   2746
--  CStrings:  1411
+-  CStrings:  1462
++  UUID: DB0198C5-7CA2-3748-9445-AB46C9A7A098
 +  Functions: 1511
 +  Symbols:   2751
-+  CStrings:  1425
++  CStrings:  1475
  
 Symbols:
 + -[SWCollaborationView _shouldOverrideSymbolConfigForVisionFreeform]

@@ -49,11 +49,13 @@
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C470E418-623C-3B28-81FD-780DE711EEF0
 -  Functions: 587
++  UUID: 97155AFC-1B14-31FD-A606-CB7C6BA5D4A2
 +  Functions: 588
    Symbols:   367
--  CStrings:  1635
-+  CStrings:  1639
+-  CStrings:  2030
++  CStrings:  2034
  
 CStrings:
 + "T@\"NSString\",?,R,C"

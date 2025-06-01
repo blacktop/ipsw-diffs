@@ -34,6 +34,15 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: FDC6C4C0-EAFA-34F6-887C-ED0392B8CCA5
++  UUID: 134CAF3F-D5BF-3E1A-BFBE-2BC3776E6C17
+   Functions: 4666
+   Symbols:   16554
+   CStrings:  10017
 CStrings:
 + "Apr 13 2024"
 + "TrialXP-399.9.1"

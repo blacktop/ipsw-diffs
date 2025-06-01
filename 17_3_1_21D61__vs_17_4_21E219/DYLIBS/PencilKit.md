@@ -57,6 +57,7 @@
 -  __DATA_CONST.__objc_selrefs: 0xf218
 -  __DATA_CONST.__objc_arraydata: 0x768
 -  __AUTH_CONST.__const: 0x4b28
+-  __AUTH_CONST.__objc_const: 0x8a78
 +  __DATA_CONST.__objc_const: 0x347c8
 +  __DATA_CONST.__objc_selrefs: 0xf2b0
 +  __DATA_CONST.__objc_protorefs: 0x70
@@ -64,8 +65,6 @@
 +  __DATA_CONST.__objc_superrefs: 0xa20
 +  __DATA_CONST.__objc_arraydata: 0x790
 +  __AUTH_CONST.__const: 0x4c90
-   __AUTH_CONST.__auth_ptr: 0x18
--  __AUTH_CONST.__objc_const: 0x8a78
 +  __AUTH_CONST.__objc_const: 0x8b50
    __AUTH_CONST.__cfstring: 0xbbc0
 -  __AUTH_CONST.__objc_intobj: 0x768
@@ -114,12 +113,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8754720F-2890-3AC6-A63D-20E1B27BE36E
 -  Functions: 13822
 -  Symbols:   43707
--  CStrings:  16748
+-  CStrings:  18250
++  UUID: 34501BAD-22A9-39BC-AE71-46CB577AFE1E
 +  Functions: 13931
 +  Symbols:   44054
-+  CStrings:  16919
++  CStrings:  18421
  
 Symbols:
 + +[PKContentVersionUtility sharedUtility]
@@ -1557,7 +1558,6 @@ CStrings:
 + "Scribble-Large-Return-Button"
 + "Scribble-Small-Return-Button"
 + "Skip processing FR notification, toolPicker: %p, isVisible: %{BOOL}d, hasPresentedViewController: %{BOOL}d"
-+ "T"
 + "T@\"<BEExtendedTextInputTraits>\",R,N"
 + "T@\"<BETextInputDelegate>\",W,N"
 + "T@\"NSArray\",?,R,C,N"

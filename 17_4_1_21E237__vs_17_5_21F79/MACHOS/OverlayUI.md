@@ -30,11 +30,15 @@
    __DATA.__objc_ivar: 0x3c
    __DATA.__objc_data: 0x4b0
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C91FDA09-C18E-3EA9-9157-A67C1D0AB2C2
++  UUID: B9766B77-03CA-37E8-A574-B3E1FAEB29F5
    Functions: 70
    Symbols:   106
--  CStrings:  425
-+  CStrings:  428
+-  CStrings:  432
++  CStrings:  435
  
 CStrings:
 + "@\"NSSet\"16@0:8"

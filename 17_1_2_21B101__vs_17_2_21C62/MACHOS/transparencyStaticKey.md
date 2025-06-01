@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F5D86A2C-D3A3-3353-8A00-92177E9E49F3
 -  Functions: 2134
 -  Symbols:   133
--  CStrings:  1426
+-  CStrings:  1582
++  UUID: E90D705B-869B-338F-9A7A-E349ADDACE87
 +  Functions: 2871
 +  Symbols:   229
-+  CStrings:  2754
++  CStrings:  3123
  
 Symbols:
 + _IDSCopyAddressDestinationForDestination

@@ -38,11 +38,15 @@
    __DATA.__data: 0x3c0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 905A4929-74C2-3B99-83A3-4E9D43C70196
++  UUID: 56B4C182-3581-360D-B555-90AE11226FBC
    Functions: 189
    Symbols:   841
--  CStrings:  411
-+  CStrings:  412
+-  CStrings:  438
++  CStrings:  439
  
 Symbols:
 + ___61-[URTAlertService listener:didReceiveConnection:withContext:]_block_invoke.90

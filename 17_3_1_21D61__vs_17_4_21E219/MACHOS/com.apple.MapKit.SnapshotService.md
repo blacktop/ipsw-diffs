@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CAB4F967-4025-3EE4-9B17-BE0F66D87CC9
++  UUID: 33FCC633-05AA-39B0-86C1-E55B9318116A
    Functions: 43
    Symbols:   93
--  CStrings:  196
-+  CStrings:  197
+-  CStrings:  201
++  CStrings:  202
  
 CStrings:
 + "T@\"NSString\",?,R,C"

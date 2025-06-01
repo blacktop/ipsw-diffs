@@ -60,11 +60,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: C356EAA9-DB9E-33DF-8551-C948DC9D7AE2
 -  Functions: 1471
++  UUID: 4A0DE58D-44B0-36AA-BBFC-4C8DAE91E330
 +  Functions: 1484
    Symbols:   491
--  CStrings:  4749
-+  CStrings:  4778
+-  CStrings:  6672
++  CStrings:  6714
  
 CStrings:
 + "\x01\x12\x19"

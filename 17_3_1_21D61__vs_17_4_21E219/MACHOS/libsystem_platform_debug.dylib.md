@@ -23,9 +23,11 @@
    __DATA_DIRTY.__common: 0x14
    - /System/DriverKit/usr/lib/system/libdyld.dylib
    - /System/DriverKit/usr/lib/system/libsystem_kernel.dylib
+-  UUID: 698457F3-727B-3A50-BB76-88021CE1B897
 -  Functions: 208
 -  Symbols:   251
 -  CStrings:  47
++  UUID: 5D38F031-6A93-35C9-A493-024360ED65EA
 +  Functions: 215
 +  Symbols:   259
 +  CStrings:  48

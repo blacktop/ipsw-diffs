@@ -44,11 +44,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79348CC0-5794-3CCF-AD9E-AC69ACC686E3
 -  Functions: 361
++  UUID: 0320E291-5575-3AF6-9729-1230B2A449C1
 +  Functions: 360
    Symbols:   174
--  CStrings:  569
-+  CStrings:  571
+-  CStrings:  601
++  CStrings:  603
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A8FF15F8-190D-3165-9F8C-900B24A747AC
 -  Functions: 31570
 -  Symbols:   857
--  CStrings:  7419
+-  CStrings:  7587
++  UUID: D6EE2297-4B11-3977-83BC-795FDF8A825C
 +  Functions: 32006
 +  Symbols:   832
-+  CStrings:  7148
++  CStrings:  7235
  
 Symbols:
 + _CFBooleanGetTypeID

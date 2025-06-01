@@ -20,5 +20,11 @@
    __DATA.__data: 0x140
    __DATA.__common: 0x19
    __DATA.__bss: 0xfd
+   - /usr/lib/libSystem.B.dylib
+-  UUID: EBA629AF-F818-3577-8F24-1A3656B5A25F
++  UUID: 83DE9EC4-871C-3B9D-84F4-EC5FA835E1E8
+   Functions: 67
+   Symbols:   187
+   CStrings:  178
 
 ```

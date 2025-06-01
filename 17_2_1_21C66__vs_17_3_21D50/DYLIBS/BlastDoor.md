@@ -66,11 +66,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FC4552A7-C7C1-34CE-8A84-F9C9A5CF267E
 -  Functions: 30105
++  UUID: DABD8BBE-036B-395F-94F0-254B44A5598B
 +  Functions: 30110
    Symbols:   9103
--  CStrings:  4102
-+  CStrings:  4104
+-  CStrings:  4361
++  CStrings:  4363
  
 CStrings:
 + "foundAppleGUID"

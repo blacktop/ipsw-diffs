@@ -21,11 +21,13 @@
    - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D5AF789-A042-35CF-9468-91032FC4A1F2
 -  Functions: 647
++  UUID: 641041DB-7B8C-3FEF-B22B-60A143650039
 +  Functions: 645
    Symbols:   309
--  CStrings:  1405
-+  CStrings:  1408
+-  CStrings:  1500
++  CStrings:  1503
  
 CStrings:
 + "%s -- Migrating recordings directory from %@ to %@"

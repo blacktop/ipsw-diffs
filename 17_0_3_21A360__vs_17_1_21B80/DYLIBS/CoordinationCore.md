@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35E6072C-808F-3830-8DA2-41425FAD8103
 -  Functions: 4112
 -  Symbols:   13330
--  CStrings:  4932
+-  CStrings:  5225
++  UUID: 69E5BB40-9122-3826-A068-050C91246696
 +  Functions: 4083
 +  Symbols:   13214
-+  CStrings:  4939
++  CStrings:  5228
  
 Symbols:
 + -[COAlarmService _postCanDispatchChanged:forAccessory:toObserver:]

@@ -39,11 +39,15 @@
    __DATA.__data: 0xda0
    __DATA.__bss: 0x140
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 10D215C2-20F3-3683-97B8-816FD27ED834
++  UUID: D7874B9B-AC72-35CF-9BF7-C9F55372C9D8
    Functions: 829
    Symbols:   3213
--  CStrings:  1441
-+  CStrings:  1442
+-  CStrings:  1551
++  CStrings:  1552
  
 Symbols:
 + ___39-[DKExtensionRequest beginWithPayload:]_block_invoke.96

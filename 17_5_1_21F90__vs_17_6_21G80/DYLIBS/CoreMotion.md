@@ -48,11 +48,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E4A6F107-B302-327C-A121-C9BEBACCA8F4
 -  Functions: 16995
++  UUID: 5D6E7429-1166-38B3-807B-DFAD246F9132
 +  Functions: 16999
    Symbols:   1553
--  CStrings:  14071
-+  CStrings:  14077
+-  CStrings:  16222
++  CStrings:  16228
  
 CStrings:
 + "19:20:48"

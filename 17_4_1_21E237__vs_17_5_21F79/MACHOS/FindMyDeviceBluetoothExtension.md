@@ -21,5 +21,10 @@
    - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30283B23-9334-3AB4-B7F6-42819AAE0A87
++  UUID: 3DA8222F-EEF2-30D4-B971-330F0E38438E
+   Functions: 439
+   Symbols:   163
+   CStrings:  1685
 
 ```

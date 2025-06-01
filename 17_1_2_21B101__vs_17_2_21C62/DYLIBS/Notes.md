@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CFA3B19C-F218-345A-A4AD-C355381024B2
 -  Functions: 484
 -  Symbols:   1981
--  CStrings:  1128
+-  CStrings:  1296
++  UUID: 6342F020-D879-3E3E-A866-120E3FA8C456
 +  Functions: 485
 +  Symbols:   1983
-+  CStrings:  1129
++  CStrings:  1297
  
 Symbols:
 + -[NoteObject(SearchIndexableNote) folderManagedIdentifier]

@@ -59,7 +59,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x1a88
 +  __AUTH_CONST.__const: 0xb770
    __AUTH_CONST.__cfstring: 0x20
-   __AUTH_CONST.__auth_ptr: 0x500
    __AUTH_CONST.__objc_const: 0x290
 -  __AUTH_CONST.__auth_got: 0x2130
 -  __AUTH.__data: 0x8f8
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 177B364E-9D61-383E-95E6-66F4D9F47279
 -  Functions: 11698
 -  Symbols:   2169
--  CStrings:  3080
+-  CStrings:  3081
++  UUID: 6E08DCD7-6B85-3602-92B7-D9EA6067B399
 +  Functions: 11808
 +  Symbols:   2202
-+  CStrings:  3204
++  CStrings:  3205
  
 Symbols:
 + _OBJC_CLASS_$_FCUserEventHistoryAggregateStoreData

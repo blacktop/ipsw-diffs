@@ -40,12 +40,14 @@
    - /usr/lib/libMobileCheckpoint.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4B728A3-2F90-333D-8325-2C24E560DC14
 -  Functions: 242
 -  Symbols:   1119
--  CStrings:  548
+-  CStrings:  782
++  UUID: 4A52053E-9BB0-3009-AF58-B35F948D7389
 +  Functions: 240
 +  Symbols:   1113
-+  CStrings:  542
++  CStrings:  775
  
 Symbols:
 + -[PSDateTimePickerCellAccessibility accessibilityActivationPoint]

@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 23802F9D-C32B-3C25-8A1B-F6EE81CFB222
 -  Functions: 1385
 -  Symbols:   214
--  CStrings:  273
+-  CStrings:  274
++  UUID: A9A80850-5C0A-397E-AD93-2D07F1530D93
 +  Functions: 1378
 +  Symbols:   215
-+  CStrings:  288
++  CStrings:  289
  
 Symbols:
 + _swift_initStaticObject

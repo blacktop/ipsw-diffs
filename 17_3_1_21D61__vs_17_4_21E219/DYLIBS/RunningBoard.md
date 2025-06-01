@@ -46,6 +46,9 @@
 -  __AUTH_CONST.__const: 0x5a0
 -  __AUTH_CONST.__objc_const: 0x3150
 -  __AUTH_CONST.__objc_intobj: 0x210
+-  __AUTH_CONST.__objc_dictobj: 0x348
+-  __AUTH_CONST.__objc_arrayobj: 0x150
+-  __AUTH_CONST.__auth_got: 0xa18
 +  __DATA_CONST.__objc_const: 0xb1b8
 +  __DATA_CONST.__objc_selrefs: 0x2a00
 +  __DATA_CONST.__objc_classrefs: 0x6a8
@@ -55,10 +58,6 @@
 +  __AUTH_CONST.__const: 0x5e0
 +  __AUTH_CONST.__objc_const: 0x3220
 +  __AUTH_CONST.__objc_intobj: 0x240
-   __AUTH_CONST.__auth_ptr: 0x40
--  __AUTH_CONST.__objc_dictobj: 0x348
--  __AUTH_CONST.__objc_arrayobj: 0x150
--  __AUTH_CONST.__auth_got: 0xa18
 +  __AUTH_CONST.__objc_dictobj: 0x370
 +  __AUTH_CONST.__objc_arrayobj: 0x168
 +  __AUTH_CONST.__auth_got: 0xa20
@@ -79,12 +78,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: DE70D9AC-EDED-36BB-A6D7-8741E03DCAD8
 -  Functions: 2516
 -  Symbols:   8739
--  CStrings:  4186
+-  CStrings:  4869
++  UUID: 5CCA9589-E29E-3641-97F6-9D8AD3EDD88E
 +  Functions: 2549
 +  Symbols:   8863
-+  CStrings:  4246
++  CStrings:  4941
  
 Symbols:
 + +[RBLaunchdProperties _instanceWithProperties:]

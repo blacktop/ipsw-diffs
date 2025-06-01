@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/MomentsUIServiceCore.framework/MomentsUIServiceCore
+-  UUID: 2425528E-7D09-3A6D-B8A1-63EF73E2FA00
 -  Functions: 9292
 -  Symbols:   57210
--  CStrings:  3549
+-  CStrings:  3675
++  UUID: BEEE243C-2876-3CE1-8AF4-719245D1C82B
 +  Functions: 9310
 +  Symbols:   57378
-+  CStrings:  3551
++  CStrings:  3677
  
 Symbols:
 + _$s10Foundation12DateIntervalV19_bridgeToObjectiveCSo06NSDateC0CyF

@@ -49,8 +49,8 @@
    __AUTH_CONST.__const: 0xdb0
    __AUTH_CONST.__objc_intobj: 0x3f0
 
+   __AUTH_CONST.__objc_arrayobj: 0xd8
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa68
 -  __AUTH.__objc_data: 0x2210
 -  __DATA.__objc_protorefs: 0x10
@@ -72,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6FB97302-0600-348E-8C96-885181709DEC
 -  Functions: 5893
 -  Symbols:   19526
--  CStrings:  8464
+-  CStrings:  9262
++  UUID: 59959287-C8A3-3964-B6E3-2E5AA36BA0CD
 +  Functions: 5900
 +  Symbols:   19539
-+  CStrings:  8486
++  CStrings:  9285
  
 Symbols:
 + +[VKCInternalSettings shareHeicsCalloutEnabledSettingsValue]

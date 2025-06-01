@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 905DDEC2-FED9-38F0-915F-A8F5C074877D
 -  Functions: 1049
 -  Symbols:   253
--  CStrings:  2459
+-  CStrings:  3406
++  UUID: 3F32E268-3D61-316A-AFE1-37302243EB2C
 +  Functions: 1051
 +  Symbols:   255
-+  CStrings:  2465
++  CStrings:  3414
  
 Symbols:
 + _PFMediaCapabilitiesOptionsSortSourceEnumerationAscending

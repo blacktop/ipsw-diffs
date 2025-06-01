@@ -60,12 +60,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 01573F1F-7C47-3658-997B-126D5CBE914E
 -  Functions: 947
 -  Symbols:   3545
--  CStrings:  1747
+-  CStrings:  1900
++  UUID: 2D865737-BD90-35D4-A204-53A29AC07B54
 +  Functions: 966
 +  Symbols:   3588
-+  CStrings:  1754
++  CStrings:  1908
  
 Symbols:
 + -[CIDVRGBAVCaptureFileOutput invalidateRecording].cold.1

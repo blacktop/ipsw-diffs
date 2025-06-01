@@ -43,13 +43,16 @@
    __DATA.__data: 0x1aa0
    __DATA.__bss: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBB03AAB-5B8F-309C-B5C8-5296E07B6ACC
++  UUID: 35C68533-9960-3D01-80BF-99EC8FECBD83
    Functions: 2264
 -  Symbols:   9065
--  CStrings:  3922
+-  CStrings:  4292
 +  Symbols:   9066
-+  CStrings:  3923
++  CStrings:  4293
  
 Symbols:
 + _MKLaunchOptionsDirectionsModeCycling

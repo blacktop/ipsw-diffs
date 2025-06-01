@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 107345AB-90D9-30A5-B56A-6F82261C5728
 -  Functions: 4930
 -  Symbols:   1050
--  CStrings:  6267
+-  CStrings:  6824
++  UUID: 9C652E1F-7015-3596-9110-C528409F36AE
 +  Functions: 4948
 +  Symbols:   1058
-+  CStrings:  6545
++  CStrings:  7111
  
 Symbols:
 + _$sSw10copyMemory4fromySW_tF

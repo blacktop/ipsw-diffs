@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CCCEC669-98DD-3E59-9AB0-78FF26BC101E
++  UUID: FDA6C48D-B5A3-3808-80D0-4AE3C2859CCF
    Functions: 17
    Symbols:   68
--  CStrings:  108
-+  CStrings:  109
+-  CStrings:  135
++  CStrings:  137
  
 CStrings:
 + "Missing logarchive path. Use --Logging:archive=[path] to pass it"

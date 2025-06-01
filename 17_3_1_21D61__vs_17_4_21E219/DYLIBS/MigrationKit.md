@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__objc_const: 0x1f68
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x630
 +  __AUTH_CONST.__auth_got: 0x628
@@ -66,12 +65,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 8DD764E7-0162-31FA-A54F-BAF10832EBB5
 -  Functions: 1343
 -  Symbols:   5221
--  CStrings:  2658
+-  CStrings:  3214
++  UUID: 4AD3B8DE-0555-329E-82FF-D6FF22ECCF7A
 +  Functions: 1352
 +  Symbols:   5252
-+  CStrings:  2677
++  CStrings:  3237
  
 Symbols:
 + -[MKAPIServer router:didReceiveContainer:signature:chunk:filename:offset:length:total:required:excludedFromBackup:complete:]

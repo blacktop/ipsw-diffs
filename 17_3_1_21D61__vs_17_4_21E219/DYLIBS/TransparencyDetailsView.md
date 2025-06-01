@@ -37,11 +37,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF98302C-C613-39CC-94F4-6C78E3B65114
++  UUID: 25D302C1-3628-3AED-8567-2EE0EAEC88B5
    Functions: 157
    Symbols:   802
--  CStrings:  506
-+  CStrings:  507
+-  CStrings:  585
++  CStrings:  586
  
 CStrings:
 + "T@\"NSString\",?,R,C"

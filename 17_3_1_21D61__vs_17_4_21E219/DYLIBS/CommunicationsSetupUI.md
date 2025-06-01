@@ -64,7 +64,6 @@
 +  __AUTH_CONST.__cfstring: 0x97e0
 +  __AUTH_CONST.__objc_const: 0x1ea8
 +  __AUTH_CONST.__const: 0x9e8
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x78
 -  __AUTH_CONST.__objc_intobj: 0xf0
 -  __AUTH_CONST.__auth_got: 0x8e0
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8CD971DB-D76B-3B95-8E5D-676867E8B43D
 -  Functions: 2784
 -  Symbols:   9848
--  CStrings:  5583
+-  CStrings:  6866
++  UUID: B785AF17-BAD9-390D-BC2A-DAA364425676
 +  Functions: 2642
 +  Symbols:   9325
-+  CStrings:  5293
++  CStrings:  6508
  
 Symbols:
 + -[CKSettingsMessagesController _messagesForBusinessViewController]

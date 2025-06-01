@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_dictobj: 0x848
    __AUTH_CONST.__objc_arrayobj: 0x540
    __AUTH_CONST.__objc_doubleobj: 0x70
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x688
 -  __AUTH.__objc_data: 0x7940
 +  __AUTH.__objc_data: 0x7d00
@@ -81,12 +80,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AC988A81-DED9-3459-9A65-37A2CE4CCEE5
 -  Functions: 12168
 -  Symbols:   39199
--  CStrings:  18028
+-  CStrings:  22461
++  UUID: 91181732-E42D-3DFC-B6B7-623908CACFF5
 +  Functions: 12493
 +  Symbols:   40112
-+  CStrings:  18415
++  CStrings:  22917
  
 Symbols:
 + +[HMAccessoryDiagnosticInfoProtoPrimaryResidentDiagnosticInfo visibleAccessoriesInfoType]

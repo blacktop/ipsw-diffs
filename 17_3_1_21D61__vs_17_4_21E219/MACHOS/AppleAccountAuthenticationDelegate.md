@@ -29,6 +29,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
    - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7DD46810-CCC1-3F03-AB27-FAAFA1379826
++  UUID: FCDF03A2-C746-368D-B8BE-64C13F04C842
+   Functions: 4
+   Symbols:   44
+   CStrings:  46
 CStrings:
 + "T@\"NSString\",?,R"
 - "T@\"NSString\",R"

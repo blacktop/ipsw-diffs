@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0x8718
    __TEXT.__objc_methname: 0x76231
 
+   __AUTH_CONST.__objc_doubleobj: 0x280
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x198
    __AUTH_CONST.__auth_got: 0x20e0
 -  __AUTH.__objc_data: 0xfd78
 +  __AUTH.__objc_data: 0xfd28
@@ -41,5 +41,14 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B499D08-3686-37BA-9EFE-08D9B9F4A647
++  UUID: A215A179-CDCA-3949-B33D-2A427D24851F
+   Functions: 21476
+   Symbols:   59933
+   CStrings:  27820
 
 ```

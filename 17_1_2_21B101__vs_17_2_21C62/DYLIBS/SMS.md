@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C065BB13-4986-30E8-9EFE-7971AD78DB6F
 -  Functions: 661
 -  Symbols:   425
--  CStrings:  3243
+-  CStrings:  4277
++  UUID: 6BD11F59-3480-3BA7-8C21-A6082911004A
 +  Functions: 630
 +  Symbols:   423
-+  CStrings:  2539
++  CStrings:  2837
  
 Symbols:
 + _objc_loadWeak

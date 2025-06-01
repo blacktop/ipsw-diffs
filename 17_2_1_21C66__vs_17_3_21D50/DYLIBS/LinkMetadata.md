@@ -46,13 +46,16 @@
    __DATA_DIRTY.__common: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7F97BE53-4580-3E4A-A4F9-E900FA42D26A
++  UUID: 22F88D61-4F43-3581-B5E4-0D47E008E40A
    Functions: 5861
 -  Symbols:   6515
--  CStrings:  2069
+-  CStrings:  2541
 +  Symbols:   6516
-+  CStrings:  2071
++  CStrings:  2543
  
 Symbols:
 + -[LNActionMetadata metadataByAddingEffectiveBundleIdentifiers:mangledTypeNameByBundleIdentifier:]

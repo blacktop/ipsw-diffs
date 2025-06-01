@@ -19,4 +19,13 @@
    __TEXT.__objc_classname: 0x31
    __TEXT.__objc_methname: 0x852
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4FE2193E-7AF2-3E62-8335-F6D1C2EE85E4
++  UUID: 03A97799-7B86-3261-B3A2-31F360EE90CE
+   Functions: 619
+   Symbols:   2018
+   CStrings:  160
+
 ```

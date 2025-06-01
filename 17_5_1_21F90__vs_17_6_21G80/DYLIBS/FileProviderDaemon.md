@@ -28,11 +28,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DC0E9E62-D348-3B18-9EF3-A5C4F0C27CD7
 -  Functions: 31992
++  UUID: 2A1E302A-0B26-3F09-8448-0CAAD653E666
 +  Functions: 31993
    Symbols:   22166
--  CStrings:  10294
-+  CStrings:  10293
+-  CStrings:  10995
++  CStrings:  10994
  
 CStrings:
 + "Inconsistent kind %s for package"

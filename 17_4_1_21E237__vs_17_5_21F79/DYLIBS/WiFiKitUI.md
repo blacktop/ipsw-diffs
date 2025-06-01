@@ -53,12 +53,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C635630A-7432-3807-A16C-96B7CCA692A8
 -  Functions: 2072
 -  Symbols:   6968
--  CStrings:  4240
+-  CStrings:  5051
++  UUID: 2986FA90-2854-32E7-8B1A-AB2588B556BA
 +  Functions: 2074
 +  Symbols:   6973
-+  CStrings:  4246
++  CStrings:  5057
  
 Symbols:
 + -[WFBuddyViewController networkListVisible]

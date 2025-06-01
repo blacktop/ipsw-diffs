@@ -29,11 +29,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B95A95E3-52A9-3862-AF2F-81CD6577F5A7
++  UUID: 62BF1F26-C862-3396-9935-B69CC483EA8D
    Functions: 8
    Symbols:   23
--  CStrings:  65
-+  CStrings:  66
+-  CStrings:  71
++  CStrings:  72
  
 CStrings:
 + "T@\"NSString\",?,R,C"

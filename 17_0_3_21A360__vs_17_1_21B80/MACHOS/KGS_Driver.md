@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB73C26F-6699-3512-B3F4-E83A7976A934
 -  Functions: 46
 -  Symbols:   116
--  CStrings:  182
+-  CStrings:  217
++  UUID: 8AA2DE4F-3AAE-3126-9A7A-E8B054E877BA
 +  Functions: 24
 +  Symbols:   96
-+  CStrings:  168
++  CStrings:  191
  
 Symbols:
 - OBJC_IVAR_$_MSCROHIMSBrailleDriver._bluetoothChannelIsLost

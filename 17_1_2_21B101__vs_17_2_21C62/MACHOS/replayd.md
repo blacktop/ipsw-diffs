@@ -46,11 +46,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 73B29696-908F-3B60-9EF2-63C720E68CA5
 -  Functions: 1701
++  UUID: 629D2B11-CB0F-3949-8A8C-2B3D50429769
 +  Functions: 1704
    Symbols:   409
--  CStrings:  3320
-+  CStrings:  3328
+-  CStrings:  3695
++  CStrings:  3706
  
 CStrings:
 + " [ERROR] %{public}s:%d bundleID=%@ is invalid"

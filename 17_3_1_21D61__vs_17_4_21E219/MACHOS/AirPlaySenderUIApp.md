@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2464F84A-B7F9-381C-98DC-57D24E8CCCF8
 -  Functions: 192
 -  Symbols:   163
--  CStrings:  856
+-  CStrings:  935
++  UUID: 528FD002-99EE-303B-B8C9-2DF09F9A5B0B
 +  Functions: 189
 +  Symbols:   167
-+  CStrings:  854
++  CStrings:  932
  
 Symbols:
 + _APSRemoteConfigGetBooleanIfPresent

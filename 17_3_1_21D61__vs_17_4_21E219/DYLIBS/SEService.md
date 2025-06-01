@@ -77,14 +77,12 @@
 +  __AUTH_CONST.__const: 0x1b68
    __AUTH_CONST.__objc_dictobj: 0x50
    __AUTH_CONST.__objc_intobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x9e8
 -  __AUTH.__objc_data: 0x0
 -  __DATA.__objc_protorefs: 0x78
 -  __DATA.__objc_classrefs: 0x1f8
 -  __DATA.__objc_superrefs: 0xb0
 -  __DATA.__objc_ivar: 0x2a0
-+  __AUTH_CONST.__auth_ptr: 0x60
 +  __AUTH_CONST.__auth_got: 0xa60
 +  __AUTH.__objc_data: 0x128
 +  __AUTH.__data: 0x28
@@ -121,12 +119,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A4DDC981-A035-3429-8C15-89C9BD25D8FA
 -  Functions: 2125
 -  Symbols:   3527
--  CStrings:  1801
+-  CStrings:  2162
++  UUID: 4235C769-B11F-377A-B231-AC2857854E51
 +  Functions: 2587
 +  Symbols:   3629
-+  CStrings:  1840
++  CStrings:  2206
  
 Symbols:
 + +[PTClassicKey _withExportedBlob:error:]

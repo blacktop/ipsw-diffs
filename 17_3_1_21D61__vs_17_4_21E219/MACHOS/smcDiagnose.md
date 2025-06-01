@@ -17,4 +17,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x40f
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1EAF043E-86B5-3D38-B82E-74B6521FD6EF
++  UUID: 0C1ABEF0-08DF-3A7F-AF21-A740CBCC492C
+   Functions: 53
+   Symbols:   58
+   CStrings:  141
+
 ```

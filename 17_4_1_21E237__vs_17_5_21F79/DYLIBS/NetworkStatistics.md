@@ -40,12 +40,14 @@
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00DC0109-25BA-362C-9143-134F584EC660
 -  Functions: 1482
 -  Symbols:   4781
--  CStrings:  2446
+-  CStrings:  2938
++  UUID: 319C31E7-F117-3DCB-97DD-CC8E17F421FE
 +  Functions: 1484
 +  Symbols:   4785
-+  CStrings:  2448
++  CStrings:  2940
  
 Symbols:
 + -[NWStatsSnapshot delegateAttributionReasonString]

@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnfrestore.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B01E051D-74F7-3390-BC49-8A7E33AB0653
 -  Functions: 1154
 -  Symbols:   3728
--  CStrings:  1406
+-  CStrings:  1667
++  UUID: 8EA1C228-6B67-3E2D-8377-DDDD5369F985
 +  Functions: 1151
 +  Symbols:   3709
-+  CStrings:  1408
++  CStrings:  1669
  
 Symbols:
 + GCC_except_table100

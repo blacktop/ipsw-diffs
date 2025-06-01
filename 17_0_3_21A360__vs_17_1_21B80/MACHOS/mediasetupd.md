@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5639F08A-7344-3913-B1BD-709653ADD44A
 -  Functions: 995
 -  Symbols:   303
--  CStrings:  1931
+-  CStrings:  2046
++  UUID: 4E58142C-D085-319E-BC1F-156DF7548741
 +  Functions: 1003
 +  Symbols:   301
-+  CStrings:  1940
++  CStrings:  2055
  
 Symbols:
 - _XPC_ACTIVITY_CHECK_IN

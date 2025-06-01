@@ -43,10 +43,12 @@
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85430E57-82C9-31DF-96C4-21A8756E7258
++  UUID: E150A2B4-2681-3F3E-AABB-987C716E8E67
    Functions: 252
 -  Symbols:   200
 +  Symbols:   199
-   CStrings:  424
+   CStrings:  621
  
 Symbols:
 - _CFRetain

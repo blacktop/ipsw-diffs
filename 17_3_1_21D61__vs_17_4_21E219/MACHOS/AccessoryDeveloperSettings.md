@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 234E8439-7165-3AC2-B852-084DE01FCF60
 -  Functions: 11
 -  Symbols:   33
--  CStrings:  57
+-  CStrings:  78
++  UUID: 4A49278D-8A76-331C-8EFA-E1777538DD95
 +  Functions: 41
 +  Symbols:   67
-+  CStrings:  211
++  CStrings:  269
  
 Symbols:
 + _NSLog
@@ -101,6 +103,7 @@ Symbols:
 + _objc_alloc_init
 + _objc_opt_class
 CStrings:
++ ""
 + " "
 + "#16@0:8"
 + ".zip"
@@ -108,6 +111,7 @@ CStrings:
 + "@24@0:8:16"
 + "@32@0:8:16@24"
 + "@40@0:8:16@24@32"
++ "A"
 + "ADSSymbolAccessorizedCell"
 + "ADSSymbolAccessorizedCell.leading"
 + "ADSSymbolAccessorizedCell.trailing"

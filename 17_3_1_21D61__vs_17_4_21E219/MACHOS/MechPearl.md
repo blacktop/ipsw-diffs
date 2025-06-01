@@ -57,11 +57,13 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A01FB55-499F-3424-81E5-97D32DFFB6E1
 -  Functions: 132
++  UUID: 7CF76A1C-8E2D-338C-9DE8-D1BE4E0EA243
 +  Functions: 116
    Symbols:   83
--  CStrings:  439
-+  CStrings:  401
+-  CStrings:  464
++  CStrings:  426
  
 Symbols:
 + _objc_retain_x24

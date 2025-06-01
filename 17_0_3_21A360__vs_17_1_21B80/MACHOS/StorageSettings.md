@@ -26,11 +26,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x40
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 32AE0013-F249-34EC-AC9A-8AE9837920D8
++  UUID: 195F769E-103A-390A-99A4-81DB1BB920CA
    Functions: 485
    Symbols:   425
--  CStrings:  1482
-+  CStrings:  1484
+-  CStrings:  1819
++  CStrings:  1823
  
 CStrings:
 + "MAPS_DATA"

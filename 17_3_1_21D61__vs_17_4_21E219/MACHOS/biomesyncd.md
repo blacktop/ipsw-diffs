@@ -86,12 +86,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: ED24FD07-7EC7-3DC3-A17C-5509C6549198
 -  Functions: 1424
 -  Symbols:   327
--  CStrings:  2698
+-  CStrings:  3151
++  UUID: 1A31AF87-5930-3439-86CD-EBCF7C91CB57
 +  Functions: 1456
 +  Symbols:   330
-+  CStrings:  2753
++  CStrings:  3222
  
 Symbols:
 + _OBJC_CLASS_$_BMAccount

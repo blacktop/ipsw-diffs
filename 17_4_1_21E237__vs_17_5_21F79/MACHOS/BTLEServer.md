@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BAD0CE33-AB84-3403-867B-082144E3BB2C
 -  Functions: 2168
 -  Symbols:   483
--  CStrings:  3693
+-  CStrings:  4126
++  UUID: C9253470-45A1-30FB-9731-1805D62E5D93
 +  Functions: 2204
 +  Symbols:   485
-+  CStrings:  3737
++  CStrings:  4182
  
 Symbols:
 + __os_signpost_emit_with_name_impl

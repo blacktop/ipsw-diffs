@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9168DAD-5817-313E-917D-1A368DC58F01
 -  Functions: 2030
 -  Symbols:   7219
--  CStrings:  2277
+-  CStrings:  2961
++  UUID: 51B61989-70F5-3CAD-A557-2CE38DF0C598
 +  Functions: 2048
 +  Symbols:   7274
-+  CStrings:  2286
++  CStrings:  2973
  
 Symbols:
 + +[RMModelStatusScreenSharingConnectionGroupUnresolvedConnections allowedStatusKeys]

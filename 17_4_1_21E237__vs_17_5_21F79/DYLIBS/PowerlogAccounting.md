@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x3b93
    __TEXT.__objc_methtype: 0xa8b
 
+   - /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 003770D2-D8B6-3756-BB72-4555E505C399
++  UUID: 31C8EC6D-226D-3465-A2FB-D4F3663D19BF
+   Functions: 1160
+   Symbols:   4005
+   CStrings:  1653
+
 ```

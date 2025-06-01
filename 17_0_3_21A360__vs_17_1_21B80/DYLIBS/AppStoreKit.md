@@ -53,9 +53,9 @@
    __AUTH_CONST.__const: 0x2458
 -  __AUTH_CONST.__objc_const: 0x980
 +  __AUTH_CONST.__objc_const: 0x9c0
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xbc8
    __AUTH.__objc_data: 0x6a0
+   __AUTH.__data: 0x110
 
    __DATA.__objc_superrefs: 0x78
    __DATA.__objc_ivar: 0xb8
@@ -73,11 +73,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F261CA53-F651-3E20-B47E-FBF98A9A1CCE
 -  Functions: 2447
++  UUID: 336AE2E3-FF44-38B9-BEC4-AA909A10516B
 +  Functions: 2437
    Symbols:   1944
--  CStrings:  1206
-+  CStrings:  1205
+-  CStrings:  1266
++  CStrings:  1265
  
 Symbols:
 + __CATEGORY_UIImageView_$_AppStoreKit

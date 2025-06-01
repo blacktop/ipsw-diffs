@@ -36,7 +36,6 @@
    __DATA_CONST.__objc_classrefs: 0xb0
    __DATA_CONST.__objc_superrefs: 0x18
    __AUTH_CONST.__const: 0xa98
-
    __AUTH_CONST.__cfstring: 0x12a0
    __AUTH_CONST.__objc_const: 0x120
    __AUTH_CONST.__auth_got: 0xb60
@@ -66,11 +65,13 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 274E6BA3-7699-38CA-BEF0-0A3DE8AEA796
 -  Functions: 578
++  UUID: 6F9DD27D-FD8C-386A-AF77-808AA198854B
 +  Functions: 579
    Symbols:   510
--  CStrings:  613
-+  CStrings:  614
+-  CStrings:  762
++  CStrings:  763
  
 CStrings:
 + "queryForExecutableURL:withError:"

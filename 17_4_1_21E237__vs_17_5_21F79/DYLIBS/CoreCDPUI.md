@@ -74,7 +74,6 @@
 -  __AUTH_CONST.__cfstring: 0x2420
 -  __AUTH_CONST.__objc_const: 0x1390
 -  __AUTH_CONST.__const: 0x12b0
--  __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0xa88
 -  __AUTH.__objc_data: 0x1a50
 -  __AUTH.__data: 0x5a0
@@ -82,7 +81,6 @@
 +  __AUTH_CONST.__cfstring: 0x2460
 +  __AUTH_CONST.__objc_const: 0x1410
 +  __AUTH_CONST.__const: 0x1960
-+  __AUTH_CONST.__auth_ptr: 0x88
 +  __AUTH_CONST.__auth_got: 0xb48
 +  __AUTH.__objc_data: 0x1cb0
 +  __AUTH.__data: 0x690
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 52BE97DE-7005-3CE0-A22E-B6290B897681
 -  Functions: 1840
 -  Symbols:   5425
--  CStrings:  2683
+-  CStrings:  2972
++  UUID: 27E6D9F0-3F14-3CE9-B233-61F1A1CE17C2
 +  Functions: 2074
 +  Symbols:   5568
-+  CStrings:  2721
++  CStrings:  3012
  
 Symbols:
 + -[CDPUIController _deviceLimitOfferDeviceSelectionForDevice:fromViewController:]

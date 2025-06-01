@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E9BC5D7E-888E-31D7-8032-64D6E8AC37ED
 -  Functions: 2422
 -  Symbols:   8801
--  CStrings:  4485
+-  CStrings:  5244
++  UUID: 3E06B43D-51B0-3DA5-A764-AAFE2B16617B
 +  Functions: 2437
 +  Symbols:   8858
-+  CStrings:  4623
++  CStrings:  5500
  
 Symbols:
 + +[IRAnalyticsManager logUiEvent:withService:forCandidateIdentifier:systemStateManager:candidatesContainer:inspections:statisticsManager:historyEventsContainer:]

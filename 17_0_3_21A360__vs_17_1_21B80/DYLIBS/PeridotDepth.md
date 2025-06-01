@@ -48,7 +48,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x30
 +  __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_const: 0x798
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xb58
 +  __AUTH_CONST.__auth_got: 0xbd8
    __AUTH.__objc_data: 0x6e0
@@ -79,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18B59C37-5C46-3641-A0B7-F2D62A234AE9
 -  Functions: 1430
 -  Symbols:   3698
--  CStrings:  1540
+-  CStrings:  1831
++  UUID: 6C99C203-4C19-3023-ABA3-A02B621872C1
 +  Functions: 1501
 +  Symbols:   3861
-+  CStrings:  1710
++  CStrings:  2068
  
 Symbols:
 + -[Gmo gmoInitDone]

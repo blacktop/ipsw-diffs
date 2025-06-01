@@ -21,7 +21,7 @@
    __TEXT.__objc_methname: 0x11b
    __TEXT.__objc_methtype: 0x11
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__auth_got: 0xbd0
    __AUTH.__objc_data: 0x50
 -  __DATA.__data: 0x744
@@ -36,12 +36,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED9F7148-8BC7-3202-9E55-89F345EFE4AE
 -  Functions: 523
 -  Symbols:   1442
--  CStrings:  874
+-  CStrings:  920
++  UUID: 8A9CD9E3-E639-3711-B88E-9E7C13C035BF
 +  Functions: 525
 +  Symbols:   1444
-+  CStrings:  882
++  CStrings:  928
  
 Symbols:
 + _NEHelperTrackerAddIPForAllFlowsRedactLogs

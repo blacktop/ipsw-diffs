@@ -17,6 +17,15 @@
    __TEXT.__dlopen_cstrs: 0x689
    __TEXT.__swift5_typeref: 0xecfe
    __TEXT.__swift5_reflstr: 0x22ca
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 75794394-D1F3-3955-81D0-DF980987C74A
++  UUID: 36D1C4A9-C40F-3B96-B32F-46ED39CAC737
+   Functions: 10527
+   Symbols:   15612
+   CStrings:  8779
 CStrings:
 + " enableTelemetry=YES URL: %@"
 + "SIGNPOST BEGIN [id: %hu]: UpsellLoadLiftUI  enableTelemetry=YES URL: %@"

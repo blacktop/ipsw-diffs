@@ -46,18 +46,20 @@
 -  __AUTH_CONST.__cfstring: 0x14700
 +  __AUTH_CONST.__cfstring: 0x14720
    __AUTH_CONST.__objc_const: 0x4250
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x1098
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
 
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9E091162-FD97-37C2-A3A7-6938D211EAFB
 -  Functions: 6561
 -  Symbols:   19087
--  CStrings:  9853
+-  CStrings:  12469
++  UUID: B87AA2FD-5624-3CDF-B573-A1655A41C887
 +  Functions: 6562
 +  Symbols:   19088
-+  CStrings:  9855
++  CStrings:  12472
  
 Symbols:
 + -[AXSettings _customizedAppIDs]

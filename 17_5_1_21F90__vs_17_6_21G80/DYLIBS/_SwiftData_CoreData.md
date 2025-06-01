@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x68
    __DATA_CONST.__got: 0x8
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 1CC919B4-A594-3310-BDA3-56B5BCFA6281
++  UUID: A0F09909-CFC3-376D-86D4-AF4799DAF488
+   Functions: 7
+   Symbols:   27
+   CStrings:  0
+
 ```

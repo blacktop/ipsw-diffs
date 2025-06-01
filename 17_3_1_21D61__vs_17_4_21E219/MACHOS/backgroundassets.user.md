@@ -48,11 +48,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CC6EDE0-EF03-3E8A-B503-FEC41E945E0C
 -  Functions: 1336
++  UUID: 94AC44D4-A64E-3177-90E6-FE96C53FA11C
 +  Functions: 1337
    Symbols:   305
--  CStrings:  2359
-+  CStrings:  2362
+-  CStrings:  2623
++  CStrings:  2626
  
 CStrings:
 + "F\x11!$"

@@ -44,11 +44,15 @@
    __DATA.__data: 0xae0
    __DATA.__bss: 0x158
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E74E2D4-AE63-33F2-AB32-3A5C586D2F3A
++  UUID: A0646131-46DF-3FE6-A570-2950A5510A33
    Functions: 1607
    Symbols:   5813
--  CStrings:  3073
-+  CStrings:  3075
+-  CStrings:  3489
++  CStrings:  3491
  
 Symbols:
 + ___62-[CMContinuityCaptureSidecarTransportBase setupSidecarStreams]_block_invoke.329

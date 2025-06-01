@@ -21,12 +21,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: E49C657B-2E8A-36E0-91FF-78B4248C7E84
 -  Functions: 2186
 -  Symbols:   7179
--  CStrings:  22393
+-  CStrings:  42614
++  UUID: 09258BF1-98FE-357C-A3C6-91073808C31E
 +  Functions: 2188
 +  Symbols:   7183
-+  CStrings:  22395
++  CStrings:  42616
  
 Symbols:
 + -[_DPPrioAlgorithm privatizeDataWithLocalDP:withBlock:].cold.4

@@ -15,4 +15,13 @@
    __DATA.__bss: 0x40
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0800B263-CC26-3558-905E-E26DD2E01B33
++  UUID: 36B6A122-6C40-309C-B50A-CF33B0E60C7B
+   Functions: 53
+   Symbols:   89
+   CStrings:  252
+
 ```

@@ -48,7 +48,7 @@
 +  __AUTH_CONST.__const: 0x4898
    __AUTH_CONST.__cfstring: 0x140d60
    __AUTH_CONST.__objc_const: 0x3a88
-   __AUTH_CONST.__auth_ptr: 0x1f0
+   __AUTH_CONST.__objc_dictobj: 0x7f8
 
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x258
@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CEB74A0C-5EA4-3F5A-9DE8-73F0DAD2F4CB
 -  Functions: 7582
 -  Symbols:   19093
--  CStrings:  55624
+-  CStrings:  96691
++  UUID: B37A1273-B0C2-312E-9E0B-7143FB645C69
 +  Functions: 7593
 +  Symbols:   19124
-+  CStrings:  55626
++  CStrings:  96693
  
 Symbols:
 + -[CFPDObserverOnlyTombstone managed]

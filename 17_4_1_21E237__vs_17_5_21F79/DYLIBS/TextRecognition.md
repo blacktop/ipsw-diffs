@@ -30,8 +30,7 @@
    __AUTH_CONST.__objc_intobj: 0x6f0
    __AUTH_CONST.__objc_arrayobj: 0x2a60
    __AUTH_CONST.__objc_dictobj: 0x4fb0
-
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__objc_doubleobj: 0xe30
    __AUTH_CONST.__objc_floatobj: 0x220
    __AUTH_CONST.__auth_got: 0xf70
 -  __AUTH.__objc_data: 0x320
@@ -51,5 +50,14 @@
    __DATA_DIRTY.__data: 0x58
    __DATA_DIRTY.__bss: 0x5d0
    __DATA_DIRTY.__common: 0x88
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+-  UUID: 956CA885-5F16-39B9-8BEC-EAE1D14E9F73
++  UUID: FFC76C4B-4D6C-3508-851C-6E36E27679A6
+   Functions: 5677
+   Symbols:   18628
+   CStrings:  21268
 
 ```

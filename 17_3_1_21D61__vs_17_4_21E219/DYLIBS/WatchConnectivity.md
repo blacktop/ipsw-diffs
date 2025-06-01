@@ -31,8 +31,7 @@
 +  __DATA_CONST.__objc_superrefs: 0xa8
    __AUTH_CONST.__cfstring: 0x10a0
    __AUTH_CONST.__objc_const: 0x9d0
-   __AUTH_CONST.__auth_ptr: 0x10
-
+   __AUTH_CONST.__const: 0x1e0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x4a8
    __AUTH.__objc_data: 0x320
@@ -43,11 +42,15 @@
    __DATA.__data: 0x540
    __DATA.__bss: 0xb0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4BF5F989-351F-3302-BF88-5E2425354A2A
++  UUID: 03955126-63F5-3C36-9FCE-1075C52D4CE3
    Functions: 969
    Symbols:   3183
--  CStrings:  1471
-+  CStrings:  1474
+-  CStrings:  1604
++  CStrings:  1607
  
 Symbols:
 + ___27-[WCPrivateXPCManager init]_block_invoke.59

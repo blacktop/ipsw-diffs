@@ -51,11 +51,13 @@
    - /System/Library/PrivateFrameworks/NearField.framework/NearField
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D1F473B-ABBE-3B64-B411-A1CB37D5361C
++  UUID: A15F3C5A-2E63-3CA3-B9D2-7BEE6E2C8CF8
    Functions: 327
 -  Symbols:   177
--  CStrings:  1105
+-  CStrings:  1462
 +  Symbols:   178
-+  CStrings:  1108
++  CStrings:  1465
  
 Symbols:
 + _OBJC_CLASS_$_FMDLocalFindableAccessory

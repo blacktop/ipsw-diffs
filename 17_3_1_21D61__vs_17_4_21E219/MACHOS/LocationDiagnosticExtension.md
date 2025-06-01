@@ -34,11 +34,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0D1E1239-435A-3953-A7F7-648A70A8C4CF
++  UUID: 251D0E5B-5000-3187-80C2-0A57A037B026
    Functions: 2
    Symbols:   41
--  CStrings:  22
-+  CStrings:  23
+-  CStrings:  32
++  CStrings:  34
  
 CStrings:
 + "/var/mobile/Library/Logs/locationd/fence"

@@ -45,13 +45,16 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x60
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6EAC2D43-3EE0-328D-97F7-2E9B2341DF3C
++  UUID: 071D1B5A-E587-39C4-A418-F740EAADF701
    Functions: 169
 -  Symbols:   748
--  CStrings:  502
+-  CStrings:  579
 +  Symbols:   747
-+  CStrings:  504
++  CStrings:  581
  
 Symbols:
 + ___32-[AXTapticChimesScheduler _init]_block_invoke.256

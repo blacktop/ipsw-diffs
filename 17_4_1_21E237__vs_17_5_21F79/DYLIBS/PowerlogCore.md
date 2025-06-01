@@ -77,12 +77,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5E28F1F3-7AD4-39BA-B50A-E22D90B3B5E4
 -  Functions: 4563
 -  Symbols:   14776
--  CStrings:  14824
+-  CStrings:  25020
++  UUID: 82B2F678-1CF9-36A6-8514-52E5E5101F06
 +  Functions: 4572
 +  Symbols:   14809
-+  CStrings:  14891
++  CStrings:  25148
  
 Symbols:
 + +[PLUtilities cleanLaunchdApplicationMacOS:]

@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0x820
    __DATA.__data: 0x370
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 68A4B2DC-9FB7-31AD-A526-DECE67F397BB
++  UUID: 096203AF-E494-3EE9-B889-833D54DBAC8C
    Functions: 555
    Symbols:   326
--  CStrings:  1318
-+  CStrings:  1319
+-  CStrings:  1553
++  CStrings:  1554
  
 CStrings:
 + "T@\"NSString\",?,R,C"

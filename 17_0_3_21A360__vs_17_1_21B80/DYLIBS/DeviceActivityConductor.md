@@ -26,11 +26,15 @@
    __DATA_CONST.__got: 0x10
    __DATA_CONST.__const: 0x420
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A67229AE-AF2F-38C8-884C-B931B238950E
++  UUID: 96ED0D3F-1D3B-347A-9BE8-E167D449C7AF
    Functions: 229
    Symbols:   961
--  CStrings:  409
-+  CStrings:  410
+-  CStrings:  445
++  CStrings:  446
  
 Symbols:
 + -[DACActivityList changesFromList:includingMetadata:]

@@ -46,11 +46,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A4E6D63D-2CBD-3B17-957B-4DC5B158DB17
++  UUID: 6ED9A78C-D5AB-3668-A7D7-B6DF62672DB1
    Functions: 780
    Symbols:   3208
--  CStrings:  1666
-+  CStrings:  1667
+-  CStrings:  1771
++  CStrings:  1772
  
 Symbols:
 + __OBJC_$_PROP_LIST_PXPlacesMapLayout.79

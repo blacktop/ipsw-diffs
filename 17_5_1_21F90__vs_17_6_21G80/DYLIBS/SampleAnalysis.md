@@ -68,12 +68,14 @@
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 79E1B31E-6FB2-321A-A488-E56383C1283C
 -  Functions: 2549
 -  Symbols:   8601
--  CStrings:  5963
+-  CStrings:  7298
++  UUID: 3F919932-D503-3C8C-9139-DE090509FC8C
 +  Functions: 2562
 +  Symbols:   8649
-+  CStrings:  5984
++  CStrings:  7318
  
 Symbols:
 + -[SASamplePrintOptions callTreeAggregationResolved]

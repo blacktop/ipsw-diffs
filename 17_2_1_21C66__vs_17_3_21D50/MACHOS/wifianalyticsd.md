@@ -31,11 +31,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E272D7D3-CF2A-3561-BF79-5198FE07A39B
 -  Functions: 1170
++  UUID: AEAAEE16-05A4-3954-9FC2-CB8217BB1408
 +  Functions: 1176
    Symbols:   342
--  CStrings:  5685
-+  CStrings:  5686
+-  CStrings:  7690
++  CStrings:  7691
  
 CStrings:
 + "\"WiFiAnalytics_executables-503.2\""

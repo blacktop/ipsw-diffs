@@ -74,12 +74,14 @@
    - /usr/lib/libIOReport.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6946EFB3-EF5A-310B-84D9-76DC70CC961A
 -  Functions: 1676
 -  Symbols:   5297
--  CStrings:  4194
+-  CStrings:  4836
++  UUID: 7AD8AFA3-1F55-3F11-9156-1D81F459499E
 +  Functions: 1708
 +  Symbols:   5406
-+  CStrings:  4272
++  CStrings:  4927
  
 Symbols:
 + -[APBonjourCacheManager _auditCachesIfNecessary:event:]

@@ -22,4 +22,13 @@
    __DATA_DIRTY.__common: 0xf80
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC5E56BC-E908-3B77-9115-548685C09129
++  UUID: 623F4A28-FE61-362D-9ADB-B2B80E1403D9
+   Functions: 68463
+   Symbols:   795
+   CStrings:  8371
+
 ```

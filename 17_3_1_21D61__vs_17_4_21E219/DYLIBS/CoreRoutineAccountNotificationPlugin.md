@@ -33,7 +33,11 @@
    __DATA.__data: 0xd8
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 58C83B00-3F71-3C46-A3F0-C6D8E4576E1F
++  UUID: 768FC1B9-23E5-3172-9B7E-1BB3E45C00B6
    Functions: 7
    Symbols:   27
 -  CStrings:  75

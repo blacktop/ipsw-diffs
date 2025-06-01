@@ -58,12 +58,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F92230C-69DB-3054-866D-1C07BDCEE5C9
 -  Functions: 463
 -  Symbols:   2002
--  CStrings:  814
+-  CStrings:  1227
++  UUID: 9C77FF0D-C5EB-3BF7-A094-89063B27D0BD
 +  Functions: 471
 +  Symbols:   2029
-+  CStrings:  825
++  CStrings:  1244
  
 Symbols:
 + +[AlertTemplateViewAccessibility _accessibilityPerformValidations:]
@@ -138,6 +140,7 @@ CStrings:
 + "scorecardView"
 + "showAnimated:completion:"
 + "vuiCollectionViewCellInteractor"
++ "\xc8\x02l"
 - "\x1b\\toi=lhp\\la&Iv\x1b\\toi=orth\\"
 - "Optional<SportsScoreboardViewModel>"
 - "PlatformView"

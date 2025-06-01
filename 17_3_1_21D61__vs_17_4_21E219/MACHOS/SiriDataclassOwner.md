@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 194C2F61-0775-3D59-A3D8-074E3C95F5AB
++  UUID: 620A75E7-F5CD-3C07-B165-EDACFF6DA799
    Functions: 5
    Symbols:   43
 -  CStrings:  76

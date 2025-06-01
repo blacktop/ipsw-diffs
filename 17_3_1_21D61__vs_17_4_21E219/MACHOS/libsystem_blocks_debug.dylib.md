@@ -15,6 +15,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __AUTH_CONST.__auth_got: 0x28
    __AUTH.__data: 0x18
+
+   - /System/DriverKit/usr/lib/system/libsystem_c.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_malloc.dylib
+   - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
+-  UUID: 4224EF59-95BA-3E0A-BF52-03D62AE7C3B8
++  UUID: 1F8FB704-EEEA-38E4-8CBE-EAAB9AF3F0D0
+   Functions: 19
+   Symbols:   35
+   CStrings:  0
 Symbols:
 + _malloc_type_malloc
 - _malloc

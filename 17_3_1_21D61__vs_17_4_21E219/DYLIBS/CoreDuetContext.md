@@ -51,11 +51,15 @@
    __DATA_DIRTY.__data: 0x8
    __DATA_DIRTY.__bss: 0x368
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A1701F89-C79D-31B4-B87E-3E6A1CB72185
++  UUID: 305F8350-672C-3F8B-AB73-A914D4D7A0B7
    Functions: 1427
    Symbols:   4783
--  CStrings:  2235
-+  CStrings:  2237
+-  CStrings:  2627
++  CStrings:  2630
  
 Symbols:
 + ___108-[_CDClientContext addObjects:andRemoveObjects:fromArrayAtKeyPath:synchronous:responseQueue:withCompletion:]_block_invoke.155

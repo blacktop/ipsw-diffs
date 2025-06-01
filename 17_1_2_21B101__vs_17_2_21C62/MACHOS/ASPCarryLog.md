@@ -34,11 +34,15 @@
    __DATA.__objc_const: 0x24d8
    __DATA.__objc_selrefs: 0xd18
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libNVMeCTL.dylib
+-  UUID: EFDB89A1-A3EA-3708-B06E-E876F05AFFAA
++  UUID: ADF489CF-9737-3650-B663-F475D82594D5
    Functions: 608
    Symbols:   261
--  CStrings:  7699
-+  CStrings:  7774
+-  CStrings:  12364
++  CStrings:  12519
  
 CStrings:
 + "bandsAgeBinsReadSectors_0"

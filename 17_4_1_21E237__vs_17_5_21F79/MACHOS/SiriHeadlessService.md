@@ -18,6 +18,15 @@
    __TEXT.__oslogstring: 0x81
    __TEXT.__unwind_info: 0x60
    __DATA_CONST.__auth_got: 0x90
+
+   - /System/Library/PrivateFrameworks/SiriVOX.framework/SiriVOX
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B08EC054-3EE1-32CE-AC76-47ED4227651C
++  UUID: 2CC61A55-9359-3A48-8B10-7DA21BEE0C00
+   Functions: 7
+   Symbols:   27
+   CStrings:  26
 CStrings:
 + "23"
 + "SiriVOX-3305.4.1"

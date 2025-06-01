@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 265EE2D2-8798-31C6-A3B1-683F2C667CAB
 -  Functions: 41
 -  Symbols:   87
--  CStrings:  129
+-  CStrings:  145
++  UUID: FD8E85D5-56E6-3895-ABE3-45C0A160889C
 +  Functions: 43
 +  Symbols:   88
-+  CStrings:  132
++  CStrings:  148
  
 Symbols:
 + __os_log_fault_impl

@@ -52,12 +52,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 23694EF8-736A-37BB-822E-FAD2D95E51C5
 -  Functions: 3656
 -  Symbols:   412
--  CStrings:  5006
+-  CStrings:  5444
++  UUID: D540B0D2-B222-30E6-AA7B-F03794E6C492
 +  Functions: 3657
 +  Symbols:   418
-+  CStrings:  5019
++  CStrings:  5464
  
 Symbols:
 + _CKErrorUserDidResetEncryptedDataKey

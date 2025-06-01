@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x294f
    __TEXT.__objc_methtype: 0x552
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E6C4AAF8-5322-367A-9784-D14996AD3E98
++  UUID: 8E8D73B0-0B5B-35B4-AC2A-FAE564293964
+   Functions: 243
+   Symbols:   1054
+   CStrings:  674
+
 ```

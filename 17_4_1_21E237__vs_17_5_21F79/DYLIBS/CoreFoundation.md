@@ -48,5 +48,13 @@
    __DATA_DIRTY.__common: 0x380
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreServicesInternal.framework/CoreServicesInternal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3A5F992A-D1CD-312E-BD2E-F7C66343A417
++  UUID: 00E76A98-210C-3CB5-930B-F236807FF24C
+   Functions: 7597
+   Symbols:   19127
+   CStrings:  96698
 
 ```

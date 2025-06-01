@@ -72,10 +72,8 @@
    __DATA_CONST.__objc_arraydata: 0xd80
    __AUTH_CONST.__objc_const: 0x15aa0
 -  __AUTH_CONST.__const: 0xd600
--  __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__cfstring: 0x2a540
 +  __AUTH_CONST.__const: 0xdbc8
-+  __AUTH_CONST.__auth_ptr: 0x148
 +  __AUTH_CONST.__cfstring: 0x2a6a0
    __AUTH_CONST.__objc_intobj: 0x1b30
    __AUTH_CONST.__objc_arrayobj: 0x480
@@ -130,12 +128,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 70F0EAF2-F1E9-3F55-B906-C77C38A42DFB
 -  Functions: 19666
 -  Symbols:   50087
--  CStrings:  23792
+-  CStrings:  29210
++  UUID: B2A0641D-F4A1-3804-8EFA-627F1A33B4EF
 +  Functions: 19897
 +  Symbols:   50220
-+  CStrings:  23897
++  CStrings:  29326
  
 Symbols:
 + -[WFSendMessageAction requiresPrivateOutputLogging]

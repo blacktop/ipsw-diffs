@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_const: 0x350
 -  __AUTH_CONST.__const: 0x6e0
 +  __AUTH_CONST.__const: 0x7a0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0xe0
 -  __AUTH_CONST.__objc_dictobj: 0xa0
 +  __AUTH_CONST.__objc_dictobj: 0xc8
@@ -70,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30C7A65B-0D68-3417-A6F8-665DB474D9EC
 -  Functions: 4434
 -  Symbols:   15063
--  CStrings:  7062
+-  CStrings:  8154
++  UUID: 5F1DB6A8-69D7-31D2-91FD-3CB22327119E
 +  Functions: 4442
 +  Symbols:   15082
-+  CStrings:  7078
++  CStrings:  8176
  
 Symbols:
 + +[_PSAppUsageUtilities boostAppsForSourceBundleId:]

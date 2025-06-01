@@ -33,7 +33,6 @@
 +  __AUTH_CONST.__cfstring: 0x3760
    __AUTH_CONST.__objc_intobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__auth_got: 0x388
 +  __AUTH_CONST.__auth_got: 0x390
@@ -44,12 +43,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AA9664F9-BE12-3872-867C-CE5DBF62B88D
 -  Functions: 179
 -  Symbols:   869
--  CStrings:  771
+-  CStrings:  1206
++  UUID: 5FB721E2-EC17-345E-B93B-C2324CF3AF92
 +  Functions: 180
 +  Symbols:   872
-+  CStrings:  781
++  CStrings:  1224
  
 Symbols:
 + _SecKeyCreateWithData

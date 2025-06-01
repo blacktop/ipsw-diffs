@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FE54E5FA-F292-3E82-89CB-001CD688B4B4
 -  Functions: 489
 -  Symbols:   1947
--  CStrings:  741
+-  CStrings:  833
++  UUID: D425B9DC-032B-30B7-AEE4-125CE37CF1BD
 +  Functions: 498
 +  Symbols:   1970
-+  CStrings:  758
++  CStrings:  852
  
 Symbols:
 + -[AEConcretePreferences setFailOnDeactivation:]

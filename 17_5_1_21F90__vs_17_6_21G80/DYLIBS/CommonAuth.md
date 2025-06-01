@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x1f4
    __DATA_CONST.__got: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libheimdal-asn1.dylib
+   - /usr/lib/libicucore.A.dylib
+-  UUID: 24CFBF22-1CAD-33F8-8DEB-1B03AAF610BD
++  UUID: 5197D3A9-6159-34C4-A122-F4DB073F051D
+   Functions: 148
+   Symbols:   303
+   CStrings:  124
+
 ```

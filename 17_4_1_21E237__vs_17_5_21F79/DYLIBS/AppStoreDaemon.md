@@ -40,8 +40,7 @@
    __DATA_CONST.__objc_protorefs: 0x150
    __DATA_CONST.__objc_classrefs: 0x5a8
    __DATA_CONST.__objc_superrefs: 0x460
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__objc_arraydata: 0xc8
    __AUTH_CONST.__const: 0x820
    __AUTH_CONST.__objc_const: 0x5c30
 -  __AUTH_CONST.__cfstring: 0x6440
@@ -60,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE88A923-7C0B-31DC-B670-C8B05B217A92
 -  Functions: 4093
 -  Symbols:   12590
--  CStrings:  5273
+-  CStrings:  6075
++  UUID: 87763354-4045-3300-A909-464D063C563A
 +  Functions: 4095
 +  Symbols:   12595
-+  CStrings:  5278
++  CStrings:  6081
  
 Symbols:
 + -[ASDPurchase isDefaultBrowser]

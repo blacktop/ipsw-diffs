@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E9901B5E-D057-3FF0-9903-699B0C50CAD8
 -  Functions: 86522
 -  Symbols:   31040
--  CStrings:  17087
+-  CStrings:  17393
++  UUID: C78081C9-7674-3488-88BF-138FC2D55A13
 +  Functions: 86584
 +  Symbols:   31047
-+  CStrings:  17102
++  CStrings:  17408
  
 Symbols:
 + _kMRMediaRemoteOptionCommandID

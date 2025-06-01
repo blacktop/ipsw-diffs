@@ -40,11 +40,15 @@
    __DATA.__data: 0xc98
    __DATA.__bss: 0x1
 
+   - /System/Library/PrivateFrameworks/UserNotificationsSettings.framework/UserNotificationsSettings
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1DD92293-265D-3E84-8CC2-D17E6DCB07B3
++  UUID: FFD4CA84-F92B-3ECD-BAD8-3751B1F3C001
    Functions: 1994
    Symbols:   7510
--  CStrings:  3975
-+  CStrings:  3976
+-  CStrings:  4537
++  CStrings:  4538
  
 Symbols:
 + ___100-[UNSUserNotificationServerRemoteNotificationConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.65

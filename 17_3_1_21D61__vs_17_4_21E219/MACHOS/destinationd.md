@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B1DC7FAB-1BEF-3C69-9BA9-953A0D3086A9
 -  Functions: 1142
 -  Symbols:   591
--  CStrings:  2413
+-  CStrings:  2671
++  UUID: EDA5D51B-895D-3B01-BD24-6CD451E908D4
 +  Functions: 1101
 +  Symbols:   541
-+  CStrings:  2280
++  CStrings:  2510
  
 Symbols:
 + _$s10Foundation8TimeZoneV36_unconditionallyBridgeFromObjectiveCyACSo06NSTimeC0CSgFZ

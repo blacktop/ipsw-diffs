@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/CoreTime.framework/CoreTime
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26B76D66-AFD5-3030-80B6-B1E1F2552897
++  UUID: 541E4097-F069-3540-990A-A8315A1E9214
    Functions: 126
    Symbols:   842
--  CStrings:  265
-+  CStrings:  266
+-  CStrings:  287
++  CStrings:  288
  
 CStrings:
 + "T@\"NSString\",?,R,C"

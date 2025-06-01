@@ -53,11 +53,15 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9AA90B96-0663-3937-82E9-68F8AD17E818
++  UUID: 724F43A3-EC98-3D72-8323-D87C0B0F9F8A
    Functions: 32695
    Symbols:   1425
--  CStrings:  31625
-+  CStrings:  31627
+-  CStrings:  35143
++  CStrings:  35145
  
 CStrings:
 + "19:45:03"

@@ -39,13 +39,16 @@
    __AUTH_CONST.__cfstring: 0xc0
    __AUTH_CONST.__const: 0x3df8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E5317AF-D112-3E11-A7EC-64CCF95917D8
++  UUID: 2AB01260-6F38-3F96-8E6C-00B5122A1BB2
    Functions: 2437
 -  Symbols:   1729
--  CStrings:  746
+-  CStrings:  752
 +  Symbols:   1730
-+  CStrings:  750
++  CStrings:  756
  
 Symbols:
 + _symbolic So14CNLabeledValueC

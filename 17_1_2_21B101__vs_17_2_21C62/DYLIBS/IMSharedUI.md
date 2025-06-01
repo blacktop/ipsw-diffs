@@ -50,13 +50,12 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0xc0
 -  __AUTH_CONST.__const: 0x260
-+  __AUTH_CONST.__const: 0x280
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x328
 -  __AUTH.__objc_data: 0x730
 -  __DATA.__objc_classrefs: 0x1d8
 -  __DATA.__objc_superrefs: 0x90
 -  __DATA.__objc_ivar: 0x1fc
++  __AUTH_CONST.__const: 0x280
 +  __AUTH_CONST.__auth_got: 0x390
 +  __AUTH.__objc_data: 0x7d0
 +  __DATA.__objc_classrefs: 0x1f0
@@ -69,12 +68,14 @@
    - /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5E6554AC-4F28-3847-9E53-C98152AE8D23
 -  Functions: 600
 -  Symbols:   282
--  CStrings:  1262
+-  CStrings:  1342
++  UUID: B2D97287-7D70-3BAB-9ED1-F4FF0F2117F6
 +  Functions: 655
 +  Symbols:   305
-+  CStrings:  1337
++  CStrings:  1421
  
 Symbols:
 + _CFBinaryHeapAddValue

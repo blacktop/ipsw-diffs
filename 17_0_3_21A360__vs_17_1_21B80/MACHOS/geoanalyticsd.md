@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_catlist: 0x0
    __DATA_CONST.__objc_protolist: 0x38
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: ED04D426-E775-3E66-8254-0F1F4DC7621D
++  UUID: EC3B0D28-406E-3A73-AEB0-42E168B8A0D2
    Functions: 301
    Symbols:   233
--  CStrings:  1127
-+  CStrings:  1138
+-  CStrings:  1464
++  CStrings:  1486
  
 CStrings:
 + "HIKING_ENGAGEMENT"

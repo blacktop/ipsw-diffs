@@ -43,13 +43,16 @@
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x2a0
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C074DDF3-47EE-3871-82B6-22EED4E384E4
++  UUID: FAA34A85-CCD1-3D62-A89F-DA0B4164E95F
    Functions: 506
 -  Symbols:   2261
--  CStrings:  1236
+-  CStrings:  1312
 +  Symbols:   2259
-+  CStrings:  1235
++  CStrings:  1311
  
 Symbols:
 - _objc_msgSend$processHandle

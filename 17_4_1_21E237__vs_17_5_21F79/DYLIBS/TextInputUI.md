@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xb0
    __AUTH_CONST.__const: 0x580
    __AUTH_CONST.__objc_floatobj: 0xe0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x6f8
    __AUTH.__objc_data: 0x1360
 -  __DATA.__objc_ivar: 0xa68
@@ -61,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5491DBBA-B4EB-3C97-A51C-D9EF8B699AB9
 -  Functions: 2679
 -  Symbols:   10176
--  CStrings:  5071
+-  CStrings:  5413
++  UUID: 43BAE121-4254-32D1-B210-057B32DC7FD1
 +  Functions: 2699
 +  Symbols:   10246
-+  CStrings:  5108
++  CStrings:  5451
  
 Symbols:
 + -[TUICandidateBaseCell layoutSubviews]

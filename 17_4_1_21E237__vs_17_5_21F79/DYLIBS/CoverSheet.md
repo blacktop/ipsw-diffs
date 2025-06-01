@@ -64,12 +64,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E82ED68A-CBA4-3065-8F4F-7A05781D18AB
 -  Functions: 6214
 -  Symbols:   22923
--  CStrings:  11323
+-  CStrings:  12717
++  UUID: D10E6F37-3C00-32EB-937C-1D7E7CAA38F1
 +  Functions: 6221
 +  Symbols:   22945
-+  CStrings:  11335
++  CStrings:  12731
  
 Symbols:
 + -[CSCombinedListViewController notificationStructuredListViewControllerDidUpdateVisibleContentExtent:]

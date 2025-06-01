@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_const: 0x828
    __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_arrayobj: 0x288
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x1bc8
 +  __AUTH_CONST.__auth_got: 0x1bb0
    __AUTH.__objc_data: 0x410
@@ -70,12 +69,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 026EF630-2CB3-3C8B-9F38-E71BB64FDF98
 -  Functions: 8703
 -  Symbols:   23053
--  CStrings:  7727
+-  CStrings:  8295
++  UUID: 6CC27117-FD2E-3773-87D5-56B5E214C16B
 +  Functions: 8714
 +  Symbols:   23092
-+  CStrings:  7746
++  CStrings:  8314
  
 Symbols:
 + -[AVHapticServer HandleInterruptionForSession:command:dictionary:]

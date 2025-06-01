@@ -29,7 +29,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/CellularBridgeUI.framework/CellularBridgeUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4AA913AB-388F-3A84-A6F6-73CEAB7120B0
++  UUID: 6EA796C3-2691-3BB7-B19C-A84F4EF597BE
    Functions: 8
    Symbols:   15
 -  CStrings:  61

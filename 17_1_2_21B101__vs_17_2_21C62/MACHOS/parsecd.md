@@ -90,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1415229-AC35-3359-9C9C-D1B6C3B4B492
 -  Functions: 13272
 -  Symbols:   2143
--  CStrings:  2393
+-  CStrings:  2462
++  UUID: DA0F5F75-77D0-3231-84D7-DEC69FCC1D9B
 +  Functions: 13329
 +  Symbols:   2172
-+  CStrings:  2418
++  CStrings:  2488
  
 Symbols:
 + _$s10PegasusAPI043Apple_Parsec_Feedback_V2_StartNetworkSearchE0V5inputSSvs

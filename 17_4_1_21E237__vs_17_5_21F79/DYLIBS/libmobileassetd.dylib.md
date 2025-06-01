@@ -39,9 +39,8 @@
 -  __AUTH_CONST.__cfstring: 0x28500
 +  __AUTH_CONST.__cfstring: 0x28560
    __AUTH_CONST.__objc_const: 0x3090
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__const: 0xa20
-
+   __AUTH_CONST.__objc_intobj: 0x390
    __AUTH_CONST.__objc_arrayobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__auth_got: 0x958
@@ -61,13 +60,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
 
+   - /usr/lib/libauthinstall.dylib
    - /usr/lib/libimg4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D52F6846-7E39-3377-93C3-277CDFAB6500
++  UUID: A08397EC-AA41-35DA-8FA9-A24D664F1BC7
    Functions: 5075
 -  Symbols:   16407
--  CStrings:  12902
+-  CStrings:  18062
 +  Symbols:   16405
-+  CStrings:  12904
++  CStrings:  18067
  
 Symbols:
 + ___block_literal_global.1206

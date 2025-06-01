@@ -16,4 +16,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/DiagnosticLogCollection
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EDAD5009-D558-35B4-A521-ECB299390A96
++  UUID: 7174234E-F4E3-3E29-B4C6-9249E455E3C6
+   Functions: 4
+   Symbols:   46
+   CStrings:  24
+
 ```

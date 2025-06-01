@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 28F432F7-98E2-3422-A815-DE79DD02D563
 -  Functions: 177
 -  Symbols:   157
--  CStrings:  831
+-  CStrings:  1108
++  UUID: 91AF357B-EC61-35F6-B811-58E3E557BD0B
 +  Functions: 180
 +  Symbols:   162
-+  CStrings:  834
++  CStrings:  1111
  
 Symbols:
 + _WLKFetchIsSportsEnabled

@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A8DB5842-2887-3BF1-832C-6BC483B61DC6
++  UUID: F3944A00-A778-31BF-BE33-FDD376660EF3
+   Functions: 32
+   Symbols:   75
+   CStrings:  103
+
 ```

@@ -61,7 +61,6 @@
 +  __AUTH_CONST.__objc_const: 0xf08
 +  __AUTH_CONST.__const: 0x1230
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0xa10
 -  __AUTH.__objc_data: 0x720
 +  __AUTH_CONST.__auth_got: 0xa28
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0F0EFD7D-026E-3518-81B7-16F7151F4208
 -  Functions: 1432
 -  Symbols:   2844
--  CStrings:  1608
+-  CStrings:  1813
++  UUID: 2E974501-3FEE-32A9-A4E4-8A66EED97B9A
 +  Functions: 1455
 +  Symbols:   2889
-+  CStrings:  1640
++  CStrings:  1846
  
 Symbols:
 + +[RMLog(managedDevice) managedDevice]

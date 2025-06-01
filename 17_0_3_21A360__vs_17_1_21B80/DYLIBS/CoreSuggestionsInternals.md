@@ -70,12 +70,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 2B4FA4DE-B5F4-3408-A00F-55F467476CEC
 -  Functions: 9822
 -  Symbols:   33180
--  CStrings:  17768
+-  CStrings:  22509
++  UUID: 1DF16855-3329-3CCF-BF99-6F3FAFC1D76D
 +  Functions: 9827
 +  Symbols:   33196
-+  CStrings:  17786
++  CStrings:  22538
  
 Symbols:
 + -[SGDSuggestManager suggestionsFromSearchableItem:options:processingType:withCompletion:]

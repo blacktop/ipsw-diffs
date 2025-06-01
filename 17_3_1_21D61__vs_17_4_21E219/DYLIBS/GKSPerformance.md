@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x200
    __DATA.__data: 0x360
    __DATA.__bss: 0x38
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: 0DD456D3-C7BC-3E17-AAC4-DEE6BA9A27BC
++  UUID: 0CB95283-A984-33A8-BF69-8197CD2670AE
+   Functions: 220
+   Symbols:   1022
+   CStrings:  1341
 Symbols:
 + __ZNSt3__110unique_ptrIN3awd7metrics19GCKLinkStatusReportENS_14default_deleteIS3_EEE5resetB8ue170006EPS3_
 - __ZNSt3__110unique_ptrIN3awd7metrics19GCKLinkStatusReportENS_14default_deleteIS3_EEE5resetB7v160006EPS3_

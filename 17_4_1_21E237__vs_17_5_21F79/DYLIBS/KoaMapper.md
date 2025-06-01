@@ -13,7 +13,7 @@
    __TEXT.__objc_classname: 0x436
    __TEXT.__objc_methname: 0x225a
 
-   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__objc_const: 0xf58
    __AUTH_CONST.__cfstring: 0x900
    __AUTH_CONST.__auth_got: 0x7a8
 -  __AUTH.__objc_data: 0x5c0
@@ -37,5 +37,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E709D54-EC0B-34A2-8DFA-7118302C490B
++  UUID: AA2A8A36-5300-3FEA-B33A-F74157D295BD
+   Functions: 595
+   Symbols:   2562
+   CStrings:  867
 
 ```

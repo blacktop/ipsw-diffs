@@ -89,12 +89,14 @@
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 359A4BB3-7A88-3CAC-9692-264984298ED3
 -  Functions: 20909
 -  Symbols:   880
--  CStrings:  15085
+-  CStrings:  16852
++  UUID: D5403FE4-F2FD-3313-A0A4-6F634D1E3605
 +  Functions: 19500
 +  Symbols:   889
-+  CStrings:  15276
++  CStrings:  17140
  
 Symbols:
 + _CFUserNotificationDisplayAlert

@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9956C3FF-8630-3640-8423-BD2B8EA5C450
 -  Functions: 7292
 -  Symbols:   25189
--  CStrings:  10537
+-  CStrings:  11411
++  UUID: 7B274B16-C5EC-3ADF-B223-D606BFC5788B
 +  Functions: 7291
 +  Symbols:   25187
-+  CStrings:  10538
++  CStrings:  11412
  
 Symbols:
 - -[NCAppPickerViewController viewDidLayoutSubviews]

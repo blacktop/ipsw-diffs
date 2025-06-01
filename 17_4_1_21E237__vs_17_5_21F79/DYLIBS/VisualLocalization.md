@@ -26,7 +26,6 @@
 -  __AUTH_CONST.__const: 0x280
 +  __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0xe8
    __AUTH_CONST.__auth_got: 0x960
 -  __AUTH.__objc_data: 0x1e0
 -  __AUTH.__data: 0x10
@@ -44,5 +43,14 @@
    __DATA_DIRTY.__bss: 0x118
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C3F7E2B3-D047-31B4-9563-AD667377C1E7
++  UUID: 25EE2D22-8394-3FD8-A8A5-BB388687F583
+   Functions: 1507
+   Symbols:   4080
+   CStrings:  1933
 
 ```

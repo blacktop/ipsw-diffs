@@ -10,12 +10,15 @@
    __TEXT.__auth_stubs: 0x33f0
    __TEXT.__init_offsets: 0xf0
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 38663E76-E518-3F99-AA0E-09E53F204EE9
++  UUID: 0ED1125B-842F-3FDA-B173-1054DC7513B7
    Functions: 3179
 -  Symbols:   10166
 +  Symbols:   10167
-   CStrings:  3706
+   CStrings:  4100
  
 Symbols:
 + _kFDRTagStr_Coor

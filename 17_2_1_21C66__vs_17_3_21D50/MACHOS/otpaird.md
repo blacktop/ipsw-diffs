@@ -34,11 +34,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D11AD32-C0D9-330B-99B0-D0CCD7791B7B
 -  Functions: 111
++  UUID: CE60E9FC-7896-3D25-8653-A7B62F47C9D8
 +  Functions: 113
    Symbols:   137
--  CStrings:  383
-+  CStrings:  385
+-  CStrings:  409
++  CStrings:  411
  
 CStrings:
 + "isAppleTV"

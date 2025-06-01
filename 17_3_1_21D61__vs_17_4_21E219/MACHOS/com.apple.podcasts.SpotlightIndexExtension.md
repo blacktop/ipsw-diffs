@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x280
    __DATA.__data: 0x188
 
+   - /System/Library/PrivateFrameworks/PodcastsUI.framework/PodcastsUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C8F8FBC-76E4-33E2-8875-D3E0D37FD935
++  UUID: 0DCCBE7E-D67E-3F70-9CBA-2B28BD80589C
    Functions: 252
    Symbols:   164
--  CStrings:  633
-+  CStrings:  636
+-  CStrings:  663
++  CStrings:  666
  
 CStrings:
 + "MTAccountController: Setting active account: %@"

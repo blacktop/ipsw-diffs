@@ -30,7 +30,7 @@
    __AUTH_CONST.__cfstring: 0x420
    __AUTH_CONST.__const: 0x160
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__auth_got: 0x360
    __AUTH.__objc_data: 0xeb0
 -  __DATA.__objc_classrefs: 0x380
@@ -44,11 +44,15 @@
    __DATA_DIRTY.__bss: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 63753656-7FAE-3952-AECC-A0AFB60CA1B5
++  UUID: A7D4A36F-4C79-3D24-9750-8D215DD3C7A2
    Functions: 1539
    Symbols:   5560
--  CStrings:  2269
-+  CStrings:  2270
+-  CStrings:  2302
++  CStrings:  2303
  
 Symbols:
 + _objc_msgSend$currentTraitCollection

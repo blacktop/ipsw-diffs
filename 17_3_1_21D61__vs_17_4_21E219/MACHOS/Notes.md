@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x370
    __DATA.__data: 0x4e0
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3845E0D6-7BEF-3C5F-B0F1-8EA09326A90A
++  UUID: C5D2863E-6A04-3A65-9B6F-E341D663DE23
    Functions: 292
    Symbols:   150
--  CStrings:  1039
-+  CStrings:  1041
+-  CStrings:  1086
++  CStrings:  1088
  
 CStrings:
 + "T@\"CSSearchableItemAttributeSet\",?,R"

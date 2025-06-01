@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 776E5500-124B-3C95-B0AD-0DC24D48CD0C
 -  Functions: 58
 -  Symbols:   90
--  CStrings:  175
+-  CStrings:  183
++  UUID: F24703BD-F907-30A3-AF96-5431BCDEC276
 +  Functions: 61
 +  Symbols:   92
-+  CStrings:  181
++  CStrings:  189
  
 Symbols:
 + _OBJC_CLASS_$__ICQHelperFunctions

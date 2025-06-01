@@ -47,11 +47,13 @@
    - /System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E1304B7-F21D-360F-B9BE-0DAC0596590B
 -  Functions: 317
 -  Symbols:   287
++  UUID: 9541EA48-18B9-3314-A907-DE6BFDC404C0
 +  Functions: 321
 +  Symbols:   288
-   CStrings:  937
+   CStrings:  1047
  
 Symbols:
 + _OBJC_CLASS_$_UITraitPresentationSemanticContext

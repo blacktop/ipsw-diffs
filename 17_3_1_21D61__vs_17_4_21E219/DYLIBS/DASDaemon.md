@@ -42,13 +42,16 @@
    __DATA.__bss: 0x48
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E46E9BCE-F856-3382-8243-73E6F6DD2364
++  UUID: C49B43F4-CB80-3CAE-89F3-0A66F5EE501C
    Functions: 93
 -  Symbols:   469
--  CStrings:  345
+-  CStrings:  471
 +  Symbols:   468
-+  CStrings:  350
++  CStrings:  480
  
 Symbols:
 + ___block_literal_global.509

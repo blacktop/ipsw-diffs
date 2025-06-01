@@ -51,7 +51,6 @@
    __AUTH_CONST.__cfstring: 0x4c0
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__const: 0x2108
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xc88
 +  __AUTH_CONST.__auth_got: 0xc98
    __AUTH.__objc_data: 0x230
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24D8BC50-E3B2-3615-8528-BF961457E54A
 -  Functions: 1315
 -  Symbols:   890
--  CStrings:  463
+-  CStrings:  501
++  UUID: B228D0D5-40C2-3C85-9367-CDFD1564C007
 +  Functions: 1325
 +  Symbols:   886
-+  CStrings:  490
++  CStrings:  528
  
 Symbols:
 + _get_witness_table 7SwiftUI16VectorArithmeticRzlAA21_ViewModifier_ContentVy09HoverTextB0019AnimationCompletionF0VyxGGAA0E0HPyHC.2

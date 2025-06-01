@@ -83,12 +83,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D681C4F-BC02-3B37-ACAF-9E78A8F8EC76
 -  Functions: 8125
 -  Symbols:   812
--  CStrings:  9412
+-  CStrings:  11845
++  UUID: F4689E1D-BA0B-3F06-8C8E-47F679E71770
 +  Functions: 8133
 +  Symbols:   813
-+  CStrings:  9455
++  CStrings:  11920
  
 Symbols:
 + _CLSContextClasses

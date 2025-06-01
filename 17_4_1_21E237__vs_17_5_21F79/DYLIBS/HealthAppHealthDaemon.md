@@ -19,8 +19,8 @@
    __TEXT.__objc_classname: 0x538
    __TEXT.__objc_methname: 0x4a1b
 
+   __AUTH_CONST.__const: 0x418
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__auth_got: 0x7c0
 -  __AUTH.__objc_data: 0x3f8
 -  __AUTH.__data: 0x130
@@ -38,5 +38,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 016C60CF-510D-32BC-863A-81F83C175759
++  UUID: 7649A16C-FB83-3357-A173-BDA0826E65BF
+   Functions: 717
+   Symbols:   1825
+   CStrings:  1213
 
 ```

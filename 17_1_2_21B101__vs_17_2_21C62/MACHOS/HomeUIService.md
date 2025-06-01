@@ -87,12 +87,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6401EB6F-3257-3E50-8691-5958D0F0E256
 -  Functions: 2264
 -  Symbols:   475
--  CStrings:  4613
+-  CStrings:  5061
++  UUID: 3ECC6A90-9E2E-32B9-ACF9-245372202FE6
 +  Functions: 2272
 +  Symbols:   464
-+  CStrings:  4624
++  CStrings:  5074
  
 Symbols:
 + _CFPreferencesGetAppBooleanValue

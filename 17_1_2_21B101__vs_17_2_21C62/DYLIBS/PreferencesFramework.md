@@ -54,12 +54,14 @@
    - /usr/lib/libMobileCheckpoint.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0910C022-44F2-3D28-A954-33F0671D0B01
 -  Functions: 258
 -  Symbols:   1181
--  CStrings:  568
+-  CStrings:  812
++  UUID: C4B728A3-2F90-333D-8325-2C24E560DC14
 +  Functions: 242
 +  Symbols:   1119
-+  CStrings:  548
++  CStrings:  782
  
 Symbols:
 + ___block_literal_global.412

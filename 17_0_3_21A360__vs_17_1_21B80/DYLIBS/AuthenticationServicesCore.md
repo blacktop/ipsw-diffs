@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__const: 0x1948
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0xf70
 +  __AUTH_CONST.__auth_got: 0xf88
    __AUTH.__objc_data: 0x0
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BD49F6A7-414B-3FB9-AF3F-2BDB930CF4A9
 -  Functions: 3421
 -  Symbols:   3902
--  CStrings:  1925
+-  CStrings:  2132
++  UUID: 537FD00F-AD5E-3131-8117-EEC21F6DAF93
 +  Functions: 3416
 +  Symbols:   3875
-+  CStrings:  1914
++  CStrings:  2121
  
 Symbols:
 + +[ASCPublicKeyCredentialDescriptor magicCredentialID]

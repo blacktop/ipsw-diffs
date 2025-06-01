@@ -26,11 +26,13 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: B1474961-D77C-3001-9CD1-061A68CC3687
 -  Functions: 815
++  UUID: D6A0D8BA-1F48-3957-9234-1D2764ACF8EB
 +  Functions: 816
    Symbols:   158
--  CStrings:  1805
-+  CStrings:  1816
+-  CStrings:  1821
++  CStrings:  1832
  
 CStrings:
 + "%s (id %llu): xf %u/%u: %s: inode is expected to be an SAF dir-stats origin\n"

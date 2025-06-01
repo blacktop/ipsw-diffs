@@ -27,8 +27,8 @@
    __DATA_CONST.__objc_classlist: 0x8
    __DATA_CONST.__objc_protolist: 0x10
 
+   __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__cfstring: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x628
 +  __AUTH_CONST.__auth_got: 0x630
@@ -39,12 +39,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libncurses.5.4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 679104DD-E746-3D82-9720-D57C2D2158E9
 -  Functions: 509
 -  Symbols:   269
--  CStrings:  346
+-  CStrings:  351
++  UUID: BFFEEB19-FFCC-36AD-8B17-8B1739EA86F5
 +  Functions: 511
 +  Symbols:   271
-+  CStrings:  351
++  CStrings:  356
  
 Symbols:
 + __xpc_type_error

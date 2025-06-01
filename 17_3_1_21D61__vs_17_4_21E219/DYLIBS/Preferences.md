@@ -61,7 +61,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0xa8
 +  __AUTH_CONST.__objc_intobj: 0x480
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xbc8
 -  __AUTH.__objc_data: 0x3a20
 -  __DATA.__objc_protorefs: 0x48
@@ -83,12 +82,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: FB122D5B-9F56-3533-A225-E4409E311718
 -  Functions: 4934
 -  Symbols:   17277
--  CStrings:  8263
+-  CStrings:  9891
++  UUID: 1E877C8E-5302-37AC-98E6-901FF8ED1A4F
 +  Functions: 5001
 +  Symbols:   17508
-+  CStrings:  8371
++  CStrings:  10027
  
 Symbols:
 + +[PSSystemPolicyManager isInstalledByThirdPartyMarketplace:]

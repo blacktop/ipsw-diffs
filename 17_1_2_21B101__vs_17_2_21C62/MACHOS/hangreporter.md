@@ -51,11 +51,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DF4219A1-BF5B-3440-9808-7E32568C875C
 -  Functions: 523
++  UUID: AC6564F1-885E-3FAB-B1E2-005472DEE881
 +  Functions: 524
    Symbols:   320
--  CStrings:  4275
-+  CStrings:  4277
+-  CStrings:  4779
++  CStrings:  4782
  
 CStrings:
 + "bundleIdentifier"

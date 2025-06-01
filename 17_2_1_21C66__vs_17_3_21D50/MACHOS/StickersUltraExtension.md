@@ -67,11 +67,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A2496108-9CB4-38B2-9E9E-01BA5B53C54E
 -  Functions: 3210
++  UUID: A9C73A0F-685D-3030-9A16-54931DA8D463
 +  Functions: 3194
    Symbols:   383
--  CStrings:  1441
-+  CStrings:  1439
+-  CStrings:  1458
++  CStrings:  1456
  
 CStrings:
 - "canShowAppStore"

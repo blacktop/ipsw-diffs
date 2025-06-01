@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F0BA8788-B131-356F-8F7A-7A1C64EF84B0
 -  Functions: 15956
 -  Symbols:   53242
--  CStrings:  22540
+-  CStrings:  25045
++  UUID: DD160107-4CD8-312C-ACA1-AFFB0080CF2E
 +  Functions: 15955
 +  Symbols:   53236
-+  CStrings:  22536
++  CStrings:  25041
  
 Symbols:
 - +[UISApplicationSupportDisplayEdgeInfo(SBHScreenTypes) _sbh_displayEdgeInfoForScreenType:]

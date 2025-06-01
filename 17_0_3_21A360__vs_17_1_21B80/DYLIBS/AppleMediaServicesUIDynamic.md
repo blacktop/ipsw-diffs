@@ -58,9 +58,7 @@
 +  __DATA_CONST.__objc_selrefs: 0x1520
    __DATA_CONST.__objc_arraydata: 0xb0
 -  __AUTH_CONST.__const: 0x83b8
--  __AUTH_CONST.__auth_ptr: 0x2a8
 +  __AUTH_CONST.__const: 0x8558
-+  __AUTH_CONST.__auth_ptr: 0x2b0
    __AUTH_CONST.__objc_const: 0x4a0
    __AUTH_CONST.__cfstring: 0xce0
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2498DBC4-1A63-3384-9FBE-9E51EC841083
 -  Functions: 6349
 -  Symbols:   4374
--  CStrings:  1813
+-  CStrings:  1916
++  UUID: F9AFF2A7-72FE-3A91-B301-BD426C136201
 +  Functions: 6456
 +  Symbols:   4467
-+  CStrings:  1829
++  CStrings:  1932
  
 Symbols:
 + __DATA__TtC27AppleMediaServicesUIDynamic13AMSUIDTimeout

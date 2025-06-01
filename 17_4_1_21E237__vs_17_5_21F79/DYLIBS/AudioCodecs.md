@@ -19,8 +19,7 @@
    __TEXT.__eh_frame: 0x4a8
    __DATA_CONST.__got: 0x250
    __DATA_CONST.__const: 0xced0
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__const: 0xe830
    __AUTH_CONST.__cfstring: 0x4180
    __AUTH_CONST.__auth_got: 0xa98
 -  __DATA.__data: 0x3ec
@@ -31,6 +30,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 74AC39F0-0A91-36EA-B605-E5377F17FC4A
++  UUID: 9EAD2D30-132A-391A-9EAD-2AF8EB77C49F
+   Functions: 10028
+   Symbols:   26144
+   CStrings:  3471
 CStrings:
 + "20:06:46"
 + "Apr 15 2024"

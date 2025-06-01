@@ -29,12 +29,14 @@
    - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C6585D6-BAFF-3F1D-83DC-28E5AEBAD8E7
 -  Functions: 279
 -  Symbols:   290
--  CStrings:  395
+-  CStrings:  415
++  UUID: ECD040EF-FF44-3FB9-8A59-55931FD7650F
 +  Functions: 293
 +  Symbols:   302
-+  CStrings:  401
++  CStrings:  421
  
 Symbols:
 + _ACMSEPControl

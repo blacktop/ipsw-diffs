@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/LiveSpeechUI.framework/LiveSpeechUI
    - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7B7A4FF8-2BA8-37BF-8365-EBEBCD37B030
++  UUID: FE943265-3D3F-3F23-BA16-E3E1BE920984
+   Functions: 209
+   Symbols:   131
+   CStrings:  158
+
 ```

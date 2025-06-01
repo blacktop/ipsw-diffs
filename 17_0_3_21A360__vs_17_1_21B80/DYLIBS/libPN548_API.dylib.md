@@ -26,12 +26,14 @@
    - /usr/lib/libNFC_HAL.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 112184D5-1093-37AA-9773-205446BDAA47
 -  Functions: 403
 -  Symbols:   317
--  CStrings:  1705
+-  CStrings:  1757
++  UUID: 8A83AF2B-8EF5-3021-9376-2501E923382F
 +  Functions: 406
 +  Symbols:   319
-+  CStrings:  1707
++  CStrings:  1759
  
 Symbols:
 + _NFDriverDisableLPCDAssist

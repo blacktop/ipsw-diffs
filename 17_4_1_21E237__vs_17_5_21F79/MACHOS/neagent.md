@@ -28,10 +28,12 @@
    - /System/Library/PrivateFrameworks/AppSSO.framework/AppSSO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7622AEA9-9351-3AAC-B88E-0FD17010A417
 -  Functions: 86
++  UUID: 2CBBA9F9-D943-3EBF-9E2A-9D29B9F309D9
 +  Functions: 87
    Symbols:   96
-   CStrings:  337
+   CStrings:  349
  
 
 ```

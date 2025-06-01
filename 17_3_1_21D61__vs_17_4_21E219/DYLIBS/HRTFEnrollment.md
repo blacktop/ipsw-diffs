@@ -32,11 +32,15 @@
    __DATA.__data: 0x3a8
    __DATA.__bss: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9602D819-6DC1-3E0E-A627-DCA353C533E3
++  UUID: 23894D3B-29DE-3A12-922A-ABC52FBF49BB
    Functions: 176
    Symbols:   977
--  CStrings:  625
-+  CStrings:  626
+-  CStrings:  710
++  CStrings:  711
  
 Symbols:
 + ___37-[HRTFEnrollmentSession stopSession:]_block_invoke.160

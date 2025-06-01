@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0xa160
    __DATA.__data: 0x8cc0
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 81111909-73E2-3185-AEF5-FF9EC00173B8
++  UUID: 457289B4-EF30-325B-A684-58700633D311
    Functions: 8061
    Symbols:   1536
--  CStrings:  7612
-+  CStrings:  7625
+-  CStrings:  8335
++  CStrings:  8348
  
 CStrings:
 + "Create battery configuration: combined buds with case(combined l&r: %@, c: %@)"

@@ -19,4 +19,13 @@
    __DATA_CONST.__objc_classlist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AEF2DD6B-697A-397A-B945-1344A46079C0
++  UUID: D504C589-2A28-3162-8210-2AA4CB7A5130
+   Functions: 4
+   Symbols:   25
+   CStrings:  196
+
 ```

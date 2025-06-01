@@ -28,11 +28,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/ProgressUI.framework/ProgressUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C3ED791-621D-3571-B1A0-15373B4F7AC7
++  UUID: F2330013-1AFF-305C-A880-1FABEFADEED2
    Functions: 105
    Symbols:   93
--  CStrings:  318
-+  CStrings:  319
+-  CStrings:  327
++  CStrings:  328
  
 CStrings:
 + "T@\"NSString\",?,R,C"

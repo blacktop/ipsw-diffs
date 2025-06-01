@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__cfstring: 0x204e0
    __AUTH_CONST.__objc_intobj: 0x9d8
    __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_doubleobj: 0x60
 -  __AUTH_CONST.__auth_got: 0xea8
@@ -62,12 +61,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 821B70BE-9D95-3793-BF88-DB08C1312665
 -  Functions: 14406
 -  Symbols:   42975
--  CStrings:  23060
+-  CStrings:  27191
++  UUID: 7104E92F-CF0D-373D-864E-A0A49125B434
 +  Functions: 14410
 +  Symbols:   42984
-+  CStrings:  23072
++  CStrings:  27207
  
 Symbols:
 + -[BRCAccountHandler _shouldResetLocalData:]

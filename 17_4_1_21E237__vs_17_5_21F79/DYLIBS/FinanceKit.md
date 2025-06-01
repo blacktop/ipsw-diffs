@@ -75,7 +75,6 @@
    __AUTH_CONST.__cfstring: 0x520
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x26fa8
--  __AUTH_CONST.__auth_ptr: 0xa98
 -  __AUTH_CONST.__auth_got: 0x2558
 -  __AUTH.__objc_data: 0x6100
 -  __AUTH.__data: 0xa190
@@ -88,7 +87,6 @@
 -  __DATA_DIRTY.__data: 0x2820
 -  __DATA_DIRTY.__bss: 0x680
 +  __AUTH_CONST.__const: 0x27a10
-+  __AUTH_CONST.__auth_ptr: 0xac8
 +  __AUTH_CONST.__auth_got: 0x2560
 +  __AUTH.__objc_data: 0x6008
 +  __AUTH.__data: 0x9c40
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DB6FBA0-C90C-30F9-A600-FF0C25A0F9FB
 -  Functions: 36006
 -  Symbols:   9718
--  CStrings:  4818
+-  CStrings:  4859
++  UUID: 72CDABBB-EDFB-3945-92CA-2AC25F78C573
 +  Functions: 36635
 +  Symbols:   9869
-+  CStrings:  4884
++  CStrings:  4925
  
 Symbols:
 + -[FKBankConnectTermsAndConditions .cxx_destruct]

@@ -47,7 +47,6 @@
 -  __AUTH_CONST.__const: 0x1578
 +  __AUTH_CONST.__const: 0x1580
    __AUTH_CONST.__objc_intobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0xb30
 +  __AUTH_CONST.__auth_got: 0xb50
    __AUTH.__objc_data: 0xa88
@@ -66,12 +65,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F9EA8F24-6AD3-394F-BEB5-5129E88E614A
 -  Functions: 1489
 -  Symbols:   2741
--  CStrings:  1410
+-  CStrings:  1461
++  UUID: 7AEC051E-6C41-3C7F-B416-04BC69175276
 +  Functions: 1493
 +  Symbols:   2746
-+  CStrings:  1411
++  CStrings:  1462
  
 Symbols:
 + -[SWShareableContentExtractor retrieveShareableContentForBundleIdentifier:sceneIdentifier:completion:]

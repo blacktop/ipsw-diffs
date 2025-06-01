@@ -47,12 +47,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC5A143D-A4E8-3F12-A35A-C18E291C9141
 -  Functions: 913
 -  Symbols:   380
--  CStrings:  1485
+-  CStrings:  1644
++  UUID: A2FC9248-76EA-39AB-8ACD-A6794AC31F96
 +  Functions: 917
 +  Symbols:   381
-+  CStrings:  1488
++  CStrings:  1647
  
 Symbols:
 + _FAFollowUpClientIdentifier

@@ -66,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 41E13B14-ABE2-3408-9D98-4E33EB0E43BC
 -  Functions: 3453
 -  Symbols:   742
--  CStrings:  5885
+-  CStrings:  6841
++  UUID: F7B82609-0749-33AB-9B64-3AEBC90BFF3B
 +  Functions: 3440
 +  Symbols:   740
-+  CStrings:  5882
++  CStrings:  6835
  
 Symbols:
 + _OBJC_CLASS_$_HKOAuth2LoginSession
@@ -80,6 +82,7 @@ Symbols:
 - _kSecRandomDefault
 CStrings:
 + "\x11\x12"
++ "A"
 + "B16@?0@\"HKClinicalGatewayEndpointSchema\"8"
 + "B16@?0@\"HKClinicalGatewayEndpointSchemaParameter\"8"
 + "Redirect URL string <%@> could not be parsed into NSURLComponents"

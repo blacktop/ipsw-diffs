@@ -34,13 +34,16 @@
    __DATA_CONST.__objc_superrefs: 0x10
    __AUTH_CONST.__cfstring: 0x160
 
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5A9D9078-DCEA-3F5C-B6EE-4A8F46ACA5E6
++  UUID: D9F4A962-84E3-3006-AC26-698D0E6091F2
    Functions: 111
 -  Symbols:   539
--  CStrings:  288
+-  CStrings:  299
 +  Symbols:   540
-+  CStrings:  291
++  CStrings:  302
  
 Symbols:
 + ___52-[AXUIClientConnection _initializeServiceConnection]_block_invoke.255

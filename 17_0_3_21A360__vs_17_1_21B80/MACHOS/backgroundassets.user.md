@@ -72,12 +72,14 @@
 +  - /usr/lib/libbsm.0.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5265BA23-B1C7-3B4D-9DE0-F040A11EAA10
 -  Functions: 1321
 -  Symbols:   296
--  CStrings:  2314
+-  CStrings:  2570
++  UUID: 22309C12-D875-31F3-92F4-0DB7D0955B8E
 +  Functions: 1336
 +  Symbols:   305
-+  CStrings:  2359
++  CStrings:  2623
  
 Symbols:
 + _CC_SHA256_Final

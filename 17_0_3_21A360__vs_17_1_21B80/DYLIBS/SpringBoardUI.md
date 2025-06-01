@@ -43,6 +43,15 @@
    __DATA.__data: 0x9c8
    __DATA.__bss: 0x60
    __DATA_DIRTY.__objc_data: 0x730
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 895B9229-251F-31E7-8FA5-91F6A99B7B7E
++  UUID: D1D7C87A-6C97-39BA-8C37-E398A359761C
+   Functions: 907
+   Symbols:   3561
+   CStrings:  2278
 Symbols:
 + _OBJC_IVAR_$_SBSceneView._inflightDisplayModeAnimations
 - _objc_msgSend$setClipsSubviews:

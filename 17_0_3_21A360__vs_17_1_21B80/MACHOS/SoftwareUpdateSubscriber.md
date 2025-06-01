@@ -39,13 +39,16 @@
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x10
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5EF440A6-7E39-33BC-A05D-20998EB795D2
++  UUID: ED325ADE-1CFC-3949-9D94-4E566FC70CAB
    Functions: 20
 -  Symbols:   367
--  CStrings:  183
+-  CStrings:  201
 +  Symbols:   370
-+  CStrings:  188
++  CStrings:  207
  
 Symbols:
 + _objc_msgSend$isValid

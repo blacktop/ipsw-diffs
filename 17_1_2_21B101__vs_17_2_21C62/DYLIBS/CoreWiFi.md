@@ -36,11 +36,15 @@
    __AUTH_CONST.__objc_intobj: 0x3a20
    __AUTH_CONST.__objc_arrayobj: 0x288
 
+   - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 99044FD0-91B8-399F-A06F-88E0E36E6A73
++  UUID: 3D56B644-34D1-3032-9723-95DF2844A356
    Functions: 3592
    Symbols:   619
--  CStrings:  5536
-+  CStrings:  5544
+-  CStrings:  7640
++  CStrings:  7655
  
 CStrings:
 + "AUTO-JOIN: Including all legacy band channels for pre-association scan"

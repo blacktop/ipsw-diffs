@@ -64,7 +64,6 @@
    __AUTH_CONST.__cfstring: 0xda0
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__objc_const: 0x300
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__const: 0xe8
@@ -77,7 +76,6 @@
 -  __DATA.__objc_ivar: 0x154
 -  __DATA.__data: 0x5d0
 +  __AUTH_CONST.__objc_dictobj: 0x28
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__const: 0x1c8
 +  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH.__objc_data: 0xfd0
@@ -103,12 +101,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 55264F01-47A4-3392-B39B-7416DF391F04
 -  Functions: 847
 -  Symbols:   1971
--  CStrings:  989
+-  CStrings:  1098
++  UUID: 87FB80B3-6025-3951-882D-C40C12E2DD90
 +  Functions: 829
 +  Symbols:   1913
-+  CStrings:  970
++  CStrings:  1079
  
 Symbols:
 + +[BRLTJBrailleStateManager manager]

@@ -29,11 +29,15 @@
    __DATA.__data: 0x538
    __DATA.__bss: 0x78
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 088754B5-6977-341E-BCC5-630D211FFE7C
++  UUID: E433FCD9-3FE7-3974-B1C0-EE77B1D90F61
    Functions: 1477
    Symbols:   5936
--  CStrings:  2840
-+  CStrings:  2845
+-  CStrings:  3233
++  CStrings:  3238
  
 Symbols:
 + ___67-[CalDAVCalendarPropertyRefreshOperation _handleUpdateForCalendar:]_block_invoke.375

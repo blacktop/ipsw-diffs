@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A179EBE8-EC1D-31B0-82C3-4D723DE74557
 -  Functions: 3377
 -  Symbols:   418
--  CStrings:  1153
+-  CStrings:  1163
++  UUID: F746309B-17DC-3787-BE7F-9334CBFE6546
 +  Functions: 3365
 +  Symbols:   404
-+  CStrings:  1171
++  CStrings:  1181
  
 Symbols:
 + _IOHIDEventCreateGenericGestureEvent

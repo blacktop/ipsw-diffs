@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: BF14F345-9615-3034-BEDD-022AE50424CE
 -  Functions: 1004
 -  Symbols:   4162
--  CStrings:  2244
+-  CStrings:  2927
++  UUID: A190BCC6-B0F3-36E7-8029-47377332BB9C
 +  Functions: 400
 +  Symbols:   2376
-+  CStrings:  1402
++  CStrings:  1876
  
 Symbols:
 - +[AWDMailSearchEngagement engagementsType]

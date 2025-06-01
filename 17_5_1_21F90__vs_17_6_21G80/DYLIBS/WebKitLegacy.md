@@ -16,6 +16,15 @@
    __TEXT.__cstring: 0xf194
    __TEXT.__oslogstring: 0x136
    __TEXT.__unwind_info: 0x7ea0
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: B7D094A1-13B0-3ED5-8D3F-90DDFA2C4B37
++  UUID: 14DE6BF7-1250-363D-88BE-85590C743CD4
+   Functions: 7096
+   Symbols:   22679
+   CStrings:  9098
 Symbols:
 + __ZN3WTF11WeakHashMapIN7WebCore4PageENS_7HashMapINS1_18SecurityOriginDataENS_6RefPtrINS1_16StorageNamespaceENS_12RawPtrTraitsIS6_EENS_21DefaultRefDerefTraitsIS6_EEEENS_11DefaultHashIS4_EENS_10HashTraitsIS4_EENSE_ISB_EENS_15HashTableTraitsEEENS_18DefaultWeakPtrImplEE20removeNullReferencesEv
 + __ZN3WTF11WeakHashMapIN7WebCore4PageENS_7HashMapINS1_18SecurityOriginDataENS_6RefPtrINS1_16StorageNamespaceENS_12RawPtrTraitsIS6_EENS_21DefaultRefDerefTraitsIS6_EEEENS_11DefaultHashIS4_EENS_10HashTraitsIS4_EENSE_ISB_EENS_15HashTableTraitsEEENS_18DefaultWeakPtrImplEE4findERKS2_

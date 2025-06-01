@@ -46,11 +46,15 @@
    __DATA.__common: 0x20
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyBasebandDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB3B49B1-3C21-34D5-896A-82A7B66953F2
++  UUID: 45E0AB87-31E8-3584-9072-B8151E84941B
    Functions: 634
    Symbols:   339
--  CStrings:  8314
-+  CStrings:  8322
+-  CStrings:  13570
++  CStrings:  13586
  
 CStrings:
 + "ESR_deltaDays"

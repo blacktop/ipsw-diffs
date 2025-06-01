@@ -19,6 +19,15 @@
    __TEXT.__objc_classname: 0x208
    __TEXT.__objc_methname: 0x3644
    __TEXT.__objc_methtype: 0x5dc
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FF3B3EFB-9291-3D7D-B4E4-86125570888E
++  UUID: ECD1C308-063D-36C2-89B6-CBBD1B6848C9
+   Functions: 613
+   Symbols:   2294
+   CStrings:  1350
 Symbols:
 + ___57-[ACAccount(Seeding) fetchCredentialTokenWithCompletion:]_block_invoke.506
 + ___57-[ACAccount(Seeding) fetchCredentialTokenWithCompletion:]_block_invoke.506.cold.1

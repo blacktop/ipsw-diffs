@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7754D2B9-2263-3428-A80E-24E0DB820D49
 -  Functions: 2118
 -  Symbols:   442
--  CStrings:  2339
+-  CStrings:  2835
++  UUID: 51A825BB-855E-3444-9053-D6E78E7EFE58
 +  Functions: 2131
 +  Symbols:   437
-+  CStrings:  2354
++  CStrings:  2854
  
 Symbols:
 + _CFURLGetTypeID

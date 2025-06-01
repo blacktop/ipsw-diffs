@@ -70,7 +70,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x720
 -  __AUTH_CONST.__auth_got: 0x2068
 +  __AUTH_CONST.__auth_got: 0x2070
    __AUTH.__objc_data: 0x3cf8
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B6EDC5B-66CA-333C-AEC0-C576BDE2F6AB
 -  Functions: 19894
 -  Symbols:   15114
--  CStrings:  7763
+-  CStrings:  8963
++  UUID: 66FEBD22-E9C3-3A1B-A097-049C8EC995EB
 +  Functions: 19932
 +  Symbols:   15154
-+  CStrings:  7786
++  CStrings:  8996
  
 Symbols:
 + -[MTUPPMetadata _playheadToString]

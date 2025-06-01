@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 11A8CDC6-B3CA-32E0-9C38-2B25D7E70446
 -  Functions: 1947
 -  Symbols:   393
--  CStrings:  3638
+-  CStrings:  4213
++  UUID: BD55A1E4-60D0-3F0E-B897-8C2EDCDC9155
 +  Functions: 1952
 +  Symbols:   394
-+  CStrings:  3655
++  CStrings:  4231
  
 Symbols:
 + _OBJC_CLASS_$_GEOLocationShifter

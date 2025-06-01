@@ -54,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BB47124-8352-3A9C-ACC5-537D9B7E5E6D
 -  Functions: 874
 -  Symbols:   2992
--  CStrings:  1504
+-  CStrings:  1886
++  UUID: DF3E0A97-89DF-3374-92F6-714EAC131848
 +  Functions: 875
 +  Symbols:   2995
-+  CStrings:  1507
++  CStrings:  1890
  
 Symbols:
 + -[MADRemoveBackgroundMatteResult cropRect]

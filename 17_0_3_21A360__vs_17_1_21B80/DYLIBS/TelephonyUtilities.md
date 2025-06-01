@@ -77,12 +77,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F9E7CBB3-46EC-36C4-8B4F-EF2B91EE0B6E
 -  Functions: 7527
 -  Symbols:   23820
--  CStrings:  11195
+-  CStrings:  12932
++  UUID: EAF4A032-94A1-3B43-B838-FA81076974E9
 +  Functions: 7533
 +  Symbols:   23834
-+  CStrings:  11205
++  CStrings:  12952
  
 Symbols:
 + +[TUContinuityConversation supportsSecureCoding]

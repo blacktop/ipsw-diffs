@@ -76,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C77585A1-C5CC-364E-97A4-EC70CFBC0750
 -  Functions: 739
 -  Symbols:   3085
--  CStrings:  1813
+-  CStrings:  2200
++  UUID: F9024D6E-2DA4-39CF-9AD1-ECFB3059A66C
 +  Functions: 765
 +  Symbols:   3191
-+  CStrings:  1858
++  CStrings:  2265
  
 Symbols:
 + +[AssistantDetailListController bundle]

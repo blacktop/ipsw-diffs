@@ -62,7 +62,6 @@
 +  __AUTH_CONST.__const: 0x1b68
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0xbc8
 +  __AUTH_CONST.__auth_got: 0xbe0
    __AUTH.__objc_data: 0x11f8
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 902C1212-344E-3A16-8D62-83B58F901527
 -  Functions: 2710
 -  Symbols:   7130
--  CStrings:  2583
+-  CStrings:  3013
++  UUID: 8DE43705-4136-36E2-A94B-256D3461CE2F
 +  Functions: 2722
 +  Symbols:   7131
-+  CStrings:  2604
++  CStrings:  3034
  
 Symbols:
 + _objc_msgSend$nextObject

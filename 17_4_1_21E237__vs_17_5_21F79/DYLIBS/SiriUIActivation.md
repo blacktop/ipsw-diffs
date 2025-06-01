@@ -19,12 +19,15 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_classrefs: 0x270
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE2D6966-4D80-3016-B372-995E1466822C
++  UUID: 970BC234-84C0-3E63-A1E2-725C68136BC0
    Functions: 479
 -  Symbols:   2076
 +  Symbols:   2077
-   CStrings:  1397
+   CStrings:  1446
  
 Symbols:
 + __OBJC_$_PROTOCOL_REFS_SASStateChangeListener

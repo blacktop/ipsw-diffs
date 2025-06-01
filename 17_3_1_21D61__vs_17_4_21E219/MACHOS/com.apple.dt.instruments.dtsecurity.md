@@ -40,12 +40,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A33D3FD8-ED2A-360E-BF9B-2083B19AC4A4
 -  Functions: 200
 -  Symbols:   338
--  CStrings:  436
+-  CStrings:  493
++  UUID: DA2BACF0-4213-396A-AE29-241A25357ADC
 +  Functions: 201
 +  Symbols:   339
-+  CStrings:  437
++  CStrings:  495
  
 Symbols:
 + _DTProcessControlServiceOption_CaptureOutputKey

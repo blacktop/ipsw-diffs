@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F76792FC-5C7F-3C29-A1B4-40BB5AB9214D
 -  Functions: 4597
 -  Symbols:   1809
--  CStrings:  1549
+-  CStrings:  1604
++  UUID: F7D351C2-BC31-343E-B46E-FF6D4FFB8800
 +  Functions: 4639
 +  Symbols:   1822
-+  CStrings:  1554
++  CStrings:  1609
  
 Symbols:
 + _$s22UniformTypeIdentifiers6UTTypeV10exportedAs12conformingToACSS_ACSgtcfC

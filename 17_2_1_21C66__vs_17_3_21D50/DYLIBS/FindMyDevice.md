@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C783B69-50DA-3B0B-A4EB-BC5F0710A6B1
 -  Functions: 795
 -  Symbols:   3257
--  CStrings:  1625
+-  CStrings:  2045
++  UUID: 5116A0B9-3F6D-347A-B430-BE08E5FCD6DF
 +  Functions: 807
 +  Symbols:   3292
-+  CStrings:  1635
++  CStrings:  2055
  
 Symbols:
 + -[FMDFMIPManager disableLocationDisplayWithCompletion:]

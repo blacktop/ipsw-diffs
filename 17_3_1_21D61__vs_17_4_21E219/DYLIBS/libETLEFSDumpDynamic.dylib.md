@@ -30,9 +30,11 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: E2169AFE-2C1F-3C78-87DF-32E9782186A3
 -  Functions: 191
 -  Symbols:   538
 -  CStrings:  14
++  UUID: CA947EE7-AC27-3609-BC86-D2D0D2951B12
 +  Functions: 192
 +  Symbols:   539
 +  CStrings:  10

@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 213D4E05-0211-3A85-A68C-61CB2DF86B92
 -  Functions: 213
 -  Symbols:   826
--  CStrings:  460
+-  CStrings:  523
++  UUID: 189DC29C-09C8-31FC-ABB0-87F88E54FD8F
 +  Functions: 209
 +  Symbols:   818
-+  CStrings:  459
++  CStrings:  521
  
 Symbols:
 + -[BGSystemTask expirationAckHandler]

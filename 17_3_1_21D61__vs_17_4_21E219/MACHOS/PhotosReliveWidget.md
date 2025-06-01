@@ -61,8 +61,11 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5D37543C-8D60-3A40-B8E1-019EDCC9C5F1
++  UUID: 7AFF8ECF-64AC-3A5A-BC5F-5F7211F7530D
    Functions: 1012
 -  Symbols:   212
 -  CStrings:  259

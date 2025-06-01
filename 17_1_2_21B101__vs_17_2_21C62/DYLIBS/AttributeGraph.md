@@ -30,12 +30,15 @@
    __AUTH.__data: 0x50
    __DATA.__objc_classrefs: 0x68
 
+   - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 900C6447-7B3F-339B-84D3-65CC278BCE51
++  UUID: 9E173E48-4514-3237-AB0B-2B0BF0E657A9
    Functions: 1773
 -  Symbols:   2239
 +  Symbols:   2238
-   CStrings:  358
+   CStrings:  481
  
 Symbols:
 + _objc_retain_x21

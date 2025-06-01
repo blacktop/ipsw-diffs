@@ -10,12 +10,15 @@
    __TEXT.__auth_stubs: 0x2d0
    __TEXT.__objc_stubs: 0x120
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4C4F0BA2-C31D-3B6F-98BF-863B4C070C22
++  UUID: CFFFC69E-4E67-3637-A7E0-CCDEBB3AD2C2
    Functions: 727
 -  Symbols:   725
 +  Symbols:   59
-   CStrings:  99
+   CStrings:  100
  
 Symbols:
 - _OBJC_CLASS_$_PrintBandService

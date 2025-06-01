@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7907CF6-5EEC-322B-B5A1-B395E49D578E
 -  Functions: 83
 -  Symbols:   111
--  CStrings:  318
+-  CStrings:  326
++  UUID: 52220D5C-F43E-32BE-B290-7216FF5FD3A9
 +  Functions: 119
 +  Symbols:   144
-+  CStrings:  407
++  CStrings:  417
  
 Symbols:
 + OBJC_IVAR_$_PSTableCell._specifier

@@ -49,9 +49,7 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__const: 0xc528
    __AUTH_CONST.__objc_const: 0x230
--  __AUTH_CONST.__auth_ptr: 0x3b0
 -  __AUTH_CONST.__auth_got: 0x1f70
-+  __AUTH_CONST.__auth_ptr: 0x3b8
 +  __AUTH_CONST.__auth_got: 0x1f80
    __AUTH.__objc_data: 0x378
    __AUTH.__data: 0xe78
@@ -70,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5230B86C-0EB0-343F-A447-13A402A609CB
 -  Functions: 9329
 -  Symbols:   2279
--  CStrings:  1328
+-  CStrings:  1338
++  UUID: 1B2632B4-42BE-343D-B3BB-60AA71B98734
 +  Functions: 9340
 +  Symbols:   2282
-+  CStrings:  1332
++  CStrings:  1342
  
 Symbols:
 + _OBJC_CLASS_$_CNAvatarImageRendererSettings

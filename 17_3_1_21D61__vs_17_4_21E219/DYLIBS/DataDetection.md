@@ -23,4 +23,13 @@
    __DATA_DIRTY.__objc_const: 0x2d0
    __DATA_DIRTY.__objc_data: 0x2d0
 
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9FCC9EF6-13C2-3579-B3BD-FB52EC16AD1A
++  UUID: 4DCFED1B-226B-3433-81E6-85559F3FAA33
+   Functions: 47
+   Symbols:   239
+   CStrings:  119
+
 ```

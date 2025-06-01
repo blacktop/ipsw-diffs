@@ -53,11 +53,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76D3FD6B-D7B1-3E4F-997D-1AECB92ADDB9
 -  Functions: 363
++  UUID: A9EB4A08-4341-3114-9412-22748B9FDFD0
 +  Functions: 365
    Symbols:   231
--  CStrings:  1911
-+  CStrings:  1924
+-  CStrings:  2157
++  CStrings:  2173
  
 CStrings:
 + "%c[%{public}s %{public}s]:%i sending event to Wallet: %@"

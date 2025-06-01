@@ -20,7 +20,6 @@
 +  __AUTH_CONST.__const: 0x2c8
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x548
 -  __AUTH.__objc_data: 0x1810
 -  __AUTH.__data: 0x10
@@ -37,5 +36,14 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E8ED3BBE-1D5C-34B9-8526-6D3C9C6C94A4
++  UUID: 48A3E06F-AD01-32D5-9BA7-EAEEE2D62148
+   Functions: 2035
+   Symbols:   6633
+   CStrings:  2411
 
 ```

@@ -19,20 +19,22 @@
 +  __TEXT.__unwind_info: 0x270
 +  __DATA_CONST.__got: 0xb0
    __DATA_CONST.__const: 0x218
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__cfstring: 0xaa0
 +  __AUTH_CONST.__cfstring: 0xa80
    __AUTH_CONST.__const: 0x120
    __AUTH_CONST.__auth_got: 0x6e8
    __DATA.__bss: 0x18
 
+   - /usr/lib/libPN548_API.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: DE4CB632-B208-310E-9BD1-3658744054CA
++  UUID: 8D7E4B54-1613-3467-961B-41802F9125F8
    Functions: 177
 -  Symbols:   520
--  CStrings:  1109
+-  CStrings:  1194
 +  Symbols:   521
-+  CStrings:  1113
++  CStrings:  1197
  
 Symbols:
 + _GetElapsedTimeInMillisecondsFromMachTime

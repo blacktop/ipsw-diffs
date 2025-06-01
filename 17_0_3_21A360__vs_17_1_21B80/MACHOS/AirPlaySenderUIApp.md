@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x38
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BB46F0E-9832-39F6-A0F8-6CFAA5711B6E
++  UUID: 6403C4CE-EA26-37BC-A849-BA33CF16988F
    Functions: 173
    Symbols:   155
--  CStrings:  767
-+  CStrings:  768
+-  CStrings:  836
++  CStrings:  838
  
 CStrings:
 + "[%{ptr}] Disable captive websheet"

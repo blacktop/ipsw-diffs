@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F2A504E-EE47-3551-A859-39C058EA2540
 -  Functions: 17349
 -  Symbols:   41565
--  CStrings:  15808
+-  CStrings:  18433
++  UUID: A9ED52C5-7B0C-31E9-8F54-F0FE396698DB
 +  Functions: 17381
 +  Symbols:   41640
-+  CStrings:  15845
++  CStrings:  18475
  
 Symbols:
 + +[NTPBFeedItem surfacedByArticleListID2Type]

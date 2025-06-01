@@ -73,7 +73,6 @@
 +  __AUTH_CONST.__cfstring: 0x37c0
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x198
    __AUTH_CONST.__auth_got: 0x1898
 -  __AUTH.__objc_data: 0x2488
 -  __AUTH.__data: 0x1c90
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9B9EDA97-9624-39FD-B7A4-9DEB7AC50543
 -  Functions: 10253
 -  Symbols:   13153
--  CStrings:  3755
+-  CStrings:  4199
++  UUID: F2CA7CCD-9558-3093-AADB-3353C09DD93C
 +  Functions: 10393
 +  Symbols:   13363
-+  CStrings:  3776
++  CStrings:  4222
  
 Symbols:
 + +[ExternalPurchaseLinkResponse supportsSecureCoding]

@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 963B01C1-E5D9-393B-A35E-2424160F8E11
 -  Functions: 58
 -  Symbols:   338
--  CStrings:  185
+-  CStrings:  194
++  UUID: 03B5AAA7-C644-3930-B692-CBD5F60A2280
 +  Functions: 60
 +  Symbols:   344
-+  CStrings:  187
++  CStrings:  196
  
 Symbols:
 + _BKLogHapticFeedback

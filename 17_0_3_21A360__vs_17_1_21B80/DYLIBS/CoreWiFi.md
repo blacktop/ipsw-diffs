@@ -45,11 +45,15 @@
    __AUTH_CONST.__objc_intobj: 0x3a20
    __AUTH_CONST.__objc_arrayobj: 0x288
 
+   - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 267284FA-944A-3AF0-ABBF-5101036E9BDA
++  UUID: 99044FD0-91B8-399F-A06F-88E0E36E6A73
    Functions: 3592
    Symbols:   619
--  CStrings:  5533
-+  CStrings:  5536
+-  CStrings:  7635
++  CStrings:  7640
  
 CStrings:
 + "\x024"

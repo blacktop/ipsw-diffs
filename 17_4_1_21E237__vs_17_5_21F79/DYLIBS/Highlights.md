@@ -19,7 +19,7 @@
    __TEXT.__objc_classname: 0x29
    __TEXT.__objc_methname: 0x2ba4
 
-   __AUTH_CONST.__auth_ptr: 0x5e8
+   __AUTH_CONST.__const: 0x1aa58
    __AUTH_CONST.__objc_const: 0x188
    __AUTH_CONST.__auth_got: 0x2130
 -  __AUTH.__data: 0x14f8
@@ -45,5 +45,14 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8670AA71-7BEC-34F2-B9B6-71A96668B870
++  UUID: D7CA3EE6-2A82-3939-B053-A71C7CD1F74F
+   Functions: 18584
+   Symbols:   405
+   CStrings:  3145
 
 ```

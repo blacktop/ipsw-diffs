@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x280
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 26AC07A5-644E-3F07-BD6E-9EAFE60B9022
++  UUID: 9AC7A0E5-DBDA-341B-9B8B-F07231D5FBC2
    Functions: 99
    Symbols:   112
--  CStrings:  451
-+  CStrings:  452
+-  CStrings:  458
++  CStrings:  459
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -53,7 +53,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x1870
 +  __AUTH_CONST.__objc_const: 0x17288
    __AUTH_CONST.__const: 0xe6e0
-   __AUTH_CONST.__auth_ptr: 0x160
 -  __AUTH_CONST.__cfstring: 0x2c8c0
 +  __AUTH_CONST.__cfstring: 0x2c960
    __AUTH_CONST.__objc_arrayobj: 0xee8
@@ -72,12 +71,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 441495E3-933B-37F5-84BA-A3A4FA90F128
 -  Functions: 36877
 -  Symbols:   104901
--  CStrings:  47653
+-  CStrings:  53355
++  UUID: AEFD7EAC-4031-3650-8C90-F3CE73652A56
 +  Functions: 36883
 +  Symbols:   104928
-+  CStrings:  47663
++  CStrings:  53370
  
 Symbols:
 + +[PUPhotoKitRecoverActionPerformer canPerformOnAsset:inAssetCollection:]

@@ -57,7 +57,6 @@
    __DATA_CONST.__objc_arraydata: 0x40
 -  __AUTH_CONST.__const: 0x9038
 +  __AUTH_CONST.__const: 0x9048
-   __AUTH_CONST.__auth_ptr: 0x230
    __AUTH_CONST.__objc_const: 0x4da0
 -  __AUTH_CONST.__cfstring: 0x3a60
 +  __AUTH_CONST.__cfstring: 0x3b00
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 68F92F00-3AE1-3433-BF91-E71938050178
 -  Functions: 26851
 -  Symbols:   27219
--  CStrings:  4039
+-  CStrings:  4506
++  UUID: 0B74F6C0-143B-328B-9D1D-8CE1C6E026A9
 +  Functions: 26657
 +  Symbols:   26679
-+  CStrings:  4048
++  CStrings:  4520
  
 Symbols:
 + +[SiriNLUSELFLogUtils createCDMAllServicesWarmupEndedLog:]

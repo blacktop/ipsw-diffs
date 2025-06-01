@@ -49,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F71B5C2C-206B-3F54-8E36-E3FC38E8A8E0
 -  Functions: 695
 -  Symbols:   497
--  CStrings:  880
+-  CStrings:  913
++  UUID: 8F857B2D-08FB-3F59-923E-72C8F20B4917
 +  Functions: 697
 +  Symbols:   501
-+  CStrings:  892
++  CStrings:  930
  
 Symbols:
 + _kApplicationID

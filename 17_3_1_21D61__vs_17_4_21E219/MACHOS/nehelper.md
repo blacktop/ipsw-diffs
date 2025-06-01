@@ -60,11 +60,13 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C53F66C-4858-3710-B1FA-18DC044B6237
 -  Functions: 232
++  UUID: FD4C0916-79A7-3DC1-8F94-11ADC2D86628
 +  Functions: 242
    Symbols:   373
--  CStrings:  1535
-+  CStrings:  1570
+-  CStrings:  2137
++  CStrings:  2177
  
 Symbols:
 + _NEGetConsoleUserUID

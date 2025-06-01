@@ -24,11 +24,15 @@
    __DATA_CONST.__got: 0xf0
    __DATA_CONST.__auth_ptr: 0x50
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 8AD7FFD8-7B65-3D35-B4F7-3485D1DDB3E8
++  UUID: 43D694F0-5D71-3BF9-A644-00C3A8E94033
    Functions: 1673
    Symbols:   462
--  CStrings:  3026
-+  CStrings:  3027
+-  CStrings:  3248
++  CStrings:  3249
  
 CStrings:
 + "ACMRequirement - ACMRequirementDataRatchet"

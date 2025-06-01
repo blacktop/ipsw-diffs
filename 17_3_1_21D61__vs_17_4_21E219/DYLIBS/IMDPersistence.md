@@ -62,7 +62,6 @@
 -  __AUTH_CONST.__const: 0xb80
 +  __AUTH_CONST.__const: 0xe58
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x11f8
 +  __AUTH_CONST.__auth_got: 0x1228
    __AUTH.__objc_data: 0xc0
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CAA8A8FC-7B8A-3053-880F-F625BA9DA9AC
 -  Functions: 4153
 -  Symbols:   2158
--  CStrings:  6677
+-  CStrings:  8710
++  UUID: 82B2BBEE-B648-3C58-8107-5FC49375699A
 +  Functions: 4179
 +  Symbols:   2173
-+  CStrings:  6710
++  CStrings:  8754
  
 Symbols:
 + _IMDAttachmentRecordMarkAttachmentWithROWIDWithSyncState

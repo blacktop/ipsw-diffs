@@ -17,7 +17,10 @@
 -  __DATA_DIRTY.__const: 0x3c8
 +  __DATA_DIRTY.__const: 0x5a8
    - /usr/lib/libSystem.B.dylib
+-  UUID: 14EA6B3F-5F8B-365B-926E-B5D5F0D956C7
++  UUID: C9AB4FBA-ACFF-3D32-B713-DBFBC9A4C62D
    Functions: 361
    Symbols:   635
+   CStrings:  34
 
 ```

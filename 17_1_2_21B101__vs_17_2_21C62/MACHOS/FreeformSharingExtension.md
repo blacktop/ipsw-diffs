@@ -39,11 +39,15 @@
    __DATA.__objc_classrefs: 0x238
    __DATA.__objc_superrefs: 0x10
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8EAE0355-B779-3C7B-B0D5-8D2D19A62A18
++  UUID: FD0C5BAF-1E51-3386-A3F3-A29CBC2AE87C
    Functions: 1709
    Symbols:   462
--  CStrings:  1168
-+  CStrings:  1166
+-  CStrings:  1260
++  CStrings:  1258
  
 CStrings:
 - "isDecodable"

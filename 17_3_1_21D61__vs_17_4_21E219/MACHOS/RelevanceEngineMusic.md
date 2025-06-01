@@ -14,5 +14,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 621D8A1A-1D74-30C0-AB08-451F0D1E5676
++  UUID: BC157123-121E-35A9-A1D1-FA7D41F5E9E0
+   Functions: 2
+   Symbols:   19
+   CStrings:  9
 
 ```

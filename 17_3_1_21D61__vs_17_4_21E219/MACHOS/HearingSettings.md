@@ -50,12 +50,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 229C6811-202C-37CD-9717-3CF3518C3991
 -  Functions: 634
 -  Symbols:   359
--  CStrings:  1798
+-  CStrings:  2158
++  UUID: 79638B37-574C-37B1-8C41-439093D9FC92
 +  Functions: 633
 +  Symbols:   358
-+  CStrings:  1796
++  CStrings:  2154
  
 Symbols:
 - _PSTitleKey

@@ -31,11 +31,15 @@
    __DATA.__objc_superrefs: 0x28
    __DATA.__objc_ivar: 0x30
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 200BE7B7-4DDC-3FD2-B6F8-82AB38238E46
++  UUID: CB5C463A-3A74-3501-BE8E-53547EC86C27
    Functions: 109
    Symbols:   146
--  CStrings:  599
-+  CStrings:  600
+-  CStrings:  683
++  CStrings:  684
  
 CStrings:
 + "cancelUpdatesForToken:"

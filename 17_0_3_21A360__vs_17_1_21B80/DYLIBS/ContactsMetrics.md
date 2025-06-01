@@ -32,13 +32,16 @@
    __AUTH_CONST.__auth_got: 0x138
    __DATA.__objc_classrefs: 0x48
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F755368-E4A2-37E9-84C4-C00C282DFA17
++  UUID: DDF02598-83B7-3B7D-B592-C45C822BF8E7
    Functions: 42
 -  Symbols:   353
--  CStrings:  240
+-  CStrings:  349
 +  Symbols:   361
-+  CStrings:  248
++  CStrings:  365
  
 Symbols:
 + _CNMetricsKeyPosterCount

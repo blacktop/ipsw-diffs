@@ -29,7 +29,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/RespiratoryHealthUI.framework/RespiratoryHealthUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E3F9E42-2C14-3834-B911-8B55DC4C5145
++  UUID: 767E1BB8-1907-32D1-9F52-D70D7B570768
    Functions: 4
    Symbols:   25
 -  CStrings:  58

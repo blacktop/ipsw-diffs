@@ -105,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 549202D2-259D-3A05-8590-DB99AD4BC70D
 -  Functions: 10498
 -  Symbols:   1343
--  CStrings:  2756
+-  CStrings:  2821
++  UUID: 41485DFB-7943-321D-AB23-35F10EDB074A
 +  Functions: 11944
 +  Symbols:   1393
-+  CStrings:  2933
++  CStrings:  2998
  
 Symbols:
 + _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg

@@ -23,10 +23,8 @@
    __DATA_CONST.__got: 0x148
 -  __DATA_CONST.__const: 0x1a1ac8
 -  __AUTH_CONST.__const: 0x61ad0
--  __AUTH_CONST.__auth_ptr: 0x228
 +  __DATA_CONST.__const: 0x1a1098
 +  __AUTH_CONST.__const: 0x62a60
-+  __AUTH_CONST.__auth_ptr: 0x218
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__auth_got: 0x9d8
 +  __AUTH_CONST.__auth_got: 0x9e8
@@ -54,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
+-  UUID: 4D98E401-703F-31E2-AD10-29E92085803D
 -  Functions: 81369
 -  Symbols:   21523
--  CStrings:  42829
+-  CStrings:  42830
++  UUID: 73313EA7-4E60-3CAB-AC15-AD79000F48E6
 +  Functions: 82467
 +  Symbols:   21525
-+  CStrings:  42483
++  CStrings:  42484
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm

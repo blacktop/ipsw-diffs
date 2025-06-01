@@ -26,4 +26,13 @@
    __DATA.__objc_data: 0x280
    __DATA.__bss: 0x198
 
+   - /System/Library/PrivateFrameworks/TimeAppServices.framework/TimeAppServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 023DCB12-2A91-33CE-B830-34D379003C8D
++  UUID: E3E6989A-418E-33B2-AE97-9781B94918B4
+   Functions: 135
+   Symbols:   172
+   CStrings:  476
+
 ```

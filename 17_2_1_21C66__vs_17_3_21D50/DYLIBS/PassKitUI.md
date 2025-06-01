@@ -49,7 +49,6 @@
    __DATA_CONST.__objc_arraydata: 0x540
    __AUTH_CONST.__const: 0x35ea0
    __AUTH_CONST.__objc_const: 0x1c9c8
-   __AUTH_CONST.__auth_ptr: 0xc00
 -  __AUTH_CONST.__cfstring: 0x32740
 +  __AUTH_CONST.__cfstring: 0x32840
    __AUTH_CONST.__objc_doubleobj: 0x1c0
@@ -62,12 +61,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3586BC21-DB59-3666-B96C-401773D5C37F
 -  Functions: 55924
 -  Symbols:   108601
--  CStrings:  42456
+-  CStrings:  48914
++  UUID: 06F2E023-9C42-35BF-8D12-BC4031C38501
 +  Functions: 55928
 +  Symbols:   108609
-+  CStrings:  42465
++  CStrings:  48931
  
 Symbols:
 + -[PKPaymentTransactionDetailViewController _businessChatContextForUnavailableDisputeStatus]

@@ -34,13 +34,16 @@
    __AUTH_CONST.__objc_const: 0x1728
    __AUTH_CONST.__objc_intobj: 0xa8
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BEC4B21D-67D8-3081-8775-D87930173605
++  UUID: C2E02723-CEE0-3082-9D2A-4B6DF75EBD89
    Functions: 996
 -  Symbols:   3864
--  CStrings:  1595
+-  CStrings:  1891
 +  Symbols:   3865
-+  CStrings:  1596
++  CStrings:  1893
  
 Symbols:
 + _kControlCenterAlertIdentifier

@@ -25,11 +25,15 @@
    __AUTH_CONST.__objc_intobj: 0x840
    __AUTH_CONST.__objc_dictobj: 0xf0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7B493109-BAAB-31D5-AE6F-C83582FC52F5
++  UUID: EB37030C-8025-357A-9956-6732E0E47DC2
    Functions: 3235
    Symbols:   9917
--  CStrings:  6897
-+  CStrings:  6898
+-  CStrings:  8162
++  CStrings:  8164
  
 CStrings:
 + "beats.studiobudsplus"

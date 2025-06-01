@@ -48,12 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: BFCAB7F7-9493-32C6-BF75-D5FBA453E7A2
 -  Functions: 988
 -  Symbols:   4446
--  CStrings:  2551
+-  CStrings:  2835
++  UUID: 045CC28F-F235-327D-99E8-4DC2739DF26E
 +  Functions: 989
 +  Symbols:   4450
-+  CStrings:  2552
++  CStrings:  2836
  
 Symbols:
 + -[MobileCalDAVAccount checkExistingStoreAndSetChangeReason]

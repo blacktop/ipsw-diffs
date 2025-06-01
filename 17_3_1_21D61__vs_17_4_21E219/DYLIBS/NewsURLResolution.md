@@ -36,11 +36,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/NewsTransport.framework/NewsTransport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 106C6BC9-F80C-34CE-B47B-1FE4391FA842
++  UUID: 81C0B7CE-642C-3D27-AEE6-E87A7C8AA612
    Functions: 65
    Symbols:   304
--  CStrings:  166
-+  CStrings:  167
+-  CStrings:  176
++  CStrings:  177
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -47,7 +47,7 @@
    __DATA_CONST.__objc_arraydata: 0x70
    __AUTH_CONST.__cfstring: 0xd40
 
-   __AUTH_CONST.__auth_ptr: 0x15a0
+   __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__auth_got: 0x3820
    __AUTH.__objc_data: 0x2bf8
 -  __AUTH.__data: 0xe938
@@ -59,11 +59,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15C4C168-0F7A-361A-ABDA-BE2EAC59EAB8
 -  Functions: 43587
++  UUID: 39C9F506-0E54-370A-8794-A4E6591BEC92
 +  Functions: 43589
    Symbols:   11335
--  CStrings:  6518
-+  CStrings:  6517
+-  CStrings:  6624
++  CStrings:  6623
  
 CStrings:
 + "iapStateMachine"

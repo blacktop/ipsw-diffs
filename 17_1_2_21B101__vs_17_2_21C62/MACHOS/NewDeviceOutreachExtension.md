@@ -37,11 +37,15 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x10
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 839A2C76-1305-3244-A15F-845424C355B9
++  UUID: 3E56E23A-C6F4-322A-8146-6B2032902745
    Functions: 31
    Symbols:   59
--  CStrings:  149
-+  CStrings:  146
+-  CStrings:  167
++  CStrings:  160
  
 CStrings:
 + "prefs:root=General&path=About/WARRANTY_COVERAGE"

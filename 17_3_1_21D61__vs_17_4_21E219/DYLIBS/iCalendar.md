@@ -29,11 +29,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x128
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: FD685E88-F5CC-3A55-A2DE-98116E004DE4
++  UUID: BEC78B00-EB62-37BD-9544-2948C2C20762
    Functions: 1172
    Symbols:   4301
--  CStrings:  2191
-+  CStrings:  2192
+-  CStrings:  2836
++  CStrings:  2837
  
 CStrings:
 + "T@\"NSString\",?,R,C"

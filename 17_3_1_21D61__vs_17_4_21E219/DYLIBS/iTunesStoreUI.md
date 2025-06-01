@@ -44,7 +44,6 @@
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_arrayobj: 0x30
-
    __AUTH_CONST.__auth_got: 0xc58
    __AUTH.__data: 0xa8
    __AUTH.__objc_data: 0x6810
@@ -64,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 103249AC-325C-362F-92F8-7AA1220A3740
 -  Functions: 8330
 -  Symbols:   27525
--  CStrings:  12290
+-  CStrings:  14972
++  UUID: 510157A4-BA5B-3799-A57C-E2BF22FB0408
 +  Functions: 8335
 +  Symbols:   27526
-+  CStrings:  12292
++  CStrings:  14974
  
 Symbols:
 + ___56-[SUWebViewController _getURLRequestForOperation:block:]_block_invoke.156

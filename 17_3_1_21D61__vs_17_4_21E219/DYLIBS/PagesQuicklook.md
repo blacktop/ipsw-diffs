@@ -52,9 +52,9 @@
    __AUTH_CONST.__objc_const: 0x1960
    __AUTH_CONST.__cfstring: 0x1c40
 
+   __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_floatobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xe38
 +  __AUTH_CONST.__auth_got: 0xe48
    __AUTH.__objc_data: 0x1a30
@@ -89,14 +89,16 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftQuartzCore.dylib
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
-
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 404CB392-AA73-361C-AE26-72C5AA5FE2DF
++  UUID: C5002950-58A0-3B30-B649-00055D5627C1
    Functions: 3717
 -  Symbols:   751
--  CStrings:  4570
+-  CStrings:  4796
 +  Symbols:   756
-+  CStrings:  4584
++  CStrings:  4810
  
 Symbols:
 + _TSUInvalidRange

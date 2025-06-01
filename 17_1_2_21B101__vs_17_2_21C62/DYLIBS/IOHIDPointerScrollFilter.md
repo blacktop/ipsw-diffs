@@ -30,11 +30,13 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: F5F00EE0-169D-33E3-B1F0-7EC5402FE01E
 -  Functions: 200
 -  Symbols:   226
++  UUID: D67B40D4-6518-392F-8516-91FA4D20FE65
 +  Functions: 201
 +  Symbols:   227
-   CStrings:  124
+   CStrings:  201
  
 Symbols:
 + _dispatch_async

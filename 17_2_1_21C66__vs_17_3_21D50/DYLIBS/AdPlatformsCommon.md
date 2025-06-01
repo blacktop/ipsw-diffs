@@ -51,11 +51,13 @@
    - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A762117A-7515-340D-A78F-3490A01F79FC
 -  Functions: 591
++  UUID: 98A3CC68-8D54-3E85-B1A6-59A335B89B71
 +  Functions: 593
    Symbols:   167
--  CStrings:  1219
-+  CStrings:  1224
+-  CStrings:  1398
++  CStrings:  1404
  
 CStrings:
 + "\x01\x18\x15D"

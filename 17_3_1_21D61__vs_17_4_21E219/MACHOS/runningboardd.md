@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/RunningBoard.framework/RunningBoard
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3A2E2E86-E3C5-3227-A112-4D3280CF65CE
++  UUID: 727786E7-8CC3-364A-827A-856A2118BA0C
+   Functions: 1
+   Symbols:   7
+   CStrings:  1
 
 ```

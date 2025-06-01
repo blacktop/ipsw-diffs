@@ -69,12 +69,14 @@
    - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3F0EBB6-C0E0-3553-B570-2237552D2EF0
 -  Functions: 1629
 -  Symbols:   5245
--  CStrings:  2439
+-  CStrings:  2890
++  UUID: B30927DC-F50A-3DE1-8EAD-B9CB7CBC6DF2
 +  Functions: 1654
 +  Symbols:   5326
-+  CStrings:  2460
++  CStrings:  2916
  
 Symbols:
 + +[RTPlaceInferenceQuery supportsSecureCoding]

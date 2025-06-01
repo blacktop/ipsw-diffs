@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 156C0263-F8A4-3134-B6CC-7D9F682DF1BD
 -  Functions: 1107
 -  Symbols:   669
--  CStrings:  3940
+-  CStrings:  4336
++  UUID: 8A020575-21DC-3A06-9575-3AB5CADD9B7A
 +  Functions: 1117
 +  Symbols:   670
-+  CStrings:  3971
++  CStrings:  4370
  
 Symbols:
 + __IMAllowSMSDowngradeRequests

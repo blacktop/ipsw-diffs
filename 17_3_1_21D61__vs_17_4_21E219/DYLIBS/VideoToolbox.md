@@ -34,11 +34,10 @@
    __DATA_CONST.__objc_selrefs: 0x230
 -  __AUTH_CONST.__cfstring: 0x7fa0
 -  __AUTH_CONST.__const: 0x40cb8
+-  __AUTH_CONST.__auth_got: 0x1908
 +  __DATA_CONST.__objc_classrefs: 0x40
 +  __AUTH_CONST.__cfstring: 0x8040
 +  __AUTH_CONST.__const: 0x40f88
-   __AUTH_CONST.__auth_ptr: 0x68
--  __AUTH_CONST.__auth_got: 0x1908
 +  __AUTH_CONST.__auth_got: 0x18f8
    __AUTH.__data: 0x38
 -  __DATA.__objc_classrefs: 0x40
@@ -59,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71BE102B-A40D-3F20-B885-14F8865B5E8F
 -  Functions: 5956
 -  Symbols:   14300
--  CStrings:  1431
+-  CStrings:  2452
++  UUID: A7BE87FB-E94D-3501-BE29-3A0C06D8AF5F
 +  Functions: 6173
 +  Symbols:   14735
-+  CStrings:  1445
++  CStrings:  2471
  
 Symbols:
 + _FigIsSecTaskGPUExtensionOfBrowserEngine

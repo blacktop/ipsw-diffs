@@ -19,4 +19,13 @@
    __TEXT.__objc_classname: 0x1e
    __TEXT.__objc_methname: 0x800
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 1EB68E86-74F7-3DF6-BA6E-F058535DFBE9
++  UUID: 60F35E88-EAAF-33A2-ABDB-7CD195F23080
+   Functions: 422
+   Symbols:   294
+   CStrings:  196
+
 ```

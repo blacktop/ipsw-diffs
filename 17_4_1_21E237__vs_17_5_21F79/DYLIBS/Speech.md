@@ -62,9 +62,8 @@
    __DATA_CONST.__objc_superrefs: 0x148
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x4468
-+  __AUTH_CONST.__const: 0x44e0
-   __AUTH_CONST.__auth_ptr: 0xe8
 -  __AUTH_CONST.__cfstring: 0x2ec0
++  __AUTH_CONST.__const: 0x44e0
 +  __AUTH_CONST.__cfstring: 0x2f40
    __AUTH_CONST.__objc_const: 0x1f0
    __AUTH_CONST.__objc_dictobj: 0x28
@@ -102,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 77821583-8956-3A93-A4D1-38F39971B42A
 -  Functions: 8589
 -  Symbols:   8886
--  CStrings:  2964
+-  CStrings:  3338
++  UUID: F8ADD75D-20F2-3686-B54E-18A263432C67
 +  Functions: 8729
 +  Symbols:   9082
-+  CStrings:  2982
++  CStrings:  3360
  
 Symbols:
 + +[_SFSpeechRecognizerSupportedFeatures taskHintUsesSingleUtterance:]

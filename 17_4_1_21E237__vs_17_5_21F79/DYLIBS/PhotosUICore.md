@@ -72,7 +72,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x45c0
 -  __AUTH_CONST.__const: 0x1d778
 -  __AUTH_CONST.__objc_const: 0x41e98
--  __AUTH_CONST.__auth_ptr: 0x368
 -  __AUTH_CONST.__cfstring: 0x7c8e0
 +  __DATA_CONST.__objc_const: 0x156058
 +  __DATA_CONST.__objc_selrefs: 0x47190
@@ -82,7 +81,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x4660
 +  __AUTH_CONST.__const: 0x1e6a8
 +  __AUTH_CONST.__objc_const: 0x42048
-+  __AUTH_CONST.__auth_ptr: 0x380
 +  __AUTH_CONST.__cfstring: 0x7cb80
    __AUTH_CONST.__objc_doubleobj: 0x750
 -  __AUTH_CONST.__objc_arrayobj: 0x25c8
@@ -147,12 +145,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FE5D6BCA-8CAF-35E0-85A0-353442AEBF0E
 -  Functions: 79735
 -  Symbols:   225155
--  CStrings:  94239
+-  CStrings:  110182
++  UUID: 42887B48-8C85-35D9-A6D9-CA5BDEDBAA8D
 +  Functions: 80658
 +  Symbols:   225511
-+  CStrings:  94382
++  CStrings:  110346
  
 Symbols:
 + +[PXRetailExperienceManager generateSVGDataFromURL:]

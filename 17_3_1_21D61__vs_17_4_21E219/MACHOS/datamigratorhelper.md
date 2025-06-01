@@ -40,12 +40,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 03211FB9-3109-3003-BA3A-08F50812CC1A
 -  Functions: 13
 -  Symbols:   52
--  CStrings:  19
+-  CStrings:  20
++  UUID: 58E245D2-15F2-324D-BBA5-6F3E488321EB
 +  Functions: 24
 +  Symbols:   81
-+  CStrings:  71
++  CStrings:  80
  
 Symbols:
 + _NSURLIsDirectoryKey

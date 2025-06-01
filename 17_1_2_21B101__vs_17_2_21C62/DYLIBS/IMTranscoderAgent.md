@@ -48,12 +48,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D062BF51-0BBD-3BDF-B1C4-0B97288CED31
 -  Functions: 371
 -  Symbols:   383
--  CStrings:  1399
+-  CStrings:  1835
++  UUID: 71C3F284-064C-3999-969F-85F10857DA6B
 +  Functions: 309
 +  Symbols:   379
-+  CStrings:  1055
++  CStrings:  1137
  
 Symbols:
 - _MarcoLogMadridLevel

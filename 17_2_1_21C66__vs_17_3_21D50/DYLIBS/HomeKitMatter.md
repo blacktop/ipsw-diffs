@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B23C32A-C253-3EFD-BD6D-E8E5F6EC66C7
 -  Functions: 3039
 -  Symbols:   10558
--  CStrings:  6315
+-  CStrings:  6895
++  UUID: C3B1E40B-E6F3-3CFA-9D21-2DEE8B01E323
 +  Functions: 3037
 +  Symbols:   10552
-+  CStrings:  6305
++  CStrings:  6885
  
 Symbols:
 + GCC_except_table2155

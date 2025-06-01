@@ -38,8 +38,11 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftAVFoundation.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AB2F07D7-4C28-3335-BD9F-65787764F933
++  UUID: FACEA444-ED74-37FA-83B5-90310C0A1830
    Functions: 38
 -  Symbols:   73
 -  CStrings:  68

@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_const: 0x280
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__const: 0x1670
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x6e0
 +  __AUTH_CONST.__auth_got: 0x6d8
@@ -67,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F564E3CA-A8B9-36E8-BF32-AD44BF4D2BDD
 -  Functions: 901
 -  Symbols:   2570
--  CStrings:  756
+-  CStrings:  919
++  UUID: FB74BD87-94ED-3AF4-88AC-E329D91A68DD
 +  Functions: 907
 +  Symbols:   2603
-+  CStrings:  766
++  CStrings:  938
  
 Symbols:
 + _ACCUserDefaultsKey_ForceAccInfoUpdateRelaySupport

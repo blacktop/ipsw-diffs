@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x1a0
 
+   - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8318542-8F49-393D-A02C-AB37EDDB4829
++  UUID: DD6E25BF-2F0C-3E65-8EBF-E6D77E282C6B
    Functions: 192
    Symbols:   1282
--  CStrings:  282
-+  CStrings:  283
+-  CStrings:  283
++  CStrings:  284
  
 CStrings:
 + "T@\"NSString\",?,R,C"

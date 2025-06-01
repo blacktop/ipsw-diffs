@@ -63,11 +63,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5DEB8DD1-2C67-39ED-BDF4-2723CFAAE949
 -  Functions: 3867
++  UUID: 8BE561E8-385A-3126-BF09-2F03FE7C9703
 +  Functions: 3942
    Symbols:   211
--  CStrings:  886
-+  CStrings:  890
+-  CStrings:  1039
++  CStrings:  1043
  
 Symbols:
 + _swift_dynamicCastUnknownClass

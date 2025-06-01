@@ -48,12 +48,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 41E37FF1-A5FA-3E95-992A-070803D9C380
 -  Functions: 156
 -  Symbols:   223
--  CStrings:  463
+-  CStrings:  511
++  UUID: A9C83664-D9C4-3547-BC1F-64F4DDCD7096
 +  Functions: 157
 +  Symbols:   228
-+  CStrings:  478
++  CStrings:  528
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

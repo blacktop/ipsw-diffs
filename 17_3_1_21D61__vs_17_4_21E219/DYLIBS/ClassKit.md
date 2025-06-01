@@ -75,12 +75,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C6BD53DE-B381-35FD-98C0-0D21CF698C21
 -  Functions: 3166
 -  Symbols:   751
--  CStrings:  4590
+-  CStrings:  5613
++  UUID: 7C7ECEB4-F788-3F3B-B57C-6E4E0F4E5FF4
 +  Functions: 3175
 +  Symbols:   753
-+  CStrings:  4607
++  CStrings:  5633
  
 Symbols:
 + _CLSBootstrapModeFromString

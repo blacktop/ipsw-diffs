@@ -31,12 +31,14 @@
    - /System/Library/PrivateFrameworks/OpticalFlowFramework.framework/OpticalFlowFramework
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 02DB813A-0D02-3515-9C7B-BD0DC9F2DA97
 -  Functions: 622
 -  Symbols:   561
--  CStrings:  6269
+-  CStrings:  6555
++  UUID: DB69C18C-DD00-3087-8791-4D536F50A1A8
 +  Functions: 629
 +  Symbols:   562
-+  CStrings:  6295
++  CStrings:  6582
  
 Symbols:
 + _kVTTemporalFilterPropertyKey_FilterStrength

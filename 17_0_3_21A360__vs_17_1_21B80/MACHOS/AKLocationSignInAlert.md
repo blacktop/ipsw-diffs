@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A9A89A1-CD4E-34A7-9805-9EEA6A908A8D
 -  Functions: 55
 -  Symbols:   87
--  CStrings:  211
+-  CStrings:  223
++  UUID: CABCECA4-BDC8-3CA7-97D5-B77E1A392C04
 +  Functions: 73
 +  Symbols:   106
-+  CStrings:  257
++  CStrings:  269
  
 Symbols:
 + _OBJC_CLASS_$_AK2FAMapView

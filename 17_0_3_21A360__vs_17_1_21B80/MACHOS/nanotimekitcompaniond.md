@@ -68,12 +68,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E18E6811-5237-3706-AB6F-D9F691739D84
 -  Functions: 1198
 -  Symbols:   331
--  CStrings:  1873
+-  CStrings:  2041
++  UUID: 2CD333B0-5618-3D10-B66F-FE388A910AFA
 +  Functions: 1217
 +  Symbols:   337
-+  CStrings:  1904
++  CStrings:  2080
  
 Symbols:
 + _OBJC_CLASS_$_NSPropertyListSerialization

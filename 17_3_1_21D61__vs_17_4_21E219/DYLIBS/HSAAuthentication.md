@@ -24,4 +24,13 @@
    __DATA.__bss: 0x38
    __DATA_DIRTY.__const: 0x120
 
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 24CDA971-AB0D-314F-ACD7-84018F441224
++  UUID: D0CFDEB3-3085-374F-891A-43FFDCAB4238
+   Functions: 26
+   Symbols:   90
+   CStrings:  192
+
 ```

@@ -47,13 +47,16 @@
    - /System/Library/Frameworks/HomeKit.framework/HomeKit
    - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C5484AB-B709-337C-862D-FFEED4201D38
++  UUID: 9B0A7AE4-EA70-3F9E-BC39-491C0AF8948E
    Functions: 64
 -  Symbols:   88
--  CStrings:  372
+-  CStrings:  376
 +  Symbols:   90
-+  CStrings:  373
++  CStrings:  377
  
 Symbols:
 + _HFPlatformSpecificHomeAppBundleID

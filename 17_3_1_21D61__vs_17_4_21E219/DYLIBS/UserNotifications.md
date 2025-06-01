@@ -43,11 +43,15 @@
    __DATA_DIRTY.__bss: 0x68
    __DATA_DIRTY.__common: 0x80
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9EF497A0-6893-35FA-BBFB-27F3B0877D40
++  UUID: BEF61132-0FBB-3EE7-A2D8-FB5D64FE7739
    Functions: 1197
    Symbols:   4190
--  CStrings:  2035
-+  CStrings:  2036
+-  CStrings:  2419
++  CStrings:  2420
  
 Symbols:
 + ___block_literal_global.43

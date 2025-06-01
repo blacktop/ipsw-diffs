@@ -57,14 +57,12 @@
 -  __DATA_CONST.__objc_const: 0x988
 -  __DATA_CONST.__objc_selrefs: 0x128
 -  __AUTH_CONST.__const: 0xab0
--  __AUTH_CONST.__auth_ptr: 0x28
 +  __DATA_CONST.__objc_const: 0xea0
 +  __DATA_CONST.__objc_selrefs: 0x170
 +  __DATA_CONST.__objc_protorefs: 0x18
 +  __DATA_CONST.__objc_classrefs: 0x70
 +  __DATA_CONST.__objc_superrefs: 0x20
 +  __AUTH_CONST.__const: 0xdc8
-+  __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__objc_const: 0x1f0
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__auth_got: 0x428
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A9DA0E2A-EF09-352D-9672-941F80735337
 -  Functions: 448
 -  Symbols:   423
--  CStrings:  151
+-  CStrings:  154
++  UUID: 8A745EC7-E0BD-3ED0-A2BC-D95B252EFA45
 +  Functions: 554
 +  Symbols:   497
-+  CStrings:  231
++  CStrings:  234
  
 Symbols:
 + -[BSBrand clearCachedLogos:]

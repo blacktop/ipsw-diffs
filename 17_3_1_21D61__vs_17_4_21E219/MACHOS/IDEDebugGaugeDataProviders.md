@@ -46,12 +46,16 @@
    __DATA.__objc_data: 0x3c0
    __DATA.__data: 0x120
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1D0CCBA-7AB2-3936-BCA4-E78E6DF4D9B8
++  UUID: 3A712F89-6083-3726-B627-D87631321FDD
    Functions: 105
 -  Symbols:   160
+-  CStrings:  390
 +  Symbols:   157
-   CStrings:  265
++  CStrings:  389
  
 Symbols:
 - __SKGetPerformanceStatisticsForPid

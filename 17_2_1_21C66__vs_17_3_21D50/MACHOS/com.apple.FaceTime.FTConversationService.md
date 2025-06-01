@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 4DAAB036-7A76-3D35-AEC1-77395688A18F
 -  Functions: 263
 -  Symbols:   169
--  CStrings:  508
+-  CStrings:  526
++  UUID: 3C0A8C25-7787-30DB-8C97-6A71CF3C0ECF
 +  Functions: 265
 +  Symbols:   170
-+  CStrings:  528
++  CStrings:  557
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableString

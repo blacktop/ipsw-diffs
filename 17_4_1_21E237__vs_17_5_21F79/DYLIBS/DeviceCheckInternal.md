@@ -4,8 +4,8 @@
 
 ```diff
 
+   __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__objc_const: 0x430
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x370
 -  __AUTH.__objc_data: 0x280
 +  __AUTH.__objc_data: 0xf0
@@ -20,5 +20,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/DeviceCheck.framework/DeviceCheck
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 73DC19E3-389B-305C-8F25-0F0F8EC5F53A
++  UUID: 4A803B22-C3E8-3109-94FB-595AC7CF70BD
+   Functions: 162
+   Symbols:   721
+   CStrings:  329
 
 ```

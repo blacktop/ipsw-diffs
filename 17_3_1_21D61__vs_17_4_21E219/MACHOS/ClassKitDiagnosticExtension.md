@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/ClassKit.framework/ClassKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0325FD93-2EE3-3040-B28F-F2E1BAEDAB20
++  UUID: E952C06A-58AF-314F-942A-D3F7ED148391
+   Functions: 6
+   Symbols:   47
+   CStrings:  44
+
 ```

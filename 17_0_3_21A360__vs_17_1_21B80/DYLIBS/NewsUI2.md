@@ -63,10 +63,8 @@
    __AUTH_CONST.__cfstring: 0x80
    __AUTH_CONST.__objc_const: 0x2950
 -  __AUTH_CONST.__const: 0x98f18
--  __AUTH_CONST.__auth_ptr: 0x3860
 -  __AUTH_CONST.__auth_got: 0xbaf8
 +  __AUTH_CONST.__const: 0x99008
-+  __AUTH_CONST.__auth_ptr: 0x3858
 +  __AUTH_CONST.__auth_got: 0xbba0
    __AUTH.__objc_data: 0x8b20
 -  __AUTH.__data: 0x19b08
@@ -98,12 +96,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24930E3E-0B2C-3F58-A591-26CDC1905C38
 -  Functions: 91107
 -  Symbols:   22752
--  CStrings:  13235
+-  CStrings:  13239
++  UUID: 2F514122-9F8D-3DD2-9D96-89ED32D796C4
 +  Functions: 91181
 +  Symbols:   22771
-+  CStrings:  13268
++  CStrings:  13272
  
 Symbols:
 + _FCFeedFilterOptionToNSString

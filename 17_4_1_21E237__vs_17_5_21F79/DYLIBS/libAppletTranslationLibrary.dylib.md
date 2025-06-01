@@ -50,17 +50,19 @@
 +  __AUTH_CONST.__cfstring: 0x87a0
    __AUTH_CONST.__objc_intobj: 0xaf8
    __AUTH_CONST.__objc_arrayobj: 0x420
-   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x690
 
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4BFFFFBB-6EB1-3870-97F3-F38FFB2DEE41
 -  Functions: 1660
 -  Symbols:   3848
--  CStrings:  2787
+-  CStrings:  3871
++  UUID: 0558AB87-578A-30AB-9285-B2DDC2A72CC6
 +  Functions: 1661
 +  Symbols:   3851
-+  CStrings:  2789
++  CStrings:  3874
  
 Symbols:
 + +[AtlasDecoder calculateCommutePlanUniqueId:withExpiry:]

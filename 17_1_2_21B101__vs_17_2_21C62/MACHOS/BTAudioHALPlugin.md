@@ -29,10 +29,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: E34C15FB-D910-3731-AFE8-88C6D47FD786
 -  Functions: 2274
++  UUID: B94FBE7C-9D8C-34B4-A008-A4114DE9CEBC
 +  Functions: 2272
    Symbols:   414
-   CStrings:  1870
+   CStrings:  1962
  
 CStrings:
 + "Wireless Splitter: Couldn't find device1"

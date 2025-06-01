@@ -28,6 +28,15 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__bss: 0xb0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6743F7FD-59A9-3888-A7B5-6B0EA59F4187
++  UUID: 748BD8BC-7695-3E41-AD39-296559F55DF6
+   Functions: 93
+   Symbols:   353
+   CStrings:  113
 Symbols:
 + __ZNSt3__110unique_ptrINS_11__tree_nodeIN2KB6StringEPvEENS_22__tree_node_destructorINS_9allocatorIS5_EEEEE5resetB8un170006EPS5_
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc

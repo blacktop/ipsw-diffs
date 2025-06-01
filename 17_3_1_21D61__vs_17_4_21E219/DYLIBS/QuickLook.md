@@ -45,7 +45,7 @@
    __AUTH_CONST.__objc_const: 0x2f60
    __AUTH_CONST.__cfstring: 0x2fe0
 
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__objc_intobj: 0x228
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0xa38
@@ -70,13 +70,15 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F06DC9D2-0AAE-3BC4-B437-D49921FCED4F
 -  Functions: 3596
 -  Symbols:   12951
--  CStrings:  6218
+-  CStrings:  6601
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 42E1C2C2-C13D-30AC-B933-091AF0329167
 +  Functions: 3595
 +  Symbols:   12952
-+  CStrings:  6225
++  CStrings:  6608
  
 Symbols:
 + ___136-[QLPreviewCollection startTransitionWithSourceViewProvider:transitionController:presenting:useInteractiveTransition:completionHandler:]_block_invoke.177

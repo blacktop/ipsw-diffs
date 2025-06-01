@@ -37,11 +37,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF00E86B-AE73-3647-A85C-906328B52F8C
++  UUID: B1251E46-131A-336C-8ACF-A43528E5A019
    Functions: 176
    Symbols:   842
--  CStrings:  481
-+  CStrings:  482
+-  CStrings:  594
++  CStrings:  595
  
 CStrings:
 + "T@\"NSString\",?,R,C"

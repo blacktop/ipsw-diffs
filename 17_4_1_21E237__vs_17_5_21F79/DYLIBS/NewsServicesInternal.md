@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 960F2F54-AF38-3B43-8894-49A060DFE6F7
 -  Functions: 359
 -  Symbols:   1522
--  CStrings:  893
+-  CStrings:  1058
++  UUID: 1D9C7A99-85F6-345D-A6C5-D33200C27D91
 +  Functions: 369
 +  Symbols:   1551
-+  CStrings:  900
++  CStrings:  1065
  
 Symbols:
 + -[NSSNewsAnalyticsTelemetryAnnotator .cxx_destruct]

@@ -73,12 +73,14 @@
 -  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A9BEA4A-AD54-3305-B4E2-BD0E3D0B816E
 -  Functions: 523
 -  Symbols:   150
--  CStrings:  1123
+-  CStrings:  1298
++  UUID: A762117A-7515-340D-A78F-3490A01F79FC
 +  Functions: 591
 +  Symbols:   167
-+  CStrings:  1219
++  CStrings:  1398
  
 Symbols:
 + _OBJC_CLASS_$_APAdRequestContents

@@ -43,13 +43,16 @@
    __DATA.__objc_classrefs: 0x4d8
    __DATA.__objc_superrefs: 0x8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08FD947B-C4AA-3EFB-9B8A-2B7745E0A01B
++  UUID: 40054652-2872-379E-B7DC-DD56C9DD918B
    Functions: 2322
 -  Symbols:   1726
--  CStrings:  1676
+-  CStrings:  1702
 +  Symbols:   1732
-+  CStrings:  1673
++  CStrings:  1699
  
 Symbols:
 + _$s18WorkflowUIServices27AppShortcutAdditionMenuItemV05addToD0ACvgZ

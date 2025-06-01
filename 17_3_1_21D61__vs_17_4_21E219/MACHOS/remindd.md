@@ -113,12 +113,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4B6C6D1-3317-32DF-ADAA-5EC7324008F6
 -  Functions: 26765
 -  Symbols:   2806
--  CStrings:  11548
+-  CStrings:  12158
++  UUID: D45FB86C-1A01-36C0-9823-0061E10FADE8
 +  Functions: 26010
 +  Symbols:   2815
-+  CStrings:  11572
++  CStrings:  12183
  
 Symbols:
 + _$s19ReminderKitInternal15REM_os_activityV7OptionsV13ifNonePresentAEvau

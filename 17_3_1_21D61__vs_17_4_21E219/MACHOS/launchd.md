@@ -56,11 +56,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 4240A0CE-AD4F-3AB9-A25A-C210C8E3E55D
 -  Functions: 3172
 -  Symbols:   553
 -  CStrings:  2386
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
++  UUID: 1EFE7293-F81C-37DA-94C0-51D737B0C038
 +  Functions: 3261
 +  Symbols:   574
 +  CStrings:  2434

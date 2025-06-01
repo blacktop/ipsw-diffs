@@ -46,12 +46,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 3E1BA6E9-4D22-3A6C-A0F9-C5C3F84EB8D1
 -  Functions: 1171
 -  Symbols:   4295
--  CStrings:  2190
+-  CStrings:  2835
++  UUID: 47F509AC-4646-3B7F-8F0A-1DEFF8C407E8
 +  Functions: 1172
 +  Symbols:   4301
-+  CStrings:  2191
++  CStrings:  2836
  
 Symbols:
 + -[NSData(iCalDigest) ical_digestWithVersionNumber:]

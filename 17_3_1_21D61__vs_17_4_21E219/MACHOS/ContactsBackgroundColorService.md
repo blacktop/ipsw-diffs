@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D35D8F5A-EAAE-30B8-9477-A6EF826F76D6
 -  Functions: 60
++  UUID: 608506D6-9EE4-3615-8B8C-53EA53AA1BC2
 +  Functions: 61
    Symbols:   137
--  CStrings:  203
-+  CStrings:  205
+-  CStrings:  214
++  CStrings:  216
  
 CStrings:
 + "T@\"NSString\",?,R,C"

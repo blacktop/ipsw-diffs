@@ -22,7 +22,11 @@
    __DATA_CONST.__got: 0x108
    __DATA_CONST.__const: 0x21b98
 
+   - /System/DriverKit/System/Library/PrivateFrameworks/OLYHALDriverKit.framework/OLYHALDriverKit
+   - /System/DriverKit/usr/lib/libc++.dylib
    - @rpath/BroadcomWLANDriverKit.framework/BroadcomWLANDriverKit
+-  UUID: 7C918CA4-764D-3215-9B00-4EFECFF7A9F4
++  UUID: AEE46AE4-72E9-3EEC-9AEC-8BD62CFA4A83
    Functions: 7520
    Symbols:   10369
 -  CStrings:  13338

@@ -50,12 +50,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: CA567C85-F919-32FA-B224-1CEB1F49C344
 -  Functions: 9875
 -  Symbols:   55445
--  CStrings:  7725
+-  CStrings:  8523
++  UUID: EE3D2607-02FD-3B0C-8E3D-2C102F91BA25
 +  Functions: 9880
 +  Symbols:   55463
-+  CStrings:  7731
++  CStrings:  8533
  
 Symbols:
 + -[ACCPlatformLocationManager resetLocationEndpointUUID:].cold.5

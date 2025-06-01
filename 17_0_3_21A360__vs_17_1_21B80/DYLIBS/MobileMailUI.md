@@ -86,12 +86,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EBF279B7-7537-32F0-8C8B-E6E4A3867466
 -  Functions: 1235
 -  Symbols:   5987
--  CStrings:  3368
+-  CStrings:  3695
++  UUID: ADDC1953-8311-35E5-8F3D-0BA0851CEE95
 +  Functions: 1313
 +  Symbols:   6314
-+  CStrings:  3543
++  CStrings:  3908
  
 Symbols:
 + +[MFContactCardInteractions contactCardInteractionWithViewController:blockedSenderManager:]
@@ -444,6 +446,7 @@ CStrings:
 + "INSTALL"
 + "INSTALL_CERTIFICATE"
 + "Learn More"
++ "M"
 + "MFContactCardInteractions"
 + "MFContactMessageInteraction"
 + "OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT"
@@ -481,6 +484,7 @@ CStrings:
 + "VIEW_ENCRYPTION_CERTIFICATE"
 + "VIEW_SIGNING_CERTIFICATE"
 + "Verified Logo"
++ "Y"
 + "_addVIP:"
 + "_blockContact:"
 + "_blockedSenderManager"

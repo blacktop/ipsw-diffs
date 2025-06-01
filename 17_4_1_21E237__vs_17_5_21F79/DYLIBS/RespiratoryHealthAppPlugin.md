@@ -25,6 +25,15 @@
    __TEXT.__objc_methtype: 0x5e8
    __DATA_CONST.__got: 0x478
    __DATA_CONST.__const: 0xe8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E81A96C3-6E18-3A7D-A250-1B64CFE17DC8
++  UUID: 04B932C7-1DC4-30C5-B143-3F69A03DA2BD
+   Functions: 694
+   Symbols:   210
+   CStrings:  483
 CStrings:
 + "BACKGROUND_RECORDINGS_GROUP_ID"
 + "BACKGROUND_RECORDINGS_OPTIONS_GROUP_ID"

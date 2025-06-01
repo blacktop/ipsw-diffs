@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4A43FB7-D11B-3688-B3E9-507DB6CFE222
 -  Functions: 1275
 -  Symbols:   281
--  CStrings:  928
+-  CStrings:  950
++  UUID: 644E829A-6DD4-3D1A-A22A-7EC889ED93E0
 +  Functions: 1265
 +  Symbols:   278
-+  CStrings:  922
++  CStrings:  944
  
 Symbols:
 - _IMPreferredAccountForService

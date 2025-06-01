@@ -76,7 +76,6 @@
 -  __AUTH_CONST.__objc_doubleobj: 0x130
 +  __AUTH_CONST.__objc_arrayobj: 0xc0
 +  __AUTH_CONST.__objc_doubleobj: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0xe40
 -  __AUTH.__objc_data: 0x3080
@@ -116,12 +115,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66C43764-3217-317F-BE42-612A266C65AD
 -  Functions: 7406
 -  Symbols:   23954
--  CStrings:  10236
+-  CStrings:  11283
++  UUID: E7DD3307-DF5C-3E3E-B0C5-C4470A091420
 +  Functions: 7551
 +  Symbols:   24294
-+  CStrings:  10384
++  CStrings:  11437
  
 Symbols:
 + +[BSUIVibrancyConfiguration(ColorUtilities) vibrancyLUTFromPrivateContentStyle:extensionBundleURL:luminanceReduced:]

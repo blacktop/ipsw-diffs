@@ -14,8 +14,8 @@
    __TEXT.__const: 0x49a4
    __TEXT.__cstring: 0x4155
 
+   __DATA_CONST.__objc_catlist2: 0x10
    __AUTH_CONST.__const: 0x4458
-   __AUTH_CONST.__auth_ptr: 0x238
    __AUTH_CONST.__objc_const: 0x80
 -  __AUTH_CONST.__auth_got: 0x1fa0
 +  __AUTH_CONST.__auth_got: 0x1f98
@@ -33,5 +33,14 @@
    __DATA_DIRTY.__bss: 0x1a80
    __DATA_DIRTY.__common: 0xb0
    - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 33227B33-14AB-353D-9BC6-4EB7C94C32E8
++  UUID: 3F43B4C8-4343-39D2-A063-86B23C63F654
+   Functions: 3214
+   Symbols:   283
+   CStrings:  594
 
 ```

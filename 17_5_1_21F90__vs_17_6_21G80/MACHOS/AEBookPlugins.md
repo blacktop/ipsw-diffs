@@ -24,11 +24,13 @@
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: CD8416CC-E166-36C9-A471-936158436155
 -  Functions: 9643
++  UUID: 8F99EB34-4E46-3B6C-9117-8CBC24687BB7
 +  Functions: 9640
    Symbols:   2426
--  CStrings:  13897
-+  CStrings:  13898
+-  CStrings:  15173
++  CStrings:  15174
  
 CStrings:
 + "PDF document save done. localSuccess = %{BOOL}d"

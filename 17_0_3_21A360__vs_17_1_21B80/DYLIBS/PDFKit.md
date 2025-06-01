@@ -55,12 +55,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E2C668C7-B194-3B25-8419-05CF4637174E
 -  Functions: 3346
 -  Symbols:   12824
--  CStrings:  6044
+-  CStrings:  6985
++  UUID: 4ABF2F15-02C8-38C8-A311-C01563651EBE
 +  Functions: 3348
 +  Symbols:   12832
-+  CStrings:  6051
++  CStrings:  6992
  
 Symbols:
 + -[PDFDocument callShouldReadAKInkAnnotations]

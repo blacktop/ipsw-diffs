@@ -33,7 +33,6 @@
 -  __AUTH_CONST.__cfstring: 0x2de0
 +  __AUTH_CONST.__const: 0xab38
 +  __AUTH_CONST.__cfstring: 0x2e20
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0xef0
@@ -54,12 +53,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2840F203-84E4-3F5B-AF34-300C4ACA52BC
 -  Functions: 6736
 -  Symbols:   1097
--  CStrings:  2296
+-  CStrings:  2663
++  UUID: 52226B5D-5F6B-351A-9C40-05BA5AE83CD2
 +  Functions: 6784
 +  Symbols:   1099
-+  CStrings:  2298
++  CStrings:  2667
  
 Symbols:
 + _CFStringFindWithOptions

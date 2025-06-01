@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 6F9DC6D0-46AB-326F-836A-1064600E2ACA
 -  Functions: 725
 -  Symbols:   2341
--  CStrings:  1002
+-  CStrings:  1254
++  UUID: C9A3EB22-FFE6-3791-8FBC-4D53FF5CA50A
 +  Functions: 752
 +  Symbols:   2431
-+  CStrings:  1064
++  CStrings:  1345
  
 Symbols:
 + +[PPSAudioMetrics allDeclMetrics]

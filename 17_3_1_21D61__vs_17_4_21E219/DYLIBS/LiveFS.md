@@ -46,13 +46,16 @@
    __DATA.__data: 0x728
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AA97E46D-1EDC-36DE-BB24-F1AF0759DB64
++  UUID: 877088D2-D706-3EE8-8E67-8B1CA066A4E6
    Functions: 780
 -  Symbols:   2647
--  CStrings:  1270
+-  CStrings:  1337
 +  Symbols:   2646
-+  CStrings:  1268
++  CStrings:  1335
  
 Symbols:
 + ___67-[LiveFSVolumeManager LiveMountEjectVolumeCluster:withFlags:reply:]_block_invoke.113

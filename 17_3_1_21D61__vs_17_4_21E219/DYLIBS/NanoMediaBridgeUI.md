@@ -52,13 +52,16 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0xb0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D5C97ECA-5246-38FB-922F-58827BEF798C
++  UUID: 7236160B-95FC-3A39-80BD-A077859FAF66
    Functions: 267
 -  Symbols:   1326
--  CStrings:  941
+-  CStrings:  1235
 +  Symbols:   1327
-+  CStrings:  948
++  CStrings:  1245
  
 Symbols:
 + +[NMUMetricsReporter incrementPlaybackStartCountWithPath:shuffled:endpointType:]

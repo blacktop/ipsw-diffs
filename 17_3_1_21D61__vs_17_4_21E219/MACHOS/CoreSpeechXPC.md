@@ -83,12 +83,14 @@
    - /usr/lib/libSystem.B.dylib
 -  - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 45970AF4-54BA-3BD4-8AB5-1C661FDEEC2F
 -  Functions: 362
 -  Symbols:   169
--  CStrings:  1056
+-  CStrings:  1221
++  UUID: EFAE8C52-7A73-3B8F-BF20-CF73741E1EBE
 +  Functions: 376
 +  Symbols:   153
-+  CStrings:  1067
++  CStrings:  1250
  
 Symbols:
 + _CSBnnsIrSuffix

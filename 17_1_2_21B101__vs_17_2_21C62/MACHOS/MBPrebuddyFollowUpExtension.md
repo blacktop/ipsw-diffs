@@ -44,12 +44,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79CD0E07-3CCC-3A8B-9B96-CCB6C3EF1CE0
 -  Functions: 282
 -  Symbols:   221
--  CStrings:  951
+-  CStrings:  1058
++  UUID: 26B64414-43A4-39A1-BEE2-0AFC3500AED3
 +  Functions: 283
 +  Symbols:   223
-+  CStrings:  953
++  CStrings:  1061
  
 Symbols:
 + _ACAccountDataclassMoments

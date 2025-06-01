@@ -36,11 +36,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC90241C-AE7D-3098-A6BB-29EF7304DC78
++  UUID: 60316B7E-7F8D-3178-B36D-4D0B82CBDAC4
    Functions: 432
    Symbols:   1677
--  CStrings:  963
-+  CStrings:  964
+-  CStrings:  1099
++  CStrings:  1100
  
 Symbols:
 + ___63-[HDXPCPeriodicActivity _performCurrentActivityWithCompletion:]_block_invoke.253

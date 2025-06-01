@@ -38,11 +38,15 @@
    __AUTH_CONST.__const: 0x860
    __AUTH_CONST.__auth_got: 0x528
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E314A627-5113-3A65-B21D-1F509D1C824C
++  UUID: 43D9C4DE-DD98-3527-B7B2-0DD2F5D91440
    Functions: 945
    Symbols:   359
--  CStrings:  1455
-+  CStrings:  1459
+-  CStrings:  1904
++  CStrings:  1911
  
 CStrings:
 + "No persona found for the type %lu"

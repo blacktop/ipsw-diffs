@@ -18,6 +18,15 @@
    __TEXT.__objc_methname: 0x57298
    __TEXT.__objc_classname: 0x75a4
    __TEXT.__objc_methtype: 0x3f0fb
+
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1818FFF8-82DE-3619-85C2-8DE457276E04
++  UUID: 99DD26CA-A66F-3284-94F2-B550D3E91DA3
+   Functions: 90919
+   Symbols:   3166
+   CStrings:  85494
 CStrings:
 + "/AppleInternal/Library/BuildRoots/2348aa9a-e10d-11ee-b658-9ab3b1a34a63/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/throw_on_empty_input.hpp"
 + "/AppleInternal/Library/BuildRoots/2348aa9a-e10d-11ee-b658-9ab3b1a34a63/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"

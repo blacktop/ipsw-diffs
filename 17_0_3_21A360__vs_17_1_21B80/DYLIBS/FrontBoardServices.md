@@ -48,7 +48,6 @@
 -  __AUTH_CONST.__const: 0x620
 +  __AUTH_CONST.__const: 0x660
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_intobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x850
 -  __AUTH.__objc_data: 0xf00
@@ -73,12 +72,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F222382-24F8-33BC-AD5F-B2C750D6008D
 -  Functions: 3820
 -  Symbols:   12387
--  CStrings:  4882
+-  CStrings:  5946
++  UUID: 53361056-035F-3739-9565-8DC51796B102
 +  Functions: 3873
 +  Symbols:   12509
-+  CStrings:  4891
++  CStrings:  5959
  
 Symbols:
 + +[FBSSceneTransitionContextCore protocol]

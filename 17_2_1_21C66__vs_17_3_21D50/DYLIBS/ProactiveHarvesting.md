@@ -15,4 +15,13 @@
    __TEXT.__cstring: 0x236c
    __TEXT.__oslogstring: 0x423d
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 9D1D2F56-5A3F-3BAE-8CB2-3FD90A1789F5
++  UUID: 18A64749-C159-3CCC-B989-5A26B621DA52
+   Functions: 2788
+   Symbols:   7303
+   CStrings:  4087
+
 ```

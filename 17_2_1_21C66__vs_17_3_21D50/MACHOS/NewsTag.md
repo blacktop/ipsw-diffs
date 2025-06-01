@@ -70,11 +70,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C6C73FC1-C855-36AA-92D3-A3605E29B04A
 -  Functions: 3101
++  UUID: 044AF33A-5996-321F-BF5A-021B9BEF8FC1
 +  Functions: 3110
    Symbols:   588
--  CStrings:  1923
-+  CStrings:  1928
+-  CStrings:  2018
++  CStrings:  2023
  
 CStrings:
 + "background interaction allowed with appearance type %{public}@, so returning %@ for request %{public}@"

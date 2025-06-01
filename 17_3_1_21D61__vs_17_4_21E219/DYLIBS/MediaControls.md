@@ -82,12 +82,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 82100143-97C2-3E2E-A8E4-D33E0746713F
 -  Functions: 6142
 -  Symbols:   21444
--  CStrings:  9155
+-  CStrings:  9742
++  UUID: 9A6FFBB7-4DB3-3DE6-85C4-1C2F9B391796
 +  Functions: 6305
 +  Symbols:   21881
-+  CStrings:  9216
++  CStrings:  9808
  
 Symbols:
 + +[MRUFeatureFlagProvider isMediaSuggestionsDevEnabled]

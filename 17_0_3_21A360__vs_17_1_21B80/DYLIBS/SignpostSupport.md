@@ -60,12 +60,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E60A3C5A-E5A4-3070-A411-0C37F292ECB5
 -  Functions: 1507
 -  Symbols:   5028
--  CStrings:  4826
+-  CStrings:  7612
++  UUID: C2CBED2C-876C-3FC2-BF6F-AAC71DACD043
 +  Functions: 1519
 +  Symbols:   5068
-+  CStrings:  4852
++  CStrings:  7646
  
 Symbols:
 + +[SignpostAggregationGroupDuration _combinedStdDevFromDuration0:duration1:]

@@ -97,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2726A874-0274-37ED-B79E-EDB1AE7B4692
 -  Functions: 11830
 -  Symbols:   3316
--  CStrings:  13180
+-  CStrings:  14566
++  UUID: A6210840-5463-39CF-BE66-73A1C46FA932
 +  Functions: 11833
 +  Symbols:   3318
-+  CStrings:  13195
++  CStrings:  14582
  
 Symbols:
 + _OBJC_CLASS_$_NLLanguageRecognizer

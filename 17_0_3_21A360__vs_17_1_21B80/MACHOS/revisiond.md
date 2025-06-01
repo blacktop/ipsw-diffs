@@ -42,12 +42,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 635A60D5-EECD-3350-8A19-BBD26D7FFDC4
 -  Functions: 1005
 -  Symbols:   331
--  CStrings:  1508
+-  CStrings:  1804
++  UUID: 670B0E74-762B-3DFB-8C07-CE32168EEEDC
 +  Functions: 1008
 +  Symbols:   332
-+  CStrings:  1511
++  CStrings:  1807
  
 Symbols:
 + _NSURLVolumeURLKey

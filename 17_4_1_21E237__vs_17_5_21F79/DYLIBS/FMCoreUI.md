@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B50A0107-4776-37A2-A27A-AAF46E32BDF2
++  UUID: ABA07BE5-F8FD-39E2-9C7D-22349D0F6537
+   Functions: 640
+   Symbols:   2666
+   CStrings:  1571
+
 ```

@@ -74,7 +74,6 @@
 +  __AUTH_CONST.__const: 0x1768
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x928
 -  __AUTH.__objc_data: 0x410
 -  __AUTH.__data: 0x7b8
@@ -82,7 +81,6 @@
 -  __DATA.__objc_superrefs: 0x38
 -  __DATA.__objc_ivar: 0x48
 -  __DATA.__data: 0xaa8
-+  __AUTH_CONST.__auth_ptr: 0x88
 +  __AUTH_CONST.__auth_got: 0xb08
 +  __AUTH.__objc_data: 0x7e0
 +  __AUTH.__data: 0x8a8
@@ -114,12 +112,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E75973A-9124-3C37-B9CC-D5482671A13B
 -  Functions: 961
 -  Symbols:   3027
--  CStrings:  294
+-  CStrings:  306
++  UUID: 76258D2C-B1B8-3E4F-92E8-163151D6AAF1
 +  Functions: 1324
 +  Symbols:   4115
-+  CStrings:  565
++  CStrings:  618
  
 Symbols:
 + +[LACUIAuthenticatorServiceConfiguration supportsSecureCoding]
@@ -1077,6 +1077,7 @@ Symbols:
 - _symbolic _____y_____y_____y_____yABy___________ySay_____GSS_____yACyACy_____y_____y_____yAJyAJy__________G_____GG______Qo______y_____GGAJy_____yAKyALG_Qo_AMGGAJyAxMGGGGtGGAJyAeOGGSg_AJyAJyAJyAJyAJy__________G_____y_____SgGGA12_y_____SgGG_____G_____GAJyAJyAJyAAyAByAJyAJyAJyALA12_y_____GGAMGA23_G_A27_tGGAMGAMG_____y_____GGAJyAJyAJyAAyAFySay_____GSS_____GGAMGAMGA36_GSgAJy_____AMGSgAeJyAJyAAyA3_GAMGAMGtGG 7SwiftUI6VStackV AA9TupleViewV AA19_ConditionalContentV AA6HStackV AA6SpacerV AA7ForEachV 023LocalAuthenticationCoreB028LACUIAuthButtonConfigurationV AA5GroupV AA08ModifiedG0V AA0E0PAAE11buttonStyleyQrqd__AA09PrimitivepU0Rd__lFQO AA0P0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameY0V AA017BorderedProminentpU0V AA11_ClipEffectV AA16RoundedRectangleV AvAE10fontWeightyQrAA4FontV6WeightVSgFQO AA5ImageV AA012_AspectRatioY0V AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA5ColorV AA06_FrameY0V AA31AccessibilityAttachmentModifierV AA0W9AlignmentO AA21_TraitWritingModifierV AA0Y16PriorityTraitKeyV AN0o13CountdownItemQ0V AN0o13CountdownItemE0V AN0o14CountdownDelayE0V
 - _symbolic _____y_____y_____y_____y_____yACy___________ySay_____GSS_____yADyADyAAy_____y_____yAAyAAy__________G_____GG______Qo______y_____GGAAy_____yAKyALG_Qo_AMGGAAyAxMGGGGtGGAAyAfOGGSg_AAyAAyAAyAAyAAy__________G_____y_____SgGGA12_y_____SgGG_____G_____GAAyAAyAAyAByACyAAyAAyAAyALA12_y_____GGAMGA23_G_A27_tGGAMGAMG_____y_____GGAAyAAyAAyAByAGySay_____GSS_____GGAMGAMGA36_GSgAAy_____AMGSgAfAyAAyAByA3_GAMGAMGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA6HStackV AA6SpacerV AA7ForEachV 023LocalAuthenticationCoreB028LACUIAuthButtonConfigurationV AA5GroupV AA0G0PAAE11buttonStyleyQrqd__AA09PrimitiveqU0Rd__lFQO AA0Q0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameY0V AA017BorderedProminentqU0V AA11_ClipEffectV AA16RoundedRectangleV AvAE10fontWeightyQrAA4FontV6WeightVSgFQO AA5ImageV AA012_AspectRatioY0V AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA5ColorV AA06_FrameY0V AA31AccessibilityAttachmentModifierV AA0W9AlignmentO AA21_TraitWritingModifierV AA0Y16PriorityTraitKeyV AP0p13CountdownItemR0V AP0p13CountdownItemG0V AP0p14CountdownDelayG0V AP013EmbedInScrollG16IfNeededModifierV
 CStrings:
++ ""
 + "\x191"
 + "$__lazy_storage_$_context"
 + "$__lazy_storage_$_learnMoreSubject"

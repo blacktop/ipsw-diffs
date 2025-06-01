@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 0F6ED5CB-8CD4-3E02-9EAB-877708AA4055
++  UUID: A61FF904-EF59-3D05-A997-272A83695151
+   Functions: 2298
+   Symbols:   6744
+   CStrings:  1414
+
 ```

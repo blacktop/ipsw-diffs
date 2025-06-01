@@ -31,12 +31,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 5056FFDD-4AD2-39AE-89F8-82A1D010C89A
 -  Functions: 12931
 -  Symbols:   37338
--  CStrings:  8272
+-  CStrings:  8566
++  UUID: 3B3FF5A2-021F-37CA-89F8-3D217DB71FFD
 +  Functions: 12933
 +  Symbols:   37342
-+  CStrings:  8276
++  CStrings:  8570
  
 Symbols:
 + __ZNK21SipRegistrationClient5stackEv

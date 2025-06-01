@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__objc_const: 0x5660
 +  __AUTH_CONST.__cfstring: 0xfca0
 +  __AUTH_CONST.__const: 0x1960
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_intobj: 0x108
 -  __AUTH_CONST.__auth_got: 0xcf8
 -  __AUTH.__objc_data: 0x190
@@ -95,12 +94,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A7810767-2F11-31F0-94E7-44A66C9EEF2E
 -  Functions: 6816
 -  Symbols:   21636
--  CStrings:  9408
+-  CStrings:  11411
++  UUID: AB1D99DE-21C8-3D38-9098-9A43D1FE0ADF
 +  Functions: 6798
 +  Symbols:   21656
-+  CStrings:  9533
++  CStrings:  11554
  
 Symbols:
 + +[FPDaemonConnection runningInSyncBubble]

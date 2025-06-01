@@ -52,10 +52,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x758
    __DATA_CONST.__objc_arraydata: 0x160
 -  __AUTH_CONST.__const: 0x18e90
-+  __AUTH_CONST.__const: 0x19b98
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__objc_const: 0x6d40
 -  __AUTH_CONST.__cfstring: 0xb880
++  __AUTH_CONST.__const: 0x19b98
 +  __AUTH_CONST.__objc_const: 0x7400
 +  __AUTH_CONST.__cfstring: 0xbce0
    __AUTH_CONST.__objc_doubleobj: 0x90
@@ -87,12 +86,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4ABB27EA-4E9F-3420-913D-0056D159D49A
 -  Functions: 13934
 -  Symbols:   39692
--  CStrings:  9448
+-  CStrings:  10924
++  UUID: 950696EA-BA59-3279-9843-EDA48BEC8295
 +  Functions: 14189
 +  Symbols:   40486
-+  CStrings:  9742
++  CStrings:  11253
  
 Symbols:
 + +[MLArchivingUtils parseModelArchive:modelType:compilerVersion:modelVersion:error:]

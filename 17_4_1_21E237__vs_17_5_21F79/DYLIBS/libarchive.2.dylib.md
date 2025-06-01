@@ -12,7 +12,6 @@
    __DATA_CONST.__got: 0x38
    __DATA_CONST.__const: 0x1bf8
    __AUTH_CONST.__const: 0x18
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x850
 -  __DATA.__data: 0x14
 -  __DATA.__bss: 0x442
@@ -24,5 +23,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/liblzma.5.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 4D06174D-385E-33FD-AD16-72B439683AA7
++  UUID: CA55481E-256B-3C01-84C9-8F01DBE6E871
+   Functions: 1627
+   Symbols:   695
+   CStrings:  1761
 
 ```

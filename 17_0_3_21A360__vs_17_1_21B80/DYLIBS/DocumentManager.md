@@ -22,12 +22,15 @@
    __TEXT.__objc_methname: 0x8dae
    __TEXT.__objc_methtype: 0x1343
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: C35CCFCC-130F-3AC2-B59C-B4BD852ADE2D
++  UUID: D1B9C451-4F06-34AF-8725-A46C18A0F3A2
    Functions: 1025
 -  Symbols:   4001
 +  Symbols:   4003
-   CStrings:  2291
+   CStrings:  2692
  
 Symbols:
 + GCC_except_table10

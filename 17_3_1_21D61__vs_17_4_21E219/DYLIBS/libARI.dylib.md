@@ -37,11 +37,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: A961511A-2819-3A26-8E76-3607C14FE585
 -  Functions: 15307
 -  Symbols:   29027
++  UUID: 82FCA66B-ACB3-301E-8B7C-6E0D8EE454FA
 +  Functions: 15280
 +  Symbols:   28943
-   CStrings:  8255
+   CStrings:  8256
  
 Symbols:
 + GCC_except_table1274

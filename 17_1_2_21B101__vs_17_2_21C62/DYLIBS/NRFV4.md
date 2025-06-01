@@ -50,13 +50,16 @@
    __DATA.__common: 0x100
    __DATA.__bss: 0x170
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 258A539D-776E-3D0F-AD20-215AA653DFC1
++  UUID: 9C43671A-2F14-3697-B391-BF3012DBA74D
    Functions: 4783
 -  Symbols:   18936
--  CStrings:  14446
+-  CStrings:  16664
 +  Symbols:   18937
-+  CStrings:  14448
++  CStrings:  16667
  
 Symbols:
 + _OBJC_IVAR_$_SRLv2Plist.matchPreview

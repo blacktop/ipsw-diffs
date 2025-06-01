@@ -62,7 +62,6 @@
    __DATA_CONST.__objc_arraydata: 0x4f0
 -  __AUTH_CONST.__const: 0x9508
 +  __AUTH_CONST.__const: 0x9648
-   __AUTH_CONST.__auth_ptr: 0x168
    __AUTH_CONST.__objc_const: 0x10eb8
 -  __AUTH_CONST.__cfstring: 0xa6e0
 +  __AUTH_CONST.__cfstring: 0xa6c0
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DDD0AD3-524A-3257-A5D9-F96ADB21B45D
 -  Functions: 21785
 -  Symbols:   59666
--  CStrings:  21542
+-  CStrings:  22877
++  UUID: BC3286D7-B8F5-345B-B193-A5F891DCA279
 +  Functions: 21815
 +  Symbols:   59715
-+  CStrings:  21560
++  CStrings:  22894
  
 Symbols:
 + -[CNCardSharedProfileGroupItem sharedByDisplayString]

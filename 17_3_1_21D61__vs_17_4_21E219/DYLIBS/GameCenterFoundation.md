@@ -83,7 +83,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x180
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_dictobj: 0x140
--  __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0x1150
 -  __AUTH.__objc_data: 0x2830
 -  __AUTH.__data: 0xd88
@@ -91,7 +90,6 @@
 -  __DATA.__objc_classrefs: 0x8a8
 -  __DATA.__objc_superrefs: 0x448
 -  __DATA.__objc_ivar: 0xd34
-+  __AUTH_CONST.__auth_ptr: 0x78
 +  __AUTH_CONST.__auth_got: 0x1210
 +  __AUTH.__objc_data: 0x2ed8
 +  __AUTH.__data: 0xd68
@@ -125,12 +123,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BE6FA13C-925A-3A40-9862-7F85D8F9D0EF
 -  Functions: 9647
 -  Symbols:   21537
--  CStrings:  10212
+-  CStrings:  12947
++  UUID: 7315700A-179F-3B07-ADB7-FBB8CA36AF4B
 +  Functions: 10002
 +  Symbols:   22539
-+  CStrings:  10586
++  CStrings:  12654
  
 Symbols:
 + +[GKAchievement shouldShowBannerOnReport:reportedAchievements:uiFrameworkMethodsRequired:]

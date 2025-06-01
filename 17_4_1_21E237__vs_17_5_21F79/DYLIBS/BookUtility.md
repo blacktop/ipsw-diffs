@@ -50,11 +50,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DC5ACDFA-BF62-3AA0-BEB1-36E9E6BEFDA8
 -  Functions: 1328
++  UUID: E61F53BC-D48D-3D74-9267-53780C90A2E4
 +  Functions: 1330
    Symbols:   508
--  CStrings:  2097
-+  CStrings:  2102
+-  CStrings:  2360
++  CStrings:  2366
  
 CStrings:
 + "%@ %d.%@"

@@ -22,4 +22,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/NotesShared.framework/NotesShared
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 462229CD-7A5C-3A1D-A185-1A4F320A2322
++  UUID: FD184446-A6BB-3253-998C-426A6C9BA700
+   Functions: 4
+   Symbols:   29
+   CStrings:  20
+
 ```

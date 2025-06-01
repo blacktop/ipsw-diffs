@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 43D694F0-5D71-3BF9-A644-00C3A8E94033
 -  Functions: 1673
 -  Symbols:   462
--  CStrings:  3027
+-  CStrings:  3249
++  UUID: 01BBBCD2-99B8-32D7-B4E3-1BBCFE169AD2
 +  Functions: 1658
 +  Symbols:   460
-+  CStrings:  3040
++  CStrings:  3262
  
 Symbols:
 + _calloc

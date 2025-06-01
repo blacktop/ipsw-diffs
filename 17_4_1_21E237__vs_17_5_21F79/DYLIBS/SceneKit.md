@@ -29,6 +29,15 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 255C59E5-1894-393C-8090-B71AF6906DE4
++  UUID: 213B9000-FEFA-3B4F-9A28-AE5FF98F653A
+   Functions: 22195
+   Symbols:   55720
+   CStrings:  20214
 CStrings:
 + "Welcome to SceneKit 599.402 (Apr 13 2024 06:44:04)"
 - "Welcome to SceneKit 599.402 (Mar  9 2024 00:49:45)"

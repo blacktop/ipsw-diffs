@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x780
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/HealthRecordServices.framework/HealthRecordServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1EA3C164-9C26-372D-A472-8E3B00C4E3F5
++  UUID: 82040259-7717-3C8E-8BBC-572CC18318D3
    Functions: 286
    Symbols:   149
--  CStrings:  734
-+  CStrings:  735
+-  CStrings:  867
++  CStrings:  868
  
 CStrings:
 + "T@\"NSString\",?,R,C"

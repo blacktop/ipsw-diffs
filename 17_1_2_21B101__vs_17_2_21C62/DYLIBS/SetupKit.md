@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F440EB36-1F0E-330D-AAA3-C9F185E12E5E
 -  Functions: 877
 -  Symbols:   2971
--  CStrings:  1703
+-  CStrings:  1789
++  UUID: 67E0FD51-A80E-3D1B-8ED7-A3CCFF46AD0E
 +  Functions: 904
 +  Symbols:   3042
-+  CStrings:  1716
++  CStrings:  1802
  
 Symbols:
 + -[SKSetupOSUpdateClient _activate]

@@ -51,11 +51,15 @@
    - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6A081FEC-795D-3C8E-80AE-4E6E2FE82878
++  UUID: 1ECB43AA-4220-349F-8F92-A87F080277DD
    Functions: 909
    Symbols:   3565
--  CStrings:  2005
-+  CStrings:  2006
+-  CStrings:  2285
++  CStrings:  2287
  
 CStrings:
 + "MagicKeyboardExtended"

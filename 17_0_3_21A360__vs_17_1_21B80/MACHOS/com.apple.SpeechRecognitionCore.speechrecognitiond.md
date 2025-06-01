@@ -39,11 +39,15 @@
    __DATA.__objc_classrefs: 0x1e8
    __DATA.__objc_superrefs: 0x58
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 358B8EBC-EA33-3C0B-B211-001D1FFDB978
++  UUID: 028D7FE8-7875-3853-BE07-78780A5E2871
    Functions: 3203
    Symbols:   1110
--  CStrings:  1717
-+  CStrings:  1721
+-  CStrings:  1932
++  CStrings:  1936
  
 CStrings:
 + "API misuse while calculating mode: XPC_TYPE_DICTIONARY expected, passed %@ "

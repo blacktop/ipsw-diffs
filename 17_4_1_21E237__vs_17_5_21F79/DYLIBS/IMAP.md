@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CallKit.framework/CallKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E56AD43B-9FD4-3081-8559-55C7CB23D41C
++  UUID: C76CAD7B-751A-3D91-A0F3-E98B1EF1E3CD
+   Functions: 4042
+   Symbols:   14346
+   CStrings:  7722
+
 ```

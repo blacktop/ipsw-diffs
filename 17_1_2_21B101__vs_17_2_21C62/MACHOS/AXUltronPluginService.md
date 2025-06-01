@@ -45,12 +45,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 60AE65DA-025A-3C98-B9A5-C4396B4996D5
 -  Functions: 48
 -  Symbols:   70
--  CStrings:  148
+-  CStrings:  150
++  UUID: F52694C6-D7B1-36E3-8424-3842F3B20414
 +  Functions: 41
 +  Symbols:   66
-+  CStrings:  137
++  CStrings:  139
  
 Symbols:
 + _objc_opt_respondsToSelector

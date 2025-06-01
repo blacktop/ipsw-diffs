@@ -21,11 +21,13 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 82A7131F-7A8F-3806-9F9F-F94D2D9B624E
 -  Functions: 19
++  UUID: 0D8A49C3-A834-3E2A-8E40-3334B4203BCC
 +  Functions: 20
    Symbols:   56
--  CStrings:  158
-+  CStrings:  160
+-  CStrings:  159
++  CStrings:  161
  
 CStrings:
 + "-syncroot"

@@ -30,6 +30,14 @@
    __DATA_DIRTY.__objc_const: 0x168
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x48
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 20C7B6CA-1633-3732-B9BD-FA29986AD19B
++  UUID: DD455BE8-8E6B-3DAD-B80E-3AA67502BB05
+   Functions: 413
+   Symbols:   1056
+   CStrings:  390
 Symbols:
 + ____remote_device_start_browsing_block_invoke.331
 + ____remote_device_start_browsing_block_invoke.331.cold.1

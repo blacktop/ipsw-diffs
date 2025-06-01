@@ -1,0 +1,22 @@
+## PairingProximity
+
+> `/System/Library/PrivateFrameworks/PairingProximity.framework/PairingProximity`
+
+```diff
+
+-1147.4.0.0.0
++1147.5.0.0.0
+   __TEXT.__text: 0x1ce0
+   __TEXT.__auth_stubs: 0x2d0
+   __TEXT.__objc_methlist: 0x214
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0210470D-F611-3C8C-BCEC-F3D9FD44BE72
++  UUID: AAEDF600-56DE-3536-89BD-6F18782D663F
+   Functions: 73
+   Symbols:   357
+   CStrings:  214
+
+```

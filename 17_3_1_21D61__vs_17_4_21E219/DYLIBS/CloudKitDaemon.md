@@ -59,6 +59,7 @@
 -  __DATA_CONST.__objc_arraydata: 0x1380
 -  __AUTH_CONST.__const: 0x39e0
 -  __AUTH_CONST.__objc_const: 0xdfd8
+-  __AUTH_CONST.__cfstring: 0x1d3c0
 +  __DATA_CONST.__objc_const: 0x32710
 +  __DATA_CONST.__objc_selrefs: 0x10358
 +  __DATA_CONST.__objc_protorefs: 0x48
@@ -67,8 +68,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x13e0
 +  __AUTH_CONST.__const: 0x3a10
 +  __AUTH_CONST.__objc_const: 0xe4e8
-   __AUTH_CONST.__auth_ptr: 0x68
--  __AUTH_CONST.__cfstring: 0x1d3c0
 +  __AUTH_CONST.__cfstring: 0x1da40
    __AUTH_CONST.__objc_arrayobj: 0x3a8
 -  __AUTH_CONST.__objc_dictobj: 0xa28
@@ -115,12 +114,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B349BEA9-FCEA-36E5-B2BE-6586241B46A3
 -  Functions: 17068
 -  Symbols:   2610
--  CStrings:  20729
+-  CStrings:  24471
++  UUID: 01AA6C8F-1BE7-3551-B07B-974D29BB47C5
 +  Functions: 17552
 +  Symbols:   2649
-+  CStrings:  21108
++  CStrings:  24902
  
 Symbols:
 + OBJC_IVAR_$_CKDPContactInformation._containerScopedUserId

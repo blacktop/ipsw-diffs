@@ -35,11 +35,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/RelevanceEngineUI.framework/RelevanceEngineUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C639AD62-7530-36C1-B4EF-8EB8C024AE41
++  UUID: 0FFC07DB-2F3C-32BE-92F1-994FA63E2D20
    Functions: 55
    Symbols:   108
--  CStrings:  193
-+  CStrings:  194
+-  CStrings:  213
++  CStrings:  214
  
 CStrings:
 + "T@\"NSString\",?,R,C"

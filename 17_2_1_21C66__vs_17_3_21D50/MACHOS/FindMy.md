@@ -35,13 +35,16 @@
    __DATA_CONST.__objc_classlist: 0xae8
    __DATA_CONST.__objc_catlist: 0x30
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5ACADE54-6D7F-35DB-A241-30E06F0ED16C
++  UUID: 881B4198-6B43-3E14-9C5D-9DFC7792E9B0
    Functions: 20331
 -  Symbols:   3432
--  CStrings:  7596
+-  CStrings:  7628
 +  Symbols:   3441
-+  CStrings:  7602
++  CStrings:  7634
  
 Symbols:
 + _$s10Foundation4DateV11FormatStyleV04TimeD0V7omittedAGvgZ

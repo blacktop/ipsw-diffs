@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 168CC291-9F99-3DB7-88AF-CFB6FD111A37
 -  Functions: 2585
 -  Symbols:   943
--  CStrings:  2146
+-  CStrings:  2309
++  UUID: EA9C048E-695D-36B0-8F5C-2F4D35EA709F
 +  Functions: 2511
 +  Symbols:   924
-+  CStrings:  2078
++  CStrings:  2207
  
 Symbols:
 + _$s25LocalAuthenticationCoreUI22LACUIDTOViewControllerC13configuration7handlerAcA31LACUIAuthCountdownConfigurationV_AA0iJ16ViewModelHandler_pSgtcfc

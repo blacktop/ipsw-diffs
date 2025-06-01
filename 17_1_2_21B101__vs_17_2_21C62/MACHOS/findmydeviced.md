@@ -45,11 +45,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4869FAF-C1FA-37F9-A469-8C3585E3B782
 -  Functions: 5766
++  UUID: 02245E48-3728-3BDC-9EFF-1608DD8B92C9
 +  Functions: 5768
    Symbols:   564
--  CStrings:  8226
-+  CStrings:  8227
+-  CStrings:  9529
++  CStrings:  9531
  
 CStrings:
 + "FMIP account cannot be removed in ratchet."

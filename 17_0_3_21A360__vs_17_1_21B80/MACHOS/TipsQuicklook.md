@@ -44,7 +44,11 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 77227EC1-8AB0-3640-BBC1-BA19F7F97D97
++  UUID: 0944BD46-E943-3C5A-9578-08E4DBE9BDD3
    Functions: 137
    Symbols:   105
 -  CStrings:  118

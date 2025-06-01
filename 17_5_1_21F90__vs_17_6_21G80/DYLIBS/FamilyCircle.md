@@ -33,15 +33,18 @@
 +  __AUTH_CONST.__cfstring: 0x31c0
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__const: 0x1968
-   __AUTH_CONST.__auth_ptr: 0x90
+   __AUTH_CONST.__auth_got: 0xd28
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 59B2392E-F319-3D4C-AB1D-06506CDC7FB8
++  UUID: 746E23BF-855E-3B85-AFF0-B1CE11066DA5
    Functions: 2588
 -  Symbols:   4417
--  CStrings:  2416
+-  CStrings:  2813
 +  Symbols:   4418
-+  CStrings:  2417
++  CStrings:  2815
  
 Symbols:
 + _FAURLEndpointPendingInviteActionFromMessagesV1

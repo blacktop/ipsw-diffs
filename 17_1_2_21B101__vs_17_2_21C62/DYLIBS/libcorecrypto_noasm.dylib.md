@@ -20,9 +20,7 @@
    __TEXT.__eh_frame: 0x270
    __DATA_CONST.__got: 0x10
    __DATA_CONST.__const: 0xf00
--  __AUTH_CONST.__auth_ptr: 0x1d0
 -  __AUTH_CONST.__const: 0x12e8
-+  __AUTH_CONST.__auth_ptr: 0x1c8
 +  __AUTH_CONST.__const: 0x13a0
    __AUTH_CONST.__auth_got: 0x110
 -  __AUTH.__data: 0xc0
@@ -34,9 +32,11 @@
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_trace.dylib
+-  UUID: 4021EBE1-C34B-343D-AC3D-176DF8629DDD
 -  Functions: 1827
 -  Symbols:   3106
 -  CStrings:  610
++  UUID: D1565DC6-F2AB-3C81-9AED-A116EA122A60
 +  Functions: 1847
 +  Symbols:   3147
 +  CStrings:  618

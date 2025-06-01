@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0F44B404-D9C5-357D-8771-F4B996CB2028
++  UUID: 4F28085F-623E-3EC9-BDC0-FEE240909F5F
    Functions: 30
    Symbols:   65
--  CStrings:  186
-+  CStrings:  188
+-  CStrings:  191
++  CStrings:  193
  
 CStrings:
 + "T@\"NSString\",?,R,C"

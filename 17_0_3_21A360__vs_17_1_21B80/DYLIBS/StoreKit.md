@@ -74,11 +74,9 @@
 +  __AUTH_CONST.__cfstring: 0x3700
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x28
--  __AUTH_CONST.__auth_ptr: 0x150
 -  __AUTH_CONST.__auth_got: 0x17b0
 -  __AUTH.__objc_data: 0x2418
 -  __AUTH.__data: 0x2458
-+  __AUTH_CONST.__auth_ptr: 0x160
 +  __AUTH_CONST.__auth_got: 0x1810
 +  __AUTH.__objc_data: 0x24b8
 +  __AUTH.__data: 0x24e0
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DC8109E5-4523-3072-913C-565F081EEDDD
 -  Functions: 9885
 -  Symbols:   13133
--  CStrings:  3575
+-  CStrings:  4010
++  UUID: 54F79750-144E-36D9-B3F1-3D606ACAEA13
 +  Functions: 10132
 +  Symbols:   13362
-+  CStrings:  3635
++  CStrings:  4075
  
 Symbols:
 + +[SKPPMUtilities PPMConfirmedValueWithValue:newValue:]

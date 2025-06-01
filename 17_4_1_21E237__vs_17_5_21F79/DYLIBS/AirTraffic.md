@@ -31,4 +31,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C26690B5-09ED-383D-B05E-C6AC9D68DA4E
++  UUID: 09619807-CF25-30B1-84B5-178874299FBC
+   Functions: 804
+   Symbols:   2937
+   CStrings:  1844
+
 ```

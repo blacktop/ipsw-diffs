@@ -20,8 +20,11 @@
    __DATA_DIRTY.__bss: 0x1000
    - /usr/lib/system/libdyld.dylib
 
+   - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libunwind.dylib
+-  UUID: AC9C7D3A-6975-3AE1-9CA3-DB820F8B3C65
++  UUID: E58EF548-78DC-30C2-B3E2-C9E715F27778
    Functions: 118
 -  Symbols:   87
 +  Symbols:   88

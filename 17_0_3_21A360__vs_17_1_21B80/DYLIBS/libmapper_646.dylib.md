@@ -12,4 +12,13 @@
    __TEXT.__const: 0x10
    __TEXT.__cstring: 0xd
 
+   __AUTH.__data: 0x20
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+-  UUID: E5BCC012-BF48-39DC-AC96-750A7CF085A4
++  UUID: CBF3C620-C1B9-3503-8C59-FC0BEC47E83C
+   Functions: 7
+   Symbols:   24
+   CStrings:  2
+
 ```

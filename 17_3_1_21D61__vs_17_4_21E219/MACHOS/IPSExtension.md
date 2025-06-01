@@ -33,11 +33,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 16518AAC-F29A-3BD3-B328-506D9DE37A85
++  UUID: 5DB09D79-72F8-3F13-851E-55F2E2F25BAC
    Functions: 5
    Symbols:   60
--  CStrings:  84
-+  CStrings:  85
+-  CStrings:  95
++  CStrings:  96
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/SiriPrivateLearningAnalytics
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0499E3FC-8A87-3A26-9EC2-D356E3B2BE8C
++  UUID: A1591041-5744-3012-BD7B-93A119D61628
+   Functions: 7
+   Symbols:   52
+   CStrings:  14
+
 ```

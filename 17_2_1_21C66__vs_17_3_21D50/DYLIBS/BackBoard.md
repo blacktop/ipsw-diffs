@@ -21,12 +21,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 95213D4C-0FD1-3213-82C7-27B103ED18C9
 -  Functions: 791
 -  Symbols:   3305
--  CStrings:  1455
+-  CStrings:  1663
++  UUID: E6663C2E-EDCD-33D9-AE3B-350C2F142D90
 +  Functions: 788
 +  Symbols:   3299
-+  CStrings:  1456
++  CStrings:  1664
  
 Symbols:
 - -[AXBSoundDetectionManager _startupSoundDetectionUIServer].cold.3

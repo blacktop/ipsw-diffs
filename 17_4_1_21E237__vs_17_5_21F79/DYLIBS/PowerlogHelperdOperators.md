@@ -56,11 +56,10 @@
 -  __AUTH_CONST.__const: 0x1640
 -  __AUTH_CONST.__objc_doubleobj: 0xac0
 -  __AUTH_CONST.__objc_arrayobj: 0x28c8
+-  __AUTH_CONST.__auth_got: 0xe88
 +  __AUTH_CONST.__const: 0x1680
 +  __AUTH_CONST.__objc_doubleobj: 0xae0
 +  __AUTH_CONST.__objc_arrayobj: 0x2940
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__auth_got: 0xe88
 +  __AUTH_CONST.__auth_got: 0xe98
    __AUTH.__objc_data: 0x820
    __AUTH.__data: 0x5a0
@@ -82,12 +81,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BC830794-4DE6-32CB-B46D-4786A275A909
 -  Functions: 7990
 -  Symbols:   26217
--  CStrings:  14887
+-  CStrings:  20824
++  UUID: 1BE3E3E6-F3A4-3FDF-959B-E54C00B7CFAB
 +  Functions: 8026
 +  Symbols:   26319
-+  CStrings:  14958
++  CStrings:  20927
  
 Symbols:
 + +[PLSMCAgent entryEventBackwardDefinitionDisplayPowerKeys]

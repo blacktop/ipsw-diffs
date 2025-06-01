@@ -31,11 +31,15 @@
    __DATA.__objc_superrefs: 0x20
    __DATA.__objc_ivar: 0xb8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 33B83148-5B27-3E94-8BE8-B2D13DF8C7BE
++  UUID: 3F3F111C-A56C-3478-8AA1-9A299C642503
    Functions: 300
    Symbols:   144
--  CStrings:  723
-+  CStrings:  724
+-  CStrings:  796
++  CStrings:  797
  
 CStrings:
 + "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"

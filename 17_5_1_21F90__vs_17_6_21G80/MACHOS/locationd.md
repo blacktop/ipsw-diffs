@@ -57,11 +57,13 @@
    - /usr/lib/swift/libswiftSystem.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5F5302D2-FACA-3799-B708-C5F436381DB3
 -  Functions: 91049
++  UUID: BA54EE65-4551-3B88-A2C0-95433740D7FB
 +  Functions: 91058
    Symbols:   3166
--  CStrings:  78678
-+  CStrings:  78703
+-  CStrings:  85800
++  CStrings:  85828
  
 CStrings:
 + "#Spi, Must provide a bundle identifier or bundle path if setting temporay precise authorization"

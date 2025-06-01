@@ -20,6 +20,15 @@
    __TEXT.__objc_methtype: 0xcc0a
    __TEXT.__objc_stubs: 0x112a0
    __DATA_CONST.__got: 0x360
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+-  UUID: FD1DE161-AFFE-3CF0-BF2C-8BB62B381087
++  UUID: 978848B7-18C8-3E97-BC24-5E0F8B7EA0C4
+   Functions: 5584
+   Symbols:   18397
+   CStrings:  17622
 Symbols:
 + -[CRFormContourBasedDetector detectFormFieldsInImage:document:]
 + ___63-[CRFormContourBasedDetector detectFormFieldsInImage:document:]_block_invoke

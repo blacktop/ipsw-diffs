@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 844D652F-9F7A-3295-B565-F10E9EDBD648
++  UUID: 36E71D78-DF77-37EA-B05A-5AF5F5362C54
    Functions: 211
    Symbols:   113
--  CStrings:  690
-+  CStrings:  691
+-  CStrings:  735
++  CStrings:  736
  
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"

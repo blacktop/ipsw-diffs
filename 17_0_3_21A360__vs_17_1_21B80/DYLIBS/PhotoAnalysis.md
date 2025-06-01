@@ -46,7 +46,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x4d30
    __DATA_CONST.__objc_arraydata: 0xd0
    __AUTH_CONST.__const: 0x8a80
-   __AUTH_CONST.__auth_ptr: 0x118
    __AUTH_CONST.__objc_const: 0x3048
 -  __AUTH_CONST.__cfstring: 0x8f80
 +  __AUTH_CONST.__cfstring: 0x8fc0
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F02B0407-E5D0-3100-9E7C-F6F838C84FB7
 -  Functions: 7407
 -  Symbols:   11901
--  CStrings:  6526
+-  CStrings:  7674
++  UUID: 718A2CD8-B7A3-34F8-807A-E5CBEA197A76
 +  Functions: 7410
 +  Symbols:   11912
-+  CStrings:  6539
++  CStrings:  7689
  
 Symbols:
 + +[PHAWallpaperSuggestionRefreshSession refreshPosterConfigurationWithPosterService:retryCount:configuration:sessionInfo:log:completion:]

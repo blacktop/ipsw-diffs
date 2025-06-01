@@ -44,11 +44,15 @@
    __DATA.__data: 0x1f0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9D089F0-3D1A-37F7-B5F3-9ABCCA6CA2EE
++  UUID: 7DD75666-C783-350A-AB49-A60068D6AAD0
    Functions: 58
    Symbols:   87
--  CStrings:  236
-+  CStrings:  240
+-  CStrings:  246
++  CStrings:  251
  
 CStrings:
 + "Number of Braille cells set to %@"

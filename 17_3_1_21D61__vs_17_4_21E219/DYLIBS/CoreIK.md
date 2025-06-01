@@ -19,12 +19,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libc++abi.dylib
+-  UUID: 4BB0F270-8BEB-3A6D-A25E-393C3F11E3F1
 -  Functions: 1139
 -  Symbols:   2441
--  CStrings:  551
+-  CStrings:  554
++  UUID: 17AF3BA6-17AD-3F71-8830-60B639BB62BB
 +  Functions: 1136
 +  Symbols:   2435
-+  CStrings:  538
++  CStrings:  541
  
 Symbols:
 + __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE4findB8un170006EPKcm

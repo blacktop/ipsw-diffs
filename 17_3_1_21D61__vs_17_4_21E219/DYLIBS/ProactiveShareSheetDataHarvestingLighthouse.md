@@ -58,10 +58,8 @@
    __AUTH_CONST.__cfstring: 0x5fc0
    __AUTH_CONST.__objc_const: 0x308
 -  __AUTH_CONST.__const: 0x1418
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x7c8
 +  __AUTH_CONST.__const: 0x16f0
-+  __AUTH_CONST.__auth_ptr: 0x38
 +  __AUTH_CONST.__auth_got: 0x878
    __AUTH.__objc_data: 0x230
 -  __DATA.__objc_classrefs: 0x130
@@ -97,12 +95,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1E2993F0-BE90-386E-BFCE-E07166CAFD8A
 -  Functions: 844
 -  Symbols:   887
--  CStrings:  1204
+-  CStrings:  1970
++  UUID: 620D2495-5ED8-3F3A-9B04-8C229A64DE30
 +  Functions: 989
 +  Symbols:   955
-+  CStrings:  1257
++  CStrings:  2023
  
 Symbols:
 + _BMMLSEVirtualFeatureStoreFeaturefeatureNameAsString

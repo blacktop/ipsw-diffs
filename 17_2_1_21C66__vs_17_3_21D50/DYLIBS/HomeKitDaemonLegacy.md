@@ -45,7 +45,6 @@
 +  __DATA_CONST.__objc_const: 0xb3338
 +  __DATA_CONST.__objc_selrefs: 0x2e8c0
    __DATA_CONST.__objc_arraydata: 0x2878
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x10770
 -  __AUTH_CONST.__objc_const: 0x2f810
 -  __AUTH_CONST.__cfstring: 0x4df20
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4339F294-7580-332E-9F10-F0342B5AA9C9
 -  Functions: 43181
 -  Symbols:   142769
--  CStrings:  67481
+-  CStrings:  77458
++  UUID: E941E175-8045-343E-957F-8D33B0642E64
 +  Functions: 43243
 +  Symbols:   142996
-+  CStrings:  67605
++  CStrings:  77597
  
 Symbols:
 + +[HMDActiveXPCClientConnectionsManager logCategory]

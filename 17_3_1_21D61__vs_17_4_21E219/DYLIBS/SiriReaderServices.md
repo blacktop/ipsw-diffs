@@ -37,11 +37,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 669DAEE1-71CB-3727-9EBC-D2F06F71D537
++  UUID: D5074CA0-BBF2-3A6D-84A2-7ADAFFDD5A0E
    Functions: 15
    Symbols:   124
--  CStrings:  93
-+  CStrings:  94
+-  CStrings:  96
++  CStrings:  97
  
 Symbols:
 + ___28-[SiriReaderConnection init]_block_invoke.58

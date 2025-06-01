@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CE2D87F-BBBC-3F0E-A5FB-89343616B15E
++  UUID: 094FFA44-C34C-3490-BA85-0579C0E0016D
    Functions: 40
    Symbols:   74
--  CStrings:  210
-+  CStrings:  211
+-  CStrings:  219
++  CStrings:  220
  
 CStrings:
 + "T@\"NSString\",?,R,C"

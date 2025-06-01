@@ -23,12 +23,15 @@
    __DATA.__const: 0x1f0
    __DATA.__cfstring: 0x40
 
+   - /System/Library/Frameworks/NetworkExtension.framework/NetworkExtension
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4ADFE42-BDE7-3735-997E-FAA3405B92AA
++  UUID: F8120898-7CA0-3033-99AA-0DDE99654D53
    Functions: 32
 -  Symbols:   119
 +  Symbols:   120
-   CStrings:  94
+   CStrings:  96
  
 Symbols:
 + __os_log_debug_impl

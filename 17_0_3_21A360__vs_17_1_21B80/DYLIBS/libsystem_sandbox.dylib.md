@@ -21,9 +21,11 @@
    - /usr/lib/system/libsystem_kernel.dylib
    - /usr/lib/system/libsystem_malloc.dylib
    - /usr/lib/system/libsystem_platform.dylib
+-  UUID: 0D00BE73-8020-3AF1-8775-C7B45DAB0574
 -  Functions: 126
 -  Symbols:   219
 -  CStrings:  56
++  UUID: 59B3E885-0784-3EC8-BE5D-614141F8B249
 +  Functions: 129
 +  Symbols:   223
 +  CStrings:  57

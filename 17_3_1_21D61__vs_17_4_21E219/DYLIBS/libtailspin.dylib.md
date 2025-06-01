@@ -34,13 +34,12 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __DATA_CONST.__objc_selrefs: 0x330
 -  __AUTH_CONST.__cfstring: 0x1540
-+  __DATA_CONST.__objc_selrefs: 0x3a0
-+  __DATA_CONST.__objc_classrefs: 0xd0
-+  __AUTH_CONST.__cfstring: 0x1820
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x770
 -  __DATA.__objc_classrefs: 0xc8
 -  __DATA.__data: 0x8
++  __DATA_CONST.__objc_selrefs: 0x3a0
++  __DATA_CONST.__objc_classrefs: 0xd0
++  __AUTH_CONST.__cfstring: 0x1820
 +  __AUTH_CONST.__const: 0x80
 +  __AUTH_CONST.__auth_got: 0x798
 +  __DATA.__data: 0x38
@@ -67,12 +66,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libdscsym.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 451BD0BF-17CF-3165-8C44-674430F9ED95
 -  Functions: 520
 -  Symbols:   469
--  CStrings:  473
+-  CStrings:  643
++  UUID: BBE90086-CE2F-3202-A948-363B900EED79
 +  Functions: 552
 +  Symbols:   488
-+  CStrings:  534
++  CStrings:  727
  
 Symbols:
 + _OBJC_CLASS_$_NSAssertionHandler

@@ -51,7 +51,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x2e8
 +  __AUTH_CONST.__objc_dictobj: 0x320
    __AUTH_CONST.__objc_floatobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x528
 -  __AUTH.__objc_data: 0xa00
 +  __AUTH.__objc_data: 0xa50
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 08BF071A-A22D-373B-9889-19B8BF89C5CC
 -  Functions: 1081
 -  Symbols:   3997
--  CStrings:  2372
+-  CStrings:  3619
++  UUID: D905B3BA-B294-3AB8-AED8-B73BE503A7F0
 +  Functions: 1085
 +  Symbols:   4010
-+  CStrings:  2371
++  CStrings:  3613
  
 Symbols:
 + -[TypistHWKeyboard keyboardLanguageString]

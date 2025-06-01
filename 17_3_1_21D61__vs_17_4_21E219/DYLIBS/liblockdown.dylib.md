@@ -22,4 +22,13 @@
    __DATA_DIRTY.__data: 0x30
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1234C90C-E7A5-3945-B39D-945580C0267E
++  UUID: CBD3E3C1-86CC-3D1A-9D10-E63904AB92B7
+   Functions: 116
+   Symbols:   503
+   CStrings:  541
+
 ```

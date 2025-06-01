@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A774128A-B1CE-321A-817E-12F8EF6F5197
++  UUID: BE7466CF-FC72-3BCD-9EEF-8DC5DA29B1A4
+   Functions: 14
+   Symbols:   84
+   CStrings:  37
+
 ```

@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__const: 0x80
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xab8
    __DATA.__got_weak: 0x20
    __DATA.__objc_protorefs: 0x8
@@ -66,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF3B9768-D9CD-337D-A01A-8E4863F89E53
 -  Functions: 1064
 -  Symbols:   3656
--  CStrings:  1618
+-  CStrings:  1836
++  UUID: C9B00A9E-94D5-3238-8244-DDBEF5EA5366
 +  Functions: 1069
 +  Symbols:   3675
-+  CStrings:  1633
++  CStrings:  1898
  
 Symbols:
 + +[ADFigCameraCalibrationSource calcSensorCrop:onImageWithDimensions:metadataDictionary:negativeCropHandling:]

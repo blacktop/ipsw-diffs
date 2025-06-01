@@ -61,9 +61,8 @@
 +  __AUTH_CONST.__cfstring: 0x27e0
 +  __AUTH_CONST.__objc_intobj: 0x2b8
    __AUTH_CONST.__objc_dictobj: 0xa0
-+  __AUTH_CONST.__objc_arrayobj: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x400
++  __AUTH_CONST.__objc_arrayobj: 0xd8
 +  __AUTH_CONST.__auth_got: 0x410
    __AUTH.__objc_data: 0xc80
 -  __AUTH.__data: 0xa0
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A8908DA1-C101-30CE-AC8C-7B5B1FFE0CA4
 -  Functions: 1078
 -  Symbols:   3892
--  CStrings:  2320
+-  CStrings:  2626
++  UUID: 3E4258CA-D5E5-37A1-A163-9FE66680C5A7
 +  Functions: 1140
 +  Symbols:   4150
-+  CStrings:  2524
++  CStrings:  2843
  
 Symbols:
 + +[SCDAArbitrationParticipationContext _convertBoosts:]

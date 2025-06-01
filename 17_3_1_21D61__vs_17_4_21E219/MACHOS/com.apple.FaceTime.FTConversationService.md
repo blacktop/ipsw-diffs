@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 3C0A8C25-7787-30DB-8C97-6A71CF3C0ECF
 -  Functions: 265
 -  Symbols:   170
--  CStrings:  528
+-  CStrings:  557
++  UUID: 3DD5634C-2A19-397B-B169-B4986CF2184D
 +  Functions: 266
 +  Symbols:   169
-+  CStrings:  532
++  CStrings:  561
  
 Symbols:
 - _objc_retain_x28

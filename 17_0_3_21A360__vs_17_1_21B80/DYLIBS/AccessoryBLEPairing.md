@@ -35,13 +35,16 @@
    __AUTH.__objc_data: 0x50
    __DATA.__objc_protorefs: 0x10
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 39168CAA-1BE4-3A00-9541-0D7EA72DB08B
++  UUID: 723961E3-71C7-37B4-9FAF-147DB5F5EA45
    Functions: 167
 -  Symbols:   589
--  CStrings:  346
+-  CStrings:  371
 +  Symbols:   591
-+  CStrings:  348
++  CStrings:  375
  
 Symbols:
 + _ACCBLEPairingAccProductID

@@ -61,11 +61,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3926927B-0CF1-385C-89C1-9F7259EB9893
 -  Functions: 987
++  UUID: A98A7BA9-6389-3444-A3B3-FFF8B226C67F
 +  Functions: 1008
    Symbols:   208
--  CStrings:  1807
-+  CStrings:  1835
+-  CStrings:  2066
++  CStrings:  2096
  
 CStrings:
 + "%s: Shorten Apple Inc for %@"

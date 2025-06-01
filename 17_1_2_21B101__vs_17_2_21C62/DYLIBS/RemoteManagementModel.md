@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 51B61989-70F5-3CAD-A557-2CE38DF0C598
 -  Functions: 2048
 -  Symbols:   7274
--  CStrings:  2286
+-  CStrings:  2973
++  UUID: 9E6A011B-7609-3805-B4F3-EA552CC5DC05
 +  Functions: 2051
 +  Symbols:   7277
-+  CStrings:  2291
++  CStrings:  2982
  
 Symbols:
 + +[RMModelAppManagedDeclaration buildWithIdentifier:appStoreID:bundleID:manifestURL:installBehavior:includeInBackup:attributes:]

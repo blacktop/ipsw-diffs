@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0xecc
    __TEXT.__const: 0x58
 
+   - /System/Library/PrivateFrameworks/WelcomeKit.framework/WelcomeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 14061283-3BFD-3EBC-8DB2-7C5C98F581A0
++  UUID: 259BFDC9-8178-329E-AA3E-10498E8A3079
+   Functions: 379
+   Symbols:   1634
+   CStrings:  1250
+
 ```

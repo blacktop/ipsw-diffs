@@ -39,13 +39,16 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7DFD1B46-C1E8-36F6-A66C-28A9560C721E
++  UUID: 706B6D1C-BF20-3F98-94E8-723AC22A637B
    Functions: 29
 -  Symbols:   85
--  CStrings:  165
+-  CStrings:  175
 +  Symbols:   82
-+  CStrings:  166
++  CStrings:  176
  
 Symbols:
 - _kCFUserNotificationKeyboardTypesKey

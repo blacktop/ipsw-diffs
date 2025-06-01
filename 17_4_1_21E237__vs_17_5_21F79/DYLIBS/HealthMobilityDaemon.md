@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EB419983-DD37-368C-B1EB-33D981335FF0
++  UUID: DC7DDB7A-C4AA-37ED-BA54-897A19E2C76E
+   Functions: 184
+   Symbols:   916
+   CStrings:  548
+
 ```

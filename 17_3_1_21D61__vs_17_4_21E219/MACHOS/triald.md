@@ -20,5 +20,13 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/TrialServer.framework/TrialServer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AC90C040-7674-3835-98CB-734697C41FC3
++  UUID: C3126199-1ABE-33F9-A953-AEC65349C014
+   Functions: 5
+   Symbols:   41
+   CStrings:  25
 
 ```

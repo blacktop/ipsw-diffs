@@ -54,12 +54,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E0DBB4CB-2D33-330C-B8F0-D5CF2A837112
 -  Functions: 244
 -  Symbols:   879
--  CStrings:  456
+-  CStrings:  539
++  UUID: A7F309F5-EB70-3DE4-953E-48F7FDEEA474
 +  Functions: 249
 +  Symbols:   897
-+  CStrings:  468
++  CStrings:  551
  
 Symbols:
 + -[IRExportedObjectForwarder exportedObjectClass]

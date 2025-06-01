@@ -90,12 +90,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E8EC3A3-7364-3795-B0C9-4E5EEF0A9401
 -  Functions: 9061
 -  Symbols:   456
--  CStrings:  3150
+-  CStrings:  3399
++  UUID: 50BE3271-F521-30D6-8028-12E905A2218A
 +  Functions: 9099
 +  Symbols:   465
-+  CStrings:  3241
++  CStrings:  3496
  
 Symbols:
 + __set_user_dir_suffix

@@ -51,7 +51,6 @@
 -  __AUTH_CONST.__const: 0x400
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x578
 +  __AUTH_CONST.__auth_got: 0x580
    __AUTH.__objc_data: 0x50
@@ -77,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE7C73BA-705B-395F-A6B5-3206CBAF8A3A
 -  Functions: 1750
 -  Symbols:   6260
--  CStrings:  2553
+-  CStrings:  2825
++  UUID: 3B5CDE16-5EE4-3875-BB8A-8A45212F50C9
 +  Functions: 1765
 +  Symbols:   6310
-+  CStrings:  2576
++  CStrings:  2849
  
 Symbols:
 + -[TKClientToken _testing_noAutomaticReconnect]

@@ -41,11 +41,15 @@
    __DATA.__data: 0x578
    __DATA.__bss: 0xb0
 
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 776717A9-638E-3617-8B03-B22A6B2FBC99
++  UUID: 239EBF59-5354-39D2-9E60-14FE330C0424
    Functions: 1638
    Symbols:   5066
--  CStrings:  3467
-+  CStrings:  3468
+-  CStrings:  3728
++  CStrings:  3729
  
 Symbols:
 + ___66-[GKSessionInternal(callback) sendCallbacksToDelegate:remotePeer:]_block_invoke.218

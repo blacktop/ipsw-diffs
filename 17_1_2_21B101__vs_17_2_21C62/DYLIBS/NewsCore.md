@@ -93,12 +93,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 62947CD6-44A0-32D9-994D-4C0C24792C8F
 -  Functions: 17525
 -  Symbols:   57037
--  CStrings:  27286
+-  CStrings:  32521
++  UUID: E8739C06-43EF-35DF-B1BA-B5E7B9A09C26
 +  Functions: 17808
 +  Symbols:   57910
-+  CStrings:  27673
++  CStrings:  32994
  
 Symbols:
 + +[FCBaseURLConfiguration liveActivityBaseURLForConfiguration:]

@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BD7EB81F-8344-326E-9E69-2025DCF19166
 -  Functions: 120
 -  Symbols:   345
--  CStrings:  589
+-  CStrings:  616
++  UUID: F2A4FF56-BE52-30F7-BBC5-4FE0EA4102F3
 +  Functions: 125
 +  Symbols:   351
-+  CStrings:  600
++  CStrings:  627
  
 Symbols:
 + _PKGetClassNFHardwareManager

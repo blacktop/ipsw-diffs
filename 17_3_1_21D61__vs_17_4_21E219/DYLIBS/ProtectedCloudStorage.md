@@ -43,7 +43,6 @@
 +  __DATA_CONST.__objc_superrefs: 0xc8
    __AUTH_CONST.__cfstring: 0x6b00
    __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__const: 0x100
 -  __AUTH_CONST.__auth_got: 0xc30
 -  __DATA.__objc_protorefs: 0x8
@@ -69,13 +68,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libheimdal-asn1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E3B3AE62-BBDD-3823-943F-E31C67169C1B
++  UUID: 61347716-FDEA-3D65-B24B-53568FCBED23
    Functions: 1423
 -  Symbols:   4358
--  CStrings:  2128
+-  CStrings:  2984
 +  Symbols:   4346
-+  CStrings:  2125
++  CStrings:  2981
  
 Symbols:
 + GCC_except_table104

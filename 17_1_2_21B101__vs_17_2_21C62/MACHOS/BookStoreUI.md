@@ -131,12 +131,14 @@
    - @rpath/BooksUI.framework/BooksUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 9F0BE1D0-A93E-3C92-BC73-20890B16E91A
 -  Functions: 11428
 -  Symbols:   1205
--  CStrings:  6067
+-  CStrings:  6612
++  UUID: DAB44FB9-8841-3546-8D2F-C8A617D5BEEB
 +  Functions: 10583
 +  Symbols:   1206
-+  CStrings:  6057
++  CStrings:  6605
  
 Symbols:
 + _OBJC_CLASS_$_JSAShare

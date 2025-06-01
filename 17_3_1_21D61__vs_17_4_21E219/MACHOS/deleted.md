@@ -49,13 +49,16 @@
    __DATA.__objc_data: 0x910
    __DATA.__data: 0x488
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B722E8D-A333-3CE4-A9AF-80EB9D42D538
++  UUID: 2A507826-870C-3078-98C2-0F96740F9497
    Functions: 889
 -  Symbols:   2491
--  CStrings:  2132
+-  CStrings:  2481
 +  Symbols:   2489
-+  CStrings:  2130
++  CStrings:  2477
  
 Symbols:
 + _OBJC_$_PROP_LIST_CDService.265

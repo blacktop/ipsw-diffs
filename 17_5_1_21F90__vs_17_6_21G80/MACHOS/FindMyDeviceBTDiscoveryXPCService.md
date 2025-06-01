@@ -42,11 +42,13 @@
    - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC11940E-6ECD-3373-8EBE-6BA575168D59
 -  Functions: 120
++  UUID: 58358DB4-02BA-32EE-9B43-34B0955D2C0F
 +  Functions: 122
    Symbols:   70
--  CStrings:  636
-+  CStrings:  638
+-  CStrings:  963
++  CStrings:  966
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

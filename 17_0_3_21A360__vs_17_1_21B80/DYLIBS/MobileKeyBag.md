@@ -32,14 +32,18 @@
 -  __AUTH_CONST.__cfstring: 0x4e80
 +  __AUTH_CONST.__cfstring: 0x4ea0
    __AUTH_CONST.__const: 0x6a0
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_const: 0xd8
+   __AUTH_CONST.__auth_got: 0x9c8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 98FB587A-C1DC-38BC-83B2-451CB53F648A
++  UUID: 51241E0A-539C-32FF-B7D4-E746E1DF0BC5
    Functions: 529
    Symbols:   1698
--  CStrings:  1266
-+  CStrings:  1268
+-  CStrings:  1894
++  CStrings:  1897
  
 Symbols:
 + -[MKBKeyStoreDevice SeshatUnlock:withMemento:verifyOnly:]

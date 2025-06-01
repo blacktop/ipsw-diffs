@@ -59,7 +59,6 @@
    __DATA_CONST.__objc_arraydata: 0x3670
 -  __AUTH_CONST.__const: 0x1ec98
 +  __AUTH_CONST.__const: 0x1ecb8
-   __AUTH_CONST.__auth_ptr: 0x1f0
    __AUTH_CONST.__objc_const: 0x6ab50
 -  __AUTH_CONST.__cfstring: 0x9d980
 +  __AUTH_CONST.__cfstring: 0x9d9c0
@@ -87,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1741FA37-4E53-371E-8DAE-D611AAB0043D
 -  Functions: 132306
 -  Symbols:   376329
--  CStrings:  138559
+-  CStrings:  158731
++  UUID: 9DA0D273-5506-3712-B73D-E0149D74C13C
 +  Functions: 132318
 +  Symbols:   376368
-+  CStrings:  138575
++  CStrings:  158749
  
 Symbols:
 + -[UIGestureEnvironment _gesturesWithDelayedTouchForTouch:event:]

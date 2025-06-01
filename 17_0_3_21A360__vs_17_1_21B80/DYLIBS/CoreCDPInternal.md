@@ -45,7 +45,6 @@
 +  __AUTH_CONST.__cfstring: 0x2fc0
    __AUTH_CONST.__const: 0x360
    __AUTH_CONST.__objc_intobj: 0x138
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x548
 +  __AUTH_CONST.__auth_got: 0x558
@@ -64,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8B3FDDDB-55A7-35C8-99DD-4ECBB01F43EF
 -  Functions: 2259
 -  Symbols:   7738
--  CStrings:  3592
+-  CStrings:  3960
++  UUID: 8F2EE22C-0458-3074-A0DC-57B828E6E67C
 +  Functions: 2279
 +  Symbols:   7791
-+  CStrings:  3629
++  CStrings:  4011
  
 Symbols:
 + -[CDPDCircleController _joinCircleIgnoringBackups:completion:].cold.5

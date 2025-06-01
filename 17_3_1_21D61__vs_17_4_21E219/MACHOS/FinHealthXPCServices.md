@@ -43,11 +43,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4605F251-32CA-3F54-A4B2-294937AD5747
++  UUID: F1A349F0-6841-3BAE-AE0F-3C1D26C36825
    Functions: 268
    Symbols:   357
--  CStrings:  959
-+  CStrings:  962
+-  CStrings:  1025
++  CStrings:  1028
  
 CStrings:
 + "Finished computing trends.."

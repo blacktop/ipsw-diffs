@@ -72,7 +72,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x80968
 -  __DATA_CONST.__objc_arraydata: 0x3570
 -  __AUTH_CONST.__const: 0x1e3c0
--  __AUTH_CONST.__auth_ptr: 0x1c8
 -  __AUTH_CONST.__objc_const: 0x69ea8
 -  __AUTH_CONST.__cfstring: 0x9c300
 -  __AUTH_CONST.__objc_arrayobj: 0x2580
@@ -83,7 +82,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x6878
 +  __DATA_CONST.__objc_arraydata: 0x3578
 +  __AUTH_CONST.__const: 0x1ebb0
-+  __AUTH_CONST.__auth_ptr: 0x1f0
 +  __AUTH_CONST.__objc_const: 0x6a688
 +  __AUTH_CONST.__cfstring: 0x9d140
 +  __AUTH_CONST.__objc_arrayobj: 0x2598
@@ -141,12 +139,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2D538446-6E40-3C10-8A5F-559C938077A0
 -  Functions: 130969
 -  Symbols:   373213
--  CStrings:  137293
+-  CStrings:  157285
++  UUID: 86B7C8DD-E910-31BD-B8FE-28962256DEE3
 +  Functions: 131963
 +  Symbols:   375498
-+  CStrings:  138218
++  CStrings:  158324
  
 Symbols:
 + +[NSAttributedString(UINSItemProvider) _uikit_readableTypeIdentifiersForItemProviderConsideringLinkage:]

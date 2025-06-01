@@ -33,11 +33,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8566D254-38DA-3ECA-AFC4-DD86DC54DC5F
 -  Functions: 500
++  UUID: AB683773-2E5F-382D-A83A-C0CEE4174022
 +  Functions: 501
    Symbols:   157
--  CStrings:  367
-+  CStrings:  368
+-  CStrings:  368
++  CStrings:  369
  
 CStrings:
 + "AlishaTestMode_R1"

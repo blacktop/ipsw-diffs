@@ -52,7 +52,6 @@
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x4860
 +  __AUTH_CONST.__const: 0x4878
-   __AUTH_CONST.__auth_ptr: 0xf0
    __AUTH_CONST.__auth_got: 0xe20
 -  __AUTH.__objc_data: 0x16f0
 -  __AUTH.__data: 0x18e8
@@ -83,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3377E28E-C257-3437-8132-F447AD806E86
 -  Functions: 3883
 -  Symbols:   10005
--  CStrings:  1378
+-  CStrings:  1381
++  UUID: E5759735-E4F0-3E77-99BF-0863CA3CCD19
 +  Functions: 3894
 +  Symbols:   10110
-+  CStrings:  1392
++  CStrings:  1395
  
 Symbols:
 + _$s11SiriNetwork12QueueMonitorC04stopD0yyFTq

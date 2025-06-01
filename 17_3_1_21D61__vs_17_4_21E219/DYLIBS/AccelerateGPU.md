@@ -17,12 +17,20 @@
 +  __DATA_CONST.__objc_classrefs: 0x18
    __AUTH_CONST.__cfstring: 0x6e0
    __AUTH_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x1a0
 -  __DATA.__objc_classrefs: 0x18
    __DATA.__bss: 0x1a8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CB337D0C-EB6B-3B2E-8A3B-C4AAD2E51D80
++  UUID: FD93CFA8-750A-3372-9461-57B64A72A474
+   Functions: 222
+   Symbols:   3188
+   CStrings:  1415
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

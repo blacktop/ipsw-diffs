@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B1FDDB7-F3D6-36AD-8B63-E2BD8A97D6C4
 -  Functions: 162
 -  Symbols:   516
--  CStrings:  197
+-  CStrings:  202
++  UUID: A8DA6308-459D-3EBD-A0D2-40A7C20B0018
 +  Functions: 166
 +  Symbols:   520
-+  CStrings:  202
++  CStrings:  207
  
 Symbols:
 + GCC_except_table5

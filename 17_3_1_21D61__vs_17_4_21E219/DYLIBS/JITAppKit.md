@@ -62,8 +62,6 @@
 +  __AUTH_CONST.__cfstring: 0x1900
    __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__objc_intobj: 0xa8
--  __AUTH_CONST.__auth_ptr: 0x8
-+  __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_dictobj: 0x50
 -  __AUTH_CONST.__auth_got: 0x368
 -  __AUTH.__objc_data: 0xc30
@@ -94,9 +92,10 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B1C9EC32-84B5-3DDD-BD3A-4B6BB93959AB
 -  Functions: 814
 -  Symbols:   3266
--  CStrings:  1654
+-  CStrings:  1853
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
@@ -112,9 +111,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 2C7938B6-4572-306C-95FD-36678EAD09A4
 +  Functions: 1497
 +  Symbols:   3594
-+  CStrings:  1748
++  CStrings:  1948
  
 Symbols:
 + +[NSObject(JITAppKit) jitappkit:]

@@ -71,12 +71,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2143F863-6C52-3BCD-9987-3F0D6A211DF1
 -  Functions: 2839
 -  Symbols:   738
--  CStrings:  5886
+-  CStrings:  6628
++  UUID: A5446B15-4965-3A09-8085-00C97A417EF5
 +  Functions: 2841
 +  Symbols:   745
-+  CStrings:  5906
++  CStrings:  6653
  
 Symbols:
 + _BGSystemTaskCustomCheckpointMax

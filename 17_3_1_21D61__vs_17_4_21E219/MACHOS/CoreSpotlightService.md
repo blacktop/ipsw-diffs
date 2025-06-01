@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/SpotlightDaemon.framework/SpotlightDaemon
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 79BEA3A9-B9EA-35F8-AB6C-DA75BC3FCB61
 -  Functions: 60
++  UUID: 2773501B-92E3-39A2-88F8-EE3E5C78CBB0
 +  Functions: 62
    Symbols:   108
--  CStrings:  200
-+  CStrings:  205
+-  CStrings:  202
++  CStrings:  207
  
 CStrings:
 + "### Controller locked Cx"

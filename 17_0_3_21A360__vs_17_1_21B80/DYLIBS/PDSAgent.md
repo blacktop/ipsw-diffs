@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F8A6170A-7FA8-3934-9B31-AA4E12462FC6
 -  Functions: 678
 -  Symbols:   2542
--  CStrings:  1339
+-  CStrings:  1497
++  UUID: 1B104CDA-BA4F-3AFB-984F-4B0E5F2EB985
 +  Functions: 682
 +  Symbols:   2557
-+  CStrings:  1350
++  CStrings:  1513
  
 Symbols:
 + -[PDSDaemon _setupSysdiagnoseDump]

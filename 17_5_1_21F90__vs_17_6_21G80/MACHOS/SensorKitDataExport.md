@@ -47,12 +47,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B47E1D4E-A6CB-33CC-BF69-65687FC9C2A8
 -  Functions: 108
 -  Symbols:   137
--  CStrings:  595
+-  CStrings:  737
++  UUID: EE14F599-6E5A-3642-94E7-15ED663DEDFC
 +  Functions: 109
 +  Symbols:   138
-+  CStrings:  603
++  CStrings:  747
  
 Symbols:
 + _OBJC_CLASS_$_CMStrideCalibrationEntry

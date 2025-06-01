@@ -67,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0409278D-AB60-335B-998E-475859F3AC78
 -  Functions: 70420
 -  Symbols:   4570
--  CStrings:  87642
+-  CStrings:  101766
++  UUID: AD7568BC-4913-3F76-B57E-AC3E59CAC774
 +  Functions: 70423
 +  Symbols:   4571
-+  CStrings:  87652
++  CStrings:  101777
  
 Symbols:
 + _NavigationConfig_ShouldShowRadarPromptForRoutingServiceErrors

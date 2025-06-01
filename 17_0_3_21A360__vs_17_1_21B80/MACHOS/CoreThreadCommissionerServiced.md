@@ -27,11 +27,13 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D39B4A46-1742-30C2-89B3-C36E8322E421
 -  Functions: 1270
++  UUID: C6859EB9-FE4C-323E-81A2-5C2E238467FC
 +  Functions: 1274
    Symbols:   262
--  CStrings:  2249
-+  CStrings:  2251
+-  CStrings:  2394
++  CStrings:  2396
  
 CStrings:
 + "getLLIntValue - key = %s, v = %@, value = 0x%llx"

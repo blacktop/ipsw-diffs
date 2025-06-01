@@ -47,8 +47,7 @@
    __AUTH_CONST.__objc_const: 0x4880
    __AUTH_CONST.__const: 0xd80
    __AUTH_CONST.__objc_intobj: 0x1c8
-
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x5b0
 -  __AUTH.__objc_data: 0x640
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAF164C1-F50D-3C00-8728-5D75F59A67AF
 -  Functions: 3552
 -  Symbols:   14466
--  CStrings:  5876
+-  CStrings:  6785
++  UUID: FB30AB2C-1BF0-3A7A-AD46-9B2A9753CB91
 +  Functions: 3553
 +  Symbols:   14471
-+  CStrings:  5882
++  CStrings:  6793
  
 Symbols:
 + +[EMSMIMEUtilities _encryptionLevelForSender:]

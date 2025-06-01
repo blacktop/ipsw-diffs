@@ -56,13 +56,12 @@
 -  __AUTH_CONST.__objc_intobj: 0x1b0
 -  __AUTH_CONST.__objc_arrayobj: 0x5208
 -  __AUTH_CONST.__objc_dictobj: 0x4deb8
+-  __AUTH_CONST.__objc_doubleobj: 0x700
+-  __AUTH_CONST.__auth_got: 0x6f0
 +  __AUTH_CONST.__objc_intobj: 0x240
 +  __AUTH_CONST.__objc_arrayobj: 0x5310
 +  __AUTH_CONST.__objc_dictobj: 0x4eca0
 +  __AUTH_CONST.__objc_doubleobj: 0x710
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__objc_doubleobj: 0x700
--  __AUTH_CONST.__auth_got: 0x6f0
 +  __AUTH_CONST.__auth_got: 0x6e8
    __AUTH.__objc_data: 0x15b8
    __DATA.__objc_protorefs: 0x8
@@ -81,12 +80,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 42DBB31F-0C3F-3AE0-92F3-46833455CF8F
 -  Functions: 2297
 -  Symbols:   25353
--  CStrings:  7507
+-  CStrings:  11461
++  UUID: 1CFD2996-F708-321F-98D5-C26274ABBD23
 +  Functions: 2327
 +  Symbols:   25630
-+  CStrings:  7714
++  CStrings:  11862
  
 Symbols:
 + +[AVTStickerGenerator applyViewTransitionConfiguration:forLateAdditionOfComponentAssetNode:ofAvatar:]

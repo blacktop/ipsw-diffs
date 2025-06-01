@@ -62,7 +62,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x298
 -  __AUTH_CONST.__auth_got: 0x26c0
 +  __AUTH_CONST.__auth_got: 0x26c8
    __AUTH.__objc_data: 0x12e0
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E2499F7F-7152-3BE5-9475-DC805FA4769E
 -  Functions: 8410
 -  Symbols:   8853
--  CStrings:  4707
+-  CStrings:  5072
++  UUID: 97168E7E-64CB-3615-A8C2-0A2990D22943
 +  Functions: 8415
 +  Symbols:   8880
-+  CStrings:  4720
++  CStrings:  5085
  
 Symbols:
 + -[IMAVPlayer durationBeforeItemLoaded]

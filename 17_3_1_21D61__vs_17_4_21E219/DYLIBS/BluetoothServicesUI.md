@@ -28,4 +28,13 @@
    __DATA.__data: 0x70
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
 
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 05102BD0-E038-3381-9A97-47CA880C15F7
++  UUID: BCD6BAFA-0FDE-3836-871E-45A8864995D6
+   Functions: 156
+   Symbols:   669
+   CStrings:  474
+
 ```

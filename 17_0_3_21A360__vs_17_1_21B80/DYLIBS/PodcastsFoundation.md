@@ -74,7 +74,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x720
    __AUTH_CONST.__auth_got: 0x2068
 -  __AUTH.__objc_data: 0x3c38
 -  __AUTH.__data: 0x2750
@@ -104,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5257CE0F-B10E-3C0D-BC5B-AD9F8C7960B6
 -  Functions: 19901
 -  Symbols:   15089
--  CStrings:  7727
+-  CStrings:  8917
++  UUID: 6B6EDC5B-66CA-333C-AEC0-C576BDE2F6AB
 +  Functions: 19894
 +  Symbols:   15114
-+  CStrings:  7763
++  CStrings:  8963
  
 Symbols:
 + +[PFClientUtil isRunningOnVisionOS]

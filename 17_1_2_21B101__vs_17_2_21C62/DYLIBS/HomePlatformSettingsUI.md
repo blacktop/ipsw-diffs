@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
    - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1A349F31-ED22-34A3-ACC5-EBC178CF8827
++  UUID: 835E3322-2865-3BAA-9FEB-1F70F9E5D19D
+   Functions: 775
+   Symbols:   610
+   CStrings:  276
+
 ```

@@ -76,7 +76,6 @@
 +  __AUTH_CONST.__cfstring: 0x260
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__const: 0xb10
--  __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x988
 -  __AUTH.__objc_data: 0x0
 -  __DATA.__objc_protorefs: 0x88
@@ -84,7 +83,6 @@
 -  __DATA.__objc_superrefs: 0x98
 -  __DATA.__objc_ivar: 0x15c
 -  __DATA.__data: 0xe10
-+  __AUTH_CONST.__auth_ptr: 0x60
 +  __AUTH_CONST.__auth_got: 0xa50
 +  __AUTH.__objc_data: 0xf30
 +  __AUTH.__data: 0x8c0
@@ -114,12 +112,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E807F4F4-6BA4-318A-93BD-08F7253E5104
 -  Functions: 1531
 -  Symbols:   2600
--  CStrings:  1157
+-  CStrings:  1174
++  UUID: 6FB91AE3-2852-3E62-A10D-422570162C43
 +  Functions: 1616
 +  Symbols:   2756
-+  CStrings:  1254
++  CStrings:  1273
  
 Symbols:
 + -[_EXHostSessionDriver hostSessionViewControllerReady:].cold.6

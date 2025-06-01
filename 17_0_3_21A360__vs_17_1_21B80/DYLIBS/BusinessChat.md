@@ -19,12 +19,15 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x68
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACACE8DC-271D-32D9-9056-EFA817019672
++  UUID: 6C22B869-D6EB-3A5A-AD10-91B210B57489
    Functions: 309
 -  Symbols:   1572
 +  Symbols:   1573
-   CStrings:  1008
+   CStrings:  1194
  
 Symbols:
 + _BCOAuth2RedirectURICustomURLScheme

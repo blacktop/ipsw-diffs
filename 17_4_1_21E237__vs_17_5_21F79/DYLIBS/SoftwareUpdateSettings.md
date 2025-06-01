@@ -20,4 +20,13 @@
    __TEXT.__objc_classname: 0x253
    __TEXT.__objc_methname: 0x3ae1
 
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C49BE108-1005-3857-B934-9BEAAB0EEEF3
++  UUID: A536D61B-1370-31EC-8414-9076EF96B30B
+   Functions: 270
+   Symbols:   1449
+   CStrings:  1194
+
 ```

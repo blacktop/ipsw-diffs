@@ -42,13 +42,16 @@
    __DATA.__objc_ivar: 0x61c
    __DATA.__data: 0x5a0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DE1F771B-9567-3C4F-ACCD-F93AF0712408
++  UUID: F874BAB9-97E9-3C57-B484-CA6C23F9819A
    Functions: 1548
 -  Symbols:   5467
--  CStrings:  2388
+-  CStrings:  2551
 +  Symbols:   5469
-+  CStrings:  2389
++  CStrings:  2552
  
 Symbols:
 + _OBJC_CLASS_$_PFMediaUtilities

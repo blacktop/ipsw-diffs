@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D93754B1-F6A6-39D4-ACCC-F2BDCE1DE698
 -  Functions: 18
 -  Symbols:   178
--  CStrings:  164
+-  CStrings:  177
++  UUID: C6916F32-EE4F-3E6A-AFEE-40FDCAD84E09
 +  Functions: 19
 +  Symbols:   180
-+  CStrings:  173
++  CStrings:  187
  
 Symbols:
 + +[AXActionSheetUIServer requiredEntitlementForProcessingMessageWithIdentifier:]

@@ -21,4 +21,13 @@
    __DATA_CONST.__got: 0x188
    __DATA_CONST.__const: 0xdc8
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 615187D0-A6BB-372E-AF88-7640453151ED
++  UUID: 0C7FB1EE-FE46-39B0-B9A2-978CE2100BF7
+   Functions: 788
+   Symbols:   332
+   CStrings:  2459
+
 ```

@@ -36,11 +36,15 @@
    __DATA.__objc_superrefs: 0x50
    __DATA.__objc_ivar: 0x54
 
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 32E5109C-1485-3200-BA90-6ED7040DACF5
++  UUID: 76314DCF-9339-3EAB-8F05-E94FF786E12E
    Functions: 270
    Symbols:   371
--  CStrings:  943
-+  CStrings:  942
+-  CStrings:  1013
++  CStrings:  1012
  
 CStrings:
 + "applyAssetScopeCorrectionsWithRequest:errorCodes:clientBundleID:library:reply:"

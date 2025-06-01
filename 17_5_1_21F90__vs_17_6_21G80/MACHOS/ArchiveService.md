@@ -17,6 +17,15 @@
    __TEXT.__cstring: 0xa40
    __TEXT.__objc_methname: 0x2046
    __TEXT.__objc_classname: 0x11c
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 45A2F4D8-926C-38BE-99EB-CEBE926B72D8
++  UUID: D4BFF7FC-24BD-3589-907A-45B998157B77
+   Functions: 388
+   Symbols:   498
+   CStrings:  620
 Symbols:
 + __ZN15TFileDescriptor4OpenEPKc9OpenFlags8SymlinksP16__CFFileSecuritybbb
 - __ZN15TFileDescriptor4OpenEPKc9OpenFlagsP16__CFFileSecuritybbb

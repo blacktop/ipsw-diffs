@@ -20,4 +20,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2AE13652-6081-3F5A-9734-E81F4A368FC8
++  UUID: 1A1BA16D-2B63-380F-8717-D0F6B4FD58A6
+   Functions: 7
+   Symbols:   35
+   CStrings:  11
+
 ```

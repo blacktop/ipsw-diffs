@@ -10,8 +10,10 @@
    __TEXT.__descriptor: 0x9a0
 -  __TEXT.__compute: 0x125c0
 -  __TEXT.__reflection: 0x3110
+-  UUID: 40B6BC85-F82D-3DB2-BFB3-DE4277D23142
 +  __TEXT.__compute: 0x14cd0
 +  __TEXT.__reflection: 0x3b70
++  UUID: 8682E6F6-7239-3E00-8D4B-B433FC8F7A79
    Functions: 0
    Symbols:   222
    CStrings:  0

@@ -79,11 +79,9 @@
 +  __AUTH_CONST.__objc_const: 0x10fb8
    __AUTH_CONST.__objc_doubleobj: 0x220
    __AUTH_CONST.__objc_dictobj: 0x578
--  __AUTH_CONST.__auth_ptr: 0xdb8
 -  __AUTH_CONST.__auth_got: 0x4510
 -  __AUTH.__objc_data: 0x11c60
 -  __AUTH.__data: 0x243e8
-+  __AUTH_CONST.__auth_ptr: 0xe20
 +  __AUTH_CONST.__auth_got: 0x45d8
 +  __AUTH.__objc_data: 0x12470
 +  __AUTH.__data: 0x25ef0
@@ -134,12 +132,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D189C21-A4BD-3706-BC6A-C2B3C79F136F
 -  Functions: 73796
 -  Symbols:   101884
--  CStrings:  31292
+-  CStrings:  34792
++  UUID: D2B29867-3465-3A1F-B7F6-AF25B5A7EF83
 +  Functions: 74821
 +  Symbols:   102672
-+  CStrings:  31618
++  CStrings:  35139
  
 Symbols:
 + +[MPMediaQuery(VideosUI) vui_GenresQueryWithMediaLibrary:]

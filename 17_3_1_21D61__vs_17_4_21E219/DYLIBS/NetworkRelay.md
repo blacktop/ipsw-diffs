@@ -46,7 +46,6 @@
 +  __AUTH_CONST.__const: 0x390
    __AUTH_CONST.__objc_intobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x618
    __AUTH.__objc_data: 0x6e0
 -  __DATA.__objc_classrefs: 0xe8
@@ -68,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A35C82C9-99E1-34C4-876F-FD3109388CDC
 -  Functions: 546
 -  Symbols:   2046
--  CStrings:  2001
+-  CStrings:  2432
++  UUID: 91F70DB5-A2B8-309D-872B-D1845C0094C6
 +  Functions: 590
 +  Symbols:   2185
-+  CStrings:  2020
++  CStrings:  2453
  
 Symbols:
 + -[NRBluetoothPacketParser handleIncomingIKEData:linkPriority:]

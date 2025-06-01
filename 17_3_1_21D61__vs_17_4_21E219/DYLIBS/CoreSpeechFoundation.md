@@ -124,12 +124,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 703FE283-8153-3696-B228-08DA9217F816
 -  Functions: 1820
 -  Symbols:   6496
--  CStrings:  3829
+-  CStrings:  4473
++  UUID: B11C3F87-479C-3825-9EE9-0E033EC84BE1
 +  Functions: 3138
 +  Symbols:   11010
-+  CStrings:  6302
++  CStrings:  7099
  
 Symbols:
 + +[CSAVVoiceTriggerClientManager sharedVoiceTriggerClient]

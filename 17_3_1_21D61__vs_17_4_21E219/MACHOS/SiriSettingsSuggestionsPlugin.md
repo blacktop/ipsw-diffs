@@ -45,7 +45,11 @@
    - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
    - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 19D58980-7EA2-3222-9CF6-7DF8138DA650
++  UUID: B5DD28E8-47D0-354B-B15A-349BE2ED78CD
    Functions: 203
    Symbols:   91
 -  CStrings:  43

@@ -37,6 +37,15 @@
    __DATA_DIRTY.__objc_const: 0x2f58
    __DATA_DIRTY.__objc_data: 0x2170
    __DATA_DIRTY.__data: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 14254FF8-9088-36CB-9A04-106CA2E2C1BC
++  UUID: 5E830C3B-25B4-3F05-9D6C-540D8DF5055F
+   Functions: 1584
+   Symbols:   6173
+   CStrings:  2998
 CStrings:
 + "21:36:12"
 - "00:19:32"

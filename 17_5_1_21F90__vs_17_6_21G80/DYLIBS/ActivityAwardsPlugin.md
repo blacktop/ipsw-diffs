@@ -1,0 +1,16 @@
+## ActivityAwardsPlugin
+
+> `/System/Library/Health/Plugins/ActivityAwardsPlugin.bundle/ActivityAwardsPlugin`
+
+```diff
+
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 36925DE5-2479-3183-A0DA-DD8A3858C442
++  UUID: EA2CD3D2-6354-3210-AC00-F34B125D0DF7
+   Functions: 52
+   Symbols:   85
+   CStrings:  218
+
+```

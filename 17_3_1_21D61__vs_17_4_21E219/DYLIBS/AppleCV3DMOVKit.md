@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F35A8A4-9C1B-3F54-9D35-0F3542F3972B
 -  Functions: 1068
 -  Symbols:   323
--  CStrings:  2006
+-  CStrings:  2432
++  UUID: 234529DC-1E24-347C-9442-E6304143C49F
 +  Functions: 1072
 +  Symbols:   324
-+  CStrings:  2010
++  CStrings:  2438
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc

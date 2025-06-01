@@ -69,12 +69,10 @@
 +  __DATA_CONST.__objc_selrefs: 0xcec0
    __DATA_CONST.__objc_arraydata: 0x508
 -  __AUTH_CONST.__const: 0x21dd0
--  __AUTH_CONST.__auth_ptr: 0x170
 -  __AUTH_CONST.__objc_const: 0xccb8
 -  __AUTH_CONST.__cfstring: 0x1ca40
 -  __AUTH_CONST.__objc_intobj: 0xcd8
 +  __AUTH_CONST.__const: 0x221e0
-+  __AUTH_CONST.__auth_ptr: 0x178
 +  __AUTH_CONST.__objc_const: 0xd058
 +  __AUTH_CONST.__cfstring: 0x1d0a0
 +  __AUTH_CONST.__objc_intobj: 0xd08
@@ -119,12 +117,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B31EBD84-DF2C-32C7-B981-542932F9C0B8
 -  Functions: 20283
 -  Symbols:   48587
--  CStrings:  17895
+-  CStrings:  21561
++  UUID: F4FDDEB1-080D-3611-A85C-4FBFC7002219
 +  Functions: 20642
 +  Symbols:   49251
-+  CStrings:  18096
++  CStrings:  21813
  
 Symbols:
 + +[AMSAuthenticateTaskCoordinator internalQueue]
@@ -1192,6 +1192,7 @@ CStrings:
 + "\x04\x1b"
 + "\b%"
 + "\v"
++ "\v "
 + "%{public}@ Adding Request to store"
 + "%{public}@ Authentication returned an error: %{public}@"
 + "%{public}@ Error processing authenticate request: %{public}@"

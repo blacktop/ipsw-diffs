@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0xa73b
    __TEXT.__objc_methtype: 0x1a49
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 379694FB-4E64-3C3D-8FC1-D7F2EF10A241
++  UUID: CA680957-63FF-3AD7-9FBB-30E2E4A1B4D2
+   Functions: 3229
+   Symbols:   8062
+   CStrings:  3548
+
 ```

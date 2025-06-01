@@ -69,11 +69,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 534C69EC-2500-3541-938D-E2CB82997B65
 -  Functions: 4506
++  UUID: 9EC6728D-EDAB-3E2F-BE7B-6F9DD6FA7BFE
 +  Functions: 4488
    Symbols:   1467
--  CStrings:  1981
-+  CStrings:  1980
+-  CStrings:  2108
++  CStrings:  2109
  
 CStrings:
 + "prefs:root=General&path=About/WARRANTY_COVERAGE"

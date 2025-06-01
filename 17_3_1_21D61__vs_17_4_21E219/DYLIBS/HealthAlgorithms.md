@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1168B05A-727B-3DDD-B179-AE0F2FDB5982
 -  Functions: 846
 -  Symbols:   2500
--  CStrings:  845
+-  CStrings:  981
++  UUID: EEFF7FD3-E0CF-3A07-9F0F-25F380815DC1
 +  Functions: 1067
 +  Symbols:   2975
-+  CStrings:  927
++  CStrings:  1046
  
 Symbols:
 + -[HAPPGAccelSample initWithSamplingFrequency:timestamp:x:y:z:]

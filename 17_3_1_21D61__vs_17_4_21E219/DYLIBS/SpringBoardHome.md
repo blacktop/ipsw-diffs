@@ -88,12 +88,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB2D43B6-42D4-3D34-B98A-83C6D3FA06A3
 -  Functions: 15896
 -  Symbols:   53031
--  CStrings:  22382
+-  CStrings:  24847
++  UUID: 438A438E-8616-3B39-BB58-1CA632CE1EED
 +  Functions: 15944
 +  Symbols:   53203
-+  CStrings:  22517
++  CStrings:  25000
  
 Symbols:
 + -[SBHAnalyticsEventsController .cxx_destruct]

@@ -53,12 +53,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47F76D69-275F-3889-B9D2-5058B08ACC3C
 -  Functions: 6876
 -  Symbols:   24412
--  CStrings:  10121
+-  CStrings:  10934
++  UUID: BEAC1698-CD5F-3A6D-8AB9-80FC439A2189
 +  Functions: 6883
 +  Symbols:   24434
-+  CStrings:  10129
++  CStrings:  10942
  
 Symbols:
 + -[NCNotificationMasterList aggregatedVisibleContentExtent]

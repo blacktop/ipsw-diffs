@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 675128B7-3A39-3992-90A8-5B6B7A4E1C69
++  UUID: E6F2F9EA-F18F-34DD-A192-4CE073EFD347
+   Functions: 311
+   Symbols:   1453
+   CStrings:  967
+
 ```

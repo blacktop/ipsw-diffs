@@ -58,12 +58,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EAD0BA6E-9FED-3C13-BBA4-B26DA2749F07
 -  Functions: 30757
 -  Symbols:   87762
--  CStrings:  28469
+-  CStrings:  36891
++  UUID: A231474D-6A7B-3AAD-9F14-FFCE0C3C793F
 +  Functions: 30767
 +  Symbols:   87787
-+  CStrings:  28487
++  CStrings:  36913
  
 Symbols:
 + +[INIntentCodableDescription(__Name) __NameKey].37201

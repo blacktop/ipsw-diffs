@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x1548
 -  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__objc_const: 0x90
-   __AUTH_CONST.__auth_ptr: 0xe0
    __AUTH_CONST.__objc_floatobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x150
 -  __AUTH_CONST.__const: 0x558
@@ -79,12 +78,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53B82FBF-7F1B-3AF1-8DA1-EB4BA60BEE2E
 -  Functions: 28122
 -  Symbols:   79033
--  CStrings:  43964
+-  CStrings:  48045
++  UUID: 30A5F3E1-9C2A-3805-9D0D-010C15B5A7DB
 +  Functions: 28125
 +  Symbols:   79051
-+  CStrings:  43996
++  CStrings:  48085
  
 Symbols:
 + +[VCSessionParticipantRemote maxBdatQualityIndexForVideoQuality:isLocalOnWiFi:isRedundancyRequested:]

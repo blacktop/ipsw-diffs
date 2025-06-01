@@ -33,11 +33,15 @@
    __DATA.__data: 0x9c8
    __DATA.__bss: 0x90
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
+-  UUID: 40739610-33D6-3E15-B7CD-AF7A82881418
++  UUID: 371DA656-686B-3D28-8550-9529E21DA296
    Functions: 1679
    Symbols:   6758
--  CStrings:  3064
-+  CStrings:  3067
+-  CStrings:  3575
++  CStrings:  3578
  
 Symbols:
 + ___38-[MTIDXPCSecretStore newXPCConnection]_block_invoke.64

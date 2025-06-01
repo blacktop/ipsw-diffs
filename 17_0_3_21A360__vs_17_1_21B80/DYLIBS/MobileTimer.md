@@ -39,11 +39,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3F2A82A-D336-371F-96EA-34A8A0747F8E
 -  Functions: 4580
 -  Symbols:   15694
++  UUID: E15C7C04-CE20-3B41-8649-CBD230F807D3
 +  Functions: 4581
 +  Symbols:   15696
-   CStrings:  6562
+   CStrings:  7397
  
 Symbols:
 + -[MTSessionsCoordinator dismissTimerWithIdentifier:].cold.1

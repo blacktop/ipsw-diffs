@@ -53,11 +53,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76DB7E2C-4165-3A60-9081-465D45C5494C
 -  Functions: 207
++  UUID: AFFA57CC-34C9-343D-8A15-D54BEE39CC28
 +  Functions: 205
    Symbols:   338
--  CStrings:  506
-+  CStrings:  505
+   CStrings:  861
  
 Symbols:
 + _MGCopyAnswer

@@ -84,11 +84,9 @@
 +  __AUTH_CONST.__objc_const: 0x110a0
    __AUTH_CONST.__objc_doubleobj: 0x220
    __AUTH_CONST.__objc_dictobj: 0x578
--  __AUTH_CONST.__auth_ptr: 0xe20
 -  __AUTH_CONST.__auth_got: 0x45d8
 -  __AUTH.__objc_data: 0x12470
 -  __AUTH.__data: 0x25ef0
-+  __AUTH_CONST.__auth_ptr: 0xe48
 +  __AUTH_CONST.__auth_got: 0x47c0
 +  __AUTH.__objc_data: 0x12bd8
 +  __AUTH.__data: 0x27de8
@@ -134,12 +132,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D2B29867-3465-3A1F-B7F6-AF25B5A7EF83
 -  Functions: 74821
 -  Symbols:   102672
--  CStrings:  31618
+-  CStrings:  35139
++  UUID: 4E8F49DE-7B23-3394-8DE1-DC16D32D1EBC
 +  Functions: 76588
 +  Symbols:   105008
-+  CStrings:  32227
++  CStrings:  35853
  
 Symbols:
 + +[VUIAccountSettingsButtonFactory createLibraryAccountSettingButtonWith:]

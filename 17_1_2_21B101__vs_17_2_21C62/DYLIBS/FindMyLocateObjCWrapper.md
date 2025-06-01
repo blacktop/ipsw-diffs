@@ -30,11 +30,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA97E34D-BAB6-3166-BE34-3681CBD4E882
 -  Functions: 832
++  UUID: CEDE5AAF-D0BE-34E0-A718-643EC72FFDC3
 +  Functions: 833
    Symbols:   826
--  CStrings:  393
-+  CStrings:  392
+-  CStrings:  405
++  CStrings:  404
  
 CStrings:
 - "FIXME: Starting a location stream whenever Messages call `startRefreshingLocation`"

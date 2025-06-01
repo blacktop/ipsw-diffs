@@ -39,11 +39,15 @@
    __AUTH_CONST.__objc_const: 0x6738
    __AUTH_CONST.__objc_intobj: 0x90
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 309324F8-A4BE-3FF5-9270-39DE0954FC21
++  UUID: D8603BDE-C353-3FD8-8858-F4FD25D82D02
    Functions: 1445
    Symbols:   5706
--  CStrings:  2619
-+  CStrings:  2623
+-  CStrings:  3959
++  CStrings:  3966
  
 Symbols:
 + -[CKAttachmentsSearchControllerAccessibility cellForItemInCollectionView:atIndexPath:withIdentifier:]

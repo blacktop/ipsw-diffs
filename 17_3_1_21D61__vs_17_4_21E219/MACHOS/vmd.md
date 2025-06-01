@@ -43,11 +43,15 @@
    __DATA.__data: 0xdb8
    __DATA.__bss: 0x290
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9F722CE4-4352-3F06-A033-CAFA9A44334E
++  UUID: 4153BA4C-AC8A-30E8-9C92-3E8F15B90951
    Functions: 2212
    Symbols:   548
--  CStrings:  3879
-+  CStrings:  3882
+-  CStrings:  4369
++  CStrings:  4372
  
 CStrings:
 + "RD"

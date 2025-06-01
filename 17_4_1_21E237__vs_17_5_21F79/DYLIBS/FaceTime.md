@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protorefs: 0x8
    __DATA_CONST.__objc_classrefs: 0x138
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9256263F-AC2B-3283-9BE9-CC1C27F484B7
++  UUID: CEB7EF9D-CAD6-3841-A878-9CD6B88A30E8
    Functions: 438
    Symbols:   180
--  CStrings:  1417
-+  CStrings:  1418
+-  CStrings:  1809
++  CStrings:  1810
  
 CStrings:
 + "chat:lastAddressedHandleUpdated:lastAddressedSIMIDUpdated:"

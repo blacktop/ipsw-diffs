@@ -43,11 +43,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2E94FDF-1975-3437-A99D-76E71DB4D823
 -  Functions: 1845
++  UUID: 1A72D089-2FA0-3AF7-A493-F15476B0CFF0
 +  Functions: 1842
    Symbols:   261
--  CStrings:  1671
-+  CStrings:  1672
+-  CStrings:  1877
++  CStrings:  1878
  
 CStrings:
 + "hceSession:triggeredByField:started:"

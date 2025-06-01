@@ -36,11 +36,15 @@
    __DATA.__objc_classrefs: 0x2b8
    __DATA.__objc_superrefs: 0x98
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37DEEE0D-4F22-333B-841C-090642B75390
++  UUID: 75BE5889-3612-399A-996A-37C76CFBB3BB
    Functions: 370
    Symbols:   280
--  CStrings:  1341
-+  CStrings:  1344
+-  CStrings:  1583
++  CStrings:  1586
  
 CStrings:
 + "characterAtIndex:"

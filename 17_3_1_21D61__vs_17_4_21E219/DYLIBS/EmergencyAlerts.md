@@ -44,13 +44,16 @@
    __DATA.__data: 0x8
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4B6BFB08-6DED-3A2A-906F-935F1A05A5ED
++  UUID: 76069B57-02DF-3DEA-B6DC-72FC058CE1ED
    Functions: 64
 -  Symbols:   385
--  CStrings:  233
+-  CStrings:  294
 +  Symbols:   389
-+  CStrings:  235
++  CStrings:  298
  
 Symbols:
 + _TLVibrationIdentifierNone

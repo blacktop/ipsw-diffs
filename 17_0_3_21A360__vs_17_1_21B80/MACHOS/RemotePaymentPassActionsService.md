@@ -17,6 +17,15 @@
    __TEXT.__oslogstring: 0x841
    __TEXT.__cstring: 0x1d3
    __TEXT.__objc_classname: 0x22b
+
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 48642426-9EDA-36E2-9203-9B724E84813B
++  UUID: EA955200-8E4E-349B-9130-EB74ADA6A9CE
+   Functions: 133
+   Symbols:   116
+   CStrings:  527
 CStrings:
 + "remoteContentConfiguration"
 - "hasRemoteContent"

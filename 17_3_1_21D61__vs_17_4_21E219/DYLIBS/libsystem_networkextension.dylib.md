@@ -34,9 +34,11 @@
    - /usr/lib/system/libsystem_sandbox.dylib
    - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: 6EAD63AF-2B78-3147-A944-1C4BB3ABDD3F
 -  Functions: 258
 -  Symbols:   637
 -  CStrings:  506
++  UUID: A2D157DF-EF92-35B8-8255-7F25D576ED4A
 +  Functions: 262
 +  Symbols:   647
 +  CStrings:  515

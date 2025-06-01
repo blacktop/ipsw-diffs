@@ -78,7 +78,6 @@
 +  __AUTH_CONST.__const: 0x308
 +  __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x100
 -  __AUTH_CONST.__auth_got: 0x680
 -  __AUTH.__objc_data: 0x0
@@ -88,7 +87,6 @@
 -  __DATA.__objc_ivar: 0x508
 -  __DATA.__data: 0x850
 -  __DATA.__bss: 0x3c0
-+  __AUTH_CONST.__auth_ptr: 0x20
 +  __AUTH_CONST.__auth_got: 0x738
 +  __AUTH.__objc_data: 0x4e8
 +  __AUTH.__data: 0x78
@@ -117,13 +115,15 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: A7B7528F-C2B3-3E27-9629-ACF06840F870
 -  Functions: 2188
 -  Symbols:   7183
--  CStrings:  22395
+-  CStrings:  42616
 +  - /usr/lib/swift/libswiftos.dylib
++  UUID: 172BB14F-89F3-3A9B-94E7-33D1B02F312A
 +  Functions: 2352
 +  Symbols:   7485
-+  CStrings:  22532
++  CStrings:  42775
  
 Symbols:
 + +[_DPApproximateDP isValidDelta:error:]

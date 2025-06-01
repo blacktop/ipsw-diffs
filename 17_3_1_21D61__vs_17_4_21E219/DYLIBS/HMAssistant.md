@@ -46,13 +46,16 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HomeKit.framework/HomeKit
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D453D5C-3A44-307D-B608-1A33BE149D8A
++  UUID: 4CDB4256-CE2D-33F0-AFB6-1BA8585C78F1
    Functions: 32
 -  Symbols:   82
--  CStrings:  181
+-  CStrings:  186
 +  Symbols:   85
-+  CStrings:  182
++  CStrings:  187
  
 Symbols:
 + _objc_autoreleasePoolPop

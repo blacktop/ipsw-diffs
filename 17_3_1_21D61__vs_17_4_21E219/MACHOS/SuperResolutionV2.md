@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB850C2A-9274-3FA1-ACF9-A0ED7E5DFF17
++  UUID: A05498BF-FB65-3973-A02F-EBA1E61FE7BD
    Functions: 163
    Symbols:   118
--  CStrings:  513
-+  CStrings:  514
+-  CStrings:  592
++  CStrings:  593
  
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"

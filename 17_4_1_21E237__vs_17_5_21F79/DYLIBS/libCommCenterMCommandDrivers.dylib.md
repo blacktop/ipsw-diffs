@@ -24,11 +24,13 @@
    - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 83951D12-9853-3D37-BA4A-CB5D69136C53
 -  Functions: 13777
 -  Symbols:   37025
++  UUID: 2825ED28-6544-3926-B313-A8E462E5692B
 +  Functions: 13776
 +  Symbols:   37022
-   CStrings:  3924
+   CStrings:  3940
  
 Symbols:
 + GCC_except_table177

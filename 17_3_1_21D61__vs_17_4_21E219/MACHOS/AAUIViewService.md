@@ -53,12 +53,14 @@
    - /usr/lib/libCTGreenTeaLogger.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2F39647-54D3-32BD-A334-317442B4F3C0
 -  Functions: 107
 -  Symbols:   112
--  CStrings:  379
+-  CStrings:  394
++  UUID: B04A4C69-9B1E-3D99-8522-32E652D533E8
 +  Functions: 114
 +  Symbols:   116
-+  CStrings:  393
++  CStrings:  408
  
 Symbols:
 + _objc_autoreleaseReturnValue

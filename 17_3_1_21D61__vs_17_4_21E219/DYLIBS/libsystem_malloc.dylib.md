@@ -14,6 +14,8 @@
 -  __DATA_CONST.__got: 0xa0
 -  __DATA_CONST.__const: 0x678
 -  __AUTH_CONST.__const: 0x408
+-  __AUTH_CONST.__auth_got: 0x300
+-  __AUTH.__data: 0x100
 +521.100.59.0.0
 +  __TEXT.__text: 0x2c410
 +  __TEXT.__auth_stubs: 0x670
@@ -25,9 +27,6 @@
 +  __DATA_CONST.__got: 0xa8
 +  __DATA_CONST.__const: 0x788
 +  __AUTH_CONST.__const: 0x4d0
-   __AUTH_CONST.__auth_ptr: 0x30
--  __AUTH_CONST.__auth_got: 0x300
--  __AUTH.__data: 0x100
 +  __AUTH_CONST.__auth_got: 0x338
 +  __AUTH.__data: 0xa0
    __AUTH.__v_zone: 0x4000
@@ -48,9 +47,11 @@
    - /usr/lib/system/libsystem_kernel.dylib
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
+-  UUID: 497FCDB3-4B35-3796-A127-C3D11E4B57B2
 -  Functions: 707
 -  Symbols:   1548
 -  CStrings:  570
++  UUID: F74B80B7-015E-3C57-817C-5BA1A0E0A4FF
 +  Functions: 790
 +  Symbols:   1721
 +  CStrings:  677

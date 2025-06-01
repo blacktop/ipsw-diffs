@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E33F5D62-4C6F-35BF-BA61-CF15B9AAC516
 -  Functions: 17343
 -  Symbols:   41551
++  UUID: FA84253D-C17E-3F18-9A18-FDD46B38E9CD
 +  Functions: 17349
 +  Symbols:   41565
-   CStrings:  15808
+   CStrings:  18433
  
 Symbols:
 + -[COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSWidgetEngagement engagementId]

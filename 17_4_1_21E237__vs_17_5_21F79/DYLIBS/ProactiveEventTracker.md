@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6C8923C5-BD98-33BA-BCD6-EB51ED5565A9
++  UUID: DC319097-6877-35CF-9D44-65CE187E7E37
+   Functions: 643
+   Symbols:   2206
+   CStrings:  1317
+
 ```

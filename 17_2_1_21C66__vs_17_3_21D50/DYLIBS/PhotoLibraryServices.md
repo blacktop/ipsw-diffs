@@ -29,11 +29,15 @@
    __DATA_CONST.__const: 0x12e70
    __DATA_CONST.__objc_classlist: 0x1b48
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 76080655-F077-3779-9F6E-EBF0A38047CF
++  UUID: 505D13B0-A445-33DA-8E4E-39FD07A97307
    Functions: 22442
    Symbols:   76593
--  CStrings:  42076
-+  CStrings:  42077
+-  CStrings:  50862
++  CStrings:  50863
  
 Symbols:
 + GCC_except_table1290

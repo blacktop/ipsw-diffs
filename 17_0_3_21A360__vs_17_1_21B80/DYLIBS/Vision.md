@@ -64,12 +64,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9048D214-B9EF-30CA-8C13-FBBAED7B0387
 -  Functions: 10618
 -  Symbols:   37165
--  CStrings:  11550
+-  CStrings:  14525
++  UUID: DCC9FDFC-3BB3-34D5-92F0-18443D89C84D
 +  Functions: 10624
 +  Symbols:   37188
-+  CStrings:  11552
++  CStrings:  14527
  
 Symbols:
 + +[VNEspressoprintUpgradeDetector supportedComputeStageDevicesForOptions:error:]

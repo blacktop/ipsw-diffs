@@ -72,9 +72,7 @@
 -  __AUTH_CONST.__objc_const: 0x7d8
 +  __AUTH_CONST.__objc_const: 0x8b0
    __AUTH_CONST.__objc_dictobj: 0x5c8
--  __AUTH_CONST.__auth_ptr: 0x1d0
 -  __AUTH_CONST.__const: 0xe7f0
-+  __AUTH_CONST.__auth_ptr: 0x1d8
 +  __AUTH_CONST.__const: 0xf270
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__auth_got: 0x1ed0
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4F2B0C5-A563-3BFF-81D1-1D20995487B9
 -  Functions: 19181
 -  Symbols:   29641
--  CStrings:  15629
+-  CStrings:  17859
++  UUID: 601C3DE2-30CA-3AD4-9E53-BB1F560E16A3
 +  Functions: 19566
 +  Symbols:   29824
-+  CStrings:  15698
++  CStrings:  17949
  
 Symbols:
 + +[SFCollaborationUtilities createLinkMetadataWithCKShare:containerSetupInfo:]

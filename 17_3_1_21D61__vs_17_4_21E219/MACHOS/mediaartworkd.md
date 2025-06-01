@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D9AD5396-E271-33C1-A12A-57D4A5FCCA1A
++  UUID: 9321EC18-695A-300E-BB8C-EC89EE3ECE6F
    Functions: 34
    Symbols:   56
--  CStrings:  144
-+  CStrings:  145
+-  CStrings:  152
++  CStrings:  153
  
 CStrings:
 + "T@\"NSString\",?,R,C"

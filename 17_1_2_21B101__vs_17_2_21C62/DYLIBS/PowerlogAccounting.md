@@ -36,9 +36,9 @@
    __DATA_CONST.__objc_arraydata: 0x1420
    __AUTH_CONST.__cfstring: 0x30c0
 
+   __AUTH_CONST.__const: 0x400
    __AUTH_CONST.__objc_const: 0x1368
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x220
 +  __AUTH_CONST.__auth_got: 0x230
    __DATA.__objc_classrefs: 0x1d8
@@ -49,13 +49,16 @@
    __DATA.__bss: 0x12e9
    __DATA_DIRTY.__objc_data: 0xc30
 
+   - /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E45AC8B8-EE76-324D-8226-B13E7ECDACAA
++  UUID: 97A77272-7E1A-3A73-899D-E5CC75CFCD4D
    Functions: 1160
 -  Symbols:   4002
--  CStrings:  1259
+-  CStrings:  1649
 +  Symbols:   4005
-+  CStrings:  1262
++  CStrings:  1652
  
 Symbols:
 + _OBJC_IVAR_$_PLAccountingNodeManager._nodeMappingLock

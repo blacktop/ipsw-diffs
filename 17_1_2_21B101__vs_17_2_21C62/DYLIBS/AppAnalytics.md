@@ -60,12 +60,10 @@
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_const: 0x778
 -  __AUTH_CONST.__const: 0x6f10
--  __AUTH_CONST.__auth_ptr: 0x168
 -  __AUTH_CONST.__auth_got: 0xda0
 -  __AUTH.__objc_data: 0xc10
 -  __AUTH.__data: 0x420
 +  __AUTH_CONST.__const: 0x7a50
-+  __AUTH_CONST.__auth_ptr: 0x198
 +  __AUTH_CONST.__auth_got: 0xe10
 +  __AUTH.__objc_data: 0xd00
 +  __AUTH.__data: 0x700
@@ -91,12 +89,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F90217FB-CDDE-34D8-BDB2-8D2E99442525
 -  Functions: 4634
 -  Symbols:   1635
--  CStrings:  955
+-  CStrings:  967
++  UUID: 42F4D363-991B-3330-BB5D-DA31A95C3CC3
 +  Functions: 5025
 +  Symbols:   1709
-+  CStrings:  990
++  CStrings:  1002
  
 Symbols:
 + __DATA__TtC12AppAnalytics19SummaryEventManager

@@ -46,11 +46,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC0C7C7D-B769-350D-9D77-D5CE20CE1C8F
 -  Functions: 1564
 -  Symbols:   3611
++  UUID: 327AD724-EA8D-3BE7-9A18-E73695D38E1B
 +  Functions: 1563
 +  Symbols:   3608
-   CStrings:  1127
+   CStrings:  1263
  
 Symbols:
 + __ZN11Nightingale29extractedLucyDayStreamSlice_tC2ERKS0_

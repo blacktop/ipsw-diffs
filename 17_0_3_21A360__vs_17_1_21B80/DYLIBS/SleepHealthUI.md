@@ -42,7 +42,6 @@
 -  __AUTH_CONST.__const: 0xd940
 +  __AUTH_CONST.__const: 0xd948
    __AUTH_CONST.__objc_const: 0x5e8
-   __AUTH_CONST.__auth_ptr: 0x428
    __AUTH_CONST.__cfstring: 0x1c0
 -  __AUTH_CONST.__auth_got: 0x2520
 +  __AUTH_CONST.__auth_got: 0x2538
@@ -69,11 +68,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C83FFE67-C139-3690-861C-065C50ECC46C
 -  Functions: 13072
 -  Symbols:   32140
++  UUID: 272236B8-CA8D-3FE9-B6CF-6FD62DEAB096
 +  Functions: 13086
 +  Symbols:   32173
-   CStrings:  2427
+   CStrings:  2441
  
 Symbols:
 + _$s10WeatherKit07CurrentA0V13SleepHealthUIE23conditionsImageTemplate05SwiftF00H0Vvg

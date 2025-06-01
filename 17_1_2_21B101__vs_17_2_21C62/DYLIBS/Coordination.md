@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 435F2417-50EF-389A-B3B1-27462A8AAE54
 -  Functions: 1090
 -  Symbols:   3794
--  CStrings:  1508
+-  CStrings:  1670
++  UUID: 83EC626F-B1C4-3395-A1BA-AAAFF85D23BA
 +  Functions: 1096
 +  Symbols:   3827
-+  CStrings:  1527
++  CStrings:  1692
  
 Symbols:
 + +[CODefaults coordinationBundleID]

@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 85FFA23A-A537-3291-AE68-E7193E6D6E11
++  UUID: 1490A010-79F6-3527-8B5E-B797FF7E3D35
    Functions: 149
    Symbols:   123
--  CStrings:  418
-+  CStrings:  419
+-  CStrings:  435
++  CStrings:  436
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -50,12 +50,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E347DA0-EE08-3585-8D46-CA50AB5D0A23
 -  Functions: 1027
 -  Symbols:   4187
--  CStrings:  2020
+-  CStrings:  2210
++  UUID: D89EF575-DB86-31DE-B48F-FE54824754E0
 +  Functions: 1028
 +  Symbols:   4192
-+  CStrings:  2023
++  CStrings:  2213
  
 Symbols:
 + -[PencilSettings migrateObsoletedAXOpaqueTouchSetting]

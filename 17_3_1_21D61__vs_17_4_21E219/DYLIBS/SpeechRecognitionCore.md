@@ -19,11 +19,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
+-  UUID: 09DDAD95-AC00-3868-8AE0-9AD8F0A354E1
 -  Functions: 351
 -  Symbols:   1088
++  UUID: E58004DD-3CB4-384D-8F1C-49396FE2B38D
 +  Functions: 352
 +  Symbols:   1089
-   CStrings:  227
+   CStrings:  306
  
 Symbols:
 + GCC_except_table51

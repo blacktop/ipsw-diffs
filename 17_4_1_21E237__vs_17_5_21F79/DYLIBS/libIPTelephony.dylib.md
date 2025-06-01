@@ -30,6 +30,15 @@
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 2916B278-E410-3665-B675-33C4FF6449A2
++  UUID: 5056FFDD-4AD2-39AE-89F8-82A1D010C89A
+   Functions: 12931
+   Symbols:   37338
+   CStrings:  8566
 CStrings:
 + "/AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
 + "/AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"

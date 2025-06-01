@@ -40,9 +40,7 @@
    __DATA_CONST.__got: 0x1e00
    __DATA_CONST.__objc_arraydata: 0xe370
 -  __AUTH_CONST.__const: 0x2a980
--  __AUTH_CONST.__auth_ptr: 0x690
 +  __AUTH_CONST.__const: 0x2a958
-+  __AUTH_CONST.__auth_ptr: 0x698
    __AUTH_CONST.__objc_const: 0x101c0
 -  __AUTH_CONST.__cfstring: 0x26720
 +  __AUTH_CONST.__cfstring: 0x26700
@@ -62,12 +60,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8DDF9BDA-F5FB-3020-9BE1-05BC15FCFBA1
 -  Functions: 45807
 -  Symbols:   121771
--  CStrings:  17188
+-  CStrings:  22109
++  UUID: C52A9630-60F1-3D48-A6C3-50A20DE78C6A
 +  Functions: 45753
 +  Symbols:   121652
-+  CStrings:  17187
++  CStrings:  22107
  
 Symbols:
 + _$s10Foundation11LockedStateVAAytRszlE8withLockyqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_AA12DateIntervalVSg_Tg5TA.100

@@ -27,11 +27,15 @@
    __DATA_CONST.__got: 0xf8
    __DATA_CONST.__const: 0x730
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AF3DC72A-5F39-3A82-90B1-B1DED8B72FE8
++  UUID: D53962BD-9EE6-3B82-BDF7-66EBD33270C9
    Functions: 539
    Symbols:   194
--  CStrings:  1321
-+  CStrings:  1323
+-  CStrings:  1520
++  CStrings:  1522
  
 CStrings:
 + "%{public}@: Failed to get file path. File already deleted."

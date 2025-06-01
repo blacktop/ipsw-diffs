@@ -20,4 +20,13 @@
    - /System/Library/PrivateFrameworks/ShazamKitUI.framework/ShazamKitUI
    - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F988E0B-2EEE-3AC9-8C3F-40D530A6AA99
++  UUID: DDD0B353-DE84-3276-A8C6-55CC7706E952
+   Functions: 234
+   Symbols:   112
+   CStrings:  6
+
 ```

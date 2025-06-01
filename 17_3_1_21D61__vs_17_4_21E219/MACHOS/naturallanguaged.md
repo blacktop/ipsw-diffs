@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/TextComposer.framework/TextComposer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0A6063C3-5BC3-3719-A1F5-FF7E695684EC
++  UUID: 39BDFA20-F506-3F31-9FBE-37A6132AAF5D
+   Functions: 8
+   Symbols:   36
+   CStrings:  11
 
 ```

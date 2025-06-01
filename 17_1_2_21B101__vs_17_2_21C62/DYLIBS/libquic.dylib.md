@@ -28,12 +28,14 @@
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 583EE7D3-2337-30C4-8222-20A65AA20891
 -  Functions: 1171
 -  Symbols:   3161
--  CStrings:  2698
+-  CStrings:  2862
++  UUID: D01117AF-896A-306E-AEF2-7B9705A78399
 +  Functions: 1169
 +  Symbols:   3157
-+  CStrings:  2697
++  CStrings:  2861
  
 Symbols:
 + _____quic_signpost_is_enabled_block_invoke.2433

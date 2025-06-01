@@ -37,11 +37,15 @@
    __DATA.__data: 0x1f8
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 74B4B7CD-DB76-3CE4-97AC-2ACB17635E9E
++  UUID: AD59CBFE-2BD9-3D94-837A-F64F9B2FED5A
    Functions: 450
    Symbols:   1371
--  CStrings:  699
-+  CStrings:  700
+-  CStrings:  769
++  CStrings:  770
  
 Symbols:
 + ___169-[ACCMediaLibraryProvider startMediaLibraryUpdate:library:lastRevision:mediaItemProperties:playlistProperties:playlistContentStyle:playlistContentProperties:reqOptions:]_block_invoke.125

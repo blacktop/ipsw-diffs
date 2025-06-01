@@ -20,4 +20,13 @@
    __DATA.__objc_data: 0xf0
    __DATA.__bss: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1B476CDF-96F8-343C-88F6-621B6D01BB7B
++  UUID: 9C23955B-3D10-3863-AB4C-6BD44CD1B98E
+   Functions: 55
+   Symbols:   112
+   CStrings:  345
+
 ```

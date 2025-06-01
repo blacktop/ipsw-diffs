@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x7c2
    __TEXT.__objc_methtype: 0xc5
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0ACDEF45-F4B0-3C42-AF30-CDDE13B56704
++  UUID: CEBF04F6-9855-3853-87CB-802D531905BC
+   Functions: 69
+   Symbols:   306
+   CStrings:  195
+
 ```

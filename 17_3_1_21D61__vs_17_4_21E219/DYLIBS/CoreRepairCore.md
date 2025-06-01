@@ -57,8 +57,6 @@
    __AUTH_CONST.__objc_intobj: 0xd8
 -  __AUTH_CONST.__objc_const: 0x18a0
 -  __AUTH_CONST.__objc_arrayobj: 0x228
-+  __AUTH_CONST.__objc_arrayobj: 0x240
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__objc_dictobj: 0x78
 -  __AUTH_CONST.__auth_got: 0x938
 -  __AUTH.__objc_data: 0x1040
@@ -67,6 +65,7 @@
 -  __DATA.__objc_superrefs: 0x148
 -  __DATA.__objc_ivar: 0x1b8
 -  __DATA.__data: 0x420
++  __AUTH_CONST.__objc_arrayobj: 0x240
 +  __AUTH_CONST.__objc_dictobj: 0xa0
 +  __AUTH_CONST.__auth_got: 0x978
 +  __AUTH.__objc_data: 0x10e0
@@ -87,12 +86,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/updaters/libSavageRestoreInfo_iOS.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 388FB4DA-5B4A-3572-9708-5C1AAF05FF66
 -  Functions: 1523
 -  Symbols:   424
--  CStrings:  2283
+-  CStrings:  2769
++  UUID: 4BA1260F-F38D-34BF-A95E-F1956DB14B11
 +  Functions: 1537
 +  Symbols:   436
-+  CStrings:  2359
++  CStrings:  2869
  
 Symbols:
 + _AMFDRSealingMapCopyPropertyWithTag

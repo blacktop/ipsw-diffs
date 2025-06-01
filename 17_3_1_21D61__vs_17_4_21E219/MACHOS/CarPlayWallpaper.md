@@ -86,9 +86,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3933C5FD-FF09-37DE-AB1A-C26A26387581
 -  Functions: 33
 -  Symbols:   85
--  CStrings:  290
+-  CStrings:  300
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
@@ -100,9 +101,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: B66A8CA6-37DF-31B4-B8D5-AFA05DFE5E0D
 +  Functions: 115
 +  Symbols:   216
-+  CStrings:  404
++  CStrings:  415
  
 Symbols:
 + _$s10Foundation3URLV4path14percentEncodedSSSb_tF

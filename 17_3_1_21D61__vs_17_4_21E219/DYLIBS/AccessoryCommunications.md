@@ -38,11 +38,15 @@
    __DATA.__data: 0x1f8
    __DATA.__common: 0xc
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F9CCD481-6FDC-37FC-BB4E-78563AFF14BE
++  UUID: 9ACD3A0D-FFCE-3205-8D86-9AF5DB7E4C78
    Functions: 145
    Symbols:   583
--  CStrings:  290
-+  CStrings:  291
+-  CStrings:  330
++  CStrings:  331
  
 Symbols:
 + ___42-[ACCCommunicationsCenter connectToServer]_block_invoke.88

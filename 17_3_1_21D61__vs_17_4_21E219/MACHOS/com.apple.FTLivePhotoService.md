@@ -60,11 +60,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E8FA8E88-F0F5-3E24-99AC-C7DFD55913B1
 -  Functions: 1188
++  UUID: 2C74B6B0-2C5B-3221-B5B5-50CDE8847523
 +  Functions: 1198
    Symbols:   278
--  CStrings:  921
-+  CStrings:  938
+-  CStrings:  943
++  CStrings:  960
  
 CStrings:
 + "Already processing message with UUID %{public}s"

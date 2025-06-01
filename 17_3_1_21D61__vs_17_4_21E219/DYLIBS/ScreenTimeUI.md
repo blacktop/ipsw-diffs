@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2C3A0E84-7E10-3BC6-BC5C-8F5001845233
 -  Functions: 643
 -  Symbols:   2350
--  CStrings:  1241
+-  CStrings:  1361
++  UUID: 8240E685-6ADB-307D-99B7-C5AAEC3B4201
 +  Functions: 645
 +  Symbols:   2354
-+  CStrings:  1243
++  CStrings:  1363
  
 Symbols:
 + GCC_except_table13

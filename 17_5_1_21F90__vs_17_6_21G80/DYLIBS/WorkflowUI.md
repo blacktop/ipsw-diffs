@@ -23,4 +23,13 @@
    __AUTH.__data: 0x5450
    __DATA.__objc_ivar: 0x92c
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 90D11620-A34D-3E46-82AF-903D09FEB518
++  UUID: C5834CBA-70B8-3978-B8B2-E526A8AAFE03
+   Functions: 18655
+   Symbols:   18115
+   CStrings:  8745
+
 ```

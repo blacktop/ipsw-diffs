@@ -42,13 +42,16 @@
    __AUTH_CONST.__const: 0x380
    __AUTH_CONST.__objc_intobj: 0x438
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 224A0F6A-EA32-39C0-B71E-8E101D8247F1
++  UUID: 4885F9ED-63D5-3B4E-B1C2-239DB4C7AE9A
    Functions: 2590
 -  Symbols:   9590
--  CStrings:  4712
+-  CStrings:  5351
 +  Symbols:   9592
-+  CStrings:  4718
++  CStrings:  5358
  
 Symbols:
 + ___50-[WDDataListViewController _deleteAllWithOptions:]_block_invoke.469

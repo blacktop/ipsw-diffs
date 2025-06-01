@@ -44,12 +44,14 @@
    - /System/Library/PrivateFrameworks/TimeAppServices.framework/TimeAppServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AF6B64B5-DB7D-354A-AAB6-510BC88C8E7F
 -  Functions: 133
 -  Symbols:   168
--  CStrings:  404
+-  CStrings:  471
++  UUID: 7D8ABFFE-E749-35B6-8140-2A61E100CA42
 +  Functions: 135
 +  Symbols:   172
-+  CStrings:  409
++  CStrings:  476
  
 Symbols:
 + _OBJC_CLASS_$_NSURL

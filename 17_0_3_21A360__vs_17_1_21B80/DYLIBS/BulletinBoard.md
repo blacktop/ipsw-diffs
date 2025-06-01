@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DBF588F-E269-353D-9C92-8027D192CD85
 -  Functions: 3381
 -  Symbols:   10887
--  CStrings:  4655
+-  CStrings:  5454
++  UUID: CE77D1BB-29D4-3784-BE5E-BF28632A1D06
 +  Functions: 3384
 +  Symbols:   10891
-+  CStrings:  4657
++  CStrings:  5456
  
 Symbols:
 + -[BBDataProviderProxy withdrawBulletinWithPublisherBulletinID:shouldSync:]

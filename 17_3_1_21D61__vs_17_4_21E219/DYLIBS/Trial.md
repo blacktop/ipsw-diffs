@@ -77,12 +77,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 71111087-9163-3B02-87D1-A2B8D92EDC00
 -  Functions: 2382
 -  Symbols:   8539
--  CStrings:  3843
+-  CStrings:  4646
++  UUID: 41006D0E-7447-37CB-BA92-8E65EF3C4131
 +  Functions: 2376
 +  Symbols:   8519
-+  CStrings:  3823
++  CStrings:  4608
  
 Symbols:
 + +[TRIClient _isFactorRecordFileType:]

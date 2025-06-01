@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x370
    __DATA.__data: 0x5a0
 
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 431FA59B-027D-3AD7-A9F0-095286548B8A
++  UUID: 9C4C0AE1-5EBE-38A4-B247-A4B205826D0C
    Functions: 520
    Symbols:   530
--  CStrings:  2178
-+  CStrings:  2179
+-  CStrings:  2300
++  CStrings:  2301
  
 CStrings:
 + "T@\"NSString\",?,R,C"

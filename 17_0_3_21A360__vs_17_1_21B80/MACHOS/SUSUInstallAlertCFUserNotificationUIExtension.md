@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7903B659-6773-3D22-934D-AF5AE676FB1B
 -  Functions: 20
 -  Symbols:   63
--  CStrings:  222
+-  CStrings:  241
++  UUID: 201B2D87-9596-3C05-9FE6-6C93752A68CA
 +  Functions: 22
 +  Symbols:   68
-+  CStrings:  225
++  CStrings:  244
  
 Symbols:
 + __Unwind_Resume

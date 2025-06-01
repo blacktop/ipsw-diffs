@@ -42,11 +42,13 @@
    - /System/Library/PrivateFrameworks/UserFS.framework/UserFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BAF3CA36-4DDA-3B32-A27A-F15F6199F065
 -  Functions: 894
++  UUID: D8256BC8-AF41-3539-9C1D-248518658677
 +  Functions: 899
    Symbols:   463
--  CStrings:  1304
-+  CStrings:  1306
+-  CStrings:  1418
++  CStrings:  1420
  
 CStrings:
 + "%s:%u: failed assertion '%s' %s readVInt32: exceeds max size for uint32_t"

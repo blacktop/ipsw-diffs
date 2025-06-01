@@ -18,6 +18,15 @@
    __TEXT.__dlopen_cstrs: 0x11d
    __TEXT.__ustring: 0x18
    __TEXT.__unwind_info: 0x14c0
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 9F33EC2A-D930-308B-9EB2-180D983B89AE
++  UUID: ECBA5768-2F5C-3E54-85C8-80599ECD6D3E
+   Functions: 1911
+   Symbols:   6678
+   CStrings:  4104
 CStrings:
 + "[MSVQRConnection] <%p> Header did not contain valid message type %{public}@"
 + "[MSVQRConnection] <%p> Registered plugin allocation info. Participant ID: %{public}@"

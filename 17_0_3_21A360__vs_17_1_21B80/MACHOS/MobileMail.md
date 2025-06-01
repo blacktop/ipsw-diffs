@@ -90,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D84B97FD-F1A7-34EE-9F33-DE192DEAC309
 -  Functions: 17683
 -  Symbols:   3225
--  CStrings:  19666
+-  CStrings:  21495
++  UUID: A226C3F0-4FF7-3EA9-997C-523252DB980E
 +  Functions: 17612
 +  Symbols:   3235
-+  CStrings:  19542
++  CStrings:  21340
  
 Symbols:
 + _MFImageGlyphInstantAnswersChevronForward

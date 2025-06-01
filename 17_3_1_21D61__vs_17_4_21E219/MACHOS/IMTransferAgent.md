@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 837BF843-D070-3BBC-A3DD-19F2EB664EBE
++  UUID: 444A6F0F-4CAF-3440-8A7A-7C41BA40291E
+   Functions: 14
+   Symbols:   91
+   CStrings:  104
+
 ```

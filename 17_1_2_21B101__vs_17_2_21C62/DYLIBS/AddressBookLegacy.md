@@ -61,12 +61,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 90493ABA-E2DB-3E8D-B34D-0061FCF4FE2F
 -  Functions: 2308
 -  Symbols:   6611
--  CStrings:  4075
+-  CStrings:  5720
++  UUID: 72F79353-B594-3E88-93CB-A6BD6A166C50
 +  Functions: 2315
 +  Symbols:   6636
-+  CStrings:  4095
++  CStrings:  5750
  
 Symbols:
 + +[ABVCardCardDAVExporter copyVCardRepresentationOfRecord:withPhoto:extraPhotoParameters:includeWallpaper:]

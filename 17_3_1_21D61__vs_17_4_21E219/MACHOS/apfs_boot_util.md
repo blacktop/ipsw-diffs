@@ -25,9 +25,11 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libSystem.B.dylib
+-  UUID: 9779D40A-3CD3-374D-BDA9-F11D96D47B13
 -  Functions: 16
 -  Symbols:   49
 -  CStrings:  47
++  UUID: 8BEDDA33-87AD-3C14-AC61-23E93D8EADD6
 +  Functions: 18
 +  Symbols:   57
 +  CStrings:  71

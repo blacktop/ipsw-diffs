@@ -23,9 +23,9 @@
    __TEXT.__objc_classname: 0x63
    __TEXT.__objc_methname: 0xfcc
 
+   __AUTH_CONST.__cfstring: 0x3f20
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xf88
 +  __AUTH_CONST.__auth_got: 0xf80
    __AUTH.__data: 0x150
@@ -35,11 +35,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F4281FCB-4414-356A-BC9F-AB2DD17C62CE
 -  Functions: 3015
 -  Symbols:   1258
++  UUID: 444B785A-87A1-3277-A3C7-D66B91F410A0
 +  Functions: 3016
 +  Symbols:   1257
-   CStrings:  2019
+   CStrings:  2524
  
 Symbols:
 + _CVBufferCopyAttachment

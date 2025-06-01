@@ -68,12 +68,14 @@
 +  - /System/Library/PrivateFrameworks/TextInput.framework/TextInput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0E9BE795-7797-3C45-8D5B-325CDAA91C94
 -  Functions: 328
 -  Symbols:   164
--  CStrings:  558
+-  CStrings:  647
++  UUID: 3E19F397-88C1-3AD8-86BA-D786F0FCA5DD
 +  Functions: 421
 +  Symbols:   91
-+  CStrings:  730
++  CStrings:  845
  
 Symbols:
 + _OBJC_CLASS_$_IATextInputActionsInputMode

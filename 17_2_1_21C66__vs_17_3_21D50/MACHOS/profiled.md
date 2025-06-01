@@ -58,12 +58,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F5037A0D-85A7-3507-B5C1-BB5012D8AAF8
 -  Functions: 1900
 -  Symbols:   1424
--  CStrings:  4773
+-  CStrings:  5823
++  UUID: 600AE817-46BA-3118-A63B-056822D80280
 +  Functions: 1902
 +  Symbols:   1426
-+  CStrings:  4780
++  CStrings:  5831
  
 Symbols:
 + _MCErrorRestrictionCauseStolenDeviceProtection

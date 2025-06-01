@@ -30,7 +30,11 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B99E75AA-208A-33CA-A479-A4BF533EE7C3
++  UUID: 8AEBF87D-76E2-3DD6-994C-EF0380C80665
    Functions: 5
    Symbols:   42
 -  CStrings:  82

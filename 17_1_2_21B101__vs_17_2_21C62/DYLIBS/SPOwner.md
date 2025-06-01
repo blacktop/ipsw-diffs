@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__const: 0xaf0
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x600
 +  __AUTH_CONST.__auth_got: 0x610
    __AUTH.__objc_data: 0xe08
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5C90769A-7CED-3C95-B6DA-9673DDF5F7D3
 -  Functions: 3536
 -  Symbols:   10953
--  CStrings:  4546
+-  CStrings:  5188
++  UUID: B4D09D8A-C6AA-364B-A751-A7DB89132410
 +  Functions: 3540
 +  Symbols:   10968
-+  CStrings:  4551
++  CStrings:  5194
  
 Symbols:
 + -[SPMonitorsWrapper _cpuType]

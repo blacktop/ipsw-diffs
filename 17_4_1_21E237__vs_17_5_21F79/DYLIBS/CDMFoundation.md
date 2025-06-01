@@ -67,8 +67,8 @@
 -  __AUTH_CONST.__const: 0x2d68
 +  __AUTH_CONST.__const: 0x2e18
    __AUTH_CONST.__objc_const: 0x5500
-   __AUTH_CONST.__auth_ptr: 0xe0
    __AUTH_CONST.__cfstring: 0x7b80
+   __AUTH_CONST.__objc_arrayobj: 0x30
 
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x10
@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4F5DC2D9-EDA4-3A45-8F41-EEE3BBC0D2CD
 -  Functions: 6480
 -  Symbols:   14427
--  CStrings:  7264
+-  CStrings:  8252
++  UUID: D535B452-C4A2-31F1-A729-E3D25451D36E
 +  Functions: 6539
 +  Symbols:   14479
-+  CStrings:  7270
++  CStrings:  8258
  
 Symbols:
 + _NSURLIsDirectoryKey

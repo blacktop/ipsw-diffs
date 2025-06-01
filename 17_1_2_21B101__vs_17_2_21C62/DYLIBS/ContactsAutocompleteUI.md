@@ -58,12 +58,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18D3F774-1565-32D3-B184-2533CF200440
 -  Functions: 1849
 -  Symbols:   7035
--  CStrings:  3883
+-  CStrings:  4017
++  UUID: 6ECB9F75-04F3-3575-B8CB-46425571182B
 +  Functions: 1870
 +  Symbols:   7082
-+  CStrings:  3902
++  CStrings:  4036
  
 Symbols:
 + +[CNComposeRecipient namingLog]

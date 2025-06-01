@@ -44,7 +44,6 @@
    __AUTH_CONST.__cfstring: 0x7c0
    __AUTH_CONST.__objc_const: 0x798
    __AUTH_CONST.__const: 0x1e8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x378
 +  __AUTH_CONST.__auth_got: 0x380
    __AUTH.__objc_data: 0x1f0
@@ -59,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6287728B-DA8B-395D-BDD6-6A840D5A9382
 -  Functions: 332
 -  Symbols:   1143
--  CStrings:  528
+-  CStrings:  590
++  UUID: 2F3BEC00-C79E-3820-BB46-CE41555D2E59
 +  Functions: 338
 +  Symbols:   1146
-+  CStrings:  531
++  CStrings:  593
  
 Symbols:
 + -[SPAdvertisement initWithAddress:advertisementData:status:reserved:rssi:scanDate:isPosh:]

@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0x40
    __DATA_CONST.__const: 0x60
 
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 1D338C64-1855-3F5D-AE06-B0AA8B15F3CF
++  UUID: 11AE005C-2CB8-3224-9F4F-5AE397B6FA4E
+   Functions: 12938
+   Symbols:   6004
+   CStrings:  1667
+
 ```

@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1EB5BD69-3541-3F56-80F9-4AC86D34A9E0
++  UUID: 5C846A76-CCE6-3578-901C-D0BE3316ABDB
    Functions: 3
    Symbols:   38
--  CStrings:  68
-+  CStrings:  69
+-  CStrings:  71
++  CStrings:  72
  
 CStrings:
 + "T@\"NSString\",?,R,C"

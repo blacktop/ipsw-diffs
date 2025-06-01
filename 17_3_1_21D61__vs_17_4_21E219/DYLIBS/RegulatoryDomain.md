@@ -48,7 +48,6 @@
 +  __DATA_CONST.__objc_classrefs: 0xb0
 +  __DATA_CONST.__objc_superrefs: 0x20
 +  __AUTH_CONST.__const: 0x210
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x580
    __AUTH_CONST.__objc_intobj: 0x30
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C79B8203-E3EC-3625-9629-252D3B5419C4
 -  Functions: 237
 -  Symbols:   173
--  CStrings:  359
+-  CStrings:  403
++  UUID: EA02B68F-0406-30B6-B3CF-157F6160FC9B
 +  Functions: 242
 +  Symbols:   178
-+  CStrings:  380
++  CStrings:  424
  
 Symbols:
 + _RDSetCacheLockState

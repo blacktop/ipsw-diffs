@@ -29,11 +29,15 @@
    __DATA.__objc_superrefs: 0x10
    __DATA.__objc_ivar: 0x1c
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B98DDE2-F2AD-3C44-8226-D8995007A5E1
++  UUID: 60BB524D-C323-35BA-8D54-E3ACEA559AC4
    Functions: 32
    Symbols:   97
--  CStrings:  101
-+  CStrings:  102
+-  CStrings:  107
++  CStrings:  108
  
 CStrings:
 + "defaultStore"

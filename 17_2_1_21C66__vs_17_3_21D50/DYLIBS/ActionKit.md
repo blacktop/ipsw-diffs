@@ -43,12 +43,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 332FE815-79CE-3CD6-8412-EC67DAB49F1E
 -  Functions: 19661
 -  Symbols:   50076
--  CStrings:  23791
+-  CStrings:  29209
++  UUID: 5D8B5FCD-29E2-30BC-BFE0-2BA3F237F0C1
 +  Functions: 19666
 +  Symbols:   50087
-+  CStrings:  23792
++  CStrings:  29210
  
 Symbols:
 + -[WFExpandURLAction getContentDestinationWithCompletionHandler:]

@@ -113,12 +113,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46742520-8391-38C7-A0DC-B3F2A879036E
 -  Functions: 11119
 -  Symbols:   1686
--  CStrings:  14367
+-  CStrings:  17750
++  UUID: 2BBA7832-D91C-37AD-B80C-4D447F442EF6
 +  Functions: 11262
 +  Symbols:   1751
-+  CStrings:  14528
++  CStrings:  17920
  
 Symbols:
 + _$s10Foundation3URLV9appending9component13directoryHintACx_AC09DirectoryF0OtSyRzlF
@@ -219,6 +221,7 @@ Symbols:
 CStrings:
 + "\x02(\x11"
 + "\x0f\x0f\x0f\x0f\f"
++ "\x1c %"
 + "(PurchaseHistory) Local revision is %{public}@ for accountID: %{public}@ error: %{public}@"
 + "/\x0f\x03\x16"
 + "21:10:56"

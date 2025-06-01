@@ -77,7 +77,6 @@
 -  __DATA.__objc_ivar: 0x1d8
 -  __DATA.__data: 0x670
 -  __DATA.__bss: 0xf0
-+  __AUTH_CONST.__auth_ptr: 0x50
 +  __AUTH_CONST.__auth_got: 0x890
 +  __AUTH.__objc_data: 0x15b0
 +  __AUTH.__data: 0x180
@@ -93,9 +92,10 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65C0F10B-0C78-3AF1-BA31-BE8133FD797D
 -  Functions: 956
 -  Symbols:   3293
--  CStrings:  1521
+-  CStrings:  1677
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -120,9 +120,10 @@
 +  - /usr/lib/swift/libswift_Concurrency.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 056E0268-5A8D-3676-B8C0-1D9A1E413F63
 +  Functions: 1579
 +  Symbols:   3667
-+  CStrings:  1674
++  CStrings:  1807
  
 Symbols:
 + -[AXSDCustomDetectionController isListening]

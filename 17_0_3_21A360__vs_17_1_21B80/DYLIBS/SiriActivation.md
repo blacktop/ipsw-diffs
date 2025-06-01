@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5EAA4816-55F5-35E9-8DC7-C01EBF3F2057
 -  Functions: 1708
 -  Symbols:   6071
--  CStrings:  3335
+-  CStrings:  3811
++  UUID: 1C8BF04E-E3BC-344F-898B-91120AF6CBB0
 +  Functions: 1709
 +  Symbols:   6074
-+  CStrings:  3339
++  CStrings:  3815
  
 Symbols:
 + -[SASHeadphonesAuthenticationManager _shouldIgnoreConnectionChangesForState:]

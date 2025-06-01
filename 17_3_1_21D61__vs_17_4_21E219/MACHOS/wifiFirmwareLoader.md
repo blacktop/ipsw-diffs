@@ -34,12 +34,14 @@
    - /System/Library/PrivateFrameworks/CoreCaptureControl.framework/CoreCaptureControl
    - /usr/lib/libFDR.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: B7D9D4A4-430A-3278-A886-78DF55E2FE11
 -  Functions: 24
 -  Symbols:   123
--  CStrings:  211
+-  CStrings:  240
++  UUID: B9035113-80B9-3828-8E9F-1C861237A44B
 +  Functions: 25
 +  Symbols:   126
-+  CStrings:  232
++  CStrings:  273
  
 Symbols:
 + _IOPMAssertionCreateWithDescription

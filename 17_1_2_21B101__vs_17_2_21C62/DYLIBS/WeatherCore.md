@@ -71,11 +71,9 @@
 +  __AUTH_CONST.__objc_const: 0x670
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x18
--  __AUTH_CONST.__auth_ptr: 0x4a8
 -  __AUTH_CONST.__auth_got: 0x1d60
 -  __AUTH.__data: 0xdd8
 -  __AUTH.__objc_data: 0x210
-+  __AUTH_CONST.__auth_ptr: 0x4f0
 +  __AUTH_CONST.__auth_got: 0x1e50
 +  __AUTH.__objc_data: 0x410
 +  __AUTH.__data: 0x1208
@@ -131,12 +129,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 13CA18F7-7DDC-3F98-8D65-87F10246CB2D
 -  Functions: 12389
 -  Symbols:   7056
--  CStrings:  2550
+-  CStrings:  2576
++  UUID: A1D0F7B2-5DA2-33DC-BA4F-E1F548A3114E
 +  Functions: 13051
 +  Symbols:   7436
-+  CStrings:  2641
++  CStrings:  2670
  
 Symbols:
 + +[WCCapabilities isSeedBuild]

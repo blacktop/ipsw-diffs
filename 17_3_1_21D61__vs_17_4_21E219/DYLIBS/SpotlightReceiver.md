@@ -31,4 +31,13 @@
    __DATA.__data: 0x80
    __DATA_DIRTY.__objc_const: 0x90
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7F62F24C-8A6C-3DEC-BDDD-D06E0198CDC7
++  UUID: 5181D23D-30B8-3A35-869A-45EF8BE7A675
+   Functions: 74
+   Symbols:   344
+   CStrings:  176
+
 ```

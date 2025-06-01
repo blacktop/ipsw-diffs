@@ -18,11 +18,15 @@
    __TEXT.__ustring: 0x140
    __TEXT.__unwind_info: 0x6990
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: B69535E8-565B-3A3D-9DD6-B6B5C82572DB
++  UUID: 4DD92B35-29FE-3AE0-BBEB-70418054F81F
    Functions: 8215
    Symbols:   29099
--  CStrings:  11898
-+  CStrings:  11896
+-  CStrings:  13931
++  CStrings:  13929
  
 CStrings:
 - "%{public}@ <%p>: comparing geo anchor: %f, %f, distance = %f"

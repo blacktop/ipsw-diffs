@@ -26,4 +26,13 @@
    __DATA.__objc_data: 0x140
    __DATA.__bss: 0x48
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 755C3BDE-47AB-3D85-AFF9-5075F57A24FD
++  UUID: 78336045-DDBF-3BAE-A514-B2B89E42614C
+   Functions: 130
+   Symbols:   231
+   CStrings:  443
+
 ```

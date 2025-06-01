@@ -16,6 +16,8 @@
 -  __DATA_CONST.__const: 0x780
 +  __DATA_CONST.__const: 0x788
    __DATA_CONST.__kalloc_type: 0x40
+-  UUID: 1A2F99C0-D96F-3D59-847B-96CD691293B8
++  UUID: 868AA854-BE54-302B-9D95-0A8126338093
    Functions: 13
 -  Symbols:   277
 +  Symbols:   278

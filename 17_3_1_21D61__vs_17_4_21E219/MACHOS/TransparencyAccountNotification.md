@@ -30,11 +30,15 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FAF73B6F-B58D-349D-9416-5D1E76F5EE25
++  UUID: C1D2BABD-B884-3C93-8F28-BE5E92A7CA0E
    Functions: 6
    Symbols:   33
--  CStrings:  74
-+  CStrings:  75
+-  CStrings:  77
++  CStrings:  78
  
 CStrings:
 + "T@\"NSString\",?,R,C"

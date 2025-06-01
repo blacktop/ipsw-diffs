@@ -64,11 +64,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 433B8EDB-3442-3923-9C2C-FCF0364BCCF0
 -  Functions: 4221
++  UUID: 06790319-BAAF-374C-A705-38E684FD026A
 +  Functions: 4224
    Symbols:   377
--  CStrings:  1700
-+  CStrings:  1703
+-  CStrings:  1714
++  CStrings:  1717
  
 CStrings:
 + "isValid(address...) is %s, valid: %{bool}d"

@@ -59,11 +59,15 @@
    __DATA.__common: 0x6f8
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 627DEB3C-B2D9-339B-96DE-F5400011445B
++  UUID: F3EEC275-EE92-31D3-8464-62F057B22F48
    Functions: 10144
    Symbols:   908
--  CStrings:  10204
-+  CStrings:  10205
+-  CStrings:  12143
++  CStrings:  12144
  
 CStrings:
 + "Pulled change (query) %@"

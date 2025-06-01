@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
 
+   - /System/Library/PrivateFrameworks/Eyedropper.framework/Eyedropper
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4F3CE3AD-F9E4-3D0D-9AD7-BEA863346706
++  UUID: 767B5762-3911-3470-A2CD-A45BA574E086
+   Functions: 4
+   Symbols:   19
+   CStrings:  6
+
 ```

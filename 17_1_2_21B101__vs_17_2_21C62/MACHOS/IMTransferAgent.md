@@ -29,13 +29,16 @@
    __DATA.__objc_selrefs: 0x68
    __DATA.__objc_classrefs: 0x20
 
+   - /System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF9C6CBB-78A2-3A1A-B01B-3B784AFF64C0
++  UUID: BAC9F9F9-C985-36D7-8A33-30F28CC09831
    Functions: 14
 -  Symbols:   94
--  CStrings:  125
+-  CStrings:  153
 +  Symbols:   91
-+  CStrings:  103
++  CStrings:  104
  
 Symbols:
 + _objc_retain_x27

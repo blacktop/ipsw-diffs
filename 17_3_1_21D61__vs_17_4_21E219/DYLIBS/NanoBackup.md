@@ -34,11 +34,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 809B8454-FF51-374B-8DF8-A27EF712E0BA
++  UUID: 52B1D832-964B-34AF-8DEE-C8E0DC587CCB
    Functions: 166
    Symbols:   603
--  CStrings:  364
-+  CStrings:  365
+-  CStrings:  405
++  CStrings:  406
  
 Symbols:
 + ___23-[NBManager connection]_block_invoke.82

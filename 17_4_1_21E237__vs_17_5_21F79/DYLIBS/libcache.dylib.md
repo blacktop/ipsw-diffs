@@ -13,4 +13,13 @@
    __DATA_CONST.__const: 0x88
    __AUTH_CONST.__auth_got: 0xe8
 
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+-  UUID: 08F7B858-8A28-3EDE-B291-D7F49A8CF359
++  UUID: 73526206-F940-3B6C-81F8-C81E7A924AAA
+   Functions: 56
+   Symbols:   114
+   CStrings:  21
+
 ```

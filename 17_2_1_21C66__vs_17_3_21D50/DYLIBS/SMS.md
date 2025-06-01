@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BD11F59-3480-3BA7-8C21-A6082911004A
 -  Functions: 630
++  UUID: DA487B7F-3E8D-3BE5-8AFC-C976071399F6
 +  Functions: 631
    Symbols:   423
--  CStrings:  2539
-+  CStrings:  2541
+-  CStrings:  2837
++  CStrings:  2839
  
 CStrings:
 + "_allowedToGeneratePreviewForTransfer:smsMessage:"

@@ -46,13 +46,16 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D2D53403-D8A2-36D8-B88B-CB7CB082A8DC
++  UUID: 98F8E749-BC1C-3AA9-8C2C-1D5BF66AF7E4
    Functions: 242
 -  Symbols:   373
--  CStrings:  1570
+-  CStrings:  2177
 +  Symbols:   375
-+  CStrings:  1578
++  CStrings:  2185
  
 Symbols:
 + _SecIdentityCreate

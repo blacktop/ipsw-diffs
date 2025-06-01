@@ -29,6 +29,15 @@
    __DATA_DIRTY.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EF417A0D-BE1D-3D81-BF2E-08AD43BB0CEC
++  UUID: 80481CDA-1FA2-3AEE-A306-91080096C796
+   Functions: 30
+   Symbols:   158
+   CStrings:  80
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.246

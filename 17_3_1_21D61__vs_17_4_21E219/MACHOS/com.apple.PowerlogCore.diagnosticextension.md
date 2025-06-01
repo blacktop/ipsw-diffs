@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8D6372D2-3BC5-31F4-BD0D-C7B4197CE4CB
++  UUID: E65FAD5E-B46D-3161-80AA-6F00E078EBA1
+   Functions: 2
+   Symbols:   35
+   CStrings:  41
+
 ```

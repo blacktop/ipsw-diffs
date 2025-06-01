@@ -19,5 +19,13 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/IntelligentRouting.framework/IntelligentRouting
+   - /System/Library/PrivateFrameworks/IntelligentRoutingDaemon.framework/IntelligentRoutingDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5A6D9BDA-1AC8-3C46-9DCE-351C614A9834
++  UUID: BD3CCF74-A3E2-3645-BE5B-4F5735E33C9F
+   Functions: 1
+   Symbols:   13
+   CStrings:  2
 
 ```

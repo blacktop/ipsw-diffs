@@ -43,11 +43,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1186DE1E-B317-37D8-987E-C06841F47BAF
 -  Functions: 212
++  UUID: EDC4BB3C-0B2F-3515-BA02-F3B44C01A2AC
 +  Functions: 213
    Symbols:   152
--  CStrings:  751
-+  CStrings:  753
+-  CStrings:  765
++  CStrings:  767
  
 CStrings:
 + "pnpDeviceTypeForType:"

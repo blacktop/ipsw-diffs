@@ -52,12 +52,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FCD39B91-5963-3DD2-AFD6-0F0DB584EFA7
 -  Functions: 163
 -  Symbols:   209
--  CStrings:  526
+-  CStrings:  603
++  UUID: 3FD86387-530B-3A59-BD4C-1545C955A7FB
 +  Functions: 168
 +  Symbols:   215
-+  CStrings:  554
++  CStrings:  632
  
 Symbols:
 + _OBJC_CLASS_$_BYFindMyManager

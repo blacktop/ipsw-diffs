@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_intobj: 0x150
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x650
 -  __AUTH.__objc_data: 0xa870
 -  __DATA.__objc_classrefs: 0x10d8
@@ -75,12 +74,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4409C142-2D5D-3930-9B30-D18AE5A5F5A2
 -  Functions: 10175
 -  Symbols:   32384
--  CStrings:  7240
+-  CStrings:  8068
++  UUID: 0E715300-78A4-3FCD-9A54-7AFB6EF0CA80
 +  Functions: 10225
 +  Symbols:   32573
-+  CStrings:  7343
++  CStrings:  8186
  
 Symbols:
 + +[NSString(VS4CC) vs_stringFrom4CC:]

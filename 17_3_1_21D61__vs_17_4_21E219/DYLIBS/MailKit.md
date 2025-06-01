@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7CAAC01-D7A6-3F06-AF44-0BA36C2C88DC
 -  Functions: 568
 -  Symbols:   2556
--  CStrings:  1115
+-  CStrings:  1254
++  UUID: 93283369-683C-3030-884E-C928B2C07E96
 +  Functions: 570
 +  Symbols:   2566
-+  CStrings:  1123
++  CStrings:  1262
  
 Symbols:
 + -[MERemoteExtension _getInterfaceForExtensionCapability:error:]

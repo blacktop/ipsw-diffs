@@ -41,7 +41,7 @@
 +  __AUTH_CONST.__cfstring: 0xbc60
    __AUTH_CONST.__objc_const: 0x3510
    __AUTH_CONST.__const: 0xf88
-   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__objc_dictobj: 0xa0
 
    __AUTH.__objc_data: 0xc30
    __AUTH.__data: 0x90
@@ -52,13 +52,16 @@
    __DATA.__objc_ivar: 0x1044
    __DATA.__data: 0xfca
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E371038-B8F4-3570-8B80-F3D16BE24D81
++  UUID: 94CCA777-5001-3BCE-A3A0-C92657CF04A3
    Functions: 4389
 -  Symbols:   15119
--  CStrings:  8100
+-  CStrings:  9606
 +  Symbols:   15124
-+  CStrings:  8104
++  CStrings:  9611
  
 Symbols:
 + -[NSHTMLWriter _paragraphClassforParagraphStyle:presentationIntent:range:isEmpty:isCompletelyEmpty:headerString:alignmentString:directionString:]

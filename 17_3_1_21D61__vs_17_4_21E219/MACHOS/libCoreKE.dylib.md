@@ -42,12 +42,14 @@
    - /System/Library/PrivateFrameworks/MobileActivation.framework/MobileActivation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A1241E6-37DC-3664-B81A-41034FFCC946
 -  Functions: 483
 -  Symbols:   164
--  CStrings:  215
+-  CStrings:  233
++  UUID: 09D14FFE-38FD-35C6-A358-B392D1A39725
 +  Functions: 465
 +  Symbols:   161
-+  CStrings:  213
++  CStrings:  231
  
 Symbols:
 + _calloc

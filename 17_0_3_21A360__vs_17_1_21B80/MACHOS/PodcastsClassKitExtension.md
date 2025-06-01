@@ -22,6 +22,15 @@
    __TEXT.__objc_methtype: 0x189
    __TEXT.__swift5_typeref: 0x2ca
    __TEXT.__swift5_fieldmd: 0x20c
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D7FF87C3-9CEC-37EA-A128-3E17C7742330
++  UUID: 27D4CD8D-8A90-3C31-9693-535D492F4B35
+   Functions: 326
+   Symbols:   173
+   CStrings:  328
 Symbols:
 + _OBJC_CLASS_$__TtC18PodcastsFoundation18SyncKeysRepository
 - _OBJC_CLASS_$_MTSyncUtil

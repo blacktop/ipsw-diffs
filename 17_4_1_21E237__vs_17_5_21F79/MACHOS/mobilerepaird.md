@@ -44,13 +44,16 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x128
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A027AC88-FAE9-305A-94C2-B133DFB428D0
++  UUID: 66753F8B-FAA5-3E46-A946-9DDC27B309DB
    Functions: 210
 -  Symbols:   192
--  CStrings:  631
+-  CStrings:  844
 +  Symbols:   193
-+  CStrings:  634
++  CStrings:  848
  
 Symbols:
 + _OBJC_CLASS_$_CRRepairHistory

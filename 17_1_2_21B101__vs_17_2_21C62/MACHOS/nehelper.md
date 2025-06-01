@@ -47,13 +47,16 @@
    __DATA.__objc_ivar: 0xd0
    __DATA.__objc_data: 0x500
 
+   - /usr/lib/libicucore.A.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D6C9414D-389F-3418-8B83-AD9937FB1A1B
++  UUID: E75FF406-C965-3014-ADA6-068BC28B04B5
    Functions: 232
 -  Symbols:   371
--  CStrings:  1521
+-  CStrings:  2112
 +  Symbols:   373
-+  CStrings:  1535
++  CStrings:  2137
  
 Symbols:
 + _MOUserSharingPolicyRestricted

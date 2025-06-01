@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EDEB8F26-9810-3EEA-9B5B-957C16D1FD84
++  UUID: A95161AC-8DD6-3B69-9D8F-F4FED0B453AB
+   Functions: 3
+   Symbols:   26
+   CStrings:  29
+
 ```

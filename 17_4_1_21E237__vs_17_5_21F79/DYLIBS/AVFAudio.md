@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__const: 0x1168
 +  __AUTH_CONST.__cfstring: 0x32c0
    __AUTH_CONST.__objc_intobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xf50
 +  __AUTH_CONST.__auth_got: 0xf80
    __AUTH.__objc_data: 0xa0
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3470C84-C4CE-3376-BBFA-BD449C2E3F11
 -  Functions: 3760
 -  Symbols:   12141
--  CStrings:  5618
+-  CStrings:  6020
++  UUID: A161186B-22A2-3A88-B6AE-3A022764AE54
 +  Functions: 3793
 +  Symbols:   12238
-+  CStrings:  5669
++  CStrings:  6075
  
 Symbols:
 + -[AVVCSessionManager isPickedRouteW1]

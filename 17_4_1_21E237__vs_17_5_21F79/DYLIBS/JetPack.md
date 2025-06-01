@@ -19,4 +19,13 @@
    __TEXT.__objc_classname: 0x61
    __TEXT.__objc_methname: 0x5cd
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 16578FDA-6F5A-3E52-831E-F8EC4C4CB9A4
++  UUID: 3F737E2A-6ED5-364C-BDB1-330788B2CF0E
+   Functions: 489
+   Symbols:   1800
+   CStrings:  205
+
 ```

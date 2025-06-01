@@ -33,11 +33,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/Fitness.framework/Fitness
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 163ED310-EAE0-377A-A7B6-E490EDC7B4B2
++  UUID: 0B126297-82FA-3CCB-AAFD-E12654769BE3
    Functions: 33
    Symbols:   70
--  CStrings:  120
-+  CStrings:  121
+-  CStrings:  121
++  CStrings:  122
  
 CStrings:
 + "T@\"NSObject<ACHTemplateAssetSourceDelegate>\",?,W,N"

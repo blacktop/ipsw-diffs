@@ -40,13 +40,16 @@
    __DATA.__objc_superrefs: 0x58
    __DATA.__objc_ivar: 0x44
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37341552-1B6D-37FC-B8D3-1944CCE47EBE
++  UUID: 38218894-9C50-3D4C-910E-FA9DF2B64926
    Functions: 111
 -  Symbols:   126
--  CStrings:  311
+-  CStrings:  356
 +  Symbols:   128
-+  CStrings:  312
++  CStrings:  357
  
 Symbols:
 + _AXUIIconImageWithBackgroundForImage

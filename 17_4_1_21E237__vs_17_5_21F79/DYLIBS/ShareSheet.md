@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F599557-88FB-3804-A224-5384D7A262D4
 -  Functions: 5110
 -  Symbols:   18612
--  CStrings:  8198
+-  CStrings:  8796
++  UUID: 9C3E8702-4039-36B4-800B-77BBAC0EA70D
 +  Functions: 5116
 +  Symbols:   18630
-+  CStrings:  8204
++  CStrings:  8802
  
 Symbols:
 + -[SFShareSheetSlotManager activityViewControllerDidAppearWithSessionID:]

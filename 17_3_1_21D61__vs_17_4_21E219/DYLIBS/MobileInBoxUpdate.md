@@ -37,7 +37,7 @@
    __AUTH_CONST.__cfstring: 0x420
    __AUTH_CONST.__objc_arrayobj: 0x18
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__auth_got: 0x2e8
    __AUTH.__objc_data: 0x140
 -  __DATA.__objc_protorefs: 0x8
@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 580C7172-AF6F-3EE2-897A-546C0596C72F
 -  Functions: 273
 -  Symbols:   910
--  CStrings:  217
+-  CStrings:  250
++  UUID: 682F0302-46B4-3E35-96D7-086475DD9DEF
 +  Functions: 279
 +  Symbols:   928
-+  CStrings:  218
++  CStrings:  251
  
 Symbols:
 + _BASepAppRoot

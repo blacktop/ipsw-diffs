@@ -77,9 +77,10 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB8251A8-CE16-3A37-A67F-8CAD3487A72A
 -  Functions: 1909
 -  Symbols:   1866
--  CStrings:  2536
+-  CStrings:  3640
 +  - /usr/lib/swift/libswiftAVFoundation.dylib
 +  - /usr/lib/swift/libswiftAccelerate.dylib
 +  - /usr/lib/swift/libswiftCore.dylib
@@ -104,9 +105,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 50FFCD09-8E80-3CD3-B99C-36BF48D71AEB
 +  Functions: 1945
 +  Symbols:   1902
-+  CStrings:  2570
++  CStrings:  3688
  
 Symbols:
 + _OBJC_CLASS_$_PBFPosterGalleryPreviewViewController_InvertColorsAccessibility

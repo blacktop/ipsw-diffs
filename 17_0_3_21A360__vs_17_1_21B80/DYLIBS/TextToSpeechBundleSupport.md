@@ -50,8 +50,8 @@
 -  __AUTH_CONST.__cfstring: 0x3940
 +  __AUTH_CONST.__cfstring: 0x39a0
    __AUTH_CONST.__const: 0x1080
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_const: 0x5a0
+   __AUTH_CONST.__objc_arrayobj: 0x60
 
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x1f0
@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B95A2E1-0300-3DE8-95D0-23DBD8A0506F
 -  Functions: 1281
 -  Symbols:   3636
--  CStrings:  1871
+-  CStrings:  2329
++  UUID: 90FAC927-0633-319D-9D19-AB3B1D2B38EB
 +  Functions: 1289
 +  Symbols:   3662
-+  CStrings:  1882
++  CStrings:  2343
  
 Symbols:
 + -[TTSSiriSynthWrapper _applyPostRuleRewrites:]

@@ -65,12 +65,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4E4490BB-F6EF-333A-852B-BA7D1064593B
 -  Functions: 11073
 -  Symbols:   35539
--  CStrings:  18036
+-  CStrings:  22798
++  UUID: B26CF556-11C0-3A55-AAA0-44CA5578403A
 +  Functions: 11081
 +  Symbols:   35561
-+  CStrings:  18051
++  CStrings:  22817
  
 Symbols:
 + +[AFFeatureFlags(SWEFeatureFlags) isServerFallbackDisabledForAllLocales]

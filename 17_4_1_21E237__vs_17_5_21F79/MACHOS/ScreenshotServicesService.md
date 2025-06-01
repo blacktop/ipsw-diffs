@@ -77,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E7031F82-6833-3AEA-B98C-253807979582
 -  Functions: 2475
 -  Symbols:   830
--  CStrings:  4254
+-  CStrings:  4517
++  UUID: 6289EFA5-BC4C-3478-93C8-8508442CA518
 +  Functions: 2478
 +  Symbols:   833
-+  CStrings:  4275
++  CStrings:  4538
  
 Symbols:
 + _OBJC_CLASS_$_FMDFMIPManager

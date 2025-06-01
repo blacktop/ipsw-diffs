@@ -37,11 +37,15 @@
    __DATA.__data: 0x400
    __DATA.__bss: 0x90
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6CD25CA9-3DD7-3CAE-970C-1D39A226573E
++  UUID: 8FF4971D-93BE-3E2E-9336-E62B1EBC0853
    Functions: 575
    Symbols:   2517
--  CStrings:  1539
-+  CStrings:  1540
+-  CStrings:  1636
++  CStrings:  1637
  
 CStrings:
 + "T@\"NSString\",?,R,C"

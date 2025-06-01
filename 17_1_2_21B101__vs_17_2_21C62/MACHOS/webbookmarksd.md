@@ -50,11 +50,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D694906E-20EC-3E58-941F-C1F4B68C94EF
 -  Functions: 353
++  UUID: FB9FB215-7616-3098-B134-B6D300C1BC57
 +  Functions: 354
    Symbols:   272
--  CStrings:  700
-+  CStrings:  698
+-  CStrings:  750
++  CStrings:  748
  
 CStrings:
 + "\x03\x11"

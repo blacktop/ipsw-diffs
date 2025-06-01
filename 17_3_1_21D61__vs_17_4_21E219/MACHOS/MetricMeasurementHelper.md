@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x300
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpmsample.dylib
    - /usr/lib/libsysmon.dylib
+-  UUID: 839ECCE8-6453-3D78-B7FC-2A16334CF39F
++  UUID: E3A4312E-0144-30D8-A7B6-2DCD49329C56
    Functions: 71
    Symbols:   127
--  CStrings:  240
-+  CStrings:  241
+-  CStrings:  250
++  CStrings:  251
  
 CStrings:
 + "T@\"NSString\",?,R,C"

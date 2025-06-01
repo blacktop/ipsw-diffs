@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/StorageData.framework/StorageData
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6DAB9C13-76A4-366C-9AEE-7F4A78B9449F
 -  Functions: 659
 -  Symbols:   2641
--  CStrings:  1474
+-  CStrings:  1611
++  UUID: 54E1BAD0-BA12-359B-A061-FFE8211C3441
 +  Functions: 691
 +  Symbols:   2753
-+  CStrings:  1528
++  CStrings:  1672
  
 Symbols:
 + -[DKAccountProvider primaryAppleAccountAllowsOfflineEraseWithCompletion:]

@@ -33,13 +33,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libauthinstall.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75D26628-0E2C-3653-B471-1D4560F83838
++  UUID: A3844A9C-5CA7-3E5F-9683-7643C6EC7DD6
    Functions: 135
 -  Symbols:   560
--  CStrings:  210
+-  CStrings:  278
 +  Symbols:   559
-+  CStrings:  208
++  CStrings:  276
  
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev

@@ -20,6 +20,15 @@
    __TEXT.__objc_methtype: 0x2d2
    __TEXT.__objc_stubs: 0x1380
    __DATA_CONST.__got: 0x1b8
+
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EF3BBFA2-D640-3AE1-BFD7-510A4222562E
++  UUID: A0C2C8CA-4857-3FE3-87DD-94A52E633808
+   Functions: 62
+   Symbols:   521
+   CStrings:  332
 Symbols:
 + _objc_msgSend$tracksWithMediaType:forAsset:
 - _objc_msgSend$tracksWithMediaType:

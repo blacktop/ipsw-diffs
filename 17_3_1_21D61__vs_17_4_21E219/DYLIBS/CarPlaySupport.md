@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__cfstring: 0x13a0
 +  __AUTH_CONST.__cfstring: 0x1440
    __AUTH_CONST.__const: 0x540
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x400
    __AUTH.__objc_data: 0x2760
 -  __DATA.__objc_protorefs: 0x68
@@ -70,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 10D6EB3B-428F-3A3B-8558-E498E5015890
 -  Functions: 2952
 -  Symbols:   11723
--  CStrings:  5180
+-  CStrings:  5337
++  UUID: 3EA88FE7-6B7A-395E-B87C-F75886ED6D6F
 +  Functions: 3009
 +  Symbols:   11913
-+  CStrings:  5279
++  CStrings:  5441
  
 Symbols:
 + +[CPSMultilineLabel _rangeOfTrailingWhiteSpace:]

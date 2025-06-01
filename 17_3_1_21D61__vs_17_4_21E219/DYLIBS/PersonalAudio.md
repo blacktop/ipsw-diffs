@@ -47,11 +47,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8ADC0F1A-5983-363B-A2CE-8D441A1F8284
 -  Functions: 266
 -  Symbols:   1111
++  UUID: 7501916E-32B6-3F2D-8C26-6BE04900BB79
 +  Functions: 268
 +  Symbols:   1115
-   CStrings:  657
+   CStrings:  818
  
 Symbols:
 + GCC_except_table39

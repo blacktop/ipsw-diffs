@@ -46,9 +46,8 @@
 +  __DATA_CONST.__objc_classrefs: 0x148
 +  __DATA_CONST.__objc_superrefs: 0x68
    __AUTH_CONST.__objc_const: 0xd0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__cfstring: 0xb00
-
+   __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x470
    __AUTH.__objc_data: 0x50
    __AUTH.__data: 0x8
@@ -73,12 +72,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1D196E0A-52D5-36FC-8C31-79872926799E
 -  Functions: 496
 -  Symbols:   1969
--  CStrings:  927
+-  CStrings:  1015
++  UUID: 85D2485B-2672-3CB0-88CE-078135C64E0E
 +  Functions: 510
 +  Symbols:   2013
-+  CStrings:  955
++  CStrings:  1043
  
 Symbols:
 + -[AAFAnalyticsTransportInProcessRTC _sendMessageWithCategory:payload:error:]

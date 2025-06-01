@@ -30,12 +30,15 @@
    __DATA_CONST.__cfstring: 0x120
    __DATA_CONST.__objc_classlist: 0x10
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BF0538A9-6B62-318A-9FEF-A430D5AEF4BE
++  UUID: 083CE643-9C86-3671-B61F-14E72E5C1CF4
    Functions: 29
 -  Symbols:   74
 +  Symbols:   76
-   CStrings:  239
+   CStrings:  248
  
 Symbols:
 + _GKRemoteAlertUserInfoDashboardLaunchContextKey

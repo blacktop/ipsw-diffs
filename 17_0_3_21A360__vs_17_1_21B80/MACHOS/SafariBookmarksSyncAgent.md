@@ -59,12 +59,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4EEF70CD-9DE6-3F5E-8756-E2CCC6AFD3E6
 -  Functions: 3655
 -  Symbols:   413
--  CStrings:  5034
+-  CStrings:  5472
++  UUID: 407F0DAC-AC45-3805-A1C1-AB9B3D4C4351
 +  Functions: 3656
 +  Symbols:   412
-+  CStrings:  5006
++  CStrings:  5444
  
 Symbols:
 - _OBJC_CLASS_$_WBTabGroupManager

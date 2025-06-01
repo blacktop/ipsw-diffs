@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0x3
    __TEXT.__gcc_except_tab: 0x64
 
+   - /usr/lib/libAWDSupportFramework.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1921F6F4-8724-376A-AC9F-1D7149576234
++  UUID: 164B1911-AE62-3FC0-BE1E-27F5D0C4A2E2
+   Functions: 946
+   Symbols:   3492
+   CStrings:  2028
+
 ```

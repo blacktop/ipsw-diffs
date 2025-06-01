@@ -20,6 +20,15 @@
    __TEXT.__unwind_info: 0x910
    __DATA_CONST.__auth_got: 0xe08
    __DATA_CONST.__got: 0x198
+
+   - /usr/lib/libimg4.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: E780DCDD-A335-33F7-89BE-5BEDAC9C812D
++  UUID: E8667D42-FADF-3FF4-8C67-BA09B3AFEE63
+   Functions: 903
+   Symbols:   534
+   CStrings:  1469
 CStrings:
 + "%s: identity blob = %.*P"
 + "369.60.3"

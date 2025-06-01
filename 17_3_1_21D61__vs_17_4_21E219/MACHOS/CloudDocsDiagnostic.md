@@ -52,12 +52,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 27885A3D-98FF-3E0D-ACC8-A7B7B9116C79
 -  Functions: 10
 -  Symbols:   76
--  CStrings:  64
++  UUID: 64C97DF0-D110-3C2B-BC1F-A59E9163E872
 +  Functions: 13
 +  Symbols:   77
-+  CStrings:  65
+   CStrings:  73
  
 Symbols:
 + _objc_msgSendSuper2

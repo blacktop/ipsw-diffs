@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4DD2F9D5-5066-35AA-84AA-B2E7D562C487
 -  Functions: 209
 -  Symbols:   931
--  CStrings:  488
+-  CStrings:  619
++  UUID: 15143823-C83D-3C46-A500-6E865DA6B5C2
 +  Functions: 213
 +  Symbols:   943
-+  CStrings:  493
++  CStrings:  626
  
 Symbols:
 + -[AFCredentialManager oneTimeCodeProvider]

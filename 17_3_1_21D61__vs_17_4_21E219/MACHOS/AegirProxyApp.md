@@ -32,7 +32,9 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: B5944710-207C-380F-8E87-505D4B122F83
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 19B7B2CA-2EDA-31A3-9D5B-B379495D7DCE
    Functions: 13
 -  Symbols:   45
 +  Symbols:   47

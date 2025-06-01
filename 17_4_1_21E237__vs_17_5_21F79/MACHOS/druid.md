@@ -50,11 +50,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AB128FB3-5B29-3749-BAC6-D332B1FA0E61
 -  Functions: 1196
++  UUID: 01D9C5FD-0E8D-3B31-B9ED-D1DED95662DA
 +  Functions: 1201
    Symbols:   382
--  CStrings:  2561
-+  CStrings:  2572
+-  CStrings:  2679
++  CStrings:  2690
  
 CStrings:
 + "T@\"NSSet\",?,R,C,N"

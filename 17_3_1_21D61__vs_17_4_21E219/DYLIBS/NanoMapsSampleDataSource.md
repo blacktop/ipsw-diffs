@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/RelevanceEngineUI.framework/RelevanceEngineUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 24A3E611-04F2-3A64-B8EF-C38BE4238D6D
++  UUID: 282DC7AB-0EBA-3EC3-9846-43D0FC8F2D70
+   Functions: 5
+   Symbols:   43
+   CStrings:  36
+
 ```

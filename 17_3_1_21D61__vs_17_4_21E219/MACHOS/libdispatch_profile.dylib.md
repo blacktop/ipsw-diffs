@@ -33,9 +33,11 @@
    - /System/DriverKit/usr/lib/system/libsystem_malloc.dylib
    - /System/DriverKit/usr/lib/system/libsystem_platform.dylib
    - /System/DriverKit/usr/lib/system/libsystem_pthread.dylib
+-  UUID: 816E379E-8796-3D8D-A75D-AC537581FAC1
 -  Functions: 1488
 -  Symbols:   1915
 -  CStrings:  497
++  UUID: 120719A4-FF1C-3D70-9538-861D58B0F141
 +  Functions: 1502
 +  Symbols:   1932
 +  CStrings:  499

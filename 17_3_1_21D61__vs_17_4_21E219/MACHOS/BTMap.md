@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E3F096EA-9A0F-3376-A2CC-8C12787F0C71
++  UUID: 90E4B9BC-F1BE-3315-ABAD-0C272427640A
    Functions: 96
    Symbols:   140
--  CStrings:  299
-+  CStrings:  300
+-  CStrings:  331
++  CStrings:  332
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD64CE2E-4C42-3E06-897B-B1FA89C3ACC5
 -  Functions: 634
 -  Symbols:   363
--  CStrings:  2340
+-  CStrings:  2651
++  UUID: 74DA6A3E-CB90-3AFA-857D-CCCB1FA9C64E
 +  Functions: 643
 +  Symbols:   369
-+  CStrings:  2320
++  CStrings:  2634
  
 Symbols:
 + _AFBuildVersion

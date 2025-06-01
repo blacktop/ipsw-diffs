@@ -71,7 +71,6 @@
 -  __AUTH_CONST.__const: 0x41d0
 -  __AUTH_CONST.__objc_intobj: 0x678
 -  __AUTH_CONST.__objc_arrayobj: 0xc0
--  __AUTH_CONST.__auth_ptr: 0xa0
 +  __DATA_CONST.__objc_const: 0x164d0
 +  __DATA_CONST.__objc_selrefs: 0xa498
 +  __DATA_CONST.__objc_arraydata: 0x98
@@ -80,7 +79,6 @@
 +  __AUTH_CONST.__const: 0x4368
 +  __AUTH_CONST.__objc_intobj: 0x6c0
 +  __AUTH_CONST.__objc_arrayobj: 0xd8
-+  __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__objc_floatobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1a78
 -  __AUTH.__objc_data: 0x1a58
@@ -121,12 +119,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E766221D-74DF-3538-A8C0-B765FC6846E9
 -  Functions: 7452
 -  Symbols:   2029
--  CStrings:  15871
+-  CStrings:  19865
++  UUID: 984A5076-6749-372B-AEDC-943204797914
 +  Functions: 7532
 +  Symbols:   2065
-+  CStrings:  13499
++  CStrings:  14805
  
 Symbols:
 + _IMAccountInfoBuddyPropertiesKey

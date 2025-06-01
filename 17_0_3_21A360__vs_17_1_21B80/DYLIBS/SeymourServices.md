@@ -56,12 +56,10 @@
    __AUTH_CONST.__objc_const: 0x420
    __AUTH_CONST.__objc_intobj: 0x18
 -  __AUTH_CONST.__const: 0x44d00
--  __AUTH_CONST.__auth_ptr: 0xc60
 -  __AUTH_CONST.__auth_got: 0x56d0
 -  __AUTH.__objc_data: 0x2b10
 -  __AUTH.__data: 0x7150
 +  __AUTH_CONST.__const: 0x44c90
-+  __AUTH_CONST.__auth_ptr: 0xc58
 +  __AUTH_CONST.__auth_got: 0x5750
 +  __AUTH.__objc_data: 0x2b60
 +  __AUTH.__data: 0x7260
@@ -89,12 +87,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ADCA3266-C6D6-3CEB-8932-F00C3D3EC631
 -  Functions: 31993
 -  Symbols:   8686
--  CStrings:  4930
+-  CStrings:  4953
++  UUID: 5C0FB54A-0E2F-3B39-8EB4-8376507F8E97
 +  Functions: 31975
 +  Symbols:   8704
-+  CStrings:  4945
++  CStrings:  4968
  
 Symbols:
 + _associated conformance 15SeymourServices14SetCoverStatusOSHAASQ

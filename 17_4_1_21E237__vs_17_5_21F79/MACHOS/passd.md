@@ -65,12 +65,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2B706F86-1F6C-3FD4-856E-8ECF012ABA7B
 -  Functions: 21883
 -  Symbols:   2615
--  CStrings:  30154
+-  CStrings:  35665
++  UUID: 9398BF10-21CD-3E49-8C62-AD6720432FE8
 +  Functions: 21922
 +  Symbols:   2616
-+  CStrings:  30303
++  CStrings:  35888
  
 Symbols:
 + _PKDeviceVersionMeetsRequiredVersion

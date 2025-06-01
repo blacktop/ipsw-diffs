@@ -16,6 +16,15 @@
    __TEXT.__oslogstring: 0xe
    __TEXT.__dlopen_cstrs: 0x58
    __TEXT.__unwind_info: 0x1d8
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2EDB5FBC-7435-3981-9CA2-0D85A86C225E
++  UUID: 2145FB4D-32CF-3B59-B7C7-16AF04CC96A1
+   Functions: 137
+   Symbols:   692
+   CStrings:  1046
 CStrings:
 + "ZhuGe-267.40.4"
 - "ZhuGe-267.0.1"

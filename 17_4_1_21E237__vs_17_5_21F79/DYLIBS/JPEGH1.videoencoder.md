@@ -12,4 +12,13 @@
    __TEXT.__const: 0x10
    __TEXT.__cstring: 0xd4
 
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 0F0E2B35-9A4B-3A72-8D26-6F261917A7BC
++  UUID: 4C66245F-3747-3C7F-AD84-E50E19FBE6C3
+   Functions: 26
+   Symbols:   184
+   CStrings:  16
+
 ```

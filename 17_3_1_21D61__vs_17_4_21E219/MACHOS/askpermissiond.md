@@ -47,11 +47,15 @@
    __DATA.__objc_data: 0xd20
    __DATA.__data: 0x360
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6C175A4-F1FD-3103-A799-DAEFD9A65882
++  UUID: 6EB428D6-4CA6-3B6A-AC26-57768E359E38
    Functions: 539
    Symbols:   194
--  CStrings:  1323
-+  CStrings:  1324
+-  CStrings:  1522
++  CStrings:  1523
  
 CStrings:
 + "23:30:22"

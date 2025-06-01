@@ -80,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 728FEF2E-5E56-3704-817B-F70077EB5018
 -  Functions: 4336
 -  Symbols:   802
--  CStrings:  8268
+-  CStrings:  9656
++  UUID: 011608AF-4F81-35ED-994F-9FAD90A9F824
 +  Functions: 4564
 +  Symbols:   834
-+  CStrings:  8725
++  CStrings:  10184
  
 Symbols:
 + _ICPlaybackPositionEntityIdentifierForProperties

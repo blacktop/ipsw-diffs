@@ -32,7 +32,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE033A23-DA8E-3F9A-B935-217CC3488862
++  UUID: A0E2BAFE-2DB5-3B02-9163-4750638120A9
    Functions: 7
    Symbols:   51
 -  CStrings:  76

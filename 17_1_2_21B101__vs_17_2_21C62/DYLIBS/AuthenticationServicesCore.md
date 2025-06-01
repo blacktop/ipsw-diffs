@@ -55,7 +55,6 @@
 +  __AUTH_CONST.__const: 0x19a8
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__auth_got: 0xf88
 +  __AUTH_CONST.__auth_got: 0xf98
    __AUTH.__objc_data: 0x0
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2AB2B661-6951-3B77-8272-FAEBCCC6BCAA
 -  Functions: 3416
 -  Symbols:   3875
--  CStrings:  1914
+-  CStrings:  2121
++  UUID: E677B92A-8826-36A0-94AD-9A3569C19DB3
 +  Functions: 3423
 +  Symbols:   3899
-+  CStrings:  1928
++  CStrings:  2138
  
 Symbols:
 + -[ASCAgent _hasAnyCredentialsAvailableForRequestContext:]

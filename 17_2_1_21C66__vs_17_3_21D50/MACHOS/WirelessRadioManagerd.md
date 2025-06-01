@@ -34,10 +34,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A25D1843-0608-3837-828C-C100562C78CC
 -  Functions: 6587
++  UUID: 57A010DF-E083-3325-B9EB-8E48A8E72487
 +  Functions: 6588
    Symbols:   732
-   CStrings:  13103
+   CStrings:  17928
  
 
 ```

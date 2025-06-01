@@ -50,12 +50,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0A63D437-75E6-3E55-A45D-5E7DBF63A5E2
 -  Functions: 538
 -  Symbols:   245
--  CStrings:  1366
+-  CStrings:  1470
++  UUID: 25990B0B-6AD7-3829-AB0C-281EA487ADDA
 +  Functions: 539
 +  Symbols:   244
-+  CStrings:  1368
++  CStrings:  1472
  
 Symbols:
 - _objc_retain_x5

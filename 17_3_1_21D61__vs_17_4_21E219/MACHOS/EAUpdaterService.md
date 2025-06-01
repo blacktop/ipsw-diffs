@@ -57,12 +57,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EE7E26E-3D90-342C-93AC-08D319E299CC
 -  Functions: 341
 -  Symbols:   548
--  CStrings:  1636
+-  CStrings:  2335
++  UUID: D332311F-CE5E-3887-8ED4-E40091B11DA4
 +  Functions: 349
 +  Symbols:   587
-+  CStrings:  1676
++  CStrings:  2407
  
 Symbols:
 + _OBJC_CLASS_$_UARPSupportedAccessory

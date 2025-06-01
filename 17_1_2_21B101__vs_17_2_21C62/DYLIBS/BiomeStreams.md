@@ -31,7 +31,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x80
 -  __AUTH_CONST.__auth_got: 0x1158
 +  __AUTH_CONST.__auth_got: 0x1150
    __AUTH.__objc_data: 0x24a0
@@ -46,12 +45,15 @@
    __DATA.__thread_data: 0x112
    __DATA.__thread_bss: 0x7a8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: CBCFBA34-C7EE-31A4-998D-87BD220CD1CC
++  UUID: 9A36A692-BC6B-35A5-AA5A-0464C8371FDD
    Functions: 27717
 -  Symbols:   77171
 +  Symbols:   77167
-   CStrings:  15174
+   CStrings:  16301
  
 Symbols:
 + _$s12BiomeStreams16MetadataSQLErrorOACs5ErrorAAWlTm

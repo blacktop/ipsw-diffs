@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x2995
    __TEXT.__objc_methtype: 0xa61
 
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D1B306E6-E1B9-3D25-81E9-0ED3664874B9
++  UUID: EB786635-A1B3-336B-ADCE-56B0C14D09F0
+   Functions: 401
+   Symbols:   1610
+   CStrings:  914
+
 ```

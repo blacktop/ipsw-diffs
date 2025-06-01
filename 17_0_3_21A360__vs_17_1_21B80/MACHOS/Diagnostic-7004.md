@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D80F6C7C-16B3-3FA7-AE57-332A9B361349
 -  Functions: 20
 -  Symbols:   64
--  CStrings:  113
+-  CStrings:  127
++  UUID: 7ECB3023-7B03-3649-B287-23655FA8B521
 +  Functions: 8
 +  Symbols:   45
-+  CStrings:  81
++  CStrings:  87
  
 Symbols:
 + _SavageCamInterfaceColdBootPowerCycle

@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/FamilyCircleUI.framework/FamilyCircleUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B24CE40A-7CFA-360D-9C60-D24B41ADF497
++  UUID: FDF008B5-A178-3072-8860-CDF9F98B4478
+   Functions: 23
+   Symbols:   61
+   CStrings:  66
+
 ```

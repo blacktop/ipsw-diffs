@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x4b0
    __DATA.__data: 0x420
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 10ED97C5-2558-3B2F-BE0D-0607D22343DE
++  UUID: DE4D935D-A21B-34BC-BDAC-BDD7A01A19B0
    Functions: 70
    Symbols:   106
--  CStrings:  423
-+  CStrings:  425
+-  CStrings:  430
++  CStrings:  432
  
 CStrings:
 + "T@\"<BNPresentableContext>\",?,W,N"

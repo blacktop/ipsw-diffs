@@ -35,15 +35,18 @@
 +  __DATA_CONST.__objc_selrefs: 0x2dd8
    __DATA_CONST.__objc_arraydata: 0xb0
    __AUTH_CONST.__const: 0x588
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__cfstring: 0x4560
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48EB9C84-413A-35E4-90C2-1FA5E40266B7
++  UUID: E17728DB-B130-34B3-B182-57AA86C930E9
    Functions: 2006
 -  Symbols:   6173
--  CStrings:  4325
+-  CStrings:  4880
 +  Symbols:   6175
-+  CStrings:  4327
++  CStrings:  4882
  
 Symbols:
 + _objc_msgSend$setVoiceTriggerEnabled:sender:deviceType:endpointId:

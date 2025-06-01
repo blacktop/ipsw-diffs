@@ -60,12 +60,14 @@
 +  - /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 376B18A6-A6C6-32AE-8290-54342B520EAB
 -  Functions: 25
 -  Symbols:   52
--  CStrings:  227
+-  CStrings:  234
++  UUID: BAC88BA0-7A5C-3B1E-9A13-EDF365F96733
 +  Functions: 12
 +  Symbols:   44
-+  CStrings:  185
++  CStrings:  191
  
 Symbols:
 + __NDOLogSystem

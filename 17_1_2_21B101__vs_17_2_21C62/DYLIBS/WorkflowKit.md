@@ -64,11 +64,9 @@
 +  __DATA_CONST.__objc_selrefs: 0xf868
    __DATA_CONST.__objc_arraydata: 0x12c8
    __AUTH_CONST.__const: 0x5ed0
--  __AUTH_CONST.__auth_ptr: 0xb8
 -  __AUTH_CONST.__objc_const: 0x19280
 -  __AUTH_CONST.__cfstring: 0x27160
 -  __AUTH_CONST.__objc_intobj: 0x12a8
-+  __AUTH_CONST.__auth_ptr: 0xc0
 +  __AUTH_CONST.__objc_const: 0x19350
 +  __AUTH_CONST.__cfstring: 0x27100
 +  __AUTH_CONST.__objc_intobj: 0x12c0
@@ -106,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9B76B24B-1E66-32FC-BF48-366708306BC3
 -  Functions: 17828
 -  Symbols:   51659
--  CStrings:  21555
+-  CStrings:  26558
++  UUID: BE965FC5-A3A9-3385-AF65-36711195FB1A
 +  Functions: 17849
 +  Symbols:   51712
-+  CStrings:  21560
++  CStrings:  26560
  
 Symbols:
 + -[LNSearchCriteriaValueType(ContentItem) wf_contentItemClassWithAppBundleIdentifier:]

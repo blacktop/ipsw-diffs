@@ -38,6 +38,8 @@
    - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
    - @rpath/libclang_rt.asan_ios_dynamic.dylib
+-  UUID: 30E50C18-BE3B-3843-9FB4-0BEFF899B767
++  UUID: 4D156017-9D2B-3064-87D7-42DA9C739B56
    Functions: 9
 -  Symbols:   97
 +  Symbols:   99

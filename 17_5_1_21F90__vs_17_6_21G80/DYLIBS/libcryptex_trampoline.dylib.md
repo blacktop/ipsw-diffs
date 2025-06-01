@@ -14,6 +14,15 @@
    __TEXT.__oslogstring: 0x104
    __TEXT.__unwind_info: 0x74
    __DATA_CONST.__got: 0x10
+
+   __DATA.__bss: 0x10
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcryptex_interface.dylib
+-  UUID: A424645A-4990-36E7-A3EB-A0E7AE74CEBB
++  UUID: 80C9DBA4-3ABF-30C3-858E-74DD1C325056
+   Functions: 11
+   Symbols:   52
+   CStrings:  15
 CStrings:
 + "369.140.2"
 + "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Sun Jun 30 11:36:24 PDT 2024; root:libcryptex-369.140.2~150/libcryptex_trampoline/RELEASE_ARM64E"

@@ -21,6 +21,15 @@
    __TEXT.__objc_methtype: 0xdad
    __TEXT.__objc_stubs: 0x3180
    __DATA_CONST.__got: 0xc8
+
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D6D88C46-4057-32A8-B5AD-CBBE30569DAB
++  UUID: FD5BCD9A-4141-3667-A28E-5702571C11E9
+   Functions: 561
+   Symbols:   2472
+   CStrings:  1238
 Symbols:
 + _objc_msgSend$requestRadarWithDisplayReason:radarTitle:
 - _objc_msgSend$requestRadarWithMessage:radarTitle:

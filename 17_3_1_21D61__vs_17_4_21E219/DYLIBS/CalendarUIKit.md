@@ -73,13 +73,16 @@
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6F9A698B-B609-36AD-9CDF-DB76A0E8AE24
++  UUID: 2861700F-2DB7-3041-ABE8-CCF947892B47
    Functions: 2598
 -  Symbols:   9113
--  CStrings:  4712
+-  CStrings:  5635
 +  Symbols:   9115
-+  CStrings:  4715
++  CStrings:  5639
  
 Symbols:
 + -[CUIKOccurrenceCacheSearchDataSource _updateCachedDays]

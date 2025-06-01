@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DFD6DFDD-AABB-313B-993F-B756D8637531
 -  Functions: 5498
 -  Symbols:   652
--  CStrings:  8083
+-  CStrings:  9503
++  UUID: B727DF3A-7408-3CB1-B4DF-DEE1294F2104
 +  Functions: 5499
 +  Symbols:   653
-+  CStrings:  8085
++  CStrings:  9505
  
 Symbols:
 + _NRDevicePropertyMedicationScheduleCompatibilityVersion

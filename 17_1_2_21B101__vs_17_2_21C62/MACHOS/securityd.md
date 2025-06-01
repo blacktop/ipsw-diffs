@@ -85,12 +85,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 64686ED0-09C5-328E-881F-D5DCAEDFC4B3
 -  Functions: 9090
 -  Symbols:   1366
--  CStrings:  15014
+-  CStrings:  18351
++  UUID: 73F32207-8A8D-3CA5-9AA3-C3927D4A02C3
 +  Functions: 9146
 +  Symbols:   1367
-+  CStrings:  15176
++  CStrings:  18593
  
 Symbols:
 + _objc_retain_x7

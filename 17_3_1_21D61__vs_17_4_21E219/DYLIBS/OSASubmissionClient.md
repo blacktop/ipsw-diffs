@@ -37,11 +37,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__const: 0x40
 
+   - /System/Library/PrivateFrameworks/OSAnalyticsPrivate.framework/OSAnalyticsPrivate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47EB2117-3F95-398D-8150-427663AFFFFC
++  UUID: 71122365-DDCB-3A99-ACC6-B9DD4C23491E
    Functions: 33
    Symbols:   261
--  CStrings:  173
-+  CStrings:  174
+-  CStrings:  193
++  CStrings:  194
  
 Symbols:
 + __unnamed_array_storage.82

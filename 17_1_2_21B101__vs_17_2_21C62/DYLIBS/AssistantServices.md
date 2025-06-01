@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__objc_dictobj: 0xaa0
    __AUTH_CONST.__objc_arrayobj: 0x5a0
    __AUTH_CONST.__objc_doubleobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xaa8
 -  __AUTH.__objc_data: 0x6fe0
 +  __AUTH_CONST.__auth_got: 0xab0
@@ -91,12 +90,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B26CF556-11C0-3A55-AAA0-44CA5578403A
 -  Functions: 11081
 -  Symbols:   35561
--  CStrings:  18051
+-  CStrings:  22817
++  UUID: F1EECDD4-32C0-3A47-996C-A3A4F7A70CA9
 +  Functions: 11169
 +  Symbols:   35822
-+  CStrings:  18213
++  CStrings:  23002
  
 Symbols:
 + +[AFBluetoothDeviceBooleanSettingResponse newWithBuilder:]

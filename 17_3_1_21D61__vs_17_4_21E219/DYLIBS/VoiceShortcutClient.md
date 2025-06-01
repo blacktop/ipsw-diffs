@@ -55,6 +55,10 @@
 -  __DATA_CONST.__objc_selrefs: 0x4860
 -  __DATA_CONST.__objc_arraydata: 0xff0
 -  __AUTH_CONST.__const: 0x3a58
+-  __AUTH_CONST.__cfstring: 0x11d40
+-  __AUTH_CONST.__objc_const: 0x69c8
+-  __AUTH_CONST.__objc_intobj: 0x2c40
+-  __AUTH_CONST.__objc_arrayobj: 0x1c8
 +  __DATA_CONST.__objc_const: 0xf0c8
 +  __DATA_CONST.__objc_selrefs: 0x4948
 +  __DATA_CONST.__objc_protorefs: 0x60
@@ -62,11 +66,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x648
 +  __DATA_CONST.__objc_arraydata: 0xfc0
 +  __AUTH_CONST.__const: 0x3af8
-   __AUTH_CONST.__auth_ptr: 0x48
--  __AUTH_CONST.__cfstring: 0x11d40
--  __AUTH_CONST.__objc_const: 0x69c8
--  __AUTH_CONST.__objc_intobj: 0x2c40
--  __AUTH_CONST.__objc_arrayobj: 0x1c8
 +  __AUTH_CONST.__cfstring: 0x12060
 +  __AUTH_CONST.__objc_const: 0x6cd8
 +  __AUTH_CONST.__objc_intobj: 0x2c28
@@ -98,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 19833AEE-5F23-3AC2-9290-E4F6EF2AE829
 -  Functions: 5095
 -  Symbols:   13885
--  CStrings:  7349
+-  CStrings:  9631
++  UUID: 17AACADE-6FBD-343A-9BA1-A179112C0182
 +  Functions: 5145
 +  Symbols:   14154
-+  CStrings:  7441
++  CStrings:  9748
  
 Symbols:
 + +[WFAutoShortcutContextualAction legacySpotlightDomainIdentifier]

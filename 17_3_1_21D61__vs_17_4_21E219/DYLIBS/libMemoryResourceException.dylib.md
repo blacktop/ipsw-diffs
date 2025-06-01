@@ -73,12 +73,14 @@
    - /System/Library/PrivateFrameworks/Symbolication.framework/Symbolication
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C51C0D96-51C1-33CA-86C4-7DEE0EF7C6B6
 -  Functions: 441
 -  Symbols:   305
--  CStrings:  1250
+-  CStrings:  1549
++  UUID: 1235F741-4B91-386A-B201-0A59A7FD641C
 +  Functions: 452
 +  Symbols:   306
-+  CStrings:  1277
++  CStrings:  1579
  
 Symbols:
 + _objc_retain_x4

@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x7b8
 +  __AUTH_CONST.__auth_got: 0x7c0
    __AUTH.__objc_data: 0x23f0
@@ -68,12 +67,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7FF4AD28-80EA-3B3C-866B-347F1C88D6EA
 -  Functions: 2477
 -  Symbols:   8681
--  CStrings:  3954
+-  CStrings:  4462
++  UUID: A11F021F-822F-319C-A301-196BADCA1B03
 +  Functions: 2485
 +  Symbols:   8711
-+  CStrings:  3968
++  CStrings:  4476
  
 Symbols:
 + -[ASAuthorizationViewController _replaceRequestPaneViewControllerWithExpandedLoginChoiceList:]

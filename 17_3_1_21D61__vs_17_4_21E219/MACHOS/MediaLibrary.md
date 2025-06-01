@@ -24,4 +24,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 446A17B3-3409-3625-84B8-E7C83C3BD0D3
++  UUID: A6BFF3E9-8300-3FA1-823B-4451AA9E6314
+   Functions: 7
+   Symbols:   39
+   CStrings:  68
+
 ```

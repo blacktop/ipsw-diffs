@@ -36,13 +36,16 @@
    __AUTH_CONST.__cfstring: 0xda0
    __AUTH_CONST.__objc_const: 0x300
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0327CEAA-55D0-305A-BCA9-79B08A65CFD5
++  UUID: C6278EF4-CA97-3719-AA92-313F759E2C12
    Functions: 829
 -  Symbols:   1913
--  CStrings:  970
+-  CStrings:  1079
 +  Symbols:   1914
-+  CStrings:  971
++  CStrings:  1080
  
 Symbols:
 + _objc_msgSend$collatorIdentifier

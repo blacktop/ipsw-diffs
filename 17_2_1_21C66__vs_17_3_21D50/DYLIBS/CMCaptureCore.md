@@ -13,6 +13,15 @@
    __TEXT.__oslogstring: 0x35
    __TEXT.__const: 0xe
    __TEXT.__unwind_info: 0x6c
+
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C055B75-DF9A-3848-AE07-B3D2A28B7685
++  UUID: F50B04C5-EE92-309D-BCED-790B89479508
+   Functions: 6
+   Symbols:   2237
+   CStrings:  4025
 CStrings:
 + "description=CameraCapture_CMCore-472.1.2"
 - "description=CameraCapture_CMCore-470.16.1"

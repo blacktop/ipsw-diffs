@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 9755FD79-E09B-3036-BBA7-03200F90F73B
 -  Functions: 266
 -  Symbols:   1033
--  CStrings:  717
+-  CStrings:  765
++  UUID: 66DDBA59-215E-3485-BBC1-CD86DC666835
 +  Functions: 292
 +  Symbols:   1129
-+  CStrings:  760
++  CStrings:  808
  
 Symbols:
 + +[FLContainerStorePathManager canLookupFeedbackLoggerMachService]

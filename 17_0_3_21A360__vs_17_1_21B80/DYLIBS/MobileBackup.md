@@ -45,12 +45,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E97A1FF6-41C0-3551-8DFC-491000992CDE
 -  Functions: 1877
 -  Symbols:   5915
--  CStrings:  4034
+-  CStrings:  4856
++  UUID: B517223E-F6A1-3A05-A20B-C34AA8D28586
 +  Functions: 1878
 +  Symbols:   5918
-+  CStrings:  4037
++  CStrings:  4861
  
 Symbols:
 + -[MBManager initWithAccount:delegate:eventQueue:error:]

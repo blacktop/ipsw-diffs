@@ -48,13 +48,16 @@
    __DATA_DIRTY.__data: 0x4
    __DATA_DIRTY.__bss: 0x90
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7C4AF1E-C35D-387E-871D-97834FCCD644
++  UUID: C429D534-12AB-36AE-A4C0-64F87CCA331E
    Functions: 1862
 -  Symbols:   6241
--  CStrings:  2741
+-  CStrings:  3296
 +  Symbols:   6242
-+  CStrings:  2742
++  CStrings:  3298
  
 Symbols:
 + _ACAccountDataclassPhoneFaceTime

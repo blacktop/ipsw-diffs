@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x1236
    __TEXT.__objc_methtype: 0x2d0
 
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 14DB8219-DF20-3A1C-9B0F-4AC5FD8A7889
++  UUID: 71F03BA3-E2A3-34E3-A2D1-6A15C50E9D9A
+   Functions: 133
+   Symbols:   613
+   CStrings:  356
+
 ```

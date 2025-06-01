@@ -24,7 +24,6 @@
 -  __AUTH_CONST.__const: 0x28ad8
 +  __AUTH_CONST.__cfstring: 0x79e0
 +  __AUTH_CONST.__const: 0x28c00
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__auth_got: 0xaa8
 -  __DATA.__data: 0x167c
 -  __DATA.__bss: 0x6d30
@@ -36,12 +35,14 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 24583CE5-B5D9-313F-9962-35648974A762
 -  Functions: 29194
 -  Symbols:   73622
--  CStrings:  10042
+-  CStrings:  11016
++  UUID: 7E478F3C-0E6F-395F-9D40-37262B18185A
 +  Functions: 29207
 +  Symbols:   73674
-+  CStrings:  10043
++  CStrings:  11018
  
 Symbols:
 + __ZGVZNK12ZinIrHalH16g9GetParamsEvE22ZinIrHalH16gParameters

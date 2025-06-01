@@ -72,12 +72,14 @@
    - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 347A4674-95F5-39E6-AD09-10380E014126
 -  Functions: 531
 -  Symbols:   141
--  CStrings:  740
+-  CStrings:  857
++  UUID: CAF089F6-3E2B-3F42-A366-9EF11FD46AEB
 +  Functions: 667
 +  Symbols:   150
-+  CStrings:  838
++  CStrings:  964
  
 Symbols:
 + _IOPSGetPercentRemaining

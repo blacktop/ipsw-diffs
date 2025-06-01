@@ -76,12 +76,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/BookCore.framework/BookCore
    - @rpath/BookEPUB.framework/BookEPUB
+-  UUID: B7BF041A-DA57-36C5-8DA8-092629971589
 -  Functions: 22795
 -  Symbols:   7492
--  CStrings:  33858
+-  CStrings:  38838
++  UUID: 8CCC4D2B-4668-30FA-9F6D-6565D629436F
 +  Functions: 22703
 +  Symbols:   7476
-+  CStrings:  33673
++  CStrings:  38629
  
 Symbols:
 - OBJC_IVAR_$_THAssetHelper.mProofingHelper
@@ -140,6 +142,7 @@ CStrings:
 - "Highlight"
 - "Host Manifest not set yet"
 - "Inactive Preview Connection"
+- "L"
 - "Landscape Preview Path"
 - "No bundleName given in metadata"
 - "Note"

@@ -36,4 +36,13 @@
    __DATA_DIRTY.__data: 0x1ce08
    __DATA_DIRTY.__bss: 0x9980
 
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: F0681204-125A-3E40-A4FC-14CEEC2F7882
++  UUID: 6669CBD0-CBCB-3E21-A054-5F7E6073C142
+   Functions: 45844
+   Symbols:   23163
+   CStrings:  10003
+
 ```

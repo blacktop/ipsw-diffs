@@ -31,7 +31,11 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9B6A2338-31B5-3A4F-8580-568A123A71A7
++  UUID: 224E12A2-A84A-330D-AED4-1E03E92348C5
    Functions: 13
    Symbols:   55
 -  CStrings:  107

@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B2BD91C8-9B70-32F8-B9DF-897A46DF87D3
 -  Functions: 491
 -  Symbols:   1824
--  CStrings:  1173
+-  CStrings:  1383
++  UUID: CCF53C2A-0A52-324E-AD2A-1EDF77522841
 +  Functions: 494
 +  Symbols:   1832
-+  CStrings:  1179
++  CStrings:  1390
  
 Symbols:
 + -[DAKeySharingSession createSilentSharingInvitationWithGroupIdentifier:completionHandler:]

@@ -48,11 +48,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3501CC68-3AC1-31A4-BC95-E4109759EF98
 -  Functions: 851
++  UUID: 0BFFF8A9-0E8A-3723-967C-A659743E3044
 +  Functions: 854
    Symbols:   193
--  CStrings:  1563
-+  CStrings:  1560
+-  CStrings:  1780
++  CStrings:  1771
  
 CStrings:
 + "%s: Failed to resolve path (%s) with error %d (%s)"

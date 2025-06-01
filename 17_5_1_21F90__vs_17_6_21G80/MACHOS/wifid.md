@@ -48,11 +48,13 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: 7A9763FB-A954-332C-AB04-F40DD6557E56
 -  Functions: 5253
++  UUID: 21E6D6DC-D19D-3B75-ABDB-6EB93CC01966
 +  Functions: 5249
    Symbols:   1279
--  CStrings:  14841
-+  CStrings:  14808
+-  CStrings:  18383
++  CStrings:  18347
  
 CStrings:
 + "WiFiManager-1686.2.4.1 Jul 14 2024 19:37:36"

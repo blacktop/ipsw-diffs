@@ -51,12 +51,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 52B8F899-9109-37DE-AE5D-415D77A9B38C
 -  Functions: 4085
 -  Symbols:   13529
--  CStrings:  7456
+-  CStrings:  10140
++  UUID: B1C05EF1-D51B-3BE8-93C2-D5B32345C033
 +  Functions: 4087
 +  Symbols:   13534
-+  CStrings:  7458
++  CStrings:  10143
  
 Symbols:
 + -[WBSAnalyticsLogger reportUnifiedFieldSearchSlowDown:]

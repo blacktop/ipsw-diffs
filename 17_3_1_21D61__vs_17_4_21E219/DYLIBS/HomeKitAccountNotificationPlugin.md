@@ -39,13 +39,16 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 777C3B2D-F378-3AAB-9266-D9448818C5A5
++  UUID: E76B119C-CFF6-3A1F-8580-C31A24ADF8B6
    Functions: 11
 -  Symbols:   55
--  CStrings:  98
+-  CStrings:  99
 +  Symbols:   59
-+  CStrings:  99
++  CStrings:  100
  
 Symbols:
 + _objc_autoreleasePoolPop

@@ -18,4 +18,13 @@
    __DATA.__bss: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4B7E0BC5-22AF-3F61-813B-8C06C4DE7B14
++  UUID: 746F329F-E38C-30A5-B08A-F61AEBF20FB4
+   Functions: 16
+   Symbols:   105
+   CStrings:  29
+
 ```

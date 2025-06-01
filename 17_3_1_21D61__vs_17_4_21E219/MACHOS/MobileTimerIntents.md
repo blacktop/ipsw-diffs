@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 319FBC96-10D8-3749-A9E1-7EF5F7EE54CC
++  UUID: 41645F04-CD86-3F92-ACAE-04446E9E230A
    Functions: 23
    Symbols:   76
--  CStrings:  138
-+  CStrings:  139
+-  CStrings:  145
++  CStrings:  146
  
 CStrings:
 + "T@\"NSString\",?,R,C"

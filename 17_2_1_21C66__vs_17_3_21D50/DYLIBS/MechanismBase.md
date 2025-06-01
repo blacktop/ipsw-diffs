@@ -39,12 +39,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 556B2537-3C18-3FAF-A4B1-A55464C80CC7
 -  Functions: 368
 -  Symbols:   1449
--  CStrings:  872
+-  CStrings:  941
++  UUID: AA308E96-99C2-36A9-B5BB-7DC1DC55D216
 +  Functions: 369
 +  Symbols:   1453
-+  CStrings:  874
++  CStrings:  943
  
 Symbols:
 + -[MechanismBase isRunningDTOPolicy]

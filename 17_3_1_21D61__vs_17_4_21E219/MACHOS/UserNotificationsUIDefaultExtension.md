@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/PhotosPlayer.framework/PhotosPlayer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A91794C-3A67-3E93-B231-2685653608F0
++  UUID: 91EA926D-A9A3-3576-AF64-8E6C87C17857
    Functions: 122
    Symbols:   141
--  CStrings:  375
-+  CStrings:  376
+-  CStrings:  377
++  CStrings:  378
  
 CStrings:
 + "T@\"NSString\",?,R,C"

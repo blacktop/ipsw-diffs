@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x180
 
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 98B96A8C-D68C-3853-9CE4-1E7773DA9B5B
++  UUID: 9DDDAB41-6E9B-3545-BE32-61483F696E31
    Functions: 13
    Symbols:   36
--  CStrings:  130
-+  CStrings:  131
+-  CStrings:  155
++  CStrings:  156
  
 CStrings:
 + "T@\"NSString\",?,R,C"

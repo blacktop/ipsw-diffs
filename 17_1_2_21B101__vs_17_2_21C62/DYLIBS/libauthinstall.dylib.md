@@ -34,13 +34,16 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
    - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: CFBA297F-34F2-34BF-9623-FF91B1C8DC92
++  UUID: 72DD19CB-8271-3B03-B09B-72D683360960
    Functions: 1874
 -  Symbols:   5425
--  CStrings:  4378
+-  CStrings:  5933
 +  Symbols:   5433
-+  CStrings:  4382
++  CStrings:  5941
  
 Symbols:
 + _kAMAuthInstallTagApProductType

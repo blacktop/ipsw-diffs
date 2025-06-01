@@ -17,4 +17,13 @@
    __TEXT.__objc_methname: 0xe85
    __TEXT.__objc_methtype: 0x3c6
 
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E6A6AAA2-B6F3-3939-92E2-FB5E053DC70F
++  UUID: 8AD7D626-B872-3141-8669-FD444FC1AB68
+   Functions: 44
+   Symbols:   72
+   CStrings:  264
+
 ```

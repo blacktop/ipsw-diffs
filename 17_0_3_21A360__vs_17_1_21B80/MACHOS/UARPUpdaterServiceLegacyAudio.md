@@ -47,12 +47,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F357B4E-5975-3E44-A86C-B0957437D432
 -  Functions: 871
 -  Symbols:   1017
--  CStrings:  2192
+-  CStrings:  2987
++  UUID: 5914B2AA-A036-31C1-B801-C47BB9DC9F63
 +  Functions: 877
 +  Symbols:   1028
-+  CStrings:  2205
++  CStrings:  3008
  
 Symbols:
 + _IOPMAssertionCreateWithName

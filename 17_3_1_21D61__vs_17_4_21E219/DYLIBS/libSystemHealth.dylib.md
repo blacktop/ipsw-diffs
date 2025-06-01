@@ -54,11 +54,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7061EA65-3153-3E54-8D17-C6A6836138F4
 -  Functions: 13
++  UUID: 696EAA8F-4BDF-3760-BDAC-0B4906424CC8
 +  Functions: 14
    Symbols:   44
--  CStrings:  50
-+  CStrings:  54
+-  CStrings:  56
++  CStrings:  60
  
 Symbols:
 + _objc_release_x22

@@ -43,11 +43,13 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80BAB814-A6CB-34BA-AB08-A83B843EC99A
 -  Functions: 677
++  UUID: AAEFA42D-112A-356F-908D-C064C4E2AE06
 +  Functions: 683
    Symbols:   395
--  CStrings:  1158
-+  CStrings:  1165
+-  CStrings:  1330
++  CStrings:  1337
  
 CStrings:
 + "-[SecureBackup removeRecoveryKeyFromBackup:]"

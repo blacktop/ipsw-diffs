@@ -17,4 +17,13 @@
    - /System/Library/Frameworks/MLCompute.framework/MLCompute
    - /usr/lib/libSystem.B.dylib
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 1CAD5E90-FBFC-3C32-AD44-48F348A5637F
++  UUID: 927B7919-8E97-34C5-B31F-D48C143A67A0
+   Functions: 134
+   Symbols:   349
+   CStrings:  66
+
 ```

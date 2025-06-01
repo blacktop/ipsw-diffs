@@ -29,4 +29,13 @@
    __DATA_DIRTY.__objc_data: 0x2440
    __DATA_DIRTY.__bss: 0x68
 
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 62F56D1D-1880-3672-AAE2-BC614CB5537D
++  UUID: 42A46059-76A1-3354-99D5-CC5617DC5631
+   Functions: 1835
+   Symbols:   6771
+   CStrings:  3204
+
 ```

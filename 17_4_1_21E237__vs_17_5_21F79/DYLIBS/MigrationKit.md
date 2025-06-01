@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_const: 0x1f68
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__const: 0x3e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x628
 +  __AUTH_CONST.__auth_got: 0x630
@@ -58,12 +57,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4F5EE0B6-3FD7-3C54-9984-940738E0F4A8
 -  Functions: 1352
 -  Symbols:   5252
--  CStrings:  2677
+-  CStrings:  3237
++  UUID: 1C4AB2D6-3425-331C-BDDC-BF269B4BAE3D
 +  Functions: 1364
 +  Symbols:   5285
-+  CStrings:  2690
++  CStrings:  3251
  
 Symbols:
 + -[MKApplicationMigrator importAndWait]

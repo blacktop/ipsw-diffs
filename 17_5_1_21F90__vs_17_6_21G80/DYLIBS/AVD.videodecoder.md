@@ -18,11 +18,15 @@
    __TEXT.__unwind_info: 0x18bc
    __TEXT.__eh_frame: 0x2b8
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: F72B7142-9412-3638-B6A1-44606C5AF01A
++  UUID: ACB01575-45AB-3F89-B542-4D14D78A363F
    Functions: 1895
    Symbols:   4403
--  CStrings:  1693
-+  CStrings:  1692
+-  CStrings:  1736
++  CStrings:  1735
  
 CStrings:
 + "18:18:00"

@@ -50,9 +50,8 @@
    __DATA_CONST.__objc_const: 0x10768
    __DATA_CONST.__objc_selrefs: 0x1420
 -  __AUTH_CONST.__const: 0x2ea60
-+  __AUTH_CONST.__const: 0x2eb00
-   __AUTH_CONST.__auth_ptr: 0x978
 -  __AUTH_CONST.__cfstring: 0x2720
++  __AUTH_CONST.__const: 0x2eb00
 +  __AUTH_CONST.__cfstring: 0x29e0
    __AUTH_CONST.__objc_const: 0xd8
 -  __AUTH_CONST.__auth_got: 0x2688
@@ -77,11 +76,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ABEA8F51-82C4-39F0-BE75-19DF506E41F5
 -  Functions: 46263
++  UUID: 4AC0663D-1E3C-3B02-A158-68A70D0D61F2
 +  Functions: 46286
    Symbols:   23373
--  CStrings:  4925
-+  CStrings:  4952
+-  CStrings:  5238
++  CStrings:  5287
  
 Symbols:
 + _os_unfair_lock_lock

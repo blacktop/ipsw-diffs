@@ -28,10 +28,12 @@
    - /System/Library/PrivateFrameworks/ktrace.framework/ktrace
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 560B8062-6ECD-3561-863A-B85ED7F893B6
 -  Functions: 12
++  UUID: 5422C0F1-20B3-3CA5-AF6A-E95EFD5AEF53
 +  Functions: 11
    Symbols:   45
-   CStrings:  57
+   CStrings:  68
  
 
 ```

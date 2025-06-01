@@ -44,7 +44,6 @@
    __AUTH_CONST.__objc_const: 0x1318
 -  __AUTH_CONST.__const: 0x31200
 +  __AUTH_CONST.__const: 0x31100
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_arrayobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x5828
@@ -69,12 +68,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9BA02F92-2BD2-39A4-A812-326B9CC24993
 -  Functions: 20787
 -  Symbols:   56229
--  CStrings:  17327
+-  CStrings:  26141
++  UUID: 5379E977-8CA2-35E4-8F32-7BCE63C5730F
 +  Functions: 20830
 +  Symbols:   56348
-+  CStrings:  17502
++  CStrings:  26348
  
 Symbols:
 + GCC_except_table35

@@ -37,11 +37,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5D02DFBD-77DB-3F13-B8B3-8A3A34EDAF79
 -  Functions: 14946
++  UUID: 32B5D913-E140-30B1-B853-382F2B69B3BE
 +  Functions: 14947
    Symbols:   7321
--  CStrings:  4471
-+  CStrings:  4473
+-  CStrings:  4642
++  CStrings:  4644
  
 CStrings:
 + "shouldShuffleReportedHeadlines"

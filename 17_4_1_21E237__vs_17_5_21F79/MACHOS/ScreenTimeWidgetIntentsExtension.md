@@ -47,8 +47,11 @@
    __DATA.__bss: 0x180
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 761C2964-17AE-3BB9-AB0F-DC74AC60F527
++  UUID: 9D6B4E90-646E-34B3-B362-4870D8238D42
    Functions: 176
 -  Symbols:   139
 -  CStrings:  169

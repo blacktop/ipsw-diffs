@@ -33,6 +33,15 @@
    __DATA_DIRTY.__common: 0x38
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8D327883-741C-34AD-9AB8-AFB3D63BE121
++  UUID: EE3DB01C-225A-3500-B1EF-C620AE8F6C92
+   Functions: 7538
+   Symbols:   4942
+   CStrings:  2031
 Symbols:
 + ___block_literal_global.1265
 + ___block_literal_global.262

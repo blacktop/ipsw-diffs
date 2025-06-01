@@ -33,11 +33,9 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __DATA_CONST.__objc_selrefs: 0x3e8
 -  __AUTH_CONST.__const: 0x52e30
--  __AUTH_CONST.__auth_ptr: 0x98
 +  __DATA_CONST.__objc_selrefs: 0x3f8
 +  __DATA_CONST.__objc_classrefs: 0xd8
 +  __AUTH_CONST.__const: 0x552e8
-+  __AUTH_CONST.__auth_ptr: 0xa8
    __AUTH_CONST.__cfstring: 0x240
 -  __AUTH_CONST.__auth_got: 0x11a8
 -  __AUTH.__data: 0x48
@@ -61,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 811EC7F2-3EEE-36B9-94FB-A3B15B700CB7
 -  Functions: 35515
 -  Symbols:   1498
--  CStrings:  4901
+-  CStrings:  4919
++  UUID: 6A48F4C5-B904-3558-94D0-8BA7AE7E3EDF
 +  Functions: 36457
 +  Symbols:   1516
-+  CStrings:  5981
++  CStrings:  5999
  
 Symbols:
 + _CV3DReconFrameBundleSetAnalyticsMetadata

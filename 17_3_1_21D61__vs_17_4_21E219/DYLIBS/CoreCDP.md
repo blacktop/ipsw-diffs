@@ -49,7 +49,6 @@
 +  __AUTH_CONST.__const: 0x3c0
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x4e0
    __AUTH.__objc_data: 0x780
    __AUTH.__data: 0x8
@@ -68,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A42BC6F2-99D4-3B27-82C5-896E4E62F72B
 -  Functions: 1434
 -  Symbols:   4797
--  CStrings:  2368
+-  CStrings:  2705
++  UUID: A5EB7B90-8ACD-39BC-AF5E-5B7C135CD807
 +  Functions: 1443
 +  Symbols:   4823
-+  CStrings:  2386
++  CStrings:  2727
  
 Symbols:
 + +[CDPUtilities isSilentBurnInMiniBuddyEnabled]
@@ -138,10 +139,12 @@ CStrings:
 + "UseCDPContextSecretInsteadOfSBDSecret"
 + "_isLocalSecretCachedAcknowledgingInMemoryValue"
 + "analytics"
++ "e"
 + "isLocalSecretCached"
 + "isSilentBurnCDPRepairEnabled"
 + "isSilentBurnCDPRepairEnabledForAccount:"
 + "isSilentBurnInMiniBuddyEnabled"
++ "n"
 + "useCDPContextSecretInsteadOfSBDSecretFeatureEnabled"
 - "\"%@: Calling to fetch user info for altDSID (%@) for 'silentEscrowRecordRepairEnabled' value\""
 - "\"%@: Checking iCDP status for account with DSID (%@), will check with server (%{BOOL}d)\""

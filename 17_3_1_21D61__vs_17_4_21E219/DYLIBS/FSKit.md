@@ -34,7 +34,6 @@
    __AUTH_CONST.__const: 0x198
    __AUTH_CONST.__cfstring: 0xf20
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x478
 -  __AUTH.__objc_data: 0xab8
 +  __AUTH_CONST.__auth_got: 0x470
@@ -52,13 +51,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4DD88AFA-8FDE-30CB-A04D-3079BE2C8F60
++  UUID: 3A9783A1-C9D5-3156-B40C-ADEAEEDBEAAA
    Functions: 819
 -  Symbols:   2734
--  CStrings:  1351
+-  CStrings:  1472
 +  Symbols:   2733
-+  CStrings:  1352
++  CStrings:  1473
  
 Symbols:
 + ___67-[FSModuleConnector checkResource:options:connection:taskID:reply:]_block_invoke.175.cold.1

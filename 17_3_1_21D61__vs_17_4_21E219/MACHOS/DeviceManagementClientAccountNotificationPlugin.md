@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36F058D0-221B-3AF6-95DD-58001A2A409C
 -  Functions: 3
 -  Symbols:   30
 -  CStrings:  71
++  UUID: 26C37F06-C393-3AE2-BF63-6B553169C660
 +  Functions: 4
 +  Symbols:   44
-+  CStrings:  86
++  CStrings:  93
  
 Symbols:
 + _ACAccountTypeIdentifierRemoteManagement
@@ -71,6 +73,7 @@ Symbols:
 + _objc_release_x28
 + _objc_retain_x20
 CStrings:
++ ""
 + "%@ account %@"
 + "Account Identifier"
 + "T@\"NSString\",?,R,C"

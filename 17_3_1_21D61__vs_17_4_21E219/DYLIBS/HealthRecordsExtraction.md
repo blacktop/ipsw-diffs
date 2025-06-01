@@ -46,9 +46,9 @@
    __AUTH_CONST.__objc_const: 0x1048
    __AUTH_CONST.__cfstring: 0x3fa0
 
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x2c0
 -  __AUTH_CONST.__auth_got: 0x1288
 +  __AUTH_CONST.__auth_got: 0x12a8
    __AUTH.__objc_data: 0xf60
@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9577B19C-9602-38A9-8F42-81CE05A1717D
 -  Functions: 7325
 -  Symbols:   3255
--  CStrings:  2460
+-  CStrings:  2969
++  UUID: 46438CDC-0E62-3D16-8928-375A8E714FBC
 +  Functions: 7333
 +  Symbols:   3253
-+  CStrings:  2480
++  CStrings:  2989
  
 Symbols:
 + ___95-[HDHealthRecordConstructClinicalRecordsTask _applyReferenceRulesToClinicalItem:ruleset:error:]_block_invoke.265

@@ -35,12 +35,16 @@
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x2c0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E108FA80-D29C-38E2-B9BC-F8ED3F3A3C84
++  UUID: 95213D4C-0FD1-3213-82C7-27B103ED18C9
    Functions: 791
 -  Symbols:   3303
+-  CStrings:  1665
 +  Symbols:   3305
-   CStrings:  1455
++  CStrings:  1663
  
 Symbols:
 + _AXRequestingClient

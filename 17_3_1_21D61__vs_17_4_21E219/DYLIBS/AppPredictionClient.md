@@ -31,8 +31,8 @@
    __AUTH_CONST.__cfstring: 0x12fa0
    __AUTH_CONST.__objc_const: 0xa5f8
 
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x738
 -  __AUTH.__objc_data: 0x3318
 -  __DATA.__objc_protorefs: 0x98
@@ -50,11 +50,15 @@
    __DATA_DIRTY.__bss: 0x2a0
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 21B27BC7-B42F-386A-8FA8-ADA0D95AEE52
++  UUID: 50937CA8-87B5-345E-A202-38BEB5F76319
    Functions: 9803
    Symbols:   31053
--  CStrings:  11859
-+  CStrings:  11861
+-  CStrings:  14288
++  CStrings:  14290
  
 Symbols:
 + __OBJC_$_PROP_LIST_ATXActivitySuggestion.65

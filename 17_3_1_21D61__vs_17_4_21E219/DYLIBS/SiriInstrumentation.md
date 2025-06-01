@@ -57,6 +57,7 @@
 -  __DATA_CONST.__objc_selrefs: 0x265c8
 -  __AUTH_CONST.__const: 0x918
 -  __AUTH_CONST.__cfstring: 0x4ae80
+-  __AUTH_CONST.__objc_const: 0x1b40
 +  __DATA_CONST.__objc_const: 0xa3918
 +  __DATA_CONST.__objc_selrefs: 0x27cc0
 +  __DATA_CONST.__objc_protorefs: 0x10
@@ -64,8 +65,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x4e40
 +  __AUTH_CONST.__const: 0xb70
 +  __AUTH_CONST.__cfstring: 0x4dc40
-   __AUTH_CONST.__auth_ptr: 0x58
--  __AUTH_CONST.__objc_const: 0x1b40
 +  __AUTH_CONST.__objc_const: 0x2b48
    __AUTH_CONST.__objc_intobj: 0xa38
 -  __AUTH_CONST.__auth_got: 0x758
@@ -99,12 +98,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8D3383F8-DB23-3C5B-9C17-B4A4B9FAB76B
 -  Functions: 49985
 -  Symbols:   124569
--  CStrings:  44426
+-  CStrings:  54014
++  UUID: B29DA261-3C62-32FE-AB38-2AE60767E3BC
 +  Functions: 51987
 +  Symbols:   129507
-+  CStrings:  46101
++  CStrings:  56055
  
 Symbols:
 + +[ODBATCHSiriSchemaODBATCHClientEvent(InnerEventContainer) getInnerTypeStringByTag:]

@@ -15,4 +15,13 @@
    __TEXT.__oslogstring: 0xd3
    __TEXT.__gcc_except_tab: 0x78
 
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 441178E3-8BE6-314F-9DD7-583B1B1B0E98
++  UUID: 510FDCD1-FDD7-366C-8671-D4A88C5BFD58
+   Functions: 355
+   Symbols:   1509
+   CStrings:  1045
+
 ```

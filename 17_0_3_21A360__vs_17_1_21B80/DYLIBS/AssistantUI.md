@@ -55,13 +55,16 @@
    __DATA.__bss: 0xc8
    __DATA_DIRTY.__objc_data: 0x910
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: AF9D8E8B-EB40-39D0-9CB1-AB1DB64F597F
++  UUID: CC66AA98-8BFA-3FEB-BCA6-0AF0DD5ED504
    Functions: 1911
 -  Symbols:   7446
--  CStrings:  4200
+-  CStrings:  4459
 +  Symbols:   7441
-+  CStrings:  4194
++  CStrings:  4452
  
 Symbols:
 + _SRUIFInstrumentButtonLaunchSignpost

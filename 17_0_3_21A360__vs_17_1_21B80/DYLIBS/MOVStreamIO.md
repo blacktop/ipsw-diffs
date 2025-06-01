@@ -79,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F7E1E0CC-7D53-3494-A43D-0B325FB709B4
 -  Functions: 1075
 -  Symbols:   4332
--  CStrings:  2065
+-  CStrings:  2450
++  UUID: 22D09FCE-D514-37F5-AA2E-5E357A2CC4F0
 +  Functions: 1170
 +  Symbols:   4646
-+  CStrings:  2312
++  CStrings:  2723
  
 Symbols:
 + +[MIOPixelBufferPool createMIOPixelBufferPoolWithWidth:height:pixelFormat:exactBytesPerRow:minBufferCount:bufferCacheMode:]

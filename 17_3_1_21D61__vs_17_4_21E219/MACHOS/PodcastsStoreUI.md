@@ -111,12 +111,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
+-  UUID: 0AB1AC5F-17C4-3FF3-9A8B-84592D7AB600
 -  Functions: 18290
 -  Symbols:   7741
--  CStrings:  4706
+-  CStrings:  4743
++  UUID: 1CE00067-F6C5-341C-A282-1806AC10D2E1
 +  Functions: 18168
 +  Symbols:   7567
-+  CStrings:  4615
++  CStrings:  4629
  
 Symbols:
 + _NSPersistentStringForMTEpisodePriceType

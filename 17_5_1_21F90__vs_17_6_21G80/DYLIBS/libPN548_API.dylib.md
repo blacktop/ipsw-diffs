@@ -26,13 +26,16 @@
    __DATA.__bss: 0x21
    __DATA_DIRTY.__common: 0x2
 
+   - /usr/lib/libNFC_HAL.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 1796EE17-6095-360B-B936-459A0BAA0A0F
++  UUID: 549D7C1C-7548-3443-88FA-289B9AECF31D
    Functions: 415
 -  Symbols:   317
--  CStrings:  1707
+-  CStrings:  1759
 +  Symbols:   318
-+  CStrings:  1709
++  CStrings:  1761
  
 Symbols:
 + _NFHardwareHasVirtualGPIO

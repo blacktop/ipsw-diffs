@@ -63,12 +63,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53BE3D8F-7E75-3F27-9DEC-26C6C555A6BB
 -  Functions: 87
 -  Symbols:   106
--  CStrings:  221
+-  CStrings:  249
++  UUID: 855BCD37-5BDF-374E-9048-AA2E49224390
 +  Functions: 89
 +  Symbols:   113
-+  CStrings:  235
++  CStrings:  262
  
 Symbols:
 + _dlopen

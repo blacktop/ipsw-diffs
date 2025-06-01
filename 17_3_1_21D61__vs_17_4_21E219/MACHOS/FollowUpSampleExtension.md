@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A99EA73B-3561-37D6-B08A-38569DB97D9A
++  UUID: 46316611-9C88-3055-9102-57860AC36440
+   Functions: 8
+   Symbols:   54
+   CStrings:  65
+
 ```

@@ -47,7 +47,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x88
    __DATA_CONST.__objc_arraydata: 0x8
    __AUTH_CONST.__const: 0x2010
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__cfstring: 0x11e0
 +  __AUTH_CONST.__cfstring: 0x1220
    __AUTH_CONST.__objc_floatobj: 0x60
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76F0B267-D256-3C12-8C7F-A530CB2BFE0A
 -  Functions: 2918
 -  Symbols:   7750
--  CStrings:  1446
+-  CStrings:  1589
++  UUID: 9965BC69-FE89-35FB-9D96-F95A31F43E12
 +  Functions: 2930
 +  Symbols:   7798
-+  CStrings:  1478
++  CStrings:  1623
  
 Symbols:
 + -[SLODLDClassifierV1 _createDataBufferForTensor:withData:properties:]

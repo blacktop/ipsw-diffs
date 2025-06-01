@@ -34,7 +34,11 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x20
 
+   - /System/Library/PrivateFrameworks/Message.framework/Message
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CB3270B9-D27C-3144-9477-57BEDE796410
++  UUID: 430DF5AF-CA40-3B7E-8A90-AC77E579D8A7
    Functions: 20
    Symbols:   66
 -  CStrings:  129

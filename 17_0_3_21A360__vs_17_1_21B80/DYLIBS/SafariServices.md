@@ -79,12 +79,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F13475C4-7545-3B0F-A0A3-22A94C1BB7A0
 -  Functions: 9265
 -  Symbols:   35661
--  CStrings:  16863
+-  CStrings:  18670
++  UUID: 46C7D3E4-7993-347B-BEA7-F1829A9073A2
 +  Functions: 9306
 +  Symbols:   35783
-+  CStrings:  16903
++  CStrings:  18710
  
 Symbols:
 + +[SFBrowserServiceViewController hostWindowSceneIdentifierForServiceWindowSceneIdentifier:]

@@ -73,7 +73,6 @@
 +  __AUTH_CONST.__const: 0x1298
 +  __AUTH_CONST.__cfstring: 0x10e0
    __AUTH_CONST.__objc_intobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0x890
 -  __AUTH.__objc_data: 0x15b0
 -  __AUTH.__data: 0x180
@@ -82,7 +81,6 @@
 -  __DATA.__data: 0xb38
 -  __DATA.__bss: 0x770
 -  __DATA.__common: 0x48
-+  __AUTH_CONST.__auth_ptr: 0x58
 +  __AUTH_CONST.__auth_got: 0x918
 +  __AUTH.__objc_data: 0x1598
 +  __AUTH.__data: 0x2e0
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 010DA747-42FE-362A-B066-313208F835C3
 -  Functions: 1579
 -  Symbols:   3667
--  CStrings:  1674
+-  CStrings:  1807
++  UUID: A5A97904-C6FD-3DA9-A439-CFC15AE91487
 +  Functions: 1718
 +  Symbols:   3801
-+  CStrings:  1755
++  CStrings:  1890
  
 Symbols:
 + -[AXSDDetectorStore detectorWithIdentifier:].cold.1

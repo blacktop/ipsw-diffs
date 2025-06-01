@@ -20,4 +20,13 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x28
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: 7FAE79E3-E1E0-3C37-8FBA-7B07B6D474D6
++  UUID: 1267FA10-5ADE-3344-A06C-A618E51852B0
+   Functions: 1084
+   Symbols:   3396
+   CStrings:  1923
+
 ```

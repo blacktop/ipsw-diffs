@@ -48,16 +48,15 @@
 -  __DATA_CONST.__objc_const: 0xb3338
 -  __DATA_CONST.__objc_selrefs: 0x2e8c0
 -  __DATA_CONST.__objc_arraydata: 0x2878
+-  __AUTH_CONST.__const: 0x107f0
+-  __AUTH_CONST.__objc_const: 0x2f9c0
+-  __AUTH_CONST.__cfstring: 0x4e100
 +  __DATA_CONST.__objc_const: 0xb5048
 +  __DATA_CONST.__objc_selrefs: 0x2edf0
 +  __DATA_CONST.__objc_protorefs: 0x180
 +  __DATA_CONST.__objc_classrefs: 0x4758
 +  __DATA_CONST.__objc_superrefs: 0x2d40
 +  __DATA_CONST.__objc_arraydata: 0x2830
-   __AUTH_CONST.__auth_ptr: 0x18
--  __AUTH_CONST.__const: 0x107f0
--  __AUTH_CONST.__objc_const: 0x2f9c0
--  __AUTH_CONST.__cfstring: 0x4e100
 +  __AUTH_CONST.__const: 0x111a8
 +  __AUTH_CONST.__objc_const: 0x2ff60
 +  __AUTH_CONST.__cfstring: 0x4e820
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E941E175-8045-343E-957F-8D33B0642E64
 -  Functions: 43243
 -  Symbols:   142996
--  CStrings:  67605
+-  CStrings:  77597
++  UUID: F910B5F2-CA12-38DC-8B6E-A43421BF3832
 +  Functions: 43542
 +  Symbols:   144018
-+  CStrings:  68221
++  CStrings:  78270
  
 Symbols:
 + +[HMDAccessoryDiagnosticsManagerInternal logCategory]

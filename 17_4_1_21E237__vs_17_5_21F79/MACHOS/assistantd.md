@@ -74,12 +74,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BB80E4F2-C132-3FD8-A384-7506806C0768
 -  Functions: 13618
 -  Symbols:   2785
--  CStrings:  25406
+-  CStrings:  27553
++  UUID: 9C556A82-A32C-3663-8770-C036F02D296A
 +  Functions: 13812
 +  Symbols:   2815
-+  CStrings:  25807
++  CStrings:  28086
  
 Symbols:
 + _OBJC_CLASS_$_DIMSchemaDIMOnDeviceDigest

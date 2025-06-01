@@ -25,11 +25,15 @@
    __DATA_CONST.__got: 0x80
    __DATA_CONST.__const: 0x418
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E22CB7FD-9F7F-39EE-BE7E-ACCB146EEB2F
++  UUID: C38E1FA0-8388-331E-8AD1-868990FB6B1E
    Functions: 531
    Symbols:   141
--  CStrings:  739
-+  CStrings:  740
+-  CStrings:  856
++  CStrings:  857
  
 CStrings:
 + "Populating payload for CA. Model name = %@, currentVal = %f, pastBaselineVal = %f, predictedDelta = %@, predictedVal = %f"

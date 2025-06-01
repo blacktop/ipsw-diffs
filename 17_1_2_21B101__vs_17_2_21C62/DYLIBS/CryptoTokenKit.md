@@ -18,11 +18,15 @@
    __TEXT.__dlopen_cstrs: 0x104
    __TEXT.__unwind_info: 0x13b4
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FE37B03A-7959-3AB6-8787-DC0EF81223CD
++  UUID: 5DC51B35-DEF5-385A-AA9C-AD7CE0F730E4
    Functions: 1716
    Symbols:   6155
--  CStrings:  2486
-+  CStrings:  2485
+-  CStrings:  2746
++  CStrings:  2745
  
 CStrings:
 - "ACMRequirement - ACMRequirementDataRatchet"

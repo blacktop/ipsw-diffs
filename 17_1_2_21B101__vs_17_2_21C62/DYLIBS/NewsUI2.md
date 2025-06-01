@@ -66,7 +66,6 @@
    __AUTH_CONST.__cfstring: 0x80
 -  __AUTH_CONST.__objc_const: 0x2950
 -  __AUTH_CONST.__const: 0x99008
--  __AUTH_CONST.__auth_ptr: 0x3858
 -  __AUTH_CONST.__auth_got: 0xbba0
 -  __AUTH.__objc_data: 0x8b20
 -  __AUTH.__data: 0x19af8
@@ -76,7 +75,6 @@
 -  __DATA.__data: 0x1d5d0
 +  __AUTH_CONST.__objc_const: 0x2998
 +  __AUTH_CONST.__const: 0x9c3d0
-+  __AUTH_CONST.__auth_ptr: 0x39d0
 +  __AUTH_CONST.__auth_got: 0xc0e8
 +  __AUTH.__objc_data: 0x8d68
 +  __AUTH.__data: 0x1b9f8
@@ -125,12 +123,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F514122-9F8D-3DD2-9D96-89ED32D796C4
 -  Functions: 91181
 -  Symbols:   22771
--  CStrings:  13268
+-  CStrings:  13272
++  UUID: F4A244E9-0029-3BCC-A6C4-584E347E0461
 +  Functions: 93752
 +  Symbols:   23137
-+  CStrings:  13557
++  CStrings:  13561
  
 Symbols:
 + _FCClearGlobalESLNextLaunchSharedPreferenceKey

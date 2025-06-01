@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x640
    __DATA.__data: 0x3c8
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1654134C-2A86-3781-AEF8-C953B4080F81
++  UUID: 80627D2D-78EC-3B1D-86AF-671D2390B9E8
    Functions: 404
    Symbols:   286
--  CStrings:  1043
-+  CStrings:  1044
+-  CStrings:  1130
++  CStrings:  1131
  
 CStrings:
 + "Continue"

@@ -59,11 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 139E375A-7219-360F-B5BD-7E1A2EDA4D32
 -  Functions: 2027
 -  Symbols:   405
+-  CStrings:  4294
++  UUID: E3267A9A-FBDD-308C-B586-F56788534529
 +  Functions: 2028
 +  Symbols:   404
-   CStrings:  3523
++  CStrings:  4292
  
 Symbols:
 - _OBJC_CLASS_$_NSTask

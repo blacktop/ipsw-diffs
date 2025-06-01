@@ -86,11 +86,13 @@
    - @rpath/BooksUI.framework/BooksUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: FE5DA058-7DA1-34CA-8D92-F281F49F6B03
 -  Functions: 10583
++  UUID: BCC02C6F-99A7-3CF2-AC58-CB9E74F15BA8
 +  Functions: 10645
    Symbols:   1206
--  CStrings:  6057
-+  CStrings:  6084
+-  CStrings:  6605
++  CStrings:  6632
  
 CStrings:
 + "Can't construct Array with count < 0"

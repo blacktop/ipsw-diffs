@@ -24,10 +24,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: 7B9DD6A3-50EA-3E67-8CA4-2DAB23862EE8
 -  Functions: 49002
++  UUID: 32400D57-6775-3BF8-9202-CA709424F48B
 +  Functions: 49021
    Symbols:   1787
-   CStrings:  10862
+   CStrings:  11028
  
 
 ```

@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x230
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/SOS.framework/SOS
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 676F155F-27BD-30BF-8D57-FE6CAFB7798A
++  UUID: C5960D18-F802-3BCE-8FDF-5721FE4C3C47
    Functions: 83
    Symbols:   107
--  CStrings:  280
-+  CStrings:  281
+-  CStrings:  336
++  CStrings:  337
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -22,7 +22,6 @@
    __AUTH_CONST.__const: 0x8f8
 -  __AUTH_CONST.__cfstring: 0xd900
 +  __AUTH_CONST.__cfstring: 0xd9e0
-   __AUTH_CONST.__auth_ptr: 0x38
    __AUTH_CONST.__auth_got: 0x950
    __DATA.__data: 0x158
 -  __DATA.__bss: 0xd8
@@ -37,12 +36,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CBC7AE7-28AA-3821-B2CF-B5F342FA5ABF
 -  Functions: 802
 -  Symbols:   2045
--  CStrings:  3653
+-  CStrings:  5389
++  UUID: B1171AE2-3B26-3D6D-B41E-21F72A33ED42
 +  Functions: 803
 +  Symbols:   2046
-+  CStrings:  3661
++  CStrings:  5404
  
 Symbols:
 + _AMFDRSealingMapCopyDictFromCombinedData

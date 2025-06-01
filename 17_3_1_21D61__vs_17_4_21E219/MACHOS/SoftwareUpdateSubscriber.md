@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D3B4437-B918-3EBB-BB46-3730A8249DD2
 -  Functions: 20
 -  Symbols:   370
--  CStrings:  188
+-  CStrings:  207
++  UUID: BB9A9E98-FB00-3EBD-A043-A2A767F81F65
 +  Functions: 18
 +  Symbols:   357
-+  CStrings:  189
++  CStrings:  208
  
 Symbols:
 + _OBJC_CLASS_$_SUCoreDDMUtilities

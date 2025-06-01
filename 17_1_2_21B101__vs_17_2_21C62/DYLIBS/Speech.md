@@ -64,10 +64,9 @@
 +  __DATA_CONST.__objc_selrefs: 0x1f38
    __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x3508
-+  __AUTH_CONST.__const: 0x3c18
-   __AUTH_CONST.__auth_ptr: 0xd8
 -  __AUTH_CONST.__cfstring: 0x2b60
 -  __AUTH_CONST.__objc_const: 0x90
++  __AUTH_CONST.__const: 0x3c18
 +  __AUTH_CONST.__cfstring: 0x2cc0
 +  __AUTH_CONST.__objc_const: 0x120
    __AUTH_CONST.__objc_dictobj: 0x28
@@ -112,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 02A0E93B-A13B-3121-83F6-307FE59A04FA
 -  Functions: 7509
 -  Symbols:   7959
--  CStrings:  2704
+-  CStrings:  3051
++  UUID: 58ED27C8-000C-3756-B965-CBA072FC5284
 +  Functions: 7785
 +  Symbols:   8187
-+  CStrings:  2774
++  CStrings:  3132
  
 Symbols:
 + +[_SFSpeechRecognizerDetectorOptions supportsSecureCoding]

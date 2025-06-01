@@ -48,7 +48,6 @@
 +  __DATA_CONST.__objc_const: 0xb0820
 +  __DATA_CONST.__objc_selrefs: 0x2da90
    __DATA_CONST.__objc_arraydata: 0x2878
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x10670
 -  __AUTH_CONST.__objc_const: 0x2f2b8
 -  __AUTH_CONST.__cfstring: 0x4bb80
@@ -89,12 +88,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D3080CA7-1867-333B-B5C5-6514F380FD0B
 -  Functions: 42468
 -  Symbols:   140330
--  CStrings:  65914
+-  CStrings:  75606
++  UUID: 520A58DE-97DD-35BB-9161-A571827B27EA
 +  Functions: 42653
 +  Symbols:   140983
-+  CStrings:  66344
++  CStrings:  76109
  
 Symbols:
 + +[HMDAccessoryCounterGroupSpecifier specifierWithGroupName:homeUUID:accessoryUUID:date:]

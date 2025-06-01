@@ -35,20 +35,24 @@
    __AUTH_CONST.__cfstring: 0x1be0
    __AUTH_CONST.__objc_const: 0x1588
 
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xdb8
 +  __AUTH_CONST.__auth_got: 0xdc0
    __AUTH.__objc_data: 0xdc8
    __AUTH.__data: 0x370
    __DATA.__objc_protorefs: 0x50
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 343E6357-EEDC-315E-8CED-18859152F449
++  UUID: C71491A0-1622-3309-BA4E-3C1A7D9000D4
    Functions: 2092
    Symbols:   6054
--  CStrings:  3301
-+  CStrings:  3302
+-  CStrings:  3524
++  CStrings:  3525
  
 Symbols:
 + _SFUILinkMetadataSerializationForLocalLowFidelityUseOnly

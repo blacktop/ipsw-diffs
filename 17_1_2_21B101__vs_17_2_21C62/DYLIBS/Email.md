@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__const: 0xd80
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x5a8
 -  __AUTH.__objc_data: 0x5f0
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B5418201-2062-3160-B53D-FAB46C3F457F
 -  Functions: 3543
 -  Symbols:   14423
--  CStrings:  5866
+-  CStrings:  6772
++  UUID: 63478B43-6A78-3683-945D-5811AB8D69E6
 +  Functions: 3552
 +  Symbols:   14465
-+  CStrings:  5876
++  CStrings:  6785
  
 Symbols:
 + +[EMMessageListItemPredicates isValidPredicate:forClass:]

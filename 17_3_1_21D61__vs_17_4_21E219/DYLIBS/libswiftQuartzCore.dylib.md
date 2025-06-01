@@ -22,4 +22,13 @@
    __DATA.__bss: 0x80
    __DATA.__common: 0x1
 
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 9B1E2560-C382-3571-81E2-C221BAB93BDA
++  UUID: FA764C03-CA27-3809-9A1A-5D4A96095252
+   Functions: 30
+   Symbols:   113
+   CStrings:  4
+
 ```

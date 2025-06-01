@@ -20,6 +20,15 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__auth_got: 0x350
    __AUTH.__objc_data: 0x190
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D7F80722-9624-3218-B3FD-8523A64D4EE6
++  UUID: BE37BE0A-695B-3966-BC0A-FE8E292686E9
+   Functions: 902
+   Symbols:   3092
+   CStrings:  1454
 Symbols:
 + ___104-[SOExtension beginUserRegistrationUsingUserName:authenticationMethod:options:extensionData:completion:]_block_invoke.70
 + ___41-[SOExtension protocolVersionCompletion:]_block_invoke.74

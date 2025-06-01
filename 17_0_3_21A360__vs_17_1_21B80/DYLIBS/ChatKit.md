@@ -81,7 +81,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x8e0
    __AUTH_CONST.__objc_floatobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x2f8
--  __AUTH_CONST.__auth_ptr: 0x1c0
 -  __AUTH_CONST.__auth_got: 0x2ee8
 -  __AUTH.__objc_data: 0x10218
 -  __AUTH.__data: 0x2ae8
@@ -89,7 +88,6 @@
 -  __DATA.__objc_classrefs: 0x30f0
 -  __DATA.__objc_superrefs: 0x1960
 -  __DATA.__objc_ivar: 0x47c4
-+  __AUTH_CONST.__auth_ptr: 0x1c8
 +  __AUTH_CONST.__auth_got: 0x2f70
 +  __AUTH.__objc_data: 0x101c0
 +  __AUTH.__data: 0x2d00
@@ -117,12 +115,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 56B81CC3-85E3-3FF3-831D-E1FE32B26E8C
 -  Functions: 39035
 -  Symbols:   114866
--  CStrings:  46254
+-  CStrings:  52785
++  UUID: A7971C35-998A-3908-8192-E8F6186E54E4
 +  Functions: 39127
 +  Symbols:   115001
-+  CStrings:  46320
++  CStrings:  52865
  
 Symbols:
 + +[CKBalloonTextView _textKit2_sizeThatFits:attributedText:maximumNumberOfLines:lineBreakMode:isReplyPreview:outTextAlignmentInsets:outIsSingleLine:].cold.1

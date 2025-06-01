@@ -68,12 +68,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CF17F54A-E9DB-3035-A022-4A190246A91D
 -  Functions: 361
 -  Symbols:   188
--  CStrings:  679
+-  CStrings:  719
++  UUID: 9ABC8779-D688-3C20-A058-7E16397BFC3D
 +  Functions: 387
 +  Symbols:   191
-+  CStrings:  690
++  CStrings:  730
  
 Symbols:
 + _CNContactProviderSynchronizationReasonScheduledEvent

@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 71353222-181C-34FF-8691-9BB3DCAD9F4C
 -  Functions: 5030
 -  Symbols:   607
--  CStrings:  8247
+-  CStrings:  9617
++  UUID: 1D180A21-5926-3922-9348-A1DCCA8B700D
 +  Functions: 5077
 +  Symbols:   605
-+  CStrings:  8303
++  CStrings:  9687
  
 Symbols:
 + _OBJC_CLASS_$_LSApplicationExtensionRecord

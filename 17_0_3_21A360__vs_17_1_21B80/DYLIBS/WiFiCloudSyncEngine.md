@@ -28,11 +28,15 @@
    __AUTH_CONST.__const: 0x60
    __AUTH_CONST.__objc_intobj: 0xd8
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BCEA6B23-A26A-3A92-8F17-372C1899D2CB
++  UUID: E0DFB1FA-03BA-3581-8218-13A4489AD5F8
    Functions: 112
    Symbols:   458
--  CStrings:  463
-+  CStrings:  465
+-  CStrings:  708
++  CStrings:  711
  
 CStrings:
 + "13:38:49"

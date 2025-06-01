@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78AA50A8-4504-3072-B8C8-FD2E5BD08E4C
 -  Functions: 1106
 -  Symbols:   3560
--  CStrings:  1424
+-  CStrings:  1547
++  UUID: 6FEA5E86-DBC7-3E2F-9A04-AFB56D74D5F5
 +  Functions: 1109
 +  Symbols:   3565
-+  CStrings:  1433
++  CStrings:  1557
  
 Symbols:
 + -[NACIDSServer _beginObservingSystemMutedState].cold.1

@@ -47,7 +47,6 @@
    __AUTH_CONST.__objc_intobj: 0x408
    __AUTH_CONST.__objc_dictobj: 0x280
    __AUTH_CONST.__objc_const: 0x1410
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x20
 -  __AUTH_CONST.__auth_got: 0x490
@@ -68,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 43E6BF51-8499-39FC-987D-48E558010CB1
 -  Functions: 1275
 -  Symbols:   4041
--  CStrings:  2103
+-  CStrings:  2679
++  UUID: 655582E0-F39E-385B-AEC4-8EF3128B4E95
 +  Functions: 1278
 +  Symbols:   4054
-+  CStrings:  2109
++  CStrings:  2686
  
 Symbols:
 + -[DSIDRecord isDPIDLocal]

@@ -76,7 +76,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x150
 +  __AUTH_CONST.__objc_const: 0x4cf8
    __AUTH_CONST.__objc_arrayobj: 0x108
--  __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x1068
 -  __AUTH.__objc_data: 0x2768
 -  __AUTH.__data: 0xa8
@@ -90,7 +89,6 @@
 -  __DATA_DIRTY.__objc_data: 0x1e28
 -  __DATA_DIRTY.__data: 0x168
 -  __DATA_DIRTY.__bss: 0x378
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__auth_got: 0x11e8
 +  __AUTH.__objc_data: 0x26f8
 +  __AUTH.__data: 0xf8
@@ -119,12 +117,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 04F26F2D-10A2-300B-99C9-C3512A43A26C
 -  Functions: 7715
 -  Symbols:   2030
--  CStrings:  14544
+-  CStrings:  17526
++  UUID: 800A967C-8D95-3E9A-85BC-9AD33E82E60E
 +  Functions: 8216
 +  Symbols:   2085
-+  CStrings:  13257
++  CStrings:  14658
  
 Symbols:
 + _CNContactImageHashKey
@@ -529,7 +529,9 @@ CStrings:
 - "CloudKit sync state: %@, account is enabled: %@, isDisablingEnabledState: %@, isDisablingDevices: %@, is in exit state: %@, exit date: %@, last sync date: %@, sync type: %@, sync status: %@, sync job state: %@, account status: %@, controller sync state: %@, controller sync type: %@, controller sync record %@, errors: %@"
 - "Creating Error SyncProgress: %@"
 - "Creating Hidden SyncProgress"
+- "D"
 - "Device does not support FaceTime, not registering TUConversation delegate"
+- "F"
 - "HIDDEN PROGRESS"
 - "Hiding cloud kit sync progress because we've had a successful full sync within the last seven days."
 - "IMCloudKitAccountNeedsRepairSyncProgress"
@@ -556,10 +558,12 @@ CStrings:
 - "IMDMessageRecordCloudKitStatisticTotalCountKey"
 - "IMDMessageRecordCloudKitStatisticTotalMessageCountKey"
 - "IMFileTransferFilenameKey"
+- "M"
 - "Nothing changed for update, not posting for: %@"
 - "Posting transfer: %@  change: %@"
 - "Posting transfer: %@  finished: %@"
 - "Repair Account"
+- "S"
 - "SYNC_PROGRESS_SYNCING_ITEMS"
 - "Sync State percent: %@, raw stats: %@, %@, %@, %@ | serverCounts: %@ | syncStoreCounts: %@"
 - "T@\"IMCloudKitSyncState\",R,N,V_syncState"
@@ -630,6 +634,7 @@ CStrings:
 - "Tq,R,N,V_syncControllerRecordType"
 - "Tq,R,N,V_syncControllerSyncType"
 - "Tq,R,N,V_syncState"
+- "U"
 - "_accountIsEnabled"
 - "_accountStatus"
 - "_actionLabel"

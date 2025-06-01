@@ -36,8 +36,8 @@
 -  __AUTH_CONST.__cfstring: 0x1720
 +  __AUTH_CONST.__cfstring: 0x1740
    __AUTH_CONST.__objc_const: 0x1098
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x560
+   __AUTH_CONST.__objc_dictobj: 0x50
 
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x210
@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B52BF7AA-E70E-30D5-BC01-DCA4C9286B73
 -  Functions: 1168
 -  Symbols:   3733
--  CStrings:  2007
+-  CStrings:  2192
++  UUID: D68E3250-9C10-3D2B-A05D-1E1C787138E1
 +  Functions: 1170
 +  Symbols:   3739
-+  CStrings:  2014
++  CStrings:  2200
  
 Symbols:
 + -[BKFaceDetectStateInfo cameraObstructionScore]

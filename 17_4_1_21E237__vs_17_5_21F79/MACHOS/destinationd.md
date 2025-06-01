@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0x110
    __DATA_CONST.__auth_got: 0x908
    __DATA_CONST.__got: 0x430
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9DB3D6E1-A06D-3620-A43F-EB1E268D2570
++  UUID: 1FB0521A-2B17-32DC-8F64-553BC4F38145
+   Functions: 1101
+   Symbols:   541
+   CStrings:  2510
 CStrings:
 + "11:28:14"
 + "Apr 14 2024"

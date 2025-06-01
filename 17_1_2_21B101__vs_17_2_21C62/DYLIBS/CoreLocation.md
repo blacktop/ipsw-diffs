@@ -73,12 +73,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4EA0816B-36B8-3713-8C85-58F5068E5D80
 -  Functions: 4020
 -  Symbols:   911
--  CStrings:  7464
+-  CStrings:  8543
++  UUID: 8F8E6D09-47AD-3BF3-81C0-4E2E36426508
 +  Functions: 4047
 +  Symbols:   914
-+  CStrings:  7520
++  CStrings:  8607
  
 Symbols:
 + _CLLocationManagerGatheringBufferedDevicesReceived

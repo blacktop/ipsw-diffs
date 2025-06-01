@@ -42,8 +42,6 @@
 -  __AUTH_CONST.__const: 0x2367c0
 +  __AUTH_CONST.__const: 0x236858
    __AUTH_CONST.__cfstring: 0x6580
--  __AUTH_CONST.__auth_ptr: 0x190
-+  __AUTH_CONST.__auth_ptr: 0x198
    __AUTH_CONST.__objc_arrayobj: 0x90
    __AUTH_CONST.__objc_const: 0x1e00
    __AUTH_CONST.__objc_intobj: 0x258
@@ -76,11 +74,13 @@
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libxslt.1.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53989E1A-F648-3EFE-850F-1758D428E42A
 -  Functions: 109232
 -  Symbols:   238782
++  UUID: 952878AC-C728-3236-AA29-C2E9D19DA690
 +  Functions: 109156
 +  Symbols:   238638
-   CStrings:  30198
+   CStrings:  31010
  
 Symbols:
 + _.str.4693

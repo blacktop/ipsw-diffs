@@ -34,13 +34,16 @@
    __DATA.__objc_const: 0x900
    __DATA.__objc_selrefs: 0x408
 
+   - @rpath/BookStoreUI.framework/BookStoreUI
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: E56526E2-EA19-3D00-8EB1-C07993B67CDE
++  UUID: F8262848-3766-3693-89F0-DFECB293C5FC
    Functions: 66
 -  Symbols:   173
--  CStrings:  263
+-  CStrings:  293
 +  Symbols:   165
-+  CStrings:  259
++  CStrings:  285
  
 Symbols:
 - _BKJSAEnvClassNameAnalyticsController

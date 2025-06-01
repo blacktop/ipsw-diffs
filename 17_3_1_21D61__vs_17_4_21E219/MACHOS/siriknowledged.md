@@ -44,11 +44,15 @@
    __DATA.__objc_data: 0x3c0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C2BDA8E-C624-37DF-9A59-20D5273D9A1A
++  UUID: AB15F65B-800A-3DC6-842C-FADF3DF19D37
    Functions: 268
    Symbols:   195
--  CStrings:  812
-+  CStrings:  815
+-  CStrings:  888
++  CStrings:  893
  
 CStrings:
 + "T@\"NSString\",?,R,C"

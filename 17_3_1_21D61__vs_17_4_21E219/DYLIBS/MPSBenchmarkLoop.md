@@ -49,13 +49,12 @@
 +  __DATA_CONST.__objc_arraydata: 0x20
 +  __AUTH_CONST.__cfstring: 0x6c0
    __AUTH_CONST.__objc_arrayobj: 0x18
-+  __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x310
 -  __DATA.__objc_protorefs: 0x10
 -  __DATA.__objc_classrefs: 0xe8
 -  __DATA.__objc_superrefs: 0x70
 -  __DATA.__objc_ivar: 0x21c
++  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__auth_got: 0x2c8
 +  __DATA.__objc_ivar: 0x208
    __DATA.__data: 0x300
@@ -75,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 69AB1EE8-F0CB-3ABF-BE6A-0FF4CFC224EF
 -  Functions: 297
 -  Symbols:   169
--  CStrings:  1684
+-  CStrings:  1747
++  UUID: 39EF7A03-5F72-3207-B71D-6DC69EE907BD
 +  Functions: 236
 +  Symbols:   153
-+  CStrings:  1589
++  CStrings:  1643
  
 Symbols:
 + ___cxa_guard_acquire

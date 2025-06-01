@@ -74,12 +74,14 @@
    - /System/Library/PrivateFrameworks/ProxCardKit.framework/ProxCardKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2EAC894A-B446-3699-8B90-F5F205D9DBF0
 -  Functions: 122
 -  Symbols:   552
--  CStrings:  284
+-  CStrings:  310
++  UUID: E87334D4-47E0-303C-8B77-2E4120E92546
 +  Functions: 76
 +  Symbols:   381
-+  CStrings:  253
++  CStrings:  304
  
 Symbols:
 + +[CARSetupPrompts addSkipForNowToAssetProgressPrompt:skipHandler:]

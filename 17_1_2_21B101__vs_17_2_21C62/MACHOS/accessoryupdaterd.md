@@ -51,12 +51,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A0E65ED3-D060-386D-9D12-B249F036D9EF
 -  Functions: 1784
 -  Symbols:   406
--  CStrings:  3644
+-  CStrings:  4665
++  UUID: 12FB0186-C15D-39F1-837D-594AFBB5CEDF
 +  Functions: 1790
 +  Symbols:   407
-+  CStrings:  3665
++  CStrings:  4694
  
 Symbols:
 + _kUARPStandaloneFirmwareDirectory

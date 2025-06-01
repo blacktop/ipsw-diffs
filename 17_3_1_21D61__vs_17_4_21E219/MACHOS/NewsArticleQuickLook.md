@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 759F5B5B-AA3D-3FC5-8507-972EBEE9CB32
++  UUID: 10E942A7-5C69-3192-9558-918A0461101A
    Functions: 18
    Symbols:   46
--  CStrings:  112
-+  CStrings:  113
+-  CStrings:  117
++  CStrings:  118
  
 CStrings:
 + "T@\"NSString\",?,R,C"

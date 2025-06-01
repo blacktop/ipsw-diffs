@@ -60,11 +60,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A45FD594-9717-3D24-8249-766CC1D13585
 -  Functions: 333
++  UUID: 21792B61-BAD0-38E7-9CA9-F779AE72B2A9
 +  Functions: 337
    Symbols:   171
--  CStrings:  833
-+  CStrings:  846
+-  CStrings:  929
++  CStrings:  943
  
 CStrings:
 + "NDOClientConfiguration"

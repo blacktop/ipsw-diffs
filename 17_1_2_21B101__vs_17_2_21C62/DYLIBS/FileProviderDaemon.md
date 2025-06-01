@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x858
 +  __AUTH_CONST.__auth_got: 0x868
    __AUTH.__objc_data: 0x730
@@ -66,12 +65,14 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
+-  UUID: 783DE8E7-CF31-3A72-86F9-BF3D29FF7358
 -  Functions: 3788
 -  Symbols:   11988
--  CStrings:  5203
+-  CStrings:  5811
++  UUID: DCD8C7D4-EC87-3E80-808A-076E9089EF63
 +  Functions: 3815
 +  Symbols:   12077
-+  CStrings:  5238
++  CStrings:  5847
  
 Symbols:
 + -[FPDSharedScheduler _contextForActivity:]

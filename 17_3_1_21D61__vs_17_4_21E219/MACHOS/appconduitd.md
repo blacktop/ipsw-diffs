@@ -51,11 +51,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5077E565-58F5-326C-8654-7A7985254239
 -  Functions: 1592
++  UUID: 5BDFC92F-692D-3937-897C-4A028AE62645
 +  Functions: 1595
    Symbols:   299
--  CStrings:  3634
-+  CStrings:  3648
+-  CStrings:  4775
++  CStrings:  4800
  
 CStrings:
 + "%@: new but not eligible for watch install so not installing"

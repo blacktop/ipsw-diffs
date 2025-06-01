@@ -33,11 +33,15 @@
    __DATA.__data: 0x360
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5C1DB731-67DA-3E3E-A7E5-F345C6540525
++  UUID: 3DAC8A8E-A81D-355F-BFB1-5F27F07DA48F
    Functions: 228
    Symbols:   1025
--  CStrings:  462
-+  CStrings:  463
+-  CStrings:  502
++  CStrings:  503
  
 Symbols:
 + __OBJC_$_PROP_LIST_TLTimelineWindow.113

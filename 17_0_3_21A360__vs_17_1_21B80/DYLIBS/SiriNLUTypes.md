@@ -18,7 +18,7 @@
    __TEXT.__swift5_assocty: 0x4e0
    __TEXT.__constg_swiftt: 0x3330
 
-   __AUTH_CONST.__auth_ptr: 0x230
+   __AUTH_CONST.__const: 0x9038
    __AUTH_CONST.__objc_const: 0x4da0
    __AUTH_CONST.__cfstring: 0x3a60
 +  __AUTH_CONST.__objc_intobj: 0x60
@@ -35,11 +35,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4427D95E-89BE-3EF9-8935-462F93199425
++  UUID: 97854199-8B6B-3D9A-8201-33069771EEEE
    Functions: 26845
    Symbols:   27211
--  CStrings:  4038
-+  CStrings:  4039
+-  CStrings:  4505
++  CStrings:  4506
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantIntegerNumber

@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__cfstring: 0x1920
 +  __AUTH_CONST.__objc_const: 0x480
    __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0x60
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__objc_arrayobj: 0x18
@@ -67,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30FF25C6-D16D-30CB-B8A7-DA4BE98A8087
 -  Functions: 1424
 -  Symbols:   5366
--  CStrings:  4870
+-  CStrings:  5062
++  UUID: 3471682C-2679-394A-A0D3-C08BFA068489
 +  Functions: 1433
 +  Symbols:   5401
-+  CStrings:  4922
++  CStrings:  5123
  
 Symbols:
 + -[FigRegWarpPPGPU _setTuningParams]

@@ -19,8 +19,8 @@
    __TEXT.__objc_methname: 0x4c
    __DATA_CONST.__got: 0x250
 
+   __DATA_CONST.__objc_classrefs: 0x10
    __AUTH_CONST.__const: 0x1098
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__auth_got: 0x740
 -  __DATA.__data: 0x538
 +  __DATA.__data: 0x528
@@ -31,5 +31,14 @@
    __DATA_DIRTY.__common: 0x8
    __DATA_DIRTY.__bss: 0x200
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: D51C4277-9A87-3A8D-8BB3-DF4A213DB409
++  UUID: 49039BDA-068B-3D3C-9D88-E1161ADBF92A
+   Functions: 1895
+   Symbols:   443
+   CStrings:  107
 
 ```

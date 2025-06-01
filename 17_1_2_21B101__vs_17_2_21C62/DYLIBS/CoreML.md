@@ -19,6 +19,15 @@
    __TEXT.__oslogstring: 0x787a
    __TEXT.__ustring: 0x204
    __TEXT.__dlopen_cstrs: 0x21e
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3114CB84-B451-36B0-A821-7AFF396E938E
++  UUID: A83FA7A6-0F41-3587-8E34-E259BA36D357
+   Functions: 13934
+   Symbols:   39692
+   CStrings:  10924
 CStrings:
 + "1877.50.1"
 - "1877.40.1.0.5"

@@ -37,11 +37,15 @@
    __DATA.__data: 0x240
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 257DE978-978A-3604-A09C-862D7D4DFCC5
++  UUID: BB202DE4-39D7-3BF3-81A6-93F0A885AB6E
    Functions: 116
    Symbols:   603
--  CStrings:  389
-+  CStrings:  390
+-  CStrings:  475
++  CStrings:  476
  
 CStrings:
 + "T@\"NSString\",?,R,C"

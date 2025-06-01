@@ -46,11 +46,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DECD6966-DEEC-33D1-A524-A4EE417E0559
 -  Functions: 2494
++  UUID: EBB68B13-09EA-3E47-B352-464B09C496DB
 +  Functions: 2508
    Symbols:   435
--  CStrings:  3769
-+  CStrings:  3783
+-  CStrings:  4153
++  CStrings:  4167
  
 CStrings:
 + "ConfigurationPublisher: notifying configuration subscribers for UI"

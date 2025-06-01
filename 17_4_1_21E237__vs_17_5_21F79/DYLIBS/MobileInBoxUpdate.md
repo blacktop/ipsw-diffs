@@ -24,11 +24,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BDB9E269-3AC4-3282-AAE4-94AF6DB19882
 -  Functions: 279
 -  Symbols:   928
++  UUID: D1A18942-26A2-30E6-B7A9-DA1402CFE0FA
 +  Functions: 269
 +  Symbols:   915
-   CStrings:  218
+   CStrings:  251
  
 Symbols:
 - _CTEvaluateAMFICodeSignatureCMS

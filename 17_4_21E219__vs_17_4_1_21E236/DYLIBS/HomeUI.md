@@ -23,11 +23,15 @@
    __TEXT.__ustring: 0x7e
    __TEXT.__unwind_info: 0x13ca8
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D887D089-4BA3-3F0B-ACCB-EB67D748A53E
++  UUID: 15450C24-DD4B-3017-A432-517B8C5BD48D
    Functions: 32509
    Symbols:   82565
--  CStrings:  35184
-+  CStrings:  35185
+-  CStrings:  39107
++  CStrings:  39108
  
 CStrings:
 + "%s, applying snapshot with (%ld) sections"

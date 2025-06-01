@@ -46,11 +46,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BE511470-3951-3A79-97BC-B451072939B7
 -  Functions: 629
++  UUID: 7CF8A00F-C5A4-30C9-97F8-21B3B6E59C06
 +  Functions: 631
    Symbols:   363
--  CStrings:  2328
-+  CStrings:  2332
+-  CStrings:  2638
++  CStrings:  2642
  
 CStrings:
 + "\x14\x15"

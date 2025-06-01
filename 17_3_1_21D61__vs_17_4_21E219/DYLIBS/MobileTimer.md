@@ -83,12 +83,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2B1897D7-96A3-3090-9E22-166E581E82BD
 -  Functions: 4583
 -  Symbols:   15701
--  CStrings:  6564
+-  CStrings:  7399
++  UUID: CF3F3EF1-2846-3D64-B29C-F0D585A6A95D
 +  Functions: 4772
 +  Symbols:   16328
-+  CStrings:  6780
++  CStrings:  7645
  
 Symbols:
 + +[MTStopwatch descriptionForState:]

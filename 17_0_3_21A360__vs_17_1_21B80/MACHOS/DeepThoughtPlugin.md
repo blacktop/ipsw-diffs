@@ -23,8 +23,11 @@
    __DATA_CONST.__auth_ptr: 0x8
    __DATA_CONST.__const: 0xc8
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47A20357-4F83-39A6-83C3-D6DC2D665E2D
++  UUID: 122F442B-89C8-3118-8726-31BCE8F298EB
    Functions: 15
 -  Symbols:   264
 +  Symbols:   267

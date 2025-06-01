@@ -71,13 +71,16 @@
    __DATA.__common: 0xa8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A9786D5F-E1F9-3630-8FF9-A64AE29EF513
++  UUID: F6FA13AC-D3AD-3F05-AC3F-E8E49B5075DB
    Functions: 1375
 -  Symbols:   575
--  CStrings:  3417
+-  CStrings:  4044
 +  Symbols:   600
-+  CStrings:  3043
++  CStrings:  3233
  
 Symbols:
 + _IMCloudKitTelemetrySyncVersion

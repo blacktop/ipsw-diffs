@@ -22,7 +22,6 @@
 -  __AUTH_CONST.__const: 0x4640
    __AUTH_CONST.__objc_arrayobj: 0xc0
 +  __AUTH_CONST.__const: 0x43a0
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x930
 -  __AUTH.__objc_data: 0xff0
 -  __AUTH.__data: 0x38
@@ -39,5 +38,14 @@
    __DATA_DIRTY.__bss: 0x160
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 8A3FBFA2-011B-35DD-B4A0-340D2CC52A54
++  UUID: E87294CD-984D-3F82-B524-11848A4F0C16
+   Functions: 1832
+   Symbols:   7116
+   CStrings:  4750
 
 ```

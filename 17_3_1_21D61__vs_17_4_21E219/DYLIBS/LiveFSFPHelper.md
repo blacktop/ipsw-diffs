@@ -39,11 +39,15 @@
    __DATA.__data: 0x540
    __DATA.__bss: 0x10
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64B9F80A-3D0F-3A56-A21B-349BD2211F11
++  UUID: 05B1C945-ED66-3584-9D01-3E30A66182E1
    Functions: 616
    Symbols:   2216
--  CStrings:  1245
-+  CStrings:  1247
+-  CStrings:  1281
++  CStrings:  1283
  
 Symbols:
 + ___57-[LiveFSFPExtensionHelper itemForIdentifierLocked:error:]_block_invoke.213

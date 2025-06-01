@@ -32,13 +32,16 @@
    __AUTH_CONST.__objc_const: 0x240
    __AUTH_CONST.__const: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 084A63C6-A84C-328C-BDEB-7223B184B5E3
++  UUID: A6C953BC-B514-3982-AEFF-23344D5DD4FC
    Functions: 251
 -  Symbols:   1032
--  CStrings:  759
+-  CStrings:  844
 +  Symbols:   1033
-+  CStrings:  760
++  CStrings:  845
  
 Symbols:
 + _objc_msgSend$setDisableRCSelection:

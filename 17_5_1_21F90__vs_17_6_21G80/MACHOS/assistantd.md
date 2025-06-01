@@ -80,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libresolv.9.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9C556A82-A32C-3663-8770-C036F02D296A
 -  Functions: 13812
 -  Symbols:   2815
--  CStrings:  25807
+-  CStrings:  28086
++  UUID: CBA847EE-EB0B-3197-8768-6FE88B2F8A31
 +  Functions: 13885
 +  Symbols:   2818
-+  CStrings:  25947
++  CStrings:  28219
  
 Symbols:
 + _CLLocationCoordinate2DMake

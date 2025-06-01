@@ -53,7 +53,6 @@
    __AUTH_CONST.__objc_intobj: 0x1c8
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__auth_got: 0x6a0
 -  __AUTH.__objc_data: 0x19f0
 -  __DATA.__objc_protorefs: 0xc0
@@ -76,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE84E63B-0139-3DD0-93F3-14B2FAE70C0C
 -  Functions: 5064
 -  Symbols:   16439
--  CStrings:  7287
+-  CStrings:  8766
++  UUID: 3862F148-551B-3E51-ABF9-99FA26526610
 +  Functions: 5085
 +  Symbols:   16534
-+  CStrings:  7321
++  CStrings:  8808
  
 Symbols:
 + +[AKRemoteViewServiceConfiguration configurationForHostWithBundleID:sceneID:]

@@ -14,6 +14,15 @@
    __TEXT.__const: 0x1139ef
    __TEXT.__cstring: 0xd3001
    __TEXT.__oslogstring: 0x7b
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6677926D-AC68-32EB-B744-6E627ED2BD51
++  UUID: 7D43C557-C890-3E9B-9357-6D87BCE4A24E
+   Functions: 50715
+   Symbols:   18457
+   CStrings:  10771
 CStrings:
 + "06:03:32)"
 + "Apr 13 2024"

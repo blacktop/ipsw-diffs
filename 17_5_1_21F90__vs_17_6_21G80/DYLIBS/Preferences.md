@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x480
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0xbd0
 -  __AUTH.__objc_data: 0x3ac0
 -  __DATA.__objc_ivar: 0xbc4
@@ -78,12 +77,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 2F895CBE-A582-30F8-9B6A-8360B766F025
 -  Functions: 5002
 -  Symbols:   17507
--  CStrings:  8372
+-  CStrings:  10029
++  UUID: 7DC98AF1-1380-3802-BF4B-D209B1C5C338
 +  Functions: 5020
 +  Symbols:   17573
-+  CStrings:  8412
++  CStrings:  10084
  
 Symbols:
 + -[PSNFCDefaultAppSpecifier .cxx_destruct]

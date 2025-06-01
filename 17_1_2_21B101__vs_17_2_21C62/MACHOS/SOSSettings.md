@@ -34,11 +34,15 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 587925EC-459F-3039-9DFB-F060E638C99B
++  UUID: F7CFD82D-916F-319B-B0C4-A0F0CF77B784
    Functions: 225
    Symbols:   236
--  CStrings:  667
-+  CStrings:  668
+-  CStrings:  726
++  CStrings:  727
  
 CStrings:
 + "feedbackDraftViewControllerDidLoadForm:"

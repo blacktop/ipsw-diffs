@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89F79C64-A254-387E-95AD-64FBB623FED9
++  UUID: B9B50C2E-F9F5-3B1E-8684-F1630BB808A6
    Functions: 1444
    Symbols:   4986
--  CStrings:  2019
-+  CStrings:  2020
+-  CStrings:  2169
++  CStrings:  2170
  
 Symbols:
 + __OBJC_$_PROP_LIST_AVTAvatarRecord.120

@@ -45,12 +45,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AE21D689-C5B7-3EE1-AB0F-91D725EBAA80
 -  Functions: 53
 -  Symbols:   366
--  CStrings:  215
+-  CStrings:  249
++  UUID: 051AA2E5-F35A-37CF-B845-18C1E8455541
 +  Functions: 57
 +  Symbols:   375
-+  CStrings:  218
++  CStrings:  252
  
 Symbols:
 + -[MusicSettingsListViewController _configureCell:forIndexPath:]

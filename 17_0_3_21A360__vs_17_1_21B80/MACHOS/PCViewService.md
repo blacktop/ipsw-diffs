@@ -59,11 +59,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2DAB354F-A3BE-3D6E-977F-8ABC09550BDE
 -  Functions: 4123
++  UUID: 6AF240FD-4160-35B2-A47A-F755E3BB1968
 +  Functions: 4117
    Symbols:   1092
--  CStrings:  1320
-+  CStrings:  1319
+-  CStrings:  1329
++  CStrings:  1328
  
 Symbols:
 + _SBUIIsSystemApertureEnabled

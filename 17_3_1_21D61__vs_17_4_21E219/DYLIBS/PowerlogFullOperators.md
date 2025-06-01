@@ -27,6 +27,15 @@
    __DATA.__objc_ivar: 0x250
    __DATA.__data: 0x38
    __DATA.__bss: 0x979
+
+   - /usr/lib/libAWDSupportFramework.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3F5C233F-CD7C-3A47-BD38-1A7B1F69B546
++  UUID: A54136CB-C6AB-3316-87AA-94FA39500B8F
+   Functions: 946
+   Symbols:   3492
+   CStrings:  2028
 Symbols:
 + ___18-[PLPMUAgent init]_block_invoke.60
 + ___18-[PLPMUAgent init]_block_invoke.75

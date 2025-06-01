@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AFEB9FA4-DD70-3D33-A825-A09395640921
++  UUID: 3D4B229F-C878-3049-A033-BEF39C4A71C8
+   Functions: 41
+   Symbols:   258
+   CStrings:  182
+
 ```

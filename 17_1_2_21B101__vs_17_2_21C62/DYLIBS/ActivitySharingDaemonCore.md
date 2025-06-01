@@ -18,6 +18,15 @@
    __TEXT.__unwind_info: 0x17c0
    __TEXT.__objc_classname: 0xa00
    __TEXT.__objc_methname: 0xed6d
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E3E91445-E944-3EC6-83EF-F8DDF5B648CE
++  UUID: 9C183B70-8046-323D-A6F1-15115F14CFF3
+   Functions: 2104
+   Symbols:   7872
+   CStrings:  3808
 CStrings:
 + "Notifying %lu observers of friend list changes %lu friends."
 - "Notifying observers of friend list changes %lu friends."

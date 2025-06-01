@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libParallelCompression.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libc++abi.dylib
+-  UUID: EBC9B9D9-DD64-37D1-8234-2AA38AEC331B
++  UUID: F86EC30A-F63C-3AEA-B8A1-6D9BE9872ABE
+   Functions: 1136
+   Symbols:   2435
+   CStrings:  541
 
 ```

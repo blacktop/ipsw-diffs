@@ -49,12 +49,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B92B221D-C63D-3B9B-AAA4-5377B5CFEB78
 -  Functions: 232
 -  Symbols:   1048
--  CStrings:  591
++  UUID: 105CE7A9-0D9D-341C-AE74-26F9F2DD6BEE
 +  Functions: 236
 +  Symbols:   1056
-+  CStrings:  594
+   CStrings:  639
  
 Symbols:
 + -[WatchQuickActionsServices userInterfaceClient:processMessageFromServer:withIdentifier:error:].cold.1

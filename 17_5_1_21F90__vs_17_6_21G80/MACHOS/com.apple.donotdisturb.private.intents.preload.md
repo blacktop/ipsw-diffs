@@ -1,0 +1,18 @@
+## com.apple.donotdisturb.private.intents.preload
+
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.intents.preload.bundle/com.apple.donotdisturb.private.intents.preload`
+
+```diff
+
+-371.213.0.0.0
++371.216.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__const: 0x68
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 474442C3-173E-377A-99DC-398AD6676C4F
++  UUID: 3D982D07-7303-34CF-A26F-95F2DC137169
+   Functions: 0
+   Symbols:   2
+   CStrings:  0
+
+```

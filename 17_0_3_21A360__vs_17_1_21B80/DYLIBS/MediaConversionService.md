@@ -43,13 +43,16 @@
    __DATA.__objc_ivar: 0x200
    __DATA.__data: 0x528
 
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35AC2E1E-604E-3492-90B0-F9E97E0B247B
++  UUID: 0A52DB55-13CB-3624-8823-484A0C7E99DC
    Functions: 687
 -  Symbols:   2781
--  CStrings:  1640
+-  CStrings:  2008
 +  Symbols:   2786
-+  CStrings:  1641
++  CStrings:  2009
  
 Symbols:
 + _AVAppleMakerNote_MeteorHeadroom

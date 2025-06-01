@@ -28,13 +28,16 @@
    __DATA_CONST.__auth_ptr: 0x8
    __DATA_CONST.__const: 0x220
 
+   - /System/Library/PrivateFrameworks/VisageHRTF.framework/VisageHRTF
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 163B2436-F742-3E97-AE31-A7FB3A08B633
++  UUID: 4645ECE2-DE90-3221-B9F5-CFF665E2BB40
    Functions: 143
 -  Symbols:   169
--  CStrings:  418
+-  CStrings:  463
 +  Symbols:   170
-+  CStrings:  420
++  CStrings:  465
  
 Symbols:
 + __os_feature_enabled_impl

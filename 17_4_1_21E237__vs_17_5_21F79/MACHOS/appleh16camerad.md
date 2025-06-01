@@ -49,12 +49,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C5F8DE8F-282E-3978-B13D-A2DD5471FF46
 -  Functions: 1592
 -  Symbols:   832
--  CStrings:  1785
+-  CStrings:  2162
++  UUID: 1C1445BC-B784-3AA0-942F-C06CEE32A9F8
 +  Functions: 1594
 +  Symbols:   834
-+  CStrings:  1786
++  CStrings:  2164
  
 Symbols:
 + _kFigCaptureStreamMetadata_HighQualitySensorReadoutRect

@@ -23,6 +23,15 @@
    __TEXT.__objc_stubs: 0x85c0
    __DATA_CONST.__got: 0xc0
    __DATA_CONST.__const: 0xa08
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetquality.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0777EC3B-A386-3DF1-94F8-7298078C7E5E
++  UUID: 39BE3FC5-D751-3A3F-BC9A-028447A2CA06
+   Functions: 1563
+   Symbols:   5550
+   CStrings:  4392
 Symbols:
 + +[NPTDLogger client]
 + +[NPTDLogger daemon]

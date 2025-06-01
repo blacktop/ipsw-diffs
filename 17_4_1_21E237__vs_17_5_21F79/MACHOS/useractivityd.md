@@ -23,6 +23,15 @@
    __TEXT.__eh_frame: 0x88
    __DATA_CONST.__auth_got: 0x7b0
    __DATA_CONST.__got: 0x298
+
+   - /usr/lib/libbz2.1.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3D68B409-F2BD-34A9-A8BD-B2B60DF4C431
++  UUID: C32359E3-F1AB-3B08-AD66-5A820FBFAA3A
+   Functions: 2321
+   Symbols:   413
+   CStrings:  5570
 CStrings:
 + "07:18:19"
 + "07:18:45"

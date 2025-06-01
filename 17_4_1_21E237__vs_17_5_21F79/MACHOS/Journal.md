@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7B60462-E77C-3A85-A80F-9B5E58F60D3F
 -  Functions: 16563
 -  Symbols:   2137
--  CStrings:  5650
+-  CStrings:  5657
++  UUID: 96082ED7-34F1-30A1-802C-3308ED7A08E6
 +  Functions: 16565
 +  Symbols:   2138
-+  CStrings:  5659
++  CStrings:  5666
  
 Symbols:
 + _OBJC_CLASS_$_NSTextList

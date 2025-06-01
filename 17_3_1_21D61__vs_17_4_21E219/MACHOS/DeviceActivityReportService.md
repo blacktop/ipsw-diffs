@@ -74,13 +74,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: C3F95EF0-247B-394E-9639-AC43E3C2CFDF
 -  Functions: 483
 -  Symbols:   155
--  CStrings:  261
+-  CStrings:  262
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 28EF0EA5-FF73-3A08-96D3-C2A8FEF4F33F
 +  Functions: 491
 +  Symbols:   159
-+  CStrings:  279
++  CStrings:  280
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAccelerate

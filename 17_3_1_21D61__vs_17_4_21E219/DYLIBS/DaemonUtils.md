@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EA08259A-2417-3588-9C91-FDCB97016982
 -  Functions: 444
 -  Symbols:   1789
--  CStrings:  998
+-  CStrings:  1112
++  UUID: E8497AF0-C6A0-3CB9-8021-DF980178FE48
 +  Functions: 448
 +  Symbols:   1808
-+  CStrings:  1014
++  CStrings:  1137
  
 Symbols:
 + -[BiometryHelper _dumpEnvironmentForUser:]

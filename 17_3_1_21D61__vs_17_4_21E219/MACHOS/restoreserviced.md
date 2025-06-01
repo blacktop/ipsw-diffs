@@ -47,11 +47,13 @@
 -  - /usr/lib/libimg4.dylib
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C871CC97-8593-37BD-9F4D-68172E2D7D1F
 -  Functions: 322
++  UUID: 7F4DF075-01CF-3131-BA19-640FD6B6C425
 +  Functions: 323
    Symbols:   222
--  CStrings:  933
-+  CStrings:  934
+-  CStrings:  1263
++  CStrings:  1266
  
 Symbols:
 + _AMAuthInstallUpdaterTwoStageEnabled

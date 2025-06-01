@@ -15,4 +15,13 @@
    __TEXT.__swift5_typeref: 0x166
    __TEXT.__cstring: 0x226
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1B93FAFF-26B9-3917-8423-D3BA7B80892D
++  UUID: A2D5F1FF-8C20-3C18-A1D3-1342F3186303
+   Functions: 34
+   Symbols:   62
+   CStrings:  29
+
 ```

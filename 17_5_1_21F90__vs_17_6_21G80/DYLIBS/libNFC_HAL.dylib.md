@@ -26,12 +26,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
+-  UUID: 466983B2-3917-3DD1-BDF7-9DC64A4BD735
 -  Functions: 178
 -  Symbols:   270
--  CStrings:  576
+-  CStrings:  602
++  UUID: C66C1F1F-B6E0-3E78-933C-DC108634BF7C
 +  Functions: 179
 +  Symbols:   271
-+  CStrings:  580
++  CStrings:  607
  
 Symbols:
 + _NFHardwareHasVirtualGPIO

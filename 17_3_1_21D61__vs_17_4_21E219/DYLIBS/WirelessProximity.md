@@ -57,12 +57,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7214ADE4-F081-30B8-9ECB-1A1D3A0DCD5C
 -  Functions: 1500
 -  Symbols:   4594
--  CStrings:  1913
+-  CStrings:  2252
++  UUID: DD9C893D-F204-355B-8DA5-B552D3EE3E2A
 +  Functions: 1499
 +  Symbols:   4585
-+  CStrings:  1919
++  CStrings:  2258
  
 Symbols:
 + -[WPClient dispatchAdvertisement:]

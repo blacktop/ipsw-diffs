@@ -43,13 +43,16 @@
    __DATA.__objc_classrefs: 0x258
    __DATA.__objc_superrefs: 0xf8
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C2F1ECA-935A-3890-B56E-862D3F55D6CB
++  UUID: 69BEF395-530A-370B-A2B0-98D9AFB5C003
    Functions: 1068
 -  Symbols:   324
--  CStrings:  2003
+-  CStrings:  2429
 +  Symbols:   323
-+  CStrings:  2006
++  CStrings:  2432
  
 Symbols:
 - _CFNumberCreate

@@ -45,7 +45,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x41d8
    __DATA_CONST.__objc_arraydata: 0x220
    __AUTH_CONST.__const: 0x12608
-   __AUTH_CONST.__auth_ptr: 0x48
 -  __AUTH_CONST.__cfstring: 0xe520
 +  __AUTH_CONST.__cfstring: 0xe5a0
    __AUTH_CONST.__objc_const: 0x6588
@@ -64,11 +63,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0202E420-5004-3A2F-BFC5-AE48EF76C999
 -  Functions: 16341
++  UUID: BE7671F8-BDB7-30F5-9957-10EA2E0FE9D7
 +  Functions: 16345
    Symbols:   1515
--  CStrings:  13248
-+  CStrings:  13266
+-  CStrings:  15081
++  CStrings:  15103
  
 CStrings:
 + "%@, startDate %@, eventType %@, action %@, reason %@, workoutType %@, recoveryStart %f, recoveryEnd %f>"

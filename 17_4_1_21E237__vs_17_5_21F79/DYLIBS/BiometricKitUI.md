@@ -66,12 +66,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6FB02085-A9E3-397F-ACE7-C4E27D70F84A
 -  Functions: 2418
 -  Symbols:   8375
--  CStrings:  4410
+-  CStrings:  4783
++  UUID: C0F2572E-97EB-34E3-BDE6-EC690F8536BA
 +  Functions: 2426
 +  Symbols:   8383
-+  CStrings:  4423
++  CStrings:  4801
  
 Symbols:
 + -[BKUIFingerPrintPosedVideoPlayerView load].cold.1

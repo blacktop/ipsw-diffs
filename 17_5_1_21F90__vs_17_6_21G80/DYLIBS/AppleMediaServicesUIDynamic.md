@@ -52,7 +52,6 @@
    __DATA_CONST.__objc_arraydata: 0xb0
 -  __AUTH_CONST.__const: 0x8dc8
 +  __AUTH_CONST.__const: 0x8dd0
-   __AUTH_CONST.__auth_ptr: 0x2d8
    __AUTH_CONST.__objc_const: 0x4a0
    __AUTH_CONST.__cfstring: 0xce0
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -77,11 +76,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7BFB16B6-6743-3B6F-B99B-91D09B3DB075
 -  Functions: 6918
++  UUID: ED3D319E-911D-3BF4-8B9F-D000C101E3C4
 +  Functions: 6919
    Symbols:   4767
--  CStrings:  1892
-+  CStrings:  1894
+-  CStrings:  1995
++  CStrings:  1997
  
 CStrings:
 + "ams_defaultPlatformBackgroundColor"

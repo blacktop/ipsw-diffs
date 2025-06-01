@@ -47,12 +47,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6BA6DDE1-612F-381E-8EF3-AF4B8E95B461
 -  Functions: 7588
 -  Symbols:   1451
--  CStrings:  9202
+-  CStrings:  9620
++  UUID: C3C5BD98-2FBB-3CD8-AF2A-FB67FAB27221
 +  Functions: 7593
 +  Symbols:   1450
-+  CStrings:  9204
++  CStrings:  9622
  
 Symbols:
 - _RCSiriTipViewFeatureFlagIsEnabled

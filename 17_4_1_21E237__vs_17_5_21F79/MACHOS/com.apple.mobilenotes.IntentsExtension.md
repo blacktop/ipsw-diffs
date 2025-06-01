@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: DEF0D1A5-BC89-31A4-84C2-3AE3B96881FF
 -  Functions: 298
 -  Symbols:   280
--  CStrings:  885
+-  CStrings:  935
++  UUID: 6BAB36A8-5CAE-3A41-8625-10150E713660
 +  Functions: 303
 +  Symbols:   282
-+  CStrings:  899
++  CStrings:  950
  
 Symbols:
 + _OBJC_CLASS_$_NSFileManager

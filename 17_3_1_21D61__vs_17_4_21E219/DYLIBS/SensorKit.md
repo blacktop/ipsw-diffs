@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 962F566F-32F1-3A04-A592-BE50C11AA4BB
 -  Functions: 1286
 -  Symbols:   4767
--  CStrings:  2437
+-  CStrings:  2953
++  UUID: 855756D2-B6B0-335C-8AE0-6F0F7231A1D8
 +  Functions: 1567
 +  Symbols:   5740
-+  CStrings:  2728
++  CStrings:  3295
  
 Symbols:
 + +[NSArray(HAAccelSamples) sr_arrayWithHAAccelSamples:]

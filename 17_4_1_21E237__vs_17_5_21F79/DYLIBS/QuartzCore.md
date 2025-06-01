@@ -62,10 +62,8 @@
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x2f8
    __AUTH_CONST.__objc_arrayobj: 0x30
--  __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x2748
 -  __AUTH.__objc_data: 0x1040
-+  __AUTH_CONST.__auth_ptr: 0x70
 +  __AUTH_CONST.__auth_got: 0x2788
 +  __AUTH.__objc_data: 0x1090
    __AUTH.__data: 0x38
@@ -98,12 +96,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: A53570F9-DC4A-3B41-9932-B1A081E6E520
 -  Functions: 10741
 -  Symbols:   28205
--  CStrings:  11105
+-  CStrings:  13717
++  UUID: A4B65B35-9EEB-38E4-9D4F-7146AAE1E28C
 +  Functions: 10809
 +  Symbols:   28398
-+  CStrings:  11205
++  CStrings:  13832
  
 Symbols:
 + +[CASecureIndicatorLayer CA_automaticallyNotifiesObservers:]

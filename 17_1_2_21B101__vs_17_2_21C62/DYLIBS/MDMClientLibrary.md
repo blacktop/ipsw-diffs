@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 744A9700-C7E7-39E2-B8C6-1571FBD7E6B4
 -  Functions: 422
 -  Symbols:   2081
--  CStrings:  1202
+-  CStrings:  1547
++  UUID: 6FC9A1BF-9DD7-3DE6-B6C7-85D47BE0F0A8
 +  Functions: 428
 +  Symbols:   2096
-+  CStrings:  1210
++  CStrings:  1557
  
 Symbols:
 + +[MDMConfiguration _emptyTokenErrorWithUnderlayingError:]

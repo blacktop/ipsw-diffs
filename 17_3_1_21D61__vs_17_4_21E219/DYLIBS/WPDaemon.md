@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_intobj: 0x108
    __AUTH_CONST.__objc_const: 0xbd0
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__auth_got: 0x470
    __AUTH.__objc_data: 0xf0
 -  __DATA.__objc_protorefs: 0x18
@@ -59,12 +58,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 64DBD515-B2DA-3685-AD74-2DA5CCA9EED7
 -  Functions: 2600
 -  Symbols:   8165
--  CStrings:  3433
+-  CStrings:  3842
++  UUID: 5D31DF5C-708D-34C7-9047-AA730B81F910
 +  Functions: 2601
 +  Symbols:   8167
-+  CStrings:  3439
++  CStrings:  3848
  
 Symbols:
 + GCC_except_table131

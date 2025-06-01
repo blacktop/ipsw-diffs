@@ -63,11 +63,15 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5F10E41F-070B-34E5-B4A7-B0145EEB6CAC
++  UUID: E0EFA671-9D7D-3E84-A9FC-771CFB3AE763
    Functions: 945
    Symbols:   359
--  CStrings:  1459
-+  CStrings:  1461
+-  CStrings:  1911
++  CStrings:  1916
  
 CStrings:
 + "Adopted cached Voucher for accountID:%@"

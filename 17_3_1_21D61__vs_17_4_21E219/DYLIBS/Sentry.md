@@ -69,12 +69,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: E76CD0AA-2A56-36A6-8233-ADAE8607CDC1
 -  Functions: 448
 -  Symbols:   1698
--  CStrings:  860
+-  CStrings:  994
++  UUID: 40403C2D-D5A5-39DC-A15D-B93518F62557
 +  Functions: 427
 +  Symbols:   1579
-+  CStrings:  824
++  CStrings:  954
  
 Symbols:
 + -[STYSpecialAppLaunchSignpostMonitorHelper enforceAppLaunchThreshold]

@@ -27,4 +27,13 @@
    - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04327A9F-2B07-33EC-9C80-809F2C19DBD8
++  UUID: D4317ECB-5E31-3E4E-BECA-34D573525A4D
+   Functions: 1380
+   Symbols:   4508
+   CStrings:  2369
+
 ```

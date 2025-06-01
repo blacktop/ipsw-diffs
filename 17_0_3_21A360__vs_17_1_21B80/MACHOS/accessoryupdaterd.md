@@ -71,12 +71,14 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B1FF7E2-1A1C-3775-B543-E7BFC65D6EF8
 -  Functions: 1738
 -  Symbols:   402
--  CStrings:  3540
+-  CStrings:  4498
++  UUID: A0E65ED3-D060-386D-9D12-B249F036D9EF
 +  Functions: 1784
 +  Symbols:   406
-+  CStrings:  3644
++  CStrings:  4665
  
 Symbols:
 + _UARPFirmwareStagingCompletionStatusToString

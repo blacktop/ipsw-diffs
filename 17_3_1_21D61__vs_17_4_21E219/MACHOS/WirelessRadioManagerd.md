@@ -68,11 +68,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 57A010DF-E083-3325-B9EB-8E48A8E72487
 -  Functions: 6588
++  UUID: 35EB07A0-EB37-354A-A105-E9F20A9C1F88
 +  Functions: 6624
    Symbols:   732
--  CStrings:  13103
-+  CStrings:  13193
+-  CStrings:  17928
++  CStrings:  18068
  
 Symbols:
 + __ZN3ctu5iokit10Controller20setAccessoryCallbackEN8dispatch8callbackIU13block_pointerFvNS0_32TelephonyIOKitAccessoryParameterEEEE

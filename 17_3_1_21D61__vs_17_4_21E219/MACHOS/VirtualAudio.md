@@ -70,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 114B6FAA-01CB-32CA-8D04-B757FE1C17C9
 -  Functions: 9995
 -  Symbols:   679
--  CStrings:  10349
+-  CStrings:  10806
++  UUID: F7A33A22-CC81-3610-B3AC-BF55498BD30C
 +  Functions: 10076
 +  Symbols:   686
-+  CStrings:  10427
++  CStrings:  10889
  
 Symbols:
 + _CFNullGetTypeID

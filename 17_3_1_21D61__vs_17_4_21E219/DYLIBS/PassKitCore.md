@@ -59,7 +59,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x1e4d8
 -  __DATA_CONST.__objc_arraydata: 0x2fe8
 -  __AUTH_CONST.__const: 0xf0f0
--  __AUTH_CONST.__auth_ptr: 0xc0
 -  __AUTH_CONST.__objc_const: 0x2a470
 -  __AUTH_CONST.__cfstring: 0x60640
 +  __DATA_CONST.__objc_const: 0x89918
@@ -69,7 +68,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x2740
 +  __DATA_CONST.__objc_arraydata: 0x3000
 +  __AUTH_CONST.__const: 0xa6f0
-+  __AUTH_CONST.__auth_ptr: 0xb8
 +  __AUTH_CONST.__objc_const: 0x2a7d0
 +  __AUTH_CONST.__cfstring: 0x61040
    __AUTH_CONST.__objc_arrayobj: 0xa08
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4DC7117-9613-3A7C-8B46-46FD511C2E53
 -  Functions: 39328
 -  Symbols:   109558
--  CStrings:  45723
+-  CStrings:  58061
++  UUID: 0362CAFE-4546-3251-9288-142803233A63
 +  Functions: 39519
 +  Symbols:   110236
-+  CStrings:  46043
++  CStrings:  58461
  
 Symbols:
 + +[PKEngagementEventTrigger fireScheduledPaymentsChangedEvent]

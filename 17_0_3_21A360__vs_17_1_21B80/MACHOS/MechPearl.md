@@ -30,4 +30,13 @@
    __DATA.__objc_selrefs: 0x560
    __DATA.__objc_classrefs: 0x70
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B536A4D0-B8F4-3C4E-BBC5-71CF04140745
++  UUID: 8D9752FB-AB1A-392F-B0EB-38DBC60C5BAC
+   Functions: 130
+   Symbols:   81
+   CStrings:  458
+
 ```

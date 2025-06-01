@@ -21,4 +21,13 @@
    __DATA.__common: 0x38
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CFB35A23-7DA3-3FF7-8C67-E57D307064E5
++  UUID: 57890E81-FECC-35DE-995A-1F3EDD081B75
+   Functions: 31
+   Symbols:   70
+   CStrings:  108
+
 ```

@@ -45,11 +45,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1BE6F7D-2EB9-3FF4-BBFC-B31ACF438C30
 -  Functions: 1218
++  UUID: 5545F972-028D-3EAD-B77A-959A5C4E117C
 +  Functions: 1219
    Symbols:   337
--  CStrings:  1908
-+  CStrings:  1912
+-  CStrings:  2084
++  CStrings:  2089
  
 CStrings:
 + "Failed to make temporary copy of reset sync complication sample data"

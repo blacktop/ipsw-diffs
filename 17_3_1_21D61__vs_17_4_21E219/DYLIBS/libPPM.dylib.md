@@ -24,4 +24,13 @@
    __DATA_DIRTY.__objc_data: 0xa0
    __DATA_DIRTY.__bss: 0x18
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5275B0D8-6A6D-38B0-9092-6BFFA320E520
++  UUID: 8E315BD2-AF31-3FFC-9D89-70EA6B5D7FCC
+   Functions: 32
+   Symbols:   177
+   CStrings:  144
+
 ```

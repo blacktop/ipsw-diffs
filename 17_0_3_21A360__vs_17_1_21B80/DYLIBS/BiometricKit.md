@@ -26,13 +26,16 @@
    __DATA.__objc_protorefs: 0x10
    __DATA.__objc_classrefs: 0x210
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7C2AB9B-F90B-3298-AA7B-00C025E7283F
++  UUID: B52BF7AA-E70E-30D5-BC01-DCA4C9286B73
    Functions: 1168
 -  Symbols:   3734
--  CStrings:  2009
+-  CStrings:  2194
 +  Symbols:   3733
-+  CStrings:  2007
++  CStrings:  2192
  
 Symbols:
 - __os_feature_enabled_impl

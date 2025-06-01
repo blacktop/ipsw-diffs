@@ -50,13 +50,16 @@
    __DATA_DIRTY.__objc_data: 0x320
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 22D1E958-D54D-3A6A-A9E1-9C21B44E4CC2
++  UUID: 4CFB27D6-C0FD-32B9-9647-A4CE8073ED3D
    Functions: 296
 -  Symbols:   1248
--  CStrings:  546
+-  CStrings:  599
 +  Symbols:   1245
-+  CStrings:  545
++  CStrings:  598
  
 Symbols:
 + ___56-[ALAssetsLibrary assetForURL:resultBlock:failureBlock:]_block_invoke.101

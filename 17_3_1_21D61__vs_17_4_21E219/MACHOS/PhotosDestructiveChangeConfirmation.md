@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B20BA0C0-0E5D-3BF0-B424-5FA576AFBFF0
++  UUID: BB50E5E3-64A6-3454-A492-61C8CA9029EE
    Functions: 26
    Symbols:   66
--  CStrings:  136
-+  CStrings:  137
+-  CStrings:  140
++  CStrings:  141
  
 CStrings:
 + "T@\"NSString\",?,R,C"

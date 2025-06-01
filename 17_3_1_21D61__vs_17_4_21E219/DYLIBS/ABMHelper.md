@@ -56,12 +56,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: E772FE2E-57D8-3A48-93F9-2FCB9F591127
 -  Functions: 3503
 -  Symbols:   9480
--  CStrings:  1940
+-  CStrings:  1999
++  UUID: AE303A42-735A-3DA7-A51F-0EA7355C2F21
 +  Functions: 3519
 +  Symbols:   9462
-+  CStrings:  1906
++  CStrings:  1965
  
 Symbols:
 + GCC_except_table142

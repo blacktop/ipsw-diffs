@@ -32,11 +32,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotification
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2A0E598C-2255-3263-9C2C-F63F8DDD15C7
++  UUID: 64A4B2DD-0DA5-3ED1-ACD8-0BAF21911F6E
    Functions: 7
    Symbols:   36
--  CStrings:  83
-+  CStrings:  84
+-  CStrings:  86
++  CStrings:  87
  
 CStrings:
 + "T@\"NSString\",?,R,C"

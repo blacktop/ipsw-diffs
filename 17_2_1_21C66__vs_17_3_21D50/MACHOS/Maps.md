@@ -37,11 +37,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5AC466D0-2ADE-367D-B7F1-1D102461F493
 -  Functions: 70199
++  UUID: A39ABE43-A2A6-34FD-9BA0-97BB9719FAA1
 +  Functions: 70198
    Symbols:   4544
--  CStrings:  87305
-+  CStrings:  87304
+-  CStrings:  101265
++  CStrings:  101263
  
 CStrings:
 - "MapsIPCInterface Pinging connection to connection broker %@"

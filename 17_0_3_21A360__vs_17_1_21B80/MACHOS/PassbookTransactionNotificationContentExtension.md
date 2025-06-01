@@ -36,13 +36,16 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x70
 
+   - /System/Library/PrivateFrameworks/PassKitUIFoundation.framework/PassKitUIFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3588D26F-3BAE-3BF4-AE86-193462171EAE
++  UUID: 9CB4FEC3-96AD-34DC-996D-F3178A2A2D12
    Functions: 41
 -  Symbols:   124
--  CStrings:  355
+-  CStrings:  399
 +  Symbols:   125
-+  CStrings:  359
++  CStrings:  403
  
 Symbols:
 + _PKNoCurrencyCode

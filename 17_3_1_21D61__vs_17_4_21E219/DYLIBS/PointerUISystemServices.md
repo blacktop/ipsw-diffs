@@ -34,11 +34,15 @@
    __DATA.__data: 0x180
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A76DC06E-77F6-3D97-8DE0-DFA5F3D502A2
++  UUID: 7F327AC3-8314-33EB-92A0-9803971CB94B
    Functions: 21
    Symbols:   174
--  CStrings:  152
-+  CStrings:  153
+-  CStrings:  158
++  CStrings:  159
  
 CStrings:
 + "T@\"NSString\",?,R,C"

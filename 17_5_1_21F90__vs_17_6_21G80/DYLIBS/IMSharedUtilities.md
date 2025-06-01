@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x4c8
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x1260
 -  __AUTH.__objc_data: 0x3400
 +  __AUTH_CONST.__auth_got: 0x1268
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE41F1C3-EC77-394D-B7FE-80D9E2357B08
 -  Functions: 6341
 -  Symbols:   2733
--  CStrings:  11554
+-  CStrings:  14369
++  UUID: 3E2E1413-FC25-3282-A9B3-0CB6A2324701
 +  Functions: 6354
 +  Symbols:   2743
-+  CStrings:  11587
++  CStrings:  14414
  
 Symbols:
 + _IMAttachmentPropertyOriginalGUID

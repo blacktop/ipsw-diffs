@@ -24,11 +24,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3075B305-76C5-3E63-9759-E60912E68CEB
++  UUID: 47B4E26F-B303-38FF-A3C7-FC41E241CB14
    Functions: 7
    Symbols:   145
--  CStrings:  82
-+  CStrings:  83
+-  CStrings:  86
++  CStrings:  87
  
 CStrings:
 + "T@\"NSString\",?,R,C"

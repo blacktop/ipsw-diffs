@@ -80,12 +80,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9009D42A-E3CE-33E4-9060-35ACAAB6AA29
 -  Functions: 1743
 -  Symbols:   6191
--  CStrings:  2946
+-  CStrings:  3434
++  UUID: 45B2A4E9-FD62-3865-AC01-95AA45C501F3
 +  Functions: 2081
 +  Symbols:   7264
-+  CStrings:  3438
++  CStrings:  4006
  
 Symbols:
 + +[CARPrototypePref force3xCluster]
@@ -968,6 +970,7 @@ CStrings:
 + "-[CRDisplayThemeData currentPaletteID]"
 + "-[CRDisplayThemeData currentWallpaper]"
 + ":\x13\x113#\x13"
++ "=ب\xde=ؙ\xde "
 + "@\"<CARThemeAssetLibraryAgentDelegate>\""
 + "@\"CARThemeAssetLibrary\""
 + "@\"CARThemeAssetLibraryObserverProxy\""

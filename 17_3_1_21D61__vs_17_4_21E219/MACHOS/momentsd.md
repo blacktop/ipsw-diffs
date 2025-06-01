@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: E6884DFB-5E8A-3D80-B023-97A2CFC966BD
 -  Functions: 6158
 -  Symbols:   43680
--  CStrings:  11730
+-  CStrings:  15421
++  UUID: D2C59C84-065C-3708-A2FD-2A348B50ADCC
 +  Functions: 6199
 +  Symbols:   44046
-+  CStrings:  11836
++  CStrings:  15581
  
 Symbols:
 + +[JournalAppSettingsUtilities boolForKey:]

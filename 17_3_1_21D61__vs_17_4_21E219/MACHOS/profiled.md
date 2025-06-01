@@ -78,12 +78,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 600AE817-46BA-3118-A63B-056822D80280
 -  Functions: 1902
 -  Symbols:   1426
--  CStrings:  4780
+-  CStrings:  5831
++  UUID: 3ED1DDF9-45C5-3ECB-8E8E-941B5A478B1F
 +  Functions: 1901
 +  Symbols:   1436
-+  CStrings:  4801
++  CStrings:  5858
  
 Symbols:
 + _MCClientRestrictionsErrorDomain

@@ -39,7 +39,11 @@
    __DATA_CONST.__objc_classrefs: 0x58
    __AUTH_CONST.__const: 0xb08
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA9800F4-4C3E-356B-BD8B-9525E3BCA7A7
++  UUID: 8A569FA1-1E73-3CDB-BC52-AD5975730AF3
    Functions: 418
    Symbols:   299
 -  CStrings:  138

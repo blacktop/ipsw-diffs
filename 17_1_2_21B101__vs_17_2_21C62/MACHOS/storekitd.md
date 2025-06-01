@@ -105,12 +105,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 401E3730-90C3-3170-96A1-0CF85165A888
 -  Functions: 6137
 -  Symbols:   1223
--  CStrings:  6090
+-  CStrings:  6976
++  UUID: D3714912-987F-3EDA-962E-E4D056D4462A
 +  Functions: 6828
 +  Symbols:   1275
-+  CStrings:  6136
++  CStrings:  7006
  
 Symbols:
 + _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ

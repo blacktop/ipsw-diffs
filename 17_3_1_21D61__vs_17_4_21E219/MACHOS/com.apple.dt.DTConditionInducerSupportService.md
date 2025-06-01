@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/ConditionInducer.framework/ConditionInducer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BD3D8ED3-D6D6-3E52-9DEC-18472BABC2B1
++  UUID: 4A3BE1DE-C372-3266-9F9F-B7057715BA0E
    Functions: 31
    Symbols:   87
--  CStrings:  163
-+  CStrings:  164
+-  CStrings:  178
++  CStrings:  179
  
 CStrings:
 + "T@\"NSString\",?,R,C"

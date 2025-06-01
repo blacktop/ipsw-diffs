@@ -43,12 +43,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1A37F19A-E9CC-3A0E-B9CD-3DB77C7F834B
 -  Functions: 717
 -  Symbols:   2798
--  CStrings:  1283
+-  CStrings:  1457
++  UUID: 329C815C-21F9-3C74-84E1-34415A91E09F
 +  Functions: 738
 +  Symbols:   2864
-+  CStrings:  1288
++  CStrings:  1462
  
 Symbols:
 + -[SFExternalCredentialIdentityStore _migrateToSchemaVersion_3]

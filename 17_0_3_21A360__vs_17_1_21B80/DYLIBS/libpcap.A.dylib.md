@@ -16,14 +16,16 @@
 +  __TEXT.__unwind_info: 0x604
    __DATA_CONST.__got: 0x20
    __DATA_CONST.__const: 0x1418
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__auth_got: 0x310
 
    __DATA_DIRTY.__const: 0x40
    __DATA_DIRTY.__bss: 0x545
    - /usr/lib/libSystem.B.dylib
+-  UUID: BDC5969C-579A-3AF3-8711-BEAC5F8A182A
 -  Functions: 540
 -  Symbols:   938
 -  CStrings:  1045
++  UUID: 569AB23C-12B9-31FD-A137-E6F4C1AA3FD3
 +  Functions: 546
 +  Symbols:   945
 +  CStrings:  1060

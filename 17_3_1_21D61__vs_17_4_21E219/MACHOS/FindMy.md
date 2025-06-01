@@ -110,12 +110,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 881B4198-6B43-3E14-9C5D-9DFC7792E9B0
 -  Functions: 20331
 -  Symbols:   3441
--  CStrings:  7602
+-  CStrings:  7634
++  UUID: 4107A958-B84D-3A15-9C0B-A82091C6FFBC
 +  Functions: 20680
 +  Symbols:   3516
-+  CStrings:  7672
++  CStrings:  7704
  
 Symbols:
 + _$s10FindMyBase16isFeatureEnabledySb0E5Flags0eG3Key_pF

@@ -33,17 +33,19 @@
 +  __AUTH_CONST.__const: 0x36100
    __AUTH_CONST.__cfstring: 0xfa0
    __AUTH_CONST.__objc_const: 0x438
-   __AUTH_CONST.__auth_ptr: 0xc0
+   __AUTH_CONST.__auth_got: 0x1650
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D1F52CDA-68D2-304D-9A52-54BDC911BBF5
 -  Functions: 37107
 -  Symbols:   74054
--  CStrings:  18450
+-  CStrings:  18575
++  UUID: F356A015-70F7-31B4-BA9B-321F295D7593
 +  Functions: 37097
 +  Symbols:   74034
-+  CStrings:  18451
++  CStrings:  18576
  
 Symbols:
 - __ZN3JSC10JSFunction43createWithInvalidatedReallocationWatchpointERNS_2VMEPNS_18FunctionExecutableEPNS_7JSScopeE

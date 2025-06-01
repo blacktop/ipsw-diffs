@@ -138,12 +138,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F54B9647-5807-3035-B4F3-E75C0C22D4EF
 -  Functions: 6262
 -  Symbols:   1182
--  CStrings:  8381
+-  CStrings:  10545
++  UUID: 49FBC227-5958-3CE1-8C50-104175EB8D48
 +  Functions: 6371
 +  Symbols:   1207
-+  CStrings:  8545
++  CStrings:  10740
  
 Symbols:
 + _$s10Foundation10URLRequestV3urlAA3URLVSgvg

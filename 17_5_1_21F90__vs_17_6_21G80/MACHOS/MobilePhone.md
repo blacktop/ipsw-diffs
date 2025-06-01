@@ -45,12 +45,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9A5D9AAD-78E7-33D5-AA0F-FFA7FB521EF5
 -  Functions: 7195
 -  Symbols:   1649
--  CStrings:  8745
+-  CStrings:  9445
++  UUID: F274CB2E-E833-35F9-8390-9EFF58766AD6
 +  Functions: 7200
 +  Symbols:   1658
-+  CStrings:  8747
++  CStrings:  9447
  
 Symbols:
 + _$s15ConversationKit21NameAndPhotoUtilitiesC26pendingOrCurrentIMNickname4fromSo0J0CSgSSSg_tF

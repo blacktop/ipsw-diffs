@@ -32,4 +32,13 @@
    __DATA_DIRTY.__bss: 0x80
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 6A72D2EB-1106-372B-8041-2403D171BDF7
++  UUID: 69FAF5C5-D3C9-3482-9960-3C82E2AC6EC7
+   Functions: 1967
+   Symbols:   6917
+   CStrings:  4218
+
 ```

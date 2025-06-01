@@ -16,4 +16,13 @@
    __TEXT.__objc_classname: 0xea
    __TEXT.__objc_methname: 0x2cf2
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: E8EEB7CE-5963-3099-A59D-B153E1143A43
++  UUID: 65BAADD5-F83A-3D3A-9965-4A9C6D5597FA
+   Functions: 285
+   Symbols:   348
+   CStrings:  1631
+
 ```

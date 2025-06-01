@@ -30,8 +30,8 @@
    __AUTH_CONST.__objc_const: 0xad0
    __AUTH_CONST.__cfstring: 0xa80
 
+   __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__const: 0x280
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x390
 -  __AUTH.__objc_data: 0x7d0
 -  __DATA.__objc_classrefs: 0x1f0
@@ -46,11 +46,15 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7CC7DADD-E5AF-3375-A43D-594E04242C74
++  UUID: 208754D2-B70D-3100-9B8B-B30029024226
    Functions: 655
    Symbols:   305
--  CStrings:  1337
-+  CStrings:  1338
+-  CStrings:  1421
++  CStrings:  1422
  
 CStrings:
 + "T@\"NSString\",?,R,C"

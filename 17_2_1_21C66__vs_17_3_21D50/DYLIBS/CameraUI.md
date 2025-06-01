@@ -54,7 +54,7 @@
    __AUTH_CONST.__objc_doubleobj: 0x500
    __AUTH_CONST.__objc_dictobj: 0x1e0
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0xa80
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x1060
 -  __AUTH.__objc_data: 0x2b48
@@ -90,12 +90,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 15D0EC3D-A23E-322A-A53A-B708C21F393C
 -  Functions: 13806
 -  Symbols:   47094
--  CStrings:  22477
+-  CStrings:  24865
++  UUID: F101EBF3-0F7C-3166-8A05-B6E9F560D603
 +  Functions: 13794
 +  Symbols:   47022
-+  CStrings:  22441
++  CStrings:  24832
  
 Symbols:
 + -[CAMDescriptionOverlayView _buttonTitleTransformerForTextStyle:]

@@ -28,11 +28,15 @@
    __AUTH_CONST.__const: 0xab0
    __AUTH_CONST.__objc_intobj: 0x120
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43E49598-3622-37A1-931E-44E3AC71B1FC
++  UUID: BF8FBE02-0F32-3650-9F4D-E680D899890E
    Functions: 1988
    Symbols:   5062
--  CStrings:  2498
-+  CStrings:  2500
+-  CStrings:  2754
++  CStrings:  2758
  
 Symbols:
 + ___block_literal_global.246

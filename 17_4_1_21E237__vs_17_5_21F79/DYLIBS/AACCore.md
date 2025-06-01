@@ -71,12 +71,14 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBE734CA-E79B-3488-96CA-13416BED22D7
 -  Functions: 412
 -  Symbols:   1692
--  CStrings:  652
+-  CStrings:  734
++  UUID: FE54E5FA-F292-3E82-89CB-001CD688B4B4
 +  Functions: 489
 +  Symbols:   1947
-+  CStrings:  741
++  CStrings:  833
  
 Symbols:
 + +[AEAssessmentAgentService registerRestrictionEnforcer:machServiceName:]

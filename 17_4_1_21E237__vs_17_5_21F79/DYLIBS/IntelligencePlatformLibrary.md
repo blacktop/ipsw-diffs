@@ -32,4 +32,13 @@
    __DATA_DIRTY.__bss: 0x1e0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7E08BE96-53BF-3324-9E92-E9841C129B21
++  UUID: 51B41A95-B092-3604-B0EE-56E49B3309FE
+   Functions: 1134
+   Symbols:   3291
+   CStrings:  1173
+
 ```

@@ -56,7 +56,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x680
 -  __AUTH_CONST.__const: 0x28e0
 -  __AUTH_CONST.__cfstring: 0x26e0
--  __AUTH_CONST.__auth_ptr: 0xb0
 -  __AUTH_CONST.__objc_const: 0x120
 -  __AUTH_CONST.__auth_got: 0xa40
 -  __AUTH.__data: 0x4330
@@ -68,7 +67,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x728
 +  __AUTH_CONST.__const: 0x2aa0
 +  __AUTH_CONST.__cfstring: 0x2700
-+  __AUTH_CONST.__auth_ptr: 0xb8
 +  __AUTH_CONST.__objc_const: 0x160
 +  __AUTH_CONST.__auth_got: 0xb60
 +  __AUTH.__data: 0x4468
@@ -83,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 49995AB6-06A4-32D0-873C-E1B239CCCBD8
 -  Functions: 2973
 -  Symbols:   1570
--  CStrings:  1210
+-  CStrings:  1521
++  UUID: 813316CB-5D92-3214-BC2C-676D9CC8FDE3
 +  Functions: 3134
 +  Symbols:   1661
-+  CStrings:  1281
++  CStrings:  1593
  
 Symbols:
 + _BMSiriMetricsOnDeviceDigestSegmentsCohortsIdentifier

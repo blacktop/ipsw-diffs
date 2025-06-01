@@ -42,6 +42,15 @@
    __DATA.__objc_ivar: 0x10
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 0A872798-4254-398B-8B1A-41C8B91DCBB0
++  UUID: FE61D8A8-9728-3D73-94BE-5956D2942C2B
+   Functions: 41
+   Symbols:   128
+   CStrings:  376
 CStrings:
 + "T@\"NSString\",?,R,C"
 - "productPlatform"

@@ -25,11 +25,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x328
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED29A01B-8E12-361A-A359-D0D828AAD483
++  UUID: D22FC56D-641C-32B1-A7C5-6E3D01743012
    Functions: 134
    Symbols:   524
--  CStrings:  259
-+  CStrings:  260
+-  CStrings:  291
++  CStrings:  292
  
 Symbols:
 + ___block_descriptor_tmp.49

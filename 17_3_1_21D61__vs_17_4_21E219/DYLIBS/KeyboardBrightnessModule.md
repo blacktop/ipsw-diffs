@@ -36,11 +36,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F25FD57E-BE22-3DDD-AACF-85348410649A
++  UUID: B033FCA0-62BA-394B-B71C-9916A20E64D7
    Functions: 36
    Symbols:   61
--  CStrings:  166
-+  CStrings:  168
+-  CStrings:  168
++  CStrings:  170
  
 CStrings:
 + "T@\"NSString\",?,R,C"

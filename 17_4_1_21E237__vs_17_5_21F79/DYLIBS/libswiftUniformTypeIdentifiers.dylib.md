@@ -19,7 +19,7 @@
    __TEXT.__objc_methname: 0x6c6
    __DATA_CONST.__got: 0x5d8
 
-   __AUTH_CONST.__auth_ptr: 0x38
+   __AUTH_CONST.__const: 0x410
    __AUTH_CONST.__auth_got: 0x3e8
    __AUTH.__objc_data: 0x0
 -  __DATA.__data: 0x168
@@ -29,5 +29,14 @@
    __DATA.__common: 0x1
    __DATA_DIRTY.__const: 0x478
    __DATA_DIRTY.__objc_const: 0x48
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: BD9CA8F7-7145-333C-8B7B-81B0BDCE4003
++  UUID: 8C2F5B63-6984-3AB4-AE0E-090DFEC4BFD0
+   Functions: 488
+   Symbols:   1356
+   CStrings:  80
 
 ```

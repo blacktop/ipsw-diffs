@@ -27,8 +27,11 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDataDetection.dylib
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DCED48E6-FD82-314C-9BA8-94E2CB627F56
++  UUID: BBCDA59A-E3DA-39DD-906D-19160C5A985F
    Functions: 424
 -  Symbols:   423
 +  Symbols:   424

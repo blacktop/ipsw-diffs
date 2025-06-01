@@ -43,10 +43,12 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6D7DA11D-0609-3131-978A-B472787C7910
++  UUID: 674A7F53-B6F6-31A1-98A9-22188FA841CF
    Functions: 46
 -  Symbols:   92
 +  Symbols:   96
-   CStrings:  110
+   CStrings:  129
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

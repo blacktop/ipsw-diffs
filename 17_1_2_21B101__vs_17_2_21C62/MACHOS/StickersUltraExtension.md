@@ -76,12 +76,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D74033C-66EF-3EDB-A684-9D56AACDFDE5
 -  Functions: 3159
 -  Symbols:   380
--  CStrings:  1426
+-  CStrings:  1443
++  UUID: A2496108-9CB4-38B2-9E9E-01BA5B53C54E
 +  Functions: 3210
 +  Symbols:   383
-+  CStrings:  1441
++  CStrings:  1458
  
 Symbols:
 + _UIKeyboardBeganTouchEmojiNotification

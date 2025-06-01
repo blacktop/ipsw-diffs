@@ -17,4 +17,13 @@
    __DATA.__common: 0x8
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9EDC1519-8046-372C-8CF5-EB9C63281968
++  UUID: 8610520F-93C2-3D3E-862E-36AC006894A5
+   Functions: 76
+   Symbols:   344
+   CStrings:  126
+
 ```

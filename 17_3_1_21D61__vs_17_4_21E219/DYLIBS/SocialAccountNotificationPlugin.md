@@ -34,11 +34,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EA4E6F7-CF0B-3E1B-B603-3687FA7DD115
++  UUID: 854DF022-FBEC-3897-8658-E340AC3B4B14
    Functions: 8
    Symbols:   48
--  CStrings:  96
-+  CStrings:  97
+-  CStrings:  102
++  CStrings:  103
  
 CStrings:
 + "T@\"NSString\",?,R,C"

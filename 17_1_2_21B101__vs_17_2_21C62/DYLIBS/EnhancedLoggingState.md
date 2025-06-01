@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x160
    __AUTH_CONST.__objc_intobj: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A3689898-9A71-39BB-82E5-DB29D47009BA
++  UUID: 81FB3269-F002-3E31-9C03-6B25CF277F77
    Functions: 194
    Symbols:   915
--  CStrings:  627
-+  CStrings:  630
+-  CStrings:  795
++  CStrings:  801
  
 CStrings:
 + "ENHANCED_LOGGING_MOBILEMAIL"

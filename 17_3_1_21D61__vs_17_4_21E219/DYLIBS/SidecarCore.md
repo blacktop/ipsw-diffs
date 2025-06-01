@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BE10CD2-B84A-37FE-AED0-C6BFFD1FAD5F
 -  Functions: 594
 -  Symbols:   2087
--  CStrings:  939
+-  CStrings:  1093
++  UUID: DDF71637-BB05-3D65-84EE-496D57999A17
 +  Functions: 600
 +  Symbols:   2101
-+  CStrings:  954
++  CStrings:  1112
  
 Symbols:
 + +[SidecarDevice allDevicesByForcingFetchFromRelay:]

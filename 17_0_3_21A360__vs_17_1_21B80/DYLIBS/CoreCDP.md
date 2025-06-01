@@ -47,7 +47,6 @@
    __AUTH_CONST.__const: 0x380
 +  __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__auth_got: 0x4d8
    __AUTH.__objc_data: 0x780
@@ -56,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3A6C7275-86B0-3F05-B1A2-EDD3786D50D3
 -  Functions: 1415
 -  Symbols:   4733
--  CStrings:  2324
+-  CStrings:  2650
++  UUID: 81D2D97F-4C54-313B-A1E7-F11C151373F0
 +  Functions: 1428
 +  Symbols:   4771
-+  CStrings:  2351
++  CStrings:  2682
  
 Symbols:
 + +[CDPUtilities isKeyboardOOPEnabled]

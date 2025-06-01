@@ -120,12 +120,14 @@
    - @rpath/EngagementCollector.framework/EngagementCollector
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: ED53C4A1-507B-3A14-BB2B-7397EA18A450
 -  Functions: 41532
 -  Symbols:   2031
--  CStrings:  25887
+-  CStrings:  27934
++  UUID: 864390F4-6C04-305A-ACFD-B1BA1FCE5897
 +  Functions: 41675
 +  Symbols:   2029
-+  CStrings:  25945
++  CStrings:  27995
  
 Symbols:
 + _BKStoreBookUpdateLog

@@ -37,13 +37,16 @@
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__objc_intobj: 0x30
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9241ABA8-E0E7-3B32-AC63-1E392ACFD7FA
++  UUID: B447949F-B72C-3DE4-9062-2F4B9FD3B725
    Functions: 189
 -  Symbols:   932
--  CStrings:  468
+-  CStrings:  571
 +  Symbols:   936
-+  CStrings:  470
++  CStrings:  575
  
 Symbols:
 + _ACCUserDefaultsKey_DisableAuthTimeoutTTRForXR

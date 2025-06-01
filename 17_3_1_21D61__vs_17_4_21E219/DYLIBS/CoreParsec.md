@@ -55,10 +55,9 @@
 +  __DATA_CONST.__objc_superrefs: 0x298
    __DATA_CONST.__objc_arraydata: 0x50
 -  __AUTH_CONST.__const: 0x29b8
-+  __AUTH_CONST.__const: 0x29d8
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__objc_const: 0x3570
 -  __AUTH_CONST.__cfstring: 0x7720
++  __AUTH_CONST.__const: 0x29d8
 +  __AUTH_CONST.__objc_const: 0x35f0
 +  __AUTH_CONST.__cfstring: 0x7b40
    __AUTH_CONST.__objc_intobj: 0x30
@@ -90,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 30DD546E-B432-313B-9E76-58D06B67E858
 -  Functions: 4456
 -  Symbols:   10867
--  CStrings:  5547
+-  CStrings:  6500
++  UUID: AB49B029-499C-3606-BDEE-74CB0F27D686
 +  Functions: 4471
 +  Symbols:   10920
-+  CStrings:  5621
++  CStrings:  6607
  
 Symbols:
 + -[PARResponse engagementSignal]

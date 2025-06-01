@@ -59,7 +59,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x888
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__objc_dictobj: 0x370
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xa30
 -  __AUTH.__objc_data: 0x49c0
 +  __AUTH_CONST.__auth_got: 0xa38
@@ -85,12 +84,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 39967803-85D8-3B54-81A4-DF973B5D1E0B
 -  Functions: 7535
 -  Symbols:   27015
--  CStrings:  11746
+-  CStrings:  14745
++  UUID: 42765E46-2F6F-35E4-8CED-67A740334A6D
 +  Functions: 7528
 +  Symbols:   26982
-+  CStrings:  11749
++  CStrings:  14737
  
 Symbols:
 + +[UIImage(SafariSharedExtras) safari_largestSizedBitmapImageOrSVGFromImages:]

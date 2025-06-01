@@ -60,12 +60,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3DF16F9-55B8-3388-950F-99966426B84F
 -  Functions: 594
 -  Symbols:   2469
--  CStrings:  995
+-  CStrings:  1511
++  UUID: 5CA16E0F-5D0F-3A8B-B405-80EF1C356039
 +  Functions: 610
 +  Symbols:   2527
-+  CStrings:  1007
++  CStrings:  1528
  
 Symbols:
 + +[SideBarClockViewAccessibility _accessibilityPerformValidations:]

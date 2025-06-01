@@ -65,9 +65,7 @@
 -  __AUTH_CONST.__const: 0x270d8
 +  __AUTH_CONST.__const: 0x27328
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x6a0
 -  __AUTH_CONST.__auth_got: 0x14f0
-+  __AUTH_CONST.__auth_ptr: 0x6b0
 +  __AUTH_CONST.__auth_got: 0x14e8
    __AUTH.__objc_data: 0xaa8
 -  __AUTH.__data: 0x5070
@@ -92,12 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 53AD9276-F816-35AC-A818-D0B2D1854001
 -  Functions: 46517
 -  Symbols:   30078
--  CStrings:  2552
+-  CStrings:  2622
++  UUID: 9C6426E1-C36E-34EC-9E2F-D81ADFA3B948
 +  Functions: 46714
 +  Symbols:   30477
-+  CStrings:  2560
++  CStrings:  2630
  
 Symbols:
 + +[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]

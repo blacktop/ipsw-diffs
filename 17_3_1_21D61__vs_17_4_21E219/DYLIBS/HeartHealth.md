@@ -39,11 +39,15 @@
    __DATA.__data: 0x5b8
    __DATA.__bss: 0x18
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 372307FC-C192-3856-B879-6CAE2C47649B
++  UUID: 9B2654E8-CEE1-3322-B916-BB8DDB263269
    Functions: 797
    Symbols:   2871
--  CStrings:  1426
-+  CStrings:  1427
+-  CStrings:  1672
++  CStrings:  1673
  
 Symbols:
 + ___136-[HKHRCardioFitnessOnboardingFlowManager markOnboardingCompleteWithCountryCode:countryCodeProvenance:notificationEnablement:completion:]_block_invoke.253

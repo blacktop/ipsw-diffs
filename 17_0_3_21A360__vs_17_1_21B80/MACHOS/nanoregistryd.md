@@ -34,11 +34,15 @@
    __DATA_CONST.__objc_catlist: 0x28
    __DATA_CONST.__objc_protolist: 0x218
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20B1D687-3CE7-3EAC-A77F-F1656C18C095
++  UUID: 2BA93CBC-144C-3034-ABF2-3B47D925464B
    Functions: 5493
    Symbols:   652
--  CStrings:  8064
-+  CStrings:  8073
+-  CStrings:  9478
++  CStrings:  9490
  
 CStrings:
 + "%s resumableRequestAccepted: %d"

@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3D25545D-0146-3493-9BC0-DBA142B2A24E
 -  Functions: 1135
 -  Symbols:   3649
--  CStrings:  1483
+-  CStrings:  1886
++  UUID: 388FA779-0C8D-38C4-A7EE-D49D7ED85687
 +  Functions: 1137
 +  Symbols:   3683
-+  CStrings:  1503
++  CStrings:  1921
  
 Symbols:
 + -[ACCExternalAccessoryProvider sendWiredCarPlayAvailable:usbIdentifier:wirelessAvailable:bluetoothIdentifier:themeAssetsAvailable:forUUID:]

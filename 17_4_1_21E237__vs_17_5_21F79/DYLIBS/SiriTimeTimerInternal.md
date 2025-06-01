@@ -13,7 +13,7 @@
    __TEXT.__objc_classname: 0x9
    __TEXT.__objc_methname: 0x143f
 
-   __AUTH_CONST.__auth_ptr: 0xb0
+   __AUTH_CONST.__const: 0x3ce0
    __AUTH_CONST.__objc_const: 0x480
    __AUTH_CONST.__auth_got: 0x920
 -  __AUTH.__data: 0x1658
@@ -30,5 +30,14 @@
    - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0430F2CC-D1E6-3C4A-8972-087F1D7E6876
++  UUID: AF7E4EAC-2991-3C9E-966C-2141D53544DA
+   Functions: 2329
+   Symbols:   1061
+   CStrings:  639
 
 ```

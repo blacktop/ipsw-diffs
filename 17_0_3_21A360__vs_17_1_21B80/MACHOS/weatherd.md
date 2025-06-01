@@ -39,12 +39,15 @@
    __DATA.__bss: 0x1900
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DF1DA6E-FA5C-3564-8EE4-A331C1964053
++  UUID: BC4C4D60-4C76-35FE-8DAD-CCC489C82E73
    Functions: 1520
 -  Symbols:   1039
 +  Symbols:   1042
-   CStrings:  414
+   CStrings:  415
  
 Symbols:
 + _$s16WeatherAnalytics11SessionDataV9utcOffset12languageCode07countryH011startMethod11productType14locationAccess013cellularRadioO10Technology28userSegmentationTreatmentIDs0st10SegmentSetV0ACs5Int32V_S2SAA05StartK0OSgSSAA08LocationoD0OSgAA08CellularqoR0OSgSays5Int64VGSgSayANGSgtcfC

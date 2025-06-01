@@ -87,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB9BE86E-3A2F-3E89-B73A-7C44DC4894C0
 -  Functions: 467
 -  Symbols:   293
--  CStrings:  1027
+-  CStrings:  1114
++  UUID: D8766343-76BE-3EB6-BF4C-066598534FAA
 +  Functions: 494
 +  Symbols:   300
-+  CStrings:  1035
++  CStrings:  1122
  
 Symbols:
 + _NSCurrentLocaleDidChangeNotification

@@ -68,11 +68,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 441BB50B-1DA5-37CE-B168-A26328CC5A79
 -  Functions: 21048
++  UUID: 601386D7-5F29-36BF-BE7E-8AEED8310068
 +  Functions: 21054
    Symbols:   3480
--  CStrings:  14911
-+  CStrings:  14920
+-  CStrings:  16159
++  CStrings:  16168
  
 CStrings:
 + "Communicate with participants, view activity, and manage shared note"

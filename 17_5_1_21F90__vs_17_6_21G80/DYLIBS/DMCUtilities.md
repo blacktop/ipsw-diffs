@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B6F7EA09-91CF-313A-9B68-C7600C6BBB03
 -  Functions: 1067
 -  Symbols:   4031
--  CStrings:  2308
+-  CStrings:  2737
++  UUID: 4A5EF933-806B-35DB-B86A-9428C60A1802
 +  Functions: 1068
 +  Symbols:   4033
-+  CStrings:  2310
++  CStrings:  2740
  
 Symbols:
 + +[DMCMobileGestalt chipID]

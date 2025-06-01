@@ -36,7 +36,6 @@
 +  __AUTH_CONST.__cfstring: 0x280
 +  __AUTH_CONST.__objc_const: 0x3f0
 +  __AUTH_CONST.__const: 0x130
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__auth_got: 0x370
 +  __AUTH.__objc_data: 0x470
 +  __AUTH.__data: 0xc0
@@ -51,6 +50,7 @@
 +  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: 5C459814-5F46-38C9-8210-4CB3BB50919D
 -  Functions: 0
 -  Symbols:   2
 -  CStrings:  0
@@ -67,9 +67,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: E4F1EFB7-B61C-3618-8D7D-2240F17F5FE5
 +  Functions: 127
 +  Symbols:   704
-+  CStrings:  294
++  CStrings:  314
  
 Symbols:
 + +[LACBackgroundTaskErrorBuilder _errorWithCode:userInfo:]

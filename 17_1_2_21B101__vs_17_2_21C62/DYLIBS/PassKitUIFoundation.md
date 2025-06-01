@@ -51,12 +51,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB7F1811-6119-31FD-8B10-CC2B400EF0E1
 -  Functions: 821
 -  Symbols:   3507
--  CStrings:  1786
+-  CStrings:  1905
++  UUID: 14312E2D-BB58-394C-9338-02B80AB9D462
 +  Functions: 824
 +  Symbols:   3519
-+  CStrings:  1793
++  CStrings:  1912
  
 Symbols:
 + -[PKAuthenticatorEvaluationRequest setUseLocationBasedAuthorization:]

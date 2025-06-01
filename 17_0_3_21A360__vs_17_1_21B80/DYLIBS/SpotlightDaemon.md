@@ -49,9 +49,8 @@
    __AUTH_CONST.__objc_const: 0xf78
    __AUTH_CONST.__objc_intobj: 0x168
 -  __AUTH_CONST.__objc_arrayobj: 0x1f8
-+  __AUTH_CONST.__objc_arrayobj: 0x240
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xbb8
++  __AUTH_CONST.__objc_arrayobj: 0x240
 +  __AUTH_CONST.__auth_got: 0xbd0
    __AUTH.__objc_data: 0x140
    __DATA.__objc_protorefs: 0x8
@@ -76,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AFA611D8-1E17-3A71-AF8F-A08F7436F993
 -  Functions: 2006
 -  Symbols:   6865
--  CStrings:  3227
+-  CStrings:  3694
++  UUID: 744DE98F-F401-3F94-B8FE-D571CA57D416
 +  Functions: 2036
 +  Symbols:   6961
-+  CStrings:  3291
++  CStrings:  3773
  
 Symbols:
 + -[SPConcreteCoreSpotlightIndexer deleteHasTopHitAppShortcutsWithResultsHandler:completionHandler:]

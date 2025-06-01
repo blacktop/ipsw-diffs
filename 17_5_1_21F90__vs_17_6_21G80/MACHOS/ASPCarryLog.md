@@ -58,11 +58,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libNVMeCTL.dylib
+-  UUID: 55BCAA46-9428-35C1-BB54-D7807111E542
 -  Functions: 611
++  UUID: 49B832B3-8B56-3541-A9D7-791403F673F1
 +  Functions: 613
    Symbols:   267
--  CStrings:  8088
-+  CStrings:  8098
+-  CStrings:  13031
++  CStrings:  13052
  
 Symbols:
 + _MSURetrievePreviousRestoreDate

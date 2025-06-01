@@ -101,12 +101,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AABDC1B8-6CF4-3460-9468-7011B81015AE
 -  Functions: 1851
 -  Symbols:   453
--  CStrings:  1367
+-  CStrings:  1586
++  UUID: FA514110-7D3B-3E83-9E00-3889DDA128FD
 +  Functions: 1925
 +  Symbols:   458
-+  CStrings:  1397
++  CStrings:  1616
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

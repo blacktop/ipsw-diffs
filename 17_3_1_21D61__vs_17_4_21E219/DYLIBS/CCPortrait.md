@@ -52,11 +52,15 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreImage.framework/CoreImage
 
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B78C2159-4137-3773-BC7F-57F0F705F104
++  UUID: 311369E2-CEF4-307E-9E5C-9CA6D795768B
    Functions: 1209
    Symbols:   359
--  CStrings:  2758
-+  CStrings:  2761
+-  CStrings:  3413
++  CStrings:  3416
  
 CStrings:
 + "T@\"NSString\",?,R,C"

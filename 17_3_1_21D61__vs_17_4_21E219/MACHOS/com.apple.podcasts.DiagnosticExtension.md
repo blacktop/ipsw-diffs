@@ -29,11 +29,15 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__data: 0x120
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - @rpath/IMDebug.framework/IMDebug
+-  UUID: C326813B-BB08-383B-ACD3-917EBD14D38B
++  UUID: 1A7CA7B7-DB7D-30E2-A1B9-2F08FDF33490
    Functions: 96
    Symbols:   119
--  CStrings:  276
-+  CStrings:  277
+-  CStrings:  286
++  CStrings:  287
  
 CStrings:
 + "T@\"NSString\",?,R,C"

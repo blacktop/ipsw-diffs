@@ -40,7 +40,6 @@
    __AUTH_CONST.__objc_dictobj: 0x348
    __AUTH_CONST.__objc_arrayobj: 0x2e8
    __AUTH_CONST.__objc_floatobj: 0x20
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x510
 +  __AUTH_CONST.__auth_got: 0x528
    __AUTH.__objc_data: 0xa00
@@ -50,12 +49,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 606CD41A-F569-37EC-8400-27C6680FE5BA
 -  Functions: 1085
 -  Symbols:   4004
--  CStrings:  2375
+-  CStrings:  3623
++  UUID: 08BF071A-A22D-373B-9889-19B8BF89C5CC
 +  Functions: 1081
 +  Symbols:   3997
-+  CStrings:  2372
++  CStrings:  3619
  
 Symbols:
 + ___block_literal_global.204

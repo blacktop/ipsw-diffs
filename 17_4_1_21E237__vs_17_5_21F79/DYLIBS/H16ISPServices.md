@@ -23,7 +23,6 @@
 +  __DATA_CONST.__const: 0x40
    __AUTH_CONST.__cfstring: 0x120
 -  __AUTH_CONST.__auth_got: 0x220
-+  __AUTH_CONST.__auth_ptr: 0x10
 +  __AUTH_CONST.__auth_got: 0x330
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -32,12 +31,14 @@
    - /usr/lib/libIOAccessoryManager.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 419E044C-B786-3AED-83E7-82EA50C69818
 -  Functions: 68
 -  Symbols:   223
--  CStrings:  1405
+-  CStrings:  1414
++  UUID: 110734A2-5427-38EB-BBC4-0D7AA2B73E7E
 +  Functions: 554
 +  Symbols:   1168
-+  CStrings:  1457
++  CStrings:  1466
  
 Symbols:
 + __NSConcreteStackBlock

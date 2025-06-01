@@ -27,11 +27,15 @@
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__auth_got: 0x208
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 017F64C8-DB98-3016-8F98-06BE3496A255
++  UUID: F4A8EBE8-07F5-35B7-8B85-A05915EB3AC5
    Functions: 203
    Symbols:   845
--  CStrings:  646
-+  CStrings:  647
+-  CStrings:  730
++  CStrings:  732
  
 Symbols:
 + __OBJC_$_PROP_LIST_NSObject.350

@@ -20,4 +20,13 @@
    __TEXT.__objc_classname: 0x81
    __TEXT.__objc_methname: 0xcdf
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 00405A44-D007-362E-B8EC-AE6C3D66DC8C
++  UUID: BC704764-5A6D-3823-B9A5-F40C25723303
+   Functions: 2276
+   Symbols:   6204
+   CStrings:  596
+
 ```

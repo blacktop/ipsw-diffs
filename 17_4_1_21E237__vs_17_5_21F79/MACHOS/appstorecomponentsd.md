@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6D70EB70-B70E-3FE8-9760-1175703DBFFE
 -  Functions: 5613
 -  Symbols:   1698
--  CStrings:  2770
+-  CStrings:  3100
++  UUID: 020084D3-3FC4-3151-873D-0D166F3EE3E4
 +  Functions: 5614
 +  Symbols:   1699
-+  CStrings:  2772
++  CStrings:  3102
  
 Symbols:
 + _$s14MarketplaceKit14AppDistributorO0C50DistributorsOrTrustedDevelopersChangedNotificationSo18NSNotificationNameavgZ

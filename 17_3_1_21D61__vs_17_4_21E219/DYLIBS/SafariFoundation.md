@@ -76,12 +76,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 73E7578F-D5B0-30C2-BC06-76E8C381EFB3
 -  Functions: 738
 -  Symbols:   2864
--  CStrings:  1288
+-  CStrings:  1462
++  UUID: 3B3EEE86-6D41-3C50-857E-2EB71513C3C6
 +  Functions: 762
 +  Symbols:   2936
-+  CStrings:  1320
++  CStrings:  1502
  
 Symbols:
 + +[SFPasswordManagerURL passwordManagerURLWithParameters:]
@@ -322,6 +324,7 @@ CStrings:
 - "_getCredentialsForAppWithApprovedAndValidSharedWebCredentialsDatabaseEntries:websiteURL:webFrameIdentifier:isEntitledWebBrowser:hasPasskeyRequest:completionHandler:"
 - "_getExternalCredentialsMatchingSharedWebCredentialsDatabaseEntries:websiteURL:isEntitledWebBrowser:hasPasskeyRequest:completion:"
 - "_sortCredentials:usingApprovedSharedWebCredentialsDatabaseEntries:"
+- "f"
 - "getPrimaryExtensionWithCompletion:"
 - "primaryExtension"
 - "primaryExtensionSync"

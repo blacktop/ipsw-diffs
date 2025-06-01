@@ -98,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5F6B7A60-6A74-35BD-BC1D-C794C4FC8986
 -  Functions: 2750
 -  Symbols:   1035
--  CStrings:  3999
+-  CStrings:  4333
++  UUID: 3A769B01-6E27-38AE-8A7E-B64AFAA53FC1
 +  Functions: 2709
 +  Symbols:   995
-+  CStrings:  3865
++  CStrings:  4198
  
 Symbols:
 + _$s10AppIntents15IntentParameterCAA10Foundation3URLV9ValueTypeRtzrlE5title11description7default07requestG6Dialog23inputConnectionBehaviorACyxGAD23LocalizedStringResourceV_APSg09UnwrappedH0QzSgAA0cM0VSgAA05InputoP0OYttcfC

@@ -48,11 +48,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 601386D7-5F29-36BF-BE7E-8AEED8310068
 -  Functions: 21054
++  UUID: FF65812B-C705-33C2-87DE-89B258271895
 +  Functions: 21056
    Symbols:   3480
--  CStrings:  14920
-+  CStrings:  14922
+-  CStrings:  16168
++  CStrings:  16170
  
 CStrings:
 + "B32@?0@\"<UIInteraction>\"8Q16^B24"

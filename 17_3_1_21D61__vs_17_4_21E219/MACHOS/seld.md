@@ -57,11 +57,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 299F165E-46FC-39EE-9494-6F6AB603F4B4
 -  Functions: 365
++  UUID: D6FB5278-0E1F-3AF2-8CC6-709C8252EF0D
 +  Functions: 372
    Symbols:   231
--  CStrings:  1924
-+  CStrings:  1931
+-  CStrings:  2173
++  CStrings:  2181
  
 CStrings:
 + "%c[%{public}s %{public}s]:%i Failed to connect a tag : %@"

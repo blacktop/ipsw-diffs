@@ -48,12 +48,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C3F587E-A7D0-3530-AF44-FB909BD9A03C
 -  Functions: 10013
 -  Symbols:   22552
--  CStrings:  10596
+-  CStrings:  12667
++  UUID: 2745F340-4608-3513-A762-84180CC3A175
 +  Functions: 10016
 +  Symbols:   22558
-+  CStrings:  10600
++  CStrings:  12672
  
 Symbols:
 + +[GKGame isNewsApp:]

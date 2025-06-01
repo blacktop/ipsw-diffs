@@ -18,4 +18,13 @@
    __TEXT.__objc_methname: 0x2482
    __TEXT.__objc_methtype: 0x954
 
+   - /System/Library/PrivateFrameworks/AdPlatformsCommon.framework/AdPlatformsCommon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7F23CC11-1FEF-3622-B7D5-B9A0CDEDFA7C
++  UUID: 947586DA-65A5-327B-8F92-012CFCBCE502
+   Functions: 164
+   Symbols:   116
+   CStrings:  593
+
 ```

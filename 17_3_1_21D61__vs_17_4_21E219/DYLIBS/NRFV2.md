@@ -44,11 +44,15 @@
    __DATA.__data: 0x4e0
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2D046700-06D3-3AE3-A6BB-D4AD7F61676D
++  UUID: 59A647C7-F6F0-382D-8E76-A57229B7B369
    Functions: 1526
    Symbols:   345
--  CStrings:  6018
-+  CStrings:  6029
+-  CStrings:  6965
++  CStrings:  6976
  
 CStrings:
 + "T@\"CMIExternalMemoryResource\",?,&,N"

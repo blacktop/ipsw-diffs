@@ -90,12 +90,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7AE1DEDE-C957-3B90-A239-25703E3977D5
 -  Functions: 1482
 -  Symbols:   10398
--  CStrings:  492
+-  CStrings:  500
++  UUID: 09D81C19-721E-3BC9-9167-DE217F4F9350
 +  Functions: 1635
 +  Symbols:   11354
-+  CStrings:  545
++  CStrings:  553
  
 Symbols:
 + /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AppQueryRequest.o

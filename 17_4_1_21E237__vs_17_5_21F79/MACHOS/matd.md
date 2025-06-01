@@ -37,13 +37,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/WelcomeKitCore.framework/WelcomeKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACD21DF5-1481-3F80-82D6-C217070C8596
++  UUID: 03101E61-15E4-34A5-AE78-D50A0536F066
    Functions: 63
 -  Symbols:   90
--  CStrings:  232
+-  CStrings:  253
 +  Symbols:   89
-+  CStrings:  231
++  CStrings:  252
  
 Symbols:
 - _OBJC_CLASS_$_MKApplicationMigrator

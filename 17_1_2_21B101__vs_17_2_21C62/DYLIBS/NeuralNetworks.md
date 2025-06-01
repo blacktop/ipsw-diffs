@@ -20,12 +20,15 @@
    __TEXT.__objc_classname: 0x20d
    __TEXT.__objc_methname: 0x48fa
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D2834AA9-30C3-303C-8EC1-844B779E6D60
++  UUID: BCE12B88-2737-35CC-B8A9-0D4216F2D98B
    Functions: 19316
 -  Symbols:   12528
 +  Symbols:   12526
-   CStrings:  2153
+   CStrings:  2174
  
 
 ```

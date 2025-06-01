@@ -42,12 +42,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: A2E22E19-53F0-36B2-BFBA-2C8E3CDB13F1
 -  Functions: 1117
 -  Symbols:   4290
--  CStrings:  4148
+-  CStrings:  4598
++  UUID: 6DCE9E27-957B-3340-8BA5-CE936B89D66B
 +  Functions: 1116
 +  Symbols:   4292
-+  CStrings:  4162
++  CStrings:  4618
  
 Symbols:
 + ___32-[HDSSetupSession _runWiFiSetup]_block_invoke.1317

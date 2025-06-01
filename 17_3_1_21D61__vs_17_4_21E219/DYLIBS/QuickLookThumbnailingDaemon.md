@@ -58,11 +58,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2D59955F-671F-373D-9C5B-40E72F4C1A8E
 -  Functions: 1641
++  UUID: FFC76471-A5C0-33FD-9BB3-E8CA65614CDA
 +  Functions: 1639
    Symbols:   5404
--  CStrings:  2582
-+  CStrings:  2583
+-  CStrings:  2798
++  CStrings:  2799
  
 Symbols:
 + -[QLServerThread cacheInitLock]

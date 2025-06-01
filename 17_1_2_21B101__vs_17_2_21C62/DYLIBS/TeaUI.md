@@ -70,9 +70,7 @@
 +  __AUTH_CONST.__objc_const: 0x1e90
 +  __AUTH_CONST.__const: 0x27e30
    __AUTH_CONST.__cfstring: 0x6c0
--  __AUTH_CONST.__auth_ptr: 0x730
 -  __AUTH_CONST.__auth_got: 0x23e0
-+  __AUTH_CONST.__auth_ptr: 0x768
 +  __AUTH_CONST.__auth_got: 0x2488
    __AUTH.__objc_data: 0x49b8
 -  __AUTH.__data: 0x1ee0
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84713C18-68F8-3BDA-8BFB-D0CEC9938D83
 -  Functions: 31631
 -  Symbols:   17665
--  CStrings:  4981
+-  CStrings:  5035
++  UUID: 93153ABC-A872-3234-A443-359F240693A7
 +  Functions: 32123
 +  Symbols:   17859
-+  CStrings:  5014
++  CStrings:  5068
  
 Symbols:
 + -[UINavigationController(Bridge) ts_bottomViewController]

@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__cfstring: 0x13c0
    __AUTH_CONST.__const: 0x638
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x520
 +  __AUTH_CONST.__auth_got: 0x530
    __AUTH.__objc_data: 0x5a0
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4B501432-369B-3DD7-ADC3-0A9C65C0162D
 -  Functions: 1060
 -  Symbols:   2991
--  CStrings:  1348
+-  CStrings:  1505
++  UUID: C40E70B4-FF6C-309C-BA64-03BEE4CC90DF
 +  Functions: 1066
 +  Symbols:   3028
-+  CStrings:  1369
++  CStrings:  1527
  
 Symbols:
 + -[CHUISMutableWidgetSceneClientSettings containsInteractiveControls]

@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9E87B21A-6DF9-309E-B5FC-815BE4F238D5
++  UUID: D043D141-F845-3971-91F4-5C97BE338ACD
    Functions: 51
    Symbols:   87
--  CStrings:  191
-+  CStrings:  192
+-  CStrings:  198
++  CStrings:  199
  
 CStrings:
 + "\"MUM - setting up context with altDSID %{mask.hash}@\""

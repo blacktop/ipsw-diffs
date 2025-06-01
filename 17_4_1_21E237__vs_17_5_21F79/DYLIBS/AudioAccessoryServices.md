@@ -18,5 +18,13 @@
    - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D902E06D-A9F9-3C97-B002-6CADD9594E4B
++  UUID: FC09D122-1C7F-3961-BBBC-B30F1668E8B9
+   Functions: 658
+   Symbols:   2211
+   CStrings:  1468
 
 ```

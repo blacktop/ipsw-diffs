@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3CDA5AB-37C7-3F35-B220-D383C3B6813D
 -  Functions: 1003
 -  Symbols:   301
--  CStrings:  1940
+-  CStrings:  2055
++  UUID: E013DFC5-90DE-3A44-8FC0-AE72BC9942A9
 +  Functions: 997
 +  Symbols:   288
-+  CStrings:  1939
++  CStrings:  2054
  
 Symbols:
 + _OBJC_CLASS_$_BGSystemTaskScheduler

@@ -92,18 +92,20 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: B2B4F1E2-46AA-38E2-94BF-E7BF91EBA957
 -  Functions: 946
 -  Symbols:   3729
--  CStrings:  1933
+-  CStrings:  2297
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftDarwin.dylib
 +  - /usr/lib/swift/libswiftDispatch.dylib
 +  - /usr/lib/swift/libswiftObjectiveC.dylib
 +  - /usr/lib/swift/libswiftXPC.dylib
++  UUID: 8EECAC3A-4FEE-305B-AB9D-17824C2DE316
 +  Functions: 1033
 +  Symbols:   3959
-+  CStrings:  2016
++  CStrings:  2383
  
 Symbols:
 + -[SKBaseManager logEvent:eventPayloadBuilder:]

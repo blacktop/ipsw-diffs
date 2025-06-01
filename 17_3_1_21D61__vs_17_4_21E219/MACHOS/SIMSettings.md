@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/TelephonyUI.framework/TelephonyUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EEAC9620-1D4C-31C1-9D5C-DD694CAC579A
++  UUID: 4045043F-7CB0-3D79-823E-BDB9A1D031AE
+   Functions: 1
+   Symbols:   32
+   CStrings:  17
+
 ```

@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D4B52DF8-D27E-3064-B997-E34C076DE6E1
 -  Functions: 11262
 -  Symbols:   1751
--  CStrings:  14528
+-  CStrings:  17920
++  UUID: 4456052F-37E4-3730-9F1C-C11E318DD4B1
 +  Functions: 11319
 +  Symbols:   1767
-+  CStrings:  14569
++  CStrings:  17964
  
 Symbols:
 + _$s14MarketplaceKit10AppLibraryC19handleRepairRequestyyAA0fG0VYaKF
@@ -165,6 +167,7 @@ CStrings:
 + "v24@0:8@\"LogKey\"16"
 + "v24@?0@\"AMSURLRequest\"8@\"NSError\"16"
 - "\x02\x14\x1f\x04?\x01Q"
+- "\x1c %"
 - "02:33:32"
 - "@\"_TtC9appstored6LogKey\"16@0:8"
 - "App Already Installed"

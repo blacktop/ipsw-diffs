@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/DAEASOAuthFramework.framework/DAEASOAuthFramework
 
+   - /System/Library/PrivateFrameworks/ExchangeSyncExpress.framework/ExchangeSyncExpress
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D0ADE51F-851A-3104-922A-32007FDDD65B
++  UUID: 96DD13E5-2E0E-39DF-8B18-42E1D03FA9E8
+   Functions: 2
+   Symbols:   26
+   CStrings:  12
+
 ```

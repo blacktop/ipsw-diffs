@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/WatchReplies.framework/WatchReplies
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4017F533-AA8B-3089-8429-D7B1002A6E20
++  UUID: FA47A7F4-8FD9-3DB2-A1E2-C1CFD7C1A98D
    Functions: 167
    Symbols:   148
--  CStrings:  411
-+  CStrings:  412
+-  CStrings:  439
++  CStrings:  440
  
 CStrings:
 + "T@\"NSString\",?,R,C"

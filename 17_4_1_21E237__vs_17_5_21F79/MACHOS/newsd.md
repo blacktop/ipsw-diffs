@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F7B33439-19BE-3BEA-965F-192AE9037D77
 -  Functions: 260
 -  Symbols:   159
--  CStrings:  612
+-  CStrings:  639
++  UUID: 21EF2FDC-E563-3134-B975-56BD49150F47
 +  Functions: 430
 +  Symbols:   180
-+  CStrings:  987
++  CStrings:  1023
  
 Symbols:
 + _FCDispatchQueueForQualityOfService

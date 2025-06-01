@@ -27,7 +27,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0AF8EE14-CC11-30DC-AB16-E6904CE8751E
++  UUID: 13E61915-D421-3CF6-A625-B6E98D48CEF3
    Functions: 2
    Symbols:   21
 -  CStrings:  51

@@ -43,7 +43,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x3178
 +  __DATA_CONST.__objc_arraydata: 0x3180
    __AUTH_CONST.__const: 0x11830
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_const: 0x4b610
 -  __AUTH_CONST.__cfstring: 0xa08c0
 -  __AUTH_CONST.__objc_intobj: 0x14a0
@@ -81,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7DBB79C4-7328-3513-8D5A-AF4691DC9536
 -  Functions: 108794
 -  Symbols:   279051
--  CStrings:  70650
+-  CStrings:  91200
++  UUID: CC2C6C6D-6508-3F5B-8C33-F0839A512F5F
 +  Functions: 108814
 +  Symbols:   279091
-+  CStrings:  70657
++  CStrings:  91214
  
 Symbols:
 + -[GEOActionComponentMapEntry .cxx_destruct]

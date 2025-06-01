@@ -14,13 +14,22 @@
    __TEXT.__const: 0x7b8
    __TEXT.__constg_swiftt: 0x358
 
+   __AUTH_CONST.__const: 0x810
    __AUTH_CONST.__cfstring: 0x20
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_const: 0x40
 -  __AUTH_CONST.__auth_got: 0x7e0
 +  __AUTH_CONST.__auth_got: 0x7e8
    __AUTH.__data: 0x50
    __AUTH.__objc_data: 0x1c0
    __DATA.__objc_protorefs: 0x18
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A969FCBA-6C67-3AA2-BBAD-836895E053AE
++  UUID: 7AE8C5D1-46A0-3710-B2B0-F0E545871070
+   Functions: 625
+   Symbols:   570
+   CStrings:  180
 
 ```

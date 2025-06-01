@@ -42,12 +42,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
-
+   - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DC54C46C-3E07-319A-820F-9D657E31BA4D
++  UUID: 19673081-FC45-31F9-A91F-29CC75C44897
    Functions: 185
    Symbols:   752
--  CStrings:  468
-+  CStrings:  469
+-  CStrings:  510
++  CStrings:  511
  
 Symbols:
 + __OBJC_$_PROP_LIST_NFACTag.237

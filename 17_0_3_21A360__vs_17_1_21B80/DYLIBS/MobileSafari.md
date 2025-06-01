@@ -59,12 +59,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7175B3E3-C6C9-3AEB-B9FF-4732CD631D7C
 -  Functions: 5519
 -  Symbols:   20579
--  CStrings:  9850
+-  CStrings:  10732
++  UUID: 4DFD5959-AC72-3637-B3C1-214152AA5F67
 +  Functions: 5532
 +  Symbols:   20615
-+  CStrings:  9857
++  CStrings:  10741
  
 Symbols:
 + +[SFDialog userMediaPermissionDialogWithHost:permissions:completionHandler:]

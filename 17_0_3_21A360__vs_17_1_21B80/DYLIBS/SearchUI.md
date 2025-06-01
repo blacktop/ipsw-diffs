@@ -64,7 +64,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x130
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__auth_got: 0xce0
 +  __AUTH_CONST.__auth_got: 0xcf0
    __AUTH.__objc_data: 0x29a8
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0B5DE55F-4478-35BD-BED3-D15CD08F4CF4
 -  Functions: 5616
 -  Symbols:   20432
--  CStrings:  8412
+-  CStrings:  8790
++  UUID: 24FFB8DD-4BEF-387B-94ED-2C6DF3D8DAC9
 +  Functions: 5643
 +  Symbols:   20489
-+  CStrings:  8442
++  CStrings:  8823
  
 Symbols:
 + +[SearchUIRequestUserReportHandler contextMenuForCardSection:result:feedbackRequest:environment:]

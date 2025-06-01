@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC1CB378-CBFC-3F25-8842-B0E7A4317A5D
 -  Functions: 572
 -  Symbols:   1830
--  CStrings:  925
+-  CStrings:  984
++  UUID: 1E9E2CFF-D1E0-3FEE-9926-ED4152D54719
 +  Functions: 579
 +  Symbols:   1838
-+  CStrings:  926
++  CStrings:  985
  
 Symbols:
 + ___37-[AXLTClient pingServiceWithHandler:]_block_invoke.288

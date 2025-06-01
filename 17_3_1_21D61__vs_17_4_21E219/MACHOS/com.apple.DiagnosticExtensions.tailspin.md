@@ -36,11 +36,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: AE339ED9-72F5-378C-A78F-01AB6EC5DE1B
 -  Functions: 6
 -  Symbols:   62
++  UUID: BFA12D8B-79FB-3417-91BA-9F002500F83C
 +  Functions: 7
 +  Symbols:   63
-   CStrings:  28
+   CStrings:  35
  
 Symbols:
 + _tailspin_request_unique_id

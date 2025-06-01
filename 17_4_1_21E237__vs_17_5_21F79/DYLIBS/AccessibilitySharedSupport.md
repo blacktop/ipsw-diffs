@@ -46,7 +46,7 @@
    __AUTH_CONST.__const: 0x580
    __AUTH_CONST.__objc_arrayobj: 0x150
 
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__objc_floatobj: 0xe0
    __AUTH_CONST.__auth_got: 0x518
    __AUTH.__objc_data: 0x10e0
 -  __DATA.__objc_ivar: 0x3e0
@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24FC1E75-C7D8-35AB-9496-143409B0E34B
 -  Functions: 1804
 -  Symbols:   6074
--  CStrings:  3157
+-  CStrings:  3733
++  UUID: EEFFBE1E-B5A9-32CE-B1A9-DEC446D73235
 +  Functions: 1808
 +  Symbols:   6087
-+  CStrings:  3163
++  CStrings:  3740
  
 Symbols:
 + +[AXSSVoiceTagger _createVoiceTagWithDialect:range:content:createdFromNewline:]
@@ -84,6 +86,7 @@ CStrings:
 + "commonGreekCharacters"
 + "isCommonGreekCharacter:"
 + "setCommonGreekCharacters:"
++ "\xb1\x03\xb2\x03\xb3\x03\xb4\x03\xb5\x03\xb6\x03\xb7\x03\xb8\x03\xb9\x03\xba\x03\xbb\x03\xbc\x03\xbd\x03\xbe\x03\xbf\x03\xc0\x03\xc1\x03\xc3\x03\xc2\x03\xc4\x03\xc5\x03\xc6\x03\xc7\x03\xc8\x03\xc9\x03\x91\x03\x92\x03\x93\x03\x94\x03\x95\x03\x96\x03\x97\x03\x98\x03\x99\x03\x9a\x03\x9b\x03\x9c\x03\x9d\x03\x9e\x03\x9f\x03\xa0\x03\xa1\x03\xa3\x03\xa4\x03\xa5\x03\xa6\x03\xa7\x03\xa8\x03\xa9\x03"
 - "\x06"
 
 ```

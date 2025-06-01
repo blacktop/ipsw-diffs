@@ -18,4 +18,13 @@
    __DATA_CONST.__got: 0x30
    __AUTH_CONST.__auth_got: 0x178
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: F213A5EA-A600-3C13-ADB1-D1E951642ED3
++  UUID: 3858B8BC-A17B-371B-BE48-F5ACE1EA7B2A
+   Functions: 52
+   Symbols:   90
+   CStrings:  12
+
 ```

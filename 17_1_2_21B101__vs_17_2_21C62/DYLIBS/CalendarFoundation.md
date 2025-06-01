@@ -62,12 +62,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6890216C-3B6E-3C89-AC42-671B53C82968
 -  Functions: 2392
 -  Symbols:   8196
--  CStrings:  4232
+-  CStrings:  5368
++  UUID: C90287D2-32EF-3711-AB5E-9CE410B7FD22
 +  Functions: 2393
 +  Symbols:   8203
-+  CStrings:  4242
++  CStrings:  5383
  
 Symbols:
 + -[CalLocationAuthorization waitForPrecision].cold.1

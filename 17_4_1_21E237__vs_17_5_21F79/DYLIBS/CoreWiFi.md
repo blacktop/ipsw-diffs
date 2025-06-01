@@ -61,11 +61,13 @@
    - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 942F81BE-AACE-3AEB-A64C-F46F7864BEC7
 -  Functions: 3591
++  UUID: E5FCB12B-2078-3423-BDC0-5C2D45FA97C8
 +  Functions: 3595
    Symbols:   619
--  CStrings:  5547
-+  CStrings:  5553
+-  CStrings:  7660
++  CStrings:  7669
  
 CStrings:
 + "/Library/Caches/com.apple.xbs/Sources/CoreWiFi/Framework/CWFXPCRequestProxy.m"

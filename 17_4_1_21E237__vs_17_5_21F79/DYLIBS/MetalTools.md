@@ -15,10 +15,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E712D983-01AD-3FE5-AB66-E00ABF76CD7F
 -  Functions: 4809
++  UUID: F6D8B60F-5CCB-376B-898A-78DBEC94C7C1
 +  Functions: 4810
    Symbols:   15001
-   CStrings:  6814
+   CStrings:  8168
  
 
 ```

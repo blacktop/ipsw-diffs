@@ -53,12 +53,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80ECBC04-161C-3C7E-9243-810B6CDCB6EF
 -  Functions: 403
 -  Symbols:   185
--  CStrings:  850
+-  CStrings:  906
++  UUID: 4C977AE4-6009-37BC-A6EE-BA9F34B36279
 +  Functions: 404
 +  Symbols:   186
-+  CStrings:  854
++  CStrings:  908
  
 Symbols:
 + _OBJC_CLASS_$_TKBERTLVRecord

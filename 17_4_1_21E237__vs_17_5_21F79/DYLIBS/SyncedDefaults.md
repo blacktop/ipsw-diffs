@@ -44,13 +44,16 @@
    __AUTH_CONST.__objc_intobj: 0x90
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: B08123F6-494A-3921-B9A9-1D7D5B3E479E
++  UUID: CCB5A443-5411-3EBC-8BF1-D2840EFF2636
    Functions: 346
 -  Symbols:   1193
--  CStrings:  557
+-  CStrings:  632
 +  Symbols:   1194
-+  CStrings:  559
++  CStrings:  635
  
 Symbols:
 + ___44-[SYDClientToDaemonConnection xpcConnection]_block_invoke.279

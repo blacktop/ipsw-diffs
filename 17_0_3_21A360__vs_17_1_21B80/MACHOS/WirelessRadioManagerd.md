@@ -70,11 +70,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 627D579A-DDE8-3B15-A5DF-5100F0874C09
 -  Functions: 6536
++  UUID: 91A9B117-B5C5-36F0-9117-C0BC6F8EAD4A
 +  Functions: 6544
    Symbols:   728
--  CStrings:  12930
-+  CStrings:  12977
+-  CStrings:  17681
++  CStrings:  17750
  
 CStrings:
 + "%s Event: %@"

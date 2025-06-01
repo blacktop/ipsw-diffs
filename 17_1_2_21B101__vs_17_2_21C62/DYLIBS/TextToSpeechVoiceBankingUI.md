@@ -45,11 +45,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CCD86AD-418D-3EE9-AFBA-3660D80CA26C
 -  Functions: 3848
++  UUID: E427392F-CA5F-3657-8E26-990FBFAB8285
 +  Functions: 3849
    Symbols:   1784
--  CStrings:  540
-+  CStrings:  539
+-  CStrings:  541
++  CStrings:  540
  
 CStrings:
 - "voiceWithIdentifier:"

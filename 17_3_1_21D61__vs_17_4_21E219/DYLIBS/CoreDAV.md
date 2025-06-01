@@ -29,11 +29,15 @@
    __DATA.__data: 0x920
    __DATA.__bss: 0xf0
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 69BED202-CDFE-37D2-B3F2-6211168ADFF5
++  UUID: D54B2616-71A3-372B-95B0-2FEDCBE84D3B
    Functions: 1641
    Symbols:   6419
--  CStrings:  3361
-+  CStrings:  3363
+-  CStrings:  4089
++  CStrings:  4091
  
 Symbols:
 + __OBJC_$_PROP_LIST_CoreDAVLeafDataPayload.83

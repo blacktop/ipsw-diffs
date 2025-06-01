@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 1CC636C0-D224-3122-B126-076C00169FB1
 -  Functions: 487
 -  Symbols:   316
--  CStrings:  1350
+-  CStrings:  1742
++  UUID: 54CF20B2-6D9E-32A5-8621-E62DF853DED5
 +  Functions: 486
 +  Symbols:   315
-+  CStrings:  1347
++  CStrings:  1744
  
 Symbols:
 - _OBJC_CLASS_$_GDViewService

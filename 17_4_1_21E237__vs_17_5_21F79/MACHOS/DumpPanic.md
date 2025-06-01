@@ -40,11 +40,15 @@
    __DATA.__objc_selrefs: 0x760
    __DATA.__objc_ivar: 0x9c
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 65D0FCFE-D744-3D96-801C-DA67F54BD95E
++  UUID: 34023296-B608-36DE-8CB6-1B88DE6E6741
    Functions: 477
    Symbols:   279
--  CStrings:  1085
-+  CStrings:  1088
+-  CStrings:  1382
++  CStrings:  1387
  
 CStrings:
 + "DRAM panic log missing; corefile fallback log in use"

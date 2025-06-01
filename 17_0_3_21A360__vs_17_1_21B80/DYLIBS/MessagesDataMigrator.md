@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67E18AD4-D5DB-306C-A8C6-6393B625530B
++  UUID: B3A15C87-4628-3DE3-90F4-5E27B1C8B150
    Functions: 8
 -  Symbols:   62
 +  Symbols:   65
-   CStrings:  45
+   CStrings:  59
  
 Symbols:
 + _IMCloudKitFullSyncCompletedDate

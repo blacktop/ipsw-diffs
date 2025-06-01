@@ -25,6 +25,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8EBF150E-AF09-39FF-8309-3B309E599702
++  UUID: 78E7FDCD-482B-3F41-951E-9F2B8D1D298C
+   Functions: 20
+   Symbols:   140
+   CStrings:  100
 Symbols:
 + ___block_literal_global.237
 + ___block_literal_global.243

@@ -32,11 +32,15 @@
    __DATA_CONST.__objc_protorefs: 0x88
    __DATA_CONST.__objc_classrefs: 0x768
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 211D3B5C-9A90-3CB9-87E0-EAFF64205FF9
++  UUID: D5E2A1B0-6D95-351C-9B2C-51B94F642377
    Functions: 4167
    Symbols:   13485
--  CStrings:  5084
-+  CStrings:  5085
+-  CStrings:  5383
++  CStrings:  5384
  
 CStrings:
 + "196.50.2"

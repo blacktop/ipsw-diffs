@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A51652E9-BBEB-377C-A71A-65783E694F0E
 -  Functions: 523
 -  Symbols:   1641
--  CStrings:  282
+-  CStrings:  311
++  UUID: 8F0FBB5F-0535-3D5A-A759-E43F378EFA40
 +  Functions: 587
 +  Symbols:   1849
-+  CStrings:  337
++  CStrings:  369
  
 Symbols:
 + -[WPLinkFilteringConditionals .cxx_destruct]

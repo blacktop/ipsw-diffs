@@ -39,6 +39,15 @@
    __DATA_DIRTY.__objc_ivar: 0x54
    __DATA_DIRTY.__objc_data: 0x2bc0
    __DATA_DIRTY.__data: 0x68
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2B2B6C7F-F1AB-3219-8061-455BB5D8D5E9
++  UUID: F61CDEA2-2E2D-3CD8-91E9-8AEF5D5F8B0B
+   Functions: 2376
+   Symbols:   8519
+   CStrings:  4608
 CStrings:
 + "TrialXP-399.9.1"
 - "TrialXP-399.7"

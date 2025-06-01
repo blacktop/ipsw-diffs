@@ -104,13 +104,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3EFAC69C-28D3-305E-A51B-1876E2015480
 -  Functions: 5345
 -  Symbols:   1021
--  CStrings:  7879
+-  CStrings:  8618
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: C886CA12-63D3-39DE-80BC-2D2709083D9E
 +  Functions: 5373
 +  Symbols:   1037
-+  CStrings:  7892
++  CStrings:  8627
  
 Symbols:
 + _$s7Combine19CurrentValueSubjectCMn

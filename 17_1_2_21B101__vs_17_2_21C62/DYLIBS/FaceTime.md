@@ -51,13 +51,16 @@
    __DATA_DIRTY.__objc_data: 0xa0
    __DATA_DIRTY.__bss: 0x30
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96AD8391-DA77-3C9B-8B2C-2DF265527EA6
++  UUID: 87F2B15D-A6B4-3F5D-9A58-B66FE7FEA5A5
    Functions: 438
 -  Symbols:   182
--  CStrings:  1423
+-  CStrings:  1827
 +  Symbols:   180
-+  CStrings:  1416
++  CStrings:  1808
  
 Symbols:
 - _MarcoLogMadridLevel

@@ -32,8 +32,11 @@
    __DATA.__bss: 0x80
    __DATA.__common: 0x1
 
+   - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 48116992-88F3-3522-9C7C-71BD49512757
++  UUID: D80C547A-5376-3571-8255-276C5A719C2A
    Functions: 36
 -  Symbols:   193
 +  Symbols:   190

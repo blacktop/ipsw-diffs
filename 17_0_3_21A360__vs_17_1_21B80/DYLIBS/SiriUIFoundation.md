@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 24A09E64-E131-3FA3-8690-F50F12B617D6
 -  Functions: 994
 -  Symbols:   3861
--  CStrings:  2118
+-  CStrings:  2327
++  UUID: A5598DD5-8E83-309A-92C5-779C0FE24D17
 +  Functions: 997
 +  Symbols:   3868
-+  CStrings:  2124
++  CStrings:  2334
  
 Symbols:
 + _AFSiriLogContextPerformance

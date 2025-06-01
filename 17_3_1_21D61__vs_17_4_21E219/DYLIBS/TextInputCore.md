@@ -60,7 +60,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x6a8
    __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__objc_dictobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1a68
 -  __AUTH.__objc_data: 0x2080
 -  __AUTH.__const_weak: 0x2b0
@@ -103,12 +102,14 @@
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 7F60045D-FCE7-3410-BD38-E70F8A90DC88
 -  Functions: 10961
 -  Symbols:   30838
--  CStrings:  11265
+-  CStrings:  13367
++  UUID: F3760A7F-8E2E-30A3-8368-39457E4CEED5
 +  Functions: 10988
 +  Symbols:   30890
-+  CStrings:  11365
++  CStrings:  13481
  
 Symbols:
 + +[TIAutocorrectionFeedbackAnalyzer analyzerForUserModel:revisionRateAnalysisSummary:]

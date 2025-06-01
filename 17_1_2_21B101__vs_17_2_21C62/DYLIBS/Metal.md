@@ -44,7 +44,7 @@
 +  __AUTH_CONST.__cfstring: 0x10360
    __AUTH_CONST.__const: 0x2ee8
    __AUTH_CONST.__objc_intobj: 0x2a0
-   __AUTH_CONST.__auth_ptr: 0x50
+   __AUTH_CONST.__objc_doubleobj: 0x10
 
    __AUTH.__objc_data: 0x2b70
    __DATA.__got_weak: 0x8
@@ -69,12 +69,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BC8595C0-3E62-39C5-B4B5-3ADE76F5AF41
 -  Functions: 9810
 -  Symbols:   28125
--  CStrings:  10770
+-  CStrings:  12844
++  UUID: 8092CD07-6A8D-3415-A8F7-C840E44805B8
 +  Functions: 9837
 +  Symbols:   28195
-+  CStrings:  10782
++  CStrings:  12857
  
 Symbols:
 + -[MTLArrayTypeInternal formattedDescription:withPrintedTypes:]

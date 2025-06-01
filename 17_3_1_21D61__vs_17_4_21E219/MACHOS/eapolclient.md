@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xf8
 
+   - /System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/MobileInBoxUpdate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E51CD933-5232-38B0-9884-519EC0895C57
++  UUID: DECD5000-12AF-3DFD-B1DA-312E74512F38
    Functions: 157
    Symbols:   267
--  CStrings:  447
-+  CStrings:  448
+-  CStrings:  536
++  CStrings:  537
  
 CStrings:
 + "T@\"NSString\",?,R,C"

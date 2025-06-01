@@ -22,4 +22,13 @@
    __DATA.__data: 0xe8
    __DATA.__bss: 0x10
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 3602381F-88B0-3B51-AFA6-E9D5AF3BF5F1
++  UUID: 05F4B1C9-A3A2-3708-8A27-EBAE9D89AEDE
+   Functions: 238
+   Symbols:   1066
+   CStrings:  599
+
 ```

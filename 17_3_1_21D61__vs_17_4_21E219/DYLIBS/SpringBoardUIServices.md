@@ -77,12 +77,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F45223C1-A779-38AC-805E-E75E4D6168FB
 -  Functions: 3727
 -  Symbols:   13864
--  CStrings:  6914
+-  CStrings:  8007
++  UUID: 72857DE8-CFE5-3561-99EC-AD6730E67C14
 +  Functions: 3766
 +  Symbols:   14025
-+  CStrings:  6977
++  CStrings:  8075
  
 Symbols:
 + +[SBSUIFeaturePolicyClientSettingsExtension protocol]

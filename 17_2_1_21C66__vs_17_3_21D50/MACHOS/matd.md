@@ -41,13 +41,16 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/WelcomeKitCore.framework/WelcomeKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BD75EF71-5905-317D-993B-46486FE529D8
++  UUID: 26488E2C-255D-3B14-98B8-469A4961A8F9
    Functions: 63
 -  Symbols:   88
--  CStrings:  229
+-  CStrings:  250
 +  Symbols:   90
-+  CStrings:  231
++  CStrings:  252
  
 Symbols:
 + _OBJC_CLASS_$_MKAPIServer

@@ -12,4 +12,13 @@
    __TEXT.__cstring: 0x392
    __TEXT.__swift5_typeref: 0x127
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6921A127-EDD4-3866-A944-AB0E97325824
++  UUID: F4570C3B-5D9F-3C60-988D-3C7482C3DBA9
+   Functions: 124
+   Symbols:   80
+   CStrings:  23
+
 ```

@@ -41,12 +41,15 @@
    __DATA_DIRTY.__bss: 0x8
    __DATA_DIRTY.__common: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 319FB956-6FD2-3D98-A2BC-B7CE6B91BB5C
++  UUID: 0930DF82-F944-396F-8F88-0DE5B85FB24B
    Functions: 266
    Symbols:   948
--  CStrings:  497
-+  CStrings:  498
+-  CStrings:  588
++  CStrings:  589
  
 CStrings:
 + "T@\"NSString\",?,R,C"

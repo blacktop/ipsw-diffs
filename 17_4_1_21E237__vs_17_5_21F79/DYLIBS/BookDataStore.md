@@ -58,11 +58,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9368DFA1-55DE-3C49-A145-5BE666BD2E29
 -  Functions: 6961
++  UUID: 539EA9A1-68A9-371E-A374-6E25B808036E
 +  Functions: 6960
    Symbols:   820
--  CStrings:  4335
-+  CStrings:  4341
+-  CStrings:  4731
++  CStrings:  4737
  
 Symbols:
 + _kBCCloudKitAssetDetailFinishedDateKind

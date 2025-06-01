@@ -38,12 +38,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9344FA5-BA74-34C0-8B97-B9D84371CB03
 -  Functions: 368
 -  Symbols:   331
--  CStrings:  612
+-  CStrings:  710
++  UUID: 2F7B4666-DDB9-3741-9A4B-8333F8A8201A
 +  Functions: 374
 +  Symbols:   334
-+  CStrings:  615
++  CStrings:  713
  
 Symbols:
 + _SBLogPencilSqueeze

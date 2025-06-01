@@ -30,13 +30,16 @@
    __DATA_CONST.__objc_protolist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7322DE38-9083-3E21-B3C5-1DC4E69F70C3
++  UUID: DDF9E366-5EAB-3444-B0E6-376B33B07C5E
    Functions: 30
 -  Symbols:   73
--  CStrings:  216
+-  CStrings:  275
 +  Symbols:   72
-+  CStrings:  224
++  CStrings:  291
  
 Symbols:
 - _objc_retain_x22

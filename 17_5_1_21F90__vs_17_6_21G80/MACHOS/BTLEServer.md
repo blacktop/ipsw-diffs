@@ -42,11 +42,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C9253470-45A1-30FB-9731-1805D62E5D93
 -  Functions: 2204
++  UUID: 99EFBE90-D891-3563-823F-4580BD96BB91
 +  Functions: 2208
    Symbols:   485
--  CStrings:  3737
-+  CStrings:  3741
+-  CStrings:  4182
++  CStrings:  4186
  
 CStrings:
 + "Received reportID 0x%x on interface %u that collides with host generated report"

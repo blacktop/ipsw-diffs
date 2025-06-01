@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/AVKit.framework/AVKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 49005D16-17AE-32BC-8C87-81D4C223B1DC
++  UUID: 371235DA-75A6-3AEE-AB5B-36A93B94FFCF
+   Functions: 20444
+   Symbols:   68461
+   CStrings:  26233
+
 ```

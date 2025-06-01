@@ -19,11 +19,15 @@
    __TEXT.__ustring: 0x116
    __TEXT.__dlopen_cstrs: 0x136
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 0E72863D-1635-32FE-A1D6-DA5340E28D14
++  UUID: 5FAFF21B-4A31-35A6-81DE-4D199FAE4A10
    Functions: 40647
    Symbols:   106408
--  CStrings:  20948
-+  CStrings:  20952
+-  CStrings:  21371
++  CStrings:  21375
  
 Symbols:
 + GCC_except_table440

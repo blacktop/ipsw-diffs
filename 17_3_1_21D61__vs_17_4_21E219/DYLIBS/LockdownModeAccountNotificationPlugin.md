@@ -40,8 +40,11 @@
    __DATA.__bss: 0x8
    __DATA.__common: 0x18
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 0955653E-BF44-36E3-9977-D2434BB4D871
++  UUID: B186B099-AF93-34DA-9530-B7BE39FAF751
    Functions: 8
 -  Symbols:   40
 -  CStrings:  71

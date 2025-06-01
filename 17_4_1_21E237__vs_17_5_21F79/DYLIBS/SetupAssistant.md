@@ -43,13 +43,16 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 09C2C095-B616-33B9-9744-5CD37FBFD3A8
++  UUID: BA0FB110-6312-3B91-92F0-0C2CF6903040
    Functions: 1555
 -  Symbols:   5632
--  CStrings:  2762
+-  CStrings:  3125
 +  Symbols:   5633
-+  CStrings:  2764
++  CStrings:  3127
  
 Symbols:
 + ___BYSetupAssistantCreateAuthContext_block_invoke.175

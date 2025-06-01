@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_intobj: 0x1f8
    __AUTH_CONST.__objc_dictobj: 0xc8
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x628
 -  __AUTH.__objc_data: 0x3c0
 -  __DATA.__objc_protorefs: 0x18
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CB691E2D-B4FB-3AA6-9AB1-FFB450114FA2
 -  Functions: 613
 -  Symbols:   2254
--  CStrings:  1669
+-  CStrings:  2075
++  UUID: 76B36CC3-8FF1-375B-84B1-09A3AFD4729A
 +  Functions: 660
 +  Symbols:   2404
-+  CStrings:  1739
++  CStrings:  2162
  
 Symbols:
 + +[NFAssertionInternal supportsSecureCoding]

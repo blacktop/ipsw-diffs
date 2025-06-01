@@ -62,11 +62,13 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E38B87C-95AA-305A-B821-4B3C7F17E9B9
 -  Functions: 321
++  UUID: 8310E52E-4D54-374B-A898-27637055A8C6
 +  Functions: 320
    Symbols:   211
--  CStrings:  817
-+  CStrings:  821
+-  CStrings:  898
++  CStrings:  902
  
 CStrings:
 + "B24@0:8^@16"

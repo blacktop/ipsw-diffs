@@ -28,11 +28,15 @@
    __DATA.__data: 0x120
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/PBBridgeSupport.framework/PBBridgeSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F4090ADA-E8FE-3BC7-B0F8-A1D97B50EE79
++  UUID: 28E43F6A-57C6-36B6-A30A-341B16C7B35D
    Functions: 18
    Symbols:   50
--  CStrings:  101
-+  CStrings:  102
+-  CStrings:  122
++  CStrings:  123
  
 CStrings:
 + "T@\"NSString\",?,R,C"

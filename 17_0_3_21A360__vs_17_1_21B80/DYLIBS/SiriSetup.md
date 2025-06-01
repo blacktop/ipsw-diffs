@@ -30,11 +30,15 @@
    __AUTH_CONST.__cfstring: 0x2a0
    __AUTH_CONST.__objc_intobj: 0x18
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ABA3CF5E-31B5-3F8A-A692-DA4DB1171E8A
++  UUID: 692A87FF-E340-36D6-B130-82FD15DC37B4
    Functions: 866
    Symbols:   1251
--  CStrings:  931
-+  CStrings:  930
+-  CStrings:  952
++  CStrings:  951
  
 CStrings:
 - "setScrollEnabled:"

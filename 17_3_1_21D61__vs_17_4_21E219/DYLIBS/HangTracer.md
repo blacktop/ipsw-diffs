@@ -42,7 +42,6 @@
 +  __AUTH_CONST.__const: 0x2c0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_const: 0x168
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x418
 -  __DATA.__objc_classrefs: 0xb8
 -  __DATA.__objc_superrefs: 0x18
@@ -59,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libapp_launch_measurement.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 61D1BA06-3882-3076-B62B-310F79CD16EA
 -  Functions: 331
 -  Symbols:   1307
--  CStrings:  1091
+-  CStrings:  1535
++  UUID: 15026AFF-F3B0-30F5-B6DF-5317262F1B3E
 +  Functions: 335
 +  Symbols:   1332
-+  CStrings:  1102
++  CStrings:  1552
  
 Symbols:
 + _HTCAQueue

@@ -46,7 +46,6 @@
    __AUTH_CONST.__cfstring: 0x7ca0
 -  __AUTH_CONST.__objc_const: 0x3b70
 +  __AUTH_CONST.__objc_const: 0x3bb8
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__objc_intobj: 0x420
    __AUTH_CONST.__objc_doubleobj: 0x170
    __AUTH_CONST.__objc_arrayobj: 0x48
@@ -76,12 +75,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 355D5E6C-6C11-31BC-8EC5-8106110F5283
 -  Functions: 51733
 -  Symbols:   130187
--  CStrings:  28432
+-  CStrings:  29429
++  UUID: 17C5A2E0-3A8F-34D2-A907-50F6A2D9538D
 +  Functions: 51799
 +  Symbols:   130348
-+  CStrings:  28458
++  CStrings:  29455
  
 Symbols:
 + -[VKLabelSelectionQuery .cxx_construct]

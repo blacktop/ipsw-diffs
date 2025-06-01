@@ -31,11 +31,15 @@
    __DATA.__data: 0x244
    __DATA.__bss: 0x50
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18B2BC9F-12B6-3E66-9FA6-4493A7FDA0C6
++  UUID: 8C81CC9E-98A0-3AEA-A8B7-C55A6C3B2AFE
    Functions: 1412
    Symbols:   4164
--  CStrings:  1399
-+  CStrings:  1400
+-  CStrings:  1650
++  CStrings:  1651
  
 Symbols:
 + ___24-[NSSManager connection]_block_invoke.140

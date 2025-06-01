@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B4E2596-9EE8-315A-BFE0-3B2CDD9719C6
 -  Functions: 1994
 -  Symbols:   610
--  CStrings:  3937
+-  CStrings:  4594
++  UUID: E3AEE39E-642B-32FB-8D86-61694822E2B2
 +  Functions: 2002
 +  Symbols:   612
-+  CStrings:  3953
++  CStrings:  4612
  
 Symbols:
 + _OBJC_CLASS_$_FMDataArchiver

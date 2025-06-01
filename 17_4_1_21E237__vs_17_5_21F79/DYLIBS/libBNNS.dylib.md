@@ -22,7 +22,6 @@
    __DATA_CONST.__got: 0xf8
    __DATA_CONST.__const: 0x3068
    __AUTH_CONST.__const: 0xca60
-   __AUTH_CONST.__auth_ptr: 0x2b8
    __AUTH_CONST.__cfstring: 0x200
 -  __AUTH_CONST.__auth_got: 0x848
 +  __AUTH_CONST.__auth_got: 0x838
@@ -36,11 +35,13 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: B017161B-B11B-3150-833E-C03AA7FAC776
 -  Functions: 10948
 -  Symbols:   596
++  UUID: B232083B-E3DC-3AA2-BACE-3265FEA2D7CB
 +  Functions: 10950
 +  Symbols:   594
-   CStrings:  3585
+   CStrings:  3601
  
 Symbols:
 - _lseek

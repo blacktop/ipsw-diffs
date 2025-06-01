@@ -39,11 +39,13 @@
    - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0FEF859D-D36F-3B0E-AFE2-6183422BCFFD
 -  Functions: 289
++  UUID: D236FC6F-90C7-3E9F-80C4-54172D131011
 +  Functions: 291
    Symbols:   164
--  CStrings:  931
-+  CStrings:  933
+-  CStrings:  1147
++  CStrings:  1149
  
 CStrings:
 + "isSignificantChange:"

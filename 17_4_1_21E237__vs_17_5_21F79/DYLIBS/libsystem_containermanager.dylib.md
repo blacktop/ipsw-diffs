@@ -29,6 +29,15 @@
    - /usr/lib/system/libdispatch.dylib
    - /usr/lib/system/libdyld.dylib
    - /usr/lib/system/libsystem_blocks.dylib
+
+   - /usr/lib/system/libsystem_sandbox.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 8482CCB1-B31C-3364-8336-8F060BAD9F86
++  UUID: 3F26079A-AC18-3E25-92B3-462534DA2F8D
+   Functions: 460
+   Symbols:   1026
+   CStrings:  709
 CStrings:
 + "@(#)VERSION:Container Manager: Apr 16 2024 21:57:55; MobileContainerManager_system-582.120.2~12/arm64e"
 - "@(#)VERSION:Container Manager: Mar  8 2024 23:27:18; MobileContainerManager_system-582.100.15~162/arm64e"

@@ -27,4 +27,13 @@
    __DATA.__data: 0x240
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9DC829E5-00F2-32B1-81FD-0B7BC9FC6C70
++  UUID: 00D0784E-DBAB-3E7A-9140-CA529B17D86A
+   Functions: 108
+   Symbols:   461
+   CStrings:  237
+
 ```

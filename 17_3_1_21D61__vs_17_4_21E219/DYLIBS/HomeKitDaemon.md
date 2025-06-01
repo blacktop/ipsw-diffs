@@ -57,7 +57,6 @@
 -  __DATA_CONST.__objc_const: 0xe02c0
 -  __DATA_CONST.__objc_selrefs: 0x345c0
 -  __DATA_CONST.__objc_arraydata: 0x3318
--  __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x12980
 -  __AUTH_CONST.__cfstring: 0x57820
 -  __AUTH_CONST.__objc_const: 0x392d8
@@ -70,7 +69,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x3420
 +  __DATA_CONST.__objc_arraydata: 0x32c0
 +  __AUTH_CONST.__const: 0x13828
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__objc_const: 0x39cb0
 +  __AUTH_CONST.__cfstring: 0x585c0
 +  __AUTH_CONST.__objc_intobj: 0x3150
@@ -159,13 +157,15 @@
    - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 047543A0-C189-3C2F-AB34-FCEF107C3A59
 -  Functions: 49140
 -  Symbols:   162972
--  CStrings:  75898
+-  CStrings:  87099
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: A997DD3A-84FF-3520-8672-41F382E6B923
 +  Functions: 49869
 +  Symbols:   164941
-+  CStrings:  76925
++  CStrings:  88235
  
 Symbols:
 + +[HMCContext(MKFNotificationRegistrationActionSet) findNotificationRegistrationActionSetWithDatabaseID:]

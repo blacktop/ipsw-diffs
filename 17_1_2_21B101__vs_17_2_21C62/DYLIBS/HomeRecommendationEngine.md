@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A30C3BD2-3696-3360-9CB4-D5BC85E5B1F5
 -  Functions: 888
 -  Symbols:   3617
--  CStrings:  1342
+-  CStrings:  1413
++  UUID: 3A1265AB-DB14-33C0-9513-CEBE21D42A9B
 +  Functions: 894
 +  Symbols:   3636
-+  CStrings:  1350
++  CStrings:  1422
  
 Symbols:
 + +[HREDerivedActionUtilities characteristicTypeForActionType:serviceType:]

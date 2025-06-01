@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0x790
    __DATA_CONST.__cfstring: 0x920
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 94AC7FE9-AF91-3071-A5C4-D4581948D410
++  UUID: B02F3EB4-8D4A-3442-9748-5E307EF9175C
    Functions: 287
 -  Symbols:   169
 +  Symbols:   170
-   CStrings:  733
+   CStrings:  806
  
 Symbols:
 + _BTSessionDetachWithQueue

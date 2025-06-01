@@ -26,6 +26,15 @@
    __DATA.__data: 0x20
    __DATA.__bss: 0x20
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 728E1737-0093-33DB-8871-3569B94CC8BC
++  UUID: E69582D0-E5A2-3C94-8195-59981886074C
+   Functions: 69
+   Symbols:   117
+   CStrings:  80
 CStrings:
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Fri Feb 16 23:20:53 PST 2024; root:libxpc_executables-2748.102.2~5/xpcroleaccountd/RELEASE_ARM64E"
 + "Darwin Role Account Bootstrapper Version 1.0.0: Fri Feb 16 23:20:53 PST 2024; root:libxpc_executables-2748.102.2~5/xpcroleaccountd/RELEASE_ARM64E"

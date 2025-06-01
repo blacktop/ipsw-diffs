@@ -30,4 +30,13 @@
    __DATA_DIRTY.__data: 0x8
    __DATA_DIRTY.__bss: 0x150
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 80D2EDF3-105A-3D43-B23A-FB907C31AF32
++  UUID: 4A881E64-9D07-3DF7-B17E-39FEF1A37F9C
+   Functions: 638
+   Symbols:   2624
+   CStrings:  1575
+
 ```

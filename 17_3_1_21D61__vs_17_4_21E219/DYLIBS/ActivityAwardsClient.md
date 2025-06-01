@@ -36,11 +36,15 @@
    __DATA.__data: 0x120
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /System/Library/PrivateFrameworks/ActivityAchievements.framework/ActivityAchievements
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD42C646-7FDA-3122-8D20-15FA0061D607
++  UUID: 50C75AC3-166C-30C4-BD33-B42A624AC0B6
    Functions: 114
    Symbols:   420
--  CStrings:  164
-+  CStrings:  165
+-  CStrings:  170
++  CStrings:  171
  
 Symbols:
 + ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.303

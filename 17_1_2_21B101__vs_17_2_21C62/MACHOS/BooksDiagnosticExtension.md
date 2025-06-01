@@ -41,11 +41,13 @@
    - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2EE3C82-CC00-3293-90AC-2D392F0ABA95
 -  Functions: 28
++  UUID: 0AA90205-2602-36FC-9359-55FC3F568C51
 +  Functions: 29
    Symbols:   77
--  CStrings:  121
-+  CStrings:  126
+-  CStrings:  150
++  CStrings:  159
  
 CStrings:
 + "-SyncInfo"

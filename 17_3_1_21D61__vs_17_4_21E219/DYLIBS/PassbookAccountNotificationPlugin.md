@@ -29,7 +29,11 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FEC0F8B2-4085-3408-B5BF-53ABB835C6B3
++  UUID: 6FDC256A-42AF-38B5-A571-EE47A6C00009
    Functions: 3
    Symbols:   27
 -  CStrings:  76

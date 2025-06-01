@@ -70,11 +70,13 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/JSApp.framework/JSApp
+-  UUID: 317AFEED-CC6B-3F31-8316-ADC59D57128F
 -  Functions: 23475
++  UUID: 0D340899-8083-37B5-AB43-79C71D3DAD7B
 +  Functions: 23677
    Symbols:   348
--  CStrings:  1274
-+  CStrings:  1292
+-  CStrings:  1305
++  CStrings:  1323
  
 Symbols:
 + _objc_retain_x3

@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B3A15C87-4628-3DE3-90F4-5E27B1C8B150
 -  Functions: 8
 -  Symbols:   65
--  CStrings:  45
+-  CStrings:  59
++  UUID: FBA09064-7424-352D-B6F6-C64BAA478BAE
 +  Functions: 11
 +  Symbols:   67
-+  CStrings:  38
++  CStrings:  41
  
 Symbols:
 + _IMCloudKitAnalyticSyncDatesDictionaryKey

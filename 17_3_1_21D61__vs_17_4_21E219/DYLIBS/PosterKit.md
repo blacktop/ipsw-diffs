@@ -70,7 +70,6 @@
    __AUTH_CONST.__objc_intobj: 0x438
    __AUTH_CONST.__objc_arrayobj: 0xc0
    __AUTH_CONST.__objc_doubleobj: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x58
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0xf30
 -  __AUTH.__objc_data: 0x3228
@@ -103,12 +102,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 91758DE5-0914-3013-8C68-94E97CC504EC
 -  Functions: 7551
 -  Symbols:   24294
--  CStrings:  10384
+-  CStrings:  11437
++  UUID: D7E36052-4906-3A3F-A122-2860DC5037E9
 +  Functions: 7576
 +  Symbols:   24381
-+  CStrings:  10444
++  CStrings:  11503
  
 Symbols:
 + -[PREditingSceneViewController configuredProperties]

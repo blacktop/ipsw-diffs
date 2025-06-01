@@ -26,4 +26,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DE0AFE76-6442-30BC-8BB8-2F36C39C7BCA
++  UUID: 2865F64A-CD34-3AE0-941F-DEC1611B6C0B
+   Functions: 1308
+   Symbols:   4542
+   CStrings:  2358
+
 ```

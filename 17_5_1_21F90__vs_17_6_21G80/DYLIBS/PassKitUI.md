@@ -69,11 +69,9 @@
    __DATA_CONST.__objc_arraydata: 0x550
 -  __AUTH_CONST.__const: 0x33108
 -  __AUTH_CONST.__objc_const: 0x1ca50
--  __AUTH_CONST.__auth_ptr: 0xc30
 -  __AUTH_CONST.__cfstring: 0x32aa0
 +  __AUTH_CONST.__const: 0x331e0
 +  __AUTH_CONST.__objc_const: 0x1cae0
-+  __AUTH_CONST.__auth_ptr: 0xc38
 +  __AUTH_CONST.__cfstring: 0x32b00
    __AUTH_CONST.__objc_doubleobj: 0x1c0
    __AUTH_CONST.__objc_intobj: 0x1428
@@ -109,12 +107,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AFE5C6BD-2997-3D1A-8B14-57F061928C5A
 -  Functions: 56975
 -  Symbols:   109711
--  CStrings:  42805
+-  CStrings:  49290
++  UUID: 810A84D2-7266-3CF5-99A3-FFC81A4411D8
 +  Functions: 57040
 +  Symbols:   109870
-+  CStrings:  42854
++  CStrings:  49342
  
 Symbols:
 + +[PKPaymentSetupOptionsViewController _respondToKeyboardPresentationEvents]

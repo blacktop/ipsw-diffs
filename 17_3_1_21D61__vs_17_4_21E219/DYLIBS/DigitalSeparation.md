@@ -81,12 +81,14 @@
    - /usr/lib/libSystem.B.dylib
 +  - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EFDD13AF-16AC-3BF3-8CBD-86895D95C49E
 -  Functions: 483
 -  Symbols:   1892
--  CStrings:  930
+-  CStrings:  1052
++  UUID: C8C3DC9A-3CE6-3906-BFFB-AC4A9C6BEC0C
 +  Functions: 508
 +  Symbols:   1985
-+  CStrings:  969
++  CStrings:  1096
  
 Symbols:
 + -[DSWifiSyncStore .cxx_destruct]

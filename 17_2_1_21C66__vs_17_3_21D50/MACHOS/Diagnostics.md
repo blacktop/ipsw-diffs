@@ -43,11 +43,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DE6956D7-5CD3-3171-AAD9-F2FBA43BF1B4
 -  Functions: 4251
++  UUID: FC011F36-2228-3F07-BA88-8A620D3EA22A
 +  Functions: 4252
    Symbols:   940
--  CStrings:  3707
-+  CStrings:  3708
+-  CStrings:  3932
++  CStrings:  3933
  
 CStrings:
 + "viewIsAppearing:"

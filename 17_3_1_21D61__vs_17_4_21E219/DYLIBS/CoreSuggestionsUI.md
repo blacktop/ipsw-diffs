@@ -57,7 +57,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x2e0
 +  __DATA_CONST.__objc_superrefs: 0x58
 +  __AUTH_CONST.__const: 0x2880
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__objc_const: 0x700
 -  __AUTH_CONST.__cfstring: 0xd40
 +  __AUTH_CONST.__cfstring: 0xd60
@@ -99,13 +98,15 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4793A9FE-F772-31BC-A5B6-98C7B905D97C
 -  Functions: 3508
 -  Symbols:   4155
--  CStrings:  1353
+-  CStrings:  1459
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 182B6224-527D-3765-B0E4-9C9FF1D1983D
 +  Functions: 3461
 +  Symbols:   4124
-+  CStrings:  1359
++  CStrings:  1466
  
 Symbols:
 + _EventKitUILibraryCore.frameworkLibrary.958

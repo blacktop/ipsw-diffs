@@ -124,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0C1DE074-714E-3C88-B9A5-D3FEFBDD5A9E
 -  Functions: 2322
 -  Symbols:   1732
--  CStrings:  1673
+-  CStrings:  1699
++  UUID: C5A10F0F-1B11-3516-8D8C-3CD7988E0D04
 +  Functions: 2339
 +  Symbols:   1742
-+  CStrings:  1690
++  CStrings:  1716
  
 Symbols:
 + _$s10AppIntents21DisplayRepresentationV5ImageV10systemName10isTemplateAESS_SbSgtcfC

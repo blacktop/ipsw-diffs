@@ -56,12 +56,15 @@
    __DATA_DIRTY.__objc_data: 0x3c0
    __DATA_DIRTY.__bss: 0x30
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: E7B057B3-5FF9-3502-BD7E-1EE42EE936A5
++  UUID: B08B91AC-1202-3B8E-9F5B-D52B71485274
    Functions: 7534
 -  Symbols:   27025
 +  Symbols:   27026
-   CStrings:  11760
+   CStrings:  14712
  
 Symbols:
 + -[WBSAppLink _getAppLinkForBanner:withCompletionHandler:]

@@ -47,13 +47,16 @@
    __DATA.__data: 0x480
    __DATA.__bss: 0x10
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 7AA7B935-263F-33AD-B02B-16A99937A7AE
++  UUID: D5C1A621-E82C-3983-8BF7-F77703D8E23F
    Functions: 287
 -  Symbols:   1379
--  CStrings:  731
+-  CStrings:  772
 +  Symbols:   1385
-+  CStrings:  736
++  CStrings:  777
  
 Symbols:
 + _kABPersonWallpaperProperty

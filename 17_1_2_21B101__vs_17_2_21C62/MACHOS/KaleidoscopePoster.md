@@ -61,11 +61,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D3859C5-99AE-373A-B07D-D4EDD1889D82
 -  Functions: 550
++  UUID: 0AB2174E-BA96-3FF8-8337-C04FAE6D3234
 +  Functions: 551
    Symbols:   308
--  CStrings:  753
-+  CStrings:  759
+-  CStrings:  794
++  CStrings:  800
  
 CStrings:
 + "@\"PREditorContentStylePickerConfiguration\"24@0:8@\"PREditor\"16"

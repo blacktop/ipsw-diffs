@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 23233D05-A833-3C9C-AD25-B451A65F9A20
 -  Functions: 3718
 -  Symbols:   13829
--  CStrings:  6904
+-  CStrings:  7996
++  UUID: 0133A42C-3A82-3D02-A20F-8765ABFA6296
 +  Functions: 3727
 +  Symbols:   13864
-+  CStrings:  6914
++  CStrings:  8007
  
 Symbols:
 + +[SBSUIProxReaderSceneExtension hostComponents]

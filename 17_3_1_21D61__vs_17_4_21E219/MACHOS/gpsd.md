@@ -37,12 +37,15 @@
    __DATA.__common: 0x959
    __DATA.__bss: 0x2608
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
+-  UUID: C74BA8F8-3D0D-3824-8937-0E30CA23FEEC
++  UUID: 8A43B63A-19A7-3066-8967-F801C7C1E81D
    Functions: 6042
 -  Symbols:   455
 +  Symbols:   454
-   CStrings:  5597
+   CStrings:  5710
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_

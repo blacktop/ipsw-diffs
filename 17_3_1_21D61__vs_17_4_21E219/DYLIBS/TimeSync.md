@@ -42,11 +42,15 @@
    __DATA_DIRTY.__objc_data: 0x2620
    __DATA_DIRTY.__data: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 12AA7C36-D751-3CD8-9FD4-472DD561A5D0
++  UUID: 3646040A-3B27-3BE7-A9D0-28787EBBFFA9
    Functions: 2845
    Symbols:   9033
--  CStrings:  3383
-+  CStrings:  3384
+-  CStrings:  4019
++  CStrings:  4020
  
 Symbols:
 + ___104-[TSXgPTPClock addUnicastUDPv4EtEPortOnInterfaceNamed:withDestinationAddress:allocatedPortNumber:error:]_block_invoke.122

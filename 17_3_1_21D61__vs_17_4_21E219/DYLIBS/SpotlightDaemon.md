@@ -49,13 +49,12 @@
    __AUTH_CONST.__objc_const: 0xf78
    __AUTH_CONST.__objc_intobj: 0x168
 -  __AUTH_CONST.__objc_arrayobj: 0x240
-+  __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xbd0
 -  __AUTH.__objc_data: 0x140
 -  __DATA.__objc_protorefs: 0x8
 -  __DATA.__objc_classrefs: 0x370
 -  __DATA.__objc_superrefs: 0xd0
++  __AUTH_CONST.__objc_arrayobj: 0x258
 +  __AUTH_CONST.__auth_got: 0xbf0
 +  __AUTH.__objc_data: 0xf0
    __DATA.__objc_ivar: 0x368
@@ -86,12 +85,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6B758CAE-67FA-3A74-9E4F-976B58F86403
 -  Functions: 2040
 -  Symbols:   6968
--  CStrings:  3294
+-  CStrings:  3776
++  UUID: E0892BD2-6BCB-3683-BD27-925EDC135CDC
 +  Functions: 2045
 +  Symbols:   6989
-+  CStrings:  3306
++  CStrings:  3789
  
 Symbols:
 + +[SDSodiumFeature isSearchCLIBundle:]

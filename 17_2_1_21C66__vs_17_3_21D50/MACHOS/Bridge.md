@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6F4A4374-C2DA-3E94-9E32-724D24734439
 -  Functions: 7485
 -  Symbols:   1564
--  CStrings:  13823
+-  CStrings:  16016
++  UUID: F7FCBBBC-AB06-3EF2-8EE8-BD278F8AB019
 +  Functions: 7489
 +  Symbols:   1565
-+  CStrings:  13835
++  CStrings:  16029
  
 Symbols:
 + _OBJC_CLASS_$_LAContext

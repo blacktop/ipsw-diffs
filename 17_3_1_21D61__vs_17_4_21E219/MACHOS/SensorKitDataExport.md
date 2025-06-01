@@ -60,12 +60,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BCACDA80-DA1E-3B67-A8E4-E8615E29FD38
 -  Functions: 104
 -  Symbols:   131
--  CStrings:  551
+-  CStrings:  669
++  UUID: F4394C60-1B0E-3E31-AFC7-586CFDACED4C
 +  Functions: 109
 +  Symbols:   138
-+  CStrings:  603
++  CStrings:  747
  
 Symbols:
 + _OBJC_CLASS_$_SRElectrocardiogramData

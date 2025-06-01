@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD659EAB-E34C-3A1D-A077-052D68C2BB94
 -  Functions: 29749
 -  Symbols:   904
--  CStrings:  6274
+-  CStrings:  6343
++  UUID: 517104CB-D892-3313-83CC-6498C4E87537
 +  Functions: 29844
 +  Symbols:   907
-+  CStrings:  6313
++  CStrings:  6382
  
 Symbols:
 + _OBJC_CLASS_$_NSPredicate

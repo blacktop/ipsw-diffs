@@ -15,7 +15,6 @@
    __DATA_CONST.__objc_const: 0x188
 -  __AUTH_CONST.__const: 0x15d8
 +  __AUTH_CONST.__const: 0x4008
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xc60
 -  __DATA.__data: 0x370
 -  __DATA.__bss: 0x4fd0
@@ -30,5 +29,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswift_RegexParser.dylib
+-  UUID: 774AAD31-D099-330A-85DA-70E7689103C0
++  UUID: 33B3722A-3B53-326B-93E2-2B45384889A1
+   Functions: 2733
+   Symbols:   7373
+   CStrings:  109
 
 ```

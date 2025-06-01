@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A5FFCB26-6098-3EF1-8AF3-4940042DA403
 -  Functions: 2580
 -  Symbols:   558
--  CStrings:  4960
+-  CStrings:  5615
++  UUID: 74595A1A-3549-3396-B669-C0E3DB10B21B
 +  Functions: 2590
 +  Symbols:   556
-+  CStrings:  4962
++  CStrings:  5617
  
 Symbols:
 - _arc4random_uniform

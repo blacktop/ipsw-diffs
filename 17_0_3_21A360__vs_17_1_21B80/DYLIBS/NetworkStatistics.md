@@ -66,12 +66,14 @@
    - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49483761-185E-3220-8940-BA05D9678A2A
 -  Functions: 1466
 -  Symbols:   4719
--  CStrings:  2426
+-  CStrings:  2912
++  UUID: 6966941B-16F5-39E2-8086-8B32C454286B
 +  Functions: 1482
 +  Symbols:   4783
-+  CStrings:  2447
++  CStrings:  2938
  
 Symbols:
 + +[NWStatsInterfaceRegistry sharedInstance]

@@ -53,11 +53,15 @@
    __DATA.__common: 0x8
    __DATA_DIRTY.__objc_data: 0xa0
 
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 65ECCF87-7A37-374C-A397-80526078099A
++  UUID: 38EB54DD-DFC8-3461-B1A5-947A3C9E6487
    Functions: 1547
    Symbols:   6410
--  CStrings:  3723
-+  CStrings:  3724
+-  CStrings:  4619
++  CStrings:  4620
  
 Symbols:
 + _malloc_type_malloc

@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0x1180
    __DATA.__data: 0x9c8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A69E9351-AF3C-35E9-AB57-1B164A2BD721
++  UUID: 736036C7-FF65-3DB6-A815-0D440646E26C
    Functions: 1128
    Symbols:   141
--  CStrings:  1940
-+  CStrings:  1941
+-  CStrings:  2199
++  CStrings:  2200
  
 CStrings:
 + "1240.15"

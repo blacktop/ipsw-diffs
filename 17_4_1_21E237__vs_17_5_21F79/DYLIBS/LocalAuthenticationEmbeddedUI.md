@@ -21,12 +21,15 @@
    __DATA_CONST.__objc_classlist: 0x230
    __DATA_CONST.__objc_catlist: 0x18
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F3F180F-61A3-373E-85D0-57EB3C60BA25
++  UUID: C954E4C5-17AF-31D8-8D02-C6C4CDA8A655
    Functions: 1111
 -  Symbols:   4525
 +  Symbols:   4526
-   CStrings:  1724
+   CStrings:  1825
  
 Symbols:
 + _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC5StateO17gracePeriodActiveyAeA31LACUIAuthCountdownConfigurationV_tcAEmFWC

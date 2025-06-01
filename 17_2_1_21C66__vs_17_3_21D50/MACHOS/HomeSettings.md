@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0x40
 
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 855A9D29-02DF-3332-B0E7-BDD2A50CDDBA
++  UUID: FDFF9933-A59E-3E31-8E8D-8642A2D29131
    Functions: 106
 -  Symbols:   212
--  CStrings:  642
+-  CStrings:  785
 +  Symbols:   213
-+  CStrings:  643
++  CStrings:  787
  
 Symbols:
 + _HFForceTipsOnboardingKey

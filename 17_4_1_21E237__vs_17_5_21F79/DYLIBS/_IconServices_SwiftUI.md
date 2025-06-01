@@ -19,8 +19,8 @@
    __TEXT.__objc_methname: 0xb8
    __DATA_CONST.__got: 0x198
 
+   __DATA_CONST.__objc_classrefs: 0x18
    __AUTH_CONST.__const: 0x6e0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x480
 -  __DATA.__data: 0x188
 -  __DATA.__bss: 0x4e0
@@ -34,5 +34,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
    - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B740662-9D1D-3B40-A986-49EF873151BF
++  UUID: 412AD77C-C9A3-3A0E-8088-89603723956E
+   Functions: 297
+   Symbols:   248
+   CStrings:  25
 
 ```

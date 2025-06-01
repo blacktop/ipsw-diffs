@@ -60,11 +60,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5550C51E-F0A5-3E11-9EC4-EFD8DA922C2D
 -  Functions: 9660
++  UUID: 317602B9-9C18-3882-8DAC-D5D9B58E0584
 +  Functions: 9679
    Symbols:   2101
--  CStrings:  12502
-+  CStrings:  12525
+-  CStrings:  13415
++  CStrings:  13438
  
 CStrings:
 + "(disconnectedCall.contactIdentifiers.count: %lu && \n\n !(disconnectedCall.isOutgoing: %d && disconnectedCall.dateConnected: %@) && \n\n disconnectedCall.provider.isFaceTimeProvider: %d \n\n [[FTDeviceSupport sharedInstance] isGreenTea]) : %d"

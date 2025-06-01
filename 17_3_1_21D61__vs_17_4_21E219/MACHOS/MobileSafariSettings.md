@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E3AC42E-45AF-3332-8C81-4D34B72DF89E
 -  Functions: 1133
 -  Symbols:   4137
--  CStrings:  2903
+-  CStrings:  3364
++  UUID: 1355D00F-C724-3630-95FB-07625C5D6C43
 +  Functions: 1143
 +  Symbols:   4226
-+  CStrings:  2979
++  CStrings:  3490
  
 Symbols:
 + -[CreateEditProfileViewController _reload]

@@ -72,11 +72,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A9C73A0F-685D-3030-9A16-54931DA8D463
 -  Functions: 3194
++  UUID: 31282E57-E2BB-3A7E-98CD-5278136A4DE9
 +  Functions: 3173
    Symbols:   383
--  CStrings:  1439
-+  CStrings:  1468
+-  CStrings:  1456
++  CStrings:  1485
  
 CStrings:
 + "Can't construct Array with count < 0"

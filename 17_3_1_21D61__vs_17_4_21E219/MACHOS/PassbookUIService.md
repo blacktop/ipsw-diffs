@@ -55,12 +55,13 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3ADBCBCE-2820-3FE7-982E-934893A0346B
 -  Functions: 52
 -  Symbols:   113
--  CStrings:  359
++  UUID: 3963B035-B1AD-341F-8EF6-1E33C103CCC5
 +  Functions: 51
 +  Symbols:   109
-+  CStrings:  360
+   CStrings:  372
  
 Symbols:
 + _OBJC_CLASS_$_PKEntitlementWhitelist

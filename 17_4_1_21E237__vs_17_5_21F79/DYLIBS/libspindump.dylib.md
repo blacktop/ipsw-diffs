@@ -16,7 +16,6 @@
 -  __AUTH_CONST.__const: 0xc0
 +  __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__cfstring: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1f0
    __DATA.__crash_info: 0x40
    __DATA.__bss: 0x68
@@ -25,5 +24,13 @@
    __DATA_DIRTY.__bss: 0x238
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 69064E2E-C9C0-3DF0-A3EA-53A1FE2EA36A
++  UUID: 2E3DB424-AAAD-335B-87F1-01231936532C
+   Functions: 76
+   Symbols:   257
+   CStrings:  99
 
 ```

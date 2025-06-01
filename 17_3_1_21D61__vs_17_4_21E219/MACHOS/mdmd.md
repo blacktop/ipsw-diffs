@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/Catalyst.framework/Catalyst
 
+   - /System/Library/PrivateFrameworks/MDMClientLibrary.framework/MDMClientLibrary
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64411B02-ABDD-33B5-A514-C5974ED6E3DB
++  UUID: 5D6640A0-B3D8-3CAE-B1EA-55EBAD32E6BB
+   Functions: 1
+   Symbols:   26
+   CStrings:  14
+
 ```

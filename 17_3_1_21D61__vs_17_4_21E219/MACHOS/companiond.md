@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/TVRemoteCore.framework/TVRemoteCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FA10EF1E-2673-3C94-AFD3-B0C52F0BC388
 -  Functions: 967
 -  Symbols:   242
--  CStrings:  1391
+-  CStrings:  1572
++  UUID: D3820C50-FA64-3D47-8C8B-49058A841ACA
 +  Functions: 969
 +  Symbols:   243
-+  CStrings:  1398
++  CStrings:  1580
  
 Symbols:
 + _OBJC_CLASS_$_CPSLearnMoreResponse

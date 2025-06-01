@@ -40,11 +40,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 93E59D26-9D78-320F-845A-79A2D667A21E
++  UUID: 0674968E-64A5-33E8-9C94-8129247313BD
    Functions: 19
    Symbols:   79
--  CStrings:  198
-+  CStrings:  199
+-  CStrings:  247
++  CStrings:  248
  
 Symbols:
 + _proc_pidpath_audittoken

@@ -16,4 +16,13 @@
    __TEXT.__objc_classname: 0x9b
    __TEXT.__objc_methtype: 0xe7
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4F249161-77FC-340E-8EBE-6C22C7C5A44B
++  UUID: DC639EE1-BCEC-3EB9-A566-AB03A2A58385
+   Functions: 87
+   Symbols:   123
+   CStrings:  312
+
 ```

@@ -42,9 +42,8 @@
    __DATA_CONST.__objc_protorefs: 0x88
    __DATA_CONST.__objc_classrefs: 0xdc0
    __DATA_CONST.__objc_superrefs: 0x1c8
-
+   __DATA_CONST.__objc_arraydata: 0x10
    __AUTH_CONST.__const: 0x36e0
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_const: 0x2690
 -  __AUTH_CONST.__cfstring: 0x4060
 +  __AUTH_CONST.__cfstring: 0x40e0
@@ -70,13 +69,16 @@
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
    - /System/Library/Frameworks/Combine.framework/Combine
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7645DE01-D86D-3146-B3BA-518E9E1BBCAF
++  UUID: FB11131F-22E7-33C6-84F6-AE8E150B04BF
    Functions: 4400
 -  Symbols:   9435
--  CStrings:  5915
+-  CStrings:  6430
 +  Symbols:   9443
-+  CStrings:  5922
++  CStrings:  6441
  
 Symbols:
 + _WFCloudKitLibraryFetchedKey

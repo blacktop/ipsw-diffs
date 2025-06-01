@@ -62,12 +62,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2CA93E4-387B-332F-8147-3AD54425DB8E
 -  Functions: 1424
 -  Symbols:   5875
--  CStrings:  2551
+-  CStrings:  3612
++  UUID: BB8C8C77-0A9E-30C0-A0E7-B1C26F580816
 +  Functions: 1425
 +  Symbols:   5878
-+  CStrings:  2553
++  CStrings:  3614
  
 Symbols:
 + -[VOSSettingsHelper itemIsSupportedForPlatform:]

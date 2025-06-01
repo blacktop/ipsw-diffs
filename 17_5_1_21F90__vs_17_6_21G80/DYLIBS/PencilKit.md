@@ -32,6 +32,15 @@
    __TEXT.__objc_methtype: 0x165b4
    __TEXT.__objc_stubs: 0x34a80
    __DATA_CONST.__got: 0x778
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F3EAA26F-A1DC-3154-A0A6-5B3A8541D903
++  UUID: B7D80885-C10E-3F89-B063-C9963617F0E0
+   Functions: 14717
+   Symbols:   46748
+   CStrings:  19545
 Symbols:
 + ___block_descriptor_91_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
 + _objc_msgSend$preferredSqueezeAction

@@ -42,13 +42,16 @@
    __DATA.__objc_data: 0x280
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6965F46F-3636-325D-BF4B-D4470352067C
++  UUID: 1318E2D0-0AC6-3F03-B658-39B662B99DB6
    Functions: 65
 -  Symbols:   92
--  CStrings:  158
+-  CStrings:  173
 +  Symbols:   89
-+  CStrings:  156
++  CStrings:  167
  
 Symbols:
 + _GKOSLoggers

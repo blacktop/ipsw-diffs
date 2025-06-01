@@ -73,12 +73,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libtzupdate.dylib
+-  UUID: 77DA0668-7F2C-3C73-89C1-53E6B30EB806
 -  Functions: 211
 -  Symbols:   207
--  CStrings:  3281
+-  CStrings:  3438
++  UUID: 625BECD1-10FF-3714-8BC5-6B60263A8D0D
 +  Functions: 237
 +  Symbols:   215
-+  CStrings:  3421
++  CStrings:  3588
  
 Symbols:
 + _CRGenerateRepairReport

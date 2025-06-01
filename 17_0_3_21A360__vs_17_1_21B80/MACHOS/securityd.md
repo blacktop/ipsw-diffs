@@ -68,12 +68,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E64C58EE-B0CA-3F92-9728-B2CC0C9FD99B
 -  Functions: 9044
 -  Symbols:   1365
--  CStrings:  14897
+-  CStrings:  18204
++  UUID: 64686ED0-09C5-328E-881F-D5DCAEDFC4B3
 +  Functions: 9090
 +  Symbols:   1366
-+  CStrings:  15014
++  CStrings:  18351
  
 Symbols:
 + _OBJC_CLASS_$_OTEscrowMoveRequestContext

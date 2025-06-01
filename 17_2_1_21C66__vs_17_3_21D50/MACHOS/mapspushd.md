@@ -34,11 +34,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB179AF0-6FD6-34D9-89A8-954EC4145A6B
 -  Functions: 664
++  UUID: CD7DD5A2-079D-3B50-BAA1-3A950B003DF7
 +  Functions: 663
    Symbols:   301
--  CStrings:  1769
-+  CStrings:  1768
+-  CStrings:  2064
++  CStrings:  2062
  
 CStrings:
 - "MapsIPCInterface Pinging connection to connection broker %@"

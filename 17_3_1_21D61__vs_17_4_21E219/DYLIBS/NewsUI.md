@@ -49,11 +49,15 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3F03DFD-D352-375D-9354-69900772E9B3
++  UUID: 34765071-5287-3BFC-A4F8-D77500118574
    Functions: 1655
    Symbols:   7063
--  CStrings:  3463
-+  CStrings:  3477
+-  CStrings:  3608
++  CStrings:  3622
  
 Symbols:
 + __OBJC_$_PROP_LIST_NUANFDebugSettingsProvider.56

@@ -31,11 +31,15 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54ACFFFA-8ECA-378A-BA4E-155635588EDA
++  UUID: 01D2CFDE-7075-3F9D-BD66-C62482153CC7
    Functions: 6
    Symbols:   40
--  CStrings:  75
-+  CStrings:  76
+-  CStrings:  77
++  CStrings:  78
  
 CStrings:
 + "T@\"NSString\",?,R,C"

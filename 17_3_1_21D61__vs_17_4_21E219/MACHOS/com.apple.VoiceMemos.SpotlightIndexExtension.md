@@ -21,4 +21,13 @@
    __DATA.__objc_data: 0x50
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C794A02-AE45-3FA6-AB1B-DE2CD1F6E8C7
++  UUID: E5CB7A4C-95CC-3275-A8C1-2E53D60D3B42
+   Functions: 13
+   Symbols:   54
+   CStrings:  51
+
 ```

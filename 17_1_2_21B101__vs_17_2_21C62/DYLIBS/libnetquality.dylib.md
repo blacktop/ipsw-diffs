@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F73C8C4A-0AFD-34EC-AB2E-DF855C35EA71
 -  Functions: 497
 -  Symbols:   2048
--  CStrings:  1207
+-  CStrings:  1367
++  UUID: BF06EFE2-7A7A-399F-A4FC-8805350378DF
 +  Functions: 509
 +  Symbols:   2088
-+  CStrings:  1259
++  CStrings:  1430
  
 Symbols:
 + -[NetworkQualityExecutions checkTimeout]

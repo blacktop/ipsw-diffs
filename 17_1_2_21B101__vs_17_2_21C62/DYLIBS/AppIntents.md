@@ -59,10 +59,8 @@
    __DATA_CONST.__objc_const: 0x2d38
 -  __DATA_CONST.__objc_selrefs: 0x14f0
 -  __AUTH_CONST.__const: 0x122c0
--  __AUTH_CONST.__auth_ptr: 0x490
 +  __DATA_CONST.__objc_selrefs: 0x1508
 +  __AUTH_CONST.__const: 0x12538
-+  __AUTH_CONST.__auth_ptr: 0x488
    __AUTH_CONST.__objc_const: 0x310
    __AUTH_CONST.__cfstring: 0x120
    __AUTH_CONST.__auth_got: 0x11f0
@@ -93,12 +91,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 076F5661-CF18-3F0A-AAE6-AA1BE6B9C0C2
 -  Functions: 19339
 -  Symbols:   11498
--  CStrings:  1472
+-  CStrings:  1481
++  UUID: 5CD10E35-8875-3F42-A141-8E0E1DCC7BFB
 +  Functions: 19517
 +  Symbols:   11483
-+  CStrings:  1484
++  CStrings:  1493
  
 Symbols:
 + GCC_except_table137

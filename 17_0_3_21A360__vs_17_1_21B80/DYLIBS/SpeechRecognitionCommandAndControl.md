@@ -29,11 +29,15 @@
    __AUTH_CONST.__objc_intobj: 0x300
    __AUTH_CONST.__objc_doubleobj: 0x50
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D53B03F2-C4D8-335C-8ADE-2E40B4F54B21
++  UUID: B3DAB195-5E1B-3727-9D81-F185C1E15A5B
    Functions: 3446
    Symbols:   12236
--  CStrings:  6162
-+  CStrings:  6165
+-  CStrings:  7096
++  CStrings:  7102
  
 Symbols:
 + ___53-[CACSpokenCommandManager beginObservingApplications]_block_invoke.529

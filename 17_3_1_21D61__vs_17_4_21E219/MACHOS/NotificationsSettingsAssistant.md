@@ -30,7 +30,11 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FDA8D71A-ACBA-3FAD-A45A-9E6E54D19376
++  UUID: F88C610D-B40B-3AED-9705-2DFF607E9768
    Functions: 7
    Symbols:   39
 -  CStrings:  72

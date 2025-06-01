@@ -45,13 +45,16 @@
    __AUTH.__objc_data: 0xbe0
    __DATA.__objc_ivar: 0x208
 
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libutil.dylib
+-  UUID: EA7E4DEF-18B7-32A4-8BAF-9345584400EE
++  UUID: 9A122A04-AF8C-3F4B-8969-D87621FB7AE9
    Functions: 1148
 -  Symbols:   5074
--  CStrings:  2880
+-  CStrings:  3453
 +  Symbols:   5076
-+  CStrings:  2882
++  CStrings:  3455
  
 Symbols:
 + _objc_msgSend$chipID

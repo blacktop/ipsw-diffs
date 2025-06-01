@@ -27,12 +27,15 @@
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswiftDataDetection.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 33E7CC3A-3FCE-32B2-B55E-5A8E57691055
++  UUID: B574A8F4-7021-3462-BB87-677665169CA8
    Functions: 7480
 -  Symbols:   1751
 +  Symbols:   1753
-   CStrings:  1349
+   CStrings:  1505
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCoreML

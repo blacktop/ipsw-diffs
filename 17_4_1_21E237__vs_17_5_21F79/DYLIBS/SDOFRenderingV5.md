@@ -17,5 +17,12 @@
    - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 482D822B-7CB4-3B74-99F2-6E424C54E13A
++  UUID: 645264AB-48A9-3AF6-9304-92F3763FD7C4
+   Functions: 196
+   Symbols:   119
+   CStrings:  1018
 
 ```

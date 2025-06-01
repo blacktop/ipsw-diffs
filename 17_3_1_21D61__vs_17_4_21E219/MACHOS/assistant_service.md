@@ -34,11 +34,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x668
 
+   - /System/Library/PrivateFrameworks/SiriKitRuntime.framework/SiriKitRuntime
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DBAF5EA2-327B-3534-B3E6-A4571C4FFE3B
++  UUID: 8F038656-DB45-3FE7-8D82-8CB328E8D615
    Functions: 193
    Symbols:   139
--  CStrings:  611
-+  CStrings:  612
+-  CStrings:  637
++  CStrings:  638
  
 CStrings:
 + "T@\"NSString\",?,R,C"

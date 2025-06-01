@@ -53,12 +53,14 @@
    - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8CE4695E-79E0-3BB2-A4C0-FFA618B1053F
 -  Functions: 96
 -  Symbols:   115
--  CStrings:  337
+-  CStrings:  353
++  UUID: 4DE0D8CA-679E-337C-998D-7D525454EDA4
 +  Functions: 97
 +  Symbols:   117
-+  CStrings:  342
++  CStrings:  358
  
 Symbols:
 + _objc_opt_respondsToSelector

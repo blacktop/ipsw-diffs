@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0xbc4c
    __TEXT.__const: 0x188
 
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libxslt.1.dylib
+-  UUID: 7789F0F1-6594-39EA-92C3-8A2A9DA4E85A
++  UUID: 44AF0189-4DF1-3B39-A804-072F565FAB99
+   Functions: 4469
+   Symbols:   17032
+   CStrings:  9065
+
 ```

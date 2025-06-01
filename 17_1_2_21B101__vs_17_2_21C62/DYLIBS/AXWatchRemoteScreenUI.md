@@ -35,13 +35,16 @@
    - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F866318-5F9A-32EC-81B0-2AEB7707E10A
++  UUID: FA6BF35F-B643-39E8-B999-4BD91BCA59EB
    Functions: 677
 -  Symbols:   658
--  CStrings:  583
+-  CStrings:  586
 +  Symbols:   657
-+  CStrings:  584
++  CStrings:  587
  
 Symbols:
 - _objc_release_x9

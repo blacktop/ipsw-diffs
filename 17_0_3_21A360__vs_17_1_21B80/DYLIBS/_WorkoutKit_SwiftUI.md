@@ -23,15 +23,17 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 +  __DATA_CONST.__objc_selrefs: 0x8
    __AUTH_CONST.__const: 0x118
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x1b8
 +  __AUTH_CONST.__auth_got: 0x1e8
    __AUTH.__data: 0x88
    __DATA.__data: 0x50
    __DATA.__bss: 0x90
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: A3CB6BD7-82B1-3B01-8774-01D08D658CE4
++  UUID: 742D0505-29D3-3659-A444-067669D69CA8
    Functions: 54
 -  Symbols:   99
 -  CStrings:  2

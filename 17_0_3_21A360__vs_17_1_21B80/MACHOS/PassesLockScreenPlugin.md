@@ -28,11 +28,15 @@
    __DATA.__objc_classrefs: 0x100
    __DATA.__objc_superrefs: 0x18
 
+   - /System/Library/PrivateFrameworks/SpringBoardUI.framework/SpringBoardUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C3ADA019-7757-3D16-A566-6B488E157EBE
++  UUID: 312C9F82-94F1-368E-A55D-462B1920EC65
    Functions: 129
    Symbols:   138
--  CStrings:  544
-+  CStrings:  546
+-  CStrings:  551
++  CStrings:  553
  
 CStrings:
 + "issuerBindingAuthenticationOccured"

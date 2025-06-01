@@ -1,0 +1,22 @@
+## AirDropAlertUI
+
+> `/System/Library/PrivateFrameworks/Sharing.framework/PlugIns/AirDropAlertUI.appex/AirDropAlertUI`
+
+```diff
+
+-1936.20.66.2.12
++1936.30.51.2.4
+   __TEXT.__text: 0x1e90
+   __TEXT.__auth_stubs: 0x2d0
+   __TEXT.__objc_stubs: 0x920
+
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 01FBF290-8907-3548-8459-30BD0E38167D
++  UUID: CF2D6831-B20F-32CD-B341-6BA6E8A60492
+   Functions: 43
+   Symbols:   74
+   CStrings:  200
+
+```

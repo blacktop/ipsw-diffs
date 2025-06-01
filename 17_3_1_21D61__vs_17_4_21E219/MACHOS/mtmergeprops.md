@@ -19,5 +19,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 50129368-1980-3A20-A7BB-717058C1D0C4
++  UUID: 9B64A5AC-352A-3DF6-9513-466162FC0F12
+   Functions: 10
+   Symbols:   109
+   CStrings:  40
 
 ```

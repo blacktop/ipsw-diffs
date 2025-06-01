@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_const: 0xd8
    __AUTH_CONST.__objc_intobj: 0x2e8
    __AUTH_CONST.__objc_arrayobj: 0x108
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__const: 0x60
 +  __AUTH_CONST.__const: 0xc0
    __AUTH_CONST.__auth_got: 0x578
@@ -66,12 +65,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E26678B3-F726-3A3F-8A57-60833B852559
 -  Functions: 1789
 -  Symbols:   5829
--  CStrings:  3085
+-  CStrings:  3728
++  UUID: 4B984DC1-BCF9-3308-BB8C-2017209CBC98
 +  Functions: 1797
 +  Symbols:   5852
-+  CStrings:  3104
++  CStrings:  3750
  
 Symbols:
 + +[IXAppInstallCoordinator updateiTunesMetadata:forAppWithIdentity:error:]

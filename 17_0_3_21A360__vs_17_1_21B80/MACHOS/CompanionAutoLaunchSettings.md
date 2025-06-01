@@ -78,12 +78,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4443D1C2-B8DC-3E8D-92D7-505F49D04F4D
 -  Functions: 1008
 -  Symbols:   374
--  CStrings:  422
+-  CStrings:  508
++  UUID: 33DE6421-1D25-3C02-8E9C-37AE1F80B46E
 +  Functions: 804
 +  Symbols:   199
-+  CStrings:  253
++  CStrings:  259
  
 Symbols:
 - _CSLAlertServiceIsApplePay

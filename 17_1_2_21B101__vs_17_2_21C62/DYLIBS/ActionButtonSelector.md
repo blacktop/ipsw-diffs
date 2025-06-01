@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0x1b8
    __DATA.__data: 0x240
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 974104F5-428E-31EA-8F97-7DB93C3DFEF2
++  UUID: 312DD2A6-35AF-357E-B973-3B6FB4978E2E
    Functions: 265
 -  Symbols:   1315
--  CStrings:  691
+-  CStrings:  758
 +  Symbols:   1319
-+  CStrings:  694
++  CStrings:  761
  
 Symbols:
 + _OBJC_CLASS_$_NSFileManager

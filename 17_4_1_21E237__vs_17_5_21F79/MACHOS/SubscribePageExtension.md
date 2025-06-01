@@ -87,11 +87,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D0DEABF5-F803-3ECB-AE2C-001ED47D1CEF
 -  Functions: 30723
++  UUID: BC664F58-1F89-38C4-890D-2EB6A49BE862
 +  Functions: 31234
    Symbols:   856
--  CStrings:  6998
-+  CStrings:  7084
+-  CStrings:  7166
++  CStrings:  7252
  
 Symbols:
 + _objc_retain_x11

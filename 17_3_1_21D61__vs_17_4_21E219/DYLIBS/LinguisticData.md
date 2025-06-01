@@ -43,11 +43,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2D025E8-72E0-3F57-9677-4D667B34CB20
 -  Functions: 61
++  UUID: E4D18ED9-27C8-306E-BFC1-7985DD149986
 +  Functions: 62
    Symbols:   124
--  CStrings:  92
-+  CStrings:  97
+-  CStrings:  143
++  CStrings:  151
  
 Symbols:
 + _OBJC_CLASS_$_NSArray

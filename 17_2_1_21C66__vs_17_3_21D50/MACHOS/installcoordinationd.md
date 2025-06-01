@@ -69,11 +69,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CE6F7DD5-C0DC-39BF-A621-5F486408302C
 -  Functions: 2744
++  UUID: 8731930B-A658-3288-BC4F-1BF7F36B5384
 +  Functions: 2788
    Symbols:   367
--  CStrings:  4462
-+  CStrings:  4517
+-  CStrings:  5392
++  CStrings:  5457
  
 CStrings:
 + "%s: Client %@ is missing %@ entitlement, rejecting attempt to read app removability data. : %@"

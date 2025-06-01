@@ -47,12 +47,14 @@
    - /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BAFABE10-E0DC-3577-8CC4-4274C476AACF
 -  Functions: 39
 -  Symbols:   88
--  CStrings:  166
+-  CStrings:  189
++  UUID: 56E3E737-5BEE-3C42-8FFD-9A0F8AA56943
 +  Functions: 37
 +  Symbols:   86
-+  CStrings:  161
++  CStrings:  182
  
 Symbols:
 - _WFShortcutsToprakEnabledKey

@@ -61,12 +61,14 @@
 +  - /usr/lib/libimage4.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: E547E4D5-A839-3B43-AB95-581526C8D0A2
 -  Functions: 903
 -  Symbols:   534
--  CStrings:  1450
+-  CStrings:  1469
++  UUID: D661D111-6B75-3FF4-B29C-C61A72FA6D25
 +  Functions: 909
 +  Symbols:   536
-+  CStrings:  1530
++  CStrings:  1549
  
 Symbols:
 + __img4_chip_cryptex1_generic

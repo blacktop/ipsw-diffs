@@ -63,12 +63,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8DADCD59-0B1A-31EF-9143-4F2BA63DEDCB
 -  Functions: 967
 -  Symbols:   3541
--  CStrings:  1258
+-  CStrings:  1325
++  UUID: 1F514256-957B-3861-BF1F-C61EE7496D7D
 +  Functions: 961
 +  Symbols:   3522
-+  CStrings:  1260
++  CStrings:  1327
  
 Symbols:
 + -[LAUIAuthenticationView callerIconPath]

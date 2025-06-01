@@ -42,13 +42,16 @@
    __DATA.__objc_data: 0x190
    __DATA.__data: 0x360
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 841BB7D2-8014-3E0D-9D1C-3D67607DEB6A
++  UUID: 5377D780-E14E-3538-AE74-1E316310B6A0
    Functions: 272
 -  Symbols:   2159
--  CStrings:  774
+-  CStrings:  817
 +  Symbols:   2163
-+  CStrings:  779
++  CStrings:  822
  
 Symbols:
 + _OBJC_CLASS_$_IRNode

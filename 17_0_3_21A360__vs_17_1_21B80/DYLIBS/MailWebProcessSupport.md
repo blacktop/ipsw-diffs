@@ -17,4 +17,13 @@
    __TEXT.__oslogstring: 0xed
    __TEXT.__unwind_info: 0x224
 
+   - /System/Library/PrivateFrameworks/MailSupport.framework/MailSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DF94083A-4280-3864-A7CA-18A59F9E85FA
++  UUID: 4390B6F9-E6D7-372A-9C8B-BBE0A3B5C33C
+   Functions: 63
+   Symbols:   455
+   CStrings:  376
+
 ```

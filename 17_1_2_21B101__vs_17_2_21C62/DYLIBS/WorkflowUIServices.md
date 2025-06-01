@@ -62,7 +62,6 @@
 -  __DATA_CONST.__objc_const: 0x50c8
 -  __DATA_CONST.__objc_selrefs: 0x1fd8
 -  __AUTH_CONST.__const: 0x2300
--  __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__objc_const: 0x1310
 -  __AUTH_CONST.__cfstring: 0xfe0
 -  __AUTH_CONST.__objc_doubleobj: 0x50
@@ -73,7 +72,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x20b8
 +  __DATA_CONST.__objc_arraydata: 0x20
 +  __AUTH_CONST.__const: 0x25f0
-+  __AUTH_CONST.__auth_ptr: 0x90
 +  __AUTH_CONST.__objc_const: 0x13a0
 +  __AUTH_CONST.__cfstring: 0x1120
 +  __AUTH_CONST.__objc_doubleobj: 0xa0
@@ -107,12 +105,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0ACE6002-C79B-3B45-9119-4580B73DFDE7
 -  Functions: 2212
 -  Symbols:   4449
--  CStrings:  2122
+-  CStrings:  2249
++  UUID: 222359D4-81AD-3791-9472-905CE924EFC8
 +  Functions: 2379
 +  Symbols:   4585
-+  CStrings:  2155
++  CStrings:  2292
  
 Symbols:
 + +[WFApertureIconView downscaledImageForOriginalImage:]

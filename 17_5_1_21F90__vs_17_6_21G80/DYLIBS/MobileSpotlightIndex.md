@@ -17,11 +17,15 @@
    __TEXT.__oslogstring: 0x118e3
    __TEXT.__ustring: 0x20
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53F33309-3A12-36BE-8242-FA010FEBE73A
++  UUID: 078F9E6D-1884-3D92-B692-562A4AD44C54
    Functions: 6933
    Symbols:   20411
--  CStrings:  5576
-+  CStrings:  5577
+-  CStrings:  6050
++  CStrings:  6051
  
 Symbols:
 + _MurmurHash3_x86_32.9578

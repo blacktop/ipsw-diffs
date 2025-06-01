@@ -20,21 +20,24 @@
    __TEXT.__objc_classname: 0x3ae
    __TEXT.__objc_methname: 0x2d11
 
+   __AUTH_CONST.__cfstring: 0xb80
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_dictobj: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x54e0
 +  __AUTH_CONST.__const: 0x5520
    __AUTH_CONST.__auth_got: 0x3c0
    __DATA.__objc_classrefs: 0x190
    __DATA.__objc_superrefs: 0xe0
 
+   - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9A89593B-E7C6-3404-8C86-155398F37CD3
++  UUID: 4C490E4D-6FDC-3B86-B2E6-14EEE7AE068B
    Functions: 696
 -  Symbols:   2203
 +  Symbols:   2202
-   CStrings:  983
+   CStrings:  1075
  
 Symbols:
 - _malloc_type_malloc

@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8054F2F-EE96-3081-9446-211EADAEE3F4
 -  Functions: 992
 -  Symbols:   3718
--  CStrings:  1674
+-  CStrings:  1749
++  UUID: ADC8BD6F-FBDF-3D61-93E1-DF87DDEFDFA4
 +  Functions: 1002
 +  Symbols:   3750
-+  CStrings:  1687
++  CStrings:  1762
  
 Symbols:
 + -[CCUIBaseSliderView _updateHasInoperativeAppearance]

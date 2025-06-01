@@ -45,7 +45,6 @@
 -  __AUTH_CONST.__const: 0x3d348
 +  __AUTH_CONST.__const: 0x3d418
    __AUTH_CONST.__objc_const: 0x120
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0x1e38
 +  __AUTH_CONST.__auth_got: 0x1df8
    __AUTH.__objc_data: 0xa0
@@ -69,12 +68,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 77170A5B-C819-3417-84AA-BEBB608905F1
 -  Functions: 12992
 -  Symbols:   32611
--  CStrings:  11223
+-  CStrings:  12730
++  UUID: F39503B4-AD21-3FE3-9AF2-11C6406E46FB
 +  Functions: 12983
 +  Symbols:   32571
-+  CStrings:  11323
++  CStrings:  12806
  
 Symbols:
 + GCC_except_table165

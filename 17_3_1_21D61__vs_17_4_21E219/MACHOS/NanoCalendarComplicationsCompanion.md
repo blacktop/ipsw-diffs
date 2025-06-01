@@ -33,11 +33,15 @@
    __DATA.__objc_data: 0x650
    __DATA.__data: 0x248
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D2142BD-22D3-348A-9291-D1ADF23A51F4
++  UUID: 67BA19AA-8BEC-32EA-BE56-208E88E1F1CC
    Functions: 465
    Symbols:   328
--  CStrings:  981
-+  CStrings:  982
+-  CStrings:  1133
++  CStrings:  1134
  
 CStrings:
 + "==> alerts_ttl [Feb 16 2024 23:42:45]"

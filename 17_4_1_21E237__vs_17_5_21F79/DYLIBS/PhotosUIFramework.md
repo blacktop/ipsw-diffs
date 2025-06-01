@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/CoreData.framework/CoreData
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 916B1A93-04CE-30CE-946B-82992BAC2661
++  UUID: AFDD90F4-218F-3186-BBF6-30759AE0E483
+   Functions: 705
+   Symbols:   2700
+   CStrings:  2045
+
 ```

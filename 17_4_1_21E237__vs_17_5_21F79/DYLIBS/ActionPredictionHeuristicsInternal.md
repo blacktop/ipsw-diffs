@@ -33,4 +33,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C5C5EFFC-C747-3A3B-979A-F8A86ABA1540
++  UUID: 61BAF71A-9AAC-3B92-8CBE-47E8C4A947B2
+   Functions: 1156
+   Symbols:   5041
+   CStrings:  2892
+
 ```

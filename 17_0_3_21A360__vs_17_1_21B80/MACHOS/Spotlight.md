@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EF04BB0F-1AE9-3195-A05E-37E083B4B0E3
 -  Functions: 93
 -  Symbols:   103
--  CStrings:  449
+-  CStrings:  456
++  UUID: F0D5CD2A-6877-3058-80B3-C07055B553DE
 +  Functions: 99
 +  Symbols:   112
-+  CStrings:  451
++  CStrings:  458
  
 Symbols:
 + __Block_object_dispose

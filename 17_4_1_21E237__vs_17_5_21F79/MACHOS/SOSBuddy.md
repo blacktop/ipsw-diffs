@@ -22,7 +22,11 @@
    __DATA.__objc_data: 0x26a8
    __DATA.__data: 0x13fd8
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D5CD9416-7D40-3035-A19A-A009AEE20FC5
++  UUID: 48B958F1-E0DB-3662-BC7A-10CEAE3DA532
    Functions: 11340
    Symbols:   1684
 -  CStrings:  3069

@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0CCC3C3B-FA27-3094-B313-8367D8E9E19E
++  UUID: 439852BE-8960-3B78-8453-0DA9814F32A1
    Functions: 11
    Symbols:   49
--  CStrings:  105
-+  CStrings:  106
+-  CStrings:  107
++  CStrings:  108
  
 CStrings:
 + "T@\"NSString\",?,R,C"

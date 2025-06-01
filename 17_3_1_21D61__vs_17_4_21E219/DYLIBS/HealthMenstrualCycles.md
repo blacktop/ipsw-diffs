@@ -39,11 +39,15 @@
    __DATA.__data: 0x7f0
    __DATA.__common: 0x10
 
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3C142685-4322-3EE6-87D7-167C31E78DA4
++  UUID: 550F66C2-9592-3B39-A425-7D343D720D45
    Functions: 1013
    Symbols:   3666
--  CStrings:  2012
-+  CStrings:  2013
+-  CStrings:  2374
++  CStrings:  2375
  
 Symbols:
 + __OBJC_$_PROP_LIST_HKMCViewModelProviderDataSource.351

@@ -52,12 +52,14 @@
    - /usr/lib/libcupolicy.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 43AB4CD3-D415-39F9-92DE-6D5CCD770FAA
 -  Functions: 13045
 -  Symbols:   39088
--  CStrings:  14319
+-  CStrings:  16123
++  UUID: 0414B5BA-F255-3CBC-8D8A-EAF758EB73C0
 +  Functions: 13049
 +  Symbols:   39098
-+  CStrings:  14326
++  CStrings:  16130
  
 Symbols:
 + -[NPKPassAssociatedInfo hasDeviceBoundCommutePlans]

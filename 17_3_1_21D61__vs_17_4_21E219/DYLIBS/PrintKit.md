@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2EDA21B5-3834-3643-B976-E1851C33FA1D
 -  Functions: 1260
 -  Symbols:   4787
--  CStrings:  3025
+-  CStrings:  4513
++  UUID: BA34767F-7229-3E33-B926-785404A6862F
 +  Functions: 1266
 +  Symbols:   4804
-+  CStrings:  3032
++  CStrings:  4520
  
 Symbols:
 + +[PKPrinterDescription attributesRequiredForPKPaperList]

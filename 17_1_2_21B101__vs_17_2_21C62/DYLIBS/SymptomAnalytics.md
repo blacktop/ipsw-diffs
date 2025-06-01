@@ -54,12 +54,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 96962418-CA66-34DE-93E7-972296F9609D
 -  Functions: 189
 -  Symbols:   1098
--  CStrings:  948
+-  CStrings:  1150
++  UUID: 17DE8801-F80F-3DB5-9357-0172E75F85D4
 +  Functions: 191
 +  Symbols:   1115
-+  CStrings:  970
++  CStrings:  1172
  
 Symbols:
 + -[AnalyticsWorkspace currentDBSizeInBytes]

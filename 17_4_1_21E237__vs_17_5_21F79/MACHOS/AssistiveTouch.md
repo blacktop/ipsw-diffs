@@ -23,12 +23,15 @@
    __DATA_CONST.__const: 0x60
    __DATA_CONST.__cfstring: 0x220
 
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C493CF63-B056-35DC-9F29-CC7E925768CE
++  UUID: BB6E03D4-C90C-3794-990B-3C4CE3294FD4
    Functions: 42
 -  Symbols:   61
 +  Symbols:   62
-   CStrings:  196
+   CStrings:  213
  
 Symbols:
 + _objc_retainAutoreleaseReturnValue

@@ -60,9 +60,8 @@
    __AUTH_CONST.__cfstring: 0x100
    __AUTH_CONST.__objc_const: 0x5f8
 -  __AUTH_CONST.__const: 0x10fe0
-+  __AUTH_CONST.__const: 0x110d0
-   __AUTH_CONST.__auth_ptr: 0x390
 -  __AUTH_CONST.__auth_got: 0x1f70
++  __AUTH_CONST.__const: 0x110d0
 +  __AUTH_CONST.__auth_got: 0x1f88
    __AUTH.__objc_data: 0x1298
    __AUTH.__data: 0x16a0
@@ -87,12 +86,14 @@
 -  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C83F1C2E-0580-35E6-A62C-FDEB0E4E5D6F
 -  Functions: 10044
 -  Symbols:   3891
--  CStrings:  3707
+-  CStrings:  3715
++  UUID: 9EA86932-25F6-3273-9D8A-010F01D5FC30
 +  Functions: 10066
 +  Symbols:   3895
-+  CStrings:  3721
++  CStrings:  3729
  
 Symbols:
 + _associated conformance 16NewsSubscription22AppLaunchUpsellManagerC0cdE17PresentationError33_7F673E85138625239E97178C2CD6C826LLOSHAASQ

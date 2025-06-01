@@ -56,10 +56,8 @@
    __AUTH_CONST.__cfstring: 0x5fc0
    __AUTH_CONST.__objc_const: 0x308
 -  __AUTH_CONST.__const: 0x1718
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__auth_got: 0x850
 +  __AUTH_CONST.__const: 0x1418
-+  __AUTH_CONST.__auth_ptr: 0x30
 +  __AUTH_CONST.__auth_got: 0x7c8
    __AUTH.__objc_data: 0x230
 -  __DATA.__objc_classrefs: 0x170
@@ -98,12 +96,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1723FF65-0927-3F4F-9F41-7022B8587717
 -  Functions: 939
 -  Symbols:   958
--  CStrings:  1255
+-  CStrings:  2021
++  UUID: B4033F4E-A794-3F94-8061-EED9A578A51C
 +  Functions: 844
 +  Symbols:   887
-+  CStrings:  1204
++  CStrings:  1970
  
 Symbols:
 + _OBJC_CLASS_$_BMMLSELabeledDataStore

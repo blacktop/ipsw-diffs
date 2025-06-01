@@ -42,7 +42,6 @@
    __DATA_CONST.__objc_classrefs: 0xf40
    __DATA_CONST.__objc_superrefs: 0xb60
    __DATA_CONST.__objc_arraydata: 0x5a8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x12178
 -  __AUTH_CONST.__cfstring: 0x17880
 +  __AUTH_CONST.__const: 0x12198
@@ -71,12 +70,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 205DA5BC-ECCC-3C65-AC17-3BC0F91DD126
 -  Functions: 9711
 -  Symbols:   30268
--  CStrings:  13999
+-  CStrings:  17011
++  UUID: 7A0DD05E-78CF-379D-A0F8-6512A2EAA286
 +  Functions: 9722
 +  Symbols:   30305
-+  CStrings:  14017
++  CStrings:  17033
  
 Symbols:
 + +[ICCloudServerListenerEndpointProvider _remoteObjectInterface]

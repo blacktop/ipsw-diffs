@@ -66,13 +66,16 @@
    - /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
    - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
 
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9436404C-1E7D-3BB4-9A78-EFAD0E61ECD9
++  UUID: F2CDD01D-3D48-357D-A7B5-DEE22054366D
    Functions: 653
 -  Symbols:   2643
--  CStrings:  1354
+-  CStrings:  1475
 +  Symbols:   2645
-+  CStrings:  1358
++  CStrings:  1480
  
 Symbols:
 + _CPSetPowerAssertionWithIdentifier

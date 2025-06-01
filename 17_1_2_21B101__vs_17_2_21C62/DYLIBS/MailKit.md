@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 355FB6C7-B12B-3DC6-9811-B73D269321C7
 -  Functions: 565
 -  Symbols:   2544
--  CStrings:  1111
+-  CStrings:  1250
++  UUID: 1DE9BE94-C66A-3760-81A4-78B5EFC777D2
 +  Functions: 568
 +  Symbols:   2556
-+  CStrings:  1115
++  CStrings:  1254
  
 Symbols:
 + -[MEComposeExtensionsHelper regenerateSecurityStatusInformationForSession:forContextUUID:]

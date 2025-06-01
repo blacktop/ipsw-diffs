@@ -31,13 +31,16 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x4
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 89C60673-CDA9-37B0-AA24-AEC64868184E
++  UUID: 775B4DC1-34B7-3C1C-B848-071353D6CBC5
    Functions: 20
 -  Symbols:   55
--  CStrings:  82
+-  CStrings:  107
 +  Symbols:   51
-+  CStrings:  68
++  CStrings:  78
  
 Symbols:
 - _MarcoLogMadridLevel

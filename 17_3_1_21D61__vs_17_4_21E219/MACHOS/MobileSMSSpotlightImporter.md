@@ -37,11 +37,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4AF24D32-923F-3EE3-82A6-72A234B3F099
++  UUID: 85C3661D-BDA1-3B9A-BAC4-D003B8440525
    Functions: 23
    Symbols:   109
--  CStrings:  114
-+  CStrings:  113
+-  CStrings:  132
++  CStrings:  131
  
 CStrings:
 - "setNeedsDeferredReindexingForGUIDs:"

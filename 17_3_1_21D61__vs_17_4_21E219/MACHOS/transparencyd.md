@@ -116,12 +116,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F779F25F-EA46-3E19-BE69-B01DD175C0E6
 -  Functions: 10004
 -  Symbols:   1055
--  CStrings:  10172
+-  CStrings:  11832
++  UUID: 90A72B67-F444-348E-8B3B-AE552E0A8C7D
 +  Functions: 10377
 +  Symbols:   1103
-+  CStrings:  10433
++  CStrings:  12137
  
 Symbols:
 + _$s10Foundation4DateV17timeIntervalSinceySdACF

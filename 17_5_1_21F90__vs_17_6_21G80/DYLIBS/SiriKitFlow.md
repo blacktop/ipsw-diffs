@@ -61,10 +61,8 @@
    __DATA_CONST.__objc_protorefs: 0xb8
 -  __DATA_CONST.__objc_classrefs: 0x7e8
 -  __AUTH_CONST.__const: 0x2ef88
--  __AUTH_CONST.__auth_ptr: 0x980
 +  __DATA_CONST.__objc_classrefs: 0x820
 +  __AUTH_CONST.__const: 0x30810
-+  __AUTH_CONST.__auth_ptr: 0x9a0
    __AUTH_CONST.__cfstring: 0x2a00
    __AUTH_CONST.__objc_const: 0xd8
 -  __AUTH_CONST.__auth_got: 0x26a0
@@ -89,12 +87,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5CCA6202-56C4-3885-AD05-B86067536A51
 -  Functions: 46312
 -  Symbols:   23671
--  CStrings:  5051
+-  CStrings:  5387
++  UUID: 5F882460-BE0C-3C2C-9695-AB22CC9767F0
 +  Functions: 47924
 +  Symbols:   24608
-+  CStrings:  5244
++  CStrings:  5580
  
 Symbols:
 + _OBJC_CLASS_$_AFLocationService

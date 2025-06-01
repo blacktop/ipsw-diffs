@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x4495
    __TEXT.__objc_methtype: 0xd5d
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 42637BB1-328F-3AAB-A45B-4B45782FE6F3
++  UUID: 06FF3680-5ADD-3CCB-9FC3-7924E3CB2AF7
+   Functions: 496
+   Symbols:   2160
+   CStrings:  1186
+
 ```

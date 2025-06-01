@@ -26,6 +26,15 @@
    __DATA.__objc_ivar: 0xc
    __DATA.__data: 0x780
    __DATA_DIRTY.__objc_data: 0x50
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B7EB2C6A-6190-33D6-9DEA-1FA15A6C6941
++  UUID: 83A1E033-D80B-3FAE-AA92-01621930569F
+   Functions: 76
+   Symbols:   506
+   CStrings:  1244
 Symbols:
 + __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
 + __ZNSt12length_errorC1B8ue170006EPKc

@@ -71,11 +71,9 @@
    __DATA_CONST.__objc_arraydata: 0x4b0
 -  __AUTH_CONST.__const: 0x8b08
 -  __AUTH_CONST.__objc_const: 0x104a8
--  __AUTH_CONST.__auth_ptr: 0x148
 -  __AUTH_CONST.__cfstring: 0xa0e0
 +  __AUTH_CONST.__const: 0x8fe0
 +  __AUTH_CONST.__objc_const: 0x10650
-+  __AUTH_CONST.__auth_ptr: 0x160
 +  __AUTH_CONST.__cfstring: 0xa2c0
    __AUTH_CONST.__objc_doubleobj: 0xc0
    __AUTH_CONST.__objc_arrayobj: 0x240
@@ -129,12 +127,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5D566358-52B1-3567-B7C7-DFD35BF33625
 -  Functions: 20673
 -  Symbols:   57692
--  CStrings:  20676
+-  CStrings:  21963
++  UUID: 69F7B5ED-BE1A-3476-AD8D-89E5D0D493C4
 +  Functions: 21054
 +  Symbols:   58223
-+  CStrings:  20997
++  CStrings:  22299
  
 Symbols:
 + +[CNAvatarImageRendererSettings defaultSettingsWithCacheSize:skipContactLookup:]

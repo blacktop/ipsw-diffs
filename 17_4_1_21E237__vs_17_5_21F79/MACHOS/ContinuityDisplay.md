@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E57F2AE7-4382-3A06-8B07-DE6183F610B1
 -  Functions: 3365
 -  Symbols:   404
--  CStrings:  1171
+-  CStrings:  1181
++  UUID: B339A77C-F64C-3059-9354-AAAF8C3B7BF2
 +  Functions: 3536
 +  Symbols:   405
-+  CStrings:  1180
++  CStrings:  1190
  
 Symbols:
 + _IOHIDEventGetDataValue

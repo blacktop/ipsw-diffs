@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0x2900
    __TEXT.__objc_methtype: 0x53e
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 122EEC19-DDA1-3110-BF52-5F1CC0E74978
++  UUID: A34A3E28-A7A0-3E76-9328-131063535F4A
+   Functions: 506
+   Symbols:   381
+   CStrings:  915
+
 ```

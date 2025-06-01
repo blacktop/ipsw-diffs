@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 
+   - /System/Library/PrivateFrameworks/SMBClientProvider.framework/SMBClientProvider
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 072A3E7E-6296-34B5-B41E-6F99D6E20EB3
++  UUID: AF890373-A373-30FC-A7B5-FB726493150A
+   Functions: 12
+   Symbols:   62
+   CStrings:  37
+
 ```

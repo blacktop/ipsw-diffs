@@ -53,12 +53,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libxslt.1.dylib
+-  UUID: 48E4C74B-208D-3EF6-BFC2-C8DE3F768F6B
 -  Functions: 4434
 -  Symbols:   16936
--  CStrings:  7654
+-  CStrings:  9020
++  UUID: 7789F0F1-6594-39EA-92C3-8A2A9DA4E85A
 +  Functions: 4469
 +  Symbols:   17032
-+  CStrings:  7699
++  CStrings:  9065
  
 Symbols:
 + -[IKAppKeyboard _clearHintsOnSelection]

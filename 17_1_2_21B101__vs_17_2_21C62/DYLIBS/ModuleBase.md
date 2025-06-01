@@ -33,13 +33,16 @@
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_const: 0x288
 
+   - /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C45B93E-92B3-3B0C-A705-E6A8BF550375
++  UUID: AA799FF5-3070-3B76-B87F-68B70495B0C8
    Functions: 107
 -  Symbols:   526
--  CStrings:  415
+-  CStrings:  474
 +  Symbols:   527
-+  CStrings:  417
++  CStrings:  476
  
 Symbols:
 + -[MechanismManager _canLoadPlugin:className:userId:request:error:]

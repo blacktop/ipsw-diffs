@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0x320
    __DATA.__data: 0x990
 
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 38773876-ED55-3F15-9B1C-6EB6DCC78535
++  UUID: 57CABFB4-BC74-3D11-92BB-36FA643E7E37
    Functions: 238
    Symbols:   206
--  CStrings:  1183
-+  CStrings:  1194
+-  CStrings:  1274
++  CStrings:  1285
  
 CStrings:
 + "eraseVisitLogDatabase:"

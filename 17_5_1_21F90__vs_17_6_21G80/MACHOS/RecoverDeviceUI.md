@@ -45,12 +45,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 843CF4AD-7957-397A-95DC-CA5E4E3C7AB1
 -  Functions: 79
 -  Symbols:   762
--  CStrings:  445
+-  CStrings:  483
++  UUID: 8D72D7FD-3BE4-3D7F-A29B-4F10D2C51636
 +  Functions: 80
 +  Symbols:   771
-+  CStrings:  457
++  CStrings:  501
  
 Symbols:
 + -[RecoverDeviceUIExtensionRemoteViewController isCompanionSameDevice]

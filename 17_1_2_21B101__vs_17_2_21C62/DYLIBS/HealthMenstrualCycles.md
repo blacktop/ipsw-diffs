@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0xfeb
    __TEXT.__objc_stubs: 0x4de0
    __DATA_CONST.__got: 0x1f8
+
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4E755460-17B4-3D9F-A4C5-BE3F45EF30A8
++  UUID: 1856D328-5AE5-3F5D-A686-15689C728866
+   Functions: 1013
+   Symbols:   3666
+   CStrings:  2374
 Symbols:
 + -[HKMCViewModelProvider registerObserver:]
 - -[HKMCViewModelProvider addObserver:]

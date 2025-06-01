@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x550
    __DATA.__data: 0x7e0
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 34872BD8-31E6-350D-BEB1-D04D7BD070A4
++  UUID: 3CC760CD-910B-31E3-BCFD-91190A1AFE3A
    Functions: 320
    Symbols:   161
--  CStrings:  1306
-+  CStrings:  1314
+-  CStrings:  1323
++  CStrings:  1331
  
 CStrings:
 + "T@\"<UITextInputSuggestionDelegate>\",?,R,N"

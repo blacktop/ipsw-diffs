@@ -39,11 +39,15 @@
    __DATA.__objc_data: 0x460
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DCD4EA80-49D8-317A-A51E-A66C7F2A7BE4
++  UUID: 16785C59-68B2-3A0F-94CF-CF70AF8915D3
    Functions: 355
    Symbols:   252
--  CStrings:  1040
-+  CStrings:  1041
+-  CStrings:  1158
++  CStrings:  1159
  
 CStrings:
 + "T@\"NSString\",?,R,C"

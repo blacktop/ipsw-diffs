@@ -12,4 +12,13 @@
    __TEXT.__objc_methlist: 0x548
    __TEXT.__const: 0x262
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FC809FC8-3211-3DFE-AD1E-329702C2656E
++  UUID: E8D96684-A6BB-310C-99D6-65631EF9EF13
+   Functions: 786
+   Symbols:   2754
+   CStrings:  1032
+
 ```

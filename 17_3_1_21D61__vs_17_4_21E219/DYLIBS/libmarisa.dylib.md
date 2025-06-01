@@ -20,8 +20,10 @@
    __DATA_DIRTY.__const: 0x40
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: EE2BD805-7C40-3362-A04D-0445DB38CA48
 -  Functions: 342
 -  Symbols:   629
++  UUID: E48F3A15-2B2D-30FE-8AA0-F2224A193F57
 +  Functions: 345
 +  Symbols:   635
    CStrings:  122

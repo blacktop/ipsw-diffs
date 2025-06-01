@@ -69,7 +69,6 @@
 +  __AUTH_CONST.__const: 0x2c58
 +  __AUTH_CONST.__cfstring: 0x14100
 +  __AUTH_CONST.__objc_const: 0x4250
-   __AUTH_CONST.__auth_ptr: 0x50
    __AUTH_CONST.__objc_intobj: 0x1080
    __AUTH_CONST.__objc_arrayobj: 0x1e0
    __AUTH_CONST.__objc_dictobj: 0x258
@@ -100,12 +99,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3ABF4A3E-4CA6-3D1C-B414-D77658E42EAA
 -  Functions: 6442
 -  Symbols:   18793
--  CStrings:  9711
+-  CStrings:  12270
++  UUID: 96365DBF-E6A0-36AD-A044-FFDE768978B7
 +  Functions: 6504
 +  Symbols:   18904
-+  CStrings:  9761
++  CStrings:  12329
  
 Symbols:
 + +[AXTripleClickHelpers isReduceWhitePointEnabled]

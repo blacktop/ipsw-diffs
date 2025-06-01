@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C563685-AC1B-34F7-8657-1741C9DC4AFC
++  UUID: 285528E5-31B9-34A4-99E6-9BB7D23F0AAD
    Functions: 17
    Symbols:   76
--  CStrings:  140
-+  CStrings:  141
+-  CStrings:  154
++  CStrings:  155
  
 CStrings:
 + "T@\"NSString\",?,R,C"

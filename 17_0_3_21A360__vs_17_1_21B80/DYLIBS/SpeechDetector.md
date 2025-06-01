@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_arraydata: 0x220
    __AUTH_CONST.__objc_const: 0x120
 
+   - /System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0448F28B-F554-3B00-A7D1-69CE5A5FAE38
++  UUID: 4A1B03D1-2B70-3C18-A3B0-F35A9B2F44C0
    Functions: 54
    Symbols:   335
--  CStrings:  289
-+  CStrings:  291
+-  CStrings:  351
++  CStrings:  353
  
 CStrings:
 + "silencePosteriorGeneratorProcessorIsFinished:"

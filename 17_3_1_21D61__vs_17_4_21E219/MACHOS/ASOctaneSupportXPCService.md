@@ -94,11 +94,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8F2346A7-429C-3772-BBD5-EBF6CB68DA92
 -  Functions: 17804
++  UUID: 6E527233-13B3-3319-8B00-F0F95C698EF7
 +  Functions: 17928
    Symbols:   579
--  CStrings:  2961
-+  CStrings:  3024
+-  CStrings:  3296
++  CStrings:  3360
  
 Symbols:
 + _sqlite3_create_function_v2

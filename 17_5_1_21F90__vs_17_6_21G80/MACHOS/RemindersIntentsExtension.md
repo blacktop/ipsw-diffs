@@ -52,8 +52,11 @@
    __DATA.__common: 0x48
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 04A98815-21C4-361A-A8BD-53B0AECCA097
++  UUID: D70D4F61-5898-3EEA-868A-11E5B5A057F3
    Functions: 643
 -  Symbols:   213
 +  Symbols:   211

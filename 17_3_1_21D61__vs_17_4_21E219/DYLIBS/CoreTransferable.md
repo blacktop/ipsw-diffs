@@ -41,7 +41,6 @@
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__const: 0x1358
-   __AUTH_CONST.__auth_ptr: 0xa0
 -  __AUTH_CONST.__auth_got: 0x770
 +  __AUTH_CONST.__auth_got: 0x788
    __AUTH.__data: 0x160
@@ -57,12 +56,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: D8310A98-98B4-3A56-B48A-F2ABCF226D3F
 -  Functions: 1171
 -  Symbols:   3172
--  CStrings:  85
+-  CStrings:  88
++  UUID: AD35FA04-18C0-354B-B69B-7CB6A33C50A7
 +  Functions: 1166
 +  Symbols:   3165
-+  CStrings:  98
++  CStrings:  101
  
 Symbols:
 + _$s16CoreTransferable30ResolvedTransferRepresentationV24SuggestedFileNameStorageOwCPTm

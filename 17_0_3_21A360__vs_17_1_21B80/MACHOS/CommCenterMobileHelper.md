@@ -57,11 +57,13 @@
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 05764873-D926-3983-9467-8047C71C7304
 -  Functions: 1958
++  UUID: EBC0706A-7EAC-33AB-A4A0-3B425F038177
 +  Functions: 1957
    Symbols:   513
--  CStrings:  1317
-+  CStrings:  1327
+-  CStrings:  1771
++  CStrings:  1792
  
 CStrings:
 + "CipherMLService"

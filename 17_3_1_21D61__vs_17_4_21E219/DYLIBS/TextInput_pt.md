@@ -22,5 +22,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 00EB9B51-76B2-3FC8-B60F-D488F3A96BAB
++  UUID: 55E44354-5D8B-3BB2-BE10-48C010328CDB
+   Functions: 1
+   Symbols:   18
+   CStrings:  6
 
 ```

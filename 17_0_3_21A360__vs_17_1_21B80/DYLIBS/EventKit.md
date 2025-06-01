@@ -58,12 +58,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E041E9DF-065B-30A1-BB59-13370B27DEFD
 -  Functions: 8179
 -  Symbols:   25026
--  CStrings:  9389
+-  CStrings:  10531
++  UUID: 3E5F1020-8E89-3665-ABFB-93470158E847
 +  Functions: 8187
 +  Symbols:   25044
-+  CStrings:  9388
++  CStrings:  10530
  
 Symbols:
 + +[EKSourceConstraints supportsSecureCoding]

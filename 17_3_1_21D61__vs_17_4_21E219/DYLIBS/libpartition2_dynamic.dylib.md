@@ -39,7 +39,6 @@
 -  __AUTH_CONST.__cfstring: 0x820
 +  __AUTH_CONST.__cfstring: 0x940
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_intobj: 0x198
    __AUTH_CONST.__objc_dictobj: 0x50
 +  __AUTH_CONST.__const: 0x20
@@ -59,12 +58,14 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B1254486-9A2F-30FD-82A4-A8149CB02893
 -  Functions: 115
 -  Symbols:   563
--  CStrings:  408
+-  CStrings:  473
++  UUID: 64E768F2-C1F0-34CD-B5C3-591E1AD37954
 +  Functions: 119
 +  Symbols:   572
-+  CStrings:  421
++  CStrings:  495
  
 Symbols:
 + -[LPMedia _deviceCharacteristicStringForKey:]

@@ -45,7 +45,6 @@
    __DATA_CONST.__objc_arraydata: 0x40
 -  __AUTH_CONST.__const: 0x1eb0
 +  __AUTH_CONST.__const: 0x1ea0
-   __AUTH_CONST.__auth_ptr: 0x330
    __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x380
 +  __AUTH_CONST.__cfstring: 0x320
@@ -79,12 +78,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C27C0970-ADCD-3B32-823B-5A7F4E41B945
 -  Functions: 18575
 -  Symbols:   43791
--  CStrings:  9282
+-  CStrings:  9310
++  UUID: ABE07EBD-918C-37D0-8B56-DA47917213CF
 +  Functions: 18522
 +  Symbols:   43618
-+  CStrings:  9248
++  CStrings:  9273
  
 Symbols:
 + -[RTCEncodedImage setTemporalIndex:]

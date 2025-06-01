@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5BD57218-E612-32F6-88CA-BF8675442CD5
 -  Functions: 233
 -  Symbols:   95
--  CStrings:  663
+-  CStrings:  781
++  UUID: 839A2C76-1305-3244-A15F-845424C355B9
 +  Functions: 31
 +  Symbols:   59
-+  CStrings:  149
++  CStrings:  167
  
 Symbols:
 - _CC_SHA256

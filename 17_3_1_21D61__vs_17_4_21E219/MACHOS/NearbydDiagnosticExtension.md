@@ -37,6 +37,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x394
    __DATA.__bss: 0x108
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DA588784-BB10-3192-B81A-3104797AE013
++  UUID: 2DAFBD7F-418A-3E80-AAD8-F85EE1132F9D
+   Functions: 501
+   Symbols:   157
+   CStrings:  369
 Symbols:
 + _memchr
 - __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_

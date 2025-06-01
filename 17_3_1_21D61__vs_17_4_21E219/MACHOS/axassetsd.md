@@ -42,6 +42,17 @@
    __DATA.__objc_ivar: 0xdc
    __DATA.__objc_data: 0x870
    __DATA.__data: 0x2a8
+
+   - /usr/appleinternal/lib/liblinkguard.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE631D71-9272-3535-B5EF-2B74C77C90BD
++  UUID: 2CC0DE02-CFA5-3503-A2F4-4158B30F59DF
+   Functions: 329
+   Symbols:   173
+-  CStrings:  902
++  CStrings:  901
+ 
 CStrings:
 + "T@\"NSString\",?,R,C"
 + "subscribedVoicesWithReply:"

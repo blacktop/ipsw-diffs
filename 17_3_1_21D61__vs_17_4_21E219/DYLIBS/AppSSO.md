@@ -66,12 +66,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 14D8A020-F934-3DD5-B438-98CBD6C2EEA3
 -  Functions: 902
 -  Symbols:   3092
--  CStrings:  1343
+-  CStrings:  1454
++  UUID: 68391B08-A2FD-3E17-8389-913B0C6BA075
 +  Functions: 922
 +  Symbols:   3156
-+  CStrings:  1377
++  CStrings:  1490
  
 Symbols:
 + -[SOConfigurationHost _checkAssociatedDomainForProfiles:].cold.1

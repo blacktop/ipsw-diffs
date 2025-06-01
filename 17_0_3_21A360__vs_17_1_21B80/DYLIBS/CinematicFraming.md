@@ -23,12 +23,15 @@
    __DATA.__objc_classrefs: 0x138
    __DATA.__objc_superrefs: 0xb0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 20288DDC-CC07-3FD7-A4C9-E769A058495B
++  UUID: C58AA012-10F4-3F0D-B15B-261EC84A74AC
    Functions: 707
 -  Symbols:   2752
 +  Symbols:   2754
-   CStrings:  1603
+   CStrings:  1767
  
 Symbols:
 + _espresso_context_destroy

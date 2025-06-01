@@ -95,12 +95,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0A132605-72B6-3073-8660-41EC7BE675E6
 -  Functions: 70072
 -  Symbols:   4534
--  CStrings:  87022
+-  CStrings:  100928
++  UUID: 5AC466D0-2ADE-367D-B7F1-1D102461F493
 +  Functions: 70199
 +  Symbols:   4544
-+  CStrings:  87305
++  CStrings:  101265
  
 Symbols:
 + _GEOConfigMSPShareETAIncludeMockClosedTripWithPastETAForUITesting

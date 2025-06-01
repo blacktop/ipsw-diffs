@@ -12,6 +12,15 @@
    __TEXT.__const: 0xf7b0
    __TEXT.__oslogstring: 0x4f1
    __TEXT.__gcc_except_tab: 0x928
+
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: BBBFA8F4-DE68-3063-B308-75BFB31659CB
++  UUID: 801A8E00-F62B-3F0B-B571-479D37DFCCDD
+   Functions: 1360
+   Symbols:   695
+   CStrings:  8669
 CStrings:
 + "tr_reconstruct_num"
 - "tr_reconstruct_num_"

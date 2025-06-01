@@ -33,9 +33,7 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_const: 0x3910
    __AUTH_CONST.__const: 0xcd90
--  __AUTH_CONST.__auth_ptr: 0x2a8
 -  __AUTH_CONST.__auth_got: 0x848
-+  __AUTH_CONST.__auth_ptr: 0x2b0
 +  __AUTH_CONST.__auth_got: 0x8c0
    __AUTH.__data: 0x2270
 -  __DATA.__data: 0x5bf8
@@ -50,9 +48,11 @@
    - /usr/lib/swift/libswiftCore.dylib
    - /usr/lib/swift/libswiftDarwin.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: F6F03901-6E02-33EE-8CCE-9A0077BD4F28
 -  Functions: 6688
 -  Symbols:   16370
 -  CStrings:  181
++  UUID: 6AD76214-2559-3D99-81FB-F7BEA1146360
 +  Functions: 6681
 +  Symbols:   16369
 +  CStrings:  195

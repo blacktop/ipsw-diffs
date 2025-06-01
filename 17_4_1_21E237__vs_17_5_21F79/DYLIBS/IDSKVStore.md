@@ -22,4 +22,13 @@
    __DATA_DIRTY.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 43D76A65-7925-31A4-878C-9974E67E8FE6
++  UUID: 369F7DE2-3B6D-37C9-8FDE-8AF0CE07CF73
+   Functions: 76
+   Symbols:   112
+   CStrings:  216
+
 ```

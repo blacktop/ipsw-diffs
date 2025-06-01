@@ -20,4 +20,13 @@
    __TEXT.__objc_classname: 0x1a
    __TEXT.__objc_methname: 0x180
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 591606B8-B38B-3E81-B03C-378C3FB27717
++  UUID: 072B7415-C71C-33C0-92F9-C2559FF7574F
+   Functions: 6774
+   Symbols:   1098
+   CStrings:  2643
+
 ```

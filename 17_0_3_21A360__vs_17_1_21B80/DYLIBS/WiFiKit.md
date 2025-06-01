@@ -28,12 +28,14 @@
    - /usr/lib/libSystemHealth.dylib
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7500E6AC-6BD0-3531-AB8E-006CD13D75E6
 -  Functions: 3117
 -  Symbols:   11117
--  CStrings:  6376
+-  CStrings:  7222
++  UUID: 72E8DF21-0219-3683-AC37-2E01D605AE2B
 +  Functions: 3118
 +  Symbols:   11119
-+  CStrings:  6379
++  CStrings:  7225
  
 Symbols:
 + -[WFInterface currentKnownNetworkProfile]

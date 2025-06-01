@@ -64,12 +64,14 @@
    - /usr/lib/libexpat.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 31C654ED-EF6C-329E-B888-8DE05FE208EA
 -  Functions: 16106
 -  Symbols:   10768
--  CStrings:  12570
+-  CStrings:  14100
++  UUID: 81BEBD07-13BB-3851-B3EC-3742341306FC
 +  Functions: 16122
 +  Symbols:   10801
-+  CStrings:  12677
++  CStrings:  14204
  
 Symbols:
 + _IIO_UpdateIOSurfaceOwnershipIdentity

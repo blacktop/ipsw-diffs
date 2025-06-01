@@ -29,13 +29,16 @@
    __DATA_CONST.__objc_catlist: 0x0
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F941CA9B-0A8F-3880-A3DC-82E5EF8EDA4B
++  UUID: 3D5FF9EA-FCEE-358C-99C2-875E7ECBE098
    Functions: 17
 -  Symbols:   100
--  CStrings:  67
+-  CStrings:  85
 +  Symbols:   101
-+  CStrings:  68
++  CStrings:  87
  
 Symbols:
 + _AXCFormattedString

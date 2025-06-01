@@ -52,12 +52,14 @@
    - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7F66462-65AF-3AD0-8B4F-F1EC25061BB7
 -  Functions: 772
 -  Symbols:   2803
--  CStrings:  1587
+-  CStrings:  1765
++  UUID: 237D1E73-CDE1-3B50-9A34-DBCE32227CF4
 +  Functions: 774
 +  Symbols:   2809
-+  CStrings:  1593
++  CStrings:  1772
  
 Symbols:
 + -[NCMutableNotificationOptions setSpeechLanguage:]

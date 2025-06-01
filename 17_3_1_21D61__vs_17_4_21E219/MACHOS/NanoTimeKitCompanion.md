@@ -48,12 +48,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07A25E91-C8C6-38AA-9A88-C5A867F772F0
 -  Functions: 641
 -  Symbols:   1905
--  CStrings:  1156
+-  CStrings:  1732
++  UUID: 860AE7F9-95BB-39BE-A7B4-E3903F68AE8E
 +  Functions: 644
 +  Symbols:   1912
-+  CStrings:  1159
++  CStrings:  1736
  
 Symbols:
 + -[NTKFaceLibraryViewControllerAccessibility _dismissSwitcherAnimated:withIndex:remainFrozen:completion:]

@@ -57,8 +57,6 @@
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x20
    __AUTH_CONST.__objc_intobj: 0x138
-+  __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x688
 -  __AUTH.__objc_data: 0xa960
 -  __DATA.__objc_classrefs: 0x10f0
@@ -68,6 +66,7 @@
 -  __DATA.__bss: 0xf0
 -  __DATA_DIRTY.__objc_data: 0x960
 -  __DATA_DIRTY.__bss: 0x148
++  __AUTH_CONST.__objc_arrayobj: 0x18
 +  __AUTH_CONST.__auth_got: 0x690
 +  __AUTH.__objc_data: 0xa9b0
 +  __DATA.__objc_ivar: 0x10f4
@@ -97,12 +96,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmorphun.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6FC62920-68D5-3001-8970-4D7D14B2675C
 -  Functions: 10245
 -  Symbols:   32639
--  CStrings:  7382
+-  CStrings:  8228
++  UUID: 3D113F96-88F0-338E-81F7-93926A1DB2ED
 +  Functions: 10288
 +  Symbols:   32787
-+  CStrings:  7449
++  CStrings:  8313
  
 Symbols:
 + +[NSError(LTTranslationInternalError) lt_translationNotWorking]

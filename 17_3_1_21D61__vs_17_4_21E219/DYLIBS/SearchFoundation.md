@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB92C90C-1B90-362A-BA80-5FD8F27AE4DB
 -  Functions: 14179
 -  Symbols:   43265
--  CStrings:  9681
+-  CStrings:  11005
++  UUID: B4E5E93F-13DB-35EE-B6ED-C4932702E48D
 +  Functions: 15215
 +  Symbols:   46382
-+  CStrings:  10223
++  CStrings:  11617
  
 Symbols:
 + +[RFBinaryButtonCardSection supportsSecureCoding]

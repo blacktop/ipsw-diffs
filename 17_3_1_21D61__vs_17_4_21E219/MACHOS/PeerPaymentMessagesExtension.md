@@ -44,12 +44,15 @@
    __DATA.__objc_data: 0x5f0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3CF01C17-2283-3359-95B1-ADC4D733A49A
++  UUID: 82BF5012-A868-3345-944C-3B6F2E8D2967
    Functions: 321
 -  Symbols:   290
 +  Symbols:   289
-   CStrings:  939
+   CStrings:  1049
  
 Symbols:
 - _PKErrorRecoveryActionTypeKey

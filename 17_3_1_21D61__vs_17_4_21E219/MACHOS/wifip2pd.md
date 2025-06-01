@@ -74,12 +74,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB9C42A4-A5C4-3E17-96A5-4869E2D76CD3
 -  Functions: 26775
 -  Symbols:   1638
--  CStrings:  2501
+-  CStrings:  2502
++  UUID: ECF25539-C1DF-3DB3-BED9-F2960FE469D4
 +  Functions: 26568
 +  Symbols:   1643
-+  CStrings:  2522
++  CStrings:  2523
  
 Symbols:
 + _$s10Foundation4DataV15_RepresentationOys5UInt8VSicis

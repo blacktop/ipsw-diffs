@@ -31,13 +31,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: EA5CF97A-6837-3D63-9D01-C78322AF3D9E
++  UUID: 35A05A62-C556-3B71-A518-A87C04A2DC38
    Functions: 427
 -  Symbols:   217
--  CStrings:  308
+-  CStrings:  311
 +  Symbols:   218
-+  CStrings:  310
++  CStrings:  313
  
 Symbols:
 + _fdopen

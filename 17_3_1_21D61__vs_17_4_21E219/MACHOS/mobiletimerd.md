@@ -19,5 +19,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C9C20455-FFBE-3657-90D9-A6703BA22198
++  UUID: 8248B2CA-0F76-31BB-BB9D-BBBD647FB3FD
+   Functions: 3
+   Symbols:   18
+   CStrings:  4
 
 ```

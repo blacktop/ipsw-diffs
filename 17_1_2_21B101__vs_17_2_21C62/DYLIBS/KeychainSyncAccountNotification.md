@@ -68,12 +68,14 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 35B03541-D656-3F9D-95D0-10B07947DF21
 -  Functions: 5
 -  Symbols:   51
--  CStrings:  108
+-  CStrings:  117
++  UUID: 0CF5DD65-8EFC-3ABA-83D7-67AAFD0231B5
 +  Functions: 38
 +  Symbols:   186
-+  CStrings:  276
++  CStrings:  390
  
 Symbols:
 + _OBJC_CLASS_$_AAFAnalyticsEventSecurity

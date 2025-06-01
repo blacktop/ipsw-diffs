@@ -31,7 +31,7 @@
    __AUTH_CONST.__cfstring: 0x42a0
    __AUTH_CONST.__objc_const: 0x2400
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0x6d8
    __AUTH.__objc_data: 0x1270
 -  __DATA.__objc_protorefs: 0x8
@@ -41,11 +41,15 @@
    __DATA.__data: 0x6d0
    __DATA.__bss: 0x60
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2672E17E-75FB-31DC-ACBD-653F9F796B96
++  UUID: 8A8034BA-B78E-3F09-BD29-8D5B21D50A9C
    Functions: 1526
    Symbols:   5233
--  CStrings:  2505
-+  CStrings:  2506
+-  CStrings:  3038
++  CStrings:  3039
  
 Symbols:
 + ___Block_byref_object_copy_.1067

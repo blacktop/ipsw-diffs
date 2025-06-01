@@ -20,6 +20,15 @@
    __TEXT.__objc_methtype: 0x10d
    __DATA_CONST.__got: 0x320
    __DATA_CONST.__const: 0xe8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CDE6EEA-FFF4-3F45-B7BC-1C17F1639CBB
++  UUID: E40BB3FE-4AC3-3C40-8922-41A5F285E444
+   Functions: 460
+   Symbols:   153
+   CStrings:  245
 CStrings:
 + "loadAppImageAtURL:productType:completionHandler:"
 - "loadAppImageAtURL:completionHandler:"

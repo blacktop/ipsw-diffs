@@ -29,11 +29,15 @@
    __DATA_CONST.__objc_catlist: 0x18
    __DATA_CONST.__objc_protolist: 0x30
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 50AA5A66-7EEA-324B-AA1E-3E1A33B12044
++  UUID: D8091F96-FCF2-35F7-B1F5-42BC89145CDA
    Functions: 565
    Symbols:   209
--  CStrings:  1424
-+  CStrings:  1426
+-  CStrings:  1897
++  CStrings:  1901
  
 CStrings:
 + "FPProvider"

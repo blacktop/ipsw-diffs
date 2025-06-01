@@ -37,7 +37,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x2a8
 +  __DATA_CONST.__objc_superrefs: 0xf8
    __DATA_CONST.__objc_arraydata: 0x10
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__const: 0x53a0
 +  __AUTH_CONST.__const: 0x5d50
    __AUTH_CONST.__cfstring: 0x2f40
@@ -64,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F017A365-982E-3B0B-84BD-7E516EEE0163
 -  Functions: 880
 -  Symbols:   2938
--  CStrings:  1639
+-  CStrings:  2017
++  UUID: 1797A91C-BFF2-3274-8C9E-9CE4AFAADAC0
 +  Functions: 890
 +  Symbols:   2940
-+  CStrings:  1640
++  CStrings:  2018
  
 Symbols:
 + ___Block_byref_object_copy_.1846

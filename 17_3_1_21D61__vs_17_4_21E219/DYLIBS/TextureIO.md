@@ -30,11 +30,15 @@
    __DATA.__data: 0x2a0
    __DATA_DIRTY.__objc_const: 0x828
 
+   - /usr/lib/libate.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A5AA28B5-6DD6-3E06-B93B-6C0734982BFE
++  UUID: 883E1395-5E31-314A-A799-3B1A927CE84B
    Functions: 504
    Symbols:   1210
--  CStrings:  686
-+  CStrings:  687
+-  CStrings:  811
++  CStrings:  812
  
 CStrings:
 + "T@\"NSString\",?,R,C"

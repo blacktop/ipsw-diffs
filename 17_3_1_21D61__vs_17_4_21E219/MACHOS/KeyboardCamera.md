@@ -31,11 +31,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x180
 
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1632CEC6-28AB-35A5-B097-9867196EEBA1
++  UUID: 493DE556-39FF-391A-BF1A-3BDC120C124D
    Functions: 12
    Symbols:   37
--  CStrings:  92
-+  CStrings:  93
+-  CStrings:  93
++  CStrings:  94
  
 CStrings:
 + "T@\"NSString\",?,R,C"

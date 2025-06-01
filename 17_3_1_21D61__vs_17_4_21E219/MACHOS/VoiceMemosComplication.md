@@ -23,4 +23,13 @@
    __DATA.__bss: 0x30
    - /System/Library/Frameworks/ClockKit.framework/ClockKit
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 29D31FAF-9671-3443-8657-C08745BDA601
++  UUID: BACE8A38-1FDE-3A2A-B90A-FCC85F224377
+   Functions: 21
+   Symbols:   52
+   CStrings:  78
+
 ```

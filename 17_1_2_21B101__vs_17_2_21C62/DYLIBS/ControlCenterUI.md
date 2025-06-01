@@ -33,13 +33,16 @@
    __AUTH_CONST.__cfstring: 0xe20
    __AUTH_CONST.__const: 0x460
 
+   - /System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3B6DA71-3980-3D7E-8051-567DF6C6F84E
++  UUID: CB801CD3-2F6B-36E6-98A3-3F12C3DC26F6
    Functions: 1428
 -  Symbols:   5474
--  CStrings:  2473
+-  CStrings:  2586
 +  Symbols:   5476
-+  CStrings:  2475
++  CStrings:  2588
  
 Symbols:
 + _objc_msgSend$font

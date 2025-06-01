@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0x48
    __DATA_CONST.__auth_got: 0x38
 
+   - /System/Library/PrivateFrameworks/DoNotDisturbServer.framework/DoNotDisturbServer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 068DA2F6-A7CA-3AB7-A093-43B39BE3C605
++  UUID: 2CE40525-892A-3176-B5B5-8E6A79ED91D2
+   Functions: 1
+   Symbols:   9
+   CStrings:  2
+
 ```

@@ -26,11 +26,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AEBEA1D6-4830-331A-8050-B9E14D3703C0
++  UUID: 65739C6E-A445-338C-A8CF-4B90956D2253
    Functions: 40
    Symbols:   69
--  CStrings:  118
-+  CStrings:  119
+-  CStrings:  122
++  CStrings:  123
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_classrefs: 0x190
    __DATA_CONST.__objc_superrefs: 0x70
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86EBCD25-561E-378B-A0BB-5E96E67DB41D
++  UUID: F5C9F4FE-7A1B-3E43-BE80-6ED8B601EFCF
    Functions: 331
    Symbols:   201
--  CStrings:  848
-+  CStrings:  850
+-  CStrings:  936
++  CStrings:  938
  
 CStrings:
 + "networkListVisible"

@@ -21,4 +21,13 @@
    __DATA_CONST.__got: 0x30
    __DATA_CONST.__const: 0x1a8
 
+   - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 699F9C52-C183-31AA-8AE0-E196C74653AD
++  UUID: 1E6F9E23-155B-33BE-B4E3-CBE7193759AD
+   Functions: 86
+   Symbols:   103
+   CStrings:  438
+
 ```

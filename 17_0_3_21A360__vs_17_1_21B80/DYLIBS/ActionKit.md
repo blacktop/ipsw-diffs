@@ -64,9 +64,8 @@
 +  __DATA_CONST.__objc_arraydata: 0xd80
    __AUTH_CONST.__objc_const: 0x15aa0
 -  __AUTH_CONST.__const: 0xd598
-+  __AUTH_CONST.__const: 0xd600
-   __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__cfstring: 0x2a500
++  __AUTH_CONST.__const: 0xd600
 +  __AUTH_CONST.__cfstring: 0x2a540
    __AUTH_CONST.__objc_intobj: 0x1b00
    __AUTH_CONST.__objc_arrayobj: 0x480
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03713A06-04A2-3615-A879-E910FBAA9FE3
 -  Functions: 19621
 -  Symbols:   50022
--  CStrings:  23786
+-  CStrings:  29202
++  UUID: D9AC57E3-51CF-350C-82A3-57ECB31116E6
 +  Functions: 19660
 +  Symbols:   50072
-+  CStrings:  23788
++  CStrings:  29206
  
 Symbols:
 + -[WFAddMusicToUpNextAction disabledOnPlatforms]

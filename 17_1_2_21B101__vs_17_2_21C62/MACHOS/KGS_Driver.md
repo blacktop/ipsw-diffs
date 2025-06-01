@@ -39,13 +39,16 @@
    __DATA.__objc_classrefs: 0x50
    __DATA.__objc_superrefs: 0x8
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AA2DE4F-3AAE-3126-9A7A-E8B054E877BA
++  UUID: 510140D5-A4D1-3E67-9CCA-59A8DC62EFA1
    Functions: 24
 -  Symbols:   96
--  CStrings:  168
+-  CStrings:  191
 +  Symbols:   100
-+  CStrings:  173
++  CStrings:  196
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantArray

@@ -72,12 +72,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E08B43A5-5D32-39E1-83A5-BD828989C4AB
 -  Functions: 15944
 -  Symbols:   53203
--  CStrings:  22517
+-  CStrings:  25000
++  UUID: F0BA8788-B131-356F-8F7A-7A1C64EF84B0
 +  Functions: 15956
 +  Symbols:   53242
-+  CStrings:  22540
++  CStrings:  25045
  
 Symbols:
 + -[SBFolderIconImageCache purgeAllCachedFolderImages]

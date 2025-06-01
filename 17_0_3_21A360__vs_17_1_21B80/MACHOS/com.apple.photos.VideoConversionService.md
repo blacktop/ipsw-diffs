@@ -41,13 +41,16 @@
    __DATA.__objc_classrefs: 0x2e8
    __DATA.__objc_superrefs: 0x78
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 83D1A2AE-B5F3-3C6A-9024-55B6B8C435C5
++  UUID: 434086FA-E71E-3669-B732-32E80ED65BBC
    Functions: 706
 -  Symbols:   421
--  CStrings:  1886
+-  CStrings:  2186
 +  Symbols:   424
-+  CStrings:  1887
++  CStrings:  2187
  
 Symbols:
 + _AVAppleMakerNote_MeteorHeadroom

@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA.__objc_const: 0x120
 
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 279DBDAF-20B6-3973-8EFD-E9FF2ADEC0AB
++  UUID: A2EE3C82-CC00-3293-90AC-2D392F0ABA95
    Functions: 28
    Symbols:   77
--  CStrings:  122
-+  CStrings:  121
+-  CStrings:  152
++  CStrings:  150
  
 CStrings:
 - "MediaLibrary database"

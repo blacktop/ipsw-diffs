@@ -41,11 +41,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x68
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 0F4975E3-5816-31E0-BBD6-3F7E367CD1A2
++  UUID: ABC9E54F-881C-398A-A105-1DB2B494ABAC
    Functions: 75
    Symbols:   94
--  CStrings:  371
-+  CStrings:  372
+-  CStrings:  610
++  CStrings:  612
  
 CStrings:
 + "com.apple.FinalCutApp"

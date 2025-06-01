@@ -36,11 +36,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x240
 
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59056F78-9EDA-355B-BE41-98FCD375DE0D
++  UUID: A88BB590-29AF-33C4-8B6F-2042E4F2FE16
    Functions: 24
    Symbols:   100
--  CStrings:  173
-+  CStrings:  174
+-  CStrings:  196
++  CStrings:  197
  
 CStrings:
 + "T@\"NSString\",?,R,C"

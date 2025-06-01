@@ -46,9 +46,9 @@
    __AUTH_CONST.__objc_const: 0x3510
 -  __AUTH_CONST.__const: 0xf68
 +  __AUTH_CONST.__const: 0xf88
-   __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_dictobj: 0xa0
    __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_arrayobj: 0x18
 
    __DATA.__objc_protorefs: 0x30
    __DATA.__objc_classrefs: 0x548
@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4705D31E-755D-3AFA-A879-0E22F42B7C73
 -  Functions: 4378
 -  Symbols:   15086
--  CStrings:  8094
+-  CStrings:  9602
++  UUID: 1E371038-B8F4-3570-8B80-F3D16BE24D81
 +  Functions: 4389
 +  Symbols:   15119
-+  CStrings:  8100
++  CStrings:  9606
  
 Symbols:
 + -[NSTextLayoutFragment _resetLayoutFragmentFrame]

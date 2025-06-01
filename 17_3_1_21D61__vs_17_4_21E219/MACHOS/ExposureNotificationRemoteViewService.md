@@ -23,4 +23,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x60
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5E05164A-03F7-3706-A7FC-28A35E5E98B2
++  UUID: B73BF3B2-C0F2-37CA-AC21-5FB68394CE03
+   Functions: 39
+   Symbols:   52
+   CStrings:  78
+
 ```

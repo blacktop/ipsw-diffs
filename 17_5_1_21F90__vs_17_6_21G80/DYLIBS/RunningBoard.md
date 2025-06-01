@@ -54,12 +54,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 917F7390-CFD9-303C-A99A-BB053516077D
 -  Functions: 2549
 -  Symbols:   8866
--  CStrings:  4253
+-  CStrings:  4949
++  UUID: 6EB6C05C-3A58-3E0F-B042-62E8B7EB10DA
 +  Functions: 2548
 +  Symbols:   8862
-+  CStrings:  4250
++  CStrings:  4945
  
 Symbols:
 + _objc_msgSend$decodeFromJob:uuid:

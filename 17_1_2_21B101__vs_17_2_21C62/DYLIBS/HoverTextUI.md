@@ -20,4 +20,13 @@
    - /System/Library/PrivateFrameworks/HoverTextServices.framework/HoverTextServices
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 58BB9F1C-F5B3-3F20-94B9-1E0D0EF38790
++  UUID: E82EAC3E-6BDA-335C-BB30-D56D16C3E81E
+   Functions: 1315
+   Symbols:   890
+   CStrings:  501
+
 ```

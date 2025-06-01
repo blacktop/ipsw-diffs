@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8D9C209B-5C36-3B08-B04B-05C729C321E8
 -  Functions: 5270
 -  Symbols:   19852
--  CStrings:  8636
+-  CStrings:  9712
++  UUID: 088AE33C-E89B-3A49-89AA-EA9F8E5F9C7E
 +  Functions: 5272
 +  Symbols:   19873
-+  CStrings:  8666
++  CStrings:  9743
  
 Symbols:
 + -[TVApplicationController _openURLControllerDidUpdate:]

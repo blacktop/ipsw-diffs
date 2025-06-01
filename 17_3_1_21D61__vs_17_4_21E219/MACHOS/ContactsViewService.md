@@ -15,4 +15,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4D3EB705-3116-3953-915E-2A9A028C7CAA
++  UUID: 9E67AD51-E89E-3306-BD84-FB10E16750C6
+   Functions: 0
+   Symbols:   5
+   CStrings:  0
+
 ```

@@ -61,12 +61,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8369BD50-1DBC-3047-9C26-B8062FA7338D
 -  Functions: 72
 -  Symbols:   354
--  CStrings:  200
+-  CStrings:  240
++  UUID: 21A1C776-6999-3360-8431-469B588A07EF
 +  Functions: 51
 +  Symbols:   268
-+  CStrings:  147
++  CStrings:  173
  
 Symbols:
 + +[TUIFeedbackController controller]

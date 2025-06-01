@@ -28,4 +28,13 @@
    __DATA_DIRTY.__objc_data: 0x13b0
    __DATA_DIRTY.__bss: 0x1b0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 745FF3AF-902D-3138-899E-3EB72C495FE9
++  UUID: C1662113-2520-353C-A3CD-59CE344988C5
+   Functions: 3249
+   Symbols:   10193
+   CStrings:  6183
+
 ```

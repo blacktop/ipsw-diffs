@@ -17,7 +17,6 @@
    __DATA_CONST.__objc_classrefs: 0x110
 -  __AUTH_CONST.__const: 0x2158
 +  __AUTH_CONST.__const: 0x2400
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__auth_got: 0xa10
 -  __AUTH.__objc_data: 0x48
 -  __DATA.__data: 0xc78
@@ -36,5 +35,14 @@
    __DATA_DIRTY.__common: 0x88
    __DATA_DIRTY.__bss: 0x180
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D976E3DB-2FFB-36F2-B393-104978BEB6B3
++  UUID: C55C1F99-336D-30CE-A088-6CA16B94FC83
+   Functions: 2450
+   Symbols:   1151
+   CStrings:  617
 
 ```

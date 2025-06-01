@@ -40,7 +40,6 @@
    __AUTH_CONST.__cfstring: 0xb80
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_dictobj: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x5520
 -  __AUTH_CONST.__auth_got: 0x3c0
 -  __DATA.__objc_classrefs: 0x190
@@ -60,12 +59,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 70F03AEA-252C-3040-BC56-346DC6E2D544
 -  Functions: 696
 -  Symbols:   2202
--  CStrings:  983
+-  CStrings:  1075
++  UUID: 3C423C84-62B2-3B1C-8ABD-0105E91E45F7
 +  Functions: 701
 +  Symbols:   2204
-+  CStrings:  984
++  CStrings:  1076
  
 Symbols:
 + __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ue170006Ev

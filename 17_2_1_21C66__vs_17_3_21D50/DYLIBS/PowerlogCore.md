@@ -51,12 +51,14 @@
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libsystemstats.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: E7620AF9-DE61-3D0B-9BFE-A69038910662
 -  Functions: 4438
 -  Symbols:   14422
--  CStrings:  14480
+-  CStrings:  24464
++  UUID: 6A30FE14-8E85-36D9-8C81-2983FCA8405D
 +  Functions: 4439
 +  Symbols:   14424
-+  CStrings:  14499
++  CStrings:  24500
  
 Symbols:
 + +[PLUtilities coalitionIDForPid:]

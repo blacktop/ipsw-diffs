@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 93507E01-2A89-392A-A3C5-D259093F35AD
 -  Functions: 2486
 -  Symbols:   8719
--  CStrings:  3972
+-  CStrings:  4480
++  UUID: 22057062-B708-37B1-8A3C-47A201B1975F
 +  Functions: 2489
 +  Symbols:   8727
-+  CStrings:  3978
++  CStrings:  4491
  
 Symbols:
 + +[ASCredentialRequestIconGenerator _iconForPresentationContext:size:outIconStyle:]

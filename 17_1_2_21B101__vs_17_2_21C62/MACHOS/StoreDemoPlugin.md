@@ -28,11 +28,15 @@
    __DATA.__objc_superrefs: 0x20
    __DATA.__objc_ivar: 0x7c
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 95437D5F-31F8-3391-94F0-642163230ACC
++  UUID: 22E7262E-161B-3013-B700-015895A8C1CE
    Functions: 242
    Symbols:   145
--  CStrings:  708
-+  CStrings:  707
+-  CStrings:  785
++  CStrings:  784
  
 CStrings:
 - "initializeDeviceSettingsWithOverwrite:"

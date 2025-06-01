@@ -32,11 +32,15 @@
    __DATA_DIRTY.__const: 0x68
    __DATA_DIRTY.__objc_const: 0x120
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0625D3EA-190E-3849-AC85-8CC112FE30EA
++  UUID: 68927467-EA83-38FD-BF92-2F64CF432332
    Functions: 415
    Symbols:   1231
--  CStrings:  747
-+  CStrings:  746
+-  CStrings:  834
++  CStrings:  833
  
 CStrings:
 - "Prox Card Status: productId not found! support = NO"

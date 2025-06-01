@@ -50,7 +50,7 @@
 +  __AUTH_CONST.__const: 0x10800
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__objc_const: 0x190
-   __AUTH_CONST.__auth_ptr: 0x6c0
+   __AUTH_CONST.__auth_got: 0x2e68
 
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x4
@@ -71,11 +71,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4E270750-C103-365E-A484-1AC8D45660F0
 -  Functions: 25357
 -  Symbols:   24235
++  UUID: 788A023C-0B52-3DD8-BD82-4CCA5BC8178B
 +  Functions: 25419
 +  Symbols:   24271
-   CStrings:  2793
+   CStrings:  2807
  
 Symbols:
 + _associated conformance 10WeatherKit9MoonPhaseO0A2UIE10HemisphereOSHADSQ

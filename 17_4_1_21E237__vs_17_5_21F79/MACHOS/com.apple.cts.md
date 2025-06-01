@@ -19,4 +19,13 @@
    __DATA.__got: 0x2c8
    __DATA.__const: 0x3250
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C1AF3E5D-8DAD-3D58-BF42-606502177104
++  UUID: 44D8C76D-F757-3446-A05C-23EC25D9B103
+   Functions: 195
+   Symbols:   260
+   CStrings:  570
+
 ```

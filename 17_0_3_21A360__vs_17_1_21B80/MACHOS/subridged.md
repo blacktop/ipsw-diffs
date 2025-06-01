@@ -50,11 +50,13 @@
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1A8D3278-6385-3B0C-8185-50B279E3D3E4
 -  Functions: 465
++  UUID: B864AE38-8C66-35CA-AE54-B521745C94EE
 +  Functions: 467
    Symbols:   226
--  CStrings:  1157
-+  CStrings:  1162
+-  CStrings:  1344
++  CStrings:  1350
  
 CStrings:
 + "\x11\x11"

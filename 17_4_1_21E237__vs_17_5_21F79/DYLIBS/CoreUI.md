@@ -20,4 +20,13 @@
    __TEXT.__objc_classname: 0xda9
    __TEXT.__objc_methname: 0x122be
 
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: B8755E9C-FA55-32ED-8194-0BE6D32B4BC2
++  UUID: F0BF8DD1-F49D-3E14-8EA6-26BDB3653216
+   Functions: 4078
+   Symbols:   12619
+   CStrings:  11019
+
 ```

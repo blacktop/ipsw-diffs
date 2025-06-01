@@ -50,7 +50,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_intobj: 0x2d0
    __AUTH_CONST.__objc_dictobj: 0xf0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xaa0
 +  __AUTH_CONST.__auth_got: 0xaa8
    __AUTH.__os_assumes_log: 0x8
@@ -72,12 +71,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 59749D7F-15ED-3D7D-9290-AE8E31F16057
 -  Functions: 1489
 -  Symbols:   4889
--  CStrings:  2566
+-  CStrings:  2874
++  UUID: F2434756-DBEC-327B-9858-827C154874CA
 +  Functions: 1497
 +  Symbols:   4915
-+  CStrings:  2582
++  CStrings:  2893
  
 Symbols:
 + -[OSLogEventProxy _tracepoint_id]

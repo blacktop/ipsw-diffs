@@ -24,12 +24,15 @@
    __TEXT.__objc_classname: 0x1b59
    __TEXT.__objc_methname: 0x154fd
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 87209790-DD9C-3215-9895-33F9E72BC625
++  UUID: 0FDE58F9-B825-3E1C-B46A-A71C4455E428
    Functions: 4311
 -  Symbols:   12128
 +  Symbols:   12130
-   CStrings:  4627
+   CStrings:  5068
  
 Symbols:
 + -[STUIStatusBarDataBroadcaster dealloc]

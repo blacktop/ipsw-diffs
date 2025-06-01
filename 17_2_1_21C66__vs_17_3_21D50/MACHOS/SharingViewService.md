@@ -63,12 +63,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 253BA856-3B50-3E51-8F12-017A352FF7EC
 -  Functions: 7978
 -  Symbols:   1521
--  CStrings:  7528
+-  CStrings:  8250
++  UUID: 6C322B8E-F00F-3787-92CD-1DD8E04170BA
 +  Functions: 7999
 +  Symbols:   1523
-+  CStrings:  7533
++  CStrings:  8255
  
 Symbols:
 + _swift_continuation_throwingResume

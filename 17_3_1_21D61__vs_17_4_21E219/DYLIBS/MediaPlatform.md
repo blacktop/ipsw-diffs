@@ -20,7 +20,6 @@
    __DATA_CONST.__got: 0x148
    __DATA_CONST.__const: 0x1b0
    __AUTH_CONST.__cfstring: 0x260
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xac8
 +  __AUTH_CONST.__auth_got: 0xab8
    __DATA.__got_weak: 0x1b0
@@ -30,11 +29,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 92294CC3-6886-3115-BEAC-31E41FCB9382
 -  Functions: 1780
 -  Symbols:   4274
++  UUID: A604D866-67A4-3BB3-943C-675182CC70DD
 +  Functions: 1761
 +  Symbols:   4223
-   CStrings:  311
+   CStrings:  330
  
 Symbols:
 + GCC_except_table1008

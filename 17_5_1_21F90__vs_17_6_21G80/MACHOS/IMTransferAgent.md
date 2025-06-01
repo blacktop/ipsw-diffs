@@ -25,13 +25,16 @@
    __DATA_CONST.__const: 0x1b0
    __DATA_CONST.__cfstring: 0x20
 
+   - /System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CC975CFF-A556-3063-BF6F-7ABDFB4DA6C1
++  UUID: AD091D75-5A19-30F8-8E24-496BB66DF21F
    Functions: 14
 -  Symbols:   91
--  CStrings:  103
+-  CStrings:  104
 +  Symbols:   92
-+  CStrings:  104
++  CStrings:  105
  
 Symbols:
 + _objc_retain_x28

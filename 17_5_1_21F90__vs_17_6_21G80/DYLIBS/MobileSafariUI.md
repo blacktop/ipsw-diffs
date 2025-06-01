@@ -16,6 +16,15 @@
    __TEXT.__cstring: 0xbc73
    __TEXT.__dlopen_cstrs: 0x7a6
    __TEXT.__oslogstring: 0x7dc0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 29826F7F-D386-35EF-A7E2-EC953EC171FD
++  UUID: 97D5F1F5-90B2-3FB0-9141-F6B723B21CFA
+   Functions: 10863
+   Symbols:   41087
+   CStrings:  20287
 Symbols:
 + ___56-[BrowserController scene:willConnectToSession:options:]_block_invoke.897
 + ___56-[BrowserController scene:willConnectToSession:options:]_block_invoke.898

@@ -51,12 +51,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9DDD57C2-EBB5-35B8-8ACE-F051FF9FC6EA
 -  Functions: 2005
 -  Symbols:   7457
--  CStrings:  4929
+-  CStrings:  5556
++  UUID: D0C970B3-D410-3831-93CA-1CD8FEEC8F05
 +  Functions: 2008
 +  Symbols:   7474
-+  CStrings:  4953
++  CStrings:  5584
  
 Symbols:
 + -[SSRVoiceProfileManager _createAndSetNewEnrollmentId]

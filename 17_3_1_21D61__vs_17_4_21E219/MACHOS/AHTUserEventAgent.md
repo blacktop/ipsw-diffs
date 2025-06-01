@@ -18,11 +18,15 @@
    __TEXT.__const: 0x8
    __TEXT.__gcc_except_tab: 0x2c
 
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6D7E9603-85A8-3D1F-8E05-6608AF1B041D
++  UUID: 8EBF9238-8304-39FE-AE59-DEBE7DB054E4
    Functions: 100
    Symbols:   119
--  CStrings:  355
-+  CStrings:  356
+-  CStrings:  435
++  CStrings:  436
  
 CStrings:
 + "T@\"NSString\",?,R,C"

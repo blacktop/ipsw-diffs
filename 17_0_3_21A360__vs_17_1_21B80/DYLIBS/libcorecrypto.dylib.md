@@ -24,9 +24,11 @@
    - /usr/lib/system/libsystem_platform.dylib
    - /usr/lib/system/libsystem_pthread.dylib
    - /usr/lib/system/libsystem_trace.dylib
+-  UUID: FA6A21CF-2716-33B2-95CC-017830966B77
 -  Functions: 1928
 -  Symbols:   3322
 -  CStrings:  607
++  UUID: D0914245-F174-35E1-9648-F1041DFEDA53
 +  Functions: 1935
 +  Symbols:   3334
 +  CStrings:  610

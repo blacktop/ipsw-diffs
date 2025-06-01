@@ -40,13 +40,16 @@
    __DATA.__objc_classrefs: 0x4b8
    __DATA.__objc_superrefs: 0x218
 
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 5F796CA6-3D35-3CED-8F71-2A06B205A72A
++  UUID: 4E9CFA0F-CD4A-3669-8272-D0E2A9BFE002
    Functions: 1805
 -  Symbols:   483
--  CStrings:  3469
+-  CStrings:  3708
 +  Symbols:   482
-+  CStrings:  3468
++  CStrings:  3707
  
 Symbols:
 - _malloc_type_malloc

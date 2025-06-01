@@ -35,11 +35,15 @@
    __DATA.__data: 0xc0
    __DATA.__common: 0x1
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9AE070D0-0A60-3229-AAE4-24426F3A3EC6
++  UUID: A47320C6-D8AE-34FC-AFFC-AC7D948C6DBD
    Functions: 152
    Symbols:   475
--  CStrings:  177
-+  CStrings:  178
+-  CStrings:  185
++  CStrings:  186
  
 CStrings:
 + "T@\"NSString\",?,R,C"

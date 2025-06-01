@@ -30,13 +30,16 @@
    __DATA_CONST.__objc_protolist: 0x18
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F3895DB3-C683-3D70-815E-3AB9431F2CFF
++  UUID: 5CD7DE85-205E-327C-B3E4-93CDC6E94502
    Functions: 32
 -  Symbols:   72
--  CStrings:  141
+-  CStrings:  167
 +  Symbols:   68
-+  CStrings:  134
++  CStrings:  153
  
 Symbols:
 - _MarcoLogMadridLevel

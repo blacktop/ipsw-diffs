@@ -55,11 +55,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8CA262A-8A7C-30D3-9C10-A92C03336B12
 -  Functions: 6113
++  UUID: 837CD09C-9F7B-35D2-A028-3CD60A5B164D
 +  Functions: 6114
    Symbols:   2716
--  CStrings:  1384
-+  CStrings:  1385
+-  CStrings:  1413
++  CStrings:  1414
  
 CStrings:
 + "integerForKey:"

@@ -50,12 +50,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EBCBB1E5-C005-3AE3-A958-4E69CF6E2D55
 -  Functions: 1361
 -  Symbols:   389
--  CStrings:  1455
+-  CStrings:  1532
++  UUID: E5CC0521-278E-355B-B172-74F7AEB0202D
 +  Functions: 1360
 +  Symbols:   390
-+  CStrings:  1458
++  CStrings:  1535
  
 Symbols:
 + _xpc_connection_get_pid

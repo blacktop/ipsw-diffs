@@ -40,4 +40,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DFDE6DB0-9B36-39E9-801A-982448F2CB0D
++  UUID: D4869FAF-C1FA-37F9-A469-8C3585E3B782
+   Functions: 5766
+   Symbols:   564
+   CStrings:  9529
+
 ```

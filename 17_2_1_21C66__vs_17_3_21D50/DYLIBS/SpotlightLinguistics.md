@@ -25,14 +25,17 @@
 +  __DATA_CONST.__const: 0xa60
    __AUTH_CONST.__cfstring: 0x1200
    __AUTH_CONST.__const: 0x610
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__auth_got: 0x648
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 5FFD1749-18D3-31A2-A307-1CE9E76CFB80
++  UUID: 77618140-5DFE-398C-A3B5-C0344538E02A
    Functions: 417
 -  Symbols:   1236
 +  Symbols:   1238
-   CStrings:  236
+   CStrings:  380
  
 Symbols:
 + ___SITextTokenizerEnumerateTokensInString_block_invoke_2

@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/URLCompression.framework/URLCompression
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F02B844D-F1D8-3ED5-BAD2-D322C0981394
++  UUID: F07AAE1B-FFFE-3C9A-A445-C7747CA669D8
    Functions: 20
    Symbols:   71
--  CStrings:  125
-+  CStrings:  126
+-  CStrings:  134
++  CStrings:  135
  
 CStrings:
 + "T@\"NSString\",?,R,C"

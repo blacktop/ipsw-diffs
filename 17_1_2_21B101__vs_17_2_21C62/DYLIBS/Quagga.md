@@ -32,7 +32,6 @@
 +  __AUTH_CONST.__const: 0x730
    __AUTH_CONST.__cfstring: 0x3860
    __AUTH_CONST.__objc_const: 0x0
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xde8
 +  __AUTH_CONST.__auth_got: 0xdf0
    __DATA.__objc_protorefs: 0x8
@@ -42,12 +41,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libiconv.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4AAAE8DA-A0FB-3481-94A5-4B1DEA306BBC
 -  Functions: 2848
 -  Symbols:   803
--  CStrings:  1483
+-  CStrings:  1934
++  UUID: C0BA2EA8-0E68-3FCE-92D0-BEC1588381C3
 +  Functions: 2871
 +  Symbols:   804
-+  CStrings:  1485
++  CStrings:  1936
  
 Symbols:
 + _CGRectIntersectsRect

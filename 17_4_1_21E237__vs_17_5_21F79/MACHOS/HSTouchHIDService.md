@@ -60,12 +60,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E08956C5-1D27-3577-888A-2BE97FA9A246
 -  Functions: 13143
 -  Symbols:   53067
--  CStrings:  2971
+-  CStrings:  3723
++  UUID: 5A2C8FB8-3916-37A6-8F03-AFD317065ACC
 +  Functions: 13160
 +  Symbols:   53170
-+  CStrings:  2989
++  CStrings:  3745
  
 Symbols:
 + -[EmbeddedTrackpadFirmwareManager handleSetPropertyEvent:]

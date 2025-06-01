@@ -28,11 +28,15 @@
    __DATA_CONST.__objc_protorefs: 0x8
    __DATA_CONST.__objc_classrefs: 0x138
 
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CEB7EF9D-CAD6-3841-A878-9CD6B88A30E8
++  UUID: 5EC788B5-F693-370D-9140-A8E3C33B81A5
    Functions: 438
    Symbols:   180
--  CStrings:  1418
-+  CStrings:  1419
+-  CStrings:  1810
++  CStrings:  1811
  
 CStrings:
 + "serviceSwitchRequestReceivedForChatWithIdentifier:"

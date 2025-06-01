@@ -58,7 +58,6 @@
 -  __AUTH_CONST.__objc_arrayobj: 0x48
 +  __AUTH_CONST.__objc_intobj: 0xd8
 +  __AUTH_CONST.__objc_arrayobj: 0x60
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xcb0
 -  __AUTH.__objc_data: 0x728
 +  __AUTH.__objc_data: 0x778
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6E47BD39-C876-3604-BCC8-11151E5AFAB2
 -  Functions: 2867
 -  Symbols:   6172
--  CStrings:  2544
+-  CStrings:  2889
++  UUID: 22770F62-2421-3AF4-A124-6F3DFEC1A040
 +  Functions: 2875
 +  Symbols:   6200
-+  CStrings:  2552
++  CStrings:  2898
  
 Symbols:
 + +[TPSNotificationController softOptOutNotificationCount]

@@ -59,7 +59,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x2580
    __AUTH_CONST.__objc_doubleobj: 0x530
    __AUTH_CONST.__objc_dictobj: 0x2f8
-   __AUTH_CONST.__auth_ptr: 0x30
 -  __AUTH_CONST.__auth_got: 0x27f8
 +  __AUTH_CONST.__auth_got: 0x2800
    __AUTH.__objc_data: 0xc490
@@ -72,12 +71,14 @@
    - /usr/lib/libsp.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libutil.dylib
+-  UUID: 2641B910-A30A-3EC9-8918-14BA9119E023
 -  Functions: 56649
 -  Symbols:   192951
--  CStrings:  76944
+-  CStrings:  89362
++  UUID: 31D18B73-D117-3A20-BB4C-88EEBA77D217
 +  Functions: 56670
 +  Symbols:   193027
-+  CStrings:  76977
++  CStrings:  89407
  
 Symbols:
 + +[UISApplicationSupportDisplayEdgeInfo(SpringBoard) sb_displayEdgeInfoForScreenTypeConsideringCurrentDevice:]

@@ -31,12 +31,14 @@
    - /usr/lib/libSMC.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 48A99C43-187D-3B78-AEBE-8F6D387861A9
 -  Functions: 22
 -  Symbols:   213
--  CStrings:  41
+-  CStrings:  44
++  UUID: 50423A7C-C729-3286-8CE4-4D451F47BB9E
 +  Functions: 45
 +  Symbols:   335
-+  CStrings:  46
++  CStrings:  51
  
 Symbols:
 + GCC_except_table18

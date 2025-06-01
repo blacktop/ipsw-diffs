@@ -35,13 +35,11 @@
    __DATA_CONST.__objc_selrefs: 0x220
 -  __AUTH_CONST.__const: 0x4180
 -  __AUTH_CONST.__cfstring: 0x13980
--  __AUTH_CONST.__auth_ptr: 0x38
 +  __DATA_CONST.__objc_protorefs: 0x8
 +  __DATA_CONST.__objc_classrefs: 0x78
 +  __DATA_CONST.__objc_superrefs: 0x8
 +  __AUTH_CONST.__const: 0x41b0
 +  __AUTH_CONST.__cfstring: 0x13ac0
-+  __AUTH_CONST.__auth_ptr: 0x40
    __AUTH_CONST.__objc_intobj: 0x78
    __AUTH_CONST.__objc_const: 0x48
 -  __AUTH_CONST.__auth_got: 0x1800
@@ -78,12 +76,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 789E8B80-B08C-3DE6-8F3C-4C3EC521B4B8
 -  Functions: 5083
 -  Symbols:   12228
--  CStrings:  4372
+-  CStrings:  6880
++  UUID: 8BA1C4DB-67C5-38AB-8D73-BD159BF2C574
 +  Functions: 5100
 +  Symbols:   12282
-+  CStrings:  4436
++  CStrings:  6954
  
 Symbols:
 + _CC_SHA1

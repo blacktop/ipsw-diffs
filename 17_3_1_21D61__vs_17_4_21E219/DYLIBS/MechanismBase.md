@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AA308E96-99C2-36A9-B5BB-7DC1DC55D216
 -  Functions: 369
 -  Symbols:   1453
--  CStrings:  874
+-  CStrings:  943
++  UUID: 613C5991-D4D5-3243-8C5C-5EAB7F20BEAA
 +  Functions: 371
 +  Symbols:   1478
-+  CStrings:  877
++  CStrings:  946
  
 Symbols:
 + -[MechanismKofN initWithK:ofSubmechanisms:serial:request:].cold.1

@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 379F06BA-8A78-3EC5-943A-02B61999ED98
 -  Functions: 92
 -  Symbols:   577
--  CStrings:  498
+-  CStrings:  560
++  UUID: C0AB0772-E6C5-387A-8C1B-A4F5D9353499
 +  Functions: 93
 +  Symbols:   573
-+  CStrings:  495
++  CStrings:  558
  
 Symbols:
 + _PDULocalizedNameForAppRecord

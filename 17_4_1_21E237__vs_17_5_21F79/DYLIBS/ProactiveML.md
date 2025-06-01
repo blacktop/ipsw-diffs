@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 232422A8-6174-3F61-BA60-36861D028728
++  UUID: A6321379-F1DA-34DB-84EC-B16047312B46
+   Functions: 1526
+   Symbols:   5233
+   CStrings:  3039
+
 ```

@@ -72,7 +72,6 @@
 -  __AUTH_CONST.__objc_const: 0x4cf8
 +  __AUTH_CONST.__objc_const: 0x4d40
    __AUTH_CONST.__objc_arrayobj: 0x120
--  __AUTH_CONST.__auth_ptr: 0x68
 -  __AUTH_CONST.__auth_got: 0x11e8
 -  __AUTH.__objc_data: 0x26f8
 -  __AUTH.__data: 0xf8
@@ -84,7 +83,6 @@
 -  __DATA.__bss: 0x2b20
 -  __DATA.__common: 0x280
 -  __DATA_DIRTY.__objc_data: 0x1d98
-+  __AUTH_CONST.__auth_ptr: 0x70
 +  __AUTH_CONST.__auth_got: 0x1200
 +  __AUTH.__objc_data: 0x2748
 +  __AUTH.__data: 0x100
@@ -100,12 +98,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 61AE21E6-ED65-348D-B67A-3FD5F0AE3D97
 -  Functions: 8222
 -  Symbols:   2086
--  CStrings:  13266
+-  CStrings:  14671
++  UUID: 1B643C8A-D42A-33CB-8814-72AA70EA83A4
 +  Functions: 8255
 +  Symbols:   2115
-+  CStrings:  13380
++  CStrings:  14807
  
 Symbols:
 + _IMChatItemsUpdateHoldReasonCollectionViewUpdateInProgress

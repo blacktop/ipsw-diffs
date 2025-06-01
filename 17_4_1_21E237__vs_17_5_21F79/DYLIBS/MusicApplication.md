@@ -32,13 +32,16 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__bss: 0x27
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B9EDF641-B157-3A72-8D44-A26CEF52F196
++  UUID: F0EA3CCA-E8C9-338A-83F4-A02ABB7DA547
    Functions: 764
 -  Symbols:   2986
--  CStrings:  1196
+-  CStrings:  1834
 +  Symbols:   2987
-+  CStrings:  1197
++  CStrings:  1836
  
 Symbols:
 + ___block_descriptor_96_e8_32s40s48s56s64s72s80s88s_e14_"NSArray"8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8

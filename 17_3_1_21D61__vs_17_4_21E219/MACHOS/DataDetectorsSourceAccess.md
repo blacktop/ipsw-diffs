@@ -31,11 +31,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF623B92-1E25-3DDB-AE7A-E0B978EE0C51
++  UUID: A2FD13C8-D3AF-33B2-950E-018BD82B5C0F
    Functions: 3
    Symbols:   33
--  CStrings:  70
-+  CStrings:  71
+-  CStrings:  71
++  CStrings:  72
  
 CStrings:
 + "T@\"NSString\",?,R,C"

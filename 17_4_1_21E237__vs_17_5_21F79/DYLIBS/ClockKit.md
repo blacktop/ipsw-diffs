@@ -50,13 +50,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8453CCA-FD9D-35CC-BA68-C6CAA469EA59
++  UUID: A0D7EAB7-CC8E-3ED1-ADFC-82C2BE93C11B
    Functions: 3749
 -  Symbols:   11643
--  CStrings:  3753
+-  CStrings:  4372
 +  Symbols:   11644
-+  CStrings:  3754
++  CStrings:  4373
  
 Symbols:
 + _CLKLocaleIs24HourMode.cachedIs24Hour

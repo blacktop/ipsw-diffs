@@ -28,11 +28,15 @@
    __DATA.__data: 0x188
    __DATA_DIRTY.__objc_data: 0x190
 
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 77F182B7-BF1F-3730-8012-95BA9A2BD773
++  UUID: 3721B07E-7D26-3710-8F2D-26FB6DFC5BA2
    Functions: 85
    Symbols:   426
--  CStrings:  250
-+  CStrings:  251
+-  CStrings:  277
++  CStrings:  278
  
 CStrings:
 + "T@\"NSString\",?,R,C"

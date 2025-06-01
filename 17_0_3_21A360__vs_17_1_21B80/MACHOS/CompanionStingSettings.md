@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/SOS.framework/SOS
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 241549C4-12EC-3370-97FD-313D54A3CCD9
 -  Functions: 98
 -  Symbols:   199
--  CStrings:  389
+-  CStrings:  525
++  UUID: B0D1913E-0DB2-3518-A195-D567D29E03B1
 +  Functions: 83
 +  Symbols:   107
-+  CStrings:  280
++  CStrings:  336
  
 Symbols:
 - _CSLAlertServiceIsApplePay

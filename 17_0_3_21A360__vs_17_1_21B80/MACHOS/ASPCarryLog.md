@@ -40,11 +40,15 @@
    __DATA.__objc_selrefs: 0xd18
    __DATA.__objc_classrefs: 0x148
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/local/lib/libNVMeCTL.dylib
+-  UUID: 146A008B-A2C3-34E3-932F-6A4C9D748470
++  UUID: EFDB89A1-A3EA-3708-B06E-E876F05AFFAA
    Functions: 608
    Symbols:   261
--  CStrings:  7694
-+  CStrings:  7699
+-  CStrings:  12355
++  CStrings:  12364
  
 CStrings:
 + "%d cur_err_hdr->numFailures\n"

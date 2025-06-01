@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 52B71F46-7B46-3B0B-A8E0-DB51CD903976
 -  Functions: 290
 -  Symbols:   171
--  CStrings:  788
+-  CStrings:  878
++  UUID: AB8949FA-129B-3F89-B3F7-DE80F6FD7B73
 +  Functions: 313
 +  Symbols:   174
-+  CStrings:  807
++  CStrings:  902
  
 Symbols:
 + _OBJC_CLASS_$_NDODeviceSection

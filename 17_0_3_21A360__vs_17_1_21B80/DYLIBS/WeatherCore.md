@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_const: 0x5e0
    __AUTH_CONST.__objc_arrayobj: 0x18
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x4a8
 -  __AUTH_CONST.__auth_got: 0x1d50
 +  __AUTH_CONST.__auth_got: 0x1d60
    __AUTH.__data: 0xdd8
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14BBC7D9-128E-304F-97B9-201140699414
 -  Functions: 12353
 -  Symbols:   7048
--  CStrings:  2548
+-  CStrings:  2574
++  UUID: 84AF4C76-DAA9-34AE-B173-BC3DC0016E72
 +  Functions: 12386
 +  Symbols:   7054
-+  CStrings:  2550
++  CStrings:  2576
  
 Symbols:
 + _associated conformance 11WeatherCore20ReverseGeocodeSourceOSHAASQ

@@ -57,11 +57,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BBE9C3E3-2980-3ADF-B489-AEF8EF5DE8C1
 -  Functions: 1514
++  UUID: F9742F65-8242-35D4-A4EB-40CF3A530562
 +  Functions: 1516
    Symbols:   936
--  CStrings:  3854
-+  CStrings:  3861
+-  CStrings:  4520
++  CStrings:  4528
  
 Symbols:
 + _MDItemRunnableShortcutsLNPropertyIdentifier

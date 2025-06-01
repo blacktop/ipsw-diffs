@@ -74,7 +74,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x130
    __AUTH_CONST.__objc_arrayobj: 0xa8
    __AUTH_CONST.__objc_intobj: 0x48
--  __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xd88
 -  __AUTH.__objc_data: 0x2b60
 -  __AUTH.__data: 0x208
@@ -84,7 +83,6 @@
 -  __DATA.__objc_ivar: 0xd48
 -  __DATA.__data: 0x28e8
 -  __DATA.__bss: 0x650
-+  __AUTH_CONST.__auth_ptr: 0x60
 +  __AUTH_CONST.__auth_got: 0xdb8
 +  __AUTH.__objc_data: 0x2b98
 +  __AUTH.__data: 0x2d8
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7B9C7163-B90F-3370-9AE2-A928D1E6AD4A
 -  Functions: 5711
 -  Symbols:   20522
--  CStrings:  8419
+-  CStrings:  8809
++  UUID: 6CC237B5-DA91-3B92-88B0-DFF78164DAC7
 +  Functions: 5761
 +  Symbols:   20612
-+  CStrings:  8461
++  CStrings:  8851
  
 Symbols:
 + +[SearchUIShortcutsImage imageFromContexualActionIcon:]

@@ -25,4 +25,13 @@
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 089314C9-4EDA-32D7-B71E-FDB82B76C222
++  UUID: 3437769E-0792-3A22-9F83-3BC193DBFF1D
+   Functions: 20
+   Symbols:   76
+   CStrings:  268
+
 ```

@@ -43,11 +43,15 @@
    __DATA.__objc_data: 0x420
    __DATA.__data: 0xb68
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F170E94F-0139-31CA-ADEA-FCCCDDBA61B6
++  UUID: 8B9B221B-9A13-31F0-AE1E-BE17293F25F6
    Functions: 733
    Symbols:   180
--  CStrings:  390
-+  CStrings:  391
+-  CStrings:  416
++  CStrings:  417
  
 CStrings:
 + "T@\"NSString\",?,R,C"

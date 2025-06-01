@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66B58CF3-733B-31D8-BFED-CF73AA9D122A
 -  Functions: 7140
 -  Symbols:   17592
--  CStrings:  11706
+-  CStrings:  14655
++  UUID: 079978C2-ED67-30A3-ACA7-2358F5F2A19B
 +  Functions: 7163
 +  Symbols:   17650
-+  CStrings:  11745
++  CStrings:  14705
  
 Symbols:
 + -[AXDisplayController reduceWhitePointSpecifier]

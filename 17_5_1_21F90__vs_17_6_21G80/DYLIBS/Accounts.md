@@ -35,13 +35,16 @@
    __AUTH_CONST.__const: 0x3a0
    __AUTH_CONST.__objc_arrayobj: 0x60
 
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C429D534-12AB-36AE-A4C0-64F87CCA331E
++  UUID: B40CA10F-777A-3AAC-856D-6D863248F8D9
    Functions: 1862
 -  Symbols:   6242
--  CStrings:  2742
+-  CStrings:  3298
 +  Symbols:   6243
-+  CStrings:  2743
++  CStrings:  3300
  
 Symbols:
 + _ACAccountPropertyGrantedDataclasses

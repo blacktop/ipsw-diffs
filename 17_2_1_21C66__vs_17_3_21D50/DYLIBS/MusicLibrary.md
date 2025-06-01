@@ -31,9 +31,9 @@
    __DATA_CONST.__const: 0x9ce0
    __DATA_CONST.__objc_classlist: 0x6d8
 
+   __DATA_CONST.__objc_arraydata: 0xf10
    __AUTH_CONST.__const: 0x11ff8
    __AUTH_CONST.__objc_const: 0x5560
-   __AUTH_CONST.__auth_ptr: 0x28
 -  __AUTH_CONST.__cfstring: 0x241a0
 +  __AUTH_CONST.__cfstring: 0x241c0
    __AUTH_CONST.__objc_arrayobj: 0x1fb0
@@ -43,12 +43,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D85793CD-923C-3C0A-9D9E-262A01265DAC
 -  Functions: 7990
 -  Symbols:   24555
--  CStrings:  12125
+-  CStrings:  16746
++  UUID: 33BAA9AB-1ED3-3BDF-9093-682627E1ED46
 +  Functions: 7992
 +  Symbols:   24560
-+  CStrings:  12127
++  CStrings:  16749
  
 Symbols:
 + -[ML3MediaLibraryWriter cancelActiveTransationAndDatabaseOperationsForClient:]

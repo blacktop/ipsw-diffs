@@ -54,11 +54,13 @@
    - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3CD3C505-41DB-38B8-BBBA-1935F5F8666E
 -  Functions: 222
++  UUID: 9275D6A9-0441-3749-A946-55C4095743C9
 +  Functions: 223
    Symbols:   247
--  CStrings:  702
-+  CStrings:  706
+-  CStrings:  836
++  CStrings:  842
  
 Symbols:
 + _PCSIdentitySetCopyCurrentIdentityPointer

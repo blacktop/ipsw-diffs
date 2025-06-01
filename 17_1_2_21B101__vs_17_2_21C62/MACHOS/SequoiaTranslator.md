@@ -128,12 +128,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 64C849F5-8143-3EA8-924A-C6F6C09862D6
 -  Functions: 12837
 -  Symbols:   2511
--  CStrings:  3232
+-  CStrings:  3234
++  UUID: B5891917-45D0-3410-ABEB-41886882ADB7
 +  Functions: 14152
 +  Symbols:   2870
-+  CStrings:  3518
++  CStrings:  3520
  
 Symbols:
 + _$s10AppIntents09_SupportsA12DependenciesMp

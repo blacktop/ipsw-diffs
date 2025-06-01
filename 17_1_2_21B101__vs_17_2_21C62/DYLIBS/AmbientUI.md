@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53A1F7C6-C1C9-3960-AA5E-9C852971FC15
 -  Functions: 1344
 -  Symbols:   5462
--  CStrings:  3143
+-  CStrings:  3372
++  UUID: EF4018FE-1B37-31B3-B826-F4A02F344B36
 +  Functions: 1345
 +  Symbols:   5465
-+  CStrings:  3146
++  CStrings:  3375
  
 Symbols:
 + -[AMUIInfographViewController iconManager:userInterfaceStyleForConfigurationOfIconView:]

@@ -82,12 +82,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 306DA668-BA5F-3FC5-9F6E-0EA5A5596FF2
 -  Functions: 40286
 -  Symbols:   240203
--  CStrings:  3751
+-  CStrings:  3802
++  UUID: 74DFF1A1-A46B-3D3D-9B7A-FF4207D8D411
 +  Functions: 39037
 +  Symbols:   233347
-+  CStrings:  3798
++  CStrings:  3848
  
 Symbols:
 + $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo08INHangUpE6IntentCRs_rlE11transformer13sharedGlobals3app08previousL00qL8ResponseACyAdE_pAGGAD06SharedO9Providing_p_0A13AppResolution0U0CSgSo8INIntentCSgSo0wR0CSgtFZAgdE_pKcfU_TA.56

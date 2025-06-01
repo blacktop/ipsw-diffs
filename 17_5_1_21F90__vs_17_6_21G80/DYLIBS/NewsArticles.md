@@ -38,11 +38,15 @@
    __DATA_CONST.__objc_classrefs: 0x698
    __DATA_CONST.__objc_superrefs: 0x58
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 58FDE05E-C66D-3144-9E4E-887891F92726
++  UUID: B56D6279-9464-3F8E-BD80-D5F01002354A
    Functions: 20233
    Symbols:   8281
--  CStrings:  5905
-+  CStrings:  5913
+-  CStrings:  5984
++  CStrings:  5992
  
 CStrings:
 + "_sceneIdentifier"

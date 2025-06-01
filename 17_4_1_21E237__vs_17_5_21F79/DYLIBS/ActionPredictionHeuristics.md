@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ActionPredictionHeuristicsInternal.framework/ActionPredictionHeuristicsInternal
 
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C0BBDBDD-B7E7-3856-90A0-3A5FB5BDE628
++  UUID: 5C236AD8-E8F7-3697-9CA6-D5E1B8465260
+   Functions: 144
+   Symbols:   713
+   CStrings:  306
+
 ```

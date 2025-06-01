@@ -39,10 +39,12 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E493AF5-EAFD-3F6A-9B1F-ABAB605987CE
 -  Functions: 110
++  UUID: 3D11AD32-C0D9-330B-99B0-D0CCD7791B7B
 +  Functions: 111
    Symbols:   137
-   CStrings:  383
+   CStrings:  409
  
 CStrings:
 + "acquireLockAssertion"

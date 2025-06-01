@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 
+   - /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B6658B81-D416-30FE-B62E-E7F9592D8219
++  UUID: 07993E7A-C2C8-338C-ACE5-8CCEC06284DA
+   Functions: 551
+   Symbols:   2273
+   CStrings:  1596
+
 ```

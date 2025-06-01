@@ -81,12 +81,14 @@
    - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E2C3EE84-75E6-345D-9AB9-0EE68678BD7C
 -  Functions: 2595
 -  Symbols:   7596
--  CStrings:  4441
+-  CStrings:  6155
++  UUID: F5356497-F3C6-3154-9A2C-9F28969939D6
 +  Functions: 2665
 +  Symbols:   7798
-+  CStrings:  4584
++  CStrings:  6355
  
 Symbols:
 + +[MAAutoAsset logMAAutoAssetVersion]

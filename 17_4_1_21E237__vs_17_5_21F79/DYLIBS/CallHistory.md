@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CE413435-3FF7-376E-89F0-2E02DC3D866E
 -  Functions: 1204
 -  Symbols:   4428
--  CStrings:  2158
+-  CStrings:  2455
++  UUID: 962FB91D-AB10-3147-8B5B-A20853FD8164
 +  Functions: 1208
 +  Symbols:   4436
-+  CStrings:  2161
++  CStrings:  2458
  
 Symbols:
 + -[CHManager addArrayToCallHistory:]

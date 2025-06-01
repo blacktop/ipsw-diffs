@@ -27,11 +27,13 @@
    - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
    - /System/Library/PrivateFrameworks/Quagga.framework/Quagga
    - /usr/lib/libSystem.B.dylib
+-  UUID: 54B35A3F-7A15-3B87-BB95-F9EC3ACD790B
 -  Functions: 19
 -  Symbols:   239
++  UUID: E2C9206D-FC9C-344A-97BD-F80576595362
 +  Functions: 20
 +  Symbols:   246
-   CStrings:  31
+   CStrings:  38
  
 Symbols:
 + _MRCContextCreateWithOptions

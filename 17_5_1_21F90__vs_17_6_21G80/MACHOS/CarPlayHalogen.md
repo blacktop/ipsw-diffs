@@ -12,4 +12,13 @@
    __TEXT.__const: 0x78
    __TEXT.__cstring: 0x1148
 
+   - /System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 2EA33D39-C585-3AA8-94A7-C6FEEBA76D21
++  UUID: 568ADFB2-71EB-32C0-AE2D-0F76BF5AEEA7
+   Functions: 42
+   Symbols:   117
+   CStrings:  101
+
 ```

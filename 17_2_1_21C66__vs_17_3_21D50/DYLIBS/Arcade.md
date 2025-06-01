@@ -18,11 +18,13 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8AB34C66-CC66-3AA7-A31E-C6C90298DAD3
 -  Functions: 605
 -  Symbols:   2403
++  UUID: 3911487B-01CD-3C6A-B6F0-36FD52912A1B
 +  Functions: 604
 +  Symbols:   2401
-   CStrings:  801
+   CStrings:  1204
  
 Symbols:
 - -[CardHeaderButtonAccessibility accessibilityIdentifier]

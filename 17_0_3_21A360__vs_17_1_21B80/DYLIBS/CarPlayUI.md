@@ -51,7 +51,6 @@
    __AUTH_CONST.__cfstring: 0xbc0
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_arrayobj: 0xa8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x420
 -  __AUTH.__objc_data: 0x10f8
 +  __AUTH_CONST.__auth_got: 0x428
@@ -71,12 +70,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4C4A482-3EBE-3E43-A16A-25EB2DA1B84D
 -  Functions: 973
 -  Symbols:   3976
--  CStrings:  1920
+-  CStrings:  2014
++  UUID: 6B354514-764B-3E7A-85FE-A6D1CD944FEC
 +  Functions: 1024
 +  Symbols:   4151
-+  CStrings:  1982
++  CStrings:  2076
  
 Symbols:
 + +[CPUIImageRowCellConfiguration configurationWithText:artworkCatalogs:imageTitles:selectGridItemBlock:selectTitleBlock:showActivityIndicator:enabled:]

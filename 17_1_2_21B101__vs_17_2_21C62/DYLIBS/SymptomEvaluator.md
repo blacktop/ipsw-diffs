@@ -56,7 +56,6 @@
 -  __AUTH_CONST.__objc_dictobj: 0x870
 +  __AUTH_CONST.__objc_dictobj: 0x8c0
    __AUTH_CONST.__objc_intobj: 0x660
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_floatobj: 0x30
 -  __AUTH_CONST.__auth_got: 0x1318
@@ -74,12 +73,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libspindump.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: D36CDE19-4A77-32B7-8E91-19FF2992E35C
 -  Functions: 10917
 -  Symbols:   35366
--  CStrings:  21853
+-  CStrings:  25364
++  UUID: 56742706-7080-3F44-B4FA-8D022888D3D7
 +  Functions: 10938
 +  Symbols:   35442
-+  CStrings:  21900
++  CStrings:  25426
  
 Symbols:
 + -[COSMStateSummary setWifiAlwaysOutrank:]

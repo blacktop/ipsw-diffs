@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74A88436-0288-317C-AC98-730A9A862D86
++  UUID: 84054F56-5BDC-3082-A6D6-30F94B4CA80E
+   Functions: 2609
+   Symbols:   9826
+   CStrings:  5569
+
 ```

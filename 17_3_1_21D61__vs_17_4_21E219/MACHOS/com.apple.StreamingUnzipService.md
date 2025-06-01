@@ -67,12 +67,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 56274AB2-5278-317B-B4CE-FD74B43EA192
 -  Functions: 503
 -  Symbols:   331
--  CStrings:  1134
+-  CStrings:  1422
++  UUID: D4327EF8-7837-31A4-83A9-C5B90FAA63E5
 +  Functions: 311
 +  Symbols:   222
-+  CStrings:  1192
++  CStrings:  1370
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

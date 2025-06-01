@@ -30,19 +30,21 @@
    __DATA_CONST.__objc_arraydata: 0x8
 -  __AUTH_CONST.__const: 0x2fd18
 +  __AUTH_CONST.__const: 0x2fc98
-   __AUTH_CONST.__auth_ptr: 0x28
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__cfstring: 0x160
 
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib
+-  UUID: 20FBFAD5-CEDF-3839-859B-4B51BAD0A7CF
 -  Functions: 22511
 -  Symbols:   55108
--  CStrings:  16700
+-  CStrings:  16711
++  UUID: 469A1B47-FC91-385A-B879-5DB1A4294F57
 +  Functions: 22501
 +  Symbols:   55082
-+  CStrings:  16704
++  CStrings:  16715
  
 Symbols:
 + GCC_except_table1022

@@ -44,7 +44,6 @@
 +  __DATA_CONST.__objc_protorefs: 0x40
 +  __DATA_CONST.__objc_classrefs: 0xf0
    __AUTH_CONST.__const: 0x2ea0
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__objc_const: 0x118
    __AUTH_CONST.__cfstring: 0x20
 -  __AUTH_CONST.__auth_got: 0xb38
@@ -69,12 +68,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC63AD7E-D4AB-3BAD-8FFE-16421EF65FC4
 -  Functions: 2104
 -  Symbols:   901
--  CStrings:  304
+-  CStrings:  305
++  UUID: 99A11484-7BA6-3A60-82F7-552D35E61D15
 +  Functions: 2113
 +  Symbols:   900
-+  CStrings:  323
++  CStrings:  324
  
 Symbols:
 + __PROTOCOLS__TtC14FamilyControlsP33_0D91E255A9B7FD04D356B9AD8C2591FD25AuthorizationCenterClient.54

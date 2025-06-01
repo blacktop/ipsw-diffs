@@ -40,18 +40,20 @@
 -  __AUTH_CONST.__cfstring: 0x14a60
 +  __AUTH_CONST.__cfstring: 0x14a20
    __AUTH_CONST.__const: 0x2bb0
-   __AUTH_CONST.__auth_ptr: 0x60
    __AUTH_CONST.__objc_intobj: 0x750
+   __AUTH_CONST.__objc_const: 0x5150
 
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: ADE95708-9040-3165-A222-C39B7CF67EAF
 -  Functions: 7532
 -  Symbols:   24170
--  CStrings:  9601
+-  CStrings:  12244
++  UUID: 4C728505-67EC-384B-9B20-35BD409E3B59
 +  Functions: 7533
 +  Symbols:   24173
-+  CStrings:  9602
++  CStrings:  12243
  
 Symbols:
 + -[_LSDefaults isUserServer]

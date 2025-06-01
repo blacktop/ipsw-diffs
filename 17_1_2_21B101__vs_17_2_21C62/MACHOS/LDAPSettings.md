@@ -23,6 +23,15 @@
    __TEXT.__unwind_info: 0xfc
    __DATA_CONST.__auth_got: 0x188
    __DATA_CONST.__got: 0x68
+
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C86DCE6-733D-35CE-B4B8-600574FD5379
++  UUID: 3C826732-C41F-32F9-A688-C05857E57511
+   Functions: 52
+   Symbols:   94
+   CStrings:  339
 CStrings:
 + "@\"<CalCancelable>\""
 + "T@\"<CalCancelable>\",&,N,V_confirmDeleteSettingsSheetOrAlert"

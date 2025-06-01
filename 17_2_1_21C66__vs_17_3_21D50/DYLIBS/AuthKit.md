@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__objc_intobj: 0x210
    __AUTH_CONST.__objc_arrayobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x168
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x6a0
 -  __AUTH.__objc_data: 0x1a90
 +  __AUTH_CONST.__auth_got: 0x6a8
@@ -74,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1AA08F1F-82A7-3859-9EAA-4C5518C3AFAC
 -  Functions: 5134
 -  Symbols:   16680
--  CStrings:  7413
+-  CStrings:  8933
++  UUID: 73FB6887-E3C4-3BD9-BABF-C699A0E7EED4
 +  Functions: 5228
 +  Symbols:   16990
-+  CStrings:  7578
++  CStrings:  9119
  
 Symbols:
 + +[AKBiometricRatchetUtility armingMethodFromRatchetResult:]

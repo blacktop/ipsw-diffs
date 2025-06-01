@@ -41,7 +41,6 @@
 +  __AUTH_CONST.__const: 0x3a0
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x4d8
 +  __AUTH_CONST.__auth_got: 0x4e0
    __AUTH.__objc_data: 0x780
@@ -60,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A09C1B6-50EA-3FCF-B357-A29073CEC8A6
 -  Functions: 1432
 -  Symbols:   4789
--  CStrings:  2366
+-  CStrings:  2703
++  UUID: A42BC6F2-99D4-3B27-82C5-896E4E62F72B
 +  Functions: 1434
 +  Symbols:   4797
-+  CStrings:  2368
++  CStrings:  2705
  
 Symbols:
 + +[CDPUtilities isVirtualMachine]

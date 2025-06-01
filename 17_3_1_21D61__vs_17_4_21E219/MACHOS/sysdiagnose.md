@@ -48,11 +48,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 9558F517-7577-3E51-B84D-242CC950F381
 -  Functions: 67
 -  Symbols:   149
+-  CStrings:  285
++  UUID: B4CE9F6D-B20D-3DAE-95AE-2DCF303690A8
 +  Functions: 66
 +  Symbols:   148
-   CStrings:  232
++  CStrings:  286
  
 Symbols:
 - ___assert_rtn

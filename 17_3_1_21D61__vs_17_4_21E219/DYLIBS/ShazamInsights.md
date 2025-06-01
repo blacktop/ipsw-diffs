@@ -56,12 +56,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 4E479987-648A-3A72-B54D-CD400D0FE91A
 -  Functions: 250
 -  Symbols:   1216
--  CStrings:  651
+-  CStrings:  721
++  UUID: 6B0A5210-D225-32B9-8321-A7F507DD3297
 +  Functions: 268
 +  Symbols:   1265
-+  CStrings:  655
++  CStrings:  723
  
 Symbols:
 + -[SHInsightsConfiguration artistsCachedDataMaxAgeWithCompletionHandler:]

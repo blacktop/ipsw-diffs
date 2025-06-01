@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__const: 0xfd8
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__objc_dictobj: 0x28
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7a8
 +  __AUTH_CONST.__auth_got: 0x7b8
    __DATA.__objc_ivar: 0x80
@@ -66,12 +65,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A988F52D-61E6-32B1-BE80-404A07E25891
 -  Functions: 2299
 -  Symbols:   6026
--  CStrings:  933
+-  CStrings:  1054
++  UUID: 81571455-432A-3AE1-B39D-03D3797760FA
 +  Functions: 2317
 +  Symbols:   6082
-+  CStrings:  956
++  CStrings:  1085
  
 Symbols:
 + +[RemoteConfigurationController convertDyldVersionToString:]

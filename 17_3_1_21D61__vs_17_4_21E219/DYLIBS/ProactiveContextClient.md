@@ -44,11 +44,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB8DC83D-0ECB-388C-BFAE-3FC94405D21D
++  UUID: 308DD472-1466-32D7-B902-FC041B56808B
    Functions: 1257
    Symbols:   4813
--  CStrings:  1996
-+  CStrings:  1997
+-  CStrings:  2241
++  CStrings:  2242
  
 CStrings:
 + "T@\"NSString\",?,R,C"

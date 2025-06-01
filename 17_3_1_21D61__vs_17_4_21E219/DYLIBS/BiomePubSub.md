@@ -47,7 +47,6 @@
 +  __AUTH_CONST.__const: 0x7b8
    __AUTH_CONST.__objc_intobj: 0xa8
 -  __AUTH_CONST.__const: 0x798
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x4f0
 -  __DATA.__objc_protorefs: 0x50
 -  __DATA.__objc_classrefs: 0x380
@@ -72,12 +71,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: EB7B7956-BDD8-3703-880E-055FDDAF5C41
 -  Functions: 2419
 -  Symbols:   7854
--  CStrings:  1679
+-  CStrings:  1796
++  UUID: 8B7BB9D5-562D-3A02-BA05-F8BB5078E864
 +  Functions: 2413
 +  Symbols:   7846
-+  CStrings:  1685
++  CStrings:  1804
  
 Symbols:
 + _BPSPubSubErrorDomain

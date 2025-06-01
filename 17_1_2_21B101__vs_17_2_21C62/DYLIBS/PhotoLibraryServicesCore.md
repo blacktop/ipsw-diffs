@@ -45,13 +45,16 @@
    __DATA_DIRTY.__data: 0x8
    __DATA_DIRTY.__bss: 0x518
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 66BA70C9-0E50-344D-94AE-4BD4C5BCE42C
++  UUID: 618F597D-0744-3519-B763-7CB0ED06BDA5
    Functions: 3381
 -  Symbols:   11654
--  CStrings:  6559
+-  CStrings:  8560
 +  Symbols:   11650
-+  CStrings:  6561
++  CStrings:  8565
  
 Symbols:
 + _PL_gKTXFileIdentifier.10379

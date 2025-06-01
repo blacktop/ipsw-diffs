@@ -32,7 +32,11 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x20
 
+   - /System/Library/Frameworks/PDFKit.framework/PDFKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 95B35AB8-2D54-3A38-AFBF-8F7CA26D5922
++  UUID: 57063540-18E1-3B8F-A0B2-AE510A2BD2FF
    Functions: 4
    Symbols:   17
 -  CStrings:  52

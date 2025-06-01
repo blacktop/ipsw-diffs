@@ -42,11 +42,15 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0xb0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F18403D-DED2-3F22-9724-13A55C5E532A
++  UUID: E61EC442-D304-3E6C-A927-88B83D7DD2DD
    Functions: 194
    Symbols:   915
--  CStrings:  630
-+  CStrings:  634
+-  CStrings:  801
++  CStrings:  808
  
 CStrings:
 + "ENHANCED_LOGGING_ICLOUDDRIVE"

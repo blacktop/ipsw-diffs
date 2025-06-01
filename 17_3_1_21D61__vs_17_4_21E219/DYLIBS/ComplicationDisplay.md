@@ -46,7 +46,6 @@
 -  __AUTH_CONST.__const: 0x1e20
 +  __AUTH_CONST.__const: 0x1dd0
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xa98
 +  __AUTH_CONST.__auth_got: 0xaa8
    __AUTH.__objc_data: 0x1588
@@ -72,12 +71,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 40B9BD27-98F6-3881-B0AE-A3C173F515BD
 -  Functions: 1861
 -  Symbols:   3013
--  CStrings:  1065
+-  CStrings:  1085
++  UUID: BC531D23-04D4-32A4-A7BC-C49CF46A44F4
 +  Functions: 1853
 +  Symbols:   3003
-+  CStrings:  1067
++  CStrings:  1087
  
 Symbols:
 + __PROTOCOLS__TtC19ComplicationDisplay21ApricotNamedImageView.13

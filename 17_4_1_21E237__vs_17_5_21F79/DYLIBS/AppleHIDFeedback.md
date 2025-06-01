@@ -70,12 +70,14 @@
    - /System/Library/PrivateFrameworks/HID.framework/HID
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 060FDE5E-8014-3E55-92C8-D086FFED0A11
 -  Functions: 38
 -  Symbols:   231
--  CStrings:  114
+-  CStrings:  127
++  UUID: FA2F1622-9DD9-3DE3-B307-54F9786BCA35
 +  Functions: 89
 +  Symbols:   441
-+  CStrings:  280
++  CStrings:  325
  
 Symbols:
 + -[AHFManager pencilController]

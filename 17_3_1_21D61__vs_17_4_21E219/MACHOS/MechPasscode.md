@@ -31,4 +31,13 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x6a
 
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A43AE88B-0E6B-3553-BCFE-B453A8491974
++  UUID: EAC4AAAF-9E4F-3081-B56C-F247173CE3F6
+   Functions: 295
+   Symbols:   303
+   CStrings:  437
+
 ```

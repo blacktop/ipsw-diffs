@@ -40,8 +40,8 @@
    __AUTH_CONST.__const: 0x5e88
    __AUTH_CONST.__objc_intobj: 0x42f0
 
+   __AUTH_CONST.__objc_doubleobj: 0x100
    __AUTH_CONST.__objc_arrayobj: 0x600
-   __AUTH_CONST.__auth_ptr: 0x70
    __AUTH_CONST.__auth_got: 0x1280
 -  __AUTH.__objc_data: 0xcc78
 +  __AUTH.__objc_data: 0xcc28
@@ -57,13 +57,16 @@
    __DATA_DIRTY.__common: 0xe8
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6B4B0FB5-85F8-3FDF-B77F-9473F9958EA6
++  UUID: 94D9F2DB-6E38-3206-A392-2F0857896DA9
    Functions: 18427
 -  Symbols:   52784
--  CStrings:  21102
+-  CStrings:  26914
 +  Symbols:   52786
-+  CStrings:  21104
++  CStrings:  26918
  
 Symbols:
 + +[HKFeatureAvailabilityRequirementBloodOxygenRecordingsAreEnabled requirementIdentifier]

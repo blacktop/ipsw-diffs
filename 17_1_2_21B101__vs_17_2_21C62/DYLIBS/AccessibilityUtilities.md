@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__const: 0x2d58
 +  __AUTH_CONST.__cfstring: 0x143e0
    __AUTH_CONST.__objc_const: 0x4250
-   __AUTH_CONST.__auth_ptr: 0x50
 -  __AUTH_CONST.__objc_intobj: 0x1080
 +  __AUTH_CONST.__objc_intobj: 0x1098
    __AUTH_CONST.__objc_arrayobj: 0x1e0
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 96365DBF-E6A0-36AD-A044-FFDE768978B7
 -  Functions: 6504
 -  Symbols:   18904
--  CStrings:  9761
+-  CStrings:  12329
++  UUID: 8FA65CF4-48BC-3CED-8C8A-C4095A0E61A3
 +  Functions: 6522
 +  Symbols:   18967
-+  CStrings:  9794
++  CStrings:  12385
  
 Symbols:
 + -[AXSettings setSwitchControlFirstLaunchScanningMode:]

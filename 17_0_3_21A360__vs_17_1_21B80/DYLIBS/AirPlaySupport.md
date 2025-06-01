@@ -45,13 +45,16 @@
    __DATA_DIRTY.__data: 0x550
    __DATA_DIRTY.__bss: 0x3c0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D663BCAD-4560-306E-86BA-83A8D5D6E2E3
++  UUID: 9FCC04EB-C027-30A7-AE53-B9A8E0BDAC55
    Functions: 1381
 -  Symbols:   3683
--  CStrings:  2530
+-  CStrings:  2983
 +  Symbols:   3688
-+  CStrings:  2537
++  CStrings:  2992
  
 Symbols:
 + _CMBufferQueueGetEndPresentationTimeStamp

@@ -62,9 +62,7 @@
 +  __AUTH_CONST.__const: 0xa60
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x10
--  __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x540
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__auth_got: 0x620
    __AUTH.__objc_data: 0x2d0
 -  __AUTH.__data: 0x2a0
@@ -88,12 +86,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B6A7351-4116-3262-9F67-A723CAAA8061
 -  Functions: 382
 -  Symbols:   1391
--  CStrings:  247
+-  CStrings:  259
++  UUID: 2CF87CB7-F2D8-36C1-A387-D2BD90C2816F
 +  Functions: 499
 +  Symbols:   1707
-+  CStrings:  251
++  CStrings:  263
  
 Symbols:
 + -[LACUIPackagedView _setState:animated:allowRetry:completion:]

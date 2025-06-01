@@ -29,4 +29,13 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftAVFoundation.dylib
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 38A8A737-9C46-36A4-A1BF-91977353685C
++  UUID: 1C20B86B-DDFB-314B-9AA4-82CA306255ED
+   Functions: 313
+   Symbols:   159
+   CStrings:  266
+
 ```

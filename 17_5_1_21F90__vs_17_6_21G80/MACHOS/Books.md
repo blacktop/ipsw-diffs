@@ -35,12 +35,14 @@
    - @rpath/EngagementCollector.framework/EngagementCollector
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: D4A4CC2F-CF12-31CA-9E6A-1D17C923D05F
 -  Functions: 41600
 -  Symbols:   2015
--  CStrings:  25446
+-  CStrings:  27438
++  UUID: FBEF088A-FDE0-3B15-8CF7-3929447A6B5D
 +  Functions: 41603
 +  Symbols:   2017
-+  CStrings:  25447
++  CStrings:  27439
  
 Symbols:
 + _BKStringFromAssetContentType

@@ -19,9 +19,9 @@
    __TEXT.__objc_classname: 0x1be
    __TEXT.__objc_methname: 0x1bf1
 
+   __AUTH_CONST.__cfstring: 0x720
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_arrayobj: 0x48
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__const: 0x18
 +  __AUTH_CONST.__const: 0x38
    __AUTH_CONST.__auth_got: 0x5a8
@@ -34,5 +34,14 @@
    __DATA_DIRTY.__objc_const: 0x7d8
    __DATA_DIRTY.__objc_data: 0x5f0
    __DATA_DIRTY.__data: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 864AAD6E-069A-34F5-B064-4C4306B234C1
++  UUID: 7160D9ED-1556-3D59-834C-4A7C6010041C
+   Functions: 1120
+   Symbols:   2912
+   CStrings:  959
 
 ```

@@ -66,11 +66,13 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DB173C2-4733-3A76-BFA8-A582D6C12849
 -  Functions: 1138
++  UUID: 33296096-F2E3-32B0-84D5-EE18639C6C97
 +  Functions: 1085
    Symbols:   665
--  CStrings:  4885
-+  CStrings:  3873
+-  CStrings:  6361
++  CStrings:  4259
  
 Symbols:
 + _IDSRegistrationPropertySupportsHybridGroupsV1

@@ -52,12 +52,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 549F5878-A587-3246-BBA4-F8D9FB02E506
 -  Functions: 441
 -  Symbols:   375
--  CStrings:  1299
+-  CStrings:  1904
++  UUID: 5456FA37-E070-3140-869A-A6CDC6FD74AB
 +  Functions: 449
 +  Symbols:   376
-+  CStrings:  1326
++  CStrings:  1932
  
 Symbols:
 + _CFErrorCreate

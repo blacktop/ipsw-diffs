@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C292A9D-89F1-3240-801A-DBA4512F5E5C
 -  Functions: 3446
 -  Symbols:   12237
--  CStrings:  6167
+-  CStrings:  7104
++  UUID: 73AD6DBA-4D10-3D3B-90CB-9F3F034CC595
 +  Functions: 3450
 +  Symbols:   12251
-+  CStrings:  6189
++  CStrings:  7126
  
 Symbols:
 + -[CACCorrectionsCandidateViewStyle alternativeTextLeftSpacing]

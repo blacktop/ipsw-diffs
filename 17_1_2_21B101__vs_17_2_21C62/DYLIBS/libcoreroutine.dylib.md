@@ -106,12 +106,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 7374E541-81AF-3C0E-96FF-B853CAD5BB13
 -  Functions: 14524
 -  Symbols:   47603
--  CStrings:  25433
+-  CStrings:  29307
++  UUID: A933A4A7-09E9-3980-B0B8-5F0895E111C8
 +  Functions: 14939
 +  Symbols:   48925
-+  CStrings:  26118
++  CStrings:  30089
  
 Symbols:
 + +[RTAuthorizedLocationVisitLog supportsSecureCoding]

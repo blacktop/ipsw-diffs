@@ -42,4 +42,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 60CAAC26-47B2-3534-8333-E22EA2FDF3FE
++  UUID: 1EE09D10-52E4-3CD5-888A-309FBA790754
+   Functions: 26657
+   Symbols:   26679
+   CStrings:  4520
+
 ```

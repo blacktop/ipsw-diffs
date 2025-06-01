@@ -63,12 +63,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6F78BCC4-ADAD-39C6-8118-D6FC2D1CF836
 -  Functions: 2121
 -  Symbols:   7930
--  CStrings:  3615
+-  CStrings:  3833
++  UUID: B8FF46E1-6BE4-32A7-98F0-3B3CAE9D394D
 +  Functions: 2123
 +  Symbols:   7940
-+  CStrings:  3622
++  CStrings:  3841
  
 Symbols:
 + -[ASIDSMessageCenter _handleFinalizeHandshake:fromSenderAddress:receiverAddress:messageHandledCompletion:]

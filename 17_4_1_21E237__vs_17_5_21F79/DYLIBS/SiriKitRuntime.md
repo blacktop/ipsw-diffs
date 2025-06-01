@@ -30,7 +30,6 @@
    __AUTH_CONST.__objc_const: 0x828
 -  __AUTH_CONST.__const: 0x13220
 +  __AUTH_CONST.__const: 0x13190
-   __AUTH_CONST.__auth_ptr: 0x560
    __AUTH_CONST.__cfstring: 0x14e0
    __AUTH_CONST.__auth_got: 0x3a78
 -  __AUTH.__data: 0x3bf8
@@ -63,11 +62,13 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 736958BF-4E17-3C0F-A1C8-126636CBEB56
 -  Functions: 17840
 -  Symbols:   42829
++  UUID: 15449FBE-35C0-31DC-962B-331A03A7B28A
 +  Functions: 17845
 +  Symbols:   42836
-   CStrings:  4334
+   CStrings:  4501
  
 Symbols:
 + _$s12SiriOntology13UsoEntitySpanV0A10KitRuntimeE18anyPropertiesMatch3key5valueSbSS_SStF

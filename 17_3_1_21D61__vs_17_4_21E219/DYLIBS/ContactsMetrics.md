@@ -36,13 +36,16 @@
    __DATA.__data: 0x1e0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 98EE4A2D-20BD-3B2C-978B-1C2262F7C8D2
++  UUID: D654EEF4-267C-31E8-B271-E50AA58E07A7
    Functions: 42
 -  Symbols:   361
--  CStrings:  248
+-  CStrings:  365
 +  Symbols:   362
-+  CStrings:  250
++  CStrings:  367
  
 Symbols:
 + _OBJC_CLASS_$_CNHashBuilder

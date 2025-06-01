@@ -30,4 +30,13 @@
    __DATA_DIRTY.__bss: 0x98
    - /System/Library/Frameworks/CoreData.framework/CoreData
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D6074479-F378-3E96-A133-0FB23B2D208D
++  UUID: D6D88C46-4057-32A8-B5AD-CBBE30569DAB
+   Functions: 561
+   Symbols:   2472
+   CStrings:  1238
+
 ```

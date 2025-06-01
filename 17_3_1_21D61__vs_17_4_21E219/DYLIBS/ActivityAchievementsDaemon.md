@@ -39,11 +39,15 @@
    __DATA.__data: 0x10e0
    __DATA.__bss: 0x8
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: DD8DCE17-42B1-35F5-AE44-EFF6874E1496
++  UUID: B668CA96-81A4-3E1C-8979-1B504075E180
    Functions: 3117
    Symbols:   10489
--  CStrings:  4124
-+  CStrings:  4125
+-  CStrings:  4488
++  CStrings:  4489
  
 Symbols:
 + ___101+[ACHTemplateEntity _insertTemplates:provenance:useLegacySyncIdentity:profile:databaseContext:error:]_block_invoke.383

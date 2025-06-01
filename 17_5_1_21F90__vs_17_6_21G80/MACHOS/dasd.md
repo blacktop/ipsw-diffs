@@ -43,11 +43,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: 88B5CBB1-9A8D-31CB-B367-4CA949924008
 -  Functions: 5111
++  UUID: 2BA0549F-309F-3505-9D74-0D0FCA5CA47D
 +  Functions: 5112
    Symbols:   605
--  CStrings:  8335
-+  CStrings:  8338
+-  CStrings:  9734
++  CStrings:  9738
  
 CStrings:
 + "clearRemoteDeviceActiveSet"

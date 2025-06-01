@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 202B11D8-846E-31B4-A14F-2045C8181DF6
 -  Functions: 378
 -  Symbols:   1529
--  CStrings:  847
+-  CStrings:  949
++  UUID: C18A9857-DCDE-37B9-BA40-A20D21E0617B
 +  Functions: 380
 +  Symbols:   1537
-+  CStrings:  850
++  CStrings:  952
  
 Symbols:
 + -[BiometryHelper _shouldCacheIdentities]

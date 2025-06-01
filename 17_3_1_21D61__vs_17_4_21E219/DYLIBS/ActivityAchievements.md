@@ -43,11 +43,15 @@
    __DATA.__data: 0x6d0
    __DATA.__bss: 0x110
 
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E645095F-2C34-3355-A8B9-8AF152560D22
++  UUID: 5F336F71-1D74-35ED-8AA8-3AF945414379
    Functions: 1545
    Symbols:   4703
--  CStrings:  2517
-+  CStrings:  2518
+-  CStrings:  3399
++  CStrings:  3400
  
 Symbols:
 + ___42-[ACHQuery client_deliverNewAchievements:]_block_invoke.243

@@ -55,12 +55,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CE9CD5EE-8767-367B-8EF0-41548B05B990
 -  Functions: 591
 -  Symbols:   2081
--  CStrings:  940
++  UUID: 4609F8C6-E40C-32C6-AFF4-1E1FC696A7E0
 +  Functions: 594
 +  Symbols:   2087
-+  CStrings:  939
+   CStrings:  1093
  
 Symbols:
 + -[SidecarDevice isRealityDevice]

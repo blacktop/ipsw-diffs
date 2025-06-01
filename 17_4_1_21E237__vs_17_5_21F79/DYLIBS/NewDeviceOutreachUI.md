@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 36143CAA-B22F-30AF-98B3-7AF03792E3B6
 -  Functions: 556
 -  Symbols:   2279
--  CStrings:  1362
+-  CStrings:  1496
++  UUID: 7520E130-FBA7-361F-B3EA-554A6558CA5A
 +  Functions: 552
 +  Symbols:   2250
-+  CStrings:  1354
++  CStrings:  1488
  
 Symbols:
 + -[NDOCoverageCentralViewController _refreshAndForcePostFollowUp:refreshControlToStop:]

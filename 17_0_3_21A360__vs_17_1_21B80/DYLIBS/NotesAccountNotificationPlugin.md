@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0x4
    __DATA.__data: 0x168
 
+   - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6DE30108-E964-3CE8-9B92-E6A087EDAD7C
++  UUID: 6F1B92E9-C939-364A-B87C-ECEEFBA472A3
    Functions: 163
 -  Symbols:   179
--  CStrings:  288
+-  CStrings:  296
 +  Symbols:   180
-+  CStrings:  289
++  CStrings:  297
  
 Symbols:
 + _OBJC_CLASS_$_ICCompatibilityController

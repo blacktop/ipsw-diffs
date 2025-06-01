@@ -32,4 +32,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1FEA0072-B9D8-3079-A91C-E3A4ADA40741
++  UUID: D4EB6F58-8DEE-395E-A74A-210275B0253B
+   Functions: 2474
+   Symbols:   193
+   CStrings:  253
+
 ```

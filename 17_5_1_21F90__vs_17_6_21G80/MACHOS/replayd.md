@@ -44,11 +44,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2B1B26C0-7DDE-35AD-A9C7-E1BC86B49758
 -  Functions: 1708
++  UUID: 80AFD6E4-0E23-3093-B781-F7A99A3F854C
 +  Functions: 1706
    Symbols:   411
--  CStrings:  3345
-+  CStrings:  3341
+-  CStrings:  3723
++  CStrings:  3719
  
 CStrings:
 + "-[RPSystemBroadcastSession loadBroadcastUploadExtensionWithBaseIdentifier:withHandler:]"

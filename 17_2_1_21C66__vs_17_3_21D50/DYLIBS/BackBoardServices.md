@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ACF916B9-5D69-3B7E-B8B8-A992D9BD6A97
 -  Functions: 2415
 -  Symbols:   7549
--  CStrings:  3776
+-  CStrings:  4814
++  UUID: 3B1895D8-478A-34A7-A594-34FBB8565B8C
 +  Functions: 2417
 +  Symbols:   7555
-+  CStrings:  3781
++  CStrings:  4820
  
 Symbols:
 + -[BKSHIDUISensorCharacteristics suggestedSystemApertureGracePeriodForScreenOff]

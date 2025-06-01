@@ -26,11 +26,15 @@
    __DATA_CONST.__auth_got: 0x5d0
    __DATA_CONST.__got: 0x1b0
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DF01E6F9-CEF2-329A-B37D-2A4E19117DBF
++  UUID: 9B8192F6-75BF-3A47-8C36-E0F27D3AC36E
    Functions: 1047
    Symbols:   562
--  CStrings:  2180
-+  CStrings:  2184
+-  CStrings:  2609
++  CStrings:  2613
  
 CStrings:
 + "Guided Access wants to launch application %@"

@@ -50,12 +50,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1E6CD3DA-8665-3F60-92E8-1C922C1E7D66
 -  Functions: 565
 -  Symbols:   233
--  CStrings:  1078
+-  CStrings:  1347
++  UUID: 111BA993-D344-3E83-B6AA-D2DCFBFCC3EC
 +  Functions: 566
 +  Symbols:   236
-+  CStrings:  1083
++  CStrings:  1356
  
 Symbols:
 + _kANEFCompilationInitiatedByE5MLKey

@@ -79,12 +79,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 79F527DC-255F-383E-8B6D-E50AED2FDC4C
 -  Functions: 1947
 -  Symbols:   270
--  CStrings:  788
+-  CStrings:  795
++  UUID: 6891284B-D938-335C-8BC2-C9D8B38CC8BB
 +  Functions: 1931
 +  Symbols:   260
-+  CStrings:  763
++  CStrings:  769
  
 Symbols:
 + _OBJC_CLASS_$__UIColorSampler

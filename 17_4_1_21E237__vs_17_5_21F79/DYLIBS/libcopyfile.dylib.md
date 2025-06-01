@@ -15,7 +15,6 @@
    __TEXT.__unwind_info: 0xcc
    __DATA_CONST.__got: 0x28
    __DATA_CONST.__const: 0x3b0
-   __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__const: 0xa0
    __AUTH_CONST.__auth_got: 0x320
    __DATA.__data: 0x8
@@ -25,7 +24,11 @@
    - /usr/lib/system/libcompiler_rt.dylib
    - /usr/lib/system/libdispatch.dylib
 
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
    - /usr/lib/system/libxpc.dylib
+-  UUID: A3D43030-37DB-3F4C-AF17-F4B162A16682
++  UUID: 6E04BBFD-BE21-3FD0-B14F-FA19AE565CD6
    Functions: 35
    Symbols:   180
 -  CStrings:  175

@@ -90,12 +90,14 @@
 +  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E22EF3ED-4C7D-3806-AFB0-2D09C1393761
 -  Functions: 3210
 -  Symbols:   11136
--  CStrings:  6668
+-  CStrings:  7304
++  UUID: 68E297ED-507B-3FBE-853B-A439B09E7503
 +  Functions: 3245
 +  Symbols:   11297
-+  CStrings:  6845
++  CStrings:  7521
  
 Symbols:
 + +[HMMTRAccessoryPairingEndContext hapContextWithStep:error:]
@@ -1210,7 +1212,6 @@ CStrings:
 + "%{public}@Unexpected, got an error response for user permission for unauthorized accessory. Fail pairing."
 + "%{public}@User Authorization delegate is not set"
 + "%{public}@User selection for bridge accessory. Should cancel : %s"
-+ "."
 + "@\"HMMTRUserAuthorizationForPairing\""
 + "@\"NSMutableDictionary\"8@?0"
 + "@32@0:8Q16@24"

@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_const: 0x2030
    __AUTH_CONST.__const: 0x1fa0
    __AUTH_CONST.__objc_intobj: 0x48
-
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__auth_got: 0xcb8
    __AUTH.__objc_data: 0xaf0
@@ -69,12 +68,14 @@
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: ED400E0F-F1DC-3CCA-8315-F1283C3C06F0
 -  Functions: 2245
 -  Symbols:   1528
--  CStrings:  4205
+-  CStrings:  5436
++  UUID: 4D981F8C-096E-375F-B65F-B5736E429379
 +  Functions: 2250
 +  Symbols:   1534
-+  CStrings:  4211
++  CStrings:  5445
  
 Symbols:
 + _IMUserNotificationAlternateButtonPresentationStyleKey

@@ -62,7 +62,6 @@
 +  __DATA_CONST.__objc_const: 0xd248
 +  __DATA_CONST.__objc_selrefs: 0x1df0
 +  __AUTH_CONST.__const: 0x3268
-   __AUTH_CONST.__auth_ptr: 0x1e0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__cfstring: 0xf80
 -  __AUTH_CONST.__auth_got: 0x1610
@@ -92,12 +91,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E63C851E-10EE-379F-B2EB-5CC5C555C6AA
 -  Functions: 10113
 -  Symbols:   9570
--  CStrings:  3684
+-  CStrings:  3808
++  UUID: F90127DB-154B-3FED-B255-4205448FC650
 +  Functions: 10125
 +  Symbols:   9579
-+  CStrings:  3695
++  CStrings:  3819
  
 Symbols:
 + +[SiriTTSNeuralUtils currentSampleRate:]

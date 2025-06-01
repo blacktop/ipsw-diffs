@@ -41,8 +41,10 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67DADB96-9ACF-3AA8-8F6B-314604804763
 -  Functions: 413
 -  Symbols:   1056
++  UUID: BCCBB196-326D-3EB8-A242-2AF17290EB3C
 +  Functions: 418
 +  Symbols:   1064
    CStrings:  390

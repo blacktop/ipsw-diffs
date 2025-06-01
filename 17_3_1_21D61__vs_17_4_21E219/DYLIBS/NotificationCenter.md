@@ -33,11 +33,15 @@
    __DATA.__data: 0x2a8
    __DATA.__common: 0x10
 
+   - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 04A4B2FC-8292-3164-9D29-31AC29852F98
++  UUID: 8E1342FD-3B6E-3768-B09A-1B785DCEF908
    Functions: 190
    Symbols:   968
--  CStrings:  556
-+  CStrings:  557
+-  CStrings:  596
++  CStrings:  597
  
 CStrings:
 + "T@\"NSString\",?,R,C"

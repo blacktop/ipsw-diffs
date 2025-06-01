@@ -62,7 +62,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x1ded8
 -  __DATA_CONST.__objc_arraydata: 0x2fb0
 -  __AUTH_CONST.__const: 0xef40
--  __AUTH_CONST.__auth_ptr: 0xc8
 -  __AUTH_CONST.__objc_const: 0x29b70
 -  __AUTH_CONST.__cfstring: 0x5ee20
 -  __AUTH_CONST.__objc_arrayobj: 0x9f0
@@ -71,7 +70,6 @@
 +  __DATA_CONST.__objc_selrefs: 0x1e358
 +  __DATA_CONST.__objc_arraydata: 0x2fc8
 +  __AUTH_CONST.__const: 0xefd0
-+  __AUTH_CONST.__auth_ptr: 0xc0
 +  __AUTH_CONST.__objc_const: 0x2a038
 +  __AUTH_CONST.__cfstring: 0x5fc60
 +  __AUTH_CONST.__objc_arrayobj: 0xa08
@@ -126,12 +124,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B88D9047-F0E9-30C2-81EB-5202EF06DACD
 -  Functions: 38843
 -  Symbols:   108258
--  CStrings:  45165
+-  CStrings:  57310
++  UUID: 6D00DDFF-5766-3A5B-8D4A-3FB9EA61D347
 +  Functions: 39146
 +  Symbols:   109116
-+  CStrings:  45564
++  CStrings:  57823
  
 Symbols:
 + +[PKBitmapContext create16FloatExtendedWithSize:configuration:]

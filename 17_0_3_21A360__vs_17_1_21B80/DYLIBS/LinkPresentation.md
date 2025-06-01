@@ -56,8 +56,8 @@
 +  __AUTH_CONST.__objc_intobj: 0x288
 +  __AUTH_CONST.__objc_arrayobj: 0x420
    __AUTH_CONST.__objc_dictobj: 0xc8
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_doubleobj: 0x60
+   __AUTH_CONST.__auth_got: 0x7c0
 
    __DATA.__objc_protorefs: 0x70
    __DATA.__objc_classrefs: 0xc40
@@ -75,12 +75,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 732AE524-3610-3060-862E-58F38FA0B2E2
 -  Functions: 5243
 -  Symbols:   20530
--  CStrings:  7721
+-  CStrings:  9365
++  UUID: 2EE806B2-4932-34D1-9F83-CDEBBA49132A
 +  Functions: 5279
 +  Symbols:   20659
-+  CStrings:  7767
++  CStrings:  9419
  
 Symbols:
 + +[LPPresentationSpecializations isAppleBookSeriesURL:]

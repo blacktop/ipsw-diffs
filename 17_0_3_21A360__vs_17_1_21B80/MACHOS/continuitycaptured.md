@@ -33,11 +33,15 @@
    __DATA.__data: 0x2a0
    __DATA.__bss: 0x18
 
+   - /System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53CE13D7-571A-3278-9EED-B5EAE6A1EB91
++  UUID: F553C0CD-B225-3FE3-A703-3F65EBD546FE
    Functions: 171
    Symbols:   209
--  CStrings:  527
-+  CStrings:  528
+-  CStrings:  546
++  CStrings:  547
  
 CStrings:
 + "_shieldConnected"

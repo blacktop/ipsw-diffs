@@ -71,7 +71,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x550
 +  __AUTH_CONST.__const: 0x33108
    __AUTH_CONST.__objc_const: 0x1ca50
-   __AUTH_CONST.__auth_ptr: 0xc30
 -  __AUTH_CONST.__cfstring: 0x32780
 +  __AUTH_CONST.__cfstring: 0x32aa0
    __AUTH_CONST.__objc_doubleobj: 0x1c0
@@ -105,12 +104,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C2CFC721-04EB-34FB-B8AE-216AE601944A
 -  Functions: 56942
 -  Symbols:   109622
--  CStrings:  42752
+-  CStrings:  49212
++  UUID: AFE5C6BD-2997-3D1A-8B14-57F061928C5A
 +  Functions: 56975
 +  Symbols:   109711
-+  CStrings:  42805
++  CStrings:  49290
  
 Symbols:
 + +[PKPassDeleteHelper hasPositiveBalanceForTransitPassProperties:transitBalanceModel:]

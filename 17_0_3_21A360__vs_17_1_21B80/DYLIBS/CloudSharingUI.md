@@ -52,7 +52,6 @@
 +  __AUTH_CONST.__const: 0x16d8
    __AUTH_CONST.__objc_const: 0x240
    __AUTH_CONST.__cfstring: 0x140
-   __AUTH_CONST.__auth_ptr: 0x38
 -  __AUTH_CONST.__auth_got: 0xa18
 +  __AUTH_CONST.__auth_got: 0xa20
    __AUTH.__objc_data: 0x6c8
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 96B505A7-973E-34BD-BA76-82EA49C85759
 -  Functions: 1259
 -  Symbols:   957
--  CStrings:  444
+-  CStrings:  454
++  UUID: 53BF60F9-4DE3-3693-B26B-39AE9FA49027
 +  Functions: 1273
 +  Symbols:   959
-+  CStrings:  447
++  CStrings:  457
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA6ToggleVyAA6VStackVyAA9TupleViewVyAA4TextV_AKSgtGGGAA20_ValueActionModifierVySbGGAA0H0HPAoaTHPyHC_ArA0hL0HPyHCHC.93

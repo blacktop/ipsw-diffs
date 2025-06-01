@@ -37,4 +37,13 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
 
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: ADDF7DA1-8CA7-35D7-8B61-0C3DA791F401
++  UUID: 9CBE9085-4DEA-33DD-A936-56D6D26E06FA
+   Functions: 1804
+   Symbols:   6696
+   CStrings:  4814
+
 ```

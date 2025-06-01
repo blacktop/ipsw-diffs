@@ -40,11 +40,13 @@
    - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F89E86AC-8C44-3722-9B13-D1A24C6496F0
 -  Functions: 96
++  UUID: F7C0C5D1-57DF-39C4-AB5E-958FDBB3C9C7
 +  Functions: 98
    Symbols:   125
--  CStrings:  659
-+  CStrings:  661
+-  CStrings:  1034
++  CStrings:  1037
  
 CStrings:
 + "com.apple.icloud.FindMyDevice.RepairDevice.access"

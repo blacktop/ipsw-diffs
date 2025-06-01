@@ -59,12 +59,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C8714A22-9D28-380B-AF83-A0BBB13DC1DF
 -  Functions: 825
 -  Symbols:   3526
--  CStrings:  1796
+-  CStrings:  1915
++  UUID: 96801EEC-A45A-3691-905A-8A74FFD4B2AD
 +  Functions: 827
 +  Symbols:   3528
-+  CStrings:  1797
++  CStrings:  1916
  
 Symbols:
 + +[PKAuthenticator currentStateForRequest:completion:]

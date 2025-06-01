@@ -19,11 +19,15 @@
    __TEXT.__eh_frame: 0x570
    __TEXT.__objc_classname: 0x10
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EB3E388A-3E59-3388-8A2E-04285464C4B7
++  UUID: 46E93409-620C-3153-AEB2-172D5057BC4B
    Functions: 8811
    Symbols:   9681
--  CStrings:  3176
-+  CStrings:  3182
+-  CStrings:  3185
++  CStrings:  3191
  
 CStrings:
 + "martyIsBicycle"

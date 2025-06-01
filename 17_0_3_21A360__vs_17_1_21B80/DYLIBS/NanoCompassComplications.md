@@ -61,7 +61,6 @@
    __AUTH_CONST.__objc_intobj: 0x270
    __AUTH_CONST.__objc_floatobj: 0x20
    __AUTH_CONST.__objc_dictobj: 0x258
--  __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x588
 -  __AUTH.__objc_data: 0x1988
 -  __AUTH.__data: 0x138
@@ -97,12 +96,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9DFE5BCF-F86A-3FFB-BF34-1353C1203198
 -  Functions: 1405
 -  Symbols:   634
--  CStrings:  2446
+-  CStrings:  2783
++  UUID: 9BB703FC-B053-3021-B65B-57815A2FE81D
 +  Functions: 1394
 +  Symbols:   633
-+  CStrings:  2436
++  CStrings:  2773
  
 Symbols:
 + _AccuracyThreshold

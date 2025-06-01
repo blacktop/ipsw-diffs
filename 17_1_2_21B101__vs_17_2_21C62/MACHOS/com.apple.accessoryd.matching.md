@@ -17,11 +17,15 @@
    __TEXT.__objc_classname: 0x26c
    __TEXT.__objc_methtype: 0xaaa
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 3505EB69-55A9-3DEF-8293-12EBCB79D9F2
++  UUID: CF9DBF89-56E5-3465-A4C3-A8A73C98353B
    Functions: 1261
    Symbols:   7627
--  CStrings:  2206
-+  CStrings:  2205
+-  CStrings:  2580
++  CStrings:  2579
  
 Symbols:
 + _ACCUserDefaultsKey_SysdiagnoseInsteadOfAuthTTR

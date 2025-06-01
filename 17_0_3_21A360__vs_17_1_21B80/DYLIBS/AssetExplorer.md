@@ -34,11 +34,15 @@
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH_CONST.__cfstring: 0xb60
 
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CD1E7F86-8467-3768-9902-774A2ECCB2C0
++  UUID: 18AA2181-7192-353E-A013-FCD2BE6C56B3
    Functions: 645
    Symbols:   2875
--  CStrings:  1598
-+  CStrings:  1599
+-  CStrings:  1689
++  CStrings:  1690
  
 Symbols:
 + ___Block_byref_object_copy_.1044

@@ -34,11 +34,15 @@
    __AUTH_CONST.__objc_const: 0x798
    __AUTH_CONST.__objc_intobj: 0x258
 
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: 191F3F33-9ED5-3599-9BA2-C9A2FB5CB91A
++  UUID: FEC20E97-5C43-39E3-9049-D6136D67E478
    Functions: 2153
    Symbols:   6557
--  CStrings:  3821
-+  CStrings:  3822
+-  CStrings:  4458
++  CStrings:  4460
  
 Symbols:
 + ___block_literal_global.455

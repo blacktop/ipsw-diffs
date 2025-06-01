@@ -23,21 +23,24 @@
    __DATA_CONST.__objc_classlist: 0x78
    __DATA_CONST.__objc_protolist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
-
+   __DATA_CONST.__objc_const: 0x1180
    __DATA_CONST.__objc_selrefs: 0x340
    __AUTH_CONST.__const: 0xb98
-   __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__cfstring: 0x1f00
 +  __AUTH_CONST.__cfstring: 0x1f20
    __AUTH_CONST.__auth_got: 0x7b0
    __AUTH.__data: 0x1390
    __AUTH.__objc_data: 0xf0
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 53785BD7-66E3-30BC-84EA-C6EFC55F9092
++  UUID: ACB14E72-C93D-38B4-A381-2842FBC6935F
    Functions: 1096
    Symbols:   3032
--  CStrings:  504
-+  CStrings:  505
+-  CStrings:  752
++  CStrings:  754
  
 CStrings:
 + "FLOWSTATUSREASON_AMP_SERVER_ERROR"

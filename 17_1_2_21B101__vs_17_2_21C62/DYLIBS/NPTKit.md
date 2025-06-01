@@ -73,12 +73,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libnetquality.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48491B1C-92ED-307B-A401-EA4FB34811DD
 -  Functions: 1548
 -  Symbols:   5477
--  CStrings:  3610
+-  CStrings:  4357
++  UUID: 0777EC3B-A386-3DF1-94F8-7298078C7E5E
 +  Functions: 1563
 +  Symbols:   5550
-+  CStrings:  3641
++  CStrings:  4392
  
 Symbols:
 + +[SDLogger client]

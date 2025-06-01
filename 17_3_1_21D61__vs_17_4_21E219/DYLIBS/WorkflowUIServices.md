@@ -66,7 +66,6 @@
 -  __DATA_CONST.__objc_selrefs: 0x20b8
 -  __DATA_CONST.__objc_arraydata: 0x20
 -  __AUTH_CONST.__const: 0x25f0
--  __AUTH_CONST.__auth_ptr: 0x90
 -  __AUTH_CONST.__objc_const: 0x13a0
 -  __AUTH_CONST.__cfstring: 0x1120
 -  __AUTH_CONST.__objc_doubleobj: 0xa0
@@ -77,7 +76,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x158
 +  __DATA_CONST.__objc_arraydata: 0x18
 +  __AUTH_CONST.__const: 0x2710
-+  __AUTH_CONST.__auth_ptr: 0x98
 +  __AUTH_CONST.__objc_const: 0x14b0
 +  __AUTH_CONST.__cfstring: 0x1140
 +  __AUTH_CONST.__objc_doubleobj: 0x90
@@ -108,12 +106,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6362E3CB-7938-30A0-BD45-222511D80C0B
 -  Functions: 2379
 -  Symbols:   4585
--  CStrings:  2155
+-  CStrings:  2292
++  UUID: 80552D3B-83E0-3568-ADBB-8D46D713299F
 +  Functions: 2421
 +  Symbols:   4664
-+  CStrings:  2184
++  CStrings:  2322
  
 Symbols:
 + +[WFImage(AsyncAppIcon) applicationIconImageForBundleIdentifier:length:scale:completionHandler:]

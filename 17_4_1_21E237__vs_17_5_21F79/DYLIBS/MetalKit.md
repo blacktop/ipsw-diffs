@@ -54,12 +54,14 @@
    - /System/Library/PrivateFrameworks/TextureIO.framework/TextureIO
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7F984232-0CF2-3553-9702-CC393BDF79AF
 -  Functions: 397
 -  Symbols:   1680
--  CStrings:  966
+-  CStrings:  1081
++  UUID: 2356CCF9-4A97-3AAB-9A05-37F1C9B37592
 +  Functions: 402
 +  Symbols:   1696
-+  CStrings:  989
++  CStrings:  1111
  
 Symbols:
 + +[MTKTextureLoaderASTCHelper isASTCHDRData:is3DBlocks:error:]

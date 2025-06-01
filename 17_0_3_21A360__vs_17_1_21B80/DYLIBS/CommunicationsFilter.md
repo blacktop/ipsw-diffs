@@ -43,12 +43,14 @@
    - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 00691C1D-C114-3884-B8E8-7E30AD3CA8EC
 -  Functions: 64
 -  Symbols:   314
--  CStrings:  149
+-  CStrings:  158
++  UUID: 0FACDFEE-61C8-392D-8A4A-110CC17A423B
 +  Functions: 66
 +  Symbols:   317
-+  CStrings:  147
++  CStrings:  156
  
 Symbols:
 + GCC_except_table22

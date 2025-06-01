@@ -50,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78A3A4A9-520C-3258-AAA4-FC11541289D8
 -  Functions: 214
 -  Symbols:   193
--  CStrings:  499
+-  CStrings:  549
++  UUID: 52EE2973-BF3A-3DD1-A252-51948F9CC742
 +  Functions: 218
 +  Symbols:   195
-+  CStrings:  505
++  CStrings:  555
  
 Symbols:
 + __AXSAttentionAwarenessFeaturesEnabled

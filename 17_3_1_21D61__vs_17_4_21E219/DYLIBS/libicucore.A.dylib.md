@@ -21,10 +21,9 @@
    __DATA_CONST.__got: 0x28
 -  __DATA_CONST.__const: 0xf040
 -  __AUTH_CONST.__const: 0x10ee0
+-  __AUTH_CONST.__auth_got: 0x2f0
 +  __DATA_CONST.__const: 0xf160
 +  __AUTH_CONST.__const: 0x11e00
-   __AUTH_CONST.__auth_ptr: 0x28
--  __AUTH_CONST.__auth_got: 0x2f0
 +  __AUTH_CONST.__auth_got: 0x300
 +  __AUTH.__got_weak: 0x50
 +  __DATA.__got_weak: 0x20
@@ -39,9 +38,11 @@
    __DATA_DIRTY.__common: 0x30
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 582613C7-B0E8-3489-BD5A-F41E571D5215
 -  Functions: 11676
 -  Symbols:   8283
 -  CStrings:  3755
++  UUID: 93C5242D-7534-3382-8479-903D8FFAC517
 +  Functions: 11994
 +  Symbols:   8588
 +  CStrings:  3795

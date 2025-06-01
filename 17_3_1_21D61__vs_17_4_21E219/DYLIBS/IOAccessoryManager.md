@@ -75,12 +75,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5D571B84-908E-328C-BDD1-1B36D75EB303
 -  Functions: 1186
 -  Symbols:   3921
--  CStrings:  2569
+-  CStrings:  2955
++  UUID: AE2DE3A4-F09D-347A-A4E1-533872962616
 +  Functions: 1202
 +  Symbols:   3964
-+  CStrings:  2602
++  CStrings:  2991
  
 Symbols:
 + -[IOAccessorySystemStateEndpoint notifyBootComplete]

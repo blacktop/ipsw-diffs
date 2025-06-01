@@ -19,11 +19,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: BC6B8187-5B60-3712-8DF2-8CEAF37F971C
 -  Functions: 1341
 -  Symbols:   1565
++  UUID: BF824AE6-4826-3D32-AFD4-42C69C098AE8
 +  Functions: 1342
 +  Symbols:   1567
-   CStrings:  3827
+   CStrings:  5675
  
 Symbols:
 + _AccelerateCrypto_SHA512_compress_hwassist

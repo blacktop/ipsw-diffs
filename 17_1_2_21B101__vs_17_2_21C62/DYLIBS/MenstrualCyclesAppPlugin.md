@@ -53,9 +53,8 @@
    __AUTH_CONST.__objc_const: 0x10d8
    __AUTH_CONST.__cfstring: 0x60
 -  __AUTH_CONST.__const: 0x14f90
-+  __AUTH_CONST.__const: 0x151b8
-   __AUTH_CONST.__auth_ptr: 0xad0
 -  __AUTH_CONST.__auth_got: 0x3ea8
++  __AUTH_CONST.__const: 0x151b8
 +  __AUTH_CONST.__auth_got: 0x3eb8
    __AUTH.__objc_data: 0xc0b8
 -  __AUTH.__data: 0x8920
@@ -79,12 +78,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47344422-0620-3629-912F-26F7B3B48B34
 -  Functions: 16110
 -  Symbols:   656
--  CStrings:  4871
+-  CStrings:  4874
++  UUID: 8031B587-F52F-3A23-9792-9D77A2F44C42
 +  Functions: 16148
 +  Symbols:   660
-+  CStrings:  4876
++  CStrings:  4879
  
 Symbols:
 + _HKAnalyticsPropertyNameDeviceContextCountPhone

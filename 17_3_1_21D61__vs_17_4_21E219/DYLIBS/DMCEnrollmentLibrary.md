@@ -77,12 +77,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 01087DBE-4745-3559-91C9-318E6C5835FF
 -  Functions: 375
 -  Symbols:   1585
--  CStrings:  951
+-  CStrings:  1059
++  UUID: B865C358-AB36-3983-94AC-7254856473FB
 +  Functions: 434
 +  Symbols:   1823
-+  CStrings:  1086
++  CStrings:  1205
  
 Symbols:
 + +[DMCEnrollmentFlowController(Utilities) _createEnrollmentNotAllowedDuringSDPError]

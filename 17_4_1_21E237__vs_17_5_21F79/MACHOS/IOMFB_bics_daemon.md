@@ -34,12 +34,14 @@
    - /usr/lib/libamsupport.dylib
    - /usr/lib/libauthinstall.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: BDD0DBAE-A4A0-325D-9415-23B9A6902C35
 -  Functions: 157
 -  Symbols:   160
--  CStrings:  367
+-  CStrings:  377
++  UUID: DD37FBFF-8C42-305D-AA0B-08D2F2A4CA3C
 +  Functions: 161
 +  Symbols:   164
-+  CStrings:  376
++  CStrings:  386
  
 Symbols:
 + _BIMUpdaterEndUpdate

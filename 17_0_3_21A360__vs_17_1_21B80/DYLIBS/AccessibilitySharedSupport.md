@@ -58,12 +58,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9CA41A80-EB89-35F2-ADA5-AEA3B12258D0
 -  Functions: 1799
 -  Symbols:   6062
--  CStrings:  3149
+-  CStrings:  3724
++  UUID: D790D599-42EA-3556-8A11-E819D29A662F
 +  Functions: 1803
 +  Symbols:   6073
-+  CStrings:  3155
++  CStrings:  3730
  
 Symbols:
 + +[AXSSLanguageTagger _createLanguageHintWithHighProbInDefault:]

@@ -55,7 +55,6 @@
 -  __AUTH_CONST.__const: 0x1ad00
 +  __AUTH_CONST.__const: 0x1aea8
    __AUTH_CONST.__objc_intobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x430
 -  __AUTH_CONST.__auth_got: 0x1d38
 +  __AUTH_CONST.__auth_got: 0x1d20
    __AUTH.__objc_data: 0x2ae8
@@ -80,12 +79,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14361B19-7073-308A-BD72-B4A137F54AA8
 -  Functions: 19799
 -  Symbols:   5825
--  CStrings:  2056
+-  CStrings:  2087
++  UUID: 27622C86-F140-3155-83DA-CE96F1201CAB
 +  Functions: 19864
 +  Symbols:   5850
-+  CStrings:  2068
++  CStrings:  2099
  
 Symbols:
 + ___swift_get_extra_inhabitant_index.59Tm

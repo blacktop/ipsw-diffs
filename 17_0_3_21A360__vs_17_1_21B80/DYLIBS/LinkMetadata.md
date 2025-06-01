@@ -59,13 +59,12 @@
 -  __DATA_CONST.__objc_selrefs: 0x1a50
 -  __AUTH_CONST.__const: 0x5498
 -  __AUTH_CONST.__objc_const: 0x2a38
+-  __AUTH_CONST.__cfstring: 0x38e0
+-  __AUTH_CONST.__objc_intobj: 0x4b0
 +  __DATA_CONST.__objc_const: 0x4dd8
 +  __DATA_CONST.__objc_selrefs: 0x1a90
 +  __AUTH_CONST.__const: 0x56e0
 +  __AUTH_CONST.__objc_const: 0x2b58
-   __AUTH_CONST.__auth_ptr: 0x28
--  __AUTH_CONST.__cfstring: 0x38e0
--  __AUTH_CONST.__objc_intobj: 0x4b0
 +  __AUTH_CONST.__objc_intobj: 0x4c8
 +  __AUTH_CONST.__cfstring: 0x3a20
    __AUTH_CONST.__auth_got: 0xa50
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA3391A0-6337-3094-ADDF-DAF1ED3DC11A
 -  Functions: 5640
 -  Symbols:   6268
--  CStrings:  2019
+-  CStrings:  2474
++  UUID: F2C72E77-6947-3CEE-A819-442CD941E065
 +  Functions: 5728
 +  Symbols:   6401
-+  CStrings:  2042
++  CStrings:  2507
  
 Symbols:
 + +[LNSearchCriteriaValueType objectClassesForCoding]

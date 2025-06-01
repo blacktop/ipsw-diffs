@@ -64,12 +64,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7BB952D-A53B-3AE2-A96A-FDCC815CBC72
 -  Functions: 161
 -  Symbols:   138
--  CStrings:  417
+-  CStrings:  466
++  UUID: 85790AAF-9F49-30D0-AD76-A346CFEF3F7F
 +  Functions: 180
 +  Symbols:   145
-+  CStrings:  451
++  CStrings:  509
  
 Symbols:
 + _OBJC_CLASS_$_NSConstantIntegerNumber

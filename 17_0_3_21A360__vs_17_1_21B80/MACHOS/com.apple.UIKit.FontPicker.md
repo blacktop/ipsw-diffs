@@ -85,12 +85,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 531F94B2-498B-3A3A-BC0F-A324948144F6
 -  Functions: 412
 -  Symbols:   171
--  CStrings:  398
+-  CStrings:  413
++  UUID: 891BAC61-8477-315A-B21B-EE994E6D0C26
 +  Functions: 387
 +  Symbols:   170
-+  CStrings:  421
++  CStrings:  438
  
 Symbols:
 + _OBJC_CLASS_$_NSLayoutConstraint

@@ -49,12 +49,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49599EC8-EDD2-3A7C-AB6C-1B0BB06672EA
 -  Functions: 14
 -  Symbols:   44
--  CStrings:  54
+-  CStrings:  60
++  UUID: 4B704648-90BD-3C99-9A1C-2583F5DCBB4B
 +  Functions: 15
 +  Symbols:   46
-+  CStrings:  57
++  CStrings:  64
  
 Symbols:
 + _AMFDRSealingMapGetEntry

@@ -33,11 +33,15 @@
    __DATA.__data: 0xc0
    __DATA_DIRTY.__objc_data: 0x50
 
+   - /System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D999E07-693C-3792-85B8-288B3410A733
++  UUID: 0A7DAFBF-A5B8-3D07-810D-C5C76D633115
    Functions: 11
    Symbols:   63
--  CStrings:  136
-+  CStrings:  137
+-  CStrings:  145
++  CStrings:  146
  
 CStrings:
 + "T@\"NSString\",?,R,C"

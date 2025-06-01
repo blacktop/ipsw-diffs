@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8BE42F53-DF9B-3CB8-9DDE-E9DC00353304
 -  Functions: 2122
 -  Symbols:   7850
--  CStrings:  4434
+-  CStrings:  5241
++  UUID: 9A56DC23-940B-3973-8E88-E5F5637CAF66
 +  Functions: 2163
 +  Symbols:   7984
-+  CStrings:  4539
++  CStrings:  5362
  
 Symbols:
 + +[AVAsset(TVPAdditions) tvp_shouldIgnoreLoadFailureForKey:error:logObject:]

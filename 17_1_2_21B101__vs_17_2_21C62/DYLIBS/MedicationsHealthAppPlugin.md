@@ -21,4 +21,13 @@
    __TEXT.__objc_classname: 0x119
    __TEXT.__objc_methname: 0x431b
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A840C255-2DAA-34EC-9EE9-13AF82C77719
++  UUID: 82D107D8-FEE1-3B7E-950A-764D310AB666
+   Functions: 5568
+   Symbols:   415
+   CStrings:  1668
+
 ```

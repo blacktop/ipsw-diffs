@@ -55,12 +55,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0732B28D-2245-3A5E-8D9D-6F8FDE509FD9
 -  Functions: 1933
 -  Symbols:   7160
--  CStrings:  3865
+-  CStrings:  4192
++  UUID: 997CB997-A4A3-320B-81EF-BA55FD7E1000
 +  Functions: 1934
 +  Symbols:   7162
-+  CStrings:  3869
++  CStrings:  4197
  
 Symbols:
 + +[TVRTapToRadarManager _captureScreenshotForWindow:]

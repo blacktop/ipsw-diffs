@@ -96,12 +96,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84534CCB-0498-3BF0-8467-5077F08C4212
 -  Functions: 9463
 -  Symbols:   2007
--  CStrings:  12192
+-  CStrings:  13091
++  UUID: A4A8ABFD-27A0-3359-A032-D7604279AB56
 +  Functions: 9575
 +  Symbols:   2048
-+  CStrings:  12253
++  CStrings:  13153
  
 Symbols:
 + _$s11TelephonyUI12TPTipsHelperC5EntryVMa

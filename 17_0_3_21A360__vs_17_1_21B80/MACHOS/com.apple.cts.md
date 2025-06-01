@@ -19,11 +19,15 @@
    __TEXT.__objc_methname: 0x1b67
    __TEXT.__objc_methtype: 0x15d
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F29AEC63-B284-3646-A114-10CEEB3C697D
++  UUID: E8028F13-B8DF-3BDD-B453-82CAB5590B20
    Functions: 195
    Symbols:   260
--  CStrings:  554
-+  CStrings:  553
+-  CStrings:  573
++  CStrings:  572
  
 CStrings:
 - "Cleaning up spam activity record for %{public}@"

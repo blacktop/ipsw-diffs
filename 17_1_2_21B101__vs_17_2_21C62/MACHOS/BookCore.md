@@ -148,12 +148,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 3F134058-0544-38B5-B320-4139E9987A8F
 -  Functions: 14194
 -  Symbols:   3461
--  CStrings:  17542
+-  CStrings:  19795
++  UUID: 93427BBD-9483-3368-9C1E-C802CBA63308
 +  Functions: 14269
 +  Symbols:   3468
-+  CStrings:  17594
++  CStrings:  19848
  
 Symbols:
 + _BCTransactionLog

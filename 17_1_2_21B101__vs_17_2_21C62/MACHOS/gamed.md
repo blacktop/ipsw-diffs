@@ -103,12 +103,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BF4AA6FD-0667-37F7-AAC8-A90A501D6E9B
 -  Functions: 7622
 -  Symbols:   1419
--  CStrings:  9574
+-  CStrings:  12498
++  UUID: 4785E9D1-6487-348E-B72E-61F838A58545
 +  Functions: 7874
 +  Symbols:   1440
-+  CStrings:  9654
++  CStrings:  12586
  
 Symbols:
 + _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF

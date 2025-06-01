@@ -30,8 +30,8 @@
    __TEXT.__objc_classname: 0x4fa
    __TEXT.__objc_methname: 0xaa5e
 
+   __AUTH_CONST.__const: 0x2f5f8
    __AUTH_CONST.__cfstring: 0x180
-   __AUTH_CONST.__auth_ptr: 0x8b8
    __AUTH_CONST.__auth_got: 0x3098
 -  __AUTH.__objc_data: 0x34a8
 -  __AUTH.__data: 0x9c80
@@ -55,5 +55,14 @@
    __DATA_DIRTY.__common: 0x410
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 864D257D-7D47-37BF-8A80-1C6C9C60EBF4
++  UUID: 43919808-5F15-39FD-A995-68D8CD111BAB
+   Functions: 33647
+   Symbols:   10726
+   CStrings:  5635
 
 ```

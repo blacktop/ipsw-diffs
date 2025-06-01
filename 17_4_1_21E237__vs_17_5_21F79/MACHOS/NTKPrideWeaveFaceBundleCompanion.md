@@ -19,4 +19,13 @@
    __DATA_CONST.__got: 0xe8
    __DATA_CONST.__const: 0x558
 
+   - /System/Library/PrivateFrameworks/PhysicsKit.framework/PhysicsKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C0E62641-C6F5-3D27-A83A-B6ED1A91C93A
++  UUID: 9F46BE60-2AD7-3521-B6C7-F3A0A70BC707
+   Functions: 618
+   Symbols:   281
+   CStrings:  1063
+
 ```

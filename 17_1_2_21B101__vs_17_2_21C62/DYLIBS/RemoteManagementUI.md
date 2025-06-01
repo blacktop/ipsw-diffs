@@ -32,11 +32,15 @@
    __AUTH_CONST.__auth_got: 0x1f8
    __AUTH.__objc_data: 0x5f0
 
+   - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 83A8CCFB-F8B6-30E5-BD36-79587A641A5A
++  UUID: 4F9DF663-1FF4-3147-A9F9-ED19F010CB6B
    Functions: 300
    Symbols:   1179
--  CStrings:  531
-+  CStrings:  534
+-  CStrings:  617
++  CStrings:  623
  
 Symbols:
 + ___82-[RMUIPluginViewModelProvider loadPluginsFromConfigurationsWithCompletionHandler:]_block_invoke.81

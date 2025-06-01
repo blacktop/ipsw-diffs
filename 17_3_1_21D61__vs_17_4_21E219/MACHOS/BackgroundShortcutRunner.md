@@ -71,12 +71,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F50D4FF9-B849-3BC4-81C4-226C385E390B
 -  Functions: 373
 -  Symbols:   318
--  CStrings:  1180
+-  CStrings:  1264
++  UUID: 48E27818-C5B4-33ED-B2F9-C7B50977B2D9
 +  Functions: 371
 +  Symbols:   317
-+  CStrings:  1184
++  CStrings:  1269
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableString

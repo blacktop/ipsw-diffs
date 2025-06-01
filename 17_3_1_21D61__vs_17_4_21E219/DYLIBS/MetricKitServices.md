@@ -28,4 +28,13 @@
    __DATA.__bss: 0x20
    __DATA_DIRTY.__objc_data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/MetricKitSource.framework/MetricKitSource
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2AB5A288-411F-3BDD-95FB-A6B3ADF2FA8B
++  UUID: 308D797F-0969-30BA-AC40-4F07E30BDDC7
+   Functions: 117
+   Symbols:   476
+   CStrings:  247
+
 ```

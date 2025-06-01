@@ -30,13 +30,16 @@
    __DATA.__objc_classrefs: 0x288
    __DATA.__objc_superrefs: 0x150
 
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EB1CA2BD-C703-3BE1-A201-D2F7231EDEC8
++  UUID: 92AC2AB7-0659-399D-9F34-CC6BD6C9173B
    Functions: 1167
 -  Symbols:   4152
--  CStrings:  1718
+-  CStrings:  1891
 +  Symbols:   4151
-+  CStrings:  1717
++  CStrings:  1890
  
 Symbols:
 + ___block_descriptor_84_e8_32s40s48s56s64r_e20_v20?0B8"NSError"12ls32l8s40l8s48l8r64l8s56l8

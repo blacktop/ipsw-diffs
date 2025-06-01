@@ -35,11 +35,15 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x540
 
+   - /System/Library/PrivateFrameworks/iMessageApps.framework/iMessageApps
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 457ACE52-2DFE-3B33-BFC0-EA90392E3455
++  UUID: 34BCB9D6-B2D9-39DC-B531-83EE6DF72F66
    Functions: 186
    Symbols:   126
--  CStrings:  433
-+  CStrings:  434
+-  CStrings:  440
++  CStrings:  441
  
 CStrings:
 + "T@\"NSString\",?,R,C"

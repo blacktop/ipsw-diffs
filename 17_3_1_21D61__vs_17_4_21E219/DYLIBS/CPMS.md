@@ -42,12 +42,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 37DB76F1-8FDC-3B92-97C9-47CBFC6C1491
 -  Functions: 126
 -  Symbols:   487
--  CStrings:  380
+-  CStrings:  502
++  UUID: CC3526A6-EF46-3520-A2B3-FF33A9F47E11
 +  Functions: 127
 +  Symbols:   489
-+  CStrings:  381
++  CStrings:  503
  
 Symbols:
 + _PPMCallbackHandler.cold.4

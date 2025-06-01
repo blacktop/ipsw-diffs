@@ -39,12 +39,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 840F546D-B950-3FE0-AF1D-09E984C2C25D
 -  Functions: 23
 -  Symbols:   309
--  CStrings:  294
+-  CStrings:  325
++  UUID: 14E95B2C-32E3-3192-AA16-3E4DC7308E19
 +  Functions: 22
 +  Symbols:   302
-+  CStrings:  281
++  CStrings:  309
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/0c8284c3-07b0-11ef-bffa-fa87d3da4027/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/usr/local/lib/libpartition.a(partition.o)

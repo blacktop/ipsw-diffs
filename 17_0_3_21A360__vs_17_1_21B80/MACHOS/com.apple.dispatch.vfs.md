@@ -14,4 +14,13 @@
    __TEXT.__oslogstring: 0x3e
    __TEXT.__unwind_info: 0x64
 
+   __DATA.__const: 0x70
+   __DATA.__bss: 0x20
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 1214E4F3-EE60-3183-9577-74A5C999192F
++  UUID: C362753A-1508-3DD7-BA1C-1F63FAB6E4AC
+   Functions: 6
+   Symbols:   35
+   CStrings:  10
+
 ```

@@ -45,13 +45,16 @@
    __DATA.__data: 0xc0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F24703BD-F907-30A3-AF96-5431BCDEC276
++  UUID: 66A8D65F-36D9-3EFE-8ED6-DA1E18C05219
    Functions: 61
 -  Symbols:   92
--  CStrings:  181
+-  CStrings:  189
 +  Symbols:   94
-+  CStrings:  186
++  CStrings:  194
  
 Symbols:
 + _ICQActionParameterOpenURLKey

@@ -56,7 +56,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x6598
 +  __AUTH_CONST.__objc_const: 0xba18
    __AUTH_CONST.__const: 0x1560
-   __AUTH_CONST.__auth_ptr: 0x120
 -  __AUTH_CONST.__cfstring: 0x2d100
 -  __AUTH_CONST.__objc_dictobj: 0x1a68
 +  __AUTH_CONST.__cfstring: 0x2d280
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 28C80BD9-6CF1-3461-83BF-75BBBB50768F
 -  Functions: 8916
 -  Symbols:   29756
--  CStrings:  13705
+-  CStrings:  19473
++  UUID: FEA5F37D-37AD-36BD-9516-7EC534BAD3DE
 +  Functions: 8929
 +  Symbols:   29842
-+  CStrings:  13727
++  CStrings:  19507
  
 Symbols:
 + +[PFModelDecoderContext assertNoContext]

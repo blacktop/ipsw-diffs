@@ -26,7 +26,7 @@
 +  __AUTH_CONST.__const: 0x10b10
    __AUTH_CONST.__cfstring: 0x1c0
    __AUTH_CONST.__objc_const: 0x190
-   __AUTH_CONST.__auth_ptr: 0x6e0
+   __AUTH_CONST.__auth_got: 0x3028
 
    __AUTH.__objc_data: 0x3a0
    __DATA.__objc_ivar: 0x4
@@ -36,6 +36,15 @@
    __DATA.__objc_stublist: 0x8
    __DATA.__bss: 0x17580
    __DATA.__common: 0x370
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EE8EFBE1-7241-3E7E-9441-D00C35D1B2F7
++  UUID: 81E70593-FECD-37E1-96CE-2195E4967755
+   Functions: 25235
+   Symbols:   23224
+   CStrings:  2861
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyAA6VStackVyAA05TupleE0VyACyACyAA5GroupVyAA4TextVGAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAQ4CaseOSgGG_AA6SpacerVAA6HStackVyAMyACyACyAqWy12CoreGraphics7CGFloatVGGAA0i10AttachmentV0VG_A2_tGGA2_ACyAOyAA012_ConditionalD0VyA16_y07WeatherB0024SunriseSunsetNormalChartE0VA17_026SunriseSunsetPolarDayChartE0VGA17_028SunriseSunsetPolarNightChartE0VGGAA08_PaddingR0VGA2_A4_yAMyACyACyACyAqWySiSgGGA8_GA11_G_A2_tGGSgtGGAWyAA5ColorVSgGG_Qo_A11_GAaDHPqd__AaDHD2_A45_HO_A11_AA0eV0HPyHCHC.3
 + _symbolic _____yAAy_____y_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5GroupV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AG4CaseO

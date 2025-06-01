@@ -4,7 +4,7 @@
 
 ```diff
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0xa508
    __AUTH_CONST.__auth_got: 0x5e0
    __AUTH.__data: 0x50
 -  __DATA.__data: 0x328
@@ -22,5 +22,10 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 8CB72921-A64A-3A38-A8EB-8CE2DA870238
++  UUID: F7B0E6AF-35C6-3B9D-91BD-8D67B4920169
+   Functions: 8401
+   Symbols:   20906
+   CStrings:  3034
 
 ```

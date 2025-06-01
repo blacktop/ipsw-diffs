@@ -66,12 +66,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BCD977EE-A9C4-32D2-BA25-B8D2BD987D89
 -  Functions: 412
 -  Symbols:   1405
--  CStrings:  712
+-  CStrings:  824
++  UUID: CA3F91E5-CB06-3D86-881E-D9235CB09E63
 +  Functions: 423
 +  Symbols:   1423
-+  CStrings:  719
++  CStrings:  825
  
 Symbols:
 + +[SAInternalAPI importFromPlist:reply:]

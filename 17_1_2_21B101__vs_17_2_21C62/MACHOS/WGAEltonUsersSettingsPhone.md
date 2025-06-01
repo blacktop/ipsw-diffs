@@ -56,12 +56,14 @@
 -  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4806064-C2C8-3C9E-96B4-31830BBF4E2C
 -  Functions: 41
 -  Symbols:   113
--  CStrings:  142
+-  CStrings:  187
++  UUID: A12A1B23-C9D0-3DA3-A549-F100AE7F933B
 +  Functions: 39
 +  Symbols:   110
-+  CStrings:  134
++  CStrings:  175
  
 Symbols:
 - _IsInternalBuild

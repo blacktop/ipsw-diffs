@@ -57,11 +57,13 @@
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: EF2AEBFB-8B6D-3FDE-AF9A-B82F9344A485
 -  Functions: 19500
++  UUID: A90C9743-A535-3B2A-A7DA-4DDF81E92E41
 +  Functions: 19507
    Symbols:   889
--  CStrings:  15276
-+  CStrings:  15292
+-  CStrings:  17140
++  CStrings:  17158
  
 CStrings:
 + "#btsampledistributor #nibtfinding btAddress is nil"

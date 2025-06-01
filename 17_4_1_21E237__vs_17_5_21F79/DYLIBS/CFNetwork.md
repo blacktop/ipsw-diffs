@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_arrayobj: 0x30
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x2b28
 +  __AUTH_CONST.__auth_got: 0x2b18
    __AUTH.__objc_data: 0x17c0
@@ -81,12 +80,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A0DA81AF-6773-3A72-A9A5-264F31047A16
 -  Functions: 13530
 -  Symbols:   2555
--  CStrings:  9829
+-  CStrings:  11844
++  UUID: A5124019-E235-3716-86C7-E75CF0163945
 +  Functions: 13529
 +  Symbols:   2553
-+  CStrings:  9826
++  CStrings:  11840
  
 Symbols:
 - _CFRunLoopGetMain

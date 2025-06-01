@@ -41,13 +41,16 @@
    __DATA.__objc_ivar: 0x4
    __DATA_DIRTY.__objc_data: 0xaf0
 
+   - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8170EB16-5132-3C21-B08B-526869282BBC
++  UUID: DB8140EB-6A2D-3230-965A-6D483CEDB76E
    Functions: 147
 -  Symbols:   702
--  CStrings:  334
+-  CStrings:  477
 +  Symbols:   705
-+  CStrings:  335
++  CStrings:  478
  
 Symbols:
 + _OBJC_CLASS_$_UICollectionViewListCell

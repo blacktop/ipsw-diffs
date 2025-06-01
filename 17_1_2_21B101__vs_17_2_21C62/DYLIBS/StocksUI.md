@@ -60,10 +60,8 @@
    __AUTH_CONST.__objc_const: 0xb90
    __AUTH_CONST.__cfstring: 0x100
 -  __AUTH_CONST.__const: 0x21e00
--  __AUTH_CONST.__auth_ptr: 0x1108
 -  __AUTH_CONST.__auth_got: 0x6e78
 +  __AUTH_CONST.__const: 0x21de0
-+  __AUTH_CONST.__auth_ptr: 0x1118
 +  __AUTH_CONST.__auth_got: 0x6f70
    __AUTH.__objc_data: 0x3010
 -  __AUTH.__data: 0x3b40
@@ -101,12 +99,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48D71FFD-936D-37BF-B2AA-995120E55F86
 -  Functions: 21545
 -  Symbols:   7108
--  CStrings:  4318
+-  CStrings:  4326
++  UUID: E6FBDA38-92D8-3489-AB1F-165B7C8A72E7
 +  Functions: 21589
 +  Symbols:   7099
-+  CStrings:  4328
++  CStrings:  4336
  
 Symbols:
 + __DATA__TtC8StocksUI29ProvideFeedbackCommandHandler

@@ -22,4 +22,13 @@
    __DATA.__objc_data: 0xa0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/SlideshowKit.framework/Frameworks/OpusKit.framework/OpusKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 958C1732-8CF4-3556-B983-D916E19CF2C8
++  UUID: 05C2463F-F5B0-3359-9DF5-B9028E595AFB
+   Functions: 38
+   Symbols:   82
+   CStrings:  410
+
 ```

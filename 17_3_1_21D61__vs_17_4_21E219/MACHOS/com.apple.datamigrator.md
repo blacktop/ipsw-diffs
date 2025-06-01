@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9F98E842-3244-326D-AE30-D573B8EE91A9
 -  Functions: 414
 -  Symbols:   300
--  CStrings:  1157
+-  CStrings:  1479
++  UUID: 5D8C6ECF-D44B-3923-8B22-661C6591A880
 +  Functions: 425
 +  Symbols:   302
-+  CStrings:  1161
++  CStrings:  1483
  
 Symbols:
 + _OBJC_CLASS_$_DMLoggingTask

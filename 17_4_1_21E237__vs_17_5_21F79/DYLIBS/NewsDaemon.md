@@ -81,12 +81,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 76217546-4FEB-30CD-86B7-34E906C1A36E
 -  Functions: 107
 -  Symbols:   484
--  CStrings:  244
+-  CStrings:  260
++  UUID: 47C5A5B2-81D6-3075-B6AD-1BEF6A79BAD1
 +  Functions: 189
 +  Symbols:   796
-+  CStrings:  389
++  CStrings:  420
  
 Symbols:
 + +[NDDownloadLimits defaultLimits]

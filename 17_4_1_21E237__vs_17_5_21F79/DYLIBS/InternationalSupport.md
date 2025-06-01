@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A097D7A8-CA60-3C12-A629-AC2E2FFE4773
 -  Functions: 151
 -  Symbols:   732
--  CStrings:  1491
+-  CStrings:  3284
++  UUID: 66278B7C-26B3-3E35-A536-CE78AA30C087
 +  Functions: 152
 +  Symbols:   738
-+  CStrings:  1494
++  CStrings:  3287
  
 Symbols:
 + +[ISLanguageCarousel _rankedItems:usePreferredLanguages:guessedRegion:]

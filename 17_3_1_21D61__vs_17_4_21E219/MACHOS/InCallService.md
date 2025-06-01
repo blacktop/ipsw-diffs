@@ -138,12 +138,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0B9A7E8-8F6C-3378-A1A1-7928FA91F234
 -  Functions: 9605
 -  Symbols:   2062
--  CStrings:  12296
+-  CStrings:  13196
++  UUID: CF2217ED-F8B7-361D-BAB3-E279DAB53D7E
 +  Functions: 9660
 +  Symbols:   2100
-+  CStrings:  12502
++  CStrings:  13415
  
 Symbols:
 + _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC

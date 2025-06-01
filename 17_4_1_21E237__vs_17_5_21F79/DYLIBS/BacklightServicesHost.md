@@ -67,12 +67,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
+-  UUID: D42E58CE-DAD3-3572-B1E3-7895A97DD5B7
 -  Functions: 2907
 -  Symbols:   9962
--  CStrings:  4496
+-  CStrings:  5203
++  UUID: 49A75BAB-50D8-3353-9733-254CB95A9A08
 +  Functions: 2913
 +  Symbols:   9984
-+  CStrings:  4513
++  CStrings:  5226
  
 Symbols:
 + -[BLSHBacklightDisplayStateMachine abortContextForTimer:]

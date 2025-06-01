@@ -45,11 +45,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 78B02745-C2AE-3D90-85AA-EDFA30F7E08A
++  UUID: 4D6557B8-2B26-3623-BC3C-2F9CA8399182
    Functions: 740
    Symbols:   2521
--  CStrings:  1237
-+  CStrings:  1238
+-  CStrings:  1476
++  CStrings:  1477
  
 Symbols:
 + ___28-[APSTaskClient resolveDNS:]_block_invoke.56

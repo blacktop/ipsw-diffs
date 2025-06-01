@@ -48,7 +48,6 @@
    __AUTH_CONST.__objc_dictobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x60
    __AUTH_CONST.__objc_doubleobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x58
 -  __AUTH_CONST.__auth_got: 0xa9f0
 +  __AUTH_CONST.__auth_got: 0xa9d8
    __AUTH.__objc_data: 0x3e30
@@ -69,12 +68,14 @@
    - /usr/lib/libnetwork.dylib
    - /usr/lib/libnetworkextension.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 83B99481-3EA7-3037-A07F-03D9DCF3A12A
 -  Functions: 57465
 -  Symbols:   144121
--  CStrings:  21746
+-  CStrings:  23235
++  UUID: 6A2AA3EB-B8D1-3654-ABE1-85F8462B1E74
 +  Functions: 57479
 +  Symbols:   144141
-+  CStrings:  21738
++  CStrings:  23226
  
 Symbols:
 + -[WKContentView _createDrawingAreaProxy:]

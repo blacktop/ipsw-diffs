@@ -21,4 +21,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E3D9DCEC-5A71-36E0-A9DD-B0A321231E88
++  UUID: D8B6BE16-D966-3411-9C61-8CDC115D5939
+   Functions: 8
+   Symbols:   50
+   CStrings:  39
+
 ```

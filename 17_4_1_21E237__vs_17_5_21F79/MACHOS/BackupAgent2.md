@@ -58,12 +58,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A61A08FA-42A0-392D-B356-B1C2D039A2B1
 -  Functions: 2244
 -  Symbols:   568
--  CStrings:  7319
+-  CStrings:  8619
++  UUID: E46D890A-B02B-3230-BCAA-E3284DE79D31
 +  Functions: 2250
 +  Symbols:   569
-+  CStrings:  7334
++  CStrings:  8633
  
 Symbols:
 + _OBJC_CLASS_$_NSByteCountFormatter

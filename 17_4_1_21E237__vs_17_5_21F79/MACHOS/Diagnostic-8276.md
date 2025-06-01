@@ -45,13 +45,16 @@
    __DATA.__objc_data: 0x280
    __DATA.__data: 0x2a0
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F71F6038-375C-3233-9DDC-820E6D1C2E76
++  UUID: B7D05DB0-F513-3860-AFCC-72F19481B7AC
    Functions: 361
 -  Symbols:   448
--  CStrings:  1166
+-  CStrings:  1542
 +  Symbols:   449
-+  CStrings:  1179
++  CStrings:  1567
  
 Symbols:
 + __ZN17DeviceCMInterface23requestControlOfStreamsEbj

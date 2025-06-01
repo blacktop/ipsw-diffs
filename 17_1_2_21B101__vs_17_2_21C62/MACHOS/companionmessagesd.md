@@ -33,18 +33,22 @@
    __DATA_CONST.__objc_protolist: 0x28
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/WatchReplies.framework/WatchReplies
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B00DBEB-B5B2-37C9-B7B2-8F7788C76434
++  UUID: 7AE968A3-AA19-3F1B-805A-6A693AE4E918
    Functions: 167
 -  Symbols:   150
--  CStrings:  415
+-  CStrings:  451
 +  Symbols:   148
-+  CStrings:  411
++  CStrings:  439
  
 Symbols:
 - _MarcoLogMadridLevel
 - _MarcoShouldLogMadridLevel
 CStrings:
 - "IMFoundation"
+- "S"
 
 ```

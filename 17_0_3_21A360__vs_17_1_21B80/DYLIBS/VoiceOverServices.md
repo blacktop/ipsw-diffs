@@ -58,12 +58,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BF0EA658-B0E9-3D58-888D-905308C87216
 -  Functions: 1408
 -  Symbols:   5798
--  CStrings:  2428
+-  CStrings:  3501
++  UUID: 8CBF5C75-F5C2-321F-8C15-52D2C01ED9CC
 +  Functions: 1411
 +  Symbols:   5806
-+  CStrings:  2435
++  CStrings:  3508
  
 Symbols:
 + -[VOSBluetoothSSPPairingRequest _btDevice]

@@ -14,4 +14,13 @@
    __TEXT.__unwind_info: 0xc8
    __DATA_CONST.__auth_got: 0x278
 
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 1B62B5D0-4008-3301-96B6-EEEDFDD58AD1
++  UUID: 0514C393-87CD-3DDB-890E-99FB6AB888ED
+   Functions: 42
+   Symbols:   94
+   CStrings:  275
+
 ```

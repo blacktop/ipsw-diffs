@@ -52,12 +52,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 76715F01-66D9-3849-92D3-E7AE72C74D37
 -  Functions: 1386
 -  Symbols:   599
--  CStrings:  3089
+-  CStrings:  3279
++  UUID: 8141008F-FE21-3C57-8C8F-8CA971EC74E7
 +  Functions: 1384
 +  Symbols:   598
-+  CStrings:  3083
++  CStrings:  3273
  
 Symbols:
 - _IMDMessageRecordCalculateTotalCounts

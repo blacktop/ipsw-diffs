@@ -36,12 +36,15 @@
    __AUTH.__data: 0x28
    __DATA.__objc_protorefs: 0x8
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9C4F11D1-388E-35CE-897D-AAD942A3A38C
++  UUID: 74D0AEC0-13D5-3ECA-86D3-A394E89DA033
    Functions: 4435
 -  Symbols:   12002
 +  Symbols:   12003
-   CStrings:  7779
+   CStrings:  9148
  
 Symbols:
 + +[WAUtil incrementValueForKey:inMutableDict:onQueue:]

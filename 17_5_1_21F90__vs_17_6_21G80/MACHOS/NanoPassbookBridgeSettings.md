@@ -26,11 +26,15 @@
    __DATA.__objc_ivar: 0xe8
    __DATA.__objc_data: 0x320
 
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 53875043-934D-334C-AB38-F950FD691476
++  UUID: 987B4CDD-667B-399D-B5E0-16BCC773073A
    Functions: 480
    Symbols:   249
--  CStrings:  1309
-+  CStrings:  1310
+-  CStrings:  1398
++  CStrings:  1399
  
 CStrings:
 + "settingsController:requestsForcedPresentViewController:animated:completion:"

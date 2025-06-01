@@ -61,12 +61,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 9B1F5326-6F98-3E89-B4DD-2F0FB3DE479C
 -  Functions: 1326
 -  Symbols:   1016
--  CStrings:  3363
+-  CStrings:  4940
++  UUID: 3E0452D7-7C3C-3A4E-91B5-C68D10F8DEDB
 +  Functions: 1295
 +  Symbols:   1013
-+  CStrings:  3378
++  CStrings:  4956
  
 Symbols:
 + __ZN17Printd_Parameters23_del_RequestingUserNameEv

@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 94B2D17E-B6E0-3787-B9EF-0BE30EF63FD4
 -  Functions: 1049
 -  Symbols:   4126
--  CStrings:  2294
+-  CStrings:  2624
++  UUID: 36E336C7-CAC8-3904-BAA1-D96FF47ADDE0
 +  Functions: 1053
 +  Symbols:   4149
-+  CStrings:  2307
++  CStrings:  2637
  
 Symbols:
 + -[HLPHelpItem decodedName]

@@ -74,12 +74,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: F6C75C10-DAA1-3661-9ED8-073563206B8B
 -  Functions: 475
 -  Symbols:   311
--  CStrings:  1329
+-  CStrings:  1720
++  UUID: 08B8BB7E-86C9-3C70-8AEB-C8B67DBB132D
 +  Functions: 483
 +  Symbols:   315
-+  CStrings:  1343
++  CStrings:  1733
  
 Symbols:
 + _CFAbsoluteTimeGetCurrent

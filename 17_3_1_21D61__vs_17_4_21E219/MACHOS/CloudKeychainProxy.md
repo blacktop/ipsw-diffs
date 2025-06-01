@@ -44,13 +44,16 @@
    __DATA.__objc_data: 0x1e0
    __DATA.__data: 0x284
 
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A9406996-C082-354D-B00D-E67B80C7B7DC
++  UUID: DB7831FC-F323-3510-A0BA-C48DC4F02586
    Functions: 310
 -  Symbols:   272
--  CStrings:  692
+-  CStrings:  731
 +  Symbols:   273
-+  CStrings:  681
++  CStrings:  720
  
 Symbols:
 + ___kCFBooleanTrue

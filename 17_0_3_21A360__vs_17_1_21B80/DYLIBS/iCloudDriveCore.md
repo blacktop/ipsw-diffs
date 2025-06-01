@@ -70,12 +70,14 @@
    - /usr/lib/libprequelite.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 5FA6EAD4-2E71-3652-BDDD-9F36E44131CE
 -  Functions: 12483
 -  Symbols:   37466
--  CStrings:  20033
+-  CStrings:  23971
++  UUID: 476BC9D6-F3B1-3EDD-851F-4DD77F814F75
 +  Functions: 12717
 +  Symbols:   38129
-+  CStrings:  20467
++  CStrings:  24461
  
 Symbols:
 + +[BRCAccountSessionFPFS(BRCDatabaseManager) _checkIntegrity:serverTruth:session:skipControlFiles:deviceIDChanged:error:]

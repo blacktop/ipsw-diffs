@@ -16,4 +16,13 @@
    __TEXT.__cstring: 0x148
    __TEXT.__objc_methname: 0xdeb
 
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 13715E7F-D9DB-355A-B049-E5CF7D6F2EAE
++  UUID: A0F5A194-58EB-36A3-8B16-62B550E6808E
+   Functions: 71
+   Symbols:   93
+   CStrings:  280
+
 ```

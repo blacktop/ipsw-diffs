@@ -43,15 +43,6 @@
 -  __AUTH_CONST.__objc_const: 0x0
 -  __AUTH_CONST.__cfstring: 0x3460
 -  __AUTH_CONST.__const: 0x2a8
-+  __DATA_CONST.__objc_const: 0x6958
-+  __DATA_CONST.__objc_selrefs: 0xfb8
-+  __DATA_CONST.__objc_protorefs: 0x18
-+  __DATA_CONST.__objc_classrefs: 0x190
-+  __DATA_CONST.__objc_superrefs: 0x180
-+  __AUTH_CONST.__const: 0xb08
-+  __AUTH_CONST.__objc_const: 0x168
-+  __AUTH_CONST.__cfstring: 0x3620
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x4f8
 -  __DATA.__objc_protorefs: 0x18
 -  __DATA.__objc_classrefs: 0x158
@@ -60,6 +51,14 @@
 -  __DATA.__data: 0x960
 -  __DATA.__bss: 0x214
 -  __DATA_DIRTY.__const: 0x5210
++  __DATA_CONST.__objc_const: 0x6958
++  __DATA_CONST.__objc_selrefs: 0xfb8
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0x190
++  __DATA_CONST.__objc_superrefs: 0x180
++  __AUTH_CONST.__const: 0xb08
++  __AUTH_CONST.__objc_const: 0x168
++  __AUTH_CONST.__cfstring: 0x3620
 +  __AUTH_CONST.__auth_got: 0x508
 +  __AUTH.__objc_data: 0x190
 +  __DATA.__objc_ivar: 0x304
@@ -81,12 +80,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA103A5C-9876-3699-BE12-23BD4C627A45
 -  Functions: 1876
 -  Symbols:   697
--  CStrings:  1941
+-  CStrings:  2360
++  UUID: 8989A7B2-0728-3026-9F66-2E3A88268C94
 +  Functions: 1674
 +  Symbols:   760
-+  CStrings:  2019
++  CStrings:  2452
  
 Symbols:
 + OBJC_IVAR_$_MPSNDArray._rowElements

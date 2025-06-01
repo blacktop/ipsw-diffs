@@ -23,11 +23,13 @@
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 61691D5E-0F49-3902-A613-4C699F13DF50
 -  Functions: 9243
++  UUID: 76E31F91-4966-31DC-9D50-34D8460085B3
 +  Functions: 9247
    Symbols:   514
--  CStrings:  3055
-+  CStrings:  3057
+-  CStrings:  3071
++  CStrings:  3073
  
 CStrings:
 + "KERNEL_SPARSE_MATVEC_WAVERNN_2"

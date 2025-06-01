@@ -37,7 +37,6 @@
    __AUTH_CONST.__objc_const: 0x6c0
    __AUTH_CONST.__const: 0x140
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x7d0
 +  __AUTH_CONST.__auth_got: 0x7b8
    __AUTH.__objc_data: 0x140
@@ -51,12 +50,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 31CAB209-121E-3AB2-A0F0-00D17516D779
 -  Functions: 1027
 -  Symbols:   3802
--  CStrings:  2118
+-  CStrings:  2322
++  UUID: F86C723A-50F9-39AE-91D9-C9B2048F7256
 +  Functions: 1011
 +  Symbols:   3768
-+  CStrings:  2119
++  CStrings:  2323
  
 Symbols:
 + _AKS_FV_MDM_RECOVERY_KEY_UUID

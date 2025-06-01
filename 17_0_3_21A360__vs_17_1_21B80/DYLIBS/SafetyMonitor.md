@@ -41,20 +41,24 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0xf0
 
+   __DATA_CONST.__objc_selrefs: 0x1a30
    __AUTH_CONST.__const: 0x7c8
    __AUTH_CONST.__objc_const: 0x1c58
-   __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__cfstring: 0x4140
 +  __AUTH_CONST.__cfstring: 0x41c0
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x900
    __AUTH.__objc_data: 0x1008
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3468741F-11C8-317C-8B9E-1F65CCDF788C
++  UUID: E91DB5BC-4EF2-38E1-998E-C82025ADD218
    Functions: 1748
    Symbols:   4600
--  CStrings:  2573
-+  CStrings:  2577
+-  CStrings:  3095
++  CStrings:  3103
  
 Symbols:
 + -[SMSessionConfiguration isSameSession:]
@@ -71,6 +75,7 @@ CStrings:
 + "%@, destinations, %@, service, %@, capabilities, %@, numResults, %ld, error, %@"
 + "GeneralRuleContactBlocked"
 + "GeneralRuleContactNotExists"
++ "L"
 + "SUGGESTION_NOTIFICATION_BODY_FALLBACK"
 + "isSameSession:"
 - " will be notified when you arrive.\nYour ETA is "

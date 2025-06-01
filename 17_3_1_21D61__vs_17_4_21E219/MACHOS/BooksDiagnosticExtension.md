@@ -21,4 +21,13 @@
    __DATA.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D5825F71-ADD6-3E13-981E-0A7A9ECF1D88
++  UUID: F7893ECD-A126-3672-8C4B-F53585F4FA81
+   Functions: 29
+   Symbols:   77
+   CStrings:  159
+
 ```

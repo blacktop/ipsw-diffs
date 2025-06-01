@@ -45,9 +45,8 @@
    __AUTH_CONST.__objc_doubleobj: 0x60
    __AUTH_CONST.__objc_intobj: 0x9f0
    __AUTH_CONST.__objc_arrayobj: 0x930
-
+   __AUTH_CONST.__const: 0x880
    __AUTH_CONST.__objc_dictobj: 0x500
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__objc_floatobj: 0x20
 -  __AUTH_CONST.__auth_got: 0x758
 -  __AUTH.__objc_data: 0x7d00
@@ -70,12 +69,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DD47181-BAF6-3C4C-9968-4A488FC0A35D
 -  Functions: 4784
 -  Symbols:   18940
--  CStrings:  14463
+-  CStrings:  16682
++  UUID: D0AD55C2-61EE-326E-853E-9D73BC4279E8
 +  Functions: 4786
 +  Symbols:   18949
-+  CStrings:  14470
++  CStrings:  16694
  
 Symbols:
 + -[SoftISPBounds hiqhQualityProcessingRegionWithinOutputBufferInPixels]

@@ -54,7 +54,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x168
    __AUTH_CONST.__objc_dictobj: 0x190
    __AUTH_CONST.__objc_doubleobj: 0x100
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0xa28
 -  __AUTH.__objc_data: 0x2568
 +  __AUTH.__objc_data: 0x2518
@@ -75,11 +74,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 24A383D6-8C00-3037-9E7E-5C9C7685D341
 -  Functions: 8186
++  UUID: 635DE434-F7A5-34E6-862A-F003E67916C2
 +  Functions: 8188
    Symbols:   25042
--  CStrings:  9388
-+  CStrings:  9410
+-  CStrings:  10530
++  CStrings:  10551
  
 Symbols:
 + -[EKTravelLookupManager _findCoordinatesForLocation:completionBlock:]

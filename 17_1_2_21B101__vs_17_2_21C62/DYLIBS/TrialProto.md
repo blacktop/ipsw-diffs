@@ -30,8 +30,7 @@
    __DATA_CONST.__objc_selrefs: 0x1d00
    __AUTH_CONST.__cfstring: 0x2f80
    __AUTH_CONST.__objc_const: 0x3eb8
-
-   __AUTH_CONST.__auth_ptr: 0x10
+   __AUTH_CONST.__const: 0xb0
    __AUTH_CONST.__auth_got: 0x3d8
    __AUTH.__objc_data: 0x140
 -  __AUTH.__data: 0x1238
@@ -49,12 +48,14 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
-
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2CD5828E-7BF9-3A3D-95BC-A6540BC8AFB7
++  UUID: 12F70C38-922C-375B-8B55-5CE45C3ACBDE
    Functions: 2919
    Symbols:   8412
--  CStrings:  3008
-+  CStrings:  3011
+-  CStrings:  3388
++  CStrings:  3391
  
 Symbols:
 + _descriptor.descriptor.57

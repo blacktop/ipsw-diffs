@@ -19,4 +19,13 @@
    __DATA_CONST.__auth_got: 0x330
    __DATA_CONST.__got: 0x78
 
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libWirelessAudioIPC.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 99819951-76A1-3226-AD07-A1879D2EC8C9
++  UUID: 4F0418D8-BFCD-3BD0-956E-F2E8BBBD0E35
+   Functions: 119
+   Symbols:   125
+   CStrings:  188
+
 ```

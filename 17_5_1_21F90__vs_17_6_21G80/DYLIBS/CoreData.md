@@ -46,12 +46,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 9ABF1B44-5342-3A79-97A4-463B6DC9047C
++  UUID: 34FA993F-9D4D-36A1-BCEE-FA6109C38AEE
    Functions: 8964
 -  Symbols:   29960
 +  Symbols:   29959
-   CStrings:  13883
+   CStrings:  19719
  
 Symbols:
 + +[_PFRoutines insecureBoolValueForOverride:]

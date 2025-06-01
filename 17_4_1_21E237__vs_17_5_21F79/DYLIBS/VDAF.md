@@ -18,7 +18,6 @@
    __DATA_CONST.__objc_const: 0x448
 -  __AUTH_CONST.__const: 0x2e80
 +  __AUTH_CONST.__const: 0x1718
-   __AUTH_CONST.__auth_ptr: 0x140
    __AUTH_CONST.__auth_got: 0x870
 -  __AUTH.__data: 0x1078
 +  __AUTH.__data: 0x550
@@ -31,5 +30,14 @@
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4F1C06AD-6129-3EC1-9983-B5969F72944A
++  UUID: 76F36EC7-20B4-307D-AC1C-E5E6E71EEC4A
+   Functions: 2852
+   Symbols:   7091
+   CStrings:  101
 
 ```

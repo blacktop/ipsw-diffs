@@ -35,12 +35,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 168D132A-E1B7-3402-A628-5A111AAAD069
 -  Functions: 2586
 -  Symbols:   7484
--  CStrings:  2528
+-  CStrings:  2968
++  UUID: C67EDF5B-A7A1-3461-A1D5-C3ADA69C5817
 +  Functions: 2416
 +  Symbols:   7145
-+  CStrings:  2530
++  CStrings:  2970
  
 Symbols:
 + __Z16WTFCrashWithInfoiPKcS0_i

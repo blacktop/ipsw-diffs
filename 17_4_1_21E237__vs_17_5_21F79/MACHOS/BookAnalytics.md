@@ -109,12 +109,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  - @rpath/JSApp.framework/JSApp
+-  UUID: 91F4CB13-56AF-3873-8B0C-0D47DA850D5F
 -  Functions: 23677
 -  Symbols:   348
--  CStrings:  1292
+-  CStrings:  1323
++  UUID: 79F7660E-BA51-33A3-80EC-674B684D75B6
 +  Functions: 24225
 +  Symbols:   344
-+  CStrings:  1320
++  CStrings:  1351
  
 Symbols:
 + _OBJC_CLASS_$_BAMarkedData

@@ -67,12 +67,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 91CF6B60-8045-3D6A-9F68-F044035F5A6F
 -  Functions: 179
 -  Symbols:   283
--  CStrings:  670
+-  CStrings:  705
++  UUID: 62D92AEB-5877-3648-9A14-F324DFB883FB
 +  Functions: 171
 +  Symbols:   276
-+  CStrings:  650
++  CStrings:  684
  
 Symbols:
 - _MSMediaStreamInitialize

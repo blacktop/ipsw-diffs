@@ -21,4 +21,13 @@
    __AUTH_CONST.__const: 0x1d8
    __AUTH_CONST.__auth_got: 0x158
 
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: CA24487C-64F4-38B7-9DE7-0A5DADED3B74
++  UUID: 8307F237-264D-37DF-BFFC-68CDF3946C0B
+   Functions: 107
+   Symbols:   165
+   CStrings:  6
+
 ```

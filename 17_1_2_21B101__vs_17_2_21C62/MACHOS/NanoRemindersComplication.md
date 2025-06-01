@@ -18,4 +18,13 @@
    - /System/Library/PrivateFrameworks/CoreRecents.framework/CoreRecents
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 73420A94-142F-3FBA-9AAE-3EA5F6EE0205
++  UUID: 11384BF8-0C41-3085-BC5A-CF78DB72D754
+   Functions: 212
+   Symbols:   197
+   CStrings:  431
+
 ```

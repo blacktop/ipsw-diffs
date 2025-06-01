@@ -47,7 +47,6 @@
 -  __AUTH_CONST.__const: 0xc528
 +  __AUTH_CONST.__const: 0xc550
    __AUTH_CONST.__objc_const: 0x230
-   __AUTH_CONST.__auth_ptr: 0x3b8
 -  __AUTH_CONST.__auth_got: 0x1f80
 +  __AUTH_CONST.__auth_got: 0x1f88
    __AUTH.__objc_data: 0x378
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F3DC64E4-2B0A-3BC9-AB94-7BEFCCD9BA54
 -  Functions: 9340
 -  Symbols:   2282
--  CStrings:  1332
+-  CStrings:  1342
++  UUID: 91E027D4-2EE4-3A64-9894-793A655E20D8
 +  Functions: 9385
 +  Symbols:   2281
-+  CStrings:  1352
++  CStrings:  1362
  
 Symbols:
 + _HealthAppAnalyticsAgreementImproveHealthAndAnalytics

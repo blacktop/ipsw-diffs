@@ -56,7 +56,6 @@
 +  __AUTH_CONST.__const: 0xf5e0
    __AUTH_CONST.__cfstring: 0x20
    __AUTH_CONST.__objc_const: 0xd8
-   __AUTH_CONST.__auth_ptr: 0x268
 -  __AUTH_CONST.__auth_got: 0x1b70
 +  __AUTH_CONST.__auth_got: 0x1b78
    __AUTH.__objc_data: 0x1b10
@@ -86,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3AB00805-3770-3B50-B099-1F26C380DE0F
 -  Functions: 9650
 -  Symbols:   4734
--  CStrings:  1799
+-  CStrings:  1800
++  UUID: 92F9D260-6C43-383D-87B4-F0C5AE730B66
 +  Functions: 9679
 +  Symbols:   4720
-+  CStrings:  1825
++  CStrings:  1826
  
 Symbols:
 + _PSPassbookImage

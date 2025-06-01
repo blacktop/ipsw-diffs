@@ -37,12 +37,14 @@
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9076F404-76A0-359D-BEFE-7A51085A3A55
 -  Functions: 259
 -  Symbols:   401
--  CStrings:  912
+-  CStrings:  1290
++  UUID: 3A84D249-41B4-36F4-9B4E-3943944665B9
 +  Functions: 262
 +  Symbols:   404
-+  CStrings:  914
++  CStrings:  1293
  
 Symbols:
 + _MILoadInfoPlistWithError

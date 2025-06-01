@@ -36,7 +36,7 @@
 +  __AUTH_CONST.__cfstring: 0x26c0
    __AUTH_CONST.__objc_const: 0x0
    __AUTH_CONST.__objc_dictobj: 0x50
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_intobj: 0x30
 
    __DATA.__objc_classrefs: 0x158
    __DATA.__objc_superrefs: 0xa8
@@ -50,12 +50,14 @@
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsandbox.1.dylib
+-  UUID: 3CCF3F60-8550-3604-81EC-3F23DEFF4C79
 -  Functions: 1083
 -  Symbols:   3391
--  CStrings:  1608
+-  CStrings:  1914
++  UUID: 7FAE79E3-E1E0-3C37-8FBA-7B07B6D474D6
 +  Functions: 1084
 +  Symbols:   3396
-+  CStrings:  1613
++  CStrings:  1923
  
 Symbols:
 + +[_ANEStrings secondaryANECompilerServiceAccessEntitlement]

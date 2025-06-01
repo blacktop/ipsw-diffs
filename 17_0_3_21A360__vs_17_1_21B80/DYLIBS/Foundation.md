@@ -63,7 +63,6 @@
    __DATA_CONST.__objc_arraydata: 0xe370
 -  __AUTH_CONST.__const: 0x2a998
 +  __AUTH_CONST.__const: 0x2a980
-   __AUTH_CONST.__auth_ptr: 0x690
    __AUTH_CONST.__objc_const: 0x101c0
 -  __AUTH_CONST.__cfstring: 0x26740
 +  __AUTH_CONST.__cfstring: 0x26720
@@ -91,11 +90,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 60F744F4-1345-325E-8970-D37BB5A1A31D
 -  Functions: 45847
 -  Symbols:   121822
+-  CStrings:  22110
++  UUID: 8DDF9BDA-F5FB-3020-9BE1-05BC15FCFBA1
 +  Functions: 45807
 +  Symbols:   121771
-   CStrings:  17188
++  CStrings:  22109
  
 Symbols:
 + -[NSURL(NSURLPathUtilities) checkResourceIsReachableAndReturnError:]

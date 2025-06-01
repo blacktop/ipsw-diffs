@@ -11,4 +11,13 @@
    __TEXT.__objc_methlist: 0x4b8
    __TEXT.__const: 0x9bf0
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EF07879D-8F49-3AC2-B420-75DC607145CC
++  UUID: 26180B1C-3EF3-3AF6-9E52-E7F43FC5979D
+   Functions: 2275
+   Symbols:   6496
+   CStrings:  992
+
 ```

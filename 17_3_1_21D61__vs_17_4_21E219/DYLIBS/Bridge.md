@@ -58,12 +58,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AB81243-1AF5-3BA5-BF29-23B4AEF8C778
 -  Functions: 167
 -  Symbols:   778
--  CStrings:  310
+-  CStrings:  451
++  UUID: 63388D4A-4865-3934-AB13-5550568970FA
 +  Functions: 145
 +  Symbols:   692
-+  CStrings:  288
++  CStrings:  417
  
 Symbols:
 + ___block_literal_global.237

@@ -40,11 +40,15 @@
    __DATA.__data: 0x2b0
    __DATA.__bss: 0x20
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 2505B625-3B51-3CAE-BDFC-F3ECC6C26142
++  UUID: BA2E8B26-545C-30B7-8777-3B5E7CAB4680
    Functions: 307
    Symbols:   1402
--  CStrings:  809
-+  CStrings:  810
+-  CStrings:  943
++  CStrings:  944
  
 Symbols:
 + ___46-[HAENotificationCenterClient setupConnection]_block_invoke.50

@@ -50,12 +50,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 60B85310-2BE0-38EB-85FA-777F9659D843
 -  Functions: 236
 -  Symbols:   248
--  CStrings:  610
+-  CStrings:  662
++  UUID: 46462436-074E-3FFF-9077-767115C46B04
 +  Functions: 237
 +  Symbols:   247
-+  CStrings:  611
++  CStrings:  663
  
 Symbols:
 - _swift_bridgeObjectRetain_n

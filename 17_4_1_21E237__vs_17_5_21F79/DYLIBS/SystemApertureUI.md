@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x4371
    __TEXT.__objc_methtype: 0x1238
 
+   - /System/Library/PrivateFrameworks/SystemAperture.framework/SystemAperture
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 19083F47-8499-3F9D-8414-F0CD783ADB13
++  UUID: 186F314A-8F18-3BCC-8B38-75309CB587F7
+   Functions: 439
+   Symbols:   1899
+   CStrings:  1031
+
 ```

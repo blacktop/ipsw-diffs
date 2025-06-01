@@ -25,4 +25,13 @@
    __DATA.__objc_data: 0xa0
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/WatchReplies.framework/WatchReplies
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C857D1EC-A140-3989-8CF9-EF883FD74B9F
++  UUID: B84EEA35-09DB-3C1C-8D7A-7D721268DE1C
+   Functions: 35
+   Symbols:   66
+   CStrings:  161
+
 ```

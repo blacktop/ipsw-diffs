@@ -43,13 +43,16 @@
    __DATA.__objc_ivar: 0x14
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 979DFC0C-EB11-39DF-AB69-469CED58CD73
++  UUID: 872ABA2D-9E5D-34FE-949C-D137ABD6276E
    Functions: 41
 -  Symbols:   258
--  CStrings:  147
+-  CStrings:  182
 +  Symbols:   265
-+  CStrings:  155
++  CStrings:  190
  
 Symbols:
 + +[SLGoogleAuthController _identityFromUsername:displayName:token:refreshToken:idToken:grantedDataclasses:]

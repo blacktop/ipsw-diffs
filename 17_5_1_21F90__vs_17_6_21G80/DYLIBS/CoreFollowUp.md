@@ -24,11 +24,13 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 044E0936-4E3F-3A27-A793-F928DE6DD5C5
 -  Functions: 1061
 -  Symbols:   2178
++  UUID: 323BA172-6022-3635-989B-F10217E7B10A
 +  Functions: 1062
 +  Symbols:   2180
-   CStrings:  1122
+   CStrings:  1375
  
 Symbols:
 + ___34-[FLFollowUpAction _loadActionURL]_block_invoke

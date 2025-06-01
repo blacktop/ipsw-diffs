@@ -40,11 +40,15 @@
    - /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/CoreEmbeddedSpeechRecognition
    - /System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech
 
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EC8A04AA-311D-3EAE-BF14-D2EA4503BBE2
++  UUID: 97F370F2-EAA2-3AA6-B1AE-3D474DE6CDEF
    Functions: 51
    Symbols:   155
--  CStrings:  510
-+  CStrings:  511
+-  CStrings:  635
++  CStrings:  636
  
 Symbols:
 + _OBJC_CLASS_$_SFEntitledAssetConfig

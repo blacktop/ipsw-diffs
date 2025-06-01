@@ -1,0 +1,22 @@
+## CloudBookmarksAccountsNotifier
+
+> `/System/Library/Accounts/Notification/CloudBookmarksAccountsNotifier.bundle/CloudBookmarksAccountsNotifier`
+
+```diff
+
+-7618.1.15.10.15
++7618.2.12.10.9
+   __TEXT.__text: 0x3c4
+   __TEXT.__auth_stubs: 0x1a0
+   __TEXT.__objc_stubs: 0xa0
+
+   - /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FF6E6F75-004D-3358-8F69-9DB32DD661BC
++  UUID: B0C1D0D2-68FE-37C9-9040-AA68C68E9AB0
+   Functions: 5
+   Symbols:   39
+   CStrings:  82
+
+```

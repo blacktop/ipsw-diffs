@@ -52,13 +52,16 @@
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
    - /System/Library/Frameworks/CoreText.framework/CoreText
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8C1F80CA-CE2C-371C-9BA9-9143C97BF866
++  UUID: 1982EAFF-4EB4-3CD3-A9AD-9C7CD03188D9
    Functions: 454
 -  Symbols:   1980
--  CStrings:  1096
+-  CStrings:  1173
 +  Symbols:   1979
-+  CStrings:  1095
++  CStrings:  1171
  
 Symbols:
 + +[UIImage(MTUIStyling) mtui_deleteButtonImage]

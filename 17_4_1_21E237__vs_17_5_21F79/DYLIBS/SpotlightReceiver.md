@@ -20,4 +20,13 @@
    __TEXT.__objc_methname: 0x9df
    __TEXT.__objc_methtype: 0x242
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 36E1A659-7D7D-3F23-B0DE-C7E2110E850F
++  UUID: 547B58A6-1257-35B6-A61D-F22C937EC84B
+   Functions: 74
+   Symbols:   344
+   CStrings:  176
+
 ```

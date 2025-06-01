@@ -52,13 +52,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: FB2E8721-358E-3D73-9C99-5B3AA9A3DDC4
++  UUID: 02F3F370-FAC7-3F80-B968-04D24BD46053
    Functions: 3388
 -  Symbols:   11672
--  CStrings:  6576
+-  CStrings:  8582
 +  Symbols:   11674
-+  CStrings:  6578
++  CStrings:  8586
  
 Symbols:
 + _PLCoreAnalyticsLibraryComputeCacheOverallRestoreTimeKey

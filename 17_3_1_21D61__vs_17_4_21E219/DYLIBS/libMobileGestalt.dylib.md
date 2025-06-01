@@ -33,7 +33,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x10
 +  __AUTH_CONST.__cfstring: 0x111a0
 +  __AUTH_CONST.__const: 0x5b448
-   __AUTH_CONST.__auth_ptr: 0x30
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__auth_got: 0x850
    __AUTH.__objc_data: 0xa0
@@ -54,12 +53,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DB2778AE-5163-3380-A4E3-F46112D64734
 -  Functions: 2944
 -  Symbols:   1331
--  CStrings:  3216
+-  CStrings:  5391
++  UUID: DA42957E-D011-3493-B1DB-76F6181350D5
 +  Functions: 2965
 +  Symbols:   1341
-+  CStrings:  3230
++  CStrings:  5419
  
 Symbols:
 + _MobileGestalt_copy_chromeIdentifier

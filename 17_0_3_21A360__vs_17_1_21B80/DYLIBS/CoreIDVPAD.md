@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x1fe0
 +  __AUTH_CONST.__const: 0x1fe8
-   __AUTH_CONST.__auth_ptr: 0x90
    __AUTH_CONST.__auth_got: 0xb20
    __AUTH.__objc_data: 0xde8
 -  __AUTH.__data: 0x1f48
@@ -58,11 +57,15 @@
    __DATA.__objc_protorefs: 0x20
    __DATA.__objc_classrefs: 0x178
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0DC9034-B1A0-3F16-88AF-8944A5922A9D
++  UUID: AD06C34D-CB14-3131-9779-4AF2177B097E
    Functions: 1514
    Symbols:   1796
--  CStrings:  896
-+  CStrings:  899
+-  CStrings:  961
++  CStrings:  964
  
 CStrings:
 + "PADAntiSpoofing/"

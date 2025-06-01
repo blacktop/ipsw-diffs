@@ -19,5 +19,13 @@
    __DATA.__bss: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Synapse.framework/Synapse
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F79950EB-1357-3027-A658-621EB874D043
++  UUID: ACD3B17F-8052-30FF-93F0-C2D701094797
+   Functions: 1
+   Symbols:   16
+   CStrings:  4
 
 ```

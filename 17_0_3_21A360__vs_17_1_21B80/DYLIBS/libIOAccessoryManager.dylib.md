@@ -33,12 +33,14 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E7E86775-A9D8-3967-99C6-935CD2C9EB80
 -  Functions: 165
 -  Symbols:   339
--  CStrings:  166
+-  CStrings:  221
++  UUID: 97E570EB-ED98-3036-A259-DAB24683BE36
 +  Functions: 167
 +  Symbols:   344
-+  CStrings:  170
++  CStrings:  225
  
 Symbols:
 + _CC_SHA256

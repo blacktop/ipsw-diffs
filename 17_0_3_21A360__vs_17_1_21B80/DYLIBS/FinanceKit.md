@@ -69,7 +69,6 @@
 -  __AUTH_CONST.__cfstring: 0x240
 -  __AUTH_CONST.__objc_const: 0xde0
 -  __AUTH_CONST.__const: 0x11d18
--  __AUTH_CONST.__auth_ptr: 0x528
 -  __AUTH_CONST.__auth_got: 0x1c88
 -  __AUTH.__objc_data: 0x2130
 -  __AUTH.__data: 0x4730
@@ -90,7 +89,6 @@
 +  __AUTH_CONST.__cfstring: 0x4e0
 +  __AUTH_CONST.__objc_intobj: 0x48
 +  __AUTH_CONST.__const: 0x20a20
-+  __AUTH_CONST.__auth_ptr: 0x958
 +  __AUTH_CONST.__auth_got: 0x20a8
 +  __AUTH.__objc_data: 0x6230
 +  __AUTH.__data: 0x92d0
@@ -128,12 +126,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43BE4A44-28D2-3AF8-A647-E08F4F28767B
 -  Functions: 15791
 -  Symbols:   4540
--  CStrings:  2407
+-  CStrings:  2425
++  UUID: D6E37428-4CE7-3111-88BF-4139781B26BA
 +  Functions: 30483
 +  Symbols:   8425
-+  CStrings:  4203
++  CStrings:  4242
  
 Symbols:
 + +[FKBankConnectAttributeLoader refreshAttributes:forFullyQualifiedAccountIdentifier:completionHandler:]
@@ -3525,6 +3525,7 @@ Symbols:
 - _symbolic _____y_____4item______8prioritytG s23_ContiguousArrayStorageC 10FinanceKit5OrderV11FulfillmentO AE12PriorityInfoV
 - _symbolic _____y___________SgtG s23_ContiguousArrayStorageC So16CGImageSourceRefa So07CGColorF0a
 CStrings:
++ ""
 + "\x01\x11"
 + "\x02\x03\x04\x03\x04\x04\x04\x04"
 + "\x02!"

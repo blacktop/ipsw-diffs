@@ -32,13 +32,16 @@
    __AUTH.__data: 0x8
    __DATA.__objc_classrefs: 0x2f8
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 694467E4-5D18-32DB-9933-A06740E1E363
++  UUID: 9E19F61C-7520-3EE6-8877-E72401BC92B7
    Functions: 575
 -  Symbols:   2518
--  CStrings:  1543
+-  CStrings:  1642
 +  Symbols:   2517
-+  CStrings:  1539
++  CStrings:  1636
  
 Symbols:
 + ___45-[FMFMapViewController updateNoLocationView:]_block_invoke.110

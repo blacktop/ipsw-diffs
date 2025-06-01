@@ -57,7 +57,6 @@
    __DATA_CONST.__objc_arraydata: 0x1060
 -  __AUTH_CONST.__const: 0x4e48
 +  __AUTH_CONST.__const: 0x4e88
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_const: 0x13028
 -  __AUTH_CONST.__cfstring: 0x2ab40
 +  __AUTH_CONST.__cfstring: 0x2aca0
@@ -88,12 +87,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 61F962C3-411C-38D9-8C2B-FBCC9153B4B8
 -  Functions: 18665
 -  Symbols:   60241
--  CStrings:  28571
+-  CStrings:  34037
++  UUID: 09E06BE7-8EC7-36F2-930C-687592892904
 +  Functions: 18688
 +  Symbols:   60293
-+  CStrings:  28610
++  CStrings:  34087
  
 Symbols:
 + -[FCAssetHandle _downloadIfNeededWithPriority:flags:completionQueue:completion:]

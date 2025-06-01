@@ -36,7 +36,6 @@
    __AUTH_CONST.__objc_intobj: 0x1b0
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_dictobj: 0x50
-
    __AUTH_CONST.__auth_got: 0x978
    __DATA.__got_weak: 0x8
    __DATA.__objc_ivar: 0x1f0
@@ -56,11 +55,15 @@
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CloudKit.framework/CloudKit
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 26E74B95-6E3A-3F27-A26F-21CDEEAF5BED
++  UUID: B96FBD7D-618D-3C03-8379-EC30CE05DF54
    Functions: 1881
    Symbols:   6161
--  CStrings:  2867
-+  CStrings:  2868
+-  CStrings:  3343
++  CStrings:  3345
  
 CStrings:
 + "Spring2024"

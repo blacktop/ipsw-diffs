@@ -68,12 +68,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 8E37867C-945F-3736-8EBE-495FAE8685C7
 -  Functions: 821
 -  Symbols:   196
--  CStrings:  1514
+-  CStrings:  1727
++  UUID: 3501CC68-3AC1-31A4-BC95-E4109759EF98
 +  Functions: 851
 +  Symbols:   193
-+  CStrings:  1563
++  CStrings:  1780
  
 Symbols:
 + _dispatch_apply

@@ -13,4 +13,13 @@
    __DATA_CONST.__got: 0xe0
    __DATA_CONST.__const: 0x270
 
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BCAF77B7-D408-3641-AF91-91628041C7D7
++  UUID: B9A7BD0D-C886-331C-AD5E-FDECA8A59F47
+   Functions: 119
+   Symbols:   189
+   CStrings:  436
+
 ```

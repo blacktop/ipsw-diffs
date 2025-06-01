@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0xa0
    __DATA.__data: 0x258
 
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4335152-9C98-34C4-AE30-A0B2E2E93EB2
++  UUID: 7D1A574E-279D-3C4B-986F-7416A24690AE
    Functions: 83
    Symbols:   112
--  CStrings:  282
-+  CStrings:  283
+-  CStrings:  325
++  CStrings:  326
  
 CStrings:
 + "20:52:17"

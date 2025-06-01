@@ -24,6 +24,15 @@
    __DATA_DIRTY.__objc_const: 0x1f8
    __DATA_DIRTY.__objc_data: 0x230
    __DATA_DIRTY.__data: 0xe0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 47DFAE00-7670-36FA-8122-0F08FE5494E1
++  UUID: 2FECE7F0-10FE-3F63-B223-CD0A97F20D58
+   Functions: 369
+   Symbols:   1074
+   CStrings:  439
 Symbols:
 + ___Block_byref_object_copy_.224
 + ___Block_byref_object_dispose_.225

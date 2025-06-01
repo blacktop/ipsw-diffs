@@ -40,12 +40,14 @@
    - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 181D3014-107A-3A93-8B74-758B29D9F993
 -  Functions: 1080
 -  Symbols:   4392
--  CStrings:  2007
+-  CStrings:  2073
++  UUID: BD49A780-28F7-3D16-BF55-AA9DF40D11A8
 +  Functions: 1081
 +  Symbols:   4395
-+  CStrings:  2009
++  CStrings:  2075
  
 Symbols:
 + -[PLPlatterActionButtonsView actionButtonCount]

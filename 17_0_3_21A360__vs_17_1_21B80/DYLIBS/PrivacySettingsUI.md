@@ -62,12 +62,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/liblockdown.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B8D170D3-3AA1-3572-8127-D22BC0C17147
 -  Functions: 1362
 -  Symbols:   5250
--  CStrings:  2811
+-  CStrings:  3439
++  UUID: AF23D124-EF69-3BB3-A03B-B4990FFF4CE0
 +  Functions: 1364
 +  Symbols:   5257
-+  CStrings:  2824
++  CStrings:  3456
  
 Symbols:
 + -[PUINetworkController isWaitingForNetworkConfigurationDidChangeInResponseToUserInteractionWithToggle]

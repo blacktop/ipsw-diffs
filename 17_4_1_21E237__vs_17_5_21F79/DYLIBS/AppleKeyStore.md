@@ -22,11 +22,13 @@
    - /System/Library/PrivateFrameworks/APFS.framework/APFS
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
+-  UUID: C3543EAD-62AE-315A-899E-E25888E23EBA
 -  Functions: 718
 -  Symbols:   2032
++  UUID: 6DAF9049-13D9-3D6C-84D5-6353770757A1
 +  Functions: 708
 +  Symbols:   2012
-   CStrings:  370
+   CStrings:  399
  
 Symbols:
 - _CTEvaluateAMFICodeSignatureCMS

@@ -21,12 +21,14 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6BF91E46-6270-3D26-BA9A-97786AAB135E
 -  Functions: 82
 -  Symbols:   353
--  CStrings:  192
+-  CStrings:  208
++  UUID: 978A7E0C-25C5-39AA-9C42-0B0738B37095
 +  Functions: 84
 +  Symbols:   357
-+  CStrings:  193
++  CStrings:  209
  
 Symbols:
 + -[LCFModelStore getModelConfig:].cold.2

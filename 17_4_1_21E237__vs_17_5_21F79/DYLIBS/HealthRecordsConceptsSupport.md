@@ -32,4 +32,13 @@
    __DATA_DIRTY.__objc_data: 0x118
    __DATA_DIRTY.__data: 0x4d0
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8BE2D3B7-CB01-3578-A2C0-A5CE2FEEE6F8
++  UUID: 2DA2A6C8-7D70-3CEE-85FC-BD0606FC0A5C
+   Functions: 329
+   Symbols:   285
+   CStrings:  123
+
 ```

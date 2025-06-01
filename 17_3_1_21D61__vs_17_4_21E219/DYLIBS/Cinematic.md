@@ -57,12 +57,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 548B2224-ACF2-3F56-8230-83CDD134B987
 -  Functions: 665
 -  Symbols:   1368
--  CStrings:  567
+-  CStrings:  577
++  UUID: F33F161C-2616-3D76-8A94-BEC565F2289B
 +  Functions: 662
 +  Symbols:   1366
-+  CStrings:  568
++  CStrings:  578
  
 Symbols:
 - _objc_retain_x27

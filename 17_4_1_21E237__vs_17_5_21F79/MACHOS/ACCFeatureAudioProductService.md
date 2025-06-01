@@ -27,13 +27,16 @@
    __DATA_CONST.__objc_catlist: 0x8
    __DATA_CONST.__objc_protolist: 0x18
 
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 344BA248-81D4-3BAA-8641-4FCFCD24E89E
++  UUID: BE1B1C6C-8C8D-373C-9C84-F4128ED13E25
    Functions: 59
 -  Symbols:   851
--  CStrings:  229
+-  CStrings:  311
 +  Symbols:   859
-+  CStrings:  231
++  CStrings:  315
  
 Symbols:
 + _ACCUserDefaultsKey_DisableAuthTimeoutTTRForXR

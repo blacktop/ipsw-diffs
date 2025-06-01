@@ -58,9 +58,8 @@
    __AUTH_CONST.__cfstring: 0xa0
    __AUTH_CONST.__objc_const: 0x310
 -  __AUTH_CONST.__const: 0x3b50
-+  __AUTH_CONST.__const: 0x3b78
-   __AUTH_CONST.__auth_ptr: 0x1f0
 -  __AUTH_CONST.__auth_got: 0x13a8
++  __AUTH_CONST.__const: 0x3b78
 +  __AUTH_CONST.__auth_got: 0x13c8
    __AUTH.__data: 0x710
    __AUTH.__objc_data: 0x16c0
@@ -91,12 +90,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09369D35-4633-3B14-BFB0-42AAFB807AA1
 -  Functions: 2601
 -  Symbols:   279
--  CStrings:  997
+-  CStrings:  1002
++  UUID: 6D74A6C0-6627-324B-9437-B2FF84641E06
 +  Functions: 2627
 +  Symbols:   280
-+  CStrings:  1019
++  CStrings:  1024
  
 Symbols:
 + _OBJC_CLASS_$_ACAccountStore

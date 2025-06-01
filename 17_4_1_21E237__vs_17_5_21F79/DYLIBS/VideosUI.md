@@ -84,12 +84,10 @@
 +  __AUTH_CONST.__objc_const: 0x11478
    __AUTH_CONST.__objc_doubleobj: 0x220
    __AUTH_CONST.__objc_dictobj: 0x578
--  __AUTH_CONST.__auth_ptr: 0x1130
 -  __AUTH_CONST.__auth_got: 0x4aa0
 -  __AUTH.__objc_data: 0x14650
 -  __AUTH.__data: 0x2ebf0
 -  __DATA.__objc_ivar: 0x370c
-+  __AUTH_CONST.__auth_ptr: 0x1160
 +  __AUTH_CONST.__auth_got: 0x4b38
 +  __AUTH.__objc_data: 0x13508
 +  __AUTH.__data: 0x30be0
@@ -118,12 +116,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0C16F84-ED7A-3724-B75C-BA6E65AAE01B
 -  Functions: 84845
 -  Symbols:   113990
--  CStrings:  33197
+-  CStrings:  36904
++  UUID: 10188B78-7B20-3338-9BF1-13BE1FA2BB51
 +  Functions: 86559
 +  Symbols:   115515
-+  CStrings:  33359
++  CStrings:  37086
  
 Symbols:
 + +[VUIAppDocumentUpdateEvent pinnedTabsChanged]

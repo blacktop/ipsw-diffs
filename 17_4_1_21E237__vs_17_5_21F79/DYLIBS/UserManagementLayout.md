@@ -46,12 +46,14 @@
    - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 80062C50-DAD0-3542-87DF-4E254A8481D1
 -  Functions: 209
 -  Symbols:   133
--  CStrings:  609
+-  CStrings:  670
++  UUID: 2AA3BF3D-7DE6-3732-9F8A-1135B4609317
 +  Functions: 210
 +  Symbols:   134
-+  CStrings:  612
++  CStrings:  673
  
 Symbols:
 + _lchmod

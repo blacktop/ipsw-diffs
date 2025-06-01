@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x2d0
    __DATA.__data: 0x1e0
 
+   - /System/Library/PrivateFrameworks/DoNotDisturb.framework/DoNotDisturb
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A656D3FB-B94A-3CE8-BC76-9281F61D0E5F
++  UUID: 0587192B-1D10-3AEC-B588-B0A840BCFB22
    Functions: 31
    Symbols:   89
--  CStrings:  158
-+  CStrings:  159
+-  CStrings:  161
++  CStrings:  162
  
 CStrings:
 + "T@\"NSString\",?,R,C"

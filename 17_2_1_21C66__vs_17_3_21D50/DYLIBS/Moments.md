@@ -24,12 +24,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 18077904-7E8B-30D2-AD5C-2599F766C429
 -  Functions: 1805
 -  Symbols:   6511
--  CStrings:  3849
+-  CStrings:  5201
++  UUID: FA27B30A-0468-3F61-A8B1-E20565337587
 +  Functions: 1806
 +  Symbols:   6513
-+  CStrings:  3855
++  CStrings:  5207
  
 Symbols:
 + +[MOEventBundleMetaDataUtility setMetaDataForTime:startDate:endDate:metaData:].cold.1

@@ -71,7 +71,6 @@
 +  __AUTH_CONST.__objc_const: 0xc100
    __AUTH_CONST.__objc_intobj: 0x528
    __AUTH_CONST.__objc_arrayobj: 0x1c8
-   __AUTH_CONST.__auth_ptr: 0x88
 -  __AUTH_CONST.__auth_got: 0x1748
 +  __AUTH_CONST.__auth_got: 0x1768
    __AUTH.__data: 0x5e8
@@ -101,12 +100,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 912CAFE9-21EA-3D6D-A5FA-F1D9B69B1E41
 -  Functions: 10745
 -  Symbols:   30962
--  CStrings:  9590
+-  CStrings:  11212
++  UUID: AC76479D-058F-360B-8952-D406F1A107A7
 +  Functions: 10820
 +  Symbols:   31138
-+  CStrings:  9690
++  CStrings:  11317
  
 Symbols:
 + +[CN(CNContainerPropertyDescription) containerProviderIdentifierDescription]

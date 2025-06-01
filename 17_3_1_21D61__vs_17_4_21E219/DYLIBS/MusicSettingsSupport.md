@@ -34,11 +34,15 @@
    __DATA.__data: 0xc0
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4A2EC81F-F62C-3339-9970-10A97721D636
++  UUID: A20A9F99-AEA8-3D56-8AD1-CF3F10C64E29
    Functions: 57
    Symbols:   375
--  CStrings:  218
-+  CStrings:  219
+-  CStrings:  252
++  CStrings:  253
  
 Symbols:
 + _objc_msgSend$reloadSections:withRowAnimation:

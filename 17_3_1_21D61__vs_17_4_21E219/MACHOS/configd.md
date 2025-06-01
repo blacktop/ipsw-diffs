@@ -32,6 +32,15 @@
    __DATA.__objc_ivar: 0x90
    __DATA.__objc_data: 0x190
    __DATA.__data: 0xdc
+
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3C9376CF-C4EC-39DA-A618-85C65F8E8230
++  UUID: ACDBF381-0EA7-3302-BE49-A1A28B0318DD
+   Functions: 886
+   Symbols:   788
+   CStrings:  1875
 Symbols:
 + __SCNetworkInterfaceIsTetheredHotspot
 - __SCNetworkInterfaceIsTethered

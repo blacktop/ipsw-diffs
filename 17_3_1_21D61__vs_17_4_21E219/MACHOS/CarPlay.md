@@ -19,4 +19,13 @@
    - /System/Library/PrivateFrameworks/DashBoard.framework/DashBoard
    - /System/Library/PrivateFrameworks/HangTracer.framework/HangTracer
 
+   - /usr/lib/libMemoryResourceException.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3E5CE81E-B5A9-364E-9551-09F411D0CC93
++  UUID: FEE1D983-EEE4-3A70-80AA-2158D2663E0A
+   Functions: 1
+   Symbols:   3
+   CStrings:  0
+
 ```

@@ -79,12 +79,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF44B8F2-2E6C-3D06-B3A9-E58C4192A390
 -  Functions: 1406
 -  Symbols:   311
--  CStrings:  1774
+-  CStrings:  2114
++  UUID: 209DDD26-775B-3E7F-A530-CB6F56F8E3C0
 +  Functions: 1695
 +  Symbols:   331
-+  CStrings:  2291
++  CStrings:  2761
  
 Symbols:
 + _CFBooleanGetValue

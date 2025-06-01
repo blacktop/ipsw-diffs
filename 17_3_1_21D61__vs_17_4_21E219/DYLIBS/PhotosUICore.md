@@ -68,6 +68,9 @@
 -  __DATA_CONST.__objc_arraydata: 0x45a0
 -  __AUTH_CONST.__const: 0x1cd70
 -  __AUTH_CONST.__objc_const: 0x41d30
+-  __AUTH_CONST.__cfstring: 0x7c7c0
+-  __AUTH_CONST.__objc_doubleobj: 0x740
+-  __AUTH_CONST.__objc_arrayobj: 0x2598
 +  __DATA_CONST.__objc_const: 0x1557e0
 +  __DATA_CONST.__objc_selrefs: 0x47120
 +  __DATA_CONST.__objc_protorefs: 0x378
@@ -76,10 +79,6 @@
 +  __DATA_CONST.__objc_arraydata: 0x45c0
 +  __AUTH_CONST.__const: 0x1d778
 +  __AUTH_CONST.__objc_const: 0x41e98
-   __AUTH_CONST.__auth_ptr: 0x368
--  __AUTH_CONST.__cfstring: 0x7c7c0
--  __AUTH_CONST.__objc_doubleobj: 0x740
--  __AUTH_CONST.__objc_arrayobj: 0x2598
 +  __AUTH_CONST.__cfstring: 0x7c8e0
 +  __AUTH_CONST.__objc_doubleobj: 0x750
 +  __AUTH_CONST.__objc_arrayobj: 0x25c8
@@ -122,12 +121,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71A2CCEF-54B6-3B97-BAC6-29929C40550F
 -  Functions: 79620
 -  Symbols:   225025
--  CStrings:  94076
+-  CStrings:  110010
++  UUID: 1D19C82F-DF4F-37C4-9675-23551A08A1EE
 +  Functions: 79735
 +  Symbols:   225155
-+  CStrings:  94239
++  CStrings:  110182
  
 Symbols:
 + +[PXAppleMusicPrompter showPromptsIfNeeded]

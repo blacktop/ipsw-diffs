@@ -56,11 +56,13 @@
    - @rpath/EngagementCollector.framework/EngagementCollector
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: 76F35DA9-4A28-30F3-A031-2D1984E06F1F
 -  Functions: 41524
++  UUID: ED53C4A1-507B-3A14-BB2B-7397EA18A450
 +  Functions: 41532
    Symbols:   2031
--  CStrings:  25885
-+  CStrings:  25887
+-  CStrings:  27932
++  CStrings:  27934
  
 CStrings:
 + "Failed to encode or decode JSON"

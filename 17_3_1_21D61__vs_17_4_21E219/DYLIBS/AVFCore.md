@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__const: 0xc68
    __AUTH_CONST.__objc_intobj: 0x258
    __AUTH_CONST.__objc_arrayobj: 0x258
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x1910
 +  __AUTH_CONST.__auth_got: 0x1920
    __AUTH.__objc_data: 0x62c0
@@ -77,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8918968-F4BB-37EE-A142-5C27A8BB8B31
 -  Functions: 10010
 -  Symbols:   35101
--  CStrings:  12427
+-  CStrings:  15269
++  UUID: 2BC4F294-28AE-3EA2-91D0-7FF1119023CC
 +  Functions: 10038
 +  Symbols:   35193
-+  CStrings:  12473
++  CStrings:  15320
  
 Symbols:
 + +[AVContentKey contentKeyWithSpecifier:cryptor:contentKeyBoss:contentKeySpecifier:]

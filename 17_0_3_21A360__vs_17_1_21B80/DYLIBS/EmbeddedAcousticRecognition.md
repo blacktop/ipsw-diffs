@@ -44,7 +44,6 @@
 -  __AUTH_CONST.__cfstring: 0x34c0
 +  __AUTH_CONST.__const: 0x43688
 +  __AUTH_CONST.__cfstring: 0x34e0
-   __AUTH_CONST.__auth_ptr: 0xa0
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_dictobj: 0x50
@@ -71,12 +70,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 53997A73-1758-3867-BC08-3715EF4263F9
 -  Functions: 39656
 -  Symbols:   106232
--  CStrings:  20802
+-  CStrings:  21224
++  UUID: 7EA6C33F-DF85-38A2-A26B-AA44FB6AFC83
 +  Functions: 39687
 +  Symbols:   106330
-+  CStrings:  20844
++  CStrings:  21267
  
 Symbols:
 + +[_EARmil2BnnsCompiler initialize]

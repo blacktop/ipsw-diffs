@@ -22,4 +22,13 @@
    - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F67CA914-FB70-3236-A222-955BD8F684E4
++  UUID: FC8C1EA4-AE6B-326F-9D92-713FD967D393
+   Functions: 275
+   Symbols:   429
+   CStrings:  270
+
 ```

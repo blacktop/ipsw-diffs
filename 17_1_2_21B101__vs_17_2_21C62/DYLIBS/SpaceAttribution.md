@@ -41,12 +41,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: EFC5CA46-F035-3340-9E1A-783BE7B7645C
 -  Functions: 410
 -  Symbols:   1400
--  CStrings:  708
+-  CStrings:  820
++  UUID: F6782303-1010-3828-A915-6FE79B2CD497
 +  Functions: 412
 +  Symbols:   1405
-+  CStrings:  712
++  CStrings:  824
  
 Symbols:
 + +[SASupport getResolvedURL:]

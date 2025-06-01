@@ -25,6 +25,15 @@
    __TEXT.__objc_stubs: 0x2ca0
    __DATA_CONST.__got: 0x170
    __DATA_CONST.__const: 0x858
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BF4DF73A-DC0D-31D9-89EC-1D654DDAC6A6
++  UUID: 55902DBA-2B8D-3138-A295-740FA3FE4E6E
+   Functions: 265
+   Symbols:   266
+   CStrings:  1017
 CStrings:
 + "@80@0:8@16@24@32@40@48@56B64B68^@72"
 + "_blastdoorNicknameFromPublicRecord:wallpaperRecord:preKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:knownSender:shouldDecodeImageFields:error:"

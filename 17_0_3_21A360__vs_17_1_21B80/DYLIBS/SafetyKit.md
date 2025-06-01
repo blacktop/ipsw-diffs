@@ -41,12 +41,14 @@
    - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 49F64B6C-5249-3F77-9871-D72338532390
 -  Functions: 398
 -  Symbols:   1603
--  CStrings:  848
+-  CStrings:  910
++  UUID: A399613E-BA2F-35BE-AF64-4E60CBE1E8D4
 +  Functions: 401
 +  Symbols:   1610
-+  CStrings:  851
++  CStrings:  913
  
 Symbols:
 + -[SAServer checkAndResetClientState]

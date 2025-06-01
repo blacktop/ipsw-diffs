@@ -46,11 +46,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5DCA4936-91A4-322D-B320-21B0E11B537A
 -  Functions: 1830
++  UUID: FF1F2994-0359-3439-94C9-0277650E84B5
 +  Functions: 1826
    Symbols:   367
--  CStrings:  3895
-+  CStrings:  3892
+-  CStrings:  4556
++  CStrings:  4553
  
 CStrings:
 + "invalidateAndCancel"

@@ -16,6 +16,8 @@
    __AUTH.__data: 0x20
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libiconv.2.dylib
+-  UUID: 058314FA-CB86-382C-81AE-10DEA554350F
++  UUID: 2003B893-EA31-30D4-B4C5-AA43ACDEF174
    Functions: 5
 -  Symbols:   10
 +  Symbols:   11

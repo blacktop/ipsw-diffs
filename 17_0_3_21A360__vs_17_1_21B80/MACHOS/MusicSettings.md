@@ -47,12 +47,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 609293EF-87C6-36CF-8FBD-263ABA179E82
 -  Functions: 217
 -  Symbols:   211
--  CStrings:  734
+-  CStrings:  912
++  UUID: 86521041-3D71-38C0-8A7E-29BB2AA24397
 +  Functions: 220
 +  Symbols:   215
-+  CStrings:  742
++  CStrings:  919
  
 Symbols:
 + _OBJC_CLASS_$_UIFont

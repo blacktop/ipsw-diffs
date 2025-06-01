@@ -97,12 +97,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CD912703-8110-3B63-8D18-AA66F7906E49
 -  Functions: 28786
 -  Symbols:   867
--  CStrings:  5954
+-  CStrings:  6020
++  UUID: 251CB751-CDCD-3DC5-924A-980DB132E765
 +  Functions: 29749
 +  Symbols:   904
-+  CStrings:  6274
++  CStrings:  6343
  
 Symbols:
 + _FPDFPCKPauseCheckingXPCInterface

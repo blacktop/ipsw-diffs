@@ -71,12 +71,14 @@
    - /System/Library/PrivateFrameworks/FinHealthCore.framework/FinHealthCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D91D20C-0DFE-32DB-85C5-C3ED91F30F73
 -  Functions: 68
 -  Symbols:   423
--  CStrings:  243
+-  CStrings:  284
++  UUID: 6AA93432-BDF0-38A1-BD5A-C27AE32AE9FE
 +  Functions: 86
 +  Symbols:   487
-+  CStrings:  283
++  CStrings:  329
  
 Symbols:
 + +[FHInsightsSpendingTrends overrideMonthlyFillFactor]

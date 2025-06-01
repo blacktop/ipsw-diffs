@@ -20,9 +20,11 @@
 +  __AUTH.__data: 0x58
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libiconv.2.dylib
+-  UUID: D6BF6554-EC51-36F2-83F5-96C3E67885A8
 -  Functions: 12
 -  Symbols:   29
 -  CStrings:  0
++  UUID: 698088D1-FB6A-3072-BA69-067E6AD44468
 +  Functions: 15
 +  Symbols:   36
 +  CStrings:  5

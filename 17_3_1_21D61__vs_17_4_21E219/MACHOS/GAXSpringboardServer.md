@@ -50,13 +50,16 @@
    __DATA.__objc_data: 0x1c70
    __DATA.__data: 0x188
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: FF9EB0D0-7F4C-3C35-B3CE-47AC894AA0D1
++  UUID: EB050C13-91B4-3713-86FF-D4BFF41A5B6F
    Functions: 527
 -  Symbols:   538
--  CStrings:  1562
+-  CStrings:  2137
 +  Symbols:   539
-+  CStrings:  1565
++  CStrings:  2141
  
 Symbols:
 + _GAXProfileShowsUserConfirmationPromptsAndBanners

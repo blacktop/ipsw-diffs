@@ -23,8 +23,8 @@
    __TEXT.__objc_methname: 0x2cd
    __TEXT.__objc_stubs: 0x440
 
+   __DATA_CONST.__objc_selrefs: 0x110
    __AUTH_CONST.__const: 0x69c00
-   __AUTH_CONST.__auth_ptr: 0x1f8
    __AUTH_CONST.__cfstring: 0x1820
 -  __AUTH_CONST.__auth_got: 0x16f0
 +  __AUTH_CONST.__auth_got: 0x16d8
@@ -35,12 +35,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/librealtime_safety.dylib
+-  UUID: 04666183-D6BA-3325-B6E7-59457CE9E1FA
 -  Functions: 43997
 -  Symbols:   1723
--  CStrings:  7612
+-  CStrings:  7805
++  UUID: 412C0D22-735F-3FCA-B969-8571177CCA0C
 +  Functions: 44036
 +  Symbols:   1720
-+  CStrings:  7623
++  CStrings:  7816
  
 Symbols:
 + _objc_retain_x19

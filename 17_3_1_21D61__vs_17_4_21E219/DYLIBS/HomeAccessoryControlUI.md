@@ -57,14 +57,12 @@
 -  __DATA_CONST.__objc_const: 0x1188
 -  __DATA_CONST.__objc_selrefs: 0x508
 -  __AUTH_CONST.__const: 0xb278
--  __AUTH_CONST.__auth_ptr: 0x248
 +  __DATA_CONST.__objc_const: 0x1248
 +  __DATA_CONST.__objc_selrefs: 0x518
 +  __DATA_CONST.__objc_protorefs: 0x18
 +  __DATA_CONST.__objc_classrefs: 0x120
 +  __DATA_CONST.__objc_superrefs: 0x8
 +  __AUTH_CONST.__const: 0xa6a0
-+  __AUTH_CONST.__auth_ptr: 0x260
    __AUTH_CONST.__cfstring: 0x60
    __AUTH_CONST.__objc_const: 0x90
 -  __AUTH_CONST.__auth_got: 0x1b78
@@ -90,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D114AC62-8F4D-3A08-84C0-B686B015932D
 -  Functions: 7119
 -  Symbols:   2762
--  CStrings:  534
+-  CStrings:  537
++  UUID: 4F9C7597-8943-3F34-9F3B-57DFD4081AC7
 +  Functions: 7332
 +  Symbols:   2768
-+  CStrings:  563
++  CStrings:  566
  
 Symbols:
 + __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MRUNowPlayingViewControllerDelegate

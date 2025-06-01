@@ -39,12 +39,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: DE57461C-DA26-3906-AC07-D84A80980D81
 -  Functions: 844
 -  Symbols:   3231
--  CStrings:  1703
+-  CStrings:  1968
++  UUID: BFD2C051-8F17-3CA0-B0FF-7EF49CBB42A8
 +  Functions: 846
 +  Symbols:   3237
-+  CStrings:  1705
++  CStrings:  1970
  
 Symbols:
 + _CFGetTypeID

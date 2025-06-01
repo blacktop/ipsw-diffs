@@ -64,14 +64,15 @@
    __DATA_DIRTY.__common: 0x4
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
-
+   - /System/Library/Frameworks/Security.framework/Security
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7D130B07-2BC4-3B6F-8388-2A71D9614991
++  UUID: 38F17B99-16D5-364D-B4C0-818346883C76
    Functions: 1482
 -  Symbols:   4783
--  CStrings:  2447
 +  Symbols:   4781
-+  CStrings:  2446
+   CStrings:  2938
  
 Symbols:
 + -[NWStatsEntityMapperStaticAssignment init]

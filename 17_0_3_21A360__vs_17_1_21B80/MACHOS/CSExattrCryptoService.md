@@ -37,12 +37,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0674096A-6C40-3093-B482-5AEFFBEFA507
++  UUID: 1D98D9C4-B82F-32FA-869D-A822DB644CFE
    Functions: 283
 -  Symbols:   506
 +  Symbols:   509
-   CStrings:  355
+   CStrings:  425
  
 Symbols:
 + _CFNumberGetTypeID

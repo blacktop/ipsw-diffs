@@ -24,4 +24,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EB4805F7-21EE-3FB8-A849-8E0ED48EC928
++  UUID: 7984E448-7268-31F3-A089-E0D7843B981B
+   Functions: 166
+   Symbols:   689
+   CStrings:  431
+
 ```

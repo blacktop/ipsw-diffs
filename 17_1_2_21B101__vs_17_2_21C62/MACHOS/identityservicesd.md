@@ -80,12 +80,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D92DEA01-5B9C-399B-ACA6-62B4A88F0FC0
 -  Functions: 17158
 -  Symbols:   2482
--  CStrings:  31590
+-  CStrings:  37948
++  UUID: F8A437F1-B3CA-3D5C-8CB4-1D3A1832FA94
 +  Functions: 17203
 +  Symbols:   2487
-+  CStrings:  31680
++  CStrings:  38051
  
 Symbols:
 + _IDSDeliveryForceQueryKey

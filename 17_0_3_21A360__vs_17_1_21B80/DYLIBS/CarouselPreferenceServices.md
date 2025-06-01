@@ -98,9 +98,10 @@
 +  - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9C982716-EB25-3FD0-A63C-5EE3C765CA0F
 -  Functions: 724
 -  Symbols:   2836
--  CStrings:  1174
+-  CStrings:  1392
 +  - /usr/lib/swift/libswiftCore.dylib
 +  - /usr/lib/swift/libswiftCoreFoundation.dylib
 +  - /usr/lib/swift/libswiftCoreImage.dylib
@@ -114,9 +115,10 @@
 +  - /usr/lib/swift/libswiftXPC.dylib
 +  - /usr/lib/swift/libswiftos.dylib
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BEC4B21D-67D8-3081-8775-D87930173605
 +  Functions: 996
 +  Symbols:   3864
-+  CStrings:  1595
++  CStrings:  1891
  
 Symbols:
 + +[CSLPRFAppSwitcherDefaultApplications defaultApplicationList]

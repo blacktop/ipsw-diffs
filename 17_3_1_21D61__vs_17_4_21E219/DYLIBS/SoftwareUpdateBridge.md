@@ -30,6 +30,15 @@
    __DATA.__objc_ivar: 0xb4
    __DATA.__data: 0x290
    __DATA.__bss: 0x18
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C247BC3B-5128-35DC-B545-FAFDD3E27E61
++  UUID: FEB3223B-6EDD-3C4D-9A46-430A41A9C0F9
+   Functions: 191
+   Symbols:   830
+   CStrings:  637
 Symbols:
 + ___31-[SUBManager _serverConnection]_block_invoke.239
 - ___31-[SUBManager _serverConnection]_block_invoke.215

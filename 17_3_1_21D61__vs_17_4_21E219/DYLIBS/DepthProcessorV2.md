@@ -43,11 +43,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 022D7FB9-5687-3855-9CB1-9D4ABD3F8223
++  UUID: E7DE27B0-8DA7-3F4A-B606-7DE0D3CED2BE
    Functions: 406
    Symbols:   140
--  CStrings:  974
-+  CStrings:  975
+-  CStrings:  1022
++  CStrings:  1023
  
 CStrings:
 + "T@\"NSArray\",?,&,N"

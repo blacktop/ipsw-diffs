@@ -57,12 +57,14 @@
    - /System/Library/Frameworks/UIKit.framework/UIKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D3C2C81D-E6AE-3EB9-A094-508BCA0D7C7B
 -  Functions: 634
 -  Symbols:   2866
--  CStrings:  1681
+-  CStrings:  1710
++  UUID: 4F17197D-B8D9-3AE9-A42A-EECDB36E8899
 +  Functions: 643
 +  Symbols:   2890
-+  CStrings:  1694
++  CStrings:  1724
  
 Symbols:
 + +[UITraitCollection(PRXUITraitCollectionExtras) prx_traitCollectionWithCustomBackgroundColor:]

@@ -69,12 +69,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 4206CD68-E438-3C69-BB5D-AC1C3270680E
 -  Functions: 1741
 -  Symbols:   5872
--  CStrings:  2463
+-  CStrings:  2981
++  UUID: B2828C3B-282F-37D5-BCEB-C0A241E9E095
 +  Functions: 1760
 +  Symbols:   5941
-+  CStrings:  2492
++  CStrings:  3016
  
 Symbols:
 + +[HKOAuth2LoginSession generatePKCEChallengeFromVerifier:algorithm:error:]

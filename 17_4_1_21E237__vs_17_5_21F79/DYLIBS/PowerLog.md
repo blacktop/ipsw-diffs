@@ -37,6 +37,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 130C38EB-693C-3262-BDC5-AA59907AED26
++  UUID: F2C6754B-F7F7-314D-A50C-25D74A7EE196
+   Functions: 684
+   Symbols:   2295
+   CStrings:  1655
 Symbols:
 + ___block_literal_global.152
 + ___block_literal_global.188

@@ -18,6 +18,15 @@
    __TEXT.__unwind_info: 0x1e18
    __TEXT.__eh_frame: 0x78
    __TEXT.__objc_classname: 0xfc0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BAA984B5-F391-31BF-BA66-025959938887
++  UUID: C2EA59ED-4292-33CA-BAF1-D0E90C70FA16
+   Functions: 2609
+   Symbols:   9826
+   CStrings:  5568
 CStrings:
 + "Batch deleted %{private}@ location cache placemarks, for provider %@"
 + "More than one placemark found for location {%{private}f, %{private}f}"

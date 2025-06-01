@@ -13,7 +13,7 @@
    __DATA_CONST.__got: 0x2b0
    __DATA_CONST.__const: 0x330
 
-   __AUTH_CONST.__auth_ptr: 0x2b0
+   __AUTH_CONST.__const: 0xcd90
    __AUTH_CONST.__auth_got: 0x8c0
    __AUTH.__data: 0x2270
 -  __DATA.__data: 0x5ba0
@@ -26,5 +26,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 8B3C99B4-4EC1-3193-8FC4-D146661B0CAB
++  UUID: 03D83067-FCEF-3641-A54E-C8A9B5FC3E69
+   Functions: 6681
+   Symbols:   16369
+   CStrings:  195
 
 ```

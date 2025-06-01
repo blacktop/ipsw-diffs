@@ -70,12 +70,10 @@
    __AUTH_CONST.__cfstring: 0x4e0
    __AUTH_CONST.__objc_intobj: 0x48
 -  __AUTH_CONST.__const: 0x20a20
--  __AUTH_CONST.__auth_ptr: 0x958
 -  __AUTH_CONST.__auth_got: 0x20a8
 -  __AUTH.__objc_data: 0x6230
 -  __AUTH.__data: 0x92d0
 +  __AUTH_CONST.__const: 0x21978
-+  __AUTH_CONST.__auth_ptr: 0x970
 +  __AUTH_CONST.__auth_got: 0x20e0
 +  __AUTH.__objc_data: 0x62e8
 +  __AUTH.__data: 0x9600
@@ -101,12 +99,14 @@
 +  - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6E37428-4CE7-3111-88BF-4139781B26BA
 -  Functions: 30483
 -  Symbols:   8425
--  CStrings:  4203
+-  CStrings:  4242
++  UUID: 89047C27-38BC-3AC6-859C-E08C57824301
 +  Functions: 31322
 +  Symbols:   8556
-+  CStrings:  4290
++  CStrings:  4329
  
 Symbols:
 + -[FKAccount accountRefreshFailure]

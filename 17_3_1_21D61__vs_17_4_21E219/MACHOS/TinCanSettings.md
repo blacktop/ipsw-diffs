@@ -27,11 +27,15 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/TinCanShared.framework/TinCanShared
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9A8D41F4-C5E3-3910-B76F-79910A1A15DC
++  UUID: 90BDDE2C-DBE6-329C-B8B8-D6C32D3425BB
    Functions: 42
    Symbols:   68
--  CStrings:  171
-+  CStrings:  172
+-  CStrings:  184
++  CStrings:  185
  
 CStrings:
 + "T@\"NSString\",?,R,C"

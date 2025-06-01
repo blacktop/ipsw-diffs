@@ -57,12 +57,14 @@
 +  - /System/Library/PrivateFrameworks/CoreUARP.framework/CoreUARP
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48160AFE-8EF2-393A-A480-7B6B56B15015
 -  Functions: 53
 -  Symbols:   592
--  CStrings:  460
+-  CStrings:  785
++  UUID: 824D8344-E1CB-3130-A481-F5299BCCAC5A
 +  Functions: 61
 +  Symbols:   659
-+  CStrings:  508
++  CStrings:  866
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableArray

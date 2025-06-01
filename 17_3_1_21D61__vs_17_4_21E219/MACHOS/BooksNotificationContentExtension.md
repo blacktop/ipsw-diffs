@@ -32,11 +32,15 @@
    __DATA.__objc_data: 0x140
    __DATA.__data: 0x248
 
+   - @rpath/BookStoreUI.framework/BookStoreUI
+   - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: A3C034D3-62C2-3788-8F90-DD91D6125CDE
++  UUID: 29241CD1-1D32-37C0-BDB7-EBC338E24A2C
    Functions: 66
    Symbols:   173
--  CStrings:  262
-+  CStrings:  263
+-  CStrings:  292
++  CStrings:  293
  
 CStrings:
 + "T@\"NSString\",?,R,C"

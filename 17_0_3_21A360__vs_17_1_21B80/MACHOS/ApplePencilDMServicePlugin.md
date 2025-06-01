@@ -65,12 +65,14 @@
    - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A63B3407-2697-3655-9F0F-1FE61638357C
 -  Functions: 79
 -  Symbols:   75
--  CStrings:  256
+-  CStrings:  288
++  UUID: 2FBAF931-BF37-3D98-8895-6B91CA3C76FF
 +  Functions: 163
 +  Symbols:   109
-+  CStrings:  417
++  CStrings:  466
  
 Symbols:
 + _IOIteratorIsValid

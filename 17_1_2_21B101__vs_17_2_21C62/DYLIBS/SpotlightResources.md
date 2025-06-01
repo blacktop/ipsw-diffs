@@ -51,12 +51,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1AEA6991-3F48-3022-8310-DD3833A276D3
 -  Functions: 432
 -  Symbols:   1647
--  CStrings:  890
+-  CStrings:  1066
++  UUID: E53EDFEF-96BD-3CF1-9029-B454AFFD234F
 +  Functions: 425
 +  Symbols:   1629
-+  CStrings:  884
++  CStrings:  1061
  
 Symbols:
 + -[SRDefaultsManager _loadAssets:deliveryType:shouldUpdate:]

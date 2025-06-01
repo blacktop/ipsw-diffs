@@ -22,5 +22,12 @@
    __DATA.__common: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5E78E191-BBD4-3869-972E-F84228495112
++  UUID: CFB6425F-EC80-3C37-9046-ADDAF8AA0496
+   Functions: 4
+   Symbols:   45
+   CStrings:  45
 
 ```

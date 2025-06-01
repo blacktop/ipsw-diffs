@@ -85,12 +85,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3E89F0AA-7F41-3C30-BF9D-04943CEA4D16
 -  Functions: 2043
 -  Symbols:   464
--  CStrings:  2789
+-  CStrings:  2890
++  UUID: 34E4109E-B027-3C21-A5CF-BEDF46CCFBE9
 +  Functions: 2059
 +  Symbols:   465
-+  CStrings:  2797
++  CStrings:  2898
  
 Symbols:
 + _AnalyticsSendEventLazy

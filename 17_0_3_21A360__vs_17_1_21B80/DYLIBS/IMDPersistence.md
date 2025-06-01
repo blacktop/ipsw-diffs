@@ -53,7 +53,6 @@
 -  __AUTH_CONST.__const: 0x680
 +  __AUTH_CONST.__const: 0x880
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x11e8
    __AUTH.__objc_data: 0x50
    __DATA.__objc_protorefs: 0x58
@@ -74,12 +73,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 515137AE-4551-3036-8589-2833D8DF9F5C
 -  Functions: 4109
 -  Symbols:   2139
--  CStrings:  7482
+-  CStrings:  10434
++  UUID: 755E4517-37EE-3F6A-95BA-7599D5A21606
 +  Functions: 4125
 +  Symbols:   2146
-+  CStrings:  7542
++  CStrings:  10539
  
 Symbols:
 + _IMDCNGivenNameAndBirthdayForHandleID

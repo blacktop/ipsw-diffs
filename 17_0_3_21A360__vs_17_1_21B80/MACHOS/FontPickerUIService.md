@@ -84,12 +84,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 192E7EB3-EBBD-356C-96FD-E328EDD8D9DA
 -  Functions: 1696
 -  Symbols:   837
--  CStrings:  830
+-  CStrings:  855
++  UUID: 63787780-4E5C-3E76-87AB-D8B4D7E664D5
 +  Functions: 1671
 +  Symbols:   828
-+  CStrings:  844
++  CStrings:  871
  
 Symbols:
 - _$s5UIKit26UIListContentConfigurationV24directionalLayoutMarginsSo23NSDirectionalEdgeInsetsVvg

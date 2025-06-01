@@ -36,11 +36,15 @@
    __AUTH_CONST.__objc_intobj: 0x1e0
    __AUTH_CONST.__objc_arrayobj: 0x48
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1431E602-BF2D-31FF-8492-61AD3D94A7AA
++  UUID: ED2853E5-296E-3630-A7B7-9462CFA8FA25
    Functions: 1511
    Symbols:   5457
--  CStrings:  2652
-+  CStrings:  2653
+-  CStrings:  2988
++  CStrings:  2990
  
 CStrings:
 + "Stolen Device Protection"

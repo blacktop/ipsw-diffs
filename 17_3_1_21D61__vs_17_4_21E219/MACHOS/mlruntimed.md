@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0x780
    __DATA.__data: 0x420
 
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9999335E-7E6F-3477-980D-3ADC5D2B6BF2
++  UUID: E0EDBB70-99F0-3B58-B4EF-FE941AC6B31C
    Functions: 565
    Symbols:   234
--  CStrings:  973
-+  CStrings:  975
+-  CStrings:  1056
++  CStrings:  1058
  
 CStrings:
 + "T@\"NSString\",?,R,C"

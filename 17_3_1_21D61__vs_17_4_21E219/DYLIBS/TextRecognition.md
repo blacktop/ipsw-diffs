@@ -68,12 +68,14 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libperfcheck.dylib
+-  UUID: F174BF40-465D-320A-8154-8853EBE39CA3
 -  Functions: 5675
 -  Symbols:   18759
--  CStrings:  15485
+-  CStrings:  21261
++  UUID: 718E8BCB-2383-36F4-8F9C-E7D6353C8CB7
 +  Functions: 5677
 +  Symbols:   18628
-+  CStrings:  15491
++  CStrings:  21268
  
 Symbols:
 + GCC_except_table120

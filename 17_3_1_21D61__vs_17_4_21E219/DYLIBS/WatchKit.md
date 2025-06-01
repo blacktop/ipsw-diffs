@@ -30,7 +30,7 @@
    __AUTH_CONST.__objc_const: 0x1900
    __AUTH_CONST.__const: 0x3a0
 
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__objc_doubleobj: 0x10
    __AUTH_CONST.__auth_got: 0x478
    __AUTH.__objc_data: 0x14a0
 -  __DATA.__objc_protorefs: 0x10
@@ -40,11 +40,15 @@
    __DATA.__data: 0x498
    __DATA.__bss: 0x350
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA891FDF-A3C4-3C04-9AAC-D823DC9E963B
++  UUID: 5B7038D0-77DE-35AB-83CE-4B86C576899C
    Functions: 1665
    Symbols:   5644
--  CStrings:  2593
-+  CStrings:  2594
+-  CStrings:  3202
++  CStrings:  3203
  
 Symbols:
 + ___111-[SPRemoteInterface applicationHandleWatchTaskKeys:reasonForSnapshot:visibleVCID:barTaskUUID:clientIdentifier:]_block_invoke.277

@@ -49,11 +49,13 @@
    - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 74A11FC9-59C8-3490-8345-978C533E309C
 -  Functions: 195
++  UUID: 61F32005-8D4D-3E2D-B4F1-665F6F6A415B
 +  Functions: 200
    Symbols:   161
--  CStrings:  524
-+  CStrings:  535
+-  CStrings:  559
++  CStrings:  570
  
 CStrings:
 + "-[VSUserAccountService userAccountRegistry:didFinishUpdatingUserAccountsWithManager:]"

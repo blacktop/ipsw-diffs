@@ -19,11 +19,15 @@
    __TEXT.__unwind_info: 0x18b4
    __TEXT.__objc_classname: 0xe1f
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5CB079B2-CE7B-3823-AAC1-25702052300C
++  UUID: 6EA2B676-2DA1-3018-B0F2-60710B96402C
    Functions: 2327
    Symbols:   7463
--  CStrings:  3939
-+  CStrings:  3937
+-  CStrings:  4442
++  CStrings:  4440
  
 CStrings:
 - "%c[%{public}s %{public}s]:%i Contains undefined RFU bits but existing feature definition matches"

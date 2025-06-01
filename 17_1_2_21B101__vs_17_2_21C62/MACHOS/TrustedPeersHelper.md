@@ -104,12 +104,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 603B6648-7316-37A6-8E97-D7067A9FBB04
 -  Functions: 9657
 -  Symbols:   447
--  CStrings:  3006
+-  CStrings:  3242
++  UUID: A76A5B60-CB9B-34B0-87F5-E35AA46102A5
 +  Functions: 10161
 +  Symbols:   462
-+  CStrings:  3092
++  CStrings:  3339
  
 Symbols:
 + _OBJC_CLASS_$_AAFAnalyticsEventSecurity

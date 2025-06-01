@@ -55,12 +55,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: A58D6556-B00D-33E2-89B0-0F9131CA9806
 -  Functions: 1496
 -  Symbols:   399
--  CStrings:  2654
+-  CStrings:  3056
++  UUID: 00BEEF2B-7E33-3573-BAAA-572FC27C12C2
 +  Functions: 1505
 +  Symbols:   401
-+  CStrings:  2667
++  CStrings:  3070
  
 Symbols:
 + _CNContactSensitiveContentConfigurationKey

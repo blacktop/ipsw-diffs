@@ -56,12 +56,14 @@
    - /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1BF64591-6A0A-3AD3-9727-C0F40B83ADAF
 -  Functions: 151
 -  Symbols:   126
--  CStrings:  398
+-  CStrings:  427
++  UUID: 2B9997B4-F04C-3345-B4CB-607081AB9A19
 +  Functions: 156
 +  Symbols:   129
-+  CStrings:  433
++  CStrings:  464
  
 Symbols:
 + _OBJC_CLASS_$_AAUIGrandSlamRemoteUIPresenter

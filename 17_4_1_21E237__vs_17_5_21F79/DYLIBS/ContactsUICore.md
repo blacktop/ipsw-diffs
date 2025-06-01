@@ -73,12 +73,14 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: EA0C03C7-C6EA-32E9-99CF-B322C2D96B0B
 -  Functions: 2825
 -  Symbols:   10229
--  CStrings:  3809
+-  CStrings:  4097
++  UUID: 52523F9C-E7E3-334E-995F-73C44EDABF72
 +  Functions: 2831
 +  Symbols:   10247
-+  CStrings:  3813
++  CStrings:  4101
  
 Symbols:
 + -[CNUIUserActionListDataSource _invalidateModelsOnFaceTimeAvailabilityChange:]

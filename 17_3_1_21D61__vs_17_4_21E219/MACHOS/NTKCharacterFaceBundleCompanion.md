@@ -37,11 +37,15 @@
    __DATA.__objc_data: 0x7d0
    __DATA.__data: 0x3c0
 
+   - /System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 09DED0C2-F21D-3A91-842A-AA13D5B2C6CF
++  UUID: 89FCD8CB-CD7E-35BB-ABE8-8D63CA9A2100
    Functions: 455
    Symbols:   331
--  CStrings:  1257
-+  CStrings:  1259
+-  CStrings:  1411
++  CStrings:  1413
  
 CStrings:
 + "T@\"NSString\",?,R,C"

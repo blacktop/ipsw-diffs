@@ -48,9 +48,8 @@
    __DATA_CONST.__objc_protorefs: 0x198
    __DATA_CONST.__objc_classrefs: 0x2eb8
    __DATA_CONST.__objc_superrefs: 0x2740
-
+   __DATA_CONST.__objc_arraydata: 0x3000
    __AUTH_CONST.__const: 0xa6d0
-   __AUTH_CONST.__auth_ptr: 0xb8
    __AUTH_CONST.__objc_const: 0x2a7d0
 -  __AUTH_CONST.__cfstring: 0x61240
 +  __AUTH_CONST.__cfstring: 0x613c0
@@ -70,12 +69,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74FF2FCE-9497-3B54-B85E-75629ADD5041
 -  Functions: 39554
 -  Symbols:   110328
--  CStrings:  46091
+-  CStrings:  58525
++  UUID: 4968351A-5211-3257-9EFB-A3D1494C583A
 +  Functions: 39571
 +  Symbols:   110374
-+  CStrings:  46118
++  CStrings:  58564
  
 Symbols:
 + -[PKAccountUser hasHandle:]

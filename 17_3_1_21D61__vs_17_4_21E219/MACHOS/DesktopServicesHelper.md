@@ -50,11 +50,13 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C2AD653E-1AD6-3BE4-9E03-828D2784FBA7
 -  Functions: 1449
 -  Symbols:   509
++  UUID: 9895C8B1-802F-3495-9C8E-5331513ED6A5
 +  Functions: 1468
 +  Symbols:   510
-   CStrings:  594
+   CStrings:  649
  
 Symbols:
 + __ZNSt3__119piecewise_constructE

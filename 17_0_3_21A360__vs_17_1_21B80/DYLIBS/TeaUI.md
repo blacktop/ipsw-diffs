@@ -57,7 +57,6 @@
 -  __AUTH_CONST.__const: 0x27238
 +  __AUTH_CONST.__const: 0x27268
    __AUTH_CONST.__cfstring: 0x6c0
-   __AUTH_CONST.__auth_ptr: 0x730
 -  __AUTH_CONST.__auth_got: 0x23b0
 +  __AUTH_CONST.__auth_got: 0x23e0
    __AUTH.__objc_data: 0x49b8
@@ -84,11 +83,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14A21107-C286-3E96-BECE-E858099D0F85
 -  Functions: 31608
++  UUID: 84713C18-68F8-3BDA-8BFB-D0CEC9938D83
 +  Functions: 31631
    Symbols:   17665
--  CStrings:  4980
-+  CStrings:  4981
+-  CStrings:  5034
++  CStrings:  5035
  
 Symbols:
 + __PROTOCOLS__TtC5TeaUI23BlueprintViewController.42

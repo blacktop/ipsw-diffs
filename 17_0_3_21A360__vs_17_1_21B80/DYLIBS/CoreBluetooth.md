@@ -31,11 +31,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: DA4168B2-D11E-34D9-AE1A-D6818C2EE997
 -  Functions: 3183
 -  Symbols:   9767
++  UUID: 7A58102F-B975-3A14-9DBA-E6F7CF5E6329
 +  Functions: 3184
 +  Symbols:   9769
-   CStrings:  6767
+   CStrings:  8006
  
 Symbols:
 + -[CBAdvertiser needsIdentify]

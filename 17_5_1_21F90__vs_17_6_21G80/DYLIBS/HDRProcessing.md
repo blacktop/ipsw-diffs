@@ -27,11 +27,15 @@
    __AUTH_CONST.__auth_got: 0x500
    __AUTH.__objc_data: 0x2d0
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C013652-C39D-31CA-8948-DCCD8A767AE0
++  UUID: 175FA0FF-8643-39B6-BF96-5FA6DE36639F
    Functions: 1006
    Symbols:   3419
--  CStrings:  2736
-+  CStrings:  2737
+-  CStrings:  3160
++  CStrings:  3162
  
 CStrings:
 + " [1.384.52] \n"

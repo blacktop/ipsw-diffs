@@ -45,7 +45,7 @@
 +  __AUTH_CONST.__cfstring: 0x1dc0
    __AUTH_CONST.__objc_const: 0x1218
    __AUTH_CONST.__const: 0x530
-   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__auth_got: 0x690
 
    __DATA.__objc_classrefs: 0x2e0
    __DATA.__objc_superrefs: 0xb0
@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 69F2439D-292C-3BB8-87D5-EAAA1C40AD23
 -  Functions: 942
 -  Symbols:   3288
--  CStrings:  1670
+-  CStrings:  1905
++  UUID: 0B7711A5-058C-3B10-BEE0-7A9918CF459A
 +  Functions: 959
 +  Symbols:   3295
-+  CStrings:  1697
++  CStrings:  1935
  
 Symbols:
 + _GKIsXRUIIdiomShouldUsePadUI

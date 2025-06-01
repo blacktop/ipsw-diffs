@@ -14,4 +14,13 @@
    __DATA_CONST.__auth_got: 0x10
    __DATA_CONST.__got: 0x8
 
+   - /System/Library/PrivateFrameworks/ContainerManagerSystem.framework/ContainerManagerSystem
+   - /System/Library/PrivateFrameworks/ContainerManagerUser.framework/ContainerManagerUser
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 20F599EA-79F5-3E0C-8F98-18E0760AA5E4
++  UUID: D43FDE19-125C-3CE3-A1FC-A4F84402EF90
+   Functions: 1
+   Symbols:   5
+   CStrings:  0
+
 ```

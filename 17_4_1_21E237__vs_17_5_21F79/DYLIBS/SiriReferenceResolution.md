@@ -29,4 +29,13 @@
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F9516074-6451-3467-A142-693AD215C4D3
++  UUID: 9565F3F9-264B-3B60-A858-3E24B57FE479
+   Functions: 4983
+   Symbols:   4618
+   CStrings:  1144
+
 ```

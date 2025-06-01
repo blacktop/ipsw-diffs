@@ -32,11 +32,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: FBBFAF50-D626-34C1-B2EF-327F121DD0F6
 -  Functions: 134
 -  Symbols:   120
++  UUID: FCDDA895-7C93-3175-9B6C-38BACD607459
 +  Functions: 136
 +  Symbols:   130
-   CStrings:  6
+   CStrings:  7
  
 Symbols:
 + __NSConcreteGlobalBlock

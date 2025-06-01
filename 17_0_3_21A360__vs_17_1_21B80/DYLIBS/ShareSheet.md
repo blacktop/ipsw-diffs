@@ -83,12 +83,14 @@
    - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 991BFF51-1A72-3089-A132-C08D6A259892
 -  Functions: 5045
 -  Symbols:   18400
--  CStrings:  8113
+-  CStrings:  8704
++  UUID: 22CD1586-567D-3689-8054-E06964C24808
 +  Functions: 5086
 +  Symbols:   18533
-+  CStrings:  8156
++  CStrings:  8748
  
 Symbols:
 + -[SHSheetAction initWithType:]

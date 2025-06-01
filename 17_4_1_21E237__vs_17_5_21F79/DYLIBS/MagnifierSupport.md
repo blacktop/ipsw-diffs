@@ -60,7 +60,6 @@
 -  __AUTH_CONST.__const: 0xb550
 +  __AUTH_CONST.__const: 0xb4d8
    __AUTH_CONST.__objc_const: 0xd40
-   __AUTH_CONST.__auth_ptr: 0x2d0
    __AUTH_CONST.__cfstring: 0x180
    __AUTH_CONST.__objc_doubleobj: 0x50
    __AUTH_CONST.__auth_got: 0x15a8
@@ -89,12 +88,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 80B1A56F-7876-3F03-A539-36B6C6F5D8B7
 -  Functions: 8710
 -  Symbols:   4959
--  CStrings:  4117
+-  CStrings:  4129
++  UUID: 6C5C514C-7DE3-3A50-8883-C2192C07B661
 +  Functions: 8682
 +  Symbols:   4948
-+  CStrings:  4114
++  CStrings:  4126
  
 Symbols:
 + _OBJC_CLASS_$_AVCaptureDeviceRotationCoordinator

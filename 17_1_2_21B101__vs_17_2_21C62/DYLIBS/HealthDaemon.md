@@ -51,7 +51,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x1e30
    __AUTH_CONST.__objc_intobj: 0x4908
    __AUTH_CONST.__objc_doubleobj: 0x3c0
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_dictobj: 0x118
 -  __AUTH_CONST.__auth_got: 0x1800
 +  __AUTH_CONST.__auth_got: 0x17f8
@@ -76,12 +75,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 7897D8A2-6945-3D89-92F4-977F2FB37AD3
 -  Functions: 36585
 -  Symbols:   111111
--  CStrings:  37393
+-  CStrings:  45689
++  UUID: 58468C61-FB79-3FC0-9644-60AF3D0C8B23
 +  Functions: 36593
 +  Symbols:   111132
-+  CStrings:  37415
++  CStrings:  45714
  
 Symbols:
 + -[HDMirroredWorkoutSessionServer _executeClientDataUpdate:completion:]

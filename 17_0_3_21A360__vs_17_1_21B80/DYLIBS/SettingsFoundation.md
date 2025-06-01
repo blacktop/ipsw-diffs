@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 88B8A6F1-7762-3E4B-9B81-1AF1262569B4
 -  Functions: 274
 -  Symbols:   1114
--  CStrings:  686
+-  CStrings:  929
++  UUID: 24010189-663B-3123-BD23-0356C2F16F96
 +  Functions: 275
 +  Symbols:   1119
-+  CStrings:  694
++  CStrings:  943
  
 Symbols:
 + _SFBuiltInRegulatoryImageForModelAndVariant.cold.4

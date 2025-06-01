@@ -48,12 +48,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 454DCA55-F159-3D91-915A-65FC71E81171
 -  Functions: 1324
 -  Symbols:   511
--  CStrings:  2089
+-  CStrings:  2349
++  UUID: 1BEC707E-F5CF-390A-AB1D-5D89F7ED075F
 +  Functions: 1326
 +  Symbols:   508
-+  CStrings:  2092
++  CStrings:  2353
  
 Symbols:
 - _OBJC_CLASS_$_NSConstantDictionary

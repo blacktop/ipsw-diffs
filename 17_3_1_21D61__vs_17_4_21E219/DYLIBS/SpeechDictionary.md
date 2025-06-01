@@ -29,11 +29,13 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: B952D52A-00CA-3536-95BC-A8B080B29B62
 -  Functions: 896
 -  Symbols:   2047
++  UUID: 0C797624-63B2-38A4-A4A1-2AC6B7EDD9D0
 +  Functions: 895
 +  Symbols:   2046
-   CStrings:  4487
+   CStrings:  4506
  
 Symbols:
 + GCC_except_table104

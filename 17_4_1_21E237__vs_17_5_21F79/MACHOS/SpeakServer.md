@@ -53,12 +53,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6B416F0-D57A-32D9-A227-11649300BD77
 -  Functions: 52
 -  Symbols:   111
--  CStrings:  287
+-  CStrings:  323
++  UUID: 22C041FF-5E0B-30A0-9516-C22EC7380627
 +  Functions: 62
 +  Symbols:   115
-+  CStrings:  292
++  CStrings:  327
  
 Symbols:
 + __NSConcreteGlobalBlock

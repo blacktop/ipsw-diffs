@@ -30,11 +30,15 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0xc0
 
+   - /System/Library/PrivateFrameworks/Weather.framework/Weather
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1DF0A371-3F00-35AC-8BE6-9D2791758267
++  UUID: 7C0201EA-DB43-31B5-AE5C-31C77E952810
    Functions: 50
    Symbols:   107
--  CStrings:  195
-+  CStrings:  196
+-  CStrings:  220
++  CStrings:  221
  
 CStrings:
 + "T@\"NSString\",?,R,C"

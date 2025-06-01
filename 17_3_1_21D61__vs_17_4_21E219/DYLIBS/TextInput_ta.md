@@ -20,7 +20,6 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x90
    __AUTH_CONST.__const: 0x170
-
    __AUTH_CONST.__auth_got: 0x178
    __AUTH.__objc_data: 0xa0
    __DATA.__got_weak: 0x20
@@ -29,6 +28,15 @@
    __DATA.__objc_ivar: 0x10
    __DATA.__data: 0x18
    __DATA.__bss: 0x50
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4F5CD844-DD9A-3F51-A188-2056D7707F9A
++  UUID: DD177DCE-7A96-3D60-B82E-59D26605C69D
+   Functions: 59
+   Symbols:   242
+   CStrings:  76
 Symbols:
 + __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc

@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D2DC5107-2614-3394-846F-E0F2246FA933
 -  Functions: 348
 -  Symbols:   186
--  CStrings:  665
+-  CStrings:  705
++  UUID: 4A03B330-12D0-3088-B36A-41A77178B668
 +  Functions: 361
 +  Symbols:   188
-+  CStrings:  679
++  CStrings:  719
  
 Symbols:
 + _cn_objectResultWithObjectLock

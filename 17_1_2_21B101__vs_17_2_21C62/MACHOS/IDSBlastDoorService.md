@@ -31,7 +31,11 @@
    __DATA.__bss: 0x6f00
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 687FEA2F-EFFF-396C-9AC0-749E484C6192
++  UUID: 12CC16E0-D0BE-3B5C-9FE3-EEFBAF0864DA
    Functions: 1396
    Symbols:   66
 -  CStrings:  216

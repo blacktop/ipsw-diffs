@@ -27,7 +27,6 @@
 +  __AUTH_CONST.__objc_const: 0x1a0
    __AUTH_CONST.__objc_arrayobj: 0xd8
 +  __AUTH_CONST.__const: 0x230
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0xf0
    __AUTH_CONST.__auth_got: 0x958
 -  __AUTH.__objc_data: 0xb40
@@ -47,5 +46,14 @@
    __DATA_DIRTY.__bss: 0x228
    - /System/Library/Frameworks/Accounts.framework/Accounts
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 02ECEEBC-5737-3621-BCC2-724A95CC9792
++  UUID: 082D9395-CAFC-33EE-9456-30E28169BC23
+   Functions: 1830
+   Symbols:   7326
+   CStrings:  4432
 
 ```

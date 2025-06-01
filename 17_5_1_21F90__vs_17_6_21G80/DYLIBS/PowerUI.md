@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: ED1D0117-EB55-3946-8B03-A339D4F88CD0
 -  Functions: 6157
 -  Symbols:   17606
--  CStrings:  7091
+-  CStrings:  8512
++  UUID: BCB067EF-97CC-3071-BC22-88D83E984F04
 +  Functions: 6159
 +  Symbols:   17613
-+  CStrings:  7096
++  CStrings:  8518
  
 Symbols:
 + -[PowerUIRemoteLocationMonitor lastBatchRequest]

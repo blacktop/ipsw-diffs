@@ -80,7 +80,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x1468
 +  __DATA_CONST.__objc_arraydata: 0x1060
 +  __AUTH_CONST.__const: 0x4e48
-+  __AUTH_CONST.__auth_ptr: 0x8
 +  __AUTH_CONST.__objc_const: 0x13028
 +  __AUTH_CONST.__cfstring: 0x2ab40
 +  __AUTH_CONST.__objc_intobj: 0x1350
@@ -116,12 +115,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 84C4C88F-9BD1-328E-B9B9-64C0FA7BF5A5
 -  Functions: 17828
 -  Symbols:   57975
--  CStrings:  27727
+-  CStrings:  33054
++  UUID: 61F962C3-411C-38D9-8C2B-FBCC9153B4B8
 +  Functions: 18665
 +  Symbols:   60241
-+  CStrings:  28571
++  CStrings:  34037
  
 Symbols:
 + +[FCANFDocumentManifest supportsSecureCoding]

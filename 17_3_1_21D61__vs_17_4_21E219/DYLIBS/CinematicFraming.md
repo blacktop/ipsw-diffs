@@ -61,12 +61,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CE14BC9A-E604-3C4A-A22B-B4F6656201A7
 -  Functions: 707
 -  Symbols:   2754
--  CStrings:  1603
+-  CStrings:  1767
++  UUID: 8A6341C8-9F71-33ED-8D25-3E78476D6CBE
 +  Functions: 712
 +  Symbols:   2773
-+  CStrings:  1613
++  CStrings:  1777
  
 Symbols:
 + -[CinematicFramingSessionInputMetadata deviceToCameraSpaceTransform]

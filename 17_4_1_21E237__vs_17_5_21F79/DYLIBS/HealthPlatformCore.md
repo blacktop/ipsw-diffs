@@ -30,7 +30,6 @@
 -  __AUTH_CONST.__objc_const: 0x110
 +  __AUTH_CONST.__objc_const: 0x158
    __AUTH_CONST.__const: 0x7190
-   __AUTH_CONST.__auth_ptr: 0x258
    __AUTH_CONST.__auth_got: 0x1cc0
 -  __AUTH.__objc_data: 0x480
 -  __AUTH.__data: 0x478
@@ -57,6 +56,15 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/Contacts.framework/Contacts
    - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D579AB7-526B-369D-8CF0-1E494159F790
++  UUID: BFF6D609-2A6F-3505-AA3A-EEDF44607D54
+   Functions: 5927
+   Symbols:   1739
+   CStrings:  1510
 CStrings:
 + "03292024_rdar://125626419_21F_"
 - "01042024_rdar://119997350_21E_"

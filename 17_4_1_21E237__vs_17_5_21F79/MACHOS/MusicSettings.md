@@ -56,12 +56,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3AEF5E5D-7B3F-344B-A691-8978B4CE2F7B
 -  Functions: 245
 -  Symbols:   225
--  CStrings:  821
+-  CStrings:  1030
++  UUID: 29A4782F-5269-3BB0-8B00-F428C1301DE9
 +  Functions: 248
 +  Symbols:   230
-+  CStrings:  839
++  CStrings:  1052
  
 Symbols:
 + _ICActiveUserIdentityDidChangeNotification

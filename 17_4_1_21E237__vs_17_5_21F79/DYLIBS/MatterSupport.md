@@ -23,4 +23,13 @@
    - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F6EAEAF9-9465-3148-84F0-55D531540E26
++  UUID: EDFA026A-977F-33B1-A832-62A2B7261293
+   Functions: 1826
+   Symbols:   2256
+   CStrings:  1123
+
 ```

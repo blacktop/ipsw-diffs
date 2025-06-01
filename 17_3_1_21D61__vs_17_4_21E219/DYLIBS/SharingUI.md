@@ -63,7 +63,6 @@
    __AUTH_CONST.__objc_dictobj: 0x28
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_doubleobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0xdc0
 -  __AUTH.__objc_data: 0xdc8
 +  __AUTH_CONST.__auth_got: 0xdd0
@@ -82,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DEC7881B-89EF-3E58-BDEE-D2659CD78479
 -  Functions: 2092
 -  Symbols:   6054
--  CStrings:  3302
+-  CStrings:  3525
++  UUID: AF02B7FE-2BC9-3C7C-BAFA-AD35DC3E2652
 +  Functions: 2106
 +  Symbols:   6061
-+  CStrings:  3274
++  CStrings:  3497
  
 Symbols:
 + +[SFUIShareSheetActivityCellSpec subtitleLabelColorForIdiom:]

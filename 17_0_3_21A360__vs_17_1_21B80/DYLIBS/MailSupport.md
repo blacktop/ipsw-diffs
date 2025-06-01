@@ -34,13 +34,16 @@
    __AUTH_CONST.__objc_intobj: 0x450
    __AUTH_CONST.__const: 0x90
 
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: 6D0F1CF5-706E-3524-B92C-6BF02C6F33E6
++  UUID: 965C8D58-6F24-3E4F-A7C5-1AD16B9350F2
    Functions: 1004
 -  Symbols:   4107
--  CStrings:  2191
+-  CStrings:  2819
 +  Symbols:   4163
-+  CStrings:  2246
++  CStrings:  2929
  
 Symbols:
 + _MSAccessibilityIdentifierDismissBannerButton

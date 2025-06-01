@@ -13,4 +13,13 @@
    __TEXT.__objc_classname: 0xb5
    __TEXT.__objc_methname: 0xb17
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 092F6065-FA51-31DD-9A0E-260A05B064DC
++  UUID: 1DD8C759-28F1-347E-9BB5-D33FD398B350
+   Functions: 1075
+   Symbols:   1128
+   CStrings:  436
+
 ```

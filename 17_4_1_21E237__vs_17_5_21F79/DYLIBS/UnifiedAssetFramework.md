@@ -64,12 +64,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 2E5148DA-5065-3736-BE46-494B7F51620F
 -  Functions: 1173
 -  Symbols:   4391
--  CStrings:  2959
+-  CStrings:  3371
++  UUID: 971F6C20-51F1-3633-AE97-3AAC655EB8CB
 +  Functions: 1170
 +  Symbols:   4382
-+  CStrings:  2965
++  CStrings:  3377
  
 Symbols:
 + +[UAFAutoAssetManager latestStatusForClients:error:]

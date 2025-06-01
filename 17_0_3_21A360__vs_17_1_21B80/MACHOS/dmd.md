@@ -47,12 +47,14 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
+-  UUID: 4B33471A-E3EA-39E1-BABA-E619121B5036
 -  Functions: 2998
 -  Symbols:   886
--  CStrings:  4471
+-  CStrings:  5160
++  UUID: 3D424B7A-E185-3635-B4B1-069F60C2D453
 +  Functions: 2999
 +  Symbols:   887
-+  CStrings:  4474
++  CStrings:  5163
  
 Symbols:
 + _OBJC_CLASS_$_IXUninstallOptions

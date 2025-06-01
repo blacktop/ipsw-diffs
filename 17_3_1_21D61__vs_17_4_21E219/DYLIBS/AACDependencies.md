@@ -23,6 +23,15 @@
    __DATA.__objc_ivar: 0x44
    __DATA.__data: 0x180
    - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DC7B23CE-B0D5-314E-BFBB-D2E9C52430E7
++  UUID: 15B96EAC-A92D-3569-B8B3-6AF85233CD8B
+   Functions: 39
+   Symbols:   230
+   CStrings:  115
 Symbols:
 + _objc_msgSend$setAllowSmartPunctuation:
 - _objc_msgSend$setAllowSmartPuncutation:

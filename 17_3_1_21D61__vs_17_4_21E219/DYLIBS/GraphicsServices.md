@@ -18,11 +18,19 @@
 +  __DATA_CONST.__objc_classrefs: 0x18
    __AUTH_CONST.__cfstring: 0x1040
    __AUTH_CONST.__const: 0x190
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__auth_got: 0x478
 -  __DATA.__objc_classrefs: 0x18
    __DATA.__data: 0x144
    __DATA.__bss: 0x88
    __DATA_DIRTY.__data: 0xc
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AC07EBBE-D8BC-3E55-A13A-07BB548734D1
++  UUID: CAF1CF8D-2C20-3913-BB83-AAA572ABA958
+   Functions: 201
+   Symbols:   605
+   CStrings:  302
 
 ```

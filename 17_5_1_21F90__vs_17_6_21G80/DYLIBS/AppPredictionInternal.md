@@ -53,19 +53,21 @@
    __AUTH_CONST.__objc_intobj: 0x35b8
 -  __AUTH_CONST.__objc_arrayobj: 0x12c0
 +  __AUTH_CONST.__objc_arrayobj: 0x11a0
-   __AUTH_CONST.__auth_ptr: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x118
    __AUTH_CONST.__objc_floatobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x30
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8ABE6E73-BF51-3031-9AE2-5353985FACEC
 -  Functions: 26272
 -  Symbols:   78406
--  CStrings:  35970
+-  CStrings:  43545
++  UUID: 86679156-3C43-314C-AD20-DE12BDA354DB
 +  Functions: 26274
 +  Symbols:   78399
-+  CStrings:  35963
++  CStrings:  43525
  
 Symbols:
 + -[ATXFaceSuggestionAssetParameters allowedDescriptorsForRegion]

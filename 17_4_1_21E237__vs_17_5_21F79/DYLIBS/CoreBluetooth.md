@@ -49,7 +49,6 @@
    __AUTH_CONST.__objc_dictobj: 0xf0
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__const: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
 -  __AUTH_CONST.__auth_got: 0x850
 +  __AUTH_CONST.__auth_got: 0x848
    __AUTH.__objc_data: 0x50
@@ -70,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1B7D30A2-ACC0-396D-92C4-12C5BDE64DE1
 -  Functions: 3232
 -  Symbols:   9909
--  CStrings:  6884
+-  CStrings:  8138
++  UUID: 7B493109-BAAB-31D5-AE6F-C83582FC52F5
 +  Functions: 3235
 +  Symbols:   9917
-+  CStrings:  6897
++  CStrings:  8162
  
 Symbols:
 + -[CBXpcConnection connect]

@@ -57,7 +57,6 @@
 -  __AUTH_CONST.__objc_intobj: 0x1398
 +  __AUTH_CONST.__objc_intobj: 0x13b0
    __AUTH_CONST.__objc_dictobj: 0x140
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_arrayobj: 0x1f8
    __AUTH_CONST.__objc_doubleobj: 0x70
    __AUTH_CONST.__objc_floatobj: 0x20
@@ -76,12 +75,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9BB7BCE2-1D61-3D76-9302-603D77C66CD4
 -  Functions: 5740
 -  Symbols:   21497
--  CStrings:  7739
+-  CStrings:  8992
++  UUID: DAEDA5C0-D3FB-3501-92DC-426B0880E70E
 +  Functions: 5746
 +  Symbols:   21529
-+  CStrings:  7758
++  CStrings:  9025
  
 Symbols:
 + +[_GCNintendoN64ControllerProfile logicalDevice:makeControllerInputDescriptionWithIdentifier:bindings:]

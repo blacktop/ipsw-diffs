@@ -54,9 +54,7 @@
    __DATA_CONST.__objc_protorefs: 0x90
    __DATA_CONST.__objc_classrefs: 0x5e8
 -  __AUTH_CONST.__const: 0x12c88
--  __AUTH_CONST.__auth_ptr: 0x470
 +  __AUTH_CONST.__const: 0x13030
-+  __AUTH_CONST.__auth_ptr: 0x478
    __AUTH_CONST.__objc_const: 0x168
    __AUTH_CONST.__cfstring: 0x680
 -  __AUTH_CONST.__auth_got: 0x17c0
@@ -77,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 356E795F-19EA-3F9F-8D19-5921D94EFE96
 -  Functions: 9366
 -  Symbols:   2979
--  CStrings:  3823
+-  CStrings:  3875
++  UUID: DCC6D73B-89CB-3171-ACEB-917AB7DECA4C
 +  Functions: 9471
 +  Symbols:   2976
-+  CStrings:  3874
++  CStrings:  3926
  
 Symbols:
 + _MPMediaItemPropertyAlbumArtistPersistentID

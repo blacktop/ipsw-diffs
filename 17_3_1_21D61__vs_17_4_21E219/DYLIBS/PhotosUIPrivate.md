@@ -76,10 +76,9 @@
    __DATA_CONST.__objc_arraydata: 0x1868
 -  __AUTH_CONST.__objc_const: 0x17128
 -  __AUTH_CONST.__const: 0xe4f0
+-  __AUTH_CONST.__cfstring: 0x2c5e0
 +  __AUTH_CONST.__objc_const: 0x17168
 +  __AUTH_CONST.__const: 0xe670
-   __AUTH_CONST.__auth_ptr: 0x160
--  __AUTH_CONST.__cfstring: 0x2c5e0
 +  __AUTH_CONST.__cfstring: 0x2c8a0
    __AUTH_CONST.__objc_arrayobj: 0xee8
    __AUTH_CONST.__objc_dictobj: 0x140
@@ -126,12 +125,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0C1BD1B6-0725-379F-8330-10B4ED589ABF
 -  Functions: 36707
 -  Symbols:   104794
--  CStrings:  47550
+-  CStrings:  53229
++  UUID: 40927E4F-3AEF-31E9-A5FD-B564E966D770
 +  Functions: 36860
 +  Symbols:   104894
-+  CStrings:  47639
++  CStrings:  53340
  
 Symbols:
 + +[PUActivityViewController cmmMediaTypeSpecificFileSizeThresholdIsMetForAssetItems:]

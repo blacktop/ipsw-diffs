@@ -39,13 +39,16 @@
    __DATA.__objc_superrefs: 0x68
    __DATA.__objc_ivar: 0x84
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 86BAA01C-1108-3631-B43E-FA8A90641659
++  UUID: CB8650AE-A42D-3A23-B7FE-FD16892522ED
    Functions: 178
 -  Symbols:   181
--  CStrings:  525
+-  CStrings:  605
 +  Symbols:   182
-+  CStrings:  527
++  CStrings:  607
  
 Symbols:
 + _PSAllowMultilineTitleKey

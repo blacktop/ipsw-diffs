@@ -60,12 +60,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 9FEE5BAF-C871-3DD3-B506-8B3A2AF4C2A7
 -  Functions: 241
 -  Symbols:   2057
--  CStrings:  571
+-  CStrings:  798
++  UUID: D7D8A8FC-771D-33D8-9C5B-5C360C54598A
 +  Functions: 277
 +  Symbols:   2284
-+  CStrings:  586
++  CStrings:  820
  
 Symbols:
 + -[AppleFireWireAnalytics .cxx_destruct]

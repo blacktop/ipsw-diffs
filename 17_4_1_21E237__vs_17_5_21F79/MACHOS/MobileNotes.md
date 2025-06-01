@@ -75,12 +75,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 85BB7406-2FBE-3E25-AE64-9590E6301A1F
 -  Functions: 21177
 -  Symbols:   3510
--  CStrings:  15004
+-  CStrings:  16252
++  UUID: 25441EB3-DE97-3874-AC33-65C51005D395
 +  Functions: 21190
 +  Symbols:   3512
-+  CStrings:  15033
++  CStrings:  16283
  
 Symbols:
 + _OBJC_CLASS_$_PKPencilSqueezeInteraction

@@ -50,12 +50,14 @@
    - /System/Library/PrivateFrameworks/UserNotificationsSettings.framework/UserNotificationsSettings
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 67F02531-A0D0-3173-9DE6-E70C1498DC32
 -  Functions: 1989
 -  Symbols:   7485
--  CStrings:  3957
+-  CStrings:  4518
++  UUID: 8A70AACB-4C65-3A5A-9520-599DA10BAA54
 +  Functions: 1990
 +  Symbols:   7490
-+  CStrings:  3961
++  CStrings:  4522
  
 Symbols:
 + +[UNSNotificationRecordRemoveUpdate updateWithNotificationRecord:shouldSync:]

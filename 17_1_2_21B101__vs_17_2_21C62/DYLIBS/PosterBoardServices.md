@@ -79,12 +79,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D4FE2CC5-7675-378D-B9A7-72758766D55F
 -  Functions: 1636
 -  Symbols:   5368
--  CStrings:  2275
+-  CStrings:  2762
++  UUID: 60756757-254C-302D-9D9E-74A64F4BDE61
 +  Functions: 1663
 +  Symbols:   5462
-+  CStrings:  2308
++  CStrings:  2798
  
 Symbols:
 + +[PRSBehaviorAggregator shouldUseSharedDataStore]

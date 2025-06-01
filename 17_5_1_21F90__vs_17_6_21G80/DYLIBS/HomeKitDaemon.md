@@ -76,12 +76,10 @@
 +  __DATA_CONST.__objc_superrefs: 0x33f8
    __DATA_CONST.__objc_arraydata: 0x32c0
 -  __AUTH_CONST.__const: 0x13ed8
--  __AUTH_CONST.__auth_ptr: 0x40
 -  __AUTH_CONST.__objc_const: 0x39f80
 -  __AUTH_CONST.__cfstring: 0x59120
 -  __AUTH_CONST.__objc_intobj: 0x3168
 +  __AUTH_CONST.__const: 0x14978
-+  __AUTH_CONST.__auth_ptr: 0x68
 +  __AUTH_CONST.__objc_const: 0x39b00
 +  __AUTH_CONST.__cfstring: 0x58e80
 +  __AUTH_CONST.__objc_intobj: 0x31c8
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA497E92-6D19-3AB6-975F-3BDB7755C00D
 -  Functions: 50312
 -  Symbols:   165767
--  CStrings:  77414
+-  CStrings:  88815
++  UUID: 2FE59FAC-5012-3E23-A1D8-41A55D9DC2A9
 +  Functions: 50568
 +  Symbols:   165435
-+  CStrings:  77349
++  CStrings:  88729
  
 Symbols:
 + +[HMDBackgroundOperationManagerHelper makeSureToCreateBackUpOfHH2KeysIfNecessary:]

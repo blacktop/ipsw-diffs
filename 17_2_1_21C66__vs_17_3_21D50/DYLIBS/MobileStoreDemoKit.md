@@ -41,12 +41,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 47AF36FB-6731-3D81-98E2-E639A56CA25F
 -  Functions: 1023
 -  Symbols:   3478
--  CStrings:  2220
+-  CStrings:  2772
++  UUID: 197F760D-62F3-37D0-8232-AB36DD01438A
 +  Functions: 1024
 +  Symbols:   3481
-+  CStrings:  2224
++  CStrings:  2776
  
 Symbols:
 + -[MSDKPeerDemoDeviceManager triggerSnapshotRevertOnPeer:rebootDevice:withCompletion:]

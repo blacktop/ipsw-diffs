@@ -48,12 +48,14 @@
    - /System/Library/PrivateFrameworks/Transparency.framework/Transparency
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 24F5F744-C5FE-358D-A072-928CF6A1D40F
 -  Functions: 1501
 -  Symbols:   5400
--  CStrings:  2200
+-  CStrings:  2418
++  UUID: 27069BF1-E1BE-3143-9333-3A1D383CC5EC
 +  Functions: 1511
 +  Symbols:   5425
-+  CStrings:  2207
++  CStrings:  2425
  
 Symbols:
 + -[TUIStaticIdentityManager requestNewSasCodeWithDelay]

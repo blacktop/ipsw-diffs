@@ -20,4 +20,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/HealthKit.framework/HealthKit
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A6A1E280-9623-352B-A915-308A1D675617
++  UUID: F04A421B-85AE-3B4B-AA90-49A7A17CC382
+   Functions: 2
+   Symbols:   28
+   CStrings:  23
+
 ```

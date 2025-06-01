@@ -50,7 +50,6 @@
 +  __AUTH_CONST.__cfstring: 0xda0
 +  __AUTH_CONST.__objc_const: 0x938
    __AUTH_CONST.__const: 0x1a0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x2a0
 -  __AUTH.__objc_data: 0x7d0
 -  __DATA.__objc_classrefs: 0x180
@@ -65,12 +64,14 @@
    - /usr/lib/swift/libswiftDispatch.dylib
    - /usr/lib/swift/libswiftObjectiveC.dylib
    - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 8762F852-963B-3160-B298-376762A88EF7
 -  Functions: 293
 -  Symbols:   1278
--  CStrings:  703
+-  CStrings:  806
++  UUID: E43E1F12-E5F0-3990-90EE-561EB9660707
 +  Functions: 320
 +  Symbols:   1365
-+  CStrings:  740
++  CStrings:  849
  
 Symbols:
 + -[SHAMPConfiguration .cxx_destruct]

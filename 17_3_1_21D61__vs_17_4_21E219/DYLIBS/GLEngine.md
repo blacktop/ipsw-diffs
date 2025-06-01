@@ -14,4 +14,13 @@
    __TEXT.__oslogstring: 0x8e
    __TEXT.__unwind_info: 0x1834
 
+   - /System/Library/Frameworks/OpenGLES.framework/libGLProgrammability.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: EE6FBEF1-F913-3EAA-A400-6349A4AA7740
++  UUID: 71639050-E56B-37B9-8E0E-72C72620C50F
+   Functions: 2185
+   Symbols:   4000
+   CStrings:  301
+
 ```

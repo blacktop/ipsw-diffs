@@ -77,7 +77,6 @@
 +  __AUTH_CONST.__objc_doubleobj: 0x80
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__const: 0x9c0
--  __AUTH_CONST.__auth_ptr: 0x98
 -  __AUTH_CONST.__auth_got: 0xbc8
 -  __AUTH.__objc_data: 0x1f0
 -  __AUTH.__data: 0xc0
@@ -87,7 +86,6 @@
 -  __DATA.__objc_ivar: 0x67c
 -  __DATA.__data: 0x19b8
 -  __DATA.__bss: 0x19d0
-+  __AUTH_CONST.__auth_ptr: 0xa8
 +  __AUTH_CONST.__auth_got: 0xc48
 +  __AUTH.__objc_data: 0x5f0
 +  __AUTH.__data: 0x98
@@ -120,12 +118,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1510C8B7-43D0-31E3-B9C4-D34A32EFE0A3
 -  Functions: 3189
 -  Symbols:   8702
--  CStrings:  3629
+-  CStrings:  4108
++  UUID: 4A02F502-3851-36D9-A945-03EBCDB8BFB3
 +  Functions: 3588
 +  Symbols:   9822
-+  CStrings:  4121
++  CStrings:  4638
  
 Symbols:
 + +[ASCAgeRatingView horizontalPadding]

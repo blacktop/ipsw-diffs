@@ -39,12 +39,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 334BCA08-E986-3178-AF90-C68A7C8EBD5B
 -  Functions: 126
 -  Symbols:   461
--  CStrings:  229
+-  CStrings:  277
++  UUID: B8C753EF-C3F2-39E5-96FB-AEDB12ED205F
 +  Functions: 129
 +  Symbols:   467
-+  CStrings:  233
++  CStrings:  282
  
 Symbols:
 + +[HPSProductUtils isAirPods:]

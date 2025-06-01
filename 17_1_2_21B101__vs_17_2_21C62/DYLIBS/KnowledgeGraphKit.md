@@ -23,12 +23,15 @@
    __AUTH.__const_weak: 0x540
    __AUTH.__data: 0x2898
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F0379B29-ABD3-3B93-8876-77705D7F844B
++  UUID: 564205D5-7D55-3D74-A584-42140DFDDF38
    Functions: 8543
 -  Symbols:   12281
 +  Symbols:   12282
-   CStrings:  3389
+   CStrings:  3657
  
 Symbols:
 + _objc_release_x11

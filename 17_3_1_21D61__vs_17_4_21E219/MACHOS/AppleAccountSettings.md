@@ -62,12 +62,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: F2647281-5E26-338D-A3C8-6E4E68B6FBE6
 -  Functions: 1771
 -  Symbols:   730
--  CStrings:  3802
+-  CStrings:  4248
++  UUID: D6A4BD3F-AAAB-38B4-994B-93DAB3E51A75
 +  Functions: 1789
 +  Symbols:   729
-+  CStrings:  3834
++  CStrings:  4288
  
 Symbols:
 + _OBJC_CLASS_$_AAUIFeatureFlags

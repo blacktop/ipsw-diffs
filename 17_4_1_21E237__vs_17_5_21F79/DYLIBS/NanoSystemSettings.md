@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0x4815
    __TEXT.__objc_methtype: 0x96b
 
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 011850EA-4C2A-3AD4-A99E-3E3399608240
++  UUID: C40E29FC-2EF2-3C60-8414-3D36921D50BE
+   Functions: 1412
+   Symbols:   4164
+   CStrings:  1651
+
 ```

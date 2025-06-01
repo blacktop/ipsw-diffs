@@ -57,7 +57,6 @@
 +  __AUTH_CONST.__objc_arrayobj: 0x3960
 +  __AUTH_CONST.__objc_intobj: 0xca8
    __AUTH_CONST.__objc_doubleobj: 0xc0
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x760
 -  __AUTH.__objc_data: 0x23f0
 -  __DATA.__objc_protorefs: 0x50
@@ -76,12 +75,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 996973C9-69E6-3919-965A-A59DFD315131
 -  Functions: 3569
 -  Symbols:   12328
--  CStrings:  8897
+-  CStrings:  15994
++  UUID: 1E431E3E-6BAA-3282-8133-B709ABB10642
 +  Functions: 3637
 +  Symbols:   12504
-+  CStrings:  9032
++  CStrings:  16188
  
 Symbols:
 + +[TIFeedbackUtil clearStudyState]

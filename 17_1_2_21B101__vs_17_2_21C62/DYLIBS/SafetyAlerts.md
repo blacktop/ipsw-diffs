@@ -75,12 +75,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 65B66386-0608-37AB-913A-1F85EA247FD3
 -  Functions: 14
 -  Symbols:   86
--  CStrings:  59
+-  CStrings:  61
++  UUID: DDE6AEC3-57B9-38C0-9137-C8D5F692573F
 +  Functions: 85
 +  Symbols:   358
-+  CStrings:  281
++  CStrings:  336
  
 Symbols:
 + +[SAEDFollowUpManager sharedInstance]
@@ -287,6 +289,7 @@ Symbols:
 + _xpc_dictionary_get_string
 + _xpc_dictionary_set_bool
 CStrings:
++ ""
 + "@\"NSDictionary\"8@?0"
 + "@24@0:8@16"
 + "@32@0:8@16@24"

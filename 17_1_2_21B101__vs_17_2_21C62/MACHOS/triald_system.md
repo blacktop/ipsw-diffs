@@ -14,4 +14,13 @@
    __TEXT.__cstring: 0x18
    __TEXT.__unwind_info: 0x48
 
+   - /System/Library/PrivateFrameworks/TrialServer.framework/TrialServer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A23D7D38-F1AE-3126-B7EB-BAE23056424D
++  UUID: E0C5F59D-D611-3578-BC88-6527B7844968
+   Functions: 1
+   Symbols:   22
+   CStrings:  3
+
 ```

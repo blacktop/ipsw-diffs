@@ -40,7 +40,6 @@
 +  __AUTH_CONST.__cfstring: 0x15c0
    __AUTH_CONST.__objc_const: 0x700
    __AUTH_CONST.__objc_arrayobj: 0x90
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__auth_got: 0x278
    __AUTH.__objc_data: 0x5a0
@@ -53,12 +52,14 @@
    - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AB504A11-D68A-38FB-8D90-BA409164767C
 -  Functions: 240
 -  Symbols:   1181
--  CStrings:  831
+-  CStrings:  1004
++  UUID: FF1ACF9B-C77F-38EE-AA8D-8C78BE1C6D59
 +  Functions: 241
 +  Symbols:   1184
-+  CStrings:  835
++  CStrings:  1009
  
 Symbols:
 + +[DAEASOAuthWebViewController _presentAlertWithAlertParameters:]

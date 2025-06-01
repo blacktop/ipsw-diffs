@@ -52,12 +52,14 @@
    - /usr/lib/libAXSafeCategoryBundle.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BB791C41-8667-39F1-99A3-75590149F49F
 -  Functions: 69
 -  Symbols:   374
--  CStrings:  186
+-  CStrings:  260
++  UUID: 424D8557-2AF4-3D69-A2E1-B3FCB40F5B1A
 +  Functions: 74
 +  Symbols:   395
-+  CStrings:  193
++  CStrings:  271
  
 Symbols:
 + +[FMPlatterImageAndButtonGroupViewAccessibility _accessibilityPerformValidations:]

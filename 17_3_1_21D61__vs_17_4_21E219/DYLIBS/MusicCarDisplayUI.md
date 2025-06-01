@@ -52,7 +52,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x270
 +  __DATA_CONST.__objc_superrefs: 0x70
    __DATA_CONST.__objc_arraydata: 0x28
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__const: 0x170
 +  __AUTH_CONST.__const: 0x138
    __AUTH_CONST.__cfstring: 0xe20
@@ -78,12 +77,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 320479E3-EC66-3678-9CE4-1AA4E1DD3453
 -  Functions: 645
 -  Symbols:   2726
--  CStrings:  1682
+-  CStrings:  1795
++  UUID: 05B409A3-0274-3E64-8A55-AD71DB51520D
 +  Functions: 639
 +  Symbols:   2713
-+  CStrings:  1668
++  CStrings:  1781
  
 Symbols:
 + ___40-[MCDPCContainer refreshWithCompletion:]_block_invoke.348

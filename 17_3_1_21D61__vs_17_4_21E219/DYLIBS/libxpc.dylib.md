@@ -54,9 +54,11 @@
    - /usr/lib/system/libsystem_sandbox.dylib
    - /usr/lib/system/libsystem_trace.dylib
    - /usr/lib/system/libunwind.dylib
+-  UUID: F91A5026-1FBC-3690-92CC-575D9D4FE776
 -  Functions: 1761
 -  Symbols:   3858
 -  CStrings:  1143
++  UUID: B4B95049-898D-3491-B2DA-62EC8C8EF0A9
 +  Functions: 1818
 +  Symbols:   3954
 +  CStrings:  1183

@@ -48,8 +48,8 @@
    __AUTH_CONST.__cfstring: 0x7660
    __AUTH_CONST.__objc_const: 0x2d18
 
+   __AUTH_CONST.__objc_dictobj: 0x168
    __AUTH_CONST.__objc_arrayobj: 0x78
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_doubleobj: 0x10
 -  __AUTH_CONST.__auth_got: 0x1350
 +  __AUTH_CONST.__auth_got: 0x1360
@@ -65,12 +65,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C7730FAF-5A73-3DF0-B159-74E866C9B160
 -  Functions: 3361
 -  Symbols:   12849
--  CStrings:  6067
+-  CStrings:  7014
++  UUID: E731A8F1-43F2-3258-BBDC-9B2FBAB271D4
 +  Functions: 3367
 +  Symbols:   12868
-+  CStrings:  6084
++  CStrings:  7031
  
 Symbols:
 + +[PDFAnnotationDrawing drawAppearance:ofAnnotation:withBox:inContext:scaleProportional:suppressTextRendering:]

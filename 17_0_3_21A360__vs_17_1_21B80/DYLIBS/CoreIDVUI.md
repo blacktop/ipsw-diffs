@@ -54,12 +54,10 @@
    __AUTH_CONST.__cfstring: 0x140
    __AUTH_CONST.__objc_const: 0x3d0
 -  __AUTH_CONST.__const: 0x5fb8
--  __AUTH_CONST.__auth_ptr: 0x248
 -  __AUTH_CONST.__auth_got: 0x1768
 -  __AUTH.__objc_data: 0x61f0
 -  __AUTH.__data: 0x3318
 +  __AUTH_CONST.__const: 0x6058
-+  __AUTH_CONST.__auth_ptr: 0x240
 +  __AUTH_CONST.__auth_got: 0x17a8
 +  __AUTH.__objc_data: 0x6270
 +  __AUTH.__data: 0x33e8
@@ -91,12 +89,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D0EF6E63-8D93-3682-B8A6-B149EE584B01
 -  Functions: 3419
 -  Symbols:   2444
--  CStrings:  1893
+-  CStrings:  1903
++  UUID: EA31BBFE-3AB8-35D9-B152-71F65FA3E369
 +  Functions: 3469
 +  Symbols:   2464
-+  CStrings:  1917
++  CStrings:  1927
  
 Symbols:
 + _CIDVRGBCaptureImageQualityOptionBlockLiveness

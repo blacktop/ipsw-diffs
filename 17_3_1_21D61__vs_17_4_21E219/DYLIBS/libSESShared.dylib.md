@@ -70,12 +70,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 09ED98B8-153D-35B5-A9DB-EF80B93E6C60
 -  Functions: 238
 -  Symbols:   930
--  CStrings:  541
+-  CStrings:  662
++  UUID: E011B087-1A87-390B-BDD6-E1EC24386BEF
 +  Functions: 250
 +  Symbols:   969
-+  CStrings:  577
++  CStrings:  714
  
 Symbols:
 + +[CertificationLogging bleLogMessageReceived:peerUUID:]

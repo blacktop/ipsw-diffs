@@ -51,12 +51,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 00D7B3E2-37CB-327E-9BBA-6056EA92340F
 -  Functions: 36581
 -  Symbols:   111101
--  CStrings:  37385
+-  CStrings:  45678
++  UUID: 7897D8A2-6945-3D89-92F4-977F2FB37AD3
 +  Functions: 36585
 +  Symbols:   111111
-+  CStrings:  37393
++  CStrings:  45689
  
 Symbols:
 + -[HDAutoBugCaptureReporter reportHDUserCharacteristicsManagerFailureDescription:needsUpdateAfterUnlock:error:]

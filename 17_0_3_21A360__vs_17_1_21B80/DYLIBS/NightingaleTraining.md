@@ -47,13 +47,11 @@
 -  __DATA_CONST.__objc_const: 0x1670
 -  __DATA_CONST.__objc_selrefs: 0x2b0
 -  __AUTH_CONST.__const: 0x2598
--  __AUTH_CONST.__auth_ptr: 0x78
 -  __AUTH_CONST.__auth_got: 0xb58
 -  __AUTH.__data: 0x17f8
 +  __DATA_CONST.__objc_const: 0x1690
 +  __DATA_CONST.__objc_selrefs: 0x2d0
 +  __AUTH_CONST.__const: 0x26a8
-+  __AUTH_CONST.__auth_ptr: 0x80
 +  __AUTH_CONST.__auth_got: 0xbb0
 +  __AUTH.__data: 0x1880
    __AUTH.__objc_data: 0x50
@@ -70,9 +68,11 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E3F21324-C83D-329C-B76B-5DF769E3EEE6
 -  Functions: 1623
 -  Symbols:   809
 -  CStrings:  278
++  UUID: 60F12068-7649-3970-8A5B-BA46A98B5E0A
 +  Functions: 1682
 +  Symbols:   826
 +  CStrings:  288

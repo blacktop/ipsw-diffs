@@ -42,9 +42,11 @@
    - /System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C4A8E442-9CE8-3915-B0D0-4D3BE4BE251E
++  UUID: 2B0E57EE-63FB-3C60-98BF-79251ECF84FA
    Functions: 1
 -  Symbols:   33
--  CStrings:  71
+-  CStrings:  77
 +  Symbols:   29
 +  CStrings:  69
  

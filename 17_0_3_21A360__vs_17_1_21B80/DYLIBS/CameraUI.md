@@ -59,12 +59,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A2BCDB8C-805D-3E03-B51E-C54E85041E46
 -  Functions: 13672
 -  Symbols:   46641
--  CStrings:  22255
+-  CStrings:  24616
++  UUID: 045B87CE-52F5-39A0-BC95-FEF52D5DC036
 +  Functions: 13676
 +  Symbols:   46656
-+  CStrings:  22268
++  CStrings:  24633
  
 Symbols:
 + -[CAMCaptureCapabilities _allowSpatialOverCaptureInPortraitMode]

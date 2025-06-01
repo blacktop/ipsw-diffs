@@ -32,11 +32,15 @@
    __DATA.__data: 0x180
    __DATA.__bss: 0x30
 
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4F6C0255-035F-3515-82DB-6C526B6824EC
++  UUID: B1754547-4188-36C9-AD7C-57C6A2EB3957
    Functions: 166
    Symbols:   643
--  CStrings:  531
-+  CStrings:  532
+-  CStrings:  585
++  CStrings:  586
  
 CStrings:
 + "T@\"NSString\",?,R,C"

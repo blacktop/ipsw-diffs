@@ -59,12 +59,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 197F760D-62F3-37D0-8232-AB36DD01438A
 -  Functions: 1024
 -  Symbols:   3481
--  CStrings:  2224
+-  CStrings:  2776
++  UUID: 79E9A3BA-13AF-3A0C-BDB9-C245DE88CE7A
 +  Functions: 1028
 +  Symbols:   3491
-+  CStrings:  2232
++  CStrings:  2786
  
 Symbols:
 + -[MSDKDemoState _isPressDemoModeEnabled:]

@@ -22,4 +22,13 @@
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x20
 
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+-  UUID: 29DC6365-E338-3AB1-AF16-3945AE9FFD35
++  UUID: 6EF86070-FC97-3D5F-B08D-7A5962EB21A1
+   Functions: 4
+   Symbols:   42
+   CStrings:  7
+
 ```

@@ -23,8 +23,8 @@
    __TEXT.__objc_classname: 0x8d
    __TEXT.__objc_methname: 0x5e09
 
+   __DATA_CONST.__objc_classrefs: 0xf8
    __AUTH_CONST.__const: 0x51e0
-   __AUTH_CONST.__auth_ptr: 0xc8
    __AUTH_CONST.__objc_const: 0xd0
 -  __AUTH_CONST.__auth_got: 0x1490
 +  __AUTH_CONST.__auth_got: 0x1488
@@ -37,6 +37,15 @@
    __DATA.__common: 0x158
    - /System/Library/Frameworks/ARKit.framework/ARKit
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2F3B58BC-E6E9-3CCF-9986-602FD7C13CFF
++  UUID: E8572D98-69F7-3E7E-903C-7F0CCAF9F299
+   Functions: 3497
+   Symbols:   530
+   CStrings:  2295
 CStrings:
 + "ObjectCaptureSession.%{private}s: [SPI]set debug surface data: %{bool,public}d"
 + "_debugSurfaceGeometryData"

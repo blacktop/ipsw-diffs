@@ -79,12 +79,10 @@
    __AUTH_CONST.__objc_const: 0x11478
    __AUTH_CONST.__objc_doubleobj: 0x220
    __AUTH_CONST.__objc_dictobj: 0x578
--  __AUTH_CONST.__auth_ptr: 0x1160
 -  __AUTH_CONST.__auth_got: 0x4b38
 -  __AUTH.__objc_data: 0x13508
 -  __AUTH.__data: 0x30be0
 -  __DATA.__objc_ivar: 0x3710
-+  __AUTH_CONST.__auth_ptr: 0x1168
 +  __AUTH_CONST.__auth_got: 0x4b70
 +  __AUTH.__objc_data: 0x138a8
 +  __AUTH.__data: 0x31348
@@ -113,12 +111,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 10188B78-7B20-3338-9BF1-13BE1FA2BB51
 -  Functions: 86559
 -  Symbols:   115515
--  CStrings:  33359
+-  CStrings:  37086
++  UUID: A99C95D6-101E-3E4C-9DB9-C4FDADC301FB
 +  Functions: 87062
 +  Symbols:   116148
-+  CStrings:  33488
++  CStrings:  37241
  
 Symbols:
 + +[VUIMetricsMediaEvent _metricsDataFromPlayable:actionType:canonicalIdOverride:]

@@ -53,10 +53,12 @@
 -  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E1117FD9-7346-3AF4-A4A8-9A7F0A96AADD
++  UUID: 914FB8C4-FAA6-3554-81B6-B4144BD0DE75
    Functions: 205
    Symbols:   169
--  CStrings:  702
-+  CStrings:  703
+-  CStrings:  727
++  CStrings:  728
  
 CStrings:
 + "T@\"NSString\",?,R,C"

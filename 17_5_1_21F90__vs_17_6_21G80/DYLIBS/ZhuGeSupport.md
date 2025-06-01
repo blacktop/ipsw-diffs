@@ -35,11 +35,15 @@
    __DATA_DIRTY.__objc_data: 0x190
    __DATA_DIRTY.__bss: 0x170
 
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 75D1697B-5A3D-35E8-AB47-EF4813555F21
++  UUID: 700B1F22-58BA-3B03-AD6B-77860D2CFCE6
    Functions: 152
    Symbols:   738
--  CStrings:  727
-+  CStrings:  729
+-  CStrings:  1149
++  CStrings:  1153
  
 CStrings:
 + "Get failure when calling API of SecCertificate"

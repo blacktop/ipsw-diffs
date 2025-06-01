@@ -26,11 +26,15 @@
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__objc_intobj: 0x30
 
+   - /System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PrivateFederatedLearning
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 54F85461-9EFC-3F0D-98D0-953F3BC0586B
++  UUID: CD77B9FA-AAAC-321E-8B29-C7545F0ACC81
    Functions: 178
    Symbols:   1259
--  CStrings:  698
-+  CStrings:  700
+-  CStrings:  942
++  CStrings:  946
  
 CStrings:
 + "dediscoEncodingSchema"

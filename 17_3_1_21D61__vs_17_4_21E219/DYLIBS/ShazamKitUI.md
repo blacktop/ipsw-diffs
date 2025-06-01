@@ -53,7 +53,6 @@
 +  __AUTH_CONST.__const: 0x1d60
    __AUTH_CONST.__objc_arrayobj: 0x210
    __AUTH_CONST.__objc_floatobj: 0x190
-   __AUTH_CONST.__auth_ptr: 0x60
 -  __AUTH_CONST.__auth_got: 0xa78
 +  __AUTH_CONST.__auth_got: 0xaa0
    __AUTH.__objc_data: 0x930
@@ -73,12 +72,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 901AF6E9-ED07-3CC8-98FC-A5E93AD7D60E
 -  Functions: 1131
 -  Symbols:   1552
--  CStrings:  613
+-  CStrings:  633
++  UUID: B3CA2106-7278-3BEC-A322-FDFC8FD47E8D
 +  Functions: 1149
 +  Symbols:   1551
-+  CStrings:  627
++  CStrings:  647
  
 Symbols:
 + _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA012_ConditionalD0VyAGyACy09ShazamKitB023AttributedListeningViewVAA12_FrameLayoutVGACyAA0K0PAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0P0Rd__lFQOyACyAH12MatchSnippetVAA01_D13ShapeModifierVyAA9RectangleVGG_AA06_EndedP0VyAA03TapP0VGQo_AA017_AppearanceActionU0VGGACyAH02NoR0VA8_GGGAA08_PaddingM0VGAA010_AnimationU0VyAH17MatchingFlowStateOGGAH010SizeChangeU033_5C6B13753651F51B2BE0ECA6A4B89DBCLLVGAaNHPA24_AaNHPA18_AaNHPA15_AaNHPyHC_A17_AA0kU0HPyHCHC_A23_AAA29_HPyHCHC_A27_AAA29_HPyHCHC.13

@@ -46,7 +46,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__objc_const: 0x48
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH_CONST.__auth_got: 0x310
@@ -67,12 +66,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D2F25045-342A-3B04-BAF5-8F6AF7D48D66
 -  Functions: 510
 -  Symbols:   1942
--  CStrings:  1757
+-  CStrings:  2078
++  UUID: DE2AB477-B99E-3CA7-91D7-E1ED799D8F49
 +  Functions: 512
 +  Symbols:   1950
-+  CStrings:  1762
++  CStrings:  2084
  
 Symbols:
 + -[LTMIBPParams forceEnableHighlightCompression]

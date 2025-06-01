@@ -38,16 +38,21 @@
    __DATA_DIRTY.__objc_data: 0x50
    - /System/Library/Frameworks/Accounts.framework/Accounts
 
+   - /System/Library/PrivateFrameworks/CloudKitDaemon.framework/CloudKitDaemon
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07CB215C-CE8D-332F-A60F-372F122715E2
++  UUID: 2B26A5EA-5793-3F55-AC31-1102081D377D
    Functions: 5
    Symbols:   55
 -  CStrings:  106
-+  CStrings:  108
++  CStrings:  110
  
 Symbols:
 + ___CFConstantStringClassReference
 - __os_log_debug_impl
 CStrings:
++ ""
 + "Changed account properties are %{public}@to CloudKit: account.dirtyProperties: %{public}@, account.dirthAccountProperties: %{public}@"
 + "Notifying cloudd of an add of account %{public}@. Authorized client: %{public}@. ContainerIDs: %{public}@ ="
 + "T@\"NSString\",?,R,C"

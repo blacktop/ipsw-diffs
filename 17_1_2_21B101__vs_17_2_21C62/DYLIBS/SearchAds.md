@@ -45,13 +45,16 @@
    __DATA.__objc_ivar: 0x1bc
    __DATA.__data: 0x1e0
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C8EAB28A-8309-3E63-A74B-8B259892B4FD
++  UUID: 63CE9113-5B9B-37D0-9FB6-BCB94762D55F
    Functions: 406
 -  Symbols:   1681
--  CStrings:  1202
+-  CStrings:  1472
 +  Symbols:   1683
-+  CStrings:  1204
++  CStrings:  1475
  
 Symbols:
 + _OBJC_CLASS_$_ADRoutingInfoMessage

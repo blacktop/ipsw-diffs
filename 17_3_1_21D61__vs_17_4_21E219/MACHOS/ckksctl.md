@@ -25,4 +25,13 @@
    __DATA.__objc_data: 0x50
    __DATA.__data: 0x8a0
 
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4F047A26-F813-306C-83E8-A030A8E700D3
++  UUID: 5A1C7625-D923-39D1-AC6C-16E096E25341
+   Functions: 46
+   Symbols:   95
+   CStrings:  391
+
 ```

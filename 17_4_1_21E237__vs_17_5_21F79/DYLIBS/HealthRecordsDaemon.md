@@ -30,4 +30,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
 
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F6453549-84CC-3038-8125-34CD82608A3C
++  UUID: 7B9D7DF5-F8FD-3CC7-AFBA-1C828366F059
+   Functions: 17293
+   Symbols:   2811
+   CStrings:  2362
+
 ```

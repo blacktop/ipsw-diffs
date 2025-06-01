@@ -77,12 +77,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDE1C813-8E58-3C36-982D-99883CDAF27F
 -  Functions: 3766
 -  Symbols:   14025
--  CStrings:  6977
+-  CStrings:  8075
++  UUID: 71FADCCB-E6BB-3F98-B3C3-24EF3382A98A
 +  Functions: 3797
 +  Symbols:   14133
-+  CStrings:  7034
++  CStrings:  8134
  
 Symbols:
 + -[FBSScene(SBSUIRemoteAlertSceneClientComponent) SBSUI_remoteAlertComponent]

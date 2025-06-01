@@ -19,4 +19,13 @@
    __TEXT.__objc_methname: 0xa819
    __TEXT.__objc_methtype: 0x1404
 
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9406A68B-C68D-3B80-A9F8-0BBBA79A956B
++  UUID: DB31A0C1-3415-397D-AA90-7E6288555F8D
+   Functions: 1539
+   Symbols:   5560
+   CStrings:  2303
+
 ```

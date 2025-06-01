@@ -69,12 +69,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AD8DBAD0-25FB-3BEC-A1B5-94E62D9478E3
 -  Functions: 1447
 -  Symbols:   5332
--  CStrings:  2217
+-  CStrings:  2503
++  UUID: BC347031-80A6-3DC4-80BD-A15B88BF9BBE
 +  Functions: 1458
 +  Symbols:   5381
-+  CStrings:  2236
++  CStrings:  2524
  
 Symbols:
 + +[SYDocumentWorkflowsCoreDataStore _persistentStoreDirURL]

@@ -32,20 +32,24 @@
    __DATA_CONST.__objc_classrefs: 0x1a8
    __DATA_CONST.__objc_superrefs: 0x40
 
+   __AUTH_CONST.__objc_intobj: 0x1b0
    __AUTH_CONST.__objc_const: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x18
-   __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__auth_got: 0x6a8
 +  __AUTH_CONST.__auth_got: 0x6b0
    __AUTH.__data: 0x2c0
    __AUTH.__objc_data: 0x178
    __DATA.__objc_ivar: 0x7c
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0212FCC8-F69C-3347-85D6-384DA67D1BD4
++  UUID: 41428A2A-3562-35D9-927D-93F38D5A31CC
    Functions: 963
    Symbols:   1597
--  CStrings:  855
-+  CStrings:  856
+-  CStrings:  900
++  CStrings:  901
  
 CStrings:
 + "newsdDocumentsURL"

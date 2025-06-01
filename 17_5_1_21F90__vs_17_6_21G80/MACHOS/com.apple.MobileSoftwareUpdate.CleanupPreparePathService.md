@@ -45,12 +45,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/liblzma.5.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D87C853C-5328-3027-8C06-43885D22744C
 -  Functions: 616
 -  Symbols:   4764
--  CStrings:  2455
+-  CStrings:  3610
++  UUID: C521ED17-6092-3B83-8400-53492EB96931
 +  Functions: 617
 +  Symbols:   4775
-+  CStrings:  2453
++  CStrings:  3606
  
 Symbols:
 + /AppleInternal/Library/BuildRoots/8bb5d799-4029-11ef-93f2-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.6.Internal.sdk/usr/lib/libUpdateMetrics.a(UMEventCheckpoint.o)

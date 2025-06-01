@@ -36,8 +36,8 @@
 -  __AUTH_CONST.__cfstring: 0x5640
 +  __AUTH_CONST.__cfstring: 0x56a0
    __AUTH_CONST.__const: 0x660
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__auth_got: 0x6d0
 
    __DATA.__objc_protorefs: 0x8
    __DATA.__objc_classrefs: 0x450
@@ -51,12 +51,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 4CF3CE2E-2564-33FB-AC43-2F001233A60D
 -  Functions: 1977
 -  Symbols:   6298
--  CStrings:  2697
+-  CStrings:  3387
++  UUID: 36FC8269-2C9B-362C-AB32-4F394C4D343A
 +  Functions: 1978
 +  Symbols:   6300
-+  CStrings:  2707
++  CStrings:  3400
  
 Symbols:
 + +[RBSProcessIdentity identityForXPCServiceExecutablePath:pid:auid:host:UUID:].cold.6

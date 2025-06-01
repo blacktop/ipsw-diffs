@@ -22,8 +22,8 @@
    __TEXT.__objc_classname: 0x1
    __TEXT.__objc_methname: 0xbc4
 
+   __DATA_CONST.__objc_selrefs: 0x3e8
    __AUTH_CONST.__const: 0x52e30
-   __AUTH_CONST.__auth_ptr: 0x98
    __AUTH_CONST.__cfstring: 0x240
 -  __AUTH_CONST.__auth_got: 0x11b0
 +  __AUTH_CONST.__auth_got: 0x11a8
@@ -34,12 +34,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A94F12C2-2A87-3129-905A-870C1737C794
 -  Functions: 35488
 -  Symbols:   1499
--  CStrings:  4889
+-  CStrings:  4907
++  UUID: DE1EDDA7-66DC-37CF-A219-AB53F5655887
 +  Functions: 35515
 +  Symbols:   1498
-+  CStrings:  4901
++  CStrings:  4919
  
 Symbols:
 - _objc_retain_x26

@@ -13,4 +13,13 @@
    __TEXT.__objc_methname: 0xb3da
    __TEXT.__objc_methtype: 0x1b26
 
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 351E7FA0-3413-391A-A538-BE810C0F8277
++  UUID: DACEFC5A-4090-3038-BDB6-5AA029A6CA81
+   Functions: 1097
+   Symbols:   4573
+   CStrings:  2611
+
 ```

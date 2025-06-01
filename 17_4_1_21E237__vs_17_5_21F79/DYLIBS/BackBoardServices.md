@@ -55,7 +55,6 @@
    __AUTH_CONST.__objc_intobj: 0xa8
    __AUTH_CONST.__objc_arrayobj: 0x30
    __AUTH_CONST.__objc_floatobj: 0x10
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__auth_got: 0x708
 -  __AUTH.__objc_data: 0x1bd0
 -  __DATA.__objc_ivar: 0x628
@@ -77,12 +76,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 247549A6-F127-33CE-8487-1DBF8139A670
 -  Functions: 2492
 -  Symbols:   7821
--  CStrings:  3868
+-  CStrings:  4922
++  UUID: B48186A9-938B-3933-85AF-A8EA732A61E3
 +  Functions: 2534
 +  Symbols:   7929
-+  CStrings:  3930
++  CStrings:  5001
  
 Symbols:
 + +[BKSHIDHapticFeedbackRequest build:]

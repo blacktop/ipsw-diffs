@@ -60,10 +60,9 @@
    __AUTH_CONST.__objc_dictobj: 0x410
    __AUTH_CONST.__objc_floatobj: 0x530
 -  __AUTH_CONST.__objc_arrayobj: 0x108
-+  __AUTH_CONST.__objc_arrayobj: 0x120
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xf50
 -  __AUTH.__objc_data: 0x50f0
++  __AUTH_CONST.__objc_arrayobj: 0x120
 +  __AUTH_CONST.__auth_got: 0xf88
 +  __AUTH.__objc_data: 0x5140
    __DATA.__objc_protorefs: 0xa8
@@ -80,12 +79,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: C600A2BE-C0E4-38CC-B69B-0DE2523FB5AF
 -  Functions: 9901
 -  Symbols:   32698
--  CStrings:  16940
+-  CStrings:  18404
++  UUID: 16760359-33F6-3D42-B6DE-01CC48E458CC
 +  Functions: 9986
 +  Symbols:   32964
-+  CStrings:  17098
++  CStrings:  18578
  
 Symbols:
 + +[CSBenchmarkService disableBenchmarkService]

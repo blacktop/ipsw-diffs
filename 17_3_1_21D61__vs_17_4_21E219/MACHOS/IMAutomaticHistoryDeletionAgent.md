@@ -20,4 +20,13 @@
    __DATA.__bss: 0x8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /System/Library/PrivateFrameworks/Marco.framework/Marco
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B2EDCFA1-31E8-3D9D-8D59-D8AA507C4F6C
++  UUID: FA87420F-6747-3131-8066-AA7C1F41A517
+   Functions: 9
+   Symbols:   72
+   CStrings:  107
+
 ```

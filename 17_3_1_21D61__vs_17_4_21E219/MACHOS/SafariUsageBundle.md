@@ -43,13 +43,16 @@
    __DATA.__objc_data: 0xf0
    __DATA.__data: 0x120
 
+   - /System/Library/PrivateFrameworks/WebUI.framework/WebUI
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: AC549EFB-036A-3D5D-8F22-9E2E03DD5C5E
++  UUID: D6E07BF2-A8ED-3652-B735-D8A167360A06
    Functions: 64
 -  Symbols:   119
--  CStrings:  240
+-  CStrings:  268
 +  Symbols:   171
-+  CStrings:  290
++  CStrings:  367
  
 Symbols:
 + _SafariStorageSettingsControllerDataSourceClassName

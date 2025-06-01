@@ -23,7 +23,7 @@
    __DATA_CONST.__objc_classlist: 0x80
    __DATA_CONST.__objc_protolist: 0x20
 
-   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__const: 0x148
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__objc_const: 0x558
 -  __AUTH_CONST.__auth_got: 0xa58
@@ -32,12 +32,15 @@
    __DATA.__objc_classrefs: 0xf0
    __DATA.__objc_superrefs: 0x78
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D445AD79-3363-3873-A446-52C9ACFEA2A9
++  UUID: 4B2ED182-7FC7-395E-BD6C-D4E009E51AAD
    Functions: 897
 -  Symbols:   970
 +  Symbols:   967
-   CStrings:  1384
+   CStrings:  1581
  
 Symbols:
 - _CGColorSpaceCreateWithName

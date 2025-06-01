@@ -59,12 +59,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 46C304CB-C862-3016-AF86-AE7B1995C9F2
 -  Functions: 13831
 -  Symbols:   85828
--  CStrings:  2544
+-  CStrings:  2592
++  UUID: 0746E901-3677-3155-8D87-A3BCBCB552C7
 +  Functions: 13836
 +  Symbols:   85852
-+  CStrings:  2547
++  CStrings:  2595
  
 Symbols:
 + _$s11SiriKitFlow11DeviceStateP10isXRDeviceSbvgTj

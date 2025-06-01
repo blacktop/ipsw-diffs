@@ -43,12 +43,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EE8226D-B40B-3C71-8906-C42F998BB521
 -  Functions: 839
 -  Symbols:   2315
--  CStrings:  413
+-  CStrings:  414
++  UUID: A7F92EFE-7FAA-32AE-995E-6CF7C2B4C233
 +  Functions: 849
 +  Symbols:   2309
-+  CStrings:  411
++  CStrings:  412
  
 Symbols:
 + __ZN3abm5trace14TraceInfoEntryC2ERKS1_

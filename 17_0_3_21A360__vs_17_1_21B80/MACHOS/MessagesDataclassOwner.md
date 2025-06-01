@@ -33,13 +33,16 @@
    __DATA_CONST.__objc_protolist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B7FE0004-67A8-3B26-B315-F1FA5B349CAE
++  UUID: BAE73BBB-2A86-391B-92D0-F42E884A1B04
    Functions: 17
 -  Symbols:   77
--  CStrings:  183
+-  CStrings:  225
 +  Symbols:   78
-+  CStrings:  185
++  CStrings:  228
  
 Symbols:
 + _IMSharedHelperDeviceIsSharediPad

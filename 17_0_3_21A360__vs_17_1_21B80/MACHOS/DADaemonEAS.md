@@ -33,11 +33,15 @@
    __DATA.__objc_classrefs: 0x3a8
    __DATA.__objc_superrefs: 0x30
 
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 266DC95C-2109-3C1B-87ED-B85E1F1D42BB
++  UUID: F8DE3CE3-048E-32B0-AD5E-BB63903A6E50
    Functions: 520
    Symbols:   530
--  CStrings:  2175
-+  CStrings:  2178
+-  CStrings:  2297
++  CStrings:  2300
  
 CStrings:
 + "syncResultForContactsFolder:newTag:previousTag:newSyncToken:actions:results:changeIdContext:isInitialSync:moreAvailable:moreLocalChangesAvailable:pushedActions:externalURLForNewLocation:"

@@ -38,12 +38,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 217B64B6-F7F3-3519-B6E0-57520A2D6E58
 -  Functions: 217
 -  Symbols:   963
--  CStrings:  444
+-  CStrings:  537
++  UUID: 9BE3C30C-34CF-3130-AEC1-55698894945A
 +  Functions: 219
 +  Symbols:   969
-+  CStrings:  445
++  CStrings:  538
  
 Symbols:
 + _HCLogHearingLiveListen

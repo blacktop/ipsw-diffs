@@ -57,7 +57,6 @@
    __AUTH_CONST.__objc_doubleobj: 0xd0
    __AUTH_CONST.__objc_dictobj: 0x3c0
    __AUTH_CONST.__objc_floatobj: 0x40
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__auth_got: 0x1f98
 -  __AUTH.__objc_data: 0xdf70
 +  __AUTH.__objc_data: 0xe010
@@ -84,12 +83,14 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: C4931DA3-EFE2-3441-B9BD-C78F741ABF66
 -  Functions: 22427
 -  Symbols:   76537
--  CStrings:  42049
+-  CStrings:  50832
++  UUID: 76080655-F077-3779-9F6E-EBF0A38047CF
 +  Functions: 22442
 +  Symbols:   76593
-+  CStrings:  42076
++  CStrings:  50862
  
 Symbols:
 + +[PLModelMigrationAction_ReevaluatePanoramaImageAssets actionProgressWeight]

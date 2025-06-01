@@ -31,11 +31,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6E33CA6E-3DA3-3A06-9ABE-A18A7FC6678E
++  UUID: 6BA36474-B55F-31C2-95D2-13730EEE16FE
    Functions: 10
    Symbols:   57
--  CStrings:  96
-+  CStrings:  97
+-  CStrings:  107
++  CStrings:  108
  
 CStrings:
 + "T@\"NSString\",?,R,C"

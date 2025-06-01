@@ -79,9 +79,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/BKAudiobooks.framework/BKAudiobooks
    - @rpath/BookCore.framework/BookCore
+-  UUID: C0CB6F36-6323-3B44-ABA6-2042C9956A9D
 -  Functions: 2231
 -  Symbols:   220
--  CStrings:  267
+-  CStrings:  269
++  UUID: 0C2C8B8B-A188-3845-B33D-9C56F55867EC
 +  Functions: 2230
 +  Symbols:   201
 +  CStrings:  233

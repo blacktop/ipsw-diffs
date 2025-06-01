@@ -18,6 +18,15 @@
    __TEXT.__objc_methtype: 0x335
    __TEXT.__objc_stubs: 0x560
    __DATA_CONST.__got: 0x318
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47C59987-F009-3818-8C6E-5B21087571F6
++  UUID: 58BB9F1C-F5B3-3F20-94B9-1E0D0EF38790
+   Functions: 1315
+   Symbols:   890
+   CStrings:  501
 CStrings:
 + "addContentViewController:withUserInteractionEnabled:forService:context:userInterfaceStyle:forWindowScene:completion:"
 - "addContentViewController:withUserInteractionEnabled:forService:context:userInterfaceStyle:allowSystemAppHosting:forWindowScene:completion:"

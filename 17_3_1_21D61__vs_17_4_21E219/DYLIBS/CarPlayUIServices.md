@@ -76,12 +76,14 @@
    - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 234CE420-BC58-36DD-BBAB-9DDFC7653207
 -  Functions: 355
 -  Symbols:   1752
--  CStrings:  752
+-  CStrings:  822
++  UUID: 3771D4DB-12C4-3CF9-9515-203444EA63CB
 +  Functions: 749
 +  Symbols:   3328
-+  CStrings:  1290
++  CStrings:  1413
  
 Symbols:
 + +[CRSUIClusterThemeCAPackageAsset supportsBSXPCSecureCoding]

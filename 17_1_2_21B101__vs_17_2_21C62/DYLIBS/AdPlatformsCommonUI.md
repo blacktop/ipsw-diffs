@@ -66,12 +66,14 @@
    - /usr/lib/libCTGreenTeaLogger.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3B5001C8-4512-3D9C-88CE-A68E4087273A
 -  Functions: 28
 -  Symbols:   76
--  CStrings:  162
+-  CStrings:  178
++  UUID: D218CBA0-8F4F-328D-9766-04657E6392F2
 +  Functions: 25
 +  Symbols:   72
-+  CStrings:  153
++  CStrings:  167
  
 Symbols:
 - _OBJC_CLASS_$_APMediaInfo

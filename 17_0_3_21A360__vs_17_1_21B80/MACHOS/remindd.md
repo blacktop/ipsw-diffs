@@ -81,12 +81,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 399C5516-33DA-327E-AAC1-11762FFE59AF
 -  Functions: 26747
 -  Symbols:   2802
--  CStrings:  11531
+-  CStrings:  12137
++  UUID: 1247FD3E-95EC-35F7-86F3-727A14628824
 +  Functions: 26754
 +  Symbols:   2804
-+  CStrings:  11542
++  CStrings:  12152
  
 Symbols:
 + _$s19ReminderKitInternal18measureTimeElapsed_5level5blockSdSS_So13os_log_type_tayyKXEtKF

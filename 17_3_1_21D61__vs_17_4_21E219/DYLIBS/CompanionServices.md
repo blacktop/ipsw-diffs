@@ -67,12 +67,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 565A2D52-CF16-3DED-80E7-09ADFBD8FB34
 -  Functions: 387
 -  Symbols:   1542
--  CStrings:  714
+-  CStrings:  845
++  UUID: 036B6C6C-D0DC-3836-934D-01D18187CCC6
 +  Functions: 405
 +  Symbols:   1602
-+  CStrings:  737
++  CStrings:  872
  
 Symbols:
 + +[CPSLearnMoreResponse supportsSecureCoding]

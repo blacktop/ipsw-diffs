@@ -56,7 +56,6 @@
    __AUTH_CONST.__objc_arrayobj: 0x78
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_doubleobj: 0x210
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0xae8
 -  __AUTH.__objc_data: 0x22b0
 +  __AUTH_CONST.__auth_got: 0xaf8
@@ -80,12 +79,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: E6B6D88E-C245-3B02-BCF3-BE2F3AE14B92
 -  Functions: 3725
 -  Symbols:   13321
--  CStrings:  5564
+-  CStrings:  6428
++  UUID: 01165705-586F-3294-8EF2-C4297E80646F
 +  Functions: 3781
 +  Symbols:   13531
-+  CStrings:  5679
++  CStrings:  6560
  
 Symbols:
 + +[PBUIMappedImageCacheManager cleanupOldCaches]

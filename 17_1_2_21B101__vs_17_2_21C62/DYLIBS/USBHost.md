@@ -54,12 +54,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6758B1EF-BFFF-36C4-B0D1-0EDFF79AE040
 -  Functions: 742
 -  Symbols:   2414
--  CStrings:  1144
+-  CStrings:  1291
++  UUID: EB0BCB3F-3306-301D-852D-04A52084E0A6
 +  Functions: 744
 +  Symbols:   2415
-+  CStrings:  1158
++  CStrings:  1311
  
 Symbols:
 + -[AccessoryTransportPluginUSBHost accessoryiAPIntefaceTrafficWaitListCount]

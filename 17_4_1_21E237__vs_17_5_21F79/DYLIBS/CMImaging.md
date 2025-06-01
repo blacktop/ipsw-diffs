@@ -29,7 +29,6 @@
 -  __AUTH_CONST.__const: 0x340
 +  __AUTH_CONST.__objc_const: 0x0
 +  __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__objc_dictobj: 0x28
 -  __AUTH_CONST.__auth_got: 0x8b0
 -  __AUTH.__objc_data: 0x460
@@ -52,12 +51,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A36A3A43-CD67-3DB6-8035-BCF82AB5E900
++  UUID: 921417BB-A041-30B2-B082-19CED6B719FA
    Functions: 2395
 -  Symbols:   7493
 +  Symbols:   7497
-   CStrings:  5314
+   CStrings:  5540
  
 Symbols:
 + _CGRectGetMaxX

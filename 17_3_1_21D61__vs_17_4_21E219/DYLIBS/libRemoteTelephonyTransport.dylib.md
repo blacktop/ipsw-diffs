@@ -28,8 +28,11 @@
    __DATA.__bss: 0x18
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
+   - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libpcap.A.dylib
+-  UUID: BDC0EE45-D8B5-3B73-973D-1C7CEEDB15CB
++  UUID: 6B8D2216-2B6B-38BC-B3F1-85B7C8D807BD
    Functions: 959
 -  Symbols:   2103
 +  Symbols:   2102

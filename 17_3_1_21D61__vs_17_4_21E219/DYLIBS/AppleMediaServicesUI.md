@@ -83,7 +83,6 @@
    __AUTH_CONST.__objc_dictobj: 0x208
    __AUTH_CONST.__objc_doubleobj: 0x60
 -  __AUTH_CONST.__objc_arrayobj: 0xf0
--  __AUTH_CONST.__auth_ptr: 0x110
 -  __AUTH_CONST.__auth_got: 0x11a0
 -  __AUTH.__objc_data: 0x49b0
 -  __AUTH.__data: 0x2b50
@@ -94,7 +93,6 @@
 -  __DATA.__objc_data: 0x20
 -  __DATA.__data: 0x30d8
 +  __AUTH_CONST.__objc_arrayobj: 0x108
-+  __AUTH_CONST.__auth_ptr: 0x1d0
 +  __AUTH_CONST.__auth_got: 0x1808
 +  __AUTH.__objc_data: 0x51e0
 +  __AUTH.__data: 0x38c0
@@ -150,12 +148,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CE13A74C-3E81-39FF-94EC-2FB7EF0F88EC
 -  Functions: 8721
 -  Symbols:   18735
--  CStrings:  8653
+-  CStrings:  9915
++  UUID: DF626AB5-A62E-388E-AAD8-194A0AB9B84D
 +  Functions: 10963
 +  Symbols:   19946
-+  CStrings:  8862
++  CStrings:  10143
  
 Symbols:
 + +[AMSUIParentalVerificationCore _allowedAccountParameters:]

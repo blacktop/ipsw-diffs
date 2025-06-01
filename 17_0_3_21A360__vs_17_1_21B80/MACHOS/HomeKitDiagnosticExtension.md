@@ -40,13 +40,16 @@
    __DATA.__objc_superrefs: 0x8
    __DATA.__objc_ivar: 0x10
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
+-  UUID: 159082C5-A84A-3055-83DE-719A26607B1E
++  UUID: 91CD1791-CE19-3B76-9E88-E8ECE57A487F
    Functions: 41
 -  Symbols:   127
--  CStrings:  322
+-  CStrings:  374
 +  Symbols:   128
-+  CStrings:  324
++  CStrings:  376
  
 Symbols:
 + _objc_retain_x10

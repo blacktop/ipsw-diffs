@@ -45,7 +45,6 @@
    __AUTH_CONST.__objc_const: 0x280
 -  __AUTH_CONST.__const: 0xb80
 +  __AUTH_CONST.__const: 0xb20
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__objc_intobj: 0x150
    __AUTH_CONST.__auth_got: 0x338
 -  __AUTH.__objc_data: 0x50
@@ -71,12 +70,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 07109AA3-5A87-3B2B-A956-15ACCE3F0951
 -  Functions: 1420
 -  Symbols:   4894
--  CStrings:  1908
+-  CStrings:  2291
++  UUID: C290368E-CB1D-39B4-85DB-88FF195803BD
 +  Functions: 1425
 +  Symbols:   4910
-+  CStrings:  1921
++  CStrings:  2313
  
 Symbols:
 + -[KTSelfStatusResult idsAccountStatus]

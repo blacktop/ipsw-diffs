@@ -28,7 +28,6 @@
 +  __DATA_CONST.__objc_classrefs: 0x78
    __AUTH_CONST.__const: 0x13b8
    __AUTH_CONST.__cfstring: 0x520
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x550
 +  __AUTH_CONST.__auth_got: 0x548
    __DATA.__got_weak: 0x8
@@ -37,13 +36,16 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8291B82-1B17-3127-A9BE-8A2D4FF42BAB
++  UUID: 6E26D474-025F-3705-B1CC-401DA05CFE4A
    Functions: 667
 -  Symbols:   1645
--  CStrings:  269
+-  CStrings:  310
 +  Symbols:   1643
-+  CStrings:  268
++  CStrings:  309
  
 Symbols:
 + GCC_except_table181

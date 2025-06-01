@@ -54,12 +54,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 06ACD69B-3997-3B3A-BA1E-D01E410F7056
 -  Functions: 36749
 -  Symbols:   111101
--  CStrings:  37520
+-  CStrings:  45843
++  UUID: ECF7858D-1A61-3170-A4E7-27414DE2EF42
 +  Functions: 36748
 +  Symbols:   111099
-+  CStrings:  37523
++  CStrings:  45847
  
 Symbols:
 + -[HDQuantitySampleOverlapProcessor loggedDuplicatedSample]

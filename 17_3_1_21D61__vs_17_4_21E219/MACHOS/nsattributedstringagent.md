@@ -51,12 +51,14 @@
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 5B622B20-0E8B-330E-A92C-D43F8D583CF0
 -  Functions: 25
 -  Symbols:   63
--  CStrings:  96
+-  CStrings:  99
++  UUID: 2475B302-4A1A-3028-A453-0572B4D7DD9E
 +  Functions: 26
 +  Symbols:   67
-+  CStrings:  108
++  CStrings:  117
  
 Symbols:
 + _OBJC_CLASS_$_NSURL
@@ -64,6 +66,7 @@ Symbols:
 + _objc_retainBlock
 + _objc_retain_x27
 CStrings:
++ ""
 + "@\"WKNavigation\"16@?0@\"WKWebView\"8"
 + "BaseURL"
 + "DocumentType"

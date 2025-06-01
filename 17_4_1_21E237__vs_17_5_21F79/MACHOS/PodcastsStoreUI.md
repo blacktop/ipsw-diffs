@@ -92,12 +92,14 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
    - @rpath/AppStoreKit.framework/AppStoreKit
+-  UUID: 0E7D6405-DCEE-3984-ACA5-7C6F6FC5CEC9
 -  Functions: 18168
 -  Symbols:   7567
--  CStrings:  4615
+-  CStrings:  4629
++  UUID: 4F6ACB8D-2B4B-3B5A-AEE1-BDD3F508C3EA
 +  Functions: 18195
 +  Symbols:   7589
-+  CStrings:  4646
++  CStrings:  4660
  
 Symbols:
 + _OBJC_CLASS_$_LTUITranslationViewController

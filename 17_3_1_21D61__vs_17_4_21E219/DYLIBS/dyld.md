@@ -26,9 +26,11 @@
    __DATA_DIRTY.__data: 0x5c
    __DATA_DIRTY.__common: 0x1120
    __DATA_DIRTY.__bss: 0x1bc0
+-  UUID: 28D6D2C1-46CE-3D58-B744-B06A6C573888
 -  Functions: 2839
 -  Symbols:   6077
 -  CStrings:  1634
++  UUID: 960A7452-3178-3C9D-8CE5-FE40FDE8DBC8
 +  Functions: 2920
 +  Symbols:   6306
 +  CStrings:  1714

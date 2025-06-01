@@ -86,7 +86,6 @@
    __AUTH_CONST.__objc_doubleobj: 0x900
    __AUTH_CONST.__objc_floatobj: 0x180
    __AUTH_CONST.__objc_dictobj: 0x2f8
--  __AUTH_CONST.__auth_ptr: 0x1f0
 -  __AUTH_CONST.__auth_got: 0x30d8
 -  __AUTH.__objc_data: 0x10be0
 -  __AUTH.__data: 0x3010
@@ -94,7 +93,6 @@
 -  __DATA.__objc_classrefs: 0x3198
 -  __DATA.__objc_superrefs: 0x19b0
 -  __DATA.__objc_ivar: 0x4958
-+  __AUTH_CONST.__auth_ptr: 0x238
 +  __AUTH_CONST.__auth_got: 0x32a8
 +  __AUTH.__objc_data: 0x11428
 +  __AUTH.__data: 0x3208
@@ -137,12 +135,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 12784B19-CC95-30CE-B8DD-3FFC5C258AC5
 -  Functions: 40129
 -  Symbols:   117255
--  CStrings:  45297
+-  CStrings:  49715
++  UUID: A2D3E4B2-1A76-3E51-B6BA-39E936A89A0E
 +  Functions: 40900
 +  Symbols:   117518
-+  CStrings:  45471
++  CStrings:  49843
  
 Symbols:
 + +[CKBusinessOnboardingController checkForBusinessAlertsIDSIssues:]

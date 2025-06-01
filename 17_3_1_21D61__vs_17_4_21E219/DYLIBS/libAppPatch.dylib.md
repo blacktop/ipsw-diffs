@@ -39,7 +39,6 @@
 +  __DATA_CONST.__objc_arraydata: 0xc8
 +  __AUTH_CONST.__cfstring: 0x3600
    __AUTH_CONST.__const: 0x60
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_const: 0x160
    __AUTH_CONST.__objc_dictobj: 0x190
@@ -55,12 +54,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbz2.1.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: BA00DDC5-670D-3FC6-A28A-BEE021BBC225
 -  Functions: 203
 -  Symbols:   882
--  CStrings:  792
+-  CStrings:  1223
++  UUID: EFC8DC7B-F3C8-3B97-BF6E-EDC39E4AE3D0
 +  Functions: 205
 +  Symbols:   886
-+  CStrings:  795
++  CStrings:  1227
  
 Symbols:
 + -[MIFileManager captureStoreDataFromDirectory:toDirectory:doCopy:failureIsFatal:includeiTunesMetadata:withError:]

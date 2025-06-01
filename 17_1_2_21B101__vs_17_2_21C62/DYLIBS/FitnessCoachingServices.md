@@ -21,12 +21,15 @@
    __TEXT.__swift5_reflstr: 0x1fe8
    __TEXT.__swift5_fieldmd: 0x1d88
 
+   - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A30E219A-6775-3ACA-A6C3-012345349B11
++  UUID: 415A1E9E-572F-3CCD-B6BA-6281211A70C8
    Functions: 3410
 -  Symbols:   1434
 +  Symbols:   1433
-   CStrings:  894
+   CStrings:  969
  
 Symbols:
 - _symbolic _____ySS_So14ACHAchievementCtG s23_ContiguousArrayStorageC

@@ -18,4 +18,13 @@
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/UIKit.framework/UIKit
 
+   - /System/Library/PrivateFrameworks/ScreenTimeUI.framework/ScreenTimeUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 741C60ED-F54B-3896-8DE5-B36BB86C101F
++  UUID: 2C95CA3D-C9BD-3C38-BC7C-2E9F9C3793B1
+   Functions: 5
+   Symbols:   54
+   CStrings:  70
+
 ```

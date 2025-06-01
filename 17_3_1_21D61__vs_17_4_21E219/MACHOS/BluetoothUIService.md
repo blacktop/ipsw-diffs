@@ -55,12 +55,14 @@
    - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: B90F84FD-5E2F-3E85-BDC3-5722D5A6B95A
 -  Functions: 159
 -  Symbols:   158
--  CStrings:  802
+-  CStrings:  874
++  UUID: 51DE7691-DE82-3E24-9BCA-F8DF7E08F7DF
 +  Functions: 167
 +  Symbols:   162
-+  CStrings:  831
++  CStrings:  908
  
 Symbols:
 + _CMTimeRangeMake

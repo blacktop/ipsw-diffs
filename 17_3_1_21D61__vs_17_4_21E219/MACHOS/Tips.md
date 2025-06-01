@@ -115,12 +115,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1F788610-9E01-3C45-A981-32796F240042
 -  Functions: 2891
 -  Symbols:   1396
--  CStrings:  2348
+-  CStrings:  2411
++  UUID: 74B0B9E9-5E40-38E9-BD22-92C1E9D007BD
 +  Functions: 3005
 +  Symbols:   1429
-+  CStrings:  2438
++  CStrings:  2501
  
 Symbols:
 + _$s10AppIntents0A16ShortcutsBuilderO10buildBlockySayAA0A8ShortcutVGAGd_tFZ
@@ -315,6 +317,7 @@ CStrings:
 - "\x14\x16"
 - "\x1e"
 - "%ld of %zd"
+- "C"
 - "CGColor"
 - "No Internet connection."
 - "RTL"

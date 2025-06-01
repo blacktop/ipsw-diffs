@@ -15,6 +15,15 @@
    __TEXT.__unwind_info: 0x478
    __DATA_CONST.__auth_ptr: 0x88
    __DATA_CONST.__const: 0x50f8
+
+   __DATA_DIRTY.__data: 0x5c
+   __DATA_DIRTY.__common: 0x1120
+   __DATA_DIRTY.__bss: 0x1bc0
+-  UUID: 71846EAC-EE65-3697-BF7D-790B6A07DCDB
++  UUID: 52039C94-4DA1-3638-BD52-020A0B5FA399
+   Functions: 2920
+   Symbols:   3408
+   CStrings:  1714
 Symbols:
 + _ZN3lsl6VectorI18AuthenticatedValueIPKN5dyld46LoaderEEE12reserveExactEy.cold.1
 + __ZN3lsl6VectorI18AuthenticatedValueIPKN5dyld46LoaderEEE12reserveExactEy

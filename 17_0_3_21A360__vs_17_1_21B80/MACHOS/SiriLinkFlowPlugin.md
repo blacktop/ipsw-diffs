@@ -54,12 +54,14 @@
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15C6D32C-30A8-3917-9D9E-768E3B01609E
 -  Functions: 13066
 -  Symbols:   81034
--  CStrings:  2506
+-  CStrings:  2554
++  UUID: 5CABA722-6C23-3D59-8EB6-08416EC6E58E
 +  Functions: 13047
 +  Symbols:   80937
-+  CStrings:  2508
++  CStrings:  2556
  
 Symbols:
 + $s18SiriLinkFlowPlugin25WFOpenInteractionResponseOIegg_ACIegn_TRTA.47

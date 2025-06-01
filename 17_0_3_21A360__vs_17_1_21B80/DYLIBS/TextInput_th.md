@@ -42,12 +42,14 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmecabra.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 30E52D45-8CA9-3538-9368-4194DA5BE46E
 -  Functions: 92
 -  Symbols:   349
--  CStrings:  109
+-  CStrings:  111
++  UUID: 329481C4-646C-3A88-8DBD-1ED83938D611
 +  Functions: 93
 +  Symbols:   353
-+  CStrings:  111
++  CStrings:  113
  
 Symbols:
 + -[TIKeyboardInputManager_th setAutoCorrects:]

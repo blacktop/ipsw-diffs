@@ -44,12 +44,14 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 7BD4CD94-5D69-3813-98EE-F787783C0F36
 -  Functions: 883
 -  Symbols:   8525
--  CStrings:  1452
+-  CStrings:  3642
++  UUID: BA88CB0C-FC16-392E-BF0F-8BB917C78217
 +  Functions: 895
 +  Symbols:   8548
-+  CStrings:  1454
++  CStrings:  3644
  
 Symbols:
 + -[EMFEmojiPreferences didUseEmojiInKeyboardCandidateBar:candidatePosition:replacementContext:]

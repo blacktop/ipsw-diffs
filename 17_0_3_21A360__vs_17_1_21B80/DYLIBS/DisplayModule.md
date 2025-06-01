@@ -32,11 +32,15 @@
    __AUTH_CONST.__cfstring: 0x4e0
    __AUTH_CONST.__objc_const: 0xd8
 
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0C2F3097-F951-3E24-9A10-4459D5F97591
++  UUID: 456EAECB-8AA9-3F53-87EB-D1FBD449974E
    Functions: 95
    Symbols:   100
--  CStrings:  350
-+  CStrings:  349
+-  CStrings:  389
++  CStrings:  388
  
 CStrings:
 - "isEnabled"

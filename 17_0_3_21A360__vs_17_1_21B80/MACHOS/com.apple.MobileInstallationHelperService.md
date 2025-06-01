@@ -30,11 +30,15 @@
    __DATA_CONST.__objc_catlist: 0x18
    __DATA_CONST.__objc_protolist: 0x18
 
+   - /usr/lib/libbz2.1.0.dylib
+   - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: A8D71BD8-6221-3EFD-A75C-3298BDA6CD4B
++  UUID: 25F2BEE3-D9E9-3276-A40C-85A3A50D5FB3
    Functions: 244
    Symbols:   384
--  CStrings:  891
-+  CStrings:  894
+-  CStrings:  1252
++  CStrings:  1258
  
 CStrings:
 + "/private/var/PersonaVolumes/"

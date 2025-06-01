@@ -37,8 +37,10 @@
    __DATA_DIRTY.__bss: 0x13b8
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: ED0E81DD-A054-3D65-87AE-486938EF63F6
 -  Functions: 6072
 -  Symbols:   15375
++  UUID: 86C8A36A-9555-3666-8E17-EF465A24800D
 +  Functions: 6103
 +  Symbols:   15204
    CStrings:  1938

@@ -89,11 +89,13 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E3B1D7F2-D80D-37E4-B320-833B1DAFD7AD
 -  Functions: 7123
++  UUID: 9A5D9AAD-78E7-33D5-AA0F-FFA7FB521EF5
 +  Functions: 7195
    Symbols:   1649
--  CStrings:  8676
-+  CStrings:  8745
+-  CStrings:  9377
++  CStrings:  9445
  
 Symbols:
 + _$s20FaceTimeMessageStore0C0C8fileSizes5Int64VSgvgTj

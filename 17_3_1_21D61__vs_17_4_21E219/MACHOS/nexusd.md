@@ -48,11 +48,13 @@
 +  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
+-  UUID: F306EB67-8273-3C9A-B456-749FCAD15DCE
 +  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 91BD0BA0-2689-3C47-A667-99E99F2E0DCF
    Functions: 63
 -  Symbols:   143
 +  Symbols:   151
-   CStrings:  171
+   CStrings:  173
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftAVFoundation

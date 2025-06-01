@@ -54,11 +54,15 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 3EC7D16A-12B5-379F-BB5A-52246F1C7159
++  UUID: 149045D7-6203-3093-AFFB-A64846990F53
    Functions: 1745
    Symbols:   5344
--  CStrings:  5972
-+  CStrings:  5975
+-  CStrings:  7191
++  CStrings:  7196
  
 Symbols:
 + ___block_literal_global.493

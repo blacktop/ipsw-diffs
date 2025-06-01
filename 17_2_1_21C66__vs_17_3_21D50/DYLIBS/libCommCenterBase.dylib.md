@@ -41,12 +41,14 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 0BAC64F3-6A2D-3B98-8E65-78AADEDFEBD0
 -  Functions: 5440
 -  Symbols:   12227
--  CStrings:  3837
+-  CStrings:  4181
++  UUID: 92B5CB42-50FA-326C-89F9-DC2FBC10E371
 +  Functions: 5441
 +  Symbols:   12229
-+  CStrings:  3834
++  CStrings:  4178
  
 Symbols:
 + _.str.105

@@ -23,11 +23,13 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CC01FC12-1C95-3340-9F6A-BA610B51A69A
 -  Functions: 1094
++  UUID: 3A232028-1B2C-35C0-B417-2ADFDF4E54A3
 +  Functions: 1095
    Symbols:   529
--  CStrings:  1838
-+  CStrings:  1841
+-  CStrings:  2174
++  CStrings:  2177
  
 CStrings:
 + "%s %s: DNS expiration time %@"

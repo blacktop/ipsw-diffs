@@ -51,7 +51,6 @@
 +  __DATA_CONST.__objc_selrefs: 0xa4f8
    __DATA_CONST.__objc_arraydata: 0x518
    __AUTH_CONST.__const: 0x3228
-   __AUTH_CONST.__auth_ptr: 0x170
 -  __AUTH_CONST.__cfstring: 0x7580
 +  __AUTH_CONST.__cfstring: 0x75a0
    __AUTH_CONST.__objc_const: 0x5cd8
@@ -75,12 +74,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7C07831F-A082-3B38-B050-8F3FC805772E
 -  Functions: 7867
 -  Symbols:   24735
--  CStrings:  11619
+-  CStrings:  12559
++  UUID: EAD76DD0-36B4-374C-A2AA-1AF16DCB9D3A
 +  Functions: 7869
 +  Symbols:   24743
-+  CStrings:  11626
++  CStrings:  12567
  
 Symbols:
 + -[AVPlayerController captionAppearanceDisplayType]

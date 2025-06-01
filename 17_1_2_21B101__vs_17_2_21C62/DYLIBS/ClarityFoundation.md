@@ -45,12 +45,14 @@
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 1C288B59-936B-3508-897B-9B0D7F61AA6E
 -  Functions: 160
 -  Symbols:   672
--  CStrings:  339
+-  CStrings:  410
++  UUID: 87E2E31D-841B-306B-901D-52621ED86133
 +  Functions: 164
 +  Symbols:   681
-+  CStrings:  346
++  CStrings:  420
  
 Symbols:
 + -[CLFSettings_GeneratedCode hasMigratedFileProtections]

@@ -51,11 +51,13 @@
    - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 6229E6BF-A466-3627-9DA0-1C20591E1CF5
 -  Functions: 261
++  UUID: D9C7ED23-6636-3F1A-A193-D8A38006445A
 +  Functions: 267
    Symbols:   141
--  CStrings:  950
-+  CStrings:  961
+-  CStrings:  1060
++  CStrings:  1074
  
 CStrings:
 + "!\"\x12\x12"

@@ -94,12 +94,14 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAC2FD33-0AAD-35F6-9D58-7D5DC3F317BA
 -  Functions: 1084
 -  Symbols:   737
--  CStrings:  440
+-  CStrings:  441
++  UUID: 4F20B0FD-CC42-3872-BF15-171BB0E22D85
 +  Functions: 1141
 +  Symbols:   748
-+  CStrings:  439
++  CStrings:  440
  
 Symbols:
 + _$s18AAAFoundationSwift11withTimeout5after_xs8DurationV_xyYaYbKctYaKs8SendableRzlF

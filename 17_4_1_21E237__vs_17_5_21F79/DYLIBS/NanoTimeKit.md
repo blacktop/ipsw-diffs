@@ -18,6 +18,15 @@
    __TEXT.__eh_frame: 0x208
    __TEXT.__objc_classname: 0x7e8b
    __TEXT.__objc_methname: 0x5bd29
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 12290414-DE2A-31DA-A27A-C6C1F27C2D62
++  UUID: 8DF8624D-340D-3830-8E8F-0E62CEE7E9C4
+   Functions: 17499
+   Symbols:   60872
+   CStrings:  26942
 CStrings:
 + "description=NanoTimeKitCompanion-2398.93.30"
 - "description=NanoTimeKitCompanion-2398.92"

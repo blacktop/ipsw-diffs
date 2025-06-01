@@ -28,11 +28,15 @@
    __DATA.__data: 0x120
    __DATA.__bss: 0x10
 
+   - /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 036A97B1-9A7B-3DC5-AAF3-3B1C7ADE0AF5
++  UUID: 27CE3C29-BFB6-3742-895D-255C9CF09F3E
    Functions: 11
    Symbols:   40
--  CStrings:  72
-+  CStrings:  73
+-  CStrings:  75
++  CStrings:  76
  
 CStrings:
 + "T@\"NSString\",?,R,C"

@@ -21,7 +21,6 @@
    __DATA_CONST.__const: 0x5b8
    __AUTH_CONST.__const: 0x11d0
    __AUTH_CONST.__cfstring: 0x9a0
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__auth_got: 0x7e0
 +  __AUTH_CONST.__auth_got: 0x7d8
    __DATA.__bss: 0x198
@@ -37,11 +36,13 @@
 +  - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
+-  UUID: 1CAB3ACD-5792-3849-B6A3-11904B162C7B
 -  Functions: 2528
 -  Symbols:   423
++  UUID: FBE3CE5F-E64D-355F-87C0-EB59DA5E4833
 +  Functions: 2527
 +  Symbols:   422
-   CStrings:  1381
+   CStrings:  1458
  
 Symbols:
 + __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc

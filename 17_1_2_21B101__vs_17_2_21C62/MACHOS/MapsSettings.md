@@ -42,12 +42,14 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: D8560FE6-E15D-3EAC-B422-5262CAACFA02
 -  Functions: 2031
 -  Symbols:   1462
--  CStrings:  3279
+-  CStrings:  4308
++  UUID: 614E6C47-6D30-3AE5-9B49-E7AC59630D68
 +  Functions: 2032
 +  Symbols:   1463
-+  CStrings:  3280
++  CStrings:  4310
  
 Symbols:
 + _MapsConfig_VLFCrowdsourcingPermissionDialogLocalizationCountRequirement

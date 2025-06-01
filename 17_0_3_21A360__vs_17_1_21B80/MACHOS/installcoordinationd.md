@@ -38,11 +38,13 @@
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: CDF5FA8B-BDD6-37BF-A007-1609CB7E6ED1
 -  Functions: 2740
++  UUID: C6A5E49F-5FCA-399D-8777-92FF7D527A59
 +  Functions: 2744
    Symbols:   367
--  CStrings:  4459
-+  CStrings:  4462
+-  CStrings:  5389
++  CStrings:  5392
  
 CStrings:
 + "%s: Underlying error was nil when constructing OS version error for app name %@ and number of apps %lu"

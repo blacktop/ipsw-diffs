@@ -81,12 +81,14 @@
    - @rpath/BookAnalytics.framework/BookAnalytics
    - @rpath/JSApp.framework/JSApp
    - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: F5493121-EC12-3CBC-BEF0-8378AF6EF7BC
 -  Functions: 14269
 -  Symbols:   3468
--  CStrings:  17594
+-  CStrings:  19848
++  UUID: F32F6804-EB2A-3547-B0ED-D61A4AB3282C
 +  Functions: 14268
 +  Symbols:   3464
-+  CStrings:  17619
++  CStrings:  19873
  
 Symbols:
 + _BKStoreBookUpdateLog

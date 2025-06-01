@@ -59,7 +59,6 @@
 +  __DATA_CONST.__objc_superrefs: 0x2d8
    __DATA_CONST.__objc_arraydata: 0x300
    __AUTH_CONST.__const: 0x16b8
-   __AUTH_CONST.__auth_ptr: 0x18
 -  __AUTH_CONST.__cfstring: 0x3720
 +  __AUTH_CONST.__cfstring: 0x37a0
    __AUTH_CONST.__objc_const: 0x49f8
@@ -93,12 +92,14 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CCAEDC1-945F-3BEC-831A-D5A54C26C0FA
 -  Functions: 4311
 -  Symbols:   12130
--  CStrings:  4627
+-  CStrings:  5068
++  UUID: 9F7E2F9C-7ED6-3149-A251-E660C1758F16
 +  Functions: 4327
 +  Symbols:   12183
-+  CStrings:  4644
++  CStrings:  5089
  
 Symbols:
 + +[STUIStatusBarCellularItem sosDisplayIdentifier]

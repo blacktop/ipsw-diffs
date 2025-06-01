@@ -36,4 +36,13 @@
    - /System/Library/Frameworks/Combine.framework/Combine
    - /System/Library/Frameworks/Contacts.framework/Contacts
 
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6FD48586-053C-3364-8592-05D0032753F6
++  UUID: E6831D59-7FA2-3B7C-9B20-8452671FE744
+   Functions: 1592
+   Symbols:   202
+   CStrings:  589
+
 ```
