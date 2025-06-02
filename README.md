@@ -126,23 +126,34 @@
 
 ### Generating Diffs
 
+Clone the kernel symbolicator signatures
+
+```bash
+git clone https://github.com/blacktop/symbolicator.git /tmp/symbolicator
+```
+
+Perform the DIFF
+
 ```bash
 ipsw diff
   --output '../ipsw-diffs'
-  --markdown
-  --ent
-  --fw
-  --launchd
-  --feat
-  --strs
-  --files
-  --block-list "__TEXT.__info_plist"
-  --block-list "__AUTH_CONST.__auth_ptr"
+  --markdown               # output as Markdown
+  --ent                    # diff entitlements
+  --fw                     # diff firmware files (iBoot etc)
+  --launchd                # diff launchd conf
+  --feat                   # diff feature flags
+  --strs                   # diff strings
+  --files                  # diff all filenames
+  --starts                 # diff functions
+  --signatures /tmp/symbolicator/kernel  # symbolicate kernel funcs name (if different)
+  --block-list "__TEXT.__info_plist"     # ignore plist section
+  --block-list "__AUTH_CONST.__auth_ptr" # ignore auth ptrs section
   'iPhone16,2_17.6_21G5052e_Restore.ipsw'
   'iPhone16,2_17.6_21G5061c_Restore.ipsw'
   --kdk '/Library/Developer/KDKs/KDK_14.6_23G5052d.kdk/System/Library/Kernels/kernel.release.t6031'
   --kdk '/Library/Developer/KDKs/KDK_14.6_23G5061b.kdk/System/Library/Kernels/kernel.release.t6031'
 ```
+
 > [!NOTE]
 > DIFFs generated via [`ipsw diff`](https://blacktop.github.io/ipsw/docs/cli/ipsw/diff/#ipsw-diff)
 
