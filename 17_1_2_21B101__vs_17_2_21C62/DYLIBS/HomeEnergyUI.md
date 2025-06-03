@@ -1,0 +1,98 @@
+## HomeEnergyUI
+
+> `/System/Library/PrivateFrameworks/HomeEnergyUI.framework/HomeEnergyUI`
+
+```diff
+
+-103.2.5.0.0
+-  __TEXT.__text: 0xa8904
++107.3.3.0.0
++  __TEXT.__text: 0xa907c
+   __TEXT.__auth_stubs: 0x23b0
+   __TEXT.__objc_methlist: 0xcc
+-  __TEXT.__const: 0x3560
+-  __TEXT.__cstring: 0x5467
++  __TEXT.__const: 0x3590
++  __TEXT.__cstring: 0x5477
+   __TEXT.__constg_swiftt: 0xedc
+-  __TEXT.__swift5_typeref: 0xad5a
+-  __TEXT.__swift5_reflstr: 0x1397
+-  __TEXT.__swift5_fieldmd: 0x10e4
++  __TEXT.__swift5_typeref: 0xad5c
++  __TEXT.__swift5_reflstr: 0x13c8
++  __TEXT.__swift5_fieldmd: 0x1108
+   __TEXT.__swift5_assocty: 0x468
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_proto: 0x188
+   __TEXT.__swift5_types: 0xe4
+-  __TEXT.__swift5_capture: 0xb04
++  __TEXT.__swift5_capture: 0xad0
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x25e8
+-  __TEXT.__eh_frame: 0x27d4
++  __TEXT.__unwind_info: 0x26b4
++  __TEXT.__eh_frame: 0x2868
+   __TEXT.__objc_classname: 0x23
+   __TEXT.__objc_methname: 0xa4f
+   __TEXT.__objc_methtype: 0x3d5
+   __DATA_CONST.__got: 0x7c0
+-  __DATA_CONST.__const: 0x400
++  __DATA_CONST.__const: 0x408
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xb18
+   __DATA_CONST.__objc_selrefs: 0x258
+-  __AUTH_CONST.__const: 0x3ac0
++  __AUTH_CONST.__const: 0x3a38
+   __AUTH_CONST.__objc_const: 0x40
+   __AUTH_CONST.__auth_got: 0x11d8
+-  __AUTH.__data: 0x1168
++  __AUTH.__data: 0x1170
+   __AUTH.__objc_data: 0x308
+   __DATA.__objc_protorefs: 0x18
+   __DATA.__objc_classrefs: 0xb8
+   __DATA.__objc_data: 0x68
+-  __DATA.__data: 0x29d8
+-  __DATA.__bss: 0x2f40
++  __DATA.__data: 0x29c8
++  __DATA.__bss: 0x2f60
+   __DATA.__common: 0xf0
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 113911D3-36D9-3614-88C4-311B9D9ADF55
+-  Functions: 2677
++  UUID: 366E749A-B6B1-3808-8E08-937FBB21A09B
++  Functions: 2682
+   Symbols:   1111
+   CStrings:  583
+ 
+Symbols:
++ _block_descriptor.87
++ _get_witness_table 7SwiftUI15ModifiedContentVy010HomeEnergyB018FeaturedHoursChartVAA31AccessibilityAttachmentModifierVGAA4ViewHPAfaJHPyHC_AhA0mL0HPyHCHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA014_ViewModifier_D0Vy010HomeEnergyB020FakeSmallWidgetStyleVGAA14_PaddingLayoutVGAKGAA06_FrameN0VGAA011_BackgroundF0VyAA06_ShapeE0VyAA9RectangleVAA8MaterialVGGGAA11_ClipEffectVyAA07RoundedR0VGGAA0E0HPA_AAA6_HPApAA6_HPAmAA6_HPAlAA6_HPAiAA6_HPyHC_AkA0eF0HPyHCHC_AkAA7_HPyHCHC_AoAA7_HPyHCHC_AzAA7_HPyHCHC_A4_AAA7_HPyHCHC.35
++ _get_witness_table 7SwiftUI6ButtonVyAA15ModifiedContentVyAEyAEyAEyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAG5ScaleOGGAIyAA4FontVSgGGAIyAA5ColorVSgGGAA023AccessibilityAttachmentJ0VGGAA4ViewHPyHC.93
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA023AccessibilityAttachmentL0VG_AGyAiSGAGyAA0E0PAAE9lineLimit_13reservesSpaceQrSi_SbtFQOyAI_Qo_ASGSgAA012_ConditionalG0VyAA6SpacerVAGyAA5ColorVAA12_FrameLayoutVGGAISgtGGAaVHPyHC.36
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEyAA15ModifiedContentVyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA023AccessibilityAttachmentM0VG_AA6SpacerVAIyAIy010HomeEnergyB0016TapToRadarButtonE0VAA14_PaddingLayoutVGA1_GSgAIyAIyAY012NotificationxE0VA1_GA1_GtGG_AVtGGAA0E0HPyHC.37
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAA15ModifiedContentVyAGyAGyAGyAA6VStackVyAA05TupleC0VyAGy010HomeEnergyB0016BasicUsageAdviceC0VAA14_PaddingLayoutVG_AGyAL0M13ForecastChartVAPGtGGAPGAPGAPGAA19_BackgroundModifierVyAA06_ShapeC0VyAA9RectangleVAA8MaterialVGGG_AL0ms7ContextE0VQo_HO.19
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAHyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGALyAA5ColorVSgGGAA023AccessibilityAttachmentO0VG_Qo_HO.92
++ _objectdestroy.111Tm
+- _block_descriptor.83
+- _get_witness_table 7SwiftUI15ModifiedContentVy010HomeEnergyB018FeaturedHoursChartVAA31AccessibilityAttachmentModifierVGAA4ViewHPAfaJHPyHC_AhA0mL0HPyHCHC.6
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA014_ViewModifier_D0Vy010HomeEnergyB020FakeSmallWidgetStyleVGAA14_PaddingLayoutVGAKGAA06_FrameN0VGAA011_BackgroundF0VyAA06_ShapeE0VyAA9RectangleVAA8MaterialVGGGAA11_ClipEffectVyAA07RoundedR0VGGAA0E0HPA_AAA6_HPApAA6_HPAmAA6_HPAlAA6_HPAiAA6_HPyHC_AkA0eF0HPyHCHC_AkAA7_HPyHCHC_AoAA7_HPyHCHC_AzAA7_HPyHCHC_A4_AAA7_HPyHCHC.31
+- _get_witness_table 7SwiftUI6ButtonVyAA15ModifiedContentVyAEyAEyAEyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAG5ScaleOGGAIyAA4FontVSgGGAIyAA5ColorVSgGGAA023AccessibilityAttachmentJ0VGGAA4ViewHPyHC.89
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA023AccessibilityAttachmentL0VG_AGyAiSGAGyAA0E0PAAE9lineLimit_13reservesSpaceQrSi_SbtFQOyAI_Qo_ASGSgAA012_ConditionalG0VyAA6SpacerVAGyAA5ColorVAA12_FrameLayoutVGGAISgtGGAaVHPyHC.32
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEyAA15ModifiedContentVyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA023AccessibilityAttachmentM0VG_AA6SpacerVAIyAIy010HomeEnergyB0016TapToRadarButtonE0VAA14_PaddingLayoutVGA1_GSgAIyAIyAY012NotificationxE0VA1_GA1_GtGG_AVtGGAA0E0HPyHC.33
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAA15ModifiedContentVyAGyAGyAGyAA6VStackVyAA05TupleC0VyAGy010HomeEnergyB0016BasicUsageAdviceC0VAA14_PaddingLayoutVG_AGyAL0M13ForecastChartVAPGtGGAPGAPGAPGAA19_BackgroundModifierVyAA06_ShapeC0VyAA9RectangleVAA8MaterialVGGG_AL0ms7ContextE0VQo_HO.15
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAHyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGALyAA5ColorVSgGGAA023AccessibilityAttachmentO0VG_Qo_HO.88
+- _objectdestroy.121Tm
+CStrings:
++ "init(energyWindows:numHoursToDisplay:startTime:isDarkMode:nowBarWidth:isWidget:useVibrantRendering:)"
+- "init(energyWindows:numHoursToDisplay:startTime:isDarkMode:nowBarWidth:isWidget:)"
+
+```

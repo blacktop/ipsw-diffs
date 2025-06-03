@@ -1,0 +1,16 @@
+## Diagnostic-8253
+
+> `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-8253.appex/Diagnostic-8253`
+
+```diff
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 84AD2F25-954E-32CC-A4F6-863A9476A707
++  UUID: E9D3D190-7884-3685-9115-99DE22682FC8
+   Functions: 207
+   Symbols:   338
+   CStrings:  861
+
+```

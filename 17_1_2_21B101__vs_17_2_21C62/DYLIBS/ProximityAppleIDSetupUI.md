@@ -1,0 +1,471 @@
+## ProximityAppleIDSetupUI
+
+> `/System/Library/PrivateFrameworks/ProximityAppleIDSetupUI.framework/ProximityAppleIDSetupUI`
+
+```diff
+
+-47.0.0.0.0
+-  __TEXT.__text: 0x5977c
+-  __TEXT.__auth_stubs: 0x1b80
+-  __TEXT.__objc_methlist: 0x6e8
+-  __TEXT.__const: 0x3494
+-  __TEXT.__cstring: 0x4917
++48.7.2.0.0
++  __TEXT.__text: 0x5d2a4
++  __TEXT.__auth_stubs: 0x1c20
++  __TEXT.__objc_methlist: 0x748
++  __TEXT.__const: 0x34f4
++  __TEXT.__cstring: 0x4e17
+   __TEXT.__gcc_except_tab: 0x54
+-  __TEXT.__swift5_typeref: 0x2d5c
+-  __TEXT.__constg_swiftt: 0x1a04
+-  __TEXT.__swift5_reflstr: 0xdc6
+-  __TEXT.__swift5_fieldmd: 0xec4
+-  __TEXT.__swift5_assocty: 0x510
+-  __TEXT.__swift5_capture: 0xb88
++  __TEXT.__swift5_typeref: 0x2e9a
++  __TEXT.__constg_swiftt: 0x1ad4
++  __TEXT.__swift5_reflstr: 0xdb6
++  __TEXT.__swift5_fieldmd: 0xee4
++  __TEXT.__swift5_assocty: 0x528
++  __TEXT.__swift5_capture: 0xc64
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_proto: 0x25c
+-  __TEXT.__swift5_types: 0x144
++  __TEXT.__swift5_proto: 0x258
++  __TEXT.__swift5_types: 0x14c
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__unwind_info: 0x2238
+-  __TEXT.__eh_frame: 0x33f0
++  __TEXT.__unwind_info: 0x25ec
++  __TEXT.__eh_frame: 0x3688
+   __TEXT.__objc_classname: 0xf3
+-  __TEXT.__objc_methname: 0x234e
++  __TEXT.__objc_methname: 0x243a
+   __TEXT.__objc_methtype: 0x694
+   __TEXT.__objc_stubs: 0xdc0
+-  __DATA_CONST.__got: 0x5a8
+-  __DATA_CONST.__const: 0x1b0
+-  __DATA_CONST.__objc_classlist: 0x118
++  __DATA_CONST.__got: 0x5e8
++  __DATA_CONST.__const: 0x1b8
++  __DATA_CONST.__objc_classlist: 0x120
+   __DATA_CONST.__objc_catlist: 0x48
+-  __DATA_CONST.__objc_protolist: 0xc8
++  __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x3ce0
+-  __DATA_CONST.__objc_selrefs: 0xa80
++  __DATA_CONST.__objc_const: 0x3d80
++  __DATA_CONST.__objc_selrefs: 0xad0
+   __DATA_CONST.__objc_arraydata: 0xb0
+   __AUTH_CONST.__cfstring: 0xac0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__objc_const: 0x328
+-  __AUTH_CONST.__const: 0x51c8
+-  __AUTH_CONST.__auth_got: 0xdd0
++  __AUTH_CONST.__objc_const: 0x3b8
++  __AUTH_CONST.__const: 0x5590
++  __AUTH_CONST.__auth_got: 0xe20
+   __AUTH.__objc_data: 0xa68
+-  __AUTH.__data: 0x1668
+-  __DATA.__objc_protorefs: 0x80
++  __AUTH.__data: 0x16f8
++  __DATA.__objc_protorefs: 0x88
+   __DATA.__objc_classrefs: 0x1f8
+   __DATA.__objc_superrefs: 0x8
+   __DATA.__objc_ivar: 0x28
+-  __DATA.__objc_data: 0x328
+-  __DATA.__data: 0x1a70
+-  __DATA.__bss: 0x32f0
++  __DATA.__objc_data: 0x390
++  __DATA.__data: 0x1ae8
++  __DATA.__bss: 0x3380
+   __DATA.__common: 0x40
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 753AC7F8-F96E-370A-9743-D8D1E7BB76EB
+-  Functions: 2469
+-  Symbols:   1593
+-  CStrings:  1019
++  UUID: 08862249-160D-31CD-8188-78D001B784C3
++  Functions: 2568
++  Symbols:   1670
++  CStrings:  1045
+ 
+Symbols:
++ __DATA__TtC23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapter
++ __DATA__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase
++ __DATA__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB440AuthenticateProxyObjectFetchingDecorator
++ __DATA__TtCVE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32830ExtensionViewControllerWrapper11Coordinator
++ __IVARS__TtC23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapter
++ __IVARS__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase
++ __IVARS__TtCVE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32830ExtensionViewControllerWrapper11Coordinator
++ __METACLASS_DATA__TtC23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapter
++ __METACLASS_DATA__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase
++ __METACLASS_DATA__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB440AuthenticateProxyObjectFetchingDecorator
++ __METACLASS_DATA__TtCVE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32830ExtensionViewControllerWrapper11Coordinator
++ __OBJC_$_INSTANCE_METHODS__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase
++ __OBJC_$_INSTANCE_METHODS__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB440AuthenticateProxyObjectFetchingDecorator
++ __PROTOCOLS__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase
++ __PROTOCOLS__TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase.6
++ __PROTOCOLS__TtCC23ProximityAppleIDSetupUI23PASUIExtensionHostProxy12InfoProvider.22
++ __PROTOCOL_INSTANCE_METHODS__TtP21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_
++ __PROTOCOL_INSTANCE_METHODS__TtP23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_
++ __PROTOCOL_METHOD_TYPES__TtP21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_
++ __PROTOCOL_METHOD_TYPES__TtP23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_
++ __PROTOCOL_PROPERTIES__TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_
++ __PROTOCOL_PROPERTIES__TtP23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_
++ __PROTOCOL__TtP21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_
++ __PROTOCOL__TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_
++ __PROTOCOL__TtP23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_
++ _associated conformance 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0abC2UIE0fgH4View33_47BDA246E8E34135A80CA3736CF4D328LLV05SwiftI00J0AD4BodyAhIP_AhI
++ _associated conformance 23ProximityAppleIDSetupUI19PASUISourceBaseViewV05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 23ProximityAppleIDSetupUI19PASUITargetBaseViewV05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 23ProximityAppleIDSetupUI20PASUITargetErrorViewV05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 23ProximityAppleIDSetupUI20PASUITargetStartViewV05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 23ProximityAppleIDSetupUI24PASUISourceViewPresenterC14AnalyticsEvent33_599D93CA99F596134CB6082B67E11409LLOSHAASQ
++ _associated conformance 23ProximityAppleIDSetupUI29PASUISourceViewPresenterErrorO10Foundation09LocalizedH0AAs0H0
++ _associated conformance 23ProximityAppleIDSetupUI29PASUISourceViewPresenterErrorO10Foundation13CustomNSErrorAAs0H0
++ _associated conformance 23ProximityAppleIDSetupUI29PASUISourceViewPresenterErrorOSHAASQ
++ _associated conformance 23ProximityAppleIDSetupUI29PASUITargetViewPresenterErrorO10Foundation09LocalizedH0AAs0H0
++ _associated conformance 23ProximityAppleIDSetupUI29PASUITargetViewPresenterErrorO10Foundation13CustomNSErrorAAs0H0
++ _associated conformance 23ProximityAppleIDSetupUI29PASUITargetViewPresenterErrorOSHAASQ
++ _block_copy_helper.28
++ _block_copy_helper.32
++ _block_copy_helper.33
++ _block_copy_helper.38
++ _block_copy_helper.41
++ _block_copy_helper.45
++ _block_copy_helper.47
++ _block_copy_helper.48
++ _block_copy_helper.5
++ _block_copy_helper.50
++ _block_copy_helper.51
++ _block_copy_helper.57
++ _block_copy_helper.60
++ _block_descriptor.30
++ _block_descriptor.34
++ _block_descriptor.35
++ _block_descriptor.40
++ _block_descriptor.43
++ _block_descriptor.47
++ _block_descriptor.49
++ _block_descriptor.50
++ _block_descriptor.52
++ _block_descriptor.53
++ _block_descriptor.59
++ _block_descriptor.62
++ _block_destroy_helper.29
++ _block_destroy_helper.33
++ _block_destroy_helper.34
++ _block_destroy_helper.39
++ _block_destroy_helper.42
++ _block_destroy_helper.46
++ _block_destroy_helper.48
++ _block_destroy_helper.49
++ _block_destroy_helper.51
++ _block_destroy_helper.52
++ _block_destroy_helper.58
++ _block_destroy_helper.6
++ _block_destroy_helper.61
++ _get_witness_table 23ProximityAppleIDSetupUI19PASUITargetBaseViewV05SwiftD00G0HPyHC.2
++ _get_witness_table 23ProximityAppleIDSetupUI26NavigationControllerReaderVy05SwiftD015ModifiedContentVyAA19PASUITargetBaseViewVAD13_TaskModifierVGSgGAD0M0HPyHC.10
++ _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB019PASUISourceBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB019PASUISourceBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.7
++ _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB019PASUISourceBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.9
++ _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB019PASUITargetBaseViewVAD0f13IDAuthContextJ8ModifierVGAA0J0HPAfaJHPyHC_AhA0jM0HPyHCHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB019PASUITargetBaseViewVAD0f13IDAuthContextJ8ModifierVGAA0J0HPAfaJHPyHC_AhA0jM0HPyHCHC.7
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0Vy021ProximityAppleIDSetupB017PASUIProgressViewVAA13_TaskModifierVGAEyAF015PASUISourceBaseJ0VAJGGAA0J0HPAkaPHPAhaPHPyHC_AjA0jL0HPyHCHC_AnaPHPAmaPHPyHC_AjaQHPyHCHCHC.16
++ _get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.38
++ _objectdestroy.31Tm
++ _symbolic $s23ProximityAppleIDSetupUI22PASUISourceViewBuilderP
++ _symbolic $s23ProximityAppleIDSetupUI27PASUISourcePresentationViewP
++ _symbolic $s23ProximityAppleIDSetupUI32PASUISourceViewPresenterDelegateP
++ _symbolic $s23ProximityAppleIDSetupUI32PASUITargetViewPresenterDelegateP
++ _symbolic $s23ProximityAppleIDSetupUI37PASUISourcePresentationViewControllerP
++ _symbolic 21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_p
++ _symbolic 23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_p
++ _symbolic 23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_pSgXw
++ _symbolic 23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_pSgXwz_Xx
++ _symbolic SDySSSo14NSSecureCoding_So8NSObjectpGSg______pSgIeggg_ s5ErrorP
++ _symbolic So12NSDictionaryCSgSo7NSErrorCSgIeyByy_
++ _symbolic So30AKAppleIDAuthenticationContextC
++ _symbolic _____ 21ProximityAppleIDSetup21PASSourceFlowStepBaseC
++ _symbolic _____ 21ProximityAppleIDSetup22PASFlowStepSourceErrorC
++ _symbolic _____ 21ProximityAppleIDSetup22PASFlowStepTargetErrorC
++ _symbolic _____ 21ProximityAppleIDSetup22PASFlowStepTargetStartC
++ _symbolic _____ 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0abC2UIE0F21ViewControllerWrapper33_47BDA246E8E34135A80CA3736CF4D328LLV11CoordinatorC
++ _symbolic _____ 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0abC2UIE0fgH4View33_47BDA246E8E34135A80CA3736CF4D328LLV
++ _symbolic _____ 23ProximityAppleIDSetupUI19PASUISourceBaseViewV
++ _symbolic _____ 23ProximityAppleIDSetupUI19PASUITargetBaseViewV
++ _symbolic _____ 23ProximityAppleIDSetupUI20PASUITargetErrorViewV
++ _symbolic _____ 23ProximityAppleIDSetupUI20PASUITargetStartViewV
++ _symbolic _____ 23ProximityAppleIDSetupUI24PASUISourceViewPresenterC
++ _symbolic _____ 23ProximityAppleIDSetupUI24PASUISourceViewPresenterC14AnalyticsEvent33_599D93CA99F596134CB6082B67E11409LLO
++ _symbolic _____ 23ProximityAppleIDSetupUI24PASUITargetViewPresenterC
++ _symbolic _____ 23ProximityAppleIDSetupUI24PASUITargetViewPresenterC14AnalyticsEvent33_332FA0D13657FC1D27F78EE89D28FB67LLO
++ _symbolic _____ 23ProximityAppleIDSetupUI25InfoProviderDecoratorBase33_80665A0358B1FB8F2601A5B0671D5AB4LLC
++ _symbolic _____ 23ProximityAppleIDSetupUI29PASUISourceViewPresenterErrorO
++ _symbolic _____ 23ProximityAppleIDSetupUI29PASUITargetViewPresenterErrorO
++ _symbolic _____ 23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapterC
++ _symbolic _____ 23ProximityAppleIDSetupUI40AuthenticateProxyObjectFetchingDecorator33_80665A0358B1FB8F2601A5B0671D5AB4LLC
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 21ProximityAppleIDSetup20PASExtensionManifestC
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 21ProximityAppleIDSetup31PASExtensionProvidedViewDetailsC
++ _symbolic _____SgXw 23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapterC
++ _symbolic _____SgXwz_Xx 23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapterC
++ _symbolic ______p 21ProximityAppleIDSetup31PASSourceFlowControllerProtocolP
++ _symbolic ______p 21ProximityAppleIDSetup31PASTargetFlowControllerProtocolP
++ _symbolic ______p 23ProximityAppleIDSetupUI22PASUISourceViewBuilderP
++ _symbolic ______pSg 21ProximityAppleIDSetup25PASAccountContextProtocolP
++ _symbolic ______pSg 23ProximityAppleIDSetupUI22PASUISourceViewBuilderP
++ _symbolic _____y_____G 7SwiftUI11StateObjectV 21ProximityAppleIDSetup21PASSourceFlowStepBaseC
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC
++ _symbolic _____y_____G 7SwiftUI36UIViewControllerRepresentableContextV 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0ghiB0E0l4ViewD7Wrapper33_47BDA246E8E34135A80CA3736CF4D328LLV
++ _symbolic _____y_____G 7SwiftUI5StateV 021ProximityAppleIDSetupB024PASUITargetViewPresenterC
++ _symbolic _____y_____GSg 21ProximityAppleIDSetup12PASAnalyticsC 0abC2UI24PASUISourceViewPresenterC14AnalyticsEvent33_599D93CA99F596134CB6082B67E11409LLO
++ _symbolic _____y_____GSg 21ProximityAppleIDSetup12PASAnalyticsC 0abC2UI24PASUITargetViewPresenterC14AnalyticsEvent33_332FA0D13657FC1D27F78EE89D28FB67LLO
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO 021ProximityAppleIDSetupB0016PASUITargetErrorC0V
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO 021ProximityAppleIDSetupB0016PASUITargetStartC0V
++ _symbolic _____y______SS_____y_____y_____G_AEtGADQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0jklB0E0oC17ControllerWrapper33_47BDA246E8E34135A80CA3736CF4D328LLV AA05TupleC0V AA6ButtonV AA4TextV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB019PASUISourceBaseViewV AA13_TaskModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB019PASUITargetBaseViewV AA13_TaskModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB019PASUITargetBaseViewV AD0f13IDAuthContextJ8ModifierV
++ _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB019PASUITargetBaseViewV AA13_TaskModifierV
++ _symbolic _____y___________y_____y_____yAByAByAByABy_____yABy__________y_____SgGG_Qo______y_____GG_____G_____y_____GG_____y_____GGG______Qo______GQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO 021ProximityAppleIDSetupB0015PASUITargetBaseC0V AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AcAE4boldyQrSbFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundnV0V AA017HierarchicalShapeN0V AA14_PaddingLayoutV AA011_BackgroundnV0V AA5ColorV AA11_ClipEffectV AA6CircleV AA05PlainpN0V AA023AccessibilityAttachmentV0V
++ _symbolic _____y______pG 21ProximityAppleIDSetup10PASServiceC AA09PASTargetB18IDExchangeProtocolP
++ _symbolic _____y_____y__________GABy_____ADGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 021ProximityAppleIDSetupB017PASUIProgressViewV AA13_TaskModifierV AF015PASUISourceBaseJ0V
++ _symbolic _____y_____y__________GABy_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 021ProximityAppleIDSetupB017PASUIProgressViewV AA13_TaskModifierV AH015PASUISourceBaseK0V
++ _symbolic _____y_____y__________GSgG 23ProximityAppleIDSetupUI26NavigationControllerReaderV 05SwiftD015ModifiedContentV AA19PASUITargetBaseViewV AD13_TaskModifierV
+- __DATA__TtC23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapter
+- __DATA__TtC23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapter
+- __DATA__TtCE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32821ExtensionEventHandler
+- __IVARS__TtC23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapter
+- __IVARS__TtC23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapter
+- __IVARS__TtCE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32821ExtensionEventHandler
+- __METACLASS_DATA__TtC23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapter
+- __METACLASS_DATA__TtC23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapter
+- __METACLASS_DATA__TtCE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32821ExtensionEventHandler
+- __PROTOCOLS__TtCC23ProximityAppleIDSetupUI23PASUIExtensionHostProxy12InfoProvider.18
+- __PROTOCOL_INSTANCE_METHODS__TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_
+- __PROTOCOL_INSTANCE_METHODS__TtP23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_
+- __PROTOCOL_METHOD_TYPES__TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_
+- __PROTOCOL_METHOD_TYPES__TtP23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_
+- __PROTOCOL_PROPERTIES__TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_
+- __PROTOCOL_PROPERTIES__TtP23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_
+- __PROTOCOL__TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_
+- __PROTOCOL__TtP23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_
+- _associated conformance 23ProximityAppleIDSetupUI21PASUIGuardianBaseViewV05SwiftD00G0AA4BodyAdEP_AdE
+- _associated conformance 23ProximityAppleIDSetupUI22PASUIDependentBaseViewV05SwiftD00G0AA4BodyAdEP_AdE
+- _associated conformance 23ProximityAppleIDSetupUI23PASUIDependentErrorViewV05SwiftD00G0AA4BodyAdEP_AdE
+- _associated conformance 23ProximityAppleIDSetupUI23PASUIDependentStartViewV05SwiftD00G0AA4BodyAdEP_AdE
+- _associated conformance 23ProximityAppleIDSetupUI26PASUIGuardianViewPresenterC14AnalyticsEvent33_AC95EB8C04B926F709F89AF391C14AFELLOSHAASQ
+- _associated conformance 23ProximityAppleIDSetupUI31PASUIGuardianViewPresenterErrorO10Foundation09LocalizedH0AAs0H0
+- _associated conformance 23ProximityAppleIDSetupUI31PASUIGuardianViewPresenterErrorO10Foundation13CustomNSErrorAAs0H0
+- _associated conformance 23ProximityAppleIDSetupUI31PASUIGuardianViewPresenterErrorOSHAASQ
+- _associated conformance 23ProximityAppleIDSetupUI32PASUIDependentViewPresenterErrorO10Foundation09LocalizedH0AAs0H0
+- _associated conformance 23ProximityAppleIDSetupUI32PASUIDependentViewPresenterErrorO10Foundation13CustomNSErrorAAs0H0
+- _associated conformance 23ProximityAppleIDSetupUI32PASUIDependentViewPresenterErrorOSHAASQ
+- _block_copy_helper.37
+- _block_copy_helper.43
+- _block_descriptor.39
+- _block_descriptor.45
+- _block_destroy_helper.38
+- _block_destroy_helper.44
+- _get_witness_table 23ProximityAppleIDSetupUI22PASUIDependentBaseViewV05SwiftD00G0HPyHC.2
+- _get_witness_table 23ProximityAppleIDSetupUI26NavigationControllerReaderVy05SwiftD015ModifiedContentVyAA22PASUIDependentBaseViewVAD13_TaskModifierVGSgGAD0M0HPyHC.10
+- _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB021PASUIGuardianBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.4
+- _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB021PASUIGuardianBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.7
+- _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB021PASUIGuardianBaseViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.9
+- _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB022PASUIDependentBaseViewVAD0f13IDAuthContextJ8ModifierVGAA0J0HPAfaJHPyHC_AhA0jM0HPyHCHC.4
+- _get_witness_table 7SwiftUI15ModifiedContentVy021ProximityAppleIDSetupB022PASUIDependentBaseViewVAD0f13IDAuthContextJ8ModifierVGAA0J0HPAfaJHPyHC_AhA0jM0HPyHCHC.7
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0Vy021ProximityAppleIDSetupB017PASUIProgressViewVAA13_TaskModifierVGAEyAF017PASUIGuardianBaseJ0VAJGGAA0J0HPAkaPHPAhaPHPyHC_AjA0jL0HPyHCHC_AnaPHPAmaPHPyHC_AjaQHPyHCHCHC.16
+- _objectdestroy.27Tm
+- _symbolic $s23ProximityAppleIDSetupUI24PASUIGuardianViewBuilderP
+- _symbolic $s23ProximityAppleIDSetupUI29PASUIGuardianPresentationViewP
+- _symbolic $s23ProximityAppleIDSetupUI34PASUIGuardianViewPresenterDelegateP
+- _symbolic $s23ProximityAppleIDSetupUI35PASUIDependentViewPresenterDelegateP
+- _symbolic $s23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewControllerP
+- _symbolic 23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_p
+- _symbolic 23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_pSgXw
+- _symbolic 23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_pSgXwz_Xx
+- _symbolic _____ 21ProximityAppleIDSetup23PASGuardianFlowStepBaseC
+- _symbolic _____ 21ProximityAppleIDSetup24PASFlowStepGuardianErrorC
+- _symbolic _____ 21ProximityAppleIDSetup25PASFlowStepDependentErrorC
+- _symbolic _____ 21ProximityAppleIDSetup25PASFlowStepDependentStartC
+- _symbolic _____ 21ProximityAppleIDSetup33PASFlowStepStartLoadingExtensionsC
+- _symbolic _____ 21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerC0abC2UIE0F12EventHandler33_47BDA246E8E34135A80CA3736CF4D328LLC
+- _symbolic _____ 23ProximityAppleIDSetupUI21PASUIGuardianBaseViewV
+- _symbolic _____ 23ProximityAppleIDSetupUI22PASUIDependentBaseViewV
+- _symbolic _____ 23ProximityAppleIDSetupUI23PASUIDependentErrorViewV
+- _symbolic _____ 23ProximityAppleIDSetupUI23PASUIDependentStartViewV
+- _symbolic _____ 23ProximityAppleIDSetupUI26PASUIGuardianViewPresenterC
+- _symbolic _____ 23ProximityAppleIDSetupUI26PASUIGuardianViewPresenterC14AnalyticsEvent33_AC95EB8C04B926F709F89AF391C14AFELLO
+- _symbolic _____ 23ProximityAppleIDSetupUI27PASUIDependentViewPresenterC
+- _symbolic _____ 23ProximityAppleIDSetupUI27PASUIDependentViewPresenterC14AnalyticsEvent028_E7CD2D205D68FE00D5DF3A569A3J3E8ELLO
+- _symbolic _____ 23ProximityAppleIDSetupUI31PASUIGuardianViewPresenterErrorO
+- _symbolic _____ 23ProximityAppleIDSetupUI32PASUIDependentViewPresenterErrorO
+- _symbolic _____ 23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapterC
+- _symbolic _____ 23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapterC
+- _symbolic _____SgXw 23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapterC
+- _symbolic _____SgXw 23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapterC
+- _symbolic _____SgXwz_Xx 23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapterC
+- _symbolic _____SgXwz_Xx 23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapterC
+- _symbolic ______p 21ProximityAppleIDSetup33PASGuardianFlowControllerProtocolP
+- _symbolic ______p 21ProximityAppleIDSetup34PASDependentFlowControllerProtocolP
+- _symbolic ______p 23ProximityAppleIDSetupUI24PASUIGuardianViewBuilderP
+- _symbolic ______pSg 23ProximityAppleIDSetupUI24PASUIGuardianViewBuilderP
+- _symbolic _____y_____G 7SwiftUI11StateObjectV 21ProximityAppleIDSetup23PASGuardianFlowStepBaseC
+- _symbolic _____y_____G 7SwiftUI5StateV 021ProximityAppleIDSetupB027PASUIDependentViewPresenterC
+- _symbolic _____y_____GSg 21ProximityAppleIDSetup12PASAnalyticsC 0abC2UI26PASUIGuardianViewPresenterC14AnalyticsEvent33_AC95EB8C04B926F709F89AF391C14AFELLO
+- _symbolic _____y_____GSg 21ProximityAppleIDSetup12PASAnalyticsC 0abC2UI27PASUIDependentViewPresenterC14AnalyticsEvent028_E7CD2D205D68FE00D5DF3A569A3K3E8ELLO
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO 021ProximityAppleIDSetupB0019PASUIDependentErrorC0V
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO 021ProximityAppleIDSetupB0019PASUIDependentStartC0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB021PASUIGuardianBaseViewV AA13_TaskModifierV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB022PASUIDependentBaseViewV AA13_TaskModifierV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB022PASUIDependentBaseViewV AD0f13IDAuthContextJ8ModifierV
+- _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV 021ProximityAppleIDSetupB022PASUIDependentBaseViewV AA13_TaskModifierV
+- _symbolic _____y___________y_____y_____yAByAByAByABy_____yABy__________y_____SgGG_Qo______y_____GG_____G_____y_____GG_____y_____GGG______Qo______GQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO 021ProximityAppleIDSetupB0018PASUIDependentBaseC0V AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AcAE4boldyQrSbFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundnV0V AA017HierarchicalShapeN0V AA14_PaddingLayoutV AA011_BackgroundnV0V AA5ColorV AA11_ClipEffectV AA6CircleV AA05PlainpN0V AA023AccessibilityAttachmentV0V
+- _symbolic _____y______pG 21ProximityAppleIDSetup10PASServiceC AA012PASDependentB18IDExchangeProtocolP
+- _symbolic _____y_____y__________GABy_____ADGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 021ProximityAppleIDSetupB017PASUIProgressViewV AA13_TaskModifierV AF017PASUIGuardianBaseJ0V
+- _symbolic _____y_____y__________GABy_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 021ProximityAppleIDSetupB017PASUIProgressViewV AA13_TaskModifierV AH017PASUIGuardianBaseK0V
+- _symbolic _____y_____y__________GSgG 23ProximityAppleIDSetupUI26NavigationControllerReaderV 05SwiftD015ModifiedContentV AA22PASUIDependentBaseViewV AD13_TaskModifierV
+CStrings:
++ "@\"<_TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_>\"16@0:8"
++ "AuthenticateProxyObjectFetchingDecorator authenticate missing XPC connection"
++ "ExtensionViewControllerWrapper.Coordinator hostViewController didFailWith %{public}@"
++ "ExtensionViewControllerWrapper.Coordinator hostViewController didPick account: %{mask.hash}@, context: %{public}@"
++ "ExtensionViewControllerWrapper.Coordinator hostViewControllerWantsToPromptForFlowCancel"
++ "Failed to activate PASUISourceViewPresenter with message session: %{public}s"
++ "Failed to activate PASUITargetViewPresenter with message session: %{public}s"
++ "Failed to set PASUISourceViewPresenter message session: %{public}s"
++ "Failed to set template message session in PASUITargetViewPresenter: %{public}s"
++ "PAS=== Welcome to ProximityAppleIDSetup - Source ===PAS"
++ "PAS=== Welcome to ProximityAppleIDSetup - Target ===PAS"
++ "PASUIDependentViewPresenter"
++ "PASUIExtensionHostProxy promptForFlowCancel"
++ "PASUIExtensionHostProxy promptForFlowCancel failed: %{public}@"
++ "PASUIExtensionHostViewController promptForFlowCancel"
++ "PASUIGuardianViewPresenter"
++ "PASUISourceViewPresenter activated"
++ "PASUISourceViewPresenter deinit"
++ "PASUISourceViewPresenter delegate is nil"
++ "PASUISourceViewPresenter delegate is nil in activate"
++ "PASUISourceViewPresenter delegate is nil in flowDidCancel"
++ "PASUISourceViewPresenter delegate is nil in flowDidReset"
++ "PASUISourceViewPresenter did not present %{public}s.\n%{public}s"
++ "PASUISourceViewPresenter dimsissed presentedViewController for card"
++ "PASUISourceViewPresenter dismissPresentedViewController if exists"
++ "PASUISourceViewPresenter flowDidCancel"
++ "PASUISourceViewPresenter flowDidComplete with result %{public}s"
++ "PASUISourceViewPresenter flowDidReset"
++ "PASUISourceViewPresenter has viewBuilder: %{public}s"
++ "PASUISourceViewPresenter is already presenting a view controller, but should be presenting a nav controller."
++ "PASUISourceViewPresenter is presenting a modal view controller without a nav controller"
++ "PASUISourceViewPresenter present step %{public}s"
++ "PASUISourceViewPresenter presenting modal nav controller"
++ "PASUISourceViewPresenter reusing modal nav controller"
++ "PASUISourceViewPresenter viewBuilder presents card %{public}s"
++ "PASUISourceViewPresenterActivated"
++ "PASUISourceViewPresenterFlowEnded"
++ "PASUITargetViewPresenter activated"
++ "PASUITargetViewPresenter addHostingController failed - no view on %{public}@"
++ "PASUITargetViewPresenter deinit"
++ "PASUITargetViewPresenter delegate is nil in activate"
++ "PASUITargetViewPresenter delegate is nil in flowDidComplete"
++ "PASUITargetViewPresenter delegate is nil in performAIDASignIn"
++ "PASUITargetViewPresenter delegate is nil in reset"
++ "PASUITargetViewPresenter did not present step %{public}s.\n%{public}s"
++ "PASUITargetViewPresenter flowDidCancel"
++ "PASUITargetViewPresenter flowDidComplete with %{mask.hash}s"
++ "PASUITargetViewPresenter performAIDASignIn"
++ "PASUITargetViewPresenter performAIDASignIn result: %{public}s"
++ "PASUITargetViewPresenter present step %{public}s"
++ "PASUITargetViewPresenter proximitySetupSelectedAccountType and signInForSelf is enabled. We'll take it from here"
++ "PASUITargetViewPresenter reset"
++ "ProximityAppleIDSetupUI.PASUISourceViewPresenter"
++ "T@\"<_TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_>\",N,R"
++ "_TtC23ProximityAppleIDSetupUI31PASUISourceErrorProxCardAdapter"
++ "_TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB425InfoProviderDecoratorBase"
++ "_TtC23ProximityAppleIDSetupUIP33_80665A0358B1FB8F2601A5B0671D5AB440AuthenticateProxyObjectFetchingDecorator"
++ "_TtCVE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32830ExtensionViewControllerWrapper11Coordinator"
++ "_TtP21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_"
++ "_TtP23ProximityAppleIDSetupUI27PASUISourcePresentationView_"
++ "_TtP23ProximityAppleIDSetupUI37PASUISourcePresentationViewController_"
++ "_targetAppleIDExchanger"
++ "configurationWithPointSize:weight:"
++ "currentConnection"
++ "fetchExtrasWithCompletion:"
++ "fetchViewDetailsWithDevicePair:completion:"
++ "promptForFlowCancelWithCompletion:"
++ "setAnisetteDataProvider:"
++ "signInSucceededWithAccount:completion:"
++ "systemGreenColor"
++ "underlyingInfoProvider"
++ "v24@0:8@?<v@?@\"<AKAnisetteServiceProtocol>\"@\"NSError\">16"
++ "v24@?0@\"<AKAnisetteServiceProtocol>\"8@\"NSError\"16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v24@?0@\"_TtC21ProximityAppleIDSetup20PASExtensionManifest\"8@\"NSError\"16"
++ "v24@?0@\"_TtC21ProximityAppleIDSetup31PASExtensionProvidedViewDetails\"8@\"NSError\"16"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"_TtC21ProximityAppleIDSetup22PASExtensionDevicePair\"16@?<v@?@\"_TtC21ProximityAppleIDSetup31PASExtensionProvidedViewDetails\"@\"NSError\">24"
+- "@\"<_TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_>\"16@0:8"
+- "ExtensionEventHandler hostViewController didFailWith %{public}@"
+- "ExtensionEventHandler hostViewController didPick account: %{mask.hash}@, context: %{public}@"
+- "Failed to activate PASUIDependentViewPresenter with message session: %{public}s"
+- "Failed to activate PASUIGuardianViewPresenter with message session: %{public}s"
+- "Failed to set PASUIGuardianViewPresenter message session: %{public}s"
+- "Failed to set template message session in PASUIDependentViewPresenter: %{public}s"
+- "PAS=== Welcome to ProximityAppleIDSetup - Dependent ===PAS"
+- "PAS=== Welcome to ProximityAppleIDSetup - Guardian ===PAS"
+- "PASUIDependentViewPresenter activated"
+- "PASUIDependentViewPresenter addHostingController failed - no view on %{public}@"
+- "PASUIDependentViewPresenter deinit"
+- "PASUIDependentViewPresenter delegate is nil in activate"
+- "PASUIDependentViewPresenter delegate is nil in flowDidComplete"
+- "PASUIDependentViewPresenter delegate is nil in performAIDASignIn"
+- "PASUIDependentViewPresenter delegate is nil in reset"
+- "PASUIDependentViewPresenter did not present step %{public}s.\n%{public}s"
+- "PASUIDependentViewPresenter flowDidCancel"
+- "PASUIDependentViewPresenter flowDidComplete with %{mask.hash}s"
+- "PASUIDependentViewPresenter performAIDASignIn"
+- "PASUIDependentViewPresenter performAIDASignIn result: %{public}s"
+- "PASUIDependentViewPresenter present step %{public}s"
+- "PASUIDependentViewPresenter proximitySetupSelectedAccountType and signInForSelf is enabled. We'll take it from here"
+- "PASUIDependentViewPresenter reset"
+- "PASUIGuardianViewPresenter activated"
+- "PASUIGuardianViewPresenter deinit"
+- "PASUIGuardianViewPresenter delegate is nil"
+- "PASUIGuardianViewPresenter delegate is nil in activate"
+- "PASUIGuardianViewPresenter delegate is nil in flowDidCancel"
+- "PASUIGuardianViewPresenter delegate is nil in flowDidReset"
+- "PASUIGuardianViewPresenter did not present %{public}s.\n%{public}s"
+- "PASUIGuardianViewPresenter dimsissed presentedViewController for card"
+- "PASUIGuardianViewPresenter dismissPresentedViewController if exists"
+- "PASUIGuardianViewPresenter flowDidCancel"
+- "PASUIGuardianViewPresenter flowDidComplete with result %{public}s"
+- "PASUIGuardianViewPresenter flowDidReset"
+- "PASUIGuardianViewPresenter has viewBuilder: %{public}s"
+- "PASUIGuardianViewPresenter is already presenting a view controller, but should be presenting a nav controller."
+- "PASUIGuardianViewPresenter present step %{public}s"
+- "PASUIGuardianViewPresenter presenting modal nav controller"
+- "PASUIGuardianViewPresenter reusing modal nav controller"
+- "PASUIGuardianViewPresenter viewBuilder presents card %{public}s"
+- "PASUIGuardianViewPresenterActivated"
+- "PASUIGuardianViewPresenterFlowEnded"
+- "ProximityAppleIDSetupUI.PASUIGuardianViewPresenter"
+- "T@\"<_TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_>\",N,R"
+- "_TtC23ProximityAppleIDSetupUI33PASUIGuardianErrorProxCardAdapter"
+- "_TtC23ProximityAppleIDSetupUI42PASUIStartLoadingExtensionsProxCardAdapter"
+- "_TtCE23ProximityAppleIDSetupUIC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPickerP33_47BDA246E8E34135A80CA3736CF4D32821ExtensionEventHandler"
+- "_TtP23ProximityAppleIDSetupUI29PASUIGuardianPresentationView_"
+- "_TtP23ProximityAppleIDSetupUI39PASUIGuardianPresentationViewController_"
+- "_dependentAppleIDExchanger"
+
+```

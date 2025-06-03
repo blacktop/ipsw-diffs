@@ -1,0 +1,202 @@
+## libAudioStatistics.dylib
+
+> `/usr/lib/libAudioStatistics.dylib`
+
+```diff
+
+-197.4.1.0.0
+-  __TEXT.__text: 0xc6c0
+-  __TEXT.__auth_stubs: 0x720
+-  __TEXT.__objc_methlist: 0x3f4
+-  __TEXT.__gcc_except_tab: 0x16f4
++209.5.16.0.0
++  __TEXT.__text: 0xc914
++  __TEXT.__auth_stubs: 0x710
++  __TEXT.__objc_methlist: 0x3fc
++  __TEXT.__gcc_except_tab: 0x1718
+   __TEXT.__const: 0xb0e
+   __TEXT.__oslogstring: 0x1266
+-  __TEXT.__cstring: 0xa43
++  __TEXT.__cstring: 0xa73
+   __TEXT.__swift5_typeref: 0x25
+   __TEXT.__swift5_fieldmd: 0x10
+-  __TEXT.__unwind_info: 0x6f4
++  __TEXT.__unwind_info: 0x70c
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0xba
+-  __TEXT.__objc_methname: 0xfa8
++  __TEXT.__objc_methname: 0xfd8
+   __TEXT.__objc_methtype: 0x446
+-  __TEXT.__objc_stubs: 0xf40
++  __TEXT.__objc_stubs: 0xf60
+   __DATA_CONST.__got: 0x70
+-  __DATA_CONST.__const: 0x418
++  __DATA_CONST.__const: 0x428
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xb70
+-  __DATA_CONST.__objc_selrefs: 0x460
++  __DATA_CONST.__objc_selrefs: 0x468
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0x98
++  __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_arraydata: 0x370
+   __AUTH_CONST.__objc_const: 0x1b0
+-  __AUTH_CONST.__cfstring: 0xda0
++  __AUTH_CONST.__cfstring: 0xe40
+   __AUTH_CONST.__objc_intobj: 0x4e0
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__const: 0x5b0
+   __AUTH_CONST.__objc_doubleobj: 0x110
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x3a0
+-  __DATA.__objc_protorefs: 0x18
+-  __DATA.__objc_classrefs: 0x98
+-  __DATA.__objc_superrefs: 0x20
++  __AUTH_CONST.__auth_got: 0x398
+   __DATA.__objc_ivar: 0x4c
+   __DATA.__objc_data: 0xf8
+   __DATA.__data: 0x120
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: DDC70A02-8F85-350F-8C1C-D2DD87953A5F
+-  Functions: 266
+-  Symbols:   1111
+-  CStrings:  589
++  UUID: 78CBF68B-84AA-3069-9FB0-F374BBB40B98
++  Functions: 269
++  Symbols:   1118
++  CStrings:  601
+ 
+Symbols:
++ -[CAReportingClient sendClientAction:reporterID:]
++ GCC_except_table100
++ GCC_except_table102
++ GCC_except_table103
++ GCC_except_table117
++ GCC_except_table124
++ GCC_except_table125
++ GCC_except_table126
++ GCC_except_table137
++ GCC_except_table138
++ GCC_except_table148
++ GCC_except_table149
++ GCC_except_table150
++ GCC_except_table151
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table176
++ GCC_except_table179
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table194
++ GCC_except_table197
++ GCC_except_table198
++ GCC_except_table80
++ GCC_except_table95
++ __ZN5caulk4slog6detail16string_converterC2ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt9type_infoeqB8ue170006ERKS_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEEC2B8ue170006ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEED2B8ue170006Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayIP8NSNumberEEEEEEC2B8ue170006ERKSE_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayIP8NSNumberEEEEEED2B8ue170006Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJbEEEEEC2B8ue170006ERKS8_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJbEEEEED2B8ue170006Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006Emc
++ __ZNSt3__116__pad_and_outputB8ue170006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIP10pc_sessionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ue170006Ev
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__124__put_character_sequenceB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB8ue170006Ev
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJU8__strongP12NSDictionaryEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJU8__strongP7NSArrayIP8NSNumberEEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSE_EEEE_U8__strongSJ_SL_EEEvDpOT_
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJbEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJbEEEE_U8__strongSD_SF_EEEvDpOT_
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJU8__strongP12NSDictionaryEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJU8__strongP7NSArrayIP8NSNumberEEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSE_EEEE_U8__strongSJ_SL_EEEvDpOT_
++ __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ue170006IJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJbEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJbEEEE_U8__strongSD_SF_EEEvDpOT_
++ __ZNSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE18__assign_with_sizeB8ue170006IPS2_S7_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___42-[CAReportingClient initWithXPC:endpoint:]_block_invoke.193
++ ___block_literal_global.203
++ ___block_literal_global.610
++ __unnamed_array_storage.355
++ __unnamed_array_storage.528
++ __unnamed_array_storage.529
++ __unnamed_array_storage.596
++ __unnamed_array_storage.597
++ _objc_msgSend$sendClientAction:reporterID:
+- GCC_except_table111
+- GCC_except_table112
+- GCC_except_table119
+- GCC_except_table120
+- GCC_except_table131
+- GCC_except_table132
+- GCC_except_table139
+- GCC_except_table142
+- GCC_except_table143
+- GCC_except_table144
+- GCC_except_table157
+- GCC_except_table158
+- GCC_except_table169
+- GCC_except_table170
+- GCC_except_table173
+- GCC_except_table174
+- GCC_except_table188
+- GCC_except_table191
+- GCC_except_table192
+- GCC_except_table30
+- GCC_except_table93
+- GCC_except_table96
+- GCC_except_table97
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt9type_infoeqB7v160006ERKS_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEEC2B7v160006ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayIP8NSNumberEEEEEEC2B7v160006ERKSE_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayIP8NSNumberEEEEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJbEEEEEC2B7v160006ERKS8_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJbEEEEED2B7v160006Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006Emc
+- __ZNSt3__116__pad_and_outputB7v160006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIP10pc_sessionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB7v160006Ev
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJU8__strongP12NSDictionaryEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJU8__strongP7NSArrayIP8NSNumberEEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSE_EEEE_U8__strongSJ_SL_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU25objcproto14ServerProtocol11objc_objectJbEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJbEEEE_U8__strongSD_SF_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJU8__strongP12NSDictionaryEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJU8__strongP7NSArrayIP8NSNumberEEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSE_EEEE_U8__strongSJ_SL_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callIJRZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJbEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJbEEEE_U8__strongSD_SF_EEEvDpOT_
+- __ZNSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIP10pc_sessionNS_9allocatorIS2_EEE6assignIPS2_Li0EEEvT_S8_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___42-[CAReportingClient initWithXPC:endpoint:]_block_invoke.192
+- ___block_literal_global.196
+- ___block_literal_global.604
+- __unnamed_array_storage.349
+- __unnamed_array_storage.518
+- __unnamed_array_storage.519
+- __unnamed_array_storage.590
+- __unnamed_array_storage.591
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "clientAction"
++ "secure"
++ "sendClientAction:reporterID:"
++ "soundanalysis"
+
+```

@@ -1,0 +1,19 @@
+## com.apple.SoundDetectionNotifications
+
+> `/System/Library/UserNotifications/Bundles/com.apple.SoundDetectionNotifications.bundle/com.apple.SoundDetectionNotifications`
+
+```diff
+
+-406.16.1.0.0
++406.22.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__const: 0x50
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 4768CB5B-6FA3-3D25-B088-4CED8618316D
++  UUID: A131AB2A-A38C-326A-B591-1A20551C1F86
+   Functions: 0
+   Symbols:   2
+   CStrings:  0
+
+```

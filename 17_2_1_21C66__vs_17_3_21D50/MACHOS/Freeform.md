@@ -1,0 +1,32 @@
+## Freeform
+
+> `/private/var/staged_system_apps/Freeform.app/Freeform`
+
+```diff
+
+ 0.0.0.0.0
+-  __TEXT.__text: 0x107a8b8
++  __TEXT.__text: 0x107a884
+   __TEXT.__auth_stubs: 0xbb10
+   __TEXT.__objc_stubs: 0x5ec00
+   __TEXT.__objc_methlist: 0x4a2ec
+
+   __TEXT.__swift5_capture: 0x9404
+   __TEXT.__swift5_protos: 0x280
+   __TEXT.__swift5_mpenum: 0x1bc
+-  __TEXT.__unwind_info: 0x58b28
++  __TEXT.__unwind_info: 0x58b20
+   __TEXT.__eh_frame: 0x39308
+   __DATA_CONST.__auth_got: 0x5d98
+   __DATA_CONST.__got: 0x2570
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 33B54E11-213E-3496-9FB4-2BD1396FC7B7
++  UUID: 6BED6F49-AA97-3965-BA4D-11239349915F
+   Functions: 86724
+   Symbols:   5519
+   CStrings:  50407
+
+```
