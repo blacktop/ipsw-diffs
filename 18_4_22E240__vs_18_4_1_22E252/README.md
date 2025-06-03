@@ -1,9 +1,5 @@
 # 18.4 (22E240) .vs 18.4.1 (22E252)
 
-## Security Content
-
-- <https://support.apple.com/en-us/122282>
-
 ## IPSWs
 
 - `iPhone17,1_18.4_22E240_Restore.ipsw`
@@ -37,7 +33,11 @@
    __TEXT_EXEC.__text: 0xafb0
    __TEXT_EXEC.__auth_stubs: 0x0
 
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x1780
    __DATA_CONST.__kalloc_type: 0xc0
+-  UUID: D62E89CF-D5DA-3591-B99C-63DE4DCB9D61
++  UUID: 01E1D500-5F49-3503-8949-033F73FE85FF
    Functions: 258
    Symbols:   0
 -  CStrings:  232
@@ -84,6 +84,17 @@ CStrings:
    __DATA_CONST.__cfstring: 0x2fe0
    __DATA_CONST.__objc_classlist: 0x348
 
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: D9DAB53F-F6DB-31D3-87E8-107E62677F54
++  UUID: 71D7470F-E04A-3CE9-A294-13321F391F6D
+   Functions: 4043
+   Symbols:   1515
+   CStrings:  8324
+Functions:
+~ sub_100031310 : 164 -> 172
+
 ```
 
 #### AssistantSettingsControlsExtension
@@ -107,6 +118,15 @@ CStrings:
    __DATA_CONST.__objc_classlist: 0x8
    __DATA_CONST.__objc_imageinfo: 0x8
 
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CC6818BA-E8FA-3A0F-B168-EED486A3641F
++  UUID: 26FF86A8-F55B-33CF-9155-FFE4961823DD
+   Functions: 2795
+   Symbols:   115
+   CStrings:  441
+
 ```
 
 #### WiFiSettingsControlsExtension
@@ -123,6 +143,15 @@ CStrings:
    __DATA_CONST.__const: 0xc90
    __DATA_CONST.__objc_classlist: 0x10
    __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: B3194829-88BF-3F2C-A25F-CBB5E9B3ECC6
++  UUID: A81ED803-3B46-38E8-82CC-74C0FE394EB1
+   Functions: 940
+   Symbols:   121
+   CStrings:  148
 
 ```
 
@@ -146,6 +175,15 @@ CStrings:
    __DATA_CONST.__const: 0xd10
    __DATA_CONST.__cfstring: 0x120
    __DATA_CONST.__objc_classlist: 0x30
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 834A8AF4-1408-3D7B-B396-27AF977E96D4
++  UUID: 2230C3CD-A580-3B8F-8CB3-F3E7EF28432A
+   Functions: 747
+   Symbols:   253
+   CStrings:  405
 
 ```
 
@@ -209,11 +247,13 @@ CStrings:
    - /usr/lib/swift/libswiftsimd.dylib
    - /usr/lib/swift/libswiftsys_time.dylib
    - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 5F760438-346E-3E2D-A0D3-E97735810D9B
 -  Functions: 12584
++  UUID: 4D4EBECE-6B02-3A0A-8028-AEC02D2A8FD2
 +  Functions: 12573
    Symbols:   2036
--  CStrings:  15038
-+  CStrings:  15034
+-  CStrings:  18522
++  CStrings:  18515
  
 CStrings:
 + "17:59:21"
@@ -252,10 +292,12 @@ CStrings:
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbsm.0.dylib
+-  UUID: AA4D7092-7655-3419-842B-FC368774724D
 -  Functions: 985
++  UUID: 2F8E78A7-42B7-3C96-9B34-4A69D7A1CBEF
 +  Functions: 987
    Symbols:   466
-   CStrings:  1670
+   CStrings:  1988
  
 CStrings:
 + "IPv6.Prefix=%s/%d;IPv6.RouterHardwareAddress="
@@ -311,12 +353,14 @@ CStrings:
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: 484E4D90-56E9-3A4E-84D4-EC82121D79D8
 -  Functions: 277
 -  Symbols:   732
--  CStrings:  635
+-  CStrings:  654
++  UUID: 952FD03E-567F-3E2D-A26A-8748FF1471AD
 +  Functions: 279
 +  Symbols:   730
-+  CStrings:  633
++  CStrings:  652
  
 Symbols:
 + _lockLockInDispatchLockMap
@@ -362,7 +406,7 @@ CStrings:
 
 ### Dylibs
 
-#### ⬆️ Updated (9)
+#### ⬆️ Updated (4)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -380,6 +424,17 @@ CStrings:
    __TEXT.__auth_stubs: 0x1540
    __TEXT.__const: 0x3028cc
    __TEXT.__cstring: 0xa204
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C37282EE-EF5F-323D-BA9B-C5B820271773
++  UUID: 2D3D1ECD-D220-30F0-91EF-9EE201C5EAA9
+   Functions: 8800
+   Symbols:   25768
+   CStrings:  3580
+Functions:
+~ __ZN4apac3hoa11CodecConfig11DeserializeER16TBitstreamReaderIjE : 4156 -> 4188
 CStrings:
 + "17:49:08"
 + "Apr  4 2025"
@@ -414,11 +469,13 @@ CStrings:
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
+-  UUID: A14CBB38-86E6-3807-9738-A00B19AA4ED7
 -  Functions: 8263
 -  Symbols:   26933
++  UUID: 0E9DF97F-96AA-3C2D-A5AD-3A764A0C4330
 +  Functions: 8264
 +  Symbols:   26936
-   CStrings:  10301
+   CStrings:  13113
  
 Symbols:
 + GCC_except_table128
@@ -426,23 +483,9 @@ Symbols:
 + GCC_except_table164
 + __ZN14LaunchServices17BindingEvaluation25BindingEligibilityChecker36isDefaultAppCategoryBindingEligibileERKNS0_5StateEPK24LSDefaultAppCategoryInfoRKNS0_15ExtendedBindingE
 - GCC_except_table162
-
-```
-
-#### _MapKit_SwiftUI
-
->  `/System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI`
-
-```diff
-
-   __DATA_CONST.__objc_selrefs: 0x9f0
-   __DATA_CONST.__objc_protorefs: 0x48
-   __AUTH_CONST.__auth_got: 0x10b0
--  __AUTH_CONST.__auth_ptr: 0x10c8
-+  __AUTH_CONST.__auth_ptr: 0xeb8
-   __AUTH_CONST.__const: 0x6fe0
-   __AUTH_CONST.__objc_const: 0x14e0
-   __AUTH.__objc_data: 0x7a0
+Functions:
+~ __ZN14LaunchServices17BindingEvaluation25BindingEligibilityChecker23checkBindingIsEligibileERKNS0_5StateERKNS0_15ExtendedBindingE : 816 -> 720
++ __ZN14LaunchServices17BindingEvaluation25BindingEligibilityChecker36isDefaultAppCategoryBindingEligibileERKNS0_5StateEPK24LSDefaultAppCategoryInfoRKNS0_15ExtendedBindingE
 
 ```
 
@@ -472,9 +515,9 @@ Symbols:
    __TEXT.__objc_methname: 0x3b165
    __TEXT.__objc_methtype: 0xaaf0
 
+   __DATA_CONST.__objc_superrefs: 0xdf0
    __DATA_CONST.__objc_arraydata: 0x2090
    __AUTH_CONST.__auth_got: 0xab8
-   __AUTH_CONST.__auth_ptr: 0x8
 -  __AUTH_CONST.__const: 0x3a60
 -  __AUTH_CONST.__cfstring: 0x27080
 +  __AUTH_CONST.__const: 0x3a80
@@ -495,12 +538,14 @@ Symbols:
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
+-  UUID: 48240B46-2E2A-332B-9ADC-DF6123EB6CD7
 -  Functions: 11758
 -  Symbols:   37463
--  CStrings:  19242
+-  CStrings:  24238
++  UUID: 7A44BD8F-2535-3644-9869-340513E68BB9
 +  Functions: 11759
 +  Symbols:   37468
-+  CStrings:  19245
++  CStrings:  24242
  
 Symbols:
 + GCC_except_table11507
@@ -555,85 +600,13 @@ Symbols:
 - ___block_literal_global.5.48697
 - _sharedObserver.onceToken.48711
 - _sharedObserver.sharedObserver.48713
+Functions:
+~ _AFDeviceSupportsDisablingServerFallbackWhenMissingAsset : 240 -> 556
++ ___AFIsLocaleSupportedForSirClassic_block_invoke
 CStrings:
 + "%s AFDeviceSupportsDisablingServerFallbackWhenMissingAsset returns true as locale is nil"
 + "%s AFDeviceSupportsDisablingServerFallbackWhenMissingAsset returns true for unsupported server locale: %@"
 + "hi_IN"
-
-```
-
-#### SiriSharedUI
-
->  `/System/Library/PrivateFrameworks/SiriSharedUI.framework/SiriSharedUI`
-
-```diff
-
--3404.71.4.11.4
-+3404.71.4.11.5
-   __TEXT.__text: 0xc0d5c
-   __TEXT.__auth_stubs: 0x2b50
-   __TEXT.__objc_methlist: 0x6064
-
-   __DATA_CONST.__objc_superrefs: 0x138
-   __DATA_CONST.__objc_arraydata: 0x70
-   __AUTH_CONST.__auth_got: 0x15b8
--  __AUTH_CONST.__auth_ptr: 0xb50
-+  __AUTH_CONST.__auth_ptr: 0xba0
-   __AUTH_CONST.__const: 0x2d80
-   __AUTH_CONST.__cfstring: 0xc40
-   __AUTH_CONST.__objc_const: 0xac70
-
-```
-
-#### UserNotificationsKit
-
->  `/System/Library/PrivateFrameworks/UserNotificationsKit.framework/UserNotificationsKit`
-
-```diff
-
--941.5.3.106.0
-+941.5.3.107.0
-   __TEXT.__text: 0x58c38
-   __TEXT.__auth_stubs: 0x1bb0
-   __TEXT.__objc_methlist: 0x2c0c
-
-   __DATA_CONST.__objc_protorefs: 0x38
-   __DATA_CONST.__objc_superrefs: 0x98
-   __AUTH_CONST.__auth_got: 0xde8
--  __AUTH_CONST.__auth_ptr: 0x5c0
-+  __AUTH_CONST.__auth_ptr: 0x5c8
-   __AUTH_CONST.__const: 0x1a20
-   __AUTH_CONST.__cfstring: 0x18e0
-   __AUTH_CONST.__objc_const: 0x53d0
-
-```
-
-#### UserNotificationsUIKit
-
->  `/System/Library/PrivateFrameworks/UserNotificationsUIKit.framework/UserNotificationsUIKit`
-
-```diff
-
--941.5.3.106.0
-+941.5.3.107.0
-   __TEXT.__text: 0x19c080
-   __TEXT.__auth_stubs: 0x24f0
-   __TEXT.__objc_methlist: 0x196a4
-
-   __DATA_CONST.__objc_superrefs: 0x550
-   __DATA_CONST.__objc_arraydata: 0x158
-   __AUTH_CONST.__auth_got: 0x1288
--  __AUTH_CONST.__auth_ptr: 0x798
-+  __AUTH_CONST.__auth_ptr: 0x740
-   __AUTH_CONST.__const: 0x5168
-   __AUTH_CONST.__cfstring: 0x7d00
-   __AUTH_CONST.__objc_const: 0x24738
-Symbols:
-+ _objc_msgSend$addAttributes:range:
-- _objc_msgSend$setAttributes:range:
-CStrings:
-+ "addAttributes:range:"
-- "setAttributes:range:"
 
 ```
 
@@ -651,27 +624,29 @@ CStrings:
    __TEXT.__objc_methlist: 0x6e94
    __TEXT.__const: 0x1ac
 
-```
-
-#### WiFiKitUI
-
->  `/System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI`
-
-```diff
-
-   __DATA_CONST.__objc_superrefs: 0x198
-   __DATA_CONST.__objc_arraydata: 0x150
-   __AUTH_CONST.__auth_got: 0xc98
--  __AUTH_CONST.__auth_ptr: 0x708
-+  __AUTH_CONST.__auth_ptr: 0x750
-   __AUTH_CONST.__const: 0x1c40
-   __AUTH_CONST.__cfstring: 0x67e0
-   __AUTH_CONST.__objc_const: 0x13330
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6D7309F5-E55C-35B1-8328-8249AF818FDC
++  UUID: 594CC431-7F49-3E95-90EA-9C1822C52506
+   Functions: 2713
+   Symbols:   9992
+   CStrings:  6389
+Functions:
+~ +[NSURL(WLKAdditions) wlk_URLWithServerConfig:endpoint:relativeToBaseURL:queryParameters:suppressParameterEncoding:] : 748 -> 708
 
 ```
 
 
 </details>
+
+## Files
+
+### 🆕 New
+
+#### AppOS (1)
+
+- `/.fseventsd/fseventsd-uuid`
 
 ## Feature Flags
 
