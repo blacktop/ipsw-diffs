@@ -1,0 +1,1312 @@
+## amsaccountsd
+
+> `/System/Library/PrivateFrameworks/AppleMediaServices.framework/amsaccountsd`
+
+```diff
+
+-8.5.11.0.0
+-  __TEXT.__text: 0x1844d0
+-  __TEXT.__auth_stubs: 0x29e0
+-  __TEXT.__objc_stubs: 0x98c0
+-  __TEXT.__objc_methlist: 0x521c
+-  __TEXT.__const: 0x12d60
+-  __TEXT.__objc_classname: 0xe29
+-  __TEXT.__objc_methname: 0xe5c4
+-  __TEXT.__oslogstring: 0xa4fe
+-  __TEXT.__objc_methtype: 0x400d
+-  __TEXT.__cstring: 0x8dcf
+-  __TEXT.__gcc_except_tab: 0xe98
++9.0.54.2.1
++  __TEXT.__text: 0x1f665c
++  __TEXT.__auth_stubs: 0x3be0
++  __TEXT.__objc_stubs: 0x97c0
++  __TEXT.__objc_methlist: 0x53bc
++  __TEXT.__const: 0x1b792
++  __TEXT.__cstring: 0xa94c
++  __TEXT.__objc_classname: 0xe6d
++  __TEXT.__objc_methname: 0xe872
++  __TEXT.__objc_methtype: 0x41d8
++  __TEXT.__oslogstring: 0xb998
++  __TEXT.__gcc_except_tab: 0xe30
+   __TEXT.__dlopen_cstrs: 0x34d
+-  __TEXT.__swift5_typeref: 0x3ac7
+-  __TEXT.__constg_swiftt: 0x3554
+-  __TEXT.__swift5_reflstr: 0x2c00
+-  __TEXT.__swift5_fieldmd: 0x4b04
+-  __TEXT.__swift5_capture: 0x638
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x540
+-  __TEXT.__swift5_proto: 0x1044
+-  __TEXT.__swift5_types: 0x4b0
+-  __TEXT.__swift_as_entry: 0x1b8
+-  __TEXT.__swift_as_ret: 0x25c
+-  __TEXT.__swift5_protos: 0x7c
+-  __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x6430
+-  __TEXT.__eh_frame: 0xb650
+-  __DATA_CONST.__auth_got: 0x1500
+-  __DATA_CONST.__got: 0xcf8
+-  __DATA_CONST.__auth_ptr: 0xc08
+-  __DATA_CONST.__const: 0xcdb0
+-  __DATA_CONST.__cfstring: 0x4120
+-  __DATA_CONST.__objc_classlist: 0x2e8
++  __TEXT.__swift5_typeref: 0x66b6
++  __TEXT.__constg_swiftt: 0x4ecc
++  __TEXT.__swift5_fieldmd: 0x625c
++  __TEXT.__swift5_capture: 0x938
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_reflstr: 0x439c
++  __TEXT.__swift5_assocty: 0x8f8
++  __TEXT.__swift5_proto: 0x16ac
++  __TEXT.__swift5_types: 0x678
++  __TEXT.__swift_as_entry: 0x1ec
++  __TEXT.__swift_as_ret: 0x27c
++  __TEXT.__swift5_protos: 0xa0
++  __TEXT.__swift5_mpenum: 0x60
++  __TEXT.__swift5_types2: 0x8
++  __TEXT.__unwind_info: 0x8298
++  __TEXT.__eh_frame: 0xecc8
++  __DATA_CONST.__auth_got: 0x1e00
++  __DATA_CONST.__got: 0x1208
++  __DATA_CONST.__auth_ptr: 0xce0
++  __DATA_CONST.__const: 0x11e18
++  __DATA_CONST.__cfstring: 0x3fc0
++  __DATA_CONST.__objc_classlist: 0x340
+   __DATA_CONST.__objc_catlist: 0x90
+-  __DATA_CONST.__objc_protolist: 0x240
++  __DATA_CONST.__objc_protolist: 0x268
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_protorefs: 0x68
+   __DATA_CONST.__objc_superrefs: 0x190
+   __DATA_CONST.__objc_intobj: 0x90
+-  __DATA.__objc_const: 0x9e60
+-  __DATA.__objc_selrefs: 0x3760
++  __DATA.__objc_const: 0xad68
++  __DATA.__objc_selrefs: 0x37b8
+   __DATA.__objc_ivar: 0x338
+-  __DATA.__objc_data: 0x1dc8
+-  __DATA.__data: 0x73c8
+-  __DATA.__bss: 0x1fe38
+-  __DATA.__common: 0x1a8
++  __DATA.__objc_data: 0x2298
++  __DATA.__data: 0xa0a8
++  __DATA.__bss: 0x2cc70
++  __DATA.__common: 0x188
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/Frameworks/SwiftData.framework/SwiftData
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 04D123B8-FA63-338D-80E0-F9919AA88CEE
+-  Functions: 9752
+-  Symbols:   1332
+-  CStrings:  4964
++  UUID: 344BB25B-15CF-3E25-BA4F-5743AE3A035C
++  Functions: 12826
++  Symbols:   1852
++  CStrings:  5241
+ 
+Symbols:
++ _$s10Foundation13CustomNSErrorMp
++ _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
++ _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
++ _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
++ _$s10Foundation13CustomNSErrorPAAE11errorDomainSSvgZ
++ _$s10Foundation13CustomNSErrorPAAE9errorCodeSivg
++ _$s10Foundation13CustomNSErrorPs5ErrorTb
++ _$s10Foundation14LocalizedErrorMp
++ _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
++ _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
++ _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
++ _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
++ _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE16errorDescriptionSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
++ _$s10Foundation14LocalizedErrorPs0C0Tb
++ _$s10Foundation14SortDescriptorVMn
++ _$s10Foundation14SortDescriptorV_5orderACyxGs7KeyPathCyxqd__G_AA0B5OrderOtcSLRd__lufC
++ _$s10Foundation18_ErrorCodeProtocolMp
++ _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
++ _$s10Foundation18_ErrorCodeProtocolPSQTb
++ _$s10Foundation20PredicateExpressionsO10ComparisonVMn
++ _$s10Foundation20PredicateExpressionsO10ComparisonVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO10ComparisonVy_xq_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO10NilLiteralVMn
++ _$s10Foundation20PredicateExpressionsO10NilLiteralVy_xGAA08StandardB10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO10NilLiteralVy_xGAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO11ConjunctionVMn
++ _$s10Foundation20PredicateExpressionsO11ConjunctionVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO11ConjunctionVy_xq_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO11NilCoalesceVMn
++ _$s10Foundation20PredicateExpressionsO11NilCoalesceVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO11build_Equal3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ
++ _$s10Foundation20PredicateExpressionsO13build_KeyPath4root03keyF0AC0eF0Vy_xq_Gx_sAGCy6OutputQzq_GtAA0B10ExpressionRzr0_lFZ
++ _$s10Foundation20PredicateExpressionsO13build_flatMapyAC012OptionalFlatF0Vy_xq0_q_q1_Gx_q_AC8VariableVy_q0_GXEtAA0B10ExpressionRzAaKR_6OutputQy_Rs1_q0_SgALRtzr2_lFZ
++ _$s10Foundation20PredicateExpressionsO14build_NotEqual3lhs3rhsAC0eF0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ
++ _$s10Foundation20PredicateExpressionsO15OptionalFlatMapVMn
++ _$s10Foundation20PredicateExpressionsO15OptionalFlatMapVy_xq_q0_q1_GAA08StandardB10ExpressionA2aGRzAaGR0_rlMc
++ _$s10Foundation20PredicateExpressionsO15OptionalFlatMapVy_xq_q0_q1_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO16build_Comparison3lhs3rhs2opAC0E0Vy_xq_Gx_q_AC0E8OperatorOtAA0B10ExpressionRzAaMR_SL6OutputRpzANQy_AORSr0_lFZ
++ _$s10Foundation20PredicateExpressionsO16build_NilLiteralAC0eF0Vy_xGylFZ
++ _$s10Foundation20PredicateExpressionsO17build_Conjunction3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_Sb6OutputRtzSbAKRt_r0_lFZ
++ _$s10Foundation20PredicateExpressionsO17build_NilCoalesce3lhs3rhsAC0eF0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_6OutputQy_SgAKRtzr0_lFZ
++ _$s10Foundation20PredicateExpressionsO18ComparisonOperatorO11greaterThanyA2EmFWC
++ _$s10Foundation20PredicateExpressionsO18ComparisonOperatorO8lessThanyA2EmFWC
++ _$s10Foundation20PredicateExpressionsO18ComparisonOperatorOMa
++ _$s10Foundation20PredicateExpressionsO5EqualVMn
++ _$s10Foundation20PredicateExpressionsO5EqualVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO5EqualVy_xq_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO5ValueVMn
++ _$s10Foundation20PredicateExpressionsO5ValueVy_xGAA08StandardB10ExpressionAASeRzSERzlMc
++ _$s10Foundation20PredicateExpressionsO5ValueVy_xGAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO7KeyPathVMn
++ _$s10Foundation20PredicateExpressionsO7KeyPathVy_xq_GAA08StandardB10ExpressionA2aGRzrlMc
++ _$s10Foundation20PredicateExpressionsO7KeyPathVy_xq_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO8NotEqualVMn
++ _$s10Foundation20PredicateExpressionsO8NotEqualVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO8VariableVMn
++ _$s10Foundation20PredicateExpressionsO8VariableVy_xGAA08StandardB10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO8VariableVy_xGAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO9build_ArgyAC5ValueVy_xGxlFZ
++ _$s10Foundation20PredicateExpressionsO9build_ArgyxxAA0B10ExpressionRzlFZ
++ _$s10Foundation21_BridgedStoredNSErrorMp
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
++ _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
++ _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
++ _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
++ _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4code4CodeQzvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
++ _$s10Foundation21_BridgedStoredNSErrorPSHTb
++ _$s10Foundation26_ObjectiveCBridgeableErrorMp
++ _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
++ _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
++ _$s10Foundation3URLV06isFileB0Sbvg
++ _$s10Foundation3URLV13DirectoryHintO03notC0yA2EmFWC
++ _$s10Foundation3URLV19appendPathExtensionyySSF
++ _$s10Foundation3URLV22appendingPathComponentyACSSF
++ _$s10Foundation3URLV6append4path13directoryHintyx_AC09DirectoryF0OtSyRzlF
++ _$s10Foundation4DataV2eeoiySbAC_ACtFZ
++ _$s10Foundation4DataV8CloudKit21CKRecordValueProtocolADWP
++ _$s10Foundation4DataVAA15ContiguousBytesAAWP
++ _$s10Foundation4DataVN
++ _$s10Foundation4DataVSEAAMc
++ _$s10Foundation4DataVSeAAMc
++ _$s10Foundation4DateV11descriptionSSvg
++ _$s10Foundation4DateV1soiyA2C_SdtFZ
++ _$s10Foundation4DateV8CloudKit21CKRecordValueProtocolADWP
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVs23CustomStringConvertibleAAMc
++ _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
++ _$s10Foundation4UUIDV10uuidStringSSvpMV
++ _$s10Foundation4UUIDV2eeoiySbAC_ACtFZ
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSEAAMc
++ _$s10Foundation4UUIDVSLAAMc
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation4UUIDVSeAAMc
++ _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
++ _$s10Foundation9PredicateVMa
++ _$s10Foundation9PredicateVMn
++ _$s10Foundation9PredicateVyACyxxQp_QPGAA08StandardB10Expression_pSb6OutputAA0bD0PRts_XPAA0B11ExpressionsO8VariableVy_xGxQpXEcfC
++ _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
++ _$s11Observation0A9RegistrarV12withMutation2of7keyPath_q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
++ _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarVACycfC
++ _$s11Observation0A9RegistrarVMa
++ _$s11Observation0A9RegistrarVMn
++ _$s11Observation10ObservableMp
++ _$s15OnDeviceStorage10ConnectionC5closeyyYaAA0abC5ErrorOYKF
++ _$s15OnDeviceStorage10ConnectionC5closeyyYaAA0abC5ErrorOYKFTu
++ _$s18AppleMediaServices13LiveFileStoreVAA0eF0AAWP
++ _$s18AppleMediaServices13LiveFileStoreVACycfC
++ _$s18AppleMediaServices13LiveFileStoreVMa
++ _$s18AppleMediaServices14FileStoreErrorO37fileIsLockedAwaitingFirstDeviceUnlockyAC10Foundation3URLV_SitcACmFWC
++ _$s18AppleMediaServices14FileStoreErrorO37fileIsLockedAwaitingFirstDeviceUnlockyAC10Foundation3URLV_SitcACmFfA0_
++ _$s18AppleMediaServices14FileStoreErrorOMa
++ _$s18AppleMediaServices14FileStoreErrorOs0F0AAMc
++ _$s18AppleMediaServices18AMSCompatibleErrorMp
++ _$s18AppleMediaServices18AMSCompatibleErrorP10Foundation09LocalizedE0Tb
++ _$s18AppleMediaServices18AMSCompatibleErrorP10Foundation13CustomNSErrorTb
++ _$s18AppleMediaServices18AMSCompatibleErrorPAAE13errorUserInfoSDySSypGvg
++ _$s18AppleMediaServices18AMSCompatibleErrorPAAE9errorCodeSivg
++ _$s18AppleMediaServices18AMSCompatibleErrorPSQTb
++ _$s18AppleMediaServices20AssetsJetpackFetcherC013fetchAndCacheE04withySo6AMSBagC_tYaKF
++ _$s18AppleMediaServices20AssetsJetpackFetcherC013fetchAndCacheE04withySo6AMSBagC_tYaKFTu
++ _$s18AppleMediaServices20AssetsJetpackFetcherC6sharedACvgZ
++ _$s18AppleMediaServices20AssetsJetpackFetcherCMa
++ _$s18AppleMediaServices20AutoBugCaptureReportC19sendSnapshotFromXPC9signature5delay6events7payload7actionsSDys11AnyHashableVypGAL_SdSayALGSgALSgAOtYaAA0defG5ErrorOYKFZ
++ _$s18AppleMediaServices20AutoBugCaptureReportC19sendSnapshotFromXPC9signature5delay6events7payload7actionsSDys11AnyHashableVypGAL_SdSayALGSgALSgAOtYaAA0defG5ErrorOYKFZTu
++ _$s18AppleMediaServices20AutoBugCaptureReportCMa
++ _$s18AppleMediaServices23FileStoreProtectionTypeO36completeUntilFirstUserAuthenticationyA2CmFWC
++ _$s18AppleMediaServices23FileStoreProtectionTypeOMa
++ _$s18AppleMediaServices25AutoBugCaptureReportErrorON
++ _$s18AppleMediaServices25AutoBugCaptureReportErrorOs0H0AAMc
++ _$s18AppleMediaServices31AuthenticationViewServiceActionO020verifyDevicePasscodeG0yA2CmFWC
++ _$s18AppleMediaServices31AuthenticationViewServiceActionO15clientInterfaceSo14NSXPCInterfaceCyF
++ _$s18AppleMediaServices31AuthenticationViewServiceActionO15remoteInterfaceSo14NSXPCInterfaceCyF
++ _$s18AppleMediaServices31AuthenticationViewServiceActionO8rawValueSivg
++ _$s18AppleMediaServices31AuthenticationViewServiceActionOMa
++ _$s18AppleMediaServices31AuthenticationViewServiceActionOMn
++ _$s18AppleMediaServices31DeveloperSilentAuthTokenManagerV05fetchG011cachePolicyAA0defG14ResultProtocol_pSo012AMSDeveloperefg5CacheK0V_tYaKF
++ _$s18AppleMediaServices31DeveloperSilentAuthTokenManagerV05fetchG011cachePolicyAA0defG14ResultProtocol_pSo012AMSDeveloperefg5CacheK0V_tYaKFTu
++ _$s18AppleMediaServices31DeveloperSilentAuthTokenManagerV8bundleId7account9mediaType3bagACyxGSS_So9ACAccountCSgSo010AMSAccountbM0aSgAA11SendableBagCSgtcfC
++ _$s18AppleMediaServices31DeveloperSilentAuthTokenManagerVMn
++ _$s18AppleMediaServices3LogV12amsSubsystemSSvgZ
++ _$s18AppleMediaServices3LogV8accountsACvgZ
++ _$s18AppleMediaServices9FileStoreMp
++ _$s18AppleMediaServices9FileStoreP06createD02at8contents14protectionTypey10Foundation3URLV_AH4DataVAA0de10ProtectionJ0OtKFTj
++ _$s18AppleMediaServices9FileStoreP10removeItem2aty10Foundation3URLV_tKFTj
++ _$s18AppleMediaServices9FileStoreP12createFolder2at0F19IntermediateFoldersy10Foundation3URLV_SbtKFTj
++ _$s18AppleMediaServices9FileStoreP8contents2at10Foundation4DataVAF3URLV_tKFTj
++ _$s2IDs12IdentifiablePTl
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
++ _$s2os6LoggerVMa
++ _$s2os6LoggerVMn
++ _$s3XPC10XPCSessionC14setTargetQueueyySo17OS_dispatch_queueCFTj
++ _$s3XPC11XPCListenerC21InitializationOptionsV4noneAEvgZ
++ _$s3XPC11XPCListenerC21InitializationOptionsVMa
++ _$s3XPC11XPCListenerC22IncomingSessionRequestC20withUnsafeAuditTokenyxxSo13audit_token_taKXEKlF
++ _$s3XPC11XPCListenerC22IncomingSessionRequestC6acceptyAE8DecisionVxAA10XPCSessionCXEAA14XPCPeerHandlerRzAA18XPCReceivedMessageV5InputRtzSE_p6OutputRtzlFTj
++ _$s3XPC11XPCListenerC22IncomingSessionRequestC6reject6reasonAE8DecisionVSS_tFTj
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCMn
++ _$s3XPC11XPCListenerC7service11targetQueue7options22incomingSessionHandlerACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVAC08IncomingH7RequestC8DecisionVANctKcfc
++ _$s3XPC11XPCListenerCMa
++ _$s3XPC12XPCRichErrorVMa
++ _$s3XPC12XPCRichErrorVs0C0AAMc
++ _$s3XPC14XPCPeerHandlerMp
++ _$s3XPC14XPCPeerHandlerP18handleCancellation5erroryAA12XPCRichErrorV_tFTq
++ _$s3XPC14XPCPeerHandlerP21handleIncomingRequesty6OutputQzSg5InputQzFTq
++ _$s3XPC18XPCReceivedMessageV6decode2asxxm_tKSeRzlF
++ _$s3XPC18XPCReceivedMessageVMn
++ _$s4Code10Foundation21_BridgedStoredNSErrorPTl
++ _$s4Root9SwiftData15PersistentModelPTl
++ _$s5IndexSlTl
++ _$s5Input3XPC14XPCPeerHandlerPTl
++ _$s6Output3XPC14XPCPeerHandlerPTl
++ _$s7ElementSTTl
++ _$s8CloudKit12CKSyncEngineC12fetchChangesyyAC05FetchF7OptionsVYaKF
++ _$s8CloudKit12CKSyncEngineC12fetchChangesyyAC05FetchF7OptionsVYaKFTu
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV17automaticallySyncSbvs
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV18apsMachServiceNameSSSgvs
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV8database18stateSerialization8delegateAESo10CKDatabaseC_AC5StateC0H0VSgAA0cD8Delegate_ptcfC
++ _$s8CloudKit12CKSyncEngineC13ConfigurationVMa
++ _$s8CloudKit12CKSyncEngineC18SendChangesContextV7optionsAC0eF7OptionsVvg
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5ScopeO8containsySbAC23PendingRecordZoneChangeOF
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5ScopeOMa
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5scopeAE5ScopeOvg
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsVMa
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV17ZoneConfigurationV06shouldE13AssetContents12resultsLimitAGSb_SitcfC
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV17ZoneConfigurationVMa
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV17ZoneConfigurationVMn
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV18zoneConfigurationsSDySo14CKRecordZoneIDCAE0K13ConfigurationVGvs
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV5ScopeO7zoneIDsyAGSaySo14CKRecordZoneIDCGcAGmFWC
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV5ScopeOMa
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV5scope14operationGroupA2E5ScopeO_So011CKOperationJ0CSgtcfC
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsVMa
++ _$s8CloudKit12CKSyncEngineC21PendingDatabaseChangeO10deleteZoneyAESo08CKRecordI2IDCcAEmFWC
++ _$s8CloudKit12CKSyncEngineC21PendingDatabaseChangeO8saveZoneyAESo08CKRecordI0CcAEmFWC
++ _$s8CloudKit12CKSyncEngineC21PendingDatabaseChangeOMa
++ _$s8CloudKit12CKSyncEngineC21PendingDatabaseChangeOMn
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV08atomicByF0Sbvs
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV13recordsToSaveSaySo8CKRecordCGvM
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV14pendingChanges011synchronousE8ProviderAESgSayAC07PendingefG0OG_So8CKRecordCSgSo0N2IDCYbXEtcfC
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchVMa
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchVMn
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeO04saveF0yAESo10CKRecordIDCcAEmFWC
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeO06deleteF0yAESo10CKRecordIDCcAEmFWC
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeOMa
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeOMn
++ _$s8CloudKit12CKSyncEngineC5EventO11StateUpdateV18stateSerializationAC0F0C0I0Vvg
++ _$s8CloudKit12CKSyncEngineC5EventO11StateUpdateVMa
++ _$s8CloudKit12CKSyncEngineC5EventO11StateUpdateVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO11stateUpdateyA2E05StateG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO12fetchedAssetyA2E07FetchedG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO14switchAccountsyAISo10CKRecordIDC_ALtcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO6signInyAISo10CKRecordIDC_tcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO7signOutyAISo10CKRecordIDC_tcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeOMa
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV10changeTypeAG0gI0Ovg
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeVMa
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO13accountChangeyA2E07AccountG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13didFetchAssetyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO14DidSendChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO14DidSendChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO14didSendChangesyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO14willFetchAssetyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO15DidFetchChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO15DidFetchChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO15WillSendChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO15WillSendChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO15didFetchChangesyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO15willSendChangesyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO16WillFetchChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO16WillFetchChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO16willFetchChangesyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesV14FailedZoneSaveV4zoneSo08CKRecordJ0Cvg
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesV14FailedZoneSaveV5errorSC11CKErrorCodeLeVvg
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesV14FailedZoneSaveVMa
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesV15failedZoneSavesSayAG06FailedJ4SaveVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesV17failedZoneDeletesSDySo08CKRecordJ2IDCSC11CKErrorCodeLeVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO19SentDatabaseChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO19sentDatabaseChangesyA2E04SentgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveV5errorSC11CKErrorCodeLeVvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveV6recordSo8CKRecordCvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveVMa
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06failedG5SavesSayAG06FailedG4SaveVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06failedG7DeletesSDySo10CKRecordIDCSC11CKErrorCodeLeVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV07deletedG3IDsSaySo10CKRecordIDCGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV12savedRecordsSaySo8CKRecordCGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO21sentRecordZoneChangesyA2E04SentghI0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesV9deletionsSaySo10CKDatabaseCAAE0G6ChangeO8DeletionVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO22fetchedDatabaseChangesyA2E07FetchedgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesV13modificationsSaySo10CKDatabaseCAAE0gH6ChangeO12ModificationVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesV27zoneAttributesModificationsSaySo10CKDatabaseCAAE0gH6ChangeO0hK12ModificationVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesV9deletionsSaySo10CKDatabaseCAAE0gH6ChangeO8DeletionVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO24fetchedRecordZoneChangesyA2E07FetchedghI0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO25DidFetchRecordZoneChangesV5errorSC11CKErrorCodeLeVSgvg
++ _$s8CloudKit12CKSyncEngineC5EventO25DidFetchRecordZoneChangesV6zoneIDSo08CKRecordiL0Cvg
++ _$s8CloudKit12CKSyncEngineC5EventO25DidFetchRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO25DidFetchRecordZoneChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO25didFetchRecordZoneChangesyA2E03DidghiJ0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO26WillFetchRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO26WillFetchRecordZoneChangesVs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5EventO26willFetchRecordZoneChangesyA2E04WillghiJ0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventOMa
++ _$s8CloudKit12CKSyncEngineC5EventOs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVMa
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVMn
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVSEAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVSeAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC24pendingRecordZoneChangesSayAC07PendinggH6ChangeOGvg
++ _$s8CloudKit12CKSyncEngineC5StateC3add22pendingDatabaseChangesySayAC07PendingH6ChangeOG_tF
++ _$s8CloudKit12CKSyncEngineC5StateC3add24pendingRecordZoneChangesySayAC07PendinghI6ChangeOG_tF
++ _$s8CloudKit12CKSyncEngineC5StateC6remove24pendingRecordZoneChangesySayAC07PendinghI6ChangeOG_tF
++ _$s8CloudKit12CKSyncEngineC5stateAC5StateCvg
++ _$s8CloudKit12CKSyncEngineCMa
++ _$s8CloudKit12CKSyncEngineCMn
++ _$s8CloudKit12CKSyncEngineCyA2C13ConfigurationVcfc
++ _$s8CloudKit20CKSyncEngineDelegateMp
++ _$s8CloudKit20CKSyncEngineDelegateP11handleEvent_04syncD0yAA0cD0C0G0O_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP18shouldFetchChanges6zoneID04syncD0SbSo012CKRecordZoneJ0C_AA0cD0CtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP23nextFetchChangesOptions_04syncD0AA0cD0C0ghI0VAG0gH7ContextV_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP25nextRecordZoneChangeBatch_04syncD0AA0cD0C0ghiJ0VSgAG18SendChangesContextV_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegatePAAE18shouldFetchChanges6zoneID04syncD0SbSo012CKRecordZoneJ0C_AA0cD0CtYaF
++ _$s8CloudKit20CKSyncEngineDelegatePAAE18shouldFetchChanges6zoneID04syncD0SbSo012CKRecordZoneJ0C_AA0cD0CtYaFTu
++ _$s8CloudKit20CKSyncEngineDelegatePAAE35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaF
++ _$s8CloudKit20CKSyncEngineDelegatePAAE35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaFTu
++ _$s8CloudKit21CKRecordValueProtocolMp
++ _$s8IteratorSTTl
++ _$s9CryptoKit13SecureEnclaveO11isAvailableSbvgZ
++ _$s9CryptoKit13SecureEnclaveO4P384O7SigningO10PrivateKeyV18dataRepresentation10Foundation4DataVvg
++ _$s9CryptoKit13SecureEnclaveO4P384O7SigningO10PrivateKeyV18dataRepresentation21authenticationContextAI10Foundation4DataV_So9LAContextCSgtKcfC
++ _$s9CryptoKit13SecureEnclaveO4P384O7SigningO10PrivateKeyV20compactRepresentable13accessControl21authenticationContextAISb_So09SecAccessL3RefaSo9LAContextCSgtKcfC
++ _$s9CryptoKit13SecureEnclaveO4P384O7SigningO10PrivateKeyVMa
++ _$s9CryptoKit13SecureEnclaveO4P384O7SigningO10PrivateKeyVMn
++ _$s9CryptoKit4P384O7SigningO10PrivateKeyV17rawRepresentation10Foundation4DataVvg
++ _$s9CryptoKit4P384O7SigningO10PrivateKeyV17rawRepresentationAGx_tKc10Foundation15ContiguousBytesRzlufC
++ _$s9CryptoKit4P384O7SigningO10PrivateKeyV20compactRepresentableAGSb_tcfC
++ _$s9CryptoKit4P384O7SigningO10PrivateKeyVMa
++ _$s9CryptoKit4P384O7SigningO10PrivateKeyVMn
++ _$s9SwiftData07BackingB0Mp
++ _$s9SwiftData07BackingB0P8setValue6forKey2toys0G4PathCy5ModelQzqd__G_qd__tSERd__lFTj
++ _$s9SwiftData12ModelContextC10fetchCountySiAA15FetchDescriptorVyxGKAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextC11transaction5blockyyyKXE_tKFTj
++ _$s9SwiftData12ModelContextC13deleteHistoryyyAA0F10DescriptorVyxGKAA0F11TransactionRzlFTj
++ _$s9SwiftData12ModelContextC19insertedModelsArraySayAA010PersistentC0_pGvgTj
++ _$s9SwiftData12ModelContextC5fetchySayxGAA15FetchDescriptorVyxGKAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextC6delete5model5where17includeSubclassesyxm_10Foundation9PredicateVyx_QPGSgSbtKAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextC6deleteyyxAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextC6insertyyxAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextC9enumerate_9batchSize22allowEscapingMutations5blockyAA15FetchDescriptorVyxG_SiSbyxKXEtKAA010PersistentC0RzlFTj
++ _$s9SwiftData12ModelContextCMa
++ _$s9SwiftData12ModelContextCMn
++ _$s9SwiftData12ModelContextCyAcA0C9ContainerCcfc
++ _$s9SwiftData14MigrationStageO11lightweightyAcA15VersionedSchema_pXp_AaE_pXptcACmFWC
++ _$s9SwiftData14MigrationStageOMa
++ _$s9SwiftData14MigrationStageOMn
++ _$s9SwiftData14ModelContainerC3for13migrationPlan14configurationsAcA6SchemaC_AA0i9MigrationG0_pXpSgAA0C13ConfigurationVdtKcfC
++ _$s9SwiftData14ModelContainerCMa
++ _$s9SwiftData15FetchDescriptorV012propertiesToC0Says14PartialKeyPathCyxGGvs
++ _$s9SwiftData15FetchDescriptorV10fetchLimitSiSgvs
++ _$s9SwiftData15FetchDescriptorV6sortBySay10Foundation04SortD0VyxGGvs
++ _$s9SwiftData15FetchDescriptorV9predicate6sortByACyxG10Foundation9PredicateVyx_QPGSg_SayAG04SortD0VyxGGtcfC
++ _$s9SwiftData15FetchDescriptorVMn
++ _$s9SwiftData15PersistentModelMp
++ _$s9SwiftData15PersistentModelP017persistentBackingB0AA0fB0_px0D0Rts_XPvMTq
++ _$s9SwiftData15PersistentModelP017persistentBackingB0AA0fB0_px0D0Rts_XPvgTq
++ _$s9SwiftData15PersistentModelP017persistentBackingB0AA0fB0_px0D0Rts_XPvsTq
++ _$s9SwiftData15PersistentModelP07backingB0xAA07BackingB0_px0D0Rts_XP_tcfCTq
++ _$s9SwiftData15PersistentModelP11Observation10ObservableTb
++ _$s9SwiftData15PersistentModelP14schemaMetadataSayAA6SchemaC08PropertyF0VGvgZTq
++ _$s9SwiftData15PersistentModelP4RootAC_AaBTn
++ _$s9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZ
++ _$s9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQOMQ
++ _$s9SwiftData15PersistentModelPAAE2eeoiySbx_xtFZ
++ _$s9SwiftData15PersistentModelPAAE2idAA0C10IdentifierVvg
++ _$s9SwiftData15PersistentModelPAAE4hash4intoys6HasherVz_tF
++ _$s9SwiftData15PersistentModelPAAE8getValue6forKeyqd__s0H4PathCyxqd__G_tSeRd__lF
++ _$s9SwiftData15PersistentModelPAAE8setValue6forKey2toys0H4PathCyxqd__G_qd__tSERd__lF
++ _$s9SwiftData15PersistentModelPSHTb
++ _$s9SwiftData15PersistentModelPs12IdentifiableTb
++ _$s9SwiftData15VersionedSchemaMp
++ _$s9SwiftData15VersionedSchemaP17versionIdentifierAA0D0C7VersionVvgZTq
++ _$s9SwiftData15VersionedSchemaP6modelsSayAA15PersistentModel_pXpGvgZTq
++ _$s9SwiftData17HistoryDescriptorV9predicateACyxG10Foundation9PredicateVyx_QPGSg_tcfC
++ _$s9SwiftData17HistoryDescriptorVMn
++ _$s9SwiftData18ModelConfigurationV14GroupContainerV4noneAEvgZ
++ _$s9SwiftData18ModelConfigurationV14GroupContainerVMa
++ _$s9SwiftData18ModelConfigurationV16CloudKitDatabaseV4noneAEvgZ
++ _$s9SwiftData18ModelConfigurationV16CloudKitDatabaseVMa
++ _$s9SwiftData18ModelConfigurationVMa
++ _$s9SwiftData18ModelConfigurationVMn
++ _$s9SwiftData18ModelConfigurationV_6schema20isStoredInMemoryOnly10allowsSave14groupContainer16cloudKitDatabaseACSSSg_AA6SchemaCSgS2bAC05GroupN0VAC05CloudpQ0VtcfC
++ _$s9SwiftData18ModelConfigurationV_6schema3url10allowsSave16cloudKitDatabaseACSSSg_AA6SchemaCSg10Foundation3URLVSbAC05CloudjK0VtcfC
++ _$s9SwiftData19SchemaMigrationPlanMp
++ _$s9SwiftData19SchemaMigrationPlanP6stagesSayAA0D5StageOGvgZTq
++ _$s9SwiftData19SchemaMigrationPlanP7schemasSayAA09VersionedC0_pXpGvgZTq
++ _$s9SwiftData20PersistentIdentifierVMa
++ _$s9SwiftData20PersistentIdentifierVMn
++ _$s9SwiftData20PersistentIdentifierVSHAAMc
++ _$s9SwiftData25DefaultHistoryTransactionVAA0dE0AAMc
++ _$s9SwiftData25DefaultHistoryTransactionVMa
++ _$s9SwiftData25DefaultHistoryTransactionVMn
++ _$s9SwiftData6SchemaC09versionedC0AcA09VersionedC0_pXp_tcfC
++ _$s9SwiftData6SchemaC15encodingVersionAC0E0Vvg
++ _$s9SwiftData6SchemaC15encodingVersionAC0E0VvpMV
++ _$s9SwiftData6SchemaC16PropertyMetadataV4name7keypath12defaultValue8metadataAESS_s10AnyKeyPathCypSgAA0cD0_pSgtcfC
++ _$s9SwiftData6SchemaC16PropertyMetadataVMa
++ _$s9SwiftData6SchemaC16PropertyMetadataVMn
++ _$s9SwiftData6SchemaC5IndexCMn
++ _$s9SwiftData6SchemaC5IndexCyAEy_xGSays14PartialKeyPathCyxGGd_tcfc
++ _$s9SwiftData6SchemaC5IndexCy_xGAA0C8PropertyAAMc
++ _$s9SwiftData6SchemaC6UniqueCMn
++ _$s9SwiftData6SchemaC6UniqueCyAEy_xGSays14PartialKeyPathCyxGGd_tcfc
++ _$s9SwiftData6SchemaC6UniqueCy_xGAA0C8PropertyAAMc
++ _$s9SwiftData6SchemaC7VersionVMn
++ _$s9SwiftData6SchemaC7VersionVyAESi_S2itcfC
++ _$s9SwiftData6SchemaC9AttributeCAA0C8PropertyAAMc
++ _$s9SwiftData6SchemaC9AttributeCMa
++ _$s9SwiftData6SchemaC9AttributeC_12originalName12hashModifierA2E6OptionVd_SSSgAJtcfc
++ _$s9SwiftData6SchemaCMa
++ _$s9SwiftData6SchemaCMn
++ _$sBi64_WV
++ _$sBi8_WV
++ _$sSD11descriptionSSvg
++ _$sSD20uniqueKeysWithValuesSDyxq_Gqd__n_tcSTRd__x_q_t7ElementRtd__lufC
++ _$sSD4KeysVMa
++ _$sSD4keysSD4KeysVyxq__Gvg
++ _$sSDyq_Sgxcig
++ _$sSL1goiySbx_xtFZTj
++ _$sSS10reflectingSSx_tclufC
++ _$sSS8CloudKit21CKRecordValueProtocolAAWP
++ _$sSSSQsWP
++ _$sST10FoundationE6filterySay7ElementQzGAA9PredicateVyAD_QPGKF
++ _$sST8IteratorST_StTn
++ _$sSTTL
++ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
++ _$sSTsE7forEachyyy7ElementQzKXEKF
++ _$sSY8rawValue03RawB0QzvgTj
++ _$sSYsSERzs5Int64V8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
++ _$sSYsSeRzs5Int64V8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
++ _$sSa11descriptionSSvg
++ _$sSa11descriptionSSvpMV
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSbSQsWP
++ _$sScAsE20preconditionIsolated_4file4lineySSyXK_s12StaticStringVSutF
++ _$sSd11descriptionSSvg
++ _$sSd5write2toyxz_ts16TextOutputStreamRzlF
++ _$sSh2eeoiySbShyxG_ABtFZ
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC
++ _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSis17FixedWidthIntegersMc
++ _$sSl10startIndex0B0QzvgTj
++ _$sSl5countSivgTj
++ _$sSl9formIndex5aftery0B0Qzz_tFTj
++ _$sSlTL
++ _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyF
++ _$sSlsE7isEmptySbvg
++ _$sSly7ElementQz5IndexQzcirTj
++ _$sSo10CFErrorRefas5Error10FoundationMc
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6zoneIDSo012CKRecordZoneH0Cvg
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionVMa
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionVs23CustomStringConvertibleACMc
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO0E22AttributesModificationVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationV6recordSo8CKRecordCvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV10recordTypeSSvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV8recordIDSo08CKRecordI0Cvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionVMa
++ _$sSo10CKRecordIDC8CloudKitE10recordName04zoneB0ABSS_So0a4ZoneB0CtcfC
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo14ACAccountStoreC18AppleMediaServices016AMSSharedAccountB8ProtocolACMc
++ _$sSo14ACAccountStoreC18AppleMediaServices07AccountB8ProtocolACMc
++ _$sSo14CKRecordZoneIDC8CloudKitE8zoneName05ownerG0ABSS_SStcfC
++ _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo23CKRecordKeyValueSettingP8CloudKitEyAC0aC8Protocol_pSgSScig
++ _$sSo23CKRecordKeyValueSettingP8CloudKitEyAC0aC8Protocol_pSgSScis
++ _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMa
++ _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMn
++ _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo24OS_dispatch_queue_serialC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
++ _$sSo33OS_dispatch_queue_serial_executorC8DispatchE23asUnownedSerialExecutorSceyF
++ _$sSo8CKRecordC8CloudKitE10recordType0D2IDABSS_So0aF0CtcfC
++ _$sSo8CKRecordC8CloudKitE10recordTypeSSvg
++ _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSt4next7ElementQzSgyFTj
++ _$ss10AnyKeyPathCSHsWP
++ _$ss10AnyKeyPathCSQsWP
++ _$ss10ArraySliceVMa
++ _$ss10ArraySliceVyAByxGqd__c7ElementQyd__RszSTRd__lufC
++ _$ss10ArraySliceVyxGSlsMc
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12CaseIterableP8allCases03AllD0QzvgZTj
++ _$ss12CaseIterableTL
++ _$ss12IdentifiableMp
++ _$ss12IdentifiableP2IDAB_SHTn
++ _$ss12IdentifiableP2id2IDQzvgTj
++ _$ss12IdentifiableP2id2IDQzvgTq
++ _$ss12StaticStringV11descriptionSSvg
++ _$ss14PartialKeyPathCMa
++ _$ss14PartialKeyPathCMn
++ _$ss15ContiguousArrayV15reserveCapacityyySiF
++ _$ss15ContiguousArrayV6appendyyxnF
++ _$ss15ContiguousArrayVAByxGycfC
++ _$ss15ContiguousArrayVMa
++ _$ss17CustomReflectableMp
++ _$ss17CustomReflectableP12customMirrors0D0VvgTq
++ _$ss22KeyedDecodingContainerVMa
++ _$ss22KeyedEncodingContainerVMa
++ _$ss23_ContiguousArrayStorageCMa
++ _$ss24_getErrorEmbeddedNSErroryyXlSgxs0B0RzlF
++ _$ss26DefaultStringInterpolationV06appendC0yyxlF
++ _$ss26DefaultStringInterpolationV18AppleMediaServicesE06appendC08optionalyxSg_tlF
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
++ _$ss5Int64V8CloudKit21CKRecordValueProtocolACWP
++ _$ss5Int64VMn
++ _$ss5Int64Vs23CustomStringConvertiblesWP
++ _$ss5NeverOMn
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss6ResultOMa
++ _$ss6UInt64VSQsWP
++ _$ss7KeyPathCMn
++ _$ss7KeyPathCMo
++ _$sxSgSEsSERzlMc
++ _$sxSgSQsSQRzlMc
++ _$sxSgSesSeRzlMc
++ _$syycWV
++ _AMSODIServiceIdentifierAmpFreeBuy
++ _AMSPushActionTypeDSATCache
++ _CKCurrentUserDefaultName
++ _NSLocalizedFailureReasonErrorKey
++ _NSMultipleUnderlyingErrorsKey
++ _OBJC_CLASS_$_AMSAuthenticationViewServiceLauncher
++ _OBJC_CLASS_$_AMSBoolean
++ _OBJC_CLASS_$_OS_dispatch_queue_serial
++ _SecAccessControlCreateWithFlags
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateWithAuditToken
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_stdlib_bridgeErrorToNSError
++ _kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
++ _objc_retain_x6
++ _object_getClass
++ _swift_coroFrameAlloc
++ _swift_dynamicCastClass
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getAtKeyPath
++ _swift_getDynamicType
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getTupleTypeMetadata3
++ _swift_initStructMetadata
++ _swift_stdlib_random
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_willThrowTypedImpl
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- _$s10Foundation3URLV12relativePathSSvg
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DataV8advanced2byACSi_tF
+- _$s18AppleMediaServices12MetricsNeverVAA0D5QueueAAWP
+- _$s18AppleMediaServices12MetricsNeverVACycfC
+- _$s18AppleMediaServices12MetricsNeverVMa
+- _$s18AppleMediaServices13DeviceDetailsO23deviceUnlockedSinceBootSbSgyFZ
+- _$s18AppleMediaServices13DeviceDetailsOMn
+- _$s18AppleMediaServices8FlagKeysO17TSDataSyncMetricsyA2CmFWC
+- _$s18AppleMediaServices8FlagKeysO9isEnabledSbvg
+- _$s18AppleMediaServices8FlagKeysOMa
+- _$sSS5IndexVMn
+- _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
+- _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
+- _AMSStorageDatabaseDefaultDomain
+- _NSCocoaErrorDomain
+- _NSPOSIXErrorDomain
+- _OBJC_CLASS_$_AMSAccountDeviceInfoTask
+- _OBJC_CLASS_$_AMSStorageDatabase
+- _OBJC_CLASS_$_BSAction
+- _OBJC_CLASS_$_BSActionResponder
+- _OBJC_CLASS_$_BSMutableSettings
+- _OBJC_CLASS_$_SBSRemoteAlertConfigurationContext
+- _OBJC_CLASS_$_SBSRemoteAlertDefinition
+- _OBJC_CLASS_$_SBSRemoteAlertHandle
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ " deviceKeypairResult="
++ " earliestHistoryDate="
++ " errorCode "
++ " generationCounter="
++ " persistedIdentifierRecordID="
++ " personalizedKeypairQuery key="
++ " personalizedUserInitiatedRotation key="
++ " rotationConfigurationUpdate="
++ " rotationInterval="
++ " rotationReason="
++ " since auth failed"
++ " unpersonalizedKeypairQuery key="
++ " unpersonalizedUserInitiatedRotation key="
++ "%s: Attempting to reset all local sync state and re-send all sync-eligible persisted records to the cloud"
++ "%s: Failed to reset all sync state: %@"
++ "%{public}@ Scheduled assets Jetpack fetcher; error %{public}@"
++ "%{public}@: [%{public}@] Error running account data sync for accountID = %{public}@"
++ "%{public}@: [%{public}@] FDS evaluation failed with error: %{public}@"
++ "%{public}@: [%{public}@] Failed to get ODI assessment, no matching session for cache identifier: %@"
++ "%{public}@: [%{public}@] Invoking 'getODIAssessment' for cache identifier: %@, clearCache: %@"
++ "%{public}@: [%{public}@] Loud auth completed, run sign-in tasks for accountID = %{public}@"
++ "%{public}@: [%{public}@] No completion block, this is probably a programmer error"
++ "%{public}@: [%{public}@] ODI evaluation failed for cache identifier: %@, with error: %{public}@"
++ "%{public}@: [%{public}@] Performing post sign-in type %{public}@ tasks in amsaccountsd for: %{public}@"
++ "%{public}@: [%{public}@] Successful ODI evaluation for cache identifier: %@"
++ "%{public}@APS is connected: %{public}@"
++ "%{public}@APS reconnected."
++ "%{public}@Checking to see if we should perform push registration."
++ "%{public}@Created task: %{public}@"
++ "%{public}@Device name changed"
++ "%{public}@Either the token or environment is nil. token = %{public}@ | environment = %{public}@"
++ "%{public}@Failed to determine the push environment. Error: %{public}@"
++ "%{public}@Failed to establish connections. Error: %{public}@"
++ "%{public}@Failed to post push tokens after device name change. Error: %{public}@"
++ "%{public}@Failed to post push tokens. Error: %{public}@"
++ "%{public}@Failed to start APS connection. Error: %{public}@"
++ "%{public}@Forwarding message to class consumer of type %{public}@"
++ "%{public}@Forwarding message to instance consumer of type %{public}@"
++ "%{public}@Message not handled and dropped."
++ "%{public}@No accounts to register."
++ "%{public}@No active connection for this environment. Starting connection. environment = %{public}@"
++ "%{public}@Received bag-changed notification."
++ "%{public}@Received message on topic: %{public}@"
++ "%{public}@Received request to post push token if needed."
++ "%{public}@Received request to register all tokens."
++ "%{public}@Received request to register tokens if needed."
++ "%{public}@Received token: %{public}@"
++ "%{public}@Retry token update request biometrics state = %ld"
++ "%{public}@Starting APS connection. (environment: %{public}@; topics: %{public}@)"
++ "%{public}@Starting Service"
++ "%{public}@Starting push registration. account = %{public}@ | environment = %{public}@"
++ "%{public}@Task promise: %{public}@"
++ "%{public}@We should not perform push registration. Returning success."
++ "%{public}@We should perform push registration."
++ "), scheduledRotationJitterDelta="
++ ", accountKeypair="
++ ", deviceKeypairOnlyRotationInterval="
++ ", deviceKeypairResult="
++ ", generationCounter="
++ ", jitterConfiguration="
++ ", lastDeviceKeypairRotationDate="
++ ", lastModificationKind="
++ ", lastRotationDate="
++ ", lastSyncDownDate="
++ ", modificationKind="
++ ", previouslySynchronizedWithCloud="
++ ", rotationReason="
++ ", scheduledRotationConfiguration="
++ ", synchronizedLastRotationDate="
++ ", validityStartDate="
++ "<Key accountIdentifier="
++ "<NonSEP privateKey="
++ "<PIAccountKeypair privateKey="
++ "<PersistedIdentifierRecordID accountIdentifier="
++ "<SEP privateKey="
++ "@"
++ "@\"AMSBinaryPromise\"16@?0@\"NSError\"8"
++ "@\"AMSBinaryPromise\"24@?0@\"<_TtP18AppleMediaServices41VerifyDevicePasscodeActionRemoteInterface_>\"8@\"NSError\"16"
++ "@\"AMSBinaryPromise\"8@?0"
++ "@\"AMSPromise\"16@?0@\"AMSBoolean\"8"
++ "AMSAccountPostSignInServiceInterface"
++ "AMSAutoBugCaptureServiceInterface"
++ "AMSDAccountPostSignInService"
++ "AMSDAutoBugCaptureService"
++ "AMSDAutoBugCaptureServiceTrampoline"
++ "AMSDPrivateIdentifiersXPCServerCreator"
++ "AMSDPushParsableDSATCache"
++ "AMSError.Data.amsd_Errors"
++ "AMSError.HTTPHelpers"
++ "AMSError.String.amsd_Errors"
++ "AMSError.TSDataSyncConfigFileSystemStore"
++ "AMSError.TSDataSyncDatasetGroupAccessActor"
++ "AMSError.TSDataSyncDatasetGroupFileSystemStore"
++ "AMSError.TSDataSyncDeviceState"
++ "AMSError.TSDataSyncEventCore"
++ "AMSError.TSDataSyncEventCore.IdentifierError"
++ "AMSError.TSDataSyncNetworkingCore"
++ "AMSError.TSDataSyncServerDatasetRecord"
++ "AMSError.TSDataSyncService"
++ "Account change: %s"
++ "Account keypair from cloud update unexpectedly same as existing one."
++ "Attempting to delete any stale persisted history items."
++ "Attempting to delete any stale persisted records."
++ "Bag load failed: %@"
++ "Bag load succeeded, NOT creating sync engine"
++ "Bag load succeeded, creating sync engine"
++ "Caught error while handling CKSyncEngine.Event %s: %@"
++ "Clear auth failed state error:"
++ "Clearing auth failed for "
++ "Clearing auth failure for"
++ "Connecting to view service failed with error: "
++ "Detected uuid change after successfully sending CKRecord, uuid in synced down CKRecord is %s, uuid in existing persisted record is %s"
++ "Did fetch changes: %s"
++ "Did fetch record zone changes: %s"
++ "Did send changes: %s"
++ "Encountered an error updating token: "
++ "Encountered unexpected saved CKRecord %@ while handling sent record zone changes."
++ "Error during account sign-in:"
++ "Error while closing connection:"
++ "Existing record for UUID %s is not eligible for cloud sync when composing record zone change batch."
++ "Failed to check entitlement: "
++ "Failed to create RecordZoneChangeBatch: %@. Returning nil."
++ "Failed to create SyncDownIdentifierRecord instance from CKRecord %@: %@"
++ "Failed to decode incoming XPC message: %@"
++ "Failed to delete stale persisted history items: %@"
++ "Failed to delete stale persisted record with %s and identifier %s: %@"
++ "Failed to delete stale persisted records: %@"
++ "Failed to fetch and cache assets Jetpack: "
++ "Failed to fetch changes following a .serverRecordChanged or .batchRequestFailed error: %@"
++ "Failed to fetch changes for CKRecordZone with identifier %@: %@"
++ "Failed to find existing persisted record for CKRecord %@, persistedRecordID %s while handling sent record zone changes."
++ "Failed to generate device keypair: %@. Clearing device keypair data to try regenerating device keypair later."
++ "Failed to get URL for AMS caches directory"
++ "Failed to get count of existing persisted record with identifier %s: %@. Proceeding to allow insertion of a new record."
++ "Failed to initialize Private Identifiers XPC Server: %@"
++ "Failed to initialize account keypair from previously persisted raw data when accessing persisted history item: %@. Generating a new keypair."
++ "Failed to initialize account keypair from previously persisted raw data when accessing persisted identifier record: %@. Generating a new keypair."
++ "Failed to initialize device keypair from previously persisted raw data when accessing persisted history item: %@. Generating a new keypair."
++ "Failed to initialize device keypair from previously persisted raw data when accessing persisted identifier record: %@. Generating a new keypair."
++ "Failed to load jetpack fetch interval from bag; defaulting to interval "
++ "Failed to return existing record for recordID %@ when composing record zone change batch: %@. Returning nil CKRecord."
++ "Failed to send zone deletes: %s"
++ "Failed to send zone saves: %s"
++ "Fetched CKRecord deletions: %s"
++ "Fetched CKRecord modifications: %s"
++ "Fetched CKRecordZone attribute modifications: %s"
++ "Fetched database changes: %s"
++ "Fetched deletion of CKRecordZone %s, resetting local sync state and re-adding all sync-eligible persisted records"
++ "Fetched deletion of a singleton synchronization record, deleting its UUID and CKRecord system fields"
++ "Fetched deletion of an identifier record with CKRecordID %@, but there is already no persisted record for this uuid"
++ "Fetched deletion of an identifier record, but it's currently pending send. Skipping deletion."
++ "Fetched deletion of an unknown CKRecord with ID %@ and type %s, ignoring"
++ "Fetched record zone changes: %s"
++ "Handling .userDeletedZone error after fetching zone changes"
++ "Handling CKRecordZone deletion"
++ "Handling iCloud account signout"
++ "Handling identity loss"
++ "Handling identity loss by marking the CKRecordZone for deletion and re-sending all local sync-eligible persisted records"
++ "Handling incoming XPC request"
++ "Handling sent record zone changes"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Loading bag to determine if we need to create the sync engine"
++ "Me7YKKqFAKjegMFz:hostChallenge:challengeResponse:seid:nonce:HY6FXG20397zwmVg:"
++ "Missing entitlement"
++ "No staleness interval configured for deletions, so no stale persisted history items will be deleted."
++ "No staleness interval configured for deletions, so no stale persisted records will be deleted."
++ "Notification payload contained a DSID that did not match an account: "
++ "Notification payload missing bundleID"
++ "ODIServiceProviderIdAmpFreeBuy"
++ "Pointer base address error"
++ "Private Identifiers disabled in bag"
++ "Private Identifiers disabled in bag, rejecting XPC request"
++ "Private Identifiers not available due to error: %@, rejecting XPC request"
++ "Private Identifiers not available: "
++ "PrivateIdentifierMapping"
++ "PrivateIdentifiers"
++ "PrivateIdentifiers.SyncEngine.Transaction"
++ "PrivateIdentifiers.SyncEngine.detachedCleanup"
++ "PrivateIdentifiers.XPCServer.createSyncEngineTask"
++ "PrivateIdentifiers/PISyncEngine.swift"
++ "PrivateIdentifiers/PISyncEngine_Common.swift"
++ "PrivateIdentifiers/PISyncEngine_Fetches.swift"
++ "PrivateIdentifiers/PISyncEngine_NextRecordChangeBatch.swift"
++ "PrivateIdentifiers/PISyncEngine_Sends.swift"
++ "PrivateIdentifiers/PIXPCServer.swift"
++ "Received a push notification to update the DSAT cached token"
++ "Received cancellation from XPC peer: %@"
++ "RecordZoneChangeBatch initializer returned nil. Returning nil."
++ "Rejecting XPC request due to failure to check entitlement: %@"
++ "Rejecting XPC request due to missing entitlement"
++ "Sent database changes: %s"
++ "Sent record zone changes: %s"
++ "Skipping config sync for "
++ "Skipping dataset sync for "
++ "Started Private Identifiers XPC server"
++ "Starting Jetpack assets fetch on startup."
++ "Starting up Private Identifiers XPC server"
++ "State update: %s"
++ "SwiftData.Schema.Index"
++ "SwiftData.Schema.Unique"
++ "Sync engine has previously been created, accepting XPC request"
++ "T@\"AMSDAutoBugCaptureService\",R,N"
++ "T@\"AssetsJetpackFetcherWrapper\",N,R"
++ "Unable to decode identifier mapping CKRecord from persisted CKRecord system fields data: %@. Returning populated CKRecord without system fields instead."
++ "Unable to decode synchronization CKRecord from persisted CKRecord system fields data: %@. Returning populated CKRecord without system fields instead."
++ "Unable to find existing record for UUID %s when composing record zone change batch."
++ "Unable to find existing record for UUID %s when handling .unknownItem error."
++ "Unable to get last value"
++ "Unable to read serialized CKSyncEngine state: %@. Proceeding without."
++ "Unexpected .didFetchAsset event: %s"
++ "Unexpected .fetchedAsset event: %s"
++ "Unexpected .willFetchAsset event: %s"
++ "Unexpected deletion of unknown record ID %@ while handling sent record zone changes."
++ "Unknown CKSyncEngine.Event: %s"
++ "Updating DSAT cached token. account: "
++ "View Service initialized connection"
++ "Will fetch changes: %s"
++ "Will fetch record zone changes: %s"
++ "Will send changes: %s"
++ "YPrbz3IaOz1JRlMc"
++ "Z8aAH7stm0EYhyxg:dhAnc7b9U376IHnX:xz5EHXEN4FjlhJbi:uhVTXyAfCFn7u0Ue:EQUjQp7JcQbqcPcD:A5wDLa5TFdFZlz3A:TJKMyOe6zn5PdGIr:eCqgGM0WcnHOslnr:eCszfxdv3kUXvhgV:uWp4aZpP2vLhc04Q:QZYtNpvp0hKd248p:oCwPYmtRv8s31KUH:completion:"
++ "_$backingData"
++ "_$observationRegistrar"
++ "_TtC12amsaccountsd28AMSDVerifyDevicePasscodeTask"
++ "_TtCC12amsaccountsd28AMSDVerifyDevicePasscodeTaskP33_18F654F90EFAD8ECF9EF664550A04B3021ViewServiceClientImpl"
++ "_TtCO18PrivateIdentifiers8SchemaV120GlobalSyncStateModel"
++ "_TtCO18PrivateIdentifiers8SchemaV122PrivateIdentifierModel"
++ "_TtCO18PrivateIdentifiers8SchemaV220GlobalSyncStateModel"
++ "_TtCO18PrivateIdentifiers8SchemaV222PrivateIdentifierModel"
++ "_TtCO18PrivateIdentifiers8SchemaV229PrivateIdentifierHistoryModel"
++ "_TtCO18PrivateIdentifiers9XPCServer15SyncEngineOwner"
++ "_TtP18AppleMediaServices40AuthenticationViewServiceClientInterface_"
++ "_TtP18AppleMediaServices41VerifyDevicePasscodeActionRemoteInterface_"
++ "__generationCounter"
++ "_accountIdentifier"
++ "_accountKeypairData"
++ "_ckRecordSystemFieldsData"
++ "_configActor"
++ "_debugDescription"
++ "_deviceKeypairData"
++ "_deviceKeypairGenerationSubcounter"
++ "_deviceKeypairOnlyRotationInterval"
++ "_endpoint"
++ "_generationCounter"
++ "_lastAccessDate"
++ "_lastDeviceKeypairRotationDate"
++ "_lastModificationKind"
++ "_lastRotationDate"
++ "_lastSyncDownDate"
++ "_modificationKind"
++ "_namespace"
++ "_privateIdentifiersServer"
++ "_promiseByFilteringLocalAccountsFromPromise:"
++ "_rotationReason"
++ "_scheduledRotationConfiguration"
++ "_scheduledRotationJitterDelta"
++ "_setError"
++ "_syncEngineResult"
++ "_syncEngineState"
++ "_synchronizationRecordCKRecordFieldsData"
++ "_synchronizationRecordUUID"
++ "_synchronizedLastRotationDate"
++ "_uniquenessMarker"
++ "_uuid"
++ "_validityEndDate"
++ "_validityStartDate"
++ "accessory:didUpdateHH1EOLEnabled:"
++ "accessoryDidSetHasOnboardedForAdaptiveTemperatureAutomations:"
++ "accessoryDidSetHasOnboardedForCleanEnergyAutomation:"
++ "accountAndDeviceComponent"
++ "accountAuthSyncFor:isLoudAuth:completionHandler:"
++ "accountKeypair"
++ "accountKeypairData"
++ "accountsWithAuthFailure"
++ "amsaccountsd.AMSDVerifyDevicePasscodeTask"
++ "anonymousListener"
++ "booleanWithBool:"
++ "cacheData:forKey:andCategory:completion:"
++ "cacheDataXPC:forKey:andCategory:completion:"
++ "captureSnapshotWithSignature:delay:events:payload:actions:completion:"
++ "catchWithBinaryPromiseBlock:"
++ "ckRecordSystemFieldsData"
++ "com.apple.amsaccountsd.jetpackfetch"
++ "com.apple.amsaccountsd.privateIdentifiers.persistenceAccessQueue"
++ "com.apple.amsprivateidentifiers"
++ "com.apple.applemediaservices.privateidentifiers"
++ "com.apple.aps.amsprivateidentifiers"
++ "connection"
++ "continueWithBinaryPromiseBlock:"
++ "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
++ "createODISessionWithSessionIdentifier:cacheIdentifier:accountType:bundleIdentifier:completion:"
++ "createSyncEngineTask"
++ "defaultStalenessIntervals"
++ "deviceKeypairData"
++ "deviceKeypairGenerationSubcounter"
++ "deviceKeypairOnlyRotationInterval"
++ "deviceKeypairResult"
++ "deviceOnlySubcomponent"
++ "dsid errorCode "
++ "earliestHistoryDate"
++ "enable-private-identifiers"
++ "encodeSystemFieldsWithCoder:"
++ "encodedData"
++ "endpoint"
++ "failedToParseExistingData"
++ "fetchDataForKey:andCategory:completion:"
++ "fetchDataForKeyXPC:andCategory:completion:"
++ "fetchMetricsIdentifiers"
++ "fetched modification of an unknown CKRecord %@, ignoring"
++ "generationCounter"
++ "getAccountPostSignInServiceProxyWithReplyHandler:"
++ "getAutoBugCaptureServiceProxyWithReplyHandler:"
++ "getBytes:range:"
++ "getODIAssessmentForCacheIdentifier:clearCache:completion:"
++ "handleAccountSignInAmsAccountID:completionHandler:"
++ "hasError"
++ "header errorCode "
++ "header value errorCode "
++ "home:didUpdateHomeActivityState:isActivityStateHoldActive:activityStateHoldEndDate:transitionalStateEndDate:"
++ "home:didUpdateHomeActivityStateSchedule:"
++ "homeDidUpdatePrimaryResidentNetworkInfo:"
++ "initForReadingFromData:error:"
++ "initRequiringSecureCoding:"
++ "initWithClientInfo:"
++ "initWithCoder:"
++ "initWithCompletion:"
++ "initWithDomain:code:userInfo:"
++ "initWithZoneID:"
++ "initWithoutBag"
++ "initialGeneration"
++ "initializeClientToViewServiceConnection"
++ "jetpack-assets-fetch-interval-seconds"
++ "jitterConfiguration"
++ "key earliestHistoryDate rotationConfigurationUpdate "
++ "key reason "
++ "keyPath propertyValue "
++ "lastAuthenticated"
++ "lastDeviceKeypairRotationDate"
++ "lastModificationKind"
++ "lastRotationDate"
++ "lastSyncDownDate"
++ "launchWithClientInfo:action:xpcEndpoint:"
++ "listener"
++ "localizedDescription"
++ "localizedFailureReason"
++ "logger"
++ "modificationKind"
++ "performAccountPostSignInTasksForAccountWithID:credentialSource:"
++ "performOnStartupWithCompletionHandler:"
++ "persistence"
++ "persistenceAccessQueue"
++ "personalizedKeypairQuery"
++ "personalizedOnDemandRotation"
++ "position"
++ "private-identifiers"
++ "private-identifiers-persistence"
++ "private-identifiers-server"
++ "private-identifiers-sync"
++ "privateKeyData"
++ "programmaticRotation"
++ "provideFeedbackOnPayloadOutcome:cacheIdentifier:clearCache:completion:"
++ "registerAllTokensWithCompletionHandler:"
++ "registerTokensIfNeededWithCompletionHandler:"
++ "resetLastRotationDateToNow"
++ "resultWithTimeout:completion:"
++ "retryAfter errorCode "
++ "rotateAccordingToUpdatedSchedule"
++ "rotateNow"
++ "rotationConfigurationUpdate"
++ "rotationInterval"
++ "rotationIntervalChange"
++ "rotationReason"
++ "sPLljm0ZB9z7TiKd:nSLeS2inTAbpsUeZ:noUfOiGjp1iQmKZX:pPGyXmlDbN3mzzHm:iSOZt67ioKsVcqQZ:hjCrdFOLMJN0Cc5Q:lE40aye8U2u533Ka:JRuZv6Feh9qwrGmN:Wn0aIR2B54NCtGQc:B3l3lS18BITy5E4L:UywAszL6AB8Y6LTJ:uNao9X8A82jVmQkK:completion:"
++ "scheduledRotation"
++ "scheduledRotationConfiguration"
++ "scheduledRotationJitterDelta"
++ "serverWithError:"
++ "setPosition:"
++ "setRequiresSecureCoding:"
++ "setUsesClassicLoadingMode:"
++ "setting auth failure "
++ "shouldCreateSyncEngine"
++ "since auth failed at "
++ "syncEngine"
++ "syncEngineCreator"
++ "syncEngineDelegate"
++ "syncedDownReplacingExisting"
++ "syncedDownReplacingNothing"
++ "synchronizationRecordCKRecordFieldsData"
++ "synchronizationRecordUUID"
++ "synchronizedLastRotationDate"
++ "tsDataSyncClearAuthError"
++ "underlyingErrors"
++ "uniquenessMarker"
++ "unpersonalizedKeypairQuery"
++ "unpersonalizedOnDemandRotation"
++ "updateODIWithAttributes:forCacheIdentifier:completion:"
++ "url errorCode "
++ "userInitiatedRotation"
++ "uuid"
++ "v120@0:8@\"NSData\"16@\"NSArray\"24@\"NSData\"32@\"NSDictionary\"40@\"NSArray\"48@\"NSData\"56@\"NSData\"64Q72Q80@\"NSData\"88@\"NSData\"96@\"NSString\"104@?<v@?@\"NSData\"@\"NSData\"@\"NSData\"I@\"NSError\">112"
++ "v120@0:8@16@24@32@40@48@56@64Q72Q80@88@96@104@?112"
++ "v24@0:8@?<v@?@\"<AMSAccountPostSignInServiceInterface>\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"<AMSAutoBugCaptureServiceInterface>\"@\"NSError\">16"
++ "v28@?0@\"NSNumber\"8B16@\"NSError\"20"
++ "v32@0:8@\"AMSAccountIdentity\"16Q24"
++ "v32@0:8@\"HMHome\"16@\"HMHomeActivityStateSchedule\"24"
++ "v40@0:8@\"NSString\"16q24@?<v@?@\"NSData\"@\"NSError\">32"
++ "v40@0:8@16q24@?32"
++ "v48@0:8@\"NSData\"16@\"NSString\"24q32@?<v@?@\"NSError\">40"
++ "v52@0:8@\"HMHome\"16Q24B32@\"NSDate\"36@\"NSDate\"44"
++ "v52@0:8@16Q24B32@36@44"
++ "v56@0:8@\"NSString\"16@\"NSString\"24Q32@\"NSString\"40@?<v@?@\"NSString\"@\"NSError\">48"
++ "v64@0:8@\"NSDictionary\"16d24@\"NSArray\"32@\"NSDictionary\"40@\"NSDictionary\"48@?<v@?@\"NSDictionary\"@\"NSError\">56"
++ "v64@0:8@16d24@32@40@48@?56"
++ "validityStartDate"
++ "valueWithCompletion:"
++ "viewServiceAction"
++ "viewServiceConnectPromise"
+- "%{public}@: Failed to save the account after updating its account flags. error = %{public}@"
+- "%{public}@: Unable to update an account's account flags. No account exists with the specified DSID, %{public}@."
+- "%{public}@: [%{public}@] APS is connected: %{public}@"
+- "%{public}@: [%{public}@] APS reconnected."
+- "%{public}@: [%{public}@] Bag changed"
+- "%{public}@: [%{public}@] Buddy has finished."
+- "%{public}@: [%{public}@] Checking to see if we should perform bundle push registration."
+- "%{public}@: [%{public}@] Checking to see if we should perform push registration."
+- "%{public}@: [%{public}@] Created task: %{public}@"
+- "%{public}@: [%{public}@] Device name changed"
+- "%{public}@: [%{public}@] Did finish running device account updater"
+- "%{public}@: [%{public}@] Did finish running device account updater in response to buddy exit"
+- "%{public}@: [%{public}@] Did finish running device account updater in response to buddy exit with error %{public}@"
+- "%{public}@: [%{public}@] Did finish running device account updater with error %{public}@"
+- "%{public}@: [%{public}@] Either the token or environment is nil. token = %{public}@ | environment = %{public}@"
+- "%{public}@: [%{public}@] Evaluating if to run privacy updater"
+- "%{public}@: [%{public}@] Failed to determine the push environment. error = %{public}@"
+- "%{public}@: [%{public}@] Failed to establish connections. error = %{public}@"
+- "%{public}@: [%{public}@] Failed to post push tokens. %{public}@"
+- "%{public}@: [%{public}@] Failed to start APS connection. %{public}@"
+- "%{public}@: [%{public}@] Invoking 'getODIAssessment' with cache identifier: %@, clearCache: %@"
+- "%{public}@: [%{public}@] Message not handled and dropped."
+- "%{public}@: [%{public}@] No accounts to register."
+- "%{public}@: [%{public}@] No active connection for this environment. Starting connection. environment = %{public}@"
+- "%{public}@: [%{public}@] Received message"
+- "%{public}@: [%{public}@] Received request to post push token if needed."
+- "%{public}@: [%{public}@] Received request to register all tokens"
+- "%{public}@: [%{public}@] Received request to register tokens"
+- "%{public}@: [%{public}@] Received token: %{public}@"
+- "%{public}@: [%{public}@] Starting APS connection. (environment: %{public}@; topics: %{public}@)"
+- "%{public}@: [%{public}@] Starting Service"
+- "%{public}@: [%{public}@] Starting push registration. account = %{public}@ | environment = %{public}@"
+- "%{public}@: [%{public}@] Task promise: %{public}@"
+- "%{public}@: [%{public}@] We should not perform bundle push registration. Returning success."
+- "%{public}@: [%{public}@] We should not perform push registration. Returning success."
+- "%{public}@: [%{public}@] We should perform bundle push registration."
+- "%{public}@: [%{public}@] We should perform push registration."
+- "@\"AMSMutablePromise\""
+- "AMSDPurchaseService: [%{public}@] ODI assessment failed with error: %{public}@"
+- "AMSDPurchaseService: [%{public}@] ODI assessment failed with unknown error"
+- "AMSDPurchaseService: [%{public}@] ODI assessment: %@"
+- "AMSDVerifyDevicePasscodeTask"
+- "AccountFlagsV2Polus"
+- "AccountFlagsV2PolusEngine"
+- "Auth plugin handles known bundle privacy"
+- "Bundle owner could not be found. Will begin info task."
+- "Error during account change:"
+- "Failed to aquire acknowledgement"
+- "Failed to determine bundle owner value"
+- "Failed to determine lasset value"
+- "Failed to update account"
+- "Metcalf"
+- "NNHzG8lq6aMxZpXq"
+- "No iTunes account to handle"
+- "Passcode not found"
+- "Passcode was not retrieved via the prompt"
+- "Presentation handed off to engagement"
+- "Privacy task completed with false"
+- "Privacy will be handled by auth plugin"
+- "Provided owner status"
+- "Remote alert handle was deactivated"
+- "Remote alert handle was not created"
+- "SBSRemoteAlertHandleObserver"
+- "SOUWv5VjPwXYslMm:noUfOiGjp1iQmKZX:pPGyXmlDbN3mzzHm:iSOZt67ioKsVcqQZ:hjCrdFOLMJN0Cc5Q:lE40aye8U2u533Ka:JRuZv6Feh9qwrGmN:Wn0aIR2B54NCtGQc:B3l3lS18BITy5E4L:UywAszL6AB8Y6LTJ:uNao9X8A82jVmQkK:completion:"
+- "ServicePINEntryViewController"
+- "T@\"AMSMutablePromise\",&,N,V_passcodeStringPromise"
+- "T@\"_TtC12amsaccountsd27DeviceAccountPrivacyUpdater\",N,R"
+- "TSDataSync"
+- "The remote alert handle failed to be created to prompt for passcode"
+- "The remote alert handle was deactivated before a passcode was retrieved"
+- "Unknown error"
+- "Update in progress"
+- "Update in progress already"
+- "VE7BAlWGDSKrO5xc:hostChallenge:challengeResponse:seid:nonce:HY6FXG20397zwmVg:"
+- "Will begin update for active itunes account"
+- "Will present for account"
+- "Z8aAH7stm0EYhyxg:xz5EHXEN4FjlhJbi:uhVTXyAfCFn7u0Ue:EQUjQp7JcQbqcPcD:A5wDLa5TFdFZlz3A:TJKMyOe6zn5PdGIr:eCqgGM0WcnHOslnr:eCszfxdv3kUXvhgV:uWp4aZpP2vLhc04Q:QZYtNpvp0hKd248p:oCwPYmtRv8s31KUH:completion:"
+- "_TtC12amsaccountsd27DeviceAccountPrivacyUpdater"
+- "_TtC12amsaccountsd31TSDataSyncConfigActorCollection"
+- "_createODISessionWithSessionIdentifier:cacheIdentifier:accountType:bundleIdentifier:completion:"
+- "_handleAccountChangeForTSDataSync"
+- "_odiAssessmentForSession:"
+- "_passcodeStringPromise"
+- "_updateDeviceAccountPrivacyIfNeeded"
+- "accountAuthSyncFor:completionHandler:"
+- "accountAuthSyncForAccountID:reply:"
+- "accountFlags"
+- "activateWithContext:"
+- "ams_accountFlags"
+- "ams_accountID"
+- "ams_setDisableAccountFlagsSync:"
+- "bundlePrivacyAcknowledgementRequest"
+- "com.apple.ios.StoreKitUIService"
+- "com.apple.purplebuddy.setupexited"
+- "configActors"
+- "configSyncAccountID"
+- "contentsAtPath:"
+- "createODISessionWithSessionIdentifier:accountType:bundleIdentifier:completion:"
+- "deviceIsBundle"
+- "deviceIsiPod"
+- "enqueueData:"
+- "getODIAssessmentForSessionIdentifier:clearCache:completion:"
+- "handleAccountChangeWithCompletionHandler:"
+- "info"
+- "initWithAccount:accountStore:bag:"
+- "initWithDomain:"
+- "initWithInfo:responder:"
+- "initWithServiceName:viewControllerClassName:"
+- "isLassetAndReturnError:"
+- "lasset is false - no additional steps"
+- "newHandleWithDefinition:configurationContext:"
+- "objectForSetting:"
+- "passcodeStringPromise"
+- "provideFeedbackOnPayloadOutcome:sessionIdentifier:clearCache:completion:"
+- "registerAllTokens"
+- "registerObserver:"
+- "registerTokensIfNeeded"
+- "remoteAlertHandle:didInvalidateWithError:"
+- "remoteAlertHandleDidActivate:"
+- "remoteAlertHandleDidDeactivate:"
+- "removeItemAtPath:error:"
+- "responderWithHandler:"
+- "resultWithTimeout:error:"
+- "setActions:"
+- "setPasscodeStringPromise:"
+- "set_usesNWLoader:"
+- "stateTracker"
+- "updateIfNeededWithAccount:completionHandler:"
+- "updateIfNeededWithCompletionHandler:"
+- "updateODIWithAttributes:forSessionIdentifier:completion:"
+- "v112@0:8@\"NSData\"16@\"NSData\"24@\"NSDictionary\"32@\"NSArray\"40@\"NSData\"48@\"NSData\"56Q64Q72@\"NSData\"80@\"NSData\"88@\"NSString\"96@?<v@?@\"NSData\"@\"NSData\"@\"NSData\"I@\"NSError\">104"
+- "v112@0:8@16@24@32@40@48@56Q64Q72@80@88@96@?104"
+- "v16@?0@\"BSActionResponse\"8"
+- "v24@0:8@\"SBSRemoteAlertHandle\"16"
+- "v24@?0@\"AMSAccountDeviceInfoResult\"8@\"NSError\"16"
+- "v24@?0@\"AMSEngagementEnqueueResult\"8@\"NSError\"16"
+- "v32@0:8@\"ACAccount\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"SBSRemoteAlertHandle\"16@\"NSError\"24"
+- "v48@0:8@\"NSString\"16Q24@\"NSString\"32@?<v@?@\"NSString\"@\"NSError\">40"
+- "v48@0:8@16Q24@32@?40"
+- "verifyPasscode"
+
+```

@@ -1,0 +1,2077 @@
+## Files
+
+> `/private/var/staged_system_apps/Files.app/Files`
+
+```diff
+
+-337.6.3.0.0
+-  __TEXT.__text: 0x5404f0
+-  __TEXT.__auth_stubs: 0x7900
+-  __TEXT.__objc_stubs: 0x72e0
+-  __TEXT.__objc_methlist: 0xcbac
+-  __TEXT.__const: 0x18574
++357.2.0.0.0
++  __TEXT.__text: 0x5e2784
++  __TEXT.__auth_stubs: 0x8c50
++  __TEXT.__objc_stubs: 0x75c0
++  __TEXT.__objc_methlist: 0xd874
++  __TEXT.__const: 0x1b4a4
+   __TEXT.__gcc_except_tab: 0x5cc
+-  __TEXT.__objc_methname: 0x1f112
+-  __TEXT.__cstring: 0x319f4
+-  __TEXT.__oslogstring: 0xfb09
+-  __TEXT.__objc_classname: 0xfdf
+-  __TEXT.__objc_methtype: 0x755a
++  __TEXT.__objc_methname: 0x205f0
++  __TEXT.__cstring: 0x33259
++  __TEXT.__oslogstring: 0x125c9
++  __TEXT.__objc_classname: 0x1052
++  __TEXT.__objc_methtype: 0x7ba3
+   __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0xe392
++  __TEXT.__swift5_typeref: 0x11cda
++  __TEXT.__constg_swiftt: 0x18434
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x15d1c
+-  __TEXT.__swift5_builtin: 0x794
+-  __TEXT.__swift5_reflstr: 0xdfa7
+-  __TEXT.__swift5_fieldmd: 0xb308
+-  __TEXT.__swift5_assocty: 0x1448
+-  __TEXT.__swift5_proto: 0xee4
+-  __TEXT.__swift5_types: 0xbd4
+-  __TEXT.__swift5_capture: 0xd6fc
+-  __TEXT.__swift5_protos: 0x174
+-  __TEXT.__swift5_mpenum: 0x84
+-  __TEXT.__swift_as_entry: 0x1f4
+-  __TEXT.__swift_as_ret: 0x234
+-  __TEXT.__unwind_info: 0xd8a8
+-  __TEXT.__eh_frame: 0x90e4
+-  __DATA_CONST.__auth_got: 0x3c90
+-  __DATA_CONST.__got: 0x2338
+-  __DATA_CONST.__auth_ptr: 0x29b0
+-  __DATA_CONST.__const: 0x30ae0
+-  __DATA_CONST.__cfstring: 0xaa0
+-  __DATA_CONST.__objc_classlist: 0xc08
++  __TEXT.__swift5_builtin: 0x834
++  __TEXT.__swift5_reflstr: 0xf777
++  __TEXT.__swift5_fieldmd: 0xc828
++  __TEXT.__swift5_assocty: 0x1728
++  __TEXT.__swift5_proto: 0x1090
++  __TEXT.__swift5_types: 0xcf0
++  __TEXT.__swift5_capture: 0xfb9c
++  __TEXT.__swift5_protos: 0x1ac
++  __TEXT.__swift_as_entry: 0x238
++  __TEXT.__swift_as_ret: 0x270
++  __TEXT.__swift5_mpenum: 0x8c
++  __TEXT.__unwind_info: 0xe868
++  __TEXT.__eh_frame: 0x9078
++  __DATA_CONST.__auth_got: 0x4638
++  __DATA_CONST.__got: 0x2798
++  __DATA_CONST.__auth_ptr: 0x2d00
++  __DATA_CONST.__const: 0x343b0
++  __DATA_CONST.__cfstring: 0xb40
++  __DATA_CONST.__objc_classlist: 0xcf0
+   __DATA_CONST.__objc_catlist: 0xd0
+-  __DATA_CONST.__objc_protolist: 0x7e8
++  __DATA_CONST.__objc_protolist: 0x840
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x440
++  __DATA_CONST.__objc_protorefs: 0x478
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_intobj: 0xa8
+   __DATA_CONST.__objc_arraydata: 0x70
+   __DATA_CONST.__objc_dictobj: 0x28
+   __DATA_CONST.__objc_arrayobj: 0x30
+-  __DATA.__objc_const: 0x20a40
+-  __DATA.__objc_selrefs: 0x8168
+-  __DATA.__objc_ivar: 0x200
+-  __DATA.__objc_data: 0x19d78
+-  __DATA.__data: 0x18b38
++  __DATA.__objc_const: 0x23ae8
++  __DATA.__objc_selrefs: 0x8748
++  __DATA.__objc_ivar: 0x210
++  __DATA.__objc_data: 0x1c200
++  __DATA.__data: 0x1b138
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x19ea0
+-  __DATA.__common: 0xae8
++  __DATA.__bss: 0x1cc68
++  __DATA.__common: 0xc18
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/Frameworks/SharedWithYou.framework/SharedWithYou
+   - /System/Library/Frameworks/SharedWithYouCore.framework/SharedWithYouCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/TipKit.framework/TipKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+
+   - /System/Library/PrivateFrameworks/AppSupportUI.framework/AppSupportUI
+   - /System/Library/PrivateFrameworks/CloudDocs.framework/CloudDocs
+   - /System/Library/PrivateFrameworks/CloudSharing.framework/CloudSharing
++  - /System/Library/PrivateFrameworks/CloudSharingUI.framework/CloudSharingUI
++  - /System/Library/PrivateFrameworks/CoreServicesUI.framework/CoreServicesUI
+   - /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv
+-  - /System/Library/PrivateFrameworks/DocumentCamera.framework/DocumentCamera
++  - /System/Library/PrivateFrameworks/DesktopServicesUI.framework/DesktopServicesUI
++  - /System/Library/PrivateFrameworks/DiskArbitration.framework/DiskArbitration
+   - /System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager
+   - /System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore
+   - /System/Library/PrivateFrameworks/DocumentManagerExecutables.framework/DocumentManagerExecutables
+
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/Synapse.framework/Synapse
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 510FB115-7FC2-32CD-977C-852D5392AD3E
+-  Functions: 22582
+-  Symbols:   3645
+-  CStrings:  11233
++  UUID: A93A9D36-BA7B-3714-83D5-E2E29C2D17B4
++  Functions: 24546
++  Symbols:   4206
++  CStrings:  11876
+ 
+Symbols:
++ _$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq
++ _$s10AppIntents0A6IntentPAAE14supportedModesAA0cE0VvgZ
++ _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc
++ _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0ON
++ _$s10Foundation16AttributedStringV13stringLiteralACSS_tcfC
++ _$s10Foundation16AttributedStringV2eeoiySbAC_ACtFZ
++ _$s10Foundation16AttributedStringV4RunsV3RunVy5ValueQzSgxmcAA0bC3KeyRzluig
++ _$s10Foundation16AttributedStringVACycfC
++ _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluis
++ _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF
++ _$s10Foundation18AttributeContainerVy5ValueQzSgxmcAA19AttributedStringKeyRzluis
++ _$s10Foundation19AttributedSubstringVy5ValueQzSgxmcAA0B9StringKeyRzluis
++ _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
++ _$s10Foundation19PropertyListDecoderCACycfc
++ _$s10Foundation19PropertyListDecoderCMa
++ _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation19PropertyListEncoderCACycfc
++ _$s10Foundation19PropertyListEncoderCMa
++ _$s10Foundation3URLV11descriptionSSvg
++ _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
++ _$s10Foundation3URLV13DirectoryHintOMa
++ _$s10Foundation3URLV22appendingPathExtensionyACSSF
++ _$s10Foundation3URLV9appending9component13directoryHintACx_AC09DirectoryF0OtSyRzlF
++ _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
++ _$s10Foundation8IndexSetV36_unconditionallyBridgeFromObjectiveCyACSo07NSIndexC0CSgFZ
++ _$s10Foundation8IndexSetV7isEmptySbvg
++ _$s10Foundation8IndexSetV9RangeViewVMa
++ _$s10Foundation8IndexSetV9RangeViewVSlAAMc
++ _$s10Foundation8IndexSetV9rangeViewAC05RangeE0Vvg
++ _$s10Foundation8IndexSetVMa
++ _$s10UIViewType7SwiftUI0A13RepresentablePTl
++ _$s11Coordinator7SwiftUI19UIViewRepresentablePTl
++ _$s11Observation0A9RegistrarV12withMutation2of7keyPath_q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
++ _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarVACycfC
++ _$s11Observation0A9RegistrarVMa
++ _$s11Observation0A9RegistrarVMn
++ _$s11Observation10ObservableMp
++ _$s14AnimatableData7SwiftUI0A0PTl
++ _$s14CloudSharingUI07CreateiA13LinkViewModelC7fileURL13optionsGroups13dismissActionAC10Foundation0I0V_SaySo28_SWCollaborationOptionsGroupCGyyctcfc
++ _$s14CloudSharingUI07CreateiA13LinkViewModelCMa
++ _$s14CloudSharingUI07CreateiA8LinkViewV9viewModelAcA0daefH0C_tcfC
++ _$s14CloudSharingUI07CreateiA8LinkViewVMa
++ _$s14CloudSharingUI07CreateiA8LinkViewVMn
++ _$s14CoreFoundation9_CFObjectMp
++ _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
++ _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
++ _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
++ _$s14CoreFoundation9_CFObjectPSHTb
++ _$s17DesktopServicesUI16DSFolderIconInfoC4name10dictionary4tagsACSS_SDySSypGSayAA016DSLightweightTagF0CGtcfc
++ _$s17DesktopServicesUI16DSFolderIconInfoC4name6symbol5emoji4tagsACSS_SSSgAHSayAA016DSLightweightTagF0CGtcfc
++ _$s17DesktopServicesUI16DSFolderIconInfoC5emojiSSSgvgTj
++ _$s17DesktopServicesUI16DSFolderIconInfoC6symbolSSSgvgTj
++ _$s17DesktopServicesUI16DSFolderIconInfoCMa
++ _$s17DesktopServicesUI20DSLightweightTagInfoC2eeoiySbAC_ACtFZ
++ _$s17DesktopServicesUI20DSLightweightTagInfoC4name10colorLabel8favoriteACSS_SiSbtcfc
++ _$s17DesktopServicesUI20DSLightweightTagInfoCMa
++ _$s17DesktopServicesUI20DSLightweightTagInfoCMn
++ _$s17DesktopServicesUI20DSLightweightTagInfoCSHAAMc
++ _$s17DesktopServicesUI20DSLightweightTagInfoCSQAAMc
++ _$s17DesktopServicesUI31DSFolderCustomizationControllerC10controller9forFolder7allTags8delegate14retainDelegateSo06UIViewF0CAA0D8IconInfoC_SayAA016DSLightweightTagQ0CGAA0dpE10Applicator_pSbtFZ
++ _$s17DesktopServicesUI31DSFolderCustomizationControllerCMa
++ _$s17DesktopServicesUI35DSFolderIconCustomizationApplicatorMp
++ _$s17DesktopServicesUI35DSFolderIconCustomizationApplicatorP011applyFolderE6ConfigyyAA0dE4InfoCYaKFTq
++ _$s17DesktopServicesUI35DSFolderIconCustomizationApplicatorP011fetchFolderE6ConfigAA0dE4InfoCyYaKFTq
++ _$s17DesktopServicesUI35DSFolderIconCustomizationApplicatorP18tagsViewControllerSo06UIViewJ0CyFTq
++ _$s17DesktopServicesUI35DSFolderIconCustomizationApplicatorP21registerChangeTriggeryyyycFTq
++ _$s19DocumentManagerCore18DOCRunInMainThreadyyyyScMYccF
++ _$s21DocumentManagerUICore10ImageCacheCACycfc
++ _$s21DocumentManagerUICore10ImageCacheCMa
++ _$s21DocumentManagerUICore10ImageCacheCMn
++ _$s21DocumentManagerUICore12ImageOptionsV4size5scale8isFoldedACSo6CGSizeV_12CoreGraphics7CGFloatVSbtcfC
++ _$s21DocumentManagerUICore12ImageOptionsVMa
++ _$s21DocumentManagerUICore13NodeThumbnailC11addListeneryySo012DOCThumbnailG0_pF
++ _$s21DocumentManagerUICore13NodeThumbnailC35registerGenerationCompletionHandlerySbyycF
++ _$s21DocumentManagerUICore13NodeThumbnailC4node12imageOptions0G5CacheACSo7DOCNode_p_AA05ImageH0VAA0kI0Ctcfc
++ _$s21DocumentManagerUICore13NodeThumbnailC9thumbnailSo7UIImageCvg
++ _$s21DocumentManagerUICore13NodeThumbnailCMa
++ _$s21DocumentManagerUICore15FolderAssetTypeO8flapIconyACSo0d9AnimationE0VcACmFWC
++ _$s21DocumentManagerUICore15FolderAssetTypeOMa
++ _$s21DocumentManagerUICore17FolderIconFetcherV22fetchImageWithOverlaysSo7UIImageCSgyYaKF
++ _$s21DocumentManagerUICore17FolderIconFetcherV22fetchImageWithOverlaysSo7UIImageCSgyYaKFTu
++ _$s21DocumentManagerUICore17FolderIconFetcherV4node9assetType4size5scaleACSo7DOCNode_pSg_AA0d5AssetI0OSo6CGSizeV12CoreGraphics7CGFloatVtcfC
++ _$s21DocumentManagerUICore17FolderIconFetcherVMa
++ _$s21DocumentManagerUICore24DOCUIFolderAnimationViewC03runE0_12imageFetcher10completionySo06FolderE4KindV_So7UIImageCSo0kE5AssetV_12CoreGraphics7CGFloatVyAJcSgtcSgyycSgtFTj
++ _$s21DocumentManagerUICore24DOCUIFolderAnimationViewCMa
++ _$s21DocumentManagerUICore24DOCUIFolderAnimationViewCMn
++ _$s22UniformTypeIdentifiers6UTTypeVs23CustomStringConvertibleAAMc
++ _$s26DocumentManagerExecutables10ColumnTypeO06isDateD0SbyF
++ _$s26DocumentManagerExecutables10ColumnTypeO10customNameyACSScACmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO10symbolNameSSyF
++ _$s26DocumentManagerExecutables10ColumnTypeO11dateCreatedyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO12dateModifiedyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO14dateLastOpenedyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO14sortDescriptorAA15DOCItemSortModeOyF
++ _$s26DocumentManagerExecutables10ColumnTypeO16localizedStringsSaySSGyF
++ _$s26DocumentManagerExecutables10ColumnTypeO2eeoiySbAC_ACtFZ
++ _$s26DocumentManagerExecutables10ColumnTypeO32accessibilityIdentifierComponentSSvg
++ _$s26DocumentManagerExecutables10ColumnTypeO3tagyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO4kindyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO4nameyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO4sizeyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO6statusyA2CmFWC
++ _$s26DocumentManagerExecutables10ColumnTypeO8allCasesSayACGvgZ
++ _$s26DocumentManagerExecutables10ColumnTypeOMa
++ _$s26DocumentManagerExecutables10ColumnTypeOMn
++ _$s26DocumentManagerExecutables10ColumnTypeOSEAAMc
++ _$s26DocumentManagerExecutables10ColumnTypeOSHAAMc
++ _$s26DocumentManagerExecutables10ColumnTypeOSQAAMc
++ _$s26DocumentManagerExecutables10ColumnTypeOSeAAMc
++ _$s26DocumentManagerExecutables11LaunchUtilsV22tryOpeningInDefaultApp_4node011requireOpenH5Place15preferQuickLook15alertPresenting15completionBlocky10Foundation3URLV_So7DOCNode_pSgS2bSo16UIViewControllerCySbctFZ
++ _$s26DocumentManagerExecutables11LaunchUtilsV28bundleIdentifierOfDefaultApp3forSSSgSo7DOCNode_p_tFZ
++ _$s26DocumentManagerExecutables11SchedulableMp
++ _$s26DocumentManagerExecutables11SchedulableP8scheduleyyFTq
++ _$s26DocumentManagerExecutables13SomeOperationMp
++ _$s26DocumentManagerExecutables13SomeOperationP16qualityOfServiceSo09NSQualitygH0VvMTq
++ _$s26DocumentManagerExecutables13SomeOperationP16qualityOfServiceSo09NSQualitygH0VvgTq
++ _$s26DocumentManagerExecutables13SomeOperationP16qualityOfServiceSo09NSQualitygH0VvsTj
++ _$s26DocumentManagerExecutables13SomeOperationP16qualityOfServiceSo09NSQualitygH0VvsTq
++ _$s26DocumentManagerExecutables13SomeOperationP21actionCompletionBlockys5Error_pSgcSgvMTq
++ _$s26DocumentManagerExecutables13SomeOperationP21actionCompletionBlockys5Error_pSgcSgvgTq
++ _$s26DocumentManagerExecutables13SomeOperationP21actionCompletionBlockys5Error_pSgcSgvsTj
++ _$s26DocumentManagerExecutables13SomeOperationP21actionCompletionBlockys5Error_pSgcSgvsTq
++ _$s26DocumentManagerExecutables14DOCUSBRenamingC13performRename6source14newDisplayName15alertPresenting25requiresAlertPresentation10completion13finishedBlockySo17DOCDocumentSourceC_SSSo16UIViewControllerCSbys5Error_pSgcySo7DOCNode_pSg_APtcSgtFTj
++ _$s26DocumentManagerExecutables15DOCItemSortModeO06isDateF0Sbvg
++ _$s26DocumentManagerExecutables15DOCItemSortModeO12creationDateyA2CmFWC
++ _$s26DocumentManagerExecutables15DOCItemSortModeO12icloudStatusyA2CmFWC
++ _$s26DocumentManagerExecutables15DOCItemSortModeO13localizedNameSSvg
++ _$s26DocumentManagerExecutables15DOCItemSortModeO31localizedOrderedAscendingStringSSvg
++ _$s26DocumentManagerExecutables15DOCItemSortModeO32accessibilityIdentifierComponentSSvg
++ _$s26DocumentManagerExecutables15DOCItemSortModeO32localizedOrderedDescendingStringSSvg
++ _$s26DocumentManagerExecutables15ImageBezierPathC05outereF04from9threshold15smoothingFactor010downsampleK04cell13thumbnailView9isCompactSo08UIBezierF0CSgSo7UIImageC_12CoreGraphics7CGFloatVASSiSo6UIViewCAUSbtFZ
++ _$s26DocumentManagerExecutables15ImageBezierPathCMa
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO13localizedNameSSvg
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO18tapAndClickSelectsyA2CmFWC
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO2eeoiySbAC_ACtFZ
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO31tapAndClickPerformPrimaryActionyA2CmFWC
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO44tapPerformsPrimaryActionTrackpadClickSelectsyA2CmFWC
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorO8allCasesSayACGvgZ
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorOMa
++ _$s26DocumentManagerExecutables18DOCItemTapBehaviorOMn
++ _$s26DocumentManagerExecutables18DOCRenameOperationC12errorHandlerSo16FIOperationReplyCSgAC_So0H5ErrorCSgs0J0_pSgtcSgvsTj
++ _$s26DocumentManagerExecutables18DOCRenameOperationC15conflictHandlerSo0E10ResolutionVAC_So0E8ConflictVSo17FIOperationRecordCtcSgvsTj
++ _$s26DocumentManagerExecutables18DOCRenameOperationC17completionHandleryAC_So7DOCNode_pSgtcSgvsTj
++ _$s26DocumentManagerExecutables18DOCRenameOperationC23errorRecoveryHandler_FPyAC_s5Error_ptcSgvsTj
++ _$s26DocumentManagerExecutables18DOCRenameOperationC4node11newFileName04undoB0ACSo7DOCNode_p_SSSo07DOCUndoB0CtcfC
++ _$s26DocumentManagerExecutables18DOCRenameOperationC4node14newDisplayName04undoB0ACSo7DOCNode_p_SSSo07DOCUndoB0CtcfC
++ _$s26DocumentManagerExecutables18DOCRenameOperationC8scheduleyyFTj
++ _$s26DocumentManagerExecutables21DOCDragPasteboardTypeO22isFINodeFileOrLocationSbvg
++ _$s26DocumentManagerExecutables21DOCDragPasteboardTypeO6fiNodeyAcA013DOCFINodeDrageF0OcACmFWC
++ _$s26DocumentManagerExecutables21DOCItemSortDescriptorV08reversedE10DesciptorsACvg
++ _$s26DocumentManagerExecutables22makeDOCDeleteOperation5nodes08originalF004undoB0AA010SomeDeleteF0_pSgSaySo7DOCNode_pG_So011DOCUndoableF0_pSgSo07DOCUndoB0CtF
++ _$s26DocumentManagerExecutables23DOCAnalyticsActionEventV12FileProviderO5nodesAESaySo7DOCNode_pG_tcfC
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC11destination10folderName04undoB0ACSo7DOCNode_p_SSSo07DOCUndoB0Ctcfc
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC12appendNumber2to4withS2S_SStFZ
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC12errorHandlerSo16FIOperationReplyCSgAC_So0I5ErrorCSgs0K0_pSgtcSgvsTj
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC17completionHandleryAC_So7DOCNode_pSgtcSgvsTj
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC19nameConflictHandlerSSSgAC_S2SSAySo7NSErrorCSgGSgtcSgvsTj
++ _$s26DocumentManagerExecutables24DOCCreateFolderOperationC8scheduleyyFTj
++ _$s26DocumentManagerExecutables25DOCUserActivityDOCNodeKeySSvg
++ _$s26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeO14typeIdentifierSSvg
++ _$s26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeO4fileyA2CmFWC
++ _$s26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeO8locationyA2CmFWC
++ _$s26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeOMa
++ _$s26DocumentManagerExecutables27DOC_FPCreateFolderOperationC10parentItem10folderName04undoB018shouldRegisterUndoACSo6FPItemC_SSSo07DOCUndoB0CSbtcfc
++ _$s26DocumentManagerExecutables27DOC_FPCreateFolderOperationCMa
++ _$s26DocumentManagerExecutables32DOCTypeToFocusControllerDelegateP26handlePressesBeganIfNeeded_4withyShySo7UIPressCG_So14UIPressesEventCSgtFTq
++ _$s2os6LoggerV26DocumentManagerExecutablesE11OutlineViewACvgZ
++ _$s2os6LoggerV26DocumentManagerExecutablesE16documentCreationACvgZ
++ _$s2os6LoggerV26DocumentManagerExecutablesE6SourceACvgZ
++ _$s4Body7SwiftUI12ViewModifierPTl
++ _$s5Cache7SwiftUI6LayoutPTl
++ _$s5UIKit13UIHoverEffectPA2A0b4LiftC0VRszrlE4liftAEvgZ
++ _$s5UIKit13UIHoverEffectPA2A0b9AutomaticC0VRszrlE9automaticAEvgZ
++ _$s5UIKit17UIHoverLiftEffectVAA0bD0AAWP
++ _$s5UIKit17UIHoverLiftEffectVMa
++ _$s5UIKit22UIHoverAutomaticEffectVAA0bD0AAWP
++ _$s5UIKit22UIHoverAutomaticEffectVMa
++ _$s5UIKit25UIBackgroundConfigurationV16backgroundInsetsSo017NSDirectionalEdgeE0VvM
++ _$s5UIKit28NSDiffableDataSourceSnapshotV14deleteSectionsyySayxGF
++ _$s5UIKit28NSDiffableDataSourceSnapshotVMa
++ _$s5UIKit29_UICornerMaskingConfigurationV11CornerStyleVMa
++ _$s5UIKit29_UICornerMaskingConfigurationV11CornerStyleVMn
++ _$s5UIKit29_UICornerMaskingConfigurationV19containerConcentric9symmetric13fallbackStyleACSb_AC06CornerI0VSgtFZ
++ _$s5UIKit29_UICornerMaskingConfigurationVMa
++ _$s5UIKit29_UICornerMaskingConfigurationVMn
++ _$s5UIKit31UIConfigurationColorTransformerVMa
++ _$s5UIKit31UIConfigurationColorTransformerVMn
++ _$s5UIKit31UIConfigurationColorTransformerVyACSo7UIColorCAEccfC
++ _$s5UIKit34UICollectionViewDiffableDataSourceC029_performBatchApplyUsingReloadE0yyyyXEF
++ _$s5UIKit34UICollectionViewDiffableDataSourceC17sectionIdentifier3forxSgSi_tFTj
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV5level2ofSix_tF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV6parent2ofxSgx_tF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV7replace10childrenOf5usingyx_ACyxGtF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV8containsySbxF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotVMa
++ _$s5UIKit40UIConfigurationTextAttributesTransformerVMa
++ _$s5UIKit40UIConfigurationTextAttributesTransformerVMn
++ _$s5UIKit40UIConfigurationTextAttributesTransformerVyAC10Foundation18AttributeContainerVAFccfC
++ _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantVMa
++ _$s5UIKit6_GlassVMa
++ _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
++ _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
++ _$s5Value7SwiftUI14EnvironmentKeyPTl
++ _$s7ElementStTl
++ _$s7SwiftUI10AnimatableMp
++ _$s7SwiftUI10AnimatableP05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_G6InputsVtFZTq
++ _$s7SwiftUI10AnimatableP0C4DataAC_AA16VectorArithmeticTn
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvMTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvgTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvsTq
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE010animatableE0AEvM
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_I6InputsVtFZ
++ _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC
++ _$s7SwiftUI10LabelGroupV7contentACyxGxyXE_tcfC
++ _$s7SwiftUI10LabelGroupVMn
++ _$s7SwiftUI10LabelGroupVyxGAA4ViewAAMc
++ _$s7SwiftUI11ColorSchemeOMa
++ _$s7SwiftUI11ColorSchemeOMn
++ _$s7SwiftUI11EnvironmentV7ContentOMn
++ _$s7SwiftUI11EnvironmentVMa
++ _$s7SwiftUI11EnvironmentVMn
++ _$s7SwiftUI11_LayoutRootVMn
++ _$s7SwiftUI11_LayoutRootVyxGAA014_VariadicView_fD0AAMc
++ _$s7SwiftUI12ProgressViewVMn
++ _$s7SwiftUI12ProgressViewVyACyAA05EmptyD0VAEGSo10NSProgressCcAERszAERs_rlufC
++ _$s7SwiftUI12ProgressViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI12ViewModifierMp
++ _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
++ _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
++ _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
++ _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
++ _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI12_FrameLayoutVMn
++ _$s7SwiftUI13AnyShapeStyleVMn
++ _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
++ _$s7SwiftUI13LayoutSubviewV12sizeThatFitsySo6CGSizeVAA16ProposedViewSizeVF
++ _$s7SwiftUI13LayoutSubviewV5place2at6anchor8proposalySo7CGPointV_AA9UnitPointVAA16ProposedViewSizeVtF
++ _$s7SwiftUI13LayoutSubviewVMa
++ _$s7SwiftUI13LayoutSubviewVMn
++ _$s7SwiftUI13LayoutSubviewVSQAAMc
++ _$s7SwiftUI13_OffsetEffectVMn
++ _$s7SwiftUI13_VStackLayoutVMn
++ _$s7SwiftUI13_VariadicViewO4TreeVy_xq_GAA0D0A2A01_cd1_D4RootRzAaGR_rlMc
++ _$s7SwiftUI14EnvironmentKeyMp
++ _$s7SwiftUI14EnvironmentKeyP12_valuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI14EnvironmentKeyP12defaultValue0F0QzvgZTq
++ _$s7SwiftUI14EnvironmentKeyPAASQ5ValueRpzrlE12_valuesEqualySbAE_AEtFZ
++ _$s7SwiftUI14LayoutSubviewsVMa
++ _$s7SwiftUI14LayoutSubviewsVMn
++ _$s7SwiftUI14LayoutSubviewsVSKAAMc
++ _$s7SwiftUI14LayoutSubviewsVSlAAMc
++ _$s7SwiftUI14TintShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI14TintShapeStyleVACycfC
++ _$s7SwiftUI14TintShapeStyleVMa
++ _$s7SwiftUI14TintShapeStyleVMn
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
++ _$s7SwiftUI14_OpacityEffectVMn
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI14_PaddingLayoutVMn
++ _$s7SwiftUI14_UIHostingViewC04rootD0ACyxGx_tcfC
++ _$s7SwiftUI14_UIHostingViewC04rootD0ACyxGx_tcfc
++ _$s7SwiftUI14_UIHostingViewC04rootD0xvgTj
++ _$s7SwiftUI14_UIHostingViewC04rootD0xvsTj
++ _$s7SwiftUI14_UIHostingViewCMa
++ _$s7SwiftUI14_UIHostingViewCMn
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE16automationHidden_9isEnabledACyxAEGSb_SbtF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE18accessibilityLabelyACyxAEGqd__SyRd__lF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE18accessibilityValueyACyxAEGAA18LocalizedStringKeyVF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF
++ _$s7SwiftUI15ModifiedContentVMa
++ _$s7SwiftUI15_RotationEffectVAA12ViewModifierAAWP
++ _$s7SwiftUI15_RotationEffectVMn
++ _$s7SwiftUI16ProposedViewSizeV11unspecifiedACvgZ
++ _$s7SwiftUI16ProposedViewSizeV4zeroACvgZ
++ _$s7SwiftUI16RoundedRectangleVAA4ViewAAMc
++ _$s7SwiftUI16RoundedRectangleVMa
++ _$s7SwiftUI16RoundedRectangleVMn
++ _$s7SwiftUI16TagValueTraitKeyVMa
++ _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc
++ _$s7SwiftUI16_OverlayModifierVMn
++ _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvg
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvs
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvg
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvs
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
++ _$s7SwiftUI17EnvironmentValuesVACycfC
++ _$s7SwiftUI17EnvironmentValuesVMa
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA014UITraitBridgedC3KeyRzluig
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA014UITraitBridgedC3KeyRzluis
++ _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
++ _$s7SwiftUI18RoundedCornerStyleO10continuousyA2CmFWC
++ _$s7SwiftUI18RoundedCornerStyleOMa
++ _$s7SwiftUI18ViewInputPredicatePAAE1nopyQrxFZ
++ _$s7SwiftUI18ViewInputPredicatePAAE1nopyQrxFZQOMQ
++ _$s7SwiftUI18_AnimationModifierVMn
++ _$s7SwiftUI18_AnimationModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI19AccessibilityTraitsV8isButtonACvgZ
++ _$s7SwiftUI19AccessibilityTraitsVMa
++ _$s7SwiftUI19ContentSizeCategoryO015isAccessibilityE0Sbvg
++ _$s7SwiftUI19ContentSizeCategoryOMa
++ _$s7SwiftUI19ContentSizeCategoryOMn
++ _$s7SwiftUI19EmptyAnimatableDataVAA16VectorArithmeticAAMc
++ _$s7SwiftUI19EmptyAnimatableDataVMn
++ _$s7SwiftUI19EmptyAnimatableDataVN
++ _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
++ _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
++ _$s7SwiftUI19UIViewRepresentableMp
++ _$s7SwiftUI19UIViewRepresentableP04makeC07context0C4TypeQzAA0cD7ContextVyxG_tFTq
++ _$s7SwiftUI19UIViewRepresentableP06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtFTq
++ _$s7SwiftUI19UIViewRepresentableP06updateC0_7contexty0C4TypeQz_AA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19UIViewRepresentableP09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZTq
++ _$s7SwiftUI19UIViewRepresentableP12sizeThatFits_6uiView7contextSo6CGSizeVSgAA08ProposedI4SizeV_0C4TypeQzAA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19UIViewRepresentableP14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZTq
++ _$s7SwiftUI19UIViewRepresentableP15makeCoordinator0F0QzyFTq
++ _$s7SwiftUI19UIViewRepresentableP19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tFTq
++ _$s7SwiftUI19UIViewRepresentableP21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztFTq
++ _$s7SwiftUI19UIViewRepresentableP21_overrideSizeThatFits_2in6uiViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztFTq
++ _$s7SwiftUI19UIViewRepresentableP24_modifyBridgedViewInputsyyAA01_gH0VzFZTq
++ _$s7SwiftUI19UIViewRepresentablePAA4ViewTb
++ _$s7SwiftUI19UIViewRepresentablePAAE06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtF
++ _$s7SwiftUI19UIViewRepresentablePAAE09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE13_makeViewList4view6inputsAA01_fG7OutputsVAA11_GraphValueVyxG_AA01_fG6InputsVtFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tF
++ _$s7SwiftUI19UIViewRepresentablePAAE21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztF
++ _$s7SwiftUI19UIViewRepresentablePAAE21_overrideSizeThatFits_2in6uiViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztF
++ _$s7SwiftUI19UIViewRepresentablePAAE24_modifyBridgedViewInputsyyAA01_gH0VzFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE4bodys5NeverOvg
++ _$s7SwiftUI19UIViewRepresentablePAAE9_makeView4view6inputsAA01_F7OutputsVAA11_GraphValueVyxG_AA01_F6InputsVtFZ
++ _$s7SwiftUI19UIViewRepresentablePAAyt11CoordinatorRtzrlE04makeE0yyF
++ _$s7SwiftUI21_TraitWritingModifierVMa
++ _$s7SwiftUI21_ViewModifier_ContentVMn
++ _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleV9secondaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI22HierarchicalShapeStyleVMn
++ _$s7SwiftUI22HierarchicalShapeStyleVN
++ _$s7SwiftUI22UserInterfaceSizeClassO2eeoiySbAC_ACtFZ
++ _$s7SwiftUI22UserInterfaceSizeClassO7compactyA2CmFWC
++ _$s7SwiftUI22UserInterfaceSizeClassOMa
++ _$s7SwiftUI22UserInterfaceSizeClassOMn
++ _$s7SwiftUI22UserInterfaceSizeClassOSQAAMc
++ _$s7SwiftUI22UserInterfaceSizeClassOyACSgSo06UIUserdeF0VcfC
++ _$s7SwiftUI24_ForegroundStyleModifierVMn
++ _$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI24_TagTraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVMn
++ _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
++ _$s7SwiftUI25_AllowsHitTestingModifierVMn
++ _$s7SwiftUI26AccessibilityChildBehaviorV6ignoreACvgZ
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyMp
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyP4read4from5ValueQzSo0C10CollectionC_tFZTq
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyP5write2to5valuey5UIKit15UIMutableTraits_pz_5ValueQztFZTq
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyPAA0eF0Tb
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI4EdgeO3SetV3topAEvgZ
++ _$s7SwiftUI4EdgeO3SetV6bottomAEvgZ
++ _$s7SwiftUI4EdgeO3SetV7leadingAEvgZ
++ _$s7SwiftUI4EdgeO3SetV8rawValueAEs4Int8V_tcfC
++ _$s7SwiftUI4EdgeO3SetV8trailingAEvgZ
++ _$s7SwiftUI4EdgeO3SetVMn
++ _$s7SwiftUI4FontV11subheadlineACvgZ
++ _$s7SwiftUI4FontV4bodyACvgZ
++ _$s7SwiftUI4FontV6WeightV8semiboldAEvgZ
++ _$s7SwiftUI4FontV6weightyA2C6WeightVF
++ _$s7SwiftUI4FontV8footnoteACvgZ
++ _$s7SwiftUI4FontVMn
++ _$s7SwiftUI4TextV10fontWeightyAcA4FontV0E0VSgF
++ _$s7SwiftUI4TextV14TruncationModeO6middleyA2EmFWC
++ _$s7SwiftUI4TextV14TruncationModeOMa
++ _$s7SwiftUI4TextV14TruncationModeOMn
++ _$s7SwiftUI4TextV4fontyAcA4FontVSgF
++ _$s7SwiftUI4TextVyAC10Foundation16AttributedStringVcfC
++ _$s7SwiftUI4TextVyAcA5ImageVcfC
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgF
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQOMQ
++ _$s7SwiftUI4ViewPAAE12labelsHiddenQryF
++ _$s7SwiftUI4ViewPAAE12labelsHiddenQryFQOMQ
++ _$s7SwiftUI4ViewPAAE22accessibilityAddTraitsyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0iF0VF
++ _$s7SwiftUI5ColorV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI5ColorV4blueACvgZ
++ _$s7SwiftUI5ColorVMn
++ _$s7SwiftUI5ImageV02uiC0ACSo7UIImageC_tcfC
++ _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC
++ _$s7SwiftUI5ImageV12ResizingModeOMa
++ _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
++ _$s7SwiftUI5ImageVAA4ViewAAWP
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC
++ _$s7SwiftUI5LabelVMn
++ _$s7SwiftUI5LabelVyxq_GAA4ViewAAMc
++ _$s7SwiftUI6ButtonV6action5labelACyxGyyc_xyXEtcfC
++ _$s7SwiftUI6ButtonVMn
++ _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
++ _$s7SwiftUI6LayoutMp
++ _$s7SwiftUI6LayoutP05_makeC4View4root6inputs4bodyAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVAA01_e4ListI0VAA01_J0V_ANtXEtFZTq
++ _$s7SwiftUI6LayoutP11updateCache_8subviewsy0E0Qzz_AA0C8SubviewsVtFTq
++ _$s7SwiftUI6LayoutP12sizeThatFits8proposal8subviews5cacheSo6CGSizeVAA16ProposedViewSizeV_AA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP13placeSubviews2in8proposal8subviews5cacheySo6CGRectV_AA16ProposedViewSizeVAA0cE0V5CacheQzztFTq
++ _$s7SwiftUI6LayoutP16layoutPropertiesAA0cE0VvgZTq
++ _$s7SwiftUI6LayoutP17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA010HorizontalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA08VerticalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP7spacing8subviews5cacheAA11ViewSpacingVAA0C8SubviewsV_5CacheQzztFTq
++ _$s7SwiftUI6LayoutP9makeCache8subviews0E0QzAA0C8SubviewsV_tFTq
++ _$s7SwiftUI6LayoutPAA10AnimatableTb
++ _$s7SwiftUI6LayoutPAAE05_makeC4View4root6inputs4bodyAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVAA01_e4ListI0VAA01_J0V_ANtXEtFZ
++ _$s7SwiftUI6LayoutPAAE11updateCache_8subviewsy0E0Qzz_AA0C8SubviewsVtF
++ _$s7SwiftUI6LayoutPAAE16layoutPropertiesAA0cE0VvgZ
++ _$s7SwiftUI6LayoutPAAE17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA010HorizontalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztF
++ _$s7SwiftUI6LayoutPAAE17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA08VerticalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztF
++ _$s7SwiftUI6LayoutPAAE7spacing8subviews5cacheAA11ViewSpacingVAA0C8SubviewsV_5CacheQzztF
++ _$s7SwiftUI6SliderVA2A9EmptyViewVRszAERs_rlE5value2in4step16onEditingChangedACyA2EGAA7BindingVyqd__G_SNyqd__G6StrideQyd__ySbctcSBRd__SBAPRQlufC
++ _$s7SwiftUI6SliderVMn
++ _$s7SwiftUI6SliderVyxq_GAA4ViewAAMc
++ _$s7SwiftUI6SpacerVMn
++ _$s7SwiftUI6VStackVMn
++ _$s7SwiftUI6VStackVyxGAA4ViewAAMc
++ _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
++ _$s7SwiftUI8MaterialV9ultraThinACvgZ
++ _$s7SwiftUI8SolariumVAA18ViewInputPredicateAAWP
++ _$s7SwiftUI8SolariumVACycfC
++ _$s7SwiftUI8SolariumVMn
++ _$s7SwiftUI8SolariumVN
++ _$s7SwiftUI8StaticIfVA2A18ViewInputPredicateRzAA0E0R_AaER0_rlE_4thenACyxq_AA05EmptyE0VGx_q_yXEtcAHRs0_rlufC
++ _$s7SwiftUI8StaticIfVMn
++ _$s7SwiftUI8StaticIfVyxq_q0_GAA4ViewA2A0E14InputPredicateRzAaER_AaER0_rlMc
++ _$s7SwiftUI9AlignmentV14bottomTrailingACvgZ
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s7SwiftUI9AnimationV6spring8response15dampingFraction13blendDurationACSd_S2dtFZ
++ _$s7SwiftUI9EmptyViewVAA0D0AAWP
++ _$s7SwiftUI9EmptyViewVMn
++ _$s7SwiftUI9EmptyViewVN
++ _$s7SwiftUI9UnitPointV10topLeadingACvgZ
++ _$s7SwiftUI9UnitPointV6centerACvgZ
++ _$s7Symbols19ReplaceSymbolEffectVAA0cD0AAMc
++ _$s7Symbols19ReplaceSymbolEffectVACycfC
++ _$s7Symbols19ReplaceSymbolEffectVMa
++ _$s7Symbols19SymbolEffectOptionsV7defaultACvgZ
++ _$s7Symbols19SymbolEffectOptionsVMa
++ _$s8Dispatch0A3QoSV0B6SClassO7utilityyA2EmFWC
++ _$s8IteratorSTTl
++ _$sSD10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo12NSDictionaryC_SDyxq_GSgztFZ
++ _$sSK5index6before5IndexQzAD_tFTj
++ _$sSS9hasSuffixySbSSF
++ _$sST12makeIterator0B0QzyFTq
++ _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
++ _$sST19underestimatedCountSivgTq
++ _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
++ _$sST31_customContainsEquatableElementySbSg0D0QzFTq
++ _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
++ _$sST8IteratorST_StTn
++ _$sSTMp
++ _$sSTs8IteratorSTQzRszrlE04makeA0xyF
++ _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF
++ _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF
++ _$sSa26DocumentManagerExecutablesSo7DOCNodeRzlE13fetchURLPairsyyySaySoAB_p4node_10Foundation3URLV3urltGcF
++ _$sSa26DocumentManagerExecutablesSo7DOCNodeRzlE9fetchURLsyyySay10Foundation3URLVGcF
++ _$sSa29_hoistableIsNativeTypeCheckedSbyF
++ _$sSa6insert_2atyxn_SitF
++ _$sSa8endIndexSivg
++ _$sSa9_getCountSiyF
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
++ _$sSayxSicig
++ _$sScG17makeAsyncIteratorScG0C0Vyx_GyF
++ _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaF
++ _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScG8IteratorVMn
++ _$sSdSBsMc
++ _$sShMa
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC
++ _$sShyxGSTsMc
++ _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTj
++ _$sSl7isEmptySbvgTj
++ _$sSlsE6prefix4upTo11SubSequenceQz5IndexQz_tF
++ _$sSo11PermissionsVSH26DocumentManagerExecutablesMc
++ _$sSo11UIImageViewC5UIKitE14setSymbolImage_17contentTransition7options10completionySo0A0C_x7Symbols0E13EffectOptionsVyAC08UISymbolL17CompletionContextVcSgtAJ07ContentheL0RzAJ0eL0RzlF
++ _$sSo13FPItemManagerC08DocumentB11ExecutablesE17scheduleOperationyyAC04SomeF0_pF
++ _$sSo16UITabSidebarItemC5UIKitE11accessoriesSayAC15UICellAccessoryVGvs
++ _$sSo16UITabSidebarItemC5UIKitE20contentConfigurationAC09UIContentF0_pvs
++ _$sSo16UITabSidebarItemC5UIKitE27defaultContentConfigurationAC06UIListfG0VyF
++ _$sSo16UITabSidebarItemC5UIKitE7ContentO3tabyAESo0A0CcAEmFWC
++ _$sSo16UITabSidebarItemC5UIKitE7ContentOMa
++ _$sSo16UITabSidebarItemC5UIKitE7contentAbCE7ContentOvg
++ _$sSo16UIViewControllerC5UIKitE23registerForTraitChanges_6actionSo25UITraitChangeRegistration_pSayAC0I10Definition_pXpG_10ObjectiveC8SelectorVtF
++ _$sSo22DOCFileRenamingSupportC26DocumentManagerExecutablesE07_renameD16IfNotRateLimited5atURL7newName14hostIdentifier10completionySo22FPSandboxingURLWrapperC_S2SyAJSg_s5Error_pSgtctFZ
++ _$sSo23UIDocumentBrowserActionC26DocumentManagerExecutablesE27compositeIdentifierForMenusSo08UIActionH0avg
++ _$sSo23UIDocumentBrowserActionC26DocumentManagerExecutablesE31preferredLocalizedTitleForMenusSSvg
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlF
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlFTu
++ _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
++ _$sSo6UIViewC5UIKitE23registerForTraitChanges_6actionSo25UITraitChangeRegistration_pSayAC0H10Definition_pXpG_10ObjectiveC8SelectorVtF
++ _$sSo6UIViewC5UIKitE26cornerMaskingConfigurationAC09_UICornerdE0VSgvs
++ _$sSo6UIViewC7SwiftUIE7animate_7changes10completionyAC9AnimationV_yyXEyycSgtFZ
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE16canBeAddedToDockSbvg
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE16fpfs_fetchFINode10completionyySo0G0CSgc_tF
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE16isParentRootItemSbvg
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE19parentIdentifierKeys11AnyHashableVSgvg
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE20fpfs_syncFetchFINodeSo0H0CSgyF
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE26fpfs_syncFetchFPItemResults0I0OySo0H0Cs5Error_pGyF
++ _$sSo7DOCNodeP26DocumentManagerExecutablesE9addToDockyyF
++ _$sSo8UIButtonC5UIKitE13ConfigurationV14TitleAlignmentO8trailingyA2GmFWC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV18titleLineBreakModeSo06NSLinefG0Vvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV25indicatorColorTransformerAC015UIConfigurationeF0VSgvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV30titleTextAttributesTransformerAC015UIConfigurationefG0VSgvs
++ _$sSo8_NSRangeV10FoundationE_2inABx_q_tcSXRzSyR_SS5IndexV5BoundRtzr0_lufC
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSt4next7ElementQzSgyFTq
++ _$sStMp
++ _$ss10ArraySliceVMa
++ _$ss10ArraySliceVyxGSTsMc
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF
++ _$ss18_DictionaryStorageCMa
++ _$ss19__EmptyArrayStorageC17staticElementTypeypXpvg
++ _$ss21StrideThroughIteratorVMn
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lF
++ _$ss23_ContiguousArrayStorageCMa
++ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF
++ _$ss5NeverO7SwiftUI4ViewACWP
++ _$sxSgSHsSHRzlMc
++ _CFUUIDCreateString
++ _CFUserNotificationCreate
++ _CFUserNotificationReceiveResponse
++ _CGAffineTransformScale
++ _CGImageSourceCreateWithData
++ _CGImageSourceGetType
++ _DADiskCopyDescription
++ _DARegisterDiskAppearedCallbackBlock
++ _DARegisterDiskDescriptionChangedCallbackBlock
++ _DARegisterDiskDisappearedCallbackBlock
++ _DASessionCreate
++ _DASessionSetDispatchQueue
++ _DOCDocumentSourceIdentifierICloud
++ _DOCDocumentSourceIdentifierICloudManaged
++ _DOCItemCollectionViewBeginTypeSelect
++ _DOCSBFolderSentinelTypeIdentifier
++ _DOCUIDeferredMenuIdentifierOpenWith
++ _NSOSStatusErrorDomain
++ _OBJC_CLASS_$_CAPortalLayer
++ _OBJC_CLASS_$_CSUIBindable
++ _OBJC_CLASS_$_CSUIOpenWithFlow
++ _OBJC_CLASS_$_CSUISetHandlerFlow
++ _OBJC_CLASS_$_FIArchiveOperation
++ _OBJC_CLASS_$_FICopyOperation
++ _OBJC_CLASS_$_FIMoveOperation
++ _OBJC_CLASS_$_FIOperationReply
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSThread
++ _OBJC_CLASS_$_NUISizeCache
++ _OBJC_CLASS_$_UIBandSelectionInteraction
++ _OBJC_CLASS_$_UIDeferredMenuElementProvider
++ _OBJC_CLASS_$_UITab
++ _OBJC_CLASS_$_UITabGroup
++ _OBJC_CLASS_$_UITabSidebarItem
++ _OBJC_CLASS_$__UICollectionViewListCell
++ _OBJC_CLASS_$__UIContentViewEditingConfiguration
++ _OBJC_CLASS_$__UIContentViewEditingState
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_METACLASS_$_UICollectionViewLayoutAttributes
++ _OBJC_METACLASS_$_UIScrollView
++ _OBJC_METACLASS_$__UICollectionViewListCell
++ _UIApplicationSignificantTimeChangeNotification
++ _UIContentSizeCategoryDidChangeNotification
++ _UIDocumentBrowserActionIdentifierAddToDock
++ _UIDocumentBrowserActionIdentifierCopyiCloudLink
++ _UIDocumentBrowserActionIdentifierCreateiCloudLink
++ _UIDocumentBrowserActionIdentifierFolderCustomization
++ _UIFontTextStyleCallout
++ _UIFontTextStyleCaption2
++ _UIRectCenteredYInRect
++ __UIDocumentCreationIntentForActionIdentifier
++ __UIDocumentCreationIntentPasteboard
++ __UIOneOfTypesConformsToAcceptableTypes
++ __UISolariumEnabled
++ __UISolariumFeatureFlagEnabled
++ __availability_version_check
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _kCAContentsFormatAutomaticSPI
++ _kCFAllocatorDefault
++ _kCFUserNotificationAlertHeaderKey
++ _kCFUserNotificationAlertMessageKey
++ _kCFUserNotificationAlternateButtonTitleKey
++ _kCFUserNotificationDefaultButtonTitleKey
++ _kCFUserNotificationOtherButtonTitleKey
++ _kDADiskDescriptionDeviceUnitKey
++ _kDADiskDescriptionMediaBSDNameKey
++ _kDADiskDescriptionMediaRemovableKey
++ _kDADiskDescriptionRepairRunningKey
++ _kDADiskDescriptionVolumeNameKey
++ _kDADiskDescriptionVolumeUUIDKey
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _swift_deallocUninitializedObject
++ _swift_getAtKeyPath
++ _swift_getTupleTypeMetadata
+- _$s10Foundation15AttributeScopesO0A10AttributesV024InlinePresentationIntentB0OMn
+- _$s10Foundation15AttributeScopesO0A10AttributesV24inlinePresentationIntentAE06InlinefgB0Ovg
+- _$s10Foundation15AttributeScopesO0A10AttributesV24inlinePresentationIntentAE06InlinefgB0OvpMV
+- _$s10Foundation15AttributeScopesO0A10AttributesVMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV04FontB0OMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0Ovg
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0OvpMV
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesVMn
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s10Foundation16AttributedStringV4RunsV3RunV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcI0Rzluig
+- _$s10Foundation19AttributedSubstringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0b6StringG0Rzluis
+- _$s10Foundation22AttributeDynamicLookupO13dynamicMemberxs7KeyPathCyAA0B6ScopesO0A10AttributesVxG_tcAA016AttributedStringG0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO13dynamicMemberxs7KeyPathCyAA0B6ScopesO0A10AttributesVxG_tcAA016AttributedStringG0RzluipMV
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
+- _$s10Foundation22AttributeDynamicLookupOMn
+- _$s12CoreGraphics7CGFloatVs7CVarArgAAMc
+- _$s26DocumentManagerExecutables11LaunchUtilsV0D6ActionO20installConfigurationyA2EmFWC
+- _$s26DocumentManagerExecutables11LaunchUtilsV0D6ActionO9openInAppyAESo19LSApplicationRecordC_SStcAEmFWC
+- _$s26DocumentManagerExecutables11LaunchUtilsV0D6ActionO9quicklookyA2EmFWC
+- _$s26DocumentManagerExecutables11LaunchUtilsV0D6ActionOMa
+- _$s26DocumentManagerExecutables11LaunchUtilsV12launchAction3for15urlManagedState16providerBundleId012appContainermN013requireOpenIn15preferQuickLookAC0dG0OSo6FPItemC_So012DOCDataOwnerK0VSSSgAQS2btFZ
+- _$s26DocumentManagerExecutables11LaunchUtilsV14allOpeningApps3for18requireOpenInPlaceSaySo19LSApplicationRecordCGSgSo15LSDocumentProxyC_SbtFZ
+- _$s26DocumentManagerExecutables11LaunchUtilsV15tryOpeningInApp21applicationIdentifier3url4item0L12ManagedState011requireOpenH015alertPresenting15completionBlockySS_10Foundation3URLVSo6FPItemCSgSo012DOCDataOwnerO0VSbSo16UIViewControllerCySbctFZ
+- _$s26DocumentManagerExecutables11LaunchUtilsV22tryOpeningInDefaultApp_4item011requireOpenH5Place15preferQuickLook15alertPresenting15completionBlocky10Foundation3URLV_So6FPItemCSgS2bSo16UIViewControllerCySbctFZ
+- _$s26DocumentManagerExecutables11LaunchUtilsV28bundleIdentifierOfDefaultApp3forSSSgSo6FPItemC_tFZ
+- _$s26DocumentManagerExecutables14DOCUSBRenamingC13performRename6source14newDisplayName15alertPresenting25requiresAlertPresentation10completion13finishedBlockySo17DOCDocumentSourceC_SSSo16UIViewControllerCSbys5Error_pSgcySo6FPItemCSg_APtcSgtFTj
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0O010compatibleE5ModesSayACGvg
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0O32accessibilityIdentifierComponentSSvg
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0O4nameyA2EmFWC
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0O4tagsyA2EmFWC
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0O8rawValueSSvg
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0OMn
+- _$s26DocumentManagerExecutables15DOCItemSortModeO011DisplayableF0OSHAAMc
+- _$s26DocumentManagerExecutables16updateLogHandlerSo9OS_os_logCvg
+- _$s26DocumentManagerExecutables18DOCRenameOperationC4item11newFileName04undoB0ACSo6FPItemC_SSSo07DOCUndoB0CtcfC
+- _$s26DocumentManagerExecutables18DOCRenameOperationC4item14newDisplayName04undoB0ACSo6FPItemC_SSSo07DOCUndoB0CtcfC
+- _$s26DocumentManagerExecutables23DOCAnalyticsActionEventV12FileProviderO5itemsAESaySo6FPItemCG_tcfC
+- _$s26DocumentManagerExecutables24DOCCreateFolderOperationC10folderItemSo6FPItemCSgvsTj
+- _$s26DocumentManagerExecutables24DOCCreateFolderOperationC10parentItem10folderName04undoB0ACSo6FPItemC_SSSo07DOCUndoB0Ctcfc
+- _$s26DocumentManagerExecutables24DOCCreateFolderOperationC24isFilenameCollisionErrorySbs0J0_pFZ
+- _$s26DocumentManagerExecutables24DOCCreateFolderOperationCMn
+- _$s26DocumentManagerExecutables24DOCUserActivityFPItemKeySSvg
+- _$s26DocumentManagerExecutables25DOCAnalyticsAPIAbuseEventV0F4TypeO13nameCollisionyA2EmFWC
+- _$s7SwiftUI16TagValueTraitKeyV0D0OMn
+- _$s7SwiftUI16TagValueTraitKeyVMn
+- _$s7SwiftUI21_TraitWritingModifierVMn
+- _$s7SwiftUI8MaterialVMa
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC
+- _$sSH9hashValueSivgTj
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSa26DocumentManagerExecutablesSo7DOCNodeRzlE20fpfs_fetchAllFPItems10completionyySaySo6FPItemCGSgc_tF
+- _$sSo12UIBezierPathC26DocumentManagerExecutablesE11document_44ABvgZ
+- _$sSo12UIBezierPathC26DocumentManagerExecutablesE11document_84ABvgZ
+- _$sSo12UIBezierPathC26DocumentManagerExecutablesE6folderABvgZ
+- _$sSo12UIBezierPathC26DocumentManagerExecutablesE8documentABvgZ
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlF
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlFTu
+- _$ss10AnyKeyPathCSHsWP
+- _$ss10AnyKeyPathCSQsWP
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
+- _OBJC_CLASS_$_DOCNodeThumbnailIdentifier
+- _OBJC_CLASS_$_LSDocumentProxy
+- _UIApplicationDidReceiveMemoryWarningNotification
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _kCAContentsFormatAutomatic
+- _kISImageDescriptorTableUIName
+- _objc_retain_x13
+- _swift_isUniquelyReferenced_native
+CStrings:
++ "  --collectionView.canBecomeFirstResponder: %{bool}d, firstResponder is: %s"
++ "  --couldn't resign firstResponder"
++ "  --try to make CV first responder (success: %{bool}d)"
++ "  WARNING: 'new from clipboard' only supports Secure Paste if presented as a menu item.\n  Contact DocumentManager team if you need to present 'new from clipboard' as a button."
++ " cleanup"
++ "$__lazy_storage_$_favoritesManager"
++ "$__lazy_storage_$_locationManager"
++ "$__lazy_storage_$_menuButton"
++ "$__lazy_storage_$_moveTypeLabel"
++ "$__lazy_storage_$_outlineManager"
++ "$__lazy_storage_$_serversManager"
++ "$__lazy_storage_$_sharedRootLevelTabs"
++ "$__lazy_storage_$_syncingMetadataImageView"
++ "$__lazy_storage_$_tagsController"
++ "$__lazy_storage_$_tagsManager"
++ "$__lazy_storage_$_topView"
++ "%@: %@, registering '%@' with type %@"
++ "%@: Did successfully drop %{public}@ under %{public}@"
++ "%@: Failed to create copy operation"
++ "%@: Failed to drop items under %{public}@"
++ "%@: Failed to fetch parent node %@ - %@"
++ "%@: Failed to unarchive a node. Error: %@"
++ "%@: No operation to perform on these nodes"
++ "%@: No sourceURLs and no sourceNodes, ending operation: %@"
++ "%@: Unable to get fpItem from node: %@"
++ "%@: failed to create copy operation"
++ "%@: got %d nodes; drop session had %d items"
++ "%d.%d.%d"
++ "%s - failed to save default size slider value, state store was nil"
++ "%s Can perform key command with action '%s': %{bool}d"
++ "%s Can't drag the create button. indexPath: %s"
++ "%s Could not get FPItem duplication source node %s"
++ "%s Could not open invitation for node: %s"
++ "%s Duplication from Quick Look failed. Error: %s"
++ "%s Item cannot be resolved from indexPath: %s"
++ "%s No item to drag at. indexPath: %s"
++ "%s Requested move finished with success: %{bool}d moved: %s nodes. Nodes: %s"
++ "%s Requested to move %ld nodes. Moving %ld eligible to newly created folder: %s"
++ "%s The parent item of this item collection no longer exists: %@"
++ "%s Type to Focus: establishing collectionView first responder. Current firstResponder: %s and self: %s"
++ "%s add node to dock: %s"
++ "%s becomeFocused--collectionView wants keyboard focus: %{bool}d, collectionView is first responder: %{bool}d"
++ "%s can't bump last used date of previewItem: %s"
++ "%s collectionViewResignedFR: %{bool}d, becameFirstResponder: %{bool}d"
++ "%s could not get URL for node: %s"
++ "%s currentEventIsTrackpad=%{bool}d"
++ "%s in item collection view controller, success: %{bool}d, on success told CV to resignFocus: %{bool}d, self: %@"
++ "%s in item collection view controller: %{bool}d, collection view: %@"
++ "%s indexPath: %s"
++ "%s item collection view controller canBecome: %{bool}d"
++ "%s node: %s cannot be added to the drag because it is already part of the drag"
++ "%s performNodeRename completed"
++ "%s saving new size slider with raw value: %@ to defaults"
++ "%s shouldSelectInsteadOfOpen=true selecting instead of opening if not already selected"
++ "%s sizeSetting property is nil, returning default sizeSliderValue: %f"
++ "%s state store was nil, returning default sizeSliderValue: %f"
++ "%s tMICVC will NOT forward, "
++ "%s tMICVC: %@   isFirstResponder: %{bool}d, WILL forward if possible"
++ "%s will make self or collection view first responder. self: %s"
++ "%s: %s; effectiveTabSwitcherTab matches tab, finishing test after commit"
++ "%s: %s; tab already in loadedTabs, finishing test after commit"
++ "%s: Conflict occurred. Hook up OperationConflict support. Canceling the op for now: %@, conflict: %s"
++ "%s: Failed to get BSD name for disk %s, can't create progress indicator"
++ "%s: Failed to reveal folder for item: %s. Error: %s"
++ "%s: Item cannot be dragged because doc_isAppContainerRoot=true"
++ "%s: Item cannot be dragged because doc_isCollaborationInvitation=true"
++ "%s: Item cannot be dragged because isReadable=false"
++ "%s: Item cannot be dragged because it does not support drag"
++ "%s: No items, disabling context menu action for Recently Deleted."
++ "%s: Performing context menu action for Recently Deleted."
++ "%s: Progress for domain (%s) was updated to %f"
++ "%s: Registering progress for %s"
++ "%s: Removing subscriber progress for %s"
++ "%s: Restore from folderNode: %s"
++ "%s: Restore from quick look node: %s"
++ "%s: can't fetch root node for : %s."
++ "%s: could not get currently previewed node to rename to %s. currentPreviewItem == %s "
++ "%s: failed to encode URL: %s as data: %@"
++ "%s: finished block has been called for renaming %s with renamed node: %s"
++ "%s: finished block has been called for renaming %s without DOCNode"
++ "%s: got nil URL for item: %s. Error: %s"
++ "%s: providing: %s with type: %s"
++ "%{public}@ -- destination: %{public}@, sources: %{public}@, permissions: %{public}@"
++ "%{public}s: Restore from quick look items: %{public}s"
++ "%{public}s: got nil URL for node: %{public}s. Error: %s"
++ "%{public}s: location: %{public}s."
++ "%{public}s: nodes was empty."
++ "%{public}s: stateRestorationActivity contained no restorable state: %@"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@\"DOCItemCollectionObserver\""
++ "@\"DOCItemCollectionObserver\"16@0:8"
++ "@\"DOCItemCollectionSubscriber\""
++ "@\"DOCItemCollectionSubscriber\"16@0:8"
++ "@\"FIOperationReply\"24@?0@\"FIOperation\"8@\"FIOperationError\"16"
++ "@\"ISIcon\"16@0:8"
++ "@\"NSArray\"48@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDragSession>\"32@\"UITab\"40"
++ "@\"NSMutableAttributedString\"16@?0@\"NSAttributedString\"8"
++ "@\"NSObject<DOCNode>\"16@0:8"
++ "@\"NSSet\"16@0:8"
++ "@\"NSString\"32@0:8@\"UICollectionView\"16@\"NSIndexPath\"24"
++ "@\"UIContextMenuConfiguration\"40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UITab\"32"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UISwipeActionsConfiguration\"40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UITab\"32"
++ "@\"UITabSidebarItem\"40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UITabSidebarItemRequest\"32"
++ "@\"UIViewController\"16@?0@\"UITab\"8"
++ "@\"UIViewController\"24@0:8@\"UITab\"16"
++ "@\"UIViewController\"24@0:8@\"_TtC5Files23DOCTabSidebarDataSource\"16"
++ "@\"UIViewController\"8@?0"
++ "@\"_TtC5Files23DOCTabSidebarController\""
++ "@\"_UIContentViewEditingState\"16@?0@\"_UIContentViewEditingState\"8"
++ "@28@0:8@16B24"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Adding copy operation %s"
++ "Always Open With"
++ "Attaching Disk: "
++ "Attempted to sort by %@ but this sort mode is not supported by the current source"
++ "B16@?0@\"_UIContentViewEditingState\"8"
++ "B24@0:8@\"NSSet\"16"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "Button %s"
++ "Button title for the action of recovering ('un-deleting') a trashed node"
++ "Button title to copy iCloud link of selected item"
++ "Button title to create iCloud link of selected item"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CSUIBoundBundleInfo"
++ "CSUIOpenWithFlowDelegate"
++ "CSUIOpenWithMenuConstructorDelegate"
++ "CSUISetHandlerFlowDelegate"
++ "Cannot load parent: Error fetching parent of node %s error %s"
++ "Cannot perform an operation with both sourceURLs and sourceNodes"
++ "Collection view asked for cell for item %s at index path %s but none was returned [self was deallocated]."
++ "Collection view asked for supplementary view of kind %s at index path %s but none was returned [self was deallocated]."
++ "Collection view asked for supplementary view of kind %s at index path %s but none was returned."
++ "Constructor selected app store item"
++ "ContentSizeCategory"
++ "Conversion of node: %s failed"
++ "Copy iCloud Link"
++ "Couldn't open using "
++ "Create iCloud Link…"
++ "Custom [Size Setting]"
++ "Customize Folder & Tags [button]"
++ "Customize Folder & Tags…"
++ "DEBUG: Checking configuration settings:"
++ "DEBUG: Creating TabSidebarDataSource with configuration:"
++ "DEBUG: DataSource startObserving called"
++ "DEBUG: hiddenSourcesIdentifiers: "
++ "DEBUG: updateSection called"
++ "DOCBrowserLayoutConfiguration"
++ "DOCCollectionElementOutlineHeader"
++ "Default file name when creating pasteboard-based documents on behalf of a Doc-Based app"
++ "Defering reloadCollection, they are still batch updates running (%ld remaining)"
++ "Delete Tag ”%@“"
++ "DisclosureTriangle"
++ "ERROR: sortHeaderTitle(...) must be provided a sortMode or a sectionTitle"
++ "Error building always open with menu: "
++ "Error building open with menu: "
++ "Error preparing always open with menu: "
++ "Error preparing open with menu: "
++ "Error unarchiving item: %@. Error: %s"
++ "Error when trying to get fetch the url for node %@"
++ "Error when trying to get fetch the url for node %@ error %@"
++ "Error when trying to get the root node for the provider %@"
++ "Error when trying to get the root node for the provider %@ error %@"
++ "Error while cleaning up temporary folder: %s error: %s"
++ "Failed setup %s copyOperation error: %s"
++ "Failed setup %s. couldn't create copy op for %s and %s"
++ "Failed teardown, couldn't fech URL for %s, error: %@"
++ "Failed teardown, failed to get the root node for %s"
++ "Failed test %s. could not create copy operation"
++ "Failed test %s. could not get root node"
++ "Failed to commit tag rename from %s to %s"
++ "Failed to copy iCloud link: %s"
++ "Failed to delete tag: %s"
++ "Failed to fetch FINode to reveal from URL: %s"
++ "Failed to fetch URL for: %{public}s error: %s"
++ "Failed to init DOCNodeCollection. Could not get an FINode or FPItem to enumerate: "
++ "Failed to set handler preference of type "
++ "FileSystemCollection"
++ "Files-OpenSync"
++ "Files-buildingNodes"
++ "Files.DOCFolderIconCustomizationApplicator"
++ "Files.DOCHostedCreateDocumentBarButtonItem"
++ "Files.DOCHostedCreateDocumentOptions"
++ "Files.DOCItemRowView"
++ "Files.DOCTabSidebarController"
++ "Files.DOCTabSidebarDataSource"
++ "Files.DOC_FIArchiveOperation"
++ "Files.DOC_FICopyOperation"
++ "Files.DOC_FIMoveOperation"
++ "Files.EjectStateDelegate"
++ "Files.RootVStack"
++ "Files/DOCDefaultSourceUIManager.swift"
++ "Files/DOCDragAndDropUtilities.swift"
++ "Files/DOCGridLayoutEnvironment+SpecTables.swift"
++ "Files/DOCItemCollectionCell_Outline.swift"
++ "Files/DOCItemCollectionViewController+AppIntents.swift"
++ "Files/DOCNodeCollection.swift"
++ "Files/DOCRemovableMediaStateSidebarCellAccessoryItem.swift"
++ "Files/DOCServiceInfoViewController.swift"
++ "Files/DOCTabSidebarController.swift"
++ "Files/DeepLinkNavigator.swift"
++ "Files/OutlineDateFormatter.swift"
++ "Files/OutlineGradientView.swift"
++ "Files/OutlineHeaderView.swift"
++ "Files/UIContentUnavailableConfiguration+DOCAdditions.swift"
++ "Files25"
++ "Filtered to %ld valid sources"
++ "Filtering item: %s with invalid URL: %s from QL data source"
++ "Filtering out configuration specified hidden source: %s"
++ "Filtering out hidden source: %s"
++ "Filtering out source with nil providerDomain: %s"
++ "Focusing DOCItemCollectionViewController %s -- if no more logging then (isFirstResponder && isInKeyWindow) is true"
++ "Getting current collection for item %s"
++ "Getting current collection for url %s"
++ "Getting item from the cache item %s url %s"
++ "Getting transition controller for item %s collection %@"
++ "I28@?0@\"FIOperation\"8I16@\"FIOperationRecord\"20"
++ "Key command discovery title for 'Collapse All'"
++ "Key command discovery title for 'Expand All'"
++ "Label shown in the Info View for setting the default app for the node"
++ "Menu title for Add To menu group"
++ "Menu title for Open With menu "
++ "New document from clipboard title"
++ "New from Clipboard"
++ "No node found. Failed to handle copy iCloud link action."
++ "No node url found. Failed to handle copy iCloud link action."
++ "No node url found. Failed to handle create iCloud link action. Error: %s"
++ "No nodes or urls"
++ "No valid presentingViewController found. Can't present create iCloud link view controller."
++ "Open"
++ "Open sync ended %@"
++ "Opened app store"
++ "Optional<UserInterfaceSizeClass>"
++ "Preloading model for %ld nodes"
++ "ProductVersion"
++ "Q24@0:8@\"CSUISetHandlerFlow\"16"
++ "Q56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UIAction\"32@\"UITabGroup\"40@\"<UIDropSession>\"48"
++ "Q56@0:8@16@24@32@40@48"
++ "QuickLookAllDocumentsInFilesFirstForPPT"
++ "Renaming folder: %s to: %s failed with error: %@"
++ "Renaming source: %@ to: %s failed with error: %@"
++ "Returning bad initial collection view size (%f, %f) for %@ (parent: %@, itemCollection: %@"
++ "Session ended - "
++ "Set handler preference of type "
++ "Setting %ld final items in locations section"
++ "Source marked as visited: %s"
++ "Source visibility changed: Source: %s Hidden: %{bool}d Status: %lu isVisited: %{bool}d"
++ "Starting handleSourceUpdate with %ld sources"
++ "String to display in Info/Metadata View as a placeholder while building always open with menu"
++ "T@\"<DOCNode>\",N,&,VlastOpenedNode"
++ "T@\"<DOCNode>\",N,&,VlastSelectedNode"
++ "T@\"DOCFullDocumentManagerViewController\",&,V_fullBrowserViewController"
++ "T@\"DOCItemCollectionObserver\",&,V_trashObserver"
++ "T@\"DOCItemCollectionObserver\",N,&"
++ "T@\"DOCItemCollectionObserver\",N,&,VtrashObserver"
++ "T@\"DOCItemCollectionSubscriber\",&,V_trashSubscriber"
++ "T@\"DOCItemCollectionSubscriber\",N,&"
++ "T@\"DOCItemCollectionSubscriber\",N,&,VtrashSubscriber"
++ "T@\"ISIcon\",R,N"
++ "T@\"NSURL\",R"
++ "T@\"UIImage\",R"
++ "T@\"_TtC5Files23DOCTabSidebarController\",&,V_tabSidebarController"
++ "T@\"_TtC5Files25DOCOpenWithMenuController\",N,R"
++ "TAP] [Interaction] Could not open invitation for %s"
++ "TB,N,R,VshowTopAndBottomSeparator"
++ "Tab after commit effectiveTabSwitcherTab: %s"
++ "TabSidebar count of ids: %ld, but unique count is only: %ld. De-duping applied."
++ "Tag successfully deleted: %s"
++ "Tap and Click Behavior"
++ "The current collection %@ doesn't contain item %s"
++ "The tag \"%@\" will be deleted and removed from %ld items"
++ "Title Icon and List Size's 'Custom' Setting"
++ "Title for deleting a tag with given name"
++ "Title for renaming a folder with given name"
++ "Title for renaming a tag with given name"
++ "Title for the action to add folder to the Dock"
++ "Title for the action to add folder to the Dock in the 'Add To' menu"
++ "Title for the action to favorite a folder"
++ "Title for the action to favorite a folder in the 'Add To' submenu"
++ "Title for the footer view sync state when there is an active metadata sync and no progress"
++ "Title shown in the menuController for the action of editing the tags and icon of a folder"
++ "Title shown in the menuController for the action of opening a new window from the sidebar"
++ "UIDocumentBrowserAction.present() - Expected VC with modalPresentationStyle == .popover to have a PPC!"
++ "UIDocumentBrowserAction.present() - popover presentations must have a PPC configure block"
++ "UITabBarControllerSidebarDelegate"
++ "URL: %s copied to pasteboard."
++ "USB: Converting external drive source to disconnected item"
++ "USB: Found %ld USB sources, prewarming StorageKit"
++ "USB: Found erase operation: %@"
++ "USB: Operation not finished for source: %s"
++ "USB: Processing USB operations"
++ "USB: Processing external drive source: %s"
++ "USB: Replaced source with disconnected item at index: %ld"
++ "Unable to access file at URL: %s. Error: %s"
++ "Unable to copy url: %s into: %s error: %s"
++ "Unable to create document from pasteboard - error saving to staging location: %@"
++ "Unable to create document from pasteboard - import failed to provide the imported URL"
++ "Unable to create document from pasteboard - import failed with error: %@"
++ "Unable to create document from pasteboard - no data returned for: %s"
++ "Unable to create document from pasteboard - pasteboard contains no: %s"
++ "Unable to create document from pasteboard - unable to determine content / extension"
++ "Unable to create image document from pasteboard - unable to determine image type"
++ "Unable to create temporary directory at: %s appropriate for URL: %s error: %s"
++ "Unable to fetch URL for node: %s error: %s"
++ "Unable to make first responder: %@"
++ "Unable to obtain root item URL for root item %s"
++ "Unable to obtain root item URL for root node (%{public}@) for resolving named location '%@', with error: %@"
++ "Unable to replace the file at imported URL: %s with new edited copy at URL: %s. Error: %s"
++ "Unarchive operation ended with result item: %s"
++ "Unexpected item type "
++ "Unsupported item collection type: .dockFolderApp"
++ "Updating items origin on collection view, since it has changed in the item collection: %lu"
++ "Updating the stackMetrics for horizontal class %ld. New dateWidth: %f sizeWidth: %f kindWidth: %f"
++ "ViewOptionsViewController dismissed"
++ "[Content Unavailable] %s: collection %@ did encounter error %s"
++ "[Interaction] 3 %s on: %s predicate: %s"
++ "[Interaction] Clearing last opened item after `tryOpeningInDefaultApp` in 'validateItemSelectionAndPerformDidPickIfNeeded()': %s"
++ "[Interaction] Clearing last opened node previous node: %s"
++ "[Interaction] Clearing last selected node. Previous node was: %s"
++ "[Interaction] Clearing lastOpenedNode in DOCTabbedBrowserVC viewWillDisappear"
++ "[Interaction] Clearing lastOpenedNode in `endTransition`"
++ "[Interaction] Clearing lastOpenedNode in `openSelectedNode` (opened in default app)"
++ "[Interaction] Clearing lastOpenedNode in documentBrowser:didPickDocumentsAt: (focus on existing scene)"
++ "[Interaction] Clearing lastOpenedNode in documentBrowser:didPickDocumentsAt: (focus on existing window scene) "
++ "[Interaction] Clearing lastOpenedNode in documentBrowser:didPickDocumentsAt: (opened in an other app)"
++ "[Interaction] Clearing lastOpenedNode in documentBrowser:didPickImportedURLs: (opened in an other app)"
++ "[Interaction] Clearing lastOpenedNode: Got a nil url from fetchURL for node: %s error: %s"
++ "[Interaction] Keeping track of last opened node in 'openSelectedNode()': %s"
++ "[Interaction] Node already has URL, opening directly"
++ "[Interaction] Node is a FPItem, fetching URL"
++ "[Interaction] Setting the last opened node: %s"
++ "[Interaction] Setting the last selected node: %s"
++ "[Interaction] update scene activation conditions"
++ "[Interaction] update scene activation conditions on: %s for no presented view controller"
++ "[REVEAL]: %s Could not fetchURLPairs or get an item to search for. Nodes provided: %s, URLPairs: %s"
++ "[REVEAL]: revealing items: %{public}s source: %s"
++ "[Restorable Settings] Not storing vertical offset since it's too big (%f %f"
++ "[Restorable Settings] Restoring settings for key %s; info: %s"
++ "[Restorable Settings] Stored settings for %s; info: %s"
++ "[TAP] [Interaction]  Got a nil url returned from fetchURL for %@, clearing lastOpenedNode"
++ "[TAP] [Interaction] A trashed item, '%s', was selected, alerting the user it can't be oppened. Bailing out."
++ "[TAP] [Interaction] Adopting persona for: %s"
++ "[TAP] [Interaction] An item, '%s', was selected while another is trying to be opened: '%s'. Bailing out."
++ "[TAP] [Interaction] An item, '%s', was selected. Attempting to open it? %{bool}d"
++ "[TAP] [Interaction] An item: %s with invalid URL: %s, was selected. Bailing out."
++ "[TAP] [Interaction] An non-downloaded item, '%s', was selected, but cannot be downloaded."
++ "[TAP] [Interaction] Clearing lastOpenedNode Got a nil url from fetchURL for item: %s but no error."
++ "[TAP] [Interaction] Clearing lastOpenedNode: Got a nil url from fetchURL for item %s. error %s. Bailing out."
++ "[TAP] [Interaction] Clearing lastOpenedNode: self is nil. item: %s. Bailing out."
++ "[TAP] [Interaction] Could not bump last opened date because node: %s does not have an assocaited FPItem"
++ "[TAP] [Interaction] Couldn't get FPItem from node for '%s. Continuing"
++ "[TAP] [Interaction] Failed to open `%s` in Default App, proceed to trying to open/quicklook"
++ "[TAP] [Interaction] Keeping track of last opened item in 'validateItemSelectionAndPerformDidPickIfNeeded()': %s"
++ "[TAP] [Interaction] Node `%s` has NO url or FPItem. Can not continue to open item."
++ "[TAP] [Interaction] Node `%s` has NO url. Fetching url for node."
++ "[TAP] [Interaction] Node `%s` has an url. Keep going."
++ "[TAP] [Interaction] Node named: `%s` won't open because node: %s is not equal to to lastSelectedNode: %s"
++ "[TAP] [Interaction] Not trying to open: %s with LaunchUtils"
++ "[TAP] [Interaction] Opened invitation link for %s"
++ "[TAP] [Interaction] Should Try to Open with LaunchUtils: %s"
++ "[TAP] [Interaction] Success opening `%s` in Default App."
++ "[TAP] [Interaction] URL for Node `%s` fetched, keep going."
++ "[TAP] [Interaction] tryOpeningInDefaultApp for: %s"
++ "[TAP][%ld] Item is not %s. Bailing out."
++ "_$observationRegistrar"
++ "_OutlineVisibleColumnTypes"
++ "_TtC5Files14DOCItemRowView"
++ "_TtC5Files14DateCalculator"
++ "_TtC5Files14OutlineManager"
++ "_TtC5Files14RenameObserver"
++ "_TtC5Files15DOCHashableNode"
++ "_TtC5Files18DOCOuterScrollView"
++ "_TtC5Files18TagsSectionManager"
++ "_TtC5Files19DOC_FICopyOperation"
++ "_TtC5Files19DOC_FIMoveOperation"
++ "_TtC5Files19OutlineGradientView"
++ "_TtC5Files20DOCOutlineHeaderView"
++ "_TtC5Files20OutlineProgressState"
++ "_TtC5Files21OutlineExpansionState"
++ "_TtC5Files21ServersSectionManager"
++ "_TtC5Files22DOCNodeRenameOperation"
++ "_TtC5Files22DOC_FIArchiveOperation"
++ "_TtC5Files22LocationSectionManager"
++ "_TtC5Files23DOCTabSidebarController"
++ "_TtC5Files23DOCTabSidebarDataSource"
++ "_TtC5Files23FavoritesSectionManager"
++ "_TtC5Files23UIViewWithDraggingStuff"
++ "_TtC5Files25DOCOpenWithMenuController"
++ "_TtC5Files25DOCSidebarItemChangePacer"
++ "_TtC5Files28DOCItemCollectionOutlineCell"
++ "_TtC5Files30DOCHostedCreateDocumentOptions"
++ "_TtC5Files36DOCFolderIconCustomizationApplicator"
++ "_TtC5Files37DOCItemCollectionViewLayoutAttributes"
++ "_TtC5Files8Dragging"
++ "_TtC5Files9DateCache"
++ "_TtC5FilesP33_44279581E4044B09A6053CE01851087918EjectStateDelegate"
++ "_TtC5FilesP33_44279581E4044B09A6053CE01851087919ProviderDomainState"
++ "_TtC5FilesP33_E565512E51443C447EC05F5C173F2A0036DOCHostedCreateDocumentBarButtonItem"
++ "_TtC5FilesP33_FB46621C036A704E901A1B52F840012E18EjectStateDelegate"
++ "_TtC5FilesP33_FB46621C036A704E901A1B52F840012E19ProviderDomainState"
++ "_TtCC5Files23DOCTabSidebarDataSourceP33_E565DC078A95CF204A8A50B3023B120117LocationSelection"
++ "_TtCC5Files28DOCItemCollectionCellContent23DecorationImageObserver"
++ "_TtCC5Files31DOCItemCollectionViewController21_DOCSectionDescriptor"
++ "_TtCC5Files32DOCItemInfoContentViewControllerP33_5854F2584B6BB42CC0BFB2F44FFF0F2910RootVStack"
++ "_TtCCC5Files32DOCItemInfoContentViewControllerP33_5854F2584B6BB42CC0BFB2F44FFF0F2910RootVStack16StackElementView"
++ "_TtP5Files13TrashObserver_"
++ "_TtP5Files31DOCTabSidebarDataSourceDelegate_"
++ "_collectionView:typeSelectStringForItemAtIndexPath:"
++ "_collectionView:updateTypeSelectResultForCell:atIndexPath:withItemResult:animator:"
++ "_color"
++ "_didTriggerDocumentCreationIntent:"
++ "_doc_targetFilenamesByNode"
++ "_focusCanScrollX"
++ "_fullBrowserViewController"
++ "_getSource unable to return source for %s because documentManager is nil"
++ "_image"
++ "_isExpanded"
++ "_isRenaming"
++ "_layoutSizeThatFits:fixedAxes:"
++ "_pickerOperation(for:)"
++ "_preferredSeparatorInsetsForProposedInsets:"
++ "_progress"
++ "_selected"
++ "_selectedSizeSliderValue"
++ "_setBrowserHostedCreateDocumentsMenu:"
++ "_setPocketStyle:forEdge:"
++ "_tabSidebarController"
++ "_trashObserver"
++ "_trashSubscriber"
++ "_wantsButton"
++ "_wantsProgress"
++ "actionCompletionBlock"
++ "adoptPersonaFromNode:andPerformBlock:"
++ "adoptPersonaFromNodes:andPerformBlock:"
++ "alertPresenting:"
++ "allTags"
++ "alwaysOpenWithMenu"
++ "animationView"
++ "applyLayoutAttributes:"
++ "archiveCompletionBlock"
++ "archiveFormat"
++ "archivedNode"
++ "arrow.trianglehead.2.clockwise"
++ "arrow.up.forward.app"
++ "basicLabel"
++ "becomeFirstResponder()"
++ "becomeKeyboardFocused()"
++ "begin column drag"
++ "beginColumnDrag"
++ "best index %ld"
++ "browse"
++ "buildMenuAndReturnError:"
++ "bumpLastUsedDate(of:)"
++ "bundleURL"
++ "bundleVersionString"
++ "callCompletionBlock(_:error:)"
++ "canCopyNodes:"
++ "canNode:performAction:node:"
++ "canPerformAction(_:withSender:)"
++ "canPerformActions:"
++ "cell"
++ "cellContentData"
++ "changeTrigger"
++ "checkIfOutlineModeNeedsChange"
++ "circle.grid.2x2.topleft.checkmark.filled"
++ "clearCache"
++ "collectionViewWidth"
++ "colorChanged"
++ "colorEffectColor:"
++ "columnCache"
++ "columnData"
++ "columnViews"
++ "com.apple.DocumentManager.ItemManager.doc_transferResults"
++ "com.apple.DocumentManager.action.userInfo.key.deleteSkipConfirmation"
++ "com.apple.action.newFromPasteboard"
++ "constructor selected "
++ "constructor selected url "
++ "containsPasteboardTypes:"
++ "contextMenuForItemsWithNodes:"
++ "convertRect:toLayer:"
++ "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
++ "createDocumentHandler"
++ "currentDragHeaderLocation"
++ "currentEventIsTrackpad"
++ "currentTouchXLocation"
++ "currentTraitCollection"
++ "customDateToDateFormattersCache"
++ "customNameColumnName"
++ "customNameTitle"
++ "dataForKey:"
++ "dataForPasteboardType:"
++ "dataOwnerStateForNodes:"
++ "dataSource:didUpdateTabs:"
++ "dataSource:wantsToPresentConnectToServer:"
++ "dataSource:wantsToReveal:"
++ "date"
++ "dateCache"
++ "dateToDateCalculatorCache"
++ "didChangeTraits"
++ "didDismissSearchController(_:)"
++ "diffableReloadWorkItem"
++ "disabledBandSelectionInteraction"
++ "discoveredTags"
++ "diskArbSession"
++ "display name for Browse tab"
++ "displayOrderDidChangeFor:"
++ "distance ranges %s"
++ "divider"
++ "dividerViews"
++ "docDragInfosFromDropSession(_:alertPresenting:completionHandler:)"
++ "doc_eligibleActions"
++ "doc_fetchRootNodeForProviderDomain:completionHandler:"
++ "doc_hasSandboxAccessToFile:readonly:"
++ "doc_quickLookNode"
++ "doc_targetFilenamesByNode"
++ "doc_transferResults"
++ "dock.arrow.down.rectangle"
++ "domainStates"
++ "doubleTapToOpen"
++ "dragItemFor(session:supportsPickingFolders:)"
++ "dragOrigin"
++ "dragging column"
++ "dragging divider"
++ "driveRSA"
++ "dropTargetNode is either an FINode or an FPItem"
++ "dsSourceNodeToURL"
++ "dsSourceURLToNode"
++ "ejectionDelegate"
++ "eligibleTypes"
++ "enableOldListToo"
++ "estimated preload thumbnail count: %ld for displayMode %ld"
++ "executedAsFPAction"
++ "expansionState"
++ "failed to open app store: "
++ "favorite."
++ "fetchRootNode(completionHandler:)"
++ "fetchTags:"
++ "fiNode"
++ "fiOperation"
++ "fileName"
++ "fileOpNode"
++ "fistNewlyAddedSourceWith:completion:"
++ "flatNodesAreDirty"
++ "flatNodesInternal"
++ "folderCustomizationEnabled"
++ "folderIcon"
++ "folderLoadHandler(node:completionBlock:)"
++ "folderObserver"
++ "foldersInDock"
++ "formattingObserver"
++ "fpNodeDataSource"
++ "fullBrowserViewController"
++ "getSize:forTargetSize:isSizeDependentOnPerpendicularAxis:"
++ "groupBySectionToggleIdentifier:sectionIdentifier:expanded:"
++ "grouping"
++ "handleFilenameExtensionAddition(newExtension:fileName:node:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
++ "handleFilenameExtensionChange(originalExtension:newExtension:fileName:node:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
++ "handleFilenameExtensionRemoval(originalExtension:fileName:node:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
++ "handlePressesBeganIfNeeded(_:with:)"
++ "handlerPreferenceTypeForSetHandlerFlow:"
++ "hasPrefix:"
++ "headerMaskView"
++ "headerToggleAction"
++ "hideVisualEffect"
++ "horizontalWidth"
++ "hostProvidedMenu"
++ "hosted createDocument action did not have a documentCreationIntent, ignoring: %@"
++ "hosted createDocument action with no creationIntent, ignoring: %@"
++ "hosted createDocuments menu child was not valid, ignoring: %@"
++ "hosted createDocuments menu does not support nesting, ignoring: %@"
++ "hosted createDocuments menu had no valid children, ignoring: %@"
++ "hostedCreateDocumentOptions"
++ "hostingView"
++ "iconForSyncingMetadata"
++ "iconsFromIconPackage"
++ "identationLevel"
++ "imageCache"
++ "importDocumentAtURL:byMoving:toCurrentBrowserLocationWithCompletion:"
++ "indentation"
++ "indexPathOfSwipedItem"
++ "init(tabs:)"
++ "init(withNode:tagRegistry:tagsControllerCreator:)"
++ "initForAsynchronousAccess:"
++ "initForTextStyle:"
++ "initWithBindable:"
++ "initWithBookmarkableString:node:"
++ "initWithConfiguration:sourceObserver:dataSourceDelegate:"
++ "initWithConfiguration:sourceObserver:delegate:"
++ "initWithDidEndHandler:"
++ "initWithNodes:"
++ "initWithResolution:error:"
++ "initWithScrollView:edge:style:"
++ "initWithSourceItems:destinationItem:"
++ "initWithSourceNodes:destinationFolder:"
++ "initWithTabs:"
++ "initWithText:"
++ "initWithTitle:image:identifier:children:viewControllerProvider:"
++ "initWithTitle:image:identifier:viewControllerProvider:"
++ "initWithURL:allowPlaceholder:error:"
++ "initWithURL:node:"
++ "insertSize:forTargetSize:"
++ "invalidateCache"
++ "isAnyNodeAFault:"
++ "isBecomingFirstResponder"
++ "isBrowsable"
++ "isHeader"
++ "isHiddenByDefault"
++ "isInSearchMode"
++ "isMainThread"
++ "isOptionKeyPressed"
++ "isOrIsAncestorOf:"
++ "isTabBarHidden"
++ "itemAccessDecorationForType:size:scale:prepare:"
++ "itemCollectionOutlineCellIdentifier"
++ "itemFromRequest:"
++ "itemIdentifierForNewFolderAnimation"
++ "kCFAllocatorNull"
++ "keyboardSuggestionOptions"
++ "lastOpenedNode"
++ "lastSelectedNode"
++ "layoutAttributesClass"
++ "leadingBarButtonItems"
++ "leadingThumbnailView"
++ "localDomainRootNodeForQLTests"
++ "location."
++ "mapofnodes"
++ "matchingRanges"
++ "menuButton"
++ "modernToolbar"
++ "mutableSectionsData"
++ "navigationOverflowMenu"
++ "newViewControllerFor:"
++ "no error provided"
++ "nodeSnapshot"
++ "nodesFromItemProvidersWithInfo(_:itemContexts:alertPresenting:loadFromURLs:completionHandler:)"
++ "nodesToMove"
++ "notificationsController"
++ "offset %f"
++ "openSelectedNode(_:)"
++ "openSelectedNode:"
++ "openWithDeferredMenuFor:suppressTitle:"
++ "openWithFlow"
++ "openWithFlow:didFailToOpenAppStoreWithError:"
++ "openWithFlow:didFailToOpenUsingBoundBundle:withError:"
++ "openWithFlow:didOpenUsingBoundBundle:"
++ "openWithFlowDidOpenAppStore:"
++ "openWithMenuController"
++ "openWithMenuFromConstructor:didSelectBoundBundle:"
++ "openWithMenuFromConstructorDidSelectAppStoreItem:"
++ "originOfVisualEffectX"
++ "outerScrollView"
++ "outlineDelegate"
++ "outlineView"
++ "pendingSelectionProviderDomainID"
++ "pendingTabUpdates"
++ "performAddFolderToDock(_:)"
++ "performAddFolderToDock:"
++ "performArrowKeyDisclosure:"
++ "performCompress:"
++ "performCopyAsPathname:"
++ "performEmptyTrash:"
++ "performEmptyTrashNow:"
++ "performGoToEnclosingFolderInNewWindow:"
++ "performGoToOnMyDevice:"
++ "performGroupByNone:"
++ "performNodeRename(_:to:displayingFileExtension:completion:finishedBlock:)"
++ "performNodeRename(to:displayingFileExtension:completion:finishedBlock:)"
++ "performOperation(_:sourceOperationItems:destinationNode:forceBounce:lastUsageUpdatePolicy:alertPresenting:completion:)"
++ "performRename(node:newDisplayName:alertPresenting:requiresAlertPresentation:completion:finishedBlock:)"
++ "performRename(node:newFileName:alertPresenting:requiresAlertPresentation:completion:finishedBlock:)"
++ "performScanDocuments:"
++ "performShare:"
++ "performShowViewOptions:"
++ "performSortByDateCreated:"
++ "performSortByDateLastOpened:"
++ "performSortByDateModified:"
++ "performSwitchTabsTest(to:testName:mainViewController:tabBarController:)"
++ "performingBatchUpdates = %ld in %@"
++ "pinnedTrailingGroup"
++ "predicateForBrowsedLocation()"
++ "preferredElementSize"
++ "preferredInputViewHeight"
++ "preferredLayoutAttributesFittingAttributes:"
++ "preferredWindowingControlStyleForScene:"
++ "prepareAndReturnError:"
++ "presentHandlerPreferenceTypeSelectionViewController:forSetHandlerFlow:"
++ "progress(domain:)"
++ "propertyAsNSObject:"
++ "proposedReplacementRange"
++ "proposedReplacementText"
++ "providerForDeferredMenuElement:"
++ "providerWithElementProvider:"
++ "q24@0:8@\"<DOCNode>\"16"
++ "qualityOfService"
++ "quicklook(_:error:)"
++ "r"
++ "received sessionDidEnd"
++ "reconfigureItemForTab:"
++ "registerNode(_:supportsPickingFolders:disableExternalFolders:)"
++ "renameCurrentQLItem(withSuggestedName:)"
++ "renderAttributedStringWithRequest:titleHighlighter:"
++ "repeatBehavior"
++ "resetRestorableSettingsCache"
++ "resignFirstResponder()"
++ "resizeColumnsIfNeeded"
++ "resolutionForRemainingConflicts"
++ "resolvedNode"
++ "resultNodes"
++ "retrieveDefaultSizeSliderValue(configuration:)"
++ "reveal(nodes:selectEvenIfVisible:completionBlock:)"
++ "revealDocument(_:error:)"
++ "revealWithNodes:selectEvenIfVisible:completionBlock:"
++ "rowView"
++ "saveDefaultSizeSliderValue(_:configuration:)"
++ "schedule"
++ "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
++ "scrollContext"
++ "scrollPocketInteraction"
++ "sectionKind"
++ "sectionTypeAccessibilityIdentifier"
++ "selectedElements"
++ "selectedTab"
++ "self == %@ || self == %@"
++ "semanticContentAttribute"
++ "server."
++ "setAllowsHiding:"
++ "setAllowsReordering:"
++ "setChangesSelectionAsPrimaryAction:"
++ "setChildren:"
++ "setConflictHandler:"
++ "setDateStyle:"
++ "setDirectionalLockEnabled:"
++ "setDoesRelativeDateFormatting:"
++ "setErrorHandler:"
++ "setExpanded:"
++ "setFullBrowserViewController:"
++ "setHandlerFlow"
++ "setHandlerFlow:didFailToSetHandlerPreferenceOfType:toBundle:error:"
++ "setHandlerFlow:didSetHandlerPreferenceOfType:toBundle:"
++ "setHiddenByDefault:"
++ "setHidesSourceLayer:"
++ "setIndentationWidth:"
++ "setKeyboardSuggestionOptions:"
++ "setLastOpenedNode:"
++ "setLastSelectedNode:"
++ "setMaskView:"
++ "setMinimumPrimaryColumnWidth:"
++ "setMode:"
++ "setNavigationOverflowItems:"
++ "setOverrideUserInterfaceStyle:"
++ "setPinnedTrailingGroup:"
++ "setPreferredInputViewHeight:"
++ "setPreferredMenuElementOrder:"
++ "setProperty:asObject:"
++ "setRepeatBehavior:"
++ "setRightBarButtonItems:"
++ "setScheme:"
++ "setSemanticContentAttribute:"
++ "setShouldChangeHandler:"
++ "setShouldEndHandler:"
++ "setSidebarAppearance:"
++ "setSizeSliderValue:"
++ "setSourceLayer:"
++ "setSubtitle:"
++ "setTabBarHidden:animated:"
++ "setTabSidebarController:"
++ "setTabs:"
++ "setTeamData:"
++ "setTimeStyle:"
++ "setTrashObserver:"
++ "setTrashSubscriber:"
++ "setURL:"
++ "setZIndex:"
++ "shouldnt get here"
++ "showTopAndBottomSeparator"
++ "showsBottomSeparator"
++ "showsTopSeparator"
++ "singleTapHit"
++ "singleTapTimer"
++ "sizeCache"
++ "sizeSettingSlider"
++ "sizeSliderValue"
++ "sizingInputs"
++ "sortDescriptor"
++ "sourceVisibilityMap"
++ "splitViewController:didHideColumn:"
++ "splitViewController:didShowColumn:"
++ "start index %ld"
++ "startedGesture"
++ "startingLeftSize"
++ "startingLocation"
++ "startingRightSize"
++ "stateDidChange"
++ "statusViewForIcloudColumn"
++ "stringFromDate:"
++ "subsections"
++ "swapping indexes %ld %ld"
++ "syncView"
++ "syncViewModel"
++ "tabBarController:sidebar:contextMenuConfigurationForTab:"
++ "tabBarController:sidebar:didEndDisplayingTab:"
++ "tabBarController:sidebar:itemForRequest:"
++ "tabBarController:sidebar:itemsForAddingToDragSession:tab:"
++ "tabBarController:sidebar:itemsForBeginningDragSession:tab:"
++ "tabBarController:sidebar:leadingSwipeActionsConfigurationForTab:"
++ "tabBarController:sidebar:sidebarAction:group:acceptItemsFromDropSession:"
++ "tabBarController:sidebar:sidebarAction:group:operationForAcceptingItemsFromDropSession:"
++ "tabBarController:sidebar:trailingSwipeActionsConfigurationForTab:"
++ "tabBarController:sidebar:updateItem:"
++ "tabBarController:sidebar:willBeginDisplayingTab:"
++ "tabBarController:sidebarVisibilityWillChange:animator:"
++ "tabSidebar"
++ "tabSidebarController"
++ "tabbedBrowserViewControllerDidFinishLoading %lu ; currentTestName %s ; finishedLaunchTest %ld ; initialLoad: %{bool}d"
++ "tag."
++ "tagRegistry"
++ "tagView2"
++ "tagsControllerCreator"
++ "tapCount"
++ "targetFilenamesByItem"
++ "targetFilenamesByURL"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "timer"
++ "titleHighlightRange"
++ "topFirstResponder:"
++ "touchesCancelled:withEvent:"
++ "touchesEnded(_:with:)"
++ "touchesMoved:withEvent:"
++ "trackedExternalDisksInRepair"
++ "trackedPortalLayers"
++ "trailingBarButtonItems"
++ "trashMenu(actionManager:actionContext:)"
++ "typeSelectStringForItemAt result nil, indexPath: %s"
++ "typeToFocus"
++ "unrealizedTagAdditions"
++ "unrealizedTagDeletions"
++ "updateContentsOfCell(_:withSidebarItem:sidebarSection:)"
++ "updateOpenWithMenu"
++ "updateSelectionToMatchBrowsedLocation:animated:"
++ "updateSnapshot(for:using:maintainSelection:)"
++ "updateTypeSelectResultFor itemResult nil"
++ "updateUIPHorizontalInsetsIfNecessary"
++ "useFIOperations"
++ "v16@?0@\"_UIContentViewEditingState\"8"
++ "v16@?0^{__DADisk=}8"
++ "v24@0:8@\"<DOCNode>\"16"
++ "v24@0:8@\"CSUIOpenWithFlow\"16"
++ "v24@0:8@\"CSUIOpenWithMenuConstructor\"16"
++ "v24@0:8@\"DOCItemCollectionObserver\"16"
++ "v24@0:8@\"DOCItemCollectionSubscriber\"16"
++ "v24@0:8@\"UIMenu\"16"
++ "v24@?0@\"FIOperation\"8@\"NSArray\"16"
++ "v24@?0@\"NSObject<DOCNode>\"8@\"NSObject<DOCNode>\"16"
++ "v24@?0^{__DADisk=}8r^{__CFArray=}16"
++ "v32@0:8@\"<DOCNode>\"16@?<v@?@\"_TtC5Files21DOCItemCollectionCell\">24"
++ "v32@0:8@\"CSUIOpenWithFlow\"16@\"<CSUIBoundBundleInfo>\"24"
++ "v32@0:8@\"CSUIOpenWithFlow\"16@\"NSError\"24"
++ "v32@0:8@\"CSUIOpenWithMenuConstructor\"16@\"<CSUIBoundBundleInfo>\"24"
++ "v32@0:8@\"UIViewController\"16@\"CSUISetHandlerFlow\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v32@0:8@\"_TtC5Files23DOCTabSidebarDataSource\"16@\"DOCConcreteLocation\"24"
++ "v32@0:8@\"_TtC5Files23DOCTabSidebarDataSource\"16@\"NSArray\"24"
++ "v32@0:8@\"_TtC5Files23DOCTabSidebarDataSource\"16@\"NSURL\"24"
++ "v36@0:8@\"<DOCNode>\"16B24@?<v@?@\"UIView\"@\"UIBezierPath\">28"
++ "v40@0:8@\"CSUIOpenWithFlow\"16@\"<CSUIBoundBundleInfo>\"24@\"NSError\"32"
++ "v40@0:8@\"CSUISetHandlerFlow\"16Q24@\"<CSUIBoundBundleInfo>\"32"
++ "v40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UITabBarControllerSidebarAnimating>\"32"
++ "v40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UITab\"32"
++ "v40@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UITabSidebarItem\"32"
++ "v48@0:8@\"CSUISetHandlerFlow\"16Q24@\"<CSUIBoundBundleInfo>\"32@\"NSError\"40"
++ "v48@0:8@16Q24@32@40"
++ "v56@0:8@\"UICollectionView\"16@\"UICollectionViewCell\"24@\"NSIndexPath\"32@\"_UITypeSelectItemResult\"40@\"<_UITypeSelectInteractionAnimating>\"48"
++ "v56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"UIAction\"32@\"UITabGroup\"40@\"<UIDropSession>\"48"
++ "v56@0:8@16@24@32@40@48"
++ "vendorBadgeDecorationForType:size:scale:prepare:"
++ "viewControllerFor:"
++ "viewOptionsResizableIcon"
++ "viewOptionsResizableList"
++ "viewWithDraggingStuff"
++ "visibleColumns"
++ "visualEffectForDrag"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "{NSDirectionalEdgeInsets=dddd}48@0:8{NSDirectionalEdgeInsets=dddd}16"
+- "%@: %@, registering %@ with type %@"
+- "%@: Can't drag the create button %@"
+- "%@: Did successfully drop %@ under %@"
+- "%@: Failed to drop items under %@"
+- "%@: Failed to fetch parent item %@ - %@"
+- "%@: Failed to unarchive an FPItem. Error: %@"
+- "%@: Item cannot be resolved from index path %@"
+- "%@: Item from index path %@ cannot be dragged because it is not readable"
+- "%@: No operation to perform on these items"
+- "%@: No sourceURLs and no sourceItems, ending operation: %@"
+- "%@: Node %@ cannot be added to the drag because it is already part of the drag"
+- "%@: Reveal Operation failed: unknown error"
+- "%@: failed opening %@ in %@"
+- "%@: got %d FPItems; drop session had %d items"
+- "%@: no item to drag at %d"
+- "%s Requested move finished with success: %{bool}d moved: %s items. Items: %s"
+- "%s Requested to move %ld items. Moving %ld eligible to newly created folder: %s"
+- "%s performItemRename completed"
+- "%s: Failed to reveal folder for item: %@. Error: %s"
+- "%s: Restore from folderItem: %@"
+- "%s: Restore from quick look item: %s"
+- "%s: Restore from quick look items: %s"
+- "%s: can't fetch root item for : %s."
+- "%s: could not get currently previewed FPItem to rename to %s. currentPreviewItem == %s "
+- "%s: finished block has been called for renaming %s with renamed item: %s"
+- "%s: finished block has been called for renaming %s without FPItem"
+- "%s: got nil URL for item: %@. Error: %s"
+- "%s: location: %@."
+- "%s: stateRestorationActivity contained no restorable state: %@"
+- "@\"NSArray\"24@0:8@\"UICollectionView\"16"
+- "@\"NSIndexPath\"40@0:8@\"UICollectionView\"16@\"NSString\"24q32"
+- "@\"UICollectionReusableView\"40@0:8@\"UICollectionView\"16@\"NSString\"24@\"NSIndexPath\"32"
+- "@\"UICollectionViewCell\"32@0:8@\"UICollectionView\"16@\"NSIndexPath\"24"
+- "@\"_UICanvasDefinition\"40@0:8@\"UIApplication\"16@\"_UICanvasDefinition\"24@\"NSDictionary\"32"
+- "@40@0:8@16@24q32"
+- "A default app exists and is %s"
+- "Adding copy operation %@"
+- "Attempting to get index path for a node '%s' without an FPItem in FPItem data source."
+- "Attempting to get index path for a non-FINode '%s' in FINode data source."
+- "Can perform key command with action '%@': %@"
+- "Can't append non-FINode items to a FINode Based diffable datasource"
+- "Can't append non-FPItems to a FPItem Based diffable datasource"
+- "Can't reconfigure non-FINode items to a FINode Based diffable datasource"
+- "Can't reconfigure non-FPItems to a FPItem Based diffable datasource"
+- "Cannot apply a FINode based snapshot to a FPItem based datasource"
+- "Cannot apply a FPItem based snapshot to a FINode based datasource"
+- "Cannot perform an operation with both sourceURLs and sourceItems"
+- "Collection view asked for cell for item %@ at index path %@ but none was returned [self was deallocated]."
+- "Collection view asked for supplementary view of kind %@ at index path %@ but none was returned [self was deallocated]."
+- "Collection view asked for supplementary view of kind %@ at index path %@ but none was returned."
+- "Could not fetch FINode for item %@: %@"
+- "Could not fetch URL for item %@: %@"
+- "Could not fetch root node for domain: (%{public}@)"
+- "Could not open invitation for %@"
+- "Defering reloadCollection, they are still batch updates running (%d remaining) "
+- "ERROR: sortHeaderTitle(...) must be provided a displayableSortMode or a sectionTitle"
+- "Error fetching the url for item %@: %@"
+- "Error fetching the url for item: %@ but also did not get an error"
+- "Error unarchiving item:%@. Error: %@"
+- "Error when trying to get fetch the url for item %@"
+- "Error when trying to get fetch the url for item %@ error %@"
+- "Error when trying to get the root item for the provider %@"
+- "Error when trying to get the root item for the provider %@ error %@"
+- "Error while cleaning up %@. Error: %@"
+- "Expected VC with modalPresentationStyle == .popover to have a PPC!"
+- "FINode based datasource: Trying to get section containing something that's not an FINode"
+- "FPItem based datasource: Trying to get section containing something that's not an FPItem"
+- "Failed setup %s copyPDFOperation error: %s"
+- "Failed setup %s. copyImageOperation error: %s"
+- "Failed to fetch URL for: %@ error: %s"
+- "Failed to fetch item to reveal from URL: %s with error: %@"
+- "Files-DOCFileSystemCollection-OpenSync"
+- "Files-DOCFileSystemCollection-buildingNodes"
+- "Files.RootHStack"
+- "Focusing DOCItemCollectionViewController %p"
+- "Getting current collection for item %@"
+- "Getting current collection for url %@"
+- "Getting item from the cache item %@ url %@"
+- "Getting transition controller for item %@ collection %@"
+- "Mark collectionView as reusable %@"
+- "Menu title for Open With menu group"
+- "No collection view to reuse. Creating a new one %@"
+- "No items or urls"
+- "OPEN"
+- "Open sync ended"
+- "Preloading model for %d nodes"
+- "Rename: cancelled: %@"
+- "Resigning first responder in item collection view controller %@"
+- "Returning bad initial collection view size (%f, %f) for %@ (parent: %@, itemCollection: %@)"
+- "Reusing collectionView %@"
+- "Session ended - exited area"
+- "Session ended - received sessionDidEnd"
+- "T@\"FPItem\",N,&,VlastOpenedItem"
+- "T@\"FPItem\",N,&,VlastSelectedItem"
+- "T@\"UIView\",N,&"
+- "TAP] [Interaction] Could not open invitation for %@"
+- "The current collection %@ doesn't contain item %@"
+- "The parent item of this item collection no longer exists: %@"
+- "Title for error presented by rename API when a proposed file name already exists"
+- "Title for the action to favortie a folder"
+- "UICollectionViewDataSource"
+- "Unable to make first responder: %p"
+- "Unable to obtain root item URL for root item %@"
+- "Unable to obtain root item URL for root item (%@) for resolving named location '%@', with error: %@"
+- "Unable to replace the file at imported URL with new edited copy. Error: %@"
+- "Unarchive operation ended with result item"
+- "Updating items origin on collection view, since it has changed in the item collection: %ld"
+- "Updating the stackMetrics for horizontal class %ld. New dateWidth: %f sizeWidth:%f kindWidth:%f tagsWidth:%f"
+- "Will make first responder: %@"
+- "[Content Unavailable] %@: collection %@ did encounter error %@"
+- "[DSEnumeration] %{public}s: DOCFileSystemCollection initiated with a non-FINode DOCNode %s"
+- "[Interaction] Clearing last opened item after `tryOpeningInDefaultApp` in 'validateItemSelectionAndPerformDidPickIfNeeded()': %@"
+- "[Interaction] Clearing last opened item previous item: %@"
+- "[Interaction] Clearing last selected item. Previous item was: %s"
+- "[Interaction] Clearing lastOpenedItem in DOCTabbedBrowserVC viewWillDisappear"
+- "[Interaction] Clearing lastOpenedItem in `endTransition`"
+- "[Interaction] Clearing lastOpenedItem in `openSelectedItem` (opened in default app)"
+- "[Interaction] Clearing lastOpenedItem in `openSelectedItem`: Got a nil url from fetchURL for item %@ but no error."
+- "[Interaction] Clearing lastOpenedItem in documentBrowser:didPickDocumentsAt: (focus on existing scene)"
+- "[Interaction] Clearing lastOpenedItem in documentBrowser:didPickDocumentsAt: (focus on existing window scene) "
+- "[Interaction] Clearing lastOpenedItem in documentBrowser:didPickDocumentsAt: (opened in an other app)"
+- "[Interaction] Clearing lastOpenedItem in documentBrowser:didPickImportedURLs: (opened in an other app)"
+- "[Interaction] Clearing lastOpenedItem: Got a nil url from fetchURL for item %@. error %@."
+- "[Interaction] Keeping track of last opened item in 'openSelectedItem()': %@"
+- "[Interaction] Setting the last opened item: %@"
+- "[Interaction] Setting the last selected item: %s"
+- "[Interaction] update scene activation contditions"
+- "[Interaction] update scene activation contditions on: %s for no presented view controller"
+- "[REVEAL]: %s Could not fetchURLPairs or get an item to search for. Items provided: %s, URLPairs: %s"
+- "[REVEAL]: revealing items: %s source: %s"
+- "[Rename] Rename API failed with error: %@"
+- "[Restorable Settings] Not storing vertical offset since it's too big (%f)"
+- "[Restorable Settings] Restoring settings for key %@; info: %@"
+- "[Restorable Settings] Stored settings for %@; info: %@"
+- "[TAP] [Interaction]  Got a nil url returned from fetchURL for %@, clearing lastOpenedItem"
+- "[TAP] [Interaction] A trashed item, '%@', was selected, alerting the user it can't be oppened. Bailing out."
+- "[TAP] [Interaction] Adopting persona for: %@"
+- "[TAP] [Interaction] An item, '%@', was selected. Attempting to open it? %@"
+- "[TAP] [Interaction] An item, '%s', was selected while another is trying to be opened: '%@'. Bailing out."
+- "[TAP] [Interaction] An non-downloaded item, '%@', was selected, but cannot be downloaded."
+- "[TAP] [Interaction] Clearing lastOpenedItem Got a nil url from fetchURL for item %@ but no error."
+- "[TAP] [Interaction] Clearing lastOpenedItem: Got a nil url from fetchURL for item %@. error %@. Bailing out."
+- "[TAP] [Interaction] Clearing lastOpenedItem: self is nil. item: %@. Bailing out."
+- "[TAP] [Interaction] Couldn't get FPItem from node for '%@. Bailing out."
+- "[TAP] [Interaction] Failed to open `%@` in Default App, proceed to trying to open/quicklook"
+- "[TAP] [Interaction] Keeping track of last opened item in 'validateItemSelectionAndPerformDidPickIfNeeded()': %@"
+- "[TAP] [Interaction] Node `%@` has NO url. Fetching url for item."
+- "[TAP] [Interaction] Node `%@` has an url. Keep going."
+- "[TAP] [Interaction] Node named: `%s` won't open because node: %s is not equal to to lastSelectedItem: %s"
+- "[TAP] [Interaction] Not trying to open %@ with LaunchUtils"
+- "[TAP] [Interaction] Opened invitation link for %@"
+- "[TAP] [Interaction] Should Try to Open with LaunchUtils: %@"
+- "[TAP] [Interaction] Success opening `%@` in Default App."
+- "[TAP] [Interaction] URL for Node `%@` fetched, keep going."
+- "[TAP] [Interaction] tryOpeningInDefaultApp for: %@"
+- "[TAP][%ld] Could not get any FPItems to preview"
+- "[TAP][%ld] Couldn't fetch FPItem for the current node. Bailing out"
+- "[TAP][%ld] FPItem fetched"
+- "[TAP][%ld] Item is not readable. Bailing out"
+- "[TAP][%ld] The number of DOCNodes (%ld) is different from the number of FPItems (%ld)"
+- "_TtC5Files16DOCTipsFamilyTip"
+- "_TtC5Files22DOCItemRenameOperation"
+- "_TtC5Files23DOCThumbnailLoadingPool"
+- "_TtC5Files25DOCNodeDiffableDataSource"
+- "_TtC5Files33DOCNodeDiffableDataSourceSnapshot"
+- "_TtC5FilesP33_664BDA1BFD913E39306EB619EE43EF3832DOCItemCollectionEmptyDataSource"
+- "_TtCC5Files31DOCItemCollectionViewControllerP33_D2F2A9EDC1E1AB532685E75DD81FABFB21_DOCSectionDescriptor"
+- "_TtCC5Files32DOCItemInfoContentViewControllerP33_5854F2584B6BB42CC0BFB2F44FFF0F2910RootHStack"
+- "_TtCCC5Files32DOCItemInfoContentViewControllerP33_5854F2584B6BB42CC0BFB2F44FFF0F2910RootHStack16StackElementView"
+- "_application:didDiscardCanvasDefinitions:"
+- "_application:didReceiveViewServiceRequestForViewControllerClassName:"
+- "_application:willConnectCanvas:"
+- "_application:willCreateCanvasWithDefinition:withOptions:"
+- "_clearSafeAreaInsets"
+- "_dci_fixedTrailingGroup"
+- "_dci_setFixedTrailingGroup:"
+- "_getSource unable to return source for %@ because documentManager is nil"
+- "_setShouldResetInitialLayoutOnDataSourceChange:"
+- "_thumbnailLoadingPool"
+- "_uip_isTabBarHidden"
+- "_uip_setPreferredSidebarMode:"
+- "_uip_setTabBarHidden:animated:"
+- "_validateFileName:error:"
+- "adoptPersonaFromItem:andPerformBlock:"
+- "adoptPersonaFromItems:andPerformBlock:"
+- "archivedItem"
+- "browser actions of %s is %s with %ld actions created"
+- "canCopyItems:"
+- "canItem:performAction:item:"
+- "collectionView:canMoveItemAtIndexPath:"
+- "collectionView:indexPathForIndexTitle:atIndex:"
+- "collectionView:moveItemAtIndexPath:toIndexPath:"
+- "collectionViews"
+- "com.apple.DocumentManager.thumbnail-loading-pool"
+- "dataOwnerStateForItems:"
+- "did timeout while waiting for thumbnail completion handlers: %@"
+- "didDisplay"
+- "doc_fetchRootItemForProviderDomain:completionHandler:"
+- "doc_hasSandboxAccessToFile:"
+- "doc_isAppContainerRoot"
+- "doc_quickLookItem"
+- "documentProxyForName:type:MIMEType:isContentManaged:sourceAuditToken:"
+- "dsSourceItemToURL"
+- "dsSourceURLToItem"
+- "eligibleActions"
+- "estimated preload thumbnail count: %d for displayMode %d"
+- "fetchRootItem(completionHandler:)"
+- "fiNodeSnapshot"
+- "fpItemDataSource"
+- "fpItemDragInfosFromDropSession(_:alertPresenting:completionHandler:)"
+- "fpItemSnapshot"
+- "fpItemsFromItemProvidersWithInfo(_:itemContexts:alertPresenting:loadFromURLs:completionHandler:)"
+- "handleFilenameExtensionAddition(newExtension:fileName:item:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
+- "handleFilenameExtensionChange(originalExtension:newExtension:fileName:item:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
+- "handleFilenameExtensionRemoval(originalExtension:fileName:item:validationResult:renameProposition:alertPresentingViewController:completion:finishedBlock:)"
+- "imageDescriptorNamed:"
+- "indexTitlesForCollectionView:"
+- "initWithBookmarkableString:fileProviderItem:"
+- "initWithBundleIdentifier:"
+- "initWithSize:minimumSize:scale:style:isFolded:isInteractive:isFolder:"
+- "initWithURL:fileProviderItem:"
+- "isAnyFPItemAFault:"
+- "itemAccessDecorationForType:size:scale:"
+- "itemsToMove"
+- "lastOpenedItem"
+- "lastSelectedItem"
+- "localDomainRootForQLTests"
+- "localizedCompactTitle"
+- "localizedUppercaseString"
+- "no thumbnail entries to reload"
+- "nodeThumbnailsMap"
+- "notify report did Load with ThumbnailPool- in group notify"
+- "notify report did Load with ThumbnailPool- no handler"
+- "openSelectedItem:"
+- "openWithApp(application:isDefault:)"
+- "performInBatch:"
+- "performItemRename(_:to:displayingFileExtension:completion:finishedBlock:)"
+- "performItemRename(to:displayingFileExtension:completion:finishedBlock:)"
+- "performOperation(_:sourceOperationItems:destinationItem:forceBounce:lastUsageUpdatePolicy:alertPresenting:completion:)"
+- "performRename(item:newDisplayName:alertPresenting:requiresAlertPresentation:completion:finishedBlock:)"
+- "performRename(item:newFileName:alertPresenting:requiresAlertPresentation:completion:finishedBlock:)"
+- "performSortByDate:"
+- "performingBatchUpdates = %d in %@"
+- "pickerOperation(for:)"
+- "popover presentations must have a PPC configure block"
+- "preloadThumbnails"
+- "preloading thumbnails for %d nodes"
+- "q24@0:8@\"FPItem\"16"
+- "q24@0:8@\"UICollectionView\"16"
+- "q32@0:8@\"UICollectionView\"16q24"
+- "registerFPItem(_:supportsPickingFolders:disableExternalFolders:disableRealUTI:)"
+- "reloading %d thumbnail entries"
+- "renameCurrentItem(withSuggestedName:)"
+- "renderAttributedStringWithRequest:"
+- "reveal(items:selectEvenIfVisible:completionBlock:)"
+- "revealWithItems:selectEvenIfVisible:completionBlock:"
+- "setCollectionViewLayout:animated:"
+- "setFinishedBlock:"
+- "setLastOpenedItem:"
+- "setLastSelectedItem:"
+- "showsSeparator"
+- "subsection"
+- "synchronizationQueue"
+- "tab already in loadedTabs, finishing test after commit"
+- "tabbedBrowserViewControllerDidFinishLoading %lu ; currentTestName %s ; finishedLaunchTest %ld"
+- "thumbnailForNode:descriptor:forceFetch:"
+- "thumbnailLoadingPool"
+- "updateSnapshot(for:using:)"
+- "updateUIPHorizontalInsetsIfNecessaryWithCoordinator:"
+- "v24@?0@\"FPItem\"8@\"FPItem\"16"
+- "v24@?0@8@\"NSError\"16"
+- "v32@0:8@\"FPItem\"16@?<v@?@\"_TtC5Files21DOCItemCollectionCell\">24"
+- "v32@0:8@\"UIApplication\"16@\"NSString\"24"
+- "v32@0:8@\"UIApplication\"16@\"UICanvas\"24"
+- "v36@0:8@\"FPItem\"16B24@?<v@?@\"UIView\"@\"UIBezierPath\">28"
+- "v40@0:8@\"UICollectionView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "vendorBadgeDecorationForType:size:scale:"
+- "viewReusing"
+- "wantsToReuseView"
+- "“%@” is already taken. Please choose a different name."
+
+```

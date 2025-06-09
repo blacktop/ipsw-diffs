@@ -1,0 +1,2832 @@
+## VoiceMemos
+
+> `/private/var/staged_system_apps/VoiceMemos.app/VoiceMemos`
+
+```diff
+
+-1274.0.0.0.0
+-  __TEXT.__text: 0x186ca8
+-  __TEXT.__auth_stubs: 0x5110
+-  __TEXT.__objc_stubs: 0x239e0
+-  __TEXT.__objc_methlist: 0x13784
+-  __TEXT.__objc_classname: 0x1cad
+-  __TEXT.__objc_methname: 0x33656
+-  __TEXT.__objc_methtype: 0x7615
+-  __TEXT.__cstring: 0xc1aa
+-  __TEXT.__const: 0xc364
+-  __TEXT.__oslogstring: 0x2fbd
+-  __TEXT.__gcc_except_tab: 0x1bd8
+-  __TEXT.__ustring: 0x14
+-  __TEXT.__swift5_typeref: 0x814e
+-  __TEXT.__swift5_fieldmd: 0x336c
+-  __TEXT.__constg_swiftt: 0x5534
+-  __TEXT.__swift5_reflstr: 0x2df5
+-  __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_assocty: 0x920
+-  __TEXT.__swift5_capture: 0xc88
+-  __TEXT.__swift5_proto: 0x8bc
+-  __TEXT.__swift5_types: 0x450
+-  __TEXT.__swift5_protos: 0xcc
+-  __TEXT.__swift_as_entry: 0x2ac
+-  __TEXT.__swift_as_ret: 0x2ac
+-  __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x76c8
+-  __TEXT.__eh_frame: 0x73b4
+-  __DATA_CONST.__auth_got: 0x28a0
+-  __DATA_CONST.__got: 0x1a08
+-  __DATA_CONST.__auth_ptr: 0x1920
+-  __DATA_CONST.__const: 0x95e0
++1325.0.0.0.0
++  __TEXT.__text: 0x1bf2f4
++  __TEXT.__auth_stubs: 0x5520
++  __TEXT.__objc_stubs: 0x234a0
++  __TEXT.__objc_methlist: 0x141bc
++  __TEXT.__objc_methname: 0x33922
++  __TEXT.__cstring: 0xf11a
++  __TEXT.__objc_classname: 0x1c4c
++  __TEXT.__objc_methtype: 0x77ec
++  __TEXT.__const: 0xf004
++  __TEXT.__oslogstring: 0x35e2
++  __TEXT.__gcc_except_tab: 0x1de8
++  __TEXT.__swift5_typeref: 0xaabc
++  __TEXT.__swift5_fieldmd: 0x4558
++  __TEXT.__constg_swiftt: 0x7408
++  __TEXT.__swift5_reflstr: 0x4317
++  __TEXT.__swift5_builtin: 0x320
++  __TEXT.__swift5_assocty: 0xa38
++  __TEXT.__swift5_capture: 0x14b0
++  __TEXT.__swift5_proto: 0x9c0
++  __TEXT.__swift5_types: 0x570
++  __TEXT.__swift5_protos: 0xd8
++  __TEXT.__swift_as_entry: 0x368
++  __TEXT.__swift_as_ret: 0x398
++  __TEXT.__swift5_mpenum: 0x78
++  __TEXT.__unwind_info: 0x86f8
++  __TEXT.__eh_frame: 0x93a4
++  __DATA_CONST.__auth_got: 0x2aa8
++  __DATA_CONST.__got: 0x1ae0
++  __DATA_CONST.__auth_ptr: 0x1a98
++  __DATA_CONST.__const: 0xbc00
+   __DATA_CONST.__cfstring: 0x3a60
+-  __DATA_CONST.__objc_classlist: 0x778
+-  __DATA_CONST.__objc_catlist: 0x90
++  __DATA_CONST.__objc_classlist: 0x858
++  __DATA_CONST.__objc_catlist: 0x78
+   __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x458
++  __DATA_CONST.__objc_protolist: 0x500
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x128
+-  __DATA_CONST.__objc_superrefs: 0x3d0
++  __DATA_CONST.__objc_protorefs: 0x1a8
++  __DATA_CONST.__objc_superrefs: 0x390
+   __DATA_CONST.__objc_intobj: 0x180
+-  __DATA_CONST.__objc_arraydata: 0xc0
+-  __DATA_CONST.__objc_arrayobj: 0xa8
++  __DATA_CONST.__objc_arraydata: 0xd8
++  __DATA_CONST.__objc_arrayobj: 0xc0
+   __DATA_CONST.__objc_doubleobj: 0xb0
+-  __DATA.__objc_const: 0x1bf28
+-  __DATA.__objc_selrefs: 0xb608
+-  __DATA.__objc_ivar: 0x1208
+-  __DATA.__objc_data: 0x6128
+-  __DATA.__data: 0x9c50
++  __DATA.__objc_const: 0x1d828
++  __DATA.__objc_selrefs: 0xb950
++  __DATA.__objc_ivar: 0x1134
++  __DATA.__objc_data: 0x8058
++  __DATA.__data: 0xb430
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x10360
+-  __DATA.__common: 0x460
++  __DATA.__bss: 0x122d0
++  __DATA.__common: 0x530
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
++  - /System/Library/Frameworks/Cinematic.framework/Cinematic
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+
+   - /System/Library/PrivateFrameworks/AppSupportUI.framework/AppSupportUI
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
++  - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+   - /System/Library/PrivateFrameworks/BacklightServices.framework/BacklightServices
+   - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
++  - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 863676BD-79DA-3714-AF02-A2B832378F10
+-  Functions: 10706
+-  Symbols:   2697
+-  CStrings:  10978
++  UUID: DCF13F46-8189-3741-ADE6-055A617AF347
++  Functions: 11981
++  Symbols:   2822
++  CStrings:  11335
+ 
+Symbols:
++ _$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq
++ _$s10AppIntents0A6IntentPAAE14supportedModesAA0cE0VvgZ
++ _$s10AppIntents11IntentModesV10foregroundyA2C14ForegroundModeVFZ
++ _$s10AppIntents11IntentModesV14ForegroundModeV8deferredAEvgZ
++ _$s10AppIntents11IntentModesV14ForegroundModeVMa
++ _$s10AppIntents11IntentModesVMa
++ _$s10AppIntents11IntentModesVMn
++ _$s10AppIntents11IntentModesVs10SetAlgebraAAMc
++ _$s10Foundation12CharacterSetV21punctuationCharactersACvgZ
++ _$s10Foundation12CharacterSetV8containsySbs7UnicodeO6ScalarVF
++ _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
++ _$s10Foundation12NotificationVMa
++ _$s10Foundation16AttributedStringVSQAAMc
++ _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluis
++ _$s10Foundation3URLV22appendingPathComponentyACSSF
++ _$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF
++ _$s10UIViewType7SwiftUI0A13RepresentablePTl
++ _$s11Coordinator7SwiftUI19UIViewRepresentablePTl
++ _$s12AVFoundation22AVPartialAsyncPropertyCAASo7AVAssetCRbzlE8durationAA07AVAsyncD0CyxSo6CMTimeaGvgZ
++ _$s12AVFoundation22AVPartialAsyncPropertyCAASo7AVAssetCRbzlE8metadataAA07AVAsyncD0CyxSaySo14AVMetadataItemCGGvgZ
++ _$s12AppAnalytics9EventTypeP17samplingThresholdSiSgvgZTq
++ _$s12AppAnalytics9EventTypePAAE17samplingThresholdSiSgvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV10mpeg4AudioACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV5audioACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeVMn
++ _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
++ _$s4Body7SwiftUI11ButtonStylePTl
++ _$s5UIKit28NSDiffableDataSourceSnapshotV11appendItems_9toSectionySayq_G_xSgtF
++ _$s5UIKit28NSDiffableDataSourceSnapshotV14appendSectionsyySayxGF
++ _$s5UIKit28NSDiffableDataSourceSnapshotV19_bridgeToObjectiveCSoABCyF
++ _$s5UIKit28NSDiffableDataSourceSnapshotVACyxq_GycfC
++ _$s5UIKit28NSDiffableDataSourceSnapshotVMn
++ _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantVMa
++ _$s5UIKit6_GlassVMa
++ _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
++ _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
++ _$s6Speech0A8AnalyzerC6client13inputSequence11audioFormat7modules7options17restrictedLogging15analysisContext27volatileRangeChangedHandlerAcA10ClientInfoV_xSo07AVAudioG0CSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vM0CySo06CMTimeO0a_S2btcSgntcs8SendableRzSciRzAA0B5InputV7ElementRtzlufC
++ _$s6Speech13AnalyzerInputV6bufferACSo16AVAudioPCMBufferC_tcfC
++ _$s6TipKit03AnyA0VMn
++ _$s6TipKit0A4ViewV_9arrowEdge6actionACyAA03AnyA0VGAA0A0_pSg_7SwiftUI0E0OSgyAA4TipsO6ActionVctcAGRszrlufC
++ _$s7Combine16ObservableObjectMp
++ _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
++ _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
++ _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
++ _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
++ _$s7Combine25ObservableObjectPublisherCMn
++ _$s7Combine9PublishedV12initialValueACyxGx_tcfC
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
++ _$s7Combine9PublishedVMa
++ _$s7Combine9PublishedVMn
++ _$s7ElementSTTl
++ _$s7SwiftUI11ButtonStyleMp
++ _$s7SwiftUI11ButtonStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI11ButtonStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
++ _$s7SwiftUI12ProgressViewV5value5totalACyAA05EmptyD0VAGGqd__Sg_qd__tcAGRszAGRs_SBRd__lufC
++ _$s7SwiftUI12ProgressViewVMn
++ _$s7SwiftUI12ProgressViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI13_VStackLayoutVMn
++ _$s7SwiftUI14ObservedObjectV12wrappedValueACyxGx_tcfC
++ _$s7SwiftUI14ObservedObjectVMn
++ _$s7SwiftUI14_UIHostingViewC15safeAreaRegionsAA04SafefG0VvsTj
++ _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
++ _$s7SwiftUI19UIViewRepresentableMp
++ _$s7SwiftUI19UIViewRepresentableP04makeC07context0C4TypeQzAA0cD7ContextVyxG_tFTq
++ _$s7SwiftUI19UIViewRepresentableP06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtFTq
++ _$s7SwiftUI19UIViewRepresentableP06updateC0_7contexty0C4TypeQz_AA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19UIViewRepresentableP09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZTq
++ _$s7SwiftUI19UIViewRepresentableP12sizeThatFits_6uiView7contextSo6CGSizeVSgAA08ProposedI4SizeV_0C4TypeQzAA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19UIViewRepresentableP14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZTq
++ _$s7SwiftUI19UIViewRepresentableP15makeCoordinator0F0QzyFTq
++ _$s7SwiftUI19UIViewRepresentableP19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tFTq
++ _$s7SwiftUI19UIViewRepresentableP21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztFTq
++ _$s7SwiftUI19UIViewRepresentableP21_overrideSizeThatFits_2in6uiViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztFTq
++ _$s7SwiftUI19UIViewRepresentableP24_modifyBridgedViewInputsyyAA01_gH0VzFZTq
++ _$s7SwiftUI19UIViewRepresentablePAA4ViewTb
++ _$s7SwiftUI19UIViewRepresentablePAAE06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtF
++ _$s7SwiftUI19UIViewRepresentablePAAE09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE12sizeThatFits_6uiView7contextSo6CGSizeVSgAA08ProposedI4SizeV_0C4TypeQzAA0cD7ContextVyxGtF
++ _$s7SwiftUI19UIViewRepresentablePAAE13_makeViewList4view6inputsAA01_fG7OutputsVAA11_GraphValueVyxG_AA01_fG6InputsVtFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tF
++ _$s7SwiftUI19UIViewRepresentablePAAE21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztF
++ _$s7SwiftUI19UIViewRepresentablePAAE21_overrideSizeThatFits_2in6uiViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztF
++ _$s7SwiftUI19UIViewRepresentablePAAE24_modifyBridgedViewInputsyyAA01_gH0VzFZ
++ _$s7SwiftUI19UIViewRepresentablePAAE4bodys5NeverOvg
++ _$s7SwiftUI19UIViewRepresentablePAAE9_makeView4view6inputsAA01_F7OutputsVAA11_GraphValueVyxG_AA01_F6InputsVtFZ
++ _$s7SwiftUI19UIViewRepresentablePAAyt11CoordinatorRtzrlE04makeE0yyF
++ _$s7SwiftUI19_ConditionalContentV7StorageOMn
++ _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
++ _$s7SwiftUI19_ConditionalContentVMn
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI21_GlassEffectContainerV10smoothness7contentACyxG12CoreGraphics7CGFloatVSg_xyXEtcfC
++ _$s7SwiftUI21_GlassEffectContainerVMn
++ _$s7SwiftUI21_GlassEffectContainerVyxGAA4ViewAAMc
++ _$s7SwiftUI23LinearProgressViewStyleV4tintAcA5ColorV_tcfC
++ _$s7SwiftUI23LinearProgressViewStyleVAA0deF0AAMc
++ _$s7SwiftUI23LinearProgressViewStyleVMa
++ _$s7SwiftUI23LinearProgressViewStyleVMn
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMa
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMn
++ _$s7SwiftUI24ButtonStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI24ButtonStyleConfigurationV9isPressedSbvg
++ _$s7SwiftUI24_BackgroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI4EdgeO3SetVMn
++ _$s7SwiftUI4FontV6DesignOMa
++ _$s7SwiftUI4FontV6DesignOMn
++ _$s7SwiftUI4FontV6system4size6weight6designAC12CoreGraphics7CGFloatV_AC6WeightVSgAC6DesignOSgtFZ
++ _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
++ _$s7SwiftUI4ViewPAAE08progressC5StyleyQrqd__AA08ProgresscE0Rd__lF
++ _$s7SwiftUI4ViewPAAE08progressC5StyleyQrqd__AA08ProgresscE0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lF
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lF
++ _$s7SwiftUI4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQOMQ
++ _$s7SwiftUI5ColorV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI5ColorV3redACvgZ
++ _$s7SwiftUI5ColorV4grayACvgZ
++ _$s7SwiftUI6VStackVMn
++ _$s7SwiftUI6VStackVyxGAA4ViewAAMc
++ _$s7SwiftUI6_GlassV11interactionyA2C16InteractionStateVSgF
++ _$s7SwiftUI6_GlassV16InteractionStateV4idleAEvgZ
++ _$s7SwiftUI6_GlassV16InteractionStateV7pressedAEvgZ
++ _$s7SwiftUI6_GlassV16InteractionStateVMa
++ _$s7SwiftUI6_GlassV16InteractionStateVMn
++ _$s7SwiftUI6_GlassV7regularACvgZ
++ _$s7SwiftUI6_GlassV9tintColoryAcA0E0VSgF
++ _$s7SwiftUI6_GlassVMa
++ _$s7SwiftUI7CapsuleVAA5ShapeAAMc
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeVMa
++ _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
++ _$s8IteratorSTTl
++ _$s9Cinematic23CNAssetSpatialAudioInfoC013assetContainscD00F0SbSo7AVAssetC_tYaFZTjTu
++ _$s9Cinematic23CNAssetSpatialAudioInfoC07defaultcD5TrackSo07AVAssetG0CvgTj
++ _$s9Cinematic23CNAssetSpatialAudioInfoC5assetACSo7AVAssetC_tYaKcfc
++ _$s9Cinematic23CNAssetSpatialAudioInfoC5assetACSo7AVAssetC_tYaKcfcTu
++ _$s9Cinematic23CNAssetSpatialAudioInfoC8audioMix15effectIntensity14renderingStyleSo07AVAudioG0CSf_So09CNSpatiald9RenderingK0VtFTj
++ _$s9Cinematic23CNAssetSpatialAudioInfoCMa
++ _$s9Cinematic23CNAssetSpatialAudioInfoCMn
++ _$s9CoreMedia20CMTIME_IS_INDEFINITEySbSo6CMTimeaF
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSS17UnicodeScalarViewV13_foreignIndex5afterSS0E0VAF_tF
++ _$sSS17UnicodeScalarViewV13_foreignIndex6beforeSS0E0VAF_tF
++ _$sSS17UnicodeScalarViewV6appendyys0A0O0B0VF
++ _$sST8IteratorST_StTn
++ _$sSTTL
++ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
++ _$sSTsE10enumerateds18EnumeratedSequenceVyxGyF
++ _$sSTsE7forEachyyy7ElementQzKXEKF
++ _$sSa21_makeMutableAndUniqueyyF
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSayxGSKsMc
++ _$sScC6resume8throwingyq_n_tF
++ _$sScg17makeAsyncIteratorScg0C0Vyxq__GyF
++ _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
++ _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
++ _$sScg8IteratorVMa
++ _$sScg8IteratorVMn
++ _$sScgMa
++ _$sSd10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSdSBsMc
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSo11CMTimeRangea9CoreMediaE5start3endABSo0A0a_AGtcfC
++ _$sSo15UIBarButtonItemC5UIKitE06systemC013primaryAction4menuABSo0ab6SystemC0V_So8UIActionCSgSo6UIMenuCSgtcfC
++ _$sSo15UIBarButtonItemC5UIKitE5title5image13primaryAction4menuABSSSg_So7UIImageCSgSo8UIActionCSgSo6UIMenuCSgtcfC
++ _$sSo17CMSampleBufferRefa9CoreMediaE17formatDescriptionSo08CMFormatgC0aSgvg
++ _$sSo17CMSampleBufferRefa9CoreMediaE21presentationTimeStampSo6CMTimeavg
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo21OS_dispatch_semaphoreC8DispatchE4waityyF
++ _$sSo21OS_dispatch_semaphoreC8DispatchE6signalSiyF
++ _$sSo23UIZoomTransitionOptionsC5UIKitE21alignmentRectProviderSo6CGRectVSgSo0ab9AlignmentF7ContextCcSgvs
++ _$sSo26UIViewControllerTransitionC5UIKitE4zoom7options18sourceViewProviderABXDSo06UIZoomC7OptionsCSg_So0A0CSgSo0jc6SourcehI7ContextCctFZ
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlF
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlFTu
++ _$sSo35UISheetPresentationControllerDetentC5UIKitE6custom10identifier8resolverABSo0abcD10IdentifieraSg_12CoreGraphics7CGFloatVSgSo0abcD17ResolutionContext_pctFZ
++ _$sSo6CMTimea9CoreMediaE2neoiySbAB_ABtFZ
++ _$sSo6CMTimea9CoreMediaE7seconds18preferredTimescaleABSd_s5Int32VtcfC
++ _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
++ _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV015preferredSymbolC8ForImageSo07UIImageeC0CSgvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV12_tintedGlassAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV13contentInsetsSo017NSDirectionalEdgeE0VvM
++ _$sSo8UIButtonC5UIKitE13ConfigurationV5glassAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV6_glassAEyFZ
++ _$sSo8UISliderC5UIKitE18TrackConfigurationV12neutralValueSfvs
++ _$sSo8UISliderC5UIKitE18TrackConfigurationV20allowsTickValuesOnly12neutralValue12enabledRange13numberOfTicksAESb_SfSNySfGSitcfC
++ _$sSo8UISliderC5UIKitE18TrackConfigurationV20allowsTickValuesOnlySbvs
++ _$sSo8UISliderC5UIKitE18TrackConfigurationVMa
++ _$sSo8UISliderC5UIKitE18TrackConfigurationVMn
++ _$sSo8UISliderC5UIKitE18trackConfigurationAbCE05TrackD0VSgvs
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
++ _$ss18EnumeratedSequenceVMa
++ _$ss18EnumeratedSequenceVyxGSTsMc
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ _$ss6HasherV5_hash4seed5bytes5countS2i_s6UInt64VSitFZ
++ _AVAudioSessionModeSpatialCapture
++ _AVCaptureDeviceTypeMicrophone
++ _AVCaptureSessionDidStartRunningNotification
++ _AVCaptureSessionDidStopRunningNotification
++ _AVCaptureSessionErrorKey
++ _AVCaptureSessionPresetHigh
++ _AVCaptureSessionRuntimeErrorNotification
++ _AVMediaTypeMetadata
++ _AVPlayerItemDidPlayToEndTimeNotification
++ _AVPlayerItemFailedToPlayToEndTimeErrorKey
++ _AVPlayerItemFailedToPlayToEndTimeNotification
++ _AVTrackAssociationTypeAudioFallback
++ _AVTrackAssociationTypeMetadataReferent
++ _CMSampleBufferGetPresentationTimeStamp
++ _OBJC_CLASS_$_AVAsset
++ _OBJC_CLASS_$_AVAssetWriter
++ _OBJC_CLASS_$_AVAssetWriterInput
++ _OBJC_CLASS_$_AVAssetWriterInputGroup
++ _OBJC_CLASS_$_AVAssetWriterInputMetadataAdaptor
++ _OBJC_CLASS_$_AVAudioUnit
++ _OBJC_CLASS_$_AVCaptureAudioDataOutput
++ _OBJC_CLASS_$_AVCaptureDevice
++ _OBJC_CLASS_$_AVCaptureDeviceInput
++ _OBJC_CLASS_$_AVCaptureMovieFileOutput
++ _OBJC_CLASS_$_AVCaptureSession
++ _OBJC_CLASS_$_AVComposition
++ _OBJC_CLASS_$_AVCompositionTrack
++ _OBJC_CLASS_$_AVCompositionTrackSegment
++ _OBJC_CLASS_$_AVMetadataItem
++ _OBJC_CLASS_$_AVPlayer
++ _OBJC_CLASS_$_AVPlayerItem
++ _OBJC_CLASS_$_AVTimedMetadataGroup
++ _OBJC_CLASS_$_NSFileAccessIntent
++ _OBJC_CLASS_$_NSFileCoordinator
++ _OBJC_CLASS_$_NSOperation
++ _OBJC_CLASS_$_RCSpatialAsset
++ _OBJC_CLASS_$_RCVoiceMemoMetadata
++ _OBJC_CLASS_$_TranscriptionMetadata
++ _OBJC_CLASS_$_UIScene
++ _OBJC_CLASS_$_UIViewControllerTransition
++ _OBJC_CLASS_$_UIZoomTransitionOptions
++ _OBJC_CLASS_$_UtteranceMetaData
++ _OBJC_CLASS_$__UIActivityItemCustomization
++ _OBJC_CLASS_$__UIActivityItemCustomizationGroup
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_METACLASS_$_NSOperation
++ _RCAudioFileExtensionQTA
++ _RCCaptureDirectoryURL
++ _RCRecordingShareMetadataKeyEnhanceEnabled
++ _RCRecordingShareMetadataKeyLayerMix
++ _RCRecordingShareMetadataKeyPlaybackRate
++ _RCRecordingShareMetadataKeySkipSilenceEnabled
++ _RCRecordingShareMetadataKeySpeechIsolatorValue
++ _RCSpatialAudioCaptureAvailable
++ _RCSpatialEffectsAreAvailable
++ _RCSpatialFeatureFlagIsEnabled
++ _UIAccessibilityTraitHeader
++ _UIContentSizeCategoryExtraExtraLarge
++ _UIFontTextStyleHeadline
++ _UIFontTextStyleTitle1
++ __UISolariumEnabled
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_isClassOrObjCExistentialType
++ _kCMTimeInvalid
++ _kDefaultSpeechIsolatorValue
++ _objc_release_x2
++ _swift_coroFrameAlloc
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getTupleTypeMetadata2
+- _$s10AppIntents0A6EntityPA2A0A4EnumRzrlE28defaultResolverSpecificationQrvgZ
+- _$s10AppIntents0A6EntityPA2A0A4EnumRzrlE28defaultResolverSpecificationQrvpZQOMQ
+- _$s10AppIntents0A6EntityPAASYRz8RawValueSYQz2IDs12IdentifiablePRtzrlE12defaultQueryAA01_d19RepresentableStringI0VyxGvgZ
+- _$s10AppIntents0A6EntityPAASYRz8RawValueSYQz2IDs12IdentifiablePRtzrlE2idAIvg
+- _$s10AppIntents24CaseDisplayRepresentablePA2A08InstancedE0RzrlE23localizedStringResource10Foundation09LocalizedhI0Vvg
+- _$s10AppIntents28_RawRepresentableStringQueryVMn
+- _$s10AppIntents28_RawRepresentableStringQueryVyxGAA06EntityF0AAMc
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV011IPANotationB0OMn
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV35accessibilitySpeechPhoneticNotationAF011IPANotationB0Ovg
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV35accessibilitySpeechPhoneticNotationAF011IPANotationB0OvpMV
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesVMn
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s10Foundation19AttributedSubstringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0b6StringG0Rzluis
+- _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
+- _$s10Foundation6LocaleV12LanguageCodeV10identifierSSvg
+- _$s10Foundation6LocaleV12LanguageCodeVMa
+- _$s10Foundation6LocaleV12LanguageCodeVMn
+- _$s10Foundation6LocaleV8LanguageV12languageCodeAC0cE0VSgvg
+- _$s10Foundation6LocaleVs23CustomStringConvertibleAAMc
+- _$s12AppAnalytics0A14SessionManagerC06createcD04withAA0cD0CAA0cD13ConfigurationV_tF
+- _$s12AppAnalytics0A14SessionManagerC15trackingConsent13crashDetector25summaryEventConfigurationAcA08TrackingF0CSg_AA05CrashH4Type_pAA07SummaryjK0VtcfC
+- _$s12AppAnalytics0A14SessionManagerCMa
+- _$s12AppAnalytics0B5ActorC14assumeIsolated_4file4linexxyKACYcYTXE_s12StaticStringVSutKlFZ
+- _$s12AppAnalytics11FlushEventsV13didEndSessionACvgZ
+- _$s12AppAnalytics11FlushEventsV13didLeaveGroupACvgZ
+- _$s12AppAnalytics11FlushEventsV15didStartSessionACvgZ
+- _$s12AppAnalytics11FlushEventsVMa
+- _$s12AppAnalytics11FlushEventsVMn
+- _$s12AppAnalytics11FlushEventsVs10SetAlgebraAAMc
+- _$s12AppAnalytics13AccessTrackerC4time_27submitAndRestartWithSessionyxm_SbtAA9EventTypeRzlF
+- _$s12AppAnalytics13CrashDetectorC6sharedACvgZ
+- _$s12AppAnalytics13CrashDetectorCAA0cD4TypeAAWP
+- _$s12AppAnalytics13CrashDetectorCMa
+- _$s12AppAnalytics14FlushProcessorC11flushEvents0E8IntervalAcA0cF0V_Sdtcfc
+- _$s12AppAnalytics14FlushProcessorCMa
+- _$s12AppAnalytics14SessionManagerC09processorD0AA09ProcessorD0Cvg
+- _$s12AppAnalytics14SessionManagerC7OptionsVMa
+- _$s12AppAnalytics14SessionManagerC7OptionsVMn
+- _$s12AppAnalytics14SessionManagerC7OptionsVs10SetAlgebraAAMc
+- _$s12AppAnalytics14SessionManagerC7trackerAA7TrackerCvg
+- _$s12AppAnalytics15TimestampJitterO7enabledyACSd_SdtcACmFWC
+- _$s12AppAnalytics15TimestampJitterOAA0C25ConfigurationProviderTypeAAWP
+- _$s12AppAnalytics15TimestampJitterOMa
+- _$s12AppAnalytics16ProcessorManagerC3add05eventC0yAA05EventC4Type_p_tF
+- _$s12AppAnalytics21LoggingEventProcessorC9logFormatAcA0cdeG0O_tcfC
+- _$s12AppAnalytics21LoggingEventProcessorCAA0dE4TypeAAWP
+- _$s12AppAnalytics21LoggingEventProcessorCMa
+- _$s12AppAnalytics22UploadBatchEventConfigC4with16debuggingEnabledACSb_tF
+- _$s12AppAnalytics22UploadBatchEventConfigC4with26transparencyLoggingEnabledACSb_tF
+- _$s12AppAnalytics22UploadBatchEventConfigC7defaultACvgZ
+- _$s12AppAnalytics22UploadBatchEventConfigCMa
+- _$s12AppAnalytics24DiagnosticsConsentStatusO10disallowedyA2CmFWC
+- _$s12AppAnalytics24DiagnosticsConsentStatusO7allowedyA2CmFWC
+- _$s12AppAnalytics24DiagnosticsConsentStatusOMa
+- _$s12AppAnalytics25SummaryEventConfigurationV14defaultCadenceACvgZ
+- _$s12AppAnalytics25SummaryEventConfigurationVMa
+- _$s12AppAnalytics25UploadBatchEventProcessorC6client8endpoint11contentType6configAcA6ClientC_AA08EndpointJ0_pAA07ContentJ0OAA0cdE6ConfigCtcfC
+- _$s12AppAnalytics25UploadBatchEventProcessorCAA0eF4TypeAAWP
+- _$s12AppAnalytics25UploadBatchEventProcessorCMa
+- _$s12AppAnalytics26DiagnosticsConsentProviderV6customyAcA0cD6StatusOyYbcFZ
+- _$s12AppAnalytics26DiagnosticsConsentProviderV6statusAA0cD6StatusOvg
+- _$s12AppAnalytics26DiagnosticsConsentProviderV7defaultACvgZ
+- _$s12AppAnalytics26DiagnosticsConsentProviderVMa
+- _$s12AppAnalytics26DiagnosticsConsentProviderVMn
+- _$s12AppAnalytics27LoggingEventProcessorFormatO4jsonyACSo20NSJSONWritingOptionsV_tcACmFWC
+- _$s12AppAnalytics27LoggingEventProcessorFormatOMa
+- _$s12AppAnalytics27SessionManagerConfigurationV7options14flushProcessor09timestampE8Provider017privacyValidationJ0018diagnosticsConsentJ023timeDurationGranularityAcA0cD0C7OptionsV_AA05FlushH0CAA09TimestampeJ4Type_pAA07PrivacyljU0_pAA011DiagnosticsnJ0VAA04TimepQ0VtcfC
+- _$s12AppAnalytics27SessionManagerConfigurationVMa
+- _$s12AppAnalytics33DisabledPrivacyValidationProviderCAA0deF4TypeAAWP
+- _$s12AppAnalytics33DisabledPrivacyValidationProviderCACycfc
+- _$s12AppAnalytics33DisabledPrivacyValidationProviderCMa
+- _$s12AppAnalytics7TrackerC15onSessionChange5blockAA0E8ObserverCyAA06AccessC0C_AA0eF0Otc_tF
+- _$s12AppAnalytics8EndpointC3url4name25sharedContainerIdentifierAC10Foundation3URLV_S2SSgtcfc
+- _$s12AppAnalytics8EndpointCMa
+- _$s6Speech0A8AnalyzerC6client13inputSequence11audioFormat7modules7options17restrictedLogging15analysisContext22didChangeVolatileRangeAcA10ClientInfoV_xSo07AVAudioG0CSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vM0CySo06CMTimeQ0a_S2btcSgntcs8SendableRzSciRzAA0B5InputV7ElementRtzlufC
+- _$s6Speech13AnalyzerInputV6buffer0D9StartTimeACSo16AVAudioPCMBufferC_So6CMTimeaSgtcfC
+- _$s6TipKit0A4ViewV_9arrowEdge6actionACyxGx_7SwiftUI0E0OSgyAA4TipsO6ActionVctcfC
+- _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0yySSF
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sScTss5NeverORs_rlE5valuexvg
+- _$sScTss5NeverORs_rlE5valuexvgTu
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlF
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlFTu
+- _$sSy10FoundationE18localizedUppercaseSSvg
+- _$ss11_MergeErrorON
+- _$ss11_MergeErrorOs0B0sWP
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _$ss4Int8VN
+- _CGAffineTransformMakeTranslation
+- _CGColorEqualToColor
+- _CGPathCreateMutableCopyByTransformingPath
+- _CGPathEqualToPath
+- _CGPathGetBoundingBox
+- _CGPathRelease
+- _FBSOpenApplicationOptionKeyPromptUnlockDevice
+- _NSURLCreationDateKey
+- _NSURLErrorDomain
+- _NSURLErrorKey
+- _OBJC_CLASS_$_AVAudioUnitEffect
+- _OBJC_CLASS_$_CAMediaTimingFunction
+- _OBJC_CLASS_$_CATextLayer
+- _OBJC_CLASS_$_CATransition
+- _OBJC_CLASS_$_FBSOpenApplicationOptions
+- _OBJC_CLASS_$_FBSOpenApplicationService
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_OBLinkTrayButton
+- _OBJC_CLASS_$_SBFSecureWindow
+- _OBJC_CLASS_$_SBSLockScreenService
+- _OBJC_CLASS_$_SBSSecureAppAssertion
+- _OBJC_CLASS_$_UIBackgroundConfiguration
+- _OBJC_CLASS_$_UIControl
+- _OBJC_CLASS_$_UIPointerInteraction
+- _OBJC_CLASS_$_UIPointerLiftEffect
+- _OBJC_CLASS_$_UIPointerRegion
+- _OBJC_CLASS_$_UIPointerStyle
+- _OBJC_CLASS_$_UITargetedPreview
+- _OBJC_CLASS_$__UINavigationBarTitleView
+- _RCAudioFileExtensionForIntermediateCapture
+- _RCDebugAODOverlay
+- _RCOverdubRecordingFeatureFlagIsEnabled
+- _RCSSavedRecordingServiceAudioFileMetadataKey_Composition
+- _RCSSavedRecordingServiceAudioFileMetadataKey_OutputFragment
+- _RCSSavedRecordingServiceAudioFileMetadataKey_UniqueID
+- _RCSaveAsNewFeatureFlagIsEnabled
+- _RCSupportsDebugAODOverlay
+- _SBSIsSystemApertureAvailable
+- _SBSLockScreenContentAssertionSlotApp
+- _UIAccessibilitySpeechAttributeIPANotation
+- _UIAccessibilityTraitNotEnabled
+- _UIContentSizeCategoryCompareToCategory
+- _UIContentSizeCategoryExtraExtraExtraLarge
+- _UIFontDescriptorTextStyleAttribute
+- __LSVersionNumberCompare
+- __UIWindowSceneSessionTypeCoverSheet
+- __Znwm
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _kCAAlignmentCenter
+- _kCAMediaTimingFunctionEaseInEaseOut
+- _kCAMediaTimingFunctionEaseOut
+- _kCAMediaTimingFunctionLinear
+- _kCATransitionFade
+- _swift_unexpectedError
+- _sysctlbyname
+CStrings:
++ "\nu!"
++ "!!"
++ "\"\x94\""
++ "$7"
++ "$__lazy_storage_$_defaultDoneButtonItem"
++ "$__lazy_storage_$_menuDoneButtonItem"
++ "$__lazy_storage_$_spatialPlayer"
++ "$__lazy_storage_$_standardPlayer"
++ "%@, %lu results"
++ "%ld"
++ "%lu Recordings"
++ "%s - Failed to allocate audio buffer"
++ "%s - Failed to convert buffer - error: %@"
++ "%s - Failed to convert to AVAudioBuffer"
++ "%s - Failed to create format - sampleBufferFormat: %@"
++ "%s - Failed to create format converter - from: %@ to:%@"
++ "%s - No audio mix provider"
++ "%s - no spatial asset found"
++ "%s - recordingView is unexpectedly nil."
++ "%s - trackVolumes = %s, speechIsolatorValue = %f "
++ "%s -- Closing in flight recording"
++ "%s -- Failed to create capture token - error: %@"
++ "%s -- Failed to move recording into Recordings directory: %@"
++ "%s -- Failed to remove capture directory: %@"
++ "%s -- Failed to set prefer decoupled IO - error: %@"
++ "%s -- Failed to write merge capture file, error: %@"
++ "%s -- Requires deinterleaved float format"
++ "%s -- Unable to get navigationItem. Unexpected splitViewController class."
++ "%s -- Unable to present recording card. activeFolderViewController is nil."
++ "%s -- Unable to push view controller. UISplitViewController is nil"
++ "%s -- Unable to toggle Speech Isolator. UUID being displayed %@ does not match the UUID in the playbackSettings %@"
++ "%s -- Unexpected itemIdentifier %@"
++ "%s -- Unexpected scope button index"
++ "%s -- VMAudioService shutdown error: %@"
++ "%s -- cannot get speech isolator enabled for UUID %@ that does not match audio player UUID %@"
++ "%s -- cannot get speech isolator for UUID %@ that does not match audio player UUID %@"
++ "%s -- cannot set speech isolator enabled for UUID %@ that does not match audio player UUID %@"
++ "%s -- cannot set speech isolator for UUID %@ that does not match audio player UUID %@"
++ "%s Failed to get AudioBufferlist - error: %d"
++ "%s Failed to get AudioBufferlist size - error: %d"
++ "%s Failed to get streamDescription"
++ "%s Unexpected card sheet presentation state. Detent transition progress: %f"
++ "%s failed to create audioMix paramaters"
++ "%s failed to create spatial parameter"
++ "*"
++ "+[RCRecordingCellDisplayModel recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:hasMultipleTracks:isSpatialRecording:wasManuallyRenamed:]"
++ "+[RCRecordingDisplayModel recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:isSpatialRecording:wasManuallyRenamed:]"
++ "-[RCActivityWaveformProcessor prepareToProcessWithFormat:audioTime:punchInTime:]"
++ "-[RCFolderBrowsingCollectionViewController _pushViewControllerForFolderOfType:withName:folderUUID:animated:completion:]"
++ "-[RCMainControllerHelper isSpeechIsolatorEnabledForUUID:]"
++ "-[RCMainControllerHelper playbackForUUID:]"
++ "-[RCMainControllerHelper setSpeechIsolatorEnabled:forUUID:]"
++ "-[RCMainControllerHelper setSpeechIsolatorValue:forUUID:]"
++ "-[RCMainControllerHelper speechIsolatorForUUID:]"
++ "-[RCMainViewController _presentCardViewWithOptions:completion:]"
++ "-[RCMainViewController toggleSpeechIsolatorEnabledForUUID:]"
++ "-[RCMainViewController toggleSpeechIsolatorForUUID:]"
++ "-[RCPlatterViewController _updateWithFrameSpecifier:]"
++ "-[RCPlaybackSettingsCollectionViewController _createDiffableDataSource]_block_invoke"
++ "-[RCPlaybackViewController _navigationItemToUseForToolbarItems]"
++ "-[RCRecordingsCollectionViewController _searchScopeForScopeButtonIndex:]"
++ "-[RCSavedRecordingsController setSearchPredicate:scope:performingFetch:]"
++ "-[RCShareableComposition activityViewController:itemsForActivityType:]"
++ "-[RecorderAppDelegate applicationWillTerminate:]"
++ "-[VMAudioService __eraseSecondLayerInComposition:outputFragment:completionBlock:]"
++ "-[VMAudioService _configureAudioSession:preferDecoupledIO:isRecording:]"
++ "-[VMAudioService _mergeRecording:atTime:controller:shouldCaptureSpatial:error:]"
++ "-[VMAudioService _mergeRecording:atTime:controller:shouldCaptureSpatial:error:]_block_invoke"
++ "-[VMAudioService _mergeRecording:atTime:controller:shouldCaptureSpatial:error:]_block_invoke_2"
++ "-[VMAudioService _startRecordingWithController:shouldCaptureSpatial:error:]_block_invoke"
++ "-[VMAudioService finalizeRecording:controller:saveAsNew:]"
++ "-[VMAudioService forceCloseActiveRecordingAssetWriter:]"
++ "-[VMAudioService startRecordingWithController:]"
++ "15.arrow.trianglehead.clockwise"
++ "15.arrow.trianglehead.counterclockwise"
++ "3i"
++ "@\"<RCControlsActionDelegate>\"16@0:8"
++ "@\"<RCFolderViewDelegate>\"16@0:8"
++ "@\"<RCMPDetailSliderDelegate>\"16@0:8"
++ "@\"<RCPlaybackSettingsCollectionViewControllerDelegate>\""
++ "@\"<RCRecordButtonFactory>\""
++ "@\"<RCRecordingViewToolbarProvider>\""
++ "@\"<VMRecorder>\""
++ "@\"<VMRecordingController>\"16@0:8"
++ "@\"<_TtP10VoiceMemos21RCRecordButtonFactory_>\""
++ "@\"<_TtP10VoiceMemos24RCRecordButtonContaining_>\"16@0:8"
++ "@\"NSArray\"32@0:8@\"UIActivityViewController\"16@\"NSString\"24"
++ "@\"NSArray\"36@0:8@\"UIActivityViewController\"16@\"NSString\"24B32"
++ "@\"NSOperation\"24@0:8@\"UIActivityViewController\"16"
++ "@\"NSString\"16@?0@\"RCCloudRecording\"8"
++ "@\"NSString\"24@0:8@\"UIActivityViewController\"16"
++ "@\"OS_dispatch_group\"16@0:8"
++ "@\"RCAssetWriter\""
++ "@\"RCBottomControlsContainerView\""
++ "@\"RCCaptureToken\""
++ "@\"RCCaptureToken\"16@0:8"
++ "@\"RCExternallySignalledAsyncOperation\""
++ "@\"RCLiveTranscription\"16@0:8"
++ "@\"RCRecordingView\"16@0:8"
++ "@\"RCShareMemoExporter\""
++ "@\"RCShareMemoOptionsManager\""
++ "@\"RCShareMemoProgressOverlayPresenter\""
++ "@\"RCToggleButton_Legacy\""
++ "@\"UIButton<RCToggleButtonProtocol>\""
++ "@\"UICollectionReusableView\"32@?0@\"UICollectionView\"8@\"NSString\"16@\"NSIndexPath\"24"
++ "@\"UICollectionViewCell\"32@?0@\"UICollectionView\"8@\"NSIndexPath\"16@\"NSString\"24"
++ "@\"UIMenu\""
++ "@\"UIMenu\"16@0:8"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UINavigationController\"16@0:8"
++ "@\"UINavigationItem\""
++ "@\"UINavigationItem\"16@0:8"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UISlider\""
++ "@\"UISlider<RCAudioScrubberProtocol>\""
++ "@\"UIView\"16@0:8"
++ "@\"UIViewController\"24@0:8@\"UIActivityViewController\"16"
++ "@\"VMRecordingContext\"16@0:8"
++ "@\"_TtC10VoiceMemos33RCRecordingCardPresentationHelper\""
++ "@32@0:8@16@?24"
++ "@36@0:8B16B20B24B28B32"
++ "@48@0:8q16@24@32@40"
++ "@52@0:8@16@24@32@40B48"
++ "@56@0:8@16B24B28f32f36B40B44B48f52"
++ "@80@0:8@16@24d32@40B48B52B56B60B64B68B72B76"
++ "AVAssetAuthoringMetadataWithRecordingMetadata:"
++ "AVCaptureAudioDataOutputSampleBufferDelegate"
++ "AVCaptureFileOutputRecordingDelegate"
++ "AX_CELL_DIMMED_VALUE"
++ "AX_MORE_ACTIONS"
++ "AX_MOVE_TO_FOLDER"
++ "AX_PAUSE"
++ "AX_PLAY"
++ "AX_PLAYBACK_SETTINGS"
++ "AX_PLAY_PAUSE_DIMMED_VALUE"
++ "AX_RECORD_LAYER_1"
++ "AX_RECORD_LAYER_2"
++ "AX_REPLACE_LAYER_1"
++ "AX_REPLACE_LAYER_2"
++ "AX_RESUME_LAYER_1"
++ "AX_RESUME_LAYER_2"
++ "AX_STOP"
++ "AX_TRANSCRIPTION"
++ "Apply button title"
++ "AudioAssetReader failed to read buffer: %@"
++ "B24@0:8@\"UIActivityViewController\"16"
++ "B24@0:8^d16"
++ "B36@0:8@16B24^@28"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "B44@0:8@16B24B28B32^@36"
++ "B52@0:8@16d24@32B40^@44"
++ "CHANGE_PLAYBACK_SETTINGS_ERROR_CANNOT_APPLY_NONSPATIAL_RECORDING_CASE"
++ "CHANGE_PLAYBACK_SETTINGS_ERROR_CANNOT_APPLY_SPATIAL_RECORDING_CASE"
++ "COPY_RESOURCES_ERROR"
++ "CURRENT_FOLDER"
++ "Cancel"
++ "Capture session recorder failed with error: %@"
++ "Capture session reported nil error in runtimeErrorNotification"
++ "Choose “Automatic“ to send a single file with all audio effects and layers mixed in. Choose “Raw“ to send a project where effects and layers can be configured by the recipient."
++ "Choose “Layers Merged“ to send a single file where the recipient can adjust the layer mix. Choose “Layers Separated“ to send each layer as an individual file."
++ "Copy transcript menu item"
++ "DELETE_FOLDER_ACTION"
++ "Delete button in editing mode"
++ "Delete button title"
++ "Edit Recording"
++ "Edit mode, trim view"
++ "Ending offline render due to insufficient data from input"
++ "ExpandCollapseRecordingCard"
++ "Failed to decode transcription data: %@"
++ "Favorite"
++ "Folder swipe action delete button"
++ "J"
++ "Layer Mix Slider"
++ "Move to Folder"
++ "Playback Settings AX label"
++ "Playback speed slider"
++ "Postfix for filename of exported overdub track. Should start with `_`"
++ "Postfix for filename of exported spatial audio track. Should start with `_`"
++ "RCApplicationFileCoordinator"
++ "RCAudioScrubberProtocol"
++ "RCAudioScrubber_Legacy"
++ "RCBottomControlsContainerView"
++ "RCCaptureToken"
++ "RCDeleteButton_Legacy"
++ "RCExternallySignalledAsyncOperation"
++ "RCFolderViewProtocol"
++ "RCFolderView_Legacy"
++ "RCJindoAlwaysOnEmptyIdentifier"
++ "RCPlaybackSettingSpeechIsolatorSliderCell"
++ "RCPlaybackSettingsCollectionViewControllerDelegate"
++ "RCPlaybackSettingsSpeechIsolatorSlider"
++ "RCRecordingViewToolbarProvider"
++ "RCShareMemoExporter"
++ "RCShareMemoOptionsManager"
++ "RCShareMemoProgressOverlayPresenter"
++ "RCToggleButtonProtocol"
++ "RCToggleButton_Legacy"
++ "RCTrimButton_Legacy"
++ "RCTrimDeleteButton_Legacy"
++ "RCVoiceMemosChannelConfigurationKey"
++ "RCVoiceMemosStereoRecordingKey"
++ "RCWaveformRenderer.mm"
++ "RENAME"
++ "Recording swipe action delete button"
++ "RecordingExtensions"
++ "SAVE_AS_NEW_RECORDING"
++ "SAVE_AS_NEW_RECORDING_ALERT_MESSAGE"
++ "SAVE_RECORDING"
++ "SEARCHING"
++ "SETTINGS_RESET_IDENTIFIER_ALERT_TITLE"
++ "SHARING_EXPORT_HEADER"
++ "SHARING_EXPORT_OPTION_LAYERS_MERGED"
++ "SHARING_EXPORT_OPTION_LAYERS_SEPARATED"
++ "SHARING_SEND_AS_HEADER"
++ "SHARING_SEND_AS_OPTION_AUTOMATIC"
++ "SHARING_SEND_AS_OPTION_RAW"
++ "STUDIO_VOICE_SETTING"
++ "STUDIO_VOICE_SLIDER"
++ "STUDIO_VOICE_SLIDER_AX_VALUE"
++ "STUDIO_VOICE_TITLE"
++ "STUDIO_VOICE_TOGGLE_SETTING"
++ "Save Recording menu item for Done button"
++ "Save as New Recording menu item for Done button"
++ "Select"
++ "Speech Isolator is only supported by spatial player"
++ "Start a voice recording"
++ "T@\"<RCControlsActionDelegate>\",N,W,VcontrolsActionDelegate"
++ "T@\"<RCControlsActionDelegate>\",W,N"
++ "T@\"<RCFolderViewDelegate>\",N,W,Vdelegate"
++ "T@\"<RCFolderViewDelegate>\",W,N"
++ "T@\"<RCMPDetailSliderDelegate>\",W,N"
++ "T@\"<RCPlaybackSettingsCollectionViewControllerDelegate>\",W,N,V_delegate"
++ "T@\"<RCPlaybackSettingsDelegate>\",W,N,V_settingsDelegate"
++ "T@\"<RCRecordButtonFactory>\",&,N,V_recordButtonFactory"
++ "T@\"<RCRecordingViewToolbarProvider>\",&,N,V_editingToolbarProvider"
++ "T@\"<VMRecordingController>\",N,&,Vcontroller"
++ "T@\"<VMRecordingController>\",W,N"
++ "T@\"<_TtP10VoiceMemos21RCRecordButtonFactory_>\",&,N,V_recordButtonFactory"
++ "T@\"NSArray\",&,N,V_shareURLS"
++ "T@\"NSDictionary\",N,C"
++ "T@\"NSLayoutConstraint\",&,N,V_bottomSpacerViewHeightConstraint"
++ "T@\"NSLayoutConstraint\",&,N,V_topSpacerViewHeightConstraint"
++ "T@\"NSLayoutConstraint\",&,V_contentLeadingConstraint"
++ "T@\"NSLayoutConstraint\",&,V_contentTrailingConstraint"
++ "T@\"NSString\",R,C,N,V_searchString"
++ "T@\"NSString\",R,N,V_uuid"
++ "T@\"NSURL\",N,R"
++ "T@\"NSURL\",R,N"
++ "T@\"NSUUID\",N,R"
++ "T@\"OS_dispatch_group\",N,&,Vgroup"
++ "T@\"OS_dispatch_group\",R"
++ "T@\"RCAssetWriter\",&,N,V_assetWriter"
++ "T@\"RCBottomControlsContainerView\",&,N,V_bottomControlsContainerView"
++ "T@\"RCCaptureToken\",&,N"
++ "T@\"RCCaptureToken\",&,N,V_initialCaptureToken"
++ "T@\"RCExternallySignalledAsyncOperation\",&,N,V_exportOperation"
++ "T@\"RCFolderBrowsingCollectionViewController\",N,R,VbrowseFoldersViewController"
++ "T@\"RCLiveTranscription\",&,N"
++ "T@\"RCLiveTranscription\",R,N"
++ "T@\"RCPlaybackViewController\",N,R,VplaybackViewController"
++ "T@\"RCRecordingCardViewController\",N,&,VpresentedCardViewController"
++ "T@\"RCRecordingView\",&,N"
++ "T@\"RCRecordingView\",N,&,VrecordingView"
++ "T@\"RCRecordingsCollectionView\",N,W,VrecordingsCollectionView"
++ "T@\"RCSSavedRecordingAccessToken\",&,N,V_recordingAccessToken"
++ "T@\"RCShareMemoOptionsManager\",&,N,V_shareMemoOptionsManager"
++ "T@\"RCShareMemoProgressOverlayPresenter\",&,N,V_progressOverlayPresenter"
++ "T@\"RCSplitViewController\",N,R,VsplitViewController"
++ "T@\"RCToggleButton_Legacy\",&,N,V_playbackSettingsButton"
++ "T@\"RCToggleButton_Legacy\",&,N,V_transcriptionButton"
++ "T@\"RCTouchInsetsButton\",&,N,V_applyButton"
++ "T@\"UIBarButtonItem\",&,N,V_searchButtonItem"
++ "T@\"UIButton\",&,N,V_cancelButton"
++ "T@\"UIButton\",&,N,V_deleteSelectionButton"
++ "T@\"UIButton\",&,N,V_trimToSelectionButton"
++ "T@\"UIButton<RCToggleButtonProtocol>\",&,N,V_playbackSettingsButton"
++ "T@\"UIButton<RCToggleButtonProtocol>\",&,N,V_transcriptionButton"
++ "T@\"UIImage\",N,R"
++ "T@\"UIMenu\",N"
++ "T@\"UIMenu\",N,&"
++ "T@\"UIMenu\",N,VmoreActionsMenu"
++ "T@\"UINavigationItem\",N,W,VnavigationItem"
++ "T@\"UINavigationItem\",W,N"
++ "T@\"UINavigationItem\",W,N,VnavigationItem"
++ "T@\"UISheetPresentationController\",N,R"
++ "T@\"UISlider\",&,V_slider"
++ "T@\"UISlider<RCAudioScrubberProtocol>\",&,N,V_timelineSlider"
++ "T@\"UIView\",&,N,V_bottomSpacerView"
++ "T@\"UIView\",&,N,V_buttonsAndDescriptionContainerView"
++ "T@\"UIView\",&,N,V_centerContainerView"
++ "T@\"UIView\",&,N,V_centerContentContainerView"
++ "T@\"UIView\",&,N,V_leadingContainerView"
++ "T@\"UIView\",&,N,V_overviewWaveformContainerView"
++ "T@\"UIView\",&,N,V_toolbarContainerView"
++ "T@\"UIView\",&,N,V_topSpacerView"
++ "T@\"UIView\",&,N,V_trailingContainerView"
++ "T@\"UIView\",N,&,VrecordingsCollectionViewControllerWrapperView"
++ "T@\"UIView\",N,&,VzoomTransitionSourceView"
++ "T@\"UIView\",N,R"
++ "T@\"UIView\",N,R,Vview"
++ "T@\"UIView\",N,R,VzoomTransitionSourceView"
++ "T@\"UIView\",N,V_overviewWaveformView"
++ "T@\"UIView\",W,N,V_hostedView"
++ "T@\"UIView\",W,N,V_zoomTransitionSourceView"
++ "T@\"UIView<RCFolderViewProtocol>\",&,D,N"
++ "T@\"UIViewController\",N,&,VpresentedViewController"
++ "T@\"VMRecordingContext\",&,N"
++ "T@\"_TtC10VoiceMemos22CaptureSessionRecorder\",N,R,VcaptureSessionRecorder"
++ "T@\"_TtC10VoiceMemos33RCRecordingCardPresentationHelper\",&,N,V_recordingCardPresentationHelper"
++ "TB,N,V_exportSeparateTracks"
++ "TB,N,V_hasNoTranscribableContent"
++ "TB,N,V_hasSpatialRecording"
++ "TB,N,V_isBottomContainerViewHidden"
++ "TB,N,V_isSpatialRecording"
++ "TB,N,V_needsDoneButton"
++ "TB,N,V_sendAsRaw"
++ "TB,N,V_shouldHideTimeComponents"
++ "TB,N,V_speechIsolatorEnabled"
++ "TB,N,VcanPresentOverlay"
++ "TB,N,VcustomizedPlaybackSettings"
++ "TB,N,VdoneButtonItemShowsMenu"
++ "TB,N,VhasNoTranscribableContent"
++ "TB,N,VisBottomContainerViewHidden"
++ "TB,N,VisPresented"
++ "TB,R,N,V_enhanced"
++ "TB,R,N,V_hasMultipleTracks"
++ "TB,R,N,V_isSpatialRecording"
++ "TB,R,N,V_silenceRemoved"
++ "TB,R,N,V_speechIsolatorEnabled"
++ "TITLE_FOR_MOVE_RECORDING_UNDO"
++ "Td,N,VpunchInTime"
++ "Tf,N,R"
++ "Tf,N,V_speechIsolatorValue"
++ "Tf,N,VspeechIsolatorValue"
++ "Tf,R,N,V_layerMix"
++ "Tf,R,N,V_playbackSpeed"
++ "Tf,R,N,V_speechIsolatorValue"
++ "This string is a button title for REPLACE. The variable is either the `1.circle.fill` or `2.circle.fill` SFSymbol image, which indicates if recording layer 1 or layer 2 is being modified"
++ "This string is a button title for RESUME. The variable is either the `1.circle.fill` or `2.circle.fill` SFSymbol image, which indicates if recording layer 1 or layer 2 is being modified"
++ "Tq,N,R,VpresentationStyle"
++ "Tq,N,Vrank"
++ "Tq,N,VselectedExportOptionIndex"
++ "Tq,N,VselectedSendAsOptionIndex"
++ "Tq,R,N,V_searchScope"
++ "Transcription"
++ "Transcription button AX label"
++ "Trim button title"
++ "UIActivityItemDeferredSource"
++ "UIActivityItemsSource"
++ "UIActivityViewControllerObjectManipulationDelegate"
++ "Unable to find WaveformScrollView in the recording card"
++ "Undo button title"
++ "Unfavorite"
++ "Unsupported channel configuration"
++ "VMComposedAssetWriter"
++ "VMRecorder"
++ "VOICE_MEMOS_APP_NAME"
++ "VoiceMemos.CaptureSessionRecorder"
++ "VoiceMemos.CaptureToken"
++ "VoiceMemos.ExternallySignalledAsyncOperation"
++ "VoiceMemos.RCExportSessionComposedAssetWriter"
++ "VoiceMemos.RCFolderView"
++ "VoiceMemos.RCLayerMixSlider"
++ "VoiceMemos.RCRecordButtonAppFactory_Legacy"
++ "VoiceMemos.RCRecordButtonZoomTransitionSourceView"
++ "VoiceMemos.RCRecordingCardPresentationHelper"
++ "VoiceMemos.RCRecordingViewNavigationBarHelper"
++ "VoiceMemos.RCSpatialExporter"
++ "VoiceMemos.RCSpatialRecorder"
++ "VoiceMemos.RCUserFolderRestoreInfo"
++ "VoiceMemos.Settings"
++ "VoiceMemos.ShareMemoOptionsManager"
++ "[%@] Tried to draw on non-main thread."
++ "[%@] Tried to render on non-main thread."
++ "_OVERDUB_TRACK_POSTFIX"
++ "_SPATIAL_TRACK_POSTFIX"
++ "_TtC10VoiceMemos12RCFolderView"
++ "_TtC10VoiceMemos12RCTrimButton"
++ "_TtC10VoiceMemos13SpatialPlayer"
++ "_TtC10VoiceMemos14RCDeleteButton"
++ "_TtC10VoiceMemos14RCToggleButton"
++ "_TtC10VoiceMemos16FrameRateManager"
++ "_TtC10VoiceMemos16RCLayerMixSlider"
++ "_TtC10VoiceMemos17AudioEnginePlayer"
++ "_TtC10VoiceMemos17RCSpatialExporter"
++ "_TtC10VoiceMemos17RCSpatialRecorder"
++ "_TtC10VoiceMemos18TrackSplitRenderer"
++ "_TtC10VoiceMemos21AudioEnginePlayerItem"
++ "_TtC10VoiceMemos21RCToggleButtonFactory"
++ "_TtC10VoiceMemos22CaptureSessionRecorder"
++ "_TtC10VoiceMemos22RCSaveAsNewMenuFactory"
++ "_TtC10VoiceMemos23RCUserFolderRestoreInfo"
++ "_TtC10VoiceMemos24RCCopyTranscriptActivity"
++ "_TtC10VoiceMemos27ComposedAudioEffectRenderer"
++ "_TtC10VoiceMemos29AudioEngineTrackingController"
++ "_TtC10VoiceMemos30RCRecordButtonPresenter_Legacy"
++ "_TtC10VoiceMemos30RCRecordButtonViewModel_Legacy"
++ "_TtC10VoiceMemos31EffectsRendererSettingsProvider"
++ "_TtC10VoiceMemos31RCPlaybackSettingsSliderFactory"
++ "_TtC10VoiceMemos31RCRecordButtonAppFactory_Legacy"
++ "_TtC10VoiceMemos33RCRecordingCardPresentationHelper"
++ "_TtC10VoiceMemos34RCExportSessionComposedAssetWriter"
++ "_TtC10VoiceMemos34RCRecordingViewNavigationBarHelper"
++ "_TtC10VoiceMemos34TrackSplitRendererSettingsProvider"
++ "_TtC10VoiceMemos38RCPlaybackSettingsViewDataSourceHelper"
++ "_TtC10VoiceMemos38RCRecordButtonZoomTransitionSourceView"
++ "_TtC10VoiceMemosP33_68DB545C189056361A4B8FDE342CA91F23RCRecordButtonContainer"
++ "_TtC10VoiceMemosP33_68DB545C189056361A4B8FDE342CA91F30RCRecordButtonContainer_Legacy"
++ "_TtCC10VoiceMemos18TrackSplitRenderer8Settings"
++ "_TtCC10VoiceMemos27ComposedAudioEffectRenderer8Settings"
++ "_TtCC10VoiceMemos33ShareMemoProgressOverlayPresenterP33_4C4C5731A38E315A69E8AF738E01C2949ViewModel"
++ "_TtP10VoiceMemos21RCRecordButtonFactory_"
++ "_TtP10VoiceMemos24RCRecordButtonContaining_"
++ "_TtP10VoiceMemos26RCRecordingControlDelegate_"
++ "_TtP10VoiceMemos27EffectRendererInfoProviding_"
++ "_TtP10VoiceMemos27TrackSplitRendererProviding_"
++ "__activateAudioSessionOnQueue:recording:overdubbing:captureSpatial:error:"
++ "__eraseSecondLayerInComposition:outputFragment:completionBlock:"
++ "_accessLock"
++ "_accessibilityUpdateValueWithIncrease:"
++ "_addDoneAndCancelButtonsToBottomControlsContainerView"
++ "_addDoneEditingButtonToBottomControlsContainerView"
++ "_addHostToolbarView"
++ "_addPlaybackSettingsButtonToBottomControlsContainerView"
++ "_addRecordButtonToBottomControlsContainerView"
++ "_addShuttleBarToBottomControlsContainerView"
++ "_addTranscriptionButtonToBottomControlsContainerView"
++ "_addTrimDeleteButtonsToBottomControlsContainerView"
++ "_addTrimDeleteButtonsToLeadingAndTrailingEdge"
++ "_addTrimDeleteButtonsToLeadingEdge"
++ "_adjustCancelAndDoneButtonsWidth"
++ "_adjustTrimAndDeleteSelectionButtonsSize"
++ "_applyButton"
++ "_applyOverviewWaveformViewConstraints"
++ "_attachSharingMetadataToRecording:atURL:completion:"
++ "_backgroundColor"
++ "_bottomControlsSupportRecording"
++ "_bottomSpacerView"
++ "_bottomSpacerViewHeightConstraint"
++ "_cardGoBackwardForwardImageSymbolConfiguration"
++ "_cardPlayPauseImageSymbolConfiguration"
++ "_centerContainerView"
++ "_checkForContentSizeChanges"
++ "_commitTimeValue:"
++ "_configureAudioSession:preferDecoupledIO:isRecording:"
++ "_containerView"
++ "_contentLeadingConstraint"
++ "_contentTrailingConstraint"
++ "_copyResourcesForRecording:toDirectory:completion:"
++ "_customizationAvailableForActivityViewController:"
++ "_customizationGroupsForActivityViewController:"
++ "_defaultActiveSliceColor"
++ "_deleteFolderWithoutAlert:"
++ "_doneButtonItemShowsMenu"
++ "_dropView:fromAncestor:"
++ "_editingToolbarProvider"
++ "_enhanceRecordingToggleCellAtIndexPath:"
++ "_executing"
++ "_exportOperation"
++ "_exportSeparateTracks"
++ "_finishExpandCollapseRecordingCard"
++ "_finished"
++ "_glassButtonConfiguration"
++ "_handleDone"
++ "_handleSpotlightSearchResults:forSearchString:inScope:"
++ "_hasNoTranscribableContent"
++ "_hasPlaybackSettings"
++ "_hasSpatialRecording"
++ "_initGroupWithName:identifier:customizations:"
++ "_initialCaptureToken"
++ "_isBottomContainerViewHidden"
++ "_isSpatialRecording"
++ "_itemsForActivityType:"
++ "_layerMixSliderCellAtIndexPath:"
++ "_leadingContainerView"
++ "_maximumValueImage"
++ "_mergeRecording:atTime:controller:shouldCaptureSpatial:error:"
++ "_minimumValueImage"
++ "_modernEditMenu"
++ "_moreMenu"
++ "_navigationItemToUseForToolbarItems"
++ "_needsDoneButton"
++ "_newRecordingEngine:metadata:controller:shouldCaptureSpatial:error:"
++ "_openRecordingCardForCurrentSelection"
++ "_overviewWaveformContainerView"
++ "_overviewWaveformView"
++ "_percentTextForValue:"
++ "_performActivity:"
++ "_playbackSpeedSliderCellAtIndexPath:"
++ "_prepareActivity:completion:"
++ "_progressOverlayPresenter"
++ "_recordingAccessToken"
++ "_recordingCardPresentationHelper"
++ "_registerUndoDeleteFolder:"
++ "_removeSilenceToggleCellAtIndexPath:"
++ "_renderRecording:toDirectory:completion:"
++ "_restoreFolder:"
++ "_scopeBarTitleFor:"
++ "_scrollPlaybackCardWaveform"
++ "_scrollRecordingCardWaveform"
++ "_searchButtonItem"
++ "_searchScope"
++ "_searchScopeForScopeButtonIndex:"
++ "_sendAsRaw"
++ "_setAccessibilitySliderValue:"
++ "_setCurrentTimeWhileTracking:animated:"
++ "_setCurrentTimeWhileTracking:duration:"
++ "_setNonLargeBackground:"
++ "_setSliderStyle:"
++ "_setSubtitle:"
++ "_settingsDelegate"
++ "_setupBottomControlsContainerView"
++ "_setupBottomSpacerView"
++ "_setupCancelButton"
++ "_setupCenterContentContainerView"
++ "_setupContainerSubviews"
++ "_setupCurrentTimeLabel"
++ "_setupDeletableToolbarItems"
++ "_setupDeleteSelectionButton"
++ "_setupDescriptionView"
++ "_setupDoneButton"
++ "_setupDoneEditingButton"
++ "_setupEditingToolbar"
++ "_setupOverviewBeginEndTimeLabel"
++ "_setupOverviewWaveformContainerView"
++ "_setupRecentlyDeletedToolbarItems"
++ "_setupRecordButton"
++ "_setupRightBarButtonItems"
++ "_setupShuttleBar"
++ "_setupTapGestureRecognizer"
++ "_setupToolbarContainerView"
++ "_setupTopSpacerView"
++ "_setupTranscriptionButton"
++ "_setupTrimToSelectionButton"
++ "_setupVirtualNavigationToolbar"
++ "_shareMemoOptionsManager"
++ "_shareURLS"
++ "_shouldHideAllControls"
++ "_shouldHideTimeComponents"
++ "_shouldShowCancelButton"
++ "_shouldShowUndoButton"
++ "_speechIsolatorEnabled"
++ "_speechIsolatorSliderAtIndexPath:"
++ "_speechIsolatorToggleAtIndexPath:"
++ "_speechIsolatorValue"
++ "_splitTracksForRecording:toDirectory:completion:"
++ "_startCapture"
++ "_startPagingWaveformViewScroll:"
++ "_startRecordingWithController:shouldCaptureSpatial:error:"
++ "_styleCurrentTimeLabel"
++ "_styleDoneEditingButton"
++ "_styleShuttleBar"
++ "_styleSliderValueLabel"
++ "_supportsCustomToolbar"
++ "_toolbarContainerView"
++ "_topSpacerView"
++ "_topSpacerViewHeightConstraint"
++ "_trailingContainerView"
++ "_updateAccessibilityElements"
++ "_updateActivityItems:"
++ "_updateApplyButtonVisibility"
++ "_updateArrangedSubviews"
++ "_updateBottomControlsContainerViewSubviews"
++ "_updateButtonsVisibility"
++ "_updateContent"
++ "_updateDisplayStyleForHorizontalSizeClassChanges"
++ "_updateDoneButtonActionForModernToolbar"
++ "_updateDoneButtonState"
++ "_updateEditButton"
++ "_updateForAvailableDuration"
++ "_updateLeftSideButtonTitle"
++ "_updateLeftSideButtonVisibility"
++ "_updateNavigationBarSubtitle"
++ "_updateNavigationBarTitle"
++ "_updateNavigationBarVisibility"
++ "_updatePlaybackSettingsButtonVisibility"
++ "_updatePlayerItemSpeechIsolator"
++ "_updateRightBarButtonItem"
++ "_updateScopeBarTitles"
++ "_updateSearchPositioning"
++ "_updateSpacingBetweenArrangedSubviews"
++ "_updateSubviewVisibility"
++ "_updateTitleLabel"
++ "_updateTrimButtonVisibility"
++ "_updateVerticalContentHuggingAndCompressionResistancePriorities"
++ "_userDefaultsAudioSettingsObservance"
++ "_userPreferenceIsSpatialCapture"
++ "_userPrefersStereo"
++ "_valueLabel"
++ "_voiceOverString"
++ "_zoomTransitionSourceView"
++ "actionWithHandler:"
++ "activity"
++ "activityImage"
++ "activityViewController:itemsForActivityType:"
++ "activityViewController:itemsForActivityType:supportsWebpages:"
++ "activityViewControllerOperation:"
++ "activityViewControllerPlaceholderItems:"
++ "addInput:"
++ "addInputGroup:"
++ "addTrackAssociationWithTrackOfInput:type:"
++ "appendSampleBuffer:"
++ "appendTimedMetadataGroup:"
++ "applyButton"
++ "applyButtonAction"
++ "applyButtonItem"
++ "applyDimmingColorToProgressOverlay"
++ "assetDurationSeconds"
++ "assetIsPassthroughFormatCompatible(_:)"
++ "assignActionOnDoneButtonForModernToolbar"
++ "asynchronous"
++ "attachMetadataToRecordingAtURL:withId:with:completionHandler:"
++ "audioEngine"
++ "audioEngineTrackingController"
++ "audioMixProvider"
++ "automatic"
++ "avAudioBuffer(fromCMSampleBuffer:processingFormat:)"
++ "avPlayer"
++ "beginConfiguration"
++ "bottomAccessoryDisplayStyleFixedHeight"
++ "bottomAccessoryMainContainerStackViewHeight"
++ "bottomContainerView"
++ "bottomContainerViewBottomConstraint"
++ "bottomControlsContainerHeight"
++ "bottomControlsContainerInterElementPadding"
++ "bottomControlsContainerLeadingTrailingPadding"
++ "bottomSpacerView"
++ "bottomSpacerViewHeight"
++ "bottomSpacerViewHeightConstraint"
++ "buildDiffableDataSourceSnapshotWithSpatialAudioRecording:multitrackRecording:speechIsolatorEnabled:"
++ "buttonsMaximumContentSizeCategory"
++ "canAddInput:"
++ "canAddInputGroup:"
++ "canAddTrackAssociationWithTrackOfInput:type:"
++ "canPresentOverlay"
++ "canToggleSpeechIsolator"
++ "canUpdateWithMultiTrackAsset"
++ "canUpdateWithSpatialAsset"
++ "cancel"
++ "cancelButtonAction"
++ "cancelButtonItem"
++ "cancelButtonTrailingPadding"
++ "cancelExportForRecordingWithId:"
++ "cancelExportOperation"
++ "captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:"
++ "captureOutput:didOutputSampleBuffer:fromConnection:"
++ "captureOutput:didPauseRecordingToOutputFileAtURL:fromConnections:"
++ "captureOutput:didResumeRecordingToOutputFileAtURL:fromConnections:"
++ "captureOutput:didStartRecordingToOutputFileAtURL:fromConnections:"
++ "captureOutput:didStartRecordingToOutputFileAtURL:startPTS:fromConnections:"
++ "captureOutput:willFinishRecordingToOutputFileAtURL:fromConnections:error:"
++ "captureSession"
++ "captureSessionRecorder"
++ "captureSessionRecorder:didFailWithError:"
++ "captureSessionRecorderDidCaptureSampleBuffer:buffer:mediaTime:"
++ "captureSessionRecorderDidFinish:fileOutputURL:error:"
++ "captureSessionRecorderIsRunningDidChange:isRunning:"
++ "cardCenterClusterControlSize"
++ "cardSheetOptionsForCurrentState()"
++ "centerContainerView"
++ "chart.bar.xaxis"
++ "checkmark"
++ "checkmark.circle"
++ "closeServiceConnection"
++ "com.apple.SpatialPlayerResourceLoadingQueue"
++ "com.apple.VoiceMemos.AVSpatialCompositionAssetExporterQueue"
++ "com.apple.VoiceMemos.SampleOutputQueue"
++ "com.apple.VoiceMemos.VoiceMemosShareExtension"
++ "commitConfiguration"
++ "composedAssetIsSpatialRecording"
++ "composedAssetWriters"
++ "configurationWithFont:scale:"
++ "constraintLessThanOrEqualToAnchor:"
++ "contentLeadingConstraint"
++ "contentTrailingConstraint"
++ "convert(sampleBuffer:)"
++ "coordinateAccessWithIntents:queue:byAccessor:"
++ "copyFormatDescription"
++ "createCaptureDirectoryAndReturnError:"
++ "createLayerMixSlider"
++ "createMenuWithAutomaticallyPause:actionHandler:"
++ "createMenuWithDisplayCopyTranscriptAction:hideTrimItem:hasMultipleTracks:showUndoItem:showShareItem:"
++ "createMenuWithDisplayShowTranscriptAction:displayCopyTranscriptAction:hasMultipleTracks:isSpatialRecording:"
++ "createNewFolderItem"
++ "createPlaybackSettingsButton"
++ "createPlaybackSpeedSlider"
++ "createRecordButtonContainer"
++ "createRecordingLayerTask(recordingURL:assetTrack:from:recordingTitle:directory:layerIndex:)"
++ "createSlider"
++ "createSpeechIsolatorSlider"
++ "createTranscriptionButton"
++ "createWithGroupName:identifier:customizations:"
++ "creationDateLabelFontForCardView"
++ "currentPosition"
++ "currentSelectionHasSpatialAudio"
++ "currentSelectionHasSpatialRecording"
++ "currentSelectionHasSpeechIsolatorEnabled"
++ "customActionViewControllerForActivityViewController:"
++ "customDetentFixedHeight:"
++ "customDetentMainContainerStackViewHeight"
++ "customLocalizedActionTitleForActivityViewController:"
++ "customizedPlaybackSettings"
++ "d20@0:8B16"
++ "d24@0:8B16B20"
++ "d28@0:8B16B20B24"
++ "dataSourceDidApplySnapshot"
++ "defaultDeviceWithDeviceType:mediaType:position:"
++ "destinationFileName"
++ "detailSlider:didChangeTimeValue:"
++ "didChangeValueForKey:"
++ "didEditStudioVoiceSlider"
++ "didEnableStudioVoice"
++ "didExitTrimMode"
++ "didUpdateNavigationBarVisibility"
++ "didUpdateRecordButtonState"
++ "directoryURL"
++ "dismissCardWithCompletion:"
++ "dismissWithCompletion:"
++ "displayPlaybackSettings"
++ "doneButtonAction:"
++ "doneButtonBackgroundColor"
++ "doneButtonHeight"
++ "doneButtonImage"
++ "doneButtonItemShowsMenu"
++ "doneEditingImage"
++ "durationLabelFontForCardView"
++ "durationLabelFontForRecordingCollectionViewCell"
++ "editedStudioVoicesSlider"
++ "editingToolbarProvider"
++ "enableManualRenderingMode:format:maximumFrameCount:error:"
++ "enhanceCellIdentifier"
++ "enhanceProcessor"
++ "enhanceRecordingImage"
++ "executing"
++ "executionBlock"
++ "expandCollapseRecordingCardTest:"
++ "exportOperation"
++ "exportProgress"
++ "exportSeparateTracks"
++ "exportSession"
++ "exporter"
++ "f24@0:8@16"
++ "f8@?0"
++ "favoriteImageForSwipeAction"
++ "fileName"
++ "fileNameForSharing"
++ "fileOutput"
++ "fileOutputURL"
++ "fileType"
++ "finishWritingWithCompletionHandler:"
++ "finishWritingWithError:"
++ "firstSampleMediaTime"
++ "fixedSpace"
++ "flexibleSpace"
++ "forceCloseActiveRecordingAssetWriter:"
++ "formatConverter"
++ "formattedString"
++ "generalASRLanguageForLocale:"
++ "generalSettingsSectionIdentifier"
++ "goBackwardImage"
++ "goBackwardMenuBarImage"
++ "goForwardImage"
++ "goForwardMenuBarImage"
++ "handleDidStartRunningWithNotification:"
++ "handleDidStopRunningWithNotification:"
++ "handleRuntimeErrorWithNotification:"
++ "handleTrim"
++ "handleWillTerminate:"
++ "hasDefaultOptions"
++ "hasNoTranscribableContent"
++ "hasSpatialAudio"
++ "hasSpatialRecording"
++ "hasUnsavedEdits"
++ "hostingController"
++ "hostsCancelButtonInToolbar"
++ "hostsTrimDeleteButtonsOnLeadingEdgeOfBottomControls"
++ "imageSymbolConfigForAXsizes"
++ "inProgressOperations"
++ "indexForSectionIdentifier:"
++ "initFromCloudRecording:withCodec:andSampleRate:"
++ "initWithActivityItemsConfiguration:"
++ "initWithAssetWriterInput:"
++ "initWithBlock:"
++ "initWithBool:"
++ "initWithCMAudioFormatDescription:"
++ "initWithComposition:metadata:"
++ "initWithCompositions:onUpdate:"
++ "initWithDevice:error:"
++ "initWithFloat:"
++ "initWithHostTime:"
++ "initWithInputs:defaultInput:"
++ "initWithItems:timeRange:"
++ "initWithMediaType:outputSettings:"
++ "initWithMediaType:outputSettings:sourceFormatHint:"
++ "initWithName:rank:recordingUUIDs:"
++ "initWithNavigationItem:"
++ "initWithOutputFileURL:outputFileSettings:"
++ "initWithPresentationStyle:splitViewController:browseFoldersViewController:playbackViewController:"
++ "initWithRecordButtonFactory:recordingView:recordingsCollectionViewControllerWrapperView:recordingsCollectionView:allowsNewRecordings:"
++ "initWithScrollView:edge:style:"
++ "initWithSettings:"
++ "initWithURL:fileType:error:"
++ "initWithUUID:enhanced:silenceRemoved:playbackSpeed:layerMix:hasMultipleTracks:isSpatialRecording:speechIsolatorEnabled:speechIsolatorValue:"
++ "initialCaptureToken"
++ "inputParameters"
++ "inputs"
++ "insertObject:atIndex:"
++ "insertRecordings(forLayerTasks:into:with:)"
++ "inset.filled.circle"
++ "instantiateWithComponentDescription:options:completionHandler:"
++ "invalidateDetents"
++ "isAsynchronous"
++ "isBottomContainerViewHidden"
++ "isCancelled"
++ "isExecuting"
++ "isFinished"
++ "isInterleaved"
++ "isMultichannelAudioModeSupported:"
++ "isNavigationBarHidden"
++ "isReadyForMoreMediaData"
++ "isSkipSilenceEnabled"
++ "isSpatialRecording"
++ "isSpatialRecordingForUUID:"
++ "isSpeechIsolatorEnabled"
++ "isSpeechIsolatorEnabledForUUID:"
++ "isStarting"
++ "itemIdentifiers"
++ "jumpBackwardForwardButtonSpacing_Legacy"
++ "kGeneralSettingsSectionIdentifier"
++ "kLayerMixSectionIdentifier"
++ "kPlaybackSettingSpeechIsolatorSliderCellIdentifier"
++ "kPlaybackSettingSpeechIsolatorToggleCellIdentifier"
++ "kPlaybackSettingSpeedSliderCellIdentifier"
++ "kPlaybackSpeedSectionIdentifier"
++ "kSpeechIsolatorSectionIdentifier"
++ "layerMixCellIdentifier"
++ "layerMixSectionHeaderCellIdentifier"
++ "layerMixSectionIdentifier"
++ "leadingContainerView"
++ "legacy_assignSearchControllerOnNavigationItemIfNeeded"
++ "legacy_cardGoBackwardImage"
++ "legacy_cardGoForwardImage"
++ "legacy_cardPauseImage"
++ "legacy_cardPlayImage"
++ "legacy_creationDateLabelFontForCardView"
++ "legacy_creationDateLabelFontForRecordingCollectionViewCell"
++ "legacy_descriptionViewScalableTitleFontForCardView"
++ "legacy_descriptionViewScalableTitleFontForRecordingCollectionViewCell"
++ "legacy_durationLabelFontForCardView"
++ "legacy_durationLabelFontForRecordingCollectionViewCell"
++ "legacy_loadView"
++ "legacy_playbackViewTimeLabelFont"
++ "legacy_updateToolbarItems"
++ "libraryCenterClusterControlSize"
++ "main"
++ "mainMixerNode"
++ "manualRenderingMaximumFrameCount"
++ "markAsFinished"
++ "markWaveformPotentiallyCorrupted"
++ "maximumValueImageRectForBounds:"
++ "mediaType"
++ "menu"
++ "mergeCaptureFragmentMetadataURLForComposedAVURL:"
++ "metadata"
++ "modern_assignSearchControllerIfNeeded"
++ "modern_cardGoBackwardImage"
++ "modern_cardGoForwardImage"
++ "modern_cardPauseImage"
++ "modern_cardPlayImage"
++ "modern_creationDateLabelFontForCardView"
++ "modern_creationDateLabelFontForRecordingCollectionViewCell"
++ "modern_descriptionViewScalableTitleFontForCardView"
++ "modern_descriptionViewScalableTitleFontForRecordingCollectionViewCell"
++ "modern_durationLabelFontForCardView"
++ "modern_durationLabelFontForRecordingCollectionViewCell"
++ "modern_loadView"
++ "modern_playbackViewTimeLabelFont"
++ "modern_updateToolbarItems"
++ "mono"
++ "moreActionsButtonItem"
++ "moreActionsMenu"
++ "na_any:"
++ "needsCustomSliderWorkaround"
++ "needsDoneButton"
++ "needsSearchBarButtonItemInRecordingsList"
++ "newFolderImage"
++ "notFavoriteImageForSwipeAction"
++ "notificationObservations"
++ "offset element "
++ "onUpdate"
++ "operationQueue"
++ "outputFileSettings"
++ "outputFileURL"
++ "overviewWaveformContainerView"
++ "overviewWaveformView"
++ "parentController"
++ "person.spatialaudio.fill"
++ "pickerCustomizationWithIdentifier:options:selectedOptionIndex:footerText:valueChangedHandler:"
++ "playImage"
++ "playImmediatelyAtRate:"
++ "playPauseImage"
++ "playRate"
++ "playableRecordingsExcludingDeletedPredicate"
++ "playbackForUUID:"
++ "playbackSettingsSliderMaximumContentSizeCategory"
++ "playbackSettingsSliderValueFont"
++ "playbackSettingsSliderValueTextAlignment"
++ "playbackSettingsSliderValueTextColor"
++ "playbackSpeedSectionHeaderCellIdentifier"
++ "playbackSpeedSectionIdentifier"
++ "playbackSpeedSliderCellIdentifier"
++ "playbackToolbarHasMoveToFolder"
++ "playbackViewNavigationItem"
++ "playerType"
++ "playpause"
++ "plus.circle"
++ "preferDecoupledIO:error:"
++ "preferredFontForTextStyle:weight:"
++ "preferredMonospacedDigitFontForTextStyle:weight:"
++ "preferredWindowingControlStyleForScene:"
++ "presentCardFrom:isEditMode:completion:"
++ "presentProgressOverlayOnViewController:progressHandler:cancelHandler:"
++ "presentSearchController"
++ "presentingViewController"
++ "presentsEditingControlsInPlaybackView"
++ "presentsEditingControlsInRecordingView"
++ "presentsRecordingDescriptionViewInRecordingView"
++ "presentsSaveAsNewAlert"
++ "progressForRecordingWithId:"
++ "progressOverlayPresenter"
++ "rc_audioTracksPreferringSpatial"
++ "rc_channelConfiguration"
++ "rc_createSharingMetadataItemForKey:andValue:"
++ "rc_exportFormat"
++ "rc_hasSpatialTracks"
++ "rc_setGlassBackground"
++ "rc_trackIsSpatial:"
++ "rc_updateMetadataInFile:withMetadata:error:"
++ "recordButtonContainer"
++ "recordButtonHeight"
++ "recordButtonHeight_Legacy"
++ "recordButtonOuterStrokeWidth"
++ "recordedOnWatch"
++ "recordingAccessToken"
++ "recordingCardNavigationController"
++ "recordingCardNavigationItem"
++ "recordingCardPresentationHelper"
++ "recordingCardPrimaryLabelFontColor"
++ "recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:hasMultipleTracks:isSpatialRecording:wasManuallyRenamed:"
++ "recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:isSpatialRecording:wasManuallyRenamed:"
++ "recordingView(_:didUpdateViewHeight:)"
++ "recordingViewOverviewWaveformSidePadding"
++ "recordingViewTitleTextInsets"
++ "recordingsCollectionView"
++ "recoverImage"
++ "removeSilenceCellIdentifier"
++ "renameDescriptionViewTitleTextField:"
++ "renameRecordingSystemImageName"
++ "render(fileAt:destinationDirectory:fileName:)"
++ "renderOffline:toBuffer:error:"
++ "renderRecordingWithId:intoDirectory:with:completionHandler:"
++ "rendererSettingsFromRecordingWithId:completionHandler:"
++ "requestMediaDataWhenReadyOnQueue:usingBlock:"
++ "resetIdentifierImage"
++ "resetSliceColor"
++ "resetTopBottomSpacers"
++ "resourceLoadingQueue"
++ "restoreFolder:"
++ "restyleRecordingCardSheetPresentationController"
++ "reverseObjectEnumerator"
++ "runtimeError"
++ "sampleOutput"
++ "sampleOutputQueue"
++ "saveAsNewRecordingActionWithActionHandler:"
++ "saveRecordingActionWithActionHandler:"
++ "scopeButtonTitles"
++ "searchButtonItem"
++ "searchScope"
++ "secondsProcessed"
++ "segments"
++ "selectLargeDetent"
++ "selectedExportOptionIndex"
++ "selectedMicModes"
++ "selectedOptionIndex"
++ "selectedScopeButtonIndex"
++ "selectedSendAsOptionIndex"
++ "sendAsOrientationGroup"
++ "sendAsRaw"
++ "setAdjustsFontSizeToFitWidth:"
++ "setApplyButton:"
++ "setAutomaticallyConfiguresApplicationAudioSession:"
++ "setBackButtonDisplayMode:"
++ "setBottomSpacerView:"
++ "setBottomSpacerViewHeightConstraint:"
++ "setCanPresentOverlay:"
++ "setCenterContainerView:"
++ "setChannelCount:"
++ "setCodec:"
++ "setContentLeadingConstraint:"
++ "setContentTrailingConstraint:"
++ "setCreationTimeMillis:"
++ "setCustomizedPlaybackSettings:"
++ "setDeletionTimeMillis:"
++ "setDoneButtonItemShowsMenu:"
++ "setDurationMillis:"
++ "setEditingToolbarProvider:"
++ "setExecuting:"
++ "setExportOperation:"
++ "setExportSeparateTracks:"
++ "setFavorite:"
++ "setFinished:"
++ "setFormattedString:"
++ "setForwardPlaybackEndTime:"
++ "setGroup:"
++ "setHasNoTranscribableContent:"
++ "setHasSpatialRecording:"
++ "setInitialCaptureToken:"
++ "setIsBottomContainerViewHidden:"
++ "setIsSkipSilenceEnabled:"
++ "setIsSpatialRecording:"
++ "setIsSpeechIsolatorEnabled:"
++ "setLeadingContainerView:"
++ "setLeftBarButtonItems:"
++ "setMetadata:"
++ "setMoreActionsMenu:"
++ "setMultiLayer:"
++ "setMultiLayerMix:"
++ "setMultichannelAudioMode:"
++ "setNavigationItem:"
++ "setNeedsDoneButton:"
++ "setObjectManipulationDelegate:"
++ "setOffsetMillis:"
++ "setOnsetMillis:"
++ "setOutputFileSettings:"
++ "setOverviewWaveformContainerView:"
++ "setOverviewWaveformView:"
++ "setPlayRate:"
++ "setPreferredSearchBarPlacement:"
++ "setPreferredTransition:"
++ "setPresentedViewController:"
++ "setProgressOverlayPresenter:"
++ "setRawString:"
++ "setRecordedOnWatch:"
++ "setRecordingAccessToken:"
++ "setRecordingCardPresentationHelper:"
++ "setRecordingDuration:withHiddenLabel:isDurationLabelAX:"
++ "setRecordingsCollectionView:"
++ "setRightBarButtonItems:"
++ "setSampleBufferDelegate:queue:"
++ "setScopeButtonTitles:"
++ "setSearchBarPlacementAllowsExternalIntegration:"
++ "setSearchButtonItem:"
++ "setSearchPredicate:scope:performingFetch:"
++ "setSearchString:inScope:"
++ "setSelectedExportOptionIndex:"
++ "setSelectedScopeButtonIndex:"
++ "setSelectedSendAsOptionIndex:"
++ "setSendAsRaw:"
++ "setSessionPreset:"
++ "setSettingsDelegate:"
++ "setShareMemoOptionsManager:"
++ "setShareURLS:"
++ "setShouldHideTimeComponents:"
++ "setSlider:"
++ "setSliderPositionForTime:"
++ "setSliderPositionForTime:animated:"
++ "setSpatialAudioChannelLayoutTag:"
++ "setSpeechIsolatorEnabled:"
++ "setSpeechIsolatorEnabled:controller:"
++ "setSpeechIsolatorEnabled:forUUID:"
++ "setSpeechIsolatorValue:"
++ "setSpeechIsolatorValue:controller:"
++ "setSpeechIsolatorValue:forUUID:"
++ "setSupplementaryViewProvider:"
++ "setSuspended:"
++ "setToolbarContainerView:"
++ "setTopSpacerView:"
++ "setTopSpacerViewHeightConstraint:"
++ "setTrackID:"
++ "setTrailingContainerView:"
++ "setTranscription:"
++ "setUtterances:"
++ "setZoomTransitionSourceView:"
++ "settingsDelegate"
++ "setupIntentSceneConfigurator"
++ "setupMainContainerStackView"
++ "shareMemoOptionsManager"
++ "shareURLS"
++ "sheetPresentationController"
++ "shouldAlwaysShowOverviewWaveform"
++ "shouldHideAllControls"
++ "shouldHideBottomElements"
++ "shouldHideNavigationBar"
++ "shouldHideTimeComponents"
++ "shouldShareUsingRCShareMemoViewController"
++ "shouldUseIntegratedButtonSearchBarPlacementInRecordingsList"
++ "showAlertForSaveAsNew:"
++ "showsEditAndNewFolderButtonsTogether"
++ "showsEditButtonInFoldersListView"
++ "showsNavBarSubtitle"
++ "shuttleBarCenterClusterSpacing"
++ "shuttleBarCornerRadius"
++ "shuttleBarHasBackground"
++ "skipSilenceImage"
++ "slider"
++ "sourceURL"
++ "spatial"
++ "spatialAudioMix(trackVolumes:speechIsolatorValue:)"
++ "spatialMetadataGroup"
++ "speechIsolatorEnabled"
++ "speechIsolatorForUUID:"
++ "speechIsolatorImageName"
++ "speechIsolatorInputParameters(effectIntensity:volume:)"
++ "speechIsolatorSectionIdentifier"
++ "speechIsolatorSliderCellIdentifier"
++ "speechIsolatorToggleCellIdentifier"
++ "speechIsolatorValue"
++ "splitMultitrackRecordingWithId:intoDirectory:with:completionHandler:"
++ "splitViewController:didHideColumn:"
++ "splitViewController:didShowColumn:"
++ "standard"
++ "start(sampleBufferTimeCallback:)"
++ "startNewRecordingImage"
++ "startReading failed init(avAsset:sampleRate:channelCount:readIndex:endTime:interleaved:trackVolumes:speechIsolatorValue:audioMixProvider:)"
++ "startRecordingToOutputFileURL:recordingDelegate:"
++ "startRunning"
++ "startSessionAtSourceTime:"
++ "startWriting"
++ "stereo"
++ "stopRecordingCompletion"
++ "stopRunning"
++ "studioVoice"
++ "studioVoicesToggledOn"
++ "supportsTopSpacerViewWhenFullscreen"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "timeLabelFont"
++ "timeLabelTextColor"
++ "timePositionForSliderValue:"
++ "timer"
++ "timestretchAudioUnit"
++ "toggleSpeechIsolator"
++ "toggleSpeechIsolator:"
++ "toggleSpeechIsolatorEnabledForUUID:"
++ "toggleSpeechIsolatorForUUID:"
++ "toolbarContainerHeight"
++ "toolbarContainerView"
++ "topSpacerView"
++ "topSpacerViewHeight"
++ "topSpacerViewHeightConstraint"
++ "trackID"
++ "tracks"
++ "tracksWithMediaType:"
++ "trailingContainerView"
++ "transcription"
++ "trash.slash"
++ "trimButtonItem"
++ "underlyingView"
++ "undoButtonAction"
++ "undoButtonItem"
++ "updateAudioMix(trackVolumes:speechIsolatorValue:)"
++ "updateEditButtonItemTitle"
++ "updateMenuBarWindowTitle"
++ "updateNavigationItemForCurrentState"
++ "updateSelectedDetent"
++ "updateShareableContent"
++ "updateTopBottomSpacersForDismiss"
++ "updateTopBottomSpacersForPresent"
++ "updateTranscriptViewDisplayed:"
++ "userEditedStudioVoiceSlider"
++ "userEnabledStudioVoice"
++ "userPlayedVoiceMemo"
++ "usesLegacyFolderView"
++ "v16@?0@\"_TtCC10VoiceMemos18TrackSplitRenderer8Settings\"8"
++ "v16@?0@\"_TtCC10VoiceMemos27ComposedAudioEffectRenderer8Settings\"8"
++ "v16@?0@\"_UIActivityItemCustomization<_UIActivityItemCustomizationPicker>\"8"
++ "v16@?0@?<v@?>8"
++ "v24@0:8@\"<RCControlsActionDelegate>\"16"
++ "v24@0:8@\"<RCFolderViewDelegate>\"16"
++ "v24@0:8@\"<RCMPDetailSliderDelegate>\"16"
++ "v24@0:8@\"<VMRecordingController>\"16"
++ "v24@0:8@\"RCCaptureToken\"16"
++ "v24@0:8@\"RCLiveTranscription\"16"
++ "v24@0:8@\"RCRecordingView\"16"
++ "v24@0:8@\"UIMenu\"16"
++ "v24@0:8@\"UINavigationItem\"16"
++ "v24@0:8@\"UISlider<RCAudioScrubberProtocol>\"16"
++ "v24@0:8@\"UIView\"16"
++ "v24@0:8@\"VMRecordingContext\"16"
++ "v24@0:8@?<v@?@\"NSURL\"@\"NSError\">16"
++ "v24@?0@\"AVAudioUnit\"8@\"NSError\"16"
++ "v24@?0B8B12@\"NSError\"16"
++ "v28@0:8@\"UISlider<RCAudioScrubberProtocol>\"16f24"
++ "v28@0:8f16@\"NSString\"20"
++ "v28@0:8f16@20"
++ "v32@0:8@\"NSString\"16@?<v@?@\"_TtCC10VoiceMemos18TrackSplitRenderer8Settings\">24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"_TtCC10VoiceMemos27ComposedAudioEffectRenderer8Settings\">24"
++ "v32@0:8@\"UISlider<RCAudioScrubberProtocol>\"16q24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v32@0:8@16i24B28"
++ "v32@0:8d16@?<v@?>24"
++ "v32@0:8d16B24B28"
++ "v40@0:8@\"AVCaptureFileOutput\"16@\"NSURL\"24@\"NSArray\"32"
++ "v40@0:8@\"AVCaptureOutput\"16^{opaqueCMSampleBuffer=}24@\"AVCaptureConnection\"32"
++ "v40@0:8@16@24q32"
++ "v40@0:8@16@?24@?32"
++ "v40@0:8@16^{opaqueCMSampleBuffer=}24@32"
++ "v48@0:8@\"AVCaptureFileOutput\"16@\"NSURL\"24@\"NSArray\"32@\"NSError\"40"
++ "v48@0:8@\"NSString\"16@\"NSURL\"24@\"<_TtP10VoiceMemos27EffectRendererInfoProviding_>\"32@?<v@?@\"NSArray\"@\"NSError\">40"
++ "v48@0:8@\"NSString\"16@\"NSURL\"24@\"<_TtP10VoiceMemos27TrackSplitRendererProviding_>\"32@?<v@?@\"NSArray\"@\"NSError\">40"
++ "v48@0:8@\"NSURL\"16@\"NSString\"24@\"<_TtP10VoiceMemos27EffectRendererInfoProviding_>\"32@?<v@?@\"NSError\">40"
++ "v64@0:8@\"AVCaptureFileOutput\"16@\"NSURL\"24{?=qiIq}32@\"NSArray\"56"
++ "v64@0:8@16@24{?=qiIq}32@56"
++ "verticalSpaceAfterCenterContentContainer:isDisplayingTranscriptView:isTrimMode:"
++ "verticalSpaceAfterTopSpacerView"
++ "verticalSpaceBetweenOverviewWaveformAndTimeLabel"
++ "verticalSpaceBetweenShuttleBarAndBottomControlsContainerView"
++ "verticalSpaceBetweenTimeLabelAndBottomControlsContainer"
++ "verticalSpaceBetweenTimeLabelAndShuttleBar"
++ "verticalSpaceBetweenTitleAndCenterContentContainer:isDisplayingTranscriptView:"
++ "voiceIsolation"
++ "waveform.and.person.filled"
++ "waveform.halfdashed.badge.sparkles"
++ "waveform.increasing.arrow.trianglehead.clockwise"
++ "wideSpectrum"
++ "willChangeValueForKey:"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "with(composition:queue:)"
++ "writeComposition(assetWriter:fileName:directory:pathExtension:)"
++ "writeComposition(writer:outputURL:)"
++ "writeCompositionWithCompletionBlock:"
++ "writeToURL:error:"
++ "writingIntentWithURL:options:"
++ "zoomTransitionSourceView"
++ "\xa1"
++ "\xa1qE"
++ "\xf0A"
++ "\xf0\xc2"
+- "\fu!"
+- "$5"
+- "$__lazy_storage_$_audioPlayer"
+- "%@Animation"
+- "%s -- <+> not found in string, cannot replace with symbol"
+- "%s -- New recording control: %p:"
+- "%s -- Unexpected card sheet presentation state. Detent transition progress: %f."
+- "%s -- Unexpected indexPath %@"
+- "%s -- closeError = %@"
+- "%s -- voiceIsolationLatency = %f seconds"
+- "%s Acquiring secure app assertion"
+- "%s Error acquiring assertion: %s"
+- "%s Invalidating secure app assertion"
+- "%s exportSession failed, layerIndex = %ld, recording = %s"
+- "%s no compatible preset, layerIndex = %ld, recording = %s"
+- "+[RCRecordingCellDisplayModel recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:hasMultipleTracks:wasManuallyRenamed:]"
+- "+[RCRecordingDisplayModel recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:wasManuallyRenamed:]"
+- "+[RCSavedRecordingsModel(ImportAdditions) importFileWithURL:shouldUseMetadataTitle:completionHandler:]_block_invoke_2"
+- "-[RCMainControllerHelper playbackForUUID:atPosition:]"
+- "-[RCMainViewController recordingView:didUpdateViewHeight:]"
+- "-[RCPlaybackSettingsCollectionViewController _cellForGeneralSettingsSectionAtIndexPath:]"
+- "-[RCPlaybackSettingsCollectionViewController _cellForMultitrackSettingsSectionAtIndexPath:]"
+- "-[RCPlaybackSettingsCollectionViewController _cellForPlaybackSpeedSectionAtIndexPath:]"
+- "-[RCPlaybackSettingsCollectionViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]"
+- "-[RCRecordingControl _commonInit]"
+- "-[RCRecordingViewController _updateWithFrameSpecifier:]"
+- "-[RCSavedRecordingsController setSubPredicate:performingFetch:]"
+- "-[RCShareableComposition activityViewController:itemForActivityType:]"
+- "-[RCWelcomeViewController overdubContentLabel]"
+- "-[VMAudioService __eraseSecondLayerInComposition:outputFragment:audioSettings:completionBlock:]"
+- "-[VMAudioService _mergeRecording:atTime:controller:error:]"
+- "-[VMAudioService _mergeRecording:atTime:controller:error:]_block_invoke"
+- "-[VMAudioService _mergeRecording:atTime:controller:error:]_block_invoke_2"
+- "-[VMAudioService _startRecordingWithController:error:]_block_invoke"
+- ".ImportFilesTemporaryDirectory"
+- "0"
+- "2!A"
+- ":"
+- "<+>"
+- "@\"<RCLockScreenRecordingViewControlInteractionDelegate>\""
+- "@\"<RCLockScreenRecordingViewControllerDelegate>\""
+- "@\"<RCRecordingControlDelegate>\""
+- "@\"<RCSAudioFile>\""
+- "@\"<VMAudioEngine>\""
+- "@\"AVAudioInputNode\"16@0:8"
+- "@\"AVAudioUnitEffect\""
+- "@\"CABasicAnimation\"16@0:8"
+- "@\"CATextLayer\""
+- "@\"LPLinkMetadata\"24@0:8@\"UIActivityViewController\"16"
+- "@\"NSString\"32@0:8@\"UIActivityViewController\"16@\"NSString\"24"
+- "@\"RCAudioScrubber\""
+- "@\"RCDebugOverlay\""
+- "@\"RCDeleteButton\""
+- "@\"RCEditingToolbar\""
+- "@\"RCLockScreenCoordinator\""
+- "@\"RCLockScreenRecordingViewController\""
+- "@\"RCLockScreenSceneDelegate\""
+- "@\"RCPlaybackSettingsSlider\""
+- "@\"RCRecordingCardViewController\""
+- "@\"RCRecordingControl\""
+- "@\"RCToggleButton\""
+- "@\"RCTrimButton\""
+- "@\"RCWaveformGenerator\""
+- "@\"SettableIntrinsicSizeView\""
+- "@\"UIImage\"48@0:8@\"UIActivityViewController\"16@\"NSString\"24{CGSize=dd}32"
+- "@\"UIPointerRegion\"40@0:8@\"UIPointerInteraction\"16@\"UIPointerRegionRequest\"24@\"UIPointerRegion\"32"
+- "@\"UIPointerStyle\"32@0:8@\"UIPointerInteraction\"16@\"UIPointerRegion\"24"
+- "@\"UIView<RCRecordingCardViewHostedViewProtocol>\""
+- "@\"UIVisualEffectView\""
+- "@\"VMRecordingEngine\""
+- "@\"_TtC10VoiceMemos18VMRecordingContext\"16@0:8"
+- "@\"_TtC10VoiceMemos19RCLiveTranscription\"16@0:8"
+- "@\"_TtC10VoiceMemos24RCRecordButtonAppFactory\""
+- "@\"_TtC10VoiceMemos30RCRecordingControlLayoutHelper\""
+- "@24@0:8@\"UIActivityViewController\"16"
+- "@32@0:8@\"UIActivityViewController\"16@\"NSString\"24"
+- "@44@0:8@16B24B28f32f36B40"
+- "@72@0:8@16@24d32@40B48B52B56B60B64B68"
+- "APPEND"
+- "AX_DIMMED_VALUE"
+- "AlphaAdjustment"
+- "Apply title for Done button in Trim mode"
+- "B32@0:8@\"NSDictionary\"16^@24"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16B24B28^@32"
+- "B48@0:8@16d24@32^@40"
+- "BUSY"
+- "COPY_TRANSCRIPT"
+- "Cm"
+- "Duplicate values for key: '"
+- "EDIT_MODE_INSERT_VIEW_TITLE"
+- "G"
+- "INSERT"
+- "INSERT_MODE_IN_BUTTON_TITLE"
+- "INSERT_MODE_OUT_BUTTON_TITLE"
+- "ImportAdditions"
+- "Insertion in point button"
+- "Insertion out point button"
+- "LEARN_MORE_TITLE"
+- "No language code for locale %s"
+- "PLAYBACK_SETTINGS"
+- "Presentation time: %@\rPresentation interval: %@\rElapsed time: %@"
+- "RCActionItemViewController"
+- "RCAlwaysOnEmptyIdentifier"
+- "RCAlwaysOnRecordingIdentifier"
+- "RCBackgroundColorAnimating"
+- "RCCopyTranscriptActivity"
+- "RCDebugOverlay"
+- "RCDeleteButton"
+- "RCDoneButtonProtocol"
+- "RCDoneButtonUtilities"
+- "RCFolderView"
+- "RCFoldersSidebar"
+- "RCLockScreenCoordinator"
+- "RCLockScreenRecordingView"
+- "RCLockScreenRecordingViewControlInteractionDelegate"
+- "RCLockScreenRecordingViewController"
+- "RCLockScreenRecordingViewControllerDelegate"
+- "RCLockScreenSceneDelegate"
+- "RCOverdubVoiceIsolationEnabled"
+- "RCPlatterRecordingControl"
+- "RCPlaybackSettingsView"
+- "RCRecorderExtensions"
+- "RCRecordingCard"
+- "RCRecordingCardView"
+- "RCRecordingCardViewHostedViewProtocol"
+- "RCRecordingContainerAXElement"
+- "RCRecordingControl"
+- "RCRecordingControlDelegate"
+- "RCToggleButton"
+- "RCTouchInsetsDoneButton"
+- "RCTrimButton"
+- "RCTrimDeleteButton"
+- "RECORD"
+- "RECORD_VOCAL_LAYER_DESCRIPTION"
+- "RECORD_VOCAL_LAYER_TITLE_FULL"
+- "RENAME_FOLDER"
+- "REPLACE"
+- "RESUME"
+- "Recap not available"
+- "Record button AX label"
+- "RecorderAdditions"
+- "RecordingActionItemView"
+- "SAVE RECORDING"
+- "SET_IN_POINT"
+- "SET_OUT_POINT"
+- "STOP"
+- "SettableIntrinsicSizeView"
+- "Should Sample: %{bool}d"
+- "Started recording"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "T@\"<RCLockScreenRecordingViewControlInteractionDelegate>\",W,N,V_controlInteractionDelegate"
+- "T@\"<RCLockScreenRecordingViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<RCRecordingControlDelegate>\",W,N,V_delegate"
+- "T@\"<RCSAudioFile>\",&,N,V_assetWriter"
+- "T@\"AVAsset\",N,&,Vasset"
+- "T@\"AVAudioInputNode\",R,N"
+- "T@\"CAShapeLayer\",&,N,V_innerStateLayer"
+- "T@\"CAShapeLayer\",&,N,V_outerRingLayer"
+- "T@\"CAShapeLayer\",&,N,V_pauseShapeLayer"
+- "T@\"CATextLayer\",&,N,V_overlayLayer"
+- "T@\"NSArray\",&,N,V_buttonsArray"
+- "T@\"NSLayoutConstraint\",&,N,V_bottomControlsContainerViewBottomConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_centerContentContainerTopAnchorToWindowConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_deleteSelectionButtonTrailingConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_overviewWaveformContainerBottomToWindowSafeAreaBottomConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_recordButtonCenterXToLeadingConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_recordButtonCenterXToViewCenterXConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_recordButtonCenterYConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_trimDeleteButtonLeftConstantConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_virtualNavigationToolbarTopConstraint"
+- "T@\"NSMutableDictionary\",R,N,V_audioSettings"
+- "T@\"NSString\",&,N,V_uuid"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",C,N,V_searchString"
+- "T@\"RCAudioScrubber\",&,N,V_timelineSlider"
+- "T@\"RCDebugOverlay\",&,N,V_alwaysOnDebugOverlay"
+- "T@\"RCDeleteButton\",&,N,V_deleteSelectionButton"
+- "T@\"RCEditingToolbar\",&,N,V_editingToolbar"
+- "T@\"RCFolderView\",&,D,N"
+- "T@\"RCLockScreenCoordinator\",&,N,V_lockScreenCoordinator"
+- "T@\"RCLockScreenRecordingViewController\",W,N,V_lockScreenRecordingViewController"
+- "T@\"RCLockScreenSceneDelegate\",R,N"
+- "T@\"RCRecordingCardView\",&,D,N"
+- "T@\"RCRecordingCardViewController\",&,N,V_presentedCardViewController"
+- "T@\"RCRecordingControl\",&,N,V_cancelButton"
+- "T@\"RCRecordingDescriptionView\",R,D,N"
+- "T@\"RCRecordingStartTimeInfo\",&,N"
+- "T@\"RCRecordingStartTimeInfo\",&,N,VrecordingStartTimeInfo"
+- "T@\"RCSSavedRecordingAccessToken\",&,N,V_recordingToken"
+- "T@\"RCToggleButton\",&,N,V_playbackSettingsButton"
+- "T@\"RCToggleButton\",&,N,V_transcriptionButton"
+- "T@\"RCTouchInsetsButton\",&,N,V_inButton"
+- "T@\"RCTouchInsetsButton\",&,N,V_outButton"
+- "T@\"RCTouchInsetsButton\",&,N,V_rightSideButton"
+- "T@\"RCTrimButton\",&,N,V_trimToSelectionButton"
+- "T@\"RecordingActionItemView\",&,D,N"
+- "T@\"SBFSecureWindow\",&,D,N"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_bottomControlsContainerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_bottomFillerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_buttonsAndDescriptionContainerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_centerContentContainerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_fixedOverviewWaveformContainerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_topCardSpacerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_topFullScreenSpacerView"
+- "T@\"SettableIntrinsicSizeView\",&,N,V_trimOverviewWaveformContainerView"
+- "T@\"UIBarButtonItem\",W,N,V_deleteOrUndeleteButtonItem"
+- "T@\"UIBarButtonItem\",W,N,V_editButtonItem"
+- "T@\"UIBarButtonItem\",W,N,V_shareButtonItem"
+- "T@\"UIColor\",&,N,V_fontColor"
+- "T@\"UIColor\",&,N,V_fontColorResume"
+- "T@\"UIColor\",&,N,V_innerColor"
+- "T@\"UIColor\",&,N,V_innerColorResume"
+- "T@\"UIColor\",&,N,V_outerColor"
+- "T@\"UIColor\",&,N,V_outerColorResume"
+- "T@\"UIColor\",&,N,V_resolvedInnerColor"
+- "T@\"UIColor\",&,N,V_resolvedInnerColorResume"
+- "T@\"UIColor\",&,N,V_resolvedOuterColor"
+- "T@\"UIColor\",&,N,V_resolvedOuterColorResume"
+- "T@\"UIImageView\",N,V_actionImageView"
+- "T@\"UILabel\",&,N,V_namedStateLabel"
+- "T@\"UILabel\",N,V_actionTitleLabel"
+- "T@\"UIView\",&,N,V_descriptionContainerView"
+- "T@\"UIView\",N,V_fixedOverviewWaveformView"
+- "T@\"UIView\",N,V_trimOverviewWaveformView"
+- "T@\"UIView\",W,N,V_parentView"
+- "T@\"UIView\",W,N,V_recordingContainerView"
+- "T@\"UIView<RCRecordingCardViewHostedViewProtocol>\",W,N,V_hostedView"
+- "T@\"_TtC10VoiceMemos18VMRecordingContext\",&,N"
+- "T@\"_TtC10VoiceMemos19RCLiveTranscription\",&,N"
+- "T@\"_TtC10VoiceMemos24RCRecordButtonAppFactory\",&,N,V_recordButtonFactory"
+- "T@\"_TtC10VoiceMemos30RCRecordingControlLayoutHelper\",&,N,V_layoutHelper"
+- "TB,D,N"
+- "TB,N,GisBlurred,V_blurred"
+- "TB,N,V_enhanced"
+- "TB,N,V_forceDisableRecordingControl"
+- "TB,N,V_hideNavigationTitle"
+- "TB,N,V_internalRecording"
+- "TB,N,V_isRecordingViewHidden"
+- "TB,N,V_needsCloseButton"
+- "TB,N,V_observingUserDefaults"
+- "TB,N,V_pressed"
+- "TB,N,V_shouldHideSubseconds"
+- "TB,N,V_showsDoneButton"
+- "TB,N,V_silenceRemoved"
+- "TB,N,V_trimButtonsEnabled"
+- "TB,R,N,GisRunning"
+- "TQ,N,V_sheetPresentationState"
+- "TRANSCRIPTION"
+- "Td,D,N"
+- "Td,N,V_bottomAccessoryContentContainerHeight"
+- "Td,N,V_bottomAccessoryDescriptionHeight"
+- "Td,N,V_currentTimeReadoutHeight"
+- "Td,N,V_editingToolbarCompactHeight"
+- "Td,N,V_editingToolbarHeight"
+- "Td,N,V_fixedOverviewWaveformHeight"
+- "Td,N,V_fullScreenDescriptionHeight"
+- "Td,N,V_fullScreenWaveFormHeight"
+- "Td,N,V_hostViewHeight"
+- "Td,N,V_innerSquareCornerRadius"
+- "Td,N,V_innerSquareWidth"
+- "Td,N,V_outerRingGap"
+- "Td,N,V_pauseStrokeCornerRadius"
+- "Td,N,V_punchOutTime"
+- "Td,N,V_statusBarHeight"
+- "Td,N,V_topScreenSpacerHeight"
+- "Tf,N,V_playbackSpeed"
+- "This string is a button title, and the first variable is the word `REPLACE`, and the second variable is the SFSymbol image of `1.circle.fill`, to indicate that the first layer is being modified"
+- "This string is a button title, and the first variable is the word `REPLACE`, and the second variable is the SFSymbol image of `2.circle.fill`, to indicate that the second layer is being modified"
+- "This string is a button title, and the first variable is the word `RESUME`, and the second variable is the SFSymbol image of `1.circle.fill`, to indicate that the first layer is being modified"
+- "This string is a button title, and the first variable is the word `RESUME`, and the second variable is the SFSymbol image of `2.circle.fill`, to indicate that the second layer is being modified"
+- "This string is a button title, and the variable is the word `REPLACE`"
+- "This string is a button title, and the variable is the word `RESUME`"
+- "Tq,D,N"
+- "Tq,N,V_editMode"
+- "Tq,N,V_recordingControlState"
+- "UIActivityItemSource"
+- "UIELEMENT_ENTITY_CASE_PLAYBACK_SETTINGS"
+- "UIELEMENT_ENTITY_CASE_RECORDING_CARD"
+- "UIELEMENT_ENTITY_CASE_SIDEBAR"
+- "UIELEMENT_ENTITY_NAME"
+- "UIPointerInteractionDelegate"
+- "UNLOCK"
+- "Unknown enum case encountered.  Please update this switch statement to handle the new case."
+- "VMAudioEngine"
+- "VocalLayer_Onboarding"
+- "VoiceMemos.RCDoneButton"
+- "VoiceMemos/RCSavedRecordingsModel+Extensions.swift"
+- "VoiceMemos/SessionManagerController.swift"
+- "WELCOME_ITEM_3_DESCRIPTION"
+- "WELCOME_ITEM_3_TITLE"
+- "^{CGPath=}20@0:8B16"
+- "^{CGPath=}24@0:8d16"
+- "^{CGPath=}24@0:8q16"
+- "^{CGPath=}28@0:8q16B24"
+- "^{CGPath=}32@0:8d16d24"
+- "^{CGPath=}32@0:8q16q24"
+- "_TtC10VoiceMemos11AudioPlayer"
+- "_TtC10VoiceMemos15AudioPlayerItem"
+- "_TtC10VoiceMemos25SecureAppAssertionManager"
+- "_UIPassthroughScrollGestureRecognizer"
+- "__activateAudioSessionOnQueue:recording:overdubbing:error:"
+- "__animateRecordingCardDetentTransitionForSheetPresentationController:"
+- "__eraseSecondLayerInComposition:outputFragment:audioSettings:completionBlock:"
+- "_accessibilityBounds"
+- "_accessibilityCirclePathBasedOnBoundsWidth"
+- "_accessibilityLabelTextForState:"
+- "_actionImageView"
+- "_actionTitleLabel"
+- "_actionWithContentViewController:style:handler:"
+- "_adjustForHostViewHeight"
+- "_alignRecordingControlToCenter"
+- "_alignRecordingControlToLeft"
+- "_alwaysOnDebugOverlay"
+- "_animateLabel:textColor:duration:"
+- "_animateTextField:textColor:duration:"
+- "_applyDimmingColorToProgressOverlay"
+- "_applyFixedOverviewWaveformViewConstraints"
+- "_assignIVarsFromStyleProvider"
+- "_backgroundColorAnimation"
+- "_backgroundColorToUse"
+- "_backlightSceneEnvironment"
+- "_beginScrubbingWithValue:"
+- "_blurEffectView"
+- "_blurred"
+- "_bottomAccessoryContentContainerHeight"
+- "_bottomAccessoryDescriptionHeight"
+- "_bottomConstraint"
+- "_bottomControlsContainerViewBottomConstraint"
+- "_bottomFillerView"
+- "_buttonTextForState:"
+- "_buttonsArray"
+- "_cardSheetOptionsForDefaultRecordingView"
+- "_cardSheetOptionsForLargeDetentOnly"
+- "_cellForGeneralSettingsSectionAtIndexPath:"
+- "_cellForMultitrackSettingsSectionAtIndexPath:"
+- "_cellForPlaybackSpeedSectionAtIndexPath:"
+- "_centerContentContainerTopAnchorToWindowConstraint"
+- "_circlePath"
+- "_circlePath:"
+- "_classSpecificLayoutSublayers"
+- "_classSpecificViewWillDisappear"
+- "_clearWindowConstraints"
+- "_collapsePresentedCompactRecordingCard"
+- "_commonOrientationForOrientation:"
+- "_constrainBottomControlsContainerViewToWindowIfNeeded"
+- "_constrainCenterContentContainerViewToWindowIfNeeded"
+- "_constrainDescriptionContainerViewToVirtualNavigationBar"
+- "_constrainViewsToWindowIfNeeded"
+- "_constrainVirtualNavigationToolbarToWindowIfNeeded"
+- "_controlInteractionDelegate"
+- "_copyFileIntoImportFilesTemporaryDirectory:error:"
+- "_copyResourcesForRecording:toDirectory:"
+- "_createOverlayLayerIfNeeded"
+- "_createOverviewWaveformContainerBottomToWindowSafeAreaBottomConstraint"
+- "_currentEngine"
+- "_currentTimeReadoutHeight"
+- "_deleteOrUndeleteButtonItem"
+- "_deleteSelectionButtonTrailingConstraint"
+- "_descriptionContainerView"
+- "_didTapDone"
+- "_doneButtonSidePadding"
+- "_edgeInsetsForChildViewController:insetsAreAbsolute:"
+- "_editMode"
+- "_editingToolbar"
+- "_editingToolbarCompactHeight"
+- "_editingToolbarHeight"
+- "_enabledState"
+- "_estimateTrimDeleteButtonSizeForProposedSize:"
+- "_expandPresentedCompactRecordingCard"
+- "_fillPathAnimateEndForState:fromState:"
+- "_fillPathAnimateStartForState:fromState:"
+- "_fillPathForState:"
+- "_fixedOverviewWaveformContainerView"
+- "_fixedOverviewWaveformHeight"
+- "_fixedOverviewWaveformView"
+- "_fontColor"
+- "_fontColorResume"
+- "_forceDisableRecordingControl"
+- "_forceRenderingForBlurredStateChange"
+- "_forceUpdateCurrentTimeAndDuration"
+- "_fullScreenDescriptionHeight"
+- "_fullScreenWaveFormHeight"
+- "_getSquarePathPosition"
+- "_handleClose"
+- "_handleSetInPoint"
+- "_handleSetOutPoint"
+- "_handleSpotlightSearchResults:forSearchString:"
+- "_hasOuterRingLayer"
+- "_hideNavigationTitle"
+- "_hostViewHeight"
+- "_inButton"
+- "_indexPathForEnhancedSwitch"
+- "_indexPathForLayerMixSlider"
+- "_indexPathForPlaybackSpeedSlider"
+- "_indexPathForRemoveSilenceSwitch"
+- "_innerColor"
+- "_innerColorResume"
+- "_innerSquareCornerRadius"
+- "_innerSquareWidth"
+- "_innerStateLayer"
+- "_interactionPath"
+- "_internalRecording"
+- "_isCardStyle"
+- "_isInsideForLocation:"
+- "_isRecordingViewHidden"
+- "_isScrollingTest:"
+- "_itemForActivityType:"
+- "_labelLozengePath"
+- "_labelWidth"
+- "_lastInterceptedEventTimeStamp"
+- "_lastVisibleTimeDuration"
+- "_layoutHelper"
+- "_leftConstraint"
+- "_lockScreenCoordinator"
+- "_lockScreenRecordingViewController"
+- "_lockScreenSceneDelegate"
+- "_longPressBeingThrottled"
+- "_mergeRecording:atTime:controller:error:"
+- "_microCirclePath"
+- "_namedStateLabel"
+- "_needsCloseButton"
+- "_newRecordingEngine"
+- "_observingUserDefaults"
+- "_outButton"
+- "_outerColor"
+- "_outerColorResume"
+- "_outerRingGap"
+- "_outerRingLayer"
+- "_overlayLayer"
+- "_overviewWaveformContainerBottomToWindowSafeAreaBottomConstraint"
+- "_parentView"
+- "_pausePath"
+- "_pauseShapeLayer"
+- "_pauseStrokeCornerRadius"
+- "_prepareWithRecordingEngine:controller:assetWriter:"
+- "_presentMoveToFolderUIForSelectedRecordings"
+- "_presentedCardViewController"
+- "_pressed"
+- "_processControlActuation"
+- "_punchOutTime"
+- "_recordButtonCenterXToLeadingConstraint"
+- "_recordButtonCenterXToViewCenterXConstraint"
+- "_recordButtonCenterYConstraint"
+- "_recordingCardSheetPresentationController"
+- "_recordingContainerView"
+- "_recordingControlSidePadding"
+- "_recordingControlState"
+- "_recordingSettingsForAudioEngine:error:"
+- "_recordingToken"
+- "_removeOverlayLayerIfNeeded"
+- "_reparentAfterDismiss"
+- "_resolvedFillColorForState:"
+- "_resolvedInnerColor"
+- "_resolvedInnerColorResume"
+- "_resolvedOuterColor"
+- "_resolvedOuterColorResume"
+- "_resolvedRingColorForState:"
+- "_restyleRecordingCardSheetPresentationController"
+- "_rightConstraint"
+- "_rightSideButton"
+- "_ringLozengePath:"
+- "_ringLozengePathWithHeight:extraWidth:"
+- "_ringOpacityForState:"
+- "_ringPath:"
+- "_ringPathForState:"
+- "_ringPathForState:includingStrokeThickeness:"
+- "_selectLargeDetentOnRecordingCardSheetPresentationController"
+- "_selectLargeDetentOnSheetPresentationController:"
+- "_setHidesShadow:"
+- "_setValueWhileTracking:duration:"
+- "_setupDeletableToolbarItemsWithCount:"
+- "_setupEditButton"
+- "_setupForDoneTitle"
+- "_setupRecentlyDeletedToolbarItemsWithCount:"
+- "_setupShuttleBarConstraints"
+- "_setupVirtualNavigationBarConstraints"
+- "_setupWaveformView"
+- "_sharedAnimationControllerResolverForFromVC:toVC:"
+- "_sheetPresentationState"
+- "_shouldConstrainCenterContentContainerToWindow"
+- "_shouldHideBottomElements"
+- "_shouldHideSubseconds"
+- "_shouldPauseTimeControllerUpdates"
+- "_showGrabberOnRecordingCardSheetPresentationController:"
+- "_showGrabberOnSheetPresentationController:showGrabber:"
+- "_showsDoneButton"
+- "_shutdownEngine"
+- "_shutdownRecordingEngine"
+- "_sidePaddingForElementHorizontallyCenteredInSupplementaryColumn:"
+- "_sliderLeadingConstraint"
+- "_sliderTrailingConstraint"
+- "_squarePath"
+- "_startRecordingWithController:error:"
+- "_statusBarHeight"
+- "_styleRecordingCardSheetPresentationControllerWithOptions:customDetentHeight:"
+- "_styleSheetPresentationController:options:customDetentHeight:"
+- "_supplementaryColumnMinimumCenterXPosition"
+- "_supportsTimelineGeneration"
+- "_swapCurrentArrangedSubview:withNewArrangedSubview:"
+- "_switchEngine:audioSettings:error:"
+- "_syncLongPressGestureRecognizerEnablement"
+- "_syncSubviewIntrinsicHeights"
+- "_textColorForState:"
+- "_topCardSpacerView"
+- "_topConstraint"
+- "_topFullScreenSpacerView"
+- "_topScreenSpacerHeight"
+- "_transitionPresentedCompactRecordingCardToTrimMode:"
+- "_trimButtonsEnabled"
+- "_trimDeleteButtonHeight"
+- "_trimDeleteButtonLeftConstantConstraint"
+- "_trimDeleteButtonLeftPadding"
+- "_trimDeleteButtonWidth"
+- "_trimInsertReplaceDoneButtonAction:"
+- "_trimInsertReplaceDoneButtonSaveAsNewAction:"
+- "_trimOverviewWaveformContainerView"
+- "_trimOverviewWaveformView"
+- "_updateButtonState:hidden:enabled:dimmedMode:"
+- "_updateControlsToHidden:enabled:rightSideButtonVisible:leftSideButtonVisible:dimmedMode:"
+- "_updateRecordingViewStatusBarHeight"
+- "_updateSheetPresentationOptions:"
+- "_updateToolbarItemsWithCount:"
+- "_updateVisibilityOfNamedStateLabel:animated:"
+- "_updateVisualState:fromState:"
+- "_virtualNavigationToolbarTopConstraint"
+- "_voiceIsolationNode"
+- "_waveformExtraBlurEffectView"
+- "_waveformGenerator"
+- "_xInset"
+- "accessibilityActivationPoint"
+- "accessibilityPath"
+- "acquireContentProviderAssertionForType:slot:identifier:errorHandler:"
+- "acquireSecureAppAssertionIfNeeded()"
+- "actionImageView"
+- "actionTitleLabel"
+- "activeAppearance"
+- "activityViewController:dataTypeIdentifierForActivityType:"
+- "activityViewController:itemForActivityType:"
+- "activityViewControllerPlaceholderItem:"
+- "activityViewControllerShareRecipients:"
+- "addBlurEffect"
+- "addToParentView"
+- "addTransitionSpacing"
+- "alwaysOnDebugOverlay"
+- "animateProperty:toValue:fromValue:timing:"
+- "animateProperty:toValue:timing:"
+- "animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:"
+- "animation"
+- "assetWithURL:"
+- "audioSettings"
+- "backgroundColorAnimation"
+- "backlightLuminanceDidChangeForPlatterViewController:"
+- "bezierPathWithCGPath:"
+- "blurred"
+- "bottomAccessoryContentContainerHeight"
+- "bottomAccessoryDescriptionHeight"
+- "bottomControlsContainerViewBottomConstraint"
+- "bottomFillerView"
+- "buttonsArray"
+- "cancelButtonBottomAlignmentOffset"
+- "centerClusterControlSize"
+- "centerContentContainerTopAnchorToWindowConstraint"
+- "centerContentViewBottomPadding"
+- "centerContentViewTopPadding"
+- "changeAXValue"
+- "closeAudioFile:error:"
+- "collectionView:cellForItemAtIndexPath:"
+- "collectionView:numberOfItemsInSection:"
+- "connectedLockScreenSceneDelegate"
+- "controlActivated:"
+- "controlInteractionDelegate"
+- "copyDataSourcesFromRecordingViewController:"
+- "createMenuWithDisplayCopyTranscriptAction:hideTrimItem:hasMultipleTracks:showUndoItem:"
+- "createMenuWithDisplayShowTranscriptAction:displayCopyTranscriptAction:hasMultipleTracks:"
+- "createRecordButton"
+- "creationDateLabelFont"
+- "crossfadePauseLayer:animated:"
+- "crossfadeText:color:animated:"
+- "currentTimeReadoutHeight"
+- "customDetentWithIdentifier:resolver:"
+- "d16@?0@\"<UISheetPresentationControllerDetentResolutionContext>\"8"
+- "deleteOrUndeleteButtonItem"
+- "deleteSelectionButtonTrailingConstraint"
+- "descriptionContainerView"
+- "detailSlider:didChangeValue:"
+- "determineImportabilityOfRecordingWithAudioURL:completionHandler:"
+- "didMoveToWindow"
+- "displayIdentity"
+- "displayIfNeeded"
+- "doSpringAnimations:withDuration:completion:"
+- "doSpringAnimations:withDuration:damping:completion:"
+- "doneButtonMenuActionTriggered:"
+- "durationLabelFont"
+- "editMode"
+- "editToolbarCompactHeight"
+- "editToolbarHeight"
+- "editingControlButtonLabelFont"
+- "editingToolbar"
+- "editingToolbarCompactHeight"
+- "editingToolbarHeight"
+- "effectWithBlurRadius:"
+- "effectWithPreview:"
+- "en"
+- "enableOrphanHandlingWithCompletionBlock:"
+- "enabledState"
+- "enterEditMode"
+- "expandCardFromLockScreenInput"
+- "expectsSecureRendering"
+- "fadeOutPauseAndInText:"
+- "fillColor"
+- "fixedOverviewWaveformContainerView"
+- "fixedOverviewWaveformHeight"
+- "fixedOverviewWaveformView"
+- "folderSelectionCollectionViewBackgroundColor"
+- "folderSelectionCollectionViewCellColor"
+- "folderSelectionNavBarNewFolderImageTintColor"
+- "fontAttributes"
+- "fontColor"
+- "fontColorResume"
+- "forceDisableRecordingControl"
+- "fullScreenDescriptionHeight"
+- "fullScreenWaveFormHeight"
+- "functionWithName:"
+- "handleLearnMoreButton:"
+- "hasPrefix:"
+- "headerView"
+- "hideBackButtonTitle:"
+- "hideNavigationTitle"
+- "hostViewHeight"
+- "https://support.apple.com/guide/iphone/iphfefa3252b"
+- "https://voicememos-events.apple.com/analyticseventsv2/async"
+- "importRecordingWithSourceAudioURL:name:date:completionHandler:"
+- "inButton"
+- "inOutButtonBackgroundColor"
+- "inOutButtonCornerRadius"
+- "inOutButtonTextColor"
+- "initWithAccessibilityContainer:recordingContainerView:"
+- "initWithAudioComponentDescription:"
+- "initWithObjects:"
+- "initWithParentView:shouldObserveChanges:"
+- "initWithUUID:enhanced:silenceRemoved:playbackSpeed:layerMix:hasMultipleTracks:"
+- "initWithView:"
+- "innerColor"
+- "innerColorResume"
+- "innerSquareCornerRadius"
+- "innerSquareWidth"
+- "innerStateLayer"
+- "insertArrangedSubview:atIndex:"
+- "internalRecording"
+- "intrinsicHeightForBottomAccessoryViewAndSafeArea"
+- "intrinsicHeightForCompactView"
+- "invalidateAllTimelinesForReason:"
+- "invalidateSecureAppAssertion()"
+- "isAnimatingBackgroundColor"
+- "isBlurred"
+- "isEqualToArray:"
+- "isHighlighted"
+- "isLockScreenActive"
+- "isLockScreenController"
+- "isRecapAvailable"
+- "isRecordingActive"
+- "isRecordingViewHidden"
+- "jumpBackwardForwardButtonSpacing"
+- "kCATransitionFade"
+- "kPlaybackSettingSpeedCellIdentifier"
+- "latency"
+- "layerAlpha"
+- "linkButton"
+- "listCellConfiguration"
+- "localizedUppercaseString"
+- "lockDeviceAnimated:withCompletion:"
+- "lockScreenCoordinator"
+- "lockScreenRecordingViewController"
+- "lockScreenRecordingViewControllerWantsUnlockFromControl:"
+- "lockScreenRecordingViewDidTapControl"
+- "lockScreenRecordingViewDidTapDone"
+- "lockScreenRecordingViewWillPauseRecording"
+- "lockScreenSceneDelegate"
+- "lockScreenSessionManager"
+- "lockscreenWillDismissAfterRecording"
+- "multitrackImageForWelcome"
+- "namedStateLabel"
+- "needsCloseButton"
+- "needsUpdateForBoundsChange"
+- "numberOfSectionsInCollectionView:"
+- "objectAtIndex:"
+- "observingUserDefaults"
+- "openApplication:withOptions:completion:"
+- "openAudioFile:settings:metadata:error:"
+- "openURL:options:completionHandler:"
+- "optionsWithDictionary:"
+- "outButton"
+- "outerColor"
+- "outerColorResume"
+- "outerRingGap"
+- "outerRingLayer"
+- "overdubContentLabel"
+- "overlayLayer"
+- "overviewWaveformContainerBottomToWindowSafeAreaBottomConstraint"
+- "parentView"
+- "pauseShapeLayer"
+- "pauseStrokeCornerRadius"
+- "performAction:atPosition:source:"
+- "performDoneButtonFromLockScreenInput"
+- "playbackCardPrimaryLabelFontColor"
+- "playbackCardSecondaryLabelFontColor"
+- "playbackForUUID:atPosition:"
+- "playbackRate"
+- "playbackViewConfiguration"
+- "playbackViewTitleTextInsets"
+- "playbackViewWaveformOverviewSidePadding"
+- "plus.circle.fill"
+- "pointerInteraction:regionForRequest:defaultRegion:"
+- "pointerInteraction:styleForRegion:"
+- "pointerInteraction:willEnterRegion:animator:"
+- "pointerInteraction:willExitRegion:animator:"
+- "positionReadoutHeight"
+- "preferredFontForTextStyle:compatibleWithTraitCollection:"
+- "prepareToCaptureToCompositionAVURL:error:"
+- "presentsTitleAndAdditionalEditingControlsInPlaybackCard"
+- "presentsTitleAndAdditionalEditingControlsInRecordingCard"
+- "pressed"
+- "punchOutTime"
+- "rc_composedAVURL"
+- "rc_recordingMetadata"
+- "rc_textStyle"
+- "rc_uniqueFileSystemURLWithPreferredURL:"
+- "rcs_dynamicMonospacedTitle0Font"
+- "rcs_monospacedSubheadlineFont"
+- "recordButtonCenterXToLeadingConstraint"
+- "recordButtonCenterXToViewCenterXConstraint"
+- "recordButtonCenterYConstraint"
+- "recorderMenuActionWithTitle:image:handler:"
+- "recordingContainerView"
+- "recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:hasMultipleTracks:wasManuallyRenamed:"
+- "recordingDisplayModelWithTitle:creationDate:duration:UUID:recentlyDeleted:representsDownloadingFile:isFavorite:isEnhanced:hasTranscription:wasManuallyRenamed:"
+- "recordingToken"
+- "recordingViewWaveformOverviewSidePadding"
+- "recordingViewWaveformOverviewSpaceBetweenMainWaveformAndOverview"
+- "recordingViewWaveformOverviewSpaceBetweenTimelabelAndOverview"
+- "recordingsCollectionViewEditButtonDimmedColor"
+- "regionWithRect:identifier:"
+- "reloadItemsAtIndexPaths:"
+- "removeBlurEffect"
+- "removeFromParentView"
+- "removeLockScreenRecordingViewController"
+- "removeObserver:forKeyPath:"
+- "removeTransitionSpacing"
+- "replaceCharactersInRange:withAttributedString:"
+- "resolveColors"
+- "resolvedInnerColor"
+- "resolvedInnerColorResume"
+- "resolvedOuterColor"
+- "resolvedOuterColorResume"
+- "rightSideButton"
+- "running"
+- "saveAsNewRecordingAction:"
+- "saveMenuForDoneButton:"
+- "saveRecordingAction:"
+- "secureAppAssertion"
+- "secureAppAssertionManager"
+- "seekTo:completion:"
+- "semiTransparentRepresentation"
+- "separateRecordingLayers(_:)"
+- "separatorColor"
+- "serviceWithDefaultShellEndpoint"
+- "setAccessibilityAttributedLabel:"
+- "setActionImageView:"
+- "setActionTitleLabel:"
+- "setAlignmentMode:"
+- "setAllowFullWidthIcon:"
+- "setAlwaysOnDebugOverlay:"
+- "setAsset:"
+- "setAttributedText:"
+- "setAttributes:range:"
+- "setAutoresizingMask:"
+- "setBarStyle:"
+- "setBarTintColor:"
+- "setBlurred:"
+- "setBottomAccessoryContentContainerHeight:"
+- "setBottomAccessoryDescriptionHeight:"
+- "setBottomControlsContainerViewBottomConstraint:"
+- "setBottomFillerView:"
+- "setButtonsArray:"
+- "setCenterContentContainerTopAnchorToWindowConstraint:"
+- "setControlInteractionDelegate:"
+- "setCurrentTimeReadoutHeight:"
+- "setDeleteOrUndeleteButtonItem:"
+- "setDeleteSelectionButtonTrailingConstraint:"
+- "setDescriptionContainerView:"
+- "setDoneButtonEnabledState:"
+- "setEditMode:"
+- "setEditingToolbar:"
+- "setEditingToolbarCompactHeight:"
+- "setEditingToolbarHeight:"
+- "setEffect:"
+- "setEnabled:isHidden:userInteractionEnabled:"
+- "setEnabledState:"
+- "setFillColor:animated:"
+- "setFixedOverviewWaveformContainerView:"
+- "setFixedOverviewWaveformHeight:"
+- "setFixedOverviewWaveformView:"
+- "setFontColor:"
+- "setFontColorResume:"
+- "setFontSize:"
+- "setForceDisableRecordingControl:"
+- "setForegroundColor:"
+- "setFullScreenDescriptionHeight:"
+- "setFullScreenWaveFormHeight:"
+- "setHeight:"
+- "setHideBackButton:"
+- "setHideLeadingBarButtons:"
+- "setHideNavigationTitle:"
+- "setHideStandardTitle:"
+- "setHideTrailingBarButtons:"
+- "setHostViewHeight:"
+- "setInButton:"
+- "setInPointToCurrentTime"
+- "setInnerColor:"
+- "setInnerColorResume:"
+- "setInnerSquareCornerRadius:"
+- "setInnerSquareWidth:"
+- "setInnerStateLayer:"
+- "setInternalRecording:"
+- "setIsRecordingViewHidden:"
+- "setLayoutHelper:"
+- "setLineWidth:"
+- "setLockScreenCoordinator:"
+- "setLockScreenRecordingViewController:"
+- "setNamedStateLabel:"
+- "setNeedsCloseButton:"
+- "setNeedsStatusBarAppearanceUpdate"
+- "setObservingUserDefaults:"
+- "setOpacity:animated:"
+- "setOutButton:"
+- "setOutPointToCurrentTime"
+- "setOuterColor:"
+- "setOuterColorResume:"
+- "setOuterRingGap:"
+- "setOuterRingLayer:"
+- "setOverlayLayer:"
+- "setOverrideUserInterfaceStyle:"
+- "setOverviewWaveformContainerBottomToWindowSafeAreaBottomConstraint:"
+- "setParentView:"
+- "setPath:animated:"
+- "setPath:fromPath:animated:"
+- "setPauseShapeLayer:"
+- "setPauseStrokeCornerRadius:"
+- "setPlaybackRate:"
+- "setPlaybackSpeed:"
+- "setPressed:"
+- "setPunchOutTime:"
+- "setRasterizationScale:"
+- "setRecordAccessibilityLabel"
+- "setRecordButtonCenterXToLeadingConstraint:"
+- "setRecordButtonCenterXToViewCenterXConstraint:"
+- "setRecordButtonCenterYConstraint:"
+- "setRecordingContainerView:"
+- "setRecordingControlState:animated:force:"
+- "setRecordingDuration:withHiddenLabel:withHiddenSubcomponents:isDurationLabelAX:"
+- "setRecordingToken:"
+- "setResolvedInnerColor:"
+- "setResolvedInnerColorResume:"
+- "setResolvedOuterColor:"
+- "setResolvedOuterColorResume:"
+- "setRightSideButton:"
+- "setSearchString:"
+- "setShadowImage:"
+- "setSheetPresentationState:"
+- "setShouldHideSubseconds:"
+- "setShowsDoneButton:"
+- "setSilenceRemoved:"
+- "setStatusBarHeight:"
+- "setStrokeColor:animated:"
+- "setSubPredicate:performingFetch:"
+- "setSubviewsHidden:"
+- "setTitleTextAttributes:forState:"
+- "setTitleView:"
+- "setTopCardSpacerView:"
+- "setTopFullScreenSpacerView:"
+- "setTopScreenSpacerHeight:"
+- "setTrimButtonsEnabled:"
+- "setTrimDeleteButtonLeftConstantConstraint:"
+- "setTrimOverviewWaveformContainerView:"
+- "setTrimOverviewWaveformView:"
+- "setUuid:"
+- "setValue:duration:"
+- "setVirtualNavigationToolbarTopConstraint:"
+- "setVisiblePath:"
+- "setWrapped:"
+- "setupConstraints"
+- "setupIntentSceneConfiguratorWithWindowScene:"
+- "setupSubviewsForOverdubScreen"
+- "shouldEnableDoneButtonWhileRecording"
+- "shouldHideSubseconds"
+- "shouldShowOverviewWaveform"
+- "showsDoneButton"
+- "shutdown"
+- "shuttleBarButtonContainerHeightCard"
+- "sidebarCollectionViewBackgroundColor"
+- "sidebarHasTransparentNavigationBar"
+- "sliderClass"
+- "splitViewSeparatorColor"
+- "startReading failed init(avAsset:sampleRate:channelCount:readIndex:endTime:interleaved:trackVolumes:)"
+- "statusBarHeight"
+- "stringByDeletingPathExtension"
+- "strokeColor"
+- "styleWithEffect:shape:"
+- "supportedFileTypes"
+- "supportsLockScreenRotation"
+- "systemBlackColor"
+- "templateImageNamed:"
+- "timestamp"
+- "toolbar"
+- "toolbarButtonsShouldHaveNonDefaultColor"
+- "topCardSpacerView"
+- "topFullScreenSpacerView"
+- "topScreenSpacerHeight"
+- "traitCollectionWithPreferredContentSizeCategory:"
+- "trimButtonsEnabled"
+- "trimDeleteButtonLeftConstantConstraint"
+- "trimDeleteButtonLeftPaddingDistance"
+- "trimDeleteButtonLeftSize"
+- "trimOverviewWaveformContainerView"
+- "trimOverviewWaveformView"
+- "updateAfterRecordingWithRecordingModel:"
+- "updateForRecordingAppend"
+- "updateForRecordingPause"
+- "updateForRecordingPauseAtEnd"
+- "updateForRecordingReplace"
+- "updateLayerAlphaIfVisible:"
+- "updateNavBarTitleAndDeleteButtonForRecordingsCount:isEditMode:"
+- "updateOverlayLayerStringWithPresentationTime:presentationInterval:elapsedRecordingTime:"
+- "updateTrackVolumes = "
+- "updateTraitsIfNeeded"
+- "v24@0:8@\"NSNotification\"16"
+- "v24@0:8@\"RCMPDetailSlider\"16"
+- "v24@0:8@\"RCRecordingControl\"16"
+- "v24@0:8@\"_TtC10VoiceMemos18VMRecordingContext\"16"
+- "v24@0:8@\"_TtC10VoiceMemos19RCLiveTranscription\"16"
+- "v28@0:8@\"RCMPDetailSlider\"16f24"
+- "v28@0:8B16q20"
+- "v28@0:8^{CGColor=}16B24"
+- "v28@0:8^{CGPath=}16B24"
+- "v32@0:8@\"RCMPDetailSlider\"16q24"
+- "v32@0:8Q16d24"
+- "v36@0:8B16B20B24B28B32"
+- "v36@0:8^{CGPath=}16^{CGPath=}24B32"
+- "v36@0:8d16B24B28B32"
+- "v40@0:8@\"UIPointerInteraction\"16@\"UIPointerRegion\"24@\"<UIPointerInteractionAnimating>\"32"
+- "v40@0:8@16Q24d32"
+- "v40@0:8@?16d24@?32"
+- "v48@0:8@?16d24d32@?40"
+- "virtualNavigationToolbarTopConstraint"
+- "waveform.and.stereo"
+- "waveformExtraBlurEffectRadius"
+- "waveformViewBlurEffectRadius"
+- "willMigrateFromM4aToQta"
+- "willPauseForRecording"
+- "writeAudioFile:buffer:completionBlock:"
+- "{\x02j\x02."
+- "{CGPoint=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{UIEdgeInsets=dddd}32@0:8@16^B24"
+- "\x91"
+- "\x91\xf2!"
+- "\xa1\x81E"
+- "\xf0Q"
+- "\xf0\x91"
+- "\xf0\xe2"
+
+```

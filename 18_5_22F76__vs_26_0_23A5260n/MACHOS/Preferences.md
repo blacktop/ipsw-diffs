@@ -1,0 +1,1712 @@
+## Preferences
+
+> `/Applications/Preferences.app/Preferences`
+
+```diff
+
+-1308.4.4.0.0
+-  __TEXT.__text: 0x14ed14
+-  __TEXT.__auth_stubs: 0x3f10
+-  __TEXT.__objc_stubs: 0xc0
+-  __TEXT.__objc_methlist: 0x11ec
+-  __TEXT.__const: 0x9398
+-  __TEXT.__cstring: 0x89c4
+-  __TEXT.__constg_swiftt: 0x3d08
+-  __TEXT.__swift5_typeref: 0xb5c8
+-  __TEXT.__swift5_reflstr: 0x3e0c
+-  __TEXT.__swift5_fieldmd: 0x3458
+-  __TEXT.__swift5_builtin: 0x230
+-  __TEXT.__swift5_assocty: 0x748
+-  __TEXT.__swift5_proto: 0x474
+-  __TEXT.__swift5_types: 0x3d0
+-  __TEXT.__objc_classname: 0x33a
+-  __TEXT.__objc_methname: 0x3d9d
+-  __TEXT.__objc_methtype: 0x1ca8
+-  __TEXT.__swift5_capture: 0x1338
+-  __TEXT.__oslogstring: 0x3867
+-  __TEXT.__swift_as_entry: 0x124
+-  __TEXT.__swift_as_ret: 0x128
++1341.0.0.0.0
++  __TEXT.__text: 0x11b104
++  __TEXT.__auth_stubs: 0x46a0
++  __TEXT.__objc_stubs: 0x160
++  __TEXT.__objc_methlist: 0x12fc
++  __TEXT.__const: 0x9d24
++  __TEXT.__objc_methname: 0x409e
++  __TEXT.__objc_classname: 0x38b
++  __TEXT.__objc_methtype: 0x1e13
++  __TEXT.__cstring: 0x97c0
++  __TEXT.__constg_swiftt: 0x2e98
++  __TEXT.__swift5_typeref: 0xb71e
++  __TEXT.__swift5_builtin: 0x190
++  __TEXT.__swift5_reflstr: 0x395e
++  __TEXT.__swift5_fieldmd: 0x2fa8
++  __TEXT.__swift5_assocty: 0x960
++  __TEXT.__oslogstring: 0x3deb
++  __TEXT.__swift5_proto: 0x520
++  __TEXT.__swift5_types: 0x344
++  __TEXT.__swift5_capture: 0x1250
++  __TEXT.__swift_as_entry: 0x15c
++  __TEXT.__swift_as_ret: 0x17c
+   __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_mpenum: 0x188
++  __TEXT.__swift5_mpenum: 0x4c
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x34c8
+-  __TEXT.__eh_frame: 0x4558
+-  __DATA_CONST.__auth_got: 0x1f90
+-  __DATA_CONST.__got: 0x10f8
+-  __DATA_CONST.__auth_ptr: 0x1868
+-  __DATA_CONST.__const: 0x8818
+-  __DATA_CONST.__cfstring: 0x20
+-  __DATA_CONST.__objc_classlist: 0x190
++  __TEXT.__unwind_info: 0x3520
++  __TEXT.__eh_frame: 0x4b4c
++  __DATA_CONST.__auth_got: 0x2358
++  __DATA_CONST.__got: 0x12e8
++  __DATA_CONST.__auth_ptr: 0x18c8
++  __DATA_CONST.__const: 0x7190
++  __DATA_CONST.__objc_classlist: 0x200
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x1e0
++  __DATA_CONST.__objc_protolist: 0x1f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xf0
+-  __DATA.__objc_const: 0x3cd8
+-  __DATA.__objc_selrefs: 0x11f0
+-  __DATA.__objc_data: 0x1590
+-  __DATA.__data: 0x8a70
+-  __DATA.__bss: 0x6c40
+-  __DATA.__common: 0x3f0
++  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_superrefs: 0x8
++  __DATA.__objc_const: 0x47a0
++  __DATA.__objc_selrefs: 0x1280
++  __DATA.__objc_ivar: 0x4
++  __DATA.__objc_data: 0x1518
++  __DATA.__data: 0x78e8
++  __DATA.__bss: 0x86c8
++  __DATA.__common: 0x3e0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/ClassKit.framework/ClassKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/AppleIDSetup.framework/AppleIDSetup
+   - /System/Library/PrivateFrameworks/AppleIDSetupUI.framework/AppleIDSetupUI
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
++  - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
++  - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/AuthKitUI.framework/AuthKitUI
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
++  - /System/Library/PrivateFrameworks/CellularPlanManager.framework/CellularPlanManager
+   - /System/Library/PrivateFrameworks/ClassroomKit.framework/ClassroomKit
+   - /System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/CloudSubscriptionFeatures
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
++  - /System/Library/PrivateFrameworks/Netrb.framework/Netrb
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
++  - /System/Library/PrivateFrameworks/PasscodeAndBiometricsSettings.framework/PasscodeAndBiometricsSettings
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
+-  - /System/Library/PrivateFrameworks/PreferencesUI.framework/PreferencesUI
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
+   - /System/Library/PrivateFrameworks/SEService.framework/SEService
+   - /System/Library/PrivateFrameworks/SOS.framework/SOS
+
+   - /System/Library/PrivateFrameworks/SoftwareUpdateSettingsUI.framework/SoftwareUpdateSettingsUI
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/StoreServices.framework/StoreServices
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
+   - /System/Library/PrivateFrameworks/WiFiKit.framework/WiFiKit
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 087A18EB-3DBD-356A-9779-628FED254642
+-  Functions: 4463
+-  Symbols:   1893
+-  CStrings:  1951
++  UUID: D28B5CE7-FA89-323C-B72C-8B04A3D31595
++  Functions: 4399
++  Symbols:   2211
++  CStrings:  2086
+ 
+Symbols:
++ _$s10Foundation12NotificationV4nameSo18NSNotificationNameavg
++ _$s10Foundation12NotificationVMn
++ _$s10Foundation14LocalizedErrorMp
++ _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
++ _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
++ _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
++ _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
++ _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
++ _$s10Foundation14LocalizedErrorPs0C0Tb
++ _$s10Foundation18IntegerFormatStyleV6localeACyxGAA6LocaleV_tcfC
++ _$s10Foundation18IntegerFormatStyleVMn
++ _$s10Foundation18IntegerFormatStyleVyxGAA0cD0AAMc
++ _$s10Foundation21NSKeyValueObservationC10invalidateyyFTj
++ _$s10Foundation21NSKeyValueObservationCMa
++ _$s10Foundation3URLV25deletingLastPathComponentACyF
++ _$s10Foundation3URLV4path14percentEncodedSSSb_tF
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4UUIDVACycfC
++ _$s11SubSequenceSlTl
++ _$s19ArrayLiteralElements013ExpressibleByaB0PTl
++ _$s19PreferencesExtended0A16ControllerRecipeV012settingsPaneD08Settings0gfD0VSgvg
++ _$s19PreferencesExtended0A16ControllerRecipeV10bundleName8location04viewc5ClassF0ACSS_So8NSBundleCAAE0A14PluginLocationVSSSgtcfC
++ _$s19PreferencesExtended39SettingsAnyPlatformViewControllerRecipeV04viewG0So06UIViewG0CSgvg
++ _$s20AppleMediaServicesUI14EngagementViewV05SwiftD00F0AAMc
++ _$s20AppleMediaServicesUI14EngagementViewV5modelAcA0eF5ModelC_tcfC
++ _$s20AppleMediaServicesUI14EngagementViewVMa
++ _$s20AppleMediaServicesUI14EngagementViewVMn
++ _$s20AppleMediaServicesUI19EngagementViewModelC13shouldDismissyycSgvsTj
++ _$s20AppleMediaServicesUI19EngagementViewModelC3bag7request10clientInfoACSo14AMSBagProtocol_p_So20AMSEngagementRequestCSo010AMSProcessK0CSgtcfc
++ _$s20AppleMediaServicesUI19EngagementViewModelCMa
++ _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
++ _$s22UniformTypeIdentifiers6UTTypeV22_rawBluetoothProductID0e6VendorH0ACSgs6UInt32V_s6UInt16VtcfC
++ _$s22UniformTypeIdentifiers6UTTypeVMa
++ _$s22UniformTypeIdentifiers6UTTypeVMn
++ _$s22UniformTypeIdentifiers6UTTypeVyACSgSScfC
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV04makeA8IteratorAC0G0Vyxq__GyF
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV4next7ElementQzSgyYaKF
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV4next7ElementQzSgyYaKFTu
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorVMn
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceVMn
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceVyxq_GSciAAMc
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest2SequenceV04makeA8IteratorAC0H0Vyxq__GyF
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest2SequenceV8IteratorV4next7ElementQz_AGQy_tSgyYaKF
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest2SequenceV8IteratorV4next7ElementQz_AGQy_tSgyYaKFTu
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest2SequenceV8IteratorVMn
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest2SequenceVMn
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceV04makeA8IteratorAC0H0Vyxq_q0__GyF
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceV8IteratorV4next7ElementQz_AGQy_AGQy0_tSgyYaKF
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceV8IteratorV4next7ElementQz_AGQy_AGQy0_tSgyYaKFTu
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceV8IteratorVMn
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceVMn
++ _$s23AsyncAlgorithmsInternal0A22CombineLatest3SequenceVyxq_q0_GSciAAMc
++ _$s23AsyncAlgorithmsInternal0A24RemoveDuplicatesSequenceV8IteratorVMn
++ _$s23AsyncAlgorithmsInternal0A24RemoveDuplicatesSequenceVMn
++ _$s23AsyncAlgorithmsInternal0A24RemoveDuplicatesSequenceVyxGSciAAMc
++ _$s23AsyncAlgorithmsInternal13combineLatestyAA0A22CombineLatest2SequenceVyxq_Gx_q_ts8SendableRzSciRzsAFR_SciR_sAF7ElementRpzsAfGRp_r0_lF
++ _$s23AsyncAlgorithmsInternal13combineLatestyAA0A22CombineLatest3SequenceVyxq_q0_Gx_q_q0_ts8SendableRzSciRzsAFR_SciR_sAFR0_SciR0_sAF7ElementRpzsAfGRp_sAfGRp0_r1_lF
++ _$s5IndexSlTl
++ _$s6TipKit03AnyA0VMn
++ _$s6TipKit0A4ViewV_9arrowEdge6actionACyAA03AnyA0VGAA0A0_pSg_7SwiftUI0E0OSgyAA4TipsO6ActionVctcAGRszrlufC
++ _$s7Combine14AsyncPublisherV04makeB8IteratorAC0E0Vyx_GyF
++ _$s7Combine14AsyncPublisherV8IteratorVMn
++ _$s7Combine14AsyncPublisherV8IteratorVyx_GScIAAMc
++ _$s7Combine14AsyncPublisherVMn
++ _$s7Combine9PublisherPAAs5NeverO7FailureRtzrlE6valuesAA05AsyncB0VyxGvg
++ _$s7ElementSTTl
++ _$s7Elements10SetAlgebraPTl
++ _$s7IndicesSlTl
++ _$s7SwiftUI10VisibilityOMn
++ _$s7SwiftUI12CommandGroupV6before8additionACyxGAA0cD9PlacementV_xyXEtcfC
++ _$s7SwiftUI12CommandGroupV9replacing8additionACyxGAA0cD9PlacementV_xyXEtcfC
++ _$s7SwiftUI12CommandGroupVMn
++ _$s7SwiftUI13KeyEquivalentV30extendedGraphemeClusterLiteralACSJ_tcfC
++ _$s7SwiftUI13KeyEquivalentVMa
++ _$s7SwiftUI13_TaskModifierVAA04ViewD0AAMc
++ _$s7SwiftUI13_TaskModifierVMa
++ _$s7SwiftUI13_TaskModifierVMn
++ _$s7SwiftUI13withAnimation_18completionCriteria_0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF
++ _$s7SwiftUI14EventModifiersV7commandACvgZ
++ _$s7SwiftUI14EventModifiersV8rawValueACSi_tcfC
++ _$s7SwiftUI14NavigationPathV15CollectionProxyV5index5afterS2i_tF
++ _$s7SwiftUI14NavigationPathV15CollectionProxyV8endIndexSivg
++ _$s7SwiftUI14NavigationPathV15CollectionProxyVSmAAMc
++ _$s7SwiftUI14NavigationPathV25mutateWithCollectionProxy9transformyyAC0gH0VzXE_tF
++ _$s7SwiftUI14NavigationPathV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI14NavigationPathV6appendyyxSeRzSERzSHRzlF
++ _$s7SwiftUI14NavigationPathVSQAAMc
++ _$s7SwiftUI15ModifiedContentVMa
++ _$s7SwiftUI16SidebarListStyleVAA0dE0AAWP
++ _$s7SwiftUI16SidebarListStyleVACycfC
++ _$s7SwiftUI16SidebarListStyleVMa
++ _$s7SwiftUI16SidebarListStyleVMn
++ _$s7SwiftUI16TagValueTraitKeyVMa
++ _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc
++ _$s7SwiftUI17EnvironmentValuesV29navigationIndicatorVisibilityAA0G0Ovg
++ _$s7SwiftUI17EnvironmentValuesV29navigationIndicatorVisibilityAA0G0Ovs
++ _$s7SwiftUI17EnvironmentValuesV33_navigationIndicatorVisibilityABIAA0G0OvpMV
++ _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0yySSF
++ _$s7SwiftUI18_TaskValueModifierVMn
++ _$s7SwiftUI18_TaskValueModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI19TupleCommandContentVMn
++ _$s7SwiftUI19TupleCommandContentVyACyxGxcfC
++ _$s7SwiftUI19TupleCommandContentVyxGAA8CommandsAAMc
++ _$s7SwiftUI20SearchFieldPlacementV19navigationBarDrawer11displayModeA2C010Navigationgh7DisplayJ0V_tFZ
++ _$s7SwiftUI20SearchFieldPlacementV30NavigationBarDrawerDisplayModeV6alwaysAEvgZ
++ _$s7SwiftUI20SearchFieldPlacementV30NavigationBarDrawerDisplayModeVMa
++ _$s7SwiftUI21CommandGroupPlacementV11appSettingsACvgZ
++ _$s7SwiftUI21CommandGroupPlacementV14textFormattingACvgZ
++ _$s7SwiftUI21CommandGroupPlacementV7newItemACvgZ
++ _$s7SwiftUI21CommandGroupPlacementV7toolbarACvgZ
++ _$s7SwiftUI21CommandGroupPlacementVMa
++ _$s7SwiftUI21_TraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVMn
++ _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI26SearchSuggestionsPlacementV4menuACvgZ
++ _$s7SwiftUI26SearchSuggestionsPlacementVMa
++ _$s7SwiftUI4MenuV7content5labelACyxq_Gq_yXE_xyXEtcfC
++ _$s7SwiftUI4MenuVMn
++ _$s7SwiftUI4MenuVyxq_GAA4ViewAAMc
++ _$s7SwiftUI4ViewP8SettingsE23settingsNavigationProxyyQrAD0dfG0VF
++ _$s7SwiftUI4ViewP8SettingsE23settingsNavigationProxyyQrAD0dfG0VFQOMQ
++ _$s7SwiftUI4ViewPAAE11environmentyQrs15WritableKeyPathCyAA17EnvironmentValuesVqd__G_qd__tlF
++ _$s7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtF
++ _$s7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOMQ
++ _$s7SwiftUI4ViewPAAE17searchSuggestions9placement_QrAA06SearchE9PlacementV_qd__yXEtAaBRd__lF
++ _$s7SwiftUI4ViewPAAE17searchSuggestions9placement_QrAA06SearchE9PlacementV_qd__yXEtAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE19navigationBarHiddenyQrSbF
++ _$s7SwiftUI4ViewPAAE19navigationBarHiddenyQrSbFQOMQ
++ _$s7SwiftUI4ViewPAAE34selectionClearsNavigationStackPathyQrSbF
++ _$s7SwiftUI4ViewPAAE34selectionClearsNavigationStackPathyQrSbFQOMQ
++ _$s7SwiftUI5ImageV19symbolRenderingModeyAcA06SymboleF0VSgF
++ _$s7SwiftUI5ScenePAAE8commands7contentQrqd__yXE_tAA8CommandsRd__lF
++ _$s7SwiftUI5ScenePAAE8commands7contentQrqd__yXE_tAA8CommandsRd__lFQOMQ
++ _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg
++ _$s7SwiftUI7BindingV14projectedValueACyxGvg
++ _$s7SwiftUI7BindingVMa
++ _$s7SwiftUI8SolariumVAA18ViewInputPredicateAAWP
++ _$s7SwiftUI8SolariumVACycfC
++ _$s7SwiftUI8SolariumVMn
++ _$s7SwiftUI8SolariumVN
++ _$s7SwiftUI8StaticIfVA2A18ViewInputPredicateRzAA0E0R_AaER0_rlE_4then4elseACyxq_q0_Gx_q_yXEq0_yXEtcfC
++ _$s7SwiftUI8StaticIfVMn
++ _$s7SwiftUI8StaticIfVyxq_q0_GAA4ViewA2A0E14InputPredicateRzAaER_AaER0_rlMc
++ _$s7SwiftUI9UnitPointV6centerACvgZ
++ _$s8Dispatch0A3QoSV13userInitiatedACvgZ
++ _$s8IteratorSTTl
++ _$s8Settings0A10PaneRecipeV10bundleName14pluginLocationACSS_So8NSBundleCAAE06PluginG0VtcfC
++ _$s8Settings0A10PaneRecipeV2eeoiySbAC_ACtFZ
++ _$s8Settings0A10PaneRecipeVMa
++ _$s8Settings0A10PaneRecipeVMn
++ _$s8Settings0A10PaneRecipeVSHAAMc
++ _$s8Settings0A15NavigationProxyV015appendToPrimaryB4PathyyxSHRzlF
++ _$s8Settings0A15NavigationProxyV0abC5ErrorO011stateDrivenB12NotSupportedyA2EmFWC
++ _$s8Settings0A15NavigationProxyV0abC5ErrorO13valueNotFoundyA2EmFWC
++ _$s8Settings0A15NavigationProxyV0abC5ErrorOMa
++ _$s8Settings0A15NavigationProxyV0abC5ErrorOs0D0AAMc
++ _$s8Settings0A15NavigationProxyV9namespace9responderAC7SwiftUI9NamespaceV2IDVSg_AA0abC9Responder_pSgtcfC
++ _$s8Settings0A15NavigationProxyVMa
++ _$s8Settings0A24NavigationProxyResponderMp
++ _$s8Settings0A24NavigationProxyResponderP011stateDrivenB8PossibleSbvgTq
++ _$s8Settings0A24NavigationProxyResponderP012performResetB5StateyyFTq
++ _$s8Settings0A24NavigationProxyResponderP017performGetPrimaryB4Path7SwiftUI0bH0VyFTq
++ _$s8Settings0A24NavigationProxyResponderP017performSetPrimaryB4Pathyy7SwiftUI0bH0VFTq
++ _$s8Settings0A24NavigationProxyResponderP019performClearPrimaryB4PathyyFTq
++ _$s8Settings0A24NavigationProxyResponderP022performAppendToPrimaryB4Pathyyqd__SHRd__lFTq
++ _$s8Settings0A24NavigationProxyResponderP022performAppendToPrimaryB4Pathyyqd__SeRd__SERd__SHRd__lFTq
++ _$s8Settings0A24NavigationProxyResponderP028performRemoveLastFromPrimaryB4PathyySiFTq
++ _$s8Settings0A24NavigationProxyResponderP07primaryB9PathCountSivgTq
++ _$s8Settings0A24NavigationProxyResponderP09isPrimaryB9PathEmptySbvgTq
++ _$s8Settings0A24NavigationProxyResponderP17performPopToValueyyqd__KSHRd__lFTq
++ _$s8Settings0A24NavigationProxyResponderP17performPopToValueyyqd__KSeRd__SERd__SHRd__lFTq
++ _$s8Settings0A28ExperienceContentCoordinatorC15requestRootViewQryFQOMQ
++ _$s8Settings0A28ExperienceContentCoordinatorC15requestRootViewQryFTj
++ _$s8Settings0A28ExperienceContentCoordinatorC18loadPluginIfNeededyyKFTj
++ _$s8Settings0A28ExperienceContentCoordinatorC6bundleACSo8NSBundleC_tcfc
++ _$s8Settings0A28ExperienceContentCoordinatorCMa
++ _$s8Settings0A28ExperienceContentCoordinatorCMn
++ _$s8Settings0A29ExperienceCoordinationManagerC11coordinator3forAA0aB18ContentCoordinatorCAA0A10PaneRecipeV_tKFTj
++ _$s8Settings0A29ExperienceCoordinationManagerC17removeCoordinator3foryAA0A10PaneRecipeV_tFTj
++ _$s8Settings0A29ExperienceCoordinationManagerC6sharedACvgZ
++ _$s8Settings0A29ExperienceCoordinationManagerC7openURL_12startingFrom7SwiftUI14NavigationPathV10Foundation0F0V_AA0aB18ContentCoordinatorCtYaFTjTu
++ _$s8Settings0A29ExperienceCoordinationManagerCMa
++ _$s8Settings0A8PaneViewV6recipeAcA0aB6RecipeV_tcfC
++ _$s8Settings0A8PaneViewVMn
++ _$sSDMa
++ _$sSDsSHR_rlE4hash4intoys6HasherVz_tF
++ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZ
++ _$sSDyq_Sgxcis
++ _$sSK11SubSequenceSl_SKTn
++ _$sSK5index6before5IndexQzAD_tFTq
++ _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSK5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSK7IndicesSl_SKTn
++ _$sSK8distance4from2toSi5IndexQz_AEtFTq
++ _$sSK9formIndex6beforey0B0Qzz_tFTq
++ _$sSKMp
++ _$sSKSlTb
++ _$sSL1loiySbx_xtFZTj
++ _$sSM11SubSequenceSl_SMTn
++ _$sSM39withContiguousMutableStorageIfAvailableyqd__Sgqd__Sry7ElementQzGzKXEKlFTq
++ _$sSM42_withUnsafeMutableBufferPointerIfSupportedyqd__Sgqd__Sry7ElementQzGzKXEKlFTq
++ _$sSM6swapAtyy5IndexQz_ACtFTq
++ _$sSM9partition2by5IndexQzSb7ElementQzKXE_tKFTq
++ _$sSMMp
++ _$sSMSlTb
++ _$sSMsE39withContiguousMutableStorageIfAvailableyqd__Sgqd__Sry7ElementQzGzKXEKlF
++ _$sSMsE42_withUnsafeMutableBufferPointerIfSupportedyqd__Sgqd__Sry7ElementQzGzKXEKlF
++ _$sSMsE6swapAtyy5IndexQz_ACtF
++ _$sSMsSKRzrlE9partition2by5IndexSlQzSb7ElementSTQzKXE_tKF
++ _$sSMy11SubSequenceQzSny5IndexQzGciMTq
++ _$sSMy11SubSequenceQzSny5IndexQzGcisTq
++ _$sSMy7ElementQz5IndexQzciMTq
++ _$sSMy7ElementQz5IndexQzcisTq
++ _$sSNMa
++ _$sSS10reflectingSSx_tclufC
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS6append10contentsOfyx_tSTRzSJ7ElementRtzlF
++ _$sSSMn
++ _$sSSSTsWP
++ _$sSSs25LosslessStringConvertiblesWP
++ _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
++ _$sST12makeIterator0B0QzyFTq
++ _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
++ _$sST19underestimatedCountSivgTq
++ _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
++ _$sST31_customContainsEquatableElementySbSg0D0QzFTq
++ _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
++ _$sST8IteratorST_StTn
++ _$sSTMp
++ _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF
++ _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF
++ _$sSa21_makeMutableAndUniqueyyF
++ _$sSa29_hoistableIsNativeTypeCheckedSbyF
++ _$sSa5countSivg
++ _$sSa8endIndexSivg
++ _$sSa9_getCountSiyF
++ _$sSaMn
++ _$sSasSHRzlE4hash4intoys6HasherVz_tF
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ
++ _$sSayxSicig
++ _$sSbMn
++ _$sScC6resume8throwingyq_n_tF
++ _$sScC6resume9returningyxn_tF
++ _$sScP13userInitiatedScPvgZ
++ _$sScS12ContinuationV13onTerminationyAB0C0Oyx__GYbcSgvs
++ _$sScS12ContinuationV15BufferingPolicyO9unboundedyADyx__GAFmlFWC
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScS8IteratorVMn
++ _$sScS8IteratorVyx_GScIsMc
++ _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
++ _$sSci23AsyncAlgorithmsInternalE8debounce3for9toleranceAA0A16DebounceSequenceVyxs15ContinuousClockVGs8DurationV_AKSgts8SendableRzsAM7ElementRpzrlF
++ _$sSci23AsyncAlgorithmsInternalSQ7ElementRpzrlE16removeDuplicatesAA0a6RemoveF8SequenceVyxGyF
++ _$sSiMn
++ _$sSiSLsWP
++ _$sSiSQsWP
++ _$sSiSZsMc
++ _$sSiSxsWP
++ _$sSiSzsMc
++ _$sSk11SubSequenceSl_SkTn
++ _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSk5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSk7IndicesSl_SkTn
++ _$sSk8distance4from2toSi5IndexQz_AEtFTq
++ _$sSkMp
++ _$sSkSKTb
++ _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvg
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF
++ _$sSl10startIndex0B0QzvgTq
++ _$sSl11SubSequenceSl_SlTn
++ _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtFTq
++ _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTq
++ _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTj
++ _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTq
++ _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTq
++ _$sSl34_customLastIndexOfEquatableElementy0C0QzSgSg0F0QzFTq
++ _$sSl5IndexSl_SLTn
++ _$sSl5countSivgTq
++ _$sSl5index5after5IndexQzAD_tFTq
++ _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSl5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSl7IndicesSl_SlTn
++ _$sSl7indices7IndicesQzvgTq
++ _$sSl7isEmptySbvgTq
++ _$sSl8distance4from2toSi5IndexQz_AEtFTq
++ _$sSl8endIndex0B0QzvgTq
++ _$sSl9formIndex5aftery0B0Qzz_tFTq
++ _$sSlMp
++ _$sSlSTTb
++ _$sSlTL
++ _$sSlsE19underestimatedCountSivg
++ _$sSlsE5countSivg
++ _$sSly11SubSequenceQzSny5IndexQzGcigTq
++ _$sSly7ElementQz5IndexQzcirTq
++ _$sSm11SubSequenceSl_SmTn
++ _$sSm11removeFirst7ElementQzyFTq
++ _$sSm11removeFirstyySiFTq
++ _$sSm14removeSubrangeyySny5IndexQzGFTq
++ _$sSm15replaceSubrange_4withySny5IndexQzG_qd__ntSlRd__7ElementQyd__AFRtzlFTj
++ _$sSm15replaceSubrange_4withySny5IndexQzG_qd__ntSlRd__7ElementQyd__AFRtzlFTq
++ _$sSm15reserveCapacityyySiFTq
++ _$sSm17_customRemoveLast7ElementQzSgyFTq
++ _$sSm17_customRemoveLastySbSiFTq
++ _$sSm6append10contentsOfyqd__n_tSTRd__7ElementQyd__ACRtzlFTq
++ _$sSm6appendyy7ElementQznFTq
++ _$sSm6insert10contentsOf2atyqd__n_5IndexQztSlRd__7ElementQyd__AFRtzlFTq
++ _$sSm6insert_2aty7ElementQzn_5IndexQztFTq
++ _$sSm6remove2at7ElementQz5IndexQz_tFTq
++ _$sSm9removeAll15keepingCapacityySb_tFTq
++ _$sSm9removeAll5whereySb7ElementQzKXE_tKFTq
++ _$sSm9repeating5countx7ElementQz_SitcfCTq
++ _$sSmMp
++ _$sSmSlTb
++ _$sSmsE11removeFirst7ElementQzyF
++ _$sSmsE11removeFirstyySiF
++ _$sSmsE14removeSubrangeyySny5IndexQzGF
++ _$sSmsE17_customRemoveLast7ElementQzSgyF
++ _$sSmsE6append10contentsOfyqd__n_tSTRd__7ElementQyd__ACRtzlF
++ _$sSmsE6appendyy7ElementQznF
++ _$sSmsE6insert10contentsOf2atyqd__n_5IndexQztSlRd__7ElementQyd__AFRtzlF
++ _$sSmsE6insert_2aty7ElementQzn_5IndexQztF
++ _$sSmsE6remove2at7ElementQz5IndexQz_tF
++ _$sSmsE9removeAll15keepingCapacityySb_tF
++ _$sSmsE9repeating5countx7ElementQz_SitcfC
++ _$sSmsEyxqd__cSTRd__7ElementQyd__AARtzlufC
++ _$sSmsSMRzrlE9removeAll5whereySb7ElementSTQzKXE_tKF
++ _$sSmxycfCTq
++ _$sSmyxqd__cSTRd__7ElementQyd__AARtzlufCTq
++ _$sSnMa
++ _$sSnsSxRzSZ6StrideRpzrlE10startIndexxvg
++ _$sSnsSxRzSZ6StrideRpzrlE8endIndexxvg
++ _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSksSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSo11CSUserQueryC13CoreSpotlightE4ItemV4itemSo012CSSearchableE0Cvg
++ _$sSo11CSUserQueryC13CoreSpotlightE4ItemVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV17makeAsyncIteratorAE0H0VyF
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8IteratorVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8IteratorVScIACMc
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseO4itemyAgbCE4ItemVcAGmFWC
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseOMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseOMn
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9responsesAbCE9ResponsesVvg
++ _$sSo12NSDictionaryC10FoundationE17dictionaryLiteralAByp_yptd_tcfC
++ _$sSo17UITraitCollectionC8SettingsE23settingsNavigationProxyAC0ceF0Vvg
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsC17makeAsyncIteratorAE0G0VyF
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsC8IteratorVMa
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsC8IteratorVScIACMc
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsCMa
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsCMn
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsCSciACMc
++ _$sSo20NSNotificationCenterC10FoundationE13notifications5named6objectAbCE13NotificationsCSo0A4Namea_yXlSgtF
++ _$sSo7NSArrayC10FoundationE12arrayLiteralABypd_tcfC
++ _$sSo8NSBundleC8SettingsE14PluginLocationV11preferencesAEvgZ
++ _$sSo8NSBundleC8SettingsE14PluginLocationV24appleInternalPreferencesAEvgZ
++ _$sSo8NSBundleC8SettingsE14PluginLocationV8settingsAEvgZ
++ _$sSo8NSBundleC8SettingsE14PluginLocationVMa
++ _$sSo8NSBundleC8SettingsE14PluginLocationVMn
++ _$sSo8NSBundleC8SettingsE30settingsExperiencePluginExists4name8locationSbSS_AbCE0E8LocationVtFZ
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$sSqMn
++ _$sSz10FoundationE9formattedSSyF
++ _$sSz10FoundationE9formattedy12FormatOutputQyd__qd__0C5InputQyd__RszAA0C5StyleRd__lF
++ _$ss10SetAlgebraMp
++ _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
++ _$ss10SetAlgebraP11subtractingyxxFTq
++ _$ss10SetAlgebraP12intersectionyxxFTq
++ _$ss10SetAlgebraP16formIntersectionyyxFTq
++ _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
++ _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
++ _$ss10SetAlgebraP5unionyxxnFTq
++ _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
++ _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
++ _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
++ _$ss10SetAlgebraP7isEmptySbvgTq
++ _$ss10SetAlgebraP8containsySb7ElementQzFTq
++ _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
++ _$ss10SetAlgebraP8subtractyyxFTq
++ _$ss10SetAlgebraP9formUnionyyxnFTq
++ _$ss10SetAlgebraPSQTb
++ _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
++ _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
++ _$ss10SetAlgebraPxycfCTq
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
++ _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
++ _$ss10__CocoaSetV6member3foryXlSgyXl_tF
++ _$ss11_SetStorageC7convert_8capacityAByxGs07__CocoaA0V_SitFZ
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12IdentifiableP2id2IDQzvgTj
++ _$ss12IdentifiableTL
++ _$ss12Zip2SequenceV12makeIteratorAB0D0Vyxq__GyF
++ _$ss12Zip2SequenceV8IteratorV4next7ElementQz_AFQy_tSgyF
++ _$ss12Zip2SequenceV8IteratorVMa
++ _$ss12Zip2SequenceV8IteratorVMn
++ _$ss12Zip2SequenceVMa
++ _$ss12Zip2SequenceVMn
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15EmptyCollectionVMn
++ _$ss15EmptyCollectionVyxGSlsMc
++ _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
++ _$ss16AsyncMapSequenceV4basexvg
++ _$ss16AsyncMapSequenceV8IteratorV04baseD00aD0QzvM
++ _$ss16AsyncMapSequenceV8IteratorV9transformyq_7ElementQzYacvg
++ _$ss16AsyncMapSequenceV8IteratorVMn
++ _$ss16AsyncMapSequenceV8IteratorV_9transformADyxq__G0aD0Qz_q_7ElementQzYactcfC
++ _$ss16AsyncMapSequenceV9transformyq_7ElementQzYacvg
++ _$ss16AsyncMapSequenceVMn
++ _$ss16AsyncMapSequenceV_9transformAByxq_Gx_q_7ElementQzYactcfC
++ _$ss16IndexingIteratorVyxGStsMc
++ _$ss16PartialRangeFromVMn
++ _$ss16PartialRangeFromVyxGSTsSxRzSZ6StrideRpzrlMc
++ _$ss18_DictionaryStorageCMa
++ _$ss22_writeBackMutableSlice_6bounds5sliceyxz_Sny5IndexQzGq_tSMRzSlR_7ElementQy_AGRtzADQy_AERSr0_lF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
++ _$ss25ExpressibleByArrayLiteralMp
++ _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$ss3zipys12Zip2SequenceVyxq_Gx_q_tSTRzSTR_r0_lF
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5Int32VMn
++ _$ss5SliceVMa
++ _$ss5SliceVMn
++ _$ss5SliceVyxGSKsSKRzrlMc
++ _$ss5SliceVyxGSMsSMRzrlMc
++ _$ss5SliceVyxGSksSkRzrlMc
++ _$ss5SliceVyxGSlsMc
++ _$ss5SliceVyxGSmsSmRzrlMc
++ _$ss6UInt32VN
++ _$ss6UInt32Vs23CustomStringConvertiblesWP
++ _$ss9OptionSetMp
++ _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
++ _$ss9OptionSetPSYTb
++ _$ss9OptionSetPs0B7AlgebraTb
++ _$sxSgSHsSHRzlMc
++ _AAUIProfilePictureStoreDidChangeNotification
++ _ACAccountTypeIdentifierRemoteManagement
++ _AnalyticsSendEvent
++ _CTCarrierInfoDidChangeNotification
++ _CTCellularPlanInfoDidChangeNotification
++ _CTCellularPlanLocalInfoDidChangeNotification
++ _CTCellularPlanPendingTransferDidChangeNotification
++ _FLFollowUpPreferencesBundleIdentifier
++ _FLGroupIdentifierAccount
++ _FLGroupIdentifierAppleServices
++ _FLGroupIdentifierDevice
++ _FLGroupIdentifierNewDeviceOutreach
++ _FLGroupIdentifierNoGroup
++ _FLGroupIdentifierSecureMicrophone
++ _MCEffectiveSettingsChangedNotification
++ _MCProfileListChangedNotification
++ _NSSearchPathForDirectoriesInDomains
++ _OBJC_CLASS_$_AMSEngagementRequest
++ _OBJC_CLASS_$_AMSURLParser
++ _OBJC_CLASS_$_CTCellularPlanItem
++ _OBJC_CLASS_$_CTCellularPlanManager
++ _OBJC_CLASS_$_CTDanglingPlanItem
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionContext
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionInfo
++ _OBJC_CLASS_$_FLFollowUpItem
++ _OBJC_CLASS_$_FLTopLevelViewModel
++ _OBJC_CLASS_$_HPSDevice
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_NSThread
++ _OBJC_CLASS_$_PABSPasscodeLockController
++ _OBJC_CLASS_$_PABSPearlPasscodeController
++ _OBJC_CLASS_$_PABSTouchIDPasscodeController
++ _PSBundlePathKey
++ _PSDetailControllerClassKey
++ _PSLazilyLoadedBundleKey
++ _UISceneDidActivateNotification
++ __CTServerConnectionGetCellularDataSettings
++ __CTServerConnectionIsUserIdentityModuleRequired
++ __NETRBClientCreate
++ __NETRBClientDestroy
++ __NETRBClientGetGlobalServiceState
++ __NSConcreteGlobalBlock
++ __UISolariumEnabled
++ ___NSArray0__struct
++ __availability_version_check
++ __dispatch_main_q
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_isClassOrObjCExistentialType
++ __swift_stdlib_bridgeErrorToNSError
++ _dispatch_async
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _notify_cancel
++ _objc_alloc_init
++ _objc_copyWeak
++ _objc_destroyWeak
++ _objc_initWeak
++ _objc_loadWeakRetained
++ _objc_release_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_storeStrong
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _swift_dynamicCastTypeToObjCProtocolUnconditional
++ _swift_initStaticObject
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
+- _$s10Foundation37_KeyValueCodingAndObservingPublishingPAASo8NSObjectCRbzrlE9publisher3for7optionsAeAE0bcF9PublisherVy_xqd__Gs0B4PathCyxqd__G_So05NSKeycF7OptionsVtlF
+- _$s12CoreFollowUp08FLFollowC11InformationV10badgeValueSiSgvg
+- _$s12CoreFollowUp08FLFollowC11InformationV11renderStyleAA08FLRenderG0Ovg
+- _$s12CoreFollowUp08FLFollowC11InformationV13groupIdentityAA0dc5GroupG0Vvg
+- _$s12CoreFollowUp08FLFollowC11InformationV14itemIdentifierSSSgvg
+- _$s12CoreFollowUp08FLFollowC11InformationV18restrictionEnabledSbvg
+- _$s12CoreFollowUp08FLFollowC11InformationV1loiySbAC_ACtFZ
+- _$s12CoreFollowUp08FLFollowC11InformationV2eeoiySbAC_ACtFZ
+- _$s12CoreFollowUp08FLFollowC11InformationV5titleSSvg
+- _$s12CoreFollowUp08FLFollowC11InformationV8subtitleSSSgvg
+- _$s12CoreFollowUp08FLFollowC11InformationVMa
+- _$s12CoreFollowUp08FLFollowC11InformationVMn
+- _$s12CoreFollowUp08FLFollowC11InformationVSHAAMc
+- _$s12CoreFollowUp08FLFollowC13GroupIdentityV11accountTypeAA09FLAccountH0Ovg
+- _$s12CoreFollowUp08FLFollowC13GroupIdentityV2idSSvg
+- _$s12CoreFollowUp08FLFollowC13GroupIdentityVMa
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC012unauthorizedB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC012unauthorizedbC19GroupSectionElementAA0dchiJ0VSgvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC013appleServicesB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC017newDeviceOutreachB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC017newDeviceOutreachbC19GroupSectionElementAA0dcjkL0VSgvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC019primaryAppleAccountB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC021secondaryAppleAccountB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC026primaryAppleAccountNoGroupB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC028secondaryAppleAccountNoGroupB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC032primaryAppleAccountIdentifierForB12UpsRetriever09secondaryh19AccountsIdentifierskblM022accountChangePublisher13onUpdateBlockACSSSgyc_SaySSGSgycSg7Combine03AnyS0Vyyts5NeverOGyyyXEctcfc
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC06deviceB3UpsSayAA0dC11InformationVGvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC06devicebC19GroupSectionElementAA0dchiJ0VSgvg
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC06followC4Item4withSo0dcH0CSgAA0dC11InformationV_tF
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC06followC5Group4withSo011FLGroupViewE0_pSgAA0dC11InformationV_tF
+- _$s12CoreFollowUp08FLFollowC13ModelObserverC7Combine16ObservableObjectAAMc
+- _$s12CoreFollowUp08FLFollowC13ModelObserverCMa
+- _$s12CoreFollowUp08FLFollowC13ModelObserverCMn
+- _$s12CoreFollowUp08FLFollowC19GroupSectionElementV10footerTextSSSgvg
+- _$s12CoreFollowUp08FLFollowC19GroupSectionElementV10headerTextSSSgvg
+- _$s12CoreFollowUp08FLFollowC19GroupSectionElementVMa
+- _$s12CoreFollowUp08FLFollowC19GroupSectionElementVMn
+- _$s12CoreFollowUp08FLFollowC19GroupSectionElementVSQAAMc
+- _$s12CoreFollowUp13FLAccountTypeO2eeoiySbAC_ACtFZ
+- _$s12CoreFollowUp13FLAccountTypeO7primaryyA2CmFWC
+- _$s12CoreFollowUp13FLAccountTypeOMa
+- _$s12CoreFollowUp13FLRenderStyleO16headerAndActionsyA2CmFWC
+- _$s12CoreFollowUp13FLRenderStyleO2eeoiySbAC_ACtFZ
+- _$s12CoreFollowUp13FLRenderStyleO8standardyA2CmFWC
+- _$s12CoreFollowUp13FLRenderStyleOMa
+- _$s13AsyncIteratorSciTl
+- _$s14FamilyCircleUI0A9RowStatusO8rawValueACSgSS_tcfC
+- _$s14FamilyCircleUI0A9RowStatusO8rawValueSSvg
+- _$s19CollectionsInternal18_DequeBufferHeaderVN
+- _$s19CollectionsInternal5DequeV13_UnsafeHandleV6buffer3forSRyxGSnyAA01_C4SlotVG_tF
+- _$s19CollectionsInternal5DequeV6appendyyxF
+- _$s19CollectionsInternal5DequeV8_StorageV15minimumCapacityAEyx_GSi_tcfC
+- _$s19CollectionsInternal5DequeV8_StorageVAEyx_GycfC
+- _$s19CollectionsInternal5DequeV8popFirstxSgyF
+- _$s19CollectionsInternal5DequeVACyxGycfC
+- _$s19CollectionsInternal5DequeVMa
+- _$s19CollectionsInternal5DequeVMn
+- _$s19CollectionsInternal5DequeVyxGSlAAMc
+- _$s19PreferencesExtended39SettingsAnyPlatformViewControllerRecipeV04viewG0So06UIViewG0Cvg
+- _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
+- _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
+- _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
+- _$s2os21OSAllocatedUnfairLockVMn
+- _$s6TipKit0A4ViewV_9arrowEdge6actionACyxGx_7SwiftUI0E0OSgyAA4TipsO6ActionVctcfC
+- _$s7Combine10PublishersO16RemoveDuplicatesVMn
+- _$s7Combine10PublishersO16RemoveDuplicatesVy_xGAA9PublisherAAMc
+- _$s7Combine10PublishersO9MergeManyVMn
+- _$s7Combine10PublishersO9MergeManyVy_xGAA9PublisherAAMc
+- _$s7Combine11CancellableMp
+- _$s7Combine11CancellableP6cancelyyFTj
+- _$s7Combine14AnyCancellableCAA0C0AAWP
+- _$s7Combine16ObservableObjectMp
+- _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
+- _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
+- _$s7Combine25ObservableObjectPublisherC4sendyyF
+- _$s7Combine9PublishedV12initialValueACyxGx_tcfC
+- _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvg
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
+- _$s7Combine9PublishedV9PublisherVMn
+- _$s7Combine9PublishedV9PublisherVyx_GAadAMc
+- _$s7Combine9PublishedVMa
+- _$s7Combine9PublishedVMn
+- _$s7Combine9PublisherPAAE010eraseToAnyB0AA0eB0Vy6OutputQz7FailureQzGyF
+- _$s7Combine9PublisherPAAE5merge4withAA10PublishersO9MergeManyVy_xGx_tF
+- _$s7Combine9PublisherPAASQ6OutputRpzrlE16removeDuplicatesAA10PublishersO06RemoveE0Vy_xGyF
+- _$s7ElementScITl
+- _$s7ElementSciTl
+- _$s7FailureScITl
+- _$s7FailureSciTl
+- _$s7Instants5ClockPTl
+- _$s7SwiftUI11PPTTestCaseV4NameVSYAAMc
+- _$s7SwiftUI11_ClipEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI13OpenURLActionV14callAsFunctionyy10Foundation3URLVF
+- _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16TagValueTraitKeyV0D0OMn
+- _$s7SwiftUI16TagValueTraitKeyVMn
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvg
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvpMV
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvs
+- _$s7SwiftUI17EnvironmentValuesV17_openSensitiveURLAA13OpenURLActionVvg
+- _$s7SwiftUI17EnvironmentValuesV17_openSensitiveURLAA13OpenURLActionVvpMV
+- _$s7SwiftUI17EnvironmentValuesV17_openSensitiveURLAA13OpenURLActionVvs
+- _$s7SwiftUI17EnvironmentValuesV19symbolRenderingModeAA06SymbolfG0VSgvg
+- _$s7SwiftUI17EnvironmentValuesV19symbolRenderingModeAA06SymbolfG0VSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV19symbolRenderingModeAA06SymbolfG0VSgvs
+- _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0_9specifieryx_SStAA18_FormatSpecifiableRzlF
+- _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAMc
+- _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVN
+- _$s7SwiftUI7BindingV3get3setACyxGxyc_yxctcfC
+- _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
+- _$s8Dispatch0A12TimeIntervalOMa
+- _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateOMa
+- _$s8Dispatch1poiyAA0A4TimeVAD_AA0aB8IntervalOtF
+- _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
+- _$s8Durations5ClockPTl
+- _$s8Settings19LinkMetadataIndexerC14searchQueryForySo08CSSearchF0CSSFTj
+- _$sBi32_WV
+- _$sBpWV
+- _$sS2cEycfC
+- _$sSRMa
+- _$sSRyxGSlsMc
+- _$sSSSQsWP
+- _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTj
+- _$sScEs5ErrorsMc
+- _$sScI4next7ElementQzSgyYaKFTq
+- _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTq
+- _$sScI7FailureScI_s5ErrorTn
+- _$sScIMp
+- _$sScITL
+- _$sScIsE4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKF
+- _$sScIsE4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTu
+- _$sSccMa
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKF
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
+- _$sScg7isEmptySbvg
+- _$sScg9cancelAllyyF
+- _$sSci13AsyncIteratorSci_ScITn
+- _$sSci17makeAsyncIterator0bC0QzyFTq
+- _$sSciMp
+- _$sSciTL
+- _$sSi7SwiftUI18_FormatSpecifiableAAWP
+- _$sSo8NSBundleC19PreferencesExtendedE0B14PluginLocationVs23CustomStringConvertibleACMc
+- _$sSo8NSBundleC19PreferencesExtendedE23preferencesPluginExists4name8locationSbSS_AbCE0bE8LocationVtFZ
+- _$sSo8NSNumberC10FoundationE12floatLiteralABSd_tcfC
+- _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVMn
+- _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVy_xq_G7Combine0F0ACMc
+- _$sSr19CollectionsInternalE10initialize14fromContentsOfSiqd___t7ElementQyd__RszSlRd__lF
+- _$sSr8mutatingSryxGSRyxG_tcfC
+- _$sSu10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss13ManagedBufferC6create15minimumCapacity16makingHeaderWithAByxq_GSi_xAFKXEtKFZ
+- _$ss13ManagedBufferCMn
+- _$ss13ManagedBufferCMo
+- _$ss13ManagedBufferCfd
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV5countSivg
+- _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlF
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlFTu
+- _$ss5ClockMp
+- _$ss5ClockP7InstantAB_s0B8ProtocolTn
+- _$ss5ClockTL
+- _$ss6ResultOMa
+- _$ss6ResultOMn
+- _$ss6UInt32VMn
+- _AnalyticsSendEventLazy
+- _CFPreferencesAppSynchronize
+- _MGGetBoolAnswer
+- _OBJC_CLASS_$_CSSearchQuery
+- _OBJC_CLASS_$_CSSearchableItem
+- _OBJC_CLASS_$_DMCAccountSpecifierProvider
+- _OBJC_CLASS_$_DMCSecondaryAccountViewModel
+- _OBJC_CLASS_$_NSLock
+- _OBJC_CLASS_$_PSSimStatusCache
+- _OBJC_CLASS_$_PSUICellularPlanManagerCache
+- _OBJC_CLASS_$_PSUIPasscodeLockController
+- _OBJC_CLASS_$_PSUIPearlPasscodeController
+- _OBJC_CLASS_$_PSUITouchIDPasscodeController
+- _OBJC_CLASS_$_UINavigationController
+- _PSSimIsRequired
+- _UIImagePNGRepresentation
+- __CTServerConnectionGetCellularDataIsEnabled
+- __CTServerConnectionRegisterBlockForNotification
+- __CTServerConnectionUnregisterForNotification
+- ___CFConstantStringClassReference
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _class_getInstanceMethod
+- _dispatch_resume
+- _dispatch_suspend
+- _kCFPreferencesCurrentApplication
+- _kCTCellularDataSettingsChangeNotification
+- _memcmp
+- _method_exchangeImplementations
+- _notify_get_state
+- _objc_enumerationMutation
+- _objc_retain_x5
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _swift_allocateGenericClassMetadata
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeMetadata
+- _swift_getTupleTypeMetadata3
+- _swift_initClassMetadata2
+- _swift_makeBoxUnique
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_unownedRetainStrong
+CStrings:
++ " { sectionProvider: "
++ "$__lazy_storage_$_connectedHeadphonesController"
++ "$__lazy_storage_$_sectionCollectionDataModelProviders"
++ "%d.%d.%d"
++ "%ld results found for '%{private,mask.hash}s'."
++ "**Internal Only - Follow Up not approved**\nItems above require approval…"
++ "-1"
++ "...Complete (%s.%s), viewController: '%{private,mask.hash}@', viewControllerToPush: '%{private,mask.hash}@', animated: '%{bool}d'."
++ "/Reset/prebuddyBegin"
++ "/SettingsTopLevel.plist"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "0"
++ "<< error details go here >>"
++ "@\"AMSBagValue\"24@0:8@\"NSString\"16"
++ "@\"AMSBagValue\"32@0:8@\"NSString\"16@\"ACAccount\"24"
++ "@\"AMSProcessInfo\"16@0:8"
++ "@\"HPSConnectedHeadphonesController\""
++ "@\"NSArray\"16@?0@\"ACAccount\"8"
++ "@\"NSDate\"16@0:8"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "A client called into `rootController` on `UIApplication` which has been unsupported + returning `nil` since iOS 18. Please remove this call."
++ "AMSBagProtocol"
++ "AMSEngagementURLRoute.Type"
++ "Alert title"
++ "Always"
++ "Appending %{private,mask.hash}s to the navigation path."
++ "Apple Internal Only"
++ "AppleTV"
++ "B32@0:8@\"PSListController\"16@\"PSSpecifier\"24"
++ "Begin background indexing task"
++ "Button, Cancel text"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CFU"
++ "CFU No Group"
++ "CallbackIdentifier"
++ "Cellular Telephony"
++ "ClassKitListItemProvider.updateClassKitVisibilityIfNeeded()"
++ "ClassNameForListControllersAndCellsOverlayEnabled"
++ "ClassroomListItemProvider.updateClassroomListItemProviderState()"
++ "CollaborationContactHandles"
++ "CollaborationGroupChatID"
++ "Command menu label for open the search field"
++ "Command menu label for opening the list of recently used settings items"
++ "Completed indexing intents."
++ "Completed indexing manifests."
++ "ComponentVersion"
++ "ConnectedHeadphonesControllerWrapper"
++ "ConnectedHeadphonesSectionModelProvider.produceConnectedHeadphoneItems()"
++ "Controller load style %{public}s is unsupported, defer to default implementation."
++ "Could not find value %{private,mask.hash}s in navigation path."
++ "Could not instantiate PSCoreSpotlightIndexer"
++ "Could not resolve follow up item and group for item identifier: %{public}s"
++ "Could not resolve the Item ID from the URL %{private,mask.hash}s."
++ "Could not retrieve lsDatabaseSeed"
++ "Crash/Hang/Data Loss"
++ "Current Search Cancelled: '%{private,mask.hash}s'."
++ "Current Search for '%{private,mask.hash}s' failed with error: '%{public}@'."
++ "Descriptive Text, variable is upper age bound."
++ "Did not migrate to segmented indexing. Deleting previous index."
++ "Did update pending engagement link data for URL '%{private,mask.hash}s'."
++ "DisplayAndBrightness"
++ "ENManager.getter:shouldShowExposureNotifications"
++ "End background indexing task"
++ "Engagement Link: "
++ "Enhancement"
++ "Error indexing Settings: "
++ "Error occurred while attempting to resolve carrier name for satellite connectivity: %{public}s"
++ "ExtensionIdentifiers"
++ "Failed to activate Bluetooth controller: %@"
++ "Failed to cancel stream for %{public}s, result %{public}u"
++ "Failed to create IDS state manager: %{public}@"
++ "Failed to create stream for CFU changes: %{public}@"
++ "Failed to create stream for data settings changes: %{public}@"
++ "Failed to get cellular data settings: { domain: %{public}d, errorCode: %{public}d }"
++ "Failed to get if SIM is required: { domain: %{public}d, errorCode: %{public}d }"
++ "Failed to get radio module state: { domain: %{public}d, errorCode: %{public}d }"
++ "Failed to launch Tap-to-Radar"
++ "Failed to load Settings Pane, falling back to recipe."
++ "Failed to load avatar image: %{public}s"
++ "Failed to register stream for "
++ "Failed to resolve wallet and apple pay visibility with error: %s"
++ "Failed to retrieve dangling plan items: %{public}@"
++ "Failed to retrieve plan items: %{public}@"
++ "Family Row Info"
++ "Family Row Status"
++ "Feature (New)"
++ "Finish Account Setup"
++ "First controller on the navigation path cannot be shown from suspended state."
++ "Highlight & Scroll: "
++ "HomeKitPrimaryResident"
++ "HomePod"
++ "I Didn't Try"
++ "IncludeDevicePrefixInTitle"
++ "Including internal manifests."
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Indexing intents failed: %@"
++ "Indexing intents."
++ "Indexing manifests."
++ "Is new NavigationPath equal to old NavigationPath? %{bool}d"
++ "List Controller and Cell Class Names"
++ "Loaded legacy settings experience plugin for identifier %{public}s"
++ "Loaded settings experience plugin for %s"
++ "Loaded settings experience plugin for identifier %{public}s"
++ "Localizable-AgeBasedAccountSupport"
++ "Mac"
++ "ModernNavigation"
++ "NavigationRobustness"
++ "NewFramework"
++ "No results found for '%{private,mask.hash}s'."
++ "No status and also no error from Core Telephony!"
++ "No subscription info and also no error from Core Telephony!"
++ "Not Applicable"
++ "Other Bug"
++ "PSListControllerSpecifierActionCoordinator"
++ "PSTopLevelGeneratePlist"
++ "PSViewControllerNavigationCoordinator"
++ "PasscodeAndBiometrics"
++ "PasscodeAndBiometricsSettings"
++ "Performance"
++ "Popping '%{public}ld' items from the navigation path (count is '%{public}ld')."
++ "Power"
++ "Presenting teen shield UI."
++ "PrimarySettingsListItemModelProviding.performDeferredSetupForProvider()"
++ "PrimarySettingsListSectionCollectionModelProviding.performDeferredSetupForProvider()"
++ "PrimarySettingsListSectionCollectionModelProviding.produceListSectionCollectionModel(with:)"
++ "PrimarySettingsListSectionModelProviding.performDeferredSetupForProvider()"
++ "ProductVersion"
++ "Rarely"
++ "Received notification to reload avatar image"
++ "RemoteAttachments"
++ "RemoteDeviceSelections"
++ "Satellite Connectivity State"
++ "Search cancelled."
++ "Search result '%{private,mask.hash}s' doesn't have a resolvable."
++ "Search result '%{private,mask.hash}s' is missing title: '%{private}s'."
++ "Search result '%{private,mask.hash}s' is missing url: '%{private}s'."
++ "Section Collection Provider: %s"
++ "Security"
++ "Serious Bug"
++ "Setting selectionClearsNavigationStackPath to %{bool}d from %{bool}d."
++ "Settings - Search"
++ "Settings encountered an error while indexing search content. This can result in missing search items.\n\nDetails:\n"
++ "Settings encountered an error while indexing search content. This can result in missing search items. Please file a Radar."
++ "Settings encountered an error. Please file a Radar."
++ "SettingsApp/ClassroomListItemProvider.swift"
++ "SettingsApp/PreferencesListControllerSpecifierActionCoordinator.swift"
++ "SettingsAppAdditions"
++ "SettingsOmniSearchViewModel"
++ "SettingsOmniSearchViewModel.performSearch"
++ "ShowTapToRadarAlert"
++ "Sometimes"
++ "SoundsAndHaptics"
++ "Start (%s.%s), viewController: '%{private,mask.hash}@', viewControllerToPush: '%{private,mask.hash}@', animated: '%{bool}d'…"
++ "Starting search for: '%{private,mask.hash}s'"
++ "System State Snapshot Changed"
++ "T@\"AMSProcessInfo\",?,R,C,N"
++ "T@\"HPSConnectedHeadphonesController\",&,N,V__headphonesController"
++ "T@\"NSDate\",R,N"
++ "T@\"NSString\",R,C,N"
++ "TB,R,N,GisExpired"
++ "Tap-to-Radar isn't supported on this platform"
++ "Task"
++ "There are no controllers on the navigation path that cannot be shown from suspended state."
++ "This should not happen unless Preferences.framework changed its implementation (Lazy loading failed for speciiier "
++ "This should not happen unless Preferences.framework changed its implementation (no resolved plugin location for specifier "
++ "This should not happen unless Preferences.framework changed its implementation."
++ "UI/Usability"
++ "URLForKey:"
++ "URLForKey:account:"
++ "Unable"
++ "Unable to construct URL from query items"
++ "Unsupported URL type for URL '%{private,mask.hash}s'."
++ "Updating `selectionClearsNavigationStackPath` from: %{bool}d to %{bool}d"
++ "Vision"
++ "Watch"
++ "Will evaluate engagement link data for URL '%{private,mask.hash}s'"
++ "[TapToRadarManager] error occurred while opening draft: %@"
++ "[TapToRadarManager] sendDraft called but no draft has been set"
++ "[WiFi] Top-Level Settings Wi-Fi cell displays %s"
++ "_TtC11SettingsApp17TapToRadarManager"
++ "_TtC11SettingsApp19TopLevelListManager"
++ "_TtC11SettingsApp21AccountsStateProvider"
++ "_TtC11SettingsApp22FamilyListItemProvider"
++ "_TtC11SettingsApp24SettingsIndexingDefaults"
++ "_TtC11SettingsApp27SettingsOmniSearchViewModel"
++ "_TtC11SettingsApp30CellularTelephonyStateProvider"
++ "_TtC11SettingsApp32CoreFollowUpSectionModelProvider"
++ "_TtC11SettingsApp33StewieStateMonitorDelegateAdaptor"
++ "_TtC11SettingsApp34OffGridStateManagerDelegateAdaptor"
++ "_TtC11SettingsApp34SatelliteConnectivityStateProvider"
++ "_TtC11SettingsApp35PrimaryAppleAccountListItemProvider"
++ "_TtC11SettingsApp36MonitoredAccountStoreDelegateAdaptor"
++ "_TtC11SettingsApp39ManagedAppleAccountSectionModelProvider"
++ "_TtC11SettingsApp40SingleItemCellularTelephonyStateProvider"
++ "_TtC11SettingsApp42PreferencesControllerNavigationCoordinator"
++ "_TtC11SettingsApp49CoreFollowUpNoGroupSectionCollectionModelProvider"
++ "_TtC11SettingsApp51PreferencesListControllerSpecifierActionCoordinator"
++ "_TtC11SettingsApp53CoreTelephonyClientActiveSubscriptionsDelegateAdaptor"
++ "_TtC11SettingsApp55PrimarySettingsListDataModelSystemStateSnapshotProvider"
++ "_TtC11SettingsApp56WalletAndApplePayOrPaymentAndContactlessListItemProvider"
++ "_TtC11SettingsAppP33_0CA69DBE2A439B958465368B6FA2CADF56StaticPrimarySettingsListSingleSectionCollectionProvider"
++ "_TtC11SettingsAppP33_38407CB6A1B54ACF24C74ACB13DB4A0030PrimaryAppleAccountAvatarState"
++ "__headphonesController"
++ "_cellToScrollAndHighlight"
++ "_headphonesController"
++ "_phase"
++ "_searchString"
++ "_selectionClearsNavigationStackPath"
++ "_systemStateSnapshot"
++ "_topLevelListManager"
++ "aa_isCloudSubscriber"
++ "aa_primaryAppleAccountWithCompletion:"
++ "accountDescription"
++ "accountsChangeStream"
++ "accountsStateProvider"
++ "accountsStreamContinuation"
++ "activateWithoutLeaking()"
++ "addObject:"
++ "addSuccessBlock:"
++ "ageRangeCache"
++ "alertText"
++ "all"
++ "ams_activeiCloudAccount"
++ "ams_sharedAccountStore"
++ "anyLocalFlowsSupported"
++ "arrayForKey:"
++ "bundleName location "
++ "cellularTelephonyStateProvider"
++ "com.apple.Preferences.PrimarySettingsList"
++ "com.apple.Preferences.indexFailure"
++ "com.apple.Preferences.queryFailure"
++ "com.apple.Settings.AMS"
++ "com.apple.Settings.AirplaneMode"
++ "com.apple.Settings.CellularTelephonyStateProvider.coreTelephonyQueue"
++ "com.apple.Settings.CellularTelephonyStateProvider.coreTelephonyServerConnectionQueue"
++ "com.apple.Settings.CellularTelephonyStateProvider.netRBClientConnectionQueue"
++ "com.apple.Settings.PrimarySettingsList.ExposureNotifications"
++ "com.apple.Settings.PrimarySettingsList.SoftwareUpdateClient"
++ "com.apple.SettingsApp.CoreFollowUpNoGroupSectionCollectionModelProvider"
++ "com.apple.SettingsApp.CoreFollowUpSectionModelProvider"
++ "com.apple.SettingsApp.CoreTelephonyActiveSubscriptionsQueue"
++ "com.apple.SettingsApp.SatelliteConnectivityQueue"
++ "com.apple.beats-headphones"
++ "com.apple.commcenter.DataSettingsChangedNotification"
++ "com.apple.corefollowup.items_changed"
++ "com.apple.followup.group.unknown"
++ "com.apple.graphic-icon.hidden-apps"
++ "com.apple.settings.followUpGroupAsItem."
++ "com.apple.settings.followUpItem."
++ "com.apple.settings.followUpItemAction."
++ "com.apple.settings.managedAppleAccount."
++ "com.apple.settings.managedAppleAccountAuthentication."
++ "connectivityUpdateStream"
++ "connectivityUpdateStreamContinuation"
++ "contents"
++ "controllerForSpecifier:"
++ "controllerLoadStyle"
++ "coreTelephonyClient"
++ "coreTelephonyClientActiveSubscriptionsDelegateAdaptor"
++ "coreTelephonyQueue"
++ "coreTelephonyServerConnection"
++ "coreTelephonyServerConnectionQueue"
++ "coreTelephonyUpdateStream"
++ "coreTelephonyUpdateStreamContinuation"
++ "createSnapshotWithCompletion:"
++ "danglingPlanItemsShouldUpdate:completion:"
++ "defaultManager"
++ "detailControllerClass"
++ "deviceChangeStream"
++ "deviceChangeStreamContinuation"
++ "dictionaryForKey:"
++ "displayStyle"
++ "dmc_bearerReauthURL"
++ "dmc_visibleSecondaryRemoteManagementAccounts"
++ "doubleForKey:"
++ "draft"
++ "expirationDate"
++ "expired"
++ "familyRowInfo"
++ "fileExistsAtPath:"
++ "fileManager"
++ "followUpGroupAsItem."
++ "followUpGroupViewModel"
++ "followUpItemAction."
++ "full-log-archive"
++ "getSIMStatus:completion:"
++ "getSubscriptionInfo:"
++ "getSupportedFlowTypes:"
++ "group"
++ "groupsForPrimaryAccount:secondaryAccounts:"
++ "handleUserDidTapOnFollowUp(listItemIdentifier:)"
++ "hasAnyDanglingPlans"
++ "hasSystemContent = %{bool}d, needsIndexing = %{bool}d, intentsNeedIndexing = %{bool}d, appsNeedIndexing = %{bool}d"
++ "i20@?0i8@\"<OS_xpc_object>\"12"
++ "iCloudPreferences"
++ "iPad"
++ "iPhone"
++ "indexLinkMetadataFailed"
++ "initWithBundleIdentifier:clientIdentifier:"
++ "initWithContentsOfURL:"
++ "isAgeBasedAccountSupportEnabled"
++ "isExpired"
++ "isMainThread"
++ "isUnderRemoteControl"
++ "kCFAllocatorNull"
++ "kvoObservations"
++ "listController:presentControllerForSpecifier:"
++ "listController:shouldPerformDefaultDeferredBundleLoadingForSpecifier:"
++ "log-archive-only"
++ "lower upper "
++ "managedAppleAccount"
++ "managedAppleAccount."
++ "managedAppleAccountAuthentication."
++ "managedAppleAccountNoGroup."
++ "modelStream"
++ "modelStreamContinuation"
++ "monitoredAccountStore"
++ "monitoredAccountStoreDelegateAdaptor"
++ "na_arrayWithSafeObject:"
++ "na_flatMap:"
++ "netRBClientConnectionQueue"
++ "noAppleAccountNoGroup."
++ "notificationTask"
++ "notificationTasks"
++ "observationTask"
++ "observationTasks"
++ "observationToken"
++ "offGridModeEnabledStream"
++ "offGridModeEnabledStreamContinuation"
++ "offGridStateManagerDelegateAdaptor"
++ "onReceiveAccountStoreEvent"
++ "onReceiveAccountStoreEventContinuation"
++ "onReceiveEvent"
++ "onReceiveEventContinuation"
++ "openURL:options:completionHandler:"
++ "paymentAndContactlessState"
++ "pendingEngagementLinkData"
++ "planItemsShouldUpdate:completion:"
++ "preferencesViewController(_:push:animated:)"
++ "preferencesViewController:pushViewController:animated:"
++ "preferredWindowingControlStyleForScene:"
++ "processInfo"
++ "productId"
++ "profile"
++ "profileVersion"
++ "propertyForKey:"
++ "pushViewController:animated:"
++ "queryString: %{private,mask.hash}s"
++ "r"
++ "registerDefaultSpecifierActionCoordinatorClass:"
++ "reindexInstalledApps reindexing failed: %@"
++ "rowStatus"
++ "safeSimStatus(_:)"
++ "safeSubscriptionInfo()"
++ "sapp_groupsWithQueue:completion:"
++ "satelliteCarrierNameStream"
++ "satelliteCarrierNameStreamContinuation"
++ "satelliteConnectivityState"
++ "satelliteConnectivityStateProvider"
++ "searchIndexingModel"
++ "sectionProvider"
++ "secureMicrophoneFollowUps"
++ "setAccount:"
++ "setAirplaneMode:"
++ "setBluetoothStateChangedHandler:"
++ "setDateFormat:"
++ "setDoesRelativeDateFormatting:"
++ "setInteger:forKey:"
++ "setURL:"
++ "set_headphonesController:"
++ "settings-navigation://com.apple.Settings.Accessibility"
++ "settings-navigation://com.apple.Settings.ActionButton"
++ "settings-navigation://com.apple.Settings.AppleAccount"
++ "settings-navigation://com.apple.Settings.Apps"
++ "settings-navigation://com.apple.Settings.Battery"
++ "settings-navigation://com.apple.Settings.Bluetooth"
++ "settings-navigation://com.apple.Settings.Camera"
++ "settings-navigation://com.apple.Settings.Cellular"
++ "settings-navigation://com.apple.Settings.ClassKit"
++ "settings-navigation://com.apple.Settings.Classroom"
++ "settings-navigation://com.apple.Settings.Contactless"
++ "settings-navigation://com.apple.Settings.ControlCenter"
++ "settings-navigation://com.apple.Settings.Developer"
++ "settings-navigation://com.apple.Settings.Display"
++ "settings-navigation://com.apple.Settings.Ethernet"
++ "settings-navigation://com.apple.Settings.ExposureNotifications"
++ "settings-navigation://com.apple.Settings.Family"
++ "settings-navigation://com.apple.Settings.GameCenter"
++ "settings-navigation://com.apple.Settings.General"
++ "settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary"
++ "settings-navigation://com.apple.Settings.Internal.Classic"
++ "settings-navigation://com.apple.Settings.MultitaskingAndGestures"
++ "settings-navigation://com.apple.Settings.Passcode"
++ "settings-navigation://com.apple.Settings.Pencil"
++ "settings-navigation://com.apple.Settings.PersonalHotspot"
++ "settings-navigation://com.apple.Settings.PrivacyAndSecurity"
++ "settings-navigation://com.apple.Settings.SOS"
++ "settings-navigation://com.apple.Settings.Search"
++ "settings-navigation://com.apple.Settings.Siri"
++ "settings-navigation://com.apple.Settings.StandBy"
++ "settings-navigation://com.apple.Settings.VPN"
++ "settings-navigation://com.apple.Settings.Wallpaper"
++ "settings-navigation://com.apple.Settings.WiFi"
++ "settings-navigation://com.apple.Settings.iCloud"
++ "settingsOmniSearchViewModel"
++ "shieldSignInOrCreateFlows"
++ "shouldBadgeStream"
++ "shouldBadgeStreamContinuation"
++ "showViewController:sender:"
++ "skips-local-sysdiagnose-only"
++ "stateChangeStream"
++ "stateChangeStreamContinuation"
++ "stateUpdateStream"
++ "stateUpdateStreamContinuation"
++ "stewieStateMonitorDelegateAdaptor"
++ "stewieStateStream"
++ "stewieStateStreamContinuation"
++ "stringFromDate:"
++ "sysdiagnose-only"
++ "systemStateSnapshotProvider"
++ "titlesSet"
++ "typeForURL:"
++ "u18Limit"
++ "updateStream"
++ "updateStreamContinuation"
++ "updateTask"
++ "username"
++ "v16@?0@\"NSNumber\"8"
++ "v24@0:8@?16"
++ "v24@0:8@?<v@?@\"AMSSnapshotBag\"@\"NSError\">16"
++ "v24@?0@\"ACAccount\"8@\"NSError\"16"
++ "v24@?0@\"CTXPCServiceSubscriptionInfo\"8@\"NSError\"16"
++ "v24@?0@\"NSString\"8@\"NSError\"16"
++ "v24@?0Q8@\"NSError\"16"
++ "v32@0:8@\"PSListController\"16@\"PSSpecifier\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v36@0:8@\"PSViewController\"16@\"UIViewController\"24B32"
++ "vendorId"
++ "viewController that requested presentation is not from a managed navigation stack, defer to default implementation."
++ "visibilityStyleForWalletAndApplePay()"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "writeToFile:atomically:"
++ "yyyy.MM.dd_HH-mm-ss"
++ "…Complete (%s.%s) no view controller to present (likely action)."
++ "…Complete (%s.%s). Ignoring tap on follow up '%{public}s' because its an unsupported case!"
+- "$__lazy_storage_$_airplaneModeListItemProvider"
+- "$__lazy_storage_$_cellularDataSettingObserver"
+- "$__lazy_storage_$_coreTelephonyConnection"
+- "$__lazy_storage_$_familyModel"
+- "$__lazy_storage_$_followUpListElementsGenerator"
+- "$__lazy_storage_$_primaryAppleAccountListSectionProvider"
+- "$__lazy_storage_$_primaryAppleAccountStatusObserver"
+- "$__lazy_storage_$_secondaryAppleAccountItemsObserver"
+- "$__lazy_storage_$_secondaryAppleAccountSectionModelProvider"
+- "$__lazy_storage_$_sectionDataModelProviders"
+- "%s"
+- "/System/Library/PrivateFrameworks/PreferencesUI.framework"
+- "@\"NSDictionary\"8@?0"
+- "A proto account exists, but Settings doesn't need to handle."
+- "After context generation loop."
+- "Apple Account is signed in (no profile picture)."
+- "Apple Account is signed in (with profile picture)."
+- "AsyncAlgorithmsVendoredSettingsApp/CombineLatestStorage.swift"
+- "AsyncAlgorithmsVendoredSettingsApp/DebounceStorage.swift"
+- "AsyncAlgorithmsVendoredSettingsApp/UnboundedBufferStorage.swift"
+- "AsyncAlgorithmsVendoredSettingsApp/ZipStorage.swift"
+- "Before context generation loop."
+- "BluetoothListItemProvider.updateBluetoothState bailed"
+- "BluetoothListItemProvider.updateBluetoothState began"
+- "BluetoothListItemProvider.updateBluetoothState completed"
+- "CBNotificationState status error"
+- "Calling DMCAccountSpecifierProvider()"
+- "Carrier name changed for %s: %{public}s"
+- "Cellular Data"
+- "Cellular Radio Check"
+- "Cellular Settings Updated"
+- "CellularIsDisabled"
+- "CellularSimIsMissing"
+- "CellularSimIsRequired"
+- "ClassKitListItemProvider.updateClassKitVisibility began"
+- "ClassKitListItemProvider.updateClassKitVisibility completed"
+- "ClassroomListItemProvider.updateUpdateClassroom began"
+- "ClassroomListItemProvider.updateUpdateClassroom completed"
+- "ConnectedHeadphonesSectionModelProvider.updateConnectedHeadphones bailed"
+- "ConnectedHeadphonesSectionModelProvider.updateConnectedHeadphones began"
+- "ConnectedHeadphonesSectionModelProvider.updateConnectedHeadphones completed"
+- "Context Update (Apps)"
+- "Context Update (Both)"
+- "Context Update (MC)"
+- "Contradictory frame constraints specified."
+- "CoreTelephonyClientSubscriberDelegate"
+- "Could not determine icon type for '%{private,mask.hash}s'."
+- "Could not find primary list item identifier for '%s' and '%s', resetting to default navigation state."
+- "Could not resolve primarySettingsListItemIdentifier for '%{private,mask.hash}s'."
+- "Could not resolve the Item Identifier from the URL %{private,mask.hash}s."
+- "DMCSecondaryAccountViewModelDelegate"
+- "DoItForMe"
+- "Encountered error while performing search: %{public}s"
+- "Error in querying EN status: %{public}s."
+- "Error initializing IDSOffGridStateManager: %{public}s"
+- "EthernetListItemProvider.updateEthernet began"
+- "EthernetListItemProvider.updateEthernet completed"
+- "Failed to retrieve name from account information."
+- "Family Row"
+- "Follow Ups"
+- "Followups"
+- "GeneralSettingsListItemProvider.updateBadgeForSoftwareUpdate began"
+- "GeneralSettingsListItemProvider.updateBadgeForSoftwareUpdate completed"
+- "IML"
+- "Ignoring request to hide navigation bar."
+- "Internal inconsistency"
+- "LS seed did change."
+- "LS seed did not change."
+- "No Apple Account found for iCloud, falling back to store account if available."
+- "No Primary Apple Account signed in."
+- "No identifier found for proto account, unable to sign in."
+- "No identifier found, unable to sign in."
+- "No user full name found, unable to sign in."
+- "Off grid mode changed to %ld"
+- "PSUISimStatusChanged"
+- "Payments & Contactless: Entered Foreground"
+- "Payments & Contactless: Locale Changed"
+- "Payments & Contactless: SESNFCAppSettingsContext changed"
+- "Payments & Contactless: appSettingsContext != .sesnfcAppTopLevelSettingsEntryTypePaymentContactless"
+- "Payments & Contactless: appSettingsContext == nil"
+- "Personal Hotspot Interactivity"
+- "Personal Hotspot State"
+- "Personal Hotspot Visibility"
+- "PersonalHotspotDiabled"
+- "PersonalHotspotListItemProvider.updatePersonalHotspotState bailed"
+- "PersonalHotspotListItemProvider.updatePersonalHotspotState began"
+- "PersonalHotspotListItemProvider.updatePersonalHotspotState completed"
+- "PersonalHotspotVisible"
+- "PreBuddyURLRoute.Type"
+- "Preferences is notified of a bluetooth state change"
+- "Primary Apple Account Status"
+- "Primary Apple Account is %s."
+- "PrimaryAppleAccountStatusObserver.updateAccountStatus bailed"
+- "PrimaryAppleAccountStatusObserver.updateAccountStatus began"
+- "PrimaryAppleAccountStatusObserver.updateAccountStatus completed"
+- "PrimaryAppleAccountStatusObserver.updateSecondaryAppleAccountItems bailed"
+- "PrimaryAppleAccountStatusObserver.updateSecondaryAppleAccountItems began"
+- "PrimaryAppleAccountStatusObserver.updateSecondaryAppleAccountItems completed"
+- "PrimaryAppleAccountStatusObserver.updateSecondaryAppleAccountItems missing accountSpecifierProvider"
+- "PrimarySettingsList Data Model Item Snapshot"
+- "PrimarySettingsList Data Model Section Snapshot"
+- "PrimarySettingsListItemIdentifier '%s' for search result with url '%{private,mask.hash}s' not found in currentDataModel, hiding result."
+- "PrimarySettingsListItemModelProviding.performPostApplicationLaunchSetup()"
+- "PrimarySettingsListSectionModelProviding.performPostApplicationLaunchSetup()"
+- "Reindex Apps Metadata only."
+- "Reindex Apps Metadata only. Done."
+- "Reset/prebuddyBegin"
+- "SIM Status change"
+- "Satellite state changed"
+- "Satellite state changed to %{public}@"
+- "Search result has malformed attributeSet (missing title or URL): '%{private}s'."
+- "Secondary Account"
+- "Settings search begin"
+- "Settings search cancelled"
+- "Settings search completion"
+- "Settings search found %ld"
+- "SettingsApp"
+- "SettingsApp.CellularDataListItemProvider"
+- "SettingsApp.PrimaryAppleAccountListSectionProvider"
+- "SettingsApp.PrimaryAppleAccountStatusObserver"
+- "SettingsApp2"
+- "SettingsApp3"
+- "SettingsAppSearchViewModel"
+- "SettingsAppSearchViewModel.SearchFoundItems"
+- "SettingsAppSearchViewModel.SemanticSearch"
+- "SettingsAppSearchViewModel.TopHitSearch"
+- "SettingsAppSearchViewModel: New query"
+- "SettingsAppSearchViewModel: completionHandler"
+- "SettingsAppSearchViewModel: foundItemsHandler: %{public}ld"
+- "SettingsAppSearchViewModel: updating searchResults"
+- "SiriUI"
+- "Unknown account sign in state. Defaulting to not signed in."
+- "Unknown test: %{public}s"
+- "UpdatedPrivacySettings"
+- "VPNHasRelayConnections"
+- "VPNListItemProvider.updateVPNState began"
+- "VPNListItemProvider.updateVPNState completed"
+- "Wallet & Apple Pay"
+- "WalletAndApplePayListItemProvider.resolveApplePayState began"
+- "WalletAndApplePayListItemProvider.resolveApplePayState completed"
+- "WalletAndApplePayListItemProvider.resolveApplePayState completed: hidden due to sesnfcAppTopLevelSettingsEntryTypePaymentContactless"
+- "WiFiListItemProvider.updateWiFiState bailed"
+- "WiFiListItemProvider.updateWiFiState began"
+- "WiFiListItemProvider.updateWiFiState completed"
+- "_TtC11SettingsApp16CellularSettings"
+- "_TtC11SettingsApp27CellularDataSettingObserver"
+- "_TtC11SettingsApp29FollowUpListElementsGenerator"
+- "_TtC11SettingsApp33PrimaryAppleAccountStatusObserver"
+- "_TtC11SettingsApp33WalletAndApplePayListItemProvider"
+- "_TtC11SettingsApp34SecondaryAppleAccountItemsObserver"
+- "_TtC11SettingsApp37PrimarySettingsListChildAgeLimitModel"
+- "_TtC11SettingsApp38PaymentsAndContactlessListItemProvider"
+- "_TtC11SettingsApp38PrimaryAppleAccountListSectionProvider"
+- "_TtC11SettingsApp41SecondaryAppleAccountSectionModelProvider"
+- "_context"
+- "_isSearching"
+- "_primarySettingsListScrollToItemSubject"
+- "_searchQuery"
+- "_shouldDismissSearch"
+- "_u13AgeLimit"
+- "account"
+- "accountSpecifierProvider"
+- "accountSpecifierProviderSetupLock"
+- "accountStatus"
+- "accountStore"
+- "accountWasAdded(_:)"
+- "accountWasModified(_:)"
+- "accountWasRemoved(_:)"
+- "ageRangeSettingsContext"
+- "ageSettingsCache"
+- "airplaneModeListItemProvider"
+- "authTokenChanged:"
+- "base1 base2 base3 "
+- "buffer error "
+- "bundleName bundleLocation "
+- "cancel"
+- "cancellable"
+- "cellular-data"
+- "cellularDataSetting"
+- "cellularDataSettingInitialized"
+- "cellularDataSettingObserver"
+- "cellularIsDisabled"
+- "clock"
+- "clockContinuation deadline "
+- "clockContinuation error "
+- "com.apple.SettingsApp.PrimaryListLoading"
+- "com.apple.bluetooth.state"
+- "com.apple.settings.followUpAction."
+- "com.apple.settings.followUpHeader."
+- "com.apple.settings.followUpLink."
+- "com.apple.settings.secondaryAppleAccount."
+- "com.apple.settings.secondaryAppleAccountAuthentication."
+- "connectedHeadphonesController"
+- "continuation result "
+- "copyCarrierBundleValue for CarrierName failed: %{public}s"
+- "copyRegistrationDisplayStatus failed: %{public}s, status: %{public}s"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "ctClient"
+- "currentQuery"
+- "currentSnapshot"
+- "delegate"
+- "deviceImage"
+- "didDetectSimDeactivation:info:"
+- "displayStatus fetched for %s: %{public}s"
+- "displayStatusChanged for %s: %{public}s"
+- "downstreamContinuation element "
+- "downstreamContinuation element task upstreamContinuation clockContinuation "
+- "downstreamContinuation result "
+- "downstreamContinuation task upstreamContinuation clockContinuation "
+- "element deadline "
+- "error donating to spotlight: %s"
+- "followUpListElementsGenerator"
+- "followUpModelObserver"
+- "getActiveContexts failed: %{public}s, contexts: %{public}s"
+- "handleUserDidTapOnFollowUp(followUpInformation:actionIdentifier:)"
+- "hasFinishedSetup"
+- "iCloudInPrimaryList"
+- "indexing complete"
+- "information actionIdentifier "
+- "initWithBool:"
+- "interval"
+- "isActiveCellSatSystem changed for %s: %{public}s"
+- "isCancelled"
+- "isCellularDisabled"
+- "isDataEnabled"
+- "isEqualToString:"
+- "isRadioDead"
+- "isTetheringEnabled"
+- "lock"
+- "observation"
+- "onOpenURL"
+- "personalHotspotState"
+- "pptQueue"
+- "pptTestName"
+- "primaryAppleAccountStatusObserver"
+- "primarySettingsListDataModelProvider"
+- "primarySettingsListScrollToItemSubject"
+- "prlVersionDidChange:version:"
+- "producerContinuation result "
+- "radioDeadInitialized"
+- "rankingHint"
+- "reauthBadgeNumber"
+- "reauthIdentifer"
+- "reauthTitle"
+- "registeredForFamilyChange"
+- "removeDelegate:"
+- "removeObserver:name:object:"
+- "route(_:primarySettingsListDataModel:)"
+- "sa_setNavigationBarHidden:animated:"
+- "sae"
+- "satelliteState"
+- "satelliteStateLock"
+- "searchViewModel"
+- "secondaryAccountViewModels"
+- "secondaryAccountViewModelsDidChange"
+- "secondaryAppleAccount"
+- "secondaryAppleAccount."
+- "secondaryAppleAccountAuthentication."
+- "secondaryAppleAccountItems"
+- "secondaryAppleAccountItemsObserver"
+- "secondaryAppleAccountNoGroup."
+- "setAirplaneModeWithoutMirroring:"
+- "setCompletionHandler:"
+- "setFoundItemsHandler:"
+- "setNavigationBarHidden:animated:"
+- "setScale:"
+- "setURL:forKey:"
+- "setValue:forKey:"
+- "setViewModelDelegate:"
+- "settings.de_semantic_search"
+- "shortLabelsDidChange"
+- "shouldDisable"
+- "shouldIndexLinkMetadata"
+- "shouldShowTethering"
+- "signpostIntervals"
+- "simIsMissing"
+- "simIsRequired"
+- "simLockSaveRequestDidComplete:success:"
+- "simPinChangeRequestDidComplete:success:"
+- "simPinEntryErrorDidOccur:status:"
+- "simPukEntryErrorDidOccur:status:"
+- "simStatus:"
+- "simStatusDidChange:status:"
+- "size"
+- "slotInfos"
+- "start indexing"
+- "state"
+- "stateMachine"
+- "storage"
+- "subscriberCountryCodeDidChange:"
+- "subscriptionContexts"
+- "subtitle"
+- "task buffer suspendedConsumer "
+- "task buffer suspendedProducer suspendedConsumer "
+- "task buffer upstreamContinuations upstreamsFinished downstreamContinuation "
+- "task clockContinuation "
+- "task clockContinuation downstreamContinuation "
+- "task upstreamContinuation clockContinuation bufferedElement "
+- "task upstreamContinuation downstreamContinuation currentElement "
+- "task upstreams "
+- "task upstreams buffer "
+- "task upstreams downstreamContinuation "
+- "task upstreams downstreamContinuation buffer "
+- "tolerance"
+- "unlock"
+- "updateAccountStatus()"
+- "updateAccountStatusSubject"
+- "upstreamContinuation clockContinuation deadline "
+- "userDefaultVoiceSlotDidChange:"
+- "v16@?0r^{__CFDictionary=}8"
+- "v24@0:8@\"CTServiceDescriptor\"16"
+- "v24@0:8B16B20"
+- "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTSimDeactivationInfo\"24"
+- "viewController is not actually a PSController, defer to default implementation."
+- "…Complete (%s.%s) no observer."
+
+```

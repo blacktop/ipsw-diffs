@@ -1,0 +1,4250 @@
+## appstorecomponentsd
+
+> `/System/Library/PrivateFrameworks/AppStoreComponents.framework/Support/appstorecomponentsd`
+
+```diff
+
+-7.5.1.0.0
+-  __TEXT.__text: 0x1076ec
+-  __TEXT.__auth_stubs: 0x3990
+-  __TEXT.__objc_stubs: 0x3760
++8.0.27.0.0
++  __TEXT.__text: 0x33c
++  __TEXT.__auth_stubs: 0x160
++  __TEXT.__objc_stubs: 0x20
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x4500
+-  __TEXT.__const: 0x5530
+-  __TEXT.__objc_methname: 0x77f7
+-  __TEXT.__cstring: 0x8a5c
+-  __TEXT.__oslogstring: 0x1d30
+-  __TEXT.__objc_classname: 0x838
+-  __TEXT.__objc_methtype: 0x1227
+-  __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__dlopen_cstrs: 0x8e
++  __TEXT.__const: 0x62
++  __TEXT.__cstring: 0x55
++  __TEXT.__objc_methname: 0x43
++  __TEXT.__oslogstring: 0xfa
++  __TEXT.__objc_classname: 0x1
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x19a0
+-  __TEXT.__swift5_typeref: 0x3027
+-  __TEXT.__swift5_builtin: 0x1f4
+-  __TEXT.__swift5_reflstr: 0x1136
+-  __TEXT.__swift5_fieldmd: 0x15f0
+-  __TEXT.__swift5_assocty: 0x6c8
+-  __TEXT.__swift5_proto: 0x418
+-  __TEXT.__swift5_types: 0x21c
+-  __TEXT.__swift_as_entry: 0x19c
+-  __TEXT.__swift_as_ret: 0x23c
+-  __TEXT.__swift5_capture: 0x15c4
+-  __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__unwind_info: 0x3840
+-  __TEXT.__eh_frame: 0x790c
+-  __DATA_CONST.__auth_got: 0x1cd8
+-  __DATA_CONST.__got: 0xc88
+-  __DATA_CONST.__auth_ptr: 0xe10
+-  __DATA_CONST.__const: 0x59b0
+-  __DATA_CONST.__cfstring: 0x2b20
+-  __DATA_CONST.__objc_classlist: 0x330
+-  __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x1c8
++  __TEXT.__unwind_info: 0x70
++  __DATA_CONST.__auth_got: 0xb8
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__const: 0xf8
++  __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x140
+-  __DATA_CONST.__objc_superrefs: 0x1e8
+-  __DATA.__objc_const: 0x9c78
+-  __DATA.__objc_selrefs: 0x1d40
+-  __DATA.__objc_ivar: 0x368
+-  __DATA.__objc_data: 0x2910
+-  __DATA.__data: 0x42d0
+-  __DATA.__bss: 0x6910
+-  __DATA.__common: 0x180
+-  - /System/Library/Frameworks/Accounts.framework/Accounts
++  __DATA.__objc_selrefs: 0x10
++  __DATA.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/GameController.framework/GameController
+-  - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+   - /System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppState.framework/AppState
+-  - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+-  - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+-  - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+-  - /System/Library/PrivateFrameworks/InstalledContentLibrary.framework/InstalledContentLibrary
++  - /System/Library/PrivateFrameworks/AppStoreComponentsDaemonKit.framework/AppStoreComponentsDaemonKit
+   - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/SignpostCollection.framework/SignpostCollection
+   - /System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 79654C37-312E-3ACE-8837-F8792E8C373A
+-  Functions: 4321
+-  Symbols:   1591
+-  CStrings:  3104
++  UUID: 430975C1-5BA9-302F-A93E-34108AB9FE04
++  Functions: 7
++  Symbols:   57
++  CStrings:  9
+ 
+Symbols:
++ _$s27AppStoreComponentsDaemonKit0D0C3runyyF
++ _$s27AppStoreComponentsDaemonKit0D0C6sharedACvgZ
++ _$s27AppStoreComponentsDaemonKit0D0CMa
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg
+- _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeVMa
+- _$s10Foundation10CocoaErrorVAA21_BridgedStoredNSErrorAAMc
+- _$s10Foundation10CocoaErrorVMa
+- _$s10Foundation12CharacterSetV16lowercaseLettersACvgZ
+- _$s10Foundation12CharacterSetVMa
+- _$s10Foundation12DateIntervalV3endAA0B0Vvg
+- _$s10Foundation12DateIntervalV5start3endAcA0B0V_AGtcfC
+- _$s10Foundation12DateIntervalV5startAA0B0Vvg
+- _$s10Foundation12DateIntervalVMa
+- _$s10Foundation12DateIntervalVMn
+- _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+- _$s10Foundation12NotificationVMa
+- _$s10Foundation12URLQueryItemV4nameSSvg
+- _$s10Foundation12URLQueryItemV5valueSSSgvg
+- _$s10Foundation12URLQueryItemVMa
+- _$s10Foundation12URLQueryItemVMn
+- _$s10Foundation13CustomNSErrorMp
+- _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
+- _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
+- _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
+- _$s10Foundation13CustomNSErrorPs5ErrorTb
+- _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg
+- _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
+- _$s10Foundation13URLComponentsVMa
+- _$s10Foundation13URLComponentsVMn
+- _$s10Foundation14DateComponentsV10weekOfYearSiSgvg
+- _$s10Foundation14DateComponentsV3daySiSgvg
+- _$s10Foundation14DateComponentsV4hourSiSgvg
+- _$s10Foundation14DateComponentsV4yearSiSgvg
+- _$s10Foundation14DateComponentsV5monthSiSgvg
+- _$s10Foundation14DateComponentsV6secondSiSgvg
+- _$s10Foundation14DateComponentsVMa
+- _$s10Foundation18_ErrorCodeProtocolMp
+- _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
+- _$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ
+- _$s10Foundation18_ErrorCodeProtocolPSQTb
+- _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation19PropertyListDecoderCACycfc
+- _$s10Foundation19PropertyListDecoderCMa
+- _$s10Foundation19PropertyListEncoderC12outputFormatSo010NSPropertycF0VvsTj
+- _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation19PropertyListEncoderCACycfc
+- _$s10Foundation19PropertyListEncoderCMa
+- _$s10Foundation21_BridgedStoredNSErrorMp
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
+- _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
+- _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
+- _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
+- _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
+- _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE8userInfoSDySSypGvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
+- _$s10Foundation21_BridgedStoredNSErrorPSHTb
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation26_ObjectiveCBridgeableErrorMp
+- _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
+- _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
+- _$s10Foundation3URLV13pathExtensionSSvg
+- _$s10Foundation3URLV14absoluteStringSSvg
+- _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10Foundation3URLV19appendPathComponentyySSF
+- _$s10Foundation3URLV22appendingPathComponent_11isDirectoryACSS_SbtF
+- _$s10Foundation3URLV2eeoiySbAC_ACtFZ
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLV6stringACSgSSh_tcfC
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s10Foundation4DataVN
+- _$s10Foundation4DateV17timeIntervalSinceySdACF
+- _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
+- _$s10Foundation4DateV1goiySbAC_ACtFZ
+- _$s10Foundation4DateV1loiySbAC_ACtFZ
+- _$s10Foundation4DateV1poiyA2C_SdtFZ
+- _$s10Foundation4DateV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
+- _$s10Foundation4DateVACycfC
+- _$s10Foundation4DateVMa
+- _$s10Foundation4DateVMn
+- _$s10Foundation4DateVSLAAMc
+- _$s10Foundation4UUIDV10uuidStringSSvg
+- _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVMa
+- _$s10Foundation4UUIDVMn
+- _$s10Foundation6LocaleV10identifierSSvg
+- _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
+- _$s10Foundation6LocaleV8calendarAA8CalendarVvg
+- _$s10Foundation6LocaleVMa
+- _$s10Foundation6LocaleVMn
+- _$s10Foundation8CalendarV14dateComponents_4from2toAA04DateD0VShyAC9ComponentOG_AA0G0VAMtF
+- _$s10Foundation8CalendarV19_bridgeToObjectiveCSo10NSCalendarCyF
+- _$s10Foundation8CalendarV9ComponentO10weekOfYearyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO3dayyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4houryA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4yearyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO5monthyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO6secondyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentOMa
+- _$s10Foundation8CalendarV9ComponentOMn
+- _$s10Foundation8CalendarV9ComponentOSHAAMc
+- _$s10Foundation8CalendarV9ComponentOSQAAMc
+- _$s10Foundation8CalendarVMa
+- _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
+- _$s11ObjectGraph9JetEngine20ActionImplementationPTl
+- _$s12CoreGraphics7CGFloatVN
+- _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
+- _$s12FeatureFlags0aB3KeyMp
+- _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
+- _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
+- _$s14MarketplaceKit10AppVersionV05appleD2IDs6UInt64Vvg
+- _$s14MarketplaceKit10AppVersionV11appleItemIDs6UInt64Vvg
+- _$s14MarketplaceKit10AppVersionVMa
+- _$s14MarketplaceKit10AppVersionVMn
+- _$s14MarketplaceKit14AppDistributorO0C50DistributorsOrTrustedDevelopersChangedNotificationSo18NSNotificationNameavgZ
+- _$s14MarketplaceKit14AppDistributorO13availableApps3for11distributorSayAA0C7VersionVGSgSays6UInt64VG_SStYaFZ
+- _$s14MarketplaceKit14AppDistributorO13availableApps3for11distributorSayAA0C7VersionVGSgSays6UInt64VG_SStYaFZTu
+- _$s14MarketplaceKit14AppDistributorO18requestProductPage_6itemID07versionI0ySS_s6UInt64VAHSgtYaKFZ
+- _$s14MarketplaceKit14AppDistributorO18requestProductPage_6itemID07versionI0ySS_s6UInt64VAHSgtYaKFZTu
+- _$s14MarketplaceKit14AppDistributorO23distributorPriorityListSaySSGvgZ
+- _$s14MarketplaceKit14AppDistributorO23distributorPriorityListSaySSGvgZTu
+- _$s15_ObjectiveCTypes01_A11CBridgeablePTl
+- _$s17MemberObjectGraph9JetEngine10InjectablePTl
+- _$s17StringLiteralTypes013ExpressibleByaB0PTl
+- _$s19ArrayLiteralElements013ExpressibleByaB0PTl
+- _$s24UnicodeScalarLiteralTypes013ExpressibleByabC0PTl
+- _$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtF
+- _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
+- _$s2os12OSSignpostIDV9exclusiveACvgZ
+- _$s2os12OSSignpostIDVMa
+- _$s2os12OSSignpostIDVMn
+- _$s2os21OSAllocatedUnfairLockVMn
+- _$s34ExtendedGraphemeClusterLiteralTypes013ExpressibleByabcD0PTl
+- _$s4Code10Foundation21_BridgedStoredNSErrorPTl
+- _$s5Value9JetEngine19MappedPreferenceKeyPTl
+- _$s6Action9JetEngine0A14ImplementationPTl
+- _$s7Elements10SetAlgebraPTl
+- _$s8AppState010StorefrontaB10ControllerC13ConfigurationV14updateRegistryAeA06UpdateG0_p_tcfC
+- _$s8AppState010StorefrontaB10ControllerC13ConfigurationV15withDataSourcesyAESayAA0abG6Source_pGF
+- _$s8AppState010StorefrontaB10ControllerC13ConfigurationVMa
+- _$s8AppState010StorefrontaB10ControllerC15loadDataSourcesyyYaKF
+- _$s8AppState010StorefrontaB10ControllerC15loadDataSourcesyyYaKFTu
+- _$s8AppState010StorefrontaB10ControllerC4fromA2C13ConfigurationV_tcfC
+- _$s8AppState010StorefrontaB10ControllerCAA0abD0AAWP
+- _$s8AppState010StorefrontaB10ControllerCMa
+- _$s8AppState010StorefrontaB10ControllerCMn
+- _$s8AppState015PurchaseHistoryaB10DataSourceC8accounts8platform08purchaseD00iD7ContextAC9JetEngine15AccountProvider_p_AA8Platform_pAA0cD0_pSo011ASDPurchasedJ0VtcfC
+- _$s8AppState015PurchaseHistoryaB10DataSourceCAA0abeF0AAWP
+- _$s8AppState015PurchaseHistoryaB10DataSourceCMa
+- _$s8AppState016ArcadeIntroOfferB0O2eeoiySbAC_ACtFZ
+- _$s8AppState016ArcadeIntroOfferB0O9availableyA2CmFWC
+- _$s8AppState016ArcadeIntroOfferB0OMa
+- _$s8AppState06ArcadeB0O10purchasingyA2C_tcACmFWC
+- _$s8AppState06ArcadeB0O10subscribedyACSo8NSNumberCSg_tcACmFWC
+- _$s8AppState06ArcadeB0O13notSubscribedyAcA0c10IntroOfferB0O_tcACmFWC
+- _$s8AppState06ArcadeB0O2eeoiySbAC_ACtFZ
+- _$s8AppState06ArcadeB0O7unknownyACSb_tcACmFWC
+- _$s8AppState06ArcadeB0OMa
+- _$s8AppState06ArcadeB0OMn
+- _$s8AppState06DeviceA11ObservationMp
+- _$s8AppState06DeviceA5QueryO12allStoreAppsyA2CmFWC
+- _$s8AppState06DeviceA5QueryO8storeIDsyACShyAA6AdamIDVGcACmFWC
+- _$s8AppState06DeviceA5QueryO9bundleIDsyACShySSGcACmFWC
+- _$s8AppState06DeviceA5QueryOMa
+- _$s8AppState06DeviceA7FetcherMp
+- _$s8AppState06DeviceA7FetcherP10fetchQueryySaySo6ASDAppCGAA0caF0OYaKFTj
+- _$s8AppState06DeviceA7FetcherP10fetchQueryySaySo6ASDAppCGAA0caF0OYaKFTjTu
+- _$s8AppState06DeviceA7FetcherP12observeQuery_2on5usingAA0cA11Observation_pAA0caF0O_9JetEngine13TaskScheduler_pySaySo6ASDAppCGYbctFTj
+- _$s8AppState06DeviceaB10DataSourceC5query7fetcher14updateRegistry5storeAcA0cA5QueryO_AA0cA7Fetcher_pAA06UpdateI0_pSgAA0A9StoreTypeOtcfC
+- _$s8AppState06DeviceaB10DataSourceCAA0abdE0AAWP
+- _$s8AppState06DeviceaB10DataSourceCMa
+- _$s8AppState07DefaultaB10DataSourceCAA0abdE0AAWP
+- _$s8AppState07DefaultaB10DataSourceCACycfc
+- _$s8AppState07DefaultaB10DataSourceCMa
+- _$s8AppState07WaitingaB10DataSourceCAA0abdE0AAWP
+- _$s8AppState07WaitingaB10DataSourceCACycfc
+- _$s8AppState07WaitingaB10DataSourceCMa
+- _$s8AppState09ASDDeviceA7FetcherV16regulatoryLoggerAcA010RegulatoryF0_pSg_tcfC
+- _$s8AppState09ASDDeviceA7FetcherVAA06DeviceaD0AAWP
+- _$s8AppState09ASDDeviceA7FetcherVMa
+- _$s8AppState0A0V2id4kindAcA6AdamIDV_AC4KindOtcfC
+- _$s8AppState0A0V2idAA6AdamIDVvg
+- _$s8AppState0A0V4KindO5storeyA2EmFWC
+- _$s8AppState0A0V4KindOMa
+- _$s8AppState0A0VMa
+- _$s8AppState0A0VMn
+- _$s8AppState0A0VSHAAMc
+- _$s8AppState0A0VSQAAMc
+- _$s8AppState0A12InstallationV5PhaseO10installingyAeC8ProgressV_tcAEmFWC
+- _$s8AppState0A12InstallationV5PhaseO11downloadingyAeC8ProgressV_tcAEmFWC
+- _$s8AppState0A12InstallationV5PhaseO14postProcessingyAeC8ProgressV_tcAEmFWC
+- _$s8AppState0A12InstallationV5PhaseO6pausedyA2E_tcAEmFWC
+- _$s8AppState0A12InstallationV5PhaseOMa
+- _$s8AppState0A12InstallationV5phaseAC5PhaseOvg
+- _$s8AppState0A12InstallationV8ProgressV17fractionCompletedSdvg
+- _$s8AppState0A12InstallationV8ProgressV8progressSo10NSProgressCvg
+- _$s8AppState0A12InstallationV8ProgressVMa
+- _$s8AppState0A12InstallationV8progressAC8ProgressVvg
+- _$s8AppState0A12InstallationVMa
+- _$s8AppState0A12PurchaseTypeO8preorderyA2CmFWC
+- _$s8AppState0A12PurchaseTypeO8standardyA2CmFWC
+- _$s8AppState0A12PurchaseTypeOMa
+- _$s8AppState0A16InstallationTypeO7unknownyA2CmFWC
+- _$s8AppState0A16InstallationTypeOMa
+- _$s8AppState0A16InstallationTypeOyAcA0B0OcfC
+- _$s8AppState0A19OpenableDestinationO3appyA2CmFWC
+- _$s8AppState0A19OpenableDestinationO8messagesyA2CmFWC
+- _$s8AppState0A19OpenableDestinationOMa
+- _$s8AppState0A19OpenableDestinationOMn
+- _$s8AppState0A5OfferV5FlagsV4noneAEvgZ
+- _$s8AppState0A5OfferV5FlagsV8dsidLessAEvgZ
+- _$s8AppState0A5OfferV5FlagsVMa
+- _$s8AppState0A5OfferV5FlagsVMn
+- _$s8AppState0A5OfferV5FlagsVSQAAMc
+- _$s8AppState0A5OfferV5FlagsVs10SetAlgebraAAMc
+- _$s8AppState0A5OfferV5flags9ageRating13baseBuyParams07metricshI0A2C5FlagsV_SiSgS2StcfC
+- _$s8AppState0A5OfferV8standardACvgZ
+- _$s8AppState0A5OfferVMa
+- _$s8AppState0A5OfferVMn
+- _$s8AppState0A9StoreTypeO7defaultyA2CmFWC
+- _$s8AppState0A9StoreTypeOMa
+- _$s8AppState0B0O10installingyAcA0A12InstallationV_tcACmFWC
+- _$s8AppState0B0O12downloadableyACSS_tcACmFWC
+- _$s8AppState0B0O17overrideBuyParamsSSSgvg
+- _$s8AppState0B0O2eeoiySbAC_ACtFZ
+- _$s8AppState0B0O3KeyO8rawValueSSvg
+- _$s8AppState0B0O3KeyOMa
+- _$s8AppState0B0O3keyAC3KeyOvg
+- _$s8AppState0B0O7buyableyA2CmFWC
+- _$s8AppState0B0O7unknownyA2CmFWC
+- _$s8AppState0B0O7waitingyAcA0A16InstallationTypeO_tcACmFWC
+- _$s8AppState0B0O8openableyAcA0A19OpenableDestinationO_s5Int64VtcACmFWC
+- _$s8AppState0B0O9installedyA2CmFWC
+- _$s8AppState0B0O9purchasedyAcA0A12PurchaseTypeO_tcACmFWC
+- _$s8AppState0B0O9updatableyACSS_tcACmFWC
+- _$s8AppState0B0OMa
+- _$s8AppState0B0OMn
+- _$s8AppState0B0OSQAAMc
+- _$s8AppState0aB10ControllerMp
+- _$s8AppState0aB10ControllerP010transitionB003forA02toSbAA0A0V_AA0B0OtFTj
+- _$s8AppState0aB10ControllerP02onB6Change9JetEngine10AsyncEventCyAA0A0V3app_AA0B0O03newB0tGvgTj
+- _$s8AppState0aB10ControllerP06reloadB07forApps13synchronizingyShyAA0A0VG_SbtYaKFTj
+- _$s8AppState0aB10ControllerP06reloadB07forApps13synchronizingyShyAA0A0VG_SbtYaKFTjTu
+- _$s8AppState0aB10ControllerP07preloadB07forAppsyShyAA0A0VG_tFTj
+- _$s8AppState0aB10ControllerP10setWaiting03forA016installationTypeSbAA0A0V_AA0a12InstallationH0OtFTj
+- _$s8AppState0aB10ControllerP12clearWaiting03forA007refreshB0SbAA0A0V_SbtFTj
+- _$s8AppState0aB10ControllerP15loadDataSourcesyyYaKFTj
+- _$s8AppState0aB10ControllerP15loadDataSourcesyyYaKFTjTu
+- _$s8AppState0aB10ControllerP15setPostsChanges_03forA0ySb_AA0A0VtFTj
+- _$s8AppState0aB10ControllerP21refreshUpdateRegistry03forA04withyAA0A0V_AA0A5OfferVtYaFTj
+- _$s8AppState0aB10ControllerP21refreshUpdateRegistry03forA04withyAA0A0V_AA0A5OfferVtYaFTjTu
+- _$s8AppState0aB10ControllerP8isLoadedSbvgTj
+- _$s8AppState0aB10ControllerPAAE5state03forA08applyingAA0B0OAA0A0V_AA0A5OfferVtF
+- _$s8AppState0aB10ControllerPAAE5state03forA0AA0B0OAA0A0V_tF
+- _$s8AppState0aB10DataSourceMp
+- _$s8AppState0aB10DataSourceP013onSynchronizeA6States9JetEngine9SyncEventCyShyAA6AdamIDVGGvgTq
+- _$s8AppState0aB10DataSourceP06reloadB011forAppsWith13synchronizingyShyAA6AdamIDVG_SbtYaKFTq
+- _$s8AppState0aB10DataSourceP08providesB003forA0SbAA0A0V_tFTq
+- _$s8AppState0aB10DataSourceP10setWaiting03forA4With16installationTypeSbAA6AdamIDV_AA0a12InstallationJ0OtFTq
+- _$s8AppState0aB10DataSourceP12clearWaiting03forA4WithSbAA6AdamIDV_tFTq
+- _$s8AppState0aB10DataSourceP13isIncrementalSbvgTq
+- _$s8AppState0aB10DataSourceP15reloadAllStates13synchronizingySb_tYaKFTq
+- _$s8AppState0aB10DataSourceP4loadyyYaKFTq
+- _$s8AppState0aB10DataSourceP5state03forA4WithAA0B0OSgAA6AdamIDV_tFTq
+- _$s8AppState0aB10DataSourcePAAE08providesB003forA0SbAA0A0V_tF
+- _$s8AppState0aB10DataSourcePAAE10setWaiting03forA4With16installationTypeSbAA6AdamIDV_AA0a12InstallationJ0OtF
+- _$s8AppState0aB10DataSourcePAAE12clearWaiting03forA4WithSbAA6AdamIDV_tF
+- _$s8AppState0aB10DataSourcePAAE13isIncrementalSbvg
+- _$s8AppState12RestrictionsMp
+- _$s8AppState12RestrictionsP02isA19InstallationAllowedSbvgTj
+- _$s8AppState12RestrictionsP02onC6Change9JetEngine10AsyncEventCyAaB_pGvgTj
+- _$s8AppState12RestrictionsP03maxA13ContentRatingSivgTj
+- _$s8AppState12RestrictionsP17hasManagedAppleIDSbvgTj
+- _$s8AppState12RestrictionsP24isRunningInStoreDemoModeSbvgTj
+- _$s8AppState14GreenTeaLoggerV6sharedACvgZ
+- _$s8AppState14GreenTeaLoggerVAA010RegulatoryE0AAWP
+- _$s8AppState14GreenTeaLoggerVMa
+- _$s8AppState15PurchaseHistoryMp
+- _$s8AppState15PurchaseHistoryP6update2inySo011ASDPurchaseD7ContextV_tYaKFTj
+- _$s8AppState15PurchaseHistoryP6update2inySo011ASDPurchaseD7ContextV_tYaKFTjTu
+- _$s8AppState15PurchaseHistoryP9fetchApps2of7withIDs14compatibleWithSaySo011ASDPurchasedA0CG9JetEngine7AccountVSg_SayAA6AdamIDVGAA8Platform_ptYaKFTj
+- _$s8AppState15PurchaseHistoryP9fetchApps2of7withIDs14compatibleWithSaySo011ASDPurchasedA0CG9JetEngine7AccountVSg_SayAA6AdamIDVGAA8Platform_ptYaKFTjTu
+- _$s8AppState15PurchaseManagerMp
+- _$s8AppState15PurchaseManagerP017isDeletableSystemA0ySbSSFTj
+- _$s8AppState15PurchaseManagerP5startySbSo11ASDPurchaseCYaKFTj
+- _$s8AppState15PurchaseManagerP5startySbSo11ASDPurchaseCYaKFTjTu
+- _$s8AppState15PurchaseManagerP7instally10Foundation4UUIDVSo14ASDAppMetadata_pYaKFTj
+- _$s8AppState15PurchaseManagerP7instally10Foundation4UUIDVSo14ASDAppMetadata_pYaKFTjTu
+- _$s8AppState16HardwarePlatformV3bag6deviceAC9JetEngine3BagV_AF6DeviceVtcfC
+- _$s8AppState16HardwarePlatformVAA0D0AAWP
+- _$s8AppState16HardwarePlatformVMa
+- _$s8AppState19ManagedRestrictionsC8accountsAC9JetEngine15AccountProvider_p_tcfC
+- _$s8AppState19ManagedRestrictionsCAA0D0AAWP
+- _$s8AppState19ManagedRestrictionsCMa
+- _$s8AppState20DeviceUpdateRegistryCAA0dE0AAWP
+- _$s8AppState20DeviceUpdateRegistryCACycfC
+- _$s8AppState20DeviceUpdateRegistryCMa
+- _$s8AppState25ArcadeSubscriptionManagerMp
+- _$s8AppState25ArcadeSubscriptionManagerP012subscriptionB0AA0cB0OvgTj
+- _$s8AppState25ArcadeSubscriptionManagerP02ondB6Change9JetEngine10AsyncEventCyAA0cB0OGvgTj
+- _$s8AppState25ArcadeSubscriptionManagerP06updateB16FromEntitlements15refreshingCacheAA0cB0OAA0C27EntitlementRefreshConditionO_tYaKFTj
+- _$s8AppState25ArcadeSubscriptionManagerP06updateB16FromEntitlements15refreshingCacheAA0cB0OAA0C27EntitlementRefreshConditionO_tYaKFTjTu
+- _$s8AppState28ASDArcadeSubscriptionManagerC11objectGraph18requestingBundleIDAC9JetEngine010BaseObjectG0C_SSSgtcfC
+- _$s8AppState28ASDArcadeSubscriptionManagerCAA06ArcadedE0AAWP
+- _$s8AppState28ASDArcadeSubscriptionManagerCMa
+- _$s8AppState33ArcadeEntitlementRefreshConditionO16ifCacheIsExpiredyACSb_tcACmFWC
+- _$s8AppState33ArcadeEntitlementRefreshConditionOMa
+- _$s8AppState6AdamIDV10int64Values5Int64Vvg
+- _$s8AppState6AdamIDV5valueACs5Int64V_tKcfC
+- _$s8AppState6AdamIDVMa
+- _$s8AppState6AdamIDVMn
+- _$s8AppState6AdamIDVSHAAMc
+- _$s8AppState6AdamIDVSQAAMc
+- _$s8AppState8PlatformMp
+- _$s8AppState8PlatformP18isRosettaAvailableSbvgTj
+- _$s8AppState8PlatformP28isAppleSiliconSupportEnabledSbvgTj
+- _$s8Dispatch0A13WorkItemFlagsVMa
+- _$s8Dispatch0A13WorkItemFlagsVMn
+- _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+- _$s8Dispatch0A3QoSV0B6SClassO7defaultyA2EmFWC
+- _$s8Dispatch0A3QoSV0B6SClassOMa
+- _$s8Dispatch0A3QoSV10backgroundACvgZ
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSV13userInitiatedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s8Dispatch0A4TimeV13distantFutureACvgZ
+- _$s8Dispatch0A4TimeV1loiySbAC_ACtFZ
+- _$s8Dispatch0A4TimeV3nowACyFZ
+- _$s8Dispatch0A4TimeVMa
+- _$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfc
+- _$s8Dispatch0A8WorkItemC6cancelyyFTj
+- _$s8Dispatch0A8WorkItemCMa
+- _$s8Dispatch0A8WorkItemCMn
+- _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateOMa
+- _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
+- _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
+- _$s8RawValueSYTl
+- _$s9JetEngine04DiskA10PackLoaderV13signingPolicy12keyProvidersAcA0ad7SigningG0O_SayAA0aD11KeyProvider_pGtcfC
+- _$s9JetEngine04DiskA10PackLoaderV6bundle4from7baseURL20automaticallyCleanUpAA0caD14ResourceBundleVAA0aD12StreamSource_p_10Foundation0I0VSbtYaKF
+- _$s9JetEngine04DiskA10PackLoaderV6bundle4from7baseURL20automaticallyCleanUpAA0caD14ResourceBundleVAA0aD12StreamSource_p_10Foundation0I0VSbtYaKFTu
+- _$s9JetEngine04DiskA10PackLoaderVMa
+- _$s9JetEngine04DiskA10PackLoaderVMn
+- _$s9JetEngine04DiskA18PackResourceBundleV18memoryMappedSource6atPath14virtualMachine8cacheURLAA16JSSourceProvider_pAA0adK0V_So09JSVirtualM0C10Foundation0O0VSgtKF
+- _$s9JetEngine04DiskA18PackResourceBundleV8fileData6atPath10Foundation0H0VSgAA0adJ0V_tKF
+- _$s9JetEngine04DiskA18PackResourceBundleVAA0adeF0AAWP
+- _$s9JetEngine04DiskA18PackResourceBundleVMa
+- _$s9JetEngine04DiskA18PackResourceBundleVMn
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationV3url10Foundation3URLVvg
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationVAA0cadE8LocationAAMc
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationVMa
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationVMn
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationV_12sourcePolicy20requestConfigurationAE10Foundation3URLV_AA0ade13RequestSourceI0OSo012NSURLSessionK0C_So20AMSURLRequestEncoderCtSo14AMSBagProtocol_p_AJtctcfC
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO11URLLocationV_20requestConfigurationAE10Foundation3URLV_So012NSURLSessionI0C_So20AMSURLRequestEncoderCtSo14AMSBagProtocol_p_AItctcfC
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationV3url10Foundation3URLVyYaKF
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationV3url10Foundation3URLVyYaKFTu
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationVAA0cadeI0AAMc
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationVMa
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationVMn
+- _$s9JetEngine09ValidatedA18PackAssetLocationsO14BagKeyLocationV_3bag14urlTransformer20requestConfigurationAESo06AMSBagH0a_So0O8Protocol_p10Foundation3URLVANKcSgSo012NSURLSessionN0C_So20AMSURLRequestEncoderCtSoAK_p_ANtctcfC
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorV03getaD5Asset06unpackH0AC0caD6ResultVy_xGxAA0adH0VYaYbKXE_tYaKAA0aD14ResourceBundleRzlF
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorV03getaD5Asset06unpackH0AC0caD6ResultVy_xGxAA0adH0VYaYbKXE_tYaKAA0aD14ResourceBundleRzlFTu
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorV0caD6ResultV6bundlexvg
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorV0caD6ResultVMn
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorV7session13assetLocation3bagAcA0aD12AssetSessionC_AA0cadkI0_pSo14AMSBagProtocol_ptcfC
+- _$s9JetEngine09ValidatedA22PackLoadingCoordinatorVMa
+- _$s9JetEngine0A15PackKeyProviderMp
+- _$s9JetEngine0A16PackAssetSessionC13ConfigurationV5cacheAeA0acD5Cache_p_tcfC
+- _$s9JetEngine0A16PackAssetSessionC13ConfigurationVMa
+- _$s9JetEngine0A16PackAssetSessionC13configurationA2C13ConfigurationV_tcfc
+- _$s9JetEngine0A16PackAssetSessionCMa
+- _$s9JetEngine0A17PackSigningPolicyO8requiredyA2CmFWC
+- _$s9JetEngine0A17PackSigningPolicyOMa
+- _$s9JetEngine0A18PackAssetDiskCacheCAA0acdF0AAWP
+- _$s9JetEngine0A18PackAssetDiskCacheCACyKcfC
+- _$s9JetEngine0A18PackAssetDiskCacheCMa
+- _$s9JetEngine0A19PackFileKeyProviderV7keyURLsACSDys6UInt16V10Foundation3URLVG_tcfC
+- _$s9JetEngine0A19PackFileKeyProviderVAA0aceF0AAWP
+- _$s9JetEngine0A19PackFileKeyProviderVMa
+- _$s9JetEngine0A22PackManagedKeyProviderVAA0aceF0AAWP
+- _$s9JetEngine0A22PackManagedKeyProviderVACycfC
+- _$s9JetEngine0A22PackManagedKeyProviderVMa
+- _$s9JetEngine0A25PackAMSRemoteStreamSourceV17defaultURLEncoder13forContentsOf5using4fromSo20AMSURLRequestEncoderC10Foundation3URLV_AA3BagVSgSo14AMSProcessInfoCSgtFZ
+- _$s9JetEngine0A28PackAssetRequestSourcePolicyO10remoteOnlyyA2CmFWC
+- _$s9JetEngine0A28PackAssetRequestSourcePolicyOMa
+- _$s9JetEngine0A8PackPathV06sourceD0ACvgZ
+- _$s9JetEngine0A8PackPathVMa
+- _$s9JetEngine0A8PackPathVyACSScfC
+- _$s9JetEngine0A9PackAssetV12streamSourceAA0ac6StreamF0_pvg
+- _$s9JetEngine0aB9BootstrapV18URLProtocolHandlerO8standardyA2EmFWC
+- _$s9JetEngine0aB9BootstrapV18URLProtocolHandlerOMa
+- _$s9JetEngine10AsyncEventC4postyyxF
+- _$s9JetEngine10AsyncEventCACyxGycfc
+- _$s9JetEngine10AsyncEventCMn
+- _$s9JetEngine10AsyncEventCyxGAA0D7EmitterAAMc
+- _$s9JetEngine10DependencyV10satisfying4withACxm_xtclufC
+- _$s9JetEngine10DependencyVMa
+- _$s9JetEngine10DependencyVMn
+- _$s9JetEngine10InjectableMp
+- _$s9JetEngine10InjectableP8asPartOfx17MemberObjectGraphQz_tcfCTq
+- _$s9JetEngine10JSCallableV4callySo7JSValueCypd_tKF
+- _$s9JetEngine10JSCallableVMa
+- _$s9JetEngine10JSCallableVMn
+- _$s9JetEngine10JSIncidentV14contextSummarySSvg
+- _$s9JetEngine10JSIncidentV14problemSummarySSvg
+- _$s9JetEngine10JSIncidentVMa
+- _$s9JetEngine10JSIncidentVMn
+- _$s9JetEngine10JSONObjectV10dictionaryAA14JSONDictionaryVSgvg
+- _$s9JetEngine10JSONObjectV10stringEnum2orxxyXK_tSYRzSS8RawValueRtzlF
+- _$s9JetEngine10JSONObjectV10stringEnumxyKSYRzSS8RawValueRtzlF
+- _$s9JetEngine10JSONObjectV13deserializingAC10Foundation4DataV_tKcfC
+- _$s9JetEngine10JSONObjectV15stringEnumOrNilxSgySYRzSS8RawValueRtzlF
+- _$s9JetEngine10JSONObjectV3intSiSgvg
+- _$s9JetEngine10JSONObjectV3url10Foundation3URLVSgvg
+- _$s9JetEngine10JSONObjectV4boolSbSgvg
+- _$s9JetEngine10JSONObjectV5arrayAA9JSONArrayVSgvg
+- _$s9JetEngine10JSONObjectV5floatSfSgvg
+- _$s9JetEngine10JSONObjectV6doubleSdSgvg
+- _$s9JetEngine10JSONObjectV6isNullSbvg
+- _$s9JetEngine10JSONObjectV6numberSo8NSNumberCSgvg
+- _$s9JetEngine10JSONObjectV6stringSSSgvg
+- _$s9JetEngine10JSONObjectVMa
+- _$s9JetEngine10JSONObjectVMn
+- _$s9JetEngine10JSONObjectVyACSScig
+- _$s9JetEngine10JSResponseV4bodyAA13CoarselyTimedVyAA10JSONObjectVGvg
+- _$s9JetEngine10JSResponseV9incidentsSayAA10JSIncidentVGvg
+- _$s9JetEngine10JSResponseVMn
+- _$s9JetEngine10LogMessageV13stringLiteralACSS_tcfC
+- _$s9JetEngine10LogMessageV18traceableSensitiveyACypSgFZ
+- _$s9JetEngine10LogMessageV19StringInterpolationV06appendF018traceableSensitiveyypSg_tF
+- _$s9JetEngine10LogMessageV19StringInterpolationV06appendF04safeyypSg_tF
+- _$s9JetEngine10LogMessageV19StringInterpolationV06appendF08identityyyXl_tF
+- _$s9JetEngine10LogMessageV19StringInterpolationV06appendF09sensitiveyypSg_tF
+- _$s9JetEngine10LogMessageV19StringInterpolationV13appendLiteralyySSF
+- _$s9JetEngine10LogMessageV19StringInterpolationV15literalCapacity18interpolationCountAESi_SitcfC
+- _$s9JetEngine10LogMessageV19StringInterpolationVMa
+- _$s9JetEngine10LogMessageV19stringInterpolationA2C06StringF0V_tcfC
+- _$s9JetEngine10LogMessageV4safeyACypSgFZ
+- _$s9JetEngine10LogMessageV9sensitiveyACypSgFZ
+- _$s9JetEngine10LogMessageVMa
+- _$s9JetEngine10LogMessageVMn
+- _$s9JetEngine11ActionModelMp
+- _$s9JetEngine11ActionModelP13actionMetricsAA0cF0VvgTq
+- _$s9JetEngine11JSONContextV11addingValue_11forPropertyACx_AC0G0Vy_xGtlF
+- _$s9JetEngine11JSONContextV19initFailureObserverAC8PropertyVy_AA08JSONIniteF0_pGvgZ
+- _$s9JetEngine11JSONContextV8PropertyVMn
+- _$s9JetEngine11JSONContextVACycfC
+- _$s9JetEngine11JSONContextVMa
+- _$s9JetEngine11JSONContextVMn
+- _$s9JetEngine11JSONContextVyxSgAC8PropertyVy_xGcs8SendableRzluig
+- _$s9JetEngine11MetricsDataV11shouldFlushSbvg
+- _$s9JetEngine11MetricsDataV13deserializing5usingAcA10JSONObjectV_AA11JSONContextVtKcfC
+- _$s9JetEngine11MetricsDataV15excludingFieldsShyAA0C21FieldExclusionRequestVGvg
+- _$s9JetEngine11MetricsDataV15includingFieldsShyAA0C21FieldInclusionRequestVGvg
+- _$s9JetEngine11MetricsDataV5topic11shouldFlush6fields15includingFields09excludingJ0ACSSSg_SbSDySSypGShyAA0C21FieldInclusionRequestVGShyAA0cl9ExclusionN0VGtcfC
+- _$s9JetEngine11MetricsDataV5topicSSSgvg
+- _$s9JetEngine11MetricsDataV6fieldsSDySSypGvg
+- _$s9JetEngine11MetricsDataVMa
+- _$s9JetEngine11MetricsDataVMn
+- _$s9JetEngine11PreferencesMp
+- _$s9JetEngine11PreferencesPAAEy5ValueQyd__Sgqd__cAA19MappedPreferenceKeyRd__luig
+- _$s9JetEngine11PreferencesPAAEy5ValueQyd__Sgqd__cAA19MappedPreferenceKeyRd__luis
+- _$s9JetEngine11PreferencesPAAEyqd__SgAA13PreferenceKeyVyqd__Gcluig
+- _$s9JetEngine11PreferencesPAAEyqd__SgAA13PreferenceKeyVyqd__Gcluis
+- _$s9JetEngine12EventEmitterP16defaultSchedulerAA04TaskF0_pvgZTj
+- _$s9JetEngine12EventEmitterPAAE11addObserver2on6target6methodAA0C12SubscriptionVy0C0QzGAA13TaskScheduler_p_qd__yAKcqd__ctRld__ClF
+- _$s9JetEngine12EventEmitterPAAE11asyncStreamScSy0C0QzGvg
+- _$s9JetEngine12JSONTimeUnitO12millisecondsyA2CmFWC
+- _$s9JetEngine12JSONTimeUnitO7secondsyA2CmFWC
+- _$s9JetEngine12JSONTimeUnitOMa
+- _$s9JetEngine12PipelineTaskPAAE010eraseToAnycD0AA0gcD0Vy6OutputQzGyF
+- _$s9JetEngine12PipelineTaskPAAE03mapD6OutputyAA03MapcD0Cy0F0Qzqd__GAA7PromiseCyqd__GAHKclF
+- _$s9JetEngine12PipelineTaskPAAE03mapD6OutputyAA03MapcD0Cy0F0Qzqd__Gqd__AHKclF
+- _$s9JetEngine12PipelineTaskPAAE7andThenyAA03MapcD0Cy6OutputQzqd__GAA0C5PhaseVyAHqd__GlF
+- _$s9JetEngine13ActionMetricsV15notInstrumentedACvgZ
+- _$s9JetEngine13ActionMetricsV4data6customACSayAA0D4DataVG_AA16ScalarDictionaryVtcfC
+- _$s9JetEngine13ActionMetricsVMa
+- _$s9JetEngine13ActionMetricsVMn
+- _$s9JetEngine13ActionOutcomeO11unsupportedyA2CmFWC
+- _$s9JetEngine13ActionOutcomeO9performedyA2CmFWC
+- _$s9JetEngine13ActionOutcomeOMa
+- _$s9JetEngine13ActionOutcomeOMn
+- _$s9JetEngine13ClosureActionV13actionMetrics4bodyAcA0dF0V_yyKctcfC
+- _$s9JetEngine13ClosureActionVAA0D5ModelAAWP
+- _$s9JetEngine13ClosureActionVMa
+- _$s9JetEngine13CoarselyTimedV9containedxvg
+- _$s9JetEngine13CoarselyTimedVMn
+- _$s9JetEngine13MetricsLoggerC10loggerName13configurationACSS_AC13ConfigurationVtcfc
+- _$s9JetEngine13MetricsLoggerC13ConfigurationV8recorder10eventTopic18samplingPercentage0I8DurationAeA0C13EventRecorder_p_SSS2dtcfC
+- _$s9JetEngine13MetricsLoggerC13ConfigurationVMa
+- _$s9JetEngine13MetricsLoggerC13ConfigurationVMn
+- _$s9JetEngine13MetricsLoggerC3log10contentsOf9withLevelySayAA10LogMessageVG_AA0jkI0OtF
+- _$s9JetEngine13MetricsLoggerCAA0D0AAWP
+- _$s9JetEngine13MetricsLoggerCMa
+- _$s9JetEngine13PipelinePhaseV22cacheValueIfSuccessfulACyxxGyFZ
+- _$s9JetEngine13PipelinePhaseVMn
+- _$s9JetEngine13PreferenceKeyVMn
+- _$s9JetEngine13PreferenceKeyV_2inACyxGSS_AA0C9NamespaceVtcfC
+- _$s9JetEngine14CompoundActionV13actionMetrics10subactionsAcA0dF0V_SayAA0D5Model_pGtcfC
+- _$s9JetEngine14CompoundActionVAA0D5ModelAAWP
+- _$s9JetEngine14CompoundActionVMa
+- _$s9JetEngine14JSONDictionaryV22bridgedPrimitiveValuesSDyxq_GSgySHRzr0_lF
+- _$s9JetEngine14JSONDictionaryVMa
+- _$s9JetEngine14JSONDictionaryVMn
+- _$s9JetEngine14JSPackageIndexV10propertiesSDySSypGvg
+- _$s9JetEngine14JSPackageIndexV13deserializing5using4fromAcA10JSONObjectV_AA11JSONContextV10Foundation3URLVtKcfC
+- _$s9JetEngine14JSPackageIndexVMa
+- _$s9JetEngine14JSPackageIndexVMn
+- _$s9JetEngine15AccountProviderMp
+- _$s9JetEngine15AccountProviderP06activeC0AA0C0VSgvgTj
+- _$s9JetEngine15AnyPipelineTaskV3runAA7PromiseCyxGyF
+- _$s9JetEngine15AnyPipelineTaskVMa
+- _$s9JetEngine15AnyPipelineTaskVMn
+- _$s9JetEngine15AnyPipelineTaskVyxGAA0dE0AAMc
+- _$s9JetEngine15BaseObjectGraphC01_aB8_SwiftUIE6injectyxxmlF
+- _$s9JetEngine15BaseObjectGraphC13noMemberFound9toSatisfys5NeverOxm_tlFTj
+- _$s9JetEngine15BaseObjectGraphC4name12dependenciesACSS_AA20DependencyDictionaryVtcfCTq
+- _$s9JetEngine15BaseObjectGraphC4name12dependenciesACSS_AA20DependencyDictionaryVtcfc
+- _$s9JetEngine15BaseObjectGraphC4nameSSvsTj
+- _$s9JetEngine15BaseObjectGraphC5build8withNameAA05AsyncdE7Builder_pSS_tFZ
+- _$s9JetEngine15BaseObjectGraphC6adding10dependencyACXDAA10DependencyV_tFTj
+- _$s9JetEngine15BaseObjectGraphC6adding15allDependenciesACXDx_tSTRzAA10DependencyV7ElementRtzlFTj
+- _$s9JetEngine15BaseObjectGraphC8optionalyxSgxmlF
+- _$s9JetEngine15BaseObjectGraphCMa
+- _$s9JetEngine15BaseObjectGraphCMm
+- _$s9JetEngine15BaseObjectGraphCMn
+- _$s9JetEngine15BaseObjectGraphCfd
+- _$s9JetEngine15BaseObjectGraphCyA2CcfC
+- _$s9JetEngine15LogMessageLevelO5erroryA2CmFWC
+- _$s9JetEngine15LogMessageLevelOMa
+- _$s9JetEngine15MapPipelineTaskCMn
+- _$s9JetEngine15MapPipelineTaskCyxq_GAA0dE0AAMc
+- _$s9JetEngine15MetricsPipelineV11builderType10aggregator6linter8recorderAcA0C13FieldsBuilder_pXp_AA0cJ10AggregatorVAA0C11EventLinter_pAA0cM8Recorder_ptcfC
+- _$s9JetEngine15MetricsPipelineV24unstable_scheduleBarrieryyyycFZ
+- _$s9JetEngine15MetricsPipelineV7process_5usingAA7PromiseCyAA06LintedC5EventVGAA0C4DataV_AA0C13FieldsContextVtF
+- _$s9JetEngine15MetricsPipelineVMa
+- _$s9JetEngine15MetricsPipelineVMn
+- _$s9JetEngine16ActionDispatcherV15MetricsBehaviorO04fromC0yAEyx_GAA0E13FieldsContextV_tcAGmAA15BaseObjectGraphCRbzlFWC
+- _$s9JetEngine16ActionDispatcherV15MetricsBehaviorO12notProcessedyAEyx_GAGmAA15BaseObjectGraphCRbzlFWC
+- _$s9JetEngine16ActionDispatcherV15MetricsBehaviorOMn
+- _$s9JetEngine16ActionDispatcherV3addyyqd__11ObjectGraphQyd__RszAA0C14ImplementationRd__lF
+- _$s9JetEngine16ActionDispatcherV7perform_11withMetrics8asPartOfAA0C7OutcomeOAA0C5Model_p_AC0G8BehaviorOyx_GxtYaKF
+- _$s9JetEngine16ActionDispatcherV7perform_11withMetrics8asPartOfAA0C7OutcomeOAA0C5Model_p_AC0G8BehaviorOyx_GxtYaKFTu
+- _$s9JetEngine16ActionDispatcherV7perform_11withMetrics8asPartOfAA7PromiseCyAA0C7OutcomeOGAA0C5Model_p_AC0G8BehaviorOyx_GxtF
+- _$s9JetEngine16ActionDispatcherVACyxGycfC
+- _$s9JetEngine16ActionDispatcherVMn
+- _$s9JetEngine16AnyPreferenceKeyMp
+- _$s9JetEngine16AnyPreferenceKeyP10lookupNameSSvgTq
+- _$s9JetEngine16JSSourceProviderMp
+- _$s9JetEngine16LocalPreferencesC18currentApplicationACvgZ
+- _$s9JetEngine16LocalPreferencesCAA0D0AAWP
+- _$s9JetEngine16LocalPreferencesCMa
+- _$s9JetEngine16LocalizerContextO7unknownyA2CmFWC
+- _$s9JetEngine16LocalizerContextOMa
+- _$s9JetEngine16MetricsEventTypeV5clickACvgZ
+- _$s9JetEngine16MetricsEventTypeV8rawValueSSvg
+- _$s9JetEngine16MetricsEventTypeVMa
+- _$s9JetEngine16ScalarDictionaryVACycfC
+- _$s9JetEngine16ScalarDictionaryVMa
+- _$s9JetEngine17BagLanguageSourceV14fetchLanguagesSaySSGyYaKF
+- _$s9JetEngine17BagLanguageSourceV14fetchLanguagesSaySSGyYaKFTu
+- _$s9JetEngine17BagLanguageSourceV3bagAcA0C0V_tcfC
+- _$s9JetEngine17BagLanguageSourceVAA0dE0AAWP
+- _$s9JetEngine17BagLanguageSourceVMa
+- _$s9JetEngine17EventSubscriptionVMn
+- _$s9JetEngine17ExpressibleByJSONMp
+- _$s9JetEngine17ExpressibleByJSONP13deserializing5usingxAA10JSONObjectV_AA11JSONContextVtKcfCTj
+- _$s9JetEngine17ExpressibleByJSONP13deserializing5usingxAA10JSONObjectV_AA11JSONContextVtKcfCTq
+- _$s9JetEngine17ExpressibleByJSONP16tryDeserializing5usingxSgAA10JSONObjectV_AA11JSONContextVtcfCTq
+- _$s9JetEngine17ExpressibleByJSONPAAE16tryDeserializing5usingxSgAA10JSONObjectV_AA11JSONContextVtcfC
+- _$s9JetEngine17PipelineEntryTaskVMn
+- _$s9JetEngine17PipelineEntryTaskVyxGAA0cE0AAMc
+- _$s9JetEngine17SyncTaskSchedulerVAA0dE0AAWP
+- _$s9JetEngine17SyncTaskSchedulerVACycfC
+- _$s9JetEngine17SyncTaskSchedulerVMa
+- _$s9JetEngine18LintedMetricsEventV6fields6issuesACSDySSypG_SayAC5IssueVGtcfC
+- _$s9JetEngine18LintedMetricsEventV6fieldsSDySSypGvg
+- _$s9JetEngine18LintedMetricsEventVAA17ExpressibleByJSONAAWP
+- _$s9JetEngine18LintedMetricsEventVMa
+- _$s9JetEngine18LintedMetricsEventVMn
+- _$s9JetEngine18MetricsEventLinterMp
+- _$s9JetEngine18MetricsEventLinterP07processD0yAA7PromiseCyAA06LintedcD0VGSDySSypGFTq
+- _$s9JetEngine19MappedPreferenceKeyMp
+- _$s9JetEngine19MappedPreferenceKeyP6decodey5ValueQzSgypFTq
+- _$s9JetEngine19MappedPreferenceKeyP6encodeyyp5ValueQzFTq
+- _$s9JetEngine19MappedPreferenceKeyPAA03AnydE0Tb
+- _$s9JetEngine19PreferenceNamespaceV10componentsACSaySSG_tcfC
+- _$s9JetEngine19PreferenceNamespaceVMa
+- _$s9JetEngine19RunLoopWorkerThreadC11PendingTaskVMa
+- _$s9JetEngine19RunLoopWorkerThreadC13scheduleAfter5delay7executeAC11PendingTaskVSd_yyctFTj
+- _$s9JetEngine19RunLoopWorkerThreadC7currentACSgvgZ
+- _$s9JetEngine19RunLoopWorkerThreadCAA13TaskSchedulerAAWP
+- _$s9JetEngine19RunLoopWorkerThreadCMa
+- _$s9JetEngine19RunLoopWorkerThreadCMn
+- _$s9JetEngine20ActionImplementationMp
+- _$s9JetEngine20ActionImplementationP0C0AC_AA0C5ModelTn
+- _$s9JetEngine20ActionImplementationP7perform_8asPartOfAA7PromiseCyAA0C7OutcomeOG0C0Qz_11ObjectGraphQztFTq
+- _$s9JetEngine20DependencyDictionaryVMa
+- _$s9JetEngine20LocalizedStringTableV12targetBundle13languageCodesACSo8NSBundleC_SaySSGtcfC
+- _$s9JetEngine20LocalizedStringTableVAA0C17StringsDataSourceAAWP
+- _$s9JetEngine20LocalizedStringTableVMa
+- _$s9JetEngine20MetricsEventRecorderMp
+- _$s9JetEngine20MetricsEventRecorderP5flushAA7PromiseCySiGyFTj
+- _$s9JetEngine20MetricsEventRecorderP6record_2onyAA06LintedcD0V_SSSgtFTj
+- _$s9JetEngine20MetricsFieldsBuilderMp
+- _$s9JetEngine20MetricsFieldsBuilderP03allcD0SDySSypGvgTq
+- _$s9JetEngine20MetricsFieldsBuilderP04baseD0xSDySSypG_tcfCTq
+- _$s9JetEngine20MetricsFieldsBuilderP8addValue_8forFieldyyp_SStKFTj
+- _$s9JetEngine20MetricsFieldsBuilderP8addValue_8forFieldyyp_SStKFTq
+- _$s9JetEngine20MetricsFieldsContextV11addingValue_11forPropertyACx_AC0I0Vy_xGtlF
+- _$s9JetEngine20MetricsFieldsContextV8PropertyVAASDySSypGRszlE04pageD0AEy_AFGvgZ
+- _$s9JetEngine20MetricsFieldsContextV8PropertyVMn
+- _$s9JetEngine20MetricsFieldsContextV8PropertyVyAEy_xGSScfC
+- _$s9JetEngine20MetricsFieldsContextV8addValue_11forPropertyyx_AC0I0Vy_xGtlF
+- _$s9JetEngine20MetricsFieldsContextVACycfC
+- _$s9JetEngine20MetricsFieldsContextVMa
+- _$s9JetEngine20MetricsFieldsContextVyxSgAC8PropertyVy_xGcs8SendableRzluig
+- _$s9JetEngine21MetricsFieldsProviderMp
+- _$s9JetEngine21MetricsFieldsProviderP012addExpensivecD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtYaKFTq
+- _$s9JetEngine21MetricsFieldsProviderP016addTimeSensitivecD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtKFTq
+- _$s9JetEngine21MetricsFieldsProviderP03addcD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtKFTq
+- _$s9JetEngine21MetricsFieldsProviderP8categoryAA0cdE8CategoryOvgTq
+- _$s9JetEngine21MetricsFieldsProviderPAAE012addExpensivecD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtYaKF
+- _$s9JetEngine21MetricsFieldsProviderPAAE012addExpensivecD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtYaKFTu
+- _$s9JetEngine21MetricsFieldsProviderPAAE016addTimeSensitivecD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtKF
+- _$s9JetEngine21MetricsFieldsProviderPAAE03addcD04into5usingyAA0cD7Builder_pz_AA0cD7ContextVtKF
+- _$s9JetEngine22AppleServicesLocalizerC13ConfigurationV10dataSource08languageH011objectGraphAeA020LocalizedStringsDataH0_p_AA08LanguageH0_pAA010BaseObjectK0CtcfC
+- _$s9JetEngine22AppleServicesLocalizerC13ConfigurationV27withNativeStringsDataSourceyAeA09LocalizedijK0_pF
+- _$s9JetEngine22AppleServicesLocalizerC13ConfigurationVMa
+- _$s9JetEngine22AppleServicesLocalizerC4load5usingACXDAC13ConfigurationV_tYaKFZ
+- _$s9JetEngine22AppleServicesLocalizerC4load5usingACXDAC13ConfigurationV_tYaKFZTu
+- _$s9JetEngine22AppleServicesLocalizerCAA0E0AAWP
+- _$s9JetEngine22AppleServicesLocalizerCMa
+- _$s9JetEngine22LocalizedStringsBundleV08resourceE09indexPathAcA0a12PackResourceE0_p_AA0aiH0VtKcfC
+- _$s9JetEngine22LocalizedStringsBundleVAA0cD10DataSourceAAWP
+- _$s9JetEngine22LocalizedStringsBundleVMa
+- _$s9JetEngine23AMSMetricsEventRecorderC13withDecoratoryACSo0cD0CAFcSgF
+- _$s9JetEngine23AMSMetricsEventRecorderC3bag12defaultTopic15anonymousTopicsAcA3BagV_SSShySSGtcfC
+- _$s9JetEngine23AMSMetricsEventRecorderCAA07MetricsdE0AAWP
+- _$s9JetEngine23AMSMetricsEventRecorderCMa
+- _$s9JetEngine23AsyncObjectGraphBuilderP04makedE0AA7PromiseCyAA04BasedE0CGyFTj
+- _$s9JetEngine23AsyncObjectGraphBuilderP10satisfying_4withAaB_pqd__m_AA7PromiseCyqd__GAA04BasedE0CctlFTj
+- _$s9JetEngine23AsyncObjectGraphBuilderPAAE10satisfying_4withAaB_pqd__m_qd__AA04BasedE0CKctlF
+- _$s9JetEngine23AsyncObjectGraphBuilderPAAE25withDependenciesSatisfiedAaB_pvg
+- _$s9JetEngine23JSONInitFailureObserverMp
+- _$s9JetEngine23JSONInitFailureObserverP14tryingToEncode_11didFailWithyypXp_s5Error_ptFTq
+- _$s9JetEngine23JSONInitFailureObserverP18tryingToInitialize_11didFailWithyypXp_s5Error_ptFTj
+- _$s9JetEngine23JSONInitFailureObserverP18tryingToInitialize_11didFailWithyypXp_s5Error_ptFTq
+- _$s9JetEngine23JSONInitFailureObserverPAAE14tryingToEncode_11didFailWithyypXp_s5Error_ptF
+- _$s9JetEngine23MetricsFieldsAggregatorV16addOptInProvider_10forRequestyAA0cdI0_p_AA0c14FieldInclusionK0VtF
+- _$s9JetEngine23MetricsFieldsAggregatorV17addOptOutProvider_10forRequestyAA0cdI0_p_AA0c14FieldExclusionK0VtF
+- _$s9JetEngine23MetricsFieldsAggregatorV3bag15accountProvider6bundleAcA3BagV_AA07AccountH0_pSo8NSBundleCtcfC
+- _$s9JetEngine23MetricsFieldsAggregatorVMa
+- _$s9JetEngine24CustomJSValueConvertibleMp
+- _$s9JetEngine24CustomJSValueConvertibleP16jsRepresentation2inAaB_pSo9JSContextC_tKFTq
+- _$s9JetEngine24CustomJSValueConvertibleP8_jsValue2inSo0D0CSo9JSContextC_tKFTq
+- _$s9JetEngine24CustomJSValueConvertibleP9makeValue2inSo0D0CSo9JSContextC_tFTq
+- _$s9JetEngine24CustomJSValueConvertiblePAAE16jsRepresentation2inAaB_pSo9JSContextC_tKF
+- _$s9JetEngine24CustomJSValueConvertiblePAAE8_jsValue2inSo0D0CSo9JSContextC_tKF
+- _$s9JetEngine25AsyncActionImplementationMp
+- _$s9JetEngine25AsyncActionImplementationP7perform_8asPartOfAA0D7OutcomeO0D0Qz_11ObjectGraphQztYaKFTq
+- _$s9JetEngine25AsyncActionImplementationPAA0dE0Tb
+- _$s9JetEngine25AsyncActionImplementationPAAE7perform_8asPartOfAA7PromiseCyAA0D7OutcomeOG0D0Qz_11ObjectGraphQztF
+- _$s9JetEngine25EmptyActionImplementationVACyxGycfC
+- _$s9JetEngine25EmptyActionImplementationVMn
+- _$s9JetEngine25EmptyActionImplementationVyxGAA0dE0AAMc
+- _$s9JetEngine27ClosureActionImplementationV9schedulerACyxGAA13TaskScheduler_p_tcfC
+- _$s9JetEngine27ClosureActionImplementationVMn
+- _$s9JetEngine27ClosureActionImplementationVyxGAA0dE0AAMc
+- _$s9JetEngine28CompoundActionImplementationVACyxGycfC
+- _$s9JetEngine28CompoundActionImplementationVMn
+- _$s9JetEngine28CompoundActionImplementationVyxGAA0dE0AAMc
+- _$s9JetEngine28MetricsFieldExclusionRequestV8rawValueACSS_tcfC
+- _$s9JetEngine28MetricsFieldExclusionRequestV8rawValueSSvg
+- _$s9JetEngine28MetricsFieldExclusionRequestVMa
+- _$s9JetEngine28MetricsFieldExclusionRequestVMn
+- _$s9JetEngine28MetricsFieldExclusionRequestVSHAAMc
+- _$s9JetEngine28MetricsFieldExclusionRequestVSQAAMc
+- _$s9JetEngine28MetricsFieldInclusionRequestV8rawValueACSS_tcfC
+- _$s9JetEngine28MetricsFieldInclusionRequestV8rawValueSSvg
+- _$s9JetEngine28MetricsFieldInclusionRequestVMa
+- _$s9JetEngine28MetricsFieldInclusionRequestVMn
+- _$s9JetEngine28MetricsFieldInclusionRequestVSHAAMc
+- _$s9JetEngine28MetricsFieldInclusionRequestVSQAAMc
+- _$s9JetEngine29MetricsFieldsProviderCategoryO13timeSensitiveyA2CmFWC
+- _$s9JetEngine29MetricsFieldsProviderCategoryO9expensiveyA2CmFWC
+- _$s9JetEngine29MetricsFieldsProviderCategoryOMa
+- _$s9JetEngine29MetricsFieldsProviderCategoryOMn
+- _$s9JetEngine3BagV03amsC0So14AMSBagProtocol_pvg
+- _$s9JetEngine3BagV05fetchC010forProfile21wantsAutomaticUpdatesAA7PromiseCyACGAC0F0V_SbtFZ
+- _$s9JetEngine3BagV12timeInterval4fromAC5ValueVy_SdGSo9AMSBagKeya_AA12JSONTimeUnitOtcig
+- _$s9JetEngine3BagV4boolAC5ValueVy_SbGSo9AMSBagKeya_tcig
+- _$s9JetEngine3BagV4fromACSo14AMSBagProtocol_p_tcfC
+- _$s9JetEngine3BagV5ValueV12currentOrNilxSgyF
+- _$s9JetEngine3BagV5ValueV7current2orxxyXK_tF
+- _$s9JetEngine3BagV5ValueV7current2orxxyXK_tYaF
+- _$s9JetEngine3BagV5ValueV7current2orxxyXK_tYaFTu
+- _$s9JetEngine3BagV5ValueV7promiseAA7PromiseCyxSgGyF
+- _$s9JetEngine3BagV5ValueVMn
+- _$s9JetEngine3BagV6doubleAC5ValueVy_SdGSo9AMSBagKeya_tcig
+- _$s9JetEngine3BagV6stringAC5ValueVy_SSGSo9AMSBagKeya_tcig
+- _$s9JetEngine3BagV7ProfileV4name7versionAESS_SStcfC
+- _$s9JetEngine3BagV7ProfileV4nameSSvg
+- _$s9JetEngine3BagV7ProfileV7versionSSvg
+- _$s9JetEngine3BagV7ProfileVMa
+- _$s9JetEngine3BagVMa
+- _$s9JetEngine3BagVMn
+- _$s9JetEngine6DeviceV10systemNameSSvg
+- _$s9JetEngine6DeviceV11modelFamilySSvg
+- _$s9JetEngine6DeviceV12buildVersionSSvg
+- _$s9JetEngine6DeviceV13physicalModelSSvg
+- _$s9JetEngine6DeviceV7currentACvgZ
+- _$s9JetEngine6DeviceVMa
+- _$s9JetEngine6FutureP4then5ValueQzyYaKFTj
+- _$s9JetEngine6FutureP4then5ValueQzyYaKFTjTu
+- _$s9JetEngine6LoggerMp
+- _$s9JetEngine6LoggerP3log10contentsOf9withLevelySayAA10LogMessageVG_AA0ijH0OtFTj
+- _$s9JetEngine6LoggerPAAE4infoyyAA10LogMessageVd_tF
+- _$s9JetEngine6LoggerPAAE5debugyyAA10LogMessageVd_tF
+- _$s9JetEngine6LoggerPAAE5erroryyAA10LogMessageVd_tF
+- _$s9JetEngine6LoggerPAAE7warningyyAA10LogMessageVd_tF
+- _$s9JetEngine6inject_4fromxxm_17MemberObjectGraphQztAA10InjectableRzlF
+- _$s9JetEngine6inject_4fromxxm_q_tAA15BaseObjectGraphCRb_r0_lF
+- _$s9JetEngine7AccountV02acC4CopySo9ACAccountCvg
+- _$s9JetEngine7AccountV13dynamicMemberxs24ReferenceWritableKeyPathCySo9ACAccountCxG_tcluig
+- _$s9JetEngine7AccountV5value7forFlagypSgSo010AMSAccountF0a_tF
+- _$s9JetEngine7AccountV7cookies3forSaySo12NSHTTPCookieCG10Foundation3URLV_tF
+- _$s9JetEngine7AccountVMa
+- _$s9JetEngine7AccountVMn
+- _$s9JetEngine7JSErrorV16jsRepresentation2inAA24CustomJSValueConvertible_pSo9JSContextC_tKF
+- _$s9JetEngine7JSErrorV4lineSiSgvg
+- _$s9JetEngine7JSErrorV6columnSiSgvg
+- _$s9JetEngine7JSErrorV7message4line6column9sourceURL15constructorNameACSS_SiSgAISSSgAJtcfC
+- _$s9JetEngine7JSErrorV7messageSSvg
+- _$s9JetEngine7JSErrorV8badValue8expectedACSo7JSValueC_SStcfC
+- _$s9JetEngine7JSErrorV9makeValue2inSo7JSValueCSo9JSContextC_tF
+- _$s9JetEngine7JSErrorV9sourceURLSSSgvg
+- _$s9JetEngine7JSErrorVMa
+- _$s9JetEngine7JSErrorVs5ErrorAAMc
+- _$s9JetEngine7JSRouteV7service8functionACSS_SStcfC
+- _$s9JetEngine7JSRouteVMa
+- _$s9JetEngine7JSRouteVMn
+- _$s9JetEngine7JSStackC12PrerequisiteO12globalObjectyAESS_So8JSExport_ptcAEmFWC
+- _$s9JetEngine7JSStackC12PrerequisiteO6sourceyAeA16JSSourceProvider_pcAEmFWC
+- _$s9JetEngine7JSStackC12PrerequisiteOMa
+- _$s9JetEngine7JSStackC12PrerequisiteOMn
+- _$s9JetEngine7JSStackC14performRequestyAA7PromiseCyAA10JSResponseVGAA9JSRequestVF
+- _$s9JetEngine7JSStackC17withUnsafeContextyyySo9JSContextCcF
+- _$s9JetEngine7JSStackC21makeRemoteInspectableyyF
+- _$s9JetEngine7JSStackC24requestGarbageCollectionyyF
+- _$s9JetEngine7JSStackC27StandardGlobalConfigurationV25isProtocolHandlingEnabledSbvs
+- _$s9JetEngine7JSStackC27StandardGlobalConfigurationV7defaultAEvgZ
+- _$s9JetEngine7JSStackC27StandardGlobalConfigurationVMa
+- _$s9JetEngine7JSStackC6notify8withNameAA7PromiseCyytGSS_tF
+- _$s9JetEngine7JSStackC8asPartOf14virtualMachine13configuration19customPrerequisitesAcA15BaseObjectGraphC_So09JSVirtualH0CAC27StandardGlobalConfigurationVSayAC12PrerequisiteOGtKcfC
+- _$s9JetEngine7JSStackCMa
+- _$s9JetEngine7JSStackCMn
+- _$s9JetEngine7PromiseC3map2on_ACyqd__GAA13TaskScheduler_p_qd__xKctlF
+- _$s9JetEngine7PromiseC4join4withACyx_5ValueQyd__tGqd___tAA6FutureRd__lF
+- _$s9JetEngine7PromiseC4then7perform12orCatchError2onyyxc_ys0H0_pcAA13TaskScheduler_ptF
+- _$s9JetEngine7PromiseC5errorACyxGs5Error_p_tcfC
+- _$s9JetEngine7PromiseC5valueACyxGx_tcfC
+- _$s9JetEngine7PromiseC6always2on7performyAA13TaskScheduler_p_yACyxGctF
+- _$s9JetEngine7PromiseC6rejectyys5Error_pF
+- _$s9JetEngine7PromiseC7flatMap2on_ACy5ValueQyd__GAA13TaskScheduler_p_qd__xctAA6FutureRd__lF
+- _$s9JetEngine7PromiseC7resolveyyxF
+- _$s9JetEngine7PromiseCA2A15BaseObjectGraphCRbzlE25withDependenciesSatisfiedAA05AsynceF7Builder_pvg
+- _$s9JetEngine7PromiseCAARlzClEyACyxGSo10AMSPromiseCyxGcfC
+- _$s9JetEngine7PromiseCAAytRszlEyACyytGSo09AMSBinaryC0CcfC
+- _$s9JetEngine7PromiseCACyxGycfC
+- _$s9JetEngine7PromiseCMn
+- _$s9JetEngine7PromiseCyxGAA6FutureAAMc
+- _$s9JetEngine8OSLoggerV9SubsystemV8rawValueAESS_tcfC
+- _$s9JetEngine8OSLoggerV9SubsystemVMa
+- _$s9JetEngine8OSLoggerV9subsystem8categoryA2C9SubsystemV_SStcfC
+- _$s9JetEngine8OSLoggerVAA6LoggerAAWP
+- _$s9JetEngine8OSLoggerVMa
+- _$s9JetEngine8PipelineO5start4withAA0C9EntryTaskVyxGx_tlFZ
+- _$s9JetEngine9JSONArrayV10compactMapySayxGxSgAA10JSONObjectVKXEKlF
+- _$s9JetEngine9JSONArrayVMa
+- _$s9JetEngine9JSONArrayVMn
+- _$s9JetEngine9JSONErrorO11unknownCaseyACSS_ypXptcACmFWC
+- _$s9JetEngine9JSONErrorO15missingPropertyyACSS_ypXptcACmFWC
+- _$s9JetEngine9JSONErrorO17malformedDocumentyACypXp_Says5Error_pGtcACmFWC
+- _$s9JetEngine9JSONErrorO17malformedPropertyyACSS_ypXpSays5Error_pGtcACmFWC
+- _$s9JetEngine9JSONErrorOMa
+- _$s9JetEngine9JSONErrorOs5ErrorAAMc
+- _$s9JetEngine9JSPromiseV2in8executorACSo9JSContextC_yAG_AA10JSCallableVAItKctKcfC
+- _$s9JetEngine9JSPromiseV5valueSo7JSValueCvg
+- _$s9JetEngine9JSPromiseVMa
+- _$s9JetEngine9JSRequestV12addingOption_8withNameACypSg_SStF
+- _$s9JetEngine9JSRequestV14removingOption8withNameACSS_tF
+- _$s9JetEngine9JSRequestV5route15timeoutInterval7versionAcA7JSRouteV_SdSgSutcfC
+- _$s9JetEngine9JSRequestV5routeAA7JSRouteVvg
+- _$s9JetEngine9JSRequestV7optionsSDySSypGvg
+- _$s9JetEngine9JSRequestVMa
+- _$s9JetEngine9JSRequestVMn
+- _$s9JetEngine9LocalizerMp
+- _$s9JetEngine9LocalizerP13formattedDate6format4date10inSentenceS2S_10Foundation0E0VSStFTj
+- _$s9JetEngine9LocalizerP14formattedCountySSSiFTj
+- _$s9JetEngine9LocalizerP6locale10Foundation6LocaleVvgTj
+- _$s9JetEngine9LocalizerP7decimal9forNumber21minimumFractionDigits07maximumhI02inSSSo8NSNumberC_SiSgAkA0C7ContextOtFTj
+- _$s9JetEngine9LocalizerP8fileSize8forBytesSSSd_tFTj
+- _$s9JetEngine9LocalizerPAAE12relativeDateySS10Foundation0E0VF
+- _$s9JetEngine9LocalizerPAAE13formattedDate6format4dateS2S_10Foundation0E0VtF
+- _$s9JetEngine9LocalizerPAAE6string6forKeyS2S_tF
+- _$s9JetEngine9LocalizerPAAE6string9withCount6forKeySSSi_SStF
+- _$s9JetEngine9SyncEventC4postyyxF
+- _$s9JetEngine9SyncEventCACyxGycfc
+- _$s9JetEngine9SyncEventCMn
+- _$sBOWV
+- _$sBbWV
+- _$sBi32_WV
+- _$sBi64_WV
+- _$sBi8_WV
+- _$sBoWV
+- _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSE6encode2toys7Encoder_p_tKFTq
+- _$sSEMp
+- _$sSH13_rawHashValue4seedS2i_tFTj
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTj
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+- _$sSL1loiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
+- _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+- _$sSS10FoundationE6format6locale9argumentsS2Sh_AA6LocaleVSghSays7CVarArg_pGhtcfC
+- _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS10lowercasedSSyF
+- _$sSS10reflectingSSx_tclufC
+- _$sSS15reserveCapacityyySiF
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS5index5afterSS5IndexVAD_tF
+- _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
+- _$sSS6append10contentsOfyx_tSTRzSJ7ElementRtzlF
+- _$sSS6appendyySSF
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSS9hasPrefixySbSSF
+- _$sSS9hashValueSivg
+- _$sSSN
+- _$sSSSHsWP
+- _$sSSSTsWP
+- _$sSSSysMc
+- _$sSSs25LosslessStringConvertiblesWP
+- _$sSSs34_ExpressibleByBuiltinStringLiteralsWP
+- _$sSSs41_ExpressibleByBuiltinUnicodeScalarLiteralsWP
+- _$sSSs51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralsWP
+- _$sSSs7CVarArg10FoundationMc
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sSSySsSnySS5IndexVGcig
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTj
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
+- _$sSa9JetEngineAA17ExpressibleByJSONRzlE13deserializing5usingSayxGAA10JSONObjectV_AA11JSONContextVtKcfC
+- _$sSa9JetEngineAA17ExpressibleByJSONRzlE13deserializing5usingSayxGAA9JSONArrayV_AA11JSONContextVtKcfC
+- _$sSa9JetEngineAA17ExpressibleByJSONRzlE16tryDeserializing5usingSayxGAA10JSONObjectV_AA11JSONContextVtcfC
+- _$sSa9JetEngineAA17ExpressibleByJSONRzlE16tryDeserializing5usingSayxGAA9JSONArrayV_AA11JSONContextVtcfC
+- _$sSaMa
+- _$sSayxGSKsMc
+- _$sSayxGSTsMc
+- _$sSbN
+- _$sSbSHsWP
+- _$sScA15unownedExecutorScevgTj
+- _$sScC6resume8throwingyq_n_tF
+- _$sScC6resume9returningyxn_tF
+- _$sScG17makeAsyncIteratorScG0C0Vyx_GyF
+- _$sScG8IteratorVMn
+- _$sScG8IteratorVyx_GScIsMc
+- _$sScI4next7ElementQzSgyYaKFTj
+- _$sScI4next7ElementQzSgyYaKFTjTu
+- _$sScP7utilityScPvgZ
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sScS8IteratorVMn
+- _$sScS8IteratorVyx_GScIsMc
+- _$sScSyxGScisMc
+- _$sScg17makeAsyncIteratorScg0C0Vyxq__GyF
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKF
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
+- _$sScg8IteratorVMn
+- _$sScg8IteratorVyxq__GScIsMc
+- _$sScg9cancelAllyyF
+- _$sSci17makeAsyncIterator0bC0QzyFTj
+- _$sSdN
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF
+- _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
+- _$sSh15minimumCapacityShyxGSi_tcfC
+- _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
+- _$sSh5IndexVMn
+- _$sSh8IteratorV6_cocoaAByx_Gs10__CocoaSetVAACn_tcfC
+- _$sSiN
+- _$sSis17FixedWidthIntegersMc
+- _$sSis23CustomStringConvertiblesWP
+- _$sSis7CVarArgsWP
+- _$sSo13AMSURLSessionC9JetEngineE03forbC10Storefront4with0D013usingProtocolABXDAC3BagV_So14AMSProcessInfoCAC0bC9BootstrapV18URLProtocolHandlerOtFZ
+- _$sSo14ACAccountStoreC9JetEngine15AccountProviderACWP
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline7executeyAC0D4TimeV_AC0D8WorkItemCtF
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
+- _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo17OS_dispatch_queueC8DispatchE6global3qosAbC0D3QoSV0G6SClassO_tFZ
+- _$sSo17OS_dispatch_queueC9JetEngine13TaskSchedulerACWP
+- _$sSo17OS_dispatch_queueC9JetEngineE8schedule4taskyyyc_tF
+- _$sSo18ASDPurchaseHistoryC8AppState08PurchaseB0ACWP
+- _$sSo18ASDPurchaseManagerC8AppState08PurchaseB0ACWP
+- _$sSo18OS_dispatch_sourceC8DispatchE16makeSignalSource6signal5queueSo0a1_b1_c1_H0_ps5Int32V_So0a1_b1_I0CSgtFZ
+- _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventV7warningAEvgZ
+- _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventVMa
+- _$sSo18OS_dispatch_sourceC8DispatchE24makeMemoryPressureSource9eventMask5queueSo0a1_b1_C15_memorypressure_pAbCE0fG5EventV_So0a1_b1_K0CSgtFZ
+- _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
+- _$sSo18OS_dispatch_sourceP8DispatchE6resumeyyF
+- _$sSo18os_signpost_type_ta0A0E3endABvgZ
+- _$sSo18os_signpost_type_ta0A0E5beginABvgZ
+- _$sSo18os_signpost_type_ta0A0E5eventABvgZ
+- _$sSo21OS_dispatch_semaphoreC8DispatchE4waityyF
+- _$sSo21OS_dispatch_semaphoreC8DispatchE6signalSiyF
+- _$sSo7JSValueC9JetEngineE14makeJSONObjectAC0E0VyKF
+- _$sSo7JSValueC9JetEngineE6stringSSSgvg
+- _$sSo7JSValueC9JetEngineE9makeError4from2inABs0E0_p_So9JSContextCtFZ
+- _$sSo7JSValueC9JetEngineEyABSScis
+- _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
+- _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
+- _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
+- _$sSo8NSObjectCSH10ObjectiveCMc
+- _$sSo9JSContextC9JetEngineE15requiredCurrentABvgZ
+- _$sSo9JSContextC9JetEngineE27propagateErrorsToExceptionsySo7JSValueCAfBKXEF
+- _$sSo9OS_os_logC0B0E7defaultABvgZ
+- _$sSqMa
+- _$sSs10lowercasedSSyF
+- _$sSsN
+- _$sSsSTsMc
+- _$sSsySsxcSTRzSJ7ElementRtzlufC
+- _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
+- _$sSy10FoundationE16rangeOfCharacter4from7options0B0SnySS5IndexVGSgAA0D3SetV_So22NSStringCompareOptionsVAItF
+- _$ss018_bridgeAnyObjectToB0yypyXlSgF
+- _$ss10SetAlgebraMp
+- _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
+- _$ss10SetAlgebraP11subtractingyxxFTq
+- _$ss10SetAlgebraP12intersectionyxxFTj
+- _$ss10SetAlgebraP12intersectionyxxFTq
+- _$ss10SetAlgebraP16formIntersectionyyxFTq
+- _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
+- _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
+- _$ss10SetAlgebraP5unionyxxnFTq
+- _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
+- _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
+- _$ss10SetAlgebraP7isEmptySbvgTq
+- _$ss10SetAlgebraP8containsySb7ElementQzFTq
+- _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
+- _$ss10SetAlgebraP8subtractyyxFTq
+- _$ss10SetAlgebraP9formUnionyyxnFTj
+- _$ss10SetAlgebraP9formUnionyyxnFTq
+- _$ss10SetAlgebraPSQTb
+- _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
+- _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
+- _$ss10SetAlgebraPxycfCTq
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
+- _$ss10__CocoaSetV10startIndexAB0D0Vvg
+- _$ss10__CocoaSetV12makeIteratorAB0D0CyF
+- _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
+- _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
+- _$ss10__CocoaSetV5IndexV7elementyXlvg
+- _$ss10__CocoaSetV5countSivg
+- _$ss10__CocoaSetV6member3foryXlSgyXl_tF
+- _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
+- _$ss10__CocoaSetV8IteratorC4nextyXlSgyF
+- _$ss10__CocoaSetV8containsySbyXlF
+- _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
+- _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+- _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+- _$ss11AnyHashableVMn
+- _$ss11AnyHashableVN
+- _$ss11AnyHashableVSHsWP
+- _$ss11AnyHashableVyABxcSHRzlufC
+- _$ss11_MergeErrorON
+- _$ss11_MergeErrorOs0B0sWP
+- _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
+- _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
+- _$ss11_SetStorageC7convert_8capacityAByxGs07__CocoaA0V_SitFZ
+- _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+- _$ss11_SetStorageCMn
+- _$ss11_StringGutsV4growyySiF
+- _$ss12StaticStringVMn
+- _$ss12StaticStringVN
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss13ManagedBufferCMn
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
+- _$ss15CollectionOfOneVMn
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
+- _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
+- _$ss15ContinuousClockV7InstantVMa
+- _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
+- _$ss15ContinuousClockVABycfC
+- _$ss15ContinuousClockVMa
+- _$ss15ContinuousClockVs0B0sMc
+- _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
+- _$ss15LazyMapSequenceVMn
+- _$ss15LazyMapSequenceVyxq_GSKsSKRzrlMc
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV5countSivg
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss18LazyFilterSequenceVMn
+- _$ss18LazyFilterSequenceVyxGSKsSKRzrlMc
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss20_SwiftNewtypeWrapperMp
+- _$ss20_SwiftNewtypeWrapperPSYTb
+- _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
+- _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
+- _$ss20__StaticArrayStorageCN
+- _$ss21_ObjectiveCBridgeableMp
+- _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
+- _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
+- _$ss22KeyedDecodingContainerVMn
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
+- _$ss22KeyedEncodingContainerVMn
+- _$ss23CustomStringConvertibleMp
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23CustomStringConvertibleP11descriptionSSvgTq
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss24_getErrorEmbeddedNSErroryyXlSgxs0B0RzlF
+- _$ss25ExpressibleByArrayLiteralMp
+- _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss26ExpressibleByStringLiteralMp
+- _$ss26ExpressibleByStringLiteralP06stringD0x0cD4TypeQz_tcfCTq
+- _$ss26ExpressibleByStringLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss26ExpressibleByStringLiteralPs0ab23ExtendedGraphemeClusterD0Tb
+- _$ss27_bridgeAnythingToObjectiveCyyXlxlF
+- _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss28CustomDebugStringConvertibleMp
+- _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$ss33ExpressibleByUnicodeScalarLiteralMp
+- _$ss33ExpressibleByUnicodeScalarLiteralP07unicodedE0x0cdE4TypeQz_tcfCTq
+- _$ss33ExpressibleByUnicodeScalarLiteralP0cdE4TypeAB_s01_ab7BuiltincdE0Tn
+- _$ss35_HasCustomAnyHashableRepresentationMp
+- _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
+- _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralMp
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralP08extendeddeF0x0cdeF4TypeQz_tcfCTq
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralP0cdeF4TypeAB_s01_ab7BuiltincdeF0Tn
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralPs0ab13UnicodeScalarF0Tb
+- _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ClockP3now7InstantQzvgTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
+- _$ss5ErrorMp
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
+- _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
+- _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+- _$ss5ErrorP5_codeSivgTq
+- _$ss5ErrorP7_domainSSvgTq
+- _$ss5ErrorP9_userInfoyXlSgvgTq
+- _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+- _$ss5ErrorPsE5_codeSivg
+- _$ss5ErrorPsE7_domainSSvg
+- _$ss5ErrorPsE9_userInfoyXlSgvg
+- _$ss5ErrorWS
+- _$ss5Int32VMn
+- _$ss5Int64VMn
+- _$ss5Int64VN
+- _$ss5NeverOMn
+- _$ss5UInt8VMn
+- _$ss6HasherV5_hash4seed5bytes5countS2i_s6UInt64VSitFZ
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyySuF
+- _$ss6HasherV8_combineyys6UInt64VF
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6UInt16VMn
+- _$ss6UInt32VMn
+- _$ss6UInt64V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$ss6UInt64V10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSNumberC_ABSgztFZ
+- _$ss6UInt64V10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSNumberC_ABSgztFZ
+- _$ss6UInt64V10FoundationE36_unconditionallyBridgeFromObjectiveCyABSo8NSNumberCSgFZ
+- _$ss6UInt64V9hashValueSivg
+- _$ss6UInt64VMn
+- _$ss6UInt64VN
+- _$ss6UInt64VSHsWP
+- _$ss6UInt64Vs23CustomStringConvertiblesWP
+- _$ss7CVarArgMp
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
+- _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
+- _$ss9CodingKeyMp
+- _$ss9CodingKeyP11stringValueSSvgTq
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
+- _$ss9CodingKeyP8intValueSiSgvgTq
+- _$ss9CodingKeyP8intValuexSgSi_tcfCTq
+- _$ss9CodingKeyPs23CustomStringConvertibleTb
+- _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
+- _$ss9CodingKeyPsE11descriptionSSvg
+- _$ss9CodingKeyPsE16debugDescriptionSSvg
+- _$ss9OptionSetMp
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
+- _$ss9OptionSetPSYTb
+- _$ss9OptionSetPs0B7AlgebraTb
+- _$ss9_typeName_9qualifiedSSypXp_SbtF
+- _$syXlN
+- _$sypN
+- _$sytN
+- _$sytWV
+- _$syycWV
+- _ACDAccountStoreDidChangeNotification
+- _AMSAccountFlagUnderThirteen
+- _AMSAccountMediaTypeProduction
+- _AMSErrorDomain
+- _AMSErrorUserInfoKeyDescription
+- _AMSErrorUserInfoKeyServerPayload
+- _AMSErrorUserInfoKeyStatusCode
+- _AMSErrorUserInfoKeyURL
+- _AMSHashIfNeeded
+- _AMSMediaTaskPlatformAppleTV
+- _AMSMediaTaskPlatformAppleWatch
+- _AMSMediaTaskPlatformMac
+- _AMSMediaTaskPlatformReality
+- _AMSMediaTaskPlatformiPad
+- _AMSMediaTaskPlatformiPhone
+- _ASDAppCapabilitiesDidChangeNotification
+- _CC_SHA256
+- _CFPreferencesCopyAppValue
+- _CFPreferencesGetAppBooleanValue
+- _CFPreferencesSetAppValue
+- _CFRelease
+- _CFRunLoopGetMain
+- _CFRunLoopRunInMode
+- _CFRunLoopStop
+- _CGAffineTransformMakeScale
+- _FBSOpenApplicationErrorDomain
+- _FBSOpenApplicationOptionKeyPromptUnlockDevice
+- _FBSOpenApplicationOptionKeyServiceAvailabilityTimeout
+- _JECountFormatterMakeStringFromNumber
+- _JSRemoteInspectorSetInspectionEnabledByDefault
+- _MGCopyAnswer
+- _MGGetBoolAnswer
+- _MGGetFloat32Answer
+- _MGGetSInt32Answer
+- _MGGetStringAnswer
+- _NRDevicePropertySystemVersion
+- _NSDebugDescriptionErrorKey
+- _NSInternalInconsistencyException
+- _NSInvalidArgumentException
+- _NSKeyValueChangeNewKey
+- _NSLocalizedDescriptionKey
+- _NSLocalizedFailureReasonErrorKey
+- _NSLocalizedRecoverySuggestionErrorKey
+- _NSStringEncodingErrorKey
+- _NSStringFromBOOL
+- _NSStringFromClass
+- _NSUnderlyingErrorKey
+- _NSUserActivityTypeBrowsingWeb
+- _OBJC_CLASS_$_ACAccount
+- _OBJC_CLASS_$_ACAccountStore
+- _OBJC_CLASS_$_AMSAuthenticateTask
+- _OBJC_CLASS_$_AMSBag
+- _OBJC_CLASS_$_AMSCampaignAttributionTask
+- _OBJC_CLASS_$_AMSDevice
+- _OBJC_CLASS_$_AMSDialogAction
+- _OBJC_CLASS_$_AMSDialogRequest
+- _OBJC_CLASS_$_AMSMediaTask
+- _OBJC_CLASS_$_AMSMediaTokenService
+- _OBJC_CLASS_$_AMSMetrics
+- _OBJC_CLASS_$_AMSMetricsIdentifierKey
+- _OBJC_CLASS_$_AMSMetricsIdentifierStore
+- _OBJC_CLASS_$_AMSMutableBinaryPromise
+- _OBJC_CLASS_$_AMSMutablePromise
+- _OBJC_CLASS_$_AMSProcessInfo
+- _OBJC_CLASS_$_AMSSystemAlertDialogTask
+- _OBJC_CLASS_$_AMSURLSession
+- _OBJC_CLASS_$_ASDApp
+- _OBJC_CLASS_$_ASDAppCapabilities
+- _OBJC_CLASS_$_ASDAppLibrary
+- _OBJC_CLASS_$_ASDIAPHistory
+- _OBJC_CLASS_$_ASDIAPInfo
+- _OBJC_CLASS_$_ASDInstallApps
+- _OBJC_CLASS_$_ASDNotificationCenter
+- _OBJC_CLASS_$_ASDPurchase
+- _OBJC_CLASS_$_ASDPurchaseHistory
+- _OBJC_CLASS_$_ASDPurchaseHistoryApp
+- _OBJC_CLASS_$_ASDPurchaseManager
+- _OBJC_CLASS_$_ASDSystemAppMetadata
+- _OBJC_CLASS_$_ASDWatchAppMetadata
+- _OBJC_CLASS_$_CHSWidgetEventServiceListener
+- _OBJC_CLASS_$_FBSOpenApplicationOptions
+- _OBJC_CLASS_$_FBSOpenApplicationService
+- _OBJC_CLASS_$_GCController
+- _OBJC_CLASS_$_JEUnfairLock
+- _OBJC_CLASS_$_JSContext
+- _OBJC_CLASS_$_JSValue
+- _OBJC_CLASS_$_JSVirtualMachine
+- _OBJC_CLASS_$_LSAppLink
+- _OBJC_CLASS_$_LSApplicationProxy
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_MIStoreMetadata
+- _OBJC_CLASS_$_NRPairedDeviceRegistry
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSByteCountFormatter
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSDateInterval
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHTTPCookie
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSLock
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSOperationQueue
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSRecursiveLock
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_NSURLQueryItem
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSUserActivity
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_NSXPCListenerEndpoint
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_SignpostSupportObjectExtractor
+- _OBJC_CLASS_$_SignpostSupportSubsystemCategoryAllowlist
+- _OBJC_CLASS_$__LSOpenConfiguration
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Block_copy
+- __Block_object_dispose
+- __Block_release
+- __CFRunLoopSetPerCalloutAutoreleasepoolEnabled
+- __MGCopyAnswerWithMode
+- __NSConcreteGlobalBlock
+- __Unwind_Resume
+- ___NSArray0__struct
+- ___NSDictionary0__struct
+- ___chkstk_darwin
+- ___objc_personality_v0
+- __dispatch_main_q
+- __objc_empty_cache
+- __os_log_fault_impl
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __sl_dlopen
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_stdlib_reportUnimplementedInitializer
+- _abort_report_np
+- _arc4random_buf
+- _audit_token_to_pid
+- _bzero
+- _dispatch_once
+- _dispatch_semaphore_create
+- _dispatch_sync
+- _free
+- _getpid
+- _kCFBooleanTrue
+- _kCFRunLoopDefaultMode
+- _malloc_engaged_nano
+- _malloc_size
+- _memcpy
+- _memmove
+- _notify_cancel
+- _notify_get_state
+- _notify_post
+- _notify_register_check
+- _notify_register_dispatch
+- _notify_set_state
+- _objc_alloc
+- _objc_allocWithZone
+- _objc_alloc_init
+- _objc_autorelease
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_begin_catch
+- _objc_destroyWeak
+- _objc_end_catch
+- _objc_enumerationMutation
+- _objc_exception_rethrow
+- _objc_exception_throw
+- _objc_getClass
+- _objc_getProperty
+- _objc_loadWeakRetained
+- _objc_msgSendSuper2
+- _objc_opt_isKindOfClass
+- _objc_opt_self
+- _objc_release
+- _objc_release_x1
+- _objc_release_x10
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x1
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_setProperty_atomic
+- _objc_setProperty_nonatomic_copy
+- _objc_storeStrong
+- _objc_storeWeak
+- _objc_terminate
+- _os_eligibility_get_domain_answer
+- _os_log_create
+- _os_signpost_enabled
+- _os_transaction_create
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_variant_has_internal_content
+- _setenv
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_conformsToProtocol2
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getDynamicType
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getExistentialTypeMetadata
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getMetatypeMetadata
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initStackObject
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_projectBox
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_stdlib_isStackAllocationSafe
+- _swift_stdlib_random
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain
+- _swift_unknownObjectWeakAssign
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_updateClassMetadata2
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+CStrings:
+- ""
+- "\n"
+- "\nbranch app id: "
+- "\nbranch app state: "
+- "\nbranch iap id: "
+- "\nbranch iap item name: "
+- "\nbranch iap product name: "
+- "\nsubscribed to branch iap: "
+- " Expected state for app "
+- " No state available for app "
+- " Updated device state of "
+- " all assertions against value released"
+- " and adjusted for offer to "
+- " appRecordsDidChange: "
+- " assertion against value released"
+- " assertion taken against value"
+- " because it is not in a purchasable state"
+- " because we never started"
+- " cannot be converted to action"
+- " clientID is missing or is not a string!"
+- " could not complete operation, reason: "
+- " did complete operation with "
+- " did not complete"
+- " does not have app offer"
+- " error while collecting fields: "
+- " expired value evicted from memory"
+- " failed, reason: "
+- " from deserializing view model because of "
+- " has changed to "
+- " loaded value into memory"
+- " media client identifier entitlement is not a string!"
+- " media client value for "
+- " media client version entitlement is not a string!"
+- " not currently supported"
+- " to AppState app"
+- " to AppState apps"
+- " while we wait for ASD to start the download"
+- " with buyParams: "
+- " | "
+- " – install started"
+- " – organicAppOffer is missing"
+- " – timeout reached"
+- " – timeout threw error "
+- "#16@0:8"
+- "$__lazy_storage_$_indexPipeline"
+- "%@ = %@"
+- "%@ does not have case with value %@"
+- "%@%@%@"
+- "%@:%p"
+- "%ld.%ld.%ld"
+- "%lld"
+- "%s"
+- "%s called with no active JSContext"
+- "%{public}@=%{public}@"
+- "%{public}s/notify_cancel failed: %{public}@"
+- "%{public}s/notify_get_state failed: %{public}@"
+- "%{public}s/notify_register_check failed: %{public}@"
+- "%{public}s/notify_register_dispatch failed: %{public}@"
+- "%{public}s/notify_set_state failed: %{public}@"
+- "(%@, %@)"
+- "([\\v]+)"
+- "(null)"
+- "*** %{public}s: Value %{public}llul exceeds 47 bits, break on _ASCSignpostTag_valueTooLarge to debug"
+- "*** Could not reject fetch promise, reason: "
+- "*** Could not resolve fetch promise, reason: "
+- ", but the app is a placeholder."
+- ", but the app is an app clip."
+- ", but the app is not launchable."
+- ", waiting for install to finish"
+- "-[ASCJSClientObject isPairedSystemVersionAtLeast:]"
+- "."
+- ".ASCViewRenderTags"
+- ".cxx_destruct"
+- "/"
+- "/AppleInternal/Library/Jet/9D290DEA-86F0-4BD9-BC66-187D956BF1BE.jetkey"
+- "/AppleInternal/Library/Jet/B15F46DE-3418-4BF3-BBC9-CD763A3A7CA8.jetkey"
+- "/System/Library/Jet/39FCE09F-1DED-43AA-921B-A47B772A9AB3.jetkey"
+- "/System/Library/Jet/6DC2B7DC-D6F0-47DF-9063-36C0F7D648C4.jetkey"
+- "/System/Library/PrivateFrameworks/AppStoreComponents.framework"
+- "0"
+- "0.25"
+- "1"
+- "5"
+- "; "
+- "<%@ %@>"
+- "<%@:%p object = <%@:%p>; properties = %@>"
+- "<%@>"
+- "<embedded image>"
+- "@"
+- "@\"<ASCLockupProductDetailsObserver>\""
+- "@\"<ASCOffer>\""
+- "@\"<JSExport>\"16@0:8"
+- "@\"<NSObject>\""
+- "@\"ACAccount\""
+- "@\"ACAccountStore\""
+- "@\"AMSBagValue\"24@0:8@\"NSString\"16"
+- "@\"AMSBagValue\"32@0:8@\"NSString\"16@\"ACAccount\"24"
+- "@\"AMSProcessInfo\"16@0:8"
+- "@\"ASCAdamID\""
+- "@\"ASCAdamID\"16@0:8"
+- "@\"ASCAppOffer\""
+- "@\"ASCArtwork\""
+- "@\"ASCJSClientObject\"16@0:8"
+- "@\"ASCLockup\""
+- "@\"ASCLockupDisplayContext\""
+- "@\"ASCMediaPlatform\""
+- "@\"ASCMetricsData\""
+- "@\"ASCSKInstallSheetStatusUpdateRequest\""
+- "@\"ASCScreenshots\""
+- "@\"ASCTrailers\""
+- "@\"ASCViewMetrics\""
+- "@\"ASCViewMetrics\"16@0:8"
+- "@\"JSValue\"16@0:8"
+- "@\"JSValue\"24@0:8@\"JSValue\"16"
+- "@\"JSValue\"24@0:8@\"NSDictionary\"16"
+- "@\"JSValue\"24@0:8@\"NSNumber\"16"
+- "@\"JSValue\"24@0:8@\"NSString\"16"
+- "@\"JSValue\"32@0:8@\"JSValue\"16@\"JSValue\"24"
+- "@\"JSValue\"32@0:8@\"NSString\"16@\"NSString\"24"
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"NSString\"16"
+- "@\"NSCache\""
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSMutableArray\""
+- "@\"NSMutableData\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSObject\""
+- "@\"NSObject<ASCAppLaunchTrampolineWorkspace>\""
+- "@\"NSOperationQueue\""
+- "@\"NSRecursiveLock\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSDate\"16"
+- "@\"NSString\"24@0:8@\"NSNumber\"16"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSString\"32@0:8@\"NSNumber\"16q24"
+- "@\"NSString\"32@0:8@\"NSString\"16@\"NSArray\"24"
+- "@\"NSString\"32@0:8@\"NSString\"16@\"NSDate\"24"
+- "@\"NSString\"32@0:8@\"NSString\"16q24"
+- "@\"NSString\"32@?0@\"NSString\"8@\"NSString\"16@\"NSString\"24"
+- "@\"NSString\"40@0:8@\"NSString\"16@\"NSString\"24@\"NSDate\"32"
+- "@\"NSURL\""
+- "@\"NSUserDefaults\""
+- "@\"NSXPCListenerEndpoint\""
+- "@\"OS_os_log\"16@0:8"
+- "@\"SKPurchaseIntent\""
+- "@\"UIImage\""
+- "@\"_TtC19appstorecomponentsd12JSUserObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd14JSArcadeObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd20JSAppleSiliconObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd20JSFeatureFlagsObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd20JSStoreMetricsObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd22JSClientOrderingObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd23JSAppDistributionObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd26JSMetricsIdentifiersObject\"16@0:8"
+- "@\"_TtC19appstorecomponentsd28JSPersonalizationStoreObject\"16@0:8"
+- "@120@0:8@16@24@32q40@48@56@64@72@80@88@96@104q112"
+- "@128@0:8@16@24@32q40@48@56@64@72@80@88@96@104@112@120"
+- "@128@0:8@16@24@32q40@48@56@64@72@80B88@92B100@104B112B116@120"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8#16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSArray\"16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8d16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16q24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24@?28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24q32"
+- "@40@0:8B16f20@24@32"
+- "@44@0:8@16@24@32B40"
+- "@44@0:8@16@24B32@36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32q40"
+- "@48@0:8@16@24q32@40"
+- "@52@0:8@16@24@32@40B48"
+- "@52@0:8@16B24@28@36@44"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8q16@24@32@40@48"
+- "@60@0:8@16@24@32@40@48B56"
+- "@64@0:8@16@24@32@40@48@56"
+- "@64@0:8@16d24d32@40@48@56"
+- "@68@0:8@16@24@32@40B48@52@60"
+- "@76@0:8@16@24@32q40@48@56@64B72"
+- "@80@0:8@16@24@32@40@48@56@64@72"
+- "@80@0:8@16@24@32q40@48@56@64@72"
+- "@88@0:8@16@24@32@40@48@56@64@72@80"
+- "@88@0:8@16@24@32q40@48@56@64@72@80"
+- "@96@0:8@16@24@32@40@48@56@64@72@80@88"
+- "@96@0:8@16@24@32q40@48@56@64@72@80@88"
+- "AMSBagProtocol"
+- "APPSTORE_ENGAGEMENT"
+- "ASCAdamID"
+- "ASCAlertOffer"
+- "ASCAppDistributionOffer"
+- "ASCAppLaunchTrampoline"
+- "ASCAppLaunchTrampolineErrorDomain"
+- "ASCAppLaunchTrampolineWorkspace"
+- "ASCAppOffer"
+- "ASCAppOfferActionErrorDomain"
+- "ASCAppOfferStateDelegate"
+- "ASCAppOfferStateService"
+- "ASCArcadeOffer"
+- "ASCArtwork"
+- "ASCCacheValue"
+- "ASCCollectionRequest"
+- "ASCContingentOffer"
+- "ASCDebugJavaScriptPackageURL"
+- "ASCDeeplinkOfferMetadata"
+- "ASCDefaults"
+- "ASCDeprecated"
+- "ASCDescriber"
+- "ASCDisableShutdownTimer"
+- "ASCEligibility"
+- "ASCEmptyOfferMetadata"
+- "ASCEnableWebInspector"
+- "ASCForceRightToLeftLayout"
+- "ASCForceStandaloneWatch"
+- "ASCGenre"
+- "ASCHasher"
+- "ASCIconOfferMetadata"
+- "ASCJSClientObject"
+- "ASCJSClientObjectExports"
+- "ASCJavaScriptVersion"
+- "ASCLocaleID"
+- "ASCLockup"
+- "ASCLockupBatchRequest"
+- "ASCLockupDisplayContext"
+- "ASCLockupFeature"
+- "ASCLockupFeatureAd"
+- "ASCLockupFeatureAppDistribution"
+- "ASCLockupFeatureAppDistributionInstall"
+- "ASCLockupFeatureBundleID"
+- "ASCLockupFeatureBuyParams"
+- "ASCLockupFeatureDeveloperName"
+- "ASCLockupFeatureDisplayContext"
+- "ASCLockupFeatureExtendedAttributes"
+- "ASCLockupFeatureGenre"
+- "ASCLockupFeatureMedia"
+- "ASCLockupFeatureMiniProductPage"
+- "ASCLockupFeatureProductVariants"
+- "ASCLockupFeatureSafariExtension"
+- "ASCLockupFeatureShortName"
+- "ASCLockupFeatureSignpostTags"
+- "ASCLockupFeatureSingleSignOn"
+- "ASCLockupFetcherService"
+- "ASCLockupKind"
+- "ASCLockupProductDetails"
+- "ASCLockupRequest"
+- "ASCMediaPlatform"
+- "ASCMetricsActivity"
+- "ASCMetricsData"
+- "ASCMetricsErrorDomain"
+- "ASCMetricsErrorEventTypeKey"
+- "ASCMetricsErrorFieldsKey"
+- "ASCMetricsService"
+- "ASCMobileGestalt"
+- "ASCOffer"
+- "ASCOfferAlertOffer"
+- "ASCOfferContext"
+- "ASCOfferCreatesJobs"
+- "ASCOfferForceWatchInstall"
+- "ASCOfferHasMessagesExtension"
+- "ASCOfferIsAppDistributionOffer"
+- "ASCOfferIsArcadeApp"
+- "ASCOfferIsContingentOffer"
+- "ASCOfferIsDSIDLess"
+- "ASCOfferIsDeletableSystemApp"
+- "ASCOfferIsDisabled"
+- "ASCOfferIsFree"
+- "ASCOfferIsIOSAppOnMacOS"
+- "ASCOfferIsPreorder"
+- "ASCOfferMetadata"
+- "ASCOfferShouldInstallParentApp"
+- "ASCOpenAppErrorDomain"
+- "ASCPair"
+- "ASCPlaceholderOfferMetadata"
+- "ASCPreferInternalJS"
+- "ASCPreferenceKeyOverlaysLoadTimeout"
+- "ASCPreferenceKeyOverlaysRateLimitRequestsPerSecond"
+- "ASCPreferenceKeyOverlaysRateLimitTimeWindow"
+- "ASCProgressOfferMetadata"
+- "ASCSKInstallSheetStatusUpdateRequest"
+- "ASCSKPurchaseIntent"
+- "ASCSKPurchaseIntent callback called"
+- "ASCScreenshots"
+- "ASCServiceBroker"
+- "ASCSignpostGroup"
+- "ASCSignpostPredicate"
+- "ASCSignpostSpan"
+- "ASCSignpostTag ASCSignpostTagCreateForProcess(uint64_t, pid_t)_block_invoke"
+- "ASCSignpostTags"
+- "ASCStatefulOffer"
+- "ASCTextOfferMetadata"
+- "ASCTrailers"
+- "ASCURLOffer"
+- "ASCUnknownEnumCaseException"
+- "ASCUtilityService"
+- "ASCVideo"
+- "ASCViewMetrics"
+- "ASCViewMetricsInstruction"
+- "ASCViewModel"
+- "ASCViewRender"
+- "ASCWorkspace"
+- "ASDAppMetadata"
+- "ASDNotificationCenterDialogObserver"
+- "Accepting new connection "
+- "Ad"
+- "Alert.AppBuyRestricted.Message"
+- "Alert.AppBuyRestricted.Title"
+- "Alert.AppLaunchRestricted.Message"
+- "Alert.AppLaunchRestricted.Title"
+- "Alert.AppStoreRepair.ButtonContinue"
+- "Alert.AppStoreRepair.Message"
+- "Alert.AppStoreRepair.Title"
+- "Alert.Buy.GameControllerRequired.ButtonCancel"
+- "Alert.Buy.GameControllerRequired.ButtonContinue"
+- "Alert.Buy.GameControllerRequired.Message"
+- "Alert.Buy.GameControllerRequired.Title"
+- "App Distributors did change, starting framework reboostrap"
+- "App Store install state changed to "
+- "App Store reinstall succeeded, continuing"
+- "App Store restrictions are enabled"
+- "App availability validItemIds: "
+- "App launch disabled"
+- "App launch failed"
+- "App launch trampoline open failed with error:"
+- "AppDistribution"
+- "AppDistributionInstall"
+- "AppStore is not installed, prompting AppStore repair flow for "
+- "AppStoreComponents"
+- "AppStoreComponents.activity"
+- "AppStoreComponents.appOffer"
+- "AppStoreComponentsDaemon"
+- "AppStoreComponentsDaemon.ExpiringValue"
+- "AppStoreComponentsDaemon.ShutdownTimer"
+- "AppStoreDaemon located a bundleID for adamID "
+- "AppStoreKit:reduceMemoryUsage"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"LSApplicationRecord\"8"
+- "B16@?0@\"SignpostEvent\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSArray\"16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B28@0:8@\"NSArray\"16B24"
+- "B28@0:8@16B24"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@?0@\"<ASCLockupFeature>\"8Q16^B24"
+- "B40@0:8@\"JSValue\"16@\"JSValue\"24@\"JSValue\"32"
+- "B40@0:8@16@24@32"
+- "B8@?0"
+- "Bootstrap did begin"
+- "Bootstrap did complete producing "
+- "Bootstrap did fail because of "
+- "BundleID"
+- "BuyParams"
+- "CHSWidgetEventServiceListenerDelegate"
+- "CONTROLLER_REQUIRED"
+- "Campaign lockup "
+- "Canceled install of "
+- "Canceling any pending shutdown timer"
+- "Canceling install of "
+- "Cannot combine additional values into finalized hasher"
+- "Cannot end signpost span which has not begun"
+- "Cannot finalize hasher multiple times"
+- "Checked for storefront changes while daemon wasn't running,"
+- "Client is missing entitlement com.apple.private.appstorecomponents.build-lockup-from-mapi-response"
+- "Clip"
+- "Companion phone required"
+- "Completed JSRequest to "
+- "Completed purchase for "
+- "Connection test completed"
+- "Connection test found bootstrap error: "
+- "Connection was invalidated "
+- "Contingent Pricing Purchases"
+- "ContingentOfferAppStateManager"
+- "ContingentOffers"
+- "Could not complete JSRequest to "
+- "Could not continue with ASCContingentOffer "
+- "Could not create purchase for "
+- "Could not decode "
+- "Could not decode ASCAdamID because stringValue was missing"
+- "Could not decode ASCAlertOffer because id was missing"
+- "Could not decode ASCAlertOffer because metrics was missing"
+- "Could not decode ASCAlertOffer because subtitles was missing"
+- "Could not decode ASCAlertOffer because titles was missing"
+- "Could not decode ASCAppDistributionOffer because appVersionId was missing"
+- "Could not decode ASCAppDistributionOffer because distributorId was missing"
+- "Could not decode ASCAppDistributionOffer because id was missing"
+- "Could not decode ASCAppDistributionOffer because metrics was missing"
+- "Could not decode ASCAppDistributionOffer because subtitles was missing"
+- "Could not decode ASCAppDistributionOffer because titles was missing"
+- "Could not decode ASCAppOffer because baseBuyParams was missing"
+- "Could not decode ASCAppOffer because bundleID was missing"
+- "Could not decode ASCAppOffer because id was missing"
+- "Could not decode ASCAppOffer because itemName was missing"
+- "Could not decode ASCAppOffer because metrics was missing"
+- "Could not decode ASCAppOffer because metricsBuyParams was missing"
+- "Could not decode ASCAppOffer because subtitles was missing"
+- "Could not decode ASCAppOffer because titles was missing"
+- "Could not decode ASCAppOffer because vendorName was missing"
+- "Could not decode ASCArcadeOffer because id was missing"
+- "Could not decode ASCArcadeOffer because metrics was missing"
+- "Could not decode ASCArcadeOffer because notSubscribedOffer was missing"
+- "Could not decode ASCArcadeOffer because subscribedOffer was missing"
+- "Could not decode ASCArcadeOffer because subtitles was missing"
+- "Could not decode ASCArcadeOffer because titles was missing"
+- "Could not decode ASCArtwork because dataSource was missing"
+- "Could not decode ASCArtwork because decoration was missing"
+- "Could not decode ASCArtwork because preferredCrop was missing"
+- "Could not decode ASCArtwork because preferredFormat was missing"
+- "Could not decode ASCCollectionRequest because context was missing"
+- "Could not decode ASCCollectionRequest because id was missing"
+- "Could not decode ASCCollectionRequest because kind was missing"
+- "Could not decode ASCContingentOffer because iapItemID was missing"
+- "Could not decode ASCContingentOffer because iapItemName was missing"
+- "Could not decode ASCContingentOffer because iapProductName was missing"
+- "Could not decode ASCContingentOffer because id was missing"
+- "Could not decode ASCContingentOffer because metrics was missing"
+- "Could not decode ASCContingentOffer because offerID was missing"
+- "Could not decode ASCContingentOffer because organicOffer was missing"
+- "Could not decode ASCContingentOffer because subtitles was missing"
+- "Could not decode ASCContingentOffer because titles was missing"
+- "Could not decode ASCIconOfferMetadata because animationName was missing"
+- "Could not decode ASCIconOfferMetadata because baseImageName was missing"
+- "Could not decode ASCLockup because id was missing"
+- "Could not decode ASCLockupFeatureAd because productRating was missing"
+- "Could not decode ASCLockupFeatureSignpostTags because signpostTags was missing"
+- "Could not decode ASCLockupKind because kind was missing"
+- "Could not decode ASCLockupRequest because context was missing"
+- "Could not decode ASCLockupRequest because id was missing"
+- "Could not decode ASCLockupRequest because ids was missing"
+- "Could not decode ASCLockupRequest because kind was missing"
+- "Could not decode ASCMetricsActivity because fields was missing"
+- "Could not decode ASCMetricsData because excludingFields was missing"
+- "Could not decode ASCMetricsData because fields was missing"
+- "Could not decode ASCMetricsData because includingFields was missing"
+- "Could not decode ASCOfferAlertOffer because id was missing"
+- "Could not decode ASCOfferAlertOffer because metrics was missing"
+- "Could not decode ASCOfferAlertOffer because subtitles was missing"
+- "Could not decode ASCOfferAlertOffer because titles was missing"
+- "Could not decode ASCScreenshots because artwork was missing"
+- "Could not decode ASCScreenshots because mediaPlatform was missing"
+- "Could not decode ASCSignpostPredicate because dateRanges was missing"
+- "Could not decode ASCSignpostPredicate because tags was missing"
+- "Could not decode ASCSignpostSpan because supplementaryTags was missing"
+- "Could not decode ASCStatefulOffer because defaultOffer was missing"
+- "Could not decode ASCStatefulOffer because id was missing"
+- "Could not decode ASCStatefulOffer because metrics was missing"
+- "Could not decode ASCStatefulOffer because subtitles was missing"
+- "Could not decode ASCStatefulOffer because titles was missing"
+- "Could not decode ASCTextOfferMetadata because title was missing"
+- "Could not decode ASCTrailers because mediaPlatform was missing"
+- "Could not decode ASCTrailers because videos was missing"
+- "Could not decode ASCURLOffer because id was missing"
+- "Could not decode ASCURLOffer because metrics was missing"
+- "Could not decode ASCURLOffer because subtitles was missing"
+- "Could not decode ASCURLOffer because titles was missing"
+- "Could not decode ASCURLOffer because url was missing"
+- "Could not decode ASCVideo because preview was missing"
+- "Could not decode ASCVideo because videoURL was missing"
+- "Could not decode ASCViewMetrics because instructions was missing"
+- "Could not decode ASCViewMetrics because pageFields was missing"
+- "Could not decode ASCViewMetricsInstruction because data was missing"
+- "Could not decode ASCViewMetricsInstruction because invocationPoints was missing"
+- "Could not encode "
+- "Could not find AppStoreComponents framework bundle"
+- "Could not install system watch app "
+- "Could not install watch app "
+- "Could not perform offer action of "
+- "Could not reject promise, reason:"
+- "Could not reload purchases for "
+- "Could not remove current platform from additional platforms"
+- "Could not request JS garbage collection, reason: "
+- "Could not request routine JS garbage collection, reason: "
+- "Could not resolve promise for timeout, reason:"
+- "Could not resolve promise, reason:"
+- "Could not resolve taste profile"
+- "Could not stop observing "
+- "Could not update Arcade subscription state, reason: "
+- "Could not update Contingent Offer subscriptions state, reason: "
+- "Creating AMSMediaTask with client id: "
+- "Current process is not eligible to use ASC"
+- "Daemon.didReceiveMemoryWarningNotification"
+- "Daemon.keepAlive"
+- "Daemon.memoryWarning"
+- "Decorated offer for "
+- "DeveloperName"
+- "DeviceClass"
+- "DeviceClassNumber"
+- "DeviceCornerRadius"
+- "Did activate CHSChronoEventServiceListener"
+- "Did not invoke trampoline, attempting to open URL "
+- "Did start observing changes to "
+- "Did stop observing changes to "
+- "Discarding span without valid range range %@"
+- "Disk space availability has not been implemented for offer alerts on this platform."
+- "DisplayContext"
+- "Done waiting for App Store reinstall – timeout reached"
+- "Done waiting for App Store reinstall – timeout threw error "
+- "Duplicate values for key: '"
+- "Enqueuing open resource URL operation"
+- "Environment variables (%{public}s):"
+- "Error fetching active recurring IAP subscriptions from asd: "
+- "Established baseline account state to track offline storefront changes"
+- "Event requested app state metrics fields,"
+- "Event requested page context metrics fields,"
+- "Expected `string` but got %@"
+- "ExpiringValue.keepAlive"
+- "ExtendedAttributes"
+- "FBSOpenApplicationService.openApplication completed but did not return an error or process handle."
+- "Failed AppDistribution item fetch for kind: "
+- "Failed to construct product page URL."
+- "Failed to convert offer ID to AppState app"
+- "Failed to convert offer: "
+- "Failed to convert offers: "
+- "Failed to create Adam ID for id: "
+- "Failed to create Jet localizer from Jetpack bundle, reason: "
+- "Failed to decorate buy params, reason: "
+- "Failed to fetch store for account with error:"
+- "Failed to fetch store for account:"
+- "Failed to get metrics fields with error: "
+- "Failed to get metrics identifier with error: "
+- "Failed to lint event, reason: "
+- "Failed to open app."
+- "Failed to open product page."
+- "Failed to open universal link, reason %{public}@"
+- "Failed to request product page for "
+- "Failed to retrieve app record for identifier from LSApplicationRecord "
+- "Failed to retrieve app state for "
+- "Failed to retrieve localizedName for distributor: "
+- "Failed to update Arcade subscription state during bootstrap, reason: "
+- "Failed to update Contingent Offer subscription state during bootstrap, reason: "
+- "Failed while parsing input URL, URL components was nil or empty."
+- "Fatal error"
+- "ForOverlaysOnly"
+- "Forcing purchased state for "
+- "Found %lu matching apps for payload URL"
+- "Found non-universal link, opening application"
+- "Found non-universal link, opening via open resource operation"
+- "Found valid universal link with no matching app, passing URL to app via UserActivity, source %{public}@, target %{public}@"
+- "Found valid universal link with no matching app, source %{public}@, target %{public}@"
+- "Found valid universal link, attempting to open"
+- "Genre"
+- "Holding waiting state on app "
+- "Ignoring bootsrap requests in "
+- "Incremented re-bootstrap counter"
+- "Initiated reinstall of the App Store with install ID: "
+- "Installing watch app "
+- "Installing watch system app "
+- "JSC_criticalGCMemoryThreshold"
+- "JSExport"
+- "JSONObjectWithData:options:error:"
+- "JSStack created"
+- "JSStackBootstrap.workQueue"
+- "JetEngine Dependencies"
+- "LSApplicationWorkspaceObserverProtocol"
+- "LaunchServices located a bundleID for adamID "
+- "LaunchServices was unable to find a bundleID for adamID "
+- "Lockup collections are disabled"
+- "Lockup for %@ Adam ID does not include Safari extension feature."
+- "Lockup for %@ Adam ID does not include Single Sign On feature."
+- "Lockup id %@ of kind %@ is invalid"
+- "Logging error message with fragments: "
+- "Lottery draw declined view render sampling with "
+- "MainScreenCanvasSizes"
+- "Media"
+- "MediaClientID"
+- "Metrics.processMetricsData"
+- "Metrics.processViewRender"
+- "MetricsClient.collectionQueue"
+- "MiniProductPage"
+- "Missing required parameters for app launch."
+- "N8lZxRgC7lfdRS3dRLn+Ag"
+- "NOTIFY_STATUS_FAILED"
+- "NOTIFY_STATUS_INVALID_FILE"
+- "NOTIFY_STATUS_INVALID_NAME"
+- "NOTIFY_STATUS_INVALID_PORT"
+- "NOTIFY_STATUS_INVALID_REQUEST"
+- "NOTIFY_STATUS_INVALID_SIGNAL"
+- "NOTIFY_STATUS_INVALID_TOKEN"
+- "NOTIFY_STATUS_NOT_AUTHORIZED"
+- "NOTIFY_STATUS_NULL_INPUT"
+- "NOTIFY_STATUS_OK"
+- "NOTIFY_STATUS_OPT_DISABLE"
+- "NOTIFY_STATUS_SERVER_NOT_FOUND"
+- "NOTIFY_STATUS_UNKNOWN (%u)"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "No payload URL; opening application."
+- "Not presenting product details for lockup %{public}@ because ID is invalid."
+- "OS_os_transaction"
+- "Offer confirmation has not been implemented for offer alerts on this platform."
+- "Offer status text of "
+- "Offer.Label.Preorder"
+- "Offer.Label.Preordered"
+- "OfferButton.Arcade.Title.PreorderNotSubscribed"
+- "OfferButton.Title.Get"
+- "OfferButton.Title.Installed"
+- "OfferButton.Title.Open"
+- "OfferButton.Title.Purchased"
+- "OfferButton.Title.Subscribe"
+- "OfferButton.Title.SubscribeAndInstall"
+- "OfferButton.Title.Update"
+- "OfferButton.Title.View"
+- "OfferRedownload"
+- "Open application with URL user activity failed, reason %{public}@"
+- "Open application with URL user activity succeeded."
+- "Open application with bundle ID failed, reason %{public}@"
+- "Open application with bundle ID succeeded."
+- "Open resource URL operation completed"
+- "Open resource URL operation failed, reason %{public}@"
+- "PageRender"
+- "Paused install of "
+- "Performed action of "
+- "Performing offer action of "
+- "PlatformOverride"
+- "Possibly a mismatching JS version for ASC"
+- "Preparing purchase for "
+- "Preparing reinstall "
+- "Presenting product details for lockup %{public}@"
+- "Processed redirect URL for "
+- "Processing campaign token "
+- "Processing metrics data "
+- "Processing q token "
+- "Processing redirect URL for "
+- "Processing view render metrics with "
+- "ProductType"
+- "ProductVariants"
+- "Q"
+- "Q16@0:8"
+- "RebootstrapTrigger_lastAccountState"
+- "Received SIGTERM, stopping appstorecomponentsd"
+- "Received URL unsuitable for app launch trampoline."
+- "Received low memory warning"
+- "Refreshing active recurring IAP subscriptions"
+- "Rejecting connection without required entitlement "
+- "Reloaded purchases for "
+- "Reloading purchases for "
+- "Removing waiting state hold on "
+- "Request specifying custom media query parameters cannot be included in batch request with more than one request"
+- "Requested JS garbage collection"
+- "Requested routine garbage collection pass"
+- "Requests with different AppDistribution options cannot be included in batch request: %d != %d"
+- "Requests with different clientID cannot be included in batch request: %@ != %@"
+- "Requests with different platformOverride options cannot be included in batch request: %@ != %@"
+- "Restriction checking has not been implemented for offer alerts on this platform."
+- "SBIconVisibility"
+- "SKInstallSheetStatusUpdateRequest"
+- "SKPurchaseIntent"
+- "SafariExtension"
+- "Sending ASCSKPurchaseIntent to StoreKit"
+- "Set ASCLockupContextSafariExtension context on lockup request"
+- "Set ASCLockupContextSingleSignOn context on lockup request"
+- "ShortName"
+- "Signpost span has already begun"
+- "Signpost span has already ended"
+- "SingleSignOn"
+- "Started install of system watch app "
+- "Started install of watch app "
+- "Starting action for ASCContingentOffer with offer id: "
+- "Starting reinstall "
+- "Starting reinstall of "
+- "Startup"
+- "Storefront change detected while daemon wasn't running"
+- "Storefront change detected, starting re-bootstrap cycle"
+- "String=%{signpost.description:attribute}@"
+- "Successfully fetched active recurring IAP subscriptions using asd: "
+- "Successfully launched app from URL: "
+- "Successfully opened app product page from URL: "
+- "Successfully opened universal link"
+- "Successfully trampolined with unknown result"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "T#,R"
+- "T@\"<ASCLockupProductDetailsObserver>\",W,N,V_observer"
+- "T@\"<ASCOffer>\",R,C,N,V_alertButtonOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_buyOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_completionOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_defaultOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_offer"
+- "T@\"<ASCOffer>\",R,C,N,V_openOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_organicOffer"
+- "T@\"<ASCOffer>\",R,C,N,V_streamlinedOffer"
+- "T@\"<ASCOffer>\",R,N,V_notSubscribedOffer"
+- "T@\"<ASCOffer>\",R,N,V_subscribedOffer"
+- "T@\"<JSExport>\",N,R"
+- "T@\"<JSExport>\",N,R,Vloc"
+- "T@\"<NSObject>\",&,N,V_value"
+- "T@\"ACAccount\",&,V_activeiTunesAccount"
+- "T@\"ACAccountStore\",R,N,V_accountStore"
+- "T@\"AMSProcessInfo\",?,R,C,N"
+- "T@\"ASCAdamID\",R"
+- "T@\"ASCAdamID\",R,C,N"
+- "T@\"ASCAdamID\",R,C,N,V_id"
+- "T@\"ASCAppOffer\",R,C,N,V_appOffer"
+- "T@\"ASCArtwork\",R,C,N,V_icon"
+- "T@\"ASCArtwork\",R,C,N,V_preview"
+- "T@\"ASCDefaults\",R"
+- "T@\"ASCJSClientObject\",N,R"
+- "T@\"ASCJSClientObject\",N,R,Vclient"
+- "T@\"ASCLockup\",R,C,N,V_lockup"
+- "T@\"ASCLockupDisplayContext\",R,C,N"
+- "T@\"ASCLockupDisplayContext\",R,C,N,V_displayContext"
+- "T@\"ASCMediaPlatform\",R,C,N,V_mediaPlatform"
+- "T@\"ASCMetricsData\",R,C,N,V_data"
+- "T@\"ASCOfferMetadata\",R"
+- "T@\"ASCSKInstallSheetStatusUpdateRequest\",R,N,V_installSheetStatusUpdateRequest"
+- "T@\"ASCScreenshots\",R,C,N"
+- "T@\"ASCScreenshots\",R,C,N,V_screenshots"
+- "T@\"ASCTrailers\",R,C,N"
+- "T@\"ASCTrailers\",R,C,N,V_trailers"
+- "T@\"ASCViewMetrics\",R,C,N"
+- "T@\"ASCViewMetrics\",R,C,N,V_metrics"
+- "T@\"ASCWorkspace\",R"
+- "T@\"JSValue\",N,R"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,C,N,V_artwork"
+- "T@\"NSArray\",R,C,N,V_capabilities"
+- "T@\"NSArray\",R,C,N,V_dateRanges"
+- "T@\"NSArray\",R,C,N,V_features"
+- "T@\"NSArray\",R,C,N,V_instructions"
+- "T@\"NSArray\",R,C,N,V_subgenres"
+- "T@\"NSArray\",R,C,N,V_videos"
+- "T@\"NSArray\",R,C,N,V_webDistributionDomains"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_metrics"
+- "T@\"NSBundle\",R"
+- "T@\"NSCache\",C,N,V_cachedValues"
+- "T@\"NSDate\",C,N,V_endDate"
+- "T@\"NSDate\",C,N,V_startDate"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDateInterval\",R,C,N"
+- "T@\"NSDictionary\",N,R"
+- "T@\"NSDictionary\",R"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSDictionary\",R,C,N,V_additionalHeaders"
+- "T@\"NSDictionary\",R,C,N,V_contentRatingsBySystem"
+- "T@\"NSDictionary\",R,C,N,V_fields"
+- "T@\"NSDictionary\",R,C,N,V_mediaQueryParams"
+- "T@\"NSDictionary\",R,C,N,V_pageFields"
+- "T@\"NSDictionary\",R,C,N,V_parameters"
+- "T@\"NSDictionary\",R,C,N,V_subtitles"
+- "T@\"NSDictionary\",R,C,N,V_titles"
+- "T@\"NSMutableArray\",R,N,V_properties"
+- "T@\"NSMutableData\",R,N,V_buffer"
+- "T@\"NSMutableDictionary\",R,V_pendingResults"
+- "T@\"NSMutableSet\",R,N,V_mutableSupplementaryTags"
+- "T@\"NSNumber\",C,N"
+- "T@\"NSNumber\",N,R"
+- "T@\"NSNumber\",R,C,N"
+- "T@\"NSNumber\",R,C,N,V_checkRestrictionsForContentRating"
+- "T@\"NSNumber\",R,C,N,V_deviceCornerRadiusFactor"
+- "T@\"NSNumber\",R,C,N,V_iapItemID"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSNumber\",R,N,V_ageRating"
+- "T@\"NSObject\",R,N,V_object"
+- "T@\"NSObject<ASCAppLaunchTrampolineWorkspace>\",R,N,V_workspace"
+- "T@\"NSObject<OS_os_log>\",R"
+- "T@\"NSOperationQueue\",&,N,V_openApplicationOperationQueue"
+- "T@\"NSRecursiveLock\",R,N,V_stateLock"
+- "T@\"NSSet\",R"
+- "T@\"NSSet\",R,C,N"
+- "T@\"NSSet\",R,C,N,V_excludingFields"
+- "T@\"NSSet\",R,C,N,V_ids"
+- "T@\"NSSet\",R,C,N,V_includingFields"
+- "T@\"NSSet\",R,C,N,V_invocationPoints"
+- "T@\"NSSet\",R,C,N,V_signpostTags"
+- "T@\"NSSet\",R,C,N,V_tags"
+- "T@\"NSString\",&,N,V_additionalBuyParams"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,&,N,V_headingKind"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_ageRating"
+- "T@\"NSString\",R,C,N,V_alertButtonTitle"
+- "T@\"NSString\",R,C,N,V_alertFooterMessage"
+- "T@\"NSString\",R,C,N,V_alertMessage"
+- "T@\"NSString\",R,C,N,V_alertTitle"
+- "T@\"NSString\",R,C,N,V_animationName"
+- "T@\"NSString\",R,C,N,V_appVersionId"
+- "T@\"NSString\",R,C,N,V_baseBuyParams"
+- "T@\"NSString\",R,C,N,V_baseImageName"
+- "T@\"NSString\",R,C,N,V_bundleID"
+- "T@\"NSString\",R,C,N,V_clientID"
+- "T@\"NSString\",R,C,N,V_contentProviderTeamID"
+- "T@\"NSString\",R,C,N,V_context"
+- "T@\"NSString\",R,C,N,V_decoration"
+- "T@\"NSString\",R,C,N,V_developerId"
+- "T@\"NSString\",R,C,N,V_developerName"
+- "T@\"NSString\",R,C,N,V_distributorBundleId"
+- "T@\"NSString\",R,C,N,V_distributorId"
+- "T@\"NSString\",R,C,N,V_eula"
+- "T@\"NSString\",R,C,N,V_genreID"
+- "T@\"NSString\",R,C,N,V_genreName"
+- "T@\"NSString\",R,C,N,V_heading"
+- "T@\"NSString\",R,C,N,V_iapItemName"
+- "T@\"NSString\",R,C,N,V_iapProductName"
+- "T@\"NSString\",R,C,N,V_id"
+- "T@\"NSString\",R,C,N,V_identifier"
+- "T@\"NSString\",R,C,N,V_itemName"
+- "T@\"NSString\",R,C,N,V_kind"
+- "T@\"NSString\",R,C,N,V_metricsBuyParams"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@\"NSString\",R,C,N,V_offerID"
+- "T@\"NSString\",R,C,N,V_platformOverride"
+- "T@\"NSString\",R,C,N,V_preferredCrop"
+- "T@\"NSString\",R,C,N,V_preferredFormat"
+- "T@\"NSString\",R,C,N,V_presentingSceneBundleIdentifier"
+- "T@\"NSString\",R,C,N,V_presentingSceneIdentifier"
+- "T@\"NSString\",R,C,N,V_privacyPolicyUrl"
+- "T@\"NSString\",R,C,N,V_productDescription"
+- "T@\"NSString\",R,C,N,V_productPageDescription"
+- "T@\"NSString\",R,C,N,V_productPageMetadata"
+- "T@\"NSString\",R,C,N,V_productRatingBadge"
+- "T@\"NSString\",R,C,N,V_productVariantID"
+- "T@\"NSString\",R,C,N,V_remoteControllerRequirement"
+- "T@\"NSString\",R,C,N,V_shortName"
+- "T@\"NSString\",R,C,N,V_storeSheetHostBundleID"
+- "T@\"NSString\",R,C,N,V_storeSheetUsageContext"
+- "T@\"NSString\",R,C,N,V_stringValue"
+- "T@\"NSString\",R,C,N,V_subtitle"
+- "T@\"NSString\",R,C,N,V_supportUrl"
+- "T@\"NSString\",R,C,N,V_title"
+- "T@\"NSString\",R,C,N,V_topic"
+- "T@\"NSString\",R,C,N,V_vendorName"
+- "T@\"NSString\",R,C,N,V_videoURL"
+- "T@\"NSURL\",R,C,N,V_externalDeepLinkURL"
+- "T@\"NSURL\",R,C,N,V_preflightPackageURL"
+- "T@\"NSURL\",R,N,V_url"
+- "T@\"NSUserDefaults\",R,C,N,V_userDefaults"
+- "T@\"NSXPCListenerEndpoint\",R,N,V_paymentViewServiceListener"
+- "T@\"OS_os_log\",R"
+- "T@\"SKPurchaseIntent\",R,N,V_purchaseIntent"
+- "T@\"UIImage\",R,N,V_embeddedImage"
+- "T@\"_TtC19appstorecomponentsd12JSUserObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd12JSUserObject\",N,R,Vuser"
+- "T@\"_TtC19appstorecomponentsd14JSArcadeObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd14JSArcadeObject\",N,R,Varcade"
+- "T@\"_TtC19appstorecomponentsd20JSAppleSiliconObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd20JSAppleSiliconObject\",N,R,VappleSilicon"
+- "T@\"_TtC19appstorecomponentsd20JSFeatureFlagsObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd20JSFeatureFlagsObject\",N,R,VfeatureFlags"
+- "T@\"_TtC19appstorecomponentsd20JSStoreMetricsObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd20JSStoreMetricsObject\",N,R,VstoreMetrics"
+- "T@\"_TtC19appstorecomponentsd22JSClientOrderingObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd22JSClientOrderingObject\",N,R,VclientOrdering"
+- "T@\"_TtC19appstorecomponentsd23JSAppDistributionObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd23JSAppDistributionObject\",N,R,VappDistribution"
+- "T@\"_TtC19appstorecomponentsd26JSMetricsIdentifiersObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd26JSMetricsIdentifiersObject\",N,R,VmetricsIdentifiers"
+- "T@\"_TtC19appstorecomponentsd28JSPersonalizationStoreObject\",N,R"
+- "T@\"_TtC19appstorecomponentsd28JSPersonalizationStoreObject\",N,R,VpersonalizationStore"
+- "T@,R"
+- "T@,R,N,V_dataSource"
+- "T@,R,N,V_first"
+- "T@,R,N,V_second"
+- "TB,N"
+- "TB,N,GisIndeterminate,V_indeterminate"
+- "TB,N,GisOpenAppCallbackEnabled,V_openAppCallbackEnabled"
+- "TB,N,GisWebBrowser,V_webBrowser"
+- "TB,N,R"
+- "TB,N,V_isFinalized"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisDeeplink"
+- "TB,R,N,GisEmpty"
+- "TB,R,N,GisExpired"
+- "TB,R,N,GisExtension,V_extension"
+- "TB,R,N,GisIcon"
+- "TB,R,N,GisPlaceholder"
+- "TB,R,N,GisProgress"
+- "TB,R,N,GisText"
+- "TB,R,N,GisViewInAppStore"
+- "TB,R,N,V_cancellable"
+- "TB,R,N,V_enableAppDistribution"
+- "TB,R,N,V_isCancelable"
+- "TB,R,N,V_isDistributor"
+- "TB,R,N,V_isEditorsChoice"
+- "TB,R,N,V_isPortrait"
+- "TB,R,N,V_isSensitive"
+- "TB,R,N,V_requiresSSOEntitlement"
+- "TB,R,N,V_shouldCheckForAvailableDiskSpace"
+- "TB,R,N,V_shouldFlush"
+- "TB,R,N,V_shouldIncludeActiveAccountInFooterMessage"
+- "TB,R,N,V_shouldPromptForConfirmation"
+- "TIME_AGO_DAYS_AGO"
+- "TIME_AGO_HOURS_AGO"
+- "TIME_AGO_JUST_NOW"
+- "TIME_AGO_MONTHS_AGO"
+- "TIME_AGO_WEEKS_AGO"
+- "TIME_AGO_YEARS_AGO"
+- "TQ,R"
+- "TQ,R,N,V_primaryTag"
+- "Td,R"
+- "Td,R,N,V_height"
+- "Td,R,N,V_percent"
+- "Td,R,N,V_width"
+- "Test notification delivered, starting re-bootstrap cycle"
+- "Testing connection"
+- "Tf,R,N"
+- "Tf,R,N,V_productRating"
+- "Tq,N,R"
+- "Tq,R"
+- "Tq,R,N"
+- "Tq,R,N,V_flags"
+- "Tq,R,N,V_limit"
+- "Tq,R,N,V_offerType"
+- "Trampoline failed because of: "
+- "Trampoline metrics failed to send because of: "
+- "Trampoline metrics processed."
+- "T{CGSize=dd},R"
+- "URL"
+- "URLForKey:"
+- "URLForKey:account:"
+- "URLForLockupID:ofKind:offerFlags:queryParameters:"
+- "URLForLockupID:ofKind:withOfferFlags:"
+- "URLPathAllowedCharacterSet"
+- "URLTemplate"
+- "URLWithString:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unable to cancel install of "
+- "Unable to find class %s"
+- "Unable to find open service"
+- "Unable to open application, reason %{public}@. Attempting to open product page URL"
+- "Unable to open product page, reason %{public}@"
+- "Unable to perform rebootstrap in "
+- "Unable to read index.js from bundle"
+- "Updated Arcade subscription state to "
+- "Updated Contingent Offer subscriptions state to "
+- "Updating Arcade subscription state after failed fetch"
+- "Updating Contingent Offer subscriptions state"
+- "Updating app offers for device capabilities change"
+- "Updating offers for App Store install state change"
+- "Updating offers for Arcade subscription state change"
+- "Updating offers for contingent purchases change"
+- "Updating offers for restrictions change"
+- "Using JS URL from the bag"
+- "Vending lockup service"
+- "Vending metrics service"
+- "Vending offer state service"
+- "Vending utility service"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_IOS"
+- "_TtC19appstorecomponentsd11ObjectGraph"
+- "_TtC19appstorecomponentsd12JSUserObject"
+- "_TtC19appstorecomponentsd13MetricsClient"
+- "_TtC19appstorecomponentsd13ShutdownTimer"
+- "_TtC19appstorecomponentsd13UtilityClient"
+- "_TtC19appstorecomponentsd14JSArcadeObject"
+- "_TtC19appstorecomponentsd14JSStackManager"
+- "_TtC19appstorecomponentsd16BootstrapSession"
+- "_TtC19appstorecomponentsd16JSJetPackFetcher"
+- "_TtC19appstorecomponentsd17JSASKGlobalObject"
+- "_TtC19appstorecomponentsd17JSLegacyLocObject"
+- "_TtC19appstorecomponentsd17JSModernLocObject"
+- "_TtC19appstorecomponentsd18ASCLockupContainer"
+- "_TtC19appstorecomponentsd18RebootstrapTrigger"
+- "_TtC19appstorecomponentsd18XPCConnectionOwner"
+- "_TtC19appstorecomponentsd19AppOfferStateClient"
+- "_TtC19appstorecomponentsd19JSMediaTokensObject"
+- "_TtC19appstorecomponentsd19LockupFetcherClient"
+- "_TtC19appstorecomponentsd19RestrictionsFactory"
+- "_TtC19appstorecomponentsd19ServiceBrokerClient"
+- "_TtC19appstorecomponentsd19WidgetEventListener"
+- "_TtC19appstorecomponentsd20JSAppleSiliconObject"
+- "_TtC19appstorecomponentsd20JSFeatureFlagsObject"
+- "_TtC19appstorecomponentsd20JSStoreMetricsObject"
+- "_TtC19appstorecomponentsd21CommerceDialogHandler"
+- "_TtC19appstorecomponentsd22JSClientOrderingObject"
+- "_TtC19appstorecomponentsd23JSAppDistributionObject"
+- "_TtC19appstorecomponentsd25AppStateControllerFactory"
+- "_TtC19appstorecomponentsd26JSMetricsIdentifiersObject"
+- "_TtC19appstorecomponentsd28JSCampaignAttributionService"
+- "_TtC19appstorecomponentsd28JSPersonalizationStoreObject"
+- "_TtC19appstorecomponentsd32ArcadeSubscriptionManagerFactory"
+- "_TtC19appstorecomponentsd33LegacyAppStoreInstallStateMonitor"
+- "_TtC19appstorecomponentsd39ASDContingentPricingSubscriptionManager"
+- "_TtC19appstorecomponentsd39AppDistributionDeviceAppStateDataSource"
+- "_TtC19appstorecomponentsd6Daemon"
+- "_TtC19appstorecomponentsdP33_29B18140782058085C16F28BE6542E8A30LSApplicationWorkspaceObserver"
+- "_TtCC19appstorecomponentsd19AppOfferStateClientP33_C3344D69C4521B4ACA82248310E985E011Observation"
+- "_TtCC19appstorecomponentsd19JSMediaTokensObjectP33_E91800677D5458EF8C488C03D4ACDC6E8CacheKey"
+- "_TtP19appstorecomponentsd29JSClientOrderingObjectExports_"
+- "_TtP19appstorecomponentsdP33_3BC524EF38F1BA6F579E7C32E50F087B35JSCampaignAttributionServiceExports_"
+- "_TtP19appstorecomponentsdP33_6C2DF634D7C0CEA2E1B3513741ED958121JSFeatureFlagsExports_"
+- "_TtP19appstorecomponentsdP33_767EEB8086250627F0BC468E7A3FC3FB27JSAppleSiliconObjectExports_"
+- "_TtP19appstorecomponentsdP33_7BA483CA77B65936660ADC6CC37C230030JSAppDistributionObjectExports_"
+- "_TtP19appstorecomponentsdP33_9274BE0E27898AEB81C4C1A7DAEBB23A33JSMetricsIdentifiersObjectExports_"
+- "_TtP19appstorecomponentsdP33_A10F27D32A47776B15A77D0B2E4439C624JSASKGlobalObjectExports_"
+- "_TtP19appstorecomponentsdP33_C91D614A914A76D195733FCBD3F7BAEC19JSUserObjectExports_"
+- "_TtP19appstorecomponentsdP33_CD5BDFC1E7CCFAFB836DD6F0A700EFB335JSPersonalizationStoreObjectExports_"
+- "_TtP19appstorecomponentsdP33_D80719089AEE5E5216E004FAC148D7CA18JSLocObjectExports_"
+- "_TtP19appstorecomponentsdP33_D9588DFF1C77403079F1C05130255B9121JSArcadeObjectExports_"
+- "_TtP19appstorecomponentsdP33_E6586EBF959DBC66CE7DFA8965D7AA2127JSStoreMetricsObjectExports_"
+- "_TtP19appstorecomponentsdP33_E91800677D5458EF8C488C03D4ACDC6E26JSMediaTokensObjectExports_"
+- "_accountStore"
+- "_activeiTunesAccount"
+- "_additionalBuyParams"
+- "_additionalHeaders"
+- "_ageRating"
+- "_alertButtonOffer"
+- "_alertButtonTitle"
+- "_alertFooterMessage"
+- "_alertMessage"
+- "_alertTitle"
+- "_animationName"
+- "_appOffer"
+- "_appVersionId"
+- "_artwork"
+- "_baseBuyParams"
+- "_baseImageName"
+- "_buffer"
+- "_bundleID"
+- "_buyOffer"
+- "_buyParamsWithCompletionBlock:"
+- "_cachedValues"
+- "_cancellable"
+- "_capabilities"
+- "_checkRestrictionsForContentRating"
+- "_clientID"
+- "_collectionRequestWithClientID:"
+- "_completionOffer"
+- "_contentProviderTeamID"
+- "_contentRatingsBySystem"
+- "_context"
+- "_data"
+- "_dataSource"
+- "_dateRanges"
+- "_decoration"
+- "_defaultOffer"
+- "_developerId"
+- "_developerName"
+- "_deviceCornerRadiusFactor"
+- "_displayContext"
+- "_distributorBundleId"
+- "_distributorId"
+- "_embeddedImage"
+- "_enableAppDistribution"
+- "_endDate"
+- "_eula"
+- "_excludingFields"
+- "_extension"
+- "_externalDeepLinkURL"
+- "_features"
+- "_fields"
+- "_first"
+- "_flags"
+- "_genreID"
+- "_genreName"
+- "_heading"
+- "_headingKind"
+- "_height"
+- "_iapItemID"
+- "_iapItemName"
+- "_iapProductName"
+- "_icon"
+- "_id"
+- "_identifier"
+- "_ids"
+- "_includingFields"
+- "_indeterminate"
+- "_init"
+- "_initWithID:kind:context:clientID:"
+- "_initWithID:kind:context:clientID:enableAppDistribution:"
+- "_initWithID:kind:context:clientID:productVariantID:enableAppDistribution:"
+- "_initWithID:kind:context:enableAppDistribution:"
+- "_initWithID:kind:context:minExternalVersionID:latestReleaseID:productVariantID:"
+- "_initWithID:kind:context:platformOverride:"
+- "_initWithIDs:kind:context:clientID:enableAppDistribution:mediaQueryParams:platformOverride:"
+- "_installSheetStatusUpdateRequest"
+- "_instructions"
+- "_invocationPoints"
+- "_isCancelable"
+- "_isDistributor"
+- "_isEditorsChoice"
+- "_isFinalized"
+- "_isPortrait"
+- "_isSensitive"
+- "_itemName"
+- "_kind"
+- "_limit"
+- "_lockup"
+- "_lockupRequestWithAppDistributionEnabled"
+- "_lockupRequestWithClientID:"
+- "_lockupRequestWithPlatformOverride:"
+- "_mediaPlatform"
+- "_mediaQueryParams"
+- "_metrics"
+- "_metricsBuyParams"
+- "_mutableSupplementaryTags"
+- "_name"
+- "_notSubscribedOffer"
+- "_object"
+- "_observer"
+- "_offer"
+- "_offerID"
+- "_offerType"
+- "_openAppCallbackEnabled"
+- "_openApplicationOperationQueue"
+- "_openOffer"
+- "_organicOffer"
+- "_pageFields"
+- "_parameters"
+- "_paymentViewServiceListener"
+- "_pendingResults"
+- "_percent"
+- "_platformOverride"
+- "_preferredCrop"
+- "_preferredFormat"
+- "_preflightPackageURL"
+- "_presentingSceneBundleIdentifier"
+- "_presentingSceneIdentifier"
+- "_preview"
+- "_primaryTag"
+- "_privacyPolicyUrl"
+- "_productDescription"
+- "_productPageDescription"
+- "_productPageMetadata"
+- "_productRating"
+- "_productRatingBadge"
+- "_productVariantID"
+- "_properties"
+- "_purchaseIntent"
+- "_remoteControllerRequirement"
+- "_requestWithID:kind:context:clientID:"
+- "_requestWithID:kind:context:clientID:enableAppDistribution:"
+- "_requestWithID:kind:context:clientID:productVariantID:enableAppDistribution:"
+- "_requestWithID:kind:context:enableAppDistribution:"
+- "_requestWithID:kind:context:minExternalVersionID:latestReleaseID:productVariantID:"
+- "_requestWithID:kind:context:platformOverride:"
+- "_requiresSSOEntitlement"
+- "_screenshots"
+- "_second"
+- "_setQueue:"
+- "_shortName"
+- "_shouldCheckForAvailableDiskSpace"
+- "_shouldFlush"
+- "_shouldIncludeActiveAccountInFooterMessage"
+- "_shouldPromptForConfirmation"
+- "_signpostTags"
+- "_startDate"
+- "_stateLock"
+- "_storeSheetHostBundleID"
+- "_storeSheetUsageContext"
+- "_streamlinedOffer"
+- "_stringValue"
+- "_subgenres"
+- "_subscribedOffer"
+- "_subtitle"
+- "_subtitles"
+- "_supportUrl"
+- "_tags"
+- "_title"
+- "_titles"
+- "_topic"
+- "_trailers"
+- "_url"
+- "_userDefaults"
+- "_value"
+- "_vendorName"
+- "_videoURL"
+- "_videos"
+- "_webBrowser"
+- "_webDistributionDomains"
+- "_width"
+- "_workspace"
+- "accessQueue"
+- "accountIdentifier"
+- "accountPropertyForKey:"
+- "accountStore"
+- "accountStoreDidChange:"
+- "accounts"
+- "actionWithTitle:"
+- "actionWithTitle:identifier:"
+- "activate"
+- "activeConnections"
+- "activePairedSystemVersion"
+- "activePairedWatchSystemVersion"
+- "activeiTunesAccount"
+- "adGridWithLandscapeScreenshots"
+- "adGridWithPortraitScreenshots"
+- "adMaterialWithLandscapeScreenshots"
+- "adMaterialWithPortraitScreenshots"
+- "adWithLandscapeScreenshot"
+- "adWithLandscapeVideo"
+- "adWithPortraitScreenshots"
+- "adWithPortraitVideo"
+- "adWithText"
+- "adamId"
+- "addBool:withName:"
+- "addButtonAction:"
+- "addDouble:withName:"
+- "addEntriesFromDictionary:"
+- "addErrorBlock:"
+- "addFinishBlock:"
+- "addInt64:withName:"
+- "addInteger:withName:"
+- "addObject:"
+- "addObject:withName:"
+- "addObserver:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:selector:name:object:"
+- "addOperation:"
+- "addSensitiveObject:withName:"
+- "addSubsystem:category:"
+- "addSuccessBlock:"
+- "addSupplementaryTag:"
+- "addUInt64:withName:"
+- "addUnsignedInteger:withName:"
+- "additionalBuyParams"
+- "additionalHeaders"
+- "additionalQueryParams"
+- "additionalVersions"
+- "ageRating"
+- "alertButtonOffer"
+- "alertButtonTitle"
+- "alertFooterMessage"
+- "alertMessage"
+- "alertTitle"
+- "allIAPsForActiveAccount()"
+- "allowedDistributorIds"
+- "ams_DSID"
+- "ams_activeiTunesAccount"
+- "ams_configurationWithProcessInfo:bag:"
+- "ams_cookiesForURL:"
+- "ams_firstName"
+- "ams_isManagedAppleID"
+- "ams_lastName"
+- "ams_localiTunesAccount"
+- "ams_setDSID:"
+- "ams_setFirstName:"
+- "ams_setLastName:"
+- "ams_setManagedAppleID:"
+- "ams_sharedAccountStoreForClient:"
+- "ams_storefront"
+- "animationName"
+- "any-telephony"
+- "app"
+- "app-distribution-use-fallback-fetch"
+- "appAvailability(distributorToAppIds:) called without active JS worker thread"
+- "appAvailabilityWithDistributorToAppIds:"
+- "appBundle"
+- "appClipMetadata"
+- "appConduitForSAD"
+- "appDistribution"
+- "appDistributionApp"
+- "appDistributionFeature"
+- "appDistributionInstall"
+- "appDistributionInstallFeature"
+- "appDistributionOffer"
+- "appDistributionResponse"
+- "appDistributorsDidChange:"
+- "appInstall"
+- "appOffer"
+- "appStateController"
+- "appStoreInstall"
+- "appStoreInstallStateMonitor"
+- "appStoreInstalled"
+- "appStoreObservation"
+- "appStoreRepair"
+- "appVersionId"
+- "appendBytes:length:"
+- "appendFormat:"
+- "appendString:"
+- "appid"
+- "appleSilicon"
+- "applicationIconDidChange:"
+- "applicationInstallsArePrioritized:arePaused:"
+- "applicationInstallsDidCancel:"
+- "applicationInstallsDidChange:"
+- "applicationInstallsDidPause:"
+- "applicationInstallsDidPrioritize:"
+- "applicationInstallsDidResume:"
+- "applicationInstallsDidStart:"
+- "applicationInstallsDidUpdateIcon:"
+- "applicationIsInstalled:"
+- "applicationState"
+- "applicationStateDidChange:"
+- "applicationsDidChangePersonas:"
+- "applicationsDidFailToInstall:"
+- "applicationsDidFailToUninstall:"
+- "applicationsDidInstall:"
+- "applicationsDidUninstall:"
+- "applicationsWillInstall:"
+- "applicationsWillUninstall:"
+- "apps.apple.com"
+- "appstore-metrics-default-topic"
+- "appstore_clickstream_eval"
+- "appstorecomponents"
+- "appstorecomponentsd"
+- "appstorecomponentsd is shutting down"
+- "appstorecomponentsd.AppOfferStateClient"
+- "appstorecomponentsd.CacheKey"
+- "appstorecomponentsd.JSASKGlobalObject"
+- "appstorecomponentsd.JSAppDistributionObject"
+- "appstorecomponentsd.JSAppleSiliconObject"
+- "appstorecomponentsd.JSCampaignAttributionService"
+- "appstorecomponentsd.JSLegacyLocObject"
+- "appstorecomponentsd.JSMediaTokensObject"
+- "appstorecomponentsd.JSMetricsIdentifiersObject"
+- "appstorecomponentsd.JSModernLocObject"
+- "appstorecomponentsd.JSStoreMetricsObject"
+- "appstorecomponentsd.JSUserObject"
+- "appstorecomponentsd.LockupFetcherClient"
+- "appstorecomponentsd.MetricsClient"
+- "appstorecomponentsd.ServiceBrokerClient"
+- "appstorecomponentsd.WidgetEventListener"
+- "appstorecomponentsd.firstparty"
+- "appstorecomponentsd.thirdparty"
+- "appstorecomponentsd/AMSMediaFetcher.swift"
+- "arcade"
+- "arcade-wordmark-en"
+- "arcadeSubscription"
+- "arcadeSubscriptionManager"
+- "arcadeWordmarkAssetName"
+- "arrayByAddingObject:"
+- "arrayForKey:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "artwork"
+- "as_restore_deeplink"
+- "asc-js-time-to-live-seconds"
+- "asc_dictionaryByMergingDictionary:uniquingKeysWithBlock:"
+- "asc_frameworkBundle"
+- "asc_localizedStringKeyPlatformSuffix"
+- "asc_realMainBundle"
+- "asc_sha246Hash"
+- "asc_sha246HashData"
+- "assertionCount"
+- "attributes"
+- "auditToken"
+- "automaticDownloadKinds"
+- "autorelease"
+- "bag"
+- "bagForProfile:profileVersion:processInfo:"
+- "base"
+- "base64EncodedStringWithOptions:"
+- "baseBuyParams"
+- "baseImageName"
+- "because App Store restrictions are enabled."
+- "because no install is pending."
+- "because query returned no apps."
+- "beginDate"
+- "beginEmitting"
+- "binding(resultOf promiseProvider:  in context:)"
+- "boolForKey:"
+- "boolValue"
+- "bootstrap"
+- "bootstrapDidBeginWithTag:"
+- "bootstrapDidEndWithTag:"
+- "bootstrapEnd"
+- "bootstrapStart"
+- "bootstrapState"
+- "buffer"
+- "buildAppDistributionLockups"
+- "buildContingentItem"
+- "buildLockup(fromMediaAPIResponse:withContext:withReplyHandler:)"
+- "buildLockupFromMediaAPIResponse:withContext:withReplyHandler:"
+- "buildType"
+- "bundleID"
+- "bundleIdentifier"
+- "bundlePipeline"
+- "bundleURL"
+- "bundleWithPath:"
+- "bundleid"
+- "but no activity was provided in context"
+- "but no app offer was provided in context"
+- "buyOffer"
+- "buyParamsFeature"
+- "bytes"
+- "cachedServices"
+- "cachedValues"
+- "campaignAttributionService"
+- "cancellable"
+- "cancellationHandler"
+- "capabilities"
+- "category"
+- "changeObserver"
+- "checkRestrictionsForContentRating"
+- "class"
+- "cleanedRedownloadParams"
+- "client"
+- "clientID"
+- "clientIdentifier"
+- "clientIdentifier is not a string"
+- "clientIdentifier is not a string: "
+- "clientOrdering"
+- "clientVersion is not a string"
+- "clientVersion is not a string: "
+- "clone"
+- "code"
+- "collapsingNewlines"
+- "collectionQueue"
+- "com.apple."
+- "com.apple.AppDistributionLaunchAngel"
+- "com.apple.AppStoreComponents"
+- "com.apple.Carousel"
+- "com.apple.Fitness"
+- "com.apple.GameOverlay"
+- "com.apple.LookupViewService"
+- "com.apple.MRSiri"
+- "com.apple.MobileStore"
+- "com.apple.Safari"
+- "com.apple.SearchUITestApp"
+- "com.apple.SiriNCService"
+- "com.apple.Spotlight"
+- "com.apple.appstorecomponentsd.rebootstrap"
+- "com.apple.appstorecomponentsd.rebootstrap-for-qa"
+- "com.apple.appstorecomponentsd.xpc"
+- "com.apple.appstored.IAPInfoDatabaseUpdated"
+- "com.apple.chrono.event-service.appstorecomponentsd"
+- "com.apple.datadetectors.DDActionsService"
+- "com.apple.dt.xctest.tool"
+- "com.apple.gamecenter"
+- "com.apple.internal.AppKing"
+- "com.apple.mobilesafari"
+- "com.apple.private.appstorecomponents"
+- "com.apple.private.appstorecomponents.build-lockup-from-mapi-response"
+- "com.apple.private.appstorecomponents.media-client-id"
+- "com.apple.private.appstorecomponents.media-client-version"
+- "com.apple.private.appstorecomponents.media-clients"
+- "com.apple.siri"
+- "combineBool:"
+- "combineBytes:length:"
+- "combineDouble:"
+- "combineInteger:"
+- "combineObject:"
+- "combineUnsignedInteger:"
+- "compare:"
+- "compare:options:"
+- "completionOffer"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "conformsToProtocol:"
+- "connections"
+- "consistencyLock"
+- "containsObject:"
+- "containsValueForKey:"
+- "contentProviderTeamID"
+- "contentProviderTeamId"
+- "contentRatingsBySystem"
+- "context"
+- "contingent-pricing"
+- "contingentItemId="
+- "contingentItemOffer"
+- "contingentOffers"
+- "contingentPricing"
+- "cookieForUrlWithName::"
+- "cookiesForUrl:"
+- "copy"
+- "copyWithZone:"
+- "correspondingApplicationRecord"
+- "could not reject media api call error reason: "
+- "could not resolve process URL call"
+- "could not resolve process URL call error"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createSnapshotWithCompletion:"
+- "currentConnection"
+- "currentContext"
+- "currentProcess"
+- "currentState"
+- "currentTopic"
+- "d"
+- "d16@0:8"
+- "daemonDefaults"
+- "data"
+- "dataForInvocationPoint:"
+- "dataSource"
+- "dataUsingEncoding:"
+- "dataWithLength:"
+- "databaseWasRebuilt"
+- "dateRange"
+- "dateRanges"
+- "dateWithTimeIntervalSinceNow:"
+- "dealloc"
+- "debugDescription"
+- "debugPackageURL"
+- "decimal::"
+- "decodeArrayOfObjectsOfClass:forKey:"
+- "decodeBoolForKey:"
+- "decodeDoubleForKey:"
+- "decodeFloatForKey:"
+- "decodeInt64ForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "decorateBuyParamsForOffer:withActivity:withReplyHandler:"
+- "decoration"
+- "deeplink"
+- "deeplinkMetadata"
+- "defaultCenter"
+- "defaultFields"
+- "defaultManager"
+- "defaultOffer"
+- "defaultWorkspace"
+- "delegate"
+- "delegateUnlocked"
+- "deletableSystemAppCanBeInstalledOnWatchWithBundleID:"
+- "describeObject"
+- "describeProperties"
+- "description"
+- "description,editorialBadgeInfo"
+- "description,editorialBadgeInfo,screenshotsByType"
+- "description,editorialBadgeInfo,screenshotsByType,videoPreviewsByType"
+- "description,latestVersionInfo,screenshotsByType"
+- "description,screenshotsByType,shortName"
+- "developerId"
+- "developerName"
+- "developerNameFeature"
+- "deviceClass"
+- "deviceCornerRadiusFactor"
+- "deviceGUID"
+- "deviceHasCapabilities:"
+- "deviceHasCapabilitiesIncludingCompatibilityCheck:isVisionOSCompatibleIOSApp:"
+- "deviceManagementPolicyDidChange:"
+- "deviceType"
+- "diagnostics"
+- "dialogHandler"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didChangeAppCapabilities:"
+- "didReceiveMemoryWarning:"
+- "didReceiveOpenEventWith url: "
+- "disableShutdownTimer"
+- "discardedViewModel"
+- "discountOwnedParent"
+- "discountUnownedParent"
+- "displayContext"
+- "displayContextFeature"
+- "distributorBundleId"
+- "distributorId"
+- "distributorPriorityList"
+- "distributorPriorityList called without active JS worker thread"
+- "doesNotRecognizeSelector:"
+- "domain"
+- "doubleForKey:"
+- "doubleValue"
+- "dsid"
+- "duration"
+- "embeddedImage"
+- "empty"
+- "emptyMetadata"
+- "enable-app-distribution-account-personalization"
+- "enable-lockup-collections"
+- "enableAppDistribution"
+- "enableProductPageVariants"
+- "enableWebInspector"
+- "encodeBool:forKey:"
+- "encodeDouble:forKey:"
+- "encodeFloat:forKey:"
+- "encodeInt64:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endDate"
+- "endEmitting"
+- "enqueueOpenApplicationOperation:pendingResult:"
+- "enumName"
+- "enumValue"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumeratorWithOptions:"
+- "environment"
+- "errorWithDomain:code:userInfo:"
+- "eula"
+- "eula,privacyPolicyUrl,shortName"
+- "eventRecorder"
+- "eventServiceListener:didReceiveOpenEventWithURL:"
+- "eventServiceListener:didReceiveOpenEventWithUserActivity:"
+- "eventid"
+- "exceptionWithName:reason:userInfo:"
+- "excludingFields"
+- "executionSeed"
+- "expectedAppStates"
+- "expirationDate"
+- "expirationWorkItem"
+- "expired"
+- "expiresDate"
+- "extRefApp2"
+- "extendedAttributesFeature"
+- "extension"
+- "externalDeepLinkURL"
+- "f"
+- "f16@0:8"
+- "factory"
+- "failed to fetch media token, reason: "
+- "failedToGetStore"
+- "featureFlags"
+- "featureWithClass:"
+- "features"
+- "fetchLockupCollection"
+- "fetchMediaToken"
+- "fetcher"
+- "fields"
+- "fileSize:"
+- "finalizeDescription"
+- "finalizeHash"
+- "finishWithError:"
+- "finishWithResult:"
+- "finishWithSuccess"
+- "first"
+- "firstName"
+- "firstObject"
+- "flags"
+- "flushUnrecordedEvents"
+- "flushUnrecordedEvents called without active JS worker thread"
+- "forceRightToLeftLayout"
+- "forceStandaloneWatch"
+- "formatDate::"
+- "formatDateInSentence:::"
+- "formattedCount:"
+- "gameCenter"
+- "gameCenterArcade"
+- "generateEventFieldsForKeys:"
+- "genreID"
+- "genreName"
+- "getActivePairedDevice"
+- "getAdditionalBuyParams"
+- "getAllIAPsForActiveAccountWithResultHandler:"
+- "getAppLinksWithURL:completionHandler:"
+- "getAppOfferStateService(for:withReplyHandler:)"
+- "getAppOfferStateServiceForDelegate:withReplyHandler:"
+- "getIdentifierForContext:"
+- "getIdentifierForContextSync:"
+- "getLockup(forBundleID:withContext:enableAppDistribution:withReplyHandler:)"
+- "getLockupCollection(with:withReplyHandler:)"
+- "getLockupCollectionWithRequest:withReplyHandler:"
+- "getLockupFetcherService(replyHandler:)"
+- "getLockupFetcherServiceWithReplyHandler:"
+- "getLockupForBundleID:withContext:enableAppDistribution:withReplyHandler:"
+- "getLockupWith(_:withReplyHandler:)"
+- "getLockupWithRequest:withReplyHandler:"
+- "getLockupsWith(_:withReplyHandler:)"
+- "getLockupsWithRequest:withReplyHandler:"
+- "getMetricsFieldsForContexts:"
+- "getMetricsService(replyHandler:)"
+- "getMetricsServiceWithReplyHandler:"
+- "getRecentlyPlayedGamesWithTimeout:"
+- "getTasteProfileToken"
+- "getTokenFor called without active JS worker thread"
+- "getTokenFor::"
+- "getUtilityService(replyHandler:)"
+- "getUtilityServiceWithReplyHandler:"
+- "guid"
+- "handleAlertPresentationRequest:resultHandler:"
+- "handleAuthenticateRequest:resultHandler:"
+- "handleDialogRequest:resultHandler:"
+- "handleEngagementRequest:resultHandler:"
+- "handlePurchase:resultHandler:"
+- "handleURL:"
+- "handleURL:workspace:"
+- "handleViewPresentationRequest:resultHandler:"
+- "hasCapabilities:"
+- "hasCapabilitiesIncludingCompatibilityCheck:isVisionOSCompatibleIOSApp:"
+- "hasHEVCDecoding"
+- "hasMedia"
+- "hasPrefix:"
+- "hasSystemTelephonyOfAnyKind"
+- "hasVenice"
+- "hash"
+- "heading"
+- "headingKind"
+- "height"
+- "helperPlaceholdersInstalled:"
+- "helperPlaceholdersUninstalled:"
+- "host"
+- "hostApp"
+- "https://apps.mzstatic.com/content/2020-appstore-ios/"
+- "https://apps.mzstatic.com/content/2020-appstore-macos/"
+- "https://apps.mzstatic.com/content/2020-appstore-tvos/"
+- "https://apps.mzstatic.com/content/2020-appstore-watchos/"
+- "https://apps.mzstatic.com/content/303ee7d120514c17b76e13a5f392221e/"
+- "https://apps.mzstatic.com/content/550a759415e64a879afa4b10931c75e4/"
+- "https://apps.mzstatic.com/content/a6c53b47075c42bd9fd9182b12e098d7/"
+- "https://apps.mzstatic.com/content/ae010d9de90f429a896d2bfc8d6a77d7/"
+- "https://apps.mzstatic.com/content/d58b30a1f9244052918f5493a75d0a5b/"
+- "https://apps.mzstatic.com/content/f01f7a9fa2bc4294b3876eea5f3fa6cd/"
+- "https://xp.apple.com"
+- "iTunesMetadata"
+- "iapItemID"
+- "iapItemName"
+- "iapProductName"
+- "icon"
+- "iconMetadataWithImageName:animationName:"
+- "id"
+- "identifier"
+- "identifierForKey:"
+- "identifierStoreWithAccount:bagNamespace:bag:"
+- "ids"
+- "imageNameForSize:"
+- "inAppPurchase"
+- "includingFields"
+- "indeterminate"
+- "indeterminateProgressMetadata"
+- "indexOfObjectPassingTest:"
+- "init"
+- "init()"
+- "initIndeterminate"
+- "initWithAccountStore:"
+- "initWithActivityType:"
+- "initWithAppBundleId:isInstallSheetOpen:completionHandler:"
+- "initWithAppOffer:"
+- "initWithArtwork:mediaPlatform:"
+- "initWithBaseImageName:animationName:"
+- "initWithBool:"
+- "initWithBundleID:"
+- "initWithBundleId:productIdentifier:appName:productName:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithBytes:length:"
+- "initWithCapacity:"
+- "initWithClientIdentifier:bag:"
+- "initWithCoder:"
+- "initWithContentProviderTeamID:"
+- "initWithData:invocationPoints:"
+- "initWithDeveloperId:webDistributionDomains:supportUrl:contentRatingsBySystem:isDistributor:"
+- "initWithDeveloperName:"
+- "initWithDeviceCornerRadiusFactor:"
+- "initWithDisplayContext:"
+- "initWithDistributorBundleId:appVersionId:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithEditorsChoice:productRating:productRatingBadge:productDescription:"
+- "initWithFields:"
+- "initWithFirst:second:"
+- "initWithFlags:"
+- "initWithFlags:presentingSceneIdentifier:presentingSceneBundleIdentifier:externalDeepLinkURL:paymentViewServiceListener:"
+- "initWithFormat:"
+- "initWithGenreName:genreID:subgenres:"
+- "initWithHeadingKind:"
+- "initWithID:kind:context:"
+- "initWithID:kind:context:limit:"
+- "initWithID:kind:icon:heading:title:subtitle:ageRating:offer:"
+- "initWithID:kind:metrics:icon:heading:title:subtitle:ageRating:offer:"
+- "initWithID:kind:metrics:icon:heading:title:subtitle:ageRating:offer:features:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:alertTitle:alertMessage:alertButtonOffer:alertButtonTitle:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:alertTitle:alertMessage:alertFooterMessage:isCancelable:checkRestrictionsForContentRating:shouldCheckForAvailableDiskSpace:remoteControllerRequirement:shouldIncludeActiveAccountInFooterMessage:shouldPromptForConfirmation:completionOffer:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:appVersionId:distributorId:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:baseBuyParams:metricsBuyParams:additionalHeaders:preflightPackageURL:bundleID:itemName:vendorName:capabilities:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:defaultOffer:buyOffer:openOffer:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:notSubscribedOffer:subscribedOffer:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:organicOffer:streamlinedOffer:offerID:iapItemID:iapItemName:iapProductName:offerType:"
+- "initWithID:titles:subtitles:flags:ageRating:metrics:url:isSensitive:"
+- "initWithIDs:kind:context:"
+- "initWithInstructions:pageFields:"
+- "initWithInt64:"
+- "initWithInteger:"
+- "initWithLockup:"
+- "initWithLockup:storeSheetHostBundleID:storeSheetUsageContext:"
+- "initWithLockup:storeSheetHostBundleID:storeSheetUsageContext:parameters:"
+- "initWithLongLong:"
+- "initWithMachServiceName:"
+- "initWithMetadata:description:"
+- "initWithName:identifier:"
+- "initWithName:reason:userInfo:"
+- "initWithName:value:"
+- "initWithNumberValue:"
+- "initWithObject:"
+- "initWithObjects:"
+- "initWithPercent:cancellable:"
+- "initWithPrivacyPolicyUrl:eula:"
+- "initWithProductVariantID:"
+- "initWithRequest:"
+- "initWithRequiresSSOEntitlement:"
+- "initWithScreenshots:trailers:"
+- "initWithServiceDomain:delegate:"
+- "initWithShortName:"
+- "initWithSignpostTags:"
+- "initWithSpans:"
+- "initWithStartDate:endDate:"
+- "initWithStoreItemIdentifier:error:"
+- "initWithStoreMetadata:"
+- "initWithStringValue:"
+- "initWithSuiteName:"
+- "initWithTags:dateRanges:"
+- "initWithTitle:message:"
+- "initWithTitle:subtitle:"
+- "initWithTopic:shouldFlush:fields:includingFields:excludingFields:"
+- "initWithType:clientIdentifier:clientVersion:bag:"
+- "initWithURL:bag:"
+- "initWithURL:resolvingAgainstBaseURL:"
+- "initWithURLTemplate:width:height:decoration:preferredCrop:preferredFormat:"
+- "initWithUnsignedLongLong:"
+- "initWithValue:"
+- "initWithVideoURL:preview:"
+- "initWithVideos:mediaPlatform:"
+- "initWithWorkspace:"
+- "installApp:onPairedDevice:withCompletionHandler:"
+- "installApp:withCompletionHandler:"
+- "installSheetStatusUpdateRequest"
+- "instructions"
+- "int ASCRebootstrapNotificationGetToken(void)_block_invoke"
+- "int ASCRegisterForRebootstrapQANotification(void (^__strong _Nonnull)(void))"
+- "int64value"
+- "integerForKey:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "internal"
+- "invalidAdamID"
+- "invalidate"
+- "invalidateMediaToken"
+- "invocationPoints"
+- "isActivePairedWatchSystemVersionAtLeastMajorVersion:minorVersion:patchVersion:"
+- "isActivityAvailable"
+- "isAppDistributionEligibleForCurrentDevice:"
+- "isAppDistributionLaunchAngel:"
+- "isAppleSiliconMac"
+- "isAutomaticDownloadingEnabled"
+- "isCancelable"
+- "isCapableOfAction:capabilities:"
+- "isDeeplink"
+- "isDistributor"
+- "isEditorsChoice"
+- "isElectrocardiogramInstallationAllowed"
+- "isEmpty"
+- "isEnabled:"
+- "isEqual:"
+- "isEqualToString:"
+- "isExpired"
+- "isExtension"
+- "isFinalized"
+- "isGameCenterEnabled,shortName"
+- "isGameOverlayUI:"
+- "isITunesStoreClient:"
+- "isIcon"
+- "isIndeterminate"
+- "isInstalled"
+- "isInstalledFromDistributorOrWeb"
+- "isInternalASCClient:"
+- "isKindOfClass:"
+- "isLaunchProhibited"
+- "isManagedAppleID"
+- "isMemberOfClass:"
+- "isOpenAppCallbackEnabled"
+- "isOperatingSystemAtLeastVersion:"
+- "isPad"
+- "isPairedSystemVersionAtLeast:"
+- "isPausable"
+- "isPlaceholder"
+- "isPortrait"
+- "isProgress"
+- "isProxy"
+- "isRosettaAvailable"
+- "isSensitive"
+- "isSidepackingEnabled"
+- "isSpotlightClient:"
+- "isStandaloneWatch"
+- "isString"
+- "isSupportEnabled"
+- "isText"
+- "isTinkerWatch"
+- "isUnderThirteen"
+- "isUpdatingArcadeSubscription"
+- "isUpdatingContingentOfferSubscription"
+- "isViewInAppStore"
+- "isViewOnly"
+- "isWebBrowser"
+- "itemID"
+- "itemName"
+- "itms-apps"
+- "js-component-url"
+- "jsCall"
+- "jsCallDidBeginWithTag:"
+- "jsCallDidEndWithTag:"
+- "jsCallEnd"
+- "jsCallEndTime"
+- "jsCallStart"
+- "jsCallStartTime"
+- "jsStackBootstrap"
+- "jsStackBootstrapDidBeginWithTag:"
+- "jsStackBootstrapDidEndWithTag:"
+- "jsStackBootstrapEnd"
+- "jsStackBootstrapStart"
+- "jsStackManager"
+- "jsVersion"
+- "kASDIAPInfoDatabaseUpdatedNotification received"
+- "keepAlive"
+- "keyWithName:crossDeviceSync:"
+- "kind"
+- "lastName"
+- "latestReleaseId"
+- "launchCorrelationKey"
+- "launchCorrelationKeyWithTag:withString:"
+- "launchMessagesExtension(withBundleID:asPartOf:)"
+- "launchMessagesExtensionForApp:withResultHandler:"
+- "launchapp"
+- "length"
+- "limit"
+- "lisbon_2024C"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "loc"
+- "locale"
+- "localeWithCalendar"
+- "localeWithCalendarWithBagFixUp"
+- "localizedName"
+- "localizer"
+- "lock"
+- "lockup"
+- "lockupBatchRequestWithIDs:"
+- "lockupBatchRequestsFromRequests:"
+- "lockupByAddingFeature:"
+- "lockupRequestByAddingMediaQueryParams:"
+- "lockupRequestWithAppDistributionEnabled"
+- "lockupRequestWithClientID:"
+- "lockupRequestWithMediaQueryParams:"
+- "lockupRequestWithPlatformOverride:"
+- "lockupWithOffer:"
+- "lockupWithSignpostTags:"
+- "lockups"
+- "log"
+- "logErrorMessage:"
+- "longLongValue"
+- "lowercaseString"
+- "main-screen-height"
+- "main-screen-scale"
+- "main-screen-width"
+- "mainBundle"
+- "mainScreenCornerRadius"
+- "mainScreenPointSize"
+- "mainScreenScale"
+- "mainScreenSize"
+- "makeURLWithSubstitutions:"
+- "malloc_engaged_nano=%{public}d"
+- "mediaPlatform"
+- "mediaQueryParams"
+- "meta[contingent-items:branch]"
+- "meta[contingent-items]"
+- "metadataType"
+- "metrics"
+- "metrics-id-migration-enabled"
+- "metrics/performance/samplingPercentageUsers"
+- "metrics/performance/samplingPercentageUsersLog"
+- "metrics/performance/sessionDuration"
+- "metrics/performance/sessionDurationLog"
+- "metricsActivityByMergingFields:uniquingFieldsWithBlock:"
+- "metricsActivityByRemovingValueForKey:"
+- "metricsActivityWithValue:forKey:"
+- "metricsBuyParams"
+- "metricsDataByMergingFields:uniquingFieldsWithBlock:"
+- "metricsIdStore"
+- "metricsIdentifiers"
+- "metricsLogger"
+- "metricsPipeline"
+- "metricsService"
+- "metricsTopicProvider"
+- "minExternalVersionId"
+- "miniProductPageFeature"
+- "modelPrefetch"
+- "modelPrefetchDidBeginWithTag:"
+- "modelPrefetchDidEndWithTag:"
+- "modelPrefetchEnd"
+- "modelPrefetchStart"
+- "mutableBytes"
+- "mutableCopy"
+- "mutableSupplementaryTags"
+- "name"
+- "nano-malloc is enabled for appstorecomponentsd"
+- "networkUsageChanged:"
+- "newPaymentMethodEnabled"
+- "nextObject"
+- "nilObject"
+- "none"
+- "none were detected"
+- "notSubscribed"
+- "notSubscribedOffer"
+- "notificationCenter"
+- "notificationToken"
+- "notifyThatInstallSheetIsOpen(for:)"
+- "numberValue"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "object"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectGraph"
+- "observations"
+- "observeLaunchProhibitedApps"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observer"
+- "offer"
+- "offer:didChangeState:withMetadata:flags:"
+- "offer:didChangeStatusText:"
+- "offerContextByAddingFlags:"
+- "offerContextWithPresentingSceneIdentifier:presentingSceneBundleIdentifier:externalDeepLinkURL:"
+- "offerID"
+- "offerType"
+- "offerWithMetrics:"
+- "omit[resource:apps:attributes]"
+- "onAppStoreInstallStateChange"
+- "onRebootstrapRequested"
+- "onSubscriptionStateChange"
+- "onSynchronizeAppStates"
+- "open"
+- "openAppCallbackEnabled"
+- "openApplication:withOptions:completion:"
+- "openApplicationOperationQueue"
+- "openApplicationWithBundleIdentifier:configuration:completionHandler:"
+- "openApplicationWithBundleIdentifier:configuration:pendingResult:"
+- "openApplicationWithBundleIdentifier:payloadURL:"
+- "openApplicationWithBundleIdentifier:payloadURL:universalLinkRequired:"
+- "openApplicationWithBundleIdentifier:payloadURL:universalLinkRequired:workspace:"
+- "openApplicationWithBundleIdentifier:payloadURL:workspace:"
+- "openApplicationWithBundleIdentifier:usingOpenResourceOperationWithPayloadURL:options:pendingResult:"
+- "openApplicationWithBundleIdentifier:usingUserActivityWithPayloadURL:configuration:pendingResult:"
+- "openOffer"
+- "openProductURL:"
+- "openResourceOperation:didFailWithError:"
+- "openResourceOperationDidComplete:"
+- "openSensitiveURL:"
+- "openSensitiveURL:frontBoardOptions:"
+- "openURL(_:withReplyHandler:)"
+- "openURL:"
+- "openURL:configuration:completionHandler:"
+- "openURL:frontBoardOptions:"
+- "openURL:withReplyHandler:"
+- "openUserActivity:usingApplicationRecord:configuration:completionHandler:"
+- "openWithConfiguration:completionHandler:"
+- "operatingSystemVersion"
+- "operationToOpenResource:usingApplication:uniqueDocumentIdentifier:isContentManaged:sourceAuditToken:userInfo:options:delegate:"
+- "optionsWithDictionary:"
+- "orderedVisibleIAPs is not available"
+- "orderedVisibleIAPs:::::"
+- "organicOffer"
+- "overlay"
+- "overlayClip"
+- "overlayRequested"
+- "overlayRequestedWithTag:"
+- "overlays-load-timeout"
+- "overlays-rate-limit-requests-per-second"
+- "overlays-rate-limit-time-window"
+- "overlaysLoadTimeout"
+- "overlaysRateLimitRequestsPerSecond"
+- "overlaysRateLimitTimeWindow"
+- "pad"
+- "pageContext"
+- "pageFields"
+- "pageRequested"
+- "pageRequestedTime"
+- "pageRequestedWithTag:"
+- "pageUserReady"
+- "pageUserReadyTime"
+- "pageUserReadyWithTag:"
+- "pairingID"
+- "parameters"
+- "path"
+- "pathWithComponents:"
+- "pause"
+- "pause_resume_offer_button_label_2024E"
+- "paymentViewServiceListener"
+- "pendingResults"
+- "pendingShutdown"
+- "percent"
+- "perform"
+- "performAction(of:with:in:withReplyHandler:)"
+- "performActionOfOffer:withActivity:inContext:withReplyHandler:"
+- "performAuthentication"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "personalizationStore"
+- "phone"
+- "placeholder"
+- "placeholderMetadata"
+- "platform"
+- "platformOverride"
+- "pluginsDidInstall:"
+- "pluginsDidUninstall:"
+- "pluginsWillUninstall:"
+- "popPendingResultForOperationName:"
+- "postNotificationName:object:"
+- "ppid"
+- "predicateByAddingDateRange:"
+- "predicateByAddingTag:"
+- "preferInternalJS"
+- "preferences"
+- "preferredCrop"
+- "preferredFormat"
+- "preflightPackageURL"
+- "preorderNotSubscribed"
+- "preorderStatus"
+- "preorderSubscribed"
+- "present"
+- "present:"
+- "presentGameControllerRequiredAlert(action:objectGraph:)"
+- "presentingSceneBundleIdentifier"
+- "presentingSceneIdentifier"
+- "preview"
+- "primaryTag"
+- "privacyPolicyUrl"
+- "process"
+- "processInfo"
+- "processLogArchiveWithPath:startDate:endDate:errorOut:"
+- "processMetricsData(_:pageFields:activity:withReplyHandler:)"
+- "processMetricsData:pageFields:activity:withReplyHandler:"
+- "processName"
+- "processRedirectURL:"
+- "processRedirectURLWithParameters"
+- "processURL called without active JS worker thread"
+- "processURL failed to convert URL string to URL object"
+- "processViewRender(with:withReplyHandler:)"
+- "processViewRenderWithPredicate:withReplyHandler:"
+- "productDescription"
+- "productPageDescription"
+- "productPageMetadata"
+- "productPageURLForAdamId:deeplink:eventId:encodedMetrics:sourceApplication:"
+- "productPageURLForAdamId:eventId:"
+- "productPageURLForAdamId:eventId:encodedMetrics:"
+- "productPageURLForAdamId:eventId:encodedMetrics:sourceApplication:"
+- "productRating"
+- "productRatingBadge"
+- "productType"
+- "productVariantID"
+- "production"
+- "profile"
+- "profileVersion"
+- "progress"
+- "progressMetadataWithValue:"
+- "progressMetadataWithValue:cancellable:"
+- "promise timed out with interval:"
+- "promiseWithTimeout:"
+- "properties"
+- "props"
+- "purchaseIntent"
+- "q"
+- "q16@0:8"
+- "qaNotificationToken"
+- "queryItemWithName:value:"
+- "queryItems"
+- "queryParametersForLockup:"
+- "raise:format:"
+- "rdar131948291Workaround_openApplication(_:with:)"
+- "rebootstrapTrigger"
+- "recordCampaignToken"
+- "recordCampaignToken(_:providerToken:with:withReplyHandler:)"
+- "recordCampaignToken:providerToken:withLockup:withReplyHandler:"
+- "recordEvent::"
+- "recordQToken(_:campaignToken:advertisementID:with:withReplyHandler:)"
+- "recordQToken:campaignToken:advertisementID:withLockup:withReplyHandler:"
+- "redirectUrlParameters"
+- "redownloadMetadata"
+- "redownloadParams"
+- "references"
+- "refreshIAPsForActiveAccountWithCompletionHandler:"
+- "reinstallWatchAppWithID:withReplyHandler:"
+- "reinstallWatchSystemAppWithBundleID:withReplyHandler:"
+- "relativeDate:"
+- "release"
+- "remoteControllerRequirement"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:forKeyPath:context:"
+- "replaceObjectAtIndex:withObject:"
+- "replaceOccurrencesOfString:withString:options:range:"
+- "request"
+- "requestDidBeginWithTag:"
+- "requestDidEndWithTag:"
+- "requestEnd"
+- "requestEndTime"
+- "requestStart"
+- "requestStartTime"
+- "requests"
+- "requiredFieldNames"
+- "requiresSSOEntitlement"
+- "resetTokenFor::"
+- "resourceRequest"
+- "resourceRequestDidBeginWithTag:"
+- "resourceRequestDidEndWithTag:"
+- "resourceRequestEnd"
+- "resourceRequestStart"
+- "respondsToSelector:"
+- "responseDictionary"
+- "restoreAppStoreWithReplyHandler:"
+- "restrictions"
+- "resultWithCompletion:"
+- "resume"
+- "retain"
+- "retainCount"
+- "rootViewModelParse"
+- "rootViewModelParseDidBeginWithTag:"
+- "rootViewModelParseDidEndWithTag:"
+- "rootViewModelParseEnd"
+- "rootViewModelParseEndTime"
+- "rootViewModelParseStart"
+- "rootViewModelParseStartTime"
+- "rootViewModelPresent"
+- "rootViewModelPresentWithTag:"
+- "safariExtension"
+- "safariExtensionFeature"
+- "screenCornerRadius"
+- "screenSize"
+- "screenshots"
+- "second"
+- "selectedActionIdentifier"
+- "self"
+- "send:"
+- "serverTimeFromDate:"
+- "service"
+- "serviceWithDefaultShellEndpoint"
+- "session"
+- "set"
+- "setAccount:"
+- "setAccountMediaType:"
+- "setActiveiTunesAccount:"
+- "setAdditionalBuyParams:"
+- "setAdditionalHeaders:"
+- "setAdditionalPlatforms:"
+- "setAdditionalQueryParams:"
+- "setAnonymous:"
+- "setAppCapabilities:"
+- "setBeginEventProcessingBlock:"
+- "setBundleID:"
+- "setBundleIdentifiers:"
+- "setBuyParameters:"
+- "setByAddingObject:"
+- "setByAddingObjectsFromArray:"
+- "setCachedValues:"
+- "setCalendar:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClientID:"
+- "setClientInfo:"
+- "setCreatesJobs:"
+- "setDateStyle:"
+- "setDebugPackageURL:"
+- "setDefaultMediaTypeForCurrentProcess:"
+- "setDelegate:"
+- "setDeviceRebootProcessingBlock:"
+- "setDialogObserver:"
+- "setDisableShutdownTimer:"
+- "setDoesRelativeDateFormatting:"
+- "setEmitEventProcessingBlock:"
+- "setEnableWebInspector:"
+- "setEndDate:"
+- "setEndEventProcessingBlock:"
+- "setException:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setExtensionsToEnable:"
+- "setFilter:"
+- "setFlushDelayEnabled:"
+- "setForceRightToLeftLayout:"
+- "setForceStandaloneWatch:"
+- "setForceWatchInstall:"
+- "setFormatterBehavior:"
+- "setFormattingContext:"
+- "setFrontBoardOptions:"
+- "setIgnoreAppLinkEnabledProperty:"
+- "setIncludeAccountMatchStatus:"
+- "setIndeterminate:"
+- "setInterface:forSelector:argumentIndex:ofReply:"
+- "setInvalidationHandler:"
+- "setIsActiveITunesAccountRequired:"
+- "setIsDSIDLess:"
+- "setIsFinalized:"
+- "setIsRedownload:"
+- "setIsUpdate:"
+- "setItemID:"
+- "setItemIdentifiers:"
+- "setItemName:"
+- "setJsVersion:"
+- "setLength:"
+- "setLocale:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setMinimumFractionDigits:"
+- "setName:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObserver:"
+- "setOpenAppCallbackEnabled:"
+- "setOpenApplicationOperationQueue:"
+- "setOverlaysLoadTimeout:"
+- "setOverlaysRateLimitRequestsPerSecond:"
+- "setOverlaysRateLimitTimeWindow:"
+- "setPercentEncodedHost:"
+- "setPercentEncodedPath:"
+- "setPreferInternalJS:"
+- "setPreflightURLString:"
+- "setQueryItems:"
+- "setRedownloadParams:"
+- "setScheme:"
+- "setSensitive:"
+- "setStartDate:"
+- "setStorefrontLocaleID:"
+- "setSubsystemCategoryFilter:"
+- "setSuspended:"
+- "setTimeStyle:"
+- "setTopic:"
+- "setUserInitiated:"
+- "setUsername:"
+- "setValue:"
+- "setVendorName:"
+- "setWebBrowser:"
+- "setWebpageURL:"
+- "setWithObjects:"
+- "sharedInstance"
+- "sharedManager"
+- "sharedWorkspace"
+- "shortName"
+- "shortNameFeature"
+- "shouldCheckForAvailableDiskSpace"
+- "shouldFlush"
+- "shouldIncludeActiveAccountInFooterMessage"
+- "shouldInstallParentApp"
+- "shouldPromptForConfirmation"
+- "shrinkFootprintWhenIdle"
+- "shutdownTimer"
+- "signInWithApple"
+- "signpostExtractor"
+- "signpostId"
+- "signpostTags"
+- "singleSignOn"
+- "singleSignOnFeature"
+- "softlink:r:path:/System/Library/Frameworks/StoreKit.framework/StoreKit"
+- "software"
+- "sourceApplication"
+- "sourceapplication"
+- "stack"
+- "standard"
+- "start"
+- "startDate"
+- "startObservingStateOfOffers:"
+- "stateAccessLock"
+- "stateLock"
+- "stopObservingStateOfOffers:"
+- "store"
+- "storeItemIdentifier"
+- "storeMetrics"
+- "storeSheetHostBundleID"
+- "storeSheetUsageContext"
+- "storefrontIdentifier"
+- "storefrontLocaleID"
+- "streamlinedOffer"
+- "string:"
+- "stringByAddingPercentEncodingWithAllowedCharacters:"
+- "stringByAppendingString:"
+- "stringByRemovingPercentEncoding"
+- "stringForKey:"
+- "stringFromByteCount:countStyle:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "stringValue"
+- "stringWithCount::"
+- "stringWithCounts::"
+- "stringWithFormat:"
+- "stringWithString:"
+- "subarrayWithRange:"
+- "subgenres"
+- "subscribedOffer"
+- "subsystem"
+- "subtitle"
+- "subtitles"
+- "superclass"
+- "supplementaryTags"
+- "supportUrl"
+- "supports-app-distribution"
+- "supportsDSIDLessInstall"
+- "supportsHEIF"
+- "supportsSecureCoding"
+- "supportsSingleSignOnEnrollment"
+- "tags"
+- "targetApplicationRecord"
+- "task"
+- "temporaryDirectory"
+- "testConnectionWithReplyHandler:"
+- "text"
+- "textMetadataWithTitle:subtitle:"
+- "thinnedAppVariantId"
+- "thinnedApplicationVariantIdentifier"
+- "timeAgo is not available"
+- "timeAgo:"
+- "timeToLive"
+- "timerQueue"
+- "title"
+- "titles"
+- "toDictionary"
+- "toInt32"
+- "toString"
+- "tokenString"
+- "topic"
+- "trailers"
+- "trampolineMetrics"
+- "trampolinemetrics"
+- "trial"
+- "type"
+- "underlyingErrors"
+- "unionSet:"
+- "universalLinkRequired"
+- "unlock"
+- "unsignedLongLongValue"
+- "url"
+- "user"
+- "userAgeIfAvailable"
+- "userDefaults"
+- "userHasPairedGameController"
+- "userInfo"
+- "username"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"AMSMetricsIdentifierStore\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNumber\"8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"ASCAppDistributionOffer\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"<ASCLockupFetcherService>\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"<ASCMetricsService>\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"<ASCUtilityService>\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"AMSSnapshotBag\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"AMSAuthenticateResult\"8@\"NSError\"16"
+- "v24@?0@\"AMSDialogResult\"8@\"NSError\"16"
+- "v24@?0@\"AMSMetricsIdentifierStore\"8@\"NSError\"16"
+- "v24@?0@\"BSProcessHandle\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSUUID\"8@\"NSError\"16"
+- "v28@0:8B16@20"
+- "v32@0:8@\"<ASCAppOfferStateDelegate>\"16@?<v@?@\"<ASCAppOfferStateService>\"@\"NSError\">24"
+- "v32@0:8@\"<ASCOffer>\"16@\"NSString\"24"
+- "v32@0:8@\"AMSAuthenticateRequest\"16@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">24"
+- "v32@0:8@\"AMSDialogRequest\"16@?<v@?@\"AMSDialogResult\"@\"NSError\">24"
+- "v32@0:8@\"AMSEngagementRequest\"16@?<v@?@\"AMSEngagementResult\"@\"NSError\">24"
+- "v32@0:8@\"AMSPurchaseSIWA\"16@?<v@?@\"AMSPurchaseSIWAResult\"@\"NSError\">24"
+- "v32@0:8@\"ASCAdamID\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"ASCCollectionRequest\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"ASCLockupBatchRequest\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"ASCLockupRequest\"16@?<v@?@\"ASCLockup\"@\"NSError\">24"
+- "v32@0:8@\"ASCSignpostPredicate\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"ASDAlertPresentationRequest\"16@?<v@?@\"ASDAlertPresentationResult\"@\"NSError\">24"
+- "v32@0:8@\"ASDViewPresentationRequest\"16@?<v@?@\"ASDViewPresentationResult\"@\"NSError\">24"
+- "v32@0:8@\"CHSWidgetEventServiceListener\"16@\"NSURL\"24"
+- "v32@0:8@\"CHSWidgetEventServiceListener\"16@\"NSUserActivity\"24"
+- "v32@0:8@\"JSValue\"16@\"JSValue\"24"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@\"NSDictionary\"16@\"JSValue\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@24"
+- "v32@0:8d16@24"
+- "v32@0:8q16@\"NSString\"24"
+- "v32@0:8q16@24"
+- "v32@0:8r^v16Q24"
+- "v32@?0@\"ASCPair\"8@\"NSMutableSet\"16^B24"
+- "v32@?0@\"NSString\"8@\"NSString\"16^B24"
+- "v32@?0@8@16^B24"
+- "v40@0:8@\"ASCAppOffer\"16@\"ASCMetricsActivity\"24@?<v@?@\"NSString\"@\"NSError\">32"
+- "v40@0:8@\"NSDictionary\"16@\"NSString\"24@?<v@?@\"ASCLockup\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"ASCLockup\"@\"NSError\">36"
+- "v44@0:8@16@24B32@?36"
+- "v48@0:8@\"<ASCOffer>\"16@\"ASCMetricsActivity\"24@\"ASCOfferContext\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"<ASCOffer>\"16@\"NSString\"24@\"ASCOfferMetadata\"32q40"
+- "v48@0:8@\"ASCMetricsData\"16@\"NSDictionary\"24@\"ASCMetricsActivity\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"ASCLockup\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8@16@24@32q40"
+- "v56@0:8@\"NSString\"16@\"NSArray\"24@\"NSArray\"32@\"NSString\"40@\"JSValue\"48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"ASCLockup\"40@?<v@?@\"NSError\">48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32@40@?48"
+- "v8@?0"
+- "value"
+- "valueForEntitlement:"
+- "valueIfLoaded"
+- "valueWithBool:inContext:"
+- "valueWithNewErrorFromMessage:inContext:"
+- "valueWithNewObjectInContext:"
+- "valueWithNullInContext:"
+- "valueWithObject:inContext:"
+- "valueWithUndefinedInContext:"
+- "variantLockupFeature"
+- "vendorName"
+- "venice"
+- "versionIdentifier"
+- "videoURL"
+- "videos"
+- "viewAppForAppDistributionOffer:"
+- "viewInAppStore"
+- "virtualMachine"
+- "visibilityForIAPs is not available"
+- "visibilityForIAPs::"
+- "void ASCIncrementRebootstrapCounter(int)"
+- "void ASCUnregisterForRebootstrapQANotification(int)"
+- "wallet"
+- "wapi"
+- "wapiCapability"
+- "webBrowser"
+- "webBrowserCollectionProductPageFix"
+- "webBrowserUpdates"
+- "webDistributionDomains"
+- "widgetEventListener"
+- "width"
+- "willEmitSignpostOfType:withName:"
+- "with incident(s): "
+- "withSharedWorkspace:perform:"
+- "workQueue"
+- "workspace"
+- "workspaceObserver"
+- "xpSamplingForced"
+- "xpSamplingPercentageUsers"
+- "xpSessionDuration"
+- "xp_amp_appstore_log"
+- "xp_amp_clientperf"
+- "xp_ase_appstore_ue"
+- "zone"
+- "{CGSize=dd}16@0:8"
+
+```

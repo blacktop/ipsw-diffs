@@ -1,0 +1,1352 @@
+## mmaintenanced
+
+> `/usr/libexec/mmaintenanced`
+
+```diff
+
+-158.100.15.0.0
+-  __TEXT.__text: 0x1c034
+-  __TEXT.__auth_stubs: 0x12d0
++199.0.0.0.0
++  __TEXT.__text: 0x1fcf8
++  __TEXT.__auth_stubs: 0x1320
+   __TEXT.__init_offsets: 0x8
+-  __TEXT.__const: 0x124a
+-  __TEXT.__oslogstring: 0x2673
+-  __TEXT.__cstring: 0x1b28
+-  __TEXT.__gcc_except_tab: 0x7d0
+-  __TEXT.__swift5_typeref: 0x9e
+-  __TEXT.__objc_methname: 0x1db
+-  __TEXT.__swift5_capture: 0x78
++  __TEXT.__oslogstring: 0x2921
++  __TEXT.__const: 0x12c8
++  __TEXT.__cstring: 0x1b94
++  __TEXT.__gcc_except_tab: 0x8c0
++  __TEXT.__objc_methname: 0x34a
++  __TEXT.__swift5_typeref: 0xe6
++  __TEXT.__swift5_capture: 0x130
+   __TEXT.__constg_swiftt: 0x44
+   __TEXT.__swift5_fieldmd: 0x50
+   __TEXT.__swift5_types: 0x8
+
+   __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift5_reflstr: 0x24
+   __TEXT.__swift5_proto: 0x8
+-  __TEXT.__unwind_info: 0x838
+-  __TEXT.__eh_frame: 0x208
+-  __DATA_CONST.__auth_got: 0x970
+-  __DATA_CONST.__got: 0x230
+-  __DATA_CONST.__auth_ptr: 0x80
+-  __DATA_CONST.__const: 0x1018
++  __TEXT.__unwind_info: 0x948
++  __TEXT.__eh_frame: 0x1d0
++  __DATA_CONST.__auth_got: 0x998
++  __DATA_CONST.__got: 0x228
++  __DATA_CONST.__auth_ptr: 0x68
++  __DATA_CONST.__const: 0x1390
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_selrefs: 0xc8
+-  __DATA.__data: 0xed8
+-  __DATA.__bss: 0x190
+-  __DATA.__common: 0x40
++  __DATA.__objc_selrefs: 0x150
++  __DATA.__data: 0xd18
++  __DATA.__bss: 0x210
++  __DATA.__common: 0x70
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
++  - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+   - /System/Library/PrivateFrameworks/KRExperiments.framework/KRExperiments
+   - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
++  - /System/Library/PrivateFrameworks/Symbolication.framework/Symbolication
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 5DD31519-0F2C-3EB8-9F29-DF43307E3581
+-  Functions: 541
+-  Symbols:   441
+-  CStrings:  476
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 8E27AD5F-77F1-355A-9305-7F121EBE1EE9
++  Functions: 642
++  Symbols:   3503
++  CStrings:  458
+ 
+Symbols:
++ 
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.11
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.18
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.28
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.35
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.4
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.42
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.55
++ $s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA.62
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13Tu
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/DerivedSources/arm64e/
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/compressor_sweep.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/ecc_logging.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/mach_services.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/mcc_logging.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/memory_error_notificationServer.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/memory_level.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/memory_stats.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/mmaintenanced.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/mmaintenanced_lto.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/neural_memory.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/os_logging.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/read_jetsam_properties.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/system_hwm.o
++ /Library/Caches/com.apple.xbs/Binaries/MemoryMaintenance/install/TempContent/Objects/MemoryMaintenance.build/mmaintenanced.build/Objects-normal/arm64e/system_hwm_reporting.o
++ /Library/Caches/com.apple.xbs/Sources/MemoryMaintenance/Shared/
++ /Library/Caches/com.apple.xbs/Sources/MemoryMaintenance/mmaintenanced/
++ /Library/Caches/com.apple.xbs/Sources/MemoryMaintenance/mmaintenanced/error_logging/
++ /Library/Caches/com.apple.xbs/Sources/kernel_tools/CPPUtil/
++ GCC_except_table0
++ GCC_except_table1
++ GCC_except_table10
++ GCC_except_table105
++ GCC_except_table110
++ GCC_except_table114
++ GCC_except_table118
++ GCC_except_table119
++ GCC_except_table121
++ GCC_except_table13
++ GCC_except_table14
++ GCC_except_table140
++ GCC_except_table142
++ GCC_except_table15
++ GCC_except_table152
++ GCC_except_table154
++ GCC_except_table158
++ GCC_except_table16
++ GCC_except_table162
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table169
++ GCC_except_table17
++ GCC_except_table171
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table177
++ GCC_except_table178
++ GCC_except_table18
++ GCC_except_table184
++ GCC_except_table185
++ GCC_except_table188
++ GCC_except_table189
++ GCC_except_table2
++ GCC_except_table20
++ GCC_except_table202
++ GCC_except_table204
++ GCC_except_table205
++ GCC_except_table224
++ GCC_except_table26
++ GCC_except_table29
++ GCC_except_table3
++ GCC_except_table31
++ GCC_except_table32
++ GCC_except_table34
++ GCC_except_table40
++ GCC_except_table42
++ GCC_except_table48
++ GCC_except_table49
++ GCC_except_table5
++ GCC_except_table50
++ GCC_except_table55
++ GCC_except_table56
++ GCC_except_table57
++ GCC_except_table58
++ GCC_except_table6
++ GCC_except_table65
++ GCC_except_table7
++ GCC_except_table71
++ GCC_except_table8
++ GCC_except_table85
++ GCC_except_table9
++ GCC_except_table91
++ GCC_except_table92
++ UtilMappedFile.cpp
++ _$s23MemoryMaintenance_Swift010reportMachA4Info10ca_enabledS2b_tF
++ _$s23MemoryMaintenance_Swift018registerReportMachA12InfoActivityyyF
++ _$s23MemoryMaintenance_Swift018registerReportMachA12InfoActivityyyFyyYbcfU_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TA
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TATQ0_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TATu
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TQ0_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TQ2_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TY1_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TY3_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_TY4_
++ _$s23MemoryMaintenance_Swift07runWithaB9Assertion5blockyyyYbXB_tFyyYacfU_Tu
++ _$s23MemoryMaintenance_Swift11JetsamBands_WZTv_r
++ _$s23MemoryMaintenance_Swift13getKillCounts4bandSays6UInt32VGs5Int32V_tF
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOACSQAAWL
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOACSQAAWl
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOMF
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOMa
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOMf
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOMn
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeON
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAAMc
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAAMcMK
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAASH9hashValueSivgTW
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSHAASQWb
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSQAAMc
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSQAAMcMK
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOWV
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOwet
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOwst
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOwug
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOwui
++ _$s23MemoryMaintenance_Swift15TrialFactorTypeOwup
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tF
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFTm
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TA
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TATQ0_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TATu
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TQ1_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TY0_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TY2_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_TY3_
++ _$s23MemoryMaintenance_Swift15areModelsLoaded8callbackyySbYbXB_tFyyYacfU_Tu
++ _$s23MemoryMaintenance_Swift16registrationLock15Synchronization5MutexVyytGvp
++ _$s23MemoryMaintenance_Swift16registrationLock_WZ
++ _$s23MemoryMaintenance_Swift16registrationLock_Wz
++ _$s23MemoryMaintenance_Swift17roundToTwoSigFigs2ofs5Int64VAE_tF
++ _$s23MemoryMaintenance_Swift18registerForVmTrialyyF
++ _$s23MemoryMaintenance_Swift20getTrialDefaultValue15trialFactorNameypSgSS_tF
++ _$s23MemoryMaintenance_Swift20persistSystemVersion7version9forDomainSbSS_SStF
++ _$s23MemoryMaintenance_Swift21canPerformOnScreenTTRSbyF
++ _$s23MemoryMaintenance_Swift22persistPreTrialDefault15trialFactorName12defaultValueSbSS_s5Int64VtF
++ _$s23MemoryMaintenance_Swift24gVmFactorNameToSysctlMap_WZTv_r
++ _$s23MemoryMaintenance_Swift24getAndSetPreTrialDefault15trialFactorType0jK4Name06sysctlM0SbAA0hkL0O_S2StF
++ _$s23MemoryMaintenance_Swift24isStoredOSVersionCurrent9forDomainSbSgSS_tF
++ _$s23MemoryMaintenance_Swift25registerForNamespaceTrial9projectID13namespaceName17factorToSysctlMap12osHasUpdatedySo20TRIProject_ProjectIdV_SSSayAA0G10FactorTypeO_SbSo8TRILevelCYbcS2StGSbtFyytz_tYTXEfU_
++ _$s23MemoryMaintenance_Swift25registerSystemHWMActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift25reportIdleReaperTelemetryyyF
++ _$s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_
++ _$s23MemoryMaintenance_Swift26registerBackgroundActivity6taskID8activityySS_yyYbXBtFySo12BGSystemTaskCcfU_TA
++ _$s23MemoryMaintenance_Swift26registerForIdleReaperTrialyyF
++ _$s23MemoryMaintenance_Swift29registerKRExperimentsActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift29updateLastOnScreenTTRTimeFileyyF
++ _$s23MemoryMaintenance_Swift30reportJetsamKillCountTelemetryyyF
++ _$s23MemoryMaintenance_Swift31registerCompressorSweepActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift31registerReportECCStatusActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift32gIdleReaperFactorNameToSysctlMap_WZTv_r
++ _$s23MemoryMaintenance_Swift32registerRearmExcResourceActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyF
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_TA
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_TATQ0_
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_TATu
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_TY0_
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_Tu
++ _$s23MemoryMaintenance_Swift33launchTapToRadarForANEAbandonmentyyFyyYacfU_ys5Error_pSgcfU_
++ _$s23MemoryMaintenance_Swift35registerANEAbandonmentCheckActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift37registerReportJetsamTelemetryActivity8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift39scheduleKREExperimentsDestructiveUpdate8activityyyyYbXB_tF
++ _$s23MemoryMaintenance_Swift39scheduleKREExperimentsDestructiveUpdate8activityyyyYbXB_tFySo12BGSystemTaskCcfU_TA
++ _$s23MemoryMaintenance_Swift3Log33_7ED6DFB5A4279BAF539A9EE9F7D7E791LL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_7ED6DFB5A4279BAF539A9EE9F7D7E791LL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_7ED6DFB5A4279BAF539A9EE9F7D7E791LL_Wz
++ _$s23MemoryMaintenance_Swift3Log33_A2C43AFC3E81EB8ACEAE45C48562F119LL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_A2C43AFC3E81EB8ACEAE45C48562F119LL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_A2C43AFC3E81EB8ACEAE45C48562F119LL_Wz
++ _$s23MemoryMaintenance_Swift3Log33_A56F370A94D0D93BF31A280CEEB35185LL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_A56F370A94D0D93BF31A280CEEB35185LL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_A56F370A94D0D93BF31A280CEEB35185LL_Wz
++ _$s23MemoryMaintenance_Swift3Log33_B0E7EC5F6FCA3A77B75EA407C96C54E8LL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_B0E7EC5F6FCA3A77B75EA407C96C54E8LL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_B0E7EC5F6FCA3A77B75EA407C96C54E8LL_Wz
++ _$s23MemoryMaintenance_Swift3Log33_E67BA14ABC253E56DA528250F17259A3LL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_E67BA14ABC253E56DA528250F17259A3LL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_E67BA14ABC253E56DA528250F17259A3LL_Wz
++ _$s23MemoryMaintenance_Swift3Log33_F36C6EC248DBD6E4F1D8A84C35E0094FLL2os6LoggerVvp
++ _$s23MemoryMaintenance_Swift3Log33_F36C6EC248DBD6E4F1D8A84C35E0094FLL_WZ
++ _$s23MemoryMaintenance_Swift3Log33_F36C6EC248DBD6E4F1D8A84C35E0094FLL_Wz
++ _$s23MemoryMaintenance_Swift9ConstantsVMF
++ _$s23MemoryMaintenance_Swift9ConstantsVMa
++ _$s23MemoryMaintenance_Swift9ConstantsVMf
++ _$s23MemoryMaintenance_Swift9ConstantsVMn
++ _$s23MemoryMaintenance_Swift9ConstantsVN
++ _$s23MemoryMaintenance_SwiftMXM
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$sIegh_IeyBh_TR
++ _$sSD11descriptionSSvg
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So8NSObjectCTt0g5Tf4g_n
++ _$sSDySSSo8NSObjectCGMD
++ _$sSDySSypGMD
++ _$sSS_So8NSObjectCtMD
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sScPSgMD
++ _$sScPSgWOh
++ _$sSo12BGSystemTaskCIegg_ABIeyBy_TR
++ _$sSo7NSErrorCML
++ _$sSo7NSErrorCMa
++ _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
++ _$sSo8NSNumberCML
++ _$sSo8NSObjectCML
++ _$sSo8NSObjectCMa
++ _$sSo8NSObjectCMaTm
++ _$sSo8NSObjectCSgMD
++ _$sSo8NSObjectCSgWOh
++ _$sSo8NSObjectCSgWOhTm
++ _$sSo8TRILevelCSbIeghgd_ABSbIeghnr_TR057$s23MemoryMaintenance_Swift22alwaysEnabledConditionySbSo8A2CFTf3nnpf_n
++ _$sSo8TRILevelCSbIeghgd_ABSbIeghnr_TR066$s23MemoryMaintenance_Swift25notNegativeOneConditional6factorSbSo8A4C_tFTf3nnpf_n
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSDySSSo8NSObjectCG_Tg5
++ _$ss18_DictionaryStorageCySSSo8NSObjectCGMD
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSSo8NSObjectCG_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
++ _$ss23_ContiguousArrayStorageCySDySSSo8NSObjectCGGMD
++ _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMD
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMD
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss5Error_pMD
++ _$ss6UInt32VN
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ _$sypSgMD
++ _$sypSgWOhTm
++ _$sypWOb
++ _$sypWOc
++ _GLOBAL__sub_I_ecc_logging.cpp
++ _GLOBAL__sub_I_mmaintenanced.cpp
++ _OBJC_CLASS_$_BGNonRepeatingSystemTaskRequest
++ _OBJC_CLASS_$_BGSystemTaskScheduler
++ _OBJC_CLASS_$_NSNumberFormatter
++ _OBJC_CLASS_$_VMUWiredMemoryInfo
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _Z11update_pathPcPKcS1_.cold.1
++ _Z12set_darkbooti.cold.1
++ _Z15jetsam_snapshotv.cold.1
++ _Z15jetsam_snapshotv.cold.2
++ _Z15jetsam_snapshotv.cold.3
++ _Z15jetsam_snapshotv.cold.4
++ _Z16get_largest_pidsP15jetsam_snapshoti.cold.1
++ _Z16get_pid_for_namePKc.cold.1
++ _Z16get_pid_for_namePKc.cold.2
++ _Z16get_pid_for_namePKc.cold.3
++ _Z16get_pid_for_namePKc.cold.4
++ _Z16get_pid_for_namePKc.cold.5
++ _Z17perform_ane_checkv.cold.1
++ _Z18create_memory_infov.cold.1
++ _Z18create_memory_infov.cold.2
++ _Z18rearm_exc_resourcev.cold.1
++ _Z19perform_user_rebootNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP15jetsam_snapshotyy.cold.1
++ _Z19perform_user_rebootNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP15jetsam_snapshotyy.cold.2
++ _Z19perform_user_rebootNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP15jetsam_snapshotyy.cold.3
++ _Z19perform_user_rebootNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP15jetsam_snapshotyy.cold.4
++ _Z20try_compressor_sweepv.cold.1
++ _Z20try_compressor_sweepv.cold.2
++ _Z20try_compressor_sweepv.cold.3
++ _Z22log_top_neural_processP15jetsam_snapshot.cold.1
++ _Z22log_top_neural_processP15jetsam_snapshot.cold.2
++ _Z22sync_are_models_loadedv.cold.1
++ _Z23can_perform_user_rebootv.cold.1
++ _Z23can_perform_user_rebootv.cold.2
++ _Z23can_perform_user_rebootv.cold.3
++ _Z23can_perform_user_rebootv.cold.4
++ _Z23report_system_hwm_statev.cold.1
++ _Z23report_system_hwm_statev.cold.2
++ _Z23update_last_reboot_timev.cold.1
++ _Z23update_last_reboot_timev.cold.2
++ _Z23update_last_reboot_timev.cold.3
++ _Z23update_last_reboot_timev.cold.4
++ _Z23update_last_reboot_timev.cold.5
++ _Z24get_device_tree_propertyPKc.cold.1
++ _Z24get_device_tree_propertyPKc.cold.2
++ _Z24get_device_tree_propertyPKc.cold.3
++ _Z24initialize_mach_servicesv.cold.1
++ _Z24perform_springboard_evalv.cold.1
++ _Z24perform_springboard_evalv.cold.2
++ _Z24perform_springboard_evalv.cold.3
++ _Z24perform_springboard_evalv.cold.4
++ _Z24perform_springboard_evalv.cold.5
++ _Z25write_user_hwm_eval_statebyy.cold.1
++ _Z26get_ane_memory_usage_bytesv.cold.1
++ _Z26get_ane_memory_usage_bytesv.cold.2
++ _Z27ecc_log_kernel_notification11ecc_event_tl.cold.1
++ _Z27ecc_log_kernel_notification11ecc_event_tl.cold.2
++ _Z28get_neural_nofootprint_pagesi.cold.1
++ _Z28get_neural_nofootprint_pagesi.cold.2
++ _Z28get_neural_nofootprint_pagesi.cold.3
++ _Z29device_supports_embedded_swapv.cold.1
++ _Z29write_system_memory_reset_logRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIiNS3_IiEEEE.cold.1
++ _Z32check_kernel_high_water_mark_logv.cold.1
++ _Z32check_kernel_high_water_mark_logv.cold.2
++ _Z32check_kernel_high_water_mark_logv.cold.3
++ _Z32check_kernel_high_water_mark_logv.cold.4
++ _Z32check_kernel_high_water_mark_logv.cold.5
++ _Z32check_kernel_high_water_mark_logv.cold.6
++ _Z32current_pressure_level_correctedRj.cold.1
++ _Z32current_pressure_level_correctedRj.cold.2
++ _Z32current_pressure_level_correctedRj.cold.3
++ _Z32current_pressure_level_correctedRj.cold.4
++ _Z32current_pressure_level_correctedRj.cold.5
++ _Z32current_pressure_level_correctedRj.cold.6
++ _Z33write_sysstatus_should_check_filev.cold.1
++ _Z33write_sysstatus_should_check_filev.cold.2
++ _ZN11EccDatabase11remove_addrEy.cold.1
++ _ZN11EccDatabase15get_total_countEbblRj.cold.1
++ _ZN11EccDatabase15get_total_countEbblRj.cold.2
++ _ZN11EccDatabase15init_time_tableEv.cold.1
++ _ZN11EccDatabase15is_page_retiredEy.cold.1
++ _ZN11EccDatabase16get_time_from_dbEPl.cold.1
++ _ZN11EccDatabase16get_time_from_dbEPl.cold.2
++ _ZN11EccDatabase18db_integrity_checkEv.cold.1
++ _ZN11EccDatabase18init_time_handlingEv.cold.1
++ _ZN11EccDatabase18prepare_statementsEv.cold.1
++ _ZN11EccDatabase21attempt_db_recreationEv.cold.1
++ _ZN11EccDatabase21attempt_db_recreationEv.cold.2
++ _ZN11EccDatabase21attempt_db_recreationEv.cold.3
++ _ZN11EccDatabase21get_unique_addr_countEbbblRj.cold.1
++ _ZN11EccDatabase21get_unique_addr_countEbbblRj.cold.2
++ _ZN11EccDatabase21get_unique_addr_countEbbblRj.cold.3
++ _ZN11EccDatabase24regenerate_retired_pagesEv.cold.1
++ _ZN11EccDatabase26insert_initialization_timeEv.cold.1
++ _ZN11EccDatabase26insert_initialization_timeEv.cold.2
++ _ZN11EccDatabase34update_persistent_retirement_limitEv.cold.1
++ _ZN11EccDatabase6insertER10db_mem_err.cold.1
++ _ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_.cold.1
++ _ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE.cold.1
++ __Xmcc_memory_error_notification
++ __Xmemory_error_notification
++ __Z10mcc_notify15mcc_ecc_event_t
++ __Z11update_pathPcPKcS1_
++ __Z12set_darkbooti
++ __Z15get_dram_vendorv
++ __Z15jetsam_snapshotv
++ __Z16get_largest_pidsP15jetsam_snapshoti
++ __Z16get_pid_for_namePKc
++ __Z16is_ecc_supportedv
++ __Z17get_uptime_bucketv
++ __Z17perform_ane_checkv
++ __Z17send_ane_ca_eventbbxxb
++ __Z18create_memory_infov
++ __Z18ecc_send_ca_reportl
++ __Z18is_virtual_machinev
++ __Z18rearm_exc_resourcev
++ __Z18stress_rack_devicev
++ __Z19get_springboard_pidv
++ __Z19perform_user_rebootNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP15jetsam_snapshotyy
++ __Z20set_internal_loggingv
++ __Z20try_compressor_sweepv
++ __Z21read_system_hwm_statev
++ __Z22deallocate_memory_info13memory_info_t
++ __Z22log_top_neural_processP15jetsam_snapshot
++ __Z22read_jetsam_propertiesv
++ __Z22remove_system_hwm_filev
++ __Z22sync_are_models_loadedv
++ __Z22system_hwm_file_existsv
++ __Z22write_system_hwm_state18system_hwm_state_t
++ __Z23can_perform_user_rebootv
++ __Z23report_system_hwm_statev
++ __Z23update_last_reboot_timev
++ __Z24get_device_tree_propertyPKc
++ __Z24get_named_bytes_by_regexP16mach_memory_infojRKNSt3__111basic_regexIcNS1_12regex_traitsIcEEEE
++ __Z24initialize_mach_servicesv
++ __Z24perform_springboard_evalv
++ __Z24user_reclaimable_currentP15jetsam_snapshot
++ __Z25write_user_hwm_eval_statebyy
++ __Z26get_ane_memory_usage_bytesv
++ __Z27check_user_reclaimable_evalP15jetsam_snapshotb
++ __Z27ecc_log_kernel_notification11ecc_event_tl
++ __Z27memory_error_mach_port_initv
++ __Z27write_kernel_hwm_eval_statebyy
++ __Z28get_neural_nofootprint_pagesi
++ __Z28log_memory_usage_by_priorityP15jetsam_snapshot
++ __Z29device_supports_embedded_swapv
++ __Z29write_system_memory_reset_logRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIiNS3_IiEEEE
++ __Z32check_kernel_high_water_mark_logv
++ __Z32current_pressure_level_correctedRj
++ __Z33write_sysstatus_should_check_filev
++ __ZGVZ4mainE14sigterm_source
++ __ZGVZN11EccDatabase6get_dbEvE6ecc_db
++ __ZL18cmp_snapshot_entryPKvS0_
++ __ZL27pragma_quick_check_callbackPviPPcS1_
++ __ZL8listener
++ __ZL9notify_caR10ca_mem_err
++ __ZN11EccDatabase10initializeEv
++ __ZN11EccDatabase11enable_testEPKc
++ __ZN11EccDatabase11remove_addrEy
++ __ZN11EccDatabase15get_total_countEbblRj
++ __ZN11EccDatabase15init_time_tableEv
++ __ZN11EccDatabase15is_page_retiredEy
++ __ZN11EccDatabase16check_real_pathsEv
++ __ZN11EccDatabase16create_ecc_tableEv
++ __ZN11EccDatabase16get_time_from_dbEPl
++ __ZN11EccDatabase17finalize_all_stmtEv
++ __ZN11EccDatabase17time_table_existsEv
++ __ZN11EccDatabase18db_integrity_checkEv
++ __ZN11EccDatabase18get_quarters_countEv
++ __ZN11EccDatabase18init_time_handlingEv
++ __ZN11EccDatabase18prepare_statementsEv
++ __ZN11EccDatabase18reset_ca_data_testEv
++ __ZN11EccDatabase20get_ecc_max_db_pagesEPj
++ __ZN11EccDatabase20get_retirement_limitEv
++ __ZN11EccDatabase21attempt_db_recreationEv
++ __ZN11EccDatabase21get_unique_addr_countEbbblRj
++ __ZN11EccDatabase24regenerate_retired_pagesEv
++ __ZN11EccDatabase26insert_initialization_timeEv
++ __ZN11EccDatabase34update_persistent_retirement_limitEv
++ __ZN11EccDatabase4testEv
++ __ZN11EccDatabase5validEv
++ __ZN11EccDatabase6get_dbEv
++ __ZN11EccDatabase6insertER10db_mem_err
++ __ZN11EccDatabase8reset_dbEv
++ __ZN11EccDatabaseC1Ev
++ __ZN11EccDatabaseC2Ev
++ __ZN11EccDatabaseD1Ev
++ __ZN11EccDatabaseD2Ev
++ __ZN4util10MappedFileC1EPKc
++ __ZN4util10MappedFileC2EPKc
++ __ZN4util10MappedFileD1Ev
++ __ZN4util10MappedFileD2Ev
++ __ZN4util11starts_withERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_
++ __ZN4util12stringprintfEPKcz
++ __ZN4util15c_str_ends_withEPKcS1_
++ __ZN4util17c_str_starts_withEPKcS1_
++ __ZN4util4trimENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4util5ltrimENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4util5rtrimENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4util5splitERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEc
++ __ZN4util8to_lowerENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4util8to_upperENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4util9ends_withERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_
++ __ZN8util_ext9XPCObjectD2Ev
++ __ZNKSt3__110__back_refIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__111__alternateIcE12__exec_splitEbRNS_7__stateIcEE
++ __ZNKSt3__111__alternateIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__111__end_stateIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__111__lookaheadIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__111__match_anyIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
++ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
++ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE27__match_at_start_posix_subsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
++ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
++ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE8__searchINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeE
++ __ZNKSt3__112__match_charIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__112regex_traitsIcE18__lookup_classnameIPKcEEjT_S5_bc
++ __ZNKSt3__112regex_traitsIcE19__transform_primaryINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_c
++ __ZNKSt3__112regex_traitsIcE19__transform_primaryIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
++ __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPKcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SB_c
++ __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
++ __ZNKSt3__112regex_traitsIcE9transformINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_
++ __ZNKSt3__112regex_traitsIcE9transformIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_
++ __ZNKSt3__113__empty_stateIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__115__word_boundaryIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__117__repeat_one_loopIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__118__back_ref_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__118__match_char_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__120__l_anchor_multilineIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__120__match_char_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
++ __ZNKSt3__120__r_anchor_multilineIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__121__empty_non_own_stateIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__126__end_marked_subexpressionIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__128__begin_marked_subexpressionIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__16__loopIcE12__exec_splitEbRNS_7__stateIcEE
++ __ZNKSt3__16__loopIcE13__init_repeatB8ne200100ERNS_7__stateIcEE
++ __ZNKSt3__16__loopIcE6__execERNS_7__stateIcEE
++ __ZNKSt3__16__nodeIcE12__exec_splitEbRNS_7__stateIcEE
++ __ZNKSt3__16__nodeIcE6__execERNS_7__stateIcEE
++ __ZNKSt9type_infoeqB8ne200100ERKS_
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__110__back_refIcED0Ev
++ __ZNSt3__110__back_refIcED1Ev
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB8ne200100IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_
++ __ZNSt3__111__alternateIcED0Ev
++ __ZNSt3__111__alternateIcED1Ev
++ __ZNSt3__111__end_stateIcED0Ev
++ __ZNSt3__111__end_stateIcED1Ev
++ __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B8ne200100ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
++ __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__111__match_anyIcED0Ev
++ __ZNSt3__111__match_anyIcED1Ev
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_charEc
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_loopEmmPNS_16__owns_one_stateIcEEmmb
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_atomIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_grepIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_termIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE13__parse_egrepIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_back_refEi
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_l_anchorEv
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_r_anchorEv
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__test_back_refEc
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__parse_ecma_expIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__push_lookaheadERKS3_bj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_DUP_COUNTIPKcEET_S7_S7_Ri
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_assertionIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_simple_REIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_ERE_branchIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_awk_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_nondupl_REIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__push_alternationEPNS_16__owns_one_stateIcEES6_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_QUOTED_CHARIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_atom_escapeIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_ORD_CHAR_EREIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_class_escapeIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_20__bracket_expressionIcS2_EE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__push_word_boundaryEb
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__parse_basic_reg_expIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__start_matching_listEb
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_ERE_expressionIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_RE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_decimal_escapeIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_ERE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_QUOTED_CHAR_EREIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_character_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_extended_reg_expIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_pattern_characterIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE26__parse_bracket_expressionIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE30__parse_character_class_escapeIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE31__push_end_marked_subexpressionEj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE32__parse_one_char_or_coll_elem_REIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__parse_one_char_or_coll_elem_EREIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__push_begin_marked_subexpressionEv
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE7__parseIPKcEET_S7_S7_
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne200100EPKcNS_15regex_constants18syntax_option_typeE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_7__stateIcEELi0EEEvPT_
++ __ZNSt3__112__match_charIcED0Ev
++ __ZNSt3__112__match_charIcED1Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPcEES9_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPKcS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPcS7_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne200100IPKcLi0EEERS5_T_SA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112regex_traitsIcEC2Ev
++ __ZNSt3__113__empty_stateIcED0Ev
++ __ZNSt3__113__empty_stateIcED1Ev
++ __ZNSt3__113match_resultsIPKcNS_9allocatorINS_9sub_matchIS2_EEEEE6__initEjS2_S2_b
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EERNS5_IS8_EEED2Ev
++ __ZNSt3__114__split_bufferINS_7__stateIcEERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEED2Ev
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEC1EPKcj
++ __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED2Ev
++ __ZNSt3__115__word_boundaryIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__115__word_boundaryIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__116__owns_one_stateIcED0Ev
++ __ZNSt3__116__owns_one_stateIcED1Ev
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__owns_two_statesIcED0Ev
++ __ZNSt3__117__owns_two_statesIcED1Ev
++ __ZNSt3__117__owns_two_statesIcED2Ev
++ __ZNSt3__117__repeat_one_loopIcED0Ev
++ __ZNSt3__117__repeat_one_loopIcED1Ev
++ __ZNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI10ca_mem_errEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIccEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairImPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_9sub_matchIPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPNS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE11EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE12EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE14EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE15EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE16EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE17EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE1EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE2EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE3EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE4EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE5EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE6EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE7EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE8EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE9EEEvv
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB8ne200100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB8ne200100ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB8ne200100Ecc
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB8ne200100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_PNS_6__nodeIcEEbbb
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED2Ev
++ __ZNSt3__120__l_anchor_multilineIcED0Ev
++ __ZNSt3__120__l_anchor_multilineIcED1Ev
++ __ZNSt3__120__match_char_collateIcNS_12regex_traitsIcEEED0Ev
++ __ZNSt3__120__match_char_collateIcNS_12regex_traitsIcEEED1Ev
++ __ZNSt3__120__r_anchor_multilineIcED0Ev
++ __ZNSt3__120__r_anchor_multilineIcED1Ev
++ __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__121__empty_non_own_stateIcED0Ev
++ __ZNSt3__121__empty_non_own_stateIcED1Ev
++ __ZNSt3__123__match_any_but_newlineIcED0Ev
++ __ZNSt3__123__match_any_but_newlineIcED1Ev
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__end_marked_subexpressionIcED0Ev
++ __ZNSt3__126__end_marked_subexpressionIcED1Ev
++ __ZNSt3__128__begin_marked_subexpressionIcED0Ev
++ __ZNSt3__128__begin_marked_subexpressionIcED1Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__14__fs10filesystem4pathC2B8ne200100IA57_cvEERKT_NS2_6formatE
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE10push_frontEOS2_
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE20__add_front_capacityEv
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne200100Eb
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE8pop_backEv
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B8ne200100Ev
++ __ZNSt3__16__loopIcED0Ev
++ __ZNSt3__16__loopIcED1Ev
++ __ZNSt3__16vectorI10ca_mem_errNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE22__construct_one_at_endB8ne200100IJRKS6_EEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8ne200100ERKS6_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB8ne200100EOS8_
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE6resizeEm
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE8__appendEm
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6resizeEmRKS4_
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEmRKS4_
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100EOc
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100ERKc
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE7reserveEm
++ __ZNSt3__17__stateIcED1Ev
++ __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEEEEDaNS_17basic_string_viewIT_T0_EENS_13type_identityIS7_E4typeE
++ __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTINSt3__110__back_refIcEE
++ __ZTINSt3__110shared_ptrINS_13__empty_stateIcEEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTINSt3__111__alternateIcEE
++ __ZTINSt3__111__end_stateIcEE
++ __ZTINSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__111__match_anyIcEE
++ __ZTINSt3__112__match_charIcEE
++ __ZTINSt3__113__empty_stateIcEE
++ __ZTINSt3__114default_deleteINS_13__empty_stateIcEEEE
++ __ZTINSt3__115__has_one_stateIcEE
++ __ZTINSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__116__owns_one_stateIcEE
++ __ZTINSt3__117__owns_two_statesIcEE
++ __ZTINSt3__117__repeat_one_loopIcEE
++ __ZTINSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__120__l_anchor_multilineIcEE
++ __ZTINSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
++ __ZTINSt3__120__r_anchor_multilineIcEE
++ __ZTINSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTINSt3__121__empty_non_own_stateIcEE
++ __ZTINSt3__123__match_any_but_newlineIcEE
++ __ZTINSt3__126__end_marked_subexpressionIcEE
++ __ZTINSt3__128__begin_marked_subexpressionIcEE
++ __ZTINSt3__16__loopIcEE
++ __ZTINSt3__16__nodeIcEE
++ __ZTSNSt3__110__back_refIcEE
++ __ZTSNSt3__110shared_ptrINS_13__empty_stateIcEEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTSNSt3__111__alternateIcEE
++ __ZTSNSt3__111__end_stateIcEE
++ __ZTSNSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__111__match_anyIcEE
++ __ZTSNSt3__112__match_charIcEE
++ __ZTSNSt3__113__empty_stateIcEE
++ __ZTSNSt3__114default_deleteINS_13__empty_stateIcEEEE
++ __ZTSNSt3__115__has_one_stateIcEE
++ __ZTSNSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__116__owns_one_stateIcEE
++ __ZTSNSt3__117__owns_two_statesIcEE
++ __ZTSNSt3__117__repeat_one_loopIcEE
++ __ZTSNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__120__l_anchor_multilineIcEE
++ __ZTSNSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
++ __ZTSNSt3__120__r_anchor_multilineIcEE
++ __ZTSNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTSNSt3__121__empty_non_own_stateIcEE
++ __ZTSNSt3__123__match_any_but_newlineIcEE
++ __ZTSNSt3__126__end_marked_subexpressionIcEE
++ __ZTSNSt3__128__begin_marked_subexpressionIcEE
++ __ZTSNSt3__16__loopIcEE
++ __ZTSNSt3__16__nodeIcEE
++ __ZTVNSt3__110__back_refIcEE
++ __ZTVNSt3__111__alternateIcEE
++ __ZTVNSt3__111__end_stateIcEE
++ __ZTVNSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__111__match_anyIcEE
++ __ZTVNSt3__112__match_charIcEE
++ __ZTVNSt3__113__empty_stateIcEE
++ __ZTVNSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __ZTVNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__116__owns_one_stateIcEE
++ __ZTVNSt3__117__owns_two_statesIcEE
++ __ZTVNSt3__117__repeat_one_loopIcEE
++ __ZTVNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__120__l_anchor_multilineIcEE
++ __ZTVNSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
++ __ZTVNSt3__120__r_anchor_multilineIcEE
++ __ZTVNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTVNSt3__121__empty_non_own_stateIcEE
++ __ZTVNSt3__123__match_any_but_newlineIcEE
++ __ZTVNSt3__126__end_marked_subexpressionIcEE
++ __ZTVNSt3__128__begin_marked_subexpressionIcEE
++ __ZTVNSt3__16__loopIcEE
++ __ZZ28get_neural_nofootprint_pagesiE18ledger_entry_count
++ __ZZ28get_neural_nofootprint_pagesiE19neural_ledger_index
++ __ZZ28get_neural_nofootprint_pagesiE22get_neural_ledger_once
++ __ZZ29device_supports_embedded_swapvE12swap_capable
++ __ZZ29device_supports_embedded_swapvE18swap_all_apps_once
++ __ZZ4mainE14sigterm_source
++ __ZZL12report_to_calE8prevtime
++ __ZZN11EccDatabase6get_dbEvE6ecc_db
++ ___Z17perform_ane_checkv_block_invoke.cold.1
++ ___Z17perform_ane_checkv_block_invoke.cold.2
++ ___Z17perform_ane_checkv_block_invoke.cold.3
++ ___Z17perform_ane_checkv_block_invoke.cold.4
++ ___Z22sync_are_models_loadedv_block_invoke.cold.1
++ ___Z24initialize_mach_servicesv_block_invoke.cold.1
++ ___Z24initialize_mach_servicesv_block_invoke.cold.2
++ ___Z24initialize_mach_servicesv_block_invoke.cold.3
++ ___Z24initialize_mach_servicesv_block_invoke.cold.4
++ ___Z24initialize_mach_servicesv_block_invoke_2.cold.1
++ ___Z24initialize_mach_servicesv_block_invoke_2.cold.2
++ ___Z27memory_error_mach_port_initv_block_invoke.cold.1
++ ___Z28get_neural_nofootprint_pagesi_block_invoke.cold.1
++ ___Z28get_neural_nofootprint_pagesi_block_invoke.cold.2
++ ____Z10mcc_notify15mcc_ecc_event_t_block_invoke
++ ____Z17perform_ane_checkv_block_invoke
++ ____Z22sync_are_models_loadedv_block_invoke
++ ____Z24initialize_mach_servicesv_block_invoke
++ ____Z24initialize_mach_servicesv_block_invoke_2
++ ____Z27memory_error_mach_port_initv_block_invoke
++ ____Z28get_neural_nofootprint_pagesi_block_invoke
++ ____Z29device_supports_embedded_swapv_block_invoke
++ ____ZL22mmaintenanced_shutdownN8util_ext13XPCDictionaryE_block_invoke
++ ____ZL9notify_caR10ca_mem_err_block_invoke
++ ___block_descriptor_tmp
++ ___block_literal_global
++ ___clang_call_terminate
++ ___main_block_invoke
++ ___main_block_invoke_2
++ ___main_block_invoke_3
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_memcpy1_1
++ ___swift_noop_void_return
++ ___swift_project_value_buffer
++ ___swift_reflection_version
++ __block_descriptor_tmp.10
++ __block_descriptor_tmp.11
++ __block_descriptor_tmp.13
++ __block_descriptor_tmp.17
++ __block_descriptor_tmp.2
++ __block_descriptor_tmp.21
++ __block_descriptor_tmp.24
++ __block_descriptor_tmp.28
++ __block_descriptor_tmp.34
++ __block_descriptor_tmp.40
++ __block_descriptor_tmp.47
++ __block_descriptor_tmp.51
++ __block_descriptor_tmp.55
++ __block_descriptor_tmp.6
++ __block_literal_global.13
++ __block_literal_global.19
++ __block_literal_global.23
++ __block_literal_global.26
++ __block_literal_global.30
++ __block_literal_global.36
++ __block_literal_global.42
++ __block_literal_global.49
++ __block_literal_global.53
++ __block_literal_global.57
++ __main_block_invoke.16
++ __main_block_invoke.16.cold.1
++ __main_block_invoke.20
++ __main_block_invoke.27
++ __main_block_invoke.32
++ __main_block_invoke.39
++ __main_block_invoke.46
++ __main_block_invoke_2.50
++ __main_block_invoke_2.cold.1
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftDarwin_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftDispatch_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftFoundation_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftMetal_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftXPC_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftos_$_MemoryMaintenance_Swift
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_MemoryMaintenance_Swift
++ __swift_stdlib_malloc_size
++ _ane_check_log
++ _are_ane_models_loaded
++ _are_ane_models_loadedTm
++ _associated conformance 23MemoryMaintenance_Swift15TrialFactorTypeOSHAASQ
++ _block_copy_helper
++ _block_destroy_helper
++ _can_perform_on_screen_ttr
++ _compressor_log
++ _dark_boot_system_ui_hard_limit
++ _ecc_db
++ _ecc_db_mmd_ref
++ _ecc_log
++ _getuid
++ _is_internal_release
++ _kernel_high_water_limit
++ _kr_experiments_log
++ _launch_tap_to_radar_for_ane_abandonment
++ _log_handle
++ _main
++ _mcc_memory_error_notification
++ _memory_error_notification
++ _memory_error_notification_server
++ _memory_error_notification_server_routine
++ _memory_error_notification_subsystem
++ _objc_release_x8
++ _objc_retain_x21
++ _objc_retain_x22
++ _objc_retain_x24
++ _objc_retain_x28
++ _objc_retain_x8
++ _objectdestroyTm
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _register_ane_abandonment_check_activity
++ _register_compressor_sweep_activity
++ _register_for_idle_reaper_trial
++ _register_for_vm_trial
++ _register_kr_experiments_activity
++ _register_rearm_exc_resource_activity
++ _register_report_ecc_status_activity
++ _register_report_jetsam_telemetry_activity
++ _register_report_mach_memory_info_activity
++ _register_system_hwm_activity
++ _register_system_hwm_activityTm
++ _report_idle_reaper_telemetry
++ _report_jetsam_kill_count_telemetry
++ _report_wired_memory_info
++ _run_with_ane_memory_maintenance_assertion
++ _schedule_kr_experiments_destructive_update
++ _springboard_log
++ _swift_arrayInitWithCopy
++ _swift_setDeallocating
++ _symbolic IeyBh_
++ _symbolic SDySSSo8NSObjectCG
++ _symbolic SDySSypG
++ _symbolic SS
++ _symbolic SS_So8NSObjectCt
++ _symbolic SbIeyBhy_
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 23MemoryMaintenance_Swift15TrialFactorTypeO
++ _symbolic _____ 23MemoryMaintenance_Swift9ConstantsV
++ _symbolic ______p s5ErrorP
++ _symbolic _____ySDySSSo8NSObjectCGG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic ypSg
++ _symbolic ytIeAgHr_
++ _system_hwm_log
++ _user_reclaimable_limit
++ _zprint_log
++ block_copy_helper.12
++ block_copy_helper.19
++ block_copy_helper.22
++ block_copy_helper.29
++ block_copy_helper.36
++ block_copy_helper.43
++ block_copy_helper.49
++ block_copy_helper.5
++ block_copy_helper.56
++ block_copy_helper.63
++ block_descriptor.14
++ block_descriptor.21
++ block_descriptor.24
++ block_descriptor.31
++ block_descriptor.38
++ block_descriptor.45
++ block_descriptor.51
++ block_descriptor.58
++ block_descriptor.65
++ block_descriptor.7
++ block_destroy_helper.13
++ block_destroy_helper.20
++ block_destroy_helper.23
++ block_destroy_helper.30
++ block_destroy_helper.37
++ block_destroy_helper.44
++ block_destroy_helper.50
++ block_destroy_helper.57
++ block_destroy_helper.6
++ block_destroy_helper.64
++ compressor_sweep.cpp
++ ecc_logging.cpp
++ mach_services.cpp
++ mcc_logging.cpp
++ mcc_memory_error_notification.cold.1
++ memory_error_notificationServer.c
++ memory_level.cpp
++ memory_stats.cpp
++ mmaintenanced.cpp
++ neural_memory.cpp
++ os_logging.cpp
++ read_jetsam_properties.cpp
++ system_hwm.cpp
++ system_hwm_reporting.cpp
+- _$s2os6LoggerVMn
+- _$sSi10FoundationEySiSo8NSNumberChcfC
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _CFDictionaryApplyFunction
+- _CFDictionaryCreateMutable
+- _CFDictionarySetValue
+- _CFNumberCreate
+- _CFStringGetCStringPtr
+- _CSIsNull
+- _CSRelease
+- _CSSymbolGetName
+- _CSSymbolicatorCreateWithMachKernel
+- _CSSymbolicatorGetSymbolWithAddressAtTime
+- _XPC_ACTIVITY_CHECK_IN
+- _XPC_ACTIVITY_DELAY
+- _XPC_ACTIVITY_GRACE_PERIOD
+- _XPC_ACTIVITY_INTERVAL_1_DAY
+- _XPC_ACTIVITY_PRIORITY
+- _XPC_ACTIVITY_PRIORITY_MAINTENANCE
+- _XPC_ACTIVITY_REPEATING
+- _XPC_ACTIVITY_REQUIRE_SCREEN_SLEEP
+- _XPC_ACTIVITY_REQUIRE_SIGNIFICANT_USER_INACTIVITY
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __Znwm
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _kCFBundleIdentifierKey
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _objc_release_x27
+- _objc_retain_x26
+- _swift_bridgeObjectRetain_n
+- _xpc_activity_get_state
+- _xpc_activity_register
+- _xpc_activity_set_state
+- _xpc_activity_should_defer
+- _xpc_activity_unregister
+- _xpc_array_append_value
+- _xpc_array_create_empty
+- _xpc_array_get_count
+- _xpc_array_get_value
+- _xpc_copy_description
+- _xpc_dictionary_set_value
+- _xpc_int64_create
+- _xpc_string_create
+- _xpc_string_create_with_format
+- radr://5614542
+CStrings:
++ "%s/%s"
++ "/System/Volumes/iSCPreboot/dramecc/"
++ "/System/Volumes/iSCPreboot/dramecc/dramecc.db"
++ "/var/db/mmaintenanced/memory_errors.db"
++ "ANE Abandonment Check"
++ "Background Activity"
++ "Cannot perform userspace reboot, skipping"
++ "Compressor Sweep"
++ "Could not get largest pids from NULL jetsam snapshot"
++ "Device is a virtual machine. Bailing out."
++ "ECC Reporting"
++ "Error re-arming memory limits: %s"
++ "Error: OS updated, but unable to reset OS version data, bailing"
++ "Error: failed (reboot3(RB2_USERREBOOT) == 0)"
++ "Error: failed (set_darkboot(MEMORY_MAINTENANCE_DARK_BOOT_SET))"
++ "Error: failed (update_last_reboot_time())"
++ "Error: failed (write_sysstatus_should_check_file())"
++ "Failed to find top neural process from %lu entries"
++ "Failed to get UserDefaults database, bailing"
++ "Failed to get jetsam kill counts for band %d: status = %d and errno = %d"
++ "Failed to look up top neural process, jetsam snapshot is NULL"
++ "Failed to remove default value for %s, skipping"
++ "Failed to sample wired memory info"
++ "Failed to schedule KRExperiments destructive update with %@"
++ "KR Experiments"
++ "MaintenanceTrialOSVersion"
++ "Manually invoked userspace reboot, skipping checks. User reclaimable current: %llu%%. User reclaimable minimum: %llu%%"
++ "No OS update detected, continuing"
++ "No user reclaimable limit defined, skipping"
++ "OS has updated, clearing stored default for %s"
++ "OS update has occured, resetting stored OS version"
++ "Re-arming EXC_RESOURCE memory limits"
++ "Refusing to run compressor sweep on swap-capable device"
++ "Registering %s"
++ "Scheduling %s"
++ "Sent %ld VM Regions to %s"
++ "Sent %ld zones to %s"
++ "Springboard Eval"
++ "Starting task %s"
++ "System HWM"
++ "Test path is too long"
++ "Time since last TTR less than one week. Last TTR %f hours ago"
++ "Top neural process is %s with %lld pages"
++ "Will not run reportMachMemoryInfo as root"
++ "Wired Memory Reporting"
++ "[Manually invoked] User reclaimable memory dropped below the limit. User reclaimable current: %llu%%. User reclaimable minimum: %llu%%"
++ "com.apple.memory-maintenance.rearm-exc-resource"
++ "com.apple.memory-maintenance.report-jetsam-telemetry"
++ "com.apple.memory-maintenance.vm-trial"
++ "com.apple.memorytools.stats.jetsam_counts"
++ "dramecc.db"
++ "hw.jetsam_properties_product_type"
++ "initWithIdentifier:"
++ "initWithInt:"
++ "kern.hv_vmm_present"
++ "longLongValue"
++ "memory_errors.db"
++ "numberFromString:"
++ "registerForTaskWithIdentifier:usingQueue:launchHandler:"
++ "sample"
++ "setMaximumSignificantDigits:"
++ "setMinimumSignificantDigits:"
++ "setPriority:"
++ "setRequiresSignificantUserInactivity:"
++ "setTaskCompleted"
++ "setTrySchedulingBefore:"
++ "setUsesSignificantDigits:"
++ "sharedScheduler"
++ "snprintf failed"
++ "stringFromNumber:"
++ "submitTaskRequest:error:"
++ "v16@?0@\"BGSystemTask\"8"
++ "vmRegionInfo"
++ "zoneInfo"
+- "34"
+- "BOOT_STOLEN"
+- "BSD"
+- "COMPRESSED_DATA"
+- "COMPRESSOR"
+- "CPU"
+- "Core Analytics"
+- "Could not set the status to DEFER"
+- "DIAG"
+- "EXCLAVES"
+- "Error calling mach_memory_info"
+- "Error collecting vm region information"
+- "Error collecting zone information"
+- "Error: failed (! CSIsNull(symbol))"
+- "Error: failed (bundle_id != NULL)"
+- "Error: failed (info.zone_names_count == info.zone_info_count)"
+- "Error: failed (kext_info != NULL)"
+- "Error: failed (tag_to_bundle_info != NULL)"
+- "Error: failed (vm_name != NULL)"
+- "FILE"
+- "FIRST_DYNAMIC"
+- "HV"
+- "IOKIT"
+- "IPC"
+- "IdleReaperTelemetry"
+- "KALLOC"
+- "KALLOC_DATA"
+- "KALLOC_TYPE"
+- "KEXT"
+- "LIBKERN"
+- "LOG"
+- "LOPAGE"
+- "LTABLE"
+- "Launched system high water mark activity"
+- "MANAGED"
+- "MAP_KALLOC"
+- "MAP_KALLOC_LARGE_DATA"
+- "MAP_KERNEL"
+- "MAP_KERNEL_DATA"
+- "MAP_ZONE"
+- "MBUF"
+- "MLOCK"
+- "NONE"
+- "No user reclaimable limit defined"
+- "OSFMK"
+- "OSKEXT"
+- "PHANTOM_CACHE"
+- "PMAP"
+- "PTE"
+- "REASON"
+- "RECOUNT"
+- "RESERVED"
+- "RETIRED"
+- "Refusing to run compressor sweep from compress XPC activity on swap-capable device"
+- "SECURITY"
+- "SKYWALK"
+- "STACK"
+- "STOLEN"
+- "Send %zu vm regions to %s"
+- "Send %zu zones to %s"
+- "Symbolicator is null, not including VM_KERN_SITE_KERNEL regions"
+- "TRIAGE"
+- "Time since last TTR less than 24 hours. Last TTR %f hours ago"
+- "UBC"
+- "VM_KERN_COUNT_%lld"
+- "VM_KERN_COUNT_%s"
+- "VM_KERN_MEMORY_%lld"
+- "VM_KERN_MEMORY_%s"
+- "VM_KERN_MEMORY_ANY"
+- "VM_KERN_MEMORY_COUNT"
+- "WAITQ"
+- "WIRED"
+- "WIRED_BOOT"
+- "WIRED_MANAGED"
+- "WIRED_STATIC_KERNELCACHE"
+- "XPC told us to defer. Deferring"
+- "ZONE"
+- "com.apple.memory-maintenance.report-idle-reaper-telemetry"
+- "com.apple.memory-maintenance.userspace_reboot"
+- "count"
+- "hw.targettype"
+- "initWithLongLong:"
+- "memorytools.stats events disabled, skipping analytics"
+- "name"
+- "os_log"
+- "peak_kb"
+- "size_kb"
+- "unrecognized vm kern count tag %lld"
+- "unrecognized vm kern memory tag %lld"
+- "v16@?0^{_xpc_activity_s=}8"
+- "vm_tag_id"
+- "zone_name"
+
+```

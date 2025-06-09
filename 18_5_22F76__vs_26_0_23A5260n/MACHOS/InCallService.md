@@ -1,0 +1,3411 @@
+## InCallService
+
+> `/Applications/InCallService.app/InCallService`
+
+```diff
+
+-2975.600.42.2.1
+-  __TEXT.__text: 0x1f4cbc
+-  __TEXT.__auth_stubs: 0x4df0
+-  __TEXT.__objc_stubs: 0x28720
+-  __TEXT.__objc_methlist: 0x16c90
+-  __TEXT.__cstring: 0x1012d
+-  __TEXT.__objc_methname: 0x3e9fd
+-  __TEXT.__objc_classname: 0x2163
+-  __TEXT.__objc_methtype: 0x80e6
+-  __TEXT.__const: 0x7754
+-  __TEXT.__oslogstring: 0x1e92d
+-  __TEXT.__gcc_except_tab: 0x1914
+-  __TEXT.__ustring: 0x8
+-  __TEXT.__dlopen_cstrs: 0xbe
+-  __TEXT.__constg_swiftt: 0x4c0c
+-  __TEXT.__swift5_typeref: 0x673a
+-  __TEXT.__swift5_reflstr: 0x3249
+-  __TEXT.__swift5_fieldmd: 0x2aec
+-  __TEXT.__swift5_builtin: 0x2d0
+-  __TEXT.__swift5_assocty: 0x7b8
+-  __TEXT.__swift5_capture: 0x1564
+-  __TEXT.__swift5_proto: 0x3a4
+-  __TEXT.__swift5_types: 0x328
+-  __TEXT.__swift_as_entry: 0x194
+-  __TEXT.__swift_as_ret: 0x168
+-  __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__swift5_protos: 0x34
+-  __TEXT.__unwind_info: 0x7b88
+-  __TEXT.__eh_frame: 0x4570
+-  __DATA_CONST.__auth_got: 0x2708
+-  __DATA_CONST.__got: 0x1da8
+-  __DATA_CONST.__auth_ptr: 0x11e0
+-  __DATA_CONST.__const: 0x9698
+-  __DATA_CONST.__cfstring: 0x7600
+-  __DATA_CONST.__objc_classlist: 0x8b0
+-  __DATA_CONST.__objc_catlist: 0x118
+-  __DATA_CONST.__objc_catlist2: 0x8
++3011.100.2.2.10
++  __TEXT.__text: 0x24cc84
++  __TEXT.__auth_stubs: 0x6260
++  __TEXT.__objc_stubs: 0x28020
++  __TEXT.__objc_methlist: 0x18070
++  __TEXT.__cstring: 0x1141d
++  __TEXT.__objc_methname: 0x3f4ef
++  __TEXT.__objc_classname: 0x1fef
++  __TEXT.__objc_methtype: 0x7c54
++  __TEXT.__const: 0x8484
++  __TEXT.__oslogstring: 0x2088d
++  __TEXT.__gcc_except_tab: 0x1c3c
++  __TEXT.__ustring: 0x4
++  __TEXT.__dlopen_cstrs: 0x5a
++  __TEXT.__swift5_typeref: 0x90aa
++  __TEXT.__swift5_reflstr: 0x38d9
++  __TEXT.__swift5_assocty: 0x840
++  __TEXT.__constg_swiftt: 0x56bc
++  __TEXT.__swift5_builtin: 0x30c
++  __TEXT.__swift5_fieldmd: 0x320c
++  __TEXT.__swift5_proto: 0x404
++  __TEXT.__swift5_types: 0x3b0
++  __TEXT.__swift5_capture: 0x20f4
++  __TEXT.__swift_as_entry: 0x278
++  __TEXT.__swift_as_ret: 0x234
++  __TEXT.__swift5_mpenum: 0x3c
++  __TEXT.__swift5_protos: 0x44
++  __TEXT.__unwind_info: 0x91f8
++  __TEXT.__eh_frame: 0x72b8
++  __DATA_CONST.__auth_got: 0x3140
++  __DATA_CONST.__got: 0x2108
++  __DATA_CONST.__auth_ptr: 0x14a8
++  __DATA_CONST.__const: 0xb858
++  __DATA_CONST.__cfstring: 0x6d60
++  __DATA_CONST.__objc_classlist: 0x8c8
++  __DATA_CONST.__objc_catlist: 0xe0
++  __DATA_CONST.__objc_catlist2: 0x10
+   __DATA_CONST.__objc_nlcatlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x580
++  __DATA_CONST.__objc_protolist: 0x5d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x1e8
+-  __DATA_CONST.__objc_superrefs: 0x460
+-  __DATA_CONST.__objc_intobj: 0x540
+-  __DATA_CONST.__objc_arraydata: 0x400
+-  __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA_CONST.__objc_arrayobj: 0x3d8
+-  __DATA_CONST.__objc_floatobj: 0xc0
+-  __DATA_CONST.__objc_doubleobj: 0x40
+-  __DATA.__objc_const: 0x21218
+-  __DATA.__objc_selrefs: 0xd8f0
+-  __DATA.__objc_ivar: 0x10bc
+-  __DATA.__objc_data: 0x98d0
+-  __DATA.__data: 0x7e80
+-  __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x77e0
+-  __DATA.__common: 0x2f0
++  __DATA_CONST.__objc_protorefs: 0x230
++  __DATA_CONST.__objc_superrefs: 0x3f0
++  __DATA_CONST.__objc_intobj: 0x468
++  __DATA_CONST.__objc_arraydata: 0x470
++  __DATA_CONST.__objc_arrayobj: 0x510
++  __DATA_CONST.__objc_doubleobj: 0x30
++  __DATA_CONST.__objc_floatobj: 0x90
++  __DATA.__objc_const: 0x228b8
++  __DATA.__objc_selrefs: 0xda18
++  __DATA.__objc_ivar: 0x11a4
++  __DATA.__objc_data: 0xa0c0
++  __DATA.__data: 0x8f88
++  __DATA.__objc_stublist: 0x10
++  __DATA.__bss: 0x7d38
++  __DATA.__common: 0x338
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/LiveCommunicationKit.framework/LiveCommunicationKit
+   - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/MetalKit.framework/MetalKit
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SensitiveContentAnalysis.framework/SensitiveContentAnalysis
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
++  - /System/Library/Frameworks/TipKit.framework/TipKit
++  - /System/Library/Frameworks/Translation.framework/Translation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
+   - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
++  - /System/Library/PrivateFrameworks/AudioAccessoryAssetManagement.framework/AudioAccessoryAssetManagement
+   - /System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
+-  - /System/Library/PrivateFrameworks/BackgroundTaskAgent.framework/BackgroundTaskAgent
++  - /System/Library/PrivateFrameworks/BannerKit.framework/BannerKit
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+   - /System/Library/PrivateFrameworks/BiometricKit.framework/BiometricKit
+   - /System/Library/PrivateFrameworks/CallHistory.framework/CallHistory
++  - /System/Library/PrivateFrameworks/CallsAppServices.framework/CallsAppServices
++  - /System/Library/PrivateFrameworks/CallsDialer.framework/CallsDialer
+   - /System/Library/PrivateFrameworks/CameraEffectsKit.framework/CameraEffectsKit
+   - /System/Library/PrivateFrameworks/CameraUI.framework/CameraUI
+   - /System/Library/PrivateFrameworks/CarKit.framework/CarKit
+   - /System/Library/PrivateFrameworks/CarPlayServices.framework/CarPlayServices
+   - /System/Library/PrivateFrameworks/ClarityFoundation.framework/ClarityFoundation
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities
+   - /System/Library/PrivateFrameworks/CommunicationsSetupUI.framework/CommunicationsSetupUI
+   - /System/Library/PrivateFrameworks/CommunicationsUI.framework/CommunicationsUI
++  - /System/Library/PrivateFrameworks/CommunicationsUICore.framework/CommunicationsUICore
+   - /System/Library/PrivateFrameworks/ContactsAutocomplete.framework/ContactsAutocomplete
+   - /System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/ContactsAutocompleteUI
+   - /System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit
+
+   - /System/Library/PrivateFrameworks/FTClientServices.framework/FTClientServices
+   - /System/Library/PrivateFrameworks/FTServices.framework/FTServices
+   - /System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/FaceTimeMessageStore
++  - /System/Library/PrivateFrameworks/FaceTimeNotificationCore.framework/FaceTimeNotificationCore
++  - /System/Library/PrivateFrameworks/FaceTimeNotificationUI.framework/FaceTimeNotificationUI
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+-  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+-  - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+
+   - /System/Library/PrivateFrameworks/Pegasus.framework/Pegasus
+   - /System/Library/PrivateFrameworks/PeopleSuggester.framework/PeopleSuggester
+   - /System/Library/PrivateFrameworks/PersistentConnection.framework/PersistentConnection
++  - /System/Library/PrivateFrameworks/PhoneKit.framework/PhoneKit
+   - /System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers
+   - /System/Library/PrivateFrameworks/PosterBoardServices.framework/PosterBoardServices
+   - /System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices
+
+   - /System/Library/PrivateFrameworks/SOSUI.framework/SOSUI
+   - /System/Library/PrivateFrameworks/SPOwner.framework/SPOwner
+   - /System/Library/PrivateFrameworks/ScreenTimeUI.framework/ScreenTimeUI
++  - /System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/SensitiveContentAnalysisUI
+   - /System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant
++  - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UserSafety.framework/UserSafety
+   - /System/Library/PrivateFrameworks/VisualVoicemail.framework/VisualVoicemail
+-  - /System/Library/PrivateFrameworks/VoiceServices.framework/VoiceServices
++  - /System/Library/PrivateFrameworks/_CommunicationsUICore_PosterBoardServices.framework/_CommunicationsUICore_PosterBoardServices
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 4F73ED1E-C969-3A4E-B948-C27836A6A3E1
+-  Functions: 12622
+-  Symbols:   2667
+-  CStrings:  15072
++  UUID: 3903B820-1C39-34B4-9922-F0E21B06CB56
++  Functions: 14343
++  Symbols:   3152
++  CStrings:  15184
+ 
+Symbols:
++ _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluis
++ _$s10Foundation4DateV1goiySbAC_ACtFZ
++ _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
++ _$s10Foundation6LocaleV10identifierSSvg
++ _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
++ _$s10Foundation6LocaleV36_unconditionallyBridgeFromObjectiveCyACSo8NSLocaleCSgFZ
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s10Foundation6LocaleVMa
++ _$s10Foundation6LocaleVMn
++ _$s10Foundation6LocaleVSQAAMc
++ _$s10ObjectiveC8SelectorV2eeoiySbAC_ACtFZ
++ _$s10ObjectiveC8SelectorVyACSScfC
++ _$s11TelephonyUI12TPTipsHelperC10currentTipSDyAC5EntryV4KindO0F3Kit0F0_pGvMTj
++ _$s11TelephonyUI12TPTipsHelperC10currentTipSDyAC5EntryV4KindO0F3Kit0F0_pGvgTj
++ _$s11TelephonyUI12TPTipsHelperC13removeEntriesyyAC5EntryV4KindOFTj
++ _$s11TelephonyUI12TPTipsHelperC29updateCanDisplayWaitOnHoldTipyySbFZTj
++ _$s11TelephonyUI12TPTipsHelperC5EntryV4KindO10waitOnHoldyA2GmFWC
++ _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOMa
++ _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOMn
++ _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOSHAAMc
++ _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOSQAAMc
++ _$s11TelephonyUI12TPTipsHelperC5EntryVMa
++ _$s11TelephonyUI12TPTipsHelperC5EntryV_3tip15observationTaskA2E4KindO_6TipKit0J0_pScTyyts5NeverOGtcfC
++ _$s11TelephonyUI12TPTipsHelperC5setupyyFTj
++ _$s11TelephonyUI12TPTipsHelperC6sharedACvgZ
++ _$s11TelephonyUI12TPTipsHelperC6sharedACvgZTu
++ _$s11TelephonyUI12TPTipsHelperC8addEntryyyAC0F0VFTj
++ _$s11TelephonyUI12TPTipsHelperC9taskQueueAA04TaskF0CvgZ
++ _$s11TelephonyUI12TPTipsHelperCMa
++ _$s11TelephonyUI13WaitOnHoldTipV0F3Kit0F0AAMc
++ _$s11TelephonyUI13WaitOnHoldTipVACycfC
++ _$s11TelephonyUI13WaitOnHoldTipVMa
++ _$s11TelephonyUI13WaitOnHoldTipVMn
++ _$s11TelephonyUI9TaskQueueC4syncyxxyYaYbcYalFTjTu
++ _$s11TelephonyUI9TaskQueueCACycfC
++ _$s11Translation20LanguageAvailabilityC6StatusO2eeoiySbAE_AEtFZ
++ _$s11Translation20LanguageAvailabilityC6StatusO9installedyA2EmFWC
++ _$s11Translation20LanguageAvailabilityC6StatusO9supportedyA2EmFWC
++ _$s11Translation20LanguageAvailabilityC6StatusOMa
++ _$s11Translation20LanguageAvailabilityC6StatusOMn
++ _$s11Translation20LanguageAvailabilityC6StatusOSQAAMc
++ _$s14CopresenceCore17CPCarPlayObserverC5queueACSo012OS_dispatch_F0C_tcfc
++ _$s14CopresenceCore17CPCarPlayObserverC8delegateAA0cdE8Delegate_pSgvsTj
++ _$s14CopresenceCore17CPCarPlayObserverCMa
++ _$s14CopresenceCore17CPCarPlayObserverCMn
++ _$s14CopresenceCore25CPCarPlayObserverDelegateMp
++ _$s14CopresenceCore25CPCarPlayObserverDelegateP03carD10DidConnectyyFTq
++ _$s14CopresenceCore25CPCarPlayObserverDelegateP03carD13DidDisconnectyyFTq
++ _$s14CopresenceCore25CPCarPlayObserverDelegateP03carD24StartedConnectionAttemptyyFTq
++ _$s14CopresenceCore25CPCarPlayObserverDelegateP03carD24StoppedConnectionAttemptyyFTq
++ _$s14CopresenceCore25CPCarPlayObserverDelegatePAAE03carD24StartedConnectionAttemptyyF
++ _$s14CopresenceCore25CPCarPlayObserverDelegatePAAE03carD24StoppedConnectionAttemptyyF
++ _$s15ConversationKit011SystemAudioA16ControlsDelegateP29presentMoreMenuViewControlleryySo06UIViewK0CFTq
++ _$s15ConversationKit011SystemAudioA16ControlsDelegateP35presentAddParticipantViewControlleryySo012UINavigationK0CFTq
++ _$s15ConversationKit0A12ControlsTypeO20callScreeningRingingyA2CmFWC
++ _$s15ConversationKit0A12ControlsTypeO21callScreeningIncomingyA2CmFWC
++ _$s15ConversationKit0A15ControlsManagerC06updateC5StateyyFTj
++ _$s15ConversationKit0A15ControlsManagerC10activeCallAA0F0_pvgTj
++ _$s15ConversationKit0A15ControlsManagerC10activeCallACSo6TUCallC_tcfC
++ _$s15ConversationKit0A15ControlsManagerC15presentMoreMenu12isBannerView6source14arrowDirection8provider19alongsideTransition0E11ContactCard0E19AddParticipantSheet18startCallRecording04stopwX0ySb_So6UIViewCSgSo014UIPopoverArrowM0V20CommunicationsUICore24FTMenuItemStateProviding_pSgySbcSgyycyycyycyyctF
++ _$s15ConversationKit0A15ControlsManagerC15stopScreenShareyyF
++ _$s15ConversationKit0A15ControlsManagerC17moreMenuViewModel8provider18presentContactCard0J19AddParticipantSheet18startCallRecording04stopqR0AA04MorefgH0CSg20CommunicationsUICore24FTMenuItemStateProviding_pSg_yycyycyycyyctF
++ _$s15ConversationKit0A15ControlsManagerC18didTapEndSharePlayyyF
++ _$s15ConversationKit0A15ControlsManagerC22startWaitOnHoldSessionyyF
++ _$s15ConversationKit0A15ControlsManagerC29startScreenShareWithCountdown10completionyyycSg_tF
++ _$s15ConversationKit0A15ControlsManagerCMa
++ _$s15ConversationKit0A15ControlsManagerCMn
++ _$s15ConversationKit0A24HUDDetailsViewControllerC022generateFTPeoplePickerdE012conversation8delegateSo012UINavigationE0CSo14TUConversationC_AA06PeoplehdE8Delegate_ptFZ
++ _$s15ConversationKit0A24HUDDetailsViewControllerCMa
++ _$s15ConversationKit14PickablePersonC6handleSo8TUHandleCvg
++ _$s15ConversationKit14PickablePersonC7addressSSvg
++ _$s15ConversationKit16ClarityUIContactVSQAAMc
++ _$s15ConversationKit17MoreMenuViewModelC8provider9container26presentAddParticipantSheet18toggleLiveCaptions18startScreenSharing04stopqR00P10WaitOnHold0i9SharePlayL00iwX14DismissalAlert0I11ContactCard0P13CallRecording0S13CallRecordingAC20CommunicationsUICore24FTMenuItemStateProviding_p_AP27FTMenuItemProviderContainerCyycyycyycyycyyc7SwiftUI03AnyE0VyycyycyycSgAWtcfc
++ _$s15ConversationKit17MoreMenuViewModelCMa
++ _$s15ConversationKit23CallRecordingControllerC03setD18IndicatorViewModelyyAA0cdhI0CFTj
++ _$s15ConversationKit23CallRecordingControllerC04stopD0yyFTj
++ _$s15ConversationKit23CallRecordingControllerC05startD0yyFTj
++ _$s15ConversationKit23CallRecordingControllerC14createMenuItem20CommunicationsUICore06FTMenuH0CSgyFTj
++ _$s15ConversationKit23CallRecordingControllerC20CommunicationsUICore18FTMenuItemProviderAAMc
++ _$s15ConversationKit23CallRecordingControllerC25callUniqueProxyIdentifierSSvgTj
++ _$s15ConversationKit23CallRecordingControllerC4call19entryPointViewModel018recordingIndicatoriJ09presenterAcA0C0_pSg_AA0cd6ButtoniJ0CAA0cdiJ0CSgSo06UIViewE0CSgtcfc
++ _$s15ConversationKit23CallRecordingControllerCMa
++ _$s15ConversationKit24ScreeningNumberOverridesV016overridedDisplayD0SSSgyFZ
++ _$s15ConversationKit25CallHoldingButtonDelegateMp
++ _$s15ConversationKit25CallHoldingButtonDelegateP21didTapBeginWaitOnHoldyyFTq
++ _$s15ConversationKit25WaitOnHoldServiceComposerC7composeSo07CNKWaitdeF8Provider_pyF
++ _$s15ConversationKit25WaitOnHoldServiceComposerCMa
++ _$s15ConversationKit28AnsweringMachineSyncComposerC7compose23isInSupportedEnvirement17timeToWaitForCallSo012CNKAnsweringD0_pSbyYbScMYcc_AA04TimemnoP0OSo6TUCallCYbScMYcctFTj
++ _$s15ConversationKit28CallRecordingButtonViewModelCMa
++ _$s15ConversationKit28CallRecordingButtonViewModelCyACSS_So06TUCallD12AvailabilityVSo0hD5StateVSgS2btcfc
++ _$s15ConversationKit30CallParticipantLabelDescriptorC05labelF11WithStrings3for9callCount14alertAvailable14allowsDurationACSo6TUCallC_SiS2btFZ
++ _$s15ConversationKit30CallParticipantLabelDescriptorC15secondaryStringSSSgvgTj
++ _$s15ConversationKit30CallParticipantLabelDescriptorC7stringsSaySSGvgTj
++ _$s15ConversationKit30CallParticipantLabelDescriptorCMa
++ _$s15ConversationKit31CallHoldingButtonViewControllerC11invertColoryySbF
++ _$s15ConversationKit31CallHoldingButtonViewControllerC12buttonTappedyyF
++ _$s15ConversationKit31CallHoldingButtonViewControllerC19setWaitOnHoldActiveyySbF
++ _$s15ConversationKit31CallHoldingButtonViewControllerC6update19holdingAvailabilityySb_tF
++ _$s15ConversationKit31CallHoldingButtonViewControllerC6update8callUUIDySS_tF
++ _$s15ConversationKit31CallHoldingButtonViewControllerCMa
++ _$s15ConversationKit31CallHoldingButtonViewControllerC_8delegateACSS_AA0cdE8Delegate_ptcfc
++ _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cddF0Cvg
++ _$s15ConversationKit31CallRecordingPillViewControllerC12displayStyle9usesGlassA2C07DisplayI0O_Sbtcfc
++ _$s15ConversationKit31CallRecordingPillViewControllerC9viewModelAA0cdfI0Cvg
++ _$s15ConversationKit32SharePlayDiscoverabilityMenuViewV08makeMorefcdeG013foregroundApp26callSupportsCollaborations07willTapK07SwiftUI03AnyG0VAA010ForegroundK0CSg_SbyycSgtFZ
++ _$s15ConversationKit33CallRecordingButtonViewControllerC12buttonTappedyyF
++ _$s15ConversationKit33CallRecordingButtonViewControllerC_____018recordingIndicatorF5Model9presenterACSS_So06TUCallD12AvailabilityVSo0lD5StateVSgS2bAA0cdfJ0CSo06UIViewG0CSgtcfc
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateMp
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD14SentInvitation4with019facetimeUnavailableC00l9AvailableC036shouldAddOtherInvitedToRemoteMembersySo18TUConversationLinkC_SayAA14PickablePersonCGAMSbtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD17RequestedDialCall5using5video7contact6handle14senderIdentity7ttyTypeySo14TUCallProviderC_SbSo9CNContactCSgSo8TUHandleCSo08TUSenderQ0CSgSo20TUDialRequestTTYTypeVtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD30RequestedUnknownContactPopover3for06sourceE00N4RectySo8TUHandleC_So6UIViewCSo6CGRectVtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD5Added_36shouldAddOtherInvitedToRemoteMembersySayAA14PickablePersonCG_SbtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD7Invited_9withVideo6button8callerID13messagesGroupySayAA14PickablePersonCG_SbSo8UIButtonCSo8TUHandleCSgAA08MessagesP0VSgtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD9CancelledyyFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopleD9DismissedyyFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegateP06peopled16RequestedMessageF04with8chatGUIDySaySSG_SSSgtFTq
++ _$s15ConversationKit34PeoplePickerViewControllerDelegatePAAE06peopleD14SentInvitation4with019facetimeUnavailableC00l9AvailableC036shouldAddOtherInvitedToRemoteMembersySo18TUConversationLinkC_SayAA14PickablePersonCGAMSbtF
++ _$s15ConversationKit34PeoplePickerViewControllerDelegatePAAE06peopleD17RequestedDialCall5using5video7contact6handle14senderIdentity7ttyTypeySo14TUCallProviderC_SbSo9CNContactCSgSo8TUHandleCSo08TUSenderQ0CSgSo20TUDialRequestTTYTypeVtF
++ _$s15ConversationKit34PeoplePickerViewControllerDelegatePAAE06peopleD7Invited_9withVideo6button8callerID13messagesGroupySayAA14PickablePersonCG_SbSo8UIButtonCSo8TUHandleCSgAA08MessagesP0VSgtF
++ _$s15ConversationKit34PeoplePickerViewControllerDelegatePAAE06peopleD9DismissedyyF
++ _$s15ConversationKit34PeoplePickerViewControllerDelegatePAAE06peopled16RequestedMessageF04with8chatGUIDySaySSG_SSSgtF
++ _$s15ConversationKit4CallP02isA0SbvgTj
++ _$s15ConversationKit4CallP25uniqueProxyIdentifierUUID10Foundation0G0VvgTj
++ _$s15ConversationKit4CallP6handleSo8TUHandleCSgvgTj
++ _$s15ConversationKit8FeaturesC15isDominoEnabledSbvg
++ _$s15ConversationKit8FeaturesC17isMoreMenuEnabledSbvg
++ _$s15ConversationKit8FeaturesC19receptionistEnabledSbvg
++ _$s15ConversationKit8FeaturesC20isiPadPostersEnabledSbvg
++ _$s15ConversationKit8FeaturesC26isEnhancedEmergencyEnabledSbvg
++ _$s15ConversationKit8FeaturesC28fullScreenOutgoingFTAEnabledSbvg
++ _$s15ConversationKit8FeaturesC40showTranscriptWithoutConfidenceFilteringSbvg
++ _$s15Synchronization5_CellVMn
++ _$s15Synchronization6AtomicVMn
++ _$s16CallsAppServices22CallStatusTextObserverC014startObservingdE0yyF
++ _$s16CallsAppServices22CallStatusTextObserverC04callE9Publisher7Combine03AnyI0VySo06TUCallE0Vs5NeverOGvg
++ _$s16CallsAppServices22CallStatusTextObserverC06updateD18DurationVisibility04showI0ySb_tF
++ _$s16CallsAppServices22CallStatusTextObserverC07primaryE9Publisher7Combine03AnyI0VySSs5NeverOGvg
++ _$s16CallsAppServices22CallStatusTextObserverC08retrieveE0SSSo6TUCallC4call_Sb14allowsDurationSb011isSecondaryE0t_tcSgvs
++ _$s16CallsAppServices22CallStatusTextObserverC09secondaryE9Publisher7Combine03AnyI0VySSs5NeverOGvg
++ _$s16CallsAppServices22CallStatusTextObserverC4callACSo6TUCallC_tcfc
++ _$s16CallsAppServices22CallStatusTextObserverCMa
++ _$s16CallsAppServices23PrioritizedCallObserverC07observeA0yyF
++ _$s16CallsAppServices23PrioritizedCallObserverC8delegateAcA0deF8Delegate_p_tcfc
++ _$s16CallsAppServices23PrioritizedCallObserverCMa
++ _$s16CallsAppServices31PrioritizedCallObserverDelegateMp
++ _$s16CallsAppServices31PrioritizedCallObserverDelegateP010updateWithdE0yySo6TUCallCFTq
++ _$s16CallsAppServices31PrioritizedCallObserverDelegateP022updateWithDisconnectedE0yySo6TUCallCFTq
++ _$s16CommunicationsUI013CallRecordingD4ViewC013handleTapStopD0yyF
++ _$s16CommunicationsUI09AudioCallC16ControlViewModelC17audioRouteServiceAC0A6UICore0ciJ8Protocol_p_tcfc
++ _$s16CommunicationsUI10FTMenuViewV05SwiftB00D0AAMc
++ _$s16CommunicationsUI10FTMenuViewV9viewModel14dismissHandler17sheetPresentation7isUIKit14hideBackButtonAC0A6UICore0cdF0C_yycSgS3btcfC
++ _$s16CommunicationsUI10FTMenuViewVMa
++ _$s16CommunicationsUI10FTMenuViewVMn
++ _$s16CommunicationsUI16CallsColorMatrixV10background05SwiftB00dE0VvgZ
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesV10startPoint03endI06colors9isVisibleAESo7CGPointV_AKSaySo7UIColorCGSbtcfC
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesV13topLargeAudioAEvgZ
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesV16bottomLargeAudioAEvgZ
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesV16bottomSmallAudioAEvgZ
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesV19landscapeLargeAudioAEvgZ
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesVMa
++ _$s16CommunicationsUI16GlassDimmingViewC14GradientValuesVMn
++ _$s16CommunicationsUI16GlassDimmingViewC23foregroudGradientValuesAC0gH0VvsTj
++ _$s16CommunicationsUI16GlassDimmingViewC24backgroundGradientValuesAC0gH0VvsTj
++ _$s16CommunicationsUI16GlassDimmingViewCMa
++ _$s16CommunicationsUI19CircleOverlayConfigV0C5ScaleO5largeyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C5ScaleO5smallyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C5ScaleO7regularyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C5ScaleOMa
++ _$s16CommunicationsUI19CircleOverlayConfigV0C6CornerO11bottomRightyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C6CornerO7topLeftyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C6CornerO8topRightyA2EmFWC
++ _$s16CommunicationsUI19CircleOverlayConfigV0C6CornerOMa
++ _$s16CommunicationsUI19CircleOverlayConfigV6corner5scale9imageName5color0H5Color0H5ScaleA2C0C6CornerO_AC0cL0OSS05SwiftB00K0VAPSdSgtcfC
++ _$s16CommunicationsUI19CircleOverlayConfigVMa
++ _$s16CommunicationsUI19CircleOverlayConfigVMn
++ _$s16CommunicationsUI21BlurredBackgroundViewVACycfC
++ _$s16CommunicationsUI21BlurredBackgroundViewVMn
++ _$s16CommunicationsUI21CallTranslationWorkerC03hasD17ActivityPublisher7Combine03AnyH0VySbs5NeverOGvg
++ _$s16CommunicationsUI21CallTranslationWorkerC03hasD8ActivitySbvg
++ _$s16CommunicationsUI21CallTranslationWorkerC04stopD0yyF
++ _$s16CommunicationsUI21CallTranslationWorkerC04stopD8ActivityyyF
++ _$s16CommunicationsUI21CallTranslationWorkerC05startD05local6remotey10Foundation6LocaleV_AItF
++ _$s16CommunicationsUI21CallTranslationWorkerC31createTranscriptsViewControllerAA0cdhI0CyF
++ _$s16CommunicationsUI21CallTranslationWorkerC7serviceAC0A6UICore0cD9Servicing_p_tcfc
++ _$s16CommunicationsUI21CallTranslationWorkerCMa
++ _$s16CommunicationsUI21CallTranslationWorkerCMn
++ _$s16CommunicationsUI21ColorMatrixConvertionV11colorEffectySo07UIColorG0CSg05SwiftB00cD0VFZ
++ _$s16CommunicationsUI21LanguageSelectionViewV9viewModel18translateToContext25needCellularDownloadAlert0hI15LocaleDidChange08languageP8SelectedAC0A6UICore0cdeG0C_SSSgSbyAI0cdmG0CSgcSgyAO_AOtcSgtcfC
++ _$s16CommunicationsUI21LanguageSelectionViewVMa
++ _$s16CommunicationsUI21LanguageSelectionViewVMn
++ _$s16CommunicationsUI22SwitchingContainerViewC04showE02at8animatedySi_SbtFTj
++ _$s16CommunicationsUI22SwitchingContainerViewC7hideAll8animatedySb_tFTj
++ _$s16CommunicationsUI22SwitchingContainerViewC8setViewsyySaySo6UIViewCGFTj
++ _$s16CommunicationsUI22SwitchingContainerViewCMa
++ _$s16CommunicationsUI24PriorityStackViewManagerC03addE0_8priority8animatedySo6UIViewC_AC0C0OSbtF
++ _$s16CommunicationsUI24PriorityStackViewManagerC05stackE0ACSo07UIStackE0C_tcfc
++ _$s16CommunicationsUI24PriorityStackViewManagerC05stackE0So07UIStackE0Cvg
++ _$s16CommunicationsUI24PriorityStackViewManagerC06removeE0_8animatedySo6UIViewC_SbtF
++ _$s16CommunicationsUI24PriorityStackViewManagerC0C0O3lowyA2EmFWC
++ _$s16CommunicationsUI24PriorityStackViewManagerC0C0O4highyA2EmFWC
++ _$s16CommunicationsUI24PriorityStackViewManagerC0C0O6mediumyA2EmFWC
++ _$s16CommunicationsUI24PriorityStackViewManagerC0C0OMa
++ _$s16CommunicationsUI24PriorityStackViewManagerC7isEmptySbvg
++ _$s16CommunicationsUI24PriorityStackViewManagerCMa
++ _$s16CommunicationsUI27CallScreeningViewControllerC22updateTextFieldPaddingyy12CoreGraphics7CGFloatVSgF
++ _$s16CommunicationsUI27CallScreeningViewControllerCMa
++ _$s16CommunicationsUI27LockScreenHostingControllerC8rootViewACyxGx_tcfc
++ _$s16CommunicationsUI27LockScreenHostingControllerCMn
++ _$s16CommunicationsUI29CallTranslationLanguagePickerV05SwiftB04ViewAAMc
++ _$s16CommunicationsUI29CallTranslationLanguagePickerV7current14possibleLocale9viewModel03usedF016languageSelected14wantsToDismissAC10Foundation0I0V_ALSg0A6UICore0e13SelectionViewK0CSgSbyAL_ALtcSgyycSgtcfC
++ _$s16CommunicationsUI29CallTranslationLanguagePickerVMa
++ _$s16CommunicationsUI29CallTranslationViewControllerCMn
++ _$s16CommunicationsUI29GlassCutoutCirclesOverlayViewV17frontCircleConfig04backiJ04sizeAcA0ifJ0V_AHSo6CGSizeVtcfC
++ _$s16CommunicationsUI29GlassCutoutCirclesOverlayViewVMa
++ _$s16CommunicationsUI29GlassCutoutCirclesOverlayViewVMn
++ _$s16CommunicationsUI29GlassDimmingRepresentableViewV18foregroundGradient010backgroundH0AcA0cdF0C0H6ValuesVSg_AJtcfC
++ _$s16CommunicationsUI29GlassDimmingRepresentableViewVMa
++ _$s16CommunicationsUI29GlassDimmingRepresentableViewVMn
++ _$s16CommunicationsUI32CallTranslationMoreMenuViewModelC0A6UICore18FTMenuItemProviderAAMc
++ _$s16CommunicationsUI32CallTranslationMoreMenuViewModelC6updateyy0A6UICore0cD9Servicing_pSgF
++ _$s16CommunicationsUI32CallTranslationMoreMenuViewModelC7serviceAC0A6UICore0cD9Servicing_pSg_tcfc
++ _$s16CommunicationsUI32CallTranslationMoreMenuViewModelCMa
++ _$s16CommunicationsUI32CallTranslationMoreMenuViewModelCMn
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC011bottomShelfE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC011middleShelfE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC011photoPosterE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC012memojiPosterE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC013callerDetailsE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC013trailingPanelE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC014monogramPosterE5GuideSo08UILayoutJ0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC06posterE5GuideSo08UILayoutI0Cvg
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC17updateMiddleState7isEmptyySb_tF
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerC22updateMiddleShelfState6isOpen9animation10completionySb_yycSgAHtF
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerCMa
++ _$s16CommunicationsUI32iOSAudioCallLayoutViewControllerCMn
++ _$s18TelephonyUtilities19InterventionRequestO016joinConversationD0yACSo06TUJoinfD0CcACmFWC
++ _$s18TelephonyUtilities19InterventionRequestO04dialD0yACSo06TUDialD0CcACmFWC
++ _$s18TelephonyUtilities19InterventionRequestO3urlAC10Foundation3URLV_tKcfC
++ _$s18TelephonyUtilities19InterventionRequestOMa
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV14_startIterator6buckets6UInt64V11currentBits_AI04nextL0Si17remainingBitCounttAC6BucketV_tF
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV26firstOccupiedBucketInChain4withAC0I0VAI_tF
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV3raws6UInt64VAC6BucketV_tcis
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV9startFindyAC14BucketIteratorV8iterator_SiSg12currentValuetAC0I0VF
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV12currentValueSiSgvg
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV12currentValueSiSgvs
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV7advanceyyF
++ _$s19CollectionsInternal10_HashTableV15maximumCapacity8forScaleS2i_tFZ
++ _$s19CollectionsInternal10_HashTableV15minimumCapacity8forScaleS2i_tFZ
++ _$s19CollectionsInternal10_HashTableV4copyACyF
++ _$s19CollectionsInternal10_HashTableV5scale11forCapacityS2i_tFZ
++ _$s19CollectionsInternal10_HashTableV5scale13reservedScaleACSi_SitcfC
++ _$s19CollectionsInternal17OrderedDictionaryVMn
++ _$s20CommunicationsUICore10CallFacadeC21uniqueProxyIdentifierSSvg
++ _$s20CommunicationsUICore10CallFacadeCMn
++ _$s20CommunicationsUICore10FTMenuItemC15isSessionActiveSbvgTj
++ _$s20CommunicationsUICore11ContactKeysC6posterSaySo15CNKeyDescriptor_pGvgZ
++ _$s20CommunicationsUICore11ContactKeysCMa
++ _$s20CommunicationsUICore15ContactsServiceC11findContact9predicateSo9CNContactCSgSo11NSPredicateC_tF
++ _$s20CommunicationsUICore15ContactsServiceC12contactStore4keysACSo09CNContactF0C_SaySo15CNKeyDescriptor_pGtcfc
++ _$s20CommunicationsUICore15ContactsServiceCMa
++ _$s20CommunicationsUICore15FTMenuViewModelCMn
++ _$s20CommunicationsUICore16CallCenterFacadeC4call4withAA0cE0CSgSS_tF
++ _$s20CommunicationsUICore16CallCenterFacadeC6sharedACvgZ
++ _$s20CommunicationsUICore16CallCenterFacadeCMa
++ _$s20CommunicationsUICore17AudioRouteServiceC10callCenterAcA04CallG6FacadeC_tcfC
++ _$s20CommunicationsUICore17AudioRouteServiceCAA0cdE8ProtocolAAWP
++ _$s20CommunicationsUICore17AudioRouteServiceCMa
++ _$s20CommunicationsUICore17AudioRouteServiceCMn
++ _$s20CommunicationsUICore18FTMenuItemProviderMp
++ _$s20CommunicationsUICore18FTMenuItemRegistryC5clear3forySS_tF
++ _$s20CommunicationsUICore18FTMenuItemRegistryC6sharedACvgZ
++ _$s20CommunicationsUICore18FTMenuItemRegistryC8register4with13callRecording8deskView9tvHandoff12liveCaptions0N11Translation11screenShare9sharePlayySS_AA0cD8Provider_pSgA6NtF
++ _$s20CommunicationsUICore18FTMenuItemRegistryC9container3forAA0cD17ProviderContainerCSS_tF
++ _$s20CommunicationsUICore18FTMenuItemRegistryCMa
++ _$s20CommunicationsUICore19CallScreeningStatusO03notD0yA2CmFWC
++ _$s20CommunicationsUICore19CallScreeningStatusO13liveVoicemailyA2CmFWC
++ _$s20CommunicationsUICore19CallScreeningStatusO2eeoiySbAC_ACtFZ
++ _$s20CommunicationsUICore19CallScreeningStatusO7ringingyACSSSg_tcACmFWC
++ _$s20CommunicationsUICore19CallScreeningStatusO9screeningyA2CmFWC
++ _$s20CommunicationsUICore19CallScreeningStatusOMa
++ _$s20CommunicationsUICore19CallScreeningStatusOMn
++ _$s20CommunicationsUICore19LanguageDisplayNameV5short_2inSSSg10Foundation6LocaleV_AItFZ
++ _$s20CommunicationsUICore20CallScreeningServiceV018screeningStatusForC0yAA0cdG0OAA05BasicC0_pF
++ _$s20CommunicationsUICore20CallScreeningServiceV15ConversationKitEACycfC
++ _$s20CommunicationsUICore20CallScreeningServiceVMa
++ _$s20CommunicationsUICore22CallTranslationServiceC05startD011localLocale06remoteH0y10Foundation0H0V_AItF
++ _$s20CommunicationsUICore22CallTranslationServiceC23availableRemoteLanguage3for10Foundation6LocaleV_0D00H12AvailabilityC6StatusOtSg20LiveCommunicationKit6HandleV_tYaF
++ _$s20CommunicationsUICore22CallTranslationServiceC23availableRemoteLanguage3for10Foundation6LocaleV_0D00H12AvailabilityC6StatusOtSg20LiveCommunicationKit6HandleV_tYaFTu
++ _$s20CommunicationsUICore22CallTranslationServiceC4call05videoC0AcA0C6FacadeCSg_SbtcfC
++ _$s20CommunicationsUICore22CallTranslationServiceCAA0cD9ServicingAAWP
++ _$s20CommunicationsUICore22CallTranslationServiceCMa
++ _$s20CommunicationsUICore22PhoneLockStateObserverC6listen17wantsCurrentValue4with7Combine14AnyCancellableCSb_ySbScMYcctF
++ _$s20CommunicationsUICore22PhoneLockStateObserverC6sharedACvgZ
++ _$s20CommunicationsUICore22PhoneLockStateObserverCMa
++ _$s20CommunicationsUICore23FTMenuItemStateProviderC4call0G6CenterAcA10CallFacadeC_AA0ihJ0Ctcfc
++ _$s20CommunicationsUICore23FTMenuItemStateProviderCAA0cdE9ProvidingAAWP
++ _$s20CommunicationsUICore23FTMenuItemStateProviderCMa
++ _$s20CommunicationsUICore24CallTranslationServicingMp
++ _$s20CommunicationsUICore24FTMenuItemStateProvidingMp
++ _$s20CommunicationsUICore24FTMenuItemStateProvidingP21uniqueProxyIdentifierSSvgTj
++ _$s20CommunicationsUICore26LanguageSelectionViewModelC8taskHint24defaultTranslateToLocale07currentjkL018suggestedLanguagesACSo018_LTTranslationTaskH0V_10Foundation0L0VSgAMSayALGtcfC
++ _$s20CommunicationsUICore26LanguageSelectionViewModelCMa
++ _$s20CommunicationsUICore26LanguageSelectionViewModelCMn
++ _$s20CommunicationsUICore30LanguageSelectionDownloadModelC5stateSo15_LTOfflineStateVvgTj
++ _$s20CommunicationsUICore30LanguageSelectionDownloadModelC6locale10Foundation6LocaleVvg
++ _$s20FaceTimeMessageStore0C0C8fileSizes6UInt64VSgvgTj
++ _$s20FaceTimeMessageStore0C0CMa
++ _$s20FaceTimeMessageStore0C12FetchOptionsV20includeProtectedAppsACvgZ
++ _$s20FaceTimeMessageStore0C4TypeOMn
++ _$s20FaceTimeMessageStore0C6UpdateC10recordUUID04callG014conversationID4from8provider6isRead8duration11mailboxType9recipient19transcriptionStatus0M3RTT13transcriptURL03simJ08undeleteAC10Foundation0G0V_ATSgAUSSSgAA0cD8ProviderOSgSbSgSdSgAA07MailboxQ0OSgAvA013TranscriptionT0OSgAzR0W0VSgAVSbtcfc
++ _$s20FaceTimeMessageStore0C6UpdateC10recordUUID10Foundation0G0Vvg
++ _$s20FaceTimeMessageStore0C6UpdateCMa
++ _$s20FaceTimeMessageStore0cD10ControllerC14deleteMessages5queryyAA0cD5QueryO_tYaKF
++ _$s20FaceTimeMessageStore0cD10ControllerC14deleteMessages5queryyAA0cD5QueryO_tYaKFTu
++ _$s20FaceTimeMessageStore0cD10ControllerC14removeDelegateyyAA0cdeG0_pF
++ _$s20FaceTimeMessageStore0cD10ControllerC14updateMessagesyySayAA0C6UpdateCGYaKF
++ _$s20FaceTimeMessageStore0cD10ControllerC14updateMessagesyySayAA0C6UpdateCGYaKFTu
++ _$s20FaceTimeMessageStore0cD5QueryO11voicemailIDyACSays5Int32VGcACmFWC
++ _$s20FaceTimeMessageStore0cD5QueryO3andyACSayACGcACmFWC
++ _$s20FaceTimeMessageStore0cD5QueryO5typesyACSayAA0C4TypeOGcACmFWC
++ _$s20FaceTimeMessageStore0cD5QueryO9providersyACSayAA0cD8ProviderOGcACmFWC
++ _$s20FaceTimeMessageStore0cD5QueryOMn
++ _$s20FaceTimeMessageStore0cD5QueryOs23CustomStringConvertibleAAMc
++ _$s20FaceTimeMessageStore0cD8ProviderOMn
++ _$s20LiveCommunicationKit6HandleV4KindO11phoneNumberyA2EmFWC
++ _$s20LiveCommunicationKit6HandleV4KindO12emailAddressyA2EmFWC
++ _$s20LiveCommunicationKit6HandleV4KindO7genericyA2EmFWC
++ _$s20LiveCommunicationKit6HandleV4KindOMa
++ _$s20LiveCommunicationKit6HandleV4type5value11displayNameA2C4KindO_S2SSgtcfC
++ _$s20LiveCommunicationKit6HandleV5valueSSvg
++ _$s20LiveCommunicationKit6HandleVMa
++ _$s20LiveCommunicationKit6HandleVMn
++ _$s22FaceTimeNotificationUI23CarPlayIncomingCallViewV4call0J6Center5onTapAC0abC4Core7FTNCall_p_AG0oK0_pyyctcfC
++ _$s22FaceTimeNotificationUI23CarPlayIncomingCallViewVMa
++ _$s22FaceTimeNotificationUI23CarPlayIncomingCallViewVMn
++ _$s24SensitiveContentAnalysis011SensitivityC0V13harmsDetected5flagsA2C5HarmsV_AC5FlagsVtcfC
++ _$s24SensitiveContentAnalysis011SensitivityC0V5FlagsVMa
++ _$s24SensitiveContentAnalysis011SensitivityC0V5FlagsVMn
++ _$s24SensitiveContentAnalysis011SensitivityC0V5FlagsVs10SetAlgebraAAMc
++ _$s24SensitiveContentAnalysis011SensitivityC0V5HarmsV6nudityAEvgZ
++ _$s24SensitiveContentAnalysis011SensitivityC0V5HarmsVMa
++ _$s24SensitiveContentAnalysis011SensitivityC0VMa
++ _$s24SensitiveContentAnalysis011SensitivityC0VMn
++ _$s26SensitiveContentAnalysisUI12InterventionV4KindO34attemptingToCallViaExternalRequest_11isPresentedAESDySo14SCAParticipantCSo013SCSensitivityC0CG_05SwiftD07BindingVySbGtFZ
++ _$s26SensitiveContentAnalysisUI12InterventionV4KindOMa
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s41_CommunicationsUICore_PosterBoardServices0C11DataServiceC19posterConfiguration3forSo09PRSPosterI0CSgAA0C4SlotO_tKF
++ _$s41_CommunicationsUICore_PosterBoardServices0C11DataServiceC21posterHasStylizedTextySbSo22PRSPosterConfigurationCF
++ _$s41_CommunicationsUICore_PosterBoardServices0C11DataServiceC7contact0H5StoreACSo9CNContactC_So0jI0CtcfC
++ _$s41_CommunicationsUICore_PosterBoardServices0C11DataServiceCMa
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC010showTextInC0yySbF
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC024acceptAndTransitionToNewC0yyF
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC08$currentC4Type7Combine9PublishedV9PublisherVyAA0cI0OSg_Gvg
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC09isShowingC0Sbvg
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC0C15StatusTextModelC6status12callIsActiveAESS_Sbtcfc
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC0C15StatusTextModelCMa
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC12saliencyRectSo6CGRectVvg
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC12saliencyRectSo6CGRectVvs
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC14occlusionRectsSDySSSo6CGRectVGvM
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC24showContactNameAndStatusyySbF
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC25updateCallerNameAndStatus5modelyAC0cL9TextModelC_tF
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC7contact0H5Store0H15NameLayoutGuideACSo9CNContactC_So0mI0CSo08UILayoutL0CSgtcfc
++ _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerCMa
++ _$s41_CommunicationsUICore_PosterBoardServices0C4SlotO7currentyA2CmFWC
++ _$s41_CommunicationsUICore_PosterBoardServices0C4SlotOMa
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeO11descriptionSSvg
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeO5photoyA2CmFWC
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeO6memojiyA2CmFWC
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeO8monogramyA2CmFWC
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeOMa
++ _$s41_CommunicationsUICore_PosterBoardServices0C4TypeOMn
++ _$s4Body6TipKit0B9ViewStylePTl
++ _$s5SOSUI15SOSUIWebRTCViewC10flipCamerayyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC10pauseVideoyyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC11toggleTorchyyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC12setFrameRateyySdYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC12setZoomLevel4zoomySd_tYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC12unpauseVideoyyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC14endVideoStreamyyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC15getCapabilitiesAA24SOSUIWebtRTCCapabilitiesCyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC15setPausedStringyySSYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC16startVideoStream8endpoint5tokenySS_SStYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC17setMaximumBitrateyySdYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC17startVideoPreviewyyYaKFTjTu
++ _$s5SOSUI15SOSUIWebRTCViewC5resetyyKFTj
++ _$s5SOSUI15SOSUIWebRTCViewC5stateAA0B8RTCStateCvgTj
++ _$s5SOSUI16SOSUIWebRTCStateC12cameraFacingAA0b9RTCCameraE0Ovg
++ _$s5SOSUI16SOSUIWebRTCStateC5errorAA0B15RTCErrorMessageCSgvg
++ _$s5SOSUI16SOSUIWebRTCStateC5stateAA0bC4NameOvg
++ _$s5SOSUI16SOSUIWebRTCStateC9zoomLevelSdvg
++ _$s5SOSUI20SOSUIWebRTCStateNameO8rawValueSivg
++ _$s5SOSUI23SOSUIWebRTCCameraFacingO8rawValueSivg
++ _$s5SOSUI23SOSUIWebRTCErrorMessageC9errorCodeSivg
++ _$s5SOSUI23SOSUIWebRTCErrorMessageC9retryableSbvg
++ _$s5SOSUI23SOSUIWebtRTCDoubleRangeC3maxSdvg
++ _$s5SOSUI23SOSUIWebtRTCDoubleRangeC3minSdvg
++ _$s5SOSUI24SOSUIWebtRTCCapabilitiesC4zoomAA0B14RTCDoubleRangeCSgvg
++ _$s5SOSUI25SOSUIWebRTCQualityMessageC10packetLossSdSgvg
++ _$s5SOSUI25SOSUIWebRTCQualityMessageC15framesPerSecondSdSgvg
++ _$s5SOSUI25SOSUIWebRTCQualityMessageC6jitterSdSgvg
++ _$s5SOSUI25SOSUIWebRTCQualityMessageC7bitrateSdSgvg
++ _$s5SOSUI25SOSUIWebRTCQualityMessageC9bytesSentSdSgvg
++ _$s5UIKit6_GlassV01_B7VariantV15excludingShadowAEyF
++ _$s5UIKit6_GlassV01_B7VariantV4SizeO5largeyA2GmFWC
++ _$s5UIKit6_GlassV01_B7VariantV4SizeO5smallyA2GmFWC
++ _$s5UIKit6_GlassV01_B7VariantV4SizeOMa
++ _$s5UIKit6_GlassV01_B7VariantV4sizeyA2E4SizeOF
++ _$s5UIKit6_GlassV01_B7VariantV5clearAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantVMa
++ _$s5UIKit6_GlassV4tintyACSo7UIColorCF
++ _$s5UIKit6_GlassVMa
++ _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
++ _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
++ _$s6TipKit0A0Mp
++ _$s6TipKit0A0P2idSSvgTj
++ _$s6TipKit0A0PAAE20shouldDisplayUpdatess16AsyncMapSequenceVyScSyAA4TipsO6StatusOGSbGvg
++ _$s6TipKit0A0PAAE5resetyyF
++ _$s6TipKit0A22ViewStyleConfigurationV15dismissalActionyycvg
++ _$s6TipKit0A22ViewStyleConfigurationV5image7SwiftUI5ImageVSgvg
++ _$s6TipKit0A22ViewStyleConfigurationV5title7SwiftUI4TextVSgvg
++ _$s6TipKit0A22ViewStyleConfigurationV7actionsSayAA4TipsO6ActionVGvg
++ _$s6TipKit0A22ViewStyleConfigurationV7message7SwiftUI4TextVSgvg
++ _$s6TipKit0A22ViewStyleConfigurationVMa
++ _$s6TipKit0A22ViewStyleConfigurationVMn
++ _$s6TipKit0A6UIViewC15backgroundStyle7SwiftUI05ShapeE0_pvs
++ _$s6TipKit0A6UIViewC16dismissalHandleryAA0A0_pcSgvs
++ _$s6TipKit0A6UIViewC9viewStyleAA0a4ViewE0_pvs
++ _$s6TipKit0A6UIViewCMa
++ _$s6TipKit0A6UIViewC_9arrowEdge13actionHandlerAcA0A0_p_7SwiftUI0E0OSgyAA4TipsO6ActionVctcfc
++ _$s6TipKit0A9ViewStyleMp
++ _$s6TipKit0A9ViewStyleP4BodyAC_7SwiftUI0C0Tn
++ _$s6TipKit0A9ViewStyleP8makeBody13configuration0F0QzAA0acD13ConfigurationV_tFTq
++ _$s6TipKit4TipsO6ActionV2idSSvg
++ _$s6TipKit4TipsO6ActionV2idSSvpMV
++ _$s6TipKit4TipsO6ActionV5label7SwiftUI4TextVyYbcvg
++ _$s6TipKit4TipsO6ActionV7handleryycvg
++ _$s6TipKit4TipsO6ActionVMa
++ _$s6TipKit4TipsO6ActionVMn
++ _$s6TipKit4TipsO6StatusOMa
++ _$s6TipKit4TipsO6StatusOMn
++ _$s7Combine10PublishersO0A7Latest3VMn
++ _$s7Combine10PublishersO0A7Latest3Vy_xq_q0_GAA9PublisherAAMc
++ _$s7Combine10PublishersO10CompactMapVMn
++ _$s7Combine10PublishersO10CompactMapVy_xq_GAA9PublisherAAMc
++ _$s7Combine12AnyPublisherVMn
++ _$s7Combine12AnyPublisherVyxq_GAA0C0AAMc
++ _$s7Combine14AnyCancellableC5store2inyxz_tSmRzAC7ElementRtzlF
++ _$s7Combine14AnyCancellableC6cancelyyF
++ _$s7Combine9PublishedV9PublisherVMn
++ _$s7Combine9PublishedV9PublisherVyx_GAadAMc
++ _$s7Combine9PublisherPAAE10compactMapyAA10PublishersO07CompactD0Vy_xqd__Gqd__Sg6OutputQzclF
++ _$s7Combine9PublisherPAAE13combineLatestyAA10PublishersO0A7Latest3Vy_xqd__qd_0_Gqd___qd_0_tAaBRd__AaBRd_0_7FailureQyd__AJRtzAJQyd_0_AKRSr0_lF
++ _$s7Combine9PublisherPAAE5merge4withAA10PublishersO9MergeManyVy_xGx_tF
++ _$s7SwiftUI11AnyLocationCMn
++ _$s7SwiftUI13TextAlignmentOMn
++ _$s7SwiftUI13_HStackLayoutVMn
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI16_FixedSizeLayoutVMn
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvg
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvpMV
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0Ovg
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0Ovs
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
++ _$s7SwiftUI19BorderedButtonStyleVAA09PrimitivedE0AAMc
++ _$s7SwiftUI19BorderedButtonStyleVACycfC
++ _$s7SwiftUI19BorderedButtonStyleVMa
++ _$s7SwiftUI19BorderedButtonStyleVMn
++ _$s7SwiftUI19UIHostingControllerC13sizingOptionsAA0cd6SizingF0VvsTj
++ _$s7SwiftUI19UIHostingControllerC15safeAreaRegionsAA04SafefG0Vvs
++ _$s7SwiftUI21_ContentShapeModifierVMn
++ _$s7SwiftUI21_ContentShapeModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleV7primaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleV8tertiaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleV9secondaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI22HierarchicalShapeStyleVMn
++ _$s7SwiftUI22HierarchicalShapeStyleVN
++ _$s7SwiftUI24_ForegroundStyleModifierVMn
++ _$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVAA04ViewE0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMa
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMn
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20intrinsicContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20preferredContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVMa
++ _$s7SwiftUI34_InsettableBackgroundShapeModifierVMn
++ _$s7SwiftUI4FontV11subheadlineACvgZ
++ _$s7SwiftUI4FontV6WeightV6mediumAEvgZ
++ _$s7SwiftUI4FontV6WeightV8semiboldAEvgZ
++ _$s7SwiftUI4FontV8headlineACvgZ
++ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
++ _$s7SwiftUI4ViewP014CommunicationsB0E29inLockScreenHostingControllerAA09UIHostingI0CyxGyF
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E06onShowE0yQryycSgF
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E06onShowE0yQryycSgFQOMQ
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E12interventionyQrAD12InterventionV4KindOF
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E12interventionyQrAD12InterventionV4KindOFQOMQ
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E20onInterventionHeededyQryycSgF
++ _$s7SwiftUI4ViewP024SensitiveContentAnalysisB0E20onInterventionHeededyQryycSgFQOMQ
++ _$s7SwiftUI4ViewP6TipKitE15tipCornerRadius_11antialiasedQr12CoreGraphics7CGFloatV_SbtF
++ _$s7SwiftUI4ViewP6TipKitE15tipCornerRadius_11antialiasedQr12CoreGraphics7CGFloatV_SbtFQOMQ
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgF
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQOMQ
++ _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctF
++ _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOMQ
++ _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF
++ _$s7SwiftUI5ColorV4blueACvgZ
++ _$s7SwiftUI5ColorV6indigoACvgZ
++ _$s7SwiftUI5ColorV7primaryACvgZ
++ _$s7SwiftUI5StateVMa
++ _$s7SwiftUI7CapsuleVMn
++ _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
++ _$s7SwiftUI7ForEachVMn
++ _$s7SwiftUI8MaterialV13_GlassVariantV5clearAEvgZ
++ _$s7SwiftUI8MaterialV13_GlassVariantVMa
++ _$s7SwiftUI8MaterialV6_glassyA2C13_GlassVariantVFZ
++ _$s7SwiftUI8MaterialVAA10ShapeStyleAAWP
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s7SwiftUI9RectangleVMn
++ _$sBi16_WV
++ _$sSDMa
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
++ _$sSayxGSksMc
++ _$sSayxGSmsMc
++ _$sScEMa
++ _$sScS8IteratorVMn
++ _$sScS8IteratorVyx_GScIsMc
++ _$sScSyxGScisMc
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
++ _$sSh5IndexVMn
++ _$sSo12TUCallCenterC24FaceTimeNotificationCore07FTNCallB0ACWP
++ _$sSo12UIKeyCommandC5UIKitE5title5image6action5input13modifierFlags12propertyList10alternates20discoverabilityTitle10attributes5stateABSS_So7UIImageCSg10ObjectiveC8SelectorVSSSo0a8ModifierI0VypSgSaySo18UICommandAlternateCGSSSgSo23UIMenuElementAttributesVSo0wX5StateVtcfC
++ _$sSo16CNMutableContactC15ConversationKitE6handleABSo8TUHandleC_tcfC
++ _$sSo18NSNotificationNamea15ConversationKitE36MoreMenuRemoteAlertViewCallRecordingABvgZ
++ _$sSo18NSNotificationNamea15ConversationKitE39startCallRecordingCountdownNotificationABvgZ
++ _$sSo18NSNotificationNamea15ConversationKitE41MoreMenuRemoteAlertViewPresentContactCardABvgZ
++ _$sSo18NSNotificationNamea15ConversationKitE44MoreMenuRemoteAlertViewPresentAddParticipantABvgZ
++ _$sSo18NSNotificationNamea15ConversationKitE44startCallRecordingStateCancelledNotificationABvgZ
++ _$sSo20NSNotificationCenterC10FoundationE13NotificationsC17makeAsyncIteratorAE0G0VyF
++ _$sSo6TUCallC15ConversationKitE9basicCall20CommunicationsUICore05BasicE0_pvg
++ _$sSo6TUCallC24FaceTimeNotificationCore7FTNCallACWP
++ _$sSo6TUCallC24FaceTimeNotificationCoreE8contactsSaySo9CNContactCGvg
++ _$sSo6UIMenuC5UIKitE5title8subtitle5image10identifier7options20preferredElementSize8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSo0aiJ0VSaySo0aI0CGtcfC
++ _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
++ _$sSo8NSNumberC10FoundationE14booleanLiteralABSb_tcfC
++ _$sSo8UIActionC5UIKitE5title8subtitle5image13selectedImage10identifier20discoverabilityTitle10attributes5state7handlerABSS_SSSgSo7UIImageCSgAPSo0A10IdentifieraSgAMSo23UIMenuElementAttributesVSo0pQ5StateVyABctcfC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV12_tintedGlassAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV5plainAEyFZ
++ _$sSo9NSRunLoopC7Combine9Scheduler10FoundationMc
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
++ _$ss10__CocoaSetV10startIndexAB0D0Vvg
++ _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
++ _$ss10__CocoaSetV5IndexV2eeoiySbAD_ADtFZ
++ _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
++ _$ss10__CocoaSetV5IndexV7elementyXlvg
++ _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
++ _$ss10__CocoaSetV8endIndexAB0D0Vvg
++ _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss13ManagedBufferCMn
++ _$ss17__CocoaDictionaryV5countSivg
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss6UInt16VMn
++ _$ss6UInt32VMn
++ _NSDirectionalEdgeInsetsZero
++ _OBJC_CLASS_$_AudioAccessoryAssetManagementClient
++ _OBJC_CLASS_$_BNBannerSource
++ _OBJC_CLASS_$_CDSearchUtilities
++ _OBJC_CLASS_$_CNKFaceTimeAvailabilityHelper
++ _OBJC_CLASS_$_CNKGameControllerManager
++ _OBJC_CLASS_$_CNKWaitOnHoldViewComposerFactory
++ _OBJC_CLASS_$_DialerController
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OBJC_CLASS_$_NSTextEncapsulation
++ _OBJC_CLASS_$_PHAbstractDialerView
++ _OBJC_CLASS_$_PHAmbientButtonPart
++ _OBJC_CLASS_$_PHBottomBarButton
++ _OBJC_CLASS_$_PHBottomBarButtonConfiguration
++ _OBJC_CLASS_$_PHDevice
++ _OBJC_CLASS_$_PHHandsetDialerLCDView
++ _OBJC_CLASS_$_PHHandsetDialerView
++ _OBJC_CLASS_$_PHInCallUIUtilities
++ _OBJC_CLASS_$_PHNumberPadKeyCommandHandler
++ _OBJC_CLASS_$_PHRoundView
++ _OBJC_CLASS_$_PHTextCycleLabel
++ _OBJC_CLASS_$_PHUIConfiguration
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$_SBSRemoteAlertActivationContext
++ _OBJC_CLASS_$_SBSRemoteAlertConfigurationContext
++ _OBJC_CLASS_$_SBSRemoteAlertDefinition
++ _OBJC_CLASS_$_SBSRemoteAlertHandle
++ _OBJC_CLASS_$_SBSUIRemoteAlertScene
++ _OBJC_CLASS_$_SCAParticipant
++ _OBJC_CLASS_$_SCAnalysisHistory
++ _OBJC_CLASS_$_SCSensitivityAnalysis
++ _OBJC_CLASS_$_SiriTTSDaemonSession
++ _OBJC_CLASS_$_SiriTTSSpeechRequest
++ _OBJC_CLASS_$_SiriTTSSynthesisVoice
++ _OBJC_CLASS_$_TUCallTranslationRequestConfiguration
++ _OBJC_CLASS_$_TUConversationMember
++ _OBJC_CLASS_$_TUIDSLookupManager
++ _OBJC_CLASS_$_UIMenuElement
++ _OBJC_CLASS_$_UIMenuSystem
++ _OBJC_METACLASS_$_PHAbstractDialerView
++ _OBJC_METACLASS_$_PHBottomBarButton
++ _OBJC_METACLASS_$_PHHandsetDialerLCDView
++ _OBJC_METACLASS_$_PHHandsetDialerView
++ _PHDeviceSupportsDualSim
++ _PHGetEmergencyDialerPresenceTokenValue
++ _PHIncrementWifiCallingAlertShowCount
++ _PHIsInAirplaneMode
++ _PHLaunchFieldTestApplicationIfNecessaryForDestinationID
++ _PHLockScreenStatusChangedNotification
++ _PHPreferencesGetValue
++ _PHPreferencesGetValueInDomain
++ _PHPreferencesSetValueInDomain
++ _PHSendMessageIntentType
++ _PHSetEmergencyDialerPresenceTokenValue
++ _PHShouldAttemptCallWithDialRequest
++ _PHShouldAttemptFaceTimeCall
++ _PHShouldShowWifiCallingAlert
++ _PHStringShouldAutoDialGivenLastCharacter
++ _PHUIInCallControlAlignmentIs
++ _STBackgroundActivityIdentifierInCallRecording
++ _TUCallAnsweringMachineStreamTokenChangedNotification
++ _TUCallCenterReceptionistSessionChangedNotification
++ _TUCallCenterReceptionistStateChangedNotification
++ _TUCallIsSharePlayCapableChangedNotification
++ _TUCallSmartHoldingSessionChangedNotification
++ _TUCallTranslationAvailabilityChangedNotification
++ _TUNormalizedHandleForTUHandle
++ _TUReceptionistAvailable
++ _UIContentSizeCategoryExtraSmall
++ _UIContentSizeCategorySmall
++ _UILayoutFittingCompressedSize
++ _UIMenuBringAllToFront
++ _UIMenuClose
++ _UIMenuEdit
++ _UIMenuFile
++ _UIMenuFind
++ _UIMenuFormat
++ _UIMenuMinimizeAndZoom
++ _UIMenuSpeech
++ _UIMenuSpelling
++ _UIMenuSpellingPanel
++ _UIMenuStandardEdit
++ _UIMenuSubstitutions
++ _UIMenuTransformations
++ _UIMenuView
++ _UISceneDidDisconnectNotification
++ __UIEnhancedMainMenuEnabled
++ __UISolariumEnabled
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _swift_coroFrameAlloc
++ _swift_getExistentialTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_isUniquelyReferenced_native
++ _swift_stdlib_isStackAllocationSafe
+- OBJC_IVAR_$_TPPhonePad._bottomHeight
+- OBJC_IVAR_$_TPPhonePad._leftWidth
+- OBJC_IVAR_$_TPPhonePad._midHeight
+- OBJC_IVAR_$_TPPhonePad._midWidth
+- OBJC_IVAR_$_TPPhonePad._rightWidth
+- OBJC_IVAR_$_TPPhonePad._topHeight
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV04FontB0OMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0Ovg
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0OvpMV
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesVMn
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s10Foundation20PersonNameComponentsV19_bridgeToObjectiveCSo08NSPersoncD0CyF
+- _$s10Foundation20PersonNameComponentsV36_unconditionallyBridgeFromObjectiveCyACSo08NSPersoncD0CSgFZ
+- _$s10Foundation20PersonNameComponentsVMa
+- _$s10Foundation20PersonNameComponentsVMn
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
+- _$s10Foundation22AttributeDynamicLookupOMn
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10Foundation8IndexSetV36_unconditionallyBridgeFromObjectiveCyACSo07NSIndexC0CSgFZ
+- _$s10Foundation8IndexSetVMa
+- _$s10Foundation8IndexSetVMn
+- _$s11TelephonyUI9TaskQueueC8priorityACScP_tcfC
+- _$s15ConversationKit19ClarityUIKeypadViewVMa
+- _$s15ConversationKit22PhoneLockStateObserverC6listen4withypySbScMYcc_tF
+- _$s15ConversationKit22PhoneLockStateObserverC6sharedACvgZ
+- _$s15ConversationKit22PhoneLockStateObserverCMa
+- _$s15ConversationKit27LockScreenHostingControllerC8rootViewACyxGx_tcfc
+- _$s15ConversationKit27LockScreenHostingControllerCMn
+- _$s15ConversationKit28AnsweringMachineSyncComposerC7compose23isInSupportedEnvirement17timeToWaitForCallSo012CNKAnsweringD0_pSbyScMYcc_AA04TimemnoP0OSo6TUCallCYbScMYcctFTj
+- _$s15ConversationKit33CallRecordingButtonViewControllerCyACSS_So06TUCallD12AvailabilityVSo0hD5StateVSgtcfc
+- _$s15ConversationKit8FeaturesC15isDominoEnabledSbvgTj
+- _$s15ConversationKit8FeaturesC21isButtonLayoutEnabledSbvgTj
+- _$s15ConversationKit8FeaturesC26isEnhancedEmergencyEnabledSbvgTj
+- _$s15ConversationKit8FeaturesC28fullScreenOutgoingFTAEnabledSbvgTj
+- _$s15ConversationKit8FeaturesC40showTranscriptWithoutConfidenceFilteringSbvgTj
+- _$s16CommunicationsUI09AudioCallC16ControlViewModelC7serviceAcA0cE15ServiceProtocol_p_tcfc
+- _$s16CommunicationsUI10AudioRouteV10isReceiver0E9Auxiliary16uniqueIdentifier5label16routeSystemImage06buttonlM0ACSb_SbS2SAA0lM0VAKtcfC
+- _$s16CommunicationsUI10AudioRouteV10isReceiverSbvg
+- _$s16CommunicationsUI10AudioRouteV16uniqueIdentifierSSvg
+- _$s16CommunicationsUI10AudioRouteVMa
+- _$s16CommunicationsUI10AudioRouteVMn
+- _$s16CommunicationsUI10AudioRouteVSQAAMc
+- _$s16CommunicationsUI11SystemImageV10airPodsProACvgZ
+- _$s16CommunicationsUI11SystemImageV15beatsHeadphonesACvgZ
+- _$s16CommunicationsUI11SystemImageV6iPhoneACvgZ
+- _$s16CommunicationsUI11SystemImageV6laptopACvgZ
+- _$s16CommunicationsUI11SystemImageV7speakerACvgZ
+- _$s16CommunicationsUI14AudioCallModelC15backgroundStateAA010BackgroundG0OSgvsTj
+- _$s16CommunicationsUI14AudioCallModelC23infoButtonConfigurationAA04InfogH0VSgvsTj
+- _$s16CommunicationsUI14AudioCallModelC23participantDetailsStateAA011ParticipantgH0OSgvsTj
+- _$s16CommunicationsUI15BackgroundStateO5imageyAC05SwiftB05ImageV_SbtcACmFWC
+- _$s16CommunicationsUI15BackgroundStateO8gradientyACSay05SwiftB05ColorVGcACmFWC
+- _$s16CommunicationsUI15BackgroundStateOMa
+- _$s16CommunicationsUI15BackgroundStateOMn
+- _$s16CommunicationsUI18ParticipantDetailsC6status5label010additionalD0ACSS_SS4text_Sb11isSecondarytSSSgtcfc
+- _$s16CommunicationsUI18ParticipantDetailsCMa
+- _$s16CommunicationsUI22BackgroundGradientViewV04greyD0Say05SwiftB05ColorVGvgZ
+- _$s16CommunicationsUI23InfoButtonConfigurationV5color6actionAC05SwiftB05ColorV_yyctcfC
+- _$s16CommunicationsUI23InfoButtonConfigurationVMa
+- _$s16CommunicationsUI23InfoButtonConfigurationVMn
+- _$s16CommunicationsUI27AudioControlServiceProtocolMp
+- _$s16CommunicationsUI27AudioControlServiceProtocolP07currentC14RoutePublisher7Combine19CurrentValueSubjectCyAA0cH0Vs5NeverOGvgTq
+- _$s16CommunicationsUI27AudioControlServiceProtocolP20audioRoutesPublisher7Combine19CurrentValueSubjectCySayAA0C5RouteVGs5NeverOGvgTq
+- _$s16CommunicationsUI27AudioControlServiceProtocolPAA011DisableabledE0Tb
+- _$s18ActivityUIServices0A12SceneMetricsCN
+- _$s5SOSUI16SOSUIWebRTCStateC12cameraFacingAA0b9RTCCameraE0OvpWvd
+- _$s5SOSUI16SOSUIWebRTCStateC5errorAA0B15RTCErrorMessageCSgvpWvd
+- _$s5SOSUI16SOSUIWebRTCStateC5stateAA0bC4NameOvpWvd
+- _$s5SOSUI16SOSUIWebRTCStateC9zoomLevelSdvpWvd
+- _$s5SOSUI23SOSUIWebRTCErrorMessageC9errorCodeSivpWvd
+- _$s5SOSUI23SOSUIWebRTCErrorMessageC9retryableSbvpWvd
+- _$s5SOSUI23SOSUIWebtRTCDoubleRangeC3maxSdvpWvd
+- _$s5SOSUI23SOSUIWebtRTCDoubleRangeC3minSdvpWvd
+- _$s5SOSUI24SOSUIWebtRTCCapabilitiesC4zoomAA0B14RTCDoubleRangeCSgvpWvd
+- _$s5SOSUI25SOSUIWebRTCQualityMessageC10packetLossSdSgvpWvd
+- _$s5SOSUI25SOSUIWebRTCQualityMessageC15framesPerSecondSdSgvpWvd
+- _$s5SOSUI25SOSUIWebRTCQualityMessageC6jitterSdSgvpWvd
+- _$s5SOSUI25SOSUIWebRTCQualityMessageC7bitrateSdSgvpWvd
+- _$s5SOSUI25SOSUIWebRTCQualityMessageC9bytesSentSdSgvpWvd
+- _$sSH9hashValueSivgTj
+- _$sScG17makeAsyncIteratorScG0C0Vyx_GyF
+- _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaF
+- _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
+- _$sScG8IteratorVMn
+- _$sScG9cancelAllyyF
+- _$sScP4highScPvgZ
+- _$sScT14CopresenceCores5Error_pRs_rlE8priority7timeout9operationScTyxsAB_pGScPSg_s8DurationVxyYaYbKctcfC
+- _$sSd10FoundationE10truncatingSdSo8NSNumberCh_tcfC
+- _$sSo21UIContentSizeCategorya5UIKitE015isAccessibilityC0Sbvg
+- _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
+- _$ss10AnyKeyPathCSHsWP
+- _$ss10AnyKeyPathCSQsWP
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss8DurationV7secondsyABSdFZ
+- _CATransform3DIdentity
+- _CFBooleanGetValue
+- _CFPreferencesCopyValue
+- _CFPreferencesSetValue
+- _CFPreferencesSynchronize
+- _CFStringAppendCharacters
+- _CFStringCreateMutable
+- _CFStringGetCStringPtr
+- _CFStringGetCharacters
+- _CFStringGetCharactersPtr
+- _CFStringGetLength
+- _CGAffineTransformMakeRotation
+- _CNContactDepartmentNameKey
+- _CNContactIdentifierKey
+- _CNContactInstantMessageAddressesKey
+- _CNContactJobTitleKey
+- _CNContactNoteKey
+- _CNContactRelationsKey
+- _CNContactSocialProfilesKey
+- _CNContactUrlAddressesKey
+- _CTDTMFPlayStop
+- _CTSettingCopyMyPhoneNumber
+- _CTTelephonyCenterAddObserver
+- _CTTelephonyCenterGetDefault
+- _CTTelephonyCenterRemoveEveryObserver
+- _FBSDisplayLayoutElementLockScreenIdentifier
+- _IDSRegistrationPropertySupportsModernGFT
+- _IDSServiceNameFaceTime
+- _IDSServiceNameFaceTimeMulti
+- _IDSServiceNameQuickRelayFaceTime
+- _MGCopyAnswerWithError
+- _MGGetStringAnswer
+- _MKBGetDeviceLockState
+- _NSClassFromString
+- _NSExtensionContainingAppName
+- _NSStringTransformStripDiacritics
+- _OBJC_CLASS_$_CADisplay
+- _OBJC_CLASS_$_CNContactFetchRequest
+- _OBJC_CLASS_$_CTBundle
+- _OBJC_CLASS_$_FBSOrientationObserver
+- _OBJC_CLASS_$_HKMedicalIDViewController
+- _OBJC_CLASS_$_IDSIDQueryController
+- _OBJC_CLASS_$_IDSURI
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSMutableIndexSet
+- _OBJC_CLASS_$_NSPersonNameComponentsFormatter
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_TPPhonePad
+- _OBJC_CLASS_$_TPPillView
+- _OBJC_CLASS_$_TUCallHistoryController
+- _OBJC_CLASS_$_UIMenuController
+- _OBJC_CLASS_$_UIPasteboard
+- _OBJC_CLASS_$_UITextField
+- _OBJC_CLASS_$_VSSpeechRequest
+- _OBJC_CLASS_$_VSSpeechSynthesizer
+- _OBJC_METACLASS_$_HKMedicalIDViewController
+- _OBJC_METACLASS_$_TPPhonePad
+- _OBJC_METACLASS_$_UILabel
+- _OBJC_METACLASS_$_UITextField
+- _PNCreateFormattedStringWithCountry
+- _PNIsValidPhoneNumberForCountry
+- _TUCopyIDSCanonicalAddressForHandle
+- _UIApplicationDidEnterBackgroundNotification
+- _UIApplicationWillEnterForegroundNotification
+- _UIContentSizeCategoryDidChangeNotification
+- _UIContentSizeCategoryNewValueKey
+- _UIFormattedPhoneStringByRemovingFromEnd
+- _UIMenuAutoFill
+- _UIMenuControllerDidHideMenuNotification
+- _UIPhonePrefixFromNumber
+- _UITextFieldTextDidChangeNotification
+- __PNCopyFormattedNumberSuggestionForDigitsWithCountry
+- ___NSDictionary0__struct
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _dispatch_barrier_async
+- _kCAMediaTimingFunctionEaseInEaseOut
+- _kCFPreferencesCurrentHost
+- _kCFPreferencesCurrentUser
+- _kCTSIMSupportSIMNewInsertionNotification
+- _objc_release_x2
+- _objc_retain_x6
+- _u_getNumericValue
+CStrings:
++ "\t"
++ "\v"
++ "$"
++ "$__lazy_storage_$_backgroundEffectView"
++ "$__lazy_storage_$_bannerSource"
++ "$__lazy_storage_$_button"
++ "$__lazy_storage_$_inputLabel"
++ "$__lazy_storage_$_keypad"
++ "$__lazy_storage_$_languageSelectionView"
++ "$__lazy_storage_$_languageViewModel"
++ "$__lazy_storage_$_numberFormatter"
++ "%s: Setting messages as read %s"
++ "%s: Updating Messages with read: %s"
++ "%s: failed to stop hold detection after tip was closed"
++ "%s: should display %{bool}d"
++ "%s: should display from iPad %{bool}d"
++ "'%@', translateToLocale: %@, translateFromLocale: %@"
++ "(disconnectedCall.contactIdentifiers.count: %lu && \n\n !(disconnectedCall.isOutgoing: %d && disconnectedCall.dateConnected: %@) && \n\n disconnectedCall.provider.isFaceTimeProvider: %d \n\n [[FTDeviceSupport sharedInstance] isGreenTea]) : %d"
++ "... to %{bool}d"
++ ".estimatedVoicemailCount"
++ "@"
++ "@\"<BNPresentableContext>\"16@0:8"
++ "@\"<CNKWaitOnHoldServiceProvider>\""
++ "@\"<PHAudioButtonsViewControllerProtocol>\""
++ "@\"<PHAudioButtonsViewControllerProtocolDelegate>\"16@0:8"
++ "@\"<PHAudioCallLayoutGuidesProvider>\""
++ "@\"<PHAudioCallViewControllerProtocol>\""
++ "@\"<PHInCallRootViewControllerProtocol>\"16@0:8"
++ "@\"CNKFaceTimeAvailabilityHelper\""
++ "@\"CNKGameControllerContext\""
++ "@\"CNKWaitOnHoldViewComposerFactory\""
++ "@\"NSArray\"16@?0@\"NSArray\"8"
++ "@\"NSArray\"32@0:8@\"PHCarPlayPhoneCallContainer\"16Q24"
++ "@\"PHAudioCallIcon\"24@0:8Q16"
++ "@\"PHCallTranslationController\""
++ "@\"PHCallsKeypadViewController\""
++ "@\"SiriTTSDaemonSession\""
++ "@\"SiriTTSSpeechRequest\""
++ "@\"UIImage\"32@0:8@\"UIImage\"16d24"
++ "@\"UILayoutGuide\"16@0:8"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UIView\"16@0:8"
++ "@\"_TtC13InCallService34SmartHoldingTipsCoreAnalyticsEvent\""
++ "@\"_TtC13InCallService37iPadBackgroundFloatingViewsController\""
++ "@32@0:8q16B24B28"
++ "@40@0:8@16@24d32"
++ "@60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16i48q52"
++ "Aborting join request after intervention"
++ "Activating InCallService user interface for background call with initially PiPped"
++ "Adding people to conversation on active call."
++ "After setting middleViewState to wait on hold, six-up view is: %@, six-up view alpha is: %f, six-up view parent view is: %@"
++ "Alert completed."
++ "Alert deactivate"
++ "Alert disappear"
++ "Alert has already finished. %s"
++ "Alert shows error. %s"
++ "Allow to call."
++ "Analytics: %s"
++ "Answering screened call with live reply: %@"
++ "B32@0:8{CGSize=dd}16"
++ "BNHostedContentProviding"
++ "BNPresentable"
++ "BNPresentableIdentifying"
++ "BNPresentableObserving"
++ "Banner button game controller context updated"
++ "CALL_TRANSLATION_CHOOSE_ACTION"
++ "CALL_TRANSLATION_DEFAULT_ACTION_%@"
++ "CALL_TRANSLATION_DOWNLOAD_ACTION_%@"
++ "CALL_TRANSLATION_DOWNLOAD_CONTEXT"
++ "CALL_TRANSLATION_PROMPT_DOWNLOAD_MESSAGE_%@"
++ "CALL_TRANSLATION_PROMPT_MESSAGE_%@"
++ "CALL_TRANSLATION_TRANSLATION_ACTION"
++ "CARPLAY_FACETIME_GET_READY_TO_JOIN"
++ "CARPLAY_FACETIME_WAITING"
++ "CNKGameControllerResponder"
++ "CachedVoicemailManager.Cache.init(voicemails:) with duplicate keys: %s, voicemails: %s"
++ "CachedVoicemailManager.Cache.init(voicemails:) without duplicate keys"
++ "CachedVoicemailManager: %s"
++ "CachedVoicemailManager: %s inside of a task"
++ "CachedVoicemailManager: %s returning cache from a task"
++ "CachedVoicemailManager: %s returning voicemails"
++ "CachedVoicemailmanager: Told to update message but no message was found with id: %s"
++ "Canceling disk update because newer updates were received"
++ "CarPlayBannerManager: Banner Source failed to post banner, error: %s"
++ "CarPlayBannerManager: CarPlay did connect"
++ "CarPlayBannerManager: CarPlay did disconnect"
++ "CarPlayBannerManager: Unable to obtain banner source"
++ "CarPlayBannerManager: Unable to revoke presentable, error: %s"
++ "Changing toggleMute from %{bool}d"
++ "Could not find TUCall to mute, so we're not muting anything"
++ "Create translation controller"
++ "DefaultApp: Can't change default app so behaving as if Messages is the default"
++ "DefaultApp: Can't find application record for domain com.apple.MobileSMS, error %@. Has Messages been uninstalled?"
++ "DefaultApp: Got App workspace isMessagesTheDefault %@"
++ "Device is iPad with _UIEnhancedMainMenuEnabled, now building menu bar for ICS"
++ "Device is not iPad with _UIEnhancedMainMenuEnabled, so we're not building menu bar for ICS"
++ "Dial request UI prompt alert returned dial=%ld"
++ "Dismiss peoplePicker"
++ "EnhancedEmergency: Setting zoom level from pinch, current zoom level is %f, next zoom level is %f"
++ "EnhancedEmergency: going to create PHEnhancedEmergencyCoordinator from callIsEmergencyChangedNotification from iPadAudioCallViewController: %@"
++ "EnhancedEmergency: going to create PHEnhancedEmergencyCoordinator from initing iPadAudioCallViewController: %@"
++ "EnhancedEmergency: going to create PHEnhancedEmergencyCoordinator when call is active from iPadAudioCallViewController: %@"
++ "Error loading FTMessages %@"
++ "FaceTimeVoiceMailManager failed to retrieve message for query %{public}s because the message store threw an error %@"
++ "FaceTimeVoiceMailManager has an unexpected error. %@"
++ "FaceTimeVoicemailManager could not remvoe  UUIDs from cache because they do not exist: %s"
++ "FaceTimeVoicemailManager did remove: %s"
++ "FaceTimeVoicemailManager failed to delete messages with recordUUIDs %s with error: %@"
++ "FaceTimeVoicemailManager failed to set messages %s as deleted with error: %@"
++ "FaceTimeVoicemailManager failed to set messages %s as read with error: %@"
++ "FaceTimeVoicemailManager failed to set messages %s as undeleted with error: %@"
++ "FaceTimeVoicemailManager received the incorrect type %{public}s when it expected a FTMessage"
++ "FaceTimeVoicemailManager: Is notifying listeners of messageChanges: %s"
++ "Failed to present contact card: Theres no ViewController"
++ "Failed to present contact card: multiple contact identifiers"
++ "Failed to present contact card: no frontmost call"
++ "Failed to present contact card: no handle"
++ "Failed to start observing tips due to %@"
++ "Failed to update cache on Disk with: %@"
++ "Fetched %{public}ld message(s) from FTMS"
++ "Fetching Messages from FTMS"
++ "Game overlay opened"
++ "HeightOfCallScreeningButton"
++ "Hold Assist: The user has confirmed they want stop hold assist and take the new call."
++ "Hold Assist: The user has confirmed they want to decline the second incoming call and keep holding with hold assist enabled."
++ "Ignore translation call update for the same call."
++ "InCallService.AudioCallIcon"
++ "InCallService.CachedVoicemailManager"
++ "InCallService.CallTranslationController"
++ "InCallService.CombineSubscriptions"
++ "InCallService.GlassCutoutCirclesOverlayViewController"
++ "InCallService.InCallAudioButtonsViewController"
++ "InCallService.IncomingCallBanner"
++ "InCallService.LayoutGuidesProvider"
++ "InCallService.RemoteAlertHandler"
++ "InCallService.RemoteAlertHostingViewController"
++ "InCallService.Subscriptions"
++ "InCallService/GlassCutoutCirclesOverlayViewController.swift"
++ "InCallService/InCallAudioButtonsViewController.swift"
++ "InCallService/IncomingCallBanner.swift"
++ "InCallService/RemoteAlertHostingViewController.swift"
++ "InCallService10"
++ "InCallService11"
++ "InCallService12"
++ "InCallService13"
++ "InCallService14"
++ "InCallService15"
++ "InCallService16"
++ "InCallService17"
++ "InCallService18"
++ "InCallService8"
++ "InCallService9"
++ "IncomingCallCarPlay"
++ "IncomingCallCarPlay-"
++ "LVMEverywhere"
++ "Let me in request state changed for conversation"
++ "Loading FTMessages gave us %{public}ld message(s)."
++ "MORE_MENU"
++ "Made items for audio output menu: %s"
++ "MessageStoreDelegate called with nil manager"
++ "Messages app not installed or default, trying to open default messaging app"
++ "MoreMenuRemoteAlertViewCallRecordingNotification"
++ "MoreMenuRemoteAlertViewPresentAddParticipantNotification"
++ "MoreMenuRemoteAlertViewPresentContactCardNotification"
++ "No dial request after intervention"
++ "No dial request from URL %@"
++ "No handle in dial request %s"
++ "Not able to create intervention requst. %s"
++ "Not able to detect sensitive content. continue with calling."
++ "Not able to fetch analysis results. %s"
++ "Not able to find alert handle."
++ "Not able to find alert scene."
++ "Not able to request screening scene. No Screening Calls."
++ "Not able to wait for scene to disconnect."
++ "Not allow to call."
++ "Not performing live reply with device locked."
++ "Not requesting scene for live voicemail"
++ "PHAudioButtonsViewControllerProtocol"
++ "PHAudioButtonsViewControllerProtocolDelegate"
++ "PHAudioCallIcon"
++ "PHAudioCallLayoutGuidesProvider"
++ "PHAudioCallViewController: requested more menu presentation"
++ "PHAudioCallViewControllerDismissalAssertionPresentingBlockFlow"
++ "PHAudioCallViewControllerProtocol"
++ "PHBannerButtonsViewGameControllerContext"
++ "PHBottomBarActionTypeCallScreeningMore"
++ "PHBottomBarActionTypeGameControllerActivate"
++ "PHBottomBarActionTypeSendToLiveReply"
++ "PHBottomBarActionTypeWaitOnHoldPickUp"
++ "PHBottomBarGameControllerContext"
++ "PHCallTranslationController"
++ "PHCallsKeypadViewController"
++ "PHCarPlayInCallButtonTypePlaceCall"
++ "PHCarPlayInCallKeypadView"
++ "PHCarPlayInCallKeypadViewBackButton"
++ "PHCarPlayInCallKeypadViewEndButton"
++ "PHCarPlayInCallUIView"
++ "PHCarPlayIncomingCallBanner"
++ "PHCarPlayPhoneCallViewCellIdentitySource"
++ "PHCarPlayPhoneCallViewCellSubtitle"
++ "PHCarPlayPhoneCallViewCellTitle"
++ "PHGlassCutoutCirclesOverlayViewController"
++ "PHInCallAudioButtonsBuilder"
++ "PHInCallAudioButtonsViewController"
++ "PHInCallNumberIPadPadButton"
++ "PROVIDER_%@_AUDIO"
++ "PROVIDER_%@_VIDEO"
++ "Poster type: %s"
++ "Present intervention alert"
++ "Requesting Wait on Hold banner presentation"
++ "SBSRemoteAlertHandleObserver"
++ "SBSUIInCallTransitionAnalyticsSourceGameControllerManager"
++ "SBSUIRemoteAlertSceneDelegate"
++ "SNAP: CallHoldingButton prefers white text = %d"
++ "STOP_AND_BLOCK_UNKNOWN_CALLER_ALERT_ACTION_BLOCK"
++ "STOP_AND_BLOCK_UNKNOWN_CALLER_ALERT_ACTION_STOP"
++ "STOP_OR_BLOCK_UNKNOWN_CALLER_ALERT_TITLE"
++ "SWAP_LABEL"
++ "Screening request completed %@"
++ "Setting image glyph: %@ on button"
++ "Setting menu bar title with app name %s"
++ "Setting view: %@ on button"
++ "Show remote alert error %s"
++ "Showing Remote Alert"
++ "Skip requesting screening scene. Already have a scene."
++ "Skipping SpringBoard remote alert as call requested to launchInBackground"
++ "Solarium"
++ "Starting updateiPadMenuBarApplicationName"
++ "SwiftUI"
++ "T@\"<BNPresentableContext>\",?,W,N"
++ "T@\"<CNKWaitOnHoldServiceProvider>\",&,N,V_waitOnHoldService"
++ "T@\"<PHAudioButtonsViewControllerProtocol>\",&,N,V_buttonsViewController"
++ "T@\"<PHAudioButtonsViewControllerProtocolDelegate>\",&,N"
++ "T@\"<PHAudioButtonsViewControllerProtocolDelegate>\",N,&"
++ "T@\"<PHAudioButtonsViewControllerProtocolDelegate>\",N,W,Vdelegate"
++ "T@\"<PHAudioCallLayoutGuidesProvider>\",&,N,V_layoutGuidesProvider"
++ "T@\"<PHAudioCallLayoutGuidesProvider>\",N,W,VlayoutGuidesProvider"
++ "T@\"<PHAudioCallViewControllerProtocol>\",&,N,V_audioCallViewController"
++ "T@\"<PHInCallRootViewControllerProtocol>\",W,N"
++ "T@\"<_TtP13InCallService33CallTranslationControllerDelegate_>\",N,W,VhostingDelegate"
++ "T@\"CNKFaceTimeAvailabilityHelper\",&,N,V_faceTimeAvailabilityHelper"
++ "T@\"CNKGameControllerContext\",&,N,V_gameControllerContext"
++ "T@\"CNKWaitOnHoldViewComposerFactory\",&,N,V_waitOnHoldViewControllerFactory"
++ "T@\"FTConstraintsToggle\",&,N,V_waitOnHoldConstraints"
++ "T@\"NSArray\",&,N,V_stacks"
++ "T@\"NSArray\",&,V_middlePillContainerLayoutConstraints"
++ "T@\"NSArray\",&,V_waitOnHoldTipViewLayoutConstraints"
++ "T@\"NSArray\",R,N,V_contacts"
++ "T@\"NSLayoutConstraint\",&,N,V_translationLayoutBottomConstraint"
++ "T@\"NSLayoutConstraint\",&,V_callHoldingLeadingConstraint"
++ "T@\"NSLayoutConstraint\",&,V_participantsViewWidthConstraint"
++ "T@\"NSLayoutConstraint\",&,V_secondaryInfoLabelLeadingConstraint"
++ "T@\"NSMutableDictionary\",&,N,V_viewControllersDict"
++ "T@\"NSObject\",&,N,V_callRecordingCancellables"
++ "T@\"NSObject\",&,N,V_callStatusCancellable"
++ "T@\"NSObject\",&,N,V_callStatusTextObserver"
++ "T@\"NSObject\",&,N,V_middleStackViewPriorityManagerHolder"
++ "T@\"NSObject\",&,N,V_posterTypeCancellable"
++ "T@\"NSObject\",&,N,V_prioritizedCallObserver"
++ "T@\"NSSet\",?,R,C,N"
++ "T@\"NSString\",&,N,V_callUUIDForWaitOnHoldPresentation"
++ "T@\"PHCallTranslationController\",&,N,V_translationController"
++ "T@\"PHCallsKeypadViewController\",&,N,V_keypadViewController"
++ "T@\"PHPosterNameViewModel\",&,N,V_detachedPosterNameViewModel"
++ "T@\"SiriTTSDaemonSession\",&,N,V_speechSynthesizer"
++ "T@\"SiriTTSSpeechRequest\",&,N,V_speechRequest"
++ "T@\"TUCall\",&,N"
++ "T@\"TUCall\",&,N,V_existingPrioritizedCall"
++ "T@\"TUCall\",N,&"
++ "T@\"TUCall\",N,&,VprioritizedCall"
++ "T@\"TUCallCenter\",N,R"
++ "T@\"UIButton\",&,V_swapButton"
++ "T@\"UIImage\",N,R,ViconImage"
++ "T@\"UILabel\",&,V_sourceLabel"
++ "T@\"UILayoutGuide\",&,N,V_posterSaliencyRectLayoutGuide"
++ "T@\"UILayoutGuide\",&,N,V_translationLayoutGuide"
++ "T@\"UILayoutGuide\",N,R"
++ "T@\"UIMenu\",N,R"
++ "T@\"UIStackView\",&,N,V_buttonStackView"
++ "T@\"UIStackView\",&,N,V_middlePillContainer"
++ "T@\"UIStackView\",&,N,V_supplementalButtonsStackView"
++ "T@\"UIStackView\",&,N,V_topLeadingContainer"
++ "T@\"UIView\",&,N,V_bottomShelfContainer"
++ "T@\"UIView\",&,N,V_controlView"
++ "T@\"UIView\",&,N,V_defaultNoPosterAvatarView"
++ "T@\"UIView\",&,N,V_dimmingView"
++ "T@\"UIView\",&,N,V_glassDimmingView"
++ "T@\"UIView\",&,N,V_glassView"
++ "T@\"UIView\",&,N,V_screenSharingIndicatorView"
++ "T@\"UIView\",&,N,V_waitOnHoldTipView"
++ "T@\"UIView\",N,R"
++ "T@\"UIView\",N,R,VbackgroundContainer"
++ "T@\"UIView\",N,R,ViconView"
++ "T@\"UIView\",R,N"
++ "T@\"UIView\",W,N,V_middleContentView"
++ "T@\"UIViewController\",&,N,SsetPosterViewController:,V_posterViewController"
++ "T@\"UIViewController\",&,N,V_callHoldingButtonViewController"
++ "T@\"UIViewController\",&,N,V_callRecordingIndicatorViewController"
++ "T@\"UIViewController\",&,N,V_currentChildAudioViewController"
++ "T@\"UIViewController\",&,N,V_waitOnHoldViewController"
++ "T@\"UIViewController\",?,R,N"
++ "T@\"UIViewController\",N,R"
++ "T@\"UIViewController\",R,N,V_screeningBackgroundViewController"
++ "T@\"UIVisualEffectView\",&,N,V_backgroundBlurView"
++ "T@\"UIVisualEffectView\",&,N,V_trailingPanelCoveringView"
++ "T@\"UIVisualEffectView\",&,N,V_translationBackgroundView"
++ "T@\"UIWindow\",N,R"
++ "T@\"_TtC13InCallService20CarPlayBannerManager\",N,R"
++ "T@\"_TtC13InCallService34SmartHoldingTipsCoreAnalyticsEvent\",&,V_smartHoldingAnalytics"
++ "T@\"_TtC13InCallService37iPadBackgroundFloatingViewsController\",&,N,V_backgroundController"
++ "T@\"_TtC15ConversationKit23CallRecordingController\",N,&"
++ "T@\"_TtC16CommunicationsUI22SwitchingContainerView\",N,R"
++ "T@,&,N,V_callRecordingController"
++ "T@?,C,N,V_keypadWillDismissHandler"
++ "TB,?,R,N,GisDraggingDismissalEnabled"
++ "TB,?,R,N,GisDraggingInteractionEnabled"
++ "TB,?,R,N,GisTouchOutsideDismissalEnabled"
++ "TB,N,V_isAudioCall"
++ "TB,N,V_isShowingNewTranscriptsView"
++ "TB,N,V_sendToLiveReply"
++ "TB,N,V_shouldIgnoreWaitOnHoldSessionState"
++ "TB,N,V_usesGlass"
++ "TS,R,N,V_middleViewState"
++ "This must be overriden, its a misuse to use this directly without overriding this property"
++ "TipFeedbackLatency"
++ "TipPreviewLatency"
++ "Tq,?,R,N"
++ "Tq,N,V_subviewLayout"
++ "Transition to new poster if needed."
++ "T{CGSize=dd},N,V_rotatedTargetSizeOfParent"
++ "Unable to add remote members, no conversation."
++ "Unable to set image or view on button"
++ "Unable to update poster saliency rect because posterViewController is nil."
++ "Unexpected intervention url: %@"
++ "Unknown intervention requestl. %s"
++ "Update translation with call: %@, display style %@"
++ "Update translation with new call %s."
++ "Updating poster saliency rect with: %s"
++ "User has selected audio output: %s"
++ "User has triggered mute"
++ "VIEWING_YOUR_SCREEN"
++ "VoiceMail rating: We failed to rate becuase we do not support it for FTMessages yet."
++ "VoiceMailAnalyticsLogger: logging core analytics for event of %s with dictionary %s"
++ "VoicemailDelegateDecorator: received subscriptionStateStatusDidChange"
++ "VoicemailDelegateDecorator: received voicemailsDidChange"
++ "Wait for InCall Scene to disconnect."
++ "Window is marked as visible"
++ "[WARN] Displaying WaitOnHold Tip but the keypadViewController was not in the view hierarchy"
++ "[WARN] Setting middlePillContainer constraints but the buttonViewController was not in the view hierarchy"
++ "[WARN] WaitOnHoldViewController was unexpectedly nil, cannot show WaitOnHold middle view state."
++ "[WARN] iPadAudioCallViewController will not handle the hardware button event as the view is not loaded (viewLoaded = %d) or we have no window (window exists = %d)"
++ "[WARN] iPadAudioCallViewController: Could not find available route to pick for speaker disable"
++ "[moveToTrash] Updating messages in FaceTimeVoicemailManager - Updates: %s"
++ "[removeFromTrash] Updating messages in FaceTimeVoicemailManager - Updates: %s"
++ "_FTMSMessageStoreControllerDelegate"
++ "_TtC13InCallService18IncomingCallBanner"
++ "_TtC13InCallService18RemoteAlertHandler"
++ "_TtC13InCallService20CarPlayBannerManager"
++ "_TtC13InCallService20CombineSubscriptions"
++ "_TtC13InCallService21DialInterventionAlert"
++ "_TtC13InCallService21RemoteAlertController"
++ "_TtC13InCallService22CachedVoicemailManager"
++ "_TtC13InCallService24FaceTimeVoicemailManager"
++ "_TtC13InCallService26ScreenSharingIndicatorView"
++ "_TtC13InCallService27ICSRemoteAlertSceneDelegate"
++ "_TtC13InCallService31FTMenuRemoteAlertViewController"
++ "_TtC13InCallService32CallTranslationConfirmationAlert"
++ "_TtC13InCallService32RemoteAlertHostingViewController"
++ "_TtC13InCallService34SmartHoldingTipsCoreAnalyticsEvent"
++ "_TtC13InCallService37iPadBackgroundFloatingViewsController"
++ "_TtC13InCallServiceP33_22DD7D36B791DB91ED677251C840B84113Subscriptions"
++ "_TtC13InCallServiceP33_3A2EB68C5C25FCC9E5BD65EDE8C03F7D20LayoutGuidesProvider"
++ "_TtC13InCallServiceP33_5D9AA20B476DB76FF92BC55EE5B9E59120MessageStoreDelegate"
++ "_TtC13InCallServiceP33_A655600E02A1A289FA0B544F9FA4031611BundleClass"
++ "_TtCC13InCallService22CachedVoicemailManagerP33_2D1F7F6127E125BDD08BA94B619EBD0E5Cache"
++ "_TtCE13InCallServiceCSo25PHAudioCallViewControllerP33_48F893D86A7E1AEE51720FE8DD35F86121WaitOnHoldTipUserInfo"
++ "_TtCE13InCallServiceCSo27iPadAudioCallViewControllerP33_5BF93CD64C154CED3C1E349AABC2D94E21WaitOnHoldTipUserInfo"
++ "_TtP13InCallService33CallTranslationControllerDelegate_"
++ "__swift_objectForKeyedSubscript:"
++ "__swift_setObject:forKeyedSubscript:"
++ "_actionWithTitle:descriptiveText:image:style:handler:shouldDismissHandler:"
++ "_backgroundBlurView"
++ "_backgroundController"
++ "_bottomShelfContainer"
++ "_buttonStackView"
++ "_callHoldingButtonViewController"
++ "_callHoldingLeadingConstraint"
++ "_callRecordingCancellables"
++ "_callRecordingController"
++ "_callRecordingIndicatorViewController"
++ "_callStatusCancellable"
++ "_callStatusTextObserver"
++ "_callUUIDForWaitOnHoldPresentation"
++ "_controlView"
++ "_currentChildAudioViewController"
++ "_dataURL"
++ "_defaultNoPosterAvatarView"
++ "_detachedPosterNameViewModel"
++ "_dimmingView"
++ "_estimatedCount"
++ "_existingPrioritizedCall"
++ "_gameControllerContext"
++ "_glassButtonConfiguration"
++ "_glassDimmingView"
++ "_glassView"
++ "_im_normalizedURIString"
++ "_isAudioCall"
++ "_isShowingNewTranscriptsView"
++ "_keyWindowForScreen:"
++ "_keypadWillDismissHandler"
++ "_layoutGuidesProvider"
++ "_middleContentView"
++ "_middlePillContainer"
++ "_middlePillContainerLayoutConstraints"
++ "_middleStackViewPriorityManagerHolder"
++ "_participantsViewWidthConstraint"
++ "_posterSaliencyRectLayoutGuide"
++ "_posterTypeCancellable"
++ "_posterViewController"
++ "_preferredFontForTextStyle:weight:"
++ "_prioritizedCallObserver"
++ "_rotatedTargetSizeOfParent"
++ "_screenSharingIndicatorView"
++ "_secondaryInfoLabelLeadingConstraint"
++ "_sendToLiveReply"
++ "_setOverrideApplicationName:"
++ "_setTextEncapsulation:"
++ "_shouldIgnoreWaitOnHoldSessionState"
++ "_smartHoldingAnalytics"
++ "_sourceLabel"
++ "_stacks"
++ "_subviewLayout"
++ "_supplementalButtonsStackView"
++ "_swapButton"
++ "_thumbnailURL"
++ "_tintedGlassButtonConfiguration"
++ "_topLeadingContainer"
++ "_trailingPanelCoveringView"
++ "_transcript"
++ "_transcriptData"
++ "_transcriptURL"
++ "_translationBackgroundView"
++ "_translationController"
++ "_translationLayoutBottomConstraint"
++ "_translationLayoutGuide"
++ "_usesGlass"
++ "_viewControllersDict"
++ "_waitOnHoldConstraints"
++ "_waitOnHoldService"
++ "_waitOnHoldTipView"
++ "_waitOnHoldTipViewLayoutConstraints"
++ "_waitOnHoldViewController"
++ "_waitOnHoldViewControllerFactory"
++ "`posterViewController` is not type `PosterViewController`."
++ "accessoryIcon"
++ "accountStorageUsageChanged:storageUsage:"
++ "activateWithContext:"
++ "addBackgroundTintToView:"
++ "addBottomShelfContainerIfNeeded"
++ "addButton:"
++ "addCallHoldingIfNeeded:"
++ "addCallRecordingIfNeededWithButtonContainer:pillContainer:"
++ "addCallRecordingIndicator"
++ "addControl:withControlEvents:onButtonPress:"
++ "addDimmingView"
++ "addHoldingButton:"
++ "addMiddleStackView"
++ "addNoPosterContactImage:"
++ "addRecordingIndicatorWithPillContainer:"
++ "addRemoteMembers:otherInvitedHandles:toConversation:"
++ "addResponder:"
++ "addSubviewsToMiddleStackViewWithView:priority:"
++ "addToBackground:"
++ "addTopLevelMenuVideo:"
++ "alert will show %s"
++ "all"
++ "allCases"
++ "analysesForInterventionOnOutgoingCallToParticipants:callType:completion:"
++ "answeringMachineStreamTokenChanged:"
++ "applyClearGlassBackground"
++ "applyClearGlassBackgroundWithTintColor:"
++ "applyDisabledState"
++ "applyDiscreetRegularGlassBackgroundWithTintColor:"
++ "applyGlassBackground"
++ "applyGlassTrackMask"
++ "applyHighlightedState"
++ "applyNormalState"
++ "applyRegularGlassBackground"
++ "applyRegularGlassBackgroundWithTintColor:"
++ "applySelectedState"
++ "applySmallClearGlassBackground"
++ "applySmallClearGlassBackgroundWithTintColor:"
++ "arrayWithObjects:"
++ "audioCallControlsViewControllerRequestedAddCallPresentation:"
++ "audioCallControlsViewControllerRequestedMoreMenuFromSourceView:"
++ "audioCallTranslationEnabled"
++ "avatarDiameterFullScreen"
++ "backCircleConfig"
++ "backgroundBlurView"
++ "backgroundContainer"
++ "backgroundContentView"
++ "backgroundController"
++ "bannerPresentationManagerGameOverlayDidOpen"
++ "bannerSourceForDestination:forRequesterIdentifier:"
++ "bannerWindow"
++ "beginWaitOnHoldSession"
++ "body"
++ "bottomShelfContainer"
++ "bottomShelfLayoutGuide"
++ "buildDeprecatedSixedUpViewControllerWithCallDisplayManager:"
++ "buildICSMenuBarMenus:"
++ "buildModernSixedUpViewControllerWithCallDisplayManager:frontmostCall:with:"
++ "buttonColorMatrix"
++ "buttonHeightWithoutDefaultPadding"
++ "buttonStackView"
++ "buttonWithConfiguration:primaryAction:"
++ "buttonsConstraintsForIPad"
++ "bypassIntervention"
++ "call status changed"
++ "callDirectoryLabel"
++ "callHoldingButtonViewController"
++ "callHoldingLeadingConstraint"
++ "callIsRecording"
++ "callRecording"
++ "callRecordingAfterFullScreenRequest:"
++ "callRecordingAllowed"
++ "callRecordingCancellables"
++ "callRecordingController"
++ "callRecordingIndicatorViewController"
++ "callStatusCancellable"
++ "callStatusTextObserver"
++ "callTranslationControllerWithShouldAddTranslationViewToHost:"
++ "callTranslationControllerWithShouldRemoveTranslationViewFromHost:"
++ "callUUIDForWaitOnHoldPresentation"
++ "callerDetailsLayoutGuide"
++ "canChangeDefaultAppForCategory:"
++ "canRecord"
++ "cancelWithRequest:"
++ "carPlayBannersEnabled"
++ "carPlayObserver"
++ "chevron.backward"
++ "childSafetyDialIntervention"
++ "children"
++ "clearMenuItemRegistration:"
++ "com.apple.Callservicesd.smartHoldingTipRecommendations"
++ "com.apple.CommunicationUICore"
++ "com.apple.IncallService"
++ "com.apple.facetime.menu.video"
++ "com.apple.liveandvisualvoicemail.newvoicemail"
++ "com.apple.mobileslideshow"
++ "composeWithCall:"
++ "composeWithCall:createTextField:liveReply:"
++ "composeWithCall:createTextField:liveReply:textFieldPadding:"
++ "composeWithCall:waitOnHoldService:"
++ "conferenceCall"
++ "config %@"
++ "configurationForCall:tappedPill:"
++ "configureDeclineWithMoreButton:forIncomingCall:"
++ "constraintBottomShelfContainer"
++ "constraintCallRecordingWithView:"
++ "constraintDefaultNoPosterAvatarView"
++ "constraintWaitOnHoldView:"
++ "constraintsMiddleStackViewToMiddleShelf"
++ "containerView"
++ "contains:"
++ "continueation"
++ "controlView"
++ "controller"
++ "controlsManager"
++ "conversationManager:didChangeConversationAdvertisement:"
++ "conversationManager:localParticipantClusterDidChangeForConversation:"
++ "conversationManager:localParticipantClusterDidChangeForConversation:fromOldConversation:"
++ "conversationManager:nearbySharePlayToggledForConversation:"
++ "conversationManager:nearbySharePlayToggledForConversation:fromOldConversation:"
++ "createAudioCallViewControllerWithCall:"
++ "createDetachedPosterNameViewModel:"
++ "createDimmingView"
++ "createPosterBlurryBackgroundView"
++ "currentAlertController"
++ "currentChildAudioViewController"
++ "currentFloatingView"
++ "currentHandler"
++ "currentLanguage"
++ "currentTask"
++ "currentWorker"
++ "declineMessageMenu"
++ "defaultApplicationForCategory:error:"
++ "defaultIconTintColor"
++ "defaultNoPosterAvatarView"
++ "defaultPhoneControlTypes"
++ "deferredOperationsQueue"
++ "delay dismiss"
++ "detachedPosterNameViewModel"
++ "dialIntervention"
++ "dialLocale"
++ "didFinishSpeakingWithError:"
++ "didStartSpeaking"
++ "dimmingView"
++ "dirtyFolder"
++ "dirtyIsDeleted"
++ "dirtyRead"
++ "disconnectCurrentCallAndActivateHeld"
++ "dismissFloatingView"
++ "dismissHandler"
++ "dismissPeoplePicker"
++ "dismissScreenSharingIndicatorView"
++ "dismissWaitOnHoldTip"
++ "displayContext"
++ "displayEndWaitOnHoldForAnotherCallAlertWithCallerName:completionHandler:"
++ "displayScreenSharingIndicator"
++ "displayScreenSharingIndicatorView"
++ "displayWaitOnHoldTip"
++ "downloadTranslationAssets:useCellular:showDownloadCompleteNotification:completion:"
++ "draggingDidBeginWithGestureProxy:"
++ "draggingDismissalEnabled"
++ "draggingInteractionEnabled"
++ "endRecording"
++ "endWaitOnHoldSession"
++ "existingPrioritizedCall"
++ "fetchColorsForImage:withCompletionHandler:"
++ "find:"
++ "focus"
++ "frontCircleConfig"
++ "gameControllerContext"
++ "gameControllerDidChangeContext"
++ "gameControllerDidRequestActivation"
++ "gameControllerDidRequestDismissal"
++ "gameControllerDidRequestFocus:"
++ "gameControllerResponder"
++ "gameOverlayController"
++ "getMenuBarApplicationName:"
++ "getScaledIconForSymbolType:withImage:"
++ "getView"
++ "glassDimmingView"
++ "glassView"
++ "greeting"
++ "handleCallRecordingCountdownNotificationWithNotification:"
++ "handleInterventionURL: %s"
++ "handleInterventionURL:continueWith:"
++ "handleInterventionWithConversationRequestIfNeeded:continueWith:"
++ "handleInterventionWithDialRequestIfNeeded:continueWith:"
++ "handleMenuBarTitleForCallUpgradeDowngradeNotification:"
++ "handleMenuBarTitleForCallUpgradeDowngradeNotification: Call found, updating menu bar title now"
++ "handleMenuBarTitleForCallUpgradeDowngradeNotification: Call not found, so we won't change anything"
++ "handleMenuBarTitleForCallUpgradeDowngradeNotification: Call upgrade or downgrade detected, updating menu bar title accordingly"
++ "handleTUCallIsSharePlayCapableChangedNotification:"
++ "handleTUCallIsSharingScreenChangedNotification:"
++ "handleValue"
++ "hasTranslationActivity"
++ "hasTranslationActivity changed to %{bool}d"
++ "heightOfCallScreeningButton"
++ "hideBusinessNameIfVisible"
++ "hideCallTranslationButtonIfNeeded"
++ "hideTrailngPanelCoveringViewIfNeeded"
++ "holdDetectionStarted()"
++ "holdDetectionStartedTimestamp"
++ "holdingConditions"
++ "hostingController"
++ "hostingDelegate"
++ "hostingViewController"
++ "iPadAudioCallViewController"
++ "iPadAudioCallViewController deallocated %@"
++ "iPadAudioCallViewController get notified audio routes changed"
++ "iPadAudioCallViewController handling device lock event isPickedRouteReceiver=%d, activeCall=%d, incomingCall=%d, sourceType=%d"
++ "iPadAudioCallViewController handling kPHHardwareButtonEventTypeHeadsetButton buttonType (incoming call = %@, active call = %@)"
++ "iPadAudioCallViewController handling kPHHardwareButtonEventTypeHeadsetButtonLongPress buttonType (incoming call = %@)"
++ "iPadAudioCallViewController handling kPHHardwareButtonEventTypeVolumeDownButton || kPHHardwareButtonEventTypeVolumeUpButton buttonType"
++ "iPadAudioCallViewController handling lock event due to mini window attached"
++ "iPadAudioCallViewController is about to set shouldPresentAlertButton to %d"
++ "iPadAudioCallViewController is about to set shouldPresentAlertButton to NO"
++ "iPadAudioCallViewController received a hardware button event (%@)"
++ "iPadAudioCallViewController requesting showIncomingNameUpdateHUD"
++ "iPadAudioCallViewController requesting showShareNameAndPhotoHUD"
++ "iPadAudioCallViewController requesting showShareNameHUD"
++ "iPadAudioCallViewController shouldRenderAlertTextColor = %d"
++ "iPadAudioCallViewController shouldRenderAlertTextFont = %d"
++ "iPadAudioCallViewController view did appear."
++ "iPadAudioCallViewController view did disappear."
++ "iPadAudioCallViewController view did move to window %@, shouldAppearOrDisappear %d"
++ "iPadAudioCallViewController view will appear."
++ "iPadAudioCallViewController view will disappear."
++ "iPadAudioCallViewController was dismissed with no current calls"
++ "iPadAudioCallViewController,UpdateCurrentState,invoking setCurrentState:PHInCallStateCallBuffer"
++ "iPadAudioCallViewController,setCurrentState,PHInCallStateCallBuffer"
++ "iPadAudioCallViewController,setCurrentState,PHInCallStateCallBuffer,disable 6-up buttons"
++ "iPadAudioCallViewController,stopCallBufferTimer"
++ "iPadAudioCallViewController: Could not find available route to pick for speaker enable"
++ "iPadAudioCallViewController: Not suppressing ringtone or declining call."
++ "iPadAudioCallViewController: Punch-out requested for current calls"
++ "iPadAudioCallViewController: Requested Add Call presentation"
++ "iPadAudioCallViewController: Requested Audio Route presentation"
++ "iPadAudioCallViewController: Requested Contacts presentation"
++ "iPadAudioCallViewController: Requested Video presentation"
++ "iPadAudioCallViewController: Requested keypad presentation"
++ "iPadAudioCallViewController: Requested keypad presentation for field mode"
++ "iPadAudioCallViewController: Voice loop controller requested button presentation"
++ "iPadAudioCallViewController: received audioDeviceControllerMutedTalkerDidStart callback, but banner was presented before, skips updating"
++ "iPadAudioCallViewController: received audioDeviceControllerMutedTalkerDidStart callback, presenting banner"
++ "iPadAudioCallViewController: requested more menu presentation"
++ "iPadAudioCallViewController: requested share card presentation"
++ "iPadAudioCallWithPosterControlTypes"
++ "iPadCallRecordingEnabled"
++ "iPadFaceTimeAudioWiFiAssertionKey"
++ "iPadInCallUIInfoButtonCoinFlipKey"
++ "iPadMenuBarForICS"
++ "iPadMenuBarForPhoneFaceTime"
++ "iPadSBSUIInCallTransitionAnalyticsSourceAudioRouteButtonPress"
++ "iPadSBSUIInCallTransitionAnalyticsSourceCallScreeningBegin"
++ "ib_preferredFontForTextStyle:"
++ "iconImage"
++ "identityForApplicationJobLabel:"
++ "ignoring %ld added messages, no more self"
++ "ignoring %ld deleted messageUUIDs, no more self"
++ "ignoring %ld deleted messages, no more self"
++ "ignoring %ld updated messages, no more self"
++ "ignoring messageStoreDidReconnect(), no more self"
++ "ignoring messageStoreRequiresRefetch(), no more self"
++ "initWithAction:diameter:callState:sizeCategory:captureView:gameControllerContext:"
++ "initWithCGImage:"
++ "initWithCallDisplayStyleManager:callCenter:featureFlags:call:"
++ "initWithCallDisplayStyleManager:contactsCache:contacts:"
++ "initWithCallDisplayStyleManager:isAudioCall:"
++ "initWithConfiguration:appType:"
++ "initWithContentLayoutGuide:translationStateDidChange:"
++ "initWithDialRequest:dialAction:availableSenderIdentities:"
++ "initWithDialerView:dialerType:contactStore:appType:orientationProvider:"
++ "initWithDisplayName:handles:"
++ "initWithFrame:appType:enableSmartDialer:enableSmartDialerExpandedSearch:"
++ "initWithFrame:forDialerType:appType:"
++ "initWithFrame:forDialerType:appType:enableSmartDialer:enableSmartDialerExpandedSearch:"
++ "initWithGameControllerContext:"
++ "initWithHandle:nickname:"
++ "initWithIconView:IconImage:"
++ "initWithImage:style:target:action:"
++ "initWithLanguage:name:"
++ "initWithRemoteMembers:otherInvitedHandles:originatingUIType:"
++ "initWithSceneProvidingProcess:configurationIdentifier:"
++ "initWithShape:"
++ "initWithSize:scale:"
++ "initWithState:gameControllerContext:"
++ "initWithText:voice:"
++ "initWithlocalLocale:remoteLocale:translationLinks:remoteAudioMode:translationMode:"
++ "initiateCallForDialRequest:translateToLocale:translateFromLocale:completionHandler:"
++ "inputCancellable"
++ "insertSiblingMenu:afterMenuForIdentifier:"
++ "insertToBackground:"
++ "invertColorCallHoldingButtonColor:"
++ "invertColorForCallHoldingButtonBasedOn:"
++ "isAudioCall"
++ "isAudioCallTranslationPreCallFlowEnabled"
++ "isCallRecordingActive"
++ "isCallSmartHoldingSessionActive:"
++ "isCancelled"
++ "isDraggingDismissalEnabled"
++ "isDraggingInteractionEnabled"
++ "isFaceTimeMultiwayAvailableForAnyDestinationInDestinations:"
++ "isIPad"
++ "isKnownCaller"
++ "isLandscape"
++ "isMessagesTheDefaultTextApp"
++ "isModernAudioBottomButtonsEnabled"
++ "isMoreMenuEnabled"
++ "isNewCallSwapNonJindoEnabled"
++ "isPodcastRecordingAllowed"
++ "isPresented old: %{bool}d new: %{bool}d"
++ "isReceptionistCapable"
++ "isRecording"
++ "isRecordingAllowed"
++ "isRecordingPodcast"
++ "isSharePlayCapable"
++ "isShowingNewTranscriptsView"
++ "isShowingPoster"
++ "isSizeValidLandscape:"
++ "isSwapEnabled"
++ "isTouchOutsideDismissalEnabled"
++ "isTranslationStarted"
++ "isUsingGlass"
++ "isViewLoad"
++ "isWaitOnHoldActive"
++ "isiPadPostersEnabled"
++ "keypadViewWillDisappearWithCompletion:"
++ "keypadWillDismissHandler"
++ "landscapeConstraint"
++ "launchInBackground"
++ "layoutGuidesProvider"
++ "listenForChangesWithHandler:"
++ "liveReplyAvailableForCall:"
++ "locale"
++ "localizedLanguage"
++ "lock"
++ "lvmEverywhereEnabled"
++ "lvm_endCallImmediately"
++ "magicStartWithReason:fromView:"
++ "mainSystem"
++ "makeAudioOutputItemWithRoute:"
++ "makeAudioOutputItems"
++ "makeEndAcceptVoipButtonCircleView"
++ "makeEndAndAcceptButtonCircleView"
++ "makeEndHoldAcceptVoipButtonCircleView"
++ "makeEndHoldAndAcceptButtonCircleView"
++ "makeEndVoipAcceptButtonCircleView"
++ "makeEndVoipAcceptVoipButtonCircleView"
++ "makeHoldAcceptVoipButtonCircleView"
++ "makeHoldAndAcceptButtonCircleView"
++ "makeTextSOSButtonCircleView"
++ "makeWaitOnHoldService"
++ "manager"
++ "matchedPhoneNumberFor:searchText:allowMatchingLastFour:"
++ "memojiPosterLayoutGuide"
++ "menuAudioOutput"
++ "menuForIdentifier:"
++ "menuItemMute"
++ "menuWithChildren:"
++ "messageStoreAccountInfoDidChange:"
++ "messageStoreDelegate"
++ "messageStoreDidAddMessages(filtered): %s"
++ "messageStoreDidAddMessages:"
++ "messageStoreDidAddMessages: %s"
++ "messageStoreDidDeleteMessages:"
++ "messageStoreDidDeleteMessagesWithUUIDs:"
++ "messageStoreDidDeleteMessagesWithUUIDs: %s"
++ "messageStoreDidMoveToTrashMessages(filtered): %s"
++ "messageStoreDidMoveToTrashMessages: %s"
++ "messageStoreDidReconnect"
++ "messageStoreDidReconnect(), triggering onVoicemailsChanged()."
++ "messageStoreDidUpdateMessages(filtered): %s"
++ "messageStoreDidUpdateMessages:"
++ "messageStoreDidUpdateMessages: %s"
++ "messageStoreRequiresRefetch"
++ "messageStoreRequiresRefetch(), triggering onVoicemailsChanged()."
++ "messageTypes"
++ "message_file_size"
++ "messages"
++ "messages://open?groupid="
++ "middleContentView"
++ "middlePillContainer"
++ "middlePillContainerLayoutConstraints"
++ "middleShelfLayoutGuide"
++ "middleStackViewPriorityManagerHolder"
++ "missedDelegateCallCount"
++ "modifyTopLevelMenuEdit:"
++ "modifyTopLevelMenuWindow::"
++ "monogramPosterLayoutGuide"
++ "moreMenuViewController"
++ "moreMenuViewModel"
++ "newHandleWithDefinition:configurationContext:"
++ "newLCDView:enableSmartDialer:enableSmartDialerExpandedSearch:"
++ "nudityDetectionEnabled"
++ "observation"
++ "observeCallRecordingNotifications"
++ "observePrioritizedCall"
++ "onlineStatus"
++ "openDefaultMessagingAppWithReply:"
++ "openDialRequest:application:url:options:"
++ "operationQueue"
++ "options"
++ "otherInvitedHandles"
++ "overlayOpen"
++ "overrideScreeningName"
++ "participantsViewWidthConstraint"
++ "participantsWithAnalysis"
++ "pasteAndMatchStyle:"
++ "pendingDownloadLocales"
++ "performSmartHoldingRequestWithType:forCallWithUUID:completion:"
++ "photoPosterLayoutGuide"
++ "portraitConstraint"
++ "postPresentable:options:userInfo:error:"
++ "posterLayoutGuide"
++ "posterSaliencyRectLayoutGuide"
++ "posterTypeCancellable"
++ "posterViewController"
++ "predicateForContactsWithIdentifiers:"
++ "preferredWindowingControlStyleForScene:"
++ "prepareImageForDescriptor:"
++ "presentContactCard"
++ "presentFullScreenPeoplePicker"
++ "presentMoreMenu:contact:source:"
++ "presentMoreMenu:source:"
++ "presentMoreMenu:source:alongsideTransition:"
++ "presentWaitOnHoldEndForAnotherCallAlertWithCallerName:completionHandler:"
++ "presentableBehavior"
++ "presentableContext"
++ "presentableDescription"
++ "presentableDidAppearAsBanner:"
++ "presentableDidDisappearAsBanner:withReason:"
++ "presentableType"
++ "presentableWillAppearAsBanner:"
++ "presentableWillDisappearAsBanner:withReason:"
++ "presentableWillNotAppearAsBanner:withReason:"
++ "presentedBanner"
++ "prioritizedCallObserver"
++ "providesHostedContent"
++ "receptionistEnabled"
++ "receptionistSessionChangedNotification"
++ "receptionistSessionChangedNotification:"
++ "receptionistState"
++ "receptionistStateChanged:"
++ "receptionistStateChangedNotification"
++ "receptionistStateChangedNotification:"
++ "recordingSupportedForCurrentCallDsplayStyles"
++ "registerObserver:"
++ "remoteAlertHandle:didInvalidateWithError:"
++ "remoteAlertHandleDidActivate:"
++ "remoteAlertHandleDidDeactivate:"
++ "remoteAlertScene:didTransitionToAttachedToWindowedAccessory:windowedAccessoryCutoutFrameInScreen:"
++ "remoteAlertScene:handleButtonActions:"
++ "remoteAlertSceneDidInvalidateForRemoteAlertServiceInvalidation:"
++ "remoteAlertSceneDidUpdateActivationContext:"
++ "removeArrangedSubview:"
++ "removeBackground"
++ "removeButtonFrom:"
++ "removeCallRecordingIndicator"
++ "removeContentViewIfNeeded:animated:"
++ "removeResponder:"
++ "removeScreeningBackgroundView"
++ "removeSubviewFromMiddleStackViewWithView:"
++ "removeUnnecessarySubMenusEdit:"
++ "removeUnnecessarySubMenusWindow:"
++ "removeUnnecessaryTopLevelMenus:"
++ "removingTipFromView()"
++ "replaceChildrenOfMenuForIdentifier:fromChildrenBlock:"
++ "request"
++ "requestFullScreenSpringBoardPresentationWithCompletion:"
++ "requestIdentifier"
++ "requestScreeningSceneIfNeeded:"
++ "requestTransitionToPresentationMode:"
++ "requestWaitOnHoldBannerPresentation"
++ "requesterIdentifier"
++ "resizeImage:maxDimension:"
++ "resolvedCallStatus"
++ "resolvedIncomingCall"
++ "revokePresentableWithRequestIdentifier:reason:animated:userInfo:error:"
++ "rotatedTargetSizeOfParent"
++ "scene willConnectTo"
++ "sceneDidBecomeActive"
++ "sceneDidDisconnect"
++ "sceneWillResignActive"
++ "screenCallWithUUID:manualScreening:receptionist:completion:"
++ "screenSharingIndicatorView"
++ "screeningContainerView"
++ "screeningStateChangedNotification"
++ "screeningStateChangedNotification:"
++ "screeningTextFieldPadding"
++ "secondaryInfoLabelLeadingConstraint"
++ "sendToLiveReply"
++ "serviceName"
++ "setAdjustsImageSizeForAccessibilityContentSizeCategory:"
++ "setAttributedTitle:"
++ "setAudioSessionId:"
++ "setBackgroundBlurView:"
++ "setBackgroundController:"
++ "setBannerButtonsForGameControllerInactiveIfNecessary"
++ "setBottomShelfContainer:"
++ "setBusinessSearchResult:hasCompleteMatch:hasMessageAction:nameOverride:"
++ "setButtonStackView:"
++ "setBypassIntervention:"
++ "setCallHoldingButtonViewController:"
++ "setCallHoldingLeadingConstraint:"
++ "setCallRecordingCancellables:"
++ "setCallRecordingController:"
++ "setCallRecordingIndicatorViewController:"
++ "setCallStatusCancellable:"
++ "setCallStatusTextObserver:"
++ "setCallUUIDForWaitOnHoldPresentation:"
++ "setContentViewController:"
++ "setControlView:"
++ "setCurrentChildAudioViewController:"
++ "setDefaultNoPosterAvatarView:"
++ "setDetachedPosterNameViewModel:"
++ "setDidStartSpeaking:"
++ "setDimmingView:"
++ "setEstimatedCount:"
++ "setExistingPrioritizedCall:"
++ "setFontsForLayout:"
++ "setGameControllerContext:"
++ "setGlassDimmingView:"
++ "setGlassView:"
++ "setHostingDelegate:"
++ "setIsAudioCall:"
++ "setIsOtherInvitedHandle:"
++ "setIsShowingNewTranscriptsView:"
++ "setKeypadWillDismissHandler:"
++ "setLayoutGuides"
++ "setLayoutGuidesProvider:"
++ "setLayoutMargins:"
++ "setLayoutMarginsRelativeArrangement:"
++ "setLineSpacing:"
++ "setMaximumFractionDigits:"
++ "setMiddleContentView:"
++ "setMiddlePillContainer:"
++ "setMiddlePillContainerLayoutConstraints:"
++ "setMiddleStackViewPriorityManagerHolder:"
++ "setMinimumContentSizeCategory:"
++ "setName:numberLabel:source:suggestion:"
++ "setParticipantsViewWidthConstraint:"
++ "setPosterSaliencyRectLayoutGuide:"
++ "setPosterTypeCancellable:"
++ "setPosterViewController:"
++ "setPreferredAction:"
++ "setPreferredVibrancy:"
++ "setPresentableContext:"
++ "setPrioritizedCallObserver:"
++ "setReminderUUID:"
++ "setRotatedTargetSizeOfParent:"
++ "setScale:"
++ "setScreenSharingIndicatorView:"
++ "setSecondaryInfoLabelLeadingConstraint:"
++ "setSendToLiveReply:"
++ "setShouldIgnoreWaitOnHoldSessionState:"
++ "setSmartHoldingAnalytics:"
++ "setSourceLabel:"
++ "setStacks:"
++ "setSubviewLayout:"
++ "setSupplementalButtonsStackView:"
++ "setSwapButton:"
++ "setTitle:subtitle:source:subtitleColor:localizedSenderIdentityTitle:animated:"
++ "setTopLeadingContainer:"
++ "setTrailingPanelCoveringView:"
++ "setTranslationBackgroundView:"
++ "setTranslationController:"
++ "setTranslationLayoutBottomConstraint:"
++ "setTranslationLayoutGuide:"
++ "setTranslationRequestConfiguration:"
++ "setUpCallParticipantViewForLandscapeForView:"
++ "setUpCallParticipantViewForPortraitForView:"
++ "setUpParticipantMarqueeLabelWithSwapEnabled"
++ "setUpSwapButton"
++ "setUsesGlass:"
++ "setViewControllersDict:"
++ "setWaitOnHoldConstraints:"
++ "setWaitOnHoldService:"
++ "setWaitOnHoldState:animated:"
++ "setWaitOnHoldTipView:"
++ "setWaitOnHoldTipViewLayoutConstraints:"
++ "setWaitOnHoldViewController:"
++ "setWaitOnHoldViewControllerFactory:"
++ "setWantsToScreenCalls:"
++ "set_callRecordingController:"
++ "setupCallHoldingObservers"
++ "setupCallScreeningMoreButton"
++ "setupMiddleContentView:"
++ "setupMiddleContentView:flexibleConstraints:bottomPadding:"
++ "setupStackViewForRowCount:"
++ "sfSymbolForButton:"
++ "sharePlayInCallsEnabled"
++ "shared"
++ "sharedManager"
++ "shouldBlurAvatarViewForCurrentContactNickname:"
++ "shouldBypassRTTPrompt"
++ "shouldHideSensitiveUI"
++ "shouldIgnoreWaitOnHoldSessionState"
++ "shouldPerformCallTranslationWithDialRequest:continueWith:"
++ "shouldPresentDismissedForCall: callStatus:%@, isExpanseMessages:%@, isConversation:%@, isOutgoing:%@, isAudioCall:%@, wantsStagingArea:%@ avLessWantsDismised:%@ callProviderWantsDismissed:%@ isOutgoingIpadFTA:%@"
++ "shouldPresentDismissedForCall:tappedPill:"
++ "shouldUseExplicitLayoutDimensions:"
++ "showAddParticipantSheet"
++ "showCallDetailsIfNecessaryForDisplayStyle:"
++ "showCallTranslationButtonIfNeeded:buttonContainer:"
++ "showFloatingView:addWidthConstraints::"
++ "showHoldAssistTTRBannerForCall:"
++ "showKeypadWithPerviousMiddleState:"
++ "showPostersEnabledForiPad"
++ "showStopAlertForCall:"
++ "showTrailngPanelCoveringViewIfNeeded"
++ "showWaitOnHoldHUD"
++ "simLinePickerEnabled"
++ "smartHoldSessionChanged:"
++ "smartHoldingActiveSessionCount"
++ "smartHoldingAnalytics"
++ "smartHoldingRelayEnabled"
++ "smartHoldingSession"
++ "sourceLabel"
++ "speakWithSpeechRequest:didFinish:"
++ "stacks"
++ "startCallRecording"
++ "startCallTranslationWithCall:localLocale:remoteLocale:"
++ "startObservationTask"
++ "startRecording"
++ "stopCallRecording"
++ "stopWithReason:forStartingPip:"
++ "subscriptionStatus"
++ "subviewLayout"
++ "supplementalButtonsStackView"
++ "swapButton"
++ "syncInProgress"
++ "system"
++ "systemLayoutSizeFittingSize:"
++ "tipFeedbackLatency"
++ "tipKitStartWaitOnHoldObservation"
++ "tipKitStopWaitOnHoldObservation"
++ "tipPresentedTimestamp"
++ "tipPreviewLatency"
++ "toggleMute:"
++ "topLeadingContainer"
++ "touchLayerView"
++ "touchOutsideDismissalEnabled"
++ "trailingPanelCoveringView"
++ "trailingPanelLayoutGuide"
++ "transitionToNewPosterIfNeeded"
++ "translateToLocale"
++ "translationAvailability"
++ "translationBackgroundView"
++ "translationConfirmation"
++ "translationController"
++ "translationLayoutBottomConstraint"
++ "translationLayoutGuide"
++ "translationStateCancellable"
++ "translationStateDidChange"
++ "translationViewController"
++ "tu_contactStore"
++ "typedBottomContainerView"
++ "uniqueID"
++ "unknown handle type %ld"
++ "unregisterObserver:"
++ "updateBottomShelfState:"
++ "updateBottomShelfWithMiddleViewState:callDisplayStyle:"
++ "updateButtonsVisibility"
++ "updateCacheQueue"
++ "updateCall:"
++ "updateCallDurationVisibility"
++ "updateCallHoldingIfNeeded:"
++ "updateCallHoldingPositionIfNeeded"
++ "updateCallParticipantsViewWithPoster"
++ "updateCallRecording:"
++ "updateCallRecordingIfNeededWithButtonContainer:pillContainer:"
++ "updateCallTranslationIfNeeded"
++ "updateConstraintsConstantsBasedOnSize:"
++ "updateContentView:updateVisibility:"
++ "updateDefaultNoPosterAvatarViewVisibility"
++ "updateDimmingView"
++ "updateDimmingView:with:"
++ "updateFloatingViewsVisibilityHandlers"
++ "updateForCallWithUUID:"
++ "updateGameControllerManagerForCurrentState"
++ "updateIsLandscape:"
++ "updateMiddleShelfStateWithIsOpen:"
++ "updateMiddleShelfStateWithIsOpen:animation:completion:"
++ "updateMiddleStateWithIsEmpty:"
++ "updateNameVisiblity"
++ "updateParticipantViewWithSize:"
++ "updatePoster"
++ "updatePosterNameFortrailingPanelCoveringView:"
++ "updatePosterSaliencyRec"
++ "updateResultButtonsVisiblityForPrimary:secondary:"
++ "updateScreenSharingIndicatorView"
++ "updateSubviewWithLayout:"
++ "updateSubviewWithLayout:contact:"
++ "updateSupplementalButtonsLayout"
++ "updateTextFieldPadding:padding:"
++ "updateTopShelfContentWithCall:sceneWindowSize:"
++ "updateTranslationBackgroundView:"
++ "updateTranslationPosterName:"
++ "updateVisibility"
++ "updateWaitOnHoldServiceWithCall:"
++ "updateWaitOnHoldServiceWithCallWithCall:"
++ "updateWaitOnHoldViewIfNeeded"
++ "updateWithContainerView:updateNameVisiblity:updateButtonsVisibility:"
++ "updateiPadMenuBarApplicationName NEW TITLE %@"
++ "updateiPadMenuBarApplicationName complete"
++ "updateiPadMenuBarApplicationName:"
++ "userInteractionDidEndForBannerForPresentable:"
++ "userInteractionWillBeginForBannerForPresentable:"
++ "usesGlass"
++ "v16@?0@\"NSString\"8"
++ "v16@?0@\"PHAudioCallIcon\"8"
++ "v24@0:8@\"<BNPanGestureProxy>\"16"
++ "v24@0:8@\"<BNPresentable>\"16"
++ "v24@0:8@\"<BNPresentableContext>\"16"
++ "v24@0:8@\"<PHAudioButtonsViewControllerProtocolDelegate>\"16"
++ "v24@0:8@\"<PHInCallRootViewControllerProtocol>\"16"
++ "v24@0:8@\"SBSRemoteAlertHandle\"16"
++ "v24@0:8@\"SBSUIRemoteAlertScene\"16"
++ "v24@0:8@\"_TtC20FaceTimeMessageStore11AccountInfo\"16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v24@?0@\"NSLocale\"8@\"NSLocale\"16"
++ "v24@?0@\"TUDialRequest\"8@\"TUJoinConversationRequest\"16"
++ "v28@0:8S16q20"
++ "v32@0:8@\"<BNPresentable>\"16@\"NSString\"24"
++ "v32@0:8@\"NSString\"16@\"UIView\"24"
++ "v32@0:8@\"NSUUID\"16Q24"
++ "v32@0:8@\"SBSRemoteAlertHandle\"16@\"NSError\"24"
++ "v32@0:8@\"SBSUIRemoteAlertScene\"16@\"NSSet\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"TUConversationActivityAdvertisement\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v36@0:8@16B24d28"
++ "v36@0:8B16@?20@?28"
++ "v36@0:8B16@?<v@?>20@?<v@?>28"
++ "v40@0:8@\"BCSBusinessItem\"16B24B28@\"NSString\"32"
++ "v40@0:8@16B24B28@32"
++ "v40@0:8{CGSize=dd}16@32"
++ "v44@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40"
++ "v60@0:8@\"SBSUIRemoteAlertScene\"16B24{CGRect={CGPoint=dd}{CGSize=dd}}28"
++ "viewControllerDidRequestAddParticipants:showContacts:"
++ "viewControllersDict"
++ "viewWillTransitionToSize:withTransitionCoordinator:"
++ "voicemails"
++ "voicemailsById"
++ "volumeChangedForRouteController:"
++ "waitOnHoldConstraints"
++ "waitOnHoldEnabled"
++ "waitOnHoldPickUpButtonTappedWithButton:"
++ "waitOnHoldService"
++ "waitOnHoldTipView"
++ "waitOnHoldTipViewLayoutConstraints"
++ "waitOnHoldViewController"
++ "waitOnHoldViewControllerFactory"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "wohHoldCallButton"
++ "yOffsetForDialerLCDView:"
++ "zOrderIndex"
++ "{CAColorMatrix=ffffffffffffffffffff}16@0:8"
++ "\xc1"
++ "\xc1\xf0\xf0!"
++ "\xf0Q\xe1"
+- "\b"
+- "\r"
+- "\x19 "
+- " %@"
+- " -./()"
+- "$__lazy_storage_$_dataURL"
+- "$__lazy_storage_$_dirtyFolder"
+- "$__lazy_storage_$_dirtyRead"
+- "$__lazy_storage_$_imageView"
+- "$__lazy_storage_$_isDeleted"
+- "$__lazy_storage_$_primaryLabel"
+- "$__lazy_storage_$_ranker"
+- "$__lazy_storage_$_secondaryLabel"
+- "$__lazy_storage_$_stackView"
+- "$__lazy_storage_$_thumbnailURL"
+- "$__lazy_storage_$_transcript"
+- "$__lazy_storage_$_transcriptData"
+- "$__lazy_storage_$_transcriptURL"
+- "%@ matches the field test code, launching the legacy field test app %@"
+- "(?:(?<![^\\W_])|(?=[\\W_]))%@"
+- ")"
+- "*#"
+- "*#06#"
+- "**0"
+- "*3001#12345#*"
+- "0+"
+- "01234567890abcdefghijklmnopqrstuvwxyz+*#"
+- "2abc"
+- "3def"
+- "4ghi"
+- "5jkl"
+- "6mno"
+- "7pqrs"
+- "8tuv"
+- "9qxyz"
+- ";,"
+- "=> %@ called in superclass. Should be implemented in subclass if required"
+- "@\"<DialerLCDFieldDelegate>\""
+- "@\"<DialerViewDelegate>\""
+- "@\"<PHLCDViewTextFieldDelegate>\""
+- "@\"ICSFaceTimeAvailabilityHelper\""
+- "@\"NSCharacterSet\""
+- "@\"PHAbstractDialerView\""
+- "@\"PHAudioCallViewController\""
+- "@\"PHLCDViewTextField\""
+- "@\"PHRingHighlightView\""
+- "@\"RadiosPreferences\""
+- "@\"TPPillView\""
+- "@\"TUSenderIdentity\""
+- "@\"UIColorEffect\""
+- "@\"UIControl\""
+- "@\"UIImage\"24@0:8Q16"
+- "@\"UIMenu\"24@0:8@\"TPPillView\"16"
+- "@\"UIMenu\"32@0:8@\"<DialerLCDFieldProtocol>\"16@\"TUSenderIdentity\"24"
+- "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UITextField\""
+- "@\"UIView<DialerLCDFieldProtocol>\""
+- "@\"UIView<TPDialerKeypadProtocol>\""
+- "@\"UIVisualEffect\""
+- "@\"VSSpeechRequest\""
+- "@\"VSSpeechSynthesizer\""
+- "@\"_TtC18ActivityUIServices18ActivityEdgeInsets\"16@0:8"
+- "@\"_UICanvasDefinition\"40@0:8@\"UIApplication\"16@\"_UICanvasDefinition\"24@\"NSDictionary\"32"
+- "@\"_UIFocusLinearMovementSequence\""
+- "@%dx"
+- "@28@0:8@16I24"
+- "@28@0:8@16i24"
+- "@28@0:8i16@20"
+- "@32@0:8@16:24"
+- "@40@0:8q16d24q32"
+- "@48@0:8@16@24@32Q40"
+- "@48@0:8@16{_NSRange=QQ}24@40"
+- "@48@0:8q16d24q32@40"
+- "@48@0:8q16d24q32q40"
+- "@52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16f48"
+- "@52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16i48"
+- "@56@0:8q16d24q32q40@48"
+- "ADD_NUMBER"
+- "ALERT_ACTION_END_BUTTON_LABEL"
+- "Application entered the background. Keypad button tones are disabled."
+- "Application is entering the foreground. Keypad button tones are enabled: %@."
+- "Attempting FaceTime call because a telephone call is in progress and the carrier does not support simultaneous voice and data."
+- "AudioCallViewController requested call details"
+- "B24@0:8@\"UITextField\"16"
+- "B28@0:8@16c24"
+- "B32@0:8:16@24"
+- "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "B64@0:8@\"NSArray\"16@\"NSString\"24@\"IDSURI\"32@\"NSString\"40@\"OS_dispatch_queue\"48@?<v@?@\"NSDictionary\">56"
+- "B64@0:8@16@24@32@40@48@?56"
+- "BLOCK_CALLER"
+- "BasebandChipset"
+- "BottomBarAdditions"
+- "CALL_BACK"
+- "CPKeyView"
+- "CREATE_CONTACT"
+- "CallUI_ButtonLayout"
+- "Calling _resetButtonAnimation in "
+- "Calling callback for PHNumberPadKeyCommandHandlerSpecialCharacterBackspace"
+- "Calling callback for PHNumberPadKeyCommandHandlerSpecialCharacterDial"
+- "Calling callback for character '%c'"
+- "Close"
+- "Code is not for IMEI, should request passcode unlock"
+- "Contact fetch failed with the following error: %@"
+- "Contact fetch request returned %lu results"
+- "Contact ranking time: %{public}f"
+- "Contact search time: %{public}f"
+- "Could not open URL: %@ for DialRequest: %@"
+- "Could not perform dial request, the telephony call provider is nil."
+- "Could not perform dial request, the voicemail call provider is nil."
+- "Could not retreive Dual SIM activation policy"
+- "Could not retreive Dual SIM activation policy, mobileGestaltErrorCode: %d"
+- "DIALER"
+- "DOWNTIME_CALLER_ALTERNATE_%@"
+- "DefaultNumericOnlyDialer"
+- "Determined screen size to be %ld for screenHeight: %d"
+- "Dialer"
+- "DialerAnimation: Called "
+- "DialerAnimation: Calling _animateCallButton in "
+- "DialerAnimation: Calling _resetButtonAnimation in "
+- "DialerAnimation: called"
+- "DialerContactResultButton"
+- "DialerContactResultButtonView: Using Short name as the number is being truncated"
+- "DialerController"
+- "DialerLCDFieldDelegate"
+- "DialerShouldSuppressShowingLastDialedNumber"
+- "DialerView"
+- "ENDHOLD_+_ACCEPT"
+- "END_+_ACCEPT"
+- "EnhancedEmergency: Setting zoom level from pinch, current zoom level is %f, next zoom level is %s"
+- "Error retrieving extensions: %@"
+- "Error searching contacts %@"
+- "Executing contact fetch request %@ using contact store %@"
+- "Executing contact fetch request %@ without always unifying labels using contact store %@"
+- "FBSDisplayLayoutObserver"
+- "FBSSystemService"
+- "FBSSystemService could not be weak linked and so we could not launch the field test app"
+- "FTDeviceSupport"
+- "FTNetworkSupport"
+- "FTServices"
+- "FaceTimeAvailabilityHelper: All services returned unavailable"
+- "FaceTimeAvailabilityHelper: Got results back for availability of service %s: %s"
+- "FaceTimeAvailabilityHelper: Got results back for capabilities of service %s: %s"
+- "FaceTimeAvailabilityHelper: Querying availability for service %s"
+- "FaceTimeAvailabilityHelper: Querying capabilities for service %s"
+- "FaceTimeAvailabilityHelper: Received callback indicating FaceTime is available"
+- "FaceTimeAvailabilityHelper: Timeout reached querying availability of FaceTime, returning false"
+- "Failed to update cache with: %@"
+- "Found %{public}ld contacts"
+- "Found send message intent extension %@ for call %@"
+- "FrontBoardServices"
+- "H"
+- "HKMedicalIDViewController"
+- "HKMedicalIDViewControllerDelegate"
+- "HOLD_+_ACCEPT"
+- "Handling key command - %@"
+- "Health"
+- "HealthUI"
+- "ICSFaceTimeAvailabilityHelper"
+- "ICSMedicalIDViewController"
+- "INSendMessageIntent"
+- "InCallService.AudioControlService"
+- "InCallService.ContactSearchManager"
+- "InCallService.ContactSearchResult"
+- "InCallService.DialerContactResultButtonView"
+- "InCallService/AudioControlService.swift"
+- "InCallService/DialerContactResultButtonView.swift"
+- "Incrementing wifi calling alert show count to %@"
+- "LEAVE_A_MESSAGE"
+- "Loaded shouldSuppressShowingLastDialedNumber from defaults as %d"
+- "Looking up send message intent extension using attributes: %@"
+- "M"
+- "MPContactSearchManager"
+- "MPContactSearchResult"
+- "MPVoicemailAccountManagerAccounts"
+- "MPVoicemailAccountManagerAllUpdates"
+- "MPVoicemailAccountManagerDelegate"
+- "MPVoicemailAccountManagerGreeting"
+- "MPVoicemailAccountManagerStorageUsage"
+- "MPVoicemailAccountManagerSubscribedAccounts"
+- "MPVoicemailAccountManagerSyncInProgress"
+- "MPVoicemailAccountManagerTranscribingStatus"
+- "MPVoicemailAccountManagerUpdateCapabilities"
+- "MPVoicemailAccountManagerUpdateOnlineStatus"
+- "Middle view is keypad"
+- "MobilePhoneAdditions"
+- "No prioritized call"
+- "Not updating visible number to saved redialed number because we are in call (%d) or we don't have a redialed number saved (%d)"
+- "PHAbstractDialerView"
+- "PHAmbientButtonPart"
+- "PHBottomBarButton"
+- "PHBottomBarButtonConfiguration"
+- "PHDevice"
+- "PHDevice.serialQueue"
+- "PHDeviceCellularRadioEnabledDidChangeNotification"
+- "PHDeviceRingerSwitchDidChangeNotification"
+- "PHDialerContactResultButtonView"
+- "PHHandsetDialerDeleteButton"
+- "PHHandsetDialerLCDView"
+- "PHHandsetDialerNameLabelView"
+- "PHHandsetDialerNumberPadButton"
+- "PHHandsetDialerView"
+- "PHInCallUIUtilities"
+- "PHLCDViewTextField"
+- "PHLCDViewTextFieldDelegate"
+- "PHLockScreenStatusChangedNotification"
+- "PHNumberPadKeyCommandHandler"
+- "PHRingHighlightView"
+- "PHRoundView"
+- "PHSearchUtilities"
+- "PHStaticDialerPad"
+- "PHTextCycleLabel"
+- "PHUIConfiguration"
+- "PHUIUtilities"
+- "PauseCharacterSet"
+- "PhoneSettings"
+- "Playing DTMF key: %d"
+- "Q20@0:8i16"
+- "QUOTE_%@_QUOTE"
+- "RESTRICTED_CONTENT"
+- "RadiosPreferencesDelegate"
+- "Received error: %@ while querying -copyCarrierBundleValueWithDefault"
+- "Received error: %@ while querying -getSubscriptionInfoWithError"
+- "Received regionWantsPasscodeBypassForIMEI: %d from carrierBundleValue: %@ subscription: %@"
+- "Received subscriptionInfo: %@ with no subscriptions"
+- "SBSGetScreenLockStatus"
+- "SEND_TO_VOICEMAL"
+- "Search cancelled for %{public}s"
+- "Search was cancelled for %{public}s"
+- "Searching for %{public}s"
+- "Setting shouldSuppressShowingLastDialedNumber from %d to %d"
+- "ShowExplicitCallTransferButton"
+- "ShowExplicitCallTransferButton: all the subscriptions are: %@"
+- "ShowExplicitCallTransferButton: checking subscription: %@"
+- "ShowExplicitCallTransferButton: received error: %@ while querying -getSubscriptionInfoWithError"
+- "ShowExplicitCallTransferButton: received subscriptionInfo: %@ with no subscriptions"
+- "ShowExplicitCallTransferButton: retrieved ShowExplicitCallTransferButton value %@ for subscription %@ with error %@"
+- "ShowIMEIsInLockScreen"
+- "Showing wifi calling alert: %@, shown count is %ld"
+- "T@\"<DialerLCDFieldDelegate>\",W,N,V_delegate"
+- "T@\"<DialerViewDelegate>\",N,V_delegate"
+- "T@\"<MPTranscriptMessage>\",N,&"
+- "T@\"<PHLCDViewTextFieldDelegate>\",W,N,V_lcdViewTextFieldDelegate"
+- "T@\"CNContactMatchInfo\",N,&,VmatchInfo"
+- "T@\"CNContactStore\",R,N"
+- "T@\"ICSFaceTimeAvailabilityHelper\",&,N,V_faceTimeAvailabilityHelper"
+- "T@\"NSArray\",&,V_cycleStrings"
+- "T@\"NSArray\",C,V_numberLabelHorizontalConstraints"
+- "T@\"NSCharacterSet\",&,N,V_specialDialerCharacters"
+- "T@\"NSCharacterSet\",&,N,V_unicodeDirectionalCharactersSet"
+- "T@\"NSLayoutConstraint\",&,N,V_addContactButtonTopConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_pillViewTopConstraint"
+- "T@\"NSLayoutConstraint\",&,V_addContactButtonTopConstraint"
+- "T@\"NSLayoutConstraint\",&,V_callButtonKeypadOffsetConstraint"
+- "T@\"NSLayoutConstraint\",&,V_phonePadViewTopConstraint"
+- "T@\"NSString\",&,N,V_previousTextSuggestion"
+- "T@\"NSString\",&,V_displayedLabel"
+- "T@\"NSString\",&,V_displayedName"
+- "T@\"NSString\",C,N,V_phoneNumberPrefixHint"
+- "T@\"NSString\",R,N,V_accessibilityIdentifier"
+- "T@\"NSString\",R,N,V_title"
+- "T@\"NSTimer\",&,V_cycleTimer"
+- "T@\"NSURL\",N,C"
+- "T@\"PHAbstractDialerView\",R,V_dialerView"
+- "T@\"PHAudioCallViewController\",&,N,V_audioCallViewController"
+- "T@\"PHLCDViewTextField\",&,N,V_numberTextField"
+- "T@\"PHNumberPadKeyCommandHandler\",R,N,V_keyCommandHandler"
+- "T@\"PHPosterNameViewModel\",&,N,V_screeningPosterNameViewModel"
+- "T@\"PHRingHighlightView\",&,N,V_ringView"
+- "T@\"RadiosPreferences\",&,N,V_radiosPreferences"
+- "T@\"TPPillView\",&,N,V_pillView"
+- "T@\"TUFeatureFlags\",&,N,V_featureFlags"
+- "T@\"TUSenderIdentity\",&,N,V_selectedSenderIdentity"
+- "T@\"TUSenderIdentity\",&,V_selectedSenderIdentity"
+- "T@\"UIButton\",&,V_addContactButton"
+- "T@\"UIButton\",&,V_contactCountButton"
+- "T@\"UIButton\",&,V_searchButton"
+- "T@\"UIColor\",&,N,V_originalBackgroundColor"
+- "T@\"UIColor\",R,N"
+- "T@\"UIColor\",R,N,V_backgroundColor"
+- "T@\"UIColor\",R,N,V_highlightedColor"
+- "T@\"UIColor\",R,N,V_selectedColor"
+- "T@\"UIColorEffect\",N,R"
+- "T@\"UIColorEffect\",R,N,V_colorEffect"
+- "T@\"UIControl\",&,N,V_addContactButton"
+- "T@\"UIControl\",&,N,V_callButton"
+- "T@\"UIControl\",&,N,V_deleteButton"
+- "T@\"UIControl\",&,V_contactCountButton"
+- "T@\"UIControl\",&,V_searchButton"
+- "T@\"UIFont\",R,N"
+- "T@\"UIImage\",R,N,V_icon"
+- "T@\"UIImage\",R,N,V_selectedIcon"
+- "T@\"UILabel\",&,V_contactLabel"
+- "T@\"UILabel\",&,V_nameAndLabelLabel"
+- "T@\"UILabel\",N,&"
+- "T@\"UILayoutGuide\",&,N,V_headerLayoutGuide"
+- "T@\"UITextField\",&,N,V_layoutTextField"
+- "T@\"UIView\",&,N,V_deleteButtonXView"
+- "T@\"UIView\",R,N,V_roundView"
+- "T@\"UIView\",R,N,V_view"
+- "T@\"UIView<DialerLCDFieldProtocol>\",&,N,V_lcdView"
+- "T@\"UIView<TPDialerKeypadProtocol>\",&,N,V_phonePadView"
+- "T@\"UIVisualEffect\",R,N,V_backgroundMaterial"
+- "T@\"UIVisualEffectView\",&,N,V_effectView"
+- "T@\"VSSpeechRequest\",&,N,V_speechRequest"
+- "T@\"VSSpeechSynthesizer\",&,N,V_speechSynthesizer"
+- "T@\"_TtC18ActivityUIServices18ActivityEdgeInsets\",N,&"
+- "T@\"_UIVisualEffectBackdropView\",R,W,N,V_captureView"
+- "T@,N,&,VpreferredPhoneNumber"
+- "TB,N,GisCellularRadioEnabled,V_cellularRadioEnabled"
+- "TB,N,GisRingerSwitchEnabled,V_ringerSwitchEnabled"
+- "TB,N,GisSpringBoardLocked,V_springBoardLocked"
+- "TB,N,V_dialLastDialedNumberByDoubleTap"
+- "TB,N,V_isHostedInRemoteViewController"
+- "TB,N,V_proximitySensorState"
+- "TB,N,V_shouldHideDeleteButtonWhenEmpty"
+- "TB,N,V_usesSmallerFontSize"
+- "TB,N,V_wantsCallButtonAnimation"
+- "TB,R,N,GisSpringBoardPasscodeLocked"
+- "TB,R,N,GphoneKit_isAuthorized"
+- "TB,R,N,V_isShowingCountdown"
+- "TB,V_loadedShouldSuppressShowingLastDialedNumberCache"
+- "TB,V_shouldSuppressShowingLastDialedNumberCache"
+- "TPPillViewDelegate"
+- "TUCallCenterInCallServiceDidAppearNotification: Received in "
+- "TUIDSIDQueryController"
+- "Td,N,V_diameter"
+- "Td,N,V_fontSize"
+- "Td,N,V_iconSizeRatio"
+- "Td,R,N,V_diameter"
+- "The application is not authorized to access contact data."
+- "Ti,N,V_dialerType"
+- "Ti,N,V_ringerStateNotifyToken"
+- "Ti,V_dialerType"
+- "Tq,N,V_actionType"
+- "Tq,N,V_backgroundStyle"
+- "Tq,N,V_keyIndex"
+- "Tq,R,N,V_action"
+- "Tq,R,N,V_sizeCategory"
+- "Tq,R,N,V_type"
+- "Tq,V_currentCycleStringIndex"
+- "T{CGSize=dd},N,V_buttonSize"
+- "UITextFieldDelegate"
+- "UNKNOWN"
+- "UnicodeDirectionalFormatting"
+- "Updating visible number to saved redialed number: %@"
+- "V:|[nameAndLabelLabel]|"
+- "VSSpeechSynthesizerDelegate"
+- "WifiCallingCallFailureAlertShowCount"
+- "Will play DTMF tone due to string being appended (%@)"
+- "Workaround50930227"
+- "Y"
+- "[WARN] Aborting FaceTime call because the network is unavailable."
+- "[WARN] Aborting telephony call, the device is in airplane mode and, cannot make telephony calls while in airplane mode (%@) or is not connected to an active Wi-Fi network (%@)."
+- "^[\\d\\s\\(\\)\\-\\+]+$"
+- "_TtC13InCallService19AudioControlService"
+- "_TtP13InCallServiceP33_93D97D455A842243802D7FBFB2B7B1DC39ActivitySceneMetricsForwardDeclarations_"
+- "_UIHostedWindow"
+- "__systemImageNamedSwift:"
+- "_accessibilityIdentifier"
+- "_action"
+- "_actionType"
+- "_addContactButton"
+- "_addContactButtonTopConstraint"
+- "_addContactButtonVisible"
+- "_animateCallButton"
+- "_application:didDiscardCanvasDefinitions:"
+- "_application:didReceiveViewServiceRequestForViewControllerClassName:"
+- "_application:willConnectCanvas:"
+- "_application:willCreateCanvasWithDefinition:withOptions:"
+- "_applicationWillResignActiveNotification:"
+- "_backgroundColor"
+- "_backgroundMaterial"
+- "_backgroundStyle"
+- "_callButton"
+- "_callButtonKeypadOffsetConstraint"
+- "_callButtonPressed:"
+- "_callButtonPressedActionWithCallProvider:"
+- "_calledNumber"
+- "_cellularRadioEnabled"
+- "_clearDisplayIfNecessary"
+- "_colorEffect"
+- "_colorEffectCAMatrix:"
+- "_contactCountButton"
+- "_contactLabel"
+- "_contactSearchResults"
+- "_currentCycleStringIndex"
+- "_cycleStrings"
+- "_cycleTimer"
+- "_define:"
+- "_deleteButton"
+- "_deleteButtonClicked:"
+- "_deleteButtonDown:"
+- "_deleteButtonVisible"
+- "_deleteButtonXView"
+- "_deleteRepeat"
+- "_deleteTimer"
+- "_deviceSpecificImageNamed:"
+- "_dialLastDialedNumberByDoubleTap"
+- "_dialVoicemail"
+- "_dialWithRequest:"
+- "_dialerType"
+- "_diameter"
+- "_didDeleteRepeat"
+- "_displayedLabel"
+- "_displayedName"
+- "_dtmfPlaying"
+- "_effectView"
+- "_encodedDialerStringSkippingUnmappedCharacters:"
+- "_fadeSubviewsOf:excludingViews:toValue:"
+- "_fontSize"
+- "_graphicsQuality"
+- "_handleSIMInsertionOrRemoval"
+- "_headerLayoutGuide"
+- "_highlightedColor"
+- "_highlightedImage"
+- "_icon"
+- "_iconSizeRatio"
+- "_intents_extensionMatchingAttributesForIntents:"
+- "_isHostedInRemoteViewController"
+- "_isShowingCountdown"
+- "_keyCommandHandler"
+- "_keyIndex"
+- "_keypadImage"
+- "_keypadToCallButtonYSpacing"
+- "_layoutTextField"
+- "_lcdView"
+- "_lcdViewTextFieldDelegate"
+- "_linearSequence"
+- "_loadedShouldSuppressShowingLastDialedNumberCache"
+- "_lookupTimer"
+- "_makeCalloutVisible:"
+- "_menuDidHide:"
+- "_nameAndLabelLabel"
+- "_numberLabelHorizontalConstraints"
+- "_numberTextField"
+- "_originalBackgroundColor"
+- "_performSetDisabled"
+- "_phImageNamed:inBundle:compatibleWithTraitCollection:"
+- "_phoneNumberPrefixHint"
+- "_phonePad:appendString:suppressClearingDialedNumber:"
+- "_phonePadView"
+- "_phonePadViewTopConstraint"
+- "_pillView"
+- "_pillViewTopConstraint"
+- "_pressedImage"
+- "_previousTextSuggestion"
+- "_proximitySensorState"
+- "_radiosPreferences"
+- "_remoteViewControllerDialerOffset"
+- "_requestMakeCutCopyPasteCalloutVisible:"
+- "_resetButtonAnimation"
+- "_ringerStateNotifyToken"
+- "_ringerSwitchEnabled"
+- "_screeningPosterNameViewModel"
+- "_searchButton"
+- "_searchString"
+- "_selectedColor"
+- "_selectedIcon"
+- "_selectedSenderIdentity"
+- "_shouldHideDeleteButtonWhenEmpty"
+- "_shouldSuppressShowingLastDialedNumberCache"
+- "_sizeCategory"
+- "_specialDialerCharacters"
+- "_springBoardLocked"
+- "_startDeleteTimer"
+- "_stopDeleteTimer"
+- "_stopLookupTimer"
+- "_textFieldDidUpdate:"
+- "_thinSystemFontOfSize:"
+- "_thinSystemFontWithDialerCharacteristicsOfSize:"
+- "_title"
+- "_translate:"
+- "_unicodeDirectionalCharactersSet"
+- "_updateCallButtonEnabledState:"
+- "_updateCallButtonEnabledState:updateNameNow:"
+- "_updateLCDNameLabelWithAMatchingName:"
+- "_updateLCDNameLabelWithOriginallyPastedString:"
+- "_updateName"
+- "_usesSmallerFontSize"
+- "_view"
+- "_wantsCallButtonAnimation"
+- "_yFudge"
+- "_yOffsetForAddContactButton"
+- "_yOffsetForKeypadView"
+- "a"
+- "accessQueue"
+- "accessibilityIdentifier"
+- "actionType"
+- "addButton"
+- "addCallRecordingIfNeeded"
+- "addContactButtonContentInsetConstant"
+- "addContactButtonTopConstraint"
+- "addContactButtonTopConstraintConstant"
+- "addContactPressed:"
+- "addIndex:"
+- "addKeyCommand:"
+- "addNumberFontSize"
+- "addRecordingIndicator"
+- "airplaneMode"
+- "airplaneModeChanged"
+- "allKeys"
+- "ambientHorizontalSizeClass"
+- "ambientVerticalSizeClass"
+- "application %@"
+- "applicationDidResume"
+- "applicationIsInstalled:"
+- "applicationsForUserActivityType:"
+- "attributedStringForName:label:"
+- "attributedStringToHighlightText:"
+- "attributedStringToHighlightText:primaryColour:secondaryColour:"
+- "attributedStringToHighlightText:primaryColour:secondaryColour:style:"
+- "attributedStringToHighlightText:style:"
+- "audioRoutesPublisher"
+- "authorizationStatus"
+- "authorizationStatusForEntityType:"
+- "b1"
+- "backgroundMaterial"
+- "beginningOfDocument"
+- "bottomBarGlyphWithSymbolType:sizeCategory:"
+- "bottomBarImageWithName:color:"
+- "bundleURL"
+- "buttonSize"
+- "c24@0:8q16"
+- "callButtonKeypadOffsetConstraint"
+- "callHistoryController"
+- "canAttemptEmergencyCallsWithoutCellularConnection"
+- "canAttemptTelephonyCallsWithoutCellularConnection"
+- "canBeEnabled"
+- "canPerformAction:withSender:"
+- "canRotateInCallUIOverlayForFaceTime"
+- "cancelPreviousSearch"
+- "cancelTouchTracking"
+- "captureTextFromCamera:"
+- "carplay_keypad"
+- "carplay_keypad_highlighted"
+- "cellularRadioEnabled"
+- "characterForNumberPadCharacter:"
+- "characterIsMember:"
+- "characterSetWithCharactersInString:"
+- "characterSetWithRange:"
+- "charge"
+- "checkAndUpdateVisibilityForView:shouldInvertVisibility:"
+- "circleBounds"
+- "circleWithColor:radius:"
+- "colorEffect"
+- "colorForDodge"
+- "colorForLuminance"
+- "com.apple.FTMInternal"
+- "com.apple.InCallService.emergencydialerpresence"
+- "com.apple.fieldtest"
+- "com.apple.mobilephone"
+- "com.apple.mobilephone.ContactSearchManager"
+- "com.apple.springboard.ringerstate"
+- "com.apple.systemstatus.background-activity.CallRecording"
+- "compare:options:"
+- "compose"
+- "conditions"
+- "configurationForCall:"
+- "configureWithPrimaryTitle:secondaryTitle:"
+- "configureWithPrimaryTitle:secondaryTitle:searchString:isNumberPriority:"
+- "contactCountButton"
+- "contactLabel"
+- "contactResultForPhoneNumber:"
+- "contactSearchType"
+- "contactsForHandles:keyDescriptors:"
+- "contactsForHandles:keyDescriptors:alwaysUnifyLabeledValues:"
+- "contentViewSizeForFaceTime"
+- "copy:"
+- "copyCarrierBundleValue:keyHierarchy:bundleType:error:"
+- "copyCarrierBundleValueWithDefault:key:bundleType:error:"
+- "createAudioCallViewController"
+- "createConstraints"
+- "createDeleteButtonX"
+- "currentAudioRoutePublisher"
+- "currentCycleStringIndex"
+- "currentDeviceRouteGlyphForDisplayStyle:"
+- "currentIDStatusForDestinations:service:preferredFromID:listenerID:queue:completionBlock:"
+- "currentLayout"
+- "currentRemoteDevices(for:service:)"
+- "currentRemoteDevicesForDestinations:service:preferredFromID:listenerID:queue:completionBlock:"
+- "cycleStrings"
+- "cycleTimer"
+- "cycleToNextString"
+- "deactivateAudioServices"
+- "default-calling-fallback-timeout"
+- "defaultActionIsFaceTimeAudio"
+- "defaultCallProvider"
+- "defaultPNGName"
+- "deleteBackward"
+- "deleteButtonImageName"
+- "deleteButtonXView"
+- "dialLastDialedNumberByDoubleTap"
+- "dialerField:stringWasPasted:"
+- "dialerIsNumericOnly"
+- "dialerLCDFieldTextDidChange:"
+- "dialerLCDFontSize"
+- "dialerLCDLabelFontSize"
+- "dialerNumberPadNumericCharacters"
+- "dialerType"
+- "dialerView-normal"
+- "dialerView-pressed"
+- "diameter"
+- "digitsEntered"
+- "disconnectedReasonRequiresCallBackUI = %d (disconnectedReason: %d, isIncoming: %d, isConnecting: %d, isSpringBoardPasscodeLocked: %d, isConversation: %d, isOneToOneModeEnabled: %d, conversationIsNil: %d)"
+- "displayedLabel"
+- "displayedName"
+- "edgeInsets"
+- "encodedDialerString"
+- "end"
+- "endEditing:"
+- "endOfDocument"
+- "end_accept"
+- "end_accept_large"
+- "end_accept_voip"
+- "end_hold_accept"
+- "end_hold_accept_voip"
+- "end_voip_accept"
+- "end_voip_accept_voip"
+- "enhanced-emergency-photo"
+- "enumerateContactsAndMatchInfoWithFetchRequest:error:usingBlock:"
+- "enumerateRangesUsingBlock:"
+- "escapedPatternForString:"
+- "executeFetchRequest:error:"
+- "extensionsWithMatchingAttributes:completion:"
+- "fbsOrientationObserver"
+- "fetchCellularRadioEnabled"
+- "fetchRingerSwitchEnabled"
+- "firstIndex"
+- "fontSize"
+- "footprint"
+- "formUnionWithCharacterSet:"
+- "formattedInternationalStringValue"
+- "frontboardOrientation"
+- "generalPasteboard"
+- "generateNumberLabelHorizontalConstraints"
+- "getSubscriptionInfoWithError:"
+- "handleApplicationDidEnterBackgroundNotification:"
+- "handleApplicationWillEnterForegroundNotification:"
+- "handleContentSizeCategoryDidChange:"
+- "handleKeyCommand:"
+- "handleSwipeGesture:"
+- "handleTapGesture:"
+- "hasMultipleSenderIdentities"
+- "hasSuffix:"
+- "headerLayoutGuide"
+- "highlightKeyAtIndex:"
+- "hold_accept"
+- "hold_accept_large"
+- "hold_accept_voip"
+- "ice"
+- "icon-mute-small"
+- "iconSizeRatio"
+- "im"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "in-call-button-effects"
+- "in-call-camera-flip"
+- "inCallBottomBarAssetSize"
+- "inCallBottomBarMaxTitleSize"
+- "inCallControlAlignment"
+- "indexSetToHighlightDigitsInText:"
+- "initWithAction:diameter:callState:sizeCategory:"
+- "initWithAction:diameter:callState:sizeCategory:captureView:"
+- "initWithBundleType:"
+- "initWithContact:matchInfo:preferredPhoneNumber:"
+- "initWithContentRect:"
+- "initWithDialerType:"
+- "initWithDialerType:contactStore:"
+- "initWithFrame:forDialerType:"
+- "initWithKeysToFetch:"
+- "initWithTitle:frame:theme:"
+- "initWithType:contactStore:"
+- "initWithUnprefixedURI:"
+- "initWithView:type:"
+- "input"
+- "interfaceOrientationForDeviceOrientation:"
+- "isCellularRadioEnabled"
+- "isEditing"
+- "isEmpty"
+- "isHostedInRemoteViewController"
+- "isMenuVisible"
+- "isNumeric"
+- "isRingerSwitchEnabled"
+- "isSADMessagesEnabled"
+- "isShowingCountdown"
+- "isSimHidden"
+- "isSuspendedEventsOnly"
+- "jkr5aFPOh/d6zTzNKYthBw"
+- "kPHCarPlayDeleteButtonHideNotification"
+- "keyCommandHandler"
+- "keyCommandWithInput:modifierFlags:action:"
+- "keyIndex"
+- "keyPressed:"
+- "keypad-delete-arrow"
+- "keypad-delete-x"
+- "labelDescriptorWithStringsForCall:callCount:callCenter:alertAvailable:allowsDuration:"
+- "labelID"
+- "labelTextChangeTransition"
+- "largeContentTitle"
+- "lastDialedNumber"
+- "launchFieldTestIfNeeded:"
+- "layoutIsLocked:"
+- "layoutMonitor:didUpdateDisplayLayout:"
+- "layoutMonitor:didUpdateDisplayLayout:withContext:"
+- "layoutTextField"
+- "lcdViewTextFieldDelegate"
+- "leave-a-message"
+- "listenForChangesWithClosure:"
+- "loadedShouldSuppressShowingLastDialedNumberCache"
+- "localizedLettersForCharacter:"
+- "localizedLowercaseString"
+- "lvm_allowLockScreenSleepEnabled"
+- "mainDisplay"
+- "matchInfo"
+- "matchedPhoneNumberFor:searchText:"
+- "matchedProperties"
+- "matchedProperties:contains:"
+- "mav10"
+- "mav13"
+- "mav16"
+- "mav17"
+- "medicalIDViewControllerDidAppear:"
+- "medicalIDViewControllerDidCancel:"
+- "medicalIDViewControllerDidDelete:"
+- "medicalIDViewControllerDidFinish:"
+- "medicalIDViewControllerDidSave:"
+- "medicalIDViewControllerDidUpdate:"
+- "medicalid_v2"
+- "menuForPillView:"
+- "methodForSelector:"
+- "mostRecentCallHandleValue"
+- "nameAndLabelFontSize"
+- "nameAndLabelLabel"
+- "needsManualInCallSounds"
+- "networkReachable"
+- "newLCDView"
+- "newNumberPadView"
+- "newOverlayView"
+- "numberLabelFont"
+- "numberLabelHorizontalConstraints"
+- "numberLabelMaximumFontSize"
+- "numberLabelMinimumFontSize"
+- "numberPadCharacterForString:"
+- "openApplication:options:withResult:"
+- "openDefaultMessagingApp"
+- "originalBackgroundColor"
+- "outgoingRelayCallerID"
+- "paste:"
+- "pauseCharacterSet"
+- "pauseSpeakingAtNextBoundary:synchronously:error:"
+- "performCallActionForCallProvider:"
+- "performCallActionForCallProvider:video:"
+- "performCallActionForCallProvider:video:senderIdentity:"
+- "performDeleteAction"
+- "person.crop.circle"
+- "personNameComponentsFromString:"
+- "phCarPlayImageNamed:inBundle:"
+- "phImageNamed:"
+- "phPathForImageNamed:"
+- "phPathForImageNamed:inBundle:"
+- "phPreferredItalicFontForTextStyle:"
+- "phPreferredTightLeadingFontForTextStyle:"
+- "phoneKit_authorized"
+- "phoneNumberPrefixHint"
+- "phonePad:appendString:playDTMFTone:"
+- "phonePadViewTopConstraint"
+- "phonePadViewTopShouldConstrainToLCDView"
+- "pickRouteWithUniqueIdentifier:"
+- "pillView"
+- "pillViewHiddenOffset"
+- "pillViewTopConstraint"
+- "pillViewTopConstraintConstant"
+- "pillViewTopOffset"
+- "pillViewWasTapped:"
+- "pipPartialHomeOffset"
+- "pipRadius"
+- "pipWallInset"
+- "pipWidth"
+- "png"
+- "positionFromPosition:offset:"
+- "predicateForContactsMatchingFullTextSearch:containerIdentifiers:groupIdentifiers:"
+- "predicateForContactsMatchingHandleStrings:"
+- "predicateForContactsMatchingSmartDialerString:"
+- "preferShorterStrings"
+- "preferredFromID"
+- "preferredMaxLayoutWidth"
+- "prepareForSnapshot"
+- "previousTextSuggestion"
+- "primaryLabel"
+- "processNumberInLatin:"
+- "proximitySensorState"
+- "pseudoNameStringForDestinationID:"
+- "q32@0:8q16q24"
+- "queryController"
+- "radiosPreferences"
+- "rangeOfCharacterFromSet:options:"
+- "rangeOfString:options:"
+- "rangeToHighlightText:"
+- "reformatText"
+- "refreshIDStatusForDestinations:service:preferredFromID:listenerID:queue:completionBlock:"
+- "registerForRingerStateNotifications"
+- "remoteViewControllerLCDOffset"
+- "removeAllIndexes"
+- "replaceRange:withText:"
+- "requestAudioServicesActivate"
+- "requiredIDStatus(for:service:)"
+- "requiredIDStatusForDestinations:service:preferredFromID:listenerID:queue:completionBlock:"
+- "requiresSmallScreenConfig"
+- "resignFirstResponder"
+- "restoreLastDialedNumber"
+- "restrictedSubtitleForHandle:"
+- "ringCornerRadius"
+- "ringImageForDodge"
+- "ringImageForLuminance"
+- "ringStroke"
+- "ringerStateNotifyToken"
+- "ringerSwitchEnabled"
+- "sanitizedString"
+- "screeningPosterNameViewModel"
+- "searchButton"
+- "searchFor:shouldRefreshResult:completionHandler:"
+- "selectedSenderIdentity"
+- "selectedTextRange"
+- "selectionRange"
+- "send_to_voicemail"
+- "senderIdentityMenuForDialerField:selectedSenderIdentity:"
+- "setActionType:"
+- "setAddContactButtonTopConstraint:"
+- "setAlwaysUnifyLabeledValues:"
+- "setArrowDirection:"
+- "setAudioServicesActivated:"
+- "setAudioSessionID:"
+- "setBackgroundStyle:animated:"
+- "setBadgeText:"
+- "setCallButton:"
+- "setCallButtonKeypadOffsetConstraint:"
+- "setCellularRadioEnabled:"
+- "setCharge:"
+- "setContactCountButton:"
+- "setContactLabel:"
+- "setContentsIsSingleValue:"
+- "setCurrentCycleStringIndex:"
+- "setCustomSpacing:afterView:"
+- "setCycleTimer:"
+- "setDataURL:"
+- "setDeleteButton:"
+- "setDeleteButtonAlpha:"
+- "setDeleteButtonXView:"
+- "setDialLastDialedNumberByDoubleTap:"
+- "setDialerType:"
+- "setDiameter:"
+- "setDisplayedLabel:"
+- "setDisplayedName:"
+- "setEdgeInsets:"
+- "setEffectView:"
+- "setFeatureFlags:"
+- "setFontSize:"
+- "setFootprint:"
+- "setHeaderLayoutGuide:"
+- "setIconSizeRatio:"
+- "setIncludeDonatedContacts:"
+- "setIncludeSuggestedContacts:"
+- "setIsHostedInRemoteViewController:"
+- "setKeyIndex:"
+- "setLanguageCode:"
+- "setLargeContentTitle:"
+- "setLayoutTextField:"
+- "setLcdViewTextFieldDelegate:"
+- "setLoadedShouldSuppressShowingLastDialedNumberCache:"
+- "setMatchInfo:"
+- "setMedicalID:"
+- "setMenuVisible:animated:"
+- "setNameAndLabelLabel:"
+- "setNonEditingLinebreakMode:"
+- "setNumberLabelHorizontalConstraints:"
+- "setNumberTextField:"
+- "setOriginalBackgroundColor:"
+- "setPerformLocalDialAssist:"
+- "setPhoneNumberPrefixHint:"
+- "setPhonePadViewTopConstraint:"
+- "setPillView:"
+- "setPillViewTopConstraint:"
+- "setPredicate:"
+- "setPreferredMaxLayoutWidth:"
+- "setPreviousTextSuggestion:"
+- "setPrimaryLabel:"
+- "setProximitySensorState:"
+- "setRadiosPreferences:"
+- "setRingerStateNotifyToken:"
+- "setRingerSwitchEnabled:"
+- "setScreeningPosterNameViewModel:"
+- "setSearchButton:"
+- "setSelectedSenderIdentity:"
+- "setSelectedTextRange:"
+- "setSelectionRange:"
+- "setShouldHideDeleteButtonWhenEmpty:"
+- "setShouldSuppressShowingLastDialedNumber:"
+- "setShouldSuppressShowingLastDialedNumberCache:"
+- "setShowsDismissButton:"
+- "setShowsEmergencyAccessState:"
+- "setShowsLargeContentViewer:"
+- "setShowsShowWhenLockedState:"
+- "setSortOrder:"
+- "setSpecialDialerCharacters:"
+- "setSpringBoardLocked:"
+- "setTag:"
+- "setTargetRect:inView:"
+- "setThumbnailURL:"
+- "setTitle:subtitle:subtitleColor:localizedSenderIdentityTitle:animated:"
+- "setTranscript:"
+- "setUnicodeDirectionalCharactersSet:"
+- "setUsesSmallerFontSize:"
+- "setVoiceName:"
+- "setWantsCallButtonAnimation:"
+- "setWritingToolsBehavior:"
+- "sharedControllerWithCoalescingStrategy:options:"
+- "sharedMenuController"
+- "sharedMonitorForDisplayType:"
+- "shouldAnimateCallButton"
+- "shouldHideDeleteButtonWhenEmpty"
+- "shouldInsertStringAtCurrentPosition:deletingPreviousCharacter:"
+- "shouldPlayInCallSounds"
+- "shouldPresentDismissedForCall:"
+- "shouldPresentDismissedForCall: callStatus:%@, isExpanseMessages:%@, isConversation:%@, isOutgoing:%@, isAudioCall:%@, wantsStagingArea:%@ avLessWantsDismised:%@ callProviderWantsDismissed:%@"
+- "shouldPrioritizeName"
+- "shouldPrioritizeNumber"
+- "shouldRestrictAddresses:forBundleIdentifier:"
+- "shouldSnapshot"
+- "shouldStringAutoDial:givenLastChar:"
+- "shouldSuppressShowingLastDialedNumber"
+- "shouldSuppressShowingLastDialedNumberCache"
+- "shouldUseExplicitLayoutDimensions"
+- "showName:label:animated:"
+- "showOrHideDeleteButton"
+- "showRestrictedAlertWithMessage:"
+- "showWritingTools:"
+- "showsLargeContentViewer"
+- "sizeCategory"
+- "smallWidth"
+- "smartDialerEnabled"
+- "smartDialerRankingEnabled"
+- "sms://open?groupid="
+- "softlink:r:path:/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices"
+- "spacingBetweenContactResultButtons"
+- "spacingBetweenNumberAndContactResult"
+- "specialDialerCharacters"
+- "speechSynthesizer:didContinueSpeakingRequest:"
+- "speechSynthesizer:didFinishPresynthesizedAudioRequest:withInstrumentMetrics:error:"
+- "speechSynthesizer:didFinishPrewarmRequest:withError:"
+- "speechSynthesizer:didFinishSpeakingRequest:successfully:phonemesSpoken:withError:"
+- "speechSynthesizer:didFinishSpeakingRequest:withInstrumentMetrics:"
+- "speechSynthesizer:didFinishSynthesisRequest:withInstrumentMetrics:error:"
+- "speechSynthesizer:didPauseSpeakingRequest:"
+- "speechSynthesizer:didStartPresynthesizedAudioRequest:"
+- "speechSynthesizer:didStartSpeakingRequest:"
+- "speechSynthesizer:didStopPresynthesizedAudioRequest:atEnd:error:"
+- "speechSynthesizer:willSpeakRangeOfSpeechString:forRequest:"
+- "speechSynthesizer:withRequest:didReceiveTimingInfo:"
+- "speechSynthesizer:withSynthesisRequest:didGenerateAudioChunk:"
+- "springBoardLocked"
+- "springBoardPasscodeLocked"
+- "starAndOctothorpeCharacterSet"
+- "startSpeakingRequest:"
+- "stateForNotifyToken:"
+- "stopSpeakingAtNextBoundary:synchronously:error:"
+- "stopWithReason:"
+- "storeWithOptions:"
+- "stringByRemovingCharactersFromSet:"
+- "stringByRemovingDiatrics"
+- "stringFromPersonNameComponents:"
+- "stringWithString:"
+- "subscribedAccounts"
+- "subscribedAccountsDidChange"
+- "substringWithRange:"
+- "suggestionsEnabled"
+- "supportsSendMessageIntent"
+- "supportsSimultaneousVoiceAndData"
+- "symbolScaleForSymbolType:sizeCategory:"
+- "systemGray3Color"
+- "tabBarIconImage"
+- "tabBarIconName"
+- "tabViewType"
+- "tableViewCellVerticalSpacing"
+- "tag"
+- "textField:didPasteString:"
+- "textField:didUpdateString:"
+- "textField:editMenuForCharactersInRange:suggestedActions:"
+- "textField:insertInputSuggestion:"
+- "textField:shouldChangeCharactersInRange:replacementString:"
+- "textField:willDismissEditMenuWithAnimator:"
+- "textField:willPresentEditMenuWithAnimator:"
+- "textFieldDidBeginEditing:"
+- "textFieldDidChangeSelection:"
+- "textFieldDidEndEditing:"
+- "textFieldDidEndEditing:reason:"
+- "textFieldShouldClear:"
+- "textFieldShouldEndEditing:"
+- "textFieldShouldReturn:"
+- "textInRange:"
+- "textInputTraits"
+- "textRangeFromPosition:toPosition:"
+- "textStyleForSizeCategory:"
+- "titleRectYOffset"
+- "touchesBegan:withEvent:"
+- "touchesForView:"
+- "tpFlattenedWithColor:"
+- "tpImageForSymbolType:textStyle:scale:symbolWeight:"
+- "transformToAbutToEdge:ofView:"
+- "unformattedNumber"
+- "unformattedNumberInLatin"
+- "unformattedText"
+- "unicodeDirectionalCharactersSet"
+- "unregisterForRingerStateNotifications"
+- "updateAddAndDeleteButtonForText:name:animated:"
+- "updateAddAndDeleteButtonForText:name:label:suggestion:animated:"
+- "updateContraintsForStatusBar"
+- "updateImageViewAlpha"
+- "usesSmallerFontSize"
+- "v16@?0@\"NSDictionary\"8"
+- "v20@0:8C16"
+- "v24@0:8@\"<DialerLCDFieldProtocol>\"16"
+- "v24@0:8@\"HKMedicalIDViewController\"16"
+- "v24@0:8@\"TPPillView\"16"
+- "v24@0:8@\"UITextField\"16"
+- "v24@0:8@\"_TtC18ActivityUIServices18ActivityEdgeInsets\"16"
+- "v32@0:8@\"<DialerLCDFieldProtocol>\"16@\"NSString\"24"
+- "v32@0:8@\"FBSDisplayLayoutMonitor\"16@\"FBSDisplayLayout\"24"
+- "v32@0:8@\"PHLCDViewTextField\"16@\"NSString\"24"
+- "v32@0:8@\"TUHandle\"16@?<v@?B>24"
+- "v32@0:8@\"UIApplication\"16@\"NSString\"24"
+- "v32@0:8@\"UIApplication\"16@\"UICanvas\"24"
+- "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextField\"16q24"
+- "v32@0:8@\"VSSpeechSynthesizer\"16@\"VSPresynthesizedAudioRequest\"24"
+- "v32@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24"
+- "v32@?0@\"CNContact\"8@\"CNContactMatchInfo\"16^B24"
+- "v32@?0{_NSRange=QQ}8^B24"
+- "v36@0:8@\"NSString\"16B24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"FBSDisplayLayoutMonitor\"16@\"FBSDisplayLayout\"24@\"FBSDisplayLayoutTransitionContext\"32"
+- "v40@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24@\"NSArray\"32"
+- "v40@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24@\"NSError\"32"
+- "v40@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24@\"VSAudioData\"32"
+- "v40@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24@\"VSInstrumentMetrics\"32"
+- "v44@0:8@\"VSSpeechSynthesizer\"16@\"VSPresynthesizedAudioRequest\"24B32@\"NSError\"36"
+- "v44@0:8@16@24B32@36"
+- "v48@0:8@\"VSSpeechSynthesizer\"16@\"VSPresynthesizedAudioRequest\"24@\"VSInstrumentMetrics\"32@\"NSError\"40"
+- "v48@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24@\"VSInstrumentMetrics\"32@\"NSError\"40"
+- "v48@0:8@\"VSSpeechSynthesizer\"16{_NSRange=QQ}24@\"VSSpeechRequest\"40"
+- "v48@0:8@16@24@32B40B44"
+- "v52@0:8@\"VSSpeechSynthesizer\"16@\"VSSpeechRequest\"24B32@\"NSString\"36@\"NSError\"44"
+- "v52@0:8@16@24@32@40B48"
+- "v52@0:8@16@24B32@36@44"
+- "validNetworkReachable"
+- "valueForCapability:"
+- "viewControllerDidRequestAddParticipants:"
+- "voicemailLayoutSpacing"
+- "voicemailProvider"
+- "wantsCallButtonAnimation"
+- "weightForSymbolType:"
+- "whitespaceCharacterSet"
+- "wifiAllowedForBundleId:"
+- "xOriginForCenterOfSuperview"
+- "yOffsetForDialerLCDView"
+- "yOffsetForDialerLCDViewForDxDevices"
+- "yOffsetForParticipantsView"
+- "yOffsetForSmartDialerLCDView"
+- "yOffsetFromKeypadToDialerButtonForExplictLayoutDevices"
+- "yOffsetFromKeypadToLCDViewForExplicitLayoutDevices"
+- "yOriginForCenterOfSuperview"
+- "{CGAffineTransform=dddddd}32@0:8Q16@24"
+- "{_NSRange=QQ}24@0:8@16"
+- "|[nameAndLabelLabel]|"
+- "|[numberLabel]|"
+- "\xf1\xf1"
+
+```

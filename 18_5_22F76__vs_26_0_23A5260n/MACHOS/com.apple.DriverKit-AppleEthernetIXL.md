@@ -1,0 +1,444 @@
+## com.apple.DriverKit-AppleEthernetIXL
+
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXL.dext/com.apple.DriverKit-AppleEthernetIXL`
+
+```diff
+
+-62.120.2.0.0
+-  __TEXT.__text: 0x1bd60
+-  __TEXT.__auth_stubs: 0x560
+-  __TEXT.__const: 0xef8
+-  __TEXT.__cstring: 0x4039
+-  __TEXT.__oslogstring: 0x1a2f
+-  __DATA_CONST.__auth_got: 0x2b0
++109.0.1.0.0
++  __TEXT.__text: 0x1ba18
++  __TEXT.__auth_stubs: 0x5a0
++  __TEXT.__const: 0xb38
++  __TEXT.__cstring: 0x3f19
++  __TEXT.__oslogstring: 0x19ea
++  __DATA_CONST.__auth_got: 0x2d0
+   __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0x10d8
+-  __DATA_CONST.__osclassinfo: 0x38
++  __DATA_CONST.__const: 0xd40
++  __DATA_CONST.__osclassinfo: 0x20
+   __DATA.__data: 0x548
+-  __DATA.__common: 0x48
++  __DATA.__bss: 0xc
++  __DATA.__common: 0x30
+   - /System/DriverKit/System/Library/Frameworks/DriverKit.framework/DriverKit
+   - /System/DriverKit/System/Library/Frameworks/NetworkingDriverKit.framework/NetworkingDriverKit
+   - /System/DriverKit/System/Library/Frameworks/PCIDriverKit.framework/PCIDriverKit
+   - /System/DriverKit/usr/lib/libc++.dylib
+-  UUID: 60C891B5-13F4-33CB-9CE4-FB9EB5ABFD55
+-  Functions: 535
+-  Symbols:   505
+-  CStrings:  612
++  UUID: D823A605-2D20-3C6C-8F1F-CFB2804C0EBB
++  Functions: 522
++  Symbols:   2957
++  CStrings:  605
+ 
+Symbols:
++ 
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/DerivedSources/com.apple.DriverKit-AppleEthernetIXL/
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/AppleEthernetIXL.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/DriverKit_AppleEthernetIXL.iig.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/DriverKit_AppleEthernetIXL_NetIf.iig.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/DriverKit_Ethernet.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/en_main.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/en_port.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/en_rx.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/en_tx.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/en_txrx.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/eq.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_adminq.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_common.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_dcb.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_hmc.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_lan_hmc.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/i40e_nvm.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/ixl_pf_i2c.o
++ /Library/Caches/com.apple.xbs/Binaries/ApplePCINetworking_driverkit/install/TempContent/Objects/ApplePCINetworking.build/AppleEthernetIXL.build/Objects-normal/arm64e/ixl_pf_qmgr.o
++ /Library/Caches/com.apple.xbs/Sources/ApplePCINetworking_driverkit/AppleEthernetIXL/
++ /Library/Caches/com.apple.xbs/Sources/ApplePCINetworking_driverkit/AppleEthernetIXL/shared/
++ AppleEthernetIXL.cpp
++ DriverKit_AppleEthernetIXL.iig.cpp
++ DriverKit_AppleEthernetIXL_NetIf.iig.cpp
++ DriverKit_Ethernet.cpp
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _Z21i40e_allocate_dma_memP7i40e_hwP12i40e_dma_mem16i40e_memory_typeyj.cold.1
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.1
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.10
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.11
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.12
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.13
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.14
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.15
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.16
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.17
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.18
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.19
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.2
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.20
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.3
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.4
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.5
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.6
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.7
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.8
++ _ZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOService.cold.9
++ _ZN26DriverKit_AppleEthernetIXL18SetPowerState_ImplEj.cold.1
++ _ZN26DriverKit_AppleEthernetIXL9Stop_ImplEP9IOService.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars12enableRxRingEPN3ixl11ixl_pf_qtagEt.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars12enableRxRingEPN3ixl11ixl_pf_qtagEt.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars12enableTxRingEPN3ixl11ixl_pf_qtagEt.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars12enableTxRingEPN3ixl11ixl_pf_qtagEt.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars13disableRxRingEPN3ixl11ixl_pf_qtagEt.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars13disableRxRingEPN3ixl11ixl_pf_qtagEt.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars13disableTxRingEPN3ixl11ixl_pf_qtagEt.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars13disableTxRingEPN3ixl11ixl_pf_qtagEt.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars18update_link_statusEv.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars18update_link_statusEv.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars18update_link_statusEv.cold.3
++ _ZN32DriverKit_AppleEthernetIXL_IVars18update_link_statusEv.cold.4
++ _ZN32DriverKit_AppleEthernetIXL_IVars19handle_rx_mdd_eventEv.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars19handle_rx_mdd_eventEv.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars19handle_tx_mdd_eventEv.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars4loadEb.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars5probeEP11IOPCIDevice.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars5probeEP11IOPCIDevice.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars5probeEP11IOPCIDevice.cold.3
++ _ZN32DriverKit_AppleEthernetIXL_IVars6unloadEv.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars8reset_hwEv.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_IVars8reset_hwEv.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_IVars8reset_hwEv.cold.3
++ _ZN32DriverKit_AppleEthernetIXL_IVars8reset_hwEv.cold.4
++ _ZN32DriverKit_AppleEthernetIXL_NetIf20SelectMediaType_ImplEj.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_NetIf23SetInterfaceEnable_ImplEb.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_NetIf23SetInterfaceEnable_ImplEb.cold.2
++ _ZN32DriverKit_AppleEthernetIXL_NetIf30SetAllMulticastModeEnable_ImplEb.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_NetIf31SetWakeOnMagicPacketEnable_ImplEb.cold.1
++ _ZN32DriverKit_AppleEthernetIXL_NetIf9Stop_ImplEP9IOService.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.10
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.11
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.12
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.13
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.14
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.3
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.4
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.5
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.6
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.7
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.8
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj.cold.9
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17handleChosenMediaEj.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17handleChosenMediaEj.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17setMcastAddressesEPhj.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17setMcastAddressesEPhj.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars22getSupportedMediaArrayEPjS0_.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars22getSupportedMediaArrayEPjS0_.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars2upEv.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars2upEv.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars2upEv.cold.3
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars2upEv.cold.4
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars4downEv.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars4downEv.cold.2
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars6enableEv.cold.1
++ _ZN38DriverKit_AppleEthernetIXL_NetIf_IVars6selMedEj.cold.1
++ _ZN3ixl11ixl_pf_qmgr14get_first_freeEt.cold.1
++ _ZN3ixl11ixl_pf_qmgr15alloc_scatteredEtPNS_11ixl_pf_qtagE.cold.1
++ _ZN3ixl11ixl_pf_qmgr15alloc_scatteredEtPNS_11ixl_pf_qtagE.cold.2
++ _ZN3ixl11ixl_pf_qmgr16alloc_contiguousEtPNS_11ixl_pf_qtagE.cold.1
++ _ZN3ixl11ixl_pf_qmgr16is_queue_enabledEPNS_11ixl_pf_qtagEtb.cold.1
++ _ZN3ixl11ixl_pf_qmgr16is_queue_enabledEPNS_11ixl_pf_qtagEtb.cold.2
++ _ZN3ixl11ixl_pf_qmgr17clear_queue_flagsEPNS_11ixl_pf_qtagE.cold.1
++ _ZN3ixl11ixl_pf_qmgr18mark_queue_enabledEPNS_11ixl_pf_qtagEtb.cold.1
++ _ZN3ixl11ixl_pf_qmgr18mark_queue_enabledEPNS_11ixl_pf_qtagEtb.cold.2
++ _ZN3ixl11ixl_pf_qmgr19is_queue_configuredEPNS_11ixl_pf_qtagEtb.cold.1
++ _ZN3ixl11ixl_pf_qmgr19is_queue_configuredEPNS_11ixl_pf_qtagEtb.cold.2
++ _ZN3ixl11ixl_pf_qmgr19mark_queue_disabledEPNS_11ixl_pf_qtagEtb.cold.1
++ _ZN3ixl11ixl_pf_qmgr19mark_queue_disabledEPNS_11ixl_pf_qtagEtb.cold.2
++ _ZN3ixl11ixl_pf_qmgr21mark_queue_configuredEPNS_11ixl_pf_qtagEtb.cold.1
++ _ZN3ixl11ixl_pf_qmgr21mark_queue_configuredEPNS_11ixl_pf_qtagEtb.cold.2
++ _ZN3ixl11ixl_pf_qmgr4initEt.cold.1
++ _ZN3ixl11ixl_pf_qmgr7releaseEPNS_11ixl_pf_qtagE.cold.1
++ _ZNK38DriverKit_AppleEthernetIXL_NetIf_IVars10txCompleteEj.cold.1
++ _ZNK38DriverKit_AppleEthernetIXL_NetIf_IVars6rxSyncEj.cold.1
++ _ZZN38DriverKit_AppleEthernetIXL_NetIf_IVars13allocateRingsEvENK3$_0clEP11IOPCIDeviceRN6pcindk7EthRingEjm.cold.1
++ _ZZN38DriverKit_AppleEthernetIXL_NetIf_IVars13allocateRingsEvENK3$_0clEP11IOPCIDeviceRN6pcindk7EthRingEjm.cold.2
++ __NSConcreteGlobalBlock
++ __ZL11cancelCount
++ __ZL16i40e_led_is_mineP7i40e_hwi
++ __ZL16i40e_read_nvm_aqP7i40e_hwhjtPvb
++ __ZL17i40e_remove_sd_bpP7i40e_hwP13i40e_hmc_infoj
++ __ZL17i40e_set_hw_flagsP7i40e_hw
++ __ZL17vendor_info_array
++ __ZL18i40e_free_asq_bufsP7i40e_hw
++ __ZL18i40e_mirrorrule_opP7i40e_hwtttttPtP20i40e_asq_cmd_detailsS1_S1_S1_
++ __ZL19_i40e_read_lldp_cfgP7i40e_hwP19i40e_lldp_variableshj
++ __ZL19i40e_remove_pd_pageP7i40e_hwP13i40e_hmc_infoj
++ __ZL20i40e_config_arq_regsP7i40e_hw
++ __ZL20i40e_config_asq_regsP7i40e_hw
++ __ZL20i40e_get_hmc_contextPhP16i40e_context_eleS_
++ __ZL20i40e_hmc_rxq_ce_info
++ __ZL20i40e_hmc_txq_ce_info
++ __ZL20i40e_nvmupd_nvm_readP7i40e_hwP15i40e_nvm_accessPhPi
++ __ZL20i40e_set_hmc_contextPhP16i40e_context_eleS_
++ __ZL21i40e_nvmupd_nvm_writeP7i40e_hwP15i40e_nvm_accessPhPi
++ __ZL22i40e_hmc_get_object_vaP7i40e_hwPPh22i40e_hmc_lan_rsrc_typej
++ __ZL23i40e_aq_get_set_rss_keyP7i40e_hwtP29i40e_aqc_get_set_rss_key_datab
++ __ZL23i40e_aq_get_set_rss_lutP7i40e_hwtbPhtb
++ __ZL23i40e_read_nvm_buffer_aqP7i40e_hwtPtS1_
++ __ZL24i40e_get_ieee_dcb_configP7i40e_hw
++ __ZL25i40e_nvm_update_state_str
++ __ZL26i40e_read_nvm_buffer_srctlP7i40e_hwtPtS1_
++ __ZL27i40e_poll_sr_srctl_done_bitP7i40e_hw
++ __ZL28i40e_nvmupd_validate_commandP7i40e_hwP15i40e_nvm_accessPi
++ __ZL29i40e_mdio_if_number_selectionP7i40e_hwbhP28i40e_aqc_phy_register_access
++ __ZL30DriverKit_AppleEthernetIXL_NewP11OSMetaClass
++ __ZL36DriverKit_AppleEthernetIXL_NetIf_NewP11OSMetaClass
++ __ZL45OSClassDescription_DriverKit_AppleEthernetIXL
++ __ZL51OSClassDescription_DriverKit_AppleEthernetIXL_NetIf
++ __ZL54OSAction_DriverKit_AppleEthernetIXL_OtherInterrupt_NewP11OSMetaClass
++ __ZL54OSAction_DriverKit_AppleEthernetIXL_QueueInterrupt_NewP11OSMetaClass
++ __ZL69OSClassDescription_OSAction_DriverKit_AppleEthernetIXL_OtherInterrupt
++ __ZL69OSClassDescription_OSAction_DriverKit_AppleEthernetIXL_QueueInterrupt
++ __ZL7IXL_dev
++ __ZN15OSMetaClassBase6InvokeE5IORPC
++ __ZN16IODispatchSource6CancelEU13block_pointerFvvEPFiP15OSMetaClassBase5IORPCE
++ __ZN25IODataQueueDispatchSource15IsDataAvailableEv
++ __ZN30IOUserNetworkRxSubmissionQueue12_SetDoorbellEP25IOInterruptDispatchSourcePFiP15OSMetaClassBase5IORPCE
++ __ZN30IOUserNetworkTxSubmissionQueue12_SetDoorbellEP25IOInterruptDispatchSourcePFiP15OSMetaClassBase5IORPCE
++ __ZN32DriverKit_AppleEthernetIXL_IVars10config_rssEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars10i2cSetDataEPjb
++ __ZN32DriverKit_AppleEthernetIXL_IVars11i2cBusClearEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars11i2cLowerClkEPj
++ __ZN32DriverKit_AppleEthernetIXL_IVars11i2cRaiseClkEPj
++ __ZN32DriverKit_AppleEthernetIXL_IVars11i2cReadByteEhhPh
++ __ZN32DriverKit_AppleEthernetIXL_IVars12disableRingsEP38DriverKit_AppleEthernetIXL_NetIf_IVarsPN3ixl11ixl_pf_qtagE
++ __ZN32DriverKit_AppleEthernetIXL_IVars12enableRxRingEPN3ixl11ixl_pf_qtagEt
++ __ZN32DriverKit_AppleEthernetIXL_IVars12enableTxRingEPN3ixl11ixl_pf_qtagEt
++ __ZN32DriverKit_AppleEthernetIXL_IVars12enable_intr0Ev
++ __ZN32DriverKit_AppleEthernetIXL_IVars12enable_queueEP7i40e_hwi
++ __ZN32DriverKit_AppleEthernetIXL_IVars12i2cWriteByteEhhh
++ __ZN32DriverKit_AppleEthernetIXL_IVars12shutdown_hmcEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars13configure_itrEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars13disableRxRingEPN3ixl11ixl_pf_qtagEt
++ __ZN32DriverKit_AppleEthernetIXL_IVars13disableTxRingEPN3ixl11ixl_pf_qtagEt
++ __ZN32DriverKit_AppleEthernetIXL_IVars13disable_intr0Ev
++ __ZN32DriverKit_AppleEthernetIXL_IVars13disable_queueEP7i40e_hwi
++ __ZN32DriverKit_AppleEthernetIXL_IVars13getLinkStatusEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars13i2cClockInBitEPb
++ __ZN32DriverKit_AppleEthernetIXL_IVars13switch_configEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars14i2cClockOutBitEb
++ __ZN32DriverKit_AppleEthernetIXL_IVars14i2cReadByte_aqEhhPh
++ __ZN32DriverKit_AppleEthernetIXL_IVars14i2cReadByte_bbEhhPh
++ __ZN32DriverKit_AppleEthernetIXL_IVars14process_adminqEPt
++ __ZN32DriverKit_AppleEthernetIXL_IVars15i2cClockOutByteEh
++ __ZN32DriverKit_AppleEthernetIXL_IVars15i2cReadByte_regEhhPh
++ __ZN32DriverKit_AppleEthernetIXL_IVars15i2cWriteByte_aqEhhh
++ __ZN32DriverKit_AppleEthernetIXL_IVars15i2cWriteByte_bbEhhh
++ __ZN32DriverKit_AppleEthernetIXL_IVars16configure_legacyEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars16configure_rx_itrEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars16configure_tx_itrEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars16handle_mdd_eventEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars16i2cWriteByte_regEhhh
++ __ZN32DriverKit_AppleEthernetIXL_IVars16otherIntrHandlerEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars16queueIntrHandlerEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars17getHWcapabilitiesEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars18update_link_statusEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars19handle_rx_mdd_eventEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars19handle_tx_mdd_eventEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars20configure_intr0_msixEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars20i2cWaitForCompletionEh
++ __ZN32DriverKit_AppleEthernetIXL_IVars25configure_queue_intr_msixEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars4loadEb
++ __ZN32DriverKit_AppleEthernetIXL_IVars5probeEP11IOPCIDevice
++ __ZN32DriverKit_AppleEthernetIXL_IVars5startEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars6unloadEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars7i2cStopEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars7setLinkEb
++ __ZN32DriverKit_AppleEthernetIXL_IVars8i2cStartEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars8reset_hwEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars9getFWmodeEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars9i2cGetAckEv
++ __ZN32DriverKit_AppleEthernetIXL_IVars9setup_hmcEv
++ __ZN32DriverKit_AppleEthernetIXL_NetIf11PlaceHolderEPFiP15OSMetaClassBase5IORPCE
++ __ZN32DriverKit_AppleEthernetIXL_NetIf13getTSOOptionsEP23IOUserNetworkTSOOptions
++ __ZN32DriverKit_AppleEthernetIXL_NetIf16PlaceHolder_ImplEv
++ __ZN32DriverKit_AppleEthernetIXL_NetIf18PlaceHolder_InvokeE5IORPCP15OSMetaClassBasePFvS2_E
++ __ZN32DriverKit_AppleEthernetIXL_NetIf18getHardwareAddressEP10ether_addr
++ __ZN32DriverKit_AppleEthernetIXL_NetIf18setHardwareAssistsEjj
++ __ZN32DriverKit_AppleEthernetIXL_NetIf9Stop_ImplEP9IOService
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars10add_filterEPKhs
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars10del_filterEPKhs
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars11find_filterEPN3ixl12ixl_ftl_headEPKhs
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars11promisc_setEi
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars12free_filtersEPN3ixl12ixl_ftl_headE
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars12init_filtersEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars13allocateRingsEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14add_hw_filtersEPN3ixl12ixl_ftl_headEi
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14del_hw_filtersEPN3ixl12ixl_ftl_headEi
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars14startInterfaceEj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars16add_vlan_filtersEPKh
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17handleChosenMediaEj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars17setMcastAddressesEPhj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars18getHardwareAddressEP10ether_addr
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars18getHardwareAssistsEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars18setHardwareAssistsEjj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars19reconfigure_filtersEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars20del_all_vlan_filtersEPKh
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars22del_default_hw_filtersEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars22getSupportedMediaArrayEPjS0_
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars24setPromiscuousModeEnableEbj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars25setAllMulticastModeEnableEb
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars2upEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars4downEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars5drainERN6pcindk7EthRingE
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars6enableEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars6selMedEj
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars7disableEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars9add_multiEv
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars9del_multiEb
++ __ZN38DriverKit_AppleEthernetIXL_NetIf_IVars9freeRingsEv
++ __ZN3ixl11ixl_pf_qmgr12get_num_freeEv
++ __ZN3ixl11ixl_pf_qmgr14get_first_freeEt
++ __ZN3ixl11ixl_pf_qmgr14get_num_queuesEv
++ __ZN3ixl11ixl_pf_qmgr15alloc_scatteredEtPNS_11ixl_pf_qtagE
++ __ZN3ixl11ixl_pf_qmgr16alloc_contiguousEtPNS_11ixl_pf_qtagE
++ __ZN3ixl11ixl_pf_qmgr16is_queue_enabledEPNS_11ixl_pf_qtagEtb
++ __ZN3ixl11ixl_pf_qmgr17clear_queue_flagsEPNS_11ixl_pf_qtagE
++ __ZN3ixl11ixl_pf_qmgr18mark_queue_enabledEPNS_11ixl_pf_qtagEtb
++ __ZN3ixl11ixl_pf_qmgr19is_queue_configuredEPNS_11ixl_pf_qtagEtb
++ __ZN3ixl11ixl_pf_qmgr19mark_queue_disabledEPNS_11ixl_pf_qtagEtb
++ __ZN3ixl11ixl_pf_qmgr21mark_queue_configuredEPNS_11ixl_pf_qtagEtb
++ __ZN3ixl11ixl_pf_qmgr26find_free_contiguous_blockEi
++ __ZN3ixl11ixl_pf_qmgr4initEt
++ __ZN3ixl11ixl_pf_qmgr7releaseEPNS_11ixl_pf_qtagE
++ __ZNK19IOUserNetworkPacket19GetPacketBufferPoolEPP29IOUserNetworkPacketBufferPool
++ __ZNK38DriverKit_AppleEthernetIXL_NetIf_IVars10txCompleteEj
++ __ZNK38DriverKit_AppleEthernetIXL_NetIf_IVars6rxSyncEj
++ __ZNK38DriverKit_AppleEthernetIXL_NetIf_IVars8txSubmitEj
++ __ZNK50OSAction_DriverKit_AppleEthernetIXL_OtherInterrupt12getMetaClassEv
++ __ZNK50OSAction_DriverKit_AppleEthernetIXL_QueueInterrupt12getMetaClassEv
++ __ZThn48_N32DriverKit_AppleEthernetIXL_NetIf13getTSOOptionsEP23IOUserNetworkTSOOptions
++ __ZThn48_N32DriverKit_AppleEthernetIXL_NetIf18getHardwareAddressEP10ether_addr
++ __ZThn48_N32DriverKit_AppleEthernetIXL_NetIf18setHardwareAssistsEjj
++ __ZZN26DriverKit_AppleEthernetIXL10Start_ImplEP9IOServiceEN3$_08__invokeEv
++ __ZZN38DriverKit_AppleEthernetIXL_NetIf_IVars13allocateRingsEvENK3$_0clEP11IOPCIDeviceRN6pcindk7EthRingEjm
++ ____ZN26DriverKit_AppleEthernetIXL9Stop_ImplEP9IOService_block_invoke
++ ____ZN32DriverKit_AppleEthernetIXL_NetIf23SetInterfaceEnable_ImplEb_block_invoke
++ ____ZN6pcindkL15enqueueRxPacketEP25IODataQueueDispatchSourceP24IOUserNetworkPacketState_block_invoke
++ ____ZN6pcindkL15enqueueTxPacketEP25IODataQueueDispatchSourceP24IOUserNetworkPacketState_block_invoke
++ ___block_descriptor_tmp
++ ___block_literal_global
++ ___copy_helper_block_8_32r
++ ___destroy_helper_block_8_32r
++ __block_descriptor_tmp.28
++ _gDriverKit_AppleEthernetIXL_Declaration
++ _gDriverKit_AppleEthernetIXL_NetIf_Declaration
++ _gOSAction_DriverKit_AppleEthernetIXL_OtherInterrupt_Declaration
++ _gOSAction_DriverKit_AppleEthernetIXL_QueueInterrupt_Declaration
++ _pcindkid
++ _pcindkll
++ en_main.cpp
++ en_port.cpp
++ en_rx.cpp
++ en_tx.cpp
++ en_txrx.cpp
++ eq.cpp
++ i40e_adminq.c
++ i40e_common.c
++ i40e_dcb.c
++ i40e_hmc.c
++ i40e_lan_hmc.c
++ i40e_nvm.c
++ ixl_pf_i2c.cpp
++ ixl_pf_qmgr.cpp
+- _OSAction_DriverKit_AppleEthernetIXL_LegacyInterrupt_Class
+- _OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmit_Class
+- _OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmit_Class
+- __ZN21IOUserNetworkEthernet13getTSOOptionsEP23IOUserNetworkTSOOptions
+- __ZN21IOUserNetworkEthernet18getHardwareAddressEP10ether_addr
+- __ZN21IOUserNetworkEthernet18setHardwareAssistsEjj
+- __ZN25IODataQueueDispatchSource20DataAvailable_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionEPK11OSMetaClass
+- __ZN25IODataQueueDispatchSource23SetDataAvailableHandlerEP8OSActionPFiP15OSMetaClassBase5IORPCE
+- __ZN26DriverKit_AppleEthernetIXL20LegacyInterrupt_ImplEP8OSActionyy
+- __ZN26DriverKit_AppleEthernetIXL27CreateActionLegacyInterruptEmPP8OSAction
+- __ZN32DriverKit_AppleEthernetIXL_NetIf13RxSubmit_ImplEP8OSAction
+- __ZN32DriverKit_AppleEthernetIXL_NetIf13TxSubmit_ImplEP8OSAction
+- __ZN32DriverKit_AppleEthernetIXL_NetIf20CreateActionRxSubmitEmPP8OSAction
+- __ZN32DriverKit_AppleEthernetIXL_NetIf20CreateActionTxSubmitEmPP8OSAction
+- __ZN50OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmit8DispatchE5IORPC
+- __ZN50OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmit9_DispatchEPS_5IORPC
+- __ZN50OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmit8DispatchE5IORPC
+- __ZN50OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmit9_DispatchEPS_5IORPC
+- __ZN51OSAction_DriverKit_AppleEthernetIXL_LegacyInterrupt8DispatchE5IORPC
+- __ZN51OSAction_DriverKit_AppleEthernetIXL_LegacyInterrupt9_DispatchEPS_5IORPC
+- __ZN59OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmitMetaClass3NewEP8OSObject
+- __ZN59OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmitMetaClass8DispatchE5IORPC
+- __ZN59OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmitMetaClass3NewEP8OSObject
+- __ZN59OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmitMetaClass8DispatchE5IORPC
+- __ZN60OSAction_DriverKit_AppleEthernetIXL_LegacyInterruptMetaClass3NewEP8OSObject
+- __ZN60OSAction_DriverKit_AppleEthernetIXL_LegacyInterruptMetaClass8DispatchE5IORPC
+- __ZTV50OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmit
+- __ZTV50OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmit
+- __ZTV51OSAction_DriverKit_AppleEthernetIXL_LegacyInterrupt
+- __ZTV59OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmitMetaClass
+- __ZTV59OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmitMetaClass
+- __ZTV60OSAction_DriverKit_AppleEthernetIXL_LegacyInterruptMetaClass
+- __ZThn48_N21IOUserNetworkEthernet13getTSOOptionsEP23IOUserNetworkTSOOptions
+- __ZThn48_N21IOUserNetworkEthernet18getHardwareAddressEP10ether_addr
+- __ZThn48_N21IOUserNetworkEthernet18setHardwareAssistsEjj
+- _gOSAction_DriverKit_AppleEthernetIXL_LegacyInterruptMetaClass
+- _gOSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmitMetaClass
+- _gOSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmitMetaClass
+- radr://5614542
+CStrings:
++ "!IOUserNetworkPacketBufferPool::CreateWithOptions(pciDev, poolName, &poolOptions, &rx_pool)"
++ "!IOUserNetworkPacketBufferPool::CreateWithOptions(pciDev, poolName, &poolOptions, &tx_pool)"
++ "!IOUserNetworkRxCompletionQueue::Create(rx_pool, owner, RX_RING_SIZE, 0, dq, &rx_ring[i].cmp_q)"
++ "!IOUserNetworkRxSubmissionQueue::Create(rx_pool, owner, RX_RING_SIZE, 0, dq, &rx_ring[i].sub_q)"
++ "!IOUserNetworkTxCompletionQueue::Create(tx_pool, owner, TX_RING_SIZE >> 1, 0, dq, &tx_ring[i].cmp_q)"
++ "!IOUserNetworkTxSubmissionQueue::Create(tx_pool, owner, TX_RING_SIZE >> 1, 0, dq, &tx_ring[i].sub_q)"
++ "!owner->registerEthernetInterface(queues, rx_num_queues * 4, tx_pool, rx_pool)"
++ "!rx_ring[i].sub_q->_SetDoorbell(mdev->intSource[1 + i])"
++ "!tx_ring[i].sub_q->_SetDoorbell(mdev->intSource[1 + i])"
++ "PlaceHolder_Impl"
++ "false"
++ "ixl:(%s): %s(%d): %p\n"
++ "tx"
+- "!IOUserNetworkPacketBufferPool::CreateWithOptions(pciDev, poolName, &poolOptions, &pool)"
+- "!IOUserNetworkRxCompletionQueue::Create(pool, owner, RX_RING_SIZE, 0, dq, &rx_ring[i].cmp_q)"
+- "!IOUserNetworkRxSubmissionQueue::Create(pool, owner, RX_RING_SIZE, 0, dq, &rx_ring[i].sub_q)"
+- "!IOUserNetworkTxCompletionQueue::Create(pool, owner, TX_RING_SIZE, 0, dq, &tx_ring[i].cmp_q)"
+- "!IOUserNetworkTxSubmissionQueue::Create(pool, owner, TX_RING_SIZE, 0, dq, &tx_ring[i].sub_q)"
+- "!owner->CreateActionRxSubmit(sizeof(void*), &rx_ring[i].sub_a)"
+- "!owner->CreateActionTxSubmit(sizeof(void*), &tx_ring[i].sub_a)"
+- "!owner->RegisterEthernetInterface(*uc_addr, pool, queues, rx_num_queues << 2)"
+- "!rx_ring[i].sub->SetDataAvailableHandler(rx_ring[0].sub_a)"
+- "!rx_ring[i].sub_q->CopyDataQueue(&rx_ring[i].sub)"
+- "!tx_ring[i].sub->SetDataAvailableHandler(tx_ring[i].sub_a)"
+- "!tx_ring[i].sub_q->CopyDataQueue(&tx_ring[i].sub)"
+- "OSAction_DriverKit_AppleEthernetIXL_LegacyInterrupt"
+- "OSAction_DriverKit_AppleEthernetIXL_NetIf_RxSubmit"
+- "OSAction_DriverKit_AppleEthernetIXL_NetIf_TxSubmit"
+- "RxSubmit_Impl"
+- "TxSubmit_Impl"
+- "ixl:(%s): %s(%d): called with state != DEV_NET_STATE_ACTIVATED\n"
+- "ixl:(%s): %s(%d): icr0=%x\n"
+- "legacyIntrHandler"
+
+```

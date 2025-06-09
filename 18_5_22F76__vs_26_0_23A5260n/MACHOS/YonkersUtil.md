@@ -1,0 +1,316 @@
+## YonkersUtil
+
+> `/usr/libexec/YonkersUtil`
+
+```diff
+
+-6.35.5.0.0
+-  __TEXT.__text: 0x4e08
+-  __TEXT.__auth_stubs: 0x520
+-  __TEXT.__gcc_except_tab: 0x20
+-  __TEXT.__cstring: 0x1555
+-  __TEXT.__const: 0xac
+-  __TEXT.__unwind_info: 0x118
+-  __DATA_CONST.__auth_got: 0x298
+-  __DATA_CONST.__got: 0x68
+-  __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x3c0
+-  __DATA_CONST.__cfstring: 0x1040
++6.71.100.0.0
++  __TEXT.__text: 0x404
++  __TEXT.__auth_stubs: 0xf0
++  __TEXT.__cstring: 0x12b
++  __TEXT.__unwind_info: 0x70
++  __DATA_CONST.__auth_got: 0x78
++  __DATA_CONST.__got: 0x18
++  __DATA_CONST.__const: 0x18
++  __DATA_CONST.__cfstring: 0xa0
+   __DATA.__data: 0x60
+-  __DATA.__common: 0x100c
+-  __DATA.__bss: 0x18
++  __DATA.__common: 0x4
++  __DATA.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/SavageCameraInterface.framework/SavageCameraInterface
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C8F35500-A095-34D8-A77B-DCE50D84C4A2
+-  Functions: 53
+-  Symbols:   100
+-  CStrings:  334
++  UUID: 8CE17E2B-28A8-3BF8-A289-B5918B0B1A53
++  Functions: 5
++  Symbols:   21
++  CStrings:  23
+ 
+Symbols:
+- _AMSupportCreateDataFromFileURL
+- _AMSupportMakeDirectory
+- _AMSupportPlatformCopyURLWithAppendedComponent
+- _AMSupportPlatformFileURLExists
+- _AMSupportWriteDataToFileURL
+- _CC_SHA256_Final
+- _CC_SHA256_Init
+- _CC_SHA256_Update
+- _CFArrayAppendValue
+- _CFArrayCreateMutable
+- _CFBooleanGetTypeID
+- _CFBooleanGetValue
+- _CFCopyDescription
+- _CFDataAppendBytes
+- _CFDataCreate
+- _CFDataCreateMutable
+- _CFDataGetLength
+- _CFDataReplaceBytes
+- _CFDictionaryAddValue
+- _CFDictionaryContainsKey
+- _CFDictionaryCreateMutable
+- _CFDictionaryCreateMutableCopy
+- _CFDictionaryGetCount
+- _CFDictionaryGetTypeID
+- _CFDictionaryGetValue
+- _CFDictionaryRemoveValue
+- _CFDictionarySetValue
+- _CFErrorCopyDescription
+- _CFErrorCreate
+- _CFErrorGetCode
+- _CFNumberCreate
+- _CFNumberGetTypeID
+- _CFNumberGetValue
+- _CFRetain
+- _CFStringCreateWithFormat
+- _CFStringGetCString
+- _CFStringGetCStringPtr
+- _CFStringGetLength
+- _CFStringGetMaximumSizeForEncoding
+- _CFStringGetTypeID
+- _IOConnectCallScalarMethod
+- _IOIteratorNext
+- _IORegistryEntryCreateCFProperties
+- _IORegistryEntryFromPath
+- _IORegistryEntrySearchCFProperty
+- _IOServiceClose
+- _IOServiceGetMatchingServices
+- _IOServiceMatching
+- _IOServiceOpen
+- _SavageCamInterfaceClose
+- _SavageCamInterfaceGetSensorInfo
+- _SavageCamInterfaceOpen
+- _SavageCamInterfaceSensorFusing
+- _SavageCamInterfaceSensorPreFusing
+- _SavageCamInterfaceSensorPrePersonalize
+- __DefaultRuneLocale
+- __Unwind_Resume
+- __ZSt9terminatev
+- __ZdlPv
+- __Znwm
+- ___assert_rtn
+- ___chkstk_darwin
+- ___cxa_begin_catch
+- ___error
+- ___gxx_personality_v0
+- _calloc
+- _free
+- _kCFBooleanFalse
+- _kCFBooleanTrue
+- _kCFCopyStringDictionaryKeyCallBacks
+- _kCFErrorLocalizedDescriptionKey
+- _kCFTypeArrayCallBacks
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _kIOMasterPortDefault
+- _mach_task_self_
+- _malloc
+- _strtol
+- _vsnprintf
+CStrings:
+- "%@: %s"
+- "%@: Input Options: %@"
+- "%s [error]: %s \n"
+- "%s [input]: BuildIdentity %s \n"
+- "%s [input]: DeviceInfo %s \n"
+- "%s [input]: FirmwareData %s \n"
+- "%s [input]: Input Options - %s \n"
+- "%s [input]: SEP Digest from ReceiptManifest - %s \n"
+- "%s [input]: SavageMeasurementDict - %s \n"
+- "%s [input]: YonkersMeasurementDict - %s \n"
+- "%s [output]: %s \n"
+- "%s: Device side restoreInfo path \n"
+- "%s: Host side restoreInfo path \n"
+- "@Brunor,Ticket"
+- "@Savage,Ticket"
+- "@Yonkers,Ticket"
+- "AuthCertOption"
+- "AuthChallengeOption"
+- "Brunor,Authenticate"
+- "Brunor,FdrRootCaDigest"
+- "Brunor,HarvestUnwrap"
+- "Brunor,HarvestWrap"
+- "Brunor,Ticket"
+- "BuildIdentity"
+- "BuildIdentityTags"
+- "BundleDataDict"
+- "BundlePath"
+- "CertificationURL"
+- "CreateFileData"
+- "CreateFileData: AMSupportPlatformFileURLExists returned FALSE"
+- "CreateFileData: Fail to run AMSupportCreateDataFromFileURL"
+- "CreateFileData: Fail to run AMSupportMakeDirectory with dstFilePathURL"
+- "CreateFileData: Fail to run AMSupportPlatformCopyURLWithAppendedComponent with dstBundleURL"
+- "CreateFileData: Fail to run AMSupportPlatformCopyURLWithAppendedComponent with srcBundleURL"
+- "CreateFileData: Fail to run AMSupportWriteDataToFileURL with dstFilePathURL"
+- "CreateFileData: Missing kSavageBuildIdentityInfoKey"
+- "CreateFileData: Missing kSavageBuildIdentityPathKey"
+- "CreateFileData: Missing kSavageOptionBuildIdentity"
+- "CreateFileData: Missing kSavageOptionSourceBundlePath"
+- "CreateFileData: bundleDataDict missing expected tag"
+- "DebugArgs"
+- "DestBundlePath"
+- "DeviceInfo"
+- "Digest"
+- "EPRO"
+- "FabRevision"
+- "FirmwareData"
+- "FirmwareIsOverride"
+- "FirmwareVTData"
+- "FlipFusingState"
+- "FusingOption"
+- "IODeviceTree:/chosen"
+- "IOService"
+- "Info"
+- "MeasurementDictPatch"
+- "MeasurementDictPatchVT"
+- "No C string description available."
+- "Options"
+- "Path"
+- "PersonalizationOption"
+- "PostFDRSealing"
+- "PreflightRequired"
+- "ReceiptManifest"
+- "ResponseTags"
+- "RestoreInternal"
+- "RestoreSystemPartition"
+- "SEP"
+- "Savage,AccessSecurity"
+- "Savage,AccessSensor"
+- "Savage,AllowOfflineBoot"
+- "Savage,B0-Dev-Patch"
+- "Savage,B0-Dev-PatchVT"
+- "Savage,B0-Prod-Patch"
+- "Savage,B0-Prod-PatchVT"
+- "Savage,B2-Dev-Patch"
+- "Savage,B2-Dev-PatchVT"
+- "Savage,B2-Prod-Patch"
+- "Savage,B2-Prod-PatchVT"
+- "Savage,BA-Dev-Patch"
+- "Savage,BA-Dev-PatchVT"
+- "Savage,BA-Prod-Patch"
+- "Savage,BA-Prod-PatchVT"
+- "Savage,BE-Dev-Patch"
+- "Savage,BE-Dev-PatchVT"
+- "Savage,BE-Prod-Patch"
+- "Savage,BE-Prod-PatchVT"
+- "Savage,BF-Dev-Patch"
+- "Savage,BF-Dev-PatchVT"
+- "Savage,BF-Prod-Patch"
+- "Savage,BF-Prod-PatchVT"
+- "Savage,ChipID"
+- "Savage,DebugStatus"
+- "Savage,FADemote"
+- "Savage,Nonce"
+- "Savage,PatchEpoch"
+- "Savage,ProductionMode"
+- "Savage,Provisioning"
+- "Savage,ReadECKey"
+- "Savage,ReadFWKey"
+- "Savage,ReadGID"
+- "Savage,Revision"
+- "Savage,RootKeyIdentifier"
+- "Savage,TempDemote"
+- "Savage,Ticket"
+- "Savage,UID"
+- "Savage,WriteECKey"
+- "Savage,WriteEpoch"
+- "Savage,WriteUID"
+- "SavageCFDictionarySetData"
+- "SavageCFDictionarySetInteger32"
+- "SavageErrorDomain"
+- "SavageFirmware"
+- "SavagePrivateHelper.cpp"
+- "SavageUpdaterCopyFirmware"
+- "SavageUpdaterCopyFirmware: Cannot allocate memory for outputDict"
+- "SavageUpdaterCopyFirmware: Cannot allocate memory for savageFirmwareData"
+- "SavageUpdaterCopyFirmware: Didn't get yonkers patch measurement tags"
+- "SavageUpdaterCopyFirmware: Empty Savage firmware file"
+- "SavageUpdaterCopyFirmware: Empty Yonkers alt firmware file?"
+- "SavageUpdaterCopyFirmware: Empty Yonkers firmware file?"
+- "SavageUpdaterCopyFirmware: Missing device info"
+- "SavageUpdaterCopyFirmware: Unable to get savage patch measurement tags"
+- "SavageUpdaterCopyFirmware: options is NULL"
+- "SavageUpdaterCreateRequest"
+- "SavageUpdaterCreateRequest: BuildIdentity is NULL in input options"
+- "SavageUpdaterCreateRequest: Cannot get DeviceInfo"
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Savage (Old way)."
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Savage."
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Yonkers."
+- "SavageUpdaterCreateRequest: CreateRequestDictForTATSU fails."
+- "SavageUpdaterCreateRequest: CreateYonkersRequestDictForTATSU fails."
+- "SavageUpdaterCreateRequest: ReceiptManifest is missing in input options"
+- "SavageUpdaterCreateRequest: kSavageOptionFirmwareData is NULL in input options"
+- "SavageUpdaterCreateRequest: options is NULL"
+- "SavageUpdaterGetTags"
+- "SavageUpdaterGetTags: Cannot allocate memory for outputDict"
+- "SavageUpdaterGetTags: Cannot allocate memory for tagsInBI"
+- "SavageUpdaterGetTags: Cannot allocate memory for tagsInTssResponse"
+- "SavageUpdaterGetTags: DeviceInfo is NULL?"
+- "SavageUpdaterGetTags: Unable to get kSavageTagMeasurementPatch"
+- "SavageUpdaterGetTags: Unable to get kSavageTagMeasurementPatchRepair"
+- "SavageUpdaterGetTags: Unable to get kYonkersTagMeasurementPatch"
+- "SavageUpdaterGetTags: options is NULL"
+- "SeaCookiePairingOption"
+- "SeaCookieProvisioningOption"
+- "SkipSavage"
+- "SkipYonkers"
+- "UnwrapOption"
+- "WrapOption"
+- "Yonkers,AccessSecurity"
+- "Yonkers,AccessSensor"
+- "Yonkers,AllowOfflineBoot"
+- "Yonkers,BoardID"
+- "Yonkers,ChipID"
+- "Yonkers,DebugStatus"
+- "Yonkers,ECID"
+- "Yonkers,FADemote"
+- "Yonkers,FabRevision"
+- "Yonkers,Nonce"
+- "Yonkers,PatchEpoch"
+- "Yonkers,ProductionMode"
+- "Yonkers,Provisioning"
+- "Yonkers,ReadECKey"
+- "Yonkers,ReadFWKey"
+- "Yonkers,ReadGID"
+- "Yonkers,RootKeyIdentifier"
+- "Yonkers,SepObject"
+- "Yonkers,SysTopPatch%X"
+- "Yonkers,TempDemote"
+- "Yonkers,Ticket"
+- "Yonkers,WriteECID"
+- "Yonkers,WriteECKey"
+- "Yonkers,WriteEpoch"
+- "YonkersDeviceInfo"
+- "YonkersErrorDomain"
+- "YonkersFabRevision"
+- "YonkersFirmware"
+- "YonkersFirmwareAlt"
+- "YonkersIsProvisioned"
+- "YonkersIsYmgt"
+- "YonkersNonce"
+- "YonkersOptions"
+- "development-cert"
+- "num != NULL"
+- "sensor-type"
+- "tmpData"
+
+```

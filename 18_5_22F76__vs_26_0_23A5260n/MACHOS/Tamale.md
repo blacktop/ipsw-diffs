@@ -1,0 +1,5067 @@
+## Tamale
+
+> `/Applications/Tamale.app/Tamale`
+
+```diff
+
+-41.5.3.0.0
+-  __TEXT.__text: 0x3942e4
+-  __TEXT.__auth_stubs: 0x7a50
+-  __TEXT.__objc_stubs: 0x3a0
+-  __TEXT.__objc_methlist: 0x25bc
+-  __TEXT.__cstring: 0x9e65
+-  __TEXT.__objc_methname: 0xa5a4
+-  __TEXT.__objc_classname: 0x428
+-  __TEXT.__objc_methtype: 0x3356
+-  __TEXT.__const: 0x1ff14
++69.101.0.0.0
++  __TEXT.__text: 0x1e1468
++  __TEXT.__auth_stubs: 0x7870
++  __TEXT.__objc_stubs: 0x380
++  __TEXT.__objc_methlist: 0x13ec
++  __TEXT.__cstring: 0x583a
++  __TEXT.__objc_methname: 0x48f3
++  __TEXT.__objc_classname: 0x300
++  __TEXT.__objc_methtype: 0x1eb6
++  __TEXT.__const: 0xf294
++  __TEXT.__constg_swiftt: 0x5a98
++  __TEXT.__swift5_typeref: 0x3561a
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0xa4c4
+-  __TEXT.__swift5_typeref: 0x46afc
+-  __TEXT.__swift5_builtin: 0x35c
+-  __TEXT.__swift5_reflstr: 0x7467
+-  __TEXT.__swift5_fieldmd: 0x81fc
+-  __TEXT.__swift5_assocty: 0x1f28
+-  __TEXT.__swift5_proto: 0x1800
+-  __TEXT.__swift5_types: 0x964
+-  __TEXT.__swift5_capture: 0x35a4
+-  __TEXT.__oslogstring: 0x4676
+-  __TEXT.__swift_as_entry: 0x518
+-  __TEXT.__swift_as_ret: 0x484
+-  __TEXT.__swift5_protos: 0x98
+-  __TEXT.__swift5_mpenum: 0xa8
++  __TEXT.__swift5_builtin: 0x1b8
++  __TEXT.__swift5_reflstr: 0x4262
++  __TEXT.__swift5_fieldmd: 0x3f74
++  __TEXT.__swift5_assocty: 0x1128
++  __TEXT.__swift5_proto: 0x980
++  __TEXT.__swift5_types: 0x4a4
++  __TEXT.__swift5_capture: 0x2630
++  __TEXT.__oslogstring: 0x2357
++  __TEXT.__swift_as_entry: 0x338
++  __TEXT.__swift_as_ret: 0x2f0
++  __TEXT.__swift5_mpenum: 0x2c
++  __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0xb3f8
+-  __TEXT.__eh_frame: 0x12318
+-  __DATA_CONST.__auth_got: 0x3d30
+-  __DATA_CONST.__got: 0x1ff0
+-  __DATA_CONST.__auth_ptr: 0x3c50
+-  __DATA_CONST.__const: 0x15768
++  __TEXT.__unwind_info: 0x5d48
++  __TEXT.__eh_frame: 0x9220
++  __DATA_CONST.__auth_got: 0x3c40
++  __DATA_CONST.__got: 0x2150
++  __DATA_CONST.__auth_ptr: 0x2030
++  __DATA_CONST.__const: 0xb6e0
+   __DATA_CONST.__cfstring: 0x20
+-  __DATA_CONST.__objc_classlist: 0x2c8
++  __DATA_CONST.__objc_classlist: 0x1a8
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x278
++  __DATA_CONST.__objc_protolist: 0x1b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x138
++  __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA.__objc_const: 0x11688
+-  __DATA.__objc_selrefs: 0x28b8
++  __DATA.__objc_const: 0x8948
++  __DATA.__objc_selrefs: 0x1520
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__objc_data: 0x2998
+-  __DATA.__data: 0x185b8
+-  __DATA.__bss: 0x2eb30
+-  __DATA.__common: 0x670
++  __DATA.__objc_data: 0x1d50
++  __DATA.__data: 0xd4c0
++  __DATA.__bss: 0x13328
++  __DATA.__common: 0x140
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+-  - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+-  - /System/Library/Frameworks/EventKit.framework/EventKit
+-  - /System/Library/Frameworks/EventKitUI.framework/EventKitUI
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+-  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+   - /System/Library/Frameworks/Metal.framework/Metal
+-  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+-  - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+-  - /System/Library/Frameworks/SafariServices.framework/SafariServices
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/Frameworks/Vision.framework/Vision
+   - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+-  - /System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI
+   - /System/Library/PrivateFrameworks/AppleDepth.framework/AppleDepth
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/AssistantUI.framework/AssistantUI
+   - /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+-  - /System/Library/PrivateFrameworks/CalendarUIKit.framework/CalendarUIKit
+-  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/Feedback.framework/Feedback
+   - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/FusionTracker.framework/FusionTracker
+   - /System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions
+-  - /System/Library/PrivateFrameworks/GenerativeAssistantCommon.framework/GenerativeAssistantCommon
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+-  - /System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics
+-  - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+-  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MapsUI.framework/MapsUI
+-  - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+-  - /System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy
+-  - /System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility
+-  - /System/Library/PrivateFrameworks/Sage.framework/Sage
+-  - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+-  - /System/Library/PrivateFrameworks/SearchUI.framework/SearchUI
+   - /System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/SensitiveContentAnalysisML
+   - /System/Library/PrivateFrameworks/SiriActivation.framework/SiriActivation
+-  - /System/Library/PrivateFrameworks/SiriReaderServices.framework/SiriReaderServices
+   - /System/Library/PrivateFrameworks/SiriSharedUI.framework/SiriSharedUI
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
++  - /System/Library/PrivateFrameworks/SiriUICardKitProviderSupport.framework/SiriUICardKitProviderSupport
+   - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/Stickers.framework/Stickers
+   - /System/Library/PrivateFrameworks/SystemUIAnimationKit.framework/SystemUIAnimationKit
+-  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+-  - /System/Library/PrivateFrameworks/TextComposer.framework/TextComposer
+-  - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
+-  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/VFX.framework/VFX
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+-  - /System/Library/PrivateFrameworks/VisualIntelligence.framework/VisualIntelligence
+-  - /System/Library/PrivateFrameworks/VisualLocalization.framework/VisualLocalization
+-  - /System/Library/PrivateFrameworks/VoiceTriggerUI.framework/VoiceTriggerUI
++  - /System/Library/PrivateFrameworks/VisualActionPredictionSupport.framework/VisualActionPredictionSupport
++  - /System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore
++  - /System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI
++  - /System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CC3F768D-69C8-3705-8081-75C3B8BD9885
+-  Functions: 14470
+-  Symbols:   3738
+-  CStrings:  3695
++  UUID: 5F7249F9-383F-39F1-8785-98AD721B4394
++  Functions: 7735
++  Symbols:   3596
++  CStrings:  1789
+ 
+Symbols:
++ _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015CustomContainerB0OAA19AttributedStringKeyADMc
++ _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015CustomContainerB0ON
++ _$s10Foundation16AttributedStringV4RunsV3RunV5rangeSnyAC5IndexVGvg
++ _$s10Foundation16AttributedStringV4RunsV3RunVMa
++ _$s10Foundation16AttributedStringV4RunsV3RunVy5ValueQzSgxmcAA0bC3KeyRzluig
++ _$s10Foundation16AttributedStringV4RunsV5IndexVMa
++ _$s10Foundation16AttributedStringV4RunsV5IndexVSQAAMc
++ _$s10Foundation16AttributedStringV4RunsVMa
++ _$s10Foundation16AttributedStringV4RunsVMn
++ _$s10Foundation16AttributedStringV4RunsVSlAAMc
++ _$s10Foundation16AttributedStringV5IndexVMn
++ _$s10Foundation16AttributedStringV6insert_2atyx_AC5IndexVtAA0bC8ProtocolRzlF
++ _$s10Foundation16AttributedStringVAA0bC8ProtocolAAMc
++ _$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC
++ _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluis
++ _$s10Foundation16AttributedStringVyAA0B9SubstringVxcSXRzAC5IndexV5BoundRtzluiM
++ _$s10Foundation16AttributedStringVyAA0B9SubstringVxcSXRzAC5IndexV5BoundRtzluig
++ _$s10Foundation18AttributeContainerVACycfC
++ _$s10Foundation18AttributeContainerVMa
++ _$s10Foundation19AttributedSubstringV4runsAA0B6StringV4RunsVvg
++ _$s10Foundation19AttributedSubstringVMa
++ _$s10Foundation19AttributedSubstringVy5ValueQzSgxmcAA0B9StringKeyRzluis
++ _$s10Foundation24AttributedStringProtocolPAAE5range2of7options6localeSnyAA0bC0V5IndexVGSgqd___So22NSStringCompareOptionsVAA6LocaleVSgtSyRd__lF
++ _$s10Foundation6LocaleVMn
++ _$s11Observation0A9RegistrarVSEAAMc
++ _$s12CoreGraphics7CGFloatVSBAAMc
++ _$s12VisualLookUp0A6DomainV10storefrontACvgZ
++ _$s12VisualLookUp0A6DomainVMa
++ _$s12VisualLookUp0A6DomainVSQAAMc
++ _$s13AsyncIteratorSciTl
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO22VisualIntelligenceCoreE15displayPrioritySivg
++ _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO22VisualIntelligenceCoreE15displayPrioritySivg
++ _$s20VisualIntelligenceUI0aB10LookupViewV05SwiftC00E0AAMc
++ _$s20VisualIntelligenceUI0aB10LookupViewV5state19fullScreenRequested15preferredHeightAC0aB4Core0D5StateO_05SwiftC07BindingVySbG0L8Graphics7CGFloatVtcfC
++ _$s20VisualIntelligenceUI0aB10LookupViewV5state19fullScreenRequested15preferredHeightAC0aB4Core0D5StateO_05SwiftC07BindingVySbG0L8Graphics7CGFloatVtcfcfA1_
++ _$s20VisualIntelligenceUI0aB10LookupViewVMa
++ _$s20VisualIntelligenceUI0aB10LookupViewVMn
++ _$s20VisualIntelligenceUI0aB11FrameEntityV10AppIntents0fE0AAMc
++ _$s20VisualIntelligenceUI0aB11FrameEntityV16engineIdentifier05modelE0ACSi_AA03NewE5ModelCtcfC
++ _$s20VisualIntelligenceUI0aB11FrameEntityVMa
++ _$s20VisualIntelligenceUI0aB11FrameEntityVMn
++ _$s20VisualIntelligenceUI10CardLayoutO08expectedE03forAC0aB4Core9ActionPinV4PillV_tFZ
++ _$s20VisualIntelligenceUI10CardLayoutO5basicyA2CmFWC
++ _$s20VisualIntelligenceUI10CardLayoutOMa
++ _$s20VisualIntelligenceUI10SceneStateO15didBecomeActiveyA2CmFWC
++ _$s20VisualIntelligenceUI10SceneStateO18didEnterBackgroundyA2CmFWC
++ _$s20VisualIntelligenceUI10SceneStateO19willEnterForegroundyA2CmFWC
++ _$s20VisualIntelligenceUI10SceneStateO2eeoiySbAC_ACtFZ
++ _$s20VisualIntelligenceUI10SceneStateOMa
++ _$s20VisualIntelligenceUI11OverlayViewV5model13saliencyModel14sheetAssistant7contentACyxGAA0deH0C_AA011NewSaliencyH0CAA013SheetTrackingJ0CxyXEtcfC
++ _$s20VisualIntelligenceUI11OverlayViewVMn
++ _$s20VisualIntelligenceUI13CanvasUtilityV22defaultCameraFrameSizeSo6CGSizeVvgZ
++ _$s20VisualIntelligenceUI13CanvasUtilityV5scale_2to4fromSo7CGPointVAH_So6CGSizeVAJtFZ
++ _$s20VisualIntelligenceUI14BackdropGroupsO18contentViewButtonsSSvgZ
++ _$s20VisualIntelligenceUI14FocusSelectionO4areayAcA0dE4AreaCcACmFWC
++ _$s20VisualIntelligenceUI14FocusSelectionO5pointyAcA0dE5PointCcACmFWC
++ _$s20VisualIntelligenceUI14FocusSelectionOMa
++ _$s20VisualIntelligenceUI14FocusSelectionOMn
++ _$s20VisualIntelligenceUI14HapticFeedbackV014generateButtonE0yyFZ
++ _$s20VisualIntelligenceUI14HapticFeedbackV014generateImpactE05styleySo08UIImpactE5StyleV_tFZ
++ _$s20VisualIntelligenceUI14NewActionModelC11systemImageSSvg
++ _$s20VisualIntelligenceUI14NewActionModelC14localizedTitleSSvg
++ _$s20VisualIntelligenceUI14NewActionModelC4pill0aB4Core0E3PinV4PillVSgvg
++ _$s20VisualIntelligenceUI14NewActionModelC4pillAC0aB4Core0E3PinV4PillV_tcfC
++ _$s20VisualIntelligenceUI14NewActionModelCMa
++ _$s20VisualIntelligenceUI14NewActionModelCMn
++ _$s20VisualIntelligenceUI14NewEntityModelC04cardF0AA04CardF0Cvg
++ _$s20VisualIntelligenceUI14NewEntityModelC17preShutterActionsSayAA0d6ActionF0CGvg
++ _$s20VisualIntelligenceUI14NewEntityModelC3pin0aB4Core9ActionPinVSgvg
++ _$s20VisualIntelligenceUI14NewEntityModelC3pinAC0aB4Core9ActionPinV_tcfC
++ _$s20VisualIntelligenceUI14NewEntityModelCMa
++ _$s20VisualIntelligenceUI14NewEntityModelCMn
++ _$s20VisualIntelligenceUI14ReticleCornersV6bounds12cornerRadius0G4Size9lineWidthACSo6CGRectV_12CoreGraphics7CGFloatVSo6CGSizeVALtcfC
++ _$s20VisualIntelligenceUI14ReticleCornersVMn
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO04mapsD0yA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO09shutterNoD0yA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO10addStickeryA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO10mapsLookupyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO11appClipCodeyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO11imageSearchyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO11unspecifiedyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO12dataDetectoryA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO12visualLookupyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO13calendarEventyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO6QRCodeyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO7askAcmeyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO9readAloudyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO9summarizeyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeO9translateyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeOMa
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeOMn
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeOSHAAMc
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeOSQAAMc
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D4TypeOSYAAMc
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO12pinContaineryA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO13actionBarMenuyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO13cameraControlyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO13shutterButtonyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO15dedicatedButtonyA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceO9actionBaryA2EmFWC
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceOMa
++ _$s20VisualIntelligenceUI15ActionAnalyticsC0D6SourceOMn
++ _$s20VisualIntelligenceUI16EmptyResultsViewV05SwiftC00F0AAMc
++ _$s20VisualIntelligenceUI16EmptyResultsViewV5title8subtitle10symbolNameACSS_SSSgAGtcfC
++ _$s20VisualIntelligenceUI16EmptyResultsViewVMa
++ _$s20VisualIntelligenceUI16EmptyResultsViewVMn
++ _$s20VisualIntelligenceUI16NewSaliencyModelC11Observation10ObservableAAMc
++ _$s20VisualIntelligenceUI16NewSaliencyModelC12targetEntityAA0dhF0Cvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentationyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbtYaF
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentationyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbtYaFTu
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13userSelectionAA05FocushF0Cvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13userSelectionAA05FocushF0Cvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelC14selectedEntityAA0dhF0CSgvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC15isAskingMontaraSbvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC15isAskingMontaraSbvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelC15presentedEntityAA0dhF0CSgvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC15presentedEntityAA0dhF0CSgvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelC16engineIdentifierSivg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC16fullscreenEntityAA0dhF0Cvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC25isExplicitlyAutoSearchingSbvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelC5resetyyF
++ _$s20VisualIntelligenceUI16NewSaliencyModelC6stream0aB4Core0E6Stream_pSgvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelCACycfc
++ _$s20VisualIntelligenceUI16NewSaliencyModelCMa
++ _$s20VisualIntelligenceUI16NewSaliencyModelCMn
++ _$s20VisualIntelligenceUI16OmnibarContainerV05SwiftC04ViewAAMc
++ _$s20VisualIntelligenceUI16OmnibarContainerV5model14sheetAssistantAcA16NewSaliencyModelC_AA013SheetTrackingH0CtcfC
++ _$s20VisualIntelligenceUI16OmnibarContainerVMa
++ _$s20VisualIntelligenceUI16OmnibarContainerVMn
++ _$s20VisualIntelligenceUI16OverlayViewModelC08saliencyF0AcA011NewSaliencyF0C_tcfC
++ _$s20VisualIntelligenceUI16OverlayViewModelC5resetyyF
++ _$s20VisualIntelligenceUI16OverlayViewModelCMa
++ _$s20VisualIntelligenceUI16OverlayViewModelCMn
++ _$s20VisualIntelligenceUI16SessionAnalyticsC10didPerform_4fromyAA06ActionE0C0I4TypeO_AG0I6SourceOtFTj
++ _$s20VisualIntelligenceUI16SessionAnalyticsC10didSuggest_6reasonyAA06ActionE0C0I4TypeO_AA0de9SuggestedI16ObserverModifierV6ReasonOtFTj
++ _$s20VisualIntelligenceUI16SessionAnalyticsC11Observation10ObservableAAMc
++ _$s20VisualIntelligenceUI16SessionAnalyticsC15publishAndResetyyFTj
++ _$s20VisualIntelligenceUI16SessionAnalyticsC17didEncounterErroryyFTj
++ _$s20VisualIntelligenceUI16SessionAnalyticsC22alwaysSuggestedActionsACShyAA06ActionE0C0I4TypeOG_tcfC
++ _$s20VisualIntelligenceUI16SessionAnalyticsC5startyyFTj
++ _$s20VisualIntelligenceUI16SessionAnalyticsCMa
++ _$s20VisualIntelligenceUI16SessionAnalyticsCMn
++ _$s20VisualIntelligenceUI17GeoLookupCardViewV05SwiftC00G0AAMc
++ _$s20VisualIntelligenceUI17GeoLookupCardViewV5state15dismissalAction09showDebugdE7ResultsAC0aB4Core0dE5StateO_yycSgSbtcfC
++ _$s20VisualIntelligenceUI17GeoLookupCardViewVMa
++ _$s20VisualIntelligenceUI17GeoLookupCardViewVMn
++ _$s20VisualIntelligenceUI17MorphingContainerV4mode18showLatencyEffects0g7RestingI00g7ContentI011ViewBuilder07platterK0ACyxq_GAA0dE4ModeO_S3bxyXEq_yXEtcfC
++ _$s20VisualIntelligenceUI17MorphingContainerVMn
++ _$s20VisualIntelligenceUI17MorphingContainerVyxq_G05SwiftC04ViewAAMc
++ _$s20VisualIntelligenceUI18BarCodeActionErrorO18dataTypeNotHandledyACSo013BCSParsedDataI0VcACmFWC
++ _$s20VisualIntelligenceUI18BarCodeActionErrorOMa
++ _$s20VisualIntelligenceUI18BarCodeActionErrorOs0G0AAMc
++ _$s20VisualIntelligenceUI18FeedbackControlBarV05SwiftC04ViewAAMc
++ _$s20VisualIntelligenceUI18FeedbackControlBarV17resultLookupState18feedbackControllerAC0aB4Core06ResulthI0O_05SwiftC07BindingVyAA0dK0CGtcfC
++ _$s20VisualIntelligenceUI18FeedbackControlBarVMa
++ _$s20VisualIntelligenceUI18FeedbackControlBarVMn
++ _$s20VisualIntelligenceUI18FeedbackControllerC013fbkEvaluationE00D0013FBKEvaluationE0CvgTj
++ _$s20VisualIntelligenceUI18FeedbackControllerC013fbkEvaluationE00D0013FBKEvaluationE0CvgTq
++ _$s20VisualIntelligenceUI18FeedbackControllerC013fbkEvaluationE00D0013FBKEvaluationE0CvpMV
++ _$s20VisualIntelligenceUI18FeedbackControllerC013fbkEvaluationE00D0013FBKEvaluationE0CvsTj
++ _$s20VisualIntelligenceUI18FeedbackControllerC13saliencyModelAA011NewSaliencyG0CSgvsTj
++ _$s20VisualIntelligenceUI18FeedbackControllerC13saliencyModelAcA011NewSaliencyG0CSg_tcfC
++ _$s20VisualIntelligenceUI18FeedbackControllerC5resetyyFTj
++ _$s20VisualIntelligenceUI18FeedbackControllerCMa
++ _$s20VisualIntelligenceUI18FeedbackControllerCMn
++ _$s20VisualIntelligenceUI18FocusSelectionAreaC25convertToImageCoordinates010rectInViewJ0So6CGRectVAG_tFTj
++ _$s20VisualIntelligenceUI18FocusSelectionAreaC28boundingBoxInViewCoordinatesSo6CGRectVvg
++ _$s20VisualIntelligenceUI18FocusSelectionAreaC8viewSizeSo6CGSizeVvg
++ _$s20VisualIntelligenceUI18handleBarcodeErroryys0F0_pF
++ _$s20VisualIntelligenceUI19AppEntitiesProviderC3add6entityyAA0aB11FrameEntityV_tFTj
++ _$s20VisualIntelligenceUI19AppEntitiesProviderC5resetyyFTj
++ _$s20VisualIntelligenceUI19AppEntitiesProviderC6sharedACvgZ
++ _$s20VisualIntelligenceUI19AppEntitiesProviderCMa
++ _$s20VisualIntelligenceUI19AppEntitiesProviderCMn
++ _$s20VisualIntelligenceUI19FocusSelectionModelC11pixelBufferSo11CVBufferRefaSgvs
++ _$s20VisualIntelligenceUI19FocusSelectionModelC6activeACSb_tcfC
++ _$s20VisualIntelligenceUI19FocusSelectionModelC6activeSbvs
++ _$s20VisualIntelligenceUI19FocusSelectionModelC9didSelectyAA0dE0OYacSgvs
++ _$s20VisualIntelligenceUI19FocusSelectionModelCMa
++ _$s20VisualIntelligenceUI19FocusSelectionPointC22pointInViewCoordinatesSo7CGPointVvg
++ _$s20VisualIntelligenceUI19GeoLocateResultViewV05SwiftC00G0AAMc
++ _$s20VisualIntelligenceUI19GeoLocateResultViewV5stateAC0aB4Core0dE5StateO_tcfC
++ _$s20VisualIntelligenceUI19GeoLocateResultViewVMa
++ _$s20VisualIntelligenceUI19GeoLocateResultViewVMn
++ _$s20VisualIntelligenceUI21EventLookupResultViewV05SwiftC00G0AAMc
++ _$s20VisualIntelligenceUI21EventLookupResultViewV5state15dismissalActionAC0aB4Core0dE5StateO_yycSgtcfC
++ _$s20VisualIntelligenceUI21EventLookupResultViewVMa
++ _$s20VisualIntelligenceUI21EventLookupResultViewVMn
++ _$s20VisualIntelligenceUI21ImageSearchResultViewV05SwiftC00G0AAMc
++ _$s20VisualIntelligenceUI21ImageSearchResultViewV5stateAC0aB4Core0dE5StateO_tcfC
++ _$s20VisualIntelligenceUI21ImageSearchResultViewVMa
++ _$s20VisualIntelligenceUI21ImageSearchResultViewVMn
++ _$s20VisualIntelligenceUI21MorphingContainerModeO10fullScreenyA2CmFWC
++ _$s20VisualIntelligenceUI21MorphingContainerModeO2eeoiySbAC_ACtFZ
++ _$s20VisualIntelligenceUI21MorphingContainerModeO4pillyA2CmFWC
++ _$s20VisualIntelligenceUI21MorphingContainerModeO7platteryA2CmFWC
++ _$s20VisualIntelligenceUI21MorphingContainerModeOMa
++ _$s20VisualIntelligenceUI21MorphingContainerModeOMn
++ _$s20VisualIntelligenceUI21MorphingContainerModeOSQAAMc
++ _$s20VisualIntelligenceUI22SheetTrackingAssistantCMa
++ _$s20VisualIntelligenceUI22SheetTrackingAssistantCMn
++ _$s20VisualIntelligenceUI23ControlMaterialProviderV05SwiftC00eF0AAMc
++ _$s20VisualIntelligenceUI23ControlMaterialProviderVACycfC
++ _$s20VisualIntelligenceUI23ControlMaterialProviderVMa
++ _$s20VisualIntelligenceUI23OpenSensitiveURLOptionsV12toDictionarySDySSypGvg
++ _$s20VisualIntelligenceUI23OpenSensitiveURLOptionsV15promptForUnlockACSb_tcfC
++ _$s20VisualIntelligenceUI23OpenSensitiveURLOptionsVMa
++ _$s20VisualIntelligenceUI23OpenSensitiveURLOptionsVMn
++ _$s20VisualIntelligenceUI23SiriSetupViewControllerV04showD10Onboarding10completionAC05SwiftC07BindingVySbG_yyctcfC
++ _$s20VisualIntelligenceUI23SiriSetupViewControllerV05SwiftC00F0AAMc
++ _$s20VisualIntelligenceUI23SiriSetupViewControllerVMa
++ _$s20VisualIntelligenceUI23SiriSetupViewControllerVMn
++ _$s20VisualIntelligenceUI24FeatureOnboardingOverlayV05SwiftC04ViewAAMc
++ _$s20VisualIntelligenceUI24FeatureOnboardingOverlayV10experience19fullScreenRequested14continueAction012cancellationL0AcA0deF10ExperienceO_SbyycyycSgtcfC
++ _$s20VisualIntelligenceUI24FeatureOnboardingOverlayV10experience19fullScreenRequested14continueAction012cancellationL0AcA0deF10ExperienceO_SbyycyycSgtcfcfA0_
++ _$s20VisualIntelligenceUI24FeatureOnboardingOverlayVMa
++ _$s20VisualIntelligenceUI24FeatureOnboardingOverlayVMn
++ _$s20VisualIntelligenceUI27LighterRotatingContentLightV05SwiftC012ViewModifierAAMc
++ _$s20VisualIntelligenceUI27LighterRotatingContentLightV7shimmerACSb_tcfC
++ _$s20VisualIntelligenceUI27LighterRotatingContentLightV7shimmerACSb_tcfcfA_
++ _$s20VisualIntelligenceUI27LighterRotatingContentLightVMa
++ _$s20VisualIntelligenceUI27LighterRotatingContentLightVMn
++ _$s20VisualIntelligenceUI31CircleInsetSpreadShadowModifierV05SwiftC004ViewH0AAMc
++ _$s20VisualIntelligenceUI31CircleInsetSpreadShadowModifierVACycfC
++ _$s20VisualIntelligenceUI31CircleInsetSpreadShadowModifierVMa
++ _$s20VisualIntelligenceUI31CircleInsetSpreadShadowModifierVMn
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionC06shouldE8AddEventSbvgTj
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionC06shouldE8AddEventSbvsTj
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionC11Observation10ObservableAAMc
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionCACycfC
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionCMa
++ _$s20VisualIntelligenceUI31SharedSuppressPostShutterActionCMn
++ _$s20VisualIntelligenceUI32CapsuleInsetSpreadShadowModifierV05SwiftC004ViewH0AAMc
++ _$s20VisualIntelligenceUI32CapsuleInsetSpreadShadowModifierVACycfC
++ _$s20VisualIntelligenceUI32CapsuleInsetSpreadShadowModifierVMa
++ _$s20VisualIntelligenceUI32CapsuleInsetSpreadShadowModifierVMn
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceO11imageSearchyA2CmFWC
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceO4siriyA2CmFWC
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceO7askAcmeyA2CmFWC
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceO7montarayA2CmFWC
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceOMa
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceOMn
++ _$s20VisualIntelligenceUI34FeatureOnboardingOverlayExperienceOSQAAMc
++ _$s20VisualIntelligenceUI34SalientBackgroundViewRepresentableV07contentF013saliencyModel14sheetAssistantACyxGx_AA011NewSaliencyJ0CAA013SheetTrackingL0CtcfC
++ _$s20VisualIntelligenceUI34SalientBackgroundViewRepresentableVMn
++ _$s20VisualIntelligenceUI34SalientBackgroundViewRepresentableVyxG05SwiftC00F0AAMc
++ _$s20VisualIntelligenceUI9CardModelC20onboardingExperienceAA024FeatureOnboardingOverlayG0OSgvg
++ _$s22UniformTypeIdentifiers6UTTypeV5imageACvgZ
++ _$s22VisualIntelligenceCore0A16LookupClassifierV4ModeOMa
++ _$s22VisualIntelligenceCore0A16LookupClassifierV4ModeOMn
++ _$s22VisualIntelligenceCore0A16LookupClassifierV4ModeOs12CaseIterableAAMc
++ _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultV11systemImageSSvg
++ _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultVMa
++ _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultVMn
++ _$s22VisualIntelligenceCore10FileWriterC6prefixACSS_tcfC
++ _$s22VisualIntelligenceCore10FileWriterC6prefixACSS_tcfcfA_
++ _$s22VisualIntelligenceCore10FileWriterCAA0D7WritingAAWP
++ _$s22VisualIntelligenceCore10FileWriterCMa
++ _$s22VisualIntelligenceCore11CVDetectionO10fullScreenyAcA04FullF15DetectionResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO10multimodalyAcA9AFMResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO13streamingTextyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO4metayA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO4textyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO5parseyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO6objectyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO6qrCodeyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO7appClipyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeO9groundingyA2EmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeOMa
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeOMn
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeOSHAAMc
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeOSQAAMc
++ _$s22VisualIntelligenceCore11CVDetectionO13DetectionTypeOs23CustomStringConvertibleAAMc
++ _$s22VisualIntelligenceCore11CVDetectionO13detectionTypeAC09DetectionF0Ovg
++ _$s22VisualIntelligenceCore11CVDetectionO13groundedParseyAcA08GroundedF14DetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO13rotationAngleAA0F0Vvg
++ _$s22VisualIntelligenceCore11CVDetectionO13streamingTextyAcA20ObjectDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO15verticalContentyAcA9AFMResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO18modifyWithRotationyAcA5AngleVF
++ _$s22VisualIntelligenceCore11CVDetectionO23groundedParseEmbeddingsyAcA08GroundedfG6ResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore11CVDetectionO4metayAcA19MetaDetectionResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO4textyAcA18TextDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO5labelSSvg
++ _$s22VisualIntelligenceCore11CVDetectionO5parseyAcA19ParseDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO6objectyAcA20ObjectDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO6qrCodeyAcA30StreamingBarcodeDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO7appClipyAcA30StreamingBarcodeDetectorResultVcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO7cornersAA7CornersVvg
++ _$s22VisualIntelligenceCore11CVDetectionO9groundingyAcA15GroundingResultVyAA0F15MD4_1DescriptorCGcACmFWC
++ _$s22VisualIntelligenceCore11CVDetectionO9timestampSdvg
++ _$s22VisualIntelligenceCore11CVDetectionOMa
++ _$s22VisualIntelligenceCore11CVDetectionOMn
++ _$s22VisualIntelligenceCore11CVDetectionOSEAAMc
++ _$s22VisualIntelligenceCore11CVDetectionOSHAAMc
++ _$s22VisualIntelligenceCore11CVDetectionOSQAAMc
++ _$s22VisualIntelligenceCore11CVDetectionOSeAAMc
++ _$s22VisualIntelligenceCore11CameraImageO02cgE0yACSo10CGImageRefacACmFWC
++ _$s22VisualIntelligenceCore11CameraImageO11pixelBufferyAcA16SendableTransferVySo11CVBufferRefaGcACmFWC
++ _$s22VisualIntelligenceCore11CameraImageO15imageResolutionSo6CGSizeVvg
++ _$s22VisualIntelligenceCore11CameraImageO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore11CameraImageO4noneyA2CmFWC
++ _$s22VisualIntelligenceCore11CameraImageO6failedyACs5Error_pcACmFWC
++ _$s22VisualIntelligenceCore11CameraImageOMa
++ _$s22VisualIntelligenceCore11CameraImageOMn
++ _$s22VisualIntelligenceCore11FileUtilityV06createD03url8contentsSb10Foundation3URLV_SStFZ
++ _$s22VisualIntelligenceCore11FileUtilityV06deleteD03urly10Foundation3URLV_tFZ
++ _$s22VisualIntelligenceCore11FileUtilityV15createDirectory3fory10Foundation3URLV_tFZ
++ _$s22VisualIntelligenceCore11FileWritingMp
++ _$s22VisualIntelligenceCore11LookupStateO18onboardingRequiredyA2CmFWC
++ _$s22VisualIntelligenceCore11LookupStateO5erroryAcA12GenericErrorVcACmFWC
++ _$s22VisualIntelligenceCore11LookupStateO7liftingyA2CmFWC
++ _$s22VisualIntelligenceCore11LookupStateO8finishedyACSayAA0abD6ResultVGcACmFWC
++ _$s22VisualIntelligenceCore11LookupStateOMa
++ _$s22VisualIntelligenceCore11SPRTTriggerC5StateOMa
++ _$s22VisualIntelligenceCore11SPRTTriggerC5StateOs23CustomStringConvertibleAAMc
++ _$s22VisualIntelligenceCore12AskAcmeAlertO13missingAssetsyA2CmFWC
++ _$s22VisualIntelligenceCore12AskAcmeAlertO18montaraRestrictionyA2C07MontaraH6ReasonO_tcACmFWC
++ _$s22VisualIntelligenceCore12AskAcmeAlertO24MontaraRestrictionReasonO13ageRestrictedyA2EmFWC
++ _$s22VisualIntelligenceCore12AskAcmeAlertO24MontaraRestrictionReasonO13mdmRestrictedyA2EmFWC
++ _$s22VisualIntelligenceCore12AskAcmeAlertO24MontaraRestrictionReasonOMa
++ _$s22VisualIntelligenceCore12AskAcmeAlertO6inCallyA2CmFWC
++ _$s22VisualIntelligenceCore12AskAcmeAlertOMa
++ _$s22VisualIntelligenceCore12ConfigurableMp
++ _$s22VisualIntelligenceCore12ConfigurableP15factorySettingsxvgZTj
++ _$s22VisualIntelligenceCore12ConfigurableP15factorySettingsxvgZTq
++ _$s22VisualIntelligenceCore12ConfigurablePSETb
++ _$s22VisualIntelligenceCore12ConfigurablePSQTb
++ _$s22VisualIntelligenceCore12ConfigurablePSeTb
++ _$s22VisualIntelligenceCore12TrackManagerC12latestOutputAC5StateVSgvgTj
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV15factorySettingsAEvgZ
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvg
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvpMV
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvs
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVAA12ConfigurableAAMc
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVMa
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVMn
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVSEAAMc
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVSeAAMc
++ _$s22VisualIntelligenceCore12TrackManagerC5StateV6tracksSayAA15CVTrackSnapshotVGvg
++ _$s22VisualIntelligenceCore12TrackManagerC5StateVMa
++ _$s22VisualIntelligenceCore12TrackManagerC5StateVMn
++ _$s22VisualIntelligenceCore12TrackManagerC5resetyyFTj
++ _$s22VisualIntelligenceCore12TrackManagerCAA21OutputStreamProvidingAAWP
++ _$s22VisualIntelligenceCore12TrackManagerCMa
++ _$s22VisualIntelligenceCore12TrackManagerCScAAAMc
++ _$s22VisualIntelligenceCore13BuiltInActionO021summarizeWithExternalB0yA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO11imageSearchyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO11scanBarCodeyACSS_SStcACmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO11textActionsyAcA04TextH10ClassifierV6ResultV_tcACmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO16createTapToRadaryA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO16quickTypeAskAcmeyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO20copyPhotoToClipboardyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO4pillAA0F3PinV4PillVvg
++ _$s22VisualIntelligenceCore13BuiltInActionO4pillACSgAA0F3PinV4PillV_tcfC
++ _$s22VisualIntelligenceCore13BuiltInActionO7askAcmeyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO8addEventyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO8feedbackyAC15FeedbackService15FBKSInteractionC16AnnotatedContentVSg_SayAIGtcACmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO8identifyyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO9geoLocateyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO9geoLookupyACSayAA03GeoH0C0iH6ResultVG_tcACmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO9readAloudyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO9savePhotoyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionO9summarizeyA2CmFWC
++ _$s22VisualIntelligenceCore13BuiltInActionOMa
++ _$s22VisualIntelligenceCore13BuiltInActionOMn
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV025childOverlapPercentageForD9ThresholdSfvg
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV025childOverlapPercentageForD9ThresholdSfvpMV
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV025childOverlapPercentageForD9ThresholdSfvs
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV14cameraSettingsAEvgZ
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV16visualLookUpModeAA0A16LookupClassifierV0J0Ovg
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV16visualLookUpModeAA0A16LookupClassifierV0J0OvpMV
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV16visualLookUpModeAA0A16LookupClassifierV0J0Ovs
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV26classificationTypesEnabledSayAA0D14ClassificationV0J4TypeOGvg
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationV2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationVAA12ConfigurableAAMc
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationVMa
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationVMn
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationVSEAAMc
++ _$s22VisualIntelligenceCore13BundleManagerC13ConfigurationVSeAAMc
++ _$s22VisualIntelligenceCore13BundleManagerC6OutputV7bundlesSayAA8CVBundleVGvg
++ _$s22VisualIntelligenceCore13BundleManagerC6OutputVMa
++ _$s22VisualIntelligenceCore13BundleManagerC6OutputVMn
++ _$s22VisualIntelligenceCore13CVCoordinatorC12consumeFrame_17cadenceMultiplier16upstreamRequests0I7Results16uprightTransformSayAA16DetectionRequestVGx_SfAKSayAA0N6ResultVGSo26CGImagePropertyOrientationVSgtKAA012CameraSourceF0RzlF
++ _$s22VisualIntelligenceCore13CVCoordinatorC19denormalizeCropRect04cropG05width6heightSo6CGRectVAI_0C8Graphics7CGFloatVALtFZ
++ _$s22VisualIntelligenceCore13CVCoordinatorC24normalizedLocationOfRect05innerH005outerH0So6CGRectVAH_AHtFZ
++ _$s22VisualIntelligenceCore13CVCoordinatorC31rectByCroppingRectToAspectRatio0E004cropjK0So6CGRectVAH_0C8Graphics7CGFloatVtFZ
++ _$s22VisualIntelligenceCore13CVCoordinatorC35rectWithAspectRatioInsideDimensions08boundingJ004cropgH0So6CGRectVSo6CGSizeV_0C8Graphics7CGFloatVtFZ
++ _$s22VisualIntelligenceCore13CVCoordinatorC5pauseyyFTj
++ _$s22VisualIntelligenceCore13CVCoordinatorC6resumeyyFTj
++ _$s22VisualIntelligenceCore13CVCoordinatorCMa
++ _$s22VisualIntelligenceCore13CVCoordinatorCMn
++ _$s22VisualIntelligenceCore13ConfigStorageMp
++ _$s22VisualIntelligenceCore13ConfigStorageP5resetyyFTq
++ _$s22VisualIntelligenceCore13ConfigStoragePAAE16hasOnboardedACMESbvg
++ _$s22VisualIntelligenceCore13ConfigStoragePAAE16hasOnboardedACMESbvs
++ _$s22VisualIntelligenceCore13ConfigStoragePAAE23hasOnboardedImageSearchSbvg
++ _$s22VisualIntelligenceCore13ConfigStoragePAAE23hasOnboardedImageSearchSbvs
++ _$s22VisualIntelligenceCore13ConfigStoragePAAE5resetyyF
++ _$s22VisualIntelligenceCore13ConfigStoragePyypSgSSciMTq
++ _$s22VisualIntelligenceCore13ConfigStoragePyypSgSScigTq
++ _$s22VisualIntelligenceCore13ConfigStoragePyypSgSScisTq
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV15factorySettingsAEvgZ
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV17publicationPolicyAA011PublicationH0Ovg
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV17publicationPolicyAA011PublicationH0OvpMV
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV17publicationPolicyAA011PublicationH0Ovs
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV21stillRankingAlgorithmAA0hI0Ovg
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV21stillRankingAlgorithmAA0hI0OvpMV
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV21stillRankingAlgorithmAA0hI0Ovs
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV24RankingEligibilityPolicyOMa
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV24RankingEligibilityPolicyOMn
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV24RankingEligibilityPolicyOs12CaseIterableAAMc
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV25streamingRankingAlgorithmAA0hI0Ovg
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV25streamingRankingAlgorithmAA0hI0OvpMV
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV25streamingRankingAlgorithmAA0hI0Ovs
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV26forceAllFramesAreStreamingSbvg
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV26forceAllFramesAreStreamingSbvs
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV33streamingRankingEligibilityPolicyAE0hiJ0Ovg
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV33streamingRankingEligibilityPolicyAE0hiJ0OvpMV
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationV33streamingRankingEligibilityPolicyAE0hiJ0Ovs
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationVAA12ConfigurableAAMc
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationVMa
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationVMn
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationVSEAAMc
++ _$s22VisualIntelligenceCore14BundleSelectorC13ConfigurationVSeAAMc
++ _$s22VisualIntelligenceCore14BundleSelectorC13requestStreamScSySayAA16DetectionRequestVGGvgTj
++ _$s22VisualIntelligenceCore14BundleSelectorC5resetyyFTj
++ _$s22VisualIntelligenceCore14BundleSelectorCMa
++ _$s22VisualIntelligenceCore14BundleSelectorCMn
++ _$s22VisualIntelligenceCore14BundleSelectorCScAAAMc
++ _$s22VisualIntelligenceCore14CircularBufferC4data5index7sizeMaxACyxGSayxG_S2itcfC
++ _$s22VisualIntelligenceCore14CircularBufferC4data5index7sizeMaxACyxGSayxG_S2itcfcfA0_
++ _$s22VisualIntelligenceCore14CircularBufferC4data5index7sizeMaxACyxGSayxG_S2itcfcfA_
++ _$s22VisualIntelligenceCore14CircularBufferC6appendyxSgxFTj
++ _$s22VisualIntelligenceCore14CircularBufferC6isFullSbvgTj
++ _$s22VisualIntelligenceCore14CircularBufferCMn
++ _$s22VisualIntelligenceCore14CircularBufferCyxGSTAAMc
++ _$s22VisualIntelligenceCore14CircularBufferCyxGSlAAMc
++ _$s22VisualIntelligenceCore14GeoLocateStateO10localizingyAC10Foundation4UUIDV_tcACmFWC
++ _$s22VisualIntelligenceCore14GeoLocateStateO8finishedyAC10Foundation4UUIDV_AA0D16LocationEstimateOAItcACmFWC
++ _$s22VisualIntelligenceCore14GeoLocateStateOMa
++ _$s22VisualIntelligenceCore14GeoLookupStateO8finishedyAcA0D16LocationEstimateO_SayAA0dE0C0dE6ResultVGSayAA0deJ8BusinessVGSaySdGSayAH0deJ9DebugInfoVSgGtcACmFWC
++ _$s22VisualIntelligenceCore14GeoLookupStateOMa
++ _$s22VisualIntelligenceCore14GeoLookupStateOMn
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultV11languageTagSSvg
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultV12displayImageSo10CGImageRefavg
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultV4textSSvg
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultV5titleSSvg
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultVMa
++ _$s22VisualIntelligenceCore14ReadAloudStateO0dE6ResultVMn
++ _$s22VisualIntelligenceCore14ReadAloudStateO5erroryACSScACmFWC
++ _$s22VisualIntelligenceCore14ReadAloudStateO7startedyA2CmFWC
++ _$s22VisualIntelligenceCore14ReadAloudStateO8finishedyA2C0dE6ResultVcACmFWC
++ _$s22VisualIntelligenceCore14ReadAloudStateOMa
++ _$s22VisualIntelligenceCore14ReadAloudStateOMn
++ _$s22VisualIntelligenceCore14SaliencyStreamMp
++ _$s22VisualIntelligenceCore14SaliencyStreamP6refine11pixelBuffer9timestampySo11CVBufferRefa_SdtYaKFTq
++ _$s22VisualIntelligenceCore14TextSummarizerVACycfC
++ _$s22VisualIntelligenceCore14TextSummarizerVMa
++ _$s22VisualIntelligenceCore14TextSummarizerVMn
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationV15factorySettingsAEvgZ
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationV21predictionBuiltInOnlySbvs
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationV2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationVMa
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationVMn
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationVSEAAMc
++ _$s22VisualIntelligenceCore15ActionPredictorC13ConfigurationVSeAAMc
++ _$s22VisualIntelligenceCore15ActionPredictorC17setVisionProvideryyAA0dgH0_pFTj
++ _$s22VisualIntelligenceCore15ActionPredictorC5resetyyFTj
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputV014saliencyRankedD4PinsSayAA0D3PinVGvg
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputV19latestFrameMetadataAA012CameraSourcehI0Vvg
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputV29highestSaliencyWhileStreamingAA0D3PinVSgvg
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputVMa
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputVMn
++ _$s22VisualIntelligenceCore15ActionPredictorC6OutputVSQAAMc
++ _$s22VisualIntelligenceCore15ActionPredictorCMa
++ _$s22VisualIntelligenceCore15ActionPredictorCMn
++ _$s22VisualIntelligenceCore15ActionPredictorCScAAAMc
++ _$s22VisualIntelligenceCore15CVTrackSnapshotV14latestEstimateAA11CVDetectionOvg
++ _$s22VisualIntelligenceCore15CVTrackSnapshotV14lifeCycleStateAA11SPRTTriggerC0H0Ovg
++ _$s22VisualIntelligenceCore15CVTrackSnapshotV2id10Foundation4UUIDVvg
++ _$s22VisualIntelligenceCore15CVTrackSnapshotV5scoreSfvg
++ _$s22VisualIntelligenceCore15CVTrackSnapshotVAA0D11IdentifyingAAMc
++ _$s22VisualIntelligenceCore15CVTrackSnapshotVAA0D9ProvidingAAMc
++ _$s22VisualIntelligenceCore15CVTrackSnapshotVMa
++ _$s22VisualIntelligenceCore15CVTrackSnapshotVMn
++ _$s22VisualIntelligenceCore15DetectionResultV7request7resultsAcA0D7RequestV_SayAA11CVDetectionOGtcfC
++ _$s22VisualIntelligenceCore15DetectionResultV7requestAA0D7RequestVvg
++ _$s22VisualIntelligenceCore15DetectionResultVMa
++ _$s22VisualIntelligenceCore15DetectionResultVMn
++ _$s22VisualIntelligenceCore15DetectionResultVSEAAMc
++ _$s22VisualIntelligenceCore15DetectionResultVSeAAMc
++ _$s22VisualIntelligenceCore15EventLookupItemV26requiresSafetyConfirmationSbvg
++ _$s22VisualIntelligenceCore15EventLookupItemVMa
++ _$s22VisualIntelligenceCore15GroundingResultV5labelSSvg
++ _$s22VisualIntelligenceCore15GroundingResultVMn
++ _$s22VisualIntelligenceCore15RefinementStateO12notRefinableyAcA32BundleClassificationRuntimeErrorV_tcACmFWC
++ _$s22VisualIntelligenceCore15RefinementStateO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore15RefinementStateO8refiningyAcA20BundleClassificationVSg_tcACmFWC
++ _$s22VisualIntelligenceCore15RefinementStateO9canRefineyA2CmFWC
++ _$s22VisualIntelligenceCore15RefinementStateO9completedyAcA20BundleClassificationVcACmFWC
++ _$s22VisualIntelligenceCore15RefinementStateOMa
++ _$s22VisualIntelligenceCore15RefinementStateOMn
++ _$s22VisualIntelligenceCore15RefinementStateOSHAAMc
++ _$s22VisualIntelligenceCore15TapToRadarDraftV14ClassificationOMa
++ _$s22VisualIntelligenceCore15TapToRadarDraftV14ClassificationOMn
++ _$s22VisualIntelligenceCore15TapToRadarDraftV15AutoDiagnosticsO16skipsSysdiagnoseyA2EmFWC
++ _$s22VisualIntelligenceCore15TapToRadarDraftV15AutoDiagnosticsO3allyA2EmFWC
++ _$s22VisualIntelligenceCore15TapToRadarDraftV15AutoDiagnosticsOMa
++ _$s22VisualIntelligenceCore15TapToRadarDraftV15ReproducibilityOMa
++ _$s22VisualIntelligenceCore15TapToRadarDraftV15ReproducibilityOMn
++ _$s22VisualIntelligenceCore15TapToRadarDraftV22RemoteDeviceSelectionsVMa
++ _$s22VisualIntelligenceCore15TapToRadarDraftV3url10Foundation3URLVvg
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfC
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA11_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA12_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA13_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA14_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA15_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA17_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA5_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA8_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV8bundleID9component14classification15reproducibility5title18problemDescription8keywords11timeOfIssue11attachments17remoteAttachments20extensionIdentifiers14deleteOnAttach9deviceIDs13deviceClasses12deviceModels0U16DeviceSelections26includeDevicePrefixInTitle15autoDiagnostics27collaborationContactHandles022collaborationGroupChatI018callbackIdentifierACSSSg_AC9ComponentVSgAC14ClassificationOSgAC15ReproducibilityOSgA2YSaySiG10Foundation4DateVSgSayA8_3URLVGA14_SaySSGSbA15_SayAC11DeviceClassOGA15_AC22RemoteDeviceSelectionsVSbAC15AutoDiagnosticsOA15_A2YtcfcfA9_
++ _$s22VisualIntelligenceCore15TapToRadarDraftV9ComponentV11componentID0I4Name0I7VersionAESi_S2StcfC
++ _$s22VisualIntelligenceCore15TapToRadarDraftV9ComponentVMa
++ _$s22VisualIntelligenceCore15TapToRadarDraftV9ComponentVMn
++ _$s22VisualIntelligenceCore15TapToRadarDraftVMa
++ _$s22VisualIntelligenceCore16CVTrackProvidingP15latestDetectionAA11CVDetectionOvgTj
++ _$s22VisualIntelligenceCore16ConfigStorageKeyO012hasOnboardedA6LookUpyA2CmFWC
++ _$s22VisualIntelligenceCore16ConfigStorageKeyO02isA22LookUpEagerModeEnabledyA2CmFWC
++ _$s22VisualIntelligenceCore16ConfigStorageKeyO16hasOnboardedACMEyA2CmFWC
++ _$s22VisualIntelligenceCore16ConfigStorageKeyO23hasOnboardedImageSearchyA2CmFWC
++ _$s22VisualIntelligenceCore16ConfigStorageKeyO8rawValueSSvg
++ _$s22VisualIntelligenceCore16ConfigStorageKeyOMa
++ _$s22VisualIntelligenceCore16DetectionRequestV10AnnotationOMn
++ _$s22VisualIntelligenceCore16DetectionRequestV10OriginatorO9streamingyA2EmFWC
++ _$s22VisualIntelligenceCore16DetectionRequestV10OriginatorOMa
++ _$s22VisualIntelligenceCore16DetectionRequestV13detectionType10originator11annotations16regionOfInterest9timestampAcA11CVDetectionO0dG0O_AC10OriginatorOxSo6CGRectVSdtcSlRzAC10AnnotationO7ElementRtzlufC
++ _$s22VisualIntelligenceCore16DetectionRequestV13detectionTypeAA11CVDetectionO0dG0Ovg
++ _$s22VisualIntelligenceCore16DetectionRequestVMa
++ _$s22VisualIntelligenceCore16DetectionRequestVMn
++ _$s22VisualIntelligenceCore16EventLookupStateO0dE6ResultV4itemAA0dE4ItemVvg
++ _$s22VisualIntelligenceCore16EventLookupStateO0dE6ResultVMa
++ _$s22VisualIntelligenceCore16EventLookupStateO17connectivityErroryAcA07GenericH0VcACmFWC
++ _$s22VisualIntelligenceCore16EventLookupStateO5erroryAcA12GenericErrorVcACmFWC
++ _$s22VisualIntelligenceCore16EventLookupStateO8finishedyA2C0dE6ResultVcACmFWC
++ _$s22VisualIntelligenceCore16EventLookupStateOMa
++ _$s22VisualIntelligenceCore16ImageSearchStateO18onboardingRequiredyA2CmFWC
++ _$s22VisualIntelligenceCore16ImageSearchStateO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore16ImageSearchStateO7startedyA2CmFWC
++ _$s22VisualIntelligenceCore16ImageSearchStateO8finishedyACSayAA0dE4ItemVG_SayAA0dE15RelatedSearchesVGSayAA0dE9AdSectionVGS3StcACmFWC
++ _$s22VisualIntelligenceCore16ImageSearchStateOMa
++ _$s22VisualIntelligenceCore16ImageSearchStateOSQAAMc
++ _$s22VisualIntelligenceCore16InternalSettingsC14showTapToRadarSbvgZTj
++ _$s22VisualIntelligenceCore16InternalSettingsCMa
++ _$s22VisualIntelligenceCore16LocationsHandlerC12lastLocationSo10CLLocationCSgvgTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC19addSimulatedHeadingyySdFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC19stopLocationUpdatesyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC20startLocationUpdatesyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC23promptForLocationAccessyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC24hasPositiveAuthorizationSbvgTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC25authorizationStateUpdatesScSySo21CLAuthorizationStatusVGvgTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC26isLocationSimulationActiveSbvgTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC28stopSimulatingHeadingUpdatesyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC29startSimulatingHeadingUpdatesyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC30restartLocationUpdatesIfNeededyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC35promptForLocationAccessIfApplicableyyFTj
++ _$s22VisualIntelligenceCore16LocationsHandlerC6sharedACvgZ
++ _$s22VisualIntelligenceCore16LocationsHandlerC7headingSo9CLHeadingCSgvgTj
++ _$s22VisualIntelligenceCore16LocationsHandlerCMa
++ _$s22VisualIntelligenceCore16RankingAlgorithmO11rankBundles_10centeredAt4sizeSayAA8CVBundleV_SftGSayAHG_So7CGPointVSgSo6CGSizeVSgtF
++ _$s22VisualIntelligenceCore16RankingAlgorithmO24boresightNearestCentroidyA2CmFWC
++ _$s22VisualIntelligenceCore16RankingAlgorithmO26centerRegionOfInterestSizeSo6CGSizeVvg
++ _$s22VisualIntelligenceCore16RankingAlgorithmO30centerRegionOfInterestPositionSo7CGPointVvg
++ _$s22VisualIntelligenceCore16RankingAlgorithmO37boresightMaximumIntersectionOverUnionyA2CmFWC
++ _$s22VisualIntelligenceCore16RankingAlgorithmO4areayA2CmFWC
++ _$s22VisualIntelligenceCore16RankingAlgorithmOMa
++ _$s22VisualIntelligenceCore16RankingAlgorithmOMn
++ _$s22VisualIntelligenceCore16RankingAlgorithmOs12CaseIterableAAMc
++ _$s22VisualIntelligenceCore16SendableTransferV12wrappedValueACyxGx_tcfC
++ _$s22VisualIntelligenceCore16SendableTransferV12wrappedValuexvg
++ _$s22VisualIntelligenceCore16SendableTransferVMn
++ _$s22VisualIntelligenceCore17CameraSourceFrameMp
++ _$s22VisualIntelligenceCore17CameraSourceFrameP04copyF12WithoutImage0F0QzyFTq
++ _$s22VisualIntelligenceCore17CameraSourceFrameP0F0AC_AaBTn
++ _$s22VisualIntelligenceCore17CameraSourceFrameP10depthImageAA0dH0OSgvgTj
++ _$s22VisualIntelligenceCore17CameraSourceFrameP10depthImageAA0dH0OSgvgTq
++ _$s22VisualIntelligenceCore17CameraSourceFrameP11cameraImageAA0dH0OvgTj
++ _$s22VisualIntelligenceCore17CameraSourceFrameP11cameraImageAA0dH0OvgTq
++ _$s22VisualIntelligenceCore17CameraSourceFrameP8metadataAA0deF8MetadataVvgTj
++ _$s22VisualIntelligenceCore17CameraSourceFrameP8metadataAA0deF8MetadataVvgTq
++ _$s22VisualIntelligenceCore17CameraSourceFramePAAE13rotationAngleAA0H0Vvg
++ _$s22VisualIntelligenceCore17CameraSourceFramePAAE9timestampSdvg
++ _$s22VisualIntelligenceCore17CameraSourceFramePSQTb
++ _$s22VisualIntelligenceCore17LoggingSignposterV10viewfinderACvgZ
++ _$s22VisualIntelligenceCore17LoggingSignposterV12autoInterval_9shouldLog15enableTelemetryAC04AutoG0Cs12StaticStringV_S2btF
++ _$s22VisualIntelligenceCore17LoggingSignposterV12autoInterval_9shouldLog15enableTelemetryAC04AutoG0Cs12StaticStringV_S2btFfA0_
++ _$s22VisualIntelligenceCore17LoggingSignposterV12autoInterval_9shouldLog15enableTelemetryAC04AutoG0Cs12StaticStringV_S2btFfA1_
++ _$s22VisualIntelligenceCore17LoggingSignposterV12cameraSourceACvgZ
++ _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_S2btF
++ _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_S2btFfA0_
++ _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_S2btFfA1_
++ _$s22VisualIntelligenceCore17LoggingSignposterV16cameraControllerACvgZ
++ _$s22VisualIntelligenceCore17LoggingSignposterV2uiACvgZ
++ _$s22VisualIntelligenceCore17LoggingSignposterV6loggerAC2os6LoggerV_tcfC
++ _$s22VisualIntelligenceCore17LoggingSignposterV8IntervalP3endyyFTj
++ _$s22VisualIntelligenceCore17LoggingSignposterV8liveTextACvgZ
++ _$s22VisualIntelligenceCore17LoggingSignposterV9emitEvent_9shouldLogys12StaticStringV_SbtF
++ _$s22VisualIntelligenceCore17LoggingSignposterV9emitEvent_9shouldLogys12StaticStringV_SbtFfA0_
++ _$s22VisualIntelligenceCore17LoggingSignposterVMa
++ _$s22VisualIntelligenceCore17LoggingSignposterVMn
++ _$s22VisualIntelligenceCore17MapsConfigurationV15factorySettingsACvgZ
++ _$s22VisualIntelligenceCore17MapsConfigurationV17showGeoLocatePillSbvg
++ _$s22VisualIntelligenceCore17MapsConfigurationV17showGeoLocatePillSbvpMV
++ _$s22VisualIntelligenceCore17MapsConfigurationV17showGeoLocatePillSbvs
++ _$s22VisualIntelligenceCore17MapsConfigurationV25showDebugGeoLookupResultsSbvg
++ _$s22VisualIntelligenceCore17MapsConfigurationV25showDebugGeoLookupResultsSbvpMV
++ _$s22VisualIntelligenceCore17MapsConfigurationV25showDebugGeoLookupResultsSbvs
++ _$s22VisualIntelligenceCore17MapsConfigurationV2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore17MapsConfigurationVAA12ConfigurableAAMc
++ _$s22VisualIntelligenceCore17MapsConfigurationVMa
++ _$s22VisualIntelligenceCore17MapsConfigurationVMn
++ _$s22VisualIntelligenceCore17MapsConfigurationVSEAAMc
++ _$s22VisualIntelligenceCore17MapsConfigurationVSeAAMc
++ _$s22VisualIntelligenceCore17PublicationPolicyOMa
++ _$s22VisualIntelligenceCore17PublicationPolicyOMn
++ _$s22VisualIntelligenceCore17PublicationPolicyOs12CaseIterableAAMc
++ _$s22VisualIntelligenceCore17ResultLookupStateO03geoE0yAcA03GeoeF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO05eventE0yAcA05EventeF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO07barCodeE0yAcA03BarheF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO11imageSearchyAcA05ImagehF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO13summarizationyAcA013SummarizationF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO20copyPhotoToClipboardyAcA010SaveOrCopyhF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO4acmeyAcA04AcmeF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO5erroryACSScACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO6lookupyAcA0eF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO9geoLocateyAcA03GeohF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO9readAloudyAcA04ReadhF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateO9savePhotoyAcA010SaveOrCopyhF0OcACmFWC
++ _$s22VisualIntelligenceCore17ResultLookupStateOMa
++ _$s22VisualIntelligenceCore17ResultLookupStateOMn
++ _$s22VisualIntelligenceCore17ResultLookupStateOSQAAMc
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO14siriEnablementyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO17montaraEnablementyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO22intelligenceEnablementyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO22siriAssetsAvailabilityyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO23montaraNotAgeRestrictedyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO23montaraNotMDMRestrictedyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO24splashScreenPresentationyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO30intelligenceAssetsAvailabilityyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementO6noCallyA2CmFWC
++ _$s22VisualIntelligenceCore18AskAcmeRequirementOMa
++ _$s22VisualIntelligenceCore18AskAcmeRequirementOMn
++ _$s22VisualIntelligenceCore18AskAcmeRequirementOSQAAMc
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV6actionSo9BCSActionCvg
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV9detectionAA11CVDetectionOvg
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultVMa
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultVMn
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO5erroryACSScACmFWC
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO7startedyA2CmFWC
++ _$s22VisualIntelligenceCore18BarCodeLookupStateO8finishedyA2C0deF6ResultVcACmFWC
++ _$s22VisualIntelligenceCore18BarCodeLookupStateOMa
++ _$s22VisualIntelligenceCore18BarCodeLookupStateOMn
++ _$s22VisualIntelligenceCore18BarCodeLookupStateOSQAAMc
++ _$s22VisualIntelligenceCore18CVTrackIdentifyingMp
++ _$s22VisualIntelligenceCore18CVTrackIdentifyingP2id10Foundation4UUIDVvgTj
++ _$s22VisualIntelligenceCore18CVTrackIdentifyingP2id10Foundation4UUIDVvgTq
++ _$s22VisualIntelligenceCore18CVTrackIdentifyingPs12IdentifiableTb
++ _$s22VisualIntelligenceCore18CVTrackedDetectionC10PredictionV6center7corners9timestampAESo7CGPointV_AA7CornersVSdtcfC
++ _$s22VisualIntelligenceCore18CVTrackedDetectionC10PredictionVMa
++ _$s22VisualIntelligenceCore18CVTrackedDetectionC10PredictionVMn
++ _$s22VisualIntelligenceCore18CVTrackedDetectionC2id10Foundation4UUIDVvg
++ _$s22VisualIntelligenceCore18CVTrackedDetectionC8estimate6atTimeAA11CVDetectionOSgSd_tF
++ _$s22VisualIntelligenceCore18ExecutionParameterOMa
++ _$s22VisualIntelligenceCore18ExecutionParameterOMn
++ _$s22VisualIntelligenceCore18SummarizationStateO10incompleteyA2C16IncompleteReasonOcACmFWC
++ _$s22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO23externalServiceNotSetUpyA2EmFWC
++ _$s22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO25redirectToExternalServiceyA2EmFWC
++ _$s22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonOMa
++ _$s22VisualIntelligenceCore18SummarizationStateO7startedyA2CmFWC
++ _$s22VisualIntelligenceCore18SummarizationStateO8finishedyAcA04TextD6ResultVcACmFWC
++ _$s22VisualIntelligenceCore18SummarizationStateOMa
++ _$s22VisualIntelligenceCore18SummarizationStateOMn
++ _$s22VisualIntelligenceCore18TextDetectorResultV11BackingDataO15coreRecognitionyAESo22CRDocumentOutputRegionC_So8_NSRangeVtcAEmFWC
++ _$s22VisualIntelligenceCore18TextDetectorResultV11BackingDataOMa
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineV10confidenceSfvg
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineV10transcriptSSvg
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineV8languageSSvg
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineVMa
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineVMn
++ _$s22VisualIntelligenceCore18TextDetectorResultV4LineVSHAAMc
++ _$s22VisualIntelligenceCore18TextDetectorResultV5linesSayAC4LineVGvg
++ _$s22VisualIntelligenceCore18TextDetectorResultV7backingAC11BackingDataOvg
++ _$s22VisualIntelligenceCore18TextDetectorResultVMa
++ _$s22VisualIntelligenceCore18TextDetectorResultVMn
++ _$s22VisualIntelligenceCore18TextDetectorResultVSHAAMc
++ _$s22VisualIntelligenceCore18TimestampProvidingMp
++ _$s22VisualIntelligenceCore18TimestampProvidingP9timestampSdvgTq
++ _$s22VisualIntelligenceCore19ConnectivityUtilityC18hasCellularServiceSbyF
++ _$s22VisualIntelligenceCore19ConnectivityUtilityC26couldBeConnectedToInternetSbvg
++ _$s22VisualIntelligenceCore19ConnectivityUtilityC6sharedACvgZ
++ _$s22VisualIntelligenceCore19ConnectivityUtilityCMa
++ _$s22VisualIntelligenceCore19ConnectivityUtilityCMn
++ _$s22VisualIntelligenceCore19GeoLocationEstimateO04coreE0yACSo10CLLocationC_tcACmFWC
++ _$s22VisualIntelligenceCore19GeoLocationEstimateO04coreE10AndHeadingyACSo10CLLocationC_AA5AngleVAHtcACmFWC
++ _$s22VisualIntelligenceCore19GeoLocationEstimateO05arKitE0yACSo10CLLocationC_AFtcACmFWC
++ _$s22VisualIntelligenceCore19GeoLocationEstimateOMa
++ _$s22VisualIntelligenceCore19GeoLocationEstimateOMn
++ _$s22VisualIntelligenceCore19ImageSearchProviderO03getdeF0ACyFZ
++ _$s22VisualIntelligenceCore19ImageSearchProviderO19providerDisplayNameSSvg
++ _$s22VisualIntelligenceCore19ImageSearchProviderOMa
++ _$s22VisualIntelligenceCore19InProcessMediaFrameV8fromPbuf_9timestamp12highResStillACSgSo11CVBufferRefa_SdSbtFZ
++ _$s22VisualIntelligenceCore19InProcessMediaFrameVAA012CameraSourceG0AAMc
++ _$s22VisualIntelligenceCore19InProcessMediaFrameVMa
++ _$s22VisualIntelligenceCore19InProcessMediaFrameVMn
++ _$s22VisualIntelligenceCore19MetaDetectionResultV16detectionRequestAA0eH0Vvg
++ _$s22VisualIntelligenceCore19MetaDetectionResultVMa
++ _$s22VisualIntelligenceCore19ParseDetectorResultV17fallbackGlyphNameSSvg
++ _$s22VisualIntelligenceCore19ParseDetectorResultV7domainsSay0A6LookUp0A6DomainVGvg
++ _$s22VisualIntelligenceCore19ParseDetectorResultVMa
++ _$s22VisualIntelligenceCore19TimestampDataBufferC4data5index7sizeMaxACyxGSayxG_S2itcfC
++ _$s22VisualIntelligenceCore19TimestampDataBufferC6appendyxSgxF
++ _$s22VisualIntelligenceCore19TimestampDataBufferC6insert_19replacementFunctionxSgx_xx_xtctF
++ _$s22VisualIntelligenceCore19TimestampDataBufferC6insert_19replacementFunctionxSgx_xx_xtctFfA0_
++ _$s22VisualIntelligenceCore19TimestampDataBufferCMn
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC015resetOnboardingE013configStorageyx_tAA06ConfigJ0RzlFTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC016hasAnyOnboardingE013configStorageSbx_tAA06ConfigK0RzlFTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC14enableStickersSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC14enableStickersSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15enableCopyPhotoSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15enableCopyPhotoSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15enableSavePhotoSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15enableSavePhotoSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15hasOnboardedAppSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC15hasOnboardedAppSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC25showEngineeringUIControlsSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC25showEngineeringUIControlsSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC28resetGeoLookupFollowUpPromptyyFTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC35hasPresentedGeoLookupFollowUpPromptSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC35hasPresentedGeoLookupFollowUpPromptSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC37hasPresentedMontaraRestrictionWarningSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC37hasPresentedMontaraRestrictionWarningSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC41enableAlternativeDisambiguationPinStylingSbvgTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityC41enableAlternativeDisambiguationPinStylingSbvsTj
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityCACycfC
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityCMa
++ _$s22VisualIntelligenceCore19UserDefaultsUtilityCMn
++ _$s22VisualIntelligenceCore20ActionExecutionStateO15contentViewOnlyyAcA07BuiltInD0OcACmFWC
++ _$s22VisualIntelligenceCore20ActionExecutionStateO5erroryACSScACmFWC
++ _$s22VisualIntelligenceCore20ActionExecutionStateO7builtInyAcA012ResultLookupF0OcACmFWC
++ _$s22VisualIntelligenceCore20ActionExecutionStateO8externalyAC0aD17PredictionSupport0E6ResultOcACmFWC
++ _$s22VisualIntelligenceCore20ActionExecutionStateOMa
++ _$s22VisualIntelligenceCore20ActionExecutionStateOMn
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO11mapsResultsyAESayAA9GeoLookupC0iJ6ResultVG_SdtcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO11textActionsyAeA04TextH10ClassifierV6ResultVcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO15caseDescriptionSSvg
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO15verticalContentyAE05SceneB07AFMDataOcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO5eventyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO7barcodeyAeA18BCSActionContainerVcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO8identifyyAeA0A16LookupClassifierV6ResultVSgcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9groundingyAeA25GroundingClassifierResultVcAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9readAloudyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9summarizeyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOMa
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOMn
++ _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOSHAAMc
++ _$s22VisualIntelligenceCore20BundleClassificationV12runtimeErrorAA0de7RuntimeG0VSgvg
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO010ineligibleD9StructureyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO11rateLimitedyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO12upstreamWorkyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO14systemDisabledyAESScAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO17systemUnavailableyAESScAEmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO18awaitingMoreFramesyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonO19missingEntitlementsyA2EmFWC
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonOMa
++ _$s22VisualIntelligenceCore20BundleClassificationV14BlockingReasonOSQAAMc
++ _$s22VisualIntelligenceCore20BundleClassificationVMa
++ _$s22VisualIntelligenceCore20BundleClassificationVMn
++ _$s22VisualIntelligenceCore20ObjectDetectorResultV5labelSSvg
++ _$s22VisualIntelligenceCore20ObjectDetectorResultVMa
++ _$s22VisualIntelligenceCore20SaveOrCopyPhotoStateO5erroryACSScACmFWC
++ _$s22VisualIntelligenceCore20SaveOrCopyPhotoStateO7startedyA2CmFWC
++ _$s22VisualIntelligenceCore20SaveOrCopyPhotoStateO8finishedyA2CmFWC
++ _$s22VisualIntelligenceCore20SaveOrCopyPhotoStateOMa
++ _$s22VisualIntelligenceCore20SaveOrCopyPhotoStateOMn
++ _$s22VisualIntelligenceCore20SystemVariantSupportV15isInternalBuildSbvgZ
++ _$s22VisualIntelligenceCore21MapsAnalyticsReporterV22dismissedResultSnippet6resultyAA09GeoLookupH8BusinessV_tFZ
++ _$s22VisualIntelligenceCore21MapsAnalyticsReporterV27dismissedDisambiguationList7resultsySayAA23GeoLookupResultBusinessVG_tFZ
++ _$s22VisualIntelligenceCore21OutputStreamProvidingP04makedE0ScSy0D4TypeQzGyYaFTj
++ _$s22VisualIntelligenceCore21OutputStreamProvidingP04makedE0ScSy0D4TypeQzGyYaFTjTu
++ _$s22VisualIntelligenceCore21RellenoGlobalSettingsC19ignoreTrackingStateSbvgTj
++ _$s22VisualIntelligenceCore21RellenoGlobalSettingsC6sharedACvgZ
++ _$s22VisualIntelligenceCore21RellenoGlobalSettingsCMa
++ _$s22VisualIntelligenceCore21TextActionsClassifierV6ResultVMa
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV02isD8EligibleSbyFZ
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV11isAvailable_14languageOptionSbAC17UseCaseIdentifierO_16GenerativeModels0mnE0V08LanguageI0OtF
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV11isAvailable_14languageOptionSbAC17UseCaseIdentifierO_16GenerativeModels0mnE0V08LanguageI0OtFfA0_
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV12availability_14languageOption16GenerativeModels0ijE0V0E0OAC17UseCaseIdentifierO_AH08LanguageH0OtF
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV12availability_14languageOption16GenerativeModels0ijE0V0E0OAC17UseCaseIdentifierO_AH08LanguageH0OtFfA0_
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV17UseCaseIdentifierO8settingsyA2EmFWC
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV17UseCaseIdentifierOMa
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV6sharedACvgZ
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityV7preheatyyFZ
++ _$s22VisualIntelligenceCore22GreymatterAvailabilityVMa
++ _$s22VisualIntelligenceCore22SaliencyStreamInternalMp
++ _$s22VisualIntelligenceCore22SaliencyStreamInternalPAA0dE19IdentifierProvidingTb
++ _$s22VisualIntelligenceCore22SaliencyStreamInternalPAA0deF11MonitorableTb
++ _$s22VisualIntelligenceCore22TrackManagerSupportingMp
++ _$s22VisualIntelligenceCore22TrackManagerSupportingP21makePredictionsStreamScSySDy10Foundation4UUIDVAA18CVTrackedDetectionC10PredictionVGGyFTq
++ _$s22VisualIntelligenceCore22TrackManagerSupportingP22filterToRelevantTracks_4fromSayAA18CVTrackedDetectionCGAH_qd__tAA17CameraSourceFrameRd__lFTq
++ _$s22VisualIntelligenceCore22TrackManagerSupportingP34registerTracksForPredictionUpdates_4fromySayAA15CVTrackSnapshotVG_qd__tAA17CameraSourceFrameRd__lFTq
++ _$s22VisualIntelligenceCore22TrackManagerSupportingP36unregisterTracksForPredictionUpdatesyySayAA15CVTrackSnapshotVGFTq
++ _$s22VisualIntelligenceCore22TrackManagerSupportingP48completedAllPredictionUpdateRegistrationsOnFrameyyqd__AA012CameraSourceM0Rd__lFTq
++ _$s22VisualIntelligenceCore23GeoLookupResultBusinessV7mapItemSo05MKMapI0Cvg
++ _$s22VisualIntelligenceCore23GeoLookupResultBusinessVMa
++ _$s22VisualIntelligenceCore23GeoLookupResultBusinessVMn
++ _$s22VisualIntelligenceCore23TextSummarizationResultV07offlineF0ACvgZ
++ _$s22VisualIntelligenceCore23TextSummarizationResultV10symbolNameSSSgvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultV19internalErrorStringSSSgvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultV20localizedErrorStringSSSgvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultV22presentAsLLMSummarizedSbvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultV26requiresSafetyConfirmationSbvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultV7summarySSvg
++ _$s22VisualIntelligenceCore23TextSummarizationResultVMa
++ _$s22VisualIntelligenceCore23TextSummarizationResultVSQAAMc
++ _$s22VisualIntelligenceCore24GroundingMD4_1DescriptorCMn
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableMp
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP13executeAction_4pill18executionParameterSci_pAA0H14ExecutionStateO7ElementRts_s5NeverO7FailureRtsXPqd___qd_0_AA0lK0OSgtYaAA0H12PinProvidingRd__AA0hq4PillR0Rd_0_r0_lFTj
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP13executeAction_4pill18executionParameterSci_pAA0H14ExecutionStateO7ElementRts_s5NeverO7FailureRtsXPqd___qd_0_AA0lK0OSgtYaAA0H12PinProvidingRd__AA0hq4PillR0Rd_0_r0_lFTjTu
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP13executeAction_4pill18executionParameterSci_pAA0H14ExecutionStateO7ElementRts_s5NeverO7FailureRtsXPqd___qd_0_AA0lK0OSgtYaAA0H12PinProvidingRd__AA0hq4PillR0Rd_0_r0_lFTq
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTj
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTjTu
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTq
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC11Observation10ObservableAAMc
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC16canBeginPlaybackSbvgTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC19stopProgressUpdatesyyFTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC20startProgressUpdatesyyFTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC4play8metadatayAC8MetadataV_tFTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC4stopyyFTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC6sharedACvgZ
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC8MetadataV5title4text16localeIdentifier5imageAESS_S2SSo10CGImageRefatcfC
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC8MetadataVMa
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerC9isPlayingSbvgTj
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerCMa
++ _$s22VisualIntelligenceCore24SiriStreamingVoicePlayerCMn
++ _$s22VisualIntelligenceCore25AskAcmeRequirementManagerC04nextF0AA0deF0OSgvgTj
++ _$s22VisualIntelligenceCore25AskAcmeRequirementManagerC14montaraEnabledSbvgZ
++ _$s22VisualIntelligenceCore25AskAcmeRequirementManagerC16hasOnboardedACMEACSb_tcfC
++ _$s22VisualIntelligenceCore25AskAcmeRequirementManagerC17montaraRestrictedSbvgZ
++ _$s22VisualIntelligenceCore25AskAcmeRequirementManagerCMa
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV13rotationAngle22shouldAttemptDetection9timestamp21isHighResolutionStill8safeAreaAcA0I0V_SbSdSbSo6CGRectVtcfC
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV13rotationAngleAA0I0Vvg
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV21isHighResolutionStillSbvg
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV8safeAreaSo6CGRectVvg
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataV9timestampSdvg
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataVMa
++ _$s22VisualIntelligenceCore25CameraSourceFrameMetadataVMn
++ _$s22VisualIntelligenceCore25SaliencyStreamIngredientsV13configuration13configStorage22trackManagerSupportingACx_q_AA05TrackkL0_pSgtcAA0dE13ConfigurationRzAA06ConfigI0R_r0_lufC
++ _$s22VisualIntelligenceCore25SaliencyStreamIngredientsVAA0deF9ProvidingAAWP
++ _$s22VisualIntelligenceCore25SaliencyStreamIngredientsVMa
++ _$s22VisualIntelligenceCore25SaliencyStreamIngredientsVMn
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetO14cameraSettingsyA2EmFWC
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetO2eeoiySbAE_AEtFZ
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetOMa
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetOMn
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetOSEAAMc
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetOSeAAMc
++ _$s22VisualIntelligenceCore26CVCoordinatorConfigurationV6PresetOs12CaseIterableAAMc
++ _$s22VisualIntelligenceCore27GroundedParseDetectorResultV17fallbackGlyphNameSSvg
++ _$s22VisualIntelligenceCore27GroundedParseDetectorResultVMa
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationMp
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationP012trackManagerF0AA05TrackH0C0F0VvgTq
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationP013bundleManagerF0AA06BundleH0C0F0VvgTq
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationP013cvCoordinatorF6PresetAA013CVCoordinatorF0V0I0OvgTq
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationP014bundleSelectorF0AA06BundleH0C0F0VvgTq
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationP015actionPredictorF0AA06ActionH0C0F0VvgTq
++ _$s22VisualIntelligenceCore28GoogleImageSearchRateLimiterC6sharedACvgZ
++ _$s22VisualIntelligenceCore28GoogleImageSearchRateLimiterCMa
++ _$s22VisualIntelligenceCore28GoogleImageSearchRateLimiterCMn
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC015updatePreferredD12LanguageCodeSSyYaFTjTu
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC06updateE9LanguagesSaySSGyYaFTjTu
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC22availableLanguageCodesSaySSGvgTj
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC6sharedACvgZ
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityCMa
++ _$s22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityCMn
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingMp
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingP13bundleManagerAA06BundleI0CvgTq
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingP14bundleSelectorAA06BundleI0CvgTq
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingP15actionPredictorAA0fI0CvgTq
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAA0dE10ActionableTb
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE07executeF0_4pill18executionParameterSci_pAA0F14ExecutionStateO7ElementRts_s5NeverO7FailureRtsXPqd___qd_0_AA0lK0OSgtYaAA0f3PinG0Rd__AA0fq4PillG0Rd_0_r0_lF
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE07executeF0_4pill18executionParameterSci_pAA0F14ExecutionStateO7ElementRts_s5NeverO7FailureRtsXPqd___qd_0_AA0lK0OSgtYaAA0f3PinG0Rd__AA0fq4PillG0Rd_0_r0_lFTu
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelectionyAA0fI0VSo6CGRectVYaF
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelectionyAA0fI0VSo6CGRectVYaFTu
++ _$s22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerO08detectedI6ObjectyAESo0hI0CcAEmFWC
++ _$s22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerOMa
++ _$s22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerOMn
++ _$s22VisualIntelligenceCore30StreamingBarcodeDetectorResultV2id10confidence7corners5label13rotationAngle9timestamp21detectedCodeContainerAC10Foundation4UUIDV_SfAA7CornersVSSAA0M0VSdAC011BCSDetectedpQ0OSgtcfC
++ _$s22VisualIntelligenceCore30StreamingBarcodeDetectorResultVMa
++ _$s22VisualIntelligenceCore31TextDetectionReadabilityUtilityV17isSmallOrIsolated6result10screenSize13minConfidence0O21BoundingBoxPercentageSbAA0D14DetectorResultV_So6CGSizeVSf0C8Graphics7CGFloatVtFZ
++ _$s22VisualIntelligenceCore31TextDetectionReadabilityUtilityV17isSmallOrIsolated6result10screenSize13minConfidence0O21BoundingBoxPercentageSbAA0D14DetectorResultV_So6CGSizeVSf0C8Graphics7CGFloatVtFZfA1_
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV0G4TypeO010processingG0yAESScAEmFWC
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV0G4TypeO13unmetCriteriayAESScAEmFWC
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV0G4TypeO7expiredyA2EmFWC
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV0G4TypeO9blockedByyAeA0dE0V14BlockingReasonOcAEmFWC
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV0G4TypeOMa
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorV4typeAC0G4TypeOvg
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorVMa
++ _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorVMn
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestC13cvCoordinator5frameAcA13CVCoordinatorC_AA17CameraSourceFrame_ptcfC
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestC13safeAreaFrame12maxDimensionAA012CameraSourceL0_pSgSi_tYaKFTjTu
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestC6ingestyyYaKFTjTu
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestC7service8requestsySayAA16DetectionRequestVG_tYaKFTjTu
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestCAA20ActionVisionProviderAAWP
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestCMa
++ _$s22VisualIntelligenceCore32InProcessStillImageMediaManifestCMn
++ _$s22VisualIntelligenceCore33SaliencyStreamIdentifierProvidingMp
++ _$s22VisualIntelligenceCore33SaliencyStreamIdentifierProvidingP06streamF0SivgTq
++ _$s22VisualIntelligenceCore33SaliencyStreamIdentifierProvidingPA2A0de11IngredientsG0RzrlE06streamF0Sivg
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorableMp
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorableP023makeBundleManagerOutputE023bufferingPolicyOverrideScSyAA0iJ0C0K0VGScS12ContinuationV09BufferingM0OyAI__GSg_tYaFTq
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorableP024makeBundleSelectorOutputE023bufferingPolicyOverrideScSyAA0iJ0C0K0VGScS12ContinuationV09BufferingM0OyAI__GSg_tYaFTq
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorableP025makeActionPredictorOutputE023bufferingPolicyOverrideScSyAA0iJ0C0K0VGScS12ContinuationV09BufferingM0OyAI__GSg_tYaFTq
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE023makeBundleManagerOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaF
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE023makeBundleManagerOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaFTu
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE024makeBundleSelectorOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaF
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE024makeBundleSelectorOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaFTu
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE025makeActionPredictorOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaF
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE025makeActionPredictorOutputE023bufferingPolicyOverrideScSyAA0kL0C0M0VGScS12ContinuationV09BufferingO0OyAJ__GSg_tYaFTu
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE37getHighQualityStillOverlaySupportDataAA0noP0VSgyYaF
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePA2A0dE20IngredientsProvidingRzrlE37getHighQualityStillOverlaySupportDataAA0noP0VSgyYaFTu
++ _$s22VisualIntelligenceCore33SaliencyStreamInternalMonitorablePAA0dE22StillOverlaySupportingTb
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingMp
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingP08saliencyeF0AA0deF0VvgTj
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingP08saliencyeF0AA0deF0VvgTq
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingPAAE12trackManagerAA05TrackI0Cvg
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingPAAE13bundleManagerAA06BundleI0Cvg
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingPAAE13cvCoordinatorAA13CVCoordinatorCvg
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingPAAE14bundleSelectorAA06BundleI0Cvg
++ _$s22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingPAAE15actionPredictorAA06ActionI0Cvg
++ _$s22VisualIntelligenceCore36SaliencyStreamStillOverlaySupportingMp
++ _$s22VisualIntelligenceCore36SaliencyStreamStillOverlaySupportingP014getHighQualityfG11SupportDataAA0glM0VSgyYaFTq
++ _$s22VisualIntelligenceCore3LogO11cvProcessor2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO12cameraSource2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO13cameraPreview2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO16cameraController2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO2ui2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO4acme2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO4zoom2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO5arKit2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO6prompt2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO6vision2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO8barcodes2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO8liveText2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO9analytics2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore3LogO9readAloud2os6LoggerVvgZ
++ _$s22VisualIntelligenceCore5AngleV13cgOrientationSo015CGImagePropertyF0Vvg
++ _$s22VisualIntelligenceCore5AngleV14integerLiteralACSi_tcfC
++ _$s22VisualIntelligenceCore5AngleV1soiyA2C_ACtFZ
++ _$s22VisualIntelligenceCore5AngleV7degreesSdvg
++ _$s22VisualIntelligenceCore5AngleV7degreesyACSdFZ
++ _$s22VisualIntelligenceCore5AngleV7radiansyACSdFZ
++ _$s22VisualIntelligenceCore5AngleVMa
++ _$s22VisualIntelligenceCore5AngleVMn
++ _$s22VisualIntelligenceCore5AngleVSLAAMc
++ _$s22VisualIntelligenceCore5AngleVSQAAMc
++ _$s22VisualIntelligenceCore7CVErrorO13frameNotFoundyA2CmFWC
++ _$s22VisualIntelligenceCore7CVErrorO13trackNotFoundyA2CmFWC
++ _$s22VisualIntelligenceCore7CVErrorOMa
++ _$s22VisualIntelligenceCore7CVErrorOs5ErrorAAMc
++ _$s22VisualIntelligenceCore7CornersV10bottomLeftSo7CGPointVvg
++ _$s22VisualIntelligenceCore7CornersV11bottomRightSo7CGPointVvg
++ _$s22VisualIntelligenceCore7CornersV13clockwiseLoopSaySo7CGPointVGvg
++ _$s22VisualIntelligenceCore7CornersV18allPointsClockwiseSaySo7CGPointVGvg
++ _$s22VisualIntelligenceCore7CornersV6boundsSo6CGRectVvg
++ _$s22VisualIntelligenceCore7CornersV6centerSo7CGPointVvg
++ _$s22VisualIntelligenceCore7CornersV7topLeft0E5Right06bottomF00hG0ACSo7CGPointV_A3ItcfC
++ _$s22VisualIntelligenceCore7CornersV7topLeftSo7CGPointVvg
++ _$s22VisualIntelligenceCore7CornersV8topRightSo7CGPointVvg
++ _$s22VisualIntelligenceCore7CornersVMa
++ _$s22VisualIntelligenceCore8CVBundleV10debugLabelSSvg
++ _$s22VisualIntelligenceCore8CVBundleV14latestEstimateAA11CVDetectionOvg
++ _$s22VisualIntelligenceCore8CVBundleV14textDetectionsSayAA11CVDetectionOGvg
++ _$s22VisualIntelligenceCore8CVBundleV15refinementState2ofAA010RefinementF0OSgAA20BundleClassificationV0J4TypeO_tF
++ _$s22VisualIntelligenceCore8CVBundleV18modifyWithRotationyAcA5AngleVF
++ _$s22VisualIntelligenceCore8CVBundleV19textDetectorResultsSayAA04TextF6ResultVGvg
++ _$s22VisualIntelligenceCore8CVBundleV2id10Foundation4UUIDVvg
++ _$s22VisualIntelligenceCore8CVBundleV6boundsSo6CGRectVvg
++ _$s22VisualIntelligenceCore8CVBundleVMa
++ _$s22VisualIntelligenceCore8CVBundleVMn
++ _$s22VisualIntelligenceCore8CVBundleVSQAAMc
++ _$s22VisualIntelligenceCore8CVBundleVs12IdentifiableAAMc
++ _$s22VisualIntelligenceCore9AcmeStateO18onboardingRequiredyAcA03AskD11RequirementO_tcACmFWC
++ _$s22VisualIntelligenceCore9AcmeStateO2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore9AcmeStateO5erroryACSS_tcACmFWC
++ _$s22VisualIntelligenceCore9AcmeStateO7runningyA2CmFWC
++ _$s22VisualIntelligenceCore9AcmeStateOMa
++ _$s22VisualIntelligenceCore9AcmeStateOMn
++ _$s22VisualIntelligenceCore9ActionPinV010fullScreendE0ACvgZ
++ _$s22VisualIntelligenceCore9ActionPinV11rankedPillsSayAC4PillVGvg
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO20copyPhotoToClipboardyA2EmFWC
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO4pillAC0G0Vvg
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO7askAcmeyA2EmFWC
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO9savePhotoyA2EmFWC
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillOMa
++ _$s22VisualIntelligenceCore9ActionPinV18modifyWithRotationyAcA5AngleVF
++ _$s22VisualIntelligenceCore9ActionPinV2id10Foundation4UUIDVvg
++ _$s22VisualIntelligenceCore9ActionPinV4PillV0aB2UIE09analyticsD0AF0D9AnalyticsC0D4TypeOyF
++ _$s22VisualIntelligenceCore9ActionPinV4PillV14localizedTitleSSvg
++ _$s22VisualIntelligenceCore9ActionPinV4PillV5FlagsV4FlagO10preShutteryA2ImFWC
++ _$s22VisualIntelligenceCore9ActionPinV4PillV5FlagsV4FlagOMa
++ _$s22VisualIntelligenceCore9ActionPinV4PillV5FlagsV8containsySbAG4FlagOF
++ _$s22VisualIntelligenceCore9ActionPinV4PillV5FlagsVMa
++ _$s22VisualIntelligenceCore9ActionPinV4PillV5flagsAE5FlagsVvg
++ _$s22VisualIntelligenceCore9ActionPinV4PillV9glyphNameSSvg
++ _$s22VisualIntelligenceCore9ActionPinV4PillVAA0deF9ProvidingAAWP
++ _$s22VisualIntelligenceCore9ActionPinV4PillVMa
++ _$s22VisualIntelligenceCore9ActionPinV4PillVMn
++ _$s22VisualIntelligenceCore9ActionPinV4PillVSQAAMc
++ _$s22VisualIntelligenceCore9ActionPinV7cornersAA7CornersVvg
++ _$s22VisualIntelligenceCore9ActionPinVAA0dE9ProvidingAAWP
++ _$s22VisualIntelligenceCore9ActionPinVMa
++ _$s22VisualIntelligenceCore9ActionPinVMn
++ _$s22VisualIntelligenceCore9ActionPinVSQAAMc
++ _$s22VisualIntelligenceCore9ActionPinVs12IdentifiableAAMc
++ _$s22VisualIntelligenceCore9GeoLookupC0dE15ResultDebugInfoVMn
++ _$s22VisualIntelligenceCore9GeoLookupC0dE6ResultVMn
++ _$s22VisualIntelligenceCore9GeoLookupC11isSupportedSbvgTj
++ _$s22VisualIntelligenceCore9GeoLookupC23clearContextIfNecessaryyyFTj
++ _$s22VisualIntelligenceCore9GeoLookupC6sharedACvgZ
++ _$s22VisualIntelligenceCore9GeoLookupCMa
++ _$s22VisualIntelligenceCore9GeoLookupCScAAAMc
++ _$s22VisualIntelligenceCore9M2MHandleC6scaler16inputPixelBuffer06outputhI08rotation4crop15destinationRectySo11CVBufferRefa_AkA5AngleVSo6CGRectVSgAOtKFTj
++ _$s22VisualIntelligenceCore9M2MHandleC6scaler16inputPixelBuffer06outputhI08rotation4crop15destinationRectySo11CVBufferRefa_AkA5AngleVSo6CGRectVSgAOtKFfA3_
++ _$s22VisualIntelligenceCore9M2MHandleCACycfC
++ _$s22VisualIntelligenceCore9M2MHandleCMa
++ _$s22VisualIntelligenceCore9M2MHandleCMn
++ _$s29VisualActionPredictionSupport15ExecutionResultOMa
++ _$s5Frame22VisualIntelligenceCore012CameraSourceA0PTl
++ _$s7Combine14AnyCancellableCMa
++ _$s7Combine14AnyCancellableCSQAAMc
++ _$s7SwiftUI11AnyLocationCMn
++ _$s7SwiftUI11EnvironmentVyACyqd__SgGqd__mcADRszRld__C11Observation10ObservableRd__lufC
++ _$s7SwiftUI11TransactionVN
++ _$s7SwiftUI12ScaledMetricV12wrappedValue10relativeToACyxGx_AA4FontV9TextStyleOtcfC
++ _$s7SwiftUI12ScaledMetricV12wrappedValuexvg
++ _$s7SwiftUI12ScaledMetricVMa
++ _$s7SwiftUI12ScaledMetricVMn
++ _$s7SwiftUI13AnyTransitionV018VisualIntelligenceB0E4blurACvgZ
++ _$s7SwiftUI13AnyTransitionV018VisualIntelligenceB0E6offset7xOffset01yH05delayAC12CoreGraphics7CGFloatV_AKSdtFZ
++ _$s7SwiftUI13GeometryProxyVyxAA6AnchorVyxGcluig
++ _$s7SwiftUI13_ShapeSetViewV5shape5styleACyxGAA01_cD0V_xtcfC
++ _$s7SwiftUI13_ShapeSetViewVMn
++ _$s7SwiftUI15GraphicsContextV12ResolvedTextV7measure2inSo6CGSizeVAI_tF
++ _$s7SwiftUI15GraphicsContextV12ResolvedTextVMa
++ _$s7SwiftUI15GraphicsContextV12ResolvedTextVMn
++ _$s7SwiftUI15GraphicsContextV4draw_2at6anchoryAC12ResolvedTextV_So7CGPointVAA9UnitPointVtF
++ _$s7SwiftUI15GraphicsContextV4fill_4with5styleyAA4PathV_AC7ShadingVAA9FillStyleVtF
++ _$s7SwiftUI15GraphicsContextV7resolveyAC12ResolvedTextVAA0G0VF
++ _$s7SwiftUI16MaterialProviderP20resolveAdaptiveColor_2inAA0C0VAAE15ForegroundStyleVAA0G0VAAE11ResolvedHDRV_AgAE7ContextVtFTq
++ _$s7SwiftUI16MaterialProviderP21foregroundEnvironment_3foryAA0F6ValuesVz_AA0C0VtFTq
++ _$s7SwiftUI16MaterialProviderPAAE20resolveAdaptiveColor_2inAA0C0VAAE15ForegroundStyleVAA0G0VAAE11ResolvedHDRV_AgAE7ContextVtF
++ _$s7SwiftUI16MaterialProviderPAAE21foregroundEnvironment_3foryAA0F6ValuesVz_AA0C0VtF
++ _$s7SwiftUI16RoundedRectangleV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI17EnvironmentValuesV018VisualIntelligenceB0E16openSensitiveURLyy10Foundation0I0V_AD04OpenH10URLOptionsVSgtcvg
++ _$s7SwiftUI17EnvironmentValuesV018VisualIntelligenceB0E16openSensitiveURLyy10Foundation0I0V_AD04OpenH10URLOptionsVSgtcvpMV
++ _$s7SwiftUI17EnvironmentValuesV018VisualIntelligenceB0E16openSensitiveURLyy10Foundation0I0V_AD04OpenH10URLOptionsVSgtcvs
++ _$s7SwiftUI18RoundedCornerStyleOMn
++ _$s7SwiftUI18_TaskValueModifierVMn
++ _$s7SwiftUI21_BackdropGroupEffect2VAA12ViewModifierAAMc
++ _$s7SwiftUI21_BackdropGroupEffect2VMn
++ _$s7SwiftUI21_BackdropGroupEffect2VN
++ _$s7SwiftUI22_AnchorWritingModifierVMn
++ _$s7SwiftUI22_AnchorWritingModifierVyxq_GAA04ViewE0AAMc
++ _$s7SwiftUI22_MatchedGeometryEffectVMn
++ _$s7SwiftUI22_MatchedGeometryEffectVyxGAA12ViewModifierAAMc
++ _$s7SwiftUI24_TagTraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI25MatchedGeometryPropertiesV8positionACvgZ
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
++ _$s7SwiftUI29_BackgroundPreferenceModifierVMn
++ _$s7SwiftUI29_BackgroundPreferenceModifierVyxq_GAA04ViewE0AAMc
++ _$s7SwiftUI4AxisO3SetVMn
++ _$s7SwiftUI4FontV018VisualIntelligenceB0E8cardBodyACvgZ
++ _$s7SwiftUI4FontV4boldACyF
++ _$s7SwiftUI4FontV9TextStyleO8headlineyA2EmFWC
++ _$s7SwiftUI4PathV11roundedRect12cornerRadius5styleACSo6CGRectV_12CoreGraphics7CGFloatVAA18RoundedCornerStyleOtcfC
++ _$s7SwiftUI4PathV9ellipseInACSo6CGRectV_tcfC
++ _$s7SwiftUI4PathVAA5ShapeAAMc
++ _$s7SwiftUI4PathVN
++ _$s7SwiftUI4TextV018VisualIntelligenceB0E07latencyC5StyleQryF
++ _$s7SwiftUI4TextV018VisualIntelligenceB0E07latencyC5StyleQryFQOMQ
++ _$s7SwiftUI4TextV14TruncationModeO6middleyA2EmFWC
++ _$s7SwiftUI4TextV16CustomAttributesV3addyyxAA0C9AttributeRzlF
++ _$s7SwiftUI4TextV16CustomAttributesVAEycfC
++ _$s7SwiftUI4TextV16CustomAttributesVMa
++ _$s7SwiftUI4TextV16CustomAttributesVMn
++ _$s7SwiftUI4TextVyAC10Foundation16AttributedStringVcfC
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E11ifCondition_9transformQrSb_qd__xXEtAaBRd__lF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E11ifCondition_9transformQrSb_qd__xXEtAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E18controlCircleStyleQryF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E18controlCircleStyleQryFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E18onSceneStateChangeyQryAD0gH0OcF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E18onSceneStateChangeyQryAD0gH0OcFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E19controlCapsuleStyle10isInvertedQrSb_tF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E19controlCapsuleStyle10isInvertedQrSb_tFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E20containerSmartDialogQryF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E20containerSmartDialogQryFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E26allowsOpeningSensitiveURLsQryF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E26allowsOpeningSensitiveURLsQryFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E32smartDialogAnimatableIfAvailableQryF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E32smartDialogAnimatableIfAvailableQryFQOMQ
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E36onUpdateAnalyticsForSuggestedActionsyQryAD07SessionhJ22ActionObserverModifierV6ReasonOcF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E36onUpdateAnalyticsForSuggestedActionsyQryAD07SessionhJ22ActionObserverModifierV6ReasonOcFQOMQ
++ _$s7SwiftUI4ViewPAAE4task8priority_QrScP_yyYaYbctF
++ _$s7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lF
++ _$s7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQOMQ
++ _$s7SwiftUI4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lF
++ _$s7SwiftUI4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOMQ
++ _$s7SwiftUI5ColorV3mix4with2by2inA2C_SdAA8GradientV0C5SpaceVtF
++ _$s7SwiftUI6AnchorV6SourceVAASo6CGRectVRszlE6boundsAEyAG_GvgZ
++ _$s7SwiftUI6AnchorVMa
++ _$s7SwiftUI6AnchorVMn
++ _$s7SwiftUI6CircleVAA4ViewAAMc
++ _$s7SwiftUI6CircleVAA5ShapeAAMc
++ _$s7SwiftUI6CircleVN
++ _$s7SwiftUI7CapsuleV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI8AnyShapeV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI8AnyShapeVMn
++ _$s7SwiftUI8AnyShapeVN
++ _$s7SwiftUI8AnyShapeVyACxcAA0D0RzlufC
++ _$s7SwiftUI8BindableV12wrappedValuexvg
++ _$s7SwiftUI8BindableVAARlzC11Observation10ObservableRzlE12wrappedValueACyxGx_tcfC
++ _$s7SwiftUI8BindableVMa
++ _$s7SwiftUI8BindableVMn
++ _$s7SwiftUI8GradientV10ColorSpaceV10perceptualAEvgZ
++ _$s7SwiftUI8MaterialV13_GlassVariantV4SizeO5largeyA2GmFWC
++ _$s7SwiftUI8MaterialV13_GlassVariantV4SizeO5smallyA2GmFWC
++ _$s7SwiftUI8MaterialV13_GlassVariantV4SizeO6mediumyA2GmFWC
++ _$s7SwiftUI8MaterialV13_GlassVariantV4SizeOMa
++ _$s7SwiftUI8MaterialV13_GlassVariantV4sizeyA2E4SizeOF
++ _$s7SwiftUI8MaterialV13_GlassVariantV5clearAEvgZ
++ _$s7SwiftUI8MaterialV13_GlassVariantV7regularAEvgZ
++ _$s7SwiftUI8MaterialV13_GlassVariantVMa
++ _$s7SwiftUI8MaterialV6_glassyA2C13_GlassVariantVFZ
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassV10lightAngleAA0G0Vvs
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassV7filtersSayAE6FilterVGvs
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassV8strength12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassV9thickness12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassVAGycfC
++ _$s7SwiftUI8MaterialVAAE5LayerV5GlassVMa
++ _$s7SwiftUI8MaterialVAAE5LayerV5glassyA2E5GlassVFZ
++ _$s7SwiftUI8MaterialVAAE5LayerV6FilterV10brightness6amountAGSd_tFZ
++ _$s7SwiftUI8MaterialVAAE5LayerV6FilterV10saturation6amountAGSd_tFZ
++ _$s7SwiftUI8MaterialVAAE5LayerV6FilterV14luminanceCurve_6amountAGs5SIMD4VySfG_SdtFZ
++ _$s7SwiftUI8MaterialVAAE7ContextV11environmentAA17EnvironmentValuesVvg
++ _$s7SwiftUI8SolariumVAA18ViewInputPredicateAAWP
++ _$s7SwiftUI8SolariumVAAE9isEnabledSbvgZ
++ _$s7SwiftUI8SolariumVACycfC
++ _$s7SwiftUI8SolariumVMn
++ _$s7SwiftUI8SolariumVN
++ _$s7SwiftUI9AnimationV018VisualIntelligenceB0E14pillTransitionACvgZ
++ _$s7SwiftUI9AnimationV6easeIn8durationACSd_tFZ
++ _$s7SwiftUI9NamespaceV12wrappedValueAC2IDVvg
++ _$s7SwiftUI9NamespaceV2IDV2eeoiySbAE_AEtFZ
++ _$s7SwiftUI9NamespaceV2IDV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI9NamespaceV2IDVMn
++ _$s7SwiftUI9NamespaceV2IDVN
++ _$s7SwiftUI9NamespaceVMn
++ _$s7SwiftUI9NamespaceVN
++ _$s7SwiftUI9_ShapeSetV6shapes10smoothnessACSayAA03AnyC0VG_12CoreGraphics7CGFloatVtcfC
++ _$s7SwiftUI9_ShapeSetVMa
++ _$s8Dispatch0A12TimeIntervalO12millisecondsyACSicACmFWC
++ _$s8PhotosUI14PHPickerFilterV6imagesACvgZ
++ _$sSD4KeysVMn
++ _$sSD6ValuesVMn
++ _$sSS10uppercasedSSyF
++ _$sSS22VisualIntelligenceCoreE15anticipatedSize9usingFontSo6CGSizeV7SwiftUI0G0V_tF
++ _$sSS22VisualIntelligenceCoreE16tokensWithSpacesSaySSGyF
++ _$sSS22VisualIntelligenceCoreE6tokensSaySsGyF
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTj
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTjTu
++ _$sScS8IteratorVyx_GScIsMc
++ _$sScSyxGScisMc
++ _$sSci13AsyncIteratorSci_ScITn
++ _$sSci17makeAsyncIterator0bC0QzyFTj
++ _$sSciTL
++ _$sSnyxGSXsMc
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE33rotateCounterClockwiseBy90DegreesABSgyF
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE5toPNG10Foundation4DataVSgyF
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE6toHEIC18compressionQuality10Foundation4DataVSg0E8Graphics7CGFloatV_tF
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE6toHEIC18compressionQuality10Foundation4DataVSg0E8Graphics7CGFloatV_tFfA_
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE7resized14toMaxDimensionABSg0E8Graphics7CGFloatV_tF
++ _$sSo10CGImageRefa22VisualIntelligenceCoreE7resized14toMaxDimensionABSg0E8Graphics7CGFloatV_tFfA_
++ _$sSo11CVBufferRefa22VisualIntelligenceCoreE11cvPixelData10Foundation0H0VSgvg
++ _$sSo18OS_dispatch_sourceP8DispatchE16setCancelHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
++ _$sSo32_UIDirectionalLightConfigurationC5UIKitE12colorPalette9direction7reverse8durationABSo08_UIColorF0C_So01_aB9DirectionVSbSdtcfC
++ _$sSo6CGRectV12VisualLookUpE5scale0E1X0E1YAB12CoreGraphics7CGFloatV_AItF
++ _$sSo6CGRectV22VisualIntelligenceCoreE10centeredAt4sizeABSo7CGPointV_So6CGSizeVtcfC
++ _$sSo6CGRectV22VisualIntelligenceCoreE21intersectionOverUnion4withSfAB_tF
++ _$sSo6CGRectV22VisualIntelligenceCoreE29normalizedRotateToOrientation_06sourceH0AbC5AngleV_AGtF
++ _$sSo6CGRectV22VisualIntelligenceCoreE6centerSo7CGPointVvg
++ _$sSo6CGRectV22VisualIntelligenceCoreE7cornersAC7CornersVvg
++ _$sSo6CGRectV22VisualIntelligenceCoreE8unitRectABvgZ
++ _$sSo7CGPointV22VisualIntelligenceCoreE5scale2toABSo6CGSizeV_tF
++ _$sSo7CGPointV22VisualIntelligenceCoreE9normalize2byABSo6CGSizeV_tF
++ _$sSo8ARCameraC5ARKitE13TrackingStateO6ReasonO12initializingyA2GmFWC
++ _$sSo9BCSActionC20VisualIntelligenceUIE14logDescriptionSSvg
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12CaseIterableP8allCases03AllD0QzvgZTj
++ _$ss12Zip2SequenceV8IteratorVMn
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _AVCaptureDeviceTypeBuiltInDualWideCamera
++ _AVCaptureDeviceTypeBuiltInTripleCamera
++ _AVGQDeviceHasAggregateCamera
++ _AVGQRearFacingCameraSuperWideCameraCapability
++ _AVGQRearFacingTelephotoCameraCapability
++ _AVGestaltGetBoolAnswer
++ _OBJC_CLASS_$_SCKPMediaControlCardSectionViewController
++ _OBJC_CLASS_$__UIColorPalette
++ ___invert_f4
++ __availability_version_check
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _objc_retain_x3
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
+- _$s10AppIntents09_SupportsA12DependenciesMp
+- _$s10AppIntents0A4EnumMp
+- _$s10AppIntents0A4EnumP8RawValueSY_s25LosslessStringConvertibleTn
+- _$s10AppIntents0A4EnumPAA0A5ValueTb
+- _$s10AppIntents0A4EnumPAA26StaticDisplayRepresentableTb
+- _$s10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvgZ
+- _$s10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQOMQ
+- _$s10AppIntents0A4EnumPSYTb
+- _$s10AppIntents0A5ValueMp
+- _$s10AppIntents0A5ValuePAA07_IntentC0Tb
+- _$s10AppIntents0A5ValuePAA24PersistentlyIdentifiableTb
+- _$s10AppIntents0A5ValuePAA24TypeDisplayRepresentableTb
+- _$s10AppIntents0A6EntityMp
+- _$s10AppIntents0A6EntityP12DefaultQueryAC_AA0cE0Tn
+- _$s10AppIntents0A6EntityP12defaultQuery07DefaultE0QzvgZTq
+- _$s10AppIntents0A6EntityP2IDs12IdentifiableP_AA0C21IdentifierConvertibleTn
+- _$s10AppIntents0A6EntityPAA0A5ValueTb
+- _$s10AppIntents0A6EntityPAA20DisplayRepresentableTb
+- _$s10AppIntents0A6EntityPAAE28defaultResolverSpecificationAA05EmptyeF0VyxGvgZ
+- _$s10AppIntents0A6EntityPs12IdentifiableTb
+- _$s10AppIntents11EntityQueryMp
+- _$s10AppIntents11EntityQueryP0C0AC_AA0aC0Tn
+- _$s10AppIntents11EntityQueryP17suggestedEntities6ResultQzyYaKFTq
+- _$s10AppIntents11EntityQueryP22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTq
+- _$s10AppIntents11EntityQueryP8entities3forSay0C0QzGSayAF_2IDQZG_tYaKFTq
+- _$s10AppIntents11EntityQueryPAA22DynamicOptionsProviderTb
+- _$s10AppIntents11EntityQueryPAA24PersistentlyIdentifiableTb
+- _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKF
+- _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTu
+- _$s10AppIntents11EntityQueryPAAE7results6ResultQzyYaKF
+- _$s10AppIntents11EntityQueryPAAE7results6ResultQzyYaKFTu
+- _$s10AppIntents11EntityQueryPxycfCTq
+- _$s10AppIntents12_IntentValueMp
+- _$s10AppIntents12_IntentValueP0D4TypeAC_AaBTn
+- _$s10AppIntents12_IntentValueP13SpecificationAC_AA08ResolverE0Tn
+- _$s10AppIntents12_IntentValueP13UnwrappedTypeAC_AaBTn
+- _$s10AppIntents12_IntentValueP28defaultResolverSpecification0G0QzvgZTq
+- _$s10AppIntents13AssistantEnumMp
+- _$s10AppIntents13AssistantEnumPAA0aD0Tb
+- _$s10AppIntents13IndexedEntityMp
+- _$s10AppIntents13IndexedEntityP12attributeSetSo025CSSearchableItemAttributeF0CvgTq
+- _$s10AppIntents13IndexedEntityP15hideInSpotlightSbvgTq
+- _$s10AppIntents13IndexedEntityPAA0aD0Tb
+- _$s10AppIntents13IndexedEntityPAAE12attributeSetSo025CSSearchableItemAttributeF0Cvg
+- _$s10AppIntents13IndexedEntityPAAE15hideInSpotlightSbvg
+- _$s10AppIntents14EntityPropertyC12wrappedValuexvs
+- _$s10AppIntents14EntityPropertyCA2A0A4Enum9ValueTypeRpzrlEACyxGycfC
+- _$s10AppIntents14EntityPropertyCAA10Foundation4DateV9ValueTypeRtzrlEACyxGycfC
+- _$s10AppIntents14EntityPropertyCAASS9ValueTypeRtzrlEACyxGycfC
+- _$s10AppIntents14EntityPropertyCAASb9ValueTypeRtzrlEACyxGycfC
+- _$s10AppIntents14EntityPropertyCAASo11CLPlacemarkC9ValueTypeRtzrlEACyxGycfC
+- _$s10AppIntents14EntityPropertyCMn
+- _$s10AppIntents15AssistantEntityMp
+- _$s10AppIntents15AssistantEntityPAA0aD0Tb
+- _$s10AppIntents17EntityStringQueryMp
+- _$s10AppIntents17EntityStringQueryP8entities8matching6ResultQzSS_tYaKFTq
+- _$s10AppIntents17EntityStringQueryPAA0cE0Tb
+- _$s10AppIntents19AssistantSchemaEnumMp
+- _$s10AppIntents19AssistantSchemaEnumP02isC4OnlySbvgZTq
+- _$s10AppIntents19AssistantSchemaEnumPAA0cE0Tb
+- _$s10AppIntents19AssistantSchemaEnumPAAE02isC4OnlySbvgZ
+- _$s10AppIntents19AssistantSchemaEnumPAAE25typeDisplayRepresentationAA04TypegH0VvgZ
+- _$s10AppIntents20DisplayRepresentableMp
+- _$s10AppIntents20DisplayRepresentablePAA04TypecD0Tb
+- _$s10AppIntents20DisplayRepresentablePAA08InstancecD0Tb
+- _$s10AppIntents21AssistantSchemaEntityMp
+- _$s10AppIntents21AssistantSchemaEntityP02isC4OnlySbvgZTq
+- _$s10AppIntents21AssistantSchemaEntityPAA0cE0Tb
+- _$s10AppIntents21AssistantSchemaEntityPAAE02isC4OnlySbvgZ
+- _$s10AppIntents21AssistantSchemaEntityPAAE25typeDisplayRepresentationAA04TypegH0VvgZ
+- _$s10AppIntents21DisplayRepresentationV13stringLiteralACSS_tcfC
+- _$s10AppIntents21DisplayRepresentationVMa
+- _$s10AppIntents21DisplayRepresentationVMn
+- _$s10AppIntents21EnumerableEntityQueryMp
+- _$s10AppIntents21EnumerableEntityQueryP11allEntities6ResultQzyYaKFTq
+- _$s10AppIntents21EnumerableEntityQueryP21findIntentDescriptionAA0gH0VSgvgZTq
+- _$s10AppIntents21EnumerableEntityQueryPAA0dE0Tb
+- _$s10AppIntents21EnumerableEntityQueryPAAE17suggestedEntities6ResultQzyYaKF
+- _$s10AppIntents21EnumerableEntityQueryPAAE17suggestedEntities6ResultQzyYaKFTu
+- _$s10AppIntents21EnumerableEntityQueryPAAE21findIntentDescriptionAA0gH0VSgvgZ
+- _$s10AppIntents22DynamicOptionsProviderMp
+- _$s10AppIntents22DynamicOptionsProviderP12DefaultValueAC_AA07_IntentG0Tn
+- _$s10AppIntents22DynamicOptionsProviderP13defaultResult12DefaultValueQzSgyYaFTq
+- _$s10AppIntents22DynamicOptionsProviderP25useForParameterResolutionSbvgZTq
+- _$s10AppIntents22DynamicOptionsProviderP6ResultAC_AA17ResultsCollectionTn
+- _$s10AppIntents22DynamicOptionsProviderP7results6ResultQzyYaKFTq
+- _$s10AppIntents22DynamicOptionsProviderPAA09_SupportsA12DependenciesTb
+- _$s10AppIntents22DynamicOptionsProviderPAAE13defaultResult12DefaultValueQzSgyYaF
+- _$s10AppIntents22DynamicOptionsProviderPAAE13defaultResult12DefaultValueQzSgyYaFTu
+- _$s10AppIntents22DynamicOptionsProviderPAAE25useForParameterResolutionSbvgZ
+- _$s10AppIntents24CaseDisplayRepresentableMp
+- _$s10AppIntents24CaseDisplayRepresentableP04caseD15RepresentationsSDyxAA0D14RepresentationVGvgZTq
+- _$s10AppIntents24CaseDisplayRepresentableP10Foundation40CustomLocalizedStringResourceConvertibleTb
+- _$s10AppIntents24CaseDisplayRepresentablePAAE23localizedStringResource10Foundation09LocalizedgH0Vvg
+- _$s10AppIntents24CaseDisplayRepresentablePSHTb
+- _$s10AppIntents24CaseDisplayRepresentablePs0C8IterableTb
+- _$s10AppIntents24PersistentlyIdentifiableMp
+- _$s10AppIntents24PersistentlyIdentifiableP20persistentIdentifierSSvgZTq
+- _$s10AppIntents24PersistentlyIdentifiablePAAE20persistentIdentifierSSvgZ
+- _$s10AppIntents24TypeDisplayRepresentableMp
+- _$s10AppIntents24TypeDisplayRepresentableP04typeD14RepresentationAA0cdG0VvgZTq
+- _$s10AppIntents25TypeDisplayRepresentationVMa
+- _$s10AppIntents26EmptyResolverSpecificationVMn
+- _$s10AppIntents26EmptyResolverSpecificationVyxGAA0dE0AAMc
+- _$s10AppIntents26StaticDisplayRepresentableMp
+- _$s10AppIntents26StaticDisplayRepresentablePAA04CasedE0Tb
+- _$s10AppIntents26StaticDisplayRepresentablePAA04TypedE0Tb
+- _$s10AppIntents28InstanceDisplayRepresentableMp
+- _$s10AppIntents28InstanceDisplayRepresentableP10Foundation40CustomLocalizedStringResourceConvertibleTb
+- _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTq
+- _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentationAA0dG0VvgTq
+- _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaF
+- _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTu
+- _$s10AppIntents28InstanceDisplayRepresentablePAAE23localizedStringResource10Foundation09LocalizedgH0Vvg
+- _$s10Foundation10NSNotFoundSivg
+- _$s10Foundation10URLRequestV10httpMethodSSSgvs
+- _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC
+- _$s10Foundation10URLRequestV8addValue_18forHTTPHeaderFieldySS_SStF
+- _$s10Foundation10URLRequestV8httpBodyAA4DataVSgvs
+- _$s10Foundation10URLRequestVMa
+- _$s10Foundation11FormatStylePA2A4DateV08IntervalbC0VRszrlE8intervalAGvgZ
+- _$s10Foundation11FormatStylePA2A4DateVABVRszrlE8dateTimeAFvgZ
+- _$s10Foundation11FormatStylePAASo9NSDecimalaAAEABV8CurrencyVRszrlE8currency4codeAHSS_tFZ
+- _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ
+- _$s10Foundation11JSONEncoderC16OutputFormattingV13prettyPrintedAEvgZ
+- _$s10Foundation11JSONEncoderC16OutputFormattingVMa
+- _$s10Foundation11JSONEncoderC16OutputFormattingVMn
+- _$s10Foundation11JSONEncoderC16OutputFormattingVs10SetAlgebraAAMc
+- _$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj
+- _$s10Foundation11JSONEncoderC20DateEncodingStrategyO7iso8601yA2EmFWC
+- _$s10Foundation11JSONEncoderC20DateEncodingStrategyOMa
+- _$s10Foundation11JSONEncoderC20dateEncodingStrategyAC04DatedE0OvsTj
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation12CharacterSetV21punctuationCharactersACvgZ
+- _$s10Foundation12URLQueryItemV4name5valueACSSh_SSSghtcfC
+- _$s10Foundation12URLQueryItemVMa
+- _$s10Foundation12URLQueryItemVMn
+- _$s10Foundation13CustomNSErrorMp
+- _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
+- _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
+- _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
+- _$s10Foundation13CustomNSErrorPs5ErrorTb
+- _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs
+- _$s10Foundation13URLComponentsV3urlAA3URLVSgvg
+- _$s10Foundation13URLComponentsV4hostSSSgvs
+- _$s10Foundation13URLComponentsV6schemeSSSgvs
+- _$s10Foundation13URLComponentsVACycfC
+- _$s10Foundation13URLComponentsVMa
+- _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
+- _$s10Foundation13__DataStorageC6_bytesSvSgvg
+- _$s10Foundation13__DataStorageC7_lengthSivg
+- _$s10Foundation13__DataStorageC7_offsetSivg
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation14DateComponentsV4hourSiSgvg
+- _$s10Foundation14DateComponentsV4hourSiSgvs
+- _$s10Foundation14DateComponentsV6minuteSiSgvg
+- _$s10Foundation14DateComponentsV6minuteSiSgvs
+- _$s10Foundation14DateComponentsV6secondSiSgvs
+- _$s10Foundation14DateComponentsVMa
+- _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTj
+- _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTj
+- _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTj
+- _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTj
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0OMn
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV39accessibilitySpeechAnnouncementPriorityAF0hiB0Ovg
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV39accessibilitySpeechAnnouncementPriorityAF0hiB0OvpMV
+- _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesVMn
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s10Foundation18_ErrorCodeProtocolMp
+- _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
+- _$s10Foundation18_ErrorCodeProtocolPSQTb
+- _$s10Foundation21_BridgedStoredNSErrorMp
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
+- _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
+- _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
+- _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
+- _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
+- _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
+- _$s10Foundation21_BridgedStoredNSErrorPSHTb
+- _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
+- _$s10Foundation22AttributeDynamicLookupOMn
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation24FloatingPointFormatStyleV7PercentV6localeAEyx_GAA6LocaleV_tcfC
+- _$s10Foundation24FloatingPointFormatStyleV7PercentVMn
+- _$s10Foundation24FloatingPointFormatStyleV7PercentVyx_GAA0dE0AAMc
+- _$s10Foundation26_ObjectiveCBridgeableErrorMp
+- _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
+- _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
+- _$s10Foundation30NumberFormatStyleConfigurationO9PrecisionV14fractionLengthyAESiFZ
+- _$s10Foundation30NumberFormatStyleConfigurationO9PrecisionVMa
+- _$s10Foundation3URLV11descriptionSSvg
+- _$s10Foundation3URLV14absoluteStringSSvg
+- _$s10Foundation3URLV21deletingPathExtensionACyF
+- _$s10Foundation3URLV22appendingPathComponent_11isDirectoryACSS_SbtF
+- _$s10Foundation3URLV22appendingPathComponentyACSSF
+- _$s10Foundation3URLV25deletingLastPathComponentACyF
+- _$s10Foundation3URLV4pathSSvg
+- _$s10Foundation3URLV6schemeSSSgvg
+- _$s10Foundation3URLVSHAAMc
+- _$s10Foundation40CustomLocalizedStringResourceConvertibleMp
+- _$s10Foundation40CustomLocalizedStringResourceConvertibleP09localizeddE0AA0cdE0VvgTq
+- _$s10Foundation4DataV14RangeReferenceCMa
+- _$s10Foundation4DataV4hash4intoys6HasherVz_tF
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DataVMn
+- _$s10Foundation4DataVSEAAMc
+- _$s10Foundation4DataVSeAAMc
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10Foundation4DateV11FormatStyleV3dayyA2E6SymbolV3DayVF
+- _$s10Foundation4DateV11FormatStyleV4yearyA2E6SymbolV4YearVF
+- _$s10Foundation4DateV11FormatStyleV5monthyA2E6SymbolV5MonthVF
+- _$s10Foundation4DateV11FormatStyleV6SymbolV3DayV13defaultDigitsAIvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV3DayVMa
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV13defaultDigits4amPMA2I9AMPMStyleV_tFZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV9AMPMStyleV11abbreviatedAKvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV9AMPMStyleVMa
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4HourVMa
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4YearV13defaultDigitsAIvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV4YearVMa
+- _$s10Foundation4DateV11FormatStyleV6SymbolV5MonthV11abbreviatedAIvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV5MonthV4wideAIvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV5MonthVMa
+- _$s10Foundation4DateV11FormatStyleV6SymbolV7WeekdayV4wideAIvgZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV7WeekdayVMa
+- _$s10Foundation4DateV11FormatStyleV7weekdayyA2E6SymbolV7WeekdayVF
+- _$s10Foundation4DateV11FormatStyleVAadAMc
+- _$s10Foundation4DateV11FormatStyleVMa
+- _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorO8standardyA2GmFWC
+- _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorOMa
+- _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorO4dashyA2GmFWC
+- _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorOMa
+- _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorO5colonyA2GmFWC
+- _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorOMa
+- _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparator0f4TimeG004timeG00i4ZoneG026includingFractionalSeconds0iJ0A2E0bG0O_AE0bhG0OAE0hG0OAE0hjG0OSbAA0hJ0VtcfC
+- _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparatoryA2E0bG0OF
+- _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorO7omittedyA2GmFWC
+- _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorOMa
+- _$s10Foundation4DateV18ISO8601FormatStyleVAA0dE0AAMc
+- _$s10Foundation4DateV18ISO8601FormatStyleVMa
+- _$s10Foundation4DateV18addingTimeIntervalyACSdF
+- _$s10Foundation4DateV19IntervalFormatStyleV3dayAEyF
+- _$s10Foundation4DateV19IntervalFormatStyleV4houryAeC0dE0V6SymbolV4HourVF
+- _$s10Foundation4DateV19IntervalFormatStyleV5monthyAeC0dE0V6SymbolV5MonthVF
+- _$s10Foundation4DateV19IntervalFormatStyleV6minuteAEyF
+- _$s10Foundation4DateV19IntervalFormatStyleVAA0dE0AAMc
+- _$s10Foundation4DateV19IntervalFormatStyleVMa
+- _$s10Foundation4DateV1goiySbAC_ACtFZ
+- _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC
+- _$s10Foundation4DateV20timeIntervalSinceNowSdvg
+- _$s10Foundation4DateV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
+- _$s10Foundation4DateV9formattedy12FormatOutputQzxAA0D5StyleRzAC0D5InputRtzlF
+- _$s10Foundation4DateVSEAAMc
+- _$s10Foundation4DateVSHAAMc
+- _$s10Foundation4DateVSLAAMc
+- _$s10Foundation4DateVs23CustomStringConvertibleAAMc
+- _$s10Foundation4UUIDVSEAAMc
+- _$s10Foundation4UUIDVSeAAMc
+- _$s10Foundation6LocaleV10identifierSSvg
+- _$s10Foundation6LocaleV19autoupdatingCurrentACvgZ
+- _$s10Foundation6LocaleV6RegionV10identifierSSvg
+- _$s10Foundation6LocaleV6RegionVMa
+- _$s10Foundation6LocaleV6RegionVMn
+- _$s10Foundation6LocaleV6regionAC6RegionVSgvg
+- _$s10Foundation6LocaleV8LanguageV10identifierAESS_tcfC
+- _$s10Foundation6LocaleV8LanguageVMa
+- _$s10Foundation8CalendarV13isDateInTodayySbAA0D0VF
+- _$s10Foundation8CalendarV14dateComponents_4fromAA04DateD0VShyAC9ComponentOG_AA0F0VtF
+- _$s10Foundation8CalendarV19autoupdatingCurrentACvgZ
+- _$s10Foundation8CalendarV4date4fromAA4DateVSgAA0E10ComponentsV_tF
+- _$s10Foundation8CalendarV4date8byAdding5value2to18wrappingComponentsAA4DateVSgAC9ComponentO_SiAJSbtF
+- _$s10Foundation8CalendarV6isDate_11inSameDayAsSbAA0D0V_AGtF
+- _$s10Foundation8CalendarV7currentACvgZ
+- _$s10Foundation8CalendarV9ComponentO3dayyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4houryA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4yearyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO5monthyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO6minuteyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO6secondyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentOMa
+- _$s10Foundation8CalendarV9ComponentOMn
+- _$s10Foundation8CalendarV9ComponentOSHAAMc
+- _$s10Foundation8CalendarV9ComponentOSQAAMc
+- _$s10Foundation8CalendarVMa
+- _$s10Foundation8TimeZoneV10identifierSSvg
+- _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
+- _$s10Foundation8TimeZoneV7currentACvgZ
+- _$s10Foundation8TimeZoneVMa
+- _$s10Foundation8TimeZoneVMn
+- _$s10Foundation8URLErrorV4CodeV17badServerResponseAEvgZ
+- _$s10Foundation8URLErrorV4CodeV7unknownAEvgZ
+- _$s10Foundation8URLErrorV4CodeVMa
+- _$s10Foundation8URLErrorV8_nsErrorSo7NSErrorCvg
+- _$s10Foundation8URLErrorVAA21_BridgedStoredNSErrorAAMc
+- _$s10Foundation8URLErrorVMa
+- _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
+- _$s11SubSequenceSlTl
+- _$s12CoreGraphics7CGFloatVs7CVarArgAAMc
+- _$s12CoreLocation16CLLocationUpdateV10stationarySbvg
+- _$s12CoreLocation16CLLocationUpdateV11liveUpdatesyAC0F0VAC17LiveConfigurationOFZ
+- _$s12CoreLocation16CLLocationUpdateV17LiveConfigurationO7defaultyA2EmFWC
+- _$s12CoreLocation16CLLocationUpdateV17LiveConfigurationOMa
+- _$s12CoreLocation16CLLocationUpdateV7UpdatesV17makeAsyncIteratorAE0H0VyF
+- _$s12CoreLocation16CLLocationUpdateV7UpdatesV8IteratorVMa
+- _$s12CoreLocation16CLLocationUpdateV7UpdatesV8IteratorVScIAAMc
+- _$s12CoreLocation16CLLocationUpdateV7UpdatesVMa
+- _$s12CoreLocation16CLLocationUpdateV8locationSo0C0CSgvg
+- _$s12CoreLocation16CLLocationUpdateVMa
+- _$s12CoreLocation16CLLocationUpdateVMn
+- _$s12CoreLocation27CLBackgroundActivitySessionC10invalidateyyF
+- _$s12CoreLocation27CLBackgroundActivitySessionCACycfc
+- _$s12CoreLocation27CLBackgroundActivitySessionCMa
+- _$s12CoreLocation27CLBackgroundActivitySessionCMn
+- _$s12DefaultQuery10AppIntents0C6EntityPTl
+- _$s12DefaultValue10AppIntents22DynamicOptionsProviderPTl
+- _$s13OSEligibility0A6AnswerO2eeoiySbAC_ACtFZ
+- _$s13OSEligibility0A6AnswerO8eligibleyA2CmFWC
+- _$s13OSEligibility0A6AnswerOMa
+- _$s13OSEligibility0A6DomainO10greymatteryA2CmFWC
+- _$s13OSEligibility0A6DomainOMa
+- _$s13OSEligibility0A6ResultV6answerAA0A6AnswerOvg
+- _$s13OSEligibility0A6ResultV6result3forAcA0A6DomainO_tKFZ
+- _$s13OSEligibility0A6ResultVMa
+- _$s13OSEligibility0A6ResultVMn
+- _$s13Specification10AppIntents12_IntentValuePTl
+- _$s13UnwrappedType10AppIntents12_IntentValuePTl
+- _$s14SiriTTSService13DaemonSessionC16downloadedVoices8matching5replyyAA14SynthesisVoiceCSg_ySayAHGctFTj
+- _$s14SiriTTSService13DaemonSessionCMa
+- _$s14SiriTTSService13DaemonSessionCMn
+- _$s14SiriTTSService14SynthesisVoiceC8languageSSvgTj
+- _$s15FeedbackService14FBKSEvaluationC6ActionO10thumbsDownyA2EmFWC
+- _$s15FeedbackService14FBKSEvaluationC6ActionO13reportConcernyA2EmFWC
+- _$s15FeedbackService14FBKSEvaluationC6ActionO8thumbsUpyA2EmFWC
+- _$s15FeedbackService14FBKSEvaluationC6ActionOMa
+- _$s15FeedbackService14FBKSEvaluationC6ActionOSYAAMc
+- _$s15FeedbackService14FBKSEvaluationC6actionAC6ActionOvg
+- _$s15FeedbackService14FBKSEvaluationC7SubjectO11interactionyAeA15FBKSInteractionCcAEmFWC
+- _$s15FeedbackService14FBKSEvaluationC7SubjectOMa
+- _$s15FeedbackService14FBKSEvaluationC7SubjectOMn
+- _$s15FeedbackService15FBKSInteractionC13FeatureDomainO18visualIntelligenceyA2EmFWC
+- _$s15FeedbackService15FBKSInteractionC13FeatureDomainOMa
+- _$s15FeedbackService15FBKSInteractionC13featureDomain8bundleID16prefillQuestions24originalAnnotatedContent09generatedkL005extraL012modelVersion11diagnostics16auxiliaryMetrics14isHighPriorityA2C07FeatureE0O_SSSgSDyAA8FBKSFormC8QuestionOSaySSGGSgAC0kL0VSgAZSayAYGA2PSDySSSiGSgSbtcfc
+- _$s15FeedbackService15FBKSInteractionC16AnnotatedContentV7payload11displayName11description04fileH05group8iconType14additionalInfoAeC0E0O_S4SSgAE04IconM0OSgSDyS2SGSgtcfC
+- _$s15FeedbackService15FBKSInteractionC16AnnotatedContentV8IconTypeO4textyA2GmFWC
+- _$s15FeedbackService15FBKSInteractionC16AnnotatedContentV8IconTypeOMa
+- _$s15FeedbackService15FBKSInteractionC16AnnotatedContentV8IconTypeOMn
+- _$s15FeedbackService15FBKSInteractionC16AnnotatedContentVMa
+- _$s15FeedbackService15FBKSInteractionC16prefillQuestionsSDyAA8FBKSFormC8QuestionOSaySSGGSgvsTj
+- _$s15FeedbackService15FBKSInteractionC7ContentO4textyAESScAEmFWC
+- _$s15FeedbackService15FBKSInteractionC7ContentO5imageyAE10Foundation4DataVcAEmFWC
+- _$s15FeedbackService15FBKSInteractionC7ContentOMa
+- _$s15FeedbackService15FBKSInteractionCMa
+- _$s15FeedbackService8FBKSFormC8QuestionO6customyAESScAEmFWC
+- _$s15FeedbackService8FBKSFormC8QuestionOMa
+- _$s15FeedbackService8FBKSFormC8QuestionOMn
+- _$s15FeedbackService8FBKSFormC8QuestionOSHAAMc
+- _$s15FeedbackService8FBKSFormC8QuestionOSQAAMc
+- _$s15_MapKit_SwiftUI05TupleA7ContentVMn
+- _$s15_MapKit_SwiftUI05TupleA7ContentVyxGAA0aF0AAMc
+- _$s15_MapKit_SwiftUI0A0V6bounds16interactionModes5scope7contentACyAA0A11ContentViewVys5NeverOqd__GGAA0A12CameraBoundsVSg_AA0a11InteractionG0V0cD09NamespaceV2IDVSgqd__yXEtcALRszAA0aJ0Rd__lufC
+- _$s15_MapKit_SwiftUI0A0VMn
+- _$s15_MapKit_SwiftUI0A0VyxG0cD04ViewAAMc
+- _$s15_MapKit_SwiftUI0A11ContentViewVMn
+- _$s15_MapKit_SwiftUI0A12CameraBoundsV016centerCoordinateF015minimumDistance07maximumJ0ACSo9MKMapRecta_SdSgAItcfC
+- _$s15_MapKit_SwiftUI0A12CameraBoundsVMa
+- _$s15_MapKit_SwiftUI0A12CameraBoundsVMn
+- _$s15_MapKit_SwiftUI0A16InteractionModesV3allACvgZ
+- _$s15_MapKit_SwiftUI0A16InteractionModesV4zoomACvgZ
+- _$s15_MapKit_SwiftUI0A16InteractionModesVMa
+- _$s15_MapKit_SwiftUI0A6CircleV6center6radiusACSo22CLLocationCoordinate2DV_SdtcfC
+- _$s15_MapKit_SwiftUI0A6CircleVAA0A7ContentAAWP
+- _$s15_MapKit_SwiftUI0A6CircleVMa
+- _$s15_MapKit_SwiftUI0A6CircleVMn
+- _$s15_MapKit_SwiftUI0A7ContentMp
+- _$s15_MapKit_SwiftUI0A7ContentP04_mapE5Count6inputsSiSgAA01_aE6InputsV_tFZTq
+- _$s15_MapKit_SwiftUI0A7ContentP05_makeaE07content6inputsAA01_aE7OutputsV0cD011_GraphValueVyxG_AA01_aE6InputsVtFZTq
+- _$s15_MapKit_SwiftUI0A7ContentP4BodyAC_AaBTn
+- _$s15_MapKit_SwiftUI0A7ContentP4body4BodyQzvgTq
+- _$s15_MapKit_SwiftUI0A7ContentPAAE04_mapE5Count6inputsSiSgAA01_aE6InputsV_tFZ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE05_makeaE07content6inputsAA01_aE7OutputsV0cD011_GraphValueVyxG_AA01_aE6InputsVtFZ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE15foregroundStyleyQrqd__0cD005ShapeG0Rd__lF
+- _$s15_MapKit_SwiftUI0A7ContentPAAE15foregroundStyleyQrqd__0cD005ShapeG0Rd__lFQOMQ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE16annotationTitlesyQr0cD010VisibilityOF
+- _$s15_MapKit_SwiftUI0A7ContentPAAE16annotationTitlesyQr0cD010VisibilityOFQOMQ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE19annotationSubtitlesyQr0cD010VisibilityOF
+- _$s15_MapKit_SwiftUI0A7ContentPAAE19annotationSubtitlesyQr0cD010VisibilityOFQOMQ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE4tintyQrqd__0cD010ShapeStyleRd__lF
+- _$s15_MapKit_SwiftUI0A7ContentPAAE4tintyQrqd__0cD010ShapeStyleRd__lFQOMQ
+- _$s15_MapKit_SwiftUI0A7ContentPAAE6stroke_9lineWidthQrqd___12CoreGraphics7CGFloatVt0cD010ShapeStyleRd__lF
+- _$s15_MapKit_SwiftUI0A7ContentPAAE6stroke_9lineWidthQrqd___12CoreGraphics7CGFloatVt0cD010ShapeStyleRd__lFQOMQ
+- _$s15_MapKit_SwiftUI0A7PolygonVAA0A7ContentAAWP
+- _$s15_MapKit_SwiftUI0A7PolygonVMa
+- _$s15_MapKit_SwiftUI0A7PolygonVMn
+- _$s15_MapKit_SwiftUI0A7PolygonVyACSo9MKPolygonCcfC
+- _$s15_MapKit_SwiftUI10AnnotationVMn
+- _$s15_MapKit_SwiftUI10AnnotationV_10coordinate6anchor7contentACy0cD04TextVq_Gqd___So22CLLocationCoordinate2DVAG9UnitPointVq_yXEtcAIRszSyRd__lufC
+- _$s15_MapKit_SwiftUI6MarkerV10coordinate5labelACyxGSo22CLLocationCoordinate2DV_xyXEtcfC
+- _$s15_MapKit_SwiftUI6MarkerVMn
+- _$s15_MapKit_SwiftUI6MarkerVyxGAA0A7ContentAAMc
+- _$s16CoreTransferable18FileRepresentationV19exportedContentType24shouldAllowToOpenInPlace9exportingACyxG07UniformG11Identifiers6UTTypeV_SbAA015SentTransferredC0VxYaYbKctcfC
+- _$s16CoreTransferable22TransferRepresentationPAAE18exportingConditionyAA012_ConditionalcD0VyxGSb4ItemQzYbcF
+- _$s16CoreTransferable34_ConditionalTransferRepresentationVMn
+- _$s16CoreTransferable34_ConditionalTransferRepresentationVyxGAA0dE0AAMc
+- _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO13policyLimitedyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO15useCaseDisabledyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOSHAAMc
+- _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOSQAAMc
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO17externalBootDriveyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO22siriAssetStatusUnknownyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO26selectedLanguageIneligibleyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO30selectedSiriLanguageIneligibleyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO7unknownyA2ImFWC
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonOSHAAMc
+- _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonOSQAAMc
+- _$s16GenerativeModels0aB12AvailabilityV0C0O2eeoiySbAE_AEtFZ
+- _$s16GenerativeModels0aB12AvailabilityV10ParametersV17useCaseIdentifier8languageAESS_AC14LanguageOptionOtcfC
+- _$s16GenerativeModels0aB12AvailabilityV10ParametersVMa
+- _$s16GenerativeModels0aB12AvailabilityV12availabilityAC0C0Ovg
+- _$s16GenerativeModels0aB12AvailabilityV14LanguageOptionO3anyyA2EmFWC
+- _$s16GenerativeModels0aB12AvailabilityV7current10parametersA2C10ParametersV_tFZ
+- _$s16GenerativeModels0aB12AvailabilityVMa
+- _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
+- _$s18VisualIntelligence0A12QueryContextV21applicationIdentifier7queryID8location9timestamp23customDetectorThresholdACSS_s6UInt64VSo10CLLocationCSgSdSgSDySSSDySSSdGGtcfC
+- _$s18VisualIntelligence0A12QueryContextV21applicationIdentifier7queryID8locationACSS_s6UInt64VSo10CLLocationCSgtcfC
+- _$s18VisualIntelligence0A12QueryContextVMa
+- _$s18VisualIntelligence0A12SearchResultV13regionResultsSayAA06RegioncD0VGvg
+- _$s18VisualIntelligence0A12SearchResultVMa
+- _$s18VisualIntelligence0A12SearchResultVMn
+- _$s18VisualIntelligence0A13UnderstandingV10AnnotationVMa
+- _$s18VisualIntelligence0A13UnderstandingV10AnnotationVMn
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV09detectionE0SS0F5Label_Sf15confidenceScoretSgvg
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV12displayLabelSSSgvg
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV6domainAA0aD0Vvg
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV9glyphNameSSSgvg
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoVMa
+- _$s18VisualIntelligence0A13UnderstandingV10DomainInfoVMn
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV10domainInfoSayAC06DomainG0VGvg
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV10embeddingsSayAE9EmbeddingVGSgvg
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV11boundingBoxAA14NormalizedRectVvg
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV20getBrandDistributionSDySSSfGyF
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingV8featuresSaySfGvg
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingVMa
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingVMn
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVMa
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVMn
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSEAAMc
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSHAAMc
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSQAAMc
+- _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSeAAMc
+- _$s18VisualIntelligence0A13UnderstandingV12imageRegionsSayAC11ImageRegionVGvg
+- _$s18VisualIntelligence0A13UnderstandingV7payload10Foundation4DataVvg
+- _$s18VisualIntelligence0A13UnderstandingVMa
+- _$s18VisualIntelligence0A13UnderstandingVMn
+- _$s18VisualIntelligence0A13UnderstandingV_10annotation7payloadACSayAC11ImageRegionVG_AC10AnnotationVSg10Foundation4DataVSgtcfC
+- _$s18VisualIntelligence0A6DomainV10storefrontACvgZ
+- _$s18VisualIntelligence0A6DomainV4bookACvgZ
+- _$s18VisualIntelligence0A6DomainV4catsACvgZ
+- _$s18VisualIntelligence0A6DomainV4dogsACvgZ
+- _$s18VisualIntelligence0A6DomainV4nameSSvg
+- _$s18VisualIntelligence0A6DomainV5albumACvgZ
+- _$s18VisualIntelligence0A6DomainV5birdsACvgZ
+- _$s18VisualIntelligence0A6DomainV6natureACvgZ
+- _$s18VisualIntelligence0A6DomainV7animalsACvgZ
+- _$s18VisualIntelligence0A6DomainV7insectsACvgZ
+- _$s18VisualIntelligence0A6DomainV7mammalsACvgZ
+- _$s18VisualIntelligence0A6DomainV8rawValueSSvg
+- _$s18VisualIntelligence0A6DomainV8reptilesACvgZ
+- _$s18VisualIntelligence0A6DomainVMa
+- _$s18VisualIntelligence0A6DomainVMn
+- _$s18VisualIntelligence0A6DomainVSEAAMc
+- _$s18VisualIntelligence0A6DomainVSHAAMc
+- _$s18VisualIntelligence0A6DomainVSQAAMc
+- _$s18VisualIntelligence0A6DomainVSeAAMc
+- _$s18VisualIntelligence0aB7ServiceC010searchableA13Understanding2inSd_AA0aE0VtSgSaySd_AGtG_tF
+- _$s18VisualIntelligence0aB7ServiceC12warmupSearchyyF
+- _$s18VisualIntelligence0aB7ServiceC14serviceOptionsA2C0E0V_tcfC
+- _$s18VisualIntelligence0aB7ServiceC16parseCameraFrame18visualQueryContext5image26normalizedRegionOfInterest10annotation13cachedResults10completionAA13CancelSessionCAA0ahI0V_AA10PixelImageVSo6CGRectVAA0A13UnderstandingV10AnnotationVSg10Foundation4DataVSgys6ResultOyAA11ParseResultVs5Error_pGctF
+- _$s18VisualIntelligence0aB7ServiceC17searchCameraFrame9timestamp18visualQueryContext0H13Understanding0D14HistoryEntries10completionAA13CancelSessionCSd_AA0aiJ0VAA0aK0VSgSayAA06SearchL5EntryVGyAA0aQ6ResultVSg_ARSgs5Error_pSgtctF
+- _$s18VisualIntelligence0aB7ServiceC7OptionsV18customizedEndpoint22networkTimeoutInterval15debugParameters12mlEngineTypeAE10Foundation3URLVSg_8Dispatch0q4TimeI0OSgSSSgAA08MLEngineN0OSgtcfC
+- _$s18VisualIntelligence0aB7ServiceC7OptionsVMa
+- _$s18VisualIntelligence0aB7ServiceCMa
+- _$s18VisualIntelligence0aB7ServiceCMn
+- _$s18VisualIntelligence10PixelImageV11pixelBuffer11orientationACSo11CVBufferRefa_So26CGImagePropertyOrientationVtcfC
+- _$s18VisualIntelligence10PixelImageVMa
+- _$s18VisualIntelligence11ParseResultV19visualUnderstandingAA0aF0Vvg
+- _$s18VisualIntelligence11ParseResultVMa
+- _$s18VisualIntelligence11ParseResultVMn
+- _$s18VisualIntelligence12MLEngineTypeOMa
+- _$s18VisualIntelligence12MLEngineTypeOMn
+- _$s18VisualIntelligence14NormalizedRectV16bottomLeftCGRectSo0G0Vvg
+- _$s18VisualIntelligence14NormalizedRectV5width12CoreGraphics7CGFloatVvg
+- _$s18VisualIntelligence14NormalizedRectV6height12CoreGraphics7CGFloatVvg
+- _$s18VisualIntelligence14NormalizedRectV6originSo7CGPointVvg
+- _$s18VisualIntelligence14NormalizedRectVMa
+- _$s18VisualIntelligence15ObjectKnowledgeV12thumbnailURL10Foundation0F0VSgvg
+- _$s18VisualIntelligence15ObjectKnowledgeV16knowledgeGraphIDSSSgvg
+- _$s18VisualIntelligence15ObjectKnowledgeV16shortDescriptionSSvg
+- _$s18VisualIntelligence15ObjectKnowledgeV19detailedDescriptionSSvg
+- _$s18VisualIntelligence15ObjectKnowledgeV19knowledgePropertiesSayAC8PropertyVGvg
+- _$s18VisualIntelligence15ObjectKnowledgeV20thumbnailAspectRatioSfvg
+- _$s18VisualIntelligence15ObjectKnowledgeV6webURL10Foundation0F0VSgvg
+- _$s18VisualIntelligence15ObjectKnowledgeV8PropertyV4nameSSvg
+- _$s18VisualIntelligence15ObjectKnowledgeV8PropertyV5valueSSvg
+- _$s18VisualIntelligence15ObjectKnowledgeV8PropertyVMa
+- _$s18VisualIntelligence15ObjectKnowledgeVMa
+- _$s18VisualIntelligence15ObjectKnowledgeVMn
+- _$s18VisualIntelligence18RegionSearchResultV0E4ItemV6domainAA0A6DomainVvg
+- _$s18VisualIntelligence18RegionSearchResultV0E4ItemV7captionSSvg
+- _$s18VisualIntelligence18RegionSearchResultV0E4ItemV9knowledgeAA15ObjectKnowledgeVSgvg
+- _$s18VisualIntelligence18RegionSearchResultV0E4ItemVMa
+- _$s18VisualIntelligence18RegionSearchResultV11resultItemsSayAC0E4ItemVGvg
+- _$s18VisualIntelligence18RegionSearchResultV13resultSectionSaySo08SFResultG0CGvg
+- _$s18VisualIntelligence18RegionSearchResultV9glyphNameSSvg
+- _$s18VisualIntelligence18RegionSearchResultVMa
+- _$s18VisualIntelligence18RegionSearchResultVMn
+- _$s18VisualIntelligence18SearchHistoryEntryV23RenderingRecommendationV13isRecommendedSbvg
+- _$s18VisualIntelligence18SearchHistoryEntryV23RenderingRecommendationVMa
+- _$s18VisualIntelligence18SearchHistoryEntryV23renderingRecommendationAC09RenderingG0Vvg
+- _$s18VisualIntelligence18SearchHistoryEntryV9timestampSdvg
+- _$s18VisualIntelligence18SearchHistoryEntryVMa
+- _$s18VisualIntelligence18SearchHistoryEntryVMn
+- _$s18VisualIntelligence18SearchHistoryEntryVSEAAMc
+- _$s18VisualIntelligence18SearchHistoryEntryVSHAAMc
+- _$s18VisualIntelligence18SearchHistoryEntryVSQAAMc
+- _$s18VisualIntelligence18SearchHistoryEntryVSeAAMc
+- _$s18VisualLocalization24VLPointOfInterestMatcherC11isSupportedSbvgTj
+- _$s18VisualLocalization24VLPointOfInterestMatcherC15generateMatches7requestSayAC5MatchVGAC7RequestV_tYaKF
+- _$s18VisualLocalization24VLPointOfInterestMatcherC15generateMatches7requestSayAC5MatchVGAC7RequestV_tYaKFTu
+- _$s18VisualLocalization24VLPointOfInterestMatcherC18updateInBackground8locationySo11GEOLocationC_tF
+- _$s18VisualLocalization24VLPointOfInterestMatcherC23clearContextIfNecessaryyyFTj
+- _$s18VisualLocalization24VLPointOfInterestMatcherC5MatchV14mapsIdentifierSo010GEOMapItemI0Cvg
+- _$s18VisualLocalization24VLPointOfInterestMatcherC5MatchV4nameSSvg
+- _$s18VisualLocalization24VLPointOfInterestMatcherC5MatchV5scoreSdvg
+- _$s18VisualLocalization24VLPointOfInterestMatcherC5MatchVMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC6update8locationySo11GEOLocationC_tYaKF
+- _$s18VisualLocalization24VLPointOfInterestMatcherC6update8locationySo11GEOLocationC_tYaKFTu
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DetectionTypeO10storefrontyA2GmFWC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DetectionTypeO4signyA2GmFWC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DetectionTypeOMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DeviceHeadingV9direction8accuracyAGSd_SdtcfC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DeviceHeadingVMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13DeviceHeadingVMn
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV13detectionType15isLowConfidence20brandClassifications8location7heading16textRecognitionsA2E09DetectionI0O_SbSDySSSfGSo11GEOLocationCAE13DeviceHeadingVSgSayAE15TextRecognitionVGtcfC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV13DetectionTypeO11phoneNumberyA2KmFWC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV13DetectionTypeO6webURLyA2KmFWC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV13DetectionTypeO7addressyA2KmFWC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV13DetectionTypeOMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV13DetectionTypeOMn
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorV4type4textA2I13DetectionTypeO_SStcfC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorVMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV12DataDetectorVMn
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionV4text13dataDetectorsAGSS_SayAG12DataDetectorVGtcfC
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionVMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestV15TextRecognitionVMn
+- _$s18VisualLocalization24VLPointOfInterestMatcherC7RequestVMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherCACycfC
+- _$s18VisualLocalization24VLPointOfInterestMatcherCMa
+- _$s18VisualLocalization24VLPointOfInterestMatcherCMn
+- _$s18VisualLocalization24VLPointOfInterestMatcherCScAAAMc
+- _$s21InternalSwiftProtobuf14UnknownStorageV8traverse7visitoryxz_tKAA7VisitorRzlF
+- _$s21InternalSwiftProtobuf14UnknownStorageVACycfC
+- _$s21InternalSwiftProtobuf14UnknownStorageVMa
+- _$s21InternalSwiftProtobuf14UnknownStorageVMn
+- _$s21InternalSwiftProtobuf14UnknownStorageVSQAAMc
+- _$s21InternalSwiftProtobuf19_ProtoNameProvidingMp
+- _$s21InternalSwiftProtobuf19_ProtoNameProvidingP17_protobuf_nameMapAA01_eI0VvgZTq
+- _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVACycfC
+- _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVMa
+- _$s21InternalSwiftProtobuf26_MessageImplementationBaseMp
+- _$s21InternalSwiftProtobuf26_MessageImplementationBaseP29_protobuf_generated_isEqualTo5otherSbx_tFTq
+- _$s21InternalSwiftProtobuf26_MessageImplementationBasePAA0D0Tb
+- _$s21InternalSwiftProtobuf26_MessageImplementationBasePAAE29_protobuf_generated_isEqualTo5otherSbx_tF
+- _$s21InternalSwiftProtobuf26_MessageImplementationBasePAAE9isEqualTo7messageSbAA0D0_p_tF
+- _$s21InternalSwiftProtobuf26_MessageImplementationBasePSHTb
+- _$s21InternalSwiftProtobuf4EnumMp
+- _$s21InternalSwiftProtobuf4EnumP8rawValueSivgTq
+- _$s21InternalSwiftProtobuf4EnumP8rawValuexSgSi_tcfCTq
+- _$s21InternalSwiftProtobuf4EnumPAAE4hash4intoys6HasherVz_tF
+- _$s21InternalSwiftProtobuf4EnumPSHTb
+- _$s21InternalSwiftProtobuf4EnumPSYTb
+- _$s21InternalSwiftProtobuf4EnumPxycfCTq
+- _$s21InternalSwiftProtobuf7DecoderP15nextFieldNumberSiSgyKFTj
+- _$s21InternalSwiftProtobuf7DecoderP23decodeRepeatedEnumField5valueySayqd__Gz_tKAA0G0Rd__Si8RawValueRtd__lFTj
+- _$s21InternalSwiftProtobuf7DecoderP23decodeSingularBoolField5valueySbz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP23decodeSingularEnumField5valueyqd__z_tKAA0G0Rd__Si8RawValueRtd__lFTj
+- _$s21InternalSwiftProtobuf7DecoderP24decodeSingularBytesField5valuey10Foundation4DataVz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP24decodeSingularFloatField5valueySfz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP24decodeSingularInt32Field5valueys0G0Vz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP24decodeSingularInt64Field5valueys0G0Vz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP25decodeSingularStringField5valueySSz_tKFTj
+- _$s21InternalSwiftProtobuf7DecoderP26decodeRepeatedMessageField5valueySayqd__Gz_tKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf7DecoderP26decodeSingularMessageField5valueyqd__Sgz_tKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf7MessageMp
+- _$s21InternalSwiftProtobuf7MessageP05protoD4NameSSvgZTq
+- _$s21InternalSwiftProtobuf7MessageP06decodeD07decoderyqd__z_tKAA7DecoderRd__lFTq
+- _$s21InternalSwiftProtobuf7MessageP13isInitializedSbvgTq
+- _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvMTq
+- _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvgTq
+- _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvsTq
+- _$s21InternalSwiftProtobuf7MessageP4hash4intoys6HasherVz_tFTq
+- _$s21InternalSwiftProtobuf7MessageP8traverse7visitoryqd__z_tKAA7VisitorRd__lFTq
+- _$s21InternalSwiftProtobuf7MessageP9isEqualTo7messageSbAaB_p_tFTq
+- _$s21InternalSwiftProtobuf7MessagePAAE13isInitializedSbvg
+- _$s21InternalSwiftProtobuf7MessagePAAE14serializedData10extensions7partial7optionsx10Foundation0F0V_AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKcfC
+- _$s21InternalSwiftProtobuf7MessagePAAE14serializedData7partial10Foundation0F0VSb_tKF
+- _$s21InternalSwiftProtobuf7MessagePAAE16debugDescriptionSSvg
+- _$s21InternalSwiftProtobuf7MessagePAAE4hash4intoys6HasherVz_tF
+- _$s21InternalSwiftProtobuf7MessagePAAE4withyxyxzKXEKFZ
+- _$s21InternalSwiftProtobuf7MessagePs28CustomDebugStringConvertibleTb
+- _$s21InternalSwiftProtobuf7MessagePxycfCTq
+- _$s21InternalSwiftProtobuf7VisitorP20visitPackedEnumField5value11fieldNumberySayqd__G_SitKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf7VisitorP22visitSingularBoolField5value11fieldNumberySb_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP22visitSingularEnumField5value11fieldNumberyqd___SitKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf7VisitorP23visitSingularBytesField5value11fieldNumbery10Foundation4DataV_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP23visitSingularFloatField5value11fieldNumberySf_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP23visitSingularInt32Field5value11fieldNumberys0G0V_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP23visitSingularInt64Field5value11fieldNumberys0G0V_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP24visitSingularStringField5value11fieldNumberySS_SitKFTj
+- _$s21InternalSwiftProtobuf7VisitorP25visitRepeatedMessageField5value11fieldNumberySayqd__G_SitKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf7VisitorP25visitSingularMessageField5value11fieldNumberyqd___SitKAA0G0Rd__lFTj
+- _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionO4sameyAEs12StaticStringV_tcAEmFWC
+- _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionO8standardyAEs12StaticStringV_tcAEmFWC
+- _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionOMa
+- _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionOMn
+- _$s21InternalSwiftProtobuf8_NameMapV17dictionaryLiteralACSi_AC0D11DescriptionOtd_tcfC
+- _$s21InternalSwiftProtobuf8_NameMapVMa
+- _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
+- _$s22UniformTypeIdentifiers6UTTypeV4jpegACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeVMn
+- _$s22UniformTypeIdentifiers6UTTypeVs23CustomStringConvertibleAAMc
+- _$s25GenerativeAssistantCommon0aB7UseCaseO24visualIntelligenceCamerayA2CmFWC
+- _$s25GenerativeAssistantCommon0aB7UseCaseO8rawValueSSvg
+- _$s25GenerativeAssistantCommon0aB7UseCaseOMa
+- _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
+- _$s2os12OSSignpostIDVMn
+- _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+- _$s4Body15_MapKit_SwiftUI0B7ContentPTl
+- _$s4Code10Foundation21_BridgedStoredNSErrorPTl
+- _$s4Sage17ClientProcessInfoVMa
+- _$s4Sage17ClientProcessInfoVMn
+- _$s4Sage19SummarizationClientC013TextAssistantB7OptionsV6SourceO24visualIntelligenceCamerayA2GmFWC
+- _$s4Sage19SummarizationClientC013TextAssistantB7OptionsV6SourceOMa
+- _$s4Sage19SummarizationClientC013TextAssistantB7OptionsV6source23useExternalIntelligence18originatingProcessA2E6SourceO_SbAA0cL4InfoVSgtcfC
+- _$s4Sage19SummarizationClientC013TextAssistantB7OptionsVMa
+- _$s4Sage19SummarizationClientC013TextAssistantB7OptionsVMn
+- _$s4Sage19SummarizationClientC017isTextEligibleForB0_7options17requestIdentifierSbSS_AC0e9AssistantB7OptionsVSStKF
+- _$s4Sage19SummarizationClientC021isLanguageEligibleForB0_7options17requestIdentifierSb10Foundation6LocaleV0E0V_AC013TextAssistantB7OptionsVSStKF
+- _$s4Sage19SummarizationClientC20TextAssistantSummaryV20safetyClassificationAA0f6SafetyH0VSgvg
+- _$s4Sage19SummarizationClientC20TextAssistantSummaryV7contentxvg
+- _$s4Sage19SummarizationClientC20TextAssistantSummaryVMn
+- _$s4Sage19SummarizationClientC9summarize_7options17requestIdentifierAC20TextAssistantSummaryVy_SSGSS_AC0hiB7OptionsVSStYaKF
+- _$s4Sage19SummarizationClientC9summarize_7options17requestIdentifierAC20TextAssistantSummaryVy_SSGSS_AC0hiB7OptionsVSStYaKFTu
+- _$s4Sage19SummarizationClientCACycfc
+- _$s4Sage19SummarizationClientCMa
+- _$s4Sage19SummarizationClientCMn
+- _$s4Sage21TextCompositionClientC04textcD20ProcessIdentifierKeySSvgZ
+- _$s4Sage21TextCompositionClientC04textcD23AppProcessIdentifierKeySSvgZ
+- _$s4Sage21TextCompositionClientC24requestCalendarEventFrom12fromOCRInput12inputOptionsSo06TCTextcfG16GenerationOutputC_SDySSypGtSo0mcfgN5InputC_AISgtYaKFTjTu
+- _$s4Sage21TextCompositionClientCMa
+- _$s4Sage27SummarySafetyClassificationV6isSafeSbvg
+- _$s4Sage27SummarySafetyClassificationVMa
+- _$s4Sage27SummarySafetyClassificationVMn
+- _$s5Value7SwiftUI14EnvironmentKeyPTl
+- _$s6Entity10AppIntents0A5QueryPTl
+- _$s6Result10AppIntents22DynamicOptionsProviderPTl
+- _$s7Combine18PassthroughSubjectCMa
+- _$s7IndicesSlTl
+- _$s7Network11NWInterfaceV13InterfaceTypeO8cellularyA2EmFWC
+- _$s7Network11NWInterfaceV13InterfaceTypeOMa
+- _$s7Network13NWPathMonitorC17pathUpdateHandleryAA0B0VcSgvs
+- _$s7Network13NWPathMonitorC5start5queueySo012OS_dispatch_E0C_tF
+- _$s7Network13NWPathMonitorCACycfc
+- _$s7Network13NWPathMonitorCMa
+- _$s7Network13NWPathMonitorCMn
+- _$s7Network6NWPathV16debugDescriptionSSvg
+- _$s7Network6NWPathV17usesInterfaceTypeySbAA11NWInterfaceV0dE0OF
+- _$s7Network6NWPathV6StatusO11unsatisfiedyA2EmFWC
+- _$s7Network6NWPathV6StatusO18requiresConnectionyA2EmFWC
+- _$s7Network6NWPathV6StatusO9satisfiedyA2EmFWC
+- _$s7Network6NWPathV6StatusOMa
+- _$s7Network6NWPathV6StatusOSQAAMc
+- _$s7Network6NWPathV6statusAC6StatusOvg
+- _$s7Network6NWPathVMa
+- _$s7SwiftUI10AsyncImageV3url5scale11transaction7contentACyxG10Foundation3URLVSg_12CoreGraphics7CGFloatVAA11TransactionVxAA0cD5PhaseOctcfC
+- _$s7SwiftUI10AsyncImageVMn
+- _$s7SwiftUI10AsyncImageVyxGAA4ViewAAMc
+- _$s7SwiftUI10EdgeInsetsVMn
+- _$s7SwiftUI10EdgeInsetsVN
+- _$s7SwiftUI10FocusStateV12wrappedValuexvg
+- _$s7SwiftUI10ScrollViewVMa
+- _$s7SwiftUI10TapGestureV5countACSi_tcfC
+- _$s7SwiftUI10TapGestureVAA0D0AAWP
+- _$s7SwiftUI10TapGestureVMa
+- _$s7SwiftUI10TapGestureVMn
+- _$s7SwiftUI11ControlSizeO5largeyA2CmFWC
+- _$s7SwiftUI11ControlSizeOMa
+- _$s7SwiftUI11ControlSizeOMn
+- _$s7SwiftUI11DragGestureV5ValueV13startLocationSo7CGPointVvg
+- _$s7SwiftUI11DragGestureV5ValueV8locationSo7CGPointVvg
+- _$s7SwiftUI11ShadowStyleVMa
+- _$s7SwiftUI11_BlurEffectVN
+- _$s7SwiftUI11_ClipEffectVMa
+- _$s7SwiftUI11_ShadowViewVyxGAA0D0AAMc
+- _$s7SwiftUI12ProgressViewVA2A05EmptyD0VRs_rlE5labelACyxAEGxyXE_tcfC
+- _$s7SwiftUI12ProgressViewVyxq_GAA0D0AAMc
+- _$s7SwiftUI12ViewModifierPA2A10AnimatableRzrlE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAjA01_K0V_AOtctFZ
+- _$s7SwiftUI12ViewModifierPA2A10AnimatableRzrlE05_makeC4List8modifier6inputs4bodyAA01_cG7OutputsVAA11_GraphValueVyxG_AA01_cG6InputsVAjA01_L0V_AOtctFZ
+- _$s7SwiftUI12VisualEffectPAAE05colorD0_9isEnabledQrAA6ShaderV_SbtF
+- _$s7SwiftUI12VisualEffectPAAE05colorD0_9isEnabledQrAA6ShaderV_SbtFQOMQ
+- _$s7SwiftUI12_FrameLayoutVN
+- _$s7SwiftUI12_ScaleEffectVN
+- _$s7SwiftUI13AnyShapeStyleVMn
+- _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
+- _$s7SwiftUI13AnyTransitionV5slideACvgZ
+- _$s7SwiftUI13AnyTransitionV8modifier6active8identityACx_xtAA12ViewModifierRzlFZ
+- _$s7SwiftUI13LayoutSubviewV10dimensions2inAA14ViewDimensionsVAA08ProposedG4SizeV_tF
+- _$s7SwiftUI13OpenURLActionV6ResultV7handledAEvgZ
+- _$s7SwiftUI13OpenURLActionV7handlerA2C6ResultV10Foundation3URLVc_tcfC
+- _$s7SwiftUI13ShaderLibraryV13dynamicMemberAA0C8FunctionVSS_tcigZ
+- _$s7SwiftUI14AnimatablePairVMn
+- _$s7SwiftUI14AnimatablePairVyxq_GAA16VectorArithmeticAAMc
+- _$s7SwiftUI14EnvironmentKeyMp
+- _$s7SwiftUI14EnvironmentKeyP12_valuesEqualySb5ValueQz_AFtFZTq
+- _$s7SwiftUI14EnvironmentKeyP12defaultValue0F0QzvgZTq
+- _$s7SwiftUI14EnvironmentKeyPAAE12_valuesEqualySb5ValueQz_AFtFZ
+- _$s7SwiftUI14LayoutSubviewsVSlAAMc
+- _$s7SwiftUI14LayoutSubviewsVyAA0C7SubviewVSicig
+- _$s7SwiftUI14MagnifyGestureVMa
+- _$s7SwiftUI14ShaderFunctionV15dynamicallyCall13withArgumentsAA0C0VSayAG8ArgumentVG_tF
+- _$s7SwiftUI14ShaderFunctionVMa
+- _$s7SwiftUI14SymbolVariantsV4fillACvgZ
+- _$s7SwiftUI14SymbolVariantsVMa
+- _$s7SwiftUI14TintShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI14TintShapeStyleVACycfC
+- _$s7SwiftUI14TintShapeStyleVMa
+- _$s7SwiftUI14ViewDimensionsV5width12CoreGraphics7CGFloatVvg
+- _$s7SwiftUI14ViewDimensionsV6height12CoreGraphics7CGFloatVvg
+- _$s7SwiftUI14ViewDimensionsVMa
+- _$s7SwiftUI14_OpacityEffectVN
+- _$s7SwiftUI15AsyncImagePhaseO5imageAA0D0VSgvg
+- _$s7SwiftUI15DynamicTypeSizeO8xxxLargeyA2CmFWC
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE19accessibilityAction5named_ACyxAEGAA4TextV_yyctF
+- _$s7SwiftUI16RoundedRectangleV6_InsetVMa
+- _$s7SwiftUI16RoundedRectangleV6_InsetVMn
+- _$s7SwiftUI16RoundedRectangleVAA15InsettableShapeAAMc
+- _$s7SwiftUI16RoundedRectangleVAA4ViewAAMc
+- _$s7SwiftUI16SubscriptionViewVMn
+- _$s7SwiftUI16SubscriptionViewVyxq_GAA0D0AAMc
+- _$s7SwiftUI16TagValueTraitKeyV0D0OMa
+- _$s7SwiftUI16TagValueTraitKeyVMn
+- _$s7SwiftUI16_BlendModeEffectVMa
+- _$s7SwiftUI17ContentShapeKindsV13accessibilityACvgZ
+- _$s7SwiftUI17ContentShapeKindsVMa
+- _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0Ovg
+- _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0OvpMV
+- _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0Ovs
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvg
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvs
+- _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluig
+- _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluis
+- _$s7SwiftUI18AnimatableModifierMp
+- _$s7SwiftUI18AnimatableModifierPAA04ViewD0Tb
+- _$s7SwiftUI18AnimatableModifierPAA0C0Tb
+- _$s7SwiftUI18AnimatableModifierPAAE13_makeViewList8modifier6inputs4bodyAA01_fG7OutputsVAA11_GraphValueVyxG_AA01_fG6InputsVAiA01_L0V_ANtctFZ
+- _$s7SwiftUI18AnimatableModifierPAAE9_makeView8modifier6inputs4bodyAA01_F7OutputsVAA11_GraphValueVyxG_AA01_F6InputsVAiA01_K0V_ANtctFZ
+- _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0_9specifieryx_SStAA18_FormatSpecifiableRzlF
+- _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0yyAA4TextVF
+- _$s7SwiftUI18LocalizedStringKeyVyACSScfC
+- _$s7SwiftUI18RoundedCornerStyleO8circularyA2CmFWC
+- _$s7SwiftUI18_InsetViewModifierVMa
+- _$s7SwiftUI18_InsetViewModifierVMn
+- _$s7SwiftUI18_InsetViewModifierVyxGAA0dE0AAMc
+- _$s7SwiftUI18_OpacityShapeStyleVyxGAA0dE0AAMc
+- _$s7SwiftUI20LocalCoordinateSpaceVMn
+- _$s7SwiftUI20RectangleCornerRadiiV7topLeft0F5Right06bottomH00iG0AC12CoreGraphics7CGFloatV_A3JtcfC
+- _$s7SwiftUI20_GeometryGroupEffectVMn
+- _$s7SwiftUI21InsetGroupedListStyleVAA0eF0AAWP
+- _$s7SwiftUI21InsetGroupedListStyleVACycfC
+- _$s7SwiftUI21InsetGroupedListStyleVMa
+- _$s7SwiftUI21InsetGroupedListStyleVMn
+- _$s7SwiftUI21_ViewModifier_ContentVMa
+- _$s7SwiftUI22ContentMarginPlacementV16scrollIndicatorsACvgZ
+- _$s7SwiftUI22PlaceholderContentViewVMa
+- _$s7SwiftUI22UnevenRoundedRectangleVAA4ViewAAMc
+- _$s7SwiftUI22UnevenRoundedRectangleVMa
+- _$s7SwiftUI22UnevenRoundedRectangleVMn
+- _$s7SwiftUI23LabelStyleConfigurationV4IconVAA4ViewAAMc
+- _$s7SwiftUI23_ContainerShapeModifierVMn
+- _$s7SwiftUI23_ContainerShapeModifierVyxGAA04ViewE0AAMc
+- _$s7SwiftUI23_SafeAreaIgnoringLayoutVN
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
+- _$s7SwiftUI25_AllowsHitTestingModifierVN
+- _$s7SwiftUI25_ContentShapeKindModifierVMn
+- _$s7SwiftUI25_ContentShapeKindModifierVyxGAA04ViewF0AAMc
+- _$s7SwiftUI26_BackdropEffectPlaceholderVAA4ViewAAWP
+- _$s7SwiftUI27ScrollDismissesKeyboardModeV13interactivelyACvgZ
+- _$s7SwiftUI27ScrollDismissesKeyboardModeVMa
+- _$s7SwiftUI4EdgeO3SetV8rawValueAEs4Int8V_tcfC
+- _$s7SwiftUI4FontV2eeoiySbAC_ACtFZ
+- _$s7SwiftUI4FontV6title2ACvgZ
+- _$s7SwiftUI4GridVMn
+- _$s7SwiftUI4GridVyxGAA4ViewAAMc
+- _$s7SwiftUI4ListVAAs5NeverORszrlE7contentACyAEq_Gq_yXE_tcfC
+- _$s7SwiftUI4ListVMa
+- _$s7SwiftUI4ListVMn
+- _$s7SwiftUI4ListVyxq_GAA4ViewAAMc
+- _$s7SwiftUI4TextV15customAttributeyACxAA0cE0RzlF
+- _$s7SwiftUI4TextV1poiyA2C_ACtFZ
+- _$s7SwiftUI4TextV_6formatAC11FormatInputQz_xtc10Foundation0E5StyleRzSQAFRQSS0E6OutputRtzlufC
+- _$s7SwiftUI4ViewPAAE10background_9alignmentQrqd___AA9AlignmentVtAaBRd__lF
+- _$s7SwiftUI4ViewPAAE11scaleEffect_6anchorQr12CoreGraphics7CGFloatV_AA9UnitPointVtF
+- _$s7SwiftUI4ViewPAAE12contentShape_6eoFillQrqd___SbtAA0E0Rd__lF
+- _$s7SwiftUI4ViewPAAE12contentShape__6eoFillQrAA07ContentE5KindsV_qd__SbtAA0E0Rd__lF
+- _$s7SwiftUI4ViewPAAE12onTapGesture5count15coordinateSpace7performQrSi_qd__ySo7CGPointVctAA010CoordinateI8ProtocolRd__lF
+- _$s7SwiftUI4ViewPAAE12onTapGesture5count15coordinateSpace7performQrSi_qd__ySo7CGPointVctAA010CoordinateI8ProtocolRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE13safeAreaInset4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lF
+- _$s7SwiftUI4ViewPAAE13symbolVariantyQrAA14SymbolVariantsVF
+- _$s7SwiftUI4ViewPAAE13symbolVariantyQrAA14SymbolVariantsVFQOMQ
+- _$s7SwiftUI4ViewPAAE14backdropEffectyQrqd__AA09_BackdropE11PlaceholderVXEAaBRd__lF
+- _$s7SwiftUI4ViewPAAE14containerShapeyQrqd__AA010InsettableE0Rd__lF
+- _$s7SwiftUI4ViewPAAE14luminanceCurve_6amountQrSf_S3ft_SftF
+- _$s7SwiftUI4ViewPAAE14luminanceCurve_6amountQrSf_S3ft_SftFQOMQ
+- _$s7SwiftUI4ViewPAAE15foregroundColoryQrAA0E0VSgF
+- _$s7SwiftUI4ViewPAAE15foregroundStyleyQrqd__AA05ShapeE0Rd__lF
+- _$s7SwiftUI4ViewPAAE18minimumScaleFactoryQr12CoreGraphics7CGFloatVF
+- _$s7SwiftUI4ViewPAAE19accessibilityActionyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0hE4KindV_yyctF
+- _$s7SwiftUI4ViewPAAE19accessibilityHidden_9isEnabledAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSb_SbtF
+- _$s7SwiftUI4ViewPAAE19highPriorityGesture_9includingQrqd___AA0F4MaskVtAA0F0Rd__lF
+- _$s7SwiftUI4ViewPAAE19highPriorityGesture_9includingQrqd___AA0F4MaskVtAA0F0Rd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE21edgesIgnoringSafeAreayQrAA4EdgeO3SetVF
+- _$s7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOF
+- _$s7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQOMQ
+- _$s7SwiftUI4ViewPAAE23scrollDismissesKeyboardyQrAA06ScrolleF4ModeVF
+- _$s7SwiftUI4ViewPAAE23scrollDismissesKeyboardyQrAA06ScrolleF4ModeVFQOMQ
+- _$s7SwiftUI4ViewPAAE4blur6radius6opaqueQr12CoreGraphics7CGFloatV_SbtF
+- _$s7SwiftUI4ViewPAAE4fontyQrAA4FontVSgF
+- _$s7SwiftUI4ViewPAAE5alert11isPresented5error7actions7messageQrAA7BindingVySbG_qd__Sgqd_0_qd__XEqd_1_qd__XEt10Foundation14LocalizedErrorRd__AaBRd_0_AaBRd_1_r1_lF
+- _$s7SwiftUI4ViewPAAE5alert11isPresented5error7actions7messageQrAA7BindingVySbG_qd__Sgqd_0_qd__XEqd_1_qd__XEt10Foundation14LocalizedErrorRd__AaBRd_0_AaBRd_1_r1_lFQOMQ
+- _$s7SwiftUI4ViewPAAE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AkA9AlignmentVtF
+- _$s7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lF
+- _$s7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOMQ
+- _$s7SwiftUI4ViewPAAE6_traityQrqd__m_5ValueQyd__tAA01_C8TraitKeyRd__lF
+- _$s7SwiftUI4ViewPAAE7opacityyQrSdF
+- _$s7SwiftUI4ViewPAAE7paddingyQr12CoreGraphics7CGFloatVF
+- _$s7SwiftUI4ViewPAAE9animation_5valueQrAA9AnimationVSg_qd__tSQRd__lF
+- _$s7SwiftUI4ViewPAAE9lineLimityQrSiSgF
+- _$s7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lF
+- _$s7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOMQ
+- _$s7SwiftUI5ColorVyACSo7UIColorCcfC
+- _$s7SwiftUI5ImageV07SnippetB0E4dataACSg10Foundation4DataVSg_tcfC
+- _$s7SwiftUI5LabelVA2A4TextVRszAA5ImageVRs_rlE_06systemE0ACyAeGGqd___SStcSyRd__lufC
+- _$s7SwiftUI6ButtonVMa
+- _$s7SwiftUI6ShaderV8ArgumentV6_floatyAESfFZ
+- _$s7SwiftUI6ShaderV8ArgumentV7_float2yAESf_SftFZ
+- _$s7SwiftUI6ShaderV8ArgumentVMa
+- _$s7SwiftUI6ShaderV8ArgumentVMn
+- _$s7SwiftUI6ShaderVMa
+- _$s7SwiftUI7DividerVAA4ViewAAMc
+- _$s7SwiftUI7ForEachV08_MapKit_aB0AD0E7ContentR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_ALctcfC
+- _$s7SwiftUI7ForEachVyxq_q0_G08_MapKit_aB00E7ContentA2eFR0_rlMc
+- _$s7SwiftUI7GridRowVMn
+- _$s7SwiftUI8MaterialV7regularACvgZ
+- _$s7SwiftUI9AlignmentV14bottomTrailingACvgZ
+- _$s7SwiftUI9AlignmentV6bottomACvgZ
+- _$s7SwiftUI9AnimationV9easeInOutACvgZ
+- _$s7SwiftUI9RectangleVAA5ShapeAAMc
+- _$s7Symbols18RotateSymbolEffectVAA0cD0AAMc
+- _$s7Symbols18RotateSymbolEffectVACycfC
+- _$s7Symbols18RotateSymbolEffectVMa
+- _$s8Dispatch0A12TimeIntervalO11nanosecondsyACSicACmFWC
+- _$s8Dispatch0A12TimeIntervalOMn
+- _$s8Dispatch0A3QoSV0B6SClassO13userInitiatedyA2EmFWC
+- _$s8Dispatch0A9PredicateO10notOnQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Feedback23FBKEvaluationControllerC10evaluations6ResultOy0A7Service14FBKSEvaluationCs5Error_pGSgvgTj
+- _$s8Feedback23FBKEvaluationControllerC11userDidLike7subject04showA4Formy0A7Service14FBKSEvaluationC7SubjectO_SbtFTj
+- _$s8Feedback23FBKEvaluationControllerC14userDidDislike7subject04showA4Formy0A7Service14FBKSEvaluationC7SubjectO_SbtFTj
+- _$s8Feedback23FBKEvaluationControllerC21userDidReportAConcern7subject04showA4Formy0A7Service14FBKSEvaluationC7SubjectO_SbtFTj
+- _$s8Feedback23FBKEvaluationControllerC5resetyyFTj
+- _$s8Feedback23FBKEvaluationControllerC7subjectAC0A7Service14FBKSEvaluationC7SubjectOSg_tcfc
+- _$s8Feedback23FBKEvaluationControllerCMa
+- _$s9ActorTypes06GlobalA0PTl
+- _$s9SnippetUI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AA7ContextCtFZ
+- _$s9SnippetUI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AA7ContextCtFZQOMQ
+- _$s9SnippetUI22VisualResponseProviderCMa
+- _$s9SnippetUI28SmartDialogAnimationSettingsVMn
+- _$s9SnippetUI7ContextC5idiomACSo8VRXIdiomVSg_tcfc
+- _$s9SnippetUI7ContextCMa
+- _$s9SnippetUI7ContextCMn
+- _$s9ValueType10AppIntents07_IntentA0PTl
+- _$sSD11descriptionSSvg
+- _$sSDMa
+- _$sSDyxq_GSEsSERzSER_rlMc
+- _$sSDyxq_GSesSeRzSeR_rlMc
+- _$sSH9hashValueSivgTj
+- _$sSJ12isWhitespaceSbvg
+- _$sSJ13_isLowercasedSbvg
+- _$sSJ13_isUppercasedSbvg
+- _$sSJ15_isSingleScalarSbvg
+- _$sSK11SubSequenceSl_SKTn
+- _$sSK5index6before5IndexQzAD_tFTq
+- _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSK5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSK7IndicesSl_SKTn
+- _$sSK8distance4from2toSi5IndexQz_AEtFTq
+- _$sSK9formIndex6beforey0B0Qzz_tFTq
+- _$sSKMp
+- _$sSKSlTb
+- _$sSKsE4last7ElementQzSgvg
+- _$sSKsE9lastIndex5where0B0QzSgSb7ElementQzKXE_tKF
+- _$sSM11SubSequenceSl_SMTn
+- _$sSM39withContiguousMutableStorageIfAvailableyqd__Sgqd__Sry7ElementQzGzKXEKlFTq
+- _$sSM42_withUnsafeMutableBufferPointerIfSupportedyqd__Sgqd__Sry7ElementQzGzKXEKlFTq
+- _$sSM6swapAtyy5IndexQz_ACtFTq
+- _$sSM9partition2by5IndexQzSb7ElementQzKXE_tKFTq
+- _$sSMMp
+- _$sSMSlTb
+- _$sSMsE39withContiguousMutableStorageIfAvailableyqd__Sgqd__Sry7ElementQzGzKXEKlF
+- _$sSMsE42_withUnsafeMutableBufferPointerIfSupportedyqd__Sgqd__Sry7ElementQzGzKXEKlF
+- _$sSMsE6swapAtyy5IndexQz_ACtF
+- _$sSMsSKRzrlE9partition2by5IndexSlQzSb7ElementSTQzKXE_tKF
+- _$sSMy11SubSequenceQzSny5IndexQzGciMTq
+- _$sSMy11SubSequenceQzSny5IndexQzGcisTq
+- _$sSMy7ElementQz5IndexQzciMTq
+- _$sSMy7ElementQz5IndexQzcisTq
+- _$sSS10AppIntents27EntityIdentifierConvertibleAAWP
+- _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+- _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS5countSivg
+- _$sSS5index5afterSS5IndexVAD_tF
+- _$sSS5index6beforeSS5IndexVAD_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSS9UTF16ViewVMn
+- _$sSS9UTF16ViewVN
+- _$sSSMn
+- _$sSSSEsWP
+- _$sSSSQsWP
+- _$sSSSTsWP
+- _$sSSSesWP
+- _$sSSs25LosslessStringConvertiblesWP
+- _$sSSySJSS5IndexVcig
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sST12makeIterator0B0QzyFTq
+- _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
+- _$sST19underestimatedCountSivgTq
+- _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
+- _$sST31_customContainsEquatableElementySbSg0D0QzFTq
+- _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
+- _$sSTMp
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
+- _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF
+- _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
+- _$sSTsSy7ElementRpzrlE6joined9separatorS2S_tF
+- _$sSYsSERzSS8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSeRzSS8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
+- _$sSa21_makeMutableAndUniqueyyF
+- _$sSa6appendyyxnF
+- _$sSa6insert_2atyxn_SitF
+- _$sSaMn
+- _$sSayxG10AppIntents17ResultsCollectionA2B12_IntentValueRzlMc
+- _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
+- _$sSayxSicig
+- _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSbMn
+- _$sScEMa
+- _$sScI4next7ElementQzSgyYaKFTj
+- _$sScI4next7ElementQzSgyYaKFTjTu
+- _$sScP4highScPvgZ
+- _$sScP8rawValueScPs5UInt8V_tcfC
+- _$sScS12ContinuationV15BufferingPolicyO15bufferingNewestyADyx__GSicAFmlFWC
+- _$sScS12ContinuationV6finishyyF
+- _$sScS_15bufferingPolicy_ScSyxGxm_ScS12ContinuationV09BufferingB0Oyx__GyADyx_GXEtcfC
+- _$sScg17makeAsyncIteratorScg0C0Vyxq__GyF
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKF
+- _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
+- _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
+- _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
+- _$sScg8IteratorVMn
+- _$sScg9cancelAllyyF
+- _$sSd10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSd11descriptionSSvg
+- _$sSdSFsMc
+- _$sSdSHsWP
+- _$sSdSQsWP
+- _$sSdSjsWP
+- _$sSdySdSgSscfC
+- _$sSf5write2toyxz_ts16TextOutputStreamRzlF
+- _$sSf7SwiftUI18_FormatSpecifiableAAWP
+- _$sShyxGSEsSERzrlMc
+- _$sShyxGSTsMc
+- _$sShyxGSesSeRzrlMc
+- _$sSiMn
+- _$sSiSLsWP
+- _$sSiSZsMc
+- _$sSiSxsWP
+- _$sSis17FixedWidthIntegersMc
+- _$sSis35_ExpressibleByBuiltinIntegerLiteralsWP
+- _$sSk11SubSequenceSl_SkTn
+- _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSk5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSk7IndicesSl_SkTn
+- _$sSk8distance4from2toSi5IndexQz_AEtFTq
+- _$sSkMp
+- _$sSkSKTb
+- _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tF
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index6beforeA2B_tF
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvg
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF
+- _$sSl10startIndex0B0QzvgTq
+- _$sSl11SubSequenceSl_SlTn
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTj
+- _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTq
+- _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTq
+- _$sSl34_customLastIndexOfEquatableElementy0C0QzSgSg0F0QzFTq
+- _$sSl5IndexSl_SLTn
+- _$sSl5countSivgTq
+- _$sSl5index5after5IndexQzAD_tFTq
+- _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSl5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSl7IndicesSl_SlTn
+- _$sSl7indices7IndicesQzvgTq
+- _$sSl7isEmptySbvgTq
+- _$sSl8distance4from2toSi5IndexQz_AEtFTq
+- _$sSl8endIndex0B0QzvgTq
+- _$sSl9formIndex5aftery0B0Qzz_tFTq
+- _$sSlMp
+- _$sSlSTTb
+- _$sSlsE19underestimatedCountSivg
+- _$sSlsE7isEmptySbvg
+- _$sSly11SubSequenceQzSny5IndexQzGcigTq
+- _$sSly7ElementQz5IndexQzcirTq
+- _$sSn10FoundationAA4DateVRszrlE9formattedy12FormatOutputQyd__qd__AA0D5StyleRd__SnyACG0D5InputRtd__lF
+- _$sSn10FoundationSS5IndexVRszrlE_2inSnyACGSgSo8_NSRangeV_SShtcfC
+- _$sSnMa
+- _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
+- _$sSnyxGSksSxRzSZ6StrideRpzrlMc
+- _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
+- _$sSo11NLTokenizerC15NaturalLanguageE15enumerateTokens2in5usingySnySS5IndexVG_SbAI_So0A10AttributesVtXEtF
+- _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF
+- _$sSo12NSURLSessionC10FoundationE4data3for8delegateAC4DataV_So13NSURLResponseCtAC10URLRequestV_So0A12TaskDelegate_pSgtYaKF
+- _$sSo12NSURLSessionC10FoundationE4data3for8delegateAC4DataV_So13NSURLResponseCtAC10URLRequestV_So0A12TaskDelegate_pSgtYaKFTu
+- _$sSo14NSItemProviderC22UniformTypeIdentifiersE10contentsOf07contentD011openInPlace11coordinated10visibilityAB10Foundation3URLV_AC6UTTypeVSgS2bSo0aB24RepresentationVisibilityVtcfC
+- _$sSo17NSKeyedUnarchiverC10FoundationE16unarchivedObject7ofClass4fromxSgxm_AC4DataVtKSo8NSObjectCRbzSo8NSCodingRzlFZ
+- _$sSo17OS_dispatch_groupC8DispatchE6notify3qos5flags5queue7executeyAC0D3QoSV_AC0D13WorkItemFlagsVSo0a1_b1_H0CyyXBtF
+- _$sSo18os_signpost_type_ta0A0E5eventABvgZ
+- _$sSo19MKMapItemIdentifierCSE6MapKitMc
+- _$sSo19MKMapItemIdentifierCSe6MapKitMc
+- _$sSo20NLLanguageRecognizerC15NaturalLanguageE18languageHypotheses11withMaximumSDySo0A0aSdGSi_tF
+- _$sSo20NSNotificationCenterC10FoundationE9PublisherVMa
+- _$sSo20NSNotificationCenterC10FoundationE9PublisherVMn
+- _$sSo20NSNotificationCenterC10FoundationE9publisher3for6objectAbCE9PublisherVSo0A4Namea_yXlSgtF
+- _$sSo6CGRectV12CoreGraphicsE16debugDescriptionSSvg
+- _$sSo6CGRectVSE12CoreGraphicsMc
+- _$sSo6CGRectVSe12CoreGraphicsMc
+- _$sSo6CGSizeVSQ12CoreGraphicsMc
+- _$sSo7CGPointV10FoundationE19_bridgeToObjectiveCSo7NSValueCyF
+- _$sSo7CGPointV12CoreGraphicsE16debugDescriptionSSvg
+- _$sSo7CGPointVSE12CoreGraphicsMc
+- _$sSo7CGPointVSe12CoreGraphicsMc
+- _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
+- _$sSo8_NSRangeV10FoundationE12intersectionyABSgABF
+- _$sSo9NSDecimala10FoundationE11FormatStyleV8CurrencyV7rounded4rule9incrementAGs25FloatingPointRoundingRuleO_SiSgtF
+- _$sSo9NSDecimala10FoundationE11FormatStyleV8CurrencyV9precisionyAgC06NumbercD13ConfigurationO9PrecisionVF
+- _$sSo9NSDecimala10FoundationE11FormatStyleV8CurrencyVAcdCMc
+- _$sSo9NSDecimala10FoundationE11FormatStyleV8CurrencyVMa
+- _$sSo9NSDecimala10FoundationE14integerLiteralABSi_tcfC
+- _$sSo9NSDecimala10FoundationE1doiyA2B_ABtFZ
+- _$sSo9NSDecimala10FoundationE9formattedy12FormatOutputQzxAC0D5StyleRzAB0D5InputRtzlF
+- _$sSo9NSDecimala10FoundationEyABs5Int64VcfC
+- _$sSqMn
+- _$sSy10FoundationE20localizedCapitalizedSSvg
+- _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
+- _$sSy10FoundationE8containsySbqd__SyRd__lF
+- _$sSy12RegexBuilderSs11SubSequenceRtzrlE5split9separator9maxSplits25omittingEmptySubsequencesSaySsGSS_SiSbtF
+- _$ss10AnyKeyPathCSHsWP
+- _$ss10AnyKeyPathCSQsWP
+- _$ss10ArraySliceVMn
+- _$ss10ArraySliceVyxGSksMc
+- _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
+- _$ss10__CocoaSetV6member3foryXlSgyXl_tF
+- _$ss10__CocoaSetV8containsySbyXlF
+- _$ss11AnyHashableV4baseypvg
+- _$ss11GlobalActorMp
+- _$ss11GlobalActorP0B4TypeAB_ScATn
+- _$ss11GlobalActorP21sharedUnownedExecutorScevgZTq
+- _$ss11GlobalActorP6shared0B4TypeQzvgZTq
+- _$ss11GlobalActorPsE21sharedUnownedExecutorScevgZ
+- _$ss11_SetStorageC7convert_8capacityAByxGs07__CocoaA0V_SitFZ
+- _$ss11_StringGutsV18foreignScalarAlignySS5IndexVAEF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss12StaticStringV11descriptionSSvg
+- _$ss12StaticStringVN
+- _$ss13EncodingErrorO12invalidValueyAByp_AB7ContextVtcABmFWC
+- _$ss13EncodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
+- _$ss13EncodingErrorO7ContextVMn
+- _$ss13EncodingErrorOMa
+- _$ss13EncodingErrorOs0B0sWP
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _$ss15CollectionOfOneVMn
+- _$ss15ContinuousClockVABycfC
+- _$ss16IndexingIteratorVyxGStsMc
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV5countSivg
+- _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss17_bridgeCocoaArrayySayxGyXllF
+- _$ss18AdditiveArithmeticMp
+- _$ss18AdditiveArithmeticP1poiyxx_xtFZTq
+- _$ss18AdditiveArithmeticP1soiyxx_xtFZTq
+- _$ss18AdditiveArithmeticP2peoiyyxz_xtFZTq
+- _$ss18AdditiveArithmeticP2seoiyyxz_xtFZTq
+- _$ss18AdditiveArithmeticP4zeroxvgZTq
+- _$ss18AdditiveArithmeticPSQTb
+- _$ss18LazyFilterSequenceVMn
+- _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
+- _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
+- _$ss22KeyedEncodingContainerV10codingPathSays9CodingKey_pGvg
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
+- _$ss22_stringCompareInternal____9expectingSbs11_StringGutsV_SnySiGAdEs01_E16ComparisonResultOtF
+- _$ss22_writeBackMutableSlice_6bounds5sliceyxz_Sny5IndexQzGq_tSMRzSlR_7ElementQy_AGRtzADQy_AERSr0_lF
+- _$ss25FloatingPointRoundingRuleO15toNearestOrEvenyA2BmFWC
+- _$ss25FloatingPointRoundingRuleOMa
+- _$ss27ExpressibleByIntegerLiteralMp
+- _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTq
+- _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss28__ContiguousArrayStorageBaseC17staticElementTypeypXpvgTj
+- _$ss30_findStringSwitchCaseWithCache5cases6string5cacheSiSays06StaticB0VG_SSs07_OpaquebcF0VztF
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF
+- _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
+- _$ss5Int64VMn
+- _$ss5Int64VN
+- _$ss5NeverOSHsWP
+- _$ss5SliceVMa
+- _$ss5SliceVMn
+- _$ss5SliceVyxGSKsSKRzrlMc
+- _$ss5SliceVyxGSMsSMRzrlMc
+- _$ss5SliceVyxGSksSkRzrlMc
+- _$ss5SliceVyxGSlsMc
+- _$ss5UInt8VN
+- _$ss6ResultOMn
+- _$ss6UInt64VSHsWP
+- _$ss6UInt64Vs23CustomStringConvertiblesWP
+- _$ss7KeyPathCMn
+- _$ss7UnicodeO6ScalarV10PropertiesV11isUppercaseSbvg
+- _$ss7UnicodeO6ScalarV10PropertiesV7isCasedSbvg
+- _$ss7UnicodeO6ScalarV10PropertiesVMa
+- _$ss7UnicodeO6ScalarV10propertiesAD10PropertiesVvg
+- _$ss7UnicodeO6ScalarV9UTF16ViewVys6UInt16VSicig
+- _$ss9_typeName_9qualifiedSSypXp_SbtF
+- _$sxSgSEsSERzlMc
+- _$sxSgSesSeRzlMc
+- _AFMontaraRestricted
+- _AVMetadataObjectTypeTextRegion
+- _AVMetadataObjectTypeVisualIntelligence
+- _AnalyticsSendEventLazy
+- _CC_SHA256
+- _CGAffineTransformInvert
+- _CGAffineTransformMakeRotation
+- _CGBitmapContextCreate
+- _CGBitmapContextCreateImage
+- _CGColorCreateGenericGray
+- _CGContextRotateCTM
+- _CGContextSetInterpolationQuality
+- _CGContextTranslateCTM
+- _CGImageDestinationAddImage
+- _CGImageDestinationCreateWithData
+- _CGImageDestinationFinalize
+- _CGImageGetBitmapInfo
+- _CGImageGetBitsPerComponent
+- _CGImageGetColorSpace
+- _CGPointApplyAffineTransform
+- _CGRectApplyAffineTransform
+- _CGRectContainsPoint
+- _CGRectEqualToRect
+- _CGRectIsEmpty
+- _CGRectStandardize
+- _CGRectUnion
+- _CUIKAdjustedColorForColor
+- _CUIKBackgroundColorForCalendarColorWithOpaqueForStyle
+- _CUIKOccurrenceSecondaryTextColor
+- _CUIKOccurrenceTextColor
+- _CVPixelBufferGetBaseAddress
+- _CVPixelBufferGetBytesPerRow
+- _CVPixelBufferLockBaseAddress
+- _CVPixelBufferUnlockBaseAddress
+- _FBSOpenApplicationOptionKeyPromptUnlockDevice
+- _GEOBearingFromCoordinateToCoordinate
+- _GESummarizationClientErrorDomain
+- _MKCoordinateForMapPoint
+- _MKLaunchOptionsMapRadiusInMetersKey
+- _MKMapPointForCoordinate
+- _NLLanguageEnglish
+- _NLLanguageUndetermined
+- _NSFontAttributeName
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_AFUISiriSetupViewController
+- _OBJC_CLASS_$_AVMetadataVisualIntelligenceObject
+- _OBJC_CLASS_$_CLHeading
+- _OBJC_CLASS_$_CLLocationManager
+- _OBJC_CLASS_$_CRBlockOutputRegion
+- _OBJC_CLASS_$_CRDocumentOutputRegion
+- _OBJC_CLASS_$_CRNormalizedQuad
+- _OBJC_CLASS_$_CROutputRegion
+- _OBJC_CLASS_$_CRParagraphOutputRegion
+- _OBJC_CLASS_$_CTCarrier
+- _OBJC_CLASS_$_CTTelephonyNetworkInfo
+- _OBJC_CLASS_$_EKAttachment
+- _OBJC_CLASS_$_EKEvent
+- _OBJC_CLASS_$_EKEventEditViewController
+- _OBJC_CLASS_$_EKEventStore
+- _OBJC_CLASS_$_FTBipartiteMatcher
+- _OBJC_CLASS_$_FTCinematicTapToTrack
+- _OBJC_CLASS_$_FigM2MController
+- _OBJC_CLASS_$_GEOAPPortal
+- _OBJC_CLASS_$_GEOButtonItem
+- _OBJC_CLASS_$_GEOButtonItemGroup
+- _OBJC_CLASS_$_GEOCountryConfiguration
+- _OBJC_CLASS_$_GEOLatLng
+- _OBJC_CLASS_$_GEOLocation
+- _OBJC_CLASS_$_GEOMapItemIdentifier
+- _OBJC_CLASS_$_GEOMapItemPhotoOptions
+- _OBJC_CLASS_$_GEOMapService
+- _OBJC_CLASS_$_GEOModule
+- _OBJC_CLASS_$_GEOPlaceExternalAction
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_MCProfileConnection
+- _OBJC_CLASS_$_MKMapItem
+- _OBJC_CLASS_$_MKMapItemIdentifier
+- _OBJC_CLASS_$_MKPolygon
+- _OBJC_CLASS_$_MRNowPlayingController
+- _OBJC_CLASS_$_MUInfoCardStyle
+- _OBJC_CLASS_$_NLLanguageRecognizer
+- _OBJC_CLASS_$_NLTokenizer
+- _OBJC_CLASS_$_NSColor
+- _OBJC_CLASS_$_NSDataDetector
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSPPrivateAccessTokenChallenge
+- _OBJC_CLASS_$_NSPPrivateAccessTokenFetcher
+- _OBJC_CLASS_$_NSRelativeDateTimeFormatter
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSTextCheckingResult
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_SFCard
+- _OBJC_CLASS_$_SFCardSection
+- _OBJC_CLASS_$_SFOpenPunchoutCommand
+- _OBJC_CLASS_$_SFResultSection
+- _OBJC_CLASS_$_SFSafariViewController
+- _OBJC_CLASS_$_SFSafariViewControllerConfiguration
+- _OBJC_CLASS_$_SFSearchResult
+- _OBJC_CLASS_$_SearchUI
+- _OBJC_CLASS_$_SearchUICardViewController
+- _OBJC_CLASS_$_SiriReaderConnection
+- _OBJC_CLASS_$_SiriSimpleActivationSource
+- _OBJC_CLASS_$_TCTextCompositionAssistant
+- _OBJC_CLASS_$_TCTextCompositionCalendarEventGenerationInput
+- _OBJC_CLASS_$_TCTextCompositionOCRTextBlockCoordinate
+- _OBJC_CLASS_$_TCTextCompositionOCRTextBoundingBox
+- _OBJC_CLASS_$_TUCall
+- _OBJC_CLASS_$_TUCallCenter
+- _OBJC_CLASS_$_UIBarButtonItem
+- _OBJC_CLASS_$_UIFont
+- _OBJC_CLASS_$_UIFontMetrics
+- _OBJC_CLASS_$_UIGraphicsImageRendererFormat
+- _OBJC_CLASS_$_UIImpactFeedbackGenerator
+- _OBJC_CLASS_$_UINavigationBarAppearance
+- _OBJC_CLASS_$_UINavigationController
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$_UIViewController
+- _OBJC_CLASS_$_VFXView
+- _OBJC_CLASS_$_VFXWorld
+- _OBJC_CLASS_$_VKCDataDetectorElementInfo
+- _OBJC_CLASS_$_VKCQuickActionInfoElement
+- _OBJC_CLASS_$_VNGenerateForegroundInstanceMaskRequest
+- _OBJC_CLASS_$_VNInstanceMaskObservation
+- _OBJC_CLASS_$_VNObservation
+- _OBJC_CLASS_$_VNRecognizeDocumentsRequest
+- _OBJC_CLASS_$_VNRecognizeObjectsRequest
+- _OBJC_CLASS_$_VNRecognizedObjectObservation
+- _OBJC_CLASS_$_VNRecognizedTextBlockObservation
+- _OBJC_CLASS_$_VNSequenceRequestHandler
+- _OBJC_CLASS_$_VNSupportedImageSize
+- _OBJC_CLASS_$_VTUITurnOnSiriView
+- _OBJC_CLASS_$__MKLocalizedHoursBuilder
+- _OBJC_CLASS_$__MKLocationShifter
+- _OBJC_CLASS_$__UIButtonFeedbackGenerator
+- _OBJC_CLASS_$__UIButtonFeedbackGeneratorConfiguration
+- _OBJC_CLASS_$__UIDirectionalLightPalette
+- _OBJC_CLASS_$__UIDiscreteFeedback
+- _OBJC_METACLASS_$_UINavigationController
+- _TCTextCompositionAssistantFeatureTypeCalendarEventGeneration
+- _TCTextCompositionAssistantOptionKeyContentWarning
+- _UIApplicationDidBecomeActiveNotification
+- _UIApplicationDidEnterBackgroundNotification
+- _UIApplicationWillEnterForegroundNotification
+- _UIFontTextStyleBody
+- _UIFontTextStyleCallout
+- _UIFontTextStyleCaption1
+- _UIFontTextStyleCaption2
+- _UIFontTextStyleFootnote
+- _UIFontTextStyleHeadline
+- _UIFontTextStyleLargeTitle
+- _UIFontTextStyleSubheadline
+- _UIFontTextStyleTitle1
+- _UIFontTextStyleTitle2
+- _UIImagePNGRepresentation
+- ___sincos_stret
+- __simd_cos_f4
+- __simd_sin_f4
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_isClassOrObjCExistentialType
+- _clock_gettime_nsec_np
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _exit
+- _exp2
+- _kCGImageDestinationLossyCompressionQuality
+- _kMUPlaceHorizontalMarginSpacing
+- _log10f
+- _log2
+- _matrix_identity_float4x4
+- _memcmp
+- _objc_autorelease
+- _objc_opt_respondsToSelector
+- _os_variant_has_internal_content
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_dynamicCastMetatype
+- _swift_dynamicCastObjCProtocolUnconditional
+- _swift_getExistentialTypeMetadata
+- _swift_getTupleTypeLayout3
+- _swift_unknownObjectRelease_n
+- _swift_willThrowTypedImpl
+- _vDSP_dotpr
+- _vfx_script_clock_delta_time
+- _vfx_script_clock_time
+- _vfx_script_color_ramp_copy
+- _vfx_script_color_ramp_create
+- _vfx_script_color_ramp_destroy
+- _vfx_script_get_arguments_buffer
+- _vfx_script_get_iteration_range
+- _vfx_script_texture_sample1d
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@\"<MTLTexture>\"24@0:8@\"MTLTextureViewDescriptor\"16"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "AFMPlus"
++ "An oldAnchor for %s without anchor information cannot exist."
++ "Attempting to reconfigure camera for vendor recording"
++ "BundleManagerOutputStream is intended for debug and test tools only - not available from CameraController for production UI."
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CVCoordinator exception on frame queue: "
++ "CVFrameConsumer state queue"
++ "CameraController.getDisplayFrame"
++ "CameraRefresh"
++ "Configuring AR session '%@' with geo available '%{bool}d'."
++ "ContentViewButtons"
++ "Could not get corner anchor point - (%f, %f)."
++ "Creating anchor for %s"
++ "Did not load image"
++ "Didnt display speedbump for %s"
++ "Enable Copy Photo"
++ "Enable Save Photo"
++ "Error executing action: %s"
++ "Failed to load and scale still at "
++ "Failed to reconfigure camera for recording: %s"
++ "Finished executing action : %s"
++ "Got %ld tracks @ frameTime %f"
++ "Got external action execution result: %s"
++ "Highlight Recovery"
++ "Highlight-to-Search"
++ "I am a CameraController and get my pixels from the camera"
++ "Image selected: "
++ "Loading image…"
++ "M2M handle for AppleDepth failed"
++ "Missing capture device"
++ "ModernShutterButton"
++ "Not updating cameraPoseAnchorBuffer for frame @ %f as camera is not running."
++ "Optional<SharedSuppressPostShutterAction>"
++ "ProductVersion"
++ "Raycast Correction"
++ "Raycast failed, so going to fallback for - %s"
++ "Raycast succeeded for - %s"
++ "Received frame @ %f that is %f older than the last frame processed."
++ "Received invalid updated for %s"
++ "Removed anchor for all tracks"
++ "Removing anchor for %s with anchor quality: %s and replacing with anchor that is %fm away."
++ "Selected the most salient item."
++ "Selection somehow did not have an associated pill."
++ "Selection somehow did not have an associated pin."
++ "Session '%@' is no longer interrupted"
++ "Session '%@' was interrupted"
++ "Show Selection Reticule"
++ "Streaming Eligibility"
++ "Streaming Ranking"
++ "Tamale.DataDetectorCacheEntry"
++ "Tamale/CVFrameSynchronizer.swift"
++ "Tamale/CameraController.swift"
++ "Unlock to Select Image"
++ "Unsupported device type"
++ "Updating tracks for frame @ %f"
++ "Video Frame Rate"
++ "Will execute ACME action via Siri"
++ "_TtC6Tamale19CVFrameSynchronizer"
++ "_TtC6Tamale22DataDetectorCacheEntry"
++ "_TtC6Tamale31AnnotatedVideoViewConfiguration"
++ "_TtCV6Tamale29CameraControllerConfiguration7Storage"
++ "_alternateDisambiguationPinStyling"
++ "_classificationOverlayType"
++ "_latestActionPredictorOutput"
++ "_selectedSubject"
++ "_showActionPins"
++ "_showPinsAndBoxes"
++ "_showSelectedSubjectReticule"
++ "_showText"
++ "actionPin.rankedPills: %s"
++ "actionPredictor"
++ "actionPredictorConfiguration"
++ "actionPredictorOutputReadingTask"
++ "activeInteractionTypes"
++ "anchorToAnchorInformationInternal"
++ "arCameraSourceRecording"
++ "arCameraSourceReplay"
++ "barcode.viewfinder"
++ "bundleSelectorConfiguration"
++ "cameraControlsDisabled"
++ "cameraPoseAnchorBufferInternal"
++ "captureDevice"
++ "chatGPT"
++ "com.apple.VisualIntelligence"
++ "configStorage"
++ "convertRect:fromCoordinateSpace:"
++ "cornerRadius"
++ "currentMediaManifest"
++ "dataDetectorRange"
++ "dataDetectorsByRange"
++ "displayMaxDimension"
++ "document.badge.ellipsis"
++ "document.badge.gearshape"
++ "document.viewfinder"
++ "documentDataDetectorInfo"
++ "doubleValue"
++ "frameSynchronizer"
++ "frameTimer"
++ "getStillFrame(maxDimension:)"
++ "globe.americas.fill"
++ "highlightRecoveryEnabled"
++ "imageAnalysisInteraction:visualIntelligenceVluEnabledDidChange:"
++ "initWithCRDocumentOutputRegion:requestRevision:"
++ "initWithTransform:"
++ "isVisualIntelligenceSheetPresentedDidChangeForImageAnalysisInteraction:"
++ "kCFAllocatorNull"
++ "lastAnchoredTracksUpdateFrameTime"
++ "live text action bar items: %s"
++ "new items: %s"
++ "newTextureViewWithDescriptor:"
++ "numbers.rectangle.fill"
++ "performRaycastCorrection"
++ "pills: %s"
++ "pin action: %s"
++ "preferredWindowingControlStyleForScene:"
++ "qrcode.viewfinder"
++ "r"
++ "runState"
++ "saliencyModel"
++ "saliencyStreamIngredients"
++ "setBackdropCameraOverride:"
++ "setMaxVideoZoomFactor:"
++ "setObject:forKey:"
++ "setTransform:"
++ "setVideoHDRAllowed:"
++ "sharedUserDefaults"
++ "sheetAssistant"
++ "sizeOfPreviewFrame"
++ "sparseTextureTier"
++ "staticPbufHighQuality"
++ "staticPbufStreaming"
++ "stillFrameURL"
++ "subject lift action bar items: %s"
++ "systemActionsConfiguration"
++ "systemPressureObservation"
++ "systemZoomSlider"
++ "targetZoomFactor"
++ "textAssistantPonderingFillPalette"
++ "textAssistantReplacementBuildInPalette"
++ "track: %s"
++ "upstreamRequests"
++ "userDefaults"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "viewfinder.trianglebadge.exclamationmark"
++ "virtualDeviceSwitchOverVideoZoomFactors"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "zoomGestureInitialZoomFactor"
++ "zoomGestureState"
+- "  arCamHorizontalAccuracy "
+- " detectionLabel: "
+- " detectionRequests\n            "
+- " did not respond."
+- " finished: true title: "
+- " for more information by capturing and sending what’s in view."
+- " for similar images by capturing and sending what’s in view."
+- " frameTimestamp: "
+- " is unavailable. Please try again later."
+- " is unavailable. Try again later."
+- " localeIdentifier: "
+- " mastheadSubtitle: "
+- " mastheadTitle: "
+- " provided a malformed response."
+- " provided us with no valid results, potentially because of safety filtering."
+- " quickActions: ["
+- " state: finished summary: "
+- " state: finished title: "
+- " which is not compatible with the preferred Siri language: "
+- "#allSubjectBounds: %ld"
+- "$__lazy_storage_$_bundlesStream"
+- "$__lazy_storage_$_liveHeadingUpdates"
+- "$__lazy_storage_$_m2m"
+- "$__lazy_storage_$_trackManager"
+- "$__lazy_storage_$_tracksStream"
+- "%s (took %f seconds)"
+- "%s size: %ld x %ld"
+- ") and [Privacy]("
+- ") due to too many repeated requests in a short time frame."
+- ", internal error: "
+- "--- All Day: %{bool}d"
+- "--- Checking text detection with %ld lines"
+- "--- End date: %s"
+- "--- Location: %s"
+- "--- No URL"
+- "--- No end date"
+- "--- No location"
+- "--- No notes"
+- "--- No start date"
+- "--- No title"
+- "--- Notes for Display: %s"
+- "--- Raw Notes: %s"
+- "--- Start date: %s"
+- "--- Title: %s"
+- "--- URL: %s"
+- "--- appending line: %s"
+- "-1"
+- "0"
+- ":third_party_model"
+- "<unexpectedly empty>"
+- "@\"<GEOAnnotatedItemList>\"16@0:8"
+- "@\"<GEOEncyclopedicInfo>\"16@0:8"
+- "@\"<GEOMapItem>\"16@0:8"
+- "@\"<GEOMapItem>\"20@0:8B16"
+- "@\"<GEOMapItemPhotoInfo>\"16@0:8"
+- "@\"<GEOMapItemPhotoInfo>\"36@0:8{CGSize=dd}16B32"
+- "@\"<GEOMapItemPhotoInfo>\"40@0:8{CGSize=dd}16@\"GEOMapItemPhotoOptions\"32"
+- "@\"<GEOMapItemPhotoInfo>\"48@0:8{CGSize=dd}16d32@\"GEOMapItemPhotoOptions\"40"
+- "@\"<GEOMapItemTransitInfo>\"16@0:8"
+- "@\"<GEOMapItemVenueInfo>\"16@0:8"
+- "@\"<GEOTransitAttribution>\"16@0:8"
+- "@\"<GEOTransitVehiclePosition>\"16@0:8"
+- "@\"<SearchUICommandDelegate>\"16@0:8"
+- "@\"<UIViewControllerAnimatedTransitioning>\"48@0:8@\"UINavigationController\"16q24@\"UIViewController\"32@\"UIViewController\"40"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UINavigationController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"CALayer\"24@0:8@\"SFCardSection\"16"
+- "@\"EKCalendar\"24@0:8@\"EKEventEditViewController\"16"
+- "@\"GEOAddress\"16@0:8"
+- "@\"GEOAddressObject\"16@0:8"
+- "@\"GEOAppleRating\"16@0:8"
+- "@\"GEOAssociatedApp\"16@0:8"
+- "@\"GEOBusinessAssets\"16@0:8"
+- "@\"GEOEVCharger\"16@0:8"
+- "@\"GEOEnclosingPlace\"16@0:8"
+- "@\"GEOEnhancedPlacement\"16@0:8"
+- "@\"GEOEnrichmentData\"16@0:8"
+- "@\"GEOEnrichmentInfo\"16@0:8"
+- "@\"GEOExploreGuides\"16@0:8"
+- "@\"GEOFeatureStyleAttributes\"16@0:8"
+- "@\"GEOHikeSummary\"16@0:8"
+- "@\"GEOInlineRapEnablement\"16@0:8"
+- "@\"GEOLabelGeometry\"16@0:8"
+- "@\"GEOLocalizedString\"16@0:8"
+- "@\"GEOMapItemAdditionalPlaceInfo\"16@0:8"
+- "@\"GEOMapItemClientAttributes\"16@0:8"
+- "@\"GEOMapItemContainedPlace\"16@0:8"
+- "@\"GEOMapItemDetourInfo\"16@0:8"
+- "@\"GEOMapItemIdentifier\"16@0:8"
+- "@\"GEOMapItemPhotosAttribution\"16@0:8"
+- "@\"GEOMapItemPlaceAttribution\"16@0:8"
+- "@\"GEOMapItemReviewsAttribution\"16@0:8"
+- "@\"GEOMapRegion\"16@0:8"
+- "@\"GEOMapRegion\"20@0:8i16"
+- "@\"GEOMessageLink\"16@0:8"
+- "@\"GEOMiniBrowseCategories\"16@0:8"
+- "@\"GEOMuninViewState\"16@0:8"
+- "@\"GEOPDFlyover\"16@0:8"
+- "@\"GEOPDHikeAssociatedInfo\"16@0:8"
+- "@\"GEOPDHikeGeometry\"16@0:8"
+- "@\"GEOPDPlace\"16@0:8"
+- "@\"GEOPDURLData\"16@0:8"
+- "@\"GEOPOIClaim\"16@0:8"
+- "@\"GEOPlace\"16@0:8"
+- "@\"GEOPlaceQuestionnaire\"16@0:8"
+- "@\"GEOPlaceResult\"16@0:8"
+- "@\"GEOPlacecardLayoutData\"16@0:8"
+- "@\"GEOPriceDescription\"16@0:8"
+- "@\"GEORelatedPlaceList\"20@0:8i16"
+- "@\"GEORestaurantFeaturesLink\"16@0:8"
+- "@\"GEOStorefrontInfo\"16@0:8"
+- "@\"GEOStorefrontPresentationInfo\"16@0:8"
+- "@\"GEOStyleAttributes\"16@0:8"
+- "@\"GEOTooltip\"16@0:8"
+- "@\"GEOTrailHead\"16@0:8"
+- "@\"GEOViewportFrame\"16@0:8"
+- "@\"NSArray\"20@0:8I16"
+- "@\"NSArray\"24@0:8@\"SFCardSection\"16"
+- "@\"NSData\"16@0:8"
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSNumber\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSTimeZone\"16@0:8"
+- "@\"NSURL\"16@0:8"
+- "@\"NSURL\"36@0:8{CGSize=dd}16B32"
+- "@\"UIViewController\"24@0:8@\"SFCardSection\"16"
+- "@\"UIViewController\"24@0:8@\"SFSearchResult\"16"
+- "@20@0:8B16"
+- "@20@0:8I16"
+- "@20@0:8i16"
+- "@32@0:8#16#24"
+- "@36@0:8{CGSize=dd}16B32"
+- "@40@0:8{CGSize=dd}16@32"
+- "@48@0:8@16q24@32@40"
+- "@48@0:8{CGSize=dd}16d32@40"
+- "AFUISiriSetupViewControllerDelegate"
+- "AI_OVERVIEW"
+- "ANSWER"
+- "ARCameraSource.applySafetyCrop"
+- "Accuracy auth: %s"
+- "ActionAnalytics: publishing %s"
+- "ActionBar"
+- "ActionBarMenu"
+- "Activating Siri"
+- "AddSticker"
+- "Allowing Read Aloud with %ld tokens"
+- "Allowing summarization"
+- "Always"
+- "AppClipCode"
+- "AppleTV"
+- "Application Screen"
+- "Ask"
+- "AskAcme"
+- "Asked to perform GeoLookup on a track with no associated results"
+- "Asked to perform Identify on a track with no associated results"
+- "Attempt to combine requests with divergent detection types"
+- "Attempting to open a sensitive URL: %s"
+- "B20@0:8I16"
+- "B24@0:8@\"<GEOMapItem>\"16"
+- "B24@0:8@\"CLLocationManager\"16"
+- "B24@0:8@\"SFCardSectionEngagementFeedback\"16"
+- "B24@0:8@\"SFCommand\"16"
+- "B24@0:8@\"SFResultSection\"16"
+- "B24@0:8@\"SFSearchResult\"16"
+- "B32@0:8@\"AFUISiriSetupViewController\"16@\"NSURL\"24"
+- "BCSActionErrorDomain"
+- "BGActivitySessionStarted"
+- "BarCodeResult state: finished"
+- "Beginning search request %s at %f"
+- "Best candidate should be newer than current sample."
+- "Bipartite match failed; produced %ld results when %ld are required."
+- "Boresight is suppressed by CPU timestamp for %s more seconds. Skipping updates for %ld bundles."
+- "Boresight is suppressed by bundle timestamp. Skipping updates for %ld bundles."
+- "CGColor"
+- "CLLocationManagerDelegate"
+- "CVCoordinator ignoring frame %f in state %s"
+- "CVProcessor state queue"
+- "Calendar access not granted"
+- "CalendarConfirmation"
+- "CalendarEdit"
+- "CalendarEvent"
+- "CallbackIdentifier"
+- "Camera Frame Rate"
+- "CameraControl"
+- "CameraInterface"
+- "Can't data detector a non-text detection"
+- "Cannot append data with older timestamp to log"
+- "Cannot append in the wrong order. Consider using `insert(_, replacementFunction:)` instead."
+- "Cannot create ticket"
+- "Cannot satisfy full buffer requirement"
+- "Case 'reverseChronoSequence' cannot be encoded because it is not defined in CodingKeys."
+- "Checking for available Siri voice languages…"
+- "Checking location prompting criterion… | Onboarded: %{bool}d | Existing Authorization: %{bool}d"
+- "CollaborationContactHandles"
+- "CollaborationGroupChatID"
+- "ComponentVersion"
+- "Confidence to cleanup <"
+- "Connectivity status changed to status: %s"
+- "Corners somehow didnt have any points?"
+- "Could find correlated quickActionInfo"
+- "Could not add event to calendar."
+- "Could not create thumbnail image URL from %s"
+- "Could not determine a best language from the full transcript"
+- "Could not extract a start date for the event. Bailing from extracting an event."
+- "Could not extract an end date. Derive one by adding an hour to the start date."
+- "Could not extract or derive an end date at all. This is unexpected."
+- "Could not get corner anchor point."
+- "Could not perform action"
+- "Could not retrieve image"
+- "Could not retrieve quality image"
+- "Could not retrieve text"
+- "Could not start location updates %s"
+- "Crash/Hang/Data Loss"
+- "DEFAULT"
+- "Data type not handled yet: "
+- "DataDetector"
+- "DataDetectorResult"
+- "DataDetectorResult state: started"
+- "Debug gear not visible; not toggling"
+- "DedicatedButton"
+- "Deferring search request %s for rate limiting (it's %f, search again at %f"
+- "Detect Unused Domains"
+- "Detected readable text with: %ld tokens and primary language: %s"
+- "Detected summarizable text of length: %ld"
+- "Detected text was in "
+- "Detection result provided but applies to some future frame"
+- "Did not get any valid text detections from the camera image"
+- "Dot product should not be negative, center anchor must be in front of camera."
+- "EKEventEditViewDelegate"
+- "EXACT_MATCH"
+- "Enable Tap-to-Focus"
+- "Enhancement"
+- "Entity already donated"
+- "Enumerating OCR'ed text…"
+- "Error creating directory at path %s"
+- "Error performing QR code action: %s"
+- "Error removing file at %s"
+- "Error setting the colorSpace for image"
+- "Error summarizing text with error: %s"
+- "Error: Unable to create CGContext for image resizing."
+- "Error: Unable to create CGContext for image rotating."
+- "Error: Unable to create image destination for PNG conversion."
+- "Error: Unable to determine color space for the image."
+- "Error: Unable to finalize image destination."
+- "Event Information"
+- "Event classified: \"%s\" confidence %s"
+- "Event generation failed with error: %s"
+- "EventLLMLookupUtility.preheat took %f seconds"
+- "EventLookupResult"
+- "EventLookupResult finished: false"
+- "Exception during search for %s: %s"
+- "ExtensionIdentifiers"
+- "Extracted an event"
+- "Extracted an event with title: %s, start date: %s, end date: %s, location: %s, notes: %s, url: %s"
+- "Extracted event has potential input or output safety concern."
+- "Factory Settings"
+- "Failed to capture the camera frame or root view for reporting a concern."
+- "Failed to capture the camera frame or root view for sending a dislike."
+- "Failed to capture the camera frame or root view for sending a like."
+- "Failed to check summarization eligibility: %@"
+- "Failed to copy initial attributes while creating pixel buffer"
+- "Failed to create input"
+- "Failed to create input from %ld text boxes during event generation"
+- "Failed to fetch private access token %@"
+- "Failed to generate nonce input data"
+- "Failed to get bundle identifier for default web browser: %@"
+- "Failed to launch Tap-to-Radar"
+- "Failed to lookup track with latest estimate for matchPairs"
+- "Failed to lookup track with latest estimate for unmatchedTracks"
+- "Failed to parse output"
+- "Failed to write file %@"
+- "Feature (New)"
+- "FeatureAvailability"
+- "Feedback Controller"
+- "Fired disappearance timer"
+- "Format not OneComponent8 as expected"
+- "Found %ld overlapping text detections out of %ld detections"
+- "Frame isnt an ARFrame somehow"
+- "FrameEntity written file to %s"
+- "GEOMapItem"
+- "GEOMapItemPhoto"
+- "GMS is not available for event classification."
+- "GMS is not available for summarization."
+- "GeoLocateResult state:localizing"
+- "GeoLocateState state:finished coordinate: CL: "
+- "GeoLookupResult state: finishedresults: ["
+- "GeoLookupResult state: localizing"
+- "GeoLookupResult state: running"
+- "Getting asked to perform an SF punchout command"
+- "Google Image Search is rate limited. There is a minimum required cool down period."
+- "Google Image Search is rate limited. Try again in %s."
+- "GoogleImageSearchKey"
+- "HEIFRepresentationOfImage:format:colorSpace:options:"
+- "Heading not available on this system"
+- "Hide Debug Controls"
+- "History buffer for %s lacking detections; returning latest detection. State: %s"
+- "HomeKitPrimaryResident"
+- "HomePod"
+- "I Didn't Try"
+- "I16@0:8"
+- "INTERNAL"
+- "INVALID_INPUT"
+- "Identified language %s with confidence: %f"
+- "Identified language is in an unsupported language for event detection"
+- "Identified language is not in an unsupported language for event detection"
+- "Identifying event…"
+- "Image search is being rate limited (as agreed upon with "
+- "Image search not available due to GMS use case availability"
+- "ImageContextCoordinator donateContext of type: %s"
+- "ImageSearch"
+- "IncludeDevicePrefixInTitle"
+- "Invalid detection request"
+- "Invalid location"
+- "It could be one of these:"
+- "I’m having trouble connecting to the internet right now."
+- "JPEGRepresentationOfImage:colorSpace:options:"
+- "Location lookup failed: service not running?"
+- "Location updates bailed"
+- "Looking up results…"
+- "MDM profile installed that disables summaries"
+- "MSR does not support non-CW rotation nor ones in non-90 degree increments."
+- "Mac"
+- "MapsAction"
+- "MapsLookup"
+- "MapsResultsClassifier.rank"
+- "Matched pair count: expected %ld but got %ld back. Did matching take too long?"
+- "More results from "
+- "NO_RESULT"
+- "No barcode action"
+- "No behavior graph"
+- "No calendar events found"
+- "No calendar events found in bundle during classification"
+- "No location available for MapsResultsClassifier. Requesting location access…"
+- "No lookup domains "
+- "No metadata available to resume."
+- "No pixelbuffer in frame %f"
+- "No pixelbuffer in storage!"
+- "No results found. Please try a different search."
+- "No searchable understanding available for search request %s"
+- "No single text detector result was long enough"
+- "No text results found"
+- "No valid detected language"
+- "Nominating search for detection from %f"
+- "Not Applicable"
+- "Not enough text to read aloud at "
+- "Not enough tokens to summarize at "
+- "Not expected to run on any cadence."
+- "Not reading out text because it is less than %f%% of the image content: %s"
+- "Not starting location updates because the user has not granted access"
+- "OK"
+- "Once downloaded, the Camera Control will be able to ask "
+- "Optional<TamaleSuppressPostShutterPinActionAction>"
+- "Other Bug"
+- "PRODUCT"
+- "Passed prompting criterion. We should prompt for location."
+- "Performance"
+- "Performing \"%s\""
+- "PinAction show: "
+- "PinContainer"
+- "Playback status is not paused. Restarting from beginning."
+- "Power"
+- "Private Access Token challengeData empty"
+- "PrivateToken token=\""
+- "Pruned some old results at %f: %ld still in cache"
+- "Pushing a view controller: %s"
+- "Q24@0:8@\"UINavigationController\"16"
+- "QRCode"
+- "RAPFlowType"
+- "RELATED_QUERY"
+- "Rarely"
+- "Read Aloud request timed out unexpectedly, likely because we failed to retrieve text detections or sirireaderd is down."
+- "Read Aloud was no longer expected because the state has changed."
+- "ReadAloud"
+- "ReadAloudResult state: started"
+- "RemoteAttachments"
+- "Replay Logging…"
+- "Report a Concern"
+- "Reporting a concern with interaction data: %@"
+- "Results are not available for this person. Please try a different search."
+- "Retrieved %ld paragraph boxes for event extraction"
+- "Retrieved %ld text boxes for event extraction"
+- "Retrieved image search results in %f seconds"
+- "Retrieved lines for event extraction: %s"
+- "Retrieved paragraphs for event extraction: %s"
+- "Retry because request result (%s) is not recommended for rendering for bundle (%s)"
+- "Returning search results for %s"
+- "SENSITIVE_NO_RESULT"
+- "SFFeedbackListener"
+- "SIMILAR_IMAGE"
+- "SIMILAR_IMAGES"
+- "Search %s has been waiting longer than the retry interval for results"
+- "Search results received for %s"
+- "SearchUI is giving us a navigation controller, but we don't expect one."
+- "SearchUICardViewDelegate"
+- "SearchUICommandDelegate"
+- "SearchUIFeedbackDelegate"
+- "SearchUIResultsViewDelegate"
+- "Security"
+- "Selected results of request (%s) for bundle (%s)"
+- "Sending a dislike with interaction data: %@"
+- "Sending a like with interaction data: %@"
+- "Serious Bug"
+- "SessionAnalytics: No event map to publish."
+- "SessionAnalytics: did encounter error"
+- "SessionAnalytics: did perform %s from %s"
+- "SessionAnalytics: did suggest action %s for reason %s"
+- "SessionAnalytics: publishing %s"
+- "Set disappearance timer for %f s %s"
+- "Shutter"
+- "ShutterNoAction"
+- "Siri has voices for the following languages: %s"
+- "Siri helps you find information and get things done. Just speak or type a request using your own words."
+- "Siri onboarding view subtitle"
+- "Siri onboarding view title"
+- "Siri setup view complete; siriEnabled = %{bool}d"
+- "Skipping object with status %s"
+- "Someone should implement this"
+- "Someone tried inserting a garbage value"
+- "Something Isn’t Right"
+- "Something wrong w/ buffer."
+- "Something wrong w/ bundle."
+- "Something wrong w/ image."
+- "Sometimes"
+- "Sorry, something went wrong. Please try again."
+- "Start is clearing boresight suppression state (Bundle time)"
+- "Start is clearing boresight suppression state (CPU time)"
+- "Start search request (%s) for bundle (%s)"
+- "Starting to generate an event"
+- "Starting to observe Siri audio for Read Aloud"
+- "Starting to play Siri audio for Read Aloud: %s with locale identifier: %s and playback identifier: %s"
+- "Stopping Siri audio for Read Aloud for identifier: %s"
+- "Stopping progress updates"
+- "Subject Eligibility"
+- "Subject Selection"
+- "Subject cropping failed: frame not available for the provided bounds"
+- "Summarization had a %s safety classification."
+- "Summarization had an empty safety classification."
+- "Summarization is currently unavailable. Please try again later."
+- "Summarization is not available with this managed configuration"
+- "Summarization timed out after waiting for "
+- "SummarizationClient has determined that this text is not summarizable"
+- "SummarizationResult"
+- "SummarizationResult state: started"
+- "Summarize"
+- "Suppressing parse detector miss to allow searches to complete"
+- "T@\"<GEOAnnotatedItemList>\",R,N,G_annotatedItemList"
+- "T@\"<GEOEncyclopedicInfo>\",R,N,G_encyclopedicInfo"
+- "T@\"<GEOMapItemTransitInfo>\",R,N,G_transitInfo"
+- "T@\"<GEOMapItemVenueInfo>\",R,N,G_venueInfo"
+- "T@\"<GEOTransitAttribution>\",R,N,G_transitAttribution"
+- "T@\"<GEOTransitVehiclePosition>\",R,N,G_transitVehiclePosition"
+- "T@\"GEOAddress\",R,N"
+- "T@\"GEOAppleRating\",R,N,G_overallAppleRating"
+- "T@\"GEOAssociatedApp\",R,N,G_associatedApp"
+- "T@\"GEOBusinessAssets\",R,N"
+- "T@\"GEOEVCharger\",R,N,G_evCharger"
+- "T@\"GEOEnclosingPlace\",R,N,G_enclosingPlace"
+- "T@\"GEOEnhancedPlacement\",R,N,G_enhancedPlacement"
+- "T@\"GEOEnrichmentData\",R,N,G_enrichmentData"
+- "T@\"GEOEnrichmentInfo\",R,N,G_enrichmentInfo"
+- "T@\"GEOExploreGuides\",R,N,G_exploreGuides"
+- "T@\"GEOFeatureStyleAttributes\",R,N,G_styleAttributes"
+- "T@\"GEOHikeSummary\",R,N,G_hikeSummary"
+- "T@\"GEOInlineRapEnablement\",R,N,G_inlineRapEnablement"
+- "T@\"GEOLabelGeometry\",R,N,G_labelGeometry"
+- "T@\"GEOLocalizedString\",R,N"
+- "T@\"GEOMapItemClientAttributes\",R,N,G_clientAttributes"
+- "T@\"GEOMapItemContainedPlace\",R,N,G_containedPlace"
+- "T@\"GEOMapItemDetourInfo\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N,G_identifier"
+- "T@\"GEOMapItemPhotosAttribution\",R,N"
+- "T@\"GEOMapItemPhotosAttribution\",R,N,G_photosAttribution"
+- "T@\"GEOMapItemPlaceAttribution\",R,N,G_attribution"
+- "T@\"GEOMapItemReviewsAttribution\",R,N,G_reviewsAttribution"
+- "T@\"GEOMapRegion\",R,N"
+- "T@\"GEOMessageLink\",R,N,G_messageLink"
+- "T@\"GEOMiniBrowseCategories\",R,N,G_miniBrowseCategories"
+- "T@\"GEOMuninViewState\",R,N,G_muninViewState"
+- "T@\"GEOPDFlyover\",R,N,G_flyover"
+- "T@\"GEOPDHikeAssociatedInfo\",R,N,G_hikeAssociatedInfo"
+- "T@\"GEOPDHikeGeometry\",R,N,G_hikeGeometry"
+- "T@\"GEOPDPlace\",R,N,G_placeData"
+- "T@\"GEOPDURLData\",R,N"
+- "T@\"GEOPOIClaim\",R,N,G_poiClaim"
+- "T@\"GEOPlace\",R,N,G_place"
+- "T@\"GEOPlaceQuestionnaire\",R,N,G_placeQuestionnaire"
+- "T@\"GEOPlaceResult\",R,N,G_placeResult"
+- "T@\"GEOPlacecardLayoutData\",R,N,G_placecardLayoutData"
+- "T@\"GEOPriceDescription\",R,N,G_priceDescription"
+- "T@\"GEORestaurantFeaturesLink\",R,N,G_featureLink"
+- "T@\"GEOStorefrontInfo\",R,N,G_storefrontInfo"
+- "T@\"GEOStorefrontPresentationInfo\",R,N,G_storefrontPresentationInfo"
+- "T@\"GEOStyleAttributes\",R,N,G_walletCategoryStyling"
+- "T@\"GEOStyleAttributes\",R,N,G_walletPlaceStyling"
+- "T@\"GEOTooltip\",R,N,G_tooltip"
+- "T@\"GEOTrailHead\",R,N,G_trailHead"
+- "T@\"GEOViewportFrame\",R,N,G_viewportFrame"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,N,G_accolades"
+- "T@\"NSArray\",R,N,G_additionalPlaceInfos"
+- "T@\"NSArray\",R,N,G_allPhotoAttributions"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryIDs"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryMUIDs"
+- "T@\"NSArray\",R,N,G_alternateSearchableNames"
+- "T@\"NSArray\",R,N,G_amenities"
+- "T@\"NSArray\",R,N,G_appleRatings"
+- "T@\"NSArray\",R,N,G_browseCategories"
+- "T@\"NSArray\",R,N,G_businessHours"
+- "T@\"NSArray\",R,N,G_captionedPhotoAlbums"
+- "T@\"NSArray\",R,N,G_childItems"
+- "T@\"NSArray\",R,N,G_externalActionLinks"
+- "T@\"NSArray\",R,N,G_identifierHistory"
+- "T@\"NSArray\",R,N,G_linkedServices"
+- "T@\"NSArray\",R,N,G_photos"
+- "T@\"NSArray\",R,N,G_placeCollectionPullQuotes"
+- "T@\"NSArray\",R,N,G_placeCollections"
+- "T@\"NSArray\",R,N,G_placeCollectionsIds"
+- "T@\"NSArray\",R,N,G_quickLinks"
+- "T@\"NSArray\",R,N,G_relatedPlaceLists"
+- "T@\"NSArray\",R,N,G_reviews"
+- "T@\"NSArray\",R,N,G_roadAccessPoints"
+- "T@\"NSArray\",R,N,G_searchResultPhotoCarousel"
+- "T@\"NSArray\",R,N,G_secondaryQuickLinks"
+- "T@\"NSArray\",R,N,G_tips"
+- "T@\"NSData\",R,N"
+- "T@\"NSData\",R,N,G_placeDataAsData"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",R,N,G_mapsCategoryMUID"
+- "T@\"NSSet\",R,N,G_alternateIdentifiers"
+- "T@\"NSString\",R,C,N,G_vendorID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,G_bestAvailableCountryCode"
+- "T@\"NSString\",R,N,G_businessURL"
+- "T@\"NSString\",R,N,G_disambiguationName"
+- "T@\"NSString\",R,N,G_flyoverAnnouncementMessage"
+- "T@\"NSString\",R,N,G_iso3166CountryCode"
+- "T@\"NSString\",R,N,G_iso3166SubdivisionCode"
+- "T@\"NSString\",R,N,G_mapsCategoryId"
+- "T@\"NSString\",R,N,G_placeDescription"
+- "T@\"NSString\",R,N,G_poiCategory"
+- "T@\"NSString\",R,N,G_poiPinpointURLString"
+- "T@\"NSString\",R,N,G_poiSurveyURLString"
+- "T@\"NSString\",R,N,G_resultSnippetLocationString"
+- "T@\"NSString\",R,N,G_telephone"
+- "T@\"NSString\",R,N,G_walletCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedString"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedStringLocale"
+- "T@\"NSString\",R,N,G_walletMapsCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedString"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedStringLocale"
+- "T@\"NSTimeZone\",R,N"
+- "T@\"NSURL\",R,C,N,G_providerURL"
+- "T@\"NSURL\",R,C,N,G_webURL"
+- "T@\"NSURL\",R,N"
+- "TB,R,N"
+- "TB,R,N,G_canDownloadMorePhotos"
+- "TB,R,N,G_enableRAPLightweightFeedback"
+- "TB,R,N,G_hasAnyAccolades"
+- "TB,R,N,G_hasAnyAmenities"
+- "TB,R,N,G_hasAppleRatings"
+- "TB,R,N,G_hasAreaHighlightId"
+- "TB,R,N,G_hasAreaInMeters"
+- "TB,R,N,G_hasBrandMUID"
+- "TB,R,N,G_hasBusinessHours"
+- "TB,R,N,G_hasCaptionedPhotoAlbum"
+- "TB,R,N,G_hasCurrentOperatingHours"
+- "TB,R,N,G_hasEVCharger"
+- "TB,R,N,G_hasEnclosingPlace"
+- "TB,R,N,G_hasEncyclopedicInfo"
+- "TB,R,N,G_hasFeatureLink"
+- "TB,R,N,G_hasFlyover"
+- "TB,R,N,G_hasGroundViewLocationId"
+- "TB,R,N,G_hasLinkedServices"
+- "TB,R,N,G_hasMUID"
+- "TB,R,N,G_hasOperatingHours"
+- "TB,R,N,G_hasPOIClaim"
+- "TB,R,N,G_hasPlaceCollectionPullQuotes"
+- "TB,R,N,G_hasPlaceDescription"
+- "TB,R,N,G_hasPlaceQuestionnaire"
+- "TB,R,N,G_hasPriceRange"
+- "TB,R,N,G_hasResolvablePartialInformation"
+- "TB,R,N,G_hasResultProviderID"
+- "TB,R,N,G_hasTelephone"
+- "TB,R,N,G_hasTransit"
+- "TB,R,N,G_hasUserRatingScore"
+- "TB,R,N,G_hasVenueFeatureType"
+- "TB,R,N,G_hasWifiFingerprintConfidence"
+- "TB,R,N,G_hasWifiFingerprintLabelStatusCode"
+- "TB,R,N,G_hasWifiFingerprintLabelType"
+- "TB,R,N,G_isInLinkedPlaceRelationship"
+- "TB,R,N,G_isPartiallyClientized"
+- "TB,R,N,G_isStandaloneBrand"
+- "TB,R,N,G_isTransitDisplayFeature"
+- "TB,R,N,G_needsAttribution"
+- "TB,R,N,G_optsOutOfTelephoneAds"
+- "TB,R,N,G_responseStatusIsIncomplete"
+- "TB,R,N,G_showSuggestAnEditButton"
+- "TB,R,N,GisDisputed"
+- "TB,R,N,GisValid"
+- "TI,R,N,G_maxScoreForPriceRange"
+- "TI,R,N,G_priceRange"
+- "TI,R,N,G_resultSnippetDistanceDisplayThreshold"
+- "TI,R,N,G_sampleSizeForUserRatingScore"
+- "TI,R,N,G_wifiFingerprintConfidence"
+- "TQ,R,N,G_areaHighlightId"
+- "TQ,R,N,G_brandMUID"
+- "TQ,R,N,G_customIconID"
+- "TQ,R,N,G_groundViewLocationId"
+- "TQ,R,N,G_muid"
+- "TQ,R,N,G_openingHoursOptions"
+- "TQ,R,N,G_totalPhotoCount"
+- "Tamale.CVProcessor.batchProcess.inference"
+- "Tamale.Delegate"
+- "Tamale.TrackManager.matchSelectedTracks"
+- "Tamale.TrackManager.matchSelectedTracks.bipartiteMatching"
+- "Tamale.TrackManager.matchSelectedTracks.costMatrix"
+- "Tamale/CVCoordinator.swift"
+- "Tamale/CVDetection.swift"
+- "Tamale/CircularBuffer.swift"
+- "Tamale/FocusSelectionView.swift"
+- "Tamale/SimulatorCameraSource.swift"
+- "Tamale/VisionProcessor.swift"
+- "Tap-to-Radar isn't supported on this platform"
+- "Tapping the Ask button asks "
+- "Tapping the Search button searches "
+- "Task"
+- "Td,R,N"
+- "Td,R,N,G_areaInMeters"
+- "Tf,R,N"
+- "Tf,R,N,G_normalizedUserRatingScore"
+- "Tf,R,N,G_photosMemoryScore"
+- "The preferred Siri language is %s"
+- "There is no existing navigation controller. Create one."
+- "There was no detected transcript"
+- "There were unexpectedly no results."
+- "There's no Siri voice available for the preferred language code. This is unexpected."
+- "There's no metadata to resume."
+- "This image cannot be used."
+- "This should have never happened. How can we have an anchor with no quad?"
+- "This step require a track manager"
+- "Throttling CVCoordinator for system pressure level %s"
+- "Ti,R,N"
+- "Ti,R,N,G_RAPFlowType"
+- "Ti,R,N,G_addressGeocodeAccuracy"
+- "Ti,R,N,G_hikeGeometryElevationModel"
+- "Ti,R,N,G_parsecSectionType"
+- "Ti,R,N,G_placeCategoryType"
+- "Ti,R,N,G_placeDisplayStyle"
+- "Ti,R,N,G_placeDisplayType"
+- "Ti,R,N,G_placeType"
+- "Ti,R,N,G_resultProviderID"
+- "Ti,R,N,G_venueFeatureType"
+- "Ti,R,N,G_wifiFingerprintLabelStatusCode"
+- "Ti,R,N,G_wifiFingerprintLabelType"
+- "Tq,R,N"
+- "Tracks expired: %ld (minScore: %f)"
+- "Translate"
+- "Tried to save a nil image to the new event, early returning"
+- "Trying to start media playback from the beginning"
+- "Type conversion failed"
+- "T{?=dd},R,N"
+- "UI/Usability"
+- "UINavigationControllerDelegate"
+- "Unable"
+- "Unable to construct URL from query items"
+- "Unable to make a matching computation request"
+- "Unable to preheat processor: %s"
+- "Unknown response from GMS availability"
+- "Unmatched count: expected %ld but got %ld back. Did matching take too long?"
+- "Unspecified"
+- "Update timer is already empty"
+- "Updating bundle to %s"
+- "Use case identifier %s is available: %s"
+- "Use case identifier %s is restricted: %s"
+- "VIDEO"
+- "VISearch: lastLocation: "
+- "VKCDataDetectorInfo createQuickActionInfos took %f seconds"
+- "VL Search Service error: %@"
+- "VL Search Service mismatch: bundle (%s) has stale search query identifier (%s)"
+- "VNImageIdealImageSizeProviding"
+- "VisionKitOverlay"
+- "Visual Lookup Information"
+- "Visual Lookup Search Service had an error: "
+- "VisualIntelligenceCameraMinStorefrontScore"
+- "VisualIntelligenceLookup state: finished"
+- "VisualLookup"
+- "Watch"
+- "We failed to capture a high quality frame."
+- "Wrong detection type"
+- "Wrote file to path %s"
+- "Zero filtered results"
+- "[%s / %s] Existing classification had only one result, which is the top result in new multi-result set, with sufficient score. Preserving existing classification"
+- "[%s / %s] New classification has different top result, but previous top result is still contained in result set with sufficient score. Reordering results to preserve existing top result"
+- "[%s / %s] classified with %ld results"
+- "[%s / %s] classified with zero results"
+- "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+- "_RAPFlowType"
+- "_TtC6Tamale10FileWriter"
+- "_TtC6Tamale11BundleActor"
+- "_TtC6Tamale11SPRTTrigger"
+- "_TtC6Tamale12DetectionLog"
+- "_TtC6Tamale12TrackManager"
+- "_TtC6Tamale13BundleManager"
+- "_TtC6Tamale13CVCoordinator"
+- "_TtC6Tamale14ObservableSize"
+- "_TtC6Tamale15ActionAnalytics"
+- "_TtC6Tamale15VisionProcessor"
+- "_TtC6Tamale16LocationsHandler"
+- "_TtC6Tamale16SessionAnalytics"
+- "_TtC6Tamale17ObservableDrillIn"
+- "_TtC6Tamale18BCSActionContainer"
+- "_TtC6Tamale18CVTrackedDetection"
+- "_TtC6Tamale18FeedbackController"
+- "_TtC6Tamale18FocusSelectionArea"
+- "_TtC6Tamale19AppEntitiesProvider"
+- "_TtC6Tamale19ConnectivityUtility"
+- "_TtC6Tamale19FocusSelectionPoint"
+- "_TtC6Tamale19UserDefaultsUtility"
+- "_TtC6Tamale19WandVFXOverlayModel"
+- "_TtC6Tamale24BCSDetectedCodeContainer"
+- "_TtC6Tamale24SiriStreamingVoicePlayer"
+- "_TtC6Tamale25AskAcmeRequirementManager"
+- "_TtC6Tamale26SecureNavigationController"
+- "_TtC6Tamale28GoogleImageSearchRateLimiter"
+- "_TtC6Tamale28SiriVoiceAvailabilityUtility"
+- "_TtC6Tamale31VisualIntelligenceSearchService"
+- "_TtC6Tamale36StreamingVisualIntelligenceProcessor"
+- "_TtC6Tamale9GeoLookup"
+- "_TtC6Tamale9M2MHandle"
+- "_TtC6TamaleP33_5B1486948597A68D0749D88DF4EE5AEA16BundleClassifier"
+- "_TtC6TamaleP33_C9ADE6EF0154732DC4BAAB5D2D72EB8C24CLHeadingUpdatePublisher"
+- "_TtCC6Tamale14ARCameraSourceP33_53E8A0D3DC629A46C4F75C275010103612ARQuadAnchor"
+- "_TtCV6Tamale11DrillInHost11Coordinator"
+- "_TtCV6Tamale14SearchCardView11Coordinator"
+- "_TtCV6Tamale23EventEditViewController11Coordinator"
+- "_TtCV6Tamale23SiriSetupViewControllerP33_801190BADA2CE0837A9561ED0AAB3DD18Delegate"
+- "_TtCV6Tamale9Lens_ItemP33_C430B055151DC7398ADCB849C6FDA0C513_StorageClass"
+- "__vfx_script_wand_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475A"
+- "__vfx_script_wand_graph_60FD312B_BD15_40F5_A712_1FAA290862F8"
+- "__vfx_script_wand_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773"
+- "__vfx_script_wand_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68"
+- "__vfx_script_wand_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1F"
+- "__vfx_script_wand_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FA"
+- "__vfx_script_wand_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179"
+- "__vfx_script_wand_particleInit_27"
+- "__vfx_script_wand_particleInit_39"
+- "__vfx_script_wand_particleUpdate_21"
+- "__vfx_script_wand_particleUpdate_41"
+- "__vfx_script_wand_particleUpdate_45"
+- "_a11YLabel"
+- "_accolades"
+- "_additionalPlaceInfos"
+- "_addressGeocodeAccuracy"
+- "_allPhotoAttributions"
+- "_alternateIdentifiers"
+- "_alternateMapsCategoryIDs"
+- "_alternateMapsCategoryMUIDs"
+- "_alternateSearchableNames"
+- "_amenities"
+- "_annotatedItemList"
+- "_appleRatings"
+- "_arCameraSourceRecording"
+- "_arCameraSourceReplay"
+- "_areaHighlightId"
+- "_areaInMeters"
+- "_arrivalMapRegionForTransportType:"
+- "_asPlaceInfo"
+- "_associatedApp"
+- "_attribution"
+- "_backgroundActivity"
+- "_badgeAttributes"
+- "_bestAvailableCountryCode"
+- "_bestAvatarBrandIconURLForSize:allowSmaller:"
+- "_bestHeroBrandIconURLForSize:allowSmaller:"
+- "_bestNavbarBrandIconURLForSize:allowSmaller:"
+- "_boresightClosestAndScore"
+- "_brandMUID"
+- "_browseCategories"
+- "_businessHours"
+- "_businessURL"
+- "_cameraController"
+- "_cameraControlsDisabled"
+- "_canDownloadMorePhotos"
+- "_captionedPhotoAlbums"
+- "_childItems"
+- "_clientAttributes"
+- "_connectionStatus"
+- "_containedPlace"
+- "_coordinate"
+- "_couldBeConnectedToInternet"
+- "_count"
+- "_customIconID"
+- "_detectionLog"
+- "_disambiguationName"
+- "_domainName"
+- "_enableRAPLightweightFeedback"
+- "_enclosingPlace"
+- "_encyclopedicInfo"
+- "_endTime"
+- "_enhancedPlacement"
+- "_enrichmentData"
+- "_enrichmentInfo"
+- "_errorCount"
+- "_evCharger"
+- "_exploreGuides"
+- "_externalActionLinks"
+- "_faviconBytes"
+- "_faviconBytesType"
+- "_faviconURL"
+- "_fbkEvaluationController"
+- "_featureLink"
+- "_firstRelatedPlaceListForType:"
+- "_flyover"
+- "_flyoverAnnouncementMessage"
+- "_groundViewLocationId"
+- "_hasAnyAccolades"
+- "_hasAnyAmenities"
+- "_hasAppleRatings"
+- "_hasAreaHighlightId"
+- "_hasAreaInMeters"
+- "_hasBrandMUID"
+- "_hasBusinessHours"
+- "_hasCaptionedPhotoAlbum"
+- "_hasCellularConnection"
+- "_hasCurrentOperatingHours"
+- "_hasEVCharger"
+- "_hasEnclosingPlace"
+- "_hasEncyclopedicInfo"
+- "_hasFeatureLink"
+- "_hasFlyover"
+- "_hasGroundViewLocationId"
+- "_hasLinkedServices"
+- "_hasLocalizedCategoryNamesForType:"
+- "_hasMUID"
+- "_hasOperatingHours"
+- "_hasPOIClaim"
+- "_hasPlaceCollectionPullQuotes"
+- "_hasPlaceDescription"
+- "_hasPlaceQuestionnaire"
+- "_hasPriceDescription"
+- "_hasPriceRange"
+- "_hasResolvablePartialInformation"
+- "_hasResultProviderID"
+- "_hasTelephone"
+- "_hasTransit"
+- "_hasUserRatingScore"
+- "_hasVenueFeatureType"
+- "_hasWifiFingerprintConfidence"
+- "_hasWifiFingerprintLabelStatusCode"
+- "_hasWifiFingerprintLabelType"
+- "_heading"
+- "_hikeAssociatedInfo"
+- "_hikeGeometry"
+- "_hikeGeometryElevationModel"
+- "_hikeSummary"
+- "_identifier"
+- "_identifierHistory"
+- "_imageFromRect:"
+- "_imageThumbnail"
+- "_inlineRapEnablement"
+- "_isInLinkedPlaceRelationship"
+- "_isPartiallyClientized"
+- "_isPlaying"
+- "_isStandaloneBrand"
+- "_isStationary"
+- "_isTransitDisplayFeature"
+- "_iso3166CountryCode"
+- "_iso3166SubdivisionCode"
+- "_itemType"
+- "_labelGeometry"
+- "_lastLocation"
+- "_lastLocationAccessRequestDate"
+- "_lastResetDate"
+- "_latestFrame"
+- "_latestMetadata"
+- "_latestPlaybackIdentifier"
+- "_linkedServices"
+- "_localizedCategoryNamesForType:"
+- "_mapItemBySettingIsTransitDisplayFeature:"
+- "_mapItemByStrippingOptionalData"
+- "_mapsCategoryId"
+- "_mapsCategoryMUID"
+- "_maxScoreForPriceRange"
+- "_messageLink"
+- "_miniBrowseCategories"
+- "_montaraRestricted"
+- "_muid"
+- "_muninViewState"
+- "_needsAttribution"
+- "_normalizedUserRatingScore"
+- "_openingHoursOptions"
+- "_optsOutOfTelephoneAds"
+- "_overallAppleRating"
+- "_parsecSectionType"
+- "_performedActionCounts"
+- "_photos"
+- "_photosAttribution"
+- "_photosMemoryScore"
+- "_place"
+- "_placeCategoryType"
+- "_placeCollectionPullQuotes"
+- "_placeCollections"
+- "_placeCollectionsIds"
+- "_placeData"
+- "_placeDataAsData"
+- "_placeDescription"
+- "_placeDisplayStyle"
+- "_placeDisplayType"
+- "_placeQuestionnaire"
+- "_placeResult"
+- "_placeType"
+- "_placecardLayoutData"
+- "_playbackController"
+- "_poiCategory"
+- "_poiClaim"
+- "_poiPinpointURLString"
+- "_poiSurveyURLString"
+- "_priceDescription"
+- "_priceRange"
+- "_priceRangeString"
+- "_progressUpdateTimer"
+- "_providerURL"
+- "_quickLinks"
+- "_referrerURL"
+- "_relatedPlaceListForComponentIdentifier:"
+- "_relatedPlaceLists"
+- "_responseStatusIsIncomplete"
+- "_resultProviderID"
+- "_resultSnippetDistanceDisplayThreshold"
+- "_resultSnippetLocationString"
+- "_reviews"
+- "_reviewsAttribution"
+- "_reviewsDisplayName"
+- "_roadAccessPoints"
+- "_sampleSizeForUserRatingScore"
+- "_searchResultPhotoCarousel"
+- "_searchViewDrillIn"
+- "_secondaryQuickLinks"
+- "_setBuiltinTransitionStyle:"
+- "_setEphemeral:"
+- "_setNetworkAttributionApplicationBundleIdentifier:"
+- "_setOutputMode:"
+- "_setOverrideVibrancyTrait:"
+- "_shoppableBadge"
+- "_showSiriOnboarding"
+- "_showSuggestAnEditButton"
+- "_size"
+- "_spokenAddressForLocale:"
+- "_startTime"
+- "_staticPbuf"
+- "_storefrontInfo"
+- "_storefrontPresentationInfo"
+- "_styleAttributes"
+- "_suggestedActions"
+- "_systemPressureLevel"
+- "_systemPressureLevelOverride"
+- "_systemPressureObservation"
+- "_systemZoomSlider"
+- "_targetZoomFactor"
+- "_telephone"
+- "_tips"
+- "_title"
+- "_tooltip"
+- "_totalPhotoCount"
+- "_trailHead"
+- "_transitAttribution"
+- "_transitInfo"
+- "_transitVehiclePosition"
+- "_updatesStarted"
+- "_vendorID"
+- "_venueFeatureType"
+- "_venueInfo"
+- "_videoDuration"
+- "_viewportFrame"
+- "_walletCategoryIdentifier"
+- "_walletCategoryLocalizedString"
+- "_walletCategoryLocalizedStringLocale"
+- "_walletCategoryStyling"
+- "_walletMapsCategoryIdentifier"
+- "_walletPlaceLocalizedString"
+- "_walletPlaceLocalizedStringLocale"
+- "_walletPlaceStyling"
+- "_webURL"
+- "_wifiFingerprintConfidence"
+- "_wifiFingerprintLabelStatusCode"
+- "_wifiFingerprintLabelType"
+- "_zoomCaptureDevice"
+- "_zoomGestureInitialZoomFactor"
+- "_zoomGestureState"
+- "a11y_label"
+- "accolades"
+- "accuracyAuthorization"
+- "actionDataIndex"
+- "actionIconName"
+- "actionPickerItems=["
+- "action_url"
+- "activateFromSource:"
+- "activeSiriDaemonSession"
+- "add-event-calendar-card"
+- "add-event-calendar-card-address-label"
+- "add-event-calendar-card-date-time"
+- "add-event-calendar-card-title"
+- "add-event-completed-button"
+- "add-event-edit-button"
+- "add-event-latency-label"
+- "add-event-schedule-button"
+- "add-event-title-label"
+- "addAttachment:"
+- "additionalPlaceInfos"
+- "addressDictionary"
+- "addressGeocodeAccuracy"
+- "addressObject"
+- "all"
+- "allDay"
+- "allPhotoAttributions"
+- "ally_label"
+- "alternateDisambiguationPinStyling"
+- "alternateIdentifiers"
+- "alternateMapsCategoryIDs"
+- "alternateMapsCategoryMUIDs"
+- "alternateSearchableNames"
+- "alwaysSuggestedActions"
+- "amenities"
+- "analysisWithDocumentObservation:request:"
+- "anchorToQuadAnchorInternal"
+- "annotatedItemList"
+- "answer"
+- "answers"
+- "apple.intelligence"
+- "apple.nowplaying"
+- "appleRatings"
+- "application/x-protobuf"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areaHighlightId"
+- "areaInMeters"
+- "areasOfInterest"
+- "aspectRatioHandling"
+- "assistantIsEnabled"
+- "associatedApp"
+- "associatedValue"
+- "attribution"
+- "author"
+- "authorizationInfo"
+- "authorizationStateContinuation"
+- "authorizationStateUpdates"
+- "authorizationStatus"
+- "background"
+- "backgroundJoeColor"
+- "badge_attributes"
+- "badge_url"
+- "behaviorGraph"
+- "bestAvailableCountryCode"
+- "bestPhotoForFrameSize:displayScale:options:"
+- "bestPhotoForSize:allowSmaller:"
+- "bestPhotoForSize:options:"
+- "blockDuration"
+- "blockStartTime"
+- "blocksWithTypes:inRegion:"
+- "boolForKey:"
+- "boresightAlgorithm"
+- "boresightEligibilityPolicy"
+- "boresightInitialPosition"
+- "boresightSuppressedUntilBundleTime"
+- "boresightSuppressedUntilCpuTime"
+- "bottomLeft"
+- "bottomRight"
+- "boundingBox"
+- "boundingBoxInViewCoordinates"
+- "boundingQuad"
+- "boundingRectWithSize:options:attributes:context:"
+- "box"
+- "brandMUID"
+- "browseCategories"
+- "bundleDisappearanceTimer"
+- "bundleIdToBundleClassifier"
+- "bundleIdentifier"
+- "bundleManager"
+- "bundles"
+- "bundlesStreamContinuations"
+- "businessAssets"
+- "businessHours"
+- "businessProvided"
+- "businessURL"
+- "buttonItems"
+- "buttonType"
+- "bytes"
+- "cachedIntermediate"
+- "cachingRadiusMeters"
+- "callManager"
+- "camera_frame.png"
+- "canDownloadMorePhotos"
+- "canPerformCommand:"
+- "caption"
+- "captionedPhotoAlbums"
+- "captureUserAction:target:value:"
+- "cardSectionViewDidInvalidateSize:"
+- "cardSectionViewDidInvalidateSize:animate:"
+- "cardSectionViewDidSelectPreferredPunchoutIndex:"
+- "cardSections"
+- "cardViewController:preferredContentSizeDidChange:animated:"
+- "cardViewControllerForCard:feedbackDelegate:"
+- "cardViewDidAppear:"
+- "cardViewDidDisappear:"
+- "center"
+- "centerCoordinate"
+- "centerLat"
+- "centerLng"
+- "center_x"
+- "center_y"
+- "challengeData"
+- "checkmark.circle"
+- "childItems"
+- "childNodeWithName:"
+- "childOverlapPercentageForBundleThreshold"
+- "children"
+- "classificationOverlayType"
+- "classifications"
+- "clientAttributes"
+- "clientLocation"
+- "closeButtonTapped"
+- "closeFile"
+- "code"
+- "com.apple.Settings.AppleIntelligence"
+- "com.apple.VisualIntelligence.SiriVoiceAvailabilityUtility"
+- "com.apple.VisualIntelligenceCamera.ImageSearch"
+- "com.apple.VisualIntelligenceCamera.action"
+- "com.apple.VisualIntelligenceCamera.session"
+- "com.apple.mobilemail"
+- "commandDelegate"
+- "completion"
+- "computeMatchingForCostMatrix:withRowCount:columnCount:maxIters:minimumNonzeroPaddingValue:"
+- "confidenceToCleanupThreshold"
+- "configureWithTransparentBackground"
+- "configuredDetectionTypes"
+- "contactAddressType"
+- "contactIsMe"
+- "contactName"
+- "contactSpokenName"
+- "containedPlace"
+- "contentsWithTypes:"
+- "copy"
+- "corners"
+- "correlationIdentifier"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createQuickActionInfosWithCompletion:"
+- "currency_code"
+- "currentModuleLayoutEntry"
+- "currentRequestIdentifier"
+- "currentResults"
+- "currentSystemPressureLevel"
+- "customIconID"
+- "customInteractionsForCardSection:"
+- "customLayerForCardSection:"
+- "customViewControllerForCardSection:"
+- "customViewControllerForResult:"
+- "cvCoordinator"
+- "data"
+- "data-detector-result-button"
+- "data-detector-result-masthead"
+- "dataDetectorInfo"
+- "dataDetectors"
+- "dataTypeDisplayString=\""
+- "dateCreated"
+- "debug-settings-button"
+- "decodedAction"
+- "defaultActionTarget="
+- "defaultApplicationForCategory:error:"
+- "defaultCalendarForNewEvents"
+- "defaultConfiguration"
+- "defaultForKey:defaultValue:"
+- "defaultMetrics"
+- "defaultPhotoOptionsWithAllowSmaller:"
+- "defaultWorkspace"
+- "detectCode"
+- "detectUnusedDomains"
+- "detectedCode"
+- "detection arKit coreLocation "
+- "detourInfo"
+- "didAppendLateSections:"
+- "didBeginScrollingResults"
+- "didChangeExpansionStateForSection:expanded:"
+- "didClearInput:"
+- "didEndSearch:"
+- "didEngageCardSection:"
+- "didEngageResult:"
+- "didEngageSection:"
+- "didEngageSuggestion:"
+- "didErrorOccur:"
+- "didGoToSearch:"
+- "didGoToSite:"
+- "didGradeLookupHintRelevancy:"
+- "didGradeResultRelevancy:"
+- "didPerformCommand:"
+- "didRankSections:"
+- "didReceiveResultsAfterTimeout:"
+- "didReportUserResponseFeedback:"
+- "didScrollPastBottomOfContent"
+- "didStartSearch:"
+- "didSubmitUserReportFeedback:"
+- "didTapInEmptyRegion"
+- "didUpdateContentScrolledOffScreenStatus:animated:"
+- "didUpdateKeyboardFocusToResult:cardSection:"
+- "diffusion"
+- "disableSiriActivationRequestedBySiriSetupViewController:"
+- "disambiguationName"
+- "disclaimerText"
+- "dismissSiriSetupViewController:"
+- "dismissViewControllerAnimated:completion:"
+- "displayFullScreenPhotoGallery"
+- "displayMapRegion"
+- "displayMapRegionOrNil"
+- "displayMaxZoom"
+- "displayMinZoom"
+- "disputed"
+- "distanceFromLocation:"
+- "domain"
+- "domain_name"
+- "domains"
+- "dominantLanguage"
+- "elements"
+- "emitterWand"
+- "enableAlternativeDisambiguationPinStyling"
+- "enableRAPLightweightFeedback"
+- "enableTelemetry=YES"
+- "enable_debug_logging"
+- "enable_private_access_token_auth"
+- "enclosingPlace"
+- "encodedData"
+- "encyclopedicInfo"
+- "endDate"
+- "endMediaSessionForIdentifier:"
+- "enhancedPlacement"
+- "enrichmentData"
+- "enrichmentInfo"
+- "entities"
+- "enumerateContentsWithTypes:usingBlock:"
+- "error writing file"
+- "error_message"
+- "evCharger"
+- "evaluateWithObject:"
+- "eventDate"
+- "eventEditViewController:didCompleteWithAction:"
+- "eventEditViewControllerDefaultCalendarForNewEvents:"
+- "eventIdentifier"
+- "eventName"
+- "eventStore"
+- "eventTitle"
+- "eventWithEventStore:"
+- "eventWithIdentifier:"
+- "exact_match"
+- "exitAfterVideoReplay"
+- "exploreGuides"
+- "explore_grid"
+- "externalActionLinks"
+- "externalTransitStationCode"
+- "fallbackDisplayLabel"
+- "fallbackGlyphName"
+- "favicon_bytes"
+- "favicon_bytes_type"
+- "favicon_url"
+- "feature-onboarding-overlay-cancellation-button"
+- "feature-onboarding-overlay-continue-button"
+- "feature-onboarding-overlay-description"
+- "feature-onboarding-overlay-tos-privacy"
+- "featureLink"
+- "feedbackWithDictionaryRepresentation:"
+- "fetchPrivateAccessTokenHeader()"
+- "fetchTokenWithQueue:completionHandler:"
+- "file written successfully %s, extension: %s, uttype: %s"
+- "fileExistsAtPath:isDirectory:"
+- "fileHandle"
+- "fileHandleForWritingToURL:error:"
+- "filterUnique is eliminating duplicate %s: %s"
+- "first location set: %@"
+- "floatValue"
+- "flyover"
+- "flyoverAnnouncementMessage"
+- "focusSelectionEnabled"
+- "for server lookup"
+- "forceUpdatePowerUsage:"
+- "frame-timestamp: "
+- "frame.rotationAngle.radians: %f"
+- "frameSender"
+- "from instance mask request"
+- "frontmostAudioOrVideoCall"
+- "full-log-archive"
+- "fullAddressNoCurrentCountryWithMultiline:"
+- "generateDataDetectorInfoWithTypes:"
+- "generateDataDetectorInfoWithTypes:unfiltered:"
+- "generateMaskedImageOfInstances:fromRequestHandler:inPlace:croppedToInstancesExtent:error:"
+- "geo-lookup-category-label"
+- "geo-lookup-disambiguation-option"
+- "geo-lookup-disambiguation-title-label"
+- "geo-lookup-hours-label"
+- "geo-lookup-price-range-label"
+- "geo-lookup-rating-apple-label"
+- "geo-lookup-rating-standard-label"
+- "geo-lookup-rating-standard-label-with-provider"
+- "geo-lookup-result-image"
+- "geo-lookup-result-image-placeholder"
+- "geo-lookup-result-item-view"
+- "geo-lookup-snippet-row"
+- "geo-lookup-title-label"
+- "geoAddress"
+- "geoFenceMapRegion"
+- "geoFenceMapRegionOrNil"
+- "geoMapItemIdentifier"
+- "getCRDocumentOutputRegion"
+- "getLines"
+- "getPlaybackStatusForIdentifier:"
+- "getQualityFrame"
+- "getQualityFrame failed"
+- "getQualityFrame()"
+- "getRecognizedLanguages"
+- "getTranscript"
+- "getUserActivityForResult:completionHandler:"
+- "groundViewLocationId"
+- "groupType"
+- "groupedParagraphBlocksFromParagraphs:"
+- "hand.thumbsdown.fill"
+- "hand.thumbsup.fill"
+- "handleRequest(_:frame:pixelBuffer:)"
+- "hapticParameters"
+- "hasAnyAccolades"
+- "hasAnyAmenities"
+- "hasAppleRatings"
+- "hasAreaHighlightId"
+- "hasAreaInMeters"
+- "hasBrandMUID"
+- "hasBusinessHours"
+- "hasCaptionedPhotoAlbum"
+- "hasCurrentOperatingHours"
+- "hasCustomViewControllerForResult:"
+- "hasDisplayMaxZoom"
+- "hasDisplayMinZoom"
+- "hasEVCharger"
+- "hasEnclosingPlace"
+- "hasEncyclopedicInfo"
+- "hasExpiredComponents"
+- "hasFeatureLink"
+- "hasFlyover"
+- "hasGroundViewLocationId"
+- "hasLinkedServices"
+- "hasMUID"
+- "hasOnboardedACME"
+- "hasOnboardedImageSearch"
+- "hasOperatingHours"
+- "hasPOIClaim"
+- "hasPlaceCollectionPullQuotes"
+- "hasPlaceDescription"
+- "hasPlaceQuestionnaire"
+- "hasPresentedGeoLookupFollowUpPrompt"
+- "hasPresentedMontaraRestrictionWarning"
+- "hasPriceRange"
+- "hasResolvablePartialInformation"
+- "hasResultProviderID"
+- "hasTelephone"
+- "hasTransit"
+- "hasUserRatingScore"
+- "hasVenueCapacity"
+- "hasVenueFeatureType"
+- "hasWifiFingerprintConfidence"
+- "hasWifiFingerprintLabelStatusCode"
+- "hasWifiFingerprintLabelType"
+- "headingAvailable"
+- "headingContinuation"
+- "headingUpdatePublisher"
+- "helpAnchor"
+- "highQuality"
+- "hikeAssociatedInfo"
+- "hikeGeometry"
+- "hikeGeometryElevationModel"
+- "hikeSummary"
+- "historyBuffer"
+- "horizontalAccuracy"
+- "https://lensfrontend-pa.googleapis.com/v1/visualdata?key=AIzaSyBQyYY2WhZfEaaA_clNLIR7zWmm4b0SVC4"
+- "https://policies.google.com/privacy"
+- "https://policies.google.com/terms"
+- "https://www.google.com"
+- "i16@0:8"
+- "iPad"
+- "iPhone"
+- "id"
+- "idealDimension"
+- "idealImageFormat"
+- "idealOrientation"
+- "identifierHistory"
+- "idleTimeBeforeUnblock"
+- "image-search-card-view"
+- "image-search-card-view-attribution-title"
+- "image-search-card-view-favicon"
+- "image-search-card-view-title-label"
+- "image-search-related-searches-card-view"
+- "image-search-related-searches-card-view-button"
+- "imageForDescriptor:"
+- "imageRegion"
+- "image_action_url"
+- "image_bytes"
+- "image_source_bytes"
+- "image_source_type"
+- "image_source_url"
+- "image_thumbnail"
+- "impactOccurred"
+- "inLinkedPlaceRelationship"
+- "index"
+- "inflightSearches"
+- "initForKnownIssuerWithChallenge:"
+- "initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithBundleIdentifier:"
+- "initWithCGColor:"
+- "initWithCGImage:orientation:options:"
+- "initWithCVPixelBuffer:orientation:options:"
+- "initWithConfiguration:"
+- "initWithContentRect:"
+- "initWithFilepath:"
+- "initWithGEOCoordinate:isUserLocation:"
+- "initWithGEOMapItemIdentifier:"
+- "initWithGeoMapItem:isPlaceHolderPlace:"
+- "initWithHeading:accuracy:"
+- "initWithInitialSize:"
+- "initWithInteger:"
+- "initWithLatitude:longitude:"
+- "initWithMapItem:localizedHoursStringOptions:conciseStyle:openAt:"
+- "initWithNavigationBarClass:toolbarClass:"
+- "initWithNibName:bundle:"
+- "initWithNormalizedBoundingBox:size:"
+- "initWithPalette:"
+- "initWithRootViewController:"
+- "initWithSize:format:"
+- "initWithSize:scale:"
+- "initWithString:"
+- "initWithStyle:"
+- "initWithText:coordinates:"
+- "initWithText:coordinates:confidence:"
+- "initWithTextBoxes:paragraphBoxes:paragraphGroupBoxes:blockBoxes:options:"
+- "initWithTypes:error:"
+- "initWithURL:configuration:"
+- "initWithUnit:"
+- "initWithX:y:"
+- "inlineCard"
+- "inlineRapEnablement"
+- "inputStorage"
+- "instanceMask"
+- "interactionStartedFeedback"
+- "internalAvailableLanguageCodes"
+- "internalErrorString"
+- "internalPreferredSiriOutputVoiceLanguageCode"
+- "internalQueue"
+- "intersection index: %ld, score: %f"
+- "isBackgroundJoeColorCurated"
+- "isDataDetectorExactMatch"
+- "isDisputed"
+- "isEqualToMapItem:"
+- "isEventAllDay"
+- "isExternalIntelligenceAllowed"
+- "isFlaggedForSensitivity"
+- "isLeaf"
+- "isLocationShiftRequiredForLocation:"
+- "isOrientationAgnostic"
+- "isPartiallyClientized"
+- "isRunning"
+- "isSimulating"
+- "isStandAloneBrand"
+- "isTransitDisplayFeature"
+- "isUpdating"
+- "isValid"
+- "isVisualIntelligenceMetadataSupported"
+- "isVisualIntelligenceSummaryAllowed"
+- "iso3166CountryCode"
+- "iso3166SubdivisionCode"
+- "itemProvider loaded"
+- "item_type"
+- "items"
+- "iterateGroundViewsWithBlock:"
+- "jpeg"
+- "knowledgeGraphID"
+- "labelCoordinate"
+- "labelGeometry"
+- "labels"
+- "language"
+- "languageCode"
+- "languages"
+- "largestPhoto"
+- "lastConfidence"
+- "lastExecutionTime"
+- "lastQueryDispatchTime"
+- "lastRequestTime"
+- "lat"
+- "latestDetection"
+- "latestObservationTimestamp"
+- "lens.ExploreGrid"
+- "lens.FetchVisualDataRequest"
+- "lens.FetchVisualDataResponse"
+- "lens.ImageThumbnail"
+- "lens.NormalizedBox"
+- "lens.RelatedSearch"
+- "lens.RequestConfig"
+- "lens.SearchResult"
+- "lens.ShoppableBadge"
+- "licenseDescription"
+- "licenseURL"
+- "lifeCycleTrigger"
+- "lines"
+- "linkedServices"
+- "llm_answer"
+- "lng"
+- "localRouteController"
+- "locale"
+- "localizedErrorString"
+- "localizedFailureReason"
+- "localizedOperatingHours"
+- "localizedRecoverySuggestion"
+- "localizedStringForDate:relativeToDate:"
+- "location"
+- "location.pin.point.of.interest"
+- "locationManager:didChangeAuthorizationStatus:"
+- "locationManager:didDetermineState:forRegion:"
+- "locationManager:didEnterRegion:"
+- "locationManager:didExitRegion:"
+- "locationManager:didFailRangingBeaconsForConstraint:error:"
+- "locationManager:didFailWithError:"
+- "locationManager:didFinishDeferredUpdatesWithError:"
+- "locationManager:didRangeBeacons:inRegion:"
+- "locationManager:didRangeBeacons:satisfyingConstraint:"
+- "locationManager:didStartMonitoringForRegion:"
+- "locationManager:didUpdateHeading:"
+- "locationManager:didUpdateLocations:"
+- "locationManager:didUpdateToLocation:fromLocation:"
+- "locationManager:didVisit:"
+- "locationManager:monitoringDidFailForRegion:withError:"
+- "locationManager:rangingBeaconsDidFailForRegion:withError:"
+- "locationManagerDidChangeAuthorization:"
+- "locationManagerDidPauseLocationUpdates:"
+- "locationManagerDidResumeLocationUpdates:"
+- "locationManagerShouldDisplayHeadingCalibration:"
+- "lockupViewEngagedForAppIdentifier:"
+- "lockupViewForAppIdentifier:didChangeState:"
+- "lockupViewForAppIdentifier:didFailRequestWithError:"
+- "log-archive-only"
+- "logURL"
+- "lookup(results:)"
+- "lower upper "
+- "m2m"
+- "manager"
+- "mapDisplayType"
+- "mapsCategoryId"
+- "mapsCategoryMUID"
+- "matchSelectedTracks: duplicates found in estimates. Removed %ld ."
+- "matchSelectedTracks: duplicates found in tracks! original %ld, deduped %ld, set %ld"
+- "matcher"
+- "matches"
+- "matchesInString:options:range:"
+- "matchingComputationRequestProcessingTask"
+- "matchingComputationRequestStream"
+- "matchingComputationRequestStreamContinuation"
+- "matchingComputationResultStream"
+- "matchingComputationResultStreamContinuation"
+- "maxScoreForPriceRange"
+- "maximumIntersectionOverUnion"
+- "maximumNumberOfRequestsInBlockingTimeInterval"
+- "messageLink"
+- "minAvailableVideoZoomFactor"
+- "miniBrowseCategories"
+- "minus.arrow.trianglehead.counterclockwise"
+- "mobileCountryCode"
+- "mobileNetworkCode"
+- "mode"
+- "monitor"
+- "montaraMDMRestricted"
+- "mrcObject"
+- "muid"
+- "muninViewState"
+- "navigationBar"
+- "navigationController:animationControllerForOperation:fromViewController:toViewController:"
+- "navigationController:didShowViewController:animated:"
+- "navigationController:interactionControllerForAnimationController:"
+- "navigationController:willShowViewController:animated:"
+- "navigationControllerPreferredInterfaceOrientationForPresentation:"
+- "navigationControllerSupportedInterfaceOrientations:"
+- "navigationItem"
+- "needsAttribution"
+- "needsObfuscationWhenRenderedInFullScreen"
+- "no image data"
+- "nonceInput data failed"
+- "none"
+- "normalizedPointInSensorCoordinates: %s"
+- "normalizedPointInViewCoordinates: %s"
+- "normalizedUserRatingScore"
+- "not a pixel buffer"
+- "notes"
+- "notesBullets"
+- "num_inline_items"
+- "numberOfRatingsUsedForScore"
+- "objectDetectionCachedResult"
+- "objectDetectionUprightExifOrientation"
+- "objects"
+- "offlineDownloadRegion"
+- "onAppear"
+- "onForegroundedForOneSecond"
+- "openInMapsWithLaunchOptions:"
+- "openSensitiveURL:withOptions:"
+- "openSiriRequestedBySiriSetupViewController:"
+- "openingHoursOptions"
+- "options"
+- "optsOutOfTelephoneAds"
+- "originTimestamp"
+- "outputVoice"
+- "overallRating"
+- "parseCodeWithCompletion:"
+- "parsecSectionType"
+- "passkeyAssertion"
+- "passkeyRegistration"
+- "payload"
+- "payloadDataType="
+- "pendingRequests"
+- "percentage"
+- "performAsCurrentTraitCollection:"
+- "performCommand:"
+- "performPlaybackForAudioData:completionHandler:"
+- "performRecognizeDocumentsRequest"
+- "performRecognizeDocumentsRequest encountered error: %s"
+- "performRecognizeDocumentsRequest encountered no vkRequest error"
+- "performRecognizeDocumentsRequest failed to create imageRequestHandler"
+- "performRequests:onCVPixelBuffer:orientation:error:"
+- "performedActionCount"
+- "performedActions"
+- "photo.badge.magnifyingglass"
+- "photo.fill.on.rectangle.fill"
+- "photoCarousel"
+- "photos"
+- "photosAttribution"
+- "photosMemoryScore"
+- "pin-container-dislike-button"
+- "pin-container-dislike-label"
+- "pin-container-like-button"
+- "pin-container-like-label"
+- "pin-container-report-a-concern-button"
+- "pin-container-report-a-concern-label"
+- "pin-container-visual-lookup-label"
+- "pinActionableOnly"
+- "pixelsHighRange"
+- "pixelsWideRange"
+- "place"
+- "placeCategoryType"
+- "placeCollectionPullQuotes"
+- "placeCollections"
+- "placeCollectionsIds"
+- "placeData"
+- "placeDataAsData"
+- "placeDescription"
+- "placeDisplayStyle"
+- "placeDisplayType"
+- "placeQuestionnaire"
+- "placeResult"
+- "placeType"
+- "placecardLayoutData"
+- "placeholder"
+- "plus.arrow.trianglehead.clockwise"
+- "poiCategory"
+- "poiClaim"
+- "poiPinpointURLString"
+- "poiSurveyURLString"
+- "pointInViewCoordinates"
+- "polygonWithCoordinates:count:"
+- "pondering"
+- "ppissuer.mtls.googleapis.com"
+- "predictRectForPoint:inColorBuffer:"
+- "predictedBoxWithConfidence: %s, confidence: %s"
+- "predictions"
+- "preferredFontForTextStyle:"
+- "preferredLanguages"
+- "prefix"
+- "prepareForPerformingRequests:error:"
+- "prepareImageForDescriptor:"
+- "presentAsLLMSummarized"
+- "presentViewController:"
+- "presentViewControllerForCard:animate:"
+- "price"
+- "priceDescription"
+- "priceRange"
+- "price_micros"
+- "processIdentifier"
+- "processString:"
+- "processors"
+- "properties"
+- "providerURL"
+- "punchout"
+- "pushViewController:animated:"
+- "q24@0:8@\"UINavigationController\"16"
+- "q24@0:8@16"
+- "query"
+- "quickLinks"
+- "range"
+- "rangeOfContentRegion:"
+- "rawConfidence"
+- "rawValue"
+- "read-aloud-play-pause-button"
+- "read-aloud-skip-backward-button"
+- "read-aloud-skip-forward-button"
+- "read-aloud-title"
+- "readText:textBody:textIdentifier:textLocale:textLeadingImage:activationSource:"
+- "readerConnection"
+- "recognizedLocale"
+- "referenceFrame"
+- "referrer_url"
+- "region"
+- "regionOfInterest"
+- "relatedPlaceLists"
+- "related_searches"
+- "removeItemAtPath:error:"
+- "rendersContinuously"
+- "replaceBuildIn"
+- "reportFeedback:queryId:"
+- "requestFullAccessToEventsWithCompletion:"
+- "requestPrewarmingForFeature:options:"
+- "requestTemporaryFullAccuracyAuthorizationWithPurposeKey:"
+- "requestTimestamps"
+- "requestWhenInUseAuthorization"
+- "requestWindow"
+- "request_config"
+- "requested_features"
+- "requiresSafetyConfirmation"
+- "responseStatusIncomplete"
+- "result"
+- "result-footer-button"
+- "result-footer-icon"
+- "result-footer-label"
+- "resultLookupState: ("
+- "resultProviderID"
+- "resultSnippetDistanceDisplayThreshold"
+- "resultSnippetLocationString"
+- "resultType"
+- "result_panel_url"
+- "resultsDidBecomeVisible:"
+- "resultsViewController:didChangeContentSize:animated:"
+- "reviews"
+- "reviewsAttribution"
+- "roadAccessPoints"
+- "rootNode"
+- "rootViewController"
+- "rotatingContentColor"
+- "rotationAngle"
+- "sampleSizeForUserRatingScore"
+- "saveEvent:span:error:"
+- "scale"
+- "scaledFontForFont:"
+- "scaledValueForValue:"
+- "schedulerMode"
+- "scoreToMatchMinimumThreshold"
+- "search(visualUnderstanding:timestamp:searchHistoryEntries:)"
+- "searchHistoryEntries count: %ld for %s"
+- "searchSectionsAsData"
+- "searchService"
+- "searchState searchResult searchHistory "
+- "searchViewController"
+- "searchViewDidAppear:"
+- "searchViewDidDisappear:"
+- "searchable"
+- "secondaryName"
+- "secondaryQuickLinks"
+- "secondarySpokenName"
+- "sectionHeaderDidBecomeVisible:"
+- "sectionShouldBeExpanded:"
+- "seekToEndOfFile"
+- "sendCommand:options:completion:"
+- "sendCustomFeedback:"
+- "sequenceHandler"
+- "serviceSubscriberCellularProviders"
+- "setAllDay:"
+- "setBackgroundColor:"
+- "setBarCollapsingEnabled:"
+- "setBool:forKey:"
+- "setCalendar:"
+- "setCapturedImage:"
+- "setCardSections:"
+- "setCommandDelegate:"
+- "setContentView:"
+- "setCustomFilter:alignment:sourceWidth:sourceHeight:destinationWidth:destinationHeight:luma_param:chroma_param:"
+- "setDateStyle:"
+- "setDoesRelativeDateFormatting:"
+- "setDrawBorder:"
+- "setEditViewDelegate:"
+- "setEndDate:"
+- "setEvent:"
+- "setEventStore:"
+- "setHeadingOrientation:"
+- "setHidden:"
+- "setHorizontalAccuracy:"
+- "setInteractionEndedFeedback:"
+- "setInteractionStartedFeedback:"
+- "setKeepResourcesLoaded:"
+- "setLocation:"
+- "setMinimumTextHeight:"
+- "setNotes:"
+- "setOptions:"
+- "setRecognitionLanguages:"
+- "setRecognitionLevel:"
+- "setRegionOfInterest:"
+- "setRendersContinuously:"
+- "setRevision:error:"
+- "setRightBarButtonItem:"
+- "setRowSelectionAppearanceEnabled:"
+- "setScale:"
+- "setScrollEnabled:"
+- "setSectionHeaderStyle:"
+- "setShouldProvideNonBinnedVideoFormats:"
+- "setStandardAppearance:"
+- "setStartDate:"
+- "setString:"
+- "setSubtitle:"
+- "setSystemClient:"
+- "setTargetedIdentifiers:"
+- "setThreeDTouchEnabled:"
+- "setTimeStyle:"
+- "setTitle:"
+- "setType:"
+- "setURL:"
+- "setUnitsStyle:"
+- "setUsesAlternateLineGrouping:"
+- "setUsesLanguageCorrection:"
+- "setUsesLanguageDetection:"
+- "setValue:forKeyPath:"
+- "setVisualIntelligenceMetadataObjectTypeAvailable:"
+- "setWorld:"
+- "sharedApplication"
+- "sharedConfiguration"
+- "sharedConnection"
+- "sharedInstance"
+- "sharedPreferences"
+- "sharedService"
+- "sharedSession"
+- "shiftLocation:withCompletionHandler:"
+- "shoppable_badge"
+- "shortAbstraction"
+- "shortAddress"
+- "shouldHandleCardSectionEngagement:"
+- "shouldShowInSmartDialog"
+- "showDebugGeoLookupResults"
+- "showEngineeringUIControls"
+- "showGeoLocatePill"
+- "showPinsAndBoxes"
+- "showSuggestAnEditButton"
+- "shutterButtonMomentary"
+- "signpostName"
+- "siriSetupView"
+- "siriSetupViewController:openURL:"
+- "sizeMax"
+- "sizeRatio"
+- "skips-local-sysdiagnose-only"
+- "snippet"
+- "solverResult was not optimal; proceeding as-is."
+- "source_url"
+- "sources"
+- "spanLat"
+- "spanLng"
+- "spatialMappedCategories"
+- "spatialMappedPlaceCategories"
+- "spokenNameForLocale:"
+- "startDate"
+- "startDateISO8601"
+- "startUpdatingHeading"
+- "statusCode"
+- "stopPlaybackForAudioData:"
+- "stopUpdatingHeading"
+- "storefrontInfo"
+- "storefrontPresentationInfo"
+- "styleAttributes"
+- "submitWithHandler:networkActivity:"
+- "suggestedActions"
+- "suggestionsDidBecomeVisible:"
+- "summarization.visualIntelligenceCamera"
+- "supportedImageSizeSet"
+- "supportedTransitPaymentMethods"
+- "supporting"
+- "supportsOfflineMaps"
+- "sysdiagnose-only"
+- "systemImage"
+- "systemRedColor"
+- "telephone"
+- "temporaryDirectory"
+- "tertiarySystemFillColor"
+- "text.bubble.fill"
+- "textComposition.OpenEndedSchema"
+- "text_query"
+- "thresholdCadence"
+- "thresholdConfidence"
+- "thumbnailAspectRatio"
+- "thumbnailUrl"
+- "ticketForIdentifiers:traits:"
+- "time_zone"
+- "timezone"
+- "tips"
+- "title symbolName url "
+- "tooltip"
+- "topLeft"
+- "topRight"
+- "totalPhotoCount"
+- "trackManager"
+- "trackReadingTask"
+- "tracker"
+- "trackerNoiseMakingTask"
+- "tracks"
+- "tracksInternal"
+- "tracksStreamContinuations"
+- "trailHead"
+- "traitCollectionWithUserInterfaceStyle:"
+- "traits"
+- "transform:srcRect:dst:dstRect:rotate:sync_m2m:"
+- "transitAttribution"
+- "transitInfo"
+- "transitPaymentMethodSuggestions"
+- "transitStationIdentifier"
+- "transitVehiclePosition"
+- "tweakedConfigurationForCaller:usage:"
+- "types"
+- "uid"
+- "updateHomeGestureSharingForSiriSetup:"
+- "updateViewControllerTitle:"
+- "updateVoiceLanguages()"
+- "url"
+- "urlData"
+- "urlForMapItem:options:"
+- "urls"
+- "useGallery"
+- "userInteractionStarted"
+- "uuid"
+- "v16@?0@\"CLLocation\"8"
+- "v16@?0@\"NSArray\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"AFUISiriSetupViewController\"16"
+- "v24@0:8@\"CLLocationManager\"16"
+- "v24@0:8@\"SFCardSectionEngagementFeedback\"16"
+- "v24@0:8@\"SFCardViewAppearFeedback\"16"
+- "v24@0:8@\"SFCardViewDisappearFeedback\"16"
+- "v24@0:8@\"SFClearInputFeedback\"16"
+- "v24@0:8@\"SFCommand\"16"
+- "v24@0:8@\"SFCommandEngagementFeedback\"16"
+- "v24@0:8@\"SFCustomFeedback\"16"
+- "v24@0:8@\"SFDidGoToSearchFeedback\"16"
+- "v24@0:8@\"SFDidGoToSiteFeedback\"16"
+- "v24@0:8@\"SFEndSearchFeedback\"16"
+- "v24@0:8@\"SFErrorFeedback\"16"
+- "v24@0:8@\"SFLateSectionsAppendedFeedback\"16"
+- "v24@0:8@\"SFLookupHintRelevancyFeedback\"16"
+- "v24@0:8@\"SFRankingFeedback\"16"
+- "v24@0:8@\"SFResultEngagementFeedback\"16"
+- "v24@0:8@\"SFResultGradingFeedback\"16"
+- "v24@0:8@\"SFResultsReceivedAfterTimeoutFeedback\"16"
+- "v24@0:8@\"SFSearchViewAppearFeedback\"16"
+- "v24@0:8@\"SFSearchViewDisappearFeedback\"16"
+- "v24@0:8@\"SFSectionEngagementFeedback\"16"
+- "v24@0:8@\"SFStartSearchFeedback\"16"
+- "v24@0:8@\"SFSuggestionEngagementFeedback\"16"
+- "v24@0:8@\"SFUserReportFeedback\"16"
+- "v24@0:8@\"SFVisibleResultsFeedback\"16"
+- "v24@0:8@\"SFVisibleSectionHeaderFeedback\"16"
+- "v24@0:8@\"SFVisibleSuggestionsFeedback\"16"
+- "v24@0:8@\"SiriTTSAudioData\"16"
+- "v24@0:8@\"UIView\"16"
+- "v24@0:8@\"UIViewController\"16"
+- "v24@0:8@?<v@?dd@\"NSString\"@\"NSString\"@\"NSString\">16"
+- "v24@0:8B16B20"
+- "v24@0:8q16"
+- "v24@?0@\"BCSAction\"8@\"NSError\"16"
+- "v24@?0@\"CROutputRegion\"8^B16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v28@0:8@\"CLLocationManager\"16i24"
+- "v28@0:8@\"SFCard\"16B24"
+- "v28@0:8@\"SFResultSection\"16B24"
+- "v28@0:8@\"UIView\"16B24"
+- "v28@0:8@16i24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLRegion\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLVisit\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSError\"24"
+- "v32@0:8@\"EKEventEditViewController\"16q24"
+- "v32@0:8@\"NSString\"16@\"NSError\"24"
+- "v32@0:8@\"NSString\"16@\"NSString\"24"
+- "v32@0:8@\"SFFeedback\"16q24"
+- "v32@0:8@\"SFSearchResult\"16@\"SFCardSection\"24"
+- "v32@0:8@\"SFSearchResult\"16@?<v@?@\"NSUserActivity\">24"
+- "v32@0:8@\"SiriTTSAudioData\"16@?<v@?>24"
+- "v36@0:8@\"UINavigationController\"16@\"UIViewController\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconIdentityConstraint\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLLocation\"24@\"CLLocation\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconIdentityConstraint\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconRegion\"32"
+- "v40@0:8@\"CLLocationManager\"16q24@\"CLRegion\"32"
+- "v40@0:8@16q24@32"
+- "v44@0:8@\"SearchUIResultsViewController\"16{CGSize=dd}24B40"
+- "v44@0:8@\"UIViewController\"16{CGSize=dd}24B40"
+- "v44@0:8@16{CGSize=dd}24B40"
+- "valid"
+- "vendorID"
+- "venueCapacity"
+- "venueFeatureType"
+- "venueInfo"
+- "vertexs"
+- "viService"
+- "video_duration"
+- "viewControllers"
+- "viewSize"
+- "viewportFrame"
+- "visual-lookup-search-card-view"
+- "visual-lookup-siri-view"
+- "visual-lookup-siri-view-dialog"
+- "visual-lookup-siri-view-dialog-cards"
+- "visual-lookup-siri-view-dialog-text"
+- "visualIntelligenceDetection"
+- "visualIntelligenceDetectorResult"
+- "visualLookup.txt"
+- "walletCategoryIdentifier"
+- "walletCategoryLocalizedString"
+- "walletCategoryLocalizedStringLocale"
+- "walletCategoryStyling"
+- "walletMapsCategoryIdentifier"
+- "walletPlaceLocalizedString"
+- "walletPlaceLocalizedStringLocale"
+- "walletPlaceStyling"
+- "weatherDisplayName"
+- "webURL"
+- "webUrl"
+- "wifiFingerprintConfidence"
+- "wifiFingerprintLabelStatusCode"
+- "wifiFingerprintLabelType"
+- "willDismissViewController:"
+- "windows"
+- "world"
+- "worldWithURL:options:error:"
+- "writeData:"
+- "x-apple-calevent://"
+- "yyyy.MM.dd_HH-mm-ss"
+- "{?=dd}16@0:8"
+- "’s Terms of Service and Privacy Policy"
+- "’s [Terms of Service]("
+- "📍 Starting location updates!"
+- "📍 Stopping location updates, if applicable."
+- "📍 The user had not yet provided location access. We are requesting access now."
+
+```

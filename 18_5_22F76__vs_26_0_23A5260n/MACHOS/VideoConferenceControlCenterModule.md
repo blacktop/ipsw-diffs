@@ -1,0 +1,1840 @@
+## VideoConferenceControlCenterModule
+
+> `/System/Library/ControlCenter/Bundles/VideoConferenceControlCenterModule.bundle/VideoConferenceControlCenterModule`
+
+```diff
+
+-620.2.1.0.0
+-  __TEXT.__text: 0x4665c
+-  __TEXT.__auth_stubs: 0x1150
+-  __TEXT.__objc_stubs: 0x5c20
+-  __TEXT.__objc_methlist: 0x390c
+-  __TEXT.__const: 0xaf8
+-  __TEXT.__objc_methname: 0x8870
+-  __TEXT.__cstring: 0x241d
+-  __TEXT.__oslogstring: 0x2428
+-  __TEXT.__objc_classname: 0x789
+-  __TEXT.__objc_methtype: 0x1969
+-  __TEXT.__gcc_except_tab: 0x3e4
+-  __TEXT.__constg_swiftt: 0x5cc
+-  __TEXT.__swift5_typeref: 0x464
+-  __TEXT.__swift5_reflstr: 0x61a
+-  __TEXT.__swift5_fieldmd: 0x440
+-  __TEXT.__swift5_types: 0x40
+-  __TEXT.__swift5_capture: 0xe4
+-  __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_proto: 0x3c
+-  __TEXT.__unwind_info: 0x1328
+-  __TEXT.__eh_frame: 0xb8
+-  __DATA_CONST.__auth_got: 0x8b8
+-  __DATA_CONST.__got: 0x480
+-  __DATA_CONST.__auth_ptr: 0x1b8
+-  __DATA_CONST.__const: 0x10f0
+-  __DATA_CONST.__cfstring: 0xe40
+-  __DATA_CONST.__objc_classlist: 0x138
+-  __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x118
++650.38.1.0.0
++  __TEXT.__text: 0x1ba68
++  __TEXT.__auth_stubs: 0xd00
++  __TEXT.__objc_stubs: 0x720
++  __TEXT.__objc_methlist: 0x974
++  __TEXT.__const: 0x908
++  __TEXT.__objc_methname: 0x1d72
++  __TEXT.__objc_classname: 0xe4
++  __TEXT.__objc_methtype: 0x51b
++  __TEXT.__cstring: 0x17ed
++  __TEXT.__oslogstring: 0x9d8
++  __TEXT.__gcc_except_tab: 0x40
++  __TEXT.__constg_swiftt: 0x67c
++  __TEXT.__swift5_typeref: 0x496
++  __TEXT.__swift5_reflstr: 0x67a
++  __TEXT.__swift5_fieldmd: 0x4ec
++  __TEXT.__swift5_types: 0x44
++  __TEXT.__swift5_capture: 0xf4
++  __TEXT.__swift5_assocty: 0x60
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_proto: 0x24
++  __TEXT.__unwind_info: 0x718
++  __DATA_CONST.__auth_got: 0x690
++  __DATA_CONST.__got: 0x248
++  __DATA_CONST.__auth_ptr: 0x128
++  __DATA_CONST.__const: 0xa08
++  __DATA_CONST.__cfstring: 0x340
++  __DATA_CONST.__objc_classlist: 0x58
++  __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0xf0
+-  __DATA_CONST.__objc_intobj: 0xf0
+-  __DATA_CONST.__objc_arraydata: 0x48
+-  __DATA_CONST.__objc_arrayobj: 0x60
+-  __DATA.__objc_const: 0xbef8
+-  __DATA.__objc_selrefs: 0x1fc8
+-  __DATA.__objc_ivar: 0x4a8
+-  __DATA.__objc_data: 0x1310
+-  __DATA.__data: 0xf08
+-  __DATA.__bss: 0x978
+-  __DATA.__common: 0x2c0
++  __DATA_CONST.__objc_superrefs: 0x28
++  __DATA_CONST.__objc_intobj: 0x60
++  __DATA.__objc_const: 0x20f0
++  __DATA.__objc_selrefs: 0x930
++  __DATA.__objc_ivar: 0x5c
++  __DATA.__objc_data: 0xb18
++  __DATA.__data: 0x5c8
++  __DATA.__bss: 0x5d0
++  __DATA.__common: 0x250
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/ReplayKit.framework/ReplayKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/MaterialKit.framework/MaterialKit
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: BEC865E1-9E25-3E50-A50A-A2D58FFA0153
+-  Functions: 1728
+-  Symbols:   452
+-  CStrings:  2181
++  UUID: 7968D96A-0C83-3805-8FC5-E8CC16A6330E
++  Functions: 687
++  Symbols:   224
++  CStrings:  676
+ 
+Symbols:
++ _CGAffineTransformDecompose
++ _CMSampleBufferGetFormatDescription
++ _CMVideoFormatDescriptionGetDimensions
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _swift_coroFrameAlloc
++ _swift_getSingletonMetadata
++ _swift_updateClassMetadata2
+- OBJC_IVAR_$_FCUIActivityListContentView._appNameViewValid
+- OBJC_IVAR_$_FCUIActivityListContentView._displayView
+- OBJC_IVAR_$_FCUIActivityListContentView._footerViewValid
+- OBJC_IVAR_$_FCUIActivityListContentView._headerViewValid
+- OBJC_IVAR_$_FCUIActivityListContentView._outgoingActivityViews
+- OBJC_IVAR_$_FCUIActivityListContentView._purgeableActivityViews
+- OBJC_IVAR_$_RPCCVideoEffect._intensityName
+- OBJC_IVAR_$_RPCCVideoEffect._name
+- OBJC_IVAR_$_RPCCVideoEffect._symbolImageName
+- OBJC_IVAR_$_RPCCVideoEffect._tintColorName
+- OBJC_IVAR_$__FCUIActivityControlMenuFooterView._categoriesToVisualStylingProviders
+- OBJC_IVAR_$__FCUIActivityControlMenuFooterView._footerLabel
+- OBJC_IVAR_$__FCUIActivityControlMenuFooterView._highlightView
+- OBJC_IVAR_$__RPCCUIActivityPickerOnboardingDismissControl._imageView
+- OBJC_IVAR_$__RPCCUIActivityPickerOnboardingDismissControl._referenceFont
+- OBJC_IVAR_$__RPCCUIAddActivityControl._glyphImageView
+- _BSDispatchQueueCreateSerialWithQoS
+- _BSEqualArrays
+- _BSEqualObjects
+- _BSEqualStrings
+- _BSRectWithSize
+- _CCUICompactModuleContinuousCornerRadius
+- _CCUIDefaultExpandedContentModuleWidth
+- _CCUIExpandedModuleContinuousCornerRadius
+- _CCUIIsPortrait
+- _CCUIReferenceScreenBounds
+- _CGFloatIsValid
+- _CGPointZero
+- _CGRectEqualToRect
+- _CGRectGetHeight
+- _CGRectGetMaxX
+- _CGRectGetMaxY
+- _CGRectGetMidX
+- _CGRectGetMidY
+- _CGRectGetMinX
+- _CGRectGetMinY
+- _CGRectGetWidth
+- _CGRectInset
+- _CGRectIsEmpty
+- _CGRectIsNull
+- _CGRectNull
+- _CGRectUnion
+- _CTFontCopySystemUIFontExcessiveLineHeightCharacterSet
+- _CTFontGetExuberatedLineHeightForLineHeight
+- _CTFontHasExuberatedLineHeight
+- _FBSOpenApplicationOptionKeyLaunchOrigin
+- _FBSOpenApplicationOptionKeyPromptUnlockDevice
+- _FBSOpenApplicationOptionKeyUnlockDevice
+- _FCUIRegisterLogging
+- _NSClassFromString
+- _NSDirectionalEdgeInsetsZero
+- _NSFontAttributeName
+- _NSKeyValueChangeNewKey
+- _NSLog
+- _NSSelectorFromString
+- _NSStringFromBOOL
+- _NSStringFromCGSize
+- _NSStringFromClass
+- _OBJC_CLASS_$_CATransaction
+- _OBJC_CLASS_$_CCUIButtonModuleViewController
+- _OBJC_CLASS_$_CCUIControlCenterMaterialView
+- _OBJC_CLASS_$_CCUILabeledRoundButtonViewController
+- _OBJC_CLASS_$_CCUIMenuModuleViewController
+- _OBJC_CLASS_$_FCUIActivityListContentView
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSMapTable
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSStringDrawingContext
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_RPCCActivityManager
+- _OBJC_CLASS_$_RPCCModuleViewController
+- _OBJC_CLASS_$_RPCCMutableVideoEffect
+- _OBJC_CLASS_$_RPCCUIActivityBaubleCompleteDescription
+- _OBJC_CLASS_$_RPCCUIActivityBaubleDescription
+- _OBJC_CLASS_$_RPCCUIActivityBaubleGroupView
+- _OBJC_CLASS_$_RPCCUIActivityBaubleView
+- _OBJC_CLASS_$_RPCCUIActivityControl
+- _OBJC_CLASS_$_RPCCUIActivityControlMenuItemView
+- _OBJC_CLASS_$_RPCCUIActivityControlMenuView
+- _OBJC_CLASS_$_RPCCUIActivityListView
+- _OBJC_CLASS_$_RPCCUIActivityPickerEducationCardView
+- _OBJC_CLASS_$_RPCCUIActivityPickerViewController
+- _OBJC_CLASS_$_RPCCUIAddActivityFooterView
+- _OBJC_CLASS_$_RPCCUIOptionsControl
+- _OBJC_CLASS_$_RPCCVideoEffect
+- _OBJC_CLASS_$_RPCCVideoSettingsModule
+- _OBJC_CLASS_$_RPCCVideoSettingsModuleBackgroundViewController
+- _OBJC_CLASS_$_RPCCVideoSettingsModuleViewController
+- _OBJC_CLASS_$_RPVideoEffectsControlCenterModule
+- _OBJC_CLASS_$_UIAction
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_UIFontDescriptor
+- _OBJC_CLASS_$_UIFontMetrics
+- _OBJC_CLASS_$_UILongPressGestureRecognizer
+- _OBJC_CLASS_$_UIPointerEffect
+- _OBJC_CLASS_$_UIPointerInteraction
+- _OBJC_CLASS_$_UIPointerLiftEffect
+- _OBJC_CLASS_$_UIPointerRegion
+- _OBJC_CLASS_$_UIPointerStyle
+- _OBJC_CLASS_$_UIPreviewParameters
+- _OBJC_CLASS_$_UIScrollView
+- _OBJC_CLASS_$_UISelectionFeedbackGenerator
+- _OBJC_CLASS_$_UISpringTimingParameters
+- _OBJC_CLASS_$_UITapGestureRecognizer
+- _OBJC_CLASS_$_UITargetedPreview
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$_UITraitPreferredContentSizeCategory
+- _OBJC_CLASS_$_UIVibrancyEffect
+- _OBJC_CLASS_$_UIViewPropertyAnimator
+- _OBJC_CLASS_$_UIVisualEffectView
+- _OBJC_CLASS_$__FCCCAnimator
+- _OBJC_CLASS_$__FCUIActivityControlMenuFooterView
+- _OBJC_CLASS_$__RPCCUIActivityControlBackgroundView
+- _OBJC_CLASS_$__RPCCUIActivityControlContentView
+- _OBJC_CLASS_$__RPCCUIActivityPickerOnboardingDismissControl
+- _OBJC_CLASS_$__RPCCUIAddActivityControl
+- _OBJC_CLASS_$__RPCCVideoEffect
+- _OBJC_CLASS_$__UISelectionFeedbackGeneratorConfiguration
+- _OBJC_CLASS_$__UIViewControllerTransitionContext
+- _OBJC_METACLASS_$_CCUIButtonModuleViewController
+- _OBJC_METACLASS_$_CCUIMenuModuleViewController
+- _OBJC_METACLASS_$_FCUIActivityListContentView
+- _OBJC_METACLASS_$_RPCCActivityManager
+- _OBJC_METACLASS_$_RPCCModuleViewController
+- _OBJC_METACLASS_$_RPCCMutableVideoEffect
+- _OBJC_METACLASS_$_RPCCUIActivityBaubleCompleteDescription
+- _OBJC_METACLASS_$_RPCCUIActivityBaubleDescription
+- _OBJC_METACLASS_$_RPCCUIActivityBaubleGroupView
+- _OBJC_METACLASS_$_RPCCUIActivityBaubleView
+- _OBJC_METACLASS_$_RPCCUIActivityControl
+- _OBJC_METACLASS_$_RPCCUIActivityControlMenuItemView
+- _OBJC_METACLASS_$_RPCCUIActivityControlMenuView
+- _OBJC_METACLASS_$_RPCCUIActivityListView
+- _OBJC_METACLASS_$_RPCCUIActivityPickerEducationCardView
+- _OBJC_METACLASS_$_RPCCUIActivityPickerViewController
+- _OBJC_METACLASS_$_RPCCUIAddActivityFooterView
+- _OBJC_METACLASS_$_RPCCUIOptionsControl
+- _OBJC_METACLASS_$_RPCCVideoEffect
+- _OBJC_METACLASS_$_RPCCVideoSettingsModule
+- _OBJC_METACLASS_$_RPCCVideoSettingsModuleBackgroundViewController
+- _OBJC_METACLASS_$_RPCCVideoSettingsModuleViewController
+- _OBJC_METACLASS_$_RPVideoEffectsControlCenterModule
+- _OBJC_METACLASS_$_UIScrollView
+- _OBJC_METACLASS_$__FCCCAnimator
+- _OBJC_METACLASS_$__FCUIActivityControlMenuFooterView
+- _OBJC_METACLASS_$__RPCCUIActivityControlBackgroundView
+- _OBJC_METACLASS_$__RPCCUIActivityControlContentView
+- _OBJC_METACLASS_$__RPCCUIActivityPickerOnboardingDismissControl
+- _OBJC_METACLASS_$__RPCCUIAddActivityControl
+- _OBJC_METACLASS_$__RPCCVideoEffect
+- _RPCCLogActivities
+- _RPCCRegisterLogging
+- _RPCCUIBundle
+- _RPCCUILogDiscovery
+- _RPCCUILogModule
+- _RPCCUILogSelection
+- _SBSGetScreenLockStatus
+- _UIContentSizeCategoryAccessibilityMedium
+- _UIContentSizeCategoryCompareToCategory
+- _UIContentSizeCategoryExtraExtraExtraLarge
+- _UIContentSizeCategoryIsAccessibilityCategory
+- _UIEdgeInsetsZero
+- _UIFontDescriptorSystemDesignDefault
+- _UIFontDescriptorTraitsAttribute
+- _UIFontTextStyleBody
+- _UIFontTextStyleCaption1
+- _UIFontTextStyleCaption2
+- _UIFontTextStyleFootnote
+- _UIFontTextStyleLargeTitle
+- _UIFontTextStyleSubhead
+- _UIFontTextStyleSubheadline
+- _UIFontTextStyleTitle3
+- _UIFontWeightBlack
+- _UIFontWeightBold
+- _UIFontWeightMedium
+- _UIFontWeightRegular
+- _UIFontWeightSemibold
+- _UIFontWeightTrait
+- _UIGraphicsBeginImageContextWithOptions
+- _UIGraphicsEndImageContext
+- _UIGraphicsGetImageFromCurrentImageContext
+- _UIRectCenteredIntegralRect
+- _UIRectCenteredIntegralRectScale
+- _UIRectCenteredXInRect
+- _UIRectCenteredXInRectScale
+- _UIRectCenteredYInRect
+- _UIRectCenteredYInRectScale
+- _UIRectInset
+- _UIRectIntegralWithScale
+- _UIRoundToScale
+- _UISizeRoundToScale
+- __NSConcreteGlobalBlock
+- ___kCFBooleanTrue
+- __os_feature_enabled_impl
+- __os_log_debug_impl
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _dispatch_get_global_queue
+- _dispatch_once
+- _dispatch_sync
+- _kCACornerCurveContinuous
+- _kRPCCUIActivityDefaultAnimationDuration
+- _kRPCCUIPackageViewStateOff
+- _kRPCCUIPackageViewStateOn
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_getAssociatedObject
+- _objc_getProperty
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_opt_isKindOfClass
+- _objc_opt_respondsToSelector
+- _objc_retainAutorelease
+- _objc_retainBlock
+- _objc_retain_x4
+- _objc_retain_x6
+- _objc_setAssociatedObject
+- _objc_setProperty_atomic_copy
+- _objc_setProperty_nonatomic_copy
+- _objc_storeWeak
+- _objc_sync_enter
+- _objc_sync_exit
+- _os_log_create
+CStrings:
++ " [INFO] %{public}s:%d back camera"
++ " [INFO] %{public}s:%d currentRotation=%@ newRotation=%@ mirrorType=%d orientation=%ld portType=%@ deviceType=%@"
++ " [INFO] %{public}s:%d external camera"
++ " [INFO] %{public}s:%d front camera"
++ "-[RPCCUIVideoView enqueueSampleBuffer:]"
++ "/Library/Caches/com.apple.xbs/Sources/ReplayKit/VideoConferenceSettingsControlCenterModule/VideoEffectsPreview.swift"
++ "T@\"NSArray\",?,R,N"
++ "_aspectRatio"
++ "_height"
++ "_videoView"
++ "_width"
++ "containerViewsForPlatterTreatment"
++ "currentAffineTransform"
++ "expandTapped(sender:)"
++ "expandTappedWithSender:"
++ "imageBackgroundView"
++ "insertSubview:belowSubview:"
++ "observing"
++ "set aspect ratio %f, transform %s"
++ "setSuppressesContentTransitions:"
++ "suppressesContentTransitions"
+- " \n "
+- " [DEBUG] %{public}s:%d _currentBackgroundBlurEnabled=%d _currentCenterStageEnabled=%d _currentStudioLightEnabled=%d _currentGestureEnabled=%d"
+- " [DEBUG] %{public}s:%d _currentBackgroundBlurState=%zu _currentBackgroundBlurEnabled=%d _currentBackgroundBlurSupported=%d"
+- " [DEBUG] %{public}s:%d _currentBackgroundBlurState=%zu _currentCenterStageState=%zu _currentStudioLightState=%zu _currentGestureState==%zu"
+- " [DEBUG] %{public}s:%d _currentBackgroundBlurSupported=%d _currentCenterStageSupported=%d _currentStudioLightSupported=%d _currentGestureSupported=%d"
+- " [DEBUG] %{public}s:%d _currentCenterStageState=%zu _currentCenterStageEnabled=%d _currentCenterStageSupported=%d"
+- " [DEBUG] %{public}s:%d _currentGestureState=%zu _currentGestureEnabled=%d _currentGestureSupported=%d"
+- " [DEBUG] %{public}s:%d _currentStudioLightState=%zu _currentStudioLightEnabled=%d _currentStudioLightSupported=%d"
+- " [INFO] %{public}s:%d button.selected=%d"
+- "%@.activityManager"
+- "%@.educationCardBaubleDescriptions"
+- "%@: %p"
+- "%{public}@: text layout %{public}@"
+- "-[RPCCVideoSettingsModuleViewController cinematicFrameButtonPressed:]"
+- "-[RPCCVideoSettingsModuleViewController gestureButtonPressed:]"
+- "-[RPCCVideoSettingsModuleViewController handleAVControlCenterNotification:]"
+- "-[RPCCVideoSettingsModuleViewController portraitBlurButtonPressed:]"
+- "-[RPCCVideoSettingsModuleViewController setupCameraEffectsInitialState]"
+- "-[RPCCVideoSettingsModuleViewController studioLightButtonPressed:]"
+- "/Library/Caches/com.apple.xbs/Sources/ReplayKit/VideoConferenceSettingsControlCenterModule/Refresh UI/VideoEffectsPreview.swift"
+- "; activityDisplayName: %@"
+- "; activitySymbolImageName: %@; activityColorName: %@; isPlaceholder: %@; %@"
+- "<%@: %p; _identifier: %@>"
+- "<%@: %p; activityIdentifier: %@; activityUniqueIdentifier: %@; activityDisplayName: %@>"
+- "<%@: %p; name: %@; effectIdentifier: %@; symbolImageName: %@; tintColorName: %@; intensityName: %@; identifier: %@>"
+- ">"
+- "@\"<RPCCActivityDescribing>\""
+- "@\"<RPCCActivityLifetimeDescribing>\""
+- "@\"<RPCCModuleViewControllerDelegate>\""
+- "@\"<RPCCVideoSettingsModuleViewControllerDelegate>\""
+- "@\"<UITraitChangeRegistration>\""
+- "@\"<UIViewImplicitlyAnimating>\"24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "@\"BSUICAPackageView\""
+- "@\"CCUILabeledRoundButtonViewController\""
+- "@\"CMCaptureFrameReceiver\""
+- "@\"FCUIActivityListContentView\""
+- "@\"MTVisualStylingProvider\""
+- "@\"MTVisualStylingProvider\"24@0:8q16"
+- "@\"NSArray\""
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSHashTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSStringDrawingContext\""
+- "@\"NSURL\""
+- "@\"NSURL\"16@0:8"
+- "@\"NSUUID\""
+- "@\"NSUUID\"16@0:8"
+- "@\"NSUserDefaults\""
+- "@\"RPCCActivityManager\""
+- "@\"RPCCModuleViewController\""
+- "@\"RPCCUIActivityControlMenuView\""
+- "@\"RPCCUIActivityPickerViewController\""
+- "@\"RPCCUIOptionsControl\""
+- "@\"RPCCUIVideoView\""
+- "@\"RPCCVideoEffect\""
+- "@\"RPCCVideoSettingsModuleBackgroundViewController\""
+- "@\"RPCCVideoSettingsModuleViewController\""
+- "@\"UIAction\""
+- "@\"UIColor\""
+- "@\"UIColor\"16@0:8"
+- "@\"UIFont\""
+- "@\"UIGestureRecognizer\""
+- "@\"UIGestureRecognizer\"16@0:8"
+- "@\"UIImage\""
+- "@\"UIImage\"16@0:8"
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UIPointerRegion\"40@0:8@\"UIPointerInteraction\"16@\"UIPointerRegionRequest\"24@\"UIPointerRegion\"32"
+- "@\"UIPointerStyle\"32@0:8@\"UIPointerInteraction\"16@\"UIPointerRegion\"24"
+- "@\"UISelectionFeedbackGenerator\""
+- "@\"UISlider\""
+- "@\"UITapGestureRecognizer\""
+- "@\"UIView\""
+- "@\"UIView<RPCCUIActivityDisplaying>\""
+- "@\"UIView<RPCCUIActivityDisplaying><RPCCUIExpandingContracting>\""
+- "@\"UIVisualEffectView\""
+- "@\"_FCUIActivityControlMenuFooterView\""
+- "@\"_RPCCUIActivityPickerOnboardingDismissControl\""
+- "@\"_RPCCUIAddActivityControl\""
+- "@\"_RPCCVideoEffect\""
+- "@20@0:8B16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8B16B20"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8@16q24"
+- "@32@0:8d16d24"
+- "@36@0:8B16@20d28"
+- "@40@0:8@16@24@32"
+- "@40@0:8B16@20d28I36"
+- "@40@0:8d16d24d32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@48@0:8@16d24d32d40"
+- "@48@0:8B16@20d28I36@40"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24d32d40d48"
+- "@56@0:8@16{?=f{CGSize=dd}d}24"
+- "@64@0:8@16@24@32@40@48@56"
+- "@?<v@?@\"MTVisualStylingProvider\"@>24@?0@\"MTVisualStylingProvider\"8@16"
+- "ACTIVITY_ONBOARDING_BODY"
+- "ACTIVITY_ONBOARDING_HEADLINE"
+- "ACTIVITY_TRY_IT"
+- "Activities"
+- "Activity control menu action triggered: activityView: %{public}@; menuAction: %{public}@"
+- "Activity control options action triggered: %{public}@"
+- "Activity control tapped: %@"
+- "Activity control tapped: %{public}@"
+- "ActivityListView initWithframe=%@"
+- "ActivityPickerEducationCardView init prominentViewFrame=%@ self.frame=%@"
+- "B16@?0@\"<RPCCActivityDescribing>\"8"
+- "B16@?0@\"UIView<RPCCUIActivityDisplaying>\"8"
+- "B24@0:8@\"UIGestureRecognizer\"16"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIEvent\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIGestureRecognizer\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIPress\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UITouch\"24"
+- "B32@0:8@16@24"
+- "B32@?0@\"<RPCCActivityDescribing>\"8@\"<RPCCActivityLifetimeDescribing>\"16^@24"
+- "B32@?0@\"<RPCCActivityDescribing>\"8Q16^B24"
+- "Bilby"
+- "CCUIContentModuleBackgroundViewController"
+- "CCUIMenuModuleViewHeight"
+- "CCUIMenuModuleViewWidth"
+- "CGColor"
+- "CGRectValue"
+- "CMCaptureFrameReceiver created frameReceiver: %@"
+- "CMCaptureFrameReceiver: _applicationBundleID: %@"
+- "CMCaptureFrameReceiver: available endpoints: %@"
+- "CMCaptureFrameReceiver: device is locked"
+- "CMCaptureFrameReceiver: done"
+- "CMCaptureFrameReceiver: endpoint: %@"
+- "CONTROL_CENTER_DEPTH_LABEL"
+- "CONTROL_CENTER_GESTURES"
+- "CONTROL_CENTER_INTENSITY_LABEL"
+- "CONTROL_CENTER_MICROPHONE_OFF"
+- "CONTROL_CENTER_MICROPHONE_ON"
+- "CONTROL_CENTER_VIDEO_EFFECTS"
+- "CONTROL_CENTER_VIDEO_EFFECTS_2_ON"
+- "CONTROL_CENTER_VIDEO_EFFECTS_3_ON"
+- "CONTROL_CENTER_VIDEO_EFFECTS_4_ON"
+- "CONTROL_CENTER_VIDEO_NO_EFFECTS"
+- "ControlCenter"
+- "DEFAULT"
+- "DEPRECATED"
+- "Depth"
+- "Discovery"
+- "Do Not Disturb"
+- "FCUIActivityListContentView"
+- "FCUIActivityListContentView activityListView intrinsicContentSize"
+- "FCUIActivityListContentView activityListView layoutSubviews app view"
+- "FCUIActivityListContentView activityListView layoutSubviews end frame=%@"
+- "FCUIActivityListContentView activityListView layoutSubviews footer"
+- "FCUIActivityListContentView activityListView layoutSubviews frame=%@"
+- "FCUIActivityListContentView activityListView layoutSubviews header"
+- "FCUIActivityListContentView activityListView layoutSubviews header invalid"
+- "FCUIActivityListContentView activityListView setHeaderView previous=%p new=%p"
+- "FCUIActivityListContentView activityListView sizeThatFits %@"
+- "FCUIActivityListContentView addVideoview"
+- "FCUIActivityListContentView layoutSubviews"
+- "FCUIActivityListContentView layoutSubviews frame count %lu"
+- "FCUIActivityListContentView removeVideoview"
+- "FCUIActivityListContentView sizeThatFits"
+- "FCUIActivityListContentView sizeThatFits=%@, OGsize=%@ collapsedToPill=%d includeFooter=%d forceMeasurement=%d"
+- "FCUIActivityListContentView subviewFramesInBounds"
+- "FCUIActivityListContentView subviewFramesInBounds appViewFrame=%@"
+- "FCUIActivityListContentView subviewFramesInBounds footerViewFrame=%@"
+- "FCUIActivityListContentView subviewFramesInBounds headerViewFrame=%@"
+- "FCUIAppLaunchOriginActivityPicker"
+- "Failed to launch URL %{public}@: %{public}@"
+- "Intensity"
+- "Launched URL %{public}@"
+- "MTVisualStylingProviding"
+- "Module"
+- "NSCoding"
+- "NSCopying"
+- "NSMutableCopying"
+- "NSSecureCoding"
+- "NewControls"
+- "OFF"
+- "ON"
+- "Private"
+- "Q64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16Q48N@56"
+- "Q72@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24Q56N@64"
+- "RPCCActivityDescribing"
+- "RPCCActivityManager"
+- "RPCCActivityManager: Unable to load initial state, no applicable application bundle ID found"
+- "RPCCActivityManagerObserving"
+- "RPCCActivitySuggestionFeedbackAccepting"
+- "RPCCModuleViewController"
+- "RPCCModuleViewController viewWillLayoutSubviews"
+- "RPCCModuleViewControllerDelegate"
+- "RPCCMutableVideoEffect"
+- "RPCCUIActivityBaubleCompleteDescription"
+- "RPCCUIActivityBaubleCompleteDescriptionAdditions"
+- "RPCCUIActivityBaubleDescribing"
+- "RPCCUIActivityBaubleDescription"
+- "RPCCUIActivityBaubleGroupView"
+- "RPCCUIActivityBaubleLayoutDescribing"
+- "RPCCUIActivityBaubleView"
+- "RPCCUIActivityControl"
+- "RPCCUIActivityControlMenuItemView"
+- "RPCCUIActivityControlMenuView"
+- "RPCCUIActivityDisplaying"
+- "RPCCUIActivityListView"
+- "RPCCUIActivityListView intrinsicContentSize"
+- "RPCCUIActivityListView layoutSubviews"
+- "RPCCUIActivityListView recalculateContentSize"
+- "RPCCUIActivityListView recalculateContentSize contentViewFrame=%@"
+- "RPCCUIActivityListView setFrame"
+- "RPCCUIActivityListView setHeaderView"
+- "RPCCUIActivityListView setNeedsLayout"
+- "RPCCUIActivityPickerEducationCardView"
+- "RPCCUIActivityPickerViewController"
+- "RPCCUIActivityPickerViewController Activity picker education view default action triggered: %{public}@"
+- "RPCCUIActivityPickerViewController Activity picker education view dismiss action triggered: %{public}@"
+- "RPCCUIActivityPickerViewController ViewDidAppear"
+- "RPCCUIActivityPickerViewController loadView"
+- "RPCCUIActivityPickerViewController viewDidDisappear"
+- "RPCCUIActivityPickerViewController viewDidLayoutSubviews"
+- "RPCCUIActivityPickerViewController viewDidLoad"
+- "RPCCUIActivityPickerViewController viewWillAppear"
+- "RPCCUIActivityPickerViewController viewWillDisappear"
+- "RPCCUIActivityPickerViewController viewWillLayoutSubviews"
+- "RPCCUIAddActivityFooterView"
+- "RPCCUIAnimatedTransitionParticipating"
+- "RPCCUIContentSizeCategoryAdjusting"
+- "RPCCUIContracting"
+- "RPCCUIExpanding"
+- "RPCCUIExpandingContracting"
+- "RPCCUIHighlighting"
+- "RPCCUIMenuElement"
+- "RPCCUIOptionsControl"
+- "RPCCVideoEffect"
+- "RPCCVideoSettingsModule"
+- "RPCCVideoSettingsModule: Unable to load initial state, no applicable application bundle ID found"
+- "RPCCVideoSettingsModuleBackgroundViewController"
+- "RPCCVideoSettingsModuleViewController"
+- "RPCCVideoSettingsModuleViewControllerDelegate"
+- "RPVideoEffectsControlCenterModule"
+- "Reactions"
+- "ReplayKitCCUI"
+- "ReplayKitCCUIAdditions"
+- "Selection"
+- "T@\"<RPCCActivityDescribing>\",C,N,S_setDefaultActivity:,V_defaultActivity"
+- "T@\"<RPCCActivityDescribing>\",C,N,V_activityDescription"
+- "T@\"<RPCCActivityDescribing>\",C,N,V_suggestedActivity"
+- "T@\"<RPCCActivityDescribing>\",R,C,N,V_activeActivity"
+- "T@\"<RPCCModuleViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<RPCCVideoSettingsModuleViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",C,N,S_setActivityLifetimeDescriptions:,V_activityLifetimeDescriptions"
+- "T@\"NSArray\",C,N,V_activityViews"
+- "T@\"NSArray\",R,C,N,V_activeActivities"
+- "T@\"NSArray\",R,C,N,V_availableActivities"
+- "T@\"NSCharacterSet\",R,N"
+- "T@\"NSDate\",C,N,S_setActivityCreationDate:,V_activityCreationDate"
+- "T@\"NSDate\",R,C,N"
+- "T@\"NSMutableArray\",C,N,V_activeActivities"
+- "T@\"NSString\",?,C,N"
+- "T@\"NSString\",?,C,N,V_preferredContentSizeCategory"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,S_setActivityLifetimesAlternativeDescription:,V_activityLifetimesAlternativeDescription"
+- "T@\"NSString\",C,N,V_symbolImageName"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_bodyText"
+- "T@\"NSString\",R,C,N,V_effectIdentifier"
+- "T@\"NSString\",R,C,N,V_headlineText"
+- "T@\"NSString\",R,C,N,V_identifier"
+- "T@\"NSString\",R,C,N,V_intensityName"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@\"NSString\",R,C,N,V_systemImageName"
+- "T@\"NSString\",R,C,N,V_tintColorName"
+- "T@\"NSURL\",R,C,N"
+- "T@\"NSUUID\",R,C,N"
+- "T@\"NSUUID\",R,C,N,V_identifier"
+- "T@\"RPCCActivityManager\",&,N,G_activityManager,S_setActivityManager:,V_activityManager"
+- "T@\"RPCCUIActivityControlMenuView\",&,N,V_menuView"
+- "T@\"RPCCVideoEffect\",C,G_effect,S_setEffect:,V_effect"
+- "T@\"UIAction\",C,N"
+- "T@\"UIAction\",C,N,V_defaultAction"
+- "T@\"UIAction\",C,N,V_footerAction"
+- "T@\"UIAction\",R,C,N,V_dismissAction"
+- "T@\"UIColor\",R,C,N"
+- "T@\"UIColor\",R,C,N,V_tintColor"
+- "T@\"UIGestureRecognizer\",?,R,N"
+- "T@\"UIGestureRecognizer\",R,N,V_pressGestureRecognizer"
+- "T@\"UIImage\",C,N"
+- "T@\"UIView\",&,N"
+- "T@\"UIView\",&,N,G_initialUseView,S_setInitialUseView:,V_initialUseView"
+- "T@\"UIView\",&,N,V_appNameView"
+- "T@\"UIView\",&,N,V_footerView"
+- "T@\"UIView\",&,N,V_headerView"
+- "T@\"UIView\",R,N,V_prominentView"
+- "T@\"UIView<RPCCUIActivityDisplaying>\",&,N,V_compactActivityView"
+- "T@\"UIViewController<CCUIContentModuleContentViewController>\",W,N,V_contentViewController"
+- "TB,?,N,GisSelected"
+- "TB,N"
+- "TB,N,GisContentDetached,V_contentDetached"
+- "TB,N,GisContracted"
+- "TB,N,GisExpanded"
+- "TB,N,GisFooterPinnedToBottom,V_footerPinnedToBottom"
+- "TB,N,GisHighlighted"
+- "TB,N,GisHighlighted,V_highlighted"
+- "TB,N,GisLifetimeDescriptionsUpdatingEnabled,V_lifetimeDescriptionsUpdatingEnabled"
+- "TB,N,GisParentControlHighlighted,V_parentControlHighlighted"
+- "TB,N,GisParentControlSelected,V_parentControlSelected"
+- "TB,N,GisSelected"
+- "TB,N,GisSelectionHidden"
+- "TB,N,GisSelectionHidden,V_selectionHidden"
+- "TB,N,GisSeparatorVisible,V_separatorVisible"
+- "TB,N,V_adjustsFontForContentSizeCategory"
+- "TB,N,V_shouldCreateVideoPreview"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisDefaultConfiguration"
+- "TB,R,N,GisDrivingActivity"
+- "TB,R,N,GisMenuElement"
+- "TB,R,N,GisOnboardingComplete"
+- "TB,R,N,GisOnboardingEncountered"
+- "TB,R,N,GisPlaceholder"
+- "TB,R,N,GisSleepActivity"
+- "TB,V_shouldLoadFromSensor"
+- "TQ,R,N"
+- "Td,R,N,V_maximumPointSize"
+- "Td,R,N,V_referenceDimension"
+- "Td,R,N,V_referencePointSize"
+- "Tq,N,V_controlType"
+- "Tq,R,N,V_baubleGroupType"
+- "Tq,R,N,V_controlStyle"
+- "T{CGSize=dd},N,V_collapsedSize"
+- "UIContentSizeCategoryAdjusting"
+- "UIGestureRecognizerDelegate"
+- "UIPointerInteractionDelegate"
+- "UIViewControllerAnimatedTransitioning"
+- "UUID"
+- "UUIDString"
+- "Updated previously active activity: %{public}@"
+- "Updated suggested activity: %{public}@"
+- "Updating module VC with %{public}@ activity: %{public}@"
+- "UserNotificationsUIKit"
+- "[%{public}@] Activating a nil activity isn't permitted –\u00a0ignoring"
+- "[%{public}@] Activating activity: activity: %{public}@; lifetime: %{public}@; reason: %{public}@"
+- "[%{public}@] Attempt to activate activity not in collection: activity: %{public}@; availableActivities: %{public}@"
+- "[%{public}@] Calling _setActiveActivity with resolvedActivity: %@, lifetime: %@, reason: %@"
+- "[%{public}@] Deactivating all activities: reason: %{public}@"
+- "[%{public}@] Driving trigger did change"
+- "[%{public}@] Encountered error activating activity: activity: %{public}@; lifetime: %{public}@; error: %{public}@"
+- "[%{public}@] Encountered error deactivating all activites: %{public}@"
+- "[%{public}@] Failed to find activity for suggestion: %{public}@"
+- "[%{public}@] Notifying observer of active activity change: observer: %{public}@; active activity: %{public}@"
+- "[%{public}@] Notifying observer of available activities change: %{public}@"
+- "[%{public}@] Notifying observer of external camera change"
+- "[%{public}@] Notifying observer of lifetime descriptions change for activity: observer: %{public}@; activity: %{public}@"
+- "[%{public}@] Setting video effects enabled for identfier: %@, state: %d, success: %d"
+- "[%{public}@] Toggle activity: %@"
+- "[%{public}@] Updating active activity: %{public}@"
+- "[%{public}@] [Deprecated] Notifying observer of active mode change: %{public}@"
+- "[%{public}@] _currentBackgroundBlurEnabled=%d _currentCenterStageEnabled=%d _currentStudioLightEnabled=%d _currentGestureEnabled=%d, _currentReactionsEnabled=%d"
+- "[%{public}@] _currentBackgroundBlurState=%zu _currentBackgroundBlurEnabled=%d _currentBackgroundBlurSupported=%d"
+- "[%{public}@] _currentBackgroundBlurState=%zu _currentCenterStageState=%zu _currentStudioLightState=%zu _currentGestureState==%zu"
+- "[%{public}@] _currentBackgroundBlurSupported=%d _currentCenterStageSupported=%d _currentStudioLightSupported=%d _currentGestureSupported=%d"
+- "[%{public}@] _currentCenterStageState=%zu _currentCenterStageEnabled=%d _currentCenterStageSupported=%d"
+- "[%{public}@] _currentGestureState=%zu _currentGestureEnabled=%d _currentGestureSupported=%d"
+- "[%{public}@] _currentReactionsState=%zu _currentReactionsEnabled=%d _currentReactionsSupported=%d"
+- "[%{public}@] _currentStudioLightState=%zu _currentStudioLightEnabled=%d _currentStudioLightSupported=%d"
+- "[%{public}@] activeActivies=%@"
+- "[%{public}@] application bundle id is not set yet"
+- "[%{public}@] availableActivies=%@"
+- "[%{public}@] centerStageReason=%lu _currentCameraSupportsCenterStage=%d"
+- "[%{public}@] observer of external camera change"
+- "[%{public}@] setting intensity %f for effect %@. range min %f max %f. default %f"
+- "[%{public}@] unknown activity identifier provided"
+- "[NO REASON PROVIDED]"
+- "_FCCCAnimator"
+- "_FCUIActivityControlMenuFooterView"
+- "_RPCCUIActivityControlBackgroundView"
+- "_RPCCUIActivityControlContentView"
+- "_RPCCUIActivityPickerOnboardingDismissControl"
+- "_RPCCUIAddActivityControl"
+- "_RPCCVideoEffect"
+- "__runAlongsideAnimations"
+- "_accessoryImage"
+- "_accessoryImageFrameForBounds:"
+- "_accessoryImageView"
+- "_activationDescription"
+- "_activationDescriptionLabel"
+- "_activationDetails"
+- "_activationDetailsLabel"
+- "_activeActivities"
+- "_activeActivity"
+- "_activeEffectLabel"
+- "_activeModeAssertionIsValid"
+- "_activeTitleLabel"
+- "_activityCreationDate"
+- "_activityDescription"
+- "_activityDetailText"
+- "_activityForATXActivityOrSuggestion:"
+- "_activityForModeIdentifier:"
+- "_activityForUniqueIdentifier:"
+- "_activityIconImageView"
+- "_activityIconPackageView"
+- "_activityIconTintColorForSelectedAppearance:"
+- "_activityLifetimeDescriptions"
+- "_activityLifetimesAlternativeDescription"
+- "_activityListView"
+- "_activityManager"
+- "_activityManagerQueue"
+- "_activityPickerExpandedFrameForBounds:"
+- "_activityPickerViewController"
+- "_activityTitleLabel"
+- "_activityViewForRepresentedActivity:"
+- "_activityViews"
+- "_addActivityControl"
+- "_addViewRequiringUpdate:"
+- "_adjustsFontForContentSizeCategory"
+- "_allActivitiesByIdentifier"
+- "_alternativeDescriptionLabel"
+- "_animateUsingDefaultDampedSpringWithDelay:initialSpringVelocity:options:animations:completion:"
+- "_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:"
+- "_appNameView"
+- "_appNameViewValid"
+- "_applicationBundleID"
+- "_applicationContainerPath"
+- "_applicationDisplayName"
+- "_availableActivities"
+- "_backgroundBlurEffect"
+- "_backgroundView"
+- "_backgroundViewController"
+- "_baubleGroupType"
+- "_baubleViews"
+- "_bodyLabel"
+- "_bodyText"
+- "_buttonActions"
+- "_cameraIndicatorImage"
+- "_cameraOffIndicatorImage"
+- "_categoriesToVisualStylingProviders"
+- "_centerStageEffect"
+- "_checkCenterStageAvailability"
+- "_checkmarkImage"
+- "_cinematicFrameButton"
+- "_collapsedSize"
+- "_compactActivityView"
+- "_compactBounds"
+- "_configureAccessoryImageViewIfNecessary"
+- "_configureActivationDescriptionLabelIfNecessary"
+- "_configureActivationDetailsLabelIfNecessary"
+- "_configureActiveEffectLabelIfNecessary"
+- "_configureActiveTitleLabel:on:"
+- "_configureActiveTitleLabelIfNecesaryForOnState:"
+- "_configureActivityIconImageViewIfNecessaryForReference:"
+- "_configureActivityListViewWithAvailableActivities:"
+- "_configureActivityTitleLabelIfNecessary"
+- "_configureActivityTitleLabelIfNecessaryWithTitle:"
+- "_configureActivityView:withLifetimesDescriptionsForActivity:"
+- "_configureAddActivityControlIfNecessaryWithAction:"
+- "_configureAlternativeDescriptionLabelIfNecessary"
+- "_configureBackgroundMaterialViewIfNecesssary"
+- "_configureBackgroundViewIfNecessary"
+- "_configureBackgroundViewIfNecesssary"
+- "_configureBodyLabelIfNecessary"
+- "_configureCheckmarkImageViewIfNecessary"
+- "_configureContentViewIfNecessary"
+- "_configureDetailLabelIfNecessary"
+- "_configureDismissControlIfNecessaryWithAction:"
+- "_configureEducationCardIfNecessary"
+- "_configureFooterLabelIfNecessary"
+- "_configureFooterViewIfNecessary"
+- "_configureGlyphImageViewIfNecessary"
+- "_configureGlyphViewIfNecessary"
+- "_configureGlyphVisualStylingProviderIfNecessary"
+- "_configureHeadlineLabelIfNecessary"
+- "_configureHighlightViewIfNecessary"
+- "_configureHightlightViewIfNecessary"
+- "_configureInitialUseViewIfNecessary"
+- "_configureMenuViewIfNecessary"
+- "_configureOptionsButtonIfNecessary"
+- "_configureSeparatorViewIfNecessary"
+- "_configureSliderIfNecessary"
+- "_configureTextVisualStylingProviderIfNecessary"
+- "_contentDetached"
+- "_contentSizeCategoryAdjustingViews"
+- "_contentSizeForBounds:"
+- "_contentSizeValid"
+- "_contentView"
+- "_contentViewController"
+- "_contentViewFrameForContentSize:inBounds:"
+- "_controlSize"
+- "_controlStyle"
+- "_controlType"
+- "_cornerRadius"
+- "_cornerRadiusForControlFrame:"
+- "_currentBackgroundBlurEnabled"
+- "_currentBackgroundBlurState"
+- "_currentBackgroundBlurSupported"
+- "_currentCenterStageEnabled"
+- "_currentCenterStageState"
+- "_currentCenterStageSupported"
+- "_currentExpandedActivityView"
+- "_currentGestureEnabled"
+- "_currentGestureState"
+- "_currentGestureSupported"
+- "_currentReactionsEnabled"
+- "_currentReactionsState"
+- "_currentReactionsSupported"
+- "_currentStudioLightEnabled"
+- "_currentStudioLightState"
+- "_currentStudioLightSupported"
+- "_deactivateActivity:reason:"
+- "_defaultAction"
+- "_defaultActivity"
+- "_defaultTapGesture"
+- "_detailLabel"
+- "_detailLabelVisualStyleForHighlightState:"
+- "_didPerformUpdate"
+- "_dismissAction"
+- "_dismissControl"
+- "_dismissHeader"
+- "_displayView"
+- "_doesActivity:identifySameModeAsActivity:"
+- "_drawingContext"
+- "_drawingSelectedAppearance"
+- "_drivingTriggerDidChange"
+- "_effect"
+- "_effectIdentifier"
+- "_effectiveGlyphPointSize"
+- "_effectiveTitle"
+- "_enumerateObserversRespondingToSelector:usingBlock:"
+- "_expandActivityPicker"
+- "_expanded"
+- "_expandedGlyphImage"
+- "_expandedOffGlyphImage"
+- "_expansionState"
+- "_feedbackGenerator"
+- "_flatImageWithColor:"
+- "_fontForTitleLabel"
+- "_footerAction"
+- "_footerLabel"
+- "_footerPinnedToBottom"
+- "_footerView"
+- "_footerViewValid"
+- "_gestureButton"
+- "_gesturesEnabled"
+- "_glyphFrameForLayoutFrame:sizeThatFits:"
+- "_glyphImageNameForCurrentStateWithControlType:"
+- "_glyphImageView"
+- "_glyphView"
+- "_glyphViewVisualStyleForCurrentState"
+- "_glyphVisualStylingProvider"
+- "_handleDefaultTap:"
+- "_handlePressGesture:"
+- "_hasActiveSuggestion"
+- "_headerView"
+- "_headerViewValid"
+- "_headlineLabel"
+- "_headlineText"
+- "_highlightView"
+- "_highlighted"
+- "_highlightingBackgroundView"
+- "_iconLayoutFrameForControlFrame:isRTL:controlSize:"
+- "_identifier"
+- "_imageSymbolConfiguration"
+- "_imageView"
+- "_imageViewFrameWithBounds:"
+- "_initWithEffect:"
+- "_initWithIdentifier:"
+- "_initialContentOffset"
+- "_initialSourceViewFrame"
+- "_initialUseView"
+- "_inscribedRectInBoundingPathByInsettingRect:onEdges:withOptions:"
+- "_intensityName"
+- "_invalidateActiveModeAssertion"
+- "_invalidateAndAnimateViewLayoutIfAppropriate"
+- "_invalidateContentSize"
+- "_invalidateInitialUseView"
+- "_invalidatePreferredExpandedContentSize"
+- "_isBackgroundViewHighlighted"
+- "_isCheckmarkEnabled"
+- "_isConfiguringEducationCard"
+- "_isDrawingSelectedAppearance"
+- "_isInAnimationBlockWithAnimationsEnabled"
+- "_isRequestingInitialUseView"
+- "_isVideoModuleEnabled"
+- "_isVideoModuleOn"
+- "_isolatedActivityView"
+- "_layoutSubviewInBounds:measuringOnly:"
+- "_layoutSubviewsInBounds:measuringOnly:"
+- "_lifetimeDescriptionsUpdatingEnabled"
+- "_lifetimeForActiveActivity"
+- "_lifetimeForLifetimeDetailsIdentifier:ofActivity:"
+- "_lifetimeOfActiveActivity"
+- "_lightingEffect"
+- "_markOnboardingComplete"
+- "_markOnboardingEncountered"
+- "_maxImageOff"
+- "_maxImageOn"
+- "_maxPointSize"
+- "_maximumPointSize"
+- "_menuItemViews"
+- "_menuView"
+- "_minImageOff"
+- "_minImageOn"
+- "_moduleContainerView"
+- "_moduleViewController"
+- "_name"
+- "_needsTextAttributesUpdate"
+- "_newLabel"
+- "_newMenuItemView"
+- "_newSlider"
+- "_newTitleLabelForOnState:"
+- "_notifyObserversOfAvailableActivitiesChange"
+- "_notifyObserversOfLifetimeChangeForActivity:"
+- "_observers"
+- "_openEditUI:"
+- "_openSetupUI:"
+- "_openURL:"
+- "_optionsButton"
+- "_optionsButtonLayoutFrameForControlFrame:isRTL:"
+- "_optionsControlTypeForControlStyle:"
+- "_orderedSubviewsIncludingHeader:andFooter:"
+- "_outgoingActivityViews"
+- "_outgoingMenuItemViews"
+- "_outgoingTitleLabel"
+- "_parentControlHighlighted"
+- "_parentControlSelected"
+- "_portraitBlurButton"
+- "_preferredContentSizeCategory"
+- "_preferredExpandedContentSize"
+- "_preferredFont:textStyle:weight:"
+- "_preferredFont:textStyle:weight:additionalTraits:"
+- "_preferredFont:textStyle:weight:additionalTraits:compatibleWithTraitCollection:"
+- "_preferredFontDescriptorWithTextStyle:addingSymbolicTraits:design:weight:compatibleWithTraitCollection:"
+- "_presentActivityEditUI:"
+- "_pressGestureRecognizer"
+- "_previouslyActiveActivity"
+- "_prominentView"
+- "_purgeableActivityViews"
+- "_purgeableMenuItemViews"
+- "_reactionsEffect"
+- "_recalculateContentSize"
+- "_recipe"
+- "_referenceDimension"
+- "_referenceFont"
+- "_referencePointSize"
+- "_scaledValueForValue:"
+- "_selectionHidden"
+- "_separatorHeight"
+- "_separatorView"
+- "_separatorVisible"
+- "_setAccessoryImage:"
+- "_setActivationDescription:"
+- "_setActivationDetails:"
+- "_setActiveActivity:withLifetime:reason:"
+- "_setActiveEffectLabelVibrancy"
+- "_setActivityCreationDate:"
+- "_setActivityIcon:forReference:"
+- "_setActivityIconPackageView:"
+- "_setActivityLifetimeDescriptions:"
+- "_setActivityLifetimesAlternativeDescription:"
+- "_setActivityManager:"
+- "_setAnimator:"
+- "_setAvailableActivities:"
+- "_setBackgroundViewHighlighted:"
+- "_setConfiguringEducationCard:"
+- "_setContainerView:"
+- "_setContractedFrame:viaResizeWithRepresentedActivity:transitionCoordinator:"
+- "_setContractedFrame:viaScaleWithRepresentedActivity:transitionCoordinator:"
+- "_setCornerRadius:"
+- "_setDefaultActivity:"
+- "_setDrawingSelectedAppearance:"
+- "_setEffect:"
+- "_setExpandedFrame:initialFrame:representedActivity:anchorActivityView:collapsedSizeBlock:preludeBlock:activityViewAnimationBlock:transitionCoordinator:"
+- "_setExpandedFrame:initialFrame:viaResizeWithRepresentedActivity:transitionCoordinator:"
+- "_setExpandedFrame:initialFrame:viaScaleWithRepresentedActivity:transitionCoordinator:"
+- "_setHyphenationFactor:"
+- "_setInitialUseView:"
+- "_setKeepTouchesOnContinuation:"
+- "_setLifetimeForActiveActivity:"
+- "_setNeedsTextAttributesUpdate"
+- "_setRequestingInitialUseView:"
+- "_setSelectedIfNeccessary"
+- "_setSliderAction:"
+- "_setSubtitleLabelText"
+- "_setTextAlignmentFollowsWritingDirection:"
+- "_setTextLayoutDisabled:"
+- "_setupModuleImageView"
+- "_setupVideoImageTint"
+- "_sharedDefaults"
+- "_shouldCreateVideoPreview"
+- "_shouldIlluminate"
+- "_shouldUseExpandedHeight"
+- "_sizeThatFits:collapsedToPill:includingFooter:forceMeasurement:"
+- "_sizeThatFits:withControlSize:"
+- "_slider"
+- "_studioLightButton"
+- "_subtitleActivityFontActivityFontForSubTitleLabel:"
+- "_subtitleEffectView"
+- "_suggestedActivity"
+- "_supportedLabel"
+- "_symbolImageName"
+- "_systemImageName"
+- "_tapGesture"
+- "_targetContainerBounds"
+- "_tearDownAccessoryImageViewIfNecessary"
+- "_tearDownCheckmarkImageViewIfNecessary"
+- "_tearDownSeparatorViewIfNecessary"
+- "_textAttributesValid"
+- "_textFrameForBounds:accessoryImageFrame:"
+- "_textFrameForControlFrame:iconLayoutFrame:isRTL:controlSize:"
+- "_textFrameInBounds:isRTL:"
+- "_textLayoutDisabled"
+- "_textVisualStylingProvider"
+- "_tintColor"
+- "_tintColorName"
+- "_titleLabel"
+- "_titleLabelVisualStyleForHighlightState:"
+- "_toggleHighlightForMenuElement:"
+- "_traitRegistration"
+- "_transitionCoordinator"
+- "_unexpandedSubtitleFont"
+- "_unexpandedSubtitleLabel"
+- "_unexpandedTitleFont"
+- "_unexpandedTitleLabel"
+- "_updateAccessibilityIdentifier"
+- "_updateActiveActivities"
+- "_updateActiveActivity:"
+- "_updateActiveModeAssertionIfNecessary"
+- "_updateActivity:withLifetimeDescriptions:"
+- "_updateActivityDetail"
+- "_updateActivityIcon"
+- "_updateActivitySuggestion:"
+- "_updateActivityTitle"
+- "_updateAppNameView"
+- "_updateCameraState"
+- "_updateCameraStateControlCenter"
+- "_updateCreationDateOfActivity:"
+- "_updateDrawingSelectedAppearance"
+- "_updateEffect:"
+- "_updateHeaderOrFooterIfNecessary"
+- "_updateLifetimeForActiveActivity"
+- "_updateLifetimeForActiveActivityIfNecessary"
+- "_updateLifetimesAlternativeDescription:forActivity:"
+- "_updateLifetimesAlternativeDescriptionForActivity:"
+- "_updateLifetimesAlternativeDescriptionsForAvailableActivities"
+- "_updateModuleImageView"
+- "_updatePreferredContentSize"
+- "_updatePreviouslyActiveActivity:"
+- "_updateSelectedStateOfActivityControl:activeActivity:lifetimeOfActiveActivity:"
+- "_updateSelectedStateOfActivityViews"
+- "_updateSuggestedActivity:"
+- "_updateSuggestedActivity:forLocation:"
+- "_updateTextAttributes"
+- "_updateTextAttributesForActivationDescriptionLabel"
+- "_updateTextAttributesForActivationDetailsLabel"
+- "_updateTextAttributesForActivityItemImageView"
+- "_updateTextAttributesForActivityTitleLabel"
+- "_updateTextAttributesForAlternativeDescriptionLabel"
+- "_updateTextAttributesForBodyLabel"
+- "_updateTextAttributesForDetailLabel"
+- "_updateTextAttributesForFooterLabel"
+- "_updateTextAttributesForHeadlineLabel"
+- "_updateTextAttributesForTitleLabel"
+- "_updateTextAttributesForTitleLabel:"
+- "_updateTextAttributesIfNecessary"
+- "_updateTitle:on:"
+- "_updateVideoImageViewWithCameraOn:"
+- "_updateVisualStylingOfView:style:visualStylingProvider:outgoingProvider:"
+- "_updateVisualStylingOfView:style:visualStylingProvider:outgoingProvider:observerBlock:"
+- "_userInterfaceStyleForSelectedAppearance:"
+- "_videoImage"
+- "_videoImageView"
+- "_videoOffImage"
+- "_videoOffImageView"
+- "_viewsRequiringUpdate"
+- "_visualStylingForStyleNamed:"
+- "_visualStylingProvider:didChangeForCategory:outgoingProvider:"
+- "_visualStylingProviderDidChange:forCategory:outgoingProvider:"
+- "actionWithHandler:"
+- "actionWithTitle:image:identifier:handler:"
+- "activeActivities"
+- "activeActivity"
+- "activeActivityDidChangeForManager:"
+- "activeActivityLifetimeDidChangeForManager:"
+- "activeModeDidChangeForManager:"
+- "activitiesSettingsURL"
+- "activityColorName"
+- "activityCreationDate"
+- "activityDescription"
+- "activityDetailText"
+- "activityDisplayName"
+- "activityIcon"
+- "activityIdentifier"
+- "activityLifetimeDescriptions"
+- "activityLifetimeDescriptions: %@"
+- "activityLifetimesAlternativeDescription"
+- "activityLifetimesAlternativeDescription: %@"
+- "activityManager"
+- "activityManager:lifetimeDescriptionsDidChangeForActivity:"
+- "activityManager:suggestedActivityDidChangeForLocation:"
+- "activitySettingsURL"
+- "activitySetupURL"
+- "activitySymbolImageName"
+- "activityUniqueIdentifier"
+- "activityViews"
+- "activityWithIdentifier:"
+- "addAction:forControlEvents:"
+- "addAnimations:"
+- "addButtonAction:"
+- "addChildViewController:"
+- "addGestureRecognizer:"
+- "addInteraction:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addVideoView"
+- "adjustForContentSizeCategoryChange"
+- "adjustsFontForContentSizeCategory"
+- "allObjects"
+- "alpha"
+- "alternativeDescription"
+- "animateAlongsideTransition:completion:"
+- "animateTransition:"
+- "animationEnded:"
+- "appNameView"
+- "arrayByAddingObject:"
+- "arrayWithObjects:count:"
+- "automaticallyUpdateView:withStyle:andObserverBlock:"
+- "availableActivities"
+- "availableActivitiesDidChangeForManager:"
+- "availableFrameSenderEndpointsByPID changed. endpoints dict: %@"
+- "back camera"
+- "baubleGroupType"
+- "begin"
+- "beginAppearanceTransition:animated:"
+- "bezierPathWithOvalInRect:"
+- "bezierPathWithRoundedRect:cornerRadius:"
+- "blackColor"
+- "bodyText"
+- "boundingRectWithSize:options:attributes:context:"
+- "bs_firstObjectPassingTest:"
+- "bs_isAppearingOrAppeared"
+- "bundleWithIdentifier:"
+- "button"
+- "buttonTapped:forEvent:"
+- "buttonView"
+- "camera.lightcontrol"
+- "checkLockStatus"
+- "checkmark"
+- "chevron.forward"
+- "chevronTapped(sender:)"
+- "chevronTappedWithSender:"
+- "cinematicFrameButtonPressed:"
+- "collapsedSize"
+- "colorWithWhite:alpha:"
+- "com.apple.FocusUI.RPCCUIActivityPickerViewController"
+- "com.apple.donotdisturb.mode.default"
+- "com.apple.donotdisturb.mode.workout"
+- "com.apple.focus.reading"
+- "com.apple.replaykit.VideoConferenceControlCenterModule"
+- "com.apple.replaykitccui"
+- "com.apple.sleep.sleep-mode"
+- "commit"
+- "compactActivityView"
+- "completeDescriptionWithReferencePointSize:maximumPointSize:referenceDimension:"
+- "completeTransition:"
+- "configurationWithFont:scale:"
+- "configurationWithHierarchicalColor:"
+- "configurationWithTextStyle:"
+- "containsObject:"
+- "containsValueForKey:"
+- "contentDetached"
+- "contentInsetsWithBounds:"
+- "contentSize"
+- "contentView"
+- "contracted"
+- "controlCenterKeyLineOnLightVibrancyEffect"
+- "controlCenterModuleBackgroundMaterial"
+- "controlCenterPrimaryVibrancyEffect"
+- "controlCenterSecondaryVibrancyEffect"
+- "controlStyle"
+- "convertRect:fromView:"
+- "convertRect:toView:"
+- "copy"
+- "copyWithZone:"
+- "cornerCurve"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "cube"
+- "cube.fill"
+- "currentDevice"
+- "currentRotation=%@ newRotation=%@ mirrorType=%d orientation=%ld portType=%@ deviceType=%@"
+- "d"
+- "d16@?0@\"UILabel\"8"
+- "d24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "d24@0:8@16"
+- "d24@0:8Q16"
+- "d24@0:8d16"
+- "d28@0:8d16B24"
+- "d32@0:8@16Q24"
+- "d40@0:8@16Q24d32"
+- "d48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "decodeObjectOfClass:forKey:"
+- "defaultAction"
+- "defaultActivity"
+- "defaultConfiguration"
+- "defaultEducationCardViewActivityIdentifiers"
+- "defaultEducationCardViewWithDismissAction:"
+- "defaultEffect"
+- "defaultFontDescriptorWithTextStyle:"
+- "defaultFontDescriptorWithTextStyle:addingSymbolicTraits:options:"
+- "defaultTintColorName"
+- "defaultWorkspace"
+- "detail text"
+- "detailText"
+- "didMoveToParentViewController:"
+- "didShowSuggestedActivity:location:"
+- "disabled"
+- "discoverabilityTitle"
+- "dismissAction"
+- "dismissModule"
+- "dnd"
+- "dnd_defaultSetupURL"
+- "drawInRect:"
+- "drivingActivity"
+- "educationCardView _layoutSubviewInBounds %@"
+- "educationCardView layoutSubviews self frame=%@"
+- "educationCardView setFrame previous=%@ new=%@"
+- "educationCardView sizeThatFits %@"
+- "effect"
+- "effectIdentifier"
+- "effectWithPreview:"
+- "effectiveContentFrameForContainerFrame:"
+- "ellipsis"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endAppearanceTransition"
+- "endIsolation"
+- "enumerateEventHandlers:"
+- "enumerateObjectsUsingBlock:"
+- "expanded"
+- "external camera"
+- "externalCameraDidChangeForManager:"
+- "f.cursive"
+- "firstObject"
+- "focus-modes-ui"
+- "focusModeGlyph"
+- "focusModeText"
+- "font"
+- "fontDescriptorByAddingAttributes:"
+- "fontWithDescriptor:size:"
+- "footer"
+- "footerAction"
+- "footerPinnedToBottom"
+- "footerView"
+- "frameReceiver"
+- "front camera"
+- "gestureButtonPressed:"
+- "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:"
+- "gestureRecognizer:shouldReceiveEvent:"
+- "gestureRecognizer:shouldReceivePress:"
+- "gestureRecognizer:shouldReceiveTouch:"
+- "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"
+- "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:"
+- "gestureRecognizerForExclusionRelationships"
+- "gestureRecognizerShouldBegin:"
+- "getAppNameString"
+- "hand.raised.square"
+- "handleTap:"
+- "hashTableWithOptions:"
+- "headerView"
+- "headlineText"
+- "hideVideoConferenceButtons:"
+- "highlighted"
+- "hitTest:withEvent:"
+- "identifier"
+- "identifier: %@, activity %@ isControlForActiveActivity: %d"
+- "image"
+- "indexOfObject:"
+- "indexOfObjectPassingTest:"
+- "initWithAction:"
+- "initWithActivityDescription:"
+- "initWithActivityDescription:referencePointSize:maximumPointSize:referenceDimension:"
+- "initWithActivityDescription:style:"
+- "initWithArray:"
+- "initWithBaubleDescription:shadowAttributes:"
+- "initWithBaubleDescriptions:baubleGroupType:"
+- "initWithCapacity:"
+- "initWithConfiguration:coordinateSpace:"
+- "initWithControlStyle:"
+- "initWithDelegate:"
+- "initWithDuration:timingParameters:"
+- "initWithEffect:"
+- "initWithGlyphImage:highlightColor:useLightStyle:"
+- "initWithHeadlineText:bodyText:dismissAction:"
+- "initWithMass:stiffness:damping:initialVelocity:"
+- "initWithMode:"
+- "initWithName:effectIdentifier:symbolImageName:tintColorName:intensityName:"
+- "initWithName:effectIdentifier:symbolImageName:tintColorName:intensityName:identifier:"
+- "initWithReferencePointSize:maximumPointSize:"
+- "initWithSystemImageName:tintColor:"
+- "initWithSystemImageName:tintColor:referencePointSize:maximumPointSize:referenceDimension:"
+- "initWithTarget:action:"
+- "initWithView:"
+- "initWithView:parameters:"
+- "initialUseView"
+- "initialize"
+- "insertObject:atIndex:"
+- "insertString:atIndex:"
+- "insertSubview:aboveSubview:"
+- "insertSubview:atIndex:"
+- "integerValue"
+- "intensityName"
+- "interruptibleAnimatorForTransition:"
+- "isActivityLocalUserInitiated:"
+- "isCancelled"
+- "isContentDetached"
+- "isContracted"
+- "isDefaultConfiguration"
+- "isDrivingActivity"
+- "isFooterPinnedToBottom"
+- "isLifetimeDescriptionsUpdatingEnabled"
+- "isMenuElement"
+- "isOnboardingComplete"
+- "isOnboardingEncountered"
+- "isParentControlHighlighted"
+- "isParentControlSelected"
+- "isPlaceholder"
+- "isSelectionHidden"
+- "isSeparatorVisible"
+- "isSleepActivity"
+- "isVideoModuleEnabled"
+- "isolateActivityView:withInset:"
+- "lastObject"
+- "layoutVideoConferenceSubviews"
+- "leading"
+- "lifetimeDescriptionsUpdatingEnabled"
+- "lifetimeIdentifier"
+- "lifetimeOfActivity:"
+- "lightConfiguration"
+- "lineHeight"
+- "loadViewIfNeeded"
+- "localizedStringForKey:value:table:"
+- "localizedTerminationDescriptionForActiveActivity"
+- "locationInView:"
+- "mainBundle"
+- "maxUIAddableEffects"
+- "maximumActivityCountForUserInterface"
+- "maximumPointSize"
+- "menuAlternativeDescription"
+- "menuElement"
+- "menuItemActions"
+- "menuItemElements"
+- "menuView"
+- "metricsForTextStyle:"
+- "mode-%@"
+- "moduleListTint"
+- "moduleViewController:initialUseView:"
+- "moon.fill"
+- "mt_replaceVisualStyling:"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "newActivityManager"
+- "newActivityManagerWithIdentifier:"
+- "newFocus"
+- "numberOfLineFragments"
+- "numberOfTapsRequired"
+- "numberOfTouchesRequired"
+- "numberWithDouble:"
+- "numberWithInteger:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "onboardingComplete"
+- "onboardingEncountered"
+- "openSensitiveURL:withOptions:error:"
+- "optionsAction"
+- "panGestureRecognizer"
+- "parentControlHighlighted"
+- "parentControlSelected"
+- "parentViewController"
+- "performAction"
+- "performWithSender:target:"
+- "performWithoutAnimation:"
+- "person.crop.rectangle.fill"
+- "placeholder"
+- "placeholderEffectFromEffect:"
+- "plus"
+- "pointerInteraction:regionForRequest:defaultRegion:"
+- "pointerInteraction:styleForRegion:"
+- "pointerInteraction:willEnterRegion:animator:"
+- "pointerInteraction:willExitRegion:animator:"
+- "portraitBlurButtonPressed:"
+- "preferredContentSizeCategory"
+- "preferredContentSizeDidChangeForChildContentContainer:"
+- "preferredFontDescriptorWithTextStyle:"
+- "preferredFontDescriptorWithTextStyle:addingSymbolicTraits:options:"
+- "preferredFontForTextStyle:compatibleWithTraitCollection:"
+- "pressGestureRecognizer"
+- "previously active"
+- "prominentView"
+- "promotePlaceholderActivity:"
+- "promotedPlaceholderActivity:"
+- "q20@0:8B16"
+- "q24@0:8q16"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:options:"
+- "rect"
+- "rectangle.inset.filled.and.person.filled"
+- "referenceDimension"
+- "referencePointSize"
+- "refreshSensorActivityData"
+- "regionWithRect:identifier:"
+- "registerForTraitChanges:withHandler:"
+- "removeAction:forControlEvents:"
+- "removeAllObjects"
+- "removeButtonAction:"
+- "removeGestureRecognizer:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeVideoPreview"
+- "removeVideoView"
+- "representedObjectIdentifier"
+- "requestExpandModule"
+- "requireGestureRecognizerToFail:"
+- "rpccui_animateWithAnimationType:actions:completion:"
+- "rpccui_animateWithDefaultParameters:completion:"
+- "rpccui_animateWithSelectionParameters:completion:"
+- "rpccui_colorForActivity:"
+- "rpccui_containsExcessiveLineHeightCharacters"
+- "rpccui_drawingHeightForText:withNumberOfLines:additionalPadding:"
+- "rpccui_drawingHeightWithNumberOfLines:"
+- "rpccui_effectiveLineHeightForText:"
+- "rpccui_effectiveScaledValueForValue:hasExuberatedLineHeight:"
+- "rpccui_excessiveLineHeightChars"
+- "rpccui_exuberatedValueForValue:"
+- "rpccui_hasExuberatedLineHeight"
+- "rpccui_hasExuberatedLineHeightForText:"
+- "rpccui_isEqualToAction:"
+- "rpccui_isEqualToActionArray:"
+- "rpccui_layoutPrimaryLabel:secondaryLabel:inTextFrame:primaryLabelFrame:secondaryLabelFrame:drawingContext:"
+- "rpccui_layoutViewIfNeededAndAppearingOrAppearedWithAnimation:"
+- "rpccui_layoutViewIfNeededAndAppearingOrAppearedWithSelectionAnimation"
+- "rpccui_measuringHeightForText:withNumberOfLines:"
+- "rpccui_measuringHeightWithNumberOfLines:"
+- "rpccui_numberOfLinesForText:inFrame:maximum:drawingContext:"
+- "rpccui_numberOfLinesInFrame:maximum:drawingContext:"
+- "safeAreaInsets"
+- "scale"
+- "scaledValueForValue:"
+- "scaledValueForValue:compatibleWithTraitCollection:"
+- "secondaryLabelColor"
+- "selected"
+- "selectionChanged"
+- "selectionHidden"
+- "semanticContentAttribute"
+- "sender"
+- "separatorVisible"
+- "setActiveActivities:"
+- "setActiveActivity:"
+- "setActiveActivity:reason:"
+- "setActiveActivity:withLifetime:reason:"
+- "setActivity:active:reason:"
+- "setActivity:active:withLifetime:reason:"
+- "setActivityDescription:"
+- "setActivityIcon:"
+- "setActivityViews:"
+- "setAdjustsFontForContentSizeCategory:"
+- "setAlternativeDescription:"
+- "setAlwaysBounceVertical:"
+- "setAppNameView:"
+- "setAutoresizesSubviews:"
+- "setAutoresizingMask:"
+- "setCancelsTouchesInView:"
+- "setCenter:"
+- "setCinematicFrameButtonSubtitle:"
+- "setCollapsedSize:"
+- "setCompactActivityView:"
+- "setContentDetached:"
+- "setContentEdgeInsets:"
+- "setContentInset:"
+- "setContentOffset:"
+- "setContentSize:"
+- "setContentViewController:"
+- "setContracted:"
+- "setContractedFrame:representedActivity:presentationStyle:transitionCoordinator:"
+- "setControlType:"
+- "setDefaultAction:"
+- "setDelaysTouchesEnded:"
+- "setDetailText:"
+- "setDisableActions:"
+- "setDiscoverabilityTitle:"
+- "setEffect:"
+- "setExpanded:"
+- "setExpanded:withTransitionCoordinator:"
+- "setExpandedFrame:initialFrame:representedActivity:presentationStyle:transitionCoordinator:"
+- "setFooterAction:"
+- "setFooterPinnedToBottom:"
+- "setFooterView:"
+- "setFrame:"
+- "setGestureButtonSubtitle:"
+- "setGlyphImage:"
+- "setGlyphVisualStylingProvider:"
+- "setHeaderView:"
+- "setHitTestInsets:"
+- "setHomeGestureDismissalAllowed:"
+- "setImage:"
+- "setInoperative:"
+- "setIntensity:forActivityIdentifier:"
+- "setIntensityName:"
+- "setLabelsVisible:"
+- "setLifetimeDescriptionsUpdatingEnabled:"
+- "setMaskedCorners:"
+- "setMaximumValue:"
+- "setMenuAlternativeDescription:"
+- "setMenuItemActions:"
+- "setMenuView:"
+- "setMinimumPressDuration:"
+- "setMinimumValue:"
+- "setMinimumValueImage:"
+- "setName:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptionsAction:"
+- "setParentControlHighlighted:"
+- "setParentControlSelected:"
+- "setPortraitBlurButtonSubtitle:"
+- "setPreferredContentSize:"
+- "setPreferredContentSizeCategory:"
+- "setPreferredSymbolConfiguration:"
+- "setPrefersExpandedContentSizeMatchesGridSize:"
+- "setScrollEnabled:"
+- "setSelectionHidden:"
+- "setSeparatorVisible:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShouldCreateVideoPreview:"
+- "setShowsHorizontalScrollIndicator:"
+- "setShowsVerticalScrollIndicator:"
+- "setSlider:"
+- "setState:"
+- "setState:animated:"
+- "setState:forActivity:"
+- "setStudioLightButtonSubtitle:"
+- "setSubtitle:"
+- "setSuggestedActivity:"
+- "setSymbolImageName:"
+- "setTextColor:"
+- "setTintColorName:"
+- "setTitle:"
+- "setUserInteractionEnabled:"
+- "setValue:"
+- "setVisiblePath:"
+- "setWantsNumberOfLineFragments:"
+- "setWithObject:"
+- "settingsURL"
+- "setupCameraEffectsInitialState"
+- "setupCameraEffectsNotifications"
+- "setupInitialApplicationBundleID"
+- "setupInitialModuleState"
+- "setupInitialStateAndNotifications"
+- "setupModuleButtons"
+- "setupModuleImageView"
+- "setupTitleLabelViews"
+- "setupURL"
+- "setupUnavailableLabel"
+- "sharedActivityManager"
+- "shouldActivityShowStatusPill:"
+- "shouldAutomaticallyForwardAppearanceMethods"
+- "shouldCreateVideoPreview"
+- "size"
+- "sizeThatFits:"
+- "sizeThatFitsCollapsedToPill:"
+- "sizeToFit"
+- "sleepActivity"
+- "startAnimationAfterDelay:"
+- "startFrameReceiver"
+- "state"
+- "stringByAppendingFormat:"
+- "studioLightButtonPressed:"
+- "styleWithEffect:shape:"
+- "subviewFramesInBounds:"
+- "suggested"
+- "suggestedActivity"
+- "suggestedActivityFeedbackReceiver"
+- "suggestedActivityForLocation:"
+- "superview"
+- "supportsDiscreteLifetimes"
+- "supportsSecureCoding"
+- "symbolImageName"
+- "systemBackgroundColor"
+- "systemBlackColor"
+- "systemFontOfSize:weight:"
+- "systemGreenColor"
+- "systemImageName"
+- "systemImageNamed:"
+- "systemImageNamed:compatibleWithTraitCollection:"
+- "systemImageNamed:withConfiguration:"
+- "systemIndigoColor"
+- "tertiarySystemFillColor"
+- "text"
+- "tintColor"
+- "tintColorName"
+- "title"
+- "toggleExpandedActivityView:withTransitionCoordinator:"
+- "touchesBegan:withEvent:"
+- "touchesCancelled:withEvent:"
+- "touchesEnded:withEvent:"
+- "touchesShouldCancelInContentView:"
+- "traitCollection"
+- "traitCollectionWithPreferredContentSizeCategory:"
+- "transform"
+- "transitionCoordinator"
+- "transitionDuration"
+- "transitionDuration:"
+- "unregisterForTraitChanges:"
+- "updateActivityIconImageView"
+- "updateActivteActivityText"
+- "updateBackgroundViewControllerAvailableLabel"
+- "updateCameraStateExternal"
+- "updateItemViewWithState:"
+- "updateMenuItemViewWithState:"
+- "updateModuleImageView"
+- "updateModuleSubtitle"
+- "updateSupportedLabelConstraints"
+- "updateSupportedLabelFont"
+- "updateUnavailableLabel"
+- "updateVideoButtonConstraints"
+- "updateVideoImageViewWithCameraOn:"
+- "updating descriptionLabel=%@ state=%d"
+- "usedRecently"
+- "userDidAcceptSuggestedActivity:location:"
+- "userDidRejectSuggestedActivity:location:"
+- "userDidSeeSuggestedActivity:location:"
+- "userInterfaceIdiom"
+- "userInterfaceLayoutDirectionForSemanticContentAttribute:"
+- "v12@?0B8"
+- "v16@?0@\"<RPCCActivityManagerObserving>\"8"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v16@?0@\"UIAction\"8"
+- "v16@?0@\"UIView\"8"
+- "v24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"RPCCActivityManager\"16"
+- "v24@0:8@\"UIImage\"16"
+- "v24@0:8B16B20"
+- "v24@?0@\"<UITraitEnvironment>\"8@\"UITraitCollection\"16"
+- "v24@?0@\"MTVisualStylingProvider\"8@16"
+- "v24@?0{CGSize=dd}8"
+- "v28@0:8@16B24"
+- "v28@0:8B16@\"<UIViewControllerTransitionCoordinator>\"20"
+- "v32@0:8:16@?24"
+- "v32@0:8@\"<RPCCActivityDescribing>\"16q24"
+- "v32@0:8@\"RPCCActivityManager\"16@\"<RPCCActivityDescribing>\"24"
+- "v32@0:8@\"RPCCActivityManager\"16q24"
+- "v32@0:8@\"RPCCModuleViewController\"16@?<v@?@\"UIView\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@?16@?24"
+- "v32@0:8{CGSize=dd}16"
+- "v32@?0@\"UIView<RPCCUIActivityDisplaying>\"8Q16^B24"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"UIPointerInteraction\"16@\"UIPointerRegion\"24@\"<UIPointerInteractionAnimating>\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v40@0:8q16@?24@?32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v40@?0d8d16q24@?<v@?>32"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8@16q24@32@40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v48@?0@\"UIAction\"8@16:24Q32^B40"
+- "v48@?0@\"UIView\"8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v56@0:8@16q24@32@40@?48"
+- "v56@0:8@16{UIEdgeInsets=dddd}24"
+- "v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16o^{CGSize=dd}48"
+- "v60@0:8B16{CGRect={CGPoint=dd}{CGSize=dd}}20@\"<UIViewControllerTransitionCoordinator>\"52"
+- "v60@0:8B16{CGRect={CGPoint=dd}{CGSize=dd}}20@52"
+- "v88@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32o^{CGRect={CGPoint=dd}{CGSize=dd}}64o^{CGRect={CGPoint=dd}{CGSize=dd}}72N@80"
+- "v96@?0@\"UIView\"8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48q80@?<v@?ddq@?<v@?>>88"
+- "valueWithBytes:objCType:"
+- "video.cirle.fill"
+- "video.fill"
+- "video.slash.fill"
+- "videoView"
+- "viewDidLayoutSubviews"
+- "viewDidMoveToWindow:shouldAppearOrDisappear:"
+- "viewWillLayoutSubviews"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "weakObjectsHashTable"
+- "weakToStrongObjectsMapTable"
+- "whiteColor"
+- "willPresent:withTargetContainerBounds:transitionCoordinator:"
+- "xmark"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}104@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48@80q88@96"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}128@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48@80@88@?96@?104@?112@120"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}40@0:8N^{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48q52"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}64@0:8{CGSize=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48q56@64"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}80@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}92@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48B80q84"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}96@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48@80@88"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16q32"
+- "{CGSize=dd}44@0:8{CGSize=dd}16B32B36B40"
+- "{CGSize=dd}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "{CGSize=dd}8@?0"
+- "{UIEdgeInsets=dddd}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "\x91"
+- "\xe1"
+- "\xf0\x91"
+
+```

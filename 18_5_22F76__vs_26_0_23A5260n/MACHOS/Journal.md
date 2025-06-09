@@ -1,0 +1,7424 @@
+## Journal
+
+> `/private/var/staged_system_apps/Journal.app/Journal`
+
+```diff
+
+-205.9.0.0.0
+-  __TEXT.__text: 0x61c530
+-  __TEXT.__auth_stubs: 0x99d0
+-  __TEXT.__objc_stubs: 0x12c0
+-  __TEXT.__objc_methlist: 0x704c
+-  __TEXT.__cstring: 0x24fb4
+-  __TEXT.__oslogstring: 0x10705
+-  __TEXT.__objc_classname: 0x8bb
+-  __TEXT.__objc_methname: 0x11f9a
+-  __TEXT.__objc_methtype: 0x4f62
++28.0.0.502.1
++  __TEXT.__text: 0x7f6a98
++  __TEXT.__auth_stubs: 0xdb40
++  __TEXT.__objc_stubs: 0x1140
++  __TEXT.__objc_methlist: 0x9234
++  __TEXT.__cstring: 0x2f641
++  __TEXT.__oslogstring: 0x101c2
++  __TEXT.__objc_classname: 0x9d4
++  __TEXT.__objc_methname: 0x15049
++  __TEXT.__objc_methtype: 0x593f
+   __TEXT.__gcc_except_tab: 0xc0
+-  __TEXT.__const: 0x1f154
+-  __TEXT.__swift5_typeref: 0x2555c
+-  __TEXT.__swift5_fieldmd: 0xc098
+-  __TEXT.__constg_swiftt: 0x146e4
+-  __TEXT.__swift5_reflstr: 0xbacd
+-  __TEXT.__swift5_builtin: 0x5b4
+-  __TEXT.__swift5_assocty: 0x1d40
+-  __TEXT.__swift5_capture: 0xa01c
+-  __TEXT.__swift5_protos: 0x120
+-  __TEXT.__swift5_proto: 0x1588
+-  __TEXT.__swift5_types: 0xc9c
+-  __TEXT.__swift_as_entry: 0x914
+-  __TEXT.__swift_as_ret: 0xca0
+-  __TEXT.__swift5_mpenum: 0x50
++  __TEXT.__const: 0x2c564
++  __TEXT.__constg_swiftt: 0x1a068
++  __TEXT.__swift5_typeref: 0x311c8
++  __TEXT.__swift5_builtin: 0x668
++  __TEXT.__swift5_reflstr: 0xe685
++  __TEXT.__swift5_fieldmd: 0xe9cc
++  __TEXT.__swift5_assocty: 0x21b0
++  __TEXT.__swift5_capture: 0xa3b8
++  __TEXT.__swift5_proto: 0x1ce8
++  __TEXT.__swift5_types: 0x1014
++  __TEXT.__swift_as_entry: 0xbfc
++  __TEXT.__swift_as_ret: 0x11a8
++  __TEXT.__swift5_protos: 0x18c
++  __TEXT.__swift5_mpenum: 0x74
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x11e70
+-  __TEXT.__eh_frame: 0x21520
+-  __DATA_CONST.__auth_got: 0x4cf8
+-  __DATA_CONST.__got: 0x33d8
+-  __DATA_CONST.__auth_ptr: 0x45f8
+-  __DATA_CONST.__const: 0x29080
+-  __DATA_CONST.__cfstring: 0x340
+-  __DATA_CONST.__objc_classlist: 0xb10
+-  __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x488
++  __TEXT.__unwind_info: 0x17240
++  __TEXT.__eh_frame: 0x2c02c
++  __DATA_CONST.__auth_got: 0x6db0
++  __DATA_CONST.__got: 0x4590
++  __DATA_CONST.__auth_ptr: 0x4e20
++  __DATA_CONST.__const: 0x2d480
++  __DATA_CONST.__cfstring: 0x160
++  __DATA_CONST.__objc_classlist: 0xd00
++  __DATA_CONST.__objc_catlist: 0x18
++  __DATA_CONST.__objc_catlist2: 0x8
++  __DATA_CONST.__objc_protolist: 0x5b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x248
++  __DATA_CONST.__objc_protorefs: 0x310
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_doubleobj: 0x80
+   __DATA_CONST.__objc_arraydata: 0x50
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0x178b8
+-  __DATA.__objc_selrefs: 0x5320
++  __DATA.__objc_const: 0x1c1d0
++  __DATA.__objc_selrefs: 0x6190
+   __DATA.__objc_ivar: 0x64
+-  __DATA.__objc_data: 0x1ac48
+-  __DATA.__data: 0x1f788
+-  __DATA.__objc_stublist: 0x78
+-  __DATA.__bss: 0x272c0
+-  __DATA.__common: 0x2408
++  __DATA.__objc_data: 0x21858
++  __DATA.__data: 0x251d0
++  __DATA.__objc_stublist: 0xb8
++  __DATA.__bss: 0x33f50
++  __DATA.__common: 0x2430
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
++  - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+-  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
++  - /System/Library/Frameworks/JournalingSuggestions.framework/JournalingSuggestions
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/MapKit.framework/MapKit
+
+   - /System/Library/Frameworks/MusicKit.framework/MusicKit
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Network.framework/Network
++  - /System/Library/Frameworks/PaperKit.framework/PaperKit
++  - /System/Library/Frameworks/PencilKit.framework/PencilKit
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+
+   - /System/Library/Frameworks/StoreKit.framework/StoreKit
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
+-  - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /System/Library/Frameworks/TipKit.framework/TipKit
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
++  - /System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI
+   - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+-  - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
++  - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
++  - /System/Library/PrivateFrameworks/Coherence.framework/Coherence
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
++  - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
++  - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /System/Library/PrivateFrameworks/HealthAppServices.framework/HealthAppServices
+-  - /System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/JournalShared.framework/JournalShared
++  - /System/Library/PrivateFrameworks/JournalUI.framework/JournalUI
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MentalHealthUI.framework/MentalHealthUI
++  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+   - /System/Library/PrivateFrameworks/Moments.framework/Moments
+   - /System/Library/PrivateFrameworks/MomentsOnboardingAndSettings.framework/MomentsOnboardingAndSettings
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
++  - /System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore
+   - /System/Library/PrivateFrameworks/PrintKitUI.framework/PrintKitUI
++  - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting
+-  - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
++  - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+-  - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
++  - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
++  - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+   - /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 0DFC87F4-D761-370E-A342-27074482DBCC
+-  Functions: 23130
+-  Symbols:   4986
+-  CStrings:  8112
++  UUID: DF399BE8-E5AB-3C81-9D4C-2F1A202CDB62
++  Functions: 28613
++  Symbols:   6818
++  CStrings:  9579
+ 
+Symbols:
++ _$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq
++ _$s10AppIntents0A6IntentPAAE14supportedModesAA0cE0VvgZ
++ _$s10AppIntents10OpenIntentP6target5ValueQzvsTj
++ _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg
++ _$s10Foundation10CocoaErrorV13userCancelledAC4CodeVvgZ
++ _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ
++ _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc
++ _$s10Foundation10CocoaErrorVAA21_BridgedStoredNSErrorAAMc
++ _$s10Foundation10CocoaErrorVMa
++ _$s10Foundation10NSNotFoundSivg
++ _$s10Foundation11FormatStyleP13JournalSharedAD016WorkoutHeartRatebC0VRszrlE14beatsPerMinuteAFvgZ
++ _$s10Foundation11FormatStylePA2A4DateV08IntervalbC0VRszrlE8intervalAGvgZ
++ _$s10Foundation12DateIntervalV8durationSdvg
++ _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc
++ _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0ON
++ _$s10Foundation15ListFormatStyleV5WidthO8standardyAEyxq__GAGmAA0cD0RzSTR_7ElementQy_0C5InputRtzSS0C6OutputRtzr0_lFWC
++ _$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF
++ _$s10Foundation16AttributedStringVACycfC
++ _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluis
++ _$s10Foundation17KeyPathComparatorV7compareySo18NSComparisonResultVx_xtF
++ _$s10Foundation17KeyPathComparatorVMn
++ _$s10Foundation17KeyPathComparatorV_5orderACyxGs0bC0Cyxqd__SgG_AA9SortOrderOtcSLRd__lufC
++ _$s10Foundation17URLResourceValuesV22UniformTypeIdentifiersE07contentE0AD6UTTypeVSgvg
++ _$s10Foundation18AttributeContainerVy5ValueQzSgxmcAA19AttributedStringKeyRzluis
++ _$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ
++ _$s10Foundation19PropertyListEncoderC12outputFormatSo010NSPropertycF0VvsTj
++ _$s10Foundation20PredicateExpressionsO11DisjunctionVMn
++ _$s10Foundation20PredicateExpressionsO11DisjunctionVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation20PredicateExpressionsO14build_NotEqual3lhs3rhsAC0eF0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ
++ _$s10Foundation20PredicateExpressionsO17build_Disjunction3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_Sb6OutputRtzSbAKRt_r0_lFZ
++ _$s10Foundation20PredicateExpressionsO5EqualVy_xq_GAA0B10ExpressionAAMc
++ _$s10Foundation20PredicateExpressionsO8NotEqualVMn
++ _$s10Foundation20PredicateExpressionsO8NotEqualVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
++ _$s10Foundation21NSKeyValueObservationC10invalidateyyFTj
++ _$s10Foundation21NSKeyValueObservationCMa
++ _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
++ _$s10Foundation24AttributedStringProtocolP10startIndexAA0bC0V0F0VvgTj
++ _$s10Foundation28DecodableAttributedStringKeyMp
++ _$s10Foundation28DecodableAttributedStringKeyP6decode4from5ValueQzs7Decoder_p_tKFZTq
++ _$s10Foundation28DecodableAttributedStringKeyPAA0cdE0Tb
++ _$s10Foundation28DecodableAttributedStringKeyPAASe5ValueRpzrlE6decode4fromAEs7Decoder_p_tKFZ
++ _$s10Foundation36MarkdownDecodableAttributedStringKeyPA2A0cdeF0RzrlE06decodeB04from5ValueAA0deF0PQzs7Decoder_p_tKFZ
++ _$s10Foundation3URLV08absoluteB0ACvg
++ _$s10Foundation3URLV13JournalSharedE18setProtectionClass010protectionG0ySo09NSURLFileF4Typea_tF
++ _$s10Foundation3URLV22UniformTypeIdentifiersE22appendingPathExtension3forAcD6UTTypeV_tF
++ _$s10Foundation3URLVSHAAMc
++ _$s10Foundation4DataV13JournalSharedE19getAttributedStringSo012NSAttributedG0CSgyF
++ _$s10Foundation4DataV13JournalSharedE8asObject2ofxSgxm_tSeRzlF
++ _$s10Foundation4DateV11FormatStyleV4houryA2E6SymbolV4HourVF
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV13defaultDigits4amPMA2I9AMPMStyleV_tFZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV27conversationalDefaultDigits4amPMA2I9AMPMStyleV_tFZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV9AMPMStyleV11abbreviatedAKvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV9AMPMStyleV7omittedAKvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV9AMPMStyleVMa
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourVMa
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4YearV7omittedAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV6MinuteV13defaultDigitsAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV6MinuteVMa
++ _$s10Foundation4DateV11FormatStyleV6minuteyA2E6SymbolV6MinuteVF
++ _$s10Foundation4DateV13JournalSharedE02isB11InYesterdaySbvg
++ _$s10Foundation4DateV13JournalSharedE02isB7InTodaySbvg
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorO8standardyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorO4dashyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorO5colonyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparator0f4TimeG004timeG00i4ZoneG026includingFractionalSeconds0iJ0A2E0bG0O_AE0bhG0OAE0hG0OAE0hjG0OSbAA0hJ0VtcfC
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorO7omittedyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorOMa
++ _$s10Foundation4DateV19IntervalFormatStyleV4houryAeC0dE0V6SymbolV4HourVF
++ _$s10Foundation4DateV19IntervalFormatStyleV6minuteAEyF
++ _$s10Foundation4DateV19IntervalFormatStyleV7weekdayyAeC0dE0V6SymbolV7WeekdayVF
++ _$s10Foundation4DateV9formattedSSyF
++ _$s10Foundation4UUIDV9Coherence7CRValueADWP
++ _$s10Foundation8CalendarV12firstWeekdaySivg
++ _$s10Foundation8CalendarV14weekdaySymbolsSaySSGvg
++ _$s10Foundation8CalendarV23veryShortWeekdaySymbolsSaySSGvg
++ _$s10Foundation8CalendarV6localeAA6LocaleVSgvs
++ _$s10Foundation8CalendarV9ComponentO4houryA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO6minuteyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO8calendaryA2EmFWC
++ _$s10Foundation8CalendarVSQAAMc
++ _$s10Foundation8IndexSetV0B0VMa
++ _$s10Foundation8IndexSetV0B0VSQAAMc
++ _$s10Foundation8IndexSetVSTAAMc
++ _$s10Foundation8IndexSetVSlAAMc
++ _$s10Foundation8IndexSetVs23CustomStringConvertibleAAMc
++ _$s10Foundation8TimeZoneV7currentACvgZ
++ _$s10Foundation9IndexPathV2eeoiySbAC_ACtFZ
++ _$s10Foundation9IndexPathVSHAAMc
++ _$s10Foundation9IndexPathVSLAAMc
++ _$s10Foundation9IndexPathVs23CustomStringConvertibleAAMc
++ _$s12CoreGraphics7CGFloatVSQAAMc
++ _$s12CoreLocation16CLLocationUpdateV11liveUpdatesyAC0F0VAC17LiveConfigurationOFZ
++ _$s12CoreLocation16CLLocationUpdateV17LiveConfigurationO7defaultyA2EmFWC
++ _$s12CoreLocation16CLLocationUpdateV17LiveConfigurationOMa
++ _$s12CoreLocation16CLLocationUpdateV19authorizationDeniedSbvg
++ _$s12CoreLocation16CLLocationUpdateV19insufficientlyInUseSbvg
++ _$s12CoreLocation16CLLocationUpdateV22serviceSessionRequiredSbvg
++ _$s12CoreLocation16CLLocationUpdateV23authorizationRestrictedSbvg
++ _$s12CoreLocation16CLLocationUpdateV27authorizationDeniedGloballySbvg
++ _$s12CoreLocation16CLLocationUpdateV30authorizationRequestInProgressSbvg
++ _$s12CoreLocation16CLLocationUpdateV7UpdatesV17makeAsyncIteratorAE0H0VyF
++ _$s12CoreLocation16CLLocationUpdateV7UpdatesV8IteratorVMa
++ _$s12CoreLocation16CLLocationUpdateV7UpdatesV8IteratorVScIAAMc
++ _$s12CoreLocation16CLLocationUpdateV7UpdatesVMa
++ _$s12CoreLocation16CLLocationUpdateV8locationSo0C0CSgvg
++ _$s12CoreLocation16CLLocationUpdateVMa
++ _$s12CoreLocation16CLLocationUpdateVMn
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticV07serviceD8RequiredSbvg
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticV19authorizationDeniedSbvg
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticV23authorizationRestrictedSbvg
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticV27authorizationDeniedGloballySbvg
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticV30authorizationRequestInProgressSbvg
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticVMa
++ _$s12CoreLocation16CLServiceSessionC10DiagnosticVMn
++ _$s12CoreLocation16CLServiceSessionC10invalidateyyF
++ _$s12CoreLocation16CLServiceSessionC11DiagnosticsC17makeAsyncIteratorAE0H0VyF
++ _$s12CoreLocation16CLServiceSessionC11DiagnosticsC8IteratorVMa
++ _$s12CoreLocation16CLServiceSessionC11DiagnosticsC8IteratorVScIAAMc
++ _$s12CoreLocation16CLServiceSessionC11diagnosticsAC11DiagnosticsCvg
++ _$s12CoreLocation16CLServiceSessionC13authorization22fullAccuracyPurposeKeyA2C24AuthorizationRequirementO_SStcfc
++ _$s12CoreLocation16CLServiceSessionC13authorizationA2C24AuthorizationRequirementO_tcfc
++ _$s12CoreLocation16CLServiceSessionC24AuthorizationRequirementO4noneyA2EmFWC
++ _$s12CoreLocation16CLServiceSessionC24AuthorizationRequirementO9whenInUseyA2EmFWC
++ _$s12CoreLocation16CLServiceSessionC24AuthorizationRequirementOMa
++ _$s12CoreLocation16CLServiceSessionCMa
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO24JournalFollowUpPromptsIDAA0cD10IdentifierVyAA9LLMBundleVGvgZ
++ _$s12ModelCatalog24ResourceBundleIdentifierVMn
++ _$s12ModelCatalog9LLMBundleVMn
++ _$s12RegexBuilder0a9ComponentB0O15buildExpressionyxx17_StringProcessing0aC0RzlFZ
++ _$s12RegexBuilder0a9ComponentB0O17buildPartialBlock5first17_StringProcessing0A0Vy0A6OutputQzGx_tAF0aC0RzlFZ
++ _$s12RegexBuilder10OptionallyVMn
++ _$s12RegexBuilder10OptionallyVyACyxG17_StringProcessing0A0VyxGcfC
++ _$s12RegexBuilder10OptionallyVyxG17_StringProcessing0A9ComponentAAMc
++ _$s12RegexBuilder11makeFactory17_StringProcessing01_aD0VyF
++ _$s12RegexBuilder14CharacterClassV17_StringProcessing0A9ComponentAAMc
++ _$s12RegexBuilder14CharacterClassVMa
++ _$s12RegexBuilder6AnchorV12wordBoundaryACvgZ
++ _$s12RegexBuilder6AnchorV17_StringProcessing0A9ComponentAAMc
++ _$s12RegexBuilder6AnchorVMa
++ _$s13JournalShared010ObservableA0C5titleSSSgvgTj
++ _$s13JournalShared010ObservableA0C9journalID7contextAC10Foundation4UUIDV_So22NSManagedObjectContextCtcfc
++ _$s13JournalShared010ObservableA0CMa
++ _$s13JournalShared010ObservableA0CMn
++ _$s13JournalShared09MergeableA10AttributesV4IconO07defaultE0AEvgZ
++ _$s13JournalShared09MergeableA10AttributesV4IconO2eeoiySbAE_AEtFZ
++ _$s13JournalShared09MergeableA10AttributesV4IconO5emojiyAESScAEmFWC
++ _$s13JournalShared09MergeableA10AttributesV4IconO7unknownyAESi_9Coherence10AnyCRValueVtcAEmFWC
++ _$s13JournalShared09MergeableA10AttributesV4IconO8sfSymbolyAESScAEmFWC
++ _$s13JournalShared09MergeableA10AttributesV4IconOMa
++ _$s13JournalShared09MergeableA10AttributesV4IconOMn
++ _$s13JournalShared09MergeableA10AttributesV4IconOSEAAMc
++ _$s13JournalShared09MergeableA10AttributesV4IconOSHAAMc
++ _$s13JournalShared09MergeableA10AttributesV4IconOSeAAMc
++ _$s13JournalShared0A10AppVersionO1loiySbAC_ACtFZ
++ _$s13JournalShared0A10AppVersionO4noneyA2CmFWC
++ _$s13JournalShared0A10AppVersionO7currentACvgZ
++ _$s13JournalShared0A10AppVersionO8fall2025yA2CmFWC
++ _$s13JournalShared0A10AppVersionO8rawValues5Int16Vvg
++ _$s13JournalShared0A10AppVersionOMa
++ _$s13JournalShared0A12EntryAssetMOC12fetchRequestSo07NSFetchG0CyACGyFZ
++ _$s13JournalShared0A12EntryAssetMOC29setMinimumSupportedAppVersionyyAA0aiJ0OF
++ _$s13JournalShared0A12EntryAssetMOC4typeAA0D4TypeOSgvg
++ _$s13JournalShared0A12EntryAssetMOCAA23MinimumSupportedVersionAAWP
++ _$s13JournalShared0A12EntryAssetMOCMa
++ _$s13JournalShared0A12EntryAssetMOCMn
++ _$s13JournalShared0A12EntryAssetMOCs12IdentifiableAAMc
++ _$s13JournalShared0A12FeatureFlagsO0cD00cD3KeyAAMc
++ _$s13JournalShared0A12FeatureFlagsO10canvasPushyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO10richCanvasyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO12enhancedSyncyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO13mapViewPhotosyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO14suggestionsAPIyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO15followupPromptsyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO15inspectorColumnyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO15recentlyDeletedyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO16fullScreenVieweryA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO16multipleJournalsyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO17portraitAssetGridyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO18insightsHighlightsyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO18statefulNavigationyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO5debugyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO6searchyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO8locationyA2CmFWC
++ _$s13JournalShared0A12FeatureFlagsO9isEnabledSbvg
++ _$s13JournalShared0A12FeatureFlagsOMa
++ _$s13JournalShared0A13DataUtilitiesO05fetchA8EntryMOs10entryUUIDs7contextSayAA0aF2MOCGSay10Foundation4UUIDVG_So22NSManagedObjectContextCtKFZ
++ _$s13JournalShared0A13DataUtilitiesO05fetchA8EntryMOs10objectURIs7contextSayAA0aF2MOCGSay10Foundation3URLVG_So22NSManagedObjectContextCtFZ
++ _$s13JournalShared0A13DataUtilitiesO12fetchEntries12dateInterval0E5Limit7contextSayAA0A7EntryMOCG10Foundation04DateH0VSg_SiSgSo22NSManagedObjectContextCtFZ
++ _$s13JournalShared0A13DataUtilitiesO12fetchEntries12dateInterval7contextSayAA0A7EntryMOCG10Foundation04DateH0VSg_So22NSManagedObjectContextCtYaFZ
++ _$s13JournalShared0A13DataUtilitiesO12fetchEntries12dateInterval7contextSayAA0A7EntryMOCG10Foundation04DateH0VSg_So22NSManagedObjectContextCtYaFZTu
++ _$s13JournalShared0A13DataUtilitiesO14fetchObjectIds10objectURIs7contextSaySo09NSManagedF2IDCGSay10Foundation3URLVG_So0kF7ContextCtFZ
++ _$s13JournalShared0A13DataUtilitiesO20getValidEntriesCount12dateInterval7contextSi10Foundation04DateJ0VSg_So22NSManagedObjectContextCtYaKFZ
++ _$s13JournalShared0A13DataUtilitiesO20getValidEntriesCount12dateInterval7contextSi10Foundation04DateJ0VSg_So22NSManagedObjectContextCtYaKFZTu
++ _$s13JournalShared0A13DataUtilitiesO21getTimelineEntriesIDs10fetchLimit7contextSay10Foundation4UUIDVGSiSg_So22NSManagedObjectContextCtYaFZ
++ _$s13JournalShared0A13DataUtilitiesO21getTimelineEntriesIDs10fetchLimit7contextSay10Foundation4UUIDVGSiSg_So22NSManagedObjectContextCtYaFZTu
++ _$s13JournalShared0A13DataUtilitiesO30getRecentlyDeletedEntriesCount7contextSiSo22NSManagedObjectContextC_tKFZ
++ _$s13JournalShared0A13DataUtilitiesO32recoverAllRecentlyDeletedEntries7contextySo22NSManagedObjectContextC_tKFZ
++ _$s13JournalShared0A13DataUtilitiesO42permanentlyDeleteAllRecentlyDeletedEntries7contextySo22NSManagedObjectContextC_tKFZ
++ _$s13JournalShared0A22EntryAssetAttachmentMOCMa
++ _$s13JournalShared0A26EntryAssetFileAttachmentMOC12fetchRequestSo07NSFetchI0CyACGyFZ
++ _$s13JournalShared0A26EntryAssetFileAttachmentMOCMa
++ _$s13JournalShared0A26EntryAssetFileAttachmentMOCMn
++ _$s13JournalShared0A26EntryAssetFileAttachmentMOCs12IdentifiableAAMc
++ _$s13JournalShared0A2MOC011makeDefaultA07contextACSgSo22NSManagedObjectContextC_tFZ
++ _$s13JournalShared0A2MOC07defaultA2ID10Foundation4UUIDVvgZ
++ _$s13JournalShared0A2MOC10symbolNameSSSgvg
++ _$s13JournalShared0A2MOC25entryCountIncludingDrafts3for7contextSi10Foundation4UUIDV_So22NSManagedObjectContextCtKFZ
++ _$s13JournalShared0A2MOC27visibleNamedJournalsRequestSo07NSFetchG0CyACGyFZ
++ _$s13JournalShared0A2MOC30visibleCustomJournalsPredicateSo11NSPredicateCvgZ
++ _$s13JournalShared0A2MOC38entryCountIncludingDraftsForAllEntries7contextSiSo22NSManagedObjectContextC_tKFZ
++ _$s13JournalShared0A2MOC4iconAA09MergeableA10AttributesV4IconOSgvg
++ _$s13JournalShared0A2MOC4iconAA09MergeableA10AttributesV4IconOSgvs
++ _$s13JournalShared0A2MOC5colorAA14MergeableColorOSgvg
++ _$s13JournalShared0A2MOC5colorAA14MergeableColorOSgvs
++ _$s13JournalShared0A2MOC5emojiSSSgvg
++ _$s13JournalShared0A2MOC5titleSSSgvg
++ _$s13JournalShared0A2MOC5titleSSSgvs
++ _$s13JournalShared0A2MOC6create7context5title5color4icon2idACSo22NSManagedObjectContextC_SSAA14MergeableColorOAA0mA10AttributesV4IconO10Foundation4UUIDVtFZ
++ _$s13JournalShared0A2MOC6delete_013moveEntriesToA2ID7contextyAC_10Foundation4UUIDVSgSo22NSManagedObjectContextCtFZ
++ _$s13JournalShared0A2MOC6delete_19shouldDeleteEntriesyAC_SbtFZ
++ _$s13JournalShared0A2MOCAA28ManagedObjectCloudKitSyncingAAMc
++ _$s13JournalShared0A2MOCMa
++ _$s13JournalShared0A2MOCMn
++ _$s13JournalShared0A2MOCs12IdentifiableAAMc
++ _$s13JournalShared0A7EntryMOC011unsupportedC4ModeAA011UnsupportedcF0OSgvg
++ _$s13JournalShared0A7EntryMOC06modifyC4Date2byySi_tF
++ _$s13JournalShared0A7EntryMOC11assetsArraySayAA0ac5AssetD0CGvg
++ _$s13JournalShared0A7EntryMOC11displayDate10Foundation0F0Vvg
++ _$s13JournalShared0A7EntryMOC12CloudKitKeysO10recordTypeSSvgZ
++ _$s13JournalShared0A7EntryMOC12CloudKitKeysO11updatedDateSSvgZ
++ _$s13JournalShared0A7EntryMOC12CloudKitKeysO12modelVersionSSvgZ
++ _$s13JournalShared0A7EntryMOC12CloudKitKeysO4textSSvgZ
++ _$s13JournalShared0A7EntryMOC12CloudKitKeysO5titleSSvgZ
++ _$s13JournalShared0A7EntryMOC12fetchRequestSo07NSFetchF0CyACGyFZ
++ _$s13JournalShared0A7EntryMOC14cloudKitRecordSo8CKRecordCSgvg
++ _$s13JournalShared0A7EntryMOC17isRecentlyDeletedSbvg
++ _$s13JournalShared0A7EntryMOC17modifyCreatedDate2byySi_tF
++ _$s13JournalShared0A7EntryMOC18resolveDifferences6object6recordyAC_So8CKRecordCtKFZ
++ _$s13JournalShared0A7EntryMOC19assetsArrayUnsortedSayAA0ac5AssetD0CGvg
++ _$s13JournalShared0A7EntryMOC19newObjectFromRecord_7contextACXDSo8CKRecordC_So09NSManagedF7ContextCtFZ
++ _$s13JournalShared0A7EntryMOC19setMinimumSupported4mode10appVersionyAA011UnsupportedC4ModeO_AA0a3AppJ0OtF
++ _$s13JournalShared0A7EntryMOC20isPermanentlyDeletedSbvg
++ _$s13JournalShared0A7EntryMOC21markAsRecentlyDeletedyyF
++ _$s13JournalShared0A7EntryMOC22recoverRecentlyDeletedyyF
++ _$s13JournalShared0A7EntryMOC23assetOrderingDictionarySDy10Foundation4UUIDVSiGvg
++ _$s13JournalShared0A7EntryMOC23assetOrderingDictionarySDy10Foundation4UUIDVSiGvs
++ _$s13JournalShared0A7EntryMOC23mergeableAttributedText9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvg
++ _$s13JournalShared0A7EntryMOC23mergeableAttributedText9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvpMV
++ _$s13JournalShared0A7EntryMOC23mergeableAttributedText9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvs
++ _$s13JournalShared0A7EntryMOC24mergeableAttributedTitle9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvg
++ _$s13JournalShared0A7EntryMOC24mergeableAttributedTitle9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvpMV
++ _$s13JournalShared0A7EntryMOC24mergeableAttributedTitle9Coherence18CRAttributedStringVyAA09MergeableG14AttributeScopeVGSgvs
++ _$s13JournalShared0A7EntryMOC24unformattedMergeableTextSSSgvg
++ _$s13JournalShared0A7EntryMOC25unformattedMergeableTitleSSSgvg
++ _$s13JournalShared0A7EntryMOC31modifyLegacyAssetOrderingFields4fromyAA09MergeableC15AssetsPlacementV_tF
++ _$s13JournalShared0A7EntryMOC36computeAndSetAggregateMinimumVersionyyF
++ _$s13JournalShared0A7EntryMOC3add2toyAA0aD0C_tF
++ _$s13JournalShared0A7EntryMOC6create4type7context4uuidAcA0C6SourceO_So22NSManagedObjectContextC10Foundation4UUIDVSgtFZ
++ _$s13JournalShared0A7EntryMOC6remove4fromyAA0aD0C_tF
++ _$s13JournalShared0A7EntryMOC8deepCopyACXDSgyKF
++ _$s13JournalShared0A7EntryMOCAA17MergeableProviderAAMc
++ _$s13JournalShared0A7EntryMOCAA23MinimumSupportedVersionAAWP
++ _$s13JournalShared0A7EntryMOCAA28ManagedObjectCloudKitSyncingAAMc
++ _$s13JournalShared0A7EntryMOCMa
++ _$s13JournalShared0A7EntryMOCMn
++ _$s13JournalShared0A7EntryMOCN
++ _$s13JournalShared0A7EntryMOCs12IdentifiableAAMc
++ _$s13JournalShared10SyncDataMOC12fetchRequestSo07NSFetchG0CyACGyFZ
++ _$s13JournalShared10SyncDataMOCMa
++ _$s13JournalShared10SyncDataMOCMn
++ _$s13JournalShared11AssetSourceO11audioPickeryA2CmFWC
++ _$s13JournalShared11AssetSourceO11imagePickeryA2CmFWC
++ _$s13JournalShared11AssetSourceO12cameraPickeryA2CmFWC
++ _$s13JournalShared11AssetSourceO13drawingCanvasyA2CmFWC
++ _$s13JournalShared11AssetSourceO14locationPickeryA2CmFWC
++ _$s13JournalShared11AssetSourceO15suggestionSheetyA2CmFWC
++ _$s13JournalShared11AssetSourceO17stateOfMindPickeryA2CmFWC
++ _$s13JournalShared11AssetSourceO18intelligentToolboxyA2CmFWC
++ _$s13JournalShared11AssetSourceO7unknownyA2CmFWC
++ _$s13JournalShared11AssetSourceO8externalyA2CmFWC
++ _$s13JournalShared11AssetSourceO8rawValueACSgSS_tcfC
++ _$s13JournalShared11AssetSourceO8rawValueSSvg
++ _$s13JournalShared11AssetSourceO9automaticyA2CmFWC
++ _$s13JournalShared11AssetSourceOMa
++ _$s13JournalShared11AssetSourceOMn
++ _$s13JournalShared11AssetSourceOSHAAMc
++ _$s13JournalShared11AssetSourceOSQAAMc
++ _$s13JournalShared11AssetSourceOSYAAMc
++ _$s13JournalShared11EntrySourceO05blankC0yA2CmFWC
++ _$s13JournalShared11EntrySourceOMa
++ _$s13JournalShared11EntrySourceOMn
++ _$s13JournalShared11SettingsKeyO04lockA5StateyA2CmFWC
++ _$s13JournalShared11SettingsKeyO12saveToPhotosyA2CmFWC
++ _$s13JournalShared11SettingsKeyO13addEntryTitleyA2CmFWC
++ _$s13JournalShared11SettingsKeyO18addCurrentLocationyA2CmFWC
++ _$s13JournalShared11SettingsKeyO18streakReminderHouryA2CmFWC
++ _$s13JournalShared11SettingsKeyO19alwaysUseMomentDateyA2CmFWC
++ _$s13JournalShared11SettingsKeyO20streakReminderMinuteyA2CmFWC
++ _$s13JournalShared11SettingsKeyO22cloudKitSyncingEnabledyA2CmFWC
++ _$s13JournalShared11SettingsKeyO22journalingScheduleDatayA2CmFWC
++ _$s13JournalShared11SettingsKeyO23isStreakReminderEnabledyA2CmFWC
++ _$s13JournalShared11SettingsKeyO25skipJournalingSuggestionsyA2CmFWC
++ _$s13JournalShared11SettingsKeyO26cloudKitStagingEnvironmentyA2CmFWC
++ _$s13JournalShared11SettingsKeyO27isJournalingScheduleEnabledyA2CmFWC
++ _$s13JournalShared11SettingsKeyO28journalingScheduleDataLegacyyA2CmFWC
++ _$s13JournalShared11SettingsKeyO8rawValueSSvg
++ _$s13JournalShared11SettingsKeyOMa
++ _$s13JournalShared11StreakEventV4date10Foundation4DateVvg
++ _$s13JournalShared11StreakEventV7entryID4dateAC10Foundation4UUIDVSg_AF4DateVtcfC
++ _$s13JournalShared11StreakEventVMa
++ _$s13JournalShared11StreakEventVMn
++ _$s13JournalShared11StreakEventVSEAAMc
++ _$s13JournalShared11StreakEventVSeAAMc
++ _$s13JournalShared12AppStorageMOCAA28ManagedObjectCloudKitSyncingAAMc
++ _$s13JournalShared12AppStorageMOCMa
++ _$s13JournalShared12AppStorageMOCMn
++ _$s13JournalShared12AppStorageMOCs12IdentifiableAAMc
++ _$s13JournalShared13MediaViewTypeO010thirdPartyC0yA2CmFWC
++ _$s13JournalShared13MediaViewTypeO010thirdPartyC5AlbumyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO010thirdPartyC6ArtistyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO13podcastArtistyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO2eeoiySbAC_ACtFZ
++ _$s13JournalShared13MediaViewTypeO4songyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO7podcastyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO9audiobookyA2CmFWC
++ _$s13JournalShared13MediaViewTypeO9songAlbumyA2CmFWC
++ _$s13JournalShared13MediaViewTypeOMa
++ _$s13JournalShared13MediaViewTypeOMn
++ _$s13JournalShared13MediaViewTypeOSQAAMc
++ _$s13JournalShared13MergeableFontV6TraitsV4boldAEvgZ
++ _$s13JournalShared13MergeableFontV6TraitsV6italicAEvgZ
++ _$s13JournalShared13MergeableFontV6TraitsVMa
++ _$s13JournalShared13MergeableFontV6TraitsVMn
++ _$s13JournalShared13MergeableFontV6TraitsVSQAAMc
++ _$s13JournalShared13MergeableFontV6TraitsVs10SetAlgebraAAMc
++ _$s13JournalShared13MergeableFontV6TraitsVs9OptionSetAAMc
++ _$s13JournalShared13MergeableFontV6traits17unknownPropertiesA2C6TraitsV_9Coherence012UnknownValueG0VtcfC
++ _$s13JournalShared13MergeableFontV6traitsAC6TraitsVvg
++ _$s13JournalShared13MergeableFontVMa
++ _$s13JournalShared13MergeableFontVMn
++ _$s13JournalShared13MergeableSizeV02cgD0So6CGSizeVvg
++ _$s13JournalShared13MergeableSizeVMa
++ _$s13JournalShared13ProtectedDataC012suspendUntilcD11IsAvailableyyYaF
++ _$s13JournalShared13ProtectedDataC012suspendUntilcD11IsAvailableyyYaFTu
++ _$s13JournalShared13ProtectedDataC0cD5StateO2eeoiySbAE_AEtFZ
++ _$s13JournalShared13ProtectedDataC0cD5StateO9availableyA2EmFWC
++ _$s13JournalShared13ProtectedDataC0cD5StateOMa
++ _$s13JournalShared13ProtectedDataC30didBecomeAvailableNotificationSo18NSNotificationNameavgZ
++ _$s13JournalShared13ProtectedDataC33willBecomeUnavailableNotificationSo18NSNotificationNameavgZ
++ _$s13JournalShared13ProtectedDataC5stateAC0cD5StateOvg
++ _$s13JournalShared13ProtectedDataC6sharedACvgZ
++ _$s13JournalShared13ProtectedDataCMa
++ _$s13JournalShared14AssetPlacementO12maxGridCountSivgZ
++ _$s13JournalShared14AssetPlacementO4gridyACSicACmFWC
++ _$s13JournalShared14AssetPlacementO4slimyA2CmFWC
++ _$s13JournalShared14AssetPlacementO6canvasyA2CmFWC
++ _$s13JournalShared14AssetPlacementO6hiddenyA2CmFWC
++ _$s13JournalShared14AssetPlacementO9sortIndexSivg
++ _$s13JournalShared14AssetPlacementOMa
++ _$s13JournalShared14AssetPlacementOMn
++ _$s13JournalShared14AssetPlacementOSQAAMc
++ _$s13JournalShared14AssetPlacementOyACSicfC
++ _$s13JournalShared14MergeableColorO07catalogD0yAC9Coherence12CRExtensibleOyAA012AssetCatalogD0OGcACmFWC
++ _$s13JournalShared14MergeableColorO4sRGByAcA9SRGBColorVcACmFWC
++ _$s13JournalShared14MergeableColorO7unknownyACSi_9Coherence10AnyCRValueVtcACmFWC
++ _$s13JournalShared14MergeableColorOMa
++ _$s13JournalShared14MergeableColorOMn
++ _$s13JournalShared15EntryDateSourceO5photoyA2CmFWC
++ _$s13JournalShared15EntryDateSourceO6customyA2CmFWC
++ _$s13JournalShared15EntryDateSourceO6momentyA2CmFWC
++ _$s13JournalShared15EntryDateSourceO7unknownyA2CmFWC
++ _$s13JournalShared15EntryDateSourceO8creationyA2CmFWC
++ _$s13JournalShared15EntryDateSourceO8rawValueACSgSS_tcfC
++ _$s13JournalShared15EntryDateSourceO8rawValueSSvg
++ _$s13JournalShared15EntryDateSourceOMa
++ _$s13JournalShared15EntryDateSourceOMn
++ _$s13JournalShared15EntryDateSourceOSHAAMc
++ _$s13JournalShared15EntryDateSourceOSQAAMc
++ _$s13JournalShared16EntriesSortOrderO03getD11DescriptorsSaySo16NSSortDescriptorCGyF
++ _$s13JournalShared16EntriesSortOrderO10momentDateyA2CmFWC
++ _$s13JournalShared16EntriesSortOrderO8rawValueACSgSS_tcfC
++ _$s13JournalShared16EntriesSortOrderO8rawValueSSvg
++ _$s13JournalShared16EntriesSortOrderO8timelineACvgZ
++ _$s13JournalShared16EntriesSortOrderO8timelineACvsZ
++ _$s13JournalShared16EntriesSortOrderO9entryDateyA2CmFWC
++ _$s13JournalShared16EntriesSortOrderOMa
++ _$s13JournalShared16EntriesSortOrderOMn
++ _$s13JournalShared16EntriesSortOrderOSYAAMc
++ _$s13JournalShared17AssetCatalogColorO8rawValueACSgSS_tcfC
++ _$s13JournalShared17AssetCatalogColorO8rawValueSSvg
++ _$s13JournalShared17AssetCatalogColorOMa
++ _$s13JournalShared17AssetCatalogColorOMn
++ _$s13JournalShared17AssetCatalogColorOSYAAMc
++ _$s13JournalShared17BookAssetMetadataV5titleSSSgvg
++ _$s13JournalShared17BookAssetMetadataV6authorSSSgvg
++ _$s13JournalShared17BookAssetMetadataV7mediaId5title6author14timeOfPurchaseACSS_SSSgAH10Foundation4DateVSgtcfC
++ _$s13JournalShared17BookAssetMetadataVMa
++ _$s13JournalShared17BookAssetMetadataVMn
++ _$s13JournalShared17BookAssetMetadataVSEAAMc
++ _$s13JournalShared17BookAssetMetadataVSeAAMc
++ _$s13JournalShared17LinkAssetMetadataV3url10Foundation3URLVSgvg
++ _$s13JournalShared17LinkAssetMetadataV4data10Foundation4DataVvg
++ _$s13JournalShared17LinkAssetMetadataV4data4date3urlAC10Foundation4DataV_AG4DateVSgAG3URLVSgtcfC
++ _$s13JournalShared17LinkAssetMetadataV4date10Foundation4DateVSgvg
++ _$s13JournalShared17LinkAssetMetadataVMa
++ _$s13JournalShared17LinkAssetMetadataVMn
++ _$s13JournalShared17LinkAssetMetadataVSEAAMc
++ _$s13JournalShared17LinkAssetMetadataVSeAAMc
++ _$s13JournalShared17MergeableProviderPAAE09unwrappedC10Attributes07WrappedC4Type_0gH0QZSgvg
++ _$s13JournalShared17MergeableTextListV18markerFormatStringSSvg
++ _$s13JournalShared17MergeableTextListV18startingItemNumber18markerFormatString11listOptions17unknownPropertiesACSi_SSSu9Coherence012UnknownValueO0VtcfC
++ _$s13JournalShared17MergeableTextListV18startingItemNumberSivg
++ _$s13JournalShared17MergeableTextListVMa
++ _$s13JournalShared17MergeableTextListVMn
++ _$s13JournalShared18AudioAssetMetadataV11intensitiesSay12CoreGraphics7CGFloatVGSgvg
++ _$s13JournalShared18AudioAssetMetadataV13recordingDate10Foundation0G0VSgvg
++ _$s13JournalShared18AudioAssetMetadataV18transcriptSegmentsSayAA26TranscriptViewModelSegmentVGSgvg
++ _$s13JournalShared18AudioAssetMetadataV8duration11intensities13recordingDate18transcriptSegmentsACSdSg_Say12CoreGraphics7CGFloatVGSg10Foundation0I0VSgSayAA26TranscriptViewModelSegmentVGSgtcfC
++ _$s13JournalShared18AudioAssetMetadataV8durationSdSgvg
++ _$s13JournalShared18AudioAssetMetadataVMa
++ _$s13JournalShared18AudioAssetMetadataVMn
++ _$s13JournalShared18AudioAssetMetadataVSEAAMc
++ _$s13JournalShared18AudioAssetMetadataVSeAAMc
++ _$s13JournalShared18MergeableTextListsV04textE017unknownPropertiesACSayAA0cD4ListVG_9Coherence012UnknownValueH0VtcfC
++ _$s13JournalShared18MergeableTextListsV04textE0SayAA0cD4ListVGvg
++ _$s13JournalShared18MergeableTextListsVMa
++ _$s13JournalShared18MergeableTextListsVMn
++ _$s13JournalShared18MusicAssetMetadataV10artistNameSSSgvg
++ _$s13JournalShared18MusicAssetMetadataV19numberOfTimesPlayedSiSgvg
++ _$s13JournalShared18MusicAssetMetadataV4songSSSgvg
++ _$s13JournalShared18MusicAssetMetadataV7mediaId0F3URL10artistName4song05albumJ019numberOfTimesPlayed9startTime0F4TypeACSS_10Foundation0H0VSgSSSgA2PSiSgAL4DateVSgAA09MediaViewS0OSgtcfC
++ _$s13JournalShared18MusicAssetMetadataV7mediaIdSSvg
++ _$s13JournalShared18MusicAssetMetadataV8mediaURL10Foundation0G0VSgvg
++ _$s13JournalShared18MusicAssetMetadataV9albumNameSSSgvg
++ _$s13JournalShared18MusicAssetMetadataV9mediaTypeAA09MediaViewG0OSgvg
++ _$s13JournalShared18MusicAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared18MusicAssetMetadataVMa
++ _$s13JournalShared18MusicAssetMetadataVMn
++ _$s13JournalShared18MusicAssetMetadataVSEAAMc
++ _$s13JournalShared18MusicAssetMetadataVSeAAMc
++ _$s13JournalShared18VisitAssetMetadataV11assetSourceAA0dG0OSgvg
++ _$s13JournalShared18VisitAssetMetadataV11createdDate10Foundation0G0VSgvg
++ _$s13JournalShared18VisitAssetMetadataV11mapItemData10Foundation0H0VSgvg
++ _$s13JournalShared18VisitAssetMetadataV11typeOfPlaceSSSgvg
++ _$s13JournalShared18VisitAssetMetadataV12visitEndTime10Foundation4DateVSgvg
++ _$s13JournalShared18VisitAssetMetadataV14visitStartTime10Foundation4DateVSgvg
++ _$s13JournalShared18VisitAssetMetadataV15confidenceLevelSdSgvg
++ _$s13JournalShared18VisitAssetMetadataV18horizontalAccuracySdSgvg
++ _$s13JournalShared18VisitAssetMetadataV2idSSvg
++ _$s13JournalShared18VisitAssetMetadataV4citySSSgvg
++ _$s13JournalShared18VisitAssetMetadataV6isWorkSbSgvg
++ _$s13JournalShared18VisitAssetMetadataV8latitudeSdSgvg
++ _$s13JournalShared18VisitAssetMetadataV9longitudeSdSgvg
++ _$s13JournalShared18VisitAssetMetadataV9placeName4city11typeOfPlace14visitStartTime0l3EndN011createdDate8latitude9longitude9styleData07mapItemU06isWork15confidenceLevel18horizontalAccuracy11assetSourceACSSSg_A2R10Foundation0Q0VSgA2VSdSgAwS0U0VSgAZSbSgA2wA0D6SourceOSgtcfC
++ _$s13JournalShared18VisitAssetMetadataV9placeNameSSSgvg
++ _$s13JournalShared18VisitAssetMetadataV9styleData10Foundation0G0VSgvg
++ _$s13JournalShared18VisitAssetMetadataVMa
++ _$s13JournalShared18VisitAssetMetadataVMn
++ _$s13JournalShared18VisitAssetMetadataVSEAAMc
++ _$s13JournalShared18VisitAssetMetadataVSQAAMc
++ _$s13JournalShared18VisitAssetMetadataVSeAAMc
++ _$s13JournalShared19SpotlightSearchableMp
++ _$s13JournalShared19SpotlightSearchableP26searchableItemAttributeSetSo012CSSearchablefgH0CSgyFTj
++ _$s13JournalShared19SpotlightSearchableP26searchableItemAttributeSetSo012CSSearchablefgH0CSgyFTq
++ _$s13JournalShared19TokenTypeIdentifierO10bookmarkedyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO10reflectionyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO11stateOfMindyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO12conversationyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO15attachmentsOnlyyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO27initialSuggestionsRankOrderSivg
++ _$s13JournalShared19TokenTypeIdentifierO5audioyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO5mediayA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO5photoyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO5placeyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO5videoyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO7drawingyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO8activityyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO8confettiyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierO8rawValueACSgSS_tcfC
++ _$s13JournalShared19TokenTypeIdentifierO8rawValueSSvg
++ _$s13JournalShared19TokenTypeIdentifierO8textOnlyyA2CmFWC
++ _$s13JournalShared19TokenTypeIdentifierOMa
++ _$s13JournalShared19TokenTypeIdentifierOMn
++ _$s13JournalShared19TokenTypeIdentifierOSHAAMc
++ _$s13JournalShared19TokenTypeIdentifierOSQAAMc
++ _$s13JournalShared19TokenTypeIdentifierOSYAAMc
++ _$s13JournalShared20ContactAssetMetadataV4name9startTime03endH08duration17numberOfExchangesACSS_10Foundation4DateVSgALSdSgSiSgtcfC
++ _$s13JournalShared20ContactAssetMetadataV4nameSSvg
++ _$s13JournalShared20ContactAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared20ContactAssetMetadataVMa
++ _$s13JournalShared20ContactAssetMetadataVMn
++ _$s13JournalShared20ContactAssetMetadataVSEAAMc
++ _$s13JournalShared20ContactAssetMetadataVSeAAMc
++ _$s13JournalShared20DrawingAssetMetadataV11drawingData10Foundation0G0Vvg
++ _$s13JournalShared20DrawingAssetMetadataV11drawingDataAC10Foundation0G0V_tcfC
++ _$s13JournalShared20DrawingAssetMetadataVMa
++ _$s13JournalShared20DrawingAssetMetadataVMn
++ _$s13JournalShared20DrawingAssetMetadataVSEAAMc
++ _$s13JournalShared20DrawingAssetMetadataVSeAAMc
++ _$s13JournalShared20PodcastAssetMetadataV10timePlayed10Foundation4DateVSgvg
++ _$s13JournalShared20PodcastAssetMetadataV5titleSSSgvg
++ _$s13JournalShared20PodcastAssetMetadataV6authorSSSgvg
++ _$s13JournalShared20PodcastAssetMetadataV7mediaId5title6author0F3URL10timePlayed013numberOfTimesL00F4TypeACSS_SSSgAK10Foundation0J0VSgAL4DateVSgSiSgAA09MediaViewP0OSgtcfC
++ _$s13JournalShared20PodcastAssetMetadataV8mediaURL10Foundation0G0VSgvg
++ _$s13JournalShared20PodcastAssetMetadataV9mediaTypeAA09MediaViewG0OSgvg
++ _$s13JournalShared20PodcastAssetMetadataVMa
++ _$s13JournalShared20PodcastAssetMetadataVMn
++ _$s13JournalShared20PodcastAssetMetadataVSEAAMc
++ _$s13JournalShared20PodcastAssetMetadataVSeAAMc
++ _$s13JournalShared20UnsupportedEntryModeO10hiddenTextyA2CmFWC
++ _$s13JournalShared20UnsupportedEntryModeO8rawValues5Int16Vvg
++ _$s13JournalShared20UnsupportedEntryModeO9hiddenAllyA2CmFWC
++ _$s13JournalShared20UnsupportedEntryModeO9plainTextyA2CmFWC
++ _$s13JournalShared20UnsupportedEntryModeOMa
++ _$s13JournalShared20UnsupportedEntryModeOMn
++ _$s13JournalShared20UnsupportedEntryModeOSQAAMc
++ _$s13JournalShared20UnsupportedEntryModeOSYAAMc
++ _$s13JournalShared21AVAssetReaderSequenceV5asset11audioFormatACSo0C0C_So07AVAudioH0CtYaKcfC
++ _$s13JournalShared21AVAssetReaderSequenceV5asset11audioFormatACSo0C0C_So07AVAudioH0CtYaKcfCTu
++ _$s13JournalShared21AVAssetReaderSequenceVMa
++ _$s13JournalShared21AVAssetReaderSequenceVMn
++ _$s13JournalShared21AVAssetReaderSequenceVSciAAMc
++ _$s13JournalShared21AppleAccountUIFeatureO15signOutRedesignyA2CmFWC
++ _$s13JournalShared21AppleAccountUIFeatureO9isEnabledSbvg
++ _$s13JournalShared21AppleAccountUIFeatureOMa
++ _$s13JournalShared21AppleAccountUtilitiesC19setDataclassEnabledyySbYaFZ
++ _$s13JournalShared21AppleAccountUtilitiesC19setDataclassEnabledyySbYaFZTu
++ _$s13JournalShared21AppleAccountUtilitiesCMa
++ _$s13JournalShared21ConfettiAssetMetadataV3url10Foundation3URLVSgvg
++ _$s13JournalShared21ConfettiAssetMetadataV5titleSSSgvg
++ _$s13JournalShared21ConfettiAssetMetadataV6isHost5title8location9placeName3url9startDate03endN0ACSb_SSSgSo10CLLocationCSgAK10Foundation3URLVSgAO0N0VSgAUtcfC
++ _$s13JournalShared21ConfettiAssetMetadataV6isHostSbSgvg
++ _$s13JournalShared21ConfettiAssetMetadataV7endDate10Foundation0G0VSgvg
++ _$s13JournalShared21ConfettiAssetMetadataV9placeNameSSSgvg
++ _$s13JournalShared21ConfettiAssetMetadataV9startDate10Foundation0G0VSgvg
++ _$s13JournalShared21ConfettiAssetMetadataVMa
++ _$s13JournalShared21ConfettiAssetMetadataVMn
++ _$s13JournalShared21ConfettiAssetMetadataVSEAAMc
++ _$s13JournalShared21ConfettiAssetMetadataVSeAAMc
++ _$s13JournalShared22FileStoreConfigurationV15protectionClassSo23NSURLFileProtectionTypeavg
++ _$s13JournalShared22FileStoreConfigurationV16homeDirectoryURL10Foundation0H0Vvg
++ _$s13JournalShared22FileStoreConfigurationV18cachesDirectoryURL10Foundation0H0Vvg
++ _$s13JournalShared22FileStoreConfigurationV19libraryDirectoryURL10Foundation0H0Vvg
++ _$s13JournalShared22FileStoreConfigurationV21temporaryDirectoryURL10Foundation0H0Vvg
++ _$s13JournalShared22FileStoreConfigurationV22excludeFromBackupFully2aty10Foundation3URLV_tKFZ
++ _$s13JournalShared22FileStoreConfigurationV24assetStorageDirectoryURL10Foundation0I0Vvg
++ _$s13JournalShared22FileStoreConfigurationV30applicationSupportDirectoryURL10Foundation0I0Vvg
++ _$s13JournalShared22FileStoreConfigurationV6sharedACvgZ
++ _$s13JournalShared22FileStoreConfigurationV8LocationO10productionyA2EmFWC
++ _$s13JournalShared22FileStoreConfigurationV8LocationO7stagingyA2EmFWC
++ _$s13JournalShared22FileStoreConfigurationV8LocationOMa
++ _$s13JournalShared22FileStoreConfigurationV8location19fileProtectionClassA2C8LocationO_So09NSURLFileH4TypeatcfC
++ _$s13JournalShared22FileStoreConfigurationVMa
++ _$s13JournalShared22MergeableTextAlignmentO4leftyA2CmFWC
++ _$s13JournalShared22MergeableTextAlignmentO5rightyA2CmFWC
++ _$s13JournalShared22MergeableTextAlignmentO6centeryA2CmFWC
++ _$s13JournalShared22MergeableTextAlignmentO7naturalyA2CmFWC
++ _$s13JournalShared22MergeableTextAlignmentO9justifiedyA2CmFWC
++ _$s13JournalShared22MergeableTextAlignmentOMa
++ _$s13JournalShared22MergeableTextAlignmentOMn
++ _$s13JournalShared22MotionActivityTypeEnumO17runningAndWalkingyA2CmFWC
++ _$s13JournalShared22MotionActivityTypeEnumO7runningyA2CmFWC
++ _$s13JournalShared22MotionActivityTypeEnumO7walkingyA2CmFWC
++ _$s13JournalShared22MotionActivityTypeEnumO8rawValueACSgSS_tcfC
++ _$s13JournalShared22MotionActivityTypeEnumOMa
++ _$s13JournalShared22MotionActivityTypeEnumOMn
++ _$s13JournalShared23AudioIntensityProcessorV04readcD6Levels4fromSay12CoreGraphics7CGFloatVG_AItSo7AVAssetC_tYaKF
++ _$s13JournalShared23AudioIntensityProcessorV04readcD6Levels4fromSay12CoreGraphics7CGFloatVG_AItSo7AVAssetC_tYaKFTu
++ _$s13JournalShared23AudioIntensityProcessorV10outputRateSdvg
++ _$s13JournalShared23AudioIntensityProcessorV7process6bufferSay12CoreGraphics7CGFloatVG_AItSo16AVAudioPCMBufferC_tF
++ _$s13JournalShared23AudioIntensityProcessorVACycfC
++ _$s13JournalShared23AudioIntensityProcessorVMa
++ _$s13JournalShared23AudioIntensityProcessorVMn
++ _$s13JournalShared23GenericMapAssetMetadataV10visitsDataAA05VisiteF0VSgvg
++ _$s13JournalShared23GenericMapAssetMetadataV10visitsDataAcA05VisiteF0VSg_tcfC
++ _$s13JournalShared23GenericMapAssetMetadataVMa
++ _$s13JournalShared23GenericMapAssetMetadataVMn
++ _$s13JournalShared23GenericMapAssetMetadataVSEAAMc
++ _$s13JournalShared23GenericMapAssetMetadataVSeAAMc
++ _$s13JournalShared23MinimumSupportedVersionPAAE09isEditingD0Sbvg
++ _$s13JournalShared23ReflectionAssetMetadataV10colorLight10Foundation4DataVSgvg
++ _$s13JournalShared23ReflectionAssetMetadataV4type6prompt10colorLight0H4DarkACSiSg_10Foundation4DataVSgA2LtcfC
++ _$s13JournalShared23ReflectionAssetMetadataV4typeSiSgvg
++ _$s13JournalShared23ReflectionAssetMetadataV6prompt10Foundation4DataVSgvg
++ _$s13JournalShared23ReflectionAssetMetadataV9colorDark10Foundation4DataVSgvg
++ _$s13JournalShared23ReflectionAssetMetadataVMa
++ _$s13JournalShared23ReflectionAssetMetadataVMn
++ _$s13JournalShared23ReflectionAssetMetadataVSEAAMc
++ _$s13JournalShared23ReflectionAssetMetadataVSeAAMc
++ _$s13JournalShared24MergeableAnchorAlignmentOMn
++ _$s13JournalShared24MergeableEntryAttributesV013addAssociatedA02idy10Foundation4UUIDV_tF
++ _$s13JournalShared24MergeableEntryAttributesV016removeAssociatedA02idy10Foundation4UUIDV_tF
++ _$s13JournalShared24MergeableEntryAttributesV14MutatingActionVMa
++ _$s13JournalShared24MergeableEntryAttributesV14MutatingActionVMn
++ _$s13JournalShared24MergeableEntryAttributesV14assetPlacementAA0cd6AssetsG0Vvg
++ _$s13JournalShared24MergeableEntryAttributesV23actionUndoingDifference4fromAC14MutatingActionVSgAC_tF
++ _$s13JournalShared24MergeableEntryAttributesV4text9Coherence18CRAttributedStringVyAA0C18TextAttributeScopeVGvg
++ _$s13JournalShared24MergeableEntryAttributesV5applyyyAC14MutatingActionVSgF
++ _$s13JournalShared24MergeableEntryAttributesV5merge14assetPlacementyAA0cd6AssetsH0V_tF
++ _$s13JournalShared24MergeableEntryAttributesV5merge4texty9Coherence18CRAttributedStringVyAA0C18TextAttributeScopeVG_tF
++ _$s13JournalShared24MergeableEntryAttributesV5merge5titley9Coherence18CRAttributedStringVyAA0C19TitleAttributeScopeVG_tF
++ _$s13JournalShared24MergeableEntryAttributesV5mergey9Coherence11MergeResultVACF
++ _$s13JournalShared24MergeableEntryAttributesV5title4text14assetPlacement010associatedA3IDs17unknownPropertiesAC9Coherence18CRAttributedStringVyAA0C19TitleAttributeScopeVG_AKyAA0c4TextrS0VGAA0cd6AssetsI0VAI5CRSetVy10Foundation4UUIDVGAI07UnknownM0VtcfC
++ _$s13JournalShared24MergeableEntryAttributesV5title9Coherence18CRAttributedStringVyAA0C19TitleAttributeScopeVGvg
++ _$s13JournalShared24MergeableEntryAttributesV9Coherence4CRDTAAMc
++ _$s13JournalShared24MergeableEntryAttributesVMa
++ _$s13JournalShared24MergeableEntryAttributesVMn
++ _$s13JournalShared24MultiPinMapAssetMetadataV10visitsData6isSlim8revisionACSayAA05VisitfG0VGSg_SbSgSiSgtcfC
++ _$s13JournalShared24MultiPinMapAssetMetadataV10visitsDataSayAA05VisitfG0VGSgvg
++ _$s13JournalShared24MultiPinMapAssetMetadataV6isSlimSbSgvg
++ _$s13JournalShared24MultiPinMapAssetMetadataV6isSlimSbSgvs
++ _$s13JournalShared24MultiPinMapAssetMetadataV8revisionSiSgvg
++ _$s13JournalShared24MultiPinMapAssetMetadataVMa
++ _$s13JournalShared24MultiPinMapAssetMetadataVMn
++ _$s13JournalShared24MultiPinMapAssetMetadataVSEAAMc
++ _$s13JournalShared24MultiPinMapAssetMetadataVSeAAMc
++ _$s13JournalShared24StateOfMindAssetMetadataV05statedE10Identifier4date18reflectiveInterval6labels7domains21valenceClassification21backgroundColorsLight0qR4DarkACSSSg_10Foundation4DateVSgSiSgSaySiGSgAsQSayAM4DataVSgGAWtcfC
++ _$s13JournalShared24StateOfMindAssetMetadataV18reflectiveIntervalSiSgvg
++ _$s13JournalShared24StateOfMindAssetMetadataV20backgroundColorsDarkSay10Foundation4DataVSgGvg
++ _$s13JournalShared24StateOfMindAssetMetadataV21backgroundColorsLightSay10Foundation4DataVSgGvg
++ _$s13JournalShared24StateOfMindAssetMetadataV21valenceClassificationSiSgvg
++ _$s13JournalShared24StateOfMindAssetMetadataV4date10Foundation4DateVSgvg
++ _$s13JournalShared24StateOfMindAssetMetadataV6labelsSaySiGSgvg
++ _$s13JournalShared24StateOfMindAssetMetadataV7domainsSaySiGSgvg
++ _$s13JournalShared24StateOfMindAssetMetadataVMa
++ _$s13JournalShared24StateOfMindAssetMetadataVMn
++ _$s13JournalShared24StateOfMindAssetMetadataVSEAAMc
++ _$s13JournalShared24StateOfMindAssetMetadataVSeAAMc
++ _$s13JournalShared24WorkoutIconAssetMetadataV010totalGroupC13CaloriesBurntSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV010totalGroupC21CaloriesBurntWithUnitSSSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV010totalGroupC8DurationSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV05groupC10StartDatesSay10Foundation4DateVGSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV05groupC8EndDatesSay10Foundation4DateVGSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV13caloriesBurntSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV16numberOfWorkoutsSiSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV20mindfulnessHeartRateSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV24averageGroupHeartRateBPMSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV4type8duration9startTime03endJ020mindfulnessHeartRate13caloriesBurnt0O08distance16numberOfWorkouts010totalGroupC8Duration05groupC10StartDates0xc3EndZ007averagevmN3BPM0uvc8CaloriesP00uvc8CaloriesP8WithUnitACSSSg_SdSg10Foundation4DateVSgAx2t2SSiSgATSayAWGSgA_A2tStcfC
++ _$s13JournalShared24WorkoutIconAssetMetadataV4typeSSSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV7endTime10Foundation4DateVSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV8caloriesSSSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV8distanceSSSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV8durationSdSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared24WorkoutIconAssetMetadataVMa
++ _$s13JournalShared24WorkoutIconAssetMetadataVMn
++ _$s13JournalShared24WorkoutIconAssetMetadataVSEAAMc
++ _$s13JournalShared24WorkoutIconAssetMetadataVSeAAMc
++ _$s13JournalShared25MergeableWritingDirectionO11leftToRightyA2CmFWC
++ _$s13JournalShared25MergeableWritingDirectionO11rightToLeftyA2CmFWC
++ _$s13JournalShared25MergeableWritingDirectionO7naturalyA2CmFWC
++ _$s13JournalShared25MergeableWritingDirectionOMa
++ _$s13JournalShared25MergeableWritingDirectionOMn
++ _$s13JournalShared25PhotoLibraryAssetMetadataV14squareCropRectSSSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV15assetIdentifier4date9placeName8latitude9longitude4size14squareCropRect09landscapepQ008portraitpQ0ACSSSg_10Foundation4DateVSgAMSdSgARSo6CGSizeVSgA3MtcfC
++ _$s13JournalShared25PhotoLibraryAssetMetadataV15assetIdentifierSSSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV16portraitCropRectSSSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV17landscapeCropRectSSSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV4date10Foundation4DateVSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV4sizeSo6CGSizeVSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV8latitudeSdSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV8latitudeSdSgvs
++ _$s13JournalShared25PhotoLibraryAssetMetadataV9longitudeSdSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV9longitudeSdSgvs
++ _$s13JournalShared25PhotoLibraryAssetMetadataV9placeNameSSSgvg
++ _$s13JournalShared25PhotoLibraryAssetMetadataV9placeNameSSSgvs
++ _$s13JournalShared25PhotoLibraryAssetMetadataVAA9CroppableAAWP
++ _$s13JournalShared25PhotoLibraryAssetMetadataVMa
++ _$s13JournalShared25PhotoLibraryAssetMetadataVMn
++ _$s13JournalShared25PhotoLibraryAssetMetadataVSEAAMc
++ _$s13JournalShared25PhotoLibraryAssetMetadataVSeAAMc
++ _$s13JournalShared25WorkoutRouteAssetMetadataV13caloriesBurntSdSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV20mindfulnessHeartRateSdSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV4typeSSSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV5route4type8duration9startTime03endK020mindfulnessHeartRate13caloriesBurnt0P08distanceACSaySo10CLLocationCGSg_SSSgSdSg10Foundation4DateVSgAv2r2QtcfC
++ _$s13JournalShared25WorkoutRouteAssetMetadataV5routeSaySo10CLLocationCGSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV7endTime10Foundation4DateVSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV8caloriesSSSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV8distanceSSSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV8durationSdSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared25WorkoutRouteAssetMetadataVMa
++ _$s13JournalShared25WorkoutRouteAssetMetadataVMn
++ _$s13JournalShared25WorkoutRouteAssetMetadataVSEAAMc
++ _$s13JournalShared25WorkoutRouteAssetMetadataVSeAAMc
++ _$s13JournalShared26TranscriptViewModelSegmentV2id10Foundation4UUIDVvg
++ _$s13JournalShared26TranscriptViewModelSegmentV4text9timestamp8durationACSS_S2dtcfC
++ _$s13JournalShared26TranscriptViewModelSegmentV4textSSvg
++ _$s13JournalShared26TranscriptViewModelSegmentV8durationSdvg
++ _$s13JournalShared26TranscriptViewModelSegmentV9timestampSdvg
++ _$s13JournalShared26TranscriptViewModelSegmentVMa
++ _$s13JournalShared26TranscriptViewModelSegmentVMn
++ _$s13JournalShared26TranscriptViewModelSegmentVSEAAMc
++ _$s13JournalShared26TranscriptViewModelSegmentVSQAAMc
++ _$s13JournalShared26TranscriptViewModelSegmentVSeAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV010BlockQuoteE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV010BlockQuoteE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV010BlockQuoteE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV013StrikethroughE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV013StrikethroughE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV013StrikethroughE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV016WritingDirectionE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV016WritingDirectionE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV016WritingDirectionE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV024FollowUpPromptAttachmentE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV024FollowUpPromptAttachmentE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV024FollowUpPromptAttachmentE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV04FontE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV04FontE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV04FontE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV05Assetd10AttachmentE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV05Assetd10AttachmentE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV05Assetd10AttachmentE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV05ColorE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV05ColorE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV05ColorE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV09AlignmentE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV09AlignmentE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV09AlignmentE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV09UnderlineE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV09UnderlineE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV09UnderlineE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV0d5ListsE0O9Coherence20CRAttributeStringKeyAAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV0d5ListsE0OMa
++ _$s13JournalShared27MergeableTextAttributeScopeV0d5ListsE0OMn
++ _$s13JournalShared27MergeableTextAttributeScopeV10blockQuoteAC05BlockhE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV10blockQuoteAC05BlockhE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV10blockQuoteAC05BlockhE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV13strikethroughAC013StrikethroughE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV13strikethroughAC013StrikethroughE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV13strikethroughAC013StrikethroughE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV15assetAttachmentAC05AssetdhE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV15assetAttachmentAC05AssetdhE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV15assetAttachmentAC05AssetdhE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV16writingDirectionAC07WritinghE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV16writingDirectionAC07WritinghE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV16writingDirectionAC07WritinghE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV24followUpPromptAttachmentAC06FollowhijE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV24followUpPromptAttachmentAC06FollowhijE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV24followUpPromptAttachmentAC06FollowhijE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV4fontAC04FontE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV4fontAC04FontE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV4fontAC04FontE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV5colorAC05ColorE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV5colorAC05ColorE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV5colorAC05ColorE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV9Coherence017CRAttributeStringeF0AAMc
++ _$s13JournalShared27MergeableTextAttributeScopeV9alignmentAC09AlignmentE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV9alignmentAC09AlignmentE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV9alignmentAC09AlignmentE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV9textListsAC0dhE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV9textListsAC0dhE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV9textListsAC0dhE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeV9underlineAC09UnderlineE0Ovg
++ _$s13JournalShared27MergeableTextAttributeScopeV9underlineAC09UnderlineE0OvpMV
++ _$s13JournalShared27MergeableTextAttributeScopeV9underlineAC09UnderlineE0Ovs
++ _$s13JournalShared27MergeableTextAttributeScopeVMa
++ _$s13JournalShared27MergeableTextAttributeScopeVMn
++ _$s13JournalShared27MotionActivityAssetMetadataV09localizedD4NameSSSgvg
++ _$s13JournalShared27MotionActivityAssetMetadataV12activityType0gH4Enum09localizedD4Name5steps9startTime03endN0ACSS_AA0cdhI0OSgSSSgAM10Foundation4DateVSgAQtcfC
++ _$s13JournalShared27MotionActivityAssetMetadataV12activityTypeSSvg
++ _$s13JournalShared27MotionActivityAssetMetadataV5stepsSSSgvg
++ _$s13JournalShared27MotionActivityAssetMetadataV7endTime10Foundation4DateVSgvg
++ _$s13JournalShared27MotionActivityAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared27MotionActivityAssetMetadataVMa
++ _$s13JournalShared27MotionActivityAssetMetadataVMn
++ _$s13JournalShared27MotionActivityAssetMetadataVSEAAMc
++ _$s13JournalShared27MotionActivityAssetMetadataVSeAAMc
++ _$s13JournalShared27WorkoutHeartRateFormatStyleV10Foundation0fG0AAMc
++ _$s13JournalShared27WorkoutHeartRateFormatStyleVMa
++ _$s13JournalShared28ManagedObjectCloudKitSyncingMp
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP012isUploadedToE0SbvsTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP03newD10FromRecord_7contextxSo8CKRecordC_So09NSManagedD7ContextCtKFZTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP10recordTypeSSvgZTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP18recordSystemFields10Foundation4DataVSgvgTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP18resolveDifferences6object6recordyx_So8CKRecordCtKFZTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingP21setRecordSystemFieldsyy10Foundation4DataVSgFTj
++ _$s13JournalShared28ManagedObjectCloudKitSyncingPAAE05fetchD11ForRecordID_7context21includeUnsavedObjectsxSgSS_So09NSManagedD7ContextCSbtKFZ
++ _$s13JournalShared28ManagedObjectCloudKitSyncingPAAE05fetchD9ForRecord_7context21includeUnsavedObjectsxSgSo8CKRecordC_So09NSManagedD7ContextCSbtKFZ
++ _$s13JournalShared28ManagedObjectCloudKitSyncingPAAE09recordForD6WithID_7context21includeUnsavedObjectsSo8CKRecordCSgSS_So09NSManagedD7ContextCSbtYaKFZ
++ _$s13JournalShared28ManagedObjectCloudKitSyncingPAAE09recordForD6WithID_7context21includeUnsavedObjectsSo8CKRecordCSgSS_So09NSManagedD7ContextCSbtYaKFZTu
++ _$s13JournalShared28ManagedObjectCloudKitSyncingPAAE13objectsToSync7context5limitSayxGSo09NSManagedD7ContextC_SiSgtKFZ
++ _$s13JournalShared28MergeableAssetTextAttachmentV0A2UIE05asseteF0AcD0deF8Protocol_p_tcfC
++ _$s13JournalShared28MergeableAssetTextAttachmentV13preferredSizeAA0cH0Vvg
++ _$s13JournalShared28MergeableAssetTextAttachmentV15anchorAlignment9Coherence12CRExtensibleOyAA0c6AnchorH0OGvg
++ _$s13JournalShared28MergeableAssetTextAttachmentV7assetID10Foundation4UUIDVvg
++ _$s13JournalShared28MergeableAssetTextAttachmentVMa
++ _$s13JournalShared28MergeableAssetTextAttachmentVMn
++ _$s13JournalShared28MergeableTitleAttributeScopeV9Coherence017CRAttributeStringeF0AAMc
++ _$s13JournalShared28MergeableTitleAttributeScopeVMa
++ _$s13JournalShared28MergeableTitleAttributeScopeVMn
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV10artistNameSSSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantO4darkyA2EmFWC
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantO5lightyA2EmFWC
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantO8veryDarkyA2EmFWC
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantOMa
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantOMn
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12ColorVariantOSQAAMc
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV12colorVariantAC05ColorI0OSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV18appBackgroundColors5SIMD3VySdGSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV4songSSSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV7appNameSSSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV8mediaURL10Foundation0I0VSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV9albumNameSSSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV9mediaType4song9albumName06artistL00H3URL03appL09startTime0O15BackgroundColor12colorVariantAcA0e4ViewI0O_SSSgA2O10Foundation0N0VSgAoP4DateVSgs5SIMD3VySdGSgAC0sU0OSgtcfC
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV9mediaTypeAA0e4ViewI0Ovg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataV9startTime10Foundation4DateVSgvg
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataVMa
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataVMn
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataVSEAAMc
++ _$s13JournalShared28ThirdPartyMediaAssetMetadataVSeAAMc
++ _$s13JournalShared29MergeableEntryAssetsPlacementV05assetF010forAssetIDAA0iF0O10Foundation4UUIDV_tF
++ _$s13JournalShared29MergeableEntryAssetsPlacementV11removeAsset6withIDy10Foundation4UUIDV_tF
++ _$s13JournalShared29MergeableEntryAssetsPlacementV14addOrMoveAsset6withID2to4fromy10Foundation4UUIDV_AA0jF0OALSgtF
++ _$s13JournalShared29MergeableEntryAssetsPlacementV26fromLegacyOrderingFieldsOfAcA0aD2MOC_tcfC
++ _$s13JournalShared29MergeableEntryAssetsPlacementVMa
++ _$s13JournalShared29MergeableEntryAssetsPlacementVMn
++ _$s13JournalShared31WrappedMergeableEntryAttributesC5valueAA0deF0Vvg
++ _$s13JournalShared31WrappedMergeableEntryAttributesCMa
++ _$s13JournalShared31WrappedMergeableEntryAttributesCyAcA0deF0Vcfc
++ _$s13JournalShared33MergeableFollowUpPromptAttachmentV0A2UIE06followefG0AcD0defG8Protocol_p_tcfC
++ _$s13JournalShared33MergeableFollowUpPromptAttachmentV6promptSSvg
++ _$s13JournalShared33MergeableFollowUpPromptAttachmentVMa
++ _$s13JournalShared33MergeableFollowUpPromptAttachmentVMn
++ _$s13JournalShared7AppInfoO16bundleIdentifierSSvgZ
++ _$s13JournalShared7AppInfoO17exportContentType07UniformG11Identifiers6UTTypeVvgZ
++ _$s13JournalShared7AppInfoO43recentlyDeletedEntriesLocalHideTimeIntervalSdvgZ
++ _$s13JournalShared7RuntimeO02isA3AppSbvgZ
++ _$s13JournalShared7RuntimeO11EnvironmentO018useCloudKitStagingD0SbvgZ
++ _$s13JournalShared7RuntimeO11EnvironmentO10productionyA2EmFWC
++ _$s13JournalShared7RuntimeO11EnvironmentO7currentAEvgZ
++ _$s13JournalShared7RuntimeO11EnvironmentO7stagingyA2EmFWC
++ _$s13JournalShared7RuntimeO11EnvironmentO7testingyA2EmFWC
++ _$s13JournalShared7RuntimeO11EnvironmentOMa
++ _$s13JournalShared7RuntimeO15isInternalBuildSbvgZ
++ _$s13JournalShared7RuntimeO20hasAppProtectionLockSbvgZ
++ _$s13JournalShared9AssetTypeO05tokenD10IdentifierAA05TokendF0OSgvg
++ _$s13JournalShared9AssetTypeO10genericMapyA2CmFWC
++ _$s13JournalShared9AssetTypeO10reflectionyA2CmFWC
++ _$s13JournalShared9AssetTypeO11multiPinMapyA2CmFWC
++ _$s13JournalShared9AssetTypeO11placeholderyA2CmFWC
++ _$s13JournalShared9AssetTypeO11stateOfMindyA2CmFWC
++ _$s13JournalShared9AssetTypeO11streakEventyA2CmFWC
++ _$s13JournalShared9AssetTypeO11workoutIconyA2CmFWC
++ _$s13JournalShared9AssetTypeO12workoutRouteyA2CmFWC
++ _$s13JournalShared9AssetTypeO14motionActivityyA2CmFWC
++ _$s13JournalShared9AssetTypeO15thirdPartyMediayA2CmFWC
++ _$s13JournalShared9AssetTypeO4bookyA2CmFWC
++ _$s13JournalShared9AssetTypeO4linkyA2CmFWC
++ _$s13JournalShared9AssetTypeO5audioyA2CmFWC
++ _$s13JournalShared9AssetTypeO5musicyA2CmFWC
++ _$s13JournalShared9AssetTypeO5photoyA2CmFWC
++ _$s13JournalShared9AssetTypeO5videoyA2CmFWC
++ _$s13JournalShared9AssetTypeO5visityA2CmFWC
++ _$s13JournalShared9AssetTypeO7contactyA2CmFWC
++ _$s13JournalShared9AssetTypeO7drawingyA2CmFWC
++ _$s13JournalShared9AssetTypeO7podcastyA2CmFWC
++ _$s13JournalShared9AssetTypeO7unknownyA2CmFWC
++ _$s13JournalShared9AssetTypeO8confettiyA2CmFWC
++ _$s13JournalShared9AssetTypeO8rawValueSSvg
++ _$s13JournalShared9AssetTypeO9livePhotoyA2CmFWC
++ _$s13JournalShared9AssetTypeOMa
++ _$s13JournalShared9AssetTypeOMn
++ _$s13JournalShared9AssetTypeOSHAAMc
++ _$s13JournalShared9AssetTypeOSQAAMc
++ _$s13JournalShared9AssetTypeOSYAAMc
++ _$s13JournalShared9CroppableP14squareCropRectSSSgvgTj
++ _$s13JournalShared9CroppableP16portraitCropRectSSSgvgTj
++ _$s13JournalShared9CroppableP17landscapeCropRectSSSgvgTj
++ _$s13JournalShared9SRGBColorV3red5green4blue5alphaACSd_S3dtcfC
++ _$s13JournalShared9SRGBColorV7cgColorSo10CGColorRefaSgvg
++ _$s13JournalShared9SRGBColorVMa
++ _$s13JournalShared9SRGBColorVMn
++ _$s14MentalHealthUI21StateOfMindEntryModelC13ConfigurationV18reflectiveInterval4date16parentSampleUUID20fitnessPlusSessionID10entryPoint10provenanceA2E017InitialReflectiveK0V_10Foundation4DateVAN0O0VSgSSSgAA0def16LoggingAnalyticsgU4TypeOSgAA0deF30LoggingAnalyticsProvenanceTypeOSgtcfC
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsEntryPointTypeO7journalyA2CmFWC
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsEntryPointTypeOMa
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsEntryPointTypeOMn
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsProvenanceTypeO7journalyA2CmFWC
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsProvenanceTypeOMa
++ _$s14MentalHealthUI41StateOfMindLoggingAnalyticsProvenanceTypeOMn
++ _$s15Synchronization5MutexVMa
++ _$s15Synchronization5MutexVMn
++ _$s15Synchronization5_CellVMn
++ _$s15TokenGeneration0A9GeneratorC13configurationAcA20SessionConfigurationV_tcfc
++ _$s15TokenGeneration0A9GeneratorC29GenerativeFunctionsFoundation26ChatLanguageModelProviding0D6ModelsMc
++ _$s15TokenGeneration0A9GeneratorCMa
++ _$s15TokenGeneration0A9GeneratorCMn
++ _$s15TokenGeneration11CachePolicyV8inMemoryACvgZ
++ _$s15TokenGeneration11CachePolicyVMa
++ _$s15TokenGeneration11ModelBundleV10identifierACSgSS_tcfC
++ _$s15TokenGeneration11ModelBundleVMa
++ _$s15TokenGeneration11ModelBundleVMn
++ _$s15TokenGeneration16SamplingStrategyV4topKyACSiFZ
++ _$s15TokenGeneration16SamplingStrategyVMa
++ _$s15TokenGeneration16SamplingStrategyVMn
++ _$s15TokenGeneration18SamplingParametersV011speculativeC0SbSgvs
++ _$s15TokenGeneration18SamplingParametersV12tokenHealingSbSgvs
++ _$s15TokenGeneration18SamplingParametersV22promptLookupDraftStepsSiSgvs
++ _$s15TokenGeneration18SamplingParametersV8strategy11temperature16frequencyPenalty06lengthH013maximumTokens13stopSequences10randomSeed7timeoutAcA0C8StrategyVSg_SdSgA2OSiSgShySSGApOtcfC
++ _$s15TokenGeneration18SamplingParametersVMn
++ _$s15TokenGeneration20SessionConfigurationV10identifier9useCaseID21preferredModelBundles20handlesSensitiveData11cachePolicy10onBehalfOfACSS_SSSayAA0J6BundleVGSbAA05CacheP0VSiSgtcfC
++ _$s15TokenGeneration20SessionConfigurationVMa
++ _$s15_MapKit_SwiftUI0A11StylePickerV6OptionV8standard9elevation17showTrafficToggleAeA0aE0V9ElevationV_SbtFZ
++ _$s15_MapKit_SwiftUI0A11StylePickerV6OptionV9satellite9elevation17showTrafficToggle0j6LabelsL0AeA0aE0V9ElevationV_S2btFZ
++ _$s15_MapKit_SwiftUI0A11StylePickerV6OptionVMa
++ _$s15_MapKit_SwiftUI0A11StylePickerV6OptionVMn
++ _$s15_MapKit_SwiftUI0A11StylePickerV7options7mapViewACSayAC6OptionVG_So05MKMapI0CtcfC
++ _$s15_MapKit_SwiftUI0A11StylePickerVMa
++ _$s15_MapKit_SwiftUI0A11StylePickerVMn
++ _$s15_MapKit_SwiftUI0A5StyleV9ElevationV9automaticAEvgZ
++ _$s15_MapKit_SwiftUI0A5StyleV9ElevationVMa
++ _$s16GenerativeModels01_A20ModelOverrideHelpersO58_generativeFunctionOverridesWithMetadataChatMessagesPrompty0A9Functions01_ag21OverridableInternals_klM0V04chatlM0_AE01_agp1_J0V8metadatatSgSSYaKFZ
++ _$s16GenerativeModels01_A20ModelOverrideHelpersO58_generativeFunctionOverridesWithMetadataChatMessagesPrompty0A9Functions01_ag21OverridableInternals_klM0V04chatlM0_AE01_agp1_J0V8metadatatSgSSYaKFZTu
++ _$s16GenerativeModels0A26ModelSessionTokenGeneratorMp
++ _$s16GenerativeModels0A26ModelSessionTokenGeneratorP5model0E10Generation0eF0CvgTq
++ _$s16GenerativeModels0aB12AvailabilityV0C0O2eeoiySbAE_AEtFZ
++ _$s16GenerativeModels0aB12AvailabilityV0C0O9availableyA2EmFWC
++ _$s16GenerativeModels0aB12AvailabilityV0C0OMa
++ _$s16GenerativeModels0aB12AvailabilityV10ParametersV17useCaseIdentifier8languageAESS_AC14LanguageOptionOtcfC
++ _$s16GenerativeModels0aB12AvailabilityV10ParametersVMa
++ _$s16GenerativeModels0aB12AvailabilityV12availabilityAC0C0Ovg
++ _$s16GenerativeModels0aB12AvailabilityV14LanguageOptionO06systemD0yA2EmFWC
++ _$s16GenerativeModels0aB12AvailabilityV14LanguageOptionOMa
++ _$s16GenerativeModels0aB12AvailabilityV7current10parametersA2C10ParametersV_tFZ
++ _$s16GenerativeModels0aB12AvailabilityVMa
++ _$s16GenerativeModels12OverrideHintO8constantyACyxGxcAEmlFWC
++ _$s16GenerativeModels12OverrideHintOMn
++ _$s16GenerativeModels19_ClientInfoProtocolMp
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvMTq
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvgTq
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvsTq
++ _$s16GenerativeModels19_ClientInfoProtocolP17useCaseIdentifierSSvgTq
++ _$s16GenerativeModels19_ClientInfoProtocolP6_model15TokenGeneration0G9GeneratorCvgTq
++ _$s16GenerativeModels23StringResponseSanitizerV10GuardrailsV24sensitiveContentSettingsAeA09SensitivehI0V_tcfC
++ _$s16GenerativeModels23StringResponseSanitizerV10GuardrailsVMa
++ _$s16GenerativeModels23StringResponseSanitizerV10guardrailsA2C10GuardrailsV_tcfC
++ _$s16GenerativeModels23StringResponseSanitizerVMn
++ _$s16GenerativeModels24SensitiveContentSettingsV10sanitizersACSayAC9SanitizerVG_tcfC
++ _$s16GenerativeModels24SensitiveContentSettingsV9SanitizerV015offensiveVulgarC0AEvgZ
++ _$s16GenerativeModels24SensitiveContentSettingsV9SanitizerV16textSanitizationAEvgZ
++ _$s16GenerativeModels24SensitiveContentSettingsV9SanitizerVMa
++ _$s16GenerativeModels24SensitiveContentSettingsV9SanitizerVMn
++ _$s16GenerativeModels24SensitiveContentSettingsVMa
++ _$s16GenerativeModels29StringRenderedPromptSanitizerV10GuardrailsV24sensitiveContentSettingsAeA09SensitiveiJ0V_tcfC
++ _$s16GenerativeModels29StringRenderedPromptSanitizerV10GuardrailsVMa
++ _$s16GenerativeModels29StringRenderedPromptSanitizerV10guardrailsA2C10GuardrailsV_tcfC
++ _$s16GenerativeModels29StringRenderedPromptSanitizerVMn
++ _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMa
++ _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMn
++ _$s17_StringProcessing13_RegexFactoryV10accumulateyAA0C0VyxGq__q0_tAA0C9ComponentR_AaHR0_r1_lF
++ _$s17_StringProcessing13_RegexFactoryV27ignoreCapturesInTypedOutputyAA0C0VySsGxAA0C9ComponentRzlF
++ _$s17_StringProcessing13_RegexFactoryV9zeroOrOneyAA0C0VyxGq__AA0C18RepetitionBehaviorVSgtAA0C9ComponentR_r0_lF
++ _$s17_StringProcessing13_RegexFactoryVMa
++ _$s17_StringProcessing14RegexComponentP0C7BuilderAD14CharacterClassVRszrlE4wordAFvgZ
++ _$s17_StringProcessing23RegexRepetitionBehaviorVMa
++ _$s17_StringProcessing23RegexRepetitionBehaviorVMn
++ _$s17_StringProcessing5RegexV0C7BuilderEyACyxGqd__yXEc0C6OutputQyd__RszAA0C9ComponentRd__lufC
++ _$s19CollectionsInternal10OrderedSetVMn
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV14_startIterator6buckets6UInt64V11currentBits_AI04nextL0Si17remainingBitCounttAC6BucketV_tF
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV3raws6UInt64VAC6BucketV_tcis
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV12currentValueSiSgvg
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV12currentValueSiSgvs
++ _$s19CollectionsInternal10_HashTableV14BucketIteratorV7advanceyyF
++ _$s19CollectionsInternal10_HashTableV15maximumCapacity8forScaleS2i_tFZ
++ _$s19CollectionsInternal10_HashTableV4copyACyF
++ _$s19CollectionsInternal10_HashTableV5scale11forCapacityS2i_tFZ
++ _$s19CollectionsInternal10_HashTableV5scale13reservedScaleACSi_SitcfC
++ _$s19GenerativeFunctions01_A23FunctionOverrideHelpersO16_configurePrompt_04withD026bindingChatMessagesPrompts0I9Variables0I14Configurations0G3Kit0jkG0VAK_AA01_ac21OverridableInternals_jkG0VSDySSAI0jkG11Convertible_pGSDySSAI0g14ComponentValueR0_pGSDySSypGtFZ
++ _$s19GenerativeFunctions01_A26FunctionInternals_MetadataV18functionIdentifier0aB10Foundation0cG0Vvg
++ _$s19GenerativeFunctions01_A26FunctionInternals_MetadataVMa
++ _$s19GenerativeFunctions01_A26FunctionInternals_MetadataVMn
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptVMa
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptVMn
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit012ChatMessagesE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKF
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit012ChatMessagesE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKFTu
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVMn
++ _$s19RestorableStateType9JournalUI0A10ControllerPTl
++ _$s21DeveloperToolsSupport13ImageResourceV9JournalUIE15wingsBackground5valueACSi_tFZ
++ _$s21JournalingSuggestions0A10SuggestionV0C4TypeV11photoMemoryAEvgZ
++ _$s21JournalingSuggestions0A10SuggestionV0C4TypeVMa
++ _$s21JournalingSuggestions0A10SuggestionV0C4TypeVMn
++ _$s21JournalingSuggestions0A10SuggestionV0C4TypeVSQAAMc
++ _$s21JournalingSuggestions0A10SuggestionV10ReflectionV5color7SwiftUI5ColorVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV10ReflectionV6promptSSvg
++ _$s21JournalingSuggestions0A10SuggestionV10ReflectionVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV10ReflectionVMa
++ _$s21JournalingSuggestions0A10SuggestionV10ReflectionVMn
++ _$s21JournalingSuggestions0A10SuggestionV10transferID10Foundation4UUIDVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentV15representationsSayAA0aC5Asset_pXpGvg
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentV2id10Foundation4UUIDVvg
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentV7content7forTypexSgxm_tYaKAA0aC5AssetRzlF
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentV7content7forTypexSgxm_tYaKAA0aC5AssetRzlFTu
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentVMa
++ _$s21JournalingSuggestions0A10SuggestionV11ItemContentVMn
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindV14darkBackground7SwiftUI8GradientVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindV15lightBackground7SwiftUI8GradientVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindV4icon10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindV5stateSo07HKStateeF0Cvg
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindVMa
++ _$s21JournalingSuggestions0A10SuggestionV11StateOfMindVMn
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantV4darkAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantV5lightAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantV7unknownAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantV8veryDarkAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantVMa
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantVMn
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12ColorVariantVSQAAMc
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV12colorVariantAE05ColorG0VSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV26appIconAccessibilityStringSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV5albumSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV5color7SwiftUI5ColorVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV5titleSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV6artistSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaV7appIcon10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaVMa
++ _$s21JournalingSuggestions0A10SuggestionV12GenericMediaVMn
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupV16averageHeartRateSo10HKQuantityCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupV18activeEnergyBurnedSo10HKQuantityCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupV4icon10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupV8durationSdSgvg
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupV8workoutsSayAC0D0VGvg
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupVMa
++ _$s21JournalingSuggestions0A10SuggestionV12WorkoutGroupVMn
++ _$s21JournalingSuggestions0A10SuggestionV13LocationGroupV9locationsSayAC0D0VGvg
++ _$s21JournalingSuggestions0A10SuggestionV13LocationGroupVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV13LocationGroupVMa
++ _$s21JournalingSuggestions0A10SuggestionV13LocationGroupVMn
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeV14runningWalkingAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeV7runningAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeV7walkingAGvgZ
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeVMa
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeVMn
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12MovementTypeVSQAAMc
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV12movementTypeAE08MovementG0VSgvg
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV4date10Foundation12DateIntervalVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV4icon10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityV5stepsSivg
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityVMa
++ _$s21JournalingSuggestions0A10SuggestionV14MotionActivityVMn
++ _$s21JournalingSuggestions0A10SuggestionV14suggestionTypeAC0cE0VSgvg
++ _$s21JournalingSuggestions0A10SuggestionV15promptLanguagesSaySSGSgvg
++ _$s21JournalingSuggestions0A10SuggestionV16bundleIdentifier10Foundation4UUIDVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV15trackIdentifierSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV4songSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV5albumSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV6artistSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongV7artwork10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV4SongVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV4SongVMa
++ _$s21JournalingSuggestions0A10SuggestionV4SongVMn
++ _$s21JournalingSuggestions0A10SuggestionV4date10Foundation12DateIntervalVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV14squareCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV16portraitCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV17landscapeCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV20photoCloudIdentifierSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoV5photo10Foundation3URLVvg
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoVMa
++ _$s21JournalingSuggestions0A10SuggestionV5PhotoVMn
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV14squareCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV16portraitCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV17landscapeCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV20photoCloudIdentifierSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV3url10Foundation3URLVvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV5VideoVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV5VideoVMa
++ _$s21JournalingSuggestions0A10SuggestionV5VideoVMn
++ _$s21JournalingSuggestions0A10SuggestionV5itemsSayAC11ItemContentVGvg
++ _$s21JournalingSuggestions0A10SuggestionV5titleSSvg
++ _$s21JournalingSuggestions0A10SuggestionV7ContactV4nameSSvg
++ _$s21JournalingSuggestions0A10SuggestionV7ContactV5photo10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7ContactVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV7ContactVMa
++ _$s21JournalingSuggestions0A10SuggestionV7ContactVMn
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV4showSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV7artwork10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV7episodeSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastVMa
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastVMn
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV4icon10Foundation3URLVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV5routeSaySo10CLLocationCGSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV12activityTypeSo017HKWorkoutActivityG0Vvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV16averageHeartRateSo10HKQuantityCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV16workoutIsIndoorsSbSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV18activeEnergyBurnedSo10HKQuantityCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV20workoutLocalizedNameSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV23distanceLocalizedStringSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV4date10Foundation12DateIntervalVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV8distanceSo10HKQuantityCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsVMa
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsVMn
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7detailsAE7DetailsVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutVMa
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutVMn
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV06isWorkD0SbSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV17mapItemIdentifierSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV4citySSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV5placeSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV8locationSo10CLLocationCSgvg
++ _$s21JournalingSuggestions0A10SuggestionV8LocationVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV8LocationVMa
++ _$s21JournalingSuggestions0A10SuggestionV8LocationVMn
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV14squareCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV16portraitCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV17landscapeCropRectSo6CGRectVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV20photoCloudIdentifierSSSgvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV4date10Foundation4DateVSgvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV5image10Foundation3URLVvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV5video10Foundation3URLVvg
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoVAA0aC5AssetAAWP
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoVMa
++ _$s21JournalingSuggestions0A10SuggestionV9LivePhotoVMn
++ _$s21JournalingSuggestions0A10SuggestionVMa
++ _$s21JournalingSuggestions20JournalConfigurationV17presentFullScreenSbvs
++ _$s21JournalingSuggestions20JournalConfigurationV20selectedSuggestionID10Foundation4UUIDVSgvs
++ _$s21JournalingSuggestions20JournalConfigurationV22fractionalPresentationSdvs
++ _$s21JournalingSuggestions20JournalConfigurationVACycfC
++ _$s21JournalingSuggestions20JournalConfigurationVMa
++ _$s22UniformTypeIdentifiers6UTTypeV10exportedAs12conformingToACSS_ACSgtcfC
++ _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
++ _$s22UniformTypeIdentifiers6UTTypeV10importedAs12conformingToACSS_ACSgtcfC
++ _$s22UniformTypeIdentifiers6UTTypeV10supertypesShyACGvg
++ _$s22UniformTypeIdentifiers6UTTypeV2eeoiySbAC_ACtFZ
++ _$s22UniformTypeIdentifiers6UTTypeVs23CustomStringConvertibleAAMc
++ _$s23AsyncAlgorithmsInternal0A12SyncSequenceVMn
++ _$s23AsyncAlgorithmsInternal0A12SyncSequenceVyxGSciAAMc
++ _$s23AsyncAlgorithmsInternal0A14Merge2SequenceVMn
++ _$s23AsyncAlgorithmsInternal0A14Merge2SequenceVyxq_GSciAAMc
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV04makeA8IteratorAC0G0Vyxq__GyF
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV4next7ElementQzSgyYaKF
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV4next7ElementQzSgyYaKFTu
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorVMn
++ _$s23AsyncAlgorithmsInternal0A16DebounceSequenceVMn
++ _$s23AsyncAlgorithmsInternal5mergeyAA0A14Merge2SequenceVyxq_Gx_q_ts8SendableRzSciRzsAFR_SciR_sAF7ElementRpzAGQy_AHRSr0_lF
++ _$s26GenerativeModelsFoundation14PromptTemplateV0D3Kit012ChatMessagesD11ConvertibleAAMc
++ _$s26GenerativeModelsFoundation14PromptTemplateV13modelBundleID08templateH008fallbackdE7CatalogAC05ModelK008ResourceG10IdentifierVyAG9LLMBundleVG_SSSDySSs12StaticStringVGSgtcfC
++ _$s26GenerativeModelsFoundation14PromptTemplateVMa
++ _$s26GenerativeModelsFoundation14PromptTemplateVMn
++ _$s28MomentsOnboardingAndSettings32MOOnboardingNavigationControllerC18onboardingDelegateAA0e4ViewgI0_pSgvsTj
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierV10identifier19resourceInformationACSS_AC08ResourceH0VSgtcfC
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationVMa
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationVMn
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierVMa
++ _$s29GenerativeFunctionsFoundation9GenerableMp
++ _$s29GenerativeFunctionsFoundation9GenerableP4fromxAA15GeneratedValuesV_tKcfCTq
++ _$s29GenerativeFunctionsFoundation9GenerableP6schemaAA6SchemaVvgZTq
++ _$s4Body7SwiftUI11ToggleStylePTl
++ _$s4Body7SwiftUI13GroupBoxStylePTl
++ _$s4Body7SwiftUI15DatePickerStylePTl
++ _$s4Body7SwiftUI17ControlGroupStylePTl
++ _$s4Body7SwiftUI19LabeledContentStylePTl
++ _$s4Body7SwiftUI9FormStylePTl
++ _$s5UIKit13UIContentViewP13configurationAA0B13Configuration_pvMTq
++ _$s5UIKit13UIContentViewP13configurationAA0B13Configuration_pvgTq
++ _$s5UIKit13UIContentViewP13configurationAA0B13Configuration_pvsTq
++ _$s5UIKit13UIContentViewP8supportsySbAA0B13Configuration_pFTj
++ _$s5UIKit13UIContentViewP8supportsySbAA0B13Configuration_pFTq
++ _$s5UIKit13UIContentViewPAAE8supportsySbAA0B13Configuration_pF
++ _$s5UIKit13UIImageReaderV13ConfigurationV22preferredThumbnailSizeSo6CGSizeVvM
++ _$s5UIKit13UIImageReaderV13ConfigurationV22preferredThumbnailSizeSo6CGSizeVvs
++ _$s5UIKit13UIImageReaderV13ConfigurationV23prefersHighDynamicRangeSbvs
++ _$s5UIKit13UIImageReaderV13ConfigurationVAEycfC
++ _$s5UIKit13UIImageReaderV13ConfigurationVMa
++ _$s5UIKit13UIImageReaderV13configurationA2C13ConfigurationV_tcfC
++ _$s5UIKit13UIImageReaderV5image10contentsOfSo0B0CSg10Foundation3URLV_tYaF
++ _$s5UIKit13UIImageReaderV5image10contentsOfSo0B0CSg10Foundation3URLV_tYaFTu
++ _$s5UIKit13UIImageReaderV7defaultACvgZ
++ _$s5UIKit13UIImageReaderVMa
++ _$s5UIKit15UICellAccessoryV0C4TypeO10customViewyAESo6UIViewCcAEmFWC
++ _$s5UIKit15UICellAccessoryV0C4TypeO11multiselectyA2EmFWC
++ _$s5UIKit15UICellAccessoryV0C4TypeO2eeoiySbAE_AEtFZ
++ _$s5UIKit15UICellAccessoryV0C4TypeO7reorderyA2EmFWC
++ _$s5UIKit15UICellAccessoryV0C4TypeOMa
++ _$s5UIKit15UICellAccessoryV11multiselect9displayed7optionsA2C14DisplayedStateO_AC18MultiselectOptionsVtFZ
++ _$s5UIKit15UICellAccessoryV12LabelOptionsV8isHidden19reservedLayoutWidth9tintColor4font33adjustsFontForContentSizeCategoryAESbSg_AC0I9DimensionOSgSo7UIColorCSgSo6UIFontCSgAKtcfC
++ _$s5UIKit15UICellAccessoryV12LabelOptionsVMa
++ _$s5UIKit15UICellAccessoryV13DeleteOptionsV8isHidden19reservedLayoutWidth9tintColor010backgroundL0AESbSg_AC0I9DimensionOSgSo7UIColorCSgAPtcfC
++ _$s5UIKit15UICellAccessoryV13DeleteOptionsVMa
++ _$s5UIKit15UICellAccessoryV13accessoryTypeAC0cE0Ovg
++ _$s5UIKit15UICellAccessoryV14DisplayedStateO11whenEditingyA2EmFWC
++ _$s5UIKit15UICellAccessoryV14DisplayedStateO14whenNotEditingyA2EmFWC
++ _$s5UIKit15UICellAccessoryV14ReorderOptionsV8isHidden19reservedLayoutWidth9tintColor22showsVerticalSeparatorAESbSg_AC0I9DimensionOSgSo7UIColorCSgAJtcfC
++ _$s5UIKit15UICellAccessoryV14ReorderOptionsVMa
++ _$s5UIKit15UICellAccessoryV15LayoutDimensionO6actualyA2EmFWC
++ _$s5UIKit15UICellAccessoryV18MultiselectOptionsV8isHidden19reservedLayoutWidth9tintColor010backgroundL0AESbSg_AC0I9DimensionOSgSo7UIColorCSgAPtcfC
++ _$s5UIKit15UICellAccessoryV18MultiselectOptionsVMa
++ _$s5UIKit15UICellAccessoryV19disclosureIndicator9displayed7optionsA2C14DisplayedStateO_AC010DisclosureE7OptionsVtFZ
++ _$s5UIKit15UICellAccessoryV26DisclosureIndicatorOptionsV8isHidden19reservedLayoutWidth9tintColorAESbSg_AC0J9DimensionOSgSo7UIColorCSgtcfC
++ _$s5UIKit15UICellAccessoryV26DisclosureIndicatorOptionsVMa
++ _$s5UIKit15UICellAccessoryV5label4text9displayed7optionsACSS_AC14DisplayedStateOAC12LabelOptionsVtFZ
++ _$s5UIKit15UICellAccessoryV6delete9displayed7options13actionHandlerA2C14DisplayedStateO_AC13DeleteOptionsVyycSgtFZ
++ _$s5UIKit15UICellAccessoryV7reorder9displayed7optionsA2C14DisplayedStateO_AC14ReorderOptionsVtFZ
++ _$s5UIKit15UICellAccessoryV9PlacementO7leadingyAeC14DisplayedStateO_SiSayACGctcAEmFWC
++ _$s5UIKit15UICellAccessoryV9PlacementO8position6beforeSiSayACGcAC_tFZ
++ _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__luisTj
++ _$s5UIKit16UITraitOverridesVAA15UIMutableTraitsAAWP
++ _$s5UIKit16UITraitOverridesVMa
++ _$s5UIKit17UITraitDefinitionP10_isPrivateSbvgZTq
++ _$s5UIKit17UITraitDefinitionP10identifierSSvgZTq
++ _$s5UIKit17UITraitDefinitionP12defaultValue0E0QzvgZTq
++ _$s5UIKit17UITraitDefinitionP22affectsColorAppearanceSbvgZTq
++ _$s5UIKit17UITraitDefinitionP34_defaultValueRepresentsUnspecifiedSbvgZTq
++ _$s5UIKit17UITraitDefinitionP4nameSSvgZTq
++ _$s5UIKit17UITraitDefinitionPAAE10_isPrivateSbvgZ
++ _$s5UIKit17UITraitDefinitionPAAE10identifierSSvgZ
++ _$s5UIKit17UITraitDefinitionPAAE22affectsColorAppearanceSbvgZ
++ _$s5UIKit17UITraitDefinitionPAAE34_defaultValueRepresentsUnspecifiedSbvgZ
++ _$s5UIKit17UITraitDefinitionPAAE4nameSSvgZ
++ _$s5UIKit18UIShadowPropertiesV5colorSo7UIColorCvs
++ _$s5UIKit18UIShadowPropertiesV6offsetSo6CGSizeVvM
++ _$s5UIKit18UIShadowPropertiesV6radius12CoreGraphics7CGFloatVvs
++ _$s5UIKit18UIShadowPropertiesV7opacity12CoreGraphics7CGFloatVvs
++ _$s5UIKit20UIConfigurationStateMp
++ _$s5UIKit22UIContentConfigurationP15makeContentViewAA0bF0_So6UIViewCXcyFTq
++ _$s5UIKit22UIContentConfigurationP7updated3forxAA20UIConfigurationState_p_tFTq
++ _$s5UIKit22UITraitLayoutDirectionVAA0B10DefinitionAAWP
++ _$s5UIKit22UITraitLayoutDirectionVMa
++ _$s5UIKit24UICellConfigurationStateV10isDisabledSbvg
++ _$s5UIKit24UICellConfigurationStateV10isDisabledSbvs
++ _$s5UIKit24UICellConfigurationStateV10isSelectedSbvg
++ _$s5UIKit24UICellConfigurationStateV13isHighlightedSbvg
++ _$s5UIKit24UICellConfigurationStateV19_bridgeToObjectiveCSoABCyF
++ _$s5UIKit24UICellConfigurationStateV8isSwipedSbvg
++ _$s5UIKit24UICellConfigurationStateV9isEditingSbvg
++ _$s5UIKit24UICellConfigurationStateV9isFocusedSbvg
++ _$s5UIKit24UICellConfigurationStateVMn
++ _$s5UIKit25UIBackgroundConfigurationV10customViewSo6UIViewCSgvs
++ _$s5UIKit25UIBackgroundConfigurationV11strokeColorSo7UIColorCSgvs
++ _$s5UIKit25UIBackgroundConfigurationV11strokeWidth12CoreGraphics7CGFloatVvs
++ _$s5UIKit25UIBackgroundConfigurationV12cornerRadius12CoreGraphics7CGFloatVvs
++ _$s5UIKit25UIBackgroundConfigurationV12strokeOutset12CoreGraphics7CGFloatVvs
++ _$s5UIKit25UIBackgroundConfigurationV12visualEffectSo08UIVisualE0CSgvs
++ _$s5UIKit25UIBackgroundConfigurationV16backgroundInsetsSo017NSDirectionalEdgeE0Vvs
++ _$s5UIKit25UIBackgroundConfigurationV16shadowPropertiesAA08UIShadowE0VvM
++ _$s5UIKit25UITraitUserInterfaceIdiomVAA0B10DefinitionAAWP
++ _$s5UIKit25UITraitUserInterfaceIdiomVMa
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV0E9AlignmentO6centeryA2GmFWC
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV0E9AlignmentO7naturalyA2GmFWC
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV0E9AlignmentOMa
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV0E9TransformO4noneyA2GmFWC
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV0E9TransformOMa
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV13numberOfLinesSivs
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV9alignmentAE0E9AlignmentOvs
++ _$s5UIKit26UIListContentConfigurationV14TextPropertiesV9transformAE0E9TransformOvs
++ _$s5UIKit26UIListContentConfigurationV15ImagePropertiesV11maximumSizeSo6CGSizeVvs
++ _$s5UIKit26UIListContentConfigurationV15ImagePropertiesV18reservedLayoutSizeSo6CGSizeVvs
++ _$s5UIKit26UIListContentConfigurationV23secondaryTextPropertiesAC0fG0VvM
++ _$s5UIKit26UIListContentConfigurationV6headerACyFZ
++ _$s5UIKit26UITraitHorizontalSizeClassVAA0B10DefinitionAAWP
++ _$s5UIKit26UITraitHorizontalSizeClassVMa
++ _$s5UIKit28NSDiffableDataSourceSnapshotV11indexOfItemySiSgq_F
++ _$s5UIKit28UIListSeparatorConfigurationV03topC10VisibilityAC0F0Ovs
++ _$s5UIKit29_UICornerMaskingConfigurationV7capsuleACvgZ
++ _$s5UIKit29_UICornerMaskingConfigurationVMa
++ _$s5UIKit29_UICornerMaskingConfigurationVMn
++ _$s5UIKit31UIConfigurationColorTransformerVMa
++ _$s5UIKit31UIConfigurationColorTransformerVMn
++ _$s5UIKit31UIConfigurationColorTransformerVyACSo7UIColorCAEccfC
++ _$s5UIKit31UISceneSessionActivationRequestV4role12userActivity7optionsACSo0bC4Rolea_So06NSUserH0CSgSo0bdE7OptionsCSgtcfC
++ _$s5UIKit31UISceneSessionActivationRequestV7session12userActivity7optionsACSo0bC0C_So06NSUserH0CSgSo0bdE7OptionsCSgtcfC
++ _$s5UIKit31UISceneSessionActivationRequestVMa
++ _$s5UIKit33UIContentUnavailableConfigurationV14TextPropertiesV4fontSo6UIFontCvs
++ _$s5UIKit33UIContentUnavailableConfigurationV14textPropertiesAC04TextF0VvM
++ _$s5UIKit33UIContentUnavailableConfigurationV15ImagePropertiesV11maximumSizeSo6CGSizeVvs
++ _$s5UIKit33UIContentUnavailableConfigurationV15makeContentViewAA0bG0_So6UIViewCXcyF
++ _$s5UIKit33UIContentUnavailableConfigurationV15secondaryButtonSo8UIButtonCAAE0D0VvM
++ _$s5UIKit33UIContentUnavailableConfigurationV16ButtonPropertiesV4roleSo12UIButtonRoleVvs
++ _$s5UIKit33UIContentUnavailableConfigurationV23secondaryTextPropertiesAC0fG0VvM
++ _$s5UIKit33UIContentUnavailableConfigurationV24directionalLayoutMarginsSo23NSDirectionalEdgeInsetsVvs
++ _$s5UIKit33UIContentUnavailableConfigurationV25secondaryButtonPropertiesAC0fG0VvM
++ _$s5UIKit33UIContentUnavailableConfigurationV26textToSecondaryTextPadding12CoreGraphics7CGFloatVvs
++ _$s5UIKit33UIContentUnavailableConfigurationV6buttonSo8UIButtonCAAE0D0Vvs
++ _$s5UIKit33UIContentUnavailableConfigurationV7loadingACyFZ
++ _$s5UIKit34UICollectionViewDiffableDataSourceC010collectionC0_22numberOfItemsInSectionSiSo0bC0C_SitFTj
++ _$s5UIKit34UICollectionViewDiffableDataSourceC16numberOfSections2inSiSo0bC0C_tFTj
++ _$s5UIKit34UICollectionViewDiffableDataSourceC8snapshot3forAA010NSDiffableeF15SectionSnapshotVyq_Gx_tF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV5itemsSayxGvg
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV6deleteyySayxGF
++ _$s5UIKit35NSDiffableDataSourceSectionSnapshotV6expandyySayxGF
++ _$s5UIKit35UICollectionLayoutListConfigurationV019leadingSwipeActionsE8ProviderSo07UISwipehE0CSg10Foundation9IndexPathVcSgvs
++ _$s5UIKit35UICollectionLayoutListConfigurationV020trailingSwipeActionsE8ProviderSo07UISwipehE0CSg10Foundation9IndexPathVcSgvs
++ _$s5UIKit35UICollectionLayoutListConfigurationV10AppearanceO7groupedyA2EmFWC
++ _$s5UIKit35UICollectionLayoutListConfigurationV10HeaderModeO18firstItemInSectionyA2EmFWC
++ _$s5UIKit38UIContentUnavailableConfigurationStateV15traitCollectionSo07UITraitG0Cvg
++ _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantVMa
++ _$s5UIKit6_GlassVMa
++ _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
++ _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
++ _$s5Value5UIKit17UITraitDefinitionPTl
++ _$s5Value7SwiftUI09ContainerA3KeyPTl
++ _$s5_Body7SwiftUI15DatePickerStylePTl
++ _$s6Charts10ChartProxyV8plotSizeSo6CGSizeVvg
++ _$s6Charts14AxisValueLabelV8centered6anchor05multiD9Alignment19collisionResolution12offsetsMarks11orientation17horizontalSpacing08verticalO07contentACyxGSbSg_7SwiftUI9UnitPointVSgAO0H0VSgAA0bcd9CollisionJ0VAnA0bcD11OrientationV12CoreGraphics7CGFloatVSgA1_xyXEtcfC
++ _$s6Speech0A8AnalyzerC6client13inputSequence11audioFormat7modules7options17restrictedLogging15analysisContext27volatileRangeChangedHandlerAcA10ClientInfoV_xSo07AVAudioG0CSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vM0CySo06CMTimeO0a_S2btcSgntcs8SendableRzSciRzAA0B5InputV7ElementRtzlufC
++ _$s6Speech13AnalyzerInputV6bufferACSo16AVAudioPCMBufferC_tcfC
++ _$s6TipKit0A4ViewV_9arrowEdge6actionACyAA03AnyA0VGAA0A0_pSg_7SwiftUI0E0OSgyAA4TipsO6ActionVctcAGRszrlufC
++ _$s6TipKit0A5GroupC07currentA7UpdatesQrvg
++ _$s6TipKit0A5GroupC07currentA7UpdatesQrvpQOMQ
++ _$s6TipKit0A5GroupC8PriorityO14firstAvailableyA2EmFWC
++ _$s6TipKit0A5GroupC8PriorityOMa
++ _$s6TipKit0A5GroupCMa
++ _$s6TipKit0A5GroupCyA2C8PriorityO_SayAA0A0_pGyXEtcfc
++ _$s6TipKit4TipsO12GroupBuilderV17buildPartialBlock5firstSayAA0A0_pGAI_tFZ
++ _$s6TipKit4TipsO12GroupBuilderV17buildPartialBlock5firstSayAA0A0_pGAaH_p_tFZ
++ _$s6TipKit4TipsO12GroupBuilderV7buildIfySayAA0A0_pGAHSgFZ
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock11accumulated4nextQrx_q_tAA0A6OptionRzAaIR_r0_lFZ
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock11accumulated4nextQrx_q_tAA0A6OptionRzAaIR_r0_lFZQOMQ
++ _$s6TipKit4TipsO23IgnoresDisplayFrequencyVAA0A6OptionAAWP
++ _$s6TipKit4TipsO23IgnoresDisplayFrequencyVMa
++ _$s6TipKit4TipsO23IgnoresDisplayFrequencyVMn
++ _$s6TipKit4TipsO23IgnoresDisplayFrequencyVyAESbcfC
++ _$s7Combine10PublishersO16RemoveDuplicatesVMn
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_xGAA9PublisherAAMc
++ _$s7Combine10PublishersO9MergeManyVMn
++ _$s7Combine10PublishersO9MergeManyVy_xGAA9PublisherAAMc
++ _$s7Combine9PublisherPAAE5merge4withAA10PublishersO9MergeManyVy_xGx_tF
++ _$s7Combine9PublisherPAASQ6OutputRpzrlE16removeDuplicatesAA10PublishersO06RemoveE0Vy_xGyF
++ _$s7Network13NWPathMonitorC11currentPathAA0B0Vvg
++ _$s7SwiftUI10DatePickerV9selection2in19displayedComponents5labelACyxGAA7BindingVy10Foundation0C0VG_SNyAMGAA0cdH0VxyXEtcfC
++ _$s7SwiftUI10DatePickerV9selection2in19displayedComponents5labelACyxGAA7BindingVy10Foundation0C0VG_s16PartialRangeFromVyAMGAA0cdH0VxyXEtcfC
++ _$s7SwiftUI10DatePickerV9selection2in19displayedComponents5labelACyxGAA7BindingVy10Foundation0C0VG_s19PartialRangeThroughVyAMGAA0cdH0VxyXEtcfC
++ _$s7SwiftUI10EdgeInsetsV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI10EdgeInsetsVMn
++ _$s7SwiftUI10FocusStateV12wrappedValuexvg
++ _$s7SwiftUI10FocusStateV14projectedValueAC7BindingVyx_Gvg
++ _$s7SwiftUI10FocusStateVACySbGycSbRszrlufC
++ _$s7SwiftUI10FocusStateVMn
++ _$s7SwiftUI10LazyVStackV9alignment7spacing11pinnedViews7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgAA016PinnedScrollableH0VxyXEtcfC
++ _$s7SwiftUI10LazyVStackVMn
++ _$s7SwiftUI10LazyVStackVyxGAA4ViewAAMc
++ _$s7SwiftUI10VisibilityO2eeoiySbAC_ACtFZ
++ _$s7SwiftUI11ToggleStyleMp
++ _$s7SwiftUI11ToggleStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI11ToggleStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
++ _$s7SwiftUI11_MaskEffectVMn
++ _$s7SwiftUI12ControlGroupV7contentACyxGxyXE_tcfC
++ _$s7SwiftUI12ControlGroupVMn
++ _$s7SwiftUI12ControlGroupVyxGAA4ViewAAMc
++ _$s7SwiftUI12SharePreviewVAAs5NeverORszAERs_rlE8metadataACyA2EGyp_tcfC
++ _$s7SwiftUI12ZStackLayoutVAA0D0AAMc
++ _$s7SwiftUI12ZStackLayoutVN
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
++ _$s7SwiftUI13GroupBoxStyleMp
++ _$s7SwiftUI13GroupBoxStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI13GroupBoxStyleP8makeBody13configuration0G0QzAA0cdE13ConfigurationV_tFTq
++ _$s7SwiftUI13ImageRendererC03_uiC0So7UIImageCSgvg
++ _$s7SwiftUI13ImageRendererC7contentACyxGx_tcfc
++ _$s7SwiftUI13ImageRendererC8_contentACyxGx_tcfC
++ _$s7SwiftUI13ImageRendererCAAE10_colorModeAA014ColorRenderingF0Ovs
++ _$s7SwiftUI13ImageRendererCAAE13_proposedSizeAA012ProposedViewF0Vvs
++ _$s7SwiftUI13ImageRendererCAAE6_scale12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI13ImageRendererCAAE9_isOpaqueSbvs
++ _$s7SwiftUI13ImageRendererCMn
++ _$s7SwiftUI13LayoutSubviewV15containerValuesAA09ContainerF0Vvg
++ _$s7SwiftUI14LabeledContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI14ObservedObjectV12wrappedValueACyxGx_tcfC
++ _$s7SwiftUI14ObservedObjectVMa
++ _$s7SwiftUI14ObservedObjectVMn
++ _$s7SwiftUI14ViewDimensionsVy12CoreGraphics7CGFloatVAA17VerticalAlignmentVcig
++ _$s7SwiftUI15BackgroundStyleVAA05ShapeD0AAWP
++ _$s7SwiftUI15BackgroundStyleVN
++ _$s7SwiftUI15ContainerValuesV6hasTagySbxSHRzlF
++ _$s7SwiftUI15ContainerValuesVMn
++ _$s7SwiftUI15ContainerValuesVy5ValueQzxmcAA0cE3KeyRzluig
++ _$s7SwiftUI15ContainerValuesVy5ValueQzxmcAA0cE3KeyRzluis
++ _$s7SwiftUI15DatePickerStyleMp
++ _$s7SwiftUI15DatePickerStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI15DatePickerStyleP5_BodyAC_AA4ViewTn
++ _$s7SwiftUI15DatePickerStyleP5_body13configuration5_BodyQzAA0cD0VyAA01_cdE5LabelVG_tFTq
++ _$s7SwiftUI15DatePickerStyleP8makeBody13configuration0G0QzAA0cdE13ConfigurationV_tFTq
++ _$s7SwiftUI15DatePickerStylePA2A9EmptyViewV5_BodyRtzrlE5_body13configurationAeA0cD0VyAA01_cdE5LabelVG_tF
++ _$s7SwiftUI15DynamicTypeSizeO2eeoiySbAC_ACtFZ
++ _$s7SwiftUI15DynamicTypeSizeO6xLargeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeOSHAAMc
++ _$s7SwiftUI15DynamicTypeSizeOyACSgSo09UIContentE8CategoryacfC
++ _$s7SwiftUI16KeyboardShortcutV12cancelActionACvgZ
++ _$s7SwiftUI16KeyboardShortcutV13defaultActionACvgZ
++ _$s7SwiftUI16KeyboardShortcutVMa
++ _$s7SwiftUI16PresentationKindV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI16PresentationKindV7popoverACvgZ
++ _$s7SwiftUI16PresentationKindVMa
++ _$s7SwiftUI16RedactionReasonsV11placeholderACvgZ
++ _$s7SwiftUI16RoundedRectangleVAA15InsettableShapeAAMc
++ _$s7SwiftUI16RoundedRectangleVAA27CornerConfigurationShape_v1AAMc
++ _$s7SwiftUI16ScrollAnchorRoleV11sizeChangesACvgZ
++ _$s7SwiftUI16ScrollAnchorRoleVMa
++ _$s7SwiftUI16SubscriptionViewVMn
++ _$s7SwiftUI16SubscriptionViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI16TagValueTraitKeyVMa
++ _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc
++ _$s7SwiftUI17ButtonBorderShapeV16roundedRectangle6radiusAC12CoreGraphics7CGFloatV_tFZ
++ _$s7SwiftUI17ContainerValueKeyMp
++ _$s7SwiftUI17ContainerValueKeyP07defaultD00D0QzvgZTq
++ _$s7SwiftUI17ControlGroupStyleMp
++ _$s7SwiftUI17ControlGroupStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI17ControlGroupStyleP8makeBody13configuration0G0QzAA0cdE13ConfigurationV_tFTq
++ _$s7SwiftUI17EnvironmentValuesV16presentationKindAA012PresentationF0Vvg
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA014UITraitBridgedC3KeyRzluig
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA014UITraitBridgedC3KeyRzluis
++ _$s7SwiftUI17NavigationBarItemV16TitleDisplayModeO5largeyA2EmFWC
++ _$s7SwiftUI17SwitchToggleStyleVAA0dE0AAMc
++ _$s7SwiftUI17SwitchToggleStyleVACycfC
++ _$s7SwiftUI17SwitchToggleStyleVMa
++ _$s7SwiftUI17SwitchToggleStyleVMn
++ _$s7SwiftUI17VerticalAlignmentV16lastTextBaselineACvgZ
++ _$s7SwiftUI17VerticalAlignmentV19firstTextLineCenterACvgZ
++ _$s7SwiftUI17VerticalAlignmentV6bottomACvgZ
++ _$s7SwiftUI18SubviewsCollectionVAA4ViewAAWP
++ _$s7SwiftUI18SubviewsCollectionVMn
++ _$s7SwiftUI18SubviewsCollectionVSKAAMc
++ _$s7SwiftUI18SubviewsCollectionVSkAAMc
++ _$s7SwiftUI19LabeledContentStyleMp
++ _$s7SwiftUI19LabeledContentStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI19LabeledContentStyleP8makeBody13configuration0G0QzAA0cdE13ConfigurationV_tFTq
++ _$s7SwiftUI19SeparatorShapeStyleVACycfC
++ _$s7SwiftUI19SeparatorShapeStyleVMa
++ _$s7SwiftUI19SeparatorShapeStyleVMn
++ _$s7SwiftUI19UIHostingControllerC12sizeThatFits2inSo6CGSizeVAG_tFTj
++ _$s7SwiftUI19UIHostingControllerC13sizingOptionsAA0cd6SizingF0VvsTj
++ _$s7SwiftUI19UIHostingControllerC15safeAreaRegionsAA04SafefG0Vvs
++ _$s7SwiftUI19UIHostingControllerC8rootViewxvMTj
++ _$s7SwiftUI20SectionConfigurationV15containerValuesAA09ContainerF0Vvg
++ _$s7SwiftUI20SectionConfigurationV2IDVMn
++ _$s7SwiftUI20SectionConfigurationV6footerAA18SubviewsCollectionVvg
++ _$s7SwiftUI20SectionConfigurationV6headerAA18SubviewsCollectionVvg
++ _$s7SwiftUI20SectionConfigurationV7contentAA18SubviewsCollectionVvg
++ _$s7SwiftUI20SectionConfigurationVMa
++ _$s7SwiftUI20SectionConfigurationVMn
++ _$s7SwiftUI20ToolbarItemPlacementV18cancellationActionACvgZ
++ _$s7SwiftUI20ToolbarItemPlacementV18confirmationActionACvgZ
++ _$s7SwiftUI20_HoverRegionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI20_HoverRegionModifierVMn
++ _$s7SwiftUI20_HoverRegionModifierVN
++ _$s7SwiftUI21_TraitWritingModifierVMa
++ _$s7SwiftUI22CompactDatePickerStyleVAA0deF0AAMc
++ _$s7SwiftUI22CompactDatePickerStyleVACycfC
++ _$s7SwiftUI22CompactDatePickerStyleVMa
++ _$s7SwiftUI22CompactDatePickerStyleVMn
++ _$s7SwiftUI22ContainerRelativeShapeV6_InsetVMn
++ _$s7SwiftUI22ContainerRelativeShapeVMn
++ _$s7SwiftUI22FormStyleConfigurationV7ContentVAA4ViewAAMc
++ _$s7SwiftUI22FormStyleConfigurationV7ContentVMa
++ _$s7SwiftUI22FormStyleConfigurationV7contentAC7ContentVvg
++ _$s7SwiftUI22UserInterfaceSizeClassOyACSgSo06UIUserdeF0VcfC
++ _$s7SwiftUI23PreferredColorSchemeKeyVMn
++ _$s7SwiftUI23SubviewsCollectionSliceVSkAAMc
++ _$s7SwiftUI23_ContainerShapeModifierVMn
++ _$s7SwiftUI23_ContainerShapeModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI24ForEachSectionCollectionVMn
++ _$s7SwiftUI24GraphicalDatePickerStyleVAA0deF0AAMc
++ _$s7SwiftUI24GraphicalDatePickerStyleVACycfC
++ _$s7SwiftUI24GraphicalDatePickerStyleVMa
++ _$s7SwiftUI24GraphicalDatePickerStyleVMn
++ _$s7SwiftUI24ToggleStyleConfigurationV4isOnSbvM
++ _$s7SwiftUI24ToggleStyleConfigurationV4isOnSbvg
++ _$s7SwiftUI24ToggleStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI24ToggleStyleConfigurationV5LabelVMa
++ _$s7SwiftUI24ToggleStyleConfigurationV5LabelVMn
++ _$s7SwiftUI24ToggleStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI24ToggleStyleConfigurationVMa
++ _$s7SwiftUI24ToggleStyleConfigurationVMn
++ _$s7SwiftUI24_TagTraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVMn
++ _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI25ListRowBackgroundTraitKeyVMn
++ _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAWP
++ _$s7SwiftUI25_AlignmentWritingModifierVMn
++ _$s7SwiftUI26GroupBoxStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI26GroupBoxStyleConfigurationV5LabelVMa
++ _$s7SwiftUI26GroupBoxStyleConfigurationV5LabelVMn
++ _$s7SwiftUI26GroupBoxStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI26GroupBoxStyleConfigurationV7ContentVMn
++ _$s7SwiftUI26GroupBoxStyleConfigurationV7contentAC7ContentVvg
++ _$s7SwiftUI26WindowBackgroundShapeStyleVAA0eF0AAMc
++ _$s7SwiftUI26WindowBackgroundShapeStyleVACycfC
++ _$s7SwiftUI26WindowBackgroundShapeStyleVMa
++ _$s7SwiftUI28DatePickerStyleConfigurationV07maximumC010Foundation0C0VSgvg
++ _$s7SwiftUI28DatePickerStyleConfigurationV07minimumC010Foundation0C0VSgvg
++ _$s7SwiftUI28DatePickerStyleConfigurationV10$selectionAA7BindingVy10Foundation0C0VGvg
++ _$s7SwiftUI28DatePickerStyleConfigurationV19displayedComponentsAA0cdH0Vvg
++ _$s7SwiftUI28DatePickerStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI28DatePickerStyleConfigurationV5LabelVMa
++ _$s7SwiftUI28DatePickerStyleConfigurationV5LabelVMn
++ _$s7SwiftUI28DatePickerStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI28DatePickerStyleConfigurationVMa
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyMp
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyP4read4from5ValueQzSo0C10CollectionC_tFZTq
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyP5write2to5valuey5UIKit15UIMutableTraits_pz_5ValueQztFZTq
++ _$s7SwiftUI28UITraitBridgedEnvironmentKeyPAA0eF0Tb
++ _$s7SwiftUI30ControlGroupStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI30ControlGroupStyleConfigurationV5LabelVMa
++ _$s7SwiftUI30ControlGroupStyleConfigurationV5LabelVMn
++ _$s7SwiftUI30ControlGroupStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI30ControlGroupStyleConfigurationV7ContentVMn
++ _$s7SwiftUI30ControlGroupStyleConfigurationV7contentAC7ContentVvg
++ _$s7SwiftUI30_ContainerValueWritingModifierVMn
++ _$s7SwiftUI30_ContainerValueWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI31_DefaultForegroundStyleModifierVMn
++ _$s7SwiftUI32LabeledContentStyleConfigurationV0D0VMn
++ _$s7SwiftUI32LabeledContentStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI32LabeledContentStyleConfigurationV5LabelVMa
++ _$s7SwiftUI32LabeledContentStyleConfigurationV5LabelVMn
++ _$s7SwiftUI32LabeledContentStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI32LabeledContentStyleConfigurationV7contentAC0D0Vvg
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20intrinsicContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20preferredContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVMa
++ _$s7SwiftUI37_ContainerCornerReadableShapeModifierV5shapeACyxGx_tcfC
++ _$s7SwiftUI37_ContainerCornerReadableShapeModifierVMn
++ _$s7SwiftUI37_ContainerCornerReadableShapeModifierVyxGAA04ViewG0AAMc
++ _$s7SwiftUI4AxisO3SetVMn
++ _$s7SwiftUI4FontV7calloutACvgZ
++ _$s7SwiftUI4FontV9TextStyleO8footnoteyA2EmFWC
++ _$s7SwiftUI4FontVN
++ _$s7SwiftUI4FormV7contentACyxGxyXE_tcfC
++ _$s7SwiftUI4FormVMn
++ _$s7SwiftUI4FormVyxGAA4ViewAAMc
++ _$s7SwiftUI4LinkVyxGAA4ViewAAMc
++ _$s7SwiftUI4PathV10addEllipse2in9transformySo6CGRectV_So17CGAffineTransformVtF
++ _$s7SwiftUI4PathV7addRect_9transformySo6CGRectV_So17CGAffineTransformVtF
++ _$s7SwiftUI4PathVACycfC
++ _$s7SwiftUI4TextVyAC10Foundation23LocalizedStringResourceVcfC
++ _$s7SwiftUI4ViewP21JournalingSuggestionsE010journalingE6Picker11isPresented13journalConfig12onCompletionQrAA7BindingVySbG_AD20JournalConfigurationVyAD0D10SuggestionVYactF
++ _$s7SwiftUI4ViewP21JournalingSuggestionsE010journalingE6Picker11isPresented13journalConfig12onCompletionQrAA7BindingVySbG_AD20JournalConfigurationVyAD0D10SuggestionVYactFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE10chartXAxisyQrAA10VisibilityOF
++ _$s7SwiftUI4ViewP6ChartsE10chartXAxisyQrAA10VisibilityOFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE10chartYAxisyQrAA10VisibilityOF
++ _$s7SwiftUI4ViewP6ChartsE10chartYAxisyQrAA10VisibilityOFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE11chartXScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0I6DomainRd__lF
++ _$s7SwiftUI4ViewP6ChartsE11chartXScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0I6DomainRd__lFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lF
++ _$s7SwiftUI4ViewP6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE15chartBackground9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lF
++ _$s7SwiftUI4ViewP6ChartsE15chartBackground9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE19chartScrollPosition1xQrAA7BindingVyqd__G_tAD9PlottableRd__lF
++ _$s7SwiftUI4ViewP6ChartsE19chartScrollPosition1xQrAA7BindingVyqd__G_tAD9PlottableRd__lFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE19chartScrollableAxesyQrAA4AxisO3SetVF
++ _$s7SwiftUI4ViewP6ChartsE19chartScrollableAxesyQrAA4AxisO3SetVFQOMQ
++ _$s7SwiftUI4ViewP6ChartsE19chartXVisibleDomain6lengthQrqd___tAD9PlottableRd__SjRd__lF
++ _$s7SwiftUI4ViewP6ChartsE19chartXVisibleDomain6lengthQrqd___tAD9PlottableRd__SjRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE12labelsHiddenQryF
++ _$s7SwiftUI4ViewPAAE12labelsHiddenQryFQOMQ
++ _$s7SwiftUI4ViewPAAE13groupBoxStyleyQrqd__AA05GroupeF0Rd__lF
++ _$s7SwiftUI4ViewPAAE13groupBoxStyleyQrqd__AA05GroupeF0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_AA0G6InsetsVAA22ContentMarginPlacementVtF
++ _$s7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_AA0G6InsetsVAA22ContentMarginPlacementVtFQOMQ
++ _$s7SwiftUI4ViewPAAE15datePickerStyleyQrqd__AA04DateeF0Rd__lF
++ _$s7SwiftUI4ViewPAAE15datePickerStyleyQrqd__AA04DateeF0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VF
++ _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VFQOMQ
++ _$s7SwiftUI4ViewPAAE17controlGroupStyleyQrqd__AA07ControleF0Rd__lF
++ _$s7SwiftUI4ViewPAAE17controlGroupStyleyQrqd__AA07ControleF0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE17defaultAppStorageyQrSo14NSUserDefaultsCF
++ _$s7SwiftUI4ViewPAAE17defaultAppStorageyQrSo14NSUserDefaultsCFQOMQ
++ _$s7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lF
++ _$s7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE19defaultScrollAnchor_3forQrAA9UnitPointVSg_AA0eF4RoleVtF
++ _$s7SwiftUI4ViewPAAE19defaultScrollAnchor_3forQrAA9UnitPointVSg_AA0eF4RoleVtFQOMQ
++ _$s7SwiftUI4ViewPAAE19labeledContentStyleyQrqd__AA07LabeledeF0Rd__lF
++ _$s7SwiftUI4ViewPAAE19labeledContentStyleyQrqd__AA07LabeledeF0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE22containerRelativeFrame_9alignment_QrAA4AxisO3SetV_AA9AlignmentV12CoreGraphics7CGFloatVAN_AGtctF
++ _$s7SwiftUI4ViewPAAE22containerRelativeFrame_9alignment_QrAA4AxisO3SetV_AA9AlignmentV12CoreGraphics7CGFloatVAN_AGtctFQOMQ
++ _$s7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOF
++ _$s7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQOMQ
++ _$s7SwiftUI4ViewPAAE24listHasLazyStackBehaviorQryF
++ _$s7SwiftUI4ViewPAAE24listHasLazyStackBehaviorQryFQOMQ
++ _$s7SwiftUI4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GF
++ _$s7SwiftUI4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOMQ
++ _$s7SwiftUI4ViewPAAE9focusableyQrSbF
++ _$s7SwiftUI4ViewPAAE9focusableyQrSbFQOMQ
++ _$s7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lF
++ _$s7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQOMQ
++ _$s7SwiftUI5ColorV02uiC0ACSo7UIColorC_tcfC
++ _$s7SwiftUI5ColorV06accentC0ACvgZ
++ _$s7SwiftUI5ColorV13RGBColorSpaceO10sRGBLinearyA2EmFWC
++ _$s7SwiftUI5ColorV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI5ColorVAA4ViewAAWP
++ _$s7SwiftUI5ColorV_5white7opacityA2C13RGBColorSpaceO_S2dtcfC
++ _$s7SwiftUI5ImageV21JournalingSuggestions0D15SuggestionAssetADWP
++ _$s7SwiftUI5ShapeMp
++ _$s7SwiftUI5ShapeP12sizeThatFitsySo6CGSizeVAA16ProposedViewSizeVFTq
++ _$s7SwiftUI5ShapeP23layoutDirectionBehaviorAA06LayouteF0OvgTq
++ _$s7SwiftUI5ShapeP4path2inAA4PathVSo6CGRectV_tFTq
++ _$s7SwiftUI5ShapeP4roleAA0C4RoleOvgZTq
++ _$s7SwiftUI5ShapePAA10AnimatableTb
++ _$s7SwiftUI5ShapePAA4ViewTb
++ _$s7SwiftUI5ShapePAAE13_makeViewList4view6inputsAA01_eF7OutputsVAA11_GraphValueVyxG_AA01_eF6InputsVtFZ
++ _$s7SwiftUI5ShapePAAE23layoutDirectionBehaviorAA06LayouteF0Ovg
++ _$s7SwiftUI5ShapePAAE4bodyAA01_C4ViewVyxAA15ForegroundStyleVGvg
++ _$s7SwiftUI5ShapePAAE4roleAA0C4RoleOvgZ
++ _$s7SwiftUI5ShapePAAE9_makeView4view6inputsAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVtFZ
++ _$s7SwiftUI6PickerV9selection7content5label17currentValueLabelACyxq_q0_GAA7BindingVyq_G_q0_yXExyXEqd__yXEtcAA4ViewRd__lufC
++ _$s7SwiftUI6ToggleVA2A0C18StyleConfigurationV5LabelVRszrlEyACyAGGAEcfC
++ _$s7SwiftUI6ToggleVA2A4TextVRszrlE_4isOnACyAEGqd___AA7BindingVySbGtcSyRd__lufC
++ _$s7SwiftUI7AnyViewVN
++ _$s7SwiftUI7BindingV3get3setACyxGxyc_yxctcfC
++ _$s7SwiftUI7ForEachV8sections7contentACyAA0cD17SectionCollectionVyq0_GAA0G13ConfigurationV2IDVq0_Gqd___q0_AJctcAHRszALRs_AA4ViewR0_AaNRd__lufC
++ _$s7SwiftUI7ForEachV8subviews7contentACyAA0cD17SubviewCollectionVyq0_GAA0G0V2IDVq0_Gqd___q0_AJctcAHRszALRs_AA4ViewR0_AaNRd__lufC
++ _$s7SwiftUI7SectionVA2A9EmptyViewVRszAA0E0R_AaFR0_rlE6footer7contentACyAEq_q0_Gq0__q_yXEtcfC
++ _$s7SwiftUI7SubviewV2IDVSQAAMc
++ _$s7SwiftUI7SubviewV2idAC2IDVvg
++ _$s7SwiftUI7SubviewVs12IdentifiableAAMc
++ _$s7SwiftUI8GradientVMn
++ _$s7SwiftUI8GradientVN
++ _$s7SwiftUI8GroupBoxV5label7contentACyxq_Gx_q_yXEtcfC
++ _$s7SwiftUI8GroupBoxVMn
++ _$s7SwiftUI8GroupBoxVyxq_GAA4ViewAAMc
++ _$s7SwiftUI8SolariumVAA18ViewInputPredicateAAWP
++ _$s7SwiftUI8SolariumVACycfC
++ _$s7SwiftUI8SolariumVMn
++ _$s7SwiftUI8SolariumVN
++ _$s7SwiftUI8StaticIfVA2A18ViewInputPredicateRzAA0E0R_AaER0_rlE_4thenACyxq_AA05EmptyE0VGx_q_yXEtcAHRs0_rlufC
++ _$s7SwiftUI8StaticIfVMn
++ _$s7SwiftUI8StaticIfVyxq_q0_GAA4ViewA2A0E14InputPredicateRzAaER_AaER0_rlMc
++ _$s7SwiftUI9AlignmentV13bottomLeadingACvgZ
++ _$s7SwiftUI9AnimationV7easeOutACvgZ
++ _$s7SwiftUI9AnimationV9easeInOutACvgZ
++ _$s7SwiftUI9AnimationVMn
++ _$s7SwiftUI9AnimationVN
++ _$s7SwiftUI9BlendModeO14destinationOutyA2CmFWC
++ _$s7SwiftUI9FormStyleMp
++ _$s7SwiftUI9FormStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI9FormStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
++ _$s7SwiftUI9UnitPointV13bottomLeadingACvgZ
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV17automaticallySyncSbvs
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV27assetDownloadStagingManagerSo07CKAssetghI0CSgvs
++ _$s8CloudKit12CKSyncEngineC13ConfigurationV8database18stateSerialization8delegateAESo10CKDatabaseC_AC5StateC0H0VSgAA0cD8Delegate_ptcfC
++ _$s8CloudKit12CKSyncEngineC13ConfigurationVMa
++ _$s8CloudKit12CKSyncEngineC16cancelOperationsyyYaF
++ _$s8CloudKit12CKSyncEngineC16cancelOperationsyyYaFTu
++ _$s8CloudKit12CKSyncEngineC18SendChangesContextV7optionsAC0eF7OptionsVvg
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5ScopeO8containsySbAC23PendingRecordZoneChangeOF
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5ScopeOMa
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsV5scopeAE5ScopeOvg
++ _$s8CloudKit12CKSyncEngineC18SendChangesOptionsVMa
++ _$s8CloudKit12CKSyncEngineC19FetchChangesContextV7optionsAC0eF7OptionsVvg
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV17ZoneConfigurationV06shouldE13AssetContentsSbvs
++ _$s8CloudKit12CKSyncEngineC19FetchChangesOptionsV24defaultZoneConfigurationAE0iJ0VvM
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV13recordsToSaveSaySo8CKRecordCGvg
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV14pendingChanges14recordProviderAESgSayAC07PendingefG0OG_So8CKRecordCSgSo0N2IDCYaYbXEtYacfC
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV14pendingChanges14recordProviderAESgSayAC07PendingefG0OG_So8CKRecordCSgSo0N2IDCYaYbXEtYacfCTu
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchV17recordIDsToDeleteSaySo10CKRecordIDCGvg
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchVMa
++ _$s8CloudKit12CKSyncEngineC21RecordZoneChangeBatchVMn
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeO04saveF0yAESo10CKRecordIDCcAEmFWC
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeO06deleteF0yAESo10CKRecordIDCcAEmFWC
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeOMa
++ _$s8CloudKit12CKSyncEngineC23PendingRecordZoneChangeOMn
++ _$s8CloudKit12CKSyncEngineC5EventO11StateUpdateV18stateSerializationAC0F0C0I0Vvg
++ _$s8CloudKit12CKSyncEngineC5EventO11StateUpdateVMa
++ _$s8CloudKit12CKSyncEngineC5EventO11stateUpdateyA2E05StateG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO12fetchedAssetyA2E07FetchedG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO14switchAccountsyAISo10CKRecordIDC_ALtcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO6signInyAISo10CKRecordIDC_tcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeO7signOutyAISo10CKRecordIDC_tcAImFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV0G4TypeOMa
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeV10changeTypeAG0gI0Ovg
++ _$s8CloudKit12CKSyncEngineC5EventO13AccountChangeVMa
++ _$s8CloudKit12CKSyncEngineC5EventO13accountChangeyA2E07AccountG0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO13didFetchAssetyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO14didSendChangesyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO14willFetchAssetyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO15didFetchChangesyA2E03DidgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO15willSendChangesyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO16willFetchChangesyA2E04WillgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO19sentDatabaseChangesyA2E04SentgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveV5errorSC11CKErrorCodeLeVvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveV6recordSo8CKRecordCvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06FailedG4SaveVMa
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06failedG5SavesSayAG06FailedG4SaveVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV06failedG7DeletesSDySo10CKRecordIDCSC11CKErrorCodeLeVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV07deletedG3IDsSaySo10CKRecordIDCGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesV12savedRecordsSaySo8CKRecordCGvg
++ _$s8CloudKit12CKSyncEngineC5EventO21SentRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO21sentRecordZoneChangesyA2E04SentghI0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesV13modificationsSaySo10CKDatabaseCAAE0G6ChangeO12ModificationVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesV9deletionsSaySo10CKDatabaseCAAE0G6ChangeO8DeletionVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO22FetchedDatabaseChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO22fetchedDatabaseChangesyA2E07FetchedgH0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesV13modificationsSaySo10CKDatabaseCAAE0gH6ChangeO12ModificationVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesV9deletionsSaySo10CKDatabaseCAAE0gH6ChangeO8DeletionVGvg
++ _$s8CloudKit12CKSyncEngineC5EventO24FetchedRecordZoneChangesVMa
++ _$s8CloudKit12CKSyncEngineC5EventO24fetchedRecordZoneChangesyA2E07FetchedghI0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO25didFetchRecordZoneChangesyA2E03DidghiJ0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventO26willFetchRecordZoneChangesyA2E04WillghiJ0VcAEmFWC
++ _$s8CloudKit12CKSyncEngineC5EventOMa
++ _$s8CloudKit12CKSyncEngineC5EventOs23CustomStringConvertibleAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationV14deprecatedDataAG10Foundation0H0V_tcfC
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVMa
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVMn
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVSEAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC13SerializationVSeAAMc
++ _$s8CloudKit12CKSyncEngineC5StateC24pendingRecordZoneChangesSayAC07PendinggH6ChangeOGvg
++ _$s8CloudKit12CKSyncEngineC5StateC3add24pendingRecordZoneChangesySayAC07PendinghI6ChangeOG_tF
++ _$s8CloudKit12CKSyncEngineC5StateC6remove24pendingRecordZoneChangesySayAC07PendinghI6ChangeOG_tF
++ _$s8CloudKit12CKSyncEngineC5stateAC5StateCvg
++ _$s8CloudKit12CKSyncEngineCMa
++ _$s8CloudKit12CKSyncEngineCMn
++ _$s8CloudKit12CKSyncEngineCyA2C13ConfigurationVcfc
++ _$s8CloudKit20CKSyncEngineDelegateMp
++ _$s8CloudKit20CKSyncEngineDelegateP11handleEvent_04syncD0yAA0cD0C0G0O_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP18shouldFetchChanges6zoneID04syncD0SbSo012CKRecordZoneJ0C_AA0cD0CtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP23nextFetchChangesOptions_04syncD0AA0cD0C0ghI0VAG0gH7ContextV_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP25nextRecordZoneChangeBatch_04syncD0AA0cD0C0ghiJ0VSgAG18SendChangesContextV_AGtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegateP35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaFTq
++ _$s8CloudKit20CKSyncEngineDelegatePAAE35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaF
++ _$s8CloudKit20CKSyncEngineDelegatePAAE35relatedApplicationBundleIdentifiers7zoneIDs06recordK004syncD0SaySSGSgSaySo14CKRecordZoneIDCG_SaySo0nP0CGAA0cD0CtYaFTu
++ _$s8PaperKit0A20MarkupViewControllerC07contentD0So6UIViewCSgvsTj
++ _$s8PaperKit0A20MarkupViewControllerC15directTouchModeAC0gH0OvsTj
++ _$s8PaperKit0A20MarkupViewControllerC6markup19supportedFeatureSetAcA0aC0VSg_AA0hI0Vtcfc
++ _$s8PaperKit0A20MarkupViewControllerC6markupAA0aC0VSgvgTj
++ _$s8PaperKit0A20MarkupViewControllerC6markupAA0aC0VSgvsTj
++ _$s8PaperKit0A20MarkupViewControllerC8DelegateMp
++ _$s8PaperKit0A20MarkupViewControllerC8DelegateP05papercdE15DidBeginDrawingyyACFTq
++ _$s8PaperKit0A20MarkupViewControllerC8DelegateP05papercdE18DidChangeSelectionyyACFTq
++ _$s8PaperKit0A20MarkupViewControllerC8DelegateP05papercdE28DidChangeContentVisibleFrameyyACFTq
++ _$s8PaperKit0A20MarkupViewControllerC8DelegateP05papercde9DidChangeC0yyACFTq
++ _$s8PaperKit0A20MarkupViewControllerC8delegateAC8Delegate_pSgvsTj
++ _$s8PaperKit0A20MarkupViewControllerC9TouchModeO7drawingyA2EmFWC
++ _$s8PaperKit0A20MarkupViewControllerC9TouchModeOMa
++ _$s8PaperKit0A20MarkupViewControllerCMa
++ _$s8PaperKit0A20MarkupViewControllerCMn
++ _$s8PaperKit0A6MarkupV16transformContentyySo17CGAffineTransformVF
++ _$s8PaperKit0A6MarkupV18dataRepresentation10Foundation4DataVyYaKF
++ _$s8PaperKit0A6MarkupV18dataRepresentation10Foundation4DataVyYaKFTu
++ _$s8PaperKit0A6MarkupV18dataRepresentationAC10Foundation4DataV_tKcfC
++ _$s8PaperKit0A6MarkupV19contentsRenderFrameSo6CGRectVvg
++ _$s8PaperKit0A6MarkupV6boundsACSo6CGRectV_tcfC
++ _$s8PaperKit0A6MarkupV6boundsSo6CGRectVvg
++ _$s8PaperKit0A6MarkupV6boundsSo6CGRectVvs
++ _$s8PaperKit0A6MarkupV7drawing06PencilB09PKDrawingVSgvs
++ _$s8PaperKit0A6MarkupVMa
++ _$s8PaperKit0A6MarkupVMn
++ _$s8PaperKit10FeatureSetV6latestACvgZ
++ _$s8PaperKit10FeatureSetVMa
++ _$s8PhotosUI14PHPickerResultV12itemProviderSo06NSItemF0Cvg
++ _$s8PhotosUI14PHPickerResultV15assetIdentifierSSSgvg
++ _$s8PhotosUI14PHPickerResultV22_preferredContentsRect10targetSizeSo6CGRectVSo6CGSizeV_tF
++ _$s8PhotosUI14PHPickerResultVMa
++ _$s8PhotosUI14PHPickerResultVMn
++ _$s8PhotosUI21PHPickerConfigurationV9SelectionOSQAAMc
++ _$s8PhotosUI21PHPickerConfigurationV9selectionAC9SelectionOvg
++ _$s8PhotosUI30PHPickerViewControllerDelegateMp
++ _$s8PhotosUI30PHPickerViewControllerDelegateP6picker_16didFinishPickingySo0cdE0C_SayAA0C6ResultVGtFTq
++ _$s9Coherence10AnyCRValueVMa
++ _$s9Coherence10AnyCRValueVMn
++ _$s9Coherence11CursorRangeVMn
++ _$s9Coherence11MergeResultVMa
++ _$s9Coherence11MergeResultVMn
++ _$s9Coherence12CRExtensibleO9JournalUI0C6Shared24MergeableAnchorAlignmentORszrlE26anchoredAttachmentPositionSo023NSTextParagraphAnchoredjK0VSgvg
++ _$s9Coherence12CRExtensibleOMn
++ _$s9Coherence12CRExtensibleOyACyxGxcfC
++ _$s9Coherence17UnknownPropertiesVACycfC
++ _$s9Coherence17UnknownPropertiesVMa
++ _$s9Coherence18CRAttributedStringV010attributedC0So012NSAttributedC0Cvg
++ _$s9Coherence18CRAttributedStringV10AttributesV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecI0Rd__luig
++ _$s9Coherence18CRAttributedStringV10AttributesV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecI0Rd__luis
++ _$s9Coherence18CRAttributedStringV10AttributesVAEyx_GycfC
++ _$s9Coherence18CRAttributedStringV10AttributesVMa
++ _$s9Coherence18CRAttributedStringV10AttributesVMn
++ _$s9Coherence18CRAttributedStringV10attributes2at14effectiveRangeAC10AttributesVyx_GSi_SpySo8_NSRangeVGSgtF
++ _$s9Coherence18CRAttributedStringV13JournalSharedAD27MergeableTextAttributeScopeVRszrlE017inlineAssetsDebugC0SSvg
++ _$s9Coherence18CRAttributedStringV13JournalSharedAD27MergeableTextAttributeScopeVRszrlE17minimumAppVersionAD0dkL0Ovg
++ _$s9Coherence18CRAttributedStringV13JournalSharedE8replaced4withACyxGSS_tF
++ _$s9Coherence18CRAttributedStringV13setAttributes_5rangeyAC0E0Vyx_GSg_So8_NSRangeVtF
++ _$s9Coherence18CRAttributedStringV15replaceSubrange_4withySnySiG_SStF
++ _$s9Coherence18CRAttributedStringV20ObservableDifferenceV5editsSayAE4EditOyx__GGvg
++ _$s9Coherence18CRAttributedStringV20ObservableDifferenceVMn
++ _$s9Coherence18CRAttributedStringV4RunsV3RunV10attributesAC10AttributesVyx_Gvg
++ _$s9Coherence18CRAttributedStringV4RunsV3RunV5rangeSnySiGvg
++ _$s9Coherence18CRAttributedStringV4RunsV3RunVMn
++ _$s9Coherence18CRAttributedStringV4RunsV4nextAE3RunVyx__GSgyF
++ _$s9Coherence18CRAttributedStringV4RunsVMn
++ _$s9Coherence18CRAttributedStringV5countSivg
++ _$s9Coherence18CRAttributedStringV5mergeyAA11MergeResultVACyxGF
++ _$s9Coherence18CRAttributedStringV5range2ofSnySiGSgAA11CursorRangeVyAC0F0Vyx_GG_tF
++ _$s9Coherence18CRAttributedStringV6CursorVMn
++ _$s9Coherence18CRAttributedStringV6cursor5rangeAA11CursorRangeVyAC0F0Vyx_GGSnySiG_tF
++ _$s9Coherence18CRAttributedStringV9JournalUIAD18AttributeConverterRzrlE012nsAttributedC015traitCollection06customF8ProviderACyxGSo012NSAttributedC0CSg_So07UITraitK0CAD06CustomfM0_ptcfC
++ _$s9Coherence18CRAttributedStringV9JournalUIAD18AttributeConverterRzrlE012nsAttributedC015traitCollection06customF8ProviderSo012NSAttributedC0CSo07UITraitK0C_AD06CustomfM0_ptF
++ _$s9Coherence18CRAttributedStringV9JournalUIAD18AttributeConverterRzrlE8replaced4with15traitCollectionACyxGSo012NSAttributedC0C_So07UITraitK0CtF
++ _$s9Coherence18CRAttributedStringV9SubstringV4runsAC4RunsVyx_Gvg
++ _$s9Coherence18CRAttributedStringV9SubstringVMn
++ _$s9Coherence18CRAttributedStringVACyxGycfC
++ _$s9Coherence18CRAttributedStringVMa
++ _$s9Coherence18CRAttributedStringVMn
++ _$s9Coherence18CRAttributedStringVyAC9SubstringVyx_GSnySiGcig
++ _$s9Coherence18CRAttributedStringVyACyxGSo012NSAttributedC0CcfC
++ _$s9Coherence18CRAttributedStringVyxGAA4CRDTAAMc
++ _$s9Coherence18CRAttributedStringVyxGAA6CRTypeAAMc
++ _$s9Coherence22UnknownValuePropertiesVACycfC
++ _$s9Coherence22UnknownValuePropertiesVMa
++ _$s9Coherence4CRDTP13JournalSharedE15requiresMerging4withSbx_tF
++ _$s9Coherence5CRSetVACyxGycfC
++ _$s9Coherence5CRSetVMn
++ _$s9Coherence6CRTypePAAE20observableDifference4from010ObservableD0QzSgx_tF
++ _$s9JournalUI15RestorableStateMp
++ _$s9JournalUI15RestorableStatePSETb
++ _$s9JournalUI15RestorableStatePSeTb
++ _$s9JournalUI18AttributeConverterMp
++ _$s9JournalUI18AttributeConverterP09preferredC8ProviderAA06CustomcF0_pXpvgZTq
++ _$s9JournalUI18AttributeConverterP12crAttributes4from15traitCollection06customC8Provider9Coherence18CRAttributedStringV0F0Vyx_GSDySo012NSAttributedN3KeyaypG_So07UITraitI0CAA06CustomcK0_ptFZTj
++ _$s9JournalUI18AttributeConverterP12crAttributes4from15traitCollection06customC8Provider9Coherence18CRAttributedStringV0F0Vyx_GSDySo012NSAttributedN3KeyaypG_So07UITraitI0CAA06CustomcK0_ptFZTq
++ _$s9JournalUI18AttributeConverterP12nsAttributes4from15traitCollection06customC8ProviderSDySo21NSAttributedStringKeyaypG9Coherence012CRAttributedM0V0F0Vyx_G_So07UITraitI0CAA06CustomcK0_ptFZTj
++ _$s9JournalUI18AttributeConverterP12nsAttributes4from15traitCollection06customC8ProviderSDySo21NSAttributedStringKeyaypG9Coherence012CRAttributedM0V0F0Vyx_G_So07UITraitI0CAA06CustomcK0_ptFZTq
++ _$s9JournalUI18AttributeConverterP9Coherence017CRAttributeStringC5ScopeTb
++ _$s9JournalUI20RestorableControllerMp
++ _$s9JournalUI20RestorableControllerP0C9StateTypeAC_AA0cE0Tn
++ _$s9JournalUI20RestorableControllerP14stateToRestore0C9StateTypeQzSgvMTq
++ _$s9JournalUI20RestorableControllerP14stateToRestore0C9StateTypeQzSgvgTq
++ _$s9JournalUI20RestorableControllerP14stateToRestore0C9StateTypeQzSgvsTq
++ _$s9JournalUI20RestorableControllerP19stateRestorationKeySSvgTq
++ _$s9JournalUI20RestorableControllerPAAE03addC5State_2to3keyy0cF4TypeQz_So14NSUserActivityCSgSStFZ
++ _$s9JournalUI20RestorableControllerPAAE03addC5State_2toy0cF4TypeQz_So14NSUserActivityCSgtF
++ _$s9JournalUI20RestorableControllerPAAE03getC21StateFromUserActivity0cF4TypeQzSgyF
++ _$s9JournalUI20RestorableControllerPAAE03getC5State4from3key0cF4TypeQzSgSo14NSUserActivityCSg_SStFZ
++ _$s9JournalUI23CustomAttributeProviderMp
++ _$s9JournalUI23CustomAttributeProviderP10attachment3forAA27AssetTextAttachmentProtocol_pSg0A6Shared09MergeablehiJ0V_tFTj
++ _$s9JournalUI23CustomAttributeProviderP10attachment3forAA27AssetTextAttachmentProtocol_pSg0A6Shared09MergeablehiJ0V_tFTq
++ _$s9JournalUI23CustomAttributeProviderP11defaultFont14compatibleWithSo6UIFontCSo17UITraitCollectionC_tFTj
++ _$s9JournalUI23CustomAttributeProviderP11defaultFont14compatibleWithSo6UIFontCSo17UITraitCollectionC_tFTq
++ _$s9JournalUI23CustomAttributeProviderP16defaultTextColorSo7UIColorCvgTj
++ _$s9JournalUI23CustomAttributeProviderP16defaultTextColorSo7UIColorCvgTq
++ _$s9JournalUI23CustomAttributeProviderP24followUpPromptAttachment3forAA06FollowghI8Protocol_pSg0A6Shared09MergeablekghI0V_tFTj
++ _$s9JournalUI23CustomAttributeProviderP24followUpPromptAttachment3forAA06FollowghI8Protocol_pSg0A6Shared09MergeablekghI0V_tFTq
++ _$s9JournalUI23CustomAttributeProviderPxycfCTq
++ _$s9JournalUI27AssetTextAttachmentProtocolMp
++ _$s9JournalUI27AssetTextAttachmentProtocolP15anchorAlignmentSo023NSTextParagraphAnchoredE8PositionVSgvgTj
++ _$s9JournalUI27AssetTextAttachmentProtocolP15anchorAlignmentSo023NSTextParagraphAnchoredE8PositionVSgvgTq
++ _$s9JournalUI27AssetTextAttachmentProtocolP18preferredRatioSizeSo6CGSizeVvgTq
++ _$s9JournalUI27AssetTextAttachmentProtocolP7assetID10Foundation4UUIDVvgTj
++ _$s9JournalUI27AssetTextAttachmentProtocolP7assetID10Foundation4UUIDVvgTq
++ _$s9JournalUI32FollowUpPromptAttachmentProtocolMp
++ _$s9JournalUI32FollowUpPromptAttachmentProtocolP06followdE0SSvgTq
++ _$s9PencilKit12PKInkingToolV12convertColor_4from2toSo7UIColorCAH_So20UIUserInterfaceStyleVAJtFZ
++ _$s9PencilKit9PKDrawingV36_unconditionallyBridgeFromObjectiveCyACSoABCSgFZ
++ _$s9PencilKit9PKDrawingV4dataAC10Foundation4DataV_tKcfC
++ _$s9PencilKit9PKDrawingV6boundsSo6CGRectVvg
++ _$s9PencilKit9PKDrawingV7strokesSayAA8PKStrokeVGvg
++ _$s9PencilKit9PKDrawingVMa
++ _$s9PencilKit9PKDrawingVMn
++ _$s9PromptKit012ChatMessagesA0VAA31GenerativeConfigurationProtocolAAMc
++ _$s9PromptKit012ChatMessagesA0VMa
++ _$s9PromptKit012ChatMessagesA0VMn
++ _$s9PromptKit012ChatMessagesA0VyA2CyKXEKcfC
++ _$s9PromptKit012ChatMessagesA11ConvertibleMp
++ _$s9PromptKit012ChatMessagesA7BuilderV10buildBlockyAA0cdA0VAFd_tFZ
++ _$s9PromptKit012ChatMessagesA7BuilderV15buildExpressionyAA0cdA0VxAA0cdA11ConvertibleRzlFZ
++ _$s9PromptKit0A25ComponentValueConvertibleMp
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C19FunctionsFoundationE18functionIdentifieryxAD08FunctionI0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE08renderedA9SanitizeryxAD12OverrideHintOyAD014StringRenderedaH0VGF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE17responseSanitizeryxAD12OverrideHintOyAD014StringResponseH0VGF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE18samplingParametersyxAD12OverrideHintOy15TokenGeneration08SamplingH0VGF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C9FunctionsE4with5modelAD0cD8RunnableVy0A4TypeQzqd__xGqd___tlF
++ _$s9PromptKit31GenerativeConfigurationProtocolPAAE13bindVariablesyxSDySSAA0A25ComponentValueConvertible_pGF
++ _$s9WidgetKit0A6CenterC19invalidateRelevance6ofKindySS_tF
++ _$sSB10FoundationE9formattedy12FormatOutputQyd__qd__0C5InputQyd__RszAA0C5StyleRd__lF
++ _$sSE13JournalSharedE6asData10Foundation0D0VSgvg
++ _$sSK11SubSequenceSl_SKTn
++ _$sSK5index6before5IndexQzAD_tFTq
++ _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSK5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSK7IndicesSl_SKTn
++ _$sSK8distance4from2toSi5IndexQz_AEtFTq
++ _$sSK9formIndex6beforey0B0Qzz_tFTq
++ _$sSKMp
++ _$sSKSlTb
++ _$sSKsE4last7ElementQzSgvg
++ _$sSKsE4last7ElementQzSgvpMV
++ _$sSS15reserveCapacityyySiF
++ _$sSS9Coherence7CRValueAAWP
++ _$sSS9PromptKit0A25ComponentValueConvertibleAAWP
++ _$sScP10backgroundScPvgZ
++ _$sScT2eeoiySbScTyxq_G_ABtFZ
++ _$sScTss5NeverORs_rlE16startOnMainActor8priority_ScTyxABGScPSg_xyYaYbScMYccntFZ
++ _$sScg17makeAsyncIteratorScg0C0Vyxq__GyF
++ _$sScg8IteratorVMn
++ _$sScg8IteratorVyxq__GScIsMc
++ _$sSci23AsyncAlgorithmsInternalE8debounce3for9toleranceAA0A16DebounceSequenceVyxs15ContinuousClockVGs8DurationV_AKSgts8SendableRzsAM7ElementRpzrlF
++ _$sSd10Foundation18_FormatSpecifiableAAWP
++ _$sSd10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSd6Charts9PlottableAAWP
++ _$sSdSjsWP
++ _$sSh10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo5NSSetC_ShyxGSgztFZ
++ _$sSh5IndexV8_VariantOMn
++ _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
++ _$sSh5IndexVMn
++ _$sSk11SubSequenceSl_SkTn
++ _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSk5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSk7IndicesSl_SkTn
++ _$sSk8distance4from2toSi5IndexQz_AEtFTq
++ _$sSkMp
++ _$sSkSKTb
++ _$sSl7isEmptySbvgTj
++ _$sSn10FoundationAA4DateVRszrlE9formatted4date4timeSSAC11FormatStyleV0bG0V_AH04TimeG0VtF
++ _$sSn10FoundationAA4DateVRszrlE9formattedy12FormatOutputQyd__qd__AA0D5StyleRd__SnyACG0D5InputRtd__lF
++ _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6ReasonO18encryptedDataResetyA2ImFWC
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6ReasonO6purgedyA2ImFWC
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6ReasonO7deletedyA2ImFWC
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6ReasonOMa
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6reasonAG6ReasonOvg
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionV6zoneIDSo012CKRecordZoneH0Cvg
++ _$sSo10CKDatabaseC8CloudKitE14DatabaseChangeO8DeletionVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationV6recordSo8CKRecordCvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV10recordTypeSSvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV8recordIDSo08CKRecordI0Cvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionVMa
++ _$sSo10CKDatabaseC8CloudKitE17modifyRecordZones6saving8deletingSDySo14CKRecordZoneIDCs6ResultOySo0iJ0Cs5Error_pGG11saveResults_SDyAhJyytsAM_pGG06deleteO0tSayALG_SayAHGtYaKF
++ _$sSo10CKDatabaseC8CloudKitE17modifyRecordZones6saving8deletingSDySo14CKRecordZoneIDCs6ResultOySo0iJ0Cs5Error_pGG11saveResults_SDyAhJyytsAM_pGG06deleteO0tSayALG_SayAHGtYaKFTu
++ _$sSo11CSUserQueryC13CoreSpotlightE10SuggestionV10suggestionSo12CSSuggestionCvg
++ _$sSo11CSUserQueryC13CoreSpotlightE10SuggestionVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE4ItemV4itemSo012CSSearchableE0Cvg
++ _$sSo11CSUserQueryC13CoreSpotlightE4ItemVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV17makeAsyncIteratorAE0H0VyF
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8IteratorVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8IteratorVScIACMc
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseO10suggestionyAgbCE10SuggestionVcAGmFWC
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseO2idSSvg
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseO4itemyAgbCE4ItemVcAGmFWC
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseOMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseOMn
++ _$sSo11CSUserQueryC13CoreSpotlightE9ResponsesVMa
++ _$sSo11CSUserQueryC13CoreSpotlightE9responsesAbCE9ResponsesVvg
++ _$sSo11NSPredicateC13JournalSharedE03allB7EntriesSo19NSCompoundPredicateCvgZ
++ _$sSo11NSPredicateC13JournalSharedE05hasNoB13RelationshipsABvgZ
++ _$sSo11NSPredicateC13JournalSharedE12isDraftEntryABvgZ
++ _$sSo11NSPredicateC13JournalSharedE13isNotTipEntryABvgZ
++ _$sSo11NSPredicateC13JournalSharedE15entryDateNotNilABvgZ
++ _$sSo11NSPredicateC13JournalSharedE15hasNonEmptyTextABvgZ
++ _$sSo11NSPredicateC13JournalSharedE15isNotDraftEntryABvgZ
++ _$sSo11NSPredicateC13JournalSharedE15timelineEntriesSo19NSCompoundPredicateCvgZ
++ _$sSo11NSPredicateC13JournalSharedE16hasNonEmptyTitleABvgZ
++ _$sSo11NSPredicateC13JournalSharedE18notUploadedToCloudABvgZ
++ _$sSo11NSPredicateC13JournalSharedE18timelineEntriesFor9journalIDSo19NSCompoundPredicateC10Foundation4UUIDV_tFZ
++ _$sSo11NSPredicateC13JournalSharedE19allNotDeletedAssetsSo19NSCompoundPredicateCvgZ
++ _$sSo11NSPredicateC13JournalSharedE19notRemovedFromCloudABvgZ
++ _$sSo11NSPredicateC13JournalSharedE22recentlyDeletedEntriesSo19NSCompoundPredicateCvgZ
++ _$sSo11NSPredicateC13JournalSharedE25attachmentNeedsProcessingABvgZ
++ _$sSo11NSPredicateC13JournalSharedE31attachmentAssetIsNotBeingEditedABvgZ
++ _$sSo11NSPredicateC13JournalSharedE32attachmentDoesNotNeedsProcessingABvgZ
++ _$sSo12CSSuggestionC13CoreSpotlightE29localizedAttributedSuggestion10Foundation0E6StringVvg
++ _$sSo12UIKeyCommandC5UIKitE5title5image6action5input13modifierFlags12propertyList10alternates20discoverabilityTitle10attributes5stateABSS_So7UIImageCSg10ObjectiveC8SelectorVSSSo0a8ModifierI0VypSgSaySo18UICommandAlternateCGSSSgSo23UIMenuElementAttributesVSo0wX5StateVtcfC
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV17makeAsyncIteratorAE0H0VyF
++ _$sSo13NSFileManagerC10FoundationE10enumerator2at26includingPropertiesForKeys7options12errorHandlerSo21NSDirectoryEnumeratorCSgAC3URLV_SaySo16NSURLResourceKeyaGSgSo0M18EnumerationOptionsVSbAM_s5Error_ptcSgtF
++ _$sSo13UIApplicationC5UIKitE20activateSceneSession3for12errorHandleryAC07UISceneE17ActivationRequestV_ys5Error_pcSgtF
++ _$sSo14NSItemProviderC22UniformTypeIdentifiersE22loadDataRepresentation3for17completionHandlerSo10NSProgressCAC6UTTypeV_y10Foundation0G0VSg_s5Error_pSgtYbctF
++ _$sSo14NSItemProviderC22UniformTypeIdentifiersE26registerDataRepresentation3for10visibility11loadHandleryAC6UTTypeV_So0abH10VisibilityVSo10NSProgressCSgy10Foundation0G0VSg_s5Error_pSgtcYbctF
++ _$sSo14NSUserDefaultsC13JournalSharedE24sharedWithDataclassOwnerABvgZ
++ _$sSo14NSUserDefaultsC13JournalSharedE6sharedABvgZ
++ _$sSo15NSManagedObjectC7Combine010ObservableB08CoreDataMc
++ _$sSo15UIBarButtonItemC5UIKitE5title5image6target6action4menuABSSSg_So7UIImageCSgyXlSg10ObjectiveC8SelectorVSgSo6UIMenuCSgtcfC
++ _$sSo16CGMutablePathRefa12CoreGraphicsE6addArc6center6radius10startAngle03endK09clockwise9transformySo7CGPointV_AC7CGFloatVA2NSbSo17CGAffineTransformVtF
++ _$sSo16UIViewControllerC5UIKitE14traitOverridesAC07UITraitE0Vvg
++ _$sSo16UIViewControllerC5UIKitE14traitOverridesAC07UITraitE0Vvs
++ _$sSo16UIViewControllerC5UIKitE23registerForTraitChanges_6target6actionSo25UITraitChangeRegistration_pSayAC0J10Definition_pXpG_yp10ObjectiveC8SelectorVtF
++ _$sSo16UIViewControllerC5UIKitE31contentUnavailableConfigurationAC09UIContentF0_pSgvg
++ _$sSo16UIViewControllerC9JournalUIE12dismissAsync8animatedySb_tYaF
++ _$sSo16UIViewControllerC9JournalUIE12dismissAsync8animatedySb_tYaFTu
++ _$sSo16UIViewControllerC9JournalUIE13forPresentingABvg
++ _$sSo17CGAffineTransformV12CoreGraphicsE2eeoiySbAB_ABtFZ
++ _$sSo17UITraitCollectionC5UIKitEy5ValueQzxmcAC0A10DefinitionRzluig
++ _$sSo18NSAttributedStringC13JournalSharedE013getAttributedB6AsData10Foundation0H0VSgyF
++ _$sSo20NSManagedObjectModelC13JournalSharedE12modelVersionSSSgvg
++ _$sSo20NSManagedObjectModelC13JournalSharedE6sharedABvgZ
++ _$sSo20UIBarButtonItemGroupC5UIKitE05fixedD0014representativeC05itemsABSo0abC0CSg_SayAHGtFZ
++ _$sSo20UICollectionViewCellC5UIKitE23backgroundConfigurationAC012UIBackgroundF0VSgvg
++ _$sSo22NSManagedObjectContextC13JournalSharedE0B14IDNotificationV7affectsySbSo0aB0Cmd_tF
++ _$sSo22NSManagedObjectContextC13JournalSharedE0B14IDNotificationVMa
++ _$sSo22NSManagedObjectContextC13JournalSharedE0B14IDNotificationVMn
++ _$sSo22NSManagedObjectContextC13JournalSharedE20didSaveNotificationsQrvg
++ _$sSo22NSManagedObjectContextC13JournalSharedE20didSaveNotificationsQrvpQOMQ
++ _$sSo22NSManagedObjectContextC13JournalSharedE28didMergeChangesNotificationsQrvg
++ _$sSo22NSManagedObjectContextC13JournalSharedE28didMergeChangesNotificationsQrvpQOMQ
++ _$sSo22PHPickerViewControllerC8PhotosUIE13configurationAC0A13ConfigurationVvg
++ _$sSo22PHPickerViewControllerC8PhotosUIE8delegateAC0abC8Delegate_pSgvs
++ _$sSo23UIZoomTransitionOptionsC5UIKitE21alignmentRectProviderSo6CGRectVSgSo0ab9AlignmentF7ContextCcSgvs
++ _$sSo24UICollectionViewListCellC5UIKitE11accessoriesSayAC15UICellAccessoryVGvg
++ _$sSo25NSMutableAttributedStringC9JournalUIE19ensureListIntegrity5rangeySo8_NSRangeVSg_tF
++ _$sSo25UISymbolContentTransitionC5UIKitE_7optionsAB7Symbols0bC12SymbolEffect_AE0gH0p_AE0gH7OptionsVtcfC
++ _$sSo26UIViewControllerTransitionC5UIKitE13crossDissolveABXDvgZ
++ _$sSo26UIViewControllerTransitionC5UIKitE4zoom7options18sourceViewProviderABXDSo06UIZoomC7OptionsCSg_So0A0CSgSo0jc6SourcehI7ContextCctFZ
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlF
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlFTu
++ _$sSo6CGSizeVSQ12CoreGraphicsMc
++ _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
++ _$sSo6UIViewC5UIKitE13InvalidationsO11ConstraintsVAC0A12InvalidatingACWP
++ _$sSo6UIViewC5UIKitE13InvalidationsO11ConstraintsVAGycfC
++ _$sSo6UIViewC5UIKitE13InvalidationsO11ConstraintsVMa
++ _$sSo6UIViewC5UIKitE13InvalidationsO11ConstraintsVMn
++ _$sSo6UIViewC5UIKitE26cornerMaskingConfigurationAC09_UICornerdE0VSgvs
++ _$sSo6UIViewC9JournalUIE27applyBlurEffectToBackground5styleSo08UIVisualF4ViewCSo06UIBlurF5StyleV_tF
++ _$sSo6UIViewC9JournalUIE27viewControllerForPresentingSo0aE0CSgvg
++ _$sSo7UIImageC21JournalingSuggestions0B15SuggestionAssetACWP
++ _$sSo8CKRecordC13JournalSharedE12systemFieldsABSg10Foundation4DataV_tcfC
++ _$sSo8CKRecordC13JournalSharedE19encodedSystemFields10Foundation4DataVvg
++ _$sSo8CKRecordC13JournalSharedE20encryptedValueForKey_2asxSgSS_xmtKlF
++ _$sSo8NSCodingP13JournalSharedSo8NSObjectCRbzrlE6create4fromxSg10Foundation4DataV_tFZ
++ _$sSo8NSCodingP13JournalSharedSo8NSObjectCRbzrlE6toData10Foundation0F0VSgvg
++ _$sSo8UIButtonC5UIKitE13ConfigurationV13MacIdiomStyleO8borderedyA2GmFWC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV13MacIdiomStyleOMa
++ _$sSo8UIButtonC5UIKitE13ConfigurationV13macIdiomStyleAE03MaceF0Ovs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV14borderedTintedAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV21imageColorTransformerAC015UIConfigurationeF0VSgvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV23symbolContentTransitionSo08UISymboleF0CSgvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV5titleSSSgvg
++ _$sSo8UIButtonC5UIKitE13ConfigurationV6_glassAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV7updated3forAeB_tF
++ _$sSo8UIButtonC5UIKitE13ConfigurationV9IndicatorO4noneyA2GmFWC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV9IndicatorOMa
++ _$sSo8UIButtonC5UIKitE13ConfigurationV9indicatorAE9IndicatorOvs
++ _$sSo8UIButtonC5UIKitE4type13primaryActionABSo0A4TypeV_So8UIActionCSgtcfC
++ _$sSo9UICommandC5UIKitE5title8subtitle5image13selectedImage6action12propertyList10alternates20discoverabilityTitle10attributes5stateABSS_SSSgSo7UIImageCSgAQ10ObjectiveC8SelectorVypSgSaySo0A9AlternateCGANSo23UIMenuElementAttributesVSo0tU5StateVtcfC
++ _$sSo9UIControlC5UIKitE22enumerateEventHandlersyyySo8UIActionCSg_ypSg_10ObjectiveC8SelectorVtSgSo0A6EventsVSbztXEF
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSsySsxcSTRzSJ7ElementRtzlufC
++ _$sSz10FoundationE9formattedSSyF
++ _$sSz10FoundationE_6format7lenientxSS_AA18IntegerFormatStyleVyxGSbtKcfC
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
++ _$ss10SetAlgebraP12intersectionyxxFTj
++ _$ss10SetAlgebraP9formUnionyyxnFTj
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
++ _$ss10__CocoaSetV5IndexV1loiySbAD_ADtFZ
++ _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
++ _$ss11AnyHashableV10FoundationE19_bridgeToObjectiveCSo8NSObjectCyF
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12CaseIterableP29GenerativeFunctionsFoundationAC9GenerableRzSYRzSS8RawValueSYRtzrlE4fromxAC15GeneratedValuesV_tKcfC
++ _$ss12CaseIterableP29GenerativeFunctionsFoundationAC9GenerableRzSYRzSS8RawValueSYRtzrlE6schemaAC6SchemaVvgZ
++ _$ss12IdentifiableP13JournalSharedSo15NSManagedObjectCRbz10Foundation4UUIDVSg2IDRtzrlE5fetch2id7contextxSgAH_So0dE7ContextCtKFZ
++ _$ss12IdentifiableP13JournalSharedSo15NSManagedObjectCRbz10Foundation4UUIDVSg2IDRtzrlE5fetch2id7contextxSgSS_So0dE7ContextCtKFZ
++ _$ss12IdentifiableP2id2IDQzvgTj
++ _$ss13ManagedBufferCMn
++ _$ss15ContinuousClockVMn
++ _$ss16AsyncMapSequenceV8IteratorVyxq__GScIsMc
++ _$ss16AsyncMapSequenceVyxq_GScisMc
++ _$ss19AsyncFilterSequenceVMn
++ _$ss19AsyncFilterSequenceV_10isIncludedAByxGx_Sb7ElementQzYactcfC
++ _$ss19AsyncFilterSequenceVyxGScisMc
++ _$ss24ReferenceWritableKeyPathCMn
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlF
++ _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlFTu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5SliceVyxGSKsSKRzrlMc
++ _$ss5SliceVyxGSksSkRzrlMc
++ _$ss8DurationV10FoundationE9formattedSSyF
++ _AVMediaTypeAudio
++ _CATransform3DMakeAffineTransform
++ _CATransform3DMakeRotation
++ _CEMStringIsSingleEmoji
++ _CGAffineTransformConcat
++ _CGAffineTransformMakeScale
++ _CGRectIsEmpty
++ _CGSizeZero
++ _CSQueryContinuationActionType
++ _CSSearchQueryErrorDomain
++ _CSSearchQueryString
++ _MDItemContentType
++ _MDItemKind
++ _MKBGetDeviceLockState
++ _MKMapRectContainsRect
++ _NSParagraphAttachmentAttributeName
++ _NSPersistentStoreCoordinatorStoresDidChangeNotification
++ _NSURLContentTypeKey
++ _NSUndoManagerDidCloseUndoGroupNotification
++ _NSUndoManagerDidOpenUndoGroupNotification
++ _NSUndoManagerDidRedoChangeNotification
++ _NSUndoManagerDidUndoChangeNotification
++ _OBJC_CLASS_$_BGContinuedProcessingTask
++ _OBJC_CLASS_$_BGContinuedProcessingTaskRequest
++ _OBJC_CLASS_$_BGTaskScheduler
++ _OBJC_CLASS_$_CKContainerID
++ _OBJC_CLASS_$_CSCustomAttributeKey
++ _OBJC_CLASS_$_CSPerson
++ _OBJC_CLASS_$_CSSearchQueryContext
++ _OBJC_CLASS_$_CSSuggestion
++ _OBJC_CLASS_$_CSUserQuery
++ _OBJC_CLASS_$_CSUserQueryContext
++ _OBJC_CLASS_$_HKStateOfMind
++ _OBJC_CLASS_$_HKUnit
++ _OBJC_CLASS_$_LAEnvironment
++ _OBJC_CLASS_$_MKMapItemIdentifier
++ _OBJC_CLASS_$_MKMapItemRequest
++ _OBJC_CLASS_$_MKPitchButton
++ _OBJC_CLASS_$_MKReverseGeocodingRequest
++ _OBJC_CLASS_$_MPMusicPlayerStoreQueueDescriptor
++ _OBJC_CLASS_$_NSAttributeDescription
++ _OBJC_CLASS_$_NSCache
++ _OBJC_CLASS_$_NSCollectionLayoutDecorationItem
++ _OBJC_CLASS_$_NSCollectionLayoutEdgeSpacing
++ _OBJC_CLASS_$_NSCollectionLayoutSpacing
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$_NSTextContainer
++ _OBJC_CLASS_$_NSTextLayoutManager
++ _OBJC_CLASS_$_NSTextParagraph
++ _OBJC_CLASS_$_NSTextParagraphAnchoredAttachment
++ _OBJC_CLASS_$_NSTextStorage
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_CLASS_$_NSUndoManager
++ _OBJC_CLASS_$_PKCanvasView
++ _OBJC_CLASS_$_PKToolPicker
++ _OBJC_CLASS_$_PXPlacesMapController
++ _OBJC_CLASS_$_PXPlacesMapGeometricClusterLayout
++ _OBJC_CLASS_$_PXPlacesMapInPlaceUpdatePlan
++ _OBJC_CLASS_$_PXPlacesMapPipeline
++ _OBJC_CLASS_$_PXPlacesMapPointAnnotation
++ _OBJC_CLASS_$_PXPlacesMapThumbnailClusterLayout
++ _OBJC_CLASS_$_PXPlacesMapThumbnailRenderer
++ _OBJC_CLASS_$_PXPlacesMapView
++ _OBJC_CLASS_$_PXPlacesPopoverImageFactory
++ _OBJC_CLASS_$_PXPlacesStore
++ _OBJC_CLASS_$_UIActivityViewController
++ _OBJC_CLASS_$_UICollectionReusableView
++ _OBJC_CLASS_$_UICollectionViewLayoutInvalidationContext
++ _OBJC_CLASS_$_UIColorPickerViewController
++ _OBJC_CLASS_$_UICommand
++ _OBJC_CLASS_$_UICommandAlternate
++ _OBJC_CLASS_$_UIContextualAction
++ _OBJC_CLASS_$_UIControl
++ _OBJC_CLASS_$_UIDragInteraction
++ _OBJC_CLASS_$_UIDragPreview
++ _OBJC_CLASS_$_UIDropInteraction
++ _OBJC_CLASS_$_UIDropProposal
++ _OBJC_CLASS_$_UIHoverGestureRecognizer
++ _OBJC_CLASS_$_UIKeyCommand
++ _OBJC_CLASS_$_UIMenuSystem
++ _OBJC_CLASS_$_UIPasteConfiguration
++ _OBJC_CLASS_$_UIPopoverPresentationController
++ _OBJC_CLASS_$_UIScribbleInteraction
++ _OBJC_CLASS_$_UISearchSuggestionItem
++ _OBJC_CLASS_$_UISheetPresentationController
++ _OBJC_CLASS_$_UISplitViewController
++ _OBJC_CLASS_$_UISwipeActionsConfiguration
++ _OBJC_CLASS_$_UISymbolContentTransition
++ _OBJC_CLASS_$_UITab
++ _OBJC_CLASS_$_UITouch
++ _OBJC_CLASS_$_UIVibrancyEffect
++ _OBJC_CLASS_$_UIViewControllerTransition
++ _OBJC_CLASS_$_UIVisualEffect
++ _OBJC_CLASS_$_UIWindowSceneDragInteraction
++ _OBJC_CLASS_$_UIZoomTransitionOptions
++ _OBJC_CLASS_$_UNNotificationSettings
++ _OBJC_CLASS_$__CSSuggestionToken
++ _OBJC_CLASS_$__MKUserTrackingButton
++ _OBJC_CLASS_$__UINavigationBarPalette
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_METACLASS_$_MKMarkerAnnotationView
++ _OBJC_METACLASS_$_NSTextStorage
++ _OBJC_METACLASS_$_PKCanvasView
++ _OBJC_METACLASS_$_PXPlacesMapPointAnnotation
++ _OBJC_METACLASS_$_UIApplication
++ _OBJC_METACLASS_$_UIBarButtonItem
++ _OBJC_METACLASS_$_UICollectionReusableView
++ _OBJC_METACLASS_$_UICollectionViewLayoutInvalidationContext
++ _OBJC_METACLASS_$_UIControl
++ _OBJC_METACLASS_$_UIGestureRecognizer
++ _OBJC_METACLASS_$_UIWindow
++ _UIAccessibilitySwitchControlStatusDidChangeNotification
++ _UIAccessibilityVoiceOverStatusDidChangeNotification
++ _UIActivityTypeCopyToPasteboard
++ _UIFontDescriptorSystemDesignRounded
++ _UIKeyInputDelete
++ _UIKeyInputEscape
++ _UIKeyInputLeftArrow
++ _UIKeyInputRightArrow
++ _UIKeyboardWillHideNotification
++ _UILayoutFittingCompressedSize
++ _UIMenuAbout
++ _UIMenuDocument
++ _UIMenuFind
++ _UIMenuHelp
++ _UIMenuNewItem
++ _UIMenuOpen
++ _UIMenuPreferences
++ _UIMenuPrint
++ _UIMenuTextSize
++ _UIMenuTextStyle
++ _UIMenuToolbar
++ _UIMenuView
++ _UISceneDidActivateNotification
++ _UISceneSystemProtectionDidChangeNotification
++ _UISheetPresentationControllerDetentIdentifierMedium
++ _UITextFieldTextDidChangeNotification
++ _UITextViewTextDidEndEditingNotification
++ _UITransitionContextFromViewKey
++ _UITransitionContextToViewKey
++ _UIWindowSceneSessionRoleApplication
++ __MKMapRectThatFits
++ __UISheetCornerRadius
++ __UISolariumEnabled
++ __availability_version_check
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _dispatch_once_f
++ _dispatch_sync
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _kCLLocationAccuracyBest
++ _objc_release_x10
++ _objc_release_x11
++ _objc_release_x3
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _swift_dynamicCastMetatype
++ _swift_isClassType
++ _swift_isUniquelyReferenced
++ _swift_readAtKeyPath
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_setAtReferenceWritableKeyPath
+- _$s10AppIntents0A14ShortcutPhraseV13stringLiteralACyxGSS_tcfC
+- _$s10Foundation12CharacterSetV19_bridgeToObjectiveCSo011NSCharacterC0CyF
+- _$s10Foundation13ParseStrategyPA2A4DateV18ISO8601FormatStyleVRszrlE7iso8601AGvgZ
+- _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvM
+- _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
+- _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
+- _$s10Foundation13__DataStorageC6lengthACSi_tcfc
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation14DateComponentsV6secondSiSgvs
+- _$s10Foundation14DateComponentsVSHAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentO4unityA2ImFWC
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentO5valueyA2ImFWC
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOMa
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOMn
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOSEAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOSHAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOSQAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOSYAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0V9ComponentOSeAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0VAA19AttributedStringKeyAAMc
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0VMa
+- _$s10Foundation15AttributeScopesO0A10AttributesV011MeasurementB0VMn
+- _$s10Foundation15AttributeScopesO0A10AttributesV11measurementAE011MeasurementB0Vvg
+- _$s10Foundation15AttributeScopesO0A10AttributesV11measurementAE011MeasurementB0VvpMV
+- _$s10Foundation15ContiguousBytesMp
+- _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s10Foundation16AttributedStringV15replaceSubrange_4withyx_q_tSXRzAA0bC8ProtocolR_AC5IndexV5BoundRtzr0_lF
+- _$s10Foundation16AttributedStringV4RunsV16AttributesSlice2V8IteratorVMn
+- _$s10Foundation16AttributedStringV4RunsV16AttributesSlice2V8IteratorVy__xq__GStAAMc
+- _$s10Foundation16AttributedStringV4RunsV16AttributesSlice2VMn
+- _$s10Foundation16AttributedStringV4RunsV16AttributesSlice2Vy__xq_GSTAAMc
+- _$s10Foundation16AttributedStringV4RunsV3RunV5rangeSnyAC5IndexVGvg
+- _$s10Foundation16AttributedStringV4RunsV3RunVMa
+- _$s10Foundation16AttributedStringV4RunsV5IndexVMa
+- _$s10Foundation16AttributedStringV4RunsV5IndexVSQAAMc
+- _$s10Foundation16AttributedStringV4RunsVMn
+- _$s10Foundation16AttributedStringV4RunsVSTAAMc
+- _$s10Foundation16AttributedStringV4RunsVSlAAMc
+- _$s10Foundation16AttributedStringV4RunsVyAE16AttributesSlice2Vy__xq_Gs7KeyPathCyAA22AttributeDynamicLookupOxG_AJyALq_GtcAA0bcG0RzAaOR_r0_luig
+- _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvg
+- _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvs
+- _$s10Foundation17URLResourceValuesVACycfC
+- _$s10Foundation24AttributedStringProtocolPAAE2eeoiySbx_qd__tAaBRd__lFZ
+- _$s10Foundation3URLV13homeDirectoryACvgZ
+- _$s10Foundation3URLV15cachesDirectoryACvgZ
+- _$s10Foundation3URLV16libraryDirectoryACvgZ
+- _$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF
+- _$s10Foundation3URLV18temporaryDirectoryACvgZ
+- _$s10Foundation3URLV19appendPathComponentyySSF
+- _$s10Foundation3URLV27applicationSupportDirectoryACvgZ
+- _$s10Foundation3URLV6append10queryItemsySayAA12URLQueryItemVG_tF
+- _$s10Foundation3URLV6append9component13directoryHintyx_AC09DirectoryF0OtSyRzlF
+- _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
+- _$s10Foundation3URLV9appending9component13directoryHintACx_AC09DirectoryF0OtSyRzlF
+- _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
+- _$s10Foundation4DataV14RangeReferenceCMa
+- _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
+- _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
+- _$s10Foundation4DataV15_RepresentationON
+- _$s10Foundation4DateV18ISO8601FormatStyleVAA13ParseStrategyAAMc
+- _$s10Foundation4DateV_8strategyAC10ParseInputQz_xtKcAA0D8StrategyRzAC0D6OutputRtzlufC
+- _$s10Foundation4UUIDV4uuidACs5UInt8V_A15Ft_tcfC
+- _$s10Foundation4UUIDV4uuids5UInt8V_A15Ftvg
+- _$s10Foundation8CalendarV17isDateInYesterdayySbAA0D0VF
+- _$s10Foundation8CalendarV18HealthKitAdditionsE8endOfDayyAA4DateVSgAGF
+- _$s12CoreGraphics7CGFloatV10FoundationE10truncatingACSo8NSNumberCh_tcfC
+- _$s12CoreGraphics7CGFloatV9FitnessUIE18roundToScreenScaleACyF
+- _$s12CoreGraphics7CGFloatVSEAAMc
+- _$s12CoreGraphics7CGFloatVSeAAMc
+- _$s12FeatureFlags0aB3KeyMp
+- _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
+- _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
+- _$s14MentalHealthUI21StateOfMindEntryModelC13ConfigurationV18reflectiveInterval4date16parentSampleUUID20fitnessPlusSessionIDA2E017InitialReflectiveK0V_10Foundation4DateVAL0O0VSgSSSgtcfC
+- _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
+- _$s21DeveloperToolsSupport13ImageResourceV13JournalSharedE15wingsBackground5valueACSi_tFZ
+- _$s5UIKit28NSDiffableDataSourceSnapshotV14deleteSectionsyySayxGF
+- _$s5UIKit28NSDiffableDataSourceSnapshotV14insertSections_13beforeSectionySayxG_xtF
+- _$s5Value7SwiftUI06LayoutA3KeyPTl
+- _$s5Value7SwiftUI13PreferenceKeyPTl
+- _$s6Speech0A8AnalyzerC6client13inputSequence11audioFormat7modules7options17restrictedLogging15analysisContext22didChangeVolatileRangeAcA10ClientInfoV_xSo07AVAudioG0CSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vM0CySo06CMTimeQ0a_S2btcSgntcs8SendableRzSciRzAA0B5InputV7ElementRtzlufC
+- _$s6Speech0A8AnalyzerC6client14inputAudioFile7modules7options17restrictedLogging15analysisContext22didChangeVolatileRangeAcA10ClientInfoV_10Foundation3URLVSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vL0CySo06CMTimeP0a_S2btcSgntYaKcfC
+- _$s6Speech0A8AnalyzerC6client14inputAudioFile7modules7options17restrictedLogging15analysisContext22didChangeVolatileRangeAcA10ClientInfoV_10Foundation3URLVSayAA0A6Module_pGAA15AnalysisOptionsVSgSbAA0vL0CySo06CMTimeP0a_S2btcSgntYaKcfCTu
+- _$s6Speech13AnalyzerInputV6buffer0D9StartTimeACSo16AVAudioPCMBufferC_So6CMTimeaSgtcfC
+- _$s6TipKit0A4ViewV_9arrowEdge6actionACyxGx_7SwiftUI0E0OSgyAA4TipsO6ActionVctcfC
+- _$s7Combine10PublishersO11AutoconnectCMn
+- _$s7Combine10PublishersO11AutoconnectCy_xGAA9PublisherAAMc
+- _$s7Combine10PublishersO11SubscribeOnVMn
+- _$s7Combine10PublishersO11SubscribeOnVy_xq_GAA9PublisherAAMc
+- _$s7Combine10PublishersO9ReceiveOnVMn
+- _$s7Combine10PublishersO9ReceiveOnVy_xq_GAA9PublisherAAMc
+- _$s7Combine20ConnectablePublisherPAAE11autoconnectAA10PublishersO11AutoconnectCy_xGyF
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
+- _$s7Combine9PublisherPAAE7receive2on7optionsAA10PublishersO9ReceiveOnVy_xqd__Gqd___16SchedulerOptionsQyd__SgtAA0I0Rd__lF
+- _$s7Combine9PublisherPAAE9subscribe2on7optionsAA10PublishersO11SubscribeOnVy_xqd__Gqd___16SchedulerOptionsQyd__SgtAA0I0Rd__lF
+- _$s7SwiftUI10AppStorageV12wrappedValue_5storeACyxGx_SSSo14NSUserDefaultsCSgtcSYRzSS03RawF0RtzlufC
+- _$s7SwiftUI10GridLayoutVAA0D0AAMc
+- _$s7SwiftUI10GridLayoutVN
+- _$s7SwiftUI11ShadowStyleV4drop5color6radius1x1yAcA5ColorV_12CoreGraphics7CGFloatVA2MtFZ
+- _$s7SwiftUI11ShadowStyleVMa
+- _$s7SwiftUI11TransactionV9animationAA9AnimationVSgvs
+- _$s7SwiftUI11TransactionVy5ValueQzxmcAA0C3KeyRzluis
+- _$s7SwiftUI12SharePreviewVAAs5NeverORszAERs_rlEyACyA2EGAA4TextVcfC
+- _$s7SwiftUI12VerticalEdgeO8rawValues4Int8Vvg
+- _$s7SwiftUI12ViewThatFitsVMn
+- _$s7SwiftUI12ViewThatFitsVyxGAA0C0AAMc
+- _$s7SwiftUI12_LayoutTraitVMn
+- _$s7SwiftUI13ImageRendererC12proposedSizeAA012ProposedViewF0Vvs
+- _$s7SwiftUI13ImageRendererC7contentACyxGx_tcfC
+- _$s7SwiftUI13ImageRendererC8isOpaqueSbvs
+- _$s7SwiftUI13ImageRendererC9colorModeAA014ColorRenderingF0Ovs
+- _$s7SwiftUI13LayoutSubviewVy5ValueQzxmcAA0cE3KeyRzluig
+- _$s7SwiftUI13PreferenceKeyMp
+- _$s7SwiftUI13PreferenceKeyP12defaultValue0F0QzvgZTq
+- _$s7SwiftUI13PreferenceKeyP17_isReadableByHostSbvgZTq
+- _$s7SwiftUI13PreferenceKeyP22_includesRemovedValuesSbvgZTq
+- _$s7SwiftUI13PreferenceKeyP6reduce5value9nextValuey0H0Qzz_AHyXEtFZTq
+- _$s7SwiftUI13PreferenceKeyPAAE17_isReadableByHostSbvgZ
+- _$s7SwiftUI13PreferenceKeyPAAE22_includesRemovedValuesSbvgZ
+- _$s7SwiftUI13_ShadowEffectVN
+- _$s7SwiftUI14LayoutSubviewsVSTAAMc
+- _$s7SwiftUI14LayoutValueKeyMp
+- _$s7SwiftUI14LayoutValueKeyP07defaultD00D0QzvgZTq
+- _$s7SwiftUI14LinearGradientVAA10ShapeStyleAAWP
+- _$s7SwiftUI14NavigationLinkVyxq_GAA4ViewAAMc
+- _$s7SwiftUI14NavigationViewV7contentACyxGxyXE_tcfC
+- _$s7SwiftUI14NavigationViewVMn
+- _$s7SwiftUI14NavigationViewVyxGAA0D0AAMc
+- _$s7SwiftUI14ScrollGeometryV11contentSizeSo6CGSizeVvg
+- _$s7SwiftUI14ScrollGeometryV13contentInsetsAA04EdgeF0Vvg
+- _$s7SwiftUI14ScrollGeometryV13contentOffsetSo7CGPointVvg
+- _$s7SwiftUI14ScrollGeometryV6boundsSo6CGRectVvg
+- _$s7SwiftUI14ScrollPositionV6idType1x1yACxm_12CoreGraphics7CGFloatVAItcSHRzs8SendableRzlufC
+- _$s7SwiftUI14ScrollPositionV8scrollTo1xy12CoreGraphics7CGFloatV_tF
+- _$s7SwiftUI14ScrollPositionV8scrollTo4edgeyAA4EdgeO_tF
+- _$s7SwiftUI14ScrollPositionVMa
+- _$s7SwiftUI14ScrollPositionVMn
+- _$s7SwiftUI15ButtonMenuStyleVAA0dE0AAMc
+- _$s7SwiftUI15ButtonMenuStyleVACycfC
+- _$s7SwiftUI15ButtonMenuStyleVMa
+- _$s7SwiftUI15ButtonMenuStyleVMn
+- _$s7SwiftUI15SafeAreaRegionsV9containerACvgZ
+- _$s7SwiftUI15withTransactionyxAA0D0V_xyKXEtKlF
+- _$s7SwiftUI16RoundedRectangleVAA5ShapeAAMc
+- _$s7SwiftUI16TagValueTraitKeyV0D0OMn
+- _$s7SwiftUI16TagValueTraitKeyVMn
+- _$s7SwiftUI16_SizeFittingRootVMn
+- _$s7SwiftUI17ButtonBorderShapeV6circleACvgZ
+- _$s7SwiftUI17EnvironmentValuesV11isPresentedSbvg
+- _$s7SwiftUI17EnvironmentValuesV11isPresentedSbvpMV
+- _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvs
+- _$s7SwiftUI17EnvironmentValuesV30_accessibilityShowButtonShapesSbvg
+- _$s7SwiftUI17EnvironmentValuesV30_accessibilityShowButtonShapesSbvpMV
+- _$s7SwiftUI17EnvironmentValuesV30_accessibilityShowButtonShapesSbvs
+- _$s7SwiftUI17EnvironmentValuesV31accessibilityReduceTransparencySbvg
+- _$s7SwiftUI17EnvironmentValuesV31accessibilityReduceTransparencySbvpMV
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvg
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvs
+- _$s7SwiftUI17EnvironmentValuesV9WidgetKitE05ShowsE13BackgroundKeyVAA0cI0ADMc
+- _$s7SwiftUI17EnvironmentValuesV9WidgetKitE05ShowsE13BackgroundKeyVMa
+- _$s7SwiftUI17EnvironmentValuesV9WidgetKitE12widgetFamilyAD0eH0Ovg
+- _$s7SwiftUI17FocusInteractionsV8activateACvgZ
+- _$s7SwiftUI17FocusInteractionsVMa
+- _$s7SwiftUI17VerticalAlignmentV3topACvgZ
+- _$s7SwiftUI17_ShadowShapeStyleVMn
+- _$s7SwiftUI18_InsetViewModifierVMn
+- _$s7SwiftUI20ToolbarItemPlacementV13topBarLeadingACvgZ
+- _$s7SwiftUI20ToolbarItemPlacementV14topBarTrailingACvgZ
+- _$s7SwiftUI20_GeometryGroupEffectVN
+- _$s7SwiftUI22UserInterfaceSizeClassO7regularyA2CmFWC
+- _$s7SwiftUI22UserInterfaceSizeClassOSQAAMc
+- _$s7SwiftUI23LabelStyleConfigurationV4IconVAA4ViewAAMc
+- _$s7SwiftUI23SafeAreaPaddingModifierV5edges6insetsAcA4EdgeO3SetV_AA0I6InsetsVSgtcfC
+- _$s7SwiftUI23SafeAreaPaddingModifierVAA04ViewF0AAMc
+- _$s7SwiftUI23SafeAreaPaddingModifierVMa
+- _$s7SwiftUI23SafeAreaPaddingModifierVMn
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
+- _$s7SwiftUI25_AllowsHitTestingModifierVN
+- _$s7SwiftUI28ContainerBackgroundPlacementV9WidgetKitE6widgetACvgZ
+- _$s7SwiftUI28ContainerBackgroundPlacementVMa
+- _$s7SwiftUI29_BackgroundPreferenceModifierVMn
+- _$s7SwiftUI29_BackgroundPreferenceModifierVyxq_GAA04ViewE0AAMc
+- _$s7SwiftUI4EdgeO8rawValueACSgs4Int8V_tcfC
+- _$s7SwiftUI4FontV8caption2ACvgZ
+- _$s7SwiftUI4FontV9TextStyleO4bodyyA2EmFWC
+- _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
+- _$s7SwiftUI4TextV1poiyA2C_ACtFZ
+- _$s7SwiftUI4ViewPAAE11layoutValue3key5valueQrqd__m_0E0Qyd__tAA06LayoutE3KeyRd__lF
+- _$s7SwiftUI4ViewPAAE12contentShape__6eoFillQrAA07ContentE5KindsV_qd__SbtAA0E0Rd__lF
+- _$s7SwiftUI4ViewPAAE14scrollPosition_6anchorQrAA7BindingVyAA06ScrollE0VG_AA9UnitPointVSgtF
+- _$s7SwiftUI4ViewPAAE14scrollPosition_6anchorQrAA7BindingVyAA06ScrollE0VG_AA9UnitPointVSgtFQOMQ
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lF
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE19containerBackground_3forQrqd___AA09ContainerE9PlacementVtAA10ShapeStyleRd__lF
+- _$s7SwiftUI4ViewPAAE19containerBackground_3forQrqd___AA09ContainerE9PlacementVtAA10ShapeStyleRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE21navigationDestination4item11destinationQrAA7BindingVyqd__SgG_qd_0_qd__ctSHRd__AaBRd_0_r0_lF
+- _$s7SwiftUI4ViewPAAE21navigationDestination4item11destinationQrAA7BindingVyqd__SgG_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQOMQ
+- _$s7SwiftUI4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lF
+- _$s7SwiftUI4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE25backgroundPreferenceValue_9alignment_Qrqd__m_AA9AlignmentVqd_0_0F0Qyd__ctAA0E3KeyRd__AaBRd_0_r0_lF
+- _$s7SwiftUI4ViewPAAE6shadow5color6radius1x1yQrAA5ColorV_12CoreGraphics7CGFloatVA2MtF
+- _$s7SwiftUI4ViewPAAE6zIndexyQrSdF
+- _$s7SwiftUI4ViewPAAE7overlay_20ignoresSafeAreaEdgesQrqd___AA4EdgeO3SetVtAA10ShapeStyleRd__lF
+- _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
+- _$s7SwiftUI4ViewPAAE8disabledyQrSbF
+- _$s7SwiftUI4ViewPAAE8modifieryAA15ModifiedContentVyxqd__Gqd__lF
+- _$s7SwiftUI4ViewPAAE9clipShape_5styleQrqd___AA9FillStyleVtAA0E0Rd__lF
+- _$s7SwiftUI4ViewPAAE9focusable_12interactionsQrSb_AA17FocusInteractionsVtF
+- _$s7SwiftUI4ViewPAAE9focusable_12interactionsQrSb_AA17FocusInteractionsVtFQOMQ
+- _$s7SwiftUI4ViewPAAE9menuStyleyQrqd__AA04MenuE0Rd__lF
+- _$s7SwiftUI4ViewPAAE9menuStyleyQrqd__AA04MenuE0Rd__lFQOMQ
+- _$s7SwiftUI5AngleVMn
+- _$s7SwiftUI5ColorV13RGBColorSpaceO4sRGByA2EmFWC
+- _$s7SwiftUI5ColorV_3red5green4blue7opacityA2C13RGBColorSpaceO_S4dtcfC
+- _$s7SwiftUI6ButtonVMa
+- _$s7SwiftUI7CapsuleVAA4ViewAAMc
+- _$s7SwiftUI7ForEachV9subviewOf7contentACyAA0cD17SubviewCollectionVyq0_GAA0H0V2IDVq0_Gqd___q0_AJctcAHRszALRs_AA4ViewR0_AaNRd__lufC
+- _$s7SwiftUI7GridRowVMn
+- _$s7SwiftUI8MaterialV7regularACvgZ
+- _$s7SwiftUI9AlignmentV6bottomACvgZ
+- _$s7SwiftUI9RectangleVAA5ShapeAAMc
+- _$s7SwiftUI9RectangleVN
+- _$s8Dispatch0A4TimeV8advanced2byAcA0aB8IntervalO_tF
+- _$s9CryptoKit12HashFunctionP6update13bufferPointerySW_tFTj
+- _$s9CryptoKit8InsecureO10SHA1DigestV15withUnsafeBytesyxxSWKXEKlF
+- _$s9CryptoKit8InsecureO10SHA1DigestVMa
+- _$s9CryptoKit8InsecureO4SHA1V6update13bufferPointerySW_tF
+- _$s9CryptoKit8InsecureO4SHA1V8finalizeAC0D6DigestVyF
+- _$s9CryptoKit8InsecureO4SHA1VAA12HashFunctionAAMc
+- _$s9CryptoKit8InsecureO4SHA1VAEycfC
+- _$s9CryptoKit8InsecureO4SHA1VMa
+- _$s9WidgetKit0A6CenterC20invalidateRelevances6ofKindySS_tF
+- _$s9WidgetKit0A6FamilyO8rawValueSivg
+- _$s9WidgetKit0A6FamilyOSYAAMc
+- _$sSD11removeValue6forKeyq_Sgx_tF
+- _$sSD15minimumCapacitySDyxq_GSi_tcfC
+- _$sSD4KeysVMa
+- _$sSD4KeysVyxq__GSlsMc
+- _$sSD5countSivg
+- _$sSD9removeAll15keepingCapacityySb_tF
+- _$sSDyq_Sgxcig
+- _$sSDyq_Sgxcis
+- _$sSOSHsWP
+- _$sSS16debugDescriptionSSvg
+- _$sSS8UTF8ViewVN
+- _$sSS9UTF16ViewV13_foreignCountSiyF
+- _$sSS9UTF16ViewV16_nativeGetOffset3forSiSS5IndexV_tF
+- _$sSa6appendyyxnF
+- _$sSj1moiyxx_xtFZTj
+- _$sSl5countSivgTj
+- _$sSlsE5first7ElementQzSgvg
+- _$sSo10CKDatabaseC8CloudKitE17modifyRecordZones6saving8deleting17completionHandlerySaySo12CKRecordZoneCG_SaySo0kL2IDCGys6ResultOySDyAlOyAIs5Error_pGG11saveResults_SDyAlOyytsAP_pGG06deleteQ0tsAP_pGctF
+- _$sSo14CKRecordZoneIDC8CloudKitE8zoneName05ownerG0ABSS_SStcfC
+- _$sSo16UIViewControllerC5UIKitE23registerForTraitChanges_6actionSo25UITraitChangeRegistration_pSayAC0I10Definition_pXpG_10ObjectiveC8SelectorVtF
+- _$sSo17NSKeyedUnarchiverC10FoundationE16unarchivedObject7ofClass4fromxSgxm_AC4DataVtKSo8NSObjectCRbzSo8NSCodingRzlFZ
+- _$sSo17NSKeyedUnarchiverC10FoundationE24unarchivedArrayOfObjects7ofClass4fromSayxGSgxm_AC4DataVtKSo8NSObjectCRbzSo14NSSecureCodingRzlFZ
+- _$sSo20NSNotificationCenterC10FoundationE9PublisherV6center4name6objectAeB_So0A4NameayXlSgtcfC
+- _$sSo21UIContentSizeCategorya5UIKitE1goiySbAB_ABtFZ
+- _$sSo22NSManagedObjectContextC8CoreDataE015didMergeChangesB15IDsNotificationSo18NSNotificationNameavgZ
+- _$sSo22NSManagedObjectContextC8CoreDataE15NotificationKeyO07deletedB3IDsyA2EmFWC
+- _$sSo22NSManagedObjectContextC8CoreDataE15NotificationKeyO07updatedB3IDsyA2EmFWC
+- _$sSo22NSManagedObjectContextC8CoreDataE15NotificationKeyO08insertedB3IDsyA2EmFWC
+- _$sSo22NSManagedObjectContextC8CoreDataE15NotificationKeyO8rawValueSSvg
+- _$sSo22NSManagedObjectContextC8CoreDataE15NotificationKeyOMa
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlF
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlFTu
+- _$sSo6CGSizeVSE12CoreGraphicsMc
+- _$sSo6CGSizeVSe12CoreGraphicsMc
+- _$sSo6UIViewC7SwiftUIE7animate_7changes10completionyAC9AnimationV_yyXEyycSgtFZ
+- _$sSo6UIViewC9FitnessUIE36contentCompressionResistancePriority_7forAxisABXDSo08UILayoutG0a_So0j10ConstraintI0VtF
+- _$sSo7NSTimerC10FoundationE14TimerPublisherC7Combine011ConnectableD0ACMc
+- _$sSo7NSTimerC10FoundationE14TimerPublisherCMa
+- _$sSo7NSTimerC10FoundationE14TimerPublisherCMn
+- _$sSo7NSTimerC10FoundationE7publish5every9tolerance2on2in7optionsAbCE14TimerPublisherCSd_SdSgSo9NSRunLoopCSo0kL4ModeaAnCE16SchedulerOptionsVSgtFZ
+- _$sSo8NSNumberC10FoundationE12floatLiteralABSd_tcfC
+- _$sSo8UIButtonC9FitnessUIE14titleLabelFontyABXDSo6UIFontCSgF
+- _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMa
+- _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMn
+- _$sSo9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV12floatLiteralAGSd_tcfC
+- _$sSo9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideVMa
+- _$sSo9NSRunLoopC7Combine9Scheduler10FoundationMc
+- _$sSqMn
+- _$sSss25LosslessStringConvertiblesWP
+- _$sSy10FoundationE23removingPercentEncodingSSSgvg
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss12IdentifiablePsRlzCrlE2idSOvg
+- _$ss12_ArrayBufferV13_copyContents12initializings16IndexingIteratorVyAByxGG_SitSryxG_tFyXl_Ts5
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _$ss15ContinuousClockVABycfC
+- _$ss18ReversedCollectionVyxGSksSkRzrlMc
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
+- _$ss23ExpressibleByNilLiteralMp
+- _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
+- _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss27ExpressibleByIntegerLiteralTL
+- _$ss30_findStringSwitchCaseWithCache5cases6string5cacheSiSays06StaticB0VG_SSs07_OpaquebcF0VztF
+- _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
+- _$ss5NeverOSHsWP
+- _$ss5SIMD3VMn
+- _$ss5SIMD3VyxGSEsMc
+- _$ss5SIMD3VyxGSesMc
+- _$ss6HasherV8_combineyys6UInt16VF
+- _$sxSgSEsSERzlMc
+- _$sxSgSesSeRzlMc
+- _$sxSgs23ExpressibleByNilLiteralsMc
+- _AVEncoderAudioQualityKey
+- _AVFormatIDKey
+- _AVNumberOfChannelsKey
+- _AVSampleRateKey
+- _CACornerRadiiZero
+- _CATransform3DEqualToTransform
+- _CATransform3DMakeTranslation
+- _CGColorCreateGenericGray
+- _CGImageSourceCreateThumbnailAtIndex
+- _CGPointApplyAffineTransform
+- _CKCurrentUserDefaultName
+- _HKQuantityTypeIdentifierHeartRate
+- _HKStateOfMindDomainFromAssociation
+- _HKStateOfMindReflectiveIntervalFromKind
+- _HKUILocalizedStringForStateOfMindDomain
+- _HKUILocalizedStringForStateOfMindLabel
+- _HKUILocalizedStringForValenceClassificationAndReflectiveInterval
+- _HKUIStandardMapGreenColor
+- _HKUIStandardMapRedColor
+- _MGGetBoolAnswer
+- _NSDocumentTypeDocumentOption
+- _NSFileProtectionCompleteUntilFirstUserAuthentication
+- _NSIntersectionRange
+- _NSManagedObjectContextWillSaveNotification
+- _NSRTFTextDocumentType
+- _NSRunLoopCommonModes
+- _NSStrikethroughColorAttributeName
+- _NSURLFileProtectionKey
+- _NSURLIsExcludedFromBackupKey
+- _NSWritingDirectionAttributeName
+- _OBJC_CLASS_$_AFAnalyticsTurnBasedInstrumentationContext
+- _OBJC_CLASS_$_APApplication
+- _OBJC_CLASS_$_AVAudioPlayer
+- _OBJC_CLASS_$_AVAudioRecorder
+- _OBJC_CLASS_$_CAAnimation
+- _OBJC_CLASS_$_CAAnimationGroup
+- _OBJC_CLASS_$_CAKeyframeAnimation
+- _OBJC_CLASS_$_CKSyncEngine
+- _OBJC_CLASS_$_CKSyncEngineConfiguration
+- _OBJC_CLASS_$_CLLocationManager
+- _OBJC_CLASS_$_FIUIFormattingManager
+- _OBJC_CLASS_$_HKCategoryType
+- _OBJC_CLASS_$_HKQuantityType
+- _OBJC_CLASS_$_MONotificationScheduleItem
+- _OBJC_CLASS_$_MOPromptManager
+- _OBJC_CLASS_$_NSMergeConflict
+- _OBJC_CLASS_$_NSPersistentCloudKitContainer
+- _OBJC_CLASS_$_NSTextAlternatives
+- _OBJC_CLASS_$_OBTrayButton
+- _OBJC_CLASS_$_PHPickerResult
+- _OBJC_CLASS_$_UIAccessibilityElement
+- _OBJC_CLASS_$_UILargeContentViewerInteraction
+- _OBJC_CLASS_$_UIPercentDrivenInteractiveTransition
+- _OBJC_CLASS_$_UITextFormattingViewController
+- _OBJC_CLASS_$__UIPortalView
+- _OBJC_METACLASS_$_NSManagedObject
+- _OBJC_METACLASS_$_NSMergePolicy
+- _OBJC_METACLASS_$_NSPersistentCloudKitContainer
+- _OBJC_METACLASS_$_UIAccessibilityElement
+- _OBJC_METACLASS_$_UIPanGestureRecognizer
+- _OBJC_METACLASS_$_UIPercentDrivenInteractiveTransition
+- _OBJC_METACLASS_$_UIToolbar
+- _SCNetworkReachabilityCreateWithAddress
+- _SCNetworkReachabilityGetFlags
+- _UIAccessibilityAnnouncementNotification
+- _UIAccessibilityConvertFrameToScreenCoordinates
+- _UIAccessibilityReduceMotionStatusDidChangeNotification
+- _UIAccessibilityTraitSelected
+- _UIApplicationProtectedDataDidBecomeAvailable
+- _UIApplicationProtectedDataWillBecomeUnavailable
+- _UIContentSizeCategoryAccessibilityExtraExtraExtraLarge
+- _UIContentSizeCategoryDidChangeNotification
+- _UIRectFill
+- _UITransitionContextFromViewControllerKey
+- __Znwm
+- ___NSDictionary0__struct
+- __kCFURLIsExcludedFromCloudBackupKey
+- __kCFURLIsExcludedFromUnencryptedBackupKey
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _kCAGradientLayerAxial
+- _kCAMediaTimingFunctionDefault
+- _kCAMediaTimingFunctionEaseInEaseOut
+- _kCGImageSourceCreateThumbnailFromImageAlways
+- _kCGImageSourceCreateThumbnailWithTransform
+- _kCGImageSourceShouldCache
+- _kCGImageSourceSkipMetadata
+- _kCGImageSourceThumbnailMaxPixelSize
+- _kCLErrorDomain
+- _kCLLocationAccuracyNearestTenMeters
+- _objc_opt_class
+- _objc_retain_x7
+- _os_variant_has_internal_ui
+- _swift_deallocUninitializedObject
+- _vDSP_maxmgv
+CStrings:
++ "\nNumber of entries: "
++ "\nStaging Container Disk Usage (MB): \n"
++ "\nstatedata: empty"
++ "\nstatedata: not empty"
++ "    <div class=\"anchoredAttachment "
++ "    <div class=\"reflectionPrompt\" style=\"background-color:"
++ "    @media print {\n        * {\n            -webkit-print-color-adjust: exact !important;\n        }\n    }\n\n    html * {\n        font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n\n    div.pagebreak { page-break-before: always; }\n\n    div.pageHeader {\n        font-weight: bold;\n        font-size: 12pt;\n        margin-bottom: 10pt;\n    }\n\n    div.title {\n        font-weight: bold;\n        font-size: 12pt;\n        margin: 0pt 6pt;\n    }\n\n    div.reflectionPrompt {\n        margin: auto;\n        margin-bottom: 10px;\n        padding: 12px;\n        border-radius: 4pt;\n        color: white;\n        font-weight: 600;\n        font-size: 10pt;\n    }\n\n    div.photoBanner {\n        font-weight: 600;\n        font-size: 10pt;\n        text-align: left;\n        margin: auto;\n        margin-bottom: 20px;\n        background-color: #5856d626;\n        padding: 10px;\n        border-radius: 4pt;\n    }\n\n    div.photoBanner img {\n        height: 25px;\n        vertical-align: middle;\n        padding-right: 5px;\n    }\n\n    div.container {\n        min-height: 100vh;\n        width: 80%;\n        margin: auto;\n    }\n\n    div.assetGrid {\n        display: grid;\n        grid-template-columns: repeat(4, minmax(0, 1fr));\n        gap: 4pt;\n        margin-bottom: 25pt;\n    }\n\n    div.gridItem {\n        width: 100%;\n        height: 100%;\n        aspect-ratio: 1 / 1;\n        position: relative;\n        border-radius: 4pt;\n    }\n    \n    img.asset_image {\n        object-fit: cover;\n        width: 100%;\n        height: 100%;\n        border-radius: 4pt;\n    }\n\n    .gridItem.fallback_asset {\n        background-color:"
++ " entries will be moved to "
++ " entries? Deleted entries will be accessible on Recently Deleted screen for 30 days."
++ " entries? This action can't be undone."
++ " entries? This action can’t be undone."
++ "##---anchoredAttachment---##---"
++ "$__lazy_storage_$_accessManager"
++ "$__lazy_storage_$_assetViewHeightConstraint"
++ "$__lazy_storage_$_assetViewWidthConstraint"
++ "$__lazy_storage_$_bottomSpacerViewHeightConstraint"
++ "$__lazy_storage_$_bundleTitleView"
++ "$__lazy_storage_$_centerEditingItemsGroup"
++ "$__lazy_storage_$_dateButton"
++ "$__lazy_storage_$_drawingItem"
++ "$__lazy_storage_$_emojiLabel"
++ "$__lazy_storage_$_inputAccessoryView"
++ "$__lazy_storage_$_inputAssistantItemGroup"
++ "$__lazy_storage_$_navigationCoordinator"
++ "$__lazy_storage_$_pathMonitor"
++ "$__lazy_storage_$_platterBlurMaskView"
++ "$__lazy_storage_$_redoItem"
++ "$__lazy_storage_$_resizableAttachmentView"
++ "$__lazy_storage_$_rightEditingItemsGroup"
++ "$__lazy_storage_$_selectionStates"
++ "$__lazy_storage_$_tabBarController"
++ "$__lazy_storage_$_textFormattingItem"
++ "$__lazy_storage_$_textView"
++ "$__lazy_storage_$_tokenGenerator"
++ "$__lazy_storage_$_undoItem"
++ "$__lazy_storage_$_undoRedoItem"
++ "$__lazy_storage_$_undoRedoItemGroup"
++ "%K IN %@ AND %K >= %@ AND %K < %@"
++ "%d.%d.%d"
++ "%s (addAsset) Asset already exists in self.allAssets existingAsset:%@ self.allAssets:%s"
++ "%s (addAsset) Done adding asset to viewModel"
++ "%s couldn't resolve local differences for %s record with id: %@. Error: %@"
++ "%s does not allow forward merging"
++ "%s failed to handle CloudKit save for %s record with id: %s. Error: %@"
++ "%s failed to handle fetch for record of type %s. Error: %@"
++ "%s failed trying to resolve UnknownItemError for id %s. Error: %@"
++ "%s record is already pending save. Skipping. Record ID: %s"
++ "%s record is missing a parent reference - probably waiting for the parent to download: %s"
++ "%s resolved UnknownItemError"
++ "%s startedAt=%s; fetchDuration=%f seconds; cacheDuration=%f seconds."
++ "%s.fixImageOrientationIfNeeded took %f seconds"
++ "%{public}s (deleteAllJournalEntriesAsync) Unabled to fetch all journal entries for deletion: %@"
++ "%{public}s (deleteAllJournalEntryAsseFileAttachmentsAsync) Unabled to delete all journal entry file attachments: %@"
++ "%{public}s (deleteAllJournalEntryAssetsAsync) Unabled to delete all journal entry assets: %@"
++ "%{public}s (fetchJournalEntryAssetAsync) Unable to fetch asset by id: %@"
++ "%{public}s (fetchJournalEntryAssetFAAsync) Unable to fetch asset file attachment by id: %@"
++ "%{public}s (handleEvent) isProtectedDataAvailable false"
++ "%{public}s (handleFetchedDatabaseChanges) encryptedDataReset local cached data will be re-uploaded to the server to minimize data loss"
++ "%{public}s (handleFetchedDatabaseChanges) zone was deleted zoneID:%@"
++ "%{public}s (handleFetchedDatabaseChanges) zone was purged zoneID:%@"
++ "%{public}s (handleStateUpdate) isProtectedDataAvailable false"
++ "%{public}s (markAllJournalEntriesNotUploadedAsync) Unabled to fetch all journal entries to make all not uploaded: %@"
++ "%{public}s (markAllJournalEntryAssetsNotUploadedAsync) Unabled to fetch all not uploaded assets: %@"
++ "%{public}s (removeSyncEngineStateDataAsync) StatedataPrint Unable to get self.store"
++ "%{public}s Unable to count entries: %@"
++ "%{public}s Unable to save CloudKit userID: %{private,mask.hash}s"
++ "'{27} Days Remaining' until this entry is automatically deleted form Recently Deleted list"
++ "(createZone) Error zone handling: %s"
++ "(createZone) Failed to create custom zone: %s"
++ "(createZone) Save Results: %s"
++ "(createZone) Success zone handling: %s"
++ "(createZone) Zone Creation"
++ "(createZone) Zone Creation Successfully Done"
++ "(createZone) Zone result: %s"
++ "(deleteZone) Deleting encrypted zone"
++ "(deleteZone) Error zone deletion: %s"
++ "(deleteZone) Failed to create custom zone: %s"
++ "(deleteZone) Save Results: %s"
++ "(deleteZone) Success zone deletion: %s"
++ "(deleteZone) Zone result: %s"
++ "(handleAccountChange) Unhandled user state."
++ "(handleAccountChange) User is Logged in"
++ "(handleEvent) fetchedDatabaseChanges unknown deletion reason: %s"
++ "(handleNoZone) no success creating a zone error:%@"
++ "(handleNoZone) state is .zoneRecreation already"
++ "(manateeIdentityLossHandling) no success deleting a zone error:%@"
++ "(manateeIdentityLossHandling) state is .manateeIdentityLossHandling already"
++ "(recordWithIDWasDeleted) isProtectedDataAvailable false"
++ "(refreshSavedAttachments) attachments to refresh: %s"
++ "(saveData) Protected data is not available, not ready to sync"
++ "(saveDataAsync) Protected data is not available, not ready to sync"
++ "(self BEGINSWITH 'moments://settings') OR (self BEGINSWITH %@)"
++ "(updateJournalEntryAssetData) Local and Remote change tags are the same, nothing to update, ignoring..."
++ ") to keep your streak going if you have not yet journaled that day."
++ "+featureAvailability"
++ "+tccStatusMindfulMinutes"
++ "+{location count} more"
++ ", "
++ ", for a duration of "
++ "---Begin of DataStack Sync Init Stats (%{public}s):---\nEntries To Save %ld\nEntries To Delete %ld\nAssets To Save %ld\nAssets To Delete %ld\nAttachments To Save %ld\nAttachments To Delete %ld\nJournals To Save %ld\n---End of DataStack Sync Init Stats:---"
++ ".cxx_construct"
++ ".transcript-generation"
++ ".transcript-post-processing"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "1 or more days are selected in detail screen with formatted time like 'Get notified to write {every Monday, Wednesday, and Friday} at {9:41 AM}.'"
++ "1.magnifyingglass"
++ ";\n    }\n    \n    .gridItem.fallback_asset .asset_image {\n        object-fit: contain;\n        margin-top: 30%;\n        height: 40%;\n    }\n\n    video.asset_video {\n        object-fit: cover;\n        width: 100%;\n        height: 100%;\n        border-radius: 4pt;\n    }\n\n    .gridItemOverlayText {\n        color: #3C3C4299;\n    }\n\n    div.gridItemOverlayHeader {\n        position: absolute;\n        top: 4pt;\n        right: 4pt;\n        left: 4pt;\n        text-align: center;\n        border-radius: 3pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    div.gridItemOverlayFooter {\n        position: absolute;\n        left: 4pt;\n        bottom: 4pt;\n        right: 4pt;\n        text-align: center;\n        border-radius: 3pt;\n        margin: auto;\n        font-weight: normal;\n        font-size: 8pt;\n    }\n\n    div.bodyText {\n        font-weight: normal;\n        font-size: 10pt;\n        margin: 0pt 6pt;\n    }\n\n    blockquote {\n        border-left: 3px solid #ccc;\n        padding: 0.2em 5px;\n    }\n\n    div.workoutWindowOverlay {\n        top: 0;\n        left: 0;\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        background: -webkit-radial-gradient(transparent 60%, rgba(0, 0, 0, 0.8) 60%);\n    }\n\n    svg {\n        top: 0;\n        left: 0;\n        position: absolute;\n        border-radius: 3pt;\n    }\n\n    img.asset_workoutIcon {\n        background: black;\n    }\n\n    div.anchoredAttachment {\n        width: 25%;\n        aspect-ratio : 1 / 1;\n        float: left;\n        margin-right: 10pt;\n    }\n\n    div.anchoredAttachment.trailing {\n        float: right;\n        margin-left: 10pt;\n        margin-right: 0;\n    }\n\n    div.activityType {\n        position: absolute;\n        top: 0px;\n        right: 0px;\n        left: 0px;\n        color: white;\n        text-align: center;\n        padding: 6pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    div.activityMetrics {\n        position: absolute;\n        left: 0px;\n        bottom: 0px;\n        right: 0px;\n        color: white;\n        text-align: center;\n        padding: 6pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    span.activityMetricsDistance {\n        color: #6CB4EE;\n    }\n\n    span.activityMetricsCalories {\n        color: #E32636;\n    }\n\n    span.activityMetricsDuration {\n        color: #FFD700;\n    }\n\n    div.durationText {\n        position: absolute;\n        bottom: 4pt;\n        right: 6pt;\n        color: white;\n        font-weight: 600;\n        font-size: 8pt;\n        text-shadow: black 0px 0px 10px;\n    }\n\n    .audioAssetHeader {\n        margin: 4pt;\n        position: absolute;\n        height 22px;\n    }\n    \n    .audioDuration {\n        display: inline-block;\n        height: auto;\n        margin-left: 5pt;\n        font-weight: 600;\n        font-size: 8pt;\n        top: 4pt;\n    }\n    \n    .audioQuoteBubble {\n        width: 20px;\n        height: auto;\n        display: inline-block;\n        margin-left: 5pt;\n        top: 8pt;\n        position: absolute;\n    }\n    \n    .audioPlayButton {\n        top: 4pt;\n        height: 22pt;\n        position: relative;\n        display: inline-block;\n    }\n\n    .assetType_audio {\n        background: #899CF751;\n    }\n\n    .assetType_audio .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 70%;\n    }\n\n    .mediaTypeIcon {\n        height: 14px;\n        position: absolute;\n        background: #8E8E93;\n        border-radius: 2pt;\n        bottom: 4pt;\n        left: 4pt;\n        padding: 2pt;\n    }\n\n    .mediaPlayIcon {\n        height: 22pt;\n        position: absolute;\n        top: 4pt;\n    }\n\n    .assetType_multiPinMap .gridItemOverlayFooter {\n        background:#E5E5EA; padding:4pt;\n    }\n            \n    .assetType_stateOfMind .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 50%;\n    }\n\n    .assetType_workoutIcon.multiple_workouts .asset_image {\n        object-fit: contain;\n        margin-top: 15%;\n        height: 70%;\n    }\n\n    .assetType_workoutIcon {\n        background-color: black;\n    }\n\n    .assetType_thirdPartyMedia .asset_image {\n        height: 12pt;\n        width: 12pt;\n        bottom: 4pt;\n        left: 4pt;\n        position: absolute;\n        border-radius: 2pt;\n    }\n\n    .thirdPartyAssetOverlay {\n        margin: 8pt 8px 22pt 12pt;\n        font-size: 8pt;\n        font-weight: normal;\n        color: white;\n    }\n\n    .thirdPartyAssetOverlay .mediaTitle {\n        font-weight: 600;\n    }\n\n    .thirdPartyAssetOverlay .mediaCategory {\n        margin-top: 4pt;\n        color: #FFFFFF99;\n    }\n\n\n    .assetType_motionActivity .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 50%;\n    }\n\n    .assetType_contact {\n        background-color: #E5E5EA;\n    }\n\n    .assetType_contact .asset_image {\n        object-fit: contain;\n        margin-top: 10%;\n        height: 60%;\n    }\n\n    .assetType_contact .gridItemOverlayText {\n        color:"
++ "; normalizedPosition = "
++ "@\"<MKAnnotation>\"40@0:8@\"NSOrderedSet\"16{CLLocationCoordinate2D=dd}24"
++ "@\"<MacCameraPickerMenuBridgeDelegate>\"16@0:8"
++ "@\"<PXPlacesMapAnnotationRenderer>\"16@0:8"
++ "@\"<PXPlacesMapLayout>\"16@0:8"
++ "@\"<PXPlacesMapPipelineComponentProvider>\"16@0:8"
++ "@\"<PXPlacesMapSelectionHandler>\"16@0:8"
++ "@\"<PXPlacesMapUpdatePlan>\"16@0:8"
++ "@\"<UIDragSession>\"48@0:8@\"UIDragInteraction\"16@\"NSArray\"24{CGPoint=dd}32"
++ "@\"<UIFocusEnvironment>\"16@0:8"
++ "@\"<UIFocusItemContainer>\"16@0:8"
++ "@\"<UIPopoverPresentationControllerSourceItem>\"16@?0@\"UIZoomTransitionSourceViewProviderContext\"8"
++ "@\"MKAnnotationView\"32@0:8@\"<MKAnnotation>\"16@\"PXPlacesMapView\"24"
++ "@\"NSArray\"16@?0@\"NSArray\"8"
++ "@\"NSArray\"24@0:8@\"UIScene\"16"
++ "@\"NSArray\"32@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24"
++ "@\"NSArray\"32@0:8@\"UIView<UITextDraggable>\"16@\"<UITextDragRequest>\"24"
++ "@\"NSArray\"48@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24{CGPoint=dd}32"
++ "@\"NSAttributedString\"16@0:8"
++ "@\"NSOrderedSet\"32@0:8@\"PXPlacesMapPointAnnotation\"16@\"PXPlacesMapView\"24"
++ "@\"NSString\"24@0:8@\"UIFocusUpdateContext\"16"
++ "@\"PXPlacesImageCache\"16@0:8"
++ "@\"UIDragPreview\"8@?0"
++ "@\"UIDropProposal\"32@0:8@\"UIDropInteraction\"16@\"<UIDropSession>\"24"
++ "@\"UIImage\"16@0:8"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
++ "@\"UIScene\"16@0:8"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UITargetedDragPreview\"32@0:8@\"UIView<UITextDroppable>\"16@\"UITargetedDragPreview\"24"
++ "@\"UITargetedDragPreview\"40@0:8@\"UIDragInteraction\"16@\"UIDragItem\"24@\"<UIDragSession>\"32"
++ "@\"UITargetedDragPreview\"40@0:8@\"UIDragInteraction\"16@\"UIDragItem\"24@\"UITargetedDragPreview\"32"
++ "@\"UITargetedDragPreview\"40@0:8@\"UIDropInteraction\"16@\"UIDragItem\"24@\"UITargetedDragPreview\"32"
++ "@\"UITargetedDragPreview\"40@0:8@\"UIView<UITextDraggable>\"16@\"UIDragItem\"24@\"<UIDragSession>\"32"
++ "@\"UITextDropProposal\"32@0:8@\"UIView<UITextDroppable>\"16@\"<UITextDropRequest>\"24"
++ "@\"UIViewController\"16@?0@\"UITab\"8"
++ "@\"UIViewController\"24@0:8@\"UISplitViewController\"16"
++ "@\"UIViewController\"32@0:8@\"UISplitViewController\"16@\"UIViewController\"24"
++ "@\"UIViewController\"8@?0"
++ "@24@0:8@\"UIScene\"16"
++ "@32@0:8Q16^{_NSRange=QQ}24"
++ "@40@0:8@16Q24^{_NSRange=QQ}32"
++ "@40@0:8@16{CLLocationCoordinate2D=dd}24"
++ "@48@0:8@16@24@32^@40"
++ "@48@0:8@16@24^@32^@40"
++ "@48@0:8Q16^{_NSRange=QQ}24{_NSRange=QQ}32"
++ "@56@0:8@16Q24^{_NSRange=QQ}32{_NSRange=QQ}40"
++ "@60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48@52"
++ "@76@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48d64B72"
++ "A Neutral Moment"
++ "A Pleasant Moment"
++ "A Slightly Pleasant Day"
++ "A Slightly Pleasant Moment"
++ "A Slightly Unpleasant Day"
++ "A Slightly Unpleasant Moment"
++ "A Very Pleasant Day"
++ "A Very Pleasant Moment"
++ "A Very Unpleasant Day"
++ "A Very Unpleasant Moment"
++ "Access Lock Journal settings."
++ "Accessibility description for the 'drawing' asset type"
++ "Accessibility description for the 'invite' asset type"
++ "Accessibility label for the map mode picker button"
++ "Action menu in the sidebar"
++ "Action title for deleting entry permanently from recently deleted list"
++ "Action title recovering (un-deleting) an entry"
++ "Add Asset undo/redo button label"
++ "Add Current Location"
++ "Add State of Mind"
++ "Add a location you'd like to associate with this journal entry."
++ "Add entry title setting selection"
++ "Add rich content alongside written text, and illustrate entries with drawings or even your own handwriting."
++ "Add/Edit Location"
++ "Add/Edit Location command title"
++ "Adding %s record zone changes to sync engine:\nSaving %ld records,\nDeleting %ld records,\nSaving IDs: %s\nDeleting IDs: %s"
++ "Adding milestone metric: %s"
++ "Adding streak metric: %s"
++ "Adjust Entry Date…"
++ "Alert message describing that the last asset can be replaced by the user's latest map selection."
++ "Alert option"
++ "All days are selected in detail screen with formatted time like 'Get notifications to write every day at {9:41 AM}.'"
++ "All entries in this journal will be deleted and will be accessible in Recently Deleted for 30 days."
++ "All scenes have entered the background"
++ "Allow Notifications"
++ "Allow Notifications on This device"
++ "Always Use Moment Date footer text"
++ "Always Use Moment Date toggle"
++ "Always show the entry title"
++ "Amazed feeling"
++ "Amused feeling"
++ "An Unpleasant Day"
++ "An Unpleasant Moment"
++ "Angry feeling"
++ "Annoyed feeling"
++ "Anxious feeling"
++ "App Menu: Lock journal item title"
++ "App Menu: Open notifications in Mac settings"
++ "AppNavSidebarController"
++ "AppNavSidebarController+CoreData"
++ "AppSecureAccessManager"
++ "AppSecureAccessManager.AppWillUnlock"
++ "AppSecureAccessManager.ApplicationRequestedManualLock"
++ "Apple Invite SpotlightUI result type display"
++ "Apple Invite timeline filter option"
++ "Are you sure you want to delete these "
++ "Are you sure you want to delete this journal?"
++ "Are you sure you want to permanently delete ALL RECENTLY DELETED ENTRIES? This action can't be undone."
++ "Are you sure you want to permanently delete these "
++ "Ashamed feeling"
++ "Asset caption format with place city and state"
++ "Asset gallery window status"
++ "Asset gallery window subtitle"
++ "Asset merge identified: reflections=%ld, locationMerges=%ld assetAdditions=%ld"
++ "Attachment not found for ID: %s"
++ "Attachment not found for prompt: %s"
++ "Attachments Only"
++ "Attemping to add duplicate prompt: %s\nAborting!"
++ "Attempt to configure an unprepared window."
++ "Attempted to cancel the audio picker, but an asset has been created. Saving it instead."
++ "Attempting to finalize a recording but the pickerDelegate is nil"
++ "Attempting to forward merge a record with an unrelated entry"
++ "Attempting to resolve CloudKit Error for recordID %s. Error: %@"
++ "Attempting to update the journal list sidebar section before it exists!"
++ "Aubergine"
++ "Authentication not available while device is locked"
++ "Automatically add current location toggle in Settings"
++ "Automatically get suggestions for moments you might want to write about, such as places you go and photos you take."
++ "B16@?0@\"UIZoomTransitionInteractionContext\"8"
++ "B24@0:8@\"UIFocusUpdateContext\"16"
++ "B24@0:8@\"UIPopoverPresentationController\"16"
++ "B24@0:8@\"UIScribbleInteraction\"16"
++ "B24@0:8@\"UITextField\"16"
++ "B32@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24"
++ "B32@0:8@\"UIDropInteraction\"16@\"<UIDropSession>\"24"
++ "B32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
++ "B40@0:8@\"UIScribbleInteraction\"16{CGPoint=dd}24"
++ "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
++ "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@32"
++ "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24q32"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@16@24q32"
++ "B40@0:8@16{CGPoint=dd}24"
++ "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
++ "BGContinuedProcessingTask called %@"
++ "BGContinuedProcessingTask expirationHandler called %@"
++ "Batch sending record zone changes:\nAdditions: %s\nDeletions: %ld"
++ "Begin a new journal entry in "
++ "Block Quote formatting option command title"
++ "Blush"
++ "Bookmark entries button"
++ "Brave feeling"
++ "Brick"
++ "Bulleted list formatting option"
++ "Button on clear searches alert"
++ "Button that shows main sidebar"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Called `loadMetrics` when metrics were already loaded, updating metrics instead."
++ "Calm feeling"
++ "Cancelling all ongoing downloads"
++ "Cancelling sync for %ld changes. Failed persisting managed object changes when trying to pass to sync engine. Error: %@"
++ "Cannot find ManagedObject type corresponding to %s record following CloudKit save"
++ "Canvas grid gained focus!"
++ "Canvas grid lost focus!"
++ "Canvas keyboard assistant button"
++ "Canvas toolbar button title"
++ "Canvas toolbar item subtitle, like 'Daily Thoughts +1 more'"
++ "Canvas toolbar item title"
++ "CanvasPromptPicker"
++ "Change Journal (action)"
++ "Change Journal (list)"
++ "CheckboxAccessoryPrimaryAction"
++ "Checking for entries in this area."
++ "Checking for provisioned Apple account."
++ "Checking if prompt needed for page: %ld"
++ "Choose Photo or Video"
++ "Clearing your searches will remove your search history from this device."
++ "CloudKit requested batch changes, but nothing to send. \nPending changes: %s\nFiltered changes: %s"
++ "Command for Add Drawing in Canvas"
++ "Command for Jump To Text Selection in Canvas"
++ "Community association"
++ "Confident feeling"
++ "Confirmation message to import entries"
++ "Confirmation title to import entries"
++ "Conflict resolved: %{bool}d"
++ "Content feeling"
++ "Context menu journals command"
++ "CoreDataStack init for container %s\nSQLite PATH: %s"
++ "CoreDataStack.contextDidSave [%{public}s context: %@"
++ "CoreDataStack.contextDidSave [Sync context]"
++ "CoreDataStack.contextDidSave [View context]"
++ "CoreSpotlight found %ld results and %ld suggestions"
++ "Cornflower"
++ "Could not find CloudKit UserID in CoreData"
++ "Could not find a city and state/province name for asset location!"
++ "Could not find a local managed object with ID %@"
++ "Could not load PencilKit drawing: %@"
++ "Could not parse the response from LLM %@"
++ "Couldn't fetch a JournalMO for id %s"
++ "Couldn't find [%s] object for recordID: %s"
++ "Couldn't find asset for %s"
++ "Couldn't find sync data while attempting to migrate deprecated metadata"
++ "Couldn't save after deleting journal: %@"
++ "Create Richer Entries"
++ "Create a blank journal entry in "
++ "Create entries using a keyboard, or Apple Pencil on iPad, and view journals on larger screens."
++ "Created CKRecord from JournalEntryAssetFileAttachmentMO for id %s"
++ "Created CKRecord from JournalEntryAssetMO with ID %s"
++ "Creating CloudKit container %@"
++ "Creating mergeable attributes for existing entry: %s"
++ "Creativity & Inspiration"
++ "Current Spotlight Version %ld != Stored Spotlight Version %ld. Migrating Spotlight Index..."
++ "Current events association"
++ "Currently indexing for spotlight message"
++ "CustomAttributeProviderConcrete"
++ "Dashed list formatting option"
++ "DataAggregator.updateData: processed %ld assets, %ld recent places. Compled in %s seconds"
++ "Database is not open, not ready to sync"
++ "Dataclass is not provisioned and not enabled. This account is not capable of using Journal due to some restriction."
++ "Dataclass is provisioned and enabled"
++ "Dataclass is provisioned but not enabled"
++ "Date picker option"
++ "Date picker section header"
++ "Dating association"
++ "Delete All Entries"
++ "Delete Entries alert action"
++ "Delete Journal"
++ "Delete Journal & All Entries?"
++ "Delete Journal & Entries"
++ "Delete Journal & Move Entries"
++ "Delete Journal Only"
++ "Delete Location"
++ "Delete Permanently"
++ "Delete entries button"
++ "Delete journal alert message"
++ "Delete journal and entries alert message"
++ "Delete journal and entries alert title"
++ "Delete {journal name} alert title"
++ "Deleted entry attachments directory: %s"
++ "Deleting all local data"
++ "Demo Export (top 50 entries)"
++ "Deprecated metadata:"
++ "Describes that the app is requesting authorization before letting the user into lock journal settings."
++ "Describes the lock journal feature."
++ "Description for alert asking user to clear recent searches"
++ "Description of how many entries will be moved in the delete journal alert"
++ "Deselect all bar button item"
++ "Detail text describing the app's \"lock journal\" feature is disabled because the OS \"app protection\" feature is enabled."
++ "Detail text describing the app's \"lock journal\" feature is disabled because the device does not have a passcode configured."
++ "Detected %s changes"
++ "Didn't process attachment with ID %s"
++ "Disappointed feeling"
++ "Discouraged feeling"
++ "Disgusted feeling"
++ "Double click at %s!"
++ "Drained feeling"
++ "Drawing SpotlightUI result type display"
++ "Drawing timeline filter option"
++ "DustyPink"
++ "DynamicGridSizeClass"
++ "Edit Date Title"
++ "Edit Journal"
++ "Edit Location"
++ "Edit Sidebar"
++ "Edit Tiles"
++ "Edit focused entry command"
++ "Edit location title"
++ "Edit notifications detail title"
++ "Education association"
++ "Embarrassed feeling"
++ "Emerald"
++ "Empty cell dequeued in EntryMapEntriesViewController! This should not happen. Please debug me."
++ "Empty cell dequeued in RecentlyDeletedEntriesViewController! This should not happen. Please debug me."
++ "Encountered \"asset overflow\" conflict: total=%ld overflow=%ld"
++ "Encountered \"contains reflection\" conflict"
++ "Encountered \"single asset overflow\" conflict"
++ "Encountered an error while waiting for query response: %@"
++ "Encountered unrecognized completion status: %lu"
++ "Entries are available here for 30 days. After that time, entries will be permanently deleted."
++ "Entries have not yet been fully analyzed to show on the map yet"
++ "Entries were saved to the folder: "
++ "Entries will be exported after you’ve chosen a location to save them. Export may take a few moments."
++ "Entry Date button"
++ "Entry Object ID Count: %ld, Asset Object ID Count: %ld)"
++ "Entry doesn't have mergeable text; no reason to forward merge"
++ "Entry is newer than record [%s vs %s], won't attempt to forward merge"
++ "Entry menu title"
++ "EntryMapEntriesViewController - Unhandled cell type"
++ "EntryViewModel.Reflection"
++ "EntryViewModel.addAsset(%@) [assetId: %s] %f seconds"
++ "EntryViewModel.moveAsset %s, to: %s"
++ "EntryViewModel.moveAsset from: %s, to: %ld"
++ "EntryViewModel.removeAssetLegacy(%@) [assetId: %s]"
++ "Error Saving non iCloud user deleted entries: %@"
++ "Error deleting all entries: %@"
++ "Error downloading attachment for JournalEntryAssetFileAttachmentMO with id: %s. Error: %@"
++ "Error downloading data for JournalEntryAssetMO with id: %s. Error: %@"
++ "Error fetching asset: %@"
++ "Error getting iCloud status: %s"
++ "Error loading map: %@"
++ "Error recovering all entries: %@"
++ "Error resolving differences between entry %s and record %@: %@"
++ "Error retrieving location using live updates: %@"
++ "Error saving after adding entry to journal with id %s: %@"
++ "Error scheduling background export task: %@"
++ "Error while saving changes to the journal: %@"
++ "Event: %s"
++ "Excited feeling"
++ "Excluding %s record from pending save, as it is being marked for deletion. Record ID: %s "
++ "Export Demo (top 50 entries)"
++ "Export journal entries message."
++ "Export menu item title on timeline overflow menu"
++ "ExportManager.createExportPayload executed in %ss"
++ "ExportOptions.cleanup did not remove %s beacause it is not empty"
++ "Exporting Entries..."
++ "Exporting entries…"
++ "Failed creating record from %s object with %s. Error: %@"
++ "Failed encoding CKSyncEngine state token %s. Error: %@"
++ "Failed fetching the journals to sync: %@"
++ "Failed saving updated link metadata to asset: %@"
++ "Failed to append placeholder ("
++ "Failed to create photo/video asset: %@"
++ "Failed to delete record [%s]"
++ "Failed to deserialize state token: %@"
++ "Failed to duplicate entry: %@"
++ "Failed to fetch attachmentMO with id: %s"
++ "Failed to fetch record with ID %@ while trying to resolve a conflict. Error: %@)"
++ "Failed to find proper UTType of incoming asset"
++ "Failed to get current address, creating Loc that can be processed later for missing information"
++ "Failed to get the number of recently deleted entries: %@"
++ "Failed to load drawing asset: %s"
++ "Failed to load map, check your connection."
++ "Failed to obtain view from UISplitView."
++ "Failed to parse framework asset into contact asset, content missing photo"
++ "Failed to parse framework asset into motion activity asset, content missing icon"
++ "Failed to parse framework asset into motion activity asset, dark content missing"
++ "Failed to parse framework asset into motion activity asset, light content missing"
++ "Failed to parse framework asset into music asset, content missing artwork"
++ "Failed to parse framework asset into state of mind asset, image content missing"
++ "Failed to parse framework asset into third party media asset, content missing app icon"
++ "Failed to parse framework asset into workout group asset, content missing icon"
++ "Failed to parse framework asset into workout route asset, content missing route and icon - %s"
++ "Failed to parse framework asset, unrecognized asset %s"
++ "Failed to re-fetch assetMO with id: %s"
++ "Failed to retrieve all named journals: %@"
++ "Failed to reverse geocode get current location to auto add to entry"
++ "Failed to save %s record [%s]. Will attempt to recover."
++ "Failed to save context: %@"
++ "Failed to save journal deletion: %@"
++ "Failed to save main context: %@"
++ "Failed trying to migrate old state token: %@"
++ "Family association"
++ "Fetched CloudKit UserID: %{private,mask.hash}s"
++ "Finalizing metrics to display in sidebar brick..."
++ "Finished attempting to fetch %ld photo(s), total time elapsed = %f seconds."
++ "First bullet point of onboarding."
++ "Fitness association"
++ "Focus preference toggled to asset grid."
++ "Focus preference toggled to timeline cell."
++ "Focused index path: %s"
++ "Follow up Prompts"
++ "Follow up prompts picker title"
++ "Follow up prompts toolbar button title"
++ "Found a different user ID than the one currently logged in. Treating as a new user."
++ "Found current location for photo!"
++ "Found existing %s object for %s record. Resolving differences."
++ "Friends association"
++ "Frustrated feeling"
++ "Full day name for {dayName} in “Get notified to write…” string"
++ "FullScreenLegacyCollectionViewCell"
++ "Gallery action menu accessibility label"
++ "General group name in Settings"
++ "Generated our own %ld suggestions"
++ "Generated record for entry with id %s"
++ "Get Journaling Suggestions"
++ "Get notified at "
++ "Get notified to write "
++ "Get notified to write every day at "
++ "Grateful feeling"
++ "Group name in Settings > General"
++ "Guilty feeling"
++ "Handle fetched record zone changes.\nModifications: %s\nDeletions: %s"
++ "Handle sent record zone changes.\nSaves: %s\nDeletions: %ld\nFailed saves: %s\nFailed deletions: %ld"
++ "Handling switch accounts: %@ -> %@"
++ "Happy feeling"
++ "Have %ld pages"
++ "Header for icons in the customize journal UI"
++ "Header for the search bar to select a new location from the list of nearby locations"
++ "Header for the text field to pick a new title for the location"
++ "Header for the view to pick between map asset visibility"
++ "Health association"
++ "Hide Tile"
++ "Hobbies association"
++ "Hopeful feeling"
++ "Hopeless feeling"
++ "How are you celebrating this day?"
++ "Identity association"
++ "Ignoring %ld database modifications and processing %ld deletions"
++ "Ignoring CloudKit error %ld"
++ "Ignoring duplicate update to Sidebar Insights"
++ "Ignoring focus toggle selector, no asset grid present!"
++ "Ignoring focus toggle to asset grid, entry collection view is not focusable, so the asset grid should be focused already."
++ "Ignoring focus toggle to timeline cell, entry collection view is focusable, so the timeline should be focused already."
++ "Ignoring unknown CloudKit error: %s"
++ "ImageFallbackIcon"
++ "Indifferent feeling"
++ "Initialize User Status"
++ "Initializing the sync engine.\nState token: %s\nSessionID: %{public}s"
++ "Initiating a sync engine reset as a side effect of checkForRecentiCloudLogout"
++ "Insert Attachment"
++ "Insert Attachments"
++ "Insights brick type"
++ "Insights highlights empty state"
++ "Insights streak empty state"
++ "Insights visited places empty state"
++ "InsightsLayoutMetrics"
++ "InsightsPreviousStreakChartLeading"
++ "InsightsSidebarDaysGradientBottom"
++ "InsightsSidebarDaysGradientTop"
++ "InsightsSidebarEntriesGradientBottom"
++ "InsightsSidebarEntriesGradientTop"
++ "InsightsSidebarGradientBottom"
++ "InsightsSidebarGradientTop"
++ "InsightsSidebarNumericGradientBottom"
++ "InsightsSidebarNumericGradientTop"
++ "InsightsSidebarStreakGradientBottom"
++ "InsightsSidebarStreakGradientTop"
++ "InsightsSidebarWordsGradientBottom"
++ "InsightsSidebarWordsGradientTop"
++ "IntelligencePrompts"
++ "Irritated feeling"
++ "Jealous feeling"
++ "Journal (app name)"
++ "Journal Entries Exported"
++ "Journal Entries Exported prompt"
++ "Journal Search key command title"
++ "Journal is missing an ID"
++ "Journal membership picker title"
++ "Journal not found for ID: %s"
++ "Journal not found for ID: %s, %@"
++ "Journal.AdminMenuController"
++ "Journal.CanvasDatePickerViewController"
++ "Journal.CanvasDropIndicatorView"
++ "Journal.CanvasMomentsTitleView"
++ "Journal.CanvasPromptPickerController"
++ "Journal.CheckmarkAccessoryView"
++ "Journal.CustomJournalColorPickerCellContentView"
++ "Journal.CustomJournalColorPresetCellContentView"
++ "Journal.CustomJournalEmojiIconCellContentView"
++ "Journal.CustomJournalPreviewCellContentView"
++ "Journal.CustomJournalSymbolIconCellContentView"
++ "Journal.CustomizeJournalViewController"
++ "Journal.DrawingCanvasView"
++ "Journal.EntryMapPinRenderer"
++ "Journal.EntryMapViewController"
++ "Journal.EntryPlace"
++ "Journal.ExportOptions"
++ "Journal.FollowUpPromptAttachment"
++ "Journal.FullScreenLegacyCollectionViewController"
++ "Journal.GalleryCollectionViewLayout"
++ "Journal.HostController"
++ "Journal.InsightsCalendarDetailViewController"
++ "Journal.JournalEntryCollectionViewController"
++ "Journal.JournalMembershipListViewController"
++ "Journal.LocationListCollectionView"
++ "Journal.LocationPinAnnotation"
++ "Journal.LocationSearchBarCellView"
++ "Journal.LockSettingsViewModel"
++ "Journal.MacSettingsTabHostingController"
++ "Journal.MapModePicker"
++ "Journal.MapOptionsView"
++ "Journal.MapVisibilityCellContentView"
++ "Journal.MergeableTextStorage"
++ "Journal.PhotoPinAnnotation"
++ "Journal.ProvidableItem"
++ "Journal.RecentSearchCellContentView"
++ "Journal.ResizableViewTextAttachment"
++ "Journal.RootPaneNavigationController"
++ "Journal.RoutePinAnnotation"
++ "Journal.SceneComponent"
++ "Journal.SceneSplitViewController"
++ "Journal.SuggestedSearchController"
++ "Journal.SyncOnboardingViewController"
++ "Journal.TextFieldContentView"
++ "Journal/CanvasLocationsMapCell.swift"
++ "Journal/CanvasLocationsMapVisibilityCell.swift"
++ "Journal/CanvasPromptPickerController.swift"
++ "Journal/ConfettiHostingIndicatorView.swift"
++ "Journal/CustomJournalColorPickerContentConfiguration.swift"
++ "Journal/CustomJournalColorPresetContentConfiguration.swift"
++ "Journal/CustomJournalEmojiIconContentConfiguration.swift"
++ "Journal/CustomJournalPreviewContentConfiguration.swift"
++ "Journal/CustomJournalSymbolIconContentConfiguration.swift"
++ "Journal/CustomizeJournalViewController.swift"
++ "Journal/DrawingCanvasView.swift"
++ "Journal/FollowUpPromptAttachment.swift"
++ "Journal/FollowUpPromptViewTextAttachment.swift"
++ "Journal/FullScreenAudioTranscriptionCollectionViewCell.swift"
++ "Journal/FullScreenContactCollectionViewCell.swift"
++ "Journal/FullScreenGenericMapCollectionViewCell.swift"
++ "Journal/FullScreenLegacyCollectionViewCell.swift"
++ "Journal/FullScreenLegacyCollectionViewController.swift"
++ "Journal/FullScreenLivePhotoCollectionViewCell.swift"
++ "Journal/FullScreenMotionActivityCollectionViewCell.swift"
++ "Journal/FullScreenMultiPinMapCollectionViewCell.swift"
++ "Journal/FullScreenMusicCollectionViewCell.swift"
++ "Journal/FullScreenPhotoCollectionViewCell.swift"
++ "Journal/FullScreenPodcastCollectionViewCell.swift"
++ "Journal/FullScreenRouteCollectionViewCell.swift"
++ "Journal/FullScreenStateOfMindCollectionViewCell.swift"
++ "Journal/FullScreenUnknownAssetCollectionViewCell.swift"
++ "Journal/FullScreenVideoCollectionViewCell.swift"
++ "Journal/FullScreenWorkoutCollectionViewCell.swift"
++ "Journal/FullScreenZoomableMediaAssetCollectionViewCell.swift"
++ "Journal/JournalTextView.swift"
++ "Journal/LocationSearchBarCellConfiguration.swift"
++ "Journal/MapOptionsPlatterView.swift"
++ "Journal/MapOptionsView.swift"
++ "Journal/MediaAssetView.swift"
++ "Journal/MergeableTextStorage.swift"
++ "Journal/PaperKitDrawingCanvasView.swift"
++ "Journal/PendingPromptCollectionViewCell.swift"
++ "Journal/PromptCollectionViewCell.swift"
++ "Journal/RecentSearchCellContentView.swift"
++ "Journal/ResizableAssetViewTextAttachment.swift"
++ "Journal/ResizableViewTextAttachment.swift"
++ "Journal/RoundedBackgroundView.swift"
++ "Journal/SceneSplitViewController.swift"
++ "Journal/SidebarBrickCollectionViewListCell.swift"
++ "Journal/SidebarEntryMapView.swift"
++ "Journal/SuggestedSearchController.swift"
++ "Journal/TextFieldContentConfiguration.swift"
++ "Journal/VideoAssetView.swift"
++ "Journal9"
++ "JournalEntryAssetFileAttachmentMO is missing filePath. ID: %s"
++ "JournalEntryCollectionViewCell.focusPreference"
++ "JournalEntryCollectionViewControllerInitialFetchComplete"
++ "JournalNotificationsManagerSettingsDidChange"
++ "JournalShareUtility.cleanup removing %s"
++ "JournalShareUtility.exportEntry finished archiving entry, data (%{bytes}ld), fileURL: %s"
++ "JournalShareUtility.presentDialogToShareFile completed fileURL: %s, success: %{bool}d"
++ "JournalSyncEngineDelegate.handleEvent"
++ "JournalTimelineViewController"
++ "JournalTimelineViewController+Navigation"
++ "Journaling Schedule"
++ "Journaling Schedule toggle"
++ "Journaling schedule notification toggle"
++ "Journals"
++ "Journals (back button)"
++ "Journals list menu title"
++ "Joyful feeling"
++ "Jump to Selection"
++ "Keep Multiple Journals"
++ "Keep Your Streak toggle"
++ "LAEnvironmentObserver"
++ "LGybd-vEQbIuLxYS5t1cOTCtJo4."
++ "Link asset placeholder title"
++ "Loading persistent stores:\ncompleted in %f seconds.\npersistentStoresCount: %ld\nwill call persistentStoreLoadedSuccessfully(): %{bool}d"
++ "Local and Remote change tags are the same; consider an early exit?"
++ "Local and remote %s data differ, updating local to match record"
++ "Location access denied or restricted, ending loop."
++ "Lock journal after 1 minute"
++ "Lock journal after 15 minutes"
++ "Lock journal after 5 minutes"
++ "Lock journal immediately"
++ "Lock journal in Settings"
++ "Lock your journal using the device passcode, Face ID or Touch ID."
++ "Log and handle error. Device or account state does not permit refresh. Proceed as if offline"
++ "Lonely feeling"
++ "Long Mindfulness Session"
++ "MacCameraPickerMenuBridge"
++ "MacCameraPickerMenuBridgeDelegate"
++ "Main Menu: Entry menu bookmark command"
++ "Main Menu: Entry menu delete command"
++ "Main Menu: Entry menu duplicate command"
++ "Main Menu: Entry menu edit command"
++ "Main Menu: Entry menu entry date command"
++ "Main Menu: Entry menu journals command"
++ "Main Menu: Entry menu title toggle command"
++ "Main Menu: File menu Export item title"
++ "Main Menu: File menu New Entry item title"
++ "Main Menu: File menu Print item title"
++ "Main Menu: File menu item title"
++ "Main menu: Entry menu delete command"
++ "Map Options Map Mode Settings"
++ "Mapped framework asset(s) to %ld Journal asset(s) [%ld reflection, %ld asset, %ld map pin] and %ld pending photo requests, %f seconds elapsed."
++ "Menu bar: App menu Settings item title"
++ "Merge completed, %f seconds elapsed."
++ "Merge encountered conflict=%s, %f seconds elapsed."
++ "Mergeable Attributes"
++ "Mergeable text doesn't allow forward merging"
++ "MergeableTextStorageBase"
++ "Message showing that the selected invite asset will be removed from this entry."
++ "Message showing that this invite asset is the final asset in the current entry which contains no text, so removing this connection will delete the entry."
++ "Message: Entries were saved to the folder <folder name>"
++ "Messages should not support serializing view-provided text attachment CKInlineMediaTextAttachment."
++ "Metrics contains yearly milestone for created entries, did not insert yearly fallback!"
++ "Metrics updated"
++ "Migrating deprecated sync state token"
++ "Mindfulness Session lasted longer than an hour"
++ "Missing updated dates; can't forward merge"
++ "MomentsTestingSettingsController.AuthReason.LockJournal"
++ "Money association"
++ "Monochrome"
++ "Motion activity type"
++ "Move Asset undo/redo button label"
++ "Move journals button"
++ "Name of the app that is requesting passcode authorization."
++ "Negative"
++ "Neither operation queue is totally empty, so we won't try to enqueue more work."
++ "Neutral"
++ "Neutral day"
++ "Neutral moment"
++ "Never show entry title"
++ "New Entry (group)"
++ "New Journal Entry"
++ "No Entries Found"
++ "No JournalEntryMO field match for key: %s"
++ "No Photos or Videos"
++ "No Previous Streaks"
++ "No Visible Content"
++ "No Visited Places"
++ "No changed fields found from NSManagedObjectContextObjectsDidChange notification."
++ "No deprecated metadata found"
++ "No entries found for this location in your journal on the map."
++ "No recently deleted entries"
++ "No recently deleted entries subtext"
++ "No userID registered previously."
++ "Not implemented!"
++ "Not saving the CoreData context, as there were no local changes in the %ld pending changes"
++ "Nothing to import"
++ "Notification days picker title"
++ "Notifications Are Off"
++ "Notifications button like 'Allow Notifications on This iPhone"
++ "Notifications button like 'Turn On Notifications on this iPhone"
++ "Notifications disabled header subtitle"
++ "Notifications disabled header title"
++ "Notifications link in Settings"
++ "Notifications not authorized header subtitle"
++ "Notifications not enabled header title"
++ "Notifications streak reminder footer"
++ "Notifications time picker title"
++ "Notifications…"
++ "Notified of %ld deletes:"
++ "Notified of (%ld inserts):"
++ "Notified that the same user has logged in. No-op."
++ "Now on iPad and Mac"
++ "Numbered list formatting option"
++ "Only for Moments"
++ "Only show entry title for moments"
++ "Open Location In Maps"
++ "Overflow item picker button title"
++ "Overwhelmed feeling"
++ "PKCanvasViewDelegate"
++ "PKToolPickerObserver"
++ "PXPlacesGeotaggable"
++ "PXPlacesMapAnnotationRenderer"
++ "PXPlacesMapControllerChangeDelegate"
++ "PXPlacesMapControllerLoadingStateDelegate"
++ "PXPlacesMapControllerSelectionDelegate"
++ "PXPlacesMapGeotaggableInfoDelegate"
++ "PXPlacesMapPipelineComponent"
++ "PXPlacesMapPipelineComponentProvider"
++ "PXPlacesMapSelectionHandler"
++ "Partner association"
++ "Passionate feeling"
++ "Peaceful feeling"
++ "Peach"
++ "Permanently Delete ALL RECENTLY DELETED ENTRIES"
++ "Permanently Delete Entries"
++ "Permanently Deleted entry message"
++ "Permission request\u00a0cancel button"
++ "Pick Other Location"
++ "Places brick offline message"
++ "Places brick title"
++ "Places brick type"
++ "Pleasant day"
++ "Pleasant moment"
++ "Plural title for the duplicate action"
++ "Positive"
++ "Print (main menu)"
++ "Print menu item title on entry overflow menu"
++ "Problem cloning entry: %@"
++ "Processing %ld refreshed objects"
++ "Processing %ld updated objects"
++ "Processing assetMetadataAsset file for JournalEntryAsset Record %s using url %s"
++ "Processing deletion %s"
++ "Processing insert: %s"
++ "ProductVersion"
++ "Protect your personal entries and lock Journal with your device passcode or Face ID, so no one but you can access your journals."
++ "Protect your personal entries and lock Journal with your device passcode or Touch ID, so no one but you can access your journals."
++ "Protect your personal entries and lock Journal with your device passcode, so no one but you can access your journals."
++ "Protected data is not available, not ready to sync"
++ "Proud feeling"
++ "Purging cache for asset with id: %s"
++ "Purging cache for assetIDs %s"
++ "Purging cache for assetIDs: %s"
++ "Q24@0:8@\"UISplitViewController\"16"
++ "Q32@0:8@\"UIView<UITextDroppable>\"16@\"<UITextDropRequest>\"24"
++ "Query for attributes for selection of %s was cancelled"
++ "Query for attributes for text %s was cancelled"
++ "Query for attributes was cancelled"
++ "Recently Deleted"
++ "Recently Deleted entry message"
++ "Recently deleted entries title"
++ "RecentlyDeletedEntriesViewController - Unhandled cell type"
++ "Record supports mergeable text; no reason to forward merge"
++ "Recover All Entries"
++ "Recover recently deleted entries, see your entries on a beautiful map, and use improved search."
++ "Referencing mergeable attributed string that hasn't been customized for the current trait collection."
++ "ReflectionCreativity"
++ "ReflectionGratitude"
++ "ReflectionKindness"
++ "ReflectionPurpose"
++ "ReflectionResilience"
++ "ReflectionWisdom"
++ "Registered background export task with identifier %s. Response: %{bool}d."
++ "Rejected duration for visit, start date (%s) > end date (%s)."
++ "Relieved feeling"
++ "Remove Asset undo/redo button label"
++ "Remove apple invite asset action title"
++ "Remove bookmark from entries button"
++ "Removed CloudKit state sync token"
++ "Removing %s record %s from pending save, as it is being marked for deletion"
++ "Removing CloudKit state sync token"
++ "Removing `text` from updatedProperties list. New list: %s"
++ "Replaced placeholder with fetched photo asset. startedAt=%s; fetchDuration=%f seconds; cacheDuration=%f seconds."
++ "Replacing mergeable text with a non-mergeable string. This will likely result in an incorrect merge. Call `mergeText(_:)` with the relevant `MergeableAttributedString` instead."
++ "Replacing mergeable title with a non-mergeable string. This may result in an incorrect merge."
++ "Requesting another prompt with prompt:\n%s"
++ "Require Passcode time selection in Settings"
++ "Requires app restart"
++ "Reset Index Version"
++ "Reset Sync Onboarding ("
++ "Reset Zoom command title"
++ "Resetting sync data:\nuserID: %s,\nremoveMetadata: %{bool}d,\nremoveAllEntries: %{bool}d"
++ "Resetting the sync engine.\nState token: %s\nPrior sessionID: %{public}s\nNew sessionID: %{public}s"
++ "Resolving differences for entry and record with ID: %s. Should forward merge title: %{bool}d text: %{bool}d"
++ "Responding to NSManagedObjectContextObjectsDidChange notification: %s"
++ "Returning early from DataAggregator.updateData() assets loop because isProtectedDataAvailable == false. Most likely because the device is locked."
++ "RoundedBackgroundView"
++ "Sad feeling"
++ "Sage"
++ "San Francisco, CA"
++ "Satisfied feeling"
++ "Save photos and videos taken in Journal to the Photos app."
++ "Save to Photos toggle in Settings"
++ "Save to photos footer text in Settings"
++ "Saved CloudKit UserID: %{private,mask.hash}s"
++ "Saving non iCloud user deleted assets: %@"
++ "Scared feeling"
++ "Scene activated with an unprepared window."
++ "SceneSplitViewController"
++ "Search token text"
++ "Securely sync entries using iCloud, and lock your journal to keep it private."
++ "See personalized moments you might want to write about, such as places you go and photos you take."
++ "Select Entries menu command"
++ "Select Entry Date"
++ "Select a journal to move all entries associated with this journal."
++ "Select all bar button item"
++ "Self-care association"
++ "Setting sync state: %s"
++ "Settings window title"
++ "Share sheet attachment title"
++ "Should forward merge %s: %{bool}d"
++ "Show All Entries command title"
++ "Show Insights command title"
++ "Show Places command title"
++ "Show Recently Deleted command title"
++ "Shown as 'creator' field in system spaces like Live Activities and Now Playing"
++ "Signed in and dataclass is enabled."
++ "Signed in and dataclass is provisioned."
++ "Skipping AssetPostprocessingOperation.update. Device is locked."
++ "Skipping InsightsDataManager.update. Device is locked."
++ "Skipping execution of export background task with identifier %s. Export options or presenting view controller are nil."
++ "Skipping registration of export background task with identifier %s. Already registered."
++ "Slightly pleasant day"
++ "Slightly pleasant moment"
++ "Slightly unpleasant day"
++ "Slightly unpleasant moment"
++ "Spirituality association"
++ "SpotlightUtilities.deleteAllSearchableItemsFromLegacyIndex finished"
++ "SpotlightUtilities.setDisableSearchInSpotlightFlag updated = %ld items"
++ "Staging Container Disk Usage (MB):"
++ "Start a new journal entry in "
++ "Start journaling in "
++ "Starting export with options: %@"
++ "State of mind association"
++ "State of mind association placeholder"
++ "State of mind daily mood"
++ "State of mind label"
++ "State of mind label placeholder"
++ "State of mind momentary emotion"
++ "State of mind mood placeholder"
++ "StateOfMindAsset"
++ "Streak reminder notification toggle"
++ "Stressed feeling"
++ "Strikethrough formatting option"
++ "Subtitle for alert"
++ "Subtitle for background execution UI"
++ "Subtitle for the 'Recently deleted' screen"
++ "Successfully created %s record from %s with id: %s"
++ "Suggested folder name for exporting Journal entries"
++ "SuggestedSearchController"
++ "Suggestion header on empty search"
++ "SuggestionUtil ["
++ "Summary item label like '{117} Connections All Time'"
++ "Summary item label like '{117} Connections This Year'"
++ "Summary item label like '{117} Days All Time'"
++ "Summary item label like '{117} Drawings All Time'"
++ "Summary item label like '{117} Drawings This Year'"
++ "Summary item label like '{117} Entries All Time'"
++ "Summary item label like '{117} Invites All Time'"
++ "Summary item label like '{117} Invites This Year'"
++ "Summary item label like '{117} Media All Time'"
++ "Summary item label like '{117} Media This Year'"
++ "Summary item label like '{117} Photos All Time'"
++ "Summary item label like '{117} Photos This Year'"
++ "Summary item label like '{117} Places All Time'"
++ "Summary item label like '{117} Places This Year'"
++ "Summary item label like '{117} Recordings All Time'"
++ "Summary item label like '{117} Recordings This Year'"
++ "Summary item label like '{117} Reflections All Time'"
++ "Summary item label like '{117} Reflections This Year'"
++ "Summary item label like '{117} States of Mind All Time'"
++ "Summary item label like '{117} States of Mind This Year'"
++ "Summary item label like '{117} Videos All Time'"
++ "Summary item label like '{117} Videos This Year'"
++ "Summary item label like '{117} Words All Time'"
++ "Summary item label like '{117} Words This Month'"
++ "Summary item label like '{117} Words This Year'"
++ "Summary item label like '{117} Workouts All Time'"
++ "Summary item label like '{117} Workouts This Year'"
++ "Summary item label like '{123} Entries This Year'"
++ "Summary item label like '{134} Entries This Year'"
++ "Summary item label like '{159} Connections All Time'"
++ "Summary item label like '{223} Words This Month'"
++ "Summary item label like '{272} Places All Time'"
++ "Summary item label like '{281} Places This Year'"
++ "Summary item label like '{35} Days This Year'"
++ "Summary item label like '{35} Photos All Time'"
++ "Summary item label like '{362} Reflections All Time'"
++ "Summary item label like '{36} Workouts All Time'"
++ "Summary item label like '{377} Media This Year'"
++ "Summary item label like '{378} Media All Time'"
++ "Summary item label like '{39} Recordings This Year'"
++ "Summary item label like '{42} Connections This Year'"
++ "Summary item label like '{456} Days All Time'"
++ "Summary item label like '{47} Drawings All Time'"
++ "Summary item label like '{47} Invites All Time'"
++ "Summary item label like '{4} Days Streak'"
++ "Summary item label like '{527} Drawings This Year'"
++ "Summary item label like '{527} Invites This Year'"
++ "Summary item label like '{546} Entries All Time'"
++ "Summary item label like '{55} Recordings All Time'"
++ "Summary item label like '{55} States of Mind This Year'"
++ "Summary item label like '{675} Videos All Time'"
++ "Summary item label like '{6} Weeks Streak'"
++ "Summary item label like '{71} Reflections This Year'"
++ "Summary item label like '{752} Words All Time'"
++ "Summary item label like '{764} Words This Year'"
++ "Summary item label like '{82} Days This Year'"
++ "Summary item label like '{86} States of Mind All Time'"
++ "Summary item label like '{92} Photos This Year'"
++ "Summary item label like '{98} Videos This Year'"
++ "Summary item label like '{99} Workouts This Year'"
++ "Surprised feeling"
++ "Sync Entries with iCloud"
++ "Sync Entries with iCloud, Onboarding Title"
++ "SyncEngine received event: %s"
++ "SyncEngine unknownItem resolved: %{bool}d"
++ "SyncEngineDelegate Received unknown event: %s"
++ "SyncEngineDelegate ignoring %s event."
++ "SyncEngineDelegate ignoring new [fall2025] event %s. Event: %s"
++ "SyncOnboardingArt"
++ "SyncOnboardingResponseUserDefaultKey"
++ "Syncing is disabled within UserDefaults"
++ "T@\"<MKAnnotation>\",N,&"
++ "T@\"<MacCameraPickerMenuBridgeDelegate>\",N,&"
++ "T@\"<PXPlacesMapAnnotationRenderer>\",R"
++ "T@\"<PXPlacesMapLayout>\",R"
++ "T@\"<PXPlacesMapPipelineComponentProvider>\",N,&,VpipelineComponentProvider"
++ "T@\"<PXPlacesMapPipelineComponentProvider>\",W,N"
++ "T@\"<PXPlacesMapSelectionHandler>\",R"
++ "T@\"<PXPlacesMapUpdatePlan>\",R"
++ "T@\"<UIFocusEnvironment>\",R,W,N"
++ "T@\"<UIFocusItemContainer>\",R,N"
++ "T@\"NSAttributedString\",R,N"
++ "T@\"NSProgress\",N,R,Vprogress"
++ "T@\"NSString\",?,R,N"
++ "T@\"NSUndoManager\",N,R"
++ "T@\"PXPlacesImageCache\",&"
++ "T@\"UICellConfigurationState\",N,R"
++ "T@\"UIImage\",?,R,N"
++ "T@\"UIScene\",N,&"
++ "T@\"UIScene\",W,N,G_scene,S_setScene:"
++ "T@\"UIView\",?,R,W,N"
++ "T@\"UIView\",N,&"
++ "T@\"UIView\",N,R"
++ "T@\"UIView\",R,W,N"
++ "T@\"_TtC7Journal13ExportOptions\",N,&,VcurrentExportOptions"
++ "T@,&,N"
++ "TB,N,VenableUserTrackingButton"
++ "Take Photo or Video"
++ "Tasks association"
++ "Textfield placeholder for journal name"
++ "The map is loading data in and is waiting for entry data"
++ "The syncEngine has not been initialized yet"
++ "There are not entries visible in this region of the map"
++ "There is no account signed in."
++ "ThirdPartyMediaSecondaryLabel"
++ "ThirdPartyMediaTertiaryLabel"
++ "This entry needs to have content visible to be added to timeline."
++ "This invite is the only content in your entry. Removing it will delete this entry."
++ "This invite will be removed from your entry."
++ "This mindfulness session lasted longer than an hour. Please file a radar if that is an error"
++ "This setting is only available when Journal is not locked from Home Screen or App Library."
++ "Timeline title"
++ "Title for alert"
++ "Title for alert asking user to clear recent searches"
++ "Title for list of entries in an area of the map view."
++ "Title for menu item for copying audio transcript text to a journal entry"
++ "Title for the map mode picker to choose between explore and satellite mode."
++ "Title of location list view in the location picker"
++ "Title of the cancel button on an alert"
++ "Title of view to edit the selected location"
++ "To receive notifications, you’ll need to turn on notifications for Journal"
++ "To receive notifications, you’ll need to turn on notifications for Journal in Settings."
++ "Toggling focus preference to asset grid!"
++ "Toggling focus preference to timeline cell!"
++ "Token in the search landing view and in the search bar menu"
++ "Too many operations in the queue - Dropping download operation for asset %s"
++ "Too many operations in the queue - Dropping download operation for attachment %s"
++ "Toolbar item label"
++ "Top used asset, such as: '{235} Drawings'"
++ "Top used asset, such as: '{235} Invites'"
++ "Tracked %s CoreData changes and %s inspected changes to entry with ID %s"
++ "Travel association"
++ "Try panning or zooming the map to show places from your journal entries."
++ "Trying to display a custom journal, but found an invalid membership type!"
++ "Trying to present the edit view for a non-editable journal"
++ "Trying to use non-production environment on an external build."
++ "Turn On iCloud button title"
++ "Turquoise"
++ "Typing undo/redo button label"
++ "T{UIEdgeInsets=dddd},N"
++ "T{UIEdgeInsets=dddd},N,R"
++ "T{UIEdgeInsets=dddd},R"
++ "UIColorPickerViewControllerDelegate"
++ "UIDragInteractionDelegate"
++ "UIDropInteractionDelegate"
++ "UIFocusEnvironment"
++ "UIInteraction"
++ "UINavigationBarDelegate"
++ "UIPopoverPresentationControllerDelegate"
++ "UIPopoverPresentationControllerSourceItem"
++ "UIScribbleInteractionDelegate"
++ "UISearchSuggestion"
++ "UISplitViewControllerDelegate"
++ "UITextDragDelegate"
++ "UITextDropDelegate"
++ "UITextFieldDelegate"
++ "Unable to create a %s record to add to the sync engine"
++ "Unable to create a %s record while marking an object for deletion"
++ "Unable to fetch assets marked as removed from iCloud: %@"
++ "Unable to find an object from database with id: %s"
++ "Unable to generate drawing from metadata: %@"
++ "Unable to generate markup data: %@"
++ "Unable to get %s object corresponding to %s record with id: %s"
++ "Unable to get JournalEntryMO object with id %s for local update"
++ "Unable to get assetMetadataAsset for JournalEntryAsset Record %s. Error: %@"
++ "Unable to get local entry with recordId:%@"
++ "Unable to retrieve SyncDataMO"
++ "Unable to save background context:%@ error:%@"
++ "Unable to save downloaded data for assetID %s: %@"
++ "Unable to save downloaded data for attachmentMO with id: %s, error: %@"
++ "Unhandled Record Type %s during CloudKit fetch"
++ "Unhandled Record Type %s with recordID %@ encountered while trying to resolve CloudKit conflict."
++ "Unknown"
++ "Unknown association"
++ "Unknown element in query response: %s"
++ "Unknown feeling"
++ "Unknown mimetype: %s"
++ "Unknown mood"
++ "Unpleasant day"
++ "Unpleasant moment"
++ "Update fetch request error: %@"
++ "Updated CloudKit UserID. %{private,mask.hash}s"
++ "Updated CloudKit state sync token in CoreData. Value: %s"
++ "Updated metrics to display in sidebar brick:"
++ "Updating metrics..."
++ "User has logged out"
++ "Using %s to finalize CloudKit save for %s record"
++ "Using %s to process %s record"
++ "Using %s to resolve conflict with %s record [%s]."
++ "Very pleasant day"
++ "Very pleasant moment"
++ "Very unpleasant day"
++ "Very unpleasant moment"
++ "VideoControlsTint"
++ "Violet"
++ "Visit durations = [\n%s)\n]"
++ "Waiting for location authorization..."
++ "Weather association"
++ "What will make today great?"
++ "What's been on your mind lately?"
++ "What's one good thing that happened this week?"
++ "Whats New: Canvas enhancements description"
++ "Whats New: Canvas enhancements title"
++ "Whats New: Misc features description"
++ "Whats New: Misc features title"
++ "Whats New: Multiplatform description"
++ "Whats New: Multiplatform title"
++ "Whats New: Multiple journal feature description"
++ "Whats New: Multiple journal feature title"
++ "What’s New in Journal"
++ "When adding a suggestion to a new entry, always use the date from the moment as the entry date."
++ "Widget prompt 1"
++ "Widget prompt 2"
++ "Widget prompt 3"
++ "Widget prompt 4"
++ "Will perform forward merge for entry text with record with ID: %s."
++ "Will perform forward merge for entry title with record with ID: %s."
++ "Will try to download %ld JournalEntryAssetFileAttachmentMO records individually"
++ "Will try to download %ld JournalEntryAssetMO records individually"
++ "Work association"
++ "WorkoutIconAsset"
++ "WorkoutRouteAsset"
++ "Worried feeling"
++ "Would you like to replace the last attachment with this map?"
++ "Write a new journal entry in "
++ "Write about different parts of your life, and keep entries organized in separate journals."
++ "Write about your day and add photos, videos, places, and more."
++ "You can automatically sync your journals with iCloud, so you’ll be able to view, edit, and create entries from any of your devices. Synced entries include any attachments you’ve added such as workout, media, contacts, photos, significant locations, and state of mind. Your data syncs when your Mac is connected to the internet.\n\nYou can manage this device’s access in iCloud settings."
++ "You must set a passcode in Settings to use it to lock your journal."
++ "You’ve journaled at least once a week since "
++ "You’ve journaled every day since "
++ "Zoom In command title"
++ "Zoom Out command title"
++ "[MapSnapshot] cannot generate a valid region for the multipin map"
++ "[MapSnapshot] cannot generate a valid region for the multipin map with naiveUncertaintyBasedRegion"
++ "](inflect: true) Received"
++ "](inflect: true)?"
++ "](measure: 'value')\n^[Connections All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Connections This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Connections](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Connections](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Days Streak](measure: 'unit')"
++ "](measure: 'value')\n^[Days](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Days](measure: 'unit')\n^[Streak](measure: 'timespan')"
++ "](measure: 'value')\n^[Days](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Drawings All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Drawings This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Drawings](measure: 'unit')"
++ "](measure: 'value')\n^[Drawings](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Drawings](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Entries All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Entries](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Entries](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Invites All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Invites This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Invites](measure: 'unit')"
++ "](measure: 'value')\n^[Invites](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Invites](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Media All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Media This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Media](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Media](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Photos All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Photos This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Photos](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Photos](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Places All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Places This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Places](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Places](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Recordings All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Recordings This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Recordings](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Recordings](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Reflections All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Reflections This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Reflections](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Reflections](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[States of Mind All Time](measure: 'unit')"
++ "](measure: 'value')\n^[States of Mind This Year](measure: 'unit')"
++ "](measure: 'value')\n^[States of Mind](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[States of Mind](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Videos All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Videos This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Videos](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Videos](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Weeks Streak](measure: 'unit')"
++ "](measure: 'value')\n^[Weeks](measure: 'unit')\n^[Streak](measure: 'timespan')"
++ "](measure: 'value')\n^[Words All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Words This Month](measure: 'unit')"
++ "](measure: 'value')\n^[Words This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Words](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Words](measure: 'unit')\n^[This Month](measure: 'timespan')"
++ "](measure: 'value')\n^[Words](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "](measure: 'value')\n^[Workouts All Time](measure: 'unit')"
++ "](measure: 'value')\n^[Workouts This Year](measure: 'unit')"
++ "](measure: 'value')\n^[Workouts](measure: 'unit')\n^[All Time](measure: 'timespan')"
++ "](measure: 'value')\n^[Workouts](measure: 'unit')\n^[This Year](measure: 'timespan')"
++ "_Concurrency/arm64e-apple-ios.private.swiftinterface"
++ "_TtC7Journal10AudioAsset"
++ "_TtC7Journal10MusicAsset"
++ "_TtC7Journal10PhotoAsset"
++ "_TtC7Journal10VideoAsset"
++ "_TtC7Journal10VisitAsset"
++ "_TtC7Journal11Application"
++ "_TtC7Journal12ContactAsset"
++ "_TtC7Journal12DrawingAsset"
++ "_TtC7Journal12PodcastAsset"
++ "_TtC7Journal12UnknownAsset"
++ "_TtC7Journal13ConfettiAsset"
++ "_TtC7Journal13ExportOptions"
++ "_TtC7Journal13MapModePicker"
++ "_TtC7Journal14DataAggregator"
++ "_TtC7Journal14DocumentPicker"
++ "_TtC7Journal14EntryViewModel"
++ "_TtC7Journal14LivePhotoAsset"
++ "_TtC7Journal14MapOptionsView"
++ "_TtC7Journal14MaskedBlurView"
++ "_TtC7Journal14PaperKitTestVC"
++ "_TtC7Journal15GenericMapAsset"
++ "_TtC7Journal15JournalTextView"
++ "_TtC7Journal15ReflectionAsset"
++ "_TtC7Journal15VideoSeekSlider"
++ "_TtC7Journal16DrawingAssetView"
++ "_TtC7Journal16MultiPinMapAsset"
++ "_TtC7Journal16PlaceholderAsset"
++ "_TtC7Journal16RoutePinRenderer"
++ "_TtC7Journal16SidebarPinsStore"
++ "_TtC7Journal16StateOfMindAsset"
++ "_TtC7Journal16StreakEventAsset"
++ "_TtC7Journal16WorkoutIconAsset"
++ "_TtC7Journal17ConfettiAssetView"
++ "_TtC7Journal17DrawingCanvasView"
++ "_TtC7Journal17EntryMapPinsStore"
++ "_TtC7Journal17ToolbarZoomSlider"
++ "_TtC7Journal17WorkoutRouteAsset"
++ "_TtC7Journal18EntryListViewModel"
++ "_TtC7Journal18JournalAjaxSession"
++ "_TtC7Journal18PhotoPinAnnotation"
++ "_TtC7Journal18ResizingHandleView"
++ "_TtC7Journal18RoutePinAnnotation"
++ "_TtC7Journal19AdminMenuController"
++ "_TtC7Journal19EntryMapPinRenderer"
++ "_TtC7Journal19JournalShareUtility"
++ "_TtC7Journal19LocationPinRenderer"
++ "_TtC7Journal19MotionActivityAsset"
++ "_TtC7Journal19SidebarEntryMapView"
++ "_TtC7Journal20CanvasLayoutFragment"
++ "_TtC7Journal20TextFieldContentView"
++ "_TtC7Journal20ThirdPartyMediaAsset"
++ "_TtC7Journal21ConfettiAssetGridView"
++ "_TtC7Journal21JournalTokenGenerator"
++ "_TtC7Journal21LocationPinAnnotation"
++ "_TtC7Journal21LockSettingsViewModel"
++ "_TtC7Journal21MapOptionsPlatterView"
++ "_TtC7Journal21RoundedBackgroundView"
++ "_TtC7Journal22CanvasLocationsMapCell"
++ "_TtC7Journal22EntryMapViewController"
++ "_TtC7Journal22SpotlightSearchSession"
++ "_TtC7Journal23CanvasDropIndicatorView"
++ "_TtC7Journal24CanvasBarItemCoordinator"
++ "_TtC7Journal24CanvasDateTitleBarButton"
++ "_TtC7Journal24CanvasInputAccessoryView"
++ "_TtC7Journal24CustomJournalsController"
++ "_TtC7Journal24ExternalAssetDataManager"
++ "_TtC7Journal24FollowUpPromptAttachment"
++ "_TtC7Journal24MacSettingsSceneDelegate"
++ "_TtC7Journal24PlatformCanvasToolPicker"
++ "_TtC7Journal24PromptCollectionViewCell"
++ "_TtC7Journal24SceneSplitViewController"
++ "_TtC7Journal24SharedDeviceInfoProvider"
++ "_TtC7Journal25CanvasDatePickerViewModel"
++ "_TtC7Journal25CanvasLocationsController"
++ "_TtC7Journal25CustomizeJournalViewModel"
++ "_TtC7Journal25JournalSyncEngineDelegate"
++ "_TtC7Journal25LocationSearchBarCellView"
++ "_TtC7Journal25PaperKitDrawingCanvasView"
++ "_TtC7Journal25SuggestedSearchController"
++ "_TtC7Journal26JournalEntryMetadataButton"
++ "_TtC7Journal26LocationListCollectionView"
++ "_TtC7Journal27FullScreenMapViewController"
++ "_TtC7Journal27GalleryCollectionViewLayout"
++ "_TtC7Journal27RecentSearchCellContentView"
++ "_TtC7Journal27ResizableViewTextAttachment"
++ "_TtC7Journal28CanvasPromptPickerController"
++ "_TtC7Journal28ConfettiHostingIndicatorView"
++ "_TtC7Journal28EntryMapMarkerAnnotationView"
++ "_TtC7Journal28EntryMapViewLoadingMessenger"
++ "_TtC7Journal28LocationPickerEditController"
++ "_TtC7Journal28MapVisibilityCellContentView"
++ "_TtC7Journal28ObservableEntryListViewModel"
++ "_TtC7Journal28SyncOnboardingViewController"
++ "_TtC7Journal29EntryMapEntriesViewController"
++ "_TtC7Journal29NotificationSettingsViewModel"
++ "_TtC7Journal29SidebarInsightsBrickViewModel"
++ "_TtC7Journal30AppNavigationSidebarController"
++ "_TtC7Journal30CanvasDatePickerViewController"
++ "_TtC7Journal30CustomizeJournalViewController"
++ "_TtC7Journal30JournalMembershipListViewModel"
++ "_TtC7Journal31CustomAttributeProviderConcrete"
++ "_TtC7Journal31MacSettingsTabHostingController"
++ "_TtC7Journal31PendingPromptCollectionViewCell"
++ "_TtC7Journal32FollowUpPromptViewTextAttachment"
++ "_TtC7Journal32FullScreenLinkCollectionViewCell"
++ "_TtC7Journal32ResizableAssetViewTextAttachment"
++ "_TtC7Journal32SidebarEditingCollectionViewCell"
++ "_TtC7Journal33FullScreenAssetCollectionViewCell"
++ "_TtC7Journal33FullScreenMusicCollectionViewCell"
++ "_TtC7Journal33FullScreenPhotoCollectionViewCell"
++ "_TtC7Journal33FullScreenRouteCollectionViewCell"
++ "_TtC7Journal33FullScreenVideoCollectionViewCell"
++ "_TtC7Journal33JournalPXPlacesMapPipelineFactory"
++ "_TtC7Journal34FullScreenLegacyCollectionViewCell"
++ "_TtC7Journal34NotDismissibleNavigationController"
++ "_TtC7Journal34SearchSuggestionCollectionViewCell"
++ "_TtC7Journal34SidebarBrickCollectionViewListCell"
++ "_TtC7Journal35CustomJournalPreviewCellContentView"
++ "_TtC7Journal35FullScreenAssetNavigationController"
++ "_TtC7Journal35FullScreenContactCollectionViewCell"
++ "_TtC7Journal35FullScreenPodcastCollectionViewCell"
++ "_TtC7Journal35FullScreenWorkoutCollectionViewCell"
++ "_TtC7Journal35JournalMembershipListViewController"
++ "_TtC7Journal36FullScreenConfettiCollectionViewCell"
++ "_TtC7Journal36InsightsCalendarDetailViewController"
++ "_TtC7Journal36RecentlyDeletedEntriesViewController"
++ "_TtC7Journal37CustomJournalEmojiIconCellContentView"
++ "_TtC7Journal37FullScreenLivePhotoCollectionViewCell"
++ "_TtC7Journal37JournalMapPassthroughSelectionHandler"
++ "_TtC7Journal38CustomJournalSymbolIconCellContentView"
++ "_TtC7Journal38FullScreenGenericMapCollectionViewCell"
++ "_TtC7Journal39CustomJournalColorPickerCellContentView"
++ "_TtC7Journal39CustomJournalColorPresetCellContentView"
++ "_TtC7Journal39EntryMapViewEntriesNavigationController"
++ "_TtC7Journal39FullScreenMultiPinMapCollectionViewCell"
++ "_TtC7Journal39FullScreenStateOfMindCollectionViewCell"
++ "_TtC7Journal40FullScreenLegacyCollectionViewController"
++ "_TtC7Journal40FullScreenUnknownAssetCollectionViewCell"
++ "_TtC7Journal42FullScreenMotionActivityCollectionViewCell"
++ "_TtC7Journal43FullScreenThirdPartyMediaCollectionViewCell"
++ "_TtC7Journal43FullScreenUnsupportedItemCollectionViewCell"
++ "_TtC7Journal46FullScreenAudioTranscriptionCollectionViewCell"
++ "_TtC7Journal5Asset"
++ "_TtC7Journal9BookAsset"
++ "_TtC7Journal9DebugMenu"
++ "_TtC7Journal9LinkAsset"
++ "_TtC7JournalP33_0B5A9489AD304442B8967D815815566E28RootPaneNavigationController"
++ "_TtC7JournalP33_1C06B2E6919F8D96964EAFC32087680D23ResizableAttachmentView"
++ "_TtC7JournalP33_1C06B2E6919F8D96964EAFC32087680D35ResizableTextAttachmentViewProvider"
++ "_TtC7JournalP33_1E814B738C066DA35C55DBC0918D3D1E24TouchDetectionRecognizer"
++ "_TtC7JournalP33_9B36C547C0EE9335F6FDEF99DF185CB318StackAccessoryView"
++ "_TtC7JournalP33_BFE7FCB0508DA3B4D5173FF65AAF853121ConfigurableConstants"
++ "_TtCC7Journal14DataAggregator10EntryPlace"
++ "_TtCC7Journal14EntryViewModel15AutosaveManager"
++ "_TtCC7Journal14LivePhotoAssetP33_A7B37A5DC9466C6687297D5DCB2EA88A20LivePhotoAttachments"
++ "_TtCC7Journal18JournalAjaxSessionP33_7266CDB7F49A0C2F86F0ED278CB17DC311_ClientInfo"
++ "_TtCC7Journal20CloudSyncLoadingViewP33_1C8678241405D6BD28291585857335D813BarButtonItem"
++ "_TtCC7Journal24SceneSplitViewControllerP33_0B5A9489AD304442B8967D815815566E30MacContentNavigationTransition"
++ "_TtCC7Journal27GalleryCollectionViewLayout10Attributes"
++ "_TtCC7Journal27GalleryCollectionViewLayout19InvalidationContext"
++ "_TtCC7Journal28SyncOnboardingViewController19SyncOnboardingState"
++ "_TtCC7Journal30AppNavigationSidebarControllerP33_232548B91BF21E41EA5CF3D1572ED73E14ProvidableItem"
++ "_TtCE7JournalCSo15UIBarButtonItemP33_F0BC2803DD62861160BF40CAB32FDB4321MacBorderedCustomView"
++ "_TtCE7JournalV5UIKit15UICellAccessoryP33_85A222117EA5D3E059C9D74C1729BE0622CheckmarkAccessoryView"
++ "_TtCFFZFV7Journal117$s7Journal0024RecordingViewswift_ynAHffMX322_0_33_104DA14A1B51E0439F4AC926246DCE3ALl7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY(T_P7SwiftUI4View_U_FT_PS4__L_22MockPlaybackController"
++ "_TtCFFZFV7Journal122$s7Journal0029StaticWaveformViewswift_tAFJhfMX122_0_33_A61E944E790334B8290030312B43B025Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY0T_P7SwiftUI4View_U_FT_PS4__L_21MockWaveformProviding"
++ "_TtCFFZFV7Journal126$s7Journal0033ScrollableWaveformViewswift_DbGHjfMX256_0_33_8FC82BFD10DD9FFCAE9786F1BC87CE94Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY0T_P7SwiftUI4View_U_FT_PS4__L_21MockWaveformProviding"
++ "_TtCFFZFV7Journal150$s7Journal0057AudioRecordingLiveActivityBannerViewControllerswift_tCHFufMX131_0_33_A8920A825AC57B7B09EE15DAB3B684A0Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY\xd8T_CSo16UIViewControllerU_FT_S3_L_20MockRecordingManager"
++ "_TtCO7Journal29SuggestionsOverlayCoordinatorP33_4E58A7342CE0199435B1A6F2814D83C914SceneComponent"
++ "_TtCO7Journal29SuggestionsOverlayCoordinatorP33_4E58A7342CE0199435B1A6F2814D83C96Window"
++ "_TtCO7Journal29SuggestionsOverlayCoordinatorP33_4E58A7342CE0199435B1A6F2814D83C99ViewModel"
++ "_TtCV7Journal12InsightsView14HostController"
++ "_TtCV7Journal24InsightsPlacesDetailView14HostController"
++ "_TtCV7Journal25EntryMapViewRepresentable11Coordinator"
++ "_TtP7Journal15ViewZoomActions_"
++ "_TtP7Journal16EntryEditActions_"
++ "_TtP7Journal21CanvasEditKeyCommands_"
++ "_TtP7Journal23KeyCommandFormatOptions_"
++ "_TtP7Journal23StandardUndoRedoActions_"
++ "_TtP7Journal24SidebarKeyboardSelection_"
++ "_TtP7Journal25MacFullScreenViewerOpener_"
++ "_TtP7Journal25TimelineKeyCommandActions_"
++ "_TtP7Journal28PreferredFocusToggleDelegate_"
++ "_TtPFC7Journal11AppDelegate9buildMenuFT4withPSo13UIMenuBuilder__T_L_22StandardToolbarActions_"
++ "_UISceneComponentProviding"
++ "_accessibilitySetSortPriority:"
++ "_actionHandlersForScene:"
++ "_actionRespondersForScene:"
++ "_addressFormattedAsTitlesForMapRect:"
++ "_authContext"
++ "_autosaveManager"
++ "_backgroundView"
++ "_barItemCoordinator"
++ "_bookmarkItem"
++ "_bridgedConfigurationState"
++ "_cancelButton"
++ "_clientInfo"
++ "_collectionView"
++ "_composeButtonItem"
++ "_composeItem"
++ "_configuration"
++ "_dataSource"
++ "_deleteItem"
++ "_deselectAllButton"
++ "_doneButton"
++ "_doneButtonItem"
++ "_drawButtonItem"
++ "_editingSeed"
++ "_entriesByMapPlace"
++ "_entriesByPhotoPlace"
++ "_entriesByRoutePlace"
++ "_extendLaunchTest"
++ "_fullScreenCollectionViewLayout"
++ "_geoMapItem"
++ "_gradientColors"
++ "_hasCompletedFirstUpdate"
++ "_identifier"
++ "_insertAttributedText:withAnimation:completion:"
++ "_isLoadingMap"
++ "_isPresented"
++ "_isRegionChanging"
++ "_isRenderingMap"
++ "_isRolloverActive"
++ "_journalMO"
++ "_launchTestName"
++ "_loadedJournals"
++ "_loadingFailed"
++ "_locations"
++ "_maxWidthGuide"
++ "_mediaDates"
++ "_mediaDimensions"
++ "_mediaType"
++ "_model"
++ "_mostRecentEntriesByPlace"
++ "_moveItem"
++ "_name"
++ "_needsSaveSchedule"
++ "_needsSaveStreaks"
++ "_nextButtonItem"
++ "_notificationSettings"
++ "_observableJournal"
++ "_overflowMenu"
++ "_overflowMenuButton"
++ "_pendingAppFeatureLockJournalEnabled"
++ "_pendingAppFeatureLockJournalTimeout"
++ "_permissionMissingView"
++ "_preferredStreak"
++ "_presentationSemanticContext"
++ "_previousButtonItem"
++ "_registerSceneComponent:forKey:"
++ "_savePhase"
++ "_scene"
++ "_scene:didTransitionFromActivationState:withReasonsMask:"
++ "_scene:willTransitionToActivationState:withReasonsMask:"
++ "_sceneComponentForKey:"
++ "_sceneWillInvalidate:"
++ "_scheduledReminder"
++ "_scrollPositionUpdateSeed"
++ "_secondaryMetrics"
++ "_selectAllButton"
++ "_selectedEmoji"
++ "_selectedPresetColor"
++ "_selectedSymbol"
++ "_selectedType"
++ "_selectedUserSelectedColor"
++ "_setAlwaysShowsClearButtonWhenEmpty:"
++ "_setBackgroundStyle:"
++ "_setBottomPalette:"
++ "_setClipsBackgroundDecorationsToContent:"
++ "_setClipsContentToBounds:"
++ "_setControlSize:"
++ "_setExcludesBoundarySupplementariesFromClipping:"
++ "_setForcePresentationInPresenterScene:"
++ "_setHorizontalAlignment:"
++ "_setMarginInRegularWidthRegularHeight:"
++ "_setNeedsNonDeferredFocusUpdate"
++ "_setPreferredNavigationBarVisibility:"
++ "_setPrefersNoPlatter:"
++ "_setRendersInBackground:"
++ "_setScene:"
++ "_setSelectsWhenTracking:"
++ "_setShowsLabels:"
++ "_setSliderStyle:"
++ "_setSubtitle:"
++ "_setSwipeActionsStyle:"
++ "_setToolbarAvoidsKeyboard:"
++ "_settingsDiffActionsForScene:"
++ "_shouldSetOriginalFontAttribute"
++ "_shouldSubmitOnDisappear"
++ "_showcaseView"
++ "_source"
++ "_syncingButtonItem"
++ "_titleDate"
++ "_topMetric"
++ "_trackedBarButtonItems"
++ "_unit"
++ "_value"
++ "_workTask"
++ "_zoomWithOptions:sourceItemProvider:"
++ "aa_primaryAppleAccountWithCompletion:"
++ "absoluteDimension:"
++ "accessibility label for a route map pin"
++ "action"
++ "actionAssetTypeConfettiSwitchStateDidChangeWithSender:"
++ "actionMenuBarItem"
++ "activateJournalSearchOnKeyCommand"
++ "activationConditions"
++ "adaptiveSheetPresentationController"
++ "add location picker title"
++ "addAcceptableTypeIdentifiers:"
++ "addBulletedListItemWithTitle:description:symbolName:"
++ "addCurrentLocation"
++ "addDrawing"
++ "addEntryTitle"
++ "addItemsFromArray:"
++ "addJournal:"
++ "addKeyCommand:"
++ "addLocationPickerController"
++ "addObserver:"
++ "addPipeline:"
++ "addTextLayoutManager:"
++ "addTypeIdentifiersForAcceptingClass:"
++ "adjustedContentInsetDidChange"
++ "afterFifteenMinutes"
++ "afterFiveMinutes"
++ "afterOneMinute"
++ "ajaxOnDeviceSession"
++ "allAssets"
++ "allItems"
++ "allowsClustering"
++ "allowsEditingTextAttributes"
++ "allowsFocus"
++ "alternateWithTitle:action:modifierFlags:"
++ "alternativeActions"
++ "alternativeChinActions"
++ "alwaysShowEntryTitle"
++ "alwaysUseMomentDate"
++ "american.football.fill"
++ "anchorAlignment"
++ "annotationForGeotaggables:initialCoordinate:"
++ "app.2.stack.3d.fill"
++ "appName"
++ "apple.cycletracking"
++ "apple.mindfulness"
++ "apple.slice.fill"
++ "applicationDidBecomeActive"
++ "applicationDidBecomeActive: Attempted to process scene event before window was ready!"
++ "applicationDidBecomeActive: Lock already enforced."
++ "applicationDidBecomeActive: Tracking result - Another scene is already locked"
++ "applicationDidBecomeActive: Tracking result - Not tracking"
++ "applicationDidBecomeActive: Tracking result - secondsLimit=%llu First launch detected, isLocked=TRUE"
++ "applicationDidBecomeActive: Tracking result - secondsLimit=%llu Protected Apps enforcement detected, isLocked=FALSE"
++ "applicationDidBecomeActive: Tracking result - secondsLimit=%llu secondsElapsed=%llu isLocked=%{bool}d"
++ "applicationDidEnterBackground: backgroundedAt=%llu"
++ "applicationRequestedManualLock"
++ "applicationRequestedManualLock: Attempted to process scene event before window was ready!"
++ "applicationRequestedManualLock: Ignoring duplicate lock request. App is already locked."
++ "applicationRequestedManualLock: Ignoring request, feature disabled"
++ "applicationWillUnlock"
++ "appliedConfiguration"
++ "archiveFileName"
++ "areLayoutAttributesValid"
++ "arrow.up.and.down.text.horizontal"
++ "arrow.up.forward.app"
++ "arrow.uturn.backward"
++ "arrow.uturn.forward"
++ "aspectConstraint"
++ "asset editing is supported, dequeueing unknown cell"
++ "asset editing isn't supported, dequeueing unknown cell"
++ "assetLoadingDelegate"
++ "assetViewAspectConstraint"
++ "attachmentBoundsForAttributes:location:textContainer:proposedLineFragment:position:"
++ "attachmentConfigOverride"
++ "attachmentView"
++ "attribute:atIndex:longestEffectiveRange:inRange:"
++ "attributedString"
++ "attributedTitle"
++ "attributesAtIndex:longestEffectiveRange:inRange:"
++ "attributesByName"
++ "authEnvironment"
++ "awaitingPrompt"
++ "backgroundDecorationItemWithElementKind:"
++ "backgroundImageSizeForType:usingTraitCollection:"
++ "backgroundTaskIsRegistered"
++ "backwardScrollPaddle"
++ "barButtonItem"
++ "barSubtitleLabel"
++ "barTitleLabel"
++ "barZoomSlider"
++ "beach.umbrella.fill"
++ "beginBackgroundTaskWithName:expirationHandler:"
++ "beginUndoGrouping"
++ "beginUndoGrouping, level: %ld -> %ld"
++ "bgTask.setTaskCompleted"
++ "birthday.cake.fill"
++ "blurMaskView"
++ "blurredBackgroundView"
++ "bodyPlaceholder initialInputType "
++ "bodyPlaceholder initialInputType requestingWidgetFamily "
++ "book.closed.fill"
++ "books.vertical.fill"
++ "borderLayer"
++ "bottomConstraint"
++ "bottomSpacerView"
++ "boundarySupplementaryItemWithLayoutSize:elementKind:alignment:absoluteOffset:"
++ "boundarySupplementaryItems"
++ "brain.head.profile.fill"
++ "broadcastManualLockNotification"
++ "buildMenuWithBuilder:"
++ "building.columns.fill"
++ "builtInCameraItemTitle"
++ "button to open the invite in the Apple Invites app"
++ "button to open the song in the Music app"
++ "button to open the workout in Fitness"
++ "buttonWithMapView:"
++ "cachedImageRenders"
++ "calories"
++ "cameraPickerMenuShowCamera:"
++ "canBecomeFocused"
++ "canPasteItemProviders:"
++ "cancel:"
++ "cancelPreviousPerformRequestsWithTarget:selector:object:"
++ "candidateMetrics"
++ "canonicalMapRect:"
++ "canvasAssets"
++ "canvasDragInteraction"
++ "canvasInputType"
++ "canvasPlaceholder"
++ "canvasShowingFocusedEntry"
++ "canvasView"
++ "canvasViewDelegate"
++ "canvasViewDidBeginUsingTool:"
++ "canvasViewDidEndUsingTool:"
++ "canvasViewDidFinishRendering:"
++ "canvasViewDrawingDidChange:"
++ "canvasWidgetFamily"
++ "capHeight"
++ "cardAspectConstraint"
++ "cardHeightConstraint"
++ "cellFocusLogger"
++ "centerCoordinate"
++ "centerCoordinateDistance"
++ "centerItemGroups"
++ "centerItemIndex"
++ "centimeters"
++ "changeJournal:"
++ "changeSortOrderFrom:"
++ "character.textbox"
++ "checkForRecentiCloudLogout - 1.User is Not Logged in. 2. Has user logged in recently: %{bool}d"
++ "checkForRecentiCloudLogout - User is loggedIn, ignoring"
++ "chevron.compact.backward"
++ "chevron.compact.forward"
++ "chooseCustomDate:"
++ "circle.hexagonpath"
++ "closeTapped"
++ "closestPositionToPoint:"
++ "colorData"
++ "colorNamed:"
++ "colorPickerViewController:didSelectColor:continuously:"
++ "colorPickerViewControllerDidFinish:"
++ "colorPickerViewControllerDidSelectColor:"
++ "colorWithProminence:"
++ "com.apple.drawing"
++ "com.apple.fm.language.instruct_server_v1.journal_followup_prompts"
++ "com.apple.journal.JournalFollowUpPrompts"
++ "com.apple.journal.canvas-max-width"
++ "com.apple.journal.entrymenu"
++ "com.apple.journal.export"
++ "com.apple.journal.large"
++ "com.apple.journal.location.height"
++ "com.apple.journal.map.mode.height"
++ "com.apple.journal.notifications"
++ "com.apple.journal.peek"
++ "com.apple.journal.peek.collapsed"
++ "com.apple.journal.peek.location.height"
++ "com.apple.journal.settings"
++ "com.apple.journal.sharing"
++ "com.apple.journal.state"
++ "com.apple.journal.suggestions"
++ "com_apple_journal_entityType"
++ "com_apple_journal_entityType == entry"
++ "com_apple_journal_entryActivities"
++ "com_apple_journal_entryActivities == '"
++ "com_apple_journal_entryPlaces"
++ "com_apple_journal_entryPlaces == '"
++ "com_apple_journal_entryTokens"
++ "com_apple_journal_entryTokens == "
++ "com_apple_journal_isRecentlyDeleted"
++ "com_apple_journal_isRecentlyDeleted == 0"
++ "com_apple_journal_isRecentlyDeleted == 1"
++ "com_apple_journal_journalIDs"
++ "com_apple_journal_journalIDs == '"
++ "compareTo:"
++ "composeButtonSelected"
++ "confetti"
++ "confettiAsset"
++ "confettiBackgroundView"
++ "confettiView"
++ "configurationPreferringMonochrome"
++ "configurationWithActions:"
++ "contactBackgroundView"
++ "containerTraitCollection"
++ "contentBackgroundView"
++ "contentOffsetAdjustment"
++ "contentSizeAdjustment"
++ "contentTransform"
++ "contentViewController"
++ "contextualActionWithStyle:title:handler:"
++ "continueInBackground"
++ "countUnit"
++ "createExportZipArchive"
++ "createLocalCopyOfItem(withType:isolation:)"
++ "creatingFixedGroup"
++ "cup.and.saucer.fill"
++ "currentCSSuggestion"
++ "currentCanvas"
++ "currentContinuedProcessingTask"
++ "currentEntryListType"
++ "currentNSToolbarSection"
++ "currentProvider"
++ "currentResultsQuery"
++ "currentSuggestionAttributesQuery"
++ "currentToken"
++ "currentTokenCount"
++ "currentTokens"
++ "currentUser"
++ "currentlySelectedSearchTokenSet"
++ "customAttributeProvider"
++ "customDatePicker"
++ "customLeadingPadding"
++ "customTrailingPadding"
++ "darkBorderColor"
++ "dataManager"
++ "dataSourceDidChange:"
++ "datastack checkForProvisionedAppleAccount"
++ "dateFooterLabel"
++ "defaultGradientColors"
++ "defaultStatusBarHeight"
++ "delegateContinuation"
++ "delete location"
++ "deleteAllJournalEntriesAsync"
++ "deleteAllJournalEntryAsseFileAttachmentsAsync"
++ "deleteAllJournalEntryAssetsAsync"
++ "deleteAllSearchableItemsFromLegacyIndex"
++ "deleteButton"
++ "deleteEntry:"
++ "deleteEntryWithoutConfirmation:"
++ "deletedOnDate"
++ "deletedOnDate += 1 day"
++ "deletedOnDate -= 1 day"
++ "descender"
++ "deselectAllAnnotationsAnimated:"
++ "deselectAnnotation:animated:"
++ "destinationDirectoryURL"
++ "dictionaryWithValuesForKeys:"
++ "didFetchRecordZoneChanges"
++ "didMoveToSuperview"
++ "didMoveToView:"
++ "didMoveToWindow"
++ "didSelectGeotaggableItems:fromMapView:"
++ "didTapCancel"
++ "didTapDone"
++ "didTapMapModeSettingsButton"
++ "didUpdateFocusInContext:withAnimationCoordinator:"
++ "didUpdateNavBarOnWillDisplay"
++ "dismissPicker"
++ "dismissPicker - Dismissing %@."
++ "dismissPresentedMapModePicker"
++ "displayedCanvasControllerRef"
++ "displayedContentType"
++ "done"
++ "done:"
++ "doubleValueForUnit:"
++ "dragInteraction:item:willAnimateCancelWithAnimator:"
++ "dragInteraction:itemsForAddingToSession:withTouchAtPoint:"
++ "dragInteraction:itemsForBeginningSession:"
++ "dragInteraction:prefersFullSizePreviewsForSession:"
++ "dragInteraction:previewForCancellingItem:withDefault:"
++ "dragInteraction:previewForLiftingItem:session:"
++ "dragInteraction:session:didEndWithOperation:"
++ "dragInteraction:session:willAddItems:forInteraction:"
++ "dragInteraction:session:willEndWithOperation:"
++ "dragInteraction:sessionAllowsMoveOperation:"
++ "dragInteraction:sessionDidMove:"
++ "dragInteraction:sessionDidTransferItems:"
++ "dragInteraction:sessionForAddingItems:withTouchAtPoint:"
++ "dragInteraction:sessionIsRestrictedToDraggingApplication:"
++ "dragInteraction:sessionWillBegin:"
++ "dragInteraction:willAnimateLiftWithAnimator:session:"
++ "dragRange"
++ "draggedItemSize"
++ "drawing"
++ "drawingAsset"
++ "drawingCanvasDelegate"
++ "dropIndicator"
++ "dropInteraction:canHandleSession:"
++ "dropInteraction:concludeDrop:"
++ "dropInteraction:item:willAnimateDropWithAnimator:"
++ "dropInteraction:performDrop:"
++ "dropInteraction:previewForDroppingItem:withDefault:"
++ "dropInteraction:sessionDidEnd:"
++ "dropInteraction:sessionDidEnter:"
++ "dropInteraction:sessionDidExit:"
++ "dropInteraction:sessionDidUpdate:"
++ "dropTargetAttachments"
++ "duplicateEntry:"
++ "editButtonItem"
++ "editEntry:"
++ "editable"
++ "edited:range:changeInLength:"
++ "editingDidBegin"
++ "editingDidChange"
++ "editingDidEnd"
++ "effectCompositingColor:withMode:alpha:"
++ "effectForBlurEffect:style:"
++ "effectiveContentSize"
++ "elementWithUncachedProvider:"
++ "emoji"
++ "emoji.face.grinning"
++ "emojiLabel"
++ "emojiTextField"
++ "empty state title for when there are no locations in the entry"
++ "emptySuggestion"
++ "enableSelectJournalsMode"
++ "enableUserTrackingButton"
++ "enabled"
++ "endBackgroundTask:"
++ "endEditing:"
++ "endOfDocument"
++ "endUndoGrouping"
++ "endUndoGrouping, level: %ld -> %ld"
++ "enforceShowCompressedAssetGrid"
++ "entriesByMapPlace"
++ "entriesByMapPlaceSubscription"
++ "entriesByPhotoPlace"
++ "entriesByPhotoPlaceSubscription"
++ "entriesByRoutePlace"
++ "entriesByRoutePlaceSubscription"
++ "entriesDirectoryPath"
++ "entriesViewType"
++ "entryIDs"
++ "entryIds"
++ "entryIsDeletable"
++ "entryListType"
++ "entryMapEntriesDelegate"
++ "entryMapPipelineDelegate"
++ "entryObjectIDs"
++ "entryPlaceThresholdMeters"
++ "environment:stateDidChangeFromOldState:"
++ "error occurred while trying to automatically add current location: %@"
++ "error occurred while trying to stream current location: %@"
++ "evaluateWithObject:"
++ "every + full day name for {everyDayName} in the mid-sentence"
++ "export"
++ "exportAssetMetadataAsJSON"
++ "exportDirectlyToDestinationURL"
++ "exportDirectoryPath"
++ "export_timeline_menu_item"
++ "externalDataManager"
++ "face.smiling.inverse"
++ "feet"
++ "fetchPhoto(_:visitDurations:)"
++ "fetchedDatabaseChanges"
++ "fetchedRecordZoneChanges"
++ "figure.2.and.child.holdinghands"
++ "figure.and.child.holdinghands"
++ "figure.arms.open"
++ "figure.equestrian.sports"
++ "figure.ice.skating"
++ "figure.mind.and.body"
++ "figure.outdoor.cycle"
++ "figure.pool.swim"
++ "figure.roll.runningpace"
++ "figure.skiing.downhill"
++ "figure.strengthtraining.traditional"
++ "filterQueries"
++ "filteredSetUsingPredicate:"
++ "finalizedMetrics"
++ "find:"
++ "findInEntry:"
++ "finishOnPressingEscape"
++ "finishedTest:"
++ "fitnessapp://activity/"
++ "fixedSpaceItemOfWidth:"
++ "fixedSpacing:"
++ "flag.pattern.checkered"
++ "flexibleSpaceItem"
++ "flexibleSpacing:"
++ "flipsHorizontallyInOppositeLayoutDirection"
++ "focusAssetGrid:"
++ "focusCell:"
++ "focusCommand"
++ "focusGroupIdentifier"
++ "focusHeading"
++ "focusItemContainer"
++ "focusItemDeferralMode"
++ "focusedEntryUUID"
++ "followUpPrompt"
++ "fontDescriptorWithDesign:"
++ "footUnit"
++ "footerStackView"
++ "for a map, this string that a group of locations consists of one specific name and more places"
++ "formatted date and location for photos in the full screen viewer. ex: Monday, September 1 at 8:49am · Apple Park"
++ "formatting for a set of coordinates in the location picker when the user is offline and that is all the data we have about their location"
++ "formatting for a set of coordinates in the location picker when the user is offline and that is all the data we have about their location. latitude and longitude are positive so North and East are used"
++ "formatting for a set of coordinates in the location picker when the user is offline and that is all the data we have about their location. latitude is negative so South is used, longitude is negative so West is used."
++ "formatting for a set of coordinates in the location picker when the user is offline and that is all the data we have about their location. latitude is negative so South is used, longitude is positive so East is used."
++ "formatting for a set of coordinates in the location picker when the user is offline and that is all the data we have about their location. latitude is positive so North is used, longitude is negative so West is used."
++ "forwardScrollPaddle"
++ "forwardingTargetForSelector:"
++ "fractionCompleted"
++ "frameInView:"
++ "fullScreenAssetMargin"
++ "fullScreenAssets"
++ "fullScreenJournalAssetsDidChange"
++ "fullScreenJournalAssetsDidChange:"
++ "fullScreenMapCellDelegate"
++ "fullScreenMapListSheetDelegate"
++ "gamecontroller.fill"
++ "general"
++ "geotaggables"
++ "geotaggablesCount"
++ "getExtendedOnboardingFlowRefreshCompletionStatus:"
++ "getHTMLAnchoredAttachment error creating HTML export for %s %@"
++ "getMapItemWithCompletionHandler:"
++ "getMapItemsWithCompletionHandler:"
++ "glyphOrigin"
++ "gradientLabelPadding"
++ "gradientView"
++ "graduationcap.fill"
++ "gridAssets"
++ "gridAssetsAndSlimAsset"
++ "groupingLevel"
++ "hand.palm.facing.fill"
++ "hand.raised.palm.facing.fill"
++ "hand.thumbsup.fill"
++ "handleAssetSelection(at:)"
++ "handleBookmarkButtonTap"
++ "handleDeleteButtonTap"
++ "handleManualLock"
++ "handleMapTap"
++ "handleSpacePressed"
++ "hasItemConformingToTypeIdentifier:"
++ "hasRepresentationConformingToTypeIdentifier:fileOptions:"
++ "headerItem"
++ "heading"
++ "hiddenAssets"
++ "hideColumn:"
++ "horizontalBlurMarginPercentage"
++ "horizontalGroupWithLayoutSize:repeatingSubitem:count:"
++ "horizontalLayoutGuide"
++ "horizontalMargin"
++ "horizontalSizeClass"
++ "horizontalSizeClassDidChange"
++ "horizontalUncertainty"
++ "hostingIcon"
++ "hostingIndicatorView"
++ "hostingLabel"
++ "hostingStackView"
++ "hoverGesture"
++ "https://www.icloud.com/invites/"
++ "iCloud status available: %{bool}d"
++ "iCloud sync onboarding detail"
++ "iconHeightConstraint"
++ "iconImage"
++ "iconImageView"
++ "iconProvider"
++ "imageCache"
++ "imageForGeotaggable:ofSize:networkAccessAllowed:andCompletion:"
++ "imageWithHorizontallyFlippedOrientation"
++ "immediate"
++ "inchUnit"
++ "inches"
++ "indexPathsForSelectedItems"
++ "inheritedAnimationDuration"
++ "init(__contentsOfMarkdownFileAt:options:baseURL:)"
++ "init(__markdown:options:baseURL:)"
++ "init(__markdownString:options:baseURL:)"
++ "init(attachment:attributes:)"
++ "init(attributedString:)"
++ "init(collectionViewLayout:)"
++ "init(data:options:documentAttributes:)"
++ "init(fileURL:options:documentAttributes:)"
++ "init(frame:collectionViewLayout:)"
++ "init(frame:fixedPixelSize:drawingScale:layerFixedPixelSize:)"
++ "init(frame:sixChannelBlend:snapshotView:)"
++ "init(image:)"
++ "init(navigationBarClass:toolbarClass:)"
++ "init(rootViewController:)"
++ "init(string:)"
++ "init(string:attributes:)"
++ "init(url:options:documentAttributes:)"
++ "initWithActivityItems:applicationActivities:"
++ "initWithActivityType:"
++ "initWithAttachment:attributes:"
++ "initWithContainerID:options:"
++ "initWithContainerIdentifier:environment:"
++ "initWithContentsOfMarkdownFileAtURL:options:baseURL:error:"
++ "initWithCoordinate:"
++ "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:speed:timestamp:"
++ "initWithDataSource:"
++ "initWithDisplayName:handles:handleIdentifier:"
++ "initWithFileURL:options:documentAttributes:error:"
++ "initWithFrame:fixedPixelSize:drawingScale:layerFixedPixelSize:"
++ "initWithFrame:sixChannelBlend:snapshotView:"
++ "initWithGeoMapItem:isPlaceHolderPlace:"
++ "initWithIdentifier:title:subtitle:"
++ "initWithIdentifierString:"
++ "initWithKeyName:searchable:searchableByDefault:unique:multiValued:"
++ "initWithLayout:updatePlan:renderer:selectionHandler:"
++ "initWithLocalizedSuggestion:localizedDescription:iconImage:"
++ "initWithLocation:"
++ "initWithMapItemIdentifier:"
++ "initWithMarkdown:options:baseURL:error:"
++ "initWithMarkdownString:options:baseURL:error:"
++ "initWithMarkerFormat:options:"
++ "initWithName:protectionClass:bundleIdentifier:"
++ "initWithPatternImage:"
++ "initWithScene:"
++ "initWithStoreIDs:"
++ "initWithTabs:"
++ "initWithTextAttachment:position:"
++ "initWithTitle:image:identifier:viewControllerProvider:"
++ "initWithTraitCollection:informationDelegate:popoverImageType:popoverImageOptions:countLabelStyle:thumbnailLocationCurator:"
++ "initWithURL:options:documentAttributes:error:"
++ "initWithUserQueryString:userQueryContext:"
++ "initWithView:"
++ "initialDrawingCanvas"
++ "initialEntryListType"
++ "initialFetchStatus"
++ "initialInputType"
++ "initialSuggestions"
++ "innerProgress"
++ "inputAccessoryView"
++ "inputAssistantItem"
++ "inputDelegate"
++ "insertAnimatedTextPlaceholderAtLocation:numLines:"
++ "insertAttributedText:"
++ "insertChildMenu:atEndOfMenuForIdentifier:"
++ "insertChildMenu:atStartOfMenuForIdentifier:"
++ "insertSiblingMenu:afterMenuForIdentifier:"
++ "insertSiblingMenu:beforeMenuForIdentifier:"
++ "insertToken:atIndex:"
++ "inset.filled.topthird.rectangle"
++ "insetView"
++ "inspectorNavigationController"
++ "inspectorRootController"
++ "intelligenceBackgroundConfig"
++ "interTextSpacingLarge"
++ "interTextSpacingMedium"
++ "interTextSpacingSmall"
++ "interactions"
++ "interactivePopGestureRecognizer"
++ "invalidateDataSourceCounts"
++ "invalidateDetents"
++ "invalidateEverything"
++ "invalidateFullScreenLayoutAttributes"
++ "invalidateItemsAtIndexPaths:"
++ "invalidateLayoutForRange:"
++ "invalidateLayoutWithContext:"
++ "invalidateRenderingAttributesForTextRange:"
++ "invalidationContextClass"
++ "invalidationContextForBoundsChange:"
++ "invalidationContextForPreferredLayoutAttributes:withOriginalAttributes:"
++ "isAppleAccountLoggedIn: %{bool}d \nisDataclassProvisioned: %{bool}d \nisDataclassEnabled: %{bool}d"
++ "isCardView"
++ "isCollapsed"
++ "isCompactLayout"
++ "isDecelerating"
++ "isDescendantOfView:"
++ "isEmpty"
++ "isEngineFetching"
++ "isEngineSending"
++ "isFinalDisappearance"
++ "isFixingAttributes"
++ "isFullWidth"
++ "isHost"
++ "isImageMirrored"
++ "isIndexing"
++ "isInitialAppearance"
++ "isMacCatalystApp"
++ "isMovingFromParentViewController"
++ "isNavigationBarHidden"
++ "isPageViewControllerInTransition"
++ "isPresentedInPopover"
++ "isProtectedDataAvailable false"
++ "isProtectedDataAvailable: false"
++ "isScrollAnimating"
++ "isSet"
++ "isToolbarHidden"
++ "isTracking"
++ "isTrackingObserver"
++ "isUserInteractionEnabled"
++ "isVisible"
++ "isWork"
++ "item"
++ "itemLayoutAttributes"
++ "jouleUnit"
++ "jouleUnitWithMetricPrefix:"
++ "joules"
++ "journalIDsToAdd"
++ "journalIDsToRemove"
++ "journalListEntry"
++ "journalListHeader"
++ "journal_performWithSender:"
++ "journaledDaysGradientColors"
++ "journaling.FollowUpPrompts"
++ "journals"
++ "journalsToAdd"
++ "journalsToRemove"
++ "joystickcontroller.fill"
++ "jumpToSelection"
++ "kCFAllocatorNull"
++ "key.horizontal.fill"
++ "keyCommandWithInput:modifierFlags:action:"
++ "keyCommands"
++ "kilocalorieUnit"
++ "kilojoules"
++ "kilometers"
++ "label that the user was the host of the Apple Invite event"
++ "labelBottomMarginXXLarge"
++ "labelConfetti"
++ "labelMarginMedium"
++ "labelMarginXLarge"
++ "labelMarginXXLarge"
++ "labelMarginXXXLarge"
++ "labelStackView"
++ "largeCalorieUnit"
++ "largeSemiBoldFont"
++ "lastAppliedContentSize"
++ "lastDisplayedContentType"
++ "lastPickerPresentationStyle"
++ "lastReportedData"
++ "lastSelectedCellPath"
++ "lastSelectedCellTime"
++ "layout"
++ "layoutFrame"
++ "layoutGuide"
++ "layoutMargins"
++ "layoutMarginsDidChange"
++ "leadingConstraint"
++ "leadingItemGroups"
++ "leftAnchor"
++ "lightBorderColor"
++ "lightbulb.max.fill"
++ "lineHeight"
++ "list.bullet.clipboard.fill"
++ "listType"
++ "loadDataRepresentation(for:isolation:)"
++ "loadImage(asset:)"
++ "loadObject(of:isolation:)"
++ "localNotificationsTask"
++ "localizedAttributedSuggestion"
++ "localizedDescription"
++ "localizedSuggestion"
++ "locationList"
++ "locationMapPinsStore"
++ "locationPickerController"
++ "locationPinRenderer"
++ "locationUpdatesTask"
++ "locationsDataSource"
++ "lockJournal"
++ "lockJournal.DisabledHeader.AppProtection.Detail"
++ "lockJournal.DisabledHeader.UnsecuredDevice.Detail"
++ "lockJournalEnabledFooter"
++ "lockSettingsVM"
++ "lockUnDeletedObjects"
++ "long.text.page.and.pencil.fill"
++ "longDateString"
++ "macbook.and.ipad"
++ "mainSystem"
++ "map asset is a large map tile visible in the asset grid of the entry"
++ "map asset is a small, slim asset in the entry"
++ "map asset is not visible in the entry"
++ "mapController"
++ "mapController:didFinishExecutingPipelines:"
++ "mapController:didStartExecutingPipelines:"
++ "mapFallbackIcon"
++ "mapModeSettingsButton"
++ "mapNeedsUpdate"
++ "mapOptionsView"
++ "mapRegionDidChange:"
++ "mapSectionIsHidden"
++ "mapType"
++ "mapViewDidFinishRendering:"
++ "markAllJournalEntriesNotUploadedAsync - entries"
++ "markAllJournalEntryAssetsNotUploadedAsync"
++ "maskedBlurView"
++ "maxMetricsShown"
++ "maxPrompts"
++ "maximumValueImageRectForBounds:"
++ "maximumZoomScale"
++ "mediumDetent"
++ "mediumTall"
++ "mergeByPropertyObjectTrumpMergePolicy"
++ "mergeableAttributes"
++ "mergeableString"
++ "message.and.message.fill"
++ "metadataButton"
++ "meterUnit"
++ "meterUnitWithMetricPrefix:"
++ "metrics"
++ "metricsProvider"
++ "mileUnit"
++ "miles"
++ "millimeters"
++ "minimalEncompassingMapRect"
++ "minimumEdgeInsets"
++ "minimumValueImageRectForBounds:"
++ "minimumZoomScale"
++ "minus.magnifyingglass"
++ "minuteUnit"
++ "mirroredImageView"
++ "mkMapItem"
++ "moveFocusBackCtrlCommand"
++ "moveFocusBackShiftCommand"
++ "movieclapper.fill"
++ "multicolor_button"
++ "multipleJournals"
++ "multiplier"
++ "music.microphone"
++ "musicBackgroundView"
++ "mutableAttributedString"
++ "muteUnmuteButton"
++ "navBarHeight"
++ "navigateToFullScreenAssetViewer(for:selectedAssetPath:)"
++ "navigateToNextDay"
++ "navigateToPreviousDay"
++ "navigationBar:didPopItem:"
++ "navigationBar:didPushItem:"
++ "navigationBar:shouldPopItem:"
++ "navigationBar:shouldPushItem:"
++ "navigationBarNSToolbarSection:"
++ "needsToRemoveSelection"
++ "neverShowEntryTitle"
++ "new journal button in the sidebar"
++ "newUndoGroup"
++ "nextFocusedIndexPath"
++ "nextFocusedItem"
++ "nextFocusedView"
++ "nextObject"
++ "none"
++ "normalizedPosition"
++ "notNow"
++ "notificationSettings"
++ "numberOfEntries"
++ "observableListViewModel"
++ "observer"
++ "onAppUnlockedWithNotification:"
++ "onControllerEnvironmentChanges"
++ "onDone"
++ "onTap"
++ "onToggleHudGestureRecognized:"
++ "onboardingIncomplete"
++ "onboardingSettingsViewControllerDidTapDoneButton:"
++ "onlyShowMomentEntry"
++ "opaqueColor"
++ "openInMapsWithLaunchOptions:"
++ "opening undo group before registerUndo"
++ "operatingSystemVersion"
++ "overflowPresentationSource"
++ "owningView"
++ "pageViewController"
++ "paintbrush.pointed.fill"
++ "paintpalette.fill"
++ "panGestureRecognizer"
++ "paperCanvasDelegate"
++ "paperKitView"
++ "paperKitViewController"
++ "paragraphContentRange"
++ "parentFocusEnvironment"
++ "parentVC"
++ "party.popper.fill"
++ "path"
++ "pencil.and.ruler.fill"
++ "pencil.and.scribble"
++ "pencil.circle.fill"
++ "pencil.tip.crop.circle"
++ "pencil.tip.crop.circle.fill"
++ "pendingCenterIndexPath"
++ "pendingContentTypeRequest"
++ "pendingContentTypeTask"
++ "pendingScrollRequest"
++ "pendingSyncEngineStateTokenMutex"
++ "performPrimaryAction"
++ "performSelector:withObject:afterDelay:"
++ "permissionDenied"
++ "permissionDeniedHeightConstraint"
++ "persistentStoresDidChange:"
++ "pianokeys.inverse"
++ "pickerPeekDetentFraction"
++ "pickerTitle"
++ "pin.point.of.interest.2"
++ "pinPipeline"
++ "pipelineComponentProvider"
++ "pitchButton"
++ "pitchButtonWithMapView:"
++ "placeMark"
++ "placeholderImageView"
++ "placementView"
++ "places"
++ "platterLabelPadding"
++ "platterPadding"
++ "platterStackView"
++ "playbackControlsContainer"
++ "playbackDelegate"
++ "plus.circle.fill"
++ "plus.magnifyingglass"
++ "plusTapped"
++ "podcastBackgroundView"
++ "popToRootViewControllerAnimated:"
++ "popoverPresentationController"
++ "popoverPresentationController:willRepositionPopoverToRect:inView:"
++ "popoverPresentationControllerDidDismissPopover:"
++ "popoverPresentationControllerShouldDismissPopover:"
++ "preferredFocusEnvironments"
++ "preferredFocusedView"
++ "preferredLayoutAttributesFittingAttributes:"
++ "preferredRatioSize"
++ "preferredSizes"
++ "preferredWindowingControlStyleForScene:"
++ "prefersMapFocused"
++ "prefersWindowTitleVisible"
++ "prefersWindowTitleVisibleObserver"
++ "prepareForPopoverPresentation:"
++ "presentAlertForAssetReplacement()"
++ "presentAlertForEmptyButHasUserHiddenAssets()"
++ "presentCanvasAssetsFullAlert(forIncomingAssetType:)"
++ "presentCanvasContainsReflectionAlert()"
++ "presentCanvasTruncateSuggestionAlert(withTotal:andTruncated:)"
++ "presentDialogToShareFile(_:from:)"
++ "presentExport"
++ "presentMovePicker"
++ "presentPicker - Presenting %@ w/ inspector presentation."
++ "presentPicker - Presenting %@ w/ sheet presentation (expandable=%{bool}d)."
++ "presentPicker - Presenting %@ w/o presentation style."
++ "presentPrintViewController"
++ "presentToSaveFileURL(url:from:)"
++ "presentationSourceItem"
++ "presentedEntryTimeline"
++ "presentedFullScreenController"
++ "presentedLocationsListNavigationController"
++ "presentedMapModePickerNavigationController"
++ "presetColors"
++ "previewBorderLayer"
++ "previousSizeClass"
++ "previouslyDismissed"
++ "previouslyFocusedIndexPath"
++ "previouslyFocusedItem"
++ "primaryNavigationController"
++ "primaryViewControllerForCollapsingSplitViewController:"
++ "primaryViewControllerForExpandingSplitViewController:"
++ "printHTML"
++ "printMultiplePDFs"
++ "printOnePDF"
++ "printablePageFileName"
++ "printedAssetSize"
++ "privacy.handshake"
++ "progressObservation"
++ "prompt id "
++ "promptTemplate"
++ "promptTextView"
++ "propertyList"
++ "protectedDataWillBecomeUnavailable:"
++ "protectionClass"
++ "puzzlepiece.extension.fill"
++ "px_extendedTraitCollection"
++ "q24@0:8@\"<PXPlacesGeotaggable>\"16"
++ "q24@0:8@\"UINavigationBar\"16"
++ "q24@0:8@\"UISplitViewController\"16"
++ "q32@0:8@\"UISplitViewController\"16q24"
++ "quaternarySystemFillColor"
++ "query"
++ "queryString"
++ "quotelevel.square.fill"
++ "r"
++ "rainbowWheelImageView"
++ "receivedNotification:"
++ "recentSearchLabel"
++ "recentSearches"
++ "recentSearchesKey"
++ "recentSearchesManager"
++ "rectangle.stack.badge.plus"
++ "redo:"
++ "refreshNotificationSettings"
++ "registerClass:forDecorationViewOfKind:"
++ "registerForTaskWithIdentifier:usingQueue:launchHandler:"
++ "registering redo (%s)"
++ "reloadInputViews"
++ "removeAction:forControlEvents:"
++ "removeAllActions"
++ "removeAnimatedTextPlaceholders"
++ "removeFromSuperlayer"
++ "removeItems:"
++ "removeLayoutGuide:"
++ "removeMenuForIdentifier:"
++ "renderer"
++ "replaceAnimatedTextPlaceholderWith:"
++ "replaceChildrenOfMenuForIdentifier:fromChildrenBlock:"
++ "replaceMenuForIdentifier:withMenu:"
++ "requireGestureRecognizerToFail:"
++ "requirePasscode"
++ "resetAnimation"
++ "resizableAttachmentView"
++ "resizeDelegate"
++ "resizeHandleHitSize"
++ "resizeHandleSideConstraint"
++ "resizeHandleView"
++ "resizePanGestureRecognizer"
++ "resizingViewBeginSize"
++ "resourcesDirectoryPath"
++ "response"
++ "restorableNavigation"
++ "resumePipelines:"
++ "richTextFormatPicker"
++ "rightAnchor"
++ "rightBarButtonItem"
++ "rootController"
++ "routeBackgroundView"
++ "routePinRenderer"
++ "runTest:options:"
++ "safeAreaInsetsDidChange"
++ "saveIfNeeded"
++ "saveToDirectoryFilename"
++ "saveToPhotos"
++ "saveToPhotosFooter"
++ "sceneDidActivate"
++ "sceneDidBecomeVisible:"
++ "scribbleInteraction:shouldBeginAtLocation:"
++ "scribbleInteractionDidFinishWriting:"
++ "scribbleInteractionShouldDelayFocus:"
++ "scribbleInteractionWillBeginWriting:"
++ "scrollBackward"
++ "scrollForward"
++ "scrollPositionUpdateSeed"
++ "searchBarIsFirstResponder"
++ "searchCompleter"
++ "searchController"
++ "searchResults"
++ "searchSession"
++ "searchSuggestionItemMap"
++ "second bullet point of onboarding."
++ "secondaryNavigationController"
++ "secondarySystemFillColor"
++ "sectionOrderedByDeletedDateGroupingString"
++ "selectAll:"
++ "selectItemAtIndexPath:animated:scrollPosition:"
++ "selectedColorView"
++ "selectedEmojiLabel"
++ "selectedGeotaggablesForRenderable:mapView:"
++ "selectedSuggestionID"
++ "selectedSymbolImageView"
++ "selectedVisitAssetID"
++ "selectionHandler"
++ "selectionRingMaskLayer"
++ "selectionShapeLayer"
++ "self.promptTemplate"
++ "sentDatabaseChanges"
++ "sentRecordZoneChanges"
++ "separator in a list of items"
++ "setAction:"
++ "setActionName:"
++ "setAdditionalOverflowItems:"
++ "setAllowsFocus:"
++ "setAllowsFullScreen:"
++ "setAllowsMultipleSelection:"
++ "setAllowsMultipleSelectionDuringEditing:"
++ "setAllowsSelection:"
++ "setAllowsSelectionDuringEditing:"
++ "setAttachmentTypes:"
++ "setAuthors:"
++ "setBackAction:"
++ "setBackButtonDisplayMode:"
++ "setBackButtonTitle:"
++ "setBackgroundStyle:"
++ "setBouncesVertically:"
++ "setBuiltInCameraItemTitle:"
++ "setCanActivateForTargetContentIdentifierPredicate:"
++ "setCanResizeToFitContent:"
++ "setChangeDelegate:"
++ "setClearButtonMode:"
++ "setClearsSelectionOnViewWillAppear:"
++ "setCompletionWithItemsHandler:"
++ "setConfigurationUpdateHandler:"
++ "setContentAlignmentPoint:"
++ "setContentInsetsReference:"
++ "setContentOffsetAdjustment:"
++ "setContentSizeAdjustment:"
++ "setCurrentExportOptions:"
++ "setCustomView:"
++ "setDecorationItems:"
++ "setDeletedOnDate:"
++ "setDisplayModeButtonVisibility:"
++ "setDragInteractionEnabled:"
++ "setDrawingEnabled:"
++ "setDrawingPolicy:"
++ "setEarliestBeginDate:"
++ "setEdgeSpacing:"
++ "setEditing:"
++ "setEligibleForPhotosProcessing:"
++ "setEnableSuggestionTokens:"
++ "setEnableUserTrackingButton:"
++ "setExcludedActivityTypes:"
++ "setExpirationHandler:"
++ "setFetchAttributes:"
++ "setFilterQueries:"
++ "setFocusEffect:"
++ "setFocusGroupPriority:"
++ "setGeotaggables:"
++ "setGlyphImage:"
++ "setGlyphText:"
++ "setHidesBackButton:"
++ "setHidesBackButton:animated:"
++ "setHorizontalClusteringDistancePixels:"
++ "setImageCache:"
++ "setIndicatorImage:forPage:"
++ "setInputAccessoryView:"
++ "setInterItemSpacing:"
++ "setInteractiveDismissShouldBegin:"
++ "setKeyboardType:"
++ "setLargeTitleDisplayMode:"
++ "setLatitude:"
++ "setLeadingItemGroups:"
++ "setLeftBarButtonItems:animated:"
++ "setLeftItemsSupplementBackButton:"
++ "setLineDashPattern:"
++ "setLineWidth:"
++ "setLongitude:"
++ "setMaskView:"
++ "setMaxSuggestionCount:"
++ "setMaximumValueImage:"
++ "setMergeableAttributes:"
++ "setMiniaturizable:"
++ "setMinimumHeight:"
++ "setMinimumSize:"
++ "setMinimumValueImage:"
++ "setNamedLocation:"
++ "setNavigationBarHidden:animated:"
++ "setNeedsDropPreviewUpdate"
++ "setNeedsFocusUpdate"
++ "setNeedsUpdateConstraints"
++ "setOptionCallerName:"
++ "setPasteConfiguration:"
++ "setPerformsFirstActionWithFullSwipe:"
++ "setPinnedTrailingGroup:"
++ "setPipelineComponentProvider:"
++ "setPitchButtonVisibility:"
++ "setPreferredBehavioralStyle:"
++ "setPreferredHeight:"
++ "setPreferredSearchBarPlacement:"
++ "setPreferredStyle:"
++ "setPreferredSymbolConfiguration:forImageInState:"
++ "setPreferredTransition:"
++ "setPrefersEdgeAttachedInCompactHeight:"
++ "setPrefersScrollingExpandsWhenScrolledToEdge:"
++ "setPreviewProvider:"
++ "setPrimaryBackgroundStyle:"
++ "setProtectionClasses:"
++ "setProviderDataTypes:"
++ "setProviderFileTypes:"
++ "setRenderer:"
++ "setRichLinkURL:"
++ "setRole:"
++ "setRotationBy:"
++ "setScrollsToTop:"
++ "setSearchController:"
++ "setSearchSuggestions:"
++ "setSelectedTab:"
++ "setSelectedTextRange:"
++ "setSelectionDelegate:"
++ "setSelectionFollowsFocus:"
++ "setSelectionHandler:"
++ "setSeverity:"
++ "setShowsCompass:"
++ "setSourceItem:"
++ "setStateDelegate:"
++ "setStatedata:"
++ "setStrokeColor:"
++ "setSuggestedName:"
++ "setSupportsAlpha:"
++ "setSupportsAnchoredTextAttachments:"
++ "setSymbolConfiguration:"
++ "setTaskCompletedWithSuccess:"
++ "setTextContainer:"
++ "setTextContent:"
++ "setTextDragDelegate:"
++ "setTextDropDelegate:"
++ "setTextStorage:"
++ "setTitleTextAttributes:"
++ "setToolTip:"
++ "setToolbarHidden:"
++ "setToolbarHidden:animated:"
++ "setToolbarItems:"
++ "setToolbarItems:animated:"
++ "setTouchIDAuthenticationAllowableReuseDuration:"
++ "setTracksTextAttachmentViewBounds:"
++ "setTrailingBarButtonGroups:"
++ "setTrailingItemGroups:"
++ "setUserActivity:"
++ "setUsesEvenOddFillRule:"
++ "setValue:forCustomKey:"
++ "setVerticalClusteringDistancePixels:"
++ "setViewController:forColumn:"
++ "setViewControllers:"
++ "setViewControllers:animated:"
++ "setViewRespectsSystemMinimumLayoutMargins:"
++ "setVisibility:"
++ "setVisible:forFirstResponder:"
++ "setVisibleDateComponents:"
++ "setVisibleMapRect:animated:"
++ "setWantsPriorityOverSystemBehavior:"
++ "setWeakRelatedUniqueIdentifier:"
++ "setWidthFollowsPreferredContentSizeWhenEdgeAttached:"
++ "setWindowScene:"
++ "setWritableTypeIdentifiersForItemProvider:"
++ "set_recedesPresentingView:"
++ "settings-navigation://com.apple.Settings"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.journal"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.journal/NOTIFICATIONS"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.journal/lockJournal"
++ "settings-navigation://com.apple.Settings.Notifications/com.apple.journal/custom"
++ "settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/custom"
++ "settings-navigation://com.apple.Settings.PrivacyAndSecurity/JOURNALING_SUGGESTIONS"
++ "shapeLayer"
++ "sharedScheduler"
++ "shortDateString"
++ "shouldDeleteEntryOnDismiss"
++ "shouldInvalidateLayoutForPreferredLayoutAttributes:withOriginalAttributes:"
++ "shouldKeepDataAfterLoggingOut(vc:)"
++ "shouldRecordExtendedLaunchTime"
++ "shouldShowTTRAlert"
++ "shouldUpdateFocusInContext:"
++ "showActionSheet:"
++ "showAnnotations:animated:"
++ "showAudioPickerFromKeyboardShortcut"
++ "showCameraMenuIfNeeded:"
++ "showCameraPicker"
++ "showCameraPickerMenuWithSourceItem:window:"
++ "showColumn:"
++ "showConfirmDeletionDialog(entries:presentingController:sourceItem:)"
++ "showConfirmPermanentDeletionDialog(entries:presentingController:sourceItem:)"
++ "showConfirmPermanentDeletionOfAllEntriesDialog(presentingController:sourceItem:)"
++ "showLocationPickerFromKeyboardShortcut"
++ "showMacNotificationsSettings:"
++ "showMacSettings:"
++ "showPhotoPicker"
++ "showPlaybackControls"
++ "showSuggestionPickerFromKeyboardShortcut"
++ "showTimeLabels"
++ "showToolbarButton"
++ "showViewController:sender:"
++ "showingWidgetPrompts"
++ "sidebarController"
++ "signpost.right.and.left.fill"
++ "sizeRestrictions"
++ "smallCalorieUnit"
++ "snapToValidSize"
++ "sortByMomentDateFooter"
++ "soundIdentifierForFocusUpdateInContext:"
++ "sourceItem"
++ "sourceView"
++ "sourceViewController"
++ "spacingForLeading:top:trailing:bottom:"
++ "sparkles.tv.fill"
++ "splitView"
++ "splitViewController"
++ "splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:"
++ "splitViewController:didHideColumn:"
++ "splitViewController:didShowColumn:"
++ "splitViewController:displayModeForExpandingToProposedDisplayMode:"
++ "splitViewController:popoverController:willPresentViewController:"
++ "splitViewController:separateSecondaryViewControllerFromPrimaryViewController:"
++ "splitViewController:shouldHideViewController:inOrientation:"
++ "splitViewController:showDetailViewController:sender:"
++ "splitViewController:showViewController:sender:"
++ "splitViewController:topColumnForCollapsingToProposedTopColumn:"
++ "splitViewController:willChangeToDisplayMode:"
++ "splitViewController:willHideColumn:"
++ "splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"
++ "splitViewController:willShowColumn:"
++ "splitViewController:willShowViewController:invalidatingBarButtonItem:"
++ "splitViewControllerDidCollapse:"
++ "splitViewControllerDidExpand:"
++ "splitViewControllerInteractivePresentationGestureDidEnd:"
++ "splitViewControllerInteractivePresentationGestureWillBegin:"
++ "splitViewControllerPreferredInterfaceOrientationForPresentation:"
++ "splitViewControllerSupportedInterfaceOrientations:"
++ "sportscourt.fill"
++ "spotlightIndexVersionKey"
++ "square.and.arrow.up.on.square"
++ "stackLeadingConstraint"
++ "stackTrailingConstraint"
++ "stackView"
++ "startAccessingSecurityScopedResource to destinationDirectoryURL: %s, response: %{bool}d"
++ "startExport:"
++ "startExportDebug:"
++ "startExportDemo:"
++ "startPrintDebug:"
++ "startingItemNumber"
++ "stateOfMindBackgroundView"
++ "stateOfMindFallbackIcon"
++ "stateRestorationActivity"
++ "stateToRestore"
++ "statedata"
++ "store"
++ "streakGradientColors"
++ "stringAttributes"
++ "submitTaskRequest:error:"
++ "subtitle for when there are no locations in the journal entry"
++ "suggestionItem"
++ "suggestionPicker"
++ "suggestionSheetPresentationState"
++ "suggestionTokens"
++ "suggestionWithCurrentSuggestion:userQueryString:suggestionText:queryString:"
++ "supportsMoveAnimations"
++ "suspendPipelines"
++ "swirl.circle.righthalf.filled"
++ "switchConfetti"
++ "symbolIconSections"
++ "syncEngineDelegate"
++ "syncenginedelegate"
++ "system"
++ "systemGray3Color"
++ "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
++ "systemProtectionDidChange:"
++ "tabForIdentifier:"
++ "takeoutbag.and.cup.and.straw.fill"
++ "tapToDismissRecognizer"
++ "targetContentOffsetForProposedContentOffset:"
++ "targetContentOffsetForProposedContentOffset:withScrollingVelocity:"
++ "targetDisplayModeForActionInSplitViewController:"
++ "text.document.fill"
++ "textAttachment"
++ "textDidChange:"
++ "textDraggableView:dragPreviewForLiftingItem:session:"
++ "textDraggableView:dragSessionDidEnd:withOperation:"
++ "textDraggableView:dragSessionWillBegin:"
++ "textDraggableView:itemsForDrag:"
++ "textDraggableView:willAnimateLiftWithAnimator:session:"
++ "textDroppableView:dropSessionDidEnd:"
++ "textDroppableView:dropSessionDidEnter:"
++ "textDroppableView:dropSessionDidExit:"
++ "textDroppableView:dropSessionDidUpdate:"
++ "textDroppableView:previewForDroppingAllItemsWithDefault:"
++ "textDroppableView:proposalForDrop:"
++ "textDroppableView:willBecomeEditableForDrop:"
++ "textDroppableView:willPerformDrop:"
++ "textField"
++ "textField:editMenuForCharactersInRange:suggestedActions:"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:insertInputSuggestion:"
++ "textField:shouldChangeCharactersInRange:replacementString:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textField:willDismissEditMenuWithAnimator:"
++ "textField:willPresentEditMenuWithAnimator:"
++ "textFieldDidBeginEditing:"
++ "textFieldDidChangeSelection:"
++ "textFieldDidEndEditing:"
++ "textFieldDidEndEditing:reason:"
++ "textFieldHeightConstraint"
++ "textFieldObserver"
++ "textFieldShouldBeginEditing:"
++ "textFieldShouldClear:"
++ "textFieldShouldEndEditing:"
++ "textFieldShouldReturn:"
++ "textInputView"
++ "textRangeFromPosition:toPosition:"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "textViewFocusDelegate"
++ "textWillChange:"
++ "theatermasks.fill"
++ "third bullet point of onboarding."
++ "thirdPartyMediaAsset"
++ "thumbnailRenderer"
++ "timeLabelContainer"
++ "timelineDelegate"
++ "timespan"
++ "title for when a workout route pin is in the map view"
++ "title string of a map combined with two part addresses. ex: {San Francisco County}, {California}"
++ "titleButton"
++ "toggleBlockQuote:"
++ "toggleBookmark"
++ "toggleEditing"
++ "toggleFontPanel:"
++ "toggleMuted"
++ "toggleStrikethrough:"
++ "toggleTextListFormatting:"
++ "toggleTitleVisibility:"
++ "toggleToolbarShown:"
++ "tokenGenerator"
++ "tokenIdentifier"
++ "tokenKind"
++ "toolPicker"
++ "toolPickerFramesObscuredDidChange:"
++ "toolPickerIsRulerActiveDidChange:"
++ "toolPickerSelectedToolDidChange:"
++ "toolPickerSelectedToolItemDidChange:"
++ "toolPickerVisibilityDidChange:"
++ "toolbarItems"
++ "topAccessoryLeftConstraint"
++ "topAccessoryRightConstraint"
++ "topConstraint"
++ "topContainer"
++ "total number of locations in the list that are truncated"
++ "total overflow "
++ "totalUnitCount"
++ "touchDetectionDelegate"
++ "touchesBegan:withEvent:"
++ "trackRectForBounds:"
++ "trackingConfig"
++ "trailingConstraint"
++ "trailingItemGroups"
++ "transcriptWaitingView"
++ "transitionFromView:toView:duration:options:completion:"
++ "ttrErrorDescription"
++ "turnOnSync"
++ "turnOniCloudButtonTapped"
++ "type id "
++ "undo:"
++ "undoManagerNotificationWithNotification:"
++ "undoable (%s)"
++ "uniformAcrossSiblingsWithEstimate:"
++ "unitDividedByUnit:"
++ "unknownAssetView"
++ "updateAndApplyEntryCountWithNotification:"
++ "updateConstraints"
++ "updateFocusIfNeeded"
++ "updatePlan"
++ "updateRolloverActive:"
++ "updateTitle"
++ "updateTitle:subtitle:"
++ "updateUndoRedoItems"
++ "updateUserActivityState:"
++ "updateViewConstraints"
++ "updatedSuggestionWithCurrentSuggestion:userString:tokens:"
++ "updating asset placement"
++ "urls wright Queue"
++ "useCaseIdentifier"
++ "userActivity"
++ "userInterfaceIdiom"
++ "userLocationButton"
++ "userPassword"
++ "userQueryContextWithCurrentSuggestion:"
++ "v16@?0@\"BGTask\"8"
++ "v16@?0@\"UIButton\"8"
++ "v16@?0Q8"
++ "v24@0:8@\"<MacCameraPickerMenuBridge>\"16"
++ "v24@0:8@\"<MacCameraPickerMenuBridgeDelegate>\"16"
++ "v24@0:8@\"<PXPlacesMapPipelineComponentProvider>\"16"
++ "v24@0:8@\"<UIMenuLeaf>\"16"
++ "v24@0:8@\"PKCanvasView\"16"
++ "v24@0:8@\"PKToolPicker\"16"
++ "v24@0:8@\"PXPlacesImageCache\"16"
++ "v24@0:8@\"PXPlacesMapController\"16"
++ "v24@0:8@\"UIColorPickerViewController\"16"
++ "v24@0:8@\"UICommand\"16"
++ "v24@0:8@\"UIPopoverPresentationController\"16"
++ "v24@0:8@\"UIScribbleInteraction\"16"
++ "v24@0:8@\"UISplitViewController\"16"
++ "v24@0:8@\"UITextField\"16"
++ "v24@0:8@\"UIView\"16"
++ "v24@0:8@\"_TtC28MomentsOnboardingAndSettings49MOSuggestionSheetOnboardingSettingsViewController\"16"
++ "v24@0:8B16B20"
++ "v24@?0@\"MKMapItem\"8@\"NSError\"16"
++ "v32@0:8@\"LAEnvironment\"16@\"LAEnvironmentState\"24"
++ "v32@0:8@\"NSOrderedSet\"16@\"PXPlacesMapView\"24"
++ "v32@0:8@\"PXPlacesMapController\"16@\"NSArray\"24"
++ "v32@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24"
++ "v32@0:8@\"UIDropInteraction\"16@\"<UIDropSession>\"24"
++ "v32@0:8@\"UIFocusUpdateContext\"16@\"UIFocusAnimationCoordinator\"24"
++ "v32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
++ "v32@0:8@\"UISplitViewController\"16q24"
++ "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
++ "v32@0:8@\"UITextField\"16q24"
++ "v32@0:8@\"UIView<UITextDraggable>\"16@\"<UIDragSession>\"24"
++ "v32@0:8@\"UIView<UITextDroppable>\"16@\"<UIDropSession>\"24"
++ "v32@0:8@\"UIView<UITextDroppable>\"16@\"<UITextDropRequest>\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v32@0:8{_NSRange=QQ}16"
++ "v32@?0@\"UIContextualAction\"8@\"UIView\"16@?<v@?B>24"
++ "v36@0:8@\"UIColorPickerViewController\"16@\"UIColor\"24B32"
++ "v36@?0@\"NSString\"8B16@\"NSArray\"20@\"NSError\"28"
++ "v40@0:8@\"UIDragInteraction\"16@\"<UIDragAnimating>\"24@\"<UIDragSession>\"32"
++ "v40@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24Q32"
++ "v40@0:8@\"UIDragInteraction\"16@\"UIDragItem\"24@\"<UIDragAnimating>\"32"
++ "v40@0:8@\"UIDropInteraction\"16@\"UIDragItem\"24@\"<UIDragAnimating>\"32"
++ "v40@0:8@\"UIPopoverPresentationController\"16N^{CGRect={CGPoint=dd}{CGSize=dd}}24N^@32"
++ "v40@0:8@\"UIScene\"16q24Q32"
++ "v40@0:8@\"UISplitViewController\"16@\"UIPopoverController\"24@\"UIViewController\"32"
++ "v40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIBarButtonItem\"32"
++ "v40@0:8@\"UIView<UITextDraggable>\"16@\"<UIDragAnimating>\"24@\"<UIDragSession>\"32"
++ "v40@0:8@\"UIView<UITextDraggable>\"16@\"<UIDragSession>\"24Q32"
++ "v40@0:8@16@24Q32"
++ "v40@0:8@16N^{CGRect={CGPoint=dd}{CGSize=dd}}24N^@32"
++ "v40@0:8@16q24Q32"
++ "v40@0:8{_NSRange=QQ}16@32"
++ "v48@0:8@\"UIDragInteraction\"16@\"<UIDragSession>\"24@\"NSArray\"32@\"UIDragInteraction\"40"
++ "v48@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIBarButtonItem\"32@\"UIPopoverController\"40"
++ "v48@0:8{UIEdgeInsets=dddd}16"
++ "v52@0:8@\"<PXPlacesGeotaggable>\"16{CGSize=dd}24B40@?<v@?@\"<PXPlacesGeotaggable>\"^{CGImage=}@\"NSError\"@\"NSDictionary\">44"
++ "v52@0:8@16{CGSize=dd}24B40@?44"
++ "validateCommand:"
++ "valueForCustomKey:"
++ "verticalBlurMarginPercentage"
++ "verticalGroupWithLayoutSize:subitems:"
++ "verticalLayoutGuide"
++ "verticalMargin"
++ "viewAllEntries:"
++ "viewAttributedString"
++ "viewControllerForColumn:"
++ "viewForAnnotation:andMapView:"
++ "viewInsights:"
++ "viewNamedJournal:"
++ "viewPannedWithSender:"
++ "viewPlaces:"
++ "viewRecentlyDeleted:"
++ "viewTappedWithSender:"
++ "visibleGeotaggableFromDataSource:"
++ "visibleMapRect"
++ "visitAssetID"
++ "visitAssetMetadata"
++ "visitsData"
++ "wand.and.rays.inverse"
++ "wantsBottomGradientMask"
++ "wantsCancelButton"
++ "waterbottle.fill"
++ "waveform.path.ecg.heart.fill"
++ "widgetPrompts"
++ "willBegin"
++ "willFetchChanges"
++ "willFetchRecordZoneChanges"
++ "willMoveToSuperview:"
++ "willMoveToView:"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "windowingBehaviors"
++ "wordCountGradientColors"
++ "workContext"
++ "workingDirectoryURL"
++ "wrench.and.screwdriver.fill"
++ "xLargeTall"
++ "yardUnit"
++ "yards"
++ "yearlyCreatedEntriesFallback"
++ "zoomIn:"
++ "zoomOut:"
++ "zoomReset:"
++ "zoomableDelegate"
++ "zoomedViewController"
++ "{CGPoint=dd}32@0:8{CGPoint=dd}16"
++ "{CGPoint=dd}48@0:8{CGPoint=dd}16{CGPoint=dd}32"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIView\"16"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}88@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGPoint=dd}72"
++ "{CGSize=dd}40@0:8{CGSize=dd}16f32f36"
++ "{UIEdgeInsets=dddd}16@0:8"
++ "{city name}, {state name}"
++ "{current page} of {total pages}"
++ "{date} · {location}"
++ "{date} · {page status}"
++ "{duration} · {date stamp} - Share sheet attachment subtitle"
++ "{location Title}, {location Subtitle}"
++ "{location name} and more"
++ "{longitude}° N, {longitude}° E"
++ "{longitude}° N, {longitude}° W"
++ "{longitude}° S, {longitude}° E"
++ "{longitude}° S, {longitude}° W"
++ "{map POI - Type of place} · {city}"
++ "⛔️ Deleting journal list item %s from snapshot"
++ "📖 Read hidden %{bool}d for sidebar item with key %s"
++ "📖 Read order %ld for sidebar item with key %s"
++ "📝 Wrote hidden %{bool}d for item with key %s"
++ "📝 Wrote order %ld for item with key %s"
++ "🔒 did show lock journal onboarding?"
++ "🔒 is lock on?"
++ "🚀 Backgrounded App Launch Count"
++ "🚀 Launch Count"
+- "\nDetected changes: "
+- "\nMigrated to Production: "
+- "\nPending Passed to engine: "
+- "\nSandbox Disk Usage (MB): \n"
+- "    <div class=\"reflectionPrompt reflectionType_"
+- "    @media print {\n        * {\n            -webkit-print-color-adjust: exact !important;\n        }\n    }\n\n    html * {\n        font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n\n    div.pagebreak { page-break-before: always; }\n\n    div.pageHeader {\n        font-weight: bold;\n        font-size: 12pt;\n        margin-bottom: 10pt;\n    }\n\n    div.title {\n        font-weight: bold;\n        font-size: 12pt;\n        margin: 0pt 6pt;\n    }\n\n    div.reflectionPrompt {\n        margin: auto;\n        margin-bottom: 10px;\n        padding: 12px;\n        border-radius: 4pt;\n        color: white;\n        font-weight: 600;\n        font-size: 10pt;\n    }\n    \n    div.reflectionType_1 {\n        background-color: #212438;\n    }\n\n    div.reflectionType_2 {\n        background-color: #DD5A58;\n    }\n\n    div.reflectionType_3 {\n        background-color: #DA8888;\n    }\n\n    div.reflectionType_4 {\n        background-color: #899CF7;\n    }\n\n    div.reflectionType_5 {\n        background-color: #736FAC;\n    }\n\n    div.reflectionType_6 {\n        background-color: #915072;\n    }\n\n    div.photoBanner {\n        font-weight: 600;\n        font-size: 10pt;\n        text-align: left;\n        margin: auto;\n        margin-bottom: 20px;\n        background-color: #5856d626;\n        padding: 10px;\n        border-radius: 4pt;\n    }\n\n    div.photoBanner img {\n        height: 25px;\n        vertical-align: middle;\n        padding-right: 5px;\n    }\n\n    div.container {\n        min-height: 100vh;\n        width: 80%;\n        margin: auto;\n    }\n\n    div.assetGrid {\n        display: grid;\n        grid-template-columns: repeat(4, minmax(0, 1fr));\n        gap: 4pt;\n        margin-bottom: 25pt;\n    }\n\n    div.gridItem {\n        width: 100%;\n        height: 100%;\n        aspect-ratio: 1 / 1;\n        position: relative;\n        border-radius: 4pt;\n    }\n    \n    img.asset_image {\n        object-fit: cover;\n        width: 100%;\n        height: 100%;\n        border-radius: 4pt;\n    }\n\n    .gridItem.fallback_asset {\n        background-color:"
+- " assets left over after deleting all entries!"
+- " height "
+- " recent places. Compled in "
+- " topTrailing bottomTrailing "
+- " unarchiveError="
+- " updates/refreshes:"
+- "$__lazy_storage_$_accessoryContainerView"
+- "$__lazy_storage_$_accessoryView"
+- "$__lazy_storage_$_accessoryViewForNavBar"
+- "$__lazy_storage_$_appStoreRatingManager"
+- "$__lazy_storage_$_bookmarkButton"
+- "$__lazy_storage_$_deleteButton"
+- "$__lazy_storage_$_editButton"
+- "$__lazy_storage_$_filtersView"
+- "$__lazy_storage_$_filtersViewForNavBar"
+- "$__lazy_storage_$_isNewEntry"
+- "$__lazy_storage_$_overflowButton"
+- "$__lazy_storage_$_overflowButtonForNavBar"
+- "$__lazy_storage_$_rootNavController"
+- "$__lazy_storage_$_searchButton"
+- "$__lazy_storage_$_searchButtonForNavBar"
+- "$__lazy_storage_$_syncSpinner"
+- "$__lazy_storage_$_syncSpinnerForNavBar"
+- "$__lazy_storage_$_textViewTapGesture"
+- "$__lazy_storage_$_timelineController"
+- "%@ %s Error copying file: %s"
+- "%@.getImageStoredInFile can't create image from %s"
+- "%K != nil AND %K > 0"
+- "%K = false AND %K = false AND %K in %@"
+- "%K == false OR %K == nil"
+- "%s (addAssetAsync) Asset already exists in self.assetsAll existingAsset:%@ self.assets:%s"
+- "%s (addAssetAsync) Asset already exists in self.assetsAll existingAsset:%@ self.assetsAll:%s"
+- "%s (addAssetAsync) Done adding asset to viewModel"
+- "%s WARNING: JournalEntryMO assets is nil"
+- "%s location manager is unable to retrieve a location: %@"
+- "%s.createImage | Failed to create CGImageSource with URL"
+- "%s:%ld (entry.isUploadedToCloud) == %{bool}d"
+- "%{public}s (accountChangedFromUserRecordID)"
+- "%{public}s (accountChangedFromUserRecordID) Database is not open, not ready to sync"
+- "%{public}s (accountChangedFromUserRecordID) Metadata is from different User"
+- "%{public}s (accountChangedFromUserRecordID) Metadata is from the same user."
+- "%{public}s (accountChangedFromUserRecordID) No userID registered"
+- "%{public}s (accountChangedFromUserRecordID) Sync Interruption in accountChangedFromUserRecordID"
+- "%{public}s (accountChangedFromUserRecordID) User is Logged OUT"
+- "%{public}s (accountChangedFromUserRecordID) User is Logged in"
+- "%{public}s (accountChangedFromUserRecordID) isProtectedDataAvailable false"
+- "%{public}s (accountChangedFromUserRecordID) newUserRecordID:%{private,mask.hash}s"
+- "%{public}s (accountChangedFromUserRecordID) oldUserRecordID:%{private,mask.hash}s"
+- "%{public}s (createNewJournalEntryAssetFileAttachmentFromRecord) ckAsset.fileURL is nil, probably delayed"
+- "%{public}s (createNewJournalEntryAssetFromRecord) Processing assetMetadataAsset parameter"
+- "%{public}s (createNewJournalEntryAssetFromRecord) Unable to get assetMetadataAsset error:%@ ckasset:%s"
+- "%{public}s (createNewJournalEntryAssetFromRecord) Unable to get parentReference for asset for a record: %@"
+- "%{public}s (createNewJournalEntryAssetFromRecord) ckAsset.fileURL is nil will be downloaded later"
+- "%{public}s (deleteObjectBy) id:%s)"
+- "%{public}s (didDeleteRecordWith) isProtectedDataAvailable false"
+- "%{public}s (didDeleteRecordWith) recordID:%@"
+- "%{public}s (didFetch)  recordID: %@ record: %s"
+- "%{public}s (didFetch) - RECORD_TYPE_JOURNAL_ENTRY"
+- "%{public}s (didFetch) - RECORD_TYPE_JOURNAL_ENTRY_ASSET"
+- "%{public}s (didFetch) - RECORD_TYPE_JOURNAL_ENTRY_ASSET_FILE_ATTACHMENT"
+- "%{public}s (didFetch) Changed JournalEntry, updating..."
+- "%{public}s (didFetch) Changed JournalEntryAsset, updating..."
+- "%{public}s (didFetch) Changed JournalEntryAssetFileAttachment, updating..."
+- "%{public}s (didFetch) Comparing local and remote dates local:%s remote:%s"
+- "%{public}s (didFetch) Conflict Detected. Local change is newer than remote"
+- "%{public}s (didFetch) New JournalEntry, creating..."
+- "%{public}s (didFetch) New JournalEntryAsset, creating..."
+- "%{public}s (didFetch) New JournalEntryAssetFileAttachment, creating..."
+- "%{public}s (didFetch) Unhandled Record Type %s"
+- "%{public}s (didFetch) record change tag: %s"
+- "%{public}s (didSave) - RECORD_TYPE_JOURNAL_ENTRY"
+- "%{public}s (didSave) - RECORD_TYPE_JOURNAL_ENTRY_ASSET"
+- "%{public}s (didSave) - RECORD_TYPE_JOURNAL_ENTRY_ASSET_FILE_ATTACHMENT"
+- "%{public}s (didSave) Unhandled Record Type %s"
+- "%{public}s (didSave) isProtectedDataAvailable false"
+- "%{public}s (didSave) record change tag: %s"
+- "%{public}s (didSave) recordID:%@ record:%s"
+- "%{public}s (didUpdateMetadata) MetadataPrint: %s"
+- "%{public}s (didUpdateMetadata) didUpdateMetadata: %s"
+- "%{public}s (didUpdateMetadata) isProtectedDataAvailable false"
+- "%{public}s (failedToDeleteRecordWith) recordID:%@ error: %@"
+- "%{public}s (failedToSave) recordID:%@ record:%s error:%@"
+- "%{public}s (fetchJournalEntryAssetFA) Unable to fetch asset file attachment by id: %@"
+- "%{public}s (fetchRemovedAssets) Unable to fetch removed asset: %@"
+- "%{public}s (getRecordFromId) context: %@"
+- "%{public}s (getRecordFromId) type: JournalEntry recordID:%s record:%s"
+- "%{public}s (getRecordFromId) type: JournalEntryAsset recordID:%s record:%s"
+- "%{public}s (getRecordFromId) type: JournalEntryAssetFileAttachment recordID:%s record:%s"
+- "%{public}s (getRecordFromJournalEntry) CKRecord Recreated from entry:\n%s"
+- "%{public}s (getRecordFromJournalEntry) Failed to get entry system fields: %s"
+- "%{public}s (getRecordFromJournalEntryAsset) CKRecord Recreated from asset:\n%s"
+- "%{public}s (getRecordFromJournalEntryAssetFileAttachment) CKRecord Recreated from fileAttachment:\n%s"
+- "%{public}s (initializeUserStatus) (AppleAccountUtility.check) isAppleAccountLoggedIn:%{bool}d isDataclassProvisioned:%{bool}d isDataclassEnabled:%{bool}d"
+- "%{public}s (initializeUserStatus) Database is not open, not ready to sync"
+- "%{public}s (initializeUserStatus) Protected data is not available, not ready to sync"
+- "%{public}s (initializeUserStatus) dataclass sync toggle switch is enabled:%{bool}d"
+- "%{public}s (migrateToProdIfNeeded) Re-creating zone in Prod Environment"
+- "%{public}s (migrateToProdIfNeeded) isMigratedToProd:%{bool}d zoneExists:%{bool}d"
+- "%{public}s (migrateToProdIfNeeded) setting isMigratedToProd: %{bool}d"
+- "%{public}s (migrateToProdIfNeeded) start isMigratedToProd: %{bool}d"
+- "%{public}s (migrateToProdIfNeeded) zoneExistsAsync error:%@"
+- "%{public}s (passObjectsToEngine) Passed To Delete total %ld: %s"
+- "%{public}s (passObjectsToEngine) Passed To Save total %ld: %s"
+- "%{public}s (passObjectsToEngine) Saving %s system fields error: %@"
+- "%{public}s (passObjectsToEngine) Unable to get %s record from system fields on cloudable delete"
+- "%{public}s (passObjectsToEngine) Unable to get record from system fields on cloudable save %s"
+- "%{public}s (passObjectsToEngine) Will pass %ld %s to delete:  %s"
+- "%{public}s (passObjectsToEngine) Will pass %ld %s to save: %s"
+- "%{public}s (recordToSaveFor) contextBackground type: JournalEntry recordID:%@ record:%s"
+- "%{public}s (recordToSaveFor) contextPrivate type: JournalEntry recordID:%@ record:%s"
+- "%{public}s (recordToSaveFor) isProtectedDataAvailable false"
+- "%{public}s (recordToSaveFor) recordID:%@"
+- "%{public}s (recordToSaveFor) unable to get an object from database with id:%s"
+- "%{public}s (recordWithIDWasDeleted) isProtectedDataAvailable false"
+- "%{public}s (recordWithIDWasDeleted) recordID:%@ type: %s"
+- "%{public}s (refreshSavedAttachments) attachments to refresh: %s"
+- "%{public}s (resolve optimisticLockingConflicts)"
+- "%{public}s (resolve optimisticLockingConflicts) %s CONFLICT is Between the NSManagedObjectContext and its in-memory cached state at the NSPersistentStoreCoordinator layer. In this case, the merge conflict has a source object and a cached snapshot but no persisted snapshot"
+- "%{public}s (resolve optimisticLockingConflicts) %s CONFLICT is Between the cached state at the NSPersistentStoreCoordinator and the external store (file, database, etc.). In this case, the merge conflict has a cached snapshot and a persisted snapshot."
+- "%{public}s (resolve optimisticLockingConflicts) %s is nil"
+- "%{public}s (resolve optimisticLockingConflicts) CachedSnapshot Wins cachedSnapshotBody: %s"
+- "%{public}s (resolve optimisticLockingConflicts) Modified Source Object to save: sourceObjectJE %@"
+- "%{public}s (resolve optimisticLockingConflicts) PersistedSnapshot Wins persistedSnapshotBody: %s"
+- "%{public}s (resolve optimisticLockingConflicts) cachedSnapshot:%s"
+- "%{public}s (resolve optimisticLockingConflicts) cachedSnapshotUpdatedDate.stringWithMS: %s"
+- "%{public}s (resolve optimisticLockingConflicts) currentMode:%s"
+- "%{public}s (resolve optimisticLockingConflicts) list: %s"
+- "%{public}s (resolve optimisticLockingConflicts) mergeMergeableStrings with %s"
+- "%{public}s (resolve optimisticLockingConflicts) persistedSnapshot:%s"
+- "%{public}s (resolve optimisticLockingConflicts) persistedSnapshotUpdatedDate.stringWithMS: %s"
+- "%{public}s (resolve optimisticLockingConflicts) resultBody: %s"
+- "%{public}s (resolve optimisticLockingConflicts) sourceObjectJE: %@"
+- "%{public}s (resolve optimisticLockingConflicts) sourceObjectUpdatedDate.stringWithMS: %s"
+- "%{public}s (saveData) Protected data is not available, not ready to sync"
+- "%{public}s (shouldFetchAssetContentsFor) shouldFetchAssets:false"
+- "%{public}s (startSyncEngine) MetadataPrint [engine init]: %s"
+- "%{public}s (startSyncEngine) syncEngineReset done"
+- "%{public}s (syncEngineDidEndFetchingChanges) isProtectedDataAvailable false"
+- "%{public}s (syncEngineStartSyncing) Database is not open, not ready to sync"
+- "%{public}s (syncEngineStartSyncing) Protected data is not available, not ready to sync"
+- "%{public}s (units count) countDataUpdate coredataAssetsCount: %ld"
+- "%{public}s (units count) countDataUpdate coredataAttachmentsCount: %ld"
+- "%{public}s (units count) countDataUpdate coredataEntriesCount: %ld"
+- "%{public}s (updateJournalEntryAssetData) Local and Remote change tags are the same, nothing to update, ignoring..."
+- "%{public}s (updateJournalEntryData) Local and Remote change tags are the same, nothing to update, ignoring..."
+- "%{public}s (updateJournalEntryData) Unable to get journal entry with id: %s"
+- "%{public}s (updateJournalEntryData) change tags - local:%@  remote:%@"
+- "%{public}s (updateJournalEntryData) unable to get assetOrdering from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get bundleDate from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get bundleEndDate from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get bundleId from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get createdDate from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get dateSource from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get entryDate from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get entryType from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get flagged from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get minimumSupportedAppVersion from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get minimumSupportedAppVersionMode from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get prompt from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get reflectionIcon from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get reflectionPrompt from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get reflectionType from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get showPhotoMemoryBanner from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get showTitle from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get textData from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get textLength from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get titleData from record: %@"
+- "%{public}s (updateJournalEntryData) unable to get updatedDate from record: %@"
+- "%{public}s (zoneWithIDChanged) zoneID:%@"
+- "%{public}s (zoneWithIDWasDeleted) zoneID:%@"
+- "%{public}s (zoneWithIDWasPurged) zoneID:%@"
+- "%{public}s ---Begin of DataStack Sync Init Stats:---"
+- "%{public}s ---End of DataStack Sync Init Stats:---"
+- "%{public}s -> CoreDataStack init for container %s"
+- "%{public}s -> JurassicSyncEngineDataSource init with %@ and %@"
+- "%{public}s ->>syncDataReset userID: %s, removeMetadata: %{bool}d, removeAllEntries:%{bool}d"
+- "%{public}s Assets To Delete %ld"
+- "%{public}s Assets To Save %ld"
+- "%{public}s Attachments To Delete %ld"
+- "%{public}s Attachments To Save %ld"
+- "%{public}s CheckForRecentiCloudLogout syncEngineReset no self"
+- "%{public}s CoreDataStack.contextWillSave context Main: %@"
+- "%{public}s CoreDataStack.contextWillSave context Private: %@"
+- "%{public}s CoreDataStack.persistentStoreRemoteChange context Main: %@"
+- "%{public}s CoreDataStack.persistentStoreRemoteChange context Private: %@"
+- "%{public}s Entries Count %ld"
+- "%{public}s Entries To Delete %ld"
+- "%{public}s Entries To Save %ld"
+- "%{public}s Error Saving non iCloud user deleted entries: %@"
+- "%{public}s Initialize User Status"
+- "%{public}s Metadata User_ID Print [FETCH USER_ID]: %s"
+- "%{public}s Metadata User_ID Print [FETCH USER_ID]: nil"
+- "%{public}s MetadataPrint Metadata [REMOVED]"
+- "%{public}s MetadataPrint Unable to get self.store"
+- "%{public}s MetadataPrint [FETCH]: %s"
+- "%{public}s MetadataPrint [FETCH]: nil"
+- "%{public}s MetadataPrint [SAVED USER_ID]: %s"
+- "%{public}s MetadataPrint [SAVED]: %s"
+- "%{public}s SQLite PATH: %s"
+- "%{public}s Saving non iCloud user deleted assets: %@"
+- "%{public}s SyncDataReset syncEngineReset no self"
+- "%{public}s SyncEngine: %@ inited with to Save total: %ld to Delete total: %ld   \nto save:%s \nto delete:%s"
+- "%{public}s Unable to fetch user id from container"
+- "%{public}s Unable to get sender in contextObjectsDidChange, notification:%s"
+- "%{public}s Unable to get sender in contextWillSave, notification:%s"
+- "%{public}s Unable to get sender in persistentStoreRemoteChange, notification:%s"
+- "%{public}s Unable to get userInfo in contextObjectsDidChange, notification:%s"
+- "%{public}s Unable to initialize DataStack: %@"
+- "%{public}s Unable to set UserID Metadata: %s"
+- "%{public}s Unabled to count entries: %@"
+- "%{public}s [iclouderrorPrivate] manateeIdentityLost"
+- "%{public}s [iclouderrorPrivate] manateeUnavailable"
+- "%{public}s [iclouderror] %@"
+- "%{public}s [iclouderror] networkFailure"
+- "%{public}s [iclouderror] networkUnavailable"
+- "%{public}s [iclouderror] quotaExceeded"
+- "%{public}s [iclouderror] serverRecordChanged"
+- "%{public}s [iclouderror] serverRecordChanged conflict resolved:%{bool}d"
+- "%{public}s [iclouderror] unhandled %ld"
+- "%{public}s [iclouderror] unhandled %s"
+- "%{public}s [iclouderror] unknownItem"
+- "%{public}s [iclouderror] unknownItem resolved:%{bool}d"
+- "%{public}s [iclouderror] userDeletedZone"
+- "%{public}s [iclouderror] zoneNotFound"
+- "%{public}s addToEngine recordIDsToSave: %s  recordIDsToDelete:%s"
+- "%{public}s checkForRecentiCloudLogout - 1.User is Not Logged in and 2.Metadata exists - Recent Logout Detected"
+- "%{public}s checkForRecentiCloudLogout - No metadata saved, ignoring"
+- "%{public}s checkForRecentiCloudLogout - User is loggedIn, ignoring"
+- "%{public}s current engine's \nidsToSave: %s \nidsToDelete: %s"
+- "%{public}s handleiCloudUserIDAsync fetchiCloudUserRecordID no self"
+- "%{public}s handleiCloudUserIDAsync fetchiCloudUserRecordID2 no self"
+- "%{public}s protectedDataWillBecomeUnavailable cancelOperations Done"
+- "%{public}s removeFromEngineToSave recordIDs:%s"
+- "%{public}s(loadPersistentStores) calling persistentStoreLoadedSuccessfully"
+- "%{public}s(loadPersistentStores) container.loadPersistentStores completed in %f seconds."
+- "%{public}s(loadPersistentStores) persistentStoreLoadedSuccessfully is nil"
+- "%{public}s(loadPersistentStores) persistentStoresCount:%ld"
+- "'Select Custom Date' section header"
+- "'Use date from' section header"
+- "(audioPickerDidFinish) Error: %@"
+- "(checkForProvisionedAppleAccount) (_handleDiscoveredAccount) Dataclass is not provisioned and not enabled. This account is not capable of using Journal due to some restriction."
+- "(checkForProvisionedAppleAccount) (_handleDiscoveredAccount) Dataclass is provisioned and but not enabled"
+- "(checkForProvisionedAppleAccount) (_handleDiscoveredAccount) Dataclass is provisioned and enabled"
+- "(checkForProvisionedAppleAccount) Finished discovering account successfully and checking if it's provisioned with _handleDiscoveredAccount"
+- "(checkForProvisionedAppleAccount) Log and handle error. Device or account state does not permit refresh. Proceed as if offline"
+- "(checkForProvisionedAppleAccount) Signed in and dataclass is provisioned."
+- "(checkForProvisionedAppleAccount) There is no account signed in."
+- "(checkForProvisionedAppleAccount) checking..."
+- "(createNewJournalEntryFromRecord) (newRecord.textLength) == %hd"
+- "(createNewJournalEntryFromRecord) (newRecord.updatedDate) == %s  %s"
+- "(didFetch) (record.textLength) == %hd"
+- "(didFetch) (record.updatedDate) == %s  %s"
+- "(didSave) (record.textLength) == %hd"
+- "(didSave) (record.updatedDate) == %s  %s"
+- "(downloadAssetsMetadataFromiCloud) assetMO object doesn't have an id assetMO:%@"
+- "(downloadAssetsMetadataFromiCloud) failed to get data for idString: %s assetMO:%@"
+- "(downloadAssetsMetadataFromiCloud) unable to save: %@"
+- "(downloadAttachmentFromiCloud) emptyAttahmentMO object doesn't have an id emptyAttahmentMO:%@"
+- "(downloadAttachmentFromiCloud) failed to get fileURL for idString: %s attachment:%@"
+- "(downloadAttachmentFromiCloud) idString: %s assigned: %{bool}d"
+- "(downloadAttachmentFromiCloud) record is nil for idString: %s attachment:%@"
+- "(downloadAttachmentFromiCloud) unable to save: %@"
+- "(downloadCloudKitAssetsIfNeeded) ------------------------"
+- "(downloadCloudKitAssetsIfNeeded) assets MOS: %ld"
+- "(downloadCloudKitAssetsIfNeeded) assets OPS: %ld"
+- "(downloadCloudKitAssetsIfNeeded) attachments MOS: %ld"
+- "(downloadCloudKitAssetsIfNeeded) attachments OPS: %ld"
+- "(entryDate >= %@) AND (entryDate <= %@)"
+- "(fetchRecordWithID) could not find record with id recordId:%s"
+- "(fetchRecordWithID) error fetcing record error:%@"
+- "(fetchRecordWithID) no self"
+- "(fetchRecordWithID) record :%@"
+- "(getRecordFromId) (record.textLength) == %hd"
+- "(getRecordFromId) (record.updatedDate) == %s  %s"
+- "(getRecordFromJournalEntry) (jEntry.textLength) == %hd"
+- "(getRecordFromJournalEntry) (jEntry.updatedDate) == %s  %s"
+- "(handleNoZone) no success creating a zone"
+- "(handleNoZone) syncEngineReset no self"
+- "(isDraft == false) OR (isDraft == nil)"
+- "(recolveConflictWith) no self"
+- "(recolveConflictWith) unable to resolve conflict error: %s"
+- "(recordToSaveFor) contextBackground (record.textLength) == %hd"
+- "(recordToSaveFor) contextBackground (record.updatedDate) == %s  %s"
+- "(recordToSaveFor) contextPrivate (record.textLength) == %hd"
+- "(recordToSaveFor) contextPrivate (record.updatedDate) == %s  %s"
+- "(redoTapped)"
+- "(redoTapped) exiting early, undoManager: %s canRedo: %s"
+- "(resolveConflictWith)  recordId: %@ recordId:%@"
+- "(resolveConflictWith) (localEntry.textLength) == %hd"
+- "(resolveConflictWith) (localEntry.updatedDate) == %s  %s"
+- "(resolveConflictWith) (record.textLength) == %hd"
+- "(resolveConflictWith) (record.updatedDate) == %s  %s"
+- "(resolveConflictWith) - RECORD_TYPE_JOURNAL_ENTRY"
+- "(resolveConflictWith) - RECORD_TYPE_JOURNAL_ENTRY_ASSET"
+- "(resolveConflictWith) - RECORD_TYPE_JOURNAL_ENTRY_ASSET_FILE_ATTACHMENT"
+- "(resolveConflictWith) Comparing local and remote dates local:%s remote:%s"
+- "(resolveConflictWith) Local change is newer than remote"
+- "(resolveConflictWith) Remote change is newer than local"
+- "(resolveConflictWith) Unable to save background context:%@ error:%@"
+- "(resolveConflictWith) to be implemented recordType:%s recordId:%@"
+- "(resolveConflictWith) unable to get dateLocal recordId:%@"
+- "(resolveConflictWith) unable to get dateRemote recordId:%@"
+- "(resolveConflictWith) unable to get local entry with recordId:%@"
+- "(resolveDataClassKeys) start with homeDirectoryURL: %s"
+- "(resolveUnknownItemError)  recordId: %@ recordId:%@"
+- "(resolveUnknownItemError) no self"
+- "(resolveUnknownItemError) unable to fetch record error: %s"
+- "(saveData) CoreDataStack.contextDidSave context saved:%@ contextMain: %@ contextPrivate: %@"
+- "(undoTapped)"
+- "(undoTapped) exiting early, undoManager: %s canUndo: %s"
+- "(updateJournalEntryData) (isLocalUpdate) == %{bool}d"
+- "(updateJournalEntryData) (record.textLength) == %hd"
+- "(updateJournalEntryData) (record.updatedDate) == %s  %s"
+- "+deniedOrNotSeenMindfulMinutesTCC"
+- "+hasAcceptedMindfulMinutesTCC"
+- "+hasDeniedMindfulMinutesTCC"
+- "+hasSeenMindfulMinutesTCC"
+- "+shouldShowSheetOnboarding"
+- "-> CloudKitStack init for container %@"
+- ".fixImageOrientationIfNeeded took "
+- "/Library/Caches/com.apple.xbs/Sources/Jurassic/Jurassic/Data/DataInterface/CoreDataStack+JournalEntries.swift"
+- ";\n    }\n    \n    .gridItem.fallback_asset .asset_image {\n        object-fit: contain;\n        margin-top: 30%;\n        height: 40%;\n    }\n\n    video.asset_video {\n        object-fit: cover;\n        width: 100%;\n        height: 100%;\n        border-radius: 4pt;\n    }\n\n    .gridItemOverlayText {\n        color: #3C3C4299;\n    }\n\n    div.gridItemOverlayHeader {\n        position: absolute;\n        top: 4pt;\n        right: 4pt;\n        left: 4pt;\n        text-align: center;\n        border-radius: 3pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    div.gridItemOverlayFooter {\n        position: absolute;\n        left: 4pt;\n        bottom: 4pt;\n        right: 4pt;\n        text-align: center;\n        border-radius: 3pt;\n        margin: auto;\n        font-weight: normal;\n        font-size: 8pt;\n    }\n\n    div.bodyText {\n        font-weight: normal;\n        font-size: 10pt;\n        margin: 0pt 6pt;\n    }\n\n    blockquote {\n        border-left: 3px solid #ccc;\n        padding: 0.2em 5px;\n    }\n\n    div.workoutWindowOverlay {\n        top: 0;\n        left: 0;\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        background: -webkit-radial-gradient(transparent 60%, rgba(0, 0, 0, 0.8) 60%);\n    }\n\n    svg {\n        top: 0;\n        left: 0;\n        position: absolute;\n        border-radius: 3pt;\n    }\n\n    img.asset_workoutIcon {\n        background: black;\n    }\n\n    div.activityType {\n        position: absolute;\n        top: 0px;\n        right: 0px;\n        left: 0px;\n        color: white;\n        text-align: center;\n        padding: 6pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    div.activityMetrics {\n        position: absolute;\n        left: 0px;\n        bottom: 0px;\n        right: 0px;\n        color: white;\n        text-align: center;\n        padding: 6pt;\n        margin: auto;\n        font-weight: 600;\n        font-size: 8pt;\n    }\n\n    span.activityMetricsDistance {\n        color: #6CB4EE;\n    }\n\n    span.activityMetricsCalories {\n        color: #E32636;\n    }\n\n    span.activityMetricsDuration {\n        color: #FFD700;\n    }\n\n    div.durationText {\n        position: absolute;\n        bottom: 4pt;\n        right: 6pt;\n        color: white;\n        font-weight: 600;\n        font-size: 8pt;\n        text-shadow: black 0px 0px 10px;\n    }\n\n    .audioAssetHeader {\n        margin: 4pt;\n        position: absolute;\n        height 22px;\n    }\n    \n    .audioDuration {\n        display: inline-block;\n        height: auto;\n        margin-left: 5pt;\n        font-weight: 600;\n        font-size: 8pt;\n        top: 4pt;\n    }\n    \n    .audioQuoteBubble {\n        width: 20px;\n        height: auto;\n        display: inline-block;\n        margin-left: 5pt;\n        top: 8pt;\n        position: absolute;\n    }\n    \n    .audioPlayButton {\n        top: 4pt;\n        height: 22pt;\n        position: relative;\n        display: inline-block;\n    }\n\n    .assetType_audio {\n        background: #899CF751;\n    }\n\n    .assetType_audio .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 70%;\n    }\n\n    .mediaTypeIcon {\n        height: 14px;\n        position: absolute;\n        background: #8E8E93;\n        border-radius: 2pt;\n        bottom: 4pt;\n        left: 4pt;\n        padding: 2pt;\n    }\n\n    .mediaPlayIcon {\n        height: 22pt;\n        position: absolute;\n        top: 4pt;\n    }\n\n    .assetType_multiPinMap .gridItemOverlayFooter {\n        background:#E5E5EA; padding:4pt;\n    }\n            \n    .assetType_stateOfMind .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 50%;\n    }\n\n    .assetType_workoutIcon.multiple_workouts .asset_image {\n        object-fit: contain;\n        margin-top: 15%;\n        height: 70%;\n    }\n\n    .assetType_workoutIcon {\n        background-color: black;\n    }\n\n    .assetType_thirdPartyMedia .asset_image {\n        height: 12pt;\n        width: 12pt;\n        bottom: 4pt;\n        left: 4pt;\n        position: absolute;\n        border-radius: 2pt;\n    }\n\n    .thirdPartyAssetOverlay {\n        margin: 8pt 8px 22pt 12pt;\n        font-size: 8pt;\n        font-weight: normal;\n        color: white;\n    }\n\n    .thirdPartyAssetOverlay .mediaTitle {\n        font-weight: 600;\n    }\n\n    .thirdPartyAssetOverlay .mediaCategory {\n        margin-top: 4pt;\n        color: #FFFFFF99;\n    }\n\n\n    .assetType_motionActivity .asset_image {\n        object-fit: contain;\n        margin-top: 25%;\n        height: 50%;\n    }\n\n    .assetType_contact {\n        background-color: #E5E5EA;\n    }\n\n    .assetType_contact .asset_image {\n        object-fit: contain;\n        margin-top: 10%;\n        height: 60%;\n    }\n\n    .assetType_contact .gridItemOverlayText {\n        color:"
+- "@\"<UILargeContentViewerItem>\"40@0:8@\"UILargeContentViewerInteraction\"16{CGPoint=dd}24"
+- "@\"<UIViewControllerAnimatedTransitioning>\"24@0:8@\"UIViewController\"16"
+- "@\"<UIViewControllerAnimatedTransitioning>\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"<UIViewControllerInteractiveTransitioning>\"24@0:8@\"<UIViewControllerAnimatedTransitioning>\"16"
+- "@\"CKRecord\"32@0:8@\"CKSyncEngine\"16@\"CKRecordID\"24"
+- "@\"CKSyncEngineBatch\"32@0:8@\"CKSyncEngine\"16@\"NSSet\"24"
+- "@\"NSArray\"24@0:8@\"CKSyncEngine\"16"
+- "@\"NSArray\"40@0:8@\"CKSyncEngine\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIPresentationController\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"UIView\"24@0:8@\"UISheetPresentationController\"16"
+- "@\"UIViewController\"24@0:8@\"UILargeContentViewerInteraction\"16"
+- "@24@0:8^{_NSZone=}16"
+- "@40@0:8@\"NSData\"16@\"NSString\"24^@32"
+- "@40@0:8@16@24^@32"
+- "@64@0:8@16@24@32@40@48@56"
+- "AABranding"
+- "ADD_ENTRY_TITLE"
+- "ALWAYS_USE_MOMENT_DATE"
+- "ANY %K.%K != true"
+- "AVAudioPlayerDelegate"
+- "AVAudioRecorderDelegate"
+- "Accessibility action name for an action that expands a journal entry cell to reveal assets beyond the first grid row."
+- "Accessibility hint for collapsed journal entry collection view cells that contain text"
+- "Accessibility label for a view displaying an asset's total duration"
+- "Accessibility label for bookmark buttons when the entry is bookmarked"
+- "Accessibility label for bookmark buttons when the entry is not bookmarked"
+- "Accessibility label for the audio canvas picker button"
+- "Accessibility label for the camera canvas picker button"
+- "Accessibility label for the filters button"
+- "Accessibility label for the journal entry collection view cell collapse affordance"
+- "Accessibility label for the location canvas picker button"
+- "Accessibility label for the moments canvas picker button"
+- "Accessibility label for the photos canvas picker button"
+- "Accessibility label for the search button"
+- "Accessibility label for the state of mind canvas picker button"
+- "Accessibility label for the text formatting canvas picker button"
+- "Accessibilty announcement indicating an entry cell has been collapsed"
+- "Accessibilty announcement indicating an entry cell has been expanded"
+- "Action title for Insights action"
+- "Action title for custom date option"
+- "Action title for date created option"
+- "Action title for date from photo or video media option"
+- "Action title for date from suggestions option"
+- "Action title for edit date option."
+- "Action title for the Hide Title action"
+- "Add your state of mind to entries and save writing time as mindful minutes."
+- "App name displayed in Now Playing during audio recording playback"
+- "AppStoreRatingPrompt"
+- "AppleAccount"
+- "AppleAccountUtility"
+- "Application Support"
+- "Are you sure you want to delete this entry? This action can’t be undone."
+- "AssetAttachment.init error, missing filePath. AttachmentMO: %@"
+- "Attempted to activate SuggestionAngelManager w/o a window."
+- "Audio intent recording"
+- "Audio: {duration}"
+- "AudioTranscription"
+- "AudioWaveformSource: Failed to convert buffer"
+- "AudioWaveformSource: Failed to convert buffer: %@"
+- "AudioWaveformSource: Failed to create AVAudioConverter from %@ to standard format with sample rate: %f; will continue without sample rate conversion"
+- "B24@0:8@\"CLLocationManager\"16"
+- "B24@0:8q16"
+- "B32@0:8@\"CKSyncEngine\"16@\"CKRecordZoneID\"24"
+- "B32@0:8@16^@24"
+- "B40@0:8@\"UIApplication\"16@\"NSString\"24@\"NSDictionary\"32"
+- "Button to start an audio recording"
+- "CGRectValue"
+- "CKSyncEngineDataSource"
+- "CKSyncEngineDataSourcePrivate"
+- "CLLocationManagerDelegate"
+- "Can't open CoreData model at url "
+- "CanvasDatePicker Cancel"
+- "CanvasDatePicker Done"
+- "Chamomile"
+- "ContainerUserDefaults"
+- "CoreDataStack.contextDidSave context Private: %@"
+- "CoreDataStack.contextDidSave context saved:%@ contextMain: %@ contextPrivate: %@"
+- "CoreDataStack.contextObjectsDidChange context Main: "
+- "CoreDataStack.contextObjectsDidChange context Private: "
+- "Could not find a city and state/province name for location"
+- "Create a Richer Journal"
+- "DataAggregator.updateData: processed "
+- "Debug"
+- "Delete Object JournalEntry"
+- "Delete Object JournalEntryAsset"
+- "Delete Object JournalEntryAssetFileAttachment"
+- "Deleting entry attachments directory: %s"
+- "Deletion Results: %s"
+- "Description of the first bullet point of What's New screen when transcription is not supported."
+- "Description of the first bullet point of What's New screen."
+- "Description of the fourth bullet point of What's New screen."
+- "Description of the second bullet point of What's New screen."
+- "Description of the third bullet point of What's New screen."
+- "Double-tap to expand."
+- "Edit Date Action"
+- "Enjoy Past Entries"
+- "EntrySearch"
+- "EntrySearch feature flag is disabled"
+- "EntryViewModel.addAssetAsync("
+- "EntryViewModel.contextObjectsDidChange\n"
+- "Error configuring player: %@\nrecordingURL: %s"
+- "Error converting %@ to Data: %@"
+- "Error converting Data to %s: %@"
+- "Error decoding data: %@"
+- "Error encoding data %s: %@"
+- "Error in Journaling.Analytics.updateEntryCount %@"
+- "Error loading map: @%"
+- "Error modifying record zones: %@"
+- "Error registering notification: %@"
+- "Error saving zone %s: %@"
+- "Error setting file protection for %s %@"
+- "Error zone deletion: %s"
+- "Export"
+- "Export all entries"
+- "Export only this entry"
+- "Export this entry"
+- "Export was canceled"
+- "ExportManager.export executed in %ss"
+- "ExportManager.startExport previous currentExportTask is not nil. This is unexpected."
+- "Exporting Journal Entries"
+- "Exporting Journal Entries alert message."
+- "Exporting Journal Entries alert title"
+- "Failed saving metadata (LPLinkMetadata) to asset: %@"
+- "Failed to append placeholder (errorAssetCountLimitExceeded)."
+- "Failed to create cache directory: %@"
+- "Failed to customize the sheet presentation of an incoming picker sheet."
+- "Failed to fetch LPLinkMetadata %s for URL %s"
+- "Failed to get current address"
+- "Failed to normalize pasted text: %@"
+- "Failed to obtain shared user defaults. Did something change with the app group configuration?"
+- "Failed to play audio"
+- "Fetch latest changes"
+- "Filed to create attachments directory: %@"
+- "Filed to create temp directory: %@"
+- "FullScreenAssetViewWillEnter"
+- "FullScreenCollectionViewCell"
+- "Get Record from system fields data:\n%@"
+- "Get Suggested Moments"
+- "HUD controller failed to prepare and return root view."
+- "Image downsample failed."
+- "Insights"
+- "Insights mentioned words body like 'Mentioned {baby} {11} times'"
+- "Insights mentioned words title"
+- "InsightsCalendarArrows"
+- "InsightsDividerLine"
+- "InsightsMentionedWords"
+- "IntelligentToolbox"
+- "Invalid notification schedule components"
+- "JOURNALING_SCHEDULE"
+- "Journal for Wellbeing"
+- "Journal isn't connected to the Internet."
+- "Journal requires an Apple ID with two-factor authentication"
+- "Journal.AudioButtonPulseAnimation"
+- "Journal.AudioIntentViewController"
+- "Journal.CanvasDatePicker"
+- "Journal.CanvasPickerToolbar"
+- "Journal.EditDateViewController"
+- "Journal.ExportedEntryAdminVC"
+- "Journal.JournalBulletedListItem"
+- "Journal.JournalSearchButton"
+- "Journal.JurassicMergePolicy"
+- "Journal.JurassicSyncEngineDataSource"
+- "Journal.NavigationLargeTitleAccessoryContainerView"
+- "Journal.TimelineOverflowButton"
+- "Journal/AudioButtonPulseAnimation.swift"
+- "Journal/AudioIntentViewController.swift"
+- "Journal/BulletedListItem.swift"
+- "Journal/CanvasDatePicker.swift"
+- "Journal/CanvasLayoutCoordinator.swift"
+- "Journal/CanvasPickerToolbar.swift"
+- "Journal/EditDateViewController.swift"
+- "Journal/ExportedEntryAdminVC.swift"
+- "Journal/FileStoreConfiguration.swift"
+- "Journal/FullScreenCollectionViewCell.swift"
+- "Journal/HeaderFooterView.swift"
+- "Journal/JournalSearchButton.swift"
+- "Journal/JournalTimelineViewController.swift"
+- "Journal/JournalWidgetBridge.swift"
+- "Journal/SuggestedDateCell.swift"
+- "JournalEntryAssetAttachmentMO"
+- "JournalNavigationCoordinator+AngelSheet"
+- "JournalTimelineSortOrderKey"
+- "Journaling.ContactAsset"
+- "Journaling.EntryViewModel.Reflection"
+- "Journaling.GenericMapAsset"
+- "Journaling.LivePhotoAsset"
+- "Journaling.MusicAsset"
+- "Journaling.PhotoAsset"
+- "Journaling.StateOfMindAsset"
+- "Journaling.VideoAsset"
+- "Journaling.VisitAsset.VisitData"
+- "Journaling.WorkoutIconAsset"
+- "Journaling.WorkoutRouteAsset"
+- "Journaling.fetchEntries error: %@"
+- "Label for indicating which filter is active"
+- "LoadThumbnail"
+- "Location PlaceName"
+- "Location Unavailable"
+- "Lock your journal to keep it private."
+- "Logged in to iCloud"
+- "MOSuggestionAssetMotionActivityTypeRunning"
+- "MOSuggestionAssetMotionActivityTypeRunningWalking"
+- "MOSuggestionAssetMotionActivityTypeWalking"
+- "Migrated to Production:"
+- "MindfulMinutes"
+- "NSCopying"
+- "NSItemProviderReading"
+- "NSLocalizedDescriptionKey"
+- "No audio file found when configuring player, it may have been deleted by user cancellation. Aborting setup player."
+- "No iCloud Syncing Enabled within UserDefaults"
+- "No self in deleteMarkedAsRemovedAssetsForNonIcloudUser"
+- "No self in deleteMarkedAsRemovedEntriesForNonIcloudUser"
+- "No self in deleteMarkedAsRemovedFileAttachmentsForNoniCloudUser"
+- "No self in syncChanges"
+- "Nothing to export"
+- "Notification registered successfully"
+- "OnboardingBackgroundBottom"
+- "OnboardingBackgroundMiddle"
+- "OnboardingBackgroundTop"
+- "OperationsManager.cancelAllThumbnailOperations"
+- "OperationsManager.cancelAssetMetaDataOperations"
+- "OperationsManager.cancelAttachmentOperations"
+- "OperationsManager.cancelBatchRecordOperations"
+- "Optional<JournalNavigationCoordinator>"
+- "Optional<UserInterfaceSizeClass>"
+- "Orphan asset:%@ - probably waiting for the parent entry to download"
+- "Orphan file attachment:%@ - probably waiting for the parent asset to download"
+- "PHPickerViewControllerDelegate"
+- "Pending Passed to engine:"
+- "Please turn on iCloud syncing in device Settings"
+- "PlusButtonBackground"
+- "Print menu item title on entry overlow menu"
+- "Protect your personal entries and lock Journal with your device passcode or Face ID, so no one but you can access your journal."
+- "Protect your personal entries and lock Journal with your device passcode or Touch ID, so no one but you can access your journal."
+- "Protect your personal entries and lock Journal with your device passcode, so no one but you can access your journal."
+- "Purged cache for asset %s"
+- "Quickly create entries using widgets and use rich text formatting."
+- "Quickly create entries using widgets, transcribe audio, and use rich text formatting."
+- "Received a nil asset when starting recording"
+- "Requested input type not supported by CanvasPickerToolbar!"
+- "RichText"
+- "Row title for displaying created date"
+- "Row title for displaying moment date"
+- "SAVE_TO_PHOTOS"
+- "SELECT CUSTOM DATE"
+- "SKIP_JOURNALING_SUGGESTIONS"
+- "SYNC_ENGINE_DATA_SOURCE"
+- "Sandbox Disk Usage (MB):"
+- "Search, sort, and see a calendar view. You can also export and print."
+- "See significant moments you can write about, including photos, tips, and workouts."
+- "SettingsUtilities"
+- "Shared file container could not be created in FileStoreConfiguration.homeDirectoryURL for shared app group "
+- "ShowDateSections"
+- "Smart Suggestions"
+- "Sorting"
+- "String describing a 'creativity' journal entry reflection type"
+- "String describing a 'gratitude' journal entry reflection type"
+- "String describing a 'kindness' journal entry reflection type"
+- "String describing a 'purpose' journal entry reflection type"
+- "String describing a 'resilience' journal entry reflection type"
+- "String describing a 'wisdom' journal entry reflection type"
+- "String describing an 'other' journal entry reflection type"
+- "Subtitle showing no internect connection."
+- "Success deleting zone: %s"
+- "Successfully Saved zone: %s"
+- "Summary item label like '{16} Day Streak'"
+- "Summary item label like '{19} Week Streak'"
+- "Summary item label like '{8.1K} Words Written'"
+- "Summary item label like '{97} Days Journaled'"
+- "SyncDataReset no self in syncDataReset"
+- "SyncEngineImportUtility"
+- "SyncEngineMetadataKey"
+- "SyncEngineMetadataUserIDKey"
+- "T@\"JournalEntryAssetMO\",N,D,&"
+- "T@\"JournalEntryMO\",N,D,&"
+- "T@\"JournalMO\",N,D,&"
+- "T@\"NSData\",N,D,C"
+- "T@\"NSDate\",N,D,C"
+- "T@\"NSSet\",N,D,&"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSUUID\",N,D,C"
+- "T@\"NSUserDefaults\",N,R"
+- "T@\"UIBezierPath\",N,&"
+- "TB,N,D"
+- "There is no destination cell to animate back to. Animate to overflow cell."
+- "ThirdPartyMedia"
+- "This entry will be deleted if no text or other content is added."
+- "This may take a few moments"
+- "This may take a few moments export message"
+- "Title for no location."
+- "Title of the first bullet point of What's New screen."
+- "Title of the fourth bullet point of What's New screen."
+- "Title of the second bullet point of What's New screen."
+- "Title of the third bullet point of What's New screen."
+- "Transition to gallery timed out"
+- "Ts,N,D"
+- "UIApplicationTestingDelegate"
+- "UILargeContentViewerInteractionDelegate"
+- "UISheetPresentationControllerDelegatePrivate"
+- "UITraitChangeRegistration"
+- "UIViewControllerTransitioningDelegate"
+- "Un-supported hiddenAll"
+- "Un-supported hiddenText"
+- "Un-supported plainText"
+- "Unable to delete zone"
+- "Unable to find destination cell to animate to."
+- "Unable to find view controller and assets during animation from Gallery to Timeline"
+- "Unknown zone saved: %s"
+- "Unresolved error "
+- "User is not logged in to iCloud"
+- "User record ID is nil"
+- "View insights about journaling streaks, days journaled, and more."
+- "Visited Locations"
+- "WAPICompliantManager"
+- "WARNING: failed to turn Data to NSAttributedString:"
+- "WARNING: failed to turn NSAttributedString to Data: %@"
+- "Wait for the export to finish, then choose where to save it."
+- "What's New in Journal"
+- "Write about your day and add photos, places, a state of mind, and more."
+- "You’ve journaled at least once a week since **"
+- "You’ve journaled every day since **"
+- "](measure: 'value')\n^[Day Streak](measure: 'unit')"
+- "](measure: 'value')\n^[Week Streak](measure: 'unit')"
+- "](measure: 'value')\n^[Words Written](measure: 'unit')"
+- "_Concurrency/TaskGroup.swift"
+- "_TtC7Journal10DataConfig"
+- "_TtC7Journal11MusicPlayer"
+- "_TtC7Journal12AudioManager"
+- "_TtC7Journal12PaddingLabel"
+- "_TtC7Journal12PhotoManager"
+- "_TtC7Journal14JournalDialogs"
+- "_TtC7Journal15ImageDownloader"
+- "_TtC7Journal15ImageStateModel"
+- "_TtC7Journal15KeyboardManager"
+- "_TtC7Journal15PhotosViewModel"
+- "_TtC7Journal16CanvasDatePicker"
+- "_TtC7Journal16LocationServices"
+- "_TtC7Journal17PermissionManager"
+- "_TtC7Journal17SuggestedDateCell"
+- "_TtC7Journal17SuggestedDateItem"
+- "_TtC7Journal18AudioAssetGridView"
+- "_TtC7Journal18BlockQuoteFragment"
+- "_TtC7Journal18EntrySwipeMenuView"
+- "_TtC7Journal18SettingsFooterView"
+- "_TtC7Journal18SettingsHeaderView"
+- "_TtC7Journal18StackAccessoryView"
+- "_TtC7Journal18TimelineFilterView"
+- "_TtC7Journal19CanvasAssetPlayView"
+- "_TtC7Journal19CanvasPickerToolbar"
+- "_TtC7Journal19FullScreenAudioView"
+- "_TtC7Journal19JournalSearchButton"
+- "_TtC7Journal19JurassicMergePolicy"
+- "_TtC7Journal20ExportedEntryAdminVC"
+- "_TtC7Journal20JurassicAppleAccount"
+- "_TtC7Journal20TimelineFilterButton"
+- "_TtC7Journal21AudioAssetGalleryView"
+- "_TtC7Journal21PhotosPickerItemModel"
+- "_TtC7Journal21SettingsAppLaunchItem"
+- "_TtC7Journal22DataStackConfiguration"
+- "_TtC7Journal22DatePickerDataProvider"
+- "_TtC7Journal22EditDateViewController"
+- "_TtC7Journal22TimelineOverflowButton"
+- "_TtC7Journal23JournalBulletedListItem"
+- "_TtC7Journal25AudioButtonPulseAnimation"
+- "_TtC7Journal25AudioIntentViewController"
+- "_TtC7Journal25SettingsHeaderFooterLabel"
+- "_TtC7Journal26CloudKitStackConfiguration"
+- "_TtC7Journal26CoreDataStackConfiguration"
+- "_TtC7Journal27CanvasAudioPickerController"
+- "_TtC7Journal27GalleryToTimelineTransition"
+- "_TtC7Journal27PlatterBackgroundEffectView"
+- "_TtC7Journal27TimelineToGalleryTransition"
+- "_TtC7Journal28FullScreenCollectionViewCell"
+- "_TtC7Journal28JournalTransitionCoordinator"
+- "_TtC7Journal28JurassicSyncEngineDataSource"
+- "_TtC7Journal30SettingsOpenSensitiveURLAction"
+- "_TtC7Journal33JournalFitnessUIFormattingManager"
+- "_TtC7Journal36StatusResponsiveNavigationController"
+- "_TtC7Journal37InteractiveDismissalGestureRecognizer"
+- "_TtC7Journal38InteractiveGalleryToTimelineTransition"
+- "_TtC7Journal42NavigationLargeTitleAccessoryContainerView"
+- "_TtC7JournalP33_50CFAC729B687C75C3E196706D50698611PlayerActor"
+- "_TtC7JournalP33_50CFAC729B687C75C3E196706D50698613RecorderActor"
+- "_TtCC7Journal10Journaling10AudioAsset"
+- "_TtCC7Journal10Journaling10MusicAsset"
+- "_TtCC7Journal10Journaling10PhotoAsset"
+- "_TtCC7Journal10Journaling10VideoAsset"
+- "_TtCC7Journal10Journaling10VisitAsset"
+- "_TtCC7Journal10Journaling12ContactAsset"
+- "_TtCC7Journal10Journaling12PodcastAsset"
+- "_TtCC7Journal10Journaling12UnknownAsset"
+- "_TtCC7Journal10Journaling14DataAggregator"
+- "_TtCC7Journal10Journaling14EntryViewModel"
+- "_TtCC7Journal10Journaling14LivePhotoAsset"
+- "_TtCC7Journal10Journaling15GenericMapAsset"
+- "_TtCC7Journal10Journaling15ReflectionAsset"
+- "_TtCC7Journal10Journaling16MultiPinMapAsset"
+- "_TtCC7Journal10Journaling16PlaceholderAsset"
+- "_TtCC7Journal10Journaling16StateOfMindAsset"
+- "_TtCC7Journal10Journaling16StreakEventAsset"
+- "_TtCC7Journal10Journaling16WorkoutIconAsset"
+- "_TtCC7Journal10Journaling17WorkoutRouteAsset"
+- "_TtCC7Journal10Journaling18EntryListViewModel"
+- "_TtCC7Journal10Journaling19MotionActivityAsset"
+- "_TtCC7Journal10Journaling20ThirdPartyMediaAsset"
+- "_TtCC7Journal10Journaling5Asset"
+- "_TtCC7Journal10Journaling9Analytics"
+- "_TtCC7Journal10Journaling9BookAsset"
+- "_TtCC7Journal10Journaling9LinkAsset"
+- "_TtCC7Journal10MapManager17MOLocationShifter"
+- "_TtCC7Journal12PhotoManager10PhotoAsset"
+- "_TtCC7Journal12PhotoManager12PHPhotoAsset"
+- "_TtCC7Journal30JournalEntryCollectionViewCell38CollapseAffordanceAccessibilityElement"
+- "_TtCCC7Journal10Journaling14EntryViewModel15AutosaveManager"
+- "_TtCCC7Journal10Journaling14LivePhotoAssetP33_A7B37A5DC9466C6687297D5DCB2EA88A20LivePhotoAttachments"
+- "_TtCFFZFV7Journal117$s7Journal0024RecordingViewswift_ynAHffMX307_0_33_104DA14A1B51E0439F4AC926246DCE3ALl7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY(T_P7SwiftUI4View_U_FT_PS4__L_22MockPlaybackController"
+- "_TtCFFZFV7Journal122$s7Journal0029StaticWaveformViewswift_tAFJhfMX121_0_33_A61E944E790334B8290030312B43B025Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY0T_P7SwiftUI4View_U_FT_PS4__L_21MockWaveformProviding"
+- "_TtCFFZFV7Journal126$s7Journal0033ScrollableWaveformViewswift_DbGHjfMX255_0_33_8FC82BFD10DD9FFCAE9786F1BC87CE94Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY0T_P7SwiftUI4View_U_FT_PS4__L_21MockWaveformProviding"
+- "_TtCFFZFV7Journal150$s7Journal0057AudioRecordingLiveActivityBannerViewControllerswift_tCHFufMX126_0_33_A8920A825AC57B7B09EE15DAB3B684A0Ll7PreviewfMf_15PreviewRegistryfMu_11makePreviewFzT_V21DeveloperToolsSupport7PreviewU_FY\xd8T_CSo16UIViewControllerU_FT_S3_L_20MockRecordingManager"
+- "_allowScrollPositionUpdate"
+- "_audioAsset"
+- "_audioPlayer"
+- "_audioRecorder"
+- "_currentDecibels"
+- "_currentPresentedViewFrame"
+- "_currentRecordingTime"
+- "_currentlyPlayedPercentage"
+- "_currentlyPlayedTime"
+- "_entryCount"
+- "_handleDiscoveredAccount:completion:"
+- "_identifyReplaceableAsset(_:_:)"
+- "_imageState"
+- "_initWithSuiteName:container:"
+- "_isPausing"
+- "_isPlaying"
+- "_isRecording"
+- "_itemProvider"
+- "_playerTimeCancellable"
+- "_populateLocationData(_:usingDeviceLocation:)"
+- "_preferredContentsRectForTargetSize:"
+- "_processSuggestionPickerAddition(_:_:onEntryUpdated:)"
+- "_quantityWithBeatsPerMinute:"
+- "_recordedDuration"
+- "_recorderDelegate"
+- "_recorderTimeCancellable"
+- "_recordingFilename"
+- "_setAllowsInteractiveDismissWhenFullScreen:"
+- "_setLargeTitleAccessoryView:alignToBaseline:"
+- "_setWantsFullScreen:"
+- "_sheetPresentationControllerDidChangeHosting:"
+- "_sheetPresentationControllerDidInvalidateCurrentPresentedViewFrame:"
+- "_sheetPresentationControllerDidInvalidateDetentValues:"
+- "_sheetPresentationControllerPerformLayout:"
+- "_sheetPresentationControllerViewForTouchContinuation:"
+- "_shortAddress"
+- "_shouldStartDataDetectors"
+- "_startRecordingTime"
+- "_targetURL"
+- "_timer"
+- "aa_primaryAppleAccount"
+- "accessManager"
+- "accessibilityContainer"
+- "accessibilityContrast"
+- "accessibilityPath"
+- "accessibilityScroll:"
+- "accessoryButton"
+- "accessoryView"
+- "action title to use the date from photos option when you have only one photo"
+- "action title to use the date from video option when you have only one video"
+- "actionSyncEnableSwitchStateDidChangeWithSender:"
+- "activationHandler"
+- "activityTypeEnum"
+- "addBulletedListItemWithTitle:description:symbolName:tintColor:"
+- "addClip"
+- "addLineToPoint:"
+- "addTarget:action:"
+- "addToEngine:recordIDsToSave:recordIDsToDelete:"
+- "allowScrollPositionUpdate"
+- "animDuration"
+- "animateWithDuration:animations:"
+- "animationCancellable"
+- "animationControllerForDismissedController:"
+- "animationControllerForPresentedController:presentingController:sourceController:"
+- "animationDuration"
+- "animationGroup"
+- "appBackgroundColor"
+- "appGroupName"
+- "appMovedToBackground"
+- "application:runTest:options:"
+- "applicationWithBundleIdentifier:"
+- "aspectRatio"
+- "asset.%K == false OR asset.%K == nil"
+- "assetGridHeightConstraint"
+- "assetIdentifier"
+- "assetObserver"
+- "assetsAll"
+- "assetsWithSlimAsset"
+- "attachmentMO"
+- "attributedMessage"
+- "audio asset label with numeric duration"
+- "audioAddition - Appended new placeholder to entry assets."
+- "audioAddition - Failed to append final asset."
+- "audioAddition - Failed to append new placeholder."
+- "audioAddition - Placeholder removed from grid."
+- "audioAddition - Replaced placeholder with final asset."
+- "audioLabel"
+- "audioManager"
+- "audioManagerDelegate"
+- "audioPicker"
+- "audioPickerPulseRadius"
+- "audioPlaybackDidFinish"
+- "audioPlayerBeginInterruption:"
+- "audioPlayerDecodeErrorDidOccur:error:"
+- "audioPlayerDidFinishPlaying:successfully:"
+- "audioPlayerEndInterruption:"
+- "audioPlayerEndInterruption:withFlags:"
+- "audioPlayerEndInterruption:withOptions:"
+- "audioRecorder"
+- "audioRecorder exception: %@"
+- "audioRecorderBeginInterruption:"
+- "audioRecorderDidFinishRecording:successfully:"
+- "audioRecorderEncodeErrorDidOccur:error:"
+- "audioRecorderEndInterruption:"
+- "audioRecorderEndInterruption:withFlags:"
+- "audioRecorderEndInterruption:withOptions:"
+- "audioView"
+- "authorizationChanged"
+- "autosaveManager"
+- "availableFilters"
+- "averageGroupHeartRateBPM"
+- "averagePowerForChannel:"
+- "averagePowerPerChannel"
+- "backgroundColorsDark"
+- "backgroundColorsLight"
+- "backgroundTaskID"
+- "barTintColor"
+- "betweenTextAndButtonMargin"
+- "betweenTextLabelMargin"
+- "blue"
+- "bookmarkBarButtonItem"
+- "bookmarkMargin"
+- "bookmarkTapped"
+- "boolValue"
+- "bottomMargin"
+- "bundleId bundleDate "
+- "bundleIdentifier"
+- "bundleTitleView"
+- "bundleURL"
+- "buttonWithType:"
+- "cachedSnapshot"
+- "callAsFunction:"
+- "cameraPicker"
+- "canOpenURL:"
+- "cancelClickedWithSender:"
+- "cancelOperationsWithCompletionHandler:"
+- "cancelTapped:"
+- "canonicalUnit"
+- "canvasStateCanvasInputType"
+- "canvasStateEntryCustomDate"
+- "canvasStateEntryPlaceholder"
+- "canvasStateRequestingWidget"
+- "canvasTranscribingPickerVC"
+- "canvasWillDismissWithSavedEntry"
+- "checkForProvisionedAppleAccount:"
+- "chevron.up.chevron.down"
+- "cloudKit"
+- "collapseAffordanceAccessibilityElement"
+- "collectionViewTopConstraint"
+- "com.apple.VoiceMemos"
+- "com.apple.journal.transcript-generation"
+- "com.apple.journal.transcript-post-processing"
+- "com.apple.journal.transcriptText"
+- "com.apple.journaltranscriptWaitingView"
+- "composeButtonsViewBottomConstraint"
+- "configCreate:ds:md:directory:fileProtectionType:assetDownloadStagingManager:"
+- "constraintLessThanOrEqualToConstant:"
+- "contact"
+- "containerURLForSecurityApplicationGroupIdentifier:"
+- "containerWithIdentifier:"
+- "contentScrollView"
+- "contentSizeCategoryTraitChangeRegistration"
+- "contentSizeTraitChangeRegistration"
+- "contentsRect"
+- "contextWillSaveWithNotification:"
+- "continue playing the current audio recording with url %s"
+- "convertPoint:toCoordinateSpace:"
+- "convertPoint:toView:"
+- "convertRect:fromCoordinateSpace:"
+- "convertRect:toCoordinateSpace:"
+- "convertTime:fromLayer:"
+- "coreData"
+- "createLocalCopyOfItem(withType:)"
+- "creation"
+- "currentPlacemark"
+- "currentPlaybackTimer"
+- "currentTrackURL"
+- "custom"
+- "customColor"
+- "dataDetectorTypes"
+- "databaseFilename"
+- "datastack"
+- "datePickerValueChanged:"
+- "dateVerticalMargin"
+- "days"
+- "defaultDirectoryURL"
+- "defaultParagraphStyle"
+- "deferredLaunchAction"
+- "degrees"
+- "deleteAllCoreData"
+- "deleteAllJournalEntries"
+- "dequeueReusableCellWithIdentifier:forIndexPath:"
+- "desiredOffsetTargetX"
+- "didChange"
+- "didFinishRecording"
+- "didFinishRecording(recordingManager:)"
+- "didInitialVideoPlayback"
+- "didPan:"
+- "didSelectLatestPOIAnnotation"
+- "dismiss(to:animated:)"
+- "dismissAsync(animated:)"
+- "dismissIsCanceling"
+- "dismissPicker - Dismissing %s."
+- "dismissSuggestionSheet"
+- "dismissalDelegate"
+- "displayCornerRadius"
+- "doneBarButtonItem"
+- "doneClickedWithSender:"
+- "doneTapped"
+- "doneTapped:"
+- "downloadStagingPath"
+- "drawAtPoint:inContext:"
+- "drawTextInRect:"
+- "dynamicTypeTraitChangeRegistration"
+- "dynamicTypeTraitChanged"
+- "dynamicWaveformView"
+- "elementWithProvider:"
+- "encodeSystemFieldsWithCoder:"
+- "encodedData"
+- "engineCreate:"
+- "entry.isRemovedFromCloud"
+- "entry.isRemovedFromCloud = false"
+- "entryDataUpdateDate"
+- "entryDate != nil"
+- "entryListModel"
+- "entryModel"
+- "entryType"
+- "excludeFromBackupFully directory %s doesn't exists, ignoring."
+- "excludeFromBackupSafely directory %s doesn't exists, ignoring."
+- "expires"
+- "extraProminentWithSubline"
+- "fallbackIcon"
+- "fetchChangesWithCompletionHandler:"
+- "fetchEmptyJournalEntryAssetFileAttachments"
+- "fetchEmptyJournalEntryAssets"
+- "fetchJournalEntry"
+- "fetchJournalEntryAsset"
+- "fetchJournalEntryAssetFileAttachment"
+- "fetchLocalChangedJournalEntries"
+- "fetchRecordQueue"
+- "fetchRecordZoneWithID:completionHandler:"
+- "fetchRemovedAssets"
+- "filterNameLabel"
+- "filtersDelegate"
+- "first bullet point of onboarding"
+- "firstAnchor"
+- "firstLeftButtonX"
+- "footerBlurView"
+- "footerLabel"
+- "formattingManager"
+- "frameCapacity"
+- "framePosition"
+- "fullScreenAssetViewWillEnter"
+- "fullScreenSnapshotView"
+- "galleryVC"
+- "genericMap"
+- "gestureRecognizers"
+- "getSharedUserDefaults:containerURL:"
+- "gradient"
+- "gradientLayer"
+- "green"
+- "gridHeightConstraint"
+- "group.com.apple.Journal"
+- "group.com.apple.moments"
+- "groupWorkoutEndDates"
+- "groupWorkoutStartDates"
+- "halfDuration"
+- "handleData"
+- "handleNoZone done without purging in manateeIdentityLossHandling"
+- "handleOpenInHealth"
+- "handleiCloudUserIDAsync()"
+- "hapticGenerator"
+- "hasMultipleDates"
+- "hasPerformedInitialFetch"
+- "hasPerformedPreAnimationActions"
+- "hasStartedAnimationAfterLoading"
+- "head"
+- "headerType"
+- "healthAccessURL"
+- "iCloud Syncing is Enabled within UserDefaults"
+- "iPhone can automatically suggest moments to write about, including photos, workouts, music, and more."
+- "icloud.and.arrow.up"
+- "idsToDeleteIn:"
+- "idsToSaveIn:"
+- "imageManager"
+- "imageMargin"
+- "imagePicker"
+- "imageTopMargin"
+- "impactOccurred"
+- "inMemory"
+- "inMemoryMetadata"
+- "init(merge:)"
+- "initForReading:error:"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initScheduleWithHour:minute:weekdays:"
+- "initStandardFormatWithSampleRate:channels:"
+- "initWithAccessibilityContainer:"
+- "initWithArray:copyItems:"
+- "initWithConfiguration:"
+- "initWithContentsOfFile:cache:"
+- "initWithContentsOfURL:"
+- "initWithContentsOfURL:error:"
+- "initWithDatabase:dataSource:metadata:"
+- "initWithEntity:insertIntoManagedObjectContext:"
+- "initWithEntityName:"
+- "initWithFrame:style:"
+- "initWithIdentifier:"
+- "initWithMergeType:"
+- "initWithName:image:actionHandler:"
+- "initWithSourceView:"
+- "initWithSuiteName:"
+- "initWithURL:settings:error:"
+- "insertSublayer:atIndex:"
+- "insightsEntriesDelegate"
+- "intelligentToolbox"
+- "interactionControllerForDismissal:"
+- "interactionControllerForPresentation:"
+- "interactiveCoordinator"
+- "isCurrentlyDragging"
+- "isDiagnosticSubmissionAllowed"
+- "isEqualToAttributedString:"
+- "isInteractivelyDismissing"
+- "isKey"
+- "isLocked"
+- "isMigratedToProd"
+- "isOverScrollingLeft"
+- "isOverScrollingRight"
+- "isProtectedDataAvailable"
+- "isRecording"
+- "isTip = false OR isTip = nil"
+- "isWorkArray"
+- "journal"
+- "journalShared"
+- "jurassic-zone-changes-subscription-id"
+- "kMosaicCollectionViewCell"
+- "kSuggestedDateCell"
+- "key"
+- "keyWindow"
+- "keyboardDidHide:"
+- "keyboardManager"
+- "keyboardWillShow - Animating bottom constraint to keyboard constant."
+- "landscapeCropRect"
+- "largeContentViewerHUDController"
+- "largeContentViewerInteraction:didEndOnItem:atPoint:"
+- "largeContentViewerInteraction:itemAtPoint:"
+- "lastRightButtonX"
+- "lastTargetOffset"
+- "lastestPOIAnnotation"
+- "latestTimelineInsightsController"
+- "latestTimelineSearchController"
+- "leading middle trailing "
+- "leading topTrailing bottomTrailing "
+- "leading trailing height "
+- "leftButtonsStackView"
+- "line.3.horizontal.decrease"
+- "link"
+- "linkAsset"
+- "linkURL"
+- "listViewModel"
+- "livePhoto"
+- "localizedStringWithHeartRate:unitStyle:"
+- "locationFindResult"
+- "locationManager"
+- "locationManager:didChangeAuthorizationStatus:"
+- "locationManager:didDetermineState:forRegion:"
+- "locationManager:didEnterRegion:"
+- "locationManager:didExitRegion:"
+- "locationManager:didFailRangingBeaconsForConstraint:error:"
+- "locationManager:didFailWithError:"
+- "locationManager:didFinishDeferredUpdatesWithError:"
+- "locationManager:didRangeBeacons:inRegion:"
+- "locationManager:didRangeBeacons:satisfyingConstraint:"
+- "locationManager:didStartMonitoringForRegion:"
+- "locationManager:didUpdateHeading:"
+- "locationManager:didUpdateLocations:"
+- "locationManager:didUpdateToLocation:fromLocation:"
+- "locationManager:didVisit:"
+- "locationManager:monitoringDidFailForRegion:withError:"
+- "locationManager:rangingBeaconsDidFailForRegion:withError:"
+- "locationManagerDidChangeAuthorization:"
+- "locationManagerDidPauseLocationUpdates:"
+- "locationManagerDidResumeLocationUpdates:"
+- "locationManagerShouldDisplayHeadingCalibration:"
+- "locationPicker"
+- "lockIsProtectedDataAvailable"
+- "lockJournalState"
+- "lru"
+- "managedObjectIDForURIRepresentation:"
+- "mapURL"
+- "maps://maps.apple.com/?address="
+- "maxSize"
+- "mediaPicker"
+- "mediaPlayer"
+- "memCache"
+- "menuContentView"
+- "menuContentViewLeadingConstraint"
+- "menuSwipeView"
+- "menuTitle"
+- "menuURL"
+- "message"
+- "minimumSupportedAppVersionMode"
+- "minimumSyncTimeBeforeShowing"
+- "modelFilename"
+- "modelVersion"
+- "moment"
+- "momentDate"
+- "motionActivity"
+- "moveToPoint:"
+- "multiPinMap"
+- "naturalBGFrame"
+- "naturalIconFrame"
+- "navigateToFullScreenAssetViewer(for:selectedAssetPath:originView:)"
+- "navigationCoordinator"
+- "needsProcessing"
+- "newLocationIsCanceled"
+- "newLocationIsSelected"
+- "next"
+- "nextHasBlockQuote"
+- "notificationsAccessUrl"
+- "numResultsHeaderTag"
+- "numberOfExchanges"
+- "numberOfTimesPlayed"
+- "numberOfTouches"
+- "numberOfWorkouts"
+- "numberWithBool:"
+- "objectWithItemProviderData:typeIdentifier:error:"
+- "offlineErrorMinY"
+- "offlineStateView"
+- "onAppUnlock"
+- "onAudioRecordingCancelNotificationReceived"
+- "onButtonSelected:"
+- "onComplete"
+- "onSelect"
+- "openSensitiveURL:withOptions:"
+- "openURL:options:completionHandler:"
+- "overflowBarButtonItem"
+- "overflowTapped:"
+- "overflowTappedWithSender:"
+- "panningFrame"
+- "panningViewOriginalFrame"
+- "pauseImage"
+- "percentComplete"
+- "permissionMissingView"
+- "permissionSymbolSize"
+- "permissionViewMargin"
+- "persistedSnapshot"
+- "persistentStoreRemoteChangeWithNotification:"
+- "phAsset"
+- "picker:didFinishPicking:"
+- "pickerFrameChanged %f"
+- "pickerToolbar"
+- "place name labeled with work."
+- "placeholder"
+- "placeholderAsset"
+- "placement"
+- "playButtonSize"
+- "playImage"
+- "playingRes"
+- "plural action title to use the date from photos option when you have multiple photos"
+- "plural action title to use the date from videos option when you have multiple videos"
+- "plus button to create a new entry from the calendar view"
+- "popupMenuButton"
+- "portraitCropRect"
+- "preferredStatusBarStyle"
+- "prefs:root=JOURNAL"
+- "prefs:root=JOURNAL&path=NOTIFICATIONS"
+- "prefs:root=JOURNAL&path=journalingSchedule"
+- "prefs:root=JOURNAL&path=lockJournal"
+- "prefs:root=Privacy&path=JOURNALING_SUGGESTIONS"
+- "prepareCanvasForDimissal: Encountered unrecognize failure error - %@"
+- "prepareCanvasForDismissal()"
+- "prepareEntryForCanvas - Encountered unrecognized \"entryTitleOption\" value, %ld."
+- "prepareForDeletion"
+- "prepareToPlay"
+- "prepareToRecord"
+- "preselectedDate"
+- "presentPicker - Presenting %s w/ picker presentation."
+- "presentPicker - Presenting %s w/o picker presentation. Clearing focus."
+- "presentationControllerForPresentedViewController:presentingViewController:sourceViewController:"
+- "presentedTimelineSuggestionSheetConfig"
+- "prevHasBlockQuote"
+- "previous"
+- "previousDismissPercentComplete"
+- "print_entry_menu_item"
+- "processingFormat"
+- "promptManager"
+- "pulseAnimationCancellable"
+- "pulseAnimationKey"
+- "pulses1"
+- "pulses2"
+- "quantityWithUnit:doubleValue:"
+- "quarterDuration"
+- "radius"
+- "rangeOfCharacterFromSet:"
+- "rangeOfCharacterFromSet:options:"
+- "readIntoBuffer:error:"
+- "readIntoBuffer:frameCount:error:"
+- "readableTypeIdentifiersForItemProvider"
+- "receivedNotificationWithNotification:"
+- "reconfigureRowsAtIndexPaths:"
+- "record"
+- "recordButton"
+- "recordButtonDoubleTapped"
+- "recordButtonTapped"
+- "recordIDsToDelete"
+- "recordIDsToSave"
+- "recordZoneIDsToDeleteForSyncEngine:"
+- "recordZonesToSaveForSyncEngine:"
+- "recorder"
+- "recordingCancellable"
+- "recordingRes"
+- "red"
+- "redoBarButtonItem"
+- "redoTapped:"
+- "reduceMotionCancellable"
+- "reflectionIcon"
+- "reflectionPrompt"
+- "regionReferenceWiFiAsWLAN"
+- "registerClass:forCellReuseIdentifier:"
+- "registerDefaults:"
+- "reloadSections:withRowAnimation:"
+- "removeFromEngineToSave:recordIDs:"
+- "removeGestureRecognizer:"
+- "renderingSurfaceBounds"
+- "replaceOccurrencesOfString:withString:options:range:"
+- "requestWhenInUseAuthorization"
+- "resolve(mergeConflicts)"
+- "resolve(optimisticLockingConflicts)"
+- "resolveOptimisticLockingVersionConflicts:error:"
+- "rightButtonsStackView"
+- "saveAudioAndAssignFirstResponderToTextView"
+- "sceneDidBecomeActive"
+- "sceneDidBecomeActive: Attempted to process scene event before window was ready!"
+- "sceneDidBecomeActive: Lock already enforced."
+- "sceneDidBecomeActive: Tracking result - Not tracking"
+- "sceneDidBecomeActive: Tracking result - secondsLimit=%llu First launch detected, isLocked=TRUE"
+- "sceneDidBecomeActive: Tracking result - secondsLimit=%llu Protected Apps enforcement detected, isLocked=FALSE"
+- "sceneDidBecomeActive: Tracking result - secondsLimit=%llu secondsElapsed=%llu isLocked=%{bool}d"
+- "sceneDidEnterBackground: backgroundedAt=%llu"
+- "scheduleReminderNotification(_:enabled:)"
+- "scheduledReminder-0"
+- "scheduledReminders"
+- "second bullet point of onboarding about locking journal"
+- "secondaryContentView"
+- "selectedDateItem"
+- "selectedFilter"
+- "selectedViewController"
+- "sendChangesWithCompletionHandler:"
+- "setAccessibilityPath:"
+- "setAccessoryView:"
+- "setAllowsGroupBlending:"
+- "setAnimations:"
+- "setAssetOrdering:"
+- "setAutomaticSyncingEnabled:"
+- "setBackgroundImage:forState:"
+- "setBarTintColor:"
+- "setBeginTime:"
+- "setCancelsTouchesInView:"
+- "setContentsScale:"
+- "setCurrentTime:"
+- "setDesiredAccuracy:"
+- "setEdgesForExtendedLayout:"
+- "setEnableRate:"
+- "setEntryType:"
+- "setFill"
+- "setFrameLength:"
+- "setHidesSourceView:"
+- "setKeyTimes:"
+- "setLargeContentImage:"
+- "setLargeTitleTextAttributes:"
+- "setMeteringEnabled:"
+- "setModalPresentationCapturesStatusBarAppearance:"
+- "setNeedsToDeleteRecords:needsToDelete:"
+- "setNeedsToSaveRecords:needsToSave:"
+- "setReflectionIcon:"
+- "setReflectionPrompt:"
+- "setReflectionType:"
+- "setRepeatCount:"
+- "setResourceValue:forKey:error:"
+- "setSampleRateConverterQuality:"
+- "setSelected:"
+- "setSelectionStyle:"
+- "setShowSummaryInTimeline:"
+- "setSpeed:"
+- "setTimeOffset:"
+- "setTitleColor:forState:"
+- "setTitlePositionAdjustment:"
+- "setTransitioningDelegate:"
+- "setType:"
+- "setValues:"
+- "settingsBundle"
+- "settingsDefaults"
+- "setupMomentsNotificationsWithSchedule:options:handler:"
+- "shareSheet"
+- "sharedManager"
+- "shifter"
+- "showActionSheet"
+- "showSummaryInTimeline"
+- "showingLabel"
+- "showsInsights"
+- "sizeTypeChanged"
+- "skipLayoutInvalidation"
+- "slimAssetViewTopConstraint"
+- "snapshotViewAfterScreenUpdates:"
+- "sourceObject"
+- "standard"
+- "startTime"
+- "startUpdatingLocation"
+- "startingState"
+- "stateOfMindIdentifier"
+- "statusBarFrame"
+- "stop playing the current audio recording)"
+- "stopUpdatingLocation"
+- "storeDescription"
+- "storeFileProtectionType"
+- "streak"
+- "streakEvent"
+- "streakOrEntries"
+- "streakReminderEnabled"
+- "streakReminderTask"
+- "streamDescription"
+- "street"
+- "stringWithDuration:durationFormat:"
+- "strongToWeakObjectsMapTable"
+- "subTitle"
+- "subscriptionID"
+- "suggestedDateList"
+- "suggestedDateListFooterText"
+- "suggestionSheet"
+- "switchSyncEnable"
+- "syncEngine:accountChangedFromUserRecordID:toUserRecordID:"
+- "syncEngine:didCompleteModifyRecordsBatch:error:"
+- "syncEngine:didDeleteRecordWithID:"
+- "syncEngine:didDeleteRecordZoneWithID:"
+- "syncEngine:didEndFetchingChangesForZoneID:"
+- "syncEngine:didFetchRecord:"
+- "syncEngine:didSaveRecord:"
+- "syncEngine:didSaveRecordZone:"
+- "syncEngine:didUpdateMetadata:"
+- "syncEngine:failedToDeleteRecordWithID:error:"
+- "syncEngine:failedToDeleteRecordZoneWithID:error:"
+- "syncEngine:failedToFetchChangesForRecordZoneID:error:"
+- "syncEngine:failedToSaveRecord:error:"
+- "syncEngine:failedToSaveRecordZone:error:"
+- "syncEngine:nextBatchOfRecordsToModifyForZoneIDs:"
+- "syncEngine:recordToSaveForRecordID:"
+- "syncEngine:recordWithIDWasDeleted:recordType:"
+- "syncEngine:relatedApplicationBundleIdentifiersForZoneIDs:recordIDs:"
+- "syncEngine:shouldFetchAssetContentsForZoneID:"
+- "syncEngine:shouldFetchChangesForZoneID:"
+- "syncEngine:willBeginFetchingChangesForZoneIDs:"
+- "syncEngine:zoneWithIDChanged:"
+- "syncEngine:zoneWithIDWasDeleted:"
+- "syncEngine:zoneWithIDWasDeletedDueToUserEncryptedDataReset:"
+- "syncEngine:zoneWithIDWasPurged:"
+- "syncEngineDataSource"
+- "syncEngineDidEndFetchingChanges:"
+- "syncEngineDidEndModifyingPendingChanges:"
+- "syncEngineMetadataToSave"
+- "syncEngineWillBeginFetchingChanges:"
+- "syncEngineWillBeginModifyingPendingChanges:"
+- "syncenginedatasource"
+- "systemRedColor"
+- "tag"
+- "tail"
+- "tapLabel"
+- "tertiarySystemGroupedBackgroundColor"
+- "text.magnifyingglass"
+- "textDropInteraction"
+- "textEdgeInsets"
+- "textLength"
+- "textRectForBounds:limitedToNumberOfLines:"
+- "textViewWillBeginEditing - Changing to keyboard constraint."
+- "third bullet point of onboarding about journaling schedule"
+- "thirdPartyMedia"
+- "thirdPartyMediaAlbum"
+- "thirdPartyMediaArtist"
+- "timelineFilterButton"
+- "timelineScrollDelegate"
+- "titleDate"
+- "titleText"
+- "toggleAudioButton"
+- "toolbarBottomConstraint"
+- "toolbarKeyboardConstraint"
+- "topLeading bottomLeading  "
+- "topLeading bottomLeading trailing "
+- "topMargin"
+- "totalGroupWorkoutCaloriesBurnt"
+- "totalGroupWorkoutCaloriesBurntWithUnit"
+- "totalGroupWorkoutDuration"
+- "traitChangeRegistration"
+- "transcriptSegments"
+- "transform.scale.xy"
+- "transitionContainerView"
+- "transitionFullScreenSnapshotView"
+- "transitionGridSnapshotView"
+- "transitionGridView"
+- "transitioningContext"
+- "transitioningDelegate"
+- "undoBarButtonItem"
+- "undoTapped:"
+- "unitsCounterAssets"
+- "unitsCounterAttachments"
+- "unitsCounterEntries"
+- "unknown"
+- "updateData"
+- "updateDecibels"
+- "updateJournalEntryAssetFileAttachmentData"
+- "updateMenu"
+- "updateMeters"
+- "updatedDateSourceObject"
+- "useInteractiveMap"
+- "userInteractionDebouncingInterval"
+- "v16@?0B8B12"
+- "v2"
+- "v20@?0B8B12B16"
+- "v24@0:8@\"AVAudioPlayer\"16"
+- "v24@0:8@\"AVAudioRecorder\"16"
+- "v24@0:8@\"CKSyncEngine\"16"
+- "v24@0:8@\"CLLocationManager\"16"
+- "v24@?0@\"CKRecordZone\"8@\"NSError\"16"
+- "v28@0:8@\"AVAudioPlayer\"16B24"
+- "v28@0:8@\"AVAudioRecorder\"16B24"
+- "v28@0:8@\"CLLocationManager\"16i24"
+- "v28@0:8@16i24"
+- "v28@0:8B16@20"
+- "v3"
+- "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24"
+- "v32@0:8@\"AVAudioPlayer\"16Q24"
+- "v32@0:8@\"AVAudioRecorder\"16@\"NSError\"24"
+- "v32@0:8@\"AVAudioRecorder\"16Q24"
+- "v32@0:8@\"CKSyncEngine\"16@\"CKRecord\"24"
+- "v32@0:8@\"CKSyncEngine\"16@\"CKRecordID\"24"
+- "v32@0:8@\"CKSyncEngine\"16@\"CKRecordZone\"24"
+- "v32@0:8@\"CKSyncEngine\"16@\"CKRecordZoneID\"24"
+- "v32@0:8@\"CKSyncEngine\"16@\"NSArray\"24"
+- "v32@0:8@\"CKSyncEngine\"16@\"NSData\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLRegion\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLVisit\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSError\"24"
+- "v32@0:8@\"PHPickerViewController\"16@\"NSArray\"24"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecord\"24@\"NSError\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecordID\"24@\"CKRecordID\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecordID\"24@\"NSError\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecordID\"24@\"NSString\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecordZone\"24@\"NSError\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKRecordZoneID\"24@\"NSError\"32"
+- "v40@0:8@\"CKSyncEngine\"16@\"CKSyncEngineBatch\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconIdentityConstraint\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLLocation\"24@\"CLLocation\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconIdentityConstraint\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconRegion\"32"
+- "v40@0:8@\"CLLocationManager\"16q24@\"CLRegion\"32"
+- "v40@0:8{CGPoint=dd}16^{CGContext=}32"
+- "v48@0:8@\"UILargeContentViewerInteraction\"16@\"<UILargeContentViewerItem>\"24{CGPoint=dd}32"
+- "v48@0:8@16@24{CGPoint=dd}32"
+- "v48@0:8@16{CGPoint=dd}24^{CGPoint=dd}40"
+- "valueWithCGRect:"
+- "versionIdentifiers"
+- "viewControllerForLargeContentViewerInteraction:"
+- "viewPadding"
+- "visit"
+- "wapi"
+- "waveformMargin"
+- "waveformProvider"
+- "willEnterFullScreenView:"
+- "words"
+- "workoutIcon"
+- "workoutRoute"
+- "writingIntentWithURL:options:"
+- "zoneExistsAsync()"
+- "zoneKey"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "🔒 did show lock journal onboarding? :  "
+- "🔒 is lock on? : "
+- "🚀 Backgrounded App Launch Count:  "
+- "🚀 Launch Count:  "
+
+```

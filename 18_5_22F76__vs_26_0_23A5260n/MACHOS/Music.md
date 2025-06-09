@@ -1,0 +1,3283 @@
+## Music
+
+> `/private/var/staged_system_apps/Music.app/Music`
+
+```diff
+
+-4024.600.5.0.0
+-  __TEXT.__text: 0xc5e5a0
+-  __TEXT.__auth_stubs: 0xdf70
+-  __TEXT.__objc_stubs: 0x9580
+-  __TEXT.__objc_methlist: 0x10284
+-  __TEXT.__objc_methname: 0x20d70
+-  __TEXT.__cstring: 0x70236
+-  __TEXT.__objc_classname: 0x170d
+-  __TEXT.__objc_methtype: 0x8796
+-  __TEXT.__const: 0x49ec0
+-  __TEXT.__gcc_except_tab: 0x12e8
+-  __TEXT.__oslogstring: 0x15d5a
+-  __TEXT.__dlopen_cstrs: 0x1108
+-  __TEXT.__ustring: 0x134
+-  __TEXT.__constg_swiftt: 0x2b748
+-  __TEXT.__swift5_typeref: 0x4b7d8
+-  __TEXT.__swift5_builtin: 0x10cc
+-  __TEXT.__swift5_reflstr: 0x228a1
+-  __TEXT.__swift5_fieldmd: 0x1e938
+-  __TEXT.__swift5_assocty: 0x50d8
+-  __TEXT.__swift5_proto: 0x2dd8
+-  __TEXT.__swift5_types: 0x1f1c
+-  __TEXT.__swift5_capture: 0x15fe8
+-  __TEXT.__swift5_protos: 0x2a8
+-  __TEXT.__swift_as_entry: 0x1104
+-  __TEXT.__swift_as_ret: 0x1080
+-  __TEXT.__swift5_mpenum: 0x304
++4025.110.116.2.0
++  __TEXT.__text: 0xd6f944
++  __TEXT.__auth_stubs: 0xe9b0
++  __TEXT.__objc_stubs: 0x9800
++  __TEXT.__objc_methlist: 0x11ba4
++  __TEXT.__objc_methname: 0x224b7
++  __TEXT.__cstring: 0x74e8b
++  __TEXT.__objc_classname: 0x174a
++  __TEXT.__objc_methtype: 0x90dd
++  __TEXT.__const: 0x57df0
++  __TEXT.__gcc_except_tab: 0x105c
++  __TEXT.__oslogstring: 0x1864a
++  __TEXT.__dlopen_cstrs: 0xfe8
++  __TEXT.__ustring: 0x86
++  __TEXT.__constg_swiftt: 0x2f17c
++  __TEXT.__swift5_typeref: 0x50146
++  __TEXT.__swift5_builtin: 0x12c0
++  __TEXT.__swift5_reflstr: 0x26601
++  __TEXT.__swift5_fieldmd: 0x229a8
++  __TEXT.__swift5_assocty: 0x56e0
++  __TEXT.__swift5_proto: 0x3498
++  __TEXT.__swift5_types: 0x2288
++  __TEXT.__swift5_capture: 0x1720c
++  __TEXT.__swift5_protos: 0x2e0
++  __TEXT.__swift_as_entry: 0x1368
++  __TEXT.__swift_as_ret: 0x1260
++  __TEXT.__swift5_mpenum: 0x344
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x24828
+-  __TEXT.__eh_frame: 0x2fdd8
+-  __DATA_CONST.__auth_got: 0x6fc8
+-  __DATA_CONST.__got: 0x5b10
+-  __DATA_CONST.__auth_ptr: 0x6d58
+-  __DATA_CONST.__const: 0x64df0
+-  __DATA_CONST.__cfstring: 0x1e20
+-  __DATA_CONST.__objc_classlist: 0x1530
+-  __DATA_CONST.__objc_catlist: 0x118
+-  __DATA_CONST.__objc_protolist: 0x9d0
++  __TEXT.__unwind_info: 0x26850
++  __TEXT.__eh_frame: 0x35dd0
++  __DATA_CONST.__auth_got: 0x74e8
++  __DATA_CONST.__got: 0x60e8
++  __DATA_CONST.__auth_ptr: 0x6458
++  __DATA_CONST.__const: 0x6e490
++  __DATA_CONST.__cfstring: 0x1d40
++  __DATA_CONST.__objc_classlist: 0x1678
++  __DATA_CONST.__objc_catlist: 0x130
++  __DATA_CONST.__objc_protolist: 0xaa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x4b0
+-  __DATA_CONST.__objc_superrefs: 0x208
+-  __DATA_CONST.__objc_intobj: 0x90
+-  __DATA_CONST.__objc_arraydata: 0x28
+-  __DATA_CONST.__objc_arrayobj: 0x48
+-  __DATA.__objc_const: 0x35d68
+-  __DATA.__objc_selrefs: 0x8ff8
+-  __DATA.__objc_ivar: 0x390
+-  __DATA.__objc_data: 0x2ba28
+-  __DATA.__data: 0x40880
++  __DATA_CONST.__objc_protorefs: 0x520
++  __DATA_CONST.__objc_superrefs: 0x1e0
++  __DATA_CONST.__objc_doubleobj: 0x20
++  __DATA.__objc_const: 0x3af20
++  __DATA.__objc_selrefs: 0x9680
++  __DATA.__objc_ivar: 0x398
++  __DATA.__objc_data: 0x2d028
++  __DATA.__data: 0x425c8
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0x4e920
+-  __DATA.__common: 0x4c20
++  __DATA.__bss: 0x58f88
++  __DATA.__common: 0x5418
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
++  - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+
+   - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/MetalKit.framework/MetalKit
+   - /System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders
++  - /System/Library/Frameworks/ModelIO.framework/ModelIO
+   - /System/Library/Frameworks/MusicKit.framework/MusicKit
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Photos.framework/Photos
+
+   - /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/InAppMessagesCore.framework/InAppMessagesCore
++  - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/JetUI.framework/JetUI
+   - /System/Library/PrivateFrameworks/MPUFoundation.framework/MPUFoundation
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+
+   - /System/Library/PrivateFrameworks/MediaPlayerUI.framework/MediaPlayerUI
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
++  - /System/Library/PrivateFrameworks/MusicCarDisplayUI.framework/MusicCarDisplayUI
+   - /System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal
+   - /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
+   - /System/Library/PrivateFrameworks/MusicUI.framework/MusicUI
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/StoreServices.framework/StoreServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VFX.framework/VFX
+   - /System/Library/PrivateFrameworks/_MusicKitInternal_MediaPlaybackCore.framework/_MusicKitInternal_MediaPlaybackCore
+   - /System/Library/PrivateFrameworks/_MusicKitInternal_MediaPlayer.framework/_MusicKitInternal_MediaPlayer
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 7C5D58AB-2CAF-318B-9D3A-724BE6D2FE9F
+-  Functions: 51669
+-  Symbols:   7604
+-  CStrings:  14454
++  UUID: 20FC2E11-47B3-301D-A754-E695FEBE15BA
++  Functions: 55591
++  Symbols:   8005
++  CStrings:  15477
+ 
+Symbols:
++ _$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq
++ _$s10AppIntents0A6IntentPAAE14supportedModesAA0cE0VvgZ
++ _$s10AppIntents15IntentParameterCAASS9ValueTypeRtzrlE11description7default12inputOptions07requestE6Dialog0I18ConnectionBehaviorACyxG10Foundation23LocalizedStringResourceVSg_09UnwrappedF0QzSgYtSSAAE0c5InputJ0VSgAA0cL0VSgAA0tmN0OYttcfC
++ _$s10AppIntents15IntentParameterCAASb9ValueTypeRtzrlE11description7default11displayName07requestE6Dialog23inputConnectionBehaviorACyxG10Foundation23LocalizedStringResourceVSg_09UnwrappedF0QzSgYtSbAAE0c7DisplayJ0VSgAA0cL0VSgAA05InputnO0OYttcfC
++ _$s10Foundation11FormatStylePA2A4DateV07ISO8601bC0VRszrlE7iso8601AGvgZ
++ _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
++ _$s10Foundation12CharacterSetV6insert12charactersInySS_tF
++ _$s10Foundation12CharacterSetV6removeys7UnicodeO6ScalarVSgAHF
++ _$s10Foundation12NotificationV19_bridgeToObjectiveCSo14NSNotificationCyF
++ _$s10Foundation12NotificationV4name6object8userInfoACSo18NSNotificationNamea_ypSgSDys11AnyHashableVypGSgtcfC
++ _$s10Foundation14DateComponentsV19_bridgeToObjectiveCSo06NSDateC0CyF
++ _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC
++ _$s10Foundation18AttributeContainerVy5ValueQzSgxmcAA19AttributedStringKeyRzluis
++ _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
++ _$s10Foundation3URLV13DirectoryHintO03notC0yA2EmFWC
++ _$s10Foundation3URLV9appending10queryItemsACSayAA12URLQueryItemVG_tF
++ _$s10Foundation4DateV11FormatStyleV04TimeD0V8completeAGvgZ
++ _$s10Foundation4DateV11FormatStyleV0bD0V7numericAGvgZ
++ _$s10Foundation4DateV18ISO8601FormatStyleVAA0dE0AAMc
++ _$s10Foundation4DateV18ISO8601FormatStyleVMa
++ _$s10Foundation4DateV8distance2toSdAC_tF
++ _$s10Foundation6LocaleV10identifierSSvg
++ _$s10Foundation6LocaleV12LanguageCodeV10identifierSSvg
++ _$s10Foundation6LocaleV6RegionV10identifierSSvg
++ _$s10Foundation6LocaleV6RegionVMa
++ _$s10Foundation6LocaleV6RegionVMn
++ _$s10Foundation6LocaleV6ScriptV10identifierSSvg
++ _$s10Foundation6LocaleV6ScriptVMa
++ _$s10Foundation6LocaleV6ScriptVMn
++ _$s10Foundation6LocaleV6regionAC6RegionVSgvg
++ _$s10Foundation6LocaleV8LanguageV17maximalIdentifierSSvg
++ _$s10Foundation6LocaleV8LanguageV6scriptAC6ScriptVSgvg
++ _$s10Foundation6LocaleV8LanguageVMn
++ _$s10Foundation6LocaleV8languageAC8LanguageVvg
++ _$s10Foundation8CalendarVMn
++ _$s10Foundation9IndexPathV5UIKitE3rowSivg
++ _$s10ObjectiveC8SelectorV11descriptionSSvg
++ _$s10ObjectiveC8SelectorV2eeoiySbAC_ACtFZ
++ _$s11MediaCoreUI11MotionCacheC10fetchAsset3url22presentationResolution13cacheBucketID14loggingContextSo10AVURLAssetCSg10Foundation3URLV_So6CGSizeVSSSgAA011MCUILoggingO0VSgtYaF
++ _$s11MediaCoreUI11MotionCacheC10fetchAsset3url22presentationResolution13cacheBucketID14loggingContextSo10AVURLAssetCSg10Foundation3URLV_So6CGSizeVSSSgAA011MCUILoggingO0VSgtYaFTu
++ _$s11MediaCoreUI11MotionCacheC6sharedACvgZ
++ _$s11MediaCoreUI11MotionCacheCMa
++ _$s11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE16motionCollection6policyQrAA20MotionPlaybackPolicyO_tF
++ _$s11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE16motionCollection6policyQrAA20MotionPlaybackPolicyO_tFQOMQ
++ _$s11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE19motionCacheDownload6policyQrAA06MotionhI6PolicyO_tF
++ _$s11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE19motionCacheDownload6policyQrAA06MotionhI6PolicyO_tFQOMQ
++ _$s11MediaCoreUI13MCUINamespaceVAASo14NSUserDefaultsCRszlE13motionModeKeySSvgZ
++ _$s11MediaCoreUI13MCUINamespaceVMa
++ _$s11MediaCoreUI16MotionCacheActorC6sharedACvgZ
++ _$s11MediaCoreUI16MotionCacheActorCMa
++ _$s11MediaCoreUI16MotionCacheActorCScAAAMc
++ _$s11MediaCoreUI18MCUILoggingContextVMa
++ _$s11MediaCoreUI18MCUILoggingContextVMn
++ _$s11MediaCoreUI8BackdropO17CompositeRendererC17crossfadeDurationSfvgTj
++ _$s11MediaCoreUI8BackdropO17CompositeRendererC17crossfadeDurationSfvsTj
++ _$s15GroupActivities0A8ActivityP13_identifiable2by16staticIdentifierSbSS_SSSgtFZTq
++ _$s15GroupActivities0A8ActivityPAAE13_identifiable2by16staticIdentifierSbSS_SSSgtFZ
++ _$s16MusicKitInternal015LibraryPlaylistC19InclusionPropertiesMp
++ _$s16MusicKitInternal015LibraryPlaylistC19InclusionPropertiesP7isEmptySbvgTj
++ _$s16MusicKitInternal015LibraryPlaylistC19InclusionPropertiesP7isEmptySbvgTq
++ _$s16MusicKitInternal015LibraryPlaylistC6FilterP6parent0aB00E0VAAE6FolderVvgTj
++ _$s16MusicKitInternal015LibraryPlaylistC6FilterP6parent0aB00E0VAAE6FolderVvgTq
++ _$s16MusicKitInternal07GenericA4ItemO14playlistFolderyAC0aB08PlaylistVAAE0G0VcACmFWC
++ _$s16MusicKitInternal08PinnableA4ItemMp
++ _$s16MusicKitInternal0A13LibraryActionPAA0aB00aD0CAAE03PinE0VRszrlE3pinAHvgZ
++ _$s16MusicKitInternal0A13LibraryActionPAA0aB00aD0CAAE05UnpinE0VRszrlE5unpinAHvgZ
++ _$s16MusicKitInternal0A13LibraryActionPAA0aB00aD0CAAE09UpdatePinE0VRszrlE6update03pinE0AhA0aG0V0E0O_tFZ
++ _$s16MusicKitInternal0A14LibraryMappingV8ItemKindO14playlistFolderyA2EmFWC
++ _$s16MusicKitInternal0A19LibraryPinsObserverC13pinsPublisher7Combine19CurrentValueSubjectCy0aB00A14ItemCollectionVyAA0A3PinVGs5NeverOGvgTj
++ _$s16MusicKitInternal0A19LibraryPinsObserverC15maximumPinCountSivgTj
++ _$s16MusicKitInternal0A19LibraryPinsObserverC4pins0aB00A14ItemCollectionVyAA0A3PinVGvgTj
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV011duplicatingE0yACy0aB00E0VGA2GRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV01_abC12_MediaPlayerE08creatingE04name11description9userImage18coverArtworkRecipe8isPublic0Q7Visible7curator6tracks6folderACy0aB00E0VGSS_SSSgSo10CGImageRefaSgASSbSgAwO7CuratorVSgqd__SgAqAE6FolderVSgtAQRszSTRd__AO5TrackO7ElementRtd__lFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV08creatingE04name11description9userImage8isPublic0L7Visible7curatorACy0aB00E0VGSS_SSSgSo10CGImageRefaSgSbSgAsK7CuratorVSgtAMRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV14creatingFolder4name11description9userImage6parent8childrenACy0aB00E0VAAE0H0VGSS_SSSgSo10CGImageRefaSgANSgqd__SgtANRszSTRd__AN4ItemO7ElementRtd__lFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV16CompletionPolicyO010afterCloudD7ChangesyAEyx_GAGmAA0adE11RequestableRzlFWC
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV16CompletionPolicyOMn
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV16completionPolicyAC010CompletionH0Oyx_Gvs
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV7editing_4name11description9userImage6parentACy0aB00E0VAAE6FolderVGAM_SSSgAOSo10CGImageRefaSgAMSgtAMRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV7editing_4name11description9userImage8isPublic0L7Visible7curator6parentACy0aB00E0VGAN_SSSgAPSo10CGImageRefaSgSbSgAtL7CuratorVSgAnAE6FolderVSgtANRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV7editing_4name11description9userImage8isPublic0L7Visible7curatorACy0aB00E0VGAM_SSSgAOSo10CGImageRefaSgSbSgAsK7CuratorVSgtAMRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV7editing_4name11description9userImageACy0aB00E0VAAE6FolderVGAL_SSSgANSo10CGImageRefaSgtALRszrlFZ
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVy0aB00E0VAAE6FolderVGyYaKAKRszrlF
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVy0aB00E0VAAE6FolderVGyYaKAKRszrlFTu
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVy0aB00E0VGyYaKAIRszrlF
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVy0aB00E0VGyYaKAIRszrlFTu
++ _$s16MusicKitInternal0A22LibraryPlaylistRequestVMn
++ _$s16MusicKitInternal0A23LibraryPlaylistResponseV4itemxvg
++ _$s16MusicKitInternal0A23LibraryPlaylistResponseVMn
++ _$s16MusicKitInternal0A3PinV01_abC12_MediaPlayer28LegacyModelObjectConvertibleADWP
++ _$s16MusicKitInternal0A3PinV0aB008PlayableA4ItemAAMc
++ _$s16MusicKitInternal0A3PinV0aB00A4ItemAAMc
++ _$s16MusicKitInternal0A3PinV2id0aB00A6ItemIDVvg
++ _$s16MusicKitInternal0A3PinV4ItemO0aB00aE0AAMc
++ _$s16MusicKitInternal0A3PinV4ItemO10musicVideoyAE0aB00aG0VcAEmFWC
++ _$s16MusicKitInternal0A3PinV4ItemO4songyAE0aB04SongVcAEmFWC
++ _$s16MusicKitInternal0A3PinV4ItemO5albumyAE0aB05AlbumVcAEmFWC
++ _$s16MusicKitInternal0A3PinV4ItemO6artistyAE0aB06ArtistVcAEmFWC
++ _$s16MusicKitInternal0A3PinV4ItemO8playlistyAE0aB08PlaylistVcAEmFWC
++ _$s16MusicKitInternal0A3PinV4ItemOMa
++ _$s16MusicKitInternal0A3PinV4ItemOMn
++ _$s16MusicKitInternal0A3PinV4ItemOSQAAMc
++ _$s16MusicKitInternal0A3PinV4ItemOs23CustomStringConvertibleAAMc
++ _$s16MusicKitInternal0A3PinV4itemAC4ItemOvg
++ _$s16MusicKitInternal0A3PinV4itemAC4ItemOvpMV
++ _$s16MusicKitInternal0A3PinV5titleSSvg
++ _$s16MusicKitInternal0A3PinV6ActionO2eeoiySbAE_AEtFZ
++ _$s16MusicKitInternal0A3PinV6ActionO4playyA2EmFWC
++ _$s16MusicKitInternal0A3PinV6ActionO7shuffleyA2EmFWC
++ _$s16MusicKitInternal0A3PinV6ActionO8allCasesSayAEGvgZ
++ _$s16MusicKitInternal0A3PinV6ActionO8navigateyA2EmFWC
++ _$s16MusicKitInternal0A3PinV6ActionOMa
++ _$s16MusicKitInternal0A3PinV6ActionOMn
++ _$s16MusicKitInternal0A3PinV6ActionOSQAAMc
++ _$s16MusicKitInternal0A3PinV6actionAC6ActionOvg
++ _$s16MusicKitInternal0A3PinV7artwork0aB07ArtworkVSgvg
++ _$s16MusicKitInternal0A3PinV8positionSivg
++ _$s16MusicKitInternal0A3PinVAA08PinnableA4ItemAAMc
++ _$s16MusicKitInternal0A3PinVAA0A17LibraryActionableAAMc
++ _$s16MusicKitInternal0A3PinVMa
++ _$s16MusicKitInternal0A3PinVMn
++ _$s16MusicKitInternal0A3PinVSHAAMc
++ _$s16MusicKitInternal0A3PinVSQAAMc
++ _$s16MusicKitInternal0A3PinVs12IdentifiableAAMc
++ _$s16MusicKitInternal0A3PinVs23CustomStringConvertibleAAMc
++ _$s16MusicKitInternal12VideoArtworkVs23CustomStringConvertibleAAMc
++ _$s16MusicKitInternal31LibraryPlaylistFolderItemFilterP2id0aB00aG2IDVvgTj
++ _$s16MusicKitInternal31LibraryPlaylistFolderItemFilterP2id0aB00aG2IDVvgTq
++ _$s19CollectionsInternal10_HashTableV12UnsafeHandleV26firstOccupiedBucketInChain4withAC0I0VAI_tF
++ _$s19CollectionsInternal10_HashTableV15minimumCapacity8forScaleS2i_tFZ
++ _$s19CollectionsInternal13_UnsafeBitSetV014_withTemporarydE09wordCount3runySi_yACzKXEtKFZ
++ _$s19CollectionsInternal13_UnsafeBitSetV6removeySbSuF
++ _$s19CollectionsInternal13_UnsafeBitSetV8IteratorV4nextSuSgyF
++ _$s19CollectionsInternal13_UnsafeBitSetV9insertAll4upToySu_tF
++ _$s19CollectionsInternal17OrderedDictionaryVMa
++ _$s19CollectionsInternal17OrderedDictionaryVMn
++ _$s5UIKit15UICellAccessoryV13DeleteOptionsV8isHidden19reservedLayoutWidth9tintColor010backgroundL0AESbSg_AC0I9DimensionOSgSo7UIColorCSgAPtcfC
++ _$s5UIKit15UICellAccessoryV13DeleteOptionsVMa
++ _$s5UIKit15UICellAccessoryV6delete9displayed7options13actionHandlerA2C14DisplayedStateO_AC13DeleteOptionsVyycSgtFZ
++ _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__luigTj
++ _$s5UIKit24UICellConfigurationStateV10isDisabledSbvg
++ _$s5UIKit25UIBackgroundConfigurationV26listAccompaniedSidebarCellACyFZ
++ _$s5UIKit25UIBackgroundConfigurationV42edgesAddingLayoutMarginsToBackgroundInsetsSo21NSDirectionalRectEdgeVvs
++ _$s5UIKit28UIListSeparatorConfigurationV15automaticInsetsSo017NSDirectionalEdgeF0VvgZ
++ _$s5UIKit30UITraitTabAccessoryEnvironmentVAA0B10DefinitionAAWP
++ _$s5UIKit30UITraitTabAccessoryEnvironmentVMa
++ _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
++ _$s5UIKit6_GlassV01_B7VariantVMa
++ _$s5UIKit6_GlassV4tintyACSo7UIColorCF
++ _$s5UIKit6_GlassVMa
++ _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
++ _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
++ _$s7Combine10PublishersO0A6LatestVMn
++ _$s7Combine10PublishersO0A6LatestVyAEy_xq_Gx_q_tcfC
++ _$s7Combine10PublishersO0A6LatestVy_xq_GAA9PublisherAAMc
++ _$s7Combine10PublishersO0A7Latest4VMn
++ _$s7Combine10PublishersO0A7Latest4VyAEy_xq_q0_q1_Gx_q_q0_q1_tcfC
++ _$s7Combine10PublishersO0A7Latest4Vy_xq_q0_q1_GAA9PublisherAAMc
++ _$s7Combine10PublishersO10CompactMapV3mapyAEy_xqd__Gqd__q_clF
++ _$s7Combine10PublishersO10CompactMapVMn
++ _$s7Combine10PublishersO10CompactMapVy_xq_GAA9PublisherAAMc
++ _$s7Combine10PublishersO6FilterVMn
++ _$s7Combine10PublishersO6FilterVy_xGAA9PublisherAAMc
++ _$s7Combine14AnyCancellableCyACyyccfc
++ _$s7Combine16ObservableObjectP7SwiftUIE16environmentStores15WritableKeyPathCyAD17EnvironmentValuesVxSgGvgZ
++ _$s7Combine19CurrentValueSubjectCMn
++ _$s7Combine19CurrentValueSubjectCyxq_GAA9PublisherAAMc
++ _$s7Combine9PublisherPAAE10compactMapyAA10PublishersO07CompactD0Vy_xqd__Gqd__Sg6OutputQzclF
++ _$s7Combine9PublisherPAAE10replaceNil4withAA10PublishersO3MapVy_xqd__Gqd___tqd__Sg6OutputRtzlF
++ _$s7Combine9PublisherPAAE16removeDuplicates2byAA10PublishersO06RemoveD0Vy_xGSb6OutputQz_ALtc_tF
++ _$s7Combine9PublisherPAAE6filteryAA10PublishersO6FilterVy_xGSb6OutputQzcF
++ _$s7Combine9PublisherPAAs5NeverO7FailureRtzrlE6assign2toyAA9PublishedVABVy6OutputQz_Gz_tF
++ _$s7Combine9PublisherPAAs5NeverO7FailureRtzrlE6valuesAA05AsyncB0VyxGvg
++ _$s7MusicUI0A12PageProviderC13accountButton12displayStyle14stackAuthoritySo6UIViewCAA013SocialProfilef7DisplayH0O_AA0a5StackJ0CtF
++ _$s7MusicUI0A12PageProviderC28reportFeatureEngagementEventyyAA15UnifiedMessagesO0fgH0OF
++ _$s7MusicUI0A12PageProviderC9bootstrap7appTabs0f11DestinationcD00F6Player016entityAnnotationD015pinsCoordinator22sceneConnectionOptionsACyxq_GAA9BootstrapC_xq_AA0a3AppI0_pAA0a6EntitykD0_pAA0a4PinsM0_pSgSo07UISceneoP0Ctcfc
++ _$s7MusicUI0A13ConfigurationV14bagProfileName0dE7Version24mediaAPIClientIdentifier23privacyDisclaimerPolicyACSS_S2SAC07PrivacylM0OtcfC
++ _$s7MusicUI0A13ConfigurationV23PrivacyDisclaimerPolicyO013shouldPresentE0yA2EmFWC
++ _$s7MusicUI0A13ConfigurationV23PrivacyDisclaimerPolicyOMa
++ _$s7MusicUI0A14AppDestinationO16moveToFolderPageyAC0A3Kit8PlaylistVcACmFWC
++ _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV4KindOMn
++ _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV6SourceO04itemH0yAGSo014UIActivityItemH0_pcAGmFWC
++ _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV6SourceO4datayAG10Foundation4DataVcAGmFWC
++ _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV6SourceOMa
++ _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV6sourceAE6SourceOvg
++ _$s7MusicUI0A14AppDestinationO31libraryPlaylistFolderDetailPageyAC0A3Kit0F0V0aJ8InternalE0G0VcACmFWC
++ _$s7MusicUI0A14StackAuthorityC22navigationPathProviderAcA0a17NavigationMetricsfG0_p_tcfCTj
++ _$s7MusicUI0A5TabIDO5otheryACSS_tcACmFWC
++ _$s7MusicUI0A9AppPlayerP17playLibraryTracks2by0E14ActivityFieldsy0A3Kit6ArtistV_AA0a4PlayiJ0VSgtYaKFTq
++ _$s7MusicUI0A9AppPlayerP4play_11shuffleMode0E14ActivityFieldsyqd___AA07ShuffleG0OSgAA0a4PlayhI0VSgtYaKSTRd__0A11KitInternal07GenericA4ItemO7ElementRtd__lFTq
++ _$s7MusicUI0A9AppPlayerP4play_11shuffleMode4from0E14ActivityFieldsy0A11KitInternal07GenericA4ItemO_AA07ShuffleG0OSgqd__AA0a4PlayiJ0VSgtYaKSTRd__AJ7ElementRtd__lFTq
++ _$s7MusicUI15UnifiedMessagesO22FeatureEngagementEventO15libraryPinAddedyA2EmFWC
++ _$s7MusicUI15UnifiedMessagesO22FeatureEngagementEventOMa
++ _$s7MusicUI31SocialProfileButtonDisplayStyleO12titleAndIconyA2CmFWC
++ _$s7MusicUI31SocialProfileButtonDisplayStyleO8iconOnlyyA2CmFWC
++ _$s7MusicUI31SocialProfileButtonDisplayStyleOMa
++ _$s7MusicUI9BootstrapC13configurationAcA0A13ConfigurationV_tcfc
++ _$s7MusicUI9BootstrapC4loadACXDyF
++ _$s7MusicUI9BootstrapCMa
++ _$s7SwiftUI10AnimatablePA2A16VectorArithmeticRzrlE14animatableDataxvM
++ _$s7SwiftUI10AnimatablePA2A16VectorArithmeticRzrlE14animatableDataxvg
++ _$s7SwiftUI10AnimatablePA2A16VectorArithmeticRzrlE14animatableDataxvs
++ _$s7SwiftUI10AppStorageV12wrappedValue_5storeACyxGx_SSSo14NSUserDefaultsCSgtcSYRzSi03RawF0RtzlufC
++ _$s7SwiftUI10ScenePhaseOSQAAMc
++ _$s7SwiftUI11AnyLocationCMn
++ _$s7SwiftUI11StrokeStyleVN
++ _$s7SwiftUI11SubmitLabelV4doneACvgZ
++ _$s7SwiftUI11SubmitLabelVMa
++ _$s7SwiftUI11TransactionVN
++ _$s7SwiftUI11_ShadowViewVMn
++ _$s7SwiftUI12ControlGroupV7contentACyxGxyXE_tcfC
++ _$s7SwiftUI12ControlGroupVMn
++ _$s7SwiftUI12ControlGroupVyxGAA4ViewAAMc
++ _$s7SwiftUI14AnimatablePairVMn
++ _$s7SwiftUI14AnimatablePairVyxq_GAA16VectorArithmeticAAMc
++ _$s7SwiftUI15BackgroundStyleVAA05ShapeD0AAWP
++ _$s7SwiftUI15BackgroundStyleVN
++ _$s7SwiftUI15GraphicsContextV6stroke_4with9lineWidthyAA4PathV_AC7ShadingV04CoreC07CGFloatVtF
++ _$s7SwiftUI15GraphicsContextV7ShadingV5coloryAeA5ColorVFZ
++ _$s7SwiftUI15GraphicsContextV7opacitySdvs
++ _$s7SwiftUI15GraphicsContextV9drawLayer7contentyyACzKXE_tKF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE17accessibilityHintyACyxAEGAA18LocalizedStringKeyVF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE18accessibilityValueyACyxAEGAA4TextVF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE19accessibilityHiddenyACyxAEGSbF
++ _$s7SwiftUI15_PositionLayoutVMn
++ _$s7SwiftUI16RoundedRectangleVAA15InsettableShapeAAMc
++ _$s7SwiftUI16TagValueTraitKeyVMa
++ _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc
++ _$s7SwiftUI16VectorArithmeticMp
++ _$s7SwiftUI16VectorArithmeticP16magnitudeSquaredSdvgTq
++ _$s7SwiftUI16VectorArithmeticP5scale2byySd_tFTq
++ _$s7SwiftUI16VectorArithmeticPs08AdditiveD0Tb
++ _$s7SwiftUI17ButtonBorderShapeV16roundedRectangleACvgZ
++ _$s7SwiftUI17EnvironmentValuesV10scenePhaseAA05SceneF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV10scenePhaseAA05SceneF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV10scenePhaseAA05SceneF0Ovs
++ _$s7SwiftUI17_ShapeSubtractionVMn
++ _$s7SwiftUI18ColorRenderingModeO9nonLinearyA2CmFWC
++ _$s7SwiftUI18ColorRenderingModeOMa
++ _$s7SwiftUI18LocalizedStringKeyV14FormatArgumentVMn
++ _$s7SwiftUI19AccessibilityTraitsV18startsMediaSessionACvgZ
++ _$s7SwiftUI19AccessibilityTraitsVMn
++ _$s7SwiftUI19AccessibilityTraitsVs10SetAlgebraAAMc
++ _$s7SwiftUI19UIHostingControllerC8rootViewxvgTj
++ _$s7SwiftUI20ToolbarItemPlacementV14topBarTrailingACvgZ
++ _$s7SwiftUI21MenuControlGroupStyleVAA0deF0AAMc
++ _$s7SwiftUI21MenuControlGroupStyleVACycfC
++ _$s7SwiftUI21MenuControlGroupStyleVMa
++ _$s7SwiftUI21MenuControlGroupStyleVMn
++ _$s7SwiftUI21_TraitWritingModifierVMa
++ _$s7SwiftUI22UIHostingConfigurationV7marginsyACyxq_GAA4EdgeO3SetV_AA0F6InsetsVtF
++ _$s7SwiftUI24_TagTraitWritingModifierVMa
++ _$s7SwiftUI24_TagTraitWritingModifierVMn
++ _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAWP
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
++ _$s7SwiftUI4AxisO3SetVMn
++ _$s7SwiftUI4EdgeO3SetVMn
++ _$s7SwiftUI4FontV9TextStyleO6title2yA2EmFWC
++ _$s7SwiftUI4FontVN
++ _$s7SwiftUI4PathV7StorageON
++ _$s7SwiftUI4PathV9ellipseInACSo6CGRectV_tcfC
++ _$s7SwiftUI4PathVN
++ _$s7SwiftUI4ViewP018_MusicKitInternal_aB0E11musicPicker11isPresented9selection6reason12onCompletionQrAA7BindingVySbG_AKySayqd__GGAD0dH0V6ReasonOSgyAMYactAD08PickableD4ItemRd__lF
++ _$s7SwiftUI4ViewP018_MusicKitInternal_aB0E11musicPicker11isPresented9selection6reason12onCompletionQrAA7BindingVySbG_AKySayqd__GGAD0dH0V6ReasonOSgyAMYactAD08PickableD4ItemRd__lFQOMQ
++ _$s7SwiftUI4ViewPA2A10AnimatableRzrlE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
++ _$s7SwiftUI4ViewPA2A10AnimatableRzrlE05_makeC4List4view6inputsAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVtFZ
++ _$s7SwiftUI4ViewPAAE11submitLabelyQrAA06SubmitE0VF
++ _$s7SwiftUI4ViewPAAE11submitLabelyQrAA06SubmitE0VFQOMQ
++ _$s7SwiftUI4ViewPAAE17controlGroupStyleyQrqd__AA07ControleF0Rd__lF
++ _$s7SwiftUI4ViewPAAE17controlGroupStyleyQrqd__AA07ControleF0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lF
++ _$s7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA4TextV_AA7BindingVySbGAA0I0Oqd__yXEtAaBRd__lF
++ _$s7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA4TextV_AA7BindingVySbGAA0I0Oqd__yXEtAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE25accessibilitySortPriorityyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSdF
++ _$s7SwiftUI5ImageV13renderingModeyA2C017TemplateRenderingE0OSgF
++ _$s7SwiftUI5ImageV21TemplateRenderingModeO8templateyA2EmFWC
++ _$s7SwiftUI5ImageV21TemplateRenderingModeOMa
++ _$s7SwiftUI5ImageV21TemplateRenderingModeOMn
++ _$s7SwiftUI5LabelVA2A4TextVRszAA5ImageVRs_rlE_06systemE0ACyAeGGAA18LocalizedStringKeyV_SStcfC
++ _$s7SwiftUI5ShapeP4path2inAA4PathVSo6CGRectV_tFTj
++ _$s7SwiftUI6CanvasVA2A9EmptyViewVRszrlE6opaque9colorMode21rendersAsynchronously8rendererACyAEGSb_AA014ColorRenderingH0OSbyAA15GraphicsContextVz_So6CGSizeVtctcfC
++ _$s7SwiftUI6CanvasVMn
++ _$s7SwiftUI6CanvasVyxGAA4ViewAAMc
++ _$s7SwiftUI6SpringV16settlingDuration12dampingRatio7epsilonACSd_S2dtcfC
++ _$s7SwiftUI6SpringV5value9fromValue02toF015initialVelocity4timexx_xxSdtAA10AnimatableRzlF
++ _$s7SwiftUI8GridItemV4SizeO5fixedyAE12CoreGraphics7CGFloatVcAEmFWC
++ _$s7SwiftUI8GridItemV4SizeOMa
++ _$s7SwiftUI8GridItemVMa
++ _$s7SwiftUI8GridItemV_7spacing9alignmentA2C4SizeO_12CoreGraphics7CGFloatVSgAA9AlignmentVSgtcfC
++ _$s7SwiftUI8MaterialV9ultraThinACvgZ
++ _$s7SwiftUI8MaterialVAA10ShapeStyleAAWP
++ _$s7SwiftUI8SolariumVAA18ViewInputPredicateAAWP
++ _$s7SwiftUI8SolariumVACycfC
++ _$s7SwiftUI8SolariumVMn
++ _$s7SwiftUI8SolariumVN
++ _$s7SwiftUI8StaticIfVA2A18ViewInputPredicateRzAA0E0R_AaER0_rlE_4then4elseACyxq_q0_Gx_q_yXEq0_yXEtcfC
++ _$s7SwiftUI8StaticIfVMn
++ _$s7SwiftUI8StaticIfVyxq_q0_GAA4ViewA2A0E14InputPredicateRzAaER_AaER0_rlMc
++ _$s7SwiftUI9AnimationVN
++ _$s7SwiftUI9LazyVGridV7columns9alignment7spacing11pinnedViews7contentACyxGSayAA8GridItemVG_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgAA016PinnedScrollableI0VxyXEtcfC
++ _$s7SwiftUI9LazyVGridVMn
++ _$s7Symbols18BounceSymbolEffectV2upACvg
++ _$s7Symbols18BounceSymbolEffectVAA0cD0AAMc
++ _$s7Symbols18BounceSymbolEffectVACycfC
++ _$s7Symbols18BounceSymbolEffectVMa
++ _$s8MusicKit07PartialA8PropertyC0aB8InternalAA8PlaylistVRszlE6parentAA0a12RelationshipD0CyA2fDE6FolderVGvgZ
++ _$s8MusicKit0A14ItemCollectionVyxGSHAASHRzrlMc
++ _$s8MusicKit0A14LibraryRequestV6filter8matching8containsys7KeyPathCy0C6FilterQzAA0A14ItemCollectionVyqd__GSgG_qd__tAA0aK0Rd__lF
++ _$s8MusicKit0A14PropertySourceOSQAAMc
++ _$s8MusicKit0A7LibraryC0aB8InternalE05beginA12CatalogStoreyyF
++ _$s8MusicKit0A7LibraryC0aB8InternalE0D5ErrorO22maximumPinCountReachedyA2FmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE0D5ErrorOMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionV17UnsupportedReasonO06sharedC0yA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionV17UnsupportedReasonO15unsupportedTypeyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionV17UnsupportedReasonO7unknownyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionV17UnsupportedReasonO9notPinnedyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionV17UnsupportedReasonOMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionVAD0acF0ADWP
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionVMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE11UnpinActionVMn
++ _$s8MusicKit0A7LibraryC0aB8InternalE12pinsObserverAD0ac4PinsF0Cvg
++ _$s8MusicKit0A7LibraryC0aB8InternalE14DownloadStatusOSQADMc
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonO011unsupportedG0yA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonO06sharedC0yA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonO15unsupportedTypeyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonO7unknownyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonO9notPinnedyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionV17UnsupportedReasonOMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionVAD0acG0ADWP
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionVMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE15UpdatePinActionVMn
++ _$s8MusicKit0A7LibraryC0aB8InternalE16GenericItemStateC14downloadStatusAcDE08DownloadI0OSgvgTj
++ _$s8MusicKit0A7LibraryC0aB8InternalE19isRemovalRestrictedSbvg
++ _$s8MusicKit0A7LibraryC0aB8InternalE3pin_13defaultActionyx_AD0A3PinV0G0OtYaKAD08PinnableA4ItemRzlF
++ _$s8MusicKit0A7LibraryC0aB8InternalE3pin_13defaultActionyx_AD0A3PinV0G0OtYaKAD08PinnableA4ItemRzlFTu
++ _$s8MusicKit0A7LibraryC0aB8InternalE5unpinyyxYaKAD08PinnableA4ItemRzlF
++ _$s8MusicKit0A7LibraryC0aB8InternalE5unpinyyxYaKAD08PinnableA4ItemRzlFTu
++ _$s8MusicKit0A7LibraryC0aB8InternalE6removeyyAA8PlaylistVADE6FolderVYaKF
++ _$s8MusicKit0A7LibraryC0aB8InternalE6removeyyAA8PlaylistVADE6FolderVYaKFTu
++ _$s8MusicKit0A7LibraryC0aB8InternalE7movePin_8positionyAD0aF0V_SitYaKF
++ _$s8MusicKit0A7LibraryC0aB8InternalE7movePin_8positionyAD0aF0V_SitYaKFTu
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO05cloudC13InitialImportyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO05cloudC8RequiredyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO05notInC0yA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO06sharedC0yA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO13alreadyPinnedyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO15unsupportedTypeyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO20subscriptionRequiredyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO28allExplicitContentRestrictedyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO34subscriptionAccountLinkingRequiredyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonO7unknownyA2HmFWC
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionV17UnsupportedReasonOMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionVAD0acF0ADWP
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionVMa
++ _$s8MusicKit0A7LibraryC0aB8InternalE9PinActionVMn
++ _$s8MusicKit0A7LibraryC0aB8InternalE9updatePin_13defaultActionyAD0aF0V_AH0H0OtYaKF
++ _$s8MusicKit0A7LibraryC0aB8InternalE9updatePin_13defaultActionyAD0aF0V_AH0H0OtYaKFTu
++ _$s8MusicKit13ContentRatingO5cleanyA2CmFWC
++ _$s8MusicKit5AlbumV2eeoiySbAC_ACtFZ
++ _$s8MusicKit5TrackO01_aB16Internal_SwiftUI08PickableA4ItemADMc
++ _$s8MusicKit5TrackO01_aB20Internal_MediaPlayerEyACSgSo11MPModelSongCcfC
++ _$s8MusicKit6ArtistV0aB8InternalE10trackCountSiSgvg
++ _$s8MusicKit6ArtistV0aB8InternalE15cleanTrackCountSiSgvg
++ _$s8MusicKit6ArtistV0aB8InternalE20downloadedTrackCountSiSgvg
++ _$s8MusicKit6ArtistV0aB8InternalE25downloadedCleanTrackCountSiSgvg
++ _$s8MusicKit6ArtistV0aB8InternalE9biographySSSgvg
++ _$s8MusicKit6ArtistV16libraryAddedDate10Foundation0F0VSgvg
++ _$s8MusicKit8PlaylistV0aB8InternalE13CollaborationV20pendingCollaboratorsAA0A14ItemCollectionVyAcDE12CollaboratorVGSgvg
++ _$s8MusicKit8PlaylistV0aB8InternalE6FolderV01_abD12_MediaPlayer28LegacyModelObjectConvertibleAGWP
++ _$s8MusicKit8PlaylistV0aB8InternalE6FolderV2eeoiySbAF_AFtFZ
++ _$s8MusicKit8PlaylistV0aB8InternalE6FolderV4ItemO2eeoiySbAH_AHtFZ
++ _$s8MusicKit8PlaylistV0aB8InternalE6FolderV6parentAFSgvg
++ _$s8MusicKit8PlaylistV0aB8InternalE6parentAcDE6FolderVSgvg
++ _$s8MusicKit8PlaylistV5EntryV0aB8InternalE0E4ItemOAA0aF0AFMc
++ _$s9CarPlayUI10CPUIWindowC11windowSceneACSo08UIWindowF0C_tcfC
++ _$s9CarPlayUI10CPUIWindowCMa
++ _$s9CarPlayUI8GridViewC4BaseO09AccessoryE0Mp
++ _$s9CarPlayUI8GridViewC4BaseO09AccessoryE0P13isHighlightedSbvMTq
++ _$s9CarPlayUI8GridViewC4BaseO09AccessoryE0P13isHighlightedSbvgTq
++ _$s9CarPlayUI8GridViewC4BaseO09AccessoryE0P13isHighlightedSbvsTq
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV0H0O11PlaceholderO04cpuiJ0yAMSo014CPUINowPlayingJ4TypeVSgcAMmFWC
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV0H0O11PlaceholderO04objcJ0So08CPUIGridefeghJ0Cvg
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV0H0O11PlaceholderO06systemH0yAMSS_05SwiftC0AJV5ScaleOSgAO4FontV6WeightVSgtcAMmFWC
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV0H0O11PlaceholderOMa
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV0H0O11PlaceholderOMn
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV5ShapeO04objcJ0So08CPUIGridefeghJ0Vvg
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV5ShapeO13roundedSquareAKvgZ
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV5ShapeO6circleyA2KmFWC
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV5ShapeOMa
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC18ImageConfigurationV5ShapeOMn
++ _$s9JetEngine19AutomationSemanticsV10nowPlaying4name2idACSS_ypSgtFZ
++ _$s9JetEngine19AutomationSemanticsVMa
++ _$sS2ayxGycfC
++ _$sSD6ValuesVMn
++ _$sSD8IteratorV8_VariantOMa
++ _$sSDyxq_GSEsSERzSER_rlMc
++ _$sSDyxq_GSesSeRzSeR_rlMc
++ _$sSK11SubSequenceSl_SKTn
++ _$sSK5index6before5IndexQzAD_tFTq
++ _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSK5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSK7IndicesSl_SKTn
++ _$sSK8distance4from2toSi5IndexQz_AEtFTq
++ _$sSK9formIndex6beforey0B0Qzz_tFTq
++ _$sSKMp
++ _$sSKSlTb
++ _$sSS10describingSSx_tcs23CustomStringConvertibleRzlufC
++ _$sSS10uppercasedSSyF
++ _$sSTsE4lazys12LazySequenceVyxGvg
++ _$sSTsE6reduce4into_qd__qd__n_yqd__z_7ElementQztKXEtKlF
++ _$sSTsE7flatMapySayqd__Gqd__Sg7ElementQzKXEKlF
++ _$sSa9_getCountSiyF
++ _$sSb10AppIntentsE17IntentDisplayNameVMa
++ _$sSb10AppIntentsE17IntentDisplayNameVMn
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sScGMa
++ _$sScTss5NeverORs_rlE5valuexvg
++ _$sScTss5NeverORs_rlE5valuexvgTu
++ _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
++ _$sSf7SwiftUI16VectorArithmeticAAWP
++ _$sSfMn
++ _$sSfSEsWP
++ _$sSfSesWP
++ _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
++ _$sSh5IndexVMn
++ _$sShyxGSTsMc
++ _$sSk11SubSequenceSl_SkTn
++ _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSk5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSk7IndicesSl_SkTn
++ _$sSk8distance4from2toSi5IndexQz_AEtFTq
++ _$sSkMp
++ _$sSkSKTb
++ _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF
++ _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTj
++ _$sSl5index_8offsetBy5IndexQzAD_SitFTj
++ _$sSlsE5countSivpMV
++ _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
++ _$sSo023UITableViewHeaderFooterB0C5UIKitE20contentConfigurationAC09UIContentG0_pSgvs
++ _$sSo023UITableViewHeaderFooterB0C5UIKitE23backgroundConfigurationAC012UIBackgroundG0VSgvs
++ _$sSo11NLTokenizerC15NaturalLanguageE6tokens3forSaySnySS5IndexVGGAH_tF
++ _$sSo11UIImageViewC5UIKitE15addSymbolEffect_7options8animated10completionyx_7Symbols0eF7OptionsVSbyAC08UISymbolF17CompletionContextVcSgtAH08DiscreteeF0RzAH010IndefiniteeF0RzAH0eF0RzlF
++ _$sSo12UIEdgeInsetsV11MediaCoreUIE015directionalEdgeB015layoutDirectionABSo013NSDirectionalgB0V_So021UIUserInterfaceLayoutI0VtcfC
++ _$sSo12UIKeyCommandC5UIKitE5title5image6action5input13modifierFlags12propertyList10alternates20discoverabilityTitle10attributes5stateABSS_So7UIImageCSg10ObjectiveC8SelectorVSSSo0a8ModifierI0VypSgSaySo18UICommandAlternateCGSSSgSo23UIMenuElementAttributesVSo0wX5StateVtcfC
++ _$sSo13UIMenuBuilderP5UIKitE7command3for12propertyListSo9UICommandCSg10ObjectiveC8SelectorV_ypSgtF
++ _$sSo14NSUserDefaultsC11MediaCoreUIE4MCUIAC13MCUINamespaceVyABGmvgZ
++ _$sSo15UIBarButtonItemC5UIKitE5title5image6target6action4menuABSSSg_So7UIImageCSgyXlSg10ObjectiveC8SelectorVSgSo6UIMenuCSgtcfC
++ _$sSo15UITableViewCellC5UIKitE20contentConfigurationAC09UIContentF0_pSgvs
++ _$sSo26MPMediaItemAnimatedArtworkC11MediaPlayerE9artworkID26previewImageRequestHandler024videoAssetFileURLRequestL0ABSS_So7UIImageCSgSo6CGSizeVYac10Foundation3URLVSgAKYactcfC
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlF
++ _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4load_9isolationqd__AC15AVAsyncPropertyCyxqd__G_ScA_pSgYitYaKlFTu
++ _$sSo31UITabBarControllerSidebarLayoutV5UIKitE13_insetOverlapABvgZ
++ _$sSo33UITraitEnvironmentLayoutDirectionV7SwiftUIEyAbC0cD0OcfC
++ _$sSo39CPUIMediaContainerTableHeaderFooterViewC9CarPlayUIE7artwork8MusicKit7ArtworkVSgvs
++ _$sSo6UIViewC11MediaCoreUIE6CornerV2eeoiySbAE_AEtFZ
++ _$sSo6UIViewC5JetUIE22setAutomationSemanticsyy0B6Engine0eF0VF
++ _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
++ _$sSo9UICommandC5UIKitE5title8subtitle5image13selectedImage6action12propertyList10alternates20discoverabilityTitle10attributes5stateABSS_SSSgSo7UIImageCSgAQ10ObjectiveC8SelectorVypSgSaySo0A9AlternateCGANSo23UIMenuElementAttributesVSo0tU5StateVtcfC
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSy10FoundationE13lengthOfBytes5usingSiSSAAE8EncodingV_tF
++ _$sSy12RegexBuilderSs11SubSequenceRtzrlE5split9separator9maxSplits25omittingEmptySubsequencesSaySsGSS_SiSbtF
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
++ _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
++ _$ss10__CocoaSetV6member3foryXlAB5IndexV_tF
++ _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
++ _$ss11_MergeErrorON
++ _$ss11_MergeErrorOs0B0sWP
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12LazySequenceVMa
++ _$ss12LazySequenceVyxGSTsMc
++ _$ss12Zip2SequenceV8IteratorVMn
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$ss15ContiguousArrayV21_makeMutableAndUniqueyyF
++ _$ss15ContiguousArrayVMn
++ _$ss15ContiguousArrayVsSQRzlE2eeoiySbAByxG_ADtFZ
++ _$ss15ContiguousArrayVyAByxGqd__c7ElementQyd__RszSTRd__lufC
++ _$ss15ContiguousArrayVyxGSEsSERzlMc
++ _$ss15ContiguousArrayVyxGSesSeRzlMc
++ _$ss15ContiguousArrayVyxGSksMc
++ _$ss15ContiguousArrayVyxSicig
++ _$ss15LazyMapSequenceVMn
++ _$ss15LazyMapSequenceVyxq_GSKsSKRzrlMc
++ _$ss15WritableKeyPathCMa
++ _$ss15WritableKeyPathCMn
++ _$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF
++ _$ss18AdditiveArithmeticMp
++ _$ss18AdditiveArithmeticP1poiyxx_xtFZTq
++ _$ss18AdditiveArithmeticP1soiyxx_xtFZTq
++ _$ss18AdditiveArithmeticP2peoiyyxz_xtFZTq
++ _$ss18AdditiveArithmeticP2seoiyyxz_xtFZTq
++ _$ss18AdditiveArithmeticP4zeroxvgZTq
++ _$ss18AdditiveArithmeticPSQTb
++ _$ss18EnumeratedSequenceVyxGSlsSlRzrlMc
++ _$ss18_CocoaArrayWrapperVyyXlSicig
++ _$ss18_DictionaryStorageCMa
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySdSgSdm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2fm_xtKF
++ _$ss22KeyedDecodingContainerVMa
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySdSg_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySf_xtKF
++ _$ss22KeyedEncodingContainerVMa
++ _$ss32_diagnoseUnexpectedEnumCaseValue4type03rawE0s5NeverOxm_q_tr0_lF
++ _$ss3eeeoiySbyXlSg_ABtF
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5SIMD2VyxGSEsMc
++ _$ss5SIMD2VyxGSQsMc
++ _$ss5SIMD2VyxGSesMc
++ _$ss5SIMD3VyxGSEsMc
++ _$ss5SIMD3VyxGSQsMc
++ _$ss5SIMD3VyxGSesMc
++ _$ss5SIMD4VyxGSEsMc
++ _$ss5SIMD4VyxGSQsMc
++ _$ss5SIMD4VyxGSesMc
++ _$ss5SliceVyxGSKsSKRzrlMc
++ _$ss5SliceVyxGSksSkRzrlMc
++ _CATransform3DMakeTranslation
++ _CGColorCreateGenericRGB
++ _CGContextSetTextMatrix
++ _CGRectContainsRect
++ _CPUIGridViewBaseStyleMaximumNumberOfLinesUnspecified
++ _CTFontGetLanguageAwareOutsets
++ _CTLineCreateWithAttributedString
++ _CTRunGetImageBounds
++ _MCDGetNowPlayingBarButtonItem
++ _MPModelPropertyAlbumCleanSongCount
++ _MPModelPropertyAlbumDownloadedTrackCount
++ _MPModelPropertyAlbumHasExplicitContent
++ _MPModelPropertyAlbumSuperHeroTallEditorialArtwork
++ _MPModelPropertyArtistCleanDownloadedSongCount
++ _MPModelPropertyArtistCleanSongCount
++ _MPModelPropertyArtistDownloadedSongCount
++ _MPModelPropertyArtistSongCount
++ _MPModelPropertyLibraryPinDefaultAction
++ _MPModelPropertyLibraryPinEntityType
++ _MPModelPropertyLibraryPinPosition
++ _MPModelPropertyLibraryPinPositionUUID
++ _MPModelPropertyPlaylistDownloadedTrackCount
++ _MPModelPropertyPlaylistHasAnyCleanDownloadedTracks
++ _MPModelPropertyPlaylistHasAnyCleanTracks
++ _MPModelPropertyPlaylistSuperHeroTallEditorialArtwork
++ _MPModelPropertyPlaylistTrackCount
++ _MPModelPropertyRadioStationProviderName
++ _MPModelRelationshipLibraryPinAlbum
++ _MPModelRelationshipLibraryPinArtist
++ _MPModelRelationshipLibraryPinPlaylist
++ _MPModelRelationshipLibraryPinSong
++ _MPNowPlayingInfoProperty1x1AnimatedArtwork
++ _MPNowPlayingInfoProperty3x4AnimatedArtwork
++ _MTKMetalVertexDescriptorFromModelIO
++ _NSLanguageIdentifierAttributeName
++ _NSUnionRange
++ _OBJC_CLASS_$_CAPortalLayer
++ _OBJC_CLASS_$_CAReplicatorLayer
++ _OBJC_CLASS_$_CNAvatarView
++ _OBJC_CLASS_$_CNAvatarViewControllerSettings
++ _OBJC_CLASS_$_CNContact
++ _OBJC_CLASS_$_CPUIGridViewBaseStyleCondensedOptions
++ _OBJC_CLASS_$_CPUIGridViewBaseStyleImageGridOptions
++ _OBJC_CLASS_$_CPUIGridViewBaseStyleOptions
++ _OBJC_CLASS_$_CPUIGridViewBaseTableViewCell
++ _OBJC_CLASS_$_CPUIGridViewBaseViewModel
++ _OBJC_CLASS_$_CPUIGridViewBaseViewModelImagePlaceholder
++ _OBJC_CLASS_$_CPUIImageRowCellItemConfiguration
++ _OBJC_CLASS_$_CPUILimitedUITrait
++ _OBJC_CLASS_$_CPUIMediaContainerTableHeaderFooterView
++ _OBJC_CLASS_$_CPUINowPlayingButton
++ _OBJC_CLASS_$_CPUITableHeaderFooterView
++ _OBJC_CLASS_$_MCDNowPlayingViewController
++ _OBJC_CLASS_$_MDLMesh
++ _OBJC_CLASS_$_MPMediaItemAnimatedArtwork
++ _OBJC_CLASS_$_MPModelLibraryPin
++ _OBJC_CLASS_$_MPModelLibraryPinKind
++ _OBJC_CLASS_$_MPNowPlayingInfoCenter
++ _OBJC_CLASS_$_MSVLyricsTranslation
++ _OBJC_CLASS_$_MSVLyricsTransliteration
++ _OBJC_CLASS_$_MTKMesh
++ _OBJC_CLASS_$_MTKMeshBuffer
++ _OBJC_CLASS_$_MTKMeshBufferAllocator
++ _OBJC_CLASS_$_MTKSubmesh
++ _OBJC_CLASS_$_MTLFunctionDescriptor
++ _OBJC_CLASS_$_NLTokenizer
++ _OBJC_CLASS_$_NSConstantDoubleNumber
++ _OBJC_CLASS_$_NSCountableTextRange
++ _OBJC_CLASS_$_NSMutableString
++ _OBJC_CLASS_$_NSPointerArray
++ _OBJC_CLASS_$_NSTextContainer
++ _OBJC_CLASS_$_NSTextContentStorage
++ _OBJC_CLASS_$_NSTextLayoutManager
++ _OBJC_CLASS_$_SSMetricsDialogEvent
++ _OBJC_CLASS_$_UIBackgroundConfiguration
++ _OBJC_CLASS_$_UICommand
++ _OBJC_CLASS_$_UIMenuSystem
++ _OBJC_CLASS_$_UITabAccessory
++ _OBJC_CLASS_$_UITextField
++ _OBJC_CLASS_$__UIBackgroundExtensionView
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_METACLASS_$_CALayer
++ _OBJC_METACLASS_$_UIMenu
++ _OBJC_METACLASS_$_UIScrollView
++ _UIAccessibilityIsReduceTransparencyEnabled
++ _UIAccessibilityLayoutChangedNotification
++ _UIContentSizeCategoryExtraExtraLarge
++ _UIMenuEdit
++ _UIMenuFile
++ _UIMenuFind
++ _UIMenuFormat
++ _UIMenuSidebar
++ _UIMenuView
++ _UIMenuWindow
++ __MPNowPlayingInfoPropertyiTunesStoreIdentifier
++ __UIEnhancedMainMenuEnabled
++ __UISolariumFeatureFlagEnabled
++ __UITableViewDefaultSectionCornerRadiusForTraitCollection
++ __availability_version_check
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _arc4random_uniform
++ _dispatch_once_f
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _kCAMediaTimingFunctionEaseInEaseOut
++ _objc_release_x13
++ _objc_sync_enter
++ _objc_sync_exit
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _swift_dynamicCastObjCProtocolUnconditional
++ _swift_isUniquelyReferenced
++ _swift_setAtWritableKeyPath
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_unownedRelease
++ _swift_unownedRetain
++ _swift_unownedRetainStrong
+- _$s10AppIntents010_AssistantB8ProviderMp
+- _$s10AppIntents010_AssistantB8ProviderP14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderP15negativePhrasesSayAA01_C6IntentV08NegativecgF0VGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderP7intentsSayAA01_C6IntentVGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderPAAE14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZ
+- _$s10AppIntents16EntityIdentifierV3for10identifierACxm_2IDQztcAA0aC0RzlufC
+- _$s10AppIntents16_AssistantIntentV08NegativecD14PhrasesBuilderO10buildBlockySayAC0ecdF0VGAId_tFZ
+- _$s10AppIntents16_AssistantIntentV08NegativecD14PhrasesBuilderO15buildExpressionySayAC0ecdF0VGAHFZ
+- _$s10AppIntents16_AssistantIntentV08NegativecD7PhrasesV3for7phrasesAExm_SaySSGyXEtcAA0aD0RzlufC
+- _$s10AppIntents16_AssistantIntentV08NegativecD7PhrasesVMa
+- _$s10AppIntents16_AssistantIntentV08NegativecD7PhrasesVMn
+- _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers14PartialKeyPathCyxGs0iJ0Cyxqd__G_tcAA01_D5ValueRd__luig
+- _$s10AppIntents16_AssistantIntentV13PhraseBuilderO10buildBlockySayAC0E0Vy_xGGAJd_tFZ
+- _$s10AppIntents16_AssistantIntentV13PhraseBuilderO15buildExpressionySayAC0E0Vy_xGGAIFZ
+- _$s10AppIntents16_AssistantIntentV18StringValueBuilderO10buildBlockySaySSGAGd_tFZ
+- _$s10AppIntents16_AssistantIntentV18StringValueBuilderO15buildExpressionySaySSGSSFZ
+- _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO10buildBlockSayAC0F0VGyFZ
+- _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO10buildBlockySayAC0F0VGAId_tFZ
+- _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO15buildExpressionySayAC0F0VGAHFZ
+- _$s10AppIntents16_AssistantIntentV5ValueV3for7builderAEs14PartialKeyPathCyxG_SaySSGyXEtcAA0aD0RzlufC
+- _$s10AppIntents16_AssistantIntentV5ValueVMa
+- _$s10AppIntents16_AssistantIntentV5ValueVMn
+- _$s10AppIntents16_AssistantIntentV6PhraseV13stringLiteralAEy_xGSS_tcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yys14PartialKeyPathCyxGF
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV13appendLiteralyySSF
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV15literalCapacity18interpolationCountAGy_x_GSi_SitcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVMn
+- _$s10AppIntents16_AssistantIntentV6PhraseV19stringInterpolationAEy_xGAE06StringG0Vy_x_G_tcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseVMn
+- _$s10AppIntents16_AssistantIntentV7BuilderO10buildBlockySayACGAGd_tFZ
+- _$s10AppIntents16_AssistantIntentV7BuilderO15buildExpressionySayACGACFZ
+- _$s10AppIntents16_AssistantIntentVMa
+- _$s10AppIntents16_AssistantIntentVMn
+- _$s10AppIntents16_AssistantIntentV_7phrases15parameterValuesACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
+- _$s10AppIntents20StringSearchCriteriaVAA12_IntentValueAAMc
+- _$s10Foundation12CharacterSetV36_unconditionallyBridgeFromObjectiveCyACSo011NSCharacterC0CSgFZ
+- _$s10Foundation12CharacterSetV8containsySbs7UnicodeO6ScalarVF
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV014ParagraphStyleB0OMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0OMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV04FontB0OMn
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV14paragraphStyleAF09ParagraphgB0Ovg
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV14paragraphStyleAF09ParagraphgB0OvpMV
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV15foregroundColorAF010ForegroundgB0Ovg
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV15foregroundColorAF010ForegroundgB0OvpMV
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0Ovg
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV4fontAF04FontB0OvpMV
+- _$s10Foundation15AttributeScopesO5UIKitE0D10AttributesVMn
+- _$s10Foundation18AttributeContainerV13dynamicMember5ValueQzSgs7KeyPathCyAA0B13DynamicLookupOxG_tcAA016AttributedStringG0Rzluis
+- _$s10Foundation18IntegerFormatStyleV6localeACyxGAA6LocaleV_tcfC
+- _$s10Foundation18IntegerFormatStyleV8groupingyACyxGAA06NumbercD13ConfigurationO8GroupingVF
+- _$s10Foundation18IntegerFormatStyleVMn
+- _$s10Foundation18IntegerFormatStyleVyxGAA0cD0AAMc
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
+- _$s10Foundation22AttributeDynamicLookupO5UIKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
+- _$s10Foundation22AttributeDynamicLookupOMn
+- _$s10Foundation30NumberFormatStyleConfigurationO8GroupingV5neverAEvgZ
+- _$s10Foundation30NumberFormatStyleConfigurationO8GroupingVMa
+- _$s11MediaCoreUI36NowPlayingArtworkRestrictionsMonitorC16isMotionDisabledSbvgTj
+- _$s16MusicKitInternal0A17SearchResultGroupVMn
+- _$s16MusicKitInternal0A17SiriRepresentableP18siriRepresentationAA0adG0VvgTj
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV011duplicatingE0yAC0aB00E0VFZ
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV01_abC12_MediaPlayerE08creatingE04name11description9userImage18coverArtworkRecipe8isPublic0Q7Visible7curator6tracks6folderACSS_SSSgSo10CGImageRefaSgAOSbSgAS0aB07CuratorVSgxSgAT0E0VAAE6FolderVSgtSTRzAT5TrackO7ElementRtzlFZ
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV08creatingE04name11description9userImage8isPublic0L7Visible7curatorACSS_SSSgSo10CGImageRefaSgSbSgAO0aB07CuratorVSgtFZ
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV16CompletionPolicyO010afterCloudD7ChangesyA2EmFWC
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV16CompletionPolicyOMa
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV16completionPolicyAC010CompletionH0Ovs
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV7editing_4name11description9userImage8isPublic0L7Visible7curatorAC0aB00E0V_SSSgANSo10CGImageRefaSgSbSgArK7CuratorVSgtFZ
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVyYaKF
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestV8responseAA0adE8ResponseVyYaKFTu
+- _$s16MusicKitInternal0A22LibraryPlaylistRequestVMa
+- _$s16MusicKitInternal0A23LibraryPlaylistResponseV8playlist0aB00E0Vvg
+- _$s16MusicKitInternal0A23LibraryPlaylistResponseVMa
+- _$s22_GroupActivities_UIKit25ReactionEffectInteractionCACycfC
+- _$s5UIKit13UIContentViewP13configurationAA0B13Configuration_pvsTj
+- _$s5UIKit15UIPointerEffectO5hoveryACSo17UITargetedPreviewC_AC8TintModeOS2btcACmFWC
+- _$s5UIKit15UIPointerEffectO8TintModeO8underlayyA2EmFWC
+- _$s5UIKit15UIPointerEffectO8TintModeOMa
+- _$s5UIKit15UIPointerEffectO8TintModeOMn
+- _$s5UIKit25UIBackgroundConfigurationV15listSidebarCellACyFZ
+- _$s5UIKit28NSDiffableDataSourceSnapshotV13numberOfItemsSivg
+- _$s7MusicUI0A12PageProviderC13accountButton14stackAuthoritySo6UIViewCAA0a5StackH0C_tF
+- _$s7MusicUI0A12PageProviderC13configuration7appTabs0f11DestinationcD00F6Player016entityAnnotationD0ACyxq_GAA0A13ConfigurationV_xq_AA0a3AppI0_pAA0a6EntitykD0_ptcfc
+- _$s7MusicUI0A12PageProviderC5start22sceneConnectionOptionsACyxq_GXDSo07UIScenegH0C_tF
+- _$s7MusicUI0A13ConfigurationV14bagProfileName0dE7Version24mediaAPIClientIdentifierACSS_S2StcfC
+- _$s7MusicUI0A14AppDestinationO19SharePageDescriptorV4data10Foundation4DataVvg
+- _$s7MusicUI0A14StackAuthorityC22navigationPathProviderAcA0a17NavigationMetricsfG0_p_tcfc
+- _$s7MusicUI0A29NavigationMetricsPathProviderP07metricsE0SayAA0A18PlayActivityFieldsVGvgTj
+- _$s7MusicUI0A42StackAuthorityNavigationControllerDelegateP3popyyFTj
+- _$s7MusicUI0A42StackAuthorityNavigationControllerDelegateP4push_18playActivityFieldsySo06UIViewF0C_AA0a4PlayjK0VtFTj
+- _$s7MusicUI0A42StackAuthorityNavigationControllerDelegateP9popToRootyyFTj
+- _$s7MusicUI0A9AppPlayerP4play_4from0E14ActivityFieldsy0A11KitInternal07GenericA4ItemO_qd__AA0a4PlaygH0VSgtYaKSTRd__AI7ElementRtd__lFTq
+- _$s7SwiftUI10AppStorageV12wrappedValue_5storeACySbGSb_SSSo14NSUserDefaultsCSgtcSbRszlufC
+- _$s7SwiftUI10AppStorageV12wrappedValuexvs
+- _$s7SwiftUI10AppStorageV14projectedValueAA7BindingVyxGvg
+- _$s7SwiftUI10AppStorageV_5storeACyqd__SgGSS_So14NSUserDefaultsCSgtcAERszSYRd__Si8RawValueRtd__lufC
+- _$s7SwiftUI11DragGestureVMa
+- _$s7SwiftUI11ShadowStyleVMa
+- _$s7SwiftUI15BackgroundStyleVMn
+- _$s7SwiftUI16TagValueTraitKeyVMn
+- _$s7SwiftUI17EnvironmentObjectV14projectedValueAC7WrapperVyx_Gvg
+- _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAMc
+- _$s7SwiftUI25_AlignmentWritingModifierVN
+- _$s7SwiftUI4TextV12MeasurementsVAEycfC
+- _$s7SwiftUI4TextV12MeasurementsVMa
+- _$s7SwiftUI4TextV12MeasurementsVMn
+- _$s7SwiftUI4ViewP018_MusicKitInternal_aB0E11musicPicker11isPresented9selection6reason12onCompletionQrAA7BindingVySbG_AKySayqd__GGAD0dH0V6ReasonOSgyAMYact0deF008PickableD4ItemRd__lF
+- _$s7SwiftUI4ViewP018_MusicKitInternal_aB0E11musicPicker11isPresented9selection6reason12onCompletionQrAA7BindingVySbG_AKySayqd__GGAD0dH0V6ReasonOSgyAMYact0deF008PickableD4ItemRd__lFQOMQ
+- _$s7SwiftUI4ViewP09MediaCoreB0E16motionCollection6policyQrAD20MotionPlaybackPolicyO_tF
+- _$s7SwiftUI4ViewP09MediaCoreB0E16motionCollection6policyQrAD20MotionPlaybackPolicyO_tFQOMQ
+- _$s7SwiftUI4ViewP09MediaCoreB0E19motionCacheDownload6policyQrAD06MotiongH6PolicyO_tF
+- _$s7SwiftUI4ViewP09MediaCoreB0E19motionCacheDownload6policyQrAD06MotiongH6PolicyO_tFQOMQ
+- _$s7SwiftUI4ViewPAAE11contextMenu9menuItems7previewQrqd__yXE_qd_0_yXEtAaBRd__AaBRd_0_r0_lF
+- _$s7SwiftUI4ViewPAAE11contextMenu9menuItems7previewQrqd__yXE_qd_0_yXEtAaBRd__AaBRd_0_r0_lFQOMQ
+- _$s7SwiftUI4ViewPAAE11scaleEffect1x1y6anchorQr12CoreGraphics7CGFloatV_AjA9UnitPointVtF
+- _$s7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA0I0Oqd__yXEtAaBRd__lF
+- _$s7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA0I0Oqd__yXEtAaBRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE18navigationBarItems8trailingQrqd___tAaBRd__lF
+- _$s7SwiftUI4ViewPAAE18navigationBarItems8trailingQrqd___tAaBRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE18onPreferenceChange_7performQrqd__m_y5ValueQyd__ctAA0E3KeyRd__SQAGRQlF
+- _$s7SwiftUI5ColorVSQAAMc
+- _$s7SwiftUI7DividerVAA4ViewAAMc
+- _$s7SwiftUI7SectionVMa
+- _$s7SwiftUI9TextFieldVA2A0C0VRszrlE_4text16onEditingChanged0F6CommitACyAEGAA18LocalizedStringKeyV_AA7BindingVySSGySbcyyctcfC
+- _$s8MusicKit07PartialA8PropertyC0aB8InternalAA8PlaylistVADE6FolderVRszlE8childrenAA0a12RelationshipD0CyA2H4ItemOGvgZ
+- _$s8MusicKit0A14LibrarySectionV5itemsAA0A14ItemCollectionVyq_GvpMV
+- _$s8MusicKit0A23LibrarySectionedRequestV28includeOnlyDownloadedContentSbvg
+- _$s8MusicKit0A4ItemP0aB8InternalAA0A17PropertyContainerRzSeRzrlE4with_15preferredSource28includeOnlyDownloadedContentxSayAA07Partiala5AsyncE0CyxGG_AA0aeI0OSgSbtYaKF
+- _$s8MusicKit0A4ItemP0aB8InternalAA0A17PropertyContainerRzSeRzrlE4with_15preferredSource28includeOnlyDownloadedContentxSayAA07Partiala5AsyncE0CyxGG_AA0aeI0OSgSbtYaKFTu
+- _$s8MusicKit12PreviewAssetVMn
+- _$s8MusicKit5TrackO0aB8Internal08PickableA4ItemADMc
+- _$s8MusicKit7ArtworkV0aB8InternalE3url5width6height9cropStyle6format10Foundation3URLVSgSi_SiAcDE04CropI0VAcDE11ImageFormatOtF
+- _$s8MusicKit7ArtworkVs23CustomStringConvertibleAAMc
+- _$s8MusicKit8PlaylistV0aB8InternalE6FolderV8childrenAA0A14ItemCollectionVyAF0G0OGSgvg
+- _$s8MusicKit8PlaylistV0aB8InternalE6FolderVSeADMc
+- _$s9CarPlayUI8GridViewC06SquareD0O4CellVMn
+- _$s9CarPlayUI8GridViewC06SquareD0O6LayoutVAcfAWP
+- _$s9CarPlayUI8GridViewC06SquareD0O6LayoutVMa
+- _$s9CarPlayUI8GridViewC06SquareD0OMn
+- _$s9CarPlayUI8GridViewC10dataSourceAC04DataG0_pSgvsTj
+- _$s9CarPlayUI8GridViewC10updateDatayyFTj
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0O02uiH0yAKSo7UIImageCcAKmFWC
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0O11PlaceholderO04cpuiJ0yAMSo014CPUINowPlayingJ4TypeVSgcAMmFWC
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0O11PlaceholderOMa
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0O11PlaceholderOMn
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0O7artworkyAK8MusicKit7ArtworkV_AK11PlaceholderOSgtcAKmFWC
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV0H0OMa
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV5ShapeOMa
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV5ShapeOMn
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationV5image5shapeA2I0H0O_AI5ShapeOSgtcfC
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV18ImageConfigurationVMa
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelV2id5title18imageConfiguration6actionAGSS_SSAG05ImageK0VyyctcfC
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelVMa
+- _$s9CarPlayUI8GridViewC4BaseO0E5ModelVMn
+- _$s9CarPlayUI8GridViewC4BaseO0F10DataSourceC10viewModelsAGy__xGSayAE0E5ModelVG_tcfc
+- _$s9CarPlayUI8GridViewC4BaseO0F10DataSourceCMn
+- _$s9CarPlayUI8GridViewC4BaseO0F10DataSourceCy__xGAE0gH0AAMc
+- _$s9CarPlayUI8GridViewC4BaseO10DataSourceMp
+- _$s9CarPlayUI8GridViewC4BaseO10DataSourceP10viewModelsSayAE0E5ModelVGvgTj
+- _$s9CarPlayUI8GridViewC4BaseO10DataSourceP10viewModelsSayAE0E5ModelVGvsTj
+- _$s9CarPlayUI8GridViewC4BaseOMn
+- _$s9CarPlayUI8GridViewC4PinsO4CellVMn
+- _$s9CarPlayUI8GridViewC4PinsO6LayoutVAcfAWP
+- _$s9CarPlayUI8GridViewC4PinsO6LayoutVMa
+- _$s9CarPlayUI8GridViewC4PinsOMn
+- _$s9CarPlayUI8GridViewC6LayoutMp
+- _$s9CarPlayUI8GridViewC6LayoutPAaC06SquareD0OADVRszrlE06squareD0AHvgZ
+- _$s9CarPlayUI8GridViewC6LayoutPAaC4PinsOADVRszrlE4pinsAHvgZ
+- _$s9CarPlayUI8GridViewC6layoutAC6Layout_pvsTj
+- _$s9CarPlayUI8GridViewCMa
+- _$s9CarPlayUI8GridViewCMn
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC
+- _$sSH9hashValueSivgTj
+- _$sSS10AppIntents12_IntentValueAAMc
+- _$sSS6append10contentsOfySs_tF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSa1poiySayxGAB_ABtFZ
+- _$sSayxGSHsSHRzlMc
+- _$sSo12CGContextRefa12CoreGraphicsE10showGlyphs_2atySays6UInt16VG_SaySo7CGPointVGtF
+- _$sSo12CGContextRefa12CoreGraphicsE12textPositionSo7CGPointVvg
+- _$sSo12CGContextRefa12CoreGraphicsE12textPositionSo7CGPointVvs
+- _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKF
+- _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKFTu
+- _$sSo20MPStoreLyricsRequestC29_MusicKitInternal_MediaPlayerE4songAB0dE04SongV_tcfC
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlF
+- _$sSo29AVAsynchronousKeyValueLoadingP12AVFoundationE4loadyqd__AC15AVAsyncPropertyCyxqd__GYaKlFTu
+- _$sSo6CGRectV11MediaCoreUIE6centerSo7CGPointVvs
+- _$sSo8UIButtonC5UIKitE13ConfigurationV19_bridgeToObjectiveCSo0aC0CyF
+- _$sSo8UIButtonC5UIKitE13ConfigurationVSQACMc
+- _$sSs5index5afterSS5IndexVAD_tF
+- _$sSs5index_8offsetBySS5IndexVAD_SitF
+- _$sSsSHsWP
+- _$sSss25LosslessStringConvertiblesWP
+- _$sSsySJSS5IndexVcig
+- _$sSsySsSnySS5IndexVGcig
+- _$sSz10FoundationE9formattedy12FormatOutputQyd__qd__0C5InputQyd__RszAA0C5StyleRd__lF
+- _$ss10AnyKeyPathCSHsWP
+- _$ss10AnyKeyPathCSQsWP
+- _$ss11_StringGutsV27foreignErrorCorrectedScalar10startingAts7UnicodeO0F0V_Si12scalarLengthtSS5IndexV_tF
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _$ss15ContinuousClockVABycfC
+- _$ss17__CocoaDictionaryV8IteratorC7nextKeyyXlSgyF
+- _$sxSg10AppIntents12_IntentValueA2bCRzlMc
+- _CARSessionLimitUserInterfacesChangedNotification
+- _CC_MD5_Final
+- _CC_MD5_Update
+- _CC_SHA1_Final
+- _CC_SHA1_Init
+- _CC_SHA1_Update
+- _CC_SHA256_Final
+- _CC_SHA256_Update
+- _CC_SHA512_Final
+- _CC_SHA512_Update
+- _CFStringCreateWithBytes
+- _CGContextFillRect
+- _CTFramesetterCreateWithAttributedString
+- _CTParagraphStyleCreate
+- _MRMediaRemoteRegisterForNowPlayingNotifications
+- _MRMediaRemoteUnregisterForNowPlayingNotifications
+- _MobileGestalt_get_hevcDecoder8BitSupported
+- _MobileGestalt_get_watchCompanionCapability
+- _NLLanguageArabic
+- _NLLanguageHebrew
+- _OBJC_CLASS_$_CATransformLayer
+- _OBJC_CLASS_$_CPUINowPlayingButtonWrapperView
+- _OBJC_CLASS_$_MPUMarqueeView
+- _OBJC_CLASS_$_MRCommandInfo
+- _OBJC_CLASS_$_MRNowPlayingController
+- _OBJC_CLASS_$_MRNowPlayingControllerConfiguration
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_METACLASS_$_UIAlertAction
+- _UIAccessibilityScreenChangedNotification
+- __NSIsNSString
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _kMRMediaRemoteCommandInfoSupportedPlaybackSessionTypes
+- _ldiv
+- _lldiv
+- _malloc_type_calloc
+- _swift_getTupleTypeLayout2
+CStrings:
++ "\n\nDescribe your issue with Suntory feature.\nIf possible please add a screenrecording of the issue."
++ "\n\nIf the transition did not occur between the above 2 tracks, please provide the 2 tracks.\n\n\n\nHow was the transition quality? (Great, smooth, abrupt, too long, poor audio quality, etc.)\n\n\n\nWhat did you hear during the transition that stuck out to you? Please be specific\nSome examples could include: audio glitches, misaligned beats, clashing vocals, drastic volume changes, etc. \n\n\n\nTap-To-Radar draft started at "
++ "\nCurrent translation: "
++ "\nCurrent transliteration: "
++ "\nIncoming Track: "
++ "\nLayout margins: "
++ "\nOriginal language: "
++ "\nPreferred locales: "
++ "   — Null Snapshot"
++ "   — Snapshot: %{public}s"
++ "   — automaticallyUpdates: %{bool,public}d"
++ "   — isBackgrounded: %{bool,public}d"
++ "   — isLiveContent: %{bool,public}d"
++ "   — isRateNull: %{bool,public}d"
++ " - a mutually exclusive action is supported"
++ " - including unsupported, reason: "
++ " -> should pause: %{bool,public}d"
++ " Playlist(s) · "
++ " folder(s) moved to"
++ " playlist(s) moved to"
++ " popToRootIfSelected "
++ " things to your library."
++ " will appear here."
++ "$__lazy_storage_$_cache"
++ "$__lazy_storage_$_containerView"
++ "$__lazy_storage_$_contextSymbolButton"
++ "$__lazy_storage_$_contextSystemButton"
++ "$__lazy_storage_$_displayNameLabel"
++ "$__lazy_storage_$_editingTrailingBarButtonGroup"
++ "$__lazy_storage_$_favoriteBarButtonItem"
++ "$__lazy_storage_$_favoriteSymbolButton"
++ "$__lazy_storage_$_favoriteSystemButton"
++ "$__lazy_storage_$_metalView"
++ "$__lazy_storage_$_moveButton"
++ "$__lazy_storage_$_nowPlayingInfoCenterPublisher"
++ "$__lazy_storage_$_pinCellRegistration"
++ "$__lazy_storage_$_playShuffleBarButtonGroups"
++ "$__lazy_storage_$_plusBarButtonItem"
++ "$__lazy_storage_$_rpd"
++ "$__lazy_storage_$_standardTrailingBarButtonGroup"
++ "$__lazy_storage_$_submenus"
++ "$__lazy_storage_$_trailingBarButtonItemGroup"
++ "%d.%d.%d"
++ "%{public}s: Live content playing; Elapsed time set to `nil`"
++ "%{public}s: Null duration snapshot; Elapsed time set to `nil`"
++ "%{public}s: Received windowScene=%{public}s"
++ "%{public}s: Removed windowScene=%{public}s"
++ "%{public}s| ↳♻️ Reusing tab for playlist %{public}s"
++ "%{public}s| ↳♻️📁 Reusing tab for folder %{public}s"
++ "%{public}s| ❌ Skipping playlist: Duplicate identifier found for %{public}s"
++ "%{public}s| 📁❌ Skipping folder tab: Duplicate identifier found for %{public}s"
++ "(OperationGroup in _BE7A40D2342480114FBB3D09428E1269)"
++ ", or start a station to hear similar music."
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "/pins"
++ "/syllable-lyrics"
++ "/var/mobile/Media/ttml/"
++ "12"
++ "<unknown album>, loadingSource:"
++ "<unknown playlist>"
++ "@\"<MTL4Archive>\"32@0:8@\"NSURL\"16^@24"
++ "@\"<MTL4ArgumentTable>\"32@0:8@\"MTL4ArgumentTableDescriptor\"16^@24"
++ "@\"<MTL4CommandAllocator>\"16@0:8"
++ "@\"<MTL4CommandAllocator>\"32@0:8@\"MTL4CommandAllocatorDescriptor\"16^@24"
++ "@\"<MTL4CommandBuffer>\"16@0:8"
++ "@\"<MTL4CommandQueue>\"16@0:8"
++ "@\"<MTL4CommandQueue>\"32@0:8@\"MTL4CommandQueueDescriptor\"16^@24"
++ "@\"<MTL4Compiler>\"32@0:8@\"MTL4CompilerDescriptor\"16^@24"
++ "@\"<MTL4CounterHeap>\"32@0:8@\"MTL4CounterHeapDescriptor\"16^@24"
++ "@\"<MTL4PipelineDataSetSerializer>\"24@0:8@\"MTL4PipelineDataSetSerializerDescriptor\"16"
++ "@\"<MTLArgumentEncoder>\"24@0:8Q16"
++ "@\"<MTLArgumentEncoder>\"32@0:8Q16^@24"
++ "@\"<MTLBuffer>\"40@0:8Q16Q24q32"
++ "@\"<MTLComputePipelineState>\"32@0:8@\"NSArray\"16^@24"
++ "@\"<MTLFunctionHandle>\"24@0:8@\"<MTL4BinaryFunction>\"16"
++ "@\"<MTLFunctionHandle>\"24@0:8@\"<MTLFunction>\"16"
++ "@\"<MTLFunctionHandle>\"24@0:8@\"NSString\"16"
++ "@\"<MTLFunctionHandle>\"32@0:8@\"<MTL4BinaryFunction>\"16Q24"
++ "@\"<MTLFunctionHandle>\"32@0:8@\"NSString\"16Q24"
++ "@\"<MTLIntersectionFunctionTable>\"24@0:8@\"MTLIntersectionFunctionTableDescriptor\"16"
++ "@\"<MTLRenderPipelineState>\"32@0:8@\"MTL4RenderPipelineBinaryFunctionsDescriptor\"16^@24"
++ "@\"<MTLTensor>\"32@0:8@\"MTLTensorDescriptor\"16^@24"
++ "@\"<MTLTensor>\"40@0:8@\"MTLTensorDescriptor\"16Q24^@32"
++ "@\"<MTLTexture>\"24@0:8@\"MTLTextureViewDescriptor\"16"
++ "@\"<MTLTextureViewPool>\"32@0:8@\"MTLResourceViewPoolDescriptor\"16^@24"
++ "@\"<MTLVisibleFunctionTable>\"24@0:8@\"MTLVisibleFunctionTableDescriptor\"16"
++ "@\"<MusicMarqueeViewDelegate>\""
++ "@\"AVPlayerLayer\"16@0:8"
++ "@\"MCDLibraryPinsDataSource\""
++ "@\"MCDTableViewController\""
++ "@\"MTL4PipelineDescriptor\"16@0:8"
++ "@\"MTLComputePipelineReflection\"16@0:8"
++ "@\"MTLFunctionReflection\"24@0:8@\"NSString\"16"
++ "@\"MTLRenderPipelineReflection\"16@0:8"
++ "@\"MusicMarqueeView\""
++ "@\"NSArray\"16@?0@\"NSArray\"8"
++ "@\"NSDictionary\"16@0:8"
++ "@\"NSPointerArray\""
++ "@\"NSString\"32@0:8@\"UICollectionView\"16@\"NSIndexPath\"24"
++ "@\"NSUUID\""
++ "@\"UIBarButtonItem\""
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@32@0:8Q16^@24"
++ "@36@0:8@16B24@28"
++ "@36@0:8@16B24B28B32"
++ "@40@0:8@16B24B28Q32"
++ "@40@0:8@16Q24^@32"
++ "@40@0:8Q16Q24q32"
++ "@48@0:8@16{_NSRange=QQ}24@40"
++ "AX label for pins action"
++ "Accessibility Value for a Library Pin"
++ "Accessibility Value when Pinned item is editing"
++ "Actions.goToPlaylistFolder"
++ "Add Music to Listen"
++ "Added new playback intent for item: %{public}s"
++ "Alert.Action(id:"
++ "All folders and playlists inside this folder will also be deleted."
++ "All pinned music will automatically download to this device."
++ "Application termination: requesting widget timeline reloads"
++ "Applying final updates"
++ "Applying playlists updates…"
++ "Are you sure you want to delete the folder “"
++ "Asset URL fetch cancelled for %s"
++ "AutoMix Feedback: "
++ "AutoPlaying"
++ "AutoPlaying similar music"
++ "Automatically created pronunciation"
++ "Automatically created translation"
++ "Automatically created translation and pronunciation"
++ "B24@0:8@\"UITextField\"16"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
++ "Become active submenuProvider=%{public}s"
++ "Bottom Player Scrubber"
++ "Building context menu configuration for tab=%{public}s"
++ "Building trailing swipe actions for tab=%{public}s"
++ "Button title"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Cannot find an actionContextProviding view controller – %{public}s does not conform to ActionContextProviding"
++ "Cannot move item=%{public}s to folder=%{public}s"
++ "Cannot push SharePlay Together session, no session found"
++ "CarPlayMusicArtworkRowInfo"
++ "Connecting to Sing session"
++ "Could not convert modelObject to MusicPin/GenericMusicItem %@"
++ "Could not get stack authority for tab="
++ "Could not unpin item=%s error=%{public}s"
++ "Couldn't determine status for item="
++ "Couldn't refresh: \"No recently played section to update\""
++ "Data request error: %{public}@"
++ "DeferredContainer: Unable to load library album for track %{public}s"
++ "DeferredContainer: track=%s, album=%s, tracks=%s"
++ "Delete Folder and Playlists"
++ "Disclaimer shown at the bottom of lyrics when both the translation and transliteration were automatically created with no human editing involved."
++ "Disclaimer shown at the bottom of lyrics when the translation was automatically created with no human editing involved."
++ "Disclaimer shown at the bottom of lyrics when the transliteration was automatically created with no human editing involved."
++ "Double tap and hold to perform move by hold and drag."
++ "Down-casted Array element failed to match the target type\nExpected "
++ "Download music by "
++ "Downloaded music by "
++ "Duplicate values for key: '"
++ "Editorial video artworks request invalid, treating as 404: %@"
++ "Empty Folder Title"
++ "Empty catalogID \"%{public}s\" for album=%{public}s… skipping"
++ "Enter a name for this folder."
++ "Error moving asset file: %@. Original: %s"
++ "Error removing old asset files: %@"
++ "Evicting ids: %s"
++ "FEATUREFLAGS_ENABLED"
++ "Failed to add new playback intent for item: %{public}s"
++ "Failed to convert MPModelPlaylist=%{public}s to Playlist.Folder.Item"
++ "Failed to create folder with error=%{public}s"
++ "Failed to create navigation handler to %s for Song=%{public}s"
++ "Failed to create playbackIntent"
++ "Failed to create playbackIntent with error=%{public}s"
++ "Failed to create playlist: missing interface context"
++ "Failed to decode layoutVariant with error=%s"
++ "Failed to decode playlists contentSort with error=%s"
++ "Failed to decode trackListSort with error=%s"
++ "Failed to delete folder with error=%{public}s"
++ "Failed to load library album because we're filtering out non-downloaded content."
++ "Failed to move folder=%{public}s to parent=%{public}s with error=%{public}s"
++ "Failed to move playlist=%{public}s to parent=%{public}s with error=%{public}s"
++ "Failed to navigate to album for track %{public}s from source: %s. Error=%{public}s"
++ "Failed to produce playback intent for MusicPin.Item=%{public}s with error=%{public}s"
++ "Failed to rename folder=%{public}s with error=%{public}s"
++ "Failed to retrieve image from artwork with error: %{public}s"
++ "Failed to retrieve parent for folder=%{public}s with error=%{public}s"
++ "Failed to retrieve parent for playlist=%{public}s with error=%{public}s"
++ "Failed to retrieve stack authority for tab=%{public}s"
++ "Failed to retrieve stack authority on appInterfaceContext=%{public}s for tab=%{public}s"
++ "Failed to toggleFavorite: Ongoing update in progress: %s"
++ "Failed to toggleFavorite: no nowPlaying response"
++ "Failed to unpin pin=%{public}s. No presentation source provided."
++ "Failed to unpin tab=%{public}s with error=%{public}s"
++ "Feature flag not enabled"
++ "Fetched asset URL for %s: %s. Original: %s"
++ "Fetched keyframe image for %s: %@"
++ "Fetching keyframe data for %s"
++ "First parameter is the badge image, second is the textual representation."
++ "ForceNowPlayingArtworkTransitionAnimation"
++ "Found catalogID \"%{public}s\" for album=%{public}s"
++ "Found different Tab=%{public}s in pinsTabGroup"
++ "Found library artists: %{public}s"
++ "Found library music videos: %{public}s"
++ "Full Sheet Player"
++ "Go to Music Video"
++ "Go to Playlist Folder"
++ "Handled %{public}s %{public}s term=%{public}s forceLocal=%{public}s"
++ "Header.PlaybackControls: "
++ "Header.StartStation"
++ "Helping You Sing Along"
++ "Hide Pronunciation"
++ "Hide Translation"
++ "HidePronunciation"
++ "ImpressionTracker"
++ "Initialized lyrics with identifier %s, preferredTranslation: %s, preferredTransliteration: %s, currentTransliteration: %s, currentTranslation: %s preferredLanguageCodes: %s, preferredScriptCodes: %s"
++ "Initializing new authority with provider: %{public}s"
++ "Invalid response: %{public}s"
++ "JSApplicationMessageTarget"
++ "JSContainerDetailEntry"
++ "JSContainerDetailLink"
++ "JSDeferrableRequest"
++ "JSOrderedPlaylistSelectorItem"
++ "JSSearchLandingItem"
++ "JSSettingsSection"
++ "JSSocialOnboardingNetwork"
++ "JSSocialProfileCollectionItem"
++ "Keyframe image fetch cancelled for %s"
++ "LargeText"
++ "Launch SingMic with %s"
++ "Library Pins CarPlay View Controller"
++ "Library Sort Option for Ascending Alphabetical Order"
++ "Library Sort Option for Ascending Date Order"
++ "Library Sort Option for Descending Alphabetical Order"
++ "Library Sort Option for Descending Date Order"
++ "Library restricts removal"
++ "LibraryPinActionPinnedItem"
++ "LibraryUnPinActionUnpinnedItem"
++ "Localizable-Alchemy"
++ "Localizable-Boracay"
++ "Lyrics credits, preceds a list of songwriters"
++ "LyricsX.CustomCurveAnimationFactory"
++ "LyricsX.DespacitoContentView"
++ "LyricsX.GlyphContainerView"
++ "LyricsX.InstrumentalContentView"
++ "LyricsX.LineProgressGradientView"
++ "LyricsX.LineView"
++ "LyricsX.SBS_TextContentView"
++ "LyricsX.SyllableContainerView"
++ "LyricsX.SyncedLyricsLineView"
++ "LyricsX.TextContentView"
++ "LyricsX.TextView"
++ "LyricsX.WordContainerView"
++ "LyricsX/Glyph.swift"
++ "LyricsX/Line.swift"
++ "LyricsX/LyricsTextView.swift"
++ "LyricsX/SBS_SyncedLyricsLineView+Text.swift"
++ "LyricsX/Syllable.swift"
++ "LyricsX/SyncedLyricsLineView+Instrumental.swift"
++ "LyricsX/SyncedLyricsLineView+Text.swift"
++ "LyricsX/SyncedLyricsLineView.swift"
++ "LyricsX/SyncedLyricsTimestampLabel.swift"
++ "LyricsX/Utils.swift"
++ "LyricsX/Word.swift"
++ "LyricsX1"
++ "MCDBrowserViewControllerModel"
++ "MCDItemDetailHeader"
++ "MCDItemDetailTrackCell"
++ "MCDLibraryPinsDataSource"
++ "MCDLibraryPinsTableViewController"
++ "MTLComputePipelineState"
++ "MTLFunction"
++ "Maximum Pins Reached"
++ "MotionArtworkManagerAssets"
++ "Move folder action title, variable is the folder name"
++ "Move playlist to folder action title, variable is the playlist name"
++ "Moved folder=%{public}s to parent=%{public}s"
++ "Moved playlist=%{public}s to parent=%{public}s"
++ "Moving pin=%{public}s to index=%{public}ld"
++ "Music Videos are restricted on this device.\nTo change your Content Restrictions, go to Settings and allow music videos."
++ "Music.ApplicationMainMenu"
++ "Music.CarPlayRootNavigationController"
++ "Music.CarPlayTabBarController"
++ "Music.LibraryItemDeferredContainerViewController"
++ "Music.MCDItemDetailViewController"
++ "Music.MusicBackgroundExtensionEffectsView"
++ "Music.MusicBackgroundExtensionView"
++ "Music.NowPlayingBottomScrubber"
++ "Music.NowPlayingLyricsTranslationButton"
++ "Music.PinsWidget"
++ "Music.PosterWidget"
++ "Music.RadioWidget"
++ "Music.Renderer"
++ "Music.SidebarActivityView"
++ "Music.SmartTransitionIndicatorView"
++ "Music.contextMenuAction.editPins"
++ "Music.contextMenuAction.editSections"
++ "Music/AccountButtonWrapper.swift"
++ "Music/CarPlayRootNavigationController.swift"
++ "Music/CarPlayTabBarController.swift"
++ "Music/LibraryItemDeferredContainerViewController.swift"
++ "Music/MCDItemDetailViewController.swift"
++ "Music/MusicBackgroundExtensionView.swift"
++ "Music/NowPlayingBottomScrubber.swift"
++ "Music/NowPlayingLyricsTranslationButton.swift"
++ "Music/NowPlayingTransitionsButton-Alchemy.swift"
++ "Music/SidebarActivityView.swift"
++ "Music/SmartTransitionIndicatorView.swift"
++ "MusicCore.TextFieldAlert"
++ "MusicCore/TextFieldAlert.swift"
++ "MusicCoreUI/WindowSceneResolver.swift"
++ "MusicKit"
++ "MusicMarqueeView"
++ "MusicNowPlayingLyricsTranslationButton"
++ "MusicUtilities.FragmentLayer"
++ "MusicUtilities.PartialRunView"
++ "MusicUtilities.View"
++ "MusicUtilities/TextKit+Utilities.swift"
++ "MusicUtility"
++ "NSArray element failed to match the Swift Array Element type\nExpected "
++ "NSCacheDelegate"
++ "New Playlist Folder"
++ "New folder action title"
++ "New playlist folder action title"
++ "No actionContext of type=%{public}s found on view controller %{public}s"
++ "No asset URL available for %s"
++ "No intent provided"
++ "No item state for playlist"
++ "No loaded artworks to update"
++ "No music from this artist is saved to your library."
++ "No presentation source provided for pin tab=%{public}s"
++ "No presentation source provided for tab=%{public}s"
++ "Now Playing Scrubber"
++ "Now Playing empty queue message when AutoPlay is off.  {{symbol}} will be replaced with symbol programmatically, please leave in the string."
++ "NowPlayingMotion"
++ "NowPlayingTransportButton"
++ "OS_dispatch_source_memorypressure"
++ "Ok"
++ "OkCancel"
++ "Panache Frame Rendering"
++ "Panache.PanacheMetalViewDelegate"
++ "Panache.PanacheView"
++ "Panache/PlatformView.swift"
++ "Panache/resource_bundle_accessor.swift"
++ "Panache_Panache.bundle"
++ "Parsing error: %{public}@"
++ "Performing pop onto navigation controller=%{public}s"
++ "Performing pop to root onto navigation controller=%{public}s"
++ "Pin Action Title"
++ "Pin Tap Action Menu Title"
++ "Pinning music requires Sync Library to be on. Changes to your library will then sync on devices using this Apple Account."
++ "Pins"
++ "Player.CommandIssuance<"
++ "Player.TimeObserver"
++ "Playlist not library-added"
++ "Playlists you add to this folder will appear here."
++ "PresentationDonationItem"
++ "PresentationDonationTarget"
++ "ProductVersion"
++ "Pronunciation is available for lyrics in supported languages."
++ "Publishing animated artwork through MPNowPlayingInfoCenter. publishedIDs: %s, nowPlayingInfo: %s"
++ "Pushing to Library %s for Song=%{public}s"
++ "Pushing to viewController=%{public}s with playActivityFields=%{public}s onto navigation controller=%{public}s"
++ "Q56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDropSession>\"32@\"UITabGroup\"40q48"
++ "Q56@0:8@16@24@32@40q48"
++ "Rebuilding the main menu with submenuProvider: %{public}s"
++ "Received intents=%{public}s for drop to folder=%{public}s"
++ "Received new pins from observer: %{public}s"
++ "Received new snapshot=%{public}s"
++ "Received placeholder: clearing Now Playing state and scheduling timeline reload"
++ "Repeat All"
++ "Repeat Off"
++ "Repeat One"
++ "RepeatCommand.Key"
++ "Report AutoMix Feedback"
++ "Requesting reload %{public}s with reasons %{public}s"
++ "Requesting timeline update for reasons: %{public}s"
++ "Resign active submenuProvider=%{public}s"
++ "Returning stack authority=%{public}s for tab=%{public}s"
++ "Scheduling timeline update for reasons: %{public}s"
++ "Section name for Pins in the sidebar"
++ "Selecting pin tab=%{public}s"
++ "SharePlay Together"
++ "Show Now Playing"
++ "Show Pronunciation"
++ "Show Translation"
++ "Show or hide pronunciation for lyrics in supported languages."
++ "Show translations of lyrics and see how words are pronounced."
++ "ShowPronunciation"
++ "Sing on Apple\u00a0TV?"
++ "Singing Along Got Easier"
++ "Skipping reload %{public}s with non-observed reasons %{public}s"
++ "Skipping timeline update: nothing important changed"
++ "Snapshotting keyframe for %s"
++ "Solarium"
++ "Song Transitions"
++ "Songs will seamlessly transition from one into the next."
++ "Songs you download will appear here."
++ "Sonic"
++ "StartPlaybackIntent"
++ "Subtitle for view displayed when a container does not contain downloaded content while filtering for downloaded content."
++ "Subtitle in queue when AutoPlaying"
++ "Swift/Dictionary.swift"
++ "Swift/NativeDictionary.swift"
++ "SwiftUI"
++ "T@\"<MusicMarqueeViewDelegate>\",W,N,V_delegate"
++ "T@\"AVPlayerLayer\",R,N"
++ "T@\"CAGradientLayer\",R,N"
++ "T@\"MCDLibraryContentManager\",&,N,V_pinsContentManager"
++ "T@\"MCDLibraryPinsDataSource\",&,N,V_pinsDataSource"
++ "T@\"MCDTableViewController\",&,N,V_viewController"
++ "T@\"MPModelObject\",&,N,V_object"
++ "T@\"MPModelPlaylist\",N,&"
++ "T@\"MPModelPlaylistEntry\",N,&"
++ "T@\"MPModelRadioStation\",N,&"
++ "T@\"MPModelSong\",N,&"
++ "T@\"MTLComputePipelineReflection\",R"
++ "T@\"MTLRenderPipelineReflection\",R"
++ "T@\"MusicTextContentView\",N,&,VmainLineView"
++ "T@\"MusicTextContentView\",N,&,VtranslationLineView"
++ "T@\"NSArray\",&,N,V_sections"
++ "T@\"NSArray\",&,N,V_viewModels"
++ "T@\"NSDictionary\",R"
++ "T@\"NSString\",C,N,V_identifier"
++ "T@\"NSString\",C,N,V_subtitle"
++ "T@\"NSString\",C,N,V_title"
++ "T@\"UIControl\",N,R"
++ "T@\"UIView\",&,N,V_viewForContentSize"
++ "T@\"UIView\",R,N,V_contentView"
++ "T@\"UIView\",W,N,V_animationReferenceView"
++ "T@\"_TtC11MusicCoreUI12SymbolButton\",N,&,VttrSmartTransitionButton"
++ "T@\"_TtC5Music15CarPlayObserver\",N,R"
++ "TB,N,GisMarqueeEnabled,V_marqueeEnabled"
++ "TB,N,V_disabledMarqueeForSceneBackground"
++ "TB,N,V_shouldPushNowPlayingOnNextPlaybackManagerCall"
++ "TB,N,VaccessibilityTranslationEnabled"
++ "TB,N,VaccessibilityTransliterationEnabled"
++ "Tab name for 'Playlists'"
++ "Td,N,V_contentGap"
++ "Td,N,V_marqueeDelay"
++ "Td,N,V_marqueeScrollRate"
++ "The view controller to present is configured as popover but has no `sourceView` set on it nor the PresentationSource has a `position` set."
++ "This content is currently not playable."
++ "Title for view displayed when container has no downloaded content"
++ "To keep music playing, turn on {{symbol}} AutoPlay."
++ "To pin this, unpin something else. You can pin up to "
++ "To use this pin to listen, you’ll need to add this artist’s music to your library."
++ "Tq,N,V_animationDirection"
++ "Tq,N,VplayerState"
++ "Transition\nOutgoing Track: "
++ "Translate & Pronounce Lyrics"
++ "Translate These Lyrics"
++ "Translation is available for lyrics in supported languages."
++ "Turn AutoMix On and Off"
++ "Turn on Download Pins?"
++ "Turn on Sync Library to Pin Music"
++ "Turn your iPhone into a Sing mic and hear yourself sing along on “%@” Apple\u00a0TV."
++ "T{CGSize=dd},N,V_contentSize"
++ "T{UIEdgeInsets=dddd},N,V_fadeEdgeInsets"
++ "UITextFieldDelegate"
++ "URLForDirectory:inDomain:appropriateForURL:create:error:"
++ "Unable to create artwork asset directory: %@"
++ "Unable to determine repeat command from sender: %{public}s"
++ "Unable to find matching tab for pin=%{public}s — Performing manual navigation…"
++ "Unable to find navigationController for Deferred Library Item VC %{public}s"
++ "Unable to launch SingMic %s"
++ "Unexpected Track type %{public}s"
++ "Unexpectedly found catalog id: %{public}s %{public}s"
++ "Unexpectedly found different number of newly ordered tabs. Resetting to currentlyOrderedPins=%{public}s"
++ "Unhandled pinned item type %{public}s — Return All Songs view controller tab=%{public}s"
++ "Unhandled track type %{public}s"
++ "Unknown MPModelLibraryPin item type (%{public}@)"
++ "Unknown repeat type: %{public}s"
++ "Unsupported Action"
++ "Unsupported MusicPin.Item="
++ "Unsupported Recently Added item type: %{public}s"
++ "Updated library pins group with pins: %{public}s"
++ "Updating %ld playlist folder tabs"
++ "Updating Tab Bar Accessory View"
++ "Updating Tabs & View Controllers identifiers=%{public}s"
++ "Updating cache with items:\n%s"
++ "Updating pins to reflect user display order=%{public}s"
++ "Updating playerPath with route=%{public}s"
++ "User capabilities change: clearing Now Playing state and scheduling timeline reload"
++ "When you’re not driving, open Music on your iPhone and review the privacy information."
++ "Widget PlayPause Button"
++ "WidgetLRUCache deinitialized, memory pressure listener cancelled."
++ "Will be used as a separator for the list of songwriters in lyrics"
++ "Wrong kind (%{public}@) of object found in itemsInSectionAtIndex at 0"
++ "[AudioTrait](%{public}s) We are currently showing the Mixing label"
++ "[Internal] Failed to create folder"
++ "[Internal] Failed to delete folder"
++ "[NowPlayingQueueViewController] ---- AutoPlay supported? NO"
++ "[NowPlayingQueueViewController] ---- AutoPlay supported? YES, AutoPlay on? %{bool,public}d"
++ "[NowPlayingQueueViewController] ---- Song Transitions supported? NO"
++ "[NowPlayingQueueViewController] ---- Song Transitions supported? YES, Active? %{bool,public}d"
++ "[ScenePhaseSupport:%{public}s] Init"
++ "[ScenePhaseSupport:%{public}s] windowScene\u00a0changed: %{public}s"
++ "[SyncedLyricsDebug] No new timing provider for 1 second, resetting to old one"
++ "[SyncedLyricsDebug] Time provider update: updating to "
++ "[SyncedLyricsDebug] Timing provider update: difference is smaller than half a second, ignoring."
++ "[SyncedLyricsDebug] Timing provider update: less than 1 second since last tap, ignoring."
++ "[SyncedLyricsDebug] Yikes the duration hack has been used 🫣"
++ "[SyncedLyricsDebug] animate(line: Adjusting "
++ "[SyncedLyricsDebug] animate(line: scrolling to "
++ "[SyncedLyricsDebug] animateInstrumentalEnd: scrolling to "
++ "[SyncedLyricsDebug] animateInstrumentalStart: scrolling to "
++ "[SyncedLyricsDebug] animating to "
++ "[SyncedLyricsDebug] deselecting all"
++ "[SyncedLyricsDebug] dismissInstrumentalView: scrolling to "
++ "[SyncedLyricsDebug] jump: animating instead"
++ "[SyncedLyricsDebug] jump: scrolling to "
++ "[SyncedLyricsDebug] jumpTo: tracking mode, scrolling to "
++ "[SyncedLyricsDebug] jumping to "
++ "[SyncedLyricsDebug] layoutLines: scrolling to "
++ "[SyncedLyricsDebug] line is not completely visible on screen, animating to it instead."
++ "[SyncedLyricsDebug] selecting "
++ "[SyncedLyricsDebug] selecting line "
++ "[SyncedLyricsDebug] setupUI: scrolling to "
++ "[SyncedLyricsDebug] updateInsets: scrolling to "
++ "[TabBarController] Unable to retrieve stack authority for unsupported tab: %{public}s"
++ "[Transliteration] Directions don't match and transliterated line goes beyond view bounds. Inserting line break. New text: %{public}s"
++ "[Transliteration] Last transliterated word in this line has more original words to match in the next line, and the next line only contains words that match this transliteration. Insert a line break before this word to make sure they are all in the same line. New text: %{public}s"
++ "[Transliteration] The first word in this line, which is not the first line in this text, had no transliterated word match. Let's try to make it fit with the previous line by forcing a line break after it. New text: %{public}s"
++ "[Transliteration] Trying to insert a line break for the third time. The view might be too small to fulfill the layout requirements. Not doing any more adjustments. Line: %{public}s transliterated line: %{public}s"
++ "[Transliteration] Word %s crossed view bounds after adjustment, adding line break. New text: %{public}s"
++ "[Transliteration] Word %s crossed view bounds after final adjustment, adding line break. New text: %{public}s"
++ "[Transliteration] Word is incomplete in this line, adding line break. New text: %{public}s"
++ "[Transliteration] Word is incomplete in this line, but the current view size will not accomodate all of it. Not doing any adjustments. Line: %{public}s transliterated line: %{public}s"
++ "[Transliteration][Empty Map Entry] Word %s crossed view bounds after final adjustment, adding line break. New text: %{public}s"
++ "[Transliteration][Last word timing check] Trying to insert a line break for the second time before the same word. A nonbreaking space could be making this layout impossible, resetting string and trying again. New text: %{public}s"
++ "[Transliteration][Width check] Tried too many times to add a line break before the same word. This layout might be impossible, usually when the width is too narrow. Give up on adjustments. Size: %s Text: %{public}s"
++ "[Transliteration][Width check] Trying to insert a line break for the second time before the same word. A nonbreaking space could be making this layout impossible, resetting string and trying again. New text: %{public}s"
++ "_MPUMarqueeViewAnimationIdentifierKey"
++ "_MPUMarqueeViewLayerAnimationKey"
++ "_MusicMarqueeContentView"
++ "_TtC11MusicCoreUI15HitMyRectButton"
++ "_TtC11MusicCoreUI18HitMyRectStackView"
++ "_TtC11MusicCoreUIP33_377CDC3E1DACA082F76DF92BE308CAF121HostedScenePhaseModel"
++ "_TtC11MusicJSCore29JSViewModelRequestCoordinator"
++ "_TtC14MusicUtilities14TextKitManager"
++ "_TtC5Music15CarPlayObserver"
++ "_TtC5Music18MusicTabsAuthority"
++ "_TtC5Music19ApplicationMainMenu"
++ "_TtC5Music19SidebarActivityView"
++ "_TtC5Music20AccountButtonWrapper"
++ "_TtC5Music20MotionArtworkManager"
++ "_TtC5Music24NowPlayingBottomScrubber"
++ "_TtC5Music27MCDItemDetailViewController"
++ "_TtC5Music27NowPlayingTransitionsButton"
++ "_TtC5Music28MotionArtworkMetadataService"
++ "_TtC5Music28MusicBackgroundExtensionView"
++ "_TtC5Music28SmartTransitionIndicatorView"
++ "_TtC5Music31CarPlayRootNavigationController"
++ "_TtC5Music42LibraryItemDeferredContainerViewController"
++ "_TtC5Music42MotionArtworkNowPlayingInfoCenterPublisher"
++ "_TtC5MusicP33_15E62DC4AF05008D659FFE6E641493A05Cache"
++ "_TtC5MusicP33_863730B999DE7C5F62E72266A355981A35MusicBackgroundExtensionEffectsView"
++ "_TtC5MusicP33_CD398DB520CA01A6789EBD4E1C3D594C12DisabledMenu"
++ "_TtC5MusicP33_CD398DB520CA01A6789EBD4E1C3D594C14DisabledAction"
++ "_TtC7LyricsX19SyncedLyricsManager"
++ "_TtC7LyricsX20LyricsOptionsManager"
++ "_TtC7LyricsX20SyncedLyricsLineView"
++ "_TtC7LyricsX24LineProgressGradientView"
++ "_TtC7LyricsX26SyncedLyricsTimestampLabel"
++ "_TtC7LyricsX26SyncedLyricsViewController"
++ "_TtC7LyricsX6Lyrics"
++ "_TtC7LyricsXP33_739300AA5A742174F0E546A8DF70B34912BundleFinder"
++ "_TtC7Panache11PanacheView"
++ "_TtC7Panache13OffscreenHost"
++ "_TtC7Panache15CirclesRenderer"
++ "_TtC7Panache15LatticeRenderer"
++ "_TtC7Panache15TimelinesDriver"
++ "_TtC7Panache17LitSphereRenderer"
++ "_TtC7Panache17RadCircleRenderer"
++ "_TtC7Panache19MultiGradientRender"
++ "_TtC7Panache20RadialGradientRender"
++ "_TtC7Panache23BlendingTimelinesDriver"
++ "_TtC7Panache25FourPointGradientRenderer"
++ "_TtC7PanacheP33_7124EE961457474500292A8024B0AC2712BundleFinder"
++ "_TtC9MusicCore10ActionMenu"
++ "_TtC9MusicCore14NetworkMonitor"
++ "_TtC9MusicCore14TextFieldAlert"
++ "_TtC9MusicCore20PlaybackTimeObserver"
++ "_TtC9MusicCore25PlaylistSortingController"
++ "_TtCC11MusicJSCore29JSViewModelRequestCoordinatorP33_BE7A40D2342480114FBB3D09428E126914OperationGroup"
++ "_TtCC7LyricsX20LyricsOptionsManager8Observer"
++ "_TtCC7LyricsX20SyncedLyricsLineView13TextContainer"
++ "_TtCC7LyricsX20SyncedLyricsLineView20DespacitoContentView"
++ "_TtCC7LyricsX20SyncedLyricsLineView4Line"
++ "_TtCC7LyricsX20SyncedLyricsLineView4Word"
++ "_TtCC7LyricsX20SyncedLyricsLineView5Glyph"
++ "_TtCC7LyricsX20SyncedLyricsLineView8Syllable"
++ "_TtCC7LyricsX24LineProgressGradientViewP33_9D7C40643C469448EA951CEB9521562F12GradientView"
++ "_TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView"
++ "_TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0420StaticTimingProvider"
++ "_TtCC9MusicCore22GroupActivitiesManager5State"
++ "_TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView"
++ "_TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView"
++ "_TtCCCOE5MusicO9MusicCore7Library7Folders14PreviewManagerP33_4E92466DD7805690A64C66280926D2CB5Cache10KeyManager"
++ "_TtCCE14MusicUtilitiesCSo20NSTextLayoutFragment4View13FragmentLayer"
++ "_TtCCE5MusicO9MusicCore7Library3Tab12PinsTabGroup"
++ "_TtCCE5MusicO9MusicCore7Library3Tab6PinTab"
++ "_TtCCOE5MusicO9MusicCore7Library7Folders14PreviewManagerP33_4E92466DD7805690A64C66280926D2CB5Cache"
++ "_TtCE11MusicCoreUIC7LyricsX6Lyrics12StateManager"
++ "_TtCE14MusicUtilitiesCSo18NSTextLineFragment4View"
++ "_TtCE14MusicUtilitiesCSo20NSTextLayoutFragment4View"
++ "_TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView"
++ "_TtCE5MusicC7MusicUI19MusicStackAuthority17NavigationHandler"
++ "_TtCE5MusicO9MusicCore7Library22PinsCollectionViewCell"
++ "_TtCFC5Music26BottomPlayerViewController8loadViewFT_T_L_4View"
++ "_TtCO5Music22ArtworkSmartTransition4Mask"
++ "_TtCO5Music22ArtworkSmartTransition8Renderer"
++ "_TtCOE5MusicO9MusicCore7Library7Folders11PreviewData"
++ "_TtCOE5MusicO9MusicCore7Library7Folders14PreviewManager"
++ "_TtCV11MusicCoreUI19WindowSceneResolver4View"
++ "_TtCV5Music17ContextualPreview4Data"
++ "_TtCV5Music6Header7Metrics"
++ "_TtCV9MusicCoreP33_054BD8B1497E7BB2DD0274679428CFDE14ActionMenuView9Excluding"
++ "_TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory"
++ "__initiatePlaybackForItem:"
++ "_actionForItem:"
++ "_ageVerification"
++ "_animationDirection"
++ "_animationReferenceView"
++ "_applyMarqueeFade"
++ "_collectionView:typeSelectStringForItemAtIndexPath:"
++ "_collectionView:updateTypeSelectResultForCell:atIndexPath:withItemResult:animator:"
++ "_contentFits"
++ "_contentGap"
++ "_contentSize"
++ "_coordinatedMarqueeViews"
++ "_createCheckedThrowingContinuation(_:)"
++ "_createMarqueeAnimationIfNeeded"
++ "_createMarqueeAnimationIfNeededWithMaximumDuration:beginTime:"
++ "_currentAnimationID"
++ "_currentLyricsTask"
++ "_currentNowPlayingMotionData"
++ "_currentPlayingPlaylist"
++ "_currentPlayingPlaylistEntry"
++ "_currentPlayingRadioStation"
++ "_currentPlayingSong"
++ "_currentTranslation"
++ "_currentTransliteration"
++ "_disabledMarqueeForSceneBackground"
++ "_dismissalWorkItem"
++ "_effectiveElapsedTime"
++ "_fadeEdgeInsets"
++ "_initiatePlaybackForItem:shouldPushNowPlaying:"
++ "_intrinsicContentSizeInvalidatedForChildView:"
++ "_isInAnimationBlockWithAnimationsEnabled"
++ "_isInForeground"
++ "_isOnline"
++ "_isSharePlaySessionActive"
++ "_keys"
++ "_layoutStyle"
++ "_manualScrollEdgeAppearanceProgress"
++ "_margin"
++ "_marqueeDelay"
++ "_marqueeEnabled"
++ "_marqueeScrollRate"
++ "_metricsPage"
++ "_monochromaticTreatment"
++ "_motionArtwork"
++ "_motionDataClients"
++ "_navBarHeight"
++ "_nowPlayingBarButtonItem"
++ "_object"
++ "_options"
++ "_optionsObserver"
++ "_passthroughWindow"
++ "_pinsContentManager"
++ "_pinsDataSource"
++ "_preferredTransliteration"
++ "_primaryMarqueeView"
++ "_profileAllowsExplicitContent"
++ "_queueMetadata"
++ "_refreshRequest"
++ "_setHiddenPocketEdges:"
++ "_setLargeTitleTwoLineMode:"
++ "_setMonochromaticTreatment:"
++ "_setPrefersNoPlatter:"
++ "_setTitleControlHidden:"
++ "_shouldPushNowPlayingOnNextPlaybackManagerCall"
++ "_showChevron"
++ "_showTranslationButton"
++ "_sliderFluidInteractionWillRubberband:insets:"
++ "_socialContributor"
++ "_staticArtwork"
++ "_supportedNowPlayingArtworkFlavors"
++ "_tabBarController:sidebar:insertItemsFromDropSession:intoTabGroup:atDisplayIndex:"
++ "_tabBarController:sidebar:operationForInsertingItemsFromDropSession:intoTabGroup:atDisplayIndex:"
++ "_tearDownMarqueeAnimation"
++ "_viewForContentSize"
++ "_viewModels"
++ "_width"
++ "_willPresentHandler"
++ "a"
++ "accessibilityMainTextView"
++ "accessibilityTranslationEnabled"
++ "accessibilityTranslationLabel"
++ "accessibilityTransliterationEnabled"
++ "accessoryViewAction"
++ "accountButtonCoordinator"
++ "activities"
++ "activityViewsMap"
++ "addPointer:"
++ "addTextFieldWithConfigurationHandler:"
++ "addTextLayoutManager:"
++ "addToPlaylistHandler"
++ "adjustedText"
++ "affineTransform"
++ "albumTracksViewControllerForContentItem:showLocalContent:"
++ "albumTracksViewControllerForStoreItem:showLocalContent:"
++ "albumsForGenre:showLocalContent:"
++ "albumsForPerson:showLocalContent:"
++ "allowNowPlayingTallMotionArtwork"
++ "amplitude"
++ "animationDirection"
++ "animationKind"
++ "animationReferenceView"
++ "applicationTermination"
++ "artworkAction"
++ "artworkHasTitle"
++ "artworkIsAnimating"
++ "artworkTransitionStyle"
++ "artworkTransitionStyle=%s"
++ "artworkViewMask"
++ "attributedString"
++ "atv_sing"
++ "autoPlayButtonState"
++ "autoPlayToggleAction:"
++ "automaticallyCreatedDisclaimerLabel"
++ "automaticallyUpdates"
++ "availableEditingContexts"
++ "availableOptions"
++ "b"
++ "backAction:"
++ "backdropTask"
++ "backgroundBottom"
++ "backgroundColor: "
++ "backgroundEnd"
++ "backgroundPosition"
++ "backgroundStart"
++ "backgroundVocalsPosition"
++ "backgroundVocalsText"
++ "backgroundVocalsView"
++ "baseTextOpacityAnimation()"
++ "beginTime"
++ "bgamplitude"
++ "bgcolor0"
++ "bgcolor1"
++ "bgcolor2"
++ "bgcolor3"
++ "bgfrequency"
++ "bghighlight"
++ "bghighlightPower"
++ "bgoffset"
++ "bgspeed"
++ "blendBackground"
++ "blendFadedBackground"
++ "blendHero"
++ "blendOrb"
++ "blendRefinement"
++ "blendStart"
++ "blendTime"
++ "blendWave"
++ "blueColor"
++ "blur_radius"
++ "bottomAccessory"
++ "bottomViewMetadata"
++ "boundingRectWithSize:options:context:"
++ "boundsWithType:options:"
++ "brightnessFilter"
++ "buildMenuWithBuilder:"
++ "builder"
++ "buttonState"
++ "cache:willEvictObject:"
++ "cancelClicked"
++ "carmageddon"
++ "cellTypeAtIndexPath:"
++ "clearConfiguration"
++ "color0"
++ "color1"
++ "color2"
++ "color3"
++ "color4"
++ "colorDist0"
++ "colorDist1"
++ "colorDist2"
++ "colorDist3"
++ "colorDist4"
++ "colorDist5"
++ "colorPower0"
++ "colorPower1"
++ "colorPower2"
++ "colorPower3"
++ "colorPower4"
++ "colorPower5"
++ "colorSigma0"
++ "colorSigma1"
++ "colorSigma2"
++ "colorSigma3"
++ "colorSigma4"
++ "colorSigma5"
++ "colorSpread0"
++ "colorSpread1"
++ "colorSpread2"
++ "colorSpread3"
++ "colorSpread4"
++ "colorSpread5"
++ "colorsBuffer"
++ "com.apple.Music.ApplicationMainMenu"
++ "com.apple.Music.ShortcutItem.🌚"
++ "com.apple.Music.Tooltip.LyricsTranslation"
++ "com.apple.Music.Tooltip.LyricsTranslationAndTransliteration"
++ "com.apple.Music.Tooltip.LyricsTransliteration"
++ "com.apple.Music.Tooltip.LyricsTransliterationSing"
++ "com.apple.Music.Tooltip.SmartTransition"
++ "com.apple.Music.tab.Pins.Section"
++ "com.apple.MusicCarPlay"
++ "commandQueue"
++ "completionHandlers"
++ "computeCommandEncoder"
++ "configurationWithText:itemsConfigurations:selectGridItemBlock:selectTitleBlock:showActivityIndicator:enabled:"
++ "contactWithDisplayName:handleStrings:"
++ "containerTracks.count: "
++ "contentGap"
++ "contentRestrictionsFilteringOptions"
++ "contentStorage"
++ "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
++ "contextMenuButton"
++ "contrast"
++ "coordinatedMarqueeViews"
++ "cpuiPlaceholder:"
++ "createFolder"
++ "createPlaylist"
++ "crossfadeAnimationParameters"
++ "currentAccessibilityLabel"
++ "currentDiskSize"
++ "currentLyricsTask"
++ "currentMemorySize"
++ "currentOperationGroup"
++ "currentOptions"
++ "currentResponse"
++ "currentTranslation"
++ "currentTransliteration"
++ "defaultAction"
++ "defaultBoolValue"
++ "defaultDuration"
++ "deleteFolder"
++ "deleteRowsAtIndexPaths:withRowAnimation:"
++ "despacito"
++ "despacito_server"
++ "didEnterBackgroundObserver"
++ "didReceiveDonatedArtwork"
++ "disableActions"
++ "disableLyricsWordTiming"
++ "disabledMarqueeForSceneBackground"
++ "diskEntry"
++ "diskSize"
++ "displayedPinnedItems"
++ "divMesh"
++ "do not localize: unused string: PinsPlaybackWidgetIntent Title"
++ "documentRange"
++ "dragStateDidChange:"
++ "drawAtPoint:inContext:"
++ "drawInContext:"
++ "drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:"
++ "drawPrimitives:vertexStart:vertexCount:"
++ "drawableSize"
++ "driver"
++ "editingContext"
++ "effectsView"
++ "elapsedTrackGlow"
++ "elements"
++ "enableAutomaticDownloadsForPinnedLibraryEntities"
++ "endPower"
++ "endSigma"
++ "error creating renderer %@"
++ "error drawing %@"
++ "fadeEdgeInsets"
++ "fadeIn"
++ "fadeInAnimation()"
++ "fadeOut"
++ "fadeOutAnimation()"
++ "fadePower"
++ "favoritingUpdate"
++ "fetchStoreLyrics: Bag is nil"
++ "fetchStoreLyrics: Couldn't build URL: %{public}s"
++ "fetchStoreLyrics: Unable to get the domain from the bag"
++ "fetchStoreLyrics: song has no storeID"
++ "fetchTaskCancellables"
++ "filters.colorBrightness.inputAmount"
++ "folder.badge.plus"
++ "folderCount"
++ "folderCount folderName "
++ "folderPlaylists"
++ "folderResponse"
++ "folderResponseSubscription"
++ "folder_previews"
++ "foldersMovedToFolder"
++ "fragment"
++ "fragmentBuffer"
++ "fragment_alchemy"
++ "fragments"
++ "frequency"
++ "functionConstantsDictionary"
++ "functionHandleWithBinaryFunction:"
++ "functionHandleWithBinaryFunction:stage:"
++ "functionHandleWithFunction:"
++ "functionHandleWithName:"
++ "functionHandleWithName:stage:"
++ "functionType"
++ "glyphIndex"
++ "glyphView"
++ "goToMenu"
++ "goToPlaylistFolder"
++ "gradients"
++ "grain"
++ "greenColor"
++ "hasBackgroundVocal"
++ "hasNowPlayingItem"
++ "hasScrolledToProminentItem"
++ "hasSeenDownloadPinsAlert"
++ "head"
++ "heroHalo"
++ "heroOffset"
++ "heroPower"
++ "heroRimLight"
++ "heroRimPower"
++ "heroScale"
++ "heroSigma"
++ "heroSphere"
++ "hiddenLineViews"
++ "highlightedMusicVideo"
++ "highlightedSong"
++ "hitRectAdjustment"
++ "horizontalPaddingView"
++ "iconView"
++ "ignoreUserDefaultsPlaylistSortUpdate"
++ "imagePlaygroundViewController:didSelectAssets:"
++ "inProgressRequests"
++ "index"
++ "indexCount"
++ "indexType"
++ "infoCenter"
++ "init(layer:)"
++ "initForUseInTabBar:"
++ "initPlaneWithExtent:segments:geometryType:allocator:"
++ "initWithAlbum:"
++ "initWithAlbum:storeContent:"
++ "initWithArtist:"
++ "initWithArtworkCatalog:title:subtitle:"
++ "initWithContentView:"
++ "initWithGenre:"
++ "initWithId:title:subtitle:artworkCatalog:imageShape:isTallArtwork:placeholder:accessorySystemImage:isDisabled:action:"
++ "initWithId:title:subtitle:systemImage:accessorySystemImage:isDisabled:action:"
++ "initWithId:title:subtitle:titlePriority:artworkCatalog:imageShape:isTallArtwork:placeholder:accessorySystemImage:isDisabled:isPressed:action:"
++ "initWithIdentifier:showLocalContent:"
++ "initWithIdentifier:showLocalContent:dataSource:"
++ "initWithIdentifier:viewController:"
++ "initWithMaximumNumberOfColumns:prefersFillingRows:"
++ "initWithMaximumNumberOfLines:condensedOptions:imageGridOptions:"
++ "initWithMesh:device:error:"
++ "initWithPerson:"
++ "initWithPin:action:"
++ "initWithPlaylist:"
++ "initWithPlaylist:showLocalContent:"
++ "initWithRecommendationItem:"
++ "initWithSectionItem:radioDomain:"
++ "initWithSectionItem:showRankedList:queueListForPlayback:radioDomain:"
++ "initWithSectionItem:showRankedList:queueListForPlayback:radioDomain:musicKit:"
++ "initWithUnit:"
++ "initWithUseFillDistribution:"
++ "initialSource"
++ "initialVelocity"
++ "inputTexture"
++ "insertChildMenu:atStartOfMenuForIdentifier:"
++ "insertRowsAtIndexPaths:withRowAnimation:"
++ "insertSiblingMenu:afterMenuForIdentifier:"
++ "insertSiblingMenu:beforeMenuForIdentifier:"
++ "insertString:atIndex:"
++ "insertSublayer:atIndex:"
++ "intent"
++ "interpolation error!"
++ "invalidateLayoutForRange:"
++ "iris"
++ "isAutomaticDownloadsEnabledForPinnedLibraryEntities"
++ "isAutomaticallyCreated"
++ "isDisplayingRepresentativeItem"
++ "isGlowEnabled"
++ "isInFocusedState"
++ "isInTransition"
++ "isLimitedUI"
++ "isLineFocused"
++ "isMarqueeEnabled"
++ "isOn"
++ "isPrefetchingEnabled"
++ "isSettingLyrics"
++ "isSharePlaySessionActive"
++ "isTransliteration"
++ "itemConfigurationsAtIndexPath:"
++ "joinContinuitySingURLString"
++ "kCFAllocatorNull"
++ "keyManager"
++ "keyframeSnapshot"
++ "largerTextDefaultSetting"
++ "lastAccessDate"
++ "lastSeenLayoutMargins"
++ "lastSizedWidth"
++ "lastTapDate"
++ "layoutFragmentFrame"
++ "layoutManager"
++ "layoutSublayersOfLayer:"
++ "libraryPinsChanged"
++ "library_pins"
++ "lineBreakAdjustmentCountMap"
++ "lineRef"
++ "lineSpacing"
++ "lineUpdateAnimator"
++ "linesMap"
++ "liveBlocking"
++ "loadRange"
++ "loadedItem"
++ "loopAt"
++ "ls"
++ "lucky_roll"
++ "lyricsFeatureDefaults"
++ "lyricsViewController"
++ "madeForYouViewControllerWithIdentifier:showLocalContent:"
++ "magicBackground"
++ "mainLineView"
++ "mainSystem"
++ "marqueeDelay"
++ "marqueeEnabled"
++ "marqueeScrollRate"
++ "marqueeViewDidEndMarqueeIteration:finished:"
++ "maskView"
++ "maxDiskSize"
++ "maxMemorySize"
++ "mediaContainerHeader"
++ "memoryPressureHandlerQueue"
++ "memoryPressureSource"
++ "memorySize"
++ "menuClosedBlock"
++ "menuForIdentifier:"
++ "menuHandler:"
++ "menuOpenedBlock"
++ "menuRecognizer"
++ "mesh"
++ "metadataService"
++ "metalCenter"
++ "metalViewDelegate"
++ "metricsPageProperties"
++ "mgr"
++ "minutesFormatter"
++ "modelObjectForLibraryPin:"
++ "motionAnimationDuration"
++ "motionArtworkManager"
++ "motionToMotion"
++ "motionToSquare"
++ "motion_over_media_remote"
++ "moveRowAtIndexPath:toIndexPath:"
++ "moveToFolder"
++ "moveToFolderHandler"
++ "mtkView(_:drawableSizeWillChange:)"
++ "music.microphone"
++ "musicLibrary"
++ "musicMovie"
++ "musicTabsAuthority"
++ "musicVideo"
++ "navigation"
++ "navigationController:didShowViewController:"
++ "navigationControllerProvider"
++ "needsInvalidation"
++ "needsRecompute"
++ "newArchiveWithURL:error:"
++ "newArgumentEncoderWithBufferIndex:"
++ "newArgumentEncoderWithBufferIndex:reflection:"
++ "newArgumentTableWithDescriptor:error:"
++ "newAutoPlayButton"
++ "newBufferWithLength:options:placementSparsePageSize:"
++ "newCellRegistration"
++ "newCommandAllocator"
++ "newCommandAllocatorWithDescriptor:error:"
++ "newCommandBuffer"
++ "newCompilerWithDescriptor:error:"
++ "newComputePipelineStateWithAdditionalBinaryFunctions:error:"
++ "newComputePipelineStateWithBinaryFunctions:error:"
++ "newCounterHeapWithDescriptor:error:"
++ "newFolderHandler"
++ "newIntersectionFunctionTableWithDescriptor:"
++ "newMTL4CommandQueue"
++ "newMTL4CommandQueueWithDescriptor:error:"
++ "newPipelineDataSetSerializerWithDescriptor:"
++ "newPlaylistFolderAction:"
++ "newRegularLayoutConstraints"
++ "newRenderPipelineDescriptorForSpecialization"
++ "newRenderPipelineStateWithBinaryFunctions:error:"
++ "newTensorWithDescriptor:error:"
++ "newTensorWithDescriptor:offset:error:"
++ "newTextureViewPoolWithDescriptor:error:"
++ "newTextureViewWithDescriptor:"
++ "newTransitionsButton"
++ "newVisibleFunctionTableWithDescriptor:"
++ "next"
++ "nowPlaying.AudioBadgeButton.dolby"
++ "nowPlaying.AudioBadgeButton.lossless"
++ "nowPlaying.AudioBadgeButton.spatial"
++ "nowPlayingButtonAction"
++ "nowPlayingInfoCenterMotionDataObservationTask"
++ "nowPlayingItemSecondaryMarqueeView"
++ "nowPlayingItemTitleMarqueeView"
++ "off"
++ "ok"
++ "onMusicTabsChanged"
++ "onSelectedMusicTabChanged"
++ "one"
++ "openInClassicalBarButtonItem"
++ "optionsObserver"
++ "original transformed "
++ "originalFrame"
++ "originalTransliteration"
++ "outerPadding"
++ "outgoingArtwork"
++ "palette0"
++ "palette1"
++ "palette2"
++ "palette3"
++ "palette4"
++ "palette5"
++ "paletteContainerView"
++ "patchControlPointCount"
++ "patchType"
++ "pauseArtworkFrameUpdates"
++ "pendingOperationGroups"
++ "pendingTokens"
++ "pendingTranslationUpdate"
++ "pendingTranslationViewUpdate"
++ "pendingTransliterationViewUpdate"
++ "performPrimaryAction"
++ "person.2.badge.fill"
++ "pin"
++ "pinAction"
++ "pinnedArtistHasAlbumsCache"
++ "pinnedEntityType"
++ "pinnedItems"
++ "pins"
++ "pinsContentManager"
++ "pinsDataSource"
++ "pinsObserver"
++ "pinsTabGroup"
++ "pinsViewModels"
++ "pins_section"
++ "pins_widget"
++ "placeholderCatalogWithSymbolName:"
++ "placeholderKind"
++ "playback"
++ "playbackAction:"
++ "playbackContainerChanged"
++ "playbackItemChanged"
++ "playbackPositionChanged"
++ "playbackStateChanged"
++ "playerLayer"
++ "playlistCount"
++ "playlistCount folderName "
++ "playlistSort"
++ "playlist_folders"
++ "playlistsMovedToFolder"
++ "playlistsViewControllerForFolder:showLocalContent:"
++ "positionUUID"
++ "postNotification:"
++ "preferredTranslation"
++ "preferredTransliteration"
++ "preferredWindowingControlStyleForScene:"
++ "prefersSolariumTreatment"
++ "prev"
++ "previewFrameFetchObserver"
++ "previouslyFocusedItem"
++ "primaryAction"
++ "primaryTextColor"
++ "primaryTextColor: "
++ "prominentIndexPathTask"
++ "pronunciation.slash"
++ "propertyList"
++ "publishedIDs"
++ "queryTimestampFrequency"
++ "queueState"
++ "quickAction"
++ "quick_search"
++ "r"
++ "radio_widget"
++ "radius"
++ "randomSeed"
++ "rangeInElement"
++ "recentlyAddedRowInfo"
++ "recentlyAddedViewModels"
++ "recently_added_section"
++ "redColor"
++ "referenceView"
++ "refinementColor"
++ "reflection"
++ "reflectionForFunctionWithName:"
++ "registerForTraitChanges:withHandler:"
++ "regularExtendedControlsLayoutGuide"
++ "removeActionForIdentifier:forControlEvents:"
++ "removeMenuForIdentifier:"
++ "removeTTRSmartTransitionButtonTask"
++ "renameFolder"
++ "renderSlots"
++ "renderingSurfaceBounds"
++ "replaceChildrenOfMenuForIdentifier:fromChildrenBlock:"
++ "replaceMenuForIdentifier:withMenu:"
++ "reporting"
++ "representativeItem"
++ "requiredThreadsPerMeshThreadgroup"
++ "requiredThreadsPerObjectThreadgroup"
++ "requiredThreadsPerThreadgroup"
++ "requiredThreadsPerTileThreadgroup"
++ "requiresCTLineRef"
++ "resetDurationTask"
++ "resetMarqueePosition"
++ "resolution"
++ "resolvedViewController"
++ "responder"
++ "rimLight"
++ "rimLightPower"
++ "rimLightSigma"
++ "rimLightSpreadEnd"
++ "rimLightSpreadStart"
++ "rimLightWidthEnd"
++ "rimLightWidthStart"
++ "rotationAnimationKey"
++ "rowCellItemConfigurationsAtIndexPath:"
++ "run"
++ "saturation"
++ "sceneDidEnterBackgroundNotification:"
++ "sceneWillEnterForegroundNotification:"
++ "scrollEdgeAppearance"
++ "scrubTime"
++ "secondsFormatter"
++ "separatorView"
++ "setAccessibilityTranslationEnabled:"
++ "setAccessibilityTransliterationEnabled:"
++ "setAction:"
++ "setAffineTransform:"
++ "setAlphaBlendOperation:"
++ "setAttributedString:"
++ "setAttributes:"
++ "setBackButtonTitle:"
++ "setBackgroundConfiguration:"
++ "setBadgeValue:"
++ "setBottomAccessory:"
++ "setContacts:"
++ "setContentsScale:"
++ "setCountLimit:"
++ "setCurrentPlayingPlaylist:"
++ "setCurrentPlayingPlaylistEntry:"
++ "setCurrentPlayingRadioStation:"
++ "setCurrentPlayingSong:"
++ "setDestinationAlphaBlendFactor:"
++ "setDestinationRGBBlendFactor:"
++ "setDevice:"
++ "setDialogId:"
++ "setDialogType:"
++ "setDisableAutomaticLayout:"
++ "setDisabledMarqueeForSceneBackground:"
++ "setDisplayName:"
++ "setEventVersion:"
++ "setFragmentBuffer:offset:atIndex:"
++ "setFrameInterval:"
++ "setGridViewStyle:"
++ "setGridViewStyleOptions:"
++ "setInstanceCount:"
++ "setInstanceTransform:"
++ "setKeyTimes:"
++ "setMainLineView:"
++ "setMarqueeDelay:"
++ "setMarqueeEnabled:"
++ "setMarqueeScrollRate:"
++ "setNeedsRebuild"
++ "setObject:"
++ "setPinActionGoTo"
++ "setPinActionPlay"
++ "setPinActionShuffle"
++ "setPinsContentManager:"
++ "setPinsDataSource:"
++ "setPlayAction:"
++ "setPlayerState:"
++ "setPrefetchingEnabled:"
++ "setPrimaryAction:"
++ "setPrompt:"
++ "setRepeatAction:"
++ "setResult:"
++ "setRgbBlendOperation:"
++ "setSectionHeaderTopPadding:"
++ "setSections:"
++ "setShouldPushNowPlayingOnNextPlaybackManagerCall:"
++ "setShowsMenuFromSource:"
++ "setShuffleAction:"
++ "setSize:"
++ "setSourceAlphaBlendFactor:"
++ "setSourceLayer:"
++ "setSourceRGBBlendFactor:"
++ "setString:"
++ "setSubtitle:"
++ "setTabBarMinimizeBehavior:"
++ "setTableHeaderView:"
++ "setTargetId:"
++ "setTextContainer:"
++ "setTranslationLineView:"
++ "setTtrSmartTransitionButton:"
++ "setUserActions:"
++ "setUsesFontLeading:"
++ "setValue:forKeyPath:"
++ "setZeroFormattingBehavior:"
++ "settings-navigation://com.apple.Settings"
++ "settings-navigation://com.apple.Settings.Accessibility/HAPTIC_MUSIC"
++ "settings-navigation://com.apple.Settings.AppleAccount"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.Music"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:Atmos"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:AudioQuality"
++ "settings-navigation://com.apple.Settings.Notifications/com.apple.Music"
++ "settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY"
++ "shouldAnimateJiggle"
++ "shouldDisableNewFolderCell"
++ "shouldPushNowPlayingOnNextPlaybackManagerCall"
++ "shouldShowCustomBackButton"
++ "shouldShowSmartTransition"
++ "shouldShowSmartTransitionTTRButton"
++ "shouldShowSmartTransitionTTRButtonTask"
++ "shouldSnapshotKeyframe"
++ "showLyricsAction:"
++ "showNowPlayingAction:"
++ "showSmartTransitionIndicator"
++ "shuffleToggleAction:"
++ "sidebarAccountButton"
++ "sidebarActivityView"
++ "sizeOfCounterHeapEntry:"
++ "smartTransitionIndicatorView"
++ "smartTransitionLabel"
++ "smartTransitionLabelFullScreenLyricsConstraints"
++ "smartTransitionLabelTransportControlsConstraints"
++ "smartTransitionsToggleAction:"
++ "softness"
++ "songCredits"
++ "sparseBufferTier"
++ "sparseTextureTier"
++ "sphere"
++ "spread"
++ "squareToMotion"
++ "squareToSquare"
++ "stageInputAttributes"
++ "standardConstraints"
++ "startPower"
++ "startSigma"
++ "staticThreadgroupMemoryLength"
++ "station"
++ "stops_a"
++ "stops_p"
++ "storageDirectory"
++ "stringByReplacingCharactersInRange:withString:"
++ "stringFromDateComponents:"
++ "submenuProviders"
++ "submeshes"
++ "submitAction"
++ "superHeroTallEditorialArtworkCatalog"
++ "syllableView"
++ "symbolImageNameForIdentifier:"
++ "system"
++ "tabAccessoryEnvironment"
++ "tabBar.playlists"
++ "tail"
++ "taste"
++ "tensorSizeAndAlignWithDescriptor:"
++ "textField:editMenuForCharactersInRange:suggestedActions:"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:insertInputSuggestion:"
++ "textField:shouldChangeCharactersInRange:replacementString:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textField:willDismissEditMenuWithAnimator:"
++ "textField:willPresentEditMenuWithAnimator:"
++ "textFieldDidBeginEditing:"
++ "textFieldDidChangeSelection:"
++ "textFieldDidEndEditing:"
++ "textFieldDidEndEditing:reason:"
++ "textFieldShouldBeginEditing:"
++ "textFieldShouldClear:"
++ "textFieldShouldEndEditing:"
++ "textFieldShouldReturn:"
++ "textFields"
++ "textKitManager"
++ "textLayoutDiffMetadata"
++ "textPosition"
++ "threadExecutionWidth"
++ "timeObserver"
++ "timelineReloadReasons"
++ "timelineReloadTask"
++ "timestampLabel"
++ "timingFunction"
++ "titleLabelWidthConstraint"
++ "to comparator "
++ "toggleTransitions"
++ "toggleTransitionsCommand"
++ "toolbarItems"
++ "topFade"
++ "topFadeOffset"
++ "topFadePower"
++ "totalDuration"
++ "trackingView"
++ "trailingButtonsStackView"
++ "transform.rotation"
++ "transform.translation.x"
++ "transform.translation.y"
++ "transient"
++ "transitionStyle"
++ "transitionStyleForUserWithCatalogPlaybackCapability:"
++ "transitionsActive"
++ "transitionsButton"
++ "transitionsButtonAction"
++ "transitionsButtonState"
++ "translatedLine"
++ "translatedText"
++ "translation"
++ "translation.slash"
++ "translationBackgroundVocalsText"
++ "translationButton"
++ "translationButtonConstraints"
++ "translationButtonSplitViewConstraints"
++ "translationButtonTempAction"
++ "translationButtonToVocalAttenuationSplitViewConstraints"
++ "translationLabel"
++ "translationLanguage"
++ "translationLineView"
++ "translationText"
++ "translationToggleBlock"
++ "translations"
++ "translationsEnabledByDefault"
++ "transliteratedLine"
++ "transliteratedText"
++ "transliteratedWords"
++ "transliterationDirection"
++ "transliterationLanguage"
++ "transliterationLineView"
++ "transliterationText"
++ "transliterationToggleBlock"
++ "transliterations"
++ "transliterationsEnabledByDefault"
++ "ttmlLocalizations"
++ "ttrSmartTransitionButton"
++ "unable to find bundle named Panache_Panache"
++ "uniformsBuffer"
++ "unpin"
++ "update"
++ "updateConfigurationTask"
++ "updatePinActionNavigate"
++ "updatePinActionPlay"
++ "updatePinActionShuffle"
++ "updatePinnedArtistHasAlbumsCache error=%s"
++ "usageBoundsForTextContainer"
++ "userDefaultsLayoutVariantObserver"
++ "userDefaultsPlaylistSortObserver"
++ "userDefaultsSortObserver"
++ "v16@?0@\"UITextField\"8"
++ "v24@0:8@\"UITextField\"16"
++ "v24@0:8^{CGContext=}16"
++ "v24@?0@\"<MTLFunction>\"8@\"NSError\"16"
++ "v24@?0@\"MCDBrowserTableViewController\"8@\"UITraitCollection\"16"
++ "v24@?0@\"MCDFuseTableViewController\"8@\"UITraitCollection\"16"
++ "v24@?0@\"MCDLibraryTableViewController\"8@\"UITraitCollection\"16"
++ "v24@?0@\"MCDTableViewController\"8@\"UITraitCollection\"16"
++ "v28@0:8B16q20"
++ "v32@0:8@\"NSCache\"16@24"
++ "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
++ "v32@0:8@\"UITextField\"16q24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v32@0:8@\"_TtC15ImagePlayground29ImagePlaygroundViewController\"16@\"NSArray\"24"
++ "v32@0:8d16d24"
++ "v32@?0@\"<MTLRenderPipelineState>\"8@\"MTLRenderPipelineReflection\"16@\"NSError\"24"
++ "v56@0:8@\"UICollectionView\"16@\"UICollectionViewCell\"24@\"NSIndexPath\"32@\"_UITypeSelectItemResult\"40@\"<_UITypeSelectInteractionAnimating>\"48"
++ "v56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDropSession>\"32@\"UITabGroup\"40q48"
++ "v56@0:8@16@24@32@40q48"
++ "validateCommand:"
++ "vcsViewModels"
++ "vcs_section"
++ "vertexAttributes"
++ "vertexBuffers"
++ "vertexDescriptor"
++ "viewForContentSize"
++ "viewForFirstBaselineLayout"
++ "viewForLastBaselineLayout"
++ "viewModelsAtIndexPath:"
++ "viewModelsAtIndexPath:prefersTallArtwork:withSubtitleForPlaylists:actionToPerform:"
++ "visualEffectView"
++ "wantsHihglightIndicator"
++ "wantsPinsGridCellAtIndexPath:"
++ "waveOffset"
++ "weakObjectsPointerArray"
++ "widthOffset"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "wordView"
++ "xOffset"
++ "xTranslationAnimationKey"
++ "yTranslationAnimationKey"
++ "yellowColor"
++ "{?=QQ}24@0:8@\"MTLTensorDescriptor\"16"
++ "{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}"
++ "| Creating an ArtworkSmartTransition Mask with style=%s"
++ "| Got motion data while in a transition"
++ "| Removing instance of `LibraryItemDeferredContainerViewController` at index %{public}ld since the resolved VC is already in the navigation stack."
++ "| Replacing instance of `LibraryItemDeferredContainerViewController` at index %{public}ld with resolved VC=%{public}@"
++ "| issuance=%{public}s"
++ "| proposedViewControllers=%{public}s"
++ "| ✅ %{public}s"
++ "| ❌ %{public}s – Unable to create a contextMenu for the playing item, using disabled menu"
++ "| ❌ %{public}s – could not find a submenuContext"
++ "| ❌ %{public}s – could not find an activeSubmenuProvider"
++ "| ❌ Alchemy - FF is not enabled"
++ "| ❌ Device does not support Metal"
++ "| ❌ New Playlist Folder - FF is not enabled"
++ "| ❌ [Renderer] Could not create a command queue"
++ "| ❌ [Renderer] Unable to create renderEncoder"
++ "| ❌ [Renderer] Unable to get submesh"
++ "| ❌ [Renderer] Unable to make a mesh"
++ "| ❌ [Renderer] Unable to make a pipelineState"
++ "| ❌ [Renderer] Unable to make default library"
++ "| 🫥😐 Starting smart transition artwork animation with style=%s"
++ "| 🫥😐 – Animating square artworkView change"
++ "| 🫥😐 – Hiding motionBackgroundView"
++ "| 🫥😐 – Hiding square artworkView"
++ "| 🫥😐 – Showing motionBackgroundView"
++ "| 🫥😐 – Showing square artworkView"
++ "” Folder to…"
++ "⏱️✅ Command became available (%{public}s)"
++ "╭ AutoMix transition is starting"
++ "╭ Building the Application Main Menu"
++ "╭ NavigationStack for tab=%{public}s"
++ "╭ Performing %s"
++ "╭ Will perform %s…"
++ "╭ ✅ Successfully performed %s"
++ "╭ ❌ Failed to perform commands %s\n| issuance=%{public}s\n╰ error=%{public}s"
++ "╭ ❌ Unavailable %s\n| issuance=%{public}s\n╰ error=nil MPCPlayerResponse"
++ "╭ 🔊 Resolving specified route for %s"
++ "╭ 🔊✅ Successfully resolved specified route for %s"
++ "╭ 🔊❌ Failed to resolve specified route for %s"
++ "╭ 🕛 Pausing execution for %s"
++ "╰ Done"
++ "╰ Returning effectiveViewControllers=%{public}s"
++ "╰ statuses=%{public}s"
++ "╰ 🔊 Route=%{public}s"
++ "🏎️ TabBarController"
++ "👀✅ %{public}s - state: %{public}s"
++ "👀✅ %{public}s - title: %{public}s, state: %{public}s"
++ "👀✅ %{public}s – title: %{public}s"
++ "👀🚫 %{public}s is disabled – musicLibrary != .shared"
++ "📺 %{public}s: Updating DisplayLink…"
++ "🔁 Attempted to update tab=%{public}s with unrelated pin=%{public}s"
++ "🔁 Updated PinTab=%{public}s with matching pin=%{public}s"
++ "🔁 Updated Playlist Tab %{public}s with matching playlist %{public}s — has visually changed: %{bool}d"
++ "🔁 Updating Playlist Folder Tab %{public}s with matching folder %{public}s — has visually changed: %{bool}d"
++ "🔨‼️ Playlist Tabs task cancelled "
++ "🙈🚫 %{public}s is hidden and disabled – Cannot determine repeatCommand or repeatType"
++ "🙈🚫 %{public}s is hidden and disabled – Cannot get a tracklist from nowPlaying"
++ "🙈🚫 %{public}s is hidden and disabled – Stop, Pause, and Play comannds are all not supported on the player"
++ "🙈🚫 %{public}s is hidden and disabled – UIApplication.player.nowPlaying is nil"
++ "🙈🚫 %{public}s is hidden and disabled – Unknown MPTransitionStylePreference=%{public}s"
+- "\n\n\nDescribe your issue with Suntory feature.\nIf possible please add a screenrecording of the issue."
+- " for offline playback"
+- " from my favorites"
+- " from my library"
+- " in my favorites"
+- " song.identifiers="
+- " to my favorites"
+- "$__lazy_storage_$_contextBarButton"
+- "$__lazy_storage_$_contextualActionsButton"
+- "$__lazy_storage_$_editDoneButton"
+- "$__lazy_storage_$_largeTitleAccessoryView"
+- "$__lazy_storage_$_needsToResolveLayout"
+- "$__lazy_storage_$_newPlaylistBarButtonItem"
+- "$__lazy_storage_$_openInClassicalBarButtonItem"
+- "$__lazy_storage_$_previewPlaybackControl"
+- "$__lazy_storage_$_statusBarEffectView"
+- "%{public}s loadLyrics(for:completion:) failed to handle error on store lyrics request [failed to convert Error? to NSError] error.localizedDescription=%{public}s %{public}s"
+- "%{public}s loadLyrics(for:completion:) failed to handle error on store lyrics request [unexpected error domain or code] standardError.code=%{public}ld standardError.domain=%{public}s %{public}s"
+- "%{public}s loadLyrics(for:completion:) unexpected error on store lyrics request [found error other than .explicitContentRestricted] error=%{public}s) %{public}s"
+- "0123456789abcdef"
+- "2000s love songs"
+- "90s hindi pop songs"
+- "@\"<MCDNowPlayingContentManagerProtocol>\""
+- "@\"CPUINowPlayingButtonWrapperView\""
+- "@\"MCDAlertButtonView\""
+- "@\"MCDBrowserViewController\""
+- "@\"MCDRootController\""
+- "@\"MCDTabBarController\""
+- "@\"UIButton\""
+- "@\"UIWindow\""
+- "@28@0:8B16@20"
+- "@32@0:8@16B24B28"
+- "@32@0:8B16@20B28"
+- "@40@0:8@16B24B28@32"
+- "@44@0:8@16B24B28B32B36B40"
+- "@56@0:8@16@24@32q40@?48"
+- "Attempted to perform navigation on stack authority for tab %{public}s, but no navigation delegate found… yikes!"
+- "Autoplaying"
+- "Autoplaying similar music"
+- "Base.TableViewCell"
+- "BottomPlayerCell"
+- "Browse"
+- "CPTabBar"
+- "CPUI.GridView.TableViewCell"
+- "CPUIGridViewBaseTableViewCell"
+- "CPUIGridViewBaseViewModel"
+- "CPUIGridViewPinsTableViewCell"
+- "CPUIGridViewSquareGridTableViewCell"
+- "CPUIGridViewTableViewCell"
+- "Cannot append to unknown hasher algorithm"
+- "Cannot finalize unknown hasher algorithm"
+- "Cannot obtain digest from unknown hasher algorithm"
+- "Choose a destination"
+- "ContainerDetail.NavigationBackButton"
+- "ContextMenuButton"
+- "Coudn't determine status for item="
+- "Could not convert modelObject to GenericMusicItem %@"
+- "Couldn't refresh Listen Now recently played: \"No recently played section to update\""
+- "Create a new playlist named "
+- "Create a playlist and call it "
+- "Create a playlist and name it "
+- "Create a playlist with the name "
+- "Did not store editorial video artworks after successful response because now `NowPlayingArtworkRestrictionsMonitor.shared.isMotionDisabled` was set to true."
+- "Dismiss"
+- "Dismiss Now Playing"
+- "Dismissing Now Playing view"
+- "Downloaded (Badge)"
+- "Empty catalogID \"%{public}s)\" for album=%{public}s… skipping"
+- "Failed to create image from artwork url: %{public}s"
+- "Failed to create navigation handler to Playlist for Song=%{public}s"
+- "Failed to load associated album for track=%{public}s with error=%{public}s"
+- "Failed to navigate to playlist: missing interface context"
+- "Failed to retrieve data from artwork url with error: %{public}s"
+- "Fetching image from artwork url: %{public}s"
+- "Found catalogID \"%{public}s)\" for album=%{public}s"
+- "GenericMusicItem %s actions not handled."
+- "Go to Now Playing"
+- "Home"
+- "I Created Disco by Calvin Harris"
+- "Ignoring placeholder"
+- "Launching to Now Playing"
+- "Library"
+- "Library.FilterMenu"
+- "Library.HomeSharingView"
+- "Library.TVEpisodesView"
+- "Loader<%{public}s> loadLyrics(for:completion:) didn't load lyrics [no lyrics found] lyrics.hasStoreLyrics=%{bool,public}d lyrics.text=%{public}s song.title=%{public}s song.identifiers=%{public}s"
+- "Loader<%{public}s> loadLyrics(for:completion:) didn't load store lyrics [not supported by subscription] subscriptionStatus=%{public}s subscriptionStatus.capabilities.contains(.catalogLyricsViewing)=%{bool,public}d song.title=%{public}s song.identifiers=%{public}s"
+- "Loader<%{public}s> loadLyrics(for:completion:) returned without loading lyrics [MPModelLyrics was nil] song.title=%{public}s song.identifiers=%{public}s"
+- "MCDAlertAction"
+- "MCDAlertButtonView"
+- "MCDAlertButtonViewController"
+- "MCDAlertController"
+- "MCDBrowseViewControllerIdentifier"
+- "MCDBrowserViewController"
+- "MCDContentItemsChangedNotification"
+- "MCDForYouTableViewControllerIdentifier"
+- "MCDGetNowPlayingButton"
+- "MCDLibraryViewControllerIdentifier"
+- "MCDRadioViewControllerIdentifier"
+- "MCDRootController"
+- "MCDTabBarController"
+- "MCD_popNowPlayingViewControllerAnimated:"
+- "MPAVRoutingControllerDelegate"
+- "MSVHash _MSVHasherFinalize(MSVHasher * _Nonnull)"
+- "MSVHasher+Algorithms.h"
+- "MUSIC_TOOLTIP_DEBUG"
+- "Make a new playlist and call it "
+- "Maud Geffray’s album Nite Sessions"
+- "MiniPlayerAddCell"
+- "Motion in Now Playing"
+- "Music.LargeTitleAccessoryView"
+- "Music.Queue"
+- "Music.TableViewCell"
+- "Music.Window"
+- "Music.Wrapper"
+- "Music/AppInterfaceContext.swift"
+- "Music/BottomPlayerAddCell.swift"
+- "Music/BottomPlayerCell.swift"
+- "Music/GridView+UITableView.swift"
+- "Music/LargeTitleAccessoryView.swift"
+- "Music/WindowSceneResolver.swift"
+- "MusicCarPlayApplicationCapabilitiesControllerAllowsRadioContentDidChangeNotification"
+- "MusicCarPlayApplicationCapabilitiesControllerUserSubscriptionStateDidChangeNotification"
+- "MusicCarPlayManager"
+- "MusicCoreUI.CustomCurveAnimationFactory"
+- "MusicCoreUI.GlyphView"
+- "MusicCoreUI.InstrumentalContentView"
+- "MusicCoreUI.LineProgressGradientView"
+- "MusicCoreUI.LineView"
+- "MusicCoreUI.SBS_TextContentView"
+- "MusicCoreUI.SyllableView"
+- "MusicCoreUI.SyncedLyricsLineView"
+- "MusicCoreUI.TextContentView"
+- "MusicCoreUI.TextView"
+- "MusicCoreUI/Glyph.swift"
+- "MusicCoreUI/Line.swift"
+- "MusicCoreUI/LyricsStateManager.swift"
+- "MusicCoreUI/LyricsTextView.swift"
+- "MusicCoreUI/SBS_SyncedLyricsLineView+Text.swift"
+- "MusicCoreUI/Syllable.swift"
+- "MusicCoreUI/SyncedLyricsLineView+Instrumental.swift"
+- "MusicCoreUI/SyncedLyricsLineView+Text.swift"
+- "MusicCoreUI/SyncedLyricsLineView.swift"
+- "MusicCoreUI/Utils.swift"
+- "MusicCoreUI1"
+- "MusicTabIdentifier"
+- "MusicUtilities.Frame"
+- "MusicUtilities.Glyph"
+- "MusicUtilities.Line"
+- "MusicUtilities.Run"
+- "NSString * _Nonnull _MSVHashGetDigest(MSVHash)"
+- "New"
+- "No artwork url for %{public}s"
+- "Now Playing empty queue message when autoplay is off.  {{symbol}} will be replaced with symbol programmatically, please leave in the string."
+- "Performing pop onto resolved authority=%{public}s"
+- "Performing pop to root onto resolved authority=%{public}s"
+- "Pins.TableViewCell"
+- "Playability-forcePlayability"
+- "Playback container changed"
+- "Playback duration snapshot changed"
+- "Playback item changed"
+- "Playback state changed"
+- "Playlist.ShowOnProfileSwitch"
+- "Pull up Now Playing"
+- "Pushing to Library Playlist for Song=%{public}s"
+- "Pushing to Now Playing from button touch up inside"
+- "Pushing to viewController=%{public}s with playActivityFields=%{public}s onto resolved authority=%{public}s"
+- "QueuesEverywhere"
+- "Radio"
+- "Range isn't included in string."
+- "Remove Downloads"
+- "Requesting widget timeline reload"
+- "Requesting widget timeline reload for application termination"
+- "Require device library"
+- "ShaderFallbackKit/VertexMap.swift"
+- "Show me Now Playing"
+- "SquareGrid.TableViewCell"
+- "Start a new playlist called "
+- "Start my washing machine"
+- "StaticLyrics ContextButton"
+- "Subtitle in queue when Autoplaying"
+- "Successfully setup StackAuthority for tab %{public}s"
+- "Suggest less like "
+- "T@\"<MCDNowPlayingContentManagerProtocol>\",&,N,V_nowPlayingContentManager"
+- "T@\"MCDAlertButtonView\",&,N,V_contentView"
+- "T@\"MCDRootController\",&,N,V_carDisplayController"
+- "T@\"MusicCarPlayManager\",R,N"
+- "T@\"NSArray\",&,N,V_tabIdentifiers"
+- "T@\"NSArray\",&,N,V_viewControllers"
+- "T@\"NSMutableArray\",N,&"
+- "T@\"NSString\",C,D,N"
+- "T@\"UIImage\",&,N,V_image"
+- "T@\"UIImageView\",&,N,V_imageView"
+- "T@\"UILabel\",&,N,V_label"
+- "T@\"UIWindow\",R,N,V_carDisplayWindow"
+- "T@\"_TtC11MusicCoreUI12SymbolButton\",N,&"
+- "T@\"_TtC11MusicCoreUI12SymbolButton\",N,&,VcontextButton"
+- "T@?,C,N,V_actionHandler"
+- "TB,N,V_viewHasAppeared"
+- "TTML"
+- "Take me to Now Playing"
+- "The Now Sound of Ursula 1000"
+- "The view controller to present is configured as popover but has no `sourceView` set on it nor the PresentationSource has a `position` set. The app will crash!"
+- "To keep music playing, turn on {{symbol}} Autoplay."
+- "Transfer queue to…"
+- "UTF8String"
+- "Undo suggest less like "
+- "Unexpected call to %s in a miniPlayer UI context"
+- "Unexpected call to stackAuthority(for:) in a miniPlayer UI context"
+- "Updating playerPaths with route=%{public}s"
+- "W"
+- "Wrong kind (%{public}@) of object found in itemsInSectionAtIndex at %{public}lu"
+- "[NowPlayingQueueViewController] ---- Autoplay supported? NO"
+- "[NowPlayingQueueViewController] ---- Autoplay supported? YES, autoplay on? %{bool,public}d"
+- "[State] Already has a pending request for song %{public}s"
+- "_MusicTabIdentifier"
+- "_TtC11MusicCoreUI19SyncedLyricsManager"
+- "_TtC11MusicCoreUI20SyncedLyricsLineView"
+- "_TtC11MusicCoreUI24LineProgressGradientView"
+- "_TtC11MusicCoreUI26SyncedLyricsViewController"
+- "_TtC11MusicCoreUI6Lyrics"
+- "_TtC14MusicUtilities22DeinitTriggeredClosure"
+- "_TtC5Music11RateLimiter"
+- "_TtC5Music14AlertPresenter"
+- "_TtC5Music16BottomPlayerCell"
+- "_TtC5Music17MiniPlayerAddCell"
+- "_TtC5Music19BottomPlayerManager"
+- "_TtC5Music19SwiftObjCInteropFix"
+- "_TtC5Music23LargeTitleAccessoryView"
+- "_TtC5Music25PlaylistSortingController"
+- "_TtC5Music29BottomPlayerTabViewController"
+- "_TtC5Music31NowPlayingVideoArtworksMetadata"
+- "_TtC5Music35NowPlayingTransportControlStackView"
+- "_TtC5MusicP33_5F12772E46B6F4A5BA52DC8B7884FA6041StatusBarVisualEffectAnimationCoordinator"
+- "_TtC5MusicP33_9EC7F29AAFE3C0F592FE132F62B9CAB121HostedScenePhaseModel"
+- "_TtCC11MusicCoreUI20SyncedLyricsLineView4Line"
+- "_TtCC11MusicCoreUI20SyncedLyricsLineView4Word"
+- "_TtCC11MusicCoreUI20SyncedLyricsLineView5Frame"
+- "_TtCC11MusicCoreUI20SyncedLyricsLineView5Glyph"
+- "_TtCC11MusicCoreUI20SyncedLyricsLineView8Syllable"
+- "_TtCC11MusicCoreUI24LineProgressGradientViewP33_CAA5E92EB35A39E050897B33043EE84412GradientView"
+- "_TtCC11MusicCoreUI6Lyrics12StateManager"
+- "_TtCC5Music17PlayerTimeControlP33_49F0BC05FDBB8FE791FA6BF39E95831815KnobContentView"
+- "_TtCC5Music19AppInterfaceContext11AuthorityAI"
+- "_TtCC5Music19BottomPlayerManager5Queue"
+- "_TtCC5Music19SwiftObjCInteropFix35CPUIGridViewBaseViewModelInteropFix"
+- "_TtCC5Music19SwiftObjCInteropFix39CPUIGridViewPinsTableViewCellInteropFix"
+- "_TtCC5Music19SwiftObjCInteropFix45CPUIGridViewSquareGridTableViewCellInteropFix"
+- "_TtCC5Music25LibraryMainViewControllerP33_A0D16B479CF880998704DD7DB9390D9020AccountButtonWrapper"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView19SBS_TextContentView8TextView"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView4Line8LineView"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView4Word8WordView"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView5Frame9FrameView"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView5Glyph9GlyphView"
+- "_TtCCC11MusicCoreUI20SyncedLyricsLineView8Syllable12SyllableView"
+- "_TtCE14MusicUtilitiesCSo11UIStackView10SpacerView"
+- "_TtCO14MusicUtilities7CTLabel3Run"
+- "_TtCO14MusicUtilities7CTLabel4Line"
+- "_TtCO14MusicUtilities7CTLabel5Frame"
+- "_TtCO14MusicUtilities7CTLabel5Glyph"
+- "_TtCV5Music19WindowSceneResolver4View"
+- "_TtCVC11MusicCoreUI26SyncedLyricsViewController5SpecsP33_24E29E585AB6D5A617C4CD1FBB85399D27CustomCurveAnimationFactory"
+- "_UIScrollViewScrollObserver"
+- "_actionHandler"
+- "_actionWithContentViewController:style:handler:"
+- "_addScrollViewScrollObserver:"
+- "_allowChildSplitViewControllers"
+- "_beginObservingPrivacyInfo"
+- "_browserViewController"
+- "_carDisplayController"
+- "_carDisplayWindow"
+- "_carSystemFocusColor"
+- "_createViewControllerForIdentifier:"
+- "_dismissAlertController"
+- "_endObservingPrivacyInfoIfNeeded"
+- "_handleTouch:"
+- "_iconImageForRoute:"
+- "_imageView"
+- "_init"
+- "_isInPopoverPresentation"
+- "_isNowPlayingAvailable"
+- "_itemDidChange"
+- "_label"
+- "_libraryHasSongs"
+- "_limitedUIChanged:"
+- "_limitedUIDidChange"
+- "_limitedUIEnabled"
+- "_mediaLibraryDidChange:"
+- "_nowPlayingButton"
+- "_nowPlayingButtonTouchUpInside:"
+- "_nowPlayingButtonView"
+- "_nowPlayingContentManager"
+- "_observeScrollViewDidEndDecelerating:"
+- "_observeScrollViewDidScroll:"
+- "_parentNavigationControllerIsTransitioning"
+- "_privacyObservationToken"
+- "_queues"
+- "_refreshRecentlyPlayedRequest"
+- "_reloadTabsViewControllers"
+- "_removeDetailViews"
+- "_response"
+- "_setAppropriateViewControllers"
+- "_setAutoScrollEdgeTransitionDistance:"
+- "_setContentClipCorners:updateCorners:"
+- "_setHighlightsForHitView:"
+- "_setLargeTitleAccessoryView:"
+- "_setLargeTitleAccessoryView:alignToBaseline:"
+- "_setManualScrollEdgeAppearanceEnabled:"
+- "_setManualScrollEdgeAppearanceProgress:"
+- "_shouldPushToNowPlayingOnceNowPlayingHasLoaded"
+- "_socialProfileArtworkInfo"
+- "_subscriptionState"
+- "_tabBarController"
+- "_tabIdentifiers"
+- "_tabVCIdentifiers"
+- "_targetNavigationBarForUISplitViewControllerSidebarButton"
+- "_updateNowPlayingPlayingVisibilityWithCompletionHandler:"
+- "_viewControllers"
+- "_viewControllersInTabBar"
+- "_viewHasAppeared"
+- "accountSubscription"
+- "actionHandler"
+- "addObjectsFromArray:"
+- "addToLibraryUpsell"
+- "addToPlaylistUpsell"
+- "ageVerification"
+- "albumTracksViewControllerForContentItem:limitedUI:showLocalContent:"
+- "albumTracksViewControllerForStoreItem:limitedUI:showLocalContent:"
+- "albumsForGenre:limitedUI:showLocalContent:"
+- "albumsForPerson:limitedUI:showLocalContent:"
+- "allowTallMotionArtwork"
+- "applicationDelegate"
+- "artists similar to soundgarden"
+- "artworkConstraints"
+- "artworkGlow"
+- "artworksWithTitlesAtIndex:"
+- "attachToWindow:"
+- "availableLanguages"
+- "availableSharedLibrariesObserver"
+- "availableTranslations"
+- "backdropLayerGroupName"
+- "badgeMaskLayer"
+- "basicView"
+- "bottomBarView"
+- "bottomViewController"
+- "buttonsToUpdate"
+- "can not subdivide a grid by numbers < 1"
+- "carDisplayController"
+- "carDisplayWindow"
+- "carLastSelectedTabIdentifier"
+- "carPlayManager"
+- "cgGlyph"
+- "circle.dotted.and.circle"
+- "closure"
+- "colorOverride"
+- "com.apple.Music.LyricsQueue"
+- "command"
+- "configurationWithText:artworkCatalogs:imageTitles:selectGridItemBlock:selectTitleBlock:showActivityIndicator:enabled:"
+- "contentLayoutGuideExtendedLeadingConstraint"
+- "contextMenuAction.artistSortBy"
+- "ctFrame"
+- "ctLine"
+- "ctRun"
+- "currentAppearanceState"
+- "currentItemID"
+- "currentLanguage"
+- "currentNowPlayingViewControllerInStack"
+- "currentQueue"
+- "currentlyDisplayedArtwork"
+- "delayedSceneCloseWorkItem"
+- "detachFromWindow:"
+- "deviceAcknowledgementRequired"
+- "dismissViewControllerWithTransition:completion:"
+- "dismissalWorkItem"
+- "effectView"
+- "fetchAvailableRoutesWithCompletionHandler:"
+- "forcedPaths"
+- "fractionalHeightDimension:"
+- "frameVisualRepresentation"
+- "framesetter"
+- "gridView"
+- "handoffButton"
+- "handoffFromAction"
+- "handoffToAction"
+- "hasNowPlayingViewControllerBeenPushed"
+- "hasScrolledtoProminentItem"
+- "hasSongs"
+- "hashedDSID"
+- "hideSearchBarWhenScrolling"
+- "ignoredQueues"
+- "init(contentRect:)"
+- "init(dataSource:layout:)"
+- "initWithBytesNoCopy:length:encoding:freeWhenDone:"
+- "initWithConfiguration:"
+- "initWithContentRect:"
+- "initWithCurator:limitedUI:"
+- "initWithEndpoint:"
+- "initWithFrame:bundleIdentifier:"
+- "initWithId:title:artworkCatalog:placeholderType:action:"
+- "initWithId:title:image:action:"
+- "initWithIdentifier:limitedUI:showLocalContent:"
+- "initWithIdentifier:limitedUI:showLocalContent:dataSource:"
+- "initWithImage:style:target:action:"
+- "initWithLimitedUI:"
+- "initWithLimitedUI:album:storeContent:"
+- "initWithLimitedUI:genre:"
+- "initWithLimitedUI:person:"
+- "initWithLimitedUI:playlist:"
+- "initWithLimitedUI:recommendationGroup:"
+- "initWithLimitedUI:recommendationItem:"
+- "initWithPlaylist:limitedUI:showLocalContent:"
+- "initWithSectionItem:limitedUI:radioDomain:"
+- "initWithSectionItem:limitedUI:showRankedList:queueListForPlayback:radioDomain:"
+- "initWithSectionItem:limitedUI:showRankedList:queueListForPlayback:radioDomain:musicKit:"
+- "initWithTitle:image:"
+- "initWithTitle:image:selectedImage:"
+- "initWithTitle:image:tag:"
+- "initWithWindow:"
+- "interval"
+- "iphone.and.arrow.forward"
+- "isFloating"
+- "isHostingExtaStatusBar"
+- "isMotionDisabled"
+- "isOverridingSource"
+- "isPicked"
+- "isShowingPicker"
+- "keyboardShortcutsManager"
+- "knob"
+- "libraryHasContent"
+- "libraryImportViewModelsObserver"
+- "limitUserInterfaces"
+- "limitableUserInterfaces"
+- "listenTogether"
+- "loadedArtworkInfo"
+- "localDeviceQueue"
+- "lyricsOperations"
+- "madeForYouViewControllerWithIdentifier:limitedUI:showLocalContent:"
+- "maxReorderingContentOffset"
+- "migrateToOrSetOutputDevices:initiator:withReplyQueue:completion:"
+- "modeTimingFunction"
+- "motion static "
+- "musicNavigationItem.automaticNavigationBarTransitions"
+- "musicNavigationItem.manualNavigationBarTransitions"
+- "musicNavigationItem.noNavigationBarTransition"
+- "musicNavigationItem.standardNavigationBarTransition"
+- "musicTabIdentifier"
+- "mutableChildViewControllers"
+- "newPlaylist"
+- "newPlaylistCellRegistration"
+- "nowPlayingButton"
+- "nowPlayingButtonView"
+- "nowPlayingContentManager"
+- "nowPlayingItemLargeTextMarqueeView"
+- "nowPlayingItemLargeTextTitleLabel"
+- "onSelectedTabChanged"
+- "onTabsChanged"
+- "openInClassicalButton"
+- "order"
+- "orthogonalScrollView"
+- "overrideCurrentQueue"
+- "paletteForEdge:size:"
+- "paletteView"
+- "passthroughWindow"
+- "personalMixProvideFeedback"
+- "playTo"
+- "playerRequestController"
+- "playerTabsViewController"
+- "playlistTypeReportAConcern"
+- "playlistsViewControllerForFolder:limitedUI:showLocalContent:"
+- "prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC"
+- "prefs:root=APPLE_ACCOUNT"
+- "prefs:root=MUSIC&path=com.apple.Music"
+- "prefs:root=MUSIC&path=com.apple.Music:Atmos"
+- "prefs:root=MUSIC&path=com.apple.Music:AudioQuality"
+- "prefs:root=NOTIFICATIONS_ID&path=com.apple.Music"
+- "prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY"
+- "preventPersonalDeviceAutoSwitch"
+- "previousContentOffset"
+- "profileAllowsExplicitContent"
+- "pushNowPlaying:"
+- "pushSharePlayTogetherSettings"
+- "queueVideoArtworks"
+- "queuesMap"
+- "queuesSubscription"
+- "refreshNavigationPath"
+- "reloadTabsContent"
+- "removeObject:"
+- "resolver"
+- "rock ballads from the 70s and 80s"
+- "routingController:didFailToPickRouteWithError:"
+- "routingController:pickedRouteDidChange:"
+- "routingController:pickedRoutesDidChange:"
+- "routingController:shouldHijackRoute:alertStyle:busyRouteName:presentingAppName:completion:"
+- "routingController:volumeControlAvailabilityDidChange:"
+- "routingControllerAvailableRoutesDidChange:"
+- "routingControllerDidPauseFromActiveRouteChange:"
+- "routingControllerExternalScreenTypeDidChange:"
+- "scaledFontForFont:"
+- "sceneDidDisconnect"
+- "selectHandler"
+- "selectedElapsedTime"
+- "setAccessibilityActivateBlock:"
+- "setActionHandler:"
+- "setAllowedTouchTypes:"
+- "setCarDisplayController:"
+- "setContextButton:"
+- "setCustomView:"
+- "setCustomizableViewControllers:"
+- "setImageView:"
+- "setMusicTabIdentifier:"
+- "setMutableChildViewControllers:"
+- "setNowPlayingContentManager:"
+- "setOrthogonalScrollingBehavior:"
+- "setRepresentativeItem:"
+- "setRequestSupportedCommands:"
+- "setScrollDirection:"
+- "setSelectedIndex:"
+- "setSelectedViewController:"
+- "setTabBarItem:"
+- "setTabIdentifiers:"
+- "setViewHasAppeared:"
+- "sharePlayTogetherItemProvider"
+- "sharedLibrariesObserver"
+- "sharedLibrarySelectionObserver"
+- "shouldShowArtworkGlow"
+- "showNowPlaying:"
+- "showSharePlayTogetherSettings"
+- "signpostLoadSceneIntervalState"
+- "socialBlock"
+- "socialCancelRequest"
+- "socialEditProfile"
+- "socialProfileArtworkInfo"
+- "socialUnblock"
+- "socialUnfollow"
+- "song that ryan gosling sang in barbie"
+- "song that won lady gaga the oscar"
+- "stackAuthority(for:)"
+- "startedRequests"
+- "statusBarEffectViewAnimationCoordinator"
+- "storeFlowSubscription"
+- "storedDataSource"
+- "strokes"
+- "subscriptionCapabilitiesNotificationObserver"
+- "substringToIndex:"
+- "suggestedSize"
+- "supportedCommands"
+- "tabIdentifiers"
+- "tabsSubscription"
+- "tabsViewController"
+- "tag"
+- "tails"
+- "tapAction"
+- "targetEffect"
+- "tertiarySystemBackgroundColor"
+- "the playlist Ladytron Essentials"
+- "timelineReloadRateLimiter"
+- "tracksToAdd"
+- "trailingConstraint"
+- "translationMap"
+- "translationsMap"
+- "uiKitConfiguration"
+- "unprocessed"
+- "unusedItemsCounter"
+- "useExtendedLineBounds"
+- "userSubscriptionStateNotificationObserver"
+- "v24@0:8@\"MPAVRoutingController\"16"
+- "v24@?0@\"MPModelSong\"8@\"NSError\"16"
+- "v24@?0@\"MRNowPlayingPlayerResponse\"8@\"NSError\"16"
+- "v28@0:8@\"MPAVRoutingController\"16B24"
+- "v28@0:8B16@?20"
+- "v28@0:8Q16B24"
+- "v32@0:8@\"MPAVRoutingController\"16@\"MPAVRoute\"24"
+- "v32@0:8@\"MPAVRoutingController\"16@\"NSArray\"24"
+- "v32@0:8@\"MPAVRoutingController\"16@\"NSError\"24"
+- "v64@0:8@\"MPAVRoutingController\"16@\"MPAVRoute\"24q32@\"NSString\"40@\"NSString\"48@?<v@?B>56"
+- "v64@0:8@16@24q32@40@48@?56"
+- "viewControllerForIdentifier:"
+- "viewHasAppeared"
+- "visibleViewController"
+- "void _MSVHasherAppendBytes(MSVHasher * _Nonnull, const void * _Nonnull, size_t)"
+- "warpTimingFunction"
+- "webViewDismissedObserver"
+- "whitespaceAndNewlineCharacterSet"
+- "willPresentHandler"
+- "⏱️✅ Awaiting for command succeeded (%{public}s)"
+- "╭ Commands (%{public}s)"
+- "╭ Performing Commands (%{public}s)"
+- "╭ Will perform commands %{public}s"
+- "╰ ✅ Successfully performed with statuses=%{public}s"
+- "╰ ❌ Failed to perform command with error=%{public}s"
+- "╰ ❌ Unavailable Commands (nil Response)"
+- "╰ 🔊 Resolving specified route"
+- "╰ 🔊✅ Successfully resolved specified route"
+- "╰ 🔊❌ Failed to resolve specified route"
+- "🔁 Updated Playlist Tab %{public}s with matching playlist %{public}s"
+- "🔁 Updating Playlist Folder Tab %{public}s with matching folder %{public}s"
+
+```

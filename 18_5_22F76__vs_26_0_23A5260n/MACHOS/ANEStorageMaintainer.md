@@ -1,0 +1,1491 @@
+## ANEStorageMaintainer
+
+> `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/ANEStorageMaintainer`
+
+```diff
+
+-370.56.0.0.0
+-  __TEXT.__text: 0x23ea0
+-  __TEXT.__auth_stubs: 0xa70
+-  __TEXT.__objc_stubs: 0x2a80
+-  __TEXT.__objc_methlist: 0x134c
+-  __TEXT.__const: 0x200
+-  __TEXT.__cstring: 0x235b
+-  __TEXT.__oslogstring: 0x4a71
+-  __TEXT.__objc_methname: 0x343a
+-  __TEXT.__objc_classname: 0x197
+-  __TEXT.__objc_methtype: 0x1c3c
+-  __TEXT.__gcc_except_tab: 0x399c
+-  __TEXT.__unwind_info: 0x980
+-  __DATA_CONST.__auth_got: 0x550
+-  __DATA_CONST.__got: 0x178
+-  __DATA_CONST.__auth_ptr: 0x20
+-  __DATA_CONST.__const: 0x850
+-  __DATA_CONST.__cfstring: 0x2900
+-  __DATA_CONST.__objc_classlist: 0x88
+-  __DATA_CONST.__objc_protolist: 0x28
++380.7.0.0.0
++  __TEXT.__text: 0x4310
++  __TEXT.__auth_stubs: 0x3f0
++  __TEXT.__objc_stubs: 0x8e0
++  __TEXT.__objc_methlist: 0x274
++  __TEXT.__const: 0xb0
++  __TEXT.__oslogstring: 0x6d7
++  __TEXT.__objc_classname: 0x76
++  __TEXT.__objc_methname: 0x910
++  __TEXT.__objc_methtype: 0x1a3
++  __TEXT.__gcc_except_tab: 0x1ec
++  __TEXT.__cstring: 0x78
++  __TEXT.__unwind_info: 0x128
++  __DATA_CONST.__auth_got: 0x208
++  __DATA_CONST.__got: 0xa0
++  __DATA_CONST.__const: 0xa8
++  __DATA_CONST.__cfstring: 0x80
++  __DATA_CONST.__objc_classlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __DATA_CONST.__objc_arraydata: 0x118
+-  __DATA_CONST.__objc_dictobj: 0x50
+   __DATA_CONST.__objc_intobj: 0x18
+-  __DATA_CONST.__objc_arrayobj: 0x48
+-  __DATA.__objc_const: 0x1248
+-  __DATA.__objc_selrefs: 0xf78
+-  __DATA.__objc_ivar: 0x80
+-  __DATA.__objc_data: 0x550
+-  __DATA.__data: 0x3a8
+-  __DATA.__bss: 0x220
++  __DATA.__objc_const: 0x360
++  __DATA.__objc_selrefs: 0x330
++  __DATA.__objc_data: 0xf0
++  __DATA.__data: 0x130
++  __DATA.__bss: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+-  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/ANECompiler.framework/ANECompiler
+-  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/AppleNeuralEngine
+   - /System/Library/PrivateFrameworks/MIL.framework/MIL
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BDD53E87-5F31-3B20-B38D-97F71E08CC6D
+-  Functions: 708
+-  Symbols:   323
+-  CStrings:  1703
++  UUID: 1EBD4EB9-EA38-3E69-B55A-6D92689BE348
++  Functions: 43
++  Symbols:   104
++  CStrings:  198
+ 
+Symbols:
++ __os_signpost_emit_with_name_impl
++ _mach_continuous_time
++ _os_signpost_enabled
++ _os_signpost_id_generate
+- _ANECGetValidateNetworkSupportedVersion
+- _ANECValidateNetworkCreate
+- _ANEGetValidateNetworkSupportedVersion
+- _ANEValidateNetworkCreate
+- _ANEValidateNetworkCreateVMHost
+- _AnalyticsSendEventLazy
+- _CFArrayAppendValue
+- _CFArrayCreateMutable
+- _CFArrayGetCount
+- _CFArrayGetValueAtIndex
+- _CFDataCreate
+- _CFDataGetBytePtr
+- _CFDataGetBytes
+- _CFDataGetLength
+- _CFDictionaryApplyFunction
+- _CFDictionaryCreateMutable
+- _CFDictionaryCreateMutableCopy
+- _CFDictionaryGetValue
+- _CFDictionaryReplaceValue
+- _CFDictionarySetValue
+- _CFGetTypeID
+- _CFNumberCreate
+- _CFNumberGetTypeID
+- _CFNumberGetValue
+- _CFPropertyListCreateWithData
+- _CFRelease
+- _CFStringCompare
+- _CFStringCreateWithFormat
+- _IOCFSerialize
+- _IOCFUnserializeBinary
+- _IOConnectCallMethod
+- _IOConnectCallScalarMethod
+- _IOIteratorNext
+- _IOObjectRelease
+- _IORegistryEntryCreateCFProperty
+- _IOServiceGetMatchingService
+- _IOServiceGetMatchingServices
+- _IOServiceMatching
+- _IOServiceOpen
+- _IOSurfaceCreate
+- _IOSurfaceGetAllocSize
+- _IOSurfaceGetBaseAddress
+- _IOSurfaceGetID
+- _IOSurfaceLock
+- _IOSurfaceUnlock
+- _MGGetBoolAnswer
+- _MGGetSInt64Answer
+- _MGGetStringAnswer
+- _NSFileTypeSymbolicLink
+- _NSKeyedArchiveRootObjectKey
+- _NSLocalizedDescriptionKey
+- _NSLog
+- _NSStringFromClass
+- _OBJC_CLASS_$_IOSurfaceSharedEvent
+- _OBJC_CLASS_$_IOSurfaceSharedEventListener
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$__ANEDataReporter
+- _OBJC_CLASS_$__ANEDeviceController
+- _OBJC_CLASS_$__ANEDeviceInfo
+- _OBJC_CLASS_$__ANEErrors
+- _OBJC_CLASS_$__ANEModelToken
+- _OBJC_CLASS_$__ANEPerformanceStats
+- _OBJC_CLASS_$__ANEProgramForEvaluation
+- _OBJC_CLASS_$__ANEProgramIOSurfacesMapper
+- _OBJC_CLASS_$__ANESharedEvents
+- _OBJC_CLASS_$__ANESharedSignalEvent
+- _OBJC_CLASS_$__ANESharedWaitEvent
+- _OBJC_CLASS_$__ANEVirtualClient
+- _OBJC_METACLASS_$__ANEDataReporter
+- _OBJC_METACLASS_$__ANEDeviceController
+- _OBJC_METACLASS_$__ANEDeviceInfo
+- _OBJC_METACLASS_$__ANEErrors
+- _OBJC_METACLASS_$__ANELog
+- _OBJC_METACLASS_$__ANEModelToken
+- _OBJC_METACLASS_$__ANEPerformanceStats
+- _OBJC_METACLASS_$__ANEProgramForEvaluation
+- _OBJC_METACLASS_$__ANEProgramIOSurfacesMapper
+- _OBJC_METACLASS_$__ANESharedEvents
+- _OBJC_METACLASS_$__ANESharedSignalEvent
+- _OBJC_METACLASS_$__ANESharedWaitEvent
+- _OBJC_METACLASS_$__ANEStrings
+- _OBJC_METACLASS_$__ANEVirtualClient
+- _PPSCreateTelemetryIdentifier
+- _PPSSendTelemetry
+- _SecTaskCopySigningIdentifier
+- _SecTaskCopyTeamIdentifier
+- _SecTaskCreateWithAuditToken
+- __ZN3MIL13ParserOptions4MakeEv
+- __ZN3MIL4Text12ParseProgramENSt3__110shared_ptrINS_10MILContextEEENS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS_13ParserOptionsE
+- __ZN3MIL4Text15SerializeToFileERKNS_9IRProgramERKNS0_17SerializerOptionsE
+- __ZN3MIL4Text17SerializerOptions4MakeEv
+- __ZN3MIL4Text20ParseProgramFromFileENSt3__110shared_ptrINS_10MILContextEEERKNS_13ParserOptionsE
+- __ZN3MIL4Text9SerializeERKNS_9IRProgramERKNS0_17SerializerOptionsE
+- __ZN3MIL6Opsets6Common16CreateMILContextEv
+- __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info
+- __ZNSt11logic_errorC2EPKc
+- __ZNSt12length_errorD1Ev
+- __ZNSt3__119__shared_weak_count14__release_weakEv
+- __ZNSt3__119__shared_weak_countD2Ev
+- __ZSt7nothrow
+- __ZSt9terminatev
+- __ZTINSt3__119__shared_weak_countE
+- __ZTISt12length_error
+- __ZTVN10__cxxabiv117__class_type_infoE
+- __ZTVN10__cxxabiv120__si_class_type_infoE
+- __ZTVSt12length_error
+- __ZdlPv
+- __ZdlPvSt19__type_descriptor_t
+- __ZnamRKSt9nothrow_t
+- __Znwm
+- __ZnwmSt19__type_descriptor_t
+- ___NSArray0__struct
+- ___chkstk_darwin
+- ___cxa_allocate_exception
+- ___cxa_begin_catch
+- ___cxa_free_exception
+- ___cxa_throw
+- ___gxx_personality_v0
+- ___kCFBooleanFalse
+- __os_log_default
+- _bzero
+- _compression_decode_buffer
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _dlerror
+- _dlopen
+- _dlsym
+- _fcntl
+- _free
+- _getpid
+- _kANEFAOTCacheUrlIdentifierKey
+- _kANEFBaseModelIdentifierKey
+- _kANEFCompilationInitiatedByE5MLKey
+- _kANEFCompilerOptionsFilenameKey
+- _kANEFDisableIOFencesUseSharedEventsKey
+- _kANEFEnableFWToFWSignal
+- _kANEFEnableLateLatchKey
+- _kANEFEnablePowerSavingKey
+- _kANEFEspressoFileResourcesKey
+- _kANEFHintEnergyEfficientWorkloadKey
+- _kANEFHintReportResidentPagesKey
+- _kANEFHintReportSessionStatusKey
+- _kANEFHintReportTotalPagesKey
+- _kANEFHintSessionAbort
+- _kANEFHintSessionInfo
+- _kANEFHintSessionStart
+- _kANEFHintSessionStop
+- _kANEFIntermediateBufferHandleKey
+- _kANEFMemoryPoolIDKey
+- _kANEFModelANECIRValue
+- _kANEFModelCacheIdentifierUsingSourceURLKey
+- _kANEFModelCoreMLValue
+- _kANEFModelDescriptionKey
+- _kANEFModelHasCacheURLIdentifierKey
+- _kANEFModelIdentityStrKey
+- _kANEFModelInput16KAlignmentArrayKey
+- _kANEFModelInputSymbolIndexArrayKey
+- _kANEFModelInputSymbolsArrayKey
+- _kANEFModelInstanceParameters
+- _kANEFModelIsEncryptedKey
+- _kANEFModelLoadPerformanceStatsKey
+- _kANEFModelMILValue
+- _kANEFModelOutput16KAlignmentArrayKey
+- _kANEFModelOutputSymbolIndexArrayKey
+- _kANEFModelOutputSymbolsArrayKey
+- _kANEFModelPreCompiledValue
+- _kANEFModelProcedureIDKey
+- _kANEFModelProcedureNameToIDMapKey
+- _kANEFModelProcedureNameToStatsSizeMapKey
+- _kANEFModelProceduresArrayKey
+- _kANEFModelTypeKey
+- _kANEFNetPlistFilenameKey
+- _kANEFPerformanceStatsMaskKey
+- _kANEFRetainModelsWithoutSourceURLKey
+- _kANEFSkipPreparePhaseKey
+- _kANEModelKeyAllSegmentsValue
+- _kANEModelKeyEspressoTranslationOptions
+- _kANEModelKeyNoSegmentsValue
+- _kCFAllocatorDefault
+- _kCFTypeArrayCallBacks
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _kIOMainPortDefault
+- _kIOSurfaceAllocSize
+- _kIOSurfaceCacheMode
+- _kdebug_is_enabled
+- _mach_task_self_
+- _malloc_type_calloc
+- _memcpy
+- _memmove
+- _objc_msgSendSuper2
+- _objc_opt_isKindOfClass
+- _objc_release
+- _objc_release_x28
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainBlock
+- _objc_retain_x27
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_storeStrong
+- _os_log_create
+- _os_unfair_lock_lock_with_options
+- _os_unfair_lock_unlock
+- _printf
+- _strcmp
+- _strlcpy
+- _strlen
+- _sysctlbyname
+- _task_info
+CStrings:
++ "%u"
++ "%u, ok:%u, attemptedCount:%lu, removedCount:%lu"
++ "%{public, signpost.description:begin_time}llu "
++ "_ANED_MODELCACHE_GC"
+- ""
+- " fileEspresso %@\n"
+- "!"
+- "%@"
+- "%@ : %@"
+- "%@ ANEProgramProcessRequestDirect() for lModel %@ waitForResults is %d"
+- "%@ ANEVirtualClient byte[%llu]=0x%x\n"
+- "%@ ANEVirtualClient data in bytes %lu IOSurfaceLength %lu IOSID: %u\n"
+- "%@ ANEVirtualClient data in bytes length %lu IOSID: %u\n"
+- "%@%@"
+- "%@%@%@"
+- "%@%@/"
+- "%@.%@"
+- "%@/%@"
+- "%@/net.plist"
+- "%@:  [_ANEDeviceInfo numANEs] Failed to get numANEs, default to 1 ANE"
+- "%@:  [_ANEDeviceInfo numANEs] Invalid numANEs value (0), default to 1 ANE"
+- "%@: %@ - 0x%llx"
+- "%@: 0x%x"
+- "%@: ANEDeviceClose() failed : ret=%u :"
+- "%@: ANEDeviceClose() self.usecount=%lld : self.device=%p"
+- "%@: ANEDeviceController calling ANECheckPrivilegedVMAccess"
+- "%@: ANEDeviceController not instantiated in VM"
+- "%@: ANEDeviceOpen() failed : ret=%u :"
+- "%@: ANEProgramProcessRequestDirect() Failed with status=0x%x : statusType=0x%x"
+- "%@: ANEProgramProcessRequestDirect() Failed with status=0x%x : statusType=0x%x lModel=%@"
+- "%@: ANEVirtualClient Cannot read netfilename=%@\n"
+- "%@: ANEVirtualClient CompileModel succeeded for MODEL: %@ \n"
+- "%@: ANEVirtualClient LoadModel no success %lld.\n"
+- "%@: ANEVirtualClient LoadModel success MODEL: %@ \n"
+- "%@: ANEVirtualClient Model Attribute Length %llu Model Attribute value %@\n"
+- "%@: ANEVirtualClient Successfully called method %d"
+- "%@: ANEVirtualClient Successfully called method %d\n"
+- "%@: ANEVirtualClient Successfully called method %d with result=%d %llx.\n"
+- "%@: ANEVirtualClient Successfully called method %d.\n"
+- "%@: ANEVirtualClient buildVersion: %@\n"
+- "%@: ANEVirtualClient compileModel dictionary call succeeded"
+- "%@: ANEVirtualClient compiledModelExistsFor dictionary call succeeded"
+- "%@: ANEVirtualClient compiledModelExistsFor success=%lld"
+- "%@: ANEVirtualClient compiledModelExistsMatchingHash dictionary success=%lld"
+- "%@: ANEVirtualClient could not parse Json.\n"
+- "%@: ANEVirtualClient echo dictionary success=%lld"
+- "%@: ANEVirtualClient error completionEvent signal events port is %#x and value is %llu\n"
+- "%@: ANEVirtualClient evaluateWithModel model=%@ options=%@ request=%@ qos=%d"
+- "%@: ANEVirtualClient ioSID pointer null\n"
+- "%@: ANEVirtualClient ioSurfaceRef ID=%u\n"
+- "%@: ANEVirtualClient ioSurfaceRef pointer null\n"
+- "%@: ANEVirtualClient length==0\n"
+- "%@: ANEVirtualClient loadModel dictionary Allocating IOSurface for Model Cache URL %u %u"
+- "%@: ANEVirtualClient loadModel dictionary Model Cache URL from Host %@"
+- "%@: ANEVirtualClient loadModel dictionary call succeeded"
+- "%@: ANEVirtualClient mapIOSurfacesWithModel _ioSPerformanceStats pointer null\n"
+- "%@: ANEVirtualClient mapIOSurfacesWithModel ioSurfaceRef ID=%u\n"
+- "%@: ANEVirtualClient no match for weightfilename.\n"
+- "%@: ANEVirtualClient number of wait events=%llu\n"
+- "%@: ANEVirtualClient options empty\n"
+- "%@: ANEVirtualClient purgeCompiledModel dictionary call succeeded"
+- "%@: ANEVirtualClient reqQueued=%d\n"
+- "%@: ANEVirtualClient success completionEvent signal events port is %#x and value is %llu\n"
+- "%@: ANEVirtualClient unarchive error %@ \n"
+- "%@: ANEVirtualClient unloadModel dictionary call succeeded"
+- "%@: ANEVirtualClient unloadModel success=%lld"
+- "%@: ANEVirtualClient validateNetworkCreate failed to call IOConnectCallMethod with kernResult : 0x%x"
+- "%@: ANEVirtualClient validateNetworkCreate failed to create outValidationDictIOSurfaceRef"
+- "%@: ANEVirtualClient weightfilename does not exists.\n"
+- "%@: ANEVirtualClient weightfilename is Not empty\n"
+- "%@: ANEVirtualClient weightfilename=%@\n"
+- "%@: ANEVirtualClient: %@ \n"
+- "%@: ANEVirtualClient: %lu execeed max number of reference expresso files %d \n"
+- "%@: ANEVirtualClient: .net filepath=%@ : netname=%@ : shapename=%@ : weightname=%@ "
+- "%@: ANEVirtualClient: fileHWX=%@"
+- "%@: ANEVirtualClient: hwx new filePath=%@"
+- "%@: ANEVirtualClient: var fileHWX=%@"
+- "%@: ANEVirtualClient: weightname contained symlink"
+- "%@: ANEVirtualClient: weightname=%@"
+- "%@: Async Request could not be queued - timed out ret=0x%xself.queueDepth=%ld : self.currentAsyncRequestsInFlight=%ld lModel=%@"
+- "%@: BAD_ARGUMENT error object is nil"
+- "%@: BAD_ARGUMENT errorIOSurface is nil!"
+- "%@: BAD_ARGUMENT errorLength is 0!"
+- "%@: BAD_ARGUMENT perfStatsIOSurface is NULL!"
+- "%@: Block size too big %lld "
+- "%@: Calling ANEDeviceOpen( deviceUsageType=%u : programHandle=%llu )"
+- "%@: Could not process input ready request ret=0x%x lModel=%@ programHandle=%llu"
+- "%@: Could not process output set enqueue request ret=0x%x lModel=%@ programHandle=%llu signalValue=%llu"
+- "%@: Could not process request ret=0x%x lModel=%@"
+- "%@: Data not found error"
+- "%@: ERROR %@"
+- "%@: ERROR : conditions for precompiled binary support not met! isGuestInternalBuild=%d isHostInternalBuild=%d minimumInterfaceRequirementsMet=%d minimumCapabilityRequirementsMet=%d isPrecompiledBinaryBootArgSet=%d"
+- "%@: ERROR Failed to create errorIOSurface, host-side error reporting will not work"
+- "%@: ERROR Failed to create perfStatsIOSurface"
+- "%@: ERROR Invalid number of completion events"
+- "%@: ERROR buildVersion is emptyString or nil"
+- "%@: ERROR failed to get base address for errorIOSurface"
+- "%@: ERROR failed to get string from decoder"
+- "%@: ERROR failed unarchive data:%@"
+- "%@: ERROR optionsArchive length is 0"
+- "%@: ERROR passed in ioSID pointer is NULL"
+- "%@: ERROR passed in length=0"
+- "%@: ERROR productName is emptyString or nil"
+- "%@: Empty dispatch queue\n"
+- "%@: Expecting EventPayLoad 0x%x"
+- "%@: Expecting EventPayLoad lModel=%@"
+- "%@: FAILED to create IOSurface with length=%lu"
+- "%@: FAILED to get dataBaseAddress for perfStatsIOSurfaceRef"
+- "%@: FAILED to get optionsArchive from options dictionary"
+- "%@: FAILED to get perfStatsData object (dataLength=%llu)"
+- "%@: FILEData wrote %lu\n"
+- "%@: Failed to call method %d with error %d"
+- "%@: Failed to call method %d with error 0x%x"
+- "%@: Failed to set session hint %u ret=0x%x"
+- "%@: Failed with NULL databaseAddress"
+- "%@: HW Execution time: %llu ns (%.2f ms)"
+- "%@: Host too old, ANE hardware not available"
+- "%@: Invalid argument. requestPerfStatsBuffer=%p : requestStatsBufferSize=%p"
+- "%@: Invalid decompression algorithm %c "
+- "%@: Mismatching decompression size %zu %zu "
+- "%@: Missing code signing identity"
+- "%@: Model=%@ options=%@ qos=%d\n"
+- "%@: No Data in performanceStats with length=%llu"
+- "%@: No Virtual Device available"
+- "%@: No support for VirtualClient yet."
+- "%@: Not supported"
+- "%@: Program IOSurfaces map failure (0x%X)"
+- "%@: Program IOSurfaces unmap failure (0x%X)"
+- "%@: Program Inference error"
+- "%@: Program Inference overflow"
+- "%@: Program Inference timeout"
+- "%@: Program chaining prepare error"
+- "%@: Program creation failure"
+- "%@: Program load failure"
+- "%@: Program load failure (0x%X)"
+- "%@: Program load new instance failure"
+- "%@: Program load new instance failure (0x%X)"
+- "%@: Program not found"
+- "%@: Realtime priority requires restricted access connection and (%@) entitlement"
+- "%@: SecTaskCopySigningIdentifier() returned csIdentity=\"%@\""
+- "%@: SecTaskCopyTeamIdentifier() returned teamIdentity=\"%@\""
+- "%@: Set session hint %u success"
+- "%@: Unknown aneSubType"
+- "%@: Unknown hint %@"
+- "%@: Unknown kMGQAppleNeuralEngineSubtype=0x%llx using (%@)"
+- "%@: Virtual Machine environment detected but no virtualClient available."
+- "%@: VirtualANEModel struct empty."
+- "%@: Write ane stats raw data"
+- "%@: Write perf counters"
+- "%@: [_ANEDeviceInfo numANEs] No ANEs found on system"
+- "%@: [_ANEDeviceInfo numANEs] Properties not found, default to 1 ANE"
+- "%@: [request ioSurfacesCount]=%lu is invalid. Expected: (1 - %d)"
+- "%@: base model identifier not found for new instance"
+- "%@: boot-args has %@ - allow any path for Pre-compiled models"
+- "%@: client(%d) : SecTaskCreateWithAuditToken() failed"
+- "%@: client(%d) : missing signingIdentifier"
+- "%@: client(%d) : missing teamIdentity"
+- "%@: copyDictionaryDataToStruct input data NULL"
+- "%@: fcntl(F_RDADVISE). errno=%d : %s"
+- "%@: file access failure"
+- "%@: file not found"
+- "%@: inputBuffers inputBufferInfoIndex=%lu exceeds max=%d"
+- "%@: invalid model"
+- "%@: invalid model instance"
+- "%@: invalid model key"
+- "%@: ioSIDPerStats ioSID: %u statsType : %ld"
+- "%@: milTextData is nil! negotiated interface version 0x%x expects a valid milTextData object"
+- "%@: model cacheURLIdentifier for new instance should be nil"
+- "%@: model identifier not found"
+- "%@: model.sourceURL=%@\n"
+- "%@: modelCacheURLIdentifierCFStringRef : %@"
+- "%@: perfStatsLength=0 hwExecutionTime=0, no perfStats to report"
+- "%@: request.inputArray ioSID: %u"
+- "%@: request.inputIndexArray : %llu"
+- "%@: request.inputIndexArray[%u]=%u is invalid"
+- "%@: request.outputArray ioSID: %u"
+- "%@: request.outputIndexArray : %llu"
+- "%@: request.outputIndexArray[%u]=%u is invalid"
+- "%@: requires restricted access connection and (%@) entitlement"
+- "%@: self.usecount=%lld : self.device=%p"
+- "%@: self.usecount=%lld : self.device=%p : self.isPrivileged=%d"
+- "%@: signal events port is %#x and value is %llu\n"
+- "%@: sourceURLLength=%lld\n"
+- "%@: system model purge not allowed"
+- "%@: timed out"
+- "%@: weightsBufferIOSID: %u"
+- "%@: { csIdentity=%@ : teamIdentity=%@ }"
+- "%@: { hwExecutionTime=%llu : perfCounterData=%@} "
+- "%@: { programHandle=%llu : intermediateBufferHandle=%llu : queueDepth=%d }"
+- "%@: { signalEvents=%@ : waitEvents=%@ } "
+- "%@: { value=%llu : sharedEvent=%@ } "
+- "%@: { value=%llu : symbolIndex=%u : eventType=%lu : sharedEvent=%@ agentMask=%llu } "
+- "%@:ANEVirtualClient FAILED to serialize input dictionary for command=%d"
+- "%@:ANEVirtualClient FAILED to unserialize dictionary=%@"
+- "%@:ANEVirtualClient compiledModelExistsMatchingHash start\n"
+- "%@:ANEVirtualClient length=%lu hashString=%@ \n"
+- "%@:ANEVirtualClient loadModelNewInstance API Not supported!!\n"
+- "%@:ANEVirtualClient loadModelNewInstance Model=%@ options=%@\n"
+- "%@:ANEVirtualClient start\n"
+- "%@:ANEVirtualClient start Model=%@ options=%@\n"
+- "%@=0"
+- "%@net"
+- "%@shape"
+- "%ld_"
+- "%llx"
+- "%s"
+- "%s : memory allocation failed, size requested:%llu"
+- "%s : memory allocation failed, size requested:%zu"
+- "%s fileCounter:%u lastModificationTimeStampString:%@"
+- "%s lastModificationDate not available for %@"
+- "%s: ANEDeviceInfo Directory can't be created error %@"
+- "%s: Copying %@"
+- "%s: Could not extract data from %@ with error %@, copy FAILED"
+- "%s: Extracted %lu files to IOSurfaces"
+- "%s: FAILED copying files"
+- "%s: FAILED to get IOSID for %@"
+- "%s: FAILED to write data to IOSurface for %@"
+- "%s: Sub-directory found at location=%@ cannot be traversed (unsupported), SKIPPING"
+- "%s: Virtual Machine environment detected but no virtualClient available."
+- "%s: boot-arg %@ set, performing validation on guest"
+- "%s: could not read directory, copy FAILED with error : %@"
+- "%s: csIdentity:%@"
+- "%s: device_api_version=%llu mismatch with api_version=%llu"
+- "%s: file=%@ does not exists at location=%@, SKIPPING"
+- "%s: inValidationParams: %@"
+- "%s: max file count reached %d, copy FAILED"
+- "%s: nil csIdentity"
+- "%s: outValidationParams=%@"
+- "%s: passed in directory path is not a directory, copy FAILED"
+- "%s: statusType=%d : pRefCon=%p : device=%p : programInstance=%p"
+- "%s: updating architecture from %@ to %@, inValidationParams: %@"
+- "%s: validateNetworkSupportedVersion=%llu"
+- "%s:%d Failed to parse MIL::IRProgram"
+- "%s:ANEVirtualClient cannot getIOSurfaceObject"
+- "%s:ANEVirtualClient cannot have nil data."
+- "%x: Program Inference timeout"
+- "+N9mZUAHooNvMiQnjeTJ8g"
+- "+[_ANEVirtualClient getCFDictionaryFromIOSurface:dataLength:]"
+- "+[_ANEVirtualClient printIOSurfaceDataInBytes:]"
+- "+[_ANEVirtualClient setCodeSigningIdentity:]"
+- "-----> %@: ANEProgramMemoryMapRequest() ret=0x%x "
+- "-----> %@: ANEProgramMemoryUnMapRequest() ret=0x%x "
+- "-----> %@: ANEProgramProcessRequestDirect() disableIOFences option not nil value is %d "
+- "-----> %@: ANEProgramProcessRequestDirect() enableFWToFWSignal option not nil value is %d "
+- "-----> %@: ANEProgramProcessRequestDirect() status=0x%x : statusType=0x%x : qos=0x%x"
+- "-----> %@: processInputBuffers() inputBufferInfoIndex value is %d "
+- "-----> %@: processInputBuffers() inputBuffers=%p lModel=%@ : "
+- "-----> %@: processOutputSet() outputSet=%p lModel=%@ : "
+- "-1"
+- "-[_ANEVirtualClient callIOUserClientWithDictionary:inDictionary:error:]"
+- "-[_ANEVirtualClient copyAllModelFiles:dictionary:ioSurfaceRefs:]"
+- "-[_ANEVirtualClient copyFilesInDirectoryToIOSurfaces:ioSurfaceRefs:ioSurfaceSizes:fileNames:]"
+- "-[_ANEVirtualClient getObjectFromIOSurface:classType:length:]"
+- "-[_ANEVirtualClient validateNetworkCreate:uuid:function:directoryPath:scratchPadPath:milTextData:]"
+- "."
+- ".cxx_destruct"
+- "/"
+- "/AppleInternal"
+- "/AppleInternal/Library"
+- "/AppleInternal/Tests/AppleNeuralEngine/AppleNeuralEngine_tests.xctest"
+- "/Applications"
+- "/Frameworks"
+- "/PrivateFrameworks"
+- "/System"
+- "/System/Library"
+- "/System/Library/Frameworks/Vision.framework/bodynet_v1.0.espresso.net"
+- "/System/Library/PrivateFrameworks/ANEServices.framework/ANEServices"
+- "/System/Library/PrivateFrameworks/VideoProcessing.framework/cnn_frame_enhancer_96p.H16.espresso.hwx"
+- "/Users"
+- "/tmp"
+- "/var"
+- "/var/MobileAsset/AssetV2"
+- "/var/mobile/Library/Caches/com.apple.aned"
+- "/var/tmp/com.apple.ane/"
+- "/var/tmp/com.apple.aned/Cache/"
+- "/var/tmp/com.apple.aned/UnitTesting"
+- "/var/tmp/com.apple.aned/UnitTestingClones"
+- "/var/tmp/com.apple.aneuserd/Cache/"
+- "/var/tmp/com.apple.aneuserd/UnitTesting"
+- "/var/tmp/com.apple.aneuserd/UnitTestingClones"
+- "0_"
+- "@\"IOSurfaceSharedEvent\""
+- "@\"NSArray\""
+- "@\"NSData\""
+- "@\"NSDictionary\"8@?0"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSString\""
+- "@\"_ANEDeviceController\""
+- "@20@0:8B16"
+- "@20@0:8i16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8Q16"
+- "@24@0:8^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16"
+- "@28@0:8Q16B24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16@24"
+- "@32@0:8^^v16^I24"
+- "@32@0:8^{__CFDictionary=}16^{__CFString=}24"
+- "@32@0:8q16@24"
+- "@36@0:8@16Q24c32"
+- "@36@0:8Q16Q24c32"
+- "@40@0:8Q16@24@32"
+- "@40@0:8Q16@24Q32"
+- "@40@0:8^{ANENotificationMessageStruct=ii^v[4^v][4I]}16@24@32"
+- "@40@0:8^{__IOSurface=}16#24Q32"
+- "@40@0:8^{__IOSurface=}16Q24Q32"
+- "@44@0:8@16@24@32i40"
+- "@44@0:8Q16I24q28@36"
+- "@52@0:8Q16I24q28@36Q44"
+- "@52@0:8{?=[8I]}16i48"
+- "@60@0:8{?=[8I]}16@48i56"
+- "A"
+- "ANE"
+- "ANEClientEnergyEfficientWorkload"
+- "ANEClientResidentPages"
+- "ANEClientSessionStatus"
+- "ANEClientTotalPages"
+- "ANEDevicePropertyNumANEs"
+- "ANEFModelDescription"
+- "ANEFModelInput16KAlignmentArray"
+- "ANEFModelInputSymbolIndexArray"
+- "ANEFModelOutput16KAlignmentArray"
+- "ANEFModelOutputSymbolIndexArray"
+- "ANEFModelProcedureID"
+- "ANEFModelProcedures"
+- "ANEHintClientSessionAbort"
+- "ANEHintClientSessionInfo"
+- "ANEHintClientSessionStart"
+- "ANEHintClientSessionStop"
+- "ANEReset"
+- "ANEStatus"
+- "ANEValidateNetworkCreate"
+- "ANEVirtualClient : virtANEModel->command=%u, virtANEModel->success=%lld, virtANEModel->ioSIDModelNet=%u, virtANEModel->ioSIDModelShape=%u, virtANEModel->ioSIDModelWeight=%u, virtANEModel->ioSIDKey=%u, virtANEModel->modelNetLength=%llu, virtANEModel->modelShapeLength=%llu, virtANEModel->modelWeightLength=%llu, virtANEModel->string_id=%llu, virtANEModel->programHandle=%llu, virtANEModel->intermediateBufferHandle=%llu, virtANEModel->queueDepth=%d, virtANEModel->flags=%d, virtANEModel->ioSIDModelAttributes=%u, virtANEModel->ModelAttributeLength=%llu, virtANEModel->perfStatsMask=%u, virtANEModel->qos=%u, virtANEModel->ioSIDOptions=%u, virtANEModel->optionsLength=%llu, virtANEModel->state=%u, virtANEModel->ioSIDCompilerOptionFile=%u, virtANEModel->compilerOptionFileLength=%llu, virtANEModel->ioSIDANECIRNetPlist=%u, virtANEModel->_ANECIRNetPlistLength=%llu, virtANEModel->ioSIDWeightsBuffer=%u, virtANEModel->procedureIndex=%llu, virtANEModel->transactionHandle=%llu, virtANEModel->perfStatsCount=%u, virtANEModel->inputArrayCount=%u, virtANEModel->inputIndexArrayCount=%u, virtANEModel->outputArrayCount=%u, virtANEModel->outputIndexArrayCount=%u, virtANEModel->ioSIDHashString=%u, virtANEModel->hashStringLength=%llu, virtANEModel->errorCode=%ld, virtANEModel->errorLength=%u, virtANEModel->ioSIDErrorValue=%u, virtANEModel->hwExecutionTime=%llu, virtANEModel->ioSIDPerformanceStats=%u, virtANEModel->performanceStatsLength=%llu, virtANEModel->ioSIDModelInputPath=%u, virtANEModel->modelInputPathLength=%llu, virtANEModel->ioSIDModelNetName=%u, virtANEModel->modelNetNameLength=%llu, virtANEModel->ioSIDModelShapeName=%u, virtANEModel->modelShapeNameLength=%llu, virtANEModel->ioSIDModelWeightName=%u, virtANEModel->modelWeightNameLength=%llu, virtANEModel->ioSIDModelHWX=%u, virtANEModel->modelHWXLength=%llu"
+- "ANEVirtualClient Calling functions from userspace to kernel space...\n\n"
+- "ANEVirtualClient Connect to driver for kAppleVirtIONeuralEngineDeviceUserClientMapIOSurfacesWithModel."
+- "ANEVirtualClient FAILED IOSERVICE OPEN"
+- "ANEVirtualClient Found a device of class AppleVirtIONeuralEngineDevice"
+- "ANEVirtualClient IOServiceGetMatchingServices returned 0x%08x\n\n"
+- "ANEVirtualClient Iterator was NULL not avpANE.\n"
+- "ANEVirtualClient No matching drivers found.\n"
+- "ANEVirtualClient doMapIOSurfacesWithModel: %@\n"
+- "ANEVirtualClient doMapIOSurfacesWithModel: %d\n"
+- "ANEVirtualClient failed to call compileModel dictionary method"
+- "ANEVirtualClient failed to call compiledModelExistsFor dictionary method"
+- "ANEVirtualClient failed to call compiledModelExistsMatchingHash dictionary method"
+- "ANEVirtualClient failed to call echo dictionary method"
+- "ANEVirtualClient failed to call loadModel dictionary method"
+- "ANEVirtualClient failed to call purgeCompiledModel dictionary method"
+- "ANEVirtualClient failed to call purgeCompiledModelMatchingHash dictionary method"
+- "ANEVirtualClient failed to call unloadModel dictionary method"
+- "ANEVirtualClient mapIOSurfacesWithModel request1 ioSID: %u"
+- "ANEVirtualClient mapIOSurfacesWithModel request2 ioSID: %llu"
+- "ANEVirtualClient mapIOSurfacesWithModel request3 ioSID: %u"
+- "ANEVirtualClient mapIOSurfacesWithModel request4 ioSID: %llu"
+- "ANEVirtualClient mapIOSurfacesWithModel request5 ioSID: %u"
+- "ANEVirtualClient mapIOSurfacesWithModel request6 ioSID: %u"
+- "ANEVirtualClient mapIOSurfacesWithModel request7 ioSID: %ld"
+- "ANEVirtualClient mapIOSurfacesWithModel: %@\n"
+- "ANEVirtualClient mapIOSurfacesWithModel: request.inputArray %lu request.inputIndexArray %lu request.outputArray %lu request.outputIndexArray %lu"
+- "ANEVirtualClient mapIOSurfacesWithModel: virtualANEModel.ioSIDModelNet=%u virtualANEModel.ioSIDModelShape=%u virtualANEModel.ioSIDModelWeight=%u virtualANEModel.ioSIDKey=%u virtualANEModel.string_id=%lld virtualANEModel.programHandle=%lld virtualANEModel.intermediateBufferHandle=%lld virtualANEModel.queueDepth=%d virtualANEModel.ioSIDModelAttributes=%u virtualANEModel.perfStatsMask=%u virtualANEModel.qos=%u virtualANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u"
+- "ANEVirtualClient successfully called purgeCompiledModelMatchingHash dictionary method"
+- "ANEVirtualClient sysctl kern.hv_vmm_present returned false"
+- "ANEVirtualClient unloadModel res=%u"
+- "ANEVirtualClient virtualANEModel.ioSIDModelNet=%u virtualANEModel.ioSIDModelShape=%u virtualANEModel.ioSIDModelWeight=%u virtualANEModel.ioSIDKey=%u virtualANEModel.string_id=%lld virtualANEModel.programHandle=%lld virtualANEModel.intermediateBufferHandle=%lld virtualANEModel.queueDepth=%d virtualANEModel.ioSIDModelAttributes=%u virtualANEModel.ModelAttributeLength=%llu virtualANEModel.perfStatsMask=%u virtualANEModel.qos=%u virtualANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u"
+- "ANEVirtualClient virtualANEModel.ioSIDModelNet=%u virtualANEModel.ioSIDModelShape=%u virtualANEModel.ioSIDModelWeight=%u virtualANEModel.ioSIDKey=%u virtualANEModel.string_id=%lld virtualANEModel.programHandle=%lld virtualANEModel.intermediateBufferHandle=%lld virtualANEModel.queueDepth=%d virtualANEModel.ioSIDModelAttributes=%u virtualANEModel.perfStatsMask=%u virtualANEModel.qos=%u virtualANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u"
+- "ANEVirtualClient: Successfully called method at kAppleVirtIONeuralEngineDeviceUserClientOpen %d in kernel space.\n"
+- "ARKit.framework"
+- "ARKitUsingANE"
+- "AppleCVA.framework"
+- "AppleVirtIONeuralEngineDevice"
+- "B"
+- "B24@0:8^{__CFDictionary=}16"
+- "B32@0:8^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16^@24"
+- "B36@0:8I16^{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}20^{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}28"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16^{__CFDictionary=}24^{__CFArray=}32"
+- "B44@0:8@16@24B32^@36"
+- "B44@0:8@16@24I32^@36"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16^{__CFArray=}24@32@40"
+- "B48@0:8^{__IOSurface=}16Q24q32^@40"
+- "B52@0:8@16@24@32I40^@44"
+- "B60@0:8@16@24@32I40@44^@52"
+- "B76@0:8@16@24I32Q36Q44@52^I60^@68"
+- "BuildVersion"
+- "CFDictionaryRef ANEValidateNetworkCreate(uint64_t, CFDictionaryRef _Nonnull)"
+- "CFDictionaryRef ANEValidateNetworkCreateVMHost(uint64_t, CFStringRef _Nonnull, CFStringRef _Nonnull, CFStringRef _Nonnull, CFDataRef _Nonnull)"
+- "CameraUsingANE"
+- "Celestial.framework"
+- "Contents/Resources"
+- "CoreHandwriting.framework"
+- "DeviceProperties"
+- "FaceKitUsingANE"
+- "Failed to initialize output event listner"
+- "Failed to match success completion signal value. Sending error on completion handler: event:%p, value: 0x%llx"
+- "Failed to match value in success handler"
+- "Failed with NULL databaseAddress"
+- "FileLastModificationTimeStamp%u"
+- "Frameworks/"
+- "H11ANECheckPrivilegedVMAccess"
+- "H11ANEDeviceOpen"
+- "H11ANEIn"
+- "H1xANELoadBalancer"
+- "HandWritingRecognitionUsingANE"
+- "I"
+- "I16@0:8"
+- "I20@0:8I16"
+- "I32@0:8^{__CFDictionary=}16^{__CFString=}24"
+- "InMemoryModelCache"
+- "InferenceOverflowed"
+- "Inferences failed with unknown host error"
+- "InternalBuild"
+- "JSONObjectWithData:options:error:"
+- "Kernel call failed with error=0x%x"
+- "MIL"
+- "MediaAnalysisdUsingANE"
+- "MediaServerdUsingANE"
+- "ModelAssetsCache"
+- "ModelFailsToRun"
+- "NSCoding"
+- "NSSecureCoding"
+- "NeuralTextToSpeechUsingANE"
+- "OCRUsingANE"
+- "PerfPowerServices not supported."
+- "PhotosAnalysisdUsingANE"
+- "PrivateFrameworks/"
+- "ProductName"
+- "Q"
+- "Q32@0:8^{__CFDictionary=}16^{__CFString=}24"
+- "SHACode"
+- "SoundAnalysis.framework"
+- "SoundAnalysisUsingANE"
+- "T@\"IOSurfaceSharedEvent\",R,N,V_sharedEvent"
+- "T@\"NSArray\",&,N,V_signalEvents"
+- "T@\"NSArray\",&,N,V_waitEvents"
+- "T@\"NSData\",R,N,V_pStatsRawData"
+- "T@\"NSData\",R,N,V_perfCounterData"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_queue"
+- "T@\"NSObject<OS_dispatch_semaphore>\",R,N,V_requestsInFlight"
+- "T@\"NSString\",R,N,V_csIdentity"
+- "T@\"NSString\",R,N,V_modelIdentifier"
+- "T@\"NSString\",R,N,V_teamIdentity"
+- "T@\"_ANEDeviceController\",R,N,V_controller"
+- "T@\"_ANEDeviceController\",R,N,V_deviceController"
+- "TB,R"
+- "TB,R,N,V_isPrivileged"
+- "TI,R,N,V_connect"
+- "TI,R,N,V_symbolIndex"
+- "TQ,N,V_agentMask"
+- "TQ,N,V_intermediateBufferHandle"
+- "TQ,N,V_programHandle"
+- "TQ,N,V_value"
+- "TQ,R,N,V_eventType"
+- "TQ,R,N,V_hwExecutionTime"
+- "TQ,R,N,V_programHandle"
+- "T^{ANEDeviceStruct=^v^v^vCi},N,V_device"
+- "Tc,R,N,V_queueDepth"
+- "Telemetry: add identifier %@."
+- "Telemetry: could not create ppsId for %@!"
+- "Telemetry: invalid PPS category %@ specified!"
+- "Telemetry: ppsId not available %@!"
+- "Telemetry: report to category %@."
+- "TestModels"
+- "TextRecognition.framework"
+- "ThirdPartyAppUsingANE"
+- "Ti,R,N,V_processIdentifier"
+- "Tq,N,V_usecount"
+- "Tq,R,N,V_eventType"
+- "Tq,V_currentAsyncRequestsInFlight"
+- "UUID"
+- "UUIDString"
+- "Unable to get validationResult"
+- "Unable to get validationResult (host might be too old)"
+- "Unknown _ANESignalEventType=%lu using (%lu)"
+- "Unknown _ANEWaitEventType=%lu using (%lu)"
+- "UnknownBuild"
+- "VideoProcessing.framework"
+- "VideoProcessingUsingANE"
+- "Vision.framework"
+- "VisionUsingANE"
+- "[_ANEVirtualClient] completionEvent success event %p error event %p for model %@\n"
+- "^{ANEDeviceStruct=^v^v^vCi}"
+- "^{ANEDeviceStruct=^v^v^vCi}16@0:8"
+- "^{PPSTelemetryIdentifier=}"
+- "^{__CFDictionary=}32@0:8^{__IOSurface=}16Q24"
+- "^{__CFDictionary=}36@0:8I16^{__CFDictionary=}20^@28"
+- "^{__CFDictionary=}64@0:8Q16@24@32@40@48@56"
+- "^{__IOSurface=}32@0:8Q16^I24"
+- "^{__IOSurface=}40@0:8*16Q24^I32"
+- "^{__IOSurface=}40@0:8@16Q24^I32"
+- "_ANEDataReporter"
+- "_ANEDeviceController"
+- "_ANEDeviceInfo"
+- "_ANEErrors"
+- "_ANELog"
+- "_ANEModelToken"
+- "_ANEPerformanceStats"
+- "_ANEProgramForEvaluation"
+- "_ANEProgramIOSurfacesMapper"
+- "_ANESharedEvents"
+- "_ANESharedSignalEvent"
+- "_ANESharedWaitEvent"
+- "_ANEStrings"
+- "_ANEVirtualClient"
+- "_ANEVirtualClient calling dictionary compileModel method"
+- "_ANEVirtualClient calling dictionary loadModel method"
+- "_ANEVirtualClient calling dictionary loadModelNewInstance method"
+- "_ANEVirtualClient calling dictionary unloadModel method"
+- "_ANEVirtualClient getCFDictionaryFromIOSurface : Couldn't create CFDictionaryRef object"
+- "_ANEVirtualClient getCFDictionaryFromIOSurface : DataBaseAddress null"
+- "_ANEVirtualClient getCFDictionaryFromIOSurface : couldn't create CFDataRef object"
+- "_ANEVirtualClient getCFDictionaryFromIOSurface : ioSurfaceRef null"
+- "_ANEVirtualClient init Procedure procedureSymbol:%s len:%lu\n"
+- "_ANEVirtualClient init modelInstanceParametersSerdes instanceName:%s len:%lu\n"
+- "_ANEVirtualClient init weight weightSymbol:%@ len:%lu weightURL:%@\n"
+- "_ANEWeightSerializerDeserializer weightSymbolSize:%u weightsymbol:%s weightsymbolURL:%s\n"
+- "_agentMask"
+- "_connect"
+- "_controller"
+- "_csIdentity"
+- "_currentAsyncRequestsInFlight"
+- "_device"
+- "_deviceController"
+- "_eventType"
+- "_hwExecutionTime"
+- "_intermediateBufferHandle"
+- "_isPrivileged"
+- "_modelIdentifier"
+- "_pStatsRawData"
+- "_perfCounterData"
+- "_processIdentifier"
+- "_programHandle"
+- "_queue"
+- "_queueDepth"
+- "_requestsInFlight"
+- "_sharedEvent"
+- "_signalEvents"
+- "_symbolIndex"
+- "_teamIdentity"
+- "_usecount"
+- "_value"
+- "_waitEvents"
+- "adapterWeightsAccessEntitlement"
+- "adapterWeightsAccessEntitlementBypassBootArg"
+- "addValue:forScalarKey:"
+- "agentMask"
+- "aggressivePowerSavingEntitlement"
+- "analyticsKey:"
+- "aneArchitectureType"
+- "aneArchitectureTypeStr"
+- "aneBoardType"
+- "aneBoardtype"
+- "aneSubType"
+- "aneSubTypeProductVariant"
+- "aneSubTypeVariant"
+- "ane_model_cache"
+- "ane_skipAdapterWeightAccessCheck"
+- "ane_vm_allowPrecompiledBinary"
+- "ane_vm_forceValidationOnGuest"
+- "aned"
+- "anesubtype %d"
+- "anetool"
+- "aneuserdCacheDeleteServiceName"
+- "appendString:"
+- "architecture"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "baseModelIdentifierNotFoundForNewInstanceMethod:"
+- "basic_string"
+- "beginRealTimeTask"
+- "bootArgs"
+- "buildSpecificModelDataVaultDirectory"
+- "buildSpecificUserModelDataVaultDirectory"
+- "buildVersion"
+- "c"
+- "c16@0:8"
+- "c32@0:8^{__CFDictionary=}16^{__CFString=}24"
+- "cStringUsingEncoding:"
+- "cacheDeleteServiceName"
+- "cacheURLIdentifier"
+- "callIOUserClient:inParams:outParams:"
+- "callIOUserClientWithDictionary:inDictionary:error:"
+- "checkKernReturnValue:selector:outParams:"
+- "client"
+- "cloneDirectory"
+- "clones"
+- "codeSigningIDFor:processIdentifier:"
+- "com.apple.ANECompilerService.allow"
+- "com.apple.ANEUsage"
+- "com.apple.SHARED_SYSTEM_MODELS"
+- "com.apple.ane"
+- "com.apple.ane.avc"
+- "com.apple.ane.devicecontroller"
+- "com.apple.ane.programIOSurfacesMapper"
+- "com.apple.ane.vmclient-async"
+- "com.apple.aned.CacheDelete"
+- "com.apple.aned.launch"
+- "com.apple.aned.private.ANEAccess.allow"
+- "com.apple.aned.private.adapterWeight.allow"
+- "com.apple.aned.private.aggressivePowerSaving.allow"
+- "com.apple.aned.private.allow"
+- "com.apple.aned.private.processModelShare.allow"
+- "com.apple.aned.private.secondaryANECompilerServiceAccess.allow"
+- "com.apple.aneuserd"
+- "com.apple.aneuserd.CacheDelete"
+- "com.apple.aneuserd.launch"
+- "com.apple.appleneuralengine"
+- "com.apple.appleneuralengine._ANEModel.AllSegments"
+- "com.apple.appleneuralengine.compiler"
+- "com.apple.appleneuralengine.espresso"
+- "com.apple.appleneuralengine.private"
+- "com.apple.applevirtioneuralengine"
+- "com.apple.mediaanalysisd"
+- "com.apple.mediaserverd"
+- "com.apple.photoanalysisd"
+- "com.apple.private.ANEStorageMaintainer.allow"
+- "com.apple.private.modelPurgeInAllPartitions.allow"
+- "com.apple.voiced"
+- "command"
+- "common"
+- "compileModel:options:qos:error:"
+- "compiledModelExistsFor:"
+- "compiledModelExistsMatchingHash:"
+- "compiler"
+- "compilerOptionFileLength"
+- "compilerServiceAccessEntitlement"
+- "compiler_options.plist"
+- "completionHandler"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "connect"
+- "containsIndex:"
+- "containsString:"
+- "contentsOfDirectoryAtPath:error:"
+- "controller"
+- "controllerWithPrivilegedVM:"
+- "controllerWithProgramHandle:"
+- "copyAllModelFiles ERROR : Max file count reached %d"
+- "copyAllModelFiles ERROR : could not read directory, %@"
+- "copyAllModelFiles ERROR : hwxTransferSupported=%d and only HWX file passed\n"
+- "copyAllModelFiles ERROR: No model files to copy\n"
+- "copyAllModelFiles No precompiled binary support, skipping HWX file"
+- "copyAllModelFiles Sub-directory traversal unsupported, SKIPPING %@"
+- "copyAllModelFiles could not get data for file=%@, SKIPPING"
+- "copyAllModelFiles could not get fileNamePrefix\n"
+- "copyAllModelFiles dealing with /System path\n"
+- "copyAllModelFiles directoryPath=%@\n"
+- "copyAllModelFiles failed to IOSurfaceID for file=%@\n"
+- "copyAllModelFiles failed to write file data to IOSurface for file=%@\n"
+- "copyAllModelFiles file=%@ directoryPath=%@ fullFilePath=%@"
+- "copyAllModelFiles file=%@ does not exist at location=%@, SKIPPING\n"
+- "copyAllModelFiles fileNamePrefix=%@\n"
+- "copyAllModelFiles invalid input arguments (one or more are nil)\n"
+- "copyAllModelFiles new directoryPath=%@\n"
+- "copyAllModelFiles:dictionary:ioSurfaceRefs:"
+- "copyDictionaryDataToStruct:dictionary:"
+- "copyErrorValue:"
+- "copyErrorValue:vmData:"
+- "copyFilesInDirectoryToIOSurfaces:ioSurfaceRefs:ioSurfaceSizes:fileNames:"
+- "copyModel:options:vmData:"
+- "copyModelMetaData:options:dictionary:vmData:"
+- "copyModelOptionFiles:options:dictionary:vmData:"
+- "copyModelOptionFiles:options:vmData:"
+- "copyOptions:dictionary:vmData:"
+- "copyOptions:vmData:"
+- "copyToIOSurface:length:ioSID:"
+- "copyToIOSurface:size:ioSID:"
+- "coreAnalyticsANEUsageDefaultReportedClient"
+- "coreAnalyticsANEUsageKeyGroup"
+- "count"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createErrorWithCode:description:"
+- "createIOSurface:ioSID:"
+- "csIdentity"
+- "currentAsyncRequestsInFlight"
+- "dataNotFoundForMethod:"
+- "dataUsingEncoding:"
+- "dataVaultStorageClass"
+- "dataWithBytes:length:"
+- "dataWithLength:"
+- "dealloc"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultANECIRFileName"
+- "defaultANECIROptionsFileName"
+- "defaultCompilerOptionsFilename"
+- "defaultMILFileName"
+- "defaultWeightFileName"
+- "destinationOfSymbolicLinkAtPath:error:"
+- "device"
+- "deviceController"
+- "dictionary"
+- "dictionaryGetInt64ForKey:key:"
+- "dictionaryGetInt8ForKey:key:"
+- "dictionaryGetNSStringForKey:key:"
+- "dictionaryGetUInt32ForKey:key:"
+- "dictionaryGetUInt64ForKey:key:"
+- "dictionaryWithObjectsAndKeys:"
+- "dlopen error: %s\n"
+- "dlsym err: %s\n"
+- "doEvaluateWithModel:options:request:qos:completionEvent:error:"
+- "doJsonParsingMatchWeightName:"
+- "doMapIOSurfacesWithModel:request:cacheInference:error:"
+- "driverMaskForANEFMask:"
+- "eJGhnVvylF3dMOHBKJzeiw"
+- "echo:"
+- "emitPerfcounterSignpostsWithModelStringID:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encryptedModel"
+- "endRealTimeTask"
+- "enforceModelSignatureChecks=0"
+- "entitlementErrorForMethod:"
+- "errorCode"
+- "errorDomainCompiler"
+- "errorDomainEspresso"
+- "errorDomainGeneric"
+- "errorDomainVirtIO"
+- "errorLength"
+- "errorMsg"
+- "evaluateWithModel:options:request:qos:error:"
+- "eventPort"
+- "eventType"
+- "exchangeBuildVersionInfo"
+- "executionDelay"
+- "fDeviceCallback"
+- "fileAccessErrorForMethod:"
+- "fileExistsAtPath:"
+- "fileIOSID%u"
+- "fileLength%u"
+- "fileModificationDate"
+- "fileName%u"
+- "fileNotFoundErrorForMethod:"
+- "fileType"
+- "framework"
+- "freeModelFileIOSurfaces:"
+- "function"
+- "g"
+- "getCFDictionaryFromIOSurface:dataLength:"
+- "getCacheURLIdentifier"
+- "getDeviceInfo"
+- "getModelAttribute:"
+- "getModelAttribute: DataBaseAddress null"
+- "getModelAttribute: IOSATTribute null"
+- "getObjectFromIOSurface:classType:length:"
+- "getValidateNetworkVersion"
+- "getValue:"
+- "h11"
+- "h12"
+- "h13"
+- "h14"
+- "h15"
+- "h16"
+- "h17"
+- "hasANE"
+- "hasPrefix:"
+- "hasSuffix:"
+- "hashStringLength"
+- "hostBuildVersionStr"
+- "hostTooOld:"
+- "hwExecutionTime"
+- "hwx"
+- "hwxFileName"
+- "i16@0:8"
+- "identifierSource"
+- "inMemoryModelCacheName"
+- "init"
+- "initForReadingFromData:error:"
+- "initWithANEPrivilegedVM:"
+- "initWithAuditToken:modelIdentifier:processIdentifier:"
+- "initWithBytes:length:"
+- "initWithCoder:"
+- "initWithContentsOfFile:"
+- "initWithContentsOfFile:options:error:"
+- "initWithController:"
+- "initWithController:intermediateBufferHandle:queueDepth:"
+- "initWithCsIdentity:teamIdentity:modelIdentifier:processIdentifier:"
+- "initWithDispatchQueue:"
+- "initWithFormat:"
+- "initWithHardwareExecution:perfCounterData:ANEStatsRawData:"
+- "initWithProgramHandle:priviledged:"
+- "initWithReconstructedData:hardwareExecutionNS:"
+- "initWithRequestPerformanceBuffer:statsBufferSize:"
+- "initWithSignalEvents:waitEvents:"
+- "initWithSingletonAccess"
+- "initWithValue:sharedEvent:eventType:"
+- "initWithValue:symbolIndex:eventType:sharedEvent:agentMask:"
+- "inputArray"
+- "inputBufferInfoIndex"
+- "inputFreeValue"
+- "inputIndexArray"
+- "inputSymbolIndicesForProcedureIndex:"
+- "instanceName"
+- "intermediateBufferHandle"
+- "internalLibraryPath"
+- "invalidModelErrorForMethod:"
+- "invalidModelInstanceErrorForMethod:"
+- "invalidModelKeyErrorForMethod:"
+- "ioSIDCompilerOptionFile"
+- "ioSIDErrorValue"
+- "ioSIDHashString"
+- "ioSIDKey"
+- "ioSIDModelAttributes"
+- "ioSIDModelEspressoRefFile[%d] surface ID: %d length: %llu\n"
+- "ioSIDModelHWX"
+- "ioSIDModelInputPath"
+- "ioSIDModelParameters"
+- "ioSIDModelSourceURLPath"
+- "ioSIDOptions"
+- "ioSModelEspressoRefFileName[%d] surface ID: %d length: %llu\n"
+- "ioSurface"
+- "ioSurfacesCount"
+- "isBoolBootArgSetTrue:"
+- "isExcessivePowerDrainWhenIdle"
+- "isInternalBuild"
+- "isOpenLoop"
+- "isPrivileged"
+- "isVirtualMachine"
+- "kANEFAOTCacheUrlIdentifierKey"
+- "kANEFBaseModelIdentifierKey"
+- "kANEFCompilationInitiatedByE5MLKey"
+- "kANEFCompilerOptionsFilenameKey"
+- "kANEFDisableIOFencesUseSharedEventsKey"
+- "kANEFEnableFWToFWSignal"
+- "kANEFEnableLateLatchKey"
+- "kANEFEnablePowerSavingKey"
+- "kANEFEspressoFileResourcesKey"
+- "kANEFIntermediateBufferHandleKey"
+- "kANEFMemoryPoolIDKey"
+- "kANEFModelANECIR"
+- "kANEFModelCacheIdentifierUsingSourceURLKey"
+- "kANEFModelCoreML"
+- "kANEFModelHasCacheURLIdentifierKey"
+- "kANEFModelIdentityStrKey"
+- "kANEFModelInputSymbolsArrayKey"
+- "kANEFModelInstanceParameters"
+- "kANEFModelIsEncryptedKey"
+- "kANEFModelLoadPerformanceStats"
+- "kANEFModelMIL"
+- "kANEFModelOutputSymbolsArrayKey"
+- "kANEFModelPreCompiled"
+- "kANEFModelProcedureNameToIDMapKey"
+- "kANEFModelProcedureNameToStatsSizeMapKey"
+- "kANEFModelType"
+- "kANEFNetPlistFilenameKey"
+- "kANEFPerformanceStatsMask"
+- "kANEFRetainModelsWithoutSourceURLKey"
+- "kANEFSkipPreparePhaseKey"
+- "kANEModelKeyEspressoTranslationOptions"
+- "kANE_AF_TO_KM_DATA"
+- "kANE_AF_TO_L2_DATA"
+- "kANE_DMA_READWRITE_BYTES"
+- "kANE_DMA_READ_BYTES"
+- "kANE_DPE_ENERGY"
+- "kANE_FP16_CYCLES:"
+- "kANE_INT8_CYCLES"
+- "kANE_KM_STALL_CYCLES"
+- "kANE_L2PE_COMPUTE_CYCLES"
+- "kANE_L2PE_INPUT_STALL_CYCLES"
+- "kANE_L2PE_OUTPUT_STALL_CYCLES"
+- "kANE_L2_NOMINAL_CYCLES"
+- "kANE_L2_READ_STALL_CYCLES"
+- "kANE_L2_THROTTLE_CYCLES"
+- "kANE_L2_TO_AF_DATA"
+- "kANE_L2_TO_NE_DATA"
+- "kANE_L2_WRITE_STALL_CYCLES"
+- "kANE_NE_COMPUTE_CYCLES"
+- "kANE_NE_INPUT_STALL_CYCLES"
+- "kANE_NE_KERNEL_STALL_CYCLES"
+- "kANE_NE_NOMINAL_CYCLES"
+- "kANE_NE_OUTPUT_STALL_CYCLES"
+- "kANE_NE_THROTTLE_CYCLES"
+- "kANE_NE_TO_L2_DATA"
+- "kANE_UKNOWN"
+- "kern.bootargs"
+- "kern.hv_vmm_present"
+- "key"
+- "keyLength"
+- "lastObject"
+- "launchIOKitEvent"
+- "launchUserIOKitEvent"
+- "loadModel:options:qos:error:"
+- "loadModelNewInstance:options:modelInstParams:qos:error:"
+- "m11"
+- "m9"
+- "machServiceName"
+- "machServiceNamePrivate"
+- "mapIOSurfacesWithModel:request:cacheInference:error:"
+- "mapperWithController:"
+- "mapperWithProgramHandle:"
+- "missingCodeSigningErrorForMethod:"
+- "model.espresso.net"
+- "model.espresso.shape"
+- "model.espresso.weights"
+- "model.hwx"
+- "model.mil"
+- "model.retain"
+- "model.src"
+- "modelAssetsCacheName"
+- "modelAttributeLength"
+- "modelAttributes"
+- "modelCacheURLIdentifier"
+- "modelCacheURLIdentifierSource"
+- "modelCompilation"
+- "modelDataVaultDirectory"
+- "modelHWXLength"
+- "modelIdentifier"
+- "modelIdentifierNotFoundForMethod:"
+- "modelInference"
+- "modelInputPathLength"
+- "modelInstanceParametersData"
+- "modelLoad"
+- "modelNewInstanceCacheIdentifierNotNilMethod:"
+- "modelPurgeInAllPartitionsEntitlement"
+- "modelURL"
+- "modelUnload"
+- "mutableBytes"
+- "negotiatedCapabilityMask"
+- "negotiatedDataInterfaceVersion"
+- "net"
+- "net.plist"
+- "net_options.plist"
+- "new"
+- "newInstanceModelLoad"
+- "newInstanceModelUnload"
+- "noSandboxExtension"
+- "notSupportedErrorForMethod:"
+- "notifyListener failure. Sending error on completion handler: event:%p, value:%llx signaledValue %llx "
+- "notifyListener success completion event: event:%p, 0x%llx\n"
+- "notifyListener:atValue:block:"
+- "numANECores"
+- "numANEs"
+- "numModelFiles"
+- "numberWithDouble:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "optionsLength"
+- "outputArray"
+- "outputDictIOSurfaceSize"
+- "outputIndexArray"
+- "outputSymbolIndicesForProcedureIndex:"
+- "overflowModel"
+- "pStatsRawData"
+- "parallelDecompressedData:"
+- "parameters"
+- "perfCounterData"
+- "perfStats"
+- "perfStatsArray"
+- "perfStatsMask"
+- "performanceCounters"
+- "performanceStatsLength"
+- "ppsCategoryForANE"
+- "ppsSubsystemForANE"
+- "pps_applicationDir"
+- "pps_catalogDir"
+- "pps_defaultSystemPathDir"
+- "pps_defaultUserPathPrefix"
+- "pps_frameworkDir"
+- "pps_internalDir"
+- "pps_privateFrameworkDir"
+- "pps_tmpDir"
+- "pps_varDir"
+- "precompiledModelChecksDisabled"
+- "prepareANEMemoryMappingParams:request:"
+- "printDictionary:"
+- "printIOSurfaceDataInBytes:"
+- "printStruct:"
+- "priorityErrorForMethod:"
+- "privateANEAccessEntitlement"
+- "procedureArray"
+- "procedureIndex"
+- "procedureSymbol"
+- "processInputBuffers:model:options:error:"
+- "processModelShareAccessEntitlement"
+- "processNameFor:identifier:"
+- "processOutputSet:model:options:error:"
+- "processRequest:model:qos:qIndex:modelStringID:options:returnValue:error:"
+- "processSessionHint:options:report:error:"
+- "productName"
+- "programChainingPrepareErrorForMethod:"
+- "programCreationErrorForMethod:"
+- "programHandle"
+- "programIOSurfacesMapErrorForMethod:code:"
+- "programIOSurfacesUnmapErrorForMethod:code:"
+- "programInferenceOtherErrorForMessage:model:methodName:"
+- "programInferenceOtherErrorForMethod:"
+- "programInferenceOverflowErrorForMethod:"
+- "programInferenceProgramNotFoundForMethod:"
+- "programLoadErrorForMethod:"
+- "programLoadErrorForMethod:code:"
+- "programLoadNewInstanceErrorForMethod:"
+- "programLoadNewInstanceErrorForMethod:code:"
+- "programWithController:intermediateBufferHandle:queueDepth:"
+- "programWithHandle:intermediateBufferHandle:queueDepth:"
+- "purgeCompiledModel:"
+- "purgeCompiledModelMatchingHash:"
+- "q"
+- "q16@0:8"
+- "q32@0:8^{__CFDictionary=}16^{__CFString=}24"
+- "qos"
+- "queue"
+- "queueDepth"
+- "rangeOfString:"
+- "readWeightFilename:"
+- "releaseIOSurfaces:"
+- "removeLastObject"
+- "reportClient:modelName:"
+- "reportErrorMsg:status:"
+- "reportTelemetryToPPS:playload:"
+- "requestsInFlight"
+- "restrictedAccessEntitlement"
+- "resultsVersion"
+- "returnType"
+- "sandboxExtension"
+- "scratchPadPath"
+- "secondaryANECompilerServiceAccessEntitlement"
+- "sendGuestBuildVersion"
+- "setAgentMask:"
+- "setCacheURLIdentifier:"
+- "setCodeSigningIdentity:"
+- "setCurrentAsyncRequestsInFlight:"
+- "setDevice:"
+- "setIndex"
+- "setIntermediateBufferHandle:"
+- "setMapper:"
+- "setPerfStats:"
+- "setProgram:"
+- "setProgramHandle:"
+- "setSignalEvents:"
+- "setTransactionHandle:"
+- "setUsecount:"
+- "setValue:"
+- "setValue:forKey:"
+- "setWaitEvents:"
+- "shape"
+- "sharedConnection"
+- "sharedEvent"
+- "sharedEvents"
+- "sharedEventsWithSignalEvents:waitEvents:"
+- "sharedPrivilegedConnection"
+- "signalEventWithValue:symbolIndex:eventType:sharedEvent:"
+- "signalEvents"
+- "signalNotRequired"
+- "signalValue"
+- "signaledValue"
+- "smallModel"
+- "sourceURL"
+- "sourceURLPathLength"
+- "start"
+- "startOffset"
+- "statType"
+- "state"
+- "stats"
+- "statsWithHardwareExecutionNS:"
+- "statsWithReconstructed:hardwareExecutionNS:"
+- "statsWithRequestPerformanceBuffer:statsBufferSize:"
+- "statusType"
+- "stop"
+- "storage"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringForPerfCounter:"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "string_id"
+- "substringToIndex:"
+- "success"
+- "support"
+- "supportsSecureCoding"
+- "symbolIndex"
+- "systemLibraryPath"
+- "systemModelPurgeNotAllowedForMethod:"
+- "systemModelsCacheDirectory"
+- "teamIDFor:processIdentifier:"
+- "teamIdentity"
+- "tempDirectory"
+- "testing_ThreeSixtyModelName"
+- "testing_ane_model_cache"
+- "testing_cacheDirectory"
+- "testing_cacheDirectoryWithSuffix:"
+- "testing_cacheDirectoryWithSuffix:buildVersion:"
+- "testing_cloneDirectory:"
+- "testing_dataVaultStorageClass"
+- "testing_encryptedModelNames"
+- "testing_external_modelPath"
+- "testing_external_precompiledModelPath"
+- "testing_inputDirectory"
+- "testing_modelDirectory"
+- "testing_modelDirectory:"
+- "testing_modelNames"
+- "testing_tempDirectory:"
+- "testing_userCacheDirectory"
+- "testing_userCacheDirectoryWithSuffix:"
+- "testing_userCacheDirectoryWithSuffix:buildVersion:"
+- "testing_userCloneDirectory:"
+- "testing_userTempDirectory:"
+- "testing_zeroModelName"
+- "tests"
+- "threeSixtyModel"
+- "timeoutErrorForMethod:"
+- "tmp"
+- "tokenWithAuditToken:modelIdentifier:processIdentifier:"
+- "tokenWithCsIdentity:teamIdentity:modelIdentifier:processIdentifier:"
+- "tool"
+- "transactionHandle"
+- "trimmedModelPath:trimmedPath:"
+- "uint64_t ANEGetValidateNetworkSupportedVersion()"
+- "unloadModel:options:qos:error:"
+- "unmapIOSurfacesWithModel:request:error:"
+- "unsignedIntValue"
+- "updateError:error:"
+- "updateError:errorLength:errorCode:error:"
+- "updateModelAttributes:state:"
+- "updateModelAttributes:state:programHandle:intermediateBufferHandle:queueDepth:"
+- "updatePerformanceStats:"
+- "updatePerformanceStats:performanceStatsLength:hwExecutionTime:"
+- "usecount"
+- "userCloneDirectory"
+- "userMachServiceName"
+- "userModelDataVaultDirectory"
+- "userTempDirectory"
+- "v16@?0q8"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8I16I20"
+- "v24@0:8Q16"
+- "v24@0:8^{ANEDeviceStruct=^v^v^vCi}16"
+- "v24@0:8^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16"
+- "v24@0:8^{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}16"
+- "v24@0:8^{__CFArray=}16"
+- "v24@0:8^{__CFDictionary=}16"
+- "v24@0:8^{__IOSurface=}16"
+- "v24@0:8q16"
+- "v24@?0@\"IOSurfaceSharedEvent\"8Q16"
+- "v32@0:8@16@24"
+- "v32@0:8@16^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}24"
+- "v32@0:8^{ANEMemoryMappingParamsStruct=[128{ANEBufferStruct=^{__IOSurface}IiiI}]QIIQ}16@24"
+- "v32@0:8^{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}16^{__CFDictionary=}24"
+- "v32@0:8^{__CFDictionary=}16^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}24"
+- "v32@0:8i16I20^{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}24"
+- "v32@0:8q16@24"
+- "v40@0:8@16@24^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}32"
+- "v40@0:8@16^{__CFDictionary=}24^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}32"
+- "v48@0:8@16@24^{__CFDictionary=}32^{VMData=^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}40"
+- "v72@?0{ANENotificationMessageStruct=ii^v[4^v][4I]}8"
+- "validate"
+- "validateEnvironmentForPrecompiledBinarySupport"
+- "validateNetworkCreate:uuid:function:directoryPath:scratchPadPath:milTextData:"
+- "validateRequest:model:"
+- "value"
+- "value:withObjCType:"
+- "vm_allowPrecompiledBinaryBootArg"
+- "vm_forceValidationOnGuestBootArg"
+- "vm_tmpBaseDirectory"
+- "waitEvent"
+- "waitEventWithValue:sharedEvent:"
+- "waitEventWithValue:sharedEvent:eventType:"
+- "waitEvents"
+- "weight.bin"
+- "weightArray"
+- "weightSymbol"
+- "weightURL"
+- "weights"
+- "weightsBuffer"
+- "zeroModel"
+- "{BuildVersionInfo=IIQ[32C]CQQ[15Q]}16@0:8"
+- "{DeviceExtendedInfo={DeviceInfo=IqqB}BII[32c]}16@0:8"
+
+```

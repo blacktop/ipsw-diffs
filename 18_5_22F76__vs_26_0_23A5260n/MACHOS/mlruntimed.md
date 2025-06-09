@@ -1,0 +1,583 @@
+## mlruntimed
+
+> `/usr/libexec/mlruntimed`
+
+```diff
+
+-108.0.0.0.0
+-  __TEXT.__text: 0xc438
+-  __TEXT.__auth_stubs: 0x6f0
+-  __TEXT.__objc_stubs: 0x1de0
+-  __TEXT.__objc_methlist: 0xd7c
+-  __TEXT.__const: 0xa8
+-  __TEXT.__oslogstring: 0xcb0
+-  __TEXT.__cstring: 0x702
+-  __TEXT.__objc_classname: 0x287
+-  __TEXT.__objc_methname: 0x227c
+-  __TEXT.__objc_methtype: 0xb05
+-  __TEXT.__gcc_except_tab: 0x174
+-  __TEXT.__unwind_info: 0x3f8
+-  __DATA_CONST.__auth_got: 0x388
+-  __DATA_CONST.__got: 0x240
+-  __DATA_CONST.__const: 0x5c8
+-  __DATA_CONST.__cfstring: 0x500
+-  __DATA_CONST.__objc_classlist: 0x80
++111.1.0.0.0
++  __TEXT.__text: 0x2298
++  __TEXT.__auth_stubs: 0x4f0
++  __TEXT.__objc_stubs: 0x920
++  __TEXT.__objc_methlist: 0x42c
++  __TEXT.__const: 0x80
++  __TEXT.__oslogstring: 0x354
++  __TEXT.__cstring: 0x135
++  __TEXT.__objc_classname: 0xb6
++  __TEXT.__objc_methname: 0xa6d
++  __TEXT.__objc_methtype: 0x36e
++  __TEXT.__gcc_except_tab: 0x50
++  __TEXT.__unwind_info: 0x108
++  __DATA_CONST.__auth_got: 0x288
++  __DATA_CONST.__got: 0x140
++  __DATA_CONST.__const: 0xe8
++  __DATA_CONST.__cfstring: 0xc0
++  __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x58
++  __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x60
+-  __DATA.__objc_const: 0x1cc8
+-  __DATA.__objc_selrefs: 0x910
+-  __DATA.__objc_ivar: 0x114
+-  __DATA.__objc_data: 0x500
+-  __DATA.__data: 0x420
+-  __DATA.__bss: 0x28
++  __DATA_CONST.__objc_superrefs: 0x18
++  __DATA.__objc_const: 0x808
++  __DATA.__objc_selrefs: 0x328
++  __DATA.__objc_ivar: 0x2c
++  __DATA.__objc_data: 0x140
++  __DATA.__data: 0x180
++  __DATA.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
+-  - /System/Library/PrivateFrameworks/LighthouseBitacoraFramework.framework/LighthouseBitacoraFramework
+   - /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E4E9D1C1-325D-367F-A778-DC3B54829312
+-  Functions: 306
+-  Symbols:   194
+-  CStrings:  680
++  UUID: 873B9C5B-D02E-3622-8DBA-1AC2D640BECB
++  Functions: 56
++  Symbols:   128
++  CStrings:  215
+ 
+Symbols:
+- _DESGetDeviceLocale
+- _DESIsInternalInstall
+- _DESLogAndReturnSunsetError
+- _DESShouldAlwaysParticipate
+- _DESSubmissionLogDirectoryURL
+- _DESTemporaryDownloadDirectoryURL
+- _MLRuntimePluginID_DPMLRuntimePluginClassB
+- _MLRuntimePluginID_DPMeadPlugin
+- _MLRuntimePluginID_FedStatsPluginClassB
+- _MLRuntimePluginID_FedStatsPluginNonDnU
+- _MLRuntimePluginID_MediaMLPluginApp
+- _MLRuntimePluginID_RepackagingPlugin
+- _MLRuntimePluginID_SiriCoreMetricsPlugin
+- _NSExtensionIdentifierName
+- _NSExtensionPointName
+- _NSStringFromClass
+- _NSURLCreationDateKey
+- _NSURLIsDirectoryKey
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_DESBitacoraEventManager
+- _OBJC_CLASS_$_DESBundleRegistry
+- _OBJC_CLASS_$_DESDebugRecord
+- _OBJC_CLASS_$_DESRecordStoreManager
+- _OBJC_CLASS_$_DESSandBoxManager
+- _OBJC_CLASS_$_LBFTrialIdentifiers
+- _OBJC_CLASS_$_MLRInternalTrialTask
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSExtensionContext
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_TRIEvaluationStatus
+- _OBJC_METACLASS_$_NSExtensionContext
+- _XPC_ACTIVITY_REQUIRES_CLASS_B
+- __Block_object_dispose
+- _allowCustomWakeUpPeriod
+- _binaryGCD
+- _dispatch_after
+- _dispatch_assert_queue$V2
+- _dispatch_async
+- _dispatch_async_f
+- _dispatch_get_global_queue
+- _dispatch_once
+- _dispatch_sync
+- _dispatch_time
+- _kDESDodMLPolicy_DefaultPeriod
+- _kHighMemoryExtensionPointName
+- _kLowMemoryExtensionPointName
+- _kRestrictedExtensionPointName
+- _objc_alloc_init
+- _objc_opt_respondsToSelector
+- _objc_release_x1
+- _objc_release_x27
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x4
+- _objc_retain_x6
+CStrings:
++ "\""
+- "%"
+- "%@"
+- "%@ Not responding to stop request?"
+- "%@ crashed?"
+- "%@ fail to return result with error=%@."
+- "%@ return results=%@."
+- "%@(%@, %@, %ld)"
+- "%@(%@, %@, %lu)"
+- "%@(%@, %ld, %f)"
+- "%@(%lu)"
+- "%@.%@"
+- "%@.%@.execution"
+- "%{public}@"
+- "."
+- "<%@ %@>"
+- "@\"<DESBundleRegistryManaging>\""
+- "@\"<DESPluginManaging>\""
+- "@\"<MLRTrialManaging>\""
+- "@\"DESBundleRegistry\""
+- "@\"DESDebugRecord\""
+- "@\"DESRecordStoreManager\""
+- "@\"DESSandBoxManager\""
+- "@\"DESUserDefaultsStoreRecord\""
+- "@\"MLRExtensionHostContext\""
+- "@\"MLRInternalTrialTaskResult\"32@0:8@\"MLRInternalTrialTask\"16^@24"
+- "@\"MLRPluginFactory\""
+- "@\"MLRTaskScheduler\""
+- "@\"MLRTrialManager\""
+- "@\"NSArray\"24@0:8@\"NSString\"16"
+- "@\"NSDate\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSExtension\""
+- "@\"NSHashTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSString\""
+- "@\"NSURL\""
+- "@\"NSUUID\""
+- "@32@0:8@\"<MLRInternalTaskRepresenting>\"16^@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24^@28"
+- "@40@0:8@16q24d32"
+- "@52@0:8@16@24B32@36@44"
+- "@?"
+- "B24@0:8^@16"
+- "B24@?0@\"NSURL\"8@\"NSError\"16"
+- "B32@0:8@16^@24"
+- "B40@0:8@16@24^@32"
+- "Cannot run: too early to run, plugin=%@, policy=%@"
+- "Cannot run: too late to run, plugin=%@, policy=%@"
+- "Cannot run: too many times (%ld), plugin=%@, policy=%@"
+- "Cannot run: too soon since last completion date (%@), plugin=%@, policy=%@"
+- "Cannot schedule plugin=%@ because D&U is not enabled"
+- "Cannot schedule plugin=%@ because it is missing"
+- "Could not garbage collect old recipe attachment: %@: %@"
+- "Could not read creation date of attachment %@: %@"
+- "Created worker=%@ for plugin=%@."
+- "DAS requests to stop task = %@"
+- "DESPluginManaging"
+- "DESRecordStoreService"
+- "DESTaskWorkerProtocol"
+- "Discovered extension=%@"
+- "Error performing block asynchronously with error=%@"
+- "Error performing block synchronously with error=%@"
+- "Evaluation has been deferred"
+- "Extension=%@ is being killed."
+- "Fail to create Sandbox extensions for task=%@ with error=%@."
+- "Fail to create remote object proxy"
+- "Fail to create remote object proxy."
+- "Fail to create worker for bundle=%@, with error=%@."
+- "Fail to enumerate all shadow evaluation tasks with error=%@."
+- "Fail to get TRIEvaluationStatusProvider."
+- "Fail to get host context for %@."
+- "Fail to issue sandbox extensions for downloaded attachment %@."
+- "Fail to perform with error=%{public}@"
+- "Fail to run task=%@ with error=%@."
+- "Fail to stop with error=%@"
+- "Fail to update task record with task=%@, error=%@"
+- "Failed to beginExtensionRequestWithOptions with error=%@"
+- "Failed to get correct host context with class = %@"
+- "Failed to simulate crash for extension=%@ with error=%@"
+- "Failed to stop with error=%@"
+- "Found >1 extensions for identifier=%@ extension point=%@"
+- "Found plugin %@"
+- "Garbage collected old recipe attachement at %@"
+- "Ignoring tasks after plugin=%@ is requested to stop."
+- "In requestCancellationBlock with error: %@"
+- "In requestInterruptionBlock"
+- "Invalid pluginType"
+- "MLRExtensionHostContext"
+- "MLRExtensionHostProtocol"
+- "MLRExtensionPluginManager"
+- "MLRExtensionRemoteProtocol"
+- "MLRPluginFactory"
+- "MLRPluginSchedulingRecord"
+- "MLRSandboxExtensionRequests"
+- "MLRSchedulerRecord"
+- "MLRSchedulingTask"
+- "MLRTaskScheduler"
+- "MLRTaskSchedulerDelegate"
+- "MLRTaskSchedulingRecord"
+- "MLRTrialManager"
+- "MLRTrialManaging"
+- "MLRTrialShadowExperimentTaskWorker"
+- "MLRXPCActivityTaskFedStatsWithLockedDevice"
+- "MLRXPCActivityTaskWithClassB"
+- "Nil TaskID or completionDate"
+- "Nil _trialManager. Please make sure Trial Framework is present."
+- "Nil extensionPoint"
+- "Nil identifier"
+- "Nil pluginID"
+- "Nil scheduling policy."
+- "No DES Record Directory extensions returned for %@."
+- "No Shadow Evaluation tasks for %@."
+- "Plugin doesn't support trial task."
+- "Plugin=%@ doesn't support Trial task."
+- "PluginManager should not be nil"
+- "Q"
+- "Reaching out to plugin to start compute, task=%@."
+- "Reaching out to plugin=%@ to start compute, sessionID=%@, remoteObjectProxy=%@."
+- "Request plugin=%@ to stop"
+- "Requested to defer by DAS."
+- "Requesting activation after stopped for plugin %@"
+- "Shadow evaluation task for pluginId=%@, evaluation=%@"
+- "Simulating crash for extension %@"
+- "Starting scheduling %ld tasks."
+- "Stopping task worker: %@."
+- "T@\"DESDebugRecord\",R,N,V_debugRecord"
+- "T@\"MLRTaskScheduler\",R,N,V_taskScheduler"
+- "T@\"NSDate\",&,N,V_lastCompletionDate"
+- "T@\"NSMutableDictionary\",R,N,V_shadowExperimentTasks"
+- "T@\"NSString\",R,N,V_bundleIdentifier"
+- "T@\"NSString\",R,N,V_recordID"
+- "TB,R,N,V_requestedToStop"
+- "TQ,N,V_periodInSeconds"
+- "Task %@ is deferred by DAS."
+- "Task Scheduler busy."
+- "Task scheduling deferred by DAS."
+- "Td,R,N,V_maxTimeLimit"
+- "Tq,N,V_performCount"
+- "Tq,R,N,V_source"
+- "Tq,R,N,V_wakeUpPeriodInSeconds"
+- "Trial Framework is not loaded."
+- "TrialManager should not be nil"
+- "Trouble enumerating %@: %@"
+- "URLs"
+- "Uh oh %@"
+- "Unable to find extension for identifier=%@ extensionPoint=%@, with error=%@"
+- "Unexpected sandbox extensions returned for submission log (%@)."
+- "Unknown plugin type for %@"
+- "Unloading plugin %@"
+- "Unrecognized bundle=%@."
+- "Waiting to kill plugin=%@ with %lld"
+- "Will start plugin=%@ with maxTimeLimit=%f seconds"
+- "_DASAllowTask:error:"
+- "_activateExtensionIfNecessary"
+- "_alwaysRun"
+- "_auxiliaryConnection"
+- "_baseURL"
+- "_bundleIdentifier"
+- "_bundleRegistry"
+- "_busy"
+- "_completeTaskRunWithResult:error:"
+- "_completionAfterTaskRun"
+- "_createSandBoxExtensions:error:"
+- "_debugRecord"
+- "_extension"
+- "_extensionAuxiliaryHostProtocol"
+- "_extensionAuxiliaryVendorProtocol"
+- "_extensionContextForUUID:"
+- "_failToGetHostError"
+- "_failToPerformErrorWithError:"
+- "_fides_shuffledArray"
+- "_graceIntervalBeforeKilling"
+- "_graceIntervalBeforeUnloading"
+- "_hostContext"
+- "_kill:"
+- "_killExtension:afterInterval:"
+- "_lastCompletionDate"
+- "_localeIdentifier"
+- "_maxTimeLimit"
+- "_maxTimeLimitForBundle:"
+- "_numOfCompletedTasks"
+- "_numOfExpectedTasks"
+- "_performAfterTask:duration:error:"
+- "_performCount"
+- "_periodInSeconds"
+- "_plugin"
+- "_pluginFactory"
+- "_pluginSupportTrialTask:"
+- "_recordDirectoriesForIdentifier:"
+- "_recordID"
+- "_recordStoreManager"
+- "_requestedToStop"
+- "_requestedToStopError"
+- "_sandBoxExtension"
+- "_scheduleNextTask"
+- "_sessionID"
+- "_setupExtensionHandlers"
+- "_shadowExperimentTasks"
+- "_skipTaskError"
+- "_source"
+- "_startTasks:completion:"
+- "_stopped"
+- "_storeRecord"
+- "_syncQueue"
+- "_taskExecutionQueue"
+- "_taskScheduler"
+- "_taskStopQueue"
+- "_taskWorkerQueue"
+- "_tasks"
+- "_trialManager"
+- "_triggerSimulatedCrash"
+- "_unload"
+- "_wakeUpPeriodInSeconds"
+- "_workers"
+- "addForTaskID:result:description:"
+- "addObjectsFromArray:"
+- "allBundleIds"
+- "allFedStatsUnrestrictedBundleIds"
+- "allNonFedStatsUnrestrictedBundleIds"
+- "allObjects"
+- "allUnrestrictedBundleIds"
+- "allowBypassDiagnosticsUsage:"
+- "array"
+- "attachments"
+- "beginExtensionRequestWithOptions:inputItems:error:"
+- "bundleID=%@"
+- "bundleIdentifier"
+- "cStringUsingEncoding:"
+- "canRunTask:"
+- "cancelExtensionRequestWithIdentifier:"
+- "code"
+- "com.apple.MLRuntime.MLRTaskScheduler.TaskStop"
+- "com.apple.MLRuntime.MLRTaskScheduler.TaskWorker"
+- "com.apple.mlruntimed.xpc_activity-classb"
+- "com.apple.mlruntimed.xpc_activity-fedstats"
+- "commitWithError:"
+- "compare:"
+- "completed=%ld, expected=%ld, to be scheduled=%ld."
+- "componentsSeparatedByString:"
+- "consumeExtensionsWithError:"
+- "containsBundleId:"
+- "copy"
+- "count"
+- "createTaskScheduler"
+- "createTaskWorkerForShadowEvaluationTask:completion:"
+- "createTaskWorkerForTask:completion:"
+- "currentCalendar"
+- "d16@0:8"
+- "d24@0:8@16"
+- "date"
+- "dateByAddingUnit:value:toDate:options:"
+- "debugInfoStringForPluginID:completion:"
+- "debugRecord"
+- "deleteAllSavedRecordsForBundleId:completion:"
+- "deleteSavedRecordForBundleId:identfier:completion:"
+- "deploymentId"
+- "diagnosticsUsageAllowed"
+- "dictionary"
+- "endAtDate"
+- "enumerateActiveEvaluationsForMLRuntimeWithError:block:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "error should not be nil"
+- "evaluationID"
+- "evaluationState"
+- "experimentId"
+- "experimentIdentifiers"
+- "extensionName"
+- "extensionsWithMatchingAttributes:error:"
+- "factory"
+- "fetchAllPluginIDs"
+- "fetchInstalledBundlesIdsWithCompletion may only be called by des_tool"
+- "fetchInstalledBundlesIdsWithCompletion:"
+- "fetchNativeRecordDataForRecordUUID:bundleId:completion:"
+- "fetchRecordsForBundleId:completion:"
+- "fetchSavedRecordInfoForRecordType:completion:"
+- "fetchTelemetryForBundleId may only be called by des_tool"
+- "fetchTelemetryForBundleId:completion:"
+- "filterPluginIDs:"
+- "firstObject"
+- "freshProvider"
+- "getResourceValue:forKey:error:"
+- "hasDirectoryPath"
+- "hasRecordAccessToBundleId:connection:error:"
+- "hasToolEntitlement:"
+- "i16@0:8"
+- "initFromStoreWithPluginID:taskSource:"
+- "initWithBaseURL:localeIdentifier:fromDesTool:"
+- "initWithBaseURL:localeIdentifier:fromDesTool:bundleRegistry:recordStoreManager:"
+- "initWithBundleIdentifier:taskSource:"
+- "initWithBundleIdentifier:taskSource:maxTimeLimit:"
+- "initWithBundleRegistry:"
+- "initWithEvaluationState:runtimeEvaluation:"
+- "initWithExperimentID:deploymentID:treatmentID:"
+- "initWithExtension:"
+- "initWithExtensions:"
+- "initWithPluginID:"
+- "initWithPluginID:taskSource:"
+- "initWithProvider:"
+- "initWithRecordID:"
+- "initWithTaskID:"
+- "initWithTrialManager:plugin:alwaysRun:"
+- "interfaceWithProtocol:"
+- "isEqualToString:"
+- "issueSandBoxExtensionsForFileURLs:requireWrite:outError:"
+- "lastCompletionDate"
+- "lastObject"
+- "maxPerformCount"
+- "maxTimeLimit"
+- "minInterval"
+- "mutableCopy"
+- "numberWithUnsignedInteger:"
+- "performCount"
+- "performOnRemoteObjectSynchronously:WithBlock:errorHandler:"
+- "performOnRemoteObjectSynchronouslyWithBlock:errorHandler:"
+- "performOnRemoteObjectWithBlock:errorHandler:"
+- "performTask:error:"
+- "performTask:sandBoxExtensions:completion:"
+- "performTrialTask:completion:"
+- "performTrialTask:outError:"
+- "periodInSeconds"
+- "pid"
+- "pluginId"
+- "pluginManagerForBundleIdentifier:endpoint:"
+- "pluginTypeForBundleId:"
+- "pluginWithBundleIdentifier:errorOut:"
+- "policy"
+- "processIdentifier"
+- "q"
+- "q16@0:8"
+- "recipe"
+- "recordDirURLsForBundleId:"
+- "recordID"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeAllObjects"
+- "removeItemAtURL:error:"
+- "removeLastObject"
+- "requestedToStop"
+- "requireWrite"
+- "runEvaluationForBundleId:recipePath:recordUUIDs:attachments:sandboxExtensions:completion:"
+- "runLiveEvaluationForAllBundles may only be called by des_tool"
+- "runLiveEvaluationForAllBundlesWithBaseURL:localeIdentifier:completion:"
+- "runLiveEvaluationForBundleId:taskSource:baseURL:localeIdentifier:completion:"
+- "runWithCompletion:"
+- "sandboxExtensionsForTask:error:"
+- "sandboxExtensionsToXPCConnection:fileURLs:requireWrite:outError:"
+- "saveCoreDuetEvent:completion:"
+- "saveRecordForBundleId:data:recordInfo:completion:"
+- "schedulerWakeupPeriodInSeconds"
+- "sendEventActivityScheduled"
+- "sendEventErrorForBundleID:error:"
+- "sendEventEvaluationForBundleID:evaluationID:duration:deferred:success:error:downloadedAttachmentCount:"
+- "sendEventEvaluationSessionFinishForBundleID:success:"
+- "sendEventEvaluationSessionStartForBundleID:"
+- "sendEventRecipeFetchedForBundleID:evaluationID:error:"
+- "sendEventTaskCompletedForBundleID:identifiers:error:"
+- "sendEventTaskFetchedForBundleID:identifiers:"
+- "sendEventTaskSchedulingFailedForBundleID:identifiers:error:"
+- "sendEventTaskSchedulingSucceededForBundleID:identifiers:"
+- "setLastCompletionDate:"
+- "setPerformCount:"
+- "setPeriodInSeconds:"
+- "setRequestCancellationBlock:"
+- "setRequestInterruptionBlock:"
+- "setSchedulerWakeupPeriodInSeconds:"
+- "setValue:forInfoKey:bundleID:completion:"
+- "shadowExperimentTasks"
+- "shadowExperimentTasksForPluginID:"
+- "sharedInstance"
+- "shouldTriggerSimulatedCrash"
+- "simulateCrash"
+- "source"
+- "startAfterDate"
+- "startTasks:completion:"
+- "startTasksForPluginIDs:completion:"
+- "stopWithCompletion:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "taskDidFinishWithError:"
+- "taskID"
+- "taskScheduler"
+- "tasksForPluginIDs:"
+- "telemetryResponse"
+- "timeIntervalSinceDate:"
+- "treatmentId"
+- "unload"
+- "unsignedIntegerValue"
+- "updateInterval"
+- "updateTaskAfterCompletion:taskID:error:"
+- "updateWakeUpPeriodInSeconds"
+- "v16@?0@\"<MLRExtensionRemoteProtocol>\"8"
+- "v16@?0@\"<NSCopying>\"8"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"<DESTaskWorkerProtocol>\"8@\"NSError\"16"
+- "v24@?0@\"<NSCopying>\"8@\"NSError\"16"
+- "v24@?0@\"MLRInternalTrialTaskResult\"8@\"NSError\"16"
+- "v24@?0@8@\"NSError\"16"
+- "v32@0:8@\"MLRInternalTrialTask\"16@?<v@?@\"MLRInternalTrialTaskResult\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@\"_DKEvent\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v32@0:8@?16@?24"
+- "v32@?0@\"TRIMLRuntimeEvaluation\"8@\"TRIFactorsState\"16^B24"
+- "v36@0:8B16@?20@?28"
+- "v40@0:8@\"<MLRInternalTaskRepresenting>\"16@\"NSArray\"24@?<v@?@@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSUUID\"16@\"NSString\"24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@16d24@32"
+- "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSDictionary\"32@?<v@?@\"NSUUID\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSDictionary\">40"
+- "v48@0:8@16@24@32@?40"
+- "v56@0:8@\"NSString\"16q24@\"NSURL\"32@\"NSString\"40@?<v@?@@\"NSError\">48"
+- "v56@0:8@16q24@32@40@?48"
+- "v64@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@?<v@?@\"NSDictionary\"@\"NSData\"@\"NSURL\"@\"NSError\">56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "wakeUpPeriodInSeconds"
+- "wakeUpWithCompletion:"
+- "weakObjectsHashTable"
+
+```
