@@ -124,6 +124,10 @@
 
 - [15.4 (24E248) .vs 15.5 beta 1 (24F5042g)](15_4_24E248__vs_15_5_24F5042g/README.md)
 
+### iOS 26.0 beta
+
+- [18.5 (22F76) .vs 26.0 (23A5260n)](18_5_22F76__vs_26_0_23A5260n/README.md)
+
 ### Generating Diffs
 
 Clone the kernel symbolicator signatures
